@@ -36,6 +36,19 @@ describe('buildSessionRecords', () => {
     expect(hr.value).toBe(0)
   })
 
+  test('a weak-but-plausible heart rate is kept as an estimate on a failed reading, never as a trusted one', () => {
+    const weak: Quality = { score: 0.5, passed: false, reason: 'lowSignal' }
+    const m = buildSessionRecords({ ...full, heartRate: { bpm: null, estimateBpm: 73, quality: weak, source: 'camera' } }, 'crew-1', NOW).measurements.find((x) => x.indicator === 'heartRate')!
+    expect(m.value).toBe(73)
+    expect(m.quality).toEqual(weak)
+  })
+
+  test('an estimate is ignored unless the only problem was a weak signal (motion, light, face stay at 0)', () => {
+    const bad: Quality = { score: 0, passed: false, reason: 'motion' }
+    const m = buildSessionRecords({ ...full, heartRate: { bpm: null, estimateBpm: 73, quality: bad, source: 'camera' } }, 'crew-1', NOW).measurements.find((x) => x.indicator === 'heartRate')!
+    expect(m.value).toBe(0)
+  })
+
   test('camera-derived readings use source camera, sample-video readings are labeled simulated', () => {
     const real = buildSessionRecords(full, 'crew-1', NOW).measurements
     expect(real.find((m) => m.indicator === 'heartRate')!.source).toBe('camera')

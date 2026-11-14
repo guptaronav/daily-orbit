@@ -17,13 +17,18 @@ export type CaptureDiagnostics = {
   candidateBpm: number | null
 }
 
+/** Average skin color per frame (numbers only, no images), for offline calibration. */
+export type CaptureTrace = { fps: number; r: number[]; g: number[]; b: number[] }
+
 export type CaptureAnalysis = {
   heartRate: HeartRateResult
   blink: BlinkMetrics & { quality: Quality }
   diagnostics: CaptureDiagnostics
+  trace: CaptureTrace
 }
 
 const round1 = (v: number) => Math.round(v * 10) / 10
+const round2 = (v: number) => Math.round(v * 100) / 100
 
 const fail = (reason: NonNullable<Quality['reason']>): Quality => ({ score: 0, passed: false, reason })
 
@@ -60,5 +65,6 @@ export function analyzeCapture(a: Assembled): CaptureAnalysis {
       prominence: heartRate.prominence,
       candidateBpm: heartRate.candidateBpm,
     },
+    trace: { fps: a.targetFps, r: a.r.map(round2), g: a.g.map(round2), b: a.b.map(round2) },
   }
 }

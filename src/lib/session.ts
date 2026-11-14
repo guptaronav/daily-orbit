@@ -7,7 +7,7 @@ type CameraSource = Extract<Source, 'camera' | 'simulated'>
 /** Everything one mirror check collects. Each part is optional because a check can be partial. */
 export type MirrorSession = {
   sessionId: string
-  heartRate?: { bpm: number | null; quality: Quality; source: CameraSource }
+  heartRate?: { bpm: number | null; estimateBpm?: number | null; quality: Quality; source: CameraSource }
   blink?: { blinkRate: number; eyelidClosurePct: number; quality: Quality; source: CameraSource }
   /** Only questions the person actually answered; unanswered ones are absent, never defaulted. */
   selfReport?: Partial<Record<'sleepQuality' | 'mood' | 'stress' | 'sleepHours' | 'appetite' | 'digestiveComfort', number>>
@@ -54,7 +54,12 @@ export function buildSessionRecords(session: MirrorSession, crewId: string, now:
     })
 
   const { heartRate, blink, selfReport, amsler, acuity, symptoms } = session
-  if (heartRate) add('heartRate', heartRate.bpm ?? 0, heartRate.source, heartRate.quality)
+  if (heartRate) {
+    // A weak-signal estimate is kept as the value of a FAILED reading (never trusted, colored or baselined).
+    // Only when weak signal was the sole problem; for motion, light or a lost face the value stays 0.
+    const estimate = heartRate.quality.reason === 'lowSignal' ? (heartRate.estimateBpm ?? 0) : 0
+    add('heartRate', heartRate.bpm ?? estimate, heartRate.source, heartRate.quality)
+  }
   if (blink) {
     add('blinkRate', blink.blinkRate, blink.source, blink.quality)
     add('eyelidClosure', blink.eyelidClosurePct, blink.source, blink.quality)

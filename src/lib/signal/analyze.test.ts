@@ -40,6 +40,14 @@ describe('analyzeCapture', () => {
     expect(Math.abs(d.candidateBpm! - 72)).toBeLessThanOrEqual(2)
   })
 
+  test('exposes a compact numbers-only trace for calibration (rounded, same length as the capture)', () => {
+    const a = assembled()
+    const { trace } = analyzeCapture(a)
+    expect(trace.fps).toBe(a.targetFps)
+    expect(trace.r).toHaveLength(a.r.length)
+    expect(trace.g.every((v) => v === Math.round(v * 100) / 100)).toBe(true)
+  })
+
   test('blink metrics are rounded to one decimal', () => {
     const { blink } = analyzeCapture(assembled())
     expect(blink.blinkRate).toBe(Math.round(blink.blinkRate * 10) / 10)

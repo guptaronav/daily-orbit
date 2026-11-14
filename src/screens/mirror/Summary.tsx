@@ -6,7 +6,7 @@ import { listMeasurements } from '../../db/repo'
 import { BASELINE_MIN_SAMPLES } from '../../lib/baseline'
 import { readIndicator } from '../../lib/bodyStatus'
 import { MAX_FACE_LOST, MAX_LUMA, MAX_MOTION, MIN_LUMA, MIN_PROMINENCE } from '../../lib/signal/constants'
-import type { CaptureDiagnostics } from '../../lib/signal/analyze'
+import type { CaptureDiagnostics, CaptureTrace } from '../../lib/signal/analyze'
 import { getContent } from '../../lib/content'
 import { formatValue } from '../../lib/format'
 import { retakeAdvice } from '../../lib/retake'
@@ -18,6 +18,7 @@ type Props = {
   /** Effort events this check-in earned. */
   earned: GameEventKind[]
   diagnostics?: CaptureDiagnostics | null
+  trace?: CaptureTrace | null
   onRetake: () => void
   onDone: () => void
 }
@@ -25,8 +26,18 @@ type Props = {
 // Shown in this order; only indicators that were actually measured this session appear.
 const ORDER: Indicator[] = ['heartRate', 'blinkRate', 'eyelidClosure', 'sleepHours', 'sleepQuality', 'mood', 'stress', 'appetite', 'digestiveComfort', 'amslerDistortion', 'nearAcuity', 'symptomReport']
 
-export function Summary({ crewId, sessionId, earned, diagnostics, onRetake, onDone }: Props) {
+export function Summary({ crewId, sessionId, earned, diagnostics, trace, onRetake, onDone }: Props) {
   const [all, setAll] = useState<Measurement[] | null>(null)
+  const [copied, setCopied] = useState<'idle' | 'ok' | 'failed'>('idle')
+
+  async function copyCapture() {
+    try {
+      await navigator.clipboard.writeText(JSON.stringify({ diagnostics, trace }))
+      setCopied('ok')
+    } catch {
+      setCopied('failed')
+    }
+  }
 
   useEffect(() => {
     let cancelled = false
@@ -53,12 +64,22 @@ export function Summary({ crewId, sessionId, earned, diagnostics, onRetake, onDo
         {mine.map(({ indicator, m }) => {
           const label = getContent(indicator).label
           if (!m.quality.passed) {
+            // A weak-signal heart rate keeps its best guess, shown as an estimate: gray, never colored, never baselined.
+            const estimate = indicator === 'heartRate' && m.quality.reason === 'lowSignal' && typeof m.value === 'number' && m.value > 0 ? m.value : null
             return (
               <li key={indicator} className="py-3">
                 <div className="flex flex-wrap items-baseline justify-between gap-2">
-                  <span className="font-medium">{label}</span>
-                  <StatusDot status="gray" label="Couldn't get a clean reading" />
+                  <span>
+                    <span className="font-medium">{label}</span>
+                    {estimate !== null && <span className="ml-3">about <strong>{estimate} bpm</strong></span>}
+                  </span>
+                  <StatusDot status="gray" label={estimate !== null ? 'Estimate only, low confidence' : "Couldn't get a clean reading"} />
                 </div>
+                {estimate !== null && (
+                  <p className="mt-1 text-sm">
+                    This is our best guess, not a clean reading, so it is not colored and not used for your baseline. Estimates like this are usually close; check against another device if it matters.
+                  </p>
+                )}
                 <p className="mt-1 text-sm text-muted">{retakeAdvice(m.quality.reason, indicator)}</p>
               </li>
             )
@@ -110,6 +131,16 @@ export function Summary({ crewId, sessionId, earned, diagnostics, onRetake, onDo
             <dt className="text-muted">Best-guess heart rate</dt>
             <dd>{diagnostics.candidateBpm === null ? 'none' : `${diagnostics.candidateBpm} bpm`}</dd>
           </dl>
+          {trace && (
+            <div className="mt-3 border-t border-rule pt-3">
+              <button onClick={() => void copyCapture()} className="text-accent underline underline-offset-4 hover:text-ink">
+                Copy capture data
+              </button>
+              <span role="status" className="ml-3 text-xs text-muted">
+                {copied === 'ok' ? 'Copied.' : copied === 'failed' ? 'Could not copy.' : 'Numbers only (average face color per frame). No video or images.'}
+              </span>
+            </div>
+          )}
         </details>
       )}
       <div className="flex flex-wrap gap-3">
