@@ -169,7 +169,7 @@ export function Metrics() {
                   <Counter value={t.savedHoursPerMission} decimals={1} />
                   <span className="value-unit"> crew hours</span>
                 </p>
-                <p className="mono mt-1 text-sm text-muted">
+                <p className="mt-1 text-sm text-muted">
                   {time.crewSize} crew &times; {time.missionDays} days &middot;{' '}
                   {t.savedHoursPerMission >= 0 ? 'given back' : 'spent extra'}
                 </p>
@@ -237,7 +237,7 @@ export function Metrics() {
         </Panel>
       </div>
 
-      <p className="mono mt-8 max-w-3xl text-sm leading-relaxed text-muted">
+      <p className="mt-8 max-w-3xl text-sm leading-relaxed text-muted">
         The same assumptions are written down in NOTES.md so they end up on the limitations slide rather than being quietly forgotten.
       </p>
     </main>

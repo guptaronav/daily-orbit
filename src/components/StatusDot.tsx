@@ -17,46 +17,55 @@ export const STATUS_TEXT: Record<Status, string> = {
   gray: 'var(--color-nodata-ink)',
 }
 
-/** The short word a console shows when there is no room for the full sentence. */
+/** Tints for pill backgrounds. */
+export const STATUS_WASH: Record<Status, string> = {
+  green: 'var(--color-ok-wash)',
+  yellow: 'var(--color-watch-wash)',
+  red: 'var(--color-act-wash)',
+  gray: 'var(--color-nodata-wash)',
+}
+
+/** The short word a dense row shows when there is no room for the full sentence. */
 export const STATUS_SHORT: Record<Status, string> = {
-  green: 'nominal',
-  yellow: 'watch',
-  red: 'act',
-  gray: 'no data',
+  green: 'Nominal',
+  yellow: 'Watch',
+  red: 'Act',
+  gray: 'No data',
 }
 
 type Props = {
   status: Status
   label?: string
-  /** 'sm' for dense lists, 'md' for a panel header. */
   size?: 'sm' | 'md'
-  /** Use the one-word form ("nominal") instead of the full sentence. */
+  /** Use the one-word form ("Watch") instead of the full sentence. */
   short?: boolean
 }
 
 /**
- * Color is never the only signal: the status word is always shown beside the swatch, and the
- * pill's border and text carry the AA-contrast variant of the same hue.
+ * Status as a tinted pill. Color is never the only signal: the word is inside the pill, so the
+ * meaning survives a monochrome print, a color-blind reader and a bad projector.
  */
 export function StatusDot({ status, label, size = 'sm', short = false }: Props) {
   const text = label ?? (short ? STATUS_SHORT[status] : STATUS_LABEL[status])
   return (
-    <span className="pill" style={{ color: STATUS_TEXT[status], fontSize: size === 'md' ? '0.75rem' : undefined }}>
-      <span
-        aria-hidden
-        className={size === 'md' ? 'inline-block h-2.5 w-2.5' : 'inline-block h-2 w-2'}
-        style={{ background: STATUS_COLOR[status] }}
-      />
+    <span
+      className="pill"
+      style={{
+        background: STATUS_WASH[status],
+        color: STATUS_TEXT[status],
+        fontSize: size === 'md' ? '0.875rem' : undefined,
+      }}
+    >
       {text}
     </span>
   )
 }
 
-/** Bare swatch plus text, for legends and dense rows where a bordered pill would be noise. */
+/** Swatch plus text, for legends where the color square itself is the thing being explained. */
 export function StatusSwatch({ status, label }: { status: Status; label?: string }) {
   return (
-    <span className="inline-flex items-center gap-2 text-sm" style={{ color: STATUS_TEXT[status] }}>
-      <span aria-hidden className="inline-block h-3 w-3" style={{ background: STATUS_COLOR[status] }} />
+    <span className="pill" style={{ background: STATUS_WASH[status], color: STATUS_TEXT[status] }}>
+      <span aria-hidden className="inline-block h-2.5 w-2.5 rounded-full" style={{ background: STATUS_COLOR[status] }} />
       {label ?? STATUS_LABEL[status]}
     </span>
   )

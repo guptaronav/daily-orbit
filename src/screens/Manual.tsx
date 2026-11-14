@@ -117,7 +117,7 @@ function EntryCard({ form, onLogged, delay }: { form: EntryForm; onLogged: (entr
         </span>
         <div className="min-w-0 flex-1">
           <h2 className="text-base font-semibold tracking-tight">{form.title}</h2>
-          <p className="mono truncate text-sm text-muted">
+          <p className="truncate text-sm text-muted">
             {regionLabelFor({ indicator: form.fields[0].indicator, value: 0, unit: '' })} region
           </p>
         </div>
@@ -134,7 +134,7 @@ function EntryCard({ form, onLogged, delay }: { form: EntryForm; onLogged: (entr
                 <label className="label" htmlFor={`${form.kind}-${f.name}`}>
                   {f.label}
                 </label>
-                <span className="mono text-sm text-muted">{f.unit}</span>
+                <span className="text-sm text-muted">{f.unit}</span>
               </div>
               <div className="mt-2">
                 <Stepper
@@ -277,7 +277,7 @@ export function Manual() {
                   <span className="mono mt-0.5 shrink-0 text-sm text-muted">{entry.at}</span>
                   <span className="min-w-0 flex-1">
                     <span className="mono block truncate text-sm">{entry.text}</span>
-                    <span className="mono text-sm text-muted">{entry.region}</span>
+                    <span className="text-sm text-muted">{entry.region}</span>
                   </span>
                   {entry.points > 0 && (
                     <span className="pill shrink-0" style={{ color: 'var(--color-accent)' }}>

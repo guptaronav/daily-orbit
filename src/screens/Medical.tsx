@@ -120,7 +120,7 @@ export function Medical() {
                   <Avatar crew={v.crew} size={54} status={v.worst} badge />
                   <div className="min-w-0 flex-1">
                     <p className="truncate text-base font-semibold tracking-tight">{v.crew.name}</p>
-                    <p className="mono truncate text-sm text-muted">{v.crew.role}</p>
+                    <p className="truncate text-sm text-muted">{v.crew.role}</p>
                   </div>
                   {v.crew.id === crewId && <span className="label shrink-0">selected</span>}
                 </div>
@@ -141,7 +141,7 @@ export function Medical() {
                     <span className="label">Worst region</span>
                     <StatusDot status={v.worst} short />
                   </div>
-                  <p className="mono mt-2 text-sm leading-relaxed text-muted">
+                  <p className="mt-2 text-sm leading-relaxed text-muted">
                     {v.flagged.length === 0
                       ? 'No region outside baseline.'
                       : v.flagged.map((f) => `${f.label}: ${STATUS_LABEL[f.status].toLowerCase()}`).join(' · ')}
@@ -149,7 +149,7 @@ export function Medical() {
                   <div className="meter mt-3">
                     <span style={{ width: `${(v.indicatorsWithData / v.indicatorsTotal) * 100}%` }} />
                   </div>
-                  <p className="mono mt-1.5 flex items-center justify-between text-sm text-muted">
+                  <p className="mt-1.5 flex items-center justify-between text-sm text-muted">
                     <span>
                       {v.indicatorsWithData}/{v.indicatorsTotal} measured
                     </span>
@@ -157,7 +157,7 @@ export function Medical() {
                       open <Icon name="arrowRight" size={12} />
                     </span>
                   </p>
-                  <p className="mono mt-2 text-sm text-muted">{v.crew.dataLabel}</p>
+                  <p className="mt-2 text-sm text-muted">{v.crew.dataLabel}</p>
                 </div>
               </button>
             </li>

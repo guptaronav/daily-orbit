@@ -36,7 +36,7 @@ function Field({ label, children }: { label: string; children: React.ReactNode }
   return (
     <div>
       <dt className="label">{label}</dt>
-      <dd className="mono mt-1 text-sm">{children}</dd>
+      <dd className="mt-1 text-sm">{children}</dd>
     </div>
   )
 }
@@ -71,14 +71,14 @@ export function IndicatorCard({ reading }: { reading: IndicatorReading }) {
         </div>
         <div className="text-right">
           {baseline ? (
-            <p className="mono text-sm text-muted">
+            <p className="text-sm text-muted">
               baseline {baseline.mean.toFixed(1)} ± {baseline.sd.toFixed(1)} {content.unit}
               <br />
               <span className="text-sm">n={baseline.n} prior readings</span>
             </p>
           ) : (
             latest &&
-            typeof latest.value === 'number' && <p className="mono text-sm text-muted">no baseline yet (needs 5 readings)</p>
+            typeof latest.value === 'number' && <p className="text-sm text-muted">no baseline yet (needs 5 readings)</p>
           )}
         </div>
       </div>

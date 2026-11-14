@@ -152,7 +152,7 @@ export function BodyMap() {
           {currentCrew && <Avatar crew={currentCrew} size={64} status={worst} />}
           <div>
             <h1 className="text-3xl font-semibold tracking-tight sm:text-4xl">{currentCrew?.name ?? 'Crew'}</h1>
-            <p className="mono mt-1 text-sm text-muted">
+            <p className="mt-1 text-sm text-muted">
               {currentCrew?.role} · {currentCrew?.dataLabel}
             </p>
           </div>
@@ -192,13 +192,12 @@ export function BodyMap() {
           ))}
         </div>
 
-        <div className="order-first flex flex-col items-center lg:order-none">
+        <div className="order-first flex flex-col items-center rounded-[var(--r-panel)] bg-panel-2 px-4 py-6 lg:order-none">
           <BodyFigure
             statuses={statuses}
             selected={selected}
             onSelect={setSelected}
             markers
-            scan
             className="h-[clamp(320px,46vh,440px)] w-auto max-w-full"
           />
           <p className="mt-3 text-base text-muted">
