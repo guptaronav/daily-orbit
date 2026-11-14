@@ -18,7 +18,8 @@ The source of truth is `src/lib/dataCoverage.ts`, and a test (`dataCoverage.test
 | Symptom report | Mirror check | Radiation replay follow-ups | Early-reporting design goal |
 | **Digestive comfort** (gut) | Mirror check | | HRP: Host-Microorganism Interactions ("Skin and gut microbiomes can change in space"). Standard Measures: microbiome from fecal samples (we do not collect samples) |
 | **Appetite** (nutrition) | Mirror check | | HRP: Inadequate Food and Nutrition |
-| **Body mass** | | Manual entry | HRP: Inadequate Food and Nutrition. ISS crews measure body mass regularly (PubMed 25197887) |
+| **Bowel movements** (gut) | NASA bed-rest data (Crew 3) | Manual entry | NASA bed-rest Case Report Forms, daily log (doi:10.83263/wjw1-ta27). HRP: Host-Microorganism Interactions (our mapping) |
+| **Body mass** | Manual entry, NASA bed-rest data (Crew 3) | | HRP: Inadequate Food and Nutrition. ISS crews measure body mass regularly (PubMed 25197887) |
 | Blood sugar | | Manual entry | HRP: Inadequate Food and Nutrition (our mapping). Standard Measures: biochemical markers from blood |
 | Blood pressure (sys, dia) | | Manual entry | Standard Measures: sensorimotor tests record blood pressure. HRP: Cardiovascular Adaptations (BP itself is not named on the risks page) |
 | Body temperature | | Manual entry | Named in the challenge. We found no NASA page that mentions it |

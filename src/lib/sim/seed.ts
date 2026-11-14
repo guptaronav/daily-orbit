@@ -1,7 +1,9 @@
 import { getThreshold } from '../../config/thresholds'
 import type { CrewMember, GameEvent, Indicator, Measurement } from '../../contract/types'
+import { BEDREST_DATA_LABEL, BEDREST_INDICATORS, loadBedrestEvents, loadBedrestMeasurements } from './bedrest'
 import { gaussian, mulberry32 } from './rng'
 
+const BEDREST_CREW = 'crew-3'
 const DAYS = 30
 const DAY_MS = 86_400_000
 const MISSED_CHECKIN_PROB = 0.08
@@ -52,7 +54,7 @@ const CLAMP: Record<keyof Profile, [number, number]> = {
 export const CREW: CrewMember[] = [
   { id: 'crew-1', name: 'Crew 1', role: 'Commander', dataLabel: 'Simulated data' },
   { id: 'crew-2', name: 'Crew 2', role: 'Flight engineer', dataLabel: 'Simulated data' },
-  { id: 'crew-3', name: 'Crew 3', role: 'Mission specialist', dataLabel: 'Simulated data' },
+  { id: 'crew-3', name: 'Crew 3', role: 'Mission specialist', dataLabel: BEDREST_DATA_LABEL },
   { id: 'guest', name: 'You (guest crew member)', role: 'Guest', dataLabel: 'Simulated data' },
 ]
 
@@ -104,5 +106,13 @@ export function generateCrew(seed: number, now: Date = new Date()): SeedData {
       }
     }
   }
-  return { crew: CREW, measurements, events }
+
+  // Crew 3 runs on real NASA bed-rest data wherever the participant has it; the rest stays simulated.
+  // Per indicator it is all real or all simulated, never mixed, so a card never blends the two.
+  const realMeasurements = loadBedrestMeasurements(BEDREST_CREW, now)
+  return {
+    crew: CREW,
+    measurements: [...measurements.filter((m) => !(m.crewId === BEDREST_CREW && BEDREST_INDICATORS.has(m.indicator))), ...realMeasurements],
+    events: [...events.filter((e) => !(e.crewId === BEDREST_CREW && e.kind === 'exerciseComplete')), ...loadBedrestEvents(BEDREST_CREW, now)],
+  }
 }

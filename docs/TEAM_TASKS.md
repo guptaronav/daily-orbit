@@ -125,6 +125,8 @@ Node 24 is required for the data scripts (`node scripts/foo.ts` runs TypeScript 
 
 ### E1. Download the NASA open-access bed-rest data  ~45 min, **start now**
 
+> **Status: done** on branch `feat/bedrest-import` (inventory in `NOTES.md`, section "E1"). Raw data is already in `data-raw/`.
+
 The NASA Life Sciences Portal renders with JavaScript, so a script can't fetch it. Do this by hand in a real browser.
 1. Open https://nlsp.nasa.gov. Find the open-access head-down-tilt bed-rest datasets from UTMB (Campaign 1, Campaign 3, and the 70-day Campaign 11 on exercise and performance).
 2. Download every file offered into a local folder `data-raw/nasa-bedrest/` (it is gitignored; do not commit raw data).
@@ -133,6 +135,8 @@ The NASA Life Sciences Portal renders with JavaScript, so a script can't fetch i
 **Done when:** `NOTES.md` has a complete, accurate inventory. If there is **no** usable data, tell Ronav immediately; it changes the demo plan.
 
 ### E2. Bed-rest import  ~3 h (needs E1)
+
+> **Status: done** on branch `feat/bedrest-import`: `scripts/import-bedrest.ts`, `src/data/bedrest.json`, `src/lib/sim/bedrest.ts`, parser in `src/lib/bedrest/`. Crew 3 now runs on it. Remaining for E2: the exercise-versus-control comparison (not investigated) and importing sleep, glucose and cognition from the other studies.
 
 **Files you own:** `scripts/import-bedrest.ts`, `src/data/bedrest.json`, new `src/lib/sim/bedrest.ts`.
 
