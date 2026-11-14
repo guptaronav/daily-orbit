@@ -16,7 +16,7 @@ export function RewardsView({ v }: { v: any }) {
         <main id="main" tabIndex={-1} style={S({ flex: '1', width: '100%', maxWidth: '1440px', margin: '0 auto', padding: '24px clamp(16px, 3vw, 32px) 72px', boxSizing: 'border-box', outline: 'none', display: 'flex', flexDirection: 'column', gap: '20px' })}>
           <section data-reveal="1" aria-label="Profile" style={S({ position: 'relative', borderRadius: '32px', overflow: 'hidden', background: 'var(--panel)', border: '1px solid var(--rule)', animation: 'rw-rise 520ms cubic-bezier(.22,1,.36,1) both' })}>
             <div style={S({ position: 'relative', overflow: 'hidden', height: 'clamp(130px, 18vw, 200px)', background: v.bannerBg, transition: 'background 400ms ease' })}>
-              <FloatingCrew crew={v.crew} gear={v.gear} size={46} duration={18} />
+              <FloatingCrew crew={v.crew} gear={v.gear} size={72} duration={16} />
             </div>
             <div style={S({ display: 'flex', flexWrap: 'wrap', alignItems: 'flex-end', justifyContent: 'space-between', gap: '20px 32px', padding: '0 clamp(20px, 3vw, 36px) 28px', marginTop: '-64px' })}>
               <div style={S({ display: 'flex', flexWrap: 'wrap', alignItems: 'flex-end', gap: '20px' })}>
@@ -502,7 +502,7 @@ export function RewardsView({ v }: { v: any }) {
         </main>
         {(v.toast) ? (
           <>
-          <div key={v.toastKey} role="status" style={S({ position: 'fixed', left: '50%', bottom: '112px', zIndex: '50', display: 'flex', alignItems: 'center', gap: '10px', padding: '12px 18px', borderRadius: '999px', background: '#14181f', color: '#f3f1ea', fontSize: '15px', fontWeight: '600', boxShadow: '0 16px 40px -16px rgba(20,24,31,.6)', animation: 'rw-toast 2.6s cubic-bezier(.22,1,.36,1) forwards', whiteSpace: 'nowrap' })}>
+          <div key={v.toastKey} role="status" style={S({ pointerEvents: 'none', position: 'fixed', left: '50%', bottom: '112px', zIndex: '50', display: 'flex', alignItems: 'center', gap: '10px', padding: '12px 18px', borderRadius: '999px', background: '#14181f', color: '#f3f1ea', fontSize: '15px', fontWeight: '600', boxShadow: '0 16px 40px -16px rgba(20,24,31,.6)', animation: 'rw-toast 2.6s cubic-bezier(.22,1,.36,1) forwards', whiteSpace: 'nowrap' })}>
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#7ef0c5" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round">
               <path d="M20 6 9 17l-5-5">
               </path>

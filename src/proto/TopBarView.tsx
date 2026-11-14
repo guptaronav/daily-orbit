@@ -189,7 +189,7 @@ export function TopBarView({ v }: { v: any }) {
             <>
             <div style={S({ position: 'absolute', top: '8px', right: '0', zIndex: '40', width: 'min(340px, calc(100vw - 24px))', background: 'var(--panel)', border: '1px solid var(--rule)', borderRadius: '24px', boxShadow: '0 24px 50px -24px rgba(20,24,31,.4)', overflow: 'hidden', animation: 'chm-drop 220ms cubic-bezier(.22,1,.36,1) both' })}>
               <div style={S({ position: 'relative', overflow: 'hidden', height: '72px', background: v.bannerBg })}>
-                <FloatingCrew crew={v.crew} gear={v.gear} size={26} duration={12} />
+                <FloatingCrew crew={v.crew} gear={v.gear} size={38} duration={11} />
               </div>
               <div style={S({ padding: '0 18px 16px', marginTop: '-34px', position: 'relative' })}>
                 <P.Avatar crew={v.crew} gear={v.gear} size={68} ring="var(--panel)" />
