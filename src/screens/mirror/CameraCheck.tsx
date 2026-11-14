@@ -137,10 +137,10 @@ export function CameraCheck({ onComplete }: { onComplete: (result: CameraResult)
   if (phase === 'intro') {
     return (
       <section aria-labelledby="camera-intro" className="space-y-5">
-        <h2 id="camera-intro" className="text-xl font-semibold tracking-tight">
+        <h2 id="camera-intro" className="text-2xl font-bold tracking-tight">
           Look at the screen for about a minute
         </h2>
-        <p className="max-w-xl text-sm">
+        <p className="max-w-xl text-[0.9375rem] leading-relaxed">
           The camera measures your heart rate from tiny color changes in your face and tracks your blinking for signs of fatigue. While it records, you will answer three quick sliders.
         </p>
         <p className="max-w-xl border-l-4 border-accent pl-3 text-sm">
@@ -154,14 +154,14 @@ export function CameraCheck({ onComplete }: { onComplete: (result: CameraResult)
             Use sample recording
           </button>
         </div>
-        <p className="text-xs text-muted">No webcam? The sample recording runs the same analysis on a bundled video so you can see it work.</p>
+        <p className="text-sm text-muted">No webcam? The sample recording runs the same analysis on a bundled video so you can see it work.</p>
       </section>
     )
   }
 
   return (
     <section aria-labelledby="camera-heading" className="space-y-4">
-      <h2 id="camera-heading" className="text-xl font-semibold tracking-tight">
+      <h2 id="camera-heading" className="text-2xl font-bold tracking-tight">
         {phase === 'capturing' ? 'Hold still and look at the screen' : 'Position your face'}
       </h2>
 
@@ -174,7 +174,7 @@ export function CameraCheck({ onComplete }: { onComplete: (result: CameraResult)
         </p>
       )}
 
-      <div className="relative w-full max-w-xl overflow-hidden border border-ink bg-ink">
+      <div className="relative w-full max-w-2xl overflow-hidden rounded-[var(--r-panel)] border border-ink bg-ink">
         <video ref={videoRef} playsInline muted aria-label="Live camera preview" className="block w-full -scale-x-100" />
         <svg viewBox="0 0 100 75" className="pointer-events-none absolute inset-0 h-full w-full" aria-hidden>
           <ellipse cx="50" cy="38" rx="17" ry="24" fill="none" stroke={outline} strokeWidth="1.2" strokeDasharray={checks?.ready || phase === 'capturing' ? undefined : '3 2'} />
@@ -184,7 +184,7 @@ export function CameraCheck({ onComplete }: { onComplete: (result: CameraResult)
 
       {phase === 'position' && (
         <>
-          <p role="status" aria-live="polite" className="text-sm font-medium">
+          <p role="status" aria-live="polite" className="font-semibold">
             {error || modelError || !ready
               ? ''
               : !landmarker
@@ -219,7 +219,7 @@ export function CameraCheck({ onComplete }: { onComplete: (result: CameraResult)
             <div className="h-2 w-full max-w-xl bg-rule" role="progressbar" aria-label="Capture progress" aria-valuemin={0} aria-valuemax={100} aria-valuenow={Math.round(progress * 100)}>
               <div className="h-full origin-left bg-accent" style={{ transform: `scaleX(${progress})` }} />
             </div>
-            <p className="mt-1 text-xs text-muted">{faceNow ? 'Reading…' : 'Face lost. Move back into the outline.'}</p>
+            <p className="mt-1 text-sm text-muted">{faceNow ? 'Reading…' : 'Face lost. Move back into the outline.'}</p>
           </div>
           <div className="max-w-xl space-y-3">
             <p className="text-sm text-muted">While we read your pulse, answer what you like (0 is lowest, 10 is highest). Skipped questions are not saved.</p>
@@ -239,7 +239,7 @@ export function CameraCheck({ onComplete }: { onComplete: (result: CameraResult)
                   const raw = e.target.value
                   setReport(({ sleepHours: _dropped, ...rest }) => (raw === '' ? rest : { ...rest, sleepHours: Math.min(14, Math.max(0, Number(raw))) }))
                 }}
-                className="w-20 border border-rule bg-panel px-2 py-1 text-right"
+                className="field h-11 w-24 py-0 text-right"
               />
             </label>
           </div>

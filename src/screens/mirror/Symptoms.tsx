@@ -42,12 +42,12 @@ export function Symptoms({ onComplete, busy }: { onComplete: (result: SymptomRes
 
   return (
     <section aria-labelledby="symptoms-heading" className="space-y-4">
-      <h2 id="symptoms-heading" className="text-xl font-semibold tracking-tight">
+      <h2 id="symptoms-heading" className="text-2xl font-bold tracking-tight">
         Anything feel off today?
       </h2>
-      <p className="max-w-xl text-sm text-muted">Optional. Reporting early is useful and earns credit. Leave it empty if you have nothing to report.</p>
-      <div className="max-w-xl space-y-3 border border-rule bg-panel p-4">
-        <h3 className="text-sm font-semibold">Gut and nutrition (optional)</h3>
+      <p className="max-w-xl text-[0.9375rem] leading-relaxed text-muted">Optional. Reporting early is useful and earns credit. Leave it empty if you have nothing to report.</p>
+      <div className="card max-w-xl space-y-3 p-5">
+        <h3 className="font-bold">Gut and nutrition (optional)</h3>
         {GUT.map(({ key, label, hint }) => (
           <OptionalSlider
             key={key}
@@ -61,20 +61,24 @@ export function Symptoms({ onComplete, busy }: { onComplete: (result: SymptomRes
       <fieldset className="grid gap-2 sm:grid-cols-2">
         <legend className="sr-only">Symptoms</legend>
         {OPTIONS.map((label) => (
-          <label key={label} className="flex items-center gap-2 border border-rule bg-panel px-3 py-2 text-sm">
-            <input type="checkbox" checked={picked.has(label)} onChange={() => toggle(label)} />
-            {label}
+          <label
+            key={label}
+            className="card flex min-h-[52px] cursor-pointer items-center gap-3 px-4 py-2.5"
+            style={picked.has(label) ? { borderColor: 'var(--color-ink)', background: 'var(--color-accent-wash)' } : undefined}
+          >
+            <input type="checkbox" className="h-5 w-5 accent-ink" checked={picked.has(label)} onChange={() => toggle(label)} />
+            <span className="font-medium">{label}</span>
           </label>
         ))}
       </fieldset>
-      <label className="block text-sm">
+      <label className="block font-semibold">
         Anything else (optional)
         <textarea
           value={note}
           onChange={(e) => setNote(e.target.value)}
           rows={3}
           maxLength={500}
-          className="mt-1 block w-full border border-rule bg-panel p-2"
+          className="field mt-1.5 block"
         />
       </label>
       <button onClick={submit} disabled={busy} className={btnPrimary}>

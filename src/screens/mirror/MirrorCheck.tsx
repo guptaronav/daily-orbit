@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Icon } from '../../components/kit/Icon'
 import { listEvents, saveSession } from '../../db/repo'
 import { creditableKinds } from '../../lib/scoring'
 import { sessionEventKinds, type MirrorSession } from '../../lib/session'
@@ -71,9 +72,37 @@ export function MirrorCheck() {
     setStep('camera')
   }
 
+  const STEPS: { id: Step; label: string }[] = [
+    { id: 'camera', label: 'Camera' },
+    { id: 'vision', label: 'Vision' },
+    { id: 'symptoms', label: 'How you feel' },
+    { id: 'summary', label: 'Result' },
+  ]
+  const atStep = STEPS.findIndex((s) => s.id === step)
+
   return (
-    <main className="mx-auto w-full max-w-3xl px-4 py-8 sm:px-8">
-      <h1 className="mb-6 text-2xl font-semibold tracking-tight">Mirror check</h1>
+    <main className="mx-auto w-full max-w-4xl px-4 pb-10 pt-8 sm:px-8">
+      {/* Where you are in the check. Announced once, not per step, so it is not chatty. */}
+      <ol className="flex flex-wrap items-center gap-2" aria-label={`Mirror check, step ${atStep + 1} of ${STEPS.length}`}>
+        {STEPS.map((s, i) => (
+          <li key={s.id}>
+            <span
+              className="pill"
+              aria-current={i === atStep ? 'step' : undefined}
+              style={
+                i <= atStep
+                  ? { background: 'var(--color-ink)', color: 'var(--color-paper)' }
+                  : { background: 'var(--color-paper-deep)', color: 'var(--color-muted)' }
+              }
+            >
+              {i < atStep && <Icon name="check" size={12} />}
+              {s.label}
+            </span>
+          </li>
+        ))}
+      </ol>
+
+      <h1 className="display mt-5 mb-7 text-4xl sm:text-5xl">Mirror check</h1>
       {step === 'camera' && <CameraCheck onComplete={onCamera} />}
       {step === 'vision' && <Vision onComplete={onVision} />}
       {step === 'symptoms' && <Symptoms onComplete={onSymptoms} busy={saving} />}

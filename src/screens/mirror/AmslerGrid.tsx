@@ -25,7 +25,7 @@ export function AmslerGrid({ n, marked, onToggle, eyeLabel }: Props) {
   }
 
   return (
-    <div className="relative aspect-square w-full max-w-[360px] border border-ink bg-panel" role="group" aria-label={`Amsler grid, ${eyeLabel}`}>
+    <div className="relative aspect-square w-full max-w-[420px] rounded-[var(--r-card)] border border-ink bg-panel" role="group" aria-label={`Amsler grid, ${eyeLabel}`}>
       <div className="grid h-full w-full" style={{ gridTemplateColumns: `repeat(${n}, 1fr)` }}>
         {Array.from({ length: n * n }, (_, i) => {
           const row = Math.floor(i / n)

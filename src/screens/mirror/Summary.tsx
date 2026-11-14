@@ -59,7 +59,7 @@ export function Summary({ crewId, sessionId, earned, alreadyCounted, diagnostics
 
   return (
     <section aria-labelledby="summary-heading" className="space-y-5">
-      <h2 id="summary-heading" className="text-xl font-semibold tracking-tight">
+      <h2 id="summary-heading" className="text-2xl font-bold tracking-tight">
         Check-in complete
       </h2>
       <ul className="divide-y divide-rule border-y border-rule">
@@ -72,7 +72,7 @@ export function Summary({ crewId, sessionId, earned, alreadyCounted, diagnostics
               <li key={indicator} className="py-3">
                 <div className="flex flex-wrap items-baseline justify-between gap-2">
                   <span>
-                    <span className="font-medium">{label}</span>
+                    <span className="font-semibold">{label}</span>
                     {estimate !== null && <span className="ml-3">about <strong>{estimate} bpm</strong></span>}
                   </span>
                   <StatusDot status="gray" label={estimate !== null ? 'Estimate only, low confidence' : "Couldn't get a clean reading"} />
@@ -93,7 +93,7 @@ export function Summary({ crewId, sessionId, earned, alreadyCounted, diagnostics
           return (
             <li key={indicator} className="flex flex-wrap items-baseline justify-between gap-2 py-3">
               <span>
-                <span className="font-medium">{label}</span>
+                <span className="font-semibold">{label}</span>
                 <span className="ml-3 text-muted">{formatValue(m)}</span>
               </span>
               <StatusDot status={reading.status} label={label2} />
@@ -101,16 +101,16 @@ export function Summary({ crewId, sessionId, earned, alreadyCounted, diagnostics
           )
         })}
       </ul>
-      <p className="max-w-xl text-sm text-muted">Colors compare each reading with your own baseline. A reading we could not trust is never colored.</p>
+      <p className="max-w-xl text-[0.9375rem] leading-relaxed text-muted">Colors compare each reading with your own baseline. A reading we could not trust is never colored.</p>
       <section aria-labelledby="credit-heading" className="max-w-xl border-l-4 border-accent bg-panel p-4">
-        <h3 id="credit-heading" className="text-sm font-semibold">
-          Credit earned: {pointsFor(earned.map((kind) => ({ kind })))} points
+        <h3 id="credit-heading" className="font-bold">
+          Credit earned: {pointsFor(earned.map((kind) => ({ kind })))} coins
         </h3>
         <ul className="mt-2 text-sm">
           {earned.map((kind) => (
             <li key={kind} className="flex justify-between gap-4">
               <span>{EVENT_LABEL[kind]}</span>
-              <span className="font-medium">+{POINTS[kind]}</span>
+              <span className="font-semibold">+{POINTS[kind]}</span>
             </li>
           ))}
         </ul>
@@ -119,10 +119,10 @@ export function Summary({ crewId, sessionId, earned, alreadyCounted, diagnostics
             Already counted today, so no new credit: {alreadyCounted.map((k) => EVENT_LABEL[k].toLowerCase()).join(', ')}. Each kind of credit counts once a day.
           </p>
         )}
-        <p className="mt-2 text-xs text-muted">Points come from what you did, not from your readings. A hard day earns exactly what an easy one does.</p>
+        <p className="mt-2 text-sm text-muted">Coins come from what you did, not from your readings. A hard day earns exactly what an easy one does.</p>
       </section>
       {diagnostics && (
-        <details className="max-w-xl border border-rule bg-panel p-3 text-sm">
+        <details className="max-w-xl card p-4 text-sm">
           <summary className="cursor-pointer font-medium">Measurement details</summary>
           <dl className="mt-3 grid grid-cols-[1fr_auto] gap-x-6 gap-y-1">
             <dt className="text-muted">Footage analyzed</dt>
@@ -140,10 +140,10 @@ export function Summary({ crewId, sessionId, earned, alreadyCounted, diagnostics
           </dl>
           {trace && (
             <div className="mt-3 border-t border-rule pt-3">
-              <button onClick={() => void copyCapture()} className="text-accent underline underline-offset-4 hover:text-ink">
+              <button onClick={() => void copyCapture()} className="btn-quiet">
                 Copy capture data
               </button>
-              <span role="status" className="ml-3 text-xs text-muted">
+              <span role="status" className="ml-3 text-sm text-muted">
                 {copied === 'ok' ? 'Copied.' : copied === 'failed' ? 'Could not copy.' : 'Numbers only (average face color per frame). No video or images.'}
               </span>
             </div>
