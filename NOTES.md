@@ -89,6 +89,35 @@ Hand-rolled rather than pulled from a component library, because the rule is no 
 - The figure's scan line and aura are decorative, dimmed to near-nothing on the paper theme (`--scan-opacity`, `--aura-opacity`), and carry no information.
 - `Sigma` (for example "-7.4σ") is the existing z-score from `src/lib/status.ts` shown directly. It is a statistical distance from that person's own baseline, never a clinical severity.
 
+### The UI overhaul runs the prototype itself (src/proto/)
+
+The overhaul was designed as a set of `.dc.html` prototypes with their own logic and a shared
+`data.js`. Instead of re-drawing them by hand, they are ported mechanically so the app renders
+exactly what the prototypes render:
+
+- `src/proto/*View.tsx` are generated from each prototype's markup with its inline styles verbatim
+  (the converter lives outside the repo; regenerate rather than hand-edit). Prototype variable
+  names (`--ink`, `--panel`...) are aliased to the app's tokens in `index.css`.
+- `src/proto/logic/*.logic.ts` are each prototype's own logic class, run unchanged through a
+  small `DCLogic` shim (`src/proto/dc.tsx`).
+- `src/proto/data.ts` is `data.js` ported. Its presentation helpers are verbatim; its DATA is
+  rewired to the real database: readings and their status come from the app's own
+  `readIndicator`, coins are the real credited points from `scoring.ts`, and the ground packet,
+  entry validation and both simulations are the tested `lib/` functions.
+
+Deliberate departures from the prototype, all to keep it honest:
+
+- The prototype's `earn()` minted coins freely. Here every earn is a real event (supply drop or
+  streak milestone), so the once-per-day credit cap applies and nothing pays for a health value.
+- The prototype let you tap a daily task "done". Here a task opens the screen where it is done,
+  and its credit arrives from that real flow.
+- The daily crate pays a fixed amount (the supply-drop rate), not a random 10 to 30.
+- Spending coins on gear is cosmetic and local (localStorage); it never touches a reading.
+- Screens the prototype had not drawn (mirror check, radiation, sources, crew progress) were
+  disabled in its menu. They exist here, so they link, and they wear the same frame.
+- Tailwind arbitrary values containing commas (h-[clamp(a,b,c)]) do not generate in this setup;
+  the generated views use inline styles, which sidesteps it.
+
 ## Sources
 
 Verified by reading the primary pages on 2026-11-14:

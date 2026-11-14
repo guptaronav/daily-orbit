@@ -1,0 +1,124 @@
+
+/* ---- LandingView (from the prototype) ---- */
+
+.landingview-hover-1:hover { color: #f3f1ea !important }
+.landingview-active-2:active { transform: translateY(6px) !important;box-shadow: 0 0 0 transparent !important }
+.landingview-hover-3:hover { color: var(--ink) !important }
+.landingview-active-4:active { transform: translateY(6px) !important;box-shadow: 0 0 0 transparent !important }
+.landingview-hover-5:hover { color: #3b2a00 !important }
+.landingview-active-6:active { transform: translateY(5px) !important;box-shadow: none !important }
+.landingview-hover-7:hover { transform: translateY(-6px) rotate(-1deg) !important }
+.landingview-hover-8:hover { color: var(--accent) !important }
+.landingview-hover-9:hover { color: #3b2a00 !important }
+.landingview-active-10:active { transform: translateY(6px) !important;box-shadow: none !important }
+
+/* ---- BodyMapView (from the prototype) ---- */
+
+.bodymapview-hover-1:hover { transform: translateY(-2px) !important;color: var(--paper) !important }
+.bodymapview-hover-2:hover { border-color: var(--ink) !important;background: var(--panel-2) !important;color: var(--ink) !important }
+.bodymapview-hover-3:hover { color: var(--accent) !important }
+.bodymapview-active-4:active { transform: translateY(4px) !important;box-shadow: none !important }
+.bodymapview-hover-5:hover { border-color: var(--ink) !important;color: var(--ink) !important }
+.bodymapview-hover-6:hover { color: var(--accent) !important }
+
+/* ---- ManualView (from the prototype) ---- */
+
+.manualview-hover-1:hover { background: var(--paper-deep) !important }
+.manualview-active-2:active { transform: scale(.9) !important }
+.manualview-hover-3:hover { background: var(--paper-deep) !important }
+.manualview-active-4:active { transform: scale(.9) !important }
+.manualview-active-5:active { transform: translateY(5px) !important;box-shadow: 0 0 0 transparent !important }
+.manualview-active-6:active { transform: translateY(4px) !important;box-shadow: none !important }
+.manualview-hover-7:hover { color: var(--paper) !important }
+
+/* ---- EscalationView (from the prototype) ---- */
+
+.escalationview-active-1:active { transform: translateY(8px) !important;box-shadow: 0 0 0 transparent !important }
+.escalationview-hover-2:hover { color: var(--ink) !important }
+.escalationview-hover-3:hover { border-color: var(--accent) !important;color: var(--accent) !important }
+.escalationview-hover-4:hover { color: var(--ink) !important;background: color-mix(in srgb, var(--ink) 7%, transparent) !important }
+
+/* ---- MedicalView (from the prototype) ---- */
+
+.medicalview-active-1:active { transform: translateY(4px) !important;box-shadow: none !important }
+
+/* ---- MetricsView (from the prototype) ---- */
+
+.metricsview-hover-1:hover { border-color: var(--rule-strong) !important }
+.metricsview-hover-2:hover { color: var(--accent) !important }
+.metricsview-hover-3:hover { color: var(--accent) !important }
+
+/* ---- RewardsView (from the prototype) ---- */
+
+.rewardsview-active-1:active { transform: translateY(3px) !important;box-shadow: none !important }
+.rewardsview-active-2:active { transform: translateY(5px) !important;box-shadow: 0 0 0 transparent !important }
+.rewardsview-active-3:active { transform: translateY(4px) !important;box-shadow: none !important }
+.rewardsview-hover-4:hover { transform: translateY(-4px) !important }
+.rewardsview-active-5:active { transform: translateY(4px) !important;box-shadow: none !important }
+
+/* ---- OnboardingView (from the prototype) ---- */
+
+.onboardingview-hover-1:hover { background: var(--paper-deep) !important;color: var(--ink) !important }
+.onboardingview-active-2:active { transform: translateY(3px) !important;border-bottom-width: 2px !important }
+.onboardingview-active-3:active { transform: scale(.96) !important }
+.onboardingview-active-4:active { transform: scale(.96) !important }
+.onboardingview-active-5:active { transform: translateY(5px) !important;box-shadow: 0 0 0 transparent !important }
+
+/* ---- TopBarView (from the prototype) ---- */
+@keyframes chm-drop { from { opacity: 0; transform: translateY(-8px) scale(.97) } to { opacity: 1; transform: none } }
+    @keyframes chm-bump { 0% { transform: scale(1) } 35% { transform: scale(1.18) } 100% { transform: scale(1) } }
+    @keyframes chm-float { 0% { opacity: 0; transform: translate(-50%, 6px) } 20% { opacity: 1 } 100% { opacity: 0; transform: translate(-50%, -26px) } }
+    @keyframes chm-spin { to { transform: rotate(360deg) } }
+    [data-noscroll]::-webkit-scrollbar { display: none; }
+    input[data-chm-range] { -webkit-appearance: none; appearance: none; width: 100%; height: 44px; background: transparent; cursor: pointer; margin: 0; }
+    input[data-chm-range]::-webkit-slider-runnable-track { height: 6px; border-radius: 999px; background: linear-gradient(to right, var(--ink) 0 var(--pct, 0%), var(--paper-deep) var(--pct, 0%) 100%); }
+    input[data-chm-range]::-moz-range-track { height: 6px; border-radius: 999px; background: linear-gradient(to right, var(--ink) 0 var(--pct, 0%), var(--paper-deep) var(--pct, 0%) 100%); }
+    input[data-chm-range]::-webkit-slider-thumb { -webkit-appearance: none; width: 22px; height: 22px; margin-top: -8px; border-radius: 999px; background: var(--panel); border: 2px solid var(--ink); box-shadow: 0 2px 6px rgba(20,24,31,.25); transition: transform 160ms cubic-bezier(.34,1.56,.64,1); }
+    input[data-chm-range]::-moz-range-thumb { width: 22px; height: 22px; border-radius: 999px; background: var(--panel); border: 2px solid var(--ink); }
+    input[data-chm-range]:hover::-webkit-slider-thumb, input[data-chm-range]:focus-visible::-webkit-slider-thumb { transform: scale(1.15); }
+    input[data-chm-range]:focus-visible { outline: none; }
+    @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important } }
+.topbarview-focus-1:focus-visible { left: 16px !important }
+.topbarview-hover-2:hover { color: var(--ink) !important }
+.topbarview-hover-3:hover { color: var(--ink) !important }
+.topbarview-hover-4:hover { border-color: var(--rule-strong) !important }
+.topbarview-hover-5:hover { color: #f3f1ea !important }
+.topbarview-hover-6:hover { background: var(--panel-2) !important }
+.topbarview-hover-7:hover { background: var(--panel-2) !important }
+.topbarview-hover-8:hover { background: var(--panel-2) !important }
+.topbarview-hover-9:hover { background: var(--panel-2) !important }
+.topbarview-hover-10:hover { background: var(--panel-2) !important }
+.topbarview-hover-11:hover { background: var(--panel-2) !important }
+
+/* ---- CrewDockView (from the prototype) ---- */
+@keyframes chm-pop { from { opacity: 0; transform: translate(-50%, 6px) scale(.97) } to { opacity: 1; transform: translate(-50%, 0) scale(1) } }
+    @keyframes chm-dock-in { from { opacity: 0; transform: translate(-50%, 24px) } to { opacity: 1; transform: translate(-50%, 0) } }
+.crewdockview-hover-1:hover { background: var(--paper-deep) !important;color: var(--ink) !important }
+.crewdockview-hover-2:hover { background: color-mix(in srgb, var(--ink) 5%, transparent) !important }
+.crewdockview-active-3:active { transform: translateY(4px) !important;box-shadow: none !important }
+.crewdockview-hover-4:hover { background: color-mix(in srgb, var(--ink) 7%, transparent) !important;transform: translateY(-3px) !important }
+.crewdockview-hover-5:hover { background: color-mix(in srgb, var(--ink) 5%, transparent) !important }
+.crewdockview-hover-6:hover { color: var(--ink) !important;background: color-mix(in srgb, var(--ink) 5%, transparent) !important }
+
+/* ---- SiteFooterView (from the prototype) ---- */
+
+.sitefooterview-hover-1:hover { color: var(--accent) !important }
+.sitefooterview-hover-2:hover { color: var(--accent) !important }
+.sitefooterview-hover-3:hover { color: var(--accent) !important }
+.sitefooterview-hover-4:hover { color: var(--accent) !important }
+.sitefooterview-hover-5:hover { color: var(--accent) !important }
+.sitefooterview-hover-6:hover { color: var(--accent) !important }
+.sitefooterview-hover-7:hover { color: var(--accent) !important }
+
+/* ---- AvatarView (from the prototype) ---- */
+@property --holo { syntax: "<angle>"; initial-value: 0deg; inherits: false; }
+    @keyframes chm-holo { to { --holo: 360deg; } }
+    @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important } }
+
+
+/* ---- BodyFigureView (from the prototype) ---- */
+@keyframes chm-sweep { 0% { transform: translateY(-6%); opacity: 0 } 12%, 88% { opacity: .7 } 100% { transform: translateY(106%); opacity: 0 } }
+    @keyframes chm-ping { 0% { transform: scale(.6); opacity: .9 } 100% { transform: scale(1.6); opacity: 0 } }
+    @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important } }
+.bodyfigureview-focus-1:focus-visible { fill-opacity: 0.5 !important }
+.bodyfigureview-hover-2:hover { opacity: .82 !important }

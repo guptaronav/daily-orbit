@@ -1,7 +1,7 @@
 import { getThreshold } from '../config/thresholds'
 import type { Indicator } from '../contract/types'
 
-export type EntryKind = 'bloodPressure' | 'temperature' | 'bloodSugar' | 'sleepHours' | 'exerciseMinutes'
+export type EntryKind = 'bloodPressure' | 'temperature' | 'bloodSugar' | 'bodyMass' | 'sleepHours' | 'exerciseMinutes'
 
 export type EntryField = {
   /** Form field name, unique inside its form. */
@@ -61,6 +61,12 @@ export const ENTRY_FORMS: readonly EntryForm[] = [
     title: 'Blood sugar',
     hint: 'From a glucose meter, in mg/dL.',
     fields: [field('bloodSugar', 'Blood sugar', 'bloodSugar', 10, 900, 1)],
+  },
+  {
+    kind: 'bodyMass',
+    title: 'Body mass',
+    hint: 'From the body mass measurement device, in kilograms.',
+    fields: [field('bodyMass', 'Body mass', 'bodyMass', 20, 300, 0.1)],
   },
   {
     kind: 'sleepHours',

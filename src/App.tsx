@@ -1,20 +1,24 @@
 import { Suspense, lazy, useCallback, useEffect, useState } from 'react'
 import { DemoPanel } from './components/DemoPanel'
-import { Footer } from './components/Footer'
-import { TopBar } from './components/TopBar'
-import { Escalation } from './screens/Escalation'
-import { Landing } from './screens/Landing'
-import { Manual } from './screens/Manual'
-import { Medical } from './screens/Medical'
-import { Metrics } from './screens/Metrics'
-import { Onboarding } from './screens/Onboarding'
-import { Progress } from './screens/Progress'
+import { usePrototypeLinks } from './proto/dc'
+import {
+  BodyMapPage,
+  EscalationPage,
+  LandingPage,
+  ManualPage,
+  MedicalPage,
+  MetricsPage,
+  OnboardingPage,
+  ProtoFrame,
+  RewardsPage,
+} from './proto/pages'
+import './proto/proto.css'
+import { bridge, useProtoStore } from './proto/store'
 import { Radiation } from './screens/Radiation'
 import { Sources } from './screens/Sources'
 import { AppProvider, useApp } from './state/AppContext'
 
-// The charts (body map) and the camera pipeline (mirror check) are the heavy parts: load them on demand.
-const BodyMap = lazy(() => import('./screens/BodyMap').then((m) => ({ default: m.BodyMap })))
+// The camera pipeline is the heavy part: load it on demand.
 const MirrorCheck = lazy(() => import('./screens/mirror/MirrorCheck').then((m) => ({ default: m.MirrorCheck })))
 
 const ONBOARDED_KEY = 'chm-onboarded'
@@ -28,51 +32,83 @@ const hasOnboarded = (): boolean => {
   }
 }
 
-/** Marks setup done and sends you straight into the thing setup was for. */
+/** First-run setup. Leaving it, by finishing or skipping, marks setup done. */
 function OnboardingGate({ onFinished }: { onFinished: () => void }) {
-  const { go } = useApp()
-  return (
-    <Onboarding
-      onDone={() => {
-        onFinished()
-        try {
-          localStorage.setItem(ONBOARDED_KEY, '1')
-        } catch {
-          // Not remembering is fine; the landing page always offers setup again.
-        }
-        go('mirror')
-      }}
-    />
+  useEffect(
+    () => () => {
+      try {
+        localStorage.setItem(ONBOARDED_KEY, '1')
+      } catch {
+        // Not remembering is fine; the landing page always offers setup again.
+      }
+      onFinished()
+    },
+    [onFinished],
   )
+  return <OnboardingPage />
 }
 
 function Screen() {
-  const { screen, ready } = useApp()
+  const { screen, ready, crew, dataVersion } = useApp()
+  const storeReady = useProtoStore(crew, dataVersion)
   // First visit lands in setup instead of the hero; afterwards the hero is the home screen.
   const [setupDone, setSetupDone] = useState(hasOnboarded)
-  if (!ready) return <main className="p-8 text-muted">Loading crew data…</main>
-  if (screen === 'onboarding' || (screen === 'landing' && !setupDone)) return <OnboardingGate onFinished={() => setSetupDone(true)} />
-  if (screen === 'landing') return <Landing />
-  if (screen === 'bodymap') return <BodyMap />
-  if (screen === 'mirror') return <MirrorCheck />
-  if (screen === 'progress') return <Progress />
-  if (screen === 'manual') return <Manual />
-  if (screen === 'escalation') return <Escalation />
-  if (screen === 'radiation') return <Radiation />
-  if (screen === 'medical') return <Medical />
-  if (screen === 'metrics') return <Metrics />
-  if (screen === 'sources') return <Sources />
-  // Remaining screens land in later plan tasks.
-  return <main className="p-8 text-muted">Screen "{screen}" is not built yet.</main>
+  const finish = useCallback(() => setSetupDone(true), [])
+
+  if (!ready || !storeReady) return <main style={{ padding: 32, color: 'var(--muted)' }}>Loading crew data…</main>
+  if (screen === 'onboarding' || (screen === 'landing' && !setupDone)) return <OnboardingGate onFinished={finish} />
+  if (screen === 'landing') return <LandingPage />
+  if (screen === 'bodymap') return <BodyMapPage />
+  if (screen === 'manual') return <ManualPage />
+  if (screen === 'escalation') return <EscalationPage />
+  if (screen === 'medical') return <MedicalPage />
+  if (screen === 'metrics') return <MetricsPage />
+  if (screen === 'progress') return <RewardsPage />
+  if (screen === 'mirror') {
+    return (
+      <ProtoFrame current="Mirror check">
+        <Suspense fallback={<main style={{ padding: 32, color: 'var(--muted)' }}>Loading…</main>}>
+          <MirrorCheck />
+        </Suspense>
+      </ProtoFrame>
+    )
+  }
+  if (screen === 'radiation') {
+    return (
+      <ProtoFrame current="Radiation">
+        <Radiation />
+      </ProtoFrame>
+    )
+  }
+  if (screen === 'sources') {
+    return (
+      <ProtoFrame current="Sources">
+        <Sources />
+      </ProtoFrame>
+    )
+  }
+  return <main style={{ padding: 32, color: 'var(--muted)' }}>Screen "{screen}" is not built yet.</main>
 }
 
 // Shift+D (or the "Demo controls" link on the landing page) toggles the demo panel.
 const DEMO_EVENT = 'demo:toggle'
 
 function Shell() {
-  const { screen } = useApp()
+  const app = useApp()
   const [demoOpen, setDemoOpen] = useState(false)
   const toggleDemo = useCallback(() => setDemoOpen((o) => !o), [])
+
+  // The prototype pages read and change app state through the store's bridge.
+  bridge.crewId = app.crewId
+  bridge.envId = app.environment.id
+  bridge.delaySec = app.delaySec
+  bridge.setCrewId = app.setCrewId
+  bridge.setEnvironmentId = app.setEnvironmentId
+  bridge.setDelaySec = app.setDelaySec
+  bridge.go = app.go
+  bridge.refresh = app.refresh
+
+  usePrototypeLinks()
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -89,17 +125,10 @@ function Shell() {
   }, [toggleDemo])
 
   return (
-    <div className="flex min-h-screen flex-col">
-      {screen !== 'onboarding' && <TopBar />}
-      {/* Target for the TopBar's "Skip to content" link (A1 accessibility pass). */}
-      <div id="main" tabIndex={-1} className="flex flex-1 flex-col outline-none">
-        <Suspense fallback={<main className="p-8 text-muted">Loading…</main>}>
-          <Screen />
-        </Suspense>
-      </div>
-      <Footer />
+    <>
+      <Screen />
       <DemoPanel open={demoOpen} onClose={() => setDemoOpen(false)} />
-    </div>
+    </>
   )
 }
 

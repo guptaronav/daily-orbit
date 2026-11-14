@@ -2,7 +2,7 @@ import { describe, expect, it } from 'vitest'
 import { getThreshold } from '../config/thresholds'
 import { ENTRY_FORMS, getForm, validateEntry, type EntryKind } from './manualEntry'
 
-const KINDS: EntryKind[] = ['bloodPressure', 'temperature', 'bloodSugar', 'sleepHours', 'exerciseMinutes']
+const KINDS: EntryKind[] = ['bloodPressure', 'temperature', 'bloodSugar', 'bodyMass', 'sleepHours', 'exerciseMinutes']
 
 const ok = (kind: EntryKind, raw: Record<string, string>) => {
   const result = validateEntry(kind, raw)
@@ -17,7 +17,7 @@ const err = (kind: EntryKind, raw: Record<string, string>) => {
 }
 
 describe('ENTRY_FORMS', () => {
-  it('has exactly the five forms the spec asks for', () => {
+  it('has the five spec forms plus body mass from the overhaul', () => {
     expect(ENTRY_FORMS.map((f) => f.kind)).toEqual(KINDS)
   })
 
@@ -105,6 +105,11 @@ describe('validateEntry: rejected input', () => {
 
   it('says the range is an input guard, not a health limit', () => {
     expect(err('bloodSugar', { bloodSugar: '901' }).error).toMatch(/input guard/i)
+  })
+
+  it('accepts body mass in kilograms and rejects a gram-sized typo', () => {
+    expect(ok('bodyMass', { bodyMass: '76.4' })).toEqual([{ indicator: 'bodyMass', value: 76.4, unit: 'kg' }])
+    expect(err('bodyMass', { bodyMass: '76400' }).field).toBe('bodyMass')
   })
 
   it('rejects swapped blood-pressure numbers', () => {

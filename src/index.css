@@ -684,3 +684,31 @@ body {
     flex: 0 0 auto;
   }
 }
+
+/* ---- Prototype aliases ---------------------------------------------------
+ * The overhaul prototypes use short variable names (--ink, --panel, --rule...).
+ * Aliasing them here lets their inline styles be ported verbatim, so a ported
+ * screen matches the prototype exactly rather than approximately.
+ */
+:root {
+  --ink: var(--color-ink);
+  --ink-soft: var(--color-ink-soft);
+  --paper: var(--color-paper);
+  --paper-deep: var(--color-paper-deep);
+  --panel: var(--color-panel);
+  --panel-2: var(--color-panel-2);
+  --rule: var(--color-rule);
+  --rule-strong: var(--color-rule-strong);
+  --muted: var(--color-muted);
+  --accent: var(--color-accent);
+  --accent-wash: var(--color-accent-wash);
+  --on-accent: var(--color-on-accent);
+  --ok: var(--color-ok);
+  --ok-ink: var(--color-ok-ink);
+  --watch: var(--color-watch);
+  --watch-ink: var(--color-watch-ink);
+  --act: var(--color-act);
+  --act-ink: var(--color-act-ink);
+  --nodata: var(--color-nodata);
+  --nodata-ink: var(--color-nodata-ink);
+}
