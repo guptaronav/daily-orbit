@@ -3,6 +3,7 @@
 // GENERATED from the UI overhaul prototype by dc2jsx.py. Styles are the prototype's, verbatim.
 // Edit the view model that feeds this, not this markup, unless you are re-porting the prototype.
 import { Fragment } from 'react'
+import { FloatingCrew } from './FloatingCrew'
 import * as P from './parts'
 import { S } from './parts'
 
@@ -83,7 +84,8 @@ export function MedicalView({ v }: { v: any }) {
                 <Fragment key={v_i}>
               <li style={S({ display: 'flex', animation: `cr-rise 560ms ${v.delay} cubic-bezier(.22,1,.36,1) both` })}>
                 <article onMouseEnter={v.enter} onMouseLeave={v.leave} style={S({ position: 'relative', display: 'flex', flexDirection: 'column', width: '100%', borderRadius: '28px', background: 'var(--panel)', border: `2px solid ${v.border}`, overflow: 'hidden', transform: v.lift, boxShadow: v.shadow, transition: 'transform 320ms cubic-bezier(.34,1.56,.64,1), box-shadow 300ms ease, border-color 200ms ease' })}>
-                  <div style={S({ position: 'relative', height: '104px', background: v.banner })}>
+                  <div style={S({ position: 'relative', overflow: 'hidden', height: '104px', background: v.banner })}>
+                    <FloatingCrew crew={v.crew} gear={v.gear} size={30} duration={15} />
                     <div style={S({ position: 'absolute', top: '12px', left: '12px', right: '12px', display: 'flex', justifyContent: 'space-between', gap: '6px' })}>
                       <span style={S({ padding: '4px 10px', borderRadius: '999px', background: v.chipBg, color: v.chipInk, fontSize: '12.5px', fontWeight: '700', whiteSpace: 'nowrap' })}>
                         {v.word}

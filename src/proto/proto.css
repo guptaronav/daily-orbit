@@ -122,3 +122,14 @@
     @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important } }
 .bodyfigureview-focus-1:focus-visible { fill-opacity: 0.5 !important }
 .bodyfigureview-hover-2:hover { opacity: .82 !important }
+
+/* FloatingCrew: drift down through a banner, tumbling slowly, then come round again. */
+@keyframes chm-drift {
+  0% { left: -12%; top: -45%; transform: rotate(0deg); opacity: 0; }
+  6% { opacity: 1; }
+  88% { opacity: 1; }
+  100% { left: 104%; top: 80%; transform: rotate(calc(var(--spin, 1) * 540deg)); opacity: 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .chm-drift { animation: none !important; left: 72% !important; top: 18% !important; transform: rotate(-12deg); }
+}
