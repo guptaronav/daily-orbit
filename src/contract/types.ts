@@ -70,6 +70,7 @@ export type GameEventKind =
   // value, so they cannot give anyone a reason to hide a symptom.
   | 'supplyDrop'
   | 'streakMilestone'
+  | 'readingLogged'
 
 export type GameEvent = {
   id: string

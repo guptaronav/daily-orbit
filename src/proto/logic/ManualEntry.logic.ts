@@ -26,13 +26,13 @@ export class ManualEntryLogic extends DCLogic {
     const res = D.validateEntry(form.kind, this.state.raw[form.kind] || {})
     if (!res.ok) return this.setState((p) => ({ problem: { ...p.problem, [form.kind]: res }, saved: { ...p.saved, [form.kind]: null }, shake: { ...p.shake, [form.kind]: (p.shake[form.kind] || 0) + 1 } }))
     const text = res.values.map((v) => `${v.label.toLowerCase()} ${v.value} ${v.unit}`).join(', ')
-    let points = 0
-    if (form.kind === 'exerciseMinutes') points = D.completeTask(id, 'exercise')
-    if (!points) { points = 5; D.earn(id, 5, `Logged ${form.title.toLowerCase()}`) }
+    // Departure from the prototype: it never saved the reading. This writes the measurements and
+    // the effort credit, and returns only the coins the credit cap will actually pay.
+    const points = D.logReading(id, form.kind, res.values)
     const at = new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
     this.setState((p) => ({
       raw: { ...p.raw, [form.kind]: {} }, problem: { ...p.problem, [form.kind]: null },
-      saved: { ...p.saved, [form.kind]: { text, region: form.region } }, fx: { ...p.fx, [form.kind]: { n: points, k: ((p.fx[form.kind] || {}).k || 0) + 1 } },
+      saved: { ...p.saved, [form.kind]: { text, region: form.region } }, fx: points > 0 ? { ...p.fx, [form.kind]: { n: points, k: ((p.fx[form.kind] || {}).k || 0) + 1 } } : p.fx,
       log: [{ text: `${form.title}: ${res.values.map((v) => `${v.value} ${v.unit}`).join(' / ')}`, at, region: form.region, points, icon: D.ICONS[form.icon] }, ...p.log],
     }))
   }

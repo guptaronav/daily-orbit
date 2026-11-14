@@ -789,7 +789,7 @@ export function BodyMapView({ v }: { v: any }) {
                       Recommended action
                     </p>
                     <p style={S({ margin: '4px 0 0', fontSize: '14px', fontStyle: 'italic', color: 'var(--muted)' })}>
-                      [CONTENT TODO]
+                      {k.action}
                     </p>
                   </div>
                   <p style={S({ margin: '0', padding: '14px 22px', borderTop: '1px solid var(--rule)', fontSize: '12.5px', lineHeight: '1.5', color: 'var(--muted)' })}>

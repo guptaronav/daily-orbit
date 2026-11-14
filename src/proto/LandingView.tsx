@@ -34,7 +34,7 @@ export function LandingView({ v }: { v: any }) {
                 On a long mission there is no clinic down the hall. This app reads what it can from your webcam, compares it with your own baseline, and tells you when to escalate — and when it cannot get a clean reading, it says so instead of guessing.
               </p>
               <div style={S({ display: 'flex', flexWrap: 'wrap', gap: '12px', animation: 'ld-rise 700ms 240ms cubic-bezier(.22,1,.36,1) both' })}>
-                <a href="Onboarding.dc.html" style={S({ display: 'inline-flex', alignItems: 'center', gap: '10px', minHeight: '58px', padding: '0 26px', borderRadius: '18px', background: '#14181f', color: '#f3f1ea', textDecoration: 'none', fontSize: '16px', fontWeight: '750', boxShadow: '0 6px 0 #000', transition: 'transform 90ms ease, box-shadow 90ms ease' })} className="landingview-hover-1 landingview-active-2">
+                <a href="Mirror.dc.html" style={S({ display: 'inline-flex', alignItems: 'center', gap: '10px', minHeight: '58px', padding: '0 26px', borderRadius: '18px', background: '#14181f', color: '#f3f1ea', textDecoration: 'none', fontSize: '16px', fontWeight: '750', boxShadow: '0 6px 0 #000', transition: 'transform 90ms ease, box-shadow 90ms ease' })} className="landingview-hover-1 landingview-active-2">
                   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.9" strokeLinecap="round" strokeLinejoin="round">
                     <path d={v.scanIcon}>
                     </path>

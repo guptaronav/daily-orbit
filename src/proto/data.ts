@@ -14,12 +14,16 @@
  *  - Spending coins on gear is cosmetic and kept in localStorage; it never touches a reading.
  *  - App state (crew, environment, delay) is the real AppContext, through the store's bridge.
  */
-import { addEvent } from '../db/repo'
+import { INDICATORS } from '../contract/types'
+import { addEvent, addMeasurement } from '../db/repo'
+import { getThreshold } from '../config/thresholds'
+import { getContent } from '../lib/content'
+import { REGIONS as APP_REGIONS } from '../lib/regions'
 import { readIndicator } from '../lib/bodyStatus'
 import { formatDelay as appFormatDelay } from '../lib/environments'
 import { ENTRY_FORMS as APP_FORMS, validateEntry as appValidate } from '../lib/manualEntry'
 import { buildPacket as appBuildPacket } from '../lib/packet'
-import { POINTS as APP_POINTS, SYSTEMS as APP_SYSTEMS, WEEKLY_GOAL_PER_CREW as APP_GOAL, creditedEvents, pointsFor, pointsInWindow } from '../lib/scoring'
+import { POINTS as APP_POINTS, SYSTEMS as APP_SYSTEMS, WEEKLY_GOAL_PER_CREW as APP_GOAL, creditableKinds, creditedEvents, pointsFor, pointsInWindow } from '../lib/scoring'
 import {
   REPORTING_DEFAULTS as APP_REPORTING,
   TIME_DEFAULTS as APP_TIME,
@@ -120,7 +124,7 @@ export const ICONS = {
   x: 'M18 6 6 18 M6 6l12 12',
 }
 
-const IND = {
+const PROTO_IND = {
   sleepHours: ['Sleep hours', 'h', 1], sleepQuality: ['Sleep quality', '0-10', 1], mood: ['Mood', '0-10', 1], stress: ['Stress', '0-10', 1],
   blinkRate: ['Blink rate', 'blinks/min', 2], eyelidClosure: ['Eyelid closure', '%', 2], amslerDistortion: ['Amsler grid distortion', '', 0],
   nearAcuity: ['Near acuity', 'logMAR', 2], heartRate: ['Heart rate', 'bpm', 0], bloodPressureSys: ['Blood pressure (systolic)', 'mmHg', 0],
@@ -128,6 +132,13 @@ const IND = {
   temperature: ['Temperature', '°C', 1], symptomReport: ['Symptom report', '', 0], digestiveComfort: ['Digestive comfort', '0-10', 1],
   appetite: ['Appetite', '0-10', 1], bodyMass: ['Body mass', 'kg', 1], bloodSugar: ['Blood sugar', 'mg/dL', 0],
 }
+/**
+ * Every indicator the app has, so a new one (like bowelMovements) can never silently drop out of
+ * a region. The prototype's wording and decimals are kept where it had them.
+ */
+const IND = Object.fromEntries(
+  INDICATORS.map((i) => [i, PROTO_IND[i] ?? [getContent(i).label, getThreshold(i).unit, 1]]),
+)
 export const indicatorLabel = (i) => IND[i][0]
 const SLEEP = 'Risk of Inadequate Sleep and Irregular Schedules', CV = 'Risk of Cardiovascular Adaptations', BEH = 'Risk of Behavioral Changes and Psychiatric Disorders', SANS = 'Risk of Spaceflight Associated Neuro-ocular Syndrome (SANS)', FOOD = 'Risk of Inadequate Food and Nutrition'
 export const META = {
@@ -137,16 +148,21 @@ export const META = {
   temperature: ['none', '[CONTENT TODO]'], radiationDose: ['none', 'Risk of Radiation-Induced Cancers'], symptomReport: ['none', '[CONTENT TODO]'],
   bloodSugar: ['biosample', FOOD], digestiveComfort: ['none', 'Risk of Host-Microorganism Interactions'], appetite: ['none', FOOD], bodyMass: ['none', FOOD],
 }
+for (const i of INDICATORS) if (META[i] && META[i][1] === '[CONTENT TODO]' && getContent(i).hrpRisk !== '[CONTENT TODO]') META[i] = [META[i][0], getContent(i).hrpRisk]
+for (const i of INDICATORS) if (!META[i]) META[i] = [getContent(i).standardMeasure, getContent(i).hrpRisk]
 export const QUESTIONS = ['Can it be measured in space?', 'Why check it?', 'How do spaceflight hazards affect it?', 'When does it need crew or flight-surgeon attention?', 'What prevents a critical condition?']
 
-export const REGIONS = [
-  { id: 'head', label: 'Head', icon: 'moon', indicators: ['sleepHours', 'sleepQuality', 'mood', 'stress', 'blinkRate', 'eyelidClosure'] },
-  { id: 'eyes', label: 'Eyes', icon: 'eye', indicators: ['amslerDistortion', 'nearAcuity'] },
-  { id: 'heart', label: 'Heart', icon: 'heart', indicators: ['heartRate', 'bloodPressureSys', 'bloodPressureDia'] },
-  { id: 'skeleton', label: 'Skeleton', icon: 'bone', indicators: ['exerciseMinutes'] },
-  { id: 'body', label: 'Whole body', icon: 'body', indicators: ['radiationDose', 'temperature', 'symptomReport'] },
-  { id: 'gut', label: 'Gut and nutrition', icon: 'gut', indicators: ['digestiveComfort', 'appetite', 'bodyMass', 'bloodSugar'] },
-]
+/** The answers to QUESTIONS for one indicator, from the app's content file (the prototype left them blank). */
+export function faqAnswers(ind) {
+  const c = getContent(ind)
+  return [c.canMeasureInSpace, c.whyCheck, c.hazardEffect, c.whenToEscalate, c.prevention].map((a) =>
+    !a || a === '[CONTENT TODO]' ? 'This answer has not been written yet.' : a,
+  )
+}
+
+const REGION_ICON = { head: 'moon', eyes: 'eye', heart: 'heart', skeleton: 'bone', body: 'body', gut: 'gut' }
+/** The app's regions and indicator lists, with the prototype's icons. */
+export const REGIONS = APP_REGIONS.map((r) => ({ id: r.id, label: r.label, icon: REGION_ICON[r.id] ?? 'body', indicators: [...r.indicators] }))
 
 const DAY = 86400000
 
@@ -414,11 +430,11 @@ const STARTER = {
 const FREE = SHOP.filter((x) => x.price === 0).map((x) => x.id)
 
 /** Cosmetic locker state only: what you own, what you wear, what you have spent. */
-type Locker = { owned: string[]; equipped: Record<string, string>; spent: number; onboarded: boolean; goal: string; log: { n: number; why: string; at: number }[] }
+type Locker = { owned: string[]; equipped: Record<string, string>; spent: number; bonus: number; granted: string[]; pass: number[]; onboarded: boolean; goal: string; log: { n: number; why: string; at: number }[] }
 const lockerKey = (id) => 'chm-locker-' + id
 function locker(id): Locker {
   const st = STARTER[id] || { owned: [], eq: {} }
-  let l: Locker = { owned: [...FREE, ...st.owned], equipped: { ...DEFAULT_GEAR, ...st.eq }, spent: 0, onboarded: id !== 'guest', goal: 'regular', log: [] }
+  let l: Locker = { owned: [...FREE, ...st.owned], equipped: { ...DEFAULT_GEAR, ...st.eq }, spent: 0, bonus: 0, granted: [], pass: [], onboarded: id !== 'guest', goal: 'regular', log: [] }
   try { const raw = localStorage.getItem(lockerKey(id)); if (raw) l = { ...l, ...JSON.parse(raw) } } catch {}
   return l
 }
@@ -427,7 +443,13 @@ function saveLocker(id, l: Locker) {
   notify()
 }
 
-/** The wallet: earned coins are real credited points; spending is cosmetic and local. */
+/**
+ * The wallet. Two kinds of coin, deliberately kept apart:
+ *  - EARNED coins are real credited points from scoring.ts. They are the only thing that moves XP,
+ *    level, the crew goal and ship systems, and they only come from doing something.
+ *  - BONUS coins are one-off grants (a mission-pass tier, the setup welcome). They can only be
+ *    spent on cosmetic gear, each one can be granted exactly once, and they never touch XP.
+ */
 export function wallet(id) {
   const events = getSnapshot().events[id] ?? []
   const earned = pointsFor(creditedEvents(events))
@@ -435,44 +457,94 @@ export function wallet(id) {
   const chest = events.some((e) => e.kind === 'supplyDrop' && dayKey(e.timestamp) === todayKey())
   const claimed = events.filter((e) => e.kind === 'streakMilestone' && e.detail).map((e) => Number(String(e.detail).replace('streak-', '')))
   return {
-    coins: Math.max(0, earned - l.spent),
+    coins: Math.max(0, earned + (l.bonus || 0) - l.spent),
     xp: earned,
     owned: l.owned,
     equipped: l.equipped,
     chestDay: chest ? todayKey() : null,
     claimed,
+    pass: l.pass || [],
     onboarded: l.onboarded,
     goal: l.goal,
     log: l.log,
     done: {},
   }
 }
-/** Only the cosmetic parts of a wallet can be saved; coins are derived from real events. */
+/** Only the cosmetic parts of a wallet persist; earned coins are always derived from real events. */
 export function saveWallet(id, w) {
   const l = locker(id)
-  saveLocker(id, { ...l, owned: w.owned ?? l.owned, equipped: w.equipped ?? l.equipped, onboarded: w.onboarded ?? l.onboarded, goal: w.goal ?? l.goal })
+  saveLocker(id, {
+    ...l,
+    owned: w.owned ?? l.owned,
+    equipped: w.equipped ?? l.equipped,
+    onboarded: w.onboarded ?? l.onboarded,
+    goal: w.goal ?? l.goal,
+    pass: Array.from(new Set([...(l.pass || []), ...(w.pass || [])])),
+  })
 }
 
-/**
- * The prototype's earn() credited coins out of thin air. Here every earn is a real event, so the
- * credit cap applies: the daily crate is a supplyDrop (once a day), a streak milestone is a
- * streakMilestone with its own detail (once each), and anything else is refused.
- */
-export async function earnEvent(id, why: string, detail?: string): Promise<number> {
-  const lower = why.toLowerCase()
-  const kind = lower.includes('milestone') || lower.includes('streak') ? 'streakMilestone' : lower.includes('crate') || lower.includes('drop') || lower.includes('welcome') || lower.includes('setup') ? 'supplyDrop' : null
-  if (!kind) return 0
-  await addEvent({ id: crypto.randomUUID(), crewId: id, timestamp: new Date().toISOString(), kind, ...(detail ? { detail } : {}) })
+/** A one-off spendable grant. Returns 0 if this key was already granted, so nothing can be farmed. */
+function grant(id, n, key, why) {
   const l = locker(id)
-  const n = POINTS[kind]
-  saveLocker(id, { ...l, log: [{ n, why, at: Date.now() }, ...(l.log || [])].slice(0, 20) })
-  bridge.refresh()
+  if ((l.granted || []).includes(key)) return 0
+  saveLocker(id, { ...l, bonus: (l.bonus || 0) + n, granted: [...(l.granted || []), key], log: [{ n, why, at: Date.now() }, ...(l.log || [])].slice(0, 20) })
   window.dispatchEvent(new CustomEvent('chm:coins', { detail: { n, why } }))
   return n
 }
-export function earn(id, n, why, detail?) {
-  void earnEvent(id, why, detail)
+
+async function credit(id, kind, why, detail?) {
+  await addEvent({ id: crypto.randomUUID(), crewId: id, timestamp: new Date().toISOString(), kind, ...(detail ? { detail } : {}) })
+  const l = locker(id)
+  saveLocker(id, { ...l, log: [{ n: POINTS[kind], why, at: Date.now() }, ...(l.log || [])].slice(0, 20) })
+  bridge.refresh()
+  window.dispatchEvent(new CustomEvent('chm:coins', { detail: { n: POINTS[kind], why } }))
+}
+
+/**
+ * The prototype's earn() minted coins from nothing. Here each kind of earn goes where it belongs:
+ * a streak milestone and the daily crate are real credited events (so the cap applies and each
+ * milestone is remembered by its own detail), a pass tier and the setup welcome are one-off bonus
+ * grants, and anything else earns nothing rather than inventing a number.
+ */
+export function earn(id, n, why) {
+  const lower = String(why).toLowerCase()
+  const streak = lower.match(/(\d+)-day streak/)
+  if (streak) void credit(id, 'streakMilestone', why, `streak-${streak[1]}`)
+  else if (lower.includes('supply drop') || lower.includes('crate')) void credit(id, 'supplyDrop', why)
+  else if (lower.startsWith('mission pass tier')) grant(id, n, `tier-${lower.replace(/\D+/g, '')}`, why)
+  else if (lower.includes('finished setup')) grant(id, n, 'welcome', why)
+  notify()
   return wallet(id)
+}
+
+/**
+ * Save a manual reading for real: a measurement for every field, plus the effort credit. Returns
+ * the coins this log actually earns, worked out synchronously from the same cap the app applies,
+ * so the "+N" the screen shows is never a promise the scoring will not keep.
+ */
+export function logReading(id, kind, values) {
+  const timestamp = new Date().toISOString()
+  const effort = kind === 'exerciseMinutes' ? { kind: 'exerciseComplete' } : { kind: 'readingLogged', detail: kind }
+  const { credited } = creditableKinds(getSnapshot().events[id] ?? [], [effort], id, new Date(timestamp))
+  const points = credited.length ? POINTS[effort.kind] : 0
+  void (async () => {
+    for (const v of values) {
+      await addMeasurement({
+        id: crypto.randomUUID(),
+        crewId: id,
+        timestamp,
+        indicator: v.indicator,
+        value: v.value,
+        unit: v.unit,
+        // A number a person typed in is taken at face value: there is no signal to score.
+        quality: { score: 1, passed: true },
+        source: 'manual',
+      })
+    }
+    await addEvent({ id: crypto.randomUUID(), crewId: id, timestamp, kind: effort.kind, ...(effort.detail ? { detail: effort.detail } : {}) })
+    bridge.refresh()
+  })()
+  return points
 }
 
 export function buy(id, itemId) {
@@ -548,4 +620,10 @@ export function reveal() {
     el.style.transition = 'opacity 700ms cubic-bezier(.22,1,.36,1), transform 800ms cubic-bezier(.22,1,.36,1)'
     io.observe(el)
   })
+}
+
+/** What to do about one indicator: the content file's advice, or the plan's safe fallback until it is written. */
+export function recommendedAction(ind) {
+  const a = getContent(ind).recommendedAction
+  return !a || a === '[CONTENT TODO]' ? 'Tell a crewmate or your crew medical officer, and pick one small change you can make today.' : a
 }

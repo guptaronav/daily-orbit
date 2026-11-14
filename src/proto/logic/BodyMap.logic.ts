@@ -116,8 +116,8 @@ export class BodyMapLogic extends DCLogic {
         leave: () => this.setState({ hover: null }),
         hoverOn: !!(hv && hv.v !== null), hx: hv ? hv.x.toFixed(1) : 0, hy: hv && hv.y !== null ? hv.y.toFixed(1) : 0,
         tipLeft: hv ? (hv.x / 640) * 100 + '%' : '0', tipDay: hv ? hv.day : '', tipVal: hv && hv.v !== null ? `${hv.v.toFixed(r.dp)} ${r.unit}` : '',
-        faq: D.QUESTIONS.map((q, i) => ({ q, a: '[CONTENT TODO]', isOpen: fo === i, open: String(fo === i), rot: fo === i ? 'rotate(45deg)' : 'none', toggle: () => this.setState((p) => ({ faq: { ...p.faq, [r.id]: p.faq[r.id] === i ? null : i } })) })),
-        measure, risk,
+        faq: D.QUESTIONS.map((q, i) => ({ q, a: D.faqAnswers(r.id)[i], isOpen: fo === i, open: String(fo === i), rot: fo === i ? 'rotate(45deg)' : 'none', toggle: () => this.setState((p) => ({ faq: { ...p.faq, [r.id]: p.faq[r.id] === i ? null : i } })) })),
+        measure, risk, action: D.recommendedAction(r.id),
       }
     })
     const flagged = cd.flagged
@@ -197,7 +197,7 @@ export class BodyMapLogic extends DCLogic {
       const who = s.crew.id === 'guest' ? 'your' : `${s.crew.name}’s`
       if (!withD.length) return 'Nothing here has a good reading yet, so it stays gray. A reading that fails the quality check is never colored.'
       if (!off.length) return `All ${withD.length} reading${withD.length > 1 ? 's' : ''} with good data sit inside ${who} normal range.${none ? ` ${none} not measured yet.` : ''}`
-      const parts = off.map((r) => { const d = r.latest.v - r.baseline.mean; return `${r.label.replace(/ \(.*\)/, '')} is ${Math.abs(d).toFixed(r.dp > 1 ? 2 : 1)} ${r.unit === '0-10' ? 'points' : r.unit} ${d < 0 ? 'below' : 'above'} ${who} normal` })
+      const parts = off.map((r) => { if (!r.baseline) return `${r.label.replace(/ \(.*\)/, '')} is outside the safe range`; const d = r.latest.v - r.baseline.mean; return `${r.label.replace(/ \(.*\)/, '')} is ${Math.abs(d).toFixed(r.dp > 1 ? 2 : 1)} ${r.unit === '0-10' ? 'points' : r.unit} ${d < 0 ? 'below' : 'above'} ${who} normal` })
       const rest = withD.length - off.length
       return `${parts.join('. ')}.${rest ? ` ${rest} other${rest > 1 ? 's are' : ' is'} fine.` : ''}`
     }
@@ -211,7 +211,7 @@ export class BodyMapLogic extends DCLogic {
         rows: rg.readings.map((r) => {
           const sp = D.sparkPath(D.spark(r), 110, 32)
           let note = 'No reading has passed quality yet'
-          if (r.latest && !r.baseline) note = 'Building the baseline'
+          if (r.latest && !r.baseline) note = r.status === 'green' ? 'Building the baseline' : 'Outside the safe range'
           else if (r.latest) { const d = r.latest.v - r.baseline.mean; note = r.status === 'green' ? 'Inside normal' : `${Math.abs(d).toFixed(r.dp > 1 ? 2 : 1)} ${r.unit === '0-10' ? 'pts' : r.unit} ${d < 0 ? 'below' : 'above'} normal` }
           const big = this.state.hoverInd === r.id
           return { label: r.label, method: METHOD[r.id], value: r.latest ? D.fmt(r) : '—', unit: r.latest ? D.fmtUnit(r) : '', valColor: r.latest ? 'var(--ink)' : 'var(--nodata-ink)', note, ink: ST[r.status].ink, spark: sp.d, sparkColor: r.status === 'gray' ? 'var(--rule-strong)' : ST[r.status].swatch, border: big ? 'var(--ink)' : 'var(--rule)', tf: big ? 'translateX(4px)' : 'none', enter: () => { if (this.state.tour !== g.id) this.setState({ tour: g.id }); this.setState({ hoverInd: r.id }) } }
