@@ -17,6 +17,8 @@ const ICON: Record<EntryKind, IconName> = {
   bloodSugar: 'gut',
   sleepHours: 'head',
   exerciseMinutes: 'bone',
+  bodyMass: 'gut',
+  bowelMovements: 'gut',
 }
 
 /**
@@ -24,7 +26,7 @@ const ICON: Record<EntryKind, IconName> = {
  * enough for dragging to land somewhere useful; the wide ones (blood sugar 10-900) would just
  * be a toy, and the stepper is the honest control there.
  */
-const WITH_SLIDER = new Set(['sleepHours', 'exerciseMinutes', 'temperature'])
+const WITH_SLIDER = new Set(['sleepHours', 'exerciseMinutes', 'temperature', 'bowelMovements'])
 
 const regionLabelFor = (value: EntryValue): string => REGIONS.find((r) => r.indicators.includes(value.indicator))?.label ?? 'body map'
 
@@ -252,7 +254,7 @@ export function Manual() {
 
       {/* ---- Forms and the session log --------------------------------------- */}
       <div className="mt-8 grid gap-6 xl:grid-cols-[minmax(0,1fr)_20rem]">
-        <div className="grid gap-5 md:grid-cols-2">
+        <div className="grid grid-cols-1 gap-5 md:grid-cols-2">
           {ENTRY_FORMS.map((form, i) => (
             <EntryCard key={form.kind} form={form} delay={i * 70} onLogged={(entry) => setLog((l) => [...l, entry])} />
           ))}

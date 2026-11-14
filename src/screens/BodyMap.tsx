@@ -223,7 +223,7 @@ export function BodyMap() {
       </div>
 
       {/* ---- Readiness and next action -------------------------------------- */}
-      <div className="mt-8 grid gap-5 lg:grid-cols-[auto_1fr]">
+      <div className="mt-8 grid grid-cols-1 gap-5 lg:grid-cols-[auto_1fr]">
         <Panel label="Data completeness" delay={160} className="flex items-center justify-center p-6">
           <div className="text-center">
             <Gauge
@@ -289,9 +289,9 @@ export function BodyMap() {
                   <li key={r.id}>
                     <button
                       onClick={() => setSelected(r.id)}
-                      className="flex min-h-[56px] w-full items-center justify-between gap-4 px-4 py-3 text-left transition-colors hover:bg-panel-2"
+                      className="flex min-h-[56px] w-full flex-wrap items-center justify-between gap-x-4 gap-y-2 px-4 py-3 text-left transition-colors hover:bg-panel-2"
                     >
-                      <span className="inline-flex items-center gap-3">
+                      <span className="inline-flex flex-wrap items-center gap-x-3 gap-y-1">
                         <Icon name={REGION_ICON[r.id]} size={16} className="text-muted" />
                         <span className="font-medium">{r.label}</span>
                         <span className="text-sm text-muted">

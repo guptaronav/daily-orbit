@@ -25,7 +25,7 @@ function PlanRow({ item, go, onConfirm }: { item: PlanItem; go: (screen: PlanScr
       </div>
       <div className="flex items-center gap-3 text-sm">
         {item.done ? (
-          <span className="font-medium text-ok">Done today</span>
+          <span className="font-medium text-ok-ink">Done today</span>
         ) : action.type === 'go' ? (
           <button onClick={() => go(action.screen)} className={buttonClass}>
             Open
@@ -148,7 +148,7 @@ export function Progress() {
             {view.systems.map((s) => (
               <li key={s.id} className="flex items-baseline justify-between gap-4 py-2">
                 <span>{s.name}</span>
-                <span className={s.online ? 'font-medium text-ok' : 'text-muted'}>
+                <span className={s.online ? 'font-medium text-ok-ink' : 'text-muted'}>
                   {s.online ? 'Online' : `Offline, needs ${s.threshold - view.progress.totalPoints} more points`}
                 </span>
               </li>

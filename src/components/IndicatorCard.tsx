@@ -1,3 +1,4 @@
+import { Suspense, lazy } from 'react'
 import { getThreshold } from '../config/thresholds'
 import type { IndicatorReading } from '../lib/bodyStatus'
 import { getContent, isTodo } from '../lib/content'
@@ -6,7 +7,10 @@ import { Icon } from './kit/Icon'
 import { Panel } from './kit/Panel'
 import { Sigma } from './kit/Readout'
 import { StatusDot } from './StatusDot'
-import { TrendChart } from './TrendChart'
+const TrendChart = lazy(() => import('./TrendChart').then((m) => ({ default: m.TrendChart })))
+
+/** Reserves the chart's exact height while its code loads, so opening a card never makes the page jump. */
+const CHART_HEIGHT = 280
 
 const QUESTIONS = [
   ['canMeasureInSpace', 'Can it be measured in space?'],
@@ -104,7 +108,15 @@ export function IndicatorCard({ reading }: { reading: IndicatorReading }) {
       )}
 
       <div className="p-5">
-        <TrendChart history={reading.history} baseline={reading.baseline} unit={content.unit} status={reading.status} />
+        <Suspense
+          fallback={
+            <div role="status" aria-busy="true" style={{ height: CHART_HEIGHT }} className="mono grid place-items-center border border-rule text-sm text-muted">
+              Loading chart…
+            </div>
+          }
+        >
+          <TrendChart history={reading.history} baseline={reading.baseline} unit={content.unit} status={reading.status} height={CHART_HEIGHT} />
+        </Suspense>
       </div>
 
       <dl className="grid gap-x-8 gap-y-4 border-t border-rule p-5 text-sm sm:grid-cols-2">
