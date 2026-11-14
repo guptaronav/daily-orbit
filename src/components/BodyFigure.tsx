@@ -1,4 +1,4 @@
-import type { KeyboardEvent, ReactNode } from 'react'
+import type { CSSProperties, KeyboardEvent, ReactNode } from 'react'
 import type { Status } from '../contract/types'
 import { REGIONS, STATUS_LABEL, type RegionId } from '../lib/regions'
 import { STATUS_COLOR } from './StatusDot'
@@ -18,6 +18,7 @@ type Props = {
   markers?: boolean
   /** The scan line that travels down the figure while the console is live. */
   scan?: boolean
+  style?: CSSProperties
 }
 
 const LABEL = Object.fromEntries(REGIONS.map((r) => [r.id, r.label])) as Record<RegionId, string>
@@ -62,6 +63,7 @@ export function BodyFigure({
   interactive = true,
   markers = false,
   scan = false,
+  style,
 }: Props) {
   // A plain function (not a component) so the <g> elements keep their identity, and focus, across renders.
   const region = (id: RegionId, shapes: ReactNode) => {
@@ -106,6 +108,7 @@ export function BodyFigure({
     <svg
       viewBox={`0 0 ${width} ${height}`}
       className={`${className} ${interactive ? '' : 'figure-static'}`}
+      style={style}
       role="group"
       aria-label="Human body map"
       focusable="false"

@@ -675,3 +675,12 @@ body {
 .orbit { animation: orbit-spin 40s linear infinite; }
 .orbit-counter { animation: orbit-counter 40s linear infinite; }
 .float-slow { animation: float-slow 5s ease-in-out infinite; }
+
+/* The body-tour viewer column. Written here rather than as an arbitrary utility because
+   Tailwind arbitrary values containing commas do not generate reliably in this setup. */
+@media (min-width: 1024px) {
+  .viewer {
+    width: clamp(280px, 30vw, 380px);
+    flex: 0 0 auto;
+  }
+}
