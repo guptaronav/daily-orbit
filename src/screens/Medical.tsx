@@ -1,9 +1,8 @@
 import { useEffect, useMemo, useState } from 'react'
 import { Avatar } from '../components/kit/Avatar'
 import { Icon } from '../components/kit/Icon'
-import { Gauge } from '../components/kit/Readout'
 import { CoinIcon, FlameIcon } from '../components/kit/Wallet'
-import { StatusDot, STATUS_TEXT, STATUS_WASH } from '../components/StatusDot'
+import { STATUS_COLOR, STATUS_TEXT, STATUS_WASH } from '../components/StatusDot'
 import type { CrewMember, GameEvent, Measurement, Status } from '../contract/types'
 import { listEvents, listMeasurements } from '../db/repo'
 import { readAll, regionStatus, worstStatus } from '../lib/bodyStatus'
@@ -48,22 +47,20 @@ function build(crew: CrewMember, measurements: Measurement[], events: GameEvent[
     total: indicators.length,
     streak: currentStreak(checkInDays(events, crew.id), today),
     coins,
-    rank: `Level ${level.level} · ${level.title}`,
+    rank: `Lv ${level.level} · ${level.title}`,
     level: level.level,
   }
 }
 
 export function Medical() {
-  const { crew, crewId, setCrewId, go, dataVersion } = useApp()
+  const { crew, setCrewId, go, dataVersion } = useApp()
   const [views, setViews] = useState<CrewView[] | null>(null)
   const [crewPoints, setCrewPoints] = useState(0)
   const [filter, setFilter] = useState<Filter>('all')
 
   useEffect(() => {
     let cancelled = false
-    void Promise.all(
-      crew.map(async (c) => ({ c, m: await listMeasurements(c.id), e: await listEvents(c.id) })),
-    ).then((rows) => {
+    void Promise.all(crew.map(async (c) => ({ c, m: await listMeasurements(c.id), e: await listEvents(c.id) }))).then((rows) => {
       if (cancelled) return
       const now = new Date()
       const today = now.toISOString().slice(0, 10)
@@ -83,128 +80,171 @@ export function Medical() {
   )
 
   const goal = WEEKLY_GOAL_PER_CREW * Math.max(1, crew.length)
-  const goalPct = Math.min(1, crewPoints / goal)
+  const goalPct = Math.round(Math.min(1, crewPoints / goal) * 100)
   const online = systemsStatus(crewPoints).filter((s) => s.online).length
 
-  return (
-    <main className="mx-auto w-full max-w-[1440px] px-4 pb-10 pt-8 sm:px-8">
-      <p className="label">Crew lobby · medical officer view</p>
-      <h1 className="display mt-2 text-4xl sm:text-5xl">Everyone, at once.</h1>
-      <p className="mt-4 max-w-3xl text-lg leading-relaxed text-ink-soft">
-        The people with something outside their own baseline come first. Gray is never a verdict: it means no reading has passed the quality
-        check yet. Pick anyone to open their console.
-      </p>
+  const FILTERS: { id: Filter; label: string }[] = [
+    { id: 'all', label: `All ${views?.length ?? ''}`.trim() },
+    { id: 'attention', label: `Outside baseline ${needAttention}` },
+  ]
 
-      <div className="mt-7 grid gap-5 lg:grid-cols-[1fr_auto]">
-        <div className="flex flex-wrap items-center gap-3">
-          <div className="track">
-            {(
-              [
-                { id: 'all' as Filter, label: `All ${views?.length ?? ''}`.trim() },
-                { id: 'attention' as Filter, label: `Outside baseline ${needAttention}` },
-              ]
-            ).map((f) => (
-              <button key={f.id} onClick={() => setFilter(f.id)} aria-pressed={filter === f.id} className="track-item">
+  return (
+    <main
+      className="mx-auto flex w-full max-w-[1440px] flex-col gap-6 pb-[72px] pt-7"
+      style={{ paddingLeft: 'clamp(16px, 3vw, 32px)', paddingRight: 'clamp(16px, 3vw, 32px)' }}
+    >
+      <div className="flex flex-wrap items-stretch gap-5">
+        <div className="flex flex-col justify-center gap-3.5 py-2" style={{ flex: '2 1 520px' }}>
+          <p className="m-0 text-sm text-muted">Crew lobby · medical officer view</p>
+          <h1 className="m-0" style={{ fontSize: 'clamp(40px, 6vw, 76px)', lineHeight: 0.92, fontWeight: 750, letterSpacing: '-0.05em' }}>
+            Everyone,
+            <br />
+            at once.
+          </h1>
+          <p className="m-0 text-ink-soft" style={{ fontSize: 16, lineHeight: 1.55 }}>
+            The people with something outside their own baseline come first. Gray is never a verdict: it means no reading has passed the
+            quality check yet. Pick anyone to open their console.
+          </p>
+
+          <div className="inline-flex w-fit gap-1 p-1" style={{ borderRadius: 999, background: 'var(--color-paper-deep)' }}>
+            {FILTERS.map((f) => (
+              <button
+                key={f.id}
+                onClick={() => setFilter(f.id)}
+                aria-pressed={filter === f.id}
+                className="px-4 transition-colors"
+                style={{
+                  minHeight: 42,
+                  borderRadius: 999,
+                  fontSize: 14,
+                  fontWeight: 600,
+                  background: filter === f.id ? 'var(--color-panel)' : 'transparent',
+                  color: filter === f.id ? 'var(--color-ink)' : 'var(--color-muted)',
+                }}
+              >
                 {f.label}
               </button>
             ))}
           </div>
-          <p className="text-[0.9375rem] text-muted">
-            {views?.length ?? 0} crew · {needAttention} outside baseline
-          </p>
         </div>
 
-        <div className="card flex items-center gap-5 p-5">
-          <Gauge value={goalPct} label="" caption="" size={104} status={goalPct > 0.66 ? 'green' : goalPct > 0.33 ? 'yellow' : 'gray'} />
-          <div>
-            <p className="font-bold">Crew weekly goal</p>
-            <p className="mt-0.5 flex items-center gap-1.5 text-[0.9375rem] text-muted">
-              <CoinIcon size={14} />
-              {crewPoints} / {goal}
+        <section
+          className="flex items-center gap-5 p-6"
+          style={{ flex: '1 1 320px', borderRadius: 28, background: '#14181f', color: '#f3f1ea' }}
+        >
+          <span
+            className="grid shrink-0 place-items-center rounded-full"
+            style={{ width: 86, height: 86, background: `conic-gradient(${goalPct > 66 ? '#2fd39b' : '#f6c445'} ${goalPct * 3.6}deg, rgb(243 241 234 / 0.12) 0)` }}
+          >
+            <span className="grid place-items-center rounded-full" style={{ width: 68, height: 68, background: '#14181f' }}>
+              <span style={{ fontSize: 24, fontWeight: 800, letterSpacing: '-0.03em' }}>{goalPct}%</span>
+            </span>
+          </span>
+
+          <div className="min-w-0">
+            <p className="m-0 opacity-70" style={{ fontSize: 13.5 }}>
+              Crew weekly goal
             </p>
-            <p className="mt-1 text-sm text-muted">
+            <p className="m-0 mt-0.5 flex items-baseline gap-1.5" style={{ fontSize: 26, fontWeight: 750, letterSpacing: '-0.03em' }}>
+              <CoinIcon size={18} />
+              {crewPoints}
+              <span style={{ fontSize: 15, fontWeight: 500, opacity: 0.7 }}>/ {goal}</span>
+            </p>
+            <p className="m-0 mt-1.5 opacity-70" style={{ fontSize: 13.5, lineHeight: 1.45 }}>
               {online} of {SYSTEMS.length} ship systems online
             </p>
+            <p className="m-0 mt-1.5 opacity-70" style={{ fontSize: 13.5 }}>
+              <span style={{ fontWeight: 750 }}>{views?.length ?? 0}</span> crew ·{' '}
+              <span style={{ fontWeight: 750 }}>{needAttention}</span> outside baseline
+            </p>
           </div>
-        </div>
+        </section>
       </div>
 
       {shown === null ? (
-        <div className="mt-7 grid gap-5 sm:grid-cols-2 xl:grid-cols-4">
+        <ul className="m-0 grid list-none gap-4 p-0" style={{ gridTemplateColumns: 'repeat(auto-fill, minmax(min(100%, 300px), 1fr))' }}>
           {[0, 1, 2, 3].map((i) => (
-            <div key={i} className="card h-80 animate-pulse" />
+            <li key={i} className="h-80 animate-pulse border border-rule bg-panel" style={{ borderRadius: 28 }} />
           ))}
-        </div>
+        </ul>
       ) : shown.length === 0 ? (
-        <div className="card mt-7 p-10 text-center">
-          <p className="text-2xl font-bold tracking-tight">Nobody is outside baseline</p>
-          <p className="mt-2 text-lg text-muted">Every crew member with good data is inside their own normal.</p>
+        <div className="border border-rule bg-panel p-10 text-center" style={{ borderRadius: 28 }}>
+          <p className="m-0" style={{ fontSize: 26, fontWeight: 750, letterSpacing: '-0.03em' }}>
+            Nobody is outside baseline
+          </p>
+          <p className="m-0 mt-2 text-lg text-muted">Every crew member with good data is inside their own normal.</p>
         </div>
       ) : (
-        <ul className="mt-7 grid gap-5 sm:grid-cols-2 xl:grid-cols-4">
+        <ul className="m-0 grid list-none gap-4 p-0" style={{ gridTemplateColumns: 'repeat(auto-fill, minmax(min(100%, 300px), 1fr))' }}>
           {shown.map((v, i) => (
             <li key={v.crew.id} className="animate-rise" style={{ animationDelay: `${i * 70}ms` }}>
-              <button
-                onClick={() => {
-                  setCrewId(v.crew.id)
-                  go('bodymap')
-                }}
-                data-selected={v.crew.id === crewId ? 'true' : undefined}
-                className="card card-action flex h-full flex-col p-5"
-              >
-                <div className="flex items-start justify-between gap-3">
-                  <Avatar crew={v.crew} size={56} status={v.worst} />
-                  <span className="flex flex-col items-end gap-1.5">
-                    <StatusDot status={v.worst} short />
-                    <span className="flex items-center gap-3 text-sm font-semibold text-muted">
-                      <span className="flex items-center gap-1">
-                        <FlameIcon size={13} />
-                        {v.streak}
+              <article className="card-action flex h-full flex-col overflow-hidden border border-rule bg-panel" style={{ borderRadius: 28 }}>
+                {/* The banner carries the status color; the word under it carries the meaning. */}
+                <div style={{ height: 8, background: STATUS_COLOR[v.worst] }} />
+
+                <button
+                  onClick={() => {
+                    setCrewId(v.crew.id)
+                    go('bodymap')
+                  }}
+                  className="flex flex-1 flex-col p-5 text-left"
+                >
+                  <div className="flex items-start justify-between gap-3">
+                    <Avatar crew={v.crew} size={56} level={v.level} />
+                    <span className="flex flex-col items-end gap-2">
+                      <span className="pill" style={{ background: STATUS_WASH[v.worst], color: STATUS_TEXT[v.worst] }}>
+                        {STATUS_LABEL[v.worst]}
                       </span>
-                      <span className="flex items-center gap-1">
-                        <CoinIcon size={13} />
-                        {v.coins}
+                      <span className="flex items-center gap-3 text-sm font-semibold text-muted">
+                        <span className="flex items-center gap-1">
+                          <FlameIcon size={13} />
+                          {v.streak}
+                        </span>
+                        <span className="flex items-center gap-1">
+                          <CoinIcon size={13} />
+                          {v.coins}
+                        </span>
                       </span>
                     </span>
-                  </span>
-                </div>
+                  </div>
 
-                <p className="mt-4 text-xl font-bold tracking-tight">{v.crew.name}</p>
-                <p className="text-sm text-muted">
-                  {v.rank} · {v.crew.role}
-                </p>
+                  <p className="m-0 mt-4" style={{ fontSize: 22, fontWeight: 750, letterSpacing: '-0.025em' }}>
+                    {v.crew.name}
+                  </p>
+                  <p className="m-0 text-sm text-muted">
+                    {v.rank} · {v.crew.role}
+                  </p>
 
-                <ul className="mt-4 flex-1 space-y-1.5">
-                  {(v.flagged.length > 0 ? v.flagged : REGIONS.slice(0, 3).map((r) => ({ id: r.id, label: r.label, status: v.statuses[r.id] }))).map(
-                    (r) => (
-                      <li key={r.id} className="flex items-center justify-between gap-2 text-[0.9375rem]">
+                  <ul className="m-0 mt-4 flex flex-1 list-none flex-col gap-1.5 p-0">
+                    {(v.flagged.length > 0
+                      ? v.flagged
+                      : REGIONS.slice(0, 3).map((r) => ({ id: r.id, label: r.label, status: v.statuses[r.id] }))
+                    ).map((r) => (
+                      <li key={r.id} className="flex items-center justify-between gap-2 text-[15px]">
                         <span>{r.label}</span>
-                        <span
-                          className="pill"
-                          style={{ background: STATUS_WASH[r.status], color: STATUS_TEXT[r.status], fontSize: '0.75rem' }}
-                        >
+                        <span className="pill" style={{ background: STATUS_WASH[r.status], color: STATUS_TEXT[r.status], fontSize: 12 }}>
                           {STATUS_LABEL[r.status]}
                         </span>
                       </li>
-                    ),
-                  )}
-                </ul>
+                    ))}
+                  </ul>
 
-                <div className="mt-4 border-t border-rule pt-3">
-                  <div className="meter">
-                    <span style={{ width: `${(v.measured / v.total) * 100}%` }} />
+                  <div className="mt-4 border-t border-rule pt-3">
+                    <div className="meter">
+                      <span style={{ width: `${(v.measured / v.total) * 100}%`, background: 'var(--color-ink)' }} />
+                    </div>
+                    <p className="m-0 mt-2 flex items-center justify-between text-sm text-muted">
+                      <span>
+                        Measured {v.measured}/{v.total}
+                      </span>
+                      <span className="flex items-center gap-1 font-semibold text-ink">
+                        Open console
+                        <Icon name="arrowRight" size={13} />
+                      </span>
+                    </p>
                   </div>
-                  <p className="mt-2 flex items-center justify-between text-sm text-muted">
-                    <span>
-                      Measured {v.measured}/{v.total}
-                    </span>
-                    <span className="flex items-center gap-1 font-semibold" style={{ color: 'var(--color-accent)' }}>
-                      Open console
-                      <Icon name="arrowRight" size={13} />
-                    </span>
-                  </p>
-                </div>
-              </button>
+                </button>
+              </article>
             </li>
           ))}
         </ul>
