@@ -47,7 +47,7 @@ function Assumptions<T extends Record<string, number>>({
   return (
     <div className="border-t border-rule p-5">
       <div className="flex items-baseline justify-between gap-4">
-        <h3 className="label label-mark">Assumptions &mdash; change them</h3>
+        <h3 className="label">Assumptions &mdash; change them</h3>
         <button className={linkBtn} onClick={onReset}>
           Reset
         </button>
@@ -133,8 +133,7 @@ export function Metrics() {
   return (
     <main className="mx-auto w-full max-w-[1500px] px-4 py-6 sm:px-6">
       <div className="border-b border-rule pb-5">
-        <p className="label label-mark">Metrics</p>
-        <h1 className="mt-1.5 text-3xl font-semibold tracking-tight sm:text-4xl">Two numbers we cannot measure yet, modelled openly</h1>
+        <h1 className="text-3xl font-semibold tracking-tight sm:text-4xl">Two numbers we cannot measure yet, modelled openly</h1>
         <p className="mt-3 max-w-3xl text-sm leading-relaxed text-muted">
           Neither figure below is an observation. Both come from simple models whose every input is on this page and editable, so you can
           see exactly which assumption is doing the work. Nothing here comes from NASA data, and nothing here is a claim about real crews.
@@ -170,7 +169,7 @@ export function Metrics() {
                   <Counter value={t.savedHoursPerMission} decimals={1} />
                   <span className="value-unit"> crew hours</span>
                 </p>
-                <p className="mono mt-1 text-[0.625rem] uppercase tracking-wider text-muted">
+                <p className="mono mt-1 text-sm text-muted">
                   {time.crewSize} crew &times; {time.missionDays} days &middot;{' '}
                   {t.savedHoursPerMission >= 0 ? 'given back' : 'spent extra'}
                 </p>
@@ -215,13 +214,13 @@ export function Metrics() {
             </div>
 
             <div className="mt-6 border-l-2 border-accent bg-accent-wash px-4 py-3 text-sm">
-              <p className="label label-mark">The model, in one sentence</p>
+              <p className="label">The model, in one sentence</p>
               <p className="mt-1.5 leading-relaxed">
                 On each person-day someone either does the check or does not; if they do, and it is a bad day, and the score rewards
                 healthy values, they may skip reporting it. Rewarding effort removes that last step, so it can only ever report more,
                 never less.
               </p>
-              <p className="mt-2 text-xs leading-relaxed text-muted">
+              <p className="mt-2 text-sm leading-relaxed text-muted">
                 Both schemes are run from the same random draws, so with a hiding chance of zero the two are identical rather than merely
                 close. Deterministic for a given seed. The claim that people under-report when bad values are punished is an assumption we
                 made, not a result we found.
@@ -238,7 +237,7 @@ export function Metrics() {
         </Panel>
       </div>
 
-      <p className="mono mt-8 max-w-3xl text-xs leading-relaxed text-muted">
+      <p className="mono mt-8 max-w-3xl text-sm leading-relaxed text-muted">
         The same assumptions are written down in NOTES.md so they end up on the limitations slide rather than being quietly forgotten.
       </p>
     </main>

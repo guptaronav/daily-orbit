@@ -130,8 +130,7 @@ export function Escalation() {
   return (
     <main className="mx-auto w-full max-w-[1500px] px-4 py-6 sm:px-6">
       <div className="border-b border-rule pb-5">
-        <p className="label label-mark">Escalation</p>
-        <h1 className="mt-1.5 text-3xl font-semibold tracking-tight sm:text-4xl">Who to tell, and when</h1>
+        <h1 className="text-3xl font-semibold tracking-tight sm:text-4xl">Who to tell, and when</h1>
         <p className="mt-3 max-w-3xl text-sm leading-relaxed text-muted">
           Four rungs, lowest first. Climb one when the step below has not settled it. No rung is triggered by a number: this app compares
           you with your own baseline and tells you what moved, and the decision stays with the crew.
@@ -217,7 +216,7 @@ export function Escalation() {
                     {packet.changed.map((c) => (
                       <li key={c.indicator} className="flex flex-wrap items-baseline justify-between gap-x-6 gap-y-1 py-2.5 text-sm">
                         <span className="font-medium">{c.label}</span>
-                        <span className="mono text-xs text-muted">
+                        <span className="mono text-sm text-muted">
                           {c.from} &rarr; <span className="font-semibold text-ink">{c.to}</span> {c.unit} ({c.deltaPct > 0 ? '+' : ''}
                           {c.deltaPct}%) &middot; {c.sinceDays === 0 ? 'since today' : `${c.sinceDays}d`}
                         </span>
@@ -229,7 +228,7 @@ export function Escalation() {
 
                 <details className="mt-4">
                   <summary className="btn-quiet">Show the exact JSON</summary>
-                  <pre className="mono mt-2 max-h-72 overflow-auto border border-rule bg-paper p-3 text-xs leading-relaxed">
+                  <pre className="mono mt-2 max-h-72 overflow-auto border border-rule bg-paper p-3 text-sm leading-relaxed">
                     {packet.json}
                   </pre>
                 </details>
@@ -271,7 +270,7 @@ export function Escalation() {
                     <div className="meter mt-3">
                       <span style={{ width: `${progress * 100}%` }} />
                     </div>
-                    <p className="mono mt-2 text-xs text-muted">
+                    <p className="mono mt-2 text-sm text-muted">
                       Ground receives it around {transmission?.arrivalText}. A reply cannot come back in less than another{' '}
                       {formatDelay(delaySec)}.
                     </p>

@@ -41,7 +41,7 @@
   --font-mono: ui-monospace, "SFMono-Regular", "JetBrains Mono", Menlo, Consolas, monospace;
 
   /* One deliberate scale. Headings step hard; labels stay small, mono and wide-tracked. */
-  --text-micro: 0.6875rem;
+  --text-micro: 0.8125rem;
   --text-hero: clamp(2.5rem, 7vw, 5rem);
   --text-value: clamp(1.75rem, 4.5vw, 2.75rem);
 }
@@ -129,17 +129,9 @@ body {
     font-family: var(--font-mono);
     font-size: var(--text-micro);
     font-weight: 500;
-    letter-spacing: 0.16em;
+    letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--color-muted);
-  }
-
-  /* A label with the console bullet in front of it. */
-  .label-mark::before {
-    content: "◆";
-    margin-right: 0.5em;
-    color: var(--color-accent);
-    font-size: 0.8em;
   }
 
   /* The hero of every panel: the number you came to read. */
@@ -153,7 +145,7 @@ body {
 
   .value-unit {
     font-family: var(--font-mono);
-    font-size: 0.8125rem;
+    font-size: 1rem;
     font-weight: 500;
     letter-spacing: 0.04em;
     color: var(--color-muted);
@@ -229,9 +221,9 @@ body {
     padding: 0.6rem 1.25rem;
     border: 1px solid transparent;
     font-family: var(--font-mono);
-    font-size: 0.8125rem;
+    font-size: 0.875rem;
     font-weight: 600;
-    letter-spacing: 0.08em;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     line-height: 1.2;
     text-align: center;
@@ -294,8 +286,8 @@ body {
     min-height: 44px;
     padding: 0.5rem 0;
     font-family: var(--font-mono);
-    font-size: 0.75rem;
-    letter-spacing: 0.08em;
+    font-size: 0.875rem;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--color-accent);
     cursor: pointer;
@@ -394,7 +386,7 @@ body {
     font-family: var(--font-mono);
     font-size: var(--text-micro);
     font-weight: 600;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.04em;
     text-transform: uppercase;
     white-space: nowrap;
   }
@@ -419,7 +411,7 @@ body {
   .ticker {
     font-family: var(--font-mono);
     font-size: var(--text-micro);
-    letter-spacing: 0.14em;
+    letter-spacing: 0.04em;
     text-transform: uppercase;
     color: var(--color-muted);
   }
@@ -669,9 +661,9 @@ body {
   }
 
   .btn-sm {
-    min-height: 36px;
-    padding: 0.35rem 0.75rem;
-    font-size: 0.6875rem;
+    min-height: 40px;
+    padding: 0.4rem 0.85rem;
+    font-size: 0.8125rem;
   }
 
   /* ---- Stepper ----------------------------------------------------------- */

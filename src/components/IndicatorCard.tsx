@@ -71,14 +71,14 @@ export function IndicatorCard({ reading }: { reading: IndicatorReading }) {
         </div>
         <div className="text-right">
           {baseline ? (
-            <p className="mono text-xs text-muted">
+            <p className="mono text-sm text-muted">
               baseline {baseline.mean.toFixed(1)} ± {baseline.sd.toFixed(1)} {content.unit}
               <br />
-              <span className="text-[0.625rem] uppercase tracking-wider">n={baseline.n} prior readings</span>
+              <span className="text-sm">n={baseline.n} prior readings</span>
             </p>
           ) : (
             latest &&
-            typeof latest.value === 'number' && <p className="mono text-xs text-muted">no baseline yet (needs 5 readings)</p>
+            typeof latest.value === 'number' && <p className="mono text-sm text-muted">no baseline yet (needs 5 readings)</p>
           )}
         </div>
       </div>
@@ -97,7 +97,7 @@ export function IndicatorCard({ reading }: { reading: IndicatorReading }) {
       )}
 
       {reading.failedCount > 0 && (
-        <p className="mono flex items-start gap-2 border-b border-rule px-5 py-3 text-xs text-muted">
+        <p className="mono flex items-start gap-2 border-b border-rule px-5 py-3 text-sm text-muted">
           <Icon name="alert" size={14} className="mt-px" />
           {reading.failedCount} reading(s) failed the quality check: excluded from the status and from the baseline.
         </p>
@@ -119,13 +119,13 @@ export function IndicatorCard({ reading }: { reading: IndicatorReading }) {
       </dl>
 
       <div className="mx-5 mb-5 border-l-2 border-accent bg-accent-wash px-4 py-3 text-sm">
-        <p className="label label-mark">Recommended action</p>
+        <p className="label">Recommended action</p>
         <p className="mt-1.5">
           <Text value={content.recommendedAction} />
         </p>
       </div>
 
-      <p className="mono border-t border-rule px-5 py-3 text-[0.625rem] uppercase tracking-wider text-muted">
+      <p className="mono border-t border-rule px-5 py-3 text-sm text-muted">
         NASA standard measures: {content.standardMeasure} &middot; HRP risk: <Text value={content.hrpRisk} />
       </p>
     </Panel>

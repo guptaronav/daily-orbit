@@ -1,7 +1,7 @@
 import { APP_NAME } from '../config/app'
-import type { CrewMember } from '../contract/types'
 import { ENVIRONMENTS, formatDelay, type EnvId } from '../lib/environments'
 import { useApp, type Screen } from '../state/AppContext'
+import { Avatar } from './kit/Avatar'
 import { ThemeToggle } from './kit/Chrome'
 import { Icon, type IconName } from './kit/Icon'
 
@@ -15,13 +15,6 @@ const NAV: { screen: Screen; label: string; icon: IconName }[] = [
   { screen: 'metrics', label: 'Metrics', icon: 'target' },
   { screen: 'sources', label: 'Sources', icon: 'check' },
 ]
-
-/** "Crew 1" -> "C1", "You (guest crew member)" -> "YOU". Two or three characters, never more. */
-function initials(crew: CrewMember): string {
-  const digits = crew.name.match(/\d+/)
-  if (digits) return `C${digits[0]}`.slice(0, 3)
-  return crew.name.replace(/[^A-Za-z]/g, '').slice(0, 3).toUpperCase()
-}
 
 export function TopBar() {
   const { screen, go, crew, crewId, setCrewId, environment, setEnvironmentId, delaySec, setDelaySec } = useApp()
@@ -50,8 +43,8 @@ export function TopBar() {
           </span>
         </button>
 
-        {/* Crew selector as a ring of initials: one tap, no menu, and you can see who is selected. */}
-        <div role="group" aria-label="Acting as crew member" className="flex items-center gap-1.5">
+        {/* Crew selector as a row of portraits: one tap, no menu, and you can see who is selected. */}
+        <div role="group" aria-label="Acting as crew member" className="flex items-center gap-2">
           <span className="label hidden sm:inline">Crew</span>
           {crew.map((c) => {
             const active = c.id === crewId
@@ -61,14 +54,10 @@ export function TopBar() {
                 onClick={() => setCrewId(c.id)}
                 aria-pressed={active}
                 title={c.name}
-                className={`mono grid h-11 w-11 place-items-center rounded-full border text-[0.625rem] font-semibold tracking-wider transition-all ${
-                  active
-                    ? 'border-accent text-accent'
-                    : 'border-rule-strong text-muted hover:border-ink hover:text-ink'
-                }`}
-                style={active ? { boxShadow: 'var(--glow)' } : undefined}
+                className="grid h-12 w-12 place-items-center transition-transform hover:scale-105"
+                style={active ? { filter: 'drop-shadow(0 0 10px color-mix(in srgb, var(--color-accent) 60%, transparent))' } : undefined}
               >
-                {initials(c)}
+                <Avatar crew={c} size={40} badge ring={active ? 'var(--color-accent)' : 'var(--color-rule)'} />
                 <span className="sr-only">{c.name}</span>
               </button>
             )
@@ -78,7 +67,7 @@ export function TopBar() {
         <label className="flex items-center gap-2">
           <span className="label hidden md:inline">Env</span>
           <select
-            className="field h-10 w-auto py-0 text-xs"
+            className="field h-11 w-auto py-0 text-sm"
             aria-label="Mission environment"
             value={environment.id}
             onChange={(e) => setEnvironmentId(e.target.value as EnvId)}

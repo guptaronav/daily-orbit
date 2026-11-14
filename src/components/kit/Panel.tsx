@@ -42,7 +42,7 @@ export function Panel({
     >
       {(label || aside) && (
         <header className="flex min-h-[38px] flex-wrap items-center justify-between gap-x-4 gap-y-1 border-b border-rule px-4 py-2">
-          {label ? <span className="label label-mark">{label}</span> : <span />}
+          {label ? <span className="label">{label}</span> : <span />}
           {aside}
         </header>
       )}

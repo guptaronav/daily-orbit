@@ -69,7 +69,7 @@ export function Landing() {
           <div className="mx-auto flex w-full max-w-[1400px] flex-wrap items-center justify-between gap-3 px-4 py-2.5 sm:px-8">
             <ul className="flex flex-wrap gap-x-6 gap-y-1">
               {FACTS.map((f) => (
-                <li key={f} className="label label-mark">
+                <li key={f} className="label">
                   {f}
                 </li>
               ))}
@@ -81,7 +81,7 @@ export function Landing() {
         <div className="gridded">
           <div className="mx-auto grid w-full max-w-[1400px] gap-10 px-4 py-14 sm:px-8 lg:grid-cols-[1.6fr_1fr] lg:py-20">
             <section aria-labelledby="landing-heading" className="animate-rise">
-              <p className="label label-mark" style={{ color: 'var(--color-accent)' }}>
+              <p className="label" style={{ color: 'var(--color-accent)' }}>
                 NASA Space Apps Challenge 2026 &middot; health monitoring software
               </p>
               <h1

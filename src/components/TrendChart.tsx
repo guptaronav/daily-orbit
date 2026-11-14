@@ -24,11 +24,11 @@ function TipBox({ active, payload, label, unit }: { active?: boolean; payload?: 
   const value = payload?.[0]?.value
   if (!active || value == null) return null
   return (
-    <div className="border border-ink bg-panel px-2.5 py-1.5 text-xs">
+    <div className="border border-ink bg-panel px-3 py-2 text-sm">
       <div className="label" style={{ letterSpacing: '0.1em' }}>
         {label}
       </div>
-      <div className="mt-0.5 font-semibold">
+      <div className="mt-0.5 text-base font-semibold">
         {value} <span className="font-normal text-muted">{unit}</span>
       </div>
     </div>
@@ -41,11 +41,11 @@ function TipBox({ active, payload, label, unit }: { active?: boolean; payload?: 
  * Readings that failed quality break the line instead of being joined across: we never draw a
  * segment through data we did not trust. Straight segments only, no smoothing.
  */
-export function TrendChart({ history, baseline, unit, status = 'gray', height = 180 }: Props) {
+export function TrendChart({ history, baseline, unit, status = 'gray', height = 280 }: Props) {
   // Only the latest reading gets a marker, colored by its status; the rest of the line stays bare.
   const renderDot = (props: DotProps) =>
     props.index === lastIndex && props.cx != null && props.cy != null ? (
-      <circle key={props.key ?? 'last'} cx={props.cx} cy={props.cy} r={4} fill={STATUS_COLOR[status]} stroke="var(--color-ink)" strokeWidth={1.25} />
+      <circle key={props.key ?? 'last'} cx={props.cx} cy={props.cy} r={5} fill={STATUS_COLOR[status]} stroke="var(--color-ink)" strokeWidth={1.25} />
     ) : (
       <g key={props.key ?? `d${props.index}`} />
     )
@@ -80,17 +80,17 @@ export function TrendChart({ history, baseline, unit, status = 'gray', height = 
             {baseline && <ReferenceLine y={baseline.mean - 2 * baseline.sd} stroke="var(--color-rule-strong)" strokeDasharray="2 4" />}
             <XAxis
               dataKey="day"
-              tick={{ fontSize: 10, fill: 'var(--color-muted)' }}
+              tick={{ fontSize: 12, fill: 'var(--color-muted)' }}
               tickLine={false}
               stroke="var(--color-rule-strong)"
               interval="preserveStartEnd"
               minTickGap={28}
             />
             <YAxis
-              tick={{ fontSize: 10, fill: 'var(--color-muted)' }}
+              tick={{ fontSize: 12, fill: 'var(--color-muted)' }}
               tickLine={false}
               axisLine={false}
-              width={40}
+              width={52}
               domain={['auto', 'auto']}
             />
             <Tooltip content={<TipBox unit={unit} />} cursor={{ stroke: 'var(--color-rule-strong)', strokeDasharray: '2 3' }} />
@@ -98,7 +98,7 @@ export function TrendChart({ history, baseline, unit, status = 'gray', height = 
               type="linear"
               dataKey="value"
               stroke="var(--color-ink)"
-              strokeWidth={1.75}
+              strokeWidth={2.25}
               connectNulls={false}
               isAnimationActive={false}
               dot={renderDot}
@@ -107,7 +107,7 @@ export function TrendChart({ history, baseline, unit, status = 'gray', height = 
           </LineChart>
         </ResponsiveContainer>
       </div>
-      <figcaption className="mt-1 flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-muted">
+      <figcaption className="mt-2 flex flex-wrap items-center gap-x-5 gap-y-1 text-sm text-muted">
         <span>{unit}</span>
         {baseline && (
           <span className="inline-flex items-center gap-1.5">

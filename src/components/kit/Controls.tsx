@@ -155,7 +155,7 @@ export function Slider({ value, onChange, step, min, max, label, minLabel, maxLa
         style={{ ['--pct' as string]: `${pct}%` }}
         onChange={(e) => onChange(e.target.value)}
       />
-      <div className="mono flex justify-between text-[0.625rem] uppercase tracking-wider text-muted">
+      <div className="mono flex justify-between text-sm text-muted">
         <span>{minLabel ?? min}</span>
         <span>{maxLabel ?? max}</span>
       </div>
@@ -175,7 +175,7 @@ export function EmptyState({ title, body, icon = 'spark' }: { title: string; bod
         <Icon name={icon} size={20} />
       </span>
       <p className="label mt-3">{title}</p>
-      <p className="mt-1.5 max-w-[22rem] text-xs leading-relaxed text-muted">{body}</p>
+      <p className="mt-1.5 max-w-[22rem] text-sm leading-relaxed text-muted">{body}</p>
     </div>
   )
 }

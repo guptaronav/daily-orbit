@@ -1,8 +1,9 @@
 import { useEffect, useMemo, useState } from 'react'
 import { BodyFigure } from '../components/BodyFigure'
+import { Avatar } from '../components/kit/Avatar'
 import { Icon } from '../components/kit/Icon'
 import { Counter } from '../components/kit/Readout'
-import { StatusDot, STATUS_COLOR, STATUS_TEXT } from '../components/StatusDot'
+import { StatusDot } from '../components/StatusDot'
 import type { CrewMember, Measurement, Status } from '../contract/types'
 import { listMeasurements } from '../db/repo'
 import { readAll, regionStatus, worstStatus } from '../lib/bodyStatus'
@@ -20,13 +21,6 @@ type CrewView = {
 }
 
 const SEVERITY: Record<Status, number> = { red: 0, yellow: 1, gray: 2, green: 3 }
-
-/** "Crew 1" -> "C1", "You (guest crew member)" -> "YOU". */
-function initials(crew: CrewMember): string {
-  const digits = crew.name.match(/\d+/)
-  if (digits) return `C${digits[0]}`.slice(0, 3)
-  return crew.name.replace(/[^A-Za-z]/g, '').slice(0, 3).toUpperCase()
-}
 
 function build(crew: CrewMember, measurements: Measurement[]): CrewView {
   const readings = readAll(measurements)
@@ -76,8 +70,7 @@ export function Medical() {
     <main className="mx-auto w-full max-w-[1500px] px-4 py-6 sm:px-6">
       <div className="flex flex-wrap items-end justify-between gap-x-8 gap-y-4 border-b border-rule pb-5">
         <div>
-          <p className="label label-mark">Medical officer view</p>
-          <h1 className="mt-1.5 text-3xl font-semibold tracking-tight sm:text-4xl">Everyone, at once</h1>
+          <h1 className="text-3xl font-semibold tracking-tight sm:text-4xl">Everyone, at once</h1>
           <p className="mt-3 max-w-3xl text-sm leading-relaxed text-muted">
             Every crew member&rsquo;s body map on one screen, the people with something outside their own baseline first. Select anyone to
             open their full console. Gray is never a verdict: it means no reading has passed the quality check yet.
@@ -124,21 +117,10 @@ export function Medical() {
                 style={v.crew.id === crewId ? { boxShadow: 'var(--glow)' } : undefined}
               >
                 <div className="flex items-start gap-3">
-                  <span
-                    aria-hidden
-                    className="mono grid h-11 w-11 shrink-0 place-items-center border text-xs font-semibold tracking-wider"
-                    style={{
-                      clipPath: 'polygon(25% 0, 75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%)',
-                      borderColor: STATUS_COLOR[v.worst],
-                      color: STATUS_TEXT[v.worst],
-                      background: 'color-mix(in srgb, currentColor 10%, transparent)',
-                    }}
-                  >
-                    {initials(v.crew)}
-                  </span>
+                  <Avatar crew={v.crew} size={54} status={v.worst} badge />
                   <div className="min-w-0 flex-1">
                     <p className="truncate text-base font-semibold tracking-tight">{v.crew.name}</p>
-                    <p className="mono truncate text-[0.625rem] uppercase tracking-wider text-muted">{v.crew.role}</p>
+                    <p className="mono truncate text-sm text-muted">{v.crew.role}</p>
                   </div>
                   {v.crew.id === crewId && <span className="label shrink-0">selected</span>}
                 </div>
@@ -159,7 +141,7 @@ export function Medical() {
                     <span className="label">Worst region</span>
                     <StatusDot status={v.worst} short />
                   </div>
-                  <p className="mono mt-2 text-[0.6875rem] leading-relaxed text-muted">
+                  <p className="mono mt-2 text-sm leading-relaxed text-muted">
                     {v.flagged.length === 0
                       ? 'No region outside baseline.'
                       : v.flagged.map((f) => `${f.label}: ${STATUS_LABEL[f.status].toLowerCase()}`).join(' · ')}
@@ -167,7 +149,7 @@ export function Medical() {
                   <div className="meter mt-3">
                     <span style={{ width: `${(v.indicatorsWithData / v.indicatorsTotal) * 100}%` }} />
                   </div>
-                  <p className="mono mt-1.5 flex items-center justify-between text-[0.625rem] uppercase tracking-wider text-muted">
+                  <p className="mono mt-1.5 flex items-center justify-between text-sm text-muted">
                     <span>
                       {v.indicatorsWithData}/{v.indicatorsTotal} measured
                     </span>
@@ -175,7 +157,7 @@ export function Medical() {
                       open <Icon name="arrowRight" size={12} />
                     </span>
                   </p>
-                  <p className="mono mt-2 text-[0.625rem] uppercase tracking-wider text-muted">{v.crew.dataLabel}</p>
+                  <p className="mono mt-2 text-sm text-muted">{v.crew.dataLabel}</p>
                 </div>
               </button>
             </li>

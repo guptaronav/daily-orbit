@@ -117,7 +117,7 @@ function EntryCard({ form, onLogged, delay }: { form: EntryForm; onLogged: (entr
         </span>
         <div className="min-w-0 flex-1">
           <h2 className="text-base font-semibold tracking-tight">{form.title}</h2>
-          <p className="mono truncate text-[0.625rem] uppercase tracking-wider text-muted">
+          <p className="mono truncate text-sm text-muted">
             {regionLabelFor({ indicator: form.fields[0].indicator, value: 0, unit: '' })} region
           </p>
         </div>
@@ -134,7 +134,7 @@ function EntryCard({ form, onLogged, delay }: { form: EntryForm; onLogged: (entr
                 <label className="label" htmlFor={`${form.kind}-${f.name}`}>
                   {f.label}
                 </label>
-                <span className="mono text-[0.625rem] uppercase tracking-wider text-muted">{f.unit}</span>
+                <span className="mono text-sm text-muted">{f.unit}</span>
               </div>
               <div className="mt-2">
                 <Stepper
@@ -186,7 +186,7 @@ function EntryCard({ form, onLogged, delay }: { form: EntryForm; onLogged: (entr
               style={{ borderColor: 'var(--color-ok)' }}
             >
               <Icon name="check" size={15} className="mt-0.5" />
-              <p className="text-xs leading-relaxed">
+              <p className="text-sm leading-relaxed">
                 <span className="label" style={{ color: 'var(--color-ok-ink)' }}>
                   Logged
                 </span>{' '}
@@ -219,8 +219,7 @@ export function Manual() {
       {/* ---- Header with a stats rail -------------------------------------- */}
       <div className="flex flex-wrap items-end justify-between gap-x-10 gap-y-5 border-b border-rule pb-5">
         <div>
-          <p className="label label-mark">Manual entry</p>
-          <h1 className="mt-1.5 text-3xl font-semibold tracking-tight sm:text-4xl">Log a reading the camera cannot take</h1>
+          <h1 className="text-3xl font-semibold tracking-tight sm:text-4xl">Log a reading the camera cannot take</h1>
           <p className="mt-3 max-w-3xl text-sm leading-relaxed text-muted">
             Anything measured with a cuff, a thermometer, a glucose meter or a clock goes here. Entries are saved to{' '}
             <span className="font-medium text-ink">{currentCrew?.name ?? 'the selected crew member'}</span> and feed the same baseline and
@@ -275,10 +274,10 @@ export function Manual() {
             <ul className="divide-y divide-rule">
               {[...log].reverse().map((entry, i) => (
                 <li key={i} className="animate-rise flex items-start gap-3 px-4 py-3">
-                  <span className="mono mt-0.5 shrink-0 text-[0.625rem] uppercase tracking-wider text-muted">{entry.at}</span>
+                  <span className="mono mt-0.5 shrink-0 text-sm text-muted">{entry.at}</span>
                   <span className="min-w-0 flex-1">
-                    <span className="mono block truncate text-xs">{entry.text}</span>
-                    <span className="mono text-[0.625rem] uppercase tracking-wider text-muted">{entry.region}</span>
+                    <span className="mono block truncate text-sm">{entry.text}</span>
+                    <span className="mono text-sm text-muted">{entry.region}</span>
                   </span>
                   {entry.points > 0 && (
                     <span className="pill shrink-0" style={{ color: 'var(--color-accent)' }}>

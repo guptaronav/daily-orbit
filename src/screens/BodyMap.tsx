@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from 'react'
 import { BodyFigure } from '../components/BodyFigure'
 import { IndicatorCard } from '../components/IndicatorCard'
+import { Avatar } from '../components/kit/Avatar'
 import { Icon, type IconName } from '../components/kit/Icon'
 import { Panel } from '../components/kit/Panel'
 import { Counter, Gauge, Sigma, Sparkline } from '../components/kit/Readout'
@@ -73,7 +74,7 @@ function Callout({ s, side, selected, onSelect }: { s: Summary; side: 'left' | '
     >
       <div className="flex items-center justify-between gap-3">
         <span className="label inline-flex items-center gap-2">
-          <Icon name={REGION_ICON[s.region.id]} size={14} />
+          <Icon name={REGION_ICON[s.region.id]} size={17} />
           {s.region.label}
         </span>
         <StatusDot status={s.status} short />
@@ -82,18 +83,18 @@ function Callout({ s, side, selected, onSelect }: { s: Summary; side: 'left' | '
       {driver?.latest ? (
         <>
           <p className="mt-2.5 flex items-baseline gap-2">
-            <span className="value" style={{ fontSize: '1.5rem' }}>
+            <span className="value" style={{ fontSize: '1.85rem' }}>
               {formatValue(driver.latest)}
             </span>
             <Sigma z={s.z} status={s.status} />
           </p>
           <div className="mt-1 flex items-end justify-between gap-3">
-            <span className="mono text-[0.625rem] uppercase tracking-wider text-muted">{getContent(driver.indicator).label}</span>
-            <Sparkline values={s.spark} status={s.status} width={88} height={24} />
+            <span className="text-sm text-muted">{getContent(driver.indicator).label}</span>
+            <Sparkline values={s.spark} status={s.status} width={118} height={36} />
           </div>
         </>
       ) : (
-        <p className="mt-2.5 text-xs text-muted">No reading has passed the quality check yet.</p>
+        <p className="mt-2.5 text-sm text-muted">No reading has passed the quality check yet.</p>
       )}
     </button>
   )
@@ -133,7 +134,7 @@ export function BodyMap() {
   if (measurements === null) {
     return (
       <main className="mx-auto w-full max-w-[1500px] px-4 py-8 sm:px-6">
-        <p className="label label-mark">Reading telemetry…</p>
+        <p className="text-lg text-muted">Reading telemetry…</p>
         <div className="mt-6 grid gap-5 lg:grid-cols-3">
           {[0, 1, 2].map((i) => (
             <div key={i} className="card h-40 animate-pulse" />
@@ -147,12 +148,14 @@ export function BodyMap() {
     <main className="mx-auto w-full max-w-[1500px] px-4 py-6 sm:px-6">
       {/* ---- Mission strip -------------------------------------------------- */}
       <div className="flex flex-wrap items-end justify-between gap-x-8 gap-y-4 border-b border-rule pb-5">
-        <div>
-          <p className="label label-mark">Health console</p>
-          <h1 className="mt-1.5 text-3xl font-semibold tracking-tight sm:text-4xl">{currentCrew?.name ?? 'Crew'}</h1>
-          <p className="mono mt-1 text-xs text-muted">
-            {currentCrew?.role} · {currentCrew?.dataLabel}
-          </p>
+        <div className="flex items-center gap-4">
+          {currentCrew && <Avatar crew={currentCrew} size={64} status={worst} />}
+          <div>
+            <h1 className="text-3xl font-semibold tracking-tight sm:text-4xl">{currentCrew?.name ?? 'Crew'}</h1>
+            <p className="mono mt-1 text-sm text-muted">
+              {currentCrew?.role} · {currentCrew?.dataLabel}
+            </p>
+          </div>
         </div>
 
         <dl className="flex flex-wrap items-end gap-x-8 gap-y-3">
@@ -198,7 +201,7 @@ export function BodyMap() {
             scan
             className="h-[clamp(320px,46vh,440px)] w-auto max-w-full"
           />
-          <p className="mono mt-2 text-[0.625rem] uppercase tracking-[0.18em] text-muted">
+          <p className="mt-3 text-base text-muted">
             Live · compared with this person&rsquo;s own baseline
           </p>
           <ul className="mt-3 flex flex-wrap justify-center gap-x-4 gap-y-1.5">
@@ -230,7 +233,7 @@ export function BodyMap() {
               status={completeness > 0.75 ? 'green' : completeness > 0.4 ? 'yellow' : 'gray'}
               size={150}
             />
-            <p className="mt-3 max-w-[18rem] text-xs leading-relaxed text-muted">
+            <p className="mt-3 max-w-[18rem] text-sm leading-relaxed text-muted">
               How much of this person is actually being measured right now. It says nothing about how healthy they are.
             </p>
           </div>
@@ -291,12 +294,12 @@ export function BodyMap() {
                       <span className="inline-flex items-center gap-3">
                         <Icon name={REGION_ICON[r.id]} size={16} className="text-muted" />
                         <span className="font-medium">{r.label}</span>
-                        <span className="mono text-[0.625rem] uppercase tracking-wider text-muted">
-                          {s.withData}/{r.indicators.length} measured
+                        <span className="text-sm text-muted">
+                          {s.withData} of {r.indicators.length} measured
                         </span>
                       </span>
                       <span className="inline-flex items-center gap-4">
-                        <Sparkline values={s.spark} status={s.status} width={70} height={20} />
+                        <Sparkline values={s.spark} status={s.status} width={96} height={28} />
                         <StatusDot status={s.status} short />
                       </span>
                     </button>
@@ -309,8 +312,7 @@ export function BodyMap() {
           <div className="space-y-6">
             <div className="flex flex-wrap items-end justify-between gap-4 border-b border-rule pb-3">
               <div>
-                <p className="label label-mark">Region detail</p>
-                <h2 className="mt-1 inline-flex items-center gap-3 text-2xl font-semibold tracking-tight">
+                <h2 className="inline-flex items-center gap-3 text-2xl font-semibold tracking-tight">
                   <Icon name={REGION_ICON[region.id]} size={22} className="text-accent" />
                   {region.label}
                 </h2>

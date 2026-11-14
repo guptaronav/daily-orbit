@@ -156,7 +156,7 @@ export function Bar({ value, max, label, caption, status }: { value: number; max
     <div>
       <div className="flex items-baseline justify-between gap-3">
         <span className="label">{label}</span>
-        {caption && <span className="mono text-xs text-muted">{caption}</span>}
+        {caption && <span className="mono text-sm text-muted">{caption}</span>}
       </div>
       <div className="meter mt-1.5">
         <span style={{ width: `${pct}%`, background: status ? STATUS_COLOR[status] : undefined }} />
@@ -167,10 +167,10 @@ export function Bar({ value, max, label, caption, status }: { value: number; max
 
 /** Signed deviation in standard deviations: the console way to say "how far outside normal". */
 export function Sigma({ z, status }: { z: number | null; status: Status }) {
-  if (z === null) return <span className="mono text-xs text-muted">no baseline</span>
+  if (z === null) return <span className="mono text-sm text-muted">no baseline</span>
   const sign = z > 0 ? '+' : ''
   return (
-    <span className="mono text-xs" style={{ color: STATUS_TEXT[status] }}>
+    <span className="mono text-sm font-semibold" style={{ color: STATUS_TEXT[status] }}>
       {sign}
       {z.toFixed(1)}σ
     </span>

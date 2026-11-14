@@ -55,7 +55,7 @@ export function StatusDot({ status, label, size = 'sm', short = false }: Props) 
 /** Bare swatch plus text, for legends and dense rows where a bordered pill would be noise. */
 export function StatusSwatch({ status, label }: { status: Status; label?: string }) {
   return (
-    <span className="inline-flex items-center gap-2 text-xs" style={{ color: STATUS_TEXT[status] }}>
+    <span className="inline-flex items-center gap-2 text-sm" style={{ color: STATUS_TEXT[status] }}>
       <span aria-hidden className="inline-block h-3 w-3" style={{ background: STATUS_COLOR[status] }} />
       {label ?? STATUS_LABEL[status]}
     </span>
