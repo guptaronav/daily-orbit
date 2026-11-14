@@ -4,7 +4,7 @@
 export const BAND_LO_HZ = 0.7 // 42 bpm
 export const BAND_HI_HZ = 3.0 // 180 bpm
 export const MIN_SECONDS = 10 // shorter captures are refused
-export const MIN_PROMINENCE = 0.4 // spectral peak share of band power needed to trust a heart rate
+export const MIN_PROMINENCE = 0.38 // spectral peak (+ harmonic) share of band power needed to trust a heart rate; see NOTES.md for the calibration
 export const PEAK_HALF_WIDTH_HZ = 0.1 // power within +/- this of the peak counts as "the peak"
 
 export const MAX_MOTION = 0.03 // nose-tip spread as a fraction of face width

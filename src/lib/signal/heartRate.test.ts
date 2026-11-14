@@ -12,6 +12,17 @@ describe('estimateHeartRate', () => {
     expect(out.quality.passed).toBe(true)
   })
 
+  test('a realistic pulse waveform (with a second harmonic) in webcam-level noise still passes', () => {
+    let passed = 0
+    for (let seed = 1; seed <= 20; seed++) {
+      const bpm = 55 + ((seed * 7) % 60)
+      const { r, g, b } = synthRgb({ bpm, fps: FPS, seconds: 40, noise: 0.01, harmonic: 0.6, seed })
+      const out = estimateHeartRate({ r, g, b, fps: FPS, motion: 0.005, meanLuma: 130, faceLostFraction: 0 })
+      if (out.quality.passed && Math.abs(out.bpm! - bpm) <= 2) passed++
+    }
+    expect(passed).toBeGreaterThanOrEqual(19)
+  })
+
   test('a clean signal with too much head motion is refused as motion', () => {
     const { r, g, b } = synthRgb({ bpm: 72, fps: FPS, seconds: 30 })
     const out = estimateHeartRate({ r, g, b, fps: FPS, motion: 0.08, meanLuma: 130, faceLostFraction: 0 })
