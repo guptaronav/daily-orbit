@@ -38,7 +38,7 @@ const NECK = 'M91 72 L109 72 L109 97 L91 97 Z'
 const HEAD = 'M100 13 C117 13 128 27 128 47 C128 68 116 82 100 82 C84 82 72 68 72 47 C72 27 83 13 100 13 Z'
 const HEART = 'M104 160 C86 145 89 127 99 127 C103 127 105 131 105 131 C105 131 107 127 111 127 C121 127 123 147 104 160 Z'
 
-export function BodyFigure({ statuses, selected, onSelect, className = 'w-full max-w-[260px]', interactive = true }: Props) {
+export function BodyFigure({ statuses, selected, onSelect, className = 'h-[360px] w-auto max-w-full', interactive = true }: Props) {
   // A plain function (not a component) so the <g> elements keep their identity, and focus, across renders.
   const region = (id: RegionId, shapes: ReactNode) => {
     const status = statuses[id]
@@ -104,7 +104,7 @@ export function BodyFigure({ statuses, selected, onSelect, className = 'w-full m
       {region(
         'eyes',
         <>
-          <rect className="hit" x="70" y="30" width="60" height="30" />
+          <rect className="hit" x="72" y="34" width="56" height="24" />
           <ellipse className="shape" cx="87" cy="45" rx="9" ry="5.5" />
           <ellipse className="shape" cx="113" cy="45" rx="9" ry="5.5" />
         </>,

@@ -53,7 +53,7 @@ export function BodyMap() {
         </div>
 
         <div className="mt-5 flex justify-center">
-          <BodyFigure statuses={statuses} selected={selected} onSelect={setSelected} />
+          <BodyFigure statuses={statuses} selected={selected} onSelect={setSelected} className="h-[clamp(300px,42vh,400px)] w-auto max-w-full" />
         </div>
         <p className="mt-3 text-sm text-muted">
           Select a region on the figure or in the list. Colors compare each reading with this person's own baseline, never a population

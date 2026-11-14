@@ -54,7 +54,9 @@ export function IndicatorCard({ reading }: { reading: IndicatorReading }) {
               baseline {reading.baseline.mean.toFixed(1)} ± {reading.baseline.sd.toFixed(1)} {content.unit} (n={reading.baseline.n})
             </p>
           )}
-          {!reading.baseline && latest && <p className="mt-1.5 text-xs text-muted">no baseline yet (needs 5 readings)</p>}
+          {!reading.baseline && latest && typeof latest.value === 'number' && (
+            <p className="mt-1.5 text-xs text-muted">no baseline yet (needs 5 readings)</p>
+          )}
         </div>
       </header>
 
