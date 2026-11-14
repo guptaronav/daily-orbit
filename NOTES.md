@@ -34,6 +34,24 @@
 - Face regions (`src/camera/rois.ts`) are axis-aligned boxes built from 8 well-known mesh anchor points (10, 168, 234, 454, 33, 263, 61, 291) rather than hand-picked polygon indices: forehead 30%x12% of face width centered 45% of the way from the hairline point to the bridge; cheeks 16% square midway between eye corner and mouth corner. Head tilt is ignored. **Needs a visual check with a real face (dev harness).**
 - Webcam frames arrive unevenly, so traces are resampled onto a uniform 30 Hz clock by timestamp before the pulse estimator runs.
 
+### Arnav (A1-A5)
+
+- Status colors now come in two tokens each: a swatch value for fills (`--color-ok` etc.) and a darker `-ink` value for text (`--color-ok-ink` etc.), because the swatch hues do not reach AA contrast as small text on paper. Status text uses the ink variant; swatches stay the original hues.
+- Trend charts break the line at readings that failed quality instead of joining across them, so a gap on the chart means "we did not trust that reading", never "nothing happened". The count of skipped readings is printed under the chart.
+- Body figure is one front-view silhouette drawn limbs-first so the shoulder and hip seams are hidden by the torso. The small regions (eyes, heart, gut) carry an invisible hit rect; even so, the eye target is under 44 px at the default size, and the region list below the figure is the full-size path to the same regions.
+- Manual-entry ranges (`src/lib/manualEntry.ts`) are **input guards against typos only** and the error text says so: BP 40-300 / 20-200 mmHg, temperature 25-45 C, blood sugar 10-900 mg/dL, sleep 0-24 h, exercise 0-1440 min. A cuff reading with systolic at or below diastolic is rejected as a swap. None of these are clinical limits; `src/config/thresholds.ts` is still all nulls.
+- A manually typed number is stored with `quality: { score: 1, passed: true }`: there is no signal to score, so we take the person at their word rather than inventing a confidence.
+- Ground packet (`src/lib/packet.ts`): an indicator is included when its latest quality-passed reading is yellow or red against that person's own baseline. `sinceDays` is found by walking back over consecutive deviating readings (each compared with the baseline of everything before it, as `readIndicator` does) and taking whole days from the oldest of that run. Non-numeric indicators (Amsler, symptom report) are not in the packet because there is no baseline mean to compare against. `bytes` is the UTF-8 length of the exact JSON string shown on screen.
+- The escalation countdown is a simulation of the one-way link only. Nothing is transmitted; no network call is made.
+
+### Simulated metrics (A5, `src/lib/sim/metrics.ts`)
+
+Both numbers on the Metrics screen are models, not observations, and every input is editable on the screen.
+
+- Crew minutes per day: `manual = setupMin + perIndicatorMin x indicatorCount` against `mirror = mirrorCheckMin`. Defaults: mirror check 3 min, 1.5 min per indicator, 9 indicators, 2 min setup, 4 crew, 180 days. All four defaults are invented; none is measured or sourced.
+- Reporting completeness: per person-day, draw (a) whether the person does the check (default 0.85), (b) whether it is a day worth reporting (0.25), (c) whether they would hide it under value-based scoring (0.4). Effort-based scoring counts every check; value-based scoring drops the hidden bad days. Both arms use the same three draws, so effort >= value always, with equality exactly when nobody hides anything. Deterministic in the seed (`mulberry32`).
+- The claim that people under-report when bad values are punished is an **assumption we made**, not a result we found. The model exists to make that assumption arguable, not to prove it.
+
 ## Sources
 
 ## Limitations
