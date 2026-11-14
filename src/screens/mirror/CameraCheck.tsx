@@ -172,7 +172,7 @@ export function CameraCheck({ onComplete }: { onComplete: (result: CameraResult)
       )}
 
       <div className="relative w-full max-w-xl overflow-hidden border border-ink bg-ink">
-        <video ref={videoRef} playsInline muted className="block w-full -scale-x-100" />
+        <video ref={videoRef} playsInline muted aria-label="Live camera preview" className="block w-full -scale-x-100" />
         <svg viewBox="0 0 100 75" className="pointer-events-none absolute inset-0 h-full w-full" aria-hidden>
           <ellipse cx="50" cy="38" rx="17" ry="24" fill="none" stroke={outline} strokeWidth="1.2" strokeDasharray={checks?.ready || phase === 'capturing' ? undefined : '3 2'} />
         </svg>

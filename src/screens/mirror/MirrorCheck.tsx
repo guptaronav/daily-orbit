@@ -10,11 +10,17 @@ import { Vision, type VisionResult } from './Vision'
 
 type Step = 'camera' | 'vision' | 'symptoms' | 'summary'
 
+/** Development only: jump into the mirror check at a step (?screen=mirror&step=vision) without a webcam. */
+const devStep = (): Step => {
+  const wanted = import.meta.env.DEV ? new URLSearchParams(location.search).get('step') : null
+  return wanted === 'vision' || wanted === 'symptoms' ? wanted : 'camera'
+}
+
 const newSession = (retook = false): MirrorSession => ({ sessionId: crypto.randomUUID(), ...(retook ? { retookAfterQualityFail: true } : {}) })
 
 export function MirrorCheck() {
   const { crewId, go, refresh } = useApp()
-  const [step, setStep] = useState<Step>('camera')
+  const [step, setStep] = useState<Step>(devStep)
   const [session, setSession] = useState<MirrorSession>(() => newSession())
   const [saving, setSaving] = useState(false)
   const [diagnostics, setDiagnostics] = useState<CaptureDiagnostics | null>(null)

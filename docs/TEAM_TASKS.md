@@ -75,7 +75,7 @@ Node 24 is required for the data scripts (`node scripts/foo.ts` runs TypeScript 
 4. **Charts.** Style `TrendChart`: baseline band, axis labels, tooltip, so a gradual decline is obvious at a glance. Keep straight lines (no smoothing).
 5. **Landing page.** Make the first screen memorable. It must still explain the app in two sentences and offer the two buttons ("Take the mirror check", "Explore the crew dashboard").
 6. **Responsive.** Verify at widths 320, 375, 768, 1024, 1440. No horizontal scroll. Touch targets at least 44 px.
-7. **Accessibility.** Check keyboard-only use of the whole app, visible focus, and color contrast of all text and status colors.
+7. **Accessibility.** Check keyboard-only use of the whole app, visible focus, and color contrast of all text and status colors. Known findings from an audit: (a) `--color-ok` text on the paper background is 4.46:1, just under the 4.5:1 needed for small text (used by "Online" and the position checks), so darken it a little; (b) the top bar's title button and its two dropdowns are 24 to 29 px tall, below the 44 px touch target. The rest of the screens had no overflow at 320, 375 or 768 px and no unnamed controls. Dev shortcuts: `?screen=progress` and `?screen=mirror&step=vision` (or `symptoms`) open a screen directly in `npm run dev`.
 
 **Done when:** every screen looks consistent at all five widths and you can complete the body-map flow with only a keyboard.
 

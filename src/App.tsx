@@ -1,8 +1,7 @@
-import { useCallback, useEffect, useState } from 'react'
+import { Suspense, lazy, useCallback, useEffect, useState } from 'react'
 import { DemoPanel } from './components/DemoPanel'
 import { Footer } from './components/Footer'
 import { TopBar } from './components/TopBar'
-import { BodyMap } from './screens/BodyMap'
 import { Escalation } from './screens/Escalation'
 import { Landing } from './screens/Landing'
 import { Manual } from './screens/Manual'
@@ -11,8 +10,11 @@ import { Metrics } from './screens/Metrics'
 import { Progress } from './screens/Progress'
 import { Radiation } from './screens/Radiation'
 import { Sources } from './screens/Sources'
-import { MirrorCheck } from './screens/mirror/MirrorCheck'
 import { AppProvider, useApp } from './state/AppContext'
+
+// The charts (body map) and the camera pipeline (mirror check) are the heavy parts: load them on demand.
+const BodyMap = lazy(() => import('./screens/BodyMap').then((m) => ({ default: m.BodyMap })))
+const MirrorCheck = lazy(() => import('./screens/mirror/MirrorCheck').then((m) => ({ default: m.MirrorCheck })))
 
 function Screen() {
   const { screen, ready } = useApp()
@@ -56,7 +58,9 @@ function Shell() {
   return (
     <div className="flex min-h-screen flex-col">
       {screen !== 'landing' && <TopBar />}
-      <Screen />
+      <Suspense fallback={<main className="p-8 text-muted">Loading…</main>}>
+        <Screen />
+      </Suspense>
       <Footer />
       <DemoPanel open={demoOpen} onClose={() => setDemoOpen(false)} />
     </div>

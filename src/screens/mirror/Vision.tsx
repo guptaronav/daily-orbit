@@ -63,7 +63,7 @@ export function Vision({ onComplete }: { onComplete: (result: VisionResult) => v
       </h2>
       <p className="max-w-xl text-sm">
         Hold the screen about an arm's length away (roughly 35 cm). Cover your <strong>{eye.cover}</strong> eye. Look at the dot with your{' '}
-        <strong>{eye.test}</strong> eye and keep looking at it. Mark any squares where the lines look wavy, blurred or missing.
+        <strong>{eye.test}</strong> eye and keep looking at it. Mark any squares where the lines look wavy, blurred or missing. With a keyboard: Tab into the grid, move with the arrow keys, press Space to mark a square.
       </p>
       <AmslerGrid n={GRID_N} marked={marked} onToggle={toggle} eyeLabel={`${eye.test.toLowerCase()} eye`} />
       <div className="flex flex-wrap items-center gap-4">
