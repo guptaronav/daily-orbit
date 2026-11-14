@@ -1,0 +1,25 @@
+Subject ID:	5907
+Test Date:	01/19/10
+BR Day:	BR-12
+Age (yr):	28
+WT (kg):	49.1
+HT (cm):	155.0
+
+NTE HR:
+from B8	ENTER
+90% PHR	155
+90% VO2-HR	151
+90% Karv	163
+
+VO2pk	0.98
+Pred VO2pk	1.62
+Diff	0.64
+%Diff	100%
+HRpk	172
+Pred  HRpk	182
+Diff	10
+%Diff	0%
+VO2pk Rel	20.0
+Pred VO2pk Rel	35.0
+Diff	15.0
+%Diff	100%

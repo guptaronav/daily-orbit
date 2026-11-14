@@ -1,0 +1,779 @@
+{
+ "record": {
+  "id": "16a0cdc3-3e05-5f44-9854-2f4f35ef597b",
+  "_id": "16a0cdc3-3e05-5f44-9854-2f4f35ef597b",
+  "experiment_title": "Inflight Radiation Measurements",
+  "pub_document_number": "PUB000327",
+  "parameter_html": "<table><tr><td>Absorbed dose</td></tr><tr><td>Rad</td></tr><tr><td>Radiation dose equivalent</td></tr><tr><td>Linear energy transfer</td></tr><tr></tr></table>",
+  "__source_key": "cl62aty7tcany01o64ign05zs",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Petrov, Vladislav\">Principal Investigator: Petrov, Vladislav</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Badhwar, Gautam\">Principal Investigator: Badhwar, Gautam</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Akatov, Yury\">Co-Investigator: Akatov, Yury</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Arkhangelsky, V.\">Co-Investigator: Arkhangelsky, V.</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Atwell, William\">Co-Investigator: Atwell, William</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Benton, Eugene\">Co-Investigator: Benton, Eugene</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Cash, Bernard\">Co-Investigator: Cash, Bernard</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Kushin, V.\">Co-Investigator: Kushin, V.</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Shurshakov, V.\">Co-Investigator: Shurshakov, V.</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Tchernykh, I.\">Co-Investigator: Tchernykh, I.</a>",
+  "image_name": [
+   "Mir Interface to Payloads System (MIPS)-2 Laptop Computer"
+  ],
+  "keyword": [
+   "Solar activity",
+   "Hematopoietic system",
+   "Radiation dosage",
+   "Linear energy transfer (LET)",
+   "Radiometry",
+   "Radiation monitoring",
+   "Radiation protection",
+   "Cosmic radiation",
+   "Protons"
+  ],
+  "keyword_name": "Protons",
+  "__record_version": 30,
+  "experiment_description": "OBJECTIVES:<br>\r\nContinuous exposure to radiation is one of the major health risks associated with long-term human space flight.  When the International Space Station (ISS) receives its first crew in 2001 scientists would like to be able to accurately measure the amount of biologically important radiation the crew is receiving so that they know how long they can stay in orbit without endangering the crews health.  Current models of determining radiation exposure don't take into account the fact that the primary radiation dose is much different than the dose received by human tissue after the radiation has passed through the spacecraft/human body.  This modified dose is known as the biologically important dose equivalent and can only be obtained by accurately measuring the full linear energy transfer (LET) spectrum.  Measurements of genetic risk can then be made using the total absorbed dose, dose rate, and the LET.  The following objectives were outlined for this experiment.<P>\r\n1. To correlate independent simultaneous space radiation exposure measurements and independent \r\nradiation exposure calculations made by NASA/Johnson Space Center (JSC) with those made by   \r\nRussian Space Alliance (RSA)/Institution of Biomedical Problems (IBMP).<br> \r\n2. Compare the absorbed dose measured throughout the Mir core module with calculated values and \r\ndetermine empirical correction factors for the currently used free space environment models.<br> \r\n3.  Compare the measured LET spectra for the galactic cosmic radiation (GCR) and trapped particles \r\nwith the calculated spectra using the most current radiation environment and transport models.\r\n<P>\r\nAPPROACH:<br>\r\nTo cover all aspects of this investigation, four different radiation measurement devices were flown:<br>\r\n1. Passive radiation dosimeters (PRD) were mounted at six preselected locations inside the Mir core \r\nmodule and at six locations inside the shuttle, during STS-74.  The PRD's were lithium fluoride \r\npassive thermoluminescent detectors (TLD) and measured the total absorbed dose from charged\r\nparticles.<br>\r\n2. Each of the Mir astronauts wore two crew passive dosimeters (CPDs), one dosimeter designed by the U.S., the other designed by the Russian Space Agency (RSA).  The US dosimeter contained both LiF TLDs and CR-39 plastic nuclear track detectors (PNTDs), whereas the Russian dosimeters contained only TLDs.<br>\r\n3. A tissue equivalent proportional counter (TEPC), simulating a 2 micrometer diameter tissue was also flown on board the Mir Space Station (Mir core module).  The TEPC measured the LET spectrum at one minute intervals from which the absorbed dose rates, and dose equivalent rates could be calculated.  In addition, just the absorbed dose rate measured at 2 second intervals was recorded.<br>\r\n4. An area passive dosimeter (APD) that contained both LiF TLDs and PNTDs was also flown.  The APD \r\nwas mounted in the Mir core module next to the TEPC.<br>\r\n<P>\r\nAlthough not part of this planned investigation, data from the Russian operation dosimeter, called R-16 and the French-Russian collaboration instrument, Nausicca, were also available for data comparison.\r\n<P>\r\nRESULTS:<br>\r\nAlthough this experiment was scheduled for both Mir 18 and 19 missions a technical problem with the Mir interface payloads system (MIPS) resulted in the loss of all TEPC data from the Mir 19 mission.  Passive radiation dosimetry results show that the Russian measurements were 16% lower on Mir-18 and 8% higher on Mir-19 than the U.S results.  Dose rates across the Mir core module vary by a factor of nearly two, due to the differences in shielding and spacecraft orientation.  The dose rates measured by the US and Russian APDs that were mounted at the same location are in remarkable agreement.  However, these rates are lower than the TEPC measured dose rate at the same location.  The TEPC data is separated into two components, galactic cosmic radiation and trapped particles for calculation purposes.\r\n<P>\r\n<U>Trapped Particles</U> <BR>\r\nThe trapped particle dose rate was separated from the galactic cosmic radiation component using the one-minute TEPC dose rate data.  The trapped dose rate varied by a factor of 1.7 with an average trapped absorbed dose rate of 153.4 \u00b5 Gy/day.  AP8 MIN model calculations were within a reasonable limit for measurements of LET > 4 keV/\u00b5 m, but were increasingly inaccurate below 4 keV/\u00b5 m, the area where the majority of trapped particles are located.   \r\n<P>\r\n<U>Galactic Cosmic Radiation (GCR)</U><BR>\r\nThe GCR rate is modulated by changes in solar activity.  The standard diffusion-convection theory describes the modulation of primary GCR differential energy spectra very well in terms of the deceleration potential.  The dose rate is a monotonic non-linear function of the deceleration potential that depends on the orbit inclination.  The calculated dose rate was 135 \u00b5 Gy/day with a quality factor of 3.25.  Although the model provides good agreement between the dose and dose equivalent rates, there is room for considerable improvement in the model calculation of the LET spectrum.\r\n<P>\r\nThe combined GCR plus trapped proton absorbed dose rate was 299.3 \u00b5 Gy/day, dose equivalent rate was 781 \u00b5 Sv/day, and average quality factor of 2.61.  TLDs mounted next to the TEPC measured total dose rate of 241 \u00b5 Gy/day.  Because TLDs are inefficient at detecting particles with LET > 10 keV/\u00b5 m PNTD data is used to estimate the additional dose.  The adjusted absorbed dose rate is 272 \u00b5 Gy/day, which is only 9% lower than the TEPC measured dose rate.  If the crew exposures measured with the TLDs were adjusted for this deficiency the U.S. crew skin exposure would be 1130 \u00b5 Sv/day.\r\n<P>\r\nThe results of this experiment show: (1) our understanding of the GCR environment is fairly good in predicting the absorbed dose and dose equivalent.  However, additional work is needed in the area of radiation transport models to better predict the LET spectrum; (2) the AP8 MIN model does not predict the absorbed dose, dose equivalent, or LET spectrum of trapped particles very well; (3) the average radiation quality factor, 2.6, is higher than model calculations.  The major cause of this difference is due to errors in the AP8 MIN model.  The effect of secondary neutrons that the TEPC measures but are not included in model calculations is also a contributing factor; (4) if the only radiation received by a crewmember is natural (GCR plus trapped particles) inside the spacecraft, crewmembers can stay in orbit for up to three years without exceeding their career limits (1000-4000 mSv); (5) there is a clear need to improve the trapped proton belt models.  These static models are inadequate for predicting the exposure for long term stay in low earth orbit.\r\n<END>",
+  "indexed": "2026-08-23T03:51:48.041130+00:00",
+  "GUID": "cl62aty7tcany01o64ign05zs",
+  "__model_type": "lsda_experiment",
+  "__dirid": "16a0cdc3-3e05-5f44-9854-2f4f35ef597b",
+  "__record_size_wo_doccontent": 130893,
+  "experiment_parms_tissue2": "N/A",
+  "experiment_parms_tissue1": "N/A",
+  "__update_method": "Update CDM",
+  "archive_status_index": 1,
+  "experiment_type_lk": [
+   "NASA-Mir Program"
+  ],
+  "__record_modified_date": "2026-08-23T03:51:48.041130+00:00",
+  "proposal_source": [
+   "N/A"
+  ],
+  "__indexed": "2026-08-23T03:51:48.041130+00:00",
+  "__record_creation_date": "2022-07-28T19:48:51.980Z",
+  "__record_size": 130893,
+  "__model_version": 60,
+  "payload_id": "Mir 17",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "5.2.1",
+  "parameter_name": [
+   "Absorbed dose",
+   "Rad",
+   "Radiation dose equivalent",
+   "Linear energy transfer"
+  ],
+  "payload_part": "Mir 17",
+  "exp_index": 340,
+  "research_area": [
+   "Radiation biology",
+   "Environmental monitoring"
+  ],
+  "pme_role_with_name": [
+   "Co-Investigator: Akatov, Yury",
+   "Co-Investigator: Arkhangelsky, V.",
+   "Co-Investigator: Atwell, William",
+   "Co-Investigator: Benton, Eugene",
+   "Co-Investigator: Cash, Bernard",
+   "Co-Investigator: Kushin, V.",
+   "Co-Investigator: Shurshakov, V.",
+   "Co-Investigator: Tchernykh, I.",
+   "Principal Investigator: Badhwar, Gautam",
+   "Principal Investigator: Petrov, Vladislav"
+  ],
+  "missions": [
+   [
+    [
+     "Mir 17"
+    ]
+   ],
+   [
+    [
+     "Mir 18"
+    ]
+   ],
+   [
+    [
+     "Mir 19"
+    ]
+   ],
+   [
+    [
+     "STS-74"
+    ]
+   ]
+  ],
+  "PI": [
+   "Badhwar, Gautam",
+   "Petrov, Vladislav"
+  ],
+  "_file_extension": [],
+  "experiment_identifier": [
+   "5.2.1"
+  ],
+  "mission_id": [
+   [
+    [
+     "Mir 17"
+    ]
+   ],
+   [
+    [
+     "Mir 18"
+    ]
+   ],
+   [
+    [
+     "Mir 19"
+    ]
+   ],
+   [
+    [
+     "STS-74"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Badhwar, Gautam",
+   "Petrov, Vladislav"
+  ],
+  "archive_status": "Data preservation is complete. All datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Nasa-Mir",
+  "__source_field_concat": "PUB000327 Mir 17 cl62aty7tcany01o64ign05zs Protons N/A N/A  Mir 17 Inflight Radiation Measurements 5.2.1 Nasa-Mir Data preservation is complete. All datasets are publicly available.",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<br>\r\nContinuous exposure to radiation is one of the major health risks associated with long-term human space flight.  When the International Space Station (ISS) receives its first crew in 2001 scientists would like to be able to accurately measure the amount of biologically important radiation the crew is receiving so that they know how long they can stay in orbit without endangering the crews health.  Current models of determining radiation exposure don't take into account the fact that the primary radiation dose is much different than the dose received by human tissue after the radiation has passed through the spacecraft/human body.  This modified dose is known as the biologically important dose equivalent and can only be obtained by accurately measuring the full linear energy transfer (LET) spectrum.  Measurements of genetic risk can then be made using the total absorbed dose, dose rate, and the LET.  The following objectives were outlined for this experiment.<P>\r\n1. To correlate independent simultaneous space radiation exposure measurements and independent \r\nradiation exposure calculations made by NASA/Johnson Space Center (JSC) with those made by   \r\nRussian Space Alliance (RSA)/Institution of Biomedical Problems (IBMP).<br> \r\n2. Compare the absorbed dose measured throughout the Mir core module with calculated values and \r\ndetermine empirical correction factors for the currently used free space environment models.<br> \r\n3.  Compare the measured LET spectra for the galactic cosmic radiation (GCR) and trapped particles \r\nwith the calculated spectra using the most current radiation environment and transport models.\r\n<P>\r\nAPPROACH:<br>\r\nTo cover all aspects of this investigation, four different radiation measurement devices were flown:<br>\r\n1. Passive radiation dosimeters (PRD) were mounted at six preselected locations inside the Mir core \r\nmodule and at six locations inside the shuttle, during STS-74.  The PRD's were lithium fluoride \r\npassive thermoluminescent detectors (TLD) and measured the total absorbed dose from charged\r\nparticles.<br>\r\n2. Each of the Mir astronauts wore two crew passive dosimeters (CPDs), one dosimeter designed by the U.S., the other designed by the Russian Space Agency (RSA).  The US dosimeter contained both LiF TLDs and CR-39 plastic nuclear track detectors (PNTDs), whereas the Russian dosimeters contained only TLDs.<br>\r\n3. A tissue equivalent proportional counter (TEPC), simulating a 2 micrometer diameter tissue was also flown on board the Mir Space Station (Mir core module).  The TEPC measured the LET spectrum at one minute intervals from which the absorbed dose rates, and dose equivalent rates could be calculated.  In addition, just the absorbed dose rate measured at 2 second intervals was recorded.<br>\r\n4. An area passive dosimeter (APD) that contained both LiF TLDs and PNTDs was also flown.  The APD \r\nwas mounted in the Mir core module next to the TEPC.<br>\r\n<P>\r\nAlthough not part of this planned investigation, data from the Russian operation dosimeter, called R-16 and the French-Russian collaboration instrument, Nausicca, were also available for data comparison.\r\n<P>\r\nRESULTS:<br>\r\nAlthough this experiment was scheduled for both Mir 18 and 19 missions a technical problem with the Mir interface payloads system (MIPS) resulted in the loss of all TEPC data from the Mir 19 mission.  Passive radiation dosimetry results show that the Russian measurements were 16% lower on Mir-18 and 8% higher on Mir-19 than the U.S results.  Dose rates across the Mir core module vary by a factor of nearly two, due to the differences in shielding and spacecraft orientation.  The dose rates measured by the US and Russian APDs that were mounted at the same location are in remarkable agreement.  However, these rates are lower than the TEPC measured dose rate at the same location.  The TEPC data is separated into two components, galactic cosmic radiation and trapped particles for calculation purposes.\r\n<P>\r\n<U>Trapped Particles</U> <BR>\r\nThe trapped particle dose rate was separated from the galactic cosmic radiation component using the one-minute TEPC dose rate data.  The trapped dose rate varied by a factor of 1.7 with an average trapped absorbed dose rate of 153.4 \u00b5 Gy/day.  AP8 MIN model calculations were within a reasonable limit for measurements of LET > 4 keV/\u00b5 m, but were increasingly inaccurate below 4 keV/\u00b5 m, the area where the majority of trapped particles are located.   \r\n<P>\r\n<U>Galactic Cosmic Radiation (GCR)</U><BR>\r\nThe GCR rate is modulated by changes in solar activity.  The standard diffusion-convection theory describes the modulation of primary GCR differential energy spectra very well in terms of the deceleration potential.  The dose rate is a monotonic non-linear function of the deceleration potential that depends on the orbit inclination.  The calculated dose rate was 135 \u00b5 Gy/day with a quality factor of 3.25.  Although the model provides good agreement between the dose and dose equivalent rates, there is room for considerable improvement in the model calculation of the LET spectrum.\r\n<P>\r\nThe combined GCR plus trapped proton absorbed dose rate was 299.3 \u00b5 Gy/day, dose equivalent rate was 781 \u00b5 Sv/day, and average quality factor of 2.61.  TLDs mounted next to the TEPC measured total dose rate of 241 \u00b5 Gy/day.  Because TLDs are inefficient at detecting particles with LET > 10 keV/\u00b5 m PNTD data is used to estimate the additional dose.  The adjusted absorbed dose rate is 272 \u00b5 Gy/day, which is only 9% lower than the TEPC measured dose rate.  If the crew exposures measured with the TLDs were adjusted for this deficiency the U.S. crew skin exposure would be 1130 \u00b5 Sv/day.\r\n<P>\r\nThe results of this experiment show: (1) our understanding of the GCR environment is fairly good in predicting the absorbed dose and dose equivalent.  However, additional work is needed in the area of radiation transport models to better predict the LET spectrum; (2) the AP8 MIN model does not predict the absorbed dose, dose equivalent, or LET spectrum of trapped particles very well; (3) the average radiation quality factor, 2.6, is higher than model calculations.  The major cause of this difference is due to errors in the AP8 MIN model.  The effect of secondary neutrons that the TEPC measures but are not included in model calculations is also a contributing factor; (4) if the only radiation received by a crewmember is natural (GCR plus trapped particles) inside the spacecraft, crewmembers can stay in orbit for up to three years without exceeding their career limits (1000-4000 mSv); (5) there is a clear need to improve the trapped proton belt models.  These static models are inadequate for predicting the exposure for long term stay in low earth orbit.\r\n<END>",
+  "__doi": "10.83263/6m73-mr02",
+  "__doi_record_creation_date": "2026-08-23T03:51:48",
+  "__doi_record_modified_date": "2026-08-23T03:51:48"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001765",
+   "label": "J0001091",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Dose Rate as a Function of Time",
+    "dataset_catalog": "J0001091",
+    "dataset_description": "",
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "5.2.1"
+    ]
+   },
+   "meta": "2 files \u00b7 7.68 MB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "e77922c8-03ab-5a4a-950f-51e63798a96d",
+     "label": "JMMIR521_48.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 4026532,
+     "meta": "3.84 MB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c0ffbe97-fded-5d20-a355-0cdd1f20cc4f",
+     "label": "JMMIR521_48.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 4026532,
+     "meta": "3.84 MB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000582",
+   "label": "J0001099",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Mass Shielding Distribution Function at the Location of the Tissue Equivalent Proportional Counter (TEPC) and R-16 Dosimeter Inside the Mir Core Module",
+    "dataset_catalog": "J0001099",
+    "dataset_description": [
+     "This figure shows the shielding probability density (cm&#178;/g) as a function of shielding thickness (g/cm&#178; of Al).<P>Source: Badhwar GD, Petrov VM. Inflight Radiation Measurements. In: Shuttle-Mir Science Program Phase 1A Research Postflight Science Report. Houston, TX: NASA Lyndon B. Johnson Space Center; 1998:4.93-4.100.<END>"
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "5.2.1"
+    ]
+   },
+   "meta": "1 file \u00b7 1.2 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "ed93cf84-d15b-583c-927a-315d54dd3bae",
+     "label": "JMMIR521_56.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 1260,
+     "meta": "1.2 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000451",
+   "label": "J0001103",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Passive Radiation Dosimetry Doses for STS-74",
+    "dataset_catalog": "J0001103",
+    "dataset_description": [
+     "This table shows the dosimeter locations, the total dose (mrad), and the dose rate (mrad/day).Source: Badhwar GD, Atwell W, Cash B, Petrov VM, Akatov YA, Tchernyk IV, Shurshov VA, Arkhanglesky VA. Radiation Environment on the Mir Orbital Station During Solar Minimum. Adv. Space Research."
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "5.2.1"
+    ]
+   },
+   "meta": "1 file \u00b7 13.5 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "54d428a5-7791-50b9-aec2-d1564f05ba12",
+     "label": "JMMIR521_65.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 13824,
+     "meta": "13.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002384",
+   "label": "J0001098",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Calculated Dose and Dose Equivalent as a Function of Altitude",
+    "dataset_catalog": "J0001098",
+    "dataset_description": [
+     "The calculated blood forming organ dose (mGy/day) and dose equivalent (mSv/day) rate are shown in this graph as a function of Mir altitude (km).  The curves are normalized to the observed values at 400 km Mir altitude.<P>Source: Badhwar GD, Petrov VM. Inflight Radiation Measurements. In: Shuttle-Mir Science Program Phase 1A Research Postflight Science Report. Houston, TX: NASA Lyndon B. Johnson Space Center; 1998:4.93-4.100.<END>"
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "5.2.1"
+    ]
+   },
+   "meta": "1 file \u00b7 1.51 MB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "242c3a64-6df6-51eb-a2b8-c4cd9ef68c98",
+     "label": "JMMIR521_55.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 1583350,
+     "meta": "1.51 MB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001991",
+   "label": "J0001097",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Comparison of the Total (Galactic Cosmic Radiation Plus Trapped) Integral Linear Energy Transfer (LET) Spectrum",
+    "dataset_catalog": "J0001097",
+    "dataset_description": [
+     "This figure shows a comparison of the tissue equivalent proportional counter (TEPC) and the CR-39 plastic nuclear track detector?s (PNTD) linear energy transfer spectrums.<P>Source: Badhwar GD, Petrov VM. Inflight Radiation Measurements. In: Shuttle-Mir Science Program Phase 1A Research Postflight Science Report. Houston, TX: NASA Lyndon B. Johnson Space Center; 1998:4.93-4.100.<END>"
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "5.2.1"
+    ]
+   },
+   "meta": "2 files \u00b7 3.42 MB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "39d54d62-042f-5d2b-ab6e-fbbcd4e87422",
+     "label": "JMMIR521_54.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 1793065,
+     "meta": "1.71 MB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1f345323-c6ef-52e1-ab70-145602adeec4",
+     "label": "JMMIR521_54.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 1793065,
+     "meta": "1.71 MB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001766",
+   "label": "J0001095",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Trapped Particles Dose Rate with Time",
+    "dataset_catalog": "J0001095",
+    "dataset_description": "",
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "5.2.1"
+    ]
+   },
+   "meta": "2 files \u00b7 3.22 MB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "44cd0a01-c54b-5e8f-9c38-a0b03bd974f3",
+     "label": "JMMIR521_52.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 1688207,
+     "meta": "1.61 MB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b1ea1e08-e0e8-5b9b-af41-70d8bc33327c",
+     "label": "JMMIR521_52.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 1688207,
+     "meta": "1.61 MB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000697",
+   "label": "5.2.1__2630659476",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Final Mir Report for Experiment 5.2.1",
+    "dataset_catalog": "5.2.1__2630659476",
+    "dataset_description": [
+     "This is the final report for Mir 18 and 19."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "5.2.1"
+    ]
+   },
+   "meta": "2 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "d97f7693-995c-5246-80d9-a305e672cd4a",
+     "label": "521__2630659476_1.pdf_Mir_18_5.2.1_2013_263_070940.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6ad2e97d-65ce-549f-b74e-e14a1fd88562",
+     "label": "521__2630659476_2.pdf_Mir_19_5.2.1_2013_263_070957.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000857",
+   "label": "J0001100",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Mir 19 Passive Radiation Dosimetry Results",
+    "dataset_catalog": "J0001100",
+    "dataset_description": "",
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "5.2.1"
+    ]
+   },
+   "meta": "1 file \u00b7 15.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "10902ca1-8d94-53b4-8f86-0407ed1fe33d",
+     "label": "JMMIR521_58.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 15360,
+     "meta": "15.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000881",
+   "label": "5.2.1__2630723638",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Data Collection Timetables for Experiment 5.2.1",
+    "dataset_catalog": "5.2.1__2630723638",
+    "dataset_description": [
+     "This spreadsheet represents the data collection timetables for this experiment. Information included in this spreadsheet may include information about the test protocol, data collection constraints, parameters measured, hardware used, scheduled versus actual days of data collection, and subject information."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "5.2.1"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "f593373b-02f7-5f78-93bd-17b23da57ca7",
+     "label": "521__2630723638.pdf_Mir_17_5.2.1_2013_263_070925.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001502",
+   "label": "J0001092",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Comparison of the Daily Dose Rate from the R-16 Detector Ion Chambers and U.S. Tissue Equivalent Proportional Counter (TEPC)",
+    "dataset_catalog": "J0001092",
+    "dataset_description": "",
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "5.2.1"
+    ]
+   },
+   "meta": "2 files \u00b7 3.08 MB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "ab3dccb8-2a76-5ffa-96fd-93ab60a9b6f6",
+     "label": "JMMIR521_49.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 1614807,
+     "meta": "1.54 MB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3625428d-9bd0-5028-b898-8064ae675566",
+     "label": "JMMIR521_49.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 1614807,
+     "meta": "1.54 MB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001414",
+   "label": "J0001104",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Radiation Dosimetry Deployed Locations",
+    "dataset_catalog": "J0001104",
+    "dataset_description": [
+     "This figure is a schematic of the Mir core module showing the deployed location of the passive radiation dosimeters and the average dose rates.<END>"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "5.2.1"
+    ]
+   },
+   "meta": "1 file \u00b7 40.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "5ad21f43-a490-5bd3-97b6-d7613a5f983c",
+     "label": "JMMIR521_66.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 40960,
+     "meta": "40.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001412",
+   "label": "J0001102",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Mir 18 Absorbed Doses and Comparison with Model Calculations",
+    "dataset_catalog": "J0001102",
+    "dataset_description": "",
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "5.2.1"
+    ]
+   },
+   "meta": "1 file \u00b7 15.5 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "352ae1c7-2b23-572b-8664-60997c870e30",
+     "label": "JMMIR521_64.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 15872,
+     "meta": "15.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001621",
+   "label": "J0001094",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Measured Integral Linear Energy Transfer (LET) Spectrum and Its Comparison With Model Calculations",
+    "dataset_catalog": "J0001094",
+    "dataset_description": [
+     "This graph shows a comparison of the measured galactic cosmic radiation (GCR) LET spectrum for the entire flight to the calculated GCR LET as a function of time.  The solid curve is the value of the deceleration potential, in mV.<P>Source: Badhwar GD, Petrov VM. Inflight Radiation Measurements. In: Shuttle-Mir Science Program Phase 1A Research Postflight Science Report. Houston, TX: NASA Lyndon B. Johnson Space Center; 1998:4.93-4.100.<END>"
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "5.2.1"
+    ]
+   },
+   "meta": "2 files \u00b7 1.96 MB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "66cea366-280e-53f4-863f-ef20dbd2bcc1",
+     "label": "JMMIR521_51.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 1027604,
+     "meta": "1003.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "06688b8d-1d64-5bdd-bf7e-8cb244575505",
+     "label": "JMMIR521_51.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 1027604,
+     "meta": "1003.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001871",
+   "label": "J0001093",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Tissue Equivalent Proportional Counter (TEPC) Measured Galactic Cosmic Radiation Dose Rate Versus Time",
+    "dataset_catalog": "J0001093",
+    "dataset_description": "",
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "5.2.1"
+    ]
+   },
+   "meta": "2 files \u00b7 2.56 MB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "2355959b-e306-5e4a-ae65-14e467f8f406",
+     "label": "JMMIR521_50.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 1342177,
+     "meta": "1.28 MB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8f752d56-2b8b-535f-929d-5483fc200191",
+     "label": "JMMIR521_50.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 1342177,
+     "meta": "1.28 MB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001872",
+   "label": "J0001101",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Absorbed Dose and Dose Equivalent Rates",
+    "dataset_catalog": "J0001101",
+    "dataset_description": "",
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "5.2.1"
+    ]
+   },
+   "meta": "1 file \u00b7 13.5 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "3e89f336-3ab7-5d74-9299-811b48d66fcf",
+     "label": "JMMIR521_61.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 13824,
+     "meta": "13.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001990",
+   "label": "J0001090",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "U.S. and Russian Measured Dose Rate in the Mir Core Module",
+    "dataset_catalog": "J0001090",
+    "dataset_description": [
+     "This image is a schematic of the Mir core module showing the location of the passive radiation dosimeters (PRDs), Tissue Equivalent Proportional Counter (TEPC) System, and area passive dosimeter (APD).  The crew average dose is also given.  The numbers in elipses are the measured dose rates.  The letter designation U and R are for the U.S. and Russian measurements respectively. <P>Source: Badhwar GD, Petrov VM. Inflight Radiation Measurements. In: Shuttle-Mir Science Program Phase 1A Research Postflight Science Report. Houston, TX: NASA Lyndon B. Johnson Space Center; 1998:4.93-4.100.<END>"
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "5.2.1"
+    ]
+   },
+   "meta": "2 files \u00b7 1.53 MB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "1e478f1b-88b0-5978-917f-50da9ef4df3c",
+     "label": "JMMIR521_47.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 799744,
+     "meta": "781.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9f53b3f9-bacb-5f9b-b936-784eef388dcb",
+     "label": "JMMIR521_47.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 799744,
+     "meta": "781.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002102",
+   "label": "J0001096",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Tissue Equivalent Proportional Counter (TEPC) Measured Differential Linear Energy Transfer (LET) Spectrum and Its Comparison with Model Calculations",
+    "dataset_catalog": "J0001096",
+    "dataset_description": [
+     "This graph shows the trapped particle LET spectra compared to the AP8 Min free space model and BRYNTRN radiation transport code model calculations.<P>Source: Badhwar GD, Petrov VM. Inflight Radiation Measurements. In: Shuttle-Mir Science Program Phase 1A Research Postflight Science Report. Houston, TX: NASA Lyndon B. Johnson Space Center; 1998:4.93-4.100.<END>"
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "5.2.1"
+    ]
+   },
+   "meta": "2 files \u00b7 1.96 MB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "080a9169-bf2e-58a4-b3a4-c77cff66274f",
+     "label": "JMMIR521_53.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 1027604,
+     "meta": "1003.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d0ffbe2b-4055-51cd-8209-1a705236efe8",
+     "label": "JMMIR521_53.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 1027604,
+     "meta": "1003.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

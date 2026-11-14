@@ -1,0 +1,509 @@
+{
+ "record": {
+  "id": "871d5cef-23bc-576d-97ff-315ccb7c7636",
+  "_id": "871d5cef-23bc-576d-97ff-315ccb7c7636",
+  "experiment_title": "Nutritional Status Assessment during Phases IIa and III of the Lunar-Mars Life Support Test Project",
+  "archive_status_index": 2,
+  "pub_document_number": "PUB001154",
+  "parameter_html": "<table><tr><td>8-hydroxy-2-deoxyguanosine (8-OHdG), urine</td></tr><tr><td>Body weight</td></tr><tr><td>Energy intake</td></tr><tr><td>Glutathione reductase</td></tr><tr><td>Hematocrit</td></tr><tr><td>Hemoglobin</td></tr><tr><td>Transaminase</td></tr><tr><td>1,25-dihydroxyvitamin D (1,25(OH)2D)</td></tr><tr><td>2-pyridone</td></tr><tr><td>25-hydroxyvitamin D (25(OH)D)</td></tr><tr><td>3-methylhistidine</td></tr><tr><td>4-hydroxy-alkenal, serum</td></tr><tr><td>4-pyridoxic acid</td></tr><tr><td>Alanine transaminase (ALT)</td></tr><tr><td>Albumin, serum</td></tr><tr><td>Aspartate transaminase (AST)</td></tr><tr><td>Bone-specific alkaline phosphatase (BSAP), serum</td></tr><tr><td>Dietary intake, calcium</td></tr><tr><td>Calcium, ionized serum</td></tr><tr><td>Calcium, serum</td></tr><tr><td>Chloride, serum</td></tr><tr><td>Cholesterol, serum</td></tr><tr><td>Creatinine, serum</td></tr><tr><td>Creatinine, urine</td></tr><tr><td>Deoxypyridinoline, urine</td></tr><tr><td>Extracellular fluid volume (ECFV)</td></tr><tr><td>Ferritin, iron, serum</td></tr><tr><td>Ferritin, serum</td></tr><tr><td>Dietary intake, fluid</td></tr><tr><td>Folate, whole blood</td></tr><tr><td>Glutathione peroxidase (GPx), whole blood</td></tr><tr><td>Iodine, serum</td></tr><tr><td>Iodine, urine</td></tr><tr><td>Dietary intake, iron</td></tr><tr><td>Iron, serum</td></tr><tr><td>Magnesium, urine</td></tr><tr><td>Malondialdehyde (MDA), serum</td></tr><tr><td>Mean corpuscular volume (MCV)</td></tr><tr><td>N-methylnicotinamide</td></tr><tr><td>N-telopeptide (NTX), urine</td></tr><tr><td>Nicotinamide adenine dinucleotide (NAD)/NAD phosphate (NADP) ratio, red blood cells, whole blood</td></tr><tr><td>Osteocalcin, serum</td></tr><tr><td>Oxygen radicals, whole blood</td></tr><tr><td>Parathyroid hormone (PTH), serum</td></tr><tr><td>Phosphorus, urine</td></tr><tr><td>Potassium, serum</td></tr><tr><td>Dietary intake, protein</td></tr><tr><td>Pyridinium, urine</td></tr><tr><td>Retinol binding protein</td></tr><tr><td>Selenium, serum</td></tr><tr><td>Selenium, urine</td></tr><tr><td>Dietary intake, sodium</td></tr><tr><td>Sodium, serum</td></tr><tr><td>Superoxide dismutase (SOD)</td></tr><tr><td>Alkaline phosphatase, serum</td></tr><tr><td>Total body water (TBW)</td></tr><tr><td>Protein, total serum</td></tr><tr><td>Transferrin, serum</td></tr><tr><td>Transketolase stimulation, red blood cells, whole blood</td></tr><tr><td>Transthyretin, serum</td></tr><tr><td>Triglycerides, serum</td></tr><tr><td>Vitamin C, serum</td></tr><tr><td>Dietary intake, vitamin D</td></tr><tr><td>Zinc, serum</td></tr><tr><td>Zinc, urine</td></tr><tr></tr></table>",
+  "__source_key": "cl62axwyicd1601o62rij425j",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Smith, Scott\">Principal Investigator: Smith, Scott</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Block, Gladys\">Co-Investigator: Block, Gladys</a>",
+  "experiment_type_lk": [
+   "Lunar-Mars Life Support Test Project (LMLSTP)"
+  ],
+  "__record_modified_date": "2026-08-23T04:24:29.671520+00:00",
+  "__indexed": "2026-08-23T04:24:29.671520+00:00",
+  "__record_creation_date": "2022-07-28T20:06:31.613Z",
+  "keyword": [
+   "Nutrition assessment",
+   "Nutritional status",
+   "Micronutrients",
+   "Weight loss",
+   "Biological markers",
+   "Energy intake",
+   "Diet",
+   "Questionnaires"
+  ],
+  "keyword_name": "Questionnaires",
+  "__record_size": 196000,
+  "__record_version": 31,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<br>\r\nNutrition is a critical concern for extended-duration space missions. Loss of body weight is a primary consequence of altered nutrition and is frequently observed during space flight. Other existing dietary concerns for space flight include excessive intakes of sodium and iron and insufficient intakes of water and vitamin D. Furthermore, dependence on closed or semi-closed food systems increases the likelihood of inadequate intakes of key nutrients. This is a significant concern for extended-duration space missions.  Space nutrition research often necessitates detailed recording of all food consumption. While this yields extremely accurate data, it requires considerable time and effort, and thus is not suitable for routine medical monitoring during space flight. To alleviate this problem, a food frequency questionnaire (FFQ) was designed to provide a quick and easy, yet reasonably accurate, method for crewmembers to provide dietary intake information to the ground support crew. This study was designed to assess nutritional status before, during, and after the 60-day and 91-day chamber stays. An additional goal of the study was to validate a food frequency questionnaire designed specifically for use with space flight food systems.\r\n<p>\r\nAPPROACH:<br>\r\nThe subjects completed a standard food frequency questionnaire, prior to entering the chamber to assess usual diet over the past year. During the chamber stay, a specialized food frequency questionnaire was completed to assess intake either over 24-hour (FFQ 24-h) or seven-day (FFQ 7-d) periods. Five-day weighed food records were completed on weeks 2 and 5 of the 60-day study and on weeks 3, 7, and 11 of the 91-day study. During the weighed record sessions, subjects were provided a digital scale and log book and were instructed to weigh and record all food, fluids, vitamin/mineral supplements, and medicines consumed. A research dietitian met with the subjects before the prechamber data collection session to provide training for all diet intake assessment methods.\r\n<p>\r\nA complete biochemical nutritional assessment profile was developed for use with flight crews on extended-duration space missions. This assessment profile was used in these ground-based studies to determine the impact of the semi-closed, space-like food system on crew nutritional status. Bone densitometry and body composition were determined using dual energy X-ray absorptiometry techniques. Total body water (TBW) was determined using isotope (18O) dilution, as described previously. Sodium bromide was used to measure extracellular fluid volume (ECF). Body weight was determined weekly using a standard scale. Blood samples were collected before and after both chamber studies, as well as two times during the 90-day test. For the 60-day chamber study, a total of 52 mL of blood were collected over approximately 70 days. For the 91-day chamber study, a total of 98 mL of blood were collected over approximately 100 days.\r\n<p>\r\nUrine was collected for two 24-hour periods before, every day during, and two 24-hour periods after the chamber studies; pre- and postchamber urine collections began on the day of blood collection. Complete urine analysis was conducted once during the 60-day study and three times during the 91-day chamber study.\r\n<p>\r\nRESULTS:<br>\r\nEnergy and protein intakes were similar for the three intake assessment techniques during both studies. Caloric intakes were 94 \u00b1 16% and 85 \u00b1 16% of the World Health Organization (WHO) recommendations for the subjects in the 60-day and 91-day tests, respectively. Subjects in both tests maintained their body weights within 3% of their pretest values on exit from the chamber.\r\nDuring the 60-day study, questionnaire estimates of calcium and iron intakes were lower than those of the weighed diet records. Subsequent analysis revealed that these differences were related to differences in the nutrient content data used for two foods (milk and cereal), specifically between the nutrient databases used to analyze the weighed diet records and the food frequency questionnaire. When the databases were synchronized for nutrient content of these food items, no differences were observed.\r\n<p>\r\nSodium intake assessment yielded similar results for the three techniques during the 60-day chamber study. However, the FFQ 24-h sodium intakes were higher than those for FFQ 7-d questionnaires during the 91-day study. Water intake assessment during the 60-day study was different for all three assessment techniques. Conversely, no differences were observed during the 91-day study. Body weight did not change during the chamber studies. No changes in total body water were observed in either chamber study. Markers of lean body mass, urinary creatinine and 3-methylhistidine were unchanged during the chamber studies. Extracellular fluid volume (ECFV) was measured using a 1.2 g dose of sodium bromide in capsule form for the 60-day study. One subject experienced gastric distress and subsequently did not receive the bromide dose after the chamber. ECFV did not change in the other three subjects. Modifications to the ECFV protocol resulted in administration of 1.5 g of sodium bromide as a ~50 mL liquid solution for the 91-day study. This form of the dose was better tolerated, and ECFV was similarly unaffected during the longer chamber study.\r\n<p>\r\nIron status tended to be negatively influenced throughout both studies, despite high dietary iron intake. Serum ferritin decreased by 21 \u00b1 13 \u00b5g/L (p = 0.054) after the 60-day test, and by 29 \u00b1 22 \u00b5g/L p < 0.05) after the 91-day test. This occurred despite relatively high iron intakes. However, in examining individual diet records for the source of this iron, much of the intake was associated with (low bioavailability) fortified cereals. Most other hematological parameters tended to decrease.\r\n<p>\r\nVitamin D is of concern during space flight due to absence of endogenous production related to the lack of ultraviolet light exposure and also due to its importance in bone and calcium metabolism. There was a steady decline in serum 25-hydroxyvitamin D concentrations noted throughout the 91-day study, with final concentrations being significantly lower than prechamber values. There was a tendency for both 25-hydroxyvitamin D and 1,25-dihydroxyvitamin D concentrations to decline in both studies. Vitamin D intake was below the NASA recommendation of greater than 10 mg/day in six of the eight subjects, although dietary vitamin D intake was higher in the 60-day study compared to the 91-day study. There was also a small but statistically significant decline in serum calcium at CD30, although all data during the 91-day study were within clinical normal ranges. Hypercalciuria contributes to the increased risk of renal stone formation associated with space flight. Bone-specific alkaline phosphatase was increased at the end of the 60-day study but not the 91-day study. Other indices of bone and calcium metabolism were unchanged.\r\n<p>\r\nGeneral clinical chemistry and antioxidant-related measurements were relatively unchanged during the two chamber studies. There was a negligible, albeit statistically significant, decrease in serum sodium concentration during the 60-day study. Serum sodium was slightly elevated on CD40 during the 91-day study. Serum total protein concentrations were slightly decreased on CD30 and CD40 and returned to prechamber levels after the 91-day study. Glutathione peroxidase activity was slightly elevated during the 91-day chamber study. Urinary calcium and collagen crosslink (n-telopeptide, pyridinium crosslinks, and deoxypyridinoline) excretion did not change during either of the chamber studies.\r\n<p>\r\nFolate status, as assessed by the concentration of RBC folate, increased by more than 16% in three subjects during the 60-day study and increased by more than 17% in three subjects during the 91-day study. Folate intake, as determined during the weighed diet sessions, was generally above standard recommendations.\r\n<p>\r\nVitamin B6 and riboflavin status were unchanged during the chamber studies. Thiamin status, as assessed by erythrocyte stimulation of transketolase by thiamin pyrophosphate, did not change from prechamber levels during the 91-day study. Thiamin data were not available for the 60-day study.</p>\r\n<p>The study described here provided a valuable opportunity to test a nutritional assessment profile and a unique food frequency questionnaire in an environment similar to that found on a space station, without the constraints of an actual space mission. The results indicate that a specially designed food frequency questionnaire can be used to reliably estimate individual dietary intake. These studies confirm that a semi-closed food system can support nutritional requirements over a short period of time (i.e., two to three months). The comprehensive nutritional status assessment profile described here (with minor modifications) has been implemented by NASA as a medical requirement for extended-duration (i.e., International Space Station) space travelers. The anthropometric, biochemical, clinical, and dietary assessment components each contributes valuable information to the total picture of nutritional status. The intent is to provide a preflight assessment of crew nutritional status to assure optimal status prior to flight, a real-time means of monitoring dietary intake during flight, and a nutritional component for the postflight rehabilitation program.\r\n<p>\r\nAlthough nutritional status was generally adequate in the 60-day and 91-day tests, micronutrient status is of concern in a semi-closed food system. Three subjects in the 91-day test had inadequate folate intakes, and three subjects in each test had inadequate vitamin D intakes. However, 10 days of the vegetarian BIO-Plex diet did not affect any of the biochemical indices examined during the 90-day test.\r\n<p>",
+  "payload_id": "LMLSTP",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "LMLSTP5.1",
+  "indexed": "2026-08-23T04:24:29.671520+00:00",
+  "GUID": "cl62axwyicd1601o62rij425j",
+  "parameter_name": [
+   "8-hydroxy-2-deoxyguanosine (8-OHdG), urine",
+   "Body weight",
+   "Energy intake",
+   "Glutathione reductase",
+   "Hematocrit",
+   "Hemoglobin",
+   "Transaminase",
+   "1,25-dihydroxyvitamin D (1,25(OH)2D)",
+   "2-pyridone",
+   "25-hydroxyvitamin D (25(OH)D)",
+   "3-methylhistidine",
+   "4-hydroxy-alkenal, serum",
+   "4-pyridoxic acid",
+   "Alanine transaminase (ALT)",
+   "Albumin, serum",
+   "Aspartate transaminase (AST)",
+   "Bone-specific alkaline phosphatase (BSAP), serum",
+   "Dietary intake, calcium",
+   "Calcium, ionized serum",
+   "Calcium, serum",
+   "Chloride, serum",
+   "Cholesterol, serum",
+   "Creatinine, serum",
+   "Creatinine, urine",
+   "Deoxypyridinoline, urine",
+   "Extracellular fluid volume (ECFV)",
+   "Ferritin, iron, serum",
+   "Ferritin, serum",
+   "Dietary intake, fluid",
+   "Folate, whole blood",
+   "Glutathione peroxidase (GPx), whole blood",
+   "Iodine, serum",
+   "Iodine, urine",
+   "Dietary intake, iron",
+   "Iron, serum",
+   "Magnesium, urine",
+   "Malondialdehyde (MDA), serum",
+   "Mean corpuscular volume (MCV)",
+   "N-methylnicotinamide",
+   "N-telopeptide (NTX), urine",
+   "Nicotinamide adenine dinucleotide (NAD)/NAD phosphate (NADP) ratio, red blood cells, whole blood",
+   "Osteocalcin, serum",
+   "Oxygen radicals, whole blood",
+   "Parathyroid hormone (PTH), serum",
+   "Phosphorus, urine",
+   "Potassium, serum",
+   "Dietary intake, protein",
+   "Pyridinium, urine",
+   "Retinol binding protein",
+   "Selenium, serum",
+   "Selenium, urine",
+   "Dietary intake, sodium",
+   "Sodium, serum",
+   "Superoxide dismutase (SOD)",
+   "Alkaline phosphatase, serum",
+   "Total body water (TBW)",
+   "Protein, total serum",
+   "Transferrin, serum",
+   "Transketolase stimulation, red blood cells, whole blood",
+   "Transthyretin, serum",
+   "Triglycerides, serum",
+   "Vitamin C, serum",
+   "Dietary intake, vitamin D",
+   "Zinc, serum",
+   "Zinc, urine"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 939,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Metabolism and nutrition"
+  ],
+  "pme_role_with_name": [
+   "Co-Investigator: Block, Gladys",
+   "Principal Investigator: Smith, Scott",
+   "Technical Assistant to Principal Investigator: Davis- Street, Janis",
+   "Technical Assistant to Principal Investigator: DeKerlegand, Diane",
+   "Technical Assistant to Principal Investigator: Fanselow, Stephanie",
+   "Technical Assistant to Principal Investigator: Fesperman, Janice",
+   "Technical Assistant to Principal Investigator: Nillen, Jeannie",
+   "Technical Assistant to Principal Investigator: Rice, Barbara",
+   "Technical Assistant to Principal Investigator: Smith, Myra"
+  ],
+  "missions": [
+   [
+    [
+     "LMLSTP"
+    ]
+   ]
+  ],
+  "__dirid": "871d5cef-23bc-576d-97ff-315ccb7c7636",
+  "__record_size_wo_doccontent": 196000,
+  "PI": [
+   "Smith, Scott"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "LMLSTP5.1"
+  ],
+  "mission_id": [
+   [
+    [
+     "LMLSTP"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "proposal_source": [],
+  "proposal_date": [],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Smith, Scott"
+  ],
+  "program_name": [
+   "Ground"
+  ],
+  "archive_status": "Data preservation is complete. Privacy-protected datasets are available via data request. Remaining datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Ground",
+  "__source_field_concat": "PUB001154 LMLSTP cl62axwyicd1601o62rij425j Questionnaires  N/A Nutritional Status Assessment during Phases IIa and III of the Lunar-Mars Life Support Test Project LMLSTP5.1 Ground",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<br>\r\nNutrition is a critical concern for extended-duration space missions. Loss of body weight is a primary consequence of altered nutrition and is frequently observed during space flight. Other existing dietary concerns for space flight include excessive intakes of sodium and iron and insufficient intakes of water and vitamin D. Furthermore, dependence on closed or semi-closed food systems increases the likelihood of inadequate intakes of key nutrients. This is a significant concern for extended-duration space missions.  Space nutrition research often necessitates detailed recording of all food consumption. While this yields extremely accurate data, it requires considerable time and effort, and thus is not suitable for routine medical monitoring during space flight. To alleviate this problem, a food frequency questionnaire (FFQ) was designed to provide a quick and easy, yet reasonably accurate, method for crewmembers to provide dietary intake information to the ground support crew. This study was designed to assess nutritional status before, during, and after the 60-day and 91-day chamber stays. An additional goal of the study was to validate a food frequency questionnaire designed specifically for use with space flight food systems.\r\n<p>\r\nAPPROACH:<br>\r\nThe subjects completed a standard food frequency questionnaire, prior to entering the chamber to assess usual diet over the past year. During the chamber stay, a specialized food frequency questionnaire was completed to assess intake either over 24-hour (FFQ 24-h) or seven-day (FFQ 7-d) periods. Five-day weighed food records were completed on weeks 2 and 5 of the 60-day study and on weeks 3, 7, and 11 of the 91-day study. During the weighed record sessions, subjects were provided a digital scale and log book and were instructed to weigh and record all food, fluids, vitamin/mineral supplements, and medicines consumed. A research dietitian met with the subjects before the prechamber data collection session to provide training for all diet intake assessment methods.\r\n<p>\r\nA complete biochemical nutritional assessment profile was developed for use with flight crews on extended-duration space missions. This assessment profile was used in these ground-based studies to determine the impact of the semi-closed, space-like food system on crew nutritional status. Bone densitometry and body composition were determined using dual energy X-ray absorptiometry techniques. Total body water (TBW) was determined using isotope (18O) dilution, as described previously. Sodium bromide was used to measure extracellular fluid volume (ECF). Body weight was determined weekly using a standard scale. Blood samples were collected before and after both chamber studies, as well as two times during the 90-day test. For the 60-day chamber study, a total of 52 mL of blood were collected over approximately 70 days. For the 91-day chamber study, a total of 98 mL of blood were collected over approximately 100 days.\r\n<p>\r\nUrine was collected for two 24-hour periods before, every day during, and two 24-hour periods after the chamber studies; pre- and postchamber urine collections began on the day of blood collection. Complete urine analysis was conducted once during the 60-day study and three times during the 91-day chamber study.\r\n<p>\r\nRESULTS:<br>\r\nEnergy and protein intakes were similar for the three intake assessment techniques during both studies. Caloric intakes were 94 \u00b1 16% and 85 \u00b1 16% of the World Health Organization (WHO) recommendations for the subjects in the 60-day and 91-day tests, respectively. Subjects in both tests maintained their body weights within 3% of their pretest values on exit from the chamber.\r\nDuring the 60-day study, questionnaire estimates of calcium and iron intakes were lower than those of the weighed diet records. Subsequent analysis revealed that these differences were related to differences in the nutrient content data used for two foods (milk and cereal), specifically between the nutrient databases used to analyze the weighed diet records and the food frequency questionnaire. When the databases were synchronized for nutrient content of these food items, no differences were observed.\r\n<p>\r\nSodium intake assessment yielded similar results for the three techniques during the 60-day chamber study. However, the FFQ 24-h sodium intakes were higher than those for FFQ 7-d questionnaires during the 91-day study. Water intake assessment during the 60-day study was different for all three assessment techniques. Conversely, no differences were observed during the 91-day study. Body weight did not change during the chamber studies. No changes in total body water were observed in either chamber study. Markers of lean body mass, urinary creatinine and 3-methylhistidine were unchanged during the chamber studies. Extracellular fluid volume (ECFV) was measured using a 1.2 g dose of sodium bromide in capsule form for the 60-day study. One subject experienced gastric distress and subsequently did not receive the bromide dose after the chamber. ECFV did not change in the other three subjects. Modifications to the ECFV protocol resulted in administration of 1.5 g of sodium bromide as a ~50 mL liquid solution for the 91-day study. This form of the dose was better tolerated, and ECFV was similarly unaffected during the longer chamber study.\r\n<p>\r\nIron status tended to be negatively influenced throughout both studies, despite high dietary iron intake. Serum ferritin decreased by 21 \u00b1 13 \u00b5g/L (p = 0.054) after the 60-day test, and by 29 \u00b1 22 \u00b5g/L p < 0.05) after the 91-day test. This occurred despite relatively high iron intakes. However, in examining individual diet records for the source of this iron, much of the intake was associated with (low bioavailability) fortified cereals. Most other hematological parameters tended to decrease.\r\n<p>\r\nVitamin D is of concern during space flight due to absence of endogenous production related to the lack of ultraviolet light exposure and also due to its importance in bone and calcium metabolism. There was a steady decline in serum 25-hydroxyvitamin D concentrations noted throughout the 91-day study, with final concentrations being significantly lower than prechamber values. There was a tendency for both 25-hydroxyvitamin D and 1,25-dihydroxyvitamin D concentrations to decline in both studies. Vitamin D intake was below the NASA recommendation of greater than 10 mg/day in six of the eight subjects, although dietary vitamin D intake was higher in the 60-day study compared to the 91-day study. There was also a small but statistically significant decline in serum calcium at CD30, although all data during the 91-day study were within clinical normal ranges. Hypercalciuria contributes to the increased risk of renal stone formation associated with space flight. Bone-specific alkaline phosphatase was increased at the end of the 60-day study but not the 91-day study. Other indices of bone and calcium metabolism were unchanged.\r\n<p>\r\nGeneral clinical chemistry and antioxidant-related measurements were relatively unchanged during the two chamber studies. There was a negligible, albeit statistically significant, decrease in serum sodium concentration during the 60-day study. Serum sodium was slightly elevated on CD40 during the 91-day study. Serum total protein concentrations were slightly decreased on CD30 and CD40 and returned to prechamber levels after the 91-day study. Glutathione peroxidase activity was slightly elevated during the 91-day chamber study. Urinary calcium and collagen crosslink (n-telopeptide, pyridinium crosslinks, and deoxypyridinoline) excretion did not change during either of the chamber studies.\r\n<p>\r\nFolate status, as assessed by the concentration of RBC folate, increased by more than 16% in three subjects during the 60-day study and increased by more than 17% in three subjects during the 91-day study. Folate intake, as determined during the weighed diet sessions, was generally above standard recommendations.\r\n<p>\r\nVitamin B6 and riboflavin status were unchanged during the chamber studies. Thiamin status, as assessed by erythrocyte stimulation of transketolase by thiamin pyrophosphate, did not change from prechamber levels during the 91-day study. Thiamin data were not available for the 60-day study.</p>\r\n<p>The study described here provided a valuable opportunity to test a nutritional assessment profile and a unique food frequency questionnaire in an environment similar to that found on a space station, without the constraints of an actual space mission. The results indicate that a specially designed food frequency questionnaire can be used to reliably estimate individual dietary intake. These studies confirm that a semi-closed food system can support nutritional requirements over a short period of time (i.e., two to three months). The comprehensive nutritional status assessment profile described here (with minor modifications) has been implemented by NASA as a medical requirement for extended-duration (i.e., International Space Station) space travelers. The anthropometric, biochemical, clinical, and dietary assessment components each contributes valuable information to the total picture of nutritional status. The intent is to provide a preflight assessment of crew nutritional status to assure optimal status prior to flight, a real-time means of monitoring dietary intake during flight, and a nutritional component for the postflight rehabilitation program.\r\n<p>\r\nAlthough nutritional status was generally adequate in the 60-day and 91-day tests, micronutrient status is of concern in a semi-closed food system. Three subjects in the 91-day test had inadequate folate intakes, and three subjects in each test had inadequate vitamin D intakes. However, 10 days of the vegetarian BIO-Plex diet did not affect any of the biochemical indices examined during the 90-day test.\r\n<p>",
+  "__doi": "10.83263/kxsn-ag25",
+  "__doi_record_creation_date": "2026-08-23T04:24:29",
+  "__doi_record_modified_date": "2026-08-23T04:24:29"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000465",
+   "label": "JMGROUNDLMLSTP51_130",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Vitamin Status Antioxidant/Oxidative Damage Indices",
+    "dataset_catalog": "JMGROUNDLMLSTP51_130",
+    "dataset_description": [
+     "Table showing the results of blood sample analyses performed on the 60 and 91-day Lunar Mars Life Support Test Project (LMLSTP) subjects.  Blood samples were assessed for vitmain status antioxidant/oxidative damage indices.  Blood samples were acquired pre- and postchamber for both the 60 and 91-day test, as well as twice during the 91-day test.<P>Source: Smith SM, et al.  Nutritional Status Assessment During Phases Iia and III of the Lunar-Mars Life Support Test Project.  In : Lane HW, Sauer RL, and Feeback DL, eds. Isolation: NASA Experiments in Closed-Environment Living. American Astronautical Society Science and Technology Series; Vol 104. San Diego, CA. Univelt, Incorporated; 2002.<END>"
+    ],
+    "processing_level": [
+     "Summarized",
+     "Summarized"
+    ],
+    "experiment_id": [
+     "LMLSTP5.1"
+    ]
+   },
+   "meta": "1 file \u00b7 18.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "de0d134c-38c9-54a6-a19b-e69ff85a3373",
+     "label": "JMGROUNDLMLSTP51_130.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 18432,
+     "meta": "18.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000342",
+   "label": "JMGROUNDLMLSTP51_129",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "General Chemistry Indices",
+    "dataset_catalog": "JMGROUNDLMLSTP51_129",
+    "dataset_description": [
+     "Table showing the results of blood sample analyses performed on the 60 and 91-day Lunar Mars Life Support Test Project (LMLSTP) subjects.  Blood samples were assessed for general chemistry indices.  Blood samples were acquired pre- and postchamber for both the 60 and 91-day test, as well as twice during the 91-day test.<P>Source: Smith SM, et al.  Nutritional Status Assessment During Phases Iia and III of the Lunar-Mars Life Support Test Project.  In : Lane HW, Sauer RL, and Feeback DL, eds. Isolation: NASA Experiments in Closed-Environment Living. American Astronautical Society Science and Technology Series; Vol 104. San Diego, CA. Univelt, Incorporated; 2002.<END>"
+    ],
+    "processing_level": [
+     "Summarized",
+     "Summarized"
+    ],
+    "experiment_id": [
+     "LMLSTP5.1"
+    ]
+   },
+   "meta": "1 file \u00b7 18.5 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "a47d394d-cb46-587f-8940-f2d6ffb8a2c7",
+     "label": "JMGROUNDLMLSTP51_129.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 18944,
+     "meta": "18.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000044",
+   "label": "JMGROUNDLMLSTP51_122",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Fluid compartments (TBW, ECVF) for the 60-day and 91-day chamber tests.",
+    "dataset_catalog": "JMGROUNDLMLSTP51_122",
+    "dataset_description": [
+     "Figure showing mean total body water (TBW) and extracellular fluid volume (ECFV) measurements performed on the 60-day and 91-day test subjects.  Data are expressed as a percent change from the prechamber mean measurements.<P>Source: Smith SM, et al.  Nutritional Status Assessment During Phases Iia and III of the Lunar-Mars Life Support Test Project.  In : Lane HW, Sauer RL, and Feeback DL, eds. Isolation: NASA Experiments in Closed-Environment Living. American Astronautical Society Science and Technology Series; Vol 104. San Diego, CA. Univelt, Incorporated; 2002.<END>"
+    ],
+    "processing_level": [
+     "Summarized",
+     "Summarized"
+    ],
+    "experiment_id": [
+     "LMLSTP5.1"
+    ]
+   },
+   "meta": "1 file \u00b7 760.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "0fdb0a0b-323c-528a-8274-17394d30035d",
+     "label": "JMGROUNDLMLSTP51_122.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 778240,
+     "meta": "760.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001507",
+   "label": "JMGROUNDLMLSTP51_128",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Serum Calcium and Bone Metabolism Markers",
+    "dataset_catalog": "JMGROUNDLMLSTP51_128",
+    "dataset_description": [
+     "Table showing the results of blood sample analyses performed on the 60 and 91-day Lunar Mars Life Support Test Project (LMLSTP) subjects.  Blood samples were assessed for serum calcium and bone metabolism markers.  Blood samples were acquired pre- and postchamber for both the 60 and 91-day test, as well as twice during the 91-day test.<P>Source: Smith SM, et al.  Nutritional Status Assessment During Phases Iia and III of the Lunar-Mars Life Support Test Project.  In : Lane HW, Sauer RL, and Feeback DL, eds. Isolation: NASA Experiments in Closed-Environment Living. American Astronautical Society Science and Technology Series; Vol 104. San Diego, CA. Univelt, Incorporated; 2002.<END>"
+    ],
+    "processing_level": [
+     "Summarized",
+     "Summarized"
+    ],
+    "experiment_id": [
+     "LMLSTP5.1"
+    ]
+   },
+   "meta": "1 file \u00b7 18.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "fb2b8e25-fd52-5f2a-9487-a47c9bf24395",
+     "label": "JMGROUNDLMLSTP51_128.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 18432,
+     "meta": "18.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000595",
+   "label": "JMGROUNDLMLSTP51_132",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Energy Intake Estimated by Various Techniques",
+    "dataset_catalog": "JMGROUNDLMLSTP51_132",
+    "dataset_description": [
+     "Figures showing the results of dietary intake studies performed on the 60 and 91-day Lunar Mars Life Support Test Project (LMLSTP) subjects.  During the chamber studies, dietary intake was assessed using a specialized food-frequency questionnaire (FFQ) for 1 day (24-h FFQ) or 7 day (7-d FFQ), or by weighing all food items.<P>Source: Smith SM, et al.  Nutritional Status Assessment During Phases Iia and III of the Lunar-Mars Life Support Test Project.  In : Lane HW, Sauer RL, and Feeback DL, eds. Isolation: NASA Experiments in Closed-Environment Living. American Astronautical Society Science and Technology Series; Vol 104. San Diego, CA. Univelt, Incorporated; 2002.<END>"
+    ],
+    "processing_level": [
+     "Summarized",
+     "Summarized"
+    ],
+    "experiment_id": [
+     "LMLSTP5.1"
+    ]
+   },
+   "meta": "1 file \u00b7 1.69 MB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "1a7936b6-bb81-58fe-a59e-9253a9237ac4",
+     "label": "JMGROUNDLMLSTP51_132.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 1772093,
+     "meta": "1.69 MB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001930",
+   "label": "JMGROUNDLMLSTP51_126",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Hematologic and Iron Status Indices",
+    "dataset_catalog": "JMGROUNDLMLSTP51_126",
+    "dataset_description": [
+     "Table showing the results of blood sample analyses performed on the 60 and 91-day Lunar Mars Life Support Test Project (LMLSTP) subjects.  Blood samples were assessed for hematological and iron status indices.  Blood samples were acquired pre- and postchamber for both the 60 and 91-day test, as well as twice during the 91-day test.<P>Source:  Smith SM, Davis-Street JE, Rice B, Nillen JL, Gillman PL, Block G.  Nutritional status assessment in semiclosed environments: ground-based and space flight studies in humans.  J Nutrition.  2001;131(7): 2053-2061."
+    ],
+    "processing_level": [
+     "Summarized",
+     "Summarized"
+    ],
+    "experiment_id": [
+     "LMLSTP5.1"
+    ]
+   },
+   "meta": "1 file \u00b7 17.5 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "52866f5e-913f-5c24-a813-62eb499bb5fe",
+     "label": "JMGROUNDLMLSTP51_126.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 17920,
+     "meta": "17.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000506",
+   "label": "LMLSTP5.1__2290601810",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Final Report: LMSLTP5.1 Nutritional Status Assessment",
+    "dataset_catalog": "LMLSTP5.1__2290601810",
+    "dataset_description": [
+     "This represents the final report for LMLSTP5.1, Nutritional Status Assessment.  Data represented in this report are:<BR>\r\n<LI>Dietary intake data\r\n<LI>Body weight data for the 60-day and 91-day chamber tests; data are expressed as a percent change from prechamber body weight\r\n<LI>Urinary creatinine excretion for the 60-day and 91-day chamber\r\ntests; data are expressed as a percent change from prechamber data\r\n<LI>Fluid compartments (TBW, ECVF) for the 60-day and 91-day\r\nchamber tests; data are expressed as a percent change from prechamber measurement\r\n<LI>Hematological and iron status indices\r\n<LI>Serum ferritin concentration (Panel A) and dietary iron\r\nintake determined from weighed food records (Panel B) for the 60-day\r\nand 91-day chamber tests\r\n<LI>Serum calcium and bone metabolism markers\r\n<LI>General chemistry indices\r\n<LI>Serum vitamin D metabolite concentrations and dietary vitamin D\r\nintake determined from weighed food records for the 60-day (Panel A) and\r\n91-day (Panel B) chamber tests\r\n<LI>Vitamin status antioxidant/oxidative damage indices\r\n<LI>Urinary collagen crosslink excretion for n-telopeptide for the\r\n60-day and 91-day chamber tests\r\n<LI>Red blood cell folate concentration (Panel A) and dietary\r\nfolate intake determined from weighed food records (Panel B) for the 60-day\r\nand 91-day chamber tests\r\n<p>Source: Smith SM, Block G, Davis-Street JE, DeKerlegand DE, Fanselow SA, Fesperman JV, Gillman PL, Nillen JL, Rice BL, Smith MD. Nutritional Status Assessment During Phases IIa and III of the Lunar-Mars Life Support Test Project. In: Lane HW, Sauer RL, Feeback DL, eds. Isolation: NASA Experiments in Closed-Environment Living: Advanced Human Life Support Enclosed System Final Report. San Diego: Univelt, Incorporated. 2002;104:293-314."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "LMLSTP5.1"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "01333f4f-a7a2-51bc-ba71-2c2273d1fa5d",
+     "label": "LMLSTP51__2290601810.pdf_LMLSTP_LMLSTP5.1_2011_229_070835.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000975",
+   "label": "JMGROUNDLMLSTP51_1",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Data Collection Timetables for Experiment LMLSTP5.1",
+    "dataset_catalog": "JMGROUNDLMLSTP51_1",
+    "dataset_description": [
+     "This spreadsheet represents the data collection timetables for this experiment.  Information included in this spreadsheet may include information on the test protocol, data collection constraints, parameters measured, hardware used, scheduled versus actual days of data collection, and subject information."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "LMLSTP5.1"
+    ]
+   },
+   "meta": "1 file \u00b7 42.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "2b1914f6-126b-50be-81d1-6c05bb13b2c1",
+     "label": "JMGROUNDLMLSTP51_1.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 43008,
+     "meta": "42.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001541",
+   "label": "LMLSTP5.1__2290744445",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "LMSLTP5.1 Nutritional Status Assessment Published Data",
+    "dataset_catalog": "LMLSTP5.1__2290744445",
+    "dataset_description": [
+     "Data represented in this publication are as follows:<BR>\r\n<LI>Dietary intake data\r\n<LI>Energy intake estimated by various techniques throughout the two chamber studies\r\n<LI>Dietary intake during spaceflight for two Mir astronauts.\r\nEnergy intake is expressed as a percentage of the WHO recommendations, and NASA intake recommendations are shown\r\n<LI>Body weight during spaceflight. Data are expressed as mean percentage change from preflight weights.\r\n<LI>Hematologic, iron and folate status indicators from ground-based chamber studies and Mir crew\r\n<LI>Serum calcium and bone metabolism markers from ground-based chamber studies and Mir crew\r\n<LI>General chemistry and antioxidant/oxidative damage indices from ground-based chamber studies and Mir crew\r\n<P>\r\nSource: Smith SM, Davis-Street JE, Rice BL, Nillen JL, Gillman PL, Block Gladys. Nutritional status assessment in semiclosed environments: ground-based and space flight studies in humans. J Nutr. 131:2053-2061, 2001."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "LMLSTP5.1"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "defc0707-f763-5d06-b925-3efde735800d",
+     "label": "LMLSTP51__2290744445.pdf_LMLSTP_LMLSTP5.1_2011_229_070832.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002210",
+   "label": "JMGROUNDLMLSTP51_125",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Dietary Intake Data",
+    "dataset_catalog": "JMGROUNDLMLSTP51_125",
+    "dataset_description": [
+     "Table showing the results of dietary intake studies performed on the 60 and 91-day Lunar Mars Life Support Test Project (LMLSTP) subjects.  Before subjects' entry into the chamber, dietary intake data were assessed using a standardized questionnaire.  During the chamber studies, dietary intake was assessed using a specialized food-frequency questionnaire (FFQ) for 1 day (24-h FFQ) or 7 day (7-d FFQ), or by weighing all food items.<P>Source: Smith SM, et al.  Nutritional Status Assessment During Phases Iia and III of the Lunar-Mars Life Support Test Project.  In : Lane HW, Sauer RL, and Feeback DL, eds. Isolation: NASA Experiments in Closed-Environment Living. American Astronautical Society Science and Technology Series; Vol 104. San Diego, CA. Univelt, Incorporated; 2002.<END>"
+    ],
+    "processing_level": [
+     "Summarized",
+     "Summarized"
+    ],
+    "experiment_id": [
+     "LMLSTP5.1"
+    ]
+   },
+   "meta": "1 file \u00b7 17.5 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "1aca9c7f-4adf-576f-88f7-7b3346852f31",
+     "label": "JMGROUNDLMLSTP51_125.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 17920,
+     "meta": "17.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

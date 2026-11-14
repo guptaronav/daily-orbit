@@ -1,0 +1,186 @@
+{
+ "record": {
+  "id": "580a4702-065b-5d47-898d-e46f88191e53",
+  "_id": "580a4702-065b-5d47-898d-e46f88191e53",
+  "experiment_title": "In-flight Radiation Detection",
+  "pub_document_number": "PUB001479",
+  "parameter_html": "<table><tr><td>Dosimeter etched track depth</td></tr><tr><td>Dosimeter etched track projection</td></tr><tr><td>Dosimeter track etching rate</td></tr><tr><td>Particle fluence</td></tr><tr><td>Particle flux</td></tr><tr><td>Radiation chemical etching rate</td></tr><tr></tr></table>",
+  "__source_key": "cl62aul23cbq901o635ga3ssh",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Benton, Eugene\">Principal Investigator: Benton, Eugene</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Cassou, R.\">Co-Investigator: Cassou, R.</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Peterson, D.\">Co-Investigator: Peterson, D.</a>",
+  "image_name": [
+   "Schematic Drawing of ASTP Passive Personnel Dosimeter"
+  ],
+  "keyword": [
+   "Cosmic radiation",
+   "Radiation monitoring",
+   "Radiation protection",
+   "Solar activity",
+   "Linear energy transfer (LET)",
+   "Radiation dosage"
+  ],
+  "keyword_name": "Radiation dosage",
+  "__record_version": 28,
+  "experiment_description": "OBJECTIVES: <br>\r\nObservation of light flashes in the eyes of Apollo astronauts, which were determined to be caused by radioactive cosmic rays, renewed concern about potential radiobiological effects of high linear energy transfer   (LET) particles in space flight.   The documentation of high-LET particles in a variety of space flight conditions is an important factor in assessing potential hazards to humans in space.\r\n<P>\r\nAPPROACH: <br>\r\nThe 9-day ASTP mission was flown between July 15 and July 25, 1975, at an altitude of 220 km and an inclination of 51.6 degrees.  High-LET particle radiation was recorded in passive dosimeters worn by the three U.S. Apollo-Soyuz Test Project astronauts.  The dosimeters consisted of thin films of plastic nuclear track detectors and a silver chloride (Gal) crystal.  The radiation is measured by counting the tracks made as the radioactive particles impact the crystal and scar its surface.\r\n<P>\r\nAfter each dosimeter was returned to Earth, the plastics were removed and processed in temperature controlled, mechanically stirred etching tanks.  Scanning and measurement of the tracks made in the plastics was done with an optical microscope at 430x magnification.  The AgCl crystals were removed, in a darkroom, from each dosimeter and immediately stabilized with yellow light for 30 seconds and placed in a light-tight box for storage.  Tracks were developed by decorating each crystal with ultraviolet (UV) light for 17.5 minutes.  The crystals were then scanned in red light at 650x magnification in a darkroom.  Only tracks which intersected both surfaces (i.e. spanning tracks) of a crystal were counted.  \r\n<P>\r\nRESULTS: <br>\r\nGenerally, near-Earth missions with high inclination orbits (versus low inclination orbits) receive a higher flux of high-LET particles because of the decreased absorption of particles in the atmosphere at higher inclinations.  Lunar missions normally receive higher radiation exposures than near-Earth missions due to the absence of shielding of radioactive particles by the Earth's atmosphere.\r\n<P>\r\nA total of 48 events were located in a 0.192 square centimeter area of the crystal, giving the fluence value of 250 tracks/cm2.  The flux recorded in the plastics and AgCl crystal was, respectively, 1.15 and 27.5 particles/cm2 per day.  Thus, there was higher particle registration sensitivity in the AgCl than in the plastics.  Comparison of results showed that the high-LET particle flux incident on Skylab astronauts was a factor 2.9 larger than ASTP, due to both the lower altitude orbit of ASTP (220 km compared with 435 km for Skylab) and the greater spacecraft shielding that ASTP had.\r\n<P>\r\nThe main feature of the ASTP measurements was a sharp decrease in particle flux toward large LET values.  Radiobiological damage expected from particles with long range and large LET values can be expected to be quite severe.\r\n<END>",
+  "indexed": "2026-08-23T04:02:17.147321+00:00",
+  "GUID": "cl62aul23cbq901o635ga3ssh",
+  "__model_type": "lsda_experiment",
+  "__dirid": "580a4702-065b-5d47-898d-e46f88191e53",
+  "__record_size_wo_doccontent": 67816,
+  "experiment_parms_tissue2": "N/A",
+  "experiment_parms_tissue1": "N/A",
+  "__update_method": "Update CDM",
+  "archive_status_index": 2,
+  "experiment_type_lk": [
+   "Apollo-Soyuz Test Project (ASTP)"
+  ],
+  "__record_modified_date": "2026-08-23T04:02:17.147321+00:00",
+  "proposal_source": [
+   "N/A"
+  ],
+  "__indexed": "2026-08-23T04:02:17.147321+00:00",
+  "__record_creation_date": "2022-07-28T19:39:31.661Z",
+  "__record_size": 67816,
+  "__model_version": 60,
+  "payload_id": "ASTP",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "ASTP001",
+  "parameter_name": [
+   "Dosimeter etched track depth",
+   "Dosimeter etched track projection",
+   "Dosimeter track etching rate",
+   "Particle fluence",
+   "Particle flux",
+   "Radiation chemical etching rate"
+  ],
+  "payload_part": "ASTP",
+  "exp_index": 394,
+  "research_area": [
+   "Radiation biology",
+   "Ocular physiological phenomena"
+  ],
+  "pme_role_with_name": [
+   "Co-Investigator: Cassou, R.",
+   "Co-Investigator: Peterson, D.",
+   "Principal Investigator: Benton, Eugene"
+  ],
+  "missions": [
+   [
+    [
+     "ASTP"
+    ]
+   ]
+  ],
+  "PI": [
+   "Benton, Eugene"
+  ],
+  "_file_extension": [],
+  "experiment_identifier": [
+   "ASTP001"
+  ],
+  "mission_id": [
+   [
+    [
+     "ASTP"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Benton, Eugene"
+  ],
+  "program_name": [
+   "Apollo-Soyuz Test Project (ASTP)"
+  ],
+  "archive_status": "Data preservation is complete. Privacy-protected datasets are available via data request. Remaining datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Apollo-Soyuz Test Project (ASTP)",
+  "__source_field_concat": "PUB001479 ASTP cl62aul23cbq901o635ga3ssh Radiation dosage N/A N/A  ASTP In-flight Radiation Detection ASTP001 Apollo-Soyuz Test Project (ASTP)",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES: <br>\r\nObservation of light flashes in the eyes of Apollo astronauts, which were determined to be caused by radioactive cosmic rays, renewed concern about potential radiobiological effects of high linear energy transfer   (LET) particles in space flight.   The documentation of high-LET particles in a variety of space flight conditions is an important factor in assessing potential hazards to humans in space.\r\n<P>\r\nAPPROACH: <br>\r\nThe 9-day ASTP mission was flown between July 15 and July 25, 1975, at an altitude of 220 km and an inclination of 51.6 degrees.  High-LET particle radiation was recorded in passive dosimeters worn by the three U.S. Apollo-Soyuz Test Project astronauts.  The dosimeters consisted of thin films of plastic nuclear track detectors and a silver chloride (Gal) crystal.  The radiation is measured by counting the tracks made as the radioactive particles impact the crystal and scar its surface.\r\n<P>\r\nAfter each dosimeter was returned to Earth, the plastics were removed and processed in temperature controlled, mechanically stirred etching tanks.  Scanning and measurement of the tracks made in the plastics was done with an optical microscope at 430x magnification.  The AgCl crystals were removed, in a darkroom, from each dosimeter and immediately stabilized with yellow light for 30 seconds and placed in a light-tight box for storage.  Tracks were developed by decorating each crystal with ultraviolet (UV) light for 17.5 minutes.  The crystals were then scanned in red light at 650x magnification in a darkroom.  Only tracks which intersected both surfaces (i.e. spanning tracks) of a crystal were counted.  \r\n<P>\r\nRESULTS: <br>\r\nGenerally, near-Earth missions with high inclination orbits (versus low inclination orbits) receive a higher flux of high-LET particles because of the decreased absorption of particles in the atmosphere at higher inclinations.  Lunar missions normally receive higher radiation exposures than near-Earth missions due to the absence of shielding of radioactive particles by the Earth's atmosphere.\r\n<P>\r\nA total of 48 events were located in a 0.192 square centimeter area of the crystal, giving the fluence value of 250 tracks/cm2.  The flux recorded in the plastics and AgCl crystal was, respectively, 1.15 and 27.5 particles/cm2 per day.  Thus, there was higher particle registration sensitivity in the AgCl than in the plastics.  Comparison of results showed that the high-LET particle flux incident on Skylab astronauts was a factor 2.9 larger than ASTP, due to both the lower altitude orbit of ASTP (220 km compared with 435 km for Skylab) and the greater spacecraft shielding that ASTP had.\r\n<P>\r\nThe main feature of the ASTP measurements was a sharp decrease in particle flux toward large LET values.  Radiobiological damage expected from particles with long range and large LET values can be expected to be quite severe.\r\n<END>",
+  "__doi": "10.83263/s9fr-4a86",
+  "__doi_record_creation_date": "2026-08-23T04:02:17",
+  "__doi_record_modified_date": "2026-08-23T04:02:17"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001743",
+   "label": "J0001089",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Integral Number Linear Energy Transfer (LET) Spectrum for Particles Found during the Apollo-Soyuz Test Project (ASTP) and Skylab",
+    "dataset_catalog": "J0001089",
+    "dataset_description": [
+     "This graph shows the integral number linear energy transfer (LET) spectrum for particles incident on ASTP and Skylab astronauts, the command module, and film vault.  Cosmic-ray nuclei was also calculated in space and inside Skylab.<P>The integral number density of high-LET particles is plotted against the LET value.  The integral LET spectrum measured in one ASTP dosimeter is shown in the graph.  For comparison, spectra measured during Skylab and the Apollo 17 lunar mission, as well as calculated cosmic ray nuclei are also displayed.<END>"
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "ASTP001"
+    ]
+   },
+   "meta": "1 file \u00b7 395.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "94ce8e86-2cfb-5165-a12c-ba4f8aef6e8b",
+     "label": "JMASTPASTP001_233.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 404480,
+     "meta": "395.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001252",
+   "label": "J0001088",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Details of Plastics Processing",
+    "dataset_catalog": "J0001088",
+    "dataset_description": [
+     "This table lists the layers of the ASTP Passive Personnel Dosimeters that were analyzed, along with the length of time they were etched, the temperature at which they were etched, and the etchant mixture that was used.<END>"
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "ASTP001"
+    ]
+   },
+   "meta": "1 file \u00b7 3.1 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "5ccdf223-5c69-53f9-9615-46d405190291",
+     "label": "JMASTPASTP001_231.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 3185,
+     "meta": "3.1 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

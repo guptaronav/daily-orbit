@@ -1,0 +1,203 @@
+{
+ "record": {
+  "id": "17bdc6b9-d0d5-5028-9d6d-99fe7f517f8a",
+  "_id": "17bdc6b9-d0d5-5028-9d6d-99fe7f517f8a",
+  "experiment_title": "Physical Activity Profiles of LSAH Participants",
+  "archive_status_index": 1,
+  "pub_document_number": "PUB001124",
+  "parameter_html": "<table><tr><td>Exercise frequency</td></tr><tr><td>Exercise type</td></tr><tr></tr></table>",
+  "__source_key": "cl62axxelcd1a01o6hphdc19s",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:No Principal Investigator,\">Principal Investigator: No Principal Investigator,</a>",
+  "experiment_type_lk": [
+   "Longitudinal Study of Astronaut Health (LSAH)"
+  ],
+  "__record_modified_date": "2026-08-23T03:53:01.628532+00:00",
+  "__indexed": "2026-08-23T03:53:01.628532+00:00",
+  "__record_creation_date": "2022-07-28T20:06:23.807Z",
+  "keyword": [
+   "Exercise"
+  ],
+  "keyword_name": "Exercise",
+  "__record_size": 49693,
+  "__record_version": 31,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<BR>\r\nThe physical activity profile of LSAH participants can be gleaned from their responses in the Lifestyle Questionnaire (LSQ).  \r\n\r\n<P>\r\nAPPROACH:<BR>\r\nThe questionnaire has been used to collect lifestyle data from each class of astronauts and comparison participants since 1993, with an update in 1997.  \r\n<P>\r\nRESULTS:<BR>\r\nOf 223 astronaut and 820 comparison participant respondents, the most recent data show that 58.8% of the former and 72.4% of the latter report 2 or fewer types of exercise (as defined in the LSQ) performed in their usual routine.\r\n<P>\r\nWhen broken down into exercise types, the data show that 69.8% of astronauts and 58.7% of comparison participants report running or jogging as their usual form of exercise (exercise types are not mutually exclusive).  More astronauts report weight lifting as an activity than comparison participants, while fewer astronauts report walking as an activity than comparison participants (56.5% to 28.5%, and 29.2% to 48.9%, respectively).  Note that the LSQ question on exercise type does not specify any flexibility exercise in its list of possible answers.\r\n<P>\r\nIn terms of frequency, a higher percentage of astronauts reported more frequent exercise per week than comparison participants.  Almost 29% of the astronauts reported exercising from five to seven days a week compared to 18% of comparison participants.  Conversely, a higher percentage of comparison participants reported rarely exercising (occasionally to not at all) as compared to astronauts (31.8% to 11.2%, respectively).\r\n<P>\r\nThese data suggest that both astronauts and comparison participants may benefit from incorporating additional modes of exercise into their usual routine, as well as varying activities.  A well-rounded fitness program has three main components: cardiovascular exercise (e.g., running, walking, swimming), strength training (e.g., weight training, plyometrics), and flexibility (e.g., yoga, Pilates).<END>",
+  "payload_id": "LSAH",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "LSAHNEWSV12_2",
+  "indexed": "2026-08-23T03:53:01.628532+00:00",
+  "GUID": "cl62axxelcd1a01o6hphdc19s",
+  "parameter_name": [
+   "Exercise frequency",
+   "Exercise type"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 1044,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Cardiovascular physiology",
+   "Muscle physiology",
+   "Clinical medicine",
+   "Exercise physiology"
+  ],
+  "pme_role_with_name": [
+   "Principal Investigator: No Principal Investigator,"
+  ],
+  "missions": [
+   [
+    [
+     "LSAH"
+    ]
+   ]
+  ],
+  "__dirid": "17bdc6b9-d0d5-5028-9d6d-99fe7f517f8a",
+  "__record_size_wo_doccontent": 49693,
+  "PI": [
+   "No Principal Investigator,"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "LSAHNEWSV12_2"
+  ],
+  "mission_id": [
+   [
+    [
+     "LSAH"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "proposal_date": [],
+  "proposal_source": [],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "No Principal Investigator,"
+  ],
+  "program_name": [
+   "Space Medicine"
+  ],
+  "archive_status": "Data preservation is complete. All datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Space Medicine",
+  "__source_field_concat": "PUB001124 LSAH cl62axxelcd1a01o6hphdc19s <table><tr><td>Exercise frequency</td></tr><tr><td>Exercise type</td></tr><tr></tr></table> Exercise  N/A Physical Activity Profiles of LSAH Participants LSAHNEWSV12_2 Space Medicine Data preservation is complete. All datasets are publicly available.",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<BR>\r\nThe physical activity profile of LSAH participants can be gleaned from their responses in the Lifestyle Questionnaire (LSQ).  \r\n\r\n<P>\r\nAPPROACH:<BR>\r\nThe questionnaire has been used to collect lifestyle data from each class of astronauts and comparison participants since 1993, with an update in 1997.  \r\n<P>\r\nRESULTS:<BR>\r\nOf 223 astronaut and 820 comparison participant respondents, the most recent data show that 58.8% of the former and 72.4% of the latter report 2 or fewer types of exercise (as defined in the LSQ) performed in their usual routine.\r\n<P>\r\nWhen broken down into exercise types, the data show that 69.8% of astronauts and 58.7% of comparison participants report running or jogging as their usual form of exercise (exercise types are not mutually exclusive).  More astronauts report weight lifting as an activity than comparison participants, while fewer astronauts report walking as an activity than comparison participants (56.5% to 28.5%, and 29.2% to 48.9%, respectively).  Note that the LSQ question on exercise type does not specify any flexibility exercise in its list of possible answers.\r\n<P>\r\nIn terms of frequency, a higher percentage of astronauts reported more frequent exercise per week than comparison participants.  Almost 29% of the astronauts reported exercising from five to seven days a week compared to 18% of comparison participants.  Conversely, a higher percentage of comparison participants reported rarely exercising (occasionally to not at all) as compared to astronauts (31.8% to 11.2%, respectively).\r\n<P>\r\nThese data suggest that both astronauts and comparison participants may benefit from incorporating additional modes of exercise into their usual routine, as well as varying activities.  A well-rounded fitness program has three main components: cardiovascular exercise (e.g., running, walking, swimming), strength training (e.g., weight training, plyometrics), and flexibility (e.g., yoga, Pilates).<END>",
+  "__doi": "10.83263/k17z-ex36",
+  "__doi_record_creation_date": "2026-08-23T03:53:01",
+  "__doi_record_modified_date": "2026-08-23T03:53:01"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000010",
+   "label": "JMLSAHNEWSV122_169",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Exercise Frequency Reported by LSAH Participants",
+    "dataset_catalog": "JMLSAHNEWSV122_169",
+    "dataset_description": [
+     "The physical activity profile of Longitudinal Study of Astronaut Health (LSAH) participants was gleaned from their responses in the Lifestyle Questionnaire (LSQ).  The graph shows exercise frequency reported by 223 astronaut and 820 comparison participant respondents.<P>Reference: National Aeronautics and Space Administration. Benefits of Cross Training. In: Longitudinal Study of Astronaut Health Newsletter. December 2003;12(2):1-2."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "LSAHNEWSV12_2"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "6c32c32d-362e-5496-924f-1928d825d7dd",
+     "label": "JMLSAHNEWSV122_169.jpg",
+     "type": "file",
+     "ext": "jpg",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001291",
+   "label": "JMLSAHNEWSV122_167",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Number of Exercise Types Performed in LSAH Participants' Exercise Routine",
+    "dataset_catalog": "JMLSAHNEWSV122_167",
+    "dataset_description": [
+     "The physical activity profile of Longitudinal Study of Astronaut Health (LSAH) participants was gleaned from their responses in the Lifestyle Questionnaire (LSQ).   Of 223 astronaut and 820 comparison participant respondents, the most recent data show that 58.8% of the former and 72.4% of the latter report 2 or fewer types of exercise (as defined in the LSQ) performed in their usual routine.<P>Reference: National Aeronautics and Space Administration. Benefits of Cross Training. In: Longitudinal Study of Astronaut Health Newsletter. December 2003;12(2):1-2."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "LSAHNEWSV12_2"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "137f6ddf-c005-5b15-a8b1-a8d80ba50ed2",
+     "label": "JMLSAHNEWSV122_167.jpg",
+     "type": "file",
+     "ext": "jpg",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002410",
+   "label": "JMLSAHNEWSV122_168",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Exercise Types Included in LSAH Participants' Exercise Routine",
+    "dataset_catalog": "JMLSAHNEWSV122_168",
+    "dataset_description": [
+     "The physical activity profile of Longitudinal Study of Astronaut Health (LSAH) participants was gleaned from their responses in the Lifestyle Questionnaire (LSQ). This questionnaire has been used to collect lifestyle data from each class of astronauts and comparison participants since 1993, with an update in 1997.  The graph shows exercise activity preferences of 223 astronaut and 820 comparison participant respondents.<P>Reference: National Aeronautics and Space Administration. Benefits of Cross Training. In: Longitudinal Study of Astronaut Health Newsletter. December 2003;12(2):1-2."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "LSAHNEWSV12_2"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "e8b6eb24-38f2-553a-a564-1c3743d54647",
+     "label": "JMLSAHNEWSV122_168.jpg",
+     "type": "file",
+     "ext": "jpg",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

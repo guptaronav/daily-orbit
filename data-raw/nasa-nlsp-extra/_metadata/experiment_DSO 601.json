@@ -1,0 +1,377 @@
+{
+ "record": {
+  "id": "07007b08-e1e5-5151-bbdd-0ca305c731d8",
+  "_id": "07007b08-e1e5-5151-bbdd-0ca305c731d8",
+  "experiment_title": "Changes in Baroreceptor Reflex Function After Space Flight",
+  "pub_document_number": "PUB001090",
+  "parameter_html": "<table><tr><td>Blood pressure</td></tr><tr><td>Cardiac reflex response</td></tr><tr><td>Carotid baroreceptor</td></tr><tr><td>Epinephrine</td></tr><tr><td>Heart rate</td></tr><tr><td>Norepinephrine</td></tr><tr><td>Venous pressure</td></tr><tr><td>Catecholamines</td></tr><tr><td>RR interval</td></tr><tr></tr></table>",
+  "__source_key": "cl62azwlicdht01o651ct2ncr",
+  "discipline": "Barophysiology",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Charles, John\">Principal Investigator: Charles, John</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Bennett, Barbara\">Co-Investigator: Bennett, Barbara</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Eckberg, Dwain\">Co-Investigator: Eckberg, Dwain</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Houston, Diana\">Co-Investigator: Houston, Diana</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Meck, Janice\">Co-Investigator: Meck, Janice</a>",
+  "keyword": [
+   "Respiration",
+   "Hypotension, orthostatic",
+   "Baroreflex",
+   "Blood pressure",
+   "Sympathetic nervous system",
+   "Epinephrine",
+   "Electrocardiography",
+   "Valsalva's maneuver",
+   "Norepinephrine",
+   "Autonomic nervous system",
+   "Pressoreceptors"
+  ],
+  "keyword_name": "Pressoreceptors",
+  "__record_version": 31,
+  "experiment_description": "OBJECTIVES:<br>\r\nThe carotid baroreceptors, which are located in the neck, monitor the blood pressure and alter the activity in the autonomic nervous system to adjust the heart rate (by means of the vagus nerve) and peripheral resistance (by means of the sympathetic nervous system), so that a normal blood pressure is maintained. Disruption of this autonomic control may be responsible, at least in part, for the orthostatic intolerance that astronauts frequently experience after space flight. This study was designed to investigate both the vagal and sympathetic aspects of the carotid baroreceptor reflex response. Its specific objectives were to evaluate the function of the carotid baroreceptor reflex before and after space flight, to measure resting plasma levels of catecholamines (neurotransmitters of the sympathetic nervous system), and to perform power spectral analyses of variability in the interval between R waves on the electrocardiogram (the R-R interval). \r\n<p>\r\nAPPROACH:<br>\r\nThis was a follow-on study to DSO 467, which addressed effects of short-duration flights only.  The degree of change in baroreceptor function was unexpected, causing concern about further decrements with longer missions. For DOS 601, therefore, carotid baroreceptor stimulation tests and assessments of orthostatic function were performed on 16 astronauts after space flights of 8 to 14 days. While the astronauts held their breath after exhaling (Valsalva's maneuver), a motorized bellows increased the pressure in a neck chamber to 40 mm Hg and then decreased it in steps down to -65 mm Hg. Blood samples were taken for analysis of catecholamine levels before the baroreceptor stimulation tests. The R-R interval (the inverse of the heart rate) was plotted against the carotid distending pressure (the systolic blood pressure minus the pressure in the neck chamber). These plots illustrated the stimulus-response relationship of the carotid baroreceptor cardiac reflex. In another test of baroreceptor stimulation, the heart rate and blood pressure were recorded as the astronauts performed Valsalva's maneuvers. In addition, five-minute electrocardiograms were recorded for a power spectral analysis of R-R variability. In this analysis fluctuations in the R-R interval were resolved into component waves, and the power at each frequency was displayed.\r\n<p>\r\nRESULTS:<br>\r\nWhen results from landing day were compared with preflight results, heart rate had increased, body weight and orthostatic tolerance had decreased, the range of R-R intervals had decreased, the maximum slope and the operational point (the R-R interval at zero neck pressure) of the carotid baroreceptor cardiac reflex response had decreased and resting plasma levels of norepinephrine and epinephrine had increased. The lower operational point indicated that the hypotensive buffering capacity was reduced. The blood pressure and heart rate responses to Valsalva's maneuver had altered, with wider swings of blood pressure and changes in the shape of the curve of arterial pressure versus time. In the power spectral analysis, power had increased in the frequency band of 0.05 to 0.15 Hz, thereby increasing the low-frequency to high-frequency power ratio. This ratio reflects the relative control of the sympathetic nerves and the vagus nerve over the heart rate. These results showed that autonomic regulation of blood pressure and heart rate was disturbed after space flights of 8 to 14 days. Vagal control of the heart rate in response to blood pressure changes was significantly reduced.\r\n<p>",
+  "indexed": "2026-08-23T03:52:40.713801+00:00",
+  "GUID": "cl62azwlicdht01o651ct2ncr",
+  "__model_type": "lsda_experiment",
+  "discipline_type": "N/A",
+  "__dirid": "07007b08-e1e5-5151-bbdd-0ca305c731d8",
+  "__record_size_wo_doccontent": 82600,
+  "experiment_parms_tissue2": "N/A",
+  "experiment_parms_tissue1": "N/A",
+  "__update_method": "Update CDM",
+  "archive_status_index": 4,
+  "experiment_type_lk": [
+   "Shuttle Detailed Supplementary Objectives (DSO)",
+   "Shuttle Extended Duration Orbiter Medical Project (EDOMP)"
+  ],
+  "__record_modified_date": "2026-08-23T03:52:40.713801+00:00",
+  "proposal_source": [
+   "Not applicable"
+  ],
+  "__indexed": "2026-08-23T03:52:40.713801+00:00",
+  "session_type": "N/A",
+  "__record_creation_date": "2022-07-28T19:55:57.967Z",
+  "__record_size": 82600,
+  "__model_version": 60,
+  "payload_id": "DSO32",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "DSO 601",
+  "experiment_related": [
+   "DSO 467"
+  ],
+  "parameter_name": [
+   "Blood pressure",
+   "Cardiac reflex response",
+   "Carotid baroreceptor",
+   "Epinephrine",
+   "Heart rate",
+   "Norepinephrine",
+   "Venous pressure",
+   "Catecholamines",
+   "RR interval"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 202,
+  "research_area": [
+   "Cardiovascular physiology"
+  ],
+  "pme_role_with_name": [
+   "Co-Investigator: Bennett, Barbara",
+   "Co-Investigator: Eckberg, Dwain",
+   "Co-Investigator: Houston, Diana",
+   "Co-Investigator: Meck, Janice",
+   "Collaborator: Buckey, Jay",
+   "Data Analyst: Simmons, Douglas",
+   "Principal Investigator: Charles, John",
+   "Technical Assistant to Principal Investigator: Lanehart, Debra"
+  ],
+  "missions": [
+   [
+    [
+     "STS-32"
+    ]
+   ],
+   [
+    [
+     "STS-35"
+    ]
+   ],
+   [
+    [
+     "STS-39"
+    ]
+   ],
+   [
+    [
+     "STS-41"
+    ]
+   ],
+   [
+    [
+     "STS-43"
+    ]
+   ],
+   [
+    [
+     "STS-40"
+    ]
+   ]
+  ],
+  "PI": [
+   "Charles, John"
+  ],
+  "_file_extension": [],
+  "experiment_identifier": [
+   "DSO 601"
+  ],
+  "mission_id": [
+   [
+    [
+     "STS-32"
+    ]
+   ],
+   [
+    [
+     "STS-35"
+    ]
+   ],
+   [
+    [
+     "STS-39"
+    ]
+   ],
+   [
+    [
+     "STS-41"
+    ]
+   ],
+   [
+    [
+     "STS-43"
+    ]
+   ],
+   [
+    [
+     "STS-40"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Charles, John"
+  ],
+  "archive_status": "Data preservation is complete. All datasets are privacy-protected. Data is available via data request.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Shuttle Program",
+  "__source_field_concat": "N/A PUB001090 DSO32 cl62azwlicdht01o651ct2ncr Pressoreceptors N/A N/A N/A  N/A Barophysiology Changes in Baroreceptor Reflex Function After Space Flight DSO 601 Shuttle Program",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<br>\r\nThe carotid baroreceptors, which are located in the neck, monitor the blood pressure and alter the activity in the autonomic nervous system to adjust the heart rate (by means of the vagus nerve) and peripheral resistance (by means of the sympathetic nervous system), so that a normal blood pressure is maintained. Disruption of this autonomic control may be responsible, at least in part, for the orthostatic intolerance that astronauts frequently experience after space flight. This study was designed to investigate both the vagal and sympathetic aspects of the carotid baroreceptor reflex response. Its specific objectives were to evaluate the function of the carotid baroreceptor reflex before and after space flight, to measure resting plasma levels of catecholamines (neurotransmitters of the sympathetic nervous system), and to perform power spectral analyses of variability in the interval between R waves on the electrocardiogram (the R-R interval). \r\n<p>\r\nAPPROACH:<br>\r\nThis was a follow-on study to DSO 467, which addressed effects of short-duration flights only.  The degree of change in baroreceptor function was unexpected, causing concern about further decrements with longer missions. For DOS 601, therefore, carotid baroreceptor stimulation tests and assessments of orthostatic function were performed on 16 astronauts after space flights of 8 to 14 days. While the astronauts held their breath after exhaling (Valsalva's maneuver), a motorized bellows increased the pressure in a neck chamber to 40 mm Hg and then decreased it in steps down to -65 mm Hg. Blood samples were taken for analysis of catecholamine levels before the baroreceptor stimulation tests. The R-R interval (the inverse of the heart rate) was plotted against the carotid distending pressure (the systolic blood pressure minus the pressure in the neck chamber). These plots illustrated the stimulus-response relationship of the carotid baroreceptor cardiac reflex. In another test of baroreceptor stimulation, the heart rate and blood pressure were recorded as the astronauts performed Valsalva's maneuvers. In addition, five-minute electrocardiograms were recorded for a power spectral analysis of R-R variability. In this analysis fluctuations in the R-R interval were resolved into component waves, and the power at each frequency was displayed.\r\n<p>\r\nRESULTS:<br>\r\nWhen results from landing day were compared with preflight results, heart rate had increased, body weight and orthostatic tolerance had decreased, the range of R-R intervals had decreased, the maximum slope and the operational point (the R-R interval at zero neck pressure) of the carotid baroreceptor cardiac reflex response had decreased and resting plasma levels of norepinephrine and epinephrine had increased. The lower operational point indicated that the hypotensive buffering capacity was reduced. The blood pressure and heart rate responses to Valsalva's maneuver had altered, with wider swings of blood pressure and changes in the shape of the curve of arterial pressure versus time. In the power spectral analysis, power had increased in the frequency band of 0.05 to 0.15 Hz, thereby increasing the low-frequency to high-frequency power ratio. This ratio reflects the relative control of the sympathetic nerves and the vagus nerve over the heart rate. These results showed that autonomic regulation of blood pressure and heart rate was disturbed after space flights of 8 to 14 days. Vagal control of the heart rate in response to blood pressure changes was significantly reduced.\r\n<p>",
+  "__doi": "10.83263/gzbk-eg28",
+  "__doi_record_creation_date": "2026-08-23T03:52:40",
+  "__doi_record_modified_date": "2026-08-23T03:52:40"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000292",
+   "label": "DSO 601__1370244395",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Heart Rate Response Subject 3",
+    "dataset_catalog": "DSO 601__1370244395",
+    "dataset_description": [
+     "This graph depicts the heart rate response to entry and landing for one subject in the DSO 601 study. \r\n<p>\r\nSource:  Unpublished data.  These data were provided to the LSDA by the Chief Scientist when the EDOMP Final Report, Extended Duration Orbiter Medical project Final Report:  1989-1995 (NASA SP-1999-534) was compiled."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 601"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "c872a931-fd58-5a18-abcb-1c39702c2eb5",
+     "label": "DSO_601__1370244395.TIF_STS-32_DSO_601_2011_137_020531.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001075",
+   "label": "DSO 601__1370256930",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Heart Rate Response Subject 1",
+    "dataset_catalog": "DSO 601__1370256930",
+    "dataset_description": [
+     "This graph depicts the heart rate response to entry and landing for one subject in the DSO 601 study. \r\n<p>\r\nSource:  Unpublished data.  These data were provided to the LSDA by the Chief Scientist when the EDOMP Final Report, Extended Duration Orbiter Medical project Final Report:  1989-1995 (NASA SP-1999-534) was compiled."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 601"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "d7feb17d-7278-56ee-916d-25b3f1dac09d",
+     "label": "DSO_601__1370256930.TIF_STS-32_DSO_601_2011_137_030521.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000228",
+   "label": "DSO 601__1371020458",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Blood Pressure Response Subject 1",
+    "dataset_catalog": "DSO 601__1371020458",
+    "dataset_description": [
+     "This graph depicts the blood pressure response to entry and landing for one subject in the DSO 601 study.\r\n<p>\r\nSource:  Unpublished data.  These data were provided to the LSDA by the Chief Scientist when the EDOMP Final Report, Extended Duration Orbiter Medical project Final Report:  1989-1995 (NASA SP-1999-534) was compiled."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 601"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "4489b569-de15-5994-92d3-a30d02943000",
+     "label": "DSO_601__1371020458.TIF_STS-32_DSO_601_2011_137_020528.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001073",
+   "label": "DSO 601__1370212717",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Blood Pressure Response Subject 2",
+    "dataset_catalog": "DSO 601__1370212717",
+    "dataset_description": [
+     "This graph depicts the blood pressure response to entry and landing for one subject in the DSO 601 study. \r\n<p>\r\nSource:  Unpublished data.  These data were provided to the LSDA by the Chief Scientist when the EDOMP Final Report, Extended Duration Orbiter Medical project Final Report:  1989-1995 (NASA SP-1999-534) was compiled."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 601"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "c16c84d3-5ba4-59d6-a53d-8e224d91a6d0",
+     "label": "DSO_601__1370212717.TIF_STS-32_DSO_601_2011_137_020507.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001074",
+   "label": "DSO 601__1370225822",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Heart Rate Response Subject 2",
+    "dataset_catalog": "DSO 601__1370225822",
+    "dataset_description": [
+     "This graph depicts the heart rate response to entry and landing for one subject in the DSO 601 study. \r\n<p>\r\nSource:  Unpublished data.  These data were provided to the LSDA by the Chief Scientist when the EDOMP Final Report, Extended Duration Orbiter Medical project Final Report:  1989-1995 (NASA SP-1999-534) was compiled."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 601"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "bbf7138e-3dcc-5e9a-ad6c-40afd20c55ce",
+     "label": "DSO_601__1370225822.TIF_STS-32_DSO_601_2011_137_020549.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001563",
+   "label": "DSO 601__1370239740",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Blood Pressure Response Subject 3",
+    "dataset_catalog": "DSO 601__1370239740",
+    "dataset_description": [
+     "This graph depicts the blood pressure response to entry and landing for one subject in the DSO 601 study. \r\n<p>\r\nSource:  Unpublished data.  These data were provided to the LSDA by the Chief Scientist when the EDOMP Final Report, Extended Duration Orbiter Medical project Final Report:  1989-1995 (NASA SP-1999-534) was compiled."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 601"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "f9092827-fb2d-5413-b4c2-e8feec5a81e5",
+     "label": "DSO_601__1370239740.TIF_STS-32_DSO_601_2011_137_020515.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

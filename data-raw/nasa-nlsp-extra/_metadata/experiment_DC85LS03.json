@@ -1,0 +1,367 @@
+{
+ "record": {
+  "id": "68361897-48aa-50ad-8573-d39c263cbb4f",
+  "_id": "68361897-48aa-50ad-8573-d39c263cbb4f",
+  "experiment_title": "Cell Kenetic and Histomorphometric Analysis of Microgravitational Osteopenia",
+  "pub_document_number": "NASA TM-4501",
+  "experiment_alias": [
+   "PARE03B"
+  ],
+  "parameter_html": "<table><tr><td>Activity, inhibition, Osteoblastic stem cells, Maxillary molar periodontal ligaments (PDL), mandibular condyle, rat, Nuclear morphometric assay, histology</td></tr><tr><td>Activity, production recovery, Osteoblastic stem cells, Maxillary molar periodontal ligaments (PDL), mandibular condyle, rat, Nuclear morphometric assay, histology</td></tr><tr><td>Count, Cell divisions, osteoblastic stem cells, maxillary molar periodontal ligaments (PDL), mandibular condyle, rat, Nuclear morphometric assay</td></tr><tr><td>Morphology, Maxillary molar periodontal ligaments (PDL), mandibular condyle, rat, Nuclear morphometric assay, histology</td></tr><tr><td>Temperature, AEM, PARE.03, Ambient temperature recorder (ATR)</td></tr><tr></tr></table>",
+  "__source_key": "cl62ayg7lcd5p01o685e941ll",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Roberts, W.\">Principal Investigator: Roberts, W.</a>",
+  "__record_version": 28,
+  "experiment_description": "<B>Objectives:</B><P>The main hypothesis of this experiment was that space flight blocks osteoblast formation.  However, it rapidly recovers upon return to Earth. The study attempted to gain a better understanding of the way that physiological processes adapt both to microgravity and a return to an Earth environment. In order to achieve this, four goals were established.  First, DNA synthesis that leads to preosteoblast cell proliferation was studied through the use of a specific marker. This method would hopefully yield new results that could build on previous research. The second goal was to confirm previous findings that suggested the presence of post-spaceflight inhibition of osteoblast formation. A third goal was to determine whether the block to osteoblast formation is confined to specific areas of the skeleton. The fourth goal was to determine how long it takes for osteoblast formation to recover after space-flight.<P><B>Approach:</B><P>The incidence of osteoblast formation sites during a nine day flight as well as their rates of apposition at 4-6, 24, and 72 hours after space-flight were studied. Rat fibroblast-like osteoblast precursor cells from both maxillary molar periodontal ligaments (PDL) and mandibular condyle cells were analyzed using a nuclear morphometric assay. The PDL cells were placed in ~4M Hematoxylin and stained with eosin to obtain the relative number of preosteoblasts.  The cell kinetics of osteoblast histogenesis at 4-6, 24, and 72 hours after flight were assessed to record the path of recovery of osteoblast production.<P><B>Results:</B><P>Analysis of fibroblast-like osteoblast precursor cells in rat periodontal ligament (PDL) yielded a statistically significant reduction in osteogenic precursor formation after a return from a microgravity environment. Production quickly returned to normal levels, and after twenty-four hours most cell populations were at pre-flight levels. These findings supported the hypothesis that microgravity inhibited osteoblast formation. However, analysis of the rat mandibular condyle cells showed that microgravity had not significantly affected osteoblast production. This was most likely due to the fact that the cells were growing rapidly, and thus the genetic need to produce new cells outweighed the effects of microgravity. Further study of adult mandibular condyle cells is needed and would be most relevant to human space-flight, particularly of growing individuals.",
+  "indexed": "2026-08-23T03:59:16.167219+00:00",
+  "GUID": "cl62ayg7lcd5p01o685e941ll",
+  "__model_type": "lsda_experiment",
+  "__dirid": "68361897-48aa-50ad-8573-d39c263cbb4f",
+  "__record_size_wo_doccontent": 65352,
+  "experiment_parms_tissue2": "NULL",
+  "experiment_parms_tissue1": "NULL",
+  "__update_method": "Update CDM",
+  "archive_status_index": 1,
+  "experiment_type_lk": [
+   "Shuttle Life Sciences Research (Middeck)"
+  ],
+  "__record_modified_date": "2026-08-23T03:59:16.167219+00:00",
+  "proposal_source": [
+   "Dear Colleague Letter"
+  ],
+  "__indexed": "2026-08-23T03:59:16.167219+00:00",
+  "alias": [
+   "PARE03B"
+  ],
+  "session_type": "Flight",
+  "__record_creation_date": "2022-07-28T19:55:51.505Z",
+  "__record_size": 65352,
+  "__model_version": 60,
+  "payload_id": "PARE.03",
+  "CombinedSpecies": [
+   [
+    "Rat (Rattus norvegicus) Sprague-Dawley"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "DC85LS03",
+  "experiment_related": [
+   "No related"
+  ],
+  "parameter_name": [
+   "Activity, inhibition, Osteoblastic stem cells, Maxillary molar periodontal ligaments (PDL), mandibular condyle, rat, Nuclear morphometric assay, histology",
+   "Activity, production recovery, Osteoblastic stem cells, Maxillary molar periodontal ligaments (PDL), mandibular condyle, rat, Nuclear morphometric assay, histology",
+   "Count, Cell divisions, osteoblastic stem cells, maxillary molar periodontal ligaments (PDL), mandibular condyle, rat, Nuclear morphometric assay",
+   "Morphology, Maxillary molar periodontal ligaments (PDL), mandibular condyle, rat, Nuclear morphometric assay, histology",
+   "Temperature, AEM, PARE.03, Ambient temperature recorder (ATR)"
+  ],
+  "exp_index": 655,
+  "research_area": [
+   "Skeletal physiology"
+  ],
+  "protocol_approach": "Demeclocycline",
+  "pme_role_with_name": [
+   "Principal Investigator: Roberts, W."
+  ],
+  "missions": [
+   [
+    [
+     "STS-56"
+    ]
+   ]
+  ],
+  "PI": [
+   "Roberts, W."
+  ],
+  "_file_extension": [],
+  "experiment_identifier": [
+   "DC85LS03",
+   "PARE03B"
+  ],
+  "keyword": [],
+  "mission_id": [
+   [
+    [
+     "STS-56"
+    ]
+   ]
+  ],
+  "center": [
+   "Ames Research Center"
+  ],
+  "ncindex": [
+   7
+  ],
+  "proposal_date": [
+   "1985"
+  ],
+  "species": [
+   "Rat"
+  ],
+  "PrincipalInvestigator": [
+   "Roberts, W."
+  ],
+  "program_name": [
+   "Shuttle Program"
+  ],
+  "archive_status": "Data preservation is complete. All datasets are publicly available.",
+  "__is_locked": false,
+  "Program": "Shuttle Program",
+  "__source_field_concat": "Flight NASA TM-4501 PARE.03 cl62ayg7lcd5p01o685e941ll NULL NULL Demeclocycline Cell Kenetic and Histomorphometric Analysis of Microgravitational Osteopenia DC85LS03 Shuttle Program Data preservation is complete. All datasets are publicly available.",
+  "__icon_type": "rat",
+  "__description": "<B>Objectives:</B><P>The main hypothesis of this experiment was that space flight blocks osteoblast formation.  However, it rapidly recovers upon return to Earth. The study attempted to gain a better understanding of the way that physiological processes adapt both to microgravity and a return to an Earth environment. In order to achieve this, four goals were established.  First, DNA synthesis that leads to preosteoblast cell proliferation was studied through the use of a specific marker. This method would hopefully yield new results that could build on previous research. The second goal was to confirm previous findings that suggested the presence of post-spaceflight inhibition of osteoblast formation. A third goal was to determine whether the block to osteoblast formation is confined to specific areas of the skeleton. The fourth goal was to determine how long it takes for osteoblast formation to recover after space-flight.<P><B>Approach:</B><P>The incidence of osteoblast formation sites during a nine day flight as well as their rates of apposition at 4-6, 24, and 72 hours after space-flight were studied. Rat fibroblast-like osteoblast precursor cells from both maxillary molar periodontal ligaments (PDL) and mandibular condyle cells were analyzed using a nuclear morphometric assay. The PDL cells were placed in ~4M Hematoxylin and stained with eosin to obtain the relative number of preosteoblasts.  The cell kinetics of osteoblast histogenesis at 4-6, 24, and 72 hours after flight were assessed to record the path of recovery of osteoblast production.<P><B>Results:</B><P>Analysis of fibroblast-like osteoblast precursor cells in rat periodontal ligament (PDL) yielded a statistically significant reduction in osteogenic precursor formation after a return from a microgravity environment. Production quickly returned to normal levels, and after twenty-four hours most cell populations were at pre-flight levels. These findings supported the hypothesis that microgravity inhibited osteoblast formation. However, analysis of the rat mandibular condyle cells showed that microgravity had not significantly affected osteoblast production. This was most likely due to the fact that the cells were growing rapidly, and thus the genetic need to produce new cells outweighed the effects of microgravity. Further study of adult mandibular condyle cells is needed and would be most relevant to human space-flight, particularly of growing individuals.",
+  "__doi": "10.83263/5w8z-bt11",
+  "__doi_record_creation_date": "2026-08-23T03:59:16",
+  "__doi_record_modified_date": "2026-08-23T03:59:16"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000106",
+   "label": "AINV0000000747",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "PARE.03 Dissection Spreadsheet",
+    "dataset_catalog": "AINV0000000747",
+    "dataset_description": [
+     "Spreadsheet contains the subject body weight at L-2 for the basal control, flight, vivarium control and suspension control subjects.  Dissected tissue weight for adrenals, heart, kidney, testis and liver are listed in grams for each subject and any anomalies are also noted."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "DC85LS03",
+     "DC85LS04"
+    ]
+   },
+   "meta": "2 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "d834b148-a6c5-55a3-822d-33fab290cb33",
+     "label": "PARE03BSPtissuedata.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "417c94fe-2222-581f-a029-075c55c34a4d",
+     "label": "PARE03BSPtissuedata.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001372",
+   "label": "AINV0000000748",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "PARE.03 Tissue Spreadsheet",
+    "dataset_catalog": "AINV0000000748",
+    "dataset_description": [
+     "Spreadsheet contains the tissues collected from each subject, the approximate weight in grams of each tissue, approximate radioactivity of each tissue, fixative used, and storage temperature."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "DC85LS03",
+     "DC85LS04"
+    ]
+   },
+   "meta": "2 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "e6a438eb-5119-55a4-a3d1-aede0b8db313",
+     "label": "PARE03BSPtissuedata.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f103324c-d648-5c84-a06d-7753c72c8a28",
+     "label": "PARE03BSPtissuedata.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001153",
+   "label": "AINV0000000411",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "PARE.03 Flight Animal Enclosure Module (AEM) Ambient Temperature Recorder (ATR) data",
+    "dataset_catalog": "AINV0000000411",
+    "dataset_description": [
+     "Temperature data"
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "DC85LS03",
+     "DC85LS04"
+    ]
+   },
+   "meta": "2 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "af6d6047-14ea-5309-be56-60cf92b52331",
+     "label": "48A422.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a9d074c3-0e4c-5338-a0bb-671ab90e6267",
+     "label": "48A422.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000107",
+   "label": "AINV0000000409",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "PARE.03 Ground Control Animal Enclosure Module (AEM) Ambient Temperature Recorder (ATR) data",
+    "dataset_catalog": "AINV0000000409",
+    "dataset_description": [
+     "Temperature data"
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "DC85LS03"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "ec4537f9-a76c-5045-9bce-56da7c97d88b",
+     "label": "42A422.xls_STS-56_DC85LS03_2010_327_121143.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000775",
+   "label": "AINV0000000410",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "PARE.03 Flight Animal Enclosure Module (AEM) Ambient Temperature Recorder (ATR) data",
+    "dataset_catalog": "AINV0000000410",
+    "dataset_description": [
+     "Temperature data"
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "DC85LS03",
+     "DC85LS04"
+    ]
+   },
+   "meta": "2 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "3ec003fb-6e2c-5491-b883-7e3d3a715af3",
+     "label": "47A422.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "423e25a8-efca-59a8-93d7-86f24c93b194",
+     "label": "47A422.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000670",
+   "label": "AINV0000000412",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "PARE.03 Ground Control Animal Enclosure Module (AEM) Ambient Temperature Recorder (ATR) data",
+    "dataset_catalog": "AINV0000000412",
+    "dataset_description": [
+     "Temperature data"
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "DC85LS03",
+     "DC85LS04"
+    ]
+   },
+   "meta": "2 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "70679387-a38b-50fe-9859-e9efc7a9dec1",
+     "label": "49A422.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b737d338-5fa8-517f-9d74-d70f480e3b52",
+     "label": "49A422.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

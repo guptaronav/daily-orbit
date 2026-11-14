@@ -1,0 +1,171 @@
+{
+ "record": {
+  "id": "9cd06585-d12d-546e-9387-94adac6551eb",
+  "_id": "9cd06585-d12d-546e-9387-94adac6551eb",
+  "experiment_title": "Cardiovascular Evaluations",
+  "pub_document_number": "PUB000361",
+  "archive_status_index": 2,
+  "parameter_html": "<table><tr><td>Heart chamber size</td></tr><tr><td>Heart chamber structure</td></tr><tr><td>Heart chamber thickness</td></tr><tr><td>Heart size</td></tr><tr><td>Lower body negative pressure (LBNP) calf volume change</td></tr><tr><td>Maximum circumference, left calf</td></tr><tr><td>Valve function</td></tr><tr><td>Diastolic blood pressure, lower body negative pressure (LBNP)</td></tr><tr><td>Diastolic blood pressure, resting</td></tr><tr><td>Systolic blood pressure, lower body negative pressure (LBNP)</td></tr><tr><td>Systolic blood pressure, resting</td></tr><tr><td>Cardiothoracic ratio (CTR), diastole</td></tr><tr><td>Cardiothoracic ratio (CTR), systole</td></tr><tr><td>Heart rate, lower body negative pressure (LBNP)</td></tr><tr><td>Heart rate, resting</td></tr><tr><td>Calf volume, percent change</td></tr><tr><td>Systolic time intervals</td></tr><tr><td>Vectorcardiogram (VCG)</td></tr><tr></tr></table>",
+  "__source_key": "cl62aulfacbqc01o6h1tvhlwe",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Nicogossian, Arnauld\">Principal Investigator: Nicogossian, Arnauld</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Johnson, Robert\">Principal Investigator: Johnson, Robert</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Hoffler, G.\">Principal Investigator: Hoffler, G.</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Bergman, Stuart\">Principal Investigator: Bergman, Stuart</a>",
+  "image_name": [
+   "Leg Volume Measurements on Skylab and ASTP"
+  ],
+  "experiment_type_lk": [
+   "Apollo-Soyuz Test Project (ASTP)"
+  ],
+  "__record_modified_date": "2026-08-23T04:13:23.662595+00:00",
+  "proposal_source": [
+   "N/A"
+  ],
+  "__indexed": "2026-08-23T04:13:23.662595+00:00",
+  "keyword": [
+   "Lower body negative pressure (LBNP)",
+   "Blood pressure",
+   "Vectorcardiography",
+   "Cardiovascular system",
+   "Heart",
+   "Echocardiography"
+  ],
+  "__record_creation_date": "2022-07-28T19:40:20.325Z",
+  "keyword_name": "Echocardiography",
+  "__record_version": 29,
+  "__record_size": 88942,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<BR>\r\nThe objective of this investigation was to determine the response of the cardiovascular system to weightlessness. However, during reentry, the crew was exposed to toxic gases (mostly nitrogen tetroxide).  Because of this episode during the Apollo-Soyuz Test Project (ASTP), most planned postflight evaluations were curtailed, altered or deleted.\r\n<P>\r\nAPPROACH:<BR>\r\nCardiovascular evaluations were performed on each of the crewmen 45, 30, and 15 days prior to launch (L-45, 30, and 15).  The following parameters were measured:<P>\r\n<P>\r\n1.\tOrthostatic intolerance by lower body negative pressure (LBNP) including heart rate, systolic and diastolic blood pressure, percentage change in calf volume, systolic time intervals, and vectorcardiograms (VCGs) <BR>\r\n2.\tHeart size by posterior-anterior chest x-rays (L-15 only) <BR>\r\n3.\tResting (supine) leg volume<BR>\r\n4.\tEchocardiogram\r\n<P>\r\nThe postflight protocol consisted of: <BR>\r\n1.\tLBNP test performed on recovery day (R+0) on one subject. <BR>\r\n2.\tChest x-rays<BR>\r\n3.\tLeg volume measurements.\r\n<P>\r\nThe test protocol for LBNP consisted of following six evaluation periods: <BR>\r\n1.\tSupine resting in the LBNP for five minutes<BR>\r\n2.\tUp to 25 mm Hg negative pressure for two minutes<BR>\r\n3.\t30 to 35 mm Hg negative pressure for three minutes<BR>\r\n4.\t40 mm Hg negative pressure for five minutes<BR>\r\n5.\t50 mm Hg negative pressure for five minutes<BR>\r\n6.\tRecovery supine in LBNP device for five minutes\r\n<P>\r\nLBNP level, heart rate, ECG or VCG, and systolic and diastolic blood pressure were monitored continuously.  Age, body weight, body temperature, duration of sleep, time since sleep, time since last meal, amount of fluid intake, time of day, ambient temperature, and environmental test conditions were also noted.\r\n<P>\r\nRESULTS:<BR>\r\nDuring LBNP, time of day, ambient and LBNP temperature, time since last meal, and amount of sleep were all nominal and within desired limits of experimental control.  No results were considered beyond acceptable limits.  Preflight, one subject experienced one episode of presyncope during the later portion of the \u001340 mm Hg protocol at L-15.  Postflight, only one subject was evaluated by LBNP, this occurring approximately 2 hours 20 minutes after recovery.  Two minutes into the \u001350 mm Hg level of LBNP, the protocol was terminated due to progressively declining blood pressure.  The crewmen vehemently denied any associated symptomology.  This postflight measurement was made prior to the decision to cease all nondiagnostic and nonclinical testing.  This decision was made in response to the medical complications arising from the crew exposure to the toxic gases during reentry.\r\n<P>\r\nBecause LBNP recordings scheduled immediately after flight were deleted, no useful information was obtained from systolic time intervals, echocardiograms, or VCGs.  Strictly resting VCGs were taken on recovery day in conjunction with clinical ECGs.  All tracings were considered to within normal limits.  One crewmember experienced occasional premature supraventricular beats similar to those observed before flight.\r\n<P>\r\nChest x-rays provided heart size determinations by cardiothoracic (C/T) ratios.  No notable or consistent findings developed, but this data must be considered in the light of significant postflight pulmonary involvement.\r\n<P>\r\nApart from the noxious gas event with the recovery of the ASTP crewmen and their ensuing pulmonary consequences, no findings would lead to conclusions different from that reached with all previous US manned space missions: a modest postflight orthostatic intolerance without operational significance was demonstrated.<END>",
+  "payload_id": "ASTP",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "indexed": "2026-08-23T04:13:23.662595+00:00",
+  "experiment_id": "ASTP006",
+  "experiment_related": [
+   "AP005"
+  ],
+  "GUID": "cl62aulfacbqc01o6h1tvhlwe",
+  "parameter_name": [
+   "Heart chamber size",
+   "Heart chamber structure",
+   "Heart chamber thickness",
+   "Heart size",
+   "Lower body negative pressure (LBNP) calf volume change",
+   "Maximum circumference, left calf",
+   "Valve function",
+   "Diastolic blood pressure, lower body negative pressure (LBNP)",
+   "Diastolic blood pressure, resting",
+   "Systolic blood pressure, lower body negative pressure (LBNP)",
+   "Systolic blood pressure, resting",
+   "Cardiothoracic ratio (CTR), diastole",
+   "Cardiothoracic ratio (CTR), systole",
+   "Heart rate, lower body negative pressure (LBNP)",
+   "Heart rate, resting",
+   "Calf volume, percent change",
+   "Systolic time intervals",
+   "Vectorcardiogram (VCG)"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 406,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Cardiovascular physiology"
+  ],
+  "pme_role_with_name": [
+   "Principal Investigator: Bergman, Stuart",
+   "Principal Investigator: Hoffler, G.",
+   "Principal Investigator: Johnson, Robert",
+   "Principal Investigator: Nicogossian, Arnauld"
+  ],
+  "missions": [
+   [
+    [
+     "ASTP"
+    ]
+   ]
+  ],
+  "__dirid": "9cd06585-d12d-546e-9387-94adac6551eb",
+  "__record_size_wo_doccontent": 88942,
+  "PI": [
+   "Bergman, Stuart",
+   "Hoffler, G.",
+   "Johnson, Robert",
+   "Nicogossian, Arnauld"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "ASTP006"
+  ],
+  "mission_id": [
+   [
+    [
+     "ASTP"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Bergman, Stuart",
+   "Hoffler, G.",
+   "Johnson, Robert",
+   "Nicogossian, Arnauld"
+  ],
+  "program_name": [
+   "Apollo-Soyuz Test Project (ASTP)"
+  ],
+  "archive_status": "Data preservation is complete. Privacy-protected datasets are available via data request. Remaining datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Apollo-Soyuz Test Project (ASTP)",
+  "__source_field_concat": "PUB000361 ASTP cl62aulfacbqc01o6h1tvhlwe Echocardiography  N/A Cardiovascular Evaluations ASTP006 Apollo-Soyuz Test Project (ASTP)",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<BR>\r\nThe objective of this investigation was to determine the response of the cardiovascular system to weightlessness. However, during reentry, the crew was exposed to toxic gases (mostly nitrogen tetroxide).  Because of this episode during the Apollo-Soyuz Test Project (ASTP), most planned postflight evaluations were curtailed, altered or deleted.\r\n<P>\r\nAPPROACH:<BR>\r\nCardiovascular evaluations were performed on each of the crewmen 45, 30, and 15 days prior to launch (L-45, 30, and 15).  The following parameters were measured:<P>\r\n<P>\r\n1.\tOrthostatic intolerance by lower body negative pressure (LBNP) including heart rate, systolic and diastolic blood pressure, percentage change in calf volume, systolic time intervals, and vectorcardiograms (VCGs) <BR>\r\n2.\tHeart size by posterior-anterior chest x-rays (L-15 only) <BR>\r\n3.\tResting (supine) leg volume<BR>\r\n4.\tEchocardiogram\r\n<P>\r\nThe postflight protocol consisted of: <BR>\r\n1.\tLBNP test performed on recovery day (R+0) on one subject. <BR>\r\n2.\tChest x-rays<BR>\r\n3.\tLeg volume measurements.\r\n<P>\r\nThe test protocol for LBNP consisted of following six evaluation periods: <BR>\r\n1.\tSupine resting in the LBNP for five minutes<BR>\r\n2.\tUp to 25 mm Hg negative pressure for two minutes<BR>\r\n3.\t30 to 35 mm Hg negative pressure for three minutes<BR>\r\n4.\t40 mm Hg negative pressure for five minutes<BR>\r\n5.\t50 mm Hg negative pressure for five minutes<BR>\r\n6.\tRecovery supine in LBNP device for five minutes\r\n<P>\r\nLBNP level, heart rate, ECG or VCG, and systolic and diastolic blood pressure were monitored continuously.  Age, body weight, body temperature, duration of sleep, time since sleep, time since last meal, amount of fluid intake, time of day, ambient temperature, and environmental test conditions were also noted.\r\n<P>\r\nRESULTS:<BR>\r\nDuring LBNP, time of day, ambient and LBNP temperature, time since last meal, and amount of sleep were all nominal and within desired limits of experimental control.  No results were considered beyond acceptable limits.  Preflight, one subject experienced one episode of presyncope during the later portion of the \u001340 mm Hg protocol at L-15.  Postflight, only one subject was evaluated by LBNP, this occurring approximately 2 hours 20 minutes after recovery.  Two minutes into the \u001350 mm Hg level of LBNP, the protocol was terminated due to progressively declining blood pressure.  The crewmen vehemently denied any associated symptomology.  This postflight measurement was made prior to the decision to cease all nondiagnostic and nonclinical testing.  This decision was made in response to the medical complications arising from the crew exposure to the toxic gases during reentry.\r\n<P>\r\nBecause LBNP recordings scheduled immediately after flight were deleted, no useful information was obtained from systolic time intervals, echocardiograms, or VCGs.  Strictly resting VCGs were taken on recovery day in conjunction with clinical ECGs.  All tracings were considered to within normal limits.  One crewmember experienced occasional premature supraventricular beats similar to those observed before flight.\r\n<P>\r\nChest x-rays provided heart size determinations by cardiothoracic (C/T) ratios.  No notable or consistent findings developed, but this data must be considered in the light of significant postflight pulmonary involvement.\r\n<P>\r\nApart from the noxious gas event with the recovery of the ASTP crewmen and their ensuing pulmonary consequences, no findings would lead to conclusions different from that reached with all previous US manned space missions: a modest postflight orthostatic intolerance without operational significance was demonstrated.<END>",
+  "__doi": "10.83263/y102-nc18",
+  "__doi_record_creation_date": "2026-08-23T04:13:23",
+  "__doi_record_modified_date": "2026-08-23T04:13:23"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000819",
+   "label": "ASTP006__2710840486",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Data Collection Timetables for Experiment ASTP006",
+    "dataset_catalog": "ASTP006__2710840486",
+    "dataset_description": [
+     "This spreadsheet represents the data collection timetables for data collection session(s) for this experiment. Information included in this spreadsheet may include information on the test protocol, data collection constraints, parameters measured, hardware used, scheduled versus actual days of data collection, and subject information."
+    ],
+    "processing_level": "",
+    "experiment_id": [
+     "ASTP006"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "933c355a-404c-5cf2-ab95-2ca0847e10df",
+     "label": "ASTP006__2710840486.xls_ASTP_ASTP006_2010_271_090900.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

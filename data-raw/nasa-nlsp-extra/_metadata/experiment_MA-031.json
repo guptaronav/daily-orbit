@@ -1,0 +1,217 @@
+{
+ "record": {
+  "id": "507dffc8-3f35-5a34-84f3-9f896d42594e",
+  "_id": "507dffc8-3f35-5a34-84f3-9f896d42594e",
+  "experiment_title": "Cellular Immune Response",
+  "pub_document_number": "PUB000408",
+  "archive_status_index": 2,
+  "parameter_html": "<table><tr><td>B-lymphocyte count, peripheral blood</td></tr><tr><td>Lymphocyte count</td></tr><tr><td>T-lymphocyte count, peripheral blood</td></tr><tr><td>White blood cell count</td></tr><tr><td>Lymphocyte responsiveness, concanavalin A</td></tr><tr><td>Lymphocyte responsiveness, influenza virus antigen</td></tr><tr><td>Lymphocyte responsiveness, phytohemagglutinin</td></tr><tr><td>Lymphocyte responsiveness, pokeweed mitogen</td></tr><tr></tr></table>",
+  "__source_key": "cl62ayy1lcd9y01o6c27efyl8",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Criswell, Sue\">Principal Investigator: Criswell, Sue</a>",
+  "experiment_type_lk": [
+   "Apollo-Soyuz Test Project (ASTP)"
+  ],
+  "__record_modified_date": "2026-08-23T04:17:30.877592+00:00",
+  "proposal_source": [
+   "N/A"
+  ],
+  "__indexed": "2026-08-23T04:17:30.877592+00:00",
+  "keyword": [
+   "Pokeweed mitogens",
+   "Concanavalin A",
+   "Orthomyxoviridae",
+   "Lymphocyte transformation",
+   "Mitogens",
+   "Lymphocyte count",
+   "Leukocyte count",
+   "Antigens",
+   "Phytohemagglutinins"
+  ],
+  "__record_creation_date": "2022-07-28T20:04:16.263Z",
+  "keyword_name": "Phytohemagglutinins",
+  "__record_version": 29,
+  "__record_size": 131096,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<BR>The functional capacity of lymphocytes (phytohemagglutinin (PHA) responsiveness only) was found to be depressed for studies conducted during Apollo missions 7 through 13 and Skylab missions 3 and 4.  T-lymphocyte numbers were also suppressed in Skylab.  The objective of this study was to examine the effects of space flight on the cellular immune response in Apollo-Soyuz Test Project (ASTP) crewmembers.\r\n<P>APPROACH:<BR>Samples of heparinized peripheral venous blood (10cc) were obtained preflight and postflight on days L-30 (30 days before liftoff), L-15, L-5, R+0 (day of recovery), R+1 (recovery +1 day), R+8 and R+13.  Samples were processed within 1 to 24 hours of collection.  Parameters measured for this study included:  1) white blood cell concentrations, 2) lymphocyte numbers, 3) B-lymphocyte and T-lymphocyte distributions in peripheral blood and 4) lymphocyte responsiveness to PHA, pokeweed mitogen (PWM), Concanavalin A (Con A) and influenza virus antigen.  Before separation, total leukocyte counts were performed using a hemacytometer and/or a Coulter Counter.  Differential counts were determined using slide preparations stained with Wright\u2019s stain. <P>Lymphocytes were separated by Ficoll-Hypaque centrifugation, which uses a special liquid that provides a density gradient.  Higher density blood cells are pulled far down into the liquid by centrifugal action, while the more buoyant lymphocytes remain near the center.  The supernatant was removed by pipette, and the resulting mononuclear cells were washed three times in minimum essential medium (MEM).  <P>B-lymphocyte distributions were determined by calculating the percentage of 200 mononuclear cells with surface immunoglobulins, which were detected by the immunofluorescent antibody technique.  The presence of E-rosette-forming lymphocytes (T-cells) was determined using a concentration of one million lymphocytes in 0.25 ml of 0.5% sheep red blood cell (SRBC) suspension.  After mixing, the tubes were incubated at 37 degrees Celsius for 5 minutes, and then placed in ice water for 2 hours.  Approximately half of the supernatant was removed, and the top cell layer was gently resuspended.  Two hundred lymphocytes were counted with 3 or more adhering SRBC\u2019s, which were used as criteria for E-rosetted lymphocytes.<P>Purified lymphocytes (one million cells) in MEM containing 40% fetal calf serum were placed in culture plates.  The antigens were diluted in MEM (containing Pen-Strep and L-glutamine) in the following concentrations:  0.01 ml PHA/ml MEM; 0.01 and 0.05 ml PWM/ml MEM; and 25 and 50 micrograms Con A/ml MEM.  These diluted antigens were placed in the appropriate wells of the tissue culture plates in 0.1 ml aliquots (in duplicate).  The cultures were incubated in a humidified carbon dioxide atmosphere at 37 degrees Celsius (3 days for PHA and 5 days for Con A and PWM).  On the day of harvest, samples were treated as described in the following section for influenza virus antigen cultures.<P>An inactivated monovalent type A influenza virus vaccine containing 1600 chick cell agglutinating units/ml of a Hong Kong strain was dialyzed against phosphate-buffered saline and stored at -70 degrees Celsius until used for tests.  Separated lymphocytes were added in 0.1 ml aliquots for each influenza antigen dilution, and the cultures were incubated in a humidified carbon dioxide incubator at 37 degrees Celsius for periods of either 2 or 3 days.   On the day of harvest, cells were pulsed for 2 hours with 1 microcurie of methyl(tritium)-thymidine, a radioactive marker. Cells were then harvested with an automated harvester onto glass-fiber filter strips and counted in a liquid scintillation counter.   Data were expressed as counts per minute (CPM)/one million lymphocytes, and the stimulation index (SI) was calculated by dividing the mean result for stimulated cultures by that for unstimulated cultures.  Allantoic fluid was used separately as a control of each crewman\u2019s reactivity to chick embryo proteins.\r\n<P>\r\nRESULTS:<BR>Preflight (L-30) white blood cell (WBC) counts for ASTP and Skylab were 6640\u00b11830 WBC/mm3 and 6013\u00b1254 WBC/ mm3, respectively.  The ASTP crew had significant increases in WBC numbers noted on R+0 (11,110\u00b14210 WBC/mm3) and R+1 (13,530\u00b1610 WBC/mm3).  Individual variation in WBC values was noted among the three Skylab crewmembers at R+0 (8980\u00b15560 WBC/mm3), which is reflected in the large standard deviation.  However, all values were within clinically normal ranges (7110\u00b12400 WBC/mm3).  Less variation overall was noted for total lymphocyte values; however, values at R+0 for ASTP (1950\u00b1490 lymphocyte count/mm3) and Skylab 4 (1177\u00b1381 lymphocyte count/mm3) were decreased below their previous baseline values (ASTP L-30=2820\u00b1480 lymphocyte count/mm3 and Skylab L-30=1940\u00b1670 lymphocyte count/mm3).  Fluctuations in the individual values of T-lymphocytes, B-lymphocytes and nonreactive lymphocytes of ASTP crewmembers were indicated, but values remain within one standard deviation for normal laboratory values.  T-cell values ranged from 1.29 million +/- 490,000 to 2.53 million +/- 440,000 lymphocytes/ml (normal=1.59 million +/- 630,000 lymphocytes/ml), B-lymphocytes from 470,000 +/- 20,000 to 710,000 +/- 40,000 lymphocytes/ml (normal=510,000 +/- 300,000 lymphocytes/ml) and nonreactive lymphocytes from 120,000 +/- 120,000 to 710,000 +/- 370,000 lymphocytes/ml (normal=850,000 +/- 560,000 lymphocytes/ml).  In contrast, highly significant changes were noted in B and T cell distributions of the Skylab 4 crewmen.<P>Results from culture studies show a definite decrease in the ability of lymphocytes to react with PHA at R+0 (SI=20\u00b115) and R+1 (SI=12\u00b18) for all three Apollo astronauts. Baseline SI mean at L-30 was 36\u00b14.  By R+8, all were back within normal ranges (SI range=10 to 282).  Crewmembers began and remained at low-level SI ranges for Con A (3 to 49) throughout the preflight and postflight periods, except for one subject, who had a strengthened Con A stimulation of 151 at splashdown.  Considerable individual variation was noted in the PWM data and no consistent trend was obtained. Variation of antigen stimulation indexes may be expected, due to the rapid exchange of cells between different compartments in the body.  The entire Apollo crew responded to influenza virus England strain preflight in cultures, and one of the three astronauts responded postflight to influenza virus Hong Kong strain. Total lack of reactivity may reflect influenza susceptibility. <P>ASTP crewmembers experienced contact with toxic gases upon splashdown. Depressions observed at R+0 were caused by either space flight or gas exposure a few hours prior to sample analysis.  Similar depressions in lymphocytic responsiveness were observed in Skylab 3 and 4 data, although both of these missions were of much longer duration than ASTP.  However, in comparable missions of similar lengths (i.e., the Apollo series) no changes in lymphocytic responsiveness were reported.  The toxic gas exposure was severe enough to create concern for lung inflammation, which resulted in a corticosteroid treatment on R+1.  Most cortisone preparations are known to cause a lymphocytic reaction.  Consequently, it is likely that the increased immunosuppressions noted by cultural responses on R+1 for all mitogens and on R+8 for Con A were attributable to the steroid therapy.<END>",
+  "payload_id": "ASTP",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "indexed": "2026-08-23T04:17:30.877592+00:00",
+  "experiment_id": "MA-031",
+  "GUID": "cl62ayy1lcd9y01o6c27efyl8",
+  "parameter_name": [
+   "B-lymphocyte count, peripheral blood",
+   "Lymphocyte count",
+   "T-lymphocyte count, peripheral blood",
+   "White blood cell count",
+   "Lymphocyte responsiveness, concanavalin A",
+   "Lymphocyte responsiveness, influenza virus antigen",
+   "Lymphocyte responsiveness, phytohemagglutinin",
+   "Lymphocyte responsiveness, pokeweed mitogen"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 402,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Immunology"
+  ],
+  "pme_role_with_name": [
+   "Principal Investigator: Criswell, Sue"
+  ],
+  "missions": [
+   [
+    [
+     "ASTP"
+    ]
+   ]
+  ],
+  "__dirid": "507dffc8-3f35-5a34-84f3-9f896d42594e",
+  "__record_size_wo_doccontent": 131096,
+  "experiment_parms_tissue2": "N/A",
+  "experiment_parms_tissue1": "N/A",
+  "PI": [
+   "Criswell, Sue"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "MA-031"
+  ],
+  "mission_id": [
+   [
+    [
+     "ASTP"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Criswell, Sue"
+  ],
+  "program_name": [
+   "Apollo-Soyuz Test Project (ASTP)"
+  ],
+  "archive_status": "Data preservation is complete. Privacy-protected datasets are available via data request. Remaining datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Apollo-Soyuz Test Project (ASTP)",
+  "__source_field_concat": "PUB000408 ASTP cl62ayy1lcd9y01o6c27efyl8 Phytohemagglutinins N/A N/A  N/A Cellular Immune Response MA-031 Apollo-Soyuz Test Project (ASTP)",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<BR>The functional capacity of lymphocytes (phytohemagglutinin (PHA) responsiveness only) was found to be depressed for studies conducted during Apollo missions 7 through 13 and Skylab missions 3 and 4.  T-lymphocyte numbers were also suppressed in Skylab.  The objective of this study was to examine the effects of space flight on the cellular immune response in Apollo-Soyuz Test Project (ASTP) crewmembers.\r\n<P>APPROACH:<BR>Samples of heparinized peripheral venous blood (10cc) were obtained preflight and postflight on days L-30 (30 days before liftoff), L-15, L-5, R+0 (day of recovery), R+1 (recovery +1 day), R+8 and R+13.  Samples were processed within 1 to 24 hours of collection.  Parameters measured for this study included:  1) white blood cell concentrations, 2) lymphocyte numbers, 3) B-lymphocyte and T-lymphocyte distributions in peripheral blood and 4) lymphocyte responsiveness to PHA, pokeweed mitogen (PWM), Concanavalin A (Con A) and influenza virus antigen.  Before separation, total leukocyte counts were performed using a hemacytometer and/or a Coulter Counter.  Differential counts were determined using slide preparations stained with Wright\u2019s stain. <P>Lymphocytes were separated by Ficoll-Hypaque centrifugation, which uses a special liquid that provides a density gradient.  Higher density blood cells are pulled far down into the liquid by centrifugal action, while the more buoyant lymphocytes remain near the center.  The supernatant was removed by pipette, and the resulting mononuclear cells were washed three times in minimum essential medium (MEM).  <P>B-lymphocyte distributions were determined by calculating the percentage of 200 mononuclear cells with surface immunoglobulins, which were detected by the immunofluorescent antibody technique.  The presence of E-rosette-forming lymphocytes (T-cells) was determined using a concentration of one million lymphocytes in 0.25 ml of 0.5% sheep red blood cell (SRBC) suspension.  After mixing, the tubes were incubated at 37 degrees Celsius for 5 minutes, and then placed in ice water for 2 hours.  Approximately half of the supernatant was removed, and the top cell layer was gently resuspended.  Two hundred lymphocytes were counted with 3 or more adhering SRBC\u2019s, which were used as criteria for E-rosetted lymphocytes.<P>Purified lymphocytes (one million cells) in MEM containing 40% fetal calf serum were placed in culture plates.  The antigens were diluted in MEM (containing Pen-Strep and L-glutamine) in the following concentrations:  0.01 ml PHA/ml MEM; 0.01 and 0.05 ml PWM/ml MEM; and 25 and 50 micrograms Con A/ml MEM.  These diluted antigens were placed in the appropriate wells of the tissue culture plates in 0.1 ml aliquots (in duplicate).  The cultures were incubated in a humidified carbon dioxide atmosphere at 37 degrees Celsius (3 days for PHA and 5 days for Con A and PWM).  On the day of harvest, samples were treated as described in the following section for influenza virus antigen cultures.<P>An inactivated monovalent type A influenza virus vaccine containing 1600 chick cell agglutinating units/ml of a Hong Kong strain was dialyzed against phosphate-buffered saline and stored at -70 degrees Celsius until used for tests.  Separated lymphocytes were added in 0.1 ml aliquots for each influenza antigen dilution, and the cultures were incubated in a humidified carbon dioxide incubator at 37 degrees Celsius for periods of either 2 or 3 days.   On the day of harvest, cells were pulsed for 2 hours with 1 microcurie of methyl(tritium)-thymidine, a radioactive marker. Cells were then harvested with an automated harvester onto glass-fiber filter strips and counted in a liquid scintillation counter.   Data were expressed as counts per minute (CPM)/one million lymphocytes, and the stimulation index (SI) was calculated by dividing the mean result for stimulated cultures by that for unstimulated cultures.  Allantoic fluid was used separately as a control of each crewman\u2019s reactivity to chick embryo proteins.\r\n<P>\r\nRESULTS:<BR>Preflight (L-30) white blood cell (WBC) counts for ASTP and Skylab were 6640\u00b11830 WBC/mm3 and 6013\u00b1254 WBC/ mm3, respectively.  The ASTP crew had significant increases in WBC numbers noted on R+0 (11,110\u00b14210 WBC/mm3) and R+1 (13,530\u00b1610 WBC/mm3).  Individual variation in WBC values was noted among the three Skylab crewmembers at R+0 (8980\u00b15560 WBC/mm3), which is reflected in the large standard deviation.  However, all values were within clinically normal ranges (7110\u00b12400 WBC/mm3).  Less variation overall was noted for total lymphocyte values; however, values at R+0 for ASTP (1950\u00b1490 lymphocyte count/mm3) and Skylab 4 (1177\u00b1381 lymphocyte count/mm3) were decreased below their previous baseline values (ASTP L-30=2820\u00b1480 lymphocyte count/mm3 and Skylab L-30=1940\u00b1670 lymphocyte count/mm3).  Fluctuations in the individual values of T-lymphocytes, B-lymphocytes and nonreactive lymphocytes of ASTP crewmembers were indicated, but values remain within one standard deviation for normal laboratory values.  T-cell values ranged from 1.29 million +/- 490,000 to 2.53 million +/- 440,000 lymphocytes/ml (normal=1.59 million +/- 630,000 lymphocytes/ml), B-lymphocytes from 470,000 +/- 20,000 to 710,000 +/- 40,000 lymphocytes/ml (normal=510,000 +/- 300,000 lymphocytes/ml) and nonreactive lymphocytes from 120,000 +/- 120,000 to 710,000 +/- 370,000 lymphocytes/ml (normal=850,000 +/- 560,000 lymphocytes/ml).  In contrast, highly significant changes were noted in B and T cell distributions of the Skylab 4 crewmen.<P>Results from culture studies show a definite decrease in the ability of lymphocytes to react with PHA at R+0 (SI=20\u00b115) and R+1 (SI=12\u00b18) for all three Apollo astronauts. Baseline SI mean at L-30 was 36\u00b14.  By R+8, all were back within normal ranges (SI range=10 to 282).  Crewmembers began and remained at low-level SI ranges for Con A (3 to 49) throughout the preflight and postflight periods, except for one subject, who had a strengthened Con A stimulation of 151 at splashdown.  Considerable individual variation was noted in the PWM data and no consistent trend was obtained. Variation of antigen stimulation indexes may be expected, due to the rapid exchange of cells between different compartments in the body.  The entire Apollo crew responded to influenza virus England strain preflight in cultures, and one of the three astronauts responded postflight to influenza virus Hong Kong strain. Total lack of reactivity may reflect influenza susceptibility. <P>ASTP crewmembers experienced contact with toxic gases upon splashdown. Depressions observed at R+0 were caused by either space flight or gas exposure a few hours prior to sample analysis.  Similar depressions in lymphocytic responsiveness were observed in Skylab 3 and 4 data, although both of these missions were of much longer duration than ASTP.  However, in comparable missions of similar lengths (i.e., the Apollo series) no changes in lymphocytic responsiveness were reported.  The toxic gas exposure was severe enough to create concern for lung inflammation, which resulted in a corticosteroid treatment on R+1.  Most cortisone preparations are known to cause a lymphocytic reaction.  Consequently, it is likely that the increased immunosuppressions noted by cultural responses on R+1 for all mitogens and on R+8 for Con A were attributable to the steroid therapy.<END>",
+  "__doi": "10.83263/m1xq-sa72",
+  "__doi_record_creation_date": "2026-08-23T04:17:30",
+  "__doi_record_modified_date": "2026-08-23T04:17:30"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000043",
+   "label": "J0000860",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Lymphocyte response to phytohemagglutinin (PHA), pokeweed mitogen (PWM) and concanavalin A (con A)",
+    "dataset_catalog": "J0000860",
+    "dataset_description": [
+     "This table presents crewmember stimulation indexes for lymphocyte response to the mitogens phytohemagglutinin, pokeweed mitogen and Concanavalin A.  Normal laboratory values (mean and range) are also shown for comparison.<P>\r\nSource: Unpublished data."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "MA-031"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "1baaae69-0665-52de-86d2-f145aee3776e",
+     "label": "JMASTPMA031_281.xlsx_ASTP_MA-031_2010_355_011224.xlsx",
+     "type": "file",
+     "ext": "xlsx",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000559",
+   "label": "J0000859",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Results of the T-lymphocytes, B-Lymphocytes, and Nonreactive Lymphocytes",
+    "dataset_catalog": "J0000859",
+    "dataset_description": [
+     "The results of the T-lymphocytes, B-lymphocytes and nonreactive lymphocytes of ASTP crewmembers are given in this table.<P>\r\nSource: Unpublished data."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "MA-031"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "d4faadb9-48fd-51bf-94ff-823c9a3e4947",
+     "label": "JMASTPMA031_271.xlsx_ASTP_MA-031_2010_355_011232.xlsx",
+     "type": "file",
+     "ext": "xlsx",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000747",
+   "label": "J0000858",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Preflight and postflight leukocyte response of Apollo-Soyuz Test Project (ASTP) and Skylab 4 crewmembers",
+    "dataset_catalog": "J0000858",
+    "dataset_description": [
+     "For the ASTP and Skylab 4 crewmembers, this table shows the mean and 1 standard deviation of the white blood cell (WBC) count and the lymphocyte count for respective days preflight and postflight.  Normal laboratory values are given for comparison.<P>\r\nSource: Unpublished data."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "MA-031"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "d97af401-9822-55f5-b08c-dbc6886021fb",
+     "label": "JMASTPMA031_261.xlsx_ASTP_MA-031_2010_354_011227.xlsx",
+     "type": "file",
+     "ext": "xlsx",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

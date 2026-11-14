@@ -1,0 +1,244 @@
+{
+ "record": {
+  "id": "8aae3ece-7d06-5078-8b48-ec84eb633833",
+  "_id": "8aae3ece-7d06-5078-8b48-ec84eb633833",
+  "__is_locked": false,
+  "experiment_title": "Bed Rest Standard Measures: Glucose Breath Test",
+  "__source_key": "cl62b0506cdjt01o61c871wdc",
+  "experiment_type": [
+   [
+    "Flight Analogs Project (FAP)"
+   ],
+   [
+    "NASA Bedrest Studies"
+   ],
+   [
+    "NASA Ground-Based Investigations"
+   ]
+  ],
+  "AssignedArchivist": [
+   "None Selected",
+   "[\"Nyaia Arzella NaTerrica Liddell\",\"Nyaia Arzella Liddell\"]"
+  ],
+  "keyword": [
+   "Pharmacokinetics",
+   "Gastrointestinal system",
+   "Glucose",
+   "Nutrition"
+  ],
+  "__record_version": 31,
+  "indexed": "2026-08-23T04:18:50.495238+00:00",
+  "GUID": "cl62b0506cdjt01o61c871wdc",
+  "_file_extension": "human",
+  "archive_status": "Data preservation is complete.  All datasets are publicly available.",
+  "__model_type": "lsda_experiment",
+  "__dirid": "8aae3ece-7d06-5078-8b48-ec84eb633833",
+  "__record_size_wo_doccontent": 27867,
+  "__update_method": "Update CDM",
+  "experiment_identifier": [
+   "BRSMGBT"
+  ],
+  "CompleteArchivalExpectedInFiscalYear": [
+   "0"
+  ],
+  "experiment_type_lk": [
+   "Flight Analogs Project (FAP)",
+   "NASA Bedrest Studies",
+   "NASA Ground-Based Investigations"
+  ],
+  "__record_modified_date": "2026-08-23T04:18:50.495238+00:00",
+  "__indexed": "2026-08-23T04:18:50.495238+00:00",
+  "__record_creation_date": "2022-07-28T19:57:25.403Z",
+  "__record_size": 27867,
+  "species_strain": [
+   [
+    "N/A"
+   ]
+  ],
+  "__model_version": 60,
+  "species_sci_name": [
+   [
+    "Homo sapiens"
+   ]
+  ],
+  "payload_id": [
+   "Campaign 3",
+   "Campaign 1"
+  ],
+  "CombinedSpecies": [
+   "Human (Homo sapiens) N/A"
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "ncindex": 2,
+  "researchIndex": [
+   10,
+   20
+  ],
+  "experiment_id": "BRSMGBT",
+  "experiment_related": [
+   "BRSMUBT",
+   "BRSMLac",
+   "BRSMAcet"
+  ],
+  "parameter_name": [
+   "Bacterial overgrowth",
+   "Hepatic function",
+   "Hydrogen",
+   "Nutrient absorption",
+   "Nutrient balance",
+   "Renal function"
+  ],
+  "exp_index": 1112,
+  "research_area": [
+   "Gastrointestinal physiology",
+   "Pharmacology"
+  ],
+  "species": [
+   [
+    "Human"
+   ]
+  ],
+  "pme_role_with_name": [
+   "Principal Investigator: Putcha, Lakshmi"
+  ],
+  "missions": [
+   "UTMB Campaign 3",
+   "UTMB Campaign 1"
+  ],
+  "PI": [
+   "Putcha, Lakshmi"
+  ],
+  "sort": [
+   3,
+   "c2f57154-6f3d-541a-8213-c652a63a9b4f"
+  ],
+  "Program": "Ground",
+  "parameter_html": "<table><tr><td>Bacterial overgrowth</td></tr><tr><td>Hepatic function</td></tr><tr><td>Hydrogen</td></tr><tr><td>Nutrient absorption</td></tr><tr><td>Nutrient balance</td></tr><tr><td>Renal function</td></tr><tr></tr></table>",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Putcha, Lakshmi\">Principal Investigator: Putcha, Lakshmi</a>",
+  "PrincipalInvestigator": [
+   "Putcha, Lakshmi"
+  ],
+  "mission_id": [
+   "UTMB Campaign 3",
+   "UTMB Campaign 1"
+  ],
+  "__source_field_concat": "human cl62b0506cdjt01o61c871wdc Bed Rest Standard Measures: Glucose Breath Test BRSMGBT Ground Data preservation is complete.  All datasets are publicly available.",
+  "__icon_type": "",
+  "__description": "",
+  "__doi": "10.83263/kr2r-gr18",
+  "__doi_record_creation_date": "2026-08-23T04:18:50",
+  "__doi_record_modified_date": "2026-08-23T04:18:50"
+ },
+ "datasets": [
+  {
+   "key": "64103048-924f-5d51-b9b1-cdf606aa2316",
+   "label": "BRSMGBT_Campaign_1_Glucose_Breath_Test",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "UTMB Bedrest Campaign 1 Glucose Breath Test",
+    "dataset_catalog": "BRSMGBT_Campaign_1_Glucose_Breath_Test",
+    "dataset_description": "This dataset contains data for all Campaign 1 subjects for the Bed Rest Standard Measure Glucose Breath Test (BRSMGBT) study. Data collection sessions for this measure were performed once pre-bed rest, three times during bed rest, and one time post bed rest. Breath samples were taken during the data collection sessions to determine hydrogen and methane levels at nine separate intervals over a period of 120 minutes for all subjects in this study.",
+    "processing_level": "Processed Data",
+    "experiment_id": [
+     "BRSMGBT"
+    ]
+   },
+   "meta": "9 files \u00b7 175.4 KB",
+   "date": "2025-04-15",
+   "children": [
+    {
+     "key": "f716bb01-323d-584a-9e4c-ceec21de21ea",
+     "label": "BRSMGBT_Campaign_1_Glucose_Breath_Test_ReadMe",
+     "type": "file",
+     "ext": "",
+     "file_size": 93,
+     "meta": "93 B",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4d2f53d3-313e-56e4-8fc4-e21eb8b682e3",
+     "label": "BRSMGBT_Campaign_1_Glucose_Breath_Test",
+     "type": "file",
+     "ext": "",
+     "file_size": 769,
+     "meta": "769 B",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4d7edd05-ab6f-5a27-bbf4-91cf1785c8ba",
+     "label": "BRSMGBT_Campaign_1_Glucose_Breath_Test_Subject_3",
+     "type": "file",
+     "ext": "",
+     "file_size": 1873,
+     "meta": "1.8 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f640f28e-0967-5fee-b81a-2266097da410",
+     "label": "BRSMGBT_Campaign_1_Glucose_Breath_Test_All",
+     "type": "file",
+     "ext": "",
+     "file_size": 6316,
+     "meta": "6.2 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8bd88eca-850d-5c4a-a48d-3cb1b97b5754",
+     "label": "BRSMGBT_Campaign_1_Glucose_Breath_Test_GBT_Subject_1",
+     "type": "file",
+     "ext": "",
+     "file_size": 50868,
+     "meta": "49.7 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8fd346c9-3257-5e45-89fc-e4e5c8b7edc4",
+     "label": "BRSMGBT_Campaign_1_Glucose_Breath_Test_Subject_1",
+     "type": "file",
+     "ext": "",
+     "file_size": 2076,
+     "meta": "2.0 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6447b5ca-afbd-54a1-80e0-48aeeac9192b",
+     "label": "BRSMGBT_Campaign_1_Glucose_Breath_Test_GBT_Subject_3",
+     "type": "file",
+     "ext": "",
+     "file_size": 51139,
+     "meta": "49.9 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2c15e1f5-7b11-5c5f-8ae9-e249469a880b",
+     "label": "BRSMGBT_Campaign_1_Glucose_Breath_Test_GBT_Subject_2",
+     "type": "file",
+     "ext": "",
+     "file_size": 64046,
+     "meta": "62.5 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "755cacde-65d2-5698-bfc1-caf4288d0dc0",
+     "label": "BRSMGBT_Campaign_1_Glucose_Breath_Test_Subject_2",
+     "type": "file",
+     "ext": "",
+     "file_size": 2386,
+     "meta": "2.3 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,159 @@
+{
+ "record": {
+  "id": "26cb94cf-f834-59aa-a94c-821cf3b78976",
+  "_id": "26cb94cf-f834-59aa-a94c-821cf3b78976",
+  "experiment_title": "Effective Dose Measurement during EVA",
+  "archive_status_index": 1,
+  "pub_document_number": "ARCPUB000359",
+  "experiment_alias": [
+   "Dosimetry"
+  ],
+  "parameter_html": "<table><tr><td>Absorbed dose</td></tr><tr><td>Radiation, equivalent dose</td></tr><tr><td>Radiation weighting factor</td></tr><tr></tr></table>",
+  "__source_key": "cl62aucincb7s01o63p6zairb",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Deme, Sandor\">Principal Investigator: Deme, Sandor</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Apathy, Istvan\">Co-Investigator: Apathy, Istvan</a>",
+  "experiment_type_lk": [
+   "NASA-Mir Program"
+  ],
+  "__record_modified_date": "2026-08-23T03:58:06.181304+00:00",
+  "__indexed": "2026-08-23T03:58:06.181304+00:00",
+  "alias": [
+   "Dosimetry"
+  ],
+  "__record_creation_date": "2022-07-28T19:41:16.505Z",
+  "keyword": [
+   "Linear energy transfer (LET)",
+   "Protons",
+   "Dose-response relationship, radiation",
+   "Solar activity",
+   "Radiation dosage",
+   "Thermoluminescent dosimetry",
+   "South America",
+   "Radiation protection",
+   "Cosmic radiation",
+   "Extravehicular activity"
+  ],
+  "keyword_name": "Extravehicular activity",
+  "__record_size": 74431,
+  "__record_version": 29,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<BR>\r\nOne of the many risks of long-duration space flights is the dose burden from cosmic radiation, especially at times of maximum solar activity. At such times, for instance during an extravehicular activity (EVA) when the wall of the spacecraft is not there to protect the astronauts, cosmic radiation poses a potentially serious health threat. Accurate dose measurement as well as the measurements of the ratio of low to high linear energy transfer (LET) dose components will become increasingly important in forthcoming years during the assembly of large orbital stations. Therefore an onboard thermoluminescent dosimeter (TLD) system capable of providing such measurements offers a solution for EVA dosimetry. \r\n<P>\r\nAPPROACH:<br>\r\nThe TLD system used during the NASA 4 mission (Pille '96 system), was a modified version of the Pille '95 TLD system used by the European Space Agency (ESA) during the Euromir '95 mission. The difference between the units was that the sensitivity of the reader was enhanced, due to the short duration of most EVAs. Also, the LiF TLD with a linear heating profile was introduced with this system to ensure effective LET measurement using the high temperature region (HTR) method. \r\n<P>\r\nThe TLD system was brought to Mir aboard STS-81 and recorded environmental space radiation measurements until May 6, 1997. The TLD system consisted of a portable TLD reader (Pille '96) and eight individual dosimeters. Seven TLDs were mounted at locations throughout the base block, two of which were used on one occasion to record radiation dose during an EVA. TLDs were removed from their respective locations and analyzed using the TLD reader at eight separate times during the mission. The memory card from the TLD reader was returned to the ground at the end of the mission for further analysis. This experiment was also scheduled to be performed during NASA 5. However, the TLD reader was located in the Spektr module which was damaged on June 25, 1997, and thus became inaccessible. This incident resulted in no data being collected for the NASA 5 mission. \r\n<P>\r\nRESULTS:<br>\r\nThe dose rate (10.0 mGy/h) measured by an individual dosimeter on the astronaut was significantly lower than the mean value of the other three dosimeters (15.0 mGy/h) located at the working area and sleeping cabin. This result must have been caused by the unilateral shielding effect of the body of the astronaut. Justification of the results requires either model calculations or onboard phantom measurements. \r\n<P>\r\nThree of the dosimeters (1A, 2A and 3A) were located at the same place as Area Passive Dosimeters (APDs) exposed during the NASA 2 mission (NMA-1, NMA-2 and NMA-3). The dose rate ratios (TLDs/APD) are:\r\n<P>\r\n\r\n<LI>For dosimeter 1A: 15.1/13.6=1.11\r\n<LI>For dosimeter 2A: 11.6/12.0=0.96\r\n<LI>For dosimeter 3A: 18.3/17.0=1.08\r\n<LI>The mean ratio is 1.05.\r\n<P>\r\nThese results show that the radiation situation remained virtually unchanged. \r\n<P>\r\nThe extra dose due to EVA was compared to the dose measured inside, and showed that the mean ratio, EVA/inside, without any correction is 4.2. Results from the Euromir '95 mission have been used for correcting the effect of higher background radiation inside the space station due to the South Atlantic Anomaly (SAA). The corrected EVA/inside dose rate ratio is 3.15. \r\n<P>\r\nThe glow curves from LiF-TLDs exposed on Mir Space Station show significantly enhanced high temperature TL-emission compared to glowcurves after 137Cs irradiation. According to the calibrations the estimated mean LET value was 7.5 \u00b1 1 keV/mm. <END>",
+  "payload_id": "NASA 4",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "9401704",
+  "indexed": "2026-08-23T03:58:06.181304+00:00",
+  "GUID": "cl62aucincb7s01o63p6zairb",
+  "parameter_name": [
+   "Absorbed dose",
+   "Radiation, equivalent dose",
+   "Radiation weighting factor"
+  ],
+  "exp_index": 750,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Radiation biology"
+  ],
+  "pme_role_with_name": [
+   "Co-Investigator: Apathy, Istvan",
+   "Principal Investigator: Deme, Sandor"
+  ],
+  "missions": [
+   [
+    [
+     "NASA 4"
+    ]
+   ],
+   [
+    [
+     "NASA 5"
+    ]
+   ]
+  ],
+  "__dirid": "26cb94cf-f834-59aa-a94c-821cf3b78976",
+  "__record_size_wo_doccontent": 74431,
+  "PI": [
+   "Deme, Sandor"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "9401704",
+   "Dosimetry"
+  ],
+  "mission_id": [
+   [
+    [
+     "NASA 4"
+    ]
+   ],
+   [
+    [
+     "NASA 5"
+    ]
+   ]
+  ],
+  "center": [
+   "Ames Research Center"
+  ],
+  "ncindex": [
+   7
+  ],
+  "proposal_date": [],
+  "proposal_source": [],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Deme, Sandor"
+  ],
+  "archive_status": "Data preservation is complete. All datasets are publicly available.",
+  "__is_locked": false,
+  "Program": "Nasa-Mir",
+  "__source_field_concat": "ARCPUB000359 NASA 4 cl62aucincb7s01o63p6zairb Extravehicular activity Effective Dose Measurement during EVA 9401704 Nasa-Mir Data preservation is complete. All datasets are publicly available.",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<BR>\r\nOne of the many risks of long-duration space flights is the dose burden from cosmic radiation, especially at times of maximum solar activity. At such times, for instance during an extravehicular activity (EVA) when the wall of the spacecraft is not there to protect the astronauts, cosmic radiation poses a potentially serious health threat. Accurate dose measurement as well as the measurements of the ratio of low to high linear energy transfer (LET) dose components will become increasingly important in forthcoming years during the assembly of large orbital stations. Therefore an onboard thermoluminescent dosimeter (TLD) system capable of providing such measurements offers a solution for EVA dosimetry. \r\n<P>\r\nAPPROACH:<br>\r\nThe TLD system used during the NASA 4 mission (Pille '96 system), was a modified version of the Pille '95 TLD system used by the European Space Agency (ESA) during the Euromir '95 mission. The difference between the units was that the sensitivity of the reader was enhanced, due to the short duration of most EVAs. Also, the LiF TLD with a linear heating profile was introduced with this system to ensure effective LET measurement using the high temperature region (HTR) method. \r\n<P>\r\nThe TLD system was brought to Mir aboard STS-81 and recorded environmental space radiation measurements until May 6, 1997. The TLD system consisted of a portable TLD reader (Pille '96) and eight individual dosimeters. Seven TLDs were mounted at locations throughout the base block, two of which were used on one occasion to record radiation dose during an EVA. TLDs were removed from their respective locations and analyzed using the TLD reader at eight separate times during the mission. The memory card from the TLD reader was returned to the ground at the end of the mission for further analysis. This experiment was also scheduled to be performed during NASA 5. However, the TLD reader was located in the Spektr module which was damaged on June 25, 1997, and thus became inaccessible. This incident resulted in no data being collected for the NASA 5 mission. \r\n<P>\r\nRESULTS:<br>\r\nThe dose rate (10.0 mGy/h) measured by an individual dosimeter on the astronaut was significantly lower than the mean value of the other three dosimeters (15.0 mGy/h) located at the working area and sleeping cabin. This result must have been caused by the unilateral shielding effect of the body of the astronaut. Justification of the results requires either model calculations or onboard phantom measurements. \r\n<P>\r\nThree of the dosimeters (1A, 2A and 3A) were located at the same place as Area Passive Dosimeters (APDs) exposed during the NASA 2 mission (NMA-1, NMA-2 and NMA-3). The dose rate ratios (TLDs/APD) are:\r\n<P>\r\n\r\n<LI>For dosimeter 1A: 15.1/13.6=1.11\r\n<LI>For dosimeter 2A: 11.6/12.0=0.96\r\n<LI>For dosimeter 3A: 18.3/17.0=1.08\r\n<LI>The mean ratio is 1.05.\r\n<P>\r\nThese results show that the radiation situation remained virtually unchanged. \r\n<P>\r\nThe extra dose due to EVA was compared to the dose measured inside, and showed that the mean ratio, EVA/inside, without any correction is 4.2. Results from the Euromir '95 mission have been used for correcting the effect of higher background radiation inside the space station due to the South Atlantic Anomaly (SAA). The corrected EVA/inside dose rate ratio is 3.15. \r\n<P>\r\nThe glow curves from LiF-TLDs exposed on Mir Space Station show significantly enhanced high temperature TL-emission compared to glowcurves after 137Cs irradiation. According to the calibrations the estimated mean LET value was 7.5 \u00b1 1 keV/mm. <END>",
+  "__doi": "10.83263/dt6j-1997",
+  "__doi_record_creation_date": "2026-08-23T03:58:06",
+  "__doi_record_modified_date": "2026-08-23T03:58:06"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001498",
+   "label": "9401704__2650450604",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Radiation Data Collected as part of 9401704",
+    "dataset_catalog": "9401704__2650450604",
+    "dataset_description": [
+     "Data represented are:<BR>\r\n<LI>Locations of  Thermoluminescent Detectors (TLDs) Inside Mir Core Module\r\n<LI>Weekly readout of absorbed dose\r\n<LI>Extra Dose Due to South Atlantic Anomaly (SAA) Crossing\r\n<LI>LiF High Temperature Region (HTR) Due to Irradiation Onboard the Mir Station\r\n<LI>Extra Vehicular Activity (EVA) Absorbed Dose Rates\r\n<LI>Dose and Relative Ratio of High Temperature Region (HTR) Measured With LiF Dosimeters\r\n<LI>Data Collection Timetable"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "9401704"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "c15e4e90-621d-577e-81d1-d252ca4137aa",
+     "label": "9401704__2650450604.xlsx_NASA_4_9401704_2013_265_050923.xlsx",
+     "type": "file",
+     "ext": "xlsx",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

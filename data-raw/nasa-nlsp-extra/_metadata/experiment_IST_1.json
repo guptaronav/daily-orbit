@@ -1,0 +1,174 @@
+{
+ "record": {
+  "id": "1c32aa16-6107-53dd-b2ca-4fa55805b9bf",
+  "_id": "1c32aa16-6107-53dd-b2ca-4fa55805b9bf",
+  "experiment_title": "Constellation Program (CxP) EVA Systems Test 1 - Metabolic Costs and Biomechanics of a Planetary Suit",
+  "archive_status_index": 2,
+  "pub_document_number": "PUB001964",
+  "parameter_html": "<table><tr><td>Cadence</td></tr><tr><td>Gravity compensation and performance scale (GCPS)</td></tr><tr><td>Gravity level</td></tr><tr><td>Locomotion speed</td></tr><tr><td>Metabolic cost</td></tr><tr><td>Metabolic rate</td></tr><tr><td>Oxygen consumption (VO2)</td></tr><tr><td>Rating of perceived exertion (RPE)</td></tr><tr><td>Speed</td></tr><tr><td>Stance time</td></tr><tr><td>Suit pressure</td></tr><tr><td>Total gravity adjusted weight (TGAW)</td></tr><tr><td>Body mass, unsuited</td></tr><tr><td>Peak ground reaction force</td></tr><tr><td>Leg length</td></tr><tr><td>Ankle range of motion</td></tr><tr><td>Hip range of motion</td></tr><tr><td>Knee range of motion</td></tr><tr></tr></table>",
+  "__source_key": "cl62b096ccdkt01o6932ebxrf",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Gernhardt, Michael\">Principal Investigator: Gernhardt, Michael</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Desantis, Lena\">Co-Investigator: Desantis, Lena</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Harvill, Lauren\">Co-Investigator: Harvill, Lauren</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Morency, Richard\">Co-Investigator: Morency, Richard</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Norcross, Jason\">Co-Investigator: Norcross, Jason</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Stroud, Leah\">Co-Investigator: Stroud, Leah</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Vos, Jessica\">Co-Investigator: Vos, Jessica</a>",
+  "image_name": [
+   "Mark III Space Suit",
+   "Shirtsleeve Harness",
+   "VacuMed Oversized Treadmill",
+   "Varied Mass Test",
+   "Varied Pressure Test",
+   "X-Vest"
+  ],
+  "experiment_type_lk": [
+   "NASA Ground-Based Investigations"
+  ],
+  "__record_modified_date": "2026-08-23T04:16:36.508035+00:00",
+  "__indexed": "2026-08-23T04:16:36.508035+00:00",
+  "__record_creation_date": "2022-07-28T20:01:01.841Z",
+  "keyword": [
+   "Extravehicular activity",
+   "Oxygen consumption"
+  ],
+  "keyword_name": "Oxygen consumption",
+  "__record_size": 150773,
+  "__record_version": 30,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<br>\r\nThe Constellation Program (CxP) EVA Systems Project Office (ESPO), which is developing design requirements for the next-generation lunar EVA suit, initiated a series of tests, working with the extravehicular activities (EVA) Physiology, Systems, and Performance (EPSP) Project and the Anthropometry and Biomechanics Facility (ABF) aimed at understanding human performance and suit kinematics under a variety of simulated lunar EVA conditions. These studies included matched unsuited controls in an attempt to identify the specific metabolic costs and biomechanics of the prototype Mark III Advanced Spacesuit Technology Demonstrator (MKIII). A primary goal of the overall test series is to provide evidence-based recommendations for suit mass, center of gravity (CG), pressure, and suit kinematic constraints that optimize human performance in partial gravity environments. Results of this test series will also be combined with studies in other lunar analogs to evaluate the effectiveness and limitations of these environments.\r\n<p>\r\nThe first of these studies, the EVA Walkback Test (EWT), was conducted using the Partial Gravity Simulator, nicknamed, POGO in the Space Vehicle Mock-up Facility (SVMF) at NASA's Johnson Space Center (JSC) and the Mark III (MKIII) spacesuit. The MKIII was used as it represents a suit concept that provides the dynamic ranges of motion considered necessary for a wide variety of planetary tasks. Results from the EWT showed initial estimates for the total metabolic cost of suited locomotion in the reduced-gravity environments of the moon (1/6-g) and Mars (3/8-g) as well as preliminary biomechanical parameters. For this study, Integrated Suit Test-1 (IST-1), the suited conditions had a constant CG location and suit mass while the suit offload (weight), pressure, and suit kinematic constraints (waist rotation mobility locked versus unlocked) were varied to determine their individual effects on lunar ambulation. For unsuited conditions, either the subject\u2019s mass was held constant while the offload was varied or the subject\u2019s weight was held constant while the subject\u2019s mass was varied. \r\n<p>\r\nThe purpose of IST-1 was to expand on the initial findings from the energy-velocity tests of the EWT. Specifically, the primary objectives of this test were:<ol>\r\n<li>Identify the individual contributions of weight, mass, pressure, and suit kinematics to the overall metabolic cost of the MKIII suit in its POGO configuration (121 kg [265 lb], including the mass of the Portable Life Support System (PLSS) mockup and gimbal, 29.6 kPa [4.3 psi]), during lunar ambulation.<br>\r\n<li> Quantify the effects of the following factors on suited and/or unsuited metabolic rate, biomechanics, and subjective ratings during level ground ambulation at varied speeds:<br>\r\na. Suited \u2013 varied suit pressure at constant offload, mass, and CG<br>\r\nb. Suited \u2013 varied suit offload (weight) at constant pressure, mass, and CG<br>\r\nc. Unsuited \u2013 varied offload (weight) at constant mass and CG<br>\r\nd. Unsuited \u2013 varied mass at constant offload and CG<br>\r\n<li> Compare the MKIII at POGO configuration to the MKIII at POGO configuration with the waist bearing locked.\r\n<li>Develop predictive models of metabolic rate, subjective ratings, and suit kinematics based on measurable suit, task, and subject parameters.</ol>\r\n<p>\r\nBeyond the primary objectives, additional scientific and engineering objectives and/or applications of IST-1 data were:<ol>\r\n<li>Define standard measures and protocols for objectively evaluating future exploration suit candidates and requirements verification of the flight suit.\r\n<li>Understand specific human performance limitations of the suit compared to matched shirtsleeve controls.\r\n<li>Collect metabolic and ground-reaction force data to develop an EVA simulator for use on future pre-breathe protocol verification tests.\r\n<li>Provide data to estimate consumables usage for input to suit and PLSS design.\r\n<li> Assess the cardiovascular and resistance exercise associated with partial-gravity EVA for planning appropriate exploration exercise countermeasures.</ol>\r\n<p>\r\nAPPROACH:<br>\r\nSubjects were recruited from a pool of personnel who typically perform EVA-suited studies for the JSC Engineering Directorate and from the group of astronauts selected to support exploration EVA studies. Suit fit checks in the MKIII suit were performed on a range of subjects, and only those who had good suit fit were considered for inclusion in this study because of potential medical safety issues. From this list, six male astronaut subjects participated in the data collection phases of the study. One additional subject performed the peak oxygen consumption (VO2pk) test, but did not complete the data collection sessions because of poor suit fit. At the time of testing, no available female astronauts properly fit in the MKIII suit.\r\n<p>\r\nTo compare energy expenditure across the different conditions planned for this test, subjects performed a graded treadmill exercise test to determine their aerobic capacity via measurement of VO2pk. The test began with a 5-minute warm-up at 1.56 m.s<sup>\u20131</sup> followed by three stages lasting three minutes each on a level surface, starting at 2.68 m.s<sup>\u20131</sup> and increasing 0.45 m.s<sup>\u20131</sup> at the start of each new stage. After the third stage, the speed remained the same and the incline on the treadmill surface was increased 3% at the start of each subsequent minute. Subjects continued exercising through these stages as long as possible, to maximal effort. VO2pk and peak heart rate were determined by the highest 1-minute average attained during the test. From the VO2pk, measured levels of energy expenditure during subsequent test sessions can be evaluated as percentages of VO2pk to ensure subject safety and allow valid relative comparisons among subjects. \r\n<p>\r\nEach subject donned the MKIII suit with initial pressure of 29.6 kPa (4.3 psi) and in-suit oxygen concentration of 21% provided via certified breathing air as is customary during EVA test operations with the MKIII suit. Each subject translated on a level treadmill (0% grade) for three minutes at each of the six prescribed velocities while the POGO system provided partial weight relief to simulate lunar gravity. Subjects completed the ambulation trials at each of five different suit pressures: 6.9, 20.7, 29.6, 34.5, and 44.8 kPa (1.0, 3.0, 4.3, 5.0, and 6.5 psi). Varied pressure trial order was balanced. Suit mass was constant at 121 kg in these trials. \r\n<p>\r\nRESULTS:<br>\r\nThe unsuited baseline metabolic cost was consistently the largest component of the model at about 60% of total metabolic cost with the other components variable. The absolute metabolic cost of pressure-volume work at 29.6 kPa (4.3 psi) slowly increased with increasing speeds, but did drop at the fastest speed. The metabolic cost of weight steadily increased as speed increased, but the proportion of metabolic cost plateaued at 14%. As the metabolic cost of weight increased, the cost of the other factors decreased, indicating there are variable trends among the other factors. \r\n<p>\r\nChanges in suit pressure exhibited minimal changes in selected biomechanical variables. Mean peak ground reaction force (GRF) increased with increasing speed, but showed no observable trends with change in pressure. Temporal spatial gait parameters, including percentage of stance time, step width, and cadence, demonstrated no observable changes with changes in suit pressure. The joint ranges of motion for the hip, knee, and ankle showed increases with increasing speed, similar to GRF, but there was no consistent effect in varying pressure.  Overall, these findings suggest that as suit pressure increases, the average joint ROM in the hip, knee, and ankle does not change significantly, which supports the observation that metabolic rate  is essentially unchanged by suit pressure. Different suit designs with different joint designs and sequencing might be affected differently by suit pressure.\r\n<p>",
+  "payload_id": "EPSP",
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "IST_1",
+  "indexed": "2026-08-23T04:16:36.508035+00:00",
+  "experiment_related": [
+   "IST_C9",
+   "IST_3",
+   "IST_2",
+   "EWT"
+  ],
+  "GUID": "cl62b096ccdkt01o6932ebxrf",
+  "parameter_name": [
+   "Cadence",
+   "Gravity compensation and performance scale (GCPS)",
+   "Gravity level",
+   "Locomotion speed",
+   "Metabolic cost",
+   "Metabolic rate",
+   "Oxygen consumption (VO2)",
+   "Rating of perceived exertion (RPE)",
+   "Speed",
+   "Stance time",
+   "Suit pressure",
+   "Total gravity adjusted weight (TGAW)",
+   "Body mass, unsuited",
+   "Peak ground reaction force",
+   "Leg length",
+   "Ankle range of motion",
+   "Hip range of motion",
+   "Knee range of motion"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 1794,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Extravehicular Activity (EVA)",
+   "Biomedical countermeasures",
+   "Technology development"
+  ],
+  "pme_role_with_name": [
+   "Co-Investigator: Desantis, Lena",
+   "Co-Investigator: Harvill, Lauren",
+   "Co-Investigator: Morency, Richard",
+   "Co-Investigator: Norcross, Jason",
+   "Co-Investigator: Stroud, Leah",
+   "Co-Investigator: Vos, Jessica",
+   "Principal Investigator: Gernhardt, Michael"
+  ],
+  "missions": [
+   [
+    [
+     "EPSP"
+    ]
+   ]
+  ],
+  "__dirid": "1c32aa16-6107-53dd-b2ca-4fa55805b9bf",
+  "__record_size_wo_doccontent": 150773,
+  "PI": [
+   "Gernhardt, Michael"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "IST_1"
+  ],
+  "mission_id": [
+   [
+    [
+     "EPSP"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "proposal_date": [],
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens)"
+   ]
+  ],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Gernhardt, Michael"
+  ],
+  "program_name": [
+   "Constellation"
+  ],
+  "archive_status": "Data preservation is complete. Privacy-protected datasets are available via data request. Remaining datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Constellation",
+  "__source_field_concat": "PUB001964 EPSP cl62b096ccdkt01o6932ebxrf Oxygen consumption  N/A IST_1 Constellation",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<br>\r\nThe Constellation Program (CxP) EVA Systems Project Office (ESPO), which is developing design requirements for the next-generation lunar EVA suit, initiated a series of tests, working with the extravehicular activities (EVA) Physiology, Systems, and Performance (EPSP) Project and the Anthropometry and Biomechanics Facility (ABF) aimed at understanding human performance and suit kinematics under a variety of simulated lunar EVA conditions. These studies included matched unsuited controls in an attempt to identify the specific metabolic costs and biomechanics of the prototype Mark III Advanced Spacesuit Technology Demonstrator (MKIII). A primary goal of the overall test series is to provide evidence-based recommendations for suit mass, center of gravity (CG), pressure, and suit kinematic constraints that optimize human performance in partial gravity environments. Results of this test series will also be combined with studies in other lunar analogs to evaluate the effectiveness and limitations of these environments.\r\n<p>\r\nThe first of these studies, the EVA Walkback Test (EWT), was conducted using the Partial Gravity Simulator, nicknamed, POGO in the Space Vehicle Mock-up Facility (SVMF) at NASA's Johnson Space Center (JSC) and the Mark III (MKIII) spacesuit. The MKIII was used as it represents a suit concept that provides the dynamic ranges of motion considered necessary for a wide variety of planetary tasks. Results from the EWT showed initial estimates for the total metabolic cost of suited locomotion in the reduced-gravity environments of the moon (1/6-g) and Mars (3/8-g) as well as preliminary biomechanical parameters. For this study, Integrated Suit Test-1 (IST-1), the suited conditions had a constant CG location and suit mass while the suit offload (weight), pressure, and suit kinematic constraints (waist rotation mobility locked versus unlocked) were varied to determine their individual effects on lunar ambulation. For unsuited conditions, either the subject\u2019s mass was held constant while the offload was varied or the subject\u2019s weight was held constant while the subject\u2019s mass was varied. \r\n<p>\r\nThe purpose of IST-1 was to expand on the initial findings from the energy-velocity tests of the EWT. Specifically, the primary objectives of this test were:<ol>\r\n<li>Identify the individual contributions of weight, mass, pressure, and suit kinematics to the overall metabolic cost of the MKIII suit in its POGO configuration (121 kg [265 lb], including the mass of the Portable Life Support System (PLSS) mockup and gimbal, 29.6 kPa [4.3 psi]), during lunar ambulation.<br>\r\n<li> Quantify the effects of the following factors on suited and/or unsuited metabolic rate, biomechanics, and subjective ratings during level ground ambulation at varied speeds:<br>\r\na. Suited \u2013 varied suit pressure at constant offload, mass, and CG<br>\r\nb. Suited \u2013 varied suit offload (weight) at constant pressure, mass, and CG<br>\r\nc. Unsuited \u2013 varied offload (weight) at constant mass and CG<br>\r\nd. Unsuited \u2013 varied mass at constant offload and CG<br>\r\n<li> Compare the MKIII at POGO configuration to the MKIII at POGO configuration with the waist bearing locked.\r\n<li>Develop predictive models of metabolic rate, subjective ratings, and suit kinematics based on measurable suit, task, and subject parameters.</ol>\r\n<p>\r\nBeyond the primary objectives, additional scientific and engineering objectives and/or applications of IST-1 data were:<ol>\r\n<li>Define standard measures and protocols for objectively evaluating future exploration suit candidates and requirements verification of the flight suit.\r\n<li>Understand specific human performance limitations of the suit compared to matched shirtsleeve controls.\r\n<li>Collect metabolic and ground-reaction force data to develop an EVA simulator for use on future pre-breathe protocol verification tests.\r\n<li>Provide data to estimate consumables usage for input to suit and PLSS design.\r\n<li> Assess the cardiovascular and resistance exercise associated with partial-gravity EVA for planning appropriate exploration exercise countermeasures.</ol>\r\n<p>\r\nAPPROACH:<br>\r\nSubjects were recruited from a pool of personnel who typically perform EVA-suited studies for the JSC Engineering Directorate and from the group of astronauts selected to support exploration EVA studies. Suit fit checks in the MKIII suit were performed on a range of subjects, and only those who had good suit fit were considered for inclusion in this study because of potential medical safety issues. From this list, six male astronaut subjects participated in the data collection phases of the study. One additional subject performed the peak oxygen consumption (VO2pk) test, but did not complete the data collection sessions because of poor suit fit. At the time of testing, no available female astronauts properly fit in the MKIII suit.\r\n<p>\r\nTo compare energy expenditure across the different conditions planned for this test, subjects performed a graded treadmill exercise test to determine their aerobic capacity via measurement of VO2pk. The test began with a 5-minute warm-up at 1.56 m.s<sup>\u20131</sup> followed by three stages lasting three minutes each on a level surface, starting at 2.68 m.s<sup>\u20131</sup> and increasing 0.45 m.s<sup>\u20131</sup> at the start of each new stage. After the third stage, the speed remained the same and the incline on the treadmill surface was increased 3% at the start of each subsequent minute. Subjects continued exercising through these stages as long as possible, to maximal effort. VO2pk and peak heart rate were determined by the highest 1-minute average attained during the test. From the VO2pk, measured levels of energy expenditure during subsequent test sessions can be evaluated as percentages of VO2pk to ensure subject safety and allow valid relative comparisons among subjects. \r\n<p>\r\nEach subject donned the MKIII suit with initial pressure of 29.6 kPa (4.3 psi) and in-suit oxygen concentration of 21% provided via certified breathing air as is customary during EVA test operations with the MKIII suit. Each subject translated on a level treadmill (0% grade) for three minutes at each of the six prescribed velocities while the POGO system provided partial weight relief to simulate lunar gravity. Subjects completed the ambulation trials at each of five different suit pressures: 6.9, 20.7, 29.6, 34.5, and 44.8 kPa (1.0, 3.0, 4.3, 5.0, and 6.5 psi). Varied pressure trial order was balanced. Suit mass was constant at 121 kg in these trials. \r\n<p>\r\nRESULTS:<br>\r\nThe unsuited baseline metabolic cost was consistently the largest component of the model at about 60% of total metabolic cost with the other components variable. The absolute metabolic cost of pressure-volume work at 29.6 kPa (4.3 psi) slowly increased with increasing speeds, but did drop at the fastest speed. The metabolic cost of weight steadily increased as speed increased, but the proportion of metabolic cost plateaued at 14%. As the metabolic cost of weight increased, the cost of the other factors decreased, indicating there are variable trends among the other factors. \r\n<p>\r\nChanges in suit pressure exhibited minimal changes in selected biomechanical variables. Mean peak ground reaction force (GRF) increased with increasing speed, but showed no observable trends with change in pressure. Temporal spatial gait parameters, including percentage of stance time, step width, and cadence, demonstrated no observable changes with changes in suit pressure. The joint ranges of motion for the hip, knee, and ankle showed increases with increasing speed, similar to GRF, but there was no consistent effect in varying pressure.  Overall, these findings suggest that as suit pressure increases, the average joint ROM in the hip, knee, and ankle does not change significantly, which supports the observation that metabolic rate  is essentially unchanged by suit pressure. Different suit designs with different joint designs and sequencing might be affected differently by suit pressure.\r\n<p>",
+  "__doi": "10.83263/4y2z-z810",
+  "__doi_record_creation_date": "2026-08-23T04:16:36",
+  "__doi_record_modified_date": "2026-08-23T04:16:36"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000229",
+   "label": "IST_1__340203350",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Final Report",
+    "dataset_catalog": "IST_1__340203350",
+    "dataset_description": [
+     "This is the final report titled, Metabolic Costs and Biomechanics of Level Ambulation in a Planetary Suit for the IST_1 study (NASA TP-2010-216115).  This document is publicly available.\r\n<p>\r\nSource: Original data submitted by the PI"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "IST_1"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "ecd87d5b-e33d-5932-8a46-a1c24bcd9efe",
+     "label": "IST_1__340203350.pdf_EPSP_IST_1_2012_53_050259.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

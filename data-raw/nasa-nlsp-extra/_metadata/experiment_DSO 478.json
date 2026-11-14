@@ -1,0 +1,295 @@
+{
+ "record": {
+  "id": "ecef1946-9185-53ab-9b95-07c39a7ded93",
+  "_id": "ecef1946-9185-53ab-9b95-07c39a7ded93",
+  "experiment_title": "In-Flight LBNP: Countermeasure to Reduce Post-Space Flight Orthostatic Intolerance",
+  "pub_document_number": "PUB001206",
+  "experiment_alias": [
+   "DSO 448"
+  ],
+  "parameter_html": "<table><tr><td>Diastolic blood pressure</td></tr><tr><td>Epinephrine</td></tr><tr><td>Heart rate</td></tr><tr><td>Mean arterial pressure</td></tr><tr><td>Norepinephrine</td></tr><tr><td>Pulse pressure</td></tr><tr><td>Stroke index</td></tr><tr><td>Systolic blood pressure</td></tr><tr><td>Thoracic impedance</td></tr><tr><td>Lower body negative pressure (LBNP)</td></tr><tr></tr></table>",
+  "__source_key": "cl62aynfscd7f01o60snj6hrl",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Charles, John\">Principal Investigator: Charles, John</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Bungo, Michael\">Co-Investigator: Bungo, Michael</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Fortney- Schneider, Suzanne\">Co-Investigator: Fortney- Schneider, Suzanne</a>",
+  "image_name": [
+   "American Echocardiograph Research Imaging System (AERIS)",
+   "Lower Body Negative Pressure (LBNP) Controller",
+   "Lower Body Negative Pressure (LBNP) Controller Data Flow Diagram",
+   "Lower Body Negative Pressure (LBNP) Controller Schematic",
+   "Schematic of the Lower Body Negative Pressure (LBNP) Device"
+  ],
+  "keyword": [
+   "Weightlessness countermeasures",
+   "Syncope, vasovagal",
+   "Sodium",
+   "Fluid therapy",
+   "Lower body negative pressure (LBNP)",
+   "Heart rate",
+   "Blood pressure",
+   "Hypotension, orthostatic",
+   "Blood flow velocity",
+   "Echocardiography"
+  ],
+  "keyword_name": "Echocardiography",
+  "__record_version": 29,
+  "experiment_description": "OBJECTIVES:<br>\r\nSpace flight is known to cause a shift in fluid away from the lower body and a resultant decrease in body fluid. Hypovolemia might contribute to the orthostatic intolerance that is common after space flight. However, countermeasures like oral fluid and salt loading or the use of an anti-gravity suit have not succeeded in preventing postflight orthostatic intolerance. It may be that orthostatic intolerance could be counteracted by the ingestion of isotonic saline while negative pressure is applied to the legs and abdomen to allow the plasma volume to increase. The objective of this study was to evaluate this lower body negative pressure (LBNP) and fluid loading countermeasure for use in flight.\r\n<p>\r\nAPPROACH:<br>\r\nThirteen astronauts were studied before and during space flights of 7 to 14 days. Two months or more before a flight, the astronauts' tolerance of LBNP was checked by applying LBNP in steps of 10 millimeters of mercury (mm Hg) until the astronaut showed signs of presyncope (impending fainting). Orthostatic tolerance was assessed independently of gravity in LBNP ramp tests, in which blood pressure and heart rate were monitored while the astronauts spent five minutes at each 10-mm Hg drop of pressure down to -40 to -60 mm Hg. Ramp tests were carried out before the flight as well as during the flight at three-day intervals before, and one or two days after, the LBNP countermeasure protocol, which was called a \"soak.\" A stepwise decompression (ramp) to -50 mm Hg was followed by 3.5 hours at 30 mm Hg below ambient pressure. During the first hour at -30 mm Hg, the astronauts ingested one liter of water or artificially sweetened fruit drink and eight grams of sodium chloride to provide isotonic saline. The effect of the soak treatment was evaluated by comparing heart rate and blood pressure responses to ramp tests before and after the treatment. A LBNP chamber that could be collapsed and stowed was used aboard the Shuttle. Negative pressure was provided by connecting it to a vacuum source (the Waste Collection System or the Spacelab Vacuum Vent).\r\n<p>\r\nRESULTS:<br>\r\nEvaluable data were obtained from only four astronauts. The heart rate at maximum LBNP increased significantly between preflight and early in-flight ramp tests. Decreased heart rate responses to LBNP one day after the in-flight soak indicated that it provided a protective effect. The systolic and diastolic blood pressures during maximum LBNP were not significantly different from preflight levels during any of the ramp tests or soaks. These results showed that the combination of LBNP with ingestion of isotonic saline may be an effective countermeasure against postflight orthostatic intolerance. Results also suggested that orthostatic tolerance was lost after only 10 days or less in space, and that treatments may be beneficial even during flights of short-duration. However, the countermeasure is impractical for use during Shuttle missions because one treatment of one astronaut takes approximately five hours.\r\n<p>",
+  "indexed": "2026-08-23T04:23:47.606981+00:00",
+  "GUID": "cl62aynfscd7f01o60snj6hrl",
+  "__model_type": "lsda_experiment",
+  "__dirid": "ecef1946-9185-53ab-9b95-07c39a7ded93",
+  "__record_size_wo_doccontent": 75852,
+  "__update_method": "Update CDM",
+  "archive_status_index": 4,
+  "experiment_type_lk": [
+   "Shuttle Detailed Supplementary Objectives (DSO)",
+   "Shuttle Extended Duration Orbiter Medical Project (EDOMP)"
+  ],
+  "__record_modified_date": "2026-08-23T04:23:47.606981+00:00",
+  "proposal_source": [
+   "N/A"
+  ],
+  "__indexed": "2026-08-23T04:23:47.606981+00:00",
+  "alias": [
+   "DSO 448"
+  ],
+  "__record_creation_date": "2022-07-28T20:02:40.848Z",
+  "__record_size": 75852,
+  "__model_version": 60,
+  "payload_id": "DSO32",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "DSO 478",
+  "experiment_related": [
+   "DSO 623",
+   "178140"
+  ],
+  "parameter_name": [
+   "Diastolic blood pressure",
+   "Epinephrine",
+   "Heart rate",
+   "Mean arterial pressure",
+   "Norepinephrine",
+   "Pulse pressure",
+   "Stroke index",
+   "Systolic blood pressure",
+   "Thoracic impedance",
+   "Lower body negative pressure (LBNP)"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 589,
+  "research_area": [
+   "Cardiovascular physiology"
+  ],
+  "pme_role_with_name": [
+   "Co-Investigator: Bungo, Michael",
+   "Co-Investigator: Fortney- Schneider, Suzanne",
+   "Collaborator: Lathers, Claire",
+   "Hardware Engineer: Hite, Pat",
+   "Hardware Engineer: MacNeill, Kevin",
+   "Principal Investigator: Charles, John",
+   "Project Engineer: Bowman, Mark"
+  ],
+  "missions": [
+   [
+    [
+     "STS-32"
+    ]
+   ],
+   [
+    [
+     "STS-42"
+    ]
+   ],
+   [
+    [
+     "STS-43"
+    ]
+   ],
+   [
+    [
+     "STS-44"
+    ]
+   ],
+   [
+    [
+     "STS-47"
+    ]
+   ],
+   [
+    [
+     "STS-50"
+    ]
+   ],
+   [
+    [
+     "STS-52"
+    ]
+   ]
+  ],
+  "PI": [
+   "Charles, John"
+  ],
+  "_file_extension": [],
+  "experiment_identifier": [
+   "DSO 478",
+   "DSO 448"
+  ],
+  "mission_id": [
+   [
+    [
+     "STS-32"
+    ]
+   ],
+   [
+    [
+     "STS-42"
+    ]
+   ],
+   [
+    [
+     "STS-43"
+    ]
+   ],
+   [
+    [
+     "STS-44"
+    ]
+   ],
+   [
+    [
+     "STS-47"
+    ]
+   ],
+   [
+    [
+     "STS-50"
+    ]
+   ],
+   [
+    [
+     "STS-52"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Charles, John"
+  ],
+  "archive_status": "Data preservation is complete. All datasets are privacy-protected. Data is available via data request.",
+  "__is_locked": false,
+  "Program": "Shuttle Program",
+  "__source_field_concat": "PUB001206 DSO32 cl62aynfscd7f01o60snj6hrl Echocardiography N/A In-Flight LBNP: Countermeasure to Reduce Post-Space Flight Orthostatic Intolerance DSO 478 Shuttle Program",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<br>\r\nSpace flight is known to cause a shift in fluid away from the lower body and a resultant decrease in body fluid. Hypovolemia might contribute to the orthostatic intolerance that is common after space flight. However, countermeasures like oral fluid and salt loading or the use of an anti-gravity suit have not succeeded in preventing postflight orthostatic intolerance. It may be that orthostatic intolerance could be counteracted by the ingestion of isotonic saline while negative pressure is applied to the legs and abdomen to allow the plasma volume to increase. The objective of this study was to evaluate this lower body negative pressure (LBNP) and fluid loading countermeasure for use in flight.\r\n<p>\r\nAPPROACH:<br>\r\nThirteen astronauts were studied before and during space flights of 7 to 14 days. Two months or more before a flight, the astronauts' tolerance of LBNP was checked by applying LBNP in steps of 10 millimeters of mercury (mm Hg) until the astronaut showed signs of presyncope (impending fainting). Orthostatic tolerance was assessed independently of gravity in LBNP ramp tests, in which blood pressure and heart rate were monitored while the astronauts spent five minutes at each 10-mm Hg drop of pressure down to -40 to -60 mm Hg. Ramp tests were carried out before the flight as well as during the flight at three-day intervals before, and one or two days after, the LBNP countermeasure protocol, which was called a \"soak.\" A stepwise decompression (ramp) to -50 mm Hg was followed by 3.5 hours at 30 mm Hg below ambient pressure. During the first hour at -30 mm Hg, the astronauts ingested one liter of water or artificially sweetened fruit drink and eight grams of sodium chloride to provide isotonic saline. The effect of the soak treatment was evaluated by comparing heart rate and blood pressure responses to ramp tests before and after the treatment. A LBNP chamber that could be collapsed and stowed was used aboard the Shuttle. Negative pressure was provided by connecting it to a vacuum source (the Waste Collection System or the Spacelab Vacuum Vent).\r\n<p>\r\nRESULTS:<br>\r\nEvaluable data were obtained from only four astronauts. The heart rate at maximum LBNP increased significantly between preflight and early in-flight ramp tests. Decreased heart rate responses to LBNP one day after the in-flight soak indicated that it provided a protective effect. The systolic and diastolic blood pressures during maximum LBNP were not significantly different from preflight levels during any of the ramp tests or soaks. These results showed that the combination of LBNP with ingestion of isotonic saline may be an effective countermeasure against postflight orthostatic intolerance. Results also suggested that orthostatic tolerance was lost after only 10 days or less in space, and that treatments may be beneficial even during flights of short-duration. However, the countermeasure is impractical for use during Shuttle missions because one treatment of one astronaut takes approximately five hours.\r\n<p>",
+  "__doi": "10.83263/hht1-k864",
+  "__doi_record_creation_date": "2026-08-23T04:23:47",
+  "__doi_record_modified_date": "2026-08-23T04:23:47"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002319",
+   "label": "JMDSO_478_1",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Cardiac Data",
+    "dataset_catalog": "JMDSO_478_1",
+    "dataset_description": [
+     "This is a graph depicting heart rate, systolic pressure, and diastolic pressure during maximum lower-body negative pressure (LBNP) before and during flight, both before and after the soak treatment for subjects in the DSO 478 study.\r\n<p>\r\nSource: Extended Duration Orbiter Medical Project (EDOMP) Final Report 1989-1995"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 478"
+    ]
+   },
+   "meta": "7 files \u00b7 875.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "b3ef7ef0-b265-5999-a2d9-c4462ca28f93",
+     "label": "JMDSO_478_1.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 128000,
+     "meta": "125.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f9662612-caf7-54fc-bfa6-3c6a0ff39f93",
+     "label": "JMDSO_478_1.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 128000,
+     "meta": "125.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "76430a1f-6292-5fd3-8166-659a4a3e0103",
+     "label": "JMDSO_478_1.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 128000,
+     "meta": "125.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4bc06b68-2679-5779-8d97-36f14d255aeb",
+     "label": "JMDSO_478_1.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 128000,
+     "meta": "125.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "819e5f43-f538-5b59-aac3-49f7b4d9cde4",
+     "label": "JMDSO_478_1.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 128000,
+     "meta": "125.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c8384073-30e7-5880-a260-1937a3347fc2",
+     "label": "JMDSO_478_1.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 128000,
+     "meta": "125.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "21db2be2-bc72-5a52-b27c-23bb2e5f392c",
+     "label": "JMDSO_478_1.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 128000,
+     "meta": "125.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

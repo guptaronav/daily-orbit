@@ -1,0 +1,780 @@
+{
+ "record": {
+  "id": "df780931-6b24-5a6e-b9b1-ab6fd5efe8b1",
+  "_id": "df780931-6b24-5a6e-b9b1-ab6fd5efe8b1",
+  "__is_locked": false,
+  "experiment_title": "Functional Neurological Assessment: Computerized Dynamic Posturography (Flight Analog)",
+  "experiment_alias": "CDP,MR042L,MEDB 1.5",
+  "__source_key": "cl62azni7cdg001o6aof3ay9i",
+  "experiment_type": [
+   [
+    "Flight Analogs Project (FAP)"
+   ],
+   [
+    "Artificial Gravity (Fractional Gravity)"
+   ],
+   [
+    "NASA Bedrest Studies"
+   ],
+   [
+    "NASA Ground-Based Investigations"
+   ]
+  ],
+  "AssignedArchivist": [
+   "Liddell, Nyaia A."
+  ],
+  "keyword": [
+   "Postural equilibrium",
+   "Posture",
+   "Motor activity",
+   "Motor skills",
+   "Motion perception"
+  ],
+  "__record_version": 33,
+  "indexed": "2026-08-23T03:54:24.522694+00:00",
+  "GUID": "cl62azni7cdg001o6aof3ay9i",
+  "_file_extension": "human",
+  "archive_status": "Data preservation is complete.  All datasets are publicly available.",
+  "__model_type": "lsda_experiment",
+  "__dirid": "df780931-6b24-5a6e-b9b1-ab6fd5efe8b1",
+  "__record_size_wo_doccontent": 36204,
+  "__update_method": "Update CDM",
+  "experiment_identifier": [
+   "MR042G",
+   "CDP,MR042L,MEDB 1.5"
+  ],
+  "CompleteArchivalExpectedInFiscalYear": [
+   "0"
+  ],
+  "experiment_type_lk": [
+   "Flight Analogs Project (FAP)",
+   "Artificial Gravity (Fractional Gravity)",
+   "NASA Bedrest Studies",
+   "NASA Ground-Based Investigations"
+  ],
+  "__record_modified_date": "2026-08-23T03:54:24.522694+00:00",
+  "nasa_center": "JSC",
+  "__indexed": "2026-08-23T03:54:24.522694+00:00",
+  "alias": [
+   "CDP",
+   "MR042L",
+   "MEDB 1.5"
+  ],
+  "__record_creation_date": "2022-07-28T19:57:45.093Z",
+  "__record_size": 36204,
+  "__model_version": 60,
+  "species_sci_name": [
+   [
+    "Homo sapiens"
+   ]
+  ],
+  "payload_id": [
+   "CFT70",
+   "DBLS",
+   "HDT30",
+   "Campaign 5",
+   "Pilot",
+   "Campaign 3",
+   "Campaign 1",
+   "ACG"
+  ],
+  "CombinedSpecies": [
+   "Human (Homo sapiens)"
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "ncindex": 2,
+  "researchIndex": [
+   1088
+  ],
+  "experiment_id": "MR042G",
+  "experiment_related": [
+   "MR042L"
+  ],
+  "parameter_name": [
+   "Distance traveled plate movement (Plength_day)",
+   "Equilibrium score (EQ)",
+   "Fall",
+   "Integrated area under the time to contact curve (iTTC)",
+   "Minimum distance to boundary (Dist2b)",
+   "Peak response",
+   "Peak time",
+   "Sensory organization test (SOT)",
+   "Time to stability (TTS)",
+   "Trial",
+   "Center of pressure prior to plate movement",
+   "Minimum time to contact (TTCmin)"
+  ],
+  "exp_index": 1359,
+  "research_area": [
+   "Neuroscience"
+  ],
+  "species": [
+   [
+    "Human"
+   ]
+  ],
+  "pme_role_with_name": [
+   "Technical Assistant to Principal Investigator: Taylor, Laura",
+   "Principal Investigator: Wood, Scott J.",
+   "Technical Assistant to Principal Investigator: Hwang, Emma",
+   "Principal Investigator: Paloski, William H."
+  ],
+  "missions": [
+   "UTMB Campaign 1",
+   "UTMB Campaign 3",
+   "UTMB Campaign 5",
+   "HDT30",
+   "Pilot"
+  ],
+  "PI": [
+   "Wood, Scott J.",
+   "Paloski, William H."
+  ],
+  "sort": [
+   3,
+   "12101d5c-623c-5bd9-b84a-aa6037b5741a"
+  ],
+  "Program": "Ground",
+  "parameter_html": "<table><tr><td>Distance traveled plate movement (Plength_day)</td></tr><tr><td>Equilibrium score (EQ)</td></tr><tr><td>Fall</td></tr><tr><td>Integrated area under the time to contact curve (iTTC)</td></tr><tr><td>Minimum distance to boundary (Dist2b)</td></tr><tr><td>Peak response</td></tr><tr><td>Peak time</td></tr><tr><td>Sensory organization test (SOT)</td></tr><tr><td>Time to stability (TTS)</td></tr><tr><td>Trial</td></tr><tr><td>Center of pressure prior to plate movement</td></tr><tr><td>Minimum time to contact (TTCmin)</td></tr><tr></tr></table>",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Paloski, William H.\">Principal Investigator: Paloski, William H.</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Wood, Scott J.\">Principal Investigator: Wood, Scott J.</a>",
+  "PrincipalInvestigator": [
+   "Wood, Scott J.",
+   "Paloski, William H."
+  ],
+  "mission_id": [
+   "UTMB Campaign 1",
+   "UTMB Campaign 3",
+   "UTMB Campaign 5",
+   "HDT30",
+   "Pilot"
+  ],
+  "__source_field_concat": "human cl62azni7cdg001o6aof3ay9i JSC CDP,MR042L,MEDB 1.5 Functional Neurological Assessment: Computerized Dynamic Posturography (Flight Analog) MR042G Ground Data preservation is complete.  All datasets are publicly available.",
+  "__icon_type": "",
+  "__description": "",
+  "__doi": "10.83263/yczt-jj10",
+  "__doi_record_creation_date": "2026-08-23T03:54:24",
+  "__doi_record_modified_date": "2026-08-23T03:54:24"
+ },
+ "datasets": [
+  {
+   "key": "4aab1937-b628-598b-b731-ffed50fa86c7",
+   "label": "MR042G_Campaign_1_Functional_Neurological_Assessment",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "UTMB Bedrest Campaign 1  Functional Neurological Assessments",
+    "dataset_catalog": "MR042G_Campaign_1_Functional_Neurological_Assessment",
+    "dataset_description": "This dataset contains a collection of the Functional Neurological Assessment (MR042G) data collected during the Bed Rest Campaign 1 Study for the Flight Analogs Project (FAP).",
+    "processing_level": "Processed Data",
+    "experiment_id": [
+     "MR042G"
+    ]
+   },
+   "meta": "2 files \u00b7 11.9 KB",
+   "date": "2025-04-15",
+   "children": [
+    {
+     "key": "a486fb4e-d392-5346-9ab8-2f52d96bd4ef",
+     "label": "MR042G_Campaign_1_ReadMe",
+     "type": "file",
+     "ext": "",
+     "file_size": 44,
+     "meta": "44 B",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "14fd8724-acba-5c90-aa87-90a808575bb8",
+     "label": "MR042G_Campaign_1",
+     "type": "file",
+     "ext": "",
+     "file_size": 12160,
+     "meta": "11.9 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "50e7eeaa-2fdf-562a-9dc0-62baaf2757e2",
+   "label": "MR042G_Campaign_3_Functional_Neurological_Assessment",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "UTMB Bedrest Campaign 3 Functional Neurological Assessment",
+    "dataset_catalog": "MR042G_Campaign_3_Functional_Neurological_Assessment",
+    "dataset_description": "This dataset contains tabular data of the Functional Neurological Assessment (MR042G) data collected during the Bed Rest Campaign 3 Study for the Flight Analogs Project (FAP).",
+    "processing_level": [
+     "Processed Data"
+    ],
+    "experiment_id": [
+     "MR042G"
+    ]
+   },
+   "meta": "56 files \u00b7 366.0 KB",
+   "date": "2025-09-12",
+   "children": [
+    {
+     "key": "98e0da24-cdaf-5569-8dd7-cc69ac60910f",
+     "label": "MR042G_Campaign_3_Functional_Neurological_Assessment_C3G_9314",
+     "type": "file",
+     "ext": "",
+     "file_size": 10696,
+     "meta": "10.4 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4ef78c14-7486-5348-a6bc-0b59e0bb5981",
+     "label": "MR042G_Campaign_3_Functional_Neurological_Assessment_C3D_3985_BR+9",
+     "type": "file",
+     "ext": "",
+     "file_size": 2121,
+     "meta": "2.1 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "25f0f491-f8eb-589b-a82c-fc78454d5a71",
+     "label": "MR042G_Campaign_3_Functional_Neurological_Assessment_C3C_EQScores_7352_BR+4",
+     "type": "file",
+     "ext": "",
+     "file_size": 1439,
+     "meta": "1.4 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8fb3307e-7645-5bdf-805d-7ebd8712e968",
+     "label": "MR042G_Campaign_3_Functional_Neurological_Assessment_C3D_8779_BR+4",
+     "type": "file",
+     "ext": "",
+     "file_size": 2068,
+     "meta": "2.0 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "10b8eb6d-1af9-5cc3-b1e0-6f2055c51e7f",
+     "label": "MR042G_Campaign_3_Functional_Neurological_Assessment_C3D_3985_D60",
+     "type": "file",
+     "ext": "",
+     "file_size": 1439,
+     "meta": "1.4 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "129045c1-dd66-51ac-8d8a-33b0fc15a229",
+     "label": "MR042G_Campaign_3_Functional_Neurological_Assessment_C3D_3985_BR-10",
+     "type": "file",
+     "ext": "",
+     "file_size": 1803,
+     "meta": "1.8 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5b8015bf-3c34-580c-be52-2eecdbed19d3",
+     "label": "MR042G_Campaign_3_Functional_Neurological_Assessment_C3G_9139",
+     "type": "file",
+     "ext": "",
+     "file_size": 12070,
+     "meta": "11.8 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ba3afe0e-7a99-54dd-a669-7493cd592674",
+     "label": "MR042G_Campaign_3_Functional_Neurological_Assessment_C3C_EQScores_7352_BR+8",
+     "type": "file",
+     "ext": "",
+     "file_size": 1443,
+     "meta": "1.4 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c9cfb5e5-06e0-5bce-bcc3-9528ea0f0343",
+     "label": "MR042G_Campaign_3_Functional_Neurological_Assessment_C3D_3985_BR+2",
+     "type": "file",
+     "ext": "",
+     "file_size": 1457,
+     "meta": "1.4 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ea54d03f-9a48-5b7d-8018-c27bb9559690",
+     "label": "MR042G_Campaign_3_Functional_Neurological_Assessment_C3D_7961_BR+1",
+     "type": "file",
+     "ext": "",
+     "file_size": 1453,
+     "meta": "1.4 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e08cfcc5-cbfb-5f05-bfb3-f20076de79c9",
+     "label": "MR042G_Campaign_3_Functional_Neurological_Assessment_C3C_Final",
+     "type": "file",
+     "ext": "",
+     "file_size": 49499,
+     "meta": "48.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ea6404f0-4d49-57b3-86e6-6a444333bf1c",
+     "label": "MR042G_Campaign_3_Functional_Neurological_Assessment_Exclusions_ReadMe",
+     "type": "file",
+     "ext": "",
+     "file_size": 297,
+     "meta": "297 B",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "73c2d769-1a69-5ac1-98a1-73dc52ac8544",
+     "label": "MR042G_Campaign_3_Functional_Neurological_Assessment_C3C_EQScores_7772_BR-10",
+     "type": "file",
+     "ext": "",
+     "file_size": 1413,
+     "meta": "1.4 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7a1e5599-c100-5c10-ab92-7dbef169222d",
+     "label": "MR042G_Campaign_3_Functional_Neurological_Assessment_C3D_8779_BR+1",
+     "type": "file",
+     "ext": "",
+     "file_size": 1414,
+     "meta": "1.4 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ad2cb6f2-9d2f-50aa-8c7b-dbea9aa0e097",
+     "label": "MR042G_Campaign_3_Functional_Neurological_Assessment_C3D_5165",
+     "type": "file",
+     "ext": "",
+     "file_size": 12374,
+     "meta": "12.1 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "957d1c88-e18d-5bf5-9912-dde2ad3683b3",
+     "label": "MR042G_Campaign_3_Functional_Neurological_Assessment_C3C_EQScores_7772_BR-1",
+     "type": "file",
+     "ext": "",
+     "file_size": 1414,
+     "meta": "1.4 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "fd1417fb-1ca9-55e6-af16-a1255b9993b2",
+     "label": "MR042G_Campaign_3_Functional_Neurological_Assessment_C3D_8779_BR+9",
+     "type": "file",
+     "ext": "",
+     "file_size": 2068,
+     "meta": "2.0 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d97b8c53-cfdb-5ea6-87c3-c1b249726555",
+     "label": "MR042G_Campaign_3_Functional_Neurological_Assessment_C3D_8779_BR+0",
+     "type": "file",
+     "ext": "",
+     "file_size": 1011,
+     "meta": "1011 B",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7e0df591-e59e-5789-bd2b-f0e88b878d66",
+     "label": "MR042G_Campaign_3_Functional_Neurological_Assessment_C3C_EQScores_7352_BR+1",
+     "type": "file",
+     "ext": "",
+     "file_size": 1012,
+     "meta": "1012 B",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9c1a9849-1b92-5b97-8fc5-7e6ca5aa61f6",
+     "label": "MR042G_Campaign_3_Functional_Neurological_Assessment_C3C_EQScores_7772_BR60",
+     "type": "file",
+     "ext": "",
+     "file_size": 995,
+     "meta": "995 B",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0a65bfec-ccc8-5c99-a70d-0a9a7dceff2a",
+     "label": "MR042G_Campaign_3_Functional_Neurological_Assessment_C3G_6858",
+     "type": "file",
+     "ext": "",
+     "file_size": 9633,
+     "meta": "9.4 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c0e4db4a-9a5f-5eb8-a4c8-bac59be1455d",
+     "label": "MR042G_Campaign_3_Functional_Neurological_Assessment_C3B_Final",
+     "type": "file",
+     "ext": "",
+     "file_size": 11064,
+     "meta": "10.8 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "aad81eb1-9ae5-54b3-9915-cdd2803f746b",
+     "label": "MR042G_Campaign_3_Functional_Neurological_Assessment_C3D_8779_BR-10",
+     "type": "file",
+     "ext": "",
+     "file_size": 1889,
+     "meta": "1.8 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "76eea98e-615b-541b-8837-87cdc1d82f08",
+     "label": "MR042G_Campaign_3_Functional_Neurological_Assessment_C3D_7961_BR+7",
+     "type": "file",
+     "ext": "",
+     "file_size": 2070,
+     "meta": "2.0 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d7d55020-0586-5d9c-834a-63266e270713",
+     "label": "MR042G_Campaign_3_Functional_Neurological_Assessment_C3D_8779_D60",
+     "type": "file",
+     "ext": "",
+     "file_size": 981,
+     "meta": "981 B",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "dc26d316-e536-53c6-929c-e792805738f5",
+     "label": "MR042G_Campaign_3_Functional_Neurological_Assessment_C3D_3985_BR+0",
+     "type": "file",
+     "ext": "",
+     "file_size": 1454,
+     "meta": "1.4 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "fa2dce75-211f-5f04-9330-7782f9af9324",
+     "label": "MR042G_Campaign_3_Functional_Neurological_Assessment_C3G_5814_MCT",
+     "type": "file",
+     "ext": "",
+     "file_size": 4810,
+     "meta": "4.7 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c09a6c92-3c55-5047-86f9-01d6b8463b04",
+     "label": "MR042G_Campaign_3_Functional_Neurological_Assessment_C3D_3985_BR+1",
+     "type": "file",
+     "ext": "",
+     "file_size": 1456,
+     "meta": "1.4 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "71fb5276-5c04-5273-9883-53332c2a0629",
+     "label": "MR042G_Campaign_3_Functional_Neurological_Assessment_C3D_7961_D60",
+     "type": "file",
+     "ext": "",
+     "file_size": 1474,
+     "meta": "1.4 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b496e009-f697-5d61-8bdc-b5aaf002005f",
+     "label": "MR042G_Campaign_3_Functional_Neurological_Assessment_C3A_Final",
+     "type": "file",
+     "ext": "",
+     "file_size": 17011,
+     "meta": "16.6 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ee3b2f24-c2a0-5056-8aa5-83a7565a1d4d",
+     "label": "MR042G_Campaign_3_Functional_Neurological_Assessment_C3C_EQScores_7352_BR60",
+     "type": "file",
+     "ext": "",
+     "file_size": 943,
+     "meta": "943 B",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "41d50aae-b191-5435-ac53-717b1ff68da0",
+     "label": "MR042G_Campaign_3_Functional_Neurological_Assessment_C3D_7961_BR+2",
+     "type": "file",
+     "ext": "",
+     "file_size": 1458,
+     "meta": "1.4 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1d8b7380-5908-5dd8-9396-0702852505f7",
+     "label": "MR042G_Campaign_3_Functional_Neurological_Assessment_C3D_7961_BR-8",
+     "type": "file",
+     "ext": "",
+     "file_size": 2097,
+     "meta": "2.0 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "bfb9c7e5-846b-5722-98b9-9a2b30f0212f",
+     "label": "MR042G_Campaign_3_Functional_Neurological_Assessment_C3C_EQScores_7352_BR+0",
+     "type": "file",
+     "ext": "",
+     "file_size": 466,
+     "meta": "466 B",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "fad3ac51-3b9e-58d2-8aeb-fca2064b0e8e",
+     "label": "MR042G_Campaign_3_Functional_Neurological_Assessment_C3C_EQScores_7772_BR+1",
+     "type": "file",
+     "ext": "",
+     "file_size": 1014,
+     "meta": "1014 B",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7e106730-d9f7-5413-ba48-da089243977b",
+     "label": "MR042G_Campaign_3_Functional_Neurological_Assessment_C3D_Final",
+     "type": "file",
+     "ext": "",
+     "file_size": 103031,
+     "meta": "100.6 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4dc8bef6-0d73-540e-a293-0ba0b462e6b9",
+     "label": "MR042G_Campaign_3_Functional_Neurological_Assessment_C3C_EQScores_7772_BR+0",
+     "type": "file",
+     "ext": "",
+     "file_size": 1009,
+     "meta": "1009 B",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "78666480-b620-57c4-a000-8fc81be3040d",
+     "label": "MR042G_Campaign_3_Functional_Neurological_Assessment_C3H_5907_SOT",
+     "type": "file",
+     "ext": "",
+     "file_size": 12640,
+     "meta": "12.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "602a377b-ace8-58d0-a4a7-7ed78ba7cfec",
+     "label": "MR042G_Campaign_3_Functional_Neurological_Assessment_C3D_8779_BR-5",
+     "type": "file",
+     "ext": "",
+     "file_size": 2017,
+     "meta": "2.0 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "bdb20f03-2384-5653-9509-66d69903e45e",
+     "label": "MR042G_Campaign_3_Functional_Neurological_Assessment_C3D_8779_BR+2",
+     "type": "file",
+     "ext": "",
+     "file_size": 1488,
+     "meta": "1.5 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4a8512a8-f7bc-5271-bd9c-876c9d85ef34",
+     "label": "MR042G_Campaign_3_Functional_Neurological_Assessment_C3G_9485",
+     "type": "file",
+     "ext": "",
+     "file_size": 10243,
+     "meta": "10.0 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3100e9ea-0168-5a50-bc78-ae1d6d183464",
+     "label": "MR042G_Campaign_3_Functional_Neurological_Assessment_C3F_Final",
+     "type": "file",
+     "ext": "",
+     "file_size": 24218,
+     "meta": "23.7 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ef2f2f8f-efdf-5b7e-a022-acb716c2a63e",
+     "label": "MR042G_Campaign_3_Functional_Neurological_Assessment_C3C_EQScores_7772_BR+4",
+     "type": "file",
+     "ext": "",
+     "file_size": 1444,
+     "meta": "1.4 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a644f165-eff2-54c8-aeed-637955092559",
+     "label": "MR042G_Campaign_3_Functional_Neurological_Assessment_C3G_5814_SOT",
+     "type": "file",
+     "ext": "",
+     "file_size": 12379,
+     "meta": "12.1 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f720c00f-b71c-5bea-9fb6-12b31316dd19",
+     "label": "MR042G_Campaign_3_Functional_Neurological_Assessment_C3C_EQScores_7352_BR-13",
+     "type": "file",
+     "ext": "",
+     "file_size": 1415,
+     "meta": "1.4 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c3c43693-86ea-543a-afb3-723ce1f24844",
+     "label": "MR042G_Campaign_3_Functional_Neurological_Assessment_C3D_7961_BR+0",
+     "type": "file",
+     "ext": "",
+     "file_size": 1488,
+     "meta": "1.5 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d408c809-ecd5-536c-87fa-fcbff9b828ff",
+     "label": "MR042G_Campaign_3_Functional_Neurological_Assessment_C3C_EQScores_7352_BR-1",
+     "type": "file",
+     "ext": "",
+     "file_size": 1417,
+     "meta": "1.4 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "35833ce5-6c32-53a0-a3e3-11dffc70275c",
+     "label": "MR042G_Campaign_3_Functional_Neurological_Assessment_C3D_3985_BR-4",
+     "type": "file",
+     "ext": "",
+     "file_size": 1780,
+     "meta": "1.7 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9f64aec4-c5f8-5d9f-8f28-9b8be953491b",
+     "label": "MR042G_Campaign_3_Functional_Neurological_Assessment_C3G_9032",
+     "type": "file",
+     "ext": "",
+     "file_size": 11989,
+     "meta": "11.7 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5edcb88f-0dc7-53e8-94db-d49114dea136",
+     "label": "MR042G_Campaign_3_Functional_Neurological_Assessment_C3C_EQScores_7772_BR+2",
+     "type": "file",
+     "ext": "",
+     "file_size": 1013,
+     "meta": "1013 B",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6d67c4ab-881e-56b1-b36d-604147028789",
+     "label": "MR042G_Campaign_3_Functional_Neurological_Assessment_C3D_7961_D1",
+     "type": "file",
+     "ext": "",
+     "file_size": 2048,
+     "meta": "2.0 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "def3c6c4-a916-58eb-84c3-9089e64d2429",
+     "label": "MR042G_Campaign_3_Functional_Neurological_Assessment_C3D_7961_BR+4",
+     "type": "file",
+     "ext": "",
+     "file_size": 2067,
+     "meta": "2.0 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d68f5a19-d155-582c-859b-e9f8939da210",
+     "label": "MR042G_Campaign_3_Functional_Neurological_Assessment_C3D_3985_BR+4",
+     "type": "file",
+     "ext": "",
+     "file_size": 2118,
+     "meta": "2.1 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ccab5bed-3e29-5cee-9e08-19a205b6a4d3",
+     "label": "MR042G_Campaign_3_Functional_Neurological_Assessment_C3G_5580",
+     "type": "file",
+     "ext": "",
+     "file_size": 10097,
+     "meta": "9.9 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "15a107ff-7144-59a0-8c47-98c8e0591e8f",
+     "label": "MR042G_Campaign_3_Functional_Neurological_Assessment_C3H_5907_MCT",
+     "type": "file",
+     "ext": "",
+     "file_size": 4605,
+     "meta": "4.5 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c99c20f8-4353-5ca4-82db-dd9dc4f3435a",
+     "label": "MR042G_Campaign_3_Functional_Neurological_Assessment_C3C_EQScores_7352_BR+2",
+     "type": "file",
+     "ext": "",
+     "file_size": 1011,
+     "meta": "1011 B",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

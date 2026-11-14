@@ -1,0 +1,533 @@
+{
+ "record": {
+  "id": "859f904d-7c4a-5994-baf9-47f2abc3013f",
+  "_id": "859f904d-7c4a-5994-baf9-47f2abc3013f",
+  "experiment_title": "The Effects of EVA and Long-Term Exposure to Microgravity on Pulmonary Function",
+  "pub_document_number": "PUB001719",
+  "archive_status_index": 2,
+  "experiment_alias": [
+   "E044",
+   "PuFF"
+  ],
+  "parameter_html": "<table><tr><td>Argon</td></tr><tr><td>Breathing frequency (fB)</td></tr><tr><td>Cabin pressure</td></tr><tr><td>Carbon dioxide</td></tr><tr><td>Carbon dioxide production (VCO2)</td></tr><tr><td>Carbon monoxide</td></tr><tr><td>Closing volume (CV)</td></tr><tr><td>Cosc size</td></tr><tr><td>Diffusing capacity of the lung for carbon monoxide (DLCO)</td></tr><tr><td>End-tidal partial pressure of carbon dixoide (PETCO2)</td></tr><tr><td>End-tidal partial pressure of oxygen (PETO2)</td></tr><tr><td>Expiratory reserve volume (ERV)</td></tr><tr><td>Expiratory vital capacity (EVC)</td></tr><tr><td>Forced expiratory volume (FEV)</td></tr><tr><td>Forced inspiratory flow (FIF)</td></tr><tr><td>Forced vital capacity (FVC)</td></tr><tr><td>Functional residual capacity (FRC)</td></tr><tr><td>Helium</td></tr><tr><td>Hemoglobin</td></tr><tr><td>Inspiratory flow rate (VT/TI)</td></tr><tr><td>Inspiratory vital capacity (IVC)</td></tr><tr><td>Log standard deviation (log SD)</td></tr><tr><td>Maximum expiratory pressure (MEP)</td></tr><tr><td>Maximum inspiratory pressure (MIP)</td></tr><tr><td>Minute ventilation (VE)</td></tr><tr><td>Mouth pressure</td></tr><tr><td>Nitrogen</td></tr><tr><td>Oxygen consumption (VO2)</td></tr><tr><td>Peak expiratory flow rate (PEFR)</td></tr><tr><td>Peak inspiratory flow rate (PIFR)</td></tr><tr><td>Pressure</td></tr><tr><td>Pressure standard deviation</td></tr><tr><td>Pulmonary perfusion</td></tr><tr><td>Residual volume (RV)</td></tr><tr><td>Slow vital capacity</td></tr><tr><td>Temperature</td></tr><tr><td>Total lung capacity (TLC)</td></tr><tr><td>Total ventilation (VE)</td></tr><tr><td>Vital capacity (VC)</td></tr><tr><td>Volume</td></tr><tr><td>Alveolar dead space (VDalv)</td></tr><tr><td>Alveolar ventilation</td></tr><tr><td>Carbon dioxide height, respiratory phase 4</td></tr><tr><td>Cardiac output</td></tr><tr><td>Electrocardiogram (ECG)</td></tr><tr><td>Forced expiratory flow (FEF)</td></tr><tr><td>Heart rate</td></tr><tr><td>Height, phase 4 (P4 Ht)</td></tr><tr><td>Image-based ventilation/perfusion (iV/Q) range</td></tr><tr><td>Image-based ventilation/perfusion (iV/Q) slope</td></tr><tr><td>Time spent inspiring, percentage (TI/TTOT)</td></tr><tr><td>Respiratory phase 3</td></tr><tr><td>Respiratory phase 4</td></tr><tr><td>Respiratory phase 5</td></tr><tr><td>Resporatory exchange ratio (RER)</td></tr><tr><td>Respiratory phase 3 slope</td></tr><tr><td>Stroke volume</td></tr><tr><td>Sulfur hexafluoride</td></tr><tr><td>Tidal volume</td></tr><tr><td>Respiratory phase 5 volume</td></tr><tr></tr></table>",
+  "__source_key": "cl62ayzu1cdae01o6humk8pjd",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:West, John\">Principal Investigator: West, John</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Darquenne, Chantal\">Co-Investigator: Darquenne, Chantal</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Elliott, Ann\">Co-Investigator: Elliott, Ann</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Paiva, Manuel\">Co-Investigator: Paiva, Manuel</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Prisk, G.\">Co-Investigator: Prisk, G.</a>",
+  "image_name": [
+   "Cosmonaut Training with Pulmonary Function in Flight (PuFF) Hardware",
+   "Disposable Mouthpiece",
+   "Ethernet Cable",
+   "Fleish #2 Flowmeter",
+   "GASMAP Accessories Kit",
+   "GASMAP Calibration Module",
+   "GASMAP Calibration Module - top view",
+   "GASMAP hardware with accessory hoses and cables",
+   "HRF GASMAP",
+   "HRF GASMAP - top view",
+   "Human Research Facility Portable Computer (HRF PC)",
+   "Manual Breathing Valve (MBV)",
+   "Manual Breathing Valve (MBV) assembly",
+   "Maximum Expiratory Flow-Volume (MEFV) Assembly",
+   "Personal Mouthpiece Kit",
+   "Physiological Signal Conditioner (PSC) batteries",
+   "Physiological Signal Conditioner (PSC) connections",
+   "Physiological Signal Conditioner (PSC) open with batteries inserted",
+   "Pressure Flow Module (PFM) Data Cable",
+   "Pressure Flow Module - back view",
+   "Pressure Kit",
+   "Pressure-Flow Module (PFM) - front view",
+   "PuFF experiment setup during space flight",
+   "PuFF FlashRAM Card",
+   "PuFF Pressure-Flow Module (PFM) and Manual Breathing Valve (MBV) Assembly",
+   "Pulmonary Function in Flight (PuFF) Experiment Operations",
+   "Pulmonary Function in Flight (PuFF) GASMAP Catheter",
+   "Pulmonary Function in Flight (PuFF) Nominal Operations",
+   "Spares Kit",
+   "Volume Calibration Syringe"
+  ],
+  "experiment_type_lk": [
+   "International Space Station (ISS)"
+  ],
+  "__record_modified_date": "2026-08-23T04:08:06.640156+00:00",
+  "proposal_source": [
+   "NRA-96-HEDS-04"
+  ],
+  "__indexed": "2026-08-23T04:08:06.640156+00:00",
+  "alias": [
+   "E044",
+   "PuFF"
+  ],
+  "keyword": [
+   "Decompression",
+   "Extravehicular activity",
+   "Lung volume measurements",
+   "Respiratory muscles",
+   "Pulmonary gas exchange"
+  ],
+  "__record_creation_date": "2022-07-28T20:05:16.371Z",
+  "keyword_name": "Pulmonary gas exchange",
+  "__record_version": 29,
+  "__record_size": 130417,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<BR>\r\nThis experiment examined the effect of long-term exposure to microgravity (\u00b5G) and the effects of Extra Vehicular Activity (EVA) on pulmonary function.  A longitudinal study was performed of four crews of the International Space Station (ISS), measuring aspects of pulmonary function that may be affected by long-term exposure to \u00b5G per se, and by exposure to noxious gases, or particulate matter present in the atmosphere of the ISS.  The investigators proposed to evaluate the effect of EVA on the lung by studying those crewmembers who perform EVAs before and after single and repeated EVAs.  Crewmembers who did not perform EVAs served as a flying control group for this aspect of the study.  Because EVA poses a significant risk of decompression sickness including bubble events within the pulmonary circulation, non-invasive tests of pulmonary function that are altered by changes in the pulmonary vasculature presented an ideal way to follow a subject over the course of multiple EVAs.\r\n<P>\r\nTo test the hypotheses researchers used the following: the standard respiratory function measurement of forced spirometry, the measurement of intra-breath respiratory exchange ratio (intrabreath R), a hyperventilation-breathhold measurement of the distribution of pulmonary perfusion, slow spirometry for lung volume subdivision, and the measurement of maximum inspiratory and expiratory pressures to test the hypotheses.\r\n<P> \r\nAPPROACH:<BR>\r\nEach in-flight test session consisted of five non-invasive tests of lung function: (1) intra-breath respiratory exchange ratio, (2) distribution of pulmonary perfusion, (3) maximum inspiratory and expiratory pressures, (4) slow spirometry, and (5) maximum expiratory flow-volume.  Each of these tests involved breathing only cabin air.\r\n<P> \r\nOn the day of testing, the experiment system was set up and calibrated.  After the initial calibration, each subject performed a standard sequence of breathing tests.  After all subjects completed testing, a final calibration was performed and the data archived.  The system was then deconfigured and stowed.\r\n<P> \r\nThe first in-flight data collection was scheduled to occur two weeks into the mission, providing a data point comparable to the data already collected previously during several Spacelab flights.  Thereafter, data collection sessions occurred at approximately monthly intervals for the duration of each flight.  EVA-related in-flight data collection was performed as an experiment of opportunity.  All subjects performed a test session within one week prior to the EVA.  Following an EVA, the same session was repeated by those crewmembers who performed EVA, preferably on the same day that EVA was completed or, if necessary because of crew scheduling, on the day immediately following.  An abbreviated sequence (two breathing tests) could be implemented if time was limited on the day of EVA.  For subjects performing repeat EVAs (i.e., EVAs on successive days, or close to successive days), the abbreviated sequence was performed following every EVA in order to document the effect of repeated decompressions on the lung in \u00b5G.\r\n<P> \r\nTesting was also conducted four times preflight and four times postflight.  Each of these sessions included the in-flight protocol and additional tests (diffusing capacity for carbon monoxide, single and multiple breath nitrogen washout, and cardiac output), measurements not possible in flight due to hardware limitations.  Hemoglobin level was also required once preflight and four times postflight.\r\n<P> \r\nRESULTS:<BR>\r\nExcellent quality data were collected from four Expeditions, comprising eight crewmembers who performed EVAs.  The investigators reported no significant changes in pulmonary gas exchange one day after an EVA was performed.  A small increase in metabolic rates in the astronauts was observed on the day following the EVA.  The investigators reported that testing was not ideal because acute effects resulting from EVAs could not be measured immediately after performing the spacewalk due to EVA protocols and logistics, but remain confident in their primary conclusion.  The small effect observed on the day following an EVA suggested that current protocols prevent the decompression stress associated with EVA from causing any major lasting disruption to gas exchange in the lung.  The results clearly showed that vital capacity in prolonged periods of \u00b5G is essentially unchanged compared to that measured standing and that respiratory muscle strength is maintained throughout approximately six months in \u00b5G.<end>",
+  "payload_id": "HRF5",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "indexed": "2026-08-23T04:08:06.640156+00:00",
+  "experiment_id": "96-E044",
+  "experiment_related": [
+   "9301198",
+   "284030"
+  ],
+  "GUID": "cl62ayzu1cdae01o6humk8pjd",
+  "parameter_name": [
+   "Argon",
+   "Breathing frequency (fB)",
+   "Cabin pressure",
+   "Carbon dioxide",
+   "Carbon dioxide production (VCO2)",
+   "Carbon monoxide",
+   "Closing volume (CV)",
+   "Cosc size",
+   "Diffusing capacity of the lung for carbon monoxide (DLCO)",
+   "End-tidal partial pressure of carbon dixoide (PETCO2)",
+   "End-tidal partial pressure of oxygen (PETO2)",
+   "Expiratory reserve volume (ERV)",
+   "Expiratory vital capacity (EVC)",
+   "Forced expiratory volume (FEV)",
+   "Forced inspiratory flow (FIF)",
+   "Forced vital capacity (FVC)",
+   "Functional residual capacity (FRC)",
+   "Helium",
+   "Hemoglobin",
+   "Inspiratory flow rate (VT/TI)",
+   "Inspiratory vital capacity (IVC)",
+   "Log standard deviation (log SD)",
+   "Maximum expiratory pressure (MEP)",
+   "Maximum inspiratory pressure (MIP)",
+   "Minute ventilation (VE)",
+   "Mouth pressure",
+   "Nitrogen",
+   "Oxygen consumption (VO2)",
+   "Peak expiratory flow rate (PEFR)",
+   "Peak inspiratory flow rate (PIFR)",
+   "Pressure",
+   "Pressure standard deviation",
+   "Pulmonary perfusion",
+   "Residual volume (RV)",
+   "Slow vital capacity",
+   "Temperature",
+   "Total lung capacity (TLC)",
+   "Total ventilation (VE)",
+   "Vital capacity (VC)",
+   "Volume",
+   "Alveolar dead space (VDalv)",
+   "Alveolar ventilation",
+   "Carbon dioxide height, respiratory phase 4",
+   "Cardiac output",
+   "Electrocardiogram (ECG)",
+   "Forced expiratory flow (FEF)",
+   "Heart rate",
+   "Height, phase 4 (P4 Ht)",
+   "Image-based ventilation/perfusion (iV/Q) range",
+   "Image-based ventilation/perfusion (iV/Q) slope",
+   "Time spent inspiring, percentage (TI/TTOT)",
+   "Respiratory phase 3",
+   "Respiratory phase 4",
+   "Respiratory phase 5",
+   "Resporatory exchange ratio (RER)",
+   "Respiratory phase 3 slope",
+   "Stroke volume",
+   "Sulfur hexafluoride",
+   "Tidal volume",
+   "Respiratory phase 5 volume"
+  ],
+  "exp_index": 903,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Pulmonary physiology"
+  ],
+  "pme_role_with_name": [
+   "Astronaut: Budarin, Nikolai",
+   "Astronaut: Thomas, Donald",
+   "Co-Investigator: Darquenne, Chantal",
+   "Co-Investigator: Elliott, Ann",
+   "Co-Investigator: Paiva, Manuel",
+   "Co-Investigator: Prisk, G.",
+   "Principal Investigator: West, John"
+  ],
+  "missions": [
+   [
+    [
+     "Expedition 5"
+    ]
+   ],
+   [
+    [
+     "Expedition 6"
+    ]
+   ],
+   [
+    [
+     "Expedition 3"
+    ]
+   ],
+   [
+    [
+     "Expedition 4"
+    ]
+   ]
+  ],
+  "__dirid": "859f904d-7c4a-5994-baf9-47f2abc3013f",
+  "__record_size_wo_doccontent": 130417,
+  "PI": [
+   "West, John"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "96-E044",
+   "E044",
+   "PuFF"
+  ],
+  "mission_id": [
+   [
+    [
+     "Expedition 5"
+    ]
+   ],
+   [
+    [
+     "Expedition 6"
+    ]
+   ],
+   [
+    [
+     "Expedition 3"
+    ]
+   ],
+   [
+    [
+     "Expedition 4"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "proposal_date": [
+   "11/1/1997"
+  ],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "West, John"
+  ],
+  "archive_status": "Data preservation is complete. Privacy-protected datasets are available via data request. Remaining datasets are publicly available.",
+  "__is_locked": false,
+  "Program": "International Space Station (ISS)",
+  "__source_field_concat": "PUB001719 HRF5 cl62ayzu1cdae01o6humk8pjd Pulmonary gas exchange The Effects of EVA and Long-Term Exposure to Microgravity on Pulmonary Function 96-E044 International Space Station (ISS)",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<BR>\r\nThis experiment examined the effect of long-term exposure to microgravity (\u00b5G) and the effects of Extra Vehicular Activity (EVA) on pulmonary function.  A longitudinal study was performed of four crews of the International Space Station (ISS), measuring aspects of pulmonary function that may be affected by long-term exposure to \u00b5G per se, and by exposure to noxious gases, or particulate matter present in the atmosphere of the ISS.  The investigators proposed to evaluate the effect of EVA on the lung by studying those crewmembers who perform EVAs before and after single and repeated EVAs.  Crewmembers who did not perform EVAs served as a flying control group for this aspect of the study.  Because EVA poses a significant risk of decompression sickness including bubble events within the pulmonary circulation, non-invasive tests of pulmonary function that are altered by changes in the pulmonary vasculature presented an ideal way to follow a subject over the course of multiple EVAs.\r\n<P>\r\nTo test the hypotheses researchers used the following: the standard respiratory function measurement of forced spirometry, the measurement of intra-breath respiratory exchange ratio (intrabreath R), a hyperventilation-breathhold measurement of the distribution of pulmonary perfusion, slow spirometry for lung volume subdivision, and the measurement of maximum inspiratory and expiratory pressures to test the hypotheses.\r\n<P> \r\nAPPROACH:<BR>\r\nEach in-flight test session consisted of five non-invasive tests of lung function: (1) intra-breath respiratory exchange ratio, (2) distribution of pulmonary perfusion, (3) maximum inspiratory and expiratory pressures, (4) slow spirometry, and (5) maximum expiratory flow-volume.  Each of these tests involved breathing only cabin air.\r\n<P> \r\nOn the day of testing, the experiment system was set up and calibrated.  After the initial calibration, each subject performed a standard sequence of breathing tests.  After all subjects completed testing, a final calibration was performed and the data archived.  The system was then deconfigured and stowed.\r\n<P> \r\nThe first in-flight data collection was scheduled to occur two weeks into the mission, providing a data point comparable to the data already collected previously during several Spacelab flights.  Thereafter, data collection sessions occurred at approximately monthly intervals for the duration of each flight.  EVA-related in-flight data collection was performed as an experiment of opportunity.  All subjects performed a test session within one week prior to the EVA.  Following an EVA, the same session was repeated by those crewmembers who performed EVA, preferably on the same day that EVA was completed or, if necessary because of crew scheduling, on the day immediately following.  An abbreviated sequence (two breathing tests) could be implemented if time was limited on the day of EVA.  For subjects performing repeat EVAs (i.e., EVAs on successive days, or close to successive days), the abbreviated sequence was performed following every EVA in order to document the effect of repeated decompressions on the lung in \u00b5G.\r\n<P> \r\nTesting was also conducted four times preflight and four times postflight.  Each of these sessions included the in-flight protocol and additional tests (diffusing capacity for carbon monoxide, single and multiple breath nitrogen washout, and cardiac output), measurements not possible in flight due to hardware limitations.  Hemoglobin level was also required once preflight and four times postflight.\r\n<P> \r\nRESULTS:<BR>\r\nExcellent quality data were collected from four Expeditions, comprising eight crewmembers who performed EVAs.  The investigators reported no significant changes in pulmonary gas exchange one day after an EVA was performed.  A small increase in metabolic rates in the astronauts was observed on the day following the EVA.  The investigators reported that testing was not ideal because acute effects resulting from EVAs could not be measured immediately after performing the spacewalk due to EVA protocols and logistics, but remain confident in their primary conclusion.  The small effect observed on the day following an EVA suggested that current protocols prevent the decompression stress associated with EVA from causing any major lasting disruption to gas exchange in the lung.  The results clearly showed that vital capacity in prolonged periods of \u00b5G is essentially unchanged compared to that measured standing and that respiratory muscle strength is maintained throughout approximately six months in \u00b5G.<end>",
+  "__doi": "10.83263/7nhp-yt75",
+  "__doi_record_creation_date": "2026-08-23T04:08:06",
+  "__doi_record_modified_date": "2026-08-23T04:08:06"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001489",
+   "label": "96_E044__2100453381",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Maximum Respiratory Pressures",
+    "dataset_catalog": "96_E044__2100453381",
+    "dataset_description": [
+     "Lung function was measured on ten subjects (9 male, 1 female) before and after they were exposed to 4-6 months of microgravity in the normobaric normoxic environment of the International Space Station.\r\n<P>\r\nSource:  Prisk GK, Fine JM, Cooper TK, and West JB. Vital capacity, respiratory muscle strength, and pulmonary gas exchange during long-duration exposure to microgravity. <I>J Appl Physiol</I> 2006;101:439-447."
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "96-E044"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "6094895e-8300-500c-9700-f18e6f5e996a",
+     "label": "96_E044_2100453381.xls_Expedition_3_96-E044_2010_211_010705.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001839",
+   "label": "96_E044__2100927529",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Vital Capacity and Maximum Inspiratory and Expiratory Pressures in Ten ISS Subjects",
+    "dataset_catalog": "96_E044__2100927529",
+    "dataset_description": [
+     "The investigators measured vital capacity (VC), maximum inspiratory pressure (MIP) at functional residual capacity (FRC) and at residual volume (RV), and maximum expiratory pressure (MEP) at FRC and at total lung capacity (TLC) in 10 normal subjects (9M, 1F, aged 39-52, average 45 yrs) who lived on the International Space Station (ISS) for between 130 and 196 days from 2001-2003 in a normoxic, normobaric atmosphere.  Beginning at ~1 month and at approximately monthly intervals, subjects performed a short sequence of pulmonary function tests that included at least three slow VC exhalations and duplicate determinations of MIP and MEP.  The same measurements were performed four times in the standing and supine postures preflight, and multiple times post flight.\r\n<P>\r\nSource:  Prisk GK, Cooper TK, Fine JM, West JB.  Vital capacity is unchanged and respiratory muscle strength maintained during long-duration exposure to microgravity.  Bio-Astronautics Biennial Conference, Galveston, TX, January 2005."
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "96-E044"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "5c338e2e-17fc-5ce1-afbc-ed0a275cde8b",
+     "label": "96_E044_2100927529.xls_Expedition_3_96-E044_2010_211_010744.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000271",
+   "label": "96_E044__2100328909",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Vital Capacity and Forced Expiration",
+    "dataset_catalog": "96_E044__2100328909",
+    "dataset_description": [
+     "Lung function was measured on ten subjects (9 male, 1 female) before and after they were exposed to 4-6 months of microgravity in the normobaric normoxic environment of the International Space Station.\r\n<P>\r\nSource:  Prisk GK, Fine JM, Cooper TK, and West JB. Vital capacity, respiratory muscle strength, and pulmonary gas exchange during long-duration exposure to microgravity. <I>J Appl Physiol</I> 2006;101:439-447."
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "96-E044"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "f0c097a7-2587-5778-9ed4-03a9ca93fa57",
+     "label": "96_E044_2100328909.xls_Expedition_3_96-E044_2010_211_040704.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000514",
+   "label": "96_E044__2101201163",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Lung Volumes and Forced Spirometry",
+    "dataset_catalog": "96_E044__2101201163",
+    "dataset_description": [
+     "Pulmonary function tests were performed on eight crewmembers (7 male, 1 female) of the International Space Station who performed a total of 15 extravehicular activities (EVAs) and who followed denitrogenation procedures approved for EVA from the International Space Station. Of those EVAs, nine were performed using the Russian Orlan suits and six were performed using the US Extravehicular Mobility Unit (EMU).\r\n<P>\r\nSource:  Prisk GK, Fine JM, Cooper TK, and West JB. Pulmonary gas exchange is not impaired 24 h after extravehicular activity. <I>J Appl Physiol</I> 2005;99:2233-2238."
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "96-E044"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "b9636b45-84d8-5e88-95f4-c5087d15816b",
+     "label": "96_E044_2101201163.xls_Expedition_3_96-E044_2010_211_010756.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000771",
+   "label": "96_E044__2670554781",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Lung Function Before and After Long-duration Space Flight",
+    "dataset_catalog": "96_E044__2670554781",
+    "dataset_description": [
+     "Lung function was measured on ten subjects (9 male, 1 female) before and after they were exposed to 4-6 months of microgravity in the normobaric normoxic environment of the International Space Station.\r\n<P>\r\nSource:  Prisk GK, Fine JM, Cooper TK, West JB.  Lung function is unchanged in the 1 G environment following 6-months exposure to microgravity.  <I>Eur J Appl Physiol</> 2008 Aug;103(6):617-623."
+    ],
+    "processing_level": "",
+    "experiment_id": [
+     "96-E044"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "be2af92d-58e6-50a9-8db4-dc7aeb2c912c",
+     "label": "94_E044_2670554781.xls_Expedition_3_96-E044_2010_270_040947.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000770",
+   "label": "96_E044__1950418134",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Resting Gas Exchange in ISS Crewmembers",
+    "dataset_catalog": "96_E044__1950418134",
+    "dataset_description": [
+     "Pulmonary function tests were performed on eight crewmembers (7 male, 1 female) of the International Space Station who performed a total of 15 extravehicular activities (EVAs) and who followed denitrogenation procedures approved for EVA from the International Space Station. Of those EVAs, nine were performed using the Russian Orlan suits and six were performed using the US Extravehicular Mobility Unit (EMU).\r\n<P>\r\nSource:  Prisk GK, Fine JM, Cooper TK, and West JB. Pulmonary gas exchange is not impaired 24 h after extravehicular activity. <I>J Appl Physiol</I> 2005;99:2233-2238."
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "96-E044"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "bb351d6e-121d-5b6d-9d04-8309194cbdd1",
+     "label": "96_E044_1950418134.xls_Expedition_3_96-E044_2010_211_010715.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001294",
+   "label": "96_E044__2110117370",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Ventilation, Pulmonary Gas Exchange, VA/Q, and Pulmonary Perfusion",
+    "dataset_catalog": "96_E044__2110117370",
+    "dataset_description": [
+     "Lung function was measured on ten subjects (9 male, 1 female) before and after they were exposed to 4-6 months of microgravity in the normobaric normoxic environment of the International Space Station.\r\n<P>\r\nSource:  Prisk GK, Fine JM, Cooper TK, and West JB. Vital capacity, respiratory muscle strength, and pulmonary gas exchange during long-duration exposure to microgravity. <I>J Appl Physiol</I> 2006;101:439-447."
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "96-E044"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "2bca10cd-d62a-5fca-a528-7967e73257e6",
+     "label": "96_E044_2110117370.xls_Expedition_3_96-E044_2010_211_030730.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001946",
+   "label": "96_E044__2101156327",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Intra Breath Inhomogeneity of Ventilation-Perfusion Ratio (VA/Q)",
+    "dataset_catalog": "96_E044__2101156327",
+    "dataset_description": [
+     "Pulmonary function tests were performed on eight crewmembers (7 male, 1 female) of the International Space Station who performed a total of 15 extravehicular activities (EVAs) and who followed denitrogenation procedures approved for EVA from the International Space Station. Of those EVAs, nine were performed using the Russian Orlan suits and six were performed using the US Extravehicular Mobility Unit (EMU).\r\n<P>\r\nSource:  Prisk GK, Fine JM, Cooper TK, and West JB. Pulmonary gas exchange is not impaired 24 h after extravehicular activity. <I>J Appl Physiol</I> 2005;99:2233-2238."
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "96-E044"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "8c205ee3-eaaf-5611-afa4-9a25ebc35642",
+     "label": "96_E044_2101156327.xls_Expedition_3_96-E044_2010_211_010745.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002415",
+   "label": "96_E044__2100323944",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Forced Spirometry",
+    "dataset_catalog": "96_E044__2100323944",
+    "dataset_description": [
+     "Lung function was measured on ten subjects (9 male, 1 female) before and after they were exposed to 4-6 months of microgravity in the normobaric normoxic environment of the International Space Station.\r\n<P>\r\nSource:  Prisk GK, Fine JM, Cooper TK, and West JB. Vital capacity, respiratory muscle strength, and pulmonary gas exchange during long-duration exposure to microgravity. <I>J Appl Physiol</I> 2006;101:439-447."
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "96-E044"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "77998ccb-cac7-535f-8c6e-bff0e9426a3d",
+     "label": "96_E044_2100323944.xls_Expedition_3_96-E044_2010_211_010723.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,485 @@
+{
+ "record": {
+  "id": "28d79ca9-2cb0-5fbe-a4ac-021be1cd2df8",
+  "_id": "28d79ca9-2cb0-5fbe-a4ac-021be1cd2df8",
+  "__is_locked": false,
+  "experiment_title": "Bed Rest Standard Measures: Latent Virus Reactivation",
+  "__source_key": "cl62azrcfcdgx01o605x87z18",
+  "experiment_type": [
+   [
+    "Flight Analogs Project (FAP)"
+   ],
+   [
+    "Artificial Gravity (Fractional Gravity)"
+   ],
+   [
+    "NASA Bedrest Studies"
+   ],
+   [
+    "NASA Ground-Based Investigations"
+   ]
+  ],
+  "AssignedArchivist": [
+   "Liddell, Nyaia A."
+  ],
+  "keyword": [
+   "Herpesviridae/immunology",
+   "Immune system",
+   "Virus latency/physiology",
+   "Virus shedding/physiology",
+   "Cytomegalovirus/immunology",
+   "Bed rest"
+  ],
+  "__record_version": 32,
+  "experiment_description": "OBJECTIVES:<br>\nProlonged exposure to reduced gravity, physiological stress or other factors associated with space flight may result in immune system dysregulation.  Latent herpesvirus reactivation, a measurable result of dysregulated immunity, has been detected in crewmembers during and immediately following space missions.  \n<div>\nA panel of assays was designed to monitor immune system dysregulation, viral reactivation, and physiological stress has been developed and validated at the Johnson Space Center (JSC).  These assays will be applied to a future ISS/Shuttle Supplemental Medical Objective (SMO).  This assay panel is also appropriate to monitor the status and function of the immune system, viral reactivation, and physiological stress during ground-based analog studies.   These assays will be included on all future bed rest campaigns for the purpose of monitoring the immune status of the participants.  While bed rest is not the most appropriate model for space flight-associated immune dysregulation, it is possible that the various countermeasures proposed for evaluation during bed rest may affect immune function.  For this reason, the immune function of the participants will be monitored.\n</div><div>\nAPPROACH:<br>\nThere have been comparatively few flight studies investigating the effect of space flight on the human immune system.  Those studies that have been performed may be subdivided into the following categories:  (A) in flight culture of immune cells; (B) postflight assessments of crewmembers;  (C) in flight crewmember immune assessments.   These data were recently reviewed by Dr. Gerald Sonnenfeld (Sonnenfeld 2002, Sonnenfeld 2003) and are summarized as follows:\n</div><div>\nA.  In flight culture of immune cells<br>\n\nHuman studies have indicated that space flight changes human cell culture activities such as leukocyte blastogenesis, production of cytokines, and signal transduction of leukocytes.  Studies on animal cell cultures have also shown altered cytokine production and macrophage hematopoesis and function.   \n</div><div>\nB.  Postflight assessments of crewmembers<br>\n\nMost human space flight immunologic studies have explored the effects of space flight on cell-mediated immunity.  Inhibited mitogen-induced blastogenesis of leukocytes has been observed in cells obtained from astronauts and cosmonauts after the Apollo-Soyuz test project, Skylab, Space Shuttle and Soyuz flights.   Altered leukocyte subset distribution, altered cytokine production and altered natural killer (NK) cell activity have also been found to be altered immediately postflight.  \n</div><div>\nC.  In flight assessments of crewmembers<br>\n\nPrecious few studies have been performed using astronaut subjects during space flight.   Delayed hypersensitivity skin tests to common recall antigens were inhibited during short term and long term space flights.  On Space Shuttle mission STS-71 a novel device for staining whole blood samples with fluorescent antibodies was flight tested using three MIR-18 crewmembers as subjects.  Blood was collected and stained at a single timepoint late in the mission.  Only the bulk leukocyte and lymphocyte subsets were evaluated and no change was found in these crewmembers.  Recently, an in flight assessment of latent viral reactivation was performed using flight-collected saliva samples.  Latent viral reactivation is thought to directly correlate with diminished immune function.  The data showed that latent herpesviruses reactivate during flight to high levels. This is important since persistent viruses have been associated with non-Hodkins lymphoma tumors.  A short term space flight study on Shuttle assessed total antibody levels and found no change in total immunoglobulin levels, whereas a long-duration Soviet mission indicated small increases in total immunoglobulin levels.\n</div><div>\nIn the investigator's previous studies of astronauts, investigators found altered peripheral leukocyte distribution, altered cytokine production profiles, elevated levels of latent viral reactivation and elevated levels of cortisol during or immediately following long and short duration space flight.  In addition, significant increases in stress hormones (i.e., cortisol, catecholamines) were found after landing. Notably, investigators found increased shedding of Epstein-Barr virus (EBV) and cytomegalovirus (CMV), two medically important herpesviruses, during space flight along with evidence of decreased cellular immunity. These increases in stress hormones directly correlated with CMV and EBV reactivation. Thus, latent herpesvirus reactivation in these astronauts may have resulted from both direct (i.e., stress hormones) and indirect (i.e., decreased immune function) mechanisms stemming from launch and landing acceleration. These results underscore the need to determine the causes underlying immune suppression in space in order to develop countermeasures.\n</div><div>\nRESULTS:<br>\nIn general, subjects did not display altered peripheral leukocyte subsets, constitutive immune activation, altered T cell function, or significant latent viral reactivation (EBV, VZV). Levels of constitutively activated T cells (CD8+/CD69+) and virus-specific T cells (CMV and EBV) decreased during the study. Cortisol levels (plasma and saliva) did not vary significantly during 90-day bed rest. \n</div><div>\n<i>Conclusions:</i> These data demonstrate the absence of significant immune system alteration and physiological stress during 90-day bed rest, and establish control data against which future studies (including countermeasures) may be compared.</div>",
+  "indexed": "2026-08-23T04:24:49.182784+00:00",
+  "GUID": "cl62azrcfcdgx01o605x87z18",
+  "_file_extension": "human",
+  "archive_status": "Data preservation is complete.  All datasets are publicly available.",
+  "__model_type": "lsda_experiment",
+  "__dirid": "28d79ca9-2cb0-5fbe-a4ac-021be1cd2df8",
+  "__record_size_wo_doccontent": 107597,
+  "__update_method": "Update CDM",
+  "experiment_identifier": [
+   "BRSMLVR"
+  ],
+  "CompleteArchivalExpectedInFiscalYear": [
+   "0"
+  ],
+  "experiment_type_lk": [
+   "Flight Analogs Project (FAP)",
+   "Artificial Gravity (Fractional Gravity)",
+   "NASA Bedrest Studies",
+   "NASA Ground-Based Investigations"
+  ],
+  "__record_modified_date": "2026-08-23T04:24:49.182784+00:00",
+  "nasa_center": "JSC",
+  "__indexed": "2026-08-23T04:24:49.182784+00:00",
+  "__record_creation_date": "2022-07-28T19:56:22.366Z",
+  "__record_size": 107597,
+  "species_strain": [
+   [
+    "N/A"
+   ]
+  ],
+  "__model_version": 60,
+  "species_sci_name": [
+   [
+    "Homo sapiens"
+   ]
+  ],
+  "payload_id": [
+   "DBLS",
+   "CFT70",
+   "Campaign 5",
+   "Pilot",
+   "Campaign 3"
+  ],
+  "CombinedSpecies": [
+   "Human (Homo sapiens) N/A"
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "ncindex": 2,
+  "researchIndex": [
+   14
+  ],
+  "experiment_id": "BRSMLVR",
+  "center": "JSC",
+  "parameter_name": [
+   "Cytomegalovirus (CMV) DNA, urine",
+   "Epstein-Barr virus (EBV) DNA, plasma",
+   "Epstein-Barr virus (EBV) DNA, saliva",
+   "Varicella-zoster virus (VZV) DNA, saliva",
+   "Varicella-zoster virus (VZV) antibody, plasma"
+  ],
+  "exp_index": 1284,
+  "research_area": [
+   "Immunology"
+  ],
+  "species": [
+   [
+    "Human"
+   ]
+  ],
+  "pme_role_with_name": [
+   "Principal Investigator: Pierson, Duane L."
+  ],
+  "missions": [
+   "DBLS",
+   "UTMB Campaign 11",
+   "UTMB Campaign 5",
+   "Pilot",
+   "UTMB Campaign 3"
+  ],
+  "PI": [
+   "Pierson, Duane L."
+  ],
+  "sort": [
+   3,
+   "6cb915cf-b00a-582a-92bf-4942994b97cf"
+  ],
+  "parameter_html": "<table><tr><td>Cytomegalovirus (CMV) DNA, urine</td></tr><tr><td>Epstein-Barr virus (EBV) DNA, plasma</td></tr><tr><td>Epstein-Barr virus (EBV) DNA, saliva</td></tr><tr><td>Varicella-zoster virus (VZV) DNA, saliva</td></tr><tr><td>Varicella-zoster virus (VZV) antibody, plasma</td></tr><tr></tr></table>",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Pierson, Duane L.\">Principal Investigator: Pierson, Duane L.</a>",
+  "Program": "Ground",
+  "mission_id": [
+   "DBLS",
+   "UTMB Campaign 11",
+   "UTMB Campaign 5",
+   "Pilot",
+   "UTMB Campaign 3"
+  ],
+  "PrincipalInvestigator": [
+   "Pierson, Duane L."
+  ],
+  "__source_field_concat": "human cl62azrcfcdgx01o605x87z18 JSC JSC Bed Rest Standard Measures: Latent Virus Reactivation BRSMLVR Ground Data preservation is complete.  All datasets are publicly available.",
+  "__icon_type": "",
+  "__description": "OBJECTIVES:<br>\nProlonged exposure to reduced gravity, physiological stress or other factors associated with space flight may result in immune system dysregulation.  Latent herpesvirus reactivation, a measurable result of dysregulated immunity, has been detected in crewmembers during and immediately following space missions.  \n<div>\nA panel of assays was designed to monitor immune system dysregulation, viral reactivation, and physiological stress has been developed and validated at the Johnson Space Center (JSC).  These assays will be applied to a future ISS/Shuttle Supplemental Medical Objective (SMO).  This assay panel is also appropriate to monitor the status and function of the immune system, viral reactivation, and physiological stress during ground-based analog studies.   These assays will be included on all future bed rest campaigns for the purpose of monitoring the immune status of the participants.  While bed rest is not the most appropriate model for space flight-associated immune dysregulation, it is possible that the various countermeasures proposed for evaluation during bed rest may affect immune function.  For this reason, the immune function of the participants will be monitored.\n</div><div>\nAPPROACH:<br>\nThere have been comparatively few flight studies investigating the effect of space flight on the human immune system.  Those studies that have been performed may be subdivided into the following categories:  (A) in flight culture of immune cells; (B) postflight assessments of crewmembers;  (C) in flight crewmember immune assessments.   These data were recently reviewed by Dr. Gerald Sonnenfeld (Sonnenfeld 2002, Sonnenfeld 2003) and are summarized as follows:\n</div><div>\nA.  In flight culture of immune cells<br>\n\nHuman studies have indicated that space flight changes human cell culture activities such as leukocyte blastogenesis, production of cytokines, and signal transduction of leukocytes.  Studies on animal cell cultures have also shown altered cytokine production and macrophage hematopoesis and function.   \n</div><div>\nB.  Postflight assessments of crewmembers<br>\n\nMost human space flight immunologic studies have explored the effects of space flight on cell-mediated immunity.  Inhibited mitogen-induced blastogenesis of leukocytes has been observed in cells obtained from astronauts and cosmonauts after the Apollo-Soyuz test project, Skylab, Space Shuttle and Soyuz flights.   Altered leukocyte subset distribution, altered cytokine production and altered natural killer (NK) cell activity have also been found to be altered immediately postflight.  \n</div><div>\nC.  In flight assessments of crewmembers<br>\n\nPrecious few studies have been performed using astronaut subjects during space flight.   Delayed hypersensitivity skin tests to common recall antigens were inhibited during short term and long term space flights.  On Space Shuttle mission STS-71 a novel device for staining whole blood samples with fluorescent antibodies was flight tested using three MIR-18 crewmembers as subjects.  Blood was collected and stained at a single timepoint late in the mission.  Only the bulk leukocyte and lymphocyte subsets were evaluated and no change was found in these crewmembers.  Recently, an in flight assessment of latent viral reactivation was performed using flight-collected saliva samples.  Latent viral reactivation is thought to directly correlate with diminished immune function.  The data showed that latent herpesviruses reactivate during flight to high levels. This is important since persistent viruses have been associated with non-Hodkins lymphoma tumors.  A short term space flight study on Shuttle assessed total antibody levels and found no change in total immunoglobulin levels, whereas a long-duration Soviet mission indicated small increases in total immunoglobulin levels.\n</div><div>\nIn the investigator's previous studies of astronauts, investigators found altered peripheral leukocyte distribution, altered cytokine production profiles, elevated levels of latent viral reactivation and elevated levels of cortisol during or immediately following long and short duration space flight.  In addition, significant increases in stress hormones (i.e., cortisol, catecholamines) were found after landing. Notably, investigators found increased shedding of Epstein-Barr virus (EBV) and cytomegalovirus (CMV), two medically important herpesviruses, during space flight along with evidence of decreased cellular immunity. These increases in stress hormones directly correlated with CMV and EBV reactivation. Thus, latent herpesvirus reactivation in these astronauts may have resulted from both direct (i.e., stress hormones) and indirect (i.e., decreased immune function) mechanisms stemming from launch and landing acceleration. These results underscore the need to determine the causes underlying immune suppression in space in order to develop countermeasures.\n</div><div>\nRESULTS:<br>\nIn general, subjects did not display altered peripheral leukocyte subsets, constitutive immune activation, altered T cell function, or significant latent viral reactivation (EBV, VZV). Levels of constitutively activated T cells (CD8+/CD69+) and virus-specific T cells (CMV and EBV) decreased during the study. Cortisol levels (plasma and saliva) did not vary significantly during 90-day bed rest. \n</div><div>\n<i>Conclusions:</i> These data demonstrate the absence of significant immune system alteration and physiological stress during 90-day bed rest, and establish control data against which future studies (including countermeasures) may be compared.</div>",
+  "__doi": "10.83263/zakw-zt39",
+  "__doi_record_creation_date": "2026-08-23T04:24:49",
+  "__doi_record_modified_date": "2026-08-23T04:24:49"
+ },
+ "datasets": [
+  {
+   "key": "d66dedb6-c48a-5651-ada0-a0f73d26480f",
+   "label": "BRSMLVR_Campaign_3_Varicella_Zoster_Virus",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "UTMB Bedrest Campaign 3 BRSMLVR Varicella Zoster Virus",
+    "dataset_catalog": "BRSMLVR_Campaign_3_Varicella_Zoster_Virus",
+    "dataset_description": "This dataset contains a collection of the Bed Rest Standard Measure Latent Virus (BRSMLVR) Varicella Zoster Virus (VZV) collected during the Campaign 3 Bed Rest study.",
+    "processing_level": [
+     "Processed Data"
+    ],
+    "experiment_id": [
+     "BRSMLVR"
+    ]
+   },
+   "meta": "5 files \u00b7 15.0 KB",
+   "date": "2025-09-19",
+   "children": [
+    {
+     "key": "1356dbda-558e-5810-beae-bc96426da8a0",
+     "label": "BRSMLVR_Campaign_3_Latent_Virus_Reactivation_C3_VZV",
+     "type": "file",
+     "ext": "",
+     "file_size": 7001,
+     "meta": "6.8 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "86f39720-c1ee-5a46-bb46-4490197e13c5",
+     "label": "BRSMLVR_Campaign_3_Latent_Virus_Reactivation_C3F_VZV",
+     "type": "file",
+     "ext": "",
+     "file_size": 500,
+     "meta": "500 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7c06aba6-cd85-5df4-ad58-7666e1df8782",
+     "label": "BRSMLVR_Campaign_3_Latent_Virus_Reactivation_C3D_VZV",
+     "type": "file",
+     "ext": "",
+     "file_size": 3799,
+     "meta": "3.7 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "44f1e253-f8e0-5f78-8025-b7fc1f6e3747",
+     "label": "BRSMLVR_Campaign_3_Latent_Virus_Reactivation_C3E_VZV",
+     "type": "file",
+     "ext": "",
+     "file_size": 1915,
+     "meta": "1.9 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0422730b-cca7-51fe-b707-dc9bd61c9f62",
+     "label": "BRSMLVR_Campaign_3_Latent_Virus_Reactivation_C3G_VZV",
+     "type": "file",
+     "ext": "",
+     "file_size": 2185,
+     "meta": "2.1 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "fb2e79e6-9951-5c6a-bdf4-a9e369ed0cf4",
+   "label": "BRSMLVR_Campaign_3_Salivary_Cortisol",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "UTMB Bedrest Campaign 3 BRSMLVR Salivary Cortisol",
+    "dataset_catalog": "BRSMLVR_Campaign_3_Salivary_Cortisol",
+    "dataset_description": "This dataset contains a collection of the Bed Rest Standard Measure Latent Virus (BRSMLVR) Salivary Cortisol collected during the Campaign 3 Bed Rest study.",
+    "processing_level": [
+     "Processed Data"
+    ],
+    "experiment_id": [
+     "BRSMLVR"
+    ]
+   },
+   "meta": "4 files \u00b7 7.4 KB",
+   "date": "2025-09-19",
+   "children": [
+    {
+     "key": "66f071fc-da7c-56ad-aebb-a50f31f08be8",
+     "label": "BRSMLVR_Campaign_3_Latent_Virus_Reactivation_C3G_Salivary_Cortisol",
+     "type": "file",
+     "ext": "",
+     "file_size": 2687,
+     "meta": "2.6 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0bebcd3d-63c8-5ef6-80d2-67f7d85bc30b",
+     "label": "BRSMLVR_Campaign_3_Latent_Virus_Reactivation_C3F_Saliva_Cortisol",
+     "type": "file",
+     "ext": "",
+     "file_size": 624,
+     "meta": "624 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "fbcd615d-fb09-528c-ba33-9ca3259e3888",
+     "label": "BRSMLVR_Campaign_3_Latent_Virus_Reactivation_C3E_Saliva_Cortisol",
+     "type": "file",
+     "ext": "",
+     "file_size": 2422,
+     "meta": "2.4 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c9b02b5f-3c20-5ca0-95e7-f0a4ba835cea",
+     "label": "BRSMLVR_Campaign_3_Latent_Virus_Reactivation_C3D_Saliva_Cortisol",
+     "type": "file",
+     "ext": "",
+     "file_size": 1828,
+     "meta": "1.8 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "ee2eefba-bf80-5d73-a80f-59ad2a9ef3ae",
+   "label": "BRSMLVR_Campaign_3_Latent_Virus_Reactivation",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "UTMB Bedrest Campaign 3 Latent Virus Reactivation",
+    "dataset_catalog": "BRSMLVR_Campaign_3_Latent_Virus_Reactivation",
+    "dataset_description": "This dataset contains data for all Campaign 3 subjects for the Bed Rest Standard Measures Latent Virus (BRSMLVR) study.",
+    "processing_level": [
+     "Processed Data"
+    ],
+    "experiment_id": [
+     "BRSMLVR"
+    ]
+   },
+   "meta": "1 file \u00b7 21.9 KB",
+   "date": "2025-09-19",
+   "children": [
+    {
+     "key": "da371f2a-d6b7-58a1-a1d1-055f0ff299bb",
+     "label": "BRSMLVR_Campaign_3_Latent_Virus_Reactivation_C3H_Data",
+     "type": "file",
+     "ext": "",
+     "file_size": 22411,
+     "meta": "21.9 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "fc8e54a8-57c0-55b3-93ce-dbb4f3769f02",
+   "label": "BRSMLVR_Campaign_3_Epsteinn_Barr_Virus",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "UTMB Bedrest Campaign 3 BRSMLVR Epstein-Barr Virus",
+    "dataset_catalog": "BRSMLVR_Campaign_3_Epsteinn_Barr_Virus",
+    "dataset_description": "This dataset contains a collection of the Bed Rest Standard Measure Latent Virus (BRSMLVR) Epstein-Barr Virus (EBV) collected during the Campaign 3 Bed Rest study.",
+    "processing_level": [
+     "Processed Data"
+    ],
+    "experiment_id": [
+     "BRSMLVR"
+    ]
+   },
+   "meta": "5 files \u00b7 15.9 KB",
+   "date": "2025-09-19",
+   "children": [
+    {
+     "key": "582dab67-723f-592d-93db-67a5630b238b",
+     "label": "BRSMLVR_Campaign_3_Latent_Virus_Reactivation_C3G_EBV",
+     "type": "file",
+     "ext": "",
+     "file_size": 2244,
+     "meta": "2.2 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "59c6990f-2e3f-50c6-b57f-0bda456cce4d",
+     "label": "BRSMLVR_Campaign_3_Latent_Virus_Reactivation_C3F_EBV",
+     "type": "file",
+     "ext": "",
+     "file_size": 509,
+     "meta": "509 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "eaac1239-a3e1-51d4-80cf-b671a8dbf95d",
+     "label": "BRSMLVR_Campaign_3_Latent_Virus_Reactivation_C3_EBV",
+     "type": "file",
+     "ext": "",
+     "file_size": 7612,
+     "meta": "7.4 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8436873b-36ae-52d5-96a5-1a896fd98226",
+     "label": "BRSMLVR_Campaign_3_Latent_Virus_Reactivation_C3E_EBV",
+     "type": "file",
+     "ext": "",
+     "file_size": 1937,
+     "meta": "1.9 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "be9912c6-3118-5753-a653-8c46add8fce0",
+     "label": "BRSMLVR_Campaign_3_Latent_Virus_Reactivation_C3D_EBV",
+     "type": "file",
+     "ext": "",
+     "file_size": 3988,
+     "meta": "3.9 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "8a96e472-3154-5ef0-8cd2-dde6114c2690",
+   "label": "BRSMLVR_Campaign_3_Cytomegalovirus",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "UTMB Bedrest Campaign 3 BRSMLVR Cytomegalovirus",
+    "dataset_catalog": "BRSMLVR_Campaign_3_Cytomegalovirus",
+    "dataset_description": "",
+    "processing_level": [
+     "Processed Data"
+    ],
+    "experiment_id": [
+     "BRSMLVR"
+    ]
+   },
+   "meta": "4 files \u00b7 1.2 KB",
+   "date": "2025-09-19",
+   "children": [
+    {
+     "key": "2df5f61e-87ab-5f5b-a34e-6fcb1e787a52",
+     "label": "BRSMLVR_Campaign_3_Latent_Virus_Reactivation_C3F_CMV",
+     "type": "file",
+     "ext": "",
+     "file_size": 120,
+     "meta": "120 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f63cb518-44b1-55c2-9587-f6f328fd0592",
+     "label": "BRSMLVR_Campaign_3_Latent_Virus_Reactivation_C3E_CMV",
+     "type": "file",
+     "ext": "",
+     "file_size": 294,
+     "meta": "294 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8f86b5b1-bbcd-5b25-88e9-651144302438",
+     "label": "BRSMLVR_Campaign_3_Latent_Virus_Reactivation_C3D_CMV",
+     "type": "file",
+     "ext": "",
+     "file_size": 306,
+     "meta": "306 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1dad2519-e699-5ac1-b255-f746a586f1eb",
+     "label": "BRSMLVR_Campaign_3_Latent_Virus_Reactivation_C3G_CMV",
+     "type": "file",
+     "ext": "",
+     "file_size": 484,
+     "meta": "484 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "2b66ca82-3cdf-50ab-b7ee-b29862c0b1b4",
+   "label": "BRSMLVR_CFT70",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "BRSMLVR CFT70 Data",
+    "dataset_catalog": "BRSMLVR_CFT70",
+    "dataset_description": "This dataset contains a collection of the Bed Rest Standard Measure Latent Virus (BRSMLVR) collected during the CFT70 study.",
+    "processing_level": [
+     "Processed Data"
+    ],
+    "experiment_id": [
+     "BRSMLVR"
+    ]
+   },
+   "meta": "3 files \u00b7 55.1 KB",
+   "date": "2026-03-24",
+   "children": [
+    {
+     "key": "9ac1419d-739b-5c46-b284-9320d17a8f20",
+     "label": "BRSMLVR_CFT70_VZV",
+     "type": "file",
+     "ext": "",
+     "file_size": 26460,
+     "meta": "25.8 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d2ac80d0-c7b3-5882-9492-e182e5724271",
+     "label": "BRSMLVR_CFT70_EBV",
+     "type": "file",
+     "ext": "",
+     "file_size": 26054,
+     "meta": "25.4 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d42a2c85-2075-5067-85a0-dad39ca31645",
+     "label": "BRSMLVR_CFT70_CMV",
+     "type": "file",
+     "ext": "",
+     "file_size": 3890,
+     "meta": "3.8 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

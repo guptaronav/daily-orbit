@@ -1,0 +1,560 @@
+{
+ "record": {
+  "id": "c3b6f77d-8aa5-540e-8a6d-798783f6276f",
+  "_id": "c3b6f77d-8aa5-540e-8a6d-798783f6276f",
+  "experiment_title": "Pre- and Postflight Measurement of Cardiorespiratory Responses to Submaximal Exercise",
+  "pub_document_number": "PUB001846",
+  "archive_status_index": 2,
+  "parameter_html": "<table><tr><td>Age</td></tr><tr><td>Diastolic blood pressure</td></tr><tr><td>Heart rate</td></tr><tr><td>Height</td></tr><tr><td>Humidity</td></tr><tr><td>Systolic blood pressure</td></tr><tr><td>Temperature</td></tr><tr><td>Ventilatory threshold</td></tr><tr><td>Weight</td></tr><tr><td>Barometric pressure</td></tr><tr><td>Carbon dioxide production (VCO2)</td></tr><tr><td>Oxygen consumption (VO2)</td></tr><tr><td>Rating of perceived exertion (RPE)</td></tr><tr><td>Resporatory exchange ratio (RER)</td></tr><tr><td>Ventilation exchange (VE)</td></tr><tr></tr></table>",
+  "__source_key": "cl62ayrw1cd8h01o6a8a57ygk",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Moore, Alan\">Principal Investigator: Moore, Alan</a>",
+  "image_name": [
+   "Cycle Ergometer",
+   "Cycle Ergometer in Deployed Configuration",
+   "Cycle Ergometer in Launch and Landing Configuration",
+   "Heart Rate Watch Assembly"
+  ],
+  "experiment_type_lk": [
+   "Shuttle Detailed Supplementary Objectives (DSO)",
+   "Shuttle Extended Duration Orbiter Medical Project (EDOMP)"
+  ],
+  "__record_modified_date": "2026-08-23T04:21:09.911016+00:00",
+  "proposal_source": [
+   "N/A"
+  ],
+  "__indexed": "2026-08-23T04:21:09.911016+00:00",
+  "keyword": [
+   "Weightlessness countermeasures",
+   "Spectrum analysis, mass",
+   "Exercise test",
+   "Oxygen consumption",
+   "Heart rate",
+   "Ergometry",
+   "Exercise"
+  ],
+  "__record_creation_date": "2022-07-28T20:03:06.967Z",
+  "keyword_name": "Exercise",
+  "__record_version": 29,
+  "__record_size": 78071,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<br>\r\nIt is known that regular aerobic exercise can maintain aerobic capacity during bed rest. Therefore, aerobic exercise might also be able counteract the deconditioning effects of microgravity on aerobic exercise capacity. The objectives of this study were to document the degree of aerobic deconditioning after space flight and to investigate the use of aerobic exercise during flight to reduce the severity of postflight deconditioning.\r\n<p>\r\nAPPROACH:<br>\r\nThe study included 39 astronauts (35 men and 4 women) from missions lasting 8 to 16 days.  The astronauts performed exercise tests on an upright cycle ergometer at increasing rates of work until they reached 85% of their age-predicted maximum heart rates.  A monitor recorded the heart rate every 15 seconds during the tests. Aerobic capacity was defined as the peak oxygen consumption during the tests, which was measured with a Q-Plex system. The Q-Plex system is a computer driven device for cardiac, respiratory, and rehabilitation stress test (similar to an EKG stress monitor). The composition of exhaled air was analyzed either with a mass spectrometer preflight or with zirconium oxide and infrared sensors postflight. Oxygen consumption during the last minute of exercise was used as the index of cardiovascular performance. Results from tests performed 10 days before launch were compared to results from landing day.\r\n<p>\r\nThe astronauts exercised on a cycle ergometer during flight. No specific exercise protocol was required. Heart rates were recorded every 15 seconds during exercise. The frequency and duration of in-flight exercise sessions was noted, and the intensity of the exercise was quantified as the percentage of age-predicted maximum heart rate achieved during a session.\r\n<p>\r\nRESULTS:<br>\r\nLower work rates were achieved on landing day because the target heart rates were reached sooner, ending the tests. The rate of oxygen consumption that corresponded to a given heart rate was lower after the flight than before. At 85% of predicted maximum heart rate, the decrement in oxygen consumption was nine percent for astronauts who exercised during flight for more than 20 minutes at least three times a week at more than 70% of their predicted maximum heart rate. The decrement was greater for astronauts who exercised less often or at lower intensities. It was 15% for astronauts who exercised more than three times a week but achieved lower heart rates, and 23% for astronauts who exercised less frequently. The decrease in oxygen consumption did not correlate with flight duration. Because the exercise tests were performed upright, both exercise deconditioning and orthostatic deconditioning would have contributed to the higher heart rates during exercise. In this way the tests were similar to an emergency egress from the Shuttle. The results showed that in-flight exercise can help to maintain postflight aerobic capacity and that the intensity of exercise is important. On the basis of this and other studies (see DSOs 476, 608, and 618), it was recommended that space crews exercise for more than 20 minutes at least three times a week at work rates that elicit 70% of maximum heart rates, but that the maximum heart rates should be determined in preflight maximum exercise tests rather than estimated by age.\r\n<p>",
+  "payload_id": "DSO47",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "indexed": "2026-08-23T04:21:09.911016+00:00",
+  "experiment_id": "DSO 624",
+  "experiment_related": [
+   "DSO 618",
+   "DSO 608",
+   "DSO 476"
+  ],
+  "GUID": "cl62ayrw1cd8h01o6a8a57ygk",
+  "parameter_name": [
+   "Age",
+   "Diastolic blood pressure",
+   "Heart rate",
+   "Height",
+   "Humidity",
+   "Systolic blood pressure",
+   "Temperature",
+   "Ventilatory threshold",
+   "Weight",
+   "Barometric pressure",
+   "Carbon dioxide production (VCO2)",
+   "Oxygen consumption (VO2)",
+   "Rating of perceived exertion (RPE)",
+   "Resporatory exchange ratio (RER)",
+   "Ventilation exchange (VE)"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 623,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Cardiovascular physiology",
+   "Muscle physiology",
+   "Clinical medicine",
+   "Exercise physiology"
+  ],
+  "pme_role_with_name": [
+   "Principal Investigator: Moore, Alan"
+  ],
+  "missions": [
+   [
+    [
+     "STS-47"
+    ]
+   ],
+   [
+    [
+     "STS-56"
+    ]
+   ],
+   [
+    [
+     "STS-57"
+    ]
+   ],
+   [
+    [
+     "STS-58"
+    ]
+   ],
+   [
+    [
+     "STS-61"
+    ]
+   ],
+   [
+    [
+     "STS-59"
+    ]
+   ],
+   [
+    [
+     "STS-64"
+    ]
+   ],
+   [
+    [
+     "STS-66"
+    ]
+   ],
+   [
+    [
+     "STS-68"
+    ]
+   ],
+   [
+    [
+     "STS-67"
+    ]
+   ],
+   [
+    [
+     "STS-69"
+    ]
+   ],
+   [
+    [
+     "STS-70"
+    ]
+   ],
+   [
+    [
+     "STS-71"
+    ]
+   ]
+  ],
+  "__dirid": "c3b6f77d-8aa5-540e-8a6d-798783f6276f",
+  "__record_size_wo_doccontent": 78071,
+  "PI": [
+   "Moore, Alan"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "DSO 624"
+  ],
+  "mission_id": [
+   [
+    [
+     "STS-47"
+    ]
+   ],
+   [
+    [
+     "STS-56"
+    ]
+   ],
+   [
+    [
+     "STS-57"
+    ]
+   ],
+   [
+    [
+     "STS-58"
+    ]
+   ],
+   [
+    [
+     "STS-61"
+    ]
+   ],
+   [
+    [
+     "STS-59"
+    ]
+   ],
+   [
+    [
+     "STS-64"
+    ]
+   ],
+   [
+    [
+     "STS-66"
+    ]
+   ],
+   [
+    [
+     "STS-68"
+    ]
+   ],
+   [
+    [
+     "STS-67"
+    ]
+   ],
+   [
+    [
+     "STS-69"
+    ]
+   ],
+   [
+    [
+     "STS-70"
+    ]
+   ],
+   [
+    [
+     "STS-71"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Moore, Alan"
+  ],
+  "archive_status": "Data preservation is complete. Privacy-protected datasets are available via data request. Remaining datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Shuttle Program",
+  "__source_field_concat": "PUB001846 DSO47 cl62ayrw1cd8h01o6a8a57ygk Exercise  N/A Pre- and Postflight Measurement of Cardiorespiratory Responses to Submaximal Exercise DSO 624 Shuttle Program",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<br>\r\nIt is known that regular aerobic exercise can maintain aerobic capacity during bed rest. Therefore, aerobic exercise might also be able counteract the deconditioning effects of microgravity on aerobic exercise capacity. The objectives of this study were to document the degree of aerobic deconditioning after space flight and to investigate the use of aerobic exercise during flight to reduce the severity of postflight deconditioning.\r\n<p>\r\nAPPROACH:<br>\r\nThe study included 39 astronauts (35 men and 4 women) from missions lasting 8 to 16 days.  The astronauts performed exercise tests on an upright cycle ergometer at increasing rates of work until they reached 85% of their age-predicted maximum heart rates.  A monitor recorded the heart rate every 15 seconds during the tests. Aerobic capacity was defined as the peak oxygen consumption during the tests, which was measured with a Q-Plex system. The Q-Plex system is a computer driven device for cardiac, respiratory, and rehabilitation stress test (similar to an EKG stress monitor). The composition of exhaled air was analyzed either with a mass spectrometer preflight or with zirconium oxide and infrared sensors postflight. Oxygen consumption during the last minute of exercise was used as the index of cardiovascular performance. Results from tests performed 10 days before launch were compared to results from landing day.\r\n<p>\r\nThe astronauts exercised on a cycle ergometer during flight. No specific exercise protocol was required. Heart rates were recorded every 15 seconds during exercise. The frequency and duration of in-flight exercise sessions was noted, and the intensity of the exercise was quantified as the percentage of age-predicted maximum heart rate achieved during a session.\r\n<p>\r\nRESULTS:<br>\r\nLower work rates were achieved on landing day because the target heart rates were reached sooner, ending the tests. The rate of oxygen consumption that corresponded to a given heart rate was lower after the flight than before. At 85% of predicted maximum heart rate, the decrement in oxygen consumption was nine percent for astronauts who exercised during flight for more than 20 minutes at least three times a week at more than 70% of their predicted maximum heart rate. The decrement was greater for astronauts who exercised less often or at lower intensities. It was 15% for astronauts who exercised more than three times a week but achieved lower heart rates, and 23% for astronauts who exercised less frequently. The decrease in oxygen consumption did not correlate with flight duration. Because the exercise tests were performed upright, both exercise deconditioning and orthostatic deconditioning would have contributed to the higher heart rates during exercise. In this way the tests were similar to an emergency egress from the Shuttle. The results showed that in-flight exercise can help to maintain postflight aerobic capacity and that the intensity of exercise is important. On the basis of this and other studies (see DSOs 476, 608, and 618), it was recommended that space crews exercise for more than 20 minutes at least three times a week at work rates that elicit 70% of maximum heart rates, but that the maximum heart rates should be determined in preflight maximum exercise tests rather than estimated by age.\r\n<p>",
+  "__doi": "10.83263/wjse-8a69",
+  "__doi_record_creation_date": "2026-08-23T04:21:09",
+  "__doi_record_modified_date": "2026-08-23T04:21:09"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001015",
+   "label": "JMDSO_624_1",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Work Rates and Heart Rates",
+    "dataset_catalog": "JMDSO_624_1",
+    "dataset_description": [
+     "This is a graph of DSO 624 subjects (n=25) who performed identical work rates before and after space flight.  The subjects demonstrated an increase in cardiovascular stress by an increased HR, with no change in VO2, within each exercise stage on landing day.\r\n<p>\r\nSource: Extended Duration Orbiter Medical Project (EDOMP) Final Report 1989-1995."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 624"
+    ]
+   },
+   "meta": "13 files \u00b7 1.21 MB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "dda6647c-1e05-500c-8fcb-e9c1af1a7467",
+     "label": "JMDSO_624_1.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 97894,
+     "meta": "95.6 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8566ab87-f92d-5a9d-8eb3-59cfeb1fc43e",
+     "label": "JMDSO_624_1.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 97894,
+     "meta": "95.6 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ca332a57-63c8-5c8a-a4a6-4bb39c073c14",
+     "label": "JMDSO_624_1.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 97894,
+     "meta": "95.6 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d8c24130-3643-5765-b713-7ae70908f76a",
+     "label": "JMDSO_624_1.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 97894,
+     "meta": "95.6 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "40bf9550-a175-567e-95cd-1214454c481c",
+     "label": "JMDSO_624_1.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 97894,
+     "meta": "95.6 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "058369f8-29a0-590e-bca4-3c0491811536",
+     "label": "JMDSO_624_1.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 97894,
+     "meta": "95.6 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a2b5bfb5-ecae-581e-8fb7-5d35fff4769d",
+     "label": "JMDSO_624_1.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 97894,
+     "meta": "95.6 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "dfd86d45-3a14-54b8-8267-86697681bd53",
+     "label": "JMDSO_624_1.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 97894,
+     "meta": "95.6 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b049b78d-bf3c-5a63-befd-da2a16b560fe",
+     "label": "JMDSO_624_1.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 97894,
+     "meta": "95.6 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6d6c43c1-5805-50e2-809c-ffba2ebb9518",
+     "label": "JMDSO_624_1.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 97894,
+     "meta": "95.6 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "68745c73-d05a-5886-9728-acad0a7b37a5",
+     "label": "JMDSO_624_1.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 97894,
+     "meta": "95.6 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "31328faa-b6fd-5e68-a0bb-94c5fe7ac6f0",
+     "label": "JMDSO_624_1.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 97894,
+     "meta": "95.6 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e9b6af27-0c1b-56e7-8c10-4d42b5b0c3ab",
+     "label": "JMDSO_624_1.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 97894,
+     "meta": "95.6 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002195",
+   "label": "JMDSO_624_2",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Oxygen Consumption and Exercise Groups",
+    "dataset_catalog": "JMDSO_624_2",
+    "dataset_description": [
+     "This is a graph which depicts oxygen consumption for four groups in the DSO 624 study.  In-flight exercise patterns appear to influence the degree of oxygen consumption change at the termination workload (85% age-predicted HR max) following flight.\r\n<p>\r\nSource: Extended Duration Orbiter Medical Project (EDOMP) Final Report 1989-1995."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 624"
+    ]
+   },
+   "meta": "13 files \u00b7 3.12 MB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "721ef276-6563-5f9a-a28a-4c5ebaba1396",
+     "label": "JMDSO_624_2.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 251904,
+     "meta": "246.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3528bfa3-81fd-5b10-9748-09d48170de17",
+     "label": "JMDSO_624_2.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 251904,
+     "meta": "246.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "54e4de66-deaa-5258-9dcf-95e803278183",
+     "label": "JMDSO_624_2.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 251904,
+     "meta": "246.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "fc5e7b46-9375-504e-a985-7e23b4fec6a1",
+     "label": "JMDSO_624_2.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 251904,
+     "meta": "246.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1d957dc0-5854-5874-a354-e4dd49db04ca",
+     "label": "JMDSO_624_2.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 251904,
+     "meta": "246.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7ca826b0-edfb-5349-bd6d-96f169ed6681",
+     "label": "JMDSO_624_2.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 251904,
+     "meta": "246.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e6685e91-7cb9-5030-afe4-58d470f82a55",
+     "label": "JMDSO_624_2.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 251904,
+     "meta": "246.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0d6afbc9-2afd-5376-b6a0-659484dfbc67",
+     "label": "JMDSO_624_2.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 251904,
+     "meta": "246.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f58f6dc1-eef4-5722-b9ad-0c9257ad792d",
+     "label": "JMDSO_624_2.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 251904,
+     "meta": "246.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5bfd5a90-da8c-5a0b-a3e8-5fb78f930ac3",
+     "label": "JMDSO_624_2.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 251904,
+     "meta": "246.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ecace12a-9f61-538c-a3cd-69d8f96fbc51",
+     "label": "JMDSO_624_2.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 251904,
+     "meta": "246.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "042575e2-ce1d-57c6-bb33-318201968c1e",
+     "label": "JMDSO_624_2.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 251904,
+     "meta": "246.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "73130627-680b-5af2-b9b2-3c0ce29681a0",
+     "label": "JMDSO_624_2.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 251904,
+     "meta": "246.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

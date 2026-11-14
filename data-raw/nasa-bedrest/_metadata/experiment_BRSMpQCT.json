@@ -1,0 +1,1249 @@
+{
+ "record": {
+  "id": "abf33b2e-3085-5c85-ad58-487ccbeaa762",
+  "_id": "abf33b2e-3085-5c85-ad58-487ccbeaa762",
+  "__is_locked": false,
+  "experiment_title": "Peripheral Quantitative Computed Tomography (pQCT)",
+  "__source_key": "cl62azq0pcdgl01o679uxgato",
+  "experiment_type": [
+   [
+    "Artificial Gravity (Fractional Gravity)"
+   ],
+   [
+    "Flight Analogs Project (FAP)"
+   ],
+   [
+    "NASA Bedrest Studies"
+   ],
+   [
+    "NASA Ground-Based Investigations"
+   ]
+  ],
+  "AssignedArchivist": [
+   "Liddell, Nyaia A."
+  ],
+  "keyword": [
+   "Tomography, X-Ray computed",
+   "Bone density"
+  ],
+  "__record_version": 31,
+  "experiment_description": "OBJECTIVES:<br>\nThe objective of this study is to obtain more precise measures of bone mass and structure to be used in estimating bone strength particularly with regard to prolonged disuse, experienced by subjects participating in long duration bed rest studies. \n<div>\nPeripheral Quantitative Computerized Tomography or pQCT, is a relatively new bone measurement technology that provides information beyond that obtained by traditional DXA. This additional information includes area and bone mineral density of trabecular vs. cortical bone as well as estimates of bone strength (strength-strain index). pQCT scans can be obtained on peripheral sites including the tibia. Because pQCT can distinguish between cortical and trabecular bone (the latter of which loses bone preferentially with disuse), pQCT may prove to be a more sensitive measure than DXA for detecting disuse bone changes. If this is so, pQCT measurements might in the future allow for earlier acceptance or rejection of bone-related countermeasures than would be provided by DXA alone. JSC's long duration bed rest studies provide an important opportunity to validate the utility of pQCT measurements for monitoring disuse bone loss, with minimal associated time requirements or radiation exposure. In addition, pQCT provides important information regarding bone strength by measuring a strength-strain index for the scanned bone region. This information is not available with DXA.\n</div><div>\nAPPROACH:<br>\npQCT scans will be performed using an XCT 3000 manufactured by Stratec, Medizintechnik. Three scans will be performed on each subject's tibia (distal tibia, mid shaft tibia, and 1-3 regions of the proximal tibia) where positions will be measured from the endplate of the tibia. Scan analyses will be performed using the analysis software provided by the manufacturer. The following parameters will be measured from each scan: trabecular area (TrA) and density (TrD) (except at mid shaft), cortical area and density, bone mineral content (BMC), and a strength-strain index (SSI), which is a density weighted section modulus. It is expected that pQCT results will provide baseline data for long duration studies and evaluation of bone countermeasure studies\n</div><div>\nRESULTS:<br>\nThis experiment has concluded in ground-based studies sponsored by the National Aeronautics and Space Administration's Human Adaptation and Countermeasures Division. This experiment was conducted during Bed Rest Campaigns 3A-3F and Campaign 5A - 5C and the Artificial Gravity Study. <end></end></div>",
+  "indexed": "2026-08-23T03:54:26.433480+00:00",
+  "GUID": "cl62azq0pcdgl01o679uxgato",
+  "_file_extension": "human",
+  "archive_status": "Data preservation is complete.  All datasets are publicly available.",
+  "__model_type": "lsda_experiment",
+  "__dirid": "abf33b2e-3085-5c85-ad58-487ccbeaa762",
+  "__record_size_wo_doccontent": 71785,
+  "__update_method": "Update CDM",
+  "experiment_identifier": [
+   "BRSMpQCT"
+  ],
+  "CompleteArchivalExpectedInFiscalYear": [
+   "0"
+  ],
+  "experiment_type_lk": [
+   "Artificial Gravity (Fractional Gravity)",
+   "Flight Analogs Project (FAP)",
+   "NASA Bedrest Studies",
+   "NASA Ground-Based Investigations"
+  ],
+  "__record_modified_date": "2026-08-23T03:54:26.433480+00:00",
+  "nasa_center": "JSC",
+  "__indexed": "2026-08-23T03:54:26.433480+00:00",
+  "__record_creation_date": "2022-07-28T19:59:11.842Z",
+  "__record_size": 71785,
+  "species_strain": [
+   [
+    "N/A"
+   ]
+  ],
+  "__model_version": 60,
+  "species_sci_name": [
+   [
+    "Homo sapiens"
+   ]
+  ],
+  "payload_id": [
+   "Campaign 5",
+   "Campaign 3",
+   "Pilot"
+  ],
+  "CombinedSpecies": [
+   "Human (Homo sapiens) N/A"
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "ncindex": 2,
+  "researchIndex": [
+   1087
+  ],
+  "experiment_id": "BRSMpQCT",
+  "center": "JSC",
+  "parameter_name": [
+   "Axial inertia",
+   "Cortical area",
+   "Cortical attenuation",
+   "Cortical content",
+   "Cortical density",
+   "Cortical thickness",
+   "Distal tibia",
+   "Endosteal circumference",
+   "Inertia",
+   "Periosteal circumference",
+   "Proximal tibia",
+   "Resistance",
+   "Strength strain",
+   "Subcortical attenuation",
+   "Subcortical content",
+   "Subcortical density",
+   "Total bone area",
+   "Total bone attenuation",
+   "Total bone content",
+   "Total bone density",
+   "Total density",
+   "Trabecular attenuation",
+   "Trabecular content",
+   "Voxel size",
+   "Polar moment of inertia",
+   "Trabecular density (TrD)"
+  ],
+  "exp_index": 1122,
+  "research_area": [
+   "Skeletal physiology"
+  ],
+  "species": [
+   [
+    "Human"
+   ]
+  ],
+  "pme_role_with_name": [
+   "Principal Investigator: Sibonga, Jean D.",
+   "Principal Investigator: LeBlanc, Adrian D."
+  ],
+  "missions": [
+   "UTMB Campaign 5",
+   "UTMB Campaign 3",
+   "Pilot"
+  ],
+  "PI": [
+   "Sibonga, Jean D.",
+   "LeBlanc, Adrian D."
+  ],
+  "sort": [
+   3,
+   "25eeb0a1-a8e3-589f-8224-47a9f8f7a19f"
+  ],
+  "Program": "Ground",
+  "parameter_html": "<table><tr><td>Axial inertia</td></tr><tr><td>Cortical area</td></tr><tr><td>Cortical attenuation</td></tr><tr><td>Cortical content</td></tr><tr><td>Cortical density</td></tr><tr><td>Cortical thickness</td></tr><tr><td>Distal tibia</td></tr><tr><td>Endosteal circumference</td></tr><tr><td>Inertia</td></tr><tr><td>Periosteal circumference</td></tr><tr><td>Proximal tibia</td></tr><tr><td>Resistance</td></tr><tr><td>Strength strain</td></tr><tr><td>Subcortical attenuation</td></tr><tr><td>Subcortical content</td></tr><tr><td>Subcortical density</td></tr><tr><td>Total bone area</td></tr><tr><td>Total bone attenuation</td></tr><tr><td>Total bone content</td></tr><tr><td>Total bone density</td></tr><tr><td>Total density</td></tr><tr><td>Trabecular attenuation</td></tr><tr><td>Trabecular content</td></tr><tr><td>Voxel size</td></tr><tr><td>Polar moment of inertia</td></tr><tr><td>Trabecular density (TrD)</td></tr><tr></tr></table>",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:LeBlanc, Adrian D.\">Principal Investigator: LeBlanc, Adrian D.</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Sibonga, Jean D.\">Principal Investigator: Sibonga, Jean D.</a>",
+  "PrincipalInvestigator": [
+   "Sibonga, Jean D.",
+   "LeBlanc, Adrian D."
+  ],
+  "mission_id": [
+   "UTMB Campaign 5",
+   "UTMB Campaign 3",
+   "Pilot"
+  ],
+  "__source_field_concat": "human cl62azq0pcdgl01o679uxgato JSC JSC Peripheral Quantitative Computed Tomography (pQCT) BRSMpQCT Ground Data preservation is complete.  All datasets are publicly available.",
+  "__icon_type": "",
+  "__description": "OBJECTIVES:<br>\nThe objective of this study is to obtain more precise measures of bone mass and structure to be used in estimating bone strength particularly with regard to prolonged disuse, experienced by subjects participating in long duration bed rest studies. \n<div>\nPeripheral Quantitative Computerized Tomography or pQCT, is a relatively new bone measurement technology that provides information beyond that obtained by traditional DXA. This additional information includes area and bone mineral density of trabecular vs. cortical bone as well as estimates of bone strength (strength-strain index). pQCT scans can be obtained on peripheral sites including the tibia. Because pQCT can distinguish between cortical and trabecular bone (the latter of which loses bone preferentially with disuse), pQCT may prove to be a more sensitive measure than DXA for detecting disuse bone changes. If this is so, pQCT measurements might in the future allow for earlier acceptance or rejection of bone-related countermeasures than would be provided by DXA alone. JSC's long duration bed rest studies provide an important opportunity to validate the utility of pQCT measurements for monitoring disuse bone loss, with minimal associated time requirements or radiation exposure. In addition, pQCT provides important information regarding bone strength by measuring a strength-strain index for the scanned bone region. This information is not available with DXA.\n</div><div>\nAPPROACH:<br>\npQCT scans will be performed using an XCT 3000 manufactured by Stratec, Medizintechnik. Three scans will be performed on each subject's tibia (distal tibia, mid shaft tibia, and 1-3 regions of the proximal tibia) where positions will be measured from the endplate of the tibia. Scan analyses will be performed using the analysis software provided by the manufacturer. The following parameters will be measured from each scan: trabecular area (TrA) and density (TrD) (except at mid shaft), cortical area and density, bone mineral content (BMC), and a strength-strain index (SSI), which is a density weighted section modulus. It is expected that pQCT results will provide baseline data for long duration studies and evaluation of bone countermeasure studies\n</div><div>\nRESULTS:<br>\nThis experiment has concluded in ground-based studies sponsored by the National Aeronautics and Space Administration's Human Adaptation and Countermeasures Division. This experiment was conducted during Bed Rest Campaigns 3A-3F and Campaign 5A - 5C and the Artificial Gravity Study. <end></end></div>",
+  "__doi": "10.83263/e30m-bb67",
+  "__doi_record_creation_date": "2026-08-23T03:54:26",
+  "__doi_record_modified_date": "2026-08-23T03:54:26"
+ },
+ "datasets": [
+  {
+   "key": "383836c2-e134-51cc-9257-cbbbd8474c06",
+   "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_Summary",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "UTMB Bedrest Campaign 3 BRSMPQCT Summary",
+    "dataset_catalog": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_Summary",
+    "dataset_description": "This dataset contains a collection of Quantitative Computerized Tomography (QCT) summarized data resulting from the bed rest standard measure QCT (BRSMQCT) session for all subjects who completed the Flight Analog Project Campaign 3 Bed Rest Study.  Data was collected at UTMB and data analysis took place at the JSC Bone and Mineral Lab.",
+    "processing_level": [
+     "Summarized Data"
+    ],
+    "experiment_id": [
+     "BRSMpQCT"
+    ]
+   },
+   "meta": "64 files \u00b7 83.7 KB",
+   "date": "2025-09-19",
+   "children": [
+    {
+     "key": "18fb71f8-4e4c-52ec-8723-8c33997546f7",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3E_6043_Pre_Post_%_Change_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 338,
+     "meta": "338 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e94dc424-2f9b-53d3-a932-9da52b9a9c8b",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3E_6043_Pre_60_Change_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 339,
+     "meta": "339 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "033a780d-46e6-57f6-9b25-68a0e7230be6",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3C_7772_Pre_Post_Change_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 358,
+     "meta": "358 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5d490cfd-5ac3-5e36-b4ef-e14c4d533d7e",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3C_7352_Pre_60%_Change_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 358,
+     "meta": "358 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "03f8feca-4c3b-5855-b43d-9c1079ec0921",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3D_8779_Pre_60%_Change_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 347,
+     "meta": "347 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6ca9a53e-c337-5a0c-9b5e-91dbec2f5ecc",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3D_3985_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 4672,
+     "meta": "4.6 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6d282547-8580-542e-9bf3-1baa6ce4f3b3",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3C_7772_Pre_60%_Change_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 357,
+     "meta": "357 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "28bbbb7c-6cda-5326-a35b-3be9243aef00",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3E_6043_Pre_60%_Change_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 337,
+     "meta": "337 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4809a732-3910-54d6-aefb-6cf2ed433e25",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3E_6607_Pre_60%_Change_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 339,
+     "meta": "339 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b1fe9213-86e2-5c75-9b58-7784b80a409a",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3D_7961_Pre_Post_Change_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 348,
+     "meta": "348 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5d2b721a-927d-53f7-93d2-b16e35d8fe98",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomograhy_C3D_7961_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 4510,
+     "meta": "4.4 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d101ff20-bbcb-559e-8462-36a4157c4d61",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3E_6043_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 4677,
+     "meta": "4.6 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c20cf52b-c938-5cc5-8918-b41e9910f6a7",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3C_7352_Pre_Post_%_Change_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 360,
+     "meta": "360 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e9b102e5-0318-5f00-ae92-e39cf822f49b",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3F_9016_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 3132,
+     "meta": "3.1 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "56cac78a-76fb-577c-9537-94178320e7a2",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3D_8615_Pre_Post_Change_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 360,
+     "meta": "360 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "66c439f1-3637-5bd7-b852-da13dc0ed5a3",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3C_7352_Pre_60_Change_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 363,
+     "meta": "363 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "378c19a8-10cc-5aed-81d3-98404ce898f1",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3H_5907_Right_Hip_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 3319,
+     "meta": "3.2 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4535516b-4cc8-557e-9891-8fa046e9df56",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3D_8615_Pre_Post_%_Change_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 356,
+     "meta": "356 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5c239696-55b8-5624-8263-a61fe1c25769",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3D_5165_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 4638,
+     "meta": "4.5 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "689417b7-b6a5-559f-ac22-6a982ae62183",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3C_7352_Pre_Post_Change_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 361,
+     "meta": "361 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5b7864a3-5e1c-54df-a3fb-d12b17e552d5",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3D_8615_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 4647,
+     "meta": "4.5 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1b9a7423-5478-50ec-8261-a1d78f0a69b0",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3D_3985_Pre_Post_%_Change_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 352,
+     "meta": "352 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "bf45669e-020a-5963-b86c-164ac656845b",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3D_7984_Pre_Post_%_Change_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 352,
+     "meta": "352 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "083d14c5-609d-507e-af71-745fa20356f7",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3D_3985_Pre_60_Change_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 343,
+     "meta": "343 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "245d35b9-118f-54be-a86c-457618f3a9c0",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3D_8881_Pre_Post_%_Change_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 340,
+     "meta": "340 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3ba88a68-c536-5661-8001-704cd389798e",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3D_7984_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 4689,
+     "meta": "4.6 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "282987ea-2a50-5d9d-8ba0-cb41316220d8",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3D_7984_Pre_60%_Change_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 353,
+     "meta": "353 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "fe74b3c9-6e96-5901-bcb3-9ff402a40031",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3F_9016_Pre_60%_Change_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 349,
+     "meta": "349 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "de73d40c-ec4c-566d-8848-6b529a154f73",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3D_8615_Pre_60%_Change_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 345,
+     "meta": "345 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4eb3fd8e-98e0-5d15-84fa-9678fd7b747a",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3D_8881_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 4501,
+     "meta": "4.4 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "92c1e681-9271-56bb-9016-46bc75230bf2",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3C_7772_Pre_Post_%_Change_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 364,
+     "meta": "364 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "75c713e4-ad4a-56c1-b1c5-5735761feff0",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3D_3985_Pre_60%_Change_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 347,
+     "meta": "347 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "eed7914f-bdb6-56e5-ad34-6c6e60ce29f0",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3F_9947_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 1575,
+     "meta": "1.5 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d51f9484-3f7f-5c8c-9fed-bfb4ccc088d5",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3D_8881_Pre_60_Change_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 343,
+     "meta": "343 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e2d5b8c6-dc5b-5359-a1a5-89ecc71681c3",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3D_8779_Pre_Post_%_Change_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 349,
+     "meta": "349 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "95ebad6c-8b5b-5684-8876-e25821154a71",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3D_5165_Pre_60_Change_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 344,
+     "meta": "344 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "293d857b-6cd0-52ba-8fec-dfbf8b42fc8c",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3F_5683_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 1582,
+     "meta": "1.5 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "fa85f944-2f75-5613-ba36-56d9f21a21ce",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3D_7961_Pre_60_Change_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 351,
+     "meta": "351 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2e2ca8af-d61e-5dc3-b514-b830b15b8d5a",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3D_7984_Pre_60_Change_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 351,
+     "meta": "351 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "41f6039d-28c9-578f-9d79-92854d640480",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3E_6607_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 3151,
+     "meta": "3.1 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "fe4fd112-b0c0-5761-9b85-185137be409b",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3E_6043_Pre_Post_Change_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 342,
+     "meta": "342 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "93eb2b18-9c21-5aa7-b078-55436445a3c1",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3D_5165_Pre_Post_Change_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 340,
+     "meta": "340 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "10caa62b-5c8e-535c-aa96-94c1d42b6b22",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3H_5907_Spine_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 2958,
+     "meta": "2.9 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "00dcafe0-e671-5e12-977d-77a7f7defbef",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3F_8454_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 1583,
+     "meta": "1.5 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e7b32c1a-4b55-5364-a694-f6267f54f0c0",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3F_9846_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 1581,
+     "meta": "1.5 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2901e3a6-9ab7-516c-af18-8a164adfa956",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3E_6607_Pre_60_Change_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 342,
+     "meta": "342 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f339e2ce-7d57-54db-b269-054d220c2119",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3F_5705_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 1586,
+     "meta": "1.5 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "90a3ce53-9814-5144-a28d-e955c8116d2f",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3D_7961_Pre_60%_Change_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 348,
+     "meta": "348 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7fd0a88f-bc4d-5e33-af74-88dd524313b4",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3D_8615_Pre_60_Change_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 352,
+     "meta": "352 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3430209f-fd76-57fd-8e12-63397c580478",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3D_7984_Pre_Post_Change_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 352,
+     "meta": "352 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "945300a9-7e2f-5605-9e7f-ea32c4b0692b",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3C_7772_Pre_60_Change_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 359,
+     "meta": "359 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "fea1ff7d-0264-502a-bce2-884719805913",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3H_5907_Left_Hip_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 1552,
+     "meta": "1.5 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4b4ba1a0-5312-5ca7-9c30-b3990624d724",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3D_7961_Pre_Post_%_Change_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 346,
+     "meta": "346 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "fb17b7e6-c317-5658-9bc2-5d5baee2532d",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3C_7352_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 5669,
+     "meta": "5.5 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "416bf172-8387-5a28-8126-cb21cdbcd58f",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3F_9016_Pre_60_Change_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 348,
+     "meta": "348 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "951d9b8e-d7a7-5156-b659-3e5f213d7781",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3D_8881_Pre_Post_Change_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 343,
+     "meta": "343 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f92f5a6a-0cee-5ff9-86be-1b123978366b",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3D_5165_Pre_60%_Change_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 343,
+     "meta": "343 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d0126161-6ae5-5192-a83c-a470cbee1963",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3C_7772_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 5688,
+     "meta": "5.6 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "73b2b472-368a-551b-bb04-993d85e29b82",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3D_8779_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 4653,
+     "meta": "4.5 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "037aefdc-6513-5d36-8158-dc8f78115ca6",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3D_8779_Pre_Post_Change_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 347,
+     "meta": "347 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "74bb8221-8dfa-5854-96ad-511c28ee3393",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3D_8881_Pre_60%_Change_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 340,
+     "meta": "340 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7cf99dfe-79fc-55bb-ba1c-fa48a40a47d6",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3D_5165_Pre_Post_%_Change_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 344,
+     "meta": "344 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "88ccdde3-574f-5b6e-be8c-d6abaed7dcf4",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3D_8779_Pre_60_Change_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 344,
+     "meta": "344 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "121062b1-7038-5693-a3fe-5099e9e47beb",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3D_3985_Pre_Post_Change_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 351,
+     "meta": "351 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "10473685-2912-52e8-a6e1-42e499121889",
+   "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_SSI_Analysis",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "UTMB Bedrest Campaign 3 BRSMPQCT Strength-Strain Analysis",
+    "dataset_catalog": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_SSI_Analysis",
+    "dataset_description": "This dataset contains a collection of Quantitative Computerized Tomography (QCT) Strength-Strain Index (SSI) Analysis data resulting from the bed rest standard measure QCT (BRSMQCT) session for all subjects who completed the Flight Analog Project Campaign 3 Bed Rest Study. The Analyzed Data contains tabular data file for each subjects. Data was collected at UTMB and data analysis took place at the JSC Bone and Mineral Lab.",
+    "processing_level": [
+     "Processed Data"
+    ],
+    "experiment_id": [
+     "BRSMpQCT"
+    ]
+   },
+   "meta": "17 files \u00b7 319.7 KB",
+   "date": "2025-09-19",
+   "children": [
+    {
+     "key": "c44868ae-2d7b-599a-9494-3896721276ed",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3F_9016_SSI_Analysis",
+     "type": "file",
+     "ext": "",
+     "file_size": 17414,
+     "meta": "17.0 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6cb07e51-6af9-54cd-a714-8f04ab28986b",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3D_3985_SSI_Analysis",
+     "type": "file",
+     "ext": "",
+     "file_size": 21626,
+     "meta": "21.1 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "867eaf72-67f2-58e9-b84b-fb3e7b0b7a6c",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3F_5705_SSI_Analysis",
+     "type": "file",
+     "ext": "",
+     "file_size": 8937,
+     "meta": "8.7 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "90d619b8-e2a6-574f-9015-b7112dd09d1e",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3D_7961_SSI_Analysis",
+     "type": "file",
+     "ext": "",
+     "file_size": 21588,
+     "meta": "21.1 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d5abb563-232b-5c75-aaa4-51b7625e4f12",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3D_8881_SSI_Analysis",
+     "type": "file",
+     "ext": "",
+     "file_size": 23771,
+     "meta": "23.2 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "92c90ccf-7842-58d9-a031-72a2a75648b3",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3C_7352_SSI_Analysis",
+     "type": "file",
+     "ext": "",
+     "file_size": 25710,
+     "meta": "25.1 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7c32e875-7e2e-52a8-8e0a-e3d771d605d0",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3F_9947_SSI_Analysis",
+     "type": "file",
+     "ext": "",
+     "file_size": 9070,
+     "meta": "8.9 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "964f433b-3a30-56d2-8ec1-089dbbe732b5",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3E_6043_SSI_Analysis",
+     "type": "file",
+     "ext": "",
+     "file_size": 25805,
+     "meta": "25.2 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e7a6e5e1-ac0b-5680-b188-079d969cfe92",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3D_8615_SSI_Analysis",
+     "type": "file",
+     "ext": "",
+     "file_size": 25662,
+     "meta": "25.1 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e327fb2c-9b62-5e1b-950f-16b47c7e9b12",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3F_8454_SSI_Analysis",
+     "type": "file",
+     "ext": "",
+     "file_size": 9124,
+     "meta": "8.9 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7bdabf4e-0bda-5516-858e-afa10e1306e8",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3D_5165_SSI_Analysis",
+     "type": "file",
+     "ext": "",
+     "file_size": 25779,
+     "meta": "25.2 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e2a50983-65db-5873-91e0-49a3f6c859e1",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3D_8779_SSI Analysis",
+     "type": "file",
+     "ext": "",
+     "file_size": 25693,
+     "meta": "25.1 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d6327c14-eb10-5ddc-9ec4-caeaf35e656b",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3F_5683_SSI_Analysis",
+     "type": "file",
+     "ext": "",
+     "file_size": 9086,
+     "meta": "8.9 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "313f55da-fbc7-50d0-b45f-7ab41f8d01d9",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3D_7984_SSI_Analysis",
+     "type": "file",
+     "ext": "",
+     "file_size": 25814,
+     "meta": "25.2 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "256aa8df-ec95-5e3e-b5f4-c80000df8ce6",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3C_7772_SSI_Analysis",
+     "type": "file",
+     "ext": "",
+     "file_size": 25652,
+     "meta": "25.1 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3073146b-299e-5a7e-968a-7079e74be3b7",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3E_6607_SSI_Analysis",
+     "type": "file",
+     "ext": "",
+     "file_size": 17602,
+     "meta": "17.2 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f2961c19-ece3-5c75-85a8-2a55c7f2597d",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3F_9846_SSI_Analysis",
+     "type": "file",
+     "ext": "",
+     "file_size": 9012,
+     "meta": "8.8 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "fb7ce648-82fa-50dc-ab45-2a910ef0ff06",
+   "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_Observation",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "UTMB Bedrest Campaign 3 BRSMPQCT Observation",
+    "dataset_catalog": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_Observation",
+    "dataset_description": "This dataset contains a collection of Quantitative Computerized Tomography (QCT) observation data resulting from the bed rest standard measure QCT (BRSMQCT) session for all subjects who completed the Flight Analog Project Campaign 3 Bed Rest Study. Data was collected at UTMB and data analysis took place at the JSC Bone and Mineral Lab.",
+    "processing_level": [
+     "Processed Data"
+    ],
+    "experiment_id": [
+     "BRSMpQCT"
+    ]
+   },
+   "meta": "3 files \u00b7 70.5 KB",
+   "date": "2025-09-19",
+   "children": [
+    {
+     "key": "9154282d-07f5-55f4-a116-78891769ed23",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3H_5907_Left_Hip_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 20945,
+     "meta": "20.5 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "fb5ab3c4-22c1-56ce-8553-c52060f1c5ab",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3H_5907_Right_Hip_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 20897,
+     "meta": "20.4 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7a7d2318-90c3-59aa-bc2b-f9fe2ff86f05",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3H_5907_Spine_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 30316,
+     "meta": "29.6 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "a768bf92-d123-571c-86a9-5533bf9f415c",
+   "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_Std_Anaylsis",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "UTMB Bedrest Campaign 3 BRSMPQCT Standard Analysis",
+    "dataset_catalog": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_Std_Anaylsis",
+    "dataset_description": "This dataset contains a collection of Quantitative Computerized Tomography (QCT) Standard (Std) Analysis data resulting from the bed rest standard measure QCT (BRSMQCT) session for all subjects who completed the Flight Analog Project Campaign 3 Bed Rest Study. The Analyzed Data contains tabular data file for each subjects. Data was collected at UTMB and data analysis took place at the JSC Bone and Mineral Lab.",
+    "processing_level": [
+     "Processed Data"
+    ],
+    "experiment_id": [
+     "BRSMpQCT"
+    ]
+   },
+   "meta": "17 files \u00b7 318.3 KB",
+   "date": "2025-09-19",
+   "children": [
+    {
+     "key": "22bedf06-c56c-587d-b0f7-ee6cc5733020",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3D_8615_Std_Analysis",
+     "type": "file",
+     "ext": "",
+     "file_size": 25496,
+     "meta": "24.9 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f12659cc-570e-571b-b8f6-01f42b58a97f",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3F_8454_Std_Analysis",
+     "type": "file",
+     "ext": "",
+     "file_size": 9094,
+     "meta": "8.9 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ffbe3274-ff57-5d43-a683-28fde6a46150",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3D_3985_Std_Analysis",
+     "type": "file",
+     "ext": "",
+     "file_size": 21806,
+     "meta": "21.3 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5aa57a6c-16e2-5c6c-bbb3-6ec85e27c3c8",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3D_7984_Std_Analysis",
+     "type": "file",
+     "ext": "",
+     "file_size": 25809,
+     "meta": "25.2 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1a15fd9a-0831-5725-8006-3f4f95289230",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3E_6043_Std_Analysis",
+     "type": "file",
+     "ext": "",
+     "file_size": 25672,
+     "meta": "25.1 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "68c3154b-31cc-52ca-98d5-9e448d9a6296",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3F_5705_Std_Analysis",
+     "type": "file",
+     "ext": "",
+     "file_size": 8909,
+     "meta": "8.7 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ba148100-d3cc-5e09-87f0-e56cce64266b",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3F_9016_Std_Analysis",
+     "type": "file",
+     "ext": "",
+     "file_size": 17316,
+     "meta": "16.9 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ea74b75c-6d59-539b-9d8b-5c48ad18b0bc",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3D_7961_Std_Analysis",
+     "type": "file",
+     "ext": "",
+     "file_size": 21685,
+     "meta": "21.2 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "fa456b39-6d44-5d61-9c23-e6ce9baec5e0",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3F_9846_Std_Analysis",
+     "type": "file",
+     "ext": "",
+     "file_size": 8953,
+     "meta": "8.7 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "fcc511e5-dde4-528c-be15-4d6d759bf19e",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3D_5165_Std_Analysis",
+     "type": "file",
+     "ext": "",
+     "file_size": 25763,
+     "meta": "25.2 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a2589f74-f536-5a2d-84bc-2f4e4f73dd3a",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3D_8779_Std_Analysis",
+     "type": "file",
+     "ext": "",
+     "file_size": 25693,
+     "meta": "25.1 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "87fcf9e2-6e29-54b6-9439-1936488e199f",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3F_9947_Std_Analysis",
+     "type": "file",
+     "ext": "",
+     "file_size": 8979,
+     "meta": "8.8 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4b46d970-4b22-5e52-908d-e4d7a9728010",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3D_8881_Std_Analysis",
+     "type": "file",
+     "ext": "",
+     "file_size": 23087,
+     "meta": "22.5 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "32d2aff8-8589-5e89-81b9-387ef4ceef6a",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3E_6607_Std_Analysis",
+     "type": "file",
+     "ext": "",
+     "file_size": 17606,
+     "meta": "17.2 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a292fce7-1599-5d62-aadd-a90b9d041268",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3F_5683_Std_Analysis",
+     "type": "file",
+     "ext": "",
+     "file_size": 9032,
+     "meta": "8.8 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "bd9b8cad-af63-5d2d-824c-a314c62ce9ae",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3C_7352_Std_Analysis",
+     "type": "file",
+     "ext": "",
+     "file_size": 25525,
+     "meta": "24.9 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "81db92c7-0dee-5f87-969b-404f51fc6a88",
+     "label": "BRSMPQCT_Campaign_3_Peripheral_Quantitative_Computed_Tomography_C3C_7772_Std_Analysis",
+     "type": "file",
+     "ext": "",
+     "file_size": 25506,
+     "meta": "24.9 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

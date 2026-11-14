@@ -1,0 +1,173 @@
+{
+ "record": {
+  "id": "ef2fbe5f-0253-53b7-be9f-f1381a1cb795",
+  "_id": "ef2fbe5f-0253-53b7-be9f-f1381a1cb795",
+  "experiment_title": "Nutritional Intake of LSAH Participants",
+  "archive_status_index": 1,
+  "pub_document_number": "PUB001134",
+  "parameter_html": "<table><tr><td>Carbohydrate intake</td></tr><tr><td>Fat intake</td></tr><tr><td>Protein intake</td></tr><tr><td>Dietary intake, total</td></tr><tr></tr></table>",
+  "__source_key": "cl62ayhsecd6301o68cge1akm",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:No Principal Investigator,\">Principal Investigator: No Principal Investigator,</a>",
+  "experiment_type_lk": [
+   "Longitudinal Study of Astronaut Health (LSAH)"
+  ],
+  "__record_modified_date": "2026-08-23T04:21:56.959317+00:00",
+  "__indexed": "2026-08-23T04:21:56.959317+00:00",
+  "__record_creation_date": "2022-07-28T19:55:52.204Z",
+  "keyword": [
+   "Carbohydrates",
+   "Fats",
+   "Proteins",
+   "Diet"
+  ],
+  "keyword_name": "Diet",
+  "__record_size": 57666,
+  "__record_version": 29,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<BR>\r\nThe Food Frequency Questionnaire (FFQ) was sent out in the fall of 1998 to collect nutrition data from participants in the Longitudinal Study of Astronaut Health (LSAH).  A total of 645 participants answered and returned this survey.  The 116 male astronaut respondents had a mean age of 48.2 years, while the 448 male comparison participants had a slightly higher mean age of 50.8 years.  The female respondents were generally younger, reporting a mean age of 39.3 and 40.5 years for astronauts (N=21) and comparison participants (N=66), respectively.\r\n\r\n<P>\r\nAPPROACH:<BR>\r\nTo compare the LSAH participants to the U.S. general population, results of a national survey, the 1994-96 Continuing Survey of Food Intakes by Individuals (CSFII), are also presented.  In particular, the findings for respondents over 20 years of age (5056 males and 4816 females) are used as comparison to those of the astronaut and comparison participants.\r\n<P>\r\nMeasurements were total kilocalories (Kcal) typically consumed by respondents of both surveys, as well as corresponding percentages of total fat, protein, and carbohydrates in their typical diets.\r\n<P>\r\nRESULTS:<BR>\r\nWhen compared to the results of male CSFII respondents 20 years old and over, male LSAH participants reported a lower total consumption of kilocalories.  The lower consumption values hold true even when compared to the CSFII respondents in the age groups closer to the mean ages of the male comparisons and astronauts (age groups 40-49 and 50-59 years of age).  Female comparison participants reported a mean value similar to that reported by female CSFII respondents 20 years and older.  Female astronauts, however, had a lower mean total intake than this group of CSFII respondents.  Their reported value comes closer to values for those 50-59 years of age and older.\r\n<P>\r\nWhen the caloric intake is broken down into fat, protein, and carbohydrates, LSAH astronauts and comparison participants reported values similar to those reported by the CSFII respondents.\r\n<P>\r\nThis brief summary of nutritional intake shows that in general male LSAH astronauts and comparison participants report a lower total consumption as compared to the general population, while female astronauts show a lower intake as compared to the general population.  The proportions of fat, protein, and carbohydrates of astronauts and comparisons are similar to that reported in the CSFII.  Therefore, the composition of LSAH participants' diet does not substantially differ from that of the general population.<END>",
+  "payload_id": "LSAH",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "LSAHNEWSV10_1",
+  "indexed": "2026-08-23T04:21:56.959317+00:00",
+  "GUID": "cl62ayhsecd6301o68cge1akm",
+  "parameter_name": [
+   "Carbohydrate intake",
+   "Fat intake",
+   "Protein intake",
+   "Dietary intake, total"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 1054,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Metabolism and nutrition",
+   "Clinical medicine"
+  ],
+  "pme_role_with_name": [
+   "Principal Investigator: No Principal Investigator,"
+  ],
+  "missions": [
+   [
+    [
+     "LSAH"
+    ]
+   ]
+  ],
+  "__dirid": "ef2fbe5f-0253-53b7-be9f-f1381a1cb795",
+  "__record_size_wo_doccontent": 57666,
+  "PI": [
+   "No Principal Investigator,"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "LSAHNEWSV10_1"
+  ],
+  "mission_id": [
+   [
+    [
+     "LSAH"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "proposal_date": [],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "No Principal Investigator,"
+  ],
+  "program_name": [
+   "Space Medicine"
+  ],
+  "archive_status": "Data preservation is complete. All datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Space Medicine",
+  "__source_field_concat": "PUB001134 LSAH cl62ayhsecd6301o68cge1akm Diet  N/A Nutritional Intake of LSAH Participants LSAHNEWSV10_1 Space Medicine Data preservation is complete. All datasets are publicly available.",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<BR>\r\nThe Food Frequency Questionnaire (FFQ) was sent out in the fall of 1998 to collect nutrition data from participants in the Longitudinal Study of Astronaut Health (LSAH).  A total of 645 participants answered and returned this survey.  The 116 male astronaut respondents had a mean age of 48.2 years, while the 448 male comparison participants had a slightly higher mean age of 50.8 years.  The female respondents were generally younger, reporting a mean age of 39.3 and 40.5 years for astronauts (N=21) and comparison participants (N=66), respectively.\r\n\r\n<P>\r\nAPPROACH:<BR>\r\nTo compare the LSAH participants to the U.S. general population, results of a national survey, the 1994-96 Continuing Survey of Food Intakes by Individuals (CSFII), are also presented.  In particular, the findings for respondents over 20 years of age (5056 males and 4816 females) are used as comparison to those of the astronaut and comparison participants.\r\n<P>\r\nMeasurements were total kilocalories (Kcal) typically consumed by respondents of both surveys, as well as corresponding percentages of total fat, protein, and carbohydrates in their typical diets.\r\n<P>\r\nRESULTS:<BR>\r\nWhen compared to the results of male CSFII respondents 20 years old and over, male LSAH participants reported a lower total consumption of kilocalories.  The lower consumption values hold true even when compared to the CSFII respondents in the age groups closer to the mean ages of the male comparisons and astronauts (age groups 40-49 and 50-59 years of age).  Female comparison participants reported a mean value similar to that reported by female CSFII respondents 20 years and older.  Female astronauts, however, had a lower mean total intake than this group of CSFII respondents.  Their reported value comes closer to values for those 50-59 years of age and older.\r\n<P>\r\nWhen the caloric intake is broken down into fat, protein, and carbohydrates, LSAH astronauts and comparison participants reported values similar to those reported by the CSFII respondents.\r\n<P>\r\nThis brief summary of nutritional intake shows that in general male LSAH astronauts and comparison participants report a lower total consumption as compared to the general population, while female astronauts show a lower intake as compared to the general population.  The proportions of fat, protein, and carbohydrates of astronauts and comparisons are similar to that reported in the CSFII.  Therefore, the composition of LSAH participants' diet does not substantially differ from that of the general population.<END>",
+  "__doi": "10.83263/q4gr-hd28",
+  "__doi_record_creation_date": "2026-08-23T04:21:56",
+  "__doi_record_modified_date": "2026-08-23T04:21:56"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000580",
+   "label": "JMLSAHNEWSV101_142",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Nutritional Intake of Longitudinal Study for Astronaut Health (LSAH) Participants",
+    "dataset_catalog": "JMLSAHNEWSV101_142",
+    "dataset_description": [
+     "This graph depicts the mean total nutritional intake of respondents of two questionnaires: (1) the Food Frequency Questionnaire (FFQ) sent out in 1998 to Longitudinal Study for Astronaut Health (LSAH) participants and (2) the 1994-6 Continuing Survey of Food Intakes by Individuals (CSFII), a national survey of the U.S. general population.  The line graph shows total kilocalories, while the bar graph shows carbohydrate, fat and protein breakdowns.  Data are separated by gender and age group.\r\n<P>Source: National Aeronautics and Space Administration. Nutritional intake of LSAH participants. In: Longitudinal Study of Astronaut Health Newsletter. June 2001;10(1):1."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "LSAHNEWSV10_1"
+    ]
+   },
+   "meta": "1 file \u00b7 78.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "52485509-7de1-535d-abb6-cbf2362f111e",
+     "label": "JMLSAHNEWSV101_142.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 79872,
+     "meta": "78.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001695",
+   "label": "JMLSAHNEWSV101_143",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Nutritional Intake of LSAH Participants (table)",
+    "dataset_catalog": "JMLSAHNEWSV101_143",
+    "dataset_description": [
+     "This graph depicts the mean total nutritional intake of respondents of two questionnaires: (1) the Food Frequency Questionnaire (FFQ) sent out in 1998 to Longitudinal Study of Astronaut Health (LSAH)  participants and (2) the 1994-6 Continuing Survey of Food Intakes by Individuals (CSFII), a national survey of the U.S. general population.  The line graph shows total kilocalories, while the bar graph shows carbohydrate, fat and protein breakdowns.  Data are separated by gender and age group.<P><P>Source: National Aeronautics and Space Administration. Nutritional intake of LSAH participants. In: Longitudinal Study of Astronaut Health Newsletter. June 2001;10(1):1."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "LSAHNEWSV10_1"
+    ]
+   },
+   "meta": "1 file \u00b7 15.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "e4ca4daa-3edd-5389-9df6-9859028d2b31",
+     "label": "JMLSAHNEWSV101_143.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 15360,
+     "meta": "15.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

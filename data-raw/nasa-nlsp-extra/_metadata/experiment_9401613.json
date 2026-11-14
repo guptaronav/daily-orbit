@@ -1,0 +1,166 @@
+{
+ "record": {
+  "id": "34f6b702-a0fc-581b-9003-defa4ff9c8f4",
+  "_id": "34f6b702-a0fc-581b-9003-defa4ff9c8f4",
+  "experiment_title": "Protein Metabolism During Long Term Space Flights",
+  "archive_status_index": 2,
+  "pub_document_number": "PUB001573",
+  "parameter_html": "<table><tr><td>15N-glycine</td></tr><tr><td>Body mass</td></tr><tr><td>Body weight</td></tr><tr><td>Creatinine</td></tr><tr><td>Dietary intake</td></tr><tr><td>Dietary intake, nitrogen</td></tr><tr><td>Energy intake</td></tr><tr><td>Nitrogen balance</td></tr><tr><td>Nitrogen flux</td></tr><tr><td>Protein</td></tr><tr><td>Protein breakdown rate, whole body</td></tr><tr><td>Protein synthesis rate, whole body</td></tr><tr><td>Saliva collection time</td></tr><tr><td>Urine collection time</td></tr><tr><td>Urine volume</td></tr><tr><td>Water balance</td></tr><tr><td>Water intake</td></tr><tr><td>Water loss</td></tr><tr><td>Nitrogen excretion, urine</td></tr><tr></tr></table>",
+  "__source_key": "cl62aub0lcb7f01o624c8elhp",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Stein, T.\">Principal Investigator: Stein, T.</a>",
+  "experiment_type_lk": [
+   "NASA-Mir Program"
+  ],
+  "__record_modified_date": "2026-08-23T03:51:53.855709+00:00",
+  "proposal_source": [
+   "N/A"
+  ],
+  "__indexed": "2026-08-23T03:51:53.855709+00:00",
+  "__record_creation_date": "2022-07-28T19:41:24.113Z",
+  "keyword": [
+   "Proteins/metabolism",
+   "Proteins"
+  ],
+  "keyword_name": "Proteins",
+  "__record_size": 81557,
+  "__record_version": 29,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<br>\r\nThe human body responds to stressful situations in many ways, one of which is an increase in protein production. Previous studies indicate that the whole body protein synthesis rate increases during short-term space flight. As a result of these observations, it was hypothesized that space flight is associated with an initial metabolic stress response. The initial stress deteriorates within the first few weeks during a long-term stay in Earth orbit and the return to preflight protein metabolism status takes several weeks after landing.</p>\r\n<p>The objectives of the experiment were:<br />\r\n1. To determine the duration of the metabolic stress response associated with space flight.<br />\r\n2. To determine how long it takes for protein metabolism to return to its preflight state after a long duration mission.</p>\r\nAPPROACH:<br>\r\nThe whole body protein synthesis rate was measured four times preflight, periodically every three to four weeks inflight and four times postflight spaced between R+1 and R+72 (days after landing). The 15N-glycine method was used to determine the protein synthesis rates. This method required the oral intake of the amino acid glycine, marked with the stable 15N isotope of nitrogen. The ingested labeled protein is absorbed into the body's protein metabolism. Data on how the labeled protein is metabolized in the human body was gathered by collecting urine samples, measuring body weight, and having the test subjects maintain dietary logs for 24 hours prior to and during the day of the protein synthesis determinations.</p>\r\n<p>Each data session started with the collection of a urine sample, which later was used to determine the background 15N. Immediately after the urine sample was collected, the astronaut swallowed a capsule containing 1.0 gram of labeled N-glycine (15N), and the weight of the test subject was measured. During the next 24 hours small samples of urine were collected from each urine void and the volume of each void was measured. Also, over the entire 24 hours, food and fluid intake, exercise, and medication intake was monitored. Additionally, at ten hours after the intake of the 15N, a urine void was collected and a saliva sample was taken. The urine and saliva samples were frozen at - 20 degrees Celsius in the freezer until analysis.\r\n<p>RESULTS:<br>\r\nNASA 2/Mir 21: During the NASA 2 mission, no inflight data was obtained for the first 120 days of the mission. Determinations of the protein synthesis rate took place on Mission Day (MD) 120, MD 157, and MD 177 for one astronaut, and on MD 149 and MD 186 for the other two astronauts. Postflight tests were performed at R+1, R+6, R+14, R+32, R+40, and R+70 for one astronaut, on R+2, R+7, R+14 and R+72 for the second astronaut; no postflight data was obtained for the third participating crewmember. The preliminary results from this mission indicated that the protein synthesis rate was reduced by about 31% after more than 4 months of space flight. The data also suggested that whole body protein synthesis declined with time in space.\r\n<p>\r\nNASA 3/Mir 22: During the NASA 3/Mir 22 mission, no early and middle inflight data was obtained. The first protein measurements were taken on MD 120. The data indicated that the protein synthesis rate was significantly reduced after 4 months of space flight.\r\n<p>Combined with the data collected during the NASA 2/Mir 21 missions, which increased the data set to n=6 subjects, the results reach statistical significance. The combined data indicated that after 3 plus months in space the whole body protein synthesis rate is reduced by 53%. The bedrest model predicts 15-20%, so the flight reduction is remarkable. It suggests that during periods with no tension on muscles a dramatic reduction of protein turnover takes place. The postflight data shows considerable scatter in the data with no consistent pattern.",
+  "payload_id": "NASA 2",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)",
+   "Institute of Biomedical Problems (IBMP)"
+  ],
+  "experiment_id": "9401613",
+  "indexed": "2026-08-23T03:51:53.855709+00:00",
+  "experiment_related": [
+   "E971"
+  ],
+  "GUID": "cl62aub0lcb7f01o624c8elhp",
+  "parameter_name": [
+   "15N-glycine",
+   "Body mass",
+   "Body weight",
+   "Creatinine",
+   "Dietary intake",
+   "Dietary intake, nitrogen",
+   "Energy intake",
+   "Nitrogen balance",
+   "Nitrogen flux",
+   "Protein",
+   "Protein breakdown rate, whole body",
+   "Protein synthesis rate, whole body",
+   "Saliva collection time",
+   "Urine collection time",
+   "Urine volume",
+   "Water balance",
+   "Water intake",
+   "Water loss",
+   "Nitrogen excretion, urine"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 745,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Metabolism and nutrition"
+  ],
+  "pme_role_with_name": [
+   "Principal Investigator: Stein, T."
+  ],
+  "missions": [
+   [
+    [
+     "NASA 2"
+    ]
+   ],
+   [
+    [
+     "NASA 3"
+    ]
+   ]
+  ],
+  "__dirid": "34f6b702-a0fc-581b-9003-defa4ff9c8f4",
+  "__record_size_wo_doccontent": 81557,
+  "PI": [
+   "Stein, T."
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "9401613"
+  ],
+  "mission_id": [
+   [
+    [
+     "NASA 2"
+    ]
+   ],
+   [
+    [
+     "NASA 3"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Stein, T."
+  ],
+  "archive_status": "Data preservation is complete. Privacy-protected datasets are available via data request. Remaining datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Nasa-Mir",
+  "__source_field_concat": "PUB001573 NASA 2 cl62aub0lcb7f01o624c8elhp Proteins  N/A Protein Metabolism During Long Term Space Flights 9401613 Nasa-Mir",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<br>\r\nThe human body responds to stressful situations in many ways, one of which is an increase in protein production. Previous studies indicate that the whole body protein synthesis rate increases during short-term space flight. As a result of these observations, it was hypothesized that space flight is associated with an initial metabolic stress response. The initial stress deteriorates within the first few weeks during a long-term stay in Earth orbit and the return to preflight protein metabolism status takes several weeks after landing.</p>\r\n<p>The objectives of the experiment were:<br />\r\n1. To determine the duration of the metabolic stress response associated with space flight.<br />\r\n2. To determine how long it takes for protein metabolism to return to its preflight state after a long duration mission.</p>\r\nAPPROACH:<br>\r\nThe whole body protein synthesis rate was measured four times preflight, periodically every three to four weeks inflight and four times postflight spaced between R+1 and R+72 (days after landing). The 15N-glycine method was used to determine the protein synthesis rates. This method required the oral intake of the amino acid glycine, marked with the stable 15N isotope of nitrogen. The ingested labeled protein is absorbed into the body's protein metabolism. Data on how the labeled protein is metabolized in the human body was gathered by collecting urine samples, measuring body weight, and having the test subjects maintain dietary logs for 24 hours prior to and during the day of the protein synthesis determinations.</p>\r\n<p>Each data session started with the collection of a urine sample, which later was used to determine the background 15N. Immediately after the urine sample was collected, the astronaut swallowed a capsule containing 1.0 gram of labeled N-glycine (15N), and the weight of the test subject was measured. During the next 24 hours small samples of urine were collected from each urine void and the volume of each void was measured. Also, over the entire 24 hours, food and fluid intake, exercise, and medication intake was monitored. Additionally, at ten hours after the intake of the 15N, a urine void was collected and a saliva sample was taken. The urine and saliva samples were frozen at - 20 degrees Celsius in the freezer until analysis.\r\n<p>RESULTS:<br>\r\nNASA 2/Mir 21: During the NASA 2 mission, no inflight data was obtained for the first 120 days of the mission. Determinations of the protein synthesis rate took place on Mission Day (MD) 120, MD 157, and MD 177 for one astronaut, and on MD 149 and MD 186 for the other two astronauts. Postflight tests were performed at R+1, R+6, R+14, R+32, R+40, and R+70 for one astronaut, on R+2, R+7, R+14 and R+72 for the second astronaut; no postflight data was obtained for the third participating crewmember. The preliminary results from this mission indicated that the protein synthesis rate was reduced by about 31% after more than 4 months of space flight. The data also suggested that whole body protein synthesis declined with time in space.\r\n<p>\r\nNASA 3/Mir 22: During the NASA 3/Mir 22 mission, no early and middle inflight data was obtained. The first protein measurements were taken on MD 120. The data indicated that the protein synthesis rate was significantly reduced after 4 months of space flight.\r\n<p>Combined with the data collected during the NASA 2/Mir 21 missions, which increased the data set to n=6 subjects, the results reach statistical significance. The combined data indicated that after 3 plus months in space the whole body protein synthesis rate is reduced by 53%. The bedrest model predicts 15-20%, so the flight reduction is remarkable. It suggests that during periods with no tension on muscles a dramatic reduction of protein turnover takes place. The postflight data shows considerable scatter in the data with no consistent pattern.",
+  "__doi": "10.83263/h71b-hm49",
+  "__doi_record_creation_date": "2026-08-23T03:51:53",
+  "__doi_record_modified_date": "2026-08-23T03:51:53"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001375",
+   "label": "9401613__2670756501",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Published data for Experiment 9401613",
+    "dataset_catalog": "9401613__2670756501",
+    "dataset_description": [
+     "Datasets available in Stein TP, Leskiw MJ. Oxidant damage during and after spaceflight. Am J Physiol Endocrinol Metab. 2000 Mar;278(3):E375-82.  This publication includes Mir data as well as LMS (STS-78) and bedrest data.\r\n<P>\r\nMir data: The subjects for this study were two astronauts (American)\r\nand four cosmonauts (Russian).\r\n<P>\r\nData in this publication:<BR>\r\n<LI>Diet, and isoprostane [8-iso-prostaglandin F2a (8-iso-PGF2a)] and 8-oxo-7,8 dihydro-2 deoxyguanosine (8-OH DG) excretion before, during,\r\nand after spaceflight on MIR. Isoprostane data are for unextracted (UN) and extracted (EX) urine. \r\n<LI>Antioxidant intakes before, during, and after spaceflight on MIR\r\n<LI>Changes in unextracted (UN) and extracted (EX) isoprostane\r\n[8-iso-prostaglandin F2a (8-iso-PGF2a)] and 8-oxo-7,8 dihydro-2 deoxyguanosine (8-OH DG) excretion during and after spaceflight on MIR.\r\nThere were 6 subjects. Data are expressed as percentage of mean\r\npreflight data normalized to creatinine.\r\n<LI>Changes in UN isoprostane and 8-OH DG excretion during and after spaceflight on the shuttle."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "9401613"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "5ebb0e36-2ca7-58a3-804f-f2e8b1c1ea80",
+     "label": "9401613__2670756501.pdf_NASA_2_9401613_2013_267_090940.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

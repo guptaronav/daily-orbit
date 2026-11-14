@@ -1,0 +1,875 @@
+{
+ "record": {
+  "id": "804f81d1-8ff7-5a65-b54f-d0fd68fa6274",
+  "_id": "804f81d1-8ff7-5a65-b54f-d0fd68fa6274",
+  "experiment_title": "Effects of Skeletal Unloading and Vitamin E on Bone in Mature Rats",
+  "archive_status_index": 1,
+  "pub_document_number": "PUB001221",
+  "parameter_html": "<table><tr><td>Body weight: rat</td></tr><tr><td>Bone mineral area</td></tr><tr><td>Bone mineral content</td></tr><tr><td>Bone mineral density</td></tr><tr><td>Fat mass: rat</td></tr><tr><td>Lean body mass: rat</td></tr><tr><td>Mineral apposition rate</td></tr><tr><td>Osteocalcin</td></tr><tr><td>Trabecular number</td></tr><tr><td>Trabecular separation</td></tr><tr><td>Trabecular thickness</td></tr><tr><td>Ultimate load</td></tr><tr><td>Ultimate stress</td></tr><tr><td>Yield stress</td></tr><tr><td>Young's modulus of elasticity</td></tr><tr><td>Alkaline phosphatase activity, serum</td></tr><tr><td>Ash weight, bone</td></tr><tr><td>Bone surface/bone volume (BS/BV)</td></tr><tr><td>Bone surface/total volume (BS/TV)</td></tr><tr><td>Bone volume fraction</td></tr><tr><td>Bone-formation rate/bone surface (BRS/BS)</td></tr><tr><td>Bone-formation rate/bone volume (BRS/BV)</td></tr><tr><td>Bone-formation rate/total volume (BRS/TV)</td></tr><tr><td>Cyclooxygenase-2 (COX2)</td></tr><tr><td>Ferric reducing ability, serum</td></tr><tr><td>Labeled surface/bone surface (LS/BS)</td></tr><tr><td>Malondialdehyde (MDA), liver, nanomoles/mg</td></tr><tr><td>Tartrate-resistant acid phosphatase (TRACP) activity, serum</td></tr><tr><td>Vitamin E concentration, serum</td></tr><tr></tr></table>",
+  "__source_key": "cl62az615cdbu01o6gzfufcw2",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Stoecker, Barbara\">Principal Investigator: Stoecker, Barbara</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Arjmandi, Bahram\">Co-Investigator: Arjmandi, Bahram</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Smith, Brenda\">Co-Investigator: Smith, Brenda</a>",
+  "experiment_type_lk": [
+   "NASA Ground-Based Investigations"
+  ],
+  "__record_modified_date": "2026-08-23T04:09:16.083991+00:00",
+  "__indexed": "2026-08-23T04:09:16.083991+00:00",
+  "__record_creation_date": "2022-07-28T20:05:33.144Z",
+  "keyword": [
+   "Osteoporosis",
+   "Antioxidants",
+   "alpha-Tocopherol",
+   "Cyclooxygenase 2 inhibitors",
+   "Bone demineralization, pathologic",
+   "Hindlimb suspension",
+   "Bone density"
+  ],
+  "keyword_name": "Bone density",
+  "__record_size": 144928,
+  "__record_version": 29,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<BR>\r\nBone loss is a critical concern for crewmembers in space.  Free radicals have been shown to affect bone <I>in vivo</I> and <I>in vitro</I> by stimulating osteoclasts and increasing the rate of bone resorption.  In space, increased exposure to radiation increases the possibility of oxidative damage to bone, and antioxidant nutrients may protect the skeletal tissue.  \r\n<P>\r\nRodent hindlimb unloading (HLU) is an alternative method to space flight for investigating microgravity-induced physiological changes.  HLU produces a deficit in bone formation, lowers the number of osteoblasts, and has been used as a model for examining bone changes in simulated weightlessness.  \r\n<P>\r\nThis ground-based study evaluated the potential of vitamin E for preventing bone loss associated with weightlessness in the HLU rat model.  The long-term goal was to identify an optimal dose of vitamin E to reduce the risk of bone loss and fractures under conditions of weightlessness.  The hypothesis was that the dietary antioxidant vitamin E would reduce deterioration of bone in a dose-dependent manner when the bone loss was due to weightlessness and, possibly, oxidative stress.  There were two specific aims.  One was to investigate whether vitamin E prevents the loss of bone mineral density and deterioration of biomechanical properties in the HLU rat model in a dose-dependent manner.  The other specific aim was to examine some of the underlying mechanisms by which vitamin E exerts bone-protective effects using histomorphometric, biomechanical and biochemical analyses.  \r\n<P>\r\nAPPROACH:<BR>\r\nEight and one-half-month-old rats were assigned to one of three diets containing 15, 75 or 500 International Units (IU) of dl-alpha tocopherol, a form of vitamin E.  These amounts were low, recommended or high for this vitamin intake.  The rats were assigned to either ambulatory (AMB) or HLU conditions.  Diets began nine weeks prior to the start of the hindlimb unloading period and the rats were either HLU or AMB for four weeks.  At eight days and at one day prior to necropsy, rats were injected with calcein for dynamic bone histomorphometric analysis.  They were scanned using a small animal software package prior to unloading and at the end of the treatment period. Rats were anesthetized for scanning and blood was drained by cardiac puncture.  Serum was then analyzed for various markers.  Age at necropsy was approximately eleven months.  \r\n<P>  \r\nMechanical strength of the femur was assessed with three-point bending.  The femur was placed on two rods spaced 20 mm apart and force was delivered to the mid-shaft.  The fourth lumbar vertebral body (L4) was prepared with parallel flat ends and placed on a fixed lower pressure plate while an upper plate moved downwards at a rate of three mm/min to cause compression in the front to rear direction in order to conduct compression analysis.  Load displacement plots were analyzed to determine material properties.  The average cross section for each vertebral body was used to calculate its ultimate stresses and Young's modulus, which is a number representing the ratio of stress divided by strain.  Histomorphometric analysis of the femur produced multiple measurements.  \r\n<P>\r\nBone mineral area, bone mineral content, and bone mineral density (BMD) of the excised fifth lumbar vertebra (L5) and of the left femur were estimated.  Femurs and the third lumbar vertebra were ashed, and the mineral residue was dissolved in concentrated nitric acid and diluted for analysis of calcium, magnesium, iron, copper and zinc.  \r\n<P>\r\nRESULTS:<BR>\r\nResults were divided into two parts.  HLU and AMB conditions were compared and dose-dependent effects of vitamin E on bone parameters of interest under both conditions were evaluated.  Significant effects of near weightlessness were seen in 11-month old rats.  Both the L5 and femur BMD were significantly lowered in HLU animals compared to AMB controls.  Lower BMDs in the HLU group were accompanied by reduced structural properties.  The material properties of L4, ultimate stress, yield stress, and Young's modulus of elasticity were significantly decreased by HLU.  Histomorphometric data indicated that HLU decreased the rate of bone formation and increased the rate of bone resorption.  Serum markers indicated an increase in tartrate-resistant acid phosphatase activity, a marker of bone resorption, but no change in either marker of bone formation (alkaline phosphatase activity or osteocalcin).  The findings confirmed that deleterious effects on bone of older animals due to HLU were similar to the deleterious effects on younger, growing animals.  However, alterations in bone metabolism that result in bone loss of mature animals appeared to more closely mimic the metabolic bone changes occurring in crewmembers in space.\r\n<P>\r\nDietary treatments were effective in creating differences in serum vitamin E concentrations even though diet was not begun until the rats were eight and one-half months old.  The diet produced significant differences in ferric reducing ability of serum and strong trends for decreased malondialdehyde, a product of lipid peroxidation, in the liver.  Both ferric reducing ability of serum and liver malondialdehyde are indicators of antioxidant status.  In HLU animals, high intakes of vitamin E had a positive effect on material properties of vertebrae measured by increased yield stress and by Young's modulus of elasticity.  The positive effects of the high vitamin E intake were not observed in AMB controls.  Histomorphometry data indicated that higher doses of vitamin E produced positive effects on bone volume parameters in HLU rats.  Contrary to expectations, the same doses of vitamin E had negative effects on these histomorphometric parameters in AMB controls.  Serum alkaline phosphatase, a marker of bone formation, increased with increased vitamin E in the diet.    \r\n<P>\r\nData indicated that higher doses of vitamin E improved skeletal health.  Higher bone volume and biomechanical properties in HLU animals were observed with the increased dietary vitamin E.  Contrary to expectations, vitamin E at higher doses was found to be deleterious to bone in AMB control animals.  Research previous to this study showed that higher doses of vitamin E were beneficial in aged mice but had no beneficial effects on the bone of younger mice.  It is possible that the bone of older animals or of those in HLU conditions benefit from more vitamin E, particularly if the HLU resulted in greater oxidative damage.  \r\n<P>\r\nResearch of the mechanisms of vitamin E in mature bone is critical to understanding its role in bone health.  There is the potential for vitamin E to protect against oxygen derived from free radicals.  In the mature, 11-month old rats of this study, dietary vitamin E did not produce significant effects on bone mineral area, bone mineral content or BMD.  Since dietary changes are cumulative over time and subtler than the bone response was to HLU, the bone mineral area, bone mineral content and BMD might not be apparent during the relatively brief time course of this experiment.  Nutrition studies may require extended depletion or supplementation periods before HLU to enable differences to be observed during the relatively short HLU period.  Additional data may be obtained through studies that analyze markers over time.  Time series studies examining markers of bone resorption and also changes in gene expression due to HLU and nutritional or pharmacological interventions could provide insight into alterations in bone metabolism.<END>",
+  "payload_id": "BRC",
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "NAG91159",
+  "indexed": "2026-08-23T04:09:16.083991+00:00",
+  "GUID": "cl62az615cdbu01o6gzfufcw2",
+  "parameter_name": [
+   "Body weight: rat",
+   "Bone mineral area",
+   "Bone mineral content",
+   "Bone mineral density",
+   "Fat mass: rat",
+   "Lean body mass: rat",
+   "Mineral apposition rate",
+   "Osteocalcin",
+   "Trabecular number",
+   "Trabecular separation",
+   "Trabecular thickness",
+   "Ultimate load",
+   "Ultimate stress",
+   "Yield stress",
+   "Young's modulus of elasticity",
+   "Alkaline phosphatase activity, serum",
+   "Ash weight, bone",
+   "Bone surface/bone volume (BS/BV)",
+   "Bone surface/total volume (BS/TV)",
+   "Bone volume fraction",
+   "Bone-formation rate/bone surface (BRS/BS)",
+   "Bone-formation rate/bone volume (BRS/BV)",
+   "Bone-formation rate/total volume (BRS/TV)",
+   "Cyclooxygenase-2 (COX2)",
+   "Ferric reducing ability, serum",
+   "Labeled surface/bone surface (LS/BS)",
+   "Malondialdehyde (MDA), liver, nanomoles/mg",
+   "Tartrate-resistant acid phosphatase (TRACP) activity, serum",
+   "Vitamin E concentration, serum"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 1227,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Skeletal physiology"
+  ],
+  "pme_role_with_name": [
+   "Co-Investigator: Arjmandi, Bahram",
+   "Co-Investigator: Smith, Brenda",
+   "Principal Investigator: Stoecker, Barbara"
+  ],
+  "missions": [
+   [
+    [
+     "BRC"
+    ]
+   ]
+  ],
+  "__dirid": "804f81d1-8ff7-5a65-b54f-d0fd68fa6274",
+  "__record_size_wo_doccontent": 144928,
+  "PI": [
+   "Stoecker, Barbara"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "NAG91159"
+  ],
+  "mission_id": [
+   [
+    [
+     "BRC"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "proposal_date": [],
+  "proposal_source": [],
+  "CombinedSpecies": [
+   [
+    "Rat (Rattus norvegicus)"
+   ]
+  ],
+  "species": [
+   "Rat"
+  ],
+  "PrincipalInvestigator": [
+   "Stoecker, Barbara"
+  ],
+  "program_name": [
+   "Ground"
+  ],
+  "archive_status": "Data preservation is complete. All datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Ground",
+  "__source_field_concat": "PUB001221 BRC cl62az615cdbu01o6gzfufcw2 Bone density  N/A Effects of Skeletal Unloading and Vitamin E on Bone in Mature Rats NAG91159 Ground Data preservation is complete. All datasets are publicly available.",
+  "__icon_type": "rat",
+  "__description": "OBJECTIVES:<BR>\r\nBone loss is a critical concern for crewmembers in space.  Free radicals have been shown to affect bone <I>in vivo</I> and <I>in vitro</I> by stimulating osteoclasts and increasing the rate of bone resorption.  In space, increased exposure to radiation increases the possibility of oxidative damage to bone, and antioxidant nutrients may protect the skeletal tissue.  \r\n<P>\r\nRodent hindlimb unloading (HLU) is an alternative method to space flight for investigating microgravity-induced physiological changes.  HLU produces a deficit in bone formation, lowers the number of osteoblasts, and has been used as a model for examining bone changes in simulated weightlessness.  \r\n<P>\r\nThis ground-based study evaluated the potential of vitamin E for preventing bone loss associated with weightlessness in the HLU rat model.  The long-term goal was to identify an optimal dose of vitamin E to reduce the risk of bone loss and fractures under conditions of weightlessness.  The hypothesis was that the dietary antioxidant vitamin E would reduce deterioration of bone in a dose-dependent manner when the bone loss was due to weightlessness and, possibly, oxidative stress.  There were two specific aims.  One was to investigate whether vitamin E prevents the loss of bone mineral density and deterioration of biomechanical properties in the HLU rat model in a dose-dependent manner.  The other specific aim was to examine some of the underlying mechanisms by which vitamin E exerts bone-protective effects using histomorphometric, biomechanical and biochemical analyses.  \r\n<P>\r\nAPPROACH:<BR>\r\nEight and one-half-month-old rats were assigned to one of three diets containing 15, 75 or 500 International Units (IU) of dl-alpha tocopherol, a form of vitamin E.  These amounts were low, recommended or high for this vitamin intake.  The rats were assigned to either ambulatory (AMB) or HLU conditions.  Diets began nine weeks prior to the start of the hindlimb unloading period and the rats were either HLU or AMB for four weeks.  At eight days and at one day prior to necropsy, rats were injected with calcein for dynamic bone histomorphometric analysis.  They were scanned using a small animal software package prior to unloading and at the end of the treatment period. Rats were anesthetized for scanning and blood was drained by cardiac puncture.  Serum was then analyzed for various markers.  Age at necropsy was approximately eleven months.  \r\n<P>  \r\nMechanical strength of the femur was assessed with three-point bending.  The femur was placed on two rods spaced 20 mm apart and force was delivered to the mid-shaft.  The fourth lumbar vertebral body (L4) was prepared with parallel flat ends and placed on a fixed lower pressure plate while an upper plate moved downwards at a rate of three mm/min to cause compression in the front to rear direction in order to conduct compression analysis.  Load displacement plots were analyzed to determine material properties.  The average cross section for each vertebral body was used to calculate its ultimate stresses and Young's modulus, which is a number representing the ratio of stress divided by strain.  Histomorphometric analysis of the femur produced multiple measurements.  \r\n<P>\r\nBone mineral area, bone mineral content, and bone mineral density (BMD) of the excised fifth lumbar vertebra (L5) and of the left femur were estimated.  Femurs and the third lumbar vertebra were ashed, and the mineral residue was dissolved in concentrated nitric acid and diluted for analysis of calcium, magnesium, iron, copper and zinc.  \r\n<P>\r\nRESULTS:<BR>\r\nResults were divided into two parts.  HLU and AMB conditions were compared and dose-dependent effects of vitamin E on bone parameters of interest under both conditions were evaluated.  Significant effects of near weightlessness were seen in 11-month old rats.  Both the L5 and femur BMD were significantly lowered in HLU animals compared to AMB controls.  Lower BMDs in the HLU group were accompanied by reduced structural properties.  The material properties of L4, ultimate stress, yield stress, and Young's modulus of elasticity were significantly decreased by HLU.  Histomorphometric data indicated that HLU decreased the rate of bone formation and increased the rate of bone resorption.  Serum markers indicated an increase in tartrate-resistant acid phosphatase activity, a marker of bone resorption, but no change in either marker of bone formation (alkaline phosphatase activity or osteocalcin).  The findings confirmed that deleterious effects on bone of older animals due to HLU were similar to the deleterious effects on younger, growing animals.  However, alterations in bone metabolism that result in bone loss of mature animals appeared to more closely mimic the metabolic bone changes occurring in crewmembers in space.\r\n<P>\r\nDietary treatments were effective in creating differences in serum vitamin E concentrations even though diet was not begun until the rats were eight and one-half months old.  The diet produced significant differences in ferric reducing ability of serum and strong trends for decreased malondialdehyde, a product of lipid peroxidation, in the liver.  Both ferric reducing ability of serum and liver malondialdehyde are indicators of antioxidant status.  In HLU animals, high intakes of vitamin E had a positive effect on material properties of vertebrae measured by increased yield stress and by Young's modulus of elasticity.  The positive effects of the high vitamin E intake were not observed in AMB controls.  Histomorphometry data indicated that higher doses of vitamin E produced positive effects on bone volume parameters in HLU rats.  Contrary to expectations, the same doses of vitamin E had negative effects on these histomorphometric parameters in AMB controls.  Serum alkaline phosphatase, a marker of bone formation, increased with increased vitamin E in the diet.    \r\n<P>\r\nData indicated that higher doses of vitamin E improved skeletal health.  Higher bone volume and biomechanical properties in HLU animals were observed with the increased dietary vitamin E.  Contrary to expectations, vitamin E at higher doses was found to be deleterious to bone in AMB control animals.  Research previous to this study showed that higher doses of vitamin E were beneficial in aged mice but had no beneficial effects on the bone of younger mice.  It is possible that the bone of older animals or of those in HLU conditions benefit from more vitamin E, particularly if the HLU resulted in greater oxidative damage.  \r\n<P>\r\nResearch of the mechanisms of vitamin E in mature bone is critical to understanding its role in bone health.  There is the potential for vitamin E to protect against oxygen derived from free radicals.  In the mature, 11-month old rats of this study, dietary vitamin E did not produce significant effects on bone mineral area, bone mineral content or BMD.  Since dietary changes are cumulative over time and subtler than the bone response was to HLU, the bone mineral area, bone mineral content and BMD might not be apparent during the relatively brief time course of this experiment.  Nutrition studies may require extended depletion or supplementation periods before HLU to enable differences to be observed during the relatively short HLU period.  Additional data may be obtained through studies that analyze markers over time.  Time series studies examining markers of bone resorption and also changes in gene expression due to HLU and nutritional or pharmacological interventions could provide insight into alterations in bone metabolism.<END>",
+  "__doi": "10.83263/17c3-hh09",
+  "__doi_record_creation_date": "2026-08-23T04:09:16",
+  "__doi_record_modified_date": "2026-08-23T04:09:16"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001694",
+   "label": "JMGROUNDNAG91159_307",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Labeled Surface to Bone Surface",
+    "dataset_catalog": "JMGROUNDNAG91159_307",
+    "dataset_description": [
+     "This graph shows the labeled surface to bone surface from rats that were subjected to hindlimb unloading and from ambulatory control rats.  The data from the hindlimb unloaded rats can be seen in the checked bar and that from the ambulatory rats in the solid bar.  Hindlimb unloading increased the rate of bone resorption as assessed by labeled surface to bone surface.  <P>In: Stoecker BJ, Smith BJ, Arjmandi BH.  Effects of skeletal unloading and vitamin E on bone in mature rats.  NASA Final Report.  Grant No.:NAG9-1159."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "NAG91159"
+    ]
+   },
+   "meta": "1 file \u00b7 12.6 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "7f97a925-8f41-557d-b02f-0561a93df147",
+     "label": "JMGROUNDNAG91159_307.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 12902,
+     "meta": "12.6 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001361",
+   "label": "JMGROUNDNAG91159_315",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Bone Volume to Total Volume",
+    "dataset_catalog": "JMGROUNDNAG91159_315",
+    "dataset_description": [
+     "This graph shows the bone volume to total volume in percent in rats fed three different diets containing low, medium or high concentrations of vitamin E.  Some of the rats were subjected to hindlimb unloading.  The amounts of vitamin E fed to the rats in the diet were fifteen, seventy-five or five hundred international units and bone volume to total volume from rats given each dose can be seen in the separate bars of the graph for both hindlimb-unloaded and ambulatory control rats.  Histomorphometry data indicated that higher doses of vitamin E exerted positive effects on bone volume in hindlimb-unloaded rats.  However, the same doses of vitamin E had negative effects on bone volume in the normal, ambulatory controls.    <P>In: Stoecker BJ, Smith BJ, Arjmandi BH.  Effects of skeletal unloading and vitamin E on bone in mature rats.  NASA Final Report.  Grant No.:NAG9-1159."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "NAG91159"
+    ]
+   },
+   "meta": "1 file \u00b7 17.2 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "27c5f419-1b7e-5cb2-b620-791ce03a2441",
+     "label": "JMGROUNDNAG91159_315.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 17613,
+     "meta": "17.2 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001362",
+   "label": "JMGROUNDNAG91159_318",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Serum Alkaline Phosphatase",
+    "dataset_catalog": "JMGROUNDNAG91159_318",
+    "dataset_description": [
+     "This graph shows the serum alkaline phosphatase activity in units per liter in rats fed three different diets containing low, medium or high concentrations of vitamin E.  The amounts of vitamin E fed to the rats in the diet were fifteen, seventy-five or five hundred international units and the serum alkaline phosphatase activity from rats given each dose can be seen in the separate bars of the graph.  Serum alkaline phosphatase activity is a marker of bone formation, and it tended to increase with increased vitamin E in the diet.  <P>In: Stoecker BJ, Smith BJ, Arjmandi BH.  Effects of skeletal unloading and vitamin E on bone in mature rats.  NASA Final Report.  Grant No.:NAG9-1159."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "NAG91159"
+    ]
+   },
+   "meta": "1 file \u00b7 18.9 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "c9fa28b3-4465-5317-92a2-bfb911ef8c89",
+     "label": "JMGROUNDNAG91159_318.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 19354,
+     "meta": "18.9 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001119",
+   "label": "JMGROUNDNAG91159_313",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Yield Stress of the Lumbar Four Vertebra",
+    "dataset_catalog": "JMGROUNDNAG91159_313",
+    "dataset_description": [
+     "This graph shows the yield stress of the fourth lumbar vertebra of rats fed three different diets containing low, medium or high concentrations of vitamin E.  Some of the rats were subjected to hindlimb unloading.  The amounts of vitamin E fed to the rats in the diet were fifteen, seventy-five or five hundred international units, and the vertebra yield stress from rats given each dose can be seen in the separate bars of the graph for both hindlimb-unloaded and ambulatory control rats.  The yield stress is given in a standard unit of pressure, Pascals.  In hindlimb-unloaded rats but not ambulatory rats, high intakes of vitamin E had a positive effect on the material properties of vertebrae as measured by the increased yield stress.  There was a significant difference in yield stress between the hindlimb-unloaded rats fed 500 international units of vitamin E and the rats fed the lower doses.   No significant difference in yield stress was observed between the hindlimb-unloaded rats fed 15 and 75 international units of vitamin E.<P>In: Stoecker BJ, Smith BJ, Arjmandi BH.  Effects of skeletal unloading and vitamin E on bone in mature rats.  NASA Final Report.  Grant No.:NAG9-1159."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "NAG91159"
+    ]
+   },
+   "meta": "1 file \u00b7 21.3 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "11d6c8d3-3091-57c8-b571-1d02df31b7b7",
+     "label": "JMGROUNDNAG91159_313.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 21811,
+     "meta": "21.3 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001618",
+   "label": "JMGROUNDNAG91159_309",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Serum Tartrate-Resistant Acid Phosphatase",
+    "dataset_catalog": "JMGROUNDNAG91159_309",
+    "dataset_description": [
+     "This graph shows tartrate-resistant acid phosphatase (TRAP) activity in serum of rats that were subjected to hindlimb unloading and from ambulatory control rats.  The data from the hindlimb unloaded rats can be seen in the checked bar and that from the ambulatory rats in the solid bar.  TRAP is a marker of bone resorption and serum markers indicated its increase in hindlimb-unloaded animals.  Two bone formation markers, alkaline phosphatase activity and osteocalcin, are not shown, but no change was observed with these markers due to unloading.  <P>In: Stoecker BJ, Smith BJ, Arjmandi BH.  Effects of skeletal unloading and vitamin E on bone in mature rats.  NASA Final Report.  Grant No.:NAG9-1159."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "NAG91159"
+    ]
+   },
+   "meta": "1 file \u00b7 14.1 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "51e02c01-7fb5-59e2-8e05-e1a003420c97",
+     "label": "JMGROUNDNAG91159_309.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 14438,
+     "meta": "14.1 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000166",
+   "label": "JMGROUNDNAG91159_302",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Ultimate Load",
+    "dataset_catalog": "JMGROUNDNAG91159_302",
+    "dataset_description": [
+     "This graph shows the ultimate load of the femur and fourth lumbar vertebra from rats that were subjected to hindlimb unloading and from ambulatory control rats.  The load is given in Newtons (N).  Ambulatory rat data are shown in the solid bars, and hindlimb-unloaded rat data are shown in the checked bars.  The ultimate load is reduced in the hindlimb-unloaded rats, indicating reduced structural properties of the bone.  <P>In: Stoecker BJ, Smith BJ, Arjmandi BH.  Effects of skeletal unloading and vitamin E on bone in mature rats.  NASA Final Report.  Grant No.:NAG9-1159."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "NAG91159"
+    ]
+   },
+   "meta": "1 file \u00b7 15.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "acac6937-8198-5fcb-b634-7dc11e589278",
+     "label": "JMGROUNDNAG91159_302.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 15360,
+     "meta": "15.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001360",
+   "label": "JMGROUNDNAG91159_310",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Serum Vitamin E",
+    "dataset_catalog": "JMGROUNDNAG91159_310",
+    "dataset_description": [
+     "This graph shows the vitamin E levels in serum from rats fed three different diets containing low, medium or high concentrations of vitamin E.  Vitamin E serum levels are given in micrograms per milliliter.  The amounts of vitamin E fed to the rats in the diet were fifteen, seventy-five or five hundred international units, and the serum levels from each dose can be seen in the three separate bars of the graph.  The serum levels from the corresponding diets were significantly different from one another.  The dietary treatments were effective in creating differences in serum vitamin E concentrations.  <P>In: Stoecker BJ, Smith BJ, Arjmandi BH.  Effects of skeletal unloading and vitamin E on bone in mature rats.  NASA Final Report.  Grant No.:NAG9-1159."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "NAG91159"
+    ]
+   },
+   "meta": "1 file \u00b7 17.7 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "437c1ce0-f137-50f9-b1f4-c9a5709b30e3",
+     "label": "JMGROUNDNAG91159_310.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 18125,
+     "meta": "17.7 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000646",
+   "label": "JMGROUNDNAG91159_306",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Bone Formation Rate to Bone Volume",
+    "dataset_catalog": "JMGROUNDNAG91159_306",
+    "dataset_description": [
+     "This graph shows the bone formation rate to bone volume from rats that were subjected to hindlimb unloading and from ambulatory control rats.  The data from the hindlimb unloaded rats can be seen in the checked bar and that from the ambulatory rats in the solid bar.  Hindlimb unloading decreased the rate of bone formation.  <P>In: Stoecker BJ, Smith BJ, Arjmandi BH.  Effects of skeletal unloading and vitamin E on bone in mature rats.  NASA Final Report.  Grant No.:NAG9-1159."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "NAG91159"
+    ]
+   },
+   "meta": "1 file \u00b7 13.6 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "91a47344-ff5b-534e-9c19-f2632c2789a7",
+     "label": "JMGROUNDNAG91159_306.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 13926,
+     "meta": "13.6 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001085",
+   "label": "JMGROUNDNAG91159_314",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Young's Modulus of Elasticity in Hindlimb-Unloaded Rats Fed Diets with Vitamin E",
+    "dataset_catalog": "JMGROUNDNAG91159_314",
+    "dataset_description": [
+     "This graph shows Young's modulus of elasticity for the fourth lumbar vertebra of rats fed three different diets containing low, medium or high concentrations of vitamin E.  Some of the rats were subjected to hindlimb unloading.  The amounts of vitamin E fed to the rats in the diet were fifteen, seventy-five or five hundred international units, and the vertebra modulus of elasticity from rats given each dose can be seen in the separate bars of the graph for both hindlimb-unloaded and ambulatory control rats.  Young's modulus is given in Newtons per millimeter squared.  In hindlimb-unloaded rats but not ambulatory rats, high intakes of vitamin E had a positive effect on the material properties of vertebrae as measured by the modulus.  As intakes of vitamin E went up, Young's modulus of elasticity went up.  Any deformation or strain due to tension or compression would be low when a force is applied.  <P>In: Stoecker BJ, Smith BJ, Arjmandi BH.  Effects of skeletal unloading and vitamin E on bone in mature rats.  NASA Final Report.  Grant No.:NAG9-1159."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "NAG91159"
+    ]
+   },
+   "meta": "1 file \u00b7 20.8 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "b167905c-0b9b-5452-8f87-297d27282bcd",
+     "label": "JMGROUNDNAG91159_314.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 21299,
+     "meta": "20.8 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000952",
+   "label": "JMGROUNDNAG91159_308",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Trabecular Thickness",
+    "dataset_catalog": "JMGROUNDNAG91159_308",
+    "dataset_description": [
+     "This graph shows the trabecular thickness in micrometers of rats that were subjected to hindlimb unloading and from ambulatory control rats.  The data from the hindlimb unloaded rats can be seen in the checked bar and that from the ambulatory rats in the solid bar.  Hindlimb unloading increased the rate of bone resorption as assessed by labeled surface to bone surface and by trabecular thickness.  <P>In: Stoecker BJ, Smith BJ, Arjmandi BH.  Effects of skeletal unloading and vitamin E on bone in mature rats.  NASA Final Report.  Grant No.:NAG9-1159."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "NAG91159"
+    ]
+   },
+   "meta": "1 file \u00b7 13.7 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "cb9a96c1-5692-5f4f-9d65-e01faacf3afb",
+     "label": "JMGROUNDNAG91159_308.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 14029,
+     "meta": "13.7 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002348",
+   "label": "JMGROUNDNAG91159_305",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Young's Modulus of Elasticity for the Fourth Lumbar Vertebra",
+    "dataset_catalog": "JMGROUNDNAG91159_305",
+    "dataset_description": [
+     "This graph shows Young's modulus of elasticity of the fourth lumbar vertebra from rats that were subjected to hindlimb unloading and from ambulatory control rats.  The modulus is given in Newtons (N) per millimeter squared.  Ambulatory rat data are shown in the solid bars, and hindlimb-unloaded rat data are shown in the checked bars.  Young's modulus of elasticity was significantly decreased by hindlimb suspension.<P>Stoecker BJ, Smith BJ, Arjmandi BH.  Effects of skeletal unloading and vitamin E on bone in mature rats.  NASA Final Report.  Grant No.:NAG9-1159."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "NAG91159"
+    ]
+   },
+   "meta": "1 file \u00b7 14.4 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "239f22fe-b56a-521f-b11b-854bbbf97d8f",
+     "label": "JMGROUNDNAG91159_305.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 14746,
+     "meta": "14.4 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000213",
+   "label": "JMGROUNDNAG91159_317",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Trabecular Number",
+    "dataset_catalog": "JMGROUNDNAG91159_317",
+    "dataset_description": [
+     "This graph shows the trabecular number of rats fed three different diets containing low, medium or high concentrations of vitamin E.  Some of the rats were subjected to hindlimb unloading.  The amounts of vitamin E fed to the rats in the diet were fifteen, seventy-five or five hundred international units and the trabecular number from rats given each dose can be seen in the separate bars of the graph for both hindlimb-unloaded and ambulatory control rats.  Histomorphometry data indicated that higher doses of vitamin E exerted positive effects on the trabecular number in hindlimb-unloaded rats.  However, the same doses of vitamin E had negative effects on the trabecular number in the normal, ambulatory controls.    <P>In: Stoecker BJ, Smith BJ, Arjmandi BH.  Effects of skeletal unloading and vitamin E on bone in mature rats.  NASA Final Report.  Grant No.:NAG9-1159."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "NAG91159"
+    ]
+   },
+   "meta": "1 file \u00b7 17.9 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "861e445e-834c-55b8-a002-54ca6e401daa",
+     "label": "JMGROUNDNAG91159_317.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 18330,
+     "meta": "17.9 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001986",
+   "label": "JMGROUNDNAG91159_304",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Material Properties of the Fourth Lumbar Vertebra",
+    "dataset_catalog": "JMGROUNDNAG91159_304",
+    "dataset_description": [
+     "This graph shows the material properties of the fourth lumbar vertebra from rats that were subjected to hindlimb unloading and from ambulatory control rats.  The load is given in Newtons (N) per millimeter squared.  Ambulatory rat data are shown in the solid bars, and hindlimb-unloaded rat data are shown in the checked bars.  The material properties are shown as ultimate stress and yield stress, which were significantly decreased by hindlimb suspension.<P>As reported in: Stoecker BJ, Smith BJ, Arjmandi BH.  Effects of skeletal unloading and vitamin E on bone in mature rats.  NASA Final Report.  Grant No.:NAG9-1159.<END>"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "NAG91159"
+    ]
+   },
+   "meta": "1 file \u00b7 16.8 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "eb1b2879-1ae1-59b6-8ac0-14e938b7f8b8",
+     "label": "JMGROUNDNAG91159_304.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 17203,
+     "meta": "16.8 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000645",
+   "label": "JMGROUNDNAG91159_299",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Bone Mineral Density",
+    "dataset_catalog": "JMGROUNDNAG91159_299",
+    "dataset_description": [
+     "This graph shows the bone mineral density of the fifth lumbar vertebra and the femur bone in hindlimb-unloaded rats and in ambulatory rats.  Both the vertebra and the femur bone mineral density were significantly lowered in the hindlimb-unloaded rats when compared to ambulatory controls.  Data from the ambulatory rats are shown in the two solid bars, and data from the hindlimb-unloaded rats are shown in the two checked bars.  Density is given in grams per centimeter squared.  Bars represent the mean plus or minus the standard error.  Data were obtained from 46 ambulatory rats and 47 hindlimb unloaded rats.  <P>In: Stoecker BJ, Smith BJ, Arjmandi BH.  Effects of skeletal unloading and vitamin E on bone in mature rats.  NASA Final Report.  Grant No.:NAG9-1159."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "NAG91159"
+    ]
+   },
+   "meta": "1 file \u00b7 19.8 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "130f413a-a5ed-5ea9-ae49-1f6c08105d18",
+     "label": "JMGROUNDNAG91159_299.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 20275,
+     "meta": "19.8 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001764",
+   "label": "JMGROUNDNAG91159_320",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Effects of Three Doses of Vitamin E on Body Weight, Body Composition and Biochemical Markers of Bone Metabolism in Hindlimb-Unloaded and Ambulatory Rats",
+    "dataset_catalog": "JMGROUNDNAG91159_320",
+    "dataset_description": [
+     "This table shows rat body weight, body composition and biochemical markers of bone metabolism in response to three doses of Vitamin E in the diet.  The lowest dose was 15 international units.  The middle dose was 75 international units, and the highest dose was 500 international units.  Body weight is given in grams.  Body composition is given in grams of fat and lean body mass.  The serum analysis included alkaline phosphatase (ALP), a marker of bone formation, and tartrate-resistant acid phosphatase (TRAP), a marker of bone resorption.  The ALP activity is given in microkatals per liter, a measure of catalytic activity.  The statistical significance of the data can be seen in the last three columns of the table.  <P>In: Smith BJ, Lucas EA, Turner RT, Evans GL, Lerner MR, Brackett DJ, Stoecker BJ, Arjmandi BH. Vitamin E provides protection for bone in mature hindlimb unloaded male rats. <I>Calcified Tissue International.</I> 2004 Mar."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "NAG91159"
+    ]
+   },
+   "meta": "1 file \u00b7 20.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "b4db60d2-410c-5e56-801e-d3a34539c326",
+     "label": "JMGROUNDNAG91159_320.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 20480,
+     "meta": "20.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000212",
+   "label": "JMGROUNDNAG91159_300",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Ash Weight of the Fifth Lumber Vertebra",
+    "dataset_catalog": "JMGROUNDNAG91159_300",
+    "dataset_description": [
+     "This graph shows the ash weight of the fifth lumber vertebra of rats subjected to hindlimb unloading and of ambulatory rats.  Weight is given in grams.  The data from the ambulatory rats are shown in the solid bar and the hindlimb-unloaded rats in the checked bar.  Conclusions drawn from the data in this graph are in agreement with those of the bone mineral density graph. <P> In: Stoecker BJ, Smith BJ, Arjmandi BH.  Effects of skeletal unloading and vitamin E on bone in mature rats.  NASA Final Report.  Grant No.:NAG9-1159."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "NAG91159"
+    ]
+   },
+   "meta": "1 file \u00b7 14.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "e98b9a94-151b-5a6d-b714-cbd2a233ea34",
+     "label": "JMGROUNDNAG91159_300.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 14336,
+     "meta": "14.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000372",
+   "label": "NAG91159__2801256838",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Final Report",
+    "dataset_catalog": "NAG91159__2801256838",
+    "dataset_description": [
+     "This file contains the final report for the NAG91159 study."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "NAG91159"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "d9588596-4061-5da0-afbd-0bc946164fc2",
+     "label": "Stoecker_NAG9-1159_Sept01.pdf_BRC_NAG91159_2014_280_121025.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000579",
+   "label": "JMGROUNDNAG91159_312",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Liver Malondialdehyde",
+    "dataset_catalog": "JMGROUNDNAG91159_312",
+    "dataset_description": [
+     "This graph shows the levels of malondialdehyde in the liver of rats fed three different diets containing low, medium or high concentrations of vitamin E.  The amounts of vitamin E fed to the rats in the diet were fifteen, seventy-five or five hundred international units, and the malondialdehyde levels from each dose can be seen in the three separate bars of the graph.  The levels of malondialdehyde are given in nanomoles per milligram of protein.  There is a trend of decreasing malondialdehyde with increasing dietary vitamin E.  Malondialdehyde is a product of lipid peroxidation.  <P>In: Stoecker BJ, Smith BJ, Arjmandi BH.  Effects of skeletal unloading and vitamin E on bone in mature rats.  NASA Final Report.  Grant No.:NAG9-1159."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "NAG91159"
+    ]
+   },
+   "meta": "1 file \u00b7 17.3 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "2698e957-d6ee-5bc9-b059-77f370a57d98",
+     "label": "JMGROUNDNAG91159_312.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 17715,
+     "meta": "17.3 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000855",
+   "label": "JMGROUNDNAG91159_316",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Bone Surface to Total Volume",
+    "dataset_catalog": "JMGROUNDNAG91159_316",
+    "dataset_description": [
+     "This graph shows the bone surface to total volume in rats fed three different diets containing low, medium or high concentrations of vitamin E.  Some of the rats were subjected to hindlimb unloading.  The amounts of vitamin E fed to the rats in the diet were fifteen, seventy-five or five hundred international units and bone surface to total volume from rats given each dose can be seen in the separate bars of the graph for both hindlimb-unloaded and ambulatory control rats.  Histomorphometry data indicated that higher doses of vitamin E exerted positive effects on bone surface to total volume in hindlimb-unloaded rats.  However, the same doses of vitamin E had negative effects on bone surface to total volume in the normal, ambulatory controls.   <P>In: Stoecker BJ, Smith BJ, Arjmandi BH.  Effects of skeletal unloading and vitamin E on bone in mature rats.  NASA Final Report.  Grant No.:NAG9-1159."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "NAG91159"
+    ]
+   },
+   "meta": "1 file \u00b7 18.2 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "1cfeed45-bdb9-527e-a906-2a657fabfb8d",
+     "label": "JMGROUNDNAG91159_316.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 18637,
+     "meta": "18.2 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000732",
+   "label": "JMGROUNDNAG91159_311",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Serum Ferric Reducing Ability",
+    "dataset_catalog": "JMGROUNDNAG91159_311",
+    "dataset_description": [
+     "This graph shows the serum ferric reducing ability of rats fed diets containing three different doses of vitamin E.  The serum ferric reducing ability is given in micromoles per liter.  The amounts of vitamin E fed to the rats in the diet were fifteen, seventy-five or five hundred international units, and the ferric reducing ability of each dose can be seen in the three separate bars of the graph.  The ferric reducing ability in serum of rats fed the highest dose of vitamin E is significantly greater than that of the rats fed the two lower doses.  The ferric reducing ability of the rats fed the lowest dose, fifteen international units, was not significantly different from that of the rats fed the moderate dose, seventy-five international units.  <P>In: Stoecker BJ, Smith BJ, Arjmandi BH.  Effects of skeletal unloading and vitamin E on bone in mature rats.  NASA Final Report.  Grant No.:NAG9-1159."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "NAG91159"
+    ]
+   },
+   "meta": "1 file \u00b7 21.7 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "e0c118ed-c97f-5f1d-90d9-48563e1eb343",
+     "label": "JMGROUNDNAG91159_311.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 22221,
+     "meta": "21.7 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001408",
+   "label": "JMGROUNDNAG91159_301",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Ash Weight of the Femur",
+    "dataset_catalog": "JMGROUNDNAG91159_301",
+    "dataset_description": [
+     "This graph shows the ash weight of the femur of rats subjected to hindlimb unloading and of ambulatory rats.  Weight is given in grams.  The data from the ambulatory rats are shown in the solid bar and the hindlimb-unloaded rats in the checked bar.  Conclusions drawn from the data in this graph are in agreement with those of the bone mineral density graph. <P> In: Stoecker BJ, Smith BJ, Arjmandi BH.  Effects of skeletal unloading and vitamin E on bone in mature rats.  NASA Final Report.  Grant No.:NAG9-1159.<END>"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "NAG91159"
+    ]
+   },
+   "meta": "1 file \u00b7 14.5 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "3bb3c582-44f4-57e5-b874-5ab60ec4c301",
+     "label": "JMGROUNDNAG91159_301.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 14848,
+     "meta": "14.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001619",
+   "label": "JMGROUNDNAG91159_321",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Effects of Three Doses of Vitamin E on Bone Histomorphometric Parameters in the Distal Femur of Hindlimb-Unloaded and Ambulatory Rats",
+    "dataset_catalog": "JMGROUNDNAG91159_321",
+    "dataset_description": [
+     "This table gives bone histomorphometric parameters in response to three different doses of vitamin E in rats that were either hindlimb-unloaded or ambulatory.  Bone volume normalized to tissue volume (BV/TV) is given in percent, as is bone surface normalized to tissue volume (BS/TV).  Characteristics of the bone trabeculae, a supporting bone network of spicules, are given in trabecular thickness (TbTh), trabecular separation (TbSp), and trabecular number (TbN).  These parameters give insight on bone density and strength.    The trabeculae of healthy bone have a higher number, are thicker, and are better connected.   The mineral apposition rate (MAR) is given in micrometers per day, and the bone formation rate normalized to bone volume is given in percent per day.  <P>As reported in: Smith BJ, Lucas EA, Turner RT, Evans GL, Lerner MR, Brackett DJ, Stoecker BJ, Arjmandi BH. Vitamin E provides protection for bone in mature hindlimb unloaded male rats. <I>Calcified Tissue International.</I> 2004 Mar."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "NAG91159"
+    ]
+   },
+   "meta": "1 file \u00b7 21.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "a8e641c2-7c00-5a4e-912e-cf059402dfb6",
+     "label": "JMGROUNDNAG91159_321.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 21504,
+     "meta": "21.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002175",
+   "label": "JMGROUNDNAG91159_319",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Representative Micrographs of Cyclooxygenase",
+    "dataset_catalog": "JMGROUNDNAG91159_319",
+    "dataset_description": [
+     "These images are representative micrographs of cyclooxygenase (COX)-2.  The enlarged image shows the total metaphyseal area that was studied.  This area was 2.88 millimeters squared.  Chondrocytes were stained for COX-2 and show as a dark brown hue.  The top panel A shows those from ambulatory rats fed 75 international units of vitamin E.  The middle panel B shows staining of chondrocytes from hindlimb-unloaded rats on a low dose of 15 international units of vitamin E.  The last panel C shows chondrocytes from hindlimb-unloaded rats on a high dose of 500 international units of vitamin E.  Greater amounts of COX-2 staining was observed in the hindlimb-unloaded rats on the lowest dose of vitamin E than in the ambulatory rats on the middle dose of vitamin E (75 international units).  The extent of COX-2 staining was reduced by the highest dose of vitamin E in hindlimb-unloaded animals.   <P>In: Smith BJ, Lucas EA, Turner RT, Evans GL, Lerner MR, Brackett DJ, Stoecker BJ, Arjmandi BH. Vitamin E provides protection for bone in mature hindlimb unloaded male rats. <I>Calcified Tissue International.</I> 2004 Mar."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "NAG91159"
+    ]
+   },
+   "meta": "1 file \u00b7 7.39 MB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "4b51f743-1c8f-5c73-9813-6fff53e7f4b2",
+     "label": "JMGROUNDNAG91159_319.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 7748977,
+     "meta": "7.39 MB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

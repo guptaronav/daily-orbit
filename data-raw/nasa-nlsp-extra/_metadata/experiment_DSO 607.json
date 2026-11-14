@@ -1,0 +1,1538 @@
+{
+ "record": {
+  "id": "a7b02b95-1ed5-5150-905a-971413544732",
+  "_id": "a7b02b95-1ed5-5150-905a-971413544732",
+  "experiment_title": "Cardiovascular Responses to Lower Body Negative Pressure Following Space Flight",
+  "archive_status_index": 4,
+  "pub_document_number": "PUB001839",
+  "parameter_html": "<table><tr><td>Body weight</td></tr><tr><td>Cardiac index</td></tr><tr><td>Cardiac output</td></tr><tr><td>Diastolic blood pressure</td></tr><tr><td>Epinephrine</td></tr><tr><td>Forearm blood flow</td></tr><tr><td>Heart rate</td></tr><tr><td>Height</td></tr><tr><td>Hematocrit</td></tr><tr><td>Hemoglobin</td></tr><tr><td>Leg circumference</td></tr><tr><td>Mean arterial pressure</td></tr><tr><td>Mean velocity</td></tr><tr><td>Norepinephrine</td></tr><tr><td>Osmolality</td></tr><tr><td>Pulse pressure</td></tr><tr><td>Stroke volume</td></tr><tr><td>Stroke volume index</td></tr><tr><td>Systolic blood pressure</td></tr><tr><td>Total peripheral resistance</td></tr><tr><td>Total peripheral resistance index</td></tr><tr><td>Arterial occlusive disease (AOD)</td></tr><tr><td>Body surface area (BSA)</td></tr><tr><td>Cardiac arrhythmia syndrome (CAS)</td></tr><tr><td>Plasma solids, total</td></tr><tr></tr></table>",
+  "__source_key": "cl62ayq7bcd8201o66ir34226",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Fortney- Schneider, Suzanne\">Principal Investigator: Fortney- Schneider, Suzanne</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Charles, John\">Principal Investigator: Charles, John</a>",
+  "experiment_type_lk": [
+   "Shuttle Detailed Supplementary Objectives (DSO)",
+   "Shuttle Extended Duration Orbiter Medical Project (EDOMP)"
+  ],
+  "__record_modified_date": "2026-08-23T04:12:17.683748+00:00",
+  "proposal_source": [
+   "N/A"
+  ],
+  "__indexed": "2026-08-23T04:12:17.683748+00:00",
+  "__record_creation_date": "2022-07-28T20:03:20.978Z",
+  "keyword": [
+   "Hypotension, orthostatic",
+   "Hematocrit",
+   "Echocardiography",
+   "Heart rate",
+   "Lower body negative pressure (LBNP)",
+   "Atrophy",
+   "Stress",
+   "Vascular resistance",
+   "Autonomic nervous system",
+   "Catecholamines",
+   "Sympathetic nervous system",
+   "Syncope, vasovagal",
+   "Body water",
+   "Blood pressure"
+  ],
+  "keyword_name": "Blood pressure",
+  "__record_size": 75978,
+  "__record_version": 29,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<br>\r\nOrthostatic intolerance is a significant safety concern for Shuttle crew members during return to a 1-g environment and in cases of emergency egress.  Orthostatic intolerance may result from decreased body hydration, increased leg compliance, or impaired cardiac or vascular compensatory response.   Lower body negative pressure (LBNP) introduces a simulated orthostatic stress in a gradual and graded manner and it was used to test the orthostatic function of crew members before and after flight.\r\n<p>\r\nAPPROACH:<br>\r\nTwelve crew members on 6- to 14-day Shuttle flights completed this protocol, but data from 2 were excluded, so that the number of participants was 10.  Two different protocols of LBNP were used: pre-syncopal limit (PSL) and ramp.  In the PSL protocol, which was used to assess the orthostatic tolerance and presyncopal symptoms of crew members, LBNP was applied continuously in 3-minute stages of 10 to 20 millimeters of mercury (mm Hg).  The ramp protocol was more gradual and consisted of consecutive 5-minute stages at -0, -10, -20, -30, -40, -50, and -60 mm Hg.  Measurements were made before, during and after ramp and PSL LBNP.   Heart rate (HR) was measured with Lifepak and blood pressure with a sphygmomanometer.  Total peripheral resistance (TPR), cardiac output, and stroke volume were measured by echocardiography.  Blood samples were drawn before, during and after LBNP to estimate changes in body hydration (hematocrit, hemoglobin, and plasma total solids) and cardiovascular autonomic response (plasma catecholamines).  Leg compliance during LBNP was measured by a mercury-in-silastic strain gauge placed around the calf.\r\n<p>\r\nAt least 2 months before flight, each subject performed 2 or 3 PSL LBNP protocols.  In the 4 months before flight, each crew member performed 2 or 3 ramp protocols.  The postflight LBNP ramp test was done within 4 to 6 hours of landing (R+0), and at 3 other times between R+1 and R+8.\r\n<p>\r\nRESULTS:<br>\r\nBefore flight, all crew members completed the LBNP ramp test.  On day R+0, 5 of 10 were unable to complete the test due to presyncopal symptoms; HR remained elevated during all recovery tests.  TPR was greater after landing than before flight.  Blood analysis on R+0 revealed slight hemoconcentration and augmented catecholamine levels.  Catecholamine levels were also increased by LBNP between R+1 and R+8.   Leg circumference decreased dramatically after space flight and the decrease persisted for 6 to 8 days after landing.  This may represent an acute decrease in muscle mass, not due solely due to dehydration because blood results indicated rapid recovery of body fluids within 48 hours.  In comparing postflight response to LBNP and the stand test, LBNP gave no evidence of depressed orthostatic peripheral vascular response, which may be due to the difference between these two types of orthostatic stressors.\r\n<p>",
+  "payload_id": "DSO37",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "DSO 607",
+  "indexed": "2026-08-23T04:12:17.683748+00:00",
+  "GUID": "cl62ayq7bcd8201o66ir34226",
+  "parameter_name": [
+   "Body weight",
+   "Cardiac index",
+   "Cardiac output",
+   "Diastolic blood pressure",
+   "Epinephrine",
+   "Forearm blood flow",
+   "Heart rate",
+   "Height",
+   "Hematocrit",
+   "Hemoglobin",
+   "Leg circumference",
+   "Mean arterial pressure",
+   "Mean velocity",
+   "Norepinephrine",
+   "Osmolality",
+   "Pulse pressure",
+   "Stroke volume",
+   "Stroke volume index",
+   "Systolic blood pressure",
+   "Total peripheral resistance",
+   "Total peripheral resistance index",
+   "Arterial occlusive disease (AOD)",
+   "Body surface area (BSA)",
+   "Cardiac arrhythmia syndrome (CAS)",
+   "Plasma solids, total"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 608,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Cardiovascular physiology"
+  ],
+  "pme_role_with_name": [
+   "Principal Investigator: Charles, John",
+   "Principal Investigator: Fortney- Schneider, Suzanne"
+  ],
+  "missions": [
+   [
+    [
+     "STS-37"
+    ]
+   ],
+   [
+    [
+     "STS-39"
+    ]
+   ],
+   [
+    [
+     "STS-45"
+    ]
+   ],
+   [
+    [
+     "STS-47"
+    ]
+   ],
+   [
+    [
+     "STS-50"
+    ]
+   ],
+   [
+    [
+     "STS-43"
+    ]
+   ],
+   [
+    [
+     "STS-44"
+    ]
+   ],
+   [
+    [
+     "STS-52"
+    ]
+   ]
+  ],
+  "__dirid": "a7b02b95-1ed5-5150-905a-971413544732",
+  "__record_size_wo_doccontent": 75978,
+  "PI": [
+   "Charles, John",
+   "Fortney- Schneider, Suzanne"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "DSO 607"
+  ],
+  "mission_id": [
+   [
+    [
+     "STS-37"
+    ]
+   ],
+   [
+    [
+     "STS-39"
+    ]
+   ],
+   [
+    [
+     "STS-45"
+    ]
+   ],
+   [
+    [
+     "STS-47"
+    ]
+   ],
+   [
+    [
+     "STS-50"
+    ]
+   ],
+   [
+    [
+     "STS-43"
+    ]
+   ],
+   [
+    [
+     "STS-44"
+    ]
+   ],
+   [
+    [
+     "STS-52"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Charles, John",
+   "Fortney- Schneider, Suzanne"
+  ],
+  "archive_status": "Data preservation is complete. All datasets are privacy-protected. Data is available via data request.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Shuttle Program",
+  "__source_field_concat": "PUB001839 DSO37 cl62ayq7bcd8201o66ir34226 Blood pressure  N/A Cardiovascular Responses to Lower Body Negative Pressure Following Space Flight DSO 607 Shuttle Program",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<br>\r\nOrthostatic intolerance is a significant safety concern for Shuttle crew members during return to a 1-g environment and in cases of emergency egress.  Orthostatic intolerance may result from decreased body hydration, increased leg compliance, or impaired cardiac or vascular compensatory response.   Lower body negative pressure (LBNP) introduces a simulated orthostatic stress in a gradual and graded manner and it was used to test the orthostatic function of crew members before and after flight.\r\n<p>\r\nAPPROACH:<br>\r\nTwelve crew members on 6- to 14-day Shuttle flights completed this protocol, but data from 2 were excluded, so that the number of participants was 10.  Two different protocols of LBNP were used: pre-syncopal limit (PSL) and ramp.  In the PSL protocol, which was used to assess the orthostatic tolerance and presyncopal symptoms of crew members, LBNP was applied continuously in 3-minute stages of 10 to 20 millimeters of mercury (mm Hg).  The ramp protocol was more gradual and consisted of consecutive 5-minute stages at -0, -10, -20, -30, -40, -50, and -60 mm Hg.  Measurements were made before, during and after ramp and PSL LBNP.   Heart rate (HR) was measured with Lifepak and blood pressure with a sphygmomanometer.  Total peripheral resistance (TPR), cardiac output, and stroke volume were measured by echocardiography.  Blood samples were drawn before, during and after LBNP to estimate changes in body hydration (hematocrit, hemoglobin, and plasma total solids) and cardiovascular autonomic response (plasma catecholamines).  Leg compliance during LBNP was measured by a mercury-in-silastic strain gauge placed around the calf.\r\n<p>\r\nAt least 2 months before flight, each subject performed 2 or 3 PSL LBNP protocols.  In the 4 months before flight, each crew member performed 2 or 3 ramp protocols.  The postflight LBNP ramp test was done within 4 to 6 hours of landing (R+0), and at 3 other times between R+1 and R+8.\r\n<p>\r\nRESULTS:<br>\r\nBefore flight, all crew members completed the LBNP ramp test.  On day R+0, 5 of 10 were unable to complete the test due to presyncopal symptoms; HR remained elevated during all recovery tests.  TPR was greater after landing than before flight.  Blood analysis on R+0 revealed slight hemoconcentration and augmented catecholamine levels.  Catecholamine levels were also increased by LBNP between R+1 and R+8.   Leg circumference decreased dramatically after space flight and the decrease persisted for 6 to 8 days after landing.  This may represent an acute decrease in muscle mass, not due solely due to dehydration because blood results indicated rapid recovery of body fluids within 48 hours.  In comparing postflight response to LBNP and the stand test, LBNP gave no evidence of depressed orthostatic peripheral vascular response, which may be due to the difference between these two types of orthostatic stressors.\r\n<p>",
+  "__doi": "10.83263/7xw0-3x76",
+  "__doi_record_creation_date": "2026-08-23T04:12:17",
+  "__doi_record_modified_date": "2026-08-23T04:12:17"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001674",
+   "label": "JMDSO_607_11",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Percent Change of Leg Circumference",
+    "dataset_catalog": "JMDSO_607_11",
+    "dataset_description": [
+     "This graph depicts percent change of leg circumference during lower-body negative pressure (LBNP) for subjects in the DSO 607 study during preflight and R+0.\r\n<p>\r\nSource: Unpublished data."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 607"
+    ]
+   },
+   "meta": "8 files \u00b7 548.8 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "52f0a47e-4d30-5f06-9c97-9e2a9d00e7a6",
+     "label": "JMDSO_607_11.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 70246,
+     "meta": "68.6 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "98cd371a-20c9-5c35-9784-c40d5092c543",
+     "label": "JMDSO_607_11.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 70246,
+     "meta": "68.6 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d9fc508e-76b4-568c-9cec-dab9e57d9826",
+     "label": "JMDSO_607_11.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 70246,
+     "meta": "68.6 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "867d7382-732d-5ba8-8e84-af5c1037c9e3",
+     "label": "JMDSO_607_11.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 70246,
+     "meta": "68.6 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e3eb1d39-b7bc-51d2-a7c0-aa3ef4e054df",
+     "label": "JMDSO_607_11.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 70246,
+     "meta": "68.6 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "50d71c61-346f-5d26-b932-4bc8144fb559",
+     "label": "JMDSO_607_11.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 70246,
+     "meta": "68.6 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6c1c3ec5-59cc-5c48-ae3f-2693418049a1",
+     "label": "JMDSO_607_11.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 70246,
+     "meta": "68.6 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d955b26d-b762-5dfb-8821-392469dff86e",
+     "label": "JMDSO_607_11.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 70246,
+     "meta": "68.6 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001082",
+   "label": "JMDSO_607_10",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Cardiac Output",
+    "dataset_catalog": "JMDSO_607_10",
+    "dataset_description": [
+     "This graph depicts cardiac output during lower-body negative pressure (LBNP) for subjects in the DSO 607 study during preflight and R+0.\r\n<p>\r\nSource: Unpublished data."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 607"
+    ]
+   },
+   "meta": "8 files \u00b7 560.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "a6d73eb5-0f66-5d77-acf1-b9aa4b6d2f3c",
+     "label": "JMDSO_607_10.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 71680,
+     "meta": "70.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "23a440fb-c39f-5626-a89e-8dbc9490a879",
+     "label": "JMDSO_607_10.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 71680,
+     "meta": "70.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "cdb70c3b-739d-5675-95d4-b7aa8f2ef0a3",
+     "label": "JMDSO_607_10.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 71680,
+     "meta": "70.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1b7665e0-e341-5e52-9681-327a40b72152",
+     "label": "JMDSO_607_10.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 71680,
+     "meta": "70.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c9e521b5-0ac1-59df-bab7-b9c8898731db",
+     "label": "JMDSO_607_10.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 71680,
+     "meta": "70.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1927fae4-3cce-5f4e-9b62-ed4c551fcc63",
+     "label": "JMDSO_607_10.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 71680,
+     "meta": "70.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a43f01a6-ea43-52e9-be6a-bccddad44bce",
+     "label": "JMDSO_607_10.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 71680,
+     "meta": "70.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d5eab6b3-8941-5b2c-b0f0-f11244cafdf1",
+     "label": "JMDSO_607_10.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 71680,
+     "meta": "70.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000305",
+   "label": "JMDSO_607_8",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Total Peripheral Resistance",
+    "dataset_catalog": "JMDSO_607_8",
+    "dataset_description": [
+     "This graph depicts total peripheral resistance during lower-body negative pressure (LBNP) for subjects in the DSO 607 study during preflight and R+0.\r\n<p>\r\nSource: Unpublished data."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 607"
+    ]
+   },
+   "meta": "8 files \u00b7 577.6 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "d2cd6ff3-0f2b-5c28-8e9c-ba53795d9cca",
+     "label": "JMDSO_607_8.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 73933,
+     "meta": "72.2 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4d0e189e-054a-5196-b545-7c5d62e91385",
+     "label": "JMDSO_607_8.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 73933,
+     "meta": "72.2 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5f213d32-4f4a-5423-b75e-7519c923c349",
+     "label": "JMDSO_607_8.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 73933,
+     "meta": "72.2 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ca2aa28e-7e61-578f-9278-255fa0964047",
+     "label": "JMDSO_607_8.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 73933,
+     "meta": "72.2 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1037fbcc-56f6-5ba7-8b2e-c33c4d547254",
+     "label": "JMDSO_607_8.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 73933,
+     "meta": "72.2 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ee75e838-25f8-536e-b62d-4069a2fd8311",
+     "label": "JMDSO_607_8.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 73933,
+     "meta": "72.2 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "667251b6-485a-5d8f-99f1-c002a84dd132",
+     "label": "JMDSO_607_8.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 73933,
+     "meta": "72.2 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5ed306d2-e599-5852-8b38-52f2347d458d",
+     "label": "JMDSO_607_8.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 73933,
+     "meta": "72.2 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001321",
+   "label": "JMDSO_607_4",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Pulse Pressure",
+    "dataset_catalog": "JMDSO_607_4",
+    "dataset_description": [
+     "This graph depicts mean pulse pressure response during lower-body negative pressure (LBNP) for subjects in the DSO 607 study during preflight and R+0.\r\n<p>\r\nSource: Unpublished data."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 607"
+    ]
+   },
+   "meta": "8 files \u00b7 558.4 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "46de8812-775a-59c8-807f-c248427d3bc0",
+     "label": "JMDSO_607_4.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 71475,
+     "meta": "69.8 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d6134cd9-c1ae-5f1a-ae89-3d4dc54620df",
+     "label": "JMDSO_607_4.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 71475,
+     "meta": "69.8 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2449b276-2355-58c6-92d0-ac9e59c02151",
+     "label": "JMDSO_607_4.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 71475,
+     "meta": "69.8 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "df2955fb-d5a6-572a-a057-c64e98e57984",
+     "label": "JMDSO_607_4.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 71475,
+     "meta": "69.8 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8c6b22f9-98b3-5212-82e2-1029d3c5ae58",
+     "label": "JMDSO_607_4.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 71475,
+     "meta": "69.8 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "95a93188-962b-5f0f-9b39-8a613cb1117d",
+     "label": "JMDSO_607_4.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 71475,
+     "meta": "69.8 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4ca6f389-85b8-5d79-81ad-a40d4c6e1af1",
+     "label": "JMDSO_607_4.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 71475,
+     "meta": "69.8 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "50b38bec-0da1-531f-a41c-8e7c6e1b1e70",
+     "label": "JMDSO_607_4.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 71475,
+     "meta": "69.8 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000933",
+   "label": "JMDSO_607_5",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Mean Arterial Pressure",
+    "dataset_catalog": "JMDSO_607_5",
+    "dataset_description": [
+     "This graph depicts mean arterial pressure during lower-body negative pressure (LBNP) for subjects in the DSO 607 study during preflight and R+0.\r\n<p>\r\nSource: Unpublished data."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 607"
+    ]
+   },
+   "meta": "8 files \u00b7 549.6 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "a7e6c91b-1574-58d6-a7ce-a41f961d9fcf",
+     "label": "JMDSO_607_5.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 70349,
+     "meta": "68.7 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "63e9757c-943f-53f6-99b3-ea1ba400deea",
+     "label": "JMDSO_607_5.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 70349,
+     "meta": "68.7 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "dc88fe1e-1f0c-5d77-aacf-c242f4abf630",
+     "label": "JMDSO_607_5.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 70349,
+     "meta": "68.7 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "eeccf809-2288-505a-927f-626d8f99a628",
+     "label": "JMDSO_607_5.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 70349,
+     "meta": "68.7 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ec370dbd-dd76-5852-8b2c-34a919cf7c85",
+     "label": "JMDSO_607_5.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 70349,
+     "meta": "68.7 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "473f04f6-45dc-5da7-bb1b-0e8614002235",
+     "label": "JMDSO_607_5.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 70349,
+     "meta": "68.7 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3b6aded8-4c1d-59c7-8d0a-e561c9f7ccaa",
+     "label": "JMDSO_607_5.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 70349,
+     "meta": "68.7 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "08e753e0-c264-5e77-b479-8e9d51c395da",
+     "label": "JMDSO_607_5.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 70349,
+     "meta": "68.7 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001148",
+   "label": "JMDSO_607_1",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "LBNP Ramp Test",
+    "dataset_catalog": "JMDSO_607_1",
+    "dataset_description": [
+     "This Excel file contains lower-body negative pressure (LBNP) ramp test results for subjects in the DSO 607 study.  Variables include hematocrit, hemoglobin, osmolality, total solids, norepinephrine, and epinephrine.\r\n<p>\r\nSource: Unpublished data."
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "DSO 607"
+    ]
+   },
+   "meta": "8 files \u00b7 212.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "0a36dbde-0e96-5f19-9d7b-a1e25bf32c1f",
+     "label": "JMDSO_607_1.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 27136,
+     "meta": "26.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "96329d76-1ff1-58e2-82bc-1f513bace0d7",
+     "label": "JMDSO_607_1.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 27136,
+     "meta": "26.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "66cfdd24-a83e-5656-b038-5ec61620bed2",
+     "label": "JMDSO_607_1.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 27136,
+     "meta": "26.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "596bb055-3996-5d98-b8be-3f2533ab4791",
+     "label": "JMDSO_607_1.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 27136,
+     "meta": "26.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "dca8eabc-c94b-55a1-893a-6a7c527ade82",
+     "label": "JMDSO_607_1.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 27136,
+     "meta": "26.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1faa6666-d545-598a-ab02-9203130a7148",
+     "label": "JMDSO_607_1.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 27136,
+     "meta": "26.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e10fc1fe-a718-56c9-b72f-4d62dced8c68",
+     "label": "JMDSO_607_1.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 27136,
+     "meta": "26.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9e710f1a-616d-54c7-a17c-460cb438a794",
+     "label": "JMDSO_607_1.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 27136,
+     "meta": "26.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001552",
+   "label": "JMDSO_607_2",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Heart Rate",
+    "dataset_catalog": "JMDSO_607_2",
+    "dataset_description": [
+     "This graph depicts heart rate response during lower-body negative pressure (LBNP) for subjects in the DSO 607 study during preflight and R+0.\r\n<p>\r\nSource: Unpublished data."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 607"
+    ]
+   },
+   "meta": "8 files \u00b7 740.8 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "b4fa4fe4-985b-57ab-8f48-5ba8811045c4",
+     "label": "JMDSO_607_2.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 94822,
+     "meta": "92.6 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c5be2095-8c09-57cc-843f-962b17d0b817",
+     "label": "JMDSO_607_2.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 94822,
+     "meta": "92.6 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ccdc0852-6f48-5fc4-9fa4-4760f4e5dc0d",
+     "label": "JMDSO_607_2.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 94822,
+     "meta": "92.6 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f50f9882-a91a-51de-a4cf-4d7721e5980f",
+     "label": "JMDSO_607_2.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 94822,
+     "meta": "92.6 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "08bba431-7e8c-5477-8067-a93af0492729",
+     "label": "JMDSO_607_2.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 94822,
+     "meta": "92.6 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6ab0f412-6a16-5785-9c35-aa174cc7ff4b",
+     "label": "JMDSO_607_2.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 94822,
+     "meta": "92.6 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "634696f8-79e0-5092-8f80-bc01b64888f3",
+     "label": "JMDSO_607_2.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 94822,
+     "meta": "92.6 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "dc39c25e-58fa-55a0-832f-60a80e3c6732",
+     "label": "JMDSO_607_2.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 94822,
+     "meta": "92.6 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001567",
+   "label": "JMDSO_607_9",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Stroke Volume",
+    "dataset_catalog": "JMDSO_607_9",
+    "dataset_description": [
+     "This graph depicts stroke volume during lower-body negative pressure (LBNP) for subjects in the DSO 607 study during preflight and R+0.\r\n<p>\r\nSource: Unpublished data."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 607"
+    ]
+   },
+   "meta": "8 files \u00b7 568.8 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "5c6de916-eb00-5657-bc82-110df07507df",
+     "label": "JMDSO_607_9.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 72806,
+     "meta": "71.1 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9fb74cc5-4e27-5ee7-b957-b36da5b4a20c",
+     "label": "JMDSO_607_9.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 72806,
+     "meta": "71.1 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c1d9b720-c0b8-5b89-812d-2f57e3a437f3",
+     "label": "JMDSO_607_9.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 72806,
+     "meta": "71.1 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "10628ebb-5db5-5c0a-a683-c0e6e4cd93dd",
+     "label": "JMDSO_607_9.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 72806,
+     "meta": "71.1 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d694bbfe-d24a-5a39-abc2-7d6a560fcf18",
+     "label": "JMDSO_607_9.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 72806,
+     "meta": "71.1 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a29b9051-0869-5dae-bb71-1ca68261d0be",
+     "label": "JMDSO_607_9.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 72806,
+     "meta": "71.1 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c8c29f88-40e8-58a6-8844-552e858c41c2",
+     "label": "JMDSO_607_9.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 72806,
+     "meta": "71.1 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f412b690-059e-50d1-8bf2-df5c8c74c633",
+     "label": "JMDSO_607_9.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 72806,
+     "meta": "71.1 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000545",
+   "label": "JMDSO_607_6",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Diastolic Blood Pressure",
+    "dataset_catalog": "JMDSO_607_6",
+    "dataset_description": [
+     "This graph depicts diastolic blood pressure during lower-body negative pressure (LBNP) for subjects in the DSO 607 study during preflight and R+0.\r\n<p>\r\nSource: Unpublished data."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 607"
+    ]
+   },
+   "meta": "8 files \u00b7 553.6 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "fea04c0f-a2f1-55ee-852a-4e2f18da0246",
+     "label": "JMDSO_607_6.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 70861,
+     "meta": "69.2 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "500c0aa8-4670-5b4e-8304-d70cc434c821",
+     "label": "JMDSO_607_6.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 70861,
+     "meta": "69.2 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4f9305ef-cad5-5e94-b4e6-7b21bd02be70",
+     "label": "JMDSO_607_6.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 70861,
+     "meta": "69.2 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5676745b-a743-5c91-9a41-be44c5c1cbff",
+     "label": "JMDSO_607_6.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 70861,
+     "meta": "69.2 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1bd55b47-36ee-526e-99de-c415ddda0c1e",
+     "label": "JMDSO_607_6.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 70861,
+     "meta": "69.2 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "befc9de0-b53a-5e32-8422-d6602c6db050",
+     "label": "JMDSO_607_6.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 70861,
+     "meta": "69.2 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f54c82d8-820c-595e-b149-5a0a37c89019",
+     "label": "JMDSO_607_6.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 70861,
+     "meta": "69.2 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "12f0b042-8946-5a2f-ad73-6d268aea27a6",
+     "label": "JMDSO_607_6.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 70861,
+     "meta": "69.2 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001204",
+   "label": "JMDSO_607_14",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Heart Rate, Part 2",
+    "dataset_catalog": "JMDSO_607_14",
+    "dataset_description": [
+     "This graph depicts heart rate response during lower-body negative pressure (LBNP) for subjects in the DSO 607 study during preflight, R+1-2, R+3-4, and R+5-8.\r\n<p>\r\nSource: Unpublished data."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 607"
+    ]
+   },
+   "meta": "8 files \u00b7 584.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "f5cf1cad-6dc0-5221-97e8-3187dc976295",
+     "label": "JMDSO_607_14.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 74752,
+     "meta": "73.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "413134b2-5fca-5e50-8de1-521bf0eb9b72",
+     "label": "JMDSO_607_14.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 74752,
+     "meta": "73.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ce1b9c53-ae04-56b7-a491-f83c0e64adaf",
+     "label": "JMDSO_607_14.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 74752,
+     "meta": "73.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "cb8432d2-e421-5c7e-8051-9c828e33ca79",
+     "label": "JMDSO_607_14.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 74752,
+     "meta": "73.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "622ba89d-8ec7-536f-b5fd-d08229c8a143",
+     "label": "JMDSO_607_14.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 74752,
+     "meta": "73.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ed3f120d-d47e-506e-8a7b-3c4f432c5174",
+     "label": "JMDSO_607_14.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 74752,
+     "meta": "73.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3be051a4-f8e9-50e5-956c-d010d3041879",
+     "label": "JMDSO_607_14.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 74752,
+     "meta": "73.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "31d25541-6852-5833-8b03-767a1b9cfff6",
+     "label": "JMDSO_607_14.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 74752,
+     "meta": "73.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001344",
+   "label": "JMDSO_607_12",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Leg Circumference Changes",
+    "dataset_catalog": "JMDSO_607_12",
+    "dataset_description": [
+     "This graph depicts leg circumference changes in millimeters during lower-body negative pressure (LBNP) for subjects in the DSO 607 study during preflight and R+0.\r\n<p>\r\nSource: Unpublished data."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 607"
+    ]
+   },
+   "meta": "8 files \u00b7 559.2 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "307253ff-716b-5a04-937a-424d53f3a98a",
+     "label": "JMDSO_607_12.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 71578,
+     "meta": "69.9 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e5b200b4-56f6-5f90-b979-aeb971311507",
+     "label": "JMDSO_607_12.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 71578,
+     "meta": "69.9 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e505c92a-92f5-55d5-926d-b930d36aaab3",
+     "label": "JMDSO_607_12.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 71578,
+     "meta": "69.9 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "fb5b4548-6505-5f7e-9cdf-4606d9ade65a",
+     "label": "JMDSO_607_12.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 71578,
+     "meta": "69.9 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "98752496-4860-523f-a32a-0922f74e5b85",
+     "label": "JMDSO_607_12.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 71578,
+     "meta": "69.9 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "846c9aa3-1003-5bd6-824b-ffabadab8881",
+     "label": "JMDSO_607_12.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 71578,
+     "meta": "69.9 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "77c58c35-0287-5bda-8ef5-7ae95fb55f27",
+     "label": "JMDSO_607_12.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 71578,
+     "meta": "69.9 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "819cde9a-8892-570b-9623-89ccbedc9d33",
+     "label": "JMDSO_607_12.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 71578,
+     "meta": "69.9 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000895",
+   "label": "JMDSO_607_3",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Heart Rate Part 2",
+    "dataset_catalog": "JMDSO_607_3",
+    "dataset_description": [
+     "This graph depicts heart rate response during lower-body negative pressure (LBNP) for subjects in the DSO 607 study during preflight, R+1-2, R+3-4, and R+5-8.\r\n<p>\r\nSource: Unpublished data"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 607"
+    ]
+   },
+   "meta": "8 files \u00b7 584.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "faa466af-acdf-5a0a-9a48-358c55c0ec47",
+     "label": "JMDSO_607_3.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 74752,
+     "meta": "73.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "495f8c0e-a2d5-5b95-8d71-64c7fec59ead",
+     "label": "JMDSO_607_3.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 74752,
+     "meta": "73.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "dc751fa6-5bfe-58ab-a4a0-29d498fe2df7",
+     "label": "JMDSO_607_3.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 74752,
+     "meta": "73.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3eff5866-b37b-5a3a-96f1-f2357706bcce",
+     "label": "JMDSO_607_3.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 74752,
+     "meta": "73.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3ddab21f-a391-505f-9430-98b7926a8a09",
+     "label": "JMDSO_607_3.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 74752,
+     "meta": "73.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "073f8f3c-d878-5344-a710-f55f692709b4",
+     "label": "JMDSO_607_3.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 74752,
+     "meta": "73.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2d43adf7-2a81-5b72-ab77-f179521b775d",
+     "label": "JMDSO_607_3.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 74752,
+     "meta": "73.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4ce92e3d-795c-5dc7-84f6-5e15fb283ac8",
+     "label": "JMDSO_607_3.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 74752,
+     "meta": "73.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002024",
+   "label": "JMDSO_607_7",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Systolic Blood Pressure",
+    "dataset_catalog": "JMDSO_607_7",
+    "dataset_description": [
+     "This graph depicts systolic blood pressure during lower-body negative pressure (LBNP) for subjects in the DSO 607 study during preflight and R+0.\r\n<p>\r\nSource: Unpublished data."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 607"
+    ]
+   },
+   "meta": "8 files \u00b7 562.4 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "3ca23da7-eff6-5c51-9e5b-2dc1e20a3355",
+     "label": "JMDSO_607_7.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 71987,
+     "meta": "70.3 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b8759b58-a7b9-545d-a7dd-87c99e96aa5b",
+     "label": "JMDSO_607_7.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 71987,
+     "meta": "70.3 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a9f298b3-40da-58b8-989a-a1e1ec761a11",
+     "label": "JMDSO_607_7.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 71987,
+     "meta": "70.3 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4ac26fe3-4b5a-5e0b-9cad-f7b1fa29bced",
+     "label": "JMDSO_607_7.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 71987,
+     "meta": "70.3 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2dd2ad12-f333-5b6a-a6d2-3610afcff64d",
+     "label": "JMDSO_607_7.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 71987,
+     "meta": "70.3 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f22128ce-922a-5414-b273-1f370a7bf22f",
+     "label": "JMDSO_607_7.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 71987,
+     "meta": "70.3 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "270cad1a-ecf8-52dd-a20e-58da7daf636c",
+     "label": "JMDSO_607_7.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 71987,
+     "meta": "70.3 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "778a574a-1d40-5850-98cf-a73bd860e31f",
+     "label": "JMDSO_607_7.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 71987,
+     "meta": "70.3 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

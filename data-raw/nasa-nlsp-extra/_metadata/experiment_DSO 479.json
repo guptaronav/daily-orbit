@@ -1,0 +1,190 @@
+{
+ "record": {
+  "id": "664e060f-5812-51bc-91b7-58205beef23e",
+  "_id": "664e060f-5812-51bc-91b7-58205beef23e",
+  "experiment_title": "Hyperosmotic Fluid Countermeasure",
+  "archive_status_index": 2,
+  "pub_document_number": "PUB001058",
+  "parameter_html": "<table><tr><td>Fluid intake</td></tr><tr><td>Heart rate</td></tr><tr><td>Height</td></tr><tr><td>Position</td></tr><tr><td>Weight</td></tr><tr><td>Diastolic blood pressure</td></tr><tr><td>Systolic blood pressure</td></tr><tr></tr></table>",
+  "__source_key": "cl62aynjwcd7g01o67rq48o5d",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Charles, John\">Principal Investigator: Charles, John</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Bungo, Michael\">Co-Investigator: Bungo, Michael</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Cintron, Nitza\">Co-Investigator: Cintron, Nitza</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Fortney- Schneider, Suzanne\">Co-Investigator: Fortney- Schneider, Suzanne</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Frey, Mary\">Co-Investigator: Frey, Mary</a>",
+  "experiment_type_lk": [
+   "Shuttle Detailed Supplementary Objectives (DSO)",
+   "Shuttle Extended Duration Orbiter Medical Project (EDOMP)"
+  ],
+  "__record_modified_date": "2026-08-23T04:12:36.619914+00:00",
+  "proposal_source": [
+   "N/A"
+  ],
+  "__indexed": "2026-08-23T04:12:36.619914+00:00",
+  "__record_creation_date": "2022-07-28T20:02:56.178Z",
+  "keyword": [
+   "Fluid therapy",
+   "Plasma volume",
+   "Water",
+   "Sodium",
+   "Drinking",
+   "Weightlessness countermeasures"
+  ],
+  "keyword_name": "Weightlessness countermeasures",
+  "__record_size": 61131,
+  "__record_version": 29,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<BR>\r\nSpace flight is known to cause a shift in fluid away from the lower body and a resultant decrease in body fluid. Hypovolemia may be one cause of the orthostatic intolerance that is common after space flight. Drinking a salt-water solution (or ingesting an equivalent combination of salt tablets and water) may help to restore plasma volume, but the effectiveness of such a countermeasure may depend upon whether the ingested solution is isotonic (its concentration is the same as the concentration of substances dissolved in the blood) or hypertonic (its concentration is higher than that of the blood). The objective of this study was to test the ingestion of 3 salt and water combinations during flight, comparing the efficacy of isotonic and hypertonic combinations for maintaining orthostatic function after space flight.\r\n<P>\r\nAPPROACH:<BR>\r\nTwenty-three astronauts on 5 Shuttle flights were assigned to consume one of the following 1 to 2 hours before landing: a hypertonic combination of salt tablets and water, isotonic saline, or an isotonic combination of salt tablets and water. Each astronaut performed stand tests before the flight, on landing day and 3 days after landing.\r\n<P>\r\nRESULTS:<BR>\r\nThe ingested volumes of the test solutions and of other fluids were too variable for any conclusions to be made. Evaluation of the relative efficacy of the different candidate\r\nfluid loading solutions was difficult due to the existence of several factors that compromised data quality. These factors were: (1) a flight rule requiring crew members to repeat half of the fluid load protocol in the event of a one revolution wave-off of landing, (2) variations in the amount of solution ingested, (3) subsequent uncontrolled fluid ingestion after completion of the fluid loading protocol, which, in effect, diluted the prescribed solutions,and (4) use of fluids other than water, as prescribed, which altered not only the conditions of the investigation but also the efficacy of the countermeasure.<P>\r\nEvaluation of the candidate fluid loading countermeasure solutions and their ability to maintain orthostatic function after spaceflight was terminated without providing a conclusive answer to the question of the efficacy of a hypertonic solution as an end-of-mission rehydration countermeasure.",
+  "payload_id": "DSO31",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "DSO 479",
+  "indexed": "2026-08-23T04:12:36.619914+00:00",
+  "GUID": "cl62aynjwcd7g01o67rq48o5d",
+  "parameter_name": [
+   "Fluid intake",
+   "Heart rate",
+   "Height",
+   "Position",
+   "Weight",
+   "Diastolic blood pressure",
+   "Systolic blood pressure"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 590,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Cardiovascular physiology",
+   "Renal, fluid and electrolyte physiology"
+  ],
+  "pme_role_with_name": [
+   "Co-Investigator: Bungo, Michael",
+   "Co-Investigator: Cintron, Nitza",
+   "Co-Investigator: Fortney- Schneider, Suzanne",
+   "Co-Investigator: Frey, Mary",
+   "Principal Investigator: Charles, John"
+  ],
+  "missions": [
+   [
+    [
+     "STS-31"
+    ]
+   ],
+   [
+    [
+     "STS-36"
+    ]
+   ],
+   [
+    [
+     "STS-37"
+    ]
+   ],
+   [
+    [
+     "STS-48"
+    ]
+   ],
+   [
+    [
+     "STS-53"
+    ]
+   ]
+  ],
+  "__dirid": "664e060f-5812-51bc-91b7-58205beef23e",
+  "__record_size_wo_doccontent": 61131,
+  "PI": [
+   "Charles, John"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "DSO 479"
+  ],
+  "mission_id": [
+   [
+    [
+     "STS-31"
+    ]
+   ],
+   [
+    [
+     "STS-36"
+    ]
+   ],
+   [
+    [
+     "STS-37"
+    ]
+   ],
+   [
+    [
+     "STS-48"
+    ]
+   ],
+   [
+    [
+     "STS-53"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Charles, John"
+  ],
+  "archive_status": "Data preservation is complete. Privacy-protected datasets are available via data request. Remaining datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Shuttle Program",
+  "__source_field_concat": "PUB001058 DSO31 cl62aynjwcd7g01o67rq48o5d Weightlessness countermeasures  N/A Hyperosmotic Fluid Countermeasure DSO 479 Shuttle Program",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<BR>\r\nSpace flight is known to cause a shift in fluid away from the lower body and a resultant decrease in body fluid. Hypovolemia may be one cause of the orthostatic intolerance that is common after space flight. Drinking a salt-water solution (or ingesting an equivalent combination of salt tablets and water) may help to restore plasma volume, but the effectiveness of such a countermeasure may depend upon whether the ingested solution is isotonic (its concentration is the same as the concentration of substances dissolved in the blood) or hypertonic (its concentration is higher than that of the blood). The objective of this study was to test the ingestion of 3 salt and water combinations during flight, comparing the efficacy of isotonic and hypertonic combinations for maintaining orthostatic function after space flight.\r\n<P>\r\nAPPROACH:<BR>\r\nTwenty-three astronauts on 5 Shuttle flights were assigned to consume one of the following 1 to 2 hours before landing: a hypertonic combination of salt tablets and water, isotonic saline, or an isotonic combination of salt tablets and water. Each astronaut performed stand tests before the flight, on landing day and 3 days after landing.\r\n<P>\r\nRESULTS:<BR>\r\nThe ingested volumes of the test solutions and of other fluids were too variable for any conclusions to be made. Evaluation of the relative efficacy of the different candidate\r\nfluid loading solutions was difficult due to the existence of several factors that compromised data quality. These factors were: (1) a flight rule requiring crew members to repeat half of the fluid load protocol in the event of a one revolution wave-off of landing, (2) variations in the amount of solution ingested, (3) subsequent uncontrolled fluid ingestion after completion of the fluid loading protocol, which, in effect, diluted the prescribed solutions,and (4) use of fluids other than water, as prescribed, which altered not only the conditions of the investigation but also the efficacy of the countermeasure.<P>\r\nEvaluation of the candidate fluid loading countermeasure solutions and their ability to maintain orthostatic function after spaceflight was terminated without providing a conclusive answer to the question of the efficacy of a hypertonic solution as an end-of-mission rehydration countermeasure.",
+  "__doi": "10.83263/h7w1-rj36",
+  "__doi_record_creation_date": "2026-08-23T04:12:36",
+  "__doi_record_modified_date": "2026-08-23T04:12:36"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000264",
+   "label": "DSO 479__2500136903",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Data Collection Timetables for DSO 479",
+    "dataset_catalog": "DSO 479__2500136903",
+    "dataset_description": [
+     "This spreadsheet represents the data collection timetables for data collection sessions for this experiment: crew, air, surface and water microbiology. Information included in this spreadsheet may include information on the test protocol, data collection constraints, parameters measured, hardware used, scheduled versus actual days of data collection, and subject information."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 479"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "b6c5b7d5-959e-51c1-93a3-89c07db29409",
+     "label": "DSO_479__2500136903.xlsx_STS-31_DSO_479_2010_250_050919.xlsx",
+     "type": "file",
+     "ext": "xlsx",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

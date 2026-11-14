@@ -1,0 +1,61 @@
+﻿ID,Campaign,Subject,Test_Phase,Relative Position,Parameter_Code,Parameter,Mean,StdDev,% Std Dev
+1,C3E,6043,PRE,Distal 4%,TOT_DEN,Total Density,354.77,11.50,3.24
+2,C3E,6043,PRE,Distal 14%,TOT_DEN,Total Density,754.57,4.02,0.53
+3,C3E,6043,PRE,Distal 33%,TOT_DEN,Total Density,943.23,5.97,0.63
+4,C3E,6043,PRE,Distal 66%,TOT_DEN,Total Density,695.07,6.80,0.98
+5,C3E,6043,PRE,Proximal ,TOT_DEN,Total Density,271.47,2.06,0.76
+6,C3E,6043,PRE,Distal 4%,CRTSUB_DEN,Cortical and Subcortical Density,413.73,20.08,4.85
+7,C3E,6043,PRE,Distal 14%,CRTSUB_DEN,Cortical and Subcortical Density,1152.03,5.58,0.48
+8,C3E,6043,PRE,Distal 33%,CRTSUB_DEN,Cortical and Subcortical Density,1224.57,6.34,0.52
+9,C3E,6043,PRE,Distal 66%,CRTSUB_DEN,Cortical and Subcortical Density,1066.70,2.01,0.19
+10,C3E,6043,PRE,Proximal ,CRTSUB_DEN,Cortical and Subcortical Density,367.50,3.93,1.07
+11,C3E,6043,PRE,Distal 4%,TRAB_DEN,Trabecular density,282.60,1.25,0.44
+12,C3E,6043,PRE,Distal 14%,TRAB_DEN,Trabecular density,268.47,2.28,0.85
+13,C3E,6043,PRE,Distal 33%,TRAB_DEN,Trabecular density,NA,NA,NA
+14,C3E,6043,PRE,Distal 66%,TRAB_DEN,Trabecular density,NA,NA,NA
+15,C3E,6043,PRE,Proximal ,TRAB_DEN,Trabecular density,154.07,0.21,0.14
+16,C3E,6043,PRE,Distal 4%,SSI P,Strength-strain index,1275.60,200.67,15.73
+17,C3E,6043,PRE,Distal 14%,SSI P,Strength-strain index,1707.83,20.13,1.18
+18,C3E,6043,PRE,Distal 33%,SSI P,Strength-strain index,1811.81,40.68,2.25
+19,C3E,6043,PRE,Distal 66%,SSI P,Strength-strain index,3063.74,42.66,1.39
+20,C3E,6043,PRE,Proximal ,SSI P,Strength-strain index,2519.54,108.65,4.31
+21,C3E,6043,60 Day,Distal 4%,TOT_DEN,Total Density,357.13,1.76,0.49
+22,C3E,6043,60 Day,Distal 14%,TOT_DEN,Total Density,759.67,2.56,0.34
+23,C3E,6043,60 Day,Distal 33%,TOT_DEN,Total Density,948.93,1.12,0.12
+24,C3E,6043,60 Day,Distal 66%,TOT_DEN,Total Density,700.47,3.19,0.46
+25,C3E,6043,60 Day,Proximal ,TOT_DEN,Total Density,273.33,12.10,4.43
+26,C3E,6043,60 Day,Distal 4%,CRTSUB_DEN,Cortical and Subcortical Density,416.37,2.75,0.66
+27,C3E,6043,60 Day,Distal 14%,CRTSUB_DEN,Cortical and Subcortical Density,1160.57,5.58,0.48
+28,C3E,6043,60 Day,Distal 33%,CRTSUB_DEN,Cortical and Subcortical Density,1236.13,1.27,0.10
+29,C3E,6043,60 Day,Distal 66%,CRTSUB_DEN,Cortical and Subcortical Density,1072.43,2.15,0.20
+30,C3E,6043,60 Day,Proximal ,CRTSUB_DEN,Cortical and Subcortical Density,370.83,21.96,5.92
+31,C3E,6043,60 Day,Distal 4%,TRAB_DEN,Trabecular density,284.77,0.78,0.27
+32,C3E,6043,60 Day,Distal 14%,TRAB_DEN,Trabecular density,268.63,3.20,1.19
+33,C3E,6043,60 Day,Distal 33%,TRAB_DEN,Trabecular density,NA,NA,NA
+34,C3E,6043,60 Day,Distal 66%,TRAB_DEN,Trabecular density,NA,NA,NA
+35,C3E,6043,60 Day,Proximal ,TRAB_DEN,Trabecular density,154.23,0.45,0.29
+36,C3E,6043,60 Day,Distal 4%,SSI P,Strength-strain index,1313.51,34.22,2.61
+37,C3E,6043,60 Day,Distal 14%,SSI P,Strength-strain index,1730.37,8.33,0.48
+38,C3E,6043,60 Day,Distal 33%,SSI P,Strength-strain index,1834.85,18.00,0.98
+39,C3E,6043,60 Day,Distal 66%,SSI P,Strength-strain index,3098.71,30.52,0.98
+40,C3E,6043,60 Day,Proximal ,SSI P,Strength-strain index,2619.08,429.90,16.41
+41,C3E,6043,POST,Distal 4%,TOT_DEN,Total Density,357.17,4.55,1.27
+42,C3E,6043,POST,Distal 14%,TOT_DEN,Total Density,761.60,3.45,0.45
+43,C3E,6043,POST,Distal 33%,TOT_DEN,Total Density,952.73,0.75,0.08
+44,C3E,6043,POST,Distal 66%,TOT_DEN,Total Density,695.40,0.66,0.09
+45,C3E,6043,POST,Proximal ,TOT_DEN,Total Density,289.57,3.00,1.04
+46,C3E,6043,POST,Distal 4%,CRTSUB_DEN,Cortical and Subcortical Density,416.37,6.76,1.62
+47,C3E,6043,POST,Distal 14%,CRTSUB_DEN,Cortical and Subcortical Density,1162.20,8.75,0.75
+48,C3E,6043,POST,Distal 33%,CRTSUB_DEN,Cortical and Subcortical Density,1241.07,2.87,0.23
+49,C3E,6043,POST,Distal 66%,CRTSUB_DEN,Cortical and Subcortical Density,1069.00,2.03,0.19
+50,C3E,6043,POST,Proximal ,CRTSUB_DEN,Cortical and Subcortical Density,400.07,5.95,1.49
+51,C3E,6043,POST,Distal 4%,TRAB_DEN,Trabecular density,284.77,1.93,0.68
+52,C3E,6043,POST,Distal 14%,TRAB_DEN,Trabecular density,271.90,3.22,1.18
+53,C3E,6043,POST,Distal 33%,TRAB_DEN,Trabecular density,NA,NA,NA
+54,C3E,6043,POST,Distal 66%,TRAB_DEN,Trabecular density,NA,NA,NA
+55,C3E,6043,POST,Proximal ,TRAB_DEN,Trabecular density,154.53,1.24,0.80
+56,C3E,6043,POST,Distal 4%,SSI P,Strength-strain index,1333.12,63.16,4.74
+57,C3E,6043,POST,Distal 14%,SSI P,Strength-strain index,1721.20,29.03,1.69
+58,C3E,6043,POST,Distal 33%,SSI P,Strength-strain index,1819.09,27.73,1.52
+59,C3E,6043,POST,Distal 66%,SSI P,Strength-strain index,3089.40,47.47,1.54
+60,C3E,6043,POST,Proximal ,SSI P,Strength-strain index,3199.38,131.62,4.11

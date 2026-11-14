@@ -1,0 +1,599 @@
+{
+ "record": {
+  "id": "73d10bb4-b805-5bd5-bc52-149d8f9d1bd8",
+  "_id": "73d10bb4-b805-5bd5-bc52-149d8f9d1bd8",
+  "experiment_title": "Cardiovascular Deconditioning Countermeasure Assessment",
+  "archive_status_index": 2,
+  "pub_document_number": "PUB000772",
+  "parameter_html": "<table><tr><td>Blood pressure, mean</td></tr><tr><td>Hypotonic solution</td></tr><tr><td>Isotonic solution</td></tr><tr><td>Orthostatic syncope</td></tr><tr><td>Presyncope</td></tr><tr><td>Supine heart rate, mean</td></tr><tr><td>Cardiovascular index of deconditioning</td></tr><tr></tr></table>",
+  "__source_key": "cl62azw12cdho01o6bmsi674m",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Bungo, Michael\">Principal Investigator: Bungo, Michael</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Charles, John\">Co-Investigator: Charles, John</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Johnson, Phillip\">Co-Investigator: Johnson, Phillip</a>",
+  "experiment_type_lk": [
+   "Shuttle Detailed Supplementary Objectives (DSO)",
+   "Shuttle Extended Duration Orbiter Medical Project (EDOMP)"
+  ],
+  "__record_modified_date": "2026-08-23T03:51:29.143819+00:00",
+  "proposal_source": [
+   "N/A"
+  ],
+  "__indexed": "2026-08-23T03:51:29.143819+00:00",
+  "__record_creation_date": "2022-07-28T19:56:50.477Z",
+  "keyword": [
+   "Hematocrit",
+   "Plasma volume",
+   "Blood pressure",
+   "Rehydration solutions",
+   "Sodium chloride",
+   "Weightlessness countermeasures",
+   "Cardiovascular deconditioning",
+   "Hypotension, orthostatic",
+   "Fluid shifts",
+   "Fluid therapy"
+  ],
+  "keyword_name": "Fluid therapy",
+  "__record_size": 157444,
+  "__record_version": 29,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<br>\r\nEarly in the manned space flight program it was noted that the cardiovascular system undergoes several adaptive changes when subjected to the microgravity environment. Experimentation during NASA's Skylab missions demonstrated that fluid was shifted from the lower extremities to the more central and cephalad portions of the circulation. The results of this redistribution and of other alterations in the controlling mechanisms of the circulation which were not well defined were termed \"cardiovascular deconditioning.\" The term deconditioning was felt to be appropriate because those individuals who were tested during or immediately after space flight demonstrated less orthostatic tolerance when provoked with lower body negative pressure (LBNP), higher submaximal oxygen consumptions at equivalent workloads, and higher resting heart rates when compared to their responses preflight.\r\n<p>\r\nWith the advent of the Space Shuttle, it was known that astronauts would receive the effects of reentry deceleration in the + Gz axis (head-to-toe), compared to earlier space flights in which these forces were directed + Gx (chest-to-back). The combination of this more stressful acceleration loading with the deconditioned state of the human cardiovascular system following space flights increased efforts directed at developing suitable countermeasures. Most were rejected for actual use in the Space Shuttle due to either complex hardware requirements or objections by flight crews. Even the anti-G suit, considered by many as the only acceptable alternative at the inception of the Shuttle program, was not regarded favorably. Therefore, the development of other, more suitable countermeasures to post-space flight orthostatic intolerance took on greater importance.\r\n<p>\r\nEarlier bedrest studies had revealed the usefulness of oral rehydration using normal saline in the more palatable form of bouillon, in providing a degree of protection against the loss of LBNP and acceleration tolerance by expanding the circulating plasma volume. In one study, six male volunteers underwent 15 days of bed rest to \"decondition\" their cardiovascular systems in a physiological simulation of weightlessness. On each of the last three days of bed rest, each subject was stressed by LBNP at -50 mm Hg in one of three randomly assigned conditions: employing no candidate countermeasures; having ingested 1 L of bouillon alone as a countermeasure; or following ingestion of the bouillon during three hours of LBNP at -30 mm Hg, as a combined countermeasure. The results showed that the combination of oral rehydration and prolonged LBNP provided a more sustained increase in plasma volume and reduction in stressed heart rate response.\r\n<p>\r\nAPPROACH:<br>\r\nOn the day prior to Shuttle landing, all 26 crewmembers were to consume at least three quarts (2.7 L) of fluids as part of their usual meal and snack routine. This was intended to offset any dehydration due to low intake during the period of adaptation to weightlessness, or to high insensible loss; it was not expected that this consumption would alter the physiological adaptation to microgravity.\r\n<p>\r\nPreliminary testing revealed that Shuttle crewmembers found isotonic saline unpalatable even in bouillon form. Therefore, the crews were provided with salt (sodium chloride) tablets (1 g each) and advised to take one tablet with each four ounces (114 ml) of water consumed, to a total of eight tablets and 912 ml of water. This concentration approximated isotonic saline. On the day of landing, starting two hours before entry into the earth's atmosphere, the participating crewmember was to begin oral intake of fluid and salt at a rate dictated by personal comfort. It was stressed that regardless of the total fluid volume consumed, the tablet-to-volume ratio be kept constant as prescribed.\r\n<p>\r\nDuring the interval between one and two hours after landing, each crewmember's heart rate and blood pressure responses to a Passive Stand Test were recorded, for comparison with their preflight values. During the Stand Test, the electrocardiogram was recorded continuously, and blood pressures were measured each minute for five minutes while the crewmember was in the supine position and for five additional minutes immediately thereafter while the crewmember was standing.  The individual stood with his/her feet six inches (15 cm) apart and nine inches (23 cm) from a wall, and leaned slightly backwards against the wall for support.\r\n<p>\r\nHeart rate was determined from the electrocardiographic record as the number of QRS complexes occurring during each one-minute interval. Mean blood pressure was calculated as one-third the sum of the systolic blood pressure plus two times the diastolic blood pressure. The average heart rate, systolic blood pressure, and diastolic blood pressure during the equilibrated portion of each five-minute segment of this stand test were used in all calculations. In addition, the minute-by-minute group mean values for heart rate and mean blood pressure were plotted to illustrate the differences in the dynamic adjustments of cardiovascular function before and after space flight, and with and without the countermeasure. \r\n<p>\r\nRESULTS:<br>\r\nAll crewmembers from the first eight Space Shuttle flights were considered as the subjects of this investigation, for a total of 26 data sets from 24 individuals (two individuals flew twice). Of these subjects, 17 utilized the countermeasure and 9 did not. The space flights lasted from 54 hours to 192 hours, and flight length did not appear to correlate with the deconditioning parameters examined in this study. Crewmembers participated in the study on a voluntary basis. Those that did not take the countermeasure did not use other countermeasures for the Stand Test and were considered the control population. The astronauts using the countermeasure consumed fluid and salt according to personal preference. Some drank water while others preferred various on-board beverages, especially fruit juices. Salt tablets were taken as prescribed or less than directed but not in excess. As a result, the amount of fluid consumed ranged from 0.5 L of hypotonic solution to 1 L of isotonic solution. Occasionally, crewmembers who had used the countermeasure prior to reentry consumed additional fluids postflight before the Stand Test was performed. Because of this pattern of compliance, any attempt at volume loading with salt and fluids prior to reentry was considered a use of the countermeasure.\r\n<p>\r\nPreflight, both groups had mean supine heart rates of 57 bpm, which upon standing increased to 70 bpm in the control group and 71 bpm in the countermeasure group. These changes in heart rate were statistically significant (p<0.01), and the responses of the groups were essentially identical. Postflight, the control group's mean supine heart rate of 75 bpm was significantly elevated over the preflight supine value (p<0.01). Their mean postflight standing heart rate rose to 110 bpm, a significant increase over both their postflight supine (p<0.01) and preflight standing (p<0.01) values. In the group utilizing the countermeasure, the postflight mean supine heart rate of 64 bpm was only slightly elevated and increased (p<0.01) to 89 bpm with standing. The postflight heart rates were significantly lower in the group using the countermeasure than in the control group, in both the supine (p<0.05) and standing (p<0.01) positions.\r\n<p>\r\nThe preflight response to assuming the upright posture was a 6 to 10 mm Hg rise in mean blood pressure. Postflight, the control group's mean blood pressure dropped 7 mm Hg when the astronaut assumed the standing position. In the group which utilized the countermeasure, the mean blood pressure rose 2 mm Hg when changing from supine to upright posture. In both the control and experimental groups, the supine mean blood pressure was significantly higher (p<0.05) postflight than preflight.\r\n<p>\r\nThe Cardiovascular Index of Deconditioning (CID) was calculated for each crewmember.  For those who did not use the countermeasure, the average CID was 49.4 \u00b1 9.6 S.D. For those crewmembers utilizing the countermeasure, the average ClD was 21.4 \u00b1 15.9 S.D., a significantly (p<0.003) lower value than for the abstainers. Of the two crewmembers who had more than one Shuttle flight, one individual did not use the countermeasure either time; his CID values were 45 and 63. The other crewmember did not use the countermeasure on his first flight (CID = 46), but did use a partial countermeasure on his second flight (CID = 24).\r\n<p>\r\nOf the 26 crewmembers on the first eight Shuttle flights, one suffered an episode of outright postflight orthostatic syncope, and two had episodes of presyncope. None of these three individuals had utilized either the fluid loading or any other countermeasures for the Stand Test.\r\n<p>\r\nThis experiment became a standard medical operating procedure beginning with the STS-51A flight.  The preflight and postflight echocardiogram was not included as part of the standard medical procedure.",
+  "payload_id": "DSO4",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "DSO 402",
+  "indexed": "2026-08-23T03:51:29.143819+00:00",
+  "GUID": "cl62azw12cdho01o6bmsi674m",
+  "parameter_name": [
+   "Blood pressure, mean",
+   "Hypotonic solution",
+   "Isotonic solution",
+   "Orthostatic syncope",
+   "Presyncope",
+   "Supine heart rate, mean",
+   "Cardiovascular index of deconditioning"
+  ],
+  "payload_part": "DSO4",
+  "exp_index": 537,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Cardiovascular physiology",
+   "Clinical medicine"
+  ],
+  "protocol_approach": "Use of saline as a countermeasure to orthostatic intolerance",
+  "pme_role_with_name": [
+   "Co-Investigator: Charles, John",
+   "Co-Investigator: Johnson, Phillip",
+   "Principal Investigator: Bungo, Michael"
+  ],
+  "missions": [
+   [
+    [
+     "STS-4"
+    ]
+   ],
+   [
+    [
+     "STS-41C"
+    ]
+   ],
+   [
+    [
+     "STS-41D"
+    ]
+   ],
+   [
+    [
+     "STS-5"
+    ]
+   ],
+   [
+    [
+     "STS-6"
+    ]
+   ],
+   [
+    [
+     "STS-7"
+    ]
+   ],
+   [
+    [
+     "STS-8"
+    ]
+   ],
+   [
+    [
+     "STS-9"
+    ]
+   ]
+  ],
+  "__dirid": "73d10bb4-b805-5bd5-bc52-149d8f9d1bd8",
+  "__record_size_wo_doccontent": 157444,
+  "PI": [
+   "Bungo, Michael"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "DSO 402"
+  ],
+  "mission_id": [
+   [
+    [
+     "STS-4"
+    ]
+   ],
+   [
+    [
+     "STS-41C"
+    ]
+   ],
+   [
+    [
+     "STS-41D"
+    ]
+   ],
+   [
+    [
+     "STS-5"
+    ]
+   ],
+   [
+    [
+     "STS-6"
+    ]
+   ],
+   [
+    [
+     "STS-7"
+    ]
+   ],
+   [
+    [
+     "STS-8"
+    ]
+   ],
+   [
+    [
+     "STS-9"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Bungo, Michael"
+  ],
+  "archive_status": "Data preservation is complete. Privacy-protected datasets are available via data request. Remaining datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Shuttle Program",
+  "__source_field_concat": "PUB000772 DSO4 cl62azw12cdho01o6bmsi674m Fluid therapy  DSO4 Use of saline as a countermeasure to orthostatic intolerance Cardiovascular Deconditioning Countermeasure Assessment DSO 402 Shuttle Program",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<br>\r\nEarly in the manned space flight program it was noted that the cardiovascular system undergoes several adaptive changes when subjected to the microgravity environment. Experimentation during NASA's Skylab missions demonstrated that fluid was shifted from the lower extremities to the more central and cephalad portions of the circulation. The results of this redistribution and of other alterations in the controlling mechanisms of the circulation which were not well defined were termed \"cardiovascular deconditioning.\" The term deconditioning was felt to be appropriate because those individuals who were tested during or immediately after space flight demonstrated less orthostatic tolerance when provoked with lower body negative pressure (LBNP), higher submaximal oxygen consumptions at equivalent workloads, and higher resting heart rates when compared to their responses preflight.\r\n<p>\r\nWith the advent of the Space Shuttle, it was known that astronauts would receive the effects of reentry deceleration in the + Gz axis (head-to-toe), compared to earlier space flights in which these forces were directed + Gx (chest-to-back). The combination of this more stressful acceleration loading with the deconditioned state of the human cardiovascular system following space flights increased efforts directed at developing suitable countermeasures. Most were rejected for actual use in the Space Shuttle due to either complex hardware requirements or objections by flight crews. Even the anti-G suit, considered by many as the only acceptable alternative at the inception of the Shuttle program, was not regarded favorably. Therefore, the development of other, more suitable countermeasures to post-space flight orthostatic intolerance took on greater importance.\r\n<p>\r\nEarlier bedrest studies had revealed the usefulness of oral rehydration using normal saline in the more palatable form of bouillon, in providing a degree of protection against the loss of LBNP and acceleration tolerance by expanding the circulating plasma volume. In one study, six male volunteers underwent 15 days of bed rest to \"decondition\" their cardiovascular systems in a physiological simulation of weightlessness. On each of the last three days of bed rest, each subject was stressed by LBNP at -50 mm Hg in one of three randomly assigned conditions: employing no candidate countermeasures; having ingested 1 L of bouillon alone as a countermeasure; or following ingestion of the bouillon during three hours of LBNP at -30 mm Hg, as a combined countermeasure. The results showed that the combination of oral rehydration and prolonged LBNP provided a more sustained increase in plasma volume and reduction in stressed heart rate response.\r\n<p>\r\nAPPROACH:<br>\r\nOn the day prior to Shuttle landing, all 26 crewmembers were to consume at least three quarts (2.7 L) of fluids as part of their usual meal and snack routine. This was intended to offset any dehydration due to low intake during the period of adaptation to weightlessness, or to high insensible loss; it was not expected that this consumption would alter the physiological adaptation to microgravity.\r\n<p>\r\nPreliminary testing revealed that Shuttle crewmembers found isotonic saline unpalatable even in bouillon form. Therefore, the crews were provided with salt (sodium chloride) tablets (1 g each) and advised to take one tablet with each four ounces (114 ml) of water consumed, to a total of eight tablets and 912 ml of water. This concentration approximated isotonic saline. On the day of landing, starting two hours before entry into the earth's atmosphere, the participating crewmember was to begin oral intake of fluid and salt at a rate dictated by personal comfort. It was stressed that regardless of the total fluid volume consumed, the tablet-to-volume ratio be kept constant as prescribed.\r\n<p>\r\nDuring the interval between one and two hours after landing, each crewmember's heart rate and blood pressure responses to a Passive Stand Test were recorded, for comparison with their preflight values. During the Stand Test, the electrocardiogram was recorded continuously, and blood pressures were measured each minute for five minutes while the crewmember was in the supine position and for five additional minutes immediately thereafter while the crewmember was standing.  The individual stood with his/her feet six inches (15 cm) apart and nine inches (23 cm) from a wall, and leaned slightly backwards against the wall for support.\r\n<p>\r\nHeart rate was determined from the electrocardiographic record as the number of QRS complexes occurring during each one-minute interval. Mean blood pressure was calculated as one-third the sum of the systolic blood pressure plus two times the diastolic blood pressure. The average heart rate, systolic blood pressure, and diastolic blood pressure during the equilibrated portion of each five-minute segment of this stand test were used in all calculations. In addition, the minute-by-minute group mean values for heart rate and mean blood pressure were plotted to illustrate the differences in the dynamic adjustments of cardiovascular function before and after space flight, and with and without the countermeasure. \r\n<p>\r\nRESULTS:<br>\r\nAll crewmembers from the first eight Space Shuttle flights were considered as the subjects of this investigation, for a total of 26 data sets from 24 individuals (two individuals flew twice). Of these subjects, 17 utilized the countermeasure and 9 did not. The space flights lasted from 54 hours to 192 hours, and flight length did not appear to correlate with the deconditioning parameters examined in this study. Crewmembers participated in the study on a voluntary basis. Those that did not take the countermeasure did not use other countermeasures for the Stand Test and were considered the control population. The astronauts using the countermeasure consumed fluid and salt according to personal preference. Some drank water while others preferred various on-board beverages, especially fruit juices. Salt tablets were taken as prescribed or less than directed but not in excess. As a result, the amount of fluid consumed ranged from 0.5 L of hypotonic solution to 1 L of isotonic solution. Occasionally, crewmembers who had used the countermeasure prior to reentry consumed additional fluids postflight before the Stand Test was performed. Because of this pattern of compliance, any attempt at volume loading with salt and fluids prior to reentry was considered a use of the countermeasure.\r\n<p>\r\nPreflight, both groups had mean supine heart rates of 57 bpm, which upon standing increased to 70 bpm in the control group and 71 bpm in the countermeasure group. These changes in heart rate were statistically significant (p<0.01), and the responses of the groups were essentially identical. Postflight, the control group's mean supine heart rate of 75 bpm was significantly elevated over the preflight supine value (p<0.01). Their mean postflight standing heart rate rose to 110 bpm, a significant increase over both their postflight supine (p<0.01) and preflight standing (p<0.01) values. In the group utilizing the countermeasure, the postflight mean supine heart rate of 64 bpm was only slightly elevated and increased (p<0.01) to 89 bpm with standing. The postflight heart rates were significantly lower in the group using the countermeasure than in the control group, in both the supine (p<0.05) and standing (p<0.01) positions.\r\n<p>\r\nThe preflight response to assuming the upright posture was a 6 to 10 mm Hg rise in mean blood pressure. Postflight, the control group's mean blood pressure dropped 7 mm Hg when the astronaut assumed the standing position. In the group which utilized the countermeasure, the mean blood pressure rose 2 mm Hg when changing from supine to upright posture. In both the control and experimental groups, the supine mean blood pressure was significantly higher (p<0.05) postflight than preflight.\r\n<p>\r\nThe Cardiovascular Index of Deconditioning (CID) was calculated for each crewmember.  For those who did not use the countermeasure, the average CID was 49.4 \u00b1 9.6 S.D. For those crewmembers utilizing the countermeasure, the average ClD was 21.4 \u00b1 15.9 S.D., a significantly (p<0.003) lower value than for the abstainers. Of the two crewmembers who had more than one Shuttle flight, one individual did not use the countermeasure either time; his CID values were 45 and 63. The other crewmember did not use the countermeasure on his first flight (CID = 46), but did use a partial countermeasure on his second flight (CID = 24).\r\n<p>\r\nOf the 26 crewmembers on the first eight Shuttle flights, one suffered an episode of outright postflight orthostatic syncope, and two had episodes of presyncope. None of these three individuals had utilized either the fluid loading or any other countermeasures for the Stand Test.\r\n<p>\r\nThis experiment became a standard medical operating procedure beginning with the STS-51A flight.  The preflight and postflight echocardiogram was not included as part of the standard medical procedure.",
+  "__doi": "10.83263/d68x-x293",
+  "__doi_record_creation_date": "2026-08-23T03:51:29",
+  "__doi_record_modified_date": "2026-08-23T03:51:29"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000896",
+   "label": "JMDSO_402_1",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Responses of Heart Rate to Orthostasis",
+    "dataset_catalog": "JMDSO_402_1",
+    "dataset_description": [
+     "This graph depicts responses of heart rate to orthostasis pre- and post-spaceflight, with or without countermeasure (CM) for subjects in the DSO 402 study.\r\n<p>\r\nSource: Unpublished data."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 402"
+    ]
+   },
+   "meta": "8 files \u00b7 565.6 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "0b476b48-6f5b-52b1-8aa7-06dac0f8b6e2",
+     "label": "JMDSO_402_1.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 72397,
+     "meta": "70.7 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f74370ba-193d-596f-89be-802cc1fe9120",
+     "label": "JMDSO_402_1.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 72397,
+     "meta": "70.7 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "875df003-aafc-5b6e-aacd-ca9db7ac4fa1",
+     "label": "JMDSO_402_1.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 72397,
+     "meta": "70.7 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "07012137-ed29-545c-9ebb-9d9626e61aa6",
+     "label": "JMDSO_402_1.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 72397,
+     "meta": "70.7 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "fe4c3ed8-2f46-583e-b181-7c9ed0244184",
+     "label": "JMDSO_402_1.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 72397,
+     "meta": "70.7 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "05b6442a-7e55-5043-b808-8d14f477e7e4",
+     "label": "JMDSO_402_1.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 72397,
+     "meta": "70.7 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c120640d-c64a-536c-9acf-148088e4219e",
+     "label": "JMDSO_402_1.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 72397,
+     "meta": "70.7 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "845c3afe-e5f9-589b-93f8-29dd7337481d",
+     "label": "JMDSO_402_1.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 72397,
+     "meta": "70.7 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001083",
+   "label": "JMDSO_402_2",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Responses of Mean Blood Pressure to Orthostasis",
+    "dataset_catalog": "JMDSO_402_2",
+    "dataset_description": [
+     "This graph depicts responses of mean blood pressure to orthostasis pre- and post-spaceflight, with or without countermeasure (CM) for subjects in the DSO 402 study.\r\n<p>\r\nSource: Unpublished data."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 402"
+    ]
+   },
+   "meta": "8 files \u00b7 537.6 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "eda2595e-9d79-5445-a849-ba2ffb3f96a0",
+     "label": "JMDSO_402_2.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 68813,
+     "meta": "67.2 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b16dc8df-9116-5eb5-9ef8-1e06fdfc1aa5",
+     "label": "JMDSO_402_2.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 68813,
+     "meta": "67.2 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e91a4c70-9729-532c-a8ba-fb8b2525a322",
+     "label": "JMDSO_402_2.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 68813,
+     "meta": "67.2 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8b2e0ff1-48ad-5502-a8f4-ce51039aa0b4",
+     "label": "JMDSO_402_2.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 68813,
+     "meta": "67.2 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "16ba2e62-107b-54a9-8ec4-6c63766cffa2",
+     "label": "JMDSO_402_2.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 68813,
+     "meta": "67.2 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3b29e268-6c5f-52bf-88ab-862a2c9f8c70",
+     "label": "JMDSO_402_2.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 68813,
+     "meta": "67.2 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "31b41743-4ff5-58c6-acbc-adadbdfe3b4f",
+     "label": "JMDSO_402_2.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 68813,
+     "meta": "67.2 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f92064fa-d90b-5279-8506-10db3112abe3",
+     "label": "JMDSO_402_2.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 68813,
+     "meta": "67.2 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002026",
+   "label": "JMDSO_402_3",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Individual Responses to Orthostasis",
+    "dataset_catalog": "JMDSO_402_3",
+    "dataset_description": [
+     "This dataset contains individual responses to orthostasis before and after space flight for subjects in the DSO 402 study.\r\n<p>\r\nSource: Unpublished data."
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "DSO 402"
+    ]
+   },
+   "meta": "8 files \u00b7 216.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "1f402b57-5541-5647-a55b-2e16675a49af",
+     "label": "JMDSO_402_3.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 27648,
+     "meta": "27.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "822935ba-c30a-5f73-890e-2cd1075ef5c4",
+     "label": "JMDSO_402_3.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 27648,
+     "meta": "27.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4c8b0b91-3094-5708-aae1-62532cf5ef98",
+     "label": "JMDSO_402_3.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 27648,
+     "meta": "27.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "31e687c4-90fc-50e2-8000-ea45ec9528a3",
+     "label": "JMDSO_402_3.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 27648,
+     "meta": "27.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f97ca48e-e35e-5853-b0ce-ccc89b8a892f",
+     "label": "JMDSO_402_3.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 27648,
+     "meta": "27.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "777385b9-9116-536f-b402-abe491e3d784",
+     "label": "JMDSO_402_3.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 27648,
+     "meta": "27.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "63c9e15b-f7f1-5dd9-ab28-c2adafe16da8",
+     "label": "JMDSO_402_3.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 27648,
+     "meta": "27.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "cbb2c9ef-fa4e-51b4-8e7b-9a7d2cdd0b44",
+     "label": "JMDSO_402_3.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 27648,
+     "meta": "27.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002027",
+   "label": "JMDSO_402_4",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Cardiovascular Index of Deconditioning (CID)",
+    "dataset_catalog": "JMDSO_402_4",
+    "dataset_description": [
+     "This dataset contains individual responses to Cardiovascular Index of Deconditioning (CID) for each crewmember before and after space flight for subjects in the DSO 402 study.  Groups are separated by countermeasure. \r\n<p>\r\nSource: Unpublished data."
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "DSO 402"
+    ]
+   },
+   "meta": "8 files \u00b7 188.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "56435c48-c3cf-5d2f-9b82-a68d73b0a88b",
+     "label": "JMDSO_402_4.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 24064,
+     "meta": "23.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "732ed708-a64d-5052-ba16-948ea317c81e",
+     "label": "JMDSO_402_4.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 24064,
+     "meta": "23.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "43bc9ce2-7781-5ac0-9453-3d71ba7caaf0",
+     "label": "JMDSO_402_4.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 24064,
+     "meta": "23.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "65baf31f-f85b-58fb-a402-5f34859ea369",
+     "label": "JMDSO_402_4.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 24064,
+     "meta": "23.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "29964a03-b418-56c0-b7c8-da7c4c06c4b6",
+     "label": "JMDSO_402_4.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 24064,
+     "meta": "23.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ae6f95ac-6486-505d-b432-1dee2888b4d7",
+     "label": "JMDSO_402_4.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 24064,
+     "meta": "23.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e2879e2f-6c6a-5faa-9541-c7c6c1ef135f",
+     "label": "JMDSO_402_4.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 24064,
+     "meta": "23.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3bf0a51f-e4fa-534f-bcb1-a97496054eb4",
+     "label": "JMDSO_402_4.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 24064,
+     "meta": "23.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

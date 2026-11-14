@@ -1,0 +1,662 @@
+{
+ "record": {
+  "id": "ce705f7c-495f-5aaa-9cd8-d9194de0954a",
+  "_id": "ce705f7c-495f-5aaa-9cd8-d9194de0954a",
+  "experiment_title": "Electromyographic Analysis of Skeletal Muscle",
+  "archive_status_index": 1,
+  "pub_document_number": "PUB000364",
+  "parameter_html": "<table><tr><td>Fatigue index</td></tr><tr><td>Maximal voluntary contraction (MVC)</td></tr><tr><td>Muscle efficiency</td></tr><tr><td>Spectral power</td></tr><tr></tr></table>",
+  "__source_key": "cl62aulnhcbqe01o6dfuhew40",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:LaFevers, Earl\">Principal Investigator: LaFevers, Earl</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Hursta, William\">Co-Investigator: Hursta, William</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Nicogossian, Arnauld\">Co-Investigator: Nicogossian, Arnauld</a>",
+  "experiment_type_lk": [
+   "Apollo-Soyuz Test Project (ASTP)"
+  ],
+  "__record_modified_date": "2026-08-23T04:02:21.334706+00:00",
+  "proposal_source": [
+   "N/A"
+  ],
+  "__indexed": "2026-08-23T04:02:21.334706+00:00",
+  "__record_creation_date": "2022-07-28T19:39:19.464Z",
+  "keyword": [
+   "Muscular atrophy",
+   "Electromyography",
+   "Muscle fatigue",
+   "Spectrum analysis",
+   "Fatigue"
+  ],
+  "keyword_name": "Fatigue",
+  "__record_size": 71631,
+  "__record_version": 28,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<BR>\r\nThe first opportunity to study the effects of long-duration weightlessness on human skeletal muscle function occurred during the Skylab missions.  The results of the Skylab experiments provided ample evidence that normal muscle function is altered by periods of weightlessness of 59 days or more.  This conclusion was supported by the occurrence of certain physiological and biochemical changes during the Skylab missions.  The results of ground-based studies showed that these changes were related to abnormal muscle function.<P> \r\n\r\nThe purpose of this study on the Apollo-Soyuz Test Project (ASTP) mission was to investigate changes in skeletal muscle electrical activity that occur after exposure to short-term weightlessness (less than 10 days).  The following changes were hypothesized:<P>\r\n<OL>\r\n<LI>Increased muscle fatigability when the muscles are subjected to a moderate fatigue-inducing stress.</LI>\r\n<LI>Reduced muscle electrical efficiency.</LI>\r\n<LI>Heightened excitability.</LI>\r\n</OL>\r\n<P>\r\nAPPROACH:<BR>\r\nA skeletal muscle stress apparatus was designed and built to enable controlled isometric muscle testing and measurements.  A two-channel electromyogram (EMG) detector was built to record the EMG.<P>  \r\n\r\nData were obtained on 3 preflight days:  45, 30 and 15 days before launch.  Surface electrodes were placed on the lower leg muscles (gastrocnemius and soleus) and on the arm muscles (biceps brachii and brachioradialis).  Seated in the muscle stress apparatus, the crewman was instructed to exert a series of graded muscle contractions as follows:<P>\r\n<OL>\r\n<LI>10 seconds at 10% maximum voluntary contraction (MVC), followed by 20 seconds rest.</LI>\r\n<LI>10 seconds at 20% MVC, followed by 20 seconds rest.</LI>\r\n<LI>10 seconds at 30% MVC, followed by 20 seconds rest.</LI>\r\n<LI>60 seconds at 50% MVC (leg) and 40-percent MVC (arm).</LI>\r\n</OL>\r\n<P>\r\nLeg measurements and arm measurements were collected sequentially.  On the day of landing, data was collected on only one astronaut because of toxic gas infiltration into the Apollo command module crew cabin during descent to Earth and the resulting concern for the health of the crewmen.<P>\r\n\r\nRESULTS:<BR>\r\nAfter 9 days of weightlessness, the skeletal muscles investigated in this study showed an increased excitability.  The brachioradialis muscle showed the least excitability effect from weightlessness.  Both upper- and lower-extremity muscles showed changes in excitability which suggests that skeletal muscles are susceptible to functional changes associated with the reduced muscle activity in weightlessness.  Since all changes showed increased sensitivity, the probable site for this effect is the muscle fibers, for the following reason:  previous clinical studies have shown that random loss or reduced activity in muscle fibers, as in myopathy, result in higher firing frequencies of the muscle, whereas dysfunctions of neural loci result in lower firing frequencies.<P>\r\n\r\nThe results of this study demonstrated that short-term exposure to weightlessness heightened fatigability in skeletal muscle (shown in the antigravity muscles).  The results suggested that the disuse associated with whole-body weightlessness temporarily rendered muscles supersensitive, which led to more rapid fatigue.<END>",
+  "payload_id": "ASTP",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "ASTP009",
+  "indexed": "2026-08-23T04:02:21.334706+00:00",
+  "GUID": "cl62aulnhcbqe01o6dfuhew40",
+  "parameter_name": [
+   "Fatigue index",
+   "Maximal voluntary contraction (MVC)",
+   "Muscle efficiency",
+   "Spectral power"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 395,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Muscle physiology",
+   "Neuroscience"
+  ],
+  "pme_role_with_name": [
+   "Co-Investigator: Hursta, William",
+   "Co-Investigator: Nicogossian, Arnauld",
+   "Principal Investigator: LaFevers, Earl"
+  ],
+  "missions": [
+   [
+    [
+     "ASTP"
+    ]
+   ]
+  ],
+  "__dirid": "ce705f7c-495f-5aaa-9cd8-d9194de0954a",
+  "__record_size_wo_doccontent": 71631,
+  "PI": [
+   "LaFevers, Earl"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "ASTP009"
+  ],
+  "mission_id": [
+   [
+    [
+     "ASTP"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "LaFevers, Earl"
+  ],
+  "LaunchDate": [
+   "07/15/1975"
+  ],
+  "LaunchYear": 1975,
+  "program_name": [
+   "Apollo-Soyuz Test Project (ASTP)"
+  ],
+  "archive_status": "Data preservation is complete. All datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Apollo-Soyuz Test Project (ASTP)",
+  "__source_field_concat": "PUB000364 ASTP cl62aulnhcbqe01o6dfuhew40 Fatigue  N/A Electromyographic Analysis of Skeletal Muscle ASTP009 Apollo-Soyuz Test Project (ASTP) Data preservation is complete. All datasets are publicly available.",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<BR>\r\nThe first opportunity to study the effects of long-duration weightlessness on human skeletal muscle function occurred during the Skylab missions.  The results of the Skylab experiments provided ample evidence that normal muscle function is altered by periods of weightlessness of 59 days or more.  This conclusion was supported by the occurrence of certain physiological and biochemical changes during the Skylab missions.  The results of ground-based studies showed that these changes were related to abnormal muscle function.<P> \r\n\r\nThe purpose of this study on the Apollo-Soyuz Test Project (ASTP) mission was to investigate changes in skeletal muscle electrical activity that occur after exposure to short-term weightlessness (less than 10 days).  The following changes were hypothesized:<P>\r\n<OL>\r\n<LI>Increased muscle fatigability when the muscles are subjected to a moderate fatigue-inducing stress.</LI>\r\n<LI>Reduced muscle electrical efficiency.</LI>\r\n<LI>Heightened excitability.</LI>\r\n</OL>\r\n<P>\r\nAPPROACH:<BR>\r\nA skeletal muscle stress apparatus was designed and built to enable controlled isometric muscle testing and measurements.  A two-channel electromyogram (EMG) detector was built to record the EMG.<P>  \r\n\r\nData were obtained on 3 preflight days:  45, 30 and 15 days before launch.  Surface electrodes were placed on the lower leg muscles (gastrocnemius and soleus) and on the arm muscles (biceps brachii and brachioradialis).  Seated in the muscle stress apparatus, the crewman was instructed to exert a series of graded muscle contractions as follows:<P>\r\n<OL>\r\n<LI>10 seconds at 10% maximum voluntary contraction (MVC), followed by 20 seconds rest.</LI>\r\n<LI>10 seconds at 20% MVC, followed by 20 seconds rest.</LI>\r\n<LI>10 seconds at 30% MVC, followed by 20 seconds rest.</LI>\r\n<LI>60 seconds at 50% MVC (leg) and 40-percent MVC (arm).</LI>\r\n</OL>\r\n<P>\r\nLeg measurements and arm measurements were collected sequentially.  On the day of landing, data was collected on only one astronaut because of toxic gas infiltration into the Apollo command module crew cabin during descent to Earth and the resulting concern for the health of the crewmen.<P>\r\n\r\nRESULTS:<BR>\r\nAfter 9 days of weightlessness, the skeletal muscles investigated in this study showed an increased excitability.  The brachioradialis muscle showed the least excitability effect from weightlessness.  Both upper- and lower-extremity muscles showed changes in excitability which suggests that skeletal muscles are susceptible to functional changes associated with the reduced muscle activity in weightlessness.  Since all changes showed increased sensitivity, the probable site for this effect is the muscle fibers, for the following reason:  previous clinical studies have shown that random loss or reduced activity in muscle fibers, as in myopathy, result in higher firing frequencies of the muscle, whereas dysfunctions of neural loci result in lower firing frequencies.<P>\r\n\r\nThe results of this study demonstrated that short-term exposure to weightlessness heightened fatigability in skeletal muscle (shown in the antigravity muscles).  The results suggested that the disuse associated with whole-body weightlessness temporarily rendered muscles supersensitive, which led to more rapid fatigue.<END>",
+  "__doi": "10.83263/0m09-zj03",
+  "__doi_record_creation_date": "2026-08-23T04:02:21",
+  "__doi_record_modified_date": "2026-08-23T04:02:21"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002281",
+   "label": "ASTP009__3511109642",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Preflight and Postflight Distribution of Soleus Spectral Power",
+    "dataset_catalog": "ASTP009__3511109642",
+    "dataset_description": [
+     "The figure shows the average preflight and postflight distribution of spectral power stressed at 30% maximal voluntary contraction (MVC) for the soleus in ASTP crewmembers.  Spectral power is presented as a percentage of the maximum band.<P>Source: LaFevers EV, Nicogossian AE, Hursta WN, Baker JT. Electromyographic analysis of skeletal muscle. \r\nThe Apollo-Soyuz Test Project, Medical Report. National Aeronautics and Space Administration SP-411, 1977: 53-57."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "ASTP009"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "c5fb5ba9-9653-554e-8711-52f3f2fa9218",
+     "label": "ASTP009__3511109642.pdf_ASTP_ASTP009_2010_351_111222.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001025",
+   "label": "ASTP009__3511115339",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Plot of Gastrocnemius Electrical Efficiency Data During MVC testing",
+    "dataset_catalog": "ASTP009__3511115339",
+    "dataset_description": [
+     "The figure shows plot of gastrocnemius electrical efficiency data showing preflight and postflight levels for the force increments of 10, 20, 30, 40, and 50 percent maximal voluntary contraction (MVC) tests.  Because the level of force maintained for a particular postflight trial varied from that maintained before flight, the data were cast to reflect the muscle electrical efficiency.<P>Source: LaFevers EV, Nicogossian AE, Hursta WN, Baker JT. Electromyographic analysis of skeletal muscle. \r\nThe Apollo-Soyuz Test Project, Medical Report. National Aeronautics and Space Administration SP-411, 1977: 53-57."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "ASTP009"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "70d05f2d-bff5-562a-ad4f-016e2a226935",
+     "label": "ASTP009__3511115339.pdf_ASTP_ASTP009_2010_351_111242.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000357",
+   "label": "ASTP009__351061727",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Plot of Gastrocnemius Electrical Efficiency to Spectral Power Index of Fatigue",
+    "dataset_catalog": "ASTP009__351061727",
+    "dataset_description": [
+     "Figure shows plot of gastrocnemius electrical efficiency as opposed to spectral power index of fatigue (b= slope coefficient).<P>Source: LaFevers EV, Nicogossian AE, Hursta WN, Baker JT. Electromyographic analysis of skeletal muscle. The Apollo-Soyuz Test Project, Medical Report. National Aeronautics and Space Administration SP-411, 1977: 53-57."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "ASTP009"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "1556451e-b798-5e93-97fe-d354c18a9f78",
+     "label": "ASTP009___351061727.pdf_ASTP_ASTP009_2010_351_061212.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000094",
+   "label": "ASTP009__351062152",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Plot of Biceps Brachii Electrical Efficiency to Spectral Power Index of Fatigue",
+    "dataset_catalog": "ASTP009__351062152",
+    "dataset_description": [
+     "Figure shows plot of biceps brachii electrical efficiency as opposed to spectral power index of fatigue (b= slope coefficient).<P>Source: LaFevers EV, Nicogossian AE, Hursta WN, Baker JT. Electromyographic analysis of skeletal muscle. The Apollo-Soyuz Test Project, Medical Report. National Aeronautics and Space Administration SP-411, 1977: 53-57."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "ASTP009"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "6026430b-fab9-5011-8b7e-11677b470ab3",
+     "label": "ASTP009__351062152.pdf_ASTP_ASTP009_2010_351_061257.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000512",
+   "label": "ASTP009__351105423",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Preflight and Postflight Distribution of Gastrocnemius Spectral Power",
+    "dataset_catalog": "ASTP009__351105423",
+    "dataset_description": [
+     "The figure shows the average preflifght and postflight distribution of spectral power stressed at 30% maximal voluntary contraction (MVC) for the gastrocnemius in ASTP crewmembers.  Spectral power is presented as a percentage of the maximum band.<P>Source: LaFevers EV, Nicogossian AE, Hursta WN, Baker JT. Electromyographic analysis of skeletal muscle. \r\nThe Apollo-Soyuz Test Project, Medical Report. National Aeronautics and Space Administration SP-411, 1977: 53-57."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "ASTP009"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "66f5e7e8-eebf-5927-8010-c75eb0fb4828",
+     "label": "ASTP009__351105423.pdf_ASTP_ASTP009_2010_351_111227.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000766",
+   "label": "ASTP009__3511104526",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Preflight and Postflight Distribution of Biceps Brachii Spectral Power",
+    "dataset_catalog": "ASTP009__3511104526",
+    "dataset_description": [
+     "The figure shows the average preflifght and postflight distribution of spectral power stressed at 30% maximal voluntary contraction (MVC) for the gastrocnemius in ASTP crewmembers.  Spectral power is presented as a percentage of the maximum band.<P>Source: LaFevers EV, Nicogossian AE, Hursta WN, Baker JT. Electromyographic analysis of skeletal muscle. \r\nThe Apollo-Soyuz Test Project, Medical Report. National Aeronautics and Space Administration SP-411, 1977: 53-57."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "ASTP009"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "b7622abc-df9b-5bd2-9fff-cfa0172a9d80",
+     "label": "ASTP009__3511104526.pdf_ASTP_ASTP009_2010_351_111252.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001488",
+   "label": "ASTP009__3510330317",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Plot of Brachioradialis Electrical Efficiency Data During 1-Minute Isometric Stress Testing",
+    "dataset_catalog": "ASTP009__3510330317",
+    "dataset_description": [
+     "The figure shows a plot of brachioradialis  muscle electrical efficiency data during 1-minute isometric stress(50% maximal vountary contraction [MVC]) showing preflight and postflight levels and slope coefficients.  Electromyograph (EMG) levels were cast to reflect muscle electrical efficiency.<P>Source: LaFevers EV, Nicogossian AE, Hursta WN, Baker JT. Electromyographic analysis of skeletal muscle. The Apollo-Soyuz Test Project, Medical Report. National Aeronautics and Space Administration SP-411, 1977: 53-57."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "ASTP009"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "b8c0a381-dcb4-5f5c-8bcc-fb875cb14b63",
+     "label": "ASTP009___3510330317.pdf_ASTP_ASTP009_2010_351_031210.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000483",
+   "label": "ASTP009__3511121806",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Plot of Soleus Electrical Efficiency Data During MVC testing",
+    "dataset_catalog": "ASTP009__3511121806",
+    "dataset_description": [
+     "The figure shows plot of soleus electrical efficiency data showing preflight and postflight levels for the force increments of 10, 20, 30, 40, and 50 percent maximal voluntary contraction (MVC) tests.  Because the level of force maintained for a particular postflight trial varied from that maintained before flight, the data were cast to reflect the muscle electrical efficiency.<P>Source: LaFevers EV, Nicogossian AE, Hursta WN, Baker JT. Electromyographic analysis of skeletal muscle. \r\nThe Apollo-Soyuz Test Project, Medical Report. National Aeronautics and Space Administration SP-411, 1977: 53-57."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "ASTP009"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "2af19bca-e5a1-55bf-a49f-d94c717214c0",
+     "label": "ASTP009___3511121806.pdf_ASTP_ASTP009_2010_351_021231.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000092",
+   "label": "ASTP009__3510304656",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Plot of Gastrocnemius Electrical Efficiency Data During 1-Minute Isometric Stress Testing",
+    "dataset_catalog": "ASTP009__3510304656",
+    "dataset_description": [
+     "The figure shows a plot of gastrocnemius muscle electrical efficiency data during 1-minute isometric stress(50% maximal vountary contraction [MVC]) showing preflight and postflight levels and slope coefficients.  Electromyograph (EMG) levels were cast to reflect muscle electrical efficiency.<P>Source: LaFevers EV, Nicogossian AE, Hursta WN, Baker JT. Electromyographic analysis of skeletal muscle. \r\nThe Apollo-Soyuz Test Project, Medical Report. National Aeronautics and Space Administration SP-411, 1977: 53-57."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "ASTP009"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "19cba136-a403-5ef1-bde8-0ffb8864e1b4",
+     "label": "ASTP009_3510304656.pdf_ASTP_ASTP009_2010_351_031257.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000091",
+   "label": "ASTP009__3001003659",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "T-Test Results",
+    "dataset_catalog": "ASTP009__3001003659",
+    "dataset_description": [
+     "Table showing T-tests for significance of postflight shifts in spectral power for the gastrocnemius and biceps brachii.<P>Source: LaFevers EV, Nicogossian AE, Hursta WN, Baker JT. Electromyographic analysis of skeletal muscle. The Apollo-Soyuz Test Project, Medical Report. National Aeronautics and Space Administration SP-411, 1977: 53-57."
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "ASTP009"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "b79c8817-7d12-55c3-8563-bd5c2d463bae",
+     "label": "ASTP009__3001003659.xls_ASTP_ASTP009_2010_300_121011.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000984",
+   "label": "ASTP009__3510324530",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Plot of Soleus Electrical Efficiency Data During 1-Minute Isometric Stress Testing",
+    "dataset_catalog": "ASTP009__3510324530",
+    "dataset_description": [
+     "The figure shows a plot of soleus muscle electrical efficiency data during 1-minute isometric stress(50% maximal vountary contraction [MVC]) showing preflight and postflight levels and slope coefficients.  Electromyograph (EMG) levels were cast to reflect muscle electrical efficiency.<P>Source: LaFevers EV, Nicogossian AE, Hursta WN, Baker JT. Electromyographic analysis of skeletal muscle. The Apollo-Soyuz Test Project, Medical Report. National Aeronautics and Space Administration SP-411, 1977: 53-57."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "ASTP009"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "9e67ec13-4991-5708-8c80-474ad626a688",
+     "label": "ASTP009___3510324530.pdf_ASTP_ASTP009_2010_351_031244.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001837",
+   "label": "ASTP009__3510257357",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Plot of Brachioradialis Electrical Efficiency Data During MVC testing",
+    "dataset_catalog": "ASTP009__3510257357",
+    "dataset_description": [
+     "The figure shows plot of brachioradialis electrical efficiency data showing preflight and postflight levels for the force increments of 10, 20, 30, 40, and 50 percent maximal voluntary contraction (MVC) tests.  Because the level of force maintained for a particular postflight trial varied from that maintained before flight, the data were cast to reflect the muscle electrical efficiency.<P>Source: LaFevers EV, Nicogossian AE, Hursta WN, Baker JT. Electromyographic analysis of skeletal muscle. \r\nThe Apollo-Soyuz Test Project, Medical Report. National Aeronautics and Space Administration SP-411, 1977: 53-57."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "ASTP009"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "b6bfad8c-2004-5445-b332-7d4ef1f6d083",
+     "label": "ASTP009___3510257357.pdf_ASTP_ASTP009_2010_351_031208.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001292",
+   "label": "ASTP009__3510252791",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Plot of Biceps Brachii Electrical Efficiency Data During MVC testing",
+    "dataset_catalog": "ASTP009__3510252791",
+    "dataset_description": [
+     "The figure shows plot of biceps brachii electrical efficiency data showing preflight and postflight levels for the force increments of 10, 20, 30, 40, and 50 percent maximal voluntary contraction (MVC) tests.  Because the level of force maintained for a particular postflight trial varied from that maintained before flight, the data were cast to reflect the muscle electrical efficiency.<P>Source: LaFevers EV, Nicogossian AE, Hursta WN, Baker JT. Electromyographic analysis of skeletal muscle. \r\nThe Apollo-Soyuz Test Project, Medical Report. National Aeronautics and Space Administration SP-411, 1977: 53-57."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "ASTP009"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "d9d7d4a9-26ea-5fc0-b5c7-7ff14951259e",
+     "label": "ASTP009___3510252791.pdf_ASTP_ASTP009_2010_351_021227.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000093",
+   "label": "ASTP009__3510345594",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Plots of Fatigue Data for Biceps Brachii",
+    "dataset_catalog": "ASTP009__3510345594",
+    "dataset_description": [
+     "Plots of fatigue data for the biceps brachii showing spectral power shifts resulting from the 1-minute isometric hold at 40% maximal voluntary contraction (MVC).  Top panel shows preflight results and bottom \tpanel shows postflight results.<P>Source: LaFevers EV, Nicogossian AE, Hursta WN, Baker JT. Electromyographic analysis of skeletal muscle. The Apollo-Soyuz Test Project, Medical Report. National Aeronautics and Space Administration SP-411, 1977: 53-57."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "ASTP009"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "1db55c0e-bd82-5cf0-861f-286294455833",
+     "label": "ASTP009__3510345594.pdf_ASTP_ASTP009_2010_351_061242.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001441",
+   "label": "ASTP009__3510327374",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Plot of Biceps Brachii Electrical Efficiency Data During 1-Minute Isometric Stress Testing",
+    "dataset_catalog": "ASTP009__3510327374",
+    "dataset_description": [
+     "The figure shows a plot of biceps brachii muscle electrical efficiency data during 1-minute isometric stress(50% maximal vountary contraction [MVC]) showing preflight and postflight levels and slope coefficients.  Electromyograph (EMG) levels were cast to reflect muscle electrical efficiency.<P>Source: LaFevers EV, Nicogossian AE, Hursta WN, Baker JT. Electromyographic analysis of skeletal muscle. The Apollo-Soyuz Test Project, Medical Report. National Aeronautics and Space Administration SP-411, 1977: 53-57."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "ASTP009"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "ed161d7a-7b25-5b10-98f5-418486a187ce",
+     "label": "ASTP009___3510327374.pdf_ASTP_ASTP009_2010_351_031232.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002280",
+   "label": "ASTP009__3510338946",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Plots of Fatigue Data for Gastrocnemius",
+    "dataset_catalog": "ASTP009__3510338946",
+    "dataset_description": [
+     "Plots of fatigue data for the gastrocnemius showing spectral power shifts resulting from the 1-minute isometric hold at 50% maximal voluntary contraction (MVC).  Top panel shows preflight results and bottom \tpanel shows postflight results.<P>Source: LaFevers EV, Nicogossian AE, Hursta WN, Baker JT. Electromyographic analysis of skeletal muscle. The Apollo-Soyuz Test Project, Medical Report. National Aeronautics and Space Administration SP-411, 1977: 53-57."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "ASTP009"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "f03de530-f566-5bf1-8e9d-721016842a52",
+     "label": "ASTP009___3510338946.pdf_ASTP_ASTP009_2010_351_031259.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000482",
+   "label": "ASTP009__3511023496",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Summaries of the Analyses of Variance of Muscle Data",
+    "dataset_catalog": "ASTP009__3511023496",
+    "dataset_description": [
+     "This table depicts a summary of the analyses of variance performed on the muscle data.  Sources of variation included: conditions, time increment(fatigue index), frequency bands, conditions x time, conditions x frequency, time x frequency, and error.<P>Source: LaFevers EV, Nicogossian AE, Hursta WN, Baker JT. Electromyographic analysis of skeletal muscle. \r\nThe Apollo-Soyuz Test Project, Medical Report. National Aeronautics and Space Administration SP-411, 1977: 53-57."
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "ASTP009"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "712963ad-1960-5e1b-89fb-2528b48480f9",
+     "label": "ASTP009__3511023496.xlsx_ASTP_ASTP009_2010_351_101201.xlsx",
+     "type": "file",
+     "ext": "xlsx",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

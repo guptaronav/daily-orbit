@@ -1,0 +1,13 @@
+﻿ID,Campaign,Subject,Date,Test_Phase,BR_Day,Test,Position,Value,Units,Acceptable Range Lower Bound,Acceptable Range Upper Bound,
+1,C3D,8615,7/8/2007,PRE_TEST,11,Knee Concentric Strength,Extension at 60°/sec,110.8,ft-lb,30,250,NA
+2,C3D,8615,7/8/2007,PRE_TEST,11,Knee Concentric Strength,Extension at 180°/sec,74.6,ft-lb,30,250,NA
+3,C3D,8615,7/8/2007,PRE_TEST,11,Knee Concentric Strength,Flexion at 60°/sec,56.9,ft-lb,20,150,NA
+4,C3D,8615,7/8/2007,PRE_TEST,11,Knee Concentric Strength,Flexion at 180°/sec,48.8,ft-lb,20,150,NA
+5,C3D,8615,7/8/2007,PRE_TEST,11,Knee Concentric Endurance,Extension at 180°/sec,849.8,ft-lb,500,3000,NA
+6,C3D,8615,7/8/2007,PRE_TEST,11,Knee Concentric Endurance,Flexion at 180°/sec,544.3,ft-lb,200,3000,NA
+7,C3D,8615,7/8/2007,PRE_TEST,11,Ankle Concentric Strength,Extension at 30°/sec,75.1,ft-lb,20,150,NA
+8,C3D,8615,7/8/2007,PRE_TEST,11,Ankle Concentric Strength,Flexion at 30°/sec,17.9,ft-lb,0,50,NA
+9,C3D,8615,7/8/2007,PRE_TEST,11,Ankle Eccentric Strength,Extension at 30°/sec,105.2,ft-lb,20,200,NA
+10,C3D,8615,7/8/2007,PRE_TEST,11,Ankle Eccentric Strength,Flexion at 30°/sec,28.6,ft-lb,10,100,NA
+11,C3D,8615,7/8/2007,PRE_TEST,11,Back Concentric Strength,Extension at 60°/sec,NA,ft-lb,50,300,Subject too short for trunk attachment
+12,C3D,8615,7/8/2007,PRE_TEST,11,Back Concentric Strength,Flexion at 60°/sec,NA,ft-lb,50,300,Subject too short for trunk attachment

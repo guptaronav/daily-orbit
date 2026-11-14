@@ -1,0 +1,1100 @@
+{
+ "record": {
+  "id": "4d8b79b2-5881-50b2-9908-4b536e65a814",
+  "_id": "4d8b79b2-5881-50b2-9908-4b536e65a814",
+  "experiment_title": "Orthostatic Function During Entry, Landing, and Egress",
+  "pub_document_number": "PUB001115",
+  "archive_status_index": 2,
+  "parameter_html": "<table><tr><td>Cardiac output</td></tr><tr><td>G level, pressure</td></tr><tr><td>Heart rate</td></tr><tr><td>Left ventricular end-diastolic volume index (EDVI)</td></tr><tr><td>Left ventricular end-systolic volume index (ESVI)</td></tr><tr><td>Left ventricular mass index (LVMI)</td></tr><tr><td>Lower body negative pressure (LBNP)</td></tr><tr><td>Peripheral vascular resistance</td></tr><tr><td>Pulse pressure</td></tr><tr><td>Skin temperature</td></tr><tr><td>Stroke volume</td></tr><tr><td>Diastolic blood pressure</td></tr><tr><td>Systolic blood pressure</td></tr><tr><td>Ejection fraction</td></tr><tr><td>Mean arterial pressure</td></tr><tr><td>Total peripheral vascular resistance index</td></tr><tr></tr></table>",
+  "__source_key": "cl62ayf3ocd5g01o6gcmree7g",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Charles, John\">Principal Investigator: Charles, John</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Bagian, James\">Co-Investigator: Bagian, James</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Bungo, Michael\">Co-Investigator: Bungo, Michael</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Frey, Mary\">Co-Investigator: Frey, Mary</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Houston, Diana\">Co-Investigator: Houston, Diana</a>",
+  "image_name": [
+   "Ambulatory Cardiovascular Monitoring Assembly",
+   "HOBO Temperature Monitoring Device",
+   "Re-entry Anti-gravity Suit (REAGS)"
+  ],
+  "experiment_type_lk": [
+   "Shuttle Detailed Supplementary Objectives (DSO)",
+   "Shuttle Extended Duration Orbiter Medical Project (EDOMP)"
+  ],
+  "__record_modified_date": "2026-08-23T04:06:47.274786+00:00",
+  "proposal_source": [
+   "N/A"
+  ],
+  "__indexed": "2026-08-23T04:06:47.274786+00:00",
+  "keyword": [
+   "Venous pressure",
+   "Stress",
+   "Hypotension, orthostatic",
+   "Monitoring, physiologic",
+   "Acceleration",
+   "Electrocardiography"
+  ],
+  "__record_creation_date": "2022-07-28T19:55:25.717Z",
+  "keyword_name": "Electrocardiography",
+  "__record_version": 29,
+  "__record_size": 75621,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<br> \r\nMany astronauts have experienced postflight orthostatic intolerance, with symptoms like increased heart rate, nausea, vomiting, lightheadedness, and fainting. Reduced orthostatic tolerance could impair the ability of the pilot to land the Space Shuttle or the ability of the crew to exit quickly in an emergency. The objective of this study was to collect normative data about the heart rate and blood pressure during entry and landing, and about the orthostatic response before and immediately after space flight.\r\n<p>\r\nAPPROACH:<br>\r\nThe pressure suits worn by 34 astronauts during launch and entry were modified to allow instruments to determine their heart rate and blood pressure every two minutes and to record an electrocardiogram continuously. Accelerometers attached to the pressure suit monitored acceleration levels and changes in body posture for most of these astronauts. In addition, some crewmembers tested various microgravity countermeasures. On short flights (4-6 days) three different types of salt plus water fluid loads were tested; on some medium to long (7-14 day) flights some crewmembers tested exercise, Florinef, or lower body negative pressure (LBNP) countermeasures.\r\n<p>\r\nRESULTS:<br> \r\nSystolic and diastolic blood pressure increased during space flight and were highest when gravity reached its peak during entry and at touchdown. Systolic blood pressure decreased significantly when the astronauts first stood up from their seats after landing. The systolic pressure of 7 astronauts fell by more than 20 mmHg. Diastolic blood pressure, which also fell when the astronauts first stood up, was better maintained in 24 astronauts who had their g-suits inflated than in eight who did not. Before the flight, none of the astronauts had a drop in blood pressure when going from sitting to standing; in fact, both systolic and diastolic blood pressure rose slightly. Heart rate increased at the time of peak gravity during entry and at touchdown, and it rose even higher when the astronauts first stood up. The increase in heart rate varied, but was generally substantial. The highest heart rate recorded was 160 beats per minute. These results indicate that entry, landing and leaving the seat after shuttle flights are stressful to the cardiovascular system. Although none of the astronauts had symptoms of hypotension, about 20% of them were at or near their limits of cardiovascular performance and may not have had enough reserve for an unassisted emergency exit.\r\n<p>",
+  "payload_id": "DSO35",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "indexed": "2026-08-23T04:06:47.274786+00:00",
+  "experiment_id": "DSO 603",
+  "experiment_related": [
+   "DSO 603B"
+  ],
+  "GUID": "cl62ayf3ocd5g01o6gcmree7g",
+  "parameter_name": [
+   "Cardiac output",
+   "G level, pressure",
+   "Heart rate",
+   "Left ventricular end-diastolic volume index (EDVI)",
+   "Left ventricular end-systolic volume index (ESVI)",
+   "Left ventricular mass index (LVMI)",
+   "Lower body negative pressure (LBNP)",
+   "Peripheral vascular resistance",
+   "Pulse pressure",
+   "Skin temperature",
+   "Stroke volume",
+   "Diastolic blood pressure",
+   "Systolic blood pressure",
+   "Ejection fraction",
+   "Mean arterial pressure",
+   "Total peripheral vascular resistance index"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 841,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Cardiovascular physiology"
+  ],
+  "pme_role_with_name": [
+   "Co-Investigator: Bagian, James",
+   "Co-Investigator: Bungo, Michael",
+   "Co-Investigator: Frey, Mary",
+   "Co-Investigator: Houston, Diana",
+   "Principal Investigator: Charles, John"
+  ],
+  "missions": [
+   [
+    [
+     "STS-35"
+    ]
+   ],
+   [
+    [
+     "STS-39"
+    ]
+   ],
+   [
+    [
+     "STS-40"
+    ]
+   ],
+   [
+    [
+     "STS-41"
+    ]
+   ],
+   [
+    [
+     "STS-42"
+    ]
+   ],
+   [
+    [
+     "STS-43"
+    ]
+   ],
+   [
+    [
+     "STS-44"
+    ]
+   ],
+   [
+    [
+     "STS-45"
+    ]
+   ],
+   [
+    [
+     "STS-46"
+    ]
+   ],
+   [
+    [
+     "STS-47"
+    ]
+   ],
+   [
+    [
+     "STS-48"
+    ]
+   ],
+   [
+    [
+     "STS-49"
+    ]
+   ],
+   [
+    [
+     "STS-50"
+    ]
+   ],
+   [
+    [
+     "STS-51"
+    ]
+   ],
+   [
+    [
+     "STS-52"
+    ]
+   ],
+   [
+    [
+     "STS-53"
+    ]
+   ],
+   [
+    [
+     "STS-55"
+    ]
+   ],
+   [
+    [
+     "STS-56"
+    ]
+   ],
+   [
+    [
+     "STS-57"
+    ]
+   ],
+   [
+    [
+     "STS-58"
+    ]
+   ],
+   [
+    [
+     "STS-59"
+    ]
+   ],
+   [
+    [
+     "STS-62"
+    ]
+   ],
+   [
+    [
+     "STS-64"
+    ]
+   ],
+   [
+    [
+     "STS-65"
+    ]
+   ],
+   [
+    [
+     "STS-67"
+    ]
+   ],
+   [
+    [
+     "STS-68"
+    ]
+   ],
+   [
+    [
+     "STS-70"
+    ]
+   ],
+   [
+    [
+     "STS-73"
+    ]
+   ],
+   [
+    [
+     "STS-95"
+    ]
+   ],
+   [
+    [
+     "STS-37"
+    ]
+   ]
+  ],
+  "__dirid": "4d8b79b2-5881-50b2-9908-4b536e65a814",
+  "__record_size_wo_doccontent": 75621,
+  "PI": [
+   "Charles, John"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "DSO 603"
+  ],
+  "mission_id": [
+   [
+    [
+     "STS-35"
+    ]
+   ],
+   [
+    [
+     "STS-39"
+    ]
+   ],
+   [
+    [
+     "STS-40"
+    ]
+   ],
+   [
+    [
+     "STS-41"
+    ]
+   ],
+   [
+    [
+     "STS-42"
+    ]
+   ],
+   [
+    [
+     "STS-43"
+    ]
+   ],
+   [
+    [
+     "STS-44"
+    ]
+   ],
+   [
+    [
+     "STS-45"
+    ]
+   ],
+   [
+    [
+     "STS-46"
+    ]
+   ],
+   [
+    [
+     "STS-47"
+    ]
+   ],
+   [
+    [
+     "STS-48"
+    ]
+   ],
+   [
+    [
+     "STS-49"
+    ]
+   ],
+   [
+    [
+     "STS-50"
+    ]
+   ],
+   [
+    [
+     "STS-51"
+    ]
+   ],
+   [
+    [
+     "STS-52"
+    ]
+   ],
+   [
+    [
+     "STS-53"
+    ]
+   ],
+   [
+    [
+     "STS-55"
+    ]
+   ],
+   [
+    [
+     "STS-56"
+    ]
+   ],
+   [
+    [
+     "STS-57"
+    ]
+   ],
+   [
+    [
+     "STS-58"
+    ]
+   ],
+   [
+    [
+     "STS-59"
+    ]
+   ],
+   [
+    [
+     "STS-62"
+    ]
+   ],
+   [
+    [
+     "STS-64"
+    ]
+   ],
+   [
+    [
+     "STS-65"
+    ]
+   ],
+   [
+    [
+     "STS-67"
+    ]
+   ],
+   [
+    [
+     "STS-68"
+    ]
+   ],
+   [
+    [
+     "STS-70"
+    ]
+   ],
+   [
+    [
+     "STS-73"
+    ]
+   ],
+   [
+    [
+     "STS-95"
+    ]
+   ],
+   [
+    [
+     "STS-37"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Charles, John"
+  ],
+  "archive_status": "Data preservation is complete. Privacy-protected datasets are available via data request. Remaining datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Shuttle Program",
+  "__source_field_concat": "PUB001115 DSO35 cl62ayf3ocd5g01o6gcmree7g Electrocardiography  N/A Orthostatic Function During Entry, Landing, and Egress DSO 603 Shuttle Program",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<br> \r\nMany astronauts have experienced postflight orthostatic intolerance, with symptoms like increased heart rate, nausea, vomiting, lightheadedness, and fainting. Reduced orthostatic tolerance could impair the ability of the pilot to land the Space Shuttle or the ability of the crew to exit quickly in an emergency. The objective of this study was to collect normative data about the heart rate and blood pressure during entry and landing, and about the orthostatic response before and immediately after space flight.\r\n<p>\r\nAPPROACH:<br>\r\nThe pressure suits worn by 34 astronauts during launch and entry were modified to allow instruments to determine their heart rate and blood pressure every two minutes and to record an electrocardiogram continuously. Accelerometers attached to the pressure suit monitored acceleration levels and changes in body posture for most of these astronauts. In addition, some crewmembers tested various microgravity countermeasures. On short flights (4-6 days) three different types of salt plus water fluid loads were tested; on some medium to long (7-14 day) flights some crewmembers tested exercise, Florinef, or lower body negative pressure (LBNP) countermeasures.\r\n<p>\r\nRESULTS:<br> \r\nSystolic and diastolic blood pressure increased during space flight and were highest when gravity reached its peak during entry and at touchdown. Systolic blood pressure decreased significantly when the astronauts first stood up from their seats after landing. The systolic pressure of 7 astronauts fell by more than 20 mmHg. Diastolic blood pressure, which also fell when the astronauts first stood up, was better maintained in 24 astronauts who had their g-suits inflated than in eight who did not. Before the flight, none of the astronauts had a drop in blood pressure when going from sitting to standing; in fact, both systolic and diastolic blood pressure rose slightly. Heart rate increased at the time of peak gravity during entry and at touchdown, and it rose even higher when the astronauts first stood up. The increase in heart rate varied, but was generally substantial. The highest heart rate recorded was 160 beats per minute. These results indicate that entry, landing and leaving the seat after shuttle flights are stressful to the cardiovascular system. Although none of the astronauts had symptoms of hypotension, about 20% of them were at or near their limits of cardiovascular performance and may not have had enough reserve for an unassisted emergency exit.\r\n<p>",
+  "__doi": "10.83263/kwe6-qd58",
+  "__doi_record_creation_date": "2026-08-23T04:06:47",
+  "__doi_record_modified_date": "2026-08-23T04:06:47"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000650",
+   "label": "JMDSO_603_2",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Lower Body Negative Pressure Countermeasure Effects",
+    "dataset_catalog": "JMDSO_603_2",
+    "dataset_description": [
+     "This graph depicts lower body negative pressure (LBNP) countermeasure effects on systolic blood pressure, diastolic blood pressure, and heart rate during the Orbiter Stand Test for subjects in the DSO 603 study.\r\n<p>\r\nSource: Unpublished data."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 603"
+    ]
+   },
+   "meta": "30 files \u00b7 3.19 MB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "b22b8d87-50fc-5f5f-9984-6561793abb30",
+     "label": "JMDSO_603_2.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 111616,
+     "meta": "109.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "afd340c5-f35d-5f4e-86a7-b772c0b35d76",
+     "label": "JMDSO_603_2.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 111616,
+     "meta": "109.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "fce3bbda-5865-5385-a800-ab9079bdae83",
+     "label": "JMDSO_603_2.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 111616,
+     "meta": "109.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "53918d84-aae9-5082-aa35-e98a076e93d9",
+     "label": "JMDSO_603_2.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 111616,
+     "meta": "109.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f609b87d-ca41-528e-a868-c9c2f922eb22",
+     "label": "JMDSO_603_2.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 111616,
+     "meta": "109.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "cca7d195-9919-5fe6-a65f-300698aeb3d9",
+     "label": "JMDSO_603_2.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 111616,
+     "meta": "109.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4772afe3-9e61-5533-84ce-d1139333543e",
+     "label": "JMDSO_603_2.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 111616,
+     "meta": "109.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "cd855049-c6d9-5da5-9318-dc26e2b1804f",
+     "label": "JMDSO_603_2.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 111616,
+     "meta": "109.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "72bae258-8314-53a1-8326-6bb842601026",
+     "label": "JMDSO_603_2.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 111616,
+     "meta": "109.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d14682e7-1522-5f1e-bc34-fe5996f0e3c9",
+     "label": "JMDSO_603_2.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 111616,
+     "meta": "109.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c0ff9d01-3bbb-5f55-a970-620759f032ca",
+     "label": "JMDSO_603_2.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 111616,
+     "meta": "109.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "100a8583-ef43-504b-ba6c-dbc3ffbaa4d0",
+     "label": "JMDSO_603_2.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 111616,
+     "meta": "109.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0451788b-1c28-53df-b4e0-e5159df69536",
+     "label": "JMDSO_603_2.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 111616,
+     "meta": "109.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ec5f80ca-9a96-53a7-9095-9d4864bf7bbc",
+     "label": "JMDSO_603_2.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 111616,
+     "meta": "109.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "166bcb9f-0f22-5401-b0b1-d3cae061eda6",
+     "label": "JMDSO_603_2.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 111616,
+     "meta": "109.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "108ec843-ac86-5cd8-9a82-64cc2e15d626",
+     "label": "JMDSO_603_2.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 111616,
+     "meta": "109.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a494d1cd-b69d-5c0d-b782-9261783665aa",
+     "label": "JMDSO_603_2.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 111616,
+     "meta": "109.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "962ac9aa-b41c-58b5-8cb5-56dac4153487",
+     "label": "JMDSO_603_2.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 111616,
+     "meta": "109.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6e038a2b-3c94-56ed-bd95-f6c69fcfa243",
+     "label": "JMDSO_603_2.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 111616,
+     "meta": "109.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "37ba6d45-8964-599f-b4ab-0fa789bc4682",
+     "label": "JMDSO_603_2.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 111616,
+     "meta": "109.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3f3bd2f7-7a53-5def-827e-bb5c8036ec59",
+     "label": "JMDSO_603_2.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 111616,
+     "meta": "109.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d6f8d6bc-28ae-5fb2-8387-9491ce290c7f",
+     "label": "JMDSO_603_2.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 111616,
+     "meta": "109.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6497f063-c5cd-5d92-8464-ad54fc05e3aa",
+     "label": "JMDSO_603_2.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 111616,
+     "meta": "109.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "36135276-03ec-5a95-a994-176b4d288948",
+     "label": "JMDSO_603_2.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 111616,
+     "meta": "109.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "663157a5-7d06-51d0-9234-01049bc0fd68",
+     "label": "JMDSO_603_2.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 111616,
+     "meta": "109.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a0ca67a8-96f9-5815-9bf2-9a6556124bc7",
+     "label": "JMDSO_603_2.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 111616,
+     "meta": "109.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "650a05ba-4b7e-560d-8163-ce99f7ad06d8",
+     "label": "JMDSO_603_2.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 111616,
+     "meta": "109.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2d4af666-fc00-51c7-ab19-5ecc1bd9d3d2",
+     "label": "JMDSO_603_2.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 111616,
+     "meta": "109.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "071f0d48-9584-574a-bee2-d93971aef438",
+     "label": "JMDSO_603_2.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 111616,
+     "meta": "109.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5fac10a0-5ca3-56b9-a53b-8f2297c59f80",
+     "label": "JMDSO_603_2.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 111616,
+     "meta": "109.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002258",
+   "label": "DSO 603__1810131289",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Heart Rate During Shuttle Reentry",
+    "dataset_catalog": "DSO 603__1810131289",
+    "dataset_description": [
+     "This file contains mean heart rate data for 34 subjects during Shuttle reentry for the DSO 603 study."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 603"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "24b5a4a2-17f0-5406-9a89-368e6a0565c4",
+     "label": "DSO_603_HR_Data.tif_STS-95_DSO_603_2016_4_050122.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001317",
+   "label": "JMDSO_603_1",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Blood Pressure Response",
+    "dataset_catalog": "JMDSO_603_1",
+    "dataset_description": [
+     "This graph depicts systolic and diastolic pressure responses to entry, landing, and egress for subjects in the DSO 603 study.\r\n<p>\r\nSource: Extended Duration Orbiter Medical Project (EDOMP) Final Report 1989-1995."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 603"
+    ]
+   },
+   "meta": "30 files \u00b7 2.55 MB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "59e60b23-77e4-5ab4-981a-21c4fcfcb79a",
+     "label": "JMDSO_603_1.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 89088,
+     "meta": "87.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c9443dd4-ddec-57d2-8d57-230106a7fb26",
+     "label": "JMDSO_603_1.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 89088,
+     "meta": "87.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "eddbe28f-4955-5cd9-84cd-43fad982dfdb",
+     "label": "JMDSO_603_1.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 89088,
+     "meta": "87.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d9e2979c-facb-5749-bc29-9e7b9cccaf25",
+     "label": "JMDSO_603_1.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 89088,
+     "meta": "87.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "bf281b5f-5a1d-52c3-a1a7-c8ab71a5396e",
+     "label": "JMDSO_603_1.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 89088,
+     "meta": "87.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6d3501b6-e5fb-514c-921e-50e4e762590a",
+     "label": "JMDSO_603_1.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 89088,
+     "meta": "87.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6f25f8e9-fde9-50c1-8c70-fdd84b88c126",
+     "label": "JMDSO_603_1.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 89088,
+     "meta": "87.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "03b310ac-5a4e-5850-b3fb-3c742dda84f4",
+     "label": "JMDSO_603_1.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 89088,
+     "meta": "87.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "90c67d35-4f85-518b-8259-62651f6711ed",
+     "label": "JMDSO_603_1.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 89088,
+     "meta": "87.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1cfba24e-c7c1-5f0b-a33a-8d32d2b9dd83",
+     "label": "JMDSO_603_1.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 89088,
+     "meta": "87.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "550db572-3bd9-5c73-8511-791b1278f485",
+     "label": "JMDSO_603_1.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 89088,
+     "meta": "87.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "417919e3-b64f-5b63-a855-497c595eccd4",
+     "label": "JMDSO_603_1.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 89088,
+     "meta": "87.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "43acc655-3322-50f3-ae7e-206182df194e",
+     "label": "JMDSO_603_1.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 89088,
+     "meta": "87.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "56e87da7-cb0f-588e-a0d7-4fd31bdfa58e",
+     "label": "JMDSO_603_1.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 89088,
+     "meta": "87.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9fdff13c-5160-5d56-ac2b-4ee88eecb704",
+     "label": "JMDSO_603_1.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 89088,
+     "meta": "87.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4be4d76d-ef22-57d5-980e-b0cf1904ee55",
+     "label": "JMDSO_603_1.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 89088,
+     "meta": "87.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c7e765bc-4082-5ed3-ad5a-fd5ec1a3474e",
+     "label": "JMDSO_603_1.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 89088,
+     "meta": "87.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1313a825-e855-57c2-823f-378733fc4043",
+     "label": "JMDSO_603_1.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 89088,
+     "meta": "87.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "89e319c1-079d-52e1-94c0-a916ade429b4",
+     "label": "JMDSO_603_1.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 89088,
+     "meta": "87.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "391dcf28-f9fc-50f4-b1cb-9cb5ba536f72",
+     "label": "JMDSO_603_1.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 89088,
+     "meta": "87.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6c00c305-c514-5381-a50d-5939935f24ff",
+     "label": "JMDSO_603_1.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 89088,
+     "meta": "87.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a66b73b7-f93e-5373-9c31-d31cf2c2c0f1",
+     "label": "JMDSO_603_1.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 89088,
+     "meta": "87.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "079e92a0-ed18-5c76-95f3-afefc3233e2d",
+     "label": "JMDSO_603_1.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 89088,
+     "meta": "87.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "dd537d5e-9052-592a-84b6-ea89bf79e242",
+     "label": "JMDSO_603_1.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 89088,
+     "meta": "87.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1a119eaf-7078-5be3-89b4-6fc7995cfeee",
+     "label": "JMDSO_603_1.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 89088,
+     "meta": "87.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "fb928a4f-6a9e-5bfb-b123-547c608fd08a",
+     "label": "JMDSO_603_1.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 89088,
+     "meta": "87.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "65dbe61d-c336-56b9-ab76-e21d1be7758a",
+     "label": "JMDSO_603_1.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 89088,
+     "meta": "87.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e6e5dba3-1628-55af-b487-67e31d5bee16",
+     "label": "JMDSO_603_1.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 89088,
+     "meta": "87.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4789873a-6ecb-541b-9a07-3420d5f7f290",
+     "label": "JMDSO_603_1.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 89088,
+     "meta": "87.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "acb6acb1-ec56-514b-9ec8-e486ccc6c0f7",
+     "label": "JMDSO_603_1.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 89088,
+     "meta": "87.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

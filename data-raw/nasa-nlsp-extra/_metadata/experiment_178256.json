@@ -1,0 +1,801 @@
+{
+ "record": {
+  "id": "63fe41e5-caf3-596f-bb7d-3a912a0f0da3",
+  "_id": "63fe41e5-caf3-596f-bb7d-3a912a0f0da3",
+  "experiment_title": "Effect of Weightlessness on Development of Amphibian Eggs",
+  "pub_document_number": "ARCPUB000889",
+  "experiment_alias": [
+   "FEE"
+  ],
+  "parameter_html": "<table><tr><td>Behavior, Swimming, tadpole, frog, Observation. videotape</td></tr><tr><td>Dorso-anterior differentiation</td></tr><tr><td>Fertilization rate</td></tr><tr><td>Optomotor behavior</td></tr><tr></tr></table>",
+  "__source_key": "cl62atv1xcahp01o6abmd9jaj",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Souza, Kenneth\">Principal Investigator: Souza, Kenneth</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Black, Steven\">Co-Investigator: Black, Steven</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Ross, Muriel\">Co-Investigator: Ross, Muriel</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Wassersug, Richard\">Co-Investigator: Wassersug, Richard</a>",
+  "image_name": [
+   "Hardware Frog Embryology Experiment"
+  ],
+  "__record_version": 30,
+  "experiment_description": "<B>Objectives:</B><P>On Earth the animal-vegetal axis of amphibian eggs will rotate upon fertilization to align with the gravitational field.  This rotation plays a role in determining the polarity of the embryonic axis and may also influence normal development. In addition, eggs inclined with respect to gravity develop dorsal structures on the uppermost surface from the gravitational field.  The objective of this experiment was to determine whether gravity is required for normal embryonic development.  Prolific <i>Xenopus laevis</i> females were selected for flight.<P><B>Approach:</B><P>Frogs were injected subcutaneously with human chorionic gonadotropin eighteen hours into flight.  Eggs were collected, and fertilized with a sperm suspension prepared prior to flight and refrigerated until use inflight. The eggs were inserted into chambers filled with dilute Ringer's solution. Half were incubated in the FEU centrifuge at 1g and half were incubated in the FEU at microgravity.  Fifty hours into the flight, the temperature was raised from 18 to 21 degrees C and held there to increase the rate of development.  Some embryos were fixed inflight and sectioned and examined postflight.  Approximately 50 live embryos were received by the laboratory within 3.5 hours of landing and staged.  Normality was assessed by several parameters, including visual observation of the intact embryo and histomorphometry. Optomotor behavior of the tadpoles was determined based on their tendency to track a moving stimulus.<P><B>Results:</B><P>Oviposition occurred in all frogs within 16 hours of hormone injection.  Both centrifuge and microgravity groups had high fertilization rates.  Embryos at the two cell stage showed a cleavage furrow in the normal position for both groups.  There were no gross abnormalities in gastrulae, but embryos developing in microgravity had thicker blastocoel roofs.  In addition, the blastopore lip formed at a slightly more vegetal latitude in the microgravity group than the 1g group.  Despite these differences, development to the neurula stage was unimpaired.  All fixed neurula and tadpoles appeared normal.  Live tadpoles, raised at microgravity and fixed shortly after landing were found to have uninflated lungs. Although there were air bubbles in the egg chambers, the tadpoles were apparently unable to find the air-water interface and inflate their lungs. This result indicates that arrested lung development would have prevented the tadpoles from complete growth and metamorphosis in the absence of gravity. Flight tadpoles had stronger optomotor responses than control tadpoles.  Because there were no gravitational clues, the tadpoles may have compensated with visual information, thus increasing the strength of their optomotor response.  This difference disappeared by nine days postflight.",
+  "indexed": "2026-08-31T22:16:53.744Z",
+  "GUID": "cl62atv1xcahp01o6abmd9jaj",
+  "__model_type": "lsda_experiment",
+  "__dirid": "63fe41e5-caf3-596f-bb7d-3a912a0f0da3",
+  "__record_size_wo_doccontent": 67410,
+  "experiment_parms_tissue2": "NULL",
+  "experiment_parms_tissue1": "NULL",
+  "__update_method": "Update Data",
+  "archive_status_index": 1,
+  "experiment_type_lk": [
+   "Shuttle Life Sciences Research (Spacelab)"
+  ],
+  "__record_modified_date": "2026-08-31T22:16:53.744Z",
+  "proposal_source": "AO-OSS-1-78",
+  "__indexed": "2026-08-31T22:16:53.744Z",
+  "alias": [
+   "FEE"
+  ],
+  "session_type": "Flight",
+  "__record_creation_date": "2022-07-28T19:48:49.807Z",
+  "__record_size": 67410,
+  "__model_version": 423,
+  "payload_id": "SL-J",
+  "CombinedSpecies": [
+   [
+    "Frog, Tree (Xenopus laevis) South African three-clawed"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "178256",
+  "experiment_related": [
+   "No related"
+  ],
+  "parameter_name": [
+   "Behavior, Swimming, tadpole, frog, Observation. videotape",
+   "Dorso-anterior differentiation",
+   "Fertilization rate",
+   "Optomotor behavior"
+  ],
+  "exp_index": 644,
+  "research_area": [
+   "Developmental biology"
+  ],
+  "protocol_approach": "Synchronous control",
+  "pme_role_with_name": [
+   "ARC Deputy Payload Manager: Pletcher, David",
+   "ARC Experiment Support Scientist: Zapalac, Susan",
+   "ARC Payload Engineer: Stolarik, Thomas",
+   "ARC Payload Manager: Schmidt, Gregory",
+   "ARC Payload Scientist: Schofield, Sally",
+   "Co-Investigator: Black, Steven",
+   "Co-Investigator: Ross, Muriel",
+   "Co-Investigator: Wassersug, Richard",
+   "Hardware Engineer: Connolly, John",
+   "Principal Investigator: Souza, Kenneth"
+  ],
+  "missions": [
+   [
+    [
+     "STS-47"
+    ]
+   ]
+  ],
+  "PI": [
+   "Souza, Kenneth"
+  ],
+  "_file_extension": [],
+  "experiment_identifier": [
+   "178256",
+   "FEE"
+  ],
+  "keyword": [],
+  "mission_id": [
+   [
+    [
+     "STS-47"
+    ]
+   ]
+  ],
+  "center": [
+   "Ames Research Center"
+  ],
+  "ncindex": [
+   7
+  ],
+  "proposal_date": [],
+  "species": [
+   "Frog, Tree"
+  ],
+  "PrincipalInvestigator": [
+   "Souza, Kenneth"
+  ],
+  "program_name": [
+   "Shuttle Program"
+  ],
+  "archive_status": "Data preservation is complete. All datasets are publicly available.",
+  "__is_locked": false,
+  "Program": "Shuttle Program",
+  "__source_field_concat": "Flight ARCPUB000889 AO-OSS-1-78 SL-J cl62atv1xcahp01o6abmd9jaj NULL NULL Synchronous control Effect of Weightlessness on Development of Amphibian Eggs 178256 Shuttle Program Data preservation is complete. All datasets are publicly available.",
+  "__icon_type": "frog, tree",
+  "__description": "<B>Objectives:</B><P>On Earth the animal-vegetal axis of amphibian eggs will rotate upon fertilization to align with the gravitational field.  This rotation plays a role in determining the polarity of the embryonic axis and may also influence normal development. In addition, eggs inclined with respect to gravity develop dorsal structures on the uppermost surface from the gravitational field.  The objective of this experiment was to determine whether gravity is required for normal embryonic development.  Prolific <i>Xenopus laevis</i> females were selected for flight.<P><B>Approach:</B><P>Frogs were injected subcutaneously with human chorionic gonadotropin eighteen hours into flight.  Eggs were collected, and fertilized with a sperm suspension prepared prior to flight and refrigerated until use inflight. The eggs were inserted into chambers filled with dilute Ringer's solution. Half were incubated in the FEU centrifuge at 1g and half were incubated in the FEU at microgravity.  Fifty hours into the flight, the temperature was raised from 18 to 21 degrees C and held there to increase the rate of development.  Some embryos were fixed inflight and sectioned and examined postflight.  Approximately 50 live embryos were received by the laboratory within 3.5 hours of landing and staged.  Normality was assessed by several parameters, including visual observation of the intact embryo and histomorphometry. Optomotor behavior of the tadpoles was determined based on their tendency to track a moving stimulus.<P><B>Results:</B><P>Oviposition occurred in all frogs within 16 hours of hormone injection.  Both centrifuge and microgravity groups had high fertilization rates.  Embryos at the two cell stage showed a cleavage furrow in the normal position for both groups.  There were no gross abnormalities in gastrulae, but embryos developing in microgravity had thicker blastocoel roofs.  In addition, the blastopore lip formed at a slightly more vegetal latitude in the microgravity group than the 1g group.  Despite these differences, development to the neurula stage was unimpaired.  All fixed neurula and tadpoles appeared normal.  Live tadpoles, raised at microgravity and fixed shortly after landing were found to have uninflated lungs. Although there were air bubbles in the egg chambers, the tadpoles were apparently unable to find the air-water interface and inflate their lungs. This result indicates that arrested lung development would have prevented the tadpoles from complete growth and metamorphosis in the absence of gravity. Flight tadpoles had stronger optomotor responses than control tadpoles.  Because there were no gravitational clues, the tadpoles may have compensated with visual information, thus increasing the strength of their optomotor response.  This difference disappeared by nine days postflight.",
+  "__doi": "10.83263/a4f8-wa83",
+  "__doi_record_creation_date": "2026-08-23T03:48:19",
+  "__doi_record_modified_date": "2026-08-23T03:48:19"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000065",
+   "label": "AINV0000000479",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "SL-J Notes on Frogs Swimming Behavior",
+    "dataset_catalog": "AINV0000000479",
+    "dataset_description": [
+     "Two pages of handwritten notes"
+    ],
+    "processing_level": "",
+    "experiment_id": [
+     "178256"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "c4ea7280-a593-512e-8605-5f381c266dc9",
+     "label": "15SouzaSLJ.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001208",
+   "label": "AINV0000000470",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "SL-J Number of Unfertilized Frog Eggs and Number of Normally Developed Tadpoles, Ground Control Group",
+    "dataset_catalog": "AINV0000000470",
+    "dataset_description": [
+     "This table delineates the number of normal and abnormal tadpoles, the number of unfertilized eggs, and the total number of eggs for the ground control group.<br/><br/>Legend for group IDs:<br/>0G = 0G stowage rack<br/>1G = 1G centrifuge<br/>F = fertilization test, an in-flight test of egg quality; the frogs that produced the best eggs were selected for the experiment<br/>NF = not fixed<br/>R = re-entry, time of fixation is time of re-entry preparations<br/>SEP = sperm entry point<br/>2.5 = 2.5 hours, time of fixation post-fertilization<br/>14 = 14 hours, time of fixation post-fertilization<br/>22 = 22 hours, time of fixation post-fertilization"
+    ],
+    "processing_level": "",
+    "experiment_id": [
+     "178256"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "97dfaac1-7b55-5f5a-9203-c96b0eadb5d5",
+     "label": "5SouzaSLJ.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001207",
+   "label": "AINV0000000469",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "SL-J Frog Eggs Fertilization and Tadpole Development Percentages",
+    "dataset_catalog": "AINV0000000469",
+    "dataset_description": [
+     "One-page spreadsheet delineating, for each frog, the percentage of eggs fertilized and the percentage of fertilized eggs that developed normally or abnormally.<br/><br/>Legend for group IDs:<br/>0G = 0G stowage rack<br/>1G = 1G centrifuge<br/>F = fertilization test, an in-flight test of egg quality; the frogs that produced the best eggs were selected for the experiment<br/>NF = not fixed<br/>R = re-entry, time of fixation is time of re-entry preparations<br/>SEP = sperm entry point<br/>2.5 = 2.5 hours, time of fixation post-fertilization<br/>14 = 14 hours, time of fixation post-fertilization<br/>22 = 22 hours, time of fixation post-fertilization"
+    ],
+    "processing_level": "",
+    "experiment_id": [
+     "178256"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "5922967f-5173-5f92-86ae-c5f21acb8a71",
+     "label": "4SouzaSLJ.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000705",
+   "label": "AINV0000000478",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "SL-J Filming and Observation of Flight Tadpoles, Flight Control Tadpoles, and Flight Frogs",
+    "dataset_catalog": "AINV0000000478",
+    "dataset_description": [
+     "This hand-written log indicates swimming behavior, appearance, health, and time spent by flight control group off of centrifuge<br/><br/>Legend for group IDs:<br/>0G = 0G stowage rack<br/>1G = 1G centrifuge<br/>NF = not fixed<br/>R = re-entry, time of fixation is time of re-entry preparations"
+    ],
+    "processing_level": "",
+    "experiment_id": [
+     "178256"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "eddae7f5-84b4-5a0f-9418-c5cd83ea9173",
+     "label": "14SouzaSLJ.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001844",
+   "label": "AINV0000000473",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "SL-J Post-flight Frog Metamorphosis",
+    "dataset_catalog": "AINV0000000473",
+    "dataset_description": [
+     "SL-J Postflight Tadpole Development<br/><br/>Legend for group IDs:<br/>0G = 0G stowage rack<br/>1G = 1G centrifuge<br/>F = fertilization test, an in-flight test of egg quality; the frogs that produced the best eggs were selected for the experiment<br/>NF = not fixed<br/>R = re-entry, time of fixation is time of re-entry preparations<br/>SEP = sperm entry point<br/>2.5 = 2.5 hours, time of fixation post-fertilization<br/>14 = 14 hours, time of fixation post-fertilization<br/>22 = 22 hours, time of fixation post-fertilization<br/>"
+    ],
+    "processing_level": "",
+    "experiment_id": [
+     "178256"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "2e044c83-cea9-514d-915e-0616230e090b",
+     "label": "8SouzaSLJ.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000703",
+   "label": "AINV0000000466",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "SL-J Frog Embryology Experiment Preliminary Results",
+    "dataset_catalog": "AINV0000000466",
+    "dataset_description": [
+     "One-page summary sheet of preliminary egg and tadpole data<br/><br/>Legend for group IDs:<br/>0G = 0G stowage rack<br/>1G = 1G centrifuge<br/>F = fertilization test, an in-flight test of egg quality; the frogs that produced the best eggs were selected for the experiment<br/>NF = not fixed<br/>R = re-entry, time of fixation is time of re-entry preparations<br/>SEP = sperm entry point<br/>2.5 = 2.5 hours, time of fixation post-fertilization<br/>14 = 14 hours, time of fixation post-fertilization<br/>22 = 22 hours, time of fixation post-fertilization"
+    ],
+    "processing_level": "",
+    "experiment_id": [
+     "178256"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "4e1bb762-d00c-5045-92b2-c36be71061fe",
+     "label": "1SouzaSLJ.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001215",
+   "label": "AINV0000000464",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Refrigerator/Freezer data- Julian days 256 through 264",
+    "dataset_catalog": "AINV0000000464",
+    "dataset_description": [
+     "This spreadsheet contains engineering measurements for the flight of the Refrigerator/Freezer. <br/><br/>The spreadsheet is labeled as follows: gmt, volt5, volt28, hiFreon, loFreon, volt15, amps, airTemp, evapTemp, motorTemp"
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "178256"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "86afa0d3-91c1-54dd-8e3e-d6c74b7faaad",
+     "label": "RF_DATA.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002076",
+   "label": "AINV0000000471",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "SL-J Live Embryo Summary",
+    "dataset_catalog": "AINV0000000471",
+    "dataset_description": [
+     "Table delineates normal tadpoles, abnormal tadpoles, unfertilized eggs, and total number of eggs<br/><br/>Legend for group IDs:<br/>0G = 0G stowage rack<br/>1G = 1G centrifuge<br/>F = fertilization test, an in-flight test of egg quality; the frogs that produced the best eggs were selected for the experiment<br/>NF = not fixed<br/>R = re-entry, time of fixation is time of re-entry preparations<br/>SEP = sperm entry point<br/>2.5 = 2.5 hours, time of fixation post-fertilization<br/>14 = 14 hours, time of fixation post-fertilization<br/>22 = 22 hours, time of fixation post-fertilization<br/>"
+    ],
+    "processing_level": "",
+    "experiment_id": [
+     "178256"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "5924f293-56f1-58bc-a2ef-b7d186c3ec69",
+     "label": "6SouzaSLJ.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001265",
+   "label": "AINV0000000472",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "SL-J Fixed Chamber Summary",
+    "dataset_catalog": "AINV0000000472",
+    "dataset_description": [
+     "Table delineates normal tadpoles, abnormal tadpoles, unfertilized eggs, and total number of eggs<br/><br/>Legend for group IDs:<br/>0G = 0G stowage rack<br/>1G = 1G centrifuge<br/>F = fertilization test, an in-flight test of egg quality; the frogs that produced the best eggs were selected for the experiment<br/>NF = not fixed<br/>R = re-entry, time of fixation is time of re-entry preparations<br/>SEP = sperm entry point<br/>2.5 = 2.5 hours, time of fixation post-fertilization<br/>14 = 14 hours, time of fixation post-fertilization<br/>22 = 22 hours, time of fixation post-fertilization<br/>"
+    ],
+    "processing_level": "",
+    "experiment_id": [
+     "178256"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "5d33ff08-fcfa-5b6e-9a7e-3c705feb12de",
+     "label": "7SouzaSLJ.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001151",
+   "label": "AINV0000000475",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "SL-J Adult Frog Box (AFB) Ambient Temperature Recorder (ATR) Read-outs",
+    "dataset_catalog": "AINV0000000475",
+    "dataset_description": [
+     "These graphs illustrate the temperature readings of the AFB (Adult Frog Box) throughout the flight.  Temperature readings were taken by the ATR."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "178256"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "1258c785-f225-5b1a-a988-d3f5ac5d9619",
+     "label": "11SouzaSLJ.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002077",
+   "label": "AINV0000000476",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "SL-J Post-flight Egg Producing Data",
+    "dataset_catalog": "AINV0000000476",
+    "dataset_description": [
+     "This table tracks the injection of flight frogs with HCG and subsequent egg production two months after the SL-J launch."
+    ],
+    "processing_level": "",
+    "experiment_id": [
+     "178256"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "2251f24b-374a-5c43-ae2e-90333ee4a748",
+     "label": "12SouzaSLJ.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000903",
+   "label": "AINV0000000474",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "SL-J Frog Embryology Experiment (FEE) Mock-up Early Developmental Results - Ground Controls",
+    "dataset_catalog": "AINV0000000474",
+    "dataset_description": [
+     "These tables show early development results for eggs used in the ground control experiment. No comparable flight data is available because eggs were not available for observation."
+    ],
+    "processing_level": "",
+    "experiment_id": [
+     "178256"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "312217bc-d684-5de1-9e38-db1470657eb7",
+     "label": "9SouzaSLJ.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002103",
+   "label": "AINV0000000467",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "SL-J Tadpole Mortality",
+    "dataset_catalog": "AINV0000000467",
+    "dataset_description": [
+     "Spreadsheet comparing mortality of tadpoles from 0G, 1G, and ground control groups<br/><br/>Legend for group IDs:<br/>0G = 0G stowage rack<br/>1G = 1G centrifuge<br/>F = fertilization test, an in-flight test of egg quality; the frogs that produced the best eggs were selected for the experiment<br/>NF = not fixed<br/>R = re-entry, time of fixation is time of re-entry preparations<br/>SEP = sperm entry point<br/>2.5 = 2.5 hours, time of fixation post-fertilization<br/>14 = 14 hours, time of fixation post-fertilization<br/>22 = 22 hours, time of fixation post-fertilization"
+    ],
+    "processing_level": "",
+    "experiment_id": [
+     "178256"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "3bdfe445-40bc-5c75-91c9-226c7ed495d3",
+     "label": "2SouzaSLJ.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002332",
+   "label": "AINV0000000480",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "SL-J FEE Data Sheets",
+    "dataset_catalog": "AINV0000000480",
+    "dataset_description": [
+     "These data sheets enumerate the DorsoAnterior Index for each flask of embryos. <br/><br/>Legend for group IDs:<br/>0G = 0G stowage rack<br/>1G = 1G centrifuge<br/>F = fertilization test, an in-flight test of egg quality; the frogs that produced the best eggs were selected for the experiment<br/>NF = not fixed<br/>R = re-entry, time of fixation is time of re-entry preparations<br/>SEP = sperm entry point<br/>2.5 = 2.5 hours, time of fixation post-fertilization<br/>14 = 14 hours, time of fixation post-fertilization<br/>22 = 22 hours, time of fixation post-fertilization"
+    ],
+    "processing_level": "",
+    "experiment_id": [
+     "178256"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "98536227-8253-5b13-b174-2e270341ded7",
+     "label": "16SouzaSLJ.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002104",
+   "label": "AINV0000000468",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "SL-J Tadpole Metamorphosis Summary",
+    "dataset_catalog": "AINV0000000468",
+    "dataset_description": [
+     "One-sheet table delineating the number of embryos metamorphosizing into tadpoles over a two-month period for zero gravity group, 1G group, and ground controls<br/><br/>Legend for group IDs:<br/>0G = 0G stowage rack<br/>1G = 1G centrifuge<br/>F = fertilization test, an in-flight test of egg quality; the frogs that produced the best eggs were selected for the experiment<br/>NF = not fixed<br/>R = re-entry, time of fixation is time of re-entry preparations<br/>SEP = sperm entry point<br/>2.5 = 2.5 hours, time of fixation post-fertilization<br/>14 = 14 hours, time of fixation post-fertilization<br/>22 = 22 hours, time of fixation post-fertilization"
+    ],
+    "processing_level": "",
+    "experiment_id": [
+     "178256"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "85e77f87-728f-5978-bb04-b0f971fd5e8d",
+     "label": "3SouzaSLJ.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000237",
+   "label": "AINV0000000481",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "SL-J FEE Data Sheets - Ground Control",
+    "dataset_catalog": "AINV0000000481",
+    "dataset_description": [
+     "These data sheets enumerate the DorsoAnterior Index for each flask of embryos. <br/><br/>Legend for group IDs:<br/>0G = 0G stowage rack<br/>1G = 1G centrifuge<br/>F = fertilization test, an in-flight test of egg quality; the frogs that produced the best eggs were selected for the experiment<br/>NF = not fixed<br/>"
+    ],
+    "processing_level": "",
+    "experiment_id": [
+     "178256"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "9a724e9a-0eab-5dad-a9d6-ff95fd8a58f3",
+     "label": "17SouzaSLJ.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001043",
+   "label": "AINV0000000461",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Centrifuge Temperature- Julian day 258",
+    "dataset_catalog": "AINV0000000461",
+    "dataset_description": [
+     "This chart represents data collected from three temperature probes, located at the top, bottom, and back of the 1g centrifuge compartment in the FEU."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "178256"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "04586e28-6cb7-5fd9-be38-60f879bca5e5",
+     "label": "258_CFGT.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001641",
+   "label": "AINV0000000482",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "SL-J HCG/Sperm Kit Ambient Temperature Recorder (ATR) Read-outs",
+    "dataset_catalog": "AINV0000000482",
+    "dataset_description": [
+     "These graphs illustrate the temperature readings of the HCG/sperm kit throughout the flight. Temperature readings were taken by the ATR."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "178256"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "710aed1a-580e-5b09-b177-0f7174196622",
+     "label": "10SouzaSLJ.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001572",
+   "label": "AINV0000000463",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Zero G Chamber Temperature- Julian day 258",
+    "dataset_catalog": "AINV0000000463",
+    "dataset_description": [
+     "This chart represents data collected from three temperature probes, located at the top, bottom, and back of the the 0g compartment in the FEU."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "178256"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "256be62d-f925-5165-81a6-7d5ca30a9753",
+     "label": "258_ZGCT.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002227",
+   "label": "AINV0000000462",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Gravity Level- Julian day 258",
+    "dataset_catalog": "AINV0000000462",
+    "dataset_description": [
+     "This chart represents calculations based on RPMs of the 1g centrifuge in the FEU."
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "178256"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "a6b09a92-5c1a-5fc7-bf50-1ba37a6d2c61",
+     "label": "258_GVTL.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002330",
+   "label": "AINV0000000465",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Japan- Julian day 258",
+    "dataset_catalog": "AINV0000000465",
+    "dataset_description": [],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "178256"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "6f9feee0-9857-55b9-a3d5-98a43830e7e2",
+     "label": "258_JAPN.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000904",
+   "label": "AINV0000000477",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "SL-J In-flight Temperature Record",
+    "dataset_catalog": "AINV0000000477",
+    "dataset_description": [
+     "These pages of graphs show the temperature of the on-board centrifuge, zero-G unit, the TE unit, the water, PCU, FEU, frig, and adult unit. Also shown are the centrifuge's RPMs and G-force"
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "178256"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "f400ce5a-e7ba-59d8-8bf6-c7feffe4b1b8",
+     "label": "13SouzaSLJ.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

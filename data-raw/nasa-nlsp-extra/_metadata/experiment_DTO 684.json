@@ -1,0 +1,561 @@
+{
+ "record": {
+  "id": "b7b1eb07-f9e1-57a2-82d1-2970d49a6e94",
+  "_id": "b7b1eb07-f9e1-57a2-82d1-2970d49a6e94",
+  "experiment_title": "Radiation Measurements in Shuttle Crew Compartment",
+  "archive_status_index": 1,
+  "pub_document_number": "PUB001704",
+  "parameter_html": "<table><tr><td>Altitude</td></tr><tr><td>Differential flux</td></tr><tr><td>Galactic cosmic radiation</td></tr><tr><td>Integral flux</td></tr><tr><td>Lineal energy spectra (LES)</td></tr><tr><td>Magnetic field</td></tr><tr><td>Radiation dose</td></tr><tr><td>Solar activity</td></tr><tr><td>Energy in megaelectron-volts (E(MeV))</td></tr><tr><td>Linear energy transfer spectra</td></tr><tr><td>Mission elapsed time (MET)</td></tr><tr></tr></table>",
+  "__source_key": "cl62b012jcdiv01o62h87hoej",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Badhwar, Gautam\">Principal Investigator: Badhwar, Gautam</a>",
+  "experiment_type_lk": [
+   "Shuttle Detailed Supplementary Objectives (DSO)"
+  ],
+  "__record_modified_date": "2026-08-23T04:21:30.867631+00:00",
+  "__indexed": "2026-08-23T04:21:30.867631+00:00",
+  "__record_creation_date": "2022-07-28T19:56:46.403Z",
+  "keyword": [
+   "Radiation dosage",
+   "Radiation monitoring"
+  ],
+  "keyword_name": "Radiation monitoring",
+  "__record_size": 77721,
+  "__record_version": 29,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<br>\r\nTrapped protons in the South Atlantic Anomaly (SAA) have a rather narrow pitch angle distribution and exhibit east-west anisotropy. In low Earth orbits, the E-W effect results in different amounts of radiation dose received by different sections of the spacecraft. This effect is best studied on missions in which the spacecraft flies in a fixed orientation. The magnitude of the effect depends on the particle energy and altitude through the SAA. \r\n<p>\r\nThere are three main sources of radiation in free space. These are the trapped protons and electrons, solar energetic particles, and the galactic cosmic rays. For human missions to Mars or the moon, the trapped protons and electrons are of a minor concern. The flux of trapped particles at a fixed spacecraft altitude, and of galactic cosmic rays, decreases as the solar activity increases; however, the probability of a solar particle event increases as the solar activity increases. As these particles interact with the shielding material of the spacecraft and human body, they produce secondary particles, such as lighter fragments, target fragments, and neutrons. These particles can have far more damaging effects on cells than the primary particles. Thus, the radiation environment is very complex and varies with time. This experiment reviews the sources of charged-particles that contribute significantly to radiation risk to the astronauts, and estimates of exposure for some typical missions, such as Space Shuttle, International Space Station, and a human mission to Mars. \r\n<p>\r\nAPPROACH:<br>\r\nThe Space Shuttle carried an active tissue equivalent proportional counter (TEPC), and passive thermoluminscent detectors (TLDs), and two types of nuclear emulsions to measure radiation dose rates in different areas of the Space Shuttle.  The detectors were activated on the second flight day. TLD detectors were  flown in a middeck locker.  Using nuclear emulsions, charged particles and secondary neutron energy spectra were measured. \r\n<p>\r\nRESULTS:<br>\r\nResults from this experiment are available for the STS-94 flight only.  Refer to the cited publication and datasets for more details. \r\n<p>\r\nThe ratio of dose rates from the two directions at this location in the middeck was 2.7. As expected from model calculations, the spectra from the two directions are different, that is the ratio is energy dependent. The data can be used to distinguish the anisotropy models. The combined galactic cosmic radiation plus trapped charged particle lineal energy spectra measured by the TEPC and the linear energy transfer spectrum measured by nuclear emulsions are in good agreement. The charged particle absorbed dose rates varied from 112 to 175 \u00b5Gy/day, and dose equivalent rates from 264.3 to 413 \u00b5Gy/day. Neutrons in the 1 - 10 MeV contributed a dose rate of 3.7 \u00b5Gy/day and dose equivalent rate of 30.8 \u00b5Gy/day, \r\nrespectively.\r\n<p>\r\nConclusions:<br>\r\nThe east-west asymmetry of dose rates due to trapped protons in low Earth orbit has been clearly demonstrated.  At 300 km altitude and for 28.5 degree orbit, this asymmetry was about a factor 2.7, consistent with predictions of vector flux models. Improved predictions of crewmember dose rates aboard oriented spacecrafts in low Earth orbit would require consideration of the anisotropy of trapped proton fluxes. Omni-directional trapped belt models, such as AP-8 MIN/MAX are no longer adequate. There is good agreement between measurements of dose rates made by different passive dosimeters, as well as good agreement between the LET spectra measured by TEPC and nuclear emulsions. Additionally, the neutron contribution to crew dose equivalent is significant.\r\n<p>",
+  "payload_id": "DSO82",
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "DTO 684",
+  "indexed": "2026-08-23T04:21:30.867631+00:00",
+  "experiment_related": [
+   "DSO 469",
+   "DSO 200"
+  ],
+  "GUID": "cl62b012jcdiv01o62h87hoej",
+  "parameter_name": [
+   "Altitude",
+   "Differential flux",
+   "Galactic cosmic radiation",
+   "Integral flux",
+   "Lineal energy spectra (LES)",
+   "Magnetic field",
+   "Radiation dose",
+   "Solar activity",
+   "Energy in megaelectron-volts (E(MeV))",
+   "Linear energy transfer spectra",
+   "Mission elapsed time (MET)"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 1707,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Radiation biology"
+  ],
+  "pme_role_with_name": [
+   "Principal Investigator: Badhwar, Gautam"
+  ],
+  "missions": [
+   [
+    [
+     "STS-82"
+    ]
+   ],
+   [
+    [
+     "STS-83"
+    ]
+   ],
+   [
+    [
+     "STS-71"
+    ]
+   ],
+   [
+    [
+     "STS-72"
+    ]
+   ]
+  ],
+  "__dirid": "b7b1eb07-f9e1-57a2-82d1-2970d49a6e94",
+  "__record_size_wo_doccontent": 77721,
+  "PI": [
+   "Badhwar, Gautam"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "DTO 684"
+  ],
+  "mission_id": [
+   [
+    [
+     "STS-82"
+    ]
+   ],
+   [
+    [
+     "STS-83"
+    ]
+   ],
+   [
+    [
+     "STS-71"
+    ]
+   ],
+   [
+    [
+     "STS-72"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "proposal_source": [],
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens)"
+   ]
+  ],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Badhwar, Gautam"
+  ],
+  "proposal_date": [],
+  "archive_status": "Data preservation is complete. All datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Shuttle Program",
+  "__source_field_concat": "PUB001704 DSO82 cl62b012jcdiv01o62h87hoej Radiation monitoring  N/A Radiation Measurements in Shuttle Crew Compartment DTO 684 Shuttle Program Data preservation is complete. All datasets are publicly available.",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<br>\r\nTrapped protons in the South Atlantic Anomaly (SAA) have a rather narrow pitch angle distribution and exhibit east-west anisotropy. In low Earth orbits, the E-W effect results in different amounts of radiation dose received by different sections of the spacecraft. This effect is best studied on missions in which the spacecraft flies in a fixed orientation. The magnitude of the effect depends on the particle energy and altitude through the SAA. \r\n<p>\r\nThere are three main sources of radiation in free space. These are the trapped protons and electrons, solar energetic particles, and the galactic cosmic rays. For human missions to Mars or the moon, the trapped protons and electrons are of a minor concern. The flux of trapped particles at a fixed spacecraft altitude, and of galactic cosmic rays, decreases as the solar activity increases; however, the probability of a solar particle event increases as the solar activity increases. As these particles interact with the shielding material of the spacecraft and human body, they produce secondary particles, such as lighter fragments, target fragments, and neutrons. These particles can have far more damaging effects on cells than the primary particles. Thus, the radiation environment is very complex and varies with time. This experiment reviews the sources of charged-particles that contribute significantly to radiation risk to the astronauts, and estimates of exposure for some typical missions, such as Space Shuttle, International Space Station, and a human mission to Mars. \r\n<p>\r\nAPPROACH:<br>\r\nThe Space Shuttle carried an active tissue equivalent proportional counter (TEPC), and passive thermoluminscent detectors (TLDs), and two types of nuclear emulsions to measure radiation dose rates in different areas of the Space Shuttle.  The detectors were activated on the second flight day. TLD detectors were  flown in a middeck locker.  Using nuclear emulsions, charged particles and secondary neutron energy spectra were measured. \r\n<p>\r\nRESULTS:<br>\r\nResults from this experiment are available for the STS-94 flight only.  Refer to the cited publication and datasets for more details. \r\n<p>\r\nThe ratio of dose rates from the two directions at this location in the middeck was 2.7. As expected from model calculations, the spectra from the two directions are different, that is the ratio is energy dependent. The data can be used to distinguish the anisotropy models. The combined galactic cosmic radiation plus trapped charged particle lineal energy spectra measured by the TEPC and the linear energy transfer spectrum measured by nuclear emulsions are in good agreement. The charged particle absorbed dose rates varied from 112 to 175 \u00b5Gy/day, and dose equivalent rates from 264.3 to 413 \u00b5Gy/day. Neutrons in the 1 - 10 MeV contributed a dose rate of 3.7 \u00b5Gy/day and dose equivalent rate of 30.8 \u00b5Gy/day, \r\nrespectively.\r\n<p>\r\nConclusions:<br>\r\nThe east-west asymmetry of dose rates due to trapped protons in low Earth orbit has been clearly demonstrated.  At 300 km altitude and for 28.5 degree orbit, this asymmetry was about a factor 2.7, consistent with predictions of vector flux models. Improved predictions of crewmember dose rates aboard oriented spacecrafts in low Earth orbit would require consideration of the anisotropy of trapped proton fluxes. Omni-directional trapped belt models, such as AP-8 MIN/MAX are no longer adequate. There is good agreement between measurements of dose rates made by different passive dosimeters, as well as good agreement between the LET spectra measured by TEPC and nuclear emulsions. Additionally, the neutron contribution to crew dose equivalent is significant.\r\n<p>",
+  "__doi": "10.83263/0d67-bk75",
+  "__doi_record_creation_date": "2026-08-23T04:21:30",
+  "__doi_record_modified_date": "2026-08-23T04:21:30"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000051",
+   "label": "DTO 684__1590523220",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "3-D Representation of Dose Rates",
+    "dataset_catalog": "DTO 684__1590523220",
+    "dataset_description": [
+     "This graph depicts the radiation dose rates collected during the DTO 684 study.  The proton intensity distribution has calculated the >100 MeV as a function of polar angle and azimuthal angle for a 28.5 degree inclination by 450 km orbit, and shows the marked difference in the shapes of such plots due to the choice of the pitch-angle distribution function. These observations point to the need for active detectors onboard the International Space Station for monitoring and for using directional trapped belt models for dose rate predictions.\r\n<p>\r\nSource: Badhwar GD, Kushin VV, Akatov YuA, and Myltseva VA. Effects of trapped proton flux anisotropy on dose rates in low Earth orbit. Radiation Measurements. 1999; June 30 (3): 415-426."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DTO 684"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "96fdacf6-849e-511e-a930-b702f475037e",
+     "label": "JMDTO_684_4.TIF_STS-94_DTO_684_2010_159_050614.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001796",
+   "label": "DTO 684__1550611353",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Geometric Description of the Magnetic Field Components",
+    "dataset_catalog": "DTO 684__1550611353",
+    "dataset_description": [
+     "This diagram depicts the geometric description of the magnetic field components.\r\n<p>\r\nSource: Badhwar GD, Kushin VV, Akatov YuA, and Myltseva VA. Effects of trapped proton flux anisotropy on dose rates in low Earth orbit. Radiation Measurements. 1999; June 30 (3):415-426."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DTO 684"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "0959012e-635c-5f5f-ad5b-b0a6868b5fce",
+     "label": "JMDTO_684_2.TIF_STS-94_DTO_684_2010_159_050620.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001135",
+   "label": "DTO 684__1600619756",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Neutron Dose and Dose Equivalent Rates in the Shuttle Middeck Locker",
+    "dataset_catalog": "DTO 684__1600619756",
+    "dataset_description": [
+     "This Excel file summarizes all of the dose and dose equivalent calculations. The quality factor for the neutrons is 8-9, much higher than either the trapped or galactic cosmic particles. It should also be noted that the neutron dose was computed for slightly different energy ranges in each flight, and that the shielding material in the middeck was not always the same. For comparison, the average charged-particle crew dose rate (AD) measured by TLD-I00 detectors is also given. In terms of absorbed dose rate, the average neutron contribution is approximately 9%. Using the average quality factor (ICRP-26) measured by a TEPC on STS-57 and STS-94, crew absorbed dose rates, AD, were converted to crew charged-particle dose equivalent rates, HD.\r\n<p>\r\nSource: Badhwar GD, Kushin VV, Akatov YuA, and Myltseva VA. Effects of trapped proton flux anisotropy on dose rates in low Earth orbit. Radiation Measurements. 1999; June 30 (3): 415-426."
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "DTO 684"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "75491cf9-cdad-5daa-ae01-26d77dce5841",
+     "label": "JMDTO_684_13.xls_STS-94_DTO_684_2010_160_070655.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000711",
+   "label": "DTO 684__1590349447",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Dose Rates and z Component with MET",
+    "dataset_catalog": "DTO 684__1590349447",
+    "dataset_description": [
+     "There are two datasets contained within this graph.   Lower panel:  displays the dose rate as measured by the TEPC as a function of the mission elapsed time (MET). The detector was activated on the second day of the flight and operated for 4.35 days. For roughly the first two days of its operations (Region A: MET < 4500 min), the peak dose rate was about 6 \u00b5GY/min and dropped to 2 \u00b5Gy/min for the next two days (Region B; 4500 < MET < 7500 min) and then returned to the 6 \u00b5Gy/min after this time period.\r\n<p>\r\nSource: Badhwar GD, Kushin VV, Akatov YuA, and Myltseva VA. Effects of trapped proton flux anisotropy on dose rates in low Earth orbit. Radiation Measurements. 1999; June 30 (3): 415-426."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DTO 684"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "97f956fd-6ae4-511f-8d32-ff4fc3cac815",
+     "label": "JMDTO_684_3.TIF_STS-94_DTO_684_2010_159_050648.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001270",
+   "label": "DTO 684__1600339570",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Integral LET Spectra Derived from TEPC",
+    "dataset_catalog": "DTO 684__1600339570",
+    "dataset_description": [
+     "This graph compares the integral LET spectra of the total flight measured by nuclear emulsions and that derived from the TEPC data. There is good agreement between the two observations over the common LET range. There are no data from nuclear emulsions above 130 keY/\u00b5m. The TEPC does not measure the true LET, and the assumption is made that its lineal energy measurement is the same as the LET. This comparison verifies that this assumption is good.\r\n<p>\r\nSource: Badhwar GD, Kushin VV, Akatov YuA, and Myltseva VA. Effects of trapped proton flux anisotropy on dose rates in low Earth orbit. Radiation Measurements. 1999; June 30 (3): 415-426."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DTO 684"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "9897a8f8-c901-590e-b02e-2cf383be1f3e",
+     "label": "JMDTO_684_9.TIF_STS-94_DTO_684_2010_160_050631.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001134",
+   "label": "DTO 684__1600548909",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Differential Neutron Energy Spectra of four 28.5\u00b0 Inclination Shuttle flights",
+    "dataset_catalog": "DTO 684__1600548909",
+    "dataset_description": [
+     "This graph displays the differential energy spectra from all four 28.5\u00b0 inclination flights (STS-55, STS-57, STS-65, and STS-94). \r\n<p>\r\nSource: Badhwar GD, Kushin VV, Akatov YuA, and Myltseva VA. Effects of trapped proton flux anisotropy on dose rates in low Earth orbit. Radiation Measurements. 1999; June 30 (3): 415-426."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DTO 684"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "436c6505-f181-5759-a203-25746ebf9043",
+     "label": "JMDTO_684_11.TIF_STS-94_DTO_684_2010_160_050656.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001271",
+   "label": "DTO 684__1600534542",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Comparison of the differential GCR LET Spectra from Two Shuttle Altitudes",
+    "dataset_catalog": "DTO 684__1600534542",
+    "dataset_description": [
+     "This graph depicts the differential LET spectra of the OCR component in two Shuttle altitudes. This experiment allowed for a separation of neutron contributions from GCR and SAA particles. The neutron energy spectrum from this experiment was measured by the proton recoil technique.\r\n<p>\r\nSource: Badhwar GD, Kushin VV, Akatov YuA, and Myltseva VA. Effects of trapped proton flux anisotropy on dose rates in low Earth orbit. Radiation Measurements. 1999; June 30 (3): 415-426."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DTO 684"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "d5853ce6-ee7f-5da8-abb6-0ec9b54dd3b8",
+     "label": "JMDTO_684_10.TIF_STS-94_DTO_684_2010_160_050628.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000908",
+   "label": "DTO 684__1600322300",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Differential Energy Spectra of Trapped  Particles",
+    "dataset_catalog": "DTO 684__1600322300",
+    "dataset_description": [
+     "This graph represents the two inverted LET spectra to proton differential energy spectra.  Using the relative fraction of each energy spectra in the particular Shuttle altitude, the investigators computed the total energy spectrum as if the TEPC had operated for the whole flight.\r\n<p>\r\nSource: Badhwar GD, Kushin VV, Akatov YuA, and Myltseva VA. Effects of trapped proton flux anisotropy on dose rates in low Earth orbit. Radiation Measurements. 1999; June 30 (3): 415-426."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DTO 684"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "505b11ae-332a-58e4-a9f1-bafed12cb759",
+     "label": "JMDTO_684_6.TIF_STS-94_DTO_684_2010_160_030636.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001848",
+   "label": "DTO 684__1590534753",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Integral LET Spectra for Shuttle Altitudes for Trapped Particles",
+    "dataset_catalog": "DTO 684__1590534753",
+    "dataset_description": [
+     "This graph displays the linear energy transfer (LET) spectra of trapped particles from two regions. Data collection time was limited, so the data above 500 keV/l\u00b5m is rather sparse. Using the ICRP-26 definition of the quality factor with LET, the average quality factors in two regions are 1.62 and 1.81, respectively, indicting differences in spectral shapes in the two regions. Neglecting the target fragments (> 98 keV/\u00b5m), and assuming that all of these particles are protons, the investigators inverted the two LET spectra to proton differential energy spectra.\r\n<p>\r\nSource: Badhwar GD, Kushin VV, Akatov YuA, and Myltseva VA. Effects of trapped proton flux anisotropy on dose rates in low Earth orbit. Radiation Measurements. 1999; June 30 (3): 415-426."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DTO 684"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "7d367b92-c077-5cd3-a50c-d23d4020aa59",
+     "label": "JMDTO_684_5.TIF_STS-94_DTO_684_2010_160_030654.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002032",
+   "label": "DTO 684__1550440608",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Plot of the Trajectory Altitude of Shuttle as a Function of MET",
+    "dataset_catalog": "DTO 684__1550440608",
+    "dataset_description": [
+     "There are two datasets contained within this graph.   Lower Panel: Plot of the trajectory altitude of Shuttle as a function of mission elapsed time (MET). Although, the orbit was slightly eccentric, the average altitude through the SAA was about 298 km. The average solar 10.7 cm solar flux was 71.4 10<sup>-4</sup> Jansky and the deceleration potential was 483 MV. Upper panel: Plot of the component of the instantaneous magnetic field with respect to the Shuttle z axis.  Note the sudden change in the angle from 4500 < MET < 7500 minutes, when the Shuttle flew in a different attitude than the remainder of the flight.\r\n<p>\r\nSource: Badhwar GD, Kushin VV, Akatov YuA, and Myltseva VA. Effects of trapped proton flux anisotropy on dose rates in low Earth orbit. Radiation Measurements. 1999; June 30 (3):415-426."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DTO 684"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "807b7311-4ceb-5b1c-b7fc-c350e3a0f87c",
+     "label": "JMDTO_684_1.TIF_STS-94_DTO_684_2010_159_030619.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002295",
+   "label": "DTO 684__1600329948",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Ratio of Fluxes from Altitude Regions",
+    "dataset_catalog": "DTO 684__1600329948",
+    "dataset_description": [
+     "This graph depicts the total energy spectrum as if TEPC had operated for the whole flight along with the energy spectrum derived from emulsion measurements.  Considering the relatively low statistics of the emulsion data, the agreement between the two measurements is good.\r\n<p>\r\nSource: Badhwar GD, Kushin VV, Akatov YuA, and Myltseva VA. Effects of trapped proton flux anisotropy on dose rates in low Earth orbit. Radiation Measurements. 1999; June 30 (3): 415-426."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DTO 684"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "d3f12a92-a9d5-53b3-85a7-1e373a3804af",
+     "label": "JMDTO_684_7.TIF_STS-94_DTO_684_2010_160_030640.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002238",
+   "label": "DTO 684__1600551963",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "TLD Total Dose Rates in the Habitable Volume on STS-94",
+    "dataset_catalog": "DTO 684__1600551963",
+    "dataset_description": [
+     "This Excel file displays the total absorbed radiation dose rates for the STS-94 flight. The Dloc1 location is the most heavily shielded and Dloc2 the least shielded of the six locations The TLDs in the middeck locker measured a dose rate of 140.1 \u00b5Gy/day lower than the Dloc2 1ocation, but higher than the Dloc1 location.\r\n<p>\r\nSource: Badhwar GD, Kushin VV, Akatov YuA, and Myltseva VA. Effects of trapped proton flux anisotropy on dose rates in low Earth orbit. Radiation Measurements. 1999; June 30 (3): 415-426."
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "DTO 684"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "bc4bd1ba-4025-5f8e-9a48-97e1252d5db3",
+     "label": "JMDTO_684_12.xls_STS-94_DTO_684_2010_160_060615.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002296",
+   "label": "DTO 684__1600335206",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Combined Differential Energy Spectrum",
+    "dataset_catalog": "DTO 684__1600335206",
+    "dataset_description": [
+     "This graph depicts the ratio of fluxes from the magnetic east and magnetic west direction as a function of energy. The ratio decreases somewhat at higher energies. The TEPC loses efficiency for particles below 0.4 keV/\u00b5m, and thus the spectra and the flux ratios are not reliable above 150 MeV.\r\n<p>\r\nSource: Badhwar GD, Kushin VV, Akatov YuA, and Myltseva VA. Effects of trapped proton flux anisotropy on dose rates in low Earth orbit. Radiation Measurements. 1999; June 30 (3): 415-426."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DTO 684"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "d09efde1-d42d-57c8-85e6-5a89eaa91a83",
+     "label": "JMDTO_684_8.TIF_STS-94_DTO_684_2010_160_030616.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

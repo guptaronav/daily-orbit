@@ -1,0 +1,156 @@
+{
+ "record": {
+  "id": "950b2ce4-5f5b-5f00-a870-1f24e2897771",
+  "_id": "950b2ce4-5f5b-5f00-a870-1f24e2897771",
+  "__is_locked": false,
+  "experiment_title": "Human Cerebral Cortex Plasticity in Response to Long-term Bedrest as an Analog to Microgravity",
+  "pub_document_number": "PUB001829",
+  "experiment_alias": [
+   "NNJ04HF70G"
+  ],
+  "parameter_html": "<table><tr><td>Corticospinal plasticity</td></tr><tr><td>Motor cortex excitability</td></tr><tr><td>Motor-evoked potentials</td></tr><tr></tr></table>",
+  "program_name": [
+   "Ground"
+  ],
+  "__source_key": "cl62azojacdg901o65dk82qlr",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Roberts, Donna\">Principal Investigator: Roberts, Donna</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Ramsey, David\">Co-Investigator: Ramsey, David</a>",
+  "keyword": [
+   "Neuronal plasticity",
+   "Time factors",
+   "Bed rest",
+   "Adaptation, physiological",
+   "Magnetic resonance imaging (MRI)",
+   "Cerebral cortex"
+  ],
+  "keyword_name": "Cerebral cortex",
+  "__record_version": 30,
+  "experiment_description": "OBJECTIVES:<br>\r\nThis investigation assesses the effects of weightlessness on the central nervous system and specifically the sensorimotor system by inducing cortical reorganization through altered cortical excitability.  The measures of cortical excitability will be evaluated for correlation with measures of lower limb functional recovery.\r\n<P>\r\nAPPROACH:<BR>\r\nTranscranial magnetic stimulation was used to evaluate motor cortex plasticity through the acquisition of recruitment curves.  The location for application of the magnetic stimulation was determined by functional and structural brain magnetic resonance imaging (MRI).  Data collected from these control subjects included resting motor threshold, paired pulse sequences and cortical silent periods, The compound motor action potential and Hoffman reflex (H-reflex) response were collected as measures of peripheral stimulation.\r\n<P>\r\nRESULTS:<br>\r\nSignificant leg RC slope decreases were observed on post-bed rest day 1 (P1) (t(2805) = -4.14, P < 0.0001), P2 (t(2805) = -6.59, P < 0.0001), P3 (t(2805) = -6.15, P < 0.0001), P5 (t(2805) = -7.93, P <0.0001), P8 (t(2805) = -3.30, P = 0.001), and P12 (t(2805)= -3.33, P = 0.0009), suggesting a group decrease in corticospinal excitability in the immediate post-bed rest period with recovery approaching baseline over the following 2 wk. Significant effects were observed for hand RC slopes only for P2 (t(2916) = 1.97, P = 0.049), P3 (t(2916) = -2.12, P = 0.034), and P12 (t(2916) = -2.19, P = 0.029); no significant effects were observed for days P0 (t(2916) = -1.32, ns), P1 (t(2916) = 1.00, ns), P5 (t(2916) = -0.21, ns), or P8 (t(2916) = -0.27, ns). fMRI showed no change in activation for the hand but an increase in activation post-bed rest for the leg. On an individual basis, a more heterogeneous response was found which showed a potential association with performance on FMT.\r\n<P>\r\nResults of this research include a better understanding of the cortical plasticity associated with leg disuse and may lead to applications in patient and astronaut rehabilitation.",
+  "Program": "Ground",
+  "indexed": "2026-08-23T04:08:50.438040+00:00",
+  "proposal_date": [
+   "02/20/2005"
+  ],
+  "GUID": "cl62azojacdg901o65dk82qlr",
+  "sort": [
+   4,
+   "950b2ce4-5f5b-5f00-a870-1f24e2897771"
+  ],
+  "__model_type": "lsda_experiment",
+  "archive_status": "Data preservation is complete. Privacy-protected datasets are available via data request. Remaining datasets are publicly available.",
+  "__dirid": "950b2ce4-5f5b-5f00-a870-1f24e2897771",
+  "__record_size_wo_doccontent": 54236,
+  "__update_method": "Update CDM",
+  "archive_status_index": 2,
+  "mission_id": [
+   [
+    [
+     "UTMB Campaign 3"
+    ]
+   ]
+  ],
+  "experiment_identifier": [
+   "NSBRI20010036",
+   "NNJ04HF70G"
+  ],
+  "experiment_type_lk": [
+   "Flight Analogs Project (FAP)",
+   "NASA Bedrest Studies",
+   "NASA Ground-Based Investigations"
+  ],
+  "__record_modified_date": "2026-08-23T04:08:50.438040+00:00",
+  "proposal_source": "NSBRI-2001-0000-0036",
+  "__indexed": "2026-08-23T04:08:50.438040+00:00",
+  "alias": [
+   "NNJ04HF70G"
+  ],
+  "__record_creation_date": "2022-07-28T19:59:04.040Z",
+  "__record_size": 54236,
+  "PrincipalInvestigator": [
+   "Roberts, Donna"
+  ],
+  "__model_version": 60,
+  "payload_id": "Campaign 3",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Space Biomedical Research Institute (NSBRI)"
+  ],
+  "experiment_id": "NSBRI20010036",
+  "ncindex": [
+   2
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "parameter_name": [
+   "Corticospinal plasticity",
+   "Motor cortex excitability",
+   "Motor-evoked potentials"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 1286,
+  "research_area": [
+   "Neuroscience"
+  ],
+  "species": [
+   "Human"
+  ],
+  "pme_role_with_name": [
+   "Co-Investigator: Ramsey, David",
+   "Principal Investigator: Roberts, Donna"
+  ],
+  "missions": [
+   [
+    [
+     "UTMB Campaign 3"
+    ]
+   ]
+  ],
+  "PI": [
+   "Roberts, Donna"
+  ],
+  "__source_field_concat": "PUB001829 NSBRI-2001-0000-0036 Campaign 3 cl62azojacdg901o65dk82qlr Cerebral cortex N/A Human Cerebral Cortex Plasticity in Response to Long-term Bedrest as an Analog to Microgravity NSBRI20010036 Ground",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<br>\r\nThis investigation assesses the effects of weightlessness on the central nervous system and specifically the sensorimotor system by inducing cortical reorganization through altered cortical excitability.  The measures of cortical excitability will be evaluated for correlation with measures of lower limb functional recovery.\r\n<P>\r\nAPPROACH:<BR>\r\nTranscranial magnetic stimulation was used to evaluate motor cortex plasticity through the acquisition of recruitment curves.  The location for application of the magnetic stimulation was determined by functional and structural brain magnetic resonance imaging (MRI).  Data collected from these control subjects included resting motor threshold, paired pulse sequences and cortical silent periods, The compound motor action potential and Hoffman reflex (H-reflex) response were collected as measures of peripheral stimulation.\r\n<P>\r\nRESULTS:<br>\r\nSignificant leg RC slope decreases were observed on post-bed rest day 1 (P1) (t(2805) = -4.14, P < 0.0001), P2 (t(2805) = -6.59, P < 0.0001), P3 (t(2805) = -6.15, P < 0.0001), P5 (t(2805) = -7.93, P <0.0001), P8 (t(2805) = -3.30, P = 0.001), and P12 (t(2805)= -3.33, P = 0.0009), suggesting a group decrease in corticospinal excitability in the immediate post-bed rest period with recovery approaching baseline over the following 2 wk. Significant effects were observed for hand RC slopes only for P2 (t(2916) = 1.97, P = 0.049), P3 (t(2916) = -2.12, P = 0.034), and P12 (t(2916) = -2.19, P = 0.029); no significant effects were observed for days P0 (t(2916) = -1.32, ns), P1 (t(2916) = 1.00, ns), P5 (t(2916) = -0.21, ns), or P8 (t(2916) = -0.27, ns). fMRI showed no change in activation for the hand but an increase in activation post-bed rest for the leg. On an individual basis, a more heterogeneous response was found which showed a potential association with performance on FMT.\r\n<P>\r\nResults of this research include a better understanding of the cortical plasticity associated with leg disuse and may lead to applications in patient and astronaut rehabilitation.",
+  "__doi": "10.83263/xm32-7921",
+  "__doi_record_creation_date": "2026-08-23T04:08:50",
+  "__doi_record_modified_date": "2026-08-23T04:08:50"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002431",
+   "label": "NSBRI20010036__2340403140",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Cerebral Cortex Plasticity After 90 Days of Bed Rest: Data from TMS and fMRI",
+    "dataset_catalog": "NSBRI20010036__2340403140",
+    "dataset_description": [
+     "This final report summarizes results for Cerebral Cortex Plasticity After 90 Days of Bed Rest, experiment NNJ04HF70G.<P>\r\nData summarized in the paper are as follows:<BR>\r\n<LI>Timeline of study showing the data collection points for transcranial magnetic stimulation (TMS), functional MRI (fMRI), and functional\r\nmobility testing (FMT)\r\n<LI>Linearity of the transformed recruitment curves\r\n<LI>Linear model fits of the recruitment curves across measurement periods\r\n<LI>Means and standard errors of the log motor evoked potential (MEP) values across all study measurement periods\r\n<LI>Log motor evoked potentials (MEP) correlated with maze performance data\r\n<LI>Example of fMRI activation patterns\r\n<LI>fMRI percent signal change for single voxel with highest z value\r\n<LI>Map of estimated local displacements between scans displayed on the first timepoint scan\r\n<LI>Enlarged views of 1st and 2nd scans together with the estimated local volume change between the two, shown as a gray scale % change.\r\n<LI>Statistics showing the 8 subjects' volume change maps transformed to a common template"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "NSBRI20010036"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "ce0550ec-d721-55cc-9f4f-a3f06a563ac9",
+     "label": "NSBRI20010036__2340403140.pdf_Campaign_3_NSBRI20010036_2011_234_050809.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2025-06-06",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

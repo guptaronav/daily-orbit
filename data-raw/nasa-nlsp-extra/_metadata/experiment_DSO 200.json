@@ -1,0 +1,2279 @@
+{
+ "record": {
+  "id": "26e633cd-444d-5482-964a-651b423084cf",
+  "_id": "26e633cd-444d-5482-964a-651b423084cf",
+  "experiment_title": "Joint U.S./Russian Investigations: Radiobiological Effects",
+  "archive_status_index": 1,
+  "pub_document_number": "PUB001664",
+  "experiment_alias": [
+   "DSO 200B",
+   "DSO 200A"
+  ],
+  "parameter_html": "<table><tr><td>0-angular distribution</td></tr><tr><td>Absorbed dose</td></tr><tr><td>Altitude</td></tr><tr><td>Azimuth angle</td></tr><tr><td>Differential flux</td></tr><tr><td>Electron energy</td></tr><tr><td>Energy loss</td></tr><tr><td>Energy range</td></tr><tr><td>Grain density</td></tr><tr><td>Integral flux</td></tr><tr><td>Integral LET spectra, galactic</td></tr><tr><td>Integral LET spectra, trapped</td></tr><tr><td>Integral LET spectrum</td></tr><tr><td>Ionizing radiation</td></tr><tr><td>Isotropic distribution</td></tr><tr><td>Mass distribution</td></tr><tr><td>Neutron fluence</td></tr><tr><td>Nuclear emulsion</td></tr><tr><td>Particle trajectory</td></tr><tr><td>Polar angle</td></tr><tr><td>Polar angle distribution</td></tr><tr><td>Proton energy</td></tr><tr><td>Quality factor</td></tr><tr><td>Radiation shielding distributions</td></tr><tr><td>Radiation, calculated dose</td></tr><tr><td>Radiation, measured dose</td></tr><tr><td>Rigidity</td></tr><tr><td>Transmission probability</td></tr><tr><td>Radiation dose equivalent</td></tr><tr><td>Radiation dose rate</td></tr><tr><td>Energy in megaelectron-volts (E(MeV))</td></tr><tr><td>Galactic cosmic rays, dose</td></tr><tr><td>Linear energy transfer</td></tr><tr></tr></table>",
+  "__source_key": "cl62azy22cdi601o66ev756bg",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Petrov, Vladislav\">Principal Investigator: Petrov, Vladislav</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Badhwar, Gautam\">Principal Investigator: Badhwar, Gautam</a>",
+  "image_name": [
+   "EGG Data Collection",
+   "Electrogustogram (EGG) Placement",
+   "Oscillograph Monitor - front view",
+   "Passive Radiation Dosimeter Locations",
+   "STS-34 Crewmembers Conduct Experiment on Shuttle Middeck",
+   "Tissue Equivalent Proportional Counter"
+  ],
+  "experiment_type_lk": [
+   "Shuttle Detailed Supplementary Objectives (DSO)"
+  ],
+  "__record_modified_date": "2026-08-23T03:56:20.135060+00:00",
+  "__indexed": "2026-08-23T03:56:20.135060+00:00",
+  "alias": [
+   "DSO 200B",
+   "DSO 200A"
+  ],
+  "__record_creation_date": "2022-07-28T19:56:17.649Z",
+  "keyword": [
+   "Radiation",
+   "Radiation monitoring"
+  ],
+  "keyword_name": "Radiation monitoring",
+  "__record_size": 69370,
+  "__record_version": 29,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<br>\r\nDosimetry measurements are necessary for quantifying the exposure and risk received by crewmembers due to space flight exposure to ionizing radiation. Measurements throughout the crew compartment provide the data necessary to estimate exposure in the event of loss or damage of crew dosimeters and to validate and/or improve models used to calculate crew exposures. The purpose of this DSO is to compare the space flight dosimeter calibration techniques of the NASA Space Radiation Analysis Group (SRAG) and Russian Institute for Biomedical Problems (IBMP) to identify systematic errors between the two; correlate the independent, simultaneous space radiation exposure measurements and calculations made by the two space programs; and assess the radiobiological effects of high-charge, high-energy particles on actively metabolizing biological samples. \r\n<p>\r\nAPPROACH:<br>\r\nCrewmembers wore two crew passive dosimeters (CPDs), one U.S. and one Russian, for the duration of the flight. The 12 passive radiation dosimeters (PRDs) were affixed to the crew compartment at the six predefined locations preflight. The area passive dosimeters (APDs) remained in the locker for the duration of the flight. The Tissue Equivalent Proportional Counter (TEPC) was affixed to the port side of the middeck and powered on. The seed containers were affixed to the detector portion of the TEPC. The Active Autonomous Dosimeter (AAD) was affixed to the spectrometer portion of the TEPC. On the last flight day (FD), the TEPC was powered down and the locker stowed. The seed containers and the AAD were returned to the locker.\r\n<p>\r\nAll hardware was supplied by SRAG and the IBMP. The U.S. operational passive dosimeters are routinely affixed in the orbiter preflight using a velcro map. The Russian PRDs were affixed next to the U.S. passive dosimeters using the same velcro map. \r\n<p>\r\nThe operational control dosimeters were shipped to the Kennedy Space Center (KSC) with the flight hardware, but were not placed in the orbiter. The control dosimeters were returned to the Johnson Space Center (JSC) after the landing with the flight dosimeters.\r\n<p>\r\nRESULTS:<br>\r\nResults for this experiment are currently unavailable.",
+  "payload_id": "DSO60",
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "DSO 200",
+  "indexed": "2026-08-23T03:56:20.135060+00:00",
+  "experiment_related": [
+   "DTO 684",
+   "DSO 469"
+  ],
+  "GUID": "cl62azy22cdi601o66ev756bg",
+  "parameter_name": [
+   "0-angular distribution",
+   "Absorbed dose",
+   "Altitude",
+   "Azimuth angle",
+   "Differential flux",
+   "Electron energy",
+   "Energy loss",
+   "Energy range",
+   "Grain density",
+   "Integral flux",
+   "Integral LET spectra, galactic",
+   "Integral LET spectra, trapped",
+   "Integral LET spectrum",
+   "Ionizing radiation",
+   "Isotropic distribution",
+   "Mass distribution",
+   "Neutron fluence",
+   "Nuclear emulsion",
+   "Particle trajectory",
+   "Polar angle",
+   "Polar angle distribution",
+   "Proton energy",
+   "Quality factor",
+   "Radiation shielding distributions",
+   "Radiation, calculated dose",
+   "Radiation, measured dose",
+   "Rigidity",
+   "Transmission probability",
+   "Radiation dose equivalent",
+   "Radiation dose rate",
+   "Energy in megaelectron-volts (E(MeV))",
+   "Galactic cosmic rays, dose",
+   "Linear energy transfer"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 1467,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Radiation biology"
+  ],
+  "pme_role_with_name": [
+   "Principal Investigator: Badhwar, Gautam",
+   "Principal Investigator: Petrov, Vladislav"
+  ],
+  "missions": [
+   [
+    [
+     "STS-60"
+    ]
+   ],
+   [
+    [
+     "STS-63"
+    ]
+   ]
+  ],
+  "__dirid": "26e633cd-444d-5482-964a-651b423084cf",
+  "__record_size_wo_doccontent": 69370,
+  "PI": [
+   "Badhwar, Gautam",
+   "Petrov, Vladislav"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "DSO 200",
+   "DSO 200B",
+   "DSO 200A"
+  ],
+  "mission_id": [
+   [
+    [
+     "STS-60"
+    ]
+   ],
+   [
+    [
+     "STS-63"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "proposal_date": [],
+  "proposal_source": [],
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens)"
+   ]
+  ],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Badhwar, Gautam",
+   "Petrov, Vladislav"
+  ],
+  "archive_status": "Data preservation is complete. All datasets are publicly available.",
+  "__is_locked": false,
+  "Program": "Shuttle Program",
+  "__source_field_concat": "PUB001664 DSO60 cl62azy22cdi601o66ev756bg Radiation monitoring N/A Joint U.S./Russian Investigations: Radiobiological Effects DSO 200 Shuttle Program Data preservation is complete. All datasets are publicly available.",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<br>\r\nDosimetry measurements are necessary for quantifying the exposure and risk received by crewmembers due to space flight exposure to ionizing radiation. Measurements throughout the crew compartment provide the data necessary to estimate exposure in the event of loss or damage of crew dosimeters and to validate and/or improve models used to calculate crew exposures. The purpose of this DSO is to compare the space flight dosimeter calibration techniques of the NASA Space Radiation Analysis Group (SRAG) and Russian Institute for Biomedical Problems (IBMP) to identify systematic errors between the two; correlate the independent, simultaneous space radiation exposure measurements and calculations made by the two space programs; and assess the radiobiological effects of high-charge, high-energy particles on actively metabolizing biological samples. \r\n<p>\r\nAPPROACH:<br>\r\nCrewmembers wore two crew passive dosimeters (CPDs), one U.S. and one Russian, for the duration of the flight. The 12 passive radiation dosimeters (PRDs) were affixed to the crew compartment at the six predefined locations preflight. The area passive dosimeters (APDs) remained in the locker for the duration of the flight. The Tissue Equivalent Proportional Counter (TEPC) was affixed to the port side of the middeck and powered on. The seed containers were affixed to the detector portion of the TEPC. The Active Autonomous Dosimeter (AAD) was affixed to the spectrometer portion of the TEPC. On the last flight day (FD), the TEPC was powered down and the locker stowed. The seed containers and the AAD were returned to the locker.\r\n<p>\r\nAll hardware was supplied by SRAG and the IBMP. The U.S. operational passive dosimeters are routinely affixed in the orbiter preflight using a velcro map. The Russian PRDs were affixed next to the U.S. passive dosimeters using the same velcro map. \r\n<p>\r\nThe operational control dosimeters were shipped to the Kennedy Space Center (KSC) with the flight hardware, but were not placed in the orbiter. The control dosimeters were returned to the Johnson Space Center (JSC) after the landing with the flight dosimeters.\r\n<p>\r\nRESULTS:<br>\r\nResults for this experiment are currently unavailable.",
+  "__doi": "10.83263/7va5-xr20",
+  "__doi_record_creation_date": "2026-08-23T03:56:20",
+  "__doi_record_modified_date": "2026-08-23T03:56:20"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001817",
+   "label": "DSO 200__1820303112",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Experimental Proton Track for Plate I (Dloc 2)",
+    "dataset_catalog": "DSO 200__1820303112",
+    "dataset_description": [
+     "This graph depicts plots of the polar and azimuthal angles with proton energy for Plate 1 (Dloc 2) during the DSO 200 study. Within the statistical accuracy of measurements, there is no particular bias of the angular distribution as a function of proton energy.\r\n<p>\r\nSource: Badhwar GD, et al. In-flight radiation measurements on STS-60. 1996. Jan; 26(1):17-34."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 200"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "53d206e7-6b1d-5660-b8ed-39801b210180",
+     "label": "DSO_200__1820303112.TIF_STS-60_DSO_200_2011_182_030743.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000773",
+   "label": "DSO 200__1820535211",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Absorbed Dose Profile during the Descending Node",
+    "dataset_catalog": "DSO 200__1820535211",
+    "dataset_description": [
+     "This graph depicts the absorbed dose profile as a function of longitude for passes during the descending node.  To illustrate the flux enhancements, investigators produced dose-longitude plots for all passes through the SAA. As an example of passes that penetrate to the heart of the SAA, investigators used the sets YC and XE as shown in this graph.  To display the mass shielding distributions for the vehicle altitudes in each of the passes shown in the graph, investigators took the instant at which the flux peaked and determined the instantaneous orientation of the spacecraft in geographic coordinates.\r\n<p>\r\nSource: Badhwar GD, et al. In-flight radiation measurements on STS-60. 1996. Jan; 26(1):17-34."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 200"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "61902f36-0ac5-5227-9e92-b75ccfbabb4f",
+     "label": "DSO_200__1820535211.TIF_STS-60_DSO_200_2011_182_050710.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001369",
+   "label": "DSO 200__1820533387",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Absorbed Dose Profile during the Ascending Node",
+    "dataset_catalog": "DSO 200__1820533387",
+    "dataset_description": [
+     "This graph depicts the absorbed dose profile as a function of longitude for passes during the ascending node.  To illustrate the flux enhancements, investigators produced dose-longitude plots for all passes through the SAA. As an example of passes that penetrate to the heart of the SAA, investigators used the sets YC and XE as shown in this graph.  To display the mass shielding distributions for the vehicle altitudes in each of the passes shown in the graph, investigators took the instant at which the flux peaked and determined the instantaneous orientation of the spacecraft in geographic coordinates.\r\n<p>\r\nSource: Badhwar GD, et al. In-flight radiation measurements on STS-60. 1996. Jan; 26(1):17-34."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 200"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "81886ddc-c239-525b-ba79-61e14ac092de",
+     "label": "DSO_200__1820533387.TIF_STS-60_DSO_200_2011_182_050717.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000986",
+   "label": "DSO 200__182030984",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Experimental Proton Track Distributions for Plate 2 (MF28H Locker)",
+    "dataset_catalog": "DSO 200__182030984",
+    "dataset_description": [
+     "This graph depicts the polar and azimuthal angles with proton energy for Plate 2 (MF28H Locker) during the DSO 200 study. Within the statistical accuracy of measurements, there is no particular bias of the angular distribution as a function of proton energy.\r\n<p>\r\nSource: Badhwar GD, et al. In-flight radiation measurements on STS-60. 1996. Jan; 26(1):17-34."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 200"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "f5f5f1d2-007c-529a-8140-8c2e85644f69",
+     "label": "DSO_200__182030984.TIF_STS-60_DSO_200_2011_182_030726.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000821",
+   "label": "DSO 200__1820522797",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Absorbed Doses of Radiation Segments",
+    "dataset_catalog": "DSO 200__1820522797",
+    "dataset_description": [
+     "This graph depicts all segments of passes through the SAA that show an enhancement in the absorbed dose above the OCR background. The letter Y is used to label the descending passes while X refers to the ascending ones. There are over 30 points in the SAA where the trajectories intersect and hence at which the intensity and spectrum of the proton radiation incident upon the spacecraft should be the same for both ascending and descending trajectories. The extended Y trajectories with flux enhancements outside the SAA are caused by outer belt electrons.\r\n<p>\r\nSource: Badhwar GD, et al. In-flight radiation measurements on STS-60. 1996. Jan; 26(1):17-34."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 200"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "597bdbbb-5916-5315-9f34-a9e03a85c183",
+     "label": "DSO_200__1820522797.TIF_STS-60_DSO_200_2011_182_050728.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000772",
+   "label": "DSO 200__1820409186",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Integral LET Spectra",
+    "dataset_catalog": "DSO 200__1820409186",
+    "dataset_description": [
+     "This graph depicts a comparison of the combined (trapped plus galactic) integral LET spectra using various detectors. The data from TEPC, PNTDs, and IBMP CR-39 and CN-85 are also plotted for comparison.\r\n<p>\r\nSource: Badhwar GD, et al. In-flight radiation measurements on STS-60. 1996. Jan; 26(1):17-34."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 200"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "0dc1c58c-d597-5b1e-89a4-b6610d8ea95c",
+     "label": "DSO_200__1820409186.TIF_STS-60_DSO_200_2011_182_040707.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000359",
+   "label": "DSO 200__1750230421",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Comparison of Trapped (SAA) Dose Rate",
+    "dataset_catalog": "DSO 200__1750230421",
+    "dataset_description": [
+     "This graph depicts the comparison of trapped (SAA) dose rate from AADs and TEPC as a function of dose weighted altitude.  There are some rather subtle differences in the shapes of these spectra particularly above 20 keV/\u00b5m that may be related to the east-west effect that results in different shapes of the energy spectra from the two directions. In the past, the dose rate-altitude dependence has been studied at different times during the solar cycle. This flight, however, has provided a unique opportunity to study this dependence from a single flight.\r\n<p>\r\nSource: Badhwar GD, et al. Intercomparison of radiation measurements on STS-63. 1996. Nov;26(6):901-16."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 200"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "d5a18b29-22fc-57fc-b6f7-fd6057fd469c",
+     "label": "DSO_200__1750230421.tif_STS-63_DSO_200_2011_175_020656.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000484",
+   "label": "DSO 200__1820334858",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Experimental Angular Distributions of Proton Tracks in Plate 2 (MF28H Locker)",
+    "dataset_catalog": "DSO 200__1820334858",
+    "dataset_description": [
+     "This graph depicts polar angle and azimuthal angle distributions at Locker (MF28H). There is a significant difference in the angular distribution at the two locations that is most likely due to shielding differences. The shielding at the locker location is considerably higher than at the Dloc 2 location.\r\n<p>\r\nSource: Badhwar GD, et al. In-flight radiation measurements on STS-60. 1996. Jan; 26(1):17-34."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 200"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "2898dd8c-8ac3-5c13-bac5-81b7f4eb8d0f",
+     "label": "DSO_200__1820334858.TIF_STS-60_DSO_200_2011_182_030706.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000513",
+   "label": "DSO 200__1751236277",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Shielding Distribution Comparisons",
+    "dataset_catalog": "DSO 200__1751236277",
+    "dataset_description": [
+     "This graph depicts the shielding distributions for Dloc 2, Dloc 3, the AP01 locker, and Mir Station. The Shuttle shielding distributions for STS-63 are different compared with that in the STS-60 mission because of the presence of the Spacehab in the payload bay. The effect of the increased shielding at the Dloc 2 or Dloc 3 location is to decrease the trapped particle dose by about 10% compared with the empty payload configuration.\r\n<p>\r\nSource: Badhwar GD, et al. Intercomparison of radiation measurements on STS-63. 1996. Nov;26(6):901-16."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 200"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "907e9603-d008-555f-aa6c-7cb91bc55387",
+     "label": "DSO_200__1751236277.TIF_STS-7_DSO_200_2011_175_120653.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000517",
+   "label": "DSO 200__182100713",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Comparison of Absorbed Doses in Middeck",
+    "dataset_catalog": "DSO 200__182100713",
+    "dataset_description": [
+     "This table contains measured and calculated total absorbed doses at the six Dloc locations. The two sets of measurements are within 10% of each other, the largest difference arising at the Dloc 3 location. This difference is most likely caused by the U.S. and Russian PROs not being co-located on the same Velcro pad resulting in slightly different shielding distributions.\r\n<p>\r\nSource: Badhwar GD, et al. Intercomparison of radiation measurements on STS-63. 1996. Nov;26(6):901-16."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 200"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "d6bde202-5838-534b-85ed-b2114b07dd41",
+     "label": "DSO_200__182100713.xls_STS-63_DSO_200_2011_182_100755.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000668",
+   "label": "DSO 200__1820316896",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Experimental Angular Distributions of Proton Tracks in Plate I (Dloc 2)",
+    "dataset_catalog": "DSO 200__1820316896",
+    "dataset_description": [
+     "This graph depicts polar angle and azimuthal angle distributions at Dloc 2. There is a significant difference in the angular distribution at the two locations that is most likely due to shielding differences. The shielding at the locker location is considerably higher than at the Dloc 2 location.\r\n<p>\r\nSource: Badhwar GD, et al. In-flight radiation measurements on STS-60. 1996. Jan; 26(1):17-34."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 200"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "b4c5039a-fa39-5db0-9dd2-6842e572ebc6",
+     "label": "DSO_200__1820316896.TIF_STS-60_DSO_200_2011_182_030719.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000270",
+   "label": "DSO 200__1820158876",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Grain Density Versus Electron Energy",
+    "dataset_catalog": "DSO 200__1820158876",
+    "dataset_description": [
+     "This graph depicts the grain density versus electron energy for P-type and NT4 nuclear emulsions.  The grain density-proton energy relation was calculated from this relationship on the assumption that grain density depends purely on the velocity and charge of the particle.\r\n<p>\r\nSource: Badhwar GD, et al. In-flight radiation measurements on STS-60. 1996. Jan; 26(1):17-34."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 200"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "3b5dda7b-d0bf-5adf-b1f9-1b2bf72d7854",
+     "label": "DSO_200__1820158876.tif_STS-60_DSO_200_2011_182_020750.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000820",
+   "label": "DSO 200__1820351639",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Histogram 3",
+    "dataset_catalog": "DSO 200__1820351639",
+    "dataset_description": [
+     "This is a histogram of the 0-angular distribution for Plate 2. The dotted line is the isotropic distribution.\r\n<p>\r\nSource: Badhwar GD, et al. In-flight radiation measurements on STS-60. 1996. Jan; 26(1):17-34."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 200"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "2a8b7c8d-8e97-501e-a0dd-123bc19e3162",
+     "label": "DSO_200__182034639.TIF_STS-60_DSO_200_2011_182_030728.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001028",
+   "label": "DSO 200__1820429222",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Comparison of the Trapped Proton Energy Spectra",
+    "dataset_catalog": "DSO 200__1820429222",
+    "dataset_description": [
+     "This graph depicts a comparison of the trapped proton energy spectra derived using TEPC LET measurements, nuclear emulsions, and model calculations. There is a good agreement between the shapes of the model spectrum and TEPC inverted spectrum from about 40 to 400 MeV. These results indicate the potential of a deconvolution technique to estimate the energy spectrum in the region of the SAA.\r\n<p>\r\nSource: Badhwar GD, et al. In-flight radiation measurements on STS-60. 1996. Jan; 26(1):17-34."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 200"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "929107c2-d450-5da9-bd02-bc8fbbc734dc",
+     "label": "DSO_200__1820429222.TIF_STS-60_DSO_200_2011_182_040748.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000098",
+   "label": "DSO 200__1820357180",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Histogram 4",
+    "dataset_catalog": "DSO 200__1820357180",
+    "dataset_description": [
+     "This is a histogram of the 0-angular distribution for Plate 2. The dotted line is the isotropic distribution.\r\n<p>\r\nSource: Badhwar GD, et al. In-flight radiation measurements on STS-60. 1996. Jan; 26(1):17-34."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 200"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "61d04ba8-2a79-53fc-8724-0fedf62fe0f7",
+     "label": "DSO_200__1820357180.TIF_STS-60_DSO_200_2011_182_040706.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000100",
+   "label": "DSO 200__1820551439",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Integral LET Spectrum",
+    "dataset_catalog": "DSO 200__1820551439",
+    "dataset_description": [
+     "This table contains combined LET spectrum data from PNTDs and emulsions.  Values include LET keV/\u00b5m and integral flux. \r\n<p>\r\nSource: Badhwar GD, et al. Intercomparison of radiation measurements on STS-63. 1996. Nov;26(6):901-16."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 200"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "0d07f6b3-a0de-580a-93fa-b8f151de2f60",
+     "label": "DSO_200__1820551439.xls_STS-61_DSO_200_2011_182_050702.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001443",
+   "label": "DSO 200__1820221527",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Grain Density Versus Proton Energy",
+    "dataset_catalog": "DSO 200__1820221527",
+    "dataset_description": [
+     "This graph depicts the grain density versus proton energy.  The grain density-proton energy relation was calculated from this relationship on the assumption that grain density depends purely on the velocity and charge of the particle. This relationship is shown in this graph.\r\n<p>\r\nSource: Badhwar GD, et al. In-flight radiation measurements on STS-60. 1996. Jan; 26(1):17-34."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 200"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "cf8216cf-0e57-5cc7-baec-929bcb864be6",
+     "label": "DSO_200__1820221527.TIF_STS-60_DSO_200_2011_182_020732.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000823",
+   "label": "DSO 200__182090172",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Geomagnetic Transmission Probability as a Function of Rigidity",
+    "dataset_catalog": "DSO 200__182090172",
+    "dataset_description": [
+     "This graph depicts the geomagnetic transmission probability as a function of rigidity. The Nymmik correction factor was successively applied in the GEOMAG3 subroutine of the CREME code. The transmission functions using this modification for a 51.65' x 400 km orbit are shown in this graph for various values of K for an omnidirectional detector, such as the TEPC. The results of the Tsyganenko + IGRF 1985 model for the same orbit are shown as a dashed line.  The agreement between the two calculations is quite good.\r\n<p>\r\nSource: Badhwar GD, et al. Intercomparison of radiation measurements on STS-63. 1996. Nov;26(6):901-16."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 200"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "2a585830-3545-5db0-bc65-4a45f92cc5ad",
+     "label": "DSO_200__182090172.TIF_STS-63_DSO_200_2011_182_090700.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002417",
+   "label": "DSO 200__1820920158",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Track Etch Rates",
+    "dataset_catalog": "DSO 200__1820920158",
+    "dataset_description": [
+     "This is a plot of the ratio of the track etch rate to the bulk etch rate as a function of energy loss for CR-39 and CN-85 using <sup>238</sup>Pu ?-particles. Lines are power law fits.\r\n<p>\r\nSource: Badhwar GD, et al. In-flight radiation measurements on STS-60. 1996. Jan; 26(1):17-34."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 200"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "080273bc-934a-5378-8113-9ec3e6ab1bc1",
+     "label": "DSO_200__1820920158.TIF_STS-60_DSO_200_2011_182_090718.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000272",
+   "label": "DSO 200__182033753",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Histogram 1",
+    "dataset_catalog": "DSO 200__182033753",
+    "dataset_description": [
+     "This is a histogram of the 0-angular distribution for Plate I. Dotted lines are an approximation of this distribution to a function of the form cos 0 and isotropic distribution of the form cos 0. COSIO (0) represents a reasonable approximation to the polar angle distribution function.\r\n<p>\r\nSource: Badhwar GD, et al. In-flight radiation measurements on STS-60. 1996. Jan; 26(1):17-34."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 200"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "b987016d-9fd0-54b7-8676-a515c5076c8b",
+     "label": "DSO_200__182033753.TIF_STS-60_DSO_200_2011_182_030703.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000104",
+   "label": "DSO 200__1821001543",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Absorbed Doses at Dloc Locations by Passive Dosimeters",
+    "dataset_catalog": "DSO 200__1821001543",
+    "dataset_description": [
+     "This table shows the measured absorbed doses from the <sup>7</sup>LiF mono crystals (TLDs) obtained at the same Dloc location in the Shuttle.  The Russian hardware from the flight were returned to lBMP for processing. The measured doses are in excellent agreement, the root mean square error is 5.7% and the maximum difference is less than 10%.\r\n<p>\r\nSource: Badhwar GD, et al. In-flight radiation measurements on STS-60. 1996. Jan; 26(1):17-34."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 200"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "a643486d-9fc3-5e7f-9f02-092c5ba8073f",
+     "label": "DSO_200__1821001543.xls_STS-60_DSO_200_2011_182_100702.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000774",
+   "label": "DSO 200__1821024615",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Crew Absorbed Doses from Passive Dosimeters",
+    "dataset_catalog": "DSO 200__1821024615",
+    "dataset_description": [
+     "This table shows a comparison of absorbed doses from TLD passive dosimeters. Each crewmember wore one U.S. and one Russian passive dosimeter. There is very good overall agreement between the two sets of measurements. However, the remaining differences between measurements of about 7% may be due to the crewmembers storing their dosimeters in different locations.\r\n<p>\r\nSource: Badhwar GD, et al. In-flight radiation measurements on STS-60. 1996. Jan; 26(1):17-34."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 200"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "2eae87a9-4c30-522e-ac8b-8a088bddf4ab",
+     "label": "DSO_200__1821024615.xls_STS-60_DSO_200_2011_182_100723.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001026",
+   "label": "DSO 200__1820232337",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Geometrical Representation of Emulsion Measurement",
+    "dataset_catalog": "DSO 200__1820232337",
+    "dataset_description": [
+     "This graph shows the geometry of the track and the definition of measured angles. The polar angle is the angle between the particle trajectory and its projection on the emulsion surface and the azimuthal angle. The azimuthal angle is the direction of the track projection in the plane of the emulsion surface. The angle was measured relative to a coordinate system axis chosen to be parallel to an emulsion edge for convenience.\r\n<p>\r\nSource: Badhwar GD, et al. In-flight radiation measurements on STS-60. 1996. Jan; 26(1):17-34."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 200"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "36275243-473e-5f8d-8b53-f851c2625351",
+     "label": "DSO_200__1820232337.TIF_STS-60_DSO_200_2011_182_030723.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000097",
+   "label": "DSO 200__182034639",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Histogram 2",
+    "dataset_catalog": "DSO 200__182034639",
+    "dataset_description": [
+     "This is a histogram of the 0-angular distribution for Plate I. The dotted line is the isotropic distribution.\r\n<p>\r\nSource: Badhwar GD, et al. In-flight radiation measurements on STS-60. 1996. Jan; 26(1):17-34."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 200"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "fbb0f6ea-776a-5d0c-98c9-cc497be373a1",
+     "label": "DSO_200__182034639.TIF_STS-60_DSO_200_2011_182_030730.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001491",
+   "label": "DSO 200__182054548",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Average Astronaut Doses as a Function of Time",
+    "dataset_catalog": "DSO 200__182054548",
+    "dataset_description": [
+     "This is a plot of the average crew exposure as a function of time of Shuttle launch. The flight parameters of subsequent Shuttle flights have varied in inclination from 28.5 to 62\u00b0 and altitude from 220 to 615 km.\r\n<p>\r\nSource: Badhwar GD. Radiation measurements in low Earth orbit: U.S. and Russian results. Health Physics. 2000. Nov; 79(5):507-14."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 200"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "aaf8fea6-fd90-533b-be9c-22466199f097",
+     "label": "DSO_200__182054548.TIF_STS-60_DSO_200_2011_182_050702.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000099",
+   "label": "DSO 200__1820538216",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Contour Plot of Shuttle Mass Distribution at Dloc 2",
+    "dataset_catalog": "DSO 200__1820538216",
+    "dataset_description": [
+     "This graph depicts the spacecraft mass distribution seen from the position of the TEPC at Dloc 2. The x-axis is pointed toward the tail of the spacecraft, the y-axis parallel to the starboard wing, while the z-axis is pointed upwards from the payload bay.\r\n<p>\r\nSource: Badhwar GD, et al. In-flight radiation measurements on STS-60. 1996. Jan; 26(1):17-34."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 200"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "68f6c474-156a-5ff0-a1d5-d8e0dd9f00a6",
+     "label": "DSO_200__1820538216.TIF_STS-60_DSO_200_2011_182_050703.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001838",
+   "label": "DSO 200__1820227708",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Grain Density Versus Energy Loss",
+    "dataset_catalog": "DSO 200__1820227708",
+    "dataset_description": [
+     "This graph depicts the grain density versus proton energy. The grain density-proton energy relation was calculated from this relationship on the assumption that grain density depends purely on the velocity and charge of the particle. This relationship is shown in electrons in this graph.\r\n<p>\r\nSource: Badhwar GD, et al. In-flight radiation measurements on STS-60. 1996. Jan; 26(1):17-34."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 200"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "65a11146-a2ef-5745-a8ce-9ff7538ec94b",
+     "label": "DSO_200__1820227708.TIF_STS-60_DSO_200_2011_182_020755.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002265",
+   "label": "DSO 200__1820401526",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Histogram 5",
+    "dataset_catalog": "DSO 200__1820401526",
+    "dataset_description": [
+     "This is a histogram of the differential energy spectrum of trapped particles derived from the Plate I nuclear emulsion. This can be converted into an LET spectrum.\r\n<p>\r\nSource: Badhwar GD, et al. In-flight radiation measurements on STS-60. 1996. Jan; 26(1):17-34."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 200"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "b12aad26-26f7-5a67-8b81-0bc9d47e8bba",
+     "label": "DSO_200__1820401526.TIF_STS-60_DSO_200_2011_182_040712.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000012",
+   "label": "DSO 200__1820148361",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Dloc 2 Dose Rates",
+    "dataset_catalog": "DSO 200__1820148361",
+    "dataset_description": [
+     "This is a table of Dloc 2 dose rate, dose equivalent rate, and quality factors from TEPC data during the DSO 200 study. \r\n<p>\r\nSource: Badhwar GD, et al. In-flight radiation measurements on STS-60. 1996. Jan; 26(1):17-34."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 200"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "cc24b610-830b-5598-b65e-641f312241f6",
+     "label": "DSO_200__1820148361.xls_STS-60_DSO_200_2011_182_010737.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000103",
+   "label": "DSO 200__1820647187",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Estimated ISS Dose Rates as a Function of Altitude during Solar Minimum",
+    "dataset_catalog": "DSO 200__1820647187",
+    "dataset_description": [
+     "The investigators used the measured quality factors of trapped and GCR particles in the core module to calculate the dose equivalent rate with altitude. The BFO dose and dose equivalent rates were calculated so that they were consistent with skin dose rate calculation. These are given in this graph. \r\n<p>\r\nSource: Badhwar GD. Radiation measurements in low Earth orbit: U.S. and Russian results. Health Physics. 2000. Nov; 79(5):507-14."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 200"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "2d81d39c-eee5-507a-887e-18f02a28e881",
+     "label": "DSO_200__1820647187.TIF_STS-63_DSO_200_2011_182_060752.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000360",
+   "label": "DSO 200__1750241117",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Comparison of Trapped Particle LET Spectra",
+    "dataset_catalog": "DSO 200__1750241117",
+    "dataset_description": [
+     "This graph depicts the trapped LET spectra from STS-63 at the Mir orbital station altitude, Mir space station, and STS-60 at lower altitude (57 degree inclination). The STS-60 fluxes are lower compared with the other two flights, as expected. If the investigators were to normalize the Mir and STS-63 fluxes, the shapes of the two spectra are nearly identical up to about 40 keV/\u00b5m. Thus, differences between the STS-63 and Mir fluxes (factor of 1.32) arise primarily because of the differences in the shielding distribution of the two spacecraft.\r\n<p>\r\nSource: Badhwar GD, et al. Intercomparison of radiation measurements on STS-63. 1996. Nov;26(6):901-16."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 200"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "3af0d14b-d322-582b-9534-2c395235d1fa",
+     "label": "DSO_200__1750241117.TIF_STS-63_DSO_200_2011_175_020621.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000363",
+   "label": "DSO 200__1820700783",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "NASA-Mir Dose and Dose Equivalent Rates as Measured by TEPC",
+    "dataset_catalog": "DSO 200__1820700783",
+    "dataset_description": [
+     "This chart summarizes some of the measurements between the spectra arise due to shielding differences and to the east-west asymmetry of particle.  As seen in this chart, the quality factor was the highest in the core module. It should be noted that it is unlikely that the International Space Station (ISS) will be operated at 470 km during solar minimum, a situation more likely to occur during solar maximum.\r\n<p>\r\nSource: Badhwar GD. Radiation measurements in low Earth orbit: U.S. and Russian results. Health Physics. 2000. Nov; 79(5):507-14."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 200"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "9be2b9ab-6fe2-527a-adbd-2394de4dabd8",
+     "label": "DSO_200__1820700783.xls_Mir_23_DSO_200_2011_182_070708.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000516",
+   "label": "DSO 200__1820631498",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Integral LET Spectra from Various Mir Modules",
+    "dataset_catalog": "DSO 200__1820631498",
+    "dataset_description": [
+     "This graph shows the integral LET spectra of trapped particles in various modules of the Mir station.\r\nThe differences between the spectra arise due to shielding differences and to the east-west asymmetry of particle fluxes.\r\n<p>\r\nSource: Badhwar GD. Radiation measurements in low Earth orbit: U.S. and Russian results. Health Physics. 2000. Nov; 79 (5):507-14."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 200"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "4dc6e537-5f47-5769-8175-2d3c2aefd614",
+     "label": "DSO_200__1820631498.TIF_STS-63_DSO_200_2011_182_060755.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000101",
+   "label": "DSO 200__1820602649",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Trapped Dose Rate as a Function of Atmospheric Density",
+    "dataset_catalog": "DSO 200__1820602649",
+    "dataset_description": [
+     "In order to better understand the dose rate data, the trapped particle dose rate at the six fixed locations (middeck and flight deck) from 28.5\u00b0 inclination flights as a function of the atmospheric density is plotted in this graph. The density incorporates the variation of altitude and solar heating due to changing solar UV output. The minimum energy required to reach the dosimeter is given alongside as is the index of a power law fit to the density.\r\n<p>\r\nSource: Badhwar GD. Radiation measurements in low Earth orbit: U.S. and Russian results. Health Physics. 2000. Nov; 79(5):507-14."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 200"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "265923f5-6d29-58b4-b7f0-916a18fb5b68",
+     "label": "DSO_200__1820602649.TIF_STS-28_DSO_200_2011_182_060741.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000102",
+   "label": "DSO 200__1820628294",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Plot of Trapped Dose Rate as a Function of Atmospheric Density",
+    "dataset_catalog": "DSO 200__1820628294",
+    "dataset_description": [
+     "This is a plot of the trapped dose rates as derived from the R-16 measurements, U.S. TEPC in the Spektr module, and the ESA Radiation Environment Monitor (REM), which is mounted on the outside of the Base Block, with atmospheric density.\r\n<p>\r\nSource: Badhwar GD. Radiation measurements in low Earth orbit: U.S. and Russian results. Health Physics. 2000. Nov; 79(5):507-14."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 200"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "a3744165-a464-5628-ae6f-c51b8beff840",
+     "label": "DSO_200__1820628294.TIF_STS-63_DSO_200_2011_182_060751.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000095",
+   "label": "DSO 200__175025372",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Integral GCR LET Spectrum",
+    "dataset_catalog": "DSO 200__175025372",
+    "dataset_description": [
+     "This graph depicts the GCR AP01 locker LET spectra. The solid line is the model calculation based on the GCR model of Badhwar and O'Neill using the deceleration potential of 605 MV derived from the Climax neutron monitor rate for the period of this flight and the modified HZETRN radiation transport code.\r\n<p>\r\nSource: Badhwar GD, et al. Intercomparison of radiation measurements on STS-63. 1996. Nov;26(6):901-16."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 200"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "b32e2991-b93d-514d-b4f5-5b9e6cb198cb",
+     "label": "DSO_200__175025372.TIF_STS-63_DSO_200_2011_182_070729.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000769",
+   "label": "DSO 200__175022625",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Integrated Dose Rate",
+    "dataset_catalog": "DSO 200__175022625",
+    "dataset_description": [
+     "This graph depicts the integrated dose rate as a function of the South Atlantic Anomaly (SAA) dose weighted altitude during STS-63 for the DSO 200 study. The dose rate behavior of this omnidirectional detector, except for the scale, is rather similar to that of the starboard AAD. \r\n<p>\r\nSource: Badhwar GD, et al. Intercomparison of radiation measurements on STS-63. 1996."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 200"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "be63d3bd-8946-5fdf-ae03-32b246d1e187",
+     "label": "DSO_200__175022625.TIF_STS-63_DSO_200_2011_175_020638.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000362",
+   "label": "DSO 200__1820655107",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Average Cosmonaut Absorbed Dose and Dose Rates On Board the Mir Station",
+    "dataset_catalog": "DSO 200__1820655107",
+    "dataset_description": [
+     "This chart contains the average (Commander and Flight Engineer) cosmonaut radiation exposure for various Mir missions starting with the first mission on March 13, 1986. Other information pertinent to each mission is also given. The highest exposure of 8.70 \u00b5Gy was seen during the Mir-22 mission. The following points about these data should be noted: (1) due to differences in the spacecraft shielding, one crew member gets about a factor two higher dose than the other; (2) TLDs have low efficiency for high LET particles and do not detect neutrons. Correcting for this loss would increase the total dose by about a factor of 1.25; (3) these rates are representatives of the dose rate in the Core Module (Base Block) of the Mir station, and other modules, such as the Kvant, have higher dose rates; and (4) there is an altitude variation of up to 30 km between the missions that significantly impacts the dose from the SAA.\r\n<p>\r\nSource: Badhwar GD. Radiation measurements in low Earth orbit: U.S. and Russian results. Health Physics. 2000. Nov; 79(5):507-14."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 200"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "3f467d6c-7074-5369-bfb8-ac684eeb085c",
+     "label": "DSO_200__1820655107.xls_Mir_23_DSO_200_2011_182_070731.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000361",
+   "label": "DSO 200__1820609903",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Differential Neutron Energy Spectra from 28.5\u00b0 Inclination Flights",
+    "dataset_catalog": "DSO 200__1820609903",
+    "dataset_description": [
+     "This graph shows the differential neutron energy spectra from four Shuttle flights. These spectra are converted into dose rates and dose equivalent rates and are given in Table 1 of the referenced publication.\r\n<p>\r\nSource: Badhwar GD. Radiation measurements in low Earth orbit: U.S. and Russian results. Health Physics. 2000. Nov; 79(5):507-14."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 200"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "25d220aa-055e-5bcd-9665-28fbf5089a28",
+     "label": "DSO_200__1820609903.TIF_STS-28_DSO_200_2011_182_060729.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000822",
+   "label": "DSO 200__1820625980",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Estimated GCR Dose Rate as a Function of Time",
+    "dataset_catalog": "DSO 200__1820625980",
+    "dataset_description": [
+     "The estimated GCR dose rate as a function of time is plotted in this graph. The dose rate in the Base Block varies from a low of 40 \u00b5Gy d<sup>-1</sup> (solar maximum) and a high of 145 \u00b5Gy d<sup>-1</sup> (solar minimum). These rates are weakly dependent upon the station module shielding distribution. The uncertainty on this dose rate is estimated to be \u00b1 15%.\r\n<p>\r\nSource: Badhwar GD. Radiation measurements in low Earth orbit: U.S. and Russian results. Health Physics. 2000. Nov; 79(5):507-14."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 200"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "dccc015d-8035-5a1c-9c0e-4f58909e6bbd",
+     "label": "DSO_200__1820625980.TIF_STS-57_DSO_200_2011_182_060745.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000273",
+   "label": "DSO 200__1820634802",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Integral LET Spectra from Passive Detectors",
+    "dataset_catalog": "DSO 200__1820634802",
+    "dataset_description": [
+     "This graph depicts data from the integral linear energy transfer (LET) spectra from passive detectors in the Spacehab locker.  Values include integral flux and LET.\r\n<p>\r\nSource: Badhwar GD, et al. Intercomparison of radiation measurements on STS-63. 1996. Nov;26(6):901-16."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 200"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "a90b21c3-a57a-528c-8f8e-9e1fa477d41c",
+     "label": "DSO_200__1820634802.TIF_STS-63_DSO_200_2011_182_060730.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000485",
+   "label": "DSO 200__1820606987",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Dose Rate as a Function of Mission Elapsed Time",
+    "dataset_catalog": "DSO 200__1820606987",
+    "dataset_description": [
+     "This graph (lower panel) shows a plot of dose rate as a function of mission elapsed time. The dose rate changed from about 6 \u00b5Gy min<sup>-1</sup> for the first two days to about 2 \u00b5Gy min<sup>-1</sup> for the following two days and then returned to 6 \u00b5Gy d<sup>-1</sup>.  In the upper panel is a plot of the angle between the local magnetic field direction and the z body axis of the Shuttle. The correlation between the Shuttle altitude and dose rate is obvious. There is a factor of 2.7 between the dose rates from the two directions.\r\n<p>\r\nSource: Badhwar GD. Radiation measurements in low Earth orbit: U.S. and Russian results. Health Physics. 2000. Nov; 79(5):507-14."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 200"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "5281411e-14bc-58be-a34a-f3feab6efb0f",
+     "label": "DSO_200__1820606987.TIF_STS-28_DSO_200_2011_182_060754.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001295",
+   "label": "DSO 200__1820414805",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Comparison of Trapped Particles Integral LET Spectra",
+    "dataset_catalog": "DSO 200__1820414805",
+    "dataset_description": [
+     "This graph depicts a comparison of the trapped particles integral LET spectra measured using nuclear emulsions and TEPC and their comparison with the AP8 model calculations.  The orbit-averaged incident energy spectrum of the AP8 model was propagated through the Shuttle mass shielding distribution for a point detector at this location to obtain the transmitted spectrum. There is quite reasonable agreement between the shapes of the calculated and measured spectra.\r\n<p>\r\nSource: Badhwar GD, et al. In-flight radiation measurements on STS-60. 1996. Jan; 26(1):17-34."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 200"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "53a4f386-1a37-5846-8174-1d44c8f53c92",
+     "label": "DSO_200__1820414805.TIF_STS-60_DSO_200_2011_182_040758.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001296",
+   "label": "DSO 200__1820432548",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Comparison of OCR Integral LET Spectrum",
+    "dataset_catalog": "DSO 200__1820432548",
+    "dataset_description": [
+     "This graph is a comparison of OCR integral LET spectrum measured by TEPC and its comparison to the model calculations. There is a fairly good agreement between the model calculations and observations except at low LET values.\r\n<p>\r\nSource: Badhwar GD, et al. In-flight radiation measurements on STS-60. 1996. Jan; 26(1):17-34."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 200"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "90287ce3-d200-5067-958d-33d23699546f",
+     "label": "DSO_200__1820432548.TIF_STS-60_DSO_200_2011_182_040730.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000989",
+   "label": "DSO 200__1820707491",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Dose Rate Starboard Side",
+    "dataset_catalog": "DSO 200__1820707491",
+    "dataset_description": [
+     "This graph depicts the dose rate measured by starboard side AAD as a function of mission elapsed time (MET) in minutes during STS-63 for the DSO 200 study.\r\n<p>\r\nSource: Badhwar GD, et al. Intercomparison of radiation measurements on STS-63. 1996. Nov;26(6):901-16."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 200"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "541e2119-9d00-56f9-a144-6f5b942ffd73",
+     "label": "DSO_200__1820707491.TIF_STS-63_DSO_200_2011_182_070758.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001030",
+   "label": "DSO 200__1820709484",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Dose Rate Port Side",
+    "dataset_catalog": "DSO 200__1820709484",
+    "dataset_description": [
+     "This graph depicts the dose rate measured by port side AAD as a function of mission elapsed time (MET) in minutes during STS-63 for the DSO 200 study.\r\n<p>\r\nSource: Badhwar GD, et al. Intercomparison of radiation measurements on STS-63. 1996. Nov;26(6):901-16."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 200"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "e9abdca2-7bd5-54df-88f4-a9da2e11a500",
+     "label": "DSO_200__1820709484.TIF_STS-63_DSO_200_2011_182_070739.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000988",
+   "label": "DSO 200__1820640589",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Dose Rate Contour Plot of the SEP event of November 6-8, 1997",
+    "dataset_catalog": "DSO 200__1820640589",
+    "dataset_description": [
+     "The solar particles are easily separable from both the GCR and trapped particles. The total additional dose and dose equivalent from the SEP was 0.156 mGy and 0.33 mSv respectively. This graph depicts a dose rate contour from this event and indicates that most of these particles were seen near the geomagnetic polar region, as expected; however, particles were seen down to 30\u00b0 latitude, indicating that the event had GeV range particles. \r\n<p>\r\nSource: Badhwar GD. Radiation measurements in low Earth orbit: U.S. and Russian results. Health Physics. 2000. Nov; 79(5):507-14."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 200"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "6c5d469f-3b3b-568e-b4bf-707e86a9eb1f",
+     "label": "DSO_200__1820640589.TIF_STS-63_DSO_200_2011_182_060731.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000987",
+   "label": "DSO 200__1820637165",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Dose Rate versus Time from November 6-8, 1998",
+    "dataset_catalog": "DSO 200__1820637165",
+    "dataset_description": [
+     "The first event from the current 23rd cycle was observed during 6\u20138 November 1997 by the U.S. TEPC in the Priroda module on the Mir station. This is a plot of dose rate with time.\r\n<p>\r\nSource: Badhwar GD. Radiation measurements in low Earth orbit: U.S. and Russian results. Health Physics. 2000. Nov; 79(5):507-14."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 200"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "1d4391f1-40ed-5a0a-9980-b7b9e19ae087",
+     "label": "DSO_200__1820637165.TIF_STS-63_DSO_200_2011_182_060736.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001029",
+   "label": "DSO 200__1820650481",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Neutron Dose and Dose Equivalent Rates in the Shuttle Middeck Locker",
+    "dataset_catalog": "DSO 200__1820650481",
+    "dataset_description": [
+     "This chart contains the differential neutron energy spectra from four Shuttle flights (STS-55, STS-57, STS-65 and STS-94), which were converted into dose rates and dose equivalent rates.  Although the contribution to dose rate is small, the contribution to dose equivalent rate varied from 14\u201360% of the charged particle dose rate. If one adds the contribution of neutrons above 12 MeV, this would increase by another 15\u201325%, a significant component for long duration flights. Note that the average quality factor is 8\u20139.\r\n<p>\r\nSource: Badhwar GD. Radiation measurements in low Earth orbit: U.S. and Russian results. Health Physics. 2000. Nov; 79(5):507-14."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 200"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "d8f33592-2458-51f9-9b94-7cf31456a90a",
+     "label": "DSO_200__1820650481.xls_STS-57_DSO_200_2011_182_060738.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001492",
+   "label": "DSO 200__1820612218",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Average Cosmonaut Dose Rate as a Function of the Mission Launch Date",
+    "dataset_catalog": "DSO 200__1820612218",
+    "dataset_description": [
+     "This is a plot of the dose rate as a function of time. It ranges from 182 to 397 \u00b5Gyd<sup>-1</sup>.\r\n<p>\r\nSource: Badhwar GD. Radiation measurements in low Earth orbit: U.S. and Russian results. Health Physics. 2000. Nov; 79(5):507-14."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 200"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "17595841-a439-5e92-a2e3-4443b6e8b33a",
+     "label": "DSO_200__1820612218.TIF_STS-60_DSO_200_2011_182_060748.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001446",
+   "label": "DSO 200__1820711546",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Integrated Dose Rates and Altitude",
+    "dataset_catalog": "DSO 200__1820711546",
+    "dataset_description": [
+     "This graph depicts the ratio of the integrated dose rates as a function of the altitude. The ratio decreases from 2.8 to 1 and then reaches values of 1.5 to 1.6. The actual shape of the curve may also reflect the sampling statistics of the short period at each orbital altitude.\r\n<p>\r\nSource: Badhwar GD, et al. Intercomparison of radiation measurements on STS-63. 1996. Nov;26(6):901-16."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 200"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "ff6be301-0253-5024-a054-169d8bf1ab7b",
+     "label": "DSO_200__1820711546.TIF_STS-63_DSO_200_2011_182_070732.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001490",
+   "label": "DSO 200__1820519582",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "TEPC Measured Dose Rate as a Function of Longitude",
+    "dataset_catalog": "DSO 200__1820519582",
+    "dataset_description": [
+     "This is a plot of the TEPC measured dose rate (averaged over latitude) as a function of longitude in the SAA region and its comparison with model calculations.  The longitude profile averaged over latitude from 10 to 50\u00b0 S from TEPC and AP8 model, which are also  plotted in the graph. The measured peak was shifted from the calculated peak westward by 6.4 \u00b1 0.89\u00b0. This shift is slightly smaller than the 6.9 \u00b1 0.82\u00b0 measured on STS-31, which was in a 28.5\u00b0 x 617 km altitude orbit.\r\n<p>\r\nSource: Badhwar GD, et al. In-flight radiation measurements on STS-60. 1996. Jan; 26(1):17-34."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 200"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "336a921f-1588-5282-b79e-a1764bba1e7e",
+     "label": "DSO_200__1820519582.TIF_STS-60_DSO_200_2011_182_050722.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001444",
+   "label": "DSO 200__1820435673",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Comparison of GCR Differential LET Spectrum",
+    "dataset_catalog": "DSO 200__1820435673",
+    "dataset_description": [
+     "This graph is a comparison of GCR differential LET spectrum and its comparison with model calculations. There is a fairly good agreement between the model calculations and observations except at low LET values.\r\n<p>\r\nSource: Badhwar GD, et al. In-flight radiation measurements on STS-60. 1996. Jan; 26(1):17-34."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 200"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "b91c8874-6bb6-5878-b728-9f57e7722714",
+     "label": "DSO_200__1820435673.TIF_STS-60_DSO_200_2011_182_050715.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001493",
+   "label": "DSO 200__1821028861",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Low-Energy Neutron Fluence",
+    "dataset_catalog": "DSO 200__1821028861",
+    "dataset_description": [
+     "This table shows low-energy neutron fluence and dose equivalent from area passive detectors in middeck locker (MF28H). The average dose equivalent from neutrons of energy less than 1 MeV is 2.53 \u00b1 1.33 \u00b5Sv/day.\r\n<p>\r\nSource: Badhwar GD, et al. In-flight radiation measurements on STS-60. 1996. Jan; 26(1):17-34."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 200"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "2d077c8e-d08d-5e0b-b5ee-34c8aa5cbe1c",
+     "label": "DSO_200__1821028861.xls_STS-60_DSO_200_2011_182_010728.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001445",
+   "label": "DSO 200__182055832",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Average Astronaut Dose Rate as a Function of Altitude",
+    "dataset_catalog": "DSO 200__182055832",
+    "dataset_description": [
+     "The average astronaut dose rate as a function of flight altitude for 28.5\u00b0 and 57\u00b0 inclination flights is plotted in this graph.  Except for STS-28 that had a slight solar particle event (SPE) contribution, the dose comes from GCR and SAA particles. At low altitudes, the dose is dominated by GCR and at high altitudes by SAA particles. At about 400 km and solar minimum, the two contributions to the dose are roughly equal.\r\n<p>\r\nSource: Badhwar GD. Radiation measurements in low Earth orbit: U.S. and Russian results. Health Physics. 2000. Nov; 79(5):507-14."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 200"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "bbcf1758-0229-595d-99ee-ec20b6da3c29",
+     "label": "DSO_200__182055832.TIF_STS-28_DSO_200_2011_182_060714.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001442",
+   "label": "DSO 200__17512599",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "TEPC Dose",
+    "dataset_catalog": "DSO 200__17512599",
+    "dataset_description": [
+     "This graph depicts the  measured absorbed dose rate and flight altitude as a function of mission elapsed time (MET). There were five clearly separated times during which the Shuttle flew at nearly constant, but increasing, altitude.\r\n<p>\r\nSource: Badhwar GD, et al. Intercomparison of radiation measurements on STS-63. 1996. Nov;26(6):901-16."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 200"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "3282f318-9877-5c2d-bdb8-bb1d0ede9e2c",
+     "label": "DSO_200__17512599.TIF_STS-63_DSO_200_2011_175_020650.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001527",
+   "label": "DSO 200__1750233646",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Integral Trapped Particle LET Spectra",
+    "dataset_catalog": "DSO 200__1750233646",
+    "dataset_description": [
+     "This graph depicts a comparison of the TEPC measured LET spectra with PNTD measured spectra under the same locker shielding location. The flux in the low LET region is slightly higher than TEPC measurements. \r\n<p>\r\nSource: Badhwar GD, et al. Intercomparison of radiation measurements on STS-63. 1996. Nov;26(6):901-16."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 200"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "0f50d6c2-844f-57d4-abe9-496bd9553a4c",
+     "label": "DSO_200__1750233646.TIF_STS-63_DSO_200_2011_175_020636.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001818",
+   "label": "DSO 200__1820621183",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Measured GCR dose rate as a Function of Deceleration Potential",
+    "dataset_catalog": "DSO 200__1820621183",
+    "dataset_description": [
+     "This graph depicts the combined GCR dose rates measured by the U.S. tissue equivalent proportional counter (TEPC) from March 1995 to January 1998, with data acquired by the Liulin during the last solar cycle, and plotted as a function of the deceleration potential, f(MV). This potential is a parameter that incorporates the solar wind velocity, the interplanetary diffusion coefficient (and their radial dependence), and the extent of the heliospheric boundary from the point of observation. It can be more simply understood as a repulsive potential that cosmic ray particles from the interstellar space have to overcome to reach the point of observation. \r\n<p>\r\nSource: Badhwar GD. Radiation measurements in low Earth orbit: U.S. and Russian results. Health Physics. 2000. Nov; 79(5):507-14."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 200"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "e0a6b3bd-fd07-5302-9b4b-cd4f5907f05c",
+     "label": "DSO_200__1820621183.TIF_STS-60_DSO_200_2011_182_060725.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001948",
+   "label": "DSO 200__182061625",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Total Measured Absorbed Dose Rate as a Function of Time from the R-16 Dosimeters",
+    "dataset_catalog": "DSO 200__182061625",
+    "dataset_description": [
+     "This graph shows the dose rates measured by the Russian operational ion-chambers (R-16) as a function of time.\r\n<p>\r\nSource: Badhwar GD. Radiation measurements in low Earth orbit: U.S. and Russian results. Health Physics. 2000. Nov; 79(5):507-14."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 200"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "215aff62-aa23-5be8-bf5c-12c8d427e922",
+     "label": "DSO_200__175022625.TIF_STS-60_DSO_200_2011_182_060746.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001840",
+   "label": "DSO 200__1820404315",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Linear Energy Transfer (keV/\u00b5m, Tissue)",
+    "dataset_catalog": "DSO 200__1820404315",
+    "dataset_description": [
+     "This is a graph depicting linear energy transfer (LET) spectra using CN-85 and CR-39 PNTDs. The integral LET spectra obtained from the CN-85 and CR-39 PNTDs are shown in this graph. Since these particles are mostly galactic or very low-energy secondaries that originate close to the detector, their angular distribution was assumed to be isotropic. There is good agreement between measurements made by both types of detectors.\r\n<p>\r\nSource: Badhwar GD, et al. In-flight radiation measurements on STS-60. 1996. Jan; 26(1):17-34."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 200"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "900cf3b4-dc4e-5d21-84af-7d93b3bad1f4",
+     "label": "DSO_200__1820404315.TIF_STS-60_DSO_200_2011_182_040706.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001900",
+   "label": "DSO 200__1820420967",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Differential Proton Energy Spectrum",
+    "dataset_catalog": "DSO 200__1820420967",
+    "dataset_description": [
+     "This table contains differential energy spectrum data for the DSO 200 study.  Values include E(MeV) and differential flux.\r\n<p>\r\nSource: Badhwar GD, et al. Intercomparison of radiation measurements on STS-63. 1996. Nov;26(6):901-16."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 200"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "ad94baca-205f-5b82-8704-a1faf4ba354a",
+     "label": "DSO_200__1820420967.xls_STS-63_DSO_200_2011_182_040718.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001901",
+   "label": "DSO 200__1820704397",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Solar Particle Events Observed on the Mir Station during the Twenty-Second Cycle",
+    "dataset_catalog": "DSO 200__1820704397",
+    "dataset_description": [
+     "This chart contains the list of events that resulted in an R-16 measured excess dose from the event of >0.01 cGy during the last 22nd solar cycle. Typically, the ratio of the dose at R-16 to dose in free space varied from a low of 8 X 3 10<sup>-3</sup> to a high of 10<-3></sup>. \r\n<p>\r\nSource: Badhwar GD. Radiation measurements in low Earth orbit: U.S. and Russian results. Health Physics. 2000. Nov; 79(5):507-14."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 200"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "4d47b310-a688-59d5-9246-60981cf34c0b",
+     "label": "DSO_200__1820704397.xls_STS-63_DSO_200_2011_182_070726.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001899",
+   "label": "DSO 200__1820132510",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Average LET and Quality Factor",
+    "dataset_catalog": "DSO 200__1820132510",
+    "dataset_description": [
+     "This table shows the average LET and Quaity Factor using high temperature TLD peak from IBMP area passive dosimeter at Dloc 2.  The table also shows the average LET under 1 and 2 mm polystyrene and under 3 mm of aluminum. The values range from 1.62 to 2.94, with the TLD-600 values being always higher and clearly indicating the presence of low-energy neutrons. The flux of high LET particles resulting from the target fragmentations is very sensitive to the shielding very close to the detector and thus can have an impact on the average Quality Factor. This fact must be taken into consideration when comparing these measurements with those from other detectors.\r\n<p>\r\nSource: Badhwar GD, et al. In-flight radiation measurements on STS-60. 1996. Jan; 26(1):17-34."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 200"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "22706591-9749-54ef-a7e9-e825bbc4f429",
+     "label": "DSO_200__1820132510.xls_STS-60_DSO_200_2011_182_010742.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001975",
+   "label": "DSO 200__1820644973",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Dose Rate and Various Planetary Indices from the September-October 1989 Events",
+    "dataset_catalog": "DSO 200__1820644973",
+    "dataset_description": [
+     "This graph shows the sequence of events beginning in September 1989. Data of fluxes from the Geostationary Operational Environmental Satellite (GOES), the Planetary Index, K<sub>p,</sub>, and the D<sub>st</sub> index as a function of time are also given. These indices give the strength of magnetic field disturbance that can and does lead to a lowering of the geomagnetic cutoff. During the September period the indices were relatively quiet and thus the cutoff values were representative of the quiescent field conditions (about 200 MeV).\r\n<p>\r\nSource: Badhwar GD. Radiation measurements in low Earth orbit: U.S. and Russian results. Health Physics. 2000. Nov; 79(5):507-14."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 200"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "828347c5-b376-5d35-b0d3-1e328bfdebb7",
+     "label": "DSO_200__1820644973.TIF_STS-63_DSO_200_2011_182_060754.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002416",
+   "label": "DSO 200__1820425885",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Comparison of Trapped Particles Differential LET Spectra",
+    "dataset_catalog": "DSO 200__1820425885",
+    "dataset_description": [
+     "This graph depicts a comparison of the trapped particles differential LET spectra and its comparison with AP8 model calculations.  The orbit averaged incident energy spectrum of the AP8 model was propagated through the Shuttle mass shielding distribution for a point detector at this location to obtain the transmitted spectrum. There is quite reasonable agreement between the shapes of the calculated and measured spectra.\r\n<p>\r\nSource: Badhwar GD, et al. In-flight radiation measurements on STS-60. 1996. Jan; 26(1):17-34."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 200"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "a65f6a97-13d9-57b3-8a1d-e58d6199e78a",
+     "label": "DSO_200__1820425885.TIF_STS-63_DSO_200_2011_182_040721.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002264",
+   "label": "DSO 200__1750250527",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "TEPC Dose Rate Contour Plot",
+    "dataset_catalog": "DSO 200__1750250527",
+    "dataset_description": [
+     "This graph depicts the latitude (- 51.65\u00b0 to -10\u00b0) averaged dose rate as a function of longitude. The solid line is the fit through these data points, assuming the shape to be a gaussian plus a constant background dose rate. The peak dose rate from this fit is found to be at longitude ( - 41.1\u00b0 \u00b1 0.8\u00b0). This compares very well with the peak from STS-60 data (- 39.8\u00b0 \u00b1 0.51\u00b0).\r\n<p>\r\nSource: Badhwar GD, et al. Intercomparison of radiation measurements on STS-63. 1996. Nov;26(6):901-16."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 200"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "a623f8e7-3ac8-5c92-9940-8bfdd1b42ed0",
+     "label": "DSO_200__1750250527.TIF_STS-63_DSO_200_2011_175_020647.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,4 @@
+ID,Campaign,Subject,Test_Phase,BR_Day,Date,Age,Weight_kg,Height_cm,Stage,Watts,Cumulative Time (min),Time (min),HR (bpm),SBP (mmHg),DBP (mmHg),RPE (6-20),VO2 (L/min),VCO2 (L/min),RER,VO2 (ml/kg/min),VE BTPS (L/min),FEO2 (%),FECO2 (%)
+1,C3D,8779,POST_TEST,0,7/28/2007,28,93.2,182,1,50,3,3,187,182,100,10,1.18,1.39,1.18,12.7,44.67,17.58,3.86
+2,C3D,8779,POST_TEST,0,7/28/2007,28,93.2,182,2,75,6,3,188,140,80,15,1.2,1.48,1.24,12.9,55.45,18.17,3.31
+3,C3D,8779,POST_TEST,0,7/28/2007,28,93.2,182,Peak,75,5,1,191,90,50,15,1.2,1.48,1.24,12.9,55.45,18.17,3.31

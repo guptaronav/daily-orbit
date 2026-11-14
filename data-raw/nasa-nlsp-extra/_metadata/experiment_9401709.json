@@ -1,0 +1,217 @@
+{
+ "record": {
+  "id": "866ab58a-5aa7-5c1d-948d-3f19274e7cc9",
+  "_id": "866ab58a-5aa7-5c1d-948d-3f19274e7cc9",
+  "experiment_title": "Autonomic Mechanisms During Prolonged Weightlessness",
+  "pub_document_number": "PUB001403",
+  "experiment_alias": [
+   "E709"
+  ],
+  "parameter_html": "<table><tr><td>Blood pressure</td></tr><tr><td>Coherence</td></tr><tr><td>Diastolic blood pressure</td></tr><tr><td>Electrocardiogram (ECG)</td></tr><tr><td>Systolic blood pressure</td></tr><tr><td>Tidal volume</td></tr><tr><td>Transfer function</td></tr><tr><td>Baroreflex slope</td></tr><tr><td>RR interval</td></tr><tr></tr></table>",
+  "__source_key": "cl62aucmycbdd01o6fagg73a5",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Eckberg, Dwain\">Principal Investigator: Eckberg, Dwain</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Baisch, Friedhelm\">Co-Investigator: Baisch, Friedhelm</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Cooke, William\">Co-Investigator: Cooke, William</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Cox, James\">Co-Investigator: Cox, James</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Kuusela, Tom\">Co-Investigator: Kuusela, Tom</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Mano, Tadaaki\">Co-Investigator: Mano, Tadaaki</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Tahvanainen, Kari\">Co-Investigator: Tahvanainen, Kari</a>",
+  "keyword": [
+   "Cardiovascular physiology",
+   "Heart rate",
+   "Autonomic nervous system",
+   "Baroreflex"
+  ],
+  "keyword_name": "Baroreflex",
+  "__record_version": 29,
+  "experiment_description": "OBJECTIVES:<BR>\r\nThe microgravity environment present during low-earth orbit (LEO) spaceflight may contribute to changes in autonomic cardiovascular regulation experienced by long-duration spaceflight crewmembers when they return to Earth's gravity.  Theses changes manifest themselves as increased heart rates when standing, decline in arterial blood pressure, and even frank syncope.  Several factors likely contribute to these changes, blood volume reductions, impaired baroreceptor-cardiac reflex responses, and inadequate increases in total peripheral resistance during standing.<P>\r\n\r\nThis experiment explored the probability that the disordered arterial baroreflex malfunction, documented during weightlessness or after simulated or actual weightlessness, is part of and a contributor to a broad range of autonomic abnormalities.  The researchers developed this experiment using the following hypotheses as a guide:<br>\r\n<ol>\r\n<li>Vagal baroreflex impairment progresses during long-duration space missions, and plateaus to reach some asymptotic limit.</li>\r\n<li>Weightlessness impairs aortic as well as carotid baroreceptor reflexes, and that therefore, the baroreflex malfunction that develops in space may be due to central nervous system factors, rather than local changes in the wall of carotid arteries.</li>\r\n<li>Progressive impairment of integrated vagal baroreflexes in astronauts is expressed in reduced levels of vagal-cardiac nerve traffic, as reflected in fluctuations of R-R intervals during rigorously-controlled breathing.</li>\r\n<li>The progressive reduction of minimum R-R interval during baroreflex testing observed in previous space flight missions reflected increased sympathetic-cardiac neural activity.</li>\r\n<li>Diminished vagal-cardiac nerve traffic is associated with a reduced prevalence of atrial, and an increased prevalence of ventricular dysrhythmias in space.</li>\r\n<li>Low-frequency diastolic pressure power reflects quantitatively, levels of efferent human muscle sympathetic nerve activity.</li>\r\n<li>Reductions of baroreflex gain are related directly and significantly to impairment of vasoconstrictor responses to lower body negative pressure in space.</li>\r\n<li>Hypocapnia leads to a greater reduction of R-R interval power at respiratory frequencies, and carotid baroreceptor-cardiac reflex gain in space than on Earth.</li>\r\n</ol><p>\r\nThe researchers used the data obtained from this experiment to determine the adaptive changes that occurred in the autonomic nervous system of the flight subjects and to obtain insight into the various mechanisms that caused the observed integrated autonomic output.\r\n<P>\r\nAPPROACH:<BR>\r\nThe design of this experiment was built around a battery of tests that activated different afferent nerve fibers, evoking different patterns of neural and cardiovascular responses through both separate and common mechanisms. These tests included:<br>\r\n<ol>\r\n<li>Controlled frequency breathing - a predetermined breathing protocol carried out using the Medikro Laptop Computer as an instructional guide.</li>\r\n<li>Valsalva\u2019s Maneuver - performed by attempting to forcibly exhale with the nose closed and the mouth blowing into a pressurized breathing apparatus in order to increase blood pressure.</li>\r\n<li>Isometric Handgrip Exercise> - required the subject to sustain a muscular contraction, using a handgrip balloon assembly, to raise arterial blood pressure.</li>\r\n<li>Cold Pressor Test - involved rapid, sustained, severe cooling of a crewmember\u2019s hand using the Cold Glove Assembly in order to elicit an increase in the subject's blood pressure and heart rate.</li>\r\n<li>Graded Lower Body Negative Pressure - provided a controlled, measured orthostatic stress to the cardiovascular system using the Chibis Lower Body Negative Pressure (LBNP) Device.</li>\r\n</ol>\r\n<p>\r\nRESULTS:<BR>\r\nThe data obtained from this experiment showed a decrease in RR-interval standard deviations for all subjects and a decrease in respiratory frequency RR-interval spectral power for two subjects while in microgravity.  RR-interval spectral power was decreased and systolic pressure spectral power was increased in all subjects two weeks after returning to Earth.  The data also showed that while in microgravity the transfer function between systolic blood pressures and RR-intervals was reduced.  The transfer function showed a further reduction the day after the subjects returned to Earth, and had not returned to preflight levels by 14 days after landing.<P>\r\n\r\nThese results suggested that long-duration spaceflight decreased vagal-cardiac control (reduced R-R interval oscillations at a given respiratory frequency) and baroreflex gain (reduced systolic to R-R interval transfer function magnitude), and that after returning to Earth, the effects of weightlessness may persist for at least 2 weeks.  This experiment did not come to any conclusions about the cause of the decreased vagal-cardiac nerve traffic; however, the well documented reduction of blood volume that occurs while in microgravity is a probable explanation.<P>\r\n\r\nThe researchers attempted to document the time-course of in-flight adaptations, however, they were unable to adequately record directional trends. It is not yet clear whether changes in autonomic cardiovascular regulation progress or stabilize as a function of the duration of exposure to microgravity.  Although the data obtained from this experiment was limited, the researchers hope the information obtained from this experiment can help to guide future research onboard the International Space Station.<END>",
+  "indexed": "2026-08-23T04:08:44.615802+00:00",
+  "GUID": "cl62aucmycbdd01o6fagg73a5",
+  "__model_type": "lsda_experiment",
+  "__dirid": "866ab58a-5aa7-5c1d-948d-3f19274e7cc9",
+  "__record_size_wo_doccontent": 111027,
+  "experiment_parms_tissue2": "N/A",
+  "experiment_parms_tissue1": "N/A",
+  "__update_method": "Update CDM",
+  "archive_status_index": 2,
+  "experiment_type_lk": [
+   "NASA-Mir Program"
+  ],
+  "__record_modified_date": "2026-08-23T04:08:44.615802+00:00",
+  "proposal_source": [
+   "N/A"
+  ],
+  "__indexed": "2026-08-23T04:08:44.615802+00:00",
+  "alias": [
+   "E709"
+  ],
+  "__record_creation_date": "2022-07-28T19:40:02.642Z",
+  "__record_size": 111027,
+  "__model_version": 60,
+  "payload_id": "Mir 25",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "9401709",
+  "experiment_related": [
+   "E712",
+   "DSO 601",
+   "9301049",
+   "178022"
+  ],
+  "parameter_name": [
+   "Blood pressure",
+   "Coherence",
+   "Diastolic blood pressure",
+   "Electrocardiogram (ECG)",
+   "Systolic blood pressure",
+   "Tidal volume",
+   "Transfer function",
+   "Baroreflex slope",
+   "RR interval"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 775,
+  "research_area": [
+   "Neuroscience",
+   "Cardiovascular physiology"
+  ],
+  "pme_role_with_name": [
+   "Co-Investigator: Baisch, Friedhelm",
+   "Co-Investigator: Cooke, William",
+   "Co-Investigator: Cox, James",
+   "Co-Investigator: Kuusela, Tom",
+   "Co-Investigator: Mano, Tadaaki",
+   "Co-Investigator: Tahvanainen, Kari",
+   "Principal Investigator: Eckberg, Dwain"
+  ],
+  "missions": [
+   [
+    [
+     "Mir 25"
+    ]
+   ],
+   [
+    [
+     "Mir 23"
+    ]
+   ],
+   [
+    [
+     "NASA 7"
+    ]
+   ]
+  ],
+  "PI": [
+   "Eckberg, Dwain"
+  ],
+  "_file_extension": [],
+  "experiment_identifier": [
+   "9401709",
+   "E709"
+  ],
+  "mission_id": [
+   [
+    [
+     "Mir 25"
+    ]
+   ],
+   [
+    [
+     "Mir 23"
+    ]
+   ],
+   [
+    [
+     "NASA 7"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Eckberg, Dwain"
+  ],
+  "archive_status": "Data preservation is complete. Privacy-protected datasets are available via data request. Remaining datasets are publicly available.",
+  "__is_locked": false,
+  "Program": "Nasa-Mir",
+  "__source_field_concat": "PUB001403 Mir 25 cl62aucmycbdd01o6fagg73a5 Baroreflex N/A N/A N/A Autonomic Mechanisms During Prolonged Weightlessness 9401709 Nasa-Mir",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<BR>\r\nThe microgravity environment present during low-earth orbit (LEO) spaceflight may contribute to changes in autonomic cardiovascular regulation experienced by long-duration spaceflight crewmembers when they return to Earth's gravity.  Theses changes manifest themselves as increased heart rates when standing, decline in arterial blood pressure, and even frank syncope.  Several factors likely contribute to these changes, blood volume reductions, impaired baroreceptor-cardiac reflex responses, and inadequate increases in total peripheral resistance during standing.<P>\r\n\r\nThis experiment explored the probability that the disordered arterial baroreflex malfunction, documented during weightlessness or after simulated or actual weightlessness, is part of and a contributor to a broad range of autonomic abnormalities.  The researchers developed this experiment using the following hypotheses as a guide:<br>\r\n<ol>\r\n<li>Vagal baroreflex impairment progresses during long-duration space missions, and plateaus to reach some asymptotic limit.</li>\r\n<li>Weightlessness impairs aortic as well as carotid baroreceptor reflexes, and that therefore, the baroreflex malfunction that develops in space may be due to central nervous system factors, rather than local changes in the wall of carotid arteries.</li>\r\n<li>Progressive impairment of integrated vagal baroreflexes in astronauts is expressed in reduced levels of vagal-cardiac nerve traffic, as reflected in fluctuations of R-R intervals during rigorously-controlled breathing.</li>\r\n<li>The progressive reduction of minimum R-R interval during baroreflex testing observed in previous space flight missions reflected increased sympathetic-cardiac neural activity.</li>\r\n<li>Diminished vagal-cardiac nerve traffic is associated with a reduced prevalence of atrial, and an increased prevalence of ventricular dysrhythmias in space.</li>\r\n<li>Low-frequency diastolic pressure power reflects quantitatively, levels of efferent human muscle sympathetic nerve activity.</li>\r\n<li>Reductions of baroreflex gain are related directly and significantly to impairment of vasoconstrictor responses to lower body negative pressure in space.</li>\r\n<li>Hypocapnia leads to a greater reduction of R-R interval power at respiratory frequencies, and carotid baroreceptor-cardiac reflex gain in space than on Earth.</li>\r\n</ol><p>\r\nThe researchers used the data obtained from this experiment to determine the adaptive changes that occurred in the autonomic nervous system of the flight subjects and to obtain insight into the various mechanisms that caused the observed integrated autonomic output.\r\n<P>\r\nAPPROACH:<BR>\r\nThe design of this experiment was built around a battery of tests that activated different afferent nerve fibers, evoking different patterns of neural and cardiovascular responses through both separate and common mechanisms. These tests included:<br>\r\n<ol>\r\n<li>Controlled frequency breathing - a predetermined breathing protocol carried out using the Medikro Laptop Computer as an instructional guide.</li>\r\n<li>Valsalva\u2019s Maneuver - performed by attempting to forcibly exhale with the nose closed and the mouth blowing into a pressurized breathing apparatus in order to increase blood pressure.</li>\r\n<li>Isometric Handgrip Exercise> - required the subject to sustain a muscular contraction, using a handgrip balloon assembly, to raise arterial blood pressure.</li>\r\n<li>Cold Pressor Test - involved rapid, sustained, severe cooling of a crewmember\u2019s hand using the Cold Glove Assembly in order to elicit an increase in the subject's blood pressure and heart rate.</li>\r\n<li>Graded Lower Body Negative Pressure - provided a controlled, measured orthostatic stress to the cardiovascular system using the Chibis Lower Body Negative Pressure (LBNP) Device.</li>\r\n</ol>\r\n<p>\r\nRESULTS:<BR>\r\nThe data obtained from this experiment showed a decrease in RR-interval standard deviations for all subjects and a decrease in respiratory frequency RR-interval spectral power for two subjects while in microgravity.  RR-interval spectral power was decreased and systolic pressure spectral power was increased in all subjects two weeks after returning to Earth.  The data also showed that while in microgravity the transfer function between systolic blood pressures and RR-intervals was reduced.  The transfer function showed a further reduction the day after the subjects returned to Earth, and had not returned to preflight levels by 14 days after landing.<P>\r\n\r\nThese results suggested that long-duration spaceflight decreased vagal-cardiac control (reduced R-R interval oscillations at a given respiratory frequency) and baroreflex gain (reduced systolic to R-R interval transfer function magnitude), and that after returning to Earth, the effects of weightlessness may persist for at least 2 weeks.  This experiment did not come to any conclusions about the cause of the decreased vagal-cardiac nerve traffic; however, the well documented reduction of blood volume that occurs while in microgravity is a probable explanation.<P>\r\n\r\nThe researchers attempted to document the time-course of in-flight adaptations, however, they were unable to adequately record directional trends. It is not yet clear whether changes in autonomic cardiovascular regulation progress or stabilize as a function of the duration of exposure to microgravity.  Although the data obtained from this experiment was limited, the researchers hope the information obtained from this experiment can help to guide future research onboard the International Space Station.<END>",
+  "__doi": "10.83263/te3f-qy92",
+  "__doi_record_creation_date": "2026-08-23T04:08:44",
+  "__doi_record_modified_date": "2026-08-23T04:08:44"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001457",
+   "label": "9401709__28304209",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Data Collection Timetables",
+    "dataset_catalog": "9401709__28304209",
+    "dataset_description": [
+     "This files contains the data collection timetable sessions during NASA 23 and 25 for this experiment."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "9401709"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "7194cbe5-90a4-5a05-97cf-457c0638000d",
+     "label": "NASAMir_9401709_session.xls_Mir_23_9401709_2013_283_041013.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002274",
+   "label": "J0001203",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Total RR-interval and Systolic Pressure Spectral Power for Each Breathing Frequency during the Stepwise Protocol for All Cosmonauts",
+    "dataset_catalog": "J0001203",
+    "dataset_description": [
+     "This figure shows the total (0.04 - 0.4 Hz) RR-interval (solid bar) and systolic blood pressure (empty bar) spectral power, at each breathing frequency, during the stepwise frequency protocol 14 days after return to earth (R+14). Values are means plus or minus the standard deviation for three subjects.<END>"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "9401709"
+    ]
+   },
+   "meta": "1 file \u00b7 33.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "08dde74b-222a-57e9-a810-f38ec73b5cab",
+     "label": "JMMIR9401709_270.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 33792,
+     "meta": "33.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

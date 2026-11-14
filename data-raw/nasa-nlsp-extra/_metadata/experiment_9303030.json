@@ -1,0 +1,449 @@
+{
+ "record": {
+  "id": "ddac7356-1c1a-5122-bcb5-01d7a5cb19fa",
+  "_id": "ddac7356-1c1a-5122-bcb5-01d7a5cb19fa",
+  "experiment_title": "Neuromuscular Development and Regulation of Myosin Expression",
+  "pub_document_number": "ARCPUB000654",
+  "parameter_html": "<table><tr><td>Content, Myosin heavy chain (MHC), extensor digitorum longus, muscle, rat, SDS PAGE (gel-electrophoresis), immunohistochemistry (monoclonal antibodies)</td></tr><tr><td>Content, Myosin heavy chain (MHC), medial gastrocnemius, muscle, rat, SDS PAGE (gel-electrophoresis), immunohistochemistry (monoclonal antibodies)</td></tr><tr><td>Content, Myosin heavy chain (MHC), soleus, muscle, rat, SDS PAGE (gel-electrophoresis), immunohistochemistry (monoclonal antibodies)</td></tr><tr><td>Content, Myosin heavy chain (MHC), tibialis anterior, muscle, rat, SDS PAGE (gel-electrophoresis), immunohistochemistry (monoclonal antibodies)</td></tr><tr><td>Temperature, AEM, NIH.R2, Ambient temperature recorder (ATR)</td></tr><tr><td>Weight, protein, mRNA expression, myosin heavy chain (MHC), muscle, rat, Radiochem and Northern blot (counts and density)</td></tr><tr></tr></table>",
+  "__source_key": "cl62au74mcb1001o65lpw2dyj",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Clark, Kathryn\">Principal Investigator: Clark, Kathryn</a>",
+  "keyword": [
+   "Myosin",
+   "Embryology",
+   "Myosin heavy chains  (MHC)",
+   "Hindlimb"
+  ],
+  "keyword_name": "Hindlimb",
+  "__record_version": 29,
+  "experiment_description": "<B>Objectives:</B><P>The objectives of this experiment were 1) to examine the time course of myosin heavy chain expression and the development of adult fiber types in hindlimb muscles which have been exposed to microgravity during embryonic development 2) to determine if microgravity exposure during embryogenesis influences postnatal development of the neuromuscular system evaluated by morphological and biochemical studies, and 3) to determine if the embryonic system requires gravity as an orienting force in order to establish normal differentiation of muscle fiber types.<P><B>Approach:</B><P>Protein expression was quantified using SDS PAGE gel-electrophoresis and immunohistochemistry. Monoclonal antibodies specific for the myosin heavy chain (MHC) (embryonic, neonatal, slow, fast IIa, IIb, and IIx) were used to examine MHC expression in individual muscle fibers. Tissue was frozen fresh without fixative.  The expression of mRNA was examined using in situ histochemistry and Northern blots.  Radiolabeled riboprobes specific for various muscle specific genes were made and used to detect mRNA expression in post-fixed muscle cross-sections. Riboprobes for the MHC (embryonic, neonatal, slow, IIa,IIb, and IIx) fast and slow sarcoplasmic reticulum ATPase, troponin C, myogenic regulatory factors (myogenin and myoD) and growth factors (FGF and IGF) were used. Electron microscopy was used to determine the number of primary and secondary fibers in the fetal neonatal hindlimbs.<P><B>Results:</B><P>In soleus and medial gastrocnemius muscles from the dams, on differences were found between flight and control animals in mean fiber area or myosin heavy chain expression.",
+  "indexed": "2026-08-31T22:16:58.666Z",
+  "GUID": "cl62au74mcb1001o65lpw2dyj",
+  "resourceTitle": "https://genelab-data.ndc.nasa.gov/genelab/environmental/radiation",
+  "__model_type": "lsda_experiment",
+  "__dirid": "ddac7356-1c1a-5122-bcb5-01d7a5cb19fa",
+  "__record_size_wo_doccontent": 58394,
+  "experiment_parms_tissue2": "NULL",
+  "experiment_parms_tissue1": "NULL",
+  "__update_method": "Update Data",
+  "archive_status_index": 1,
+  "resource_group": "NASA GeneLab Data",
+  "experiment_type_lk": [
+   "Shuttle Life Sciences Research (Middeck)"
+  ],
+  "__record_modified_date": "2026-08-31T22:16:58.666Z",
+  "proposal_source": [
+   "93-OLMSA-03"
+  ],
+  "__indexed": "2026-08-31T22:16:58.666Z",
+  "session_type": "Basal",
+  "__record_creation_date": "2022-07-28T19:41:08.662Z",
+  "__record_size": 58394,
+  "__model_version": 423,
+  "payload_id": "NIH.R2",
+  "CombinedSpecies": [
+   [
+    "Rat (Rattus norvegicus) Sprague-Dawley"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "9303030",
+  "experiment_related": [
+   "9303019"
+  ],
+  "parameter_name": [
+   "Content, Myosin heavy chain (MHC), extensor digitorum longus, muscle, rat, SDS PAGE (gel-electrophoresis), immunohistochemistry (monoclonal antibodies)",
+   "Content, Myosin heavy chain (MHC), medial gastrocnemius, muscle, rat, SDS PAGE (gel-electrophoresis), immunohistochemistry (monoclonal antibodies)",
+   "Content, Myosin heavy chain (MHC), soleus, muscle, rat, SDS PAGE (gel-electrophoresis), immunohistochemistry (monoclonal antibodies)",
+   "Content, Myosin heavy chain (MHC), tibialis anterior, muscle, rat, SDS PAGE (gel-electrophoresis), immunohistochemistry (monoclonal antibodies)",
+   "Temperature, AEM, NIH.R2, Ambient temperature recorder (ATR)",
+   "Weight, protein, mRNA expression, myosin heavy chain (MHC), muscle, rat, Radiochem and Northern blot (counts and density)"
+  ],
+  "exp_index": 685,
+  "research_area": [
+   "Muscle physiology"
+  ],
+  "protocol_approach": "Delayed synchronous control",
+  "pme_role_with_name": [
+   "ARC Deputy Payload Manager: Aquilina, Rudolph",
+   "ARC Experiment Support Scientist: Ching, Brian",
+   "ARC Payload Manager: Jarvi, Joellen",
+   "ARC Payload Scientist: Dumars, Paula",
+   "ARC Science Payload Manager: Reiss- Bubenheim, Debra",
+   "Principal Investigator: Clark, Kathryn"
+  ],
+  "missions": [
+   [
+    [
+     "STS-70"
+    ]
+   ]
+  ],
+  "PI": [
+   "Clark, Kathryn"
+  ],
+  "_file_extension": [],
+  "experiment_identifier": [
+   "9303030"
+  ],
+  "mission_id": [
+   [
+    [
+     "STS-70"
+    ]
+   ]
+  ],
+  "center": [
+   "Ames Research Center"
+  ],
+  "ncindex": [
+   7
+  ],
+  "proposal_date": [
+   "7/9/1993"
+  ],
+  "species": [
+   "Rat"
+  ],
+  "PrincipalInvestigator": [
+   "Clark, Kathryn"
+  ],
+  "LaunchDate": [
+   "07/13/1995"
+  ],
+  "LaunchYear": 1995,
+  "program_name": [
+   "Shuttle Program"
+  ],
+  "archive_status": "Data preservation is complete. All datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Shuttle Program",
+  "__source_field_concat": "Basal NASA GeneLab Data ARCPUB000654 NIH.R2 cl62au74mcb1001o65lpw2dyj Hindlimb NULL NULL https://genelab-data.ndc.nasa.gov/genelab/environmental/radiation  Delayed synchronous control Neuromuscular Development and Regulation of Myosin Expression 9303030 Shuttle Program Data preservation is complete. All datasets are publicly available.",
+  "__icon_type": "rat",
+  "__description": "<B>Objectives:</B><P>The objectives of this experiment were 1) to examine the time course of myosin heavy chain expression and the development of adult fiber types in hindlimb muscles which have been exposed to microgravity during embryonic development 2) to determine if microgravity exposure during embryogenesis influences postnatal development of the neuromuscular system evaluated by morphological and biochemical studies, and 3) to determine if the embryonic system requires gravity as an orienting force in order to establish normal differentiation of muscle fiber types.<P><B>Approach:</B><P>Protein expression was quantified using SDS PAGE gel-electrophoresis and immunohistochemistry. Monoclonal antibodies specific for the myosin heavy chain (MHC) (embryonic, neonatal, slow, fast IIa, IIb, and IIx) were used to examine MHC expression in individual muscle fibers. Tissue was frozen fresh without fixative.  The expression of mRNA was examined using in situ histochemistry and Northern blots.  Radiolabeled riboprobes specific for various muscle specific genes were made and used to detect mRNA expression in post-fixed muscle cross-sections. Riboprobes for the MHC (embryonic, neonatal, slow, IIa,IIb, and IIx) fast and slow sarcoplasmic reticulum ATPase, troponin C, myogenic regulatory factors (myogenin and myoD) and growth factors (FGF and IGF) were used. Electron microscopy was used to determine the number of primary and secondary fibers in the fetal neonatal hindlimbs.<P><B>Results:</B><P>In soleus and medial gastrocnemius muscles from the dams, on differences were found between flight and control animals in mean fiber area or myosin heavy chain expression.",
+  "__doi": "10.83263/na4j-kz83",
+  "__doi_record_creation_date": "2026-08-23T03:58:42",
+  "__doi_record_modified_date": "2026-08-23T03:58:42"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000796",
+   "label": "AINV0000000616",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Protein Development of Skeletal Muscles that Developed  in Space",
+    "dataset_catalog": "AINV0000000616",
+    "dataset_description": [
+     "Immunohistochemistry on muscles from fetuses and pups that developed in the microgravity environment of space to assess the role of gravity in protein development of skeletal muscle in rats."
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "9303030"
+    ]
+   },
+   "meta": "0 files",
+   "date": "2022-07-28",
+   "children": []
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000901",
+   "label": "AINV0000000401",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "NIH.R2 Ambient Temperature Recorder (ATR) ground control data - ATR serial number 39 located in ground control AEM serial number 004",
+    "dataset_catalog": "AINV0000000401",
+    "dataset_description": [],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9303017",
+     "9303024",
+     "9303025",
+     "9303030",
+     "9303031 2_2"
+    ]
+   },
+   "meta": "5 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "babd0034-86ea-5e8c-a488-45eea800998d",
+     "label": "3970G004.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ef8d90f7-44be-5d42-8860-4d43c52e1fdf",
+     "label": "3970G004.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7057be8f-21af-5833-8bd9-8924f775bd08",
+     "label": "3970G004.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9fc26250-a61a-5a26-903a-1eb56cfd7743",
+     "label": "3970G004.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "558cef9b-9005-5d8b-ba1e-c29ac91584ec",
+     "label": "3970G004.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001571",
+   "label": "AINV0000000398",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "NIH.R2 Ambient Temperature Recorder (ATR) flight data - ATR serial number 36 located in flight AEM serial number 001",
+    "dataset_catalog": "AINV0000000398",
+    "dataset_description": [],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9303017",
+     "9303024",
+     "9303025",
+     "9303030",
+     "9303031 2_2"
+    ]
+   },
+   "meta": "5 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "a26ed257-b613-5f9d-b9f9-7a03a3edc7c1",
+     "label": "3670F001.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3bacd1de-74f9-5dca-8f7c-29825297039d",
+     "label": "3670F001.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ef47b26c-fd55-55e0-878d-472f988e5276",
+     "label": "3670F001.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a69dde23-e51f-5aaa-bf99-e34e1605b6fc",
+     "label": "3670F001.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6803e6de-b9f5-5226-bbe8-1c70baadbdd8",
+     "label": "3670F001.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002329",
+   "label": "AINV0000000399",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "NIH.R2 Ambient Temperature Recorder (ATR) flight data - ATR serial number 37 located in flight AEM serial number 002",
+    "dataset_catalog": "AINV0000000399",
+    "dataset_description": [],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9303017",
+     "9303024",
+     "9303025",
+     "9303030",
+     "9303031 2_2"
+    ]
+   },
+   "meta": "5 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "38c5e8a7-b950-52a3-a3eb-ff11da8b54bf",
+     "label": "3770F002.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7e75287e-c176-50e9-baac-74ab4b7b34e1",
+     "label": "3770F002.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "bb5e85f3-bd4d-58fd-a798-b295763ca9d6",
+     "label": "3770F002.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4b453809-ccd2-5c33-8c5d-b8c688a84442",
+     "label": "3770F002.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ae5efbd8-539b-58e2-bf38-e9e6c87568b9",
+     "label": "3770F002.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002225",
+   "label": "AINV0000000400",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "NIH.R2 Ambient Temperature Recorder (ATR) ground control data - ATR serial number 38 located in ground control AEM serial number 003",
+    "dataset_catalog": "AINV0000000400",
+    "dataset_description": [],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9303017",
+     "9303024",
+     "9303025",
+     "9303030",
+     "9303031 2_2"
+    ]
+   },
+   "meta": "5 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "d2e4ffe9-48c2-575c-bbbe-d64c40eea667",
+     "label": "3870G003.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b0ba450c-e7f6-5fc5-b8e5-14b03f18eae0",
+     "label": "3870G003.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6c07b1df-18d1-53be-b866-d7f7226d56fa",
+     "label": "3870G003.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6516acb5-40b3-5961-9d6d-311cb9949500",
+     "label": "3870G003.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "63fc11f8-ebd3-57dc-a0f3-eea79e866049",
+     "label": "3870G003.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

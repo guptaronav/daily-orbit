@@ -1,0 +1,370 @@
+{
+ "record": {
+  "id": "a6e6b041-4358-54e3-9af3-dc6072fbbd6a",
+  "_id": "a6e6b041-4358-54e3-9af3-dc6072fbbd6a",
+  "experiment_title": "Bacterial Detection: Correlation of an Automated Real-time System Operated <I>in situ</I> with Comprehensive Characterization in the Laboratory",
+  "archive_status_index": 1,
+  "parameter_html": "<table><tr><td>Achromobacter xylosoxidans</td></tr><tr><td>Acremonium species</td></tr><tr><td>Aspergillus terreus</td></tr><tr><td>Aspergillus species</td></tr><tr><td>Candida lusitaniae</td></tr><tr><td>Cladosporium species</td></tr><tr><td>Exophiala species</td></tr><tr><td>Exophiala jeanselmei</td></tr><tr><td>Fusarium species</td></tr><tr><td>Hyphomycetes species</td></tr><tr><td>Leifsonia poae</td></tr><tr><td>Microbacterium esteraromaticum</td></tr><tr><td>Penicillium species</td></tr><tr><td>Pseudomonas aeruginosa</td></tr><tr><td>Pseudomonas species</td></tr><tr><td>Rhodotorula species</td></tr><tr><td>Shewanella species</td></tr><tr><td>Stachybotrys species</td></tr><tr><td>Stenotrophomonas acidaminiphila</td></tr><tr><td>Stenotrophomonas maltophilia</td></tr><tr><td>Trichosporon pullulans</td></tr><tr><td>Acidovorax delafieldii</td></tr><tr><td>Bacterial count</td></tr><tr><td>Endotoxin level</td></tr><tr><td>Fungal concentration</td></tr><tr><td>Bacterial concentration, air</td></tr><tr><td>Bacterial concentration, surface</td></tr><tr><td>Bacterial concentration, water</td></tr><tr><td>Flectobacillus species</td></tr><tr></tr></table>",
+  "__source_key": "cl62azc38cdda01o65a6rdle4",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Pierson, Duane\">Principal Investigator: Pierson, Duane</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Maule, Jake\">Principal Investigator: Maule, Jake</a>",
+  "image_name": [
+   "Clayton Anderson Collecting a Bacterial Swab Sample",
+   "Diagram of Swab Sampling Stick Used During NEEMO 5",
+   "Garrett Reismann Collecting a Bacterial Swab Sample",
+   "Portable Test System (PTS)"
+  ],
+  "experiment_type_lk": [
+   "Countermeasures Evaluation &amp",
+   "Validation Project (CEVP)",
+   "NASA Extreme Environment Mission Operations (NEEMO) Project"
+  ],
+  "__record_modified_date": "2026-08-23T04:24:38.617769+00:00",
+  "__indexed": "2026-08-23T04:24:38.617769+00:00",
+  "__record_creation_date": "2022-07-28T19:53:52.294Z",
+  "keyword": [
+   "Bacteria",
+   "Microbiology"
+  ],
+  "keyword_name": "Microbiology",
+  "__record_size": 111440,
+  "__record_version": 30,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<br>\r\nBacterial growth within human habitats is not unusual and usually poses no danger to the inhabitants. However, within isolated habitats, where air ventilation and circulation may be limited and the relative humidity high, the levels of bacterial growth may increase to levels high enough to pose a health hazard to the crew. \r\n<P>\r\nBacterial endotoxin is found in many bacteria, and its concentration has been used as a relative assessment of bacterial levels. However, most traditional enumeration and identification techniques require days to complete.  Habitat swab samples were analyzed with an automated real-time monitor of bacterial endotoxin, called the Portable Test System (PTS).  The PTS was operated by the crew during the mission.  The results were then correlated with advanced microbiological analysis of the same swab samples in the laboratory following the mission. This correlation will determine if this new system can detect trends in bacterial growth that could affect crew health.\r\n<P>\r\nAt present, there is no rapid, real-time bacterial-detection device for crew use on the International Space Station (ISS). Monitoring of bacteria onboard requires the return of swab samples for microbiological analysis on the ground.  This method provides high-quality identification of bacteria onboard, but with a significant time lag between swab sampling and results. The PTS will enable the crew to obtain quick, \"on-the-spot\" results of bacterial levels onboard, without assistance from the ground; a factor useful for crews on long duration missions, where supply/re-supply missions may be infrequent. The crew could test key locations (such as air-conditioning vents, fluids for injection, surfaces and the water system), identify \"hot-spot\" areas of rapid bacterial growth at an early stage, and use cleaning procedures to prevent potential hazards to crew health. \r\n<P>\r\nAPPROACH:<br>\r\nBaseline data (swabs and PTS tests) were collected by National Oceanic and Atmospheric Administration (NOAA) divers on four and three days before the mission began.  The NEEMO 5 crew took daily swab samples from five different areas within the habitat: wet porch, wetsuit, living quarters, Aquarius tap water and cabin air. These samples were both analyzed during (by the crew) and after (in Johnson Space Center (JSC) laboratories) the mission. Both sets of results were compared and correlated. The crew analyzed samples for bacteria using a small, hand-held, automated device, known as the Portable Test System (PTS).  The PTS specifically detects the bacteria cell membrane component lipo-polysaccharide (LPS) and provides results 10 minutes following addition of the sample.   Samples (swabs and PTS tests) were also collected post-mission on R+0 before habitat power-down.\r\n<P>\r\nRESULTS:<br>\r\nThe PTS was found to be a robust instrument for detection of bacterial levels during a mission situation. Sterile conditions were not required and the system was found to be user-friendly by the crew. At present, no such portable device is available on ISS to test bacterial levels, and all microbiological analysis must occur on the ground after extensive storage time and transportation in non-refrigerated conditions. NEEMO 5 proved to be a valuable opportunity to correlate results obtained with PTS in Aquarius with those obtained in the Microbiology Laboratory at JSC using culture methods. Results correlated well between the two methods and some bacterial species of potential health concern were identified using culture methods. Since NEEMO 5, the PTS cuvettes have been modified by Dr. Norm Wainwright (Marine Biology Lab, Woods Hole, MA) to allow the detection of fungi, gram\u2013positive bacteria, and potentially dangerous bacterial species by modification of the antibodies used for detection. \r\n<P>\r\n1. Few species in the Aquarius habitat were found to be hazardous:<BR>\r\n<UL><LI>Wet porch: Bacterial/fungal levels consistently high, as expected\r\n<LI>Wetsuit: High Bacterial levels, fungi detected on 4 days only \r\n<LI><I>Pseudomonas aeruginosa</I>, a bacterium that causes infections of the urinary tract and respiratory system, dermatitis and soft tissue infections was found\r\n<LI>PTS data was lower and more variable\r\n<LI>Possibility that following swab, bacteria could have grown within the sample tube to log phase, prior to Standard Culture testing (days/weeks later), but not before PTS testing (same day)\r\n<LI>Living quarters: Similar microbial levels to office environment \r\n<LI>Non-potable water: Low bacterial/fungal levels \r\n<LI>Higher pre-mission levels may be due to low/absent use of faucet pre-mission\r\n<LI>Air: Low bacterial/fungal levels \r\n<LI><I>Stachybotrys</I>, a fungus linked to indoor quality problems, was found\r\n<LI>Potable water (sealed jugs): Higher than desirable bacteria/endotoxin\r\n</UL>\r\n<P>\r\n2.   PTS performed nominally in a humid and hyperbaric environment<BR>\r\n<UL><LI>Some data errors detected, possibly due to power interruptions</UL>\r\n<P>\r\n3.   Positive correlation (0.92) between data obtained with PTS and Standard Culture methods<BR>\r\n<UL><LI>The greatest variability was observed with wetsuit test</UL>\r\n<P>\r\n4.   Minimum training required for crew to operate PTS\r\n<UL><LI>Crew found PTS easy to use</UL><END>",
+  "payload_id": "NEEMO 5",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "NEEMO-SWAB",
+  "indexed": "2026-08-23T04:24:38.617769+00:00",
+  "experiment_related": [
+   "9903049"
+  ],
+  "GUID": "cl62azc38cdda01o65a6rdle4",
+  "parameter_name": [
+   "Achromobacter xylosoxidans",
+   "Acremonium species",
+   "Aspergillus terreus",
+   "Aspergillus species",
+   "Candida lusitaniae",
+   "Cladosporium species",
+   "Exophiala species",
+   "Exophiala jeanselmei",
+   "Fusarium species",
+   "Hyphomycetes species",
+   "Leifsonia poae",
+   "Microbacterium esteraromaticum",
+   "Penicillium species",
+   "Pseudomonas aeruginosa",
+   "Pseudomonas species",
+   "Rhodotorula species",
+   "Shewanella species",
+   "Stachybotrys species",
+   "Stenotrophomonas acidaminiphila",
+   "Stenotrophomonas maltophilia",
+   "Trichosporon pullulans",
+   "Acidovorax delafieldii",
+   "Bacterial count",
+   "Endotoxin level",
+   "Fungal concentration",
+   "Bacterial concentration, air",
+   "Bacterial concentration, surface",
+   "Bacterial concentration, water",
+   "Flectobacillus species"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 1088,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Environmental monitoring",
+   "Microbiology"
+  ],
+  "pme_role_with_name": [
+   "Principal Investigator: Maule, Jake",
+   "Principal Investigator: Pierson, Duane"
+  ],
+  "missions": [
+   [
+    [
+     "NEEMO 5"
+    ]
+   ]
+  ],
+  "__dirid": "a6e6b041-4358-54e3-9af3-dc6072fbbd6a",
+  "__record_size_wo_doccontent": 111440,
+  "PI": [
+   "Maule, Jake",
+   "Pierson, Duane"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "NEEMO-SWAB"
+  ],
+  "mission_id": [
+   [
+    [
+     "NEEMO 5"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "proposal_date": [],
+  "proposal_source": [],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Maule, Jake",
+   "Pierson, Duane"
+  ],
+  "program_name": [
+   "Ground"
+  ],
+  "archive_status": "Data preservation is complete. All datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Ground",
+  "__source_field_concat": "NEEMO 5 cl62azc38cdda01o65a6rdle4 Microbiology  N/A NEEMO-SWAB Ground Data preservation is complete. All datasets are publicly available.",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<br>\r\nBacterial growth within human habitats is not unusual and usually poses no danger to the inhabitants. However, within isolated habitats, where air ventilation and circulation may be limited and the relative humidity high, the levels of bacterial growth may increase to levels high enough to pose a health hazard to the crew. \r\n<P>\r\nBacterial endotoxin is found in many bacteria, and its concentration has been used as a relative assessment of bacterial levels. However, most traditional enumeration and identification techniques require days to complete.  Habitat swab samples were analyzed with an automated real-time monitor of bacterial endotoxin, called the Portable Test System (PTS).  The PTS was operated by the crew during the mission.  The results were then correlated with advanced microbiological analysis of the same swab samples in the laboratory following the mission. This correlation will determine if this new system can detect trends in bacterial growth that could affect crew health.\r\n<P>\r\nAt present, there is no rapid, real-time bacterial-detection device for crew use on the International Space Station (ISS). Monitoring of bacteria onboard requires the return of swab samples for microbiological analysis on the ground.  This method provides high-quality identification of bacteria onboard, but with a significant time lag between swab sampling and results. The PTS will enable the crew to obtain quick, \"on-the-spot\" results of bacterial levels onboard, without assistance from the ground; a factor useful for crews on long duration missions, where supply/re-supply missions may be infrequent. The crew could test key locations (such as air-conditioning vents, fluids for injection, surfaces and the water system), identify \"hot-spot\" areas of rapid bacterial growth at an early stage, and use cleaning procedures to prevent potential hazards to crew health. \r\n<P>\r\nAPPROACH:<br>\r\nBaseline data (swabs and PTS tests) were collected by National Oceanic and Atmospheric Administration (NOAA) divers on four and three days before the mission began.  The NEEMO 5 crew took daily swab samples from five different areas within the habitat: wet porch, wetsuit, living quarters, Aquarius tap water and cabin air. These samples were both analyzed during (by the crew) and after (in Johnson Space Center (JSC) laboratories) the mission. Both sets of results were compared and correlated. The crew analyzed samples for bacteria using a small, hand-held, automated device, known as the Portable Test System (PTS).  The PTS specifically detects the bacteria cell membrane component lipo-polysaccharide (LPS) and provides results 10 minutes following addition of the sample.   Samples (swabs and PTS tests) were also collected post-mission on R+0 before habitat power-down.\r\n<P>\r\nRESULTS:<br>\r\nThe PTS was found to be a robust instrument for detection of bacterial levels during a mission situation. Sterile conditions were not required and the system was found to be user-friendly by the crew. At present, no such portable device is available on ISS to test bacterial levels, and all microbiological analysis must occur on the ground after extensive storage time and transportation in non-refrigerated conditions. NEEMO 5 proved to be a valuable opportunity to correlate results obtained with PTS in Aquarius with those obtained in the Microbiology Laboratory at JSC using culture methods. Results correlated well between the two methods and some bacterial species of potential health concern were identified using culture methods. Since NEEMO 5, the PTS cuvettes have been modified by Dr. Norm Wainwright (Marine Biology Lab, Woods Hole, MA) to allow the detection of fungi, gram\u2013positive bacteria, and potentially dangerous bacterial species by modification of the antibodies used for detection. \r\n<P>\r\n1. Few species in the Aquarius habitat were found to be hazardous:<BR>\r\n<UL><LI>Wet porch: Bacterial/fungal levels consistently high, as expected\r\n<LI>Wetsuit: High Bacterial levels, fungi detected on 4 days only \r\n<LI><I>Pseudomonas aeruginosa</I>, a bacterium that causes infections of the urinary tract and respiratory system, dermatitis and soft tissue infections was found\r\n<LI>PTS data was lower and more variable\r\n<LI>Possibility that following swab, bacteria could have grown within the sample tube to log phase, prior to Standard Culture testing (days/weeks later), but not before PTS testing (same day)\r\n<LI>Living quarters: Similar microbial levels to office environment \r\n<LI>Non-potable water: Low bacterial/fungal levels \r\n<LI>Higher pre-mission levels may be due to low/absent use of faucet pre-mission\r\n<LI>Air: Low bacterial/fungal levels \r\n<LI><I>Stachybotrys</I>, a fungus linked to indoor quality problems, was found\r\n<LI>Potable water (sealed jugs): Higher than desirable bacteria/endotoxin\r\n</UL>\r\n<P>\r\n2.   PTS performed nominally in a humid and hyperbaric environment<BR>\r\n<UL><LI>Some data errors detected, possibly due to power interruptions</UL>\r\n<P>\r\n3.   Positive correlation (0.92) between data obtained with PTS and Standard Culture methods<BR>\r\n<UL><LI>The greatest variability was observed with wetsuit test</UL>\r\n<P>\r\n4.   Minimum training required for crew to operate PTS\r\n<UL><LI>Crew found PTS easy to use</UL><END>",
+  "__doi": "10.83263/ct4f-fh71",
+  "__doi_record_creation_date": "2026-08-23T04:24:38",
+  "__doi_record_modified_date": "2026-08-23T04:24:38"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002139",
+   "label": "NEEMO_SWAB__1810738439",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Fungal Concentration on Aquarius Surfaces",
+    "dataset_catalog": "NEEMO_SWAB__1810738439",
+    "dataset_description": [
+     "Fungal concentration measured during the NEEMO 5 mission are shown in this table for the wet porch, living quarters, air, water, and wetsuit. <BR>Source: unpublished data."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "NEEMO-SWAB"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "d768ea8f-0aed-5b3f-b160-0c5ba8d7d950",
+     "label": "NEEMO_SWAB__1810738439.xls_NEEMO_5_NEEMO-SWAB_2010_181_070603.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001273",
+   "label": "NEEMO_SWAB__1810959322",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Endotoxin Units: Portable Test System",
+    "dataset_catalog": "NEEMO_SWAB__1810959322",
+    "dataset_description": [
+     "This table shows results from tests taken using the portable test system during the NEEMO 5 mission.<BR>Source: unpublished data."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "NEEMO-SWAB"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "dc0b02fb-d589-57e3-94c2-a9df7bdb66e7",
+     "label": "NEEMO_SWAB__1810959322.xls_NEEMO_5_NEEMO-SWAB_2010_182_070728.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000157",
+   "label": "NEEMO_SWAB__1810945545",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Bacterial and Fungal Isolates from Aquarius Surfaces",
+    "dataset_catalog": "NEEMO_SWAB__1810945545",
+    "dataset_description": [
+     "Bacterial and fungal isolates found on Aquarius surfaces during the NEEMO 5 mission are shown in this table for the wet porch, living quarters, air, potable water, and wetsuit.<BR>Source: unpublished data."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "NEEMO-SWAB"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "868098a0-8458-58e9-93cd-c3897c62925f",
+     "label": "NEEMO_SWAB__1810945545.xls_NEEMO_5_NEEMO-SWAB_2010_181_090644.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000884",
+   "label": "NEEMO_SWAB__1810731461",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Bacterial Concentrations and Endotoxin Levels on Aquarius Surfaces",
+    "dataset_catalog": "NEEMO_SWAB__1810731461",
+    "dataset_description": [
+     "Bacterial count and endotoxin levels measured during the NEEMO 5 mission are shown in this table for the wet porch, living quarters, air, non-potable water, and wetsuit.<BR>Source: unpublished data."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "NEEMO-SWAB"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "d8aff3aa-11b6-547e-b8ab-197b959ad4c9",
+     "label": "NEEMO_SWAB__1810731461.xls_NEEMO_5_NEEMO-SWAB_2010_181_070649.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001392",
+   "label": "NEEMO_SWAB__1810742484",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Bacterial Concentration in Aquarius Potable Water",
+    "dataset_catalog": "NEEMO_SWAB__1810742484",
+    "dataset_description": [
+     "Bacterial concentration measured in potable water during the NEEMO 5 mission are shown in this table in CFU/ml.<BR>Source: unpublished data."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "NEEMO-SWAB"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "f498ba53-050f-5858-a434-b8527aa2580b",
+     "label": "NEEMO_SWAB__1810742484.xls_NEEMO_5_NEEMO-SWAB_2010_181_070605.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002043",
+   "label": "NEEMO_SWAB__1810748531",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Bacterial Isolates from Aquarius Potable Water",
+    "dataset_catalog": "NEEMO_SWAB__1810748531",
+    "dataset_description": [
+     "Bacterial isolates found in potable water during the NEEMO 5 mission are shown in this table.<BR>Source: unpublished data."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "NEEMO-SWAB"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "399b214f-7705-5a30-9328-b67e8e90d380",
+     "label": "NEEMO_SWAB__1810748531.xls_NEEMO_5_NEEMO-SWAB_2010_181_090647.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002059",
+   "label": "NEEMO_SWAB__134085021",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Data Collection Timetables for NEEMO-SWAB",
+    "dataset_catalog": "NEEMO_SWAB__134085021",
+    "dataset_description": [
+     "This spreadsheet represents the data collection timetables for this experiment: Portable Test System (PTS) Assembly and Analysis, and Swab Sample.  Information in this spreadsheet may include details about the test protocol, data collection constraints, parameters measured, hardware used, scheduled versus actual days of data collection, and subject information."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "NEEMO-SWAB"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "b9c6a176-b100-53f4-843a-dfdf5cd119d7",
+     "label": "NEEMO_SWAB__1340850211.xls_NEEMO_5_NEEMO-SWAB_2010_141_050512.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

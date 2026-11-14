@@ -1,0 +1,133 @@
+{
+ "record": {
+  "id": "1b4c8de8-ec63-533a-87db-16e36cd029c7",
+  "_id": "1b4c8de8-ec63-533a-87db-16e36cd029c7",
+  "experiment_title": "The Effect of Spaceflight on Cartilage Cell Cycling and Differentiation",
+  "archive_status_index": 1,
+  "pub_document_number": "ARCPUB000114",
+  "parameter_html": "None",
+  "__source_key": "cl62au5decb0n01o64qle0nnx",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Doty, Stephen\">Principal Investigator: Doty, Stephen</a>",
+  "experiment_type_lk": [
+   "Shuttle Life Sciences Research (Middeck)"
+  ],
+  "__record_modified_date": "2026-08-23T04:17:48.562692+00:00",
+  "__indexed": "2026-08-23T04:17:48.562692+00:00",
+  "session_type": "Flight",
+  "__record_creation_date": "2022-07-28T19:41:05.493Z",
+  "__record_size": 45073,
+  "__record_version": 29,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<P>Although space flight has long been known to induce loss of bone and muscle, the exact mechanism of loss is not understood.  This experiment studied the effect of microgravity conditions on the cell differentiation process, which appears to be the physiological event most affected by space flight.  Cartilage cells from chick limb buds flown in space were studied to determine the impacts on the differentiated cell, the cell cycle and differentiation process, and cell death.<P>\r\n\r\nAPPROACH:<P>Mesenchymal cells from chick limb buds were grown for eight days preflight and then placed into WRAIR incubators.  The incubators were divided into flight and Ground Control groups, and the flight group was flown for nine days.  Cartilage samples were fixed with 70% ethyl alcohol and 2% sucrose at 2, 4, 7, and 9 days of flight.   After flight, the samples were collected, divided and analyzed using either flow cytometry or immunocytochemistry.<P>\r\n\r\nRESULTS:<P>After performing flow cytometry, the flight cells showed significantly higher Cyclin E, PCNA and p27 protein content compared to Ground Controls, which indicates that the flight cells experienced more cell cycle activity.  Flight cells metabolized glucose to lactate continuously throughout the flight and possibly at a reduced rate compared to Ground Controls, although this significance is still indeterminate.  No significant differences were found when comparing number of cartilage nodules and cell cycling within the nodules in the flight and control groups.  In conclusion, this experiment proved indeterminate due to significant variation in the flow cytometry and immunocytochemistry results.  However, some of the collected data aided the understanding of how the cycling cells contribute to tissue growth.",
+  "payload_id": "CCM.08",
+  "CombinedSpecies": [
+   [
+    "Chicken (Gallus gallus) White leghorn"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "9601378",
+  "indexed": "2026-08-23T04:17:48.562692+00:00",
+  "experiment_related": [
+   "No related"
+  ],
+  "GUID": "cl62au5decb0n01o64qle0nnx",
+  "exp_index": 956,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Skeletal physiology",
+   "Cell and molecular biology"
+  ],
+  "pme_role_with_name": [
+   "Principal Investigator: Doty, Stephen"
+  ],
+  "missions": [
+   [
+    [
+     "STS-95"
+    ]
+   ]
+  ],
+  "__dirid": "1b4c8de8-ec63-533a-87db-16e36cd029c7",
+  "__record_size_wo_doccontent": 45073,
+  "PI": [
+   "Doty, Stephen"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "parameter_name": "experiment_parms",
+  "experiment_identifier": [
+   "9601378"
+  ],
+  "keyword": [],
+  "mission_id": [
+   [
+    [
+     "STS-95"
+    ]
+   ]
+  ],
+  "center": [
+   "Ames Research Center"
+  ],
+  "ncindex": [
+   7
+  ],
+  "proposal_date": [],
+  "species": [
+   "Chicken"
+  ],
+  "PrincipalInvestigator": [
+   "Doty, Stephen"
+  ],
+  "program_name": [
+   "Shuttle Program"
+  ],
+  "archive_status": "Data preservation is complete. All datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Shuttle Program",
+  "__source_field_concat": "Flight ARCPUB000114 CCM.08 cl62au5decb0n01o64qle0nnx None  The Effect of Spaceflight on Cartilage Cell Cycling and Differentiation 9601378 Shuttle Program Data preservation is complete. All datasets are publicly available. experiment_parms",
+  "__icon_type": "chicken",
+  "__description": "OBJECTIVES:<P>Although space flight has long been known to induce loss of bone and muscle, the exact mechanism of loss is not understood.  This experiment studied the effect of microgravity conditions on the cell differentiation process, which appears to be the physiological event most affected by space flight.  Cartilage cells from chick limb buds flown in space were studied to determine the impacts on the differentiated cell, the cell cycle and differentiation process, and cell death.<P>\r\n\r\nAPPROACH:<P>Mesenchymal cells from chick limb buds were grown for eight days preflight and then placed into WRAIR incubators.  The incubators were divided into flight and Ground Control groups, and the flight group was flown for nine days.  Cartilage samples were fixed with 70% ethyl alcohol and 2% sucrose at 2, 4, 7, and 9 days of flight.   After flight, the samples were collected, divided and analyzed using either flow cytometry or immunocytochemistry.<P>\r\n\r\nRESULTS:<P>After performing flow cytometry, the flight cells showed significantly higher Cyclin E, PCNA and p27 protein content compared to Ground Controls, which indicates that the flight cells experienced more cell cycle activity.  Flight cells metabolized glucose to lactate continuously throughout the flight and possibly at a reduced rate compared to Ground Controls, although this significance is still indeterminate.  No significant differences were found when comparing number of cartilage nodules and cell cycling within the nodules in the flight and control groups.  In conclusion, this experiment proved indeterminate due to significant variation in the flow cytometry and immunocytochemistry results.  However, some of the collected data aided the understanding of how the cycling cells contribute to tissue growth.",
+  "__doi": "10.83263/rvxz-dc60",
+  "__doi_record_creation_date": "2026-08-23T04:17:48",
+  "__doi_record_modified_date": "2026-08-23T04:17:48"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001556",
+   "label": "9601378__880322728",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "The Effect of Spaceflight on Cartilage Cell Cycling and Differentiation",
+    "dataset_catalog": "9601378__880322728",
+    "dataset_description": [
+     "Glucose utilization during flight and for ground controls, and all the flow cytometry data for this project."
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "9601378"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "68019fe4-edbc-5014-825c-3f10110e63a1",
+     "label": "CartilageData_Doty.zip_STS-95_9601378_2017_88_030347.zip",
+     "type": "file",
+     "ext": "zip",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

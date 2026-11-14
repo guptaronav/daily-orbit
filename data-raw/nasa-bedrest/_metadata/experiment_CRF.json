@@ -1,0 +1,3772 @@
+{
+ "record": {
+  "id": "eeb9bd34-bdd4-5115-b139-adf2c9927962",
+  "_id": "eeb9bd34-bdd4-5115-b139-adf2c9927962",
+  "__is_locked": false,
+  "experiment_title": "Case Report Form",
+  "experiment_alias": "CRF,eCRF",
+  "__source_key": "cl62azs47cdh401o63sr86ld3",
+  "experiment_type": [
+   [
+    "Flight Analogs Project (FAP)"
+   ],
+   [
+    "Artificial Gravity (Fractional Gravity)"
+   ],
+   [
+    "NASA Bedrest Studies"
+   ],
+   [
+    "NASA Ground-Based Investigations"
+   ]
+  ],
+  "AssignedArchivist": [
+   "Liddell, Nyaia A."
+  ],
+  "keyword": [
+   "Bed rest",
+   "Urine",
+   "Blood",
+   "Feces",
+   "Water"
+  ],
+  "__record_version": 35,
+  "experiment_description": "OBJECTIVES:<br>\nDuring bed rest studies, the Case Report Form (CRF) provided a mechanism by which nursing and dietary staff, and other subject monitors, could record subject monitoring data. The information was then shared with each of the experiment teams as necessary. \n<div>\nAPPROACH:<br>\nThe CRF was comprised of the following forms:\n</div><div></div><li>Medical Status and Vitals: a daily record of the subject's vital signs, including blood pressure, respiration rate, pulse, body temperature, and weight. The temperature and ambient humidity of the subject's room were also recorded daily. Height was measured once at the beginning of the pre-test, in-test, and post-test periods. \n</li><li>Daily Meal Status: a daily record of the times that breakfast, lunch, and dinner meals were started and completed. Any deviation from the dietary protocol was noted. \n</li><li>Stretching Session I and II: a daily record indicating whether two separate stretching sessions were completed during the 24-hour period. \n</li><li>Medication Log: a record of all medication given during the campaign, including the dosage, time of administration, medical indication, and outcome. \n</li><li>Protocol Deviation Summary: a record of any protocol deviations that might have occurred during the campaign. \n</li><li>Symptom Complaint Log: a record of all complaints reported by the subject during the campaign, the measures taken address the issue, and the resolution of the complaint. \n</li><li>Urine Collection Log: a record of all urine specimens collected during the campaign, including the weight and specific gravity of each specimen. \n</li><li>Water Intake Log: a daily record of water intake by the subject. \n</li><li>Fecal Collection Log: a record of the date, time, and weight of each bowel movement. \n</li><li>Emesis Log: a record of each emesis episode (if any), for the Artificial Gravity Pilot Study, including the measured weight of the emesis. \n</li><li>Test Specific CRF: each bed rest test had a test-specific CRF form to record details about each testing session. \n</li><li>Sample Collection CRF: specific details regarding the collection of each blood and saliva specimen was documented. \n<div>\nThese are the case report forms that were collected and documented during Campaign 11 and Campaign 19.</div></li><li>\nMedical Status and Vitals: a daily record of the subject's vital signs, including blood pressure, respiration rate, pulse, body temperature, and weight. The temperature and ambient humidity of the subject's room were also recorded daily. Height is measured once at the beginning of the pre-test, in-test, and post-test periods. \n</li><li> Daily Meal Status: a daily record of the times that breakfast, lunch, and dinner meals were started and completed. Any deviation from the dietary protocol was noted. \n</li><li>Medication Log: a record of all medication given during the campaign, including the dosage, time of administration, medical indication, and outcome. \n</li><li> Issues Notice: a record of any issues, or protocol deviations that might have occurred during the campaign.  \n</li><li> Symptom Complaint Log: a record of all complaints reported by the subject during the campaign, the measures taken address the issue, and the resolution of the complaint. \n</li><li> Water Intake and Output Log: a daily record of water and urine intake and output by the subject.\n</li><li> Weight Chart: Subject weight is recorded pre, in and post-test in kilograms by bed rest day.   \n\n<div>RESULTS:<br>\nAll experiments using the CRF have been completed. Tabular results are available for the public.</div></li>",
+  "indexed": "2026-08-23T04:24:45.341208+00:00",
+  "GUID": "cl62azs47cdh401o63sr86ld3",
+  "_file_extension": "human",
+  "archive_status": "Data preservation is complete.  All datasets are publicly available.",
+  "__model_type": "lsda_experiment",
+  "__dirid": "eeb9bd34-bdd4-5115-b139-adf2c9927962",
+  "__record_size_wo_doccontent": 137277,
+  "__update_method": "Update CDM",
+  "experiment_identifier": [
+   "CRF",
+   "CRF,eCRF"
+  ],
+  "CompleteArchivalExpectedInFiscalYear": [
+   "0"
+  ],
+  "experiment_type_lk": [
+   "Flight Analogs Project (FAP)",
+   "Artificial Gravity (Fractional Gravity)",
+   "NASA Bedrest Studies",
+   "NASA Ground-Based Investigations"
+  ],
+  "__record_modified_date": "2026-08-23T04:24:45.341208+00:00",
+  "nasa_center": "JSC",
+  "__indexed": "2026-08-23T04:24:45.341208+00:00",
+  "alias": [
+   "CRF",
+   "eCRF"
+  ],
+  "__record_creation_date": "2022-07-28T19:56:55.823Z",
+  "__record_size": 137277,
+  "species_strain": [
+   [
+    "N/A"
+   ]
+  ],
+  "__model_version": 60,
+  "species_sci_name": [
+   [
+    "Homo sapiens"
+   ]
+  ],
+  "payload_id": [
+   "Campaign 19",
+   "DBLS",
+   "HDT30",
+   "LAFSP2",
+   "Campaign 5",
+   "Pilot",
+   "Campaign 3",
+   "Campaign 1",
+   "CFT70",
+   "ACG",
+   "LAFS"
+  ],
+  "CombinedSpecies": [
+   "Human (Homo sapiens) N/A"
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "ncindex": 2,
+  "researchIndex": [
+   6
+  ],
+  "experiment_id": "CRF",
+  "center": "JSC",
+  "parameter_name": [
+   "Age",
+   "Ambient temperature",
+   "Bed rest day",
+   "Bed rest occur date",
+   "Bed rest phase",
+   "Bed rest record number",
+   "Bed rest subject ID number",
+   "Body mass index (BMI), screening",
+   "Body temperature",
+   "Bowel movement",
+   "Bowel movement description",
+   "Bowel movement quantity",
+   "Date of birth",
+   "Diastolic blood pressure",
+   "Ethnicity",
+   "Gender",
+   "Height, screening",
+   "Height, testing",
+   "Humidity",
+   "Initial pain score",
+   "Issue reported number",
+   "Meal comments",
+   "Meal completed",
+   "Meal duration",
+   "Meal finish time",
+   "Meal issue reported",
+   "Meal option",
+   "Meal related to test",
+   "Meal start time",
+   "Medication comments",
+   "Medication date",
+   "Medication name",
+   "Medication quantity",
+   "Medication route",
+   "Medication, time of administration",
+   "Menstrual period, bed rest day",
+   "Menstrual period, comments",
+   "Menstrual period, last bed rest day",
+   "Menstrual period, last start date",
+   "Menstrual period, length of cycle",
+   "Menstrual period, next actual start date",
+   "Menstrual period, next estimated start date",
+   "Outcome pain score",
+   "Pain score",
+   "Protocol deviation/issue action taken",
+   "Protocol deviation/issue characterization",
+   "Protocol deviation/issue classification",
+   "Protocol deviation/issue description of action taken",
+   "Protocol deviation/issue deviation subtype",
+   "Protocol deviation/issue deviation type",
+   "Protocol deviation/issue disposition of comments",
+   "Protocol deviation/issue reported",
+   "Protocol deviation/issue reported by",
+   "Protocol deviation/issue reported to",
+   "Protocol deviation/issue science impact",
+   "Pulse",
+   "Related to test",
+   "Respiration rate",
+   "Screening date",
+   "Screening days in test",
+   "Screening days post-test",
+   "Screening days pre-test",
+   "Screening days total",
+   "Screening project",
+   "Screening release date",
+   "Screening start date",
+   "Screening status",
+   "Screening study assignment",
+   "Screening sub_study",
+   "Screening subject ID number",
+   "Stretch comments",
+   "Stretch completed",
+   "Stretch duration",
+   "Stretch finish time",
+   "Stretch issue reported",
+   "Stretch issue reported number",
+   "Stretch start time",
+   "Subject tilt verified",
+   "Symptom complaint action",
+   "Symptom complaint comments",
+   "Symptom complaint intervention",
+   "Symptom complaint occur time",
+   "Symptom complaint outcome",
+   "Symptom complaint outcome date",
+   "Symptom complaint outcome time",
+   "Symptom complaint pain score",
+   "Symptom complaint result of test",
+   "Symptom complaint symptom",
+   "Symptom complaint test",
+   "Systolic blood pressure",
+   "Urine collection container weight",
+   "Urine collection net sample weight",
+   "Urine collection notes",
+   "Urine collection nurse comments",
+   "Urine collection sample plus container weight",
+   "Urine collection specific gravity",
+   "Urine collection time",
+   "Vital signs, comments",
+   "Vital signs, time",
+   "Water intake daily goal",
+   "Water intake daily total",
+   "Water intake empty/remaining container weight",
+   "Water intake full container weight",
+   "Water intake overage/shortage",
+   "Water intake time served",
+   "Water intake total fluid weight",
+   "Weight, screening",
+   "Weight, testing"
+  ],
+  "exp_index": 1306,
+  "research_area": [
+   "Clinical medicine"
+  ],
+  "species": [
+   [
+    "Human"
+   ]
+  ],
+  "pme_role_with_name": [
+   "Principal Investigator: Meck, Janice Fritsch- Yelle",
+   "Technical Assistant to Principal Investigator: Bridgeford, Jeffrey S.",
+   "Principal Investigator: Paloski, William H.",
+   "Principal Investigator: Cromwell, Ronita L."
+  ],
+  "missions": [
+   "Campaign 19",
+   "DBLS",
+   "HDT30",
+   "LAFSP2",
+   "UTMB Campaign 5",
+   "Pilot",
+   "UTMB Campaign 3",
+   "UTMB Campaign 1",
+   "UTMB Campaign 11",
+   "Campaign 17",
+   "LAFS"
+  ],
+  "PI": [
+   "Meck, Janice Fritsch- Yelle",
+   "Paloski, William H.",
+   "Cromwell, Ronita L."
+  ],
+  "sort": [
+   3,
+   "3c0db4b4-88c1-564a-b583-c94c00771dee"
+  ],
+  "parameter_html": "<table><tr><td>Age</td></tr><tr><td>Ambient temperature</td></tr><tr><td>Bed rest day</td></tr><tr><td>Bed rest occur date</td></tr><tr><td>Bed rest phase</td></tr><tr><td>Bed rest record number</td></tr><tr><td>Bed rest subject ID number</td></tr><tr><td>Body mass index (BMI), screening</td></tr><tr><td>Body temperature</td></tr><tr><td>Bowel movement</td></tr><tr><td>Bowel movement description</td></tr><tr><td>Bowel movement quantity</td></tr><tr><td>Date of birth</td></tr><tr><td>Diastolic blood pressure</td></tr><tr><td>Ethnicity</td></tr><tr><td>Gender</td></tr><tr><td>Height, screening</td></tr><tr><td>Height, testing</td></tr><tr><td>Humidity</td></tr><tr><td>Initial pain score</td></tr><tr><td>Issue reported number</td></tr><tr><td>Meal comments</td></tr><tr><td>Meal completed</td></tr><tr><td>Meal duration</td></tr><tr><td>Meal finish time</td></tr><tr><td>Meal issue reported</td></tr><tr><td>Meal option</td></tr><tr><td>Meal related to test</td></tr><tr><td>Meal start time</td></tr><tr><td>Medication comments</td></tr><tr><td>Medication date</td></tr><tr><td>Medication name</td></tr><tr><td>Medication quantity</td></tr><tr><td>Medication route</td></tr><tr><td>Medication, time of administration</td></tr><tr><td>Menstrual period, bed rest day</td></tr><tr><td>Menstrual period, comments</td></tr><tr><td>Menstrual period, last bed rest day</td></tr><tr><td>Menstrual period, last start date</td></tr><tr><td>Menstrual period, length of cycle</td></tr><tr><td>Menstrual period, next actual start date</td></tr><tr><td>Menstrual period, next estimated start date</td></tr><tr><td>Outcome pain score</td></tr><tr><td>Pain score</td></tr><tr><td>Protocol deviation/issue action taken</td></tr><tr><td>Protocol deviation/issue characterization</td></tr><tr><td>Protocol deviation/issue classification</td></tr><tr><td>Protocol deviation/issue description of action taken</td></tr><tr><td>Protocol deviation/issue deviation subtype</td></tr><tr><td>Protocol deviation/issue deviation type</td></tr><tr><td>Protocol deviation/issue disposition of comments</td></tr><tr><td>Protocol deviation/issue reported</td></tr><tr><td>Protocol deviation/issue reported by</td></tr><tr><td>Protocol deviation/issue reported to</td></tr><tr><td>Protocol deviation/issue science impact</td></tr><tr><td>Pulse</td></tr><tr><td>Related to test</td></tr><tr><td>Respiration rate</td></tr><tr><td>Screening date</td></tr><tr><td>Screening days in test</td></tr><tr><td>Screening days post-test</td></tr><tr><td>Screening days pre-test</td></tr><tr><td>Screening days total</td></tr><tr><td>Screening project</td></tr><tr><td>Screening release date</td></tr><tr><td>Screening start date</td></tr><tr><td>Screening status</td></tr><tr><td>Screening study assignment</td></tr><tr><td>Screening sub_study</td></tr><tr><td>Screening subject ID number</td></tr><tr><td>Stretch comments</td></tr><tr><td>Stretch completed</td></tr><tr><td>Stretch duration</td></tr><tr><td>Stretch finish time</td></tr><tr><td>Stretch issue reported</td></tr><tr><td>Stretch issue reported number</td></tr><tr><td>Stretch start time</td></tr><tr><td>Subject tilt verified</td></tr><tr><td>Symptom complaint action</td></tr><tr><td>Symptom complaint comments</td></tr><tr><td>Symptom complaint intervention</td></tr><tr><td>Symptom complaint occur time</td></tr><tr><td>Symptom complaint outcome</td></tr><tr><td>Symptom complaint outcome date</td></tr><tr><td>Symptom complaint outcome time</td></tr><tr><td>Symptom complaint pain score</td></tr><tr><td>Symptom complaint result of test</td></tr><tr><td>Symptom complaint symptom</td></tr><tr><td>Symptom complaint test</td></tr><tr><td>Systolic blood pressure</td></tr><tr><td>Urine collection container weight</td></tr><tr><td>Urine collection net sample weight</td></tr><tr><td>Urine collection notes</td></tr><tr><td>Urine collection nurse comments</td></tr><tr><td>Urine collection sample plus container weight</td></tr><tr><td>Urine collection specific gravity</td></tr><tr><td>Urine collection time</td></tr><tr><td>Vital signs, comments</td></tr><tr><td>Vital signs, time</td></tr><tr><td>Water intake daily goal</td></tr><tr><td>Water intake daily total</td></tr><tr><td>Water intake empty/remaining container weight</td></tr><tr><td>Water intake full container weight</td></tr><tr><td>Water intake overage/shortage</td></tr><tr><td>Water intake time served</td></tr><tr><td>Water intake total fluid weight</td></tr><tr><td>Weight, screening</td></tr><tr><td>Weight, testing</td></tr><tr></tr></table>",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Cromwell, Ronita L.\">Principal Investigator: Cromwell, Ronita L.</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Paloski, William H.\">Principal Investigator: Paloski, William H.</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Meck, Janice Fritsch- Yelle\">Principal Investigator: Meck, Janice Fritsch- Yelle</a>",
+  "Program": "Ground",
+  "mission_id": [
+   "Campaign 19",
+   "DBLS",
+   "HDT30",
+   "LAFSP2",
+   "UTMB Campaign 5",
+   "Pilot",
+   "UTMB Campaign 3",
+   "UTMB Campaign 1",
+   "UTMB Campaign 11",
+   "Campaign 17",
+   "LAFS"
+  ],
+  "PrincipalInvestigator": [
+   "Meck, Janice Fritsch- Yelle",
+   "Paloski, William H.",
+   "Cromwell, Ronita L."
+  ],
+  "__source_field_concat": "human cl62azs47cdh401o63sr86ld3 JSC JSC CRF,eCRF Case Report Form CRF Ground Data preservation is complete.  All datasets are publicly available.",
+  "__icon_type": "",
+  "__description": "OBJECTIVES:<br>\nDuring bed rest studies, the Case Report Form (CRF) provided a mechanism by which nursing and dietary staff, and other subject monitors, could record subject monitoring data. The information was then shared with each of the experiment teams as necessary. \n<div>\nAPPROACH:<br>\nThe CRF was comprised of the following forms:\n</div><div></div><li>Medical Status and Vitals: a daily record of the subject's vital signs, including blood pressure, respiration rate, pulse, body temperature, and weight. The temperature and ambient humidity of the subject's room were also recorded daily. Height was measured once at the beginning of the pre-test, in-test, and post-test periods. \n</li><li>Daily Meal Status: a daily record of the times that breakfast, lunch, and dinner meals were started and completed. Any deviation from the dietary protocol was noted. \n</li><li>Stretching Session I and II: a daily record indicating whether two separate stretching sessions were completed during the 24-hour period. \n</li><li>Medication Log: a record of all medication given during the campaign, including the dosage, time of administration, medical indication, and outcome. \n</li><li>Protocol Deviation Summary: a record of any protocol deviations that might have occurred during the campaign. \n</li><li>Symptom Complaint Log: a record of all complaints reported by the subject during the campaign, the measures taken address the issue, and the resolution of the complaint. \n</li><li>Urine Collection Log: a record of all urine specimens collected during the campaign, including the weight and specific gravity of each specimen. \n</li><li>Water Intake Log: a daily record of water intake by the subject. \n</li><li>Fecal Collection Log: a record of the date, time, and weight of each bowel movement. \n</li><li>Emesis Log: a record of each emesis episode (if any), for the Artificial Gravity Pilot Study, including the measured weight of the emesis. \n</li><li>Test Specific CRF: each bed rest test had a test-specific CRF form to record details about each testing session. \n</li><li>Sample Collection CRF: specific details regarding the collection of each blood and saliva specimen was documented. \n<div>\nThese are the case report forms that were collected and documented during Campaign 11 and Campaign 19.</div></li><li>\nMedical Status and Vitals: a daily record of the subject's vital signs, including blood pressure, respiration rate, pulse, body temperature, and weight. The temperature and ambient humidity of the subject's room were also recorded daily. Height is measured once at the beginning of the pre-test, in-test, and post-test periods. \n</li><li> Daily Meal Status: a daily record of the times that breakfast, lunch, and dinner meals were started and completed. Any deviation from the dietary protocol was noted. \n</li><li>Medication Log: a record of all medication given during the campaign, including the dosage, time of administration, medical indication, and outcome. \n</li><li> Issues Notice: a record of any issues, or protocol deviations that might have occurred during the campaign.  \n</li><li> Symptom Complaint Log: a record of all complaints reported by the subject during the campaign, the measures taken address the issue, and the resolution of the complaint. \n</li><li> Water Intake and Output Log: a daily record of water and urine intake and output by the subject.\n</li><li> Weight Chart: Subject weight is recorded pre, in and post-test in kilograms by bed rest day.   \n\n<div>RESULTS:<br>\nAll experiments using the CRF have been completed. Tabular results are available for the public.</div></li>",
+  "__doi": "10.83263/wjw1-ta27",
+  "__doi_record_creation_date": "2026-08-23T04:24:45",
+  "__doi_record_modified_date": "2026-08-23T04:24:45"
+ },
+ "datasets": [
+  {
+   "key": "d0526cbe-f98f-5d44-b41b-8cb45bd99cfb",
+   "label": "CRF_Campaign_3_Water_Intake",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "UTMB Bedrest Campaign 3 Water Intake",
+    "dataset_catalog": "CRF_Campaign_3_Water_Intake",
+    "dataset_description": "This dataset contains Case Report Form (CRF) Water Intake data generated for subjects who participated in the UTMB Campaign 3 Bed Rest Study.",
+    "processing_level": [
+     "Processed Data"
+    ],
+    "experiment_id": [
+     "CRF"
+    ]
+   },
+   "meta": "44 files \u00b7 537.7 KB",
+   "date": "2025-09-12",
+   "children": [
+    {
+     "key": "c39897b2-2c4f-5c39-90a8-207831b090fb",
+     "label": "CRF_Campaign_3_Water_Intake_C3A_0992_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 5907,
+     "meta": "5.8 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "11884269-fc4c-583a-ac2e-d6ec8f1ac290",
+     "label": "CRF_Campaign_3_Water_Intake_C3G_9314_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 4824,
+     "meta": "4.7 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e7a50523-7cbd-5538-9ae2-a9ce3b43156b",
+     "label": "CRF_Campaign_3_Water_Intake_C3A_0446_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 5847,
+     "meta": "5.7 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "95330c5e-6e3e-5250-8424-9d54b135446f",
+     "label": "CRF_Campaign_3_Water_Intake_C3C_7772_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 15339,
+     "meta": "15.0 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "72d6d742-8e69-5786-846c-2c857c48306a",
+     "label": "CRF_Campaign_3_Water_Intake_C3G_9032_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 11546,
+     "meta": "11.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a4fa7790-de86-5731-9c8c-b84f453015e8",
+     "label": "CRF_Campaign_3_Water_Intake_C3G_9032_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 4720,
+     "meta": "4.6 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3752223f-5e3c-5f83-88ad-b499d777e540",
+     "label": "CRF_Campaign_3_Water_Intake_C3G_5580_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 13555,
+     "meta": "13.2 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a0d1cdad-c56c-5e75-8811-c078fe983365",
+     "label": "CRF_Campaign_3_Water_Intake_C3D_7961_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 5578,
+     "meta": "5.4 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4d30d109-9d71-5d4c-ae20-1538fffc6e38",
+     "label": "CRF_Campaign_3_Water_Intake_C3D_8615_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 13896,
+     "meta": "13.6 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "94fd1e89-e86b-5f96-aca7-2a5216bf089a",
+     "label": "CRF_Campaign_3_Water_Intake_C3G_9485_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 4804,
+     "meta": "4.7 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "725bd84b-e2bc-505d-a89a-06294ae9dbd3",
+     "label": "CRF_Campaign_3_Water_Intaken_C3C_7352_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 24050,
+     "meta": "23.5 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9ba49dd5-63ef-518f-aa7b-5b0320f0bccf",
+     "label": "CRF_Campaign_3_Water_Intake_C3G_5814_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 10699,
+     "meta": "10.4 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3d2071f9-51b1-5bc9-a5fb-5fe0b1e7b9de",
+     "label": "CRF_Campaign_3_Water_Intake_C3G_9485_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 12463,
+     "meta": "12.2 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1ee3d42d-4acc-5ffa-a301-345b9c5b616f",
+     "label": "CRF_Campaign_3_Water_Intake_C3D_7984_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 5576,
+     "meta": "5.4 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "cb004a52-fead-5d7f-8057-6ae079f2e6c8",
+     "label": "CRF_Campaign_3_Water_Intake_C3A_0992_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 32196,
+     "meta": "31.4 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8a9deda0-d8d5-5bf6-a15f-4fa5dab01660",
+     "label": "CRF_Campaign_3_Water_Intake_C3G_9314_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 10468,
+     "meta": "10.2 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ab563789-0937-5b02-9994-25c3452f8018",
+     "label": "CRF_Campaign_3_Water_Intake_C3D_3985_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 8027,
+     "meta": "7.8 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4c4feb3a-c6d7-57aa-93cf-d60969e98983",
+     "label": "CRF_Campaign_3_Water_Intake_C3G_9139_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 4690,
+     "meta": "4.6 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2d2a405e-932c-5305-89c0-7c80626abeba",
+     "label": "CRF_Campaign_3_Water_Intake_C3D_7984_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 20601,
+     "meta": "20.1 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "da66b34d-458e-5c89-b77e-2d86b0b9d740",
+     "label": "CRF_Campaign_3_Water_Intake_C3A_0446_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 20990,
+     "meta": "20.5 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8a81a651-8767-5c69-8c4c-2f4c1b5bf9ab",
+     "label": "CRF_Campaign_3_Water_Intake_C3D_5165_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 5990,
+     "meta": "5.8 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "245ea6b6-e4e2-5ee8-a079-2c358af9f964",
+     "label": "CRF_Campaign_3_Water_Intake_C3A_5788_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 15832,
+     "meta": "15.5 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3d8c9371-6f0f-5719-8002-dfcd09efe1fd",
+     "label": "CRF_Campaign_3_Water_Intake_C3G_9139_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 11671,
+     "meta": "11.4 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "eeeeba10-9e00-59ec-a0e7-de2993a8cc32",
+     "label": "CRF_Campaign_3_Water_Intake_C3A_5788_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 5962,
+     "meta": "5.8 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "004c7992-3168-5a08-8a13-a15b22232f3a",
+     "label": "CRF_Campaign_3_Water_Intake_C3G_5580_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 4776,
+     "meta": "4.7 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "21c5d319-cf70-5d93-b392-62d3806028aa",
+     "label": "CRF_Campaign_3_Water_Intake_C3G_6858_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 4747,
+     "meta": "4.6 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "753c8de8-ee7f-509f-9b24-ddc07d961b25",
+     "label": "CRF_Campaign_3_Water_Intake_C3A_0224_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 22986,
+     "meta": "22.4 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "209b7a9d-ac3d-58bd-96fc-099383112678",
+     "label": "CRF_Campaign_3_Water_Intake_C3H_5907_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 4989,
+     "meta": "4.9 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2c36ce0f-918d-5f3a-bce5-4665a02dc687",
+     "label": "CRF_Campaign_3_Water_Intake_C3E_6607_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 31087,
+     "meta": "30.4 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1c75eaf1-e820-53d8-b83a-27643b723bb2",
+     "label": "CRF_Campaign_3_Water_Intake_C3D_7961_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 21120,
+     "meta": "20.6 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0e2ad7bc-543a-565a-a12b-f5f12b37c2fe",
+     "label": "CRF_Campaign_3_Water_Intake_C3C_7352_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 6163,
+     "meta": "6.0 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "14ef7c9e-6aa4-5de5-ae7a-75ec26d0bd51",
+     "label": "CRF_Campaign_3_Water_Intake_C3D_8881_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 21911,
+     "meta": "21.4 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e8f71b6f-c668-582c-8ac5-13783b07fc57",
+     "label": "CRF_Campaign_3_Water_Intake_C3H_5907_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 12995,
+     "meta": "12.7 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b5fb6319-b6e9-59e3-9902-aa492d933250",
+     "label": "CRF_Campaign_3_Water_Intake_C3G_6858_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 10427,
+     "meta": "10.2 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "878cf9d6-7d61-5a88-9935-9f427170b1f9",
+     "label": "CRF_Campaign_3_Water_Intake_C3D_8779_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 18949,
+     "meta": "18.5 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "54bde4c7-5fc5-52e6-bc95-77e3c59ed772",
+     "label": "CRF_Campaign_3_Water_Intake_C3D_5165_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 29432,
+     "meta": "28.7 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e2836c42-21bb-5835-9566-60a626927b2b",
+     "label": "CRF_Campaign_3_Water_Intake_C3E_6043_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 23878,
+     "meta": "23.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0c180ef0-c501-53d9-aa86-d604bb97c1ca",
+     "label": "CRF_Campaign_3_Water_Intake_C3E_6607_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 6232,
+     "meta": "6.1 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2170b01a-9788-59dd-b8b5-545f979ecaa8",
+     "label": "CRF_Campaign_3_Water_Intake_C3A_0224_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 5748,
+     "meta": "5.6 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "fc6dbeef-6fe1-567b-9b5c-24fa6f363df6",
+     "label": "CRF_Campaign_3_Water_Intake_C3G_5814_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 4739,
+     "meta": "4.6 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1d2aa2d6-147c-5110-8cb7-b82604bc2bcd",
+     "label": "CRF_Campaign_3_Water_Intake_C3D_8881_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 6764,
+     "meta": "6.6 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d8a114b8-4ec1-5531-bef4-2515027e36a9",
+     "label": "CRF_Campaign_3_Water_Intake_C3C_7772_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 6136,
+     "meta": "6.0 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c46e8382-b692-506d-b0da-f24119f18868",
+     "label": "CRF_Campaign_3_Water_Intake_C3E_6043_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 7391,
+     "meta": "7.2 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "33b1b50e-8beb-56f0-a1e5-c82ec882b5cf",
+     "label": "CRF_Campaign_3_Water_Intake_C3D_3985_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 24912,
+     "meta": "24.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "625b7cf3-4cef-5983-8ce1-2e33ec807168",
+   "label": "CRF_Campaign_3_Symptom_Complaint",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "UTMB Bedrest Campaign 3 Symptom Complaint",
+    "dataset_catalog": "CRF_Campaign_3_Symptom_Complaint",
+    "dataset_description": "This dataset contains Case Report Form (CRF)  Symptom Complaint data generated for subjects who participated in the Campaign 3 Bed Rest Study.",
+    "processing_level": [
+     "Processed Data"
+    ],
+    "experiment_id": [
+     "CRF"
+    ]
+   },
+   "meta": "23 files \u00b7 255.1 KB",
+   "date": "2025-09-12",
+   "children": [
+    {
+     "key": "2bf07d1f-394f-517e-af3a-de7ad90a5a27",
+     "label": "CRF_Campaign_3_Symptom_Complaint_C3D_8615",
+     "type": "file",
+     "ext": "",
+     "file_size": 12712,
+     "meta": "12.4 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6c3a7ae8-f9e8-5e9e-8d99-a81d02cb1544",
+     "label": "CRF_Campaign_3_Symptom_Complaint_C3G_5580",
+     "type": "file",
+     "ext": "",
+     "file_size": 6623,
+     "meta": "6.5 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e7d24677-37b7-5334-8670-70ea17d6452e",
+     "label": "CRF_Campaign_3_Symptom_Complaint_C3G_5814",
+     "type": "file",
+     "ext": "",
+     "file_size": 35486,
+     "meta": "34.7 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ca0c2c17-1047-5233-8c74-6011406f8fdc",
+     "label": "CRF_Campaign_3_Symptom_Complaint_C3D_3985",
+     "type": "file",
+     "ext": "",
+     "file_size": 6954,
+     "meta": "6.8 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "90f2d6c2-cb46-5d70-bbe6-1c837ec8d043",
+     "label": "CRF_Campaign_3_Symptom_Complaint_C3C_7352",
+     "type": "file",
+     "ext": "",
+     "file_size": 5593,
+     "meta": "5.5 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a2ecb01d-86db-5dfa-a1f3-23e982006c3f",
+     "label": "CRF_Campaign_3_Symptom_Complaint_C3G_6858",
+     "type": "file",
+     "ext": "",
+     "file_size": 9429,
+     "meta": "9.2 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e1be4e57-0961-5130-b52d-290a623818d2",
+     "label": "CRF_Campaign_3_Symptom_Complaint_C3A_0992",
+     "type": "file",
+     "ext": "",
+     "file_size": 13377,
+     "meta": "13.1 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "239e28d0-5824-5e6c-b7ed-30f76860b04f",
+     "label": "CRF_Campaign_3_Symptom_Complaint_C3D_8779",
+     "type": "file",
+     "ext": "",
+     "file_size": 14455,
+     "meta": "14.1 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c745e098-6395-57cf-ac21-101faee085e3",
+     "label": "CRF_Campaign_3_Symptom_Complaint_C3H_5907",
+     "type": "file",
+     "ext": "",
+     "file_size": 7726,
+     "meta": "7.5 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ac4d414e-229f-574d-96ae-20e7249e323a",
+     "label": "CRF_Campaign_3_Symptom_Complaint_C3E_6607",
+     "type": "file",
+     "ext": "",
+     "file_size": 10748,
+     "meta": "10.5 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ce191672-16ac-5bae-9922-01a4389a30fe",
+     "label": "CRF_Campaign_3_Symptom_Complaint_C3G_9314",
+     "type": "file",
+     "ext": "",
+     "file_size": 8593,
+     "meta": "8.4 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "605ad423-25bd-5c19-9d35-42bcd930fa16",
+     "label": "CRF_Campaign_3_Symptom_Complaint_C3D_7984",
+     "type": "file",
+     "ext": "",
+     "file_size": 14241,
+     "meta": "13.9 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "edbc0d9e-a902-5768-9b38-943e6ac5aba5",
+     "label": "CRF_Campaign_3_Symptom_Complaint_C3C_7772",
+     "type": "file",
+     "ext": "",
+     "file_size": 7603,
+     "meta": "7.4 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "05903aaa-011d-5865-abf1-579246e4599c",
+     "label": "CRF_Campaign_3_Symptom_Complaint_C3D_7961",
+     "type": "file",
+     "ext": "",
+     "file_size": 4040,
+     "meta": "3.9 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c2b7e726-acf6-5d03-ab84-44298d53de0f",
+     "label": "CRF_Campaign_3_Symptom_Complaint_C3D_5165",
+     "type": "file",
+     "ext": "",
+     "file_size": 10188,
+     "meta": "9.9 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1691ee07-676e-58b9-b80d-d34aadef805d",
+     "label": "CRF_Campaign_3_Symptom_Complaint_C3G_9485",
+     "type": "file",
+     "ext": "",
+     "file_size": 18390,
+     "meta": "18.0 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "cdccb216-08a7-5dc1-8e15-eec17f0e4c66",
+     "label": "CRF_Campaign_3_Symptom_Complaint_C3A_5788",
+     "type": "file",
+     "ext": "",
+     "file_size": 8474,
+     "meta": "8.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "581136f5-6c8f-56f7-9f54-c2bae9acabb3",
+     "label": "CRF_Campaign_3_Symptom_Complaint_C3E_6043",
+     "type": "file",
+     "ext": "",
+     "file_size": 6697,
+     "meta": "6.5 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e3348275-f27c-5a71-86a2-cdb89ffa28bb",
+     "label": "CRF_Campaign_3_Symptom_Complaint_C3G_9139",
+     "type": "file",
+     "ext": "",
+     "file_size": 8974,
+     "meta": "8.8 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9abe4e08-48e2-5058-a222-70f9724cce09",
+     "label": "CRF_Campaign_3_Symptom_Complaint_C3G_9032",
+     "type": "file",
+     "ext": "",
+     "file_size": 11715,
+     "meta": "11.4 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "107f6a12-e01b-503d-ba77-7f7f782ac541",
+     "label": "CRF_Campaign_3_Symptom_Complaint_C3A_0224",
+     "type": "file",
+     "ext": "",
+     "file_size": 2678,
+     "meta": "2.6 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1dc112c4-9abd-5bf3-8a94-73e923b7c65c",
+     "label": "CRF_Campaign_3_Symptom_Complaint_C3D_8881",
+     "type": "file",
+     "ext": "",
+     "file_size": 17785,
+     "meta": "17.4 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ff603189-1b75-5756-8a6c-adce8a5e37b9",
+     "label": "CRF_Campaign_3_Symptom_Complaint_C3A_0446",
+     "type": "file",
+     "ext": "",
+     "file_size": 18763,
+     "meta": "18.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "c9def278-8ee1-525f-a9c8-3ee7c9835ef6",
+   "label": "CRF_Campaign_1_Urine_Collection",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "UTMB Bedrest Campaign 1 Urine Collection",
+    "dataset_catalog": "CRF_Campaign_1_Urine_Collection",
+    "dataset_description": "This dataset contains a collection of the ancillary Case Report Form (CRF) data resulting from Campaign 1.",
+    "processing_level": "Processed Data",
+    "experiment_id": [
+     "CRF"
+    ]
+   },
+   "meta": "8 files \u00b7 279.3 KB",
+   "date": "2025-04-15",
+   "children": [
+    {
+     "key": "a06ac550-eb9d-5d4e-9a0b-6e2aae123753",
+     "label": "CRF_Campaign_1_Urine_Collection_Obsv_Subject_3",
+     "type": "file",
+     "ext": "",
+     "file_size": 39846,
+     "meta": "38.9 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5b26de13-882b-57fd-865e-8b41115fa3a3",
+     "label": "CRF_Campaign_1_Urine_Collection_Summ_Subject_2",
+     "type": "file",
+     "ext": "",
+     "file_size": 5331,
+     "meta": "5.2 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0d10a323-5691-5311-b2d7-0cd270750077",
+     "label": "CRF_Campaign_1_Urine_Collection_Summ_Subject_3",
+     "type": "file",
+     "ext": "",
+     "file_size": 5578,
+     "meta": "5.4 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4916721a-c23b-5e42-98c8-15a73fcf6e54",
+     "label": "CRF_Campaign_1_Urine_Collection_Obsv_Subject_2",
+     "type": "file",
+     "ext": "",
+     "file_size": 52023,
+     "meta": "50.8 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "262b324a-8d42-50b5-958c-4636374d5f76",
+     "label": "CRF_Campaign_1_Urine_Collection_Obsv_All",
+     "type": "file",
+     "ext": "",
+     "file_size": 128830,
+     "meta": "125.8 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "68fd5ad9-2005-586c-9bad-d12b7262adad",
+     "label": "CRF_Campaign_1_Urine_Collection_Summ_Subject_1",
+     "type": "file",
+     "ext": "",
+     "file_size": 3701,
+     "meta": "3.6 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "aa638fc1-d73b-58f7-9d16-a7f6b1908aaa",
+     "label": "CRF_Campaign_1_Urine_Collection_Summ_All",
+     "type": "file",
+     "ext": "",
+     "file_size": 14723,
+     "meta": "14.4 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1e73d57d-1361-5d7c-b9e1-cf65068bada6",
+     "label": "CRF_Campaign_1_Urine_Collection_Obsv_Subject_1",
+     "type": "file",
+     "ext": "",
+     "file_size": 35981,
+     "meta": "35.1 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "31048825-8cfd-5f51-b839-5e78dacb6681",
+   "label": "CRF_Campaign_3_Meal_Status",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "UTMB Bedrest Campaign 3 Meal Status",
+    "dataset_catalog": "CRF_Campaign_3_Meal_Status",
+    "dataset_description": "This dataset contains Case Report Form (CRF) Meal Status data generated from subjects who participated in the Campaign 3 Bed Rest Study.",
+    "processing_level": [
+     "Processed Data"
+    ],
+    "experiment_id": [
+     "CRF"
+    ]
+   },
+   "meta": "23 files \u00b7 552.8 KB",
+   "date": "2025-09-12",
+   "children": [
+    {
+     "key": "efc0faaf-6daa-5288-a262-c06ae056a5e1",
+     "label": "CRF_Campaign_3_Meal_Status_C3C_7772",
+     "type": "file",
+     "ext": "",
+     "file_size": 20303,
+     "meta": "19.8 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "93a1aad6-848a-5ebf-b90f-6f989966e340",
+     "label": "CRF_Campaign_3_Meal_Status_C3G_5580",
+     "type": "file",
+     "ext": "",
+     "file_size": 23557,
+     "meta": "23.0 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "86df247d-1a59-59ea-8995-54666435bca7",
+     "label": "CRF_Campaign_3_Meal_Status_C3H_5907",
+     "type": "file",
+     "ext": "",
+     "file_size": 27183,
+     "meta": "26.5 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0db3771a-3d8a-5f84-a1d3-cf2bc70714c9",
+     "label": "CRF_Campaign_3_Meal_Status_C3A_5788",
+     "type": "file",
+     "ext": "",
+     "file_size": 18812,
+     "meta": "18.4 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f556acb6-6ebd-5c98-9001-9c37d7b02e62",
+     "label": "CRF_Campaign_3_Meal_Status_C3D_8779",
+     "type": "file",
+     "ext": "",
+     "file_size": 24905,
+     "meta": "24.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b568823b-3373-5736-9037-321df8017471",
+     "label": "CRF_Campaign_3_Meal_Status_C3G_9139",
+     "type": "file",
+     "ext": "",
+     "file_size": 25134,
+     "meta": "24.5 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "21ab97d5-42c1-5ab7-aa8f-50cc1c80a51d",
+     "label": "CRF_Campaign_3_Meal_Status_C3D_7961",
+     "type": "file",
+     "ext": "",
+     "file_size": 28928,
+     "meta": "28.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d57dab8e-e9ed-5a2e-b8db-2ef2f7239f65",
+     "label": "CRF_Campaign_3_Meal_Status_C3A_0992",
+     "type": "file",
+     "ext": "",
+     "file_size": 19851,
+     "meta": "19.4 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ac3a51ef-f3a0-5cb7-aa2f-5a6821726ae5",
+     "label": "CRF_Campaign_3_Meal_Status_C3G_9032",
+     "type": "file",
+     "ext": "",
+     "file_size": 24896,
+     "meta": "24.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "31ab3e38-31b7-526f-97ad-fe9409ad00da",
+     "label": "CRF_Campaign_3_Meal_Status_C3A_0224",
+     "type": "file",
+     "ext": "",
+     "file_size": 17963,
+     "meta": "17.5 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ba2ff1ca-3e72-5ca0-a132-1dfe4fc350bd",
+     "label": "CRF_Campaign_3_Meal_Status_C3G_9314",
+     "type": "file",
+     "ext": "",
+     "file_size": 25773,
+     "meta": "25.2 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ff2d26cd-d8e8-5ffe-ba93-ef12d140f551",
+     "label": "CRF_Campaign_3_Meal_Status_C3E_6043",
+     "type": "file",
+     "ext": "",
+     "file_size": 33608,
+     "meta": "32.8 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d7cbdd93-b289-557e-ae4b-3f43ae167701",
+     "label": "CRF_Campaign_3_Meal_Status_C3G_5814",
+     "type": "file",
+     "ext": "",
+     "file_size": 25561,
+     "meta": "25.0 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5410dfa3-63ae-525d-96f4-269328ac34f6",
+     "label": "CRF_Campaign_3_Meal_Status_C3G_6858",
+     "type": "file",
+     "ext": "",
+     "file_size": 24291,
+     "meta": "23.7 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d8930761-de6e-5fec-b56c-cbf9b211c7d3",
+     "label": "CRF_Campaign_3_Meal_Status_C3G_9485",
+     "type": "file",
+     "ext": "",
+     "file_size": 23910,
+     "meta": "23.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "82ac32ec-6f9e-5162-9cf7-382d1f828105",
+     "label": "CRF_Campaign_3_Meal_Status_C3D_3985",
+     "type": "file",
+     "ext": "",
+     "file_size": 23234,
+     "meta": "22.7 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c19ebf82-d2bd-5fc9-b8aa-6a601e11b002",
+     "label": "CRF_Campaign_3_Meal_Status_C3A_0446",
+     "type": "file",
+     "ext": "",
+     "file_size": 17492,
+     "meta": "17.1 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "de3ed0f8-8eb7-5091-8877-8cd7be2f6ec7",
+     "label": "CRF_Campaign_3_Meal_Status_C3C_7352",
+     "type": "file",
+     "ext": "",
+     "file_size": 20698,
+     "meta": "20.2 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e7bc3571-9b37-52ab-a679-8fff63f7635e",
+     "label": "CRF_Campaign_3_Meal_Status_C3D_8615",
+     "type": "file",
+     "ext": "",
+     "file_size": 23274,
+     "meta": "22.7 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "98c402c5-1ef0-5976-99ce-b1bdd4b88e50",
+     "label": "CRF_Campaign_3_Meal_Status_C3D_8881",
+     "type": "file",
+     "ext": "",
+     "file_size": 37309,
+     "meta": "36.4 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "35e2d958-eed1-533a-8f28-59bc883cb614",
+     "label": "CRF_Campaign_3_Meal_Status_C3E_6607",
+     "type": "file",
+     "ext": "",
+     "file_size": 34136,
+     "meta": "33.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a57ca152-9064-5925-85ed-92f81377af3b",
+     "label": "CRF_Campaign_3_Meal_Status_C3D_7984",
+     "type": "file",
+     "ext": "",
+     "file_size": 19878,
+     "meta": "19.4 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5a6c2680-5abd-595c-b991-1ebb0a18acb5",
+     "label": "CRF_Campaign_3_Meal_Status_C3D_5165",
+     "type": "file",
+     "ext": "",
+     "file_size": 25384,
+     "meta": "24.8 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "fda36c9d-9c75-5815-b75a-4b3c67076958",
+   "label": "CRF_Campaign_1_Case_Report_Form",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "UTMB Bedrest Campaign 1 Case Report Form",
+    "dataset_catalog": "CRF_Campaign_1_Case_Report_Form",
+    "dataset_description": "This dataset contains a collection of the ancillary Case Report Form (CRF) data resulting from Campaign 1.",
+    "processing_level": "Processed Data",
+    "experiment_id": [
+     "CRF"
+    ]
+   },
+   "meta": "6 files \u00b7 12.5 KB",
+   "date": "2025-04-15",
+   "children": [
+    {
+     "key": "8aa02af9-6196-510c-80db-736d76411e5a",
+     "label": "CRF_Campaign_1_Misc_Fat_Soluble",
+     "type": "file",
+     "ext": "",
+     "file_size": 1100,
+     "meta": "1.1 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "275b7d48-9a4e-58b4-9aa5-292f30d96cb9",
+     "label": "CRF_Campaign_1_Misc_Antioxidant",
+     "type": "file",
+     "ext": "",
+     "file_size": 1124,
+     "meta": "1.1 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4547577d-b59f-508e-9a4b-bfdf0d022573",
+     "label": "CRF_Campaign_1_Misc_Water_Soluble",
+     "type": "file",
+     "ext": "",
+     "file_size": 896,
+     "meta": "896 B",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d9f8581b-2ef7-52b7-91a6-28126f03cff5",
+     "label": "CRF_Campaign_1_Misc_Serum_Iron",
+     "type": "file",
+     "ext": "",
+     "file_size": 1368,
+     "meta": "1.3 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f0443577-16c4-500b-9381-8147d1f52221",
+     "label": "CRF_Campaign_1_Misc_Serum_Minerals",
+     "type": "file",
+     "ext": "",
+     "file_size": 965,
+     "meta": "965 B",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "fce166fe-01e6-5005-b0e6-20761e6208e6",
+     "label": "CRF_Campaign_1_Misc_Bodyweights",
+     "type": "file",
+     "ext": "",
+     "file_size": 7373,
+     "meta": "7.2 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "5fb2f4a4-c8ae-5d41-b4d6-7e9db531c223",
+   "label": "CRF_Campaign_3_Protocol_Deviations",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "UTMB Bedrest Campaign 3 Protocol Deviations",
+    "dataset_catalog": "CRF_Campaign_3_Protocol_Deviations",
+    "dataset_description": "This dataset contains Case Report Form (CRF) Protocol Deviations data generated for subjects who participated in the Campaign 3 Bed Rest Study.",
+    "processing_level": [
+     "Processed Data"
+    ],
+    "experiment_id": [
+     "CRF"
+    ]
+   },
+   "meta": "23 files \u00b7 319.7 KB",
+   "date": "2025-09-12",
+   "children": [
+    {
+     "key": "b46698e1-909b-517f-a31b-8ae3c84a1748",
+     "label": "CRF_Campaign_3_Protocol_Deviations_C3H_5907",
+     "type": "file",
+     "ext": "",
+     "file_size": 10105,
+     "meta": "9.9 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7ae19952-f847-5461-a035-cfd7955da98f",
+     "label": "CRF_Campaign_3_Protocol_Deviations_C3D_8615",
+     "type": "file",
+     "ext": "",
+     "file_size": 3671,
+     "meta": "3.6 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "267b11de-403b-5134-a98a-db8292fc7116",
+     "label": "CRF_Campaign_3_Protocol_Deviations_C3D_7984",
+     "type": "file",
+     "ext": "",
+     "file_size": 2495,
+     "meta": "2.4 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c6ba9ec8-0a37-523e-b219-9f9cf57daf55",
+     "label": "CRF_Campaign_3_Protocol_Deviations_C3E_6043",
+     "type": "file",
+     "ext": "",
+     "file_size": 12739,
+     "meta": "12.4 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6820ae48-2c91-53f2-8ea6-8bca43e90583",
+     "label": "CRF_Campaign_3_Protocol_Deviations_C3C_7772",
+     "type": "file",
+     "ext": "",
+     "file_size": 3830,
+     "meta": "3.7 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0ea1b72b-f8ea-5ac6-a9e2-80fd955d0fcc",
+     "label": "CRF_Campaign_3_Protocol_Deviations_C3A_0992",
+     "type": "file",
+     "ext": "",
+     "file_size": 11684,
+     "meta": "11.4 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "dc2593f8-c700-5666-96ec-343dac41653f",
+     "label": "CRF_Campaign_3_Protocol_Deviations_C3C_7352",
+     "type": "file",
+     "ext": "",
+     "file_size": 15020,
+     "meta": "14.7 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "300bb0bb-7991-551c-a51d-96cfca189db4",
+     "label": "CRF_Campaign_3_Protocol_Deviations_C3D_3985",
+     "type": "file",
+     "ext": "",
+     "file_size": 8319,
+     "meta": "8.1 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4cd72dc7-aef2-52c1-b181-0e379330f079",
+     "label": "CRF_Campaign_3_Protocol_Deviations_C3G_9314",
+     "type": "file",
+     "ext": "",
+     "file_size": 20189,
+     "meta": "19.7 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "41d50230-246d-5a00-b0d3-308b082d7f36",
+     "label": "CRF_Campaign_3_Protocol_Deviations_C3D_8881",
+     "type": "file",
+     "ext": "",
+     "file_size": 9198,
+     "meta": "9.0 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e79b9b33-71e3-5bc7-9ea6-e0cb7aa74f53",
+     "label": "CRF_Campaign_3_Protocol_Deviations_C3G_9139",
+     "type": "file",
+     "ext": "",
+     "file_size": 28391,
+     "meta": "27.7 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "66cf9ee5-5124-557f-a01a-722bd8beb686",
+     "label": "CRF_Campaign_3_Protocol_Deviations_C3D_5165",
+     "type": "file",
+     "ext": "",
+     "file_size": 2805,
+     "meta": "2.7 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "fdd3edea-d6b3-5ed0-9382-424bc2157e1d",
+     "label": "CRF_Campaign_3_Protocol_Deviations_C3A_0446",
+     "type": "file",
+     "ext": "",
+     "file_size": 12015,
+     "meta": "11.7 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3eefadcb-0be5-5e5d-90ca-f00b0be3ae9a",
+     "label": "CRF_Campaign_3_Protocol_Deviations_C3E_6607",
+     "type": "file",
+     "ext": "",
+     "file_size": 50407,
+     "meta": "49.2 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "50db13a9-3169-5ad3-b15b-0ac7bf17e747",
+     "label": "CRF_Campaign_3_Protocol_Deviations_C3D_8779",
+     "type": "file",
+     "ext": "",
+     "file_size": 8258,
+     "meta": "8.1 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "556f87a5-fe09-5080-acfc-4dd88681dc62",
+     "label": "CRF_Campaign_3_Protocol_Deviations_C3G_5814",
+     "type": "file",
+     "ext": "",
+     "file_size": 10472,
+     "meta": "10.2 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "21185f81-8e68-5c5b-a927-02da143febcd",
+     "label": "CRF_Campaign_3_Protocol_Deviations_C3A_0224",
+     "type": "file",
+     "ext": "",
+     "file_size": 6731,
+     "meta": "6.6 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b12741f2-41e0-598b-8325-4f371cdf21cc",
+     "label": "CRF_Campaign_3_Protocol_Deviations_C3G_5580",
+     "type": "file",
+     "ext": "",
+     "file_size": 52666,
+     "meta": "51.4 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c3052c6c-e96f-5ab0-8ce5-8841ab3e910a",
+     "label": "CRF_Campaign_3_Protocol_Deviations_C3G_6858",
+     "type": "file",
+     "ext": "",
+     "file_size": 11709,
+     "meta": "11.4 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "61e04393-24f2-5ea7-a98b-faf2ab7cfe6e",
+     "label": "CRF_Campaign_3_Protocol_Deviations_C3D_7961",
+     "type": "file",
+     "ext": "",
+     "file_size": 12439,
+     "meta": "12.1 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0ea47bd5-3f93-5fff-ba7a-c2a249dfaf5a",
+     "label": "CRF_Campaign_3_Protocol_Deviations_C3G_9032",
+     "type": "file",
+     "ext": "",
+     "file_size": 12803,
+     "meta": "12.5 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3b231be0-0fae-51ad-951a-39cc196ef088",
+     "label": "CRF_Campaign_3_Protocol_Deviations_C3A_5788",
+     "type": "file",
+     "ext": "",
+     "file_size": 7327,
+     "meta": "7.2 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "df50f9bf-6fbd-5b1f-9b65-06c842044cb2",
+     "label": "CRF_Campaign_3_Protocol_Deviations_C3G_9485",
+     "type": "file",
+     "ext": "",
+     "file_size": 14129,
+     "meta": "13.8 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "11f90926-5c1d-560d-af5c-09f502f637dd",
+   "label": "CRF_Campaign_3_Bowel_Movement",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "UTMB Bedrest Campaign 3 Bowel Movement",
+    "dataset_catalog": "CRF_Campaign_3_Bowel_Movement",
+    "dataset_description": "This dataset contains Case Report Form (CRF) bowel movement data from subjects in UTMB Campaign 3 Bed Rest Study. The tidy data files contain the Fecal Collection Log: a record of each bowel movement.",
+    "processing_level": [
+     "Processed Data"
+    ],
+    "experiment_id": [
+     "CRF"
+    ]
+   },
+   "meta": "15 files \u00b7 129.3 KB",
+   "date": "2025-09-12",
+   "children": [
+    {
+     "key": "e8fc447e-b1fc-57cf-9a4c-e1a9b9c28bc8",
+     "label": "CRF_Campaign_3_Bowel_Movement_C3G_9485",
+     "type": "file",
+     "ext": "",
+     "file_size": 4431,
+     "meta": "4.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6c33f6ca-ad06-5afb-8e84-c64e6afe75fd",
+     "label": "CRF_Campaign_3_Bowel_Movement_C3E_6607",
+     "type": "file",
+     "ext": "",
+     "file_size": 5191,
+     "meta": "5.1 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6f97f290-2d18-58b8-9c64-a0b9741ee767",
+     "label": "CRF_Campaign_3_Bowel_Movement_C3G_5814",
+     "type": "file",
+     "ext": "",
+     "file_size": 4395,
+     "meta": "4.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "761b0ba6-5e2b-56e6-bd42-3a468aba3965",
+     "label": "CRF_Campaign_3_Bowel_Movement_C3G_5580",
+     "type": "file",
+     "ext": "",
+     "file_size": 4814,
+     "meta": "4.7 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9e0f1494-b30e-5b0a-bf6b-94b71e391f6d",
+     "label": "CRF_Campaign_3_Bowel_Movement_C3G_6858",
+     "type": "file",
+     "ext": "",
+     "file_size": 4854,
+     "meta": "4.7 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b1a8627d-da3e-5479-8af3-1835061b0478",
+     "label": "CRF_Campaign_3_Bowel_Movement_C3G_9032",
+     "type": "file",
+     "ext": "",
+     "file_size": 4567,
+     "meta": "4.5 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "939980a6-e030-552c-83b7-ba8f6d973a18",
+     "label": "CRF_Campaign_3_Bowel_Movement_ReadMe",
+     "type": "file",
+     "ext": "",
+     "file_size": 1983,
+     "meta": "1.9 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3d81e7b8-6131-5e3f-abb3-7b02c8c3d12c",
+     "label": "CRF_Campaign_3_Bowel_Movement_Master",
+     "type": "file",
+     "ext": "",
+     "file_size": 65229,
+     "meta": "63.7 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3f70050a-7e98-58eb-b318-766610db0a42",
+     "label": "CRF_Campaign_3_Bowel_Movement_C3E_6043",
+     "type": "file",
+     "ext": "",
+     "file_size": 6478,
+     "meta": "6.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b528ce12-d0b3-52d3-b631-5187d560ba98",
+     "label": "CRF_Campaign_3_Bowel_Movement_C3G_9314",
+     "type": "file",
+     "ext": "",
+     "file_size": 4305,
+     "meta": "4.2 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b4de6750-c6b4-5271-aa7f-556d4977cbb7",
+     "label": "CRF_Campaign_3_Bowel_Movement_C3G_9139",
+     "type": "file",
+     "ext": "",
+     "file_size": 4201,
+     "meta": "4.1 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0e4a1484-a531-50ef-8e9f-3c2d0712ac08",
+     "label": "CRF_Campaign_3_Bowel_Movement_C3D_5165",
+     "type": "file",
+     "ext": "",
+     "file_size": 5768,
+     "meta": "5.6 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6b38c041-3249-5e18-9376-a25c86b65e27",
+     "label": "CRF_Campaign_3_Bowel_Movement_C3D_8615",
+     "type": "file",
+     "ext": "",
+     "file_size": 5405,
+     "meta": "5.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e40789c6-f4d7-5138-a192-0e65d815a692",
+     "label": "CRF_Campaign_3_Bowel_Movement_C3H_5907",
+     "type": "file",
+     "ext": "",
+     "file_size": 4913,
+     "meta": "4.8 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7dfd882a-c386-5d48-b738-328ea16652f4",
+     "label": "CRF_Campaign_3_Bowel_Movement_C3D_8881",
+     "type": "file",
+     "ext": "",
+     "file_size": 5875,
+     "meta": "5.7 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "22bf6836-27ad-5560-88ab-6d0c1f379c47",
+   "label": "CRF_Campaign_1_Meal_Status",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "UTMB Bedrest Campaign 1 Meal Status",
+    "dataset_catalog": "CRF_Campaign_1_Meal_Status",
+    "dataset_description": "This dataset contains a collection of the ancillary Case Report Form (CRF) data resulting from Campaign 1.",
+    "processing_level": "Processed Data",
+    "experiment_id": [
+     "CRF"
+    ]
+   },
+   "meta": "4 files \u00b7 85.4 KB",
+   "date": "2025-04-15",
+   "children": [
+    {
+     "key": "5070a2eb-5db2-52fd-9e6e-8ebe69519dce",
+     "label": "CRF_Campaign_1_Meal_Status_Subject_1",
+     "type": "file",
+     "ext": "",
+     "file_size": 14012,
+     "meta": "13.7 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9f11f1fc-2d01-5fb9-a4ea-8f5673d625cb",
+     "label": "CRF_Campaign_1_Meal_Status_Subject_2",
+     "type": "file",
+     "ext": "",
+     "file_size": 14439,
+     "meta": "14.1 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "92b283d8-49d6-5e25-8943-4cdc23ee00f9",
+     "label": "CRF_Campaign_1_Meal_Status_Subject_3",
+     "type": "file",
+     "ext": "",
+     "file_size": 14463,
+     "meta": "14.1 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4154da6a-38a9-56e0-92a1-c98adc43f8f2",
+     "label": "CRF_Campaign_1_Meal_Status_All",
+     "type": "file",
+     "ext": "",
+     "file_size": 44517,
+     "meta": "43.5 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "4e01abc3-40fa-5a96-ad92-88e4fa83e7d8",
+   "label": "CRF_Campaign_3_Stretch_Log",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "UTMB Bedrest Campaign 3 Stretch Log",
+    "dataset_catalog": "CRF_Campaign_3_Stretch_Log",
+    "dataset_description": "This dataset contains Case Report Form (CRF) Stretch Log data generated for subjects who participated in the Campaign 3 Bed Rest Study.",
+    "processing_level": [
+     "Processed Data"
+    ],
+    "experiment_id": [
+     "CRF"
+    ]
+   },
+   "meta": "17 files \u00b7 170.2 KB",
+   "date": "2025-09-12",
+   "children": [
+    {
+     "key": "777ad388-ffe5-5b39-b278-93f5f0eecd37",
+     "label": "CRF_Campaign_3_Stretch_Log_C3D_8615",
+     "type": "file",
+     "ext": "",
+     "file_size": 9488,
+     "meta": "9.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "69ceded7-f375-532e-b76a-6a5279600dcf",
+     "label": "CRF_Campaign_3_Stretch_Log_C3G_9139",
+     "type": "file",
+     "ext": "",
+     "file_size": 9734,
+     "meta": "9.5 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c3e17138-a2a7-5e2d-bc49-1d0e939f07a6",
+     "label": "CRF_Campaign_3_Stretch_Log_C3D_5165",
+     "type": "file",
+     "ext": "",
+     "file_size": 13017,
+     "meta": "12.7 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "070f5a6f-7ffe-58fa-a75d-1449b749c4c4",
+     "label": "CRF_Campaign_3_Stretch_Log_C3E_6607",
+     "type": "file",
+     "ext": "",
+     "file_size": 13606,
+     "meta": "13.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "498921c3-c238-598f-84d6-ac945891a5bb",
+     "label": "CRF_Campaign_3_Stretch_Log_C3D_8881",
+     "type": "file",
+     "ext": "",
+     "file_size": 13533,
+     "meta": "13.2 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e6761793-a738-52e7-ac18-6381f25d1072",
+     "label": "CRF_Campaign_3_Stretch_Log_C3D_7961",
+     "type": "file",
+     "ext": "",
+     "file_size": 10283,
+     "meta": "10.0 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1f566141-c56f-52ea-93f7-4c4734bf863e",
+     "label": "CRF_Campaign_3_Stretch_Log_C3G_6858",
+     "type": "file",
+     "ext": "",
+     "file_size": 8474,
+     "meta": "8.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "45d6ac10-2864-5c54-9eed-3d6216250480",
+     "label": "CRF_Campaign_3_Stretch_Log_C3G_5580",
+     "type": "file",
+     "ext": "",
+     "file_size": 9259,
+     "meta": "9.0 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "397a32bc-16fe-5396-a33a-b9c47921e1eb",
+     "label": "CRF_Campaign_3_Stretch_Log_C3D_3985",
+     "type": "file",
+     "ext": "",
+     "file_size": 10066,
+     "meta": "9.8 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e9666074-6067-5372-8533-07130954f5c7",
+     "label": "CRF_Campaign_3_Stretch_Log_C3G_9032",
+     "type": "file",
+     "ext": "",
+     "file_size": 8216,
+     "meta": "8.0 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "70584618-0149-58ab-8ade-e901fb486727",
+     "label": "CRF_Campaign_3_Stretch_Log_C3G_5814",
+     "type": "file",
+     "ext": "",
+     "file_size": 8252,
+     "meta": "8.1 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "13fbbb38-91b1-5530-8665-4370e96074fb",
+     "label": "CRF_Campaign_3_Stretch_Log_C3D_8779",
+     "type": "file",
+     "ext": "",
+     "file_size": 9971,
+     "meta": "9.7 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "359396c3-3af4-58fe-9ae9-ff0b78c48b63",
+     "label": "CRF_Campaign_3_Stretch_Log_C3D_7984",
+     "type": "file",
+     "ext": "",
+     "file_size": 10381,
+     "meta": "10.1 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7354dfbc-b1db-521e-821d-1f4e98e0696e",
+     "label": "CRF_Campaign_3_Stretch_Log_C3G_9485",
+     "type": "file",
+     "ext": "",
+     "file_size": 8651,
+     "meta": "8.4 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "68b33780-83d7-5f5a-b14e-94b167c87f9f",
+     "label": "CRF_Campaign_3_Stretch_Log_C3E_6043",
+     "type": "file",
+     "ext": "",
+     "file_size": 13624,
+     "meta": "13.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e1ea87ba-e104-5381-9e20-1e7b1b53e1bd",
+     "label": "CRF_Campaign_3_Stretch_Log_C3H_5907",
+     "type": "file",
+     "ext": "",
+     "file_size": 8193,
+     "meta": "8.0 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3cbfcdf4-700f-5525-9596-472158219ce6",
+     "label": "CRF_Campaign_3_Stretch_Log_C3G_9314",
+     "type": "file",
+     "ext": "",
+     "file_size": 9553,
+     "meta": "9.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "7153409b-d8a3-5a23-b667-9df8a182dfdc",
+   "label": "CRF_Campaign_3_Daily_Vitals",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "UTMB Bedrest Campaign 3 Daily Vitals",
+    "dataset_catalog": "CRF_Campaign_3_Daily_Vitals",
+    "dataset_description": "This dataset contains Case Report Form (CRF) Daily Vitals data generated for subjects who participated in UTMB Campaign 3 Bed Rest Study.",
+    "processing_level": [
+     "Processed Data"
+    ],
+    "experiment_id": [
+     "CRF"
+    ]
+   },
+   "meta": "23 files \u00b7 196.7 KB",
+   "date": "2025-09-12",
+   "children": [
+    {
+     "key": "8a438e79-85fe-54f9-b7cd-e89958724131",
+     "label": "CRF_Campaign_3_Daily_Vitals_C3D_8615",
+     "type": "file",
+     "ext": "",
+     "file_size": 8850,
+     "meta": "8.6 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1a44d173-c668-5d49-b532-3299858db088",
+     "label": "CRF_Campaign_3_Daily_Vitals_C3G_6858",
+     "type": "file",
+     "ext": "",
+     "file_size": 7837,
+     "meta": "7.7 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8cda595d-0c84-5dbb-b7a0-efa084250bce",
+     "label": "CRF_Campaign_3_Daily_Vitals_C3D_8881",
+     "type": "file",
+     "ext": "",
+     "file_size": 10095,
+     "meta": "9.9 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "580ed7ea-d571-5806-9666-932162effb5e",
+     "label": "CRF_Campaign_3_Daily_Vitals_C3C_7352",
+     "type": "file",
+     "ext": "",
+     "file_size": 10397,
+     "meta": "10.2 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e2ea83cc-03ce-5512-8a46-bb44c4e4a14d",
+     "label": "CRF_Campaign_3_Daily_Vitals_C3E_6607",
+     "type": "file",
+     "ext": "",
+     "file_size": 9789,
+     "meta": "9.6 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b664d046-cac2-5286-a35f-04cfc8f585f2",
+     "label": "CRF_Campaign_3_Daily_Vitals_C3D_5165",
+     "type": "file",
+     "ext": "",
+     "file_size": 8898,
+     "meta": "8.7 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "84122279-f56c-5e7c-a0b6-cd9c49099546",
+     "label": "CRF_Campaign_3_Daily_Vitals_C3G_9032",
+     "type": "file",
+     "ext": "",
+     "file_size": 7887,
+     "meta": "7.7 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "afa9a34f-71b7-5526-851a-6aa19da4c606",
+     "label": "CRF_Campaign_3_Daily_Vitals_C3D_3985",
+     "type": "file",
+     "ext": "",
+     "file_size": 8131,
+     "meta": "7.9 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "02d9f871-ba6a-56a4-8828-42d60b24cbd6",
+     "label": "CRF_Campaign_3_Daily_Vitals_C3A_0224",
+     "type": "file",
+     "ext": "",
+     "file_size": 9844,
+     "meta": "9.6 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "bc606545-4e93-5bf7-afa2-2e584c98835b",
+     "label": "CRF_Campaign_3_Daily_Vitals_C3D_7984",
+     "type": "file",
+     "ext": "",
+     "file_size": 7823,
+     "meta": "7.6 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c65f56df-d4fa-5096-b840-ef7782a9e0df",
+     "label": "CRF_Campaign_3_Daily_Vitals_C3H_5907",
+     "type": "file",
+     "ext": "",
+     "file_size": 7588,
+     "meta": "7.4 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f29b4dff-afcf-59ae-b403-89eb6faaac83",
+     "label": "CRF_Campaign_3_Daily_Vitals_C3G_5814",
+     "type": "file",
+     "ext": "",
+     "file_size": 8085,
+     "meta": "7.9 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e72dc984-dea8-50ff-975e-a032dc957f86",
+     "label": "CRF_Campaign_3_Daily_Vitals_C3G_5580",
+     "type": "file",
+     "ext": "",
+     "file_size": 7578,
+     "meta": "7.4 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "952fa96f-57a6-5dd1-bb39-3d6d1e503197",
+     "label": "CRF_Campaign_3_Daily_Vitals_C3G_9139",
+     "type": "file",
+     "ext": "",
+     "file_size": 7868,
+     "meta": "7.7 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8773a930-2e16-53a7-8b25-4f0c5dfdb5a5",
+     "label": "CRF_Campaign_3_Daily_Vitals_C3G_9314",
+     "type": "file",
+     "ext": "",
+     "file_size": 8064,
+     "meta": "7.9 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "65e00a67-667c-5ad9-9960-45591af04431",
+     "label": "CRF_Campaign_3_Daily_Vitals_C3E_6043",
+     "type": "file",
+     "ext": "",
+     "file_size": 10502,
+     "meta": "10.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "99d4b78e-02ff-516d-b9ec-06ed5b35b17c",
+     "label": "CRF_Campaign_3_Daily_Vitals_C3A_0992",
+     "type": "file",
+     "ext": "",
+     "file_size": 9208,
+     "meta": "9.0 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ea3c7a54-4099-5f64-bea9-cdd1419ee689",
+     "label": "CRF_Campaign_3_Daily_Vitals_C3D_8779",
+     "type": "file",
+     "ext": "",
+     "file_size": 7937,
+     "meta": "7.8 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ca6836e4-6ba2-5f10-89a6-4f6c594213f9",
+     "label": "CRF_Campaign_3_Daily_Vitals_C3D_7961",
+     "type": "file",
+     "ext": "",
+     "file_size": 7748,
+     "meta": "7.6 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0e54b5c5-934f-5f67-8a5d-5fe30727c06b",
+     "label": "CRF_Campaign_3_Daily_Vitals_C3A_5788",
+     "type": "file",
+     "ext": "",
+     "file_size": 9926,
+     "meta": "9.7 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5521ade1-fce7-5803-b9d6-0dcea740a6eb",
+     "label": "CRF_Campaign_3_Daily_Vitals_C3G_9485",
+     "type": "file",
+     "ext": "",
+     "file_size": 7953,
+     "meta": "7.8 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5681f24f-b6fe-5576-a4cb-196faadf6f16",
+     "label": "CRF_Campaign_3_Daily_Vitals_C3C_7772",
+     "type": "file",
+     "ext": "",
+     "file_size": 9805,
+     "meta": "9.6 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "010a1c05-9b11-51cf-a72e-2688d7ee3796",
+     "label": "CRF_Campaign_3_Daily_Vitals_C3A_0446",
+     "type": "file",
+     "ext": "",
+     "file_size": 9620,
+     "meta": "9.4 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "22c345c1-bc55-5b13-98d9-fd7e5bfeb80a",
+   "label": "CRF_Campaign_1_Daily_Vitals",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "UTMB Bedrest Campaign 1 Daily Vitals",
+    "dataset_catalog": "CRF_Campaign_1_Daily_Vitals",
+    "dataset_description": "This dataset contains a collection of the ancillary Case Report Form (CRF) data resulting from Campaign 1.",
+    "processing_level": "Processed Data",
+    "experiment_id": [
+     "CRF"
+    ]
+   },
+   "meta": "4 files \u00b7 61.9 KB",
+   "date": "2025-04-15",
+   "children": [
+    {
+     "key": "1bc72cdb-ad78-55a2-97bd-ac4033d26ce2",
+     "label": "CRF_Campaign_1_Daily_Vitals_Subject_2",
+     "type": "file",
+     "ext": "",
+     "file_size": 11032,
+     "meta": "10.8 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6d3ea70c-33cd-50be-86b6-ee8b0826a72f",
+     "label": "CRF_Campaign_1_Daily_Vitals_Subject_3",
+     "type": "file",
+     "ext": "",
+     "file_size": 10516,
+     "meta": "10.3 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3f1a61ee-55b7-54fd-a00f-e9f7751ce16c",
+     "label": "CRF_Campaign_1_Daily_Vitals_All",
+     "type": "file",
+     "ext": "",
+     "file_size": 31474,
+     "meta": "30.7 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c1cefa2d-b405-5a63-99ab-60b047e8a136",
+     "label": "CRF_Campaign_1_Daily_Vitals_Subject_1",
+     "type": "file",
+     "ext": "",
+     "file_size": 10388,
+     "meta": "10.1 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "3ee95de8-0da7-5add-b398-d77580f8c49b",
+   "label": "CRF_Campaign_3_Medication_Log",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "UTMB Bedrest Campaign 3 Medication Log",
+    "dataset_catalog": "CRF_Campaign_3_Medication_Log",
+    "dataset_description": "This dataset contains Case Report Form (CRF) Medication Log data generated for subjects who participated in the UTMB Campaign 3 Bed Rest Study.",
+    "processing_level": [
+     "Processed Data"
+    ],
+    "experiment_id": [
+     "CRF"
+    ]
+   },
+   "meta": "23 files \u00b7 933.2 KB",
+   "date": "2025-09-12",
+   "children": [
+    {
+     "key": "8aa93e33-58c7-558f-b5e4-b44cfee900a8",
+     "label": "CRF_Campaign_3_Medication_Log_C3A_0992",
+     "type": "file",
+     "ext": "",
+     "file_size": 8218,
+     "meta": "8.0 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7804412f-29cf-5190-8c8a-651ed4692c06",
+     "label": "CRF_Campaign_3_Medication_Log_C3D_8779",
+     "type": "file",
+     "ext": "",
+     "file_size": 37539,
+     "meta": "36.7 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2509e424-6714-583b-8282-c2bc6a110ca3",
+     "label": "CRF_Campaign_3_Medication_Log_C3E_6607",
+     "type": "file",
+     "ext": "",
+     "file_size": 27595,
+     "meta": "26.9 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1d0bcdd3-c299-55cf-ace9-9f03d125c7dc",
+     "label": "CRF_Campaign_3_Medication_Log_C3D_8615",
+     "type": "file",
+     "ext": "",
+     "file_size": 60534,
+     "meta": "59.1 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c03d9846-eb26-5f19-adb5-aac1ce5558e9",
+     "label": "CRF_Campaign_3_Medication_Log_C3E_6043",
+     "type": "file",
+     "ext": "",
+     "file_size": 47439,
+     "meta": "46.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "60d37339-6fb6-5ea6-8379-1b85d9c5ca38",
+     "label": "CRF_Campaign_3_Medication_Log_C3D_5165",
+     "type": "file",
+     "ext": "",
+     "file_size": 61504,
+     "meta": "60.1 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5b6d5b57-9fa8-5ed8-9ad8-d39a28b754a5",
+     "label": "CRF_Campaign_3_Medication_Log_C3D_3985",
+     "type": "file",
+     "ext": "",
+     "file_size": 47514,
+     "meta": "46.4 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a50df389-2d7e-563e-9eae-29e19413ef59",
+     "label": "CRF_Campaign_3_Medication_Log_C3A_5788",
+     "type": "file",
+     "ext": "",
+     "file_size": 11692,
+     "meta": "11.4 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d88176e8-b50e-5714-b43a-93c76a3e9928",
+     "label": "CRF_Campaign_3_Medication_Log_C3G_5580",
+     "type": "file",
+     "ext": "",
+     "file_size": 62767,
+     "meta": "61.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "75efb27b-52bb-59b3-a0f0-4e50e9c9c503",
+     "label": "CRF_Campaign_3_Medication_Log_C3G_5814",
+     "type": "file",
+     "ext": "",
+     "file_size": 39683,
+     "meta": "38.8 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "aa323d47-0895-5748-a5c7-34cb36df6a4f",
+     "label": "CRF_Campaign_3_Medication_Log_C3H_5907",
+     "type": "file",
+     "ext": "",
+     "file_size": 31530,
+     "meta": "30.8 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "89cec557-6c7e-5d91-9c3d-37ec073a4835",
+     "label": "CRF_Campaign_3_Medication_Log_C3D_7984",
+     "type": "file",
+     "ext": "",
+     "file_size": 48232,
+     "meta": "47.1 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "efd63696-9beb-5b51-8d36-4cb3db352f99",
+     "label": "CRF_Campaign_3_Medication_Log_C3D_7961",
+     "type": "file",
+     "ext": "",
+     "file_size": 43798,
+     "meta": "42.8 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "fa2c531e-caf0-5fe6-89c1-979b0649e432",
+     "label": "CRF_Campaign_3_Medication_Log_C3G_9485",
+     "type": "file",
+     "ext": "",
+     "file_size": 57533,
+     "meta": "56.2 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f6fc1825-c587-5a42-bb01-2c9bf86a3191",
+     "label": "CRF_Campaign_3_Medication_Log_C3A_0446",
+     "type": "file",
+     "ext": "",
+     "file_size": 12101,
+     "meta": "11.8 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "347cf509-066c-5540-973a-f231c12087a2",
+     "label": "CRF_Campaign_3_Medication_Log_C3C_7772",
+     "type": "file",
+     "ext": "",
+     "file_size": 26596,
+     "meta": "26.0 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9f0020ac-8a06-534f-84f9-b51263663f9b",
+     "label": "CRF_Campaign_3_Medication_Log_C3A_0224",
+     "type": "file",
+     "ext": "",
+     "file_size": 2793,
+     "meta": "2.7 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e34a26ec-9854-5e88-94fd-fc1131edd8da",
+     "label": "CRF_Campaign_3_Medication_Log_C3G_9032",
+     "type": "file",
+     "ext": "",
+     "file_size": 55360,
+     "meta": "54.1 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3549a8c6-c833-5109-84b7-8b34084a5c08",
+     "label": "CRF_Campaign_3_Medication_Log_C3G_6858",
+     "type": "file",
+     "ext": "",
+     "file_size": 69453,
+     "meta": "67.8 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c6467216-82ce-506a-a0fb-8c6b88729aec",
+     "label": "CRF_Campaign_3_Medication_Log_C3D_8881",
+     "type": "file",
+     "ext": "",
+     "file_size": 53727,
+     "meta": "52.5 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "33b722d0-3e7f-5871-8159-14b6a328ad47",
+     "label": "CRF_Campaign_3_Medication_Log_C3G_9314",
+     "type": "file",
+     "ext": "",
+     "file_size": 67856,
+     "meta": "66.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d0295be4-0d6d-51ec-a8ff-7a010a779367",
+     "label": "CRF_Campaign_3_Medication_Log_C3G_9139",
+     "type": "file",
+     "ext": "",
+     "file_size": 56658,
+     "meta": "55.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "576678b2-14fd-52f5-aa71-260be3b61027",
+     "label": "CRF_Campaign_3_Medication_Log_C3C_7352",
+     "type": "file",
+     "ext": "",
+     "file_size": 25485,
+     "meta": "24.9 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "57b2b0e4-9815-557f-be9d-e61a689e28f6",
+   "label": "CRF_Campaign_1_Protocol_Deviations",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "UTMB Bedrest Campaign 1 Protocol Deviations",
+    "dataset_catalog": "CRF_Campaign_1_Protocol_Deviations",
+    "dataset_description": "This dataset contains a collection of the ancillary Case Report Form (CRF) data resulting from Campaign 1.",
+    "processing_level": "Processed Data",
+    "experiment_id": [
+     "CRF"
+    ]
+   },
+   "meta": "4 files \u00b7 26.2 KB",
+   "date": "2025-04-15",
+   "children": [
+    {
+     "key": "bddff4ea-8442-5e20-8b5c-8a9d52aa09dd",
+     "label": "CRF_Campaign_1_Protocol_Deviation_All",
+     "type": "file",
+     "ext": "",
+     "file_size": 13224,
+     "meta": "12.9 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "988c8069-029a-5cfa-8192-e5093e9fcd40",
+     "label": "CRF_Campaign_1_Protocol_Deviation_P_Dev_Subject_1",
+     "type": "file",
+     "ext": "",
+     "file_size": 1887,
+     "meta": "1.8 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1f246d3f-78d2-52da-b5c2-26d84d671ac4",
+     "label": "CRF_Campaign_1_Protocol_Deviations_P_Dev_Subject_2",
+     "type": "file",
+     "ext": "",
+     "file_size": 6190,
+     "meta": "6.0 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4c48979a-4ba2-5cc2-b972-89c21be57090",
+     "label": "CRF_Campaign_1_Protocol_Deviation_P_Dev_Subject_3",
+     "type": "file",
+     "ext": "",
+     "file_size": 5486,
+     "meta": "5.4 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "81e799e9-f190-5241-ae75-efdd92cb5e93",
+   "label": "CRF_Campaign_1_Water_Intake",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "UTMB Bedrest Campaign 1 Water Intake",
+    "dataset_catalog": "CRF_Campaign_1_Water_Intake",
+    "dataset_description": "This dataset contains a collection of the ancillary Case Report Form (CRF) data resulting from Campaign 1.",
+    "processing_level": "Processed Data",
+    "experiment_id": [
+     "CRF"
+    ]
+   },
+   "meta": "9 files \u00b7 152.5 KB",
+   "date": "2025-04-15",
+   "children": [
+    {
+     "key": "cafcdfe2-757e-5eb6-a90f-f64dc47eaade",
+     "label": "CRF_Campaign_1_Water_Intake_ReadMe",
+     "type": "file",
+     "ext": "",
+     "file_size": 414,
+     "meta": "414 B",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "981e4e44-f0d7-57ad-8c12-0cda2eb3b2ef",
+     "label": "CRF_Campaign_1_Water_Intake_Summ_Subject_1",
+     "type": "file",
+     "ext": "",
+     "file_size": 4058,
+     "meta": "4.0 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a1e15715-cf7a-5efa-8a88-5eba5015b608",
+     "label": "CRF_Campaign_1_Water_Intake_Obsv_Subject_1",
+     "type": "file",
+     "ext": "",
+     "file_size": 21723,
+     "meta": "21.2 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "389a3e01-4f1b-5d1d-a840-b22aa8ec934f",
+     "label": "CRF_Campaign_1_Water_Intake_Summ_All",
+     "type": "file",
+     "ext": "",
+     "file_size": 12047,
+     "meta": "11.8 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d0b7bdbe-b8c0-59e1-a19e-bd2316a4700a",
+     "label": "CRF_Campaign_1_Water_Intake_Summ_Subject_3",
+     "type": "file",
+     "ext": "",
+     "file_size": 4044,
+     "meta": "3.9 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3ec32daf-7803-52de-8227-b9ea00d8f7cb",
+     "label": "CRF_Campaign_1_Water_Intake_Obsv_All",
+     "type": "file",
+     "ext": "",
+     "file_size": 65925,
+     "meta": "64.4 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7ba0014e-ddb0-5a34-976f-35c882ffd3bf",
+     "label": "CRF_Campaign_1_Water_Intake_Obsv_Subject_2",
+     "type": "file",
+     "ext": "",
+     "file_size": 22762,
+     "meta": "22.2 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3fb0fb31-bcef-5ef3-8722-564c1fafdc67",
+     "label": "CRF_Campaign_1_Water_Intake_Obsv_Subject_3",
+     "type": "file",
+     "ext": "",
+     "file_size": 21164,
+     "meta": "20.7 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5b4527c6-6cc7-56cb-8c33-b058142558d6",
+     "label": "CRF_Campaign_1_Water_Intake_Summ_Subject_2",
+     "type": "file",
+     "ext": "",
+     "file_size": 4050,
+     "meta": "4.0 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "e595cced-8f31-5190-83b1-3793a819b27d",
+   "label": "CRF_Campaign_3_Urine_Collection",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "UTMB Bedrest Campaign 3 Urine Collection",
+    "dataset_catalog": "CRF_Campaign_3_Urine_Collection",
+    "dataset_description": "This dataset contains Case Report Form (CRF) Urine Collection data generated for subjects who participated in the Campaign 3 Bed Rest Study.",
+    "processing_level": [
+     "Processed Data"
+    ],
+    "experiment_id": [
+     "CRF"
+    ]
+   },
+   "meta": "46 files \u00b7 1.54 MB",
+   "date": "2025-09-12",
+   "children": [
+    {
+     "key": "5395c6e0-0559-580b-a9cb-f00edab7221f",
+     "label": "CRF_Campaign_3_Urine_Collection_C3A_0992_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 46450,
+     "meta": "45.4 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8d121a74-4f2a-5a61-84ad-f64ac37635aa",
+     "label": "CRF_Campaign_3_Urine_Collection_C3A_0446_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 4933,
+     "meta": "4.8 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2c9d5077-19f3-531e-acf9-c9d39832b047",
+     "label": "CRF_Campaign_3_Urine_Collection_C3E_6607_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 90695,
+     "meta": "88.6 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "84212bb8-e1bb-5ae3-aae3-7cc7fed48a5c",
+     "label": "CRF_Campaign_3_Urine_Collection_C3D_5165_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 78501,
+     "meta": "76.7 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d35eb745-dfcd-50c5-bf9a-f38f8cfc9aef",
+     "label": "CRF_Campaign_3_Urine_Collection_C3D_8615_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 87208,
+     "meta": "85.2 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "998ab87c-81f9-52bf-a4d3-a2c473bf65d2",
+     "label": "CRF_Campaign_3_Urine_Collection_C3H_5907_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 3891,
+     "meta": "3.8 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "49b7da43-5b26-56a8-a26a-1814b025ebfc",
+     "label": "CRF_Campaign_3_Urine_Collection_C3G_9032_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 45234,
+     "meta": "44.2 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f9a89707-e914-5019-8cac-d540066fa0aa",
+     "label": "CRF_Campaign_3_Urine_Collection_C3E_6043_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 76349,
+     "meta": "74.6 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "91eddf17-2286-55d4-b3a7-c4e7958a7a77",
+     "label": "CRF_Campaign_3_Urine_Collection_C3A_0224_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 44831,
+     "meta": "43.8 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4365d83b-bde8-5796-932a-dd24cdc7d33f",
+     "label": "CRF_Campaign_3_Urine_Collection_C3D_3985_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 5395,
+     "meta": "5.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6e2da18f-4c30-5764-9959-5038631c36b5",
+     "label": "CRF_Campaign_3_Urine_Collection_C3D_8881_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 76154,
+     "meta": "74.4 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9b3ba5db-c8af-5f05-a173-9755c1ed8075",
+     "label": "CRF_Campaign_3_Urine_Collection_C3E_6607_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 4831,
+     "meta": "4.7 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f0d209d6-28cb-5690-b4ac-8d3ab9ea9420",
+     "label": "CRF_Campaign_3_Urine_Collection_C3D_7984_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 5346,
+     "meta": "5.2 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e5d54117-0d8a-5f39-b411-ff1f528e525d",
+     "label": "CRF_Campaign_3_Urine_Collection_C3H_5907_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 48801,
+     "meta": "47.7 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "fd5ba919-acd1-5efd-b1cf-9adc72328793",
+     "label": "CRF_Campaign_3_Urine_Collection_C3D_8779_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 5294,
+     "meta": "5.2 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5d134f7c-12cb-5668-812d-047015728ef9",
+     "label": "CRF_Campaign_3_Urine_Collection_C3C_7352_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 5417,
+     "meta": "5.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3f22801b-3e1d-5a2c-867a-858f6460b9cc",
+     "label": "CRF_Campaign_3_Urine_Collection_C3C_7772_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 70096,
+     "meta": "68.5 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "727a1053-3ad6-51ae-87b2-9d15e7de2eb8",
+     "label": "CRF_Campaign_3_Urine_Collection_C3G_5814_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 42713,
+     "meta": "41.7 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "18dadf25-5e15-5621-bc55-151b5c9262a3",
+     "label": "CRF_Campaign_3_Urine_Collection_C3D_8881_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 5245,
+     "meta": "5.1 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b10c29a2-e0cb-5a8a-9fb9-aaf17d395bfa",
+     "label": "CRF_Campaign_3_Urine_Collection_C3G_9032_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 3984,
+     "meta": "3.9 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7cf070e8-7e36-520d-a59d-c5009da6290b",
+     "label": "CRF_Campaign_3_Urine_Collection_C3G_6858_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 53181,
+     "meta": "51.9 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a3be544c-25b9-5273-b12c-7aa53426c441",
+     "label": "CRF_Campaign_3_Urine_Collection_C3G_9314_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 42093,
+     "meta": "41.1 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3380c261-1bd3-53c6-a3ae-83cd5c6a6e57",
+     "label": "CRF_Campaign_3_Urine_Collection_C3D_7961_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 5252,
+     "meta": "5.1 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8a78abfc-397f-5271-99b6-ff612d362557",
+     "label": "CRF_Campaign_3_Urine_Collection_C3D_7961_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 96937,
+     "meta": "94.7 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c1e2453d-5ba0-5386-85b5-70bd50c4f8d0",
+     "label": "CRF_Campaign_3_Urine_Collection_C3D_5165_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 5263,
+     "meta": "5.1 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "316ab340-8e7b-5b74-9477-ff9abda0fcbf",
+     "label": "CRF_Campaign_3_Urine_Collection_C3A_5788_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 5126,
+     "meta": "5.0 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "afec07e4-2e4e-5be0-ab84-06c1d0aaea76",
+     "label": "CRF_Campaign_3_Urine_Collection_C3G_5580_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 62805,
+     "meta": "61.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3f7f1bf8-e60e-5d54-85ce-aaa6de9efdcd",
+     "label": "CRF_Campaign_3_Urine_Collection_C3G_9485_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 51895,
+     "meta": "50.7 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4cd1fa1a-a11b-567f-b27c-8400bb867a46",
+     "label": "CRF_Campaign_3_Urine_Collection_C3C_7352_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 70698,
+     "meta": "69.0 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1a29d946-96f5-5e47-9e56-4a15bd2b6400",
+     "label": "CRF_Campaign_3_Urine_Collection_C3D_3985_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 76308,
+     "meta": "74.5 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4c399f91-2d57-5d55-a687-e0eb01ca9772",
+     "label": "CRF_Campaign_3_Urine_Collection_C3A_0446_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 74330,
+     "meta": "72.6 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0aca4d9c-c1b2-5850-937d-5e1cd669c035",
+     "label": "CRF_Campaign_3_Urine_Collection_C3A_5788_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 39546,
+     "meta": "38.6 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8d25113a-f4ac-5655-afc1-10f774fff254",
+     "label": "CRF_Campaign_3_Urine_Collection_C3A_0992_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 4988,
+     "meta": "4.9 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "03882704-5b62-5cf4-a9af-4975e78e39c6",
+     "label": "CRF_Campaign_3_Urine_Collection_C3G_9485_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 4029,
+     "meta": "3.9 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "76049555-e2ea-5089-9dca-c765c2b2b8e2",
+     "label": "CRF_Campaign_3_Urine_Collection_C3E_6043_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 5338,
+     "meta": "5.2 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f62f49d3-4549-5e7f-b1fb-46869861920d",
+     "label": "CRF_Campaign_3_Urine_Collection_C3D_7984_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 72406,
+     "meta": "70.7 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "45717c59-43b4-5111-a4d6-dae91a673e26",
+     "label": "CRF_Campaign_3_Urine_Collection_C3A_0224_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 5005,
+     "meta": "4.9 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "256f4136-bdb4-57b5-aec1-e630c218074e",
+     "label": "CRF_Campaign_3_Urine_Collection_C3G_5814_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 3893,
+     "meta": "3.8 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d60f87d9-96fe-51c4-9be7-b3eb2fa29656",
+     "label": "CRF_Campaign_3_Urine_Collection_C3D_8615_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 5066,
+     "meta": "4.9 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "80d47fda-89e6-5d78-a98f-62761b166c06",
+     "label": "CRF_Campaign_3_Urine_Collection_C3G_6858_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 4030,
+     "meta": "3.9 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "36fde265-952e-5265-81d8-e52926bed8c5",
+     "label": "CRF_Campaign_3_Urine_Collection_C3D_8779_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 101409,
+     "meta": "99.0 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "91844fb7-2cd6-5b8a-9296-c42ae19d46d0",
+     "label": "CRF_Campaign_3_Urine_Collection_C3G_5580_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 3931,
+     "meta": "3.8 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2ced1e90-1655-59b2-8d1f-c19b1bc84b2e",
+     "label": "CRF_Campaign_3_Urine_Collection_C3G_9139_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 3976,
+     "meta": "3.9 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0b61f6b5-8efc-5e33-9087-33fc6e9b7cb5",
+     "label": "CRF_Campaign_3_Urine_Collection_C3C_7772_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 4997,
+     "meta": "4.9 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "968d8b76-1fed-50bc-a60c-de3bd591d9b8",
+     "label": "CRF_Campaign_3_Urine_Collection_C3G_9314_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 4037,
+     "meta": "3.9 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8b0c3dac-8986-5b1f-bff8-3c6923ca6a27",
+     "label": "CRF_Campaign_3_Urine_Collection_C3G_9139_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 58969,
+     "meta": "57.6 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "acb079a0-ef5a-5eac-b56e-69f3dc6c67e7",
+   "label": "CRF_Campaign_1_Medical_Log",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "UTMB Bedrest Campaign 1 Medical Log",
+    "dataset_catalog": "CRF_Campaign_1_Medical_Log",
+    "dataset_description": "This dataset contains a collection of the ancillary Case Report Form (CRF) data resulting from Campaign 1.",
+    "processing_level": "Processed Data",
+    "experiment_id": [
+     "CRF"
+    ]
+   },
+   "meta": "4 files \u00b7 74.6 KB",
+   "date": "2025-04-15",
+   "children": [
+    {
+     "key": "d43d5718-d12c-5dc1-a9dd-cbf2827d80aa",
+     "label": "CRF_Campaign_1_Medical_Log_Subject_3",
+     "type": "file",
+     "ext": "",
+     "file_size": 12327,
+     "meta": "12.0 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e1825fa1-95e4-5485-b3a6-57b2328bf048",
+     "label": "CRF_Campaign_1_Medical_Log_Subject_1",
+     "type": "file",
+     "ext": "",
+     "file_size": 11051,
+     "meta": "10.8 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1f7d2664-3804-5086-955a-57ec7d0accb2",
+     "label": "CRF_Campaign_1_Medical_Log_All",
+     "type": "file",
+     "ext": "",
+     "file_size": 38249,
+     "meta": "37.4 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5b59ce5f-c527-5e06-98a5-9cf6ebbaa6f5",
+     "label": "CRF_Campaign_1_Medical_Log_Subject_2",
+     "type": "file",
+     "ext": "",
+     "file_size": 14802,
+     "meta": "14.5 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "587a6c35-4ff8-5ad3-a2b4-a306e8a5b3b1",
+   "label": "CRF_CFT70_MEDLOG",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "CRF CFT70 MEDLOG DATA",
+    "dataset_catalog": "CRF_CFT70_MEDLOG",
+    "dataset_description": "This tabular dataset contains Case Report Form (CRF) MedLog data generated for subjects who participated in the CFT70 Study.",
+    "processing_level": [
+     "Processed Data"
+    ],
+    "experiment_id": [
+     "CRF"
+    ]
+   },
+   "meta": "3 files \u00b7 70.4 KB",
+   "date": "2026-03-24",
+   "children": [
+    {
+     "key": "712a9404-d64b-5caf-b42d-9f7c26155db2",
+     "label": "CRF_CFT70_MEDLOG_8072",
+     "type": "file",
+     "ext": "",
+     "file_size": 23759,
+     "meta": "23.2 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b058b40b-dd11-5d8e-a44b-d41c19e0e550",
+     "label": "CRF_CFT70_MEDLOG_5160",
+     "type": "file",
+     "ext": "",
+     "file_size": 14267,
+     "meta": "13.9 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8a4fb604-f18c-5b52-a40d-42d99854c353",
+     "label": "CRF_CFT70_MEDLOG_8936",
+     "type": "file",
+     "ext": "",
+     "file_size": 34047,
+     "meta": "33.2 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "8630e747-1313-5510-895b-260b06af8e31",
+   "label": "CRF_CFT70_WATERINTAKE",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "CRF CFT70 WATERINTAKE DATA",
+    "dataset_catalog": "CRF_CFT70_WATERINTAKE",
+    "dataset_description": "This tabular dataset contains Case Report Form (CRF) Water Intake data generated for subjects who participated in the CFT70 Study.",
+    "processing_level": [
+     "Processed Data"
+    ],
+    "experiment_id": [
+     "CRF"
+    ]
+   },
+   "meta": "6 files \u00b7 72.4 KB",
+   "date": "2026-03-24",
+   "children": [
+    {
+     "key": "fbc2fac4-9bc9-52dc-b919-a6be09d5b4b2",
+     "label": "CRF_CFT70_WATERINTAKE_obsv_8072",
+     "type": "file",
+     "ext": "",
+     "file_size": 14699,
+     "meta": "14.4 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "59fde8af-5383-589a-8491-1f4719348d99",
+     "label": "CRF_CFT70_WATERINTAKE_obsv_5160",
+     "type": "file",
+     "ext": "",
+     "file_size": 11525,
+     "meta": "11.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6c0c542c-b2e2-594a-bbab-7f68476f4e23",
+     "label": "CRF_CFT70_WATERINTAKE_summary_8072",
+     "type": "file",
+     "ext": "",
+     "file_size": 3705,
+     "meta": "3.6 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b5799d40-9e7b-5e9e-827f-2b2f4d1c4bab",
+     "label": "CRF_CFT70_WATERINTAKE_summary_5160",
+     "type": "file",
+     "ext": "",
+     "file_size": 2990,
+     "meta": "2.9 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f34a71cf-346f-55c3-93ae-13f28650e041",
+     "label": "CRF_CFT70_WATERINTAKE_summary_8936",
+     "type": "file",
+     "ext": "",
+     "file_size": 18841,
+     "meta": "18.4 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ef17bfe9-ed14-5fa4-9261-d0642704e2f6",
+     "label": "CRF_CFT70_WATERINTAKE_obsv_8936",
+     "type": "file",
+     "ext": "",
+     "file_size": 22418,
+     "meta": "21.9 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "5cc64b34-3df6-5b21-8b8e-1e8dccffbc85",
+   "label": "CRF_CFT70_VITALS",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "CRF CFT70 VITALS DATA",
+    "dataset_catalog": "CRF_CFT70_VITALS",
+    "dataset_description": "This tabular dataset contains Case Report Form (CRF) Vitals data generated for subjects who participated in the CFT70 Study.",
+    "processing_level": [
+     "Processed Data"
+    ],
+    "experiment_id": [
+     "CRF"
+    ]
+   },
+   "meta": "3 files \u00b7 18.9 KB",
+   "date": "2026-03-24",
+   "children": [
+    {
+     "key": "d295be98-50c5-5fac-bb8b-2b80c16a223c",
+     "label": "CRF_CFT70_VITALS_8936",
+     "type": "file",
+     "ext": "",
+     "file_size": 7292,
+     "meta": "7.1 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "09384b09-4e53-5fc8-bdb6-282103345621",
+     "label": "CRF_CFT70_VITALS_8072",
+     "type": "file",
+     "ext": "",
+     "file_size": 6849,
+     "meta": "6.7 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a876c861-69e7-5370-831c-3b34ea453d4a",
+     "label": "CRF_CFT70_VITALS_5160",
+     "type": "file",
+     "ext": "",
+     "file_size": 5178,
+     "meta": "5.1 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "add226ba-b7a9-553b-882f-ca09f02d7089",
+   "label": "CRF_CFT70_SYMPTOMS",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "CRF CFT70 SYMPTOMS DATA",
+    "dataset_catalog": "CRF_CFT70_SYMPTOMS",
+    "dataset_description": "This tabular dataset contains Case Report Form (CRF) Symptoms data generated for subjects who participated in the CFT70 Study.",
+    "processing_level": "",
+    "experiment_id": [
+     "CRF"
+    ]
+   },
+   "meta": "3 files \u00b7 46.1 KB",
+   "date": "2026-03-24",
+   "children": [
+    {
+     "key": "ec989516-ed54-518c-889d-f47eef208f33",
+     "label": "CRF_CFT70_SYMPTOMS_5160",
+     "type": "file",
+     "ext": "",
+     "file_size": 2062,
+     "meta": "2.0 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f16f11f4-b2f9-559c-9200-0500098aa6cd",
+     "label": "CRF_CFT70_SYMPTOMS_8072",
+     "type": "file",
+     "ext": "",
+     "file_size": 24530,
+     "meta": "24.0 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c42e1758-9274-5eb7-99b2-1f2f9d1b3534",
+     "label": "CRF_CFT70_SYMPTOMS_8936",
+     "type": "file",
+     "ext": "",
+     "file_size": 20657,
+     "meta": "20.2 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "278bb26d-9d8b-5144-a045-b4eb7392716e",
+   "label": "CRF_CFT70_FARUMEDLOGS",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "CRF CFT70 FARUMEDLOGS DATA",
+    "dataset_catalog": "CRF_CFT70_FARUMEDLOGS",
+    "dataset_description": "This tabular dataset contains Case Report Form (CRF) FARUMedLogs data generated for subjects who participated in the CFT70 Study.",
+    "processing_level": [
+     "Processed Data"
+    ],
+    "experiment_id": [
+     "CRF"
+    ]
+   },
+   "meta": "1 file \u00b7 378.4 KB",
+   "date": "2026-03-24",
+   "children": [
+    {
+     "key": "366f1526-883a-5571-970e-348e6c543a10",
+     "label": "CRF_CFT70_FARUMEDLOGS_FINAL",
+     "type": "file",
+     "ext": "",
+     "file_size": 387504,
+     "meta": "378.4 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "1283d32e-93c4-57f4-90e8-56d7ee44a5a0",
+   "label": "CRF_CFT70_FARUMEALS",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "CRF CFT70 FARUMEALS Data",
+    "dataset_catalog": "CRF_CFT70_FARUMEALS",
+    "dataset_description": "This tabular dataset contains Case Report Form (CRF) FARUMeals data generated for subjects who participated in the CFT70 Study.",
+    "processing_level": [
+     "Processed Data"
+    ],
+    "experiment_id": [
+     "CRF"
+    ]
+   },
+   "meta": "1 file \u00b7 447.3 KB",
+   "date": "2026-03-24",
+   "children": [
+    {
+     "key": "8ec52ccc-6c6b-54fc-8abb-52b90a18d95e",
+     "label": "CRF_CFT70_FARUMEALS_FINAL",
+     "type": "file",
+     "ext": "",
+     "file_size": 458033,
+     "meta": "447.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "ade9b622-b54b-56df-ba58-e5471ea436d9",
+   "label": "CRF_CFT70_ISSUES",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "CRF CFT70 ISSUES DATA",
+    "dataset_catalog": "CRF_CFT70_ISSUES",
+    "dataset_description": "This tabular dataset contains Case Report Form (CRF) Issues data generated for subjects who participated in the CFT70 Study.",
+    "processing_level": [
+     "Processed Data"
+    ],
+    "experiment_id": [
+     "CRF"
+    ]
+   },
+   "meta": "3 files \u00b7 28.9 KB",
+   "date": "2026-03-24",
+   "children": [
+    {
+     "key": "d612beaf-371c-56f9-b966-e2f9a7aa3874",
+     "label": "CRF_CFT70_ISSUES_5160",
+     "type": "file",
+     "ext": "",
+     "file_size": 7096,
+     "meta": "6.9 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4dc6292f-1012-5f12-adcf-da2037d3a3a1",
+     "label": "CRF_CFT70_ISSUES_8072",
+     "type": "file",
+     "ext": "",
+     "file_size": 3509,
+     "meta": "3.4 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "89fade8c-f9cf-5475-95d1-af8e652ad045",
+     "label": "CRF_CFT70_ISSUES_8936",
+     "type": "file",
+     "ext": "",
+     "file_size": 19031,
+     "meta": "18.6 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "f46f4665-7925-5d5e-9600-463ddb0778ab",
+   "label": "CRF_CFT70_FARUWATERIO",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "CRF CFT70 FARUWATERIO  DATA",
+    "dataset_catalog": "CRF_CFT70_FARUWATERIO",
+    "dataset_description": "This tabular dataset contains Case Report Form (CRF) FARUWaterIO data generated for subjects who participated in the CFT70 Study.",
+    "processing_level": [
+     "Processed Data"
+    ],
+    "experiment_id": [
+     "CRF"
+    ]
+   },
+   "meta": "2 files \u00b7 668.0 KB",
+   "date": "2026-03-24",
+   "children": [
+    {
+     "key": "fa7b2609-f4d1-530f-9182-20936d76c86a",
+     "label": "CRF_CFT70_FARUWATERIO_FINAL_obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 546312,
+     "meta": "533.5 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a41b4efe-0f95-56e3-b847-1e5917bbaf71",
+     "label": "CRF_CFT70_FARUWATERIO_FINAL_daily",
+     "type": "file",
+     "ext": "",
+     "file_size": 137709,
+     "meta": "134.5 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "a1165ec2-f2f2-5a83-b09f-c96bbd4e0549",
+   "label": "CRF_CFT70_MEALS",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "CRF CFT70 MEALS DATA",
+    "dataset_catalog": "CRF_CFT70_MEALS",
+    "dataset_description": "This tabular dataset contains Case Report Form (CRF) Meals data generated for subjects who participated in the CFT70 Study.",
+    "processing_level": [
+     "Processed Data"
+    ],
+    "experiment_id": [
+     "CRF"
+    ]
+   },
+   "meta": "3 files \u00b7 66.4 KB",
+   "date": "2026-03-24",
+   "children": [
+    {
+     "key": "dd051002-2363-5ebc-99fa-3ef33bd9baac",
+     "label": "CRF_CFT70_MEALS_5160",
+     "type": "file",
+     "ext": "",
+     "file_size": 18109,
+     "meta": "17.7 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d6dc5e30-446d-59ac-af67-20da03b4fb9e",
+     "label": "CRF_CFT70_MEALS_8072",
+     "type": "file",
+     "ext": "",
+     "file_size": 23755,
+     "meta": "23.2 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b880b265-8797-5821-82dd-88f87b95c119",
+     "label": "CRF_CFT70_MEALS_8936",
+     "type": "file",
+     "ext": "",
+     "file_size": 26079,
+     "meta": "25.5 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

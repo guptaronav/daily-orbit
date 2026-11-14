@@ -1,0 +1,432 @@
+{
+ "record": {
+  "id": "b8061359-dd56-5503-b5d1-2935985d6a71",
+  "_id": "b8061359-dd56-5503-b5d1-2935985d6a71",
+  "experiment_title": "Time and Motion Study",
+  "pub_document_number": "PUB000402",
+  "archive_status_index": 2,
+  "parameter_html": "<table><tr><td>Performance</td></tr><tr><td>Time</td></tr><tr><td>Time, basic elements</td></tr><tr><td>Camera run time</td></tr><tr><td>Motor activity</td></tr><tr><td>Task performance</td></tr><tr><td>Voice/telemetry time</td></tr><tr></tr></table>",
+  "__source_key": "cl62ayxd7cd9s01o62byrh8l8",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Kubis, Joseph\">Principal Investigator: Kubis, Joseph</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Jackson, Janice\">Co-Investigator: Jackson, Janice</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:McBride, Gary\">Co-Investigator: McBride, Gary</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:McLaughlin, Edward\">Co-Investigator: McLaughlin, Edward</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Rusnak, Rudolph\">Co-Investigator: Rusnak, Rudolph</a>",
+  "image_name": [
+   "Maurer 16mm Data Acquisition Camera (DAC)"
+  ],
+  "experiment_type_lk": [
+   "Skylab Program"
+  ],
+  "__record_modified_date": "2026-08-23T04:21:34.532518+00:00",
+  "proposal_source": [
+   "N/A"
+  ],
+  "__indexed": "2026-08-23T04:21:34.532518+00:00",
+  "keyword": [
+   "Photography",
+   "Human engineering",
+   "Task performance analysis",
+   "Time and motion studies",
+   "Time factors"
+  ],
+  "__record_creation_date": "2022-07-28T20:04:51.795Z",
+  "keyword_name": "Time factors",
+  "__record_version": 29,
+  "__record_size": 116963,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<br>\r\nDuring the relatively short flights of Gemini and Apollo, researchers identified definite alterations in the physiology of astronauts.  In some cases, the changes affected the way Gemini and Apollo crews were able to perform mission tasks.  Prior to Skylab, researchers speculated that humans might not perform tasks adequately in a microgravity environment over long periods of time.  The primary objective of the time and motion study was to determine how well astronauts could perform specified tasks under weightless conditions over the course of long-duration space flights.  In addition to this hypothesis, the experiment was designed to determine if repetition of a specified task would improve performance time, and if task performance time in flight would be restored to preflight levels late in the mission, assuming an increase earlier in the mission.\r\n<P>\r\nAPPROACH:<br>\r\nDuring the Skylab 2, 3 and 4 missions, the study observed nine astronaut test subjects in motion and compared their mobility and dexterity during various activities in weightlessness with similar activities conducted by the same astronauts under Earth conditions.  The activities that were monitored were selected according to a restrictive set of criteria.  It was necessary for the activities to be repetitive and relatively standardized.  At the same time, they needed to be relevant to the mission and the responses not contrived.  Consequently, the activities had to be part of the planned schedule, not added to or modified for the experiment.  \r\n<P>\r\nActivities associated with the preparation and execution of approved medical and scientific experiments met all of these requirements.  Accordingly, data was collected during several life sciences experiments, including M092 (Inflight Lower Body Negative Pressure), M171 (Metabolic Activity), and M093 (Vectorcardiography).   Data were also collected while the astronauts put on and took off the space suits required for extravehicular activity (EVA).\r\n<P>\r\nData were collected both preflight and inflight for each astronaut.  Preflight, the astronauts practiced each task until little or no assistance was required to perform the task.  The last four or five trials were used as the baseline or control data for comparison with inflight performance.  Inflight data was then compared to the preflight data to determine if the first few inflight task performance trials remained at preflight levels, or if there was a noticeable change in the performance level in flight.\r\n<P>\r\nA 16 mm data acquisition camera was used to obtain color photographs of selected tasks on each Skylab mission.  Each performance trial was recorded from beginning to end.  Depending on the proximity to the test subject, either a standard 10 mm lens or a 5 mm lens with wide angle field-of-view was used.  On Skylab 2, all data were photographed at six frames per second.  On the longer Skylab 3 and 4 missions, data were collected at two frames per second for some activities.  A standard voice recorder was used by the test subject to record start and stop times of each task.\r\n<P>\r\nThe film was returned to Earth where a three-level analysis procedure was developed to filter the data into classes according to the depth and detail of the analysis required.  Each task was broken down into several subtasks  or elements and the times for completing the different elements of a given task were determined.\r\nA task element was characterized as follows:<BR>\r\n<LI> basic, if it was necessary to complete the task;\r\n<LI> non-basic, if it could be omitted (e.g., stowage of leg bands used to measure leg volume);\r\n<LI> foreign, if it was unrelated to the task (e.g., crewman stopping the task to take a message);\r\n<LI> wait, if it was a break;\r\n<LI> idle, if it was non-productive (e.g., reviewing progress);\r\n<LI> anomaly, if it was due to a task-related error (e.g., incorrect procedure) or hardware difficulties.</LI>\r\n<P>\r\nThe sum of the times associated with the basic elements of the task was calculated from film analysis as well as from voice records. It usually included the time occupied by anomalies but not the times for other task element categories -- non-basic, foreign, waits and idles. The element times served as the fundamental data source for performing analyses such as gross motor dexterity, translation with or without carrying a load, and large versus small mass handling under weightless conditions.\r\n<P>\r\nRESULTS:<br>\r\nAnalysis of the data indicated that the first performance of a task in flight took longer to complete than the corresponding last preflight trial.  The increase in time in flight was noticed in 68% of the cases during Skylab 2.  Although the effect was not so pronounced for the remaining two missions, the results were consistent.  When the results of the three missions were combined, it was observed that 61% of the first inflight trials took longer than the corresponding last preflight trials.\r\n<P>\r\nIn addition, tasks that required fine motor activity, such as high eye-hand coordination and dexterity, took longer to perform than tasks requiring medium or gross motor activity.  It was shown that in many cases, by the second inflight trial, the crewmembers adjusted rapidly to the weightless environment and became proficient in developing techniques to optimize task performance.  For short missions, the researchers concluded that the early repetition of tasks critical for mission success would seem to be the most effective \r\nallocation of inflight work activities.   \r\n<P>\r\nOne interesting result indicated that the length of time necessary to readapt to preflight levels of performance was between one and two weeks.  There was some evidence to indicate that number of trials was more important than mission days in the evaluation of adaptation to task or work performance.  It was observed that by the second trial, whether performed on the same day or a week later, the time tended to approximate that obtained on the last preflight trial. \r\n<P>\r\nFinally, there was no significant evidence to indicate deterioration of performance during the longer Skylab missions.  It was shown that performance continued to improve while variability did not increase significantly during the final third of the Skylab mission.\r\n<END>",
+  "payload_id": "Skylab 2",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "indexed": "2026-08-23T04:21:34.532518+00:00",
+  "experiment_id": "M151",
+  "experiment_related": [
+   "M093",
+   "M092",
+   "M171"
+  ],
+  "GUID": "cl62ayxd7cd9s01o62byrh8l8",
+  "parameter_name": [
+   "Performance",
+   "Time",
+   "Time, basic elements",
+   "Camera run time",
+   "Motor activity",
+   "Task performance",
+   "Voice/telemetry time"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 412,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Behavior and performance"
+  ],
+  "pme_role_with_name": [
+   "Co-Investigator: Jackson, Janice",
+   "Co-Investigator: McBride, Gary",
+   "Co-Investigator: McLaughlin, Edward",
+   "Co-Investigator: Rusnak, Rudolph",
+   "Not available: Saxon, Susan",
+   "Principal Investigator: Kubis, Joseph"
+  ],
+  "missions": [
+   [
+    [
+     "Skylab 2"
+    ]
+   ],
+   [
+    [
+     "Skylab 3"
+    ]
+   ],
+   [
+    [
+     "Skylab 4"
+    ]
+   ]
+  ],
+  "__dirid": "b8061359-dd56-5503-b5d1-2935985d6a71",
+  "__record_size_wo_doccontent": 116963,
+  "PI": [
+   "Kubis, Joseph"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "M151"
+  ],
+  "mission_id": [
+   [
+    [
+     "Skylab 2"
+    ]
+   ],
+   [
+    [
+     "Skylab 3"
+    ]
+   ],
+   [
+    [
+     "Skylab 4"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Kubis, Joseph"
+  ],
+  "archive_status": "Data preservation is complete. Privacy-protected datasets are available via data request. Remaining datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Skylab",
+  "__source_field_concat": "PUB000402 Skylab 2 cl62ayxd7cd9s01o62byrh8l8 Time factors  N/A Time and Motion Study M151 Skylab",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<br>\r\nDuring the relatively short flights of Gemini and Apollo, researchers identified definite alterations in the physiology of astronauts.  In some cases, the changes affected the way Gemini and Apollo crews were able to perform mission tasks.  Prior to Skylab, researchers speculated that humans might not perform tasks adequately in a microgravity environment over long periods of time.  The primary objective of the time and motion study was to determine how well astronauts could perform specified tasks under weightless conditions over the course of long-duration space flights.  In addition to this hypothesis, the experiment was designed to determine if repetition of a specified task would improve performance time, and if task performance time in flight would be restored to preflight levels late in the mission, assuming an increase earlier in the mission.\r\n<P>\r\nAPPROACH:<br>\r\nDuring the Skylab 2, 3 and 4 missions, the study observed nine astronaut test subjects in motion and compared their mobility and dexterity during various activities in weightlessness with similar activities conducted by the same astronauts under Earth conditions.  The activities that were monitored were selected according to a restrictive set of criteria.  It was necessary for the activities to be repetitive and relatively standardized.  At the same time, they needed to be relevant to the mission and the responses not contrived.  Consequently, the activities had to be part of the planned schedule, not added to or modified for the experiment.  \r\n<P>\r\nActivities associated with the preparation and execution of approved medical and scientific experiments met all of these requirements.  Accordingly, data was collected during several life sciences experiments, including M092 (Inflight Lower Body Negative Pressure), M171 (Metabolic Activity), and M093 (Vectorcardiography).   Data were also collected while the astronauts put on and took off the space suits required for extravehicular activity (EVA).\r\n<P>\r\nData were collected both preflight and inflight for each astronaut.  Preflight, the astronauts practiced each task until little or no assistance was required to perform the task.  The last four or five trials were used as the baseline or control data for comparison with inflight performance.  Inflight data was then compared to the preflight data to determine if the first few inflight task performance trials remained at preflight levels, or if there was a noticeable change in the performance level in flight.\r\n<P>\r\nA 16 mm data acquisition camera was used to obtain color photographs of selected tasks on each Skylab mission.  Each performance trial was recorded from beginning to end.  Depending on the proximity to the test subject, either a standard 10 mm lens or a 5 mm lens with wide angle field-of-view was used.  On Skylab 2, all data were photographed at six frames per second.  On the longer Skylab 3 and 4 missions, data were collected at two frames per second for some activities.  A standard voice recorder was used by the test subject to record start and stop times of each task.\r\n<P>\r\nThe film was returned to Earth where a three-level analysis procedure was developed to filter the data into classes according to the depth and detail of the analysis required.  Each task was broken down into several subtasks  or elements and the times for completing the different elements of a given task were determined.\r\nA task element was characterized as follows:<BR>\r\n<LI> basic, if it was necessary to complete the task;\r\n<LI> non-basic, if it could be omitted (e.g., stowage of leg bands used to measure leg volume);\r\n<LI> foreign, if it was unrelated to the task (e.g., crewman stopping the task to take a message);\r\n<LI> wait, if it was a break;\r\n<LI> idle, if it was non-productive (e.g., reviewing progress);\r\n<LI> anomaly, if it was due to a task-related error (e.g., incorrect procedure) or hardware difficulties.</LI>\r\n<P>\r\nThe sum of the times associated with the basic elements of the task was calculated from film analysis as well as from voice records. It usually included the time occupied by anomalies but not the times for other task element categories -- non-basic, foreign, waits and idles. The element times served as the fundamental data source for performing analyses such as gross motor dexterity, translation with or without carrying a load, and large versus small mass handling under weightless conditions.\r\n<P>\r\nRESULTS:<br>\r\nAnalysis of the data indicated that the first performance of a task in flight took longer to complete than the corresponding last preflight trial.  The increase in time in flight was noticed in 68% of the cases during Skylab 2.  Although the effect was not so pronounced for the remaining two missions, the results were consistent.  When the results of the three missions were combined, it was observed that 61% of the first inflight trials took longer than the corresponding last preflight trials.\r\n<P>\r\nIn addition, tasks that required fine motor activity, such as high eye-hand coordination and dexterity, took longer to perform than tasks requiring medium or gross motor activity.  It was shown that in many cases, by the second inflight trial, the crewmembers adjusted rapidly to the weightless environment and became proficient in developing techniques to optimize task performance.  For short missions, the researchers concluded that the early repetition of tasks critical for mission success would seem to be the most effective \r\nallocation of inflight work activities.   \r\n<P>\r\nOne interesting result indicated that the length of time necessary to readapt to preflight levels of performance was between one and two weeks.  There was some evidence to indicate that number of trials was more important than mission days in the evaluation of adaptation to task or work performance.  It was observed that by the second trial, whether performed on the same day or a week later, the time tended to approximate that obtained on the last preflight trial. \r\n<P>\r\nFinally, there was no significant evidence to indicate deterioration of performance during the longer Skylab missions.  It was shown that performance continued to improve while variability did not increase significantly during the final third of the Skylab mission.\r\n<END>",
+  "__doi": "10.83263/5qpk-4k02",
+  "__doi_record_creation_date": "2026-08-23T04:21:34",
+  "__doi_record_modified_date": "2026-08-23T04:21:34"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000371",
+   "label": "M151__1810157837",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Preflight Suit Donning Average Time (Sum of Basic Elements)",
+    "dataset_catalog": "M151__1810157837",
+    "dataset_description": [
+     "This figure represents the preflight summary of extravehicular activity suit donning training during Skylab 2, 3, and 4.  The outstanding characteristic of the three functions is the terminal point, the time for the last training session before flight.  This data was taken on all three crewmembers from each Skylab mission."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "M151"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "b0f941e5-a4f9-5c52-8b81-378f8d5f81e2",
+     "label": "M151__1810157837_.jpg_Skylab_2_M151_2014_181_020642.jpg",
+     "type": "file",
+     "ext": "jpg",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000833",
+   "label": "M151__1810135851",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Inflight Element Time (First Trial) Compared with the Corresponding Preflight Element Time (Last Trial) for the Skylab Missions",
+    "dataset_catalog": "M151__1810135851",
+    "dataset_description": [
+     "This table shows data used to evaluate the effects of a zero-g environment on task performance.  The tasks were subdivided into elements, and the times associated with the performances of each elements were compared (first trial in flight versus last trial preflight).  The data for these elements are presented in terms of frequencies, or the number of instances that time for the first inflight trial was greater than that for the last preflight trial, and vice versa.  The data was taken from Skylab 2, 3, and 4 missions on all three crewmembers."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "M151"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "bdff822c-76e4-5eae-8ee8-5dedd0e8bc20",
+     "label": "M151__1810135851.xlsx_Skylab_2_M151_2014_181_010659.xlsx",
+     "type": "file",
+     "ext": "xlsx",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001329",
+   "label": "M151__1810154687",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Median Spearman coefficients for Subject and Observer, Preflight and Inflight for Skylab Mission 2, 3, and 4",
+    "dataset_catalog": "M151__1810154687",
+    "dataset_description": [
+     "This table represents the Spearmen coefficients analyzed in terms of the function each crewman performed as either subject or observer.  This table presents the median coefficients for these crewman roles, preflight and inflight, for the three Skylab missions."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "M151"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "36c9bfbe-891b-523c-a0f6-8259703dcb93",
+     "label": "M151__1810154687_.xlsx_Skylab_2_M151_2014_181_010634.xlsx",
+     "type": "file",
+     "ext": "xlsx",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001055",
+   "label": "M151__1810200184",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Inflight Suit Donning Average Time (Sum of Basic Elements)",
+    "dataset_catalog": "M151__1810200184",
+    "dataset_description": [
+     "This figure represents the inflight summary of extravehicular activity suit donning for each crewmember during Skylab 2, 3, and 4 missions.  The average time is taken in seconds for commander, scientist pilot, and pilot."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "M151"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "a9732d5a-c91d-596a-b99b-ca5de4750c81",
+     "label": "M151__1810200184_.tif_Skylab_2_M151_2014_181_020648.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001034",
+   "label": "M151__1810203398",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Experiment M092 and M171 start (Observer Activity Three Crewman Average)",
+    "dataset_catalog": "M151__1810203398",
+    "dataset_description": [
+     "The time interval between the two counts was used to compute averages for the three crewmembers acting as observers in each of the Skylab missions.  For Skylab missions 2 and 4 and partially for Skylab 3, the graphs demonstrate characteristic features of the adaptation function.  \r\n<P>\r\nSkylab 2 was the smoothest and most regular.  Skylab 4 began a much higher level and descended in a rapid  irregular manner over sever trials.  During Skylab 3, the first half of the trials represented a classic adaptation function, and the later half was uniformly and substantially higher than that at which the other two crew performed."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "M151"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "39a0c57a-d875-5277-abf5-6a815a599a65",
+     "label": "M151__1810203398.jpg_Skylab_2_M151_2014_181_020627.jpg",
+     "type": "file",
+     "ext": "jpg",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001500",
+   "label": "M151__1810151697",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Number of Elements Performed Inflight (First or Second Trial) as Rapidly as on Last Preflight Trial",
+    "dataset_catalog": "M151__1810151697",
+    "dataset_description": [
+     "This table represents the number of activities which, at first or second inflight trial, were done as rapidly they were on the last preflight trial.  By the end of trial 2, 44 of the 86 elements on Skylab 2 were completed within the time taken on the last preflight trial.  Data was collected from all Skylab 2, 3, and 4 crewmembers.\r\n<P>\r\nWhen the elements were totaled across the three missions, exactly half of the elements returned to preflight baseline (last preflight trial)  by the end of the second trial."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "M151"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "f8e15a0d-d7bc-58a6-987e-d11354f56af5",
+     "label": "M151__1810151697.xlsx_Skylab_2_M151_2014_181_010633.xlsx",
+     "type": "file",
+     "ext": "xlsx",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001330",
+   "label": "M151__1810206309",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Means and Standard Deviations of Task Performance for the Initial, Middle, and Final Thirds of the Skylab 4 Mission",
+    "dataset_catalog": "M151__1810206309",
+    "dataset_description": [
+     "To determine whether the two effects of time to perform tasks or increase in variability toward the end of the mission were operating on the Skylab 4 mission, the voice telemetry data for M092 , M171 and M093 were divided into thirds; the initial third, the middle third, and the final third of the Skylab 4 mission.  These data, in the form of means and standard deviations, are presented in this table.\r\n<P>\r\nThe data indicates means decreased steadily for the three experiments.  The standard deviation decreased sharply from the initial third to the middle third and became stabilized at about this period of the mission.  The slight increase in standard deviation from the middle to the final third of experiments M092 and M171 could be considered as random variations at a relatively stable level.<END>"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "M151"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "a3b7b12a-7a1d-5548-9da8-f9225e91edae",
+     "label": "M151__1810206309_.xlsx_Skylab_4_M151_2014_181_020620.xlsx",
+     "type": "file",
+     "ext": "xlsx",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002273",
+   "label": "M151__1810144300",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Comparison of Preflight and Inflight Performance Times for Elements Categorized into Fine, Medium, and Gross Motor Activity Classes",
+    "dataset_catalog": "M151__1810144300",
+    "dataset_description": [
+     "In this table, the elements are categorized into three classes representing tasks requiring fine, medium, and gross motor dexterity.  Data from the Skylab  2, 3 and 4 crewmembers has been combined in this table.  The basic comparison, first inflight versus last preflight, were thus available for the three types of motor activity involved in task performance.  \r\n<P>\r\nThe first inflight trial took longer than the last preflight trail.  As a result, the percent increase was most pronounced for the fine motor activity, less for the medium, and least for the gross activity."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "M151"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "a30dfc40-ad08-5de7-91e5-545c2c61a125",
+     "label": "M151__1810144300.xlsx_Skylab_2_M151_2014_181_010615.xlsx",
+     "type": "file",
+     "ext": "xlsx",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002291",
+   "label": "M151__1810148719",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Median Preflight and In Flight Spearman Coefficients for the Three Skylab Missions",
+    "dataset_catalog": "M151__1810148719",
+    "dataset_description": [
+     "This table represents the preflight and inflight median correlation coefficients \"r\" for the three Skylab missions.  Data was collected for all three crewmembers from each Skylab mission.  The median preflight coefficients were larger than the inflight coefficients for all three missions."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "M151"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "98c0ac0d-2e52-52fb-bbb2-dc9eaea27a09",
+     "label": "M151__1810148719_.xlsx_Skylab_2_M151_2014_181_010622.xlsx",
+     "type": "file",
+     "ext": "xlsx",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

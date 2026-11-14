@@ -1,0 +1,194 @@
+{
+ "record": {
+  "id": "185ce6b8-ca27-581f-a908-3678065f3798",
+  "_id": "185ce6b8-ca27-581f-a908-3678065f3798",
+  "__is_locked": false,
+  "experiment_title": "Quantitative Computerized Tomography",
+  "__source_key": "cl62b07a9cdkc01o62vuxe73s",
+  "experiment_type": [
+   [
+    "NASA Ground-Based Investigations"
+   ],
+   [
+    "Flight Analogs Project (FAP)"
+   ],
+   [
+    "NASA Bedrest Studies"
+   ]
+  ],
+  "AssignedArchivist": [
+   "None Selected",
+   "Liddell, Nyaia A."
+  ],
+  "keyword": [
+   "Lumbar vertebrae",
+   "Hip",
+   "Bone density"
+  ],
+  "__record_version": 32,
+  "experiment_description": "OBJECTIVES: <br>\nHip and spine morphology data was collected by quantitative computed tomography (QCT) technology in bed rest subjects.  The QCT scan was used to measure true bone density volume, not just bone mineral density (BMD) per unit area.  The QCT measured both cortical and trabecular bone.  A more sensitive QCT technique was used to obtain these measurements which revealed how bone mass is geometrically distributed over a 3-dimensional space.\n<div>\nAPPROACH:<br>\nQCT was used to evaluate bone mass and geometry.  Scans were performed pre- and post-bed rest for long-duration (70-day) bed rest subjects.  Consistent with space flight measures, bed rest subjects received follow-up QCT scans six months and one year after completion of bed rest.</div><div>\nThe QCT measurement was performed using a standard clinical CT scanner and a set of calibration phantoms. The first step was to scan the calibration phantoms. The rectangular phantom was placed flat on the scan table and the torso phantom was placed upon it. The scan table was adjusted so that the center of the torso phantom was at the isocenter of the scanner (all images in the test were taken with the scan table a specific height). Three axial images were taken of the phantoms at the center of the torso phantom. The torso phantom was then removed and the subject was asked to lie supine with his/her lumbar spine over the rectangular calibration phantom with their feet elevated and oriented toward the scanner. A scout scan was taken for positioning (a sagittal image through the center of the spine). A series of axial images was then taken covering the vertebra L1 and L2 (from the endplate of T12 to the endplate of L3). The subject was then repositioned so the phantom was beneath his/her hips and a coronal scout scan was then taken. A series of axial scans were then taken covering the region from 1 cm superior to the femoral head to 5mm inferior to the lesser trochanter.</div><div>\nRESULTS:<br>\nThis experiment has concluded. <span class=\"cf0\">Tabular results are available for the public</span>.\n</div><div></div>",
+  "indexed": "2026-08-23T04:24:54.590619+00:00",
+  "GUID": "cl62b07a9cdkc01o62vuxe73s",
+  "_file_extension": "human",
+  "archive_status": "Data preservation is complete. All datasets are privacy-protected. Data is available via data request.",
+  "__model_type": "lsda_experiment",
+  "__dirid": "185ce6b8-ca27-581f-a908-3678065f3798",
+  "__record_size_wo_doccontent": 55363,
+  "__update_method": "Update CDM",
+  "experiment_identifier": [
+   "BRSMQCT"
+  ],
+  "CompleteArchivalExpectedInFiscalYear": [
+   "0"
+  ],
+  "experiment_type_lk": [
+   "NASA Ground-Based Investigations",
+   "Flight Analogs Project (FAP)",
+   "NASA Bedrest Studies"
+  ],
+  "__record_modified_date": "2026-08-23T04:24:54.590619+00:00",
+  "nasa_center": "JSC",
+  "__indexed": "2026-08-23T04:24:54.590619+00:00",
+  "__record_creation_date": "2022-07-28T20:01:09.854Z",
+  "__record_size": 55363,
+  "species_strain": [
+   [
+    "N/A"
+   ]
+  ],
+  "__model_version": 60,
+  "species_sci_name": [
+   [
+    "Homo sapiens"
+   ]
+  ],
+  "payload_id": [
+   "DBLS",
+   "Campaign 3",
+   "CFT70",
+   "Campaign 5"
+  ],
+  "CombinedSpecies": [
+   "Human (Homo sapiens) N/A"
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "ncindex": 2,
+  "researchIndex": [
+   1087
+  ],
+  "experiment_id": "BRSMQCT",
+  "center": "JSC",
+  "parameter_name": [
+   "Bone density volume",
+   "Hip",
+   "Lumbar spine",
+   "Bone mineral density"
+  ],
+  "exp_index": 1702,
+  "research_area": [
+   "Skeletal physiology"
+  ],
+  "species": [
+   [
+    "Human"
+   ]
+  ],
+  "pme_role_with_name": [
+   "Principal Investigator: Sibonga, Jean D."
+  ],
+  "missions": [
+   "DBLS",
+   "UTMB Campaign 3",
+   "UTMB Campaign 11",
+   "UTMB Campaign 5"
+  ],
+  "PI": [
+   "Sibonga, Jean D."
+  ],
+  "sort": [
+   3,
+   "d9e5dab1-f801-5828-8715-6eb2c01e44b5"
+  ],
+  "parameter_html": "<table><tr><td>Bone density volume</td></tr><tr><td>Hip</td></tr><tr><td>Lumbar spine</td></tr><tr><td>Bone mineral density</td></tr><tr></tr></table>",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Sibonga, Jean D.\">Principal Investigator: Sibonga, Jean D.</a>",
+  "keyword_name": "Hip",
+  "Program": "Ground",
+  "archive_status_index": 4,
+  "mission_id": [
+   [
+    [
+     "UTMB Campaign 5"
+    ]
+   ],
+   [
+    [
+     "UTMB Campaign 11"
+    ]
+   ],
+   [
+    [
+     "UTMB Campaign 3"
+    ]
+   ],
+   [
+    [
+     "DBLS"
+    ]
+   ]
+  ],
+  "PrincipalInvestigator": [
+   "Sibonga, Jean D."
+  ],
+  "payload_part": "N/A",
+  "__source_field_concat": "human cl62b07a9cdkc01o62vuxe73s JSC JSC Hip N/A Quantitative Computerized Tomography BRSMQCT Ground Data preservation is complete.  All datasets are publicly available.",
+  "__icon_type": "",
+  "__description": "OBJECTIVES: <br>\nHip and spine morphology data was collected by quantitative computed tomography (QCT) technology in bed rest subjects.  The QCT scan was used to measure true bone density volume, not just bone mineral density (BMD) per unit area.  The QCT measured both cortical and trabecular bone.  A more sensitive QCT technique was used to obtain these measurements which revealed how bone mass is geometrically distributed over a 3-dimensional space.\n<div>\nAPPROACH:<br>\nQCT was used to evaluate bone mass and geometry.  Scans were performed pre- and post-bed rest for long-duration (70-day) bed rest subjects.  Consistent with space flight measures, bed rest subjects received follow-up QCT scans six months and one year after completion of bed rest.</div><div>\nThe QCT measurement was performed using a standard clinical CT scanner and a set of calibration phantoms. The first step was to scan the calibration phantoms. The rectangular phantom was placed flat on the scan table and the torso phantom was placed upon it. The scan table was adjusted so that the center of the torso phantom was at the isocenter of the scanner (all images in the test were taken with the scan table a specific height). Three axial images were taken of the phantoms at the center of the torso phantom. The torso phantom was then removed and the subject was asked to lie supine with his/her lumbar spine over the rectangular calibration phantom with their feet elevated and oriented toward the scanner. A scout scan was taken for positioning (a sagittal image through the center of the spine). A series of axial images was then taken covering the vertebra L1 and L2 (from the endplate of T12 to the endplate of L3). The subject was then repositioned so the phantom was beneath his/her hips and a coronal scout scan was then taken. A series of axial scans were then taken covering the region from 1 cm superior to the femoral head to 5mm inferior to the lesser trochanter.</div><div>\nRESULTS:<br>\nThis experiment has concluded. <span class=\"cf0\">Tabular results are available for the public</span>.\n</div><div></div>",
+  "__doi": "10.83263/4bs4-7j94",
+  "__doi_record_creation_date": "2026-08-23T04:24:54",
+  "__doi_record_modified_date": "2026-08-23T04:24:54"
+ },
+ "datasets": [
+  {
+   "key": "25c913f0-fef1-56d7-a6cb-fd027a7f04d0",
+   "label": "BRSMQCT_CFT70",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "BRSMQCT CFT70 Data",
+    "dataset_catalog": "BRSMQCT_CFT70",
+    "dataset_description": "This dataset contains tabular data of Quantitative Computerized Tomography (QCT) data resulting from the bed rest standard measure QCT (BRSMQCT) session for the CFT70 Flight Analog Project Study.",
+    "processing_level": [
+     "Processed Data"
+    ],
+    "experiment_id": [
+     "BRSMQCT"
+    ]
+   },
+   "meta": "2 files \u00b7 17.2 KB",
+   "date": "2026-03-24",
+   "children": [
+    {
+     "key": "d337ac02-5835-5e70-a2aa-b8bf0ec7880b",
+     "label": "BRSMQCT_CFT70_Right_Hip",
+     "type": "file",
+     "ext": "",
+     "file_size": 8798,
+     "meta": "8.6 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0fcd83ed-f536-5841-8ad0-113bfc3fa2ac",
+     "label": "BRSMQCT_CFT70_Left_Hip",
+     "type": "file",
+     "ext": "",
+     "file_size": 8798,
+     "meta": "8.6 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

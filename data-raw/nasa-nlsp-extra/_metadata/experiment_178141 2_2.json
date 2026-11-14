@@ -1,0 +1,821 @@
+{
+ "record": {
+  "id": "d622086a-3186-513e-b984-e1fe523d0189",
+  "_id": "d622086a-3186-513e-b984-e1fe523d0189",
+  "experiment_title": "Regulation of Blood Volume During Spaceflight",
+  "experiment_alias": [
+   "E141"
+  ],
+  "parameter_html": "<table><tr><td>Activity, motor, Rat, Microgravity, SLS-2 (counts)</td></tr><tr><td>Isotope, 51 Chromium (51Cr), half life, red blood cells (erythrocytes), rat, Count</td></tr><tr><td>Isotope, 51 Chromium (51Cr), red blood cell (RBC) content, liver, rat, Count</td></tr><tr><td>Isotope, 51 Chromium (51Cr), red blood cell (RBC) content, spleen, rat, Count</td></tr><tr><td>Isotope, 59 Iron (59Fe), incorporation, red blood cells (erythrocytes), rat, Count</td></tr><tr><td>Mass, Body, whole, rat, Weight, mass measurement device</td></tr><tr><td>Mass, Red blood cell (RBC), rat, Isotopic dilution</td></tr><tr><td>Percent, Echinocytes, peripheral blood, rat, Calculated</td></tr><tr><td>Volume, Plasma volume, vascular system, rat, Isotopic</td></tr><tr><td>Volume, Total blood, vascular system, rat,, Isotopic dilution (calculated)</td></tr><tr><td>Ferritin, plasma</td></tr><tr><td>Ferritin, serum</td></tr><tr><td>Hematocrit, peripheral</td></tr><tr><td>Hematocrit, total body</td></tr><tr></tr></table>",
+  "__source_key": "cl62attl5cahd01o674160v4r",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Alfrey, Clarence\">Principal Investigator: Alfrey, Clarence</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Driscoll, Theda\">Co-Investigator: Driscoll, Theda</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Nachtman, Ronald\">Co-Investigator: Nachtman, Ronald</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Udden, Mark\">Co-Investigator: Udden, Mark</a>",
+  "keyword": [
+   "Iron",
+   "Hematocrit",
+   "Cell survival",
+   "Plasma volume",
+   "Blood volume",
+   "Erythrocyte count"
+  ],
+  "keyword_name": "Erythrocyte count",
+  "__record_version": 29,
+  "experiment_description": "<B>Objectives:</B><P>Human adaptation to space flight is accompanied by a loss of red blood cell mass (RBCM), a loss of plasma volume (PV), and a decrease in total blood volume.  This leads to a decrease in gravity-dependent space below  the heart.  In this study, rats were examined to determine whether similar hemodynamic changes occur, making them a suitable subject for study.  SLS-1 marked the first time PV and RBCM were measured before and after flight.  SLS-2 allowed for repeat determinations and the first  opportunity for inflight assessment of erythropoiesis.  An additional inflight experiment tested the ability of the rat bone marrow to respond to a bolus of erythropoietin, the major hormone controlling erythropoiesis in animals and humans.<P><B>Approach:</B><P>Seven days prior to launch PV and RBCM were determined by  isotopic dilution of 125I  labeled albumin and  51Cr  labeled red blood cells respectively.  On flight day 6, five rats (group A) were given 125I labeled albumin and 59Fe injections.   Samples were taken ten minutes later to determine PV.  Samples to determine 59Fe incorporation into RBCs were taken 24 hours later and on landing day (9 days later).  The remaining 10 rats (groups B and C) were given 59Fe injections on flight day 9.  Group B was also given a 200-U  injection of erythropoietin at this time.  Upon landing, RBCM and PV were measured for all flight rats and ground controls.  59Fe incorporation into red blood cells was also determined.<P><B>Results:</B><P>RBCM showed an increase in both the spaceflight animals and ground control animals, but less of an increase in flight animals.  When this increase was normalized for growth (flight animals had a lower growth rate than ground controls), a decrease was seen in the flight animals' RBCM.  Plasma volume increased in both flight and ground control animals.  The PV increase was greater in ground control animals although not statistically different.  59Fe incorporation was lower in flight animals but again not statistically different.  Animals that received erythropoietin injections had higher levels of iron incorporation.  Incorporation was not statistically significant, indicating erythropoiesis is stimulated normally under conditions of microgravity.",
+  "indexed": "2026-08-23T04:21:00.278849+00:00",
+  "GUID": "cl62attl5cahd01o674160v4r",
+  "__model_type": "lsda_experiment",
+  "__dirid": "d622086a-3186-513e-b984-e1fe523d0189",
+  "__record_size_wo_doccontent": 71365,
+  "experiment_parms_tissue2": "NULL",
+  "experiment_parms_tissue1": "NULL",
+  "__update_method": "Update CDM",
+  "archive_status_index": 1,
+  "experiment_type_lk": [
+   "Shuttle Life Sciences Research (Spacelab)"
+  ],
+  "__record_modified_date": "2026-08-23T04:21:00.278849+00:00",
+  "proposal_source": [
+   "AO-OSS-1-78"
+  ],
+  "__indexed": "2026-08-23T04:21:00.278849+00:00",
+  "alias": [
+   "E141"
+  ],
+  "session_type": "Basal",
+  "__record_creation_date": "2022-07-28T19:48:40.869Z",
+  "__record_size": 71365,
+  "__model_version": 60,
+  "payload_id": "SLS-2",
+  "CombinedSpecies": [
+   [
+    "Rat (Rattus norvegicus) Sprague-Dawley"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "178141 2_2",
+  "experiment_related": [
+   "178141 1/2"
+  ],
+  "parameter_name": [
+   "Activity, motor, Rat, Microgravity, SLS-2 (counts)",
+   "Isotope, 51 Chromium (51Cr), half life, red blood cells (erythrocytes), rat, Count",
+   "Isotope, 51 Chromium (51Cr), red blood cell (RBC) content, liver, rat, Count",
+   "Isotope, 51 Chromium (51Cr), red blood cell (RBC) content, spleen, rat, Count",
+   "Isotope, 59 Iron (59Fe), incorporation, red blood cells (erythrocytes), rat, Count",
+   "Mass, Body, whole, rat, Weight, mass measurement device",
+   "Mass, Red blood cell (RBC), rat, Isotopic dilution",
+   "Percent, Echinocytes, peripheral blood, rat, Calculated",
+   "Volume, Plasma volume, vascular system, rat, Isotopic",
+   "Volume, Total blood, vascular system, rat,, Isotopic dilution (calculated)",
+   "Ferritin, plasma",
+   "Ferritin, serum",
+   "Hematocrit, peripheral",
+   "Hematocrit, total body"
+  ],
+  "exp_index": 277,
+  "research_area": [
+   "Hematology",
+   "Renal, fluid and electrolyte physiology"
+  ],
+  "protocol_approach": "SL-3 simulated cage",
+  "pme_role_with_name": [
+   "ARC Deputy Payload Manager: Wray, Angela",
+   "ARC Deputy Payload Scientist: Howerton, Thomas",
+   "ARC Experiment Support Scientist: Dubrovin, Laurie",
+   "ARC Payload Manager: Savage, Paul",
+   "ARC Payload Scientist: Hinds, William",
+   "Co-Investigator: Driscoll, Theda",
+   "Co-Investigator: Nachtman, Ronald",
+   "Co-Investigator: Udden, Mark",
+   "Principal Investigator: Alfrey, Clarence"
+  ],
+  "missions": [
+   [
+    [
+     "STS-58"
+    ]
+   ]
+  ],
+  "PI": [
+   "Alfrey, Clarence"
+  ],
+  "_file_extension": [],
+  "experiment_identifier": [
+   "178141 2_2",
+   "E141"
+  ],
+  "mission_id": [
+   [
+    [
+     "STS-58"
+    ]
+   ]
+  ],
+  "center": [
+   "Ames Research Center"
+  ],
+  "ncindex": [
+   7
+  ],
+  "proposal_date": [
+   "2/7/1978"
+  ],
+  "species": [
+   "Rat"
+  ],
+  "PrincipalInvestigator": [
+   "Alfrey, Clarence"
+  ],
+  "LaunchDate": [
+   "10/18/1993"
+  ],
+  "LaunchYear": 1993,
+  "program_name": [
+   "Shuttle Program"
+  ],
+  "archive_status": "Data preservation is complete. All datasets are publicly available.",
+  "__is_locked": false,
+  "Program": "Shuttle Program",
+  "__source_field_concat": "Basal SLS-2 cl62attl5cahd01o674160v4r Erythrocyte count NULL NULL SL-3 simulated cage Regulation of Blood Volume During Spaceflight 178141 2_2 Shuttle Program Data preservation is complete. All datasets are publicly available.",
+  "__icon_type": "rat",
+  "__description": "<B>Objectives:</B><P>Human adaptation to space flight is accompanied by a loss of red blood cell mass (RBCM), a loss of plasma volume (PV), and a decrease in total blood volume.  This leads to a decrease in gravity-dependent space below  the heart.  In this study, rats were examined to determine whether similar hemodynamic changes occur, making them a suitable subject for study.  SLS-1 marked the first time PV and RBCM were measured before and after flight.  SLS-2 allowed for repeat determinations and the first  opportunity for inflight assessment of erythropoiesis.  An additional inflight experiment tested the ability of the rat bone marrow to respond to a bolus of erythropoietin, the major hormone controlling erythropoiesis in animals and humans.<P><B>Approach:</B><P>Seven days prior to launch PV and RBCM were determined by  isotopic dilution of 125I  labeled albumin and  51Cr  labeled red blood cells respectively.  On flight day 6, five rats (group A) were given 125I labeled albumin and 59Fe injections.   Samples were taken ten minutes later to determine PV.  Samples to determine 59Fe incorporation into RBCs were taken 24 hours later and on landing day (9 days later).  The remaining 10 rats (groups B and C) were given 59Fe injections on flight day 9.  Group B was also given a 200-U  injection of erythropoietin at this time.  Upon landing, RBCM and PV were measured for all flight rats and ground controls.  59Fe incorporation into red blood cells was also determined.<P><B>Results:</B><P>RBCM showed an increase in both the spaceflight animals and ground control animals, but less of an increase in flight animals.  When this increase was normalized for growth (flight animals had a lower growth rate than ground controls), a decrease was seen in the flight animals' RBCM.  Plasma volume increased in both flight and ground control animals.  The PV increase was greater in ground control animals although not statistically different.  59Fe incorporation was lower in flight animals but again not statistically different.  Animals that received erythropoietin injections had higher levels of iron incorporation.  Incorporation was not statistically significant, indicating erythropoiesis is stimulated normally under conditions of microgravity.",
+  "__doi": "10.83263/cwws-6s66",
+  "__doi_record_creation_date": "2026-08-23T04:21:00",
+  "__doi_record_modified_date": "2026-08-23T04:21:00"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002081",
+   "label": "AINV0000000283",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Percentage of echinocytes",
+    "dataset_catalog": "AINV0000000283",
+    "dataset_description": [
+     "Red blood cells are fixed to determine the percentage of echinocytes.<br/>15 ground control and 15 flight animals divided into 3 subgroups of 5 animals.<br/>Preflight, inflight, and postflight measurements."
+    ],
+    "processing_level": [
+     "Raw<br/>Processed"
+    ],
+    "experiment_id": [
+     "178141 2_2"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "cae6e119-7bd1-5dba-83f3-e0825aac54ee",
+     "label": "PercEchi.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000318",
+   "label": "AINV0000000281",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Blood volume",
+    "dataset_catalog": "AINV0000000281",
+    "dataset_description": [
+     "Blood volume calculated by adding the red blood cell mass to the plasma volume.<br/>15 ground control and 15 flight animals divided into 3 subgroups of 5 animals.<br/>Preflight and postflight measurements."
+    ],
+    "processing_level": [
+     "Raw<br/>Processed"
+    ],
+    "experiment_id": [
+     "178141 2_2"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "6685c821-a3d5-5892-802c-2306f6e872d5",
+     "label": "BV_ml.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001746",
+   "label": "AINV0000000291",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "59Fe incorporation into circulating red blood cells",
+    "dataset_catalog": "AINV0000000291",
+    "dataset_description": [
+     "Radionuclide tracer technique used to determine the percentage of injected 59Fe that appears in circulating red blood cells.<br/>15 ground control and 15 flight animals divided into 3 subgroups of 5 animals.<br/>Inflight and postflight measurements."
+    ],
+    "processing_level": [
+     "Raw<br/>Processed"
+    ],
+    "experiment_id": [
+     "178141 2_2"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "8d967bdb-d061-5b70-8a55-e8c6e6a58462",
+     "label": "59Fe_Inc.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000744",
+   "label": "ARC_1279",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "51Cr spleen to liver ratio",
+    "dataset_catalog": "ARC_1279",
+    "dataset_description": [
+     "Radionuclide tracer used to measure the amount of 51Cr in the liver and spleen.<br/>15 ground control and 15 flight animals divided into 3 subgroups of 5 animals.<br/>Postflight measurements."
+    ],
+    "processing_level": [
+     "Raw<br/>Processed"
+    ],
+    "experiment_id": [
+     "178141 2_2"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "71683163-9478-505c-b1e7-5110ba86bfa5",
+     "label": "156_ENG.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002368",
+   "label": "AINV0000000292",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "51Cr red blood cell survival time",
+    "dataset_catalog": "AINV0000000292",
+    "dataset_description": [
+     "Radionuclide tracer used to measure the disappearance rate of red blood cell.<br/>15 ground control and 15 flight animals divided into 3 subgroups of 5 animals.<br/>Preflight and postflight measurements."
+    ],
+    "processing_level": [
+     "Raw<br/>Processed"
+    ],
+    "experiment_id": [
+     "178141 2_2"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "8f28f6a6-8097-5167-9126-a2d922e6d69d",
+     "label": "51CrRBCS.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000840",
+   "label": "AINV0000000289",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Plasma volume",
+    "dataset_catalog": "AINV0000000289",
+    "dataset_description": [
+     "Radionuclide dilution technique used to measure plasma volume for male rodents.<br/>15 ground control and 15 flight animals divided into 3 subgroups of 5 animals.<br/>Preflight, inflight, and postflight measurements."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "178141 2_2"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "66f20786-4981-5512-aaf7-5bbde5ab953d",
+     "label": "PVml.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000959",
+   "label": "ARC_1280",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "59Fe incorporation into circulating red blood cells",
+    "dataset_catalog": "ARC_1280",
+    "dataset_description": [
+     "Radionuclide tracer technique used to determine the percentage of injected 59Fe that appears in circulating red blood cells.<br/>15 ground control and 15 flight animals divided into 3 subgroups of 5 animals.<br/>Inflight and postflight measurements."
+    ],
+    "processing_level": [
+     "Raw<br/>Processed"
+    ],
+    "experiment_id": [
+     "178141 2_2"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "9a6bfe87-4a0f-56cd-820b-88021d38fe17",
+     "label": "156_ENG.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000188",
+   "label": "AINV0000000293",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Red blood cell mass",
+    "dataset_catalog": "AINV0000000293",
+    "dataset_description": [
+     "Radionuclide dilution technique used to measure red blood cell mass for male rodents. 15 ground control and 15 flight animals divided into 3 subgroups of 5 animals. Preflight and postflight measurements."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "178141 2_2"
+    ]
+   },
+   "meta": "1 file \u00b7 9.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "2571be50-767f-565e-b09b-225276936ad5",
+     "label": "RBCM_ml.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 9216,
+     "meta": "9.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001859",
+   "label": "AINV0000000295",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "51Cr spleen to liver ratio",
+    "dataset_catalog": "AINV0000000295",
+    "dataset_description": [
+     "Radionuclide tracer used to measure the amount of 51Cr in the liver and spleen.<br/>15 ground control and 15 flight animals divided into 3 subgroups of 5 animals.<br/>Postflight measurements."
+    ],
+    "processing_level": [
+     "Raw<br/>Processed"
+    ],
+    "experiment_id": [
+     "178141 2_2"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "9e3aba6f-44bc-5307-bd18-74edd340a566",
+     "label": "51CrSpLi.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000187",
+   "label": "AINV0000000285",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Serum ferritin",
+    "dataset_catalog": "AINV0000000285",
+    "dataset_description": [
+     "Immunoassay for serum ferritin.<br/>15 ground control and 15 flight animals divided into 3 subgroups of 5 animals.<br/>10 launch control, 6 FD13 flight, and 6 FD13 ground control animals.<br/>Preflight, inflight, and postflight measurements."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "178141 2_2"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "9ad3020e-dea9-590a-9a4f-72b02b2d53f0",
+     "label": "FerSerum.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000201",
+   "label": "AINV0000000287",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Total body hematocrit to peripheral hematocrit ratio",
+    "dataset_catalog": "AINV0000000287",
+    "dataset_description": [
+     "Calculated by dividing the total body hematocrit by the peripheral hematocrit.<br/>15 ground control and 15 flight animals divided into 3 subgroups of 5 animals.<br/>Preflight and postflight measurements."
+    ],
+    "processing_level": [
+     "Raw<br/>Processed"
+    ],
+    "experiment_id": [
+     "178141 2_2"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "0e2d9008-f6a8-5d01-9fc9-2e64e9e0e2b0",
+     "label": "HemRatio.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000319",
+   "label": "AINV0000000294",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Red blood cell mass normalized for body weight",
+    "dataset_catalog": "AINV0000000294",
+    "dataset_description": [
+     "Radionuclide dilution technique used to measure red blood cell mass for male rodents.<br/>15 ground control and 15 flight animals divided into 3 subgroups of 5 animals.<br/>Preflight and postflight measurements."
+    ],
+    "processing_level": [
+     "Raw<br/>Processed"
+    ],
+    "experiment_id": [
+     "178141 2_2"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "f40d7c75-2d04-5edd-98ca-f2fba7336a87",
+     "label": "RBCMm100.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000398",
+   "label": "AINV0000000290",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Plasma volume normalized for body weight",
+    "dataset_catalog": "AINV0000000290",
+    "dataset_description": [
+     "Radionuclide dilution technique used to measure plasma volume for male rodents.<br/>Body weight used to normalize the volume.<br/>15 ground control and 15 flight animals divided into 3 subgroups of 5 animals.<br/>Preflight, inflight, and postflight measurements."
+    ],
+    "processing_level": [
+     "Raw<br/>Processed"
+    ],
+    "experiment_id": [
+     "178141 2_2"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "23420f03-e16b-5b68-84e0-f64029933dff",
+     "label": "PVml100g.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000439",
+   "label": "AINV0000000288",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Total body hematocrit",
+    "dataset_catalog": "AINV0000000288",
+    "dataset_description": [
+     "Calculated by dividing the blood volume into red blood cell mass.<br/>15 ground control and 15 flight animals divided into 3 subgroups of 5 animals.<br/>Preflight and postflight measurements."
+    ],
+    "processing_level": [
+     "Raw<br/>Processed"
+    ],
+    "experiment_id": [
+     "178141 2_2"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "49af83cb-35e9-5eca-8e9f-50e94e680b26",
+     "label": "HemTotal.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000615",
+   "label": "AINV0000000296",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Body mass, transportation control study",
+    "dataset_catalog": "AINV0000000296",
+    "dataset_description": [
+     "Data collected by ARC and Hangar L personnel and provided to PI for preflight, inflight, and postflight measurements."
+    ],
+    "processing_level": [
+     "Raw<br/>Processed"
+    ],
+    "experiment_id": [
+     "178141 2_2"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "dd473e0c-4876-584e-bfc3-cbbd2f0f0ed1",
+     "label": "BoMaTran.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000839",
+   "label": "AINV0000000280",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Body mass, all measurements",
+    "dataset_catalog": "AINV0000000280",
+    "dataset_description": [
+     "Data collected by ARC and Hangar L personnel and provided to PI for preflight, inflight, and postflight measurements."
+    ],
+    "processing_level": [
+     "Raw<br/>Processed"
+    ],
+    "experiment_id": [
+     "178141 2_2"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "e14f4ac6-4e6d-5237-aeb4-5e556592500c",
+     "label": "BodyMass.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001175",
+   "label": "AINV0000000297",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Body mass at time of radionuclide measurements",
+    "dataset_catalog": "AINV0000000297",
+    "dataset_description": [
+     "Data collected by ARC and Hangar L personnel and provided to PI for preflight, inflight, and postflight measurements."
+    ],
+    "processing_level": [
+     "Raw<br/>Processed"
+    ],
+    "experiment_id": [
+     "178141 2_2"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "af03452c-63dc-5c45-9ba6-532a767d3ff7",
+     "label": "BoMa_rad.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001174",
+   "label": "AINV0000000284",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Plasma ferritin",
+    "dataset_catalog": "AINV0000000284",
+    "dataset_description": [
+     "Immunoassay of plasma from 10 \u00b5l hematocrit capillary tubes.<br/>Tubes washed out into ferritin assay diluting buffer.<br/>15 ground control and 15 flight animals divided into 3 subgroups of 5 animals.<br/>Preflight, inflight, and postflight measurements."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "178141 2_2"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "4179276a-1cc4-5a3e-973f-d022f17e0c6a",
+     "label": "FerPlasm.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001173",
+   "label": "AINV0000000282",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Blood volume normalized for body weight",
+    "dataset_catalog": "AINV0000000282",
+    "dataset_description": [
+     "Blood volume calculated by adding red blood cell mass to plasma volume.<br/>Body weight used to normalize the volume.<br/>15 ground control and 15 flight animals divided into 3 subgroups of 5 animals.<br/>Preflight and postflight measurements."
+    ],
+    "processing_level": [
+     "Raw<br/>Processed"
+    ],
+    "experiment_id": [
+     "178141 2_2"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "8789d375-61a2-5235-aaa8-2cad55b5210a",
+     "label": "BVml100g.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001103",
+   "label": "AINV0000000298",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Body mass, means for all groups",
+    "dataset_catalog": "AINV0000000298",
+    "dataset_description": [
+     "Data collected by ARC and Hangar L personnel and provided to PI for preflight, inflight, and postflight measurements."
+    ],
+    "processing_level": [
+     "Raw<br/>Processed"
+    ],
+    "experiment_id": [
+     "178141 2_2"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "2c775b81-bc87-5922-867d-2d94a51c20a1",
+     "label": "BMassMns.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002313",
+   "label": "AINV0000000286",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Peripheral hematocrit",
+    "dataset_catalog": "AINV0000000286",
+    "dataset_description": [
+     "A volume of blood is centrifuged to determine the percentage of red blood cells.<br/>15 ground control and 15 flight animals divided into 3 subgroups of 5 animals.<br/>Preflight, inflight, and postflight measurements."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "178141 2_2"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "db2032df-24db-536f-9d6a-59f958526a4f",
+     "label": "HemaPeri.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

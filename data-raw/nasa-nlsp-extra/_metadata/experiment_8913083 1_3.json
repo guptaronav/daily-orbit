@@ -1,0 +1,253 @@
+{
+ "record": {
+  "id": "c779ac34-08d3-504c-88cf-1b7e6d0d51d4",
+  "_id": "c779ac34-08d3-504c-88cf-1b7e6d0d51d4",
+  "experiment_title": "Early Development of a Gravity-Receptor Organ in Microgravity",
+  "pub_document_number": "NASA TM-4501",
+  "parameter_html": "<table><tr><td>Activity, gain, Otolith-ocular reflex, newt, Eye counter-rotation, high magnification video (observation)</td></tr><tr><td>Morphology, Otoconia, vestibule, newt, Electron microscope (descriptive, counts)</td></tr><tr><td>Volume, Endolymphatic saccula and duct, newt, Microscopy, 3-D reconstruction</td></tr><tr><td>Volume, Otolith, endolymphatic, newt, Microscopy, 3-D reconstruction</td></tr><tr><td>Volume, Otolith, saccule, newt, Microscopy, 3-D reconstruction</td></tr><tr><td>Volume, Otolith, utricle, newt, Microscopy, 3-D reconstruction</td></tr><tr></tr></table>",
+  "__source_key": "cl62ay76ecd3l01o656906eih",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Wiederhold, Michael\">Principal Investigator: Wiederhold, Michael</a>",
+  "image_name": [
+   "Japanese Red-Bellied Newts",
+   "Red-Bellied Newt with Eggs and Tadpoles",
+   "Video-taping of a Japanese Red-Bellied Newt"
+  ],
+  "keyword": [
+   "Gravity perception",
+   "Semicircular canals",
+   "Calcium carbonate",
+   "Saccule and utricle",
+   "Motor activity",
+   "Hypergravity",
+   "Endolymphatic sac",
+   "Otolithic membrane"
+  ],
+  "keyword_name": "Otolithic membrane",
+  "__record_version": 29,
+  "experiment_description": "OBJECTIVES:<br>\r\nThis experiment aimed to determine the effects, if any, of a microgravity environment on the initial development of the gravity sensing portions of the inner ear. These organs contain sensory hair cells covered by a layer of dense calcium carbonate stones called otoconia.  Particular emphasis was placed on the formation of otoliths, the masses on which gravitational and linear-acceleration forces act. If the growth of the otoliths is somehow regulated by their weight, their mass should be increased in reduced gravity. Furthermore, the otoconia are important for the proper functioning of many gravitactic reflexes in vertebrates and invertebrates. These reflexive circuits are established early in development and might be effected by exposure to microgravity.<P>\r\nAPPROACH:<br>\r\nPre-fertilized eggs, some at developmental stages before the inner ear had formed and at the point just before the otoliths were formed, were launched in the Aquatic Animal Experiment Unit (AAEU). During flight, animals were video-recorded to observe progress of development. After flight, some larvae were fixed for sectioning. The sections were then analyzed with x-ray microimaging. The otolith volume and areas of sensory epithelia for various stages of development were calculated from three-dimensional reconstructions of the serial sections. Other larvae were tested to estimate the gain of the otolith-ocular reflex. The larvae were restrained in a device that allowed rotation about the longitudinal body axis, and counter-rotation of the eyes was measured using high-magnification video records.<P>\r\nRESULTS:<br>\r\nApproximately 62 out of 144 larvae survived the flight. According to morphological analysis of the video-tape recording, both flight and ground controls developed at the same rates. Analysis of the three-dimensional reconstruction showed that flight-reared larvae have a larger mean endolymphatic sac (ES) and duct volume, and a larger average volume of otoconia within the sac when compared to similarly staged ground controls. Furthermore, the appearance of otoconia in the ES was greatly accelerated in the larvae reared in microgravity. Otoconia from spaceflown larvae also appear more susceptible to degradation and in a few cases appear to contain only longitudinal filaments, indicating alteration in processing in their assembly. These stones do not appear until after a return to normal gravity. More experiments with longer flight times must be performed to understand this phenomenon more clearly.  Data regarding the measurements of the otolith-ocular reflex are not available. However, one flight- reared animal had abnormal posture for nine months post-flight.",
+  "indexed": "2026-08-31T22:16:50.913Z",
+  "GUID": "cl62ay76ecd3l01o656906eih",
+  "__model_type": "lsda_experiment",
+  "__dirid": "c779ac34-08d3-504c-88cf-1b7e6d0d51d4",
+  "__record_size_wo_doccontent": 67928,
+  "experiment_parms_tissue2": "NULL",
+  "experiment_parms_tissue1": "NULL",
+  "__update_method": "Update Data",
+  "archive_status_index": 6,
+  "experiment_type_lk": [
+   "Shuttle Life Sciences Research (Spacelab)"
+  ],
+  "__record_modified_date": "2026-08-31T22:16:50.913Z",
+  "proposal_source": [
+   "89-13 OSSA IML-2"
+  ],
+  "__indexed": "2026-08-31T22:16:50.913Z",
+  "session_type": "Flight",
+  "__record_creation_date": "2022-07-28T19:58:34.837Z",
+  "__record_size": 67928,
+  "__model_version": 423,
+  "payload_id": "IML-2",
+  "CombinedSpecies": [
+   [
+    "Newt (Cynops pyrrhogaster) Japanese red-bellied"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "8913083 1_3",
+  "parameter_name": [
+   "Activity, gain, Otolith-ocular reflex, newt, Eye counter-rotation, high magnification video (observation)",
+   "Morphology, Otoconia, vestibule, newt, Electron microscope (descriptive, counts)",
+   "Volume, Endolymphatic saccula and duct, newt, Microscopy, 3-D reconstruction",
+   "Volume, Otolith, endolymphatic, newt, Microscopy, 3-D reconstruction",
+   "Volume, Otolith, saccule, newt, Microscopy, 3-D reconstruction",
+   "Volume, Otolith, utricle, newt, Microscopy, 3-D reconstruction"
+  ],
+  "exp_index": 668,
+  "research_area": [
+   "Developmental biology",
+   "Neuroscience"
+  ],
+  "pme_role_with_name": [
+   "ARC Experiment Support Scientist: Chee, Oliver",
+   "ARC Payload Manager: Maese, Albert",
+   "ARC Payload Scientist: Schaefer, Ronald",
+   "Principal Investigator: Wiederhold, Michael"
+  ],
+  "missions": [
+   [
+    [
+     "STS-65"
+    ]
+   ]
+  ],
+  "PI": [
+   "Wiederhold, Michael"
+  ],
+  "_file_extension": [],
+  "experiment_identifier": [
+   "8913083 1_3"
+  ],
+  "mission_id": [
+   [
+    [
+     "STS-65"
+    ]
+   ]
+  ],
+  "center": [
+   "Ames Research Center"
+  ],
+  "ncindex": [
+   7
+  ],
+  "proposal_date": [],
+  "species": [
+   "Newt"
+  ],
+  "PrincipalInvestigator": [
+   "Wiederhold, Michael"
+  ],
+  "program_name": [
+   "Shuttle Program"
+  ],
+  "archive_status": "Data from this study is held by another repository. For more information, please contact LSDA.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Shuttle Program",
+  "__source_field_concat": "Flight NASA TM-4501 IML-2 cl62ay76ecd3l01o656906eih Otolithic membrane NULL NULL  Early Development of a Gravity-Receptor Organ in Microgravity 8913083 1_3 Shuttle Program Data from this study is held by another repository. For more information, please contact LSDA.",
+  "__icon_type": "newt",
+  "__description": "OBJECTIVES:<br>\r\nThis experiment aimed to determine the effects, if any, of a microgravity environment on the initial development of the gravity sensing portions of the inner ear. These organs contain sensory hair cells covered by a layer of dense calcium carbonate stones called otoconia.  Particular emphasis was placed on the formation of otoliths, the masses on which gravitational and linear-acceleration forces act. If the growth of the otoliths is somehow regulated by their weight, their mass should be increased in reduced gravity. Furthermore, the otoconia are important for the proper functioning of many gravitactic reflexes in vertebrates and invertebrates. These reflexive circuits are established early in development and might be effected by exposure to microgravity.<P>\r\nAPPROACH:<br>\r\nPre-fertilized eggs, some at developmental stages before the inner ear had formed and at the point just before the otoliths were formed, were launched in the Aquatic Animal Experiment Unit (AAEU). During flight, animals were video-recorded to observe progress of development. After flight, some larvae were fixed for sectioning. The sections were then analyzed with x-ray microimaging. The otolith volume and areas of sensory epithelia for various stages of development were calculated from three-dimensional reconstructions of the serial sections. Other larvae were tested to estimate the gain of the otolith-ocular reflex. The larvae were restrained in a device that allowed rotation about the longitudinal body axis, and counter-rotation of the eyes was measured using high-magnification video records.<P>\r\nRESULTS:<br>\r\nApproximately 62 out of 144 larvae survived the flight. According to morphological analysis of the video-tape recording, both flight and ground controls developed at the same rates. Analysis of the three-dimensional reconstruction showed that flight-reared larvae have a larger mean endolymphatic sac (ES) and duct volume, and a larger average volume of otoconia within the sac when compared to similarly staged ground controls. Furthermore, the appearance of otoconia in the ES was greatly accelerated in the larvae reared in microgravity. Otoconia from spaceflown larvae also appear more susceptible to degradation and in a few cases appear to contain only longitudinal filaments, indicating alteration in processing in their assembly. These stones do not appear until after a return to normal gravity. More experiments with longer flight times must be performed to understand this phenomenon more clearly.  Data regarding the measurements of the otolith-ocular reflex are not available. However, one flight- reared animal had abnormal posture for nine months post-flight.",
+  "__doi": "10.83263/y8w4-f625",
+  "__doi_record_creation_date": "2026-08-23T04:04:33",
+  "__doi_record_modified_date": "2026-08-23T04:04:33"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001210",
+   "label": "AINV0000000330",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "IML-2 Ambient Temperature Recorder (ATR) data",
+    "dataset_catalog": "AINV0000000330",
+    "dataset_description": [],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "8913069",
+     "8913083 1_3"
+    ]
+   },
+   "meta": "2 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "40ce1751-1025-5e51-85bd-5e207ee75a9f",
+     "label": "IML2_ATR.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "42ba0227-1eea-54ad-9a70-a1e5da8fd5d6",
+     "label": "IML2_ATR.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001387",
+   "label": "AINV0000000340",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Newt Larvae Endolymphatic Sac, R+5",
+    "dataset_catalog": "AINV0000000340",
+    "dataset_description": [
+     "This graph depicts the presence of externally visible stones in the endolymphatic sac of newt larvae, on larvae fixed the fifth day after recovery (R+3).  <br/><br/>Examination of 121 flight and ground control larvae fixed and embedded on days R+0, R+3 and R+5 reveals that the appearance of otoconia in the endolymphatic sac was significantly accelerated in the larvae reared in microgravity.  At R+5, 70% of flight and 21% of ground control larvae had visible stones."
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "8913083 1_3"
+    ]
+   },
+   "meta": "0 files",
+   "date": "2022-07-28",
+   "children": []
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000238",
+   "label": "AINV0000000338",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Newt Larvae Endolymphatic Sac, R+0",
+    "dataset_catalog": "AINV0000000338",
+    "dataset_description": [
+     "This graph depicts the presence of externally visible stones in the endolymphatic sac of newt larvae, on larvae fixed the day of recovery.<br/><br/>Examination of 121 flight and ground control larvae fixed and embedded on days R+0, R+3 and R+5 reveals that the appearance of otoconia in the endolymphatic sac was significantly accelerated in the larvae reared in microgravity, although no stones were visible on landing day (R+0)."
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "8913083 1_3"
+    ]
+   },
+   "meta": "0 files",
+   "date": "2022-07-28",
+   "children": []
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000789",
+   "label": "AINV0000000339",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Newt Larvae Endolymphatic Sac, R+3",
+    "dataset_catalog": "AINV0000000339",
+    "dataset_description": [
+     "This graph depicts the presence of externally visible stones in the endolymphatic sac of newt larvae, on larvae fixed the third day after recovery (R+3).  <br/><br/>Examination of 121 flight and ground control larvae fixed and embedded on days R+0, R+3 and R+5 reveals that the appearance of otoconia in the endolymphatic sac was significantly accelerated in the larvae reared in microgravity.  At R+3, 86% of flight reared larvae, but only 56% of ground control larvae, had visible stones."
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "8913083 1_3"
+    ]
+   },
+   "meta": "0 files",
+   "date": "2022-07-28",
+   "children": []
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001386",
+   "label": "AINV0000000337",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Newt Egg Development Stages",
+    "dataset_catalog": "AINV0000000337",
+    "dataset_description": [
+     "This graph depicts the development stages of individual in the egg holder in AAEU cassette A3 for both flight and ground-control units.  <br/><br/>The period from fertilization to hatching, which normally occurs at about 15 days at 24-25\u00b0C, is divided into 42 stages (y-axis).  The optic vesicle fist appears at stage 25, otoconia first appear in the inner ear at stage 33 and sensory structures can be identified in the saccule, utricle and lateral semicircular canal at stage 41.  Note that the rate of development of embryos/larvae in flight is the same as in the ground controls."
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "8913083 1_3"
+    ]
+   },
+   "meta": "0 files",
+   "date": "2022-07-28",
+   "children": []
+  }
+ ]
+}

@@ -1,0 +1,862 @@
+{
+ "record": {
+  "id": "0c10d660-6b12-573d-8c3b-e20e071aed3b",
+  "_id": "0c10d660-6b12-573d-8c3b-e20e071aed3b",
+  "__is_locked": false,
+  "experiment_title": "Effects of Microgravity-Induced Weightlessness on Aurelia Ephyra Differentiation and Statolith Synthesis",
+  "experiment_alias": "DCL 85",
+  "__source_key": "cl62aygjucd5s01o6bdssfv1c",
+  "experiment_type": [
+   [
+    "Shuttle Life Sciences Research (Spacelab)"
+   ]
+  ],
+  "AssignedArchivist": [
+   "Jorgensen, Sara C."
+  ],
+  "keyword": [
+   "Gravidity",
+   "Hair cells",
+   "Behavior, animal",
+   "Gravity perception"
+  ],
+  "__record_version": 32,
+  "experiment_description": "<b>Objectives:</b><div>Aurelia polyps and ephyrae were exposed to microgravity for nine days as part of the SLS-1 mission. This experiment was to study the effects of microgravity on: the development of ephyrae from polyps; the development of the graviceptors (rhopalia) of ephyrae; the formation or demineralization of statoliths of rhopalia; and the swimming/pulsing behavior of ephyrae.</div><div><b>Approach:</b></div><div>Polyps were induced to strobilate at 28\u00b0C, using iodine or thyroxine, at forty-eight (L-48h) and twenty-four (L-24h) hours before launch, and eight hours after lift-off (L+8h).  Some ephyrae that formed in space were fixed in space on mission day eight, while others were fixed postflight. Postflight, light, and electron scanning microscope examinations were performed. </div><div><b>Results:</b></div><div>The number of ephyrae formed per polyp were slightly higher in the L+8h groups as compared to those induced at L-24h and L-48h. On Earth, iodine is used by jellyfish to synthesize jellyfish-thyroxine (Jf-T4), which is necessary for ephyra production. Since iodine-treated polyps gave rise to ephyrae in space it appears that jellyfish are able to synthesize Jf-T4 in space.  The two groups of polyps not given the inducer still formed ephyrae in space presumably due to enhanced Jf-T4 synthesis, utilization, or accumulation.  Morphologically, ephyrae which developed in space were very similar to those that developed on Earth.  Quantitation of arm numbers revealed that there were no significant differences between space and Earth-developed ephyrae.  Pulsing abnormalities, however, were found in greater numbers (18.3%) than in Earth-developed controls (2.9%).  These abnormalities suggest abnormal development of the graviceptors, the neuromuscular system, or a defect in the integration between systems in these microgravity-sensitive animals.</div>",
+  "indexed": "2026-08-23T04:15:11.309057+00:00",
+  "proposal_date": "1985",
+  "GUID": "cl62aygjucd5s01o6bdssfv1c",
+  "_file_extension": "jellyfish",
+  "archive_status": "Data preservation is complete. All datasets are publicly available.",
+  "__model_type": "lsda_experiment",
+  "__dirid": "0c10d660-6b12-573d-8c3b-e20e071aed3b",
+  "__record_size_wo_doccontent": 61187,
+  "__update_method": "Update CDM",
+  "experiment_identifier": [
+   "DCL_SLS_1",
+   "DCL 85"
+  ],
+  "CompleteArchivalExpectedInFiscalYear": [
+   "0"
+  ],
+  "experiment_type_lk": [
+   "Shuttle Life Sciences Research (Spacelab)"
+  ],
+  "__record_modified_date": "2026-08-23T04:15:11.309057+00:00",
+  "proposal_source": "Dear Colleague Letter",
+  "__indexed": "2026-08-23T04:15:11.309057+00:00",
+  "alias": [
+   "DCL 85"
+  ],
+  "__record_creation_date": "2022-07-28T19:55:07.658Z",
+  "__record_size": 61187,
+  "__model_version": 60,
+  "species_sci_name": [
+   [
+    "Aurelia"
+   ]
+  ],
+  "payload_id": [
+   "SLS-1"
+  ],
+  "CombinedSpecies": [
+   "Jellyfish (Aurelia)"
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "ncindex": 7,
+  "researchIndex": [
+   7
+  ],
+  "experiment_id": "DCL_SLS_1",
+  "experiment_related": [
+   "No related"
+  ],
+  "parameter_name": [
+   "Activity, motor, Rat, Microgravity, SLS-1 (counts)",
+   "Behavior, Locomotion",
+   "Behavior, Swimming, aurelia ephyrae, Microscopy, videotape",
+   "Count, Polyp, jellyfish, Microscopy",
+   "Count, Statolith, jellyfish, Microscopy",
+   "Cytogenesis",
+   "Damage, Developmental abnormalities, aurelia (jellyfish), Microscopy",
+   "Differentiation",
+   "Gravireceptors",
+   "Pulsing rates",
+   "Temperature, R/IM, SLS-1, Ambient temperature recorder (ATR)"
+  ],
+  "exp_index": 17,
+  "research_area": [
+   "Developmental biology"
+  ],
+  "species": [
+   [
+    "Jellyfish"
+   ]
+  ],
+  "pme_role_with_name": [
+   "ARC Deputy Payload Scientist: Meylor, John S.",
+   "ARC Experiment Support Scientist: Jones, Sheli M.",
+   "ARC Assistant Payload Scientist: Hinds, William",
+   "ARC Deputy Payload Manager: Creager, Roy",
+   "ARC Payload Manager: Dalton, Bonnie P.",
+   "Principal Investigator: Spangenberg, Dorothy B.",
+   "ARC Payload Scientist: Jahns, Gary C."
+  ],
+  "missions": [
+   "STS-40"
+  ],
+  "PI": [
+   "Spangenberg, Dorothy B."
+  ],
+  "sort": [
+   3,
+   "9ff322a5-0791-5ab9-81a0-78ba1ea1ca91"
+  ],
+  "pub_document_number": "ARCPUB000047",
+  "parameter_html": "<table><tr><td>Activity, motor, Rat, Microgravity, SLS-1 (counts)</td></tr><tr><td>Behavior, Locomotion</td></tr><tr><td>Behavior, Swimming, aurelia ephyrae, Microscopy, videotape</td></tr><tr><td>Count, Polyp, jellyfish, Microscopy</td></tr><tr><td>Count, Statolith, jellyfish, Microscopy</td></tr><tr><td>Cytogenesis</td></tr><tr><td>Damage, Developmental abnormalities, aurelia (jellyfish), Microscopy</td></tr><tr><td>Differentiation</td></tr><tr><td>Gravireceptors</td></tr><tr><td>Pulsing rates</td></tr><tr><td>Temperature, R/IM, SLS-1, Ambient temperature recorder (ATR)</td></tr><tr></tr></table>",
+  "program_name": [
+   "Shuttle Program"
+  ],
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Spangenberg, Dorothy B.\">Principal Investigator: Spangenberg, Dorothy B.</a>",
+  "keyword_name": "Gravity perception",
+  "Program": "Shuttle Program",
+  "experiment_parms_tissue2": "NULL",
+  "experiment_parms_tissue1": "NULL",
+  "archive_status_index": 1,
+  "mission_id": [
+   [
+    [
+     "STS-40"
+    ]
+   ]
+  ],
+  "session_type": "Flight",
+  "PrincipalInvestigator": [
+   "Spangenberg, Dorothy B."
+  ],
+  "center": [
+   "Ames Research Center"
+  ],
+  "__source_field_concat": "jellyfish Flight ARCPUB000047 Dear Colleague Letter cl62aygjucd5s01o6bdssfv1c Gravity perception NULL NULL DCL 85 DCL_SLS_1 Shuttle Program Data preservation is complete.  All datasets are publicly available.",
+  "__icon_type": "",
+  "__description": "<b>Objectives:</b><div>Aurelia polyps and ephyrae were exposed to microgravity for nine days as part of the SLS-1 mission. This experiment was to study the effects of microgravity on: the development of ephyrae from polyps; the development of the graviceptors (rhopalia) of ephyrae; the formation or demineralization of statoliths of rhopalia; and the swimming/pulsing behavior of ephyrae.</div><div><b>Approach:</b></div><div>Polyps were induced to strobilate at 28\u00b0C, using iodine or thyroxine, at forty-eight (L-48h) and twenty-four (L-24h) hours before launch, and eight hours after lift-off (L+8h).  Some ephyrae that formed in space were fixed in space on mission day eight, while others were fixed postflight. Postflight, light, and electron scanning microscope examinations were performed. </div><div><b>Results:</b></div><div>The number of ephyrae formed per polyp were slightly higher in the L+8h groups as compared to those induced at L-24h and L-48h. On Earth, iodine is used by jellyfish to synthesize jellyfish-thyroxine (Jf-T4), which is necessary for ephyra production. Since iodine-treated polyps gave rise to ephyrae in space it appears that jellyfish are able to synthesize Jf-T4 in space.  The two groups of polyps not given the inducer still formed ephyrae in space presumably due to enhanced Jf-T4 synthesis, utilization, or accumulation.  Morphologically, ephyrae which developed in space were very similar to those that developed on Earth.  Quantitation of arm numbers revealed that there were no significant differences between space and Earth-developed ephyrae.  Pulsing abnormalities, however, were found in greater numbers (18.3%) than in Earth-developed controls (2.9%).  These abnormalities suggest abnormal development of the graviceptors, the neuromuscular system, or a defect in the integration between systems in these microgravity-sensitive animals.</div>",
+  "__doi": "10.83263/3v5y-3z91",
+  "__doi_record_creation_date": "2026-08-23T04:15:11",
+  "__doi_record_modified_date": "2026-08-23T04:15:11"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000285",
+   "label": "AINV0000000619",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "SLS-1 Onboard Film",
+    "dataset_catalog": "AINV0000000619",
+    "dataset_description": [
+     "SLS-1 video list from the onboard camera"
+    ],
+    "processing_level": [],
+    "experiment_id": [
+     "178012 1_2",
+     "178127 1_3",
+     "178141 1_2",
+     "178194 1_2",
+     "178238 1_2",
+     "178247",
+     "178303 1_2",
+     "DCL_SLS_1",
+     "PCDT",
+     "SLS1 BSP1",
+     "SLS1 BSP10",
+     "SLS1 BSP11",
+     "SLS1 BSP12",
+     "SLS1 BSP13",
+     "SLS1 BSP14",
+     "SLS1 BSP15",
+     "SLS1 BSP16",
+     "SLS1 BSP17",
+     "SLS1 BSP18",
+     "SLS1 BSP19",
+     "SLS1 BSP2",
+     "SLS1 BSP20",
+     "SLS1 BSP21",
+     "SLS1 BSP25",
+     "SLS1 BSP3",
+     "SLS1 BSP4",
+     "SLS1 BSP5",
+     "SLS1 BSP6",
+     "SLS1 BSP7",
+     "SLS1 BSP8",
+     "SLS1 BSP9",
+     "SLS1 Proj",
+     "SMMI"
+    ]
+   },
+   "meta": "33 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "832a1ed1-9bfe-584e-bcbf-bf3faf0c90e9",
+     "label": "ONBD_FLM.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2f770958-3cb5-543c-936f-7d7a4ac32e99",
+     "label": "ONBD_FLM.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "47d2d05a-0ec6-5128-b383-80bf412a40c7",
+     "label": "ONBD_FLM.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "be7d658b-8563-5159-9a21-2259f2419ac9",
+     "label": "ONBD_FLM.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "51835207-314d-5358-a978-85c3aec58c7a",
+     "label": "ONBD_FLM.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "29c487cf-2a3e-5440-94d2-e77f3f0ef9ef",
+     "label": "ONBD_FLM.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "000ead2a-3262-5c66-87b1-e92cd57c8dc6",
+     "label": "ONBD_FLM.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d7632531-a39c-50a4-a342-6279bcfce2e1",
+     "label": "ONBD_FLM.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "909b234c-03f9-5818-861e-0a857e2e4765",
+     "label": "ONBD_FLM.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "48bdc7fd-4b9f-5958-b10c-ff8ff6e17fd5",
+     "label": "ONBD_FLM.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b1cb9f24-8ea1-592a-8eab-d2504f77a4d5",
+     "label": "ONBD_FLM.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3ea392d6-1c34-5869-8543-eb83232c0828",
+     "label": "ONBD_FLM.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "02479c75-4633-580b-8c17-ed8cc8bfc74d",
+     "label": "ONBD_FLM.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "bed7df53-6f8a-547a-a6f1-228b77490012",
+     "label": "ONBD_FLM.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "07021924-9850-599b-9116-7165cf0620e7",
+     "label": "ONBD_FLM.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "987803f6-d0ef-5949-9a59-5913dd5f58af",
+     "label": "ONBD_FLM.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f84f21a6-cc15-57ae-a573-149d8b342e8e",
+     "label": "ONBD_FLM.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2e06f410-5177-5d8e-a62f-a5dab842e19a",
+     "label": "ONBD_FLM.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5bdcfe3a-b1cc-50e7-b506-29ca16c24d5e",
+     "label": "ONBD_FLM.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "45701acd-0337-5b00-ae43-4e9fdaa0dd6a",
+     "label": "ONBD_FLM.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4723b5e8-b957-57a0-81b4-cdac8db00ac4",
+     "label": "ONBD_FLM.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0d990a66-272c-5c6a-ae0b-0d860d2651a8",
+     "label": "ONBD_FLM.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b2ec3434-1cf8-5203-b84e-05946f1794a5",
+     "label": "ONBD_FLM.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5c4ecc0e-00a3-58d8-afd2-9f8de5e478af",
+     "label": "ONBD_FLM.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "26c10805-1194-5d98-9f85-11b2d269e16e",
+     "label": "ONBD_FLM.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ff73b2d8-02a0-5628-939e-282a36656fe6",
+     "label": "ONBD_FLM.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e56e212a-2e56-55e8-b92c-d3f084aa2484",
+     "label": "ONBD_FLM.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f3f97933-917c-5c59-9477-1b7af901bae9",
+     "label": "ONBD_FLM.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "76e4aa36-9f07-5e50-9f68-1959650775a0",
+     "label": "ONBD_FLM.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ee02563f-0f8d-5697-85b9-2b47730e0a91",
+     "label": "ONBD_FLM.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8b3a96e0-1f3f-5b30-bd18-fdf41a5ef3c5",
+     "label": "ONBD_FLM.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d4892cdd-5ce2-5ee8-951d-38de962f3f5d",
+     "label": "ONBD_FLM.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "df39f866-eb7e-5797-86fa-c986e08058a9",
+     "label": "ONBD_FLM.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001597",
+   "label": "AINV0000000027",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Refrigerator/Incubator Module, Temperature Data, Jellyfish Ground Control",
+    "dataset_catalog": "AINV0000000027",
+    "dataset_description": [
+     "Spreadsheet column headings: Item #, Day, GMT, Temperature."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "DCL_SLS_1"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "b33f1c4d-ffe2-5c5c-91f9-d9f335832a7f",
+     "label": "40JF21A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001136",
+   "label": "AINV0000000026",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Refrigerator/Incubator Module, Temperature Data, Jellyfish Contingency Group 3",
+    "dataset_catalog": "AINV0000000026",
+    "dataset_description": [
+     "Spreadsheet column headings: Item #, Day, GMT, Temperature."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "DCL_SLS_1"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "c46fd03c-cea5-59d5-a9dc-7c3d3131ce40",
+     "label": "40JF14A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001393",
+   "label": "AINV0000000024",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Refrigerator/Incubator Module, Temperature Data, Jellyfish Contingency Group 3",
+    "dataset_catalog": "AINV0000000024",
+    "dataset_description": [
+     "Spreadsheet column headings: Item #, Day, GMT, Temperature."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "DCL_SLS_1"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "976e3a5f-19ad-57c5-ae64-a19dc976b49c",
+     "label": "40JF11A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000713",
+   "label": "AINV0000000025",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Refrigerator/Incubator Module, Temperature Data, Jellyfish Contingency Group 3",
+    "dataset_catalog": "AINV0000000025",
+    "dataset_description": [
+     "Spreadsheet column headings: Item #, Day, GMT, Temperature."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "DCL_SLS_1"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "6b75daab-216c-5200-8bda-960878701699",
+     "label": "40JF13A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001142",
+   "label": "AINV0000000193",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Effects of Microgravity-Induced Weightlessness on Aurelia Ephyra Differentiation and Statolith Synthesis",
+    "dataset_catalog": "AINV0000000193",
+    "dataset_description": [
+     "Spreadsheet headings:<br/>Place<br/>Inducer<br/>Place+<br/>Time<br/>Group #<br/>Statoliths<br/>Pulse #<br/>Swimming<br/>Arm #<br/>Rhopalia #"
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "DCL_SLS_1"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "7614026b-4308-5b69-9f6a-951d617fa2b4",
+     "label": "aurelia.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "39856474-9b68-56fa-8212-50fc05f26667",
+   "label": "DCL_SLS_1_Preflight_Images",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "DCL_SLS_1 Preflight Images",
+    "dataset_catalog": "DCL_SLS_1_Preflight_Images",
+    "dataset_description": "A set of five images with associated metadata, showing <i>Aurelia</i> polyps and ephyra prior to their launch on board STS-40.  Images taken June 2, 1991 (L-3).  Image files ending in \"002\" contain metadata for the corresponding files ending in \"001.\"",
+    "processing_level": [
+     "Raw Data"
+    ],
+    "experiment_id": [
+     "DCL_SLS_1"
+    ]
+   },
+   "meta": "10 files \u00b7 7.29 MB",
+   "date": "2026-06-15",
+   "children": [
+    {
+     "key": "7a66ee6d-d5a7-5c69-b9f5-f799356764e0",
+     "label": "KSC-391C-3386-18_001",
+     "type": "file",
+     "ext": "",
+     "file_size": 900780,
+     "meta": "879.7 KB",
+     "date": "2026-06-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "fda297ba-655b-5b24-900e-c2ad7ea86e2d",
+     "label": "KSC-391C-3386-20_001",
+     "type": "file",
+     "ext": "",
+     "file_size": 759970,
+     "meta": "742.2 KB",
+     "date": "2026-06-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b2861708-cac3-59a8-8daa-b96ea4697b80",
+     "label": "KSC-391C-3386-19_001",
+     "type": "file",
+     "ext": "",
+     "file_size": 867441,
+     "meta": "847.1 KB",
+     "date": "2026-06-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5d2d4a8f-518a-516a-a1cc-9f478990afce",
+     "label": "KSC-391C-3386-17_002",
+     "type": "file",
+     "ext": "",
+     "file_size": 611062,
+     "meta": "596.7 KB",
+     "date": "2026-06-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "32251e06-5841-5a83-82fc-dcf1ee5cc9ab",
+     "label": "KSC-391C-3386-20_002",
+     "type": "file",
+     "ext": "",
+     "file_size": 609084,
+     "meta": "594.8 KB",
+     "date": "2026-06-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "daa3fdd5-b12a-58f7-88d5-afb915d82981",
+     "label": "KSC-391C-3386-18_002",
+     "type": "file",
+     "ext": "",
+     "file_size": 606859,
+     "meta": "592.6 KB",
+     "date": "2026-06-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "99f55a2f-7e76-503a-954e-464597a1af81",
+     "label": "KSC-391C-3386-17_001",
+     "type": "file",
+     "ext": "",
+     "file_size": 985208,
+     "meta": "962.1 KB",
+     "date": "2026-06-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "995337de-d33a-5d8a-a855-c81e2a7fffef",
+     "label": "KSC-391C-3386-16_001",
+     "type": "file",
+     "ext": "",
+     "file_size": 1086184,
+     "meta": "1.04 MB",
+     "date": "2026-06-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e31712dc-01be-55de-b6c2-888f59734f2e",
+     "label": "KSC-391C-3386-19_002",
+     "type": "file",
+     "ext": "",
+     "file_size": 604388,
+     "meta": "590.2 KB",
+     "date": "2026-06-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ba8839ed-a3c7-5529-a4bd-ae987705dac1",
+     "label": "KSC-391C-3386-16_002",
+     "type": "file",
+     "ext": "",
+     "file_size": 608206,
+     "meta": "594.0 KB",
+     "date": "2026-06-15",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "7d6808a4-bd30-55a7-8138-b1e6f759c706",
+   "label": "DCL_SLS_1_Reports",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "DCL_SLS_1 Reports",
+    "dataset_catalog": "DCL_SLS_1_Reports",
+    "dataset_description": "A set of three reports documenting methods, implementation, and preliminary findings, including reports submitted at one month and five months post-flight and an undated report.  The undated report includes a table summarizing the range of treatments applied to samples used for developmental studies, including inducer and inducer type, time of inducement, and time of fixation.",
+    "processing_level": [
+     "Summarized Data"
+    ],
+    "experiment_id": [
+     "DCL_SLS_1"
+    ]
+   },
+   "meta": "3 files \u00b7 87.12 MB",
+   "date": "2026-06-15",
+   "children": [
+    {
+     "key": "8e922066-bff4-5bfe-b2ff-17159fd9877e",
+     "label": "DCL_SLS_1_5moReport",
+     "type": "file",
+     "ext": "",
+     "file_size": 31658652,
+     "meta": "30.19 MB",
+     "date": "2026-06-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b844c241-0867-5da6-be39-e89d5a666bdd",
+     "label": "DCL_SLS_1_1moReport",
+     "type": "file",
+     "ext": "",
+     "file_size": 36418935,
+     "meta": "34.73 MB",
+     "date": "2026-06-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "728c060f-b298-5cf0-9b52-9b8ef844ee12",
+     "label": "DCL_SLS_1_NDReport",
+     "type": "file",
+     "ext": "",
+     "file_size": 23272375,
+     "meta": "22.19 MB",
+     "date": "2026-06-15",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,648 @@
+{
+ "record": {
+  "id": "e1fa5c55-ddfe-5548-91ba-864080319f44",
+  "_id": "e1fa5c55-ddfe-5548-91ba-864080319f44",
+  "experiment_title": "Apollo Flight Crew Cardiovascular Evaluations",
+  "archive_status_index": 2,
+  "pub_document_number": "PUB000347",
+  "parameter_html": "<table><tr><td>Ambient temperature</td></tr><tr><td>Blood pressure</td></tr><tr><td>Body temperature</td></tr><tr><td>Body weight</td></tr><tr><td>Calf circumference</td></tr><tr><td>Calf volume</td></tr><tr><td>Heart rate</td></tr><tr><td>Hours after splashdown</td></tr><tr><td>Hours of subgravity exposure</td></tr><tr><td>J-offset magnitude</td></tr><tr><td>Leg volume</td></tr><tr><td>Mission characteristics</td></tr><tr><td>Orthostatic evaluation techniques</td></tr><tr><td>PR interval</td></tr><tr><td>Pulse pressure</td></tr><tr><td>QRS duration</td></tr><tr><td>QRS maximum magnitude</td></tr><tr><td>QRS-T spatial angle</td></tr><tr><td>QT interval</td></tr><tr><td>ST maximum magnitude</td></tr><tr><td>ST slope</td></tr><tr><td>Stroke volume</td></tr><tr><td>Weight loss</td></tr><tr><td>Cardiothoracic ratio (CTR)</td></tr><tr></tr></table>",
+  "__source_key": "cl62axxvjcd1e01o64dno2fug",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Hoffler, G.\">Principal Investigator: Hoffler, G.</a>",
+  "image_name": [
+   "Antihypotensive Garment",
+   "Apollo Lower Body Negative Pressure (LBNP) Device - head-to-toe view",
+   "Apollo Lower Body Negative Pressure (LBNP) Device- torso view",
+   "Bioinstrumentation System"
+  ],
+  "experiment_type_lk": [
+   "Apollo Program"
+  ],
+  "__record_modified_date": "2026-08-23T04:22:59.421164+00:00",
+  "proposal_source": [
+   "N/A"
+  ],
+  "__indexed": "2026-08-23T04:22:59.421164+00:00",
+  "__record_creation_date": "2022-07-28T19:55:11.863Z",
+  "keyword": [
+   "Lower body negative pressure (LBNP)",
+   "Orthostatic intolerance",
+   "Cardiovascular deconditioning"
+  ],
+  "keyword_name": "Cardiovascular deconditioning",
+  "__record_size": 258384,
+  "__record_version": 29,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<BR>\r\nIt has been sufficiently documented from Earth-based simulations of weightlessness, such as recumbency, water immersion, and from the space-flight environment itself, that orthostatic intolerance may result  from relative inactivity or confinement.  Potential problems of cardiovascular deconditioning were anticipated and thoroughly studied through various simulation techniques even before man first ventured into space.  Cardiovascular deconditioning, or orthostatic intolerance, was consistently observed in crewmen during the early period of the Mercury and Gemini missions.  With the advent of the Apollo Program, researchers were presented with new questions and uncertainties regarding this topic.  The fundamental differences in the Apollo spacecraft and its operational environment, and in program goals, were expected to produce  physiological responses that differed from those seen after the Gemini flights.  The two-gas (oxygen and nitrogen) atmosphere and the capability to move about in the spacecraft led to speculation that returning Apollo crewmen might show little or no change in orthostatic tolerance.  On the other hand, there was some concern regarding the ability of the cardiovascular system to withstand acceleration stresses associated with lunar descent and ascent (headward acceleration was imposed during lunar module descent after three to four days of weightlessness and a near 1-G force was produced by the ascent profile after a day or more of 1/6-G exposure).\r\n<P>\r\nThe primary objective of the Apollo Flight Crew Cardiovascular Evaluations was to determine the response of the cardiovascular system to weightlessness.  The results of postflight tests were expected to show differences in cardiovascular responsiveness between crewmen who walked on the moon and those who remained in weightlessness.  These speculations and other unanswered questions emphasized the need to gain as much understanding as possible about the cardiovascular system and its adaptation, first to zero-G and later to 1-G.  Then, as a countermeasure to orthostatic intolerance, a supplemental objective was addressed on the last two Apollo missions  This objective was to evaluate the efficacy of an experimental antihypotensive garment.  Though the Gemini and early Apollo missions revealed no need for such postflight support, planners of the 28- and 56-day Skylab missions envisioned the possible need for such postflight  protection.\r\n<P>\r\nAPPROACH:<BR>\r\nThe test methods used in assessing the degree of cardiovascular deconditioning or orthostatic intolerance included Lower Body Negative Pressure (LBNP) and, when the use of LBNP was precluded by quarantine constraints, the 90 degree passive stand test.  The crewmen of Apollo 7 through 9 and 15 through 17 missions underwent LBNP.  As a basis for comparing the two methods, the Apollo 9 crewmen underwent both the LBNP and the stand test.  The passive stand test alone was used for evaluating the orthostatic intolerance of the Apollo 10 and 11 crewmen.  (The Apollo 10 through 14 missions included postflight quarantine, thus precluding the use of LBNP and the stand test was not conducted on the Apollo 12-14 missions.)  Ambient temperature, oral temperature and body weight of each crewmember were recorded during each evaluation period.\r\n<P>\r\n<U>Lower Body Negative Pressure (LBNP) Protocol</U>:<BR>\r\n\r\nThe LBNP consisted of a chamber of sufficient size to accommodate the lower body, an airtight waist seal and a regulated vacuum source.  The types of physiological measurements taken during the LBNP protocol differed slightly from mission to mission.  Measurements made in conjunction with the Apollo 7 through 9 missions included continuous axillary and sternal lead electrocardiograms (ECG) and indirect blood pressure taken every 30 seconds by the Korotkoff Sound techniques.  Changes in calf circumference were measured by double-strand, mercury-in-Silastic strain gauges.  The calf measurements were taken at the maximum girth during supine rest for the Apollo 7-11 and 15-17 missions.  An assessment of total lower limb volume made on the Apollo 16 and 17 crewmembers consisted of multiple leg circumference measurements at discrete intervals from the ankle to the groin with the crew man in the  supine position and the leg extended and slightly elevated.\r\n<P>\r\nFor the Apollo 15 to 17 evaluations, the limited two-lead electrocardiogram was replaced with a modified Frank lead vectorcardiogram (VCG), and wide-band precordial heart sounds (vibrocardiogram) were recorded with a capacitance microphone system (LTV Research Center, Anaheim, Ca.).  The respiration rates of the Apollo 16 and 17 crewmen were measured with a mercury strain gauge attached to the lower thorax.  The carotid pulse trace was recorded for Apollo 17 crewmen.  Other data considered in evaluating the test results included blood volume, exercise response, and vasoactive hormones.\r\n<P>\r\nOrthostatic intolerance evaluations were performed  as part of major medical examinations conducted approximately 30,15, and 5 days before flight.  The preflight (baseline) evaluations were compared to postflight evaluation results which were performed shortly after splashdown and at intervals of 24 hours thereafter.  The number of postflight evaluations and the time at which they were performed were dictated by operational constraints and partly by the length of time required for individual crewmembers to regain their preflight status.\r\n<P>\r\nThe supine LBNP was used with a five-minute rest control period, followed by 15-minute reduced pressure period, followed by a five-minute recovery period.  The 15 minutes under reduced pressure utilized five different pressure levels:\r\n<P>\r\n<LI><P>1 minute at -8 mm Hg\r\n<LI><P>1 minute at -16 mm Hg\r\n<LI><P>3 minutes at -30 mm Hg\r\n<LI><P>5 minutes at -40 mm Hg\r\n<LI><P>5 minutes at -50 mm Hg\r\n<P>\r\n<U>Passive Stand Test Protocol</U>:<BR>\r\n\r\nThe Passive Stand protocol consisted of a five-minute supine resting period followed by a five-minute passive stand.  The subject would lean against a wall in a relaxed manner with heels spaced 15 cm (6 inches) away from the wall.  The physiological measurements made during this protocol included continuous sternal and axillary lead ECGs and indirect blood pressure taken by the Korotkoff sound technique at 30-second intervals.\r\n<P>\r\n\r\n<U>Antihypotensive Garment Test</U>:<BR>\r\n\r\nOn the Apollo 16 and 17 missions, the experimental antihypotensive garments were tested.  These garments  were to be worn during postflight orthostatic evaluations  to assess their antihypotensive effect.  A Jobst waist-length elastic leotard was used in conjunction with the Apollo 16 mission.  A garment employing the capstan principle  for the application of pressure to the lower limbs was designed to be worn by the Apollo 17 subject during postflight tests.\r\n<P>\r\n\r\nThe Apollo 16 tests, utilizing the Jobst leotard, were performed pre- and postflight.  Passive stand tests were performed 15 days before flight on the Apollo 16 subject and his backup, then repeated on the Apollo 16 subject and the ground control subjects during their respective recovery day examinations.  This test followed the LBNP test and consisted of a five-minute supine rest period followed by a five-minute stand period in the manner of the earlier Apollo passive stand tests.  The leotard was then put on and, after a ten-minute period of supine rest, the stand test was repeated.  Blood pressure and heart-rate data were obtained using the instrumentation of the LBNP test.\r\n<P>\r\n\r\nFor the Apollo 17 test, the subject wore the antihypotensive garment  approximately one-half hour prior to deorbit.  After splashdown, while still reclining in the couch, he inflated the capstan to a pressure of 130 mm Hg and thus furnished 65 mm Hg pressure over the ankle region.  This pressure was maintained until the stand test could be performed.  The suit was tested by performing  a stand test four hours after splashdown and before LBNP testing.  Crew time constraints prevented repetition of the preflight protocol, which included tests with and without the garment, each separated by an appropriate recovery period.  Therefore, the crewman spent five minutes in the supine position with the capstan garment inflated, five minutes passive standing with the capstan garment inflated, five minutes standing with the garment depressurized and four minutes standing with the garment reinflated to the original pressure of 130 mm Hg.  The total duration of the continuous stand test was 15 minutes, including approximately 45 seconds for reinflation of the capstan garment.  Heart rate was obtained continuously from the VCG; blood pressure was measured every 30 seconds by a Skylab automatic blood pressure measuring system.\r\n<P>\r\n\r\nRESULTS:<BR>\r\nPhysiological measurements were recorded real-time on a strip chart recorder and on frequency modulated (FM) magnetic tape.  The strip chart data was used real-time for assessment of crewmember well-being and safety.  In the event of manifestation of presyncopal symptoms during orthostatic stress, the protocol was terminated.  Minute heart rates were derived from an analysis of ECG or VCG R-R intervals.  Limb volume was computed by summing sequential, truncated, assumed-circular cones.  Standard 1.8 m (6 ft) posterior-anterior chest X-rays were taken of each crewmember at his last major preflight medical examination and first postflight evaluation.\r\n<P>\r\n\r\n<U>Data Collection and Reduction</U>:<BR>\r\n\r\nFor each crewman evaluation, heart rate, blood pressure (systolic and diastolic), pulse pressure, and stroke volume values were averaged within each of the five minute LBNP periods and within the two five-minute passive stand periods to produce the respective mean values for each of these periods.  These mean values for each crew member, during each period and by each measurement, were subsequently used as the best estimate of measurement within that period in the compilation of data tables.  In the case of percentage, maximal calf volume change rather than mean values within each level of LBNP was used.\r\n<P>\r\n\r\nIndividual and group mean data was determined.  For individual crewmembers, the mean and standard deviation of the preflight values of each measurement in each distinct protocol condition were calculated.  From these values, fiducial limits of the normal range at the 95-percent confidence level were determined.  Individual postflight values lying outside these limits were defined as statistically significant.  It should be noted that 4 of the crewmen flew two Apollo missions each.\r\n<P>\r\n\r\n<U>Heart Rate</U>:<BR>\r\n\r\nHeart rate statistics can be divided into three stressor categories: 1) during resting supine control, 2) during the highest pressure level (-50 mm Hg) of LBNP, and 3) during passive standing.  Of the 24 crewmen tested, 13 (or 54%) experienced elevated resting supine heart rates on the first postflight day.  By the third postflight evaluation, only 3 of 15 crewmen (20%) showed significant elevations in supine resting heart rate.  With the application of -50 mm Hg pressure during LBNP, 82% (14 of 17) experienced elevated heart rates at the first postflight evaluation.  One crewman experienced presyncopal symptoms during the last seconds of the -40 mm Hg pressure level and therefore was not tested at the -50 mm Hg level during the first evaluation period.  Five other crewmen experienced presyncopal symptoms at the -50 mm Hg level prior to completion of the protocol.\r\n<P>\r\n\r\nImmediately postflight, more crewmembers experienced a larger heart rate increase over preflight values during LBNP stress than during the rest control period, however statistically significant group differences disappeared by the third postflight evaluation.  Results of the passive stand test yielded similar results with the increased heart rate immediately postflight.  Eight of 9 (89%) crewmen experienced heart rates above their 95-percent preflight envelope.\r\n<P>\r\n\r\nAccompanying each postflight evaluation group mean is the t-test probability that it differs for the preflight summary group mean.  During the first and second evaluations, resting supine control showed significantly elevated heart rates, the reciprocal response for stroke volume and no significant change in systolic, diastolic, and pulse pressures.  LBNP results at -30, -40 and -50 mm Hg levels showed elevated heart rates during the first postflight evaluation period, with a trend toward preflight values at subsequent evaluations.  Reciprocal stroke volume data was again noted.  Significant decreases in systolic and pulse pressures were noted during the first evaluation period of LBNP.  The passive stand test results paralleled the LBNP results.\r\n<P>\r\n\r\nNo significant postflight calf volume changes were observed during the three conditions of reduced-pressure stress at any of the postflight evaluations.  Seven of the 17 crewmen (41%) tested showed calf volume changes were significantly decreased postflight under the LBNP stress at -50 mm Hg as compared to the preflight results.  The first postflight group mean weight showed a 3.4 kg (4.4%) decrease that was not regained at 90 to 160 hours after splashdown by the Apollo 15 to 17 crewmen.  Also, at the first postflight evaluation, results during the resting supine control condition showed that 16 of 24 crewmen (67 %) had significantly reduced calf circumferences. Total leg volume, calculated for the Apollo 16 and 17 crewmen, showed a 1-liter decrement, though this result is not considered statistically significant.\r\n<P>\r\n\r\nTo determine whether heart size changes had occurred, cardiothoracic (C/T) ratios were calculated.  Posterior-anterior chest X-rays were taken once before and once after flight.  Twenty-four of 30 crewmen (80%) showed a highly significant decreased group mean in C/T ratios of .021 (5%).  Vectorcardiographic data showed no significant clinical changes.\r\n<P>\r\n\r\n<U>Efficacy of Antihypotensive Garment</U>:<BR>\r\n\r\nThe Apollo 16 subject underwent orthostatic evaluations 7 hours after splashdown wearing the Jobst waist-length elastic leotard.  The garment was .5 cm smaller than the one used during preflight evaluations in anticipation of decreased limb girth after flight.  The leotard, although it appeared to furnish moderate protection against orthostatic hypotension, was unsuitable for the operational setting because the Apollo 16 subject was unable to put on the suit in the confined volume of the spacecraft.  Consequently, any benefits the suit provided were not available until the postflight testing phase.  This option proved untenable because of the problems associated with obtaining  a proper fit.  The decline of limb girth postflight was neither uniformly distributed nor predictable in magnitude.\r\n<P>\r\n\r\nThe design of the pressurized garment included features intended to overcome the difficulty of predicting change in limb girth during flight.  The Apollo 17 subject was able to put on the pressurized suit while still in the spacecraft.  Results showed that heart rate, while reclining with the suit inflated, was 10 beats per minute slower than during preflight testing 15 days before flight.  With the garment deflated, heart rate increased and was still increasing after five minutes.  Reinflating the garment, which lasted about 40 seconds, was associated with a modest reduction in heart rate and thus suggested a protective effect from the garment.  Worth noting is that the Apollo 17 subject was the only one of 18 crewmen tested whose mean heart rate at the first evaluation was within the preflight envelope and who showed no decrement of performance during bicycle ergometry as compared to preflight values.  Prior to deflation of the garment, the Apollo 17 subject showed an increased C/T ratio postflight as compared to the 20 Apollo crewmen who experienced continuous weightlessness.<END>",
+  "payload_id": "Apollo 10",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "AP005",
+  "indexed": "2026-08-23T04:22:59.421164+00:00",
+  "GUID": "cl62axxvjcd1e01o64dno2fug",
+  "parameter_name": [
+   "Ambient temperature",
+   "Blood pressure",
+   "Body temperature",
+   "Body weight",
+   "Calf circumference",
+   "Calf volume",
+   "Heart rate",
+   "Hours after splashdown",
+   "Hours of subgravity exposure",
+   "J-offset magnitude",
+   "Leg volume",
+   "Mission characteristics",
+   "Orthostatic evaluation techniques",
+   "PR interval",
+   "Pulse pressure",
+   "QRS duration",
+   "QRS maximum magnitude",
+   "QRS-T spatial angle",
+   "QT interval",
+   "ST maximum magnitude",
+   "ST slope",
+   "Stroke volume",
+   "Weight loss",
+   "Cardiothoracic ratio (CTR)"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 376,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Cardiovascular physiology"
+  ],
+  "pme_role_with_name": [
+   "Principal Investigator: Hoffler, G."
+  ],
+  "missions": [
+   [
+    [
+     "Apollo 10"
+    ]
+   ],
+   [
+    [
+     "Apollo 11"
+    ]
+   ],
+   [
+    [
+     "Apollo 12"
+    ]
+   ],
+   [
+    [
+     "Apollo 13"
+    ]
+   ],
+   [
+    [
+     "Apollo 14"
+    ]
+   ],
+   [
+    [
+     "Apollo 15"
+    ]
+   ],
+   [
+    [
+     "Apollo 16"
+    ]
+   ],
+   [
+    [
+     "Apollo 17"
+    ]
+   ],
+   [
+    [
+     "Apollo 7"
+    ]
+   ],
+   [
+    [
+     "Apollo 8"
+    ]
+   ],
+   [
+    [
+     "Apollo 9"
+    ]
+   ]
+  ],
+  "__dirid": "e1fa5c55-ddfe-5548-91ba-864080319f44",
+  "__record_size_wo_doccontent": 258384,
+  "PI": [
+   "Hoffler, G."
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "AP005"
+  ],
+  "mission_id": [
+   [
+    [
+     "Apollo 10"
+    ]
+   ],
+   [
+    [
+     "Apollo 11"
+    ]
+   ],
+   [
+    [
+     "Apollo 12"
+    ]
+   ],
+   [
+    [
+     "Apollo 13"
+    ]
+   ],
+   [
+    [
+     "Apollo 14"
+    ]
+   ],
+   [
+    [
+     "Apollo 15"
+    ]
+   ],
+   [
+    [
+     "Apollo 16"
+    ]
+   ],
+   [
+    [
+     "Apollo 17"
+    ]
+   ],
+   [
+    [
+     "Apollo 7"
+    ]
+   ],
+   [
+    [
+     "Apollo 8"
+    ]
+   ],
+   [
+    [
+     "Apollo 9"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Hoffler, G."
+  ],
+  "archive_status": "Data preservation is complete. Privacy-protected datasets are available via data request. Remaining datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Apollo",
+  "__source_field_concat": "PUB000347 Apollo 10 cl62axxvjcd1e01o64dno2fug Cardiovascular deconditioning  N/A Apollo Flight Crew Cardiovascular Evaluations AP005 Apollo",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<BR>\r\nIt has been sufficiently documented from Earth-based simulations of weightlessness, such as recumbency, water immersion, and from the space-flight environment itself, that orthostatic intolerance may result  from relative inactivity or confinement.  Potential problems of cardiovascular deconditioning were anticipated and thoroughly studied through various simulation techniques even before man first ventured into space.  Cardiovascular deconditioning, or orthostatic intolerance, was consistently observed in crewmen during the early period of the Mercury and Gemini missions.  With the advent of the Apollo Program, researchers were presented with new questions and uncertainties regarding this topic.  The fundamental differences in the Apollo spacecraft and its operational environment, and in program goals, were expected to produce  physiological responses that differed from those seen after the Gemini flights.  The two-gas (oxygen and nitrogen) atmosphere and the capability to move about in the spacecraft led to speculation that returning Apollo crewmen might show little or no change in orthostatic tolerance.  On the other hand, there was some concern regarding the ability of the cardiovascular system to withstand acceleration stresses associated with lunar descent and ascent (headward acceleration was imposed during lunar module descent after three to four days of weightlessness and a near 1-G force was produced by the ascent profile after a day or more of 1/6-G exposure).\r\n<P>\r\nThe primary objective of the Apollo Flight Crew Cardiovascular Evaluations was to determine the response of the cardiovascular system to weightlessness.  The results of postflight tests were expected to show differences in cardiovascular responsiveness between crewmen who walked on the moon and those who remained in weightlessness.  These speculations and other unanswered questions emphasized the need to gain as much understanding as possible about the cardiovascular system and its adaptation, first to zero-G and later to 1-G.  Then, as a countermeasure to orthostatic intolerance, a supplemental objective was addressed on the last two Apollo missions  This objective was to evaluate the efficacy of an experimental antihypotensive garment.  Though the Gemini and early Apollo missions revealed no need for such postflight support, planners of the 28- and 56-day Skylab missions envisioned the possible need for such postflight  protection.\r\n<P>\r\nAPPROACH:<BR>\r\nThe test methods used in assessing the degree of cardiovascular deconditioning or orthostatic intolerance included Lower Body Negative Pressure (LBNP) and, when the use of LBNP was precluded by quarantine constraints, the 90 degree passive stand test.  The crewmen of Apollo 7 through 9 and 15 through 17 missions underwent LBNP.  As a basis for comparing the two methods, the Apollo 9 crewmen underwent both the LBNP and the stand test.  The passive stand test alone was used for evaluating the orthostatic intolerance of the Apollo 10 and 11 crewmen.  (The Apollo 10 through 14 missions included postflight quarantine, thus precluding the use of LBNP and the stand test was not conducted on the Apollo 12-14 missions.)  Ambient temperature, oral temperature and body weight of each crewmember were recorded during each evaluation period.\r\n<P>\r\n<U>Lower Body Negative Pressure (LBNP) Protocol</U>:<BR>\r\n\r\nThe LBNP consisted of a chamber of sufficient size to accommodate the lower body, an airtight waist seal and a regulated vacuum source.  The types of physiological measurements taken during the LBNP protocol differed slightly from mission to mission.  Measurements made in conjunction with the Apollo 7 through 9 missions included continuous axillary and sternal lead electrocardiograms (ECG) and indirect blood pressure taken every 30 seconds by the Korotkoff Sound techniques.  Changes in calf circumference were measured by double-strand, mercury-in-Silastic strain gauges.  The calf measurements were taken at the maximum girth during supine rest for the Apollo 7-11 and 15-17 missions.  An assessment of total lower limb volume made on the Apollo 16 and 17 crewmembers consisted of multiple leg circumference measurements at discrete intervals from the ankle to the groin with the crew man in the  supine position and the leg extended and slightly elevated.\r\n<P>\r\nFor the Apollo 15 to 17 evaluations, the limited two-lead electrocardiogram was replaced with a modified Frank lead vectorcardiogram (VCG), and wide-band precordial heart sounds (vibrocardiogram) were recorded with a capacitance microphone system (LTV Research Center, Anaheim, Ca.).  The respiration rates of the Apollo 16 and 17 crewmen were measured with a mercury strain gauge attached to the lower thorax.  The carotid pulse trace was recorded for Apollo 17 crewmen.  Other data considered in evaluating the test results included blood volume, exercise response, and vasoactive hormones.\r\n<P>\r\nOrthostatic intolerance evaluations were performed  as part of major medical examinations conducted approximately 30,15, and 5 days before flight.  The preflight (baseline) evaluations were compared to postflight evaluation results which were performed shortly after splashdown and at intervals of 24 hours thereafter.  The number of postflight evaluations and the time at which they were performed were dictated by operational constraints and partly by the length of time required for individual crewmembers to regain their preflight status.\r\n<P>\r\nThe supine LBNP was used with a five-minute rest control period, followed by 15-minute reduced pressure period, followed by a five-minute recovery period.  The 15 minutes under reduced pressure utilized five different pressure levels:\r\n<P>\r\n<LI><P>1 minute at -8 mm Hg\r\n<LI><P>1 minute at -16 mm Hg\r\n<LI><P>3 minutes at -30 mm Hg\r\n<LI><P>5 minutes at -40 mm Hg\r\n<LI><P>5 minutes at -50 mm Hg\r\n<P>\r\n<U>Passive Stand Test Protocol</U>:<BR>\r\n\r\nThe Passive Stand protocol consisted of a five-minute supine resting period followed by a five-minute passive stand.  The subject would lean against a wall in a relaxed manner with heels spaced 15 cm (6 inches) away from the wall.  The physiological measurements made during this protocol included continuous sternal and axillary lead ECGs and indirect blood pressure taken by the Korotkoff sound technique at 30-second intervals.\r\n<P>\r\n\r\n<U>Antihypotensive Garment Test</U>:<BR>\r\n\r\nOn the Apollo 16 and 17 missions, the experimental antihypotensive garments were tested.  These garments  were to be worn during postflight orthostatic evaluations  to assess their antihypotensive effect.  A Jobst waist-length elastic leotard was used in conjunction with the Apollo 16 mission.  A garment employing the capstan principle  for the application of pressure to the lower limbs was designed to be worn by the Apollo 17 subject during postflight tests.\r\n<P>\r\n\r\nThe Apollo 16 tests, utilizing the Jobst leotard, were performed pre- and postflight.  Passive stand tests were performed 15 days before flight on the Apollo 16 subject and his backup, then repeated on the Apollo 16 subject and the ground control subjects during their respective recovery day examinations.  This test followed the LBNP test and consisted of a five-minute supine rest period followed by a five-minute stand period in the manner of the earlier Apollo passive stand tests.  The leotard was then put on and, after a ten-minute period of supine rest, the stand test was repeated.  Blood pressure and heart-rate data were obtained using the instrumentation of the LBNP test.\r\n<P>\r\n\r\nFor the Apollo 17 test, the subject wore the antihypotensive garment  approximately one-half hour prior to deorbit.  After splashdown, while still reclining in the couch, he inflated the capstan to a pressure of 130 mm Hg and thus furnished 65 mm Hg pressure over the ankle region.  This pressure was maintained until the stand test could be performed.  The suit was tested by performing  a stand test four hours after splashdown and before LBNP testing.  Crew time constraints prevented repetition of the preflight protocol, which included tests with and without the garment, each separated by an appropriate recovery period.  Therefore, the crewman spent five minutes in the supine position with the capstan garment inflated, five minutes passive standing with the capstan garment inflated, five minutes standing with the garment depressurized and four minutes standing with the garment reinflated to the original pressure of 130 mm Hg.  The total duration of the continuous stand test was 15 minutes, including approximately 45 seconds for reinflation of the capstan garment.  Heart rate was obtained continuously from the VCG; blood pressure was measured every 30 seconds by a Skylab automatic blood pressure measuring system.\r\n<P>\r\n\r\nRESULTS:<BR>\r\nPhysiological measurements were recorded real-time on a strip chart recorder and on frequency modulated (FM) magnetic tape.  The strip chart data was used real-time for assessment of crewmember well-being and safety.  In the event of manifestation of presyncopal symptoms during orthostatic stress, the protocol was terminated.  Minute heart rates were derived from an analysis of ECG or VCG R-R intervals.  Limb volume was computed by summing sequential, truncated, assumed-circular cones.  Standard 1.8 m (6 ft) posterior-anterior chest X-rays were taken of each crewmember at his last major preflight medical examination and first postflight evaluation.\r\n<P>\r\n\r\n<U>Data Collection and Reduction</U>:<BR>\r\n\r\nFor each crewman evaluation, heart rate, blood pressure (systolic and diastolic), pulse pressure, and stroke volume values were averaged within each of the five minute LBNP periods and within the two five-minute passive stand periods to produce the respective mean values for each of these periods.  These mean values for each crew member, during each period and by each measurement, were subsequently used as the best estimate of measurement within that period in the compilation of data tables.  In the case of percentage, maximal calf volume change rather than mean values within each level of LBNP was used.\r\n<P>\r\n\r\nIndividual and group mean data was determined.  For individual crewmembers, the mean and standard deviation of the preflight values of each measurement in each distinct protocol condition were calculated.  From these values, fiducial limits of the normal range at the 95-percent confidence level were determined.  Individual postflight values lying outside these limits were defined as statistically significant.  It should be noted that 4 of the crewmen flew two Apollo missions each.\r\n<P>\r\n\r\n<U>Heart Rate</U>:<BR>\r\n\r\nHeart rate statistics can be divided into three stressor categories: 1) during resting supine control, 2) during the highest pressure level (-50 mm Hg) of LBNP, and 3) during passive standing.  Of the 24 crewmen tested, 13 (or 54%) experienced elevated resting supine heart rates on the first postflight day.  By the third postflight evaluation, only 3 of 15 crewmen (20%) showed significant elevations in supine resting heart rate.  With the application of -50 mm Hg pressure during LBNP, 82% (14 of 17) experienced elevated heart rates at the first postflight evaluation.  One crewman experienced presyncopal symptoms during the last seconds of the -40 mm Hg pressure level and therefore was not tested at the -50 mm Hg level during the first evaluation period.  Five other crewmen experienced presyncopal symptoms at the -50 mm Hg level prior to completion of the protocol.\r\n<P>\r\n\r\nImmediately postflight, more crewmembers experienced a larger heart rate increase over preflight values during LBNP stress than during the rest control period, however statistically significant group differences disappeared by the third postflight evaluation.  Results of the passive stand test yielded similar results with the increased heart rate immediately postflight.  Eight of 9 (89%) crewmen experienced heart rates above their 95-percent preflight envelope.\r\n<P>\r\n\r\nAccompanying each postflight evaluation group mean is the t-test probability that it differs for the preflight summary group mean.  During the first and second evaluations, resting supine control showed significantly elevated heart rates, the reciprocal response for stroke volume and no significant change in systolic, diastolic, and pulse pressures.  LBNP results at -30, -40 and -50 mm Hg levels showed elevated heart rates during the first postflight evaluation period, with a trend toward preflight values at subsequent evaluations.  Reciprocal stroke volume data was again noted.  Significant decreases in systolic and pulse pressures were noted during the first evaluation period of LBNP.  The passive stand test results paralleled the LBNP results.\r\n<P>\r\n\r\nNo significant postflight calf volume changes were observed during the three conditions of reduced-pressure stress at any of the postflight evaluations.  Seven of the 17 crewmen (41%) tested showed calf volume changes were significantly decreased postflight under the LBNP stress at -50 mm Hg as compared to the preflight results.  The first postflight group mean weight showed a 3.4 kg (4.4%) decrease that was not regained at 90 to 160 hours after splashdown by the Apollo 15 to 17 crewmen.  Also, at the first postflight evaluation, results during the resting supine control condition showed that 16 of 24 crewmen (67 %) had significantly reduced calf circumferences. Total leg volume, calculated for the Apollo 16 and 17 crewmen, showed a 1-liter decrement, though this result is not considered statistically significant.\r\n<P>\r\n\r\nTo determine whether heart size changes had occurred, cardiothoracic (C/T) ratios were calculated.  Posterior-anterior chest X-rays were taken once before and once after flight.  Twenty-four of 30 crewmen (80%) showed a highly significant decreased group mean in C/T ratios of .021 (5%).  Vectorcardiographic data showed no significant clinical changes.\r\n<P>\r\n\r\n<U>Efficacy of Antihypotensive Garment</U>:<BR>\r\n\r\nThe Apollo 16 subject underwent orthostatic evaluations 7 hours after splashdown wearing the Jobst waist-length elastic leotard.  The garment was .5 cm smaller than the one used during preflight evaluations in anticipation of decreased limb girth after flight.  The leotard, although it appeared to furnish moderate protection against orthostatic hypotension, was unsuitable for the operational setting because the Apollo 16 subject was unable to put on the suit in the confined volume of the spacecraft.  Consequently, any benefits the suit provided were not available until the postflight testing phase.  This option proved untenable because of the problems associated with obtaining  a proper fit.  The decline of limb girth postflight was neither uniformly distributed nor predictable in magnitude.\r\n<P>\r\n\r\nThe design of the pressurized garment included features intended to overcome the difficulty of predicting change in limb girth during flight.  The Apollo 17 subject was able to put on the pressurized suit while still in the spacecraft.  Results showed that heart rate, while reclining with the suit inflated, was 10 beats per minute slower than during preflight testing 15 days before flight.  With the garment deflated, heart rate increased and was still increasing after five minutes.  Reinflating the garment, which lasted about 40 seconds, was associated with a modest reduction in heart rate and thus suggested a protective effect from the garment.  Worth noting is that the Apollo 17 subject was the only one of 18 crewmen tested whose mean heart rate at the first evaluation was within the preflight envelope and who showed no decrement of performance during bicycle ergometry as compared to preflight values.  Prior to deflation of the garment, the Apollo 17 subject showed an increased C/T ratio postflight as compared to the 20 Apollo crewmen who experienced continuous weightlessness.<END>",
+  "__doi": "10.83263/e60z-1h46",
+  "__doi_record_creation_date": "2026-08-23T04:22:59",
+  "__doi_record_modified_date": "2026-08-23T04:22:59"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000090",
+   "label": "AP005__2740531638",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Apollo and Gemini data indicating a leveling off of weight loss after 200 hours of flight",
+    "dataset_catalog": "AP005__2740531638",
+    "dataset_description": [
+     "This graph shows that when both Apollo data and Gemini data (from missions shorter and longer than Apollo missions) are used, weight loss reveals a leveling off with flight duration, if not a reversed trend, after a peak at approximately 200 hours of flight time.\r\n<P>\r\nFrom: Hoffler GW, Johnson RL. Apollo flight crew cardiovascular evaluations. In: Johnson RS, Dietlein LF, Berry CA, eds. Biomedical Results of Apollo. Washington, DC: NASA Headquarters; 1975:247. NASA SP-368."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "AP005"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "2b75fc6a-0fcd-5c59-9b61-1ad4f1ea6934",
+     "label": "AP005__2740531638.pdf_Apollo_7_AP005_2010_274_051036.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000263",
+   "label": "AP005__2321100627",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Negative correlation between decrement in calf size and length of exposure to weightlessness",
+    "dataset_catalog": "AP005__2321100627",
+    "dataset_description": [
+     "This graph shows a true flight-related tissue deterioration was suggested by a negative and significant correlation (r = -0.47) between the decrement in calf size and the length of exposure to weightlessness.\r\n<P>\r\nSource: Hoffler GW, Johnson RL. Apollo flight crew cardiovascular evaluations. In: Johnson RS, Dietlein LF, Berry CA, eds. In: <I>Biomedical Results of Apollo</I>. Washington, DC: NASA Headquarters; 1975:230. NASA SP-368. See e-Books section for this reference."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "AP005"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "93f475e6-9327-5e52-aed5-ced68e3910cb",
+     "label": "AP005__2321100627.tif_Apollo_7_AP005_2010_232_110853.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000507",
+   "label": "AP005__2321234337",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Apollo 15, 16, and 17 Vectorcardiographic Data (Mean of nine crewmembers)",
+    "dataset_catalog": "AP005__2321234337",
+    "dataset_description": [
+     "Many aspects of the vectorcardiogram were significantly altered in Apollo astronauts after space flight.  These aspects are summarized in this table.<P>\r\nSource: Berry CA. Medical legacy of Apollo. Aerospace Med. 1974;45(9):1046-1057."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "AP005"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "0df22b12-6cf9-5eff-941b-34df91013838",
+     "label": "AP005__2321234337.xls_Apollo_15_AP005_2010_232_120813.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000474",
+   "label": "AP005__2721210942",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Positive correlation between preflight to postflight changes in oral temperature and resting heart rate",
+    "dataset_catalog": "AP005__2721210942",
+    "dataset_description": [
+     "This graph shows that there is a significant positive correlation (r = 0.52) between postflight change in orthostatically stressed heart rate and postflight change in resting heart rate. <P>Source: Hoffler GW, Johnson RL. Apollo flight crew cardiovascular evaluations. In: Johnson RS, Dietlein LF, Berry CA, eds. Biomedical Results of Apollo. Washington, DC: NASA Headquarters; 1975:234-235. NASA SP-368."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "AP005"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "bccececc-86df-52a8-a114-5ec88316a7c5",
+     "label": "AP005__2721210942.pdf_Apollo_7_AP005_2010_272_120919.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002255",
+   "label": "AP005__2321031805",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Apollo Mission Characteristics and Orthostatic Evaluation Techniques Employed",
+    "dataset_catalog": "AP005__2321031805",
+    "dataset_description": [
+     "This table shows the types and durations of each of the 11 manned Apollo missions and the orthostatic evaluation techniques employed for each mission.\r\n<P>\r\nSource: Hoffler GW, Johnson RL. Apollo flight crew cardiovascular evaluations. In: Johnson RS, Dietlein LF, Berry CA, eds. <I>Biomedical Results of Apollo</I>. Washington, DC: NASA Headquarters; 1975:230. NASA SP-368.  See e-Books section for this reference."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "AP005"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "7355c6fc-8201-5935-a64d-3fa85ab41b4c",
+     "label": "AP005__2321031805.xls_Apollo_7_AP005_2010_232_110807.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000227",
+   "label": "AP005__2321246468",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Apollo Crewmember Versus Control Subject Heart Rate Data",
+    "dataset_catalog": "AP005__2321246468",
+    "dataset_description": [
+     "Table 5 shows the heart rates of Apollo crewmembers as compared with those of control subjects for 3 protocol conditions.\r\n<P>\r\nSource: Hoffler GW, Johnson RL. Apollo flight crew cardiovascular evaluations. In: Johnson RS, Dietlein LF, Berry CA, eds. <I>Biomedical Results of Apollo</I>. Washington, DC: NASA Headquarters; 1975:230. NASA SP-368.  See e-Books section for this reference."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "AP005"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "73037aa7-a7cc-5f0a-b04d-381151a74c82",
+     "label": "AP005__2321246468.xls_Apollo_7_AP005_2010_232_120825.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002405",
+   "label": "AP005__2721201926",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Orthostatic Stress Procedure Protocol",
+    "dataset_catalog": "AP005__2721201926",
+    "dataset_description": [
+     "The protocols for the 2 orthostatic stress procedures are shown. The supine LBNP protocol consisted of a 5-minute resting control period, a 5-minute period at each of 3 distinct reduced-pressure levels, and a 5-minute recovery period. The first 5-minute period of reduced pressure included one minute at -8 mm Hg (-11 x 102 N/m2) ) and one minute at -16 mm Hg (-21 x 102 N/m2) ), followed by 3 minutes at -30 mm Hg (-40 x 102 N/m2) ). The 2 short-duration, relatively low levels of reduced pressure were adopted to obtain additional information regarding the responsiveness of lower limb capacitance vessels. The three levels of sequentially applied reduced pressure used were chosen on the basis of previous experience in the JSC Cardiovascular Laboratory (Wolthuis et al., 1970). As reported, the use of an incremental LBNP protocol produced physiological responses for each level of reduced pressure applied and ensured a measurable, quantitative stress response in both the normal preflight and the orthostatically intolerant postflight conditions. The passive stand protocol consisted of a 5-minute resting supine control period followed by a 5-minute passive stand. For the passive stand, the subject leaned against a wall in a relaxed manner with his heels spaced 15 cm (6 in.) away from the wall.\r\n<P>\r\nSource: Hoffler GW, Johnson RL. Apollo flight crew cardiovascular evaluations. In: Johnson RS, Dietlein LF, Berry CA, eds. Biomedical Results of Apollo. Washington, DC: NASA Headquarters; 1975:234-235. NASA SP-368."
+    ],
+    "processing_level": [
+     "Row"
+    ],
+    "experiment_id": [
+     "AP005"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "59824542-91d2-5a04-9a5e-1d2c8d543f22",
+     "label": "AP005__2721201926.pdf_Apollo_7_AP005_2010_272_120906.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001966",
+   "label": "AP005__2711130718",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Apollo Group Mean Values for Preflight Summary and Postflight Orthostatic Evaluations",
+    "dataset_catalog": "AP005__2711130718",
+    "dataset_description": [
+     "Tables 6A and 6B contain group mean values for several physiological measurements by protocol condition. Preflight summary group means are shown with 2 different standard deviations. The first (SDi) is an expression of variability between the crewmember preflight summary means; the second (SDt) is a measure of variability among the 3 preflight group means. Accompanying each postflight evaluation group mean is the t-test probability that it differs from the preflight summary group mean.\r\n<P>\r\nSource: Hoffler GW, Johnson RL. Apollo flight crew cardiovascular evaluations. In: Johnson RS, Dietlein LF, Berry CA, eds. Biomedical Results of Apollo. Washington, DC: NASA Headquarters; 1975:245-246. NASA SP-368."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "AP005"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "fcb0e6df-8844-5797-9715-431936ee1cf7",
+     "label": "AP005__2711130718.xls_Apollo_7_AP005_2010_271_110933.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001461",
+   "label": "AP005__2321133756",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Apollo and Gemini data indicating a leveling off of weight loss after 200 hours of flight",
+    "dataset_catalog": "AP005__2321133756",
+    "dataset_description": [
+     "This graph shows that when both Apollo data and Gemini data (from missions shorter and longer than Apollo missions) are used, weight loss reveals a leveling off with flight duration, if not a reversed trend, after a peak at approximately 200 hours of flight.\r\n<P>\r\nSource: Hoffler GW, Johnson RL. Apollo flight crew cardiovascular evaluations. In: Johnson RS, Dietlein LF, Berry CA, eds. <I>Biomedical Results of Apollo</I>. Washington, DC: NASA Headquarters; 1975:230. NASA SP-368.  See e-Books section for this reference."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "AP005"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "a4083d28-9fc6-5686-a21a-4f75e7553576",
+     "label": "AP005__2321133756.TIF_Apollo_7_AP005_2010_232_120806.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000759",
+   "label": "AP005__2721219427",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Positive correlation between postflight changes in oral temperature and resting heart rate",
+    "dataset_catalog": "AP005__2721219427",
+    "dataset_description": [
+     "This graph shows that there is a significant positive correlation (r = 0.52) between postflight change in orthostatically stressed heart rate and postflight change in resting heart rate. <P>Source: Hoffler GW, Johnson RL. Apollo flight crew cardiovascular evaluations. In: Johnson RS, Dietlein LF, Berry CA, eds. Biomedical Results of Apollo. Washington, DC: NASA Headquarters; 1975:234-235. NASA SP-368."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "AP005"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "db0af3d8-c501-5173-8a6c-a0ec072e7028",
+     "label": "AP005__2721219427.pdf_Apollo_7_AP005_2010_272_120906.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001435",
+   "label": "AP005__2711156884",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Apollo Group Mean Values for Preflight Summary and Postflight Orthostatic Evaluations Part 2",
+    "dataset_catalog": "AP005__2711156884",
+    "dataset_description": [
+     "Tables 6A and 6B contain group mean values for several physiological measurements by protocol condition. Preflight summary group means are shown with 2 different standard deviations. The first (SDi) is an expression of variability between the crewmember preflight summary means; the second (SDt) is a measure of variability among the 3 preflight group means. Accompanying each postflight evaluation group mean is the t-test probability that it differs from the preflight summary group mean.\r\n<P>\r\nSource: Hoffler GW, Johnson RL. Apollo flight crew cardiovascular evaluations. In: Johnson RS, Dietlein LF, Berry CA, eds. Biomedical Results of Apollo. Washington, DC: NASA Headquarters; 1975:245-246. NASA SP-368."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "AP005"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "5c091c21-a2af-5379-8cea-52a6d17dbdee",
+     "label": "AP005__2711156884.xls_Apollo_7_AP005_2010_271_110948.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000760",
+   "label": "AP005__2721227592",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Positive correlation between maximal calf circumference taken immediately after recovery and time of measurement following splashdown",
+    "dataset_catalog": "AP005__2721227592",
+    "dataset_description": [
+     "The magnitude of the decrements in the maximal calf circumference measurement taken immediately after recovery showed a positive correlation (r = 0.42) with the time of the measurement following splashdown.\r\n<P>\r\nSource: Hoffler GW, Johnson RL. Apollo flight crew cardiovascular evaluations. In: Johnson RS, Dietlein LF, Berry CA, eds. Biomedical Results of Apollo. Washington, DC: NASA Headquarters; 1975:234-235. NASA SP-368."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "AP005"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "dc55870d-9f72-5a0b-b089-b60cbdff05de",
+     "label": "AP005__2721227592.pdf_Apollo_7_AP005_2010_272_120906.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002062",
+   "label": "AP005__2321216164",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Roentgenogram showing peak decrement in cardiothoracic ratio",
+    "dataset_catalog": "AP005__2321216164",
+    "dataset_description": [
+     "This graph shows that, although a decrease in the frontal plane cardiac silhouette size may represent either a decrement of myocardial tissue, a decrement of intrachamber blood content, or positional change such as rotation of the heart with reference to the chest wall, changes in the cardiothoracic ratio show a very definite rise and subsequent reversal with the duration of zero-g exposure; the peak decrement occurs between 100 and 200 hours.\r\n<P>\r\nSource: Hoffler GW, Johnson RL. Apollo flight crew cardiovascular evaluations. In: Johnson RS, Dietlein LF, Berry CA, eds. <I>Biomedical Results of Apollo</I>. Washington, DC: NASA Headquarters; 1975:230. NASA SP-368.  See e-Books section for this reference."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "AP005"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "b8fbfa65-a136-57f9-8bea-3db90da8ef41",
+     "label": "AP005__2321216164.TIF_Apollo_7_AP005_2010_232_120844.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

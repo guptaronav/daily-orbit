@@ -1,0 +1,392 @@
+{
+ "record": {
+  "id": "7313bb1f-37b8-5539-938c-b3a38b42422e",
+  "_id": "7313bb1f-37b8-5539-938c-b3a38b42422e",
+  "experiment_title": "Joint U.S./Russian Investigations:  Sensory-Motor Investigations (SMI)",
+  "pub_document_number": "PUB002042",
+  "archive_status_index": 2,
+  "experiment_alias": [
+   "DSO 201B",
+   "DSO 201A"
+  ],
+  "parameter_html": "<table><tr><td>Apparent target</td></tr><tr><td>Autonomic gastric functions</td></tr><tr><td>Data type</td></tr><tr><td>Eye position</td></tr><tr><td>Eye velocity</td></tr><tr><td>Gaze position</td></tr><tr><td>Gaze velocity</td></tr><tr><td>Head position</td></tr><tr><td>Head velocity</td></tr><tr><td>Motion perception</td></tr><tr><td>Oculomotor performance</td></tr><tr><td>Saccade width</td></tr><tr><td>Space motion sickness (SMS)</td></tr><tr><td>Spatial orientation</td></tr><tr><td>Target</td></tr><tr><td>Time</td></tr><tr><td>Trial number</td></tr><tr><td>Trial type</td></tr><tr><td>Vestibular function</td></tr><tr><td>Cycles per minute, nausea</td></tr><tr><td>Cycles per minute, vomiting</td></tr><tr><td>Minutes post-meal</td></tr><tr><td>Spectral power, nausea</td></tr><tr><td>Spectral power, post-meal</td></tr><tr><td>Spectral power, vomiting</td></tr><tr></tr></table>",
+  "__source_key": "cl62azy5zcdi701o6fk569gmd",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Reschke, Millard\">Principal Investigator: Reschke, Millard</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Harm, Deborah\">Principal Investigator: Harm, Deborah</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Stern, Robert\">Co-Investigator: Stern, Robert</a>",
+  "image_name": [
+   "DSO 201 Experiment Operations",
+   "DSO 201 Operations",
+   "Instrumentation Vest for DSO 201"
+  ],
+  "experiment_type_lk": [
+   "Shuttle Detailed Supplementary Objectives (DSO)"
+  ],
+  "__record_modified_date": "2026-08-23T04:12:55.909902+00:00",
+  "__indexed": "2026-08-23T04:12:55.909902+00:00",
+  "alias": [
+   "DSO 201B",
+   "DSO 201A"
+  ],
+  "keyword": [
+   "Spatial behavior",
+   "Perceptual distortion",
+   "Digestive physiology",
+   "Space motion sickness (SMS)"
+  ],
+  "__record_creation_date": "2022-07-28T19:56:03.798Z",
+  "keyword_name": "Space motion sickness (SMS)",
+  "__record_version": 29,
+  "__record_size": 254765,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<br>\r\nDuring space flight, space motion sickness (SMS) and perceptual disturbances have led to reductions in performance efficiency and sense of well-being. During entry and immediately after landing, such disturbances could have a serious impact on the ability of the commander to land the Orbiter, as well as on the abilities of all crewmembers to egress from the Orbiter, particularly in a non-nominal condition or following extended stays in microgravity. An understanding of spatial orientation and motion perception is essential for developing countermeasures for SMS and perceptual disturbances during space flight and upon return to Earth. Countermeasures for optimal performance in-flight and a successful return to Earth require the development of preflight and in-flight training to help astronauts acquire and maintain a dual adaptive state. \r\n<P>\r\nThis study was intended to enhance the understanding of adaptation to space flight and readaptation after flight on various aspects of human spatial orientation, neurosensory, sensory-motor, physiological, and perceptual functions and on autonomic gastric functions associated with space motion sickness (SMS). This experiment correlated the postflight recovery of postural equilibrium control, head and gaze stability, readaptation changes in vestibular function, and examined the relationship between voluntary oculomotor performance and passive vestibulo-ocular responses following space flight.  Changes in stomach nerve response to food consumption over the first few days of flight were to be observed and analyzed, and evaluated when SMS symptoms occurred. The investigators were also interested in how nerve activity correlated with the symptoms before, during, and after their occurrence.</p> \r\n<p>\r\nAPPROACH:<br>\r\n<u>Protocol A</u><br>\r\n<i>Voluntary Head Movement (VHM)</i><br>\r\nStandard electro-oculography (EOG) techniques recorded horizontal and vertical eye position. A head mounted tri-axial rate sensor measured head velocity in the pitch, yaw and roll planes. The\r\nBOG and rate sensor signals were collected with the Superpocket physiological monitoring system and recorded on a TEAC cassette recorder. A goggle assembly controlled visual conditions via an electronic shutter, changing instantly from a clear state to an opaque state according to the experiment protocol. A cruciform target and four additional visual targets were mounted on the middeck locker for on-orbit data collection and on a screen during baseline data collection. A microcassette recorder delivered a sinusoidally-modulated audio tone during one portion of the VHM protocol. Tasks performed in-flight were tested pre- and postflight as well. Subjects were asked to report perceptual sensations associated with each stimulus.\r\n<p>\r\nVHM Inflight - Four of the six inflight experiments were designed to investigate voluntary oculomotor function. Two additional experiments were performed pre- and postflight only investigated this function. The protocols involved a combination of eye and/or head movements to acquire targets along a visual display. Calibrations of eye and head signals were performed. Each task was repeated three times in both the horizontal and vertical planes. The tasks are described below:<br>\r\n<LI>Head Calibration - the subject directed a head-mounted laser spot to the central target and moved their head to pre-selected targets in both the horizontal and vertical planes.<br>\r\n<LI>Eye Calibration - with head fixed, subject acquired a successive sequence of target positions in the horizontal and vertical planes, visually fixating on each target for two seconds.<br>\r\n<LI>Target Acquisition - a cruciform target arrangement, located 34 inches from the subject's eyes was used to display a series of targets in both the horizontal and vertical planes. Subjects acquired each target with both a head and eye movement.<br>\r\n<LI>Gaze Stabilization - the subject first visually fixated on a wall-fixed target with the head in a central position. When the goggles became opaque and vision was occluded the subject rotated the head while maintaining ocular fixation on the just-seen wall-fixed target. When the goggles became clear the subject refixated the target with the eyes only. The subject then rotated the head back to center, keeping eyes on the target.<br>\r\n<LI>Spontaneous/Gaze Nystagmus - was measured with the crewmember fixating on a wall target, and then imagining the same wall-fixed target with vision occluded, and then with the eyes closed. Gaze nystagmus, or the effect of a change in eye position was evaluated by having the crewmember fixate on imaginary 40 degree targets (vision occluded) in both the vertical and horizontal planes for 20 seconds per imaginary target. Measurement of eye movements continued for an additional 20 seconds when the eye position was returned to straight ahead gaze.<br>\r\n<LI>Sinusoidal Head Oscillations - <br>\r\nWith Vision: Subjects attempted to maintain visual fixation on a wall-fixed target while smoothly oscillating his/her head in yaw or pitch in cadence with an audio tone that is sinusoidally modulated to sweep over the bandwidth of interest (chirp).<br>\r\nWithout Vision: Subject repeated the chirp with vision occluded while attempting to maintain ocular fixation on the remembered location of the target. The subject repeated this entire procedure in each plane for each condition.<br>\r\n<p>\r\nVHM Pre/Postflight<br>\r\n<LI>Non-Predictable Target Tracking - for these trials, the target was initially stationary in the center of the field of view. At an unpredictable time, the target began to move at constant velocity, either rightward, leftward, upward, or downward.  The onset time of target motion, direction of motion, target velocity, and final target displacement was randomized.<br>\r\nPredictable Target Tracking - the target oscillated at 0.3 Hz. For each trial, tracking was performed for at least six cycles.<br>\r\n<LI>Positional Nystagmus - spontaneous eye movements were collected with the crewmember in seven different static positions:<br>\r\n1. Seated upright<br>\r\n2. Supine<br>\r\n3. Supine with head turned to the right<br>\r\n4. Supine with head turned to the left<br>\r\n5. Supine with head and neck extended over the edge of the examination table (head and\r\nneck will be supported by test operator)<br>\r\n6. Body and head turned to the right side<br>\r\n7. Body and head turned to the left side<br>\r\n<p>\r\n<i>Optokinetic Nystagmus (OKN)</i><br>\r\nA binocular Optokinetic Stimulator provided a full visual field optokinetic stimulus during the OKN protocol. Standard electro-oculography (EOG) techniques recorded horizontal and vertical eye position. The EOG signals were collected with the Superpocket physiological monitoring system and recorded on a TEAC cassette recorder. Tasks performed inflight were tested pre and\r\npostflight as well. Subjects were asked to report perceptual sensations associated with each stimulus.\r\n<p>\r\n<i>Postural Equilibrium (pre/postflight)</i><br>\r\nMeasurements pertaining to postural equilibrium were collected using standard electromyography\r\n(EMG) techniques on the upper thigh and lower calf segments of the subject's left leg, sway-bars situated at the shoulders and hips, and force transducers situated in the foot plate of the posture platform. In addition, overhead and full field video was recorded through the entire test session. The subject's primary task was to maintain a normal upright stance.\r\n<p>\r\n<i>Head and Gaze Stability During Locomotion (pre/postflight)</i><br>\r\nWhole body movement during locomotion on a treadmill and during a jump task was videotaped and the locations of retroreflective markers placed on specific locations on the body were analyzed with the aid of a computerized motion analysis system. In addition, eye movement and leg muscle activity during these tasks were recorded using standard electro-oculography (EOG) and electromyography (EMG), respectively.\r\n<p>\r\n<i>Path Integration ((pre/postflight)</i><br>\r\nTo examine the cognitive processing of spatial orientation information, whole body movement\r\nduring locomotion along a previously memorized path (parallelogram or square) were videotaped and the locations of retroreflective markers placed on specific locations on the body were analyzed with the aid of a computerized motion analysis system.\r\n<p>\r\n<u>Protocol B</u><br>\r\nThis experiment marked the first attempt to obtain measurements of the stomach muscle activity in humans during space flight. In this study, myoelectric activity of the stomach was examined following a meal. Gastric activity associated with space motion sickness was measured using EGG in which electrical impulses associated with stomach secretion and movements were recorded. To perform this EGG, three electrodes were situated on the abdomen.</p>\r\n<p>Each subject participated in two preflight training sessions which occurred at 12 months prior to launch (L-12) and at 10 months prior to launch (L-10). To compare subject inflight EGG data that were associated with eating to eating under normal ground conditions, there were two baseline data collection sessions. These sessions occurred after both preflight training sessions. During one baseline data collection session, subjects were given fluids and during the other session, they were given a small meal. Subjects fasted for 6.5 hours before a data collection session. When the small meal was consumed, data collection began 20 minutes before the 5 to 10-minute meal and continued for three hours following the meal. To ensure proper and consistent placement of EGG electrodes on the abdomen inflight, a permanent marker was used to mark the correct locations after a meal had been consumed within eight days prior to flight.</p>\r\n<p>The EGG data were collected using a portable recording instrument designed for space flight. The electrodes amplified the signal at its source and the main part of the recording instrument amplified it further. A one Mb RAM card held twenty-four hours of data. The hardware was lightweight and worn on a belt. It was capable of registering input from the crewmember regarding food or water consumption and SMS symptoms. There were five events that were coded by number: eating, drinking, stomach awareness/discomfort, nausea and vomiting. When a crewmember experienced one of these events, he pressed the event marker with the correct code number and the event with its corresponding Mission Elapsed Time (MET) was recorded. Insertion of event markers did not disrupt data collection or logging.</p>\r\n<p>The EGG equipment was donned as early as possible in the flight. Continuous data collection occurred for at least the first three flight days. The electrodes, RAM card and battery were replaced every 24 hours.\r\n<p>\r\nRESULTS:<br>\r\n<u>Protocol A</u><br>\r\nResults for this portion of the experiment aren\u2019t available at this time.\r\n<p>\r\n<u>Protocol B</u><br>\r\nCrewmembers responded normally to ingestion of a meal preflight, showing an increase in the amplitude and power of the normal three gastric cycles per minute. An abnormal decrease in the dominant power occurred on Flight Day (FD) 1 for all subjects but the response returned to normal on FD3. Individual differences were observed and one crewmember actually showed a slight abnormal preflight response to the meal. All three crewmembers experienced moderate to severe loss of appetite on FD1 and two of them showed mild loss of appetite on FD3. When appetite returned and SMS symptoms resolved, the gastric responses after a meal returned to normal.</p>\r\n<p>Two nausea events were recorded by one crewmember and one vomiting event was recorded by another crewmember. Percent spectral power was assessed to determine the regularity of normal gastric slow waves. The percent of time that normal waves are recorded by the EGG and the percent of time that abnormal (faster or slower) waves are recorded is the percent spectral power. EGG data showed that in the first episode of nausea 60% of spectral power was associated with deviations in normal contraction cycles before nausea was reported. Forty percent of the power was associated with fewer contractions per minute and 20% was associated with higher contractions per minute. The percent of spectral power associated with these alterations of rhythmic contractions increased to approximately 75% for 15 minutes following the report of nausea, then decreased to about 45%, which was noted at 45 minutes following the nausea report.</p>\r\n<p>In the second report of nausea, the percent spectral power associated with altered stomach contractions was high (75-80%) throughout the entire period of EGG recording. The researchers speculated that the data indicated that this second report of nausea lasted longer than the first. Also of note was that the first nausea report data corresponded to slower gastric contractions two to three times more than faster ones throughout the entire recording period. In the second episode, data was associated with faster frequency contractions during the time following the nausea report. Other studies have shown that faster frequency contractions are associated with motion sickness as compared to slower frequency contractions.</p>\r\n<p>Similar to the nausea, the EGG data showed altered stomach contraction rhythms before and up to 30 minutes following the vomiting episode. For this entire time, 75 to 80% of the spectral power was associated with abnormal rhythms. Forty-five minutes after the report the gastric activity was normal. One interesting point is that this crewmember specifically stated that he had no symptoms prior to vomiting, which is a fairly common characteristic of SMS. For both nausea and the vomiting episodes, crewmembers had altered rhythmic gastric contractions at least 30 minutes prior to reporting the symptom.</p>\r\n<p>The abnormally fast neural myoelectric waves that are detected by EGG have been associated in other studies with decreased spontaneous movement of the stomach and the absence of stomach contractions. Findings in this study indicate that spontaneous stomach movement may be decreased during both mild and severe symptoms of SMS, which occur during the first few days of space flight. The perturbations of this movement may affect absorption of nutrients and oral medications for both astronauts and motion sickness victims on Earth. Since astronauts must treat several physiologic abnormalities that occur in space, it is important that drug absorption and bioavailability be preserved for pharmaceutical effectiveness. Also, crewmembers must maintain adequate nutrition for physically and mentally demanding work, much of which is critical to safety of the crew or the vehicle.</p>\r\n<p>This investigation utilized a noninvasive technique to successfully record human stomach myoelectric activity in space over a long period. Future work should involve confirmation of these findings and further characterization of the altered stomach rhythms in relation to the presence of nausea and vomiting, especially in regards to the precise timing of the EGG data and the subjective reports of the SMS symptoms. This technique could potentially be utilized for monitoring stomach muscle and nerve conditions as an early warning before SMS symptoms appear. It could also potentially assist flight surgeons in making decisions regarding medication administration and timing. However, in order to function in such a manner, the data would have to be available real-time or near real-time.",
+  "payload_id": "DSO60",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "indexed": "2026-08-23T04:12:55.909902+00:00",
+  "experiment_id": "DSO 201",
+  "experiment_related": [
+   "DSO 604"
+  ],
+  "GUID": "cl62azy5zcdi701o6fk569gmd",
+  "parameter_name": [
+   "Apparent target",
+   "Autonomic gastric functions",
+   "Data type",
+   "Eye position",
+   "Eye velocity",
+   "Gaze position",
+   "Gaze velocity",
+   "Head position",
+   "Head velocity",
+   "Motion perception",
+   "Oculomotor performance",
+   "Saccade width",
+   "Space motion sickness (SMS)",
+   "Spatial orientation",
+   "Target",
+   "Time",
+   "Trial number",
+   "Trial type",
+   "Vestibular function",
+   "Cycles per minute, nausea",
+   "Cycles per minute, vomiting",
+   "Minutes post-meal",
+   "Spectral power, nausea",
+   "Spectral power, post-meal",
+   "Spectral power, vomiting"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 1036,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Neuroscience"
+  ],
+  "pme_role_with_name": [
+   "Co-Investigator: Stern, Robert",
+   "Principal Investigator: Harm, Deborah",
+   "Principal Investigator: Reschke, Millard",
+   "Technical Assistant to Principal Investigator: Sandoz, Gwenn"
+  ],
+  "missions": [
+   [
+    [
+     "STS-60"
+    ]
+   ],
+   [
+    [
+     "STS-63"
+    ]
+   ],
+   [
+    [
+     "STS-71"
+    ]
+   ]
+  ],
+  "__dirid": "7313bb1f-37b8-5539-938c-b3a38b42422e",
+  "__record_size_wo_doccontent": 254765,
+  "PI": [
+   "Harm, Deborah",
+   "Reschke, Millard"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "DSO 201",
+   "DSO 201B",
+   "DSO 201A"
+  ],
+  "mission_id": [
+   [
+    [
+     "STS-60"
+    ]
+   ],
+   [
+    [
+     "STS-63"
+    ]
+   ],
+   [
+    [
+     "STS-71"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "proposal_date": [],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Harm, Deborah",
+   "Reschke, Millard"
+  ],
+  "archive_status": "Data preservation is complete. Privacy-protected datasets are available via data request. Remaining datasets are publicly available.",
+  "__is_locked": false,
+  "Program": "Shuttle Program",
+  "__source_field_concat": "PUB002042 DSO60 cl62azy5zcdi701o6fk569gmd Space motion sickness (SMS) N/A Joint U.S./Russian Investigations:  Sensory-Motor Investigations (SMI) DSO 201 Shuttle Program",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<br>\r\nDuring space flight, space motion sickness (SMS) and perceptual disturbances have led to reductions in performance efficiency and sense of well-being. During entry and immediately after landing, such disturbances could have a serious impact on the ability of the commander to land the Orbiter, as well as on the abilities of all crewmembers to egress from the Orbiter, particularly in a non-nominal condition or following extended stays in microgravity. An understanding of spatial orientation and motion perception is essential for developing countermeasures for SMS and perceptual disturbances during space flight and upon return to Earth. Countermeasures for optimal performance in-flight and a successful return to Earth require the development of preflight and in-flight training to help astronauts acquire and maintain a dual adaptive state. \r\n<P>\r\nThis study was intended to enhance the understanding of adaptation to space flight and readaptation after flight on various aspects of human spatial orientation, neurosensory, sensory-motor, physiological, and perceptual functions and on autonomic gastric functions associated with space motion sickness (SMS). This experiment correlated the postflight recovery of postural equilibrium control, head and gaze stability, readaptation changes in vestibular function, and examined the relationship between voluntary oculomotor performance and passive vestibulo-ocular responses following space flight.  Changes in stomach nerve response to food consumption over the first few days of flight were to be observed and analyzed, and evaluated when SMS symptoms occurred. The investigators were also interested in how nerve activity correlated with the symptoms before, during, and after their occurrence.</p> \r\n<p>\r\nAPPROACH:<br>\r\n<u>Protocol A</u><br>\r\n<i>Voluntary Head Movement (VHM)</i><br>\r\nStandard electro-oculography (EOG) techniques recorded horizontal and vertical eye position. A head mounted tri-axial rate sensor measured head velocity in the pitch, yaw and roll planes. The\r\nBOG and rate sensor signals were collected with the Superpocket physiological monitoring system and recorded on a TEAC cassette recorder. A goggle assembly controlled visual conditions via an electronic shutter, changing instantly from a clear state to an opaque state according to the experiment protocol. A cruciform target and four additional visual targets were mounted on the middeck locker for on-orbit data collection and on a screen during baseline data collection. A microcassette recorder delivered a sinusoidally-modulated audio tone during one portion of the VHM protocol. Tasks performed in-flight were tested pre- and postflight as well. Subjects were asked to report perceptual sensations associated with each stimulus.\r\n<p>\r\nVHM Inflight - Four of the six inflight experiments were designed to investigate voluntary oculomotor function. Two additional experiments were performed pre- and postflight only investigated this function. The protocols involved a combination of eye and/or head movements to acquire targets along a visual display. Calibrations of eye and head signals were performed. Each task was repeated three times in both the horizontal and vertical planes. The tasks are described below:<br>\r\n<LI>Head Calibration - the subject directed a head-mounted laser spot to the central target and moved their head to pre-selected targets in both the horizontal and vertical planes.<br>\r\n<LI>Eye Calibration - with head fixed, subject acquired a successive sequence of target positions in the horizontal and vertical planes, visually fixating on each target for two seconds.<br>\r\n<LI>Target Acquisition - a cruciform target arrangement, located 34 inches from the subject's eyes was used to display a series of targets in both the horizontal and vertical planes. Subjects acquired each target with both a head and eye movement.<br>\r\n<LI>Gaze Stabilization - the subject first visually fixated on a wall-fixed target with the head in a central position. When the goggles became opaque and vision was occluded the subject rotated the head while maintaining ocular fixation on the just-seen wall-fixed target. When the goggles became clear the subject refixated the target with the eyes only. The subject then rotated the head back to center, keeping eyes on the target.<br>\r\n<LI>Spontaneous/Gaze Nystagmus - was measured with the crewmember fixating on a wall target, and then imagining the same wall-fixed target with vision occluded, and then with the eyes closed. Gaze nystagmus, or the effect of a change in eye position was evaluated by having the crewmember fixate on imaginary 40 degree targets (vision occluded) in both the vertical and horizontal planes for 20 seconds per imaginary target. Measurement of eye movements continued for an additional 20 seconds when the eye position was returned to straight ahead gaze.<br>\r\n<LI>Sinusoidal Head Oscillations - <br>\r\nWith Vision: Subjects attempted to maintain visual fixation on a wall-fixed target while smoothly oscillating his/her head in yaw or pitch in cadence with an audio tone that is sinusoidally modulated to sweep over the bandwidth of interest (chirp).<br>\r\nWithout Vision: Subject repeated the chirp with vision occluded while attempting to maintain ocular fixation on the remembered location of the target. The subject repeated this entire procedure in each plane for each condition.<br>\r\n<p>\r\nVHM Pre/Postflight<br>\r\n<LI>Non-Predictable Target Tracking - for these trials, the target was initially stationary in the center of the field of view. At an unpredictable time, the target began to move at constant velocity, either rightward, leftward, upward, or downward.  The onset time of target motion, direction of motion, target velocity, and final target displacement was randomized.<br>\r\nPredictable Target Tracking - the target oscillated at 0.3 Hz. For each trial, tracking was performed for at least six cycles.<br>\r\n<LI>Positional Nystagmus - spontaneous eye movements were collected with the crewmember in seven different static positions:<br>\r\n1. Seated upright<br>\r\n2. Supine<br>\r\n3. Supine with head turned to the right<br>\r\n4. Supine with head turned to the left<br>\r\n5. Supine with head and neck extended over the edge of the examination table (head and\r\nneck will be supported by test operator)<br>\r\n6. Body and head turned to the right side<br>\r\n7. Body and head turned to the left side<br>\r\n<p>\r\n<i>Optokinetic Nystagmus (OKN)</i><br>\r\nA binocular Optokinetic Stimulator provided a full visual field optokinetic stimulus during the OKN protocol. Standard electro-oculography (EOG) techniques recorded horizontal and vertical eye position. The EOG signals were collected with the Superpocket physiological monitoring system and recorded on a TEAC cassette recorder. Tasks performed inflight were tested pre and\r\npostflight as well. Subjects were asked to report perceptual sensations associated with each stimulus.\r\n<p>\r\n<i>Postural Equilibrium (pre/postflight)</i><br>\r\nMeasurements pertaining to postural equilibrium were collected using standard electromyography\r\n(EMG) techniques on the upper thigh and lower calf segments of the subject's left leg, sway-bars situated at the shoulders and hips, and force transducers situated in the foot plate of the posture platform. In addition, overhead and full field video was recorded through the entire test session. The subject's primary task was to maintain a normal upright stance.\r\n<p>\r\n<i>Head and Gaze Stability During Locomotion (pre/postflight)</i><br>\r\nWhole body movement during locomotion on a treadmill and during a jump task was videotaped and the locations of retroreflective markers placed on specific locations on the body were analyzed with the aid of a computerized motion analysis system. In addition, eye movement and leg muscle activity during these tasks were recorded using standard electro-oculography (EOG) and electromyography (EMG), respectively.\r\n<p>\r\n<i>Path Integration ((pre/postflight)</i><br>\r\nTo examine the cognitive processing of spatial orientation information, whole body movement\r\nduring locomotion along a previously memorized path (parallelogram or square) were videotaped and the locations of retroreflective markers placed on specific locations on the body were analyzed with the aid of a computerized motion analysis system.\r\n<p>\r\n<u>Protocol B</u><br>\r\nThis experiment marked the first attempt to obtain measurements of the stomach muscle activity in humans during space flight. In this study, myoelectric activity of the stomach was examined following a meal. Gastric activity associated with space motion sickness was measured using EGG in which electrical impulses associated with stomach secretion and movements were recorded. To perform this EGG, three electrodes were situated on the abdomen.</p>\r\n<p>Each subject participated in two preflight training sessions which occurred at 12 months prior to launch (L-12) and at 10 months prior to launch (L-10). To compare subject inflight EGG data that were associated with eating to eating under normal ground conditions, there were two baseline data collection sessions. These sessions occurred after both preflight training sessions. During one baseline data collection session, subjects were given fluids and during the other session, they were given a small meal. Subjects fasted for 6.5 hours before a data collection session. When the small meal was consumed, data collection began 20 minutes before the 5 to 10-minute meal and continued for three hours following the meal. To ensure proper and consistent placement of EGG electrodes on the abdomen inflight, a permanent marker was used to mark the correct locations after a meal had been consumed within eight days prior to flight.</p>\r\n<p>The EGG data were collected using a portable recording instrument designed for space flight. The electrodes amplified the signal at its source and the main part of the recording instrument amplified it further. A one Mb RAM card held twenty-four hours of data. The hardware was lightweight and worn on a belt. It was capable of registering input from the crewmember regarding food or water consumption and SMS symptoms. There were five events that were coded by number: eating, drinking, stomach awareness/discomfort, nausea and vomiting. When a crewmember experienced one of these events, he pressed the event marker with the correct code number and the event with its corresponding Mission Elapsed Time (MET) was recorded. Insertion of event markers did not disrupt data collection or logging.</p>\r\n<p>The EGG equipment was donned as early as possible in the flight. Continuous data collection occurred for at least the first three flight days. The electrodes, RAM card and battery were replaced every 24 hours.\r\n<p>\r\nRESULTS:<br>\r\n<u>Protocol A</u><br>\r\nResults for this portion of the experiment aren\u2019t available at this time.\r\n<p>\r\n<u>Protocol B</u><br>\r\nCrewmembers responded normally to ingestion of a meal preflight, showing an increase in the amplitude and power of the normal three gastric cycles per minute. An abnormal decrease in the dominant power occurred on Flight Day (FD) 1 for all subjects but the response returned to normal on FD3. Individual differences were observed and one crewmember actually showed a slight abnormal preflight response to the meal. All three crewmembers experienced moderate to severe loss of appetite on FD1 and two of them showed mild loss of appetite on FD3. When appetite returned and SMS symptoms resolved, the gastric responses after a meal returned to normal.</p>\r\n<p>Two nausea events were recorded by one crewmember and one vomiting event was recorded by another crewmember. Percent spectral power was assessed to determine the regularity of normal gastric slow waves. The percent of time that normal waves are recorded by the EGG and the percent of time that abnormal (faster or slower) waves are recorded is the percent spectral power. EGG data showed that in the first episode of nausea 60% of spectral power was associated with deviations in normal contraction cycles before nausea was reported. Forty percent of the power was associated with fewer contractions per minute and 20% was associated with higher contractions per minute. The percent of spectral power associated with these alterations of rhythmic contractions increased to approximately 75% for 15 minutes following the report of nausea, then decreased to about 45%, which was noted at 45 minutes following the nausea report.</p>\r\n<p>In the second report of nausea, the percent spectral power associated with altered stomach contractions was high (75-80%) throughout the entire period of EGG recording. The researchers speculated that the data indicated that this second report of nausea lasted longer than the first. Also of note was that the first nausea report data corresponded to slower gastric contractions two to three times more than faster ones throughout the entire recording period. In the second episode, data was associated with faster frequency contractions during the time following the nausea report. Other studies have shown that faster frequency contractions are associated with motion sickness as compared to slower frequency contractions.</p>\r\n<p>Similar to the nausea, the EGG data showed altered stomach contraction rhythms before and up to 30 minutes following the vomiting episode. For this entire time, 75 to 80% of the spectral power was associated with abnormal rhythms. Forty-five minutes after the report the gastric activity was normal. One interesting point is that this crewmember specifically stated that he had no symptoms prior to vomiting, which is a fairly common characteristic of SMS. For both nausea and the vomiting episodes, crewmembers had altered rhythmic gastric contractions at least 30 minutes prior to reporting the symptom.</p>\r\n<p>The abnormally fast neural myoelectric waves that are detected by EGG have been associated in other studies with decreased spontaneous movement of the stomach and the absence of stomach contractions. Findings in this study indicate that spontaneous stomach movement may be decreased during both mild and severe symptoms of SMS, which occur during the first few days of space flight. The perturbations of this movement may affect absorption of nutrients and oral medications for both astronauts and motion sickness victims on Earth. Since astronauts must treat several physiologic abnormalities that occur in space, it is important that drug absorption and bioavailability be preserved for pharmaceutical effectiveness. Also, crewmembers must maintain adequate nutrition for physically and mentally demanding work, much of which is critical to safety of the crew or the vehicle.</p>\r\n<p>This investigation utilized a noninvasive technique to successfully record human stomach myoelectric activity in space over a long period. Future work should involve confirmation of these findings and further characterization of the altered stomach rhythms in relation to the presence of nausea and vomiting, especially in regards to the precise timing of the EGG data and the subjective reports of the SMS symptoms. This technique could potentially be utilized for monitoring stomach muscle and nerve conditions as an early warning before SMS symptoms appear. It could also potentially assist flight surgeons in making decisions regarding medication administration and timing. However, in order to function in such a manner, the data would have to be available real-time or near real-time.",
+  "__doi": "10.83263/a9f7-tb53",
+  "__doi_record_creation_date": "2026-08-23T04:12:55",
+  "__doi_record_modified_date": "2026-08-23T04:12:55"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000278",
+   "label": "DSO 201__1910201219",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Average Change in Postprandial Spectral Power",
+    "dataset_catalog": "DSO 201__1910201219",
+    "dataset_description": [
+     "This graph depicts the change in spectral power of the normal 3 cycles per minute gastric slow wave as measured by EGG following a meal for individual astronauts, which have been coded A1, A2 or A3.  The figure shows responses for 15 minutes and 30 minutes following the meal.  Astronaut 2 showed an abnormal decrease in power following a meal preflight.  On FD1 all three crewmembers showed an abnormal decrease in power 15 minutes after the meal with two of them continuing to show the abnormal respnse 30 minutes after the meal.  On FD 3 all crewmembers showed a normal increase in power at 15 minutes and 30 minutes following a meal. <p>\r\nSource: Harm DL, Sandoz GR, Stern RM.  Changes in Gastric Myoelectric Activity During Space Flight.  <I>Digestive Diseases and Sciences.</I>  2002 Aug; 47(8):1737-1745."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 201"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "1660cf67-44dc-546d-a7c8-1b263edb0d03",
+     "label": "DSO_201__1910201219.tif_STS-60_DSO_201_2012_192_010703.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002428",
+   "label": "DSO 201__1920239996",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Running Spectra of the EGG for the Vomiting Episode",
+    "dataset_catalog": "DSO 201__1920239996",
+    "dataset_description": [
+     "The running spectra of the EGG for one of the vomiting episodes for 30 minutes before and 30 minutes following the report of vomiting is shown.  The minutes before vomiting are shown as negative values and the minutes following the vomiting are positive values.  Each segment of the spectra overlaps the previous one by 75%, resulting in 51.2 seconds of new data in each segment.  The spectra associated with the period of time before vomiting was reported is shown in dark gray and the spectra associated with the period of time after the vomiting was reported is shown in light gray.  \r\n<P>\r\nHigh amplitude and severe dysrhythmic activity can be observed before the vomiting occurred.  The spectral power can be seen equally distributed across the two abnormal rhythms of bradygastria, the slower waves, and tachygastria, the faster waves.  After the vomiting episode, a decrease in the EGG amplitude across all frequencies can be observed.  At approximately 20 minutes after vomiting, a recovery of the normal 3 cpm gastric slow wave can be seen.   <p>\r\nSource: Harm DL, Sandoz GR, Stern RM.  Changes in Gastric Myoelectric Activity During Space Flight.  <I>Digestive Diseases and Sciences.</I>  2002 Aug; 47(8):1737-1745."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 201"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "b1875f10-c956-51d4-ada7-b55ac744554d",
+     "label": "DSO_201__1920239996.tif_STS-60_DSO_201_2012_192_020727.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000490",
+   "label": "DSO 201__1910144945",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Average Change in Spectral Power",
+    "dataset_catalog": "DSO 201__1910144945",
+    "dataset_description": [
+     "This graph depicts the average change in the spectral power following a meal of the normal (3cpm) gastric slow wave is shown for the three astronauts.  This change is the difference in power before and after eating and is shown for 15 minutes and 30 minutes following the meal.  This figure shows a normal increase in power after a meal preflight with an increase in the amplitude and power of the normal slow wave.  An abnormal decrease was seen on flight day 1 with a return to a normal response by flight day 3.  \r\n<p>\r\nSource: Harm DL, Sandoz GR, Stern RM.  Changes in Gastric Myoelectric Activity During Space Flight.  <I>Digestive Diseases and Sciences.</I>  2002 Aug; 47(8):1737-1745."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 201"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "1d4334e9-7e0f-5397-b5c4-9c7e1ae55fb9",
+     "label": "DSO_201__1910144945.tif_STS-60_DSO_201_2012_192_010720.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000220",
+   "label": "DSO 201__192015848",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Percent Distribution of Spectral Power",
+    "dataset_catalog": "DSO 201__192015848",
+    "dataset_description": [
+     "This graph depicts the percent distribution of spectral power for the three EGG frequency ranges of the gastric myoelectric activity.  These three frequency ranges are bradygastria, which is 0.9 to 2.04 cycles per minute (cpm), tachygastria, which is 4.08 to 9.6 cpm and normogastria, which is 2.34 to 3.78 cpm.  These three ranges are distinguished in the bars by differing shades of gray.  The first two bar graphs show this information for two nausea events experienced by the same crewmember.  The percent spectral power relating to 30 minutes and 15 minutes before nausea and 15 minutes, 30 minutes and 45 minutes after nausea are shown.  The third bar graph shows the percent spectral power for the vomiting event of another crewmember.  Again, 30 minutes and 15 minutes before vomiting and 15 minutes, 30 minutes and 45 minutes after vomiting are shown in the figure.  \r\n<P>\r\nIn the first episode of nausea, approximately 60% of the spectral power was associated with abnormal gastric rhythms before nausea was reported.  Following the nausea report, the abnormal rhythms increased to approximately 75% of the spectral power then gradually decreased to approximately 45% at 45 minutes following the report.  \r\n<P>  \r\nThe second episode of nausea gave a percent spectral power associated with abnormal rhythms that was 75 to 80% throughout the recording time of 30 minutes before nausea to 45 minutes after nausea.  In this second nausea event, a higher percent spectral power was associated with the faster waves of tachygastria duing the time following the report, whereas in the first nausea event, the percent spectral power associated with the slower waves of bradygastria was two to three times greater than that of tachygastria.  \r\n<P>\r\nFor the vomiting episode, 75 to 80% of the spectral power was observed with abnormal gastric rhythms before and up to 30 minutes following the episode.  The gastric myoelectric activity returned to normal by 45 minutes after the report with approximately 70% of the power in the normal gastric slow wave frequency range. <p>\r\nSource: Harm DL, Sandoz GR, Stern RM.  Changes in Gastric Myoelectric Activity During Space Flight.  <I>Digestive Diseases and Sciences.</I>  2002 Aug; 47(8):1737-1745."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 201"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "03911dda-7d81-5abe-bedd-b010dec90828",
+     "label": "DSO_201__192015848.tif_STS-60_DSO_201_2012_192_020706.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000921",
+   "label": "DSO 201__1920232400",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Running Spectra of the EGG for One of the Nausea Episodes",
+    "dataset_catalog": "DSO 201__1920232400",
+    "dataset_description": [
+     "The running spectra of the EGG for one of the nausea episodes for 30 minutes before and 30 minutes following the report of nausea is shown.  The minutes before nausea are shown as negative values and the minutes following the nausea are positive values.  Each segment of the spectra overlaps the previous one by 75%, resulting in 51.2 seconds of new data in each segment.  The spectra associated with the period of time before nausea was reported is shown in dark gray and the spectra associated with the period of time after the nausea was reported is shown in light gray.  \r\n<P>\r\nAbnormal rhythms dominated by the slower waves of bradygastria are seen prior to the nausea report.  After the report, the faster waves of tachygastria are observed as the primary abnormal rhythm.  Increased tachygastria during nausea has also been shown by EGG during motion sickness on Earth. <p>\r\nSource: Harm DL, Sandoz GR, Stern RM.  Changes in Gastric Myoelectric Activity During Space Flight.  <I>Digestive Diseases and Sciences.</I>  2002 Aug; 47(8):1737-1745."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 201"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "4e87a1b6-41ff-5101-9e24-8d2ba1bc14e8",
+     "label": "DSO_201__1920232400.tif_STS-60_DSO_201_2012_192_020733.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001538",
+   "label": "DSO 201__2130945575",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Data Collection Timetables for Experiment DSO 201",
+    "dataset_catalog": "DSO 201__2130945575",
+    "dataset_description": [
+     "This spreadsheet represents the data collection timetables for data collection session(s) for this experiment. Information included in this spreadsheet may include information on the test protocol, data collection constraints, parameters measured, hardware used, scheduled versus actual days of data collection, and subject information."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 201"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "32aae338-540f-57f9-a911-9609552e8c05",
+     "label": "DSO_201__2130945575.xlsx_STS-60_DSO_201_2012_213_090747.xlsx",
+     "type": "file",
+     "ext": "xlsx",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002355",
+   "label": "DSO 201__2130914698",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Data Collection Timetables for Experiment DSO 201",
+    "dataset_catalog": "DSO 201__2130914698",
+    "dataset_description": [
+     "This spreadsheet represents the data collection timetables for data collection session(s) for this experiment. Information included in this spreadsheet may include information on the test protocol, data collection constraints, parameters measured, hardware used, scheduled versus actual days of data collection, and subject information."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 201"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "b601e6a9-2cc8-5d14-9500-fd5bc58210ad",
+     "label": "DSO_201__2130914698.xlsx_STS-60_DSO_201_2012_213_090749.xlsx",
+     "type": "file",
+     "ext": "xlsx",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

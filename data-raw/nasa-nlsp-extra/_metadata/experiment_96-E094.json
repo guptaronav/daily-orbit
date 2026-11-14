@@ -1,0 +1,974 @@
+{
+ "record": {
+  "id": "60aae58f-0649-5986-9133-9cadd255c774",
+  "_id": "60aae58f-0649-5986-9133-9cadd255c774",
+  "experiment_title": "Dosimetric Mapping",
+  "archive_status_index": 1,
+  "pub_document_number": "PUB001222",
+  "experiment_alias": [
+   "E094",
+   "DOSMAP"
+  ],
+  "parameter_html": "<table><tr><td>Energy</td></tr><tr><td>Particle count</td></tr><tr><td>Quality factor</td></tr><tr><td>Track density</td></tr><tr><td>Radiation dose equivalent</td></tr><tr><td>Radiation dose</td></tr><tr><td>Linear energy transfer</td></tr><tr></tr></table>",
+  "__source_key": "cl62axue2cd0l01o6hqql3cyi",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Reitz, Guenther\">Principal Investigator: Reitz, Guenther</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Beaujean, Rudolf\">Co-Investigator: Beaujean, Rudolf</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Dachev, Tsvetan\">Co-Investigator: Dachev, Tsvetan</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Deme, Sandor\">Co-Investigator: Deme, Sandor</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Heinrich, Wolfgang\">Co-Investigator: Heinrich, Wolfgang</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Luszik- Bhadra , Marlies\">Co-Investigator: Luszik- Bhadra , Marlies</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Olko, Pavel\">Co-Investigator: Olko, Pavel</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Weiss, Daniel\">Co-Investigator: Weiss, Daniel</a>",
+  "image_name": [
+   "Control and Interface Unit (CIU) Component of Mobile Dosimetry Unit (MDU) System",
+   "Dosimetric Mapping (DOSMAP) Nuclear Track Detector Package (NTDP)",
+   "Dosimetry Telescope (DOSTEL)",
+   "Expedition 2 Radiation Suite Deployed",
+   "Expedition 2 Radiation Suite Diagram",
+   "Mobile Dosimetry Unit (MDU) and Thermoluminescent Detector (TLD)",
+   "Power Distribution Unit (PDU)",
+   "Thermoluminescence Detector (TLD)"
+  ],
+  "experiment_type_lk": [
+   "International Space Station (ISS)"
+  ],
+  "__record_modified_date": "2026-08-23T04:10:23.321777+00:00",
+  "__indexed": "2026-08-23T04:10:23.321777+00:00",
+  "alias": [
+   "E094",
+   "DOSMAP"
+  ],
+  "__record_creation_date": "2022-07-28T19:53:25.975Z",
+  "keyword": [
+   "Heavy ions",
+   "Linear energy transfer (LET)",
+   "Radiation protection",
+   "Thermoluminescent dosimetry",
+   "Neutrons",
+   "Solar activity",
+   "Radiation dosage",
+   "Cosmic radiation",
+   "Radiation monitoring"
+  ],
+  "keyword_name": "Radiation monitoring",
+  "__record_size": 205240,
+  "__record_version": 29,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<br>\r\nRadiation constitutes one of the most important hazards for humans in long-duration space missions.  Leaving the earth's surface, humans are exposed to a wide spectrum of particles and energies of galactic and solar origin. The intensity, energy, and elemental composition of the radiation field changes considerably with orbital parameters, shielding thickness and solar activity.  Results from numerous space probes demonstrate heightened radiation levels compared to the earth's surface and a change in the nature of the radiation field, particularly the heavy ion component.\r\n<p>\r\nAlthough considerable data has been accumulated from several spaceflights, it is not yet possible to provide a quantitative description of the radiation field, especially at the edge of the radiation belt, because of its highly complex composition regarding the particles present and their energy spectra.  Data comparison is hampered by uncertain angular distribution of the single radiation components, by missing knowledge on the angular response of instruments and missing information about shielding distributions at the instrument locations.  Current models either under- or overestimate the contribution of different radiation components.\r\n<p>\r\nDue to the variety of particles and energies present in Low Earth Orbit (LEO), no single detector system is capable of providing sufficient information.  Therefore, the DOSMAP (Dosimetric Mapping) dosimetry package consisted of several types of detectors to allow for measurement of different particle types and energies. The DOSMAP dosimetry package was further supplemented with instruments contributed by NASA (Phantom Torso) and NASDA (Bonner Ball). The different systems allowed for the first time inflight cross-calibration of measurements at the same shielding configurations. This is absolute necessary when recognizing that the comparison of currently available data is often not possible due to not well known angular response of the detector systems combined with unknown angular incidence of radiations and only approximate knowledge of shielding distributions. \r\n<p>\r\nAPPROACH:<br>\r\nSeveral components of the DOSMAP dosimetry package (dosimetry telescopes [DOSTELS], computer interface unit [CIU], and the thermoluminescent dosimeter [TLD] reader and bulbs) were brought to the International Space Station (ISS) aboard A Shuttle flight.  These components were unstowed and set-up in the Retention Net of the Human Research Facility (HRF).  Another shuttle brought the remaining DOSMAP hardware (mobile dosimetry units [MDUs] and nuclear track detector packages [NTDP] to the ISS. The MDUs were charged, and an initial read-out was performed for the MDUs and the TLD bulbs prior to their installation throughout the U.S. Lab and Node 1. The NTDPs were also placed at the required locations. All placements were photo documented.\r\n<p>\r\nData collected from the TLD bulbs by the TLD Reader were downloaded to the HRF PC every 7-10 days, and data collected from the MDUs were downloaded through the CIU to the HRF PC every 5 days.  During the same time intervals the MDUs were recharged.  The DOSTELs were activated and data downloads to the HRF PC were performed every 10 days. All data of the active instruments were downlinked during the mission. All of the dosimetry hardware was returned to Earth on A shuttle flight. \r\n<p>\r\nRESULTS:<br>\r\nAll data received by the investigators was of good quality. Several hardware issues resulted in small amounts of data loss.  Due to the retirement of Prof. W. Heinrich the evaluation of the CR39 NTDP detectors by the group of the University of Siegen could not be completed.  The science return may be roughly quoted at about 95%. \r\n<p>\r\nTLD Results:\r\n<p>\r\nBased on the characterization of the different detector systems, the following can be concluded.  The data for all the different applied TLD systems agree very well taking into account the different Linear Energy Transfer (LET) efficiency of the detector types used as well as the different neutron sensitivity of 6Li doped and 7Li doped TLD materials.  The higher dose values for TLD600 and TLD700 dosimeters are due to the higher LET efficiency of these dosimeter materials compared to Cu, P doped LiF crystals. \r\n<p>\r\nNeutron Dose Results:\r\n<p>\r\nThe determination of neutron dose equivalent using chiefly recoil protons can give too high of a dose value depending on the amount of primary protons contributing to the signal.  For this reason, two methods of neutron dose equivalent determination were used.  However, both methods still have their limitations and uncertainties.  On the other hand, the neutron dose values determined by the two different methods are almost comparable within the standard deviations determined by uncertainty propagation, which indicates that the assumptions made are not too wrong.\r\n<p>\r\nMeasurements with converters with even higher sensitivity to thermal neutrons may improve the standard deviation and better spectral knowledge of the neutron spectra in space may improve the uncertainty of the calibration factor for Albedo dosimeters. \r\n<p>\r\nPassive Dosimetry System (PDS) Results:\r\n<p>\r\nThe use of the Pille reader in automatic mode permitted dose to be measured as a function of orbit number by TLD A0101. Orbits that passed through the SAA received doses of 30 to >50 \u00b5Gy/orbit.  During these particular orbits, the spacecraft received a substantially larger exposure to trapped protons than during orbits that did not pass through the SAA.  For orbits that did not traverse the SAA, the absorbed dose was ~10 \u00b5Gy/orbit.  All orbits that passed through the SAA do not receive the same dose because each orbit passed through only a fraction of the SAA and the size of this fraction changed as the ISS orbit precessed around the Earth.  Generally, the ISS passed through the SAA twice during each twenty-four hour period.\r\n<p>\r\nFollowing exposure and return to the laboratory, each PDS detector was disassembled and the individual CR-39 PNTD layers were selected for chemical processing (etching).  The combined LET spectrum for the x-, y- and z-oriented short-etch CR-39 PNTDs was generated following readout of the 3 detectors. Similarly, the combined LET spectrum was generated for the x-, y- and z-oriented long-etch detectors.  There is fairly close agreement between the three mutually orthogonal spectra measured in the long-etch detectors.  Similarly, for LET <100 keV/\u00b5m, there is fairly close agreement between the 3 mutually orthogonal detectors measured in the short-etch detectors.  Only above 100 keV/\u00b5m is there a difference in the 3 spectra, where the curve measured in the short-etch x-oriented detector lies significantly above those measured in the short-etch y and z detectors.  This is likely due to greater shielding in the x direction relative to the other two directions.\r\n<p>\r\nThe relative contribution to the LET spectrum from neutron- and proton-induced target fragments tend to increase with increasing LET.  The reduced efficiency with which tracks are detected in the short-etch detectors below ~30 keV/\u00b5m is apparent, as is the increased signal due to target fragmentation in the LET region above 100 keV/\u00b5m in the short-etch detectors.  There is fairly close agreement between the detectors for the 2 etch regimes in the LET interval between 30 and 100 keV/\u00b5m.  The crossover point of the short-etch and long-etch spectra, 35 keV/\u00b5m for PDS A0103, was located in the plot differential LET fluence spectra and used in combining the short-etch and long-etch curves into one total LET spectrum.\r\n<p>\r\nDuring the DOSMAP experiment, mean total dose rate measured in the PDS dosimeters ranged from 6.88 \u00b1 0.42 \u00b5Gy/hr in Node 1, above the forward hatch leading to the FGB module, to 10.36 \u00b1 0.54 \u00b5Gy/hr above the aft hatch of Node 1.  The mean total dose equivalent rate varied from 14.06 \u00b1 0.93 \u00b5Sv/hr to 18.81 \u00b1 1.11 \u00b5Sv/hr at these same respective locations.  The average quality factor varied from 1.82 \u00b1 0.13 above the aft hatch of Node 1 to 2.11 \u00b1 0.16 on the starboard side of the US Lab near the aft hatch. \r\n<p>\r\nDOSTEL Results:\r\n<p>\r\nBy chance a significant solar particle event occurred during the active phase of DOSTEL on April 15, 2001. Thanks to the action of the crew, DOSTEL 1 was switched into a special mode while DOSTEL 2 remained in the mode for article and dose rate measurement.  In the special mode, the 2 detector signals of DOSTEL 1 were stored for each individual particle.  Stopping protons impinging from the top and bottom of the telescope were clearly seen, along with some stopping He-particles that were also identified.  A plot of dose rates during the mission clearly shows the dependence of dose rates from the altitude, which ranged from 404 km to 386 km.  Based on the mean quality factor derived from the LET spectra by applying the LET dependence of the quality factor as defined in ICRP Report No. 60 equivalent doses can be calculated. \r\n<p>\r\nMobile Dosimetry Unit (MDU) Results:\r\n<p>\r\nApproximately 4.5 MB of rough compressed information was received by each MDU.  After decompression, the volume of data increases by an approximate factor of 30. The values of the mean doses per day was 180.7, 189.9, 166.1, 126.3 \u00b5Gy/day in MDU#1 to MDU#4, respectively. When graphed these doses lie on the AP8MAX prediction line.\r\n<p>\r\nComparison of fluxes by 4 different MDUs shows that large differences are produced by the differences in the position of MDU and shielding distributions for them.  In the time span 27 June-4 July 2001 four MDUs were placed at fixed locations: one unit (MDU#4) in the ISS \"Unity\" Node-1 and three (MDU #1-3) units were located at different locations in the US Laboratory module.\r\n<p>\r\nMDU #2 results showed that the spectra inside the ISS has a maximum energy of 300 MeV and that the place of the maximum of the spectra moves from about 100 MeV at low L values toward 50-60 MeV at higher L values. The agreement of the data received by active and passive detectors is in the range of \u00b110%.  Comparisons of the passive devices yield even a smaller range, when corrected by the efficiency function of the different materials.  Dose equivalents were calculated from the measurements using the quality factor (Q) as defined in ICRP Report No. 60. \r\n<p>\r\nConclusion:\r\n<p>\r\nIn comparison to other spaceflight missions, the lower dose equivalents seen for ISS are due to less solar activity during the measurement period and due to higher shielding of the ISS.  The dose equivalents received by the combination of nuclear track detectors with TLDs show values close to the DOSTEL dose equivalents.  The error in the determination of the dose equivalent from passive detectors is about 6%. The combined CR39 NTDP/TLD dose equivalent appears too low compared to the DOSTEL dose equivalents.  Since the low let measurements of the TLDs are in good agreement with DOSTEL and the CR39 NTDP LET spectra as well, further investigations are needed to close this gap of knowledge.  Adding the neutron dose from the personal dosimeter would increase the dose equivalent measurements by about 33 \u00b5Sv/day.\r\n<p>\r\nThe DOSMAP experiment was the first effort to map dose and dose equivalent as function of the location in the US lab and in Node 1 of the ISS.  Having a fully developed 3-D ray tracing model the obtained data can be used to validate the Model.  A quite impressive set of data has been produced by the \"Dosimetric Mapping\" experiment from which only a part could be presented in this summary.  Since the radiation field is both complex and dynamic, measurements across the ISS need to be continued in future missions to study the radiation field and its modification by mass shielding, leading to attenuation, build up and/or activation.  There is a continuous need for information on absorbed dose, particle and linear energy transfer spectra in real time.",
+  "payload_id": "HRF2",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "96-E094",
+  "indexed": "2026-08-23T04:10:23.321777+00:00",
+  "GUID": "cl62axue2cd0l01o6hqql3cyi",
+  "parameter_name": [
+   "Energy",
+   "Particle count",
+   "Quality factor",
+   "Track density",
+   "Radiation dose equivalent",
+   "Radiation dose",
+   "Linear energy transfer"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 900,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Radiation biology"
+  ],
+  "pme_role_with_name": [
+   "Co-Investigator: Beaujean, Rudolf",
+   "Co-Investigator: Dachev, Tsvetan",
+   "Co-Investigator: Deme, Sandor",
+   "Co-Investigator: Heinrich, Wolfgang",
+   "Co-Investigator: Luszik- Bhadra , Marlies",
+   "Co-Investigator: Olko, Pavel",
+   "Co-Investigator: Weiss, Daniel",
+   "Principal Investigator: Reitz, Guenther"
+  ],
+  "missions": [
+   [
+    [
+     "Expedition 2"
+    ]
+   ]
+  ],
+  "__dirid": "60aae58f-0649-5986-9133-9cadd255c774",
+  "__record_size_wo_doccontent": 205240,
+  "PI": [
+   "Reitz, Guenther"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "96-E094",
+   "E094",
+   "DOSMAP"
+  ],
+  "mission_id": [
+   [
+    [
+     "Expedition 2"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "proposal_date": [],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Reitz, Guenther"
+  ],
+  "program_name": [
+   "International Space Station (ISS)"
+  ],
+  "archive_status": "Data preservation is complete. All datasets are publicly available.",
+  "__is_locked": false,
+  "Program": "International Space Station (ISS)",
+  "__source_field_concat": "PUB001222 HRF2 cl62axue2cd0l01o6hqql3cyi Radiation monitoring N/A Dosimetric Mapping 96-E094 International Space Station (ISS) Data preservation is complete. All datasets are publicly available.",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<br>\r\nRadiation constitutes one of the most important hazards for humans in long-duration space missions.  Leaving the earth's surface, humans are exposed to a wide spectrum of particles and energies of galactic and solar origin. The intensity, energy, and elemental composition of the radiation field changes considerably with orbital parameters, shielding thickness and solar activity.  Results from numerous space probes demonstrate heightened radiation levels compared to the earth's surface and a change in the nature of the radiation field, particularly the heavy ion component.\r\n<p>\r\nAlthough considerable data has been accumulated from several spaceflights, it is not yet possible to provide a quantitative description of the radiation field, especially at the edge of the radiation belt, because of its highly complex composition regarding the particles present and their energy spectra.  Data comparison is hampered by uncertain angular distribution of the single radiation components, by missing knowledge on the angular response of instruments and missing information about shielding distributions at the instrument locations.  Current models either under- or overestimate the contribution of different radiation components.\r\n<p>\r\nDue to the variety of particles and energies present in Low Earth Orbit (LEO), no single detector system is capable of providing sufficient information.  Therefore, the DOSMAP (Dosimetric Mapping) dosimetry package consisted of several types of detectors to allow for measurement of different particle types and energies. The DOSMAP dosimetry package was further supplemented with instruments contributed by NASA (Phantom Torso) and NASDA (Bonner Ball). The different systems allowed for the first time inflight cross-calibration of measurements at the same shielding configurations. This is absolute necessary when recognizing that the comparison of currently available data is often not possible due to not well known angular response of the detector systems combined with unknown angular incidence of radiations and only approximate knowledge of shielding distributions. \r\n<p>\r\nAPPROACH:<br>\r\nSeveral components of the DOSMAP dosimetry package (dosimetry telescopes [DOSTELS], computer interface unit [CIU], and the thermoluminescent dosimeter [TLD] reader and bulbs) were brought to the International Space Station (ISS) aboard A Shuttle flight.  These components were unstowed and set-up in the Retention Net of the Human Research Facility (HRF).  Another shuttle brought the remaining DOSMAP hardware (mobile dosimetry units [MDUs] and nuclear track detector packages [NTDP] to the ISS. The MDUs were charged, and an initial read-out was performed for the MDUs and the TLD bulbs prior to their installation throughout the U.S. Lab and Node 1. The NTDPs were also placed at the required locations. All placements were photo documented.\r\n<p>\r\nData collected from the TLD bulbs by the TLD Reader were downloaded to the HRF PC every 7-10 days, and data collected from the MDUs were downloaded through the CIU to the HRF PC every 5 days.  During the same time intervals the MDUs were recharged.  The DOSTELs were activated and data downloads to the HRF PC were performed every 10 days. All data of the active instruments were downlinked during the mission. All of the dosimetry hardware was returned to Earth on A shuttle flight. \r\n<p>\r\nRESULTS:<br>\r\nAll data received by the investigators was of good quality. Several hardware issues resulted in small amounts of data loss.  Due to the retirement of Prof. W. Heinrich the evaluation of the CR39 NTDP detectors by the group of the University of Siegen could not be completed.  The science return may be roughly quoted at about 95%. \r\n<p>\r\nTLD Results:\r\n<p>\r\nBased on the characterization of the different detector systems, the following can be concluded.  The data for all the different applied TLD systems agree very well taking into account the different Linear Energy Transfer (LET) efficiency of the detector types used as well as the different neutron sensitivity of 6Li doped and 7Li doped TLD materials.  The higher dose values for TLD600 and TLD700 dosimeters are due to the higher LET efficiency of these dosimeter materials compared to Cu, P doped LiF crystals. \r\n<p>\r\nNeutron Dose Results:\r\n<p>\r\nThe determination of neutron dose equivalent using chiefly recoil protons can give too high of a dose value depending on the amount of primary protons contributing to the signal.  For this reason, two methods of neutron dose equivalent determination were used.  However, both methods still have their limitations and uncertainties.  On the other hand, the neutron dose values determined by the two different methods are almost comparable within the standard deviations determined by uncertainty propagation, which indicates that the assumptions made are not too wrong.\r\n<p>\r\nMeasurements with converters with even higher sensitivity to thermal neutrons may improve the standard deviation and better spectral knowledge of the neutron spectra in space may improve the uncertainty of the calibration factor for Albedo dosimeters. \r\n<p>\r\nPassive Dosimetry System (PDS) Results:\r\n<p>\r\nThe use of the Pille reader in automatic mode permitted dose to be measured as a function of orbit number by TLD A0101. Orbits that passed through the SAA received doses of 30 to >50 \u00b5Gy/orbit.  During these particular orbits, the spacecraft received a substantially larger exposure to trapped protons than during orbits that did not pass through the SAA.  For orbits that did not traverse the SAA, the absorbed dose was ~10 \u00b5Gy/orbit.  All orbits that passed through the SAA do not receive the same dose because each orbit passed through only a fraction of the SAA and the size of this fraction changed as the ISS orbit precessed around the Earth.  Generally, the ISS passed through the SAA twice during each twenty-four hour period.\r\n<p>\r\nFollowing exposure and return to the laboratory, each PDS detector was disassembled and the individual CR-39 PNTD layers were selected for chemical processing (etching).  The combined LET spectrum for the x-, y- and z-oriented short-etch CR-39 PNTDs was generated following readout of the 3 detectors. Similarly, the combined LET spectrum was generated for the x-, y- and z-oriented long-etch detectors.  There is fairly close agreement between the three mutually orthogonal spectra measured in the long-etch detectors.  Similarly, for LET <100 keV/\u00b5m, there is fairly close agreement between the 3 mutually orthogonal detectors measured in the short-etch detectors.  Only above 100 keV/\u00b5m is there a difference in the 3 spectra, where the curve measured in the short-etch x-oriented detector lies significantly above those measured in the short-etch y and z detectors.  This is likely due to greater shielding in the x direction relative to the other two directions.\r\n<p>\r\nThe relative contribution to the LET spectrum from neutron- and proton-induced target fragments tend to increase with increasing LET.  The reduced efficiency with which tracks are detected in the short-etch detectors below ~30 keV/\u00b5m is apparent, as is the increased signal due to target fragmentation in the LET region above 100 keV/\u00b5m in the short-etch detectors.  There is fairly close agreement between the detectors for the 2 etch regimes in the LET interval between 30 and 100 keV/\u00b5m.  The crossover point of the short-etch and long-etch spectra, 35 keV/\u00b5m for PDS A0103, was located in the plot differential LET fluence spectra and used in combining the short-etch and long-etch curves into one total LET spectrum.\r\n<p>\r\nDuring the DOSMAP experiment, mean total dose rate measured in the PDS dosimeters ranged from 6.88 \u00b1 0.42 \u00b5Gy/hr in Node 1, above the forward hatch leading to the FGB module, to 10.36 \u00b1 0.54 \u00b5Gy/hr above the aft hatch of Node 1.  The mean total dose equivalent rate varied from 14.06 \u00b1 0.93 \u00b5Sv/hr to 18.81 \u00b1 1.11 \u00b5Sv/hr at these same respective locations.  The average quality factor varied from 1.82 \u00b1 0.13 above the aft hatch of Node 1 to 2.11 \u00b1 0.16 on the starboard side of the US Lab near the aft hatch. \r\n<p>\r\nDOSTEL Results:\r\n<p>\r\nBy chance a significant solar particle event occurred during the active phase of DOSTEL on April 15, 2001. Thanks to the action of the crew, DOSTEL 1 was switched into a special mode while DOSTEL 2 remained in the mode for article and dose rate measurement.  In the special mode, the 2 detector signals of DOSTEL 1 were stored for each individual particle.  Stopping protons impinging from the top and bottom of the telescope were clearly seen, along with some stopping He-particles that were also identified.  A plot of dose rates during the mission clearly shows the dependence of dose rates from the altitude, which ranged from 404 km to 386 km.  Based on the mean quality factor derived from the LET spectra by applying the LET dependence of the quality factor as defined in ICRP Report No. 60 equivalent doses can be calculated. \r\n<p>\r\nMobile Dosimetry Unit (MDU) Results:\r\n<p>\r\nApproximately 4.5 MB of rough compressed information was received by each MDU.  After decompression, the volume of data increases by an approximate factor of 30. The values of the mean doses per day was 180.7, 189.9, 166.1, 126.3 \u00b5Gy/day in MDU#1 to MDU#4, respectively. When graphed these doses lie on the AP8MAX prediction line.\r\n<p>\r\nComparison of fluxes by 4 different MDUs shows that large differences are produced by the differences in the position of MDU and shielding distributions for them.  In the time span 27 June-4 July 2001 four MDUs were placed at fixed locations: one unit (MDU#4) in the ISS \"Unity\" Node-1 and three (MDU #1-3) units were located at different locations in the US Laboratory module.\r\n<p>\r\nMDU #2 results showed that the spectra inside the ISS has a maximum energy of 300 MeV and that the place of the maximum of the spectra moves from about 100 MeV at low L values toward 50-60 MeV at higher L values. The agreement of the data received by active and passive detectors is in the range of \u00b110%.  Comparisons of the passive devices yield even a smaller range, when corrected by the efficiency function of the different materials.  Dose equivalents were calculated from the measurements using the quality factor (Q) as defined in ICRP Report No. 60. \r\n<p>\r\nConclusion:\r\n<p>\r\nIn comparison to other spaceflight missions, the lower dose equivalents seen for ISS are due to less solar activity during the measurement period and due to higher shielding of the ISS.  The dose equivalents received by the combination of nuclear track detectors with TLDs show values close to the DOSTEL dose equivalents.  The error in the determination of the dose equivalent from passive detectors is about 6%. The combined CR39 NTDP/TLD dose equivalent appears too low compared to the DOSTEL dose equivalents.  Since the low let measurements of the TLDs are in good agreement with DOSTEL and the CR39 NTDP LET spectra as well, further investigations are needed to close this gap of knowledge.  Adding the neutron dose from the personal dosimeter would increase the dose equivalent measurements by about 33 \u00b5Sv/day.\r\n<p>\r\nThe DOSMAP experiment was the first effort to map dose and dose equivalent as function of the location in the US lab and in Node 1 of the ISS.  Having a fully developed 3-D ray tracing model the obtained data can be used to validate the Model.  A quite impressive set of data has been produced by the \"Dosimetric Mapping\" experiment from which only a part could be presented in this summary.  Since the radiation field is both complex and dynamic, measurements across the ISS need to be continued in future missions to study the radiation field and its modification by mass shielding, leading to attenuation, build up and/or activation.  There is a continuous need for information on absorbed dose, particle and linear energy transfer spectra in real time.",
+  "__doi": "10.83263/vys1-6526",
+  "__doi_record_creation_date": "2026-08-23T04:10:23",
+  "__doi_record_modified_date": "2026-08-23T04:10:23"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001466",
+   "label": "JMISS96E094_313",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Shielding and proton anisotropic effects for various L-shells as a fraction of ascending and descending orbital passes through the SAA",
+    "dataset_catalog": "JMISS96E094_313",
+    "dataset_description": [
+     "Figure shows spectra obtained with the MDU#2 in ISS and aim to study the proton anisotropy and energy distribution in the region of SAA.  There are 9 pairs of L-shell spectra, which are located on the cross points of descending and ascending orbits in the line period between the 11th and 19th of May 2001.  The 9 spectra pairs are organized in 3 rows with 3 spectra in each row. <P>Reported in: Reitz G, Beaujean R, Benton ER, Dachev Ts, Deme S, Luszik-Bhadra M, Olko P. Dosimetric Mapping. Final Report. Cologne, Germany: German Aerospace Center; 2005 Mar."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "96-E094"
+    ]
+   },
+   "meta": "1 file \u00b7 631.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "c61ddb19-59c7-5ad0-b415-1bac1b595977",
+     "label": "JMISS96E094_313.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 646144,
+     "meta": "631.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001246",
+   "label": "JMISS96E094_308",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "LET spectra for three components: Galactic Cosmic Ray particles (GCR), solar energetic particles during April 15, 2001 event (SEP) and radiation belt particles (SAA)",
+    "dataset_catalog": "JMISS96E094_308",
+    "dataset_description": [
+     "Figure shows the DOSTEL measured LET spectra converted to water for the three radiation field components which could be separated.  The three components were Galactic Cosmic Ray particles (GCR), solar energetic particles during the April 15, 2001 event (SEP) and radiation belt particles from the South Atlantic Anomaly (SAA). <P>Reported in: Reitz G, Beaujean R, Benton ER, Dachev Ts, Deme S, Luszik-Bhadra M, Olko P. Dosimetric Mapping. Final Report. Cologne, Germany: German Aerospace Center; 2005 Mar."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "96-E094"
+    ]
+   },
+   "meta": "1 file \u00b7 572.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "d663bfd4-3e48-5ccf-ae04-6960e14d18cb",
+     "label": "JMISS96E094_308.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 585728,
+     "meta": "572.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001245",
+   "label": "JMISS96E094_304",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "PDS A0103 differential LET fluence spectra measured in the combined long-etch and short-etch CR-39 PNTDs",
+    "dataset_catalog": "JMISS96E094_304",
+    "dataset_description": [
+     "Figure shows an example of the differential  LET flux spectra measured in the combined long-etch and short-etch CR-39 PNTDs during the DOSMAP experiment. <P>Reported in: Reitz G, Beaujean R, Benton ER, Dachev Ts, Deme S, Luszik-Bhadra M, Olko P. Dosimetric Mapping. Final Report. Cologne, Germany: German Aerospace Center; 2005 Mar."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "96-E094"
+    ]
+   },
+   "meta": "1 file \u00b7 699.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "fd297c86-6b8e-5c54-830e-8ce4f138d6e8",
+     "label": "JMISS96E094_304.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 715776,
+     "meta": "699.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000740",
+   "label": "JMISS96E094_315",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "MDUs flux data differences in ISS for 27.06-04.07.2001",
+    "dataset_catalog": "JMISS96E094_315",
+    "dataset_description": [
+     "Figure presents the results of the comparison of fluxes by 4 different MDUs on ISS.  During the time span of 27 June - 4 July 2001, four MDUs were placed at fixed locations: one unit (MDU #4) in the ISS \"Unity\" Node-1 and three (MDU #1-3) units were located at different locations in the US laboratory module. <P>Reported in: Reitz G, Beaujean R, Benton ER, Dachev Ts, Deme S, Luszik-Bhadra M, Olko P. Dosimetric Mapping. Final Report. Cologne, Germany: German Aerospace Center; 2005 Mar."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "96-E094"
+    ]
+   },
+   "meta": "1 file \u00b7 747.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "aa70f3b7-a32f-5712-8022-e1c28c322862",
+     "label": "JMISS96E094_315.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 764928,
+     "meta": "747.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000171",
+   "label": "JMISS96E094_299",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Mean track density per counting area (300 &#181;m x 400 &#181;m) with standard deviation of the mean using 15 to 18 counting fields",
+    "dataset_catalog": "JMISS96E094_299",
+    "dataset_description": [
+     "Table showing the mean track density measurements of the PADC nuclear track detectors flown as a component of the personal dosimeters used during the DOSMAP experiment.  Track densities were measured at three positions in each detector.  Of the ten dosimeters listed, three dosimeters were flown on the ISS, two were irradiated by neutrons of a bare <sup>252</sup>Cf source, one was irradiated in a thermal neutron beam and four were stored as background dosimeters. <P>Reported in: Reitz G, Beaujean R, Benton ER, Dachev Ts, Deme S, Luszik-Bhadra M, Olko P. Dosimetric Mapping. Final Report. Cologne, Germany: German Aerospace Center; 2005 Mar."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "96-E094"
+    ]
+   },
+   "meta": "1 file \u00b7 17.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "075bb7f5-7efd-591b-9cd3-f95e4fb52f0b",
+     "label": "JMISS96E094_299.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 17408,
+     "meta": "17.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000590",
+   "label": "JMISS96E094_309",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Measurement of DOSTEL 1 (top) and DOSTEL 2 (bottom) during the April 15, 2001 solar particle event",
+    "dataset_catalog": "JMISS96E094_309",
+    "dataset_description": [
+     "Figure shows the count rate in DOSTEL 2 (bottom panel) with high rates during South Atlantic Anomaly (SAA) crossing (day 104) and additional peaks every 45 minutes at high northern and southern latitudes on day 105 declining according to the declining interplanetary particle flux.  The right top insert shows the special mode measurement of DOSTEL 1 during day 105 plotted as energy deposition in detector 2 versus detector 1. <P>Reported in: Reitz G, Beaujean R, Benton ER, Dachev Ts, Deme S, Luszik-Bhadra M, Olko P. Dosimetric Mapping. Final Report. Cologne, Germany: German Aerospace Center; 2005 Mar."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "96-E094"
+    ]
+   },
+   "meta": "1 file \u00b7 711.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "b8398331-fbed-51a9-9c15-3593cf8b7f45",
+     "label": "JMISS96E094_309.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 728064,
+     "meta": "711.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000244",
+   "label": "JMISS96E094_305",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "PDS A0103 integral LET flux spectra measured in long-etch, short-etch and combined (long-etch and short-etch) CR-39 PNTDs",
+    "dataset_catalog": "JMISS96E094_305",
+    "dataset_description": [
+     "Figure shows an example of the integral LET flux spectra measured in the long-etch, short-etch and combined (long-etch and short-etch) CR-39 PNTDs during the DOSMAP experiment. <P>Reported in: Reitz G, Beaujean R, Benton ER, Dachev Ts, Deme S, Luszik-Bhadra M, Olko P. Dosimetric Mapping. Final Report. Cologne, Germany: German Aerospace Center; 2005 Mar."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "96-E094"
+    ]
+   },
+   "meta": "1 file \u00b7 714.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "3916e183-1afe-5535-a295-91ccaaba1f3d",
+     "label": "JMISS96E094_305.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 731136,
+     "meta": "714.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001090",
+   "label": "JMISS96E094_318",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Summary plot of SAA phenomena",
+    "dataset_catalog": "JMISS96E094_318",
+    "dataset_description": [
+     "Figure shows South Atlantic Anomaly (SAA) phenomena together with the L and B (Black lines showing the total strength of Earth's magnetic field in [Gauss]) parameters of the 9 descending node points. <P>Reported in: Reitz G, Beaujean R, Benton ER, Dachev Ts, Deme S, Luszik-Bhadra M, Olko P. Dosimetric Mapping. Final Report. Cologne, Germany: German Aerospace Center; 2005 Mar."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "96-E094"
+    ]
+   },
+   "meta": "1 file \u00b7 520.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "2c5543cb-2165-51bc-8cc4-f372c91e07ed",
+     "label": "JMISS96E094_318.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 532480,
+     "meta": "520.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000335",
+   "label": "JMISS96E094_303",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "PDS A0103 integral LET flux spectra measured in the three orthogonal long-etch detectors and the three orthogonal short-etch CR-39 PNTDs",
+    "dataset_catalog": "JMISS96E094_303",
+    "dataset_description": [
+     "Figure shows an example of individual integral LET flux spectra for the three short-etch and three long-etch detectors analyzed from PDS dosimeter A0103 during the DOSMAP experiment. <P>Reported in: Reitz G, Beaujean R, Benton ER, Dachev Ts, Deme S, Luszik-Bhadra M, Olko P. Dosimetric Mapping. Final Report. Cologne, Germany: German Aerospace Center; 2005 Mar."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "96-E094"
+    ]
+   },
+   "meta": "1 file \u00b7 715.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "1b38a65c-538d-5dca-8b37-fe0b8dca1534",
+     "label": "JMISS96E094_303.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 732160,
+     "meta": "715.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000172",
+   "label": "JMISS96E094_316",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Incident proton spectra inside of US Lab module recalculated from GEANT code fit of the Liulin claibration data",
+    "dataset_catalog": "JMISS96E094_316",
+    "dataset_description": [
+     "Figure shows the calculated spectra of the protons inside of the US Laboratory.  The upper panel corresponds to ascending spectra with L values 1.32, 1.57, and 1.75, while the lower panel shows the descending spectra with L values 1.32, 1.54, and 1.76. <P>Reported in: Reitz G, Beaujean R, Benton ER, Dachev Ts, Deme S, Luszik-Bhadra M, Olko P. Dosimetric Mapping. Final Report. Cologne, Germany: German Aerospace Center; 2005 Mar."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "96-E094"
+    ]
+   },
+   "meta": "1 file \u00b7 328.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "b593c16e-16e1-5240-bda1-57856e0dd2b2",
+     "label": "JMISS96E094_316.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 335872,
+     "meta": "328.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001465",
+   "label": "JMISS96E094_307",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Comparison of DOSTEL 1 and DOSTEL 2 particle rate during 24 hours",
+    "dataset_catalog": "JMISS96E094_307",
+    "dataset_description": [
+     "Figure showing a comparison of DOSTEL 1 and DOSTEL 2 particle rates during 24 hours.  The Galactic Cosmic Ray flux (GCR, below 20 counts per sec) is modulated by the geomagnetic field with a period of 45 minutes (half orbit).  The pronounced peaks are measured during crossings of the radiation belt at the South Atlantic Anomaly (SAA). <P>Reported in: Reitz G, Beaujean R, Benton ER, Dachev Ts, Deme S, Luszik-Bhadra M, Olko P. Dosimetric Mapping. Final Report. Cologne, Germany: German Aerospace Center; 2005 Mar."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "96-E094"
+    ]
+   },
+   "meta": "1 file \u00b7 898.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "4cba7e53-90c1-549e-b822-e341aa4fec24",
+     "label": "JMISS96E094_307.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 919552,
+     "meta": "898.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000170",
+   "label": "JMISS96E094_296",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Locations of the single detectors inside the U.S. Lab and Node 1",
+    "dataset_catalog": "JMISS96E094_296",
+    "dataset_description": [
+     "Table lists the name, location, and orientation of each DOSMAP dosimeter located inside the U.S. Lab and Node 1 during Expedition 2.  <P>Reported in: Reitz G, Beaujean R, Benton ER, Dachev Ts, Deme S, Luszik-Bhadra M, Olko P. Dosimetric Mapping. Final Report. Cologne, Germany: German Aerospace Center; 2005 Mar."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "96-E094"
+    ]
+   },
+   "meta": "1 file \u00b7 20.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "d12ba68b-ebf6-5e2d-b394-bf3130894ead",
+     "label": "JMISS96E094_296.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 20480,
+     "meta": "20.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000036",
+   "label": "JMISS96E094_297",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "INP detectors: Measured doses in terms of kerma in air (mGy)",
+    "dataset_catalog": "JMISS96E094_297",
+    "dataset_description": [
+     "Table showing the measured dose, in terms of kerma in air (mGy), for the Institute of Nuclear Physics (INP) TLDs flown as part of the NTDP packages of the DOSMAP experiment. <P>Reported in: Reitz G, Beaujean R, Benton ER, Dachev Ts, Deme S, Luszik-Bhadra M, Olko P. Dosimetric Mapping. Final Report. Cologne, Germany: German Aerospace Center; 2005 Mar."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "96-E094"
+    ]
+   },
+   "meta": "1 file \u00b7 17.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "b79622b5-f88d-578a-845f-9cf0c18e7228",
+     "label": "JMISS96E094_297.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 17408,
+     "meta": "17.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000457",
+   "label": "JMISS96E094_311",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Dose equivalent rate for Galactic Cosmic Rays (GCR), for the trapped radiation in the South Atlantic Anomaly (SAA) and the sum of both contributions measured with DOSTEL in dependence of mission time",
+    "dataset_catalog": "JMISS96E094_311",
+    "dataset_description": [
+     "Figure shows the measured dose equivalent rate for Galactic Cosmic Rays (GCR), trapped radiation in the South Atlantic Anomaly (SAA) and the sum of both contributions measured with DOSTEL in dependence of mission time. <P>Reported in: Reitz G, Beaujean R, Benton ER, Dachev Ts, Deme S, Luszik-Bhadra M, Olko P. Dosimetric Mapping. Final Report. Cologne, Germany: German Aerospace Center; 2005 Mar."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "96-E094"
+    ]
+   },
+   "meta": "1 file \u00b7 498.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "600c2184-3529-54af-bc4b-89c149fd84e4",
+     "label": "JMISS96E094_311.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 509952,
+     "meta": "498.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000336",
+   "label": "JMISS96E094_310",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Dose rate for Galactic Cosmic Rays (GCR), for the trapped radiation in the South Atlantic Anomaly (SAA) and the sum of both contributions measured with DOSTEL in dependence of mission time",
+    "dataset_catalog": "JMISS96E094_310",
+    "dataset_description": [
+     "Figure shows the measured dose rate for Galactic Cosmic Rays (GCR), trapped radiation in the South Atlantic Anomaly (SAA) and the sum of both contributions measured with DOSTEL in dependence of mission time. <P>Reported in: Reitz G, Beaujean R, Benton ER, Dachev Ts, Deme S, Luszik-Bhadra M, Olko P. Dosimetric Mapping. Final Report. Cologne, Germany: German Aerospace Center; 2005 Mar."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "96-E094"
+    ]
+   },
+   "meta": "1 file \u00b7 617.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "7ca0f888-7484-5909-a21d-0aae2f147a6a",
+     "label": "JMISS96E094_310.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 631808,
+     "meta": "617.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000591",
+   "label": "JMISS96E094_319",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Comparison of TLD bulb readouts with DOSTEL and MDU#2",
+    "dataset_catalog": "JMISS96E094_319",
+    "dataset_description": [
+     "Tables show a comparison of the active and passive dose rate measurement instruments used on ISS during the DOSMAP experiment.   The top table shows a comparison of the TLD bulb readouts with the active DOSTEL and MDU #2 instruments.  The bottom table shows a comparison of mean dose rates of passive TLD devices. <P>Reported in: Reitz G, Beaujean R, Benton ER, Dachev Ts, Deme S, Luszik-Bhadra M, Olko P. Dosimetric Mapping. Final Report. Cologne, Germany: German Aerospace Center; 2005 Mar."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "96-E094"
+    ]
+   },
+   "meta": "1 file \u00b7 18.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "d03af989-ee68-5ab7-ae8f-cb43f1a27799",
+     "label": "JMISS96E094_319.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 18432,
+     "meta": "18.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000862",
+   "label": "JMISS96E094_312",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Comparison of the Liulin-E094 averaged daily data with NASA \"Spaceflight radiation health program\" data",
+    "dataset_catalog": "JMISS96E094_312",
+    "dataset_description": [
+     "Figure shows the results of the intercomparison between the data obtained by the 4 MDUs at 27-30 May with the data published in the NASA \"Spaceflight radiation health program\" (Johnson et al., 1993).  The values of the mean doses per day are shown with heavy black squares, and it is seen that they lie on the AP8MAX prediction line. <P>Reported in: Reitz G, Beaujean R, Benton ER, Dachev Ts, Deme S, Luszik-Bhadra M, Olko P. Dosimetric Mapping. Final Report. Cologne, Germany: German Aerospace Center; 2005 Mar."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "96-E094"
+    ]
+   },
+   "meta": "1 file \u00b7 513.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "4a2f8e5b-3615-5691-9ec8-50a71170b11e",
+     "label": "JMISS96E094_312.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 525312,
+     "meta": "513.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000554",
+   "label": "JMISS96E094_298",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "DLR detectors: Measured doses in terms of kerma in air (mGy)",
+    "dataset_catalog": "JMISS96E094_298",
+    "dataset_description": [
+     "Table showing the measured dose, in terms of kerma in air (mGy), for the DLR TLDs flown as part of the NTDP packages of the DOSMAP experiment. <P>Reported in: Reitz G, Beaujean R, Benton ER, Dachev Ts, Deme S, Luszik-Bhadra M, Olko P. Dosimetric Mapping. Final Report. Cologne, Germany: German Aerospace Center; 2005 Mar."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "96-E094"
+    ]
+   },
+   "meta": "1 file \u00b7 17.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "be448c80-1677-5b8f-97e1-c021bc774891",
+     "label": "JMISS96E094_298.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 17408,
+     "meta": "17.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001247",
+   "label": "JMISS96E094_317",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Summarized MDU#2 ISS data",
+    "dataset_catalog": "JMISS96E094_317",
+    "dataset_description": [
+     "Figure shows all of the data obtained by MDU #2 from 11-27 May 2001, when the MDUs were in fixed locations.  At the top of the figure the AP-8 MAX and AE-8 MAX models for global distributions of the total fluxes are presented using SPENVIS.  The second panel shows the dose per particle data, the third panel shows the distribution of the count rate in the first channel of the spectrum.  The fourth and fifth panels present the flux and dose distributions.  The bottom panel presents the count rate in the sixth channel of the spectrometer. <P>Reported in: Reitz G, Beaujean R, Benton ER, Dachev Ts, Deme S, Luszik-Bhadra M, Olko P. Dosimetric Mapping. Final Report. Cologne, Germany: German Aerospace Center; 2005 Mar."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "96-E094"
+    ]
+   },
+   "meta": "1 file \u00b7 863.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "092f18ee-11f3-5abc-b112-8f31851f94de",
+     "label": "JMISS96E094_317.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 883712,
+     "meta": "863.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001006",
+   "label": "JMISS96E094_322",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Comparison of dose rates and dose equivalent rates of Shuttle to MIR missions with those of ISS",
+    "dataset_catalog": "JMISS96E094_322",
+    "dataset_description": [
+     "Table displays a comparison of dose rate, dose equivalent rates, and quality factors of Shuttle to Mir missions with those of the ISS.  Measurements are displayed as total, Galactic Cosmic Ray (GCR), and South Atlantic Anomaly (SAA) averages. <P>Reported in: Reitz G, Beaujean R, Benton ER, Dachev Ts, Deme S, Luszik-Bhadra M, Olko P. Dosimetric Mapping. Final Report. Cologne, Germany: German Aerospace Center; 2005 Mar."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "96-E094"
+    ]
+   },
+   "meta": "1 file \u00b7 18.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "72113ce1-ec2f-528d-891b-aeb4c16eb16d",
+     "label": "JMISS96E094_322.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 18432,
+     "meta": "18.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001089",
+   "label": "JMISS96E094_314",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Data comparison between TEPC and Liulin",
+    "dataset_catalog": "JMISS96E094_314",
+    "dataset_description": [
+     "Figure shows the results of the comparison of South Atlantic Anomaly (SAA) dose rate data obtained on 11 May between 19:37:30 and 20:02:30 UT hour by Liulin MDUs and TEPC. <P>Reported in: Reitz G, Beaujean R, Benton ER, Dachev Ts, Deme S, Luszik-Bhadra M, Olko P. Dosimetric Mapping. Final Report. Cologne, Germany: German Aerospace Center; 2005 Mar."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "96-E094"
+    ]
+   },
+   "meta": "1 file \u00b7 471.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "96f8d46b-e2e8-58e3-9f91-9feac689af07",
+     "label": "JMISS96E094_314.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 482304,
+     "meta": "471.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001467",
+   "label": "JMISS96E094_321",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Comparison of measured LET-spectra by DOSTEL and CR-39 nuclear track detectors",
+    "dataset_catalog": "JMISS96E094_321",
+    "dataset_description": [
+     "Figure shows a comparison of LET spectra of galactic cosmic rays provided by the DOSTEL and PNTD A0103 during the DOSMAP experiment on the ISS. <P>Reported in: Reitz G, Beaujean R, Benton ER, Dachev Ts, Deme S, Luszik-Bhadra M, Olko P. Dosimetric Mapping. Final Report. Cologne, Germany: German Aerospace Center; 2005 Mar."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "96-E094"
+    ]
+   },
+   "meta": "1 file \u00b7 586.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "75bdbef4-af83-5699-a0bc-6f82a7e5f623",
+     "label": "JMISS96E094_321.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 600064,
+     "meta": "586.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001705",
+   "label": "JMISS96E094_300",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Neutron personal dose equivalent determined for dosimeters used at ISS using two different methods",
+    "dataset_catalog": "JMISS96E094_300",
+    "dataset_description": [
+     "Table showing the results of two methods of neutron personal dose equivalent determination for three dosimeters used on the ISS during the DOSMAP experiment. <P>Reported in: Reitz G, Beaujean R, Benton ER, Dachev Ts, Deme S, Luszik-Bhadra M, Olko P. Dosimetric Mapping. Final Report. Cologne, Germany: German Aerospace Center; 2005 Mar."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "96-E094"
+    ]
+   },
+   "meta": "1 file \u00b7 16.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "d4f1f8ec-64cf-5db4-bbe4-43b406001f90",
+     "label": "JMISS96E094_300.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 16384,
+     "meta": "16.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001706",
+   "label": "JMISS96E094_306",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Average dose rates and dose equivalent rates measured in CR-39 PNTD (>/=10 keV/&#181;m) and from combined CR-39 PNTD/Pille TLD measurements during the ISS Expedition 2 DOSMAP experiment",
+    "dataset_catalog": "JMISS96E094_306",
+    "dataset_description": [
+     "Tabulated results from CR-39 PNTD and combined CR-39 PNTD and Pille TLD measurements during the DOSMAP experiment.  PNTD dose rate, total dose rate, PNTD dose equivalent rate, total dose equivalent rate, and average quality factors were calculated for each of the twelve dosimeters. <P>Reported in: Reitz G, Beaujean R, Benton ER, Dachev Ts, Deme S, Luszik-Bhadra M, Olko P. Dosimetric Mapping. Final Report. Cologne, Germany: German Aerospace Center; 2005 Mar."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "96-E094"
+    ]
+   },
+   "meta": "1 file \u00b7 20.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "4f82c1dc-626c-5176-b2bb-3d707c4a4256",
+     "label": "JMISS96E094_306.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 20480,
+     "meta": "20.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001926",
+   "label": "JMISS96E094_301",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Measured Pille TLD dose rate values for the eleven exposure intervals during the DOSMAP experiment",
+    "dataset_catalog": "JMISS96E094_301",
+    "dataset_description": [
+     "Table showing dose rates measured by the Passive Dosimetry System (PDS) .  The PDS utilized Pille portable TLDs and plastic nuclear track detectors.  Dose rates were measured at eleven exposure intervals during the DOSMAP experiment.  Mean dose rates were calculated for each exposure interval and average dose rates were determined for each individual passive dosimeter. <P>Reported in: Reitz G, Beaujean R, Benton ER, Dachev Ts, Deme S, Luszik-Bhadra M, Olko P. Dosimetric Mapping. Final Report. Cologne, Germany: German Aerospace Center; 2005 Mar."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "96-E094"
+    ]
+   },
+   "meta": "1 file \u00b7 19.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "da314bc2-2970-5907-8ed1-02398a4bd371",
+     "label": "JMISS96E094_301.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 19456,
+     "meta": "19.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002181",
+   "label": "JMISS96E094_302",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Dose per orbit measured by TLD A0101 in automatic mode for first third of the DOSMAP experiment",
+    "dataset_catalog": "JMISS96E094_302",
+    "dataset_description": [
+     "Graph showing the dose (&#181;Gy) per orbit measured by TLD A0101 in automatic mode for first third of the DOSMAP experiment, the period between 3 May and 5 June 2001.  Sharp peaks extending from 30 to >50 &#181;Gy/orbit are for orbits that passed through the South Atlantic Anomaly (SAA). <P>Reported in: Reitz G, Beaujean R, Benton ER, Dachev Ts, Deme S, Luszik-Bhadra M, Olko P. Dosimetric Mapping. Final Report. Cologne, Germany: German Aerospace Center; 2005 Mar."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "96-E094"
+    ]
+   },
+   "meta": "1 file \u00b7 506.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "4d2ea4b7-ad12-5c82-b7c2-73fc4ef96eb0",
+     "label": "JMISS96E094_302.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 518144,
+     "meta": "506.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

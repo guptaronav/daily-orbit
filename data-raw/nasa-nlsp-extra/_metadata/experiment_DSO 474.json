@@ -1,0 +1,418 @@
+{
+ "record": {
+  "id": "23cca011-8011-5d4d-94fc-3153ea8edf97",
+  "_id": "23cca011-8011-5d4d-94fc-3153ea8edf97",
+  "experiment_title": "Retinal Photography",
+  "archive_status_index": 2,
+  "pub_document_number": "PUB001740",
+  "parameter_html": "<table><tr><td>Altitude</td></tr><tr><td>Anorexia</td></tr><tr><td>Equilibrium</td></tr><tr><td>Headache</td></tr><tr><td>Lethargy</td></tr><tr><td>Malaise</td></tr><tr><td>Mydriasis</td></tr><tr><td>Nausea</td></tr><tr><td>Optic disc diameter</td></tr><tr><td>Optic disc elevation</td></tr><tr><td>Retinal artery width</td></tr><tr><td>Retinal transparencies</td></tr><tr><td>Retinal vein width</td></tr><tr><td>Sleep disturbances</td></tr><tr></tr></table>",
+  "__source_key": "cl62aymzdcd7b01o68ygkff2i",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Taylor, Gerald\">Principal Investigator: Taylor, Gerald</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Pool, Sam\">Principal Investigator: Pool, Sam</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Meehan, Richard\">Principal Investigator: Meehan, Richard</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Mader, Thomas\">Principal Investigator: Mader, Thomas</a>",
+  "image_name": [
+   "Kowa RC-2 Camera",
+   "Kowa RC-2 Camera Lens Cover",
+   "Kowa RC-2 Camera Power Supply - Front View",
+   "Kowa RC-2 Camera Power Supply - Rear View",
+   "Kowa RC-2 Camera, Power Supply, and Lens Cover",
+   "Kowa RC-2 Fundus Camera",
+   "Training for Retinal Examinations"
+  ],
+  "experiment_type_lk": [
+   "Shuttle Detailed Supplementary Objectives (DSO)"
+  ],
+  "__record_modified_date": "2026-08-23T03:43:17.729438+00:00",
+  "proposal_source": [
+   "N/A"
+  ],
+  "__indexed": "2026-08-23T03:43:17.729438+00:00",
+  "__record_creation_date": "2022-07-28T20:02:38.569Z",
+  "keyword": [
+   "Retinal artery",
+   "Retinal vein",
+   "Space motion sickness (SMS)"
+  ],
+  "keyword_name": "Space motion sickness (SMS)",
+  "__record_size": 76475,
+  "__record_version": 28,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<br>\r\nSpace Adaptation Syndrome (SAS) is a significant medical problem adversely affecting approximately 50 percent of U.S. and Russian crewmembers. Although many of the symptoms are similar to those seen in motion sickness on Earth, SAS has not been positively correlated with susceptibility to ground-based motion sickness, and therapeutic responses to anti-motion sickness drugs in flight have not been uniformly successful. Acute Mountain Sickness (AMS) with symptoms of lassitude, headache, anorexia, nausea, and emesis common to SAS, may be a more accurate ground-based correlate. \r\nIncreased intracranial pressure and cerebral edema are thought to be contributing factors to the development of AMS. The well documented upward fluid shifts that occur in microgravity may induce increased intracranial pressure and mild cerebral edema in crewmembers, which may contribute to SAS. As gravity has been shown to be a major factor which influences brain hydration, the role of increased intracranial or mild cerebral edema as a contributing factor in SAS was investigated. \r\n<P>\r\nAPPROACH:<br>\r\nColor retinal transparencies obtained in microgravity using the Kowa RC2 portable fundus camera provided evidence of intracranial pressure changes. Images were analyzed by digital image analysis for mean retinal artery and vein diameter changes and compared with two preflight photographs. These images were also examined stereoscopically for subtle evidence of optic disc elevation. Results were correlated with susceptibility to SAS and time in orbit. Retinal images were obtained twice preflight during which training for the crew/photographer also occurred. Complete mydriasis (pupil dilation) is essential to obtain quality retinal images but only one eye needed to be dilated (1-2 drops of 0.5 percent tropicamide and 2.5 percent phenylephrine). Retinal photographs were also taken at least three times on orbit at 6-12 Mission Elapsed Time (MET), 48 MET, and prior to the final sleep period. \r\n<P>\r\nA full-face photograph was taken in flight in conjunction with the retinal photography sessions. During retinal photography, the operator looked for venous pulsations and recorded them on the subject identification card. \r\n<P>\r\nA numerical SAS severity index was generated from each crewmember's subjective reporting of symptoms to the flight surgeon. Data was recorded in flight (a written checklist) and postflight from crew debriefings: 1=mild, 2=moderate, 3=severe. In addition, a value between 0-3 was recorded based upon the severity of individual symptoms (headache, malaise, lethargy, anorexia, stomach awareness, nausea, sleep disturbance, emesis, or disequilibrium). Individual crewmembers were also asked to rate each other on a scale 0-3 for overall severity of SAS. \r\n<P>\r\nNote regarding STS-50: The power supply for DSO-474 failed to function right from the start of STS-50. No photographs were collected. The informal part was a live downlink of the retina using the funduscamera, adaptor, and Canon L-1 camcorder.\r\n<P>\r\nRESULTS:<br>\r\nThe data collected indicate a tendency for both retinal arteries and veins to dilate during the first day of space flight.",
+  "payload_id": "DSO33",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "DSO 474",
+  "indexed": "2026-08-23T03:43:17.729438+00:00",
+  "GUID": "cl62aymzdcd7b01o68ygkff2i",
+  "parameter_name": [
+   "Altitude",
+   "Anorexia",
+   "Equilibrium",
+   "Headache",
+   "Lethargy",
+   "Malaise",
+   "Mydriasis",
+   "Nausea",
+   "Optic disc diameter",
+   "Optic disc elevation",
+   "Retinal artery width",
+   "Retinal transparencies",
+   "Retinal vein width",
+   "Sleep disturbances"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 586,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Cardiovascular physiology",
+   "Neuroscience",
+   "Clinical medicine"
+  ],
+  "pme_role_with_name": [
+   "Principal Investigator: Mader, Thomas",
+   "Principal Investigator: Meehan, Richard",
+   "Principal Investigator: Pool, Sam",
+   "Principal Investigator: Taylor, Gerald"
+  ],
+  "missions": [
+   [
+    [
+     "STS-33"
+    ]
+   ],
+   [
+    [
+     "STS-41"
+    ]
+   ],
+   [
+    [
+     "STS-50"
+    ]
+   ],
+   [
+    [
+     "STS-52"
+    ]
+   ],
+   [
+    [
+     "STS-53"
+    ]
+   ],
+   [
+    [
+     "STS-34"
+    ]
+   ]
+  ],
+  "__dirid": "23cca011-8011-5d4d-94fc-3153ea8edf97",
+  "__record_size_wo_doccontent": 76475,
+  "PI": [
+   "Mader, Thomas",
+   "Meehan, Richard",
+   "Pool, Sam",
+   "Taylor, Gerald"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "DSO 474"
+  ],
+  "mission_id": [
+   [
+    [
+     "STS-33"
+    ]
+   ],
+   [
+    [
+     "STS-41"
+    ]
+   ],
+   [
+    [
+     "STS-50"
+    ]
+   ],
+   [
+    [
+     "STS-52"
+    ]
+   ],
+   [
+    [
+     "STS-53"
+    ]
+   ],
+   [
+    [
+     "STS-34"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Mader, Thomas",
+   "Meehan, Richard",
+   "Pool, Sam",
+   "Taylor, Gerald"
+  ],
+  "archive_status": "Data preservation is complete. Privacy-protected datasets are available via data request. Remaining datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Shuttle Program",
+  "__source_field_concat": "PUB001740 DSO33 cl62aymzdcd7b01o68ygkff2i Space motion sickness (SMS)  N/A Retinal Photography DSO 474 Shuttle Program",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<br>\r\nSpace Adaptation Syndrome (SAS) is a significant medical problem adversely affecting approximately 50 percent of U.S. and Russian crewmembers. Although many of the symptoms are similar to those seen in motion sickness on Earth, SAS has not been positively correlated with susceptibility to ground-based motion sickness, and therapeutic responses to anti-motion sickness drugs in flight have not been uniformly successful. Acute Mountain Sickness (AMS) with symptoms of lassitude, headache, anorexia, nausea, and emesis common to SAS, may be a more accurate ground-based correlate. \r\nIncreased intracranial pressure and cerebral edema are thought to be contributing factors to the development of AMS. The well documented upward fluid shifts that occur in microgravity may induce increased intracranial pressure and mild cerebral edema in crewmembers, which may contribute to SAS. As gravity has been shown to be a major factor which influences brain hydration, the role of increased intracranial or mild cerebral edema as a contributing factor in SAS was investigated. \r\n<P>\r\nAPPROACH:<br>\r\nColor retinal transparencies obtained in microgravity using the Kowa RC2 portable fundus camera provided evidence of intracranial pressure changes. Images were analyzed by digital image analysis for mean retinal artery and vein diameter changes and compared with two preflight photographs. These images were also examined stereoscopically for subtle evidence of optic disc elevation. Results were correlated with susceptibility to SAS and time in orbit. Retinal images were obtained twice preflight during which training for the crew/photographer also occurred. Complete mydriasis (pupil dilation) is essential to obtain quality retinal images but only one eye needed to be dilated (1-2 drops of 0.5 percent tropicamide and 2.5 percent phenylephrine). Retinal photographs were also taken at least three times on orbit at 6-12 Mission Elapsed Time (MET), 48 MET, and prior to the final sleep period. \r\n<P>\r\nA full-face photograph was taken in flight in conjunction with the retinal photography sessions. During retinal photography, the operator looked for venous pulsations and recorded them on the subject identification card. \r\n<P>\r\nA numerical SAS severity index was generated from each crewmember's subjective reporting of symptoms to the flight surgeon. Data was recorded in flight (a written checklist) and postflight from crew debriefings: 1=mild, 2=moderate, 3=severe. In addition, a value between 0-3 was recorded based upon the severity of individual symptoms (headache, malaise, lethargy, anorexia, stomach awareness, nausea, sleep disturbance, emesis, or disequilibrium). Individual crewmembers were also asked to rate each other on a scale 0-3 for overall severity of SAS. \r\n<P>\r\nNote regarding STS-50: The power supply for DSO-474 failed to function right from the start of STS-50. No photographs were collected. The informal part was a live downlink of the retina using the funduscamera, adaptor, and Canon L-1 camcorder.\r\n<P>\r\nRESULTS:<br>\r\nThe data collected indicate a tendency for both retinal arteries and veins to dilate during the first day of space flight.",
+  "__doi": "10.83263/zqyn-7f87",
+  "__doi_record_creation_date": "2026-08-23T03:43:17",
+  "__doi_record_modified_date": "2026-08-23T03:43:17"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000018",
+   "label": "DSO 474__2850600107",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Percent Change of Retinal Arteries and Vein Widths from Baseline",
+    "dataset_catalog": "DSO 474__2850600107",
+    "dataset_description": [
+     "This graph represents the percentage of change from baseline-seated values of retinal artery (open circles) and vein (open triangles) widths as the mean \u00b1 standard error and the simultaneously recorded intraocular pressures (open squares in mmHg). Asterisks indicate <i>P</i> < 0.05 compared with baseline values.\r\n<p>\r\nSource: Meehan RT, Taylor GR, Rock P, Mader TH, Hunter N, and Cymerman A. An automated method of quantifying retinal vascular. <i>Ophthalmology</i>. 1990 July;97(7):875-81."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 474"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "1dd185e0-c627-5458-ac07-3e2f86cd05c8",
+     "label": "DSO_474__2850600107.tif_STS-33_DSO_474_2010_285_061020.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001494",
+   "label": "DSO 474__2850531979",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Retinal Vessel Widths",
+    "dataset_catalog": "DSO 474__2850531979",
+    "dataset_description": [
+     "This Excel file contains repeated measurements of multiple retinal vessel widths from the same retinal image that was digitized and analyzed on ten separate occasions.  The CVs ranged between 0.7 and 6.7%.\r\n<p>\r\nSource: Meehan RT, Taylor GR, Rock P, Mader TH, Hunter N, and Cymerman A. An automated method of quantifying retinal vascular. Ophthalmology. 1990 July;97(7):875-81."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 474"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "c7dd5624-4a16-5770-8c86-d7937fdc90af",
+     "label": "DSO_474__2850531979.xls_STS-33_DSO_474_2010_285_051047.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000275",
+   "label": "DSO 474__2850547899",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Optic Disc Diameters",
+    "dataset_catalog": "DSO 474__2850547899",
+    "dataset_description": [
+     "This Excel file contains the mean CVs of optic disc diameters measured on three consecutive days from ten men. The variance of diameters was no greater when images were obtained with the hand-held camera than when the head and camera were stabilized. Therefore, accurate analysis of repeated retinol photographs can be performed with the hand-held camera.\r\n<p>\r\nSource: Meehan RT, Taylor GR, Rock P, Mader TH, Hunter N, and Cymerman A. An automated method of quantifying retinal vascular. <i>Ophthalmology</i>. 1990 July;97(7):875-81."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 474"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "99ea5ea0-f758-5de6-b51e-295479f9cae3",
+     "label": "DSO_474__2850547899_.xls_STS-33_DSO_474_2010_285_051056.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001885",
+   "label": "JMDSO_474_1",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Mean Vein and Artery Widths for Crewmembers",
+    "dataset_catalog": "JMDSO_474_1",
+    "dataset_description": [
+     "This is a graph of retinal vein and artery widths for DSO 474 crewmembers preflight and during flight days 1 and 2. \r\n<p>\r\nSource: Unpublished Data."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 474"
+    ]
+   },
+   "meta": "5 files \u00b7 368.5 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "8374ce3b-9b98-564b-a012-7304a2713483",
+     "label": "JMDSO_474_1.tiff",
+     "type": "file",
+     "ext": "tiff",
+     "file_size": 75469,
+     "meta": "73.7 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "85966462-53d1-52e3-926f-5bbe0696b2a2",
+     "label": "JMDSO_474_1.tiff",
+     "type": "file",
+     "ext": "tiff",
+     "file_size": 75469,
+     "meta": "73.7 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "33c01a16-0e6f-5290-9da6-0016e60cda2e",
+     "label": "JMDSO_474_1.tiff",
+     "type": "file",
+     "ext": "tiff",
+     "file_size": 75469,
+     "meta": "73.7 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a416bf78-ec9f-52f0-8ec0-b5ddaf012783",
+     "label": "JMDSO_474_1.tiff",
+     "type": "file",
+     "ext": "tiff",
+     "file_size": 75469,
+     "meta": "73.7 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e1dfc3b3-c751-568d-aca4-96786c5dab14",
+     "label": "JMDSO_474_1.tiff",
+     "type": "file",
+     "ext": "tiff",
+     "file_size": 75469,
+     "meta": "73.7 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000520",
+   "label": "DSO 474__2850540255",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Digital Image Analysis of Vessel Widths",
+    "dataset_catalog": "DSO 474__2850540255",
+    "dataset_description": [
+     "This Excel file contains digital image analysis of vessel widths of eleven separate retinal images from the same subject.  The results indicate that images may be obtained and digitized with a minimum of magnification artifact because, although the camera was hand held, the CV for the optic disk diameter (which did not require using the automatic tracking program) was only 1.5%. The higher CVs of 3 to 4% for retinal vessel width measurements reflect greater variance due to automatic tracking by the retinal vessel software program.\r\n<p>\r\nSource: Meehan RT, Taylor GR, Rock P, Mader TH, Hunter N, and Cymerman A. An automated method of quantifying retinal vascular. <i>Ophthalmology</i>. 1990 July;97(7):875-81."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 474"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "a7aed470-1f07-571b-8bb3-f5e2515b13da",
+     "label": "DSO_474__2850540255.xls_STS-33_DSO_474_2010_285_051023.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000990",
+   "label": "DSO 474__2850551142",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Percent Change of Retinal Arteries and Vein Widths",
+    "dataset_catalog": "DSO 474__2850551142",
+    "dataset_description": [
+     "This graph represents the percentage of change from sea-level values of retinal artery and vein widths as mean \u00b1 standard error. A: data from arteries. B: values of veins. Retinal photographs were obtained at sea level, 10,000, 17,500, and 25,000 feet (3048, 5334, and 7620 meters) of simulated altitude exposure in a decompression chamber. Each data point represents the combined results from all subjects and are represented as either a single vessel or multiple vessel widths from the right or left eye.\r\n<p>\r\nSource: Meehan RT, Taylor GR, Rock P, Mader TH, Hunter N, and Cymerman A. An automated method of quantifying retinal vascular. <i>Ophthalmology</i>. 1990 July;97(7):875-81."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 474"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "e26cde0f-8517-5008-9a8b-ef388890b64c",
+     "label": "DSO_474__2850551142.tif_STS-33_DSO_474_2010_285_061028.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

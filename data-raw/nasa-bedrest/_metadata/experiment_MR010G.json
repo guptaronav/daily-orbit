@@ -1,0 +1,694 @@
+{
+ "record": {
+  "id": "2858df7a-0072-5cb4-ae70-cf73997832a8",
+  "_id": "2858df7a-0072-5cb4-ae70-cf73997832a8",
+  "__is_locked": false,
+  "experiment_title": "Clinical Laboratory Assessment (Flight Analog)",
+  "experiment_alias": "Clin Lab",
+  "__source_key": "cl62azn69cdfx01o6dwbi0nnp",
+  "experiment_type": [
+   [
+    "Flight Analogs Project (FAP)"
+   ],
+   [
+    "Artificial Gravity (Fractional Gravity)"
+   ],
+   [
+    "NASA Bedrest Studies"
+   ],
+   [
+    "NASA Ground-Based Investigations"
+   ]
+  ],
+  "AssignedArchivist": [
+   "Liddell, Nyaia A."
+  ],
+  "keyword": [
+   "Blood",
+   "Blood chemical analysis",
+   "Urinalysis",
+   "Urine"
+  ],
+  "__record_version": 33,
+  "indexed": "2026-08-23T04:11:46.638991+00:00",
+  "GUID": "cl62azn69cdfx01o6dwbi0nnp",
+  "_file_extension": "human",
+  "archive_status": "Data preservation is complete.  All datasets are publicly available.",
+  "__model_type": "lsda_experiment",
+  "__dirid": "2858df7a-0072-5cb4-ae70-cf73997832a8",
+  "__record_size_wo_doccontent": 39074,
+  "__update_method": "Update CDM",
+  "experiment_identifier": [
+   "MR010G",
+   "Clin Lab"
+  ],
+  "CompleteArchivalExpectedInFiscalYear": [
+   "0"
+  ],
+  "experiment_type_lk": [
+   "Flight Analogs Project (FAP)",
+   "Artificial Gravity (Fractional Gravity)",
+   "NASA Bedrest Studies",
+   "NASA Ground-Based Investigations"
+  ],
+  "__record_modified_date": "2026-08-23T04:11:46.638991+00:00",
+  "__indexed": "2026-08-23T04:11:46.638991+00:00",
+  "alias": [
+   "Clin Lab"
+  ],
+  "__record_creation_date": "2022-07-28T19:57:42.267Z",
+  "__record_size": 39074,
+  "__model_version": 60,
+  "species_sci_name": [
+   [
+    "Homo sapiens"
+   ]
+  ],
+  "payload_id": [
+   "Campaign 19",
+   "CFT70",
+   "DBLS",
+   "HDT30",
+   "Campaign 5",
+   "Campaign 3",
+   "Campaign 1",
+   "ACG"
+  ],
+  "CombinedSpecies": [
+   "Human (Homo sapiens)"
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "ncindex": 2,
+  "researchIndex": [
+   11,
+   6
+  ],
+  "experiment_id": "MR010G",
+  "experiment_related": [
+   "MR010S",
+   "MR010L"
+  ],
+  "parameter_name": [
+   "Alanine aminotransferase (ALT)",
+   "Albumin",
+   "Alkaline phosphatase",
+   "Aspartate aminotransferase (AST)",
+   "Blood urea nitrogen (BUN)",
+   "Calcium",
+   "Creatine kinase",
+   "Creatinine, serum",
+   "Electrolytes",
+   "Ferritin",
+   "Gamma-glutamyl transferase (GGTP)",
+   "Glucose",
+   "Iron",
+   "Iron binding capacity",
+   "Magnesium",
+   "Osteocalcin",
+   "Phosphorus",
+   "Transferrin saturation",
+   "Uric acid",
+   "Bone-specific alkaline phosphatase (BSAP)",
+   "C-reactive protein (CRP)",
+   "Complete blood count (CBC)",
+   "N-telopeptide (NTX)",
+   "Thyroid-stimulating hormone (TSH)",
+   "Bilirubin",
+   "Protein, total"
+  ],
+  "exp_index": 1356,
+  "research_area": [
+   "Hematology",
+   "Clinical medicine"
+  ],
+  "species": [
+   [
+    "Human"
+   ]
+  ],
+  "pme_role_with_name": [
+   "Principal Investigator: McMonigal, Kathleen A."
+  ],
+  "missions": [
+   "Campaign 19",
+   "UTMB Campaign 11",
+   "DBLS",
+   "HDT30",
+   "UTMB Campaign 5",
+   "UTMB Campaign 3",
+   "UTMB Campaign 1",
+   "Campaign 17"
+  ],
+  "PI": [
+   "McMonigal, Kathleen A."
+  ],
+  "sort": [
+   3,
+   "e8ba3dd7-a4a9-5d05-8f99-7e3e8e914dd0"
+  ],
+  "Program": "Ground",
+  "parameter_html": "<table><tr><td>Alanine aminotransferase (ALT)</td></tr><tr><td>Albumin</td></tr><tr><td>Alkaline phosphatase</td></tr><tr><td>Aspartate aminotransferase (AST)</td></tr><tr><td>Blood urea nitrogen (BUN)</td></tr><tr><td>Calcium</td></tr><tr><td>Creatine kinase</td></tr><tr><td>Creatinine, serum</td></tr><tr><td>Electrolytes</td></tr><tr><td>Ferritin</td></tr><tr><td>Gamma-glutamyl transferase (GGTP)</td></tr><tr><td>Glucose</td></tr><tr><td>Iron</td></tr><tr><td>Iron binding capacity</td></tr><tr><td>Magnesium</td></tr><tr><td>Osteocalcin</td></tr><tr><td>Phosphorus</td></tr><tr><td>Transferrin saturation</td></tr><tr><td>Uric acid</td></tr><tr><td>Bone-specific alkaline phosphatase (BSAP)</td></tr><tr><td>C-reactive protein (CRP)</td></tr><tr><td>Complete blood count (CBC)</td></tr><tr><td>N-telopeptide (NTX)</td></tr><tr><td>Thyroid-stimulating hormone (TSH)</td></tr><tr><td>Bilirubin</td></tr><tr><td>Protein, total</td></tr><tr></tr></table>",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:McMonigal, Kathleen A.\">Principal Investigator: McMonigal, Kathleen A.</a>",
+  "PrincipalInvestigator": [
+   "McMonigal, Kathleen A."
+  ],
+  "mission_id": [
+   "Campaign 19",
+   "UTMB Campaign 11",
+   "DBLS",
+   "HDT30",
+   "UTMB Campaign 5",
+   "UTMB Campaign 3",
+   "UTMB Campaign 1",
+   "Campaign 17"
+  ],
+  "__source_field_concat": "human cl62azn69cdfx01o6dwbi0nnp Clin Lab Clinical Laboratory Assessment (Flight Analog) MR010G Ground Data preservation is complete.  All datasets are publicly available.",
+  "__icon_type": "",
+  "__description": "",
+  "__doi": "10.83263/rank-k271",
+  "__doi_record_creation_date": "2026-08-23T04:11:46",
+  "__doi_record_modified_date": "2026-08-23T04:11:46"
+ },
+ "datasets": [
+  {
+   "key": "a36f6361-3492-5590-a675-a0257edf69ac",
+   "label": "MR010G_Campaign_3_Clinical_Laboratory_Assessment",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "UTMB Bedrest Campaign 3 Clinical Laboratory Assessment",
+    "dataset_catalog": "MR010G_Campaign_3_Clinical_Laboratory_Assessment",
+    "dataset_description": "This dataset contains Clinical Laboratory Assessment (MR010G) data generated for subjects who participated in the UTMB Campaign 3 Bed Rest Study.",
+    "processing_level": [
+     "Processed Data"
+    ],
+    "experiment_id": [
+     "MR010G"
+    ]
+   },
+   "meta": "39 files \u00b7 1.20 MB",
+   "date": "2025-09-12",
+   "children": [
+    {
+     "key": "1dee607d-112c-5622-a57b-ca572aa574db",
+     "label": "MR010G_Campaign_3_Clinical_Laboratory_Assessment_C3G_9032",
+     "type": "file",
+     "ext": "",
+     "file_size": 44432,
+     "meta": "43.4 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6614cc0a-94fe-5f03-b66a-a87962639edd",
+     "label": "MR010G_Campaign_3_Clinical_Laboratory_Assessment_C3G_5580",
+     "type": "file",
+     "ext": "",
+     "file_size": 45865,
+     "meta": "44.8 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "dec26790-4fe7-5169-a368-1534962a2ead",
+     "label": "MR010G_Campaign_3_Clinical_Laboratory_Assessment_C3F_9016",
+     "type": "file",
+     "ext": "",
+     "file_size": 33925,
+     "meta": "33.1 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3de6e57c-e4f6-5c9d-bb78-225d7b854118",
+     "label": "MR010G_Campaign_3_Clinical_Laboratory_Assessment_C3C_7772",
+     "type": "file",
+     "ext": "",
+     "file_size": 41069,
+     "meta": "40.1 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8970e7d2-b04d-55f3-9911-1caf0cfcf7a0",
+     "label": "MR010G_Campaign_3_Clinical_Laboratory_Assessment_C3H_ReadMe",
+     "type": "file",
+     "ext": "",
+     "file_size": 0,
+     "meta": "",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "48db202e-7297-5fb7-a5d6-5bc1355506b4",
+     "label": "MR010G_Campaign_3_Clinical_Laboratory_Assessment_C3D_ReadMe",
+     "type": "file",
+     "ext": "",
+     "file_size": 2619,
+     "meta": "2.6 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b84e8b70-965c-57c9-82a2-4d0cfe213ecf",
+     "label": "MR010G_Campaign_3_Clinical_Laboratory_Assessment_C3B_ReadMe",
+     "type": "file",
+     "ext": "",
+     "file_size": 1499,
+     "meta": "1.5 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ffa5722d-bb85-5d22-aa0f-3efbecc45c72",
+     "label": "MR010G_Campaign_3_Clinical_Laboratory_Assessment_C3G_5814",
+     "type": "file",
+     "ext": "",
+     "file_size": 44469,
+     "meta": "43.4 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3555ace2-246f-5e65-8d41-757ff2915971",
+     "label": "MR010G_Campaign_3_Clinical_Laboratory_Assessment_C3F_9947",
+     "type": "file",
+     "ext": "",
+     "file_size": 12196,
+     "meta": "11.9 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "339bc631-1b8c-5f32-a124-5557ba755cac",
+     "label": "MR010G_Campaign_3_Clinical_Laboratory_Assessment_C3G_9314",
+     "type": "file",
+     "ext": "",
+     "file_size": 44486,
+     "meta": "43.4 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3cf9365c-3af3-59a3-ab6c-509d58a5a8f2",
+     "label": "MR010G_Campaign_3_Clinical_Laboratory_Assessment_C3D_7984",
+     "type": "file",
+     "ext": "",
+     "file_size": 51876,
+     "meta": "50.7 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "37d83fb2-72c1-5e86-b0f9-9f43eba4f173",
+     "label": "MR010G_Campaign_3_Clinical_Laboratory_Assessment_C3B_6345",
+     "type": "file",
+     "ext": "",
+     "file_size": 31068,
+     "meta": "30.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "353efd91-9400-52c0-b942-72467444ed62",
+     "label": "MR010G_Campaign_3_Clinical_Laboratory_Assessment_C3E_6043",
+     "type": "file",
+     "ext": "",
+     "file_size": 55276,
+     "meta": "54.0 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b79dc2bc-b2aa-5a09-88f4-00c1820a0d34",
+     "label": "MR010G_Campaign_3_Clinical_Laboratory_Assessment_C3F_5683",
+     "type": "file",
+     "ext": "",
+     "file_size": 11438,
+     "meta": "11.2 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f0e60114-11c3-5f14-8f68-35f6a92cffd6",
+     "label": "MR010G_Campaign_3_Clinical_Laboratory_Assessment_C3F_ReadMe",
+     "type": "file",
+     "ext": "",
+     "file_size": 5001,
+     "meta": "4.9 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e6ed76ed-09dc-57a9-9e7e-cfcd704ee9b8",
+     "label": "MR010G_Campaign_3_Clinical_Laboratory_Assessment_C3A_ReadMe",
+     "type": "file",
+     "ext": "",
+     "file_size": 2452,
+     "meta": "2.4 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1b145909-9eca-55c9-810b-0c6b32256ea0",
+     "label": "MR010G_Campaign_3_Clinical_Laboratory_Assessment_C3C_ReadMe",
+     "type": "file",
+     "ext": "",
+     "file_size": 630,
+     "meta": "630 B",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8bbd14d9-10ea-5b5c-bd2e-6ceec5796f56",
+     "label": "MR010G_Campaign_3_Clinical_Laboratory_Assessment_C3D_8615",
+     "type": "file",
+     "ext": "",
+     "file_size": 54224,
+     "meta": "53.0 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f2adb201-d571-5d11-9774-4f22e3772ed1",
+     "label": "MR010G_Campaign_3_Clinical_Laboratory_Assessment_C3A_0224",
+     "type": "file",
+     "ext": "",
+     "file_size": 31390,
+     "meta": "30.7 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7982145e-976b-5319-976e-57d8ddd707ae",
+     "label": "MR010G_Campaign_3_Clinical_Laboratory_Assessment_C3A_5788",
+     "type": "file",
+     "ext": "",
+     "file_size": 34658,
+     "meta": "33.8 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "20a0f4c4-8189-597c-8793-0054937f9b79",
+     "label": "MR010G_Campaign_3_Clinical_Laboratory_Assessment_C3E_ReadMe",
+     "type": "file",
+     "ext": "",
+     "file_size": 2958,
+     "meta": "2.9 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b4439661-3a84-59e4-96f6-b23fa29636e2",
+     "label": "MR010G_Campaign_3_Clinical_Laboratory_Assessment_C3A_0992",
+     "type": "file",
+     "ext": "",
+     "file_size": 31533,
+     "meta": "30.8 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0a174ef9-100c-554f-881a-9adb551d914d",
+     "label": "MR010G_Campaign_3_Clinical_Laboratory_Assessment_C3G_ReadMe",
+     "type": "file",
+     "ext": "",
+     "file_size": 8476,
+     "meta": "8.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9ffcc0fc-9bb6-5ce6-867f-a23e23e4747a",
+     "label": "MR010G_Campaign_3_Clinical_Laboratory_Assessment_C3G_6858",
+     "type": "file",
+     "ext": "",
+     "file_size": 46290,
+     "meta": "45.2 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "726e5129-4b79-55a1-8202-26a3f27e597e",
+     "label": "MR010G_Campaign_3_Clinical_Laboratory_Assessment_C3B_3768",
+     "type": "file",
+     "ext": "",
+     "file_size": 31893,
+     "meta": "31.1 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d39b413f-cc2e-5227-9204-b887c1a3853f",
+     "label": "MR010G_Campaign_3_Clinical_Laboratory_Assessment_C3D_8881",
+     "type": "file",
+     "ext": "",
+     "file_size": 51955,
+     "meta": "50.7 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a2d3ff2f-16af-5cb6-8e78-aaf416dd3155",
+     "label": "MR010G_Campaign_3_Clinical_Laboratory_Assessment_C3H_5907",
+     "type": "file",
+     "ext": "",
+     "file_size": 44357,
+     "meta": "43.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8e80441e-2800-5600-bce6-afdbb50efe6e",
+     "label": "MR010G_Campaign_3_Clinical_Laboratory_Assessment_C3B_7127",
+     "type": "file",
+     "ext": "",
+     "file_size": 30497,
+     "meta": "29.8 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c9aea5b1-7bcf-54f0-8253-b56db1aaf2f6",
+     "label": "MR010G_Campaign_3_Clinical_Laboratory_Assessment_C3F_8454",
+     "type": "file",
+     "ext": "",
+     "file_size": 23877,
+     "meta": "23.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b98437e1-238b-5d6f-9696-f4edcd41e0c9",
+     "label": "MR010G_Campaign_3_Clinical_Laboratory_Assessment_C3D_8779",
+     "type": "file",
+     "ext": "",
+     "file_size": 54379,
+     "meta": "53.1 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7f4e214f-e864-5047-9f29-03cd588d5f65",
+     "label": "MR010G_Campaign_3_Clinical_Laboratory_Assessment_C3G_9139",
+     "type": "file",
+     "ext": "",
+     "file_size": 44415,
+     "meta": "43.4 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e855df5f-f3b3-57e1-b481-b2e3a4ab0755",
+     "label": "MR010G_Campaign_3_Clinical_Laboratory_Assessment_C3E_6607",
+     "type": "file",
+     "ext": "",
+     "file_size": 44724,
+     "meta": "43.7 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "55e71de4-93fc-5870-bd10-35363e96f08c",
+     "label": "MR010G_Campaign_3_Clinical_Laboratory_Assessment_C3B_4023",
+     "type": "file",
+     "ext": "",
+     "file_size": 31991,
+     "meta": "31.2 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "921bded6-7a86-5092-bddd-8e86fa4075d8",
+     "label": "MR010G_Campaign_3_Clinical_Laboratory_Assessment_C3D_5165",
+     "type": "file",
+     "ext": "",
+     "file_size": 52137,
+     "meta": "50.9 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "af0aa1a3-4883-50af-8276-824f2663bf6f",
+     "label": "MR010G_Campaign_3_Clinical_Laboratory_Assessment_C3D_3985",
+     "type": "file",
+     "ext": "",
+     "file_size": 51935,
+     "meta": "50.7 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "535030ac-a94d-53b6-aeca-dc06eca6c0db",
+     "label": "MR010G_Campaign_3_Clinical_Laboratory_Assessment_C3C_7352",
+     "type": "file",
+     "ext": "",
+     "file_size": 40990,
+     "meta": "40.0 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d41b6fc0-8470-5da4-bcb7-151661bed919",
+     "label": "MR010G_Campaign_3_Clinical_Laboratory_Assessment_C3F_5705",
+     "type": "file",
+     "ext": "",
+     "file_size": 23811,
+     "meta": "23.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2919a6e7-6aca-5554-95f1-1138b00c318f",
+     "label": "MR010G_Campaign_3_Clinical_Laboratory_Assessment_C3G_9485",
+     "type": "file",
+     "ext": "",
+     "file_size": 44311,
+     "meta": "43.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "38ed98a1-d2e6-577f-8292-2f2d5fd4329a",
+     "label": "MR010G_Campaign_3_Clinical_Laboratory_Assessment_C3D_7961",
+     "type": "file",
+     "ext": "",
+     "file_size": 51868,
+     "meta": "50.7 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "042df6cd-2a1a-59f7-903f-c32ab3b7c9de",
+   "label": "MR010G_Campaign_1_Clinical_Laboratory_Assessment",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "UTMB Bedrest Campaign 1 Clinical Laboratory Assessments",
+    "dataset_catalog": "MR010G_Campaign_1_Clinical_Laboratory_Assessment",
+    "dataset_description": "This dataset contains data resulting from the Clinical Laboratory Assessment (MR010G) tests performed on three subjects who completed the Campaign 1 Bed Rest Study. MR010G measured subjects' blood and urine periodically four times during the bed rest study.",
+    "processing_level": "Processed Data",
+    "experiment_id": [
+     "MR010G"
+    ]
+   },
+   "meta": "9 files \u00b7 13.5 KB",
+   "date": "2025-04-15",
+   "children": [
+    {
+     "key": "71092b88-28e4-58d5-804a-b3134bc70308",
+     "label": "MR010G_Campaign_1_ReadMe",
+     "type": "file",
+     "ext": "",
+     "file_size": 2710,
+     "meta": "2.6 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3d4a76b8-3a88-5d2d-94a0-bccffd279ae9",
+     "label": "MR010G_Campaign_1_Thyroid_Profile",
+     "type": "file",
+     "ext": "",
+     "file_size": 997,
+     "meta": "997 B",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7a2c2815-df19-5f2b-a53d-c121c7282daa",
+     "label": "MR010G_Campaign_1_Urinalysis",
+     "type": "file",
+     "ext": "",
+     "file_size": 1857,
+     "meta": "1.8 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "17fa7867-bfff-5a79-befa-5ea33fe1e9d5",
+     "label": "MR010G_Campaign_1_Diff_Panel",
+     "type": "file",
+     "ext": "",
+     "file_size": 1136,
+     "meta": "1.1 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3c468917-54b1-5b86-a8be-dbde8a6da9ed",
+     "label": "MR010G_Campaign_1_Hematology_Coulter",
+     "type": "file",
+     "ext": "",
+     "file_size": 1561,
+     "meta": "1.5 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "814b45ef-7a25-5e6c-b442-362e46c8ef14",
+     "label": "MR010G_Campaign_1_Other",
+     "type": "file",
+     "ext": "",
+     "file_size": 1255,
+     "meta": "1.2 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "25f2de9a-f322-5850-acf0-67f3c6bb5cd6",
+     "label": "MR010G_Campaign_1_Iron_Profile",
+     "type": "file",
+     "ext": "",
+     "file_size": 1120,
+     "meta": "1.1 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6e417570-682c-5085-9952-327e0b365989",
+     "label": "MR010G_Campaign_1_Ionoized_Calcium",
+     "type": "file",
+     "ext": "",
+     "file_size": 1036,
+     "meta": "1.0 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f70e65f5-cd3c-58a5-8049-ade939e66204",
+     "label": "MR010G_Campaign_1_Flight_Chem_Profile",
+     "type": "file",
+     "ext": "",
+     "file_size": 2148,
+     "meta": "2.1 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

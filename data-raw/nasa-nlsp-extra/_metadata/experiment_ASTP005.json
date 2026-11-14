@@ -1,0 +1,248 @@
+{
+ "record": {
+  "id": "46937716-bb2f-5008-83cd-e23c4da4ab26",
+  "_id": "46937716-bb2f-5008-83cd-e23c4da4ab26",
+  "experiment_title": "Flight Crew Health Stabilization Program",
+  "archive_status_index": 1,
+  "pub_document_number": "PUB000360",
+  "parameter_html": "<table><tr><td>Bronchitis</td></tr><tr><td>Fever</td></tr><tr><td>Headache</td></tr><tr><td>Hemagglutination</td></tr><tr><td>Lower enteric illness</td></tr><tr><td>Pneumonia</td></tr><tr><td>Rapid plasma reagin test</td></tr><tr><td>Skin infection</td></tr><tr><td>Upper enteric illness</td></tr><tr><td>Upper respiratory infection</td></tr><tr><td>White blood cell count</td></tr><tr><td>C-reactive protein (CRP)</td></tr><tr><td>Serum glutamic oxaloacetic transaminase (SGOT)</td></tr><tr></tr></table>",
+  "__source_key": "cl62aulb7cbqb01o61en6aw81",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Ferguson, James\">Principal Investigator: Ferguson, James</a>",
+  "experiment_type_lk": [
+   "Apollo-Soyuz Test Project (ASTP)"
+  ],
+  "__record_modified_date": "2026-08-23T04:06:58.628926+00:00",
+  "proposal_source": [
+   "N/A"
+  ],
+  "__indexed": "2026-08-23T04:06:58.628926+00:00",
+  "__record_creation_date": "2022-07-28T19:39:44.701Z",
+  "keyword": [
+   "Population surveillance",
+   "Allergy and immunology",
+   "Clinical medicine",
+   "Primary prevention"
+  ],
+  "keyword_name": "Primary prevention",
+  "__record_size": 133385,
+  "__record_version": 29,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES: <br>\r\nDuring the early manned space flight program, the threat of an infectious disease occurrence in one or more crewmembers was always present.  The risk of infection during the Gemini and Mercury missions was judged to be very low because of their short durations; however, some precautions, such as restricted access to the crew living quarters, were still taken to reduce the risk of crewmembers being exposed to disease.\r\n<P>\r\nWith the increased length of missions during the Apollo program, these health risks increased.  When clinical illnesses impacted preflight mission operations during Apollo 9 and 13, it became apparent that some type of preflight health stabilization program was imperative.  Prior to Apollo 14, 57 percent of the Apollo crewmembers experienced some illness of varying degrees of severity at some time during the 21 days before launch.  Based on observations of the first several Apollo flights and on the observation of crewmember activities during the Mercury and Gemini missions, the Flight Crew Health Stabilization Program (FCHSP) was developed and implemented for Apollo 14 and subsequent missions.  The success of the FCHSP during the Apollo and Skylab missions was evidenced by absence or reduction of preflight, inflight, and postflight illnesses.\r\n<P>\r\nDuring the Apollo-Soyuz Test Project (ASTP), the FCHSP objectives remained the same: to minimize or eliminate the possibility of adverse alterations in the health of the crews during the immediate preflight, inflight and postflight periods.\r\n<P>\r\nAPPROACH: <br>\r\nAs a preventive measure, crew health was stabilized by implementation of partial isolation techniques.  Personal contact with the prime and backup crews was limited to properly badged and medically monitored primary contacts during the last day 21 days before launch.\r\n<P>\r\nMedical Examination for Primary Contacts: <br>\r\nAll persons who required contact with the crew or who worked in areas with the crew were subjected to medical examinations and surveillance to determine their freedom from infectious disease.  These persons, identified as prospective primary contacts, underwent initial physical examinations with emphasis on the detection of infectious disease.  An identification list of prospective primary contacts was made available to the Medical Surveillance Office 90 days before launch.  The examining physician evaluated all medical data on each person and approved him or her as a primary contact only if the individual was considered free of infectious disease.  Chest x-rays and skin tests for tuberculosis were administered, in addition to the collection of specimens for serological and bacteriological evaluations.  \r\n<P>\r\nSerological examination included: white blood cell (WEB) count (followed by differential count if the white cell count was greater than 10000 or less than 5000), C-reactive protein (CRP), serum glutamic oxolacetic transaminase (SGOT), rapid plasma reagin test, and hemagglutination or neutralization tests for titers of mumps, rubella, and rubeola.\r\n<P>\r\nBacteriological examination included throat culture for pathogens, stool cultures for pathogens, and urinalysis.  Bacteriological examinations were conducted for food handlers, maids for crew quarters, and only where medically indicated for other primary contact candidates.\r\n<P>\r\nAll primary contacts were required to have current immunizations for diphtheria, tetanus, polio, mumps, rubella, and rubeola.  Vaccines were not given to persons who showed an immune titer response to mumps, rubella, and rubeola.  \r\n<P>\r\nCrew Contacts: <br>\r\nThe number of personal contacts to the crew was limited to essential personnel during the FCHSP preflight period.  Once individuals had obtained medical approval, they were designated primary contacts.  Only medically approved primary contacts were allowed in direct contact with the crew or allowed in work areas used by the crew.  Primary contacts that became ill were removed from the approved list of primary contacts and denied access to the crew until such time that they were free from the infectious agent.\r\n<P>\r\nMedical Surveillance:<br>\r\nMedical surveillance was initiated to detect illness occurrences and early indications of illness in the primary contact population.  Active surveillance was provided at the primary work areas during the times when the crew was present.  A nurse or physician was stationed at the entrance to the primary location where the crew would be working.  Each primary contact was required to undergo an examination prior to gaining access to the primary area.  The examination consisted of, at a minimum, a throat exam and a temperature check.  If any abnormalities were detected, a more thorough examination was performed.\r\n<P>\r\nFor food handlers and custodial staff, more complete examinations were conducted 21, 14, and 7 days prior to launch.  These examinations consisted of: throat examination and temperature reading, WBC count (with differential count if the WBC count is less than 5000 or greater than 10000), CRP test, rapid plasma reagin test, urinalysis, and throat and stool cultures for pathogenic microorganisms.\r\n<P>\r\nPrimary contacts reported their illnesses and exposures to illness to the Medical Surveillance Office.  Basic epidemiological information on primary contact illnesses and exposures to illness was recorded during the isolation period.  This data included:\r\n<P>\r\na) Illness occurrence by type, number, and date; <BR>\r\nb) Illness exposure occurrence by type, number and date; <BR>\r\nc) Total number of primary contacts; <BR>\r\nd) Data from examination at the door of each primary area (weekly total of the number of primary contacts examined, number of examining days per primary area, and number of primary contacts referred for more detailed medical examinations); <BR>\r\ne) Record of crew exposures, if any, by type of illness exposure, time and date, and an epidemiological history of the person's illness.  \r\n<P>\r\nEach illness report was medically evaluated.  Medical examinations and laboratory tests were given when necessary.\r\n<P>\r\nAreas for Crew Contact: <br>\r\nPreflight crew activities were limited to primary areas (defined as those areas that were required for any crew activity or lodging).  Access to the primary areas during crew occupancy or 2 hours prior to crew presence was limited to only properly badged and primary contacts.  All primary contacts wore surgical masks at all times when within 2 meters of the crew.  The crew was isolated from all non-primary personnel at all times, even during transfer from one primary area to another.\r\n<P>\r\nIn the event of emergencies or unforeseen essential operations, limited access to primary areas or the crew could be granted to non-primary personnel by the joint concurrence of the Director of Flight Operations and the ASTP Medical Director.  The non-primary personnel wore highly efficient biological filtering masks during the period of access.\r\n<P>\r\nRESULTS: <br>\r\nThe FCHSP was successfully completed with the recovery of the crewmen at the close of the mission.  Surveillance of the health status of primary contacts began on June 2, 1975 and continued through July 24, 1975 (53 days).  The total number of primary contacts under surveillance reached 381.\r\n<P>\r\nThe rate of illnesses reported by the primary contacts was 12.4 illnesses per 1000 persons per week.  The rate of contacts to illness reported was 3 per 1000 persons per week.  No infectious illness occurred in any of the crewmen during the period of time they were covered by the program.\r\n<END>",
+  "payload_id": "ASTP",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "ASTP005",
+  "indexed": "2026-08-23T04:06:58.628926+00:00",
+  "GUID": "cl62aulb7cbqb01o61en6aw81",
+  "parameter_name": [
+   "Bronchitis",
+   "Fever",
+   "Headache",
+   "Hemagglutination",
+   "Lower enteric illness",
+   "Pneumonia",
+   "Rapid plasma reagin test",
+   "Skin infection",
+   "Upper enteric illness",
+   "Upper respiratory infection",
+   "White blood cell count",
+   "C-reactive protein (CRP)",
+   "Serum glutamic oxaloacetic transaminase (SGOT)"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 405,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Clinical medicine",
+   "Immunology"
+  ],
+  "pme_role_with_name": [
+   "Principal Investigator: Ferguson, James"
+  ],
+  "missions": [
+   [
+    [
+     "ASTP"
+    ]
+   ]
+  ],
+  "__dirid": "46937716-bb2f-5008-83cd-e23c4da4ab26",
+  "__record_size_wo_doccontent": 133385,
+  "PI": [
+   "Ferguson, James"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "ASTP005"
+  ],
+  "mission_id": [
+   [
+    [
+     "ASTP"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Ferguson, James"
+  ],
+  "program_name": [
+   "Apollo-Soyuz Test Project (ASTP)"
+  ],
+  "archive_status": "Data preservation is complete. All datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Apollo-Soyuz Test Project (ASTP)",
+  "__source_field_concat": "PUB000360 ASTP cl62aulb7cbqb01o61en6aw81 Primary prevention  N/A Flight Crew Health Stabilization Program ASTP005 Apollo-Soyuz Test Project (ASTP) Data preservation is complete. All datasets are publicly available.",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES: <br>\r\nDuring the early manned space flight program, the threat of an infectious disease occurrence in one or more crewmembers was always present.  The risk of infection during the Gemini and Mercury missions was judged to be very low because of their short durations; however, some precautions, such as restricted access to the crew living quarters, were still taken to reduce the risk of crewmembers being exposed to disease.\r\n<P>\r\nWith the increased length of missions during the Apollo program, these health risks increased.  When clinical illnesses impacted preflight mission operations during Apollo 9 and 13, it became apparent that some type of preflight health stabilization program was imperative.  Prior to Apollo 14, 57 percent of the Apollo crewmembers experienced some illness of varying degrees of severity at some time during the 21 days before launch.  Based on observations of the first several Apollo flights and on the observation of crewmember activities during the Mercury and Gemini missions, the Flight Crew Health Stabilization Program (FCHSP) was developed and implemented for Apollo 14 and subsequent missions.  The success of the FCHSP during the Apollo and Skylab missions was evidenced by absence or reduction of preflight, inflight, and postflight illnesses.\r\n<P>\r\nDuring the Apollo-Soyuz Test Project (ASTP), the FCHSP objectives remained the same: to minimize or eliminate the possibility of adverse alterations in the health of the crews during the immediate preflight, inflight and postflight periods.\r\n<P>\r\nAPPROACH: <br>\r\nAs a preventive measure, crew health was stabilized by implementation of partial isolation techniques.  Personal contact with the prime and backup crews was limited to properly badged and medically monitored primary contacts during the last day 21 days before launch.\r\n<P>\r\nMedical Examination for Primary Contacts: <br>\r\nAll persons who required contact with the crew or who worked in areas with the crew were subjected to medical examinations and surveillance to determine their freedom from infectious disease.  These persons, identified as prospective primary contacts, underwent initial physical examinations with emphasis on the detection of infectious disease.  An identification list of prospective primary contacts was made available to the Medical Surveillance Office 90 days before launch.  The examining physician evaluated all medical data on each person and approved him or her as a primary contact only if the individual was considered free of infectious disease.  Chest x-rays and skin tests for tuberculosis were administered, in addition to the collection of specimens for serological and bacteriological evaluations.  \r\n<P>\r\nSerological examination included: white blood cell (WEB) count (followed by differential count if the white cell count was greater than 10000 or less than 5000), C-reactive protein (CRP), serum glutamic oxolacetic transaminase (SGOT), rapid plasma reagin test, and hemagglutination or neutralization tests for titers of mumps, rubella, and rubeola.\r\n<P>\r\nBacteriological examination included throat culture for pathogens, stool cultures for pathogens, and urinalysis.  Bacteriological examinations were conducted for food handlers, maids for crew quarters, and only where medically indicated for other primary contact candidates.\r\n<P>\r\nAll primary contacts were required to have current immunizations for diphtheria, tetanus, polio, mumps, rubella, and rubeola.  Vaccines were not given to persons who showed an immune titer response to mumps, rubella, and rubeola.  \r\n<P>\r\nCrew Contacts: <br>\r\nThe number of personal contacts to the crew was limited to essential personnel during the FCHSP preflight period.  Once individuals had obtained medical approval, they were designated primary contacts.  Only medically approved primary contacts were allowed in direct contact with the crew or allowed in work areas used by the crew.  Primary contacts that became ill were removed from the approved list of primary contacts and denied access to the crew until such time that they were free from the infectious agent.\r\n<P>\r\nMedical Surveillance:<br>\r\nMedical surveillance was initiated to detect illness occurrences and early indications of illness in the primary contact population.  Active surveillance was provided at the primary work areas during the times when the crew was present.  A nurse or physician was stationed at the entrance to the primary location where the crew would be working.  Each primary contact was required to undergo an examination prior to gaining access to the primary area.  The examination consisted of, at a minimum, a throat exam and a temperature check.  If any abnormalities were detected, a more thorough examination was performed.\r\n<P>\r\nFor food handlers and custodial staff, more complete examinations were conducted 21, 14, and 7 days prior to launch.  These examinations consisted of: throat examination and temperature reading, WBC count (with differential count if the WBC count is less than 5000 or greater than 10000), CRP test, rapid plasma reagin test, urinalysis, and throat and stool cultures for pathogenic microorganisms.\r\n<P>\r\nPrimary contacts reported their illnesses and exposures to illness to the Medical Surveillance Office.  Basic epidemiological information on primary contact illnesses and exposures to illness was recorded during the isolation period.  This data included:\r\n<P>\r\na) Illness occurrence by type, number, and date; <BR>\r\nb) Illness exposure occurrence by type, number and date; <BR>\r\nc) Total number of primary contacts; <BR>\r\nd) Data from examination at the door of each primary area (weekly total of the number of primary contacts examined, number of examining days per primary area, and number of primary contacts referred for more detailed medical examinations); <BR>\r\ne) Record of crew exposures, if any, by type of illness exposure, time and date, and an epidemiological history of the person's illness.  \r\n<P>\r\nEach illness report was medically evaluated.  Medical examinations and laboratory tests were given when necessary.\r\n<P>\r\nAreas for Crew Contact: <br>\r\nPreflight crew activities were limited to primary areas (defined as those areas that were required for any crew activity or lodging).  Access to the primary areas during crew occupancy or 2 hours prior to crew presence was limited to only properly badged and primary contacts.  All primary contacts wore surgical masks at all times when within 2 meters of the crew.  The crew was isolated from all non-primary personnel at all times, even during transfer from one primary area to another.\r\n<P>\r\nIn the event of emergencies or unforeseen essential operations, limited access to primary areas or the crew could be granted to non-primary personnel by the joint concurrence of the Director of Flight Operations and the ASTP Medical Director.  The non-primary personnel wore highly efficient biological filtering masks during the period of access.\r\n<P>\r\nRESULTS: <br>\r\nThe FCHSP was successfully completed with the recovery of the crewmen at the close of the mission.  Surveillance of the health status of primary contacts began on June 2, 1975 and continued through July 24, 1975 (53 days).  The total number of primary contacts under surveillance reached 381.\r\n<P>\r\nThe rate of illnesses reported by the primary contacts was 12.4 illnesses per 1000 persons per week.  The rate of contacts to illness reported was 3 per 1000 persons per week.  No infectious illness occurred in any of the crewmen during the period of time they were covered by the program.\r\n<END>",
+  "__doi": "10.83263/4xrs-8152",
+  "__doi_record_creation_date": "2026-08-23T04:06:58",
+  "__doi_record_modified_date": "2026-08-23T04:06:58"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000624",
+   "label": "J0001207",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Number of Primary Contacts per Location and Reports of Illness",
+    "dataset_catalog": "J0001207",
+    "dataset_description": [
+     "This spreadsheet shows the total number of ASTP primary contacts and their locations, as well as the number of illnesses and exposures to illness experienced.  Primary contacts reported their  illnesses and exposures to illness to the Medical Surveillance Office.  This data was reported in:\u000b<p>\u000bFerguson JK.  Flight Crew Health Stabilization Program.  In: Nicogossian AE, compiler. <i>The Apollo-Soyuz Test Project Medical Report</i>.  Washington, DC: NASA Headquarters; 1977:41-43.  Report No.: NASA-SP-411. <end>"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "ASTP005"
+    ]
+   },
+   "meta": "1 file \u00b7 14.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "08990f48-1bc8-54c0-be26-99f87f651d4a",
+     "label": "JMASTPASTP005_115.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 14336,
+     "meta": "14.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002091",
+   "label": "J0001205",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Types of Illnesses Reported by Primary Contacts",
+    "dataset_catalog": "J0001205",
+    "dataset_description": [
+     "The ASTP primary contacts reported a variety of illnesses during the surveillance period.  This table provides a summary of the types of illnesses and the number of occurrences of each.  This data was reported in:\r\n<p>\r\nFerguson JK.  Flight Crew Health Stabilization Program.  In: Nicogossian AE, compiler. <i>The Apollo-Soyuz Test Project Medical Report</i>.  Washington, DC: NASA Headquarters; 1977:41-43.  Report No.: NASA-SP-411. <end>"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "ASTP005"
+    ]
+   },
+   "meta": "1 file \u00b7 15.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "57b89ad9-20c2-55a3-897d-423c035c0ef8",
+     "label": "JMASTPASTP005_113.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 15360,
+     "meta": "15.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000444",
+   "label": "J0001208",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Active Surveillance of Primary Contacts",
+    "dataset_catalog": "J0001208",
+    "dataset_description": [
+     "Active surveillance of primary contacts was provided at the primary work areas during times when the crew was present.  Throat and temperature checks were made once daily on each primary contact entering the primary work area.  This table shows the results of the active surveillance and was reported in:\u000b<p>\u000bFerguson JK.  Flight Crew Health Stabilization Program.  In: Nicogossian AE, compiler. <i>The Apollo-Soyuz Test Project Medical Report</i>.  Washington, DC: NASA Headquarters; 1977:41.  Report No.: NASA-SP-411. <end>"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "ASTP005"
+    ]
+   },
+   "meta": "1 file \u00b7 14.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "d5d6579f-e98f-5719-ade1-797c1d237d96",
+     "label": "JMASTPASTP005_116.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 14336,
+     "meta": "14.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002092",
+   "label": "J0001206",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Exposures to Illness Reported by Primary Contacts",
+    "dataset_catalog": "J0001206",
+    "dataset_description": [
+     "ASTP primary contacts were required to report any contact with persons who were ill.  This table lists the various illnesses to which the primary contacts were exposed.  This data was reported in:\u000b<p>\u000bFerguson JK.  Flight Crew Health Stabilization Program.  In: Nicogossian AE, compiler. <i>The Apollo-Soyuz Test Project Medical Report</i>.  Washington, DC: NASA Headquarters; 1977:41-43.  Report No.: NASA-SP-411. <end>"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "ASTP005"
+    ]
+   },
+   "meta": "1 file \u00b7 15.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "0f744e08-a032-5aaa-8076-f43791285cc8",
+     "label": "JMASTPASTP005_114.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 15360,
+     "meta": "15.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

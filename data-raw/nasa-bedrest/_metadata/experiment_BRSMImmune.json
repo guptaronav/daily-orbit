@@ -1,0 +1,667 @@
+{
+ "record": {
+  "id": "e21cc209-b6c4-5b47-b33b-6e31f51b784f",
+  "_id": "e21cc209-b6c4-5b47-b33b-6e31f51b784f",
+  "__is_locked": false,
+  "experiment_title": "Bed Rest Standard Measures: General Immunity",
+  "__source_key": "cl62azr8gcdgw01o6brgafcas",
+  "experiment_type": [
+   [
+    "Flight Analogs Project (FAP)"
+   ],
+   [
+    "Artificial Gravity (Fractional Gravity)"
+   ],
+   [
+    "NASA Bedrest Studies"
+   ],
+   [
+    "NASA Ground-Based Investigations"
+   ]
+  ],
+  "AssignedArchivist": [
+   "None Selected",
+   "Liddell, Nyaia A."
+  ],
+  "keyword": [
+   "Bed rest",
+   "Cytomegalovirus/immunology",
+   "Immune system",
+   "Virus latency/physiology",
+   "Virus shedding/physiology",
+   "Stress, psychological/immunology",
+   "Herpesviridae/immunology"
+  ],
+  "__record_version": 32,
+  "experiment_description": "OBJECTIVES:<br>\nProlonged exposure to reduced gravity, physiological stress or other factors associated with space flight may result in immune system dysregulation.  Latent herpesvirus reactivation, a measurable result of dysregulated immunity, has been detected in crewmembers during and immediately following space missions.  \n<div>\nA panel of assays was designed to monitor immune system dysregulation, viral reactivation, and physiological stress.  These assays will be applied to a future ISS/Shuttle Supplemental Medical Objective (SMO).  This assay panel is also appropriate to monitor the status and function of the immune system, viral reactivation, and physiological stress during ground-based analog studies.   These assays will be included on all future bed rest campaigns for the purpose of monitoring the immune status of the participants.  While bed rest is not the most appropriate model for space flight-associated immune dysregulation, it is possible that the various countermeasures proposed for evaluation during bed rest may affect immune function.  For this reason, the immune function of the participants will be monitored.\n</div><div>\nAPPROACH:<br>\nThere have been comparatively few flight studies investigating the effect of space flight on the human immune system.  Those studies that have been performed may be subdivided into the following categories:  (A) in flight culture of immune cells; (B) postflight assessments of crewmembers;  (C) in flight crewmember immune assessments.   These data were recently reviewed by Dr. Gerald Sonnenfeld and are summarized as follows:\n</div><div>\nA.  In flight culture of immune cells<br>\n\nHuman studies have indicated that space flight changes human cell culture activities such as leukocyte blastogenesis, production of cytokines, and signal transduction of leukocytes.  Studies on animal cell cultures have also shown altered cytokine production and macrophage hematopoesis and function.   \n</div><div>\nB.  Postflight assessments of crewmembers<br>\n\nMost human space flight immunologic studies have explored the effects of space flight on cell-mediated immunity.  Inhibited mitogen-induced blastogenesis of leukocytes has been observed in cells obtained from astronauts and cosmonauts after the Apollo-Soyuz test project, Skylab, Space Shuttle and Soyuz flights.   Altered leukocyte subset distribution, altered cytokine production and altered natural killer (NK) cell activity have also been found to be altered immediately postflight.  \n</div><div>\nC.  In flight assessments of crewmembers<br>\n\nPrecious few studies have been performed using astronaut subjects during space flight.   Delayed hypersensitivity skin tests to common recall antigens were inhibited during short term and long term space flights.  On Space Shuttle mission STS-71 a novel device for staining whole blood samples with fluorescent antibodies was flight tested using three MIR-18 crewmembers as subjects.  Blood was collected and stained at a single timepoint late in the mission.  Only the bulk leukocyte and lymphocyte subsets were evaluated and no change was found in these crewmembers.  Recently, an in flight assessment of latent viral reactivation was performed using flight-collected saliva samples.  Latent viral reactivation is thought to directly correlate with diminished immune function.  The data showed that latent herpesviruses reactivate during flight to high levels. This is important since persistent viruses have been associated with non-Hodkins lymphoma tumors.  A short term space flight study on Shuttle assessed total antibody levels and found no change in total immunoglobulin levels, whereas a long-duration Soviet mission indicated small increases in total immunoglobulin levels.\n</div><div>\nIn the investigator's previous studies of astronauts, investigators found altered peripheral leukocyte distribution, altered cytokine production profiles, elevated levels of latent viral reactivation and elevated levels of cortisol during or immediately following long and short duration space flight.  In addition, significant increases in stress hormones (i.e., cortisol, catecholamines) were found after landing. Notably, investigators found increased shedding of Epstein-Barr virus (EBV) and cytomegalovirus (CMV), two medically important herpesviruses, during space flight along with evidence of decreased cellular immunity. These increases in stress hormones directly correlated with CMV and EBV reactivation. Thus, latent herpesvirus reactivation in these astronauts may have resulted from both direct (i.e., stress hormones) and indirect (i.e., decreased immune function) mechanisms stemming from launch and landing acceleration. These results underscore the need to determine the causes underlying immune suppression in space in order to develop countermeasures.\n</div><div>\nRESULTS:<br>\nIn general, subjects did not display altered peripheral leukocyte subsets, constitutive immune activation, altered T cell function, or significant latent viral reactivation (EBV, VZV). Levels of constitutively activated T cells (CD8+/CD69+) and virus-specific T cells (CMV and EBV) decreased during the study. Cortisol levels (plasma and saliva) did not vary significantly during 90-day bed rest. \n</div><div>\n<i>Conclusions:</i> These data demonstrate the absence of significant immune system alteration and physiological stress during 90-day bed rest, and establish control data against which future studies (including countermeasures) may be compared.</div>",
+  "indexed": "2026-08-23T04:24:56.519185+00:00",
+  "GUID": "cl62azr8gcdgw01o6brgafcas",
+  "_file_extension": "human",
+  "archive_status": "Data preservation is complete.  All datasets are publicly available.",
+  "__model_type": "lsda_experiment",
+  "__dirid": "e21cc209-b6c4-5b47-b33b-6e31f51b784f",
+  "__record_size_wo_doccontent": 116900,
+  "__update_method": "Update CDM",
+  "experiment_identifier": [
+   "BRSMImmune"
+  ],
+  "CompleteArchivalExpectedInFiscalYear": [
+   "0"
+  ],
+  "experiment_type_lk": [
+   "Flight Analogs Project (FAP)",
+   "Artificial Gravity (Fractional Gravity)",
+   "NASA Bedrest Studies",
+   "NASA Ground-Based Investigations"
+  ],
+  "__record_modified_date": "2026-08-23T04:24:56.519185+00:00",
+  "nasa_center": "JSC",
+  "__indexed": "2026-08-23T04:24:56.519185+00:00",
+  "__record_creation_date": "2022-07-28T19:56:09.511Z",
+  "__record_size": 116900,
+  "species_strain": [
+   [
+    "N/A"
+   ]
+  ],
+  "__model_version": 60,
+  "species_sci_name": [
+   [
+    "Homo sapiens"
+   ]
+  ],
+  "payload_id": [
+   "CFT70",
+   "DBLS",
+   "Campaign 5",
+   "Pilot",
+   "Campaign 3"
+  ],
+  "CombinedSpecies": [
+   "Human (Homo sapiens) N/A"
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "ncindex": 2,
+  "researchIndex": [
+   14
+  ],
+  "experiment_id": "BRSMImmune",
+  "center": "JSC",
+  "parameter_name": [
+   "B cells",
+   "CD4+ T cells",
+   "CD8+ T cells",
+   "Early activated CD4+ T cells",
+   "Early activated CD8+ T cells",
+   "Granulocytes",
+   "Late activated CD4+ T cells",
+   "Late activated CD8+ T cells",
+   "Lymphocytes",
+   "Memory CD4+ T Cells",
+   "Memory CD8+ T cells",
+   "Monocytes",
+   "Naive CD4+ T Cells",
+   "Naive CD8+ T cells",
+   "T cells",
+   "CD4+ T cells, anti-CD3/CD28 mitogen",
+   "CD4+ T cells, SEA+SEB mitogen",
+   "CD8+ T cells, anti-CD3/CD28 mitogen",
+   "CD8+ T cells, SEA+SEB mitogen",
+   "Interferon gamma-positive CD4+ T cells (IFNg+ CD4+ T cells)",
+   "Interferon gamma-positive CD8+ T cells (IFNg+ CD8+ T cells)",
+   "Interleukin-2-positive CD4+ T cells (IL2+ CD4+ T cells)",
+   "Interleukin-2-positive CD8+ T cells (IL2+ CD8+ T cells)",
+   "Natural killer (NK) cells"
+  ],
+  "exp_index": 1283,
+  "research_area": [
+   "Immunology"
+  ],
+  "species": [
+   [
+    "Human"
+   ]
+  ],
+  "pme_role_with_name": [
+   "Co-Investigator: Crucian, Brian E.",
+   "Principal Investigator: Sams, Clarence F."
+  ],
+  "missions": [
+   "UTMB Campaign 11",
+   "DBLS",
+   "UTMB Campaign 5",
+   "Pilot",
+   "UTMB Campaign 3"
+  ],
+  "PI": [
+   "Sams, Clarence F."
+  ],
+  "sort": [
+   3,
+   "f41ec732-984e-5368-ae1c-a1723aaa5cc4"
+  ],
+  "parameter_html": "<table><tr><td>B cells</td></tr><tr><td>CD4+ T cells</td></tr><tr><td>CD8+ T cells</td></tr><tr><td>Early activated CD4+ T cells</td></tr><tr><td>Early activated CD8+ T cells</td></tr><tr><td>Granulocytes</td></tr><tr><td>Late activated CD4+ T cells</td></tr><tr><td>Late activated CD8+ T cells</td></tr><tr><td>Lymphocytes</td></tr><tr><td>Memory CD4+ T Cells</td></tr><tr><td>Memory CD8+ T cells</td></tr><tr><td>Monocytes</td></tr><tr><td>Naive CD4+ T Cells</td></tr><tr><td>Naive CD8+ T cells</td></tr><tr><td>T cells</td></tr><tr><td>CD4+ T cells, anti-CD3/CD28 mitogen</td></tr><tr><td>CD4+ T cells, SEA+SEB mitogen</td></tr><tr><td>CD8+ T cells, anti-CD3/CD28 mitogen</td></tr><tr><td>CD8+ T cells, SEA+SEB mitogen</td></tr><tr><td>Interferon gamma-positive CD4+ T cells (IFNg+ CD4+ T cells)</td></tr><tr><td>Interferon gamma-positive CD8+ T cells (IFNg+ CD8+ T cells)</td></tr><tr><td>Interleukin-2-positive CD4+ T cells (IL2+ CD4+ T cells)</td></tr><tr><td>Interleukin-2-positive CD8+ T cells (IL2+ CD8+ T cells)</td></tr><tr><td>Natural killer (NK) cells</td></tr><tr></tr></table>",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Sams, Clarence F.\">Principal Investigator: Sams, Clarence F.</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Crucian, Brian E.\">Co-Investigator: Crucian, Brian E.</a>",
+  "Program": "Ground",
+  "mission_id": [
+   "UTMB Campaign 11",
+   "DBLS",
+   "UTMB Campaign 5",
+   "Pilot",
+   "UTMB Campaign 3"
+  ],
+  "PrincipalInvestigator": [
+   "Sams, Clarence F."
+  ],
+  "__source_field_concat": "human cl62azr8gcdgw01o6brgafcas JSC JSC Bed Rest Standard Measures: General Immunity BRSMImmune Ground Data preservation is complete.  All datasets are publicly available.",
+  "__icon_type": "",
+  "__description": "OBJECTIVES:<br>\nProlonged exposure to reduced gravity, physiological stress or other factors associated with space flight may result in immune system dysregulation.  Latent herpesvirus reactivation, a measurable result of dysregulated immunity, has been detected in crewmembers during and immediately following space missions.  \n<div>\nA panel of assays was designed to monitor immune system dysregulation, viral reactivation, and physiological stress.  These assays will be applied to a future ISS/Shuttle Supplemental Medical Objective (SMO).  This assay panel is also appropriate to monitor the status and function of the immune system, viral reactivation, and physiological stress during ground-based analog studies.   These assays will be included on all future bed rest campaigns for the purpose of monitoring the immune status of the participants.  While bed rest is not the most appropriate model for space flight-associated immune dysregulation, it is possible that the various countermeasures proposed for evaluation during bed rest may affect immune function.  For this reason, the immune function of the participants will be monitored.\n</div><div>\nAPPROACH:<br>\nThere have been comparatively few flight studies investigating the effect of space flight on the human immune system.  Those studies that have been performed may be subdivided into the following categories:  (A) in flight culture of immune cells; (B) postflight assessments of crewmembers;  (C) in flight crewmember immune assessments.   These data were recently reviewed by Dr. Gerald Sonnenfeld and are summarized as follows:\n</div><div>\nA.  In flight culture of immune cells<br>\n\nHuman studies have indicated that space flight changes human cell culture activities such as leukocyte blastogenesis, production of cytokines, and signal transduction of leukocytes.  Studies on animal cell cultures have also shown altered cytokine production and macrophage hematopoesis and function.   \n</div><div>\nB.  Postflight assessments of crewmembers<br>\n\nMost human space flight immunologic studies have explored the effects of space flight on cell-mediated immunity.  Inhibited mitogen-induced blastogenesis of leukocytes has been observed in cells obtained from astronauts and cosmonauts after the Apollo-Soyuz test project, Skylab, Space Shuttle and Soyuz flights.   Altered leukocyte subset distribution, altered cytokine production and altered natural killer (NK) cell activity have also been found to be altered immediately postflight.  \n</div><div>\nC.  In flight assessments of crewmembers<br>\n\nPrecious few studies have been performed using astronaut subjects during space flight.   Delayed hypersensitivity skin tests to common recall antigens were inhibited during short term and long term space flights.  On Space Shuttle mission STS-71 a novel device for staining whole blood samples with fluorescent antibodies was flight tested using three MIR-18 crewmembers as subjects.  Blood was collected and stained at a single timepoint late in the mission.  Only the bulk leukocyte and lymphocyte subsets were evaluated and no change was found in these crewmembers.  Recently, an in flight assessment of latent viral reactivation was performed using flight-collected saliva samples.  Latent viral reactivation is thought to directly correlate with diminished immune function.  The data showed that latent herpesviruses reactivate during flight to high levels. This is important since persistent viruses have been associated with non-Hodkins lymphoma tumors.  A short term space flight study on Shuttle assessed total antibody levels and found no change in total immunoglobulin levels, whereas a long-duration Soviet mission indicated small increases in total immunoglobulin levels.\n</div><div>\nIn the investigator's previous studies of astronauts, investigators found altered peripheral leukocyte distribution, altered cytokine production profiles, elevated levels of latent viral reactivation and elevated levels of cortisol during or immediately following long and short duration space flight.  In addition, significant increases in stress hormones (i.e., cortisol, catecholamines) were found after landing. Notably, investigators found increased shedding of Epstein-Barr virus (EBV) and cytomegalovirus (CMV), two medically important herpesviruses, during space flight along with evidence of decreased cellular immunity. These increases in stress hormones directly correlated with CMV and EBV reactivation. Thus, latent herpesvirus reactivation in these astronauts may have resulted from both direct (i.e., stress hormones) and indirect (i.e., decreased immune function) mechanisms stemming from launch and landing acceleration. These results underscore the need to determine the causes underlying immune suppression in space in order to develop countermeasures.\n</div><div>\nRESULTS:<br>\nIn general, subjects did not display altered peripheral leukocyte subsets, constitutive immune activation, altered T cell function, or significant latent viral reactivation (EBV, VZV). Levels of constitutively activated T cells (CD8+/CD69+) and virus-specific T cells (CMV and EBV) decreased during the study. Cortisol levels (plasma and saliva) did not vary significantly during 90-day bed rest. \n</div><div>\n<i>Conclusions:</i> These data demonstrate the absence of significant immune system alteration and physiological stress during 90-day bed rest, and establish control data against which future studies (including countermeasures) may be compared.</div>",
+  "__doi": "10.83263/75we-ch31",
+  "__doi_record_creation_date": "2026-08-23T04:24:56",
+  "__doi_record_modified_date": "2026-08-23T04:24:56"
+ },
+ "datasets": [
+  {
+   "key": "7db9d1eb-1da7-50ac-98fa-98b7403caf85",
+   "label": "BRSMIMMUNE_Campaign_3_General_Immunity",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "UTMB Bedrest Campaign 3 General Immunity",
+    "dataset_catalog": "BRSMIMMUNE_Campaign_3_General_Immunity",
+    "dataset_description": "This dataset collection contains data from UTMB Bedrest Campaign 3 General Immunity.",
+    "processing_level": [
+     "Processed Data"
+    ],
+    "experiment_id": [
+     "BRSMImmune"
+    ]
+   },
+   "meta": "44 files \u00b7 265.5 KB",
+   "date": "2025-09-26",
+   "children": [
+    {
+     "key": "772fec68-2c42-5a57-bf93-fb3d165c924f",
+     "label": "BRSMIMMUNE_Campaign_3__Immunology_CD8+_CD69+.csv",
+     "type": "file",
+     "ext": "csv",
+     "file_size": 849,
+     "meta": "849 B",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b117e8a6-ffe6-5684-8063-0f85ea4f0062",
+     "label": "BRSMIMMUNE_Campaign_3__Immunology_CD8+_CD69+_CD25+.csv",
+     "type": "file",
+     "ext": "csv",
+     "file_size": 905,
+     "meta": "905 B",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "07d969ec-4758-5b91-9579-ef688e292e8f",
+     "label": "BRSMIMMUNE_Campaign_3__Immunology_CD4+_CD69+.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 10450,
+     "meta": "10.2 KB",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f70af56f-8840-5a04-82b3-9390f02a82dc",
+     "label": "BRSMIMMUNE_Campaign_3__Immunology_CD16_56_NK-Cells.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 10444,
+     "meta": "10.2 KB",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ce2773fa-5f05-50dd-8d8d-21a1fa558924",
+     "label": "BRSMIMMUNE_Campaign_3__Immunology_CD8+_HLA-DR+.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 10675,
+     "meta": "10.4 KB",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a918c676-b4b1-575c-a041-4d03fbb5d04f",
+     "label": "BRSMIMMUNE_Campaign_3__Immunology_CD8+_IL-2+.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 10589,
+     "meta": "10.3 KB",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ad6d55bd-48d1-57cd-8706-dac4c077ef61",
+     "label": "BRSMIMMUNE_Campaign_3__Immunology_CD8+_CD45RO+.csv",
+     "type": "file",
+     "ext": "csv",
+     "file_size": 969,
+     "meta": "969 B",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e6603c55-7f04-564a-97d1-dffdcf432ca9",
+     "label": "BRSMIMMUNE_Campaign_3__Immunology_CD8+_IFNg+_IL-2-.csv",
+     "type": "file",
+     "ext": "csv",
+     "file_size": 962,
+     "meta": "962 B",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "63d7f180-09ec-565a-bac7-88f5a8e700b6",
+     "label": "BRSMIMMUNE_Campaign_3__Immunology_CD4+_Memory.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 16663,
+     "meta": "16.3 KB",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "25736ab0-1f6e-546f-a923-253c5bfa33c8",
+     "label": "BRSMIMMUNE_Campaign_3__Immunology_Monocytes.csv",
+     "type": "file",
+     "ext": "csv",
+     "file_size": 842,
+     "meta": "842 B",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e24d259e-4de4-5097-b5bc-22f4f29f42de",
+     "label": "BRSMIMMUNE_Campaign_3__Immunology_CD3+_CD8+.csv",
+     "type": "file",
+     "ext": "csv",
+     "file_size": 976,
+     "meta": "976 B",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "be9c81d6-5886-5ebc-88f7-f8471c5f3d1c",
+     "label": "BRSMIMMUNE_Campaign_3__Immunology_CD8+_HLA-DR+.csv",
+     "type": "file",
+     "ext": "csv",
+     "file_size": 863,
+     "meta": "863 B",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "fde74cb6-092c-57ad-a97a-69950598dfe7",
+     "label": "BRSMIMMUNE_Campaign_3__Immunology_CD69+_CD25+_CD8_SEA+SEB.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 10593,
+     "meta": "10.3 KB",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2d497e8b-ea28-5ccf-b025-51bf984546b7",
+     "label": "BRSMIMMUNE_Campaign_3__Immunology_Lymphocytes.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 10675,
+     "meta": "10.4 KB",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "769eade5-8661-588a-a1cc-6ad4105637c6",
+     "label": "BRSMIMMUNE_Campaign_3__Immunology_CD4+_CD69+_CD25+.csv",
+     "type": "file",
+     "ext": "csv",
+     "file_size": 958,
+     "meta": "958 B",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "607019cd-e894-531a-b3f1-b7e1fa3ad1e0",
+     "label": "BRSMIMMUNE_Campaign_3__Immunology_CD8+_IL-2+.csv",
+     "type": "file",
+     "ext": "csv",
+     "file_size": 946,
+     "meta": "946 B",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9468be35-f74a-5740-8ead-753d517ee002",
+     "label": "BRSMIMMUNE_Campaign_3__Immunology_Granulocytes.csv",
+     "type": "file",
+     "ext": "csv",
+     "file_size": 976,
+     "meta": "976 B",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "060cf866-d4d6-5652-a609-0b23aa33719d",
+     "label": "BRSMIMMUNE_Campaign_3__Immunology_CD4+_HLA-DR+.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 10709,
+     "meta": "10.5 KB",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e1600e59-a018-50b3-9673-d8be96ecdde4",
+     "label": "BRSMIMMUNE_Campaign_3__Immunology_CD4+_HLA-DR+.csv",
+     "type": "file",
+     "ext": "csv",
+     "file_size": 844,
+     "meta": "844 B",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5fb60271-3cfe-5901-9a80-a9448c398b72",
+     "label": "BRSMIMMUNE_Campaign_3__Immunology_CD4+_IL-2+_IFNg-.csv",
+     "type": "file",
+     "ext": "csv",
+     "file_size": 970,
+     "meta": "970 B",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "bdaae58a-d777-5af4-84c9-1b6603e08414",
+     "label": "BRSMIMMUNE_Campaign_3__Immunology_CD8+_CD69+.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 16492,
+     "meta": "16.1 KB",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "66102769-32f8-5545-b2c5-6fcc0d4a70d2",
+     "label": "BRSMIMMUNE_Campaign_3__Immunology_CD8+_IFNg+.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 10651,
+     "meta": "10.4 KB",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "07e3ddff-742e-5535-aa87-1f9addbc3097",
+     "label": "BRSMIMMUNE_Campaign_3__Immunology_CD4+_IFNg+.csv",
+     "type": "file",
+     "ext": "csv",
+     "file_size": 966,
+     "meta": "966 B",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b4263dc8-7dc2-5ae6-a6a1-ff49e1a74f97",
+     "label": "BRSMIMMUNE_Campaign_3__Immunology_CD4+_T-Cells.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 10695,
+     "meta": "10.4 KB",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "dadd720c-18a7-5b7e-b80a-a28437889927",
+     "label": "BRSMIMMUNE_Campaign_3__Immunology_CD4+_CD69+.csv",
+     "type": "file",
+     "ext": "csv",
+     "file_size": 842,
+     "meta": "842 B",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "25622179-2c5d-5132-8610-04b56216eb7f",
+     "label": "BRSMIMMUNE_Campaign_3__Immunology_CD8+_CD69+_CD25+_3.28.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 10671,
+     "meta": "10.4 KB",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6bb2ed94-4ac9-5345-9fe3-06d23deb89b6",
+     "label": "BRSMIMMUNE_Campaign_3__Immunology_CD19+_B-Cells.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 10685,
+     "meta": "10.4 KB",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d4549f76-5dce-571f-a0a3-42b2272b0cf9",
+     "label": "BRSMIMMUNE_Campaign_3__Immunology_CD19+.csv",
+     "type": "file",
+     "ext": "csv",
+     "file_size": 944,
+     "meta": "944 B",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "97f7b619-627b-5a30-b780-5ddbab08d660",
+     "label": "BRSMIMMUNE_Campaign_3__Immunology_CD8+T-Cells.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 10602,
+     "meta": "10.4 KB",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c65acc40-44c5-5fa9-9a46-d3aa79a4b501",
+     "label": "BRSMIMMUNE_Campaign_3__Immunology_Lymphocytes.csv",
+     "type": "file",
+     "ext": "csv",
+     "file_size": 976,
+     "meta": "976 B",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "570a1fd5-372d-5233-a65d-3f8ea509da20",
+     "label": "BRSMIMMUNE_Campaign_3__Immunology_CD3+_T_Cells.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 10580,
+     "meta": "10.3 KB",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c5384b54-0cc2-557b-a30e-df6f56c9f198",
+     "label": "BRSMIMMUNE_Campaign_3__Immunology_CD3+.csv",
+     "type": "file",
+     "ext": "csv",
+     "file_size": 976,
+     "meta": "976 B",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "eada46c0-36be-5ea0-805f-86981d319447",
+     "label": "BRSMIMMUNE_Campaign_3__Immunology_CD3+_CD4+.csv",
+     "type": "file",
+     "ext": "csv",
+     "file_size": 976,
+     "meta": "976 B",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e5b4937f-743a-5968-ada5-bc4acf1efd1b",
+     "label": "BRSMIMMUNE_Campaign_3__Immunology_Granulocytes.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 10403,
+     "meta": "10.2 KB",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e9a17bdc-af8d-5165-abd3-458541d6d281",
+     "label": "BRSMIMMUNE_Campaign_3__Immunology_CD69+_CD25+_CD4_SEA+SEB.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 10569,
+     "meta": "10.3 KB",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "508730a3-cdf9-5772-8196-5e8ef317fb82",
+     "label": "BRSMIMMUNE_Campaign_3__Immunology_CD8+_CD69+_CD25+_3.28.csv",
+     "type": "file",
+     "ext": "csv",
+     "file_size": 964,
+     "meta": "964 B",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ff548c11-3a65-59fc-9a92-6cdc30abd840",
+     "label": "BRSMIMMUNE_Campaign_3__Immunology_CD16_56+.csv",
+     "type": "file",
+     "ext": "csv",
+     "file_size": 909,
+     "meta": "909 B",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "77f965eb-43a2-5ac4-a461-2935261c006c",
+     "label": "BRSMIMMUNE_Campaign_3__Immunology_CD8+_Memory.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 10573,
+     "meta": "10.3 KB",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ada2dc88-2c29-5416-8767-ea2d9c06eafb",
+     "label": "BRSMIMMUNE_Campaign_3__Immunology_CD4+_IFNg+.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 16700,
+     "meta": "16.3 KB",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "cf46a0aa-cca1-50f7-8051-640b71135d0b",
+     "label": "BRSMIMMUNE_Campaign_3__Immunology_Monocytes.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 10504,
+     "meta": "10.3 KB",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8a14d851-74f1-5fa4-b027-10090964fe51",
+     "label": "BRSMIMMUNE_Campaign_3__Immunology_CD4+_IL-2+.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 10683,
+     "meta": "10.4 KB",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3d339c58-53f5-5fd6-908e-7e5c546d7c07",
+     "label": "BRSMIMMUNE_Campaign_3__Immunology_CD4+_CD45RO+.csv",
+     "type": "file",
+     "ext": "csv",
+     "file_size": 976,
+     "meta": "976 B",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "70116a38-daf6-57b0-a135-a70048e08260",
+     "label": "BRSMIMMUNE_Campaign_3__Immunology_CD4+_CD69+_CD25+_3.28.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 10742,
+     "meta": "10.5 KB",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "570f840c-86bd-53db-ab4b-413bce8fdbad",
+     "label": "BRSMIMMUNE_Campaign_3__Immunology_CD4+_CD69+_CD25+_3.28.csv",
+     "type": "file",
+     "ext": "csv",
+     "file_size": 966,
+     "meta": "966 B",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "40bcaeba-97f6-5032-bd52-b40e11485117",
+   "label": "BRSMIMMUNE_CFT70",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "BRSMIMMUNE CFT70 Data",
+    "dataset_catalog": "BRSMIMMUNE_CFT70",
+    "dataset_description": "This dataset contains tabular data from CFT70 General Immunity.",
+    "processing_level": [
+     "Processed Data"
+    ],
+    "experiment_id": [
+     "BRSMImmune"
+    ]
+   },
+   "meta": "2 files \u00b7 279.6 KB",
+   "date": "2026-03-24",
+   "children": [
+    {
+     "key": "b4ca8f59-5d41-5fd3-9144-55b041dc69df",
+     "label": "BRSMIMMUNE_CFT70_obsv_All",
+     "type": "file",
+     "ext": "",
+     "file_size": 240604,
+     "meta": "235.0 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5e9bcceb-1b62-5a87-837b-b5be7320ae94",
+     "label": "BRSMIMMUNE_CFT70_avgs_All",
+     "type": "file",
+     "ext": "",
+     "file_size": 45734,
+     "meta": "44.7 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

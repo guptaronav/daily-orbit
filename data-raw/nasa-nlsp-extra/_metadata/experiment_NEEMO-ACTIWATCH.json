@@ -1,0 +1,277 @@
+{
+ "record": {
+  "id": "62a350af-45b3-58f7-badb-7fcf7f6772a2",
+  "_id": "62a350af-45b3-58f7-badb-7fcf7f6772a2",
+  "experiment_title": "Actigraphy:  A Tool for Monitoring Sleep and Activity in an Isolated Environment (Aquarius)",
+  "archive_status_index": 1,
+  "parameter_html": "<table><tr><td>Illumination level</td></tr><tr><td>Movement</td></tr><tr><td>Sleep duration</td></tr><tr><td>Sleep efficiency</td></tr><tr><td>Sleep latency</td></tr><tr></tr></table>",
+  "__source_key": "cl62azhqvcden01o6gpry8rhx",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Putcha, Lakshmi\">Principal Investigator: Putcha, Lakshmi</a>",
+  "image_name": [
+   "NEEMO 5 Crewmembers"
+  ],
+  "experiment_type_lk": [
+   "NASA Extreme Environment Mission Operations (NEEMO) Project"
+  ],
+  "__record_modified_date": "2026-08-23T03:46:35.823732+00:00",
+  "__indexed": "2026-08-23T03:46:35.823732+00:00",
+  "__record_creation_date": "2022-07-28T19:54:42.605Z",
+  "keyword": [
+   "Motion",
+   "Movement",
+   "Circadian rhythm",
+   "Sleep",
+   "Illumination"
+  ],
+  "keyword_name": "Illumination",
+  "__record_size": 60305,
+  "__record_version": 28,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<br>\r\nSleep quality may be disturbed in crowded, isolated environments such as the International Space Station (ISS) and the Aquarius habitat. Potential disturbances in the sleep/wake cycles of astronauts and aquanauts compared to ground-based sleep/wake cycles need to be defined in order to understand its consequences on human performance and well-being. The purpose of this study is to quantitate objective measures of sleep quality such as sleep duration, sleep latency and sleep efficiency with a non-intrusive wrist-worn sleep/wake activity monitor known as the Actiwatch\u00ae.  Crewmembers wore the Actiwatch\u00ae on the non-dominant hand at all times while inside the habitat. A record of activities and sleep was kept, including in-suit Doppler use.   The collection of actigraphy data with an Actiwatch\u00ae allowed an objective measure of crewmember activity and sleep quality. Altered activity and sleep quality data were correlated with data obtained in the in-suit Doppler and STARx/ARES studies.\r\n<P>\r\nAPPROACH:<BR>\r\nBaseline sleep/wake measurements were recorded for five days approximately three weeks prior to the mission.  During the NEEMO 5 mission, Actiwatches\u00ae were worn on the non-dominant hand at all times while inside the habitat. The watches were removed for dives. The Actiwatch\u00ae Activity Log reflects don/doff of the Actiwatch\u00ae along with sleep/wake and dive times, as well as in-suit Doppler use.\r\n<P>\r\nRESULTS:<BR>\r\nThe average illumination during the mission decreased significantly (p<0.05).  All four aquanauts completed six days/five nights of actigraphy data collection approximately two-weeks prior to the mission.  Three of four aquanauts were able to complete 14 days/13 nights of actigraphy data collection during the two-week mission in the Aquarius habitat.  An increase of 9 minutes was observed in sleep latency during the mission, however this difference is not statistically significant.\r\n<P>\r\nOne aquanaut failed to collect data on days three and 11 to 14 because the original and spare Actiwatches\u00ae were submersed in saltwater (Actiwatches\u00ae are advertised to not be water proof). This same aquanaut also failed to wear the Actiwatch\u00ae during the sleep period of day nine.\r\n<P>\r\nThe crew reported that Actiwatches\u00ae are water-resistant as the two splashed watches continued collecting data after being momentarily submerged during the mission. Remembering to record the doff and don times was the only inconvenience. Crewmembers recommended that all bands should be Velcro for easy doff and don and having a time display incorporated into the watch to make logging times easier.<END>",
+  "payload_id": "NEEMO 5",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "NEEMO-ACTIWATCH",
+  "indexed": "2026-08-23T03:46:35.823732+00:00",
+  "GUID": "cl62azhqvcden01o6gpry8rhx",
+  "parameter_name": [
+   "Illumination level",
+   "Movement",
+   "Sleep duration",
+   "Sleep efficiency",
+   "Sleep latency"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 1085,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Chronobiology"
+  ],
+  "pme_role_with_name": [
+   "Principal Investigator: Putcha, Lakshmi"
+  ],
+  "missions": [
+   [
+    [
+     "NEEMO 5"
+    ]
+   ]
+  ],
+  "__dirid": "62a350af-45b3-58f7-badb-7fcf7f6772a2",
+  "__record_size_wo_doccontent": 60305,
+  "PI": [
+   "Putcha, Lakshmi"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "NEEMO-ACTIWATCH"
+  ],
+  "mission_id": [
+   [
+    [
+     "NEEMO 5"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "proposal_date": [],
+  "proposal_source": [],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Putcha, Lakshmi"
+  ],
+  "LaunchDate": [
+   "06/16/2003"
+  ],
+  "LaunchYear": 2003,
+  "program_name": [
+   "Ground"
+  ],
+  "archive_status": "Data preservation is complete. All datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Ground",
+  "__source_field_concat": "NEEMO 5 cl62azhqvcden01o6gpry8rhx Illumination  N/A Actigraphy:  A Tool for Monitoring Sleep and Activity in an Isolated Environment (Aquarius) NEEMO-ACTIWATCH Ground Data preservation is complete. All datasets are publicly available.",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<br>\r\nSleep quality may be disturbed in crowded, isolated environments such as the International Space Station (ISS) and the Aquarius habitat. Potential disturbances in the sleep/wake cycles of astronauts and aquanauts compared to ground-based sleep/wake cycles need to be defined in order to understand its consequences on human performance and well-being. The purpose of this study is to quantitate objective measures of sleep quality such as sleep duration, sleep latency and sleep efficiency with a non-intrusive wrist-worn sleep/wake activity monitor known as the Actiwatch\u00ae.  Crewmembers wore the Actiwatch\u00ae on the non-dominant hand at all times while inside the habitat. A record of activities and sleep was kept, including in-suit Doppler use.   The collection of actigraphy data with an Actiwatch\u00ae allowed an objective measure of crewmember activity and sleep quality. Altered activity and sleep quality data were correlated with data obtained in the in-suit Doppler and STARx/ARES studies.\r\n<P>\r\nAPPROACH:<BR>\r\nBaseline sleep/wake measurements were recorded for five days approximately three weeks prior to the mission.  During the NEEMO 5 mission, Actiwatches\u00ae were worn on the non-dominant hand at all times while inside the habitat. The watches were removed for dives. The Actiwatch\u00ae Activity Log reflects don/doff of the Actiwatch\u00ae along with sleep/wake and dive times, as well as in-suit Doppler use.\r\n<P>\r\nRESULTS:<BR>\r\nThe average illumination during the mission decreased significantly (p<0.05).  All four aquanauts completed six days/five nights of actigraphy data collection approximately two-weeks prior to the mission.  Three of four aquanauts were able to complete 14 days/13 nights of actigraphy data collection during the two-week mission in the Aquarius habitat.  An increase of 9 minutes was observed in sleep latency during the mission, however this difference is not statistically significant.\r\n<P>\r\nOne aquanaut failed to collect data on days three and 11 to 14 because the original and spare Actiwatches\u00ae were submersed in saltwater (Actiwatches\u00ae are advertised to not be water proof). This same aquanaut also failed to wear the Actiwatch\u00ae during the sleep period of day nine.\r\n<P>\r\nThe crew reported that Actiwatches\u00ae are water-resistant as the two splashed watches continued collecting data after being momentarily submerged during the mission. Remembering to record the doff and don times was the only inconvenience. Crewmembers recommended that all bands should be Velcro for easy doff and don and having a time display incorporated into the watch to make logging times easier.<END>",
+  "__doi": "10.83263/skft-eh56",
+  "__doi_record_creation_date": "2026-08-23T03:46:35",
+  "__doi_record_modified_date": "2026-08-23T03:46:35"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002360",
+   "label": "NEEMO_ACTIWATCH__1820759835",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "NEEMO 5 Average Sleep Latency",
+    "dataset_catalog": "NEEMO_ACTIWATCH__1820759835",
+    "dataset_description": [
+     "Average sleep latency in minutes is presented in this figure for the NEEMO 5 crew (n=4).  Measurements were taken pre-mission and during the mission.  An increase of 9 minutes was observed in sleep latency during the mission, however this difference is not statistically significant.<BR>Source: unpublished data."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "NEEMO-ACTIWATCH"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "59c6238d-a1c0-515a-b93a-0c65c8833ad3",
+     "label": "NEEMO_ACTIWATCH__1820759835.tif_NEEMO_5_NEEMO-ACTIWATCH_2010_182_080705.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002317",
+   "label": "NEEMO_ACTIWATCH__1820735945",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "NEEMO 5 Average Sleep Duration",
+    "dataset_catalog": "NEEMO_ACTIWATCH__1820735945",
+    "dataset_description": [
+     "Average sleep duration in hours is presented in this figure for the NEEMO 5 crew (n=4).  Measurements were taken pre-mission and during the mission.<BR>Source: unpublished data."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "NEEMO-ACTIWATCH"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "1aa5e78a-7339-5e27-9aad-22859ce3ef58",
+     "label": "NEEMO_ACTIWATCH__1820735945.tif_NEEMO_5_NEEMO-ACTIWATCH_2010_182_070745.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001316",
+   "label": "NEEMO_ACTIWATCH__1820836319",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "NEEMO 5 Average Illumination",
+    "dataset_catalog": "NEEMO_ACTIWATCH__1820836319",
+    "dataset_description": [
+     "Average illumination (Lux) is presented in this figure for the NEEMO 5 crew (n=4).  Measurements were taken pre-mission and during the mission.  The average illumination during the mission decreased significantly (p>0.05).<BR>Source: unpublished data."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "NEEMO-ACTIWATCH"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "3f41d6a2-23a2-5a50-a9d6-2b117f14b6be",
+     "label": "NEEMO_ACTIWATCH__1820836319.tif_NEEMO_5_NEEMO-ACTIWATCH_2010_182_080756.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001071",
+   "label": "NEEMO_ACTIWATCH__1400547290",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Data Collection Timetables for Experiment NEEMO_ACTIWATCH",
+    "dataset_catalog": "NEEMO_ACTIWATCH__1400547290",
+    "dataset_description": [
+     "This spreadsheet represents the data collection timetables for data collection sessions for this experiment. Information included in this spreadsheet may include information on the test protocol, data collection constraints, parameters measured, hardware used, scheduled versus actual days of data collection, and subject information."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "NEEMO-ACTIWATCH"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "12b8d0b7-bc70-5bb5-b466-fa4a9c91f08b",
+     "label": "NEEMO_ACTIWATCH__1400547290.xls_NEEMO_5_NEEMO-ACTIWATCH_2010_182_080723.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002433",
+   "label": "NEEMO_ACTIWATCH__1820813971",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "NEEMO 5 Average Sleep Efficiency",
+    "dataset_catalog": "NEEMO_ACTIWATCH__1820813971",
+    "dataset_description": [
+     "Average sleep efficiency (percent) is presented in this figure for the NEEMO 5 crew (n=4).  Measurements were taken pre-mission and during the mission.<BR>Source: unpublished data."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "NEEMO-ACTIWATCH"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "e3e7ef3f-6917-5b08-9374-0270389e62e1",
+     "label": "NEEMO_ACTIWATCH__1820813971.tif_NEEMO_5_NEEMO-ACTIWATCH_2010_182_080733.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

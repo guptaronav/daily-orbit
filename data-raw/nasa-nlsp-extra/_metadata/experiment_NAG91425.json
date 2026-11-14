@@ -1,0 +1,165 @@
+{
+ "record": {
+  "id": "7d214fe0-0f99-5293-b15b-8f0c9db92f49",
+  "_id": "7d214fe0-0f99-5293-b15b-8f0c9db92f49",
+  "experiment_title": "Artificial Gravity Exercise for Maintaining Fitness During Prolonged Space Flight",
+  "archive_status_index": 1,
+  "pub_document_number": "PUB002081",
+  "parameter_html": "<table><tr><td>Collagen</td></tr><tr><td>Creatinine</td></tr><tr><td>Gait</td></tr><tr><td>Ground reaction force</td></tr><tr><td>Heart muscle mass</td></tr><tr><td>Hematocrit</td></tr><tr><td>Knee laxity</td></tr><tr><td>Orthostatic tolerance</td></tr><tr><td>Plasma volume</td></tr><tr><td>Postural stability</td></tr><tr><td>Regional arterial compliance</td></tr><tr><td>Sleep quality</td></tr><tr><td>Sprint speed</td></tr><tr><td>Tibial stiffness</td></tr><tr><td>Venous pressure</td></tr><tr><td>Heart rate, beats per minute (BPM)</td></tr><tr><td>Muscle strength, leg</td></tr><tr><td>Muscle strength, spine</td></tr><tr><td>Soleus intramuscular pressure, mm Hg</td></tr><tr><td>Peak oxygen consumption, upright</td></tr><tr></tr></table>",
+  "__source_key": "cl62b06thcdk801o6bshtdqzh",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Hargens, Alan\">Principal Investigator: Hargens, Alan</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Arnaud, Sara\">Co-Investigator: Arnaud, Sara</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Ballard, Rodney\">Co-Investigator: Ballard, Rodney</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Boda, Wanda\">Co-Investigator: Boda, Wanda</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Fechner,  K.\">Co-Investigator: Fechner,  K.</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Fortney- Schneider, Suzanne\">Co-Investigator: Fortney- Schneider, Suzanne</a>",
+  "experiment_type_lk": [
+   "NASA Ground-Based Investigations"
+  ],
+  "__record_modified_date": "2026-08-23T04:09:06.623715+00:00",
+  "__indexed": "2026-08-23T04:09:06.623715+00:00",
+  "__record_creation_date": "2022-07-28T20:01:14.907Z",
+  "keyword": [
+   "Cardiovascular system",
+   "Exercise",
+   "Musculoskeletal physiology",
+   "Lower body negative pressure (LBNP)",
+   "Exercise/physiology"
+  ],
+  "keyword_name": "Exercise/physiology",
+  "__record_size": 130739,
+  "__record_version": 30,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<br>\r\nRecent results suggest both cardiovascular and musculoskeletal structure and function depend importantly on gravitational blood pressures and flows. This dependency may be one reason why exercise countermeasures for prolonged microgravity have failed to prevent loss of orthostatic tolerance, exercise capacity, bone and muscle during prolonged space flight. Previously we found that lower body negative pressure (LBNP) produces a footward reaction force at the feet equal to the product of the pressure differential across the LBNP chamber and the body cross-sectional area at the waist seal. Static, ground-reaction force of one Earth body weight is generated over the lower body by each 50 mmHg of LBNP either during standing or supine posture. Further, subjects exercising against this level of LBNP have dynamic biomechanical and cardiovascular responses similar to 1g. Current concepts of bungee cord-assisted, treadmill exercise are limited by harness discomfort, lower than normal loads, and the absence of gravitational blood pressures within the vascular system of the lower extremities. Our long-term objective is to provide an early, efficacious and integrated physiologic countermeasure for prolonged space flight in terms of cost, crew time, mass, volume and power usage. \r\n<p>\r\nAPPROACH:<br>\r\nOver the past 12 years of NASA funding, the investigators have found that 40 minutes per day of supine LBNP treadmill exercise at 1.0-1.2 body weights when combined with 5 minutes of static LBNP maintains orthostatic tolerance, peak upright exercise performance, sprint speed, leg and spinal muscle strength, some indices of bone homeostasis, balance, and plasma volume during 30 days of bed rest. To transition the integrated countermeasure for actual space flight, future studies are needed to: 1) determine whether a daily regimen of 40 minutes of treadmill running at 1-1.2 body weights followed by 5 minutes of static LBNP prevents bed-rest deconditioning in female identical twins as well as it does in male identical twins, 2) redesign the current ground-based LBNP exercise chamber for flight certification on Space Shuttle and International Space Station (ISS) missions, 3) compare the biomechanics and motion analyses of LBNP exercise in the re-designed chamber during short-duration microgravity (KC-135 flights) with upright exercise in 1g, and 4) complete Shuttle and ultimately, ISS flights to test our integrated countermeasure concept, comparing eight crew members with LBNP exercise to controls without LBNP exercise. \r\n<p>\r\nRESULTS:<br>\r\nThe investigators finding of the magnitude and mechanism of force production by LBNP has important implications for simulating gravity in space and increasing weight bearing on Earth without the use of a centrifuge. The upright-standing results indicate that ground reaction force increases by approximately one equivalent body weight for each 50 mm Hg LBNP. The supine data suggest that during microgravity, uniaxial loading of lower-body tissues can be comfortably produced by a similar level of LBNP. Furthermore, the lower-body musculoskeletal loss experienced by crew exposed to long-term space may be prevented by safe levels of high-intensity, short-duration exercise within such a chamber. The use of a different air pressure separating the upper and lower body, such as proposed in this project, distributes the net force uniformly over the entire upper surface of the body. This concept thereby avoids the discomfort of localized high pressures typical of bungee cord harness systems. \r\n<p>\r\nWith LBNP exercise, the skeletal muscle pumping mechanism partially counteracts accumulation of blood in hyperemic lower extremities as occurs during upright exercise in Earth gravity and during exercise on a centrifuge under hypergravity conditions. Potentially adverse cardiovascular reactions to LBNP with exercise are avoided by wearing compression shorts within the chamber. Such shorts partially counteract the LBNP-induced increase of transmural pressure across relatively compliant vessels of the lower abdomen. Also, a broad, flexible waist seal with shoulder straps increases the effective surface area through which the pressure differential creates force, applying an additional force through the shoulders and spine to the lower extremities. This latter configuration reduces the negative pressure necessary to generate a given force at the feet and therefore, reduces the ratio of cardiovascular to musculoskeletal stress. \r\n<p>\r\nVariations of blood pressures due to inertial loads with normal gait have been documented in humans and other animals and such variations are important for maintenance of normal vascular structure and function in dependent tissues. Recent evidence points to the importance of blood pressure gradients for maintenance of bone and skeletal muscle as well. LBNP exercise simulates gravitational blood pressures in the lower body circulation, and permits the simultaneous additional impact loading of lower body tissues and blood vessels during exercise. No other exercise equipment previously recommended for crew members, other than exercise on a long radius centrifuge, provides this level of simultaneous musculoskeletal and transmural vascular stress. \r\n<p>\r\nMuscle atrophy, loss of bone and collagen mass/strength, reduced exercise capacity and orthostatic intolerance during microgravity may be due to reduced loading history and loss of circulatory gravitational pressure gradients compared to those on Earth. Therefore, exercise within a LBNP chamber, which provides inertial fluid pressures during space flight, may reproduce the functional interdependence of the musculoskeletal and cardiovascular systems during normal daily activities on Earth. A treadmill or other exercise equipment can be placed within the chamber to provide inertial forces, high resistance, and eccentric-type training exercises that may help to maintain circulatory tone, bone mass, and muscle mass. In addition to the potential musculoskeletal and cardiovascular benefits, treadmill exercise within LBNP probably activates the same neuromuscular systems as normal ambulation, which should help prevent loss of neuromuscular coordination following bed rest. During bed rest studies, neuromuscular deconditioning degrades gait parameters, reducing step length, walking speed, and balance stability. \r\n<p>\r\nIt is possible that short periods of intense effort may optimize the benefit/time ratio for maintaining health and performance of crew members in space. Exercise within a LBNP chamber in space may provide a safe, inexpensive, energy efficient, and compact alternative to centrifugation (without Coriolis effects) for many physiologic systems during long-duration existence in microgravity. \r\n<p>",
+  "payload_id": "BRC",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "NAG91425",
+  "indexed": "2026-08-23T04:09:06.623715+00:00",
+  "GUID": "cl62b06thcdk801o6bshtdqzh",
+  "parameter_name": [
+   "Collagen",
+   "Creatinine",
+   "Gait",
+   "Ground reaction force",
+   "Heart muscle mass",
+   "Hematocrit",
+   "Knee laxity",
+   "Orthostatic tolerance",
+   "Plasma volume",
+   "Postural stability",
+   "Regional arterial compliance",
+   "Sleep quality",
+   "Sprint speed",
+   "Tibial stiffness",
+   "Venous pressure",
+   "Heart rate, beats per minute (BPM)",
+   "Muscle strength, leg",
+   "Muscle strength, spine",
+   "Soleus intramuscular pressure, mm Hg",
+   "Peak oxygen consumption, upright"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 1032,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Cardiovascular physiology",
+   "Muscle physiology",
+   "Exercise physiology"
+  ],
+  "pme_role_with_name": [
+   "Co-Investigator: Arnaud, Sara",
+   "Co-Investigator: Ballard, Rodney",
+   "Co-Investigator: Boda, Wanda",
+   "Co-Investigator: Fechner,  K.",
+   "Co-Investigator: Fortney- Schneider, Suzanne",
+   "Principal Investigator: Hargens, Alan"
+  ],
+  "missions": [
+   [
+    [
+     "BRC"
+    ]
+   ]
+  ],
+  "__dirid": "7d214fe0-0f99-5293-b15b-8f0c9db92f49",
+  "__record_size_wo_doccontent": 130739,
+  "PI": [
+   "Hargens, Alan"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "NAG91425"
+  ],
+  "mission_id": [
+   [
+    [
+     "BRC"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "proposal_date": [],
+  "proposal_source": [],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Hargens, Alan"
+  ],
+  "program_name": [
+   "Ground"
+  ],
+  "archive_status": "Data preservation is complete. All datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Ground",
+  "__source_field_concat": "PUB002081 BRC cl62b06thcdk801o6bshtdqzh Exercise/physiology  N/A Artificial Gravity Exercise for Maintaining Fitness During Prolonged Space Flight NAG91425 Ground Data preservation is complete. All datasets are publicly available.",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<br>\r\nRecent results suggest both cardiovascular and musculoskeletal structure and function depend importantly on gravitational blood pressures and flows. This dependency may be one reason why exercise countermeasures for prolonged microgravity have failed to prevent loss of orthostatic tolerance, exercise capacity, bone and muscle during prolonged space flight. Previously we found that lower body negative pressure (LBNP) produces a footward reaction force at the feet equal to the product of the pressure differential across the LBNP chamber and the body cross-sectional area at the waist seal. Static, ground-reaction force of one Earth body weight is generated over the lower body by each 50 mmHg of LBNP either during standing or supine posture. Further, subjects exercising against this level of LBNP have dynamic biomechanical and cardiovascular responses similar to 1g. Current concepts of bungee cord-assisted, treadmill exercise are limited by harness discomfort, lower than normal loads, and the absence of gravitational blood pressures within the vascular system of the lower extremities. Our long-term objective is to provide an early, efficacious and integrated physiologic countermeasure for prolonged space flight in terms of cost, crew time, mass, volume and power usage. \r\n<p>\r\nAPPROACH:<br>\r\nOver the past 12 years of NASA funding, the investigators have found that 40 minutes per day of supine LBNP treadmill exercise at 1.0-1.2 body weights when combined with 5 minutes of static LBNP maintains orthostatic tolerance, peak upright exercise performance, sprint speed, leg and spinal muscle strength, some indices of bone homeostasis, balance, and plasma volume during 30 days of bed rest. To transition the integrated countermeasure for actual space flight, future studies are needed to: 1) determine whether a daily regimen of 40 minutes of treadmill running at 1-1.2 body weights followed by 5 minutes of static LBNP prevents bed-rest deconditioning in female identical twins as well as it does in male identical twins, 2) redesign the current ground-based LBNP exercise chamber for flight certification on Space Shuttle and International Space Station (ISS) missions, 3) compare the biomechanics and motion analyses of LBNP exercise in the re-designed chamber during short-duration microgravity (KC-135 flights) with upright exercise in 1g, and 4) complete Shuttle and ultimately, ISS flights to test our integrated countermeasure concept, comparing eight crew members with LBNP exercise to controls without LBNP exercise. \r\n<p>\r\nRESULTS:<br>\r\nThe investigators finding of the magnitude and mechanism of force production by LBNP has important implications for simulating gravity in space and increasing weight bearing on Earth without the use of a centrifuge. The upright-standing results indicate that ground reaction force increases by approximately one equivalent body weight for each 50 mm Hg LBNP. The supine data suggest that during microgravity, uniaxial loading of lower-body tissues can be comfortably produced by a similar level of LBNP. Furthermore, the lower-body musculoskeletal loss experienced by crew exposed to long-term space may be prevented by safe levels of high-intensity, short-duration exercise within such a chamber. The use of a different air pressure separating the upper and lower body, such as proposed in this project, distributes the net force uniformly over the entire upper surface of the body. This concept thereby avoids the discomfort of localized high pressures typical of bungee cord harness systems. \r\n<p>\r\nWith LBNP exercise, the skeletal muscle pumping mechanism partially counteracts accumulation of blood in hyperemic lower extremities as occurs during upright exercise in Earth gravity and during exercise on a centrifuge under hypergravity conditions. Potentially adverse cardiovascular reactions to LBNP with exercise are avoided by wearing compression shorts within the chamber. Such shorts partially counteract the LBNP-induced increase of transmural pressure across relatively compliant vessels of the lower abdomen. Also, a broad, flexible waist seal with shoulder straps increases the effective surface area through which the pressure differential creates force, applying an additional force through the shoulders and spine to the lower extremities. This latter configuration reduces the negative pressure necessary to generate a given force at the feet and therefore, reduces the ratio of cardiovascular to musculoskeletal stress. \r\n<p>\r\nVariations of blood pressures due to inertial loads with normal gait have been documented in humans and other animals and such variations are important for maintenance of normal vascular structure and function in dependent tissues. Recent evidence points to the importance of blood pressure gradients for maintenance of bone and skeletal muscle as well. LBNP exercise simulates gravitational blood pressures in the lower body circulation, and permits the simultaneous additional impact loading of lower body tissues and blood vessels during exercise. No other exercise equipment previously recommended for crew members, other than exercise on a long radius centrifuge, provides this level of simultaneous musculoskeletal and transmural vascular stress. \r\n<p>\r\nMuscle atrophy, loss of bone and collagen mass/strength, reduced exercise capacity and orthostatic intolerance during microgravity may be due to reduced loading history and loss of circulatory gravitational pressure gradients compared to those on Earth. Therefore, exercise within a LBNP chamber, which provides inertial fluid pressures during space flight, may reproduce the functional interdependence of the musculoskeletal and cardiovascular systems during normal daily activities on Earth. A treadmill or other exercise equipment can be placed within the chamber to provide inertial forces, high resistance, and eccentric-type training exercises that may help to maintain circulatory tone, bone mass, and muscle mass. In addition to the potential musculoskeletal and cardiovascular benefits, treadmill exercise within LBNP probably activates the same neuromuscular systems as normal ambulation, which should help prevent loss of neuromuscular coordination following bed rest. During bed rest studies, neuromuscular deconditioning degrades gait parameters, reducing step length, walking speed, and balance stability. \r\n<p>\r\nIt is possible that short periods of intense effort may optimize the benefit/time ratio for maintaining health and performance of crew members in space. Exercise within a LBNP chamber in space may provide a safe, inexpensive, energy efficient, and compact alternative to centrifugation (without Coriolis effects) for many physiologic systems during long-duration existence in microgravity. \r\n<p>",
+  "__doi": "10.83263/7s40-3491",
+  "__doi_record_creation_date": "2026-08-23T04:09:06",
+  "__doi_record_modified_date": "2026-08-23T04:09:06"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000379",
+   "label": "NAG91425__2580533330",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Final Report",
+    "dataset_catalog": "NAG91425__2580533330",
+    "dataset_description": [
+     "This is a final report titled, Exercise within LBNP as an Artificial  Gravity Countermeasure, for the NAG91425 study."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "NAG91425"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "95498c76-888d-5aff-acf1-7c65252dd7cb",
+     "label": "NAG91425__2580533330.pdf_BRC_NAG91425_2011_258_050953.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

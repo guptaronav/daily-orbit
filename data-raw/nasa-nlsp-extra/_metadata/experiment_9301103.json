@@ -1,0 +1,2492 @@
+{
+ "record": {
+  "id": "23b145e7-f6fd-5397-afe5-c987c70629d3",
+  "_id": "23b145e7-f6fd-5397-afe5-c987c70629d3",
+  "experiment_title": "Neural Thyroid Interaction on Skeletal Isomyosin Expression in Zero-G",
+  "pub_document_number": "ARCPUB000972",
+  "experiment_alias": [
+   "E103"
+  ],
+  "parameter_html": "<table><tr><td>Content, Myosin heavy chain (MHC), fast type IIA, medial gastrocnemius, muscle, rat, Gel electrophoresis (SDS-PAGE)</td></tr><tr><td>Content, Myosin heavy chain (MHC), fast type IIA, plantaris, muscle, rat, Gel electrophoresis (SDS-PAGE)</td></tr><tr><td>Content, Myosin heavy chain (MHC), fast type IIA, quadriceps, muscle, rat, Gel electrophoresis (SDS-PAGE)</td></tr><tr><td>Content, Myosin heavy chain (MHC), fast type IIA, soleus, muscle, rat, Gel electrophoresis (SDS-PAGE)</td></tr><tr><td>Properties, type, Fiber, medial gastrocnemius, muscle, rat, Immunohistochemistry</td></tr><tr><td>Properties, type, Fiber, plantaris, muscle, rat, Immunohistochemistry</td></tr><tr><td>Properties, type, Fiber, quadriceps, muscle, rat, Immunohistochemistry</td></tr><tr><td>Properties, type, Fiber, soleus, muscle, rat, Immunohistochemistry</td></tr><tr></tr></table>",
+  "__source_key": "cl62au2v2caui01o6gfko7vlg",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Baldwin, Kenneth\">Principal Investigator: Baldwin, Kenneth</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Takeda, Shin'ichi\">Co-Investigator: Takeda, Shin'ichi</a>",
+  "keyword": [
+   "Hindlimb",
+   "Myosin",
+   "Muscles",
+   "Myosin heavy chains  (MHC)"
+  ],
+  "keyword_name": "Myosin heavy chains  (MHC)",
+  "__record_version": 29,
+  "experiment_description": "<B>Objectives:</B><P>The objective of this experiment was to examine the interactive roles of gravity, innervation, and thyroid hormone (T3) in the developmental programming of myosin heavy chain (MHC) isoform expression in neonatal rodent antigravity and locomotor skeletal muscle. The central hypothesis tested is that gravity exerts a profound influence on the development and maintenance of slow (Type I) MHC expression in antigravity and locomotor muscle, such that in its absence, a significant number of muscle cells up-regulate the expression of fast MHCs due to an increased responsiveness to thyroid hormone. In contrast, the normal expression of the fast IIx and IIb MHCs are developmentally regulated independently of gravity, but require both the presence of an intact nerve and T3 in order for these isoforms to reach full maturation in expression by replacing neonatal/embryonic MHC isoforms that are normally only expressed during fetal and early neonatal development. An additional objective is to determine whether muscle development, in the absence of gravity, creates a deleterious response, whereby recovery from exposure to microgravity in the neonatal stage results in an irreversible effect on muscle mass and the pattern of adult myosin isoform expression.<P><B>Approach:</B><P>Flight, Simulated Caged Controls, and Vivarium rodents were divided into two subgroups: normal and thyroid deficient (TD). At recovery, key muscles were removed to study MHC isoform expression at both the mRNA and protein level of analysis using electrophoretic, immunohistochemical, and in situ hybridization technology. Due to the loss of neonates during flight, tissue samples could not be obtained from animals allowed to recover for 30 days postflight, as originally planned.<P><B>Results:</B><P>Body weights of both the normal (euthyroid) and TD flight rats were significantly lower than the counterpart ground-control groups. Data suggests that lack of nutrition cannot account for the lack of weight gain. Absolute muscle weights were also significantly reduced in all flight groups relative to age-matched ground controls. Both body weight and muscle weight was lower in the TD groups than in the euthyroid groups. In the anti-gravity slow-twitch soleus muscle, space flight caused a greater relative atrophy response than in their fast-twitch counterparts. When soleus data was normalized for body mass, it was shown that the relative muscle mass of the soleus did not increase as a result of space flight; it remained essentially the same as that seen at seven days of age. Space flight also blunted slow MHC gene expression in the developing soleus muscle and created a profile typically seen in most fast muscles. In contrast, in the TD animals, expression of the Type I MHC was essentially augmented along with retention of small amounts of both the embryonic and neonatal MHCs in both the flight-based and ground-based groups relative to what is typically seen in euthyroid animals during normal development in 1 G. Non-weight-bearing leg muscles such as the tibialis anterior appeared to be the least affected by space flight.",
+  "indexed": "2026-08-31T22:16:53.863Z",
+  "GUID": "cl62au2v2caui01o6gfko7vlg",
+  "__model_type": "lsda_experiment",
+  "__dirid": "23b145e7-f6fd-5397-afe5-c987c70629d3",
+  "__record_size_wo_doccontent": 79142,
+  "experiment_parms_tissue2": "NULL",
+  "experiment_parms_tissue1": "NULL",
+  "__update_method": "Update Data",
+  "archive_status_index": 1,
+  "experiment_type_lk": [
+   "Shuttle Life Sciences Research (Spacelab)"
+  ],
+  "__record_modified_date": "2026-08-31T22:16:53.863Z",
+  "proposal_source": "AO93-OLMSA-01-103",
+  "__indexed": "2026-08-31T22:16:53.863Z",
+  "alias": [
+   "E103"
+  ],
+  "session_type": "Basal",
+  "__record_creation_date": "2022-07-28T19:49:06.785Z",
+  "__record_size": 79142,
+  "__model_version": 423,
+  "payload_id": "Neurolab",
+  "CombinedSpecies": [
+   [
+    "Rat (Rattus norvegicus) Sprague-Dawley"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "9301103",
+  "experiment_related": [
+   "No related"
+  ],
+  "parameter_name": [
+   "Content, Myosin heavy chain (MHC), fast type IIA, medial gastrocnemius, muscle, rat, Gel electrophoresis (SDS-PAGE)",
+   "Content, Myosin heavy chain (MHC), fast type IIA, plantaris, muscle, rat, Gel electrophoresis (SDS-PAGE)",
+   "Content, Myosin heavy chain (MHC), fast type IIA, quadriceps, muscle, rat, Gel electrophoresis (SDS-PAGE)",
+   "Content, Myosin heavy chain (MHC), fast type IIA, soleus, muscle, rat, Gel electrophoresis (SDS-PAGE)",
+   "Properties, type, Fiber, medial gastrocnemius, muscle, rat, Immunohistochemistry",
+   "Properties, type, Fiber, plantaris, muscle, rat, Immunohistochemistry",
+   "Properties, type, Fiber, quadriceps, muscle, rat, Immunohistochemistry",
+   "Properties, type, Fiber, soleus, muscle, rat, Immunohistochemistry"
+  ],
+  "exp_index": 714,
+  "research_area": [
+   "Muscle physiology",
+   "Neuroscience"
+  ],
+  "protocol_approach": "Asynchronous control",
+  "pme_role_with_name": [
+   "ARC Deputy Payload Scientist: Hinds, Kathleen",
+   "ARC Experiment Support Scientist: Vizir, Vera",
+   "ARC Payload Manager: Maese, Albert",
+   "ARC Payload Scientist: Howerton, Thomas",
+   "ARC Project Scientist: Ostrach, Louis",
+   "Co-Investigator: Takeda, Shin'ichi",
+   "Principal Investigator: Baldwin, Kenneth"
+  ],
+  "missions": [
+   [
+    [
+     "STS-90"
+    ]
+   ]
+  ],
+  "PI": [
+   "Baldwin, Kenneth"
+  ],
+  "_file_extension": [],
+  "experiment_identifier": [
+   "9301103",
+   "E103"
+  ],
+  "mission_id": [
+   [
+    [
+     "STS-90"
+    ]
+   ]
+  ],
+  "center": [
+   "Ames Research Center"
+  ],
+  "ncindex": [
+   7
+  ],
+  "proposal_date": [
+   "11/25/1993"
+  ],
+  "species": [
+   "Rat"
+  ],
+  "PrincipalInvestigator": [
+   "Baldwin, Kenneth"
+  ],
+  "LaunchDate": [
+   "04/17/1998"
+  ],
+  "LaunchYear": 1998,
+  "program_name": [
+   "Shuttle Program"
+  ],
+  "archive_status": "Data preservation is complete. All datasets are publicly available.",
+  "__is_locked": false,
+  "Program": "Shuttle Program",
+  "__source_field_concat": "Basal ARCPUB000972 AO93-OLMSA-01-103 Neurolab cl62au2v2caui01o6gfko7vlg Myosin heavy chains  (MHC) NULL NULL Asynchronous control Neural Thyroid Interaction on Skeletal Isomyosin Expression in Zero-G 9301103 Shuttle Program Data preservation is complete. All datasets are publicly available.",
+  "__icon_type": "rat",
+  "__description": "<B>Objectives:</B><P>The objective of this experiment was to examine the interactive roles of gravity, innervation, and thyroid hormone (T3) in the developmental programming of myosin heavy chain (MHC) isoform expression in neonatal rodent antigravity and locomotor skeletal muscle. The central hypothesis tested is that gravity exerts a profound influence on the development and maintenance of slow (Type I) MHC expression in antigravity and locomotor muscle, such that in its absence, a significant number of muscle cells up-regulate the expression of fast MHCs due to an increased responsiveness to thyroid hormone. In contrast, the normal expression of the fast IIx and IIb MHCs are developmentally regulated independently of gravity, but require both the presence of an intact nerve and T3 in order for these isoforms to reach full maturation in expression by replacing neonatal/embryonic MHC isoforms that are normally only expressed during fetal and early neonatal development. An additional objective is to determine whether muscle development, in the absence of gravity, creates a deleterious response, whereby recovery from exposure to microgravity in the neonatal stage results in an irreversible effect on muscle mass and the pattern of adult myosin isoform expression.<P><B>Approach:</B><P>Flight, Simulated Caged Controls, and Vivarium rodents were divided into two subgroups: normal and thyroid deficient (TD). At recovery, key muscles were removed to study MHC isoform expression at both the mRNA and protein level of analysis using electrophoretic, immunohistochemical, and in situ hybridization technology. Due to the loss of neonates during flight, tissue samples could not be obtained from animals allowed to recover for 30 days postflight, as originally planned.<P><B>Results:</B><P>Body weights of both the normal (euthyroid) and TD flight rats were significantly lower than the counterpart ground-control groups. Data suggests that lack of nutrition cannot account for the lack of weight gain. Absolute muscle weights were also significantly reduced in all flight groups relative to age-matched ground controls. Both body weight and muscle weight was lower in the TD groups than in the euthyroid groups. In the anti-gravity slow-twitch soleus muscle, space flight caused a greater relative atrophy response than in their fast-twitch counterparts. When soleus data was normalized for body mass, it was shown that the relative muscle mass of the soleus did not increase as a result of space flight; it remained essentially the same as that seen at seven days of age. Space flight also blunted slow MHC gene expression in the developing soleus muscle and created a profile typically seen in most fast muscles. In contrast, in the TD animals, expression of the Type I MHC was essentially augmented along with retention of small amounts of both the embryonic and neonatal MHCs in both the flight-based and ground-based groups relative to what is typically seen in euthyroid animals during normal development in 1 G. Non-weight-bearing leg muscles such as the tibialis anterior appeared to be the least affected by space flight.",
+  "__doi": "10.83263/waye-sv61",
+  "__doi_record_creation_date": "2026-08-23T03:43:14",
+  "__doi_record_modified_date": "2026-08-23T03:43:14"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000299",
+   "label": "AINV0000000688",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Inflight Dam/Litter Food Consumption, Mammalian Development P7 Sim-Caged Group",
+    "dataset_catalog": "AINV0000000688",
+    "dataset_description": [
+     "This file presents daily inflight food consumption data for the Mammalian Development P7 group dams/litters, broken down by dam number."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9301034",
+     "9301103",
+     "9301122",
+     "9301123",
+     "9301143"
+    ]
+   },
+   "meta": "5 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "ca8fcf82-901b-50c7-9848-a290e3a48b43",
+     "label": "MD P7 SIM Food.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b14991d0-6230-579a-a724-a2260bbc5295",
+     "label": "MD P7 SIM Food.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4e3afb35-6d62-5d0a-98ff-bc979a32f5ed",
+     "label": "MD P7 SIM Food.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c5044857-e758-5adc-a99f-2d266b92ec10",
+     "label": "MD P7 SIM Food.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1d190ef1-f61b-51f5-aded-139422dbd935",
+     "label": "MD P7 SIM Food.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000461",
+   "label": "AINV0000000655",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Preflight/Inflight Dam/Litter Water Consumption, Mammalian Development P7 Sim-Caged Group",
+    "dataset_catalog": "AINV0000000655",
+    "dataset_description": [
+     "This file presents daily preflight (4/10/98 - 4/22/98) and inflight (4/23/98 - 5/11/98) water consumption data for the Mammalian Development P7 group sim-caged dams/litters, broken down by dam number (8 day delayed control). Data is also presented graphically. Water consumption is measured in milliliters."
+    ],
+    "processing_level": [
+     "Processed<br/>Raw"
+    ],
+    "experiment_id": [
+     "9301034",
+     "9301103",
+     "9301122",
+     "9301123",
+     "9301143"
+    ]
+   },
+   "meta": "5 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "11e592bc-664b-5d90-b9f8-6a89f3ada0b0",
+     "label": "MD P7 SIM Water.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2795bbc4-ad64-5db8-8da3-58bd7927c246",
+     "label": "MD P7 SIM Water.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3d2f3a38-7522-54da-8824-68bb29d6b7a0",
+     "label": "MD P7 SIM Water.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c676ec37-10ae-5be1-ab2a-27ae6a7cec94",
+     "label": "MD P7 SIM Water.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6ef076a8-02f9-5d44-8d49-8065c8c47746",
+     "label": "MD P7 SIM Water.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000459",
+   "label": "AINV0000000649",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Inflight Dam/Litter Food Consumption, Mammalian Development P7 Flight Group",
+    "dataset_catalog": "AINV0000000649",
+    "dataset_description": [
+     "This file presents daily inflight food consumption data for the Mammalian Development P7 flight group dams/litters, broken down by dam number."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9301034",
+     "9301103",
+     "9301122",
+     "9301123",
+     "9301143"
+    ]
+   },
+   "meta": "5 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "edbf24b3-05a5-5830-bd24-4068efe64821",
+     "label": "MD P7 FLT Food.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "bb2b13fb-d696-5b0d-911e-98a3efb06786",
+     "label": "MD P7 FLT Food.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1c7284c9-87c6-5c5c-8756-0d0c91aeabc2",
+     "label": "MD P7 FLT Food.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "36ec1281-3395-597a-bf44-0f50f5e992a4",
+     "label": "MD P7 FLT Food.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b61b014a-d0fb-51cf-a42d-53d3707ea0b3",
+     "label": "MD P7 FLT Food.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000032",
+   "label": "AINV0000000357",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Heart MHC protein isoform expression as determined by native gel electrophoresis",
+    "dataset_catalog": "AINV0000000357",
+    "dataset_description": [
+     "Heart MHC protein isoform expression (alpha-MHC vs. beta-MHC) was compared for basal, flight, and asynchronous ground control animals using native gel electrophoresis."
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "9301103"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "1c6afaf8-af27-52fe-a301-01bca2056b03",
+     "label": "Heart_MHC_protein.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001239",
+   "label": "AINV0000000696",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Vastus Intermedialis (VI) MHC Protein and mRNA Isoform Expression",
+    "dataset_catalog": "AINV0000000696",
+    "dataset_description": [
+     "Vastus intermedialis (VI) MHC protein isoform and mRNA expression (embryonic, neonatal, slow type 1, fast types IIa, IIx, and IIb) was compared for basal, flight, and asynchronous ground control animals. MHC data are expressed as percentages of the total MHC pool."
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "9301103"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "3d3ab378-1b4b-53c7-8b51-493c4953656d",
+     "label": "VI_MHC_Protein.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000056",
+   "label": "AINV0000000659",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Postflight Food and Water Consumption Data for Mammalian Development P7 Vivarium-Caged Group",
+    "dataset_catalog": "AINV0000000659",
+    "dataset_description": [
+     "Postflight food and water consumption data for mammalian development P7 vivarium-caged group (4 day delayed control: data for animals not dissected \u2018postflight\u2019). Animals are tracked from 5/8/98 through dissections ending 6/11/98. File tracks neonate renumbering postflight."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9301034",
+     "9301103",
+     "9301122",
+     "9301123",
+     "9301143"
+    ]
+   },
+   "meta": "5 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "d90b2e0c-6328-53a7-a9e6-10741f0157b1",
+     "label": "MD P7 VIV Daily_postflight.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "95a1bc16-e5a6-5e3a-b113-ea86d15cbce6",
+     "label": "MD P7 VIV Daily_postflight.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "08f20e9e-a183-5b21-a5be-7dd46d2467f5",
+     "label": "MD P7 VIV Daily_postflight.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8ab5e095-2cd2-5d35-9b2e-dd4b5db84e7d",
+     "label": "MD P7 VIV Daily_postflight.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ea4e515b-30e5-5614-8bf9-a3cdffe78279",
+     "label": "MD P7 VIV Daily_postflight.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000651",
+   "label": "AINV0000000658",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Preflight Delta Weight, Preflight/Inflight Food and Water Consumption Data for Mammalian Development P7 Vivarium-Caged Group",
+    "dataset_catalog": "AINV0000000658",
+    "dataset_description": [
+     "This file contains pre- and inflight data for the Mammalian Development P7 vivarium-caged group (4 day delayed control). Preflight dam body weight and litter weight (post-birthing on 4/12/98 - 4/13/98) is tracked from 4/5/98 to cage load on 4/18/98, and also collected at cage unload. Preflight food and water consumption is tracked per dam/dam + litter through cage load. Inflight food and water consumption is tracked from cage load to FD17. Cage unload dam weights, litter weights, and total food and water consumption is also recorded."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9301034",
+     "9301103",
+     "9301122",
+     "9301123",
+     "9301143"
+    ]
+   },
+   "meta": "5 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "fd1b45ef-e7d3-57c0-b025-3dc1edf8f10a",
+     "label": "MD P7 VIV Daily_pre_inflight.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "932452c9-b13e-55cc-bbe5-90682da2c523",
+     "label": "MD P7 VIV Daily_pre_inflight.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c67cfa47-1913-5795-a6f0-f4e405f9e88b",
+     "label": "MD P7 VIV Daily_pre_inflight.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6157520e-5fb3-5f30-b2eb-cf8837977d41",
+     "label": "MD P7 VIV Daily_pre_inflight.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "fc58856c-1152-58c8-bc12-feab565b7fca",
+     "label": "MD P7 VIV Daily_pre_inflight.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000556",
+   "label": "AINV0000000660",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Preflight/Inflight Dam/Litter Water Consumption, Mammalian Development P7 Vivarium-Caged Group",
+    "dataset_catalog": "AINV0000000660",
+    "dataset_description": [
+     "This file presents daily preflight (4/6/98 - 4/18/98) and inflight (4/19/98 - 5/7/98) water consumption data for the Mammalian Development P7 group vivarium-caged dams/litters, broken down by dam number (4 day delayed control). Data is also presented graphically. Water consumption is measured in grams."
+    ],
+    "processing_level": [
+     "Raw<br/>Processed"
+    ],
+    "experiment_id": [
+     "9301034",
+     "9301103",
+     "9301122",
+     "9301123",
+     "9301143"
+    ]
+   },
+   "meta": "5 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "f24741ea-bec1-5be1-983c-6f74e6af49c3",
+     "label": "MD P7 VIV Water.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "994104f2-fbb1-5e16-a50d-c2dab8d04322",
+     "label": "MD P7 VIV Water.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2c8b4371-7913-5f2f-a475-b868ba2be620",
+     "label": "MD P7 VIV Water.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "57964ff9-3224-5ae8-b42f-7a04d4433886",
+     "label": "MD P7 VIV Water.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "085e93d0-e5c1-5565-9901-276476c685d4",
+     "label": "MD P7 VIV Water.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001424",
+   "label": "AINV0000000650",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Inflight Dam/Litter Water Consumption, Mammalian Development P7 Flight Group",
+    "dataset_catalog": "AINV0000000650",
+    "dataset_description": [
+     "This file presents daily inflight water consumption data for the Mammalian Development P7 flight group dams/litters, broken down by dam. Data is also presented graphically. Water consumption is measured in milliliters (not labeled on the chart)."
+    ],
+    "processing_level": [
+     "Raw<br/>Processed"
+    ],
+    "experiment_id": [
+     "9301034",
+     "9301103",
+     "9301122",
+     "9301123",
+     "9301143"
+    ]
+   },
+   "meta": "5 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "4cbef26b-8ecb-54d8-a8ff-dc0292dbdf51",
+     "label": "MD P7 FLT Water.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "131b57d4-a4a9-5d5a-bed6-df2ae50421e2",
+     "label": "MD P7 FLT Water.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "fe8c07b4-ff86-54a2-a6a4-2018aac30b29",
+     "label": "MD P7 FLT Water.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7018ee32-e74c-5267-91eb-f9302ac4f149",
+     "label": "MD P7 FLT Water.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d6824dfe-f76d-5be1-9a19-22ed45f929a8",
+     "label": "MD P7 FLT Water.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001356",
+   "label": "AINV0000000695",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Soleus MHC Protein and mRNA Isoform Expression",
+    "dataset_catalog": "AINV0000000695",
+    "dataset_description": [
+     "Soleus MHC protein isoform and mRNA expression (embryonic, neonatal, slow type 1, fast types IIa, IIx, and IIb) was compared for basal, flight, and asynchronous ground control animals. MHC data are expressed as percentages of the total MHC pool."
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "9301103"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "2d14791c-7655-5828-a908-982e8cdbee7a",
+     "label": "SOLEUS_MHC_Protein.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002170",
+   "label": "AINV0000000697",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Plantaris MHC Protein and mRNA Isoform Expression",
+    "dataset_catalog": "AINV0000000697",
+    "dataset_description": [
+     "Plantaris MHC protein isoform and mRNA expression (embryonic, neonatal, slow type 1, fast types IIa, IIx, and IIb) was compared for basal, flight, and asynchronous ground control animals. MHC data are expressed as percentages of the total MHC pool."
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "9301103"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "c32472cb-cf78-5fb4-b0d4-bbd631e1b345",
+     "label": "PLANTARIS_MHC_Protein.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002363",
+   "label": "AINV0000000689",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Inflight Dam/Litter Food Consumption, Mammalian Development P7 Vivarium-Caged Group",
+    "dataset_catalog": "AINV0000000689",
+    "dataset_description": [
+     "This file presents daily inflight food consumption data for the Mammalian Development P7 vivarium group dams/litters, broken down by dam number."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9301034",
+     "9301103",
+     "9301122",
+     "9301123",
+     "9301143"
+    ]
+   },
+   "meta": "5 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "13d3d2a6-dcd4-5099-8573-29e285f602cc",
+     "label": "MD P7 VIV Food.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "baff8a46-ad4d-55ad-abf4-32342f28307e",
+     "label": "MD P7 VIV Food.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2a7240b6-98f6-5a81-bc37-5ac653b03b92",
+     "label": "MD P7 VIV Food.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b2d133fa-0775-54c9-b655-b656e6d6fc18",
+     "label": "MD P7 VIV Food.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "cab5efc0-deaf-5ff9-98b6-c5e4f836cbb0",
+     "label": "MD P7 VIV Food.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000865",
+   "label": "AINV0000000648",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Cross-Group (Flight, Sim-Caged, Vivarium) Comparison of Inflight Dam/Litter Food Consumption, Mammalian Development P7 Group",
+    "dataset_catalog": "AINV0000000648",
+    "dataset_description": [
+     "This file presents a cross-group comparison of all Flight, Sim-Caged and Vivarium dam/litter inflight food consumption for the Mammalian Development P7 group. Summary data is presented both in tabular and graphic formats."
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "9301034",
+     "9301103",
+     "9301122",
+     "9301123",
+     "9301143"
+    ]
+   },
+   "meta": "5 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "7455750d-bf84-53ca-9e84-f70d95291e27",
+     "label": "MD P7 All Food.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7d39b0d4-bc3a-5485-a940-b91dad9231ed",
+     "label": "MD P7 All Food.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8c34187c-a52a-5626-aaf9-935480bc5afc",
+     "label": "MD P7 All Food.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c5335034-c8c6-533b-b9ae-1edcf4cc8d9c",
+     "label": "MD P7 All Food.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4a1f418b-dfa3-5b18-80fc-53ac7b282b25",
+     "label": "MD P7 All Food.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000728",
+   "label": "AINV0000000698",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Tibialis Anterior (TA) MHC Protein and mRNA Isoform Expression",
+    "dataset_catalog": "AINV0000000698",
+    "dataset_description": [
+     "Tibialis anterior (TA) MHC protein isoform and mRNA expression (embryonic, neonatal, slow type 1, fast types IIa, IIx, and IIb) was compared for basal, flight, and asynchronous ground control animals. MHC data are expressed as percentages of the total MHC pool."
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "9301103"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "988b675a-784d-5ac6-b847-264673cf7234",
+     "label": "TA_MHC_Protein.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000053",
+   "label": "AINV0000000647",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Cross-Group (Flight, Sim-Caged, Vivarium) Comparison of Inflight Dam/Litter Water Consumption, Mammalian Development P7 Group",
+    "dataset_catalog": "AINV0000000647",
+    "dataset_description": [
+     "This file presents a cross-group comparison of all Flight, Sim-Caged and Vivarium dam/litter inflight water consumption for the Mammalian Development P7 group. Summary data is presented both in tabular and graphic formats."
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "9301034",
+     "9301103",
+     "9301122",
+     "9301123",
+     "9301143"
+    ]
+   },
+   "meta": "5 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "436ff946-56c9-59f4-96b7-b8c4452c48e2",
+     "label": "MD RAHF ALL WATER_pkl_e5.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1a9adbc2-b255-51e2-aa36-f2f69f7c923f",
+     "label": "MD RAHF ALL WATER_pkl_e5.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5f1ef704-4998-558a-aa44-5b489252cc8c",
+     "label": "MD RAHF ALL WATER_pkl_e5.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0e9d1599-2ddf-5901-9fc6-e4ced0fc1638",
+     "label": "MD RAHF ALL WATER_pkl_e5.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "76bde111-da56-55e3-bf9a-dd06aca1a01e",
+     "label": "MD RAHF ALL WATER_pkl_e5.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000055",
+   "label": "AINV0000000651",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Preflight (at Cage Load) Animal Weights, Mammalian Development P7 Sim-Caged Group",
+    "dataset_catalog": "AINV0000000651",
+    "dataset_description": [
+     "This file contains preflight (collected at cage load) Animal ID, Body Weight, and RAHF Cage Slot/ID data for the 12 Mammalian Development P7 Sim-Caged Dams and Litters (individual neonate weights included). (8 day delayed control)"
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9301034",
+     "9301103",
+     "9301122",
+     "9301123",
+     "9301143"
+    ]
+   },
+   "meta": "5 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "e8142887-625c-5a2a-83de-dea4ec48767b",
+     "label": "CL 04_22_98 MD_P7 SimRAHF.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a8a51c9d-b88c-59ef-9fbb-fdeaf1e4cb55",
+     "label": "CL 04_22_98 MD_P7 SimRAHF.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "90d68059-bdef-5ae3-aef4-3308b4d6eff9",
+     "label": "CL 04_22_98 MD_P7 SimRAHF.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "83a60673-2d29-5330-ac18-7327c929690f",
+     "label": "CL 04_22_98 MD_P7 SimRAHF.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f3846198-0906-5248-b38b-f38fe590613c",
+     "label": "CL 04_22_98 MD_P7 SimRAHF.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000140",
+   "label": "AINV0000000653",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Preflight Delta Weight, Preflight/Inflight Food and Water Consumption Data for Mammalian Development P7 Sim-Caged Group",
+    "dataset_catalog": "AINV0000000653",
+    "dataset_description": [
+     "This file contains pre- and inflight data for the Mammalian Development P7 Sim-caged animal pool (8 day delayed control). Preflight dam body weight and litter weight (post-birthing on 4/16/98 - 4/17/98) is tracked from 4/9/98 to cage load on 4/22/98, and also collected at cage unload. Preflight food and water consumption is tracked per dam/dam + litter through cage load. Inflight food and water consumption from the feeder tape pulls and lixit counts is tracked from cage load to FD17. Cage unload dam weights, litter weights, and total food and water consumption is also recorded."
+    ],
+    "processing_level": [
+     "Raw<br/>Processed"
+    ],
+    "experiment_id": [
+     "9301034",
+     "9301103",
+     "9301122",
+     "9301123",
+     "9301143"
+    ]
+   },
+   "meta": "5 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "0c728d2e-d873-5feb-aae1-cf16a473ca1f",
+     "label": "MD P7 SIM Daily_pre_inflight.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "20ad06e6-de0d-568c-8c43-444835a85d64",
+     "label": "MD P7 SIM Daily_pre_inflight.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c988dfdd-8391-566f-b6fe-199535726247",
+     "label": "MD P7 SIM Daily_pre_inflight.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d1f95f44-5693-5ad4-84a0-5c2f0573b4f3",
+     "label": "MD P7 SIM Daily_pre_inflight.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "fa7e9574-44c1-56af-b2b6-44b339b7c70a",
+     "label": "MD P7 SIM Daily_pre_inflight.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000296",
+   "label": "AINV0000000685",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Litter Equalization Operations, Mammalian Development P7 Flight Group",
+    "dataset_catalog": "AINV0000000685",
+    "dataset_description": [
+     "This database holds weight data and animal-condition comments for the flight pool dams/litters after litter equalization on day PN2. Dam/litter numbers 3102, 3109, 3114, 3119, 3120, 3124, 3131, 3134, 3135, 3140, 3142, and 3143 were later selected for flight."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9301034",
+     "9301103",
+     "9301122",
+     "9301123",
+     "9301143"
+    ]
+   },
+   "meta": "5 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "f083d393-32fe-5d8b-9444-e0474bc691fa",
+     "label": "PN2 Operations Flight.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8c732289-b60e-5d64-8e35-66a02c90879e",
+     "label": "PN2 Operations Flight.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "db343f34-5a01-58bf-b2de-a2516b6ea820",
+     "label": "PN2 Operations Flight.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d0f4034a-ddda-50d3-bfc3-5980d1cae3e3",
+     "label": "PN2 Operations Flight.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "96e33888-3f8b-59aa-9e2d-fa7f927ec954",
+     "label": "PN2 Operations Flight.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000297",
+   "label": "AINV0000000682",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Litter Selection, Mammalian Development P7 Flight Group",
+    "dataset_catalog": "AINV0000000682",
+    "dataset_description": [
+     "This spreadsheet contains data used to select the final two flight dams and litters from the flight animal pool. Dams/litters 3102, 3109, 3114, 3119, 3120, 3124, 3131, 3134, 3135, 3140, 3142, and 3143 were selected for flight."
+    ],
+    "processing_level": [
+     "Raw<br/>Processed"
+    ],
+    "experiment_id": [
+     "9301034",
+     "9301103",
+     "9301122",
+     "9301123",
+     "9301143"
+    ]
+   },
+   "meta": "5 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "b99e92ff-5a5e-5cc6-897b-7f360512ba4e",
+     "label": "Litter Selection Flight P7.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d19baeac-90aa-5739-98eb-7598875a96ea",
+     "label": "Litter Selection Flight P7.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "212b58e7-2e87-55ab-b4d8-d98b2ea2faf8",
+     "label": "Litter Selection Flight P7.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6734c38c-95ea-58e4-a57b-10806e1c28a1",
+     "label": "Litter Selection Flight P7.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c9f001a2-d190-5af6-a940-a1f44d4b9996",
+     "label": "Litter Selection Flight P7.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000543",
+   "label": "AINV0000000652",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Postflight (at Cage Unload) Animal Weights, Mammalian Development P7 Sim-Caged Group",
+    "dataset_catalog": "AINV0000000652",
+    "dataset_description": [
+     "This file contains postflight (collected at cage unload) Animal ID, Body Weight, and RAHF Cage Slot/ID data for the 12 Mammalian Development P7 Sim-Caged Dams and Litters (individual neonate weights included [neonates in cage-slots 1, 2, and 6 dissected \u2018inflight\u2019]). (8 day delayed control)"
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9301034",
+     "9301103",
+     "9301122",
+     "9301123",
+     "9301143"
+    ]
+   },
+   "meta": "5 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "a34cb2ab-68a1-55cd-a31b-2fcf37cbc012",
+     "label": "CU 05_11_98 MD_P7 SimRAHF.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "48fc75fd-8c37-5af8-b433-9e39fb5963cf",
+     "label": "CU 05_11_98 MD_P7 SimRAHF.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "52acadee-2827-552e-9983-eaa0af6be7e1",
+     "label": "CU 05_11_98 MD_P7 SimRAHF.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d47ba4d5-8476-5a60-9c14-529bb1434c49",
+     "label": "CU 05_11_98 MD_P7 SimRAHF.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ace607b4-e7d1-55c7-a05c-2e347969b4ae",
+     "label": "CU 05_11_98 MD_P7 SimRAHF.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000542",
+   "label": "AINV0000000645",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Postflight (at Cage Unload) Animal Weights, Mammalian Development P7 Flight Group",
+    "dataset_catalog": "AINV0000000645",
+    "dataset_description": [
+     "This file contains postflight (collected at cage unload) Animal ID, Body Weight, and RAHF Cage Slot/ID data for the 12 Mammalian Development P7 Dams and Litters (individual neonate weights included [12 dissected inflight)."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9301034",
+     "9301103",
+     "9301122",
+     "9301123",
+     "9301143"
+    ]
+   },
+   "meta": "5 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "348cfa28-cf70-5d2b-b96d-c495ea4914c2",
+     "label": "CU 05_03_1998 MD_P7 RAHF.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "018c3a44-cbb9-517f-af9b-7d2fa94f7f93",
+     "label": "CU 05_03_1998 MD_P7 RAHF.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "559f040a-7b13-5524-94f4-ea406072175c",
+     "label": "CU 05_03_1998 MD_P7 RAHF.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8051e247-1021-5de3-96d4-544075185673",
+     "label": "CU 05_03_1998 MD_P7 RAHF.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "43d175ac-d816-591a-bf2a-15a3503f9963",
+     "label": "CU 05_03_1998 MD_P7 RAHF.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002021",
+   "label": "AINV0000000654",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Postflight Food and Water Consumption Data for Mammalian Development P7 Sim-Caged Group",
+    "dataset_catalog": "AINV0000000654",
+    "dataset_description": [
+     "Postflight food and water consumption data for mammalian development P7 sim-caged group (8 day delayed control: data for animals not dissected \u2018postflight\u2019). Animals are tracked from 5/12/98 through dissections beginning 6/11/98. File tracks neonate renumbering postflight."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9301034",
+     "9301103",
+     "9301122",
+     "9301123",
+     "9301143"
+    ]
+   },
+   "meta": "5 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "281801b1-d853-5147-9eb8-4a6ba8f5b399",
+     "label": "MD P7 SIM Daily_postflight.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "61a38c17-69ec-5ca4-9ec2-dd83c2da3af1",
+     "label": "MD P7 SIM Daily_postflight.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a186f5ae-69f8-59c2-b6a9-42c8c37b48d6",
+     "label": "MD P7 SIM Daily_postflight.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "35aa623c-4deb-55ff-870d-ee95a5a9fec5",
+     "label": "MD P7 SIM Daily_postflight.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f53cc6d8-8f74-59d3-a51d-ff2c8d35d53e",
+     "label": "MD P7 SIM Daily_postflight.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001318",
+   "label": "AINV0000000691",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Neurolab Data Roadmap",
+    "dataset_catalog": "AINV0000000691",
+    "dataset_description": [
+     "This roadmap explains the contents of all the archive records pertaining to the rodent project data operations inflight and pre/postflight at KSC."
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "9301034",
+     "9301085",
+     "9301100",
+     "9301103",
+     "9301118",
+     "9301122",
+     "9301123",
+     "9301127 1_2",
+     "9301132",
+     "9301143",
+     "9301150"
+    ]
+   },
+   "meta": "11 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "8aaf119f-564d-5ec0-8fcf-6402366fd950",
+     "label": "neurolab_data_map.doc",
+     "type": "file",
+     "ext": "doc",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a716c026-ad1e-5fbd-93c5-6f9ebe935df3",
+     "label": "neurolab_data_map.doc",
+     "type": "file",
+     "ext": "doc",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4f1d6ee7-3383-5b48-8cc3-173693867c33",
+     "label": "neurolab_data_map.doc",
+     "type": "file",
+     "ext": "doc",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3d99d9bb-2a0c-5fb4-b3ea-3b43701af3e5",
+     "label": "neurolab_data_map.doc",
+     "type": "file",
+     "ext": "doc",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5d23a74d-23c9-5d7a-bbbd-338a740d06f0",
+     "label": "neurolab_data_map.doc",
+     "type": "file",
+     "ext": "doc",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ef488f9d-6acc-50cd-bac9-d1a75945d574",
+     "label": "neurolab_data_map.doc",
+     "type": "file",
+     "ext": "doc",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d5108a6a-6432-5678-a772-82f4ff8c31d6",
+     "label": "neurolab_data_map.doc",
+     "type": "file",
+     "ext": "doc",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "fd1c6de0-a463-5596-88b7-5342f80d5ac2",
+     "label": "neurolab_data_map.doc",
+     "type": "file",
+     "ext": "doc",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "03962cd5-6a1b-5f39-8c3f-bf74f69fb4a0",
+     "label": "neurolab_data_map.doc",
+     "type": "file",
+     "ext": "doc",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "658d4aec-79f9-5b2d-a008-7adb3391a1db",
+     "label": "neurolab_data_map.doc",
+     "type": "file",
+     "ext": "doc",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "36497689-d0d3-5dfb-a427-a116a4a6aa44",
+     "label": "neurolab_data_map.doc",
+     "type": "file",
+     "ext": "doc",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000893",
+   "label": "AINV0000000646",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Preflight Delta Weight, Preflight/Inflight Food and Water Consumption Data for Mammalian Development P7 Flight Group",
+    "dataset_catalog": "AINV0000000646",
+    "dataset_description": [
+     "This file contains pre- and inflight data for the Mammalian Development P7 flight animal pool. Preflight dam body weight and litter weight (post-birthing on 4/8/98 - 4/9/98) is tracked from 4/1/98 to cage load on 4/14/98, and also collected on R+0. Preflight food and water consumption is tracked per dam/dam + litter through launch. Inflight food and water consumption from the feeder tape pulls and lixit counts is tracked from FD1 to FD17. R+0 dam weights, litter weights, and total food consumption is also recorded."
+    ],
+    "processing_level": [
+     "Processed<br/>Raw"
+    ],
+    "experiment_id": [
+     "9301034",
+     "9301103",
+     "9301122",
+     "9301123",
+     "9301143"
+    ]
+   },
+   "meta": "5 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "e93cfb9b-ba69-5cb6-a06b-2cca719e5947",
+     "label": "MD P7 FLT Daily_pre_inflight.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ab5e0aa3-cb5e-5a2d-9eee-fa15e4826268",
+     "label": "MD P7 FLT Daily_pre_inflight.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "519cad06-3ea9-572e-9d6e-ad1f7497cd5b",
+     "label": "MD P7 FLT Daily_pre_inflight.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3e5776f3-948a-5e63-9ffa-5372cddda289",
+     "label": "MD P7 FLT Daily_pre_inflight.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "431b9974-4f93-51cf-8f6a-babc559e843e",
+     "label": "MD P7 FLT Daily_pre_inflight.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001566",
+   "label": "AINV0000000656",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Preflight (at Cage Load) Animal Weights, Mammalian Development P7 Vivarium-Caged Group",
+    "dataset_catalog": "AINV0000000656",
+    "dataset_description": [
+     "This file contains preflight (collected at cage load) Animal ID and Body Weight data for the 12 Mammalian Development P7 Vivarium-Caged Dams and Litters (individual neonate weights included). (4 day delayed control)"
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9301034",
+     "9301103",
+     "9301122",
+     "9301123",
+     "9301143"
+    ]
+   },
+   "meta": "5 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "012bc7dc-92eb-5265-b724-6d79004611f0",
+     "label": "CL 04_18_1998 MD_P7  VIV.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6b0049af-9c7b-588f-a30b-751da7995968",
+     "label": "CL 04_18_1998 MD_P7  VIV.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f9c885c1-aa2a-5584-9b8c-40f9592aa04a",
+     "label": "CL 04_18_1998 MD_P7  VIV.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d50cbe7b-4f2a-5cf6-b873-c1174b3097be",
+     "label": "CL 04_18_1998 MD_P7  VIV.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "fc42e833-a065-5f0a-9281-331d92883d14",
+     "label": "CL 04_18_1998 MD_P7  VIV.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001564",
+   "label": "AINV0000000686",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Litter Equalization Operations, Mammalian Development P7 Sim-Caged Group",
+    "dataset_catalog": "AINV0000000686",
+    "dataset_description": [
+     "This database holds weight data and animal-condition comments for the sim pool dams/litters after litter equalization on day PN2. Dam/litter numbers 4501, 4502, 4503, 4504, 4513, 4514, 4521, 4530, 4535, 4541, 4542, and 4545 were later selected for flight simulation."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9301034",
+     "9301103",
+     "9301122",
+     "9301123",
+     "9301143"
+    ]
+   },
+   "meta": "5 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "e5ed3254-15c1-5ad7-bee6-1441e7929681",
+     "label": "PN2 Operations Sim.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4e46c587-82d0-5462-a480-62338e7fd654",
+     "label": "PN2 Operations Sim.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "cafd89b8-0cf2-5a63-b970-926669cf5804",
+     "label": "PN2 Operations Sim.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3f220ee6-dee8-5ae0-ac40-1901885c2cdb",
+     "label": "PN2 Operations Sim.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a8e6f5da-12bf-5b00-bab4-d0afc91f1eca",
+     "label": "PN2 Operations Sim.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001667",
+   "label": "AINV0000000687",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Litter Equalization Operations, Mammalian Development P7 Vivarium-Caged Group",
+    "dataset_catalog": "AINV0000000687",
+    "dataset_description": [
+     "This database holds weight data and animal-condition comments for the sim pool dams/litters after litter equalization on day PN2. Dam/litter numbers 3501, 3503, 3505, 3506, 3410, 3513, 3537, 3538, 3539, 3542, 3544, and 3548 were later selected for flight control."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9301034",
+     "9301103",
+     "9301122",
+     "9301123",
+     "9301143"
+    ]
+   },
+   "meta": "5 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "10f79222-6e28-5ac4-ac2a-2e7144abb5e9",
+     "label": "PN2 Operations Viv.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "64f9e11a-7042-5a23-917c-e034dd350966",
+     "label": "PN2 Operations Viv.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "06c47ebb-3c7d-5fc5-a40a-1c63167b9810",
+     "label": "PN2 Operations Viv.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b3ce124b-622c-5940-86a1-c4ae2a72b84e",
+     "label": "PN2 Operations Viv.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "fe453ef4-341e-5a8c-b1d0-21f160de1474",
+     "label": "PN2 Operations Viv.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001624",
+   "label": "AINV0000000642",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Preflight (at Cage Load) Animal Weights, Mammalian Development P7 Flight Group",
+    "dataset_catalog": "AINV0000000642",
+    "dataset_description": [
+     "This file contains preflight (collected at cage load) Animal ID, Body Weight, and RAHF Cage Slot/ID data for the 12 Mammalian Development P7 Flight Dams and Litters (individual neonate weights included)."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9301034",
+     "9301103",
+     "9301122",
+     "9301123",
+     "9301143"
+    ]
+   },
+   "meta": "5 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "c5bd98b2-36d5-5b74-a477-00533c4bdbfc",
+     "label": "CL 04_14_1998 MD_P7 RAHF.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "30f5d310-ae3a-5033-8506-19002c4053b8",
+     "label": "CL 04_14_1998 MD_P7 RAHF.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2f06899c-e702-5d4b-876a-c074cefddbef",
+     "label": "CL 04_14_1998 MD_P7 RAHF.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3b484c2c-0f1c-5a5b-b92d-f7394eb5aabe",
+     "label": "CL 04_14_1998 MD_P7 RAHF.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "daa4449d-0fd6-533d-89ff-099c4968e4b5",
+     "label": "CL 04_14_1998 MD_P7 RAHF.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001876",
+   "label": "AINV0000000644",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Cross-Group (Flight, Sim-Caged, Vivarium) Comparison of Neonate Weights Pre-and Postflight, Mammalian Development P7 Group",
+    "dataset_catalog": "AINV0000000644",
+    "dataset_description": [
+     "This file presents a cross-group comparison of Flight, Sim-Caged and Vivarium neonate weights in the Mammalian Development P7 group, pre- and postflight. Data is presented both in tabular and graphic formats. In addition to summary data, individual neonate pre- and postflight data is presented."
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "9301034",
+     "9301103",
+     "9301122",
+     "9301123",
+     "9301143"
+    ]
+   },
+   "meta": "5 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "a84465c5-65c5-5888-9b4f-2a27a847bb73",
+     "label": "MD P7 All NN Weights.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a5a978b5-00fa-5f9e-b2e1-e879ba1ac9d3",
+     "label": "MD P7 All NN Weights.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c45338e5-69e5-5975-a62f-043f0880dcd6",
+     "label": "MD P7 All NN Weights.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3bf705ed-70b1-5ec6-a634-0f5c38cbd3a3",
+     "label": "MD P7 All NN Weights.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0cc99087-69db-509a-8c3b-c17e252e0b51",
+     "label": "MD P7 All NN Weights.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001996",
+   "label": "AINV0000000643",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Cross-Group (Flight, Sim-Caged, Vivarium) Comparison of Dam Weights Pre-and Postflight, Mammalian Development P7 Group",
+    "dataset_catalog": "AINV0000000643",
+    "dataset_description": [
+     "This file presents a cross-group comparison of Flight, Sim-Caged and Vivarium dam weights in the Mammalian Development P7 group, pre- and postflight. Data is presented both in tabular and graphic formats."
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "9301034",
+     "9301103",
+     "9301122",
+     "9301123",
+     "9301143"
+    ]
+   },
+   "meta": "5 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "07ac9980-cdfd-5b6e-9819-d13ae22f6fda",
+     "label": "MD P7 All Dam Weights.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b5ce94ec-edf9-5ba5-b3e5-94c47aa62c8e",
+     "label": "MD P7 All Dam Weights.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4d7ba586-3e9b-51de-9c08-648a15b96cf3",
+     "label": "MD P7 All Dam Weights.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a3be6bb2-2de8-5426-8e83-2898881265e4",
+     "label": "MD P7 All Dam Weights.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "506df574-bf71-5b35-9c19-f6ac758d08d2",
+     "label": "MD P7 All Dam Weights.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002131",
+   "label": "AINV0000000657",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Postflight (at Cage Unload) Animal Weights, Mammalian Development P7 Vivarium-Caged Group",
+    "dataset_catalog": "AINV0000000657",
+    "dataset_description": [
+     "This file contains postflight (collected at cage unload) Animal ID and Body Weight data for the 12 Mammalian Development P7 Vivarium-Caged Dams and Litters (individual neonate weights included). (4 day delayed control [neonates in cage-slots 1, 2, and 6 dissected \u2018inflight\u2019])"
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9301034",
+     "9301103",
+     "9301122",
+     "9301123",
+     "9301143"
+    ]
+   },
+   "meta": "5 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "f29ca76f-da63-5c11-a3f0-c4d303770929",
+     "label": "CU 05_07_1998 MD_P7 VIV.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "dd3c3296-e567-5512-8929-5686bd165903",
+     "label": "CU 05_07_1998 MD_P7 VIV.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "96172a07-7660-57fd-ab54-094ab28d8f64",
+     "label": "CU 05_07_1998 MD_P7 VIV.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f48eb661-efc7-531f-a637-09161cfd157a",
+     "label": "CU 05_07_1998 MD_P7 VIV.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ced07dd0-ec9e-57a4-a6b8-90e1ddd84d94",
+     "label": "CU 05_07_1998 MD_P7 VIV.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002068",
+   "label": "AINV0000000683",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Litter Selection, Mammalian Development P7 Sim-Caged Group",
+    "dataset_catalog": "AINV0000000683",
+    "dataset_description": [
+     "This spreadsheet contains data used to select the final two flight dams and litters from the sim animal pool. Dams/litters 4501, 4502, 4503, 4504, 4513, 4514, 4521, 4530, 4535, 4541, 4542, and 4545 were selected for flight simulation."
+    ],
+    "processing_level": [
+     "Processed<br/>Raw"
+    ],
+    "experiment_id": [
+     "9301034",
+     "9301103",
+     "9301122",
+     "9301123",
+     "9301143"
+    ]
+   },
+   "meta": "5 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "f557d554-2ae8-5a3d-a029-b2b5d8c7f9da",
+     "label": "Litter Selection Sim P7.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "02a7e5ef-8b73-5022-bc4a-f6d8aa54675f",
+     "label": "Litter Selection Sim P7.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2c05f2a5-042f-5b6d-9f1c-dbd1b548394f",
+     "label": "Litter Selection Sim P7.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e64fbbf4-1b63-5e3c-80fc-f6497a7e490f",
+     "label": "Litter Selection Sim P7.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "cea04451-42d4-5613-a8b0-0d55ba286b91",
+     "label": "Litter Selection Sim P7.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002364",
+   "label": "AINV0000000684",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Litter Selection, Mammalian Development P7 Vivarium-Caged Group",
+    "dataset_catalog": "AINV0000000684",
+    "dataset_description": [
+     "This spreadsheet contains data used to select the final two flight dams and litters from the viv animal pool. Dams/litters 3501, 3503, 3505, 3506, 3410, 3513, 3537, 3538, 3539, 3542, 3544, and 3548 were selected for flight control."
+    ],
+    "processing_level": [
+     "Raw<br/>Processed"
+    ],
+    "experiment_id": [
+     "9301034",
+     "9301103",
+     "9301122",
+     "9301123",
+     "9301143"
+    ]
+   },
+   "meta": "5 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "5a2352fa-8372-53c5-8e5e-297ee7b92944",
+     "label": "Litter Selection Viv P7.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5f8ec7ad-8d8e-5d6a-8c2b-35ffb72a57fc",
+     "label": "Litter Selection Viv P7.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e1302357-3609-5e36-83a6-a46e07690e89",
+     "label": "Litter Selection Viv P7.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3fec92a9-4a18-55ff-b244-a2b2f06bc61a",
+     "label": "Litter Selection Viv P7.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8d35e449-8366-5f18-ad4a-1190bd6d8856",
+     "label": "Litter Selection Viv P7.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

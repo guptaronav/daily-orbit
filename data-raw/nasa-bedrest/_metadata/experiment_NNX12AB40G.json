@@ -1,0 +1,206 @@
+{
+ "record": {
+  "id": "f48b517c-44f6-5ad7-9ac9-6750450698b5",
+  "_id": "f48b517c-44f6-5ad7-9ac9-6750450698b5",
+  "__is_locked": false,
+  "experiment_title": "AD ASTRA: Automated Detection of Attitudes and States through Transaction Recordings Analysis",
+  "__source_key": "cl62b0rkrcdp401o6fqcdhhv9",
+  "experiment_type": [
+   [
+    "NASA Ground-Based Investigations"
+   ],
+   [
+    "Flight Analogs Project (FAP)"
+   ],
+   [
+    "NASA Bedrest Studies"
+   ]
+  ],
+  "AssignedArchivist": [
+   "None Selected",
+   "Liddell, Nyaia A."
+  ],
+  "keyword": [
+   "Task performance and analysis",
+   "Communication",
+   "Emotions",
+   "Behavior",
+   "Fatigue",
+   "Leadership"
+  ],
+  "__record_version": 31,
+  "hrr_task_title": "AD ASTRA: Automated Detection of Attitudes and States through Transaction Recordings Analysis",
+  "experiment_description": "OBJECTIVES:<br>\nLong-duration missions present unique challenges to the behavioral health of astronauts. Factors such as lack of team coherence, workload, social monotony, access to family and psychosocial support, and interpersonal and cultural differences can affect both crew welfare and task performance. Metrics and methods for assessing these factors are difficult to obtain because some are inherently qualitative, while others may not be amenable to self-reporting. Since these factors are affected by, even largely the product of, interpersonal communication, it is not surprising that interpersonal communications are the primary key to them. There are already rich sources of interpersonal communication data \u2014 both intra-crew and between flight crew and ground \u2014 which are created and archived during International Space Station (ISS) missions. Recent research suggests that verbal and non-verbal communications can be automatically processed in a variety of ways to provide insight into team cohesion, affective and cognitive states, and team performance. The investigators propose to leverage prior work of their own and of others in cultural and socio-linguistic theory to develop standardized, non-intrusive, and largely automated methods for data collection and knowledge extraction about factors salient to crew psychosocial well-being from existing communications data streams.\n<div>\nThe overall objective of this study was to identify suitable combinations of automated text processing techniques, which investigators call \u201cNon-Intrusive Psycho-Social State Assessors\u201d or NIPSSAs and data streams for assessing psychosocial states of interest to NASA and to validate their overall hypothesis that NIPSSA measures could replace survey data for assessing selected psychosocial states. Astronauts\u2019 journals, diaries, and blogs are a rich source of material about their experiences and attitudes toward those experiences, and interpersonal communications are, after all, one of the best methods humans have of assessing changes in attitudes and states. The investigators reasoned that if they could automate assessments of such data streams, many of which are already being captured and, to some extent, monitored during space missions, they would greatly expand the set of data which NASA team dynamics researchers have available. \n</div><div>\nAPPROACH:<br>\nThe first year of the project surveyed the available techniques and data streams, arrived at the prioritization of textual analysis of journal/log entries and of interactive task discourse (in email, chat, and transcribed speech), and then went on to demonstrate promising sensitivity in the tools via analysis of pre-existing, historical data sources. While investigators showed individual and temporal variations with anecdotal correspondence to events, no independent data about the writers\u2019 emotional states existed for validation of the text analysis techniques. The second year was targeted at transitioning the promising NIPSSA techniques found with the first year\u2019s work on historical data to validation studies with newly collected \u201clive\u201d data from ongoing experiments in analog environments, particularly the Flight Analog Research Unit Bed Rest Study Campaign 11 conducted at the University of Texas Medical Branch. \n</div><div>\nThe third project year was devoted to completing the bed rest analog journal study, while continuing to participate in a four-month crew habitat study in the Hawaii Space Exploration Analog and Simulation (HI-SEAS) and began participation in an eight-month HI-SEAS study collecting both journal and crew-ground textual interaction messages (with corresponding survey data). Finally, techniques for audio data collection and then transcriptions were developed in the Human Exploration Research Analog (HERA), from which investigators obtained and analyzed journal, survey, and text and speech interaction data from four separate week-long missions. \n</div><div>\nIn the fourth and final year, investigators completed analyses of the HERA transcription data, and performed cross-analog analyses illustrating the robustness of their techniques. In the HERA study, they collected more than 160,000 minutes of captured audio recordings across four mission and transcribed large portions of this to enable examination of automated processing of interactive speech data. In all three analogs, investigators collected participant journals and daily surveys to cross validate their automated assessment techniques. \n</div><div>\nRESULTS:<br>\nThe results show that automated textual analysis of subjects\u2019 free form journals can reliably replace at least some forms of attitude and emotion surveys since the automated journal analyses regularly correlated significantly with subjects\u2019 own survey ratings of their emotional positivity/negativity, and their focus on past/present/future across all three of the analog studies. Correlations between their attitudes about the study and about their physical well-being, as well as their focus on themselves versus others, were also repeatedly significant. Furthermore, there is evidence that automated evaluation of journal entries may do a better job of assessing participant attitudes than do daily observers: a comparative analysis between the automated assessments and subjects\u2019 own survey responses versus the survey assessments of the subject by a nurse showed that automated analyses did a better job at predicting subjects\u2019 survey responses. \n</div><div>\nInvestigators also demonstrated the speed and flexibility of their approaches by rapidly producing multiple after-the-fact analyses of elements of participants\u2019 attitudes and emotions throughout the study including analyses of the effects of exercise and of testosterone treatments on subjects\u2019 emotions and attitudes about sleep and food. Further, by examining the correlates of positive or negative mentions of a word group such as food, eating, or specific food items investigators can provide suggestive evidence about how a specific individual or group thinks about that topic (that food is comforting and tied to nostalgia and social contacts or that it is a source of concern about body image and health). The flexibility to perform post hoc and deep, individualistic analyses proved to be a particularly useful capability and a strong distinguisher from survey questions. \n</div><div>\nIn addition to examining journals, investigators developed techniques for examining interactive dialogue during tasks and daily activities. This form of communication is more immediate and less pre-meditated than journal entries and, therefore, is expected to be a less guarded but more transitory source of attitudes and emotions. Investigators have detected significant differences in the overall emotional valence of the different crews, of valence for differing tasks among the different crews, and of varying (and differing) drivers for those emotional sentiments among the crewmembers. \n</div><div>\nDuring debriefs with analog participants and operations personnel throughout this study, investigators have identified a number of recommendations for the use of the developed techniques that are particularly relevant to long-duration missions. Among these are an intervention or advisory tool for crewmembers themselves (reflecting exhibited changes in mood or attitude), a \u201cpower level\u201d and \u201cteam comfort/routine\u201d indicator for tracking intra-crew dynamics, and an aid for ground researchers to glean attitude and topic focus information from mission and training debriefing sessions. \n</div><div></div>",
+  "indexed": "2026-08-23T04:24:50.005785+00:00",
+  "GUID": "cl62b0rkrcdp401o6fqcdhhv9",
+  "_file_extension": "human",
+  "archive_status": "Data preservation is complete. All datasets are privacy-protected. Data is available via data request.",
+  "__model_type": "lsda_experiment",
+  "__dirid": "f48b517c-44f6-5ad7-9ac9-6750450698b5",
+  "__record_size_wo_doccontent": 148267,
+  "__update_method": "Update CDM",
+  "experiment_identifier": [
+   "NNX12AB40G"
+  ],
+  "CompleteArchivalExpectedInFiscalYear": [
+   "0"
+  ],
+  "experiment_type_lk": [
+   "NASA Ground-Based Investigations",
+   "Flight Analogs Project (FAP)",
+   "NASA Bedrest Studies"
+  ],
+  "__record_modified_date": "2026-08-23T04:24:50.005785+00:00",
+  "proposal_source": "2010 Crew Health NNJ10ZSA003N",
+  "nasa_center": "JSC",
+  "__indexed": "2026-08-23T04:24:50.005785+00:00",
+  "__record_creation_date": "2022-07-28T19:59:42.007Z",
+  "__record_size": 148267,
+  "__model_version": 60,
+  "species_sci_name": [
+   [
+    "Homo sapiens"
+   ]
+  ],
+  "payload_id": [
+   "Ground",
+   "HERA Campaign 1",
+   "CFT70"
+  ],
+  "CombinedSpecies": [
+   "Human (Homo sapiens)"
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "ncindex": 2,
+  "researchIndex": [
+   1,
+   1085
+  ],
+  "experiment_id": "NNX12AB40G",
+  "center": "JSC",
+  "parameter_name": [
+   "Affect",
+   "Depression",
+   "Emotional states",
+   "Fatigue",
+   "Individual drivers",
+   "Interaction, amount",
+   "Interactive task communication",
+   "Journaling",
+   "Mood states",
+   "Power network",
+   "Rumination",
+   "Salience",
+   "Sentiment, high",
+   "Sentiment, low",
+   "Social distance",
+   "Stress",
+   "Word associations",
+   "Work, meaningful",
+   "Workload",
+   "Team routine"
+  ],
+  "exp_index": 2075,
+  "research_area": [
+   "Behavior and performance",
+   "Technology development"
+  ],
+  "species": [
+   [
+    "Human"
+   ]
+  ],
+  "pme_role_with_name": [
+   "Co-Investigator: Wu, Peggy",
+   "Co-Investigator: Rye, Jeffry",
+   "Co-Investigator: Schmer-Galunder, Sonja",
+   "Principal Investigator: Miller, Christopher",
+   "Co-Investigator: Ott, Tammy"
+  ],
+  "missions": [
+   "Ground",
+   "HERA Campaign 1",
+   "UTMB Campaign 11"
+  ],
+  "PI": [
+   "Miller, Christopher"
+  ],
+  "sort": [
+   3,
+   "732fef3a-9979-5eea-925e-f6a5d8149fa9"
+  ],
+  "pub_document_number": "PUB003204",
+  "parameter_html": "<table><tr><td>Affect</td></tr><tr><td>Depression</td></tr><tr><td>Emotional states</td></tr><tr><td>Fatigue</td></tr><tr><td>Individual drivers</td></tr><tr><td>Interaction, amount</td></tr><tr><td>Interactive task communication</td></tr><tr><td>Journaling</td></tr><tr><td>Mood states</td></tr><tr><td>Power network</td></tr><tr><td>Rumination</td></tr><tr><td>Salience</td></tr><tr><td>Sentiment, high</td></tr><tr><td>Sentiment, low</td></tr><tr><td>Social distance</td></tr><tr><td>Stress</td></tr><tr><td>Word associations</td></tr><tr><td>Work, meaningful</td></tr><tr><td>Workload</td></tr><tr><td>Team routine</td></tr><tr></tr></table>",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Miller, Christopher\">Principal Investigator: Miller, Christopher</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Wu, Peggy\">Co-Investigator: Wu, Peggy</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Rye, Jeffry\">Co-Investigator: Rye, Jeffry</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Schmer-Galunder, Sonja\">Co-Investigator: Schmer-Galunder, Sonja</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Ott, Tammy\">Co-Investigator: Ott, Tammy</a>",
+  "image_name": [
+   "NASA\u2019s Human Exploration Research Analog (HERA)"
+  ],
+  "keyword_name": "Behavior",
+  "Program": "Ground",
+  "proposal_date": [
+   "11/01/2011"
+  ],
+  "archive_status_index": 4,
+  "mission_id": [
+   [
+    [
+     "UTMB Campaign 11"
+    ]
+   ],
+   [
+    [
+     "HERA Campaign 1"
+    ]
+   ],
+   [
+    [
+     "Ground"
+    ]
+   ]
+  ],
+  "PrincipalInvestigator": [
+   "Miller, Christopher"
+  ],
+  "payload_part": "N/A",
+  "__source_field_concat": "human PUB003204 2010 Crew Health NNJ10ZSA003N cl62b0rkrcdp401o6fqcdhhv9 JSC JSC Behavior N/A AD ASTRA: Automated Detection of Attitudes and States through Transaction Recordings Analysis AD ASTRA: Automated Detection of Attitudes and States through Transaction Recordings Analysis NNX12AB40G Ground Data preservation is complete.  All datasets are publicly available.",
+  "__icon_type": "",
+  "__description": "OBJECTIVES:<br>\nLong-duration missions present unique challenges to the behavioral health of astronauts. Factors such as lack of team coherence, workload, social monotony, access to family and psychosocial support, and interpersonal and cultural differences can affect both crew welfare and task performance. Metrics and methods for assessing these factors are difficult to obtain because some are inherently qualitative, while others may not be amenable to self-reporting. Since these factors are affected by, even largely the product of, interpersonal communication, it is not surprising that interpersonal communications are the primary key to them. There are already rich sources of interpersonal communication data \u2014 both intra-crew and between flight crew and ground \u2014 which are created and archived during International Space Station (ISS) missions. Recent research suggests that verbal and non-verbal communications can be automatically processed in a variety of ways to provide insight into team cohesion, affective and cognitive states, and team performance. The investigators propose to leverage prior work of their own and of others in cultural and socio-linguistic theory to develop standardized, non-intrusive, and largely automated methods for data collection and knowledge extraction about factors salient to crew psychosocial well-being from existing communications data streams.\n<div>\nThe overall objective of this study was to identify suitable combinations of automated text processing techniques, which investigators call \u201cNon-Intrusive Psycho-Social State Assessors\u201d or NIPSSAs and data streams for assessing psychosocial states of interest to NASA and to validate their overall hypothesis that NIPSSA measures could replace survey data for assessing selected psychosocial states. Astronauts\u2019 journals, diaries, and blogs are a rich source of material about their experiences and attitudes toward those experiences, and interpersonal communications are, after all, one of the best methods humans have of assessing changes in attitudes and states. The investigators reasoned that if they could automate assessments of such data streams, many of which are already being captured and, to some extent, monitored during space missions, they would greatly expand the set of data which NASA team dynamics researchers have available. \n</div><div>\nAPPROACH:<br>\nThe first year of the project surveyed the available techniques and data streams, arrived at the prioritization of textual analysis of journal/log entries and of interactive task discourse (in email, chat, and transcribed speech), and then went on to demonstrate promising sensitivity in the tools via analysis of pre-existing, historical data sources. While investigators showed individual and temporal variations with anecdotal correspondence to events, no independent data about the writers\u2019 emotional states existed for validation of the text analysis techniques. The second year was targeted at transitioning the promising NIPSSA techniques found with the first year\u2019s work on historical data to validation studies with newly collected \u201clive\u201d data from ongoing experiments in analog environments, particularly the Flight Analog Research Unit Bed Rest Study Campaign 11 conducted at the University of Texas Medical Branch. \n</div><div>\nThe third project year was devoted to completing the bed rest analog journal study, while continuing to participate in a four-month crew habitat study in the Hawaii Space Exploration Analog and Simulation (HI-SEAS) and began participation in an eight-month HI-SEAS study collecting both journal and crew-ground textual interaction messages (with corresponding survey data). Finally, techniques for audio data collection and then transcriptions were developed in the Human Exploration Research Analog (HERA), from which investigators obtained and analyzed journal, survey, and text and speech interaction data from four separate week-long missions. \n</div><div>\nIn the fourth and final year, investigators completed analyses of the HERA transcription data, and performed cross-analog analyses illustrating the robustness of their techniques. In the HERA study, they collected more than 160,000 minutes of captured audio recordings across four mission and transcribed large portions of this to enable examination of automated processing of interactive speech data. In all three analogs, investigators collected participant journals and daily surveys to cross validate their automated assessment techniques. \n</div><div>\nRESULTS:<br>\nThe results show that automated textual analysis of subjects\u2019 free form journals can reliably replace at least some forms of attitude and emotion surveys since the automated journal analyses regularly correlated significantly with subjects\u2019 own survey ratings of their emotional positivity/negativity, and their focus on past/present/future across all three of the analog studies. Correlations between their attitudes about the study and about their physical well-being, as well as their focus on themselves versus others, were also repeatedly significant. Furthermore, there is evidence that automated evaluation of journal entries may do a better job of assessing participant attitudes than do daily observers: a comparative analysis between the automated assessments and subjects\u2019 own survey responses versus the survey assessments of the subject by a nurse showed that automated analyses did a better job at predicting subjects\u2019 survey responses. \n</div><div>\nInvestigators also demonstrated the speed and flexibility of their approaches by rapidly producing multiple after-the-fact analyses of elements of participants\u2019 attitudes and emotions throughout the study including analyses of the effects of exercise and of testosterone treatments on subjects\u2019 emotions and attitudes about sleep and food. Further, by examining the correlates of positive or negative mentions of a word group such as food, eating, or specific food items investigators can provide suggestive evidence about how a specific individual or group thinks about that topic (that food is comforting and tied to nostalgia and social contacts or that it is a source of concern about body image and health). The flexibility to perform post hoc and deep, individualistic analyses proved to be a particularly useful capability and a strong distinguisher from survey questions. \n</div><div>\nIn addition to examining journals, investigators developed techniques for examining interactive dialogue during tasks and daily activities. This form of communication is more immediate and less pre-meditated than journal entries and, therefore, is expected to be a less guarded but more transitory source of attitudes and emotions. Investigators have detected significant differences in the overall emotional valence of the different crews, of valence for differing tasks among the different crews, and of varying (and differing) drivers for those emotional sentiments among the crewmembers. \n</div><div>\nDuring debriefs with analog participants and operations personnel throughout this study, investigators have identified a number of recommendations for the use of the developed techniques that are particularly relevant to long-duration missions. Among these are an intervention or advisory tool for crewmembers themselves (reflecting exhibited changes in mood or attitude), a \u201cpower level\u201d and \u201cteam comfort/routine\u201d indicator for tracking intra-crew dynamics, and an aid for ground researchers to glean attitude and topic focus information from mission and training debriefing sessions. \n</div><div></div>",
+  "__doi": "10.83263/rm36-3p76",
+  "__doi_record_creation_date": "2026-08-23T04:24:50",
+  "__doi_record_modified_date": "2026-08-23T04:24:50"
+ },
+ "datasets": [
+  {
+   "key": "046fc310-ee58-5463-a2bf-3e8c1df7cb18",
+   "label": "NNX12AB40G_CFT70",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "NNX12AB40G CFT70 DATA",
+    "dataset_catalog": "NNX12AB40G_CFT70",
+    "dataset_description": "This dataset contains tabular data from CFT70 AD ASTRA: Automated Detection of Attitudes and States through Transaction Recordings Analysis..",
+    "processing_level": [
+     "Processed Data"
+    ],
+    "experiment_id": [
+     "NNX12AB40G"
+    ]
+   },
+   "meta": "1 file \u00b7 144.2 KB",
+   "date": "2026-03-24",
+   "children": [
+    {
+     "key": "631f5fd5-5d06-59bb-a6fe-af7da20ba0e3",
+     "label": "NNX12AB40G_CFT70_All_Subjects",
+     "type": "file",
+     "ext": "",
+     "file_size": 147683,
+     "meta": "144.2 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

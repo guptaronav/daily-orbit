@@ -1,0 +1,142 @@
+{
+ "record": {
+  "id": "0b602fb8-84c4-54e8-9417-110a9953fb50",
+  "_id": "0b602fb8-84c4-54e8-9417-110a9953fb50",
+  "experiment_title": "Adaptation in Artificial Gravity Environments",
+  "archive_status_index": 1,
+  "pub_document_number": "PUB002172",
+  "parameter_html": "<table><tr><td>Coriolis forces</td></tr><tr><td>Frequency of maximum power</td></tr><tr><td>Mean power frequency</td></tr><tr><td>Reaching movements</td></tr><tr><td>Sway amplitude</td></tr><tr><td>Total power</td></tr><tr></tr></table>",
+  "__source_key": "cl62awhjdccp101o619g2169b",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Lackner, James\">Principal Investigator: Lackner, James</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:DiZio, Paul\">Co-Investigator: DiZio, Paul</a>",
+  "experiment_type_lk": [
+   "NASA Ground-Based Investigations"
+  ],
+  "__record_modified_date": "2026-08-23T03:58:51.992148+00:00",
+  "__indexed": "2026-08-23T03:58:51.992148+00:00",
+  "__record_creation_date": "2022-07-28T19:51:13.400Z",
+  "keyword": [
+   "Postural equilibrium",
+   "Weightlessness"
+  ],
+  "keyword_name": "Weightlessness",
+  "__record_size": 51646,
+  "__record_version": 31,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<br>\r\nThe objective of this study was to provide a technical base for evaluating the feasibility of a rotating \"artificial gravity\" environment for long-duration space missions.  The investigators previously demonstrated that Coriolis forces generated during rotation at 10 rpm disrupt head and arm movements but adaptation is possible.  Specific goals were to study 1) the rotation rates up to which adaptation is possible, 2) whether measurements of disruptions caused by rotation and subsequent adaptation in 1-G underestimate or overestimate the effects to be expected during rotation in environments with a background force level less than 1-G, and 3) how the magnitude and orientation of the background force affect retention and transfer of adaptation to rotation. \r\n<p>\r\nAPPROACH:<br>\r\nTwelve subjects stood in a heel-to-toe stance in the rotating room. Each test session involved three phases: 1) pre-rotation, 2) per-rotation, and 3) post-rotation. In each phase, subjects were tested in both eyes open and eyes closed conditions. Four measures were used to characterize center of mass movement and head movement: mean sway amplitude, total power, mean power frequency, and frequency of maximum power. Each measure was computed for anterior-posterior and medial-lateral sway.\r\n<p>\r\nRESULTS:<br>\r\nBoth anterior-posterior and medial-lateral head and center of mass sway during rotation had significantly greater mean sway amplitude and total power compared with pre- and post-rotation values. Mean power frequency and frequency of maximum power were little affected. Eyes open conditions were significantly more stable in all test phases than eyes-closed, but vision did not completely suppress the effects of rotation. The greatest effect of rotation was in the eyes-closed condition with mean sway amplitude and total power increasing more than twofold. Inverted pendulum sway was maintained in all phases of both test conditions. No aftereffects of rotation were present after the four 25-s exposures each subject received.\r\n<p>",
+  "payload_id": "BRC",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "NAG91038",
+  "indexed": "2026-08-23T03:58:51.992148+00:00",
+  "GUID": "cl62awhjdccp101o619g2169b",
+  "parameter_name": [
+   "Coriolis forces",
+   "Frequency of maximum power",
+   "Mean power frequency",
+   "Reaching movements",
+   "Sway amplitude",
+   "Total power"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 1222,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Neuroscience"
+  ],
+  "pme_role_with_name": [
+   "Co-Investigator: DiZio, Paul",
+   "Principal Investigator: Lackner, James"
+  ],
+  "missions": [
+   [
+    [
+     "BRC"
+    ]
+   ]
+  ],
+  "__dirid": "0b602fb8-84c4-54e8-9417-110a9953fb50",
+  "__record_size_wo_doccontent": 51646,
+  "PI": [
+   "Lackner, James"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "NAG91038"
+  ],
+  "mission_id": [
+   [
+    [
+     "BRC"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "proposal_date": [],
+  "proposal_source": [],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Lackner, James"
+  ],
+  "program_name": [
+   "Ground"
+  ],
+  "archive_status": "Data preservation is complete. All datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Ground",
+  "__source_field_concat": "PUB002172 BRC cl62awhjdccp101o619g2169b Weightlessness  N/A Adaptation in Artificial Gravity Environments NAG91038 Ground Data preservation is complete. All datasets are publicly available.",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<br>\r\nThe objective of this study was to provide a technical base for evaluating the feasibility of a rotating \"artificial gravity\" environment for long-duration space missions.  The investigators previously demonstrated that Coriolis forces generated during rotation at 10 rpm disrupt head and arm movements but adaptation is possible.  Specific goals were to study 1) the rotation rates up to which adaptation is possible, 2) whether measurements of disruptions caused by rotation and subsequent adaptation in 1-G underestimate or overestimate the effects to be expected during rotation in environments with a background force level less than 1-G, and 3) how the magnitude and orientation of the background force affect retention and transfer of adaptation to rotation. \r\n<p>\r\nAPPROACH:<br>\r\nTwelve subjects stood in a heel-to-toe stance in the rotating room. Each test session involved three phases: 1) pre-rotation, 2) per-rotation, and 3) post-rotation. In each phase, subjects were tested in both eyes open and eyes closed conditions. Four measures were used to characterize center of mass movement and head movement: mean sway amplitude, total power, mean power frequency, and frequency of maximum power. Each measure was computed for anterior-posterior and medial-lateral sway.\r\n<p>\r\nRESULTS:<br>\r\nBoth anterior-posterior and medial-lateral head and center of mass sway during rotation had significantly greater mean sway amplitude and total power compared with pre- and post-rotation values. Mean power frequency and frequency of maximum power were little affected. Eyes open conditions were significantly more stable in all test phases than eyes-closed, but vision did not completely suppress the effects of rotation. The greatest effect of rotation was in the eyes-closed condition with mean sway amplitude and total power increasing more than twofold. Inverted pendulum sway was maintained in all phases of both test conditions. No aftereffects of rotation were present after the four 25-s exposures each subject received.\r\n<p>",
+  "__doi": "10.83263/n2kv-kn94",
+  "__doi_record_creation_date": "2026-08-23T03:58:51",
+  "__doi_record_modified_date": "2026-08-23T03:58:51"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000377",
+   "label": "NAG91038__3460226231",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Final Report",
+    "dataset_catalog": "NAG91038__3460226231",
+    "dataset_description": [
+     "This is the final report titled, Adaptation in Artificial Gravity Environments, for the NAG91038 study."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "NAG91038"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "60c4257b-3414-5789-b5df-f01905282950",
+     "label": "NAG91038__3460226231.pdf_BRC_NAG91038_2012_346_021213.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,401 @@
+{
+ "record": {
+  "id": "8f9e006a-543e-581c-8dd0-c2d9df856cb0",
+  "_id": "8f9e006a-543e-581c-8dd0-c2d9df856cb0",
+  "experiment_title": "Active Dosimetry of Charged Particles",
+  "archive_status_index": 1,
+  "experiment_alias": [
+   "E681",
+   "Chapat"
+  ],
+  "parameter_html": "None",
+  "__source_key": "cl62auc2ucb7o01o6gkardahw",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Schott, Jobst\">Principal Investigator: Schott, Jobst</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Petrov, Vladislav\">Principal Investigator: Petrov, Vladislav</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Beaujean, Rudolf\">Co-Investigator: Beaujean, Rudolf</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Kopp, Joachim\">Co-Investigator: Kopp, Joachim</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Lyagushin, Vladimir\">Co-Investigator: Lyagushin, Vladimir</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Markov, A.\">Co-Investigator: Markov, A.</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Meier, Matthias\">Co-Investigator: Meier, Matthias</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Reitz, Guenther\">Co-Investigator: Reitz, Guenther</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Strauch, Karsten\">Co-Investigator: Strauch, Karsten</a>",
+  "experiment_type_lk": [
+   "NASA-Mir Program"
+  ],
+  "__record_modified_date": "2026-08-23T03:40:44.257305+00:00",
+  "__indexed": "2026-08-23T03:40:44.257305+00:00",
+  "alias": [
+   "E681",
+   "Chapat"
+  ],
+  "__record_creation_date": "2022-07-28T19:39:45.346Z",
+  "keyword": [
+   "Solar activity",
+   "Heavy ions",
+   "Radiation monitoring",
+   "Linear energy transfer (LET)",
+   "Radiation dosage"
+  ],
+  "keyword_name": "Radiation dosage",
+  "__record_size": 89005,
+  "__record_version": 29,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<BR>\r\nWith the advent of manned spaceflight, the field of radiation risk assessment entered new dimensions.  The human body was exposed, for the first time, to the energetic heavy particle component of the space radiation field, a radiation component being absent on earth and hence without established risk estimates. The lack of adequate radiobiological data for risk assessments enforced the need for experimental research on the radiobiological effects of energetic heavy particles, both ground-based and in space.<P>\r\n\r\nRadiation measurements obtained from the spectra of charged particles and their Linear Energy Transfer (LET) can be used to assess radiation risk to crewmembers through calculations that take into account the specific radiobiological efficiency of particles of different charge number and energy deposition.<P>    \r\n\r\nPrevious radiation research has measured the physical parameters of heavy ions in space using integrating passive solid-state nuclear track detectors. By using time resolving active detectors, these measurements can be correlated to components of different origin.  These components include, orbital parameters, solar activity, and mass shielding; all of which are subject to changes within a dedicated space mission as well as from mission to mission. This experiment measured particle spectra and spectra of their LET for mean quality factor calculations inside the Mir module with temporal and spatial resolution. These data helped contribute to radiation risk estimates and to improvements of radiation transport codes.<P> \r\n\r\nAPPROACH:<BR>\r\nThe aim of this experiment was to gather radiation data of charged particles throughout the mission in order to obtain the variation of the charged particle spectra with orbital parameters as well as with temporal fluctuations. The evaluation of those data sets allowed discrimination of the origin of the radiation, the cosmic component and contributions from the radiation belt at the site of the South Atlantic Anomaly (SAA) as well as solar particles from unpredictable flare events.<P>\r\n\r\nA Particle Telescope Head (PTH), mounted in the Kristall module of the Mir Space Station, housed the radiation measuring devices used in this experiment.  Two Passive Implanted Silicon (PIPS) detectors measured the time dose profile and the particle rate outside and inside the South-Atlantic Anomaly (SAA) and the LET spectra for each crossing of the radiation belts in the SAA and for each orbit.  A telescopic set of Charge Coupled Devices (CCDs) was used to detect the time resolved angular distribution of heavy charged particles.<P>\r\n\r\nThe data obtained from this experiment along with shielding data, calculated from three dimensional mass models of the Mir Space Station, was used to test transport code models for the radiation environment inside and outside the SAA.<P> \r\n\r\nRESULTS:<BR>\r\nThe data obtained from both detection systems used in this experiment were in good agreement with each other. The PIPS detectors measured the doses of Galactic Cosmic Rays (GCR), protons of the SAA and Solar Energetic Particle (SEP) event contributions during the initial phase of the November 6, 1997, solar flare event and determined the mean quality factors for the GCR and the SAA protons in the Krystall module of Mir Space Station.<P> \r\n\r\nThe CCD telescope was shown to be capable of detecting spatially resolved single heavy particles.  The CCD telescope was also able to clearly identify traversals of high LET particles with high energies (galactic particle component) from the analysis of 3-fold coincidences.<P>\r\n\r\nAside from the measurements of LET spectra, the detection devices used in this experiment also measured single particles of the omni-directional radiation field with a local resolution of 10 micrometers. This would permit their use in radiobiological investigations of single particle effects in dedicated areas of individuals (as performed in ground experiments at accelerators) under space radiation and environmental conditions. The knowledge gained from this investigation will help to increase the reliability of radiation risk estimates in the future.<END>",
+  "payload_id": "NASA 6",
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "9401681",
+  "indexed": "2026-08-23T03:40:44.257305+00:00",
+  "experiment_related": [
+   "No related"
+  ],
+  "GUID": "cl62auc2ucb7o01o6gkardahw",
+  "exp_index": 763,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Radiation biology"
+  ],
+  "pme_role_with_name": [
+   "Co-Investigator: Beaujean, Rudolf",
+   "Co-Investigator: Kopp, Joachim",
+   "Co-Investigator: Lyagushin, Vladimir",
+   "Co-Investigator: Markov, A.",
+   "Co-Investigator: Meier, Matthias",
+   "Co-Investigator: Reitz, Guenther",
+   "Co-Investigator: Strauch, Karsten",
+   "Principal Investigator: Petrov, Vladislav",
+   "Principal Investigator: Schott, Jobst"
+  ],
+  "missions": [
+   [
+    [
+     "NASA 6"
+    ]
+   ]
+  ],
+  "__dirid": "8f9e006a-543e-581c-8dd0-c2d9df856cb0",
+  "__record_size_wo_doccontent": 89005,
+  "PI": [
+   "Petrov, Vladislav",
+   "Schott, Jobst"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "parameter_name": "experiment_parms",
+  "experiment_identifier": [
+   "9401681",
+   "E681",
+   "Chapat"
+  ],
+  "mission_id": [
+   [
+    [
+     "NASA 6"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "proposal_source": [],
+  "proposal_date": [],
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens)"
+   ]
+  ],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Petrov, Vladislav",
+   "Schott, Jobst"
+  ],
+  "program_name": [
+   "Nasa-Mir"
+  ],
+  "archive_status": "Data preservation is complete. All datasets are publicly available.",
+  "__is_locked": false,
+  "Program": "Nasa-Mir",
+  "__source_field_concat": "NASA 6 cl62auc2ucb7o01o6gkardahw None Radiation dosage Active Dosimetry of Charged Particles 9401681 Nasa-Mir Data preservation is complete. All datasets are publicly available. experiment_parms",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<BR>\r\nWith the advent of manned spaceflight, the field of radiation risk assessment entered new dimensions.  The human body was exposed, for the first time, to the energetic heavy particle component of the space radiation field, a radiation component being absent on earth and hence without established risk estimates. The lack of adequate radiobiological data for risk assessments enforced the need for experimental research on the radiobiological effects of energetic heavy particles, both ground-based and in space.<P>\r\n\r\nRadiation measurements obtained from the spectra of charged particles and their Linear Energy Transfer (LET) can be used to assess radiation risk to crewmembers through calculations that take into account the specific radiobiological efficiency of particles of different charge number and energy deposition.<P>    \r\n\r\nPrevious radiation research has measured the physical parameters of heavy ions in space using integrating passive solid-state nuclear track detectors. By using time resolving active detectors, these measurements can be correlated to components of different origin.  These components include, orbital parameters, solar activity, and mass shielding; all of which are subject to changes within a dedicated space mission as well as from mission to mission. This experiment measured particle spectra and spectra of their LET for mean quality factor calculations inside the Mir module with temporal and spatial resolution. These data helped contribute to radiation risk estimates and to improvements of radiation transport codes.<P> \r\n\r\nAPPROACH:<BR>\r\nThe aim of this experiment was to gather radiation data of charged particles throughout the mission in order to obtain the variation of the charged particle spectra with orbital parameters as well as with temporal fluctuations. The evaluation of those data sets allowed discrimination of the origin of the radiation, the cosmic component and contributions from the radiation belt at the site of the South Atlantic Anomaly (SAA) as well as solar particles from unpredictable flare events.<P>\r\n\r\nA Particle Telescope Head (PTH), mounted in the Kristall module of the Mir Space Station, housed the radiation measuring devices used in this experiment.  Two Passive Implanted Silicon (PIPS) detectors measured the time dose profile and the particle rate outside and inside the South-Atlantic Anomaly (SAA) and the LET spectra for each crossing of the radiation belts in the SAA and for each orbit.  A telescopic set of Charge Coupled Devices (CCDs) was used to detect the time resolved angular distribution of heavy charged particles.<P>\r\n\r\nThe data obtained from this experiment along with shielding data, calculated from three dimensional mass models of the Mir Space Station, was used to test transport code models for the radiation environment inside and outside the SAA.<P> \r\n\r\nRESULTS:<BR>\r\nThe data obtained from both detection systems used in this experiment were in good agreement with each other. The PIPS detectors measured the doses of Galactic Cosmic Rays (GCR), protons of the SAA and Solar Energetic Particle (SEP) event contributions during the initial phase of the November 6, 1997, solar flare event and determined the mean quality factors for the GCR and the SAA protons in the Krystall module of Mir Space Station.<P> \r\n\r\nThe CCD telescope was shown to be capable of detecting spatially resolved single heavy particles.  The CCD telescope was also able to clearly identify traversals of high LET particles with high energies (galactic particle component) from the analysis of 3-fold coincidences.<P>\r\n\r\nAside from the measurements of LET spectra, the detection devices used in this experiment also measured single particles of the omni-directional radiation field with a local resolution of 10 micrometers. This would permit their use in radiobiological investigations of single particle effects in dedicated areas of individuals (as performed in ground experiments at accelerators) under space radiation and environmental conditions. The knowledge gained from this investigation will help to increase the reliability of radiation risk estimates in the future.<END>",
+  "__doi": "10.83263/4brm-c320",
+  "__doi_record_creation_date": "2026-08-23T03:40:44",
+  "__doi_record_modified_date": "2026-08-23T03:40:44"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002388",
+   "label": "JMMIR9401681_269",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Comparison of the Frequencies of All Coincident Events and True Three-fold Coincident Events of Galactic Cosmic Ray (GCR) Particles",
+    "dataset_catalog": "JMMIR9401681_269",
+    "dataset_description": [
+     "This figure shows the rate of three-fold coincident events in the Charge Coupled Device (CCD) telescope fulfilling the geometric requirements for single particle correlation (true coincidences), compared to the overall trigger rate of the telescope. There is no evidence for a correlation of these particles with passages of the South Atlantic Anomaly (SAA). Three-fold true coincidences occur with galactic ray particles, whereas particles from the radiation belt result in two-fold and incidental coincidences. Source: Unpublished (PI final report to NASA).<END>"
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "9401681"
+    ]
+   },
+   "meta": "1 file \u00b7 92.5 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "fe47059f-54f5-5d71-8089-311d1780b2d7",
+     "label": "JMMIR9401681_269.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 94720,
+     "meta": "92.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002200",
+   "label": "JMMIR9401681_266",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Measured Linear Energy Transfer (LET) Spectra for the Different Components of the Radiation Field",
+    "dataset_catalog": "JMMIR9401681_266",
+    "dataset_description": [
+     "This figure shows the differential linear energy transfer (LET) spectra for the three main constituents of the radiation field.  Galactic Cosmic Ray (GCR) includes the radiation during quiet times outside the South Atlantic Anomaly (SAA).  The SAA contains mainly trapped protons (with minor GCR background) measured during crossings of the radiation belt over the South Atlantic.  Solar Energetic Particles (SEP) were measured at latitudes greater than forty-five degrees during the peak fluxes of the November 6, 1997 event. All measurements reflect the radiation environment inside the Krystall module. Source: Unpublished (PI final report to NASA).<END>"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "9401681"
+    ]
+   },
+   "meta": "1 file \u00b7 24.6 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "ac061b30-10d9-5554-9665-650663e8de05",
+     "label": "JMMIR9401681_266.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 25190,
+     "meta": "24.6 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001306",
+   "label": "9401681__1900551198",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Final Report for Experiment 9401681",
+    "dataset_catalog": "9401681__1900551198",
+    "dataset_description": [
+     "This file contains the 30 day, preliminary, and final report for the NASA 6 mission for this experiment."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "9401681"
+    ]
+   },
+   "meta": "3 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "9fe2e584-7697-5ba7-bf50-1ab8270e2be7",
+     "label": "9401681_Prelim_Report.pdf_NASA_6_9401681_2014_140_050523.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "42201d5c-5a50-5261-a2f7-4e3c38c5cc63",
+     "label": "9401681_30_Day_OAR.pdf_NASA_6_9401681_2014_140_050553.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f3496ced-bf30-5426-9f90-4b92e16b1e19",
+     "label": "9401681__1900551198.pdf_NASA_6_9401681_2013_190_050738.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000334",
+   "label": "JMMIR9401681_268",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Spacial Reconstruction of a Heavy Ion Event Measured by the Charge Coupled Devices (CCDs)",
+    "dataset_catalog": "JMMIR9401681_268",
+    "dataset_description": [
+     "This figure shows particle events in the R-, G- and B-channel Charge Coupled Device (CCD) displayed as an RGB-image. The events in the lower part are due to particle effects in the live frame as well as to signals from damaged or noisy pixels. In the image in the upper part nearly all signals are rejected, except those related to unique radiation effects occurring in a single frame, only. The geometric assignment of the R, G and B-event to a straight line through the three CCDs clearly correlates these events to a single particle traversal. The R, G and B images of the figure have been corrected to each other by lateral shifting (less than 200 micrometers) prior to evaluation. The shifts have been calculated from radiation data obtained with high energetic Argon ions to which the Particle Telescope Head (PTH) was exposed perpendicularly at the end of the mission. Source: Unpublished (PI final report to NASA).<END>"
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "9401681"
+    ]
+   },
+   "meta": "1 file \u00b7 22.4 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "7441961f-a31c-56ac-8a8c-c1f11ce89534",
+     "label": "JMMIR9401681_268.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 22938,
+     "meta": "22.4 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000456",
+   "label": "JMMIR9401681_267",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Charge Coupled Device (CCD) Telescope Trigger Rate and Passive Implanted Silicon (PIPS) Detector Dose Rate",
+    "dataset_catalog": "JMMIR9401681_267",
+    "dataset_description": [
+     "This figure shows the Charge Coupled Device (CCD) telescope trigger rate (top panel) measured on October 17, 1997 together with the dose rate measured by the Passive Implanted Silicon (PIPS) detectors (bottom panel). The increased trigger rate during the passage of the South Atlantic Anomaly (SAA) shows that the CCD telescope is sensitive to protons. The lower sensitivity of the CCD telescope does not permit resolution of the periodical fluctuations of the cosmic ray proton fluxes due to the magnetic shielding (cut-off). Source: Unpublished (PI final report to NASA).<END>"
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "9401681"
+    ]
+   },
+   "meta": "1 file \u00b7 19.2 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "10d3ffde-4af2-525f-885d-cea8484d8c9d",
+     "label": "JMMIR9401681_267.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 19661,
+     "meta": "19.2 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000333",
+   "label": "JMMIR9401681_264",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Measured Time Profile of the Dose Rate in a Single Passive Implanted Silicon (PIPS) Detector",
+    "dataset_catalog": "JMMIR9401681_264",
+    "dataset_description": [
+     "This figure shows the dose rate (micrograys per hour) measured by one Passive Implanted Silicon (PIPS) detector for 24 hours on October 25, 1997. Three distinct features can be seen: a) small maxima of the cosmic ray flux every 45 minutes during high latitude positions with minima at the cosmic ray equator crossings, b) long time variations of the cosmic ray flux at the high latitude maxima values during 24 hours according to the longitude/latitude dependence of the magnetic shielding (cutoff) for the Galactic Cosmic Rays (GCR) inside the earth&#146;s magnetic field, c)  high fluxes along the path through the South Atlantic Anomaly (SAA) due to the large proton population in the inner radiation belt.  Source: Unpublished (PI final report to NASA).<END>"
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "9401681"
+    ]
+   },
+   "meta": "1 file \u00b7 20.8 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "aa09f934-6002-54f6-abeb-f3ae83feb05d",
+     "label": "JMMIR9401681_264.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 21299,
+     "meta": "20.8 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001420",
+   "label": "JMMIR9401681_270",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Radiation Measurements during a Five-day Period without Solar Particles",
+    "dataset_catalog": "JMMIR9401681_270",
+    "dataset_description": [
+     "This table summarizes the mean values for the measured dose rate, quality factors and dose equivalent rate for a five day period (October 25, 1997 - October 30, 1997) not affected by solar particles. Source: Unpublished (PI final report to NASA).<END>"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "9401681"
+    ]
+   },
+   "meta": "1 file \u00b7 15.5 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "e738aa75-5c3c-5eee-b0ac-34d99b62e435",
+     "label": "JMMIR9401681_270.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 15872,
+     "meta": "15.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002180",
+   "label": "JMMIR9401681_265",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Passive Implanted Silicon (PIPS) Detector Data in Correlation to the National Oceanic and Atmospheric Administration (NOAA) Geostationary Operational Environmental Satellite (GOES) Data during a Solar Particle Event",
+    "dataset_catalog": "JMMIR9401681_265",
+    "dataset_description": [
+     "This figure shows the time profile of the count rate (counts per second) measured onboard the Mir Space Station during the November 6, 1997, solar particle event (top panel) and of protons measured on the NOAA GOES-satellite during the same time period (bottom panel).  A SPE also occurred on November 4, 1997, however the data were completely lost as shown by the absence of measurements in the left-most part of the top panel.  The data for the conclusion of the November 6 SPE were also lost.  However, during the onset of the November 6 event the Mir Space Station was in the optimal orbital position (i.e. lowest cutoff portions of the orbit) and therefore the measurements reflect the onset and the period of the highest SPE dose contribution. The obvious feature of the SPE event is the presence of high dose maxima at high north and south latitudes, which are comparable to the data experienced during South Atlantic Anomaly crossings. Source: Unpublished (PI final report to NASA).<END>"
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "9401681"
+    ]
+   },
+   "meta": "1 file \u00b7 26.4 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "f01e12bb-40dd-5be5-bf43-47c08a0673a7",
+     "label": "JMMIR9401681_265.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 27034,
+     "meta": "26.4 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

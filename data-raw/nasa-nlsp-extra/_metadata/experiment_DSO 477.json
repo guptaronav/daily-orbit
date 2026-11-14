@@ -1,0 +1,418 @@
+{
+ "record": {
+  "id": "f0a2109a-ab3c-5916-aa4a-e68b966ea6c7",
+  "_id": "f0a2109a-ab3c-5916-aa4a-e68b966ea6c7",
+  "experiment_title": "The Evaluation of Concentric and Eccentric Skeletal Muscle Contractions Following Space Flight",
+  "pub_document_number": "PUB001174",
+  "archive_status_index": 2,
+  "parameter_html": "<table><tr><td>Concentric strength, abdomen</td></tr><tr><td>Concentric strength, ankle</td></tr><tr><td>Concentric strength, back</td></tr><tr><td>Concentric strength, elbow</td></tr><tr><td>Concentric strength, knee</td></tr><tr><td>Concentric strength, shoulder</td></tr><tr><td>Eccentric strength, abdomen</td></tr><tr><td>Eccentric strength, ankle</td></tr><tr><td>Eccentric strength, back</td></tr><tr><td>Eccentric strength, elbow</td></tr><tr><td>Eccentric strength, knee</td></tr><tr><td>Eccentric strength, shoulder</td></tr><tr><td>Knee extension</td></tr><tr><td>Knee flexion</td></tr><tr><td>Maximum isometric contraction</td></tr><tr><td>Peak torque</td></tr><tr><td>Resultant force</td></tr><tr><td>Total work</td></tr><tr></tr></table>",
+  "__source_key": "cl62aynbtcd7e01o6ae7uc0ls",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Hayes, Judith\">Principal Investigator: Hayes, Judith</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Greenisen, Michael\">Co-Investigator: Greenisen, Michael</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Harris, Bernard\">Co-Investigator: Harris, Bernard</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:McBrine, John\">Co-Investigator: McBrine, John</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Roper, Mary\">Co-Investigator: Roper, Mary</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Siconolfi, Steven\">Co-Investigator: Siconolfi, Steven</a>",
+  "image_name": [
+   "LIDO Dynamometer",
+   "Strength and Endurance Testing of Ankle Muscles",
+   "Strength and Endurance Testing of Elbow Muscles",
+   "Strength and Endurance Testing of Knee Muscles",
+   "Strength and Endurance Testing of Shoulder Muscles"
+  ],
+  "experiment_type_lk": [
+   "Shuttle Detailed Supplementary Objectives (DSO)",
+   "Shuttle Extended Duration Orbiter Medical Project (EDOMP)"
+  ],
+  "__record_modified_date": "2026-08-23T04:00:02.215570+00:00",
+  "proposal_source": [
+   "N/A"
+  ],
+  "__indexed": "2026-08-23T04:00:02.215570+00:00",
+  "keyword": [
+   "Muscle, skeletal",
+   "Muscle contraction",
+   "Biomechanics",
+   "Exercise"
+  ],
+  "__record_creation_date": "2022-07-28T20:02:48.762Z",
+  "keyword_name": "Exercise",
+  "__record_version": 28,
+  "__record_size": 110390,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<BR>\r\nLoss of muscle strength and endurance after long exposure to microgravity can interfere with the safe completion of critical tasks during space flight, emergency or routine landing, or during egress. Decreases in leg strength have been documented after Skylab missions as well as after Russian space flights. The objectives of this study were to assess pre flight-to-postflight changes in muscle strength and endurance and to evaluate the effect of in flight exercise on these changes. Changes in muscle performance after missions of shorter or longer duration were compared.\r\n<P>\r\nAPPROACH:<BR>\r\nMuscle performance was tested before and after space flight in 19 astronauts (3 women, 16 men), 10 from 5-day missions and 9 from missions lasting 9 to 11 days. LIDO isokinetic dynamometers were used to measure muscle performance in the back and abdomen and at the knee, ankle, shoulder, and elbow. These dynamometers provide variable resistance so that movements will continue at the same speed (i.e., they are isokinetic) regardless of the force applied. Both concentric and eccentric strength were measured. Concentric strength is the strength of a muscle as it contracts to move a body part, while eccentric strength is the strength of the muscle as it is gradually lengthened while resisting the motion of a body part. Endurance was tested during 25 repetitions of concentric knee flexion and extension. \r\n<P>\r\nThe eccentric torque maximum was 400 foot pounds. Subjects abstained from food for 2 hours before testing, from caffeine 4 hours before, and from exercise 12 hours before.  The dynamometers were calibrated externally and internally (electronically) before each test session.  Joint configurations and ranges of motion were recorded for each subject and reproduced for each test session.  Testing of the limbs was unilateral with the dominant limb, unless contraindicated. Verbal instructions were consistent and given before each joint test. No verbal encouragement was given during the tests.  \r\n<P>\r\nMean results from tests conducted approximately 1, 2, and 3 weeks before launch were compared to results from landing day and from 7 days after landing. Only 17 subjects were tested on landing day. Losses greater than about 9% were considered to be operationally relevant.\r\n<P>\r\nFour of the astronauts also performed in flight exercise as part of DSO 476, using a treadmill with a tether system to simulate gravity. They followed continuous or interval exercise protocols with target heart rates intended to correspond to 60% to 85% of preflight maximum oxygen consumption. The percentages of change in their strength and endurance test results were compared with those of 5 astronauts who did not exercise during the flight. \r\n<P>\r\nRESULTS:<BR>\r\nFrom before the flight to landing day, large decreases in the strength of the back and abdomen occurred. Strength had decreased by 23% in the concentric tests of the back, 14% in the eccentric tests of the back, and 10% in the concentric tests of the abdomen. The loss in back strength was greater after flights of 9 to 11 days (concentric, 28%; eccentric, 17%) than after flights of 5 days (concentric, 18%; eccentric, 11%). Eccentric abdominal and concentric back strength had recovered significantly 7 days after landing. A significant (12%) decrease in concentric strength of the quadriceps muscle of the thigh was also seen on landing day. No significant loss of strength was seen in the hamstring muscles or in the tests at the ankle, shoulder or elbow, except for a few minor losses that were not considered operationally relevant.\r\n<P>\r\nThe four astronauts who exercised during flight actually gained eccentric strength of the gastrocnemius muscle of the calf. Although the exercising astronauts lost concentric strength in the quadriceps, the percent change was significantly less than for the four nonexercising astronauts. For the other results of the knee and ankle tests, decreases in strength were generally smaller in those who exercised; although, the differences between exercisers and nonexercisers were not statistically significant. Treadmill exercise did not prevent losses of strength in the back or abdomen. Decrements exhibited by muscles of the five astronauts who did not exercise during flight indicated that muscles are less able to maintain endurance and resist fatigue after space flight. The astronauts who exercised had no loss of endurance.\r\n<P>\r\nThere was no change in endurance after 5-day flights, but the endurance of the quadriceps decreased after flights of 9 to 11 days. Endurance recovered within 7 days of landing. \r\n<P>\r\nThese results showed that space flight results in losses of skeletal muscle strength and endurance, and that the losses are greater after flights of longer duration. Strength was lost primarily in the antigravity muscles of the legs and torso. Exercise may prevent losses of muscle strength and endurance.<END>",
+  "payload_id": "DSO32",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "indexed": "2026-08-23T04:00:02.215570+00:00",
+  "experiment_id": "DSO 477",
+  "experiment_related": [
+   "DSO 617"
+  ],
+  "GUID": "cl62aynbtcd7e01o6ae7uc0ls",
+  "parameter_name": [
+   "Concentric strength, abdomen",
+   "Concentric strength, ankle",
+   "Concentric strength, back",
+   "Concentric strength, elbow",
+   "Concentric strength, knee",
+   "Concentric strength, shoulder",
+   "Eccentric strength, abdomen",
+   "Eccentric strength, ankle",
+   "Eccentric strength, back",
+   "Eccentric strength, elbow",
+   "Eccentric strength, knee",
+   "Eccentric strength, shoulder",
+   "Knee extension",
+   "Knee flexion",
+   "Maximum isometric contraction",
+   "Peak torque",
+   "Resultant force",
+   "Total work"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 588,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Muscle physiology"
+  ],
+  "pme_role_with_name": [
+   "Administration: Rogers, Alice",
+   "Co-Investigator: Greenisen, Michael",
+   "Co-Investigator: Harris, Bernard",
+   "Co-Investigator: McBrine, John",
+   "Co-Investigator: Roper, Mary",
+   "Co-Investigator: Siconolfi, Steven",
+   "Collaborator: Moore, Alan",
+   "Principal Investigator: Hayes, Judith",
+   "Technical Assistant to Principal Investigator: Barrows- Loerch, Linda",
+   "Technical Assistant to Principal Investigator: Kear, Kevin",
+   "Technical Assistant to Principal Investigator: Kiowski, John",
+   "Technical Assistant to Principal Investigator: Mazzocca, Augustus",
+   "Technical Assistant to Principal Investigator: Reeves, Jacqueline"
+  ],
+  "missions": [
+   [
+    [
+     "STS-32"
+    ]
+   ],
+   [
+    [
+     "STS-34"
+    ]
+   ],
+   [
+    [
+     "STS-35"
+    ]
+   ],
+   [
+    [
+     "STS-37"
+    ]
+   ],
+   [
+    [
+     "STS-31"
+    ]
+   ],
+   [
+    [
+     "STS-38"
+    ]
+   ]
+  ],
+  "__dirid": "f0a2109a-ab3c-5916-aa4a-e68b966ea6c7",
+  "__record_size_wo_doccontent": 110390,
+  "PI": [
+   "Hayes, Judith"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "DSO 477"
+  ],
+  "mission_id": [
+   [
+    [
+     "STS-32"
+    ]
+   ],
+   [
+    [
+     "STS-34"
+    ]
+   ],
+   [
+    [
+     "STS-35"
+    ]
+   ],
+   [
+    [
+     "STS-37"
+    ]
+   ],
+   [
+    [
+     "STS-31"
+    ]
+   ],
+   [
+    [
+     "STS-38"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Hayes, Judith"
+  ],
+  "archive_status": "Data preservation is complete. Privacy-protected datasets are available via data request. Remaining datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Shuttle Program",
+  "__source_field_concat": "PUB001174 DSO32 cl62aynbtcd7e01o6ae7uc0ls Exercise  N/A The Evaluation of Concentric and Eccentric Skeletal Muscle Contractions Following Space Flight DSO 477 Shuttle Program",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<BR>\r\nLoss of muscle strength and endurance after long exposure to microgravity can interfere with the safe completion of critical tasks during space flight, emergency or routine landing, or during egress. Decreases in leg strength have been documented after Skylab missions as well as after Russian space flights. The objectives of this study were to assess pre flight-to-postflight changes in muscle strength and endurance and to evaluate the effect of in flight exercise on these changes. Changes in muscle performance after missions of shorter or longer duration were compared.\r\n<P>\r\nAPPROACH:<BR>\r\nMuscle performance was tested before and after space flight in 19 astronauts (3 women, 16 men), 10 from 5-day missions and 9 from missions lasting 9 to 11 days. LIDO isokinetic dynamometers were used to measure muscle performance in the back and abdomen and at the knee, ankle, shoulder, and elbow. These dynamometers provide variable resistance so that movements will continue at the same speed (i.e., they are isokinetic) regardless of the force applied. Both concentric and eccentric strength were measured. Concentric strength is the strength of a muscle as it contracts to move a body part, while eccentric strength is the strength of the muscle as it is gradually lengthened while resisting the motion of a body part. Endurance was tested during 25 repetitions of concentric knee flexion and extension. \r\n<P>\r\nThe eccentric torque maximum was 400 foot pounds. Subjects abstained from food for 2 hours before testing, from caffeine 4 hours before, and from exercise 12 hours before.  The dynamometers were calibrated externally and internally (electronically) before each test session.  Joint configurations and ranges of motion were recorded for each subject and reproduced for each test session.  Testing of the limbs was unilateral with the dominant limb, unless contraindicated. Verbal instructions were consistent and given before each joint test. No verbal encouragement was given during the tests.  \r\n<P>\r\nMean results from tests conducted approximately 1, 2, and 3 weeks before launch were compared to results from landing day and from 7 days after landing. Only 17 subjects were tested on landing day. Losses greater than about 9% were considered to be operationally relevant.\r\n<P>\r\nFour of the astronauts also performed in flight exercise as part of DSO 476, using a treadmill with a tether system to simulate gravity. They followed continuous or interval exercise protocols with target heart rates intended to correspond to 60% to 85% of preflight maximum oxygen consumption. The percentages of change in their strength and endurance test results were compared with those of 5 astronauts who did not exercise during the flight. \r\n<P>\r\nRESULTS:<BR>\r\nFrom before the flight to landing day, large decreases in the strength of the back and abdomen occurred. Strength had decreased by 23% in the concentric tests of the back, 14% in the eccentric tests of the back, and 10% in the concentric tests of the abdomen. The loss in back strength was greater after flights of 9 to 11 days (concentric, 28%; eccentric, 17%) than after flights of 5 days (concentric, 18%; eccentric, 11%). Eccentric abdominal and concentric back strength had recovered significantly 7 days after landing. A significant (12%) decrease in concentric strength of the quadriceps muscle of the thigh was also seen on landing day. No significant loss of strength was seen in the hamstring muscles or in the tests at the ankle, shoulder or elbow, except for a few minor losses that were not considered operationally relevant.\r\n<P>\r\nThe four astronauts who exercised during flight actually gained eccentric strength of the gastrocnemius muscle of the calf. Although the exercising astronauts lost concentric strength in the quadriceps, the percent change was significantly less than for the four nonexercising astronauts. For the other results of the knee and ankle tests, decreases in strength were generally smaller in those who exercised; although, the differences between exercisers and nonexercisers were not statistically significant. Treadmill exercise did not prevent losses of strength in the back or abdomen. Decrements exhibited by muscles of the five astronauts who did not exercise during flight indicated that muscles are less able to maintain endurance and resist fatigue after space flight. The astronauts who exercised had no loss of endurance.\r\n<P>\r\nThere was no change in endurance after 5-day flights, but the endurance of the quadriceps decreased after flights of 9 to 11 days. Endurance recovered within 7 days of landing. \r\n<P>\r\nThese results showed that space flight results in losses of skeletal muscle strength and endurance, and that the losses are greater after flights of longer duration. Strength was lost primarily in the antigravity muscles of the legs and torso. Exercise may prevent losses of muscle strength and endurance.<END>",
+  "__doi": "10.83263/4z2b-w149",
+  "__doi_record_creation_date": "2026-08-23T04:00:02",
+  "__doi_record_modified_date": "2026-08-23T04:00:02"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002261",
+   "label": "DSO 477__292043730",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Eccentric Strength",
+    "dataset_catalog": "DSO 477__292043730",
+    "dataset_description": [
+     "This graph represents eccentric strength for subjects in the DSO 477 study.  Isokinetic eccentric tests included three maximal voluntary contractions with a two second pause between directions to allow a maximal isometric contraction to precede the onset of each eccentric action. Skeletal-muscle strength was defined as the peak torque generated throughout a range of motion from three consecutive voluntary contractions for flexion and extension.\r\n<p>\r\nSource: Extended Duration Orbiter Medical Project (EDOMP) Final Report"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 477"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "24afb7b4-366c-54be-81a4-4420431318e4",
+     "label": "DSO_477__292043730.TIF_STS-31_DSO_477_2010_292_041031.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000266",
+   "label": "DSO 477__292044377",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Concentric Endurance",
+    "dataset_catalog": "DSO 477__292044377",
+    "dataset_description": [
+     "This graph represents eccentric strength for subjects in the DSO 477 study.  Isokinetic eccentric tests included three maximal voluntary contractions with a 2-second pause between directions to allow a maximal isometric contraction to precede the onset of each eccentric action. Skeletal-muscle strength was defined as the peak torque generated throughout a range of motion from three consecutive voluntary contractions for flexion and extension\r\n<p>\r\nSource: Extended Duration Orbiter Medical Project (EDOMP) Final Report"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 477"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "9cb07f48-343b-5c59-ae1c-c78662eda251",
+     "label": "DSO_477__292044377.TIF_STS-31_DSO_477_2010_293_101011.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002411",
+   "label": "DSO 477__2920416344",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Force-Velocity Curves",
+    "dataset_catalog": "DSO 477__2920416344",
+    "dataset_description": [
+     "This graph represents examples of force-velocity curves for concentric strength for subjects in the DSO 477 study.  Skeletal-muscle strength was defined as the peak torque generated throughout a range of motion from three consecutive voluntary contractions for flexion and extension\r\n<p>\r\nSource: Extended Duration Orbiter Medical Project (EDOMP) Final Report"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 477"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "0082be42-6cdf-549b-8bc9-47f621296207",
+     "label": "DSO_477__2920416344.TIF_STS-31_DSO_477_2010_292_041057.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000269",
+   "label": "DSO 477__293105226",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Changes in Strength of the Trunk",
+    "dataset_catalog": "DSO 477__293105226",
+    "dataset_description": [
+     "This graph represents changes in strength of the trunk on landing day in those subjects who exercised on a treadmill during flight versus those who did not. Although the inflight exercise group had lost more strength at landing, when the changes were expressed as percentages, preflight strength in trunk flexion and extension was substantially greater in the exercising group. These results imply that treadmill exercise did not prevent decrements in trunk strength after 9-11 days of space flight, and that preservation of muscle integrity may be limited to only those muscles exercised.\r\n<p>\r\nSource: Extended Duration Orbiter Medical Project (EDOMP) Final Report"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 477"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "42a0357a-f390-5704-ab01-b28880bbefea",
+     "label": "DSO_477__293105226.TIF_STS-31_DSO_477_2010_293_111057.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002412",
+   "label": "DSO 477__2931043705",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Changes in Strength of the Lower Leg",
+    "dataset_catalog": "DSO 477__2931043705",
+    "dataset_description": [
+     "This graph represents changes in strength of the lower leg on landing day in those subjects who exercised on a treadmill during flight versus those who did not. At landing day, no significant differences were found between exercisers and non-exercisers, except for concentric strength of the quadriceps.  Exercisers had greater concentric leg extension strength on landing day than did non-exercisers (224.0 vs. 131.0 \u00b1 61.9 ft-lbs, respectively).\r\n<p>\r\nSource: Extended Duration Orbiter Medical Project (EDOMP) Final Report"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 477"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "6c596b93-b1c0-5e34-a95c-d595a508f93b",
+     "label": "DSO_477__2931043705.TIF_STS-31_DSO_477_2010_293_101004.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000480",
+   "label": "DSO 477__2880400941",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Mean Skeletal Muscle Strength",
+    "dataset_catalog": "DSO 477__2880400941",
+    "dataset_description": [
+     "This Excel file contains mean skeletal muscle strength performance on landing versus preflight for subjects in the DSO 477 study.\r\n<p>\r\nSource:  Extended Duration Orbiter Medical Project (EDOMP) final report"
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "DSO 477"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "a088c550-3620-5a3f-b368-7b6d15c543f2",
+     "label": "DSO_477__2880400941.xls_STS-31_DSO_477_2010_293_031038.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002279",
+   "label": "DSO 477__2931020568",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Changes in Strength of the Upper Leg",
+    "dataset_catalog": "DSO 477__2931020568",
+    "dataset_description": [
+     "This graph represents changes in strength of the upper leg on landing day in those subjects who exercised on a treadmill during flight versus those who did not. At landing day, no significant differences were found between exercisers and non-exercisers, except for concentric strength of the quadriceps.  Exercisers had greater concentric leg extension strength on landing day than did non-exercisers (224.0 vs. 131.0 \u00b1 61.9 ft-lbs, respectively).\r\n<p>\r\nSource: Extended Duration Orbiter Medical Project (EDOMP) Final Report"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 477"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "4ff4ec9a-87d9-5be5-b773-0b11052d65da",
+     "label": "DSO_477__2931020568.TIF_STS-31_DSO_477_2010_293_101007.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

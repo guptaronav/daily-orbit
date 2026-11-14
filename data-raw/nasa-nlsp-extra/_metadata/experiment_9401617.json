@@ -1,0 +1,163 @@
+{
+ "record": {
+  "id": "28674df0-5642-5f07-b90c-e4a5398be09a",
+  "_id": "28674df0-5642-5f07-b90c-e4a5398be09a",
+  "experiment_title": "Development of the Fish Medaka in Microgravity",
+  "archive_status_index": 1,
+  "pub_document_number": "ARCPUB000962",
+  "parameter_html": "<table><tr><td>Morphology, Body patterning, medaka embryos, Video microscopy (descriptive)</td></tr><tr><td>Morphology, Embryonic development, medaka embryos, Light microscope (descriptive)</td></tr><tr><td>Morphology, Embryonic structures, medaka, Video microscopy (descriptive)</td></tr><tr></tr></table>",
+  "__source_key": "cl62aub59cb7g01o6cheg6y0i",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Wolgemuth, Debra\">Principal Investigator: Wolgemuth, Debra</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Phillips, Carey\">Co-Investigator: Phillips, Carey</a>",
+  "experiment_type_lk": [
+   "Shuttle Life Sciences Research (Spacelab)"
+  ],
+  "__record_modified_date": "2026-08-23T03:42:52.996195+00:00",
+  "__indexed": "2026-08-23T03:42:52.996195+00:00",
+  "session_type": "Flight",
+  "__record_creation_date": "2022-07-28T19:41:21.579Z",
+  "__record_size": 49672,
+  "__record_version": 28,
+  "__model_version": 60,
+  "experiment_description": "<B>Objectives:</B><P>The goal of these experiments was to determine the effect of microgravity on the early development of the fish Medaka.  There were two objectives for this flight series.  The primary objective was to assess the effects of microgravity on different stages of development and to ascertain whether the relevant developmental questions can be addressed at the gross morphological level or if the issues involve more subtle questions about regulation at the molecular and cellular levels.  The secondary objective was the assessment of the utility of flight hardware with the capabilities to perform embryological studies.<P><B>Approach:</B><P>In this experiment, thirty-six Medaka embryos were used to examine the effects of microgravity on embryogenesis.  One advantage of fish Medaka embryos was their clear appearance, because it allowed direct observation by video-microscopy. Video sequences, video tape, and digital images were all utilized to monitor development of the embryos.  All of the embryos have been embedded and sectioned.  Some embryos were fixed and returned to Earth for further analysis.  However, two groups of embryos were returned to Earth unfixed in order to investigate their postflight development and reproductive abilities.<P><B>Results:</B><P>In comparison to the ground controls, the flight group did not display any gross morphological abnormalities.  An important observation from the experiment was the overall normal development of the flight animals.  Data from the study also indicated that animals exposed to microgravity during embryogenesis retain their ability to reproduce. Furthermore, it was determined that the flight group\u00ef\u00bf\u00bds progeny was fertile as well.",
+  "payload_id": "LMS",
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "9401617",
+  "indexed": "2026-08-23T03:42:52.996195+00:00",
+  "experiment_related": [
+   "No related"
+  ],
+  "GUID": "cl62aub59cb7g01o6cheg6y0i",
+  "parameter_name": [
+   "Morphology, Body patterning, medaka embryos, Video microscopy (descriptive)",
+   "Morphology, Embryonic development, medaka embryos, Light microscope (descriptive)",
+   "Morphology, Embryonic structures, medaka, Video microscopy (descriptive)"
+  ],
+  "exp_index": 701,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Neuroscience",
+   "Developmental biology"
+  ],
+  "protocol_approach": "Non-synchronous",
+  "pme_role_with_name": [
+   "Co-Investigator: Phillips, Carey",
+   "Principal Investigator: Wolgemuth, Debra"
+  ],
+  "missions": [
+   [
+    [
+     "STS-78"
+    ]
+   ]
+  ],
+  "__dirid": "28674df0-5642-5f07-b90c-e4a5398be09a",
+  "__record_size_wo_doccontent": 49672,
+  "experiment_parms_tissue2": "NULL",
+  "experiment_parms_tissue1": "NULL",
+  "PI": [
+   "Wolgemuth, Debra"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "9401617"
+  ],
+  "keyword": [],
+  "mission_id": [
+   [
+    [
+     "STS-78"
+    ]
+   ]
+  ],
+  "center": [
+   "Ames Research Center"
+  ],
+  "ncindex": [
+   7
+  ],
+  "proposal_date": [],
+  "proposal_source": [],
+  "CombinedSpecies": [
+   [
+    "Fish, Medaka (Oryzias latipes)"
+   ]
+  ],
+  "species": [
+   "Fish, Medaka"
+  ],
+  "PrincipalInvestigator": [
+   "Wolgemuth, Debra"
+  ],
+  "program_name": [
+   "Shuttle Program"
+  ],
+  "archive_status": "Data preservation is complete. All datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Shuttle Program",
+  "__source_field_concat": "Flight ARCPUB000962 LMS cl62aub59cb7g01o6cheg6y0i NULL NULL  Non-synchronous Development of the Fish Medaka in Microgravity 9401617 Shuttle Program Data preservation is complete. All datasets are publicly available.",
+  "__icon_type": "fish, medaka",
+  "__description": "<B>Objectives:</B><P>The goal of these experiments was to determine the effect of microgravity on the early development of the fish Medaka.  There were two objectives for this flight series.  The primary objective was to assess the effects of microgravity on different stages of development and to ascertain whether the relevant developmental questions can be addressed at the gross morphological level or if the issues involve more subtle questions about regulation at the molecular and cellular levels.  The secondary objective was the assessment of the utility of flight hardware with the capabilities to perform embryological studies.<P><B>Approach:</B><P>In this experiment, thirty-six Medaka embryos were used to examine the effects of microgravity on embryogenesis.  One advantage of fish Medaka embryos was their clear appearance, because it allowed direct observation by video-microscopy. Video sequences, video tape, and digital images were all utilized to monitor development of the embryos.  All of the embryos have been embedded and sectioned.  Some embryos were fixed and returned to Earth for further analysis.  However, two groups of embryos were returned to Earth unfixed in order to investigate their postflight development and reproductive abilities.<P><B>Results:</B><P>In comparison to the ground controls, the flight group did not display any gross morphological abnormalities.  An important observation from the experiment was the overall normal development of the flight animals.  Data from the study also indicated that animals exposed to microgravity during embryogenesis retain their ability to reproduce. Furthermore, it was determined that the flight group\u00ef\u00bf\u00bds progeny was fertile as well.",
+  "__doi": "10.83263/s2za-wa70",
+  "__doi_record_creation_date": "2026-08-23T03:42:52",
+  "__doi_record_modified_date": "2026-08-23T03:42:52"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001950",
+   "label": "AINV0000000893",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "STS-78 Medaka Embryo Slides",
+    "dataset_catalog": "AINV0000000893",
+    "dataset_description": [
+     "Medaka embryo sections, paraffin-embedded on glass slides."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9401617"
+    ]
+   },
+   "meta": "0 files",
+   "date": "2022-07-28",
+   "children": []
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001951",
+   "label": "AINV0000000894",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Temperature Recordings",
+    "dataset_catalog": "AINV0000000894",
+    "dataset_description": [
+     "Condensed temperature recordings of STL-B 03 unit containing Medaka embryos."
+    ],
+    "processing_level": [
+     "Analyzed<br/>Summarized"
+    ],
+    "experiment_id": [
+     "9401617"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "01ea741e-713e-576f-ba5d-7be32e84b52b",
+     "label": "Wolgemuth_LMS.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

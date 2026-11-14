@@ -1,0 +1,265 @@
+{
+ "record": {
+  "id": "ec4d5d93-3c06-5468-ba11-36a6000a6b01",
+  "_id": "ec4d5d93-3c06-5468-ba11-36a6000a6b01",
+  "__is_locked": false,
+  "experiment_title": "Bed Rest Standard Measures: Vertical Jump",
+  "__source_key": "cl62b0sh5cdpc01o60n5v1386",
+  "experiment_type": [
+   [
+    "NASA Ground-Based Investigations"
+   ],
+   [
+    "Flight Analogs Project (FAP)"
+   ],
+   [
+    "NASA Bedrest Studies"
+   ]
+  ],
+  "AssignedArchivist": [
+   "None Selected",
+   "Liddell, Nyaia A."
+  ],
+  "keyword": [
+   "Exercise test",
+   "Exercise tolerance",
+   "Exercise/physiology"
+  ],
+  "__record_version": 32,
+  "experiment_description": "OBJECTIVES:<br>\nThe objective of this test was to assess muscle power in the legs before and after bed rest.\n<div>\nAPPROACH: <br>\nMuscle power was assessed twice before and twice after bed rest by performing the vertical jump test on a ground reaction force plate platform. Subjects performed countermovement vertical jumps.  The subjects were instructed to jump as high as possible, with their hands on their hips.  Attempts were made to obtain three maximal jumps; however, fewer jumps were performed in the post-bed rest phase.  Body mass, reaction force, and jump height were recorded during data collection and jump power was calculated.\n</div><div>\nRESULTS:<br>\nThis experiment has concluded. <span class=\"cf0\">Tabular results are available for the public.</span>.\n</div><div></div>",
+  "indexed": "2026-08-23T04:24:50.922280+00:00",
+  "GUID": "cl62b0sh5cdpc01o60n5v1386",
+  "_file_extension": "human",
+  "archive_status": "Data preservation is complete. All datasets are privacy-protected. Data is available via data request.",
+  "__model_type": "lsda_experiment",
+  "__dirid": "ec4d5d93-3c06-5468-ba11-36a6000a6b01",
+  "__record_size_wo_doccontent": 41993,
+  "__update_method": "Update CDM",
+  "experiment_identifier": [
+   "BRSMVJ"
+  ],
+  "CompleteArchivalExpectedInFiscalYear": [
+   "0"
+  ],
+  "experiment_type_lk": [
+   "NASA Ground-Based Investigations",
+   "Flight Analogs Project (FAP)",
+   "NASA Bedrest Studies"
+  ],
+  "__record_modified_date": "2026-08-23T04:24:50.922280+00:00",
+  "nasa_center": "JSC",
+  "__indexed": "2026-08-23T04:24:50.922280+00:00",
+  "__record_creation_date": "2022-07-28T19:59:17.721Z",
+  "__record_size": 41993,
+  "__model_version": 60,
+  "species_sci_name": [
+   [
+    "Homo sapiens"
+   ]
+  ],
+  "payload_id": [
+   "CFT70"
+  ],
+  "CombinedSpecies": [
+   "Human (Homo sapiens)"
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "ncindex": 2,
+  "researchIndex": [
+   18
+  ],
+  "experiment_id": "BRSMVJ",
+  "experiment_related": [
+   "BEDREST_FTT"
+  ],
+  "center": "JSC",
+  "parameter_name": [
+   "Acceleration, maximum",
+   "Body mass",
+   "Height, maximum",
+   "Jump height",
+   "Peak force",
+   "Peak landing force",
+   "Peak power",
+   "Power, maximum",
+   "Rate of force development",
+   "Reaction force",
+   "Velocity, maximum",
+   "Vertical to velocity",
+   "Height, maximum displacement",
+   "Height to velocity ratio"
+  ],
+  "exp_index": 1786,
+  "research_area": [
+   "Muscle physiology"
+  ],
+  "species": [
+   [
+    "Human"
+   ]
+  ],
+  "pme_role_with_name": [
+   "Principal Investigator: Cromwell, Ronita L.",
+   "Co-Investigator: Caldwell, Erin E."
+  ],
+  "missions": [
+   "UTMB Campaign 11"
+  ],
+  "PI": [
+   "Cromwell, Ronita L."
+  ],
+  "sort": [
+   3,
+   "74372dfd-7189-51e5-8742-e44e4c91a7b7"
+  ],
+  "parameter_html": "<table><tr><td>Acceleration, maximum</td></tr><tr><td>Body mass</td></tr><tr><td>Height, maximum</td></tr><tr><td>Jump height</td></tr><tr><td>Peak force</td></tr><tr><td>Peak landing force</td></tr><tr><td>Peak power</td></tr><tr><td>Power, maximum</td></tr><tr><td>Rate of force development</td></tr><tr><td>Reaction force</td></tr><tr><td>Velocity, maximum</td></tr><tr><td>Vertical to velocity</td></tr><tr><td>Height, maximum displacement</td></tr><tr><td>Height to velocity ratio</td></tr><tr></tr></table>",
+  "program_name": [
+   "Ground"
+  ],
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Cromwell, Ronita L.\">Principal Investigator: Cromwell, Ronita L.</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Caldwell, Erin E.\">Co-Investigator: Caldwell, Erin E.</a>",
+  "keyword_name": "Exercise test",
+  "Program": "Ground",
+  "archive_status_index": 4,
+  "mission_id": [
+   [
+    [
+     "UTMB Campaign 11"
+    ]
+   ]
+  ],
+  "PrincipalInvestigator": [
+   "Cromwell, Ronita L."
+  ],
+  "payload_part": "N/A",
+  "__source_field_concat": "human cl62b0sh5cdpc01o60n5v1386 JSC JSC Exercise test N/A Bed Rest Standard Measures: Vertical Jump BRSMVJ Ground Data preservation is complete.  All datasets are publicly available.",
+  "__icon_type": "",
+  "__description": "OBJECTIVES:<br>\nThe objective of this test was to assess muscle power in the legs before and after bed rest.\n<div>\nAPPROACH: <br>\nMuscle power was assessed twice before and twice after bed rest by performing the vertical jump test on a ground reaction force plate platform. Subjects performed countermovement vertical jumps.  The subjects were instructed to jump as high as possible, with their hands on their hips.  Attempts were made to obtain three maximal jumps; however, fewer jumps were performed in the post-bed rest phase.  Body mass, reaction force, and jump height were recorded during data collection and jump power was calculated.\n</div><div>\nRESULTS:<br>\nThis experiment has concluded. <span class=\"cf0\">Tabular results are available for the public.</span>.\n</div><div></div>",
+  "__doi": "10.83263/fkz6-s185",
+  "__doi_record_creation_date": "2026-08-23T04:24:50",
+  "__doi_record_modified_date": "2026-08-23T04:24:50"
+ },
+ "datasets": [
+  {
+   "key": "ff58817a-bcca-56ae-9a1e-9a39151f3408",
+   "label": "BRSMVJ_CFT70_Vertical_Jump",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "BRSMVJ CFT70 Vertical Jump Data",
+    "dataset_catalog": "BRSMVJ_CFT70_Vertical_Jump",
+    "dataset_description": "This dataset contains tabular data from CFT70 Bed Rest Standard Measures: Vertical Jump.",
+    "processing_level": [
+     "Processed Data"
+    ],
+    "experiment_id": [
+     "BRSMVJ"
+    ]
+   },
+   "meta": "10 files \u00b7 86.9 KB",
+   "date": "2026-03-24",
+   "children": [
+    {
+     "key": "17f71f52-d935-5f2b-8a54-21ef4434864b",
+     "label": "BRSMVJ_CFT70_Vertical_Jump_Pre2_jumps_obsv_ALL",
+     "type": "file",
+     "ext": "",
+     "file_size": 16302,
+     "meta": "15.9 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "675a6242-29b0-572c-b48f-2e1773e0b655",
+     "label": "BRSMVJ_CFT70_Vertical_Jump_Summary_avgs_ALL",
+     "type": "file",
+     "ext": "",
+     "file_size": 1955,
+     "meta": "1.9 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1568974d-7dd0-5d41-b88e-6aa0df88d864",
+     "label": "BRSMVJ_CFT70_Vertical_Jump_Post2_jumps_obsv_ALL",
+     "type": "file",
+     "ext": "",
+     "file_size": 14723,
+     "meta": "14.4 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9b550e0d-8741-543d-bd6f-7df8438fa876",
+     "label": "BRSMVJ_CFT70_Vertical_Jump_Pre1_jumps_avgs_ALL",
+     "type": "file",
+     "ext": "",
+     "file_size": 3940,
+     "meta": "3.8 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1e93b9f7-db53-594f-8595-49b2f85eb912",
+     "label": "BRSMVJ_CFT70_Vertical_Jump_Summary_obsv_ALL",
+     "type": "file",
+     "ext": "",
+     "file_size": 8682,
+     "meta": "8.5 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f8dbd209-1fcb-55e9-a11f-d7cde57a9b79",
+     "label": "BRSMVJ_CFT70_Vertical_Jump_Post2_jumps_avgs_ALL",
+     "type": "file",
+     "ext": "",
+     "file_size": 3935,
+     "meta": "3.8 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8099fa54-19d4-5e8b-9abd-80dc6e5bd316",
+     "label": "BRSMVJ_CFT70_Vertical_Jump_Post1_jumps_obsv_ALL",
+     "type": "file",
+     "ext": "",
+     "file_size": 15646,
+     "meta": "15.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d19fef02-0b26-5147-8fc1-9f4f21584566",
+     "label": "BRSMVJ_CFT70_Vertical_Jump_Pre2_jumps_avgs_ALL",
+     "type": "file",
+     "ext": "",
+     "file_size": 3958,
+     "meta": "3.9 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "63c7b964-11b5-5b82-a671-ca59bf0a5707",
+     "label": "BRSMVJ_CFT70_Vertical_Jump_Pre1_jumps_obsv_ALL",
+     "type": "file",
+     "ext": "",
+     "file_size": 15833,
+     "meta": "15.5 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e230dab6-b484-52f5-95c5-16af772c4a62",
+     "label": "BRSMVJ_CFT70_Vertical_Jump_Post1_jumps_avgs_ALL",
+     "type": "file",
+     "ext": "",
+     "file_size": 3971,
+     "meta": "3.9 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

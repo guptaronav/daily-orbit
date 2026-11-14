@@ -1,0 +1,146 @@
+{
+ "record": {
+  "id": "f534690f-9487-5755-97cd-a9dc6d8bf7b8",
+  "_id": "f534690f-9487-5755-97cd-a9dc6d8bf7b8",
+  "experiment_title": "Effects of Simulated Microgravity on the Anesthetic Properties of Propofol",
+  "archive_status_index": 1,
+  "pub_document_number": "PUB001824",
+  "parameter_html": "<table><tr><td>Cognitive function</td></tr><tr><td>Neurocognitive function</td></tr><tr><td>Propofol metabolites changes in clearance</td></tr><tr><td>Propofol metabolites half-life and pattern</td></tr><tr><td>Propofol metabolites mean residence time</td></tr><tr><td>Propofol metabolites volume of distribution</td></tr><tr><td>Propofol pharmacokinetics</td></tr><tr><td>Bispectral index (BIS) score</td></tr><tr><td>Complete blood count (CBC)</td></tr><tr><td>Propofol, plasma</td></tr><tr></tr></table>",
+  "__source_key": "cl62azl8bcdfh01o6hfww62eu",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Seubert, Christoph\">Principal Investigator: Seubert, Christoph</a>",
+  "experiment_type_lk": [
+   "NASA Ground-Based Investigations",
+   "Non-exercise Physiological Countermeasure (NxPCM) Project"
+  ],
+  "__record_modified_date": "2026-08-23T04:16:57.442637+00:00",
+  "proposal_source": "NRA-03-OBPR-04",
+  "__indexed": "2026-08-23T04:16:57.442637+00:00",
+  "__record_creation_date": "2022-07-28T19:57:35.932Z",
+  "keyword": [
+   "Anesthetics, intravenous",
+   "Propofol"
+  ],
+  "keyword_name": "Propofol",
+  "__record_size": 104559,
+  "__record_version": 30,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<BR>\r\nDespite careful health screening by NASA, astronauts adapted to microgravity are likely to require the administration of anesthesia for a variety of surgical conditions not only in the highly autonomous environments of space habitation or Mars-type missions but also for immediate surgical care after evacuation from low orbital missions. Little-to-no information is available regarding the most appropriate anesthetic technique in microgravity. Physiologic adaptation to weightlessness (e.g., changes in blood and plasma volume, fraction of cardiac output directed to brain, autonomic nervous system activity) can be expected to markedly alter the in vivo behavior and characteristics of anesthetics/hypnotics. Such an altered/increased effect may underlie the anesthetic complications encountered in the two rhesus monkeys aboard Bion 11 that were anesthetized for minor surgery on post-flight day one. On the other hand, data from medication use during space flight indicates normal efficacy of bezodiazepines and even a decrease in the self-reported incidence of sedation caused by promethazine. Total intravenous anesthesia (TIVA) is probably the ideal cost-effective method of rendering subjects insensitive to pain during surgery under microgravity conditions. Unlike volatile agents, which require vaporization and waste gas scavenging, TIVA is a light, compact and self-contained (closed) system that interfaces the patient. It consists of a small programmable syringe pump, which holds a syringe containing an intravenous (IV) anesthetic, which in turn, is attached to tubing that allows drug to be directly infused from the syringe into the vein of a patient. Among the TIVA agents in use today, propofol (2, 6-diisopropylphenol) is the best single suitable agent for use in space. Propofol has several key properties that make it a desirable anesthetic in a space environment: 1) rapid induction of and emergence from anesthesia, 2) ability to adjust the dose to achieve anesthetic states ranging from conscious sedation to general anesthesia 3) lack of drug accumulation in the body, even during long procedures, 4) significant anti-emetic properties, and 5) a simple and reliable means for assessing the depth of anesthesia/hypnosis, the bispectral index (BIS), derived from the electrical activity of the brain\r\n<p>\r\nThe hypotheses for this study are: !(1) Adaptation to microgravity increases the hypnotic/anesthetic effect of propofol by changing its pharmacokinetics (PK), but not pharmacodynamics (PD). (2) Adaptation to microgravity does not change the recovery of cognitive function after propofol anesthesia. \r\n<p>\r\nThis study will determine the effect of microgravity on the following characteristics of propofol anesthesia: 1) onset and offset kinetics, 2) dosing requirements for sedation and anesthesia, 3) PK/PD/metabolism, and 4) recovery of neuro-cognitive function in the postoperative period 5) occurrence of delayed postoperative cognitive dysfunction. \r\n<p>\r\nAPPROACH:<BR>\r\nTwenty volunteers were enrolled to receive propofol anesthesia, ten volunteers for each of the two groups. \r\n<P>\r\nRESULTS:<BR>\r\nOf the 20 volunteers in the propofol groups, 18 completed the study without complications. Two anesthetics in Group II were stopped, one because of persistent coughing \u2013 likely a residual from a respiratory tract infection - and one because of regurgitation without aspiration \u2013 most likely caused by inadequate anesthesia. Independent review of all anesthetics by a panel of 4 anesthesiologists as part of Data Safety Monitoring oversight did agree with the investigators that no unexpected novel safety concerns were raised by the study anesthetics. Antiorthostatic bed rest led to hemoconcentration and typical mild symptoms of back pain or a sensation of fullness of the head/ headache. \r\n<P>\r\nFor both propofol groups the anesthetic effect of propofol was similar in normal gravity and simulated microgravity. The clinical assessment by the modified observer\u2019s assessment of alertness/sedation scale was corroborated by BIS monitoring. As intended, subjects in group II underwent clinically equivalent anesthetics in normo- and simulated microgravity. Consistent with the expected hemoconcentration, but unexpected from the clinical course, these anesthetics resulted in propofol plasma concentrations for up to 60 minutes after the anesthetic that were higher in simulated microgravity than in normogravity (p<0.05, repeated measures ANOVA). While propofol impaired aspects of cognitive function early after the anesthetic, the recovery was the same for normal and simulated microgravity. There was no evidence of delayed postoperative cognitive dysfunction.\r\n<P>\r\nThe results suggest only a minor impact of the adaptation to weightlessness on the pharmacodynamic/pharmacokinetic profile of propofol. There are important limitations to the study. First, adaptation to microgravity was only brief, i.e. simulated by 48 hours of antiorthostatic bed rest. While this duration is sufficient to cause the changes in blood volume and blood flow characteristic of microgravity, and thereby simulates microgravity-induced changes in distribution and elimination of drugs, it falls short of reproducing the clinical scenario of anesthesia care after a medical evacuation from ISS or autonomous care on a long-term mission. Second, anesthesia was studied in the absence of surgery and surgical disease. Both alter the neuro-humeral milieu and may profoundly influence the patient\u2019s response to an anesthetic.",
+  "payload_id": "BRC",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "NNJ04HF74G",
+  "indexed": "2026-08-23T04:16:57.442637+00:00",
+  "GUID": "cl62azl8bcdfh01o6hfww62eu",
+  "parameter_name": [
+   "Cognitive function",
+   "Neurocognitive function",
+   "Propofol metabolites changes in clearance",
+   "Propofol metabolites half-life and pattern",
+   "Propofol metabolites mean residence time",
+   "Propofol metabolites volume of distribution",
+   "Propofol pharmacokinetics",
+   "Bispectral index (BIS) score",
+   "Complete blood count (CBC)",
+   "Propofol, plasma"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 1233,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Pharmacology"
+  ],
+  "pme_role_with_name": [
+   "Principal Investigator: Seubert, Christoph"
+  ],
+  "missions": [
+   [
+    [
+     "BRC"
+    ]
+   ]
+  ],
+  "__dirid": "f534690f-9487-5755-97cd-a9dc6d8bf7b8",
+  "__record_size_wo_doccontent": 104559,
+  "PI": [
+   "Seubert, Christoph"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "NNJ04HF74G"
+  ],
+  "mission_id": [
+   [
+    [
+     "BRC"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "proposal_date": [],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Seubert, Christoph"
+  ],
+  "program_name": [
+   "Ground"
+  ],
+  "archive_status": "Data preservation is complete. All datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Ground",
+  "__source_field_concat": "PUB001824 NRA-03-OBPR-04 BRC cl62azl8bcdfh01o6hfww62eu Propofol  N/A Effects of Simulated Microgravity on the Anesthetic Properties of Propofol NNJ04HF74G Ground Data preservation is complete. All datasets are publicly available.",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<BR>\r\nDespite careful health screening by NASA, astronauts adapted to microgravity are likely to require the administration of anesthesia for a variety of surgical conditions not only in the highly autonomous environments of space habitation or Mars-type missions but also for immediate surgical care after evacuation from low orbital missions. Little-to-no information is available regarding the most appropriate anesthetic technique in microgravity. Physiologic adaptation to weightlessness (e.g., changes in blood and plasma volume, fraction of cardiac output directed to brain, autonomic nervous system activity) can be expected to markedly alter the in vivo behavior and characteristics of anesthetics/hypnotics. Such an altered/increased effect may underlie the anesthetic complications encountered in the two rhesus monkeys aboard Bion 11 that were anesthetized for minor surgery on post-flight day one. On the other hand, data from medication use during space flight indicates normal efficacy of bezodiazepines and even a decrease in the self-reported incidence of sedation caused by promethazine. Total intravenous anesthesia (TIVA) is probably the ideal cost-effective method of rendering subjects insensitive to pain during surgery under microgravity conditions. Unlike volatile agents, which require vaporization and waste gas scavenging, TIVA is a light, compact and self-contained (closed) system that interfaces the patient. It consists of a small programmable syringe pump, which holds a syringe containing an intravenous (IV) anesthetic, which in turn, is attached to tubing that allows drug to be directly infused from the syringe into the vein of a patient. Among the TIVA agents in use today, propofol (2, 6-diisopropylphenol) is the best single suitable agent for use in space. Propofol has several key properties that make it a desirable anesthetic in a space environment: 1) rapid induction of and emergence from anesthesia, 2) ability to adjust the dose to achieve anesthetic states ranging from conscious sedation to general anesthesia 3) lack of drug accumulation in the body, even during long procedures, 4) significant anti-emetic properties, and 5) a simple and reliable means for assessing the depth of anesthesia/hypnosis, the bispectral index (BIS), derived from the electrical activity of the brain\r\n<p>\r\nThe hypotheses for this study are: !(1) Adaptation to microgravity increases the hypnotic/anesthetic effect of propofol by changing its pharmacokinetics (PK), but not pharmacodynamics (PD). (2) Adaptation to microgravity does not change the recovery of cognitive function after propofol anesthesia. \r\n<p>\r\nThis study will determine the effect of microgravity on the following characteristics of propofol anesthesia: 1) onset and offset kinetics, 2) dosing requirements for sedation and anesthesia, 3) PK/PD/metabolism, and 4) recovery of neuro-cognitive function in the postoperative period 5) occurrence of delayed postoperative cognitive dysfunction. \r\n<p>\r\nAPPROACH:<BR>\r\nTwenty volunteers were enrolled to receive propofol anesthesia, ten volunteers for each of the two groups. \r\n<P>\r\nRESULTS:<BR>\r\nOf the 20 volunteers in the propofol groups, 18 completed the study without complications. Two anesthetics in Group II were stopped, one because of persistent coughing \u2013 likely a residual from a respiratory tract infection - and one because of regurgitation without aspiration \u2013 most likely caused by inadequate anesthesia. Independent review of all anesthetics by a panel of 4 anesthesiologists as part of Data Safety Monitoring oversight did agree with the investigators that no unexpected novel safety concerns were raised by the study anesthetics. Antiorthostatic bed rest led to hemoconcentration and typical mild symptoms of back pain or a sensation of fullness of the head/ headache. \r\n<P>\r\nFor both propofol groups the anesthetic effect of propofol was similar in normal gravity and simulated microgravity. The clinical assessment by the modified observer\u2019s assessment of alertness/sedation scale was corroborated by BIS monitoring. As intended, subjects in group II underwent clinically equivalent anesthetics in normo- and simulated microgravity. Consistent with the expected hemoconcentration, but unexpected from the clinical course, these anesthetics resulted in propofol plasma concentrations for up to 60 minutes after the anesthetic that were higher in simulated microgravity than in normogravity (p<0.05, repeated measures ANOVA). While propofol impaired aspects of cognitive function early after the anesthetic, the recovery was the same for normal and simulated microgravity. There was no evidence of delayed postoperative cognitive dysfunction.\r\n<P>\r\nThe results suggest only a minor impact of the adaptation to weightlessness on the pharmacodynamic/pharmacokinetic profile of propofol. There are important limitations to the study. First, adaptation to microgravity was only brief, i.e. simulated by 48 hours of antiorthostatic bed rest. While this duration is sufficient to cause the changes in blood volume and blood flow characteristic of microgravity, and thereby simulates microgravity-induced changes in distribution and elimination of drugs, it falls short of reproducing the clinical scenario of anesthesia care after a medical evacuation from ISS or autonomous care on a long-term mission. Second, anesthesia was studied in the absence of surgery and surgical disease. Both alter the neuro-humeral milieu and may profoundly influence the patient\u2019s response to an anesthetic.",
+  "__doi": "10.83263/6hkg-ka94",
+  "__doi_record_creation_date": "2026-08-23T04:16:57",
+  "__doi_record_modified_date": "2026-08-23T04:16:57"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001921",
+   "label": "NNJ04HF74G__2340957670",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Final Report: Experiment NNJ04HF74G",
+    "dataset_catalog": "NNJ04HF74G__2340957670",
+    "dataset_description": [
+     "This represents the final report submitted to NASA for this investigation.  Data presented in the report are as follows:<BR>\r\n\r\n<LI>Time and Events Table for Entire Study\r\n<LI>Basic study design\r\n<LI>Demographic information of the subjects\r\n<LI>Change in a values of a complete blood count from baseline caused by 48 hours of head down bed rest\r\n<LI>Effect of propofol on the bispectral index score (BIS) in normogravity and simulated microgravity\r\n<LI>Clinical assessment of the anesthetic effect of propofol\r\n<LI>Clinical assessment of sedation in Group II\r\n<LI>EEG effects of propofol in Group II\r\n<LI>Plasma concentrations of propofol during the final 15 minutes of the anesthetic and the initial recovery period.\r\n<LI>Recovery of neurocognitive function after one hour of propofol anesthesia."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "NNJ04HF74G"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "c962c616-d6f2-5a30-9651-2d59328f02b8",
+     "label": "NNJ04HF74G__2340957670.pdf_BRC_NNJ04HF74G_2011_234_100857.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,289 @@
+{
+ "record": {
+  "id": "50573374-ff8f-533a-9247-e57df85a7d33",
+  "_id": "50573374-ff8f-533a-9247-e57df85a7d33",
+  "experiment_title": "Bioassays of Body Fluids",
+  "archive_status_index": 2,
+  "pub_document_number": "PUB000383",
+  "parameter_html": "<table><tr><td>Antidiuretic hormone (ADH)</td></tr><tr><td>Bilirubin</td></tr><tr><td>17-hydroxycorticosteriods, conjugated urinary</td></tr><tr><td>17-hydroxycorticosteroids, free urinary</td></tr><tr><td>17-hydroxycorticosteroids, plasma</td></tr><tr><td>17-hydroxycorticosteroids, urine</td></tr><tr><td>Albumin/globulin ratio, plasma</td></tr><tr><td>Albumin, plasma</td></tr><tr><td>Aldosterone, urine</td></tr><tr><td>Alpha amino acid nitrogen, urine</td></tr><tr><td>Antidiuretic hormone (ADH), urine</td></tr><tr><td>Calcium, plasma</td></tr><tr><td>Calcium, urine</td></tr><tr><td>Chloride, plasma</td></tr><tr><td>Chloride, urine</td></tr><tr><td>Creatine, urine</td></tr><tr><td>Creatinine, urine</td></tr><tr><td>Electrophoretic pattern, plasma protein</td></tr><tr><td>Epinephrine, urine</td></tr><tr><td>Hydroxyproline, bound, plasma</td></tr><tr><td>Hydroxyproline, free, plasma</td></tr><tr><td>Hydroxyproline, total, plasma</td></tr><tr><td>Hydroxyproline, urine</td></tr><tr><td>Norepinephrine, urine</td></tr><tr><td>Osmolality, urine</td></tr><tr><td>Urinary pH</td></tr><tr><td>Phosphate, plasma</td></tr><tr><td>Phosphate, urine</td></tr><tr><td>Potassium, plasma</td></tr><tr><td>Potassium, urine</td></tr><tr><td>Protein, total plasma</td></tr><tr><td>Sodium, plasma</td></tr><tr><td>Sodium, urine</td></tr><tr><td>Specific gravity, urine</td></tr><tr><td>Nitrogen, urine</td></tr><tr><td>Urea nitrogen, plasma</td></tr><tr><td>Urea nitrogen, urine</td></tr><tr><td>Uric acid, plasma</td></tr><tr><td>Uric acid, urine</td></tr><tr><td>Urine volume</td></tr><tr></tr></table>",
+  "__source_key": "cl62axu1xcd0i01o64raxemds",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Dietlein, Lawrence\">Principal Investigator: Dietlein, Lawrence</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Harris, Elliott\">Co-Investigator: Harris, Elliott</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Lipscomb, Harry\">Co-Investigator: Lipscomb, Harry</a>",
+  "experiment_type_lk": [
+   "Gemini Program"
+  ],
+  "__record_modified_date": "2026-08-23T04:10:40.651268+00:00",
+  "proposal_source": [
+   "N/A"
+  ],
+  "__indexed": "2026-08-23T04:10:40.651268+00:00",
+  "__record_creation_date": "2022-07-28T19:53:26.755Z",
+  "__record_size": 147175,
+  "__record_version": 29,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<br>\r\nOrthostatic hypotension and weight loss were observed in the crewmembers of Gemini 3, 4, 5, and 6 immediately after flight.  Scientists were concerned that space flight might affect the balance of body fluid and electrolytes since fluid losses can contribute to both of these symptoms.  This led to a series of ground-based studies to simulate some of the conditions of space flight.  An attempt was made to define the physiological parameters that would be affected by the condition of microgravity.  These studies utilized bed rest and water immersion as a means of simulating microgravity.\r\n<P>\r\nBoth the cardiovascular and musculoskeletal systems experienced changes during the ground-based studies.  Changes in body fluid chemistry were found to be reflective of the status of these systems.  This experiment was designed to obtain objective data concerning the effects of space flight on the human body by examining alterations in the body fluid chemistry.\r\n<P>\r\nAPPROACH:<br>\r\nPreflight plasma samples were collected from all crewmembers of Gemini 7, Gemini 8, and Gemini 9 approximately 10 days and 3 days before launch.  Plasma samples were not collected in flight.  Gemini 7 postflight plasma samples were collected immediately after recovery, and 6 hours, 24 hours and 72 hours after flight.  Gemini 9 postflight plasma specimens were collected after recovery, and 6 hours and 72 hours after flight.  The Gemini 8 mission was terminated after 11 hours and no postflight data was collected for this experiment.\r\n<P>\r\nUrine sampling was scheduled preflight, inflight, and postflight for Gemini 7, 8, and 9.  Preflight, two 48-hour urine samples were collected approximately 10 days and 3 days before launch.  Inflight urine collection on Gemini 7 and 9 was accomplished by utilizing a specially designed urine transport system.  The urine transport system permitted researchers to calculate the total urine volume for each void by means of tritium dilution.  A 75 ml aliquot of each void was collected into a plastic sample bag and stored for return to Earth.  No refrigeration was used, but benzoic acid was added as a preservative.  Urine was collected continuously for 48 hours after landing.  Inflight and postflight urine samples were not collected for the Gemini 8 crewmembers.\r\n<P>\r\nWater and fluid electrolytes were examined to determine the mechanisms associated with weight loss during flight.  The concentrations of plasma sodium, potassium, and chloride ions were measured preflight and postflight, and the rates of urinary excretion of these electrolytes were determined pre-, in-, and postflight.  Total plasma protein concentrations, measured preflight and postflight, were used to indicate dehydration.\r\n<P>\r\nFluid intake and output were measured to determine whether weight loss was caused by sweat and insensible losses or by changes in renal function.  Fluid intake was ad lib, but the quantities ingested during the pre- and postflight phases were recorded.  The majority of the fluid intake was obtained with the diet.  Inflight intake was estimated from a water dispensing device on board the space craft.  The information was not sufficiently precise to perform calculation of fluid balance data.\r\n<P>\r\nTo complement the water measurements and electrolyte-balance measurements, both urinary antidiuretic hormone (ADH) and aldosterone were measured.  The production of ADH is responsive to thoracic blood volume changes, and it was postulated that microgravity would decrease ADH secretion and result in an increase in urinary volume.  Aldosterone was measured to study the mechanisms associated with sodium excretion.  Increases in aldosterone secretion would result in decreased urinary excretion of sodium, and vice versa.  Researchers hypothesized that aldosterone secretion would be decreased in space flight, resulting in an increased urinary excretion of sodium.\r\n<P>\r\nTo measure the effects of stress in space, two groups of hormones were assayed.  The first group assayed, 17-hydroxycorticosteroids, was indicative of long-term stress responses.  The second group assayed, catecholamines, was indicative of short-term or emergency responses. These parameters provided an objective, long-term evaluation of the physiologic cost of space flight.\r\n<P>\r\nBone demineralization was evaluated by measuring calcium, magnesium, phosphate, and hydroxyproline in plasma and urine both preflight and postflight and in urine collected in flight.  Changes in bone mineralization were studied by calculating the ratio of bound to unbound calcium in the plasma.  This ratio was approximated from an estimate of plasma protein and calcium.  Hydroxyproline, an amino acid unique to collagen, was measured in urine to study bone and collagen breakdown.  It was presumed that an increased excretion of hydroxyproline accompanying bone demineralization resulted from dissolution of bone matrix.\r\n<P>\r\nUrinary urea concentration was measured to study protein intake and tissue metabolism.  Creatinine excretion was measured to study muscle protein metabolism.  Decreases of creatinine excretion are associated with loss of muscle tone and activity.\r\n<P>\r\nRESULTS:<br>\r\n\r\nWhen the preflight and postflight plasma samples were analyzed for Gemini 7, by far the longest Gemini flight, electrophoretic patterns were normal.  All values were in the normal range, except for an anticipated increase in 17-hydroxycorticosteroids in the first sample taken after recovery.  These values decreased to preflight values within 6 hours following recovery.  Hydroxyproline did not change significantly.  Plasma uric acid was reduced.  The cause of the reduction was unknown, but presumed to be dietary.  Plasma ADH was significantly elevated in the first postflight plasma sample of one subject of Gemini 7, but returned within normal range as urine output returned to normal.  It was concluded that 14 days of orbital space flight did not result in any gross aberrations of plasma electrolytes.\r\n<P>\r\nDuring the first 24-hours after Gemini 7, there was marked water retention for both subjects.  The output for each subject was approximately 1 liter less than the preflight 24-hour volume.  In addition, there was marked retention of chloride, sodium, and potassium.  The water retention and the rapid weight gain after flight were consistent with the hypothesis that weight loss during flight was the result of fluid loss.  Electrolyte and water retentions observed immediately postflight in the Gemini 7 subjects were consistent with bed rest studies that showed an increased ADH secretion contributed to decreased urinary volume.\r\n<P>\r\nDuring Gemini 9, inflight urine volumes based on the tritium dilution were as great as 12 liters per urination.  This great variation in urine volumes was indicative of an anomaly.  Therefore, no further attempt was made to analyze or interpret the urine samples collected in flight.  The Gemini 9 subjects experienced significant postflight retention of water.  This was accompanied by retention of sodium, potassium, and chloride.  Urinary calcium decreased slightly immediately postflight.  The excretion of 17-hydroxycorticosteroids was increased immediately postflight.  This was probably caused by the stress of re-entry.  Postflight, the increase of plasma protein and a slightly smaller increase of plasma electrolytes were consistent with an inflight water and electrolyte loss that resulted in dehydration followed by the retention of water and electrolytes.  It was not known whether the losses resulted from diuresis during flight or from sweat.\r\n<END>",
+  "payload_id": "Gemini 7",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "M005",
+  "indexed": "2026-08-23T04:10:40.651268+00:00",
+  "GUID": "cl62axu1xcd0i01o64raxemds",
+  "parameter_name": [
+   "Antidiuretic hormone (ADH)",
+   "Bilirubin",
+   "17-hydroxycorticosteriods, conjugated urinary",
+   "17-hydroxycorticosteroids, free urinary",
+   "17-hydroxycorticosteroids, plasma",
+   "17-hydroxycorticosteroids, urine",
+   "Albumin/globulin ratio, plasma",
+   "Albumin, plasma",
+   "Aldosterone, urine",
+   "Alpha amino acid nitrogen, urine",
+   "Antidiuretic hormone (ADH), urine",
+   "Calcium, plasma",
+   "Calcium, urine",
+   "Chloride, plasma",
+   "Chloride, urine",
+   "Creatine, urine",
+   "Creatinine, urine",
+   "Electrophoretic pattern, plasma protein",
+   "Epinephrine, urine",
+   "Hydroxyproline, bound, plasma",
+   "Hydroxyproline, free, plasma",
+   "Hydroxyproline, total, plasma",
+   "Hydroxyproline, urine",
+   "Norepinephrine, urine",
+   "Osmolality, urine",
+   "Urinary pH",
+   "Phosphate, plasma",
+   "Phosphate, urine",
+   "Potassium, plasma",
+   "Potassium, urine",
+   "Protein, total plasma",
+   "Sodium, plasma",
+   "Sodium, urine",
+   "Specific gravity, urine",
+   "Nitrogen, urine",
+   "Urea nitrogen, plasma",
+   "Urea nitrogen, urine",
+   "Uric acid, plasma",
+   "Uric acid, urine",
+   "Urine volume"
+  ],
+  "payload_part": "Gemini 7",
+  "exp_index": 360,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Endocrinology"
+  ],
+  "pme_role_with_name": [
+   "Co-Investigator: Harris, Elliott",
+   "Co-Investigator: Lipscomb, Harry",
+   "Principal Investigator: Dietlein, Lawrence"
+  ],
+  "missions": [
+   [
+    [
+     "Gemini 7"
+    ]
+   ],
+   [
+    [
+     "Gemini 8"
+    ]
+   ],
+   [
+    [
+     "Gemini 9"
+    ]
+   ]
+  ],
+  "__dirid": "50573374-ff8f-533a-9247-e57df85a7d33",
+  "__record_size_wo_doccontent": 147175,
+  "experiment_parms_tissue2": "N/A",
+  "experiment_parms_tissue1": "N/A",
+  "PI": [
+   "Dietlein, Lawrence"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "M005"
+  ],
+  "keyword": [],
+  "mission_id": [
+   [
+    [
+     "Gemini 7"
+    ]
+   ],
+   [
+    [
+     "Gemini 8"
+    ]
+   ],
+   [
+    [
+     "Gemini 9"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Dietlein, Lawrence"
+  ],
+  "archive_status": "Data preservation is complete. Privacy-protected datasets are available via data request. Remaining datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Gemini",
+  "__source_field_concat": "PUB000383 Gemini 7 cl62axu1xcd0i01o64raxemds N/A N/A  Gemini 7 Bioassays of Body Fluids M005 Gemini",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<br>\r\nOrthostatic hypotension and weight loss were observed in the crewmembers of Gemini 3, 4, 5, and 6 immediately after flight.  Scientists were concerned that space flight might affect the balance of body fluid and electrolytes since fluid losses can contribute to both of these symptoms.  This led to a series of ground-based studies to simulate some of the conditions of space flight.  An attempt was made to define the physiological parameters that would be affected by the condition of microgravity.  These studies utilized bed rest and water immersion as a means of simulating microgravity.\r\n<P>\r\nBoth the cardiovascular and musculoskeletal systems experienced changes during the ground-based studies.  Changes in body fluid chemistry were found to be reflective of the status of these systems.  This experiment was designed to obtain objective data concerning the effects of space flight on the human body by examining alterations in the body fluid chemistry.\r\n<P>\r\nAPPROACH:<br>\r\nPreflight plasma samples were collected from all crewmembers of Gemini 7, Gemini 8, and Gemini 9 approximately 10 days and 3 days before launch.  Plasma samples were not collected in flight.  Gemini 7 postflight plasma samples were collected immediately after recovery, and 6 hours, 24 hours and 72 hours after flight.  Gemini 9 postflight plasma specimens were collected after recovery, and 6 hours and 72 hours after flight.  The Gemini 8 mission was terminated after 11 hours and no postflight data was collected for this experiment.\r\n<P>\r\nUrine sampling was scheduled preflight, inflight, and postflight for Gemini 7, 8, and 9.  Preflight, two 48-hour urine samples were collected approximately 10 days and 3 days before launch.  Inflight urine collection on Gemini 7 and 9 was accomplished by utilizing a specially designed urine transport system.  The urine transport system permitted researchers to calculate the total urine volume for each void by means of tritium dilution.  A 75 ml aliquot of each void was collected into a plastic sample bag and stored for return to Earth.  No refrigeration was used, but benzoic acid was added as a preservative.  Urine was collected continuously for 48 hours after landing.  Inflight and postflight urine samples were not collected for the Gemini 8 crewmembers.\r\n<P>\r\nWater and fluid electrolytes were examined to determine the mechanisms associated with weight loss during flight.  The concentrations of plasma sodium, potassium, and chloride ions were measured preflight and postflight, and the rates of urinary excretion of these electrolytes were determined pre-, in-, and postflight.  Total plasma protein concentrations, measured preflight and postflight, were used to indicate dehydration.\r\n<P>\r\nFluid intake and output were measured to determine whether weight loss was caused by sweat and insensible losses or by changes in renal function.  Fluid intake was ad lib, but the quantities ingested during the pre- and postflight phases were recorded.  The majority of the fluid intake was obtained with the diet.  Inflight intake was estimated from a water dispensing device on board the space craft.  The information was not sufficiently precise to perform calculation of fluid balance data.\r\n<P>\r\nTo complement the water measurements and electrolyte-balance measurements, both urinary antidiuretic hormone (ADH) and aldosterone were measured.  The production of ADH is responsive to thoracic blood volume changes, and it was postulated that microgravity would decrease ADH secretion and result in an increase in urinary volume.  Aldosterone was measured to study the mechanisms associated with sodium excretion.  Increases in aldosterone secretion would result in decreased urinary excretion of sodium, and vice versa.  Researchers hypothesized that aldosterone secretion would be decreased in space flight, resulting in an increased urinary excretion of sodium.\r\n<P>\r\nTo measure the effects of stress in space, two groups of hormones were assayed.  The first group assayed, 17-hydroxycorticosteroids, was indicative of long-term stress responses.  The second group assayed, catecholamines, was indicative of short-term or emergency responses. These parameters provided an objective, long-term evaluation of the physiologic cost of space flight.\r\n<P>\r\nBone demineralization was evaluated by measuring calcium, magnesium, phosphate, and hydroxyproline in plasma and urine both preflight and postflight and in urine collected in flight.  Changes in bone mineralization were studied by calculating the ratio of bound to unbound calcium in the plasma.  This ratio was approximated from an estimate of plasma protein and calcium.  Hydroxyproline, an amino acid unique to collagen, was measured in urine to study bone and collagen breakdown.  It was presumed that an increased excretion of hydroxyproline accompanying bone demineralization resulted from dissolution of bone matrix.\r\n<P>\r\nUrinary urea concentration was measured to study protein intake and tissue metabolism.  Creatinine excretion was measured to study muscle protein metabolism.  Decreases of creatinine excretion are associated with loss of muscle tone and activity.\r\n<P>\r\nRESULTS:<br>\r\n\r\nWhen the preflight and postflight plasma samples were analyzed for Gemini 7, by far the longest Gemini flight, electrophoretic patterns were normal.  All values were in the normal range, except for an anticipated increase in 17-hydroxycorticosteroids in the first sample taken after recovery.  These values decreased to preflight values within 6 hours following recovery.  Hydroxyproline did not change significantly.  Plasma uric acid was reduced.  The cause of the reduction was unknown, but presumed to be dietary.  Plasma ADH was significantly elevated in the first postflight plasma sample of one subject of Gemini 7, but returned within normal range as urine output returned to normal.  It was concluded that 14 days of orbital space flight did not result in any gross aberrations of plasma electrolytes.\r\n<P>\r\nDuring the first 24-hours after Gemini 7, there was marked water retention for both subjects.  The output for each subject was approximately 1 liter less than the preflight 24-hour volume.  In addition, there was marked retention of chloride, sodium, and potassium.  The water retention and the rapid weight gain after flight were consistent with the hypothesis that weight loss during flight was the result of fluid loss.  Electrolyte and water retentions observed immediately postflight in the Gemini 7 subjects were consistent with bed rest studies that showed an increased ADH secretion contributed to decreased urinary volume.\r\n<P>\r\nDuring Gemini 9, inflight urine volumes based on the tritium dilution were as great as 12 liters per urination.  This great variation in urine volumes was indicative of an anomaly.  Therefore, no further attempt was made to analyze or interpret the urine samples collected in flight.  The Gemini 9 subjects experienced significant postflight retention of water.  This was accompanied by retention of sodium, potassium, and chloride.  Urinary calcium decreased slightly immediately postflight.  The excretion of 17-hydroxycorticosteroids was increased immediately postflight.  This was probably caused by the stress of re-entry.  Postflight, the increase of plasma protein and a slightly smaller increase of plasma electrolytes were consistent with an inflight water and electrolyte loss that resulted in dehydration followed by the retention of water and electrolytes.  It was not known whether the losses resulted from diuresis during flight or from sweat.\r\n<END>",
+  "__doi": "10.83263/j6px-w884",
+  "__doi_record_creation_date": "2026-08-23T04:10:40",
+  "__doi_record_modified_date": "2026-08-23T04:10:40"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002209",
+   "label": "J0000976",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Analysis of dietary intake during orbital flight for the Gemini 8 astronauts",
+    "dataset_catalog": "J0000976",
+    "dataset_description": [
+     "The quantities of electrolytes and nitrogen consumed by the Gemini 7 astronauts each day during flight are presented in a table.  In:  Lutwak L, Whedon GD, Lachance PA, Reid JM, Lipscomb HS.  Mineral, electrolyte and nitrogen balance studies of the Gemini-VII fourteen-day orbital space flight.  <I>J Clin Endocr</I>, 29:1140-1156, 1969.<END>"
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "M005"
+    ]
+   },
+   "meta": "1 file \u00b7 16.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "8a702367-d65b-544a-8be0-0be87f2dd6d6",
+     "label": "JMGEMM005_112.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 16384,
+     "meta": "16.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001024",
+   "label": "M005__2621154677",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Data Collection Timetables for M005",
+    "dataset_catalog": "M005__2621154677",
+    "dataset_description": [
+     "This spreadsheet represents the data collection timetables for this experiment. Information included in this spreadsheet may include information on the test protocol, data collection constraints, parameters measured, hardware used, scheduled versus actual days of data collection, and subject information."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "M005"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "f21a6b44-662d-5ca5-bd07-d36a41cd4b4f",
+     "label": "M005__2621154677.xls_Gemini_7_M005_2013_263_120929.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000255",
+   "label": "J0000975",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Analysis of dietary intake during orbital flight for the Gemini 7 astronauts",
+    "dataset_catalog": "J0000975",
+    "dataset_description": [
+     "The quantities of electrolytes and nitrogen consumed by the Gemini 7 astronauts each day during flight are presented in a table.  In:  Lutwak L, Whedon GD, Lachance PA, Reid JM, Lipscomb HS.  Mineral, electrolyte and nitrogen balance studies of the Gemini-VII fourteen-day orbital space flight.  <I>J Clin Endocr</I>, 29:1140-1156, 1969.<END>"
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "M005"
+    ]
+   },
+   "meta": "1 file \u00b7 16.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "ddcc6027-b64d-546d-92da-8f79a30c9248",
+     "label": "JMGEMM005_112.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 16384,
+     "meta": "16.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000464",
+   "label": "J0000977",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Analysis of dietary intake during orbital flight for the Gemini 9 astronauts",
+    "dataset_catalog": "J0000977",
+    "dataset_description": [
+     "The quantities of electrolytes and nitrogen consumed by the Gemini 7 astronauts each day during flight are presented in a table.  In:  Lutwak L, Whedon GD, Lachance PA, Reid JM, Lipscomb HS.  Mineral, electrolyte and nitrogen balance studies of the Gemini-VII fourteen-day orbital space flight.  <I>J Clin Endocr</I>, 29:1140-1156, 1969.<END>"
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "M005"
+    ]
+   },
+   "meta": "1 file \u00b7 16.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "87c6bc74-2922-518d-9db9-bd8304a51afb",
+     "label": "JMGEMM005_112.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 16384,
+     "meta": "16.0 KB",
+     "date": "2022-08-04",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

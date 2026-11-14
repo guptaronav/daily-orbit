@@ -1,0 +1,149 @@
+{
+ "record": {
+  "id": "1491b57f-ee43-51ce-9968-03c0be29822c",
+  "_id": "1491b57f-ee43-51ce-9968-03c0be29822c",
+  "experiment_title": "Operational Monitoring of Blood Parameters for First Time Shuttle Flyers",
+  "archive_status_index": 1,
+  "pub_document_number": "PUB001135",
+  "parameter_html": "<table><tr><td>Cholesterol</td></tr><tr><td>Cortisol</td></tr><tr><td>Glucose</td></tr><tr><td>Hemoglobin</td></tr><tr><td>Platelet count</td></tr><tr><td>Triglycerides</td></tr><tr><td>White blood cell count</td></tr><tr></tr></table>",
+  "__source_key": "cl62ay0m3cd2101o68bd87c8a",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:No Principal Investigator,\">Principal Investigator: No Principal Investigator,</a>",
+  "experiment_type_lk": [
+   "Longitudinal Study of Astronaut Health (LSAH)"
+  ],
+  "__record_modified_date": "2026-08-23T04:17:19.729749+00:00",
+  "__indexed": "2026-08-23T04:17:19.729749+00:00",
+  "__record_creation_date": "2022-07-28T20:06:14.009Z",
+  "keyword": [
+   "Triglycerides",
+   "Platelet count",
+   "Hydrocortisone",
+   "Glucose",
+   "Hemoglobins",
+   "Leukocyte count",
+   "Cholesterol"
+  ],
+  "keyword_name": "Cholesterol",
+  "__record_size": 78589,
+  "__record_version": 29,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<BR>\r\nShuttle astronauts receive medical evaluations 10 and 3 days before launch, on the day of landing, and 3 days after landing.  These medical evaluations are performed for three purposes: 1) identification of occult disease before flight, 2) surveillance of health impacts, and 3) collection of normative data on biomedical parameters for use in flight operations.  A wide variety of lab analytes (blood and urine chemistry, hematology, immunology, and endocrinology) are assayed during each evaluation.\r\n<P>\r\nAPPROACH:<BR>\r\nLaboratory data collected three days before launch and on landing day were analyzed with regard to statistical significance and clinical relevance of the differences. The paired t-test was used to compare differences between preflight and postflight mean values. The results were presented at the 1997 Aerospace Medicine Annual Meeting.\r\n<P>\r\nThe severity of space motion sickness had been reported to decrease with successive flights.  First flight experiences influence behavior and use of countermeasures such as in-flight exercise, fluid loading, and G-suit use.  Because of the possible influence of previous flight experience on response to subsequent flight, only first time flight experience was analyzed.\r\n<P>\r\nRESULTS:<BR>\r\nNearly all lab parameters showed predictable changes following shuttle flights.  More than half of the approximately 90 analytes were statistically significant at the 0.05 percent level.  These data demonstrate the importance of examining data for clinical relevance when a statistically significant result is reported.  Although the t-tests were statistically significant at the 0.05 percent level, all lab parameters remained within normal ranges.  For example, the normal range for serum glucose is 78 to 110 mg/dl.  The group mean glucose value at L-3 (3 days before launch) was 92 mg/dl.  The group mean glucose value at R+0 (landing day) was 101.  Both of these group mean values are well within normal ranges.  The difference between the group means is 8.7 mg/dl, that is, the R+0 group mean is 8.7 units greater than the L-3 mean value.  Although this difference is significant at the 0.05 percent level (exact P value = 0.0001 percent), it is not clinically important.  There is no health impact from this small temporary increase in serum glucose. \r\n<P>\r\nThere are many factors that may influence postflight lab parameters.  In-flight factors include space motion sickness, fluid shifts, neurovestibular and cardiovascular changes associated with weightlessness, diet, medications usage, in-flight illness or injury, fatigue, circadian dissynchrony, exposure to environmental toxins, and mission duration.  Factors encountered during reentry include exposure to G-forces following prolonged weightlessness, heat stress caused by the suits worn, and fluid loading.  Postflight factors include varying time lag between landing and collection, crew activities scheduled in the postflight period, and consumption of fluids and food after landing, but before sample collection.\r\n<P>\r\nMany of the differences between preflight and postflight lab parameters can be explained by physiologic stress, hemoconcentration, and relative hypovolemia, which are experienced in the short-term by space participants.  An important confounding factor is that the preflight serum samples were collected following a 12 to 14 hour fast.  Postflight serum samples were collected after a meal (breakfast) and fluid loading and possibly food intake between landing and blood draw.\r\n<P>\r\nIn conclusion, the differences between preflight and postflight measurements can be attributed to any of the factors described above.  However, the differences appear to be too small to be clinically significant.  Future analyses will examine the recovery curve between R+0 and R+3 because crew members typically return to duty and return to flight status after R+3.<END>",
+  "payload_id": "LSAH",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "LSAHNEWSV6_2",
+  "indexed": "2026-08-23T04:17:19.729749+00:00",
+  "GUID": "cl62ay0m3cd2101o68bd87c8a",
+  "parameter_name": [
+   "Cholesterol",
+   "Cortisol",
+   "Glucose",
+   "Hemoglobin",
+   "Platelet count",
+   "Triglycerides",
+   "White blood cell count"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 1055,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Clinical medicine",
+   "Endocrinology",
+   "Hematology"
+  ],
+  "pme_role_with_name": [
+   "Principal Investigator: No Principal Investigator,"
+  ],
+  "missions": [
+   [
+    [
+     "LSAH"
+    ]
+   ]
+  ],
+  "__dirid": "1491b57f-ee43-51ce-9968-03c0be29822c",
+  "__record_size_wo_doccontent": 78589,
+  "PI": [
+   "No Principal Investigator,"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "LSAHNEWSV6_2"
+  ],
+  "mission_id": [
+   [
+    [
+     "LSAH"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "proposal_date": [],
+  "proposal_source": [],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "No Principal Investigator,"
+  ],
+  "program_name": [
+   "Space Medicine"
+  ],
+  "archive_status": "Data preservation is complete. All datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Space Medicine",
+  "__source_field_concat": "PUB001135 LSAH cl62ay0m3cd2101o68bd87c8a Cholesterol  N/A Operational Monitoring of Blood Parameters for First Time Shuttle Flyers LSAHNEWSV6_2 Space Medicine Data preservation is complete. All datasets are publicly available.",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<BR>\r\nShuttle astronauts receive medical evaluations 10 and 3 days before launch, on the day of landing, and 3 days after landing.  These medical evaluations are performed for three purposes: 1) identification of occult disease before flight, 2) surveillance of health impacts, and 3) collection of normative data on biomedical parameters for use in flight operations.  A wide variety of lab analytes (blood and urine chemistry, hematology, immunology, and endocrinology) are assayed during each evaluation.\r\n<P>\r\nAPPROACH:<BR>\r\nLaboratory data collected three days before launch and on landing day were analyzed with regard to statistical significance and clinical relevance of the differences. The paired t-test was used to compare differences between preflight and postflight mean values. The results were presented at the 1997 Aerospace Medicine Annual Meeting.\r\n<P>\r\nThe severity of space motion sickness had been reported to decrease with successive flights.  First flight experiences influence behavior and use of countermeasures such as in-flight exercise, fluid loading, and G-suit use.  Because of the possible influence of previous flight experience on response to subsequent flight, only first time flight experience was analyzed.\r\n<P>\r\nRESULTS:<BR>\r\nNearly all lab parameters showed predictable changes following shuttle flights.  More than half of the approximately 90 analytes were statistically significant at the 0.05 percent level.  These data demonstrate the importance of examining data for clinical relevance when a statistically significant result is reported.  Although the t-tests were statistically significant at the 0.05 percent level, all lab parameters remained within normal ranges.  For example, the normal range for serum glucose is 78 to 110 mg/dl.  The group mean glucose value at L-3 (3 days before launch) was 92 mg/dl.  The group mean glucose value at R+0 (landing day) was 101.  Both of these group mean values are well within normal ranges.  The difference between the group means is 8.7 mg/dl, that is, the R+0 group mean is 8.7 units greater than the L-3 mean value.  Although this difference is significant at the 0.05 percent level (exact P value = 0.0001 percent), it is not clinically important.  There is no health impact from this small temporary increase in serum glucose. \r\n<P>\r\nThere are many factors that may influence postflight lab parameters.  In-flight factors include space motion sickness, fluid shifts, neurovestibular and cardiovascular changes associated with weightlessness, diet, medications usage, in-flight illness or injury, fatigue, circadian dissynchrony, exposure to environmental toxins, and mission duration.  Factors encountered during reentry include exposure to G-forces following prolonged weightlessness, heat stress caused by the suits worn, and fluid loading.  Postflight factors include varying time lag between landing and collection, crew activities scheduled in the postflight period, and consumption of fluids and food after landing, but before sample collection.\r\n<P>\r\nMany of the differences between preflight and postflight lab parameters can be explained by physiologic stress, hemoconcentration, and relative hypovolemia, which are experienced in the short-term by space participants.  An important confounding factor is that the preflight serum samples were collected following a 12 to 14 hour fast.  Postflight serum samples were collected after a meal (breakfast) and fluid loading and possibly food intake between landing and blood draw.\r\n<P>\r\nIn conclusion, the differences between preflight and postflight measurements can be attributed to any of the factors described above.  However, the differences appear to be too small to be clinically significant.  Future analyses will examine the recovery curve between R+0 and R+3 because crew members typically return to duty and return to flight status after R+3.<END>",
+  "__doi": "10.83263/j8qt-vv45",
+  "__doi_record_creation_date": "2026-08-23T04:17:19",
+  "__doi_record_modified_date": "2026-08-23T04:17:19"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002174",
+   "label": "JMLSAHNEWSV62_131",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Blood Parameters for  First-time Shuttle Flyers",
+    "dataset_catalog": "JMLSAHNEWSV62_131",
+    "dataset_description": [
+     "Laboratory data colleted three days before launch and on landing day were analyzed with regard to statistical significance and clinical relevance of the differences.  Data were collected on first-time Shuttle flyers.<P>\r\nSource: National Aeronautics and Space Administration. Operational monitoring of pre- and postflight blood parameters for first time shuttle flyers. In: Longitudinal Study of Astronaut Health Newsletter. October 1997; 6(2):1-4."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "LSAHNEWSV6_2"
+    ]
+   },
+   "meta": "1 file \u00b7 14.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "88f70e0a-dfc7-537a-8295-4342db30ad82",
+     "label": "JMLSAHNEWSV62_131.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 14336,
+     "meta": "14.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

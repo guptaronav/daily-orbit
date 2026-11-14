@@ -1,0 +1,42 @@
+{
+ "HAPI": "2.0",
+ "status": {
+  "code": 1200,
+  "message": "OK"
+ },
+ "startDate": "2014-10-20T23:45:59Z",
+ "stopDate": "2015-04-02T18:42:19Z",
+ "parameters": [
+  {
+   "fill": "null",
+   "length": 22,
+   "name": "Time",
+   "type": "isotime",
+   "units": "UTC"
+  },
+  {
+   "fill": "null",
+   "name": "ProtonFlux_4_9",
+   "type": "double",
+   "units": "flux/(cm^2 s sr MeV/n)"
+  },
+  {
+   "fill": "null",
+   "name": "ProtonFlux_9_15p8",
+   "type": "double",
+   "units": "flux/(cm^2 s sr MeV/n)"
+  },
+  {
+   "fill": "null",
+   "name": "ProtonFlux_15p8_39p8",
+   "type": "double",
+   "units": "flux/(cm^2 s sr MeV/n)"
+  },
+  {
+   "fill": "null",
+   "name": "ProtonFlux_28p2_50p1",
+   "type": "double",
+   "units": "flux/(cm^2 s sr MeV/n)"
+  }
+ ]
+}

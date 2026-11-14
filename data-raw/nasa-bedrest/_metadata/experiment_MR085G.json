@@ -1,0 +1,501 @@
+{
+ "record": {
+  "id": "80ee3231-7c42-5be4-b6c2-b8c788feeb50",
+  "_id": "80ee3231-7c42-5be4-b6c2-b8c788feeb50",
+  "__is_locked": false,
+  "experiment_title": "Neurocognitive Assessment (WinSCAT) (Cognitive Assessment Tool for Windows) (Flight Analog)",
+  "experiment_alias": "MEDB 7.6,WinSCAT",
+  "__source_key": "cl62azo3ccdg501o6dbkd4pdc",
+  "experiment_type": [
+   [
+    "Flight Analogs Project (FAP)"
+   ],
+   [
+    "Artificial Gravity (Fractional Gravity)"
+   ],
+   [
+    "NASA Bedrest Studies"
+   ],
+   [
+    "NASA Ground-Based Investigations"
+   ]
+  ],
+  "AssignedArchivist": [
+   "Liddell, Nyaia A."
+  ],
+  "keyword": [
+   "Behavior",
+   "Cognitive science"
+  ],
+  "__record_version": 32,
+  "experiment_description": "OBJECTIVES:<br>\nThe objective of the Spaceflight Cognitive Assessment Tool for Windows (WinSCAT) test was to measure cognition before, during, and after exposure to long duration bed rest to assess the cognitive effects of simulated microgravity induced by 6\u00b0 head-down tilt.  \n<div>\nAPPROACH:<br>\nThe test used cognitive subtests that measured sustained concentration, verbal working memory, attention, short-term memory, spatial processing, and math skills.  The four cognitive subtests were Coding Memory - Learning, Continuous Processing Task (CPT), Match to Sample, Mathematics, and Coding Delayed Recall.  Cognitive performance on the four subtests measuring attention/concentration (CPT), mathematics achievement (MTH), visual memory task (MTS), and short-term delayed recall task (CDD) The WinSCAT subtests performed during bed rest were the same as those currently used onboard the International Space Station (ISS).\n</div><div>\n<u>Bed Rest Campaign 1</u>:  Data from 3 male 60-day head down tilt bed rest subjects are reported.  Data were collected at BR-10, -9, -7, -5, -2, -1, BR14, 54, and BR+1, +7.\n</div><div>\n<u>Bed Rest Campaigns 3 and 5</u>:  Data from 43 subjects (14 females and 29 males) who underwent 90-day head down tilt bed rest are reported. Data were collected at BR-10, -9, -7, -5, -3, -1, BR13, 29, 56, 62, and BR+1, +5.  Four C3 subjects were evacuated due to Hurricane Rita, and four C3 subjects were evacuated due to Hurricane Ike; these eight subjects therefore have incomplete data sets.  One C3 subject refused to take his final post-bed rest test, and therefore data are not provided for BR+5.\n</div><div>\n<u>Artifical Gravity Pilot Study (Pilot)</u>:  Data from 15 male subjects who completed 21 days of head down tilt bed rest are reported.  Seven subjects were assigned to the control group, and 8 subjects received one hour of centrifugation each day of bed rest.  Data were collected at BR-10, -9, -7, -5, -3, -1, BR1, 3, 5, 7, 9, 11, 13, 15, 17, 19, and BR+0, +2, +4, +6.\n</div><div>\nThe expected WinSCAT results will be small deviations from their own baseline scores over the course of the bed rest study.  If there are mild to moderate cognitive changes on the test scores, it will be more likely to have been caused by either distractions or lack of motivation.  The bed rest subjects are more likely to become bored and not overworked or experience high levels of chronic fatigue.  The potential relevance to space flight is how microgravity as simulated in the head down tilt by itself does not affect cognitive functioning.\n</div><div>\nRESULTS:<br>\n<u>Bed Rest Campaigns 1, 3 and 5</u>:  No consistent decrements in cognitive performance were observed across subjects or across time in bed rest.  In Campaigns 1, 3, and 5, a total of 57 off-nominal throughput scores (34.5%) were obtained during the bed rest phase of study participation, and 28 off-nominal scores (37.3%) were obtained during the post bed rest phase.\n</div><div>\nWinSCAT performance of the Campaign 5 subjects who experienced the vibration countermeasure was compared to the Campaign 3 subjects with complete datasets (excluding the eight subjects dismissed early due to hurricane evacuations).  The 18 subjects in Campaign 5 produced a total of 41 off-nominal scores, and the 17 subjects in Campaign 3 produced a total of 41 off-nominal scores.  Thus, performance on cognitive functioning as assessed by WinSCAT does not appear to significantly differ between the vibration countermeasure group and the control group.\n</div><div>\nOf the 17 subjects who provided complete datasets for Campaign 3, one performed consistently well throughout bed rest with no off-nominal throughput scores.  One subject accounted for five of the 41 total off-nominal throughput scores (12.2%), four subjects each produced four off-nominal scores, three subjects each produced three off-nominal scores, three subjects each produced two off-nominal scores, and five subjects each produced one off-nominal score.  In Campaign 5, all 18 subjects provided complete datasets, and five subjects performed well throughout study participation with no off-nominal throughput scores.  One of the Campaign 5 subjects accounted for seven of the 41 total off-nominal throughput scores (17.1%), three subjects each produced five off-nominal scores, one subject produced four off-nominal scores, two subjects each produced three off-nominals, three subjects each produced two off-nominals, and three subjects each produced one off-nominal score.\n</div><div>\n<u>Artifical Gravity Pilot Study (Pilot)</u>:  Using the method of generalized estimating equations (GEE) with a binomial distribution and logit link [4], the incidence of off-nominal scores between the control and treatment groups was compared during the bed rest phase, taking into account the repeated measures design in which each subject was scored in all 13 categories (accuracy, response time, and throughput scores) every other day.  Additive terms were incorporated into the GEE regression model to account for innate differences between test types and subtypes and also to look for trends over the bed rest period.  The GEE analysis showed that the higher incidence of off-nominal scores for the treatment group was statistically significant (z = 3.26, p = 0.001); however there was no noticeable trend (for either group) for off-nominal incidence to increase as the bed rest period progressed (z = -.09, p = 0.93).</div>",
+  "indexed": "2026-08-23T03:56:14.007673+00:00",
+  "GUID": "cl62azo3ccdg501o6dbkd4pdc",
+  "_file_extension": "human",
+  "archive_status": "Data preservation is complete.  All datasets are publicly available.",
+  "__model_type": "lsda_experiment",
+  "__dirid": "80ee3231-7c42-5be4-b6c2-b8c788feeb50",
+  "__record_size_wo_doccontent": 110320,
+  "__update_method": "Update CDM",
+  "experiment_identifier": [
+   "MR085G",
+   "MEDB 7.6,WinSCAT"
+  ],
+  "CompleteArchivalExpectedInFiscalYear": [
+   "0"
+  ],
+  "experiment_type_lk": [
+   "Flight Analogs Project (FAP)",
+   "Artificial Gravity (Fractional Gravity)",
+   "NASA Bedrest Studies",
+   "NASA Ground-Based Investigations"
+  ],
+  "__record_modified_date": "2026-08-23T03:56:14.007673+00:00",
+  "nasa_center": "JSC",
+  "__indexed": "2026-08-23T03:56:14.007673+00:00",
+  "alias": [
+   "MEDB 7.6",
+   "WinSCAT"
+  ],
+  "__record_creation_date": "2022-07-28T19:57:34.376Z",
+  "__record_size": 110320,
+  "__model_version": 60,
+  "species_sci_name": [
+   [
+    "Homo sapiens"
+   ]
+  ],
+  "payload_id": [
+   "Campaign 5",
+   "Pilot",
+   "Campaign 3",
+   "Campaign 1",
+   "WISE"
+  ],
+  "CombinedSpecies": [
+   "Human (Homo sapiens)"
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "ncindex": 2,
+  "researchIndex": [
+   1
+  ],
+  "experiment_id": "MR085G",
+  "experiment_related": [
+   "MR085L"
+  ],
+  "center": "JSC",
+  "parameter_name": [
+   "Code substitution delayed accuracy",
+   "Code substitution delayed median response time",
+   "Match to sample accuracy",
+   "Match to sample median response time",
+   "Running memory accuracy",
+   "Running memory lapses",
+   "Running memory median response time",
+   "Mathematics, accuracy",
+   "Mathematics, median response time"
+  ],
+  "exp_index": 1363,
+  "research_area": [
+   "Behavior and performance"
+  ],
+  "species": [
+   [
+    "Human"
+   ]
+  ],
+  "pme_role_with_name": [
+   "Technical Assistant to Principal Investigator: Bowie, Kendra",
+   "Co-Investigator: Seaton, Kimberly",
+   "Principal Investigator: Sipes, Walter E.",
+   "Technical Assistant to Principal Investigator: Agen, Rebecca",
+   "Program Scientist: Paloski, William H."
+  ],
+  "missions": [
+   "UTMB Campaign 1",
+   "UTMB Campaign 3",
+   "UTMB Campaign 5",
+   "MEDES",
+   "Pilot"
+  ],
+  "PI": [
+   "Sipes, Walter E."
+  ],
+  "sort": [
+   3,
+   "88e42863-4e9a-5e3a-a7db-fbe4e737574e"
+  ],
+  "Program": "Ground",
+  "parameter_html": "<table><tr><td>Code substitution delayed accuracy</td></tr><tr><td>Code substitution delayed median response time</td></tr><tr><td>Match to sample accuracy</td></tr><tr><td>Match to sample median response time</td></tr><tr><td>Running memory accuracy</td></tr><tr><td>Running memory lapses</td></tr><tr><td>Running memory median response time</td></tr><tr><td>Mathematics, accuracy</td></tr><tr><td>Mathematics, median response time</td></tr><tr></tr></table>",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Sipes, Walter E.\">Principal Investigator: Sipes, Walter E.</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Seaton, Kimberly\">Co-Investigator: Seaton, Kimberly</a>",
+  "PrincipalInvestigator": [
+   "Sipes, Walter E."
+  ],
+  "mission_id": [
+   "UTMB Campaign 1",
+   "UTMB Campaign 3",
+   "UTMB Campaign 5",
+   "MEDES",
+   "Pilot"
+  ],
+  "__source_field_concat": "human cl62azo3ccdg501o6dbkd4pdc JSC JSC MEDB 7.6,WinSCAT Neurocognitive Assessment (WinSCAT) (Cognitive Assessment Tool for Windows) (Flight Analog) MR085G Ground Data preservation is complete.  All datasets are publicly available.",
+  "__icon_type": "",
+  "__description": "OBJECTIVES:<br>\nThe objective of the Spaceflight Cognitive Assessment Tool for Windows (WinSCAT) test was to measure cognition before, during, and after exposure to long duration bed rest to assess the cognitive effects of simulated microgravity induced by 6\u00b0 head-down tilt.  \n<div>\nAPPROACH:<br>\nThe test used cognitive subtests that measured sustained concentration, verbal working memory, attention, short-term memory, spatial processing, and math skills.  The four cognitive subtests were Coding Memory - Learning, Continuous Processing Task (CPT), Match to Sample, Mathematics, and Coding Delayed Recall.  Cognitive performance on the four subtests measuring attention/concentration (CPT), mathematics achievement (MTH), visual memory task (MTS), and short-term delayed recall task (CDD) The WinSCAT subtests performed during bed rest were the same as those currently used onboard the International Space Station (ISS).\n</div><div>\n<u>Bed Rest Campaign 1</u>:  Data from 3 male 60-day head down tilt bed rest subjects are reported.  Data were collected at BR-10, -9, -7, -5, -2, -1, BR14, 54, and BR+1, +7.\n</div><div>\n<u>Bed Rest Campaigns 3 and 5</u>:  Data from 43 subjects (14 females and 29 males) who underwent 90-day head down tilt bed rest are reported. Data were collected at BR-10, -9, -7, -5, -3, -1, BR13, 29, 56, 62, and BR+1, +5.  Four C3 subjects were evacuated due to Hurricane Rita, and four C3 subjects were evacuated due to Hurricane Ike; these eight subjects therefore have incomplete data sets.  One C3 subject refused to take his final post-bed rest test, and therefore data are not provided for BR+5.\n</div><div>\n<u>Artifical Gravity Pilot Study (Pilot)</u>:  Data from 15 male subjects who completed 21 days of head down tilt bed rest are reported.  Seven subjects were assigned to the control group, and 8 subjects received one hour of centrifugation each day of bed rest.  Data were collected at BR-10, -9, -7, -5, -3, -1, BR1, 3, 5, 7, 9, 11, 13, 15, 17, 19, and BR+0, +2, +4, +6.\n</div><div>\nThe expected WinSCAT results will be small deviations from their own baseline scores over the course of the bed rest study.  If there are mild to moderate cognitive changes on the test scores, it will be more likely to have been caused by either distractions or lack of motivation.  The bed rest subjects are more likely to become bored and not overworked or experience high levels of chronic fatigue.  The potential relevance to space flight is how microgravity as simulated in the head down tilt by itself does not affect cognitive functioning.\n</div><div>\nRESULTS:<br>\n<u>Bed Rest Campaigns 1, 3 and 5</u>:  No consistent decrements in cognitive performance were observed across subjects or across time in bed rest.  In Campaigns 1, 3, and 5, a total of 57 off-nominal throughput scores (34.5%) were obtained during the bed rest phase of study participation, and 28 off-nominal scores (37.3%) were obtained during the post bed rest phase.\n</div><div>\nWinSCAT performance of the Campaign 5 subjects who experienced the vibration countermeasure was compared to the Campaign 3 subjects with complete datasets (excluding the eight subjects dismissed early due to hurricane evacuations).  The 18 subjects in Campaign 5 produced a total of 41 off-nominal scores, and the 17 subjects in Campaign 3 produced a total of 41 off-nominal scores.  Thus, performance on cognitive functioning as assessed by WinSCAT does not appear to significantly differ between the vibration countermeasure group and the control group.\n</div><div>\nOf the 17 subjects who provided complete datasets for Campaign 3, one performed consistently well throughout bed rest with no off-nominal throughput scores.  One subject accounted for five of the 41 total off-nominal throughput scores (12.2%), four subjects each produced four off-nominal scores, three subjects each produced three off-nominal scores, three subjects each produced two off-nominal scores, and five subjects each produced one off-nominal score.  In Campaign 5, all 18 subjects provided complete datasets, and five subjects performed well throughout study participation with no off-nominal throughput scores.  One of the Campaign 5 subjects accounted for seven of the 41 total off-nominal throughput scores (17.1%), three subjects each produced five off-nominal scores, one subject produced four off-nominal scores, two subjects each produced three off-nominals, three subjects each produced two off-nominals, and three subjects each produced one off-nominal score.\n</div><div>\n<u>Artifical Gravity Pilot Study (Pilot)</u>:  Using the method of generalized estimating equations (GEE) with a binomial distribution and logit link [4], the incidence of off-nominal scores between the control and treatment groups was compared during the bed rest phase, taking into account the repeated measures design in which each subject was scored in all 13 categories (accuracy, response time, and throughput scores) every other day.  Additive terms were incorporated into the GEE regression model to account for innate differences between test types and subtypes and also to look for trends over the bed rest period.  The GEE analysis showed that the higher incidence of off-nominal scores for the treatment group was statistically significant (z = 3.26, p = 0.001); however there was no noticeable trend (for either group) for off-nominal incidence to increase as the bed rest period progressed (z = -.09, p = 0.93).</div>",
+  "__doi": "10.83263/sbne-th55",
+  "__doi_record_creation_date": "2026-08-23T03:56:14",
+  "__doi_record_modified_date": "2026-08-23T03:56:14"
+ },
+ "datasets": [
+  {
+   "key": "a71fb08b-9032-5912-90c7-34503b7ad2c7",
+   "label": "MR085G_Campaign_1_WinSCAT",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "UTMB Bedrest Campaign 1 WinSCAT",
+    "dataset_catalog": "MR085G_Campaign_1_WinSCAT",
+    "dataset_description": "This dataset contains test data resulting from the Neurocognitive Assessment - WinSCAT (MR085G) experiment performed on three subjects who participated in the Campaign 1 Bed Rest Study. The study measured subjects' accuracy and median response time during a battery of nine tests performed periodically during the Bed Rest Study.",
+    "processing_level": "Processed Data",
+    "experiment_id": [
+     "MR085G"
+    ]
+   },
+   "meta": "5 files \u00b7 6.4 KB",
+   "date": "2025-04-15",
+   "children": [
+    {
+     "key": "2603ff6b-0a7b-593b-8c0a-045a9f4c7231",
+     "label": "MR085G_Campaign_1_WinSCAT_Subject_3",
+     "type": "file",
+     "ext": "",
+     "file_size": 975,
+     "meta": "975 B",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7dca3630-779f-50c3-bed5-f32133746ece",
+     "label": "MR085G_Campaign_1_WinSCAT_ReadMe",
+     "type": "file",
+     "ext": "",
+     "file_size": 700,
+     "meta": "700 B",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "47956794-c02f-5661-8734-3d311fd94e8f",
+     "label": "MR085G_Campaign_1_WinSCAT_Subject_2",
+     "type": "file",
+     "ext": "",
+     "file_size": 1000,
+     "meta": "1000 B",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e1bbe275-b959-5bb8-bdc8-c90979c2b461",
+     "label": "MR085G_Campaign_1_WinSCAT_Subject_1",
+     "type": "file",
+     "ext": "",
+     "file_size": 1016,
+     "meta": "1016 B",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4d543cac-e4b5-57bc-98f9-40a192115c73",
+     "label": "MR085G_Campaign_1_WinSCAT_All",
+     "type": "file",
+     "ext": "",
+     "file_size": 2816,
+     "meta": "2.8 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "331549a1-8928-52d6-8bb7-00df9ecb1e55",
+   "label": "MR085G_Campaign_3_WinSCAT",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "UTMB Bedrest Campaign 3 WinSCAT",
+    "dataset_catalog": "MR085G_Campaign_3_WinSCAT",
+    "dataset_description": "This dataset contains tabular data from the Neurocognitive Assessment - WinSCAT (MR085G) experiment performed subjects who participated in the Campaign 3 Bed Rest Study. The study measured subjects' accuracy and median response time during a battery of nine tests performed periodically during the Bed Rest Study.",
+    "processing_level": [
+     "Processed Data"
+    ],
+    "experiment_id": [
+     "MR085G"
+    ]
+   },
+   "meta": "26 files \u00b7 27.5 KB",
+   "date": "2025-09-19",
+   "children": [
+    {
+     "key": "4a009d15-a2b0-5a01-97de-a066584bef58",
+     "label": "MR085G_Campaign_3_WinSCAT_C3E_6043",
+     "type": "file",
+     "ext": "",
+     "file_size": 1223,
+     "meta": "1.2 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "08f400a0-9e89-5295-8100-3c5e3bad3172",
+     "label": "MR085G_Campaign_3_WinSCAT_C3B_7127",
+     "type": "file",
+     "ext": "",
+     "file_size": 862,
+     "meta": "862 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "79598ee2-80b0-5373-9102-80e2487d2ff7",
+     "label": "MR085G_Campaign_3_WinSCAT_C3C_7772",
+     "type": "file",
+     "ext": "",
+     "file_size": 1225,
+     "meta": "1.2 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "07499a7e-b935-5cdf-9f49-a34874c33fe6",
+     "label": "MR085G_Campaign_3_WinSCAT_C3A_5788",
+     "type": "file",
+     "ext": "",
+     "file_size": 1110,
+     "meta": "1.1 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ecb775f9-bb1f-50e3-abbf-48ab468ff8e6",
+     "label": "MR085G_Campaign_3_WinSCAT_C3B_6345",
+     "type": "file",
+     "ext": "",
+     "file_size": 953,
+     "meta": "953 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c4acf7fa-c800-58ed-8059-a66b2d401ee4",
+     "label": "MR085G_Campaign_3_WinSCAT_C3F_5683",
+     "type": "file",
+     "ext": "",
+     "file_size": 762,
+     "meta": "762 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6e00801e-037a-5394-a072-10eca26e633f",
+     "label": "MR085G_Campaign_3_WinSCAT_C3D_8779",
+     "type": "file",
+     "ext": "",
+     "file_size": 1216,
+     "meta": "1.2 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "170d1198-2ee2-5d1f-b2a1-68ead8bc7c80",
+     "label": "MR085G_Campaign_3_WinSCAT_C3A_0446",
+     "type": "file",
+     "ext": "",
+     "file_size": 1208,
+     "meta": "1.2 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "91db27f4-df65-5b8e-9e47-0a852ae0bed4",
+     "label": "MR085G_Campaign_3_WinSCAT_C3B_4023",
+     "type": "file",
+     "ext": "",
+     "file_size": 950,
+     "meta": "950 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0d38fdc6-0ed4-5c35-bca1-15f0497d314f",
+     "label": "MR085G_Campaign_3_WinSCAT_C3E_5394",
+     "type": "file",
+     "ext": "",
+     "file_size": 1231,
+     "meta": "1.2 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "19a007ef-a6e7-538d-93e5-46d418cfd4f8",
+     "label": "MR085G_Campaign_3_WinSCAT_C3E_6607",
+     "type": "file",
+     "ext": "",
+     "file_size": 1158,
+     "meta": "1.1 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "dacb1b7d-719a-5d8d-b5b1-d37fcebb1c4a",
+     "label": "MR085G_Campaign_3_WinSCAT_C3D_8881",
+     "type": "file",
+     "ext": "",
+     "file_size": 1251,
+     "meta": "1.2 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "69b51367-bd40-53b5-9939-ec62a1f99b9b",
+     "label": "MR085G_Campaign_3_WinSCAT_C3F_9947",
+     "type": "file",
+     "ext": "",
+     "file_size": 308,
+     "meta": "308 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9ddf9bd7-86d2-5198-9ecd-fca0b841125a",
+     "label": "MR085G_Campaign_3_WinSCAT_C3A_0992",
+     "type": "file",
+     "ext": "",
+     "file_size": 1323,
+     "meta": "1.3 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "22ef466b-3376-5380-94c9-010204a0497c",
+     "label": "MR085G_Campaign_3_WinSCAT_C3A_0224",
+     "type": "file",
+     "ext": "",
+     "file_size": 1203,
+     "meta": "1.2 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1d84e424-fdc9-52cf-abc2-092372538c08",
+     "label": "MR085G_Campaign_3_WinSCAT_C3B_3768",
+     "type": "file",
+     "ext": "",
+     "file_size": 867,
+     "meta": "867 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5b212cbd-ed81-5f96-85e4-bd01ebd77356",
+     "label": "MR085G_Campaign_3_WinSCAT_C3C_7352",
+     "type": "file",
+     "ext": "",
+     "file_size": 1217,
+     "meta": "1.2 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4c77e2ab-2fe8-533a-9a36-939829cdf317",
+     "label": "MR085G_Campaign_3_WinSCAT_C3E_8715",
+     "type": "file",
+     "ext": "",
+     "file_size": 1233,
+     "meta": "1.2 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c65e6204-04af-5d97-bf9c-908666f862ab",
+     "label": "MR085G_Campaign_3_WinSCAT_C3D_8615",
+     "type": "file",
+     "ext": "",
+     "file_size": 1249,
+     "meta": "1.2 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8e93bf6f-592e-5db4-83bf-3a9b775c721b",
+     "label": "MR085G_Campaign_3_WinSCAT_C3D_3985",
+     "type": "file",
+     "ext": "",
+     "file_size": 1207,
+     "meta": "1.2 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b2e5c4ee-b95a-5f64-8610-b938c9655a89",
+     "label": "MR085G_Campaign_3_WinSCAT_C3D_7961",
+     "type": "file",
+     "ext": "",
+     "file_size": 1231,
+     "meta": "1.2 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a7595b5a-12f6-55ed-b865-215a6f7c4fff",
+     "label": "MR085G_Campaign_3_WinSCAT_C3D_5165",
+     "type": "file",
+     "ext": "",
+     "file_size": 1206,
+     "meta": "1.2 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0605f17e-918c-580c-8149-844c47955a42",
+     "label": "MR085G_Campaign_3_WinSCAT_C3D_7984",
+     "type": "file",
+     "ext": "",
+     "file_size": 1251,
+     "meta": "1.2 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "18b513e5-cc67-558f-b8e2-7d83084e9c9f",
+     "label": "MR085G_Campaign_3_WinSCAT_C3F_5705",
+     "type": "file",
+     "ext": "",
+     "file_size": 863,
+     "meta": "863 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b5ed2c17-edef-5771-81d4-6dba033dd25b",
+     "label": "MR085G_Campaign_3_WinSCAT_C3F_9016",
+     "type": "file",
+     "ext": "",
+     "file_size": 1045,
+     "meta": "1.0 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a9815a3a-3819-5662-9daf-3cba081a7289",
+     "label": "MR085G_Campaign_3_WinSCAT_C3F_8454",
+     "type": "file",
+     "ext": "",
+     "file_size": 852,
+     "meta": "852 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

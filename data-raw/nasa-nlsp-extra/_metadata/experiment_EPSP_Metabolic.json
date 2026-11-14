@@ -1,0 +1,144 @@
+{
+ "record": {
+  "id": "79bab781-ad0d-5c01-9277-fd8af035169f",
+  "_id": "79bab781-ad0d-5c01-9277-fd8af035169f",
+  "experiment_title": "Metabolic Cost of  Experimental Exercise",
+  "archive_status_index": 3,
+  "pub_document_number": "PUB002687",
+  "parameter_html": "<table><tr><td>Age</td></tr><tr><td>Body fat</td></tr><tr><td>Depression sickness symptoms</td></tr><tr><td>Height</td></tr><tr><td>Weight</td></tr><tr><td>Body mass index (BMI)</td></tr><tr><td>Oxygen consumption, peak (VO2pk)</td></tr><tr></tr></table>",
+  "__source_key": "cl62b09v3cdkz01o6d7vx76by",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Webb, James\">Principal Investigator: Webb, James</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Chappell, Steven\">Co-Investigator: Chappell, Steven</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Gernhardt, Michael\">Co-Investigator: Gernhardt, Michael</a>",
+  "experiment_type_lk": [
+   "NASA Ground-Based Investigations"
+  ],
+  "__record_modified_date": "2026-08-23T04:06:12.628576+00:00",
+  "__indexed": "2026-08-23T04:06:12.628576+00:00",
+  "__record_creation_date": "2022-07-28T20:00:59.726Z",
+  "keyword": [
+   "Extravehicular activity",
+   "Decompression sickness"
+  ],
+  "keyword_name": "Decompression sickness",
+  "__record_size": 100898,
+  "__record_version": 29,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<br>\r\nDepression sickness symptoms (DCS) may develop during exposure to reduced atmospheric pressure. It takes many hours for the partial pressure of nitrogen dissolved in the body tissues and fluids at ground level to equilibrate with the lower partial pressure of nitrogen at lower atmospheric pressure. Hence, super-saturation of tissue with nitrogen occurs during depressurization and can lead to formation of a gas phase, that is, nitrogen bubbles, in tissues and fluids. The bubbles may put pressure on nerves or block blood flow and possibly lead to the development of a broad range of pain, skin, respiratory, and/or nervous system symptoms.\r\n<p>\r\nPre-breathe is denitrogenation by breathing 100% oxygen before decompression to reduce the risk of DCS.\r\nBreathing 100% oxygen reduces the nitrogen partial pressure entering the lung alveoli to zero, creating a large diffusion gradient with the nitrogen partial pressure in the lung capillaries. Longer pre-breathe results in a lower incidence of DCS.\r\n<p>\r\nAerospace environments that can cause DCS include inadequately pressurized cabins during high-altitude flight, extravehicular activity (EVA) from a spacecraft, and depressurization in an altitude chamber. The chance of developing DCS depends mostly on the partial pressure of nitrogen in the tissues (including blood) before decompression and the four primary DCS risk factors: altitude, time at altitude, pre-breathe time, and level of activity while decompressed . These primary DCS risk factors were used to determine DCS risk during development of the Altitude DCS Risk Assessment Computer (ADRAC) model at Brooks City-Base, TX. That model allows input of altitude to the nearest foot, time at altitude, and pre-breathes time to the nearest minute, but the levels of activity are limited to 1) rest, 2) mild, and 3) heavy, with no quantification of the VO2 to differentiate those levels. Lack of a clear definition for these levels of activity forces subjective interpretation of exercise intensity, which limits the impact of that risk factor on the model\u2019s results. Quantitative activity intensity, as it applies to DCS risk, is not known because this factor was not measured when the studies were conducted.\r\n<p>\r\nThe purpose of this study was to measure VO2 during each activity performed while decompressed during the earlier studies to better evaluate activity intensity, and then determine if a relationship exists between DCS incidence and VO2 during exposure. Subjects performed the same exercise protocols as done during previous altitude exposure studies. Application of a defined relationship between VO2 during exposure and DCS incidence could provide a better basis for the ADRAC model or other altitude DCS prediction models.\r\n<p>\r\nAPPROACH:<br>\r\nThe protocols which provided data for this effort were reviewed by the Brooks AFB/City-Base Institutional\r\nReview Board and approved by the USAF Surgeon General\u2019s Research Compliance Office and/or the Wright-Site Institutional Review Board at Wright-Patterson AFB, OH, and the NASA JSC Committee for the Protection of Human Subjects in accordance with existing regulations. All subjects passed an appropriate subject physical examination and signed a voluntary, fully informed consent document describing the experimental conditions and risks of their participation.\r\n<p>\r\nMale subjects participated in the previous 165 altitude DCS research subject-exposures. Data for level of DCS risk used in this study were from those 165 male subject exposures to altitude. These profiles were accomplished at a time and for reasons which precluded use of female subjects. A subject pool of 22 U.S. Air Force active duty male enlisted and officer subjects were employed on days of leave to participate in ground-level activity emulating the activity of the previous altitude exposure subjects while decompressed. The current subjects were representative of subjects in those earlier protocols. Data on oxygen consumption are from the current study of these 22 male subjects.\r\n<p>\r\nThe subjects performed all activity at ground level inside the same chamber and used the same exercise equipment as used during the altitude DCS protocols described above.  VO2 during this study\u2019s activities was determined with a COSMED\u00a9 K4b<sup>2</sup> Cardio Pulmonary Exercise Testing<sup>TM</sup> system (COSMED, Sri, Italy) worn by the subjects.  After donning the lightweight COSMED, subjects remained at seated rest for at least 10 minutes before beginning each timed sequence of activities to allow recovery from the previous mild or moderate activity. Simulated echo imaging was accomplished to emulate the movements made during echo imaging of the decompressed subject\u2019s heart. Each activity sequence was accomplished twice. The breath-by-breath data were reduced to 1, 2, and 3-minute averages of the 15- and 16-minute sequences. The highest VO2 is based on the maximum VO2 from either of the two identical activity sequences.\r\n<p>\r\nRESULTS:<br>\r\nFour previous altitude exposure profiles at 8992 meters to 9144 meters (29,500 to 30,000 feet; 231 to 226 mmHg) for 4 hours following a 1-hour pre-breathe resulted in 38 \u2013 86% DCS. This study provided the VO2 of activities during those studies. The correlation between DCS incidence and the highest 1-minute VO2 of activity was 0.89.",
+  "payload_id": "EPSP",
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "EPSP_Metabolic",
+  "indexed": "2026-08-23T04:06:12.628576+00:00",
+  "GUID": "cl62b09v3cdkz01o6d7vx76by",
+  "parameter_name": [
+   "Age",
+   "Body fat",
+   "Depression sickness symptoms",
+   "Height",
+   "Weight",
+   "Body mass index (BMI)",
+   "Oxygen consumption, peak (VO2pk)"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 1804,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Behavior and performance"
+  ],
+  "pme_role_with_name": [
+   "Co-Investigator: Chappell, Steven",
+   "Co-Investigator: Gernhardt, Michael",
+   "Principal Investigator: Webb, James"
+  ],
+  "missions": [
+   [
+    [
+     "EPSP"
+    ]
+   ]
+  ],
+  "__dirid": "79bab781-ad0d-5c01-9277-fd8af035169f",
+  "__record_size_wo_doccontent": 100898,
+  "PI": [
+   "Webb, James"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "EPSP_Metabolic"
+  ],
+  "mission_id": [
+   [
+    [
+     "EPSP"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "proposal_source": [],
+  "proposal_date": [],
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens)"
+   ]
+  ],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Webb, James"
+  ],
+  "program_name": [
+   "Constellation"
+  ],
+  "archive_status": "No data from this study was submitted to LSDA. Please contact LSDA if you know of available data.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Constellation",
+  "__source_field_concat": "PUB002687 EPSP cl62b09v3cdkz01o6d7vx76by Decompression sickness  N/A Metabolic Cost of  Experimental Exercise EPSP_Metabolic Constellation No data from this study was submitted to LSDA. Please contact LSDA if you know of available data.",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<br>\r\nDepression sickness symptoms (DCS) may develop during exposure to reduced atmospheric pressure. It takes many hours for the partial pressure of nitrogen dissolved in the body tissues and fluids at ground level to equilibrate with the lower partial pressure of nitrogen at lower atmospheric pressure. Hence, super-saturation of tissue with nitrogen occurs during depressurization and can lead to formation of a gas phase, that is, nitrogen bubbles, in tissues and fluids. The bubbles may put pressure on nerves or block blood flow and possibly lead to the development of a broad range of pain, skin, respiratory, and/or nervous system symptoms.\r\n<p>\r\nPre-breathe is denitrogenation by breathing 100% oxygen before decompression to reduce the risk of DCS.\r\nBreathing 100% oxygen reduces the nitrogen partial pressure entering the lung alveoli to zero, creating a large diffusion gradient with the nitrogen partial pressure in the lung capillaries. Longer pre-breathe results in a lower incidence of DCS.\r\n<p>\r\nAerospace environments that can cause DCS include inadequately pressurized cabins during high-altitude flight, extravehicular activity (EVA) from a spacecraft, and depressurization in an altitude chamber. The chance of developing DCS depends mostly on the partial pressure of nitrogen in the tissues (including blood) before decompression and the four primary DCS risk factors: altitude, time at altitude, pre-breathe time, and level of activity while decompressed . These primary DCS risk factors were used to determine DCS risk during development of the Altitude DCS Risk Assessment Computer (ADRAC) model at Brooks City-Base, TX. That model allows input of altitude to the nearest foot, time at altitude, and pre-breathes time to the nearest minute, but the levels of activity are limited to 1) rest, 2) mild, and 3) heavy, with no quantification of the VO2 to differentiate those levels. Lack of a clear definition for these levels of activity forces subjective interpretation of exercise intensity, which limits the impact of that risk factor on the model\u2019s results. Quantitative activity intensity, as it applies to DCS risk, is not known because this factor was not measured when the studies were conducted.\r\n<p>\r\nThe purpose of this study was to measure VO2 during each activity performed while decompressed during the earlier studies to better evaluate activity intensity, and then determine if a relationship exists between DCS incidence and VO2 during exposure. Subjects performed the same exercise protocols as done during previous altitude exposure studies. Application of a defined relationship between VO2 during exposure and DCS incidence could provide a better basis for the ADRAC model or other altitude DCS prediction models.\r\n<p>\r\nAPPROACH:<br>\r\nThe protocols which provided data for this effort were reviewed by the Brooks AFB/City-Base Institutional\r\nReview Board and approved by the USAF Surgeon General\u2019s Research Compliance Office and/or the Wright-Site Institutional Review Board at Wright-Patterson AFB, OH, and the NASA JSC Committee for the Protection of Human Subjects in accordance with existing regulations. All subjects passed an appropriate subject physical examination and signed a voluntary, fully informed consent document describing the experimental conditions and risks of their participation.\r\n<p>\r\nMale subjects participated in the previous 165 altitude DCS research subject-exposures. Data for level of DCS risk used in this study were from those 165 male subject exposures to altitude. These profiles were accomplished at a time and for reasons which precluded use of female subjects. A subject pool of 22 U.S. Air Force active duty male enlisted and officer subjects were employed on days of leave to participate in ground-level activity emulating the activity of the previous altitude exposure subjects while decompressed. The current subjects were representative of subjects in those earlier protocols. Data on oxygen consumption are from the current study of these 22 male subjects.\r\n<p>\r\nThe subjects performed all activity at ground level inside the same chamber and used the same exercise equipment as used during the altitude DCS protocols described above.  VO2 during this study\u2019s activities was determined with a COSMED\u00a9 K4b<sup>2</sup> Cardio Pulmonary Exercise Testing<sup>TM</sup> system (COSMED, Sri, Italy) worn by the subjects.  After donning the lightweight COSMED, subjects remained at seated rest for at least 10 minutes before beginning each timed sequence of activities to allow recovery from the previous mild or moderate activity. Simulated echo imaging was accomplished to emulate the movements made during echo imaging of the decompressed subject\u2019s heart. Each activity sequence was accomplished twice. The breath-by-breath data were reduced to 1, 2, and 3-minute averages of the 15- and 16-minute sequences. The highest VO2 is based on the maximum VO2 from either of the two identical activity sequences.\r\n<p>\r\nRESULTS:<br>\r\nFour previous altitude exposure profiles at 8992 meters to 9144 meters (29,500 to 30,000 feet; 231 to 226 mmHg) for 4 hours following a 1-hour pre-breathe resulted in 38 \u2013 86% DCS. This study provided the VO2 of activities during those studies. The correlation between DCS incidence and the highest 1-minute VO2 of activity was 0.89.",
+  "__doi": "10.83263/m5kr-8d48",
+  "__doi_record_creation_date": "2026-08-23T04:06:12",
+  "__doi_record_modified_date": "2026-08-23T04:06:12"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000537",
+   "label": "EPSP_Metabolic__53102020",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Metabolic Cost of Experimental Exercises Presentation",
+    "dataset_catalog": "EPSP_Metabolic__53102020",
+    "dataset_description": [
+     "This is a presentation titled, Metabolic Cost of Experimental Exercises.  It contains background information and results for the EPSP_Metabolic study.  This presentation is publicly available. \r\n<p>\r\nSource: Original data submitted by the PI"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "EPSP_Metabolic"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "17c07971-ceba-516e-8b76-4b427b192d5e",
+     "label": "EPSP_Metabolic__53102020.pdf_EPSP_EPSP_Metabolic_2012_53_010225.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,164 @@
+{
+ "record": {
+  "id": "8694d3f1-a511-5372-97f2-ebc57636bce8",
+  "_id": "8694d3f1-a511-5372-97f2-ebc57636bce8",
+  "experiment_title": "Integration of Neural Cardiovascular Control in Space",
+  "archive_status_index": 3,
+  "pub_document_number": "PUB001825",
+  "parameter_html": "<table><tr><td>Blood pressure</td></tr><tr><td>Cardiac output</td></tr><tr><td>Cerebral artery blood flow velocity</td></tr><tr><td>Cerebral blood flow (CBF)</td></tr><tr><td>Cumulative stress index</td></tr><tr><td>Degree of tilt</td></tr><tr><td>Forearm blood flow</td></tr><tr><td>Forearm vascular resistance</td></tr><tr><td>Frequency (Hz)</td></tr><tr><td>Heart rate</td></tr><tr><td>Maximum voluntary contraction (MVC)</td></tr><tr><td>Mean arterial pressure</td></tr><tr><td>Orthostatic tolerance</td></tr><tr><td>Pulsed Doppler</td></tr><tr><td>Stroke volume</td></tr><tr><td>System vascular resistance</td></tr><tr><td>Time</td></tr><tr><td>Lower body negative pressure (LBNP)</td></tr><tr></tr></table>",
+  "__source_key": "cl62au599cb0m01o67k0zcexa",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Blomqvist, C.\">Principal Investigator: Blomqvist, C.</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Gaffney, Francis\">Co-Investigator: Gaffney, Francis</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Giller, Cole\">Co-Investigator: Giller, Cole</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Lane, Lynda\">Co-Investigator: Lane, Lynda</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Levine, Benjamin\">Co-Investigator: Levine, Benjamin</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Pawelczyk, James\">Co-Investigator: Pawelczyk, James</a>",
+  "experiment_type_lk": [
+   "Shuttle Life Sciences Research (Spacelab)"
+  ],
+  "__record_modified_date": "2026-08-23T04:08:01.331029+00:00",
+  "proposal_source": [
+   "93-OLMSA-01"
+  ],
+  "__indexed": "2026-08-23T04:08:01.331029+00:00",
+  "__record_creation_date": "2022-07-28T19:49:03.357Z",
+  "keyword": [
+   "Blood flow velocity",
+   "Blood pressure",
+   "Heart rate"
+  ],
+  "keyword_name": "Heart rate",
+  "__record_size": 109788,
+  "__record_version": 29,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<br>\r\nThe Integration of Neural Cardiovascular Control in Space experiment was one of four autonomic nervous system experiments performed during the 1998 Neurolab mission.  This experiment focused on how the autonomic nervous system and circulatory system are integrated.  During previous missions, alterations in cardiovascular control have been noted inflight.  With the key role that this system plays in survival, it is important that it be better understood for the safety and health of the astronauts.  One of the goals of this experiment is to do just that - contribute countermeasures for improved crew health in space.   \r\n<P> \r\nThrough the study of cardiopulmonary receptors, information will be collected on the mechanisms mediating cardiovascular adaption to microgravity  and quantitative aspects on general human cardiovascular regulatory mechanisms.  Medically, this experiment will provide useful reference material for both the evaluation of patients with autonomic dysfunction, and for future life sciences research in cardiovascular and regulatory physiology.<P>\r\nTogether, this comprehensive set of measurements should help solve the puzzle of why astronauts have problems with blood pressure control after space flight.  The answer is important not only for helping astronauts to re-enter gravity safely after being in space, but also for helping patients who suffer with diseases of blood pressure control systems.\r\n<P> \r\nAPPROACH:<br>  \r\nThroughout the autonomic team's experiment sequence, cardiovascular parameters were measured, including blood pressure and heart rate.  An estimation of blood flow to the brain was also estimated via the non-invasive transcranial Doppler (TCD) technique.  The TCD emits high-frequency sound waves used to show how blood flow to the brain is regulated.  This assessment is important because not all people who have orthostatic intolerance after space flight experience a drop in blood pressure.  Instead, an astronaut may have a problem with brain blood flow control which Doppler measurements can reveal.   \r\n<P> \r\nWhile these measurements were taken, tests were conducted to activate the body's blood pressure control system and raise blood pressure.  A standard test was to place a subject\u2019s hand in ice water to elicit a response, but in space the astronaut\u2019s hand was placed in an insulated glove at about -12.5 degrees Celsius.  Called the cold pressor glove, it is used in conjunction with cuff blood pressure during its two minute use and recovery period.    Another test had the subject squeeze a handgrip to 40% of his/her maximal voluntary contraction (MVC) force.  As soon as the handgrip force dropped below 32% of MVC (i.e., 80% of target force) for more than a second, the cuff was inflated to a suprasystolic pressure to occlude circulation and the subject was prompted to release the handgrip.  Occlusion continued for two minutes, and then the cuff was deflated during a two-minute recovery period.\r\n<P> \r\nRESULTS:<br>\r\nAll three nominally scheduled sessions were performed, one session early (Flight Day 2), the second session mid (Flight Days 7 and 8), and the third session late (Flight Days 12 and 13) in flight.  The protocol was repeated for two subjects on Flight Day 10, due to a signal loss that occurred in the mid-mission session.  Additional sessions were performed on Flight Days 2 and 8 by one subject on the early mission session. <P>\r\nIn this study, the hypothesis that space flight impairs cerebral autoregulation was studied in six astronauts approximately 72 and 23 days before, after 1 and 2 weeks in space (n = 4), on landing day, and 1 day after the 16-day Neurolab space shuttle mission. Beat-by-beat changes of photoplethysmographic mean arterial pressure and transcranial Doppler middle cerebral artery blood flow velocity were measured during 5 minutes of spontaneous breathing, 30 mmHg lower body suction to simulate standing in space, and 10 minutes of 60 degree passive upright tilt on Earth. Dynamic cerebral autoregulation was quantified by analysis of the transfer function between spontaneous changes of mean arterial pressure and cerebral artery blood flow velocity, in the very low- (0.02-0.07 Hz), low- (0.07-0.20 Hz) and high-frequency (0.20-0.35 Hz) ranges. Resting middle cerebral artery blood flow velocity did not change significantly from preflight values during or after space flight. Reductions of cerebral blood flow velocity during lower body suction were significant before space flight (P < 0.05, repeated measures ANOVA), but not during or after space flight. Absolute and percentage reductions of mean (+/- s.e.m.) cerebral blood flow velocity after 10 minutes upright tilt were smaller after than before space flight (absolute, -4 +/- 3 cm per sec after versus -14 +/- 3 cm per sec before, P = 0.001; and percentage, -8.0 +/- 4.8% after versus -24.8 +/- 4.4% before, P < 0.05), consistent with improved rather than impaired cerebral blood flow regulation. Low-frequency gain decreased significantly (P < 0.05) by 26, 23 and 27% after 1 and 2 weeks in space and on landing day, respectively, compared with preflight values, which is also consistent with improved autoregulation. It can be concluded that human cerebral autoregulation is preserved, and possibly even improved, by short-duration space flight.\r\n<p>",
+  "payload_id": "Neurolab",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "9301294",
+  "indexed": "2026-08-23T04:08:01.331029+00:00",
+  "GUID": "cl62au599cb0m01o67k0zcexa",
+  "parameter_name": [
+   "Blood pressure",
+   "Cardiac output",
+   "Cerebral artery blood flow velocity",
+   "Cerebral blood flow (CBF)",
+   "Cumulative stress index",
+   "Degree of tilt",
+   "Forearm blood flow",
+   "Forearm vascular resistance",
+   "Frequency (Hz)",
+   "Heart rate",
+   "Maximum voluntary contraction (MVC)",
+   "Mean arterial pressure",
+   "Orthostatic tolerance",
+   "Pulsed Doppler",
+   "Stroke volume",
+   "System vascular resistance",
+   "Time",
+   "Lower body negative pressure (LBNP)"
+  ],
+  "payload_part": "Neurolab",
+  "exp_index": 458,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Neuroscience",
+   "Cardiovascular physiology"
+  ],
+  "pme_role_with_name": [
+   "Co-Investigator: Gaffney, Francis",
+   "Co-Investigator: Giller, Cole",
+   "Co-Investigator: Lane, Lynda",
+   "Co-Investigator: Levine, Benjamin",
+   "Co-Investigator: Pawelczyk, James",
+   "Principal Investigator: Blomqvist, C."
+  ],
+  "missions": [
+   [
+    [
+     "STS-90"
+    ]
+   ]
+  ],
+  "__dirid": "8694d3f1-a511-5372-97f2-ebc57636bce8",
+  "__record_size_wo_doccontent": 109788,
+  "PI": [
+   "Blomqvist, C."
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "9301294"
+  ],
+  "mission_id": [
+   [
+    [
+     "STS-90"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Blomqvist, C."
+  ],
+  "program_name": [
+   "Shuttle Program"
+  ],
+  "proposal_date": [
+   "11/19/1993"
+  ],
+  "archive_status": "No data from this study was submitted to LSDA. Please contact LSDA if you know of available data.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Shuttle Program",
+  "__source_field_concat": "PUB001825 Neurolab cl62au599cb0m01o67k0zcexa Heart rate  Neurolab Integration of Neural Cardiovascular Control in Space 9301294 Shuttle Program No data from this study was submitted to LSDA. Please contact LSDA if you know of available data.",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<br>\r\nThe Integration of Neural Cardiovascular Control in Space experiment was one of four autonomic nervous system experiments performed during the 1998 Neurolab mission.  This experiment focused on how the autonomic nervous system and circulatory system are integrated.  During previous missions, alterations in cardiovascular control have been noted inflight.  With the key role that this system plays in survival, it is important that it be better understood for the safety and health of the astronauts.  One of the goals of this experiment is to do just that - contribute countermeasures for improved crew health in space.   \r\n<P> \r\nThrough the study of cardiopulmonary receptors, information will be collected on the mechanisms mediating cardiovascular adaption to microgravity  and quantitative aspects on general human cardiovascular regulatory mechanisms.  Medically, this experiment will provide useful reference material for both the evaluation of patients with autonomic dysfunction, and for future life sciences research in cardiovascular and regulatory physiology.<P>\r\nTogether, this comprehensive set of measurements should help solve the puzzle of why astronauts have problems with blood pressure control after space flight.  The answer is important not only for helping astronauts to re-enter gravity safely after being in space, but also for helping patients who suffer with diseases of blood pressure control systems.\r\n<P> \r\nAPPROACH:<br>  \r\nThroughout the autonomic team's experiment sequence, cardiovascular parameters were measured, including blood pressure and heart rate.  An estimation of blood flow to the brain was also estimated via the non-invasive transcranial Doppler (TCD) technique.  The TCD emits high-frequency sound waves used to show how blood flow to the brain is regulated.  This assessment is important because not all people who have orthostatic intolerance after space flight experience a drop in blood pressure.  Instead, an astronaut may have a problem with brain blood flow control which Doppler measurements can reveal.   \r\n<P> \r\nWhile these measurements were taken, tests were conducted to activate the body's blood pressure control system and raise blood pressure.  A standard test was to place a subject\u2019s hand in ice water to elicit a response, but in space the astronaut\u2019s hand was placed in an insulated glove at about -12.5 degrees Celsius.  Called the cold pressor glove, it is used in conjunction with cuff blood pressure during its two minute use and recovery period.    Another test had the subject squeeze a handgrip to 40% of his/her maximal voluntary contraction (MVC) force.  As soon as the handgrip force dropped below 32% of MVC (i.e., 80% of target force) for more than a second, the cuff was inflated to a suprasystolic pressure to occlude circulation and the subject was prompted to release the handgrip.  Occlusion continued for two minutes, and then the cuff was deflated during a two-minute recovery period.\r\n<P> \r\nRESULTS:<br>\r\nAll three nominally scheduled sessions were performed, one session early (Flight Day 2), the second session mid (Flight Days 7 and 8), and the third session late (Flight Days 12 and 13) in flight.  The protocol was repeated for two subjects on Flight Day 10, due to a signal loss that occurred in the mid-mission session.  Additional sessions were performed on Flight Days 2 and 8 by one subject on the early mission session. <P>\r\nIn this study, the hypothesis that space flight impairs cerebral autoregulation was studied in six astronauts approximately 72 and 23 days before, after 1 and 2 weeks in space (n = 4), on landing day, and 1 day after the 16-day Neurolab space shuttle mission. Beat-by-beat changes of photoplethysmographic mean arterial pressure and transcranial Doppler middle cerebral artery blood flow velocity were measured during 5 minutes of spontaneous breathing, 30 mmHg lower body suction to simulate standing in space, and 10 minutes of 60 degree passive upright tilt on Earth. Dynamic cerebral autoregulation was quantified by analysis of the transfer function between spontaneous changes of mean arterial pressure and cerebral artery blood flow velocity, in the very low- (0.02-0.07 Hz), low- (0.07-0.20 Hz) and high-frequency (0.20-0.35 Hz) ranges. Resting middle cerebral artery blood flow velocity did not change significantly from preflight values during or after space flight. Reductions of cerebral blood flow velocity during lower body suction were significant before space flight (P < 0.05, repeated measures ANOVA), but not during or after space flight. Absolute and percentage reductions of mean (+/- s.e.m.) cerebral blood flow velocity after 10 minutes upright tilt were smaller after than before space flight (absolute, -4 +/- 3 cm per sec after versus -14 +/- 3 cm per sec before, P = 0.001; and percentage, -8.0 +/- 4.8% after versus -24.8 +/- 4.4% before, P < 0.05), consistent with improved rather than impaired cerebral blood flow regulation. Low-frequency gain decreased significantly (P < 0.05) by 26, 23 and 27% after 1 and 2 weeks in space and on landing day, respectively, compared with preflight values, which is also consistent with improved autoregulation. It can be concluded that human cerebral autoregulation is preserved, and possibly even improved, by short-duration space flight.\r\n<p>",
+  "__doi": "10.83263/nw0t-p089",
+  "__doi_record_creation_date": "2026-08-23T04:08:01",
+  "__doi_record_modified_date": "2026-08-23T04:08:01"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002185",
+   "label": "9301294__2560812920",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Effects of head-down-tilt bed rest on cerebral hemodynamics during orthostatic stress",
+    "dataset_catalog": "9301294__2560812920",
+    "dataset_description": [
+     "Our aim was to determine whether the adaptation to simulated microgravity (microG) impairs regulation of cerebral blood flow (CBF) during orthostatic stress and contributes to orthostatic intolerance. Twelve healthy subjects (aged 24 +/- 5 yr) underwent 2 wk of -6 degrees head-down-tilt (HDT) bed rest to simulate hemodynamic changes that occur when humans are exposed to microG. CBF velocity in the middle cerebral artery (transcranial Doppler), blood pressure, cardiac output (acetylene rebreathing), and forearm blood flow were measured at each level of a ramped protocol of lower body negative pressure (LBNP; -15, -30, and -40 mmHg x 5 min, -50 mmHg x 3 min, then -10 mmHg every 3 min to presyncope) before and after bed rest. Orthostatic tolerance was assessed by using the cumulative stress index (CSI; mmHg x minutes) for the LBNP protocol. After bed rest, each individual's orthostatic tolerance was reduced, with the group CSI decreased by 24% associated with greater decreases in cardiac output and greater increases in systemic vascular resistance at each level of LBNP. Before bed rest, mean CBF velocity decreased by 14, 10, and 45% at -40 mmHg, -50 mmHg, and maximal LBNP, respectively. After bed rest, mean velocity decreased by 16% at -30 mmHg and by 21, 35, and 39% at -40 mmHg, -50 mmHg, and maximal LBNP, respectively. Compared with pre-bed rest, post-bed-rest mean velocity was less by 11, 10, and 21% at -30, -40, and -50 mmHg, respectively. However, there was no significant difference at maximal LBNP. We conclude that cerebral autoregulation during orthostatic stress is impaired by adaptation to simulated microG as evidenced by an earlier and greater fall in CBF velocity during LBNP. We speculate that impairment of cerebral autoregulation may contribute to the reduced orthostatic tolerance after bed rest.<P>Source: Zhang R, Zuckerman JH, Pawelczyk JA, Levine BD. Effects of head-down-tilt bed rest on cerebral hemodynamics during orthostatic stress. J Appl Physiol. 1997 Dec;83(6):2139-45."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "9301294"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "453aad07-6f6a-539a-913c-83fcfc0f9560",
+     "label": "9301294__2560812920.pdf_STS-90_9301294_2012_256_080957.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

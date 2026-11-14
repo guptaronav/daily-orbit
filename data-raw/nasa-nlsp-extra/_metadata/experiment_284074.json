@@ -1,0 +1,580 @@
+{
+ "record": {
+  "id": "13949f07-8949-5edf-a3e8-91789d7fc67c",
+  "_id": "13949f07-8949-5edf-a3e8-91789d7fc67c",
+  "experiment_title": "Direct Measurement of the Initial Bone Response to Space Flight in Humans",
+  "pub_document_number": "PUB002919",
+  "archive_status_index": 2,
+  "experiment_alias": [
+   "E074",
+   "COW"
+  ],
+  "parameter_html": "<table><tr><td>1,25-dihydroxyvitamin D (1,25(OH)2D), plasma</td></tr><tr><td>1,25-hydroxyvitamin D (1,25(OH)D), plasma</td></tr><tr><td>Blood draw time</td></tr><tr><td>Body mass</td></tr><tr><td>Body weight</td></tr><tr><td>Calcium, ionized plasma</td></tr><tr><td>Calcium, plasma</td></tr><tr><td>Calcium, urine</td></tr><tr><td>Carbon dioxide concentration, expired gas</td></tr><tr><td>Carbon dioxide concentration, inspired gas</td></tr><tr><td>Carbon dioxide production (VCO2)</td></tr><tr><td>Cortisol, urine</td></tr><tr><td>Creatinine, urine</td></tr><tr><td>Cross-sectional area, thigh</td></tr><tr><td>Deoxypyridinium</td></tr><tr><td>Deoxypyridinoline</td></tr><tr><td>Diet log</td></tr><tr><td>Dietary intake</td></tr><tr><td>Drug usage and dosage</td></tr><tr><td>Fat content, bone marrow, spinal</td></tr><tr><td>Fecal collection time</td></tr><tr><td>Fluid intake</td></tr><tr><td>Gamma-carboxyglutamic acid (GLA), urine</td></tr><tr><td>Heart rate</td></tr><tr><td>Injection time</td></tr><tr><td>Insulin, urine</td></tr><tr><td>Insulin-like growth factor 1 (IGF-1), urine</td></tr><tr><td>Lean tissue mass</td></tr><tr><td>Leg volume</td></tr><tr><td>Muscle volume</td></tr><tr><td>Osteocalcin, plasma</td></tr><tr><td>Oxygen concentration, expired gas</td></tr><tr><td>Oxygen concentration, inspired gas</td></tr><tr><td>Oxygen consumption (VO2)</td></tr><tr><td>Parathyroid hormone (bio-parathyroid), plasma</td></tr><tr><td>Parathyroid hormone (i-parathyroid), plasma</td></tr><tr><td>Phosphorus, plasma</td></tr><tr><td>Respiratory rate</td></tr><tr><td>Sex steroids, plasma</td></tr><tr><td>T2 relaxation time, spinal bone marrow</td></tr><tr><td>Testosterone, urine</td></tr><tr><td>Thyroxine (T4), urine</td></tr><tr><td>Tracer ingestion time</td></tr><tr><td>Triiodothyronine (T3), urine</td></tr><tr><td>Urine void collection time</td></tr><tr><td>Urine void volume</td></tr><tr></tr></table>",
+  "__source_key": "cl62atwhlcank01o687nf9o60",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Cann, Christopher\">Principal Investigator: Cann, Christopher</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Arnaud, Claude\">Co-Investigator: Arnaud, Claude</a>",
+  "image_name": [
+   "Ambient Temperature Recorder (ATR-4) -- sketch drawing",
+   "Bar Code Reader (BCR) -- sketch drawing",
+   "Life and Microgravity Spacelab (LMS) Hardware, Life Sciences Laboratory Equipment (LSLE) Refrigerator/Freezer",
+   "Life and Microgravity Spacelab (LMS) payload operations, blood draw"
+  ],
+  "__record_modified_date": "2026-08-23T03:52:50.775555+00:00",
+  "proposal_source": [
+   "Not available"
+  ],
+  "__indexed": "2026-08-23T03:52:50.775555+00:00",
+  "alias": [
+   "E074",
+   "COW"
+  ],
+  "__record_creation_date": "2022-07-28T19:48:56.458Z",
+  "__record_version": 30,
+  "__record_size": 84693,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<br>\r\nThe human skeleton undergoes a continuous renewing process. Under normal conditions a balance exists between breakdown and reformation of the bone material. There is evidence that space flight upsets the system and causes an imbalance, even during short-duration missions. Furthermore, the cumulative effect of multiple short-term flights may be similar to that of extended exposure to microgravity. This is a major concern for the health of astronauts.</p>\r\n<p>Scientists believe that reduced mechanical work loads on the body in space induce the skeleton to discard bone it no longer needs. It is believed that the process of bone resorption begins almost immediately upon reaching microgravity. Researchers feel that the temporal relationships in calcium/bone homeostatic and endocrine responses will serve to prove or disprove this hypothesis. The purpose of this investigation is to define the response of the human calcium/bone homeostatic system to microgravity and gather data that will allow prediction of consequences for the health of astronauts.</p>\r\n<p>Previous investigations flown on the Spacelab Life Sciences 1 and 2 (SLS-1 and SLS-2) missions (see experiment titled Pathophysiology of Mineral Loss During Space Flight) verified that the human calcium regulatory hormone system functions normally in space. The increased calcium levels in the bloodstream, from increased bone breakdown, cause higher excretion of calcium in urine and a decrease in calcium absorption in the intestines. A higher calcium intake - the therapy for osteoporosis on Earth - is expected to cause further urinary calcium excretion and increases the risk of kidney stones for space travelers.<p>\r\nAPPROACH:<br>\r\nFrom 10 days before launch until 7 days after landing, each participating astronaut ingested a nonradioactive, stable isotope of calcium (48Ca) with each meal. The labeling was done to distinguish between calcium coming from the diet and calcium being resorbed from bone material.\r\nSamples of blood, urine and feces were collected. The samples collected during the space flight were frozen at -20\u00b0 Celsius. The ratios of calcium isotopes (48Ca/40Ca) were measured after landing. In addition, the astronauts kept a log book, tracking their food and drug intake as well as exercise sessions.\r\n<p>\r\nRESULTS:<br>\r\nBone resorption increases relatively early in space flight (3-5 days). Serum ionized calcium is increased as a result and remains elevated throughout the duration of the flight. The normal adaptive responses of a decrease in serum PTH as ionized calcium is increased occur. The effect of a short term exposure to space flight is still manifest two months postflight with increased bone turnover and possibly elevated serum calcium.<p>",
+  "payload_id": "LMS",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "indexed": "2026-08-23T03:52:50.775555+00:00",
+  "experiment_id": "284074",
+  "GUID": "cl62atwhlcank01o687nf9o60",
+  "parameter_name": [
+   "1,25-dihydroxyvitamin D (1,25(OH)2D), plasma",
+   "1,25-hydroxyvitamin D (1,25(OH)D), plasma",
+   "Blood draw time",
+   "Body mass",
+   "Body weight",
+   "Calcium, ionized plasma",
+   "Calcium, plasma",
+   "Calcium, urine",
+   "Carbon dioxide concentration, expired gas",
+   "Carbon dioxide concentration, inspired gas",
+   "Carbon dioxide production (VCO2)",
+   "Cortisol, urine",
+   "Creatinine, urine",
+   "Cross-sectional area, thigh",
+   "Deoxypyridinium",
+   "Deoxypyridinoline",
+   "Diet log",
+   "Dietary intake",
+   "Drug usage and dosage",
+   "Fat content, bone marrow, spinal",
+   "Fecal collection time",
+   "Fluid intake",
+   "Gamma-carboxyglutamic acid (GLA), urine",
+   "Heart rate",
+   "Injection time",
+   "Insulin, urine",
+   "Insulin-like growth factor 1 (IGF-1), urine",
+   "Lean tissue mass",
+   "Leg volume",
+   "Muscle volume",
+   "Osteocalcin, plasma",
+   "Oxygen concentration, expired gas",
+   "Oxygen concentration, inspired gas",
+   "Oxygen consumption (VO2)",
+   "Parathyroid hormone (bio-parathyroid), plasma",
+   "Parathyroid hormone (i-parathyroid), plasma",
+   "Phosphorus, plasma",
+   "Respiratory rate",
+   "Sex steroids, plasma",
+   "T2 relaxation time, spinal bone marrow",
+   "Testosterone, urine",
+   "Thyroxine (T4), urine",
+   "Tracer ingestion time",
+   "Triiodothyronine (T3), urine",
+   "Urine void collection time",
+   "Urine void volume"
+  ],
+  "payload_part": "(null)",
+  "exp_index": 326,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Metabolism and nutrition",
+   "Skeletal physiology"
+  ],
+  "protocol_approach": "Not applicable",
+  "pme_role_with_name": [
+   "Co-Investigator: Arnaud, Claude",
+   "Principal Investigator: Cann, Christopher"
+  ],
+  "missions": [
+   [
+    [
+     "STS-78"
+    ]
+   ]
+  ],
+  "__dirid": "13949f07-8949-5edf-a3e8-91789d7fc67c",
+  "__record_size_wo_doccontent": 84693,
+  "experiment_parms_tissue2": "N/A",
+  "experiment_parms_tissue1": "N/A",
+  "PI": [
+   "Cann, Christopher"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "284074",
+   "E074",
+   "COW"
+  ],
+  "keyword": [],
+  "mission_id": [
+   [
+    [
+     "STS-78"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Cann, Christopher"
+  ],
+  "program_name": [
+   "Shuttle Program"
+  ],
+  "archive_status": "Data preservation is complete. Privacy-protected datasets are available via data request. Remaining datasets are publicly available.",
+  "__is_locked": false,
+  "Program": "Shuttle Program",
+  "__source_field_concat": "PUB002919 LMS cl62atwhlcank01o687nf9o60 N/A N/A (null) Not applicable Direct Measurement of the Initial Bone Response to Space Flight in Humans 284074 Shuttle Program",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<br>\r\nThe human skeleton undergoes a continuous renewing process. Under normal conditions a balance exists between breakdown and reformation of the bone material. There is evidence that space flight upsets the system and causes an imbalance, even during short-duration missions. Furthermore, the cumulative effect of multiple short-term flights may be similar to that of extended exposure to microgravity. This is a major concern for the health of astronauts.</p>\r\n<p>Scientists believe that reduced mechanical work loads on the body in space induce the skeleton to discard bone it no longer needs. It is believed that the process of bone resorption begins almost immediately upon reaching microgravity. Researchers feel that the temporal relationships in calcium/bone homeostatic and endocrine responses will serve to prove or disprove this hypothesis. The purpose of this investigation is to define the response of the human calcium/bone homeostatic system to microgravity and gather data that will allow prediction of consequences for the health of astronauts.</p>\r\n<p>Previous investigations flown on the Spacelab Life Sciences 1 and 2 (SLS-1 and SLS-2) missions (see experiment titled Pathophysiology of Mineral Loss During Space Flight) verified that the human calcium regulatory hormone system functions normally in space. The increased calcium levels in the bloodstream, from increased bone breakdown, cause higher excretion of calcium in urine and a decrease in calcium absorption in the intestines. A higher calcium intake - the therapy for osteoporosis on Earth - is expected to cause further urinary calcium excretion and increases the risk of kidney stones for space travelers.<p>\r\nAPPROACH:<br>\r\nFrom 10 days before launch until 7 days after landing, each participating astronaut ingested a nonradioactive, stable isotope of calcium (48Ca) with each meal. The labeling was done to distinguish between calcium coming from the diet and calcium being resorbed from bone material.\r\nSamples of blood, urine and feces were collected. The samples collected during the space flight were frozen at -20\u00b0 Celsius. The ratios of calcium isotopes (48Ca/40Ca) were measured after landing. In addition, the astronauts kept a log book, tracking their food and drug intake as well as exercise sessions.\r\n<p>\r\nRESULTS:<br>\r\nBone resorption increases relatively early in space flight (3-5 days). Serum ionized calcium is increased as a result and remains elevated throughout the duration of the flight. The normal adaptive responses of a decrease in serum PTH as ionized calcium is increased occur. The effect of a short term exposure to space flight is still manifest two months postflight with increased bone turnover and possibly elevated serum calcium.<p>",
+  "__doi": "10.83263/023y-r529",
+  "__doi_record_creation_date": "2026-08-23T03:52:50",
+  "__doi_record_modified_date": "2026-08-23T03:52:50"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000453",
+   "label": "JMLMS074027",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Expected Negatvie Correlation Between Serum Calcium and Parathyroid Hormone (PTH)",
+    "dataset_catalog": "JMLMS074027",
+    "dataset_description": [
+     "The image shows the correlation between serum ionized calcium and parathyroid hormone (PTH) during space flight and early recovery period, demonstrating the same strong negative correlation as seen in the early flight period.  This indicates that the adaptation of the calcium metabolic system to an increase in serum calcium is normal, that it continues throughout flight, and is not impaired at recovery.<P>Source: Cann CE. Direct Measurement of the Initial Bone Response to Space Flight in Humans. Unpublished data: postflight one year status report to NASA."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "284074"
+    ]
+   },
+   "meta": "1 file \u00b7 641.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "569553b0-0756-5149-b30b-2c49b037431a",
+     "label": "JMLMS074027.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 656384,
+     "meta": "641.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002199",
+   "label": "JMLMS074029",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Urinary Deoxypyridinoline (DPD) and Urinary Calcium, L-10 to R+7",
+    "dataset_catalog": "JMLMS074029",
+    "dataset_description": [
+     "The image shows the relationship between urinary calcium and urinary deoxypyridinoline (DPD) during the monitoring period, beginning L-10 until seven days after landing.  Both parameters were relatively stable during the preflight period while the astronauts are eating a consistent diet.  The values start to rise a few days into flight, and remain elevated during the postflight recovery period.  Limited data are shown in this graph, so no error bars are given.<P>Source: Cann CE. Direct Measurement of the Initial Bone Response to Space Flight in Humans. Unpublished data: postflight one year status report to NASA."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "284074"
+    ]
+   },
+   "meta": "1 file \u00b7 639.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "cae471b6-b5f1-53a6-847e-591d153c0afe",
+     "label": "JMLMS074029.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 654336,
+     "meta": "639.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001925",
+   "label": "JMLMS074033",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Response of Serum Osmolality to Flight, L-1 to R+2, and Serum Hydrogen Concentration",
+    "dataset_catalog": "JMLMS074033",
+    "dataset_description": [
+     "The upper panel shows the mean values (n=4) measured for serum osmolality between L-1 and R+2.   There was a small (to be expected) but significant decrease in the serum pH measured directly in the anaerobic serum samples drawn from venous puncture.  The pH decreased early and remained low during the flight.  The lower panel depicts an increase in blood H+ concentration of about 10% early during space flight, which returns toward baseline postflight.  The H+ concentration was a calculated parameter, and the effects seen in this graph are paralleled by a decrease in urine chloride inflight.<P>Source: Cann CE. Direct Measurement of the Initial Bone Response to Space Flight in Humans. Unpublished data: postflight one year status report to NASA."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "284074"
+    ]
+   },
+   "meta": "1 file \u00b7 1.19 MB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "75ab65d1-c007-57ea-a638-a329b91ad5f7",
+     "label": "JMLMS074033.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 1244160,
+     "meta": "1.19 MB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001003",
+   "label": "JMLMS074026",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Serum Ionized Calcium and Parathyroid Hormone (PTH) Preflight and Early Inflight",
+    "dataset_catalog": "JMLMS074026",
+    "dataset_description": [
+     "This image shows the time course of parathyroid hormone (PTH) concentration relative to serum ionized calcium.  PTH is reduced in response to elevated serum Ca++ even at the first measurement point, three hours after launch, and shows the expected negative relationship over the first 8 days of space flight.  This indicates that the calcium hemostatic system is responding normally as expected (see also data set <U>Correlation between ionized calcium and PTH</U>.<P>Source: Cann CE. Direct Measurement of the Initial Bone Response to Space Flight in Humans. Unpublished data: postflight one year status report to NASA."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "284074"
+    ]
+   },
+   "meta": "1 file \u00b7 715.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "eeb37352-f8b1-5764-9fd6-b29c039207ad",
+     "label": "JMLMS074026.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 732160,
+     "meta": "715.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000243",
+   "label": "JMLMS074030",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Urinary Deoxypyridinoline (DPD) and Urinary Calcium, L-60 to R+50",
+    "dataset_catalog": "JMLMS074030",
+    "dataset_description": [
+     "The image shows the relationship between urinary calcium and deoxypyridinoline (DPD) during the entire monitoring period, beginning L-60 until R+50.  Both parameters are relatively stable during the preflight period while the astronauts are eating a consistent diet, it starts to rise a few days into flight, and remains elevated during the postflight recovery period.  The image shows, that for at least 2 months postflight alterations in the calcium metabolism can be measured.  The quantitative elevation of deoxypyridinoline can be used to estimate the bone resorption rate.  Limited data are shown in this graph, so no error bars are given.<P>Source: Cann CE. Direct Measurement of the Initial Bone Response to Space Flight in Humans. Unpublished data: postflight one year status report to NASA."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "284074"
+    ]
+   },
+   "meta": "1 file \u00b7 640.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "f8b1108a-9616-5ce7-b8a6-2795913935ee",
+     "label": "JMLMS074030.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 655360,
+     "meta": "640.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001718",
+   "label": "JMLMS074028",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Relationship between Serum Calcium and Parathyroid Hormone (PTH)",
+    "dataset_catalog": "JMLMS074028",
+    "dataset_description": [
+     "The image shows the relationship between serum ionized calcium and parathyroid hormone (PTH) during space flight and early recovery period (L-1 to R+2), demonstrating a strong negative relationship between the two parameters.  This indicates that the adaptation of the calcium metabolic system to an increase in serum calcium is normal, that it continues throughout flight, and is not impaired at recovery.<P>Source: Cann CE. Direct Measurement of the Initial Bone Response to Space Flight in Humans. Unpublished data: postflight one year status report to NASA."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "284074"
+    ]
+   },
+   "meta": "1 file \u00b7 639.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "1e300c7e-2dc8-50e6-890c-73b602390a40",
+     "label": "JMLMS074028.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 654336,
+     "meta": "639.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001924",
+   "label": "JMLMS074032",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Response of Serum Bone Formation Markers -- Osteocalcin and Bone Specific Alkaline Phosphatase L-1 to R+2",
+    "dataset_catalog": "JMLMS074032",
+    "dataset_description": [
+     "The graph shows the measured serum levels of Bone Specific Alkaline Phosphatase (BSAP) and Osteocalcin (OC).  Both analytes are considered to be markers for overall turnover of bone under most circumstances, and which are thought to be more related to bone formation than to bone resorption.  Space flight had no effect on BSAP. Osteocalcin was reduced for the first few days of flight, then increased back to baseline levels and remained there during flight and the first few days of recovery.  This response is more consistent with a cause of stress of flight than of a bone response, although the bone response cannot be ruled out.<P>Source: Cann CE. Direct Measurement of the Initial Bone Response to Space Flight in Humans. Unpublished data: postflight one year status report to NASA."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "284074"
+    ]
+   },
+   "meta": "1 file \u00b7 636.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "af428190-cdad-55cf-af31-f3de22865e0c",
+     "label": "JMLMS074032.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 651264,
+     "meta": "636.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000549",
+   "label": "JMLMS074034",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Urine Chloride Excretion, L-10 to R+7",
+    "dataset_catalog": "JMLMS074034",
+    "dataset_description": [
+     "The graph depicts chloride concentration measured in urine between 10 days prior to launch and 7 days after return to Earth.  The urine excretion was monitored in conjunction to serum osmolality, and the decrease in urine chloride was paralleled by an increase in blood H+ concentration.  These results are consistent with the hypothesis that metabolic acidosis exists during space flight.<P>Source: Cann CE. Direct Measurement of the Initial Bone Response to Space Flight in Humans. Unpublished data: postflight one year status report to NASA."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "284074"
+    ]
+   },
+   "meta": "1 file \u00b7 642.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "a45db454-a4f8-53e7-a401-1fb4593f6a23",
+     "label": "JMLMS074034.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 657408,
+     "meta": "642.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000242",
+   "label": "JMLMS074025",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Serum Ionized Calcium Preflight and Early Inflight",
+    "dataset_catalog": "JMLMS074025",
+    "dataset_description": [
+     "The graph shows the early response of serum ionized calcium to space flight (n=4).  The first data point on launch day (day 0) was taken before breakfast and represents the last preflight sample.  Because sample processing (freezing) could result in some alterations to blood gases, both raw results for Ca++ and those normalized to pH 7.4 are shown.  Three hours into flight, Ca++ was elevated over baseline values, then decreased back near baseline by Flight Day 3.  The later rise (FD 5-8) can be explained by an increase in bone resorption due to increased numbers of osteoclasts whose proliferation was stimulated by space flight.<P>Source: Cann CE. Direct Measurement of the Initial Bone Response to Space Flight in Humans. Unpublished data: postflight one year status report to NASA."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "284074"
+    ]
+   },
+   "meta": "1 file \u00b7 630.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "24517b3c-6ab7-57a9-821e-a12facc850f5",
+     "label": "JMLMS074025.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 645120,
+     "meta": "630.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000454",
+   "label": "JMLMS074031",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Average Serum Calcium, Preflight, Inflight and Postflight for Four Astronauts",
+    "dataset_catalog": "JMLMS074031",
+    "dataset_description": [
+     "The image shows the average serum ionized calcium measured in four subject preflight, inflight and postflight (monitoring period was L-20 to R+60).  Because sample processing (freezing) could result in some alterations to blood gases, both raw results for Ca++ and those normalized to pH 7.4 are shown.  There is a suggestion of a continued increase two months postflight, but it is not statistically significant.  If it remained elevated, it would be consistent with the continued increased resorption documented by the deoxypyridinoline  (DPD) data.<P>Source: Cann CE. Direct Measurement of the Initial Bone Response to Space Flight in Humans. Unpublished data: postflight one year status report to NASA."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "284074"
+    ]
+   },
+   "meta": "1 file \u00b7 638.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "a4ef5a3a-55ea-5fef-87ed-66fd00c62fe1",
+     "label": "JMLMS074031.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 653312,
+     "meta": "638.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000033",
+   "label": "JMLMS284074_999",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Data Collection Timetables for Experiment 284074",
+    "dataset_catalog": "JMLMS284074_999",
+    "dataset_description": [
+     "This spreadsheet represents the data collection timetables for data collection sessions for this experiment: body mass, 24 hour urine collection, dietary monitoring, UMS calibration, calcium tracer ingestion and fecal sample collection.  Information included in this spreadsheet may include information on the test protocol, data collection constraints, parameters measured, hardware used, scheduled versus actual days of data collection, and subject information."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "284074"
+    ]
+   },
+   "meta": "1 file \u00b7 94.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "86ae23d4-41b3-5ebb-9d62-1c47430396ec",
+     "label": "JMLMS284074_999.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 96256,
+     "meta": "94.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001719",
+   "label": "JMLMS284036_63",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Data Collection Timetables for Experiment 284036",
+    "dataset_catalog": "JMLMS284036_63",
+    "dataset_description": [
+     "This spreadsheet represents the data collection timetables for blood collection, arm testing, leg motor fatigue testing and EMG recording for this experiment.  Information included in this spreadsheet may include information about the test protocol, data collection constraints, parameters measured, hardware used, scheduled versus actual days of data collection, and subject information."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "284036",
+     "284074",
+     "8913020",
+     "E407"
+    ]
+   },
+   "meta": "4 files \u00b7 420.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "3161c1a1-c653-5d3d-b85f-6a75733754a6",
+     "label": "JMLMS284036_63.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 107520,
+     "meta": "105.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "89b0049d-94dd-50e4-a7bd-61cb35e420b9",
+     "label": "JMLMS284036_63.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 107520,
+     "meta": "105.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0fdecaac-b00d-59b1-b567-1a87d16be3fa",
+     "label": "JMLMS284036_63.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 107520,
+     "meta": "105.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "febbe4b4-4439-552d-b896-d0929ee2992d",
+     "label": "JMLMS284036_63.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 107520,
+     "meta": "105.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

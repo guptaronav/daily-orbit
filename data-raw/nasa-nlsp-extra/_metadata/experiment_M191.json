@@ -1,0 +1,1985 @@
+{
+ "record": {
+  "id": "353daaa2-6f7e-5a00-8bd0-e046058a4eb7",
+  "_id": "353daaa2-6f7e-5a00-8bd0-e046058a4eb7",
+  "experiment_title": "Microbial Response to Space Environment",
+  "pub_document_number": "PUB000405",
+  "parameter_html": "<table><tr><td>Aeromonas proteolytica</td></tr><tr><td>Bacillus subtilis</td></tr><tr><td>Bacillus subtilis HA 101 strain</td></tr><tr><td>Bacillus subtilis HA 101(59) strain</td></tr><tr><td>Bacillus thuringiensis</td></tr><tr><td>Chaetomium globosum</td></tr><tr><td>Ferrous sulfate, rate of decay</td></tr><tr><td>Fractional cell loss, kidney cells</td></tr><tr><td>Heligmosomoides polygyrus</td></tr><tr><td>High-resolution film response to UV irradiation</td></tr><tr><td>LET350 Spectrum</td></tr><tr><td>Nematospiroides dubius</td></tr><tr><td>Quantum yield values</td></tr><tr><td>Rhodotorula rubra</td></tr><tr><td>Saccharomyces cerevisiae</td></tr><tr><td>T7 phage</td></tr><tr><td>Temperature</td></tr><tr><td>Thermoluminescent dosimeter dose</td></tr><tr><td>Trichophyton terrestre</td></tr><tr></tr></table>",
+  "__source_key": "cl62ayxpncd9v01o6ejsv1l6b",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Taylor, Gerald\">Principal Investigator: Taylor, Gerald</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Bucker, Horst\">Co-Investigator: Bucker, Horst</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Ellis, Walter\">Co-Investigator: Ellis, Walter</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Foster, Bill\">Co-Investigator: Foster, Bill</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Heimpel, A.\">Co-Investigator: Heimpel, A.</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Hiser, J.\">Co-Investigator: Hiser, J.</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Horneck, Gerda\">Co-Investigator: Horneck, Gerda</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Hsu, Y.\">Co-Investigator: Hsu, Y.</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Isherwood, James\">Co-Investigator: Isherwood, James</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Jerger, D.\">Co-Investigator: Jerger, D.</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Long, Richard\">Co-Investigator: Long, Richard</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Lovett, D.\">Co-Investigator: Lovett, D.</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Simmonds, Richard\">Co-Investigator: Simmonds, Richard</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Spizizen, John\">Co-Investigator: Spizizen, John</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Veselenak, J.\">Co-Investigator: Veselenak, J.</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Volz, Paul\">Co-Investigator: Volz, Paul</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Wollenhaupt, Helga\">Co-Investigator: Wollenhaupt, Helga</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Wrenn, R.\">Co-Investigator: Wrenn, R.</a>",
+  "image_name": [
+   "High-energy-particle dosimeter case",
+   "Internal Components of the Biological Experiments Transporter",
+   "Microbial Ecology Evaluation Device (MEED)",
+   "Microbial Ecology Evaluation Device (MEED) dry cuvette assembly",
+   "Microbial Ecology Evaluation Device (MEED) film cuvette assembly",
+   "Microbial Ecology Evaluation Device (MEED) thermoluminescent dosimeter chip arrangement",
+   "Microbial Ecology Evaluation Device (MEED) wet cuvette assembly",
+   "Optical Filter Pack Assembly",
+   "Temperature Recorder Placement in the Microbial Ecology Evaluation Device (MEED)"
+  ],
+  "keyword": [
+   "Radiation effects",
+   "Cell survival",
+   "Spectrum analysis",
+   "Microbial genetics",
+   "Gene expression profiling"
+  ],
+  "keyword_name": "Gene expression profiling",
+  "__record_version": 29,
+  "experiment_description": "OBJECTIVES:\r\n<br>\r\nPrevious U.S. and U.S.S.R. studies established the survival ability of microbes in the space environment, although actual survival rates were often different from ground controls.  More recent space flight studies suggested the possibility of space flight mediated genetic and developmental alterations in several species.  The Microbial Response to Space Environment Experiment examined the relationship between space flight and viability and the effect of space flight on phenotypic expressions in several biological systems.\r\n<P>\r\nAPPROACH:\r\n<br>\r\nDuring the Apollo 16 extravehicular activity, the Microbial Ecology Evaluation Device (MEED) was removed from its protective stowage bag in the crew compartment.  A 2.54 meter (8 foot 4 inch) tether was attached externally to the MEED flight assembly, the assembly was mounted on the campole, and the hardware was secured to the inside of the spacecraft.  The campole and MEED assembly were then installed into a fitting mounted on the opened hatch door of the command module (CM).  A small attitude adjustment of the CM was required to place the appropriate surfaces of the opened MEED assembly directly perpendicular to the rays of the sun.  The correction was indicated by a solar-positioning device (sunsight) mounted on the exterior of the MEED.  The MEED sunsight contained a pin that, when exposed to the rays of the sun, cast a shadow onto an image-field decal mounted on an inclined plane.  A set of 90 degree crosshairs was scribed on the center of the sunsight decal.  These crosshairs marked the point where the top of the pin shadow should lay when the faces of the MEED were exactly perpendicular to the incoming rays of the sun. \r\n<P>\r\nDeployment of the MEED in deep space exposed the microbial systems to a potential thermal problem.  A black and white thermal coating pattern was painted on the cover of the MEED assembly to provide the proper thermal control after deployment and before opening the MEED.  The proportioning of black and white paint provided the proper internal temperature preconditioning inside the MEED.  To meet the thermal balance requirement within all portions of the MEED, the device was designed to remain within the 20 degrees Celsius temperature range after deployment.  \r\n<P>\r\nIn most cases, the phenomena studied represent well-known model systems that can be correlated directly with disease or other medically important conditions that could affect the health of future astronauts.  Each investigator selected a species of microorganism that was nonpathogenic to man, well characterized relative to the studied phenomenon, well suited to simple and rapid screening tests and compatible with the flight hardware environment.  Nine species were chosen, including <I>Aeromonas proteolytica, Bacillus subtilis, Bacillus thuringiensis var. thuringiensis</I>, the T-7 bacteriophage of <I>Escherichia coli, Nematospiroides dubius, Trichophyton terrestre, Chaetomium globosum, Rhodotorula rubra</I> and <I>Saccharomyces cerevisiae.</I>  \r\n<P>\r\n<I><U>Aeromonas proteolytica</U></I><BR>\r\n<I>A. proteolytica</I> was chosen because it produces an endopeptidase that elicits intracutaneous hemorrhaging and necrosis in laboratory animals, and a hemolysin which has the ability to hemolyse human erythrocytes.  This microbe was retained in fluid suspensions and exposed to solar ultraviolet (UV) irradiation at peak wavelengths of 254 nm, 280 nm and 300 nm.  In addition to survival evaluations, cells recovered from the flight hardware were quantitatively tested for alterations in toxin production.\r\n<P>\r\nFlight cuvettes were opened after flight, and contents were plated for surviving organisms.  Dilutions of 100, 1000, 10,000 and 100,000 in duplicate were made from each cuvette.  After 24 hours of incubation, counts were made and averages computed.\r\n<P>\r\nTwenty-four hours after plating, 50 clones were selected at random from each energy level at the three wavelengths.  Each was transferred to heart infusion agar slants and inoculated into 50 ml of 2% casitone broth for cultivation.  Following 28 hours of incubation at room temperature with constant aeration by shaking, the culture was centrifuged at 8000 rpm for 10 minutes at 4 degrees Celsius.  The resulting supernatant was frozen until assayed.  Clones not cultured were transferred to fresh slants after 14 days.\r\n<P>\r\nThe 1:100 dilution made from each cuvette was retained and stored at 20 degrees Celsius.  Eight weeks after opening the cuvettes, aliquots of the first dilutions were made, and 30 additional clones from each wavelength and energy level were selected for study and prepared for assay as described.\r\n<P>\r\nEndopeptidase activity was measured with an urea-denatured-hemoglobin substrate. For the assay, 1.0 ml of a 1:40 cultural filtrate dilution containing the enzyme was incubated in a water bath with 5.0 ml of the hemoglobin substrate for 5 minutes at 37 degrees Celsius.  At the end of this period, 10 ml of 5% (weight/volume) trichloroacetic acid in water was added to terminate the enzyme action and to precipitate the undigested protein, which was removed by filtration.  Filtrate absorbence and control activity were expressed in units.  One unit of endopeptidase activity was defined as the amount of enzyme producing an absorbence of 1.0 in 5 minutes at 37 degrees Celsius under the assay conditions described.\r\n<P>\r\nThe degree of hemolysis was determined on 2% type O-positive human erythrocytes, diluted in physiological saline.  Doubling dilutions to 1:1024 were made of the filtrate in physiological saline with a final concentration of 0.2 % sodium azide added to prevent contaminating growth.  Five drops of the culture filtrate and three drops of the 2% human-erythrocyte suspension was dispensed in culture plate wells.  The hemolysis titer is defined as the reciprocal of the highest dilution that gives complete clearing in the well following 24 hours of incubation at 37 degrees Celsius.\r\n<P>\r\n<U><I>Bacillus subtilis<BR></U>\r\nB. subtilis</I> was chosen for study by two groups because of the known stability of this species in extreme environments and because of the copious investigations that have been conducted regarding this microorganism.  One group evaluated <I>B. subtilis</I> spore survival under space flight conditions and correlated these findings with those obtained for the same strain employed in the Apollo 16 Biostack flight experiment.  The other group chose strains HA101 and HA101(59)F because both strains have three specific amino acid markers and because the HA101(59)F strain is defective in the ability to repair radiation damage.  Therefore, it is highly susceptible to the damaging effects of UV irradiation.  These cells were examined for genetic alteration, UV sensitivity and vacuum sensitivity. \r\n<P>\r\nStrain 168 Spores:  Spore suspensions (2XE08 spores/ml) in cold, distilled water and cold phosphate-buffered saline (PBS) were prepared preflight and transported to NASA Lyndon B. Johnson Space Center (JSC) from Frankfurt, Germany.  During flight, samples were kept in cuvettes with quartz windows.  Wet samples were prepared at JSC by pipetting 50 microliter aliquots of the suspensions into type A (aqueous sample) cuvettes.  Dry samples were exposed on cover glass squares, which had glass bars affixed on two opposing edges providing space for the bacteria.  Each support was 0.8 mm high and charged with 0.001 ml of cold spore suspension in distilled water or PBS, yielding 200,000 spores/support.  These samples were dried for 24 hours over silica gel at 4 degrees Celsius.  After drying, samples were kept at room temperature until transported to JSC, where type B (dry sample, unvented) and type C (dry sample, vented) cuvettes were loaded with the predried samples.\r\n<P>\r\nCuvettes were placed in the Microbial Ecology Evaluation Device (MEED).  During flight, samples were exposed to solar UV irradiation at a peak wavelength of 254 nanometers (three different doses) and to space vacuum for 1.3 hours.  Nonirradiated flight controls were also exposed to space vacuum.  Ground controls and launch vibration controls were irradiated and exposed to vacuum at JSC.  A simultaneous laboratory simulation experiment, performed at the University of Frankfurt, ran exactly parallel to the time schedule of the Apollo 16 flight.\r\n<P>\r\nThe survival value, N/No, of bacterial spores (where N is the number of colony formers after exposure and No is the number of colony formers of the controls) was evaluated in terms of colony-forming ability.  Results were compared with those of the simultaneous laboratory simulation experiment.\r\n<P>\r\n<U>Strains HA101 and HA101(59)F:</U>  In ground-based experiments, 1.8 ml aliquots of spore suspensions (100 million spores/ml) were irradiated in Petri dishes.  Ground control spore monolayers were prepared on 0.45 micrometer membrane filters by filtration of aqueous suspensions; approximately 100 million spores were attached to a 25 mm diameter filter.  Monolayers were subsequently dried at 20 degrees Celsius for 1 hour.  Spores were recovered after irradiation by suspending the filters in a 0.025% solution of Tween 80 and sonicating for 15 minutes.\r\n<P>\r\nFor flight studies, purified spores were diluted to 50,000,000 spores/ml in distilled water.  Wet cuvettes contained 2.5 million spores per 50 microliters of fluid.  Dry cuvettes contained spore monolayers on filters prepared as follows.  First, 3.8 ml of the diluted spore suspension were filtered through a 47 mm filter (0.45 micrometer pore diameter, 960-square millimeters).  The filters were dried on filter paper for 1 hour in Petri dishes.  Chips (25-square millimeters, 5,000,000 spores/chip) were punched from each filter under sterile conditions. \r\n<P>\r\nSpores from type A cuvettes were recovered by sonification of the cuvettes for 1 minute in a bath of 70% ethanol.  After drying the outside of the cuvette, the contents were removed.  The inside of the cuvette was rinsed five times with 1.95 ml of a 0.025% Tween 80 solution.  Pooled contents were stored at 5 degrees Celsius and assayed for viable counts and morphological mutants on AK agar plates.  Spores from types B and C cuvettes were recovered by transferring chips from cuvettes to empty vials.  Cuvettes were rinsed with 2 ml of a 0.025% Tween 80 solution and added to the vials containing chips.  Vials were sonicated for 15 minutes to remove the spores from the filters.  Viable-count assays were made on AK agar plates.\r\n<P>\r\nT-7 Bacteriophage of <I>Escherichia coli</I><BR>\r\nSurvival studies of the T-7 bacteriophage of <I>E. coli</I> were included to relate the present experiment to the space-flight-mediated effects reported by the Soviets for the <I>E. coli</I> phage flown on previous flights.  Rather than the T-1 or K-12 (lambda) phage commonly employed by the Soviets, the simpler and more stable T-7 phage was chosen for this study in the hope that it would be more resistant to the rigors of space flight and, therefore, prove to be a better UV test subject.\r\n<P>\r\nPurified T-7 phage was stored in 20 millimolar (mM) Tris (pH 7.5), 0.5 M NaCl and 20 microgram/ml gelatin solution.  Concentrated stocks were diluted to 100 million plaque-forming units/ml for ground-based and flight experiments.  For flight experiments, each cuvette contained 5 million phage units.  Phage assays were performed using <I>E. coli</I> B as the indicator host on TBAB agar.  \r\n<P>\r\nInflight samples were exposed to UV irradiation at wavelengths of 254, 280 and 300 nm.  In ground-based experiments, UV irradiation was generated using either a germicidal lamp or a quartz/mercury-vapor lamp.  The germicidal lamp emission was measured with a UV meter; most emissions were at a wavelength of 254 nm.  Filters were used with the quartz/mercury vapor lamp to provide maximal emissions at wavelengths of 254, 280 and 300 nm.  Survival rates and genetic mutations were studied.\r\n<P>\r\n<U><I>Bacillus thuringiensis</U></I><BR>\r\n<I>B. thuringiensis</I> var. <i>thuringiensis</I>, which has been used widely as a biological insecticide, was selected for this experiment because it produces three toxins which are reactive against biological systems, and because it lends itself well to both rapid screening and critical in vivo analyses.  The toxins include a lipolytic alpha-exotoxin (a phospholipase), a deforming beta-exotoxin (a nucleotide that is heat stable and kills insects at time of molt or pupation) and a crystalline gamma-endotoxin (a proteinaceous factor that destroys midgut cells in many Lepidopterans, causing gut paralysis and eventual death).  Several in vitro and in vivo systems, including reactions in the silkworm and housefly, were used to evaluate possible alterations in toxin production.\r\n<P>\r\nSpores were obtained by growing the microorganism on AK agar slants for 4 to 5 days at 30 degrees Celsius.  The spores were washed from the slants with sterile, distilled water and heat shocked for 10 minutes at 60 degrees Celsius to kill remaining vegetative cells.  After three successive washes, the spore pellet was suspended in distilled water at a final concentration of 640 million spores/ml.  One milliliter aliquots of the spore suspension were then drawn through filter pads, resulting in a monolayer of spores on the filter.  The spore-impregnated filter was cut into chips 0.5 X 0.5 square centimeters, and loaded into type B cuvettes.  In addition to various inflight stresses (i.e., shock, vibration and increased g forces during launch and recovery, reduced gravity and cosmic irradiation), the organisms in 32 of the 41 inflight experiment  cuvettes were exposed to various levels of solar irradiation for 10 minutes.  Nine cuvettes were held as ground controls and nine as vibration controls (exposed to simulated launch vibrations).\r\n<P>\r\nUpon return of the experiment hardware, the spore-impregnated filter chips were unloaded from their cuvettes and placed in 1 ml of distilled water at pH 6.0 for 24 hours.  This treatment was followed by mild sonification to facilitate removal of the spores from the filter pads.   After serial dilution, 0.1 ml aliquots of each spore suspension were spread onto sheep blood agar plates and maltose agar plates in quadruplicate.  All plates were incubated at 30 degrees Celsius for 24 hours.  \r\n<P>\r\nColonies growing on sheep blood agar were counted to determine survival and analyzed for abnormal morphology.  In addition, colonies were examined for zones of beta-hemolysis that deviated from controls.  All abnormal colonies and 10% of the normal colonies were transferred to maltose agar plates and <I>Sarcina flava</I> inhibition plates.\r\n<P>\r\nAlso, colonies growing on maltose agar were observed for abnormal colony morphology and the ability to use maltose.  All abnormal colonies and 10% of the normal colonies were transferred to sheep blood agar plates and <I>S. flava</I> inhibition plates.\r\n<P>\r\nThe <I>S. flava</I> inhibition plates were observed for beta-exotoxin production.  Zones of inhibition were compared with those of the control groups.  Any colony surrounded by a zone that deviated from the control standard was subjected to further quantitative analysis by using the housefly assay system.  The housefly assay system consisted of spotting 1 ml of the serially diluted toxin preparation onto circular filter pads fitted into 20 X 60 mm Petri dishes.  Each dilution was seeded with 10 late third instar housefly larvae in duplicate and held at room temperature until all controls had emerged and died.  Then, each dilution was scored for the number of deaths, emerging adults and mutants.  Abnormal isolates were also tested for alpha-exotoxin and gamma-endotoxin production.  The test for alpha-exotoxin measured phospholipase activity on egg yolk agar plates.\r\n<P>\r\nTo encourage sporulation, organisms were cultured on tryptose phosphate agar with manganese sulfate added at the rate of 2 ng/ml.  Duplicate plates were made for spore-crystal production.  These plates were incubated at 32 degrees Celsius for 72 hours.  Cultures were washed off the agar with sterile saline after a nigrosin smear was made of each.  Then, suspended spores and crystals were adjusted in a colorimeter to give the same turbidity.  Precise amounts of each culture suspension were injected into the midguts of 15 third instar silkworm larvae, and these larvae were held in Petri plates and fed ad libitum for 24 hours, at which time deaths were recorded.  A total of 3250 insects were injected.\r\n<P>\r\n<U><I>Nematospiroides dubius</I></U><BR>\r\n<I>N. dubius</I> was the only multicellular organism used in this study.  It is pathogenic to laboratory mice, but not to humans, and is insensitive to the special holding conditions of the flight hardware.  Specimens subjected to the space flight experiment conditions were evaluated for changes in survival, infectivity of mice, adult formation, egg production and egg development.\r\n<P>\r\nType A cuvettes were filled 16 days before launch with approximately 200 larvae in suspension.  These cuvettes were sealed and categorized as 32 flight experimental (16 UV1 and 16 UV2), 20 flight control, 20 vibration control and 20 ground control.  Flight experiment cuvettes were positioned in the MEED trays under selected neutral-density filters.  Flight control cuvettes were positioned in the trays to prevent solar UV irradiation.  The MEED was transported to the NASA John F. Kennedy Space Center (KSC) and loaded on board the Apollo 16 command module.  Ground and vibration control cuvettes were loaded into assemblies identical to the flight unit.  The ground control unit remained in the proximity of the flight experiment package until launch.  The  vibration control unit was tested at the experimental dynamics laboratory at JSC simultaneously with the Apollo 16 launch, and the vibration control unit was returned to the JSC Lunar Receiving Laboratory for the remainder of the test period.\r\n<P>\r\nIn 14 days of space flight, larvae were exposed to zero gravity, fluctuating magnetic fields, high mass ionizing radiation and 10 minutes of filtered solar irradiation at a 254 nanometer wavelength.  Cuvettes were returned to the laboratory 5 days after splashdown.  The wax seal of each cuvette was removed, and the larval suspension was transferred to the well of a spot plate containing 0.2 ml of distilled water.  Each cuvette was aspirated with an additional 0.05 ml of distilled water to ensure the removal of all larvae.  The suspension volume was divided equally into two individual wells of the plate yeilding 75 to 100 larvae per aliquot.  Larvae in each aliquot were counted and inoculated into individual male C57 mice.  All mice were housed in individual cages for an infection period of 28 days.  On postinoculation day 22, fecal pellets were examined quantitatively for eggs and were subcultured for viability.  On postinoculation day 28, all mice were killed by cervical dislocation.  Ten centimeters of the proximal portion of the small intestine, including the pyloric sphincter, were removed from each mouse and examined for adult worms.\r\n<P>\r\n<U>Mycological Species</U><BR>\r\nFour fungi species were selected.  <I>Trichophyton terrestre</I> was included to study animal tissue invasion, because it attacks human hair under laboratory conditions.  <I>Chaetomium globosum</I> was of special interest because of its cellulolytic activity on cloth fibers similar to those contained in crewmember flight garments.  Two yeasts, <I>Rhodotorula rubra</I> and <I>Saccharomyces cerevisiae</I>, were well suited to drug sensitivity studies.\r\n<P>\r\nFungi in the flight hardware were exposed to UV irradiation at wavelengths of 254, 280 and 300 nm, full light and dark.  Cuvettes housed in the vented-exposed tray, unvented-exposed tray, flight control tray, ground control tray, and vibration control tray were unloaded systematically.  The retrieved fungal cells were placed in a dilution series for viability, survival and phenotypic selection studies.  Single-cell phenotype isolates were selected by colony development changes, which included variation in growth rates, sporulation, pigmentation, texture, density and perimeter.\r\n<P>\r\nMature ascospores, yeast cells and conidia were harvested, and cell suspensions were made using sterile, distilled water.  Wet cuvettes were filled with a diluted fungal cell suspension (10,000 or 100,000 cell counts/0.05ml cuvette volume, depending on the cell size).  Suspensions were filtered, and filter paper squares with attached fungal cells were cut with a square punch and placed in dry cuvettes.  To reduce cell loss from static electricity, filter paper squares were placed in the cuvettes before they were dry.\r\n<P>\r\nTween 80 was used to wet the filter paper squares before removal and to wash the cuvette interiors.  All procedures were conducted aseptically.\r\n<P>\r\n<U>Ultraviolet Dosimetry</U><BR>\r\nTwo methods were employed to monitor the actual radiant energy penetrating selected optical components of the flight hardware.  One of these methods involved Kodak High Resolution Film (Estar Thick Base) SO-343 which had been purged of oxygen and sensitized with dry nitrogen gas to decrease the latent-image fading rate.  This system was reliable over a range of 40 to 520 ergs/square centimeter total energy with a 254 nm peak wavelength.\r\n<P>\r\nSolar irradiation within the range of 40,000 ergs/square centimeter to 400,000 ergs/square centimeter was monitored by an adaptation of the Potassium Ferrioxalate Actinometry System.\r\n<P>\r\n<U>High Energy-Multicharged Particle Dosimetry</U><BR>\r\nIt was impossible, in the design of the flight hardware, to protect test systems from galactic irradiation.  Therefore, this factor was measured to better understand any observed biological effects.  Galactic irradiation measurements were conducted to evaluate the effect of high energy-multicharged (HZE) particles on biological systems.  A 2.5x3.8 cm container was provided within the  flight hardware and ground control units to house four types of dosimeters capable of recording HZE particles.  Lexan dosimeters, identical to those employed in the crew personnel passive dosimeters, were used for direct correlation.  Cellulose nitrate (CN) dosimeters were included in the MEED as well as in the Apollo Light Flash Moving Emulsion Detector (ALFMED) which was flown on Apollo 16, again allowing for direct comparisons.  The other two detectors, Ilford G5 and silver chloride, were flown only in the MEED, but were of considerable value in establishing the HZE particle environment experienced by the flight hardware.  \r\n<P>\r\n<U>Thermoluminescent Dosimetry</U><BR>\r\nLithium fluoride (LiF) thermoluminescent dosimeter (TLD) chips were used to provide an integrated dose from the broad spectrum of ionizing radiation present in the space environment.  The 5 by 5 by 1 millimeter chips were annealed (1 hour at 400 degrees Celsius followed by 2 hours at 100 degrees Celsius) and loaded into cuvettes.  Fifty cuvettes were loaded as follows:  19 cuvettes for mounting in the flight hardware; 21 cuvettes for vibrational testing and ground control; and 10 cuvettes for irradiation calibration.  The TLD-loaded cuvettes were then placed at various sites within the hardware.\r\n<P>\r\nRESULTS:\r\n<br>\r\n<U><I>Aeromonas proteolytica</I><BR></U>\r\nPostflight analysis indicated no significant difference between inflight and ground-based control viability or survival rates after exposure to UV irradiation.  Results of endopeptidase and hemolysin production are unavailable.\r\n<P>\r\n<U><I>Bacillus subtilis</I> spores<BR></U>\r\nThe combined action of space vacuum and solar UV irradiation at a peak wavelength of 254 nm resulted in greater viability loss than in ground-based studies.  Space vacuum alone did not cause a decrease in predried spore survival, indicating air-dried spores may survive exposure to space vacuum if shielded against solar irradiation. Additional space flight environmental factors did not measurably influence viability and irradiation responses of Strain 168 spores.\r\n<P>\r\nStrains HA101 and HA101(59)F were exposed to the space flight environment both in aqueous suspensions and dry layers.  Lethal irradiation effects at peak wavelengths of 254 and 280 nm were greater for dried spores than for those exposed to distilled water.  Additionally, the repair-defective strain was more sensitive at both UV irradiation wavelengths.  As expected, survival rates for space flight-exposed spores did not differ significantly from analogous aliquots in the ground control units.  \r\n<P>\r\nMutation frequencies for morphological and asporogenous phenotypes are maximum at low doses of radiation.  However, for the HA101 strain, the mutation frequencies are increased with higher energies at both wavelengths.\r\n<P>\r\n<U><I>Bacillus thuringiensis</I> var. <I>thuringiensis</I><BR></U>\r\nAs with <I>B. subtilis</I>, no significant difference between the mean of <I>B. thuringiensis</I> survivors from ground, flight or vibration control units was observed.  Also, there was no significant difference between the means of survivors for any of the groups exposed to solar UV light in space.  There was a significant difference (p<0.01) in the survival rate of groups exposed to full sunlight in space when compared with the nonirradiated control groups.  This indicates that space-flown spores of this species were resistant to levels of UV irradiation encountered in the test, but were sensitive to full sunlight.  This follows previously established patterns obtained from ground-based studies and is not considered anomalous behavior.\r\n<P>\r\n<U>T-7 Bacteriophage of <I>Escherichia coli</I><BR></U>\r\nLarge losses in non-UV exposed flight subjects (as compared to ground controls) are not indicated during postflight survival evaluations.  This supports the hypothesis that the T-7 phage is more resistant to the rigors of space flight and proves to be a better UV test subject than the T-1 or K-12 (lambda) phage.  The lethal effect of inflight solar UV irradiation at a peak wavelength of 254 nm was considerably higher than ground-based controls exposed to the same irradiation levels; however, the characteristic shape of the dose response curve was similar to the ground control data curve.\r\n<P>\r\n<U><I>Nematospioides dubius</I><BR></U>\r\nA total of 200,000 ergs/square centimeter of solar inflight UV irradiation at a peak wavelength of 254 nm was sufficient to completely inhibit infection in the murine host and subsequent maturity to adult worms.  Therefore, the survival of space flight irradiated larvae was too low for further comparative studies.\r\n<P>\r\nComparison of nonirradiated flight and ground control subjects revealed no differences in survival, infectivity in mice, adult formation or subsequent egg production.  A significant decrease in egg viability within the group of adults which descended from flight control larvae was noted.  This was an important observation since this control group was not purposefully exposed to any experimental stresses and was simply a \"passenger\" on the space flight.\r\n<P>\r\n<U>Ultraviolet Dosimetry</U><BR>\r\nPostflight analysis indicated that dosimeters received as much energy as had been expected from calculations based on data from the NASA established Solar Spectral Irradiance Standard.  The photographic film monitoring method proved to be a useful tool for measuring small amounts of UV irradiation in space.\r\n<P>\r\nData indicate that neither the simulated  launch vibration nor the total space flight exerted a detectable change in preirradiated control systems.  The ferrioxalate monitoring system, therefore, was shown to have the stability required for successful measurements made within the flight hardware.  Analysis of inflight irradiated actinometry systems verified that the optical filter components of the MEED allowed for critical evaluation of exposed biological test systems.\r\n<P>\r\n<U>High Energy-Multicharged Particle Dosimetry</U><BR>\r\nBoth Lexan and CN detectors revealed track fluences (track/square centimeter) of HZE particles.  Since the CN detector is more sensitive, it showed track fluences substantially higher than those found in Lexan.  The CN records particles with a Z (atomic number) greater than six, while Lexan records particles with a Z greater than ten.\r\n<P>\r\nComparison of Lexan and CN track fluences found in the MEED flight hardware were lower than those found in either ALFMED or the passive personnel dosimeters.  These observations, along with depressed TLD values, imply that the MEED flight hardware had a greater average shielding as compared with either ALFMED or the personnel passive detectors.  Likewise, data are slightly lower than those obtained from the TLD and CN detectors employed in the BIOSTACK flight hardware, which was stowed in the Command Module in an area of minimal shielding to ambient cosmic radiation.\r\n<P>\r\n<U>Thermoluminescent Dosimetry</U><BR>\r\nStatistical analysis indicates that various areas within the MEED received uniform irradiation from ionizing irradiation components of the space environment.  Therefore, it is valid to omit this factor as a variable when comparing inflight test systems.  The mean dose of all MEED TLD was 0.48<U>+</U>0.02 rad with a range of 0.44 to 0.51 rad.  Doses to crewmembers (from crew passive TLD measurements) ranged from 0.48 to 0.54 rad, with a mean of 0.51<U>+</U>0.02 rad.  The dose of 0.48<U>+</U>0.02 rad represents a total absorption of 48 ergs of ionizing energy per gram of biological material within the MEED.  This value was applicable to all samples within the flight hardware, including flight controls and UV irradiated samples.\r\n<P>\r\nIn conclusion, no statistically valid differences could be detected in the survival of flight samples when compared to corresponding ground-based controls, although a reasonable variety of organisms (viruses, yeasts, filamentous fungi, bacteria and an invertebrate) were tested under several different conditions.  In general, these evaluations were based on multiple observations of ten to thirty replicates of up to one million cells each.  While the results of this experiment conflict with those of other space flight investigations, it must be observed that certain space flight conditions cannot be exactly duplicated, and therefore results from different flights are not directly comparable.\r\n<END>",
+  "indexed": "2026-08-23T04:06:38.633290+00:00",
+  "GUID": "cl62ayxpncd9v01o6ejsv1l6b",
+  "__model_type": "lsda_experiment",
+  "__dirid": "353daaa2-6f7e-5a00-8bd0-e046058a4eb7",
+  "__record_size_wo_doccontent": 487298,
+  "experiment_parms_tissue2": "N/A",
+  "experiment_parms_tissue1": "N/A",
+  "__update_method": "Update CDM",
+  "archive_status_index": 1,
+  "experiment_type_lk": [
+   "Apollo Program"
+  ],
+  "__record_modified_date": "2026-08-23T04:06:38.633290+00:00",
+  "proposal_source": [
+   "N/A"
+  ],
+  "__indexed": "2026-08-23T04:06:38.633290+00:00",
+  "__record_creation_date": "2022-07-28T20:04:00.409Z",
+  "__record_size": 487298,
+  "__model_version": 60,
+  "payload_id": "Apollo 16",
+  "CombinedSpecies": [
+   [
+    "Bacteria (Aeromonas proteolytica) N/A"
+   ],
+   [
+    "Hay bacillus (Bacillus subtilis) N/A"
+   ],
+   [
+    "Bacteria (Bacillus thuringiensis) var. thuringiensis"
+   ],
+   [
+    "Bacteria (Chaetomium globosum) N/A"
+   ],
+   [
+    "Bacteria (Escherichia coli) N/A"
+   ],
+   [
+    "Fungus (Nematospiroides dubius) N/A"
+   ],
+   [
+    "Fungus (Rhodotorula rubra) N/A"
+   ],
+   [
+    "Fungus (Saccharomyces cerevisiae) N/A"
+   ],
+   [
+    "Fungus (Trichophyton terrestre) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "M191",
+  "parameter_name": [
+   "Aeromonas proteolytica",
+   "Bacillus subtilis",
+   "Bacillus subtilis HA 101 strain",
+   "Bacillus subtilis HA 101(59) strain",
+   "Bacillus thuringiensis",
+   "Chaetomium globosum",
+   "Ferrous sulfate, rate of decay",
+   "Fractional cell loss, kidney cells",
+   "Heligmosomoides polygyrus",
+   "High-resolution film response to UV irradiation",
+   "LET350 Spectrum",
+   "Nematospiroides dubius",
+   "Quantum yield values",
+   "Rhodotorula rubra",
+   "Saccharomyces cerevisiae",
+   "T7 phage",
+   "Temperature",
+   "Thermoluminescent dosimeter dose",
+   "Trichophyton terrestre"
+  ],
+  "payload_part": "Apollo 16",
+  "exp_index": 373,
+  "research_area": [
+   "Microbiology",
+   "Radiation biology"
+  ],
+  "pme_role_with_name": [
+   "Co-Investigator: Bucker, Horst",
+   "Co-Investigator: Ellis, Walter",
+   "Co-Investigator: Foster, Bill",
+   "Co-Investigator: Heimpel, A.",
+   "Co-Investigator: Hiser, J.",
+   "Co-Investigator: Horneck, Gerda",
+   "Co-Investigator: Hsu, Y.",
+   "Co-Investigator: Isherwood, James",
+   "Co-Investigator: Jerger, D.",
+   "Co-Investigator: Long, Richard",
+   "Co-Investigator: Lovett, D.",
+   "Co-Investigator: Simmonds, Richard",
+   "Co-Investigator: Spizizen, John",
+   "Co-Investigator: Veselenak, J.",
+   "Co-Investigator: Volz, Paul",
+   "Co-Investigator: Wollenhaupt, Helga",
+   "Co-Investigator: Wrenn, R.",
+   "Principal Investigator: Taylor, Gerald"
+  ],
+  "missions": [
+   [
+    [
+     "Apollo 16"
+    ]
+   ]
+  ],
+  "PI": [
+   "Taylor, Gerald"
+  ],
+  "_file_extension": [],
+  "experiment_identifier": [
+   "M191"
+  ],
+  "mission_id": [
+   [
+    [
+     "Apollo 16"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "species": [
+   "Bacteria",
+   "Hay bacillus",
+   "Bacteria",
+   "Bacteria",
+   "Bacteria",
+   "Fungus",
+   "Fungus",
+   "Fungus",
+   "Fungus"
+  ],
+  "PrincipalInvestigator": [
+   "Taylor, Gerald"
+  ],
+  "LaunchDate": [
+   "04/16/1972"
+  ],
+  "LaunchYear": 1972,
+  "program_name": [
+   "Apollo"
+  ],
+  "archive_status": "Data preservation is complete. All datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Apollo",
+  "__source_field_concat": "PUB000405 Apollo 16 cl62ayxpncd9v01o6ejsv1l6b Gene expression profiling N/A N/A  Apollo 16 Microbial Response to Space Environment M191 Apollo Data preservation is complete. All datasets are publicly available.",
+  "__icon_type": "bacteria",
+  "__description": "OBJECTIVES:\r\n<br>\r\nPrevious U.S. and U.S.S.R. studies established the survival ability of microbes in the space environment, although actual survival rates were often different from ground controls.  More recent space flight studies suggested the possibility of space flight mediated genetic and developmental alterations in several species.  The Microbial Response to Space Environment Experiment examined the relationship between space flight and viability and the effect of space flight on phenotypic expressions in several biological systems.\r\n<P>\r\nAPPROACH:\r\n<br>\r\nDuring the Apollo 16 extravehicular activity, the Microbial Ecology Evaluation Device (MEED) was removed from its protective stowage bag in the crew compartment.  A 2.54 meter (8 foot 4 inch) tether was attached externally to the MEED flight assembly, the assembly was mounted on the campole, and the hardware was secured to the inside of the spacecraft.  The campole and MEED assembly were then installed into a fitting mounted on the opened hatch door of the command module (CM).  A small attitude adjustment of the CM was required to place the appropriate surfaces of the opened MEED assembly directly perpendicular to the rays of the sun.  The correction was indicated by a solar-positioning device (sunsight) mounted on the exterior of the MEED.  The MEED sunsight contained a pin that, when exposed to the rays of the sun, cast a shadow onto an image-field decal mounted on an inclined plane.  A set of 90 degree crosshairs was scribed on the center of the sunsight decal.  These crosshairs marked the point where the top of the pin shadow should lay when the faces of the MEED were exactly perpendicular to the incoming rays of the sun. \r\n<P>\r\nDeployment of the MEED in deep space exposed the microbial systems to a potential thermal problem.  A black and white thermal coating pattern was painted on the cover of the MEED assembly to provide the proper thermal control after deployment and before opening the MEED.  The proportioning of black and white paint provided the proper internal temperature preconditioning inside the MEED.  To meet the thermal balance requirement within all portions of the MEED, the device was designed to remain within the 20 degrees Celsius temperature range after deployment.  \r\n<P>\r\nIn most cases, the phenomena studied represent well-known model systems that can be correlated directly with disease or other medically important conditions that could affect the health of future astronauts.  Each investigator selected a species of microorganism that was nonpathogenic to man, well characterized relative to the studied phenomenon, well suited to simple and rapid screening tests and compatible with the flight hardware environment.  Nine species were chosen, including <I>Aeromonas proteolytica, Bacillus subtilis, Bacillus thuringiensis var. thuringiensis</I>, the T-7 bacteriophage of <I>Escherichia coli, Nematospiroides dubius, Trichophyton terrestre, Chaetomium globosum, Rhodotorula rubra</I> and <I>Saccharomyces cerevisiae.</I>  \r\n<P>\r\n<I><U>Aeromonas proteolytica</U></I><BR>\r\n<I>A. proteolytica</I> was chosen because it produces an endopeptidase that elicits intracutaneous hemorrhaging and necrosis in laboratory animals, and a hemolysin which has the ability to hemolyse human erythrocytes.  This microbe was retained in fluid suspensions and exposed to solar ultraviolet (UV) irradiation at peak wavelengths of 254 nm, 280 nm and 300 nm.  In addition to survival evaluations, cells recovered from the flight hardware were quantitatively tested for alterations in toxin production.\r\n<P>\r\nFlight cuvettes were opened after flight, and contents were plated for surviving organisms.  Dilutions of 100, 1000, 10,000 and 100,000 in duplicate were made from each cuvette.  After 24 hours of incubation, counts were made and averages computed.\r\n<P>\r\nTwenty-four hours after plating, 50 clones were selected at random from each energy level at the three wavelengths.  Each was transferred to heart infusion agar slants and inoculated into 50 ml of 2% casitone broth for cultivation.  Following 28 hours of incubation at room temperature with constant aeration by shaking, the culture was centrifuged at 8000 rpm for 10 minutes at 4 degrees Celsius.  The resulting supernatant was frozen until assayed.  Clones not cultured were transferred to fresh slants after 14 days.\r\n<P>\r\nThe 1:100 dilution made from each cuvette was retained and stored at 20 degrees Celsius.  Eight weeks after opening the cuvettes, aliquots of the first dilutions were made, and 30 additional clones from each wavelength and energy level were selected for study and prepared for assay as described.\r\n<P>\r\nEndopeptidase activity was measured with an urea-denatured-hemoglobin substrate. For the assay, 1.0 ml of a 1:40 cultural filtrate dilution containing the enzyme was incubated in a water bath with 5.0 ml of the hemoglobin substrate for 5 minutes at 37 degrees Celsius.  At the end of this period, 10 ml of 5% (weight/volume) trichloroacetic acid in water was added to terminate the enzyme action and to precipitate the undigested protein, which was removed by filtration.  Filtrate absorbence and control activity were expressed in units.  One unit of endopeptidase activity was defined as the amount of enzyme producing an absorbence of 1.0 in 5 minutes at 37 degrees Celsius under the assay conditions described.\r\n<P>\r\nThe degree of hemolysis was determined on 2% type O-positive human erythrocytes, diluted in physiological saline.  Doubling dilutions to 1:1024 were made of the filtrate in physiological saline with a final concentration of 0.2 % sodium azide added to prevent contaminating growth.  Five drops of the culture filtrate and three drops of the 2% human-erythrocyte suspension was dispensed in culture plate wells.  The hemolysis titer is defined as the reciprocal of the highest dilution that gives complete clearing in the well following 24 hours of incubation at 37 degrees Celsius.\r\n<P>\r\n<U><I>Bacillus subtilis<BR></U>\r\nB. subtilis</I> was chosen for study by two groups because of the known stability of this species in extreme environments and because of the copious investigations that have been conducted regarding this microorganism.  One group evaluated <I>B. subtilis</I> spore survival under space flight conditions and correlated these findings with those obtained for the same strain employed in the Apollo 16 Biostack flight experiment.  The other group chose strains HA101 and HA101(59)F because both strains have three specific amino acid markers and because the HA101(59)F strain is defective in the ability to repair radiation damage.  Therefore, it is highly susceptible to the damaging effects of UV irradiation.  These cells were examined for genetic alteration, UV sensitivity and vacuum sensitivity. \r\n<P>\r\nStrain 168 Spores:  Spore suspensions (2XE08 spores/ml) in cold, distilled water and cold phosphate-buffered saline (PBS) were prepared preflight and transported to NASA Lyndon B. Johnson Space Center (JSC) from Frankfurt, Germany.  During flight, samples were kept in cuvettes with quartz windows.  Wet samples were prepared at JSC by pipetting 50 microliter aliquots of the suspensions into type A (aqueous sample) cuvettes.  Dry samples were exposed on cover glass squares, which had glass bars affixed on two opposing edges providing space for the bacteria.  Each support was 0.8 mm high and charged with 0.001 ml of cold spore suspension in distilled water or PBS, yielding 200,000 spores/support.  These samples were dried for 24 hours over silica gel at 4 degrees Celsius.  After drying, samples were kept at room temperature until transported to JSC, where type B (dry sample, unvented) and type C (dry sample, vented) cuvettes were loaded with the predried samples.\r\n<P>\r\nCuvettes were placed in the Microbial Ecology Evaluation Device (MEED).  During flight, samples were exposed to solar UV irradiation at a peak wavelength of 254 nanometers (three different doses) and to space vacuum for 1.3 hours.  Nonirradiated flight controls were also exposed to space vacuum.  Ground controls and launch vibration controls were irradiated and exposed to vacuum at JSC.  A simultaneous laboratory simulation experiment, performed at the University of Frankfurt, ran exactly parallel to the time schedule of the Apollo 16 flight.\r\n<P>\r\nThe survival value, N/No, of bacterial spores (where N is the number of colony formers after exposure and No is the number of colony formers of the controls) was evaluated in terms of colony-forming ability.  Results were compared with those of the simultaneous laboratory simulation experiment.\r\n<P>\r\n<U>Strains HA101 and HA101(59)F:</U>  In ground-based experiments, 1.8 ml aliquots of spore suspensions (100 million spores/ml) were irradiated in Petri dishes.  Ground control spore monolayers were prepared on 0.45 micrometer membrane filters by filtration of aqueous suspensions; approximately 100 million spores were attached to a 25 mm diameter filter.  Monolayers were subsequently dried at 20 degrees Celsius for 1 hour.  Spores were recovered after irradiation by suspending the filters in a 0.025% solution of Tween 80 and sonicating for 15 minutes.\r\n<P>\r\nFor flight studies, purified spores were diluted to 50,000,000 spores/ml in distilled water.  Wet cuvettes contained 2.5 million spores per 50 microliters of fluid.  Dry cuvettes contained spore monolayers on filters prepared as follows.  First, 3.8 ml of the diluted spore suspension were filtered through a 47 mm filter (0.45 micrometer pore diameter, 960-square millimeters).  The filters were dried on filter paper for 1 hour in Petri dishes.  Chips (25-square millimeters, 5,000,000 spores/chip) were punched from each filter under sterile conditions. \r\n<P>\r\nSpores from type A cuvettes were recovered by sonification of the cuvettes for 1 minute in a bath of 70% ethanol.  After drying the outside of the cuvette, the contents were removed.  The inside of the cuvette was rinsed five times with 1.95 ml of a 0.025% Tween 80 solution.  Pooled contents were stored at 5 degrees Celsius and assayed for viable counts and morphological mutants on AK agar plates.  Spores from types B and C cuvettes were recovered by transferring chips from cuvettes to empty vials.  Cuvettes were rinsed with 2 ml of a 0.025% Tween 80 solution and added to the vials containing chips.  Vials were sonicated for 15 minutes to remove the spores from the filters.  Viable-count assays were made on AK agar plates.\r\n<P>\r\nT-7 Bacteriophage of <I>Escherichia coli</I><BR>\r\nSurvival studies of the T-7 bacteriophage of <I>E. coli</I> were included to relate the present experiment to the space-flight-mediated effects reported by the Soviets for the <I>E. coli</I> phage flown on previous flights.  Rather than the T-1 or K-12 (lambda) phage commonly employed by the Soviets, the simpler and more stable T-7 phage was chosen for this study in the hope that it would be more resistant to the rigors of space flight and, therefore, prove to be a better UV test subject.\r\n<P>\r\nPurified T-7 phage was stored in 20 millimolar (mM) Tris (pH 7.5), 0.5 M NaCl and 20 microgram/ml gelatin solution.  Concentrated stocks were diluted to 100 million plaque-forming units/ml for ground-based and flight experiments.  For flight experiments, each cuvette contained 5 million phage units.  Phage assays were performed using <I>E. coli</I> B as the indicator host on TBAB agar.  \r\n<P>\r\nInflight samples were exposed to UV irradiation at wavelengths of 254, 280 and 300 nm.  In ground-based experiments, UV irradiation was generated using either a germicidal lamp or a quartz/mercury-vapor lamp.  The germicidal lamp emission was measured with a UV meter; most emissions were at a wavelength of 254 nm.  Filters were used with the quartz/mercury vapor lamp to provide maximal emissions at wavelengths of 254, 280 and 300 nm.  Survival rates and genetic mutations were studied.\r\n<P>\r\n<U><I>Bacillus thuringiensis</U></I><BR>\r\n<I>B. thuringiensis</I> var. <i>thuringiensis</I>, which has been used widely as a biological insecticide, was selected for this experiment because it produces three toxins which are reactive against biological systems, and because it lends itself well to both rapid screening and critical in vivo analyses.  The toxins include a lipolytic alpha-exotoxin (a phospholipase), a deforming beta-exotoxin (a nucleotide that is heat stable and kills insects at time of molt or pupation) and a crystalline gamma-endotoxin (a proteinaceous factor that destroys midgut cells in many Lepidopterans, causing gut paralysis and eventual death).  Several in vitro and in vivo systems, including reactions in the silkworm and housefly, were used to evaluate possible alterations in toxin production.\r\n<P>\r\nSpores were obtained by growing the microorganism on AK agar slants for 4 to 5 days at 30 degrees Celsius.  The spores were washed from the slants with sterile, distilled water and heat shocked for 10 minutes at 60 degrees Celsius to kill remaining vegetative cells.  After three successive washes, the spore pellet was suspended in distilled water at a final concentration of 640 million spores/ml.  One milliliter aliquots of the spore suspension were then drawn through filter pads, resulting in a monolayer of spores on the filter.  The spore-impregnated filter was cut into chips 0.5 X 0.5 square centimeters, and loaded into type B cuvettes.  In addition to various inflight stresses (i.e., shock, vibration and increased g forces during launch and recovery, reduced gravity and cosmic irradiation), the organisms in 32 of the 41 inflight experiment  cuvettes were exposed to various levels of solar irradiation for 10 minutes.  Nine cuvettes were held as ground controls and nine as vibration controls (exposed to simulated launch vibrations).\r\n<P>\r\nUpon return of the experiment hardware, the spore-impregnated filter chips were unloaded from their cuvettes and placed in 1 ml of distilled water at pH 6.0 for 24 hours.  This treatment was followed by mild sonification to facilitate removal of the spores from the filter pads.   After serial dilution, 0.1 ml aliquots of each spore suspension were spread onto sheep blood agar plates and maltose agar plates in quadruplicate.  All plates were incubated at 30 degrees Celsius for 24 hours.  \r\n<P>\r\nColonies growing on sheep blood agar were counted to determine survival and analyzed for abnormal morphology.  In addition, colonies were examined for zones of beta-hemolysis that deviated from controls.  All abnormal colonies and 10% of the normal colonies were transferred to maltose agar plates and <I>Sarcina flava</I> inhibition plates.\r\n<P>\r\nAlso, colonies growing on maltose agar were observed for abnormal colony morphology and the ability to use maltose.  All abnormal colonies and 10% of the normal colonies were transferred to sheep blood agar plates and <I>S. flava</I> inhibition plates.\r\n<P>\r\nThe <I>S. flava</I> inhibition plates were observed for beta-exotoxin production.  Zones of inhibition were compared with those of the control groups.  Any colony surrounded by a zone that deviated from the control standard was subjected to further quantitative analysis by using the housefly assay system.  The housefly assay system consisted of spotting 1 ml of the serially diluted toxin preparation onto circular filter pads fitted into 20 X 60 mm Petri dishes.  Each dilution was seeded with 10 late third instar housefly larvae in duplicate and held at room temperature until all controls had emerged and died.  Then, each dilution was scored for the number of deaths, emerging adults and mutants.  Abnormal isolates were also tested for alpha-exotoxin and gamma-endotoxin production.  The test for alpha-exotoxin measured phospholipase activity on egg yolk agar plates.\r\n<P>\r\nTo encourage sporulation, organisms were cultured on tryptose phosphate agar with manganese sulfate added at the rate of 2 ng/ml.  Duplicate plates were made for spore-crystal production.  These plates were incubated at 32 degrees Celsius for 72 hours.  Cultures were washed off the agar with sterile saline after a nigrosin smear was made of each.  Then, suspended spores and crystals were adjusted in a colorimeter to give the same turbidity.  Precise amounts of each culture suspension were injected into the midguts of 15 third instar silkworm larvae, and these larvae were held in Petri plates and fed ad libitum for 24 hours, at which time deaths were recorded.  A total of 3250 insects were injected.\r\n<P>\r\n<U><I>Nematospiroides dubius</I></U><BR>\r\n<I>N. dubius</I> was the only multicellular organism used in this study.  It is pathogenic to laboratory mice, but not to humans, and is insensitive to the special holding conditions of the flight hardware.  Specimens subjected to the space flight experiment conditions were evaluated for changes in survival, infectivity of mice, adult formation, egg production and egg development.\r\n<P>\r\nType A cuvettes were filled 16 days before launch with approximately 200 larvae in suspension.  These cuvettes were sealed and categorized as 32 flight experimental (16 UV1 and 16 UV2), 20 flight control, 20 vibration control and 20 ground control.  Flight experiment cuvettes were positioned in the MEED trays under selected neutral-density filters.  Flight control cuvettes were positioned in the trays to prevent solar UV irradiation.  The MEED was transported to the NASA John F. Kennedy Space Center (KSC) and loaded on board the Apollo 16 command module.  Ground and vibration control cuvettes were loaded into assemblies identical to the flight unit.  The ground control unit remained in the proximity of the flight experiment package until launch.  The  vibration control unit was tested at the experimental dynamics laboratory at JSC simultaneously with the Apollo 16 launch, and the vibration control unit was returned to the JSC Lunar Receiving Laboratory for the remainder of the test period.\r\n<P>\r\nIn 14 days of space flight, larvae were exposed to zero gravity, fluctuating magnetic fields, high mass ionizing radiation and 10 minutes of filtered solar irradiation at a 254 nanometer wavelength.  Cuvettes were returned to the laboratory 5 days after splashdown.  The wax seal of each cuvette was removed, and the larval suspension was transferred to the well of a spot plate containing 0.2 ml of distilled water.  Each cuvette was aspirated with an additional 0.05 ml of distilled water to ensure the removal of all larvae.  The suspension volume was divided equally into two individual wells of the plate yeilding 75 to 100 larvae per aliquot.  Larvae in each aliquot were counted and inoculated into individual male C57 mice.  All mice were housed in individual cages for an infection period of 28 days.  On postinoculation day 22, fecal pellets were examined quantitatively for eggs and were subcultured for viability.  On postinoculation day 28, all mice were killed by cervical dislocation.  Ten centimeters of the proximal portion of the small intestine, including the pyloric sphincter, were removed from each mouse and examined for adult worms.\r\n<P>\r\n<U>Mycological Species</U><BR>\r\nFour fungi species were selected.  <I>Trichophyton terrestre</I> was included to study animal tissue invasion, because it attacks human hair under laboratory conditions.  <I>Chaetomium globosum</I> was of special interest because of its cellulolytic activity on cloth fibers similar to those contained in crewmember flight garments.  Two yeasts, <I>Rhodotorula rubra</I> and <I>Saccharomyces cerevisiae</I>, were well suited to drug sensitivity studies.\r\n<P>\r\nFungi in the flight hardware were exposed to UV irradiation at wavelengths of 254, 280 and 300 nm, full light and dark.  Cuvettes housed in the vented-exposed tray, unvented-exposed tray, flight control tray, ground control tray, and vibration control tray were unloaded systematically.  The retrieved fungal cells were placed in a dilution series for viability, survival and phenotypic selection studies.  Single-cell phenotype isolates were selected by colony development changes, which included variation in growth rates, sporulation, pigmentation, texture, density and perimeter.\r\n<P>\r\nMature ascospores, yeast cells and conidia were harvested, and cell suspensions were made using sterile, distilled water.  Wet cuvettes were filled with a diluted fungal cell suspension (10,000 or 100,000 cell counts/0.05ml cuvette volume, depending on the cell size).  Suspensions were filtered, and filter paper squares with attached fungal cells were cut with a square punch and placed in dry cuvettes.  To reduce cell loss from static electricity, filter paper squares were placed in the cuvettes before they were dry.\r\n<P>\r\nTween 80 was used to wet the filter paper squares before removal and to wash the cuvette interiors.  All procedures were conducted aseptically.\r\n<P>\r\n<U>Ultraviolet Dosimetry</U><BR>\r\nTwo methods were employed to monitor the actual radiant energy penetrating selected optical components of the flight hardware.  One of these methods involved Kodak High Resolution Film (Estar Thick Base) SO-343 which had been purged of oxygen and sensitized with dry nitrogen gas to decrease the latent-image fading rate.  This system was reliable over a range of 40 to 520 ergs/square centimeter total energy with a 254 nm peak wavelength.\r\n<P>\r\nSolar irradiation within the range of 40,000 ergs/square centimeter to 400,000 ergs/square centimeter was monitored by an adaptation of the Potassium Ferrioxalate Actinometry System.\r\n<P>\r\n<U>High Energy-Multicharged Particle Dosimetry</U><BR>\r\nIt was impossible, in the design of the flight hardware, to protect test systems from galactic irradiation.  Therefore, this factor was measured to better understand any observed biological effects.  Galactic irradiation measurements were conducted to evaluate the effect of high energy-multicharged (HZE) particles on biological systems.  A 2.5x3.8 cm container was provided within the  flight hardware and ground control units to house four types of dosimeters capable of recording HZE particles.  Lexan dosimeters, identical to those employed in the crew personnel passive dosimeters, were used for direct correlation.  Cellulose nitrate (CN) dosimeters were included in the MEED as well as in the Apollo Light Flash Moving Emulsion Detector (ALFMED) which was flown on Apollo 16, again allowing for direct comparisons.  The other two detectors, Ilford G5 and silver chloride, were flown only in the MEED, but were of considerable value in establishing the HZE particle environment experienced by the flight hardware.  \r\n<P>\r\n<U>Thermoluminescent Dosimetry</U><BR>\r\nLithium fluoride (LiF) thermoluminescent dosimeter (TLD) chips were used to provide an integrated dose from the broad spectrum of ionizing radiation present in the space environment.  The 5 by 5 by 1 millimeter chips were annealed (1 hour at 400 degrees Celsius followed by 2 hours at 100 degrees Celsius) and loaded into cuvettes.  Fifty cuvettes were loaded as follows:  19 cuvettes for mounting in the flight hardware; 21 cuvettes for vibrational testing and ground control; and 10 cuvettes for irradiation calibration.  The TLD-loaded cuvettes were then placed at various sites within the hardware.\r\n<P>\r\nRESULTS:\r\n<br>\r\n<U><I>Aeromonas proteolytica</I><BR></U>\r\nPostflight analysis indicated no significant difference between inflight and ground-based control viability or survival rates after exposure to UV irradiation.  Results of endopeptidase and hemolysin production are unavailable.\r\n<P>\r\n<U><I>Bacillus subtilis</I> spores<BR></U>\r\nThe combined action of space vacuum and solar UV irradiation at a peak wavelength of 254 nm resulted in greater viability loss than in ground-based studies.  Space vacuum alone did not cause a decrease in predried spore survival, indicating air-dried spores may survive exposure to space vacuum if shielded against solar irradiation. Additional space flight environmental factors did not measurably influence viability and irradiation responses of Strain 168 spores.\r\n<P>\r\nStrains HA101 and HA101(59)F were exposed to the space flight environment both in aqueous suspensions and dry layers.  Lethal irradiation effects at peak wavelengths of 254 and 280 nm were greater for dried spores than for those exposed to distilled water.  Additionally, the repair-defective strain was more sensitive at both UV irradiation wavelengths.  As expected, survival rates for space flight-exposed spores did not differ significantly from analogous aliquots in the ground control units.  \r\n<P>\r\nMutation frequencies for morphological and asporogenous phenotypes are maximum at low doses of radiation.  However, for the HA101 strain, the mutation frequencies are increased with higher energies at both wavelengths.\r\n<P>\r\n<U><I>Bacillus thuringiensis</I> var. <I>thuringiensis</I><BR></U>\r\nAs with <I>B. subtilis</I>, no significant difference between the mean of <I>B. thuringiensis</I> survivors from ground, flight or vibration control units was observed.  Also, there was no significant difference between the means of survivors for any of the groups exposed to solar UV light in space.  There was a significant difference (p<0.01) in the survival rate of groups exposed to full sunlight in space when compared with the nonirradiated control groups.  This indicates that space-flown spores of this species were resistant to levels of UV irradiation encountered in the test, but were sensitive to full sunlight.  This follows previously established patterns obtained from ground-based studies and is not considered anomalous behavior.\r\n<P>\r\n<U>T-7 Bacteriophage of <I>Escherichia coli</I><BR></U>\r\nLarge losses in non-UV exposed flight subjects (as compared to ground controls) are not indicated during postflight survival evaluations.  This supports the hypothesis that the T-7 phage is more resistant to the rigors of space flight and proves to be a better UV test subject than the T-1 or K-12 (lambda) phage.  The lethal effect of inflight solar UV irradiation at a peak wavelength of 254 nm was considerably higher than ground-based controls exposed to the same irradiation levels; however, the characteristic shape of the dose response curve was similar to the ground control data curve.\r\n<P>\r\n<U><I>Nematospioides dubius</I><BR></U>\r\nA total of 200,000 ergs/square centimeter of solar inflight UV irradiation at a peak wavelength of 254 nm was sufficient to completely inhibit infection in the murine host and subsequent maturity to adult worms.  Therefore, the survival of space flight irradiated larvae was too low for further comparative studies.\r\n<P>\r\nComparison of nonirradiated flight and ground control subjects revealed no differences in survival, infectivity in mice, adult formation or subsequent egg production.  A significant decrease in egg viability within the group of adults which descended from flight control larvae was noted.  This was an important observation since this control group was not purposefully exposed to any experimental stresses and was simply a \"passenger\" on the space flight.\r\n<P>\r\n<U>Ultraviolet Dosimetry</U><BR>\r\nPostflight analysis indicated that dosimeters received as much energy as had been expected from calculations based on data from the NASA established Solar Spectral Irradiance Standard.  The photographic film monitoring method proved to be a useful tool for measuring small amounts of UV irradiation in space.\r\n<P>\r\nData indicate that neither the simulated  launch vibration nor the total space flight exerted a detectable change in preirradiated control systems.  The ferrioxalate monitoring system, therefore, was shown to have the stability required for successful measurements made within the flight hardware.  Analysis of inflight irradiated actinometry systems verified that the optical filter components of the MEED allowed for critical evaluation of exposed biological test systems.\r\n<P>\r\n<U>High Energy-Multicharged Particle Dosimetry</U><BR>\r\nBoth Lexan and CN detectors revealed track fluences (track/square centimeter) of HZE particles.  Since the CN detector is more sensitive, it showed track fluences substantially higher than those found in Lexan.  The CN records particles with a Z (atomic number) greater than six, while Lexan records particles with a Z greater than ten.\r\n<P>\r\nComparison of Lexan and CN track fluences found in the MEED flight hardware were lower than those found in either ALFMED or the passive personnel dosimeters.  These observations, along with depressed TLD values, imply that the MEED flight hardware had a greater average shielding as compared with either ALFMED or the personnel passive detectors.  Likewise, data are slightly lower than those obtained from the TLD and CN detectors employed in the BIOSTACK flight hardware, which was stowed in the Command Module in an area of minimal shielding to ambient cosmic radiation.\r\n<P>\r\n<U>Thermoluminescent Dosimetry</U><BR>\r\nStatistical analysis indicates that various areas within the MEED received uniform irradiation from ionizing irradiation components of the space environment.  Therefore, it is valid to omit this factor as a variable when comparing inflight test systems.  The mean dose of all MEED TLD was 0.48<U>+</U>0.02 rad with a range of 0.44 to 0.51 rad.  Doses to crewmembers (from crew passive TLD measurements) ranged from 0.48 to 0.54 rad, with a mean of 0.51<U>+</U>0.02 rad.  The dose of 0.48<U>+</U>0.02 rad represents a total absorption of 48 ergs of ionizing energy per gram of biological material within the MEED.  This value was applicable to all samples within the flight hardware, including flight controls and UV irradiated samples.\r\n<P>\r\nIn conclusion, no statistically valid differences could be detected in the survival of flight samples when compared to corresponding ground-based controls, although a reasonable variety of organisms (viruses, yeasts, filamentous fungi, bacteria and an invertebrate) were tested under several different conditions.  In general, these evaluations were based on multiple observations of ten to thirty replicates of up to one million cells each.  While the results of this experiment conflict with those of other space flight investigations, it must be observed that certain space flight conditions cannot be exactly duplicated, and therefore results from different flights are not directly comparable.\r\n<END>",
+  "__doi": "10.83263/vaqa-1p25",
+  "__doi_record_creation_date": "2026-08-23T04:06:38",
+  "__doi_record_modified_date": "2026-08-23T04:06:38"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001742",
+   "label": "J0001073",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Ultraviolet Dose Response of <I>Aeromonas proteolytica</I> for Irradiations at a Peak Wavelength of 280 Nanometers, Preflight Data",
+    "dataset_catalog": "J0001073",
+    "dataset_description": [
+     "This figure shows the ultraviolet dose response curve for preflight control samples of <I>Aeromonas proteolytica</I> to irradiation at peak wavelength of 280 nanometers.<P>In:  Taylor GR.  Proceedings to the microbial response to space environment symposium, Houston, TX, September 1972.  Houston, TX:  National Aeronautics and Space Administration Lyndon B. Johnson Space Center; 1973.<END>"
+    ],
+    "processing_level": [
+     "N/A"
+    ],
+    "experiment_id": [
+     "M191"
+    ]
+   },
+   "meta": "1 file \u00b7 3.72 MB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "beee1918-fd17-5bda-bdeb-99cdb4946ca7",
+     "label": "JMAPM191_157.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 3900703,
+     "meta": "3.72 MB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001482",
+   "label": "J0001036",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Record of Mortality of Third Instar Silkworm Larvae Fed Treated and Control Cultures of <I>Bacillus thuringiensis</I> [Crystal toxin at 24 hours postfeeding, 15 larvae per group]",
+    "dataset_catalog": "J0001036",
+    "dataset_description": [
+     "<I>Bacillus thuringiensis</I> produce gamma-exotoxin which is highly toxic to the silkworm.  This table presents the mortality rates for the silkworm when fed treated (flight samples exposed to full sunlight, and wavelengths of 254 and 280 nanometer) and control (vibration, ground and flight) cultures of <I>B. thuringiensis</I> to determine if a change in virulence occurred.<P>In:  Taylor GR.  Proceedings to the microbial response to space environment symposium, Houston, TX, September 1972.  Houston, TX:  National Aeronautics and Space Administration Lyndon B. Johnson Space Center; 1973.<END>"
+    ],
+    "processing_level": [
+     "N/A"
+    ],
+    "experiment_id": [
+     "M191"
+    ]
+   },
+   "meta": "1 file \u00b7 17.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "0c06508f-8003-5560-b7cb-01392236fa0d",
+     "label": "JMAPM191_120.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 17408,
+     "meta": "17.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000349",
+   "label": "J0001065",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Survival of <I>Bacillus subtilis</I> spores in Suspensions of Distilled Water Irradiated with Solar UV of 254 Nanometer during Space Flight or with UV of 254 Nanometers on the Ground",
+    "dataset_catalog": "J0001065",
+    "dataset_description": [
+     "This figure shows the survival value of spores in suspension irradiated with solar UV irradiation during space flight compared with the corresponding values of the dose-survival curve obtained by UV irradiation of the suspension during the ground simulation test.<P>In:  Taylor GR.  Proceedings to the microbial response to space environment symposium, Houston, TX, September 1972.  Houston, TX:  National Aeronautics and Space Administration Lyndon B. Johnson Space Center; 1973.<END>"
+    ],
+    "processing_level": [
+     "N/A"
+    ],
+    "experiment_id": [
+     "M191"
+    ]
+   },
+   "meta": "1 file \u00b7 3.51 MB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "cd36dec7-7ffc-5f5f-81fb-58cced4c97fa",
+     "label": "JMAPM191_149.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 3680502,
+     "meta": "3.51 MB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001963",
+   "label": "J0001083",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "The Integral Z Spectrum of Stopping Particle Densities",
+    "dataset_catalog": "J0001083",
+    "dataset_description": [
+     "This figure shows the integral Z spectrum of stopping particle densities.<P>In:  Taylor GR.  Proceedings to the microbial response to space environment symposium, Houston, TX, September 1972.  Houston, TX:  National Aeronautics and Space Administration Lyndon B. Johnson Space Center; 1973.<END>"
+    ],
+    "processing_level": [
+     "N/A"
+    ],
+    "experiment_id": [
+     "M191"
+    ]
+   },
+   "meta": "1 file \u00b7 3.25 MB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "8434680f-a3fd-58ad-b551-4cd286a10252",
+     "label": "JMAPM191_167.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 3407872,
+     "meta": "3.25 MB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002399",
+   "label": "J0001076",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Effect of Solar Irradiation on <I>Aeromonas proteolytica</I> at a Peak Wavelength of 300 Nanometers, Flight Data",
+    "dataset_catalog": "J0001076",
+    "dataset_description": [
+     "This figure shows the survival curve for <I>Aeromonas proteolytica</I> exposed during flight to an irradiation wavelength of 300 nanometers.<P>In:  Taylor GR.  Proceedings to the microbial response to space environment symposium, Houston, TX, September 1972.  Houston, TX:  National Aeronautics and Space Administration Lyndon B. Johnson Space Center; 1973.<END>"
+    ],
+    "processing_level": [
+     "N/A"
+    ],
+    "experiment_id": [
+     "M191"
+    ]
+   },
+   "meta": "1 file \u00b7 3.83 MB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "93298880-ce37-5d81-b53e-02cac8459c5e",
+     "label": "JMAPM191_160.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 4016046,
+     "meta": "3.83 MB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000575",
+   "label": "J0001051",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Record of Zone Width Caused by Phospholipase C Produced by Treated and Control Cultures of <I>Bacillus thuringiensis</I>",
+    "dataset_catalog": "J0001051",
+    "dataset_description": [
+     "A record of zone width caused by production of the alpha-toxin phospholipase C by treated and control cultures of <I>Bacillus thuringiensis</I> is presented in this table.\u000b<P>\u000bIn:  Taylor GR.  Proceedings to the microbial response to space environment symposium, Houston, TX, September 1972.  Houston, TX:  National Aeronautics and Space Administration Lyndon B. Johnson Space Center; 1973.<END>"
+    ],
+    "processing_level": [
+     "N/A"
+    ],
+    "experiment_id": [
+     "M191"
+    ]
+   },
+   "meta": "1 file \u00b7 18.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "65827605-b845-5106-941c-84186769ee4e",
+     "label": "JMAPM191_135.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 18432,
+     "meta": "18.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001938",
+   "label": "J0001053",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Egg Productivity for <I>Nematospiroides dubius</I>",
+    "dataset_catalog": "J0001053",
+    "dataset_description": [
+     "The mean number of eggs recovered from each female worm per day is outlined in this figure.<P>In:  Taylor GR.  Proceedings to the microbial response to space environment symposium, Houston, TX, September 1972.  Houston, TX:  National Aeronautics and Space Administration Lyndon B. Johnson Space Center; 1973.<END>"
+    ],
+    "processing_level": [
+     "N/A"
+    ],
+    "experiment_id": [
+     "M191"
+    ]
+   },
+   "meta": "1 file \u00b7 2.81 MB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "47120f39-dc76-5162-bdf7-b5756c948a02",
+     "label": "JMAPM191_137.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 2946499,
+     "meta": "2.81 MB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000971",
+   "label": "J0001062",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Survival and Mutation Frequency of <I>Bacillus subtilis</I> Spores (UV Irradiation by Quartz/Mercury-Vapor Lamp with Major Emission at 280 namometers)",
+    "dataset_catalog": "J0001062",
+    "dataset_description": [
+     "Data on the lethal and mutagenic effects of irradiation at 280 nanometers on <I>Bacillus subtilis</I> spores dried on Millipore filters are plotted in this figure.<P>In:  Taylor GR.  Proceedings to the microbial response to space environment symposium, Houston, TX, September 1972.  Houston, TX:  National Aeronautics and Space Administration Lyndon B. Johnson Space Center; 1973.<END>"
+    ],
+    "processing_level": [
+     "N/A"
+    ],
+    "experiment_id": [
+     "M191"
+    ]
+   },
+   "meta": "1 file \u00b7 3.93 MB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "7f2bcce8-6f4c-5972-8b3e-8a7f306dd588",
+     "label": "JMAPM191_146.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 4120904,
+     "meta": "3.93 MB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001382",
+   "label": "J0001048",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Comparisons Among Means of the Logarithmic Transformations of the Number of <I>Bacillus thuringiensis</I> Survivors",
+    "dataset_catalog": "J0001048",
+    "dataset_description": [
+     "This table shows the results of a statistical quantitative analysis of <I>Bacillus thuringiensis</I> survivors for each treatment group (flight control, vibration control, ground control, flight-254 nm exposure, flight-280 nm exposure, flight sample-full light exposure).<P>In:  Taylor GR.  Proceedings to the microbial response to space environment symposium, Houston, TX, September 1972.  Houston, TX:  National Aeronautics and Space Administration Lyndon B. Johnson Space Center; 1973.<END>"
+    ],
+    "processing_level": [
+     "N/A"
+    ],
+    "experiment_id": [
+     "M191"
+    ]
+   },
+   "meta": "1 file \u00b7 14.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "96c3898d-d0f3-5a8f-8732-df4dbbc11686",
+     "label": "JMAPM191_132.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 14336,
+     "meta": "14.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000260",
+   "label": "J0001032",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Hemolysin Titers",
+    "dataset_catalog": "J0001032",
+    "dataset_description": [
+     "This table shows hemolysin titers for culture filtrates of <I>Aeromonas proteolytica</I> clones exposed to 254 nanometer and 280 nanometer wavelengths of irradiation.<P>In:  Taylor GR.  Proceedings to the microbial response to space environment symposium, Houston, TX, September 1972.  Houston, TX:  National Aeronautics and Space Administration Lyndon B. Johnson Space Center; 1973.<END>"
+    ],
+    "processing_level": [
+     "N/A"
+    ],
+    "experiment_id": [
+     "M191"
+    ]
+   },
+   "meta": "1 file \u00b7 15.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "a9fa02f9-48a9-513e-8191-d3aeb85c3853",
+     "label": "JMAPM191_116.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 15360,
+     "meta": "15.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002196",
+   "label": "J0001072",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Ultraviolet Dose Response and Mutation Frequency of <I>Aeromonas proteolytica</I> for Irradiations at a Peak Wavelength of 254 Nanometers, Preflight Data",
+    "dataset_catalog": "J0001072",
+    "dataset_description": [
+     "This figure shows the ultraviolet dose response and mutation frequency curves for preflight control samples of <I>Aeromonas proteolytica</I> to irradiation at peak wavelength of 254 nanometers.<P>In:  Taylor GR.  Proceedings to the microbial response to space environment symposium, Houston, TX, September 1972.  Houston, TX:  National Aeronautics and Space Administration Lyndon B. Johnson Space Center; 1973.<END>"
+    ],
+    "processing_level": [
+     "N/A"
+    ],
+    "experiment_id": [
+     "M191"
+    ]
+   },
+   "meta": "1 file \u00b7 3.33 MB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "eba6c510-e2ae-5e88-bc3c-0ae494fec063",
+     "label": "JMAPM191_156.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 3491758,
+     "meta": "3.33 MB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000350",
+   "label": "J0001066",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Survival of <I>Bacillus subtilis</I> Spores Irradiated with Solar UV of 254 Nanometers in Space Vacuum or with UV of 254 Nanometers in Vacuum during the Simulation Test",
+    "dataset_catalog": "J0001066",
+    "dataset_description": [
+     "Data in the figure show that simultaneous exposure to the space vacuum environment increased the sensitivity of spores to UV irraditation, compared with the UV sensitivity of spores irradiated at atmospheric pressure.<P>In:  Taylor GR.  Proceedings to the microbial response to space environment symposium, Houston, TX, September 1972.  Houston, TX:  National Aeronautics and Space Administration Lyndon B. Johnson Space Center; 1973.<END>"
+    ],
+    "processing_level": [
+     "N/A"
+    ],
+    "experiment_id": [
+     "M191"
+    ]
+   },
+   "meta": "1 file \u00b7 4.13 MB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "63957885-8dbd-50ef-ac41-6feb218cf652",
+     "label": "JMAPM191_150.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 4330619,
+     "meta": "4.13 MB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001037",
+   "label": "J0001085",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Thermoluminescent Dosimeter (TLD) Calibration",
+    "dataset_catalog": "J0001085",
+    "dataset_description": [
+     "Radiation calibration was performed against cobalt-60 during the Apollo 16 mission.  Analyses of flight chips, control chips and calibration chips were performed 20 days after recovery.  Cobalt-60 irradiation of the calibration group yielded the response shown in this figure.<P>In:  Taylor GR.  Proceedings to the microbial response to space environment symposium, Houston, TX, September 1972.  Houston, TX:  National Aeronautics and Space Administration Lyndon B. Johnson Space Center; 1973.<END>"
+    ],
+    "processing_level": [
+     "N/A"
+    ],
+    "experiment_id": [
+     "M191"
+    ]
+   },
+   "meta": "1 file \u00b7 3.02 MB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "e06f8878-c78b-5eb5-b3ab-0f95a74ce687",
+     "label": "JMAPM191_169.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 3166700,
+     "meta": "3.02 MB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002218",
+   "label": "J0001042",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Flight Results of <I>Bacillus subtilis</I> Spores Recovered From Wet (Type A) Cuvettes",
+    "dataset_catalog": "J0001042",
+    "dataset_description": [
+     "Data obtained from spores of <I>Bacillus subtilis</I> strains HA 101 and HA 101(59)F exposed to 254- and 280 nanometer wavelengths and recovered from wet (type A) cuvettes are presented in this table.<P>In:  Taylor GR.  Proceedings to the microbial response to space environment symposium, Houston, TX, September 1972.  Houston, TX:  National Aeronautics and Space Administration Lyndon B. Johnson Space Center; 1973.<END>"
+    ],
+    "processing_level": [
+     "N/A"
+    ],
+    "experiment_id": [
+     "M191"
+    ]
+   },
+   "meta": "1 file \u00b7 15.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "d21b9d14-fad4-5f8d-9b97-d1be18d1ea60",
+     "label": "JMAPM191_126.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 15360,
+     "meta": "15.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000473",
+   "label": "J0001064",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Survival of <I>Bacillus subtilis</I> Spores Irradiated with UV of 254 Nanometers at Atmospheric Pressure in Suspensions, After Dessicator Drying, or in a 1.33 x 10E-04 -N/m&#178; (10E-06 torr) Vacuum",
+    "dataset_catalog": "J0001064",
+    "dataset_description": [
+     "This figure shows the survival curves of <I>Bacillus subtilis</I> spores irradiated during and after exposure to vacuum, dessicator drying or air drying.  <P>In:  Taylor GR.  Proceedings to the microbial response to space environment symposium, Houston, TX, September 1972.  Houston, TX:  National Aeronautics and Space Administration Lyndon B. Johnson Space Center; 1973.<END>"
+    ],
+    "processing_level": [
+     "N/A"
+    ],
+    "experiment_id": [
+     "M191"
+    ]
+   },
+   "meta": "1 file \u00b7 4.00 MB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "b51e2c34-6561-5988-99b7-729ca29d6b4b",
+     "label": "JMAPM191_148.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 4194304,
+     "meta": "4.00 MB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001016",
+   "label": "J0001039",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Colony-Formed Spores of <I>Bacillus subtilis</I> Spores Exposed in a Different Manner to Different Factors of Space and Space Flight",
+    "dataset_catalog": "J0001039",
+    "dataset_description": [
+     "This table presents the number of colony forming units produced from pre-dried and suspension flight samples, ground controls, vibration controls and the simulation test samples.  <P>In:  Taylor GR.  Proceedings to the microbial response to space environment symposium, Houston, TX, September 1972.  Houston, TX:  National Aeronautics and Space Administration Lyndon B. Johnson Space Center; 1973.<END>"
+    ],
+    "processing_level": [
+     "N/A"
+    ],
+    "experiment_id": [
+     "M191"
+    ]
+   },
+   "meta": "1 file \u00b7 14.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "cce4bc83-39fe-5e3e-93b2-fab44de869bf",
+     "label": "JMAPM191_123.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 14336,
+     "meta": "14.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000085",
+   "label": "J0001058",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Egg of <I>Nematospiroides dubius</I> in Feces 18 Days After Inoculation",
+    "dataset_catalog": "J0001058",
+    "dataset_description": [
+     "Filiform larvae of <I>Nematospiroides dubius</I> were used to infect a colony of male mice to establish a reservoir of potentially infective larvae.  This figure shows eggs noted in the feces 18 days after inoculation.<P>In:  Taylor GR.  Proceedings to the microbial response to space environment symposium, Houston, TX, September 1972.  Houston, TX:  National Aeronautics and Space Administration Lyndon B. Johnson Space Center; 1973.<END>"
+    ],
+    "processing_level": [
+     "N/A"
+    ],
+    "experiment_id": [
+     "M191"
+    ]
+   },
+   "meta": "1 file \u00b7 1.20 MB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "b216ab87-2e8c-54e1-832a-24321355a051",
+     "label": "JMAPM191_142.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 1258291,
+     "meta": "1.20 MB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001430",
+   "label": "J0001040",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Viability of <I>Bacillus subtilis</I> Controls",
+    "dataset_catalog": "J0001040",
+    "dataset_description": [
+     "An extensive study of spores and phage not exposed to light (controls) was made to evaluate stabilities, recoveries, effects of vibration and other factors encountered during flight.  The viable count data (N<sub>O</sub>) for the two <I>Bacillus subtilis</I> strains and T-2 phage are summarized in this table.<P>In:  Taylor GR.  Proceedings to the microbial response to space environment symposium, Houston, TX, September 1972.  Houston, TX:  National Aeronautics and Space Administration Lyndon B. Johnson Space Center; 1973.<END>"
+    ],
+    "processing_level": [
+     "N/A"
+    ],
+    "experiment_id": [
+     "M191"
+    ]
+   },
+   "meta": "1 file \u00b7 14.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "b23c2f81-c86d-534d-9853-2d71fe0ac504",
+     "label": "JMAPM191_124.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 14336,
+     "meta": "14.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001519",
+   "label": "J0001038",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Survival of <I>Bacillus subtilis</I> Spores After Exposure to Space Vacuum For 1.3 Hours",
+    "dataset_catalog": "J0001038",
+    "dataset_description": [
+     "The spores were exposed to space vacuum in two different ways:  1) pre-dried sampels from suspension in distilled water (unprotected-exposed spore samples), and 2) pre-dried samples from suspension in phosphate buffer solution (protected-exposed spore samples).  In both cases, the spores were spread in monolayers to prevent protection from exposure by being covered.  The survival of these two differently prepared series of <I>Bacillus subtilis</I> spore samples after exposure to space vacuum is shown in this table.   To determine the survival value (N/N<sub>O</sub>), the colony formers, after exposure, were related to colony formers in the primary suspension (dried flight controls) or to those in the dried ground controls. <P>In:  Taylor GR.  Proceedings to the microbial response to space environment symposium, Houston, TX, September 1972.  Houston, TX:  National Aeronautics and Space Administration Lyndon B. Johnson Space Center; 1973.<END>"
+    ],
+    "processing_level": [
+     "N/A"
+    ],
+    "experiment_id": [
+     "M191"
+    ]
+   },
+   "meta": "1 file \u00b7 14.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "07d1e2d0-abc8-51e7-b9de-336a6f485109",
+     "label": "JMAPM191_122.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 14336,
+     "meta": "14.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001522",
+   "label": "J0001081",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "The Integral Linear Energy Transfer (LET) 350 Spectrum Measured in Cellulose Nitrate and Reduced to LET350 Values in Water",
+    "dataset_catalog": "J0001081",
+    "dataset_description": [
+     "Track length measurements in cellulose nitrate detectors were reduced to integral LET350 spectra.  The theoretical spectrum (straight line) and the spectra as measured in cellulose nitrate is shown in this figure.<P>In:  Taylor GR.  Proceedings to the microbial response to space environment symposium, Houston, TX, September 1972.  Houston, TX:  National Aeronautics and Space Administration Lyndon B. Johnson Space Center; 1973.<END>"
+    ],
+    "processing_level": [
+     "N/A"
+    ],
+    "experiment_id": [
+     "M191"
+    ]
+   },
+   "meta": "1 file \u00b7 3.52 MB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "6eed7ee2-46c7-569b-aad3-f8b092a3220c",
+     "label": "JMAPM191_165.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 3690988,
+     "meta": "3.52 MB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001036",
+   "label": "J0001079",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Response of High-Resolution Film to Ultraviolet Irradiation at a Wavelength of 254 Nanometers",
+    "dataset_catalog": "J0001079",
+    "dataset_description": [
+     "In this figure, the data points used to plot the flight experiment curve were gathered as a ground-based experiment and represent the points around which the flight experiment data were expected to fall.  The energy levels bounded by brackets represent the actual range of flight experimental data based on a hypothetical extension of the curve from 129 to 311 ergs.  The standard curve is included for reference.<P>In:  Taylor GR.  Proceedings to the microbial response to space environment symposium, Houston, TX, September 1972.  Houston, TX:  National Aeronautics and Space Administration Lyndon B. Johnson Space Center; 1973.<END>"
+    ],
+    "processing_level": [
+     "N/A"
+    ],
+    "experiment_id": [
+     "M191"
+    ]
+   },
+   "meta": "1 file \u00b7 2.82 MB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "7f56254f-77f3-5bc4-a416-f115e60429dc",
+     "label": "JMAPM191_163.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 2956984,
+     "meta": "2.82 MB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000754",
+   "label": "J0001080",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Effect of Temperature on the Rate of Fe[II] Decomposition in 0.008 M Ferrioxalate Solution at pH 1.6",
+    "dataset_catalog": "J0001080",
+    "dataset_description": [
+     "This figure shows a plot of the time-related loss of Fe[II] against temperature.<P>In:  Taylor GR.  Proceedings to the microbial response to space environment symposium, Houston, TX, September 1972.  Houston, TX:  National Aeronautics and Space Administration Lyndon B. Johnson Space Center; 1973.<END>"
+    ],
+    "processing_level": [
+     "N/A"
+    ],
+    "experiment_id": [
+     "M191"
+    ]
+   },
+   "meta": "1 file \u00b7 2.46 MB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "c5c49f25-e7e7-5d22-b382-d96751815154",
+     "label": "JMAPM191_164.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 2579497,
+     "meta": "2.46 MB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001019",
+   "label": "J0001077",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Effect of Solar Irradiation on <I>Aeromonas proteolytica</I> with Full Light, Flight Data",
+    "dataset_catalog": "J0001077",
+    "dataset_description": [
+     "This figure shows the survival curve for <I>Aeromonas proteolytica</I> exposed to full light during flight.<P>In:  Taylor GR.  Proceedings to the microbial response to space environment symposium, Houston, TX, September 1972.  Houston, TX:  National Aeronautics and Space Administration Lyndon B. Johnson Space Center; 1973.<END>"
+    ],
+    "processing_level": [
+     "N/A"
+    ],
+    "experiment_id": [
+     "M191"
+    ]
+   },
+   "meta": "1 file \u00b7 3.86 MB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "954cac96-51fb-5808-9b42-6d9544e9cddb",
+     "label": "JMAPM191_161.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 4047503,
+     "meta": "3.86 MB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000001",
+   "label": "J0001070",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Phenotype Return of <I>Trichophyton terrestre</I> Housed in Type A Cuvettes",
+    "dataset_catalog": "J0001070",
+    "dataset_description": [
+     "This figure shows the phenotype numbers and viability rates for experiment and control samples of <I>Trichophyton terrestre</I> exposed to 254, 280 and 300 nanometer wavelengths, and full light in type A (wet) cuvettes.<P>In:  Taylor GR.  Proceedings to the microbial response to space environment symposium, Houston, TX, September 1972.  Houston, TX:  National Aeronautics and Space Administration Lyndon B. Johnson Space Center; 1973.<END>"
+    ],
+    "processing_level": [
+     "N/A"
+    ],
+    "experiment_id": [
+     "M191"
+    ]
+   },
+   "meta": "1 file \u00b7 44.11 MB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "5276f869-767f-5f80-82e2-11cd24272e4b",
+     "label": "JMAPM191_154.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 46252687,
+     "meta": "44.11 MB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001431",
+   "label": "J0001050",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Record of Toxicity of <I>Bacillus thuringiensis</I> B-Exotoxin (Fly Toxin) for Last Instar Housefly Larvae (<I>Musca domestica</I>) - Morphologically Normal and Abnormal Isolates",
+    "dataset_catalog": "J0001050",
+    "dataset_description": [
+     "Abnormal isolates were distributed randomly throughout control and exposed groups.  Results of housefly assay tests to determine beta-exotoxin production by the morphologically abnormal isolates and a representative number of normal isolates is presented in this table.  <P>In:  Taylor GR.  Proceedings to the microbial response to space environment symposium, Houston, TX, September 1972.  Houston, TX:  National Aeronautics and Space Administration Lyndon B. Johnson Space Center; 1973.<END>"
+    ],
+    "processing_level": [
+     "N/A"
+    ],
+    "experiment_id": [
+     "M191"
+    ]
+   },
+   "meta": "1 file \u00b7 18.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "2fe81941-c3cd-5650-8ef5-4b7564c2b92e",
+     "label": "JMAPM191_134.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 18432,
+     "meta": "18.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000348",
+   "label": "J0001046",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Experimental Environment of <I>Saccharomyces cerevisiae</I>, <I>Trichophyton terrestre</I> and <I>Rhodotorula rubra</I> in the Microbiological Ecology Evaluation Device (MEED)",
+    "dataset_catalog": "J0001046",
+    "dataset_description": [
+     "Three fungal species were exposed to UV irradiation wavelengths of 254, 280 and 300 nanometers.  For each wavelength of exposure, this table shows the species exposed, the type of cuvette (Type A, B, C) and the expected energy (joule/cuvette and ergs/cuvette) for each cuvette. <P>In:  Taylor GR.  Proceedings to the microbial response to space environment symposium, Houston, TX, September 1972.  Houston, TX:  National Aeronautics and Space Administration Lyndon B. Johnson Space Center; 1973.<END>"
+    ],
+    "processing_level": [
+     "N/A"
+    ],
+    "experiment_id": [
+     "M191"
+    ]
+   },
+   "meta": "1 file \u00b7 15.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "d8c47629-94e6-5d31-a5df-d7192e5cf51e",
+     "label": "JMAPM191_130.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 15360,
+     "meta": "15.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002398",
+   "label": "J0001047",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Bacillus thuringiensis Wavelength and Energy Exposure Pattern",
+    "dataset_catalog": "J0001047",
+    "dataset_description": [
+     "Inflight experiment cuvettes containing <I>Bacillus thuringiensis</I> were exposed to various levels of solar irradiation for a period of 10 minutes.  This table shows the peak wavelength (254 nanometers, 280 nanometers, full light), the number of cuvettes exposed at each wavelength, and the total energy received (joules/cuvette and ergs/cuvette) by each cuvette.<P>In:  Taylor GR.  Proceedings to the microbial response to space environment symposium, Houston, TX, September 1972.  Houston, TX:  National Aeronautics and Space Administration Lyndon B. Johnson Space Center; 1973.<END>"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "M191"
+    ]
+   },
+   "meta": "1 file \u00b7 14.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "3dccb63d-e863-57ca-923b-46b49d01b68c",
+     "label": "JMAPM191_131.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 14336,
+     "meta": "14.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001521",
+   "label": "J0001052",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Viability of <I>Nematospiroides dubius</I> Eggs",
+    "dataset_catalog": "J0001052",
+    "dataset_description": [
+     "The percentage of viable eggs (measured in terms of the percent of eggs hatched) from all groups is shown in this figure.<P>In:  Taylor GR.  Proceedings to the microbial response to space environment symposium, Houston, TX, September 1972.  Houston, TX:  National Aeronautics and Space Administration Lyndon B. Johnson Space Center; 1973.<END>"
+    ],
+    "processing_level": [
+     "N/A"
+    ],
+    "experiment_id": [
+     "M191"
+    ]
+   },
+   "meta": "1 file \u00b7 2.40 MB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "ea033764-b921-5047-bdf9-eccd24b491d0",
+     "label": "JMAPM191_136.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 2516582,
+     "meta": "2.40 MB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001017",
+   "label": "J0001068",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Phenotype Return of <I>Chaetomium globosum</I> Exposed to Full Light",
+    "dataset_catalog": "J0001068",
+    "dataset_description": [
+     "This figure shows the phenotype numbers and viability rates for experiment and control samples of <I>Chaetomium globosum</I> exposed to full light in type A (wet), B (unvented, dry) and C (vented, dry) cuvettes.<PIn:  Taylor GR.  Proceedings to the microbial response to space environment symposium, Houston, TX, September 1972.  Houston, TX:  National Aeronautics and Space Administration Lyndon B. Johnson Space Center; 1973.<END>"
+    ],
+    "processing_level": [
+     "N/A"
+    ],
+    "experiment_id": [
+     "M191"
+    ]
+   },
+   "meta": "1 file \u00b7 4.02 MB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "431b34bb-6466-5107-82af-239a1baec2ef",
+     "label": "JMAPM191_152.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 4215276,
+     "meta": "4.02 MB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000572",
+   "label": "J0001069",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Phenotype Return of <I>Rhodotorula rubra</I> Housed in Type A Cuvettes",
+    "dataset_catalog": "J0001069",
+    "dataset_description": [
+     "This figure shows the phenotype numbers and viability rates for experiment and control samples of <I>Rhodotorula rubra</I> exposed to 254, 280 and 300 nanometer wavelengths, and full light in type A (wet) cuvettes.<P>In:  Taylor GR.  Proceedings to the microbial response to space environment symposium, Houston, TX, September 1972.  Houston, TX:  National Aeronautics and Space Administration Lyndon B. Johnson Space Center; 1973.<END>"
+    ],
+    "processing_level": [
+     "N/A"
+    ],
+    "experiment_id": [
+     "M191"
+    ]
+   },
+   "meta": "1 file \u00b7 3.70 MB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "042b60ce-a3d3-524e-8508-8ae63af59b88",
+     "label": "JMAPM191_153.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 3879731,
+     "meta": "3.70 MB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001888",
+   "label": "J0001045",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Flight Results of <I>Bacillus subtilus</I> Spores Recovered From Dry (Type C) Cuvettes",
+    "dataset_catalog": "J0001045",
+    "dataset_description": [
+     "Data obtained from spores of <I>Bacillus subtilis</I> strains HA 101 and HA 101(59)F exposed to 254- and 280 nanometer wavelengths and recovered from dry (type C) cuvettes are presented in this table.<P>In:  Taylor GR.  Proceedings to the microbial response to space environment symposium, Houston, TX, September 1972.  Houston, TX:  National Aeronautics and Space Administration Lyndon B. Johnson Space Center; 1973.<END>"
+    ],
+    "processing_level": [
+     "N/A"
+    ],
+    "experiment_id": [
+     "M191"
+    ]
+   },
+   "meta": "1 file \u00b7 14.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "2e0137ee-4e3c-5231-b369-546984bf79f7",
+     "label": "JMAPM191_129.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 14336,
+     "meta": "14.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000573",
+   "label": "J0001034",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Mutant Frequencies in Ground-Based Studies of <I>Bacillus subtilis</I> Spores, Irradiated on Millipore Filters",
+    "dataset_catalog": "J0001034",
+    "dataset_description": [
+     "This table contains data from ground-based experiments with 254- and 280-nanometer wavelengths at different energy levels using a quartz/mercury vapor lamp with appropriate filters.  The percentage of mutants relative to survivors is indicated at each energy level.<P>In:  Taylor GR.  Proceedings to the microbial response to space environment symposium, Houston, TX, September 1972.  Houston, TX:  National Aeronautics and Space Administration Lyndon B. Johnson Space Center; 1973.<END>"
+    ],
+    "processing_level": [
+     "N/A"
+    ],
+    "experiment_id": [
+     "M191"
+    ]
+   },
+   "meta": "1 file \u00b7 15.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "9bca0ad4-5b7e-5002-9d5a-1bcf88fac28d",
+     "label": "JMAPM191_118.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 15360,
+     "meta": "15.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001381",
+   "label": "J0001041",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Mutant Frequencies of <I>Bacillus subtilis</I> Spores in Ground and Flight Controls",
+    "dataset_catalog": "J0001041",
+    "dataset_description": [
+     "This table shows the results from analysis of morphological and sporulation mutants from the flight samples, ground controls and vibration controls.<P>In:  Taylor GR.  Proceedings to the microbial response to space environment symposium, Houston, TX, September 1972.  Houston, TX:  National Aeronautics and Space Administration Lyndon B. Johnson Space Center; 1973.<END>"
+    ],
+    "processing_level": [
+     "N/A"
+    ],
+    "experiment_id": [
+     "M191"
+    ]
+   },
+   "meta": "1 file \u00b7 15.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "5a414049-53bb-599c-b145-37289ff373aa",
+     "label": "JMAPM191_125.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 15360,
+     "meta": "15.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002219",
+   "label": "J0001044",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Flight Results of <I>Bacillus subtilus</I> (HA 101) Spores Recovered From Dry (Type B) Cuvettes",
+    "dataset_catalog": "J0001044",
+    "dataset_description": [
+     "Data obtained from spores of <I>Bacillus subtilis</I> strains HA 101 exposed to 254- and 280 nanometer wavelengths and recovered from dry (type B) cuvettes are presented in this table.<P>In:  Taylor GR.  Proceedings to the microbial response to space environment symposium, Houston, TX, September 1972.  Houston, TX:  National Aeronautics and Space Administration Lyndon B. Johnson Space Center; 1973.<END>"
+    ],
+    "processing_level": [
+     "N/A"
+    ],
+    "experiment_id": [
+     "M191"
+    ]
+   },
+   "meta": "1 file \u00b7 15.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "95e1455a-e484-5780-b0fe-55707b1709fa",
+     "label": "JMAPM191_128.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 15360,
+     "meta": "15.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001483",
+   "label": "J0001037",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Quantum Yield Values at Selected Wavelengths of Solar Energy",
+    "dataset_catalog": "J0001037",
+    "dataset_description": [
+     "Research has shown that the sensitivity of the potassium ferrioxalate system reaction equation can be altered by changes in pH and temperature.  By controlling these parameters, relatively accurate determinations of the quantum yield (the rate of Fe[II] production/quantum of light) could be made for particular wavelengths.  This table shows the calculated quantum yield values for selected wavelengths of solar energy.<P>In:  Taylor GR.  Proceedings to the microbial response to space environment symposium, Houston, TX, September 1972.  Houston, TX:  National Aeronautics and Space Administration Lyndon B. Johnson Space Center; 1973.<END>"
+    ],
+    "processing_level": [
+     "N/A"
+    ],
+    "experiment_id": [
+     "M191"
+    ]
+   },
+   "meta": "1 file \u00b7 17.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "1a006c40-2f40-59b6-b9ac-fc0c2148b083",
+     "label": "JMAPM191_121.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 17408,
+     "meta": "17.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001383",
+   "label": "J0001078",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Sensitivity of High-Resolution Film",
+    "dataset_catalog": "J0001078",
+    "dataset_description": [
+     "To minimize image loss and increase the reliable time interval between exposure and processing, the film was sensitized before exposure.  As shown in this figure, the sensitization process resulted in a linear response to ultraviolet irradiation and a minimum image loss for storage for as many as five days after exposure.<P>In:  Taylor GR.  Proceedings to the microbial response to space environment symposium, Houston, TX, September 1972.  Houston, TX:  National Aeronautics and Space Administration Lyndon B. Johnson Space Center; 1973.<END>"
+    ],
+    "processing_level": [
+     "N/A"
+    ],
+    "experiment_id": [
+     "M191"
+    ]
+   },
+   "meta": "1 file \u00b7 2.31 MB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "1bedf5e4-e000-5af6-a529-2de9c54295e7",
+     "label": "JMAPM191_162.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 2422211,
+     "meta": "2.31 MB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000261",
+   "label": "J0001060",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Survival and Mutation Frequency of <I>Bacillus subtilis</I> Spores (UV Irradiation by Germicidal Lamp with Major Emission of 254 Nanometers)",
+    "dataset_catalog": "J0001060",
+    "dataset_description": [
+     "The survival (N/N<sub>O</sub>, where N=number of survivors and N<sub>O</sub>=original number) data of spores (in aqueous suspension) of <I>Bacillus subtilis</I> strains HA 101 and HA 101(59)F at different energy levels of irradiation from a germicidal lamp are shown in this figure.  The numbers adjacent to each point are the percentage of morphological mutants.<P>In:  Taylor GR.  Proceedings to the microbial response to space environment symposium, Houston, TX, September 1972.  Houston, TX:  National Aeronautics and Space Administration Lyndon B. Johnson Space Center; 1973.<END>"
+    ],
+    "processing_level": [
+     "N/A"
+    ],
+    "experiment_id": [
+     "M191"
+    ]
+   },
+   "meta": "1 file \u00b7 3.87 MB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "8f50963f-a8d1-54c5-a75f-6f493cdbf32a",
+     "label": "JMAPM191_144.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 4057989,
+     "meta": "3.87 MB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000878",
+   "label": "J0001055",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Results From <I>Nematospiroides dubius</I> in Ground Control, Vibration control and Flight Control Cuvettes",
+    "dataset_catalog": "J0001055",
+    "dataset_description": [
+     "For ground, vibration and flight control cuvettes, this figure shows the number of <I>Nematospiroides dubius</I> larvae inoculated per mouse, number of adults recovered per mouse, number of females recovered per mouse, number of eggs produced per female per day and the number of viable eggs per 100 eggs recovered.<P>In:  Taylor GR.  Proceedings to the microbial response to space environment symposium, Houston, TX, September 1972.  Houston, TX:  National Aeronautics and Space Administration Lyndon B. Johnson Space Center; 1973.<END>"
+    ],
+    "processing_level": [
+     "N/A"
+    ],
+    "experiment_id": [
+     "M191"
+    ]
+   },
+   "meta": "1 file \u00b7 2.99 MB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "0aab8722-dbbe-5191-b6d9-3536397f6f63",
+     "label": "JMAPM191_139.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 3135242,
+     "meta": "2.99 MB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001518",
+   "label": "J0001033",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Postflight Temperature Readings from the Microbiological Ecology Evaluation Device (MEED)",
+    "dataset_catalog": "J0001033",
+    "dataset_description": [
+     "To minimize the number of variables affecting the microorganisms contained within the MEED, the flight case assembly was insulated to maintain the temperature at 20 degrees Celsius (plus or minus 5 degrees).  Compact temperature recorders were designed to measure and record the high and low temperature fluctuations within the MEED trays.  This table presents the recorded high and low temperatures in degrees Celcius, Kelvin and Fahrenheit.<P>In:  Taylor GR.  Proceedings to the microbial response to space environment symposium, Houston, TX, September 1972.  Houston, TX:  National Aeronautics and Space Administration Lyndon B. Johnson Space Center; 1973.<END>"
+    ],
+    "processing_level": [
+     "N/A"
+    ],
+    "experiment_id": [
+     "M191"
+    ]
+   },
+   "meta": "1 file \u00b7 14.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "5a0312f8-0922-574d-9b53-039858748832",
+     "label": "JMAPM191_117.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 14336,
+     "meta": "14.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001520",
+   "label": "J0001049",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Record of Toxicity of <I>Bacillus thuringiensis</I> Beta-Exotoxin (Fly Toxin) for Last Instar Housefly Larvae (<I>Musca domestica</I>) - Isolates with Abnormal Toxin Production in <I>Sarcina flava</I> Tests",
+    "dataset_catalog": "J0001049",
+    "dataset_description": [
+     "The <I>Sarcina flava</I> assay plates produced 18 isolates considered abnormal with respect to beta-exotoxin production.  The isolates were obtained from the following control and exposure groups:  ground control, flight control, vibration control and flight exposed (254 nanometers, 280 nanometers and full light).  This table presents results from the analysis of these isolates using the housefly assay system confirming altered beta-exotoxin production characteristics.<P>In:  Taylor GR.  Proceedings to the microbial response to space environment symposium, Houston, TX, September 1972.  Houston, TX:  National Aeronautics and Space Administration Lyndon B. Johnson Space Center; 1973.<END>"
+    ],
+    "processing_level": [
+     "N/A"
+    ],
+    "experiment_id": [
+     "M191"
+    ]
+   },
+   "meta": "1 file \u00b7 16.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "8cc72dfb-325e-56ef-a759-6f083a0bd302",
+     "label": "JMAPM191_133.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 16384,
+     "meta": "16.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001714",
+   "label": "J0001061",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Survival and Mutation Frequency of <I>Bacillus subtilis</I> Spores (UV Irradiation by Quartz/Mercury-Vapor Lamp with Major Emission at 254 Nanometer)",
+    "dataset_catalog": "J0001061",
+    "dataset_description": [
+     "Survival rates of <I>Bacillus subtilis</I> spores dried on Millipore surfaces as a function of different energy levels, using the quartz/mercury-vapor lamp and filter transmitting mainly a 254-nanometer wavelength, are plotted in this figure.<P>In:  Taylor GR.  Proceedings to the microbial response to space environment symposium, Houston, TX, September 1972.  Houston, TX:  National Aeronautics and Space Administration Lyndon B. Johnson Space Center; 1973.<END>"
+    ],
+    "processing_level": [
+     "N/A"
+    ],
+    "experiment_id": [
+     "M191"
+    ]
+   },
+   "meta": "1 file \u00b7 3.82 MB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "d1dae87e-83ba-5d7c-bf8b-ecceea006ab6",
+     "label": "JMAPM191_145.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 4005560,
+     "meta": "3.82 MB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001937",
+   "label": "J0001031",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Survival of <I>Bacillus subtilis</I> Spores Exposed to Ultrahigh Vacuum (UHV) at Room Temperature",
+    "dataset_catalog": "J0001031",
+    "dataset_description": [
+     "This table shows data published by different authors on the viability of <I>Bacillus subtilis</I> spores after exposure to ultrahigh vacuum (UHV) at room temperature.  When dried samples kept at atmospheric pressure were taken as controls, the experimental survival values ranged from 70 to 113 percent.  The final pressure and the exposure time revealed no observable influence on survival.  Nearly the same amount of spores that endured drying procedures at atmospheric pressure survived the exposure to UHV.  However, when the colony-forming spores of the primary suspension were used as controls, the experiemntal survival data were much lower and had a greater variance.  The preparation method seemed to influence the number of survivors.  Whereas approximately 15 percent of predried spores exposed on glass sheets survived UHV, exposure of spore suspensions on polyethylene disks covered with polyvinyl alcohol (PVA) resulted in survival rates approximately three times greater than this value.<P>In:  Taylor GR.  roceedings to the microbial response to space environment symposium, Houston, TX, September 1972.  Houston, TX:  National Aeronautics and Space Administration Lyndon B. Johnson Space Center; 1973.<END>"
+    ],
+    "processing_level": [
+     "N/A"
+    ],
+    "experiment_id": [
+     "M191"
+    ]
+   },
+   "meta": "1 file \u00b7 15.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "95c1db9a-563f-5245-86ff-e9e592d51b53",
+     "label": "JMAPM191_115.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 15360,
+     "meta": "15.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002400",
+   "label": "J0001082",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "The Integral Linear Energy Transfer (LET) 350 Spectrum measured in Lexan and Reduced to LET350 Values in Water",
+    "dataset_catalog": "J0001082",
+    "dataset_description": [
+     "Track length measurements in the Lexan detectors were reduced to integral LET350 spectra.  The theoretical spectrum (straight line) and the spectra as measured in Lexan is shown in this figure.<P>In:  Taylor GR.  Proceedings to the microbial response to space environment symposium, Houston, TX, September 1972.  Houston, TX:  National Aeronautics and Space Administration Lyndon B. Johnson Space Center; 1973.<END>"
+    ],
+    "processing_level": [
+     "N/A"
+    ],
+    "experiment_id": [
+     "M191"
+    ]
+   },
+   "meta": "1 file \u00b7 2.87 MB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "0957c6b4-b915-5606-a548-4a814c228d32",
+     "label": "JMAPM191_166.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 3009413,
+     "meta": "2.87 MB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000084",
+   "label": "J0001056",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Adult <I>Nematospiroides dubius</I> From Small Intestine of Mouse",
+    "dataset_catalog": "J0001056",
+    "dataset_description": [
+     "This figure shows an adult <I>Nematospiroides dubius</I> collected from the proximal small intestine of a mouse.  Prior to inoculation into mice, the larvae of these nematodes were exposed to 14 days of space flight conditions, including zero gravity, fluctuating magnetic fields, high-mass ionizing radiation and a 10-minute exposure to filtered solar irradiation at a wavelength of 254 nanometers. <P>In:  Taylor GR.  Proceedings to the microbial response to space environment symposium, Houston, TX, September 1972.  Houston, TX:  National Aeronautics and Space Administration Lyndon B. Johnson Space Center; 1973.<END>"
+    ],
+    "processing_level": [
+     "N/A"
+    ],
+    "experiment_id": [
+     "M191"
+    ]
+   },
+   "meta": "1 file \u00b7 893.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "83568c29-0fe2-55a1-a553-20286bb785ff",
+     "label": "JMAPM191_140.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 914432,
+     "meta": "893.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000574",
+   "label": "J0001035",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Full-Light-Exposure Environment of <I>Chaetomium globosum</I>, <I>Trichophyton terrestre</I> and <I>Rhodotorula rubra</I> in the Microbiological Ecology Evaluation Device (MEED)",
+    "dataset_catalog": "J0001035",
+    "dataset_description": [
+     "Three fungal species were exposed to full light within the Microbiological Ecology Evaluation Device (MEED).  This table shows the species exposed, the type of cuvette (Type A, B, C) and the expected energy (joule/cuvette and erg/cuvette) each received.<P>In:  Taylor GR.  Proceedings to the microbial response to space environment symposium, Houston, TX, September 1972.  Houston, TX:  National Aeronautics and Space Administration Lyndon B. Johnson Space Center; 1973.<END>"
+    ],
+    "processing_level": [
+     "N/A"
+    ],
+    "experiment_id": [
+     "M191"
+    ]
+   },
+   "meta": "1 file \u00b7 14.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "c39109b7-e80d-5054-b22c-4549e55c0eec",
+     "label": "JMAPM191_119.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 14336,
+     "meta": "14.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001018",
+   "label": "J0001074",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Effect of Solar Irradiation on <I>Aeromonas proteolytica</I> at a Peak Wavelength of 254 Nanometers, Flight Data",
+    "dataset_catalog": "J0001074",
+    "dataset_description": [
+     "This figure shows the survival curve for <I>Aeromonas proteolytica</I> exposed during flight to an irradiation wavelength of 254 nanometers.<P>In:  Taylor GR.  Proceedings to the microbial response to space environment symposium, Houston, TX, September 1972.  Houston, TX:  National Aeronautics and Space Administration Lyndon B. Johnson Space Center; 1973.<END>"
+    ],
+    "processing_level": [
+     "N/A"
+    ],
+    "experiment_id": [
+     "M191"
+    ]
+   },
+   "meta": "1 file \u00b7 2.89 MB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "6dc8abfa-445c-598f-b1d7-acf1e34693bb",
+     "label": "JMAPM191_158.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 3030385,
+     "meta": "2.89 MB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000351",
+   "label": "J0001071",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Phenotype Return of <I>Saccharomyces cerevisiae</I> Housed in Type A Cuvettes",
+    "dataset_catalog": "J0001071",
+    "dataset_description": [
+     "This figure shows the phenotype numbers and viability rates for experiment and control samples of <I>Saccharomyces cerevisiae</I> exposed to 254, 280 and 300 nanometer wavelengths, and full light in type A (wet) cuvettes.<P>In:  Taylor GR.  Proceedings to the microbial response to space environment symposium, Houston, TX, September 1972.  Houston, TX:  National Aeronautics and Space Administration Lyndon B. Johnson Space Center; 1973.<END>"
+    ],
+    "processing_level": [
+     "N/A"
+    ],
+    "experiment_id": [
+     "M191"
+    ]
+   },
+   "meta": "1 file \u00b7 3.50 MB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "dbdb3c53-ebe1-5a72-9156-212011a9515c",
+     "label": "JMAPM191_155.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 3670016,
+     "meta": "3.50 MB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001477",
+   "label": "J0001030",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Thermoluminescent Dosimeter Data (TLD) Results",
+    "dataset_catalog": "J0001030",
+    "dataset_description": [
+     "Lithium fluoride thermolumenescent chips were chosen to provide quantitative measurement of the integrated dose from the broad spectrum of ionizing radiations present in the space environment.  This table shows the results after the control response (less than 5 x 10E05 joule/kg (5 x 10E03 rad)) was subtracted from the flight group response.  The error factors indicated by plus or minus values represent one standard deviation of the sample.  Each cuvette represents a sample of four chips.<P>In:  Taylor GR.  Proceedings to the microbial response to space environment symposium, Houston, TX, September 1972.  Houston, TX:  National Aeronautics and Space Administration Lyndon B. Johnson Space Center; 1973.<END>"
+    ],
+    "processing_level": [
+     "N/A"
+    ],
+    "experiment_id": [
+     "M191"
+    ]
+   },
+   "meta": "1 file \u00b7 15.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "206c8820-d5a0-5f5b-a9df-83536603c47a",
+     "label": "JMAPM191_114.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 15360,
+     "meta": "15.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000973",
+   "label": "J0001067",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Survival of Fungal Cells Stored in Liquid in Cuvettes with Each Parameter at the Lowest Energy Level",
+    "dataset_catalog": "J0001067",
+    "dataset_description": [
+     "This figure shows the variations in survival values for four types of fungi stored in liquid for ground control samples, vibration control samples, flight control samples, and flight experiment samples exposed to 254, 280 and 300 nanometer wavelengths and full light.<P>In:  Taylor GR.  Proceedings to the microbial response to space environment symposium, Houston, TX, September 1972.  Houston, TX:  National Aeronautics and Space Administration Lyndon B. Johnson Space Center; 1973.<END>"
+    ],
+    "processing_level": [
+     "N/A"
+    ],
+    "experiment_id": [
+     "M191"
+    ]
+   },
+   "meta": "1 file \u00b7 3.65 MB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "3da17c60-a19f-546e-920b-c731858fd8fd",
+     "label": "JMAPM191_151.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 3827302,
+     "meta": "3.65 MB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000666",
+   "label": "J0001054",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Summary of Flight Experimental Cuvette Data for <I>Nematospiroides dubius</I>",
+    "dataset_catalog": "J0001054",
+    "dataset_description": [
+     "This figure shows the resulting counts of larvae exposed to ultraviolet irradiation during space flight, including the number of larvae per mouse, adults recovered per mouse, females recovered per mouse, eggs recovered per female per mouse, eggs per female per day, and viable eggs per 100 eggs recovered.<P>In:  Taylor GR.  Proceedings to the microbial response to space environment symposium, Houston, TX, September 1972.  Houston, TX:  National Aeronautics and Space Administration Lyndon B. Johnson Space Center; 1973.<END>"
+    ],
+    "processing_level": [
+     "N/A"
+    ],
+    "experiment_id": [
+     "M191"
+    ]
+   },
+   "meta": "1 file \u00b7 3.42 MB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "7bd28471-26c2-569f-8dec-3a0ccb2bc582",
+     "label": "JMAPM191_138.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 3586130,
+     "meta": "3.42 MB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000262",
+   "label": "J0001075",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Effect of Solar Irradiation on <I>Aeromonas proteolytica</I> at a Peak Wavelength of 280 Nanometers, Flight Data",
+    "dataset_catalog": "J0001075",
+    "dataset_description": [
+     "This figure shows the survival curve for <I>Aeromonas proteolytica</I> exposed during flight to an irradiation wavelength of 280 nanometers.<P>In:  Taylor GR.  Proceedings to the microbial response to space environment symposium, Houston, TX, September 1972.  Houston, TX:  National Aeronautics and Space Administration Lyndon B. Johnson Space Center; 1973.<END>"
+    ],
+    "processing_level": [
+     "N/A"
+    ],
+    "experiment_id": [
+     "M191"
+    ]
+   },
+   "meta": "1 file \u00b7 3.89 MB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "5da46cf7-7c8a-5d81-9788-c09dcceb4018",
+     "label": "JMAPM191_159.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 4078961,
+     "meta": "3.89 MB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001262",
+   "label": "J0001059",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Appearance of Morphological Mutants on AK Sporulation Agar",
+    "dataset_catalog": "J0001059",
+    "dataset_description": [
+     "This figure shows characteristic rough colonies on AK sporulation agar for two strains of <I>Bacillus subtilis</I> (HA 101 and HA101(59)F) and sporulation-defective mutant colonies (indicated by arrows) induced by mutagenic agents, which appear as morpholoical variants.<P>In:  Taylor GR.  Proceedings to the microbial response to space environment symposium, Houston, TX, September 1972.  Houston, TX:  National Aeronautics and Space Administration Lyndon B. Johnson Space Center; 1973.<END>"
+    ],
+    "processing_level": [
+     "N/A"
+    ],
+    "experiment_id": [
+     "M191"
+    ]
+   },
+   "meta": "1 file \u00b7 1.13 MB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "c67f222c-7d87-5bd4-8494-83298dee5444",
+     "label": "JMAPM191_143.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 1184891,
+     "meta": "1.13 MB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001939",
+   "label": "J0001057",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Infective Larvae at Perimeter of Filter Paper After 5-Day Incubation Period at 298 Degrees Kelvin (25 Degrees Celcius)",
+    "dataset_catalog": "J0001057",
+    "dataset_description": [
+     "Cultures of <I>Nematospiroides dubius</I> were incubated at 298 degrees Kelvin (25 degrees Celcius) for five days, after which infective larvae were noted at the perimeter of the filter paper as seen in this figure.<P>In:  Taylor GR.  Proceedings to the microbial response to space environment symposium, Houston, TX, September 1972.  Houston, TX:  National Aeronautics and Space Administration Lyndon B. Johnson Space Center; 1973.<END>"
+    ],
+    "processing_level": [
+     "N/A"
+    ],
+    "experiment_id": [
+     "M191"
+    ]
+   },
+   "meta": "1 file \u00b7 1.20 MB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "35b3fb1f-618e-5f42-b477-521173a1a7f6",
+     "label": "JMAPM191_141.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 1258291,
+     "meta": "1.20 MB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001263",
+   "label": "J0001063",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Survival of <I>Escherichia coli</I> T-7 Phage (UV Irradiation by Germicidal Lamp with Major Emission at 254 Nanometers)",
+    "dataset_catalog": "J0001063",
+    "dataset_description": [
+     "The inactivation of the <I>Escherichia coli</I> T-7 phage suspensions by different energy levels of the 254-nanometer wavelength is represented in this figure.<P>In:  Taylor GR.  Proceedings to the microbial response to space environment symposium, Houston, TX, September 1972.  Houston, TX:  National Aeronautics and Space Administration Lyndon B. Johnson Space Center; 1973.<END>"
+    ],
+    "processing_level": [
+     "N/A"
+    ],
+    "experiment_id": [
+     "M191"
+    ]
+   },
+   "meta": "1 file \u00b7 3.06 MB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "dce2135e-ca19-5574-b3fa-5cc96fe54786",
+     "label": "JMAPM191_147.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 3208643,
+     "meta": "3.06 MB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001887",
+   "label": "J0001043",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Flight and Ground-Based Results of T-7 Phage Recovered From Wet (Type A) Cuvettes Irradiated at a Wavelength of 254 nm",
+    "dataset_catalog": "J0001043",
+    "dataset_description": [
+     "Data obtained from the T-7 phage exposed to a wavelength of 254 nanometer are presented in this table.<P>In:  Taylor GR.  Proceedings to the microbial response to space environment symposium, Houston, TX, September 1972.  Houston, TX:  National Aeronautics and Space Administration Lyndon B. Johnson Space Center; 1973.<END>"
+    ],
+    "processing_level": [
+     "N/A"
+    ],
+    "experiment_id": [
+     "M191"
+    ]
+   },
+   "meta": "1 file \u00b7 14.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "2d637c88-aaab-500c-bb59-98e65eac7442",
+     "label": "JMAPM191_127.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 14336,
+     "meta": "14.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002401",
+   "label": "J0001084",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "The Fractional Cell Loss in Human Kidney Cells Caused by Particles with LEToo > L",
+    "dataset_catalog": "J0001084",
+    "dataset_description": [
+     "This figure presents the fractional cell loss in human kidney cells (T1) caused by particles with linear energy transfer (LEToo).  The region of the plot with L&lt;0.75 MeV cm&#178;/mg represents an extrapolation of the measured LET spectrum.<P>In:  Taylor GR.  Proceedings to the microbial response to space environment symposium, Houston, TX, September 1972.  Houston, TX:  National Aeronautics and Space Administration Lyndon B. Johnson Space Center; 1973.<END>"
+    ],
+    "processing_level": [
+     "N/A"
+    ],
+    "experiment_id": [
+     "M191"
+    ]
+   },
+   "meta": "1 file \u00b7 3.36 MB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "edda5fcd-4e39-54da-91ef-0ecbc09e34ee",
+     "label": "JMAPM191_168.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 3523215,
+     "meta": "3.36 MB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

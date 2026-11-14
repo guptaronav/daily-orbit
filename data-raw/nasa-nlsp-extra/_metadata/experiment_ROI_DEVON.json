@@ -1,0 +1,401 @@
+{
+ "record": {
+  "id": "bca8a346-3585-525e-b11e-44f66986e225",
+  "_id": "bca8a346-3585-525e-b11e-44f66986e225",
+  "experiment_title": "Haughton Mars Immune Assessment (HMIA)",
+  "archive_status_index": 2,
+  "pub_document_number": "PUB001336",
+  "parameter_html": "<table><tr><td>Flow cytometry</td></tr><tr><td>Leukocyte count</td></tr><tr><td>Lymphocyte count</td></tr><tr><td>T cells</td></tr><tr><td>Epstein-Barr virus (EBV)</td></tr><tr><td>Immunoglobulin G (IgG)</td></tr><tr><td>Immunoglobulin M (IgM)</td></tr><tr></tr></table>",
+  "__source_key": "cl62azmmtcdfs01o64fxh8vfd",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Sams, Clarence\">Principal Investigator: Sams, Clarence</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Crucian, Brian\">Co-Investigator: Crucian, Brian</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Effenhauser, Rainer\">Co-Investigator: Effenhauser, Rainer</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Jones, Jeffrey\">Co-Investigator: Jones, Jeffrey</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Lee, Pascal\">Co-Investigator: Lee, Pascal</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Widen, Raymond\">Co-Investigator: Widen, Raymond</a>",
+  "image_name": [
+   "Devon Island",
+   "Haughton Crater",
+   "Haughton Mars Project",
+   "HMIA Ground Operations",
+   "HMIA Mission Patch",
+   "HMIA Portable Incubator",
+   "HMIA sampling matrix",
+   "HMIA Workstation",
+   "Map of North America"
+  ],
+  "experiment_type_lk": [
+   "Countermeasures Evaluation &amp",
+   "Validation Project (CEVP)",
+   "Non-exercise Physiological Countermeasure (NxPCM) Project"
+  ],
+  "__record_modified_date": "2026-08-23T04:20:17.918226+00:00",
+  "__indexed": "2026-08-23T04:20:17.918226+00:00",
+  "__record_creation_date": "2022-07-28T19:57:40.711Z",
+  "keyword": [
+   "Immunophenotyping",
+   "Virus latency/physiology",
+   "Virus activation/physiology",
+   "Virus shedding/physiology",
+   "Herpesviridae/immunology",
+   "Adaptation, physiological",
+   "T-Lymphocytes",
+   "Leukocyte count",
+   "Antibodies, viral/analysis",
+   "Immunity, cellular",
+   "Flow cytometry",
+   "Lymphocyte count"
+  ],
+  "keyword_name": "Lymphocyte count",
+  "__record_size": 174146,
+  "__record_version": 29,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<br>\r\nThe objective for this activity was to use the National Aeronautics and Space Administration (NASA) Haughton Mars Project (HMP), a ground based model for planetary surface exploration, to validate immune system monitoring assays designed to support a proposed immunology Supplemental Medical Objective (SMO).  Immune system abnormal regulation has been demonstrated to occur during space flight and has the potential to cause serious health risks to crewmembers participating in exploration class missions.  This may be caused by mission-associated factors, other than the direct influences of microgravity or radiation, such as stress, confinement or an altered microbial environment. These mission-associated factors may be simulated to reasonable accuracy in ground-based spaceflight analogs such as the HMP.   Data from other ground-based models for space flight (extended bed rest, closed chamber confinement, etc.) have confirmed their value for human physiology studies.  \r\n<P>\r\nThe HMP consists of simulated Mars exploration missions performed at the Haughton meteorite impact crater.  The Haughton crater is located on Devon Island, in the province of Nunavut, in the high Canadian Arctic.  The remote location, harsh polar desert environment, local impact-related and other Mars-like geological features make the Haughton crater one of the closest analogs on Earth to the true Mars environment. While there are significant differences between Devon Island and Mars, many aspects of field exploration activities conducted at Haughton present challenges that are relevant to human planetary exploration.  At Haughton crater, a full-size prototype Mars habitat was recently constructed by the Mars Society under the auspices of the NASA Haughton-Mars Project and based on the NASA reference-mission projections for the possible size and capabilities of a Mars habitat capable of supporting human life.  HMP participants conduct field exploration while adhering to specific sets of 'true Mars' conditions to ensure the quality of the spaceflight analog situation:\r\n<P><UL>\r\n<LI>Relatively long travel to and from Devon Island.</LI>\r\n<LI>Disruption of circadian rhythms (24 hour daylight).</LI>\r\n<LI>Harsh polar desert conditions.</LI>\r\n<LI>Removal from familiar surroundings.</LI>\r\n<LI>Possible mission-simulation confined to the prototype habitat.</LI>\r\n<LI>Performance of Mars-relevant surface exploration and field activities.</LI>\r\n<LI>Performance of simulated spacesuited Extra-Vehicular Activities (EVA's) (including timed pre-breathe activities, etc.)</LI>\r\n<LI>Performance of Mars-relevant Intra-Vehicular Activities (IVA's) (data analysis, reporting, EVA planning, repairs, etc.)</LI>\r\n<LI>Reliance on remote telemedicine and communications equipment (including artificially-inserted 4 to 20-minute communication delays).</LI></UL>\r\n<P>\r\nThese conditions and factors combined make the HMP a well suited opportunity for simulated Mars exploration and research.  In addition, the conditions to which the crewmembers were subjected made the HMP an excellent opportunity to evaluate monitoring strategies and potential countermeasures for spaceflight human factor concerns.  The data generated from this activity directly addressed (in a ground-based spaceflight analog) the following questions identified by the NASA-Johnson Space Center (JSC) Critical Path Roadmap as a research priority for space flight:\r\n<P>\r\n7.01 Are there assays of immune function that reliably predict immune compromise?<P>\r\n7.03 Do factors associated with flight (stress, environment, microgravity, nutritional status, radiation) affect humoral or cell-mediated immune function, non-specific immunity, mucosal immunity, or immune surveillance capabilities of crewmembers in a manner that exposes them to unacceptable medical risk (disease, allergy, delayed wound healing)?<P>\r\n7.29 Are there surrogate marker assays that can be adapted to space travel that will quantitate the degree of immunodeficiency for antibody, T-cell, phagocyte, and complement function?\r\n<P>\r\nIn addition, the data derived from this study identified the most relevant assays for routine monitoring of the immune system and provided a system to monitor the effectiveness of immune countermeasures development.  There are currently no standardized immune monitoring assays.  This data was a necessary and critical prerequisite for initiating studies designed assess immune countermeasures and to answer the following Critical Path questions:\r\n<P>\r\n7.22 Are there countermeasures for space flight-associated defects in antibody, T-cell, phagocyte, and complement systems?<P>\r\n7.23 Are there countermeasures for infections developed in space travel, especially latent virus infections?\r\n<P>\r\nAPPROACH:<br> \r\nThe Haughton Mars Immune Assessment (HMIA) was designed to assess the immune function, cellular distribution, and viral reactivation status of HMP crewmembers in a fashion mirroring a space flight experiment (pre, mid, and post-mission assessments).  A unique obstacle for this study was the multinational distribution of the subjects over North America with respect to both pre and post-mission sample collection.  All mid-mission sample collection and processing occurred on location at Devon Island during the 2002 field season.  For pre- and post-mission sampling, arrangements were made with individual local clinics that possessed both phlebotomy capabilities and the availability of the appropriate sample collection tubes.  The protocol was designed to tolerate 24 hour shipping delays of specimens with minimal loss of data, despite the requirement for live cells.  When possible, immediate testing is preferred for live cell assays.\r\n<P>\r\nASSAY LIST\r\n<BR>\r\nThe assays selected for the HMIA were designed to comprehensively assess both the functional capabilities and the activation status of the immune system and correlate that data with latent viral Epstein-Barr virus (EBV) reactivation.  EBV reactivation is a demonstrable adverse clinical outcome that can be quantitatively measured.  The assays were designed so that samples may be processed remotely and transported without cold storage, making these assays compatible with current spaceflight experiment requirements.  The following is a list of the assays used to monitor immune status:\r\n<P><blockquote>\r\n<U>Immune System</U><BR>\r\nPeripheral blood immune cell subsets<BR>\r\nCell-specific activation status<BR>\r\nTh1/Th2 cell cytokine production profiles<BR>\r\nPlasma cytokine levels\r\n<P>\r\n<U>Viral reactivation</U><BR>\r\nEBV-specific humoral responses<BR>\r\nEBV-direct plasma viral DNA via PCR\r\n<P></blockquote>\r\nFIELD SAMPLE PROCESSING ACTIVITIES\r\n<BR>\r\nThe field activities required to be performed on Devon Island consisted of cell culture and sample processing to render all sample types stable for storage and transport to JSC for subsequent analysis.  The individual field requirements per assay are as follows:\r\n<P><blockquote>\r\n<I>Blood collection:</I>  On Devon Island, a phlebotomy station was set up in the main laboratory tent.  Samples were collected from each subject by venipuncture using sterile techniques and butterfly type collection equipment.  \r\n<P>\r\n<I>Leukocyte subset analysis:</I> Whole blood was treated with a newly developed preservative that maintains the antigenic structure of the cell surface molecules.  Samples may be stored at room temperature for up to two weeks.  There are several markers that are incompatible with this preservative.  For those markers, actual fluorescent antibody staining for flow cytometry analysis was performed on Devon Island and samples were preserved for later analysis.\r\n<P>\r\n<I>Plasma cytokine levels/ plasma EBV humoral responses/ EBV Deoxyribonucleic acid (DNA) by Polymerase Chain Reaction (PCR):</I>  A micro-centrifuge was transported to Devon Island and used to purify plasma from Ethylene diamine tetraacetic acid (EDTA) whole blood samples.  \r\n<P>\r\n<I>Cytokine production profile cultures:</I>  Heparinized whole blood was mixed with media and the appropriate mixture of mitogens and a reagent to halt extracellular transport of proteins.  The cultures were then incubated for 5 hours (T cell) or 24 hours (Monocyte) to allow full activation.  A portable lightweight field incubator developed by the Cell and Molecular Research (CMR) laboratory was used for these activities.  Following culture the supernatant was removed and the activated cells were preserved using a leukocyte preservative.  \r\n<P></blockquote>\r\nRESULTS:<br>\r\nThe protocol developed for immune sample processing in remote field locations functioned properly. Samples were processed on Devon Island, and stabilized for subsequent analysis at the Johnson Space Center in Houston. The data indicated that some phenotype, immune function and stress hormone changes occurred in the HMP field participants that were largely distinct from pre-mission baseline and post-mission recovery data. These\r\nimmune changes appear similar to those observed in astronauts following space flight.\r\n<P>\r\nThe immune system changes described during the HMP field deployment validate the use of the HMP as a ground-based space flight/planetary exploration analog for some aspects of human physiology. The sample processing protocol developed for this study may have applications for immune studies in remote\r\nterrestrial field locations. Elements of this protocol could possibly be adapted for future in-flight immunology studies conducted during space missions.\r\n<P>\r\nTen subjects participated during the HMP 2002 field season.  One pre, mid, and post-mission sample was collected for each subject.  Pre-mission samples collection ranged from 36 days prior to launch of the mission (L-36) to L-4.  In-mission samples were collected between Mission Day 4 (MD 4) to MD 18.  Post-mission samples were collected from 47 days after the end of the mission (Recovery (R)+47) to R+110.  One subject did not provide a post-mission sample.\r\n<p>",
+  "payload_id": "ROI",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "ROI_DEVON",
+  "indexed": "2026-08-23T04:20:17.918226+00:00",
+  "experiment_related": [
+   "SMO 015"
+  ],
+  "GUID": "cl62azmmtcdfs01o64fxh8vfd",
+  "parameter_name": [
+   "Flow cytometry",
+   "Leukocyte count",
+   "Lymphocyte count",
+   "T cells",
+   "Epstein-Barr virus (EBV)",
+   "Immunoglobulin G (IgG)",
+   "Immunoglobulin M (IgM)"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 1292,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Immunology"
+  ],
+  "pme_role_with_name": [
+   "Co-Investigator: Crucian, Brian",
+   "Co-Investigator: Effenhauser, Rainer",
+   "Co-Investigator: Jones, Jeffrey",
+   "Co-Investigator: Lee, Pascal",
+   "Co-Investigator: Widen, Raymond",
+   "Principal Investigator: Sams, Clarence"
+  ],
+  "missions": [
+   [
+    [
+     "ROI"
+    ]
+   ]
+  ],
+  "__dirid": "bca8a346-3585-525e-b11e-44f66986e225",
+  "__record_size_wo_doccontent": 174146,
+  "PI": [
+   "Sams, Clarence"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "ROI_DEVON"
+  ],
+  "mission_id": [
+   [
+    [
+     "ROI"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "proposal_date": [],
+  "proposal_source": [],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Sams, Clarence"
+  ],
+  "LaunchDate": [
+   "01/01/2002"
+  ],
+  "LaunchYear": 2002,
+  "program_name": [
+   "Ground"
+  ],
+  "archive_status": "Data preservation is complete. Privacy-protected datasets are available via data request. Remaining datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Ground",
+  "__source_field_concat": "PUB001336 ROI cl62azmmtcdfs01o64fxh8vfd Lymphocyte count  N/A Haughton Mars Immune Assessment (HMIA) ROI_DEVON Ground",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<br>\r\nThe objective for this activity was to use the National Aeronautics and Space Administration (NASA) Haughton Mars Project (HMP), a ground based model for planetary surface exploration, to validate immune system monitoring assays designed to support a proposed immunology Supplemental Medical Objective (SMO).  Immune system abnormal regulation has been demonstrated to occur during space flight and has the potential to cause serious health risks to crewmembers participating in exploration class missions.  This may be caused by mission-associated factors, other than the direct influences of microgravity or radiation, such as stress, confinement or an altered microbial environment. These mission-associated factors may be simulated to reasonable accuracy in ground-based spaceflight analogs such as the HMP.   Data from other ground-based models for space flight (extended bed rest, closed chamber confinement, etc.) have confirmed their value for human physiology studies.  \r\n<P>\r\nThe HMP consists of simulated Mars exploration missions performed at the Haughton meteorite impact crater.  The Haughton crater is located on Devon Island, in the province of Nunavut, in the high Canadian Arctic.  The remote location, harsh polar desert environment, local impact-related and other Mars-like geological features make the Haughton crater one of the closest analogs on Earth to the true Mars environment. While there are significant differences between Devon Island and Mars, many aspects of field exploration activities conducted at Haughton present challenges that are relevant to human planetary exploration.  At Haughton crater, a full-size prototype Mars habitat was recently constructed by the Mars Society under the auspices of the NASA Haughton-Mars Project and based on the NASA reference-mission projections for the possible size and capabilities of a Mars habitat capable of supporting human life.  HMP participants conduct field exploration while adhering to specific sets of 'true Mars' conditions to ensure the quality of the spaceflight analog situation:\r\n<P><UL>\r\n<LI>Relatively long travel to and from Devon Island.</LI>\r\n<LI>Disruption of circadian rhythms (24 hour daylight).</LI>\r\n<LI>Harsh polar desert conditions.</LI>\r\n<LI>Removal from familiar surroundings.</LI>\r\n<LI>Possible mission-simulation confined to the prototype habitat.</LI>\r\n<LI>Performance of Mars-relevant surface exploration and field activities.</LI>\r\n<LI>Performance of simulated spacesuited Extra-Vehicular Activities (EVA's) (including timed pre-breathe activities, etc.)</LI>\r\n<LI>Performance of Mars-relevant Intra-Vehicular Activities (IVA's) (data analysis, reporting, EVA planning, repairs, etc.)</LI>\r\n<LI>Reliance on remote telemedicine and communications equipment (including artificially-inserted 4 to 20-minute communication delays).</LI></UL>\r\n<P>\r\nThese conditions and factors combined make the HMP a well suited opportunity for simulated Mars exploration and research.  In addition, the conditions to which the crewmembers were subjected made the HMP an excellent opportunity to evaluate monitoring strategies and potential countermeasures for spaceflight human factor concerns.  The data generated from this activity directly addressed (in a ground-based spaceflight analog) the following questions identified by the NASA-Johnson Space Center (JSC) Critical Path Roadmap as a research priority for space flight:\r\n<P>\r\n7.01 Are there assays of immune function that reliably predict immune compromise?<P>\r\n7.03 Do factors associated with flight (stress, environment, microgravity, nutritional status, radiation) affect humoral or cell-mediated immune function, non-specific immunity, mucosal immunity, or immune surveillance capabilities of crewmembers in a manner that exposes them to unacceptable medical risk (disease, allergy, delayed wound healing)?<P>\r\n7.29 Are there surrogate marker assays that can be adapted to space travel that will quantitate the degree of immunodeficiency for antibody, T-cell, phagocyte, and complement function?\r\n<P>\r\nIn addition, the data derived from this study identified the most relevant assays for routine monitoring of the immune system and provided a system to monitor the effectiveness of immune countermeasures development.  There are currently no standardized immune monitoring assays.  This data was a necessary and critical prerequisite for initiating studies designed assess immune countermeasures and to answer the following Critical Path questions:\r\n<P>\r\n7.22 Are there countermeasures for space flight-associated defects in antibody, T-cell, phagocyte, and complement systems?<P>\r\n7.23 Are there countermeasures for infections developed in space travel, especially latent virus infections?\r\n<P>\r\nAPPROACH:<br> \r\nThe Haughton Mars Immune Assessment (HMIA) was designed to assess the immune function, cellular distribution, and viral reactivation status of HMP crewmembers in a fashion mirroring a space flight experiment (pre, mid, and post-mission assessments).  A unique obstacle for this study was the multinational distribution of the subjects over North America with respect to both pre and post-mission sample collection.  All mid-mission sample collection and processing occurred on location at Devon Island during the 2002 field season.  For pre- and post-mission sampling, arrangements were made with individual local clinics that possessed both phlebotomy capabilities and the availability of the appropriate sample collection tubes.  The protocol was designed to tolerate 24 hour shipping delays of specimens with minimal loss of data, despite the requirement for live cells.  When possible, immediate testing is preferred for live cell assays.\r\n<P>\r\nASSAY LIST\r\n<BR>\r\nThe assays selected for the HMIA were designed to comprehensively assess both the functional capabilities and the activation status of the immune system and correlate that data with latent viral Epstein-Barr virus (EBV) reactivation.  EBV reactivation is a demonstrable adverse clinical outcome that can be quantitatively measured.  The assays were designed so that samples may be processed remotely and transported without cold storage, making these assays compatible with current spaceflight experiment requirements.  The following is a list of the assays used to monitor immune status:\r\n<P><blockquote>\r\n<U>Immune System</U><BR>\r\nPeripheral blood immune cell subsets<BR>\r\nCell-specific activation status<BR>\r\nTh1/Th2 cell cytokine production profiles<BR>\r\nPlasma cytokine levels\r\n<P>\r\n<U>Viral reactivation</U><BR>\r\nEBV-specific humoral responses<BR>\r\nEBV-direct plasma viral DNA via PCR\r\n<P></blockquote>\r\nFIELD SAMPLE PROCESSING ACTIVITIES\r\n<BR>\r\nThe field activities required to be performed on Devon Island consisted of cell culture and sample processing to render all sample types stable for storage and transport to JSC for subsequent analysis.  The individual field requirements per assay are as follows:\r\n<P><blockquote>\r\n<I>Blood collection:</I>  On Devon Island, a phlebotomy station was set up in the main laboratory tent.  Samples were collected from each subject by venipuncture using sterile techniques and butterfly type collection equipment.  \r\n<P>\r\n<I>Leukocyte subset analysis:</I> Whole blood was treated with a newly developed preservative that maintains the antigenic structure of the cell surface molecules.  Samples may be stored at room temperature for up to two weeks.  There are several markers that are incompatible with this preservative.  For those markers, actual fluorescent antibody staining for flow cytometry analysis was performed on Devon Island and samples were preserved for later analysis.\r\n<P>\r\n<I>Plasma cytokine levels/ plasma EBV humoral responses/ EBV Deoxyribonucleic acid (DNA) by Polymerase Chain Reaction (PCR):</I>  A micro-centrifuge was transported to Devon Island and used to purify plasma from Ethylene diamine tetraacetic acid (EDTA) whole blood samples.  \r\n<P>\r\n<I>Cytokine production profile cultures:</I>  Heparinized whole blood was mixed with media and the appropriate mixture of mitogens and a reagent to halt extracellular transport of proteins.  The cultures were then incubated for 5 hours (T cell) or 24 hours (Monocyte) to allow full activation.  A portable lightweight field incubator developed by the Cell and Molecular Research (CMR) laboratory was used for these activities.  Following culture the supernatant was removed and the activated cells were preserved using a leukocyte preservative.  \r\n<P></blockquote>\r\nRESULTS:<br>\r\nThe protocol developed for immune sample processing in remote field locations functioned properly. Samples were processed on Devon Island, and stabilized for subsequent analysis at the Johnson Space Center in Houston. The data indicated that some phenotype, immune function and stress hormone changes occurred in the HMP field participants that were largely distinct from pre-mission baseline and post-mission recovery data. These\r\nimmune changes appear similar to those observed in astronauts following space flight.\r\n<P>\r\nThe immune system changes described during the HMP field deployment validate the use of the HMP as a ground-based space flight/planetary exploration analog for some aspects of human physiology. The sample processing protocol developed for this study may have applications for immune studies in remote\r\nterrestrial field locations. Elements of this protocol could possibly be adapted for future in-flight immunology studies conducted during space missions.\r\n<P>\r\nTen subjects participated during the HMP 2002 field season.  One pre, mid, and post-mission sample was collected for each subject.  Pre-mission samples collection ranged from 36 days prior to launch of the mission (L-36) to L-4.  In-mission samples were collected between Mission Day 4 (MD 4) to MD 18.  Post-mission samples were collected from 47 days after the end of the mission (Recovery (R)+47) to R+110.  One subject did not provide a post-mission sample.\r\n<p>",
+  "__doi": "10.83263/tfb8-5r88",
+  "__doi_record_creation_date": "2026-08-23T04:20:17",
+  "__doi_record_modified_date": "2026-08-23T04:20:17"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000380",
+   "label": "ROI_DEVON__1340531358",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Intracellular Cytokines",
+    "dataset_catalog": "ROI_DEVON__1340531358",
+    "dataset_description": [
+     "This graph depicts mean percentages of T cell subsets capable of being stimulated to produce IFNg\r\nand IL-2 for subjects in the ROI_DEVON study. This data was derived from whole blood cultures\r\nstimulated with PMA+ ionomycin for 5 hours in the presence of monensin to inhibit extracellular\r\ntransport and allow intracellular accumulation. For this plot, mean values are shown without error bars.\r\nData that were found to be statistically significant (pre-, vs. mid-) are indicated by an asterisk and the\r\ncorresponding 'P' value. All other data were not statistically significant. Error bars represent the SEM\r\nfor each point.\r\n<p>\r\nSource: Crucian, et al. Immune system changes during simulated planetary exploration on Devon\r\nIsland, high arctic. BMC Immunology. May 2007; 8:7."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "ROI_DEVON"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "bad5ceb0-4587-5ef2-830e-eb678752ca54",
+     "label": "ROI_DEVON__1340531358.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000225",
+   "label": "ROI_DEVON__1340440456",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Flow Cytometry",
+    "dataset_catalog": "ROI_DEVON__1340440456",
+    "dataset_description": [
+     "This graph is a representative of flow cytometry scatter plots, which demonstrated the analytical\r\nintegrity of the field-processed mid-mission samples in the ROI_DEVON study.\r\n<p>\r\nSource: Crucian, et al. Immune system changes during simulated planetary exploration on Devon\r\nIsland, high arctic. BMC Immunology. May 2007; 8:7."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "ROI_DEVON"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "14e1c8e3-64e4-5e98-972a-866bbf822a2d",
+     "label": "ROI_DEVON__1340440456.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000226",
+   "label": "ROI_DEVON__1340541656",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Plasma Levels",
+    "dataset_catalog": "ROI_DEVON__1340541656",
+    "dataset_description": [
+     "This Excel chart contains plasma levels of Epstein-Barr Virus (EBV IgG, EBV IgM and EBV DNA) before and during\r\nHaughton-Mars Project (HMP) deployment for subjects in the ROI_DEVON study. Antibody levels\r\nwere determined by immunofluorescence, DNA levels were assessed by PCR. Plasma antibody levels\r\nare expressed as titer. Post mission assessments were not performed.\r\n<p>\r\nSource: Crucian, et al. Immune system changes during simulated planetary exploration on Devon\r\nIsland, high arctic. BMC Immunology. May 2007; 8:7."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "ROI_DEVON"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "02d527d2-aa46-52d0-8d21-839f2dd6b1c7",
+     "label": "ROI_DEVON__1340541656.xlsx",
+     "type": "file",
+     "ext": "xlsx",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001543",
+   "label": "ROI_DEVON__1340525648",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "T Cell Subsets: Memory/Na\u00efve, Constitutively Activated",
+    "dataset_catalog": "ROI_DEVON__1340525648",
+    "dataset_description": [
+     "This graph depicts memory (CD45RO+) and constitutively activated (HLA-DR+) CD4+ and CD8+ T\r\ncell subsets for subjects in the ROI_DEVON study. This data was derived from whole blood cultures\r\nstimulated with PMA+ ionomycin for 5 hours in the presence of monensin to inhibit extracellular\r\ntransport and allow intracellular accumulation. For this plot, mean values are shown without error bars.\r\nData that were found to be statistically significant (pre-, vs. mid-) are indicated by an asterisk and the\r\ncorresponding 'P' value. All other data were not statistically significant. Error bars represent the SEM\r\nfor each point.\r\n<p>\r\nSource: Crucian, et al. Immune system changes during simulated planetary exploration on Devon\r\nIsland, high arctic. BMC Immunology. May 2007; 8:7."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "ROI_DEVON"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "8d223c21-1ad4-546d-8a10-4ecc0a88a6c6",
+     "label": "ROI_DEVON__1340525648.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000698",
+   "label": "ROI_DEVON__1340536477",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Mean Plasma Control",
+    "dataset_catalog": "ROI_DEVON__1340536477",
+    "dataset_description": [
+     "This graph depicts mean pre-, mid-, and post-mission plasma cortisol levels for subjects in the\r\nROI_DEVON study. This data was derived from whole blood cultures stimulated with PMA+ ionomycin\r\nfor 5 hours in the presence of monensin to inhibit extracellular transport and allow intracellular\r\naccumulation. For this plot, mean values are shown without error bars. Data that were found to be\r\nstatistically significant (pre-, vs. mid-) are indicated by an asterisk and the corresponding 'P' value. All\r\nother data were not statistically significant. Error bars represent the SEM for each point.\r\n<p>\r\nSource: Crucian, et al. Immune system changes during simulated planetary exploration on Devon\r\nIsland, high arctic. BMC Immunology. May 2007; 8:7."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "ROI_DEVON"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "7b50a6db-c228-57f8-bbe3-8fa966534a5a",
+     "label": "ROI_DEVON__1340536477.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001200",
+   "label": "ROI_DEVON__1340518405",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Cytotoxic/Effector CD8+ Subsets",
+    "dataset_catalog": "ROI_DEVON__1340518405",
+    "dataset_description": [
+     "This graph depicts cytotoxic, senescent and na\u00efve (non-differentiated) CD8+ T cell subsets for\r\nsubjects in the ROI_DEVON study. This data was derived from whole blood cultures stimulated with\r\nPMA+ ionomycin for 5 hours in the presence of monensin to inhibit extracellular transport and allow\r\nintracellular accumulation. For this plot, mean values are shown without error bars. Data that were\r\nfound to be statistically significant (pre-, vs. mid-) are indicated by an asterisk and the corresponding\r\n'P' value. All other data were not statistically significant. Error bars represent the SEM for each point.\r\n<p>\r\nSource: Crucian, et al. Immune system changes during simulated planetary exploration on Devon\r\nIsland, high arctic. BMC Immunology. May 2007; 8:7."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "ROI_DEVON"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "f3789b34-9de4-5901-9e2b-8189e333d5c2",
+     "label": "ROI_DEVON__1340518405.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000883",
+   "label": "ROI_DEVON__1340502706",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Peripheral Immunophenotype",
+    "dataset_catalog": "ROI_DEVON__1340502706",
+    "dataset_description": [
+     "This graph depicts mean peripheral blood percentages for all major leukocyte subsets for subjects in the ROI_DEVON study. This data was derived from whole blood cultures stimulated with PMA+\r\nionomycin for 5 hours in the presence of monensin to inhibit extracellular transport and allow\r\nintracellular accumulation. For this plot, mean values are shown without error bars. Data that were\r\nfound to be statistically significant (pre-, vs. mid-) are indicated by an asterisk and the corresponding\r\n'P' value. All other data were not statistically significant. Error bars represent the SEM for each point.\r\n<p>\r\nSource: Crucian, et al. Immune system changes during simulated planetary exploration on Devon\r\nIsland, high arctic. BMC Immunology. May 2007; 8:7."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "ROI_DEVON"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "d6576346-0a42-5faf-ae1c-e3ab1d615be9",
+     "label": "ROI_DEVON__1340502706.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002060",
+   "label": "ROI_DEVON__1340546476",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Fluorescent Antibody Panel",
+    "dataset_catalog": "ROI_DEVON__1340546476",
+    "dataset_description": [
+     "This Excel chart contains a fluorescent antibody panel for subjects in the ROI_DEVON study (Table 2\r\nin referenced publication). All antibodies purchased from either the Beckman-Coulter Corporation\r\nexcept for (*), purchased from Dickinson. The specific antibody clones are indicated in parentheses.\r\n<p>\r\nSource: Crucian, et al. Immune system changes during simulated planetary exploration on Devon\r\nIsland, high arctic. BMC Immunology. May 2007; 8:7."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "ROI_DEVON"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "402e53aa-30e5-5880-9631-988587784467",
+     "label": "ROI_DEVON__1340546476.xlsx_ROI_ROI_DEVON_2010_148_060508.xlsx",
+     "type": "file",
+     "ext": "xlsx",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

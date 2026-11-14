@@ -1,0 +1,565 @@
+{
+ "record": {
+  "id": "1b5df68e-c84b-59a3-b640-e2151357fce6",
+  "_id": "1b5df68e-c84b-59a3-b640-e2151357fce6",
+  "experiment_title": "Acoustic Noise During the Phase III Chamber Test",
+  "archive_status_index": 2,
+  "pub_document_number": "PUB001078",
+  "parameter_html": "<table><tr><td>Sound intensity, decibels</td></tr><tr><td>Sound intensity, decibels perceived</td></tr><tr><td>Sound intensity, frequencies perceived</td></tr><tr></tr></table>",
+  "__source_key": "cl62axw6bcd0z01o6770cd7kd",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Foley, Tico\">Principal Investigator: Foley, Tico</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Feeback, Daniel\">Co-Investigator: Feeback, Daniel</a>",
+  "image_name": [
+   "Noise Levels in Chamber",
+   "Noise Survey",
+   "Sound Level Meter",
+   "Sound Level Meter and Frequency Analyzer",
+   "Sound Measurements Taken in the Chamber"
+  ],
+  "experiment_type_lk": [
+   "Lunar-Mars Life Support Test Project (LMLSTP)"
+  ],
+  "__record_modified_date": "2026-08-23T04:16:32.333571+00:00",
+  "__indexed": "2026-08-23T04:16:32.333571+00:00",
+  "__record_creation_date": "2022-07-28T20:06:20.439Z",
+  "keyword": [
+   "Hearing",
+   "Noise",
+   "Ear",
+   "Auditory threshold"
+  ],
+  "keyword_name": "Auditory threshold",
+  "__record_size": 218183,
+  "__record_version": 31,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<br>\r\nDuring the Lunar-Mars Life Support Test Project (LMLSTP), four test subjects participated in the 91-day experiment. As part of the acoustic study, they measured sound decibels in different life support areas of the test chamber. The LMLSTP enclosed test chamber was divided into three levels. The first level contained general living quarters with a dining/work table, communications, test and video equipment. The first level also contained a kitchen, bathroom and laundry facilities. The second level contained the mechanical equipment for air revitalization, storage and stationary bicycle. This level was the noisiest, and due to the location of the stairs, the subjects had to pass through this level while traveling between the first and third levels. The third level contained primary living quarters with bedrooms, partial bath and entertainment equipment. This level was the quietest. The goal of the acoustic noise study was to monitor and describe the noise environment of the 20-foot chamber during its extended 91-day operation. Noise levels were measured at multiple locations and subjects performed hearing threshold tests called audiograms at various frequencies before and after the chamber experience. The hearing threshold is the softest sound a person is able to hear. It is not clear what level of hearing threshold shift is cause for concern, but it is certain that larger changes in threshold are more serious. Monitoring acoustic noise in the chamber enabled recommendations to be formulated for hearing protection, if necessary. These measurements also established a baseline measure of the noise environment for comparison with other Earth-bound analog test facilities.\r\n<p>\r\nIn acoustic studies, noise is defined as undesirable sounds in the air in the hearing range of approximately 20 to 20,000 Hz. A certain level of noise can be tolerated over an eight-hour workday without long-term hearing detriment, but this same noise level may not be acceptable if it is continuous over a 24-hour period, such as in the closed environment of a space vehicle. During periods of loud noise, the blood vessels in the ear involuntarily constrict and reduce blood flow to protect the hair cells responsible for hearing. Outer hair cells respond to low intensity sound and become continuously stimulated or \"saturated\", by loud noise. The inner hair cells remain functional because they respond only to high intensity sounds. A temporary hearing threshold shift may thus occur due to chronic noise. An upward shift of hearing threshold can become permanent, since the outer hair cells that respond to low intensity sound would not have a chance to recover their normal function and would eventually die. Government regulations developed by the U.S. Environmental Protection Agency (EPA) set the maximum background noise level that an individual may be exposed to during an eight-hour day at 90 dB. Exposure to levels over 85 dB requires routine monitoring for hearing loss and the institution of hearing conservation programs. The EPA suggests that an eight-hour average noise level over 75 dB presents a reasonable risk for hearing loss.\r\n<p>\r\nAPPROACH:<br>\r\nLMLSTP test subjects collected sound level measurements in various locations throughout the chamber module starting with entry day ceremonies, continuing regularly during the 91-day operation and ending with the welcome home celebrations. In total, 283 sample measurements of acoustic noise were collected from the chamber during the experiment.</p>\r\n<p>Noise levels were measured using an audio dosimeter and a more accurate sound level meter to obtain an A-weighted overall sound pressure level measurement at each location. The A-weighting represents the ear sensitivity by combining all frequencies together and averaging them to give a decibel value. Sample measurement locations were determined using two methods. In one method, each subject was asked to subjectively identify the noise sources and noisier locations in the chamber. Following discussion, the subjects jointly decided upon 25 locations to measure noise, including quiet locations that served as controls. The other method of determining measurement locations was the use of predetermined, geographically-spaced areas on each chamber level. Four different heights above the floor were monitored based on locations where a hypothetical fiftieth-percentile person's ear would be located during various activities. Measurements were taken at 10 cm above the surface of the floor to represent a person lying down, at 75 cm above the floor to represent a person sitting on the floor, at 120 cm above the floor to monitor a person sitting in a chair, and at 150 cm above the floor to represent a person standing. The locations were spaced at 30-degree increments about 60 cm from the wall, space permitting, and at the center axis of each level. Locations where the subjects were likely to spend more time were also chosen, such as a computer workstation, bed, stove, table, exercise machine, etc. A measurement was taken within 60 to 100 cm of the middle of any large area not already measured by other methods. Since this was a screening procedure, most data were rounded off to the nearest unit.</p>\r\n<p>Noise loudness is measured using sound level meters. Total noise exposure over a period of time is measured with a noise dosimeter. To determine how acoustic noise levels varied throughout a typical 24-hour day for each subject, an Ametek Audio Dosimeter (Model MK-3) was used in the dosimeter mode. An average was determined each minute as loudness equivalent (Leq 1 min) of a 24-hr period. This method produced 1440 samples each day. Data was downloaded to a desktop computer and graphed as noise level versus time, creating a histogram for each selected noise level interval.</p>\r\n<p>Each test subject wore the dosimeter over two 24-hour periods. Additionally, one subject wore the dosimeter for approximately one hour before, and one hour after, entering the chamber on the first day and an hour before and after exiting the chamber on the last day. On each of three other days, the dosimeter was placed in a central location in a bedroom, left among equipment on the second level, and attached to the ceiling in the middle of the first level. The exact days that the subjects wore the dosimeter, and the exact days and locations that the dosimeter was placed in a room were up to the subjects' discretion.</p>\r\n<p>Investigators wanted to know whether or not the noise levels inside the chamber would affect the threshold hearing levels of the subjects over the course of the 91-day stay in chamber. Hearing tests, called pure-tone air conduction audiometry, were conducted under standard conditions at the health clinic at NASA's Johnson Space Center (JSC) in a sound-insulated booth. A microprocessor-controlled audiometer presented pure tone stimuli to the subject and recorded his or her responses. The subject wore a headset through which the sounds were transmitted to each ear. When the subject heard a sound, he or she pushed a button, and the monitoring computer recorded the response. The computer presented sounds at predetermined frequencies and at incremental amplitudes, getting softer until there was no subject response, and then louder until there was a response, to double-check the person's threshold. Each ear was tested independently starting with frequencies of 1000 cycles per second (Hz). This first measurement at 1000 Hz was a training run. Then, the test was conducted at frequencies of 500 Hz, 1000 Hz, 2000 Hz, 3000 Hz, 4000 Hz, 6000 Hz and 8000 Hz for a total of seven data collection sessions and 42 audiogram measurements per subject.</p>\r\n<p>In an audiometry test, the hearing level is quantified based on what the normal ear detects, and a score of zero indicates normal hearing. Scores above zero indicate hearing loss. A 100 dB hearing loss at any frequency is nearly equivalent to complete deafness at that particular frequency tested. The four chamber test subjects were each given three audiograms. The first, conducted at the time of medical examination for eligibility, established a baseline measure. The second audiogram was performed within two hours after the subject left the chamber to determine whether there was any shift in hearing threshold after 91 days in the chamber. The third audiogram occurred between six and fourteen weeks after chamber egress to determine whether the hearing threshold had returned to baseline. It was expected that there would be a hearing threshold shift on egress day, but that no permanent shift would occur.</p>\r\n<p>\r\nRESULTS:<br>\r\nOn the first chamber level, the acoustic noise from 105 measurements averaged 63.2 dB(A). The noisiest general area was the airlock, which averaged 63.7 dB(A), and where major noise contributors included exercise machines and ventilation fans. The only measurements that equaled or exceeded 70 dB(A) were from intermittent noise sources. The television was the loudest measured equipment noise source (average 75.2 dB(A)).</p>\r\n<p>The second level was much noisier, and the subjects reportedly avoided the area. The average noise level over 94 measurements was 74.6 dB(A). Only two of the samples were measured at less than 70 dB(A). Twelve measurements were in excess of 80 dB(A).</p>\r\n<p>On the third level, which was quieter than the others, noise levels were similar to those in a typical single-family residence. The average noise level over 84 measurements was 51.5 dB(A). Measurements in the immediate proximity of the beds averaged 42.4 dB(A). The noisiest area on the third level was in the hallway, averaging 59.8 dB(A), especially near the ladder that led to the noisier second level.</p>\r\n<p>Data from the dosimeter attached to a subject for a 24-hour period was consistent with that obtained by the sound level meter. It was possible to discern where the subject was in the chamber by analyzing the readings from the dosimeter. The first level's background noise was measured in the mid-60 dB(A) range, with an occasional spike attributed to human voices during conversation. Periods of time where noise measured above 70 dB(A) represented transitions through, or short visits to, the louder second level. Rest or quiet work on the third level could be assumed from the periods of time that measured 60 dB(A). When the subjects exited the chamber at egress, the dosimeters measured above 90 dB(A) during the first 10 minutes and above 80 dB(A) for most of the first hour.</p>\r\n<p>Audiogram measurements of the subjects on the pre-test ranged from 0 to 50 dB. A measure of 0 indicates that the threshold of hearing is the same as that for an average person without hearing loss, while larger numbers indicate hearing loss. Shifts of 5 dB or less are not considered problematic because they are within the range of expected test errors. On egress-day, audiogram measurements were 0 to 50 dB. Post-test measurements were 0 to 45 dB. For two subjects, all measurements were at or below 20 db; for another subject, all were at or below 25 dB. The final subject gave readings at or below 10 dB in one ear, while the other ear measured hearing loss in the 45 to 50 dB range for all three-test administrations. Audiometry data graphs indicate no clear distinction among pre-test, egress day and post-test audiometry measurements.</p>\r\n<p>A modified sign test was performed on the data as an indication of the overall tendency of the measured hearing threshold. Arithmetic differences between the egress day and pre-test measures were obtained for each data pair. There was no significant difference between the two measurements for hearing loss or improvement. However, a similar comparison showed that the hearing threshold measured at the post-test was better than either the pre-test or egress day tests. Yet, of the 56 comparisons among the pre-test, egress day and post-test, there were five for which the egress day measurements suggested hearing threshold loss that did not return to pre-test baseline level.</p>\r\n<p>Some interesting factors may explain the audiogram results. Upon egress, cheering crowds generated more noise than that found in the living areas of the chamber. This can be observed from the dosimeter readings. The loud celebration noise may have confounded the results of the egress day measures that were taken within two hours after egress. Another confounding factor may have been the subjects' environment during the pre-test baseline measures. During this timeframe, the subjects were involved in the development, assembly and testing of the mechanical equipment for the chamber. All pre-test hearing measurements were taken during the afternoon, after at least a half-day of work in a noisy environment. The subjects were also involved in the operation and maintenance of this equipment during the 91 days of the chamber test. About a week after egress day, the subjects took vacations, and the equipment was turned off. So the post-test measures were obtained after the subjects had been in a different noise environment, and under different stress conditions that were not monitored.</p>\r\n<p>After the first data were analyzed and reported to the subjects in the chamber, steps were taken to reduce the noise. Noise insulation barriers were constructed and redundant equipment was turned off. Schedules were changed so that the noisiest equipment was not operated when the subjects were in that area. The results of this study will be used to provide motivation to reduce the noise levels of the air and water revitalization equipment. A continuing benefit for habitation study crews is an increased understanding and awareness of the noise levels in a closed environment.<end></end></p>",
+  "payload_id": "LMLSTP",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "LMLSTP3.3",
+  "indexed": "2026-08-23T04:16:32.333571+00:00",
+  "GUID": "cl62axw6bcd0z01o6770cd7kd",
+  "parameter_name": [
+   "Sound intensity, decibels",
+   "Sound intensity, decibels perceived",
+   "Sound intensity, frequencies perceived"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 925,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Human factors",
+   "Neuroscience",
+   "Environmental monitoring",
+   "Clinical medicine",
+   "Behavior and performance"
+  ],
+  "pme_role_with_name": [
+   "Co-Investigator: Feeback, Daniel",
+   "Principal Investigator: Foley, Tico"
+  ],
+  "missions": [
+   [
+    [
+     "LMLSTP"
+    ]
+   ]
+  ],
+  "__dirid": "1b5df68e-c84b-59a3-b640-e2151357fce6",
+  "__record_size_wo_doccontent": 218183,
+  "PI": [
+   "Foley, Tico"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "LMLSTP3.3"
+  ],
+  "mission_id": [
+   [
+    [
+     "LMLSTP"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "proposal_date": [],
+  "proposal_source": [],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Foley, Tico"
+  ],
+  "program_name": [
+   "Ground"
+  ],
+  "archive_status": "Data preservation is complete. Privacy-protected datasets are available via data request. Remaining datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Ground",
+  "__source_field_concat": "PUB001078 LMLSTP cl62axw6bcd0z01o6770cd7kd Auditory threshold  N/A Acoustic Noise During the Phase III Chamber Test LMLSTP3.3 Ground",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<br>\r\nDuring the Lunar-Mars Life Support Test Project (LMLSTP), four test subjects participated in the 91-day experiment. As part of the acoustic study, they measured sound decibels in different life support areas of the test chamber. The LMLSTP enclosed test chamber was divided into three levels. The first level contained general living quarters with a dining/work table, communications, test and video equipment. The first level also contained a kitchen, bathroom and laundry facilities. The second level contained the mechanical equipment for air revitalization, storage and stationary bicycle. This level was the noisiest, and due to the location of the stairs, the subjects had to pass through this level while traveling between the first and third levels. The third level contained primary living quarters with bedrooms, partial bath and entertainment equipment. This level was the quietest. The goal of the acoustic noise study was to monitor and describe the noise environment of the 20-foot chamber during its extended 91-day operation. Noise levels were measured at multiple locations and subjects performed hearing threshold tests called audiograms at various frequencies before and after the chamber experience. The hearing threshold is the softest sound a person is able to hear. It is not clear what level of hearing threshold shift is cause for concern, but it is certain that larger changes in threshold are more serious. Monitoring acoustic noise in the chamber enabled recommendations to be formulated for hearing protection, if necessary. These measurements also established a baseline measure of the noise environment for comparison with other Earth-bound analog test facilities.\r\n<p>\r\nIn acoustic studies, noise is defined as undesirable sounds in the air in the hearing range of approximately 20 to 20,000 Hz. A certain level of noise can be tolerated over an eight-hour workday without long-term hearing detriment, but this same noise level may not be acceptable if it is continuous over a 24-hour period, such as in the closed environment of a space vehicle. During periods of loud noise, the blood vessels in the ear involuntarily constrict and reduce blood flow to protect the hair cells responsible for hearing. Outer hair cells respond to low intensity sound and become continuously stimulated or \"saturated\", by loud noise. The inner hair cells remain functional because they respond only to high intensity sounds. A temporary hearing threshold shift may thus occur due to chronic noise. An upward shift of hearing threshold can become permanent, since the outer hair cells that respond to low intensity sound would not have a chance to recover their normal function and would eventually die. Government regulations developed by the U.S. Environmental Protection Agency (EPA) set the maximum background noise level that an individual may be exposed to during an eight-hour day at 90 dB. Exposure to levels over 85 dB requires routine monitoring for hearing loss and the institution of hearing conservation programs. The EPA suggests that an eight-hour average noise level over 75 dB presents a reasonable risk for hearing loss.\r\n<p>\r\nAPPROACH:<br>\r\nLMLSTP test subjects collected sound level measurements in various locations throughout the chamber module starting with entry day ceremonies, continuing regularly during the 91-day operation and ending with the welcome home celebrations. In total, 283 sample measurements of acoustic noise were collected from the chamber during the experiment.</p>\r\n<p>Noise levels were measured using an audio dosimeter and a more accurate sound level meter to obtain an A-weighted overall sound pressure level measurement at each location. The A-weighting represents the ear sensitivity by combining all frequencies together and averaging them to give a decibel value. Sample measurement locations were determined using two methods. In one method, each subject was asked to subjectively identify the noise sources and noisier locations in the chamber. Following discussion, the subjects jointly decided upon 25 locations to measure noise, including quiet locations that served as controls. The other method of determining measurement locations was the use of predetermined, geographically-spaced areas on each chamber level. Four different heights above the floor were monitored based on locations where a hypothetical fiftieth-percentile person's ear would be located during various activities. Measurements were taken at 10 cm above the surface of the floor to represent a person lying down, at 75 cm above the floor to represent a person sitting on the floor, at 120 cm above the floor to monitor a person sitting in a chair, and at 150 cm above the floor to represent a person standing. The locations were spaced at 30-degree increments about 60 cm from the wall, space permitting, and at the center axis of each level. Locations where the subjects were likely to spend more time were also chosen, such as a computer workstation, bed, stove, table, exercise machine, etc. A measurement was taken within 60 to 100 cm of the middle of any large area not already measured by other methods. Since this was a screening procedure, most data were rounded off to the nearest unit.</p>\r\n<p>Noise loudness is measured using sound level meters. Total noise exposure over a period of time is measured with a noise dosimeter. To determine how acoustic noise levels varied throughout a typical 24-hour day for each subject, an Ametek Audio Dosimeter (Model MK-3) was used in the dosimeter mode. An average was determined each minute as loudness equivalent (Leq 1 min) of a 24-hr period. This method produced 1440 samples each day. Data was downloaded to a desktop computer and graphed as noise level versus time, creating a histogram for each selected noise level interval.</p>\r\n<p>Each test subject wore the dosimeter over two 24-hour periods. Additionally, one subject wore the dosimeter for approximately one hour before, and one hour after, entering the chamber on the first day and an hour before and after exiting the chamber on the last day. On each of three other days, the dosimeter was placed in a central location in a bedroom, left among equipment on the second level, and attached to the ceiling in the middle of the first level. The exact days that the subjects wore the dosimeter, and the exact days and locations that the dosimeter was placed in a room were up to the subjects' discretion.</p>\r\n<p>Investigators wanted to know whether or not the noise levels inside the chamber would affect the threshold hearing levels of the subjects over the course of the 91-day stay in chamber. Hearing tests, called pure-tone air conduction audiometry, were conducted under standard conditions at the health clinic at NASA's Johnson Space Center (JSC) in a sound-insulated booth. A microprocessor-controlled audiometer presented pure tone stimuli to the subject and recorded his or her responses. The subject wore a headset through which the sounds were transmitted to each ear. When the subject heard a sound, he or she pushed a button, and the monitoring computer recorded the response. The computer presented sounds at predetermined frequencies and at incremental amplitudes, getting softer until there was no subject response, and then louder until there was a response, to double-check the person's threshold. Each ear was tested independently starting with frequencies of 1000 cycles per second (Hz). This first measurement at 1000 Hz was a training run. Then, the test was conducted at frequencies of 500 Hz, 1000 Hz, 2000 Hz, 3000 Hz, 4000 Hz, 6000 Hz and 8000 Hz for a total of seven data collection sessions and 42 audiogram measurements per subject.</p>\r\n<p>In an audiometry test, the hearing level is quantified based on what the normal ear detects, and a score of zero indicates normal hearing. Scores above zero indicate hearing loss. A 100 dB hearing loss at any frequency is nearly equivalent to complete deafness at that particular frequency tested. The four chamber test subjects were each given three audiograms. The first, conducted at the time of medical examination for eligibility, established a baseline measure. The second audiogram was performed within two hours after the subject left the chamber to determine whether there was any shift in hearing threshold after 91 days in the chamber. The third audiogram occurred between six and fourteen weeks after chamber egress to determine whether the hearing threshold had returned to baseline. It was expected that there would be a hearing threshold shift on egress day, but that no permanent shift would occur.</p>\r\n<p>\r\nRESULTS:<br>\r\nOn the first chamber level, the acoustic noise from 105 measurements averaged 63.2 dB(A). The noisiest general area was the airlock, which averaged 63.7 dB(A), and where major noise contributors included exercise machines and ventilation fans. The only measurements that equaled or exceeded 70 dB(A) were from intermittent noise sources. The television was the loudest measured equipment noise source (average 75.2 dB(A)).</p>\r\n<p>The second level was much noisier, and the subjects reportedly avoided the area. The average noise level over 94 measurements was 74.6 dB(A). Only two of the samples were measured at less than 70 dB(A). Twelve measurements were in excess of 80 dB(A).</p>\r\n<p>On the third level, which was quieter than the others, noise levels were similar to those in a typical single-family residence. The average noise level over 84 measurements was 51.5 dB(A). Measurements in the immediate proximity of the beds averaged 42.4 dB(A). The noisiest area on the third level was in the hallway, averaging 59.8 dB(A), especially near the ladder that led to the noisier second level.</p>\r\n<p>Data from the dosimeter attached to a subject for a 24-hour period was consistent with that obtained by the sound level meter. It was possible to discern where the subject was in the chamber by analyzing the readings from the dosimeter. The first level's background noise was measured in the mid-60 dB(A) range, with an occasional spike attributed to human voices during conversation. Periods of time where noise measured above 70 dB(A) represented transitions through, or short visits to, the louder second level. Rest or quiet work on the third level could be assumed from the periods of time that measured 60 dB(A). When the subjects exited the chamber at egress, the dosimeters measured above 90 dB(A) during the first 10 minutes and above 80 dB(A) for most of the first hour.</p>\r\n<p>Audiogram measurements of the subjects on the pre-test ranged from 0 to 50 dB. A measure of 0 indicates that the threshold of hearing is the same as that for an average person without hearing loss, while larger numbers indicate hearing loss. Shifts of 5 dB or less are not considered problematic because they are within the range of expected test errors. On egress-day, audiogram measurements were 0 to 50 dB. Post-test measurements were 0 to 45 dB. For two subjects, all measurements were at or below 20 db; for another subject, all were at or below 25 dB. The final subject gave readings at or below 10 dB in one ear, while the other ear measured hearing loss in the 45 to 50 dB range for all three-test administrations. Audiometry data graphs indicate no clear distinction among pre-test, egress day and post-test audiometry measurements.</p>\r\n<p>A modified sign test was performed on the data as an indication of the overall tendency of the measured hearing threshold. Arithmetic differences between the egress day and pre-test measures were obtained for each data pair. There was no significant difference between the two measurements for hearing loss or improvement. However, a similar comparison showed that the hearing threshold measured at the post-test was better than either the pre-test or egress day tests. Yet, of the 56 comparisons among the pre-test, egress day and post-test, there were five for which the egress day measurements suggested hearing threshold loss that did not return to pre-test baseline level.</p>\r\n<p>Some interesting factors may explain the audiogram results. Upon egress, cheering crowds generated more noise than that found in the living areas of the chamber. This can be observed from the dosimeter readings. The loud celebration noise may have confounded the results of the egress day measures that were taken within two hours after egress. Another confounding factor may have been the subjects' environment during the pre-test baseline measures. During this timeframe, the subjects were involved in the development, assembly and testing of the mechanical equipment for the chamber. All pre-test hearing measurements were taken during the afternoon, after at least a half-day of work in a noisy environment. The subjects were also involved in the operation and maintenance of this equipment during the 91 days of the chamber test. About a week after egress day, the subjects took vacations, and the equipment was turned off. So the post-test measures were obtained after the subjects had been in a different noise environment, and under different stress conditions that were not monitored.</p>\r\n<p>After the first data were analyzed and reported to the subjects in the chamber, steps were taken to reduce the noise. Noise insulation barriers were constructed and redundant equipment was turned off. Schedules were changed so that the noisiest equipment was not operated when the subjects were in that area. The results of this study will be used to provide motivation to reduce the noise levels of the air and water revitalization equipment. A continuing benefit for habitation study crews is an increased understanding and awareness of the noise levels in a closed environment.<end></end></p>",
+  "__doi": "10.83263/z56c-ea13",
+  "__doi_record_creation_date": "2026-08-23T04:16:32",
+  "__doi_record_modified_date": "2026-08-23T04:16:32"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000041",
+   "label": "JMGROUNDLMLSTP33_121",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Arithmetic Sums of Threshold Hearing Measures",
+    "dataset_catalog": "JMGROUNDLMLSTP33_121",
+    "dataset_description": [
+     "Hearing tests, also called audiograms or pure-tone air conduction audiometry, were conducted under standard conditions at the health clinic at NASA JSC.  The microprocessor audiometer produced pure tone stimuli, recorded subject responses to the sounds and sent the responses to a database.  Three audiograms were administered to each of the four LMLSTP subjects.  The first occurred at the medical examination required to meet the eligibility requirements, and established baseline readings.  The second audiogram occurred within two hours after the subjects egressed the chamber, and the last occurred between 6 and 14 weeks after chamber egress to determine if the hearing threshold had returned to baseline.  \u000b<P> \u000bThe audiometer tested each ear independently and started with a training frequency of 1000 cycles per second (Hz).  Actual testing proceeded at frequencies of 500, 1000, 2000, 3000, 4000 and 8000 Hz and produced a total of 42 audiogram measurements per subject.  Each subject took approximately 12 minutes to complete one audiogram test.  \u000b<P>\u000bAn audiogram result of zero indicates that the threshold of hearing is the same as that for an average person without hearing loss.  Results above zero indicate hearing loss.  Shifts of 5 dB or less are within the range of expected test errors. \u000b<END>",
+     "This table shows the arithmetic sums of each audiometry test for each frequency tested.  The frequencies in hertz are shown at the top heading and the three audiograms, pre-test, egress day and post-test, are listed in the first column.  The units of the data for each audiogram at the different frequencies are arithmetic sums of decibels.  The total sums for each frequency and for each audiogram are given along with the ranges.  <P>Source: Foley T. Acoustic Noise During the Phase III Chamber Test. In: Lane HW, Sauer RL, Feeback DL, eds. <I>Isolation: NASA Experiments in Closed-Environment Living</I>.  San Diego, CA: Univelt, Incorporated; 2002; 104:117-130. <END>"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "LMLSTP3.3"
+    ]
+   },
+   "meta": "1 file \u00b7 15.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "f7c7f7a7-db81-55c1-8fc4-48ba99a7448a",
+     "label": "JMGROUNDLMLSTP33_121.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 15360,
+     "meta": "15.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000586",
+   "label": "JMGROUNDLMLSTP33_114",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Second Floor Sound Level Measurements",
+    "dataset_catalog": "JMGROUNDLMLSTP33_114",
+    "dataset_description": [
+     "This table gives the data associated with the decibel readings of locations on the second level of the ground-based LMLSTP 91-day mission.  There were 94 measurements with an average reading of 74.6 dB(A).  The standard deviation, range, maximum and minimum readings are shown.  <P>Source: Foley T.  Acoustic Noise During the Phase III Chamber Test.  In : Lane HW, Sauer RL, and Feeback DL, eds. Isolation: NASA Experiments in Closed-Environment Living. American Astronautical Society Science and Technology Series; Vol 104. San Diego, CA. Univelt, Incorporated; 2002.<END>"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "LMLSTP3.3"
+    ]
+   },
+   "meta": "1 file \u00b7 15.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "a9da9db6-81fb-5148-b007-d4a055c3fc69",
+     "label": "JMGROUNDLMLSTP33_114.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 15360,
+     "meta": "15.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000589",
+   "label": "JMGROUNDLMLSTP33_120",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Audiometry Comparisons",
+    "dataset_catalog": "JMGROUNDLMLSTP33_120",
+    "dataset_description": [
+     "This table shows the arithmetic differences between the egress day, pre-test and post-test audiogram results after a modified sign test was performed on the data.  There was no significant differences between the results of the egress day and the pre-test audiograms.  A similar comparison showed that the hearing at the post-test was better than either the pre-test or the egress day results.  <P>Foley T, Acoustic Noise During the Phase III Chamber Test. In: Lane HW, Sauer RL, Feeback DL, eds. <I>Isolation: NASA Experiments in Closed-Environment Living</I>.  San Diego, CA: Univelt, Incorporated; 2002; 104:117-130. <END>"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "LMLSTP3.3"
+    ]
+   },
+   "meta": "1 file \u00b7 15.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "5279bb42-1d85-5c4d-8004-9ad48465f6c2",
+     "label": "JMGROUNDLMLSTP33_120.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 15360,
+     "meta": "15.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000859",
+   "label": "JMGROUNDLMLSTP33_115",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Third Floor Sound Level Measurements",
+    "dataset_catalog": "JMGROUNDLMLSTP33_115",
+    "dataset_description": [
+     "This table lists the A-weighted decibel levels of the third level of the LMLSTP.  There were 84 measurements with an average of 51.5 dB(A).  The areas measured were the rooms, beds, doorway, water closet and hall.  Standard deviations, ranges, maximum and minimum levels are listed.  <P>Source: Foley T. Acoustic Noise During the Phase III Chamber Test. In: Lane HW, Sauer RL, Feeback DL, eds. <I>Isolation: NASA Experiments in Closed-Environment Living</I>.  San Diego, CA: Univelt, Incorporated; 2002; 104:117-130. <END>"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "LMLSTP3.3"
+    ]
+   },
+   "meta": "1 file \u00b7 16.5 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "619b9eda-3a7f-5d88-b567-4e11ca8f979d",
+     "label": "JMGROUNDLMLSTP33_115.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 16896,
+     "meta": "16.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001086",
+   "label": "JMGROUNDLMLSTP33_119",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Group Averaged Audiometry Hearing Test Data for Four Crewmembers",
+    "dataset_catalog": "JMGROUNDLMLSTP33_119",
+    "dataset_description": [
+     "The two charts show the crewmembers' averages of the audiometry test results.  There is no clear distinction among pre-test, egress day and post-test audiometry measures.  The chart on top shows left ear average results, while the lower chart shows the same for the right ear.  The X axis lists the frequency tested and the Y axis the decibels heard by the subjects for each of the frequencies.  There are three graphed lines on each chart corresponding to the three different audiograms each crewmember took.  The triangle symbols show the first audiogram results, the black squares show the egress day audiogram results, and the gray squares show the last, post-test audiogram results.  <P>Source: Foley T.  Acoustic Noise During the Phase III Chamber Test. In: Lane HW, Sauer RL, Feeback DL, eds. <I>Isolation: NASA Experiments in Closed-Environment Living</I>.  San Diego, CA: Univelt, Incorporated; 2002; 104:117-130. <END>"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "LMLSTP3.3"
+    ]
+   },
+   "meta": "1 file \u00b7 3.56 MB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "9a8776b8-2c3b-50a2-ad73-01a9ce2d8259",
+     "label": "JMGROUNDLMLSTP33_119.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 3732931,
+     "meta": "3.56 MB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000956",
+   "label": "JMGROUNDLMLSTP33_113",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "First Floor Overall Sound Pressure Level Measurements",
+    "dataset_catalog": "JMGROUNDLMLSTP33_113",
+    "dataset_description": [
+     "This table lists the A-weighted decibel levels of the first level of the LMLSTP.  There were 105 measurements with an average of 63.2 dB(A).  The areas measured were the living room/dining room, the bath, the kitchen and the airlock.  The noisiest general area was the airlock at 63.7 dB(A).   Standard deviations, ranges, maximum and minimum levels are listed.  <P>Source: Foley T.  Acoustic Noise During the Phase III Chamber Test.  In : Lane HW, Sauer RL, and Feeback DL, eds. Isolation: NASA Experiments in Closed-Environment Living. American Astronautical Society Science and Technology Series; Vol 104. San Diego, CA. Univelt, Incorporated; 2002.<END>"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "LMLSTP3.3"
+    ]
+   },
+   "meta": "1 file \u00b7 16.5 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "dbe2c14f-2dd1-5e24-8fa4-136accd536c2",
+     "label": "JMGROUNDLMLSTP33_113.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 16896,
+     "meta": "16.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001422",
+   "label": "JMGROUNDLMLSTP33_122",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "First Floor Dosimeter Readings",
+    "dataset_catalog": "JMGROUNDLMLSTP33_122",
+    "dataset_description": [
+     "The first table shows the number of minutes recorded at each decibel level during sound measurement of the first floor of the chamber.  The percentage of total recording time is given for each decibel level.  The number of hours at each decibel level are also shown.  This table is then plotted in the second graph.<P>The small table under the first table breaks down the data into decibel ranges, enabling the viewer to assess how long each decibel range was experienced in the chamber.  No time was spent with decibels under sixty; the entire recording time measured sixty decibels and up.  Nearly ninety percent of the 24-hour time spent monitoring was recorded at sixty to seventy decibels.  Approximately ten percent of the monitoring time was recorded at seventy to eighty decibels, and no time was recorded at eighty decibels or above. <P>The first graph shows the distribution of decibels of sound across the hours of the day that was measured.  As expected, the lowest noise levels occurred during the early morning hours and were relatively consistent during sleeping hours.  <P>The second graph plots the time in minutes spent at each decibel level.  The numbers at the top of the bars are the number of minutes at that bar decibel value.  This graph reflects the data in the first table above it.<P>The bottom table shows the decibel reading at each minute recorded during the 24-hour recording period. <P>Source: Foley T. Unpublished data.<END>"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "LMLSTP3.3"
+    ]
+   },
+   "meta": "1 file \u00b7 418.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "14f80308-5a17-52bf-abbf-0b8ef114e5ef",
+     "label": "JMGROUNDLMLSTP33_122.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 428032,
+     "meta": "418.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001472",
+   "label": "JMGROUNDLMLSTP33_126",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Sound Measurements From Predetermined Locations Throughout the LMLSTP Chamber.",
+    "dataset_catalog": "JMGROUNDLMLSTP33_126",
+    "dataset_description": [
+     "The figures show, on maps of the floors, the sound measurement values from predetermined locations throughout the LMLSTP chamber.  Each floor shows multiple sites and corresponding sound measurements at four different heights above the surface of the floor.  The first height is 10 cm, the second height is 75 cm, the third height is 129 cm and the fourth height is 150 cm.<P>Source: Foley T. Unpublished data.<END>"
+    ],
+    "processing_level": [],
+    "experiment_id": [
+     "LMLSTP3.3"
+    ]
+   },
+   "meta": "1 file \u00b7 1.10 MB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "e1d12b51-64e9-5dc3-bdf8-8e1540e985a4",
+     "label": "JMGROUNDLMLSTP33_126.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 1153434,
+     "meta": "1.10 MB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001708",
+   "label": "JMGROUNDLMLSTP33_127",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Sound Measurements From Locations Determined Subjectively Throughout the LMLSTP Chamber.",
+    "dataset_catalog": "JMGROUNDLMLSTP33_127",
+    "dataset_description": [
+     "The figures show, on maps of the floors, the sound measurement values from locations determined subjectively by the LMLSTP subjects in the chamber. <P>Source: Foley T. Unpublished data.<END>"
+    ],
+    "processing_level": [],
+    "experiment_id": [
+     "LMLSTP3.3"
+    ]
+   },
+   "meta": "1 file \u00b7 151.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "4e37fdac-b0c5-5ed4-a6ed-7ec595873d08",
+     "label": "JMGROUNDLMLSTP33_127.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 154624,
+     "meta": "151.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001729",
+   "label": "JMGROUNDLMLSTP33_124",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Third Floor Dosimeter Readings",
+    "dataset_catalog": "JMGROUNDLMLSTP33_124",
+    "dataset_description": [
+     "The first table shows the number of minutes recorded at each decibel level during sound measurement of the third floor of the chamber.  The percentage of total recording time is given for each decibel level.  The number of hours at each decibel level are also shown.  This table is then plotted in the second graph.<P>The small table under the first table breaks down the data into decibel ranges, enabling the viewer to assess how long each decibel range was experienced in the chamber.  Close to one hundred percent of the time recorded measured in the forty to fifty decibel range. <P>The first graph shows the distribution of decibels of sound across the hours of the day that was measured.  The third floor remained at a relatively consistent noise level throughout the 24-hour day with spikes at various intervals.   \u000b<P>\u000bThe second graph plots the time in minutes spent at each decibel level.  The numbers at the top of the bars are the number of minutes at that bar decibel value.  This graph reflects the data in the first table above it.<P>The bottom table shows the decibel reading at each minute recorded during the 24-hour recording period.  <P>Source: Foley T. Unpublished data.<END>"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "LMLSTP3.3"
+    ]
+   },
+   "meta": "1 file \u00b7 418.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "1ce32c17-4119-538b-8b35-ffcb1689ec0c",
+     "label": "JMGROUNDLMLSTP33_124.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 428032,
+     "meta": "418.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001767",
+   "label": "JMGROUNDLMLSTP33_1",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Frequency Analysis Data Recording Sheet",
+    "dataset_catalog": "JMGROUNDLMLSTP33_1",
+    "dataset_description": [
+     "The tables show the decibel levels eminating from various pieces of equipment throughout the LMLSTP chamber.  The first row of the table shows the level on which the equipment was located.  The second row shows the equipment or the location where the decibel reading was taken.  Two of the pieces of equipment are the Trace Contaminant Control System (TCCS) and the Four- Bed Molecular Sieve (4-BMS) which adsorbs carbon dioxide.  The values in the first column of the table are the frequencies of sound that were monitored.  The frequencies are broken down into one third of an octave.  The values are given in cps or cycles per second.  The K following some of the numerals indicates 1000 cps.  Thus, the 8 K is 8000 cps.  For each piece of equipment or location the decibels are given for each of these frequencies.  At the bottom of the table, in the second to last row, is the A-weighted value that shows the overall decibel level for all frequencies combined for each piece of equipment or location.  The comments row shows the distance from the equipment that the docimeter was held.  <P>The maps following the tables are the maps of each level of the LMLSTP chamber.  They show the locations of the pieces of equipment that were monitored and presented in the tables. <P>Source: Foley T.  Unpublished data..<END>"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "LMLSTP3.3"
+    ]
+   },
+   "meta": "1 file \u00b7 1.30 MB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "08ba2bc5-171b-5101-b071-f7cb397a6152",
+     "label": "JMGROUNDLMLSTP33_1.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 1363149,
+     "meta": "1.30 MB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001878",
+   "label": "JMGROUNDLMLSTP33_123",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Second Floor Dosimeter Readings",
+    "dataset_catalog": "JMGROUNDLMLSTP33_123",
+    "dataset_description": [
+     "The first table shows the number of minutes recorded at each decibel level during sound measurement of the second floor of the chamber.  The percentage of total recording time is given for each decibel level.  The number of hours at each decibel level are also shown.  This table is then plotted in the second graph.<P>The small table under the first table breaks down the data into decibel ranges, enabling the viewer to assess how long each decibel range was experienced in the chamber.  Nearly one hundred percent of the 24-hour time spent monitoring was recorded at seventy to eighty decibels.  <P>The first graph shows the distribution of decibels of sound across the hours of the day that was measured.  The second floor remained at a consistent noise level throughout the 24-hour day.  <P>The second graph plots the time in minutes spent at each decibel level.  The numbers at the top of the bars are the number of minutes at that bar decibel value.  This graph reflects the data in the first table above it.<P>The bottom table shows the decibel reading at each minute recorded during the 24-hour recording period. <P>Source: Foley T. Unpublished data.<END>"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "LMLSTP3.3"
+    ]
+   },
+   "meta": "1 file \u00b7 422.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "a3115f27-076b-56ce-bf58-d11635bd8268",
+     "label": "JMGROUNDLMLSTP33_123.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 432128,
+     "meta": "422.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001879",
+   "label": "JMGROUNDLMLSTP33_125",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Probability Density Function for Dosimetry Data",
+    "dataset_catalog": "JMGROUNDLMLSTP33_125",
+    "dataset_description": [
+     "The histograms show the probability density functions (PDF) for the data from the dosimeter that was placed for twenty-four hours on each of the three floors of the LMLSTP chamber.  For all histograms, the X-axis depicts decibels and the Y-axis depicts percentages.  The first histogram shows the PDF from the first floor, the second histogram shows the PDF from the second floor and the third histogram shows the PDF from the third floor.  The percentages shown by the tops of the bars are the percentages of the total minutes measured at the decibel values of the respective bars.  For the second floor, 49% of the one-minute intervals were at 73 decibels.  Start Time: 18:30 OCT 14; 15:30 NOV 9; 7:00 OCT 26.  Stop Time: 18:30 OCT 15; 15:30 NOV 10; 7:00 OCT 27.<P>Source: Foley T. Unpublished data.<END>"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "LMLSTP3.3"
+    ]
+   },
+   "meta": "1 file \u00b7 1.30 MB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "25136a87-484a-5ad5-8146-8d035af26f81",
+     "label": "JMGROUNDLMLSTP33_125.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 1363149,
+     "meta": "1.30 MB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002186",
+   "label": "JMGROUNDLMLSTP33_128",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Data Collection Timetables for LMLSTP3.3",
+    "dataset_catalog": "JMGROUNDLMLSTP33_128",
+    "dataset_description": [
+     "This spreadsheet represents the data collection timetables for acoustic noise monitoring and audiograms for this experiment.  Information included in this spreadsheet may include information on the test protocol, data collection constraints, parameters measured, hardware used, scheduled versus actual days of data collection, and subject information."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "LMLSTP3.3"
+    ]
+   },
+   "meta": "1 file \u00b7 47.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "925b0566-a000-58fd-be1d-6184684bdf9c",
+     "label": "JMGROUNDLMLSTP33_128.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 48128,
+     "meta": "47.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

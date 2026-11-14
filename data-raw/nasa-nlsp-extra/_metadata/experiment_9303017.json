@@ -1,0 +1,453 @@
+{
+ "record": {
+  "id": "e9ad0956-c8f0-544f-b1a9-35e6a65d2f2f",
+  "_id": "e9ad0956-c8f0-544f-b1a9-35e6a65d2f2f",
+  "experiment_title": "Histological Effects of Microgravity on Rat Body Wall Musculature",
+  "pub_document_number": "ARCPUB000894",
+  "parameter_html": "<table><tr><td>Properties, Fiber, abdominal rectus, muscle, rat, Histo-, immuno-chemistry, microscopy</td></tr><tr><td>Properties, Fiber, diaphragm, muscle, rat, Histo-, immuno-chemistry, microscopy</td></tr><tr><td>Properties, Fiber, external oblique, muscle, rat, Histo-, immuno-chemistry, microscopy</td></tr><tr><td>Properties, Fiber, internal oblique, muscle, rat, Histo-, immuno-chemistry, microscopy</td></tr><tr><td>Size, diameter, Fiber, abdominal rectus, muscle, rat: Image analysis.</td></tr><tr><td>Size, diameter, Fiber, diaphragm, muscle, rat: Image analysis.</td></tr><tr><td>Size, diameter, Fiber, external oblique, muscle, rat: Image analysis.</td></tr><tr><td>Size, diameter, Fiber, internal oblique, muscle, rat: Image analysis.</td></tr><tr><td>Temperature, AEM, NIH.R2, Ambient temperature recorder (ATR)</td></tr><tr><td>Weight, tissue, Abdominal rectus, muscle, rat, Balance (CGS units)</td></tr><tr><td>Weight, tissue, Diaphragm, muscle, rat, Balance (CGS units)</td></tr><tr><td>Weight, tissue, External oblique, muscle, rat, Balance (CGS units)</td></tr><tr><td>Weight,, tissue, Internal oblique, muscle, rat Balance (CGS units)</td></tr><tr></tr></table>",
+  "__source_key": "cl62au62hcb0t01o672am8gt6",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Wassersug, Richard\">Principal Investigator: Wassersug, Richard</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Fejtek, Monika\">Co-Investigator: Fejtek, Monika</a>",
+  "keyword": [
+   "Myosin heavy chains  (MHC)",
+   "Rectus abdominis",
+   "Cesarean section"
+  ],
+  "keyword_name": "Cesarean section",
+  "__record_version": 28,
+  "experiment_description": "<B>Objectives:</B><P>The purpose of this study was to examine the effects of four variables on histological properties of three muscles from the rat body wall. The muscles examined were the rectus abdominis (RA), transversus abdominis (TA), and external oblique (EO). These muscles function in both locomotion and in raising intra-abdominal pressure to expel material, including pups at birth, from the body cavity. The variables examined were: 1) gestation, 2) animal caging, 3) the effect of a midline laparotomy performed early in gestation to determine fetus numbers, 4) exposure to spaceflight.<P><B>Approach:</B><P>One group of flight rats underwent cesarean section immediately following flight after which muscles were removed and frozen for shipment. Serial cross sections were taken from frozen muscles of the specimens. Fiber size and density were determined by image analysis.  Samples were incubated with monoclonal antibodies specific for slow myosin heavy chain (MHC) and fast MHC. Metabolic enzyme markers succinate dehydrogenase and alpha-glycerophosphate dehydrogenase were used to determine fiber oxidative capacity. Changes in enzyme levels were correlated with fiber type.<P><B>Results:</B><P>All four variables listed in the objectives had effects specific to both individual muscles and to experimental conditions.  The TA and RA muscles showed signs of stretching with increased gestation. EO, a rotator of the torso, hypertrophied in rats housed in complex 3 dimensional group cages as compared to control rats housed singly in flat bottom cages.  The TA and EO muscles, whose contractions would pull on the suture line, showed signs of atrophy in laparotomized animals. The hypertrophy of EO, an unexpected result, was consistent with the behavior of the rats in orbit. In microgravity, the rats did not float freely, but instead crawled over the cage walls and each other. This behavior requires active rotation of the torso, indicating weightlessness does not necessarily involve muscle inactivity or unloading. Changes in these muscles did not compromise the ability of the rats to give birth.",
+  "indexed": "2026-08-23T03:58:40.478863+00:00",
+  "GUID": "cl62au62hcb0t01o672am8gt6",
+  "resourceTitle": "https://genelab-data.ndc.nasa.gov/genelab/environmental/radiation",
+  "__model_type": "lsda_experiment",
+  "__dirid": "e9ad0956-c8f0-544f-b1a9-35e6a65d2f2f",
+  "__record_size_wo_doccontent": 70994,
+  "experiment_parms_tissue2": "NULL",
+  "experiment_parms_tissue1": "NULL",
+  "__update_method": "Update CDM",
+  "archive_status_index": 1,
+  "resource_group": "NASA GeneLab Data",
+  "experiment_type_lk": [
+   "Shuttle Life Sciences Research (Middeck)"
+  ],
+  "__record_modified_date": "2026-08-23T03:58:40.478863+00:00",
+  "proposal_source": [
+   "93-OLMSA-03"
+  ],
+  "__indexed": "2026-08-23T03:58:40.478863+00:00",
+  "session_type": "Basal",
+  "__record_creation_date": "2022-07-28T19:40:55.996Z",
+  "__record_size": 70994,
+  "__model_version": 60,
+  "payload_id": "NIH.R2",
+  "CombinedSpecies": [
+   [
+    "Rat (Rattus norvegicus) Sprague-Dawley"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "9303017",
+  "experiment_related": [
+   "No related"
+  ],
+  "parameter_name": [
+   "Properties, Fiber, abdominal rectus, muscle, rat, Histo-, immuno-chemistry, microscopy",
+   "Properties, Fiber, diaphragm, muscle, rat, Histo-, immuno-chemistry, microscopy",
+   "Properties, Fiber, external oblique, muscle, rat, Histo-, immuno-chemistry, microscopy",
+   "Properties, Fiber, internal oblique, muscle, rat, Histo-, immuno-chemistry, microscopy",
+   "Size, diameter, Fiber, abdominal rectus, muscle, rat: Image analysis.",
+   "Size, diameter, Fiber, diaphragm, muscle, rat: Image analysis.",
+   "Size, diameter, Fiber, external oblique, muscle, rat: Image analysis.",
+   "Size, diameter, Fiber, internal oblique, muscle, rat: Image analysis.",
+   "Temperature, AEM, NIH.R2, Ambient temperature recorder (ATR)",
+   "Weight, tissue, Abdominal rectus, muscle, rat, Balance (CGS units)",
+   "Weight, tissue, Diaphragm, muscle, rat, Balance (CGS units)",
+   "Weight, tissue, External oblique, muscle, rat, Balance (CGS units)",
+   "Weight,, tissue, Internal oblique, muscle, rat Balance (CGS units)"
+  ],
+  "exp_index": 687,
+  "research_area": [
+   "Developmental biology",
+   "Muscle physiology"
+  ],
+  "protocol_approach": "Delayed synchronous control",
+  "pme_role_with_name": [
+   "ARC Deputy Payload Manager: Aquilina, Rudolph",
+   "ARC Experiment Support Scientist: Katen, Katherine",
+   "ARC Payload Manager: Jarvi, Joellen",
+   "ARC Payload Scientist: Dumars, Paula",
+   "ARC Science Payload Manager: Reiss- Bubenheim, Debra",
+   "Co-Investigator: Fejtek, Monika",
+   "Principal Investigator: Wassersug, Richard"
+  ],
+  "missions": [
+   [
+    [
+     "STS-70"
+    ]
+   ]
+  ],
+  "PI": [
+   "Wassersug, Richard"
+  ],
+  "_file_extension": [],
+  "experiment_identifier": [
+   "9303017"
+  ],
+  "mission_id": [
+   [
+    [
+     "STS-70"
+    ]
+   ]
+  ],
+  "center": [
+   "Ames Research Center"
+  ],
+  "ncindex": [
+   7
+  ],
+  "proposal_date": [
+   "7/9/1993"
+  ],
+  "species": [
+   "Rat"
+  ],
+  "PrincipalInvestigator": [
+   "Wassersug, Richard"
+  ],
+  "program_name": [
+   "Shuttle Program"
+  ],
+  "archive_status": "Data preservation is complete. All datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Shuttle Program",
+  "__source_field_concat": "Basal NASA GeneLab Data ARCPUB000894 NIH.R2 cl62au62hcb0t01o672am8gt6 Cesarean section NULL NULL https://genelab-data.ndc.nasa.gov/genelab/environmental/radiation  Delayed synchronous control Histological Effects of Microgravity on Rat Body Wall Musculature 9303017 Shuttle Program Data preservation is complete. All datasets are publicly available.",
+  "__icon_type": "rat",
+  "__description": "<B>Objectives:</B><P>The purpose of this study was to examine the effects of four variables on histological properties of three muscles from the rat body wall. The muscles examined were the rectus abdominis (RA), transversus abdominis (TA), and external oblique (EO). These muscles function in both locomotion and in raising intra-abdominal pressure to expel material, including pups at birth, from the body cavity. The variables examined were: 1) gestation, 2) animal caging, 3) the effect of a midline laparotomy performed early in gestation to determine fetus numbers, 4) exposure to spaceflight.<P><B>Approach:</B><P>One group of flight rats underwent cesarean section immediately following flight after which muscles were removed and frozen for shipment. Serial cross sections were taken from frozen muscles of the specimens. Fiber size and density were determined by image analysis.  Samples were incubated with monoclonal antibodies specific for slow myosin heavy chain (MHC) and fast MHC. Metabolic enzyme markers succinate dehydrogenase and alpha-glycerophosphate dehydrogenase were used to determine fiber oxidative capacity. Changes in enzyme levels were correlated with fiber type.<P><B>Results:</B><P>All four variables listed in the objectives had effects specific to both individual muscles and to experimental conditions.  The TA and RA muscles showed signs of stretching with increased gestation. EO, a rotator of the torso, hypertrophied in rats housed in complex 3 dimensional group cages as compared to control rats housed singly in flat bottom cages.  The TA and EO muscles, whose contractions would pull on the suture line, showed signs of atrophy in laparotomized animals. The hypertrophy of EO, an unexpected result, was consistent with the behavior of the rats in orbit. In microgravity, the rats did not float freely, but instead crawled over the cage walls and each other. This behavior requires active rotation of the torso, indicating weightlessness does not necessarily involve muscle inactivity or unloading. Changes in these muscles did not compromise the ability of the rats to give birth.",
+  "__doi": "10.83263/vryj-5d50",
+  "__doi_record_creation_date": "2026-08-23T03:58:40",
+  "__doi_record_modified_date": "2026-08-23T03:58:40"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000901",
+   "label": "AINV0000000401",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "NIH.R2 Ambient Temperature Recorder (ATR) ground control data - ATR serial number 39 located in ground control AEM serial number 004",
+    "dataset_catalog": "AINV0000000401",
+    "dataset_description": [],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9303017",
+     "9303024",
+     "9303025",
+     "9303030",
+     "9303031 2_2"
+    ]
+   },
+   "meta": "5 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "babd0034-86ea-5e8c-a488-45eea800998d",
+     "label": "3970G004.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ef8d90f7-44be-5d42-8860-4d43c52e1fdf",
+     "label": "3970G004.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7057be8f-21af-5833-8bd9-8924f775bd08",
+     "label": "3970G004.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9fc26250-a61a-5a26-903a-1eb56cfd7743",
+     "label": "3970G004.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "558cef9b-9005-5d8b-ba1e-c29ac91584ec",
+     "label": "3970G004.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001571",
+   "label": "AINV0000000398",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "NIH.R2 Ambient Temperature Recorder (ATR) flight data - ATR serial number 36 located in flight AEM serial number 001",
+    "dataset_catalog": "AINV0000000398",
+    "dataset_description": [],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9303017",
+     "9303024",
+     "9303025",
+     "9303030",
+     "9303031 2_2"
+    ]
+   },
+   "meta": "5 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "a26ed257-b613-5f9d-b9f9-7a03a3edc7c1",
+     "label": "3670F001.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3bacd1de-74f9-5dca-8f7c-29825297039d",
+     "label": "3670F001.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ef47b26c-fd55-55e0-878d-472f988e5276",
+     "label": "3670F001.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a69dde23-e51f-5aaa-bf99-e34e1605b6fc",
+     "label": "3670F001.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6803e6de-b9f5-5226-bbe8-1c70baadbdd8",
+     "label": "3670F001.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002329",
+   "label": "AINV0000000399",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "NIH.R2 Ambient Temperature Recorder (ATR) flight data - ATR serial number 37 located in flight AEM serial number 002",
+    "dataset_catalog": "AINV0000000399",
+    "dataset_description": [],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9303017",
+     "9303024",
+     "9303025",
+     "9303030",
+     "9303031 2_2"
+    ]
+   },
+   "meta": "5 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "38c5e8a7-b950-52a3-a3eb-ff11da8b54bf",
+     "label": "3770F002.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7e75287e-c176-50e9-baac-74ab4b7b34e1",
+     "label": "3770F002.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "bb5e85f3-bd4d-58fd-a798-b295763ca9d6",
+     "label": "3770F002.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4b453809-ccd2-5c33-8c5d-b8c688a84442",
+     "label": "3770F002.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ae5efbd8-539b-58e2-bf38-e9e6c87568b9",
+     "label": "3770F002.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001536",
+   "label": "9303017__2630922787",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Histological Effects of Microgravity on Rat Body Wall Musculature Raw Data",
+    "dataset_catalog": "9303017__2630922787",
+    "dataset_description": [
+     "Raw data related to Myosin Heavy Chain (MHC) study, mice body weights, and data spreadsheets."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9303017"
+    ]
+   },
+   "meta": "0 files",
+   "date": "2022-07-28",
+   "children": []
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002225",
+   "label": "AINV0000000400",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "NIH.R2 Ambient Temperature Recorder (ATR) ground control data - ATR serial number 38 located in ground control AEM serial number 003",
+    "dataset_catalog": "AINV0000000400",
+    "dataset_description": [],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9303017",
+     "9303024",
+     "9303025",
+     "9303030",
+     "9303031 2_2"
+    ]
+   },
+   "meta": "5 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "d2e4ffe9-48c2-575c-bbbe-d64c40eea667",
+     "label": "3870G003.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b0ba450c-e7f6-5fc5-b8e5-14b03f18eae0",
+     "label": "3870G003.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6c07b1df-18d1-53be-b866-d7f7226d56fa",
+     "label": "3870G003.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6516acb5-40b3-5961-9d6d-311cb9949500",
+     "label": "3870G003.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "63fc11f8-ebd3-57dc-a0f3-eea79e866049",
+     "label": "3870G003.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

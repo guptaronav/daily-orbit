@@ -1,0 +1,978 @@
+{
+ "record": {
+  "id": "bb0a11e1-ecc4-5b2c-8f0f-cf7da73e159c",
+  "_id": "bb0a11e1-ecc4-5b2c-8f0f-cf7da73e159c",
+  "__is_locked": false,
+  "experiment_title": "Integrated Resistance and Aerobic Exercise Training With Small Compact Exercise Equipment",
+  "experiment_alias": "NCC958MA02801",
+  "__source_key": "cl62b27k9ce0k01o6bocr7ngs",
+  "experiment_type": [
+   [
+    "Flight Analogs Project (FAP)"
+   ],
+   [
+    "NASA Bedrest Studies"
+   ]
+  ],
+  "AssignedArchivist": [
+   "None Selected",
+   "Liddell, Nyaia A."
+  ],
+  "keyword": [
+   "Exercise",
+   "Magnetic resonance imaging (MRI)",
+   "Musculoskeletal physiology",
+   "Oxygen consumption",
+   "Ultrasonography"
+  ],
+  "__record_version": 31,
+  "hrr_task_title": "Integrated Resistance and Aerobic Training Study",
+  "experiment_description": "<div>OBJECTIVES:</div><div>Campaign 11 utilized 70 days of six degrees head-down bed rest. This study consisted of 13 days of pre bed rest for the non-exercise group and 21 days of pre bed rest for the exercise group, as well as 14 days of post bed rest. Head-down tilt bed rest relieves longitudinal gravitational loading of the cardiovascular, bone, and muscle systems. Healthy subjects exposed to prolonged bed rest experience some of the adaptive physiological responses and associated deconditioning seen in astronauts exposed to prolonged weightlessness. Campaign 11 onsisted of the integration of standard measures and visual monitoring with investigator study protocols.  \nThe objective of the Integrated Resistance and Aerobic Training (iRATS) was for subjects to perform six days per week of exercise training that consisted of a combination of high intensity resistance and aerobic exercise in order to maintain cardiovascular fitness and muscular strength and function during bed rest. </div><div>\nAPPROACH:</div><div>Prior to the start of bed rest, subjects followed a schedule of resistance and aerobic exercise training five days per week to familiarize themselves with the equipment and protocols.  These exercise sessions were individualized based on fitness and comfort level with the equipment.  The goal of the pre-bed rest training period was to \u201cramp-up\u201d the subjects to the full integrated resistance and aerobic training prescription and identify loads and speed settings for the in-bed rest training sessions.  The subject also performed a stretching exercise regimen during exercise sessions, with the aid of an exercise physiologist.  \n</div><div>\nDuring bed rest, subjects performed supine resistance training and continuous and interval aerobic exercise six days per week.  The resistance exercise and continuous aerobic exercise that occur on the same day were separated by at least&nbsp;four hours.  Resistance exercise sessions were performed using an in-house designed squat machine and modified commercial off-the-shelf (COTS) equipment.  The resistance training sessions consisted of a variety of squat, heel raise, leg press and leg curl exercises.  The aerobic exercise sessions were completed using a supine cycle ergometer and vertical treadmill.  At least two-thirds of the aerobic exercise sessions were performed on the treadmill.  \n</div><div>\n<i>Resistance Exercise Sessions</i>:<br>\n\nFirst 27 subjects:  Resistance exercise was performed three days per week, every other day using a prone leg curl, horizontal leg press, and horizontal squat machine (i.e. HEF).  A standard warm-up protocol was conducted for the lower body prior to exercise.  The resistance exercise sessions consisted of a variety of squat, hamstring curl, heel raise and leg press exercises.  The protocol varied so that a \u201cHEAVY,\u201d \u201cMEDIUM,\u201d and \u201cLIGHT\u201d day of exercise was performed during the week.  The pre-bed rest exercise sessions were used to familiarize the subjects with the exercise equipment, teach subjects proper form, and determine individualized loads to be used during bed rest.  The in-bed rest sessions were performed to maintain muscular strength and function during bed rest.\n</div><div>\nLast 8 subjects: Squat exercises previously performed on the Horizontal Squat Device were performed on the M-MED.  Leg press, heel raise, and hamstring curl previously performed on their specific devices were then performed on the M-MED. \n</div><div>\n<i>Aerobic Exercise Sessions</i>:<br>\nFirst 27 subjects:  Aerobic exercise sessions were completed on the supine cycle ergometer and the Standalone Zero-Gravity Locomotion Simulator (sZLS).  A minimum of two-thirds of the total aerobic sessions were performed on the sZLS and the balance was performed on the cycle ergometer.  For some subjects, the sZLS or the supine cycle may not be suitable for all aerobic protocols due to fitness levels or comfort levels.  In these situations the Exercise Physiology researchers coordinated with the bed rest schedulers to meet the subject\u2019s needs.\n</div><div>\nDuring the pre-bed rest and bed rest phases, the continuous aerobic exercise sessions were performed on the same day as the resistance training sessions and were separated by at least&nbsp;four hours.  Interval aerobic exercise sessions were performed three times per week on non-resistance exercise days.\n</div><div>\nLast 8 subjects:  Rowing exercise replaced the running and cycling exercises currently performed on the sZLS and supine cycle.  Rowing was performed as interval and continuous sessions. \n</div><div>\nRESULTS:</div><div><span>The SPRINT protocol mitigated bed rest-induced muscle and cardiac deconditioning regardless of the exercise device used. Molecular markers of bone did not change in the&nbsp;sedentary or&nbsp;exercise groups. Peak aerobic capacity was maintained from pre- to post-bed rest&nbsp;in all exercise groups similarly, whereas significant declines were observed in the&nbsp;<span>sedentary</span> group (~10%). Significant interaction effects between the&nbsp;<span>sedentary</span> group and all exercise groups were observed for muscle performance including leg press total work, isokinetic upper and lower leg strength, vertical jump power, and maximal jump height as well as muscle size. </span><br>\n\n</div><div></div>",
+  "indexed": "2026-08-23T04:24:52.725414+00:00",
+  "proposal_date": "11/01/2010",
+  "GUID": "cl62b27k9ce0k01o6bocr7ngs",
+  "_file_extension": "human",
+  "archive_status": "Data preservation is complete. All datasets are privacy-protected. Data is available via data request.",
+  "__model_type": "lsda_experiment",
+  "__dirid": "bb0a11e1-ecc4-5b2c-8f0f-cf7da73e159c",
+  "__record_size_wo_doccontent": 127820,
+  "__update_method": "Update CDM",
+  "experiment_identifier": [
+   "BEDREST_iRATS",
+   "NCC958MA02801"
+  ],
+  "CompleteArchivalExpectedInFiscalYear": [
+   "0"
+  ],
+  "experiment_type_lk": [
+   "Flight Analogs Project (FAP)",
+   "NASA Bedrest Studies"
+  ],
+  "__record_modified_date": "2026-08-23T04:24:52.725414+00:00",
+  "proposal_source": "2011 Crew Health NNJ11ZSA002NA",
+  "__indexed": "2026-08-23T04:24:52.725414+00:00",
+  "nasa_center": "JSC",
+  "alias": [
+   "NCC958MA02801"
+  ],
+  "__record_creation_date": "2022-07-28T20:10:42.783Z",
+  "__record_size": 127820,
+  "species_strain": [
+   [
+    "N/A"
+   ]
+  ],
+  "__model_version": 60,
+  "species_sci_name": [
+   [
+    "Homo sapiens"
+   ]
+  ],
+  "payload_id": [
+   "CFT70",
+   "iRATS14"
+  ],
+  "CombinedSpecies": [
+   "Human (Homo sapiens) N/A"
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "ncindex": 2,
+  "researchIndex": [
+   18,
+   1082
+  ],
+  "experiment_id": "BEDREST_iRATS",
+  "experiment_related": [
+   "Sprint",
+   "EORS_VT",
+   "EORS_Ultrasound"
+  ],
+  "center": "JSC",
+  "parameter_name": [
+   "Actin filament density",
+   "Fiber size",
+   "Gastrocnemius muscle size",
+   "Knee extension force control",
+   "Left ventricular mass",
+   "Lower body fatigue index",
+   "Myosin filament density",
+   "Rectus femoris muscle size",
+   "Soleus muscle size",
+   "Supramaximal twitch response",
+   "Upper body rate of force development",
+   "Upper body total work performed",
+   "Vastus lateralis muscle size",
+   "Ventilatory threshold",
+   "Cross-sectional area, leg",
+   "Muscle fiber, ATPase",
+   "Fiber cross-bridge stiffness",
+   "Enzymes, muscle fiber",
+   "Fiber, force velocity",
+   "Muscle fiber, isozyme content",
+   "Fiber, maximum shortening speed",
+   "Myosin heavy chain (MHC), muscle fiber",
+   "Myosin light chain (MLC), muscle fiber",
+   "Fiber, pCa-force",
+   "Muscle fiber, peak rate of tension development",
+   "Fiber, peak tension",
+   "Muscle fiber, substrate profile",
+   "Knee extension, maximal isometric force (MIF)",
+   "Knee extension, maximal voluntary contraction (MVC)",
+   "Lower body maximal isometric force (MIF)",
+   "Lower body, total work performed",
+   "Peak exercise stage",
+   "Fractional end-tidal carbon dioxide (FetCO2), peak",
+   "Fractional end-tidal oxygen (FetO2), peak",
+   "Peak heart rate",
+   "Peak respiratory exchange rate (RER)",
+   "Peak respiratory rate (RR)",
+   "Carbon dioxide production (VCO2), peak",
+   "Peak ventilation exchange (VE)",
+   "Stretch-induced damage",
+   "Upper body, fatigue index",
+   "Oxygen consumption, peak (VO2pk)"
+  ],
+  "exp_index": 1784,
+  "research_area": [
+   "Muscle physiology",
+   "Exercise physiology"
+  ],
+  "species": [
+   [
+    "Human"
+   ]
+  ],
+  "pme_role_with_name": [
+   "Principal Investigator: Ploutz- Snyder, Lori"
+  ],
+  "missions": [
+   "UTMB Campaign 11",
+   "iRATS14"
+  ],
+  "PI": [
+   "Ploutz- Snyder, Lori"
+  ],
+  "sort": [
+   3,
+   "93096e4f-4e6b-5320-a767-aee572f54580"
+  ],
+  "pub_document_number": "PUB003187",
+  "parameter_html": "<table><tr><td>Actin filament density</td></tr><tr><td>Fiber size</td></tr><tr><td>Gastrocnemius muscle size</td></tr><tr><td>Knee extension force control</td></tr><tr><td>Left ventricular mass</td></tr><tr><td>Lower body fatigue index</td></tr><tr><td>Myosin filament density</td></tr><tr><td>Rectus femoris muscle size</td></tr><tr><td>Soleus muscle size</td></tr><tr><td>Supramaximal twitch response</td></tr><tr><td>Upper body rate of force development</td></tr><tr><td>Upper body total work performed</td></tr><tr><td>Vastus lateralis muscle size</td></tr><tr><td>Ventilatory threshold</td></tr><tr><td>Cross-sectional area, leg</td></tr><tr><td>Muscle fiber, ATPase</td></tr><tr><td>Fiber cross-bridge stiffness</td></tr><tr><td>Enzymes, muscle fiber</td></tr><tr><td>Fiber, force velocity</td></tr><tr><td>Muscle fiber, isozyme content</td></tr><tr><td>Fiber, maximum shortening speed</td></tr><tr><td>Myosin heavy chain (MHC), muscle fiber</td></tr><tr><td>Myosin light chain (MLC), muscle fiber</td></tr><tr><td>Fiber, pCa-force</td></tr><tr><td>Muscle fiber, peak rate of tension development</td></tr><tr><td>Fiber, peak tension</td></tr><tr><td>Muscle fiber, substrate profile</td></tr><tr><td>Knee extension, maximal isometric force (MIF)</td></tr><tr><td>Knee extension, maximal voluntary contraction (MVC)</td></tr><tr><td>Lower body maximal isometric force (MIF)</td></tr><tr><td>Lower body, total work performed</td></tr><tr><td>Peak exercise stage</td></tr><tr><td>Fractional end-tidal carbon dioxide (FetCO2), peak</td></tr><tr><td>Fractional end-tidal oxygen (FetO2), peak</td></tr><tr><td>Peak heart rate</td></tr><tr><td>Peak respiratory exchange rate (RER)</td></tr><tr><td>Peak respiratory rate (RR)</td></tr><tr><td>Carbon dioxide production (VCO2), peak</td></tr><tr><td>Peak ventilation exchange (VE)</td></tr><tr><td>Stretch-induced damage</td></tr><tr><td>Upper body, fatigue index</td></tr><tr><td>Oxygen consumption, peak (VO2pk)</td></tr><tr></tr></table>",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Ploutz- Snyder, Lori\">Principal Investigator: Ploutz- Snyder, Lori</a>",
+  "image_name": [
+   "Exercise ECG System",
+   "Multimode Exercise Device (M-MED)",
+   "Power Cycle",
+   "Prone Leg Curl Machine"
+  ],
+  "keyword_name": "Exercise",
+  "Program": "Ground",
+  "archive_status_index": 4,
+  "mission_id": [
+   [
+    [
+     "iRATS14"
+    ]
+   ],
+   [
+    [
+     "UTMB Campaign 11"
+    ]
+   ]
+  ],
+  "PrincipalInvestigator": [
+   "Ploutz- Snyder, Lori"
+  ],
+  "payload_part": "N/A",
+  "__source_field_concat": "human PUB003187 2011 Crew Health NNJ11ZSA002NA cl62b27k9ce0k01o6bocr7ngs JSC JSC Exercise NCC958MA02801 N/A Integrated Resistance and Aerobic Training Study Integrated Resistance and Aerobic Exercise Training With Small Compact Exercise Equipment BEDREST_iRATS Ground Data preservation is complete.  All datasets are publicly available.",
+  "__icon_type": "",
+  "__description": "<div>OBJECTIVES:</div><div>Campaign 11 utilized 70 days of six degrees head-down bed rest. This study consisted of 13 days of pre bed rest for the non-exercise group and 21 days of pre bed rest for the exercise group, as well as 14 days of post bed rest. Head-down tilt bed rest relieves longitudinal gravitational loading of the cardiovascular, bone, and muscle systems. Healthy subjects exposed to prolonged bed rest experience some of the adaptive physiological responses and associated deconditioning seen in astronauts exposed to prolonged weightlessness. Campaign 11 onsisted of the integration of standard measures and visual monitoring with investigator study protocols.  \nThe objective of the Integrated Resistance and Aerobic Training (iRATS) was for subjects to perform six days per week of exercise training that consisted of a combination of high intensity resistance and aerobic exercise in order to maintain cardiovascular fitness and muscular strength and function during bed rest. </div><div>\nAPPROACH:</div><div>Prior to the start of bed rest, subjects followed a schedule of resistance and aerobic exercise training five days per week to familiarize themselves with the equipment and protocols.  These exercise sessions were individualized based on fitness and comfort level with the equipment.  The goal of the pre-bed rest training period was to \u201cramp-up\u201d the subjects to the full integrated resistance and aerobic training prescription and identify loads and speed settings for the in-bed rest training sessions.  The subject also performed a stretching exercise regimen during exercise sessions, with the aid of an exercise physiologist.  \n</div><div>\nDuring bed rest, subjects performed supine resistance training and continuous and interval aerobic exercise six days per week.  The resistance exercise and continuous aerobic exercise that occur on the same day were separated by at least&nbsp;four hours.  Resistance exercise sessions were performed using an in-house designed squat machine and modified commercial off-the-shelf (COTS) equipment.  The resistance training sessions consisted of a variety of squat, heel raise, leg press and leg curl exercises.  The aerobic exercise sessions were completed using a supine cycle ergometer and vertical treadmill.  At least two-thirds of the aerobic exercise sessions were performed on the treadmill.  \n</div><div>\n<i>Resistance Exercise Sessions</i>:<br>\n\nFirst 27 subjects:  Resistance exercise was performed three days per week, every other day using a prone leg curl, horizontal leg press, and horizontal squat machine (i.e. HEF).  A standard warm-up protocol was conducted for the lower body prior to exercise.  The resistance exercise sessions consisted of a variety of squat, hamstring curl, heel raise and leg press exercises.  The protocol varied so that a \u201cHEAVY,\u201d \u201cMEDIUM,\u201d and \u201cLIGHT\u201d day of exercise was performed during the week.  The pre-bed rest exercise sessions were used to familiarize the subjects with the exercise equipment, teach subjects proper form, and determine individualized loads to be used during bed rest.  The in-bed rest sessions were performed to maintain muscular strength and function during bed rest.\n</div><div>\nLast 8 subjects: Squat exercises previously performed on the Horizontal Squat Device were performed on the M-MED.  Leg press, heel raise, and hamstring curl previously performed on their specific devices were then performed on the M-MED. \n</div><div>\n<i>Aerobic Exercise Sessions</i>:<br>\nFirst 27 subjects:  Aerobic exercise sessions were completed on the supine cycle ergometer and the Standalone Zero-Gravity Locomotion Simulator (sZLS).  A minimum of two-thirds of the total aerobic sessions were performed on the sZLS and the balance was performed on the cycle ergometer.  For some subjects, the sZLS or the supine cycle may not be suitable for all aerobic protocols due to fitness levels or comfort levels.  In these situations the Exercise Physiology researchers coordinated with the bed rest schedulers to meet the subject\u2019s needs.\n</div><div>\nDuring the pre-bed rest and bed rest phases, the continuous aerobic exercise sessions were performed on the same day as the resistance training sessions and were separated by at least&nbsp;four hours.  Interval aerobic exercise sessions were performed three times per week on non-resistance exercise days.\n</div><div>\nLast 8 subjects:  Rowing exercise replaced the running and cycling exercises currently performed on the sZLS and supine cycle.  Rowing was performed as interval and continuous sessions. \n</div><div>\nRESULTS:</div><div><span>The SPRINT protocol mitigated bed rest-induced muscle and cardiac deconditioning regardless of the exercise device used. Molecular markers of bone did not change in the&nbsp;sedentary or&nbsp;exercise groups. Peak aerobic capacity was maintained from pre- to post-bed rest&nbsp;in all exercise groups similarly, whereas significant declines were observed in the&nbsp;<span>sedentary</span> group (~10%). Significant interaction effects between the&nbsp;<span>sedentary</span> group and all exercise groups were observed for muscle performance including leg press total work, isokinetic upper and lower leg strength, vertical jump power, and maximal jump height as well as muscle size. </span><br>\n\n</div><div></div>",
+  "__doi": "10.83263/j9rp-4981",
+  "__doi_record_creation_date": "2026-08-23T04:24:52",
+  "__doi_record_modified_date": "2026-08-23T04:24:52"
+ },
+ "datasets": [
+  {
+   "key": "e621a7dd-7b6b-5a0a-8d9a-0670df11731b",
+   "label": "BEDREST_IRATS_MRI_ULTRASOUND_CFT70",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "BEDREST IRATS MRI & ULTRASOUND CFT70 DATA",
+    "dataset_catalog": "BEDREST_IRATS_MRI_ULTRASOUND_CFT70",
+    "dataset_description": "This dataset contains tabular data from MRI & Ultrasound CFT70 Integrated Resistance and Aerobic Exercise Training With Small Compact Exercise Equipment.",
+    "processing_level": [
+     "Processed Data"
+    ],
+    "experiment_id": [
+     "BEDREST_iRATS"
+    ]
+   },
+   "meta": "13 files \u00b7 157.0 KB",
+   "date": "2026-03-24",
+   "children": [
+    {
+     "key": "6273c13e-5c10-56c8-a2ba-4b70e2d85bbf",
+     "label": "BEDREST_IRATS_MRI_ULTRASOUND_CFT70_MRI_Soleus",
+     "type": "file",
+     "ext": "",
+     "file_size": 12502,
+     "meta": "12.2 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8e007f6e-2433-5ecd-b1b5-527876ee77e8",
+     "label": "BEDREST_IRATS_MRI_ULTRASOUND_CFT70_Ultrasound_Quadriceps",
+     "type": "file",
+     "ext": "",
+     "file_size": 12509,
+     "meta": "12.2 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f85101e1-50f1-5259-b8d4-5ab9c73cccb6",
+     "label": "BEDREST_IRATS_MRI_ULTRASOUND_CFT70_MRI_Hamstrings",
+     "type": "file",
+     "ext": "",
+     "file_size": 12508,
+     "meta": "12.2 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1137a8a9-9d68-501c-91f0-40f9888dd423",
+     "label": "BEDREST_IRATS_MRI_ULTRASOUND_CFT70_MRI_Lateral_Gastrocnemius",
+     "type": "file",
+     "ext": "",
+     "file_size": 12169,
+     "meta": "11.9 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d40188a7-ffc4-54b7-bbbe-49ecf6fb03e9",
+     "label": "BEDREST_IRATS_MRI_ULTRASOUND_CFT70_MRI_Quadriceps",
+     "type": "file",
+     "ext": "",
+     "file_size": 12520,
+     "meta": "12.2 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1caa9f53-93d6-54fb-805a-3548624f8d2b",
+     "label": "BEDREST_IRATS_MRI_ULTRASOUND_CFT70_Ultrasound_Medial_Gastrocnemius",
+     "type": "file",
+     "ext": "",
+     "file_size": 12254,
+     "meta": "12.0 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2963e75c-238c-5b82-ba9e-e36463094caf",
+     "label": "BEDREST_IRATS_MRI_ULTRASOUND_CFT70_Ultrasound_Rectus_Femoris",
+     "type": "file",
+     "ext": "",
+     "file_size": 12164,
+     "meta": "11.9 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f8116eef-824d-5d04-a1f3-b1be427540f1",
+     "label": "BEDREST_IRATS_MRI_ULTRASOUND_CFT70_MRI_Vastus_Lateralis",
+     "type": "file",
+     "ext": "",
+     "file_size": 12512,
+     "meta": "12.2 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ba3ce673-0326-5ec2-9844-f13c85b08921",
+     "label": "BEDREST_IRATS_MRI_ULTRASOUND_CFT70_Ultrasound_Lateral_Gastrocnemius",
+     "type": "file",
+     "ext": "",
+     "file_size": 12172,
+     "meta": "11.9 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "87e85bf2-f602-596f-8485-ce62a1ca94a3",
+     "label": "BEDREST_IRATS_MRI_ULTRASOUND_CFT70_MRI_Rectus_Femoris",
+     "type": "file",
+     "ext": "",
+     "file_size": 12176,
+     "meta": "11.9 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3c35b92d-95eb-5773-91d3-0b0eb0205fdd",
+     "label": "BEDREST_IRATS_MRI_ULTRASOUND_CFT70_MRI_Adductors",
+     "type": "file",
+     "ext": "",
+     "file_size": 12494,
+     "meta": "12.2 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7737cb2a-0da7-51af-84b2-7b43471dea2a",
+     "label": "BEDREST_IRATS_MRI_ULTRASOUND_CFT70_MRI_Medial_Gastrocnemius",
+     "type": "file",
+     "ext": "",
+     "file_size": 12266,
+     "meta": "12.0 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ef63c985-8198-5e79-a19c-b210268098af",
+     "label": "BEDREST_IRATS_MRI_ULTRASOUND_CFT70_MRI_Vastii_Only",
+     "type": "file",
+     "ext": "",
+     "file_size": 12509,
+     "meta": "12.2 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "d54d506a-728f-59a9-9bfe-0009f2bf2137",
+   "label": "BEDREST_IRATS_iDXA_CFT70",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "BEDREST IRATS iDXA CFT70 DATA",
+    "dataset_catalog": "BEDREST_IRATS_iDXA_CFT70",
+    "dataset_description": "This dataset contains tabular data from iDXA CFT70 Integrated Resistance and Aerobic Exercise Training With Small Compact Exercise Equipment.",
+    "processing_level": [
+     "Processed Data"
+    ],
+    "experiment_id": [
+     "BEDREST_iRATS"
+    ]
+   },
+   "meta": "21 files \u00b7 625.9 KB",
+   "date": "2026-03-24",
+   "children": [
+    {
+     "key": "fdb648d0-9cd2-5869-b6a2-a280141cb76a",
+     "label": "BEDREST_IRATS_iDXA_CFT70_Demographics_avgs",
+     "type": "file",
+     "ext": "",
+     "file_size": 1593,
+     "meta": "1.6 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "96e2eb02-0d41-54bf-b78d-8caa993f5010",
+     "label": "BEDREST_IRATS_iDXA_CFT70_Body_Composition_Android_avgs",
+     "type": "file",
+     "ext": "",
+     "file_size": 9193,
+     "meta": "9.0 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a51f6981-34b8-52da-92c9-5f0cd800fd1b",
+     "label": "BEDREST_IRATS_iDXA_CFT70_Body_Composition_Spine_avgs",
+     "type": "file",
+     "ext": "",
+     "file_size": 7564,
+     "meta": "7.4 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f6cf2d1b-e705-5f2c-a9e5-ca53d6be1a5a",
+     "label": "BEDREST_IRATS_iDXA_CFT70_Body_Composition_Fat_Mass_Ratios_obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 46734,
+     "meta": "45.6 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f762a722-b13a-571c-9cd9-7c28423e600c",
+     "label": "BEDREST_IRATS_iDXA_CFT70_Demographics_obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 13757,
+     "meta": "13.4 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "33ee5921-c06d-5c9d-b802-4f52b6b257e0",
+     "label": "BEDREST_IRATS_iDXA_CFT70_Individual_Graphs_obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 72921,
+     "meta": "71.2 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "64293bb7-d49c-565e-aafb-c43c4115c2fe",
+     "label": "BEDREST_IRATS_iDXA_CFT70_Individual_Graphs_avgs",
+     "type": "file",
+     "ext": "",
+     "file_size": 22154,
+     "meta": "21.6 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8453de1d-ca6a-5d0c-9b40-586c8492ff47",
+     "label": "BEDREST_IRATS_iDXA_CFT70_Body_Composition_Hips_avgs",
+     "type": "file",
+     "ext": "",
+     "file_size": 12643,
+     "meta": "12.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5f1eaa95-9600-5846-b071-003fed829041",
+     "label": "BEDREST_IRATS_iDXA_CFT70_Body_Composition_Arms_avgs",
+     "type": "file",
+     "ext": "",
+     "file_size": 12354,
+     "meta": "12.1 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "41eb6e2d-2608-51e9-8cf6-f1d951016021",
+     "label": "BEDREST_IRATS_iDXA_CFT70_Body_Composition_Spine_obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 36736,
+     "meta": "35.9 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "34afae72-a03d-5cdb-9bd2-b4c69d918f21",
+     "label": "BEDREST_IRATS_iDXA_CFT70_Body_Composition_Arms_obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 44275,
+     "meta": "43.2 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c1ce2477-b297-58fb-b477-d7835016aafb",
+     "label": "BEDREST_IRATS_iDXA_CFT70_Body_Composition_Trunk_obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 54277,
+     "meta": "53.0 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "dc41f56a-41c5-595a-8755-1263399343ef",
+     "label": "BEDREST_IRATS_iDXA_CFT70_Body_Composition_Total_obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 63376,
+     "meta": "61.9 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e81df06f-b8f8-50cd-b8e1-4ea178e83337",
+     "label": "BEDREST_IRATS_iDXA_CFT70_Body_Composition_Hips_obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 55341,
+     "meta": "54.0 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a480eb9f-18f4-5cbf-a39b-2d256650ffd5",
+     "label": "BEDREST_IRATS_iDXA_CFT70_Body_Composition_Trunk_avgs",
+     "type": "file",
+     "ext": "",
+     "file_size": 9373,
+     "meta": "9.2 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "848f1133-e804-54df-97e5-1654720049ef",
+     "label": "BEDREST_IRATS_iDXA_CFT70_Body_Composition_Legs_obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 35831,
+     "meta": "35.0 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d5a69ca5-6169-54d8-8ca1-c7405e4f6d7e",
+     "label": "BEDREST_IRATS_iDXA_CFT70_Body_Composition_Gynoid_obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 54048,
+     "meta": "52.8 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9a35c966-fa7c-5693-8aaa-774d28b26ebf",
+     "label": "BEDREST_IRATS_iDXA_CFT70_Body_Composition_Fat_Mass_Ratios_avgs",
+     "type": "file",
+     "ext": "",
+     "file_size": 14833,
+     "meta": "14.5 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "17d838b2-2e97-55d7-a8ab-611173b38200",
+     "label": "BEDREST_IRATS_iDXA_CFT70_Body_Composition_Android_obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 53364,
+     "meta": "52.1 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "32a9c7d5-1b11-53e7-b8fb-24d2f212f95c",
+     "label": "BEDREST_IRATS_iDXA_CFT70_Body_Composition_Gynoid_avgs",
+     "type": "file",
+     "ext": "",
+     "file_size": 9310,
+     "meta": "9.1 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0d6eb7ba-5aef-5750-bf9e-69300fa79994",
+     "label": "BEDREST_IRATS_iDXA_CFT70_Body_Composition_Legs_avgs",
+     "type": "file",
+     "ext": "",
+     "file_size": 11213,
+     "meta": "11.0 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "41239edf-eb32-5a74-8c26-c2d5ba2a829f",
+   "label": "BEDREST_IRATS_SUPINE_CYCLE_SUMMARY",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "BEDREST IRATS SUPINE CYCLE SUMMARY DATA",
+    "dataset_catalog": "BEDREST_IRATS_SUPINE_CYCLE_SUMMARY",
+    "dataset_description": "This dataset contains tabular data from Supine Cycle Summary CFT70 Integrated Resistance and Aerobic Exercise Training With Small Compact Exercise Equipment.",
+    "processing_level": [
+     "Summarized Data"
+    ],
+    "experiment_id": [
+     "BEDREST_iRATS"
+    ]
+   },
+   "meta": "6 files \u00b7 37.9 KB",
+   "date": "2026-03-24",
+   "children": [
+    {
+     "key": "d44c5c20-2713-5e45-b014-6e1eafc5107d",
+     "label": "BEDREST_IRATS_SUPINE_CYCLE_SUMMARY_Supine_Cycle_Second",
+     "type": "file",
+     "ext": "",
+     "file_size": 531,
+     "meta": "531 B",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c2010622-2733-537f-982e-f603aeb8f5f0",
+     "label": "BEDREST_IRATS_SUPINE_CYCLE_SUMMARY_Test3",
+     "type": "file",
+     "ext": "",
+     "file_size": 4903,
+     "meta": "4.8 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "26887c4e-70de-5d0b-b1b8-8da50b242fbb",
+     "label": "BEDREST_IRATS_SUPINE_CYCLE_SUMMARY_Test1",
+     "type": "file",
+     "ext": "",
+     "file_size": 5397,
+     "meta": "5.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "825f3e8e-3ff0-58dc-a2d6-d1e0cf6031b8",
+     "label": "BEDREST_IRATS_SUPINE_CYCLE_SUMMARY_Supine_Cycle_First",
+     "type": "file",
+     "ext": "",
+     "file_size": 18261,
+     "meta": "17.8 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2b79284d-02dd-58cf-bb38-f672784bb659",
+     "label": "BEDREST_IRATS_SUPINE_CYCLE_SUMMARY_Test4",
+     "type": "file",
+     "ext": "",
+     "file_size": 4572,
+     "meta": "4.5 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0fe8c90c-dd5a-5856-b7a6-92c9a3e1c877",
+     "label": "BEDREST_IRATS_SUPINE_CYCLE_SUMMARY_Test2",
+     "type": "file",
+     "ext": "",
+     "file_size": 5184,
+     "meta": "5.1 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "0e311656-88ad-5871-9749-2922e6e0ff7a",
+   "label": "BEDREST_IRATS_POWER_CYCLE_SUMMARY",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "BEDREST IRATS POWER CYCLE SUMMARY DATA",
+    "dataset_catalog": "BEDREST_IRATS_POWER_CYCLE_SUMMARY",
+    "dataset_description": "This dataset contains tabular data from Power Cycle Summary CFT70 Integrated Resistance and Aerobic Exercise Training With Small Compact Exercise Equipment.",
+    "processing_level": [
+     "Summarized Data"
+    ],
+    "experiment_id": [
+     "BEDREST_iRATS"
+    ]
+   },
+   "meta": "30 files \u00b7 737.3 KB",
+   "date": "2026-03-24",
+   "children": [
+    {
+     "key": "78dc348a-edbe-5883-99a0-e6f4af675439",
+     "label": "BEDREST_IRATS_POWER_CYCLE_SUMMARY_TEST8_Avgs",
+     "type": "file",
+     "ext": "",
+     "file_size": 5546,
+     "meta": "5.4 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "47e9f6da-26ad-5a3c-81c3-ed6fcb3ae3ad",
+     "label": "BEDREST_IRATS_POWER_CYCLE_SUMMARY_POST2_Avgs",
+     "type": "file",
+     "ext": "",
+     "file_size": 5761,
+     "meta": "5.6 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3ad23219-251a-51ce-be38-e791dc10a538",
+     "label": "BEDREST_IRATS_POWER_CYCLE_SUMMARY_POST2_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 36490,
+     "meta": "35.6 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c3527b38-8a4e-5e38-81c6-de814d6163a4",
+     "label": "BEDREST_IRATS_POWER_CYCLE_SUMMARY_PRE1_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 42061,
+     "meta": "41.1 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "11805ef2-a011-502d-8841-1fa19e0f9755",
+     "label": "BEDREST_IRATS_POWER_CYCLE_SUMMARY_TEST3_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 39759,
+     "meta": "38.8 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "831e0e05-5824-5932-8d86-d269533cb33c",
+     "label": "BEDREST_IRATS_POWER_CYCLE_SUMMARY_TEST7_Avgs",
+     "type": "file",
+     "ext": "",
+     "file_size": 5546,
+     "meta": "5.4 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9a464c43-83c7-5f5f-ac4a-647ad7fff03b",
+     "label": "BEDREST_IRATS_POWER_CYCLE_SUMMARY_TEST9_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 38135,
+     "meta": "37.2 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4000885a-03e2-5ef3-8824-cbe8f3d47740",
+     "label": "BEDREST_IRATS_POWER_CYCLE_SUMMARY_Avgs",
+     "type": "file",
+     "ext": "",
+     "file_size": 17050,
+     "meta": "16.7 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "bb5deaec-72ba-581e-ad6b-2c6675a7fa8f",
+     "label": "BEDREST_IRATS_POWER_CYCLE_SUMMARY_TEST1_Avgs",
+     "type": "file",
+     "ext": "",
+     "file_size": 5437,
+     "meta": "5.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c628ce7b-f625-5dfe-9ab2-5073b95dc0cf",
+     "label": "BEDREST_IRATS_POWER_CYCLE_SUMMARY_TEST6_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 40871,
+     "meta": "39.9 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "af807b68-8366-5d7a-aea4-0136aebcaa06",
+     "label": "BEDREST_IRATS_POWER_CYCLE_SUMMARY_TEST2_Avgs",
+     "type": "file",
+     "ext": "",
+     "file_size": 5437,
+     "meta": "5.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "eaf0fc3c-739e-5d8f-a7fa-e18138ad18ab",
+     "label": "BEDREST_IRATS_POWER_CYCLE_SUMMARY_PRE2_Avgs",
+     "type": "file",
+     "ext": "",
+     "file_size": 5652,
+     "meta": "5.5 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a100f8b0-c63d-56f3-b9dc-9e9fb33ad90f",
+     "label": "BEDREST_IRATS_POWER_CYCLE_SUMMARY_TEST4_Avgs",
+     "type": "file",
+     "ext": "",
+     "file_size": 5545,
+     "meta": "5.4 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ca1415a9-588f-5084-9a98-66d51a8f2d46",
+     "label": "BEDREST_IRATS_POWER_CYCLE_SUMMARY_PRE1_Avgs",
+     "type": "file",
+     "ext": "",
+     "file_size": 5647,
+     "meta": "5.5 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3e251896-4c97-5a29-8e68-55cbc568fc65",
+     "label": "BEDREST_IRATS_POWER_CYCLE_SUMMARY_PK_SUMMARY_Avgs",
+     "type": "file",
+     "ext": "",
+     "file_size": 11443,
+     "meta": "11.2 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5da40a97-69e2-5fd3-96cd-bd76a1b65462",
+     "label": "BEDREST_IRATS_POWER_CYCLE_SUMMARY_POST1_Avgs",
+     "type": "file",
+     "ext": "",
+     "file_size": 5646,
+     "meta": "5.5 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d3dbf5a0-1d03-5e91-a432-614cd2998018",
+     "label": "BEDREST_IRATS_POWER_CYCLE_SUMMARY_TEST2_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 40281,
+     "meta": "39.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "aca3ab30-1a53-5fd5-912e-e5ad47b44a79",
+     "label": "BEDREST_IRATS_POWER_CYCLE_SUMMARY_TEST5_Avgs",
+     "type": "file",
+     "ext": "",
+     "file_size": 5557,
+     "meta": "5.4 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d72bf419-74a7-57f7-9bde-ca190645c748",
+     "label": "BEDREST_IRATS_POWER_CYCLE_SUMMARY_TEST5_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 39727,
+     "meta": "38.8 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7dc8f63b-52ef-5f6c-81ab-4fb60e1223e9",
+     "label": "BEDREST_IRATS_POWER_CYCLE_SUMMARY_PRE2_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 40441,
+     "meta": "39.5 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3b1639d2-48f8-5018-b5be-39c438ac0e39",
+     "label": "BEDREST_IRATS_POWER_CYCLE_SUMMARY_PK_SUMMARY_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 68545,
+     "meta": "66.9 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "710796d4-e964-5b72-a1fd-e83025687b85",
+     "label": "BEDREST_IRATS_POWER_CYCLE_SUMMARY_TEST4_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 39776,
+     "meta": "38.8 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e7ff2e39-e985-556d-9bd8-83f1cdd4800e",
+     "label": "BEDREST_IRATS_POWER_CYCLE_SUMMARY_TEST1_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 37932,
+     "meta": "37.0 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8b1ac06f-e04c-556b-a543-ba0f0e8adbeb",
+     "label": "BEDREST_IRATS_POWER_CYCLE_SUMMARY_TEST6_Avgs",
+     "type": "file",
+     "ext": "",
+     "file_size": 5544,
+     "meta": "5.4 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "14541ca8-115c-5d4e-8390-bfd4d342c104",
+     "label": "BEDREST_IRATS_POWER_CYCLE_SUMMARY_TEST3_Avgs",
+     "type": "file",
+     "ext": "",
+     "file_size": 5545,
+     "meta": "5.4 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "95c4e2f6-aa5e-552e-b4de-427a23be4830",
+     "label": "BEDREST_IRATS_POWER_CYCLE_SUMMARY_AVG_SUMMARY_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 72437,
+     "meta": "70.7 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9e46ca8f-3a78-5728-b851-9d6fd974e049",
+     "label": "BEDREST_IRATS_POWER_CYCLE_SUMMARY_TEST7_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 39795,
+     "meta": "38.9 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "86f29106-2a7d-5581-966f-df9775eacafd",
+     "label": "BEDREST_IRATS_POWER_CYCLE_SUMMARY_TEST8_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 39228,
+     "meta": "38.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e2d71602-28d1-5184-9594-299768c48e1b",
+     "label": "BEDREST_IRATS_POWER_CYCLE_SUMMARY_TEST9_Avgs",
+     "type": "file",
+     "ext": "",
+     "file_size": 5546,
+     "meta": "5.4 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "01fc9b3b-5dc4-50c2-9793-eb31424361f6",
+     "label": "BEDREST_IRATS_POWER_CYCLE_SUMMARY_POST1_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 38649,
+     "meta": "37.7 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

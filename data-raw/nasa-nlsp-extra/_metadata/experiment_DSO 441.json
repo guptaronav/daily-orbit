@@ -1,0 +1,204 @@
+{
+ "record": {
+  "id": "a7159929-c59c-52f5-8adc-b6aef984080b",
+  "_id": "a7159929-c59c-52f5-8adc-b6aef984080b",
+  "experiment_title": "Blood Pressure Monitoring During Reentry",
+  "archive_status_index": 2,
+  "pub_document_number": "PUB001694",
+  "parameter_html": "<table><tr><td>Heart rate</td></tr><tr><td>Orthostatic intolerance</td></tr><tr><td>PR product</td></tr><tr><td>Pulse pressure</td></tr><tr><td>Diastolic blood pressure</td></tr><tr><td>Systolic blood pressure</td></tr><tr></tr></table>",
+  "__source_key": "cl62ayer9cd5d01o6a0q4e41d",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Thornton, William\">Principal Investigator: Thornton, William</a>",
+  "image_name": [
+   "BP-HR Recorder"
+  ],
+  "experiment_type_lk": [
+   "Shuttle Detailed Supplementary Objectives (DSO)"
+  ],
+  "__record_modified_date": "2026-08-23T04:14:48.655655+00:00",
+  "proposal_source": "N/A",
+  "__indexed": "2026-08-23T04:14:48.655655+00:00",
+  "__record_creation_date": "2022-07-28T19:55:26.384Z",
+  "keyword": [
+   "Orthostatic intolerance",
+   "Heart rate",
+   "Blood pressure"
+  ],
+  "keyword_name": "Blood pressure",
+  "__record_size": 67011,
+  "__record_version": 29,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<br>\nPostflight orthostatic hypotension has been noted since the Mercury flights and can be expected after exposures to weightlessness. Orthostatic hypotension arises from fluid shifts, fluid loss, decreased peak physical loads, and from neurological adaptation. Due to concerns related to hypotension during Space Shuttle reentry, crewmembers were provided with antigravity suits (AGSs). <div>\nConcerns were expressed over orthostatic problems directly affecting the astronauts during and immediately following reentry. <br></div><div><br></div><div>APPROACH:<br>\nBlood pressure and heart rate were the standards by which orthostatic status was determined.  A commercial blood pressure-heart rate recorder was used in space motion sickness (SMS) studies on several missions, and by one crewmember during reentry with AGS activation and deactivation. After several near-syncopal (fainting) episodes on Shuttle missions following seat egress, presumed to be orthostatic hypotension, this experiment was designed to make a series of blood pressure (BP) and heart rate (HR) records during entry and egress.\n</div><div>\nThe BP-HR recorder was an extensively tested and used, commercially available, ambulatory unit.  More information is provided in the hardware description below.\n</div><div>\nFor preflight tests, the subject had a 30 minute briefing session on the recorder use and then made two recordings during simulations.  For in-flight and postflight tests, 30 minutes was required for installation of the recorder; it was a one person effort, except for the wrapping of the arm cuff, which involved a second crewmember for less than one minute.  The recorder was installed and started at least 30 minutes prior to strapping in for reentry.  The recorder was carried on an elastic waist belt and did not interfere with other hardware.  The recorder was worn through reentry without any restrictions on the crewmember.  Inflation of the AGS was done as desired.  \n</div><div><br>\n</div><div>RESULTS:<br>\nAmbulatory blood pressures (BP) and heart rates (HR) were recorded on a series of early Shuttle flights during preflight and pre-entry, entry, landing and egress. There were no significant differences between flight and preflight values during routine activity. Systolic blood pressure was slightly elevated in the deorbit period and systolic and diastolic blood pressure and heart rates were all elevated with onset of gravitoinertial loads and remained so through egress. Two of seven subjects had orthostatic problems in egress but their data did not show significant differences from others, except in heart rate. Comparison of this data to data from recent studies show even larger increase in HR/BP values during current deorbit and entry phases, which is consistent with increased heat and weight loads imposed by added survival gear. Both value and limitations of ambulatory heart rate/blood pressure data in this situation are demonstrated.</div>",
+  "payload_id": "DSO41D",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "DSO 441",
+  "indexed": "2026-08-23T04:14:48.655655+00:00",
+  "GUID": "cl62ayer9cd5d01o6a0q4e41d",
+  "parameter_name": [
+   "Heart rate",
+   "Orthostatic intolerance",
+   "PR product",
+   "Pulse pressure",
+   "Diastolic blood pressure",
+   "Systolic blood pressure"
+  ],
+  "payload_part": [
+   "N/A"
+  ],
+  "exp_index": "564",
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Cardiovascular physiology"
+  ],
+  "pme_role_with_name": [
+   "Principal Investigator: Thornton, William"
+  ],
+  "missions": "STS-41D,STS-41G,STS-51B,STS-51C,STS-51F,STS-8",
+  "__dirid": "a7159929-c59c-52f5-8adc-b6aef984080b",
+  "__record_size_wo_doccontent": 67011,
+  "PI": [
+   "Thornton, William"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "DSO 441"
+  ],
+  "mission_id": "STS-41D,STS-41G,STS-51B,STS-51C,STS-51F,STS-8",
+  "ncindex": [
+   2
+  ],
+  "__is_locked": false,
+  "AssignedArchivist": [],
+  "Publications": [],
+  "hrr_task_title": [],
+  "experiment_related": [],
+  "protocol_approach": [],
+  "no_data_participants": [],
+  "data_quality_not_known_participants": [],
+  "full_data_set_participants": [],
+  "partial_data_set_participants": [],
+  "unknown_participants": [],
+  "operator_participants": [],
+  "hardware_ex_name": [],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Thornton, William"
+  ],
+  "archive_status": "Data preservation is complete. Privacy-protected datasets are available via data request. Remaining datasets are publicly available.",
+  "experiment_alias": "",
+  "Program": "Shuttle Program",
+  "__source_field_concat": "PUB001694 N/A DSO41D cl62ayer9cd5d01o6a0q4e41d Blood pressure STS-41D,STS-41G,STS-51B,STS-51C,STS-51F,STS-8  Blood Pressure Monitoring During Reentry DSO 441 Shuttle Program STS-41D,STS-41G,STS-51B,STS-51C,STS-51F,STS-8",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<br>\nPostflight orthostatic hypotension has been noted since the Mercury flights and can be expected after exposures to weightlessness. Orthostatic hypotension arises from fluid shifts, fluid loss, decreased peak physical loads, and from neurological adaptation. Due to concerns related to hypotension during Space Shuttle reentry, crewmembers were provided with antigravity suits (AGSs). <div>\nConcerns were expressed over orthostatic problems directly affecting the astronauts during and immediately following reentry. <br></div><div><br></div><div>APPROACH:<br>\nBlood pressure and heart rate were the standards by which orthostatic status was determined.  A commercial blood pressure-heart rate recorder was used in space motion sickness (SMS) studies on several missions, and by one crewmember during reentry with AGS activation and deactivation. After several near-syncopal (fainting) episodes on Shuttle missions following seat egress, presumed to be orthostatic hypotension, this experiment was designed to make a series of blood pressure (BP) and heart rate (HR) records during entry and egress.\n</div><div>\nThe BP-HR recorder was an extensively tested and used, commercially available, ambulatory unit.  More information is provided in the hardware description below.\n</div><div>\nFor preflight tests, the subject had a 30 minute briefing session on the recorder use and then made two recordings during simulations.  For in-flight and postflight tests, 30 minutes was required for installation of the recorder; it was a one person effort, except for the wrapping of the arm cuff, which involved a second crewmember for less than one minute.  The recorder was installed and started at least 30 minutes prior to strapping in for reentry.  The recorder was carried on an elastic waist belt and did not interfere with other hardware.  The recorder was worn through reentry without any restrictions on the crewmember.  Inflation of the AGS was done as desired.  \n</div><div><br>\n</div><div>RESULTS:<br>\nAmbulatory blood pressures (BP) and heart rates (HR) were recorded on a series of early Shuttle flights during preflight and pre-entry, entry, landing and egress. There were no significant differences between flight and preflight values during routine activity. Systolic blood pressure was slightly elevated in the deorbit period and systolic and diastolic blood pressure and heart rates were all elevated with onset of gravitoinertial loads and remained so through egress. Two of seven subjects had orthostatic problems in egress but their data did not show significant differences from others, except in heart rate. Comparison of this data to data from recent studies show even larger increase in HR/BP values during current deorbit and entry phases, which is consistent with increased heat and weight loads imposed by added survival gear. Both value and limitations of ambulatory heart rate/blood pressure data in this situation are demonstrated.</div>",
+  "__doi": "10.83263/scgn-km72",
+  "__doi_record_creation_date": "2026-08-23T04:14:48",
+  "__doi_record_modified_date": "2026-08-23T04:14:48"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001959",
+   "label": "DSO 441__73105096",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Crew Procedures - 2",
+    "dataset_catalog": "DSO 441__73105096",
+    "dataset_description": [
+     "This dataset contains inflight crew procedures for DSO 441. Although the document is marked as DSO 441, the crew procedures appear to be integrated procedures that contain steps for other DSOs on the same flight(s). Specifically, the following steps are outlined:\r\n<BR>\r\n<LI>Unstow Procedures\r\n<LI>Critical Fusion Frequency\r\n<LI>Stereopsis\r\n<LI>Resolution Acuity\r\n<LI>Resolution Acuity A\r\n<LI>Torsional Phoria\r\n<LI>Resolution Acuity B\r\n<LI>Eye Dominance\r\n<LI>Lateral Phorias\r\n<BR>Source: Unpublished data from the William E.Thornton collection."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 441"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "a00050a9-d161-582c-b3d4-41720ddc0708",
+     "label": "DSO_441__73105096.pdf_STS-8_DSO_441_2011_73_110327.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001496",
+   "label": "DSO 441__731251291",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Cardiovascular Adaptation to Spaceflight",
+    "dataset_catalog": "DSO 441__731251291",
+    "dataset_description": [
+     "This is a presentation by Dr. Thornton regarding changes seen in and countermeasures proposed for cardiovascular adaptation to space flight.\r\n<BR>Source: Unpublished data from the William E.Thornton collection."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 441"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "99583136-f453-5cd8-ac58-123a98e1885e",
+     "label": "DSO_441__731251291.pdf_STS-8_DSO_441_2011_73_120346.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001958",
+   "label": "DSO 441__731024255",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Crew Procedures",
+    "dataset_catalog": "DSO 441__731024255",
+    "dataset_description": [
+     "This dataset contains inflight crew procedures for DSO 441. Although the document is marked as DSO 441, the crew procedures appear to be integrated procedures that contain steps for other DSOs on the same flight(s). Specifically, the following test steps are mentioned:<BR>\r\n<LI>Bowel Sounds Recording\r\n<LI>Temperature, Pulse and Color\r\n<LI>EKG Recording\r\n<BR>\r\n Source: Unpublished data from the William E.Thornton collection."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 441"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "c3412dba-9662-5a46-989a-4e21bbf688eb",
+     "label": "DSO_441__731024255.pdf_STS-8_DSO_441_2011_73_100301.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

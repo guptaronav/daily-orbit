@@ -1,0 +1,503 @@
+{
+ "record": {
+  "id": "caa3b09f-28b8-5c50-b0af-5f6540147f24",
+  "_id": "caa3b09f-28b8-5c50-b0af-5f6540147f24",
+  "__is_locked": false,
+  "experiment_title": "Bed Rest Standard Measures: Intelligent Dual-Energy X-ray Absorptiometry",
+  "__source_key": "cl62b08mecdko01o6gjmghwhp",
+  "experiment_type": [
+   [
+    "Flight Analogs Project (FAP)"
+   ],
+   [
+    "NASA Ground-Based Investigations"
+   ],
+   [
+    "NASA Bedrest Studies"
+   ]
+  ],
+  "AssignedArchivist": [
+   "None Selected",
+   "Liddell, Nyaia A."
+  ],
+  "keyword": [
+   "Bone and bones",
+   "Bone density",
+   "Bone demineralization, pathologic"
+  ],
+  "__record_version": 32,
+  "experiment_description": "OBJECTIVE:<br>\nThe objective of this test was to measure bone mineral density changes resulting from extended periods of bed rest bed rest.\n<div>\nAPPROACH:<br>\nThis study utilized the dual-energy x-ray absorptiometry (iDXA) instead of the Hologic DXA hardware. Bone densitometry was performed using a General Electric Lunar whole-body densitometer located at John Sealy Hospital at UTMB, Galveston. This iDXA device can distinguish between hard tissue (bone) and soft tissue. Soft tissue can be distinguished further as either lean tissue or fat. Subjects participated in scans of the following regions: whole body, lumbar spine, proximal femurs (hips), and forearm. The subjects were scanned in triplicate for the pre- and in-bed rest sessions; the follow-up (6-month and 12-month) sessions were single scans.\n</div><div>\nRESULTS:<br>\nThis experiment has concluded. <span class=\"cf0\">Tabular results are available for the public.</span> \n</div><div></div>",
+  "indexed": "2026-08-23T04:24:47.362675+00:00",
+  "GUID": "cl62b08mecdko01o6gjmghwhp",
+  "_file_extension": "human",
+  "archive_status": "Data preservation is complete. All datasets are privacy-protected. Data is available via data request.",
+  "__model_type": "lsda_experiment",
+  "__dirid": "caa3b09f-28b8-5c50-b0af-5f6540147f24",
+  "__record_size_wo_doccontent": 92015,
+  "__update_method": "Update CDM",
+  "experiment_identifier": [
+   "BRSMiDXA"
+  ],
+  "CompleteArchivalExpectedInFiscalYear": [
+   "0"
+  ],
+  "experiment_type_lk": [
+   "Flight Analogs Project (FAP)",
+   "NASA Ground-Based Investigations",
+   "NASA Bedrest Studies"
+  ],
+  "__record_modified_date": "2026-08-23T04:24:47.362675+00:00",
+  "nasa_center": "JSC",
+  "__indexed": "2026-08-23T04:24:47.362675+00:00",
+  "__record_creation_date": "2022-07-28T20:00:57.391Z",
+  "__record_size": 92015,
+  "__model_version": 60,
+  "species_sci_name": [
+   [
+    "Homo sapiens"
+   ]
+  ],
+  "payload_id": [
+   "CFT70"
+  ],
+  "CombinedSpecies": [
+   "Human (Homo sapiens)"
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "ncindex": 2,
+  "researchIndex": [
+   1087
+  ],
+  "experiment_id": "BRSMiDXA",
+  "experiment_related": [
+   "MR035G"
+  ],
+  "center": "JSC",
+  "parameter_name": [
+   "Body composition, fat, android",
+   "Body composition, fat, arms",
+   "Body composition, fat, gynoid",
+   "Body composition, fat, left arm",
+   "Body composition, fat, left leg",
+   "Body composition, fat, left total",
+   "Body composition, fat, left trunk",
+   "Body composition, fat, legs",
+   "Body composition, fat, right arm",
+   "Body composition, fat, right leg",
+   "Body composition, fat, right total",
+   "Body composition, fat, right trunk",
+   "Body composition, fat, total",
+   "Body composition, fat, trunk",
+   "Body fat, total percentage",
+   "Body mass, android",
+   "Body mass, arms",
+   "Body mass, gynoid",
+   "Body mass, left arm",
+   "Body mass, left leg",
+   "Body mass, left trunk",
+   "Body mass, legs",
+   "Body mass, right arm",
+   "Body mass, right leg",
+   "Body mass, right trunk",
+   "Body mass, total left",
+   "Body mass, total right",
+   "Body mass, trunk",
+   "Body tissue composition, right trunk",
+   "Bone mineral content, android",
+   "Bone mineral content, arms",
+   "Bone mineral content, gynoid",
+   "Bone mineral content, left arm",
+   "Bone mineral content, left leg",
+   "Bone mineral content, left total",
+   "Bone mineral content, left trunk",
+   "Bone mineral content, legs",
+   "Bone mineral content, right arm",
+   "Bone mineral content, right leg",
+   "Bone mineral content, right total",
+   "Bone mineral content, right trunk",
+   "Bone mineral content, total",
+   "Bone mineral content, trunk",
+   "Bone mineral density, arms",
+   "Bone mineral density, head",
+   "Bone mineral density, legs",
+   "Bone mineral density, pelvis",
+   "Bone mineral density, ribs",
+   "Bone mineral density, spine",
+   "Bone mineral density, total",
+   "Bone mineral density, trunk",
+   "Fat distribution, android",
+   "Fat distribution, android gynoid ratio",
+   "Fat distribution, gynoid",
+   "Fat mass, ratio legs",
+   "Fat mass, ratio trunk",
+   "Fat percentage, android",
+   "Fat percentage, arms",
+   "Fat percentage, gynoid",
+   "Fat percentage, left arm",
+   "Fat percentage, left leg",
+   "Fat percentage, left total",
+   "Fat percentage, left trunk",
+   "Fat percentage, legs",
+   "Fat percentage, right arm",
+   "Fat percentage, right leg",
+   "Fat percentage, right total",
+   "Fat percentage, right trunk",
+   "Fat percentage, total",
+   "Fat percentage, trunk",
+   "Gender",
+   "Height",
+   "Lean body composition, android",
+   "Lean body composition, arms",
+   "Lean body composition, gynoid",
+   "Lean body composition, left arm",
+   "Lean body composition, left leg",
+   "Lean body composition, left total",
+   "Lean body composition, left trunk",
+   "Lean body composition, legs",
+   "Lean body composition, right arm",
+   "Lean body composition, right leg",
+   "Lean body composition, right total",
+   "Lean body composition, right trunk",
+   "Lean body composition, total",
+   "Lean body composition, trunk",
+   "Weight",
+   "Body tissue composition, android",
+   "Body tissue composition, arms",
+   "Body tissue composition, gynoid",
+   "Body tissue composition, left arm",
+   "Body tissue composition, left leg",
+   "Body tissue composition, left total",
+   "Body tissue composition, left trunk",
+   "Body tissue composition, legs",
+   "Body tissue composition, right arm",
+   "Body tissue composition, right leg",
+   "Body tissue composition, right total",
+   "Body tissue composition, total",
+   "Body tissue composition, trunk"
+  ],
+  "exp_index": 1787,
+  "research_area": [
+   "Skeletal physiology"
+  ],
+  "species": [
+   [
+    "Human"
+   ]
+  ],
+  "pme_role_with_name": [
+   "Principal Investigator: Cromwell, Ronita L."
+  ],
+  "missions": [
+   "UTMB Campaign 11"
+  ],
+  "PI": [
+   "Cromwell, Ronita L."
+  ],
+  "sort": [
+   3,
+   "41f073fa-4338-56ba-9aeb-94ce78828e0a"
+  ],
+  "parameter_html": "<table><tr><td>Body composition, fat, android</td></tr><tr><td>Body composition, fat, arms</td></tr><tr><td>Body composition, fat, gynoid</td></tr><tr><td>Body composition, fat, left arm</td></tr><tr><td>Body composition, fat, left leg</td></tr><tr><td>Body composition, fat, left total</td></tr><tr><td>Body composition, fat, left trunk</td></tr><tr><td>Body composition, fat, legs</td></tr><tr><td>Body composition, fat, right arm</td></tr><tr><td>Body composition, fat, right leg</td></tr><tr><td>Body composition, fat, right total</td></tr><tr><td>Body composition, fat, right trunk</td></tr><tr><td>Body composition, fat, total</td></tr><tr><td>Body composition, fat, trunk</td></tr><tr><td>Body fat, total percentage</td></tr><tr><td>Body mass, android</td></tr><tr><td>Body mass, arms</td></tr><tr><td>Body mass, gynoid</td></tr><tr><td>Body mass, left arm</td></tr><tr><td>Body mass, left leg</td></tr><tr><td>Body mass, left trunk</td></tr><tr><td>Body mass, legs</td></tr><tr><td>Body mass, right arm</td></tr><tr><td>Body mass, right leg</td></tr><tr><td>Body mass, right trunk</td></tr><tr><td>Body mass, total left</td></tr><tr><td>Body mass, total right</td></tr><tr><td>Body mass, trunk</td></tr><tr><td>Body tissue composition, right trunk</td></tr><tr><td>Bone mineral content, android</td></tr><tr><td>Bone mineral content, arms</td></tr><tr><td>Bone mineral content, gynoid</td></tr><tr><td>Bone mineral content, left arm</td></tr><tr><td>Bone mineral content, left leg</td></tr><tr><td>Bone mineral content, left total</td></tr><tr><td>Bone mineral content, left trunk</td></tr><tr><td>Bone mineral content, legs</td></tr><tr><td>Bone mineral content, right arm</td></tr><tr><td>Bone mineral content, right leg</td></tr><tr><td>Bone mineral content, right total</td></tr><tr><td>Bone mineral content, right trunk</td></tr><tr><td>Bone mineral content, total</td></tr><tr><td>Bone mineral content, trunk</td></tr><tr><td>Bone mineral density, arms</td></tr><tr><td>Bone mineral density, head</td></tr><tr><td>Bone mineral density, legs</td></tr><tr><td>Bone mineral density, pelvis</td></tr><tr><td>Bone mineral density, ribs</td></tr><tr><td>Bone mineral density, spine</td></tr><tr><td>Bone mineral density, total</td></tr><tr><td>Bone mineral density, trunk</td></tr><tr><td>Fat distribution, android</td></tr><tr><td>Fat distribution, android gynoid ratio</td></tr><tr><td>Fat distribution, gynoid</td></tr><tr><td>Fat mass, ratio legs</td></tr><tr><td>Fat mass, ratio trunk</td></tr><tr><td>Fat percentage, android</td></tr><tr><td>Fat percentage, arms</td></tr><tr><td>Fat percentage, gynoid</td></tr><tr><td>Fat percentage, left arm</td></tr><tr><td>Fat percentage, left leg</td></tr><tr><td>Fat percentage, left total</td></tr><tr><td>Fat percentage, left trunk</td></tr><tr><td>Fat percentage, legs</td></tr><tr><td>Fat percentage, right arm</td></tr><tr><td>Fat percentage, right leg</td></tr><tr><td>Fat percentage, right total</td></tr><tr><td>Fat percentage, right trunk</td></tr><tr><td>Fat percentage, total</td></tr><tr><td>Fat percentage, trunk</td></tr><tr><td>Gender</td></tr><tr><td>Height</td></tr><tr><td>Lean body composition, android</td></tr><tr><td>Lean body composition, arms</td></tr><tr><td>Lean body composition, gynoid</td></tr><tr><td>Lean body composition, left arm</td></tr><tr><td>Lean body composition, left leg</td></tr><tr><td>Lean body composition, left total</td></tr><tr><td>Lean body composition, left trunk</td></tr><tr><td>Lean body composition, legs</td></tr><tr><td>Lean body composition, right arm</td></tr><tr><td>Lean body composition, right leg</td></tr><tr><td>Lean body composition, right total</td></tr><tr><td>Lean body composition, right trunk</td></tr><tr><td>Lean body composition, total</td></tr><tr><td>Lean body composition, trunk</td></tr><tr><td>Weight</td></tr><tr><td>Body tissue composition, android</td></tr><tr><td>Body tissue composition, arms</td></tr><tr><td>Body tissue composition, gynoid</td></tr><tr><td>Body tissue composition, left arm</td></tr><tr><td>Body tissue composition, left leg</td></tr><tr><td>Body tissue composition, left total</td></tr><tr><td>Body tissue composition, left trunk</td></tr><tr><td>Body tissue composition, legs</td></tr><tr><td>Body tissue composition, right arm</td></tr><tr><td>Body tissue composition, right leg</td></tr><tr><td>Body tissue composition, right total</td></tr><tr><td>Body tissue composition, total</td></tr><tr><td>Body tissue composition, trunk</td></tr><tr></tr></table>",
+  "program_name": [
+   "Ground"
+  ],
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Cromwell, Ronita L.\">Principal Investigator: Cromwell, Ronita L.</a>",
+  "image_name": [
+   "Intelligent Dual Energy X-ray Absorptiometry (iDXA)"
+  ],
+  "keyword_name": "Bone demineralization, pathologic",
+  "Program": "Ground",
+  "archive_status_index": 4,
+  "mission_id": [
+   [
+    [
+     "UTMB Campaign 11"
+    ]
+   ]
+  ],
+  "PrincipalInvestigator": [
+   "Cromwell, Ronita L."
+  ],
+  "payload_part": "N/A",
+  "__source_field_concat": "human cl62b08mecdko01o6gjmghwhp JSC JSC Bone demineralization, pathologic N/A Bed Rest Standard Measures: Intelligent Dual-Energy X-ray Absorptiometry BRSMiDXA Ground Data preservation is complete.  All datasets are publicly available.",
+  "__icon_type": "",
+  "__description": "OBJECTIVE:<br>\nThe objective of this test was to measure bone mineral density changes resulting from extended periods of bed rest bed rest.\n<div>\nAPPROACH:<br>\nThis study utilized the dual-energy x-ray absorptiometry (iDXA) instead of the Hologic DXA hardware. Bone densitometry was performed using a General Electric Lunar whole-body densitometer located at John Sealy Hospital at UTMB, Galveston. This iDXA device can distinguish between hard tissue (bone) and soft tissue. Soft tissue can be distinguished further as either lean tissue or fat. Subjects participated in scans of the following regions: whole body, lumbar spine, proximal femurs (hips), and forearm. The subjects were scanned in triplicate for the pre- and in-bed rest sessions; the follow-up (6-month and 12-month) sessions were single scans.\n</div><div>\nRESULTS:<br>\nThis experiment has concluded. <span class=\"cf0\">Tabular results are available for the public.</span> \n</div><div></div>",
+  "__doi": "10.83263/mdba-ek79",
+  "__doi_record_creation_date": "2026-08-23T04:24:47",
+  "__doi_record_modified_date": "2026-08-23T04:24:47"
+ },
+ "datasets": [
+  {
+   "key": "2c92974f-48b4-595d-9c2d-1bfdfb9fc144",
+   "label": "BRSMIDXA_CFT70_iDXA",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "BRSMIDXA CFT70 iDXA Data",
+    "dataset_catalog": "BRSMIDXA_CFT70_iDXA",
+    "dataset_description": "This dataset contains iDXA tabular data for the Bed Rest Standard Measures: Intelligent Dual-Energy X-ray Absorptiometry study.",
+    "processing_level": [
+     "Analyzed Data"
+    ],
+    "experiment_id": [
+     "BRSMiDXA"
+    ]
+   },
+   "meta": "25 files \u00b7 181.4 KB",
+   "date": "2026-03-24",
+   "children": [
+    {
+     "key": "8fc82463-49e7-5267-ad3b-773d21635756",
+     "label": "BRSMIDXA_CFT70_iDXA_CAMPAIGN_11_WB_Bone_8179",
+     "type": "file",
+     "ext": "",
+     "file_size": 8108,
+     "meta": "7.9 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0b042300-aad1-5f92-85d4-dbb1cb022bb5",
+     "label": "BRSMIDXA_CFT70_iDXA_CAMPAIGN_11_R_Hip_8179",
+     "type": "file",
+     "ext": "",
+     "file_size": 6191,
+     "meta": "6.0 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "82ebdd31-15f0-5cc0-b841-14a1728417ae",
+     "label": "BRSMIDXA_CFT70_iDXA_CAMPAIGN_11_L_Hip_5297",
+     "type": "file",
+     "ext": "",
+     "file_size": 7261,
+     "meta": "7.1 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5ea17ee7-1c98-5b5d-97bc-bcfff4c72eba",
+     "label": "BRSMIDXA_CFT70_iDXA_CAMPAIGN_11_WB_COMP_8179",
+     "type": "file",
+     "ext": "",
+     "file_size": 9265,
+     "meta": "9.0 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "cb1cd90b-bece-5a75-b6f0-9ba41920fef8",
+     "label": "BRSMIDXA_CFT70_iDXA_CAMPAIGN_11_R_Hip_6464",
+     "type": "file",
+     "ext": "",
+     "file_size": 6210,
+     "meta": "6.1 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9b8c6816-ff10-5c11-9a73-59bd91d3debc",
+     "label": "BRSMIDXA_CFT70_iDXA_CAMPAIGN_11_R_Hip_9023",
+     "type": "file",
+     "ext": "",
+     "file_size": 5254,
+     "meta": "5.1 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a545f94e-67a8-5222-8cd8-693e525aee7b",
+     "label": "BRSMIDXA_CFT70_iDXA_CAMPAIGN_11_L_Hip_9023",
+     "type": "file",
+     "ext": "",
+     "file_size": 6166,
+     "meta": "6.0 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "42cd85a0-78af-54db-b82e-ef741ad2e0ea",
+     "label": "BRSMIDXA_CFT70_iDXA_CAMPAIGN_11_S_bone_6464",
+     "type": "file",
+     "ext": "",
+     "file_size": 7100,
+     "meta": "6.9 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1eb0079c-36c2-54bf-8b23-ede936bc4bd9",
+     "label": "BRSMIDXA_CFT70_iDXA_CAMPAIGN_11_WB_Bone_6187",
+     "type": "file",
+     "ext": "",
+     "file_size": 7935,
+     "meta": "7.7 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ff7f3668-4ec5-5183-8eb3-82e62f72d664",
+     "label": "BRSMIDXA_CFT70_iDXA_CAMPAIGN_11_R_Hip_5297",
+     "type": "file",
+     "ext": "",
+     "file_size": 7265,
+     "meta": "7.1 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8c286710-dbcf-50c8-90aa-508ef20192b9",
+     "label": "BRSMIDXA_CFT70_iDXA_CAMPAIGN_11_S_bone_6187",
+     "type": "file",
+     "ext": "",
+     "file_size": 7051,
+     "meta": "6.9 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e82b34e7-ef3e-5a48-aafb-f7cc28d5249e",
+     "label": "BRSMIDXA_CFT70_iDXA_CAMPAIGN_11_WB_Bone_5297",
+     "type": "file",
+     "ext": "",
+     "file_size": 9530,
+     "meta": "9.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8713ec33-298f-57fa-9c4c-718c01539f4f",
+     "label": "BRSMIDXA_CFT70_iDXA_CAMPAIGN_11_WB_COMP_9023",
+     "type": "file",
+     "ext": "",
+     "file_size": 7327,
+     "meta": "7.2 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "03328e4e-aa8e-5359-b472-b9d78a6438ef",
+     "label": "BRSMIDXA_CFT70_iDXA_CAMPAIGN_11_WB_COMP_6187",
+     "type": "file",
+     "ext": "",
+     "file_size": 9268,
+     "meta": "9.1 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "42c2416b-369a-567a-be83-91fceff7ad6d",
+     "label": "BRSMIDXA_CFT70_iDXA_CAMPAIGN_11_S_bone_9023",
+     "type": "file",
+     "ext": "",
+     "file_size": 7011,
+     "meta": "6.8 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ac2091aa-7e5f-50ee-af2e-3a239a912cca",
+     "label": "BRSMIDXA_CFT70_iDXA_CAMPAIGN_11_R_Hip_6187",
+     "type": "file",
+     "ext": "",
+     "file_size": 5326,
+     "meta": "5.2 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "19811fe6-4e2d-54e6-a705-2a88b0efbfa0",
+     "label": "BRSMIDXA_CFT70_iDXA_CAMPAIGN_11_WB_Bone_6464",
+     "type": "file",
+     "ext": "",
+     "file_size": 8083,
+     "meta": "7.9 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6106bd4e-7b80-5aca-a5e7-befdb92c83eb",
+     "label": "BRSMIDXA_CFT70_iDXA_CAMPAIGN_11_WB_COMP_6464",
+     "type": "file",
+     "ext": "",
+     "file_size": 9279,
+     "meta": "9.1 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9d365bd1-7c52-54bd-93e4-bc5ca1eff450",
+     "label": "BRSMIDXA_CFT70_iDXA_CAMPAIGN_11_S_bone_5297",
+     "type": "file",
+     "ext": "",
+     "file_size": 8362,
+     "meta": "8.2 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "136c18fd-6983-5c11-997f-19c0ceb49852",
+     "label": "BRSMIDXA_CFT70_iDXA_CAMPAIGN_11_WB_Bone_9023",
+     "type": "file",
+     "ext": "",
+     "file_size": 8072,
+     "meta": "7.9 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "cc0335f9-22ac-577b-8773-9e07b1d4a80a",
+     "label": "BRSMIDXA_CFT70_iDXA_CAMPAIGN_11_L_Hip_8179",
+     "type": "file",
+     "ext": "",
+     "file_size": 6198,
+     "meta": "6.1 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "65c96b64-54ea-5601-9f70-9643a274e5ba",
+     "label": "BRSMIDXA_CFT70_iDXA_CAMPAIGN_11_WB_COMP_5297",
+     "type": "file",
+     "ext": "",
+     "file_size": 10913,
+     "meta": "10.7 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b43440f1-fed4-5240-a0b6-c243215022f8",
+     "label": "BRSMIDXA_CFT70_iDXA_CAMPAIGN_11_L_Hip_6187",
+     "type": "file",
+     "ext": "",
+     "file_size": 6219,
+     "meta": "6.1 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "25780a60-1678-52f5-9f99-d6723c5d885f",
+     "label": "BRSMIDXA_CFT70_iDXA_CAMPAIGN_11_S_bone_8179",
+     "type": "file",
+     "ext": "",
+     "file_size": 6102,
+     "meta": "6.0 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "31edf64d-d652-5c22-9613-bf03eba689cd",
+     "label": "BRSMIDXA_CFT70_iDXA_CAMPAIGN_11_L_Hip_6464",
+     "type": "file",
+     "ext": "",
+     "file_size": 6219,
+     "meta": "6.1 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

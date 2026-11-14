@@ -1,0 +1,369 @@
+{
+ "record": {
+  "id": "fd8098b1-8859-572c-a546-184360f7d5af",
+  "_id": "fd8098b1-8859-572c-a546-184360f7d5af",
+  "experiment_title": "Studies of Orthostatic Intolerance with the Use of LBNP",
+  "pub_document_number": "PUB001575",
+  "archive_status_index": 1,
+  "parameter_html": "<table><tr><td>Blood pressure</td></tr><tr><td>Heart rate</td></tr><tr><td>Echocardiogram</td></tr><tr><td>Lower body negative pressure (LBNP)</td></tr><tr></tr></table>",
+  "__source_key": "cl62atwqycanm01o65k718lri",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Kobzev, Y.\">Principal Investigator: Kobzev, Y.</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Charles, John\">Principal Investigator: Charles, John</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Meck, Janice\">Co-Investigator: Meck, Janice</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Mikhaylov, Valeriy\">Co-Investigator: Mikhaylov, Valeriy</a>",
+  "experiment_type_lk": [
+   "NASA-Mir Program"
+  ],
+  "__record_modified_date": "2026-08-23T04:22:43.811997+00:00",
+  "proposal_source": [
+   "N/A"
+  ],
+  "__indexed": "2026-08-23T04:22:43.811997+00:00",
+  "keyword": [
+   "Lower body negative pressure (LBNP)",
+   "Cardiovascular system",
+   "Blood pressure"
+  ],
+  "__record_creation_date": "2022-07-28T19:48:59.685Z",
+  "keyword_name": "Blood pressure",
+  "__record_version": 29,
+  "__record_size": 146895,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<br>\r\nExposure to weightlessness, even for short periods, induces significant changes in the cardiovascular system.   These changes are proposed to be secondary to headward fluid shifts, subsequent plasma volume contraction, and ensuing adaptations in cardioregulatory function.  The resulting cardiovascular state may be inappropriate for orthostasis on Earth's surface, as revealed by tachycardia, blood pressure lability, lightheadedness, visual disturbances and presyncope.  These findings mark the condition of postflight orthostatic dysfunction.  In the extreme, syncope or fainting may occur, thus the dysfunction then becomes intolerance.  This dysfunction, which has been observed in a small though perhaps significant percentage of crewmembers throughout the Shuttle program, is of particular concern as space flight durations increase, presumably predisposing the astronauts to an even greater risk of orthostatic dysfunction during and after entry landing.  \r\n<P>\r\nThis Mir investigation used LBNP only to determine the time-course and mechanisms of the development of orthostatic dysfunction during 115 days in weightlessness.  This work was part of an integrated study of changes in autonomic control of the cardiovascular system.  The data collection was done throughout the routine application of the Russian countermeasure program during the last days of the mission.  Specific analysis of this countermeasure and its efficacy focused on comparing responses before and after the treatment.  An in-depth comparison of the Russian and NASA LBNP countermeasure was not performed.\r\n<P>\r\nThe following hypothesis were:<br>\r\n1.During the first month in orbit, at each level of LBNP stress, there will be a significant increase in heart rate (HR) and diastolic blood pressure (DBP), a significant decrease in systolic blood pressure (SBP) and pulse pressure (PP), and no significant difference in mean arterial blood pressure (MAP), compared to preflight values.<br>\r\n2. After the first month in orbit, there will be no further significant change in HR, SBP, DBP, or MAP response to each level of LBNP stress.<br>\r\n3. There will be no significant difference between the HR, SBP, DBP, MAP or PP responses to LBNP of the MIR crew before the application of the standard Russian end-of-mission countermeasures and the responses to LBNP of the U.S. Skylab crews. <br>\r\n4. During LBNP on the last day in flight, there will be significantly smaller HR response to each level of LBNP stress compared to values measured in the same crewmember in flight before the treatment began.<br>\r\n5. Immediate postflight LBNP testing will reveal smaller HR and BP responses to corresponding levels of LBNP than were found after the 84-day Skylab flight, but larger HR and BP responses than after Shuttle flights of 14 days or less, indicating that the Russian treatment only partially restores the responses to LBNP to their preflight values.<br>\r\n6. By 6 weeks after landing, postflight HR, BP, SV, CO and TPR responses to LBNP will be indistinguishable from preflight responses.<br>\r\n<P>\r\nThe primary objective of this experiment was to determine the time-course and mechanisms of the loss of orthostatic tolerance associated with extended weightlessness.  The second objective was to confirm and extend previous U.S. and Russian research, and provide a standardized, reproducible measure of integrated circulatory control against which other planned specific measurements of autonomic function can be interpreted.\r\n<P>\r\nAPPROACH:<br>\r\nThis investigation used periodic repetitions of the standard U.S. Shuttle LBNP protocol to determine the time-course and mechanisms of the changes in the autonomic nervous control of the cardiovascular system associated with extended exposure to a weightless environment.  Three subjects first underwent preflight presyncope-limited tests to determine their maximum LBNP tolerance.  Baseline, inflight, and postflight data were collected using the response or Ramp LBNP test.  This test consists of 10 minutes of data collection at baseline or control, followed immediately by stepwise decreases in pressure of 10 mmHg increments down to nas-50 mmHg.  Each stage was 5 minutes.  The test was completed with a 5 minute recovery period after returning to 0 mmHg.  ECG and continuous blood pressure data were collected throughout the test, as well as arterial BP from a manual arm cuff once per minute.  Ultrasonographic measurements of cardiac left ventricular dimensions and blood flow velocity through the mitral and aortic valves were made during the pre-test resting control period; measurements of aortic blood flow velocity continued throughout the LBNP decompression and recovery periods.  From these ultrasound measurements, cardiac output and total peripheral resistance were calculated.  These Ramp tests were performed on three occasions preflight, on several occasions in flight on both Mir and the Shuttle, and at least once postflight.  HR and BP data was also acquired during LBNP treatment sessions on each of the last two full days in orbit before Shuttle landing. \r\n<P>\r\nRESULTS:<br>\r\nThere were no preflight or postflight anomalies in this experiment.  There was one minor inflight anomaly during LBNP operations on the Mir.  The continuous BP device filled its memory buffer, causing an error message to be displayed.  The message was ignored because it did not affect data collection and science results.  There was also one anomaly during LBNP operations on the Shuttle.  The LBNP countermeasure protocol programmed into the LBNP Controller was different from that printed on the cue card.  The crewmembers were instructed to follow the protocol as programmed as this did not affect science.\r\n<P>\r\nThe quality of data is fair although all the Gamma-1 ECG and BP data from LBNP sessions conducted on Mir were lost.  The cable configuration between the U.S. recording device and Russian hardware was not correct.  Russian Chibis LBNP device decompression pressure and Portapres continuous blood pressure data (CBPD) for the LBNP sessions conducted on Mir are still available.  Data collection on the Shuttle flight (STS-71) was compromised due to the inability of one subject to participate in inflight LBNP testing.  Completeness of preflight and postflight data was severely compromised due to inconsistent participation in the LBNP protocols by the Russian cosmonauts.  The complete assessment of many hypotheses is hampered by the protocol deviations.\r\n<P>\r\nThis investigation set out to test six hypotheses but the task was made difficult due to several factors beyond the principal investigator's control.  Regarding each hypothesis, the following statements were made: <br>\r\n1. HR response to LBNP was significantly increased inflight compared to preflight.  Stroke volume exhibited a larger decrease from baseline during inflight and postflight testing compared to preflight and all other cardiovascular parameters measured showed no statistically significant changes. <br>\r\n2. Hypothesis #2 was unable to be fully tested due to loss of a major portion of data collected on Mir.  The data that was saved appears to indicate that LBNP responses were altered as anticipated.\r\n<br>\r\n4. The data indicate that there were no significant differences in the LBNP heart rate responses of the Mir crew compared to those of the Skylab crews.  BP responses were equally similar.\r\n<br>\r\n5. Small sample size and other confounding factors make us unable to determine whether heart rate response on the last day inflight was significantly less, when compared to sessions earlier in the mission.<br>\r\n6. HR and BP responses in the Mir crewmembers to postflight LBNP testing were similar to both Skylab and Shuttle data.  Small sample size and other factors make the statistical power too low to state any significant differences. <br>\r\n7. Postflight testing was only carried out to 6 weeks on one crewmember whose LBNP response was similar to preflight at this test time.  The other crewmembers were unavailable for testing at R+45, thus hypothesis #6 cannot be fully addressed.<br>\r\n<p>\r\nDue to confounding factors and no control group, conclusive statements regarding the effectiveness of the Russian LBNP countermeasure cannot be made.  Future investigations should continue to document the problem of cardiovascular deconditioning in order to increase the number of subjects, so that more definitive conclusions can be made.\r\n<END>",
+  "payload_id": "Mir 18",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "indexed": "2026-08-23T04:22:43.811997+00:00",
+  "experiment_id": "3.1.1",
+  "GUID": "cl62atwqycanm01o65k718lri",
+  "parameter_name": [
+   "Blood pressure",
+   "Heart rate",
+   "Echocardiogram",
+   "Lower body negative pressure (LBNP)"
+  ],
+  "payload_part": "Mir 18",
+  "exp_index": 344,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Cardiovascular physiology"
+  ],
+  "pme_role_with_name": [
+   "Co-Investigator: Meck, Janice",
+   "Co-Investigator: Mikhaylov, Valeriy",
+   "Principal Investigator: Charles, John",
+   "Principal Investigator: Kobzev, Y.",
+   "Statistician: Knight- Bolton, Karen",
+   "Technical Assistant to Principal Investigator: Barker, Donald",
+   "Technical Assistant to Principal Investigator: Collier, Kevin",
+   "Technical Assistant to Principal Investigator: Wood, Margie"
+  ],
+  "missions": [
+   [
+    [
+     "Mir 18"
+    ]
+   ],
+   [
+    [
+     "STS-71"
+    ]
+   ]
+  ],
+  "__dirid": "fd8098b1-8859-572c-a546-184360f7d5af",
+  "__record_size_wo_doccontent": 146895,
+  "experiment_parms_tissue2": "N/A",
+  "experiment_parms_tissue1": "N/A",
+  "PI": [
+   "Charles, John",
+   "Kobzev, Y."
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "3.1.1"
+  ],
+  "mission_id": [
+   [
+    [
+     "Mir 18"
+    ]
+   ],
+   [
+    [
+     "STS-71"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Charles, John",
+   "Kobzev, Y."
+  ],
+  "archive_status": "Data preservation is complete. All datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Nasa-Mir",
+  "__source_field_concat": "PUB001575 Mir 18 cl62atwqycanm01o65k718lri Blood pressure N/A N/A  Mir 18 Studies of Orthostatic Intolerance with the Use of LBNP 3.1.1 Nasa-Mir Data preservation is complete. All datasets are publicly available.",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<br>\r\nExposure to weightlessness, even for short periods, induces significant changes in the cardiovascular system.   These changes are proposed to be secondary to headward fluid shifts, subsequent plasma volume contraction, and ensuing adaptations in cardioregulatory function.  The resulting cardiovascular state may be inappropriate for orthostasis on Earth's surface, as revealed by tachycardia, blood pressure lability, lightheadedness, visual disturbances and presyncope.  These findings mark the condition of postflight orthostatic dysfunction.  In the extreme, syncope or fainting may occur, thus the dysfunction then becomes intolerance.  This dysfunction, which has been observed in a small though perhaps significant percentage of crewmembers throughout the Shuttle program, is of particular concern as space flight durations increase, presumably predisposing the astronauts to an even greater risk of orthostatic dysfunction during and after entry landing.  \r\n<P>\r\nThis Mir investigation used LBNP only to determine the time-course and mechanisms of the development of orthostatic dysfunction during 115 days in weightlessness.  This work was part of an integrated study of changes in autonomic control of the cardiovascular system.  The data collection was done throughout the routine application of the Russian countermeasure program during the last days of the mission.  Specific analysis of this countermeasure and its efficacy focused on comparing responses before and after the treatment.  An in-depth comparison of the Russian and NASA LBNP countermeasure was not performed.\r\n<P>\r\nThe following hypothesis were:<br>\r\n1.During the first month in orbit, at each level of LBNP stress, there will be a significant increase in heart rate (HR) and diastolic blood pressure (DBP), a significant decrease in systolic blood pressure (SBP) and pulse pressure (PP), and no significant difference in mean arterial blood pressure (MAP), compared to preflight values.<br>\r\n2. After the first month in orbit, there will be no further significant change in HR, SBP, DBP, or MAP response to each level of LBNP stress.<br>\r\n3. There will be no significant difference between the HR, SBP, DBP, MAP or PP responses to LBNP of the MIR crew before the application of the standard Russian end-of-mission countermeasures and the responses to LBNP of the U.S. Skylab crews. <br>\r\n4. During LBNP on the last day in flight, there will be significantly smaller HR response to each level of LBNP stress compared to values measured in the same crewmember in flight before the treatment began.<br>\r\n5. Immediate postflight LBNP testing will reveal smaller HR and BP responses to corresponding levels of LBNP than were found after the 84-day Skylab flight, but larger HR and BP responses than after Shuttle flights of 14 days or less, indicating that the Russian treatment only partially restores the responses to LBNP to their preflight values.<br>\r\n6. By 6 weeks after landing, postflight HR, BP, SV, CO and TPR responses to LBNP will be indistinguishable from preflight responses.<br>\r\n<P>\r\nThe primary objective of this experiment was to determine the time-course and mechanisms of the loss of orthostatic tolerance associated with extended weightlessness.  The second objective was to confirm and extend previous U.S. and Russian research, and provide a standardized, reproducible measure of integrated circulatory control against which other planned specific measurements of autonomic function can be interpreted.\r\n<P>\r\nAPPROACH:<br>\r\nThis investigation used periodic repetitions of the standard U.S. Shuttle LBNP protocol to determine the time-course and mechanisms of the changes in the autonomic nervous control of the cardiovascular system associated with extended exposure to a weightless environment.  Three subjects first underwent preflight presyncope-limited tests to determine their maximum LBNP tolerance.  Baseline, inflight, and postflight data were collected using the response or Ramp LBNP test.  This test consists of 10 minutes of data collection at baseline or control, followed immediately by stepwise decreases in pressure of 10 mmHg increments down to nas-50 mmHg.  Each stage was 5 minutes.  The test was completed with a 5 minute recovery period after returning to 0 mmHg.  ECG and continuous blood pressure data were collected throughout the test, as well as arterial BP from a manual arm cuff once per minute.  Ultrasonographic measurements of cardiac left ventricular dimensions and blood flow velocity through the mitral and aortic valves were made during the pre-test resting control period; measurements of aortic blood flow velocity continued throughout the LBNP decompression and recovery periods.  From these ultrasound measurements, cardiac output and total peripheral resistance were calculated.  These Ramp tests were performed on three occasions preflight, on several occasions in flight on both Mir and the Shuttle, and at least once postflight.  HR and BP data was also acquired during LBNP treatment sessions on each of the last two full days in orbit before Shuttle landing. \r\n<P>\r\nRESULTS:<br>\r\nThere were no preflight or postflight anomalies in this experiment.  There was one minor inflight anomaly during LBNP operations on the Mir.  The continuous BP device filled its memory buffer, causing an error message to be displayed.  The message was ignored because it did not affect data collection and science results.  There was also one anomaly during LBNP operations on the Shuttle.  The LBNP countermeasure protocol programmed into the LBNP Controller was different from that printed on the cue card.  The crewmembers were instructed to follow the protocol as programmed as this did not affect science.\r\n<P>\r\nThe quality of data is fair although all the Gamma-1 ECG and BP data from LBNP sessions conducted on Mir were lost.  The cable configuration between the U.S. recording device and Russian hardware was not correct.  Russian Chibis LBNP device decompression pressure and Portapres continuous blood pressure data (CBPD) for the LBNP sessions conducted on Mir are still available.  Data collection on the Shuttle flight (STS-71) was compromised due to the inability of one subject to participate in inflight LBNP testing.  Completeness of preflight and postflight data was severely compromised due to inconsistent participation in the LBNP protocols by the Russian cosmonauts.  The complete assessment of many hypotheses is hampered by the protocol deviations.\r\n<P>\r\nThis investigation set out to test six hypotheses but the task was made difficult due to several factors beyond the principal investigator's control.  Regarding each hypothesis, the following statements were made: <br>\r\n1. HR response to LBNP was significantly increased inflight compared to preflight.  Stroke volume exhibited a larger decrease from baseline during inflight and postflight testing compared to preflight and all other cardiovascular parameters measured showed no statistically significant changes. <br>\r\n2. Hypothesis #2 was unable to be fully tested due to loss of a major portion of data collected on Mir.  The data that was saved appears to indicate that LBNP responses were altered as anticipated.\r\n<br>\r\n4. The data indicate that there were no significant differences in the LBNP heart rate responses of the Mir crew compared to those of the Skylab crews.  BP responses were equally similar.\r\n<br>\r\n5. Small sample size and other confounding factors make us unable to determine whether heart rate response on the last day inflight was significantly less, when compared to sessions earlier in the mission.<br>\r\n6. HR and BP responses in the Mir crewmembers to postflight LBNP testing were similar to both Skylab and Shuttle data.  Small sample size and other factors make the statistical power too low to state any significant differences. <br>\r\n7. Postflight testing was only carried out to 6 weeks on one crewmember whose LBNP response was similar to preflight at this test time.  The other crewmembers were unavailable for testing at R+45, thus hypothesis #6 cannot be fully addressed.<br>\r\n<p>\r\nDue to confounding factors and no control group, conclusive statements regarding the effectiveness of the Russian LBNP countermeasure cannot be made.  Future investigations should continue to document the problem of cardiovascular deconditioning in order to increase the number of subjects, so that more definitive conclusions can be made.\r\n<END>",
+  "__doi": "10.83263/vezd-4r90",
+  "__doi_record_creation_date": "2026-08-23T04:22:43",
+  "__doi_record_modified_date": "2026-08-23T04:22:43"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001121",
+   "label": "J0000870",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Heart Rate Response to LBNP",
+    "dataset_catalog": "J0000870",
+    "dataset_description": [
+     "Averaged HR data from preflight and inflight LBNP ?ramp? tests on Shuttle (<15 days), Skylab (28-84 days) and Mir (110 days)  crewmembers.  It is apparent that all three groups are similar, both preflight and inflight at their respective test times.  Source: Charles JB. Studies of Orthostatic Intolerance with the Use of LBNP. Mir 18 Final Science Report. Houston TX: National Aeronautics and Space Administration, Lyndon B. Johnson Space Center. <END>"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "3.1.1"
+    ]
+   },
+   "meta": "1 file \u00b7 598.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "a662fc77-b23a-5f09-96e6-c08da33416ef",
+     "label": "JMMIR311_38.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 612352,
+     "meta": "598.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000409",
+   "label": "J0000872",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Measure of Tolerance - LBNP Mir 18",
+    "dataset_catalog": "J0000872",
+    "dataset_description": [
+     "Measure of tolerance - systolic, diastolic, and mean arterial blood pressure, heart rate, stroke volume, and total peripheral resistance are presented as the % change from 0-50 mmHg (control to maximum decompression).  This figure illustrates the delta from baseline, thus factoring in the different endpoints for each crewmember and presenting the result as a group average.  The change in stroke volume was significantly greater inflight and postflight compared to preflight (p=0.02).  No other parameters exhibited a significant change, in part due to the large individual variability and small sample size.  In fact, the low statistical power for all of these comparisons should be considered when drawing any conclusions from these data. Source: Charles JB. Studies of Orthostatic Intolerance with the Use of LBNP. Mir 18 Final Science Report. Houston TX: National Aeronautics and Space Administration, Lyndon B. Johnson Space Center. <END>"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "3.1.1"
+    ]
+   },
+   "meta": "1 file \u00b7 588.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "f6d6d68d-e22d-545c-b90e-aee795b80bdf",
+     "label": "JMMIR311_110.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 602112,
+     "meta": "588.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000783",
+   "label": "3.1.1__2630758615",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Final Report for Experiment 3.1.1",
+    "dataset_catalog": "3.1.1__2630758615",
+    "dataset_description": [
+     "This file contains the 30 day, 180 day, one year, and final report for the 3.1.1 study.  The Mission Science Requirement Document (MSRD) is also attached.  Data collection time tables are also included.  Data represented in the final report:<BR>\r\nFigure 1. Averaged Heart Rate data from preflight\r\nand inflight LBNP \"ramp\" tests on Shuttle (<15 days),\r\nSkylab (28-84 days) and Mir (110 days)\r\ncrewmembers. It is apparent that all three groups\r\nare similar, both preflight and in flight at their\r\nrespective test times.<P>\r\nFigure 2. Preflight, inflight, and postflight\r\ncomparisons of Systolic, Diastolic, and Mean\r\nArterial Blood Pressure, Heart Rate, Stroke Volume,\r\nand Total Peripheral Resistance at maximum\r\ndecompression (-50 mmHg). There is a significant\r\nincrease in Heart Rate from preflight to in flight\r\n(p=0.04) as was expected for the three Mir\r\ncrewmembers (see *). There were no significant\r\ndifferences in any other parameters.<P>\r\nFigure 3. Measure of tolerance - Systolic, Diastolic,\r\nand Mean Arterial Blood Pressure, Heart Rate,\r\nStroke Volume, and Total Peripheral Resistance are\r\npresented as the % change from 0-50 mmHg (control\r\nto maximum decompression). This figure illustrates\r\nthe delta from baseline, thus factoring in the\r\ndifferent endpoints for each crewmember and\r\npresenting the result as a group average. The\r\nchange in Stroke Volume was significantly greater in\r\nflight and postflight compared to preflight (p=0.02)\r\n(see *). No other parameters exhibited a significant\r\nchange, in part due to the large individual\r\nvariability and small sample size. In fact, the\r\nstatistical power for all of these comparisons should\r\nbe considered when drawing any conclusions from\r\nthese data."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "3.1.1"
+    ]
+   },
+   "meta": "6 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "d75d961a-b7f1-521f-8a26-ef3c57207b0f",
+     "label": "3.pdf_Mir_18_3.1.1_2013_303_041025.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "bdd13a75-b7d7-5295-abd9-ce0db383223b",
+     "label": "3.pdf_STS-71_3.1.1_2013_304_031045.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "689cd195-8a86-5b2c-8e48-67dfc876451d",
+     "label": "Mir_18_180_day.pdf_Mir_18_3.1.1_2013_303_041004.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a4699187-fb39-51ac-bbb4-5ef7c720bf08",
+     "label": "3.pdf_Mir_18_3.1.1_2013_304_031013.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c96d704e-9453-5a63-a3d2-3ed1c525edb2",
+     "label": "One_year_report.pdf_Mir_18_3.1.1_2013_303_041042.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "41e1640d-cad6-5856-b109-0b933e322257",
+     "label": "311__2630758615.pdf_Mir_18_3.1.1_2013_263_080919.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000951",
+   "label": "J0000871",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Hemodynamic Comparisons at Max LBNP Decompression",
+    "dataset_catalog": "J0000871",
+    "dataset_description": [
+     "Preflight, inflight, and postflight comparisons of systolic, diastolic, and mean arterial blood pressure, heart rate, stroke volume, and total peripheral resistance at maximum decompression (-50 mmHg).  There is a significant increase in heart rate from preflight to inflight (p=0.04) as was expected for the three Mir crewmembers.  There were no significant differences in any other parameters. Source: Charles JB. Studies of Orthostatic Intolerance with the Use of LBNP. Mir 18 Final Science Report. Houston TX: National Aeronautics and Space Administration, Lyndon B. Johnson Space Center. <END>"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "3.1.1"
+    ]
+   },
+   "meta": "1 file \u00b7 582.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "5939165f-9f68-549b-8e7a-e179fcbea856",
+     "label": "JMMIR311_109.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 595968,
+     "meta": "582.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001462",
+   "label": "3.1.1__2500236209",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Data Collection Timetables for Experiment 3.1.1",
+    "dataset_catalog": "3.1.1__2500236209",
+    "dataset_description": [
+     "This spreadsheet represents the data collection timetables for data collection sessions for this experiment: crew, air, surface and water microbiology. Information included in this spreadsheet may include information on the test protocol, data collection constraints, parameters measured, hardware used, scheduled versus actual days of data collection, and subject information."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "3.1.1"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "ee2971ac-8718-58c1-a709-e87f51bbec87",
+     "label": "311__2500236209.xls_STS-71_3.1.1_2010_250_020939.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001542",
+   "label": "3.1.1__18103145",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Comparison of Chibis and Skylab LBNP Devices",
+    "dataset_catalog": "3.1.1__18103145",
+    "dataset_description": [
+     "This dataset comprises several graphs that show comparisons between the Russian Chibis LBNP device and the Skylab LBNP device.\r\n<P>\r\n<LI>Chibis LBNP vs. Skylab LBNP heart rate n=8 subjects\r\n<LI>Chibis LBNP vs. Skylab LBNP systolic and diastolic blood pressure n=8 subjects\r\n<LI>Chibis LBNP vs. Skylab LBNP mean arterial pressure (MAP) and pulse pressure n=8 subjects\r\n<LI>Chibis LBNP vs. Skylab LBNP stroke volume n=6 subjects\r\n<LI>Chibis LBNP vs. Skylab LBNP cardiac output n=6 subjects\r\n<LI>Chibis LBNP vs. Skylab LBNP peripheral resistance n=6 subjects\r\n<LI>Chibis LBNP vs. Skylab LBNP room temperature and LBNP temperature monitoring n=8 subjects\r\n<P>\r\nSource: unpublished data"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "3.1.1"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "4f2abec5-7909-52b0-9a55-c875f20b52de",
+     "label": "311__18103145.pdf_Mir_18_3.1.1_2012_181_030649.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

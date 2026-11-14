@@ -1,0 +1,411 @@
+{
+ "record": {
+  "id": "ac58fa4c-a83b-5a69-aa9d-45814ca4d03b",
+  "_id": "ac58fa4c-a83b-5a69-aa9d-45814ca4d03b",
+  "experiment_title": "Pre- and Postflight Cardiac Assessment",
+  "archive_status_index": 4,
+  "pub_document_number": "PUB001104",
+  "parameter_html": "<table><tr><td>Aortic dimensions</td></tr><tr><td>Cardiac index</td></tr><tr><td>Diastolic blood pressure</td></tr><tr><td>Ejection fraction</td></tr><tr><td>Heart rate</td></tr><tr><td>Left atrial dimensions</td></tr><tr><td>Left ventricular diastolic dimensions</td></tr><tr><td>Left ventricular inflow velocity</td></tr><tr><td>Left ventricular outflow velocity</td></tr><tr><td>Left ventricular stroke volume index</td></tr><tr><td>Left ventricular systolic dimensions</td></tr><tr><td>Left ventricular wall thickness</td></tr><tr><td>Mean arterial pressure</td></tr><tr><td>Myocardial mass index</td></tr><tr><td>Pulse pressure</td></tr><tr><td>Right ventricular dimensions</td></tr><tr><td>Systolic blood pressure</td></tr><tr><td>Total peripheral vascular resistance index</td></tr><tr><td>Velocity of circumferential fiber shortening</td></tr><tr><td>Left ventricular end-diastolic volume index (EDVI)</td></tr><tr><td>Left ventricular end-systolic volume index (ESVI)</td></tr><tr></tr></table>",
+  "__source_key": "cl62azwdgcdhr01o6eqmb2ne4",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Charles, John\">Principal Investigator: Charles, John</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Bungo, Michael\">Co-Investigator: Bungo, Michael</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Mulvagh, Sharon\">Co-Investigator: Mulvagh, Sharon</a>",
+  "experiment_type_lk": [
+   "Shuttle Detailed Supplementary Objectives (DSO)"
+  ],
+  "__record_modified_date": "2026-08-23T04:16:01.650654+00:00",
+  "proposal_source": [
+   "N/A"
+  ],
+  "__indexed": "2026-08-23T04:16:01.650654+00:00",
+  "__record_creation_date": "2022-07-28T19:55:57.327Z",
+  "keyword": [
+   "Cardiac volume",
+   "Body fluids",
+   "Cardiovascular system",
+   "Heart rate",
+   "Heart",
+   "Electrocardiography",
+   "Vagus nerve",
+   "Echocardiography",
+   "Thorax",
+   "Autonomic nervous system",
+   "Hemodynamics",
+   "Blood pressure",
+   "Posture"
+  ],
+  "keyword_name": "Posture",
+  "__record_size": 69454,
+  "__record_version": 29,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<BR>\r\nSpace flight causes adaptive changes in cardiovascular function, and many astronauts have suffered postflight orthostatic tachycardia. However, previously available data about these changes have been inadequate and inconsistent. The objective of this study was to collect normative data about the effects of space flight on the volume, mass and function of the heart, and about the orthostatic response of the cardiovascular system.\r\n<P>\r\nAPPROACH:<BR>\r\nThe heart rate and blood pressure of 32 astronauts were recorded while they were lying supine and then standing, before and after space flights of 4 to 5 days. At the same times, echocardiograms were recorded by 2-dimensional M-mode echocardiography. The total peripheral resistance index (TPRI), left ventricular end diastolic volume index (EDVI), left ventricular end systolic volume index (ESVI), left ventricular stroke volume index (SVI), myocardial mass index and ejection fraction were calculated, and the mean velocity of circumferential shortening of the myocardial fibers was estimated.\r\n<P>\r\nRESULTS:<BR>\r\nThe heart rate was greater on landing day than before the flight, and the EDVI and SVI in the supine position were less. (The mean EDVI was 11% less and the mean SVI was 17% less.) The mean EDVI, ESVI and SVI in the standing position were also less on landing day, but these changes were not statistically significant. Space flight caused no significant changes in the supine ESVI, the ejection fraction, the thickness of the left ventricular wall or the mass or contractility of the heart muscle. Before the flight, the TPRI increased significantly when astronauts stood up after lying supine. This orthostatic response was reduced on landing day, so that the TPRI failed to change significantly when the astronauts stood up, while the heart rate increased. The changes resolved within 7 to 10 days of landing. These results indicated that temporary changes in cardiovascular function may be expected even after short spaceflights of only 4 to 5 days. These changes included a decrease in the left ventricular end diastolic volume and stroke volume, with a compensatory increase in heart rate, as well as loss or reduction of the normal orthostatic response that maintains the blood pressure during postural changes.<END>",
+  "payload_id": "DSO26",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "DSO 466",
+  "indexed": "2026-08-23T04:16:01.650654+00:00",
+  "experiment_related": [
+   "DSO 465"
+  ],
+  "GUID": "cl62azwdgcdhr01o6eqmb2ne4",
+  "parameter_name": [
+   "Aortic dimensions",
+   "Cardiac index",
+   "Diastolic blood pressure",
+   "Ejection fraction",
+   "Heart rate",
+   "Left atrial dimensions",
+   "Left ventricular diastolic dimensions",
+   "Left ventricular inflow velocity",
+   "Left ventricular outflow velocity",
+   "Left ventricular stroke volume index",
+   "Left ventricular systolic dimensions",
+   "Left ventricular wall thickness",
+   "Mean arterial pressure",
+   "Myocardial mass index",
+   "Pulse pressure",
+   "Right ventricular dimensions",
+   "Systolic blood pressure",
+   "Total peripheral vascular resistance index",
+   "Velocity of circumferential fiber shortening",
+   "Left ventricular end-diastolic volume index (EDVI)",
+   "Left ventricular end-systolic volume index (ESVI)"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 579,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Cardiovascular physiology"
+  ],
+  "pme_role_with_name": [
+   "Co-Investigator: Bungo, Michael",
+   "Co-Investigator: Mulvagh, Sharon",
+   "Collaborator: Lathers, Claire",
+   "Principal Investigator: Charles, John"
+  ],
+  "missions": [
+   [
+    [
+     "STS-26"
+    ]
+   ],
+   [
+    [
+     "STS-27"
+    ]
+   ],
+   [
+    [
+     "STS-28"
+    ]
+   ],
+   [
+    [
+     "STS-29"
+    ]
+   ],
+   [
+    [
+     "STS-30"
+    ]
+   ],
+   [
+    [
+     "STS-31"
+    ]
+   ],
+   [
+    [
+     "STS-32"
+    ]
+   ],
+   [
+    [
+     "STS-33"
+    ]
+   ],
+   [
+    [
+     "STS-34"
+    ]
+   ],
+   [
+    [
+     "STS-35"
+    ]
+   ],
+   [
+    [
+     "STS-36"
+    ]
+   ],
+   [
+    [
+     "STS-39"
+    ]
+   ],
+   [
+    [
+     "STS-42"
+    ]
+   ]
+  ],
+  "__dirid": "ac58fa4c-a83b-5a69-aa9d-45814ca4d03b",
+  "__record_size_wo_doccontent": 69454,
+  "PI": [
+   "Charles, John"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "DSO 466"
+  ],
+  "mission_id": [
+   [
+    [
+     "STS-26"
+    ]
+   ],
+   [
+    [
+     "STS-27"
+    ]
+   ],
+   [
+    [
+     "STS-28"
+    ]
+   ],
+   [
+    [
+     "STS-29"
+    ]
+   ],
+   [
+    [
+     "STS-30"
+    ]
+   ],
+   [
+    [
+     "STS-31"
+    ]
+   ],
+   [
+    [
+     "STS-32"
+    ]
+   ],
+   [
+    [
+     "STS-33"
+    ]
+   ],
+   [
+    [
+     "STS-34"
+    ]
+   ],
+   [
+    [
+     "STS-35"
+    ]
+   ],
+   [
+    [
+     "STS-36"
+    ]
+   ],
+   [
+    [
+     "STS-39"
+    ]
+   ],
+   [
+    [
+     "STS-42"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Charles, John"
+  ],
+  "archive_status": "Data preservation is complete. All datasets are privacy-protected. Data is available via data request.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Shuttle Program",
+  "__source_field_concat": "PUB001104 DSO26 cl62azwdgcdhr01o6eqmb2ne4 Posture  N/A Pre- and Postflight Cardiac Assessment DSO 466 Shuttle Program",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<BR>\r\nSpace flight causes adaptive changes in cardiovascular function, and many astronauts have suffered postflight orthostatic tachycardia. However, previously available data about these changes have been inadequate and inconsistent. The objective of this study was to collect normative data about the effects of space flight on the volume, mass and function of the heart, and about the orthostatic response of the cardiovascular system.\r\n<P>\r\nAPPROACH:<BR>\r\nThe heart rate and blood pressure of 32 astronauts were recorded while they were lying supine and then standing, before and after space flights of 4 to 5 days. At the same times, echocardiograms were recorded by 2-dimensional M-mode echocardiography. The total peripheral resistance index (TPRI), left ventricular end diastolic volume index (EDVI), left ventricular end systolic volume index (ESVI), left ventricular stroke volume index (SVI), myocardial mass index and ejection fraction were calculated, and the mean velocity of circumferential shortening of the myocardial fibers was estimated.\r\n<P>\r\nRESULTS:<BR>\r\nThe heart rate was greater on landing day than before the flight, and the EDVI and SVI in the supine position were less. (The mean EDVI was 11% less and the mean SVI was 17% less.) The mean EDVI, ESVI and SVI in the standing position were also less on landing day, but these changes were not statistically significant. Space flight caused no significant changes in the supine ESVI, the ejection fraction, the thickness of the left ventricular wall or the mass or contractility of the heart muscle. Before the flight, the TPRI increased significantly when astronauts stood up after lying supine. This orthostatic response was reduced on landing day, so that the TPRI failed to change significantly when the astronauts stood up, while the heart rate increased. The changes resolved within 7 to 10 days of landing. These results indicated that temporary changes in cardiovascular function may be expected even after short spaceflights of only 4 to 5 days. These changes included a decrease in the left ventricular end diastolic volume and stroke volume, with a compensatory increase in heart rate, as well as loss or reduction of the normal orthostatic response that maintains the blood pressure during postural changes.<END>",
+  "__doi": "10.83263/tva7-x755",
+  "__doi_record_creation_date": "2026-08-23T04:16:01",
+  "__doi_record_modified_date": "2026-08-23T04:16:01"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001202",
+   "label": "JMDSO_466_1",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Cardiovascular Measurements",
+    "dataset_catalog": "JMDSO_466_1",
+    "dataset_description": [
+     "This Excel file contains cardiovascular measurements (mean \u00b1 SEM) before and after short-duration space flight for subjects in the DSO 466 study.\r\n<p>\r\nSource: <A HREF="
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "DSO 466"
+    ]
+   },
+   "meta": "13 files \u00b7 351.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "d7f545b3-d02a-5dd2-a1fc-267260157c3b",
+     "label": "JMDSO_466_1.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 27648,
+     "meta": "27.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7c5501f8-60de-5a05-820d-8a7d64f04fba",
+     "label": "JMDSO_466_1.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 27648,
+     "meta": "27.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "fc8ab238-dee3-5665-9bfa-678f54266297",
+     "label": "JMDSO_466_1.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 27648,
+     "meta": "27.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0029e0c8-28a9-519d-9e10-feaf90218c15",
+     "label": "JMDSO_466_1.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 27648,
+     "meta": "27.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "439054d6-4492-5d56-9497-bfb7f04f887f",
+     "label": "JMDSO_466_1.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 27648,
+     "meta": "27.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3c92e2ad-bee8-59d2-a620-3f9ee8ddeb69",
+     "label": "JMDSO_466_1.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 27648,
+     "meta": "27.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5946198c-a816-5f52-8967-1fc50dfe6a1d",
+     "label": "JMDSO_466_1.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 27648,
+     "meta": "27.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6ebd3936-0603-5866-a367-bdfb538532cc",
+     "label": "JMDSO_466_1.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 27648,
+     "meta": "27.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "08514dc0-52fd-5b0c-a503-0175817303cd",
+     "label": "JMDSO_466_1.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 27648,
+     "meta": "27.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "22f09772-bfbb-59fe-a453-d42aefb06519",
+     "label": "JMDSO_466_1.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 27648,
+     "meta": "27.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "48823fac-0401-5549-aa08-ce98acce6a00",
+     "label": "JMDSO_466_1.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 27648,
+     "meta": "27.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6bf56b1c-d2b3-5f84-89c7-a13498a1a689",
+     "label": "JMDSO_466_1.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 27648,
+     "meta": "27.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "acf18173-5a6c-5e42-944a-9614093708e5",
+     "label": "JMDSO_466_1.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 27648,
+     "meta": "27.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

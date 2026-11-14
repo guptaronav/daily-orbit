@@ -1,0 +1,353 @@
+{
+ "record": {
+  "id": "d9cdbd41-7113-500f-ab74-c0d9d81009d5",
+  "_id": "d9cdbd41-7113-500f-ab74-c0d9d81009d5",
+  "experiment_title": "Body Mass Changes in NASA/Mir Astronauts",
+  "archive_status_index": 1,
+  "pub_document_number": "PUB001399",
+  "parameter_html": "<table><tr><td>Body weight</td></tr><tr></tr></table>",
+  "__source_key": "cl62ay1jecd2801o6glmydh40",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:No Principal Investigator,\">Principal Investigator: No Principal Investigator,</a>",
+  "experiment_type_lk": [
+   "Longitudinal Study of Astronaut Health (LSAH)"
+  ],
+  "__record_modified_date": "2026-08-23T03:58:57.872124+00:00",
+  "__indexed": "2026-08-23T03:58:57.872124+00:00",
+  "__record_creation_date": "2022-07-28T19:58:23.442Z",
+  "keyword": [
+   "Weight"
+  ],
+  "keyword_name": "Weight",
+  "__record_size": 59255,
+  "__record_version": 28,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<BR>\r\nInternational Space Station (ISS) Phase I, more commonly known as Phase I, served as a precursor to the ISS experience.  In this program, the existing resources of the US Shuttle orbiters and the Russian Space Station Mir were used to test the challenges facing the international partners in the areas of cooperation, data gathering, and logistics.  As part of Phase I, seven NASA astronauts served as Mir crewmembers between March 1995 and June 1998.  Physiological data gathered on these NASA astronauts can give insight on the effects of long-term weightlessness on individuals, which in turn is important for future ISS considerations.\r\n<P>\t\r\nAPPROACH:<BR>\r\nChanges in body weight during periods of prolonged weightlessness were examined for six of the seven US astronauts who have flown on Mir.  The data present mean body weight and standard deviations (SD) at four intervals: the annual examination in the year prior to flight (Preflight Annual), inflight on approximately Flight Day 90 (FD 90), the third day after return to Earth (R+3), and the annual examination in the year after flight (Postflight Annual).\r\n<P>\r\nRESULTS:<BR>\r\nMean weight was 77.2 kg at the preflight annual examination, 73.8 kg at FD 90, 77.3 kg at R+3, and 78.1 kg at the postflight annual examination.  There was a downward shift in mean weight inflight, with return to preflight mean weight occurring by R+3.  However, inflight mean weight was not statistically significantly different from the preflight and postflight mean weights.\r\n<P>\r\nAnother way to look at this type of data is to calculate and examine the percent change between preflight and inflight values.  Data are inflight data, comparing weight on FD 30, FD 60, and FD 90 to weight at preflight annual examination.  Percent of change is calculated by the difference between the preflight annual examination weight and the inflight weight divided by the preflight weight multiplied by 100.  The resulting negative value indicates that weight decreased early in the mission (-3.5% by FD 30) and then remained relatively constant at the next two inflight intervals (-4.0% by FD 60 and -4.25% by FD 90).\r\n<P>\r\nThe method of measurement is different for inflight and on ground, which may contribute to the differences in weight reported here.  These results suggest that during periods of prolonged weightlessness, astronauts may experience weight loss early in the mission.  Inflight weight appears to stabilize at the new level, and return to preflight levels after return to Earth.  Further research into nutritional status during long duration spaceflight may reveal the causes and consequences of this temporal weight loss.<END>",
+  "payload_id": "Mir 18",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "LSAHNEWSV7_2_1",
+  "indexed": "2026-08-23T03:58:57.872124+00:00",
+  "GUID": "cl62ay1jecd2801o6glmydh40",
+  "parameter_name": [
+   "Body weight"
+  ],
+  "exp_index": 1058,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Metabolism and nutrition",
+   "Clinical medicine"
+  ],
+  "pme_role_with_name": [
+   "Principal Investigator: No Principal Investigator,"
+  ],
+  "missions": [
+   [
+    [
+     "Mir 18"
+    ]
+   ],
+   [
+    [
+     "NASA 2"
+    ]
+   ],
+   [
+    [
+     "NASA 3"
+    ]
+   ],
+   [
+    [
+     "NASA 4"
+    ]
+   ],
+   [
+    [
+     "NASA 5"
+    ]
+   ],
+   [
+    [
+     "NASA 6"
+    ]
+   ],
+   [
+    [
+     "NASA 7"
+    ]
+   ],
+   [
+    [
+     "LSAH"
+    ]
+   ]
+  ],
+  "__dirid": "d9cdbd41-7113-500f-ab74-c0d9d81009d5",
+  "__record_size_wo_doccontent": 59255,
+  "PI": [
+   "No Principal Investigator,"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "LSAHNEWSV7_2_1"
+  ],
+  "mission_id": [
+   [
+    [
+     "Mir 18"
+    ]
+   ],
+   [
+    [
+     "NASA 2"
+    ]
+   ],
+   [
+    [
+     "NASA 3"
+    ]
+   ],
+   [
+    [
+     "NASA 4"
+    ]
+   ],
+   [
+    [
+     "NASA 5"
+    ]
+   ],
+   [
+    [
+     "NASA 6"
+    ]
+   ],
+   [
+    [
+     "NASA 7"
+    ]
+   ],
+   [
+    [
+     "LSAH"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "proposal_date": [],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "No Principal Investigator,"
+  ],
+  "archive_status": "Data preservation is complete. All datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Nasa-Mir",
+  "__source_field_concat": "PUB001399 Mir 18 cl62ay1jecd2801o6glmydh40 <table><tr><td>Body weight</td></tr><tr></tr></table> Weight  Body Mass Changes in NASA/Mir Astronauts LSAHNEWSV7_2_1 Nasa-Mir Data preservation is complete. All datasets are publicly available.",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<BR>\r\nInternational Space Station (ISS) Phase I, more commonly known as Phase I, served as a precursor to the ISS experience.  In this program, the existing resources of the US Shuttle orbiters and the Russian Space Station Mir were used to test the challenges facing the international partners in the areas of cooperation, data gathering, and logistics.  As part of Phase I, seven NASA astronauts served as Mir crewmembers between March 1995 and June 1998.  Physiological data gathered on these NASA astronauts can give insight on the effects of long-term weightlessness on individuals, which in turn is important for future ISS considerations.\r\n<P>\t\r\nAPPROACH:<BR>\r\nChanges in body weight during periods of prolonged weightlessness were examined for six of the seven US astronauts who have flown on Mir.  The data present mean body weight and standard deviations (SD) at four intervals: the annual examination in the year prior to flight (Preflight Annual), inflight on approximately Flight Day 90 (FD 90), the third day after return to Earth (R+3), and the annual examination in the year after flight (Postflight Annual).\r\n<P>\r\nRESULTS:<BR>\r\nMean weight was 77.2 kg at the preflight annual examination, 73.8 kg at FD 90, 77.3 kg at R+3, and 78.1 kg at the postflight annual examination.  There was a downward shift in mean weight inflight, with return to preflight mean weight occurring by R+3.  However, inflight mean weight was not statistically significantly different from the preflight and postflight mean weights.\r\n<P>\r\nAnother way to look at this type of data is to calculate and examine the percent change between preflight and inflight values.  Data are inflight data, comparing weight on FD 30, FD 60, and FD 90 to weight at preflight annual examination.  Percent of change is calculated by the difference between the preflight annual examination weight and the inflight weight divided by the preflight weight multiplied by 100.  The resulting negative value indicates that weight decreased early in the mission (-3.5% by FD 30) and then remained relatively constant at the next two inflight intervals (-4.0% by FD 60 and -4.25% by FD 90).\r\n<P>\r\nThe method of measurement is different for inflight and on ground, which may contribute to the differences in weight reported here.  These results suggest that during periods of prolonged weightlessness, astronauts may experience weight loss early in the mission.  Inflight weight appears to stabilize at the new level, and return to preflight levels after return to Earth.  Further research into nutritional status during long duration spaceflight may reveal the causes and consequences of this temporal weight loss.<END>",
+  "__doi": "10.83263/rx8d-2h34",
+  "__doi_record_creation_date": "2026-08-23T03:58:57",
+  "__doi_record_modified_date": "2026-08-23T03:58:57"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000009",
+   "label": "JMLSAHNEWSV721_147",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Body Mass Changes in NASA/Mir Astronauts-Part 2",
+    "dataset_catalog": "JMLSAHNEWSV721_147",
+    "dataset_description": [
+     "The graph depicts mean percent change in body weight (in kg) between inflight and annual physical examinations for NASA/Mir astronauts.<P>Reference: National Aeronautics and Space Administration. Body Mass Changes in Phase I Astronauts. In: Longitudinal Study of Astronaut Health Newsletter. October 1998;7(2):1."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "LSAHNEWSV7_2_1"
+    ]
+   },
+   "meta": "7 files \u00b7 399.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "addeaa18-aa42-5754-bcf6-df221f8bfe6a",
+     "label": "JMLSAHNEWSV721_147.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 58368,
+     "meta": "57.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f8e3765f-37f6-51a5-ba5a-7cbcff159d06",
+     "label": "JMLSAHNEWSV721_147.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 58368,
+     "meta": "57.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d78d346b-c89a-5da0-892f-742e0d38e06b",
+     "label": "JMLSAHNEWSV721_147.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 58368,
+     "meta": "57.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "44475163-f985-5fb2-b648-1f2ae092c3d6",
+     "label": "JMLSAHNEWSV721_147.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 58368,
+     "meta": "57.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "76080900-e872-5542-9c28-81ada5141c55",
+     "label": "JMLSAHNEWSV721_147.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 58368,
+     "meta": "57.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d5a90759-c493-589d-8609-7996a2dc1e33",
+     "label": "JMLSAHNEWSV721_147.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 58368,
+     "meta": "57.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b0d427a5-45bb-53c4-9351-41a7580bdd08",
+     "label": "JMLSAHNEWSV721_147.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 58368,
+     "meta": "57.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001894",
+   "label": "JMLSAHNEWSV721_146",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Body Mass Changes in NASA/Mir Astronauts",
+    "dataset_catalog": "JMLSAHNEWSV721_146",
+    "dataset_description": [
+     "The graph depicts mean body weight (in kg) for preflight, inflight, postflight and annual physical examinations for NASA/Mir astronauts.<P>Reference: National Aeronautics and Space Administration. Body Mass Changes in Phase I Astronauts. In: Longitudinal Study of Astronaut Health Newsletter. October 1998;7(2):1."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "LSAHNEWSV7_2_1"
+    ]
+   },
+   "meta": "7 files \u00b7 399.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "65fb372b-d8a9-508c-b02c-b727f4d8a892",
+     "label": "JMLSAHNEWSV721_146.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 58368,
+     "meta": "57.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b2a8fe2f-7068-58c8-b3d7-1d4f4d3cce89",
+     "label": "JMLSAHNEWSV721_146.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 58368,
+     "meta": "57.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ac4b61a6-9eef-510d-8ea5-84da834d7760",
+     "label": "JMLSAHNEWSV721_146.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 58368,
+     "meta": "57.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "53235b8b-26c2-5a8f-b10c-6bfb2d9ec6d2",
+     "label": "JMLSAHNEWSV721_146.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 58368,
+     "meta": "57.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "52630093-f621-532b-aee9-acfdc3f3a4f9",
+     "label": "JMLSAHNEWSV721_146.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 58368,
+     "meta": "57.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1f6faaab-7718-55a3-94e7-568837b916a4",
+     "label": "JMLSAHNEWSV721_146.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 58368,
+     "meta": "57.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "cc2a9459-d03d-5cab-bb68-678e4a29b17a",
+     "label": "JMLSAHNEWSV721_146.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 58368,
+     "meta": "57.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

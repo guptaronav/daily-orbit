@@ -1,0 +1,171 @@
+{
+ "record": {
+  "id": "ccf09973-89a0-5ead-9dea-ec3570e5bb06",
+  "_id": "ccf09973-89a0-5ead-9dea-ec3570e5bb06",
+  "experiment_title": "Prevalence of Hypertension in LSAH Participants",
+  "archive_status_index": 1,
+  "pub_document_number": "PUB001125",
+  "parameter_html": "<table><tr><td>Blood pressure</td></tr><tr><td>Hypertension</td></tr><tr><td>Pulse pressure</td></tr><tr></tr></table>",
+  "__source_key": "cl62axzljcd1s01o65maramk2",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:No Principal Investigator,\">Principal Investigator: No Principal Investigator,</a>",
+  "experiment_type_lk": [
+   "Longitudinal Study of Astronaut Health (LSAH)"
+  ],
+  "__record_modified_date": "2026-08-23T03:50:25.968169+00:00",
+  "__indexed": "2026-08-23T03:50:25.968169+00:00",
+  "__record_creation_date": "2022-07-28T20:06:12.724Z",
+  "keyword": [
+   "Blood pressure",
+   "Hypertension"
+  ],
+  "keyword_name": "Hypertension",
+  "__record_size": 71050,
+  "__record_version": 29,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<BR>\r\nBlood pressure is the force of the blood pushing against the walls of arteries. It is measured in millimeters of mercury (mmHg), and given in two numbers. The higher number indicates systolic pressure, which is the amount of force exerted on the walls of arteries within and leading from the heart when it contracts (i.e., during systole). The lower number is the diastolic pressure, which is the force existing between contractions (i.e., during diastole).\r\n<P>\r\nNormal blood pressure is usually considered to be 120/80 mmHg; measurements above 140/90 mmHg are considered to be hypertensive. Hypertension, or high blood pressure, simply refers to the increased tension or pressure in the arteries. Hypertension is a major risk factor for heart attack, heart failure, stroke, and kidney failure. Most hypertensive people have no symptoms.\r\n<P>\t\r\nFor most people, there is no single known cause of high blood pressure.  This type of high blood pressure is called primary or essential hypertension.  Essential hypertension can't be cured, although in most cases it can be controlled. In some cases, high blood pressure can be traced to a known cause like tumors of the adrenal gland, chronic kidney disease, hormone abnormalities, use of birth control pills, or pregnancy. This is called secondary hypertension, and is usually cured if the underlying cause passes or is corrected.  \r\n<P>\r\nThe goal of this study was to examine hypertension among the astronaut and comparison populations.\r\n<P>\r\nAPPROACH:<BR>\r\nAccording to data from the third National Health and Nutrition Examination Survey conducted from 1988-1991 (NHANES III), 20.4% of the US adult population is hypertensive (defined as systolic pressure of at least 140 mmHg or diastolic pressure of at least 90 mmHg). \r\n<P>\r\nRESULTS:<BR>\r\nAnnual examination data for active and inactive NASA astronauts between 1959-1999 show 5.5% of them (21 of 291) have been diagnosed with hypertension.  In comparison, data from the annual examinations of comparison participants over a similar time period show 13.9% (121 of 870) had corresponding hypertension diagnoses.  As physical fitness is a requirement for astronauts, they are expected to show a lower rate of hypertension as compared to the general population.  The comparison participants had more than double the hypertension rate of the astronauts, but still had a lower rate than the general population. This lower rate of hypertension may be an effect of being a healthy working population.\r\n<P>\t\r\nCross-sectional data of LSAH participants by age group show that most of them have average systolic pressure around or below 120 mmHg.  Up to age 49, male comparisons show the same trend of systolic pressure measurements, although with slightly higher values, with that of the male astronauts.  Male comparison participants aged 50 and older showed a higher increase of their systolic pressure as compared to male astronauts aged 50 and older.  The diastolic pressure measurements for the male comparisons do not show a corresponding upward trend.  Although the highest average measurement from the oldest age group of male comparisons is still below the hypertensive value of 140 mm Hg, this trend follows one observed in the general population.  Data from NHANES III show that the highest increase in hypertension prevalence occurs between the 40-49 and 50-59 years age group for men.  The small sample size of female participants does not allow for age group comparisons beyond the 40-44 age group.<END>",
+  "payload_id": "LSAH",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "LSAHNEWSV9_1_1",
+  "indexed": "2026-08-23T03:50:25.968169+00:00",
+  "GUID": "cl62axzljcd1s01o65maramk2",
+  "parameter_name": [
+   "Blood pressure",
+   "Hypertension",
+   "Pulse pressure"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 1045,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Cardiovascular physiology",
+   "Clinical medicine"
+  ],
+  "pme_role_with_name": [
+   "Principal Investigator: No Principal Investigator,"
+  ],
+  "missions": [
+   [
+    [
+     "LSAH"
+    ]
+   ]
+  ],
+  "__dirid": "ccf09973-89a0-5ead-9dea-ec3570e5bb06",
+  "__record_size_wo_doccontent": 71050,
+  "PI": [
+   "No Principal Investigator,"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "LSAHNEWSV9_1_1"
+  ],
+  "mission_id": [
+   [
+    [
+     "LSAH"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "proposal_date": [],
+  "proposal_source": [],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "No Principal Investigator,"
+  ],
+  "program_name": [
+   "Space Medicine"
+  ],
+  "archive_status": "Data preservation is complete. All datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Space Medicine",
+  "__source_field_concat": "PUB001125 LSAH cl62axzljcd1s01o65maramk2 Hypertension  N/A Prevalence of Hypertension in LSAH Participants LSAHNEWSV9_1_1 Space Medicine Data preservation is complete. All datasets are publicly available.",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<BR>\r\nBlood pressure is the force of the blood pushing against the walls of arteries. It is measured in millimeters of mercury (mmHg), and given in two numbers. The higher number indicates systolic pressure, which is the amount of force exerted on the walls of arteries within and leading from the heart when it contracts (i.e., during systole). The lower number is the diastolic pressure, which is the force existing between contractions (i.e., during diastole).\r\n<P>\r\nNormal blood pressure is usually considered to be 120/80 mmHg; measurements above 140/90 mmHg are considered to be hypertensive. Hypertension, or high blood pressure, simply refers to the increased tension or pressure in the arteries. Hypertension is a major risk factor for heart attack, heart failure, stroke, and kidney failure. Most hypertensive people have no symptoms.\r\n<P>\t\r\nFor most people, there is no single known cause of high blood pressure.  This type of high blood pressure is called primary or essential hypertension.  Essential hypertension can't be cured, although in most cases it can be controlled. In some cases, high blood pressure can be traced to a known cause like tumors of the adrenal gland, chronic kidney disease, hormone abnormalities, use of birth control pills, or pregnancy. This is called secondary hypertension, and is usually cured if the underlying cause passes or is corrected.  \r\n<P>\r\nThe goal of this study was to examine hypertension among the astronaut and comparison populations.\r\n<P>\r\nAPPROACH:<BR>\r\nAccording to data from the third National Health and Nutrition Examination Survey conducted from 1988-1991 (NHANES III), 20.4% of the US adult population is hypertensive (defined as systolic pressure of at least 140 mmHg or diastolic pressure of at least 90 mmHg). \r\n<P>\r\nRESULTS:<BR>\r\nAnnual examination data for active and inactive NASA astronauts between 1959-1999 show 5.5% of them (21 of 291) have been diagnosed with hypertension.  In comparison, data from the annual examinations of comparison participants over a similar time period show 13.9% (121 of 870) had corresponding hypertension diagnoses.  As physical fitness is a requirement for astronauts, they are expected to show a lower rate of hypertension as compared to the general population.  The comparison participants had more than double the hypertension rate of the astronauts, but still had a lower rate than the general population. This lower rate of hypertension may be an effect of being a healthy working population.\r\n<P>\t\r\nCross-sectional data of LSAH participants by age group show that most of them have average systolic pressure around or below 120 mmHg.  Up to age 49, male comparisons show the same trend of systolic pressure measurements, although with slightly higher values, with that of the male astronauts.  Male comparison participants aged 50 and older showed a higher increase of their systolic pressure as compared to male astronauts aged 50 and older.  The diastolic pressure measurements for the male comparisons do not show a corresponding upward trend.  Although the highest average measurement from the oldest age group of male comparisons is still below the hypertensive value of 140 mm Hg, this trend follows one observed in the general population.  Data from NHANES III show that the highest increase in hypertension prevalence occurs between the 40-49 and 50-59 years age group for men.  The small sample size of female participants does not allow for age group comparisons beyond the 40-44 age group.<END>",
+  "__doi": "10.83263/jb2m-b767",
+  "__doi_record_creation_date": "2026-08-23T03:50:25",
+  "__doi_record_modified_date": "2026-08-23T03:50:25"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002386",
+   "label": "JMLSAHNEWSV911_136",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Pulse Pressuress by Age in the Longitudinal Study for Astronaut Health (LSAH)  Population",
+    "dataset_catalog": "JMLSAHNEWSV911_136",
+    "dataset_description": [
+     "The graph represents pulse pressure mean values by age in the astronaut and comparison subjects of the Longitudinal Study of Astronaut Health (LSAH).  The graph distinguishes astronauts from comparison subjects, as well as male from female.<P>Source: National Aeronautics and Space Administration. Prevalence of hypertension in LSAH participants. In: Longitudinal Study of Astronaut Health Newsletter. April 2000;9(1):1-3."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "LSAHNEWSV9_1_1"
+    ]
+   },
+   "meta": "1 file \u00b7 35.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "991404c3-b48e-5816-a05e-ab1647d5421d",
+     "label": "JMLSAHNEWSV911_136.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 35840,
+     "meta": "35.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001418",
+   "label": "JMLSAHNEWSV911_135",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Blood Pressure Data by Longitudinal Study for Astronaut Health (LSAH)  Age Group",
+    "dataset_catalog": "JMLSAHNEWSV911_135",
+    "dataset_description": [
+     "The graph represents cross-sectional data for sitting blood pressure, for Longitudinal Study of Astronaut Health (LSAH) participants by age group.  Both systolic and diastolic trends are shown, astronauts as well as comparison subjects (distinguishing between male and female).<P>Source: National Aeronautics and Space Administration. Prevalence of hypertension in LSAH participants. In: Longitudinal Study of Astronaut Health Newsletter. April 2000;9(1):1-3."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "LSAHNEWSV9_1_1"
+    ]
+   },
+   "meta": "1 file \u00b7 48.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "6384cae6-dc94-5446-83df-d15bfd77e4cd",
+     "label": "JMLSAHNEWSV911_135.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 49152,
+     "meta": "48.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

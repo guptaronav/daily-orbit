@@ -1,0 +1,229 @@
+{
+ "record": {
+  "id": "efce98d7-18ea-585d-be12-37c5ff396611",
+  "_id": "efce98d7-18ea-585d-be12-37c5ff396611",
+  "experiment_title": "Efficacy of Vitamin D Supplementation in an Antarctic Ground Analog of Space Flight",
+  "archive_status_index": 2,
+  "pub_document_number": "PUB001601",
+  "experiment_alias": [
+   "Polar Vitamin D"
+  ],
+  "parameter_html": "<table><tr><td>Age</td></tr><tr><td>Body weight</td></tr><tr><td>Calcium, serum</td></tr><tr><td>Calculated free 25-hydroxyvitamin D</td></tr><tr><td>Gender</td></tr><tr><td>Height</td></tr><tr><td>Magnesium</td></tr><tr><td>Parathyroid hormone (PTH)</td></tr><tr><td>Phosphorus</td></tr><tr><td>Vitamin D binding protein</td></tr><tr><td>Vitamin D supplementation</td></tr><tr><td>1,25-dihydroxyvitamin D (1,25(OH)2D)</td></tr><tr><td>25-hydroxyvitamin D (25(OH)D)</td></tr><tr><td>Body mass index (BMI)</td></tr><tr><td>Bone-specific alkaline phosphatase (BSAP)</td></tr><tr><td>N-telopeptide (NTX)</td></tr><tr><td>Dietary intake, vitamin D</td></tr><tr></tr></table>",
+  "__source_key": "cl62azlm1cdfj01o6h6i1384a",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Smith, Scott\">Principal Investigator: Smith, Scott</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Locke, James\">Co-Investigator: Locke, James</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Zwart, Sara\">Co-Investigator: Zwart, Sara</a>",
+  "experiment_type_lk": [
+   "Countermeasures Evaluation &amp",
+   "Validation Project (CEVP)",
+   "Non-exercise Physiological Countermeasure (NxPCM) Project"
+  ],
+  "__record_modified_date": "2026-08-23T04:17:02.260174+00:00",
+  "__indexed": "2026-08-23T04:17:02.260174+00:00",
+  "alias": [
+   "Polar Vitamin D"
+  ],
+  "__record_creation_date": "2022-07-28T19:57:47.576Z",
+  "keyword": [
+   "Calcium",
+   "1,25-Dihydroxyvitamin D3",
+   "Parathyroid hormones",
+   "Calcium, dietary",
+   "Vitamin D",
+   "25-Hydroxyvitamin D3"
+  ],
+  "keyword_name": "25-Hydroxyvitamin D3",
+  "__record_size": 139965,
+  "__record_version": 30,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<BR> \r\nVitamin D is critical for space travelers because they lack ultraviolet light exposure and have an insufficient dietary supply of vitamin D.  Despite the provision of vitamin D supplements to International Space Station (ISS) crewmembers, vitamin D status is consistently lower after flight than before flight, and in several crewmembers, levels have decreased to concentrations considered clinically significant.  Vitamin D has long been known to play a role in calcium metabolism, and more recently its non-calcitropic functions (functions not related to calcium metabolism, e.g., effects related to the incidence of cancer or diabetes) have been recognized.  According to the results of several recent studies, functionally relevant measures indicate that the lower limit of serum 25-hydroxyvitamin D (a marker of vitamin D status) should be raised from the current standard of 25 nmol/L to 80 nmol/L.  The mean preflight serum 25-hydroxyvitamin D for U.S. ISS crewmembers to date is 63 \u00b1 16 nmol/L, and after a four- to six-month space flight mission it typically decreases 25-30% despite a supplementation of 400 International Units per day (IU/d).  The suboptimal pre- and postflight vitamin D status is an issue that needs to be addressed so NASA can better define the appropriate amount of supplemental vitamin D to serve as a countermeasure against vitamin D deficiency in crewmembers.  This is very important for long-duration crewmembers, and is critical for exploration class missions. \r\n<P>\r\nProviding a recommendation for vitamin D supplementation to maintain serum 25-hydroxyvitamin D at optimal concentrations (\u00b175\u201380 nmol/L) is important for long duration crew members on the ISS (six month flights) and is critical for exploration-class missions on the Moon or Mars that could be years in duration.  Ground-based models of space flight in which subjects receive limited sunlight exposure are valuable for performing vitamin D supplementation trials.  One of these models is subjects spending the winter in Antarctica, where ultraviolet B light (UVB) radiation is essentially zero during the winter months.  The main objective of this study was to determine the effectiveness of three different doses of supplemental vitamin D<sub>3</sub> in enabling subjects with no sunlight exposure to reach and maintain optimal vitamin D status (serum 25-hydroxyvitamin D concentration of 80 nmol/L). <P>\r\n<I>Specific Aims:</I><P>\r\n(1)\tDetermine the time course and magnitude of changes in vitamin D status during winter in Antarctica, with or without vitamin D supplementation.\r\n<P>\r\n(2)\tDetermine other markers of bone and calcium metabolism (such as serum calcium, 1,25-dihydroxyvitamin D, parathyroid hormone, and vitamin D-binding protein) before and after vitamin D supplementation to determine the effectiveness of supplementation.\r\n<P>\r\nAPPROACH:<BR>\r\nThis was a five month prospective, randomized, double-blind study of vitamin D supplementation.  It was conducted during winter in Antarctica at the McMurdo Station, when ultraviolet B radiation levels are essentially zero.  The 55 subjects (41 men and 14 women, all white) were randomly divided into three groups for vitamin D supplementation: 2000 IU/d (n=18), 1000 IU/d (n=19), and 400 IU/d (n=18).  Seven additional subjects (three men and four women) agreed to participate in the blood draws and diet logging, but they either did not want to take study supplements or were taking supplements of their own choosing.  Those taking supplements of vitamin D >400 IU/d or of calcium >500 mg/d were excluded.\r\n<P>\r\nThe study consisted of three data collection sessions, each including a seven-day diet record, an 8-hour fasting blood draw, and body weight determination.  Height was recorded at the beginning of the study.   Baseline data (session 1) were collected at week five of the South Polar winter (the end of March and beginning of April); session 2 was at week 18 (the end of June and beginning of July), and session 3 was at week 25 (the middle of August).  During each blood collection session, two 5-mL blood tubes were filled for each subject.  The tubes were centrifuged and frozen at -80 degrees Celsius until delivered to the Johnson Space Center in Houston, Texas for analysis. \r\n<P>\r\nThe subjects were given two bottles, each with a known number of pills, and were instructed to take 1 pill from each bottle daily.  Each bottle was labeled with a single letter code; there were 12 possible combinations (four possible combinations for each study dose) to ensure blinding of both the subjects and the on-site medical staff who conducted the study.  The two bottles provided either one placebo and one 400-IU pill (the 400-IU dose group), one placebo and one 1000-IU pill (the 1000-IU dose group), or two 1000-IU pills (the 2000-IU dose group).  The subjects were asked to return the bottles at the end of the study so that pill counts could be conducted to estimate compliance.  Thirty-one of the 55 subjects returned the pill bottles at the end of the study.\r\n<P> \r\nRESULTS:<BR>\r\nUpon receipt of the blood tubes in Houston, it was found that some tubes had inadvertently not been centrifuged before they were frozen.  This affected 27-29 data points, depending on whether one or both of the tubes were affected and whether hemolysis affected the tests.\r\n<P>\r\nThe average dietary intake of vitamin D during the study was 295 \u00b1 224 IU/d (average for all subjects except one outlier).  There were no significant differences between the supplementation groups at baseline (session 1) for any of the serum analytes measured.  About five months after supplementation started (session 3), 25-hydroxyvitamin D increased to 71 \u00b1 23 nmol/L in the 2000-IU/d group, 63 \u00b1 25 nmol/L in the 1000-IU/d group, and 57 \u00b1 15 nmol/L in the 400-IU/d group and decreased to 34 \u00b1 12 nmol/L in the group not taking supplements.  In both sessions 2 and 3, the serum concentration of 25-hydroxyvitamin D was higher in the 2000-IU/d group than in the group that did not take study supplements.  When hemolyzed samples were excluded, similar results were obtained, except that 25-hydroxyvitamin D was higher in the 1000-IU/d group and in the 2000-IU/d group than in the group not taking supplements in session 3.  In all groups that took study supplements, serum 25-hydroxyvitamin D was greater in sessions 2 and 3 than in session 1.  Likewise, 1,25-dihydroxyvitamin D was greater in sessions 2 and 3 than in session 1, showing a significant difference between data collection sessions but not between supplementation groups.  Similar results were obtained when hemolyzed samples were excluded from the analysis.\r\n<P>\r\nVitamin D supplementation did not affect 1,25-dihydroxyvitamin D or calcium status (as expected); however, both 1,25-dihydroxyvitamin D and serum calcium increased in sessions 2 and 3 in all subjects.  Bone specific alkaline phosphatase was greater in session 3 than in session 1, showing a significant effect between data collection sessions but not between supplementation groups.  Serum parathyroid hormone (PTH) was not significantly affected between data collection sessions or between the groups.  Vitamin D-binding protein showed no significant difference between the groups.\r\n<P>  \r\nBody weight did not change over the course of the study, but serum 25-hydroxyvitamin D status did change.  When body weight was graphed against 25-hydroxyvitamin D, there was a negative correlation in both session 1 (baseline) and session 3 (after 5 months supplementation) suggesting that increased body weight is related to a decrease in circulating vitamin D.<end>",
+  "payload_id": "ROI",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "ROI_VITAMIN_D",
+  "indexed": "2026-08-23T04:17:02.260174+00:00",
+  "GUID": "cl62azlm1cdfj01o6h6i1384a",
+  "parameter_name": [
+   "Age",
+   "Body weight",
+   "Calcium, serum",
+   "Calculated free 25-hydroxyvitamin D",
+   "Gender",
+   "Height",
+   "Magnesium",
+   "Parathyroid hormone (PTH)",
+   "Phosphorus",
+   "Vitamin D binding protein",
+   "Vitamin D supplementation",
+   "1,25-dihydroxyvitamin D (1,25(OH)2D)",
+   "25-hydroxyvitamin D (25(OH)D)",
+   "Body mass index (BMI)",
+   "Bone-specific alkaline phosphatase (BSAP)",
+   "N-telopeptide (NTX)",
+   "Dietary intake, vitamin D"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 1298,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Metabolism and nutrition"
+  ],
+  "pme_role_with_name": [
+   "Co-Investigator: Locke, James",
+   "Co-Investigator: Zwart, Sara",
+   "Principal Investigator: Smith, Scott",
+   "Technical Assistant to Principal Investigator: DeKerlegand, Diane"
+  ],
+  "missions": [
+   [
+    [
+     "ROI"
+    ]
+   ]
+  ],
+  "__dirid": "efce98d7-18ea-585d-be12-37c5ff396611",
+  "__record_size_wo_doccontent": 139965,
+  "PI": [
+   "Smith, Scott"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "ROI_VITAMIN_D",
+   "Polar Vitamin D"
+  ],
+  "mission_id": [
+   [
+    [
+     "ROI"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "proposal_source": [],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Smith, Scott"
+  ],
+  "program_name": [
+   "Ground"
+  ],
+  "proposal_date": [],
+  "archive_status": "Data preservation is complete. Privacy-protected datasets are available via data request. Remaining datasets are publicly available.",
+  "__is_locked": false,
+  "Program": "Ground",
+  "__source_field_concat": "PUB001601 ROI cl62azlm1cdfj01o6h6i1384a 25-Hydroxyvitamin D3 N/A Efficacy of Vitamin D Supplementation in an Antarctic Ground Analog of Space Flight ROI_VITAMIN_D Ground",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<BR> \r\nVitamin D is critical for space travelers because they lack ultraviolet light exposure and have an insufficient dietary supply of vitamin D.  Despite the provision of vitamin D supplements to International Space Station (ISS) crewmembers, vitamin D status is consistently lower after flight than before flight, and in several crewmembers, levels have decreased to concentrations considered clinically significant.  Vitamin D has long been known to play a role in calcium metabolism, and more recently its non-calcitropic functions (functions not related to calcium metabolism, e.g., effects related to the incidence of cancer or diabetes) have been recognized.  According to the results of several recent studies, functionally relevant measures indicate that the lower limit of serum 25-hydroxyvitamin D (a marker of vitamin D status) should be raised from the current standard of 25 nmol/L to 80 nmol/L.  The mean preflight serum 25-hydroxyvitamin D for U.S. ISS crewmembers to date is 63 \u00b1 16 nmol/L, and after a four- to six-month space flight mission it typically decreases 25-30% despite a supplementation of 400 International Units per day (IU/d).  The suboptimal pre- and postflight vitamin D status is an issue that needs to be addressed so NASA can better define the appropriate amount of supplemental vitamin D to serve as a countermeasure against vitamin D deficiency in crewmembers.  This is very important for long-duration crewmembers, and is critical for exploration class missions. \r\n<P>\r\nProviding a recommendation for vitamin D supplementation to maintain serum 25-hydroxyvitamin D at optimal concentrations (\u00b175\u201380 nmol/L) is important for long duration crew members on the ISS (six month flights) and is critical for exploration-class missions on the Moon or Mars that could be years in duration.  Ground-based models of space flight in which subjects receive limited sunlight exposure are valuable for performing vitamin D supplementation trials.  One of these models is subjects spending the winter in Antarctica, where ultraviolet B light (UVB) radiation is essentially zero during the winter months.  The main objective of this study was to determine the effectiveness of three different doses of supplemental vitamin D<sub>3</sub> in enabling subjects with no sunlight exposure to reach and maintain optimal vitamin D status (serum 25-hydroxyvitamin D concentration of 80 nmol/L). <P>\r\n<I>Specific Aims:</I><P>\r\n(1)\tDetermine the time course and magnitude of changes in vitamin D status during winter in Antarctica, with or without vitamin D supplementation.\r\n<P>\r\n(2)\tDetermine other markers of bone and calcium metabolism (such as serum calcium, 1,25-dihydroxyvitamin D, parathyroid hormone, and vitamin D-binding protein) before and after vitamin D supplementation to determine the effectiveness of supplementation.\r\n<P>\r\nAPPROACH:<BR>\r\nThis was a five month prospective, randomized, double-blind study of vitamin D supplementation.  It was conducted during winter in Antarctica at the McMurdo Station, when ultraviolet B radiation levels are essentially zero.  The 55 subjects (41 men and 14 women, all white) were randomly divided into three groups for vitamin D supplementation: 2000 IU/d (n=18), 1000 IU/d (n=19), and 400 IU/d (n=18).  Seven additional subjects (three men and four women) agreed to participate in the blood draws and diet logging, but they either did not want to take study supplements or were taking supplements of their own choosing.  Those taking supplements of vitamin D >400 IU/d or of calcium >500 mg/d were excluded.\r\n<P>\r\nThe study consisted of three data collection sessions, each including a seven-day diet record, an 8-hour fasting blood draw, and body weight determination.  Height was recorded at the beginning of the study.   Baseline data (session 1) were collected at week five of the South Polar winter (the end of March and beginning of April); session 2 was at week 18 (the end of June and beginning of July), and session 3 was at week 25 (the middle of August).  During each blood collection session, two 5-mL blood tubes were filled for each subject.  The tubes were centrifuged and frozen at -80 degrees Celsius until delivered to the Johnson Space Center in Houston, Texas for analysis. \r\n<P>\r\nThe subjects were given two bottles, each with a known number of pills, and were instructed to take 1 pill from each bottle daily.  Each bottle was labeled with a single letter code; there were 12 possible combinations (four possible combinations for each study dose) to ensure blinding of both the subjects and the on-site medical staff who conducted the study.  The two bottles provided either one placebo and one 400-IU pill (the 400-IU dose group), one placebo and one 1000-IU pill (the 1000-IU dose group), or two 1000-IU pills (the 2000-IU dose group).  The subjects were asked to return the bottles at the end of the study so that pill counts could be conducted to estimate compliance.  Thirty-one of the 55 subjects returned the pill bottles at the end of the study.\r\n<P> \r\nRESULTS:<BR>\r\nUpon receipt of the blood tubes in Houston, it was found that some tubes had inadvertently not been centrifuged before they were frozen.  This affected 27-29 data points, depending on whether one or both of the tubes were affected and whether hemolysis affected the tests.\r\n<P>\r\nThe average dietary intake of vitamin D during the study was 295 \u00b1 224 IU/d (average for all subjects except one outlier).  There were no significant differences between the supplementation groups at baseline (session 1) for any of the serum analytes measured.  About five months after supplementation started (session 3), 25-hydroxyvitamin D increased to 71 \u00b1 23 nmol/L in the 2000-IU/d group, 63 \u00b1 25 nmol/L in the 1000-IU/d group, and 57 \u00b1 15 nmol/L in the 400-IU/d group and decreased to 34 \u00b1 12 nmol/L in the group not taking supplements.  In both sessions 2 and 3, the serum concentration of 25-hydroxyvitamin D was higher in the 2000-IU/d group than in the group that did not take study supplements.  When hemolyzed samples were excluded, similar results were obtained, except that 25-hydroxyvitamin D was higher in the 1000-IU/d group and in the 2000-IU/d group than in the group not taking supplements in session 3.  In all groups that took study supplements, serum 25-hydroxyvitamin D was greater in sessions 2 and 3 than in session 1.  Likewise, 1,25-dihydroxyvitamin D was greater in sessions 2 and 3 than in session 1, showing a significant difference between data collection sessions but not between supplementation groups.  Similar results were obtained when hemolyzed samples were excluded from the analysis.\r\n<P>\r\nVitamin D supplementation did not affect 1,25-dihydroxyvitamin D or calcium status (as expected); however, both 1,25-dihydroxyvitamin D and serum calcium increased in sessions 2 and 3 in all subjects.  Bone specific alkaline phosphatase was greater in session 3 than in session 1, showing a significant effect between data collection sessions but not between supplementation groups.  Serum parathyroid hormone (PTH) was not significantly affected between data collection sessions or between the groups.  Vitamin D-binding protein showed no significant difference between the groups.\r\n<P>  \r\nBody weight did not change over the course of the study, but serum 25-hydroxyvitamin D status did change.  When body weight was graphed against 25-hydroxyvitamin D, there was a negative correlation in both session 1 (baseline) and session 3 (after 5 months supplementation) suggesting that increased body weight is related to a decrease in circulating vitamin D.<end>",
+  "__doi": "10.83263/8vgc-0z39",
+  "__doi_record_creation_date": "2026-08-23T04:17:02",
+  "__doi_record_modified_date": "2026-08-23T04:17:02"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001721",
+   "label": "JMROI_Vitamin_D_2",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Average Vitamin D Intakes on the 7-Day Before Each Blood Draw Session",
+    "dataset_catalog": "JMROI_Vitamin_D_2",
+    "dataset_description": [
+     "This data set contains the average (&#177;SD) of 7-day vitamin D intake evaluated before three blood collection sessions approximately two months apart.  The data includes food sources of vitamin D, including foods fortified with vitamin D, as well as any vitamin-D containing supplements that subjects' consumed.  The data does not include study supplements.\r\n<P>\r\nA journal article describing the experiment in detail can be located at: \r\n<P>\r\nSmith SM, Gardner KK, Locke J, Zwart SR.  Vitamin D supplementation during Antarctic winter.  Am J Clin Nutr 2009;89:1-7.<end>"
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "ROI_VITAMIN_D"
+    ]
+   },
+   "meta": "1 file \u00b7 25.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "15462d9c-a545-516a-8caf-7c05d38c577b",
+     "label": "JMROI_Vitamin_D_2.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 25600,
+     "meta": "25.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001429",
+   "label": "JMROI_Vitamin_D_1",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Demographic Characteristics of Vitamin-D Supplementation Study Subjects",
+    "dataset_catalog": "JMROI_Vitamin_D_1",
+    "dataset_description": "",
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "ROI_VITAMIN_D"
+    ]
+   },
+   "meta": "1 file \u00b7 24.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "c8e99957-d008-5d6e-b7f9-f87a8144f77f",
+     "label": "JMROI_Vitamin_D_1.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 24576,
+     "meta": "24.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001994",
+   "label": "JMROI_Vitamin_D_3",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Concentrations of Serum Vitamin D and Markers of Bone Metabolism",
+    "dataset_catalog": "JMROI_Vitamin_D_3",
+    "dataset_description": [
+     "Blood was collected three times on four groups of subjects who took varying amounts of vitamin D supplementation.  The following serum parameters were analyzed: 25-hydroxyvitamin D, 1,25-dihydroxyvitamin D, parathyroid hormone (PTH), <I>N</I>-telopeptide (sNTx), bone specific alkaline phosphatase (BSAP), calculated free 25-hydroxyvitamin D, vitamin D-binding protein (VDBP), phosphorus, magnesium, and calcium.\r\n<P>\r\nA journal article describing the experiment in detail can be located at: \r\n<P>\r\nSmith SM, Gardner KK, Locke J, Zwart SR.  Vitamin D supplementation during Antarctic winter.  Am J Clin Nutr 2009;89:1-7.<end>"
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "ROI_VITAMIN_D"
+    ]
+   },
+   "meta": "1 file \u00b7 32.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "1ace5133-ee71-51c3-a4b9-0752edde2094",
+     "label": "JMROI_Vitamin_D_3.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 32768,
+     "meta": "32.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

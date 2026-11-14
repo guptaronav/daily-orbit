@@ -1,0 +1,720 @@
+{
+ "record": {
+  "id": "c01c5fbf-97e4-5a9d-b404-3bfb19ef237c",
+  "_id": "c01c5fbf-97e4-5a9d-b404-3bfb19ef237c",
+  "experiment_title": "Influence of Weightlessness on Baroreflex Function",
+  "archive_status_index": 1,
+  "pub_document_number": "PUB002559",
+  "parameter_html": "<table><tr><td>Baroreflex range</td></tr><tr><td>Baroreflex slope</td></tr><tr><td>Blood pressure</td></tr><tr><td>Heart rate</td></tr><tr><td>Orthostatic intolerance</td></tr><tr><td>RR interval</td></tr><tr></tr></table>",
+  "__source_key": "cl62aym26cd7401o6bka8ejpr",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Meck, Janice\">Principal Investigator: Meck, Janice</a>",
+  "experiment_type_lk": [
+   "Shuttle Detailed Supplementary Objectives (DSO)"
+  ],
+  "__record_modified_date": "2026-08-23T04:14:21.963195+00:00",
+  "proposal_source": [
+   "N/A"
+  ],
+  "__indexed": "2026-08-23T04:14:21.963195+00:00",
+  "__record_creation_date": "2022-07-28T20:02:57.667Z",
+  "keyword": [
+   "Orthostatic intolerance",
+   "Baroreflex",
+   "Heart rate"
+  ],
+  "keyword_name": "Heart rate",
+  "__record_size": 60053,
+  "__record_version": 29,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<br>\r\nExposure to weightlessness alters postflight cardiovascular responses to exercise and standing.  Although these changes are probably initiated during flight, they are not known to impair cardiovascular performance in space.  However, functional problems become apparent upon landing, when most astronauts have reduced exercise capacity and orthostatic intolerance.   Loss of plasma volume during weightlessness may be partially responsible for orthostatic intolerance. \r\n<p>\r\nOrthostatic intolerance is a predictable, but a poorly understood consequence of space travel. Because arterial baroreceptors modulate abrupt pressure transients, including those provoked by standing, the hypothesis that space flight impairs baroreflex mechanisms was tested.\r\n<p>\r\nAPPROACH:<br>\r\nVagally-medicated carotid baroreceptor-cardiac reflex responses (provoked by neck pressure changes) in the supine position and heart rate and blood pressure in the supine and standing positions were studied in 16 U.S. astronauts (15 male and one female) before and after four to five day Space Shuttle missions.  Preflight studies were performed nominally 10 and five days before launch; in practice, preflight data were collected between 13 and seven days, and again between seven and five days before launch.  Postflight data were collected on landing (R+0), on R+3, and again on R+8.  \r\n<p>\r\nThe electrocardiogram, respiration (abdominal bellows connected to a strain-gauge pressure transducer), and neck chamber pressure were recorded by FM tape and strip chart recorders.  The electrocardiogram and respiration were recorded during the last five minutes of a 20-minute rest period prior to any intervention.  Resting vagal-cardiac activity was estimated from average R-R intervals and their standard deviations.  Blood pressure was measured manually with a sphygmomanometer before barorector testing.  \r\n<p>\r\nRESULTS:<br>\r\nOn landing day, astronauts\u2019 resting R-R intervals and standard deviations, and the slope, range, and position of their resting R-R intervals on the carotid transmural pressure-sinus mode response relation (operational point) were reduced relative to preflight values.  Reductions of operational points (indicating reduced hypotensive buffering capacity) were related directly and significantly to reductions of postflight systolic pressure responses to standing.  After landing day, baroreflex slopes and ranges were subnormal and remained so for the duration of the study (eight to 10 days).  These results suggest that short-duration space flight leads to significant, functionally relevant impairment of human baroreflex mechanisms.  \r\n<p>",
+  "payload_id": "DSO27",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "experiment_id": "DSO 467",
+  "indexed": "2026-08-23T04:14:21.963195+00:00",
+  "experiment_related": [
+   "DSO 601"
+  ],
+  "GUID": "cl62aym26cd7401o6bka8ejpr",
+  "parameter_name": [
+   "Baroreflex range",
+   "Baroreflex slope",
+   "Blood pressure",
+   "Heart rate",
+   "Orthostatic intolerance",
+   "RR interval"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 580,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Cardiovascular physiology"
+  ],
+  "pme_role_with_name": [
+   "Principal Investigator: Meck, Janice"
+  ],
+  "missions": [
+   [
+    [
+     "STS-27"
+    ]
+   ],
+   [
+    [
+     "STS-28"
+    ]
+   ],
+   [
+    [
+     "STS-29"
+    ]
+   ],
+   [
+    [
+     "STS-30"
+    ]
+   ],
+   [
+    [
+     "STS-31"
+    ]
+   ],
+   [
+    [
+     "STS-32"
+    ]
+   ],
+   [
+    [
+     "STS-33"
+    ]
+   ]
+  ],
+  "__dirid": "c01c5fbf-97e4-5a9d-b404-3bfb19ef237c",
+  "__record_size_wo_doccontent": 60053,
+  "PI": [
+   "Meck, Janice"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "DSO 467"
+  ],
+  "mission_id": [
+   [
+    [
+     "STS-27"
+    ]
+   ],
+   [
+    [
+     "STS-28"
+    ]
+   ],
+   [
+    [
+     "STS-29"
+    ]
+   ],
+   [
+    [
+     "STS-30"
+    ]
+   ],
+   [
+    [
+     "STS-31"
+    ]
+   ],
+   [
+    [
+     "STS-32"
+    ]
+   ],
+   [
+    [
+     "STS-33"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Meck, Janice"
+  ],
+  "archive_status": "Data preservation is complete. All datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Shuttle Program",
+  "__source_field_concat": "PUB002559 DSO27 cl62aym26cd7401o6bka8ejpr Heart rate  N/A Influence of Weightlessness on Baroreflex Function DSO 467 Shuttle Program Data preservation is complete. All datasets are publicly available.",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<br>\r\nExposure to weightlessness alters postflight cardiovascular responses to exercise and standing.  Although these changes are probably initiated during flight, they are not known to impair cardiovascular performance in space.  However, functional problems become apparent upon landing, when most astronauts have reduced exercise capacity and orthostatic intolerance.   Loss of plasma volume during weightlessness may be partially responsible for orthostatic intolerance. \r\n<p>\r\nOrthostatic intolerance is a predictable, but a poorly understood consequence of space travel. Because arterial baroreceptors modulate abrupt pressure transients, including those provoked by standing, the hypothesis that space flight impairs baroreflex mechanisms was tested.\r\n<p>\r\nAPPROACH:<br>\r\nVagally-medicated carotid baroreceptor-cardiac reflex responses (provoked by neck pressure changes) in the supine position and heart rate and blood pressure in the supine and standing positions were studied in 16 U.S. astronauts (15 male and one female) before and after four to five day Space Shuttle missions.  Preflight studies were performed nominally 10 and five days before launch; in practice, preflight data were collected between 13 and seven days, and again between seven and five days before launch.  Postflight data were collected on landing (R+0), on R+3, and again on R+8.  \r\n<p>\r\nThe electrocardiogram, respiration (abdominal bellows connected to a strain-gauge pressure transducer), and neck chamber pressure were recorded by FM tape and strip chart recorders.  The electrocardiogram and respiration were recorded during the last five minutes of a 20-minute rest period prior to any intervention.  Resting vagal-cardiac activity was estimated from average R-R intervals and their standard deviations.  Blood pressure was measured manually with a sphygmomanometer before barorector testing.  \r\n<p>\r\nRESULTS:<br>\r\nOn landing day, astronauts\u2019 resting R-R intervals and standard deviations, and the slope, range, and position of their resting R-R intervals on the carotid transmural pressure-sinus mode response relation (operational point) were reduced relative to preflight values.  Reductions of operational points (indicating reduced hypotensive buffering capacity) were related directly and significantly to reductions of postflight systolic pressure responses to standing.  After landing day, baroreflex slopes and ranges were subnormal and remained so for the duration of the study (eight to 10 days).  These results suggest that short-duration space flight leads to significant, functionally relevant impairment of human baroreflex mechanisms.  \r\n<p>",
+  "__doi": "10.83263/r7km-ze25",
+  "__doi_record_creation_date": "2026-08-23T04:14:21",
+  "__doi_record_modified_date": "2026-08-23T04:14:21"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000970",
+   "label": "JMDSO_467_4",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Blood Pressure, Heart Rate, and Body Weight Changes",
+    "dataset_catalog": "JMDSO_467_4",
+    "dataset_description": [
+     "This is a graph depicting comparisons of preflight to landing day changes between two groups identified by cluster analysis for subjects in the DSO 467 study. Variables include blood pressure, heart rate, and body weight. *P < 0.01.\r\n<p>\r\nSource: Extended Duration Orbiter Medical Project (EDOMP) Final Report 1989-1995."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 467"
+    ]
+   },
+   "meta": "7 files \u00b7 714.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "4fd055b1-d414-5a8a-9d87-72c675202f46",
+     "label": "JMDSO_467_4.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 104448,
+     "meta": "102.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4197edfc-9bdf-5237-abf5-9c33c2d1fa8a",
+     "label": "JMDSO_467_4.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 104448,
+     "meta": "102.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "74d18825-ed61-52d1-ad54-7d98a1a8e8fb",
+     "label": "JMDSO_467_4.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 104448,
+     "meta": "102.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "fd94aabe-4cca-51e5-9591-b9b6e106e15e",
+     "label": "JMDSO_467_4.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 104448,
+     "meta": "102.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "fd1a6cc6-9b21-50af-bb35-0ed61a0f69c6",
+     "label": "JMDSO_467_4.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 104448,
+     "meta": "102.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "47f6c3b7-008f-557c-acb4-b344d64aeadf",
+     "label": "JMDSO_467_4.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 104448,
+     "meta": "102.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "38f770ed-2ac8-55ee-942d-57508c2d3205",
+     "label": "JMDSO_467_4.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 104448,
+     "meta": "102.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000571",
+   "label": "JMDSO_467_1",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Carotid Baroreceptor Vagal-Cardiac Reflex Responses",
+    "dataset_catalog": "JMDSO_467_1",
+    "dataset_description": [
+     "This is a graph depicting carotid baroreceptor vagal-cardiac reflex responses for subjects in the DSO 467 study before flight and on landing day. The closed symbols are positions of operational points. \r\n<p>\r\nSource: Extended Duration Orbiter Medical Project (EDOMP) Final Report 1989-1995."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 467"
+    ]
+   },
+   "meta": "7 files \u00b7 466.9 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "497df12e-1b2f-538f-b1f6-734f36424b0b",
+     "label": "JMDSO_467_1.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 68301,
+     "meta": "66.7 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d739eaca-0bb9-5825-8aa8-98c5243e1515",
+     "label": "JMDSO_467_1.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 68301,
+     "meta": "66.7 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "bb22a7be-34de-5466-8058-5d09c94e55a8",
+     "label": "JMDSO_467_1.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 68301,
+     "meta": "66.7 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2521729e-c8ad-5b0c-b997-9c30092cc263",
+     "label": "JMDSO_467_1.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 68301,
+     "meta": "66.7 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "08942c6d-244a-580e-8b90-edf151aa5cec",
+     "label": "JMDSO_467_1.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 68301,
+     "meta": "66.7 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e44b1a08-57c6-5afc-ab24-4cdc7084c601",
+     "label": "JMDSO_467_1.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 68301,
+     "meta": "66.7 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "82223de2-880f-5557-a8a8-ebe4ff138a34",
+     "label": "JMDSO_467_1.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 68301,
+     "meta": "66.7 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000603",
+   "label": "JMDSO_467_3",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Operational Points and Systolic Pressure",
+    "dataset_catalog": "JMDSO_467_3",
+    "dataset_description": [
+     "This is a graph depicting preflight-to-postflight (landing day) changes of operational points and systolic pressure responses to standing for subjects in the DSO 467 study. Linear regression correlation coefficients are for all data. Cluster analysis of these data identified two distinct groups, which have been termed less and more resistant to postural change. The hatched area indicates a more resistant group.\r\n<p>\r\nSource: Extended Duration Orbiter Medical Project (EDOMP) Final Report 1989-1995."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 467"
+    ]
+   },
+   "meta": "7 files \u00b7 791.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "31aa7d99-8abf-5170-95c6-1b09ff9aa652",
+     "label": "JMDSO_467_3.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 115712,
+     "meta": "113.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e78d5304-ac9a-52e4-8d17-bcf6cce51e72",
+     "label": "JMDSO_467_3.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 115712,
+     "meta": "113.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "aaa5075a-22b7-5152-a589-013b4a520726",
+     "label": "JMDSO_467_3.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 115712,
+     "meta": "113.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "40e91d53-a237-5a26-b603-926bc5c0bd81",
+     "label": "JMDSO_467_3.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 115712,
+     "meta": "113.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "633b0dd2-1723-59a5-89e4-5a8a0c31b7eb",
+     "label": "JMDSO_467_3.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 115712,
+     "meta": "113.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c9bff40b-e6c0-5680-b3c3-51677135530c",
+     "label": "JMDSO_467_3.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 115712,
+     "meta": "113.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "fbe787a9-af6f-56f3-b3c8-d6b818355da1",
+     "label": "JMDSO_467_3.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 115712,
+     "meta": "113.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001936",
+   "label": "JMDSO_467_6",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Cardiovascular Parameters",
+    "dataset_catalog": "JMDSO_467_6",
+    "dataset_description": [
+     "This Excel file contains cardiovascular parameters from all subjects for the DSO 467 study.  Variables include blood pressure (supine and standing), heart rate (supine and standing), R-R interval (supine and standing), body weight, age, maximum slope, and operational point.\r\n<p>\r\nSource: Extended Duration Orbiter Medical Project (EDOMP) Final Report 1989-1995."
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "DSO 467"
+    ]
+   },
+   "meta": "7 files \u00b7 182.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "8501311c-6f56-58e8-bb16-e12019f80760",
+     "label": "JMDSO_467_6.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 26624,
+     "meta": "26.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ec2b414b-af3b-536c-a1ba-ff994d802d9a",
+     "label": "JMDSO_467_6.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 26624,
+     "meta": "26.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "fe211256-abff-5c96-83b5-1e422792a9b6",
+     "label": "JMDSO_467_6.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 26624,
+     "meta": "26.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0c71162d-d84f-5e4c-a858-adbc4cbf0e60",
+     "label": "JMDSO_467_6.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 26624,
+     "meta": "26.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "cb9bf766-3558-5179-ad3e-4bffa2faee31",
+     "label": "JMDSO_467_6.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 26624,
+     "meta": "26.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "63f1a369-785a-53a7-a496-40192d550443",
+     "label": "JMDSO_467_6.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 26624,
+     "meta": "26.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "06a2b7c5-f11d-5bfe-8664-cd3e666c6577",
+     "label": "JMDSO_467_6.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 26624,
+     "meta": "26.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002006",
+   "label": "JMDSO_467_5",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Measurements from All Subjects",
+    "dataset_catalog": "JMDSO_467_5",
+    "dataset_description": [
+     "This Excel file contains measurements from all subjects for the DSO 467 study.  Variables include blood pressure, R-R interval, body weight, maximum slope, operational point, and carotid distending pressure.\r\n<p>\r\nSource: Extended Duration Orbiter Medical Project (EDOMP) Final Report 1989-1995."
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "DSO 467"
+    ]
+   },
+   "meta": "7 files \u00b7 182.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "6dcd85c9-7cc9-5cac-bc95-6a626c2d2025",
+     "label": "JMDSO_467_5.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 26624,
+     "meta": "26.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2cf1450e-c2d0-5c2c-bdab-a56e1af77eaa",
+     "label": "JMDSO_467_5.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 26624,
+     "meta": "26.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c9a9469d-89fa-59ae-b9d7-7b14a164c66d",
+     "label": "JMDSO_467_5.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 26624,
+     "meta": "26.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1c104216-8fc7-5c2c-870f-84110661f183",
+     "label": "JMDSO_467_5.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 26624,
+     "meta": "26.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9556ab85-2adf-536a-bddc-ebd7d6695582",
+     "label": "JMDSO_467_5.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 26624,
+     "meta": "26.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "dc54fecc-1ad4-5aff-b60e-774aced7ce31",
+     "label": "JMDSO_467_5.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 26624,
+     "meta": "26.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "681fc8b5-e2b6-54fd-baab-0a1043e17705",
+     "label": "JMDSO_467_5.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 26624,
+     "meta": "26.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002005",
+   "label": "JMDSO_467_2",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Standing and Supine Differences",
+    "dataset_catalog": "JMDSO_467_2",
+    "dataset_description": [
+     "This is a graph depicting preflight and landing day differences between standing and supine systolic and diastolic pressures and heart rate for subjects in the DSO 467 study. Significant difference between groups: *P < 0.05; **P < 0.01.\r\n<p>\r\nSource: Extended Duration Orbiter Medical Project (EDOMP) Final Report 1989-1995."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 467"
+    ]
+   },
+   "meta": "7 files \u00b7 647.5 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "756baef3-d223-5d25-99b2-6668fcb7b58f",
+     "label": "JMDSO_467_2.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 94720,
+     "meta": "92.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "216eb394-2520-543d-aa1f-f3d037003e8c",
+     "label": "JMDSO_467_2.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 94720,
+     "meta": "92.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1e329beb-f3dc-5487-abfd-0986e589ab61",
+     "label": "JMDSO_467_2.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 94720,
+     "meta": "92.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b9063153-1ca7-5bf7-99f2-1329449465cb",
+     "label": "JMDSO_467_2.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 94720,
+     "meta": "92.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "533ed4c2-bc8c-5f58-90bd-2c5e2de4bcf2",
+     "label": "JMDSO_467_2.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 94720,
+     "meta": "92.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ba0b7a65-6281-517f-b7d3-a69238dce894",
+     "label": "JMDSO_467_2.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 94720,
+     "meta": "92.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4d6e6040-ff44-53be-9c87-68e9442d4e2d",
+     "label": "JMDSO_467_2.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 94720,
+     "meta": "92.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

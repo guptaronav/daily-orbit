@@ -1,0 +1,532 @@
+{
+ "record": {
+  "id": "c4f51405-bf90-5d0e-9aae-35d804ad1e83",
+  "_id": "c4f51405-bf90-5d0e-9aae-35d804ad1e83",
+  "experiment_title": "Physiological and Anatomical Rodent Experiment 1",
+  "pub_document_number": "NASA TM-4501",
+  "parameter_html": "<table><tr><td>Consumption (uptake), Glucose, extensor digitorum, muscle, rat, Biochemistry</td></tr><tr><td>Consumption (uptake), Glucose, soleus, muscle, rat, Biochemistry</td></tr><tr><td>Content, Protein, total, extensor digitorum longus, muscle, rat, Biochemical</td></tr><tr><td>Content, Protein, total, plantaris, muscle, rat: Biochemistry</td></tr><tr><td>Content, Protein, total, soleus, muscle, rat: Biochemistry</td></tr><tr><td>Content, Protein, total, tibialis anterior, muscle, rat: Biochemistry</td></tr><tr><td>Weight, tissue, Extensor digitorum longus, muscle, rat, Balance (CGS units)</td></tr><tr><td>Weight, tissue, Plantaris, muscle, rat, Balance (CGS units)</td></tr><tr><td>Weight, tissue, Soleus, muscle, rat</td></tr><tr><td>Weight, tissue, Tibialis anterior, muscle, rat, Balance (CGS units)</td></tr><tr><td>Protein, total, extensor digitorum longus muscle</td></tr><tr><td>Whole body weight, balance (CGS units)</td></tr><tr></tr></table>",
+  "__source_key": "cl62aygfvcd5r01o65zw5fu8w",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Tischler, Marc\">Principal Investigator: Tischler, Marc</a>",
+  "keyword": [
+   "Muscle, skeletal",
+   "Insulin",
+   "Hindlimb",
+   "Muscular atrophy"
+  ],
+  "keyword_name": "Muscular atrophy",
+  "__record_version": 30,
+  "experiment_description": "<B>Objectives:</B><P>Previous to PARE 01, the only studies comparing unweighting through microgravity and unweighting through hindlimb suspension were performed on adult rats. These studies have shown that posterior hindlimb muscles, the function of which depend on opposing the pull of gravity, are the most responsive to unweighting. Another effect found in unweighting studies has been the increased response of insulin to glucose transport. This experiment was designed to test the validity of using tail suspension methods as models for studying microgravity unweighting effects on developing rats. Several muscle parameters were compared between rats subjected to space flight and rats subjected to hindlimb suspension. A main objective was to determine whether microgravity causes an increase in glucose uptake in the presence or absence of insulin.<P><B>Approach:</B><P>Flight rats and ground control rats were 26 days old at the beginning of the experiment.  Rats were flown for 5.4 days and muscles were removed within 3 hours of landing. Body weights and muscle weights were measured for flight and control rats. Protein analysis for total protein content and concentration was performed on the soleus, gastrocnemius, plantaris, tibialis anterior and extensor digitorum. The soleus and extensor digitorum were used for glucose uptake studies. The extensor digitorum served as a control to the soleus because it is not affected by loading or systemic effects. The uptake of 2-deoxyglucose was measured in the presence and absence of insulin.<P><B>Results:</B><P>Despite similar food and water consumption, flight rats gained more weight than the control rats. Comparisons of muscle sizes normalized to body mass showed that flight and suspension reduced muscle mass of the soleus by 38 percent and 33 percent respectively. Smaller differences were seen in masses of plantaris and gastrocnemius muscles and no differences were seen in anterior muscles. Protein content of the soleus muscles from flight rats was reduced by 20 percent and was characterized by a lower concentration. Protein content from the soleus muscles of suspended rats was reduced by 23 percent. In the absence of insulin, there was no difference in the rate of uptake of 2-deoxyglucose in the soleus or the extensor digitorum. However, in the presence of insulin, the uptake of 2-deoxyglucose was significantly higher in flight and suspended rats than in control rats. This increase may be due to an increase in insulin binding capacity due to unloading effects.",
+  "indexed": "2026-08-23T04:19:52.043441+00:00",
+  "GUID": "cl62aygfvcd5r01o65zw5fu8w",
+  "__model_type": "lsda_experiment",
+  "__dirid": "c4f51405-bf90-5d0e-9aae-35d804ad1e83",
+  "__record_size_wo_doccontent": 70945,
+  "experiment_parms_tissue2": "NULL",
+  "experiment_parms_tissue1": "NULL",
+  "__update_method": "Update CDM",
+  "archive_status_index": 2,
+  "experiment_type_lk": [
+   "Shuttle Life Sciences Research (Middeck)"
+  ],
+  "__record_modified_date": "2026-08-23T04:19:52.043441+00:00",
+  "proposal_source": [
+   "Dear Colleague Letter"
+  ],
+  "__indexed": "2026-08-23T04:19:52.043441+00:00",
+  "session_type": "Basal",
+  "__record_creation_date": "2022-07-28T19:55:50.813Z",
+  "__record_size": 70945,
+  "__model_version": 60,
+  "payload_id": "PARE.01",
+  "CombinedSpecies": [
+   [
+    "Rat (Rattus norvegicus) Sprague-Dawley"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "DC85LS27",
+  "experiment_related": [
+   "No related"
+  ],
+  "parameter_name": [
+   "Consumption (uptake), Glucose, extensor digitorum, muscle, rat, Biochemistry",
+   "Consumption (uptake), Glucose, soleus, muscle, rat, Biochemistry",
+   "Content, Protein, total, extensor digitorum longus, muscle, rat, Biochemical",
+   "Content, Protein, total, plantaris, muscle, rat: Biochemistry",
+   "Content, Protein, total, soleus, muscle, rat: Biochemistry",
+   "Content, Protein, total, tibialis anterior, muscle, rat: Biochemistry",
+   "Weight, tissue, Extensor digitorum longus, muscle, rat, Balance (CGS units)",
+   "Weight, tissue, Plantaris, muscle, rat, Balance (CGS units)",
+   "Weight, tissue, Soleus, muscle, rat",
+   "Weight, tissue, Tibialis anterior, muscle, rat, Balance (CGS units)",
+   "Protein, total, extensor digitorum longus muscle",
+   "Whole body weight, balance (CGS units)"
+  ],
+  "exp_index": 646,
+  "research_area": [
+   "Muscle physiology"
+  ],
+  "protocol_approach": "Asynchronous control",
+  "pme_role_with_name": [
+   "ARC Deputy Payload Manager: Lavond, Robert",
+   "ARC Deputy Payload Scientist: Leonard, Dana",
+   "ARC Experiment Support Scientist: Lane, Philip",
+   "ARC Payload Manager: Berthold, Randall",
+   "ARC Payload Scientist: Reiss- Bubenheim, Debra",
+   "ARC Project Engineer: Sweetland, Todd",
+   "Principal Investigator: Tischler, Marc"
+  ],
+  "missions": [
+   [
+    [
+     "STS-48"
+    ]
+   ]
+  ],
+  "PI": [
+   "Tischler, Marc"
+  ],
+  "_file_extension": [],
+  "experiment_identifier": [
+   "DC85LS27"
+  ],
+  "mission_id": [
+   [
+    [
+     "STS-48"
+    ]
+   ]
+  ],
+  "center": [
+   "Ames Research Center"
+  ],
+  "ncindex": [
+   7
+  ],
+  "species": [
+   "Rat"
+  ],
+  "PrincipalInvestigator": [
+   "Tischler, Marc"
+  ],
+  "program_name": [
+   "Shuttle Program"
+  ],
+  "proposal_date": [
+   "1985"
+  ],
+  "archive_status": "Data preservation is complete. Privacy-protected datasets are available via data request. Remaining datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Shuttle Program",
+  "__source_field_concat": "Basal NASA TM-4501 PARE.01 cl62aygfvcd5r01o65zw5fu8w Muscular atrophy NULL NULL  Asynchronous control Physiological and Anatomical Rodent Experiment 1 DC85LS27 Shuttle Program",
+  "__icon_type": "rat",
+  "__description": "<B>Objectives:</B><P>Previous to PARE 01, the only studies comparing unweighting through microgravity and unweighting through hindlimb suspension were performed on adult rats. These studies have shown that posterior hindlimb muscles, the function of which depend on opposing the pull of gravity, are the most responsive to unweighting. Another effect found in unweighting studies has been the increased response of insulin to glucose transport. This experiment was designed to test the validity of using tail suspension methods as models for studying microgravity unweighting effects on developing rats. Several muscle parameters were compared between rats subjected to space flight and rats subjected to hindlimb suspension. A main objective was to determine whether microgravity causes an increase in glucose uptake in the presence or absence of insulin.<P><B>Approach:</B><P>Flight rats and ground control rats were 26 days old at the beginning of the experiment.  Rats were flown for 5.4 days and muscles were removed within 3 hours of landing. Body weights and muscle weights were measured for flight and control rats. Protein analysis for total protein content and concentration was performed on the soleus, gastrocnemius, plantaris, tibialis anterior and extensor digitorum. The soleus and extensor digitorum were used for glucose uptake studies. The extensor digitorum served as a control to the soleus because it is not affected by loading or systemic effects. The uptake of 2-deoxyglucose was measured in the presence and absence of insulin.<P><B>Results:</B><P>Despite similar food and water consumption, flight rats gained more weight than the control rats. Comparisons of muscle sizes normalized to body mass showed that flight and suspension reduced muscle mass of the soleus by 38 percent and 33 percent respectively. Smaller differences were seen in masses of plantaris and gastrocnemius muscles and no differences were seen in anterior muscles. Protein content of the soleus muscles from flight rats was reduced by 20 percent and was characterized by a lower concentration. Protein content from the soleus muscles of suspended rats was reduced by 23 percent. In the absence of insulin, there was no difference in the rate of uptake of 2-deoxyglucose in the soleus or the extensor digitorum. However, in the presence of insulin, the uptake of 2-deoxyglucose was significantly higher in flight and suspended rats than in control rats. This increase may be due to an increase in insulin binding capacity due to unloading effects.",
+  "__doi": "10.83263/5pk1-8e77",
+  "__doi_record_creation_date": "2026-08-23T04:19:52",
+  "__doi_record_modified_date": "2026-08-23T04:19:52"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001308",
+   "label": "DC85LS27__2540142703",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "PARE.01 - Interstitial Fluid Volume of Soleus and Extensor Digitorum Longus Muscles of AEM Control, Flight and Hindlimb-suspended Animal",
+    "dataset_catalog": "DC85LS27__2540142703",
+    "dataset_description": [
+     "Summarized interstitial fluid volume measured using 14C-inulin in soleus or extensor digitorum longus muscles measured at landing +2.5 h in flight animals; summarized interstitial fluid volume for 8 AEM control and for 7 tail-cast hindlimb-suspended animals."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DC85LS27"
+    ]
+   },
+   "meta": "2 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "7fffd686-57b9-57ad-97d3-f5c9c6bfa4d6",
+     "label": "pare01_table7.docx_STS-48_DC85LS27_2020_363_011254.docx",
+     "type": "file",
+     "ext": "docx",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7466a3de-15ad-5160-a247-3ff7cc024a55",
+     "label": "pare01_table7.pdf_STS-48_DC85LS27_2020_363_011205.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001657",
+   "label": "DC85LS27__254013399",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "PARE.01 - Estimated Body Weight for Individual Flight and Time Zero Control Animals at Loading, Launch and Sacrifice and Calculated Weight Gain During Flight",
+    "dataset_catalog": "DC85LS27__254013399",
+    "dataset_description": [
+     "Body weights for individual time zero control animals at AEM loading and launch+2h used to estimate the approximate body weight of flight animals at the time of launch; also individual weights of flight animals after landing."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DC85LS27"
+    ]
+   },
+   "meta": "2 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "3f52807c-2e77-504c-be52-1e2c7a870a4d",
+     "label": "pare01_table2.pdf_STS-48_DC85LS27_2020_363_011200.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a7d17c24-c9de-5fe2-9df0-1a398bee4ec1",
+     "label": "pare01_table2.docx_STS-48_DC85LS27_2020_363_011247.docx",
+     "type": "file",
+     "ext": "docx",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000998",
+   "label": "DC85LS27__2540117848",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "PARE.01 - Muscle Mass, Protein Concentration and Protein Content in Time Zero Control Animals",
+    "dataset_catalog": "DC85LS27__2540117848",
+    "dataset_description": [
+     "Summarized mass, mass normalized to body weight, protein concentration and protein content normalized to body weight of 5 hindlimb muscles (soleus, plantaris, gastrocnemius, extensor digitorum longus, tibialis anterior) in time zero control animals."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DC85LS27"
+    ]
+   },
+   "meta": "2 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "009b726e-793a-514c-ad2e-b01c5a33de4b",
+     "label": "pare01_table4.pdf_STS-48_DC85LS27_2020_363_021220.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "57d7fa2c-f627-5a97-9b4d-d3e10cb0a7c1",
+     "label": "pare01_table4.docx_STS-48_DC85LS27_2020_363_021210.docx",
+     "type": "file",
+     "ext": "docx",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001555",
+   "label": "DC85LS27__2540137558",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "PARE.01 - Normalized Final Muscle Mass, Protein Content and Protein Concentration in AEM Control, Flight and Hindlimb-suspended Animals",
+    "dataset_catalog": "DC85LS27__2540137558",
+    "dataset_description": [
+     "Summarized normalized mass and protein to body weight and protein concentration postflight for 5 hindlimb muscles (soleus, plantaris, \r\ngastrocnemius, extensor digitorum longus, tibialis anterior) measured at \r\nlanding +2.5 h; summarized muscle mass and protein for 8 AEM control and for 7 tail-cast hindlimb-suspended animals."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DC85LS27"
+    ]
+   },
+   "meta": "2 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "45ab0595-dd6e-5b47-aff8-ffb41d68691c",
+     "label": "pare01_table6.pdf_STS-48_DC85LS27_2020_363_021200.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "fa17d97e-6521-55b6-a944-07f735100131",
+     "label": "pare01_table6.docx_STS-48_DC85LS27_2020_363_021245.docx",
+     "type": "file",
+     "ext": "docx",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001193",
+   "label": "DC85LS27__2540127531",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "PARE.01 - Body Weights for AEM Control, Flight Duration AEM Control, Flight and Hindlimb-suspended Animals",
+    "dataset_catalog": "DC85LS27__2540127531",
+    "dataset_description": [
+     "Summarized body weights for 8 AEM control rats, 8 flight rats, 7 tail-cast hindlimb suspended rats and 3 flight duration controls collected at time of animal selection, at time of AEM loading or suspension."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DC85LS27"
+    ]
+   },
+   "meta": "0 files",
+   "date": "2022-07-28",
+   "children": []
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002427",
+   "label": "DC85LS27__2540158907",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "PARE.01 - Glycogen Content of Adipose Tissue, Heart and Liver of  AEM Control, Flight and Hindlimb-suspended Animals",
+    "dataset_catalog": "DC85LS27__2540158907",
+    "dataset_description": [
+     "Summarized glycogen content of adipose tissue, heart and liver measured at landing +2.5 h; summarized adipose tissue, heart and liver glycogen content for 8 AEM control and for 7 tail-cast hindlimb-suspended animals."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DC85LS27"
+    ]
+   },
+   "meta": "2 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "83c369ca-4478-55cd-a4ba-5fe63419deac",
+     "label": "pare01_table10.docx_STS-48_DC85LS27_2020_363_011226.docx",
+     "type": "file",
+     "ext": "docx",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f7c35c1f-91db-5c63-a6ca-a200db90eb78",
+     "label": "pare01_table10.pdf_STS-48_DC85LS27_2020_363_011237.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000218",
+   "label": "DC85LS27__2540111841",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "PARE.01 - Change in Absolute Muscle Mass and Protein Content in AEM Control, Flight and Hindlimb-suspended Animals",
+    "dataset_catalog": "DC85LS27__2540111841",
+    "dataset_description": [
+     "Summarized mass and protein for 5 hindlimb muscles (soleus, plantaris,  gastrocnemius, extensor digitorum longus, tibialis anterior) estimated at time of launch for 8 flight animals using time zero control data (tables 2 and 4) and at landing +2.5 h; summarized muscle mass and protein for 8 AEM control and for 7 tail-cast hindlimb-suspended animals."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DC85LS27"
+    ]
+   },
+   "meta": "2 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "9ea32748-359e-5474-84a5-df0fc1f51f9d",
+     "label": "pare01_table5.pdf_STS-48_DC85LS27_2020_363_011210.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "65f95d5b-c0c8-5746-88da-4d8029c6bb72",
+     "label": "pare01_table5.docx_STS-48_DC85LS27_2020_363_011223.docx",
+     "type": "file",
+     "ext": "docx",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001309",
+   "label": "DC85LS27__2540148179",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "PARE.01 - 2-Deoxyglucose Uptake by Soleus or Extensor Digitorum Longus in the Absence or Presence of Insulin in AEM Control, Flight and Hindlimb-suspended Animals",
+    "dataset_catalog": "DC85LS27__2540148179",
+    "dataset_description": [
+     "Summarized glucose transport measured as 2-3H-deoxyglucose uptake with no insulin or with insulin added in soleus or extensor digitorum longus muscles measured at landing +2.5 h in flight animals; summarized glucose transport for 8 AEM control and for 7 tail-cast hindlimb-suspended animals."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DC85LS27"
+    ]
+   },
+   "meta": "2 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "d87aa08b-b38d-5cb3-a365-6cfe09941827",
+     "label": "pare01_table8.docx_STS-48_DC85LS27_2020_363_011216.docx",
+     "type": "file",
+     "ext": "docx",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "973cdab0-a7ff-5fca-b4e1-a55b38970766",
+     "label": "pare01_table8.pdf_STS-48_DC85LS27_2020_363_011232.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001310",
+   "label": "DC85LS27__2541212654",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "PARE.01 - Rates of Consumption of Water and Food by AEM Control, Flight and Hindlimb-suspended Animals",
+    "dataset_catalog": "DC85LS27__2541212654",
+    "dataset_description": [
+     "Summarized rates of water and food consumption for 8 AEM control rats, 8 flight rats and 7 tail-cast hindlimb suspended rats during entire period in AEM or hindlimb suspended (food consumption only)."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DC85LS27"
+    ]
+   },
+   "meta": "2 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "20084291-132c-5eb3-bf6a-e442d3f0ebc6",
+     "label": "pare01_table1.docx_STS-48_DC85LS27_2020_363_011222.docx",
+     "type": "file",
+     "ext": "docx",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4c141697-973e-5193-9a7c-ff2c18ccaf42",
+     "label": "pare01_table1.pdf_STS-48_DC85LS27_2020_363_011241.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001061",
+   "label": "DC85LS27__2540152466",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "PARE.01 - Protein Concentration in Heart and Liver of  AEM Control, Flight and Hindlimb-suspended Animals",
+    "dataset_catalog": "DC85LS27__2540152466",
+    "dataset_description": [
+     "Summarized protein concentration of heart and liver measured at landing+2.5 h; summarized heart and liver protein concentration for 8 AEM control and for 7 tail-cast hindlimb-suspended animals."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DC85LS27"
+    ]
+   },
+   "meta": "2 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "03dd82fa-15f8-5024-9029-1cf90f6d8bfd",
+     "label": "pare01_table9.pdf_STS-48_DC85LS27_2020_363_021248.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ef183699-0984-521a-9988-c962020addad",
+     "label": "pare01_table9.docx_STS-48_DC85LS27_2020_363_021238.docx",
+     "type": "file",
+     "ext": "docx",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

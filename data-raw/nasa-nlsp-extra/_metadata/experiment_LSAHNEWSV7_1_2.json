@@ -1,0 +1,175 @@
+{
+ "record": {
+  "id": "9866683e-93ce-5c3d-a1de-a135f17b0a54",
+  "_id": "9866683e-93ce-5c3d-a1de-a135f17b0a54",
+  "experiment_title": "Women Astronaut Health",
+  "archive_status_index": 1,
+  "pub_document_number": "PUB001128",
+  "parameter_html": "<table><tr><td>Pulse</td></tr><tr><td>Diastolic blood pressure</td></tr><tr><td>Systolic blood pressure</td></tr><tr></tr></table>",
+  "__source_key": "cl62ay0q2cd2201o6297k16am",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:No Principal Investigator,\">Principal Investigator: No Principal Investigator,</a>",
+  "experiment_type_lk": [
+   "Longitudinal Study of Astronaut Health (LSAH)"
+  ],
+  "__record_modified_date": "2026-08-23T04:13:12.791380+00:00",
+  "__indexed": "2026-08-23T04:13:12.791380+00:00",
+  "__record_creation_date": "2022-07-28T20:06:13.365Z",
+  "keyword": [
+   "Pulse",
+   "Women's health",
+   "Blood pressure"
+  ],
+  "keyword_name": "Blood pressure",
+  "__record_size": 70098,
+  "__record_version": 29,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVE:<BR>\r\nIn October 1997, the Longitudinal Study of Astronaut Health (LSAH) reported on some variables concerning astronauts and their first flights.  These data, valid through 1996, detailed various laboratory measurements including the mean differences in blood pressure and pulse values for pre- and postflight examinations.\r\n<P>\r\nIn 1996, there were 135 active astronauts: 30 women and 105 men.  There were only 6 inactive women and 129 inactive men.  The average age for active women astronauts is 39.9 years while the same average for active men is 41.9 years.  For inactive corps members, men have a mean age of 50.9 years while women have a mean age of 46.5 years.  At first flight, women average 39 years of age.  Approximately 59 percent of men and 29 percent of women received a Master's degree as their highest degree earned.  Fifty-one percent of women astronauts received a doctoral degree (M.D. or Ph.D.) while 28 percent of the men hold a doctoral degree in medicine, philosophy, or veterinary medicine.  Racial makeup for the astronaut corps includes five groups: White, Black, Hispanic, Asian, and Native American.  Eighty-eight percent (30) of female astronauts and 89.2 percent (141) of male astronauts are White.  The next largest racial group is Blacks with 9 percent (8) of men and 5 percent (3) of women.\r\n<P>\r\nFrom 1978 through 1996, women have been eligible to participate in 82 different missions. Of all flights:<BR>\r\n<LI> Women were crewmembers on 42 of those missions (51%)\r\n<LI>A woman was a pilot on 1 mission (1.2%)\r\n<LI>There were at least 2 women on 13 of those missions (15.9%)\r\n<P>\r\nThe purpose of this study was to examine the differences between male and female astronaut physiological parameters.<P>\r\n\r\nAPPROACH:<BR>\r\nBlood Pressure: The preflight (L-10) and postflight (R+0) examinations were used to calculate the differences in blood pressures for all astronauts.\r\n<P>\r\nPulse:  Again, these values were obtained from L-10 and R+0 examinations, with the subjects in the sitting position.\r\n<P>\r\nRESULTS:<BR>\r\nBlood pressure:  In particular, women had a mean difference in sitting diastolic BP:  <BR>\r\n\r\n<LI> 10 mmHg for flights of six days or less (N=5)\r\n<LI> 8.2 mmHg for flights of 7 through 10 days (N=11)\r\n<LI> 0 mmHg for flights of 11 through 17 days (N=3)\r\n<P>\r\nThe mean differences in sitting systolic BP are:<BR>\r\n<LI> 14 mmHg for flights of six days or less (N=5)\r\n<LI> 12.7 mmHg for flights of 7 through 10 days (N=11)\r\n<LI> 14 mmHg for flights of 11 through 17 days (N=3)\r\n<P>\r\nThe mean differences for men were less than the mean differences for women on all flights except those 11 to 17 days in length.  For those flights, men had a mean difference of 11.9 and 16.8 mmHg for diastolic and systolic BP, respectively.\r\n<P>\r\nSitting Pulse Values for Women:<BR>\r\nThe average mean differences in sitting pulses for women are:<BR>\r\n<LI> 17 beats per minute (bpm) for flights of six days or less (N=4)\r\n<LI> 11.2 bpm for flights of 7 through 10 days (N=6)\r\n<LI> 1.3 bpm for flights of 11 though 17 days (N=3)\r\n<P>\r\nThe average mean differences in sitting pulses for men are:<BR>\r\n<LI> 7.7 bpm for flights of six days or less (N=22)\r\n<LI> 16.2 bpm for flights of 7 through 10 days in length (N=23)\r\n<LI> 8.0 bpm for flights of 11 through 17 days (N=17)\r\n<P>\r\nPhysiological differences between men and women will continue to be investigated.<END>",
+  "payload_id": "LSAH",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "LSAHNEWSV7_1_2",
+  "indexed": "2026-08-23T04:13:12.791380+00:00",
+  "GUID": "cl62ay0q2cd2201o6297k16am",
+  "parameter_name": [
+   "Pulse",
+   "Diastolic blood pressure",
+   "Systolic blood pressure"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 1048,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Cardiovascular physiology",
+   "Clinical medicine"
+  ],
+  "pme_role_with_name": [
+   "Principal Investigator: No Principal Investigator,"
+  ],
+  "missions": [
+   [
+    [
+     "LSAH"
+    ]
+   ]
+  ],
+  "__dirid": "9866683e-93ce-5c3d-a1de-a135f17b0a54",
+  "__record_size_wo_doccontent": 70098,
+  "PI": [
+   "No Principal Investigator,"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "LSAHNEWSV7_1_2"
+  ],
+  "mission_id": [
+   [
+    [
+     "LSAH"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "proposal_date": [],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "No Principal Investigator,"
+  ],
+  "LaunchDate": [
+   "01/01/1989"
+  ],
+  "LaunchYear": 1989,
+  "program_name": [
+   "Space Medicine"
+  ],
+  "archive_status": "Data preservation is complete. All datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Space Medicine",
+  "__source_field_concat": "PUB001128 LSAH cl62ay0q2cd2201o6297k16am Blood pressure  N/A Women Astronaut Health LSAHNEWSV7_1_2 Space Medicine Data preservation is complete. All datasets are publicly available.",
+  "__icon_type": "human",
+  "__description": "OBJECTIVE:<BR>\r\nIn October 1997, the Longitudinal Study of Astronaut Health (LSAH) reported on some variables concerning astronauts and their first flights.  These data, valid through 1996, detailed various laboratory measurements including the mean differences in blood pressure and pulse values for pre- and postflight examinations.\r\n<P>\r\nIn 1996, there were 135 active astronauts: 30 women and 105 men.  There were only 6 inactive women and 129 inactive men.  The average age for active women astronauts is 39.9 years while the same average for active men is 41.9 years.  For inactive corps members, men have a mean age of 50.9 years while women have a mean age of 46.5 years.  At first flight, women average 39 years of age.  Approximately 59 percent of men and 29 percent of women received a Master's degree as their highest degree earned.  Fifty-one percent of women astronauts received a doctoral degree (M.D. or Ph.D.) while 28 percent of the men hold a doctoral degree in medicine, philosophy, or veterinary medicine.  Racial makeup for the astronaut corps includes five groups: White, Black, Hispanic, Asian, and Native American.  Eighty-eight percent (30) of female astronauts and 89.2 percent (141) of male astronauts are White.  The next largest racial group is Blacks with 9 percent (8) of men and 5 percent (3) of women.\r\n<P>\r\nFrom 1978 through 1996, women have been eligible to participate in 82 different missions. Of all flights:<BR>\r\n<LI> Women were crewmembers on 42 of those missions (51%)\r\n<LI>A woman was a pilot on 1 mission (1.2%)\r\n<LI>There were at least 2 women on 13 of those missions (15.9%)\r\n<P>\r\nThe purpose of this study was to examine the differences between male and female astronaut physiological parameters.<P>\r\n\r\nAPPROACH:<BR>\r\nBlood Pressure: The preflight (L-10) and postflight (R+0) examinations were used to calculate the differences in blood pressures for all astronauts.\r\n<P>\r\nPulse:  Again, these values were obtained from L-10 and R+0 examinations, with the subjects in the sitting position.\r\n<P>\r\nRESULTS:<BR>\r\nBlood pressure:  In particular, women had a mean difference in sitting diastolic BP:  <BR>\r\n\r\n<LI> 10 mmHg for flights of six days or less (N=5)\r\n<LI> 8.2 mmHg for flights of 7 through 10 days (N=11)\r\n<LI> 0 mmHg for flights of 11 through 17 days (N=3)\r\n<P>\r\nThe mean differences in sitting systolic BP are:<BR>\r\n<LI> 14 mmHg for flights of six days or less (N=5)\r\n<LI> 12.7 mmHg for flights of 7 through 10 days (N=11)\r\n<LI> 14 mmHg for flights of 11 through 17 days (N=3)\r\n<P>\r\nThe mean differences for men were less than the mean differences for women on all flights except those 11 to 17 days in length.  For those flights, men had a mean difference of 11.9 and 16.8 mmHg for diastolic and systolic BP, respectively.\r\n<P>\r\nSitting Pulse Values for Women:<BR>\r\nThe average mean differences in sitting pulses for women are:<BR>\r\n<LI> 17 beats per minute (bpm) for flights of six days or less (N=4)\r\n<LI> 11.2 bpm for flights of 7 through 10 days (N=6)\r\n<LI> 1.3 bpm for flights of 11 though 17 days (N=3)\r\n<P>\r\nThe average mean differences in sitting pulses for men are:<BR>\r\n<LI> 7.7 bpm for flights of six days or less (N=22)\r\n<LI> 16.2 bpm for flights of 7 through 10 days in length (N=23)\r\n<LI> 8.0 bpm for flights of 11 through 17 days (N=17)\r\n<P>\r\nPhysiological differences between men and women will continue to be investigated.<END>",
+  "__doi": "10.83263/w0ak-ww97",
+  "__doi_record_creation_date": "2026-08-23T04:13:12",
+  "__doi_record_modified_date": "2026-08-23T04:13:12"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000088",
+   "label": "JMLSAHNEWSV712_150",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Differences in Systolic Blood Pressure Between Male and Female Astronauts",
+    "dataset_catalog": "JMLSAHNEWSV712_150",
+    "dataset_description": [
+     "This graph depicts differences in systolic blood pressure between male and female astronauts, for three different flight durations.  Data were reported in the 1996 Longitudinal Study for Astronaut Health (LSAH) newsletter.<P>Source: National Aeronautics and Space Administration. Women Astronaut Health. In: Longitudinal Study of Astronaut Health Newsletter. February 1998;7(1):2."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "LSAHNEWSV7_1_2"
+    ]
+   },
+   "meta": "1 file \u00b7 67.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "cd1fe40d-f457-5be7-af33-6bde6828e76b",
+     "label": "JMLSAHNEWSV712_150.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 68608,
+     "meta": "67.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000008",
+   "label": "JMLSAHNEWSV712_149",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Differences in Diastolic Blood Pressure Between Male and Female Astronauts",
+    "dataset_catalog": "JMLSAHNEWSV712_149",
+    "dataset_description": [
+     "This graph depicts differences in diastolic blood pressure between male and female astronauts, for three different flight durations.  Data were reported in the 1996 Longitudinal Study for Astronaut Health (LSAH) newsletter.\r\n<P>\r\nSource: National Aeronautics and Space Administration. Women Astronaut Health. In: Longitudinal Study of Astronaut Health Newsletter. February 1998;7(1):2."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "LSAHNEWSV7_1_2"
+    ]
+   },
+   "meta": "1 file \u00b7 62.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "92383a36-ed44-54e2-bd6a-52e3df9b767a",
+     "label": "JMLSAHNEWSV712_149.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 63488,
+     "meta": "62.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

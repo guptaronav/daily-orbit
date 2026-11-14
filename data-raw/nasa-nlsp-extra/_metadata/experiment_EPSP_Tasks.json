@@ -1,0 +1,161 @@
+{
+ "record": {
+  "id": "f34e8138-cab8-5fc5-9a81-15c4ea7c0b8b",
+  "_id": "f34e8138-cab8-5fc5-9a81-15c4ea7c0b8b",
+  "experiment_title": "NASA Extreme Environment Mission Operations (NEEMO) - 14 Project: Advanced Extravehicular Activity (EVA) Exploration Activities Study to Assess Human Performance Responses in Partial Gravity Environments",
+  "archive_status_index": 1,
+  "pub_document_number": "PUB001981",
+  "parameter_html": "<table><tr><td>Aft</td></tr><tr><td>Age</td></tr><tr><td>Body mass</td></tr><tr><td>Gravity compensation and performance scale (GCPS) ratings</td></tr><tr><td>Height</td></tr><tr><td>Task acceptability</td></tr><tr><td>Respiratory exchange ratio (RER)</td></tr><tr></tr></table>",
+  "__source_key": "cl62b09yycdl001o6g2p8gpys",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Gernhardt, Michael\">Principal Investigator: Gernhardt, Michael</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Abercromby, Andrew\">Co-Investigator: Abercromby, Andrew</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Chappell, Steven\">Co-Investigator: Chappell, Steven</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Norcross, Jason\">Co-Investigator: Norcross, Jason</a>",
+  "image_name": [
+   "Cargo Lander",
+   "Center of Gravity Rig Drawing",
+   "Haul System",
+   "SEV Mock-up",
+   "SEV Rover Cabin",
+   "Volumetric PLSS Mock-ups"
+  ],
+  "experiment_type_lk": [
+   "NASA Extreme Environment Mission Operations (NEEMO) Project",
+   "NASA Ground-Based Investigations"
+  ],
+  "__record_modified_date": "2026-08-23T04:17:13.243641+00:00",
+  "__indexed": "2026-08-23T04:17:13.243641+00:00",
+  "__record_creation_date": "2022-07-28T20:00:54.653Z",
+  "keyword": [
+   "Task performance and analysis",
+   "Extravehicular activity"
+  ],
+  "keyword_name": "Extravehicular activity",
+  "__record_size": 133259,
+  "__record_version": 29,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<br>\r\nThe Space Exploration Vehicle (SEV) is regarded by the Exploration Systems Mission\r\nDirectorate (ESMD) as an integral part of the current exploration architectures under consideration. The SEV offers numerous health and safety advantages that accrue from having a pressurized safe haven/radiation shelter in close proximity to the crew at all times during exploration operations. It also combines a comfortable shirtsleeve, sensor-augmented environment for gross translations and geological/mapping observations with the ability to rapidly place suited astronauts outside of the vehicle using suitports to take full advantage of the unique human talents of perception, judgment, and dexterity. Data from the Desert Research and Technology Studies (DRATS) 2008 field test demonstrated that this combination of features and capabilities increases the productivity of suited crew time by an average of 370% during exploration/mapping/geological operations using an SEV compared to suited crew time with an unpressurized rover.\r\n<p>\r\nThe SEV concept is being developed through an aggressive process of designing, prototyping, and testing in close coordination with the development of other exploration systems including the extravehicular activity (EVA) suit. Different test objectives necessitate different test sites, and the objectives of the NASA Extreme Environment Mission Operations (NEEMO) 14 test required a simulated reduced-gravity environment. The ability to simulate microgravity and reduced gravity for extended durations during EVA tasks means that NEEMO missions represent a cost-effective opportunity to understand the operation and interaction of hardware and humans in these environments. The ultimate success of future exploration missions is dependent on the ability to perform EVA tasks efficiently and safely, whether those tasks represent a nominal mode of operation or a contingency capability; all systems must therefore be designed with EVA accessibility and operability as important considerations. During the 2-week NEEMO 14 mission, four crew members performed a series of EVA tasks under different simulated EVA-suit configurations and gravity levels and used full-scale mock-ups of an SEV and a cargo lander. Quantitative and qualitative data collected during NEEMO 14 will be used to directly inform ongoing hardware and operations concept development of the SEV, exploration EVA systems, and future EVA suits.\r\n<p>\r\nAPPROACH:<br>\r\nSubjects were recruited from the active astronaut corps as well as through a space life sciences selection process. Through this selection, four male astronaut subjects, consisting of two active astronauts and two space life sciences investigators, participated in the mission. All subjects successfully passed a modified Air Force Class III Physical or equivalent examination.\r\nEach subject was provided verbal and written explanations of the testing protocols and the potential risks and hazards involved in the testing and signed NASA JSC Human Research documentation indicating his/her understanding and consent. All testing protocols were reviewed and approved by the NASA JSC CPHS, and appropriate test readiness reviews were conducted before testing began.\r\n<p>\r\nCrewmembers were briefed on the objectives and methods of the study before departure for the field test site, and participated in a comprehensive training program that included review and practice of the following: 1) Study hypotheses, 2) Metrics and data collection procedures, 3) Mission rules, 4) Task procedures, 5) CG rig familiarization, 6) Mock-up familiarization, 7) Aquarius familiarization, and 8) Communications protocols.  On deployment to the field test site, all crewmembers completed a brief refresher course before the start of the mission.\r\n<p>\r\nThe SEV mock-up used in this study is based on the cabin 1B prototype that was developed as a collaborative effort among NASA Johnson Space Center (JSC), NASA Langley Research Center (LaRC), NASA Ames Research Center (ARC), and NASA Glenn Research Center (GRC). The SEV mock-up also incorporated the features necessary to achieve mission objectives. A full-scale mock-up of the\r\nSEV was constructed near the Aquarius habitat to achieve the rover-based test objectives. This SEV mock-up had side-hatches that were 101.6 cm (40 in.) wide and an adjustable height from 101.6 cm (40 in.) to 152.4 cm (60 in.). The aft bulkhead of the mockup featured suitport simulators. The height of the door thresholds, suitport thresholds, and aft deck accurately simulated the expected lowest possible heights based on prototypes. The SEV interior was minimally simulated by employing fold-up benches and side-hatch doors.\r\n<p>\r\nThe next iteration of the SEV-rover development process was the conceptual design of a Generation II (Gen II) SEV rover, which began in early fiscal year (FY) 2010. The size of the SEV side-hatches was one of the most significant drivers for the cabin geometry; and a primary driver for the hatch dimensions is the ability to transfer an incapacitated EVA crewmember into the SEV. Data regarding the adequacy of a 101.6 cm wide by 101.6 cm high (40 in. wide by 40 in. high) side-hatch for transferring an incapacitated EVA crewmember into the SEV was used by the SEV team to finalize the SEV side-hatch dimensions.\r\n<p>\r\nEVA interfaces, task design, suit weight and suit center of gravity (CG), and hardware accessibility and operability were quantitatively and qualitatively evaluated in simulated reduced gravity during the following EVA tasks at NEEMO 14:<br>\r\n1. Unloading an SEV mock-up from the deck of a cargo-lander mock-up<br>\r\n2. Off-loading small payloads from the deck of a cargo-lander mock-up<br>\r\n3. Transferring small payloads from the surface onto the deck of a cargo-lander mock-up<br>\r\n4. Transferring an incapacitated crewmember from the surface onto the deck of a crew-lander\r\nmock-up<br>\r\n5. Transferring an incapacitated crewmember from the surface into an SEV-rover mock-up via a:<br>\r\n6. Crewmember translation through hatchways:<br>\r\n7. Transferring an incapacitated crew member from the crew-lander deck into an airlock and\r\nascent module<br>\r\n8. Crewmember translation into an airlock and ascent module<br>\r\n<p>\r\nEach of the EVA tasks was performed a total of nine times by each of the four crewmembers to enable the combined effects of three different simulated suit weights and three different suit CG locations to be evaluated and compared. Data regarding the effects of suit weight and CG on task performance were systematically analyzed and will ensure that the implications of suit weight and CG location on EVA performance are adequately understood and considered during the development of exploration EVA suits. In addition to the EVA tasks listed above, crew members also completed a standard exploration EVA task protocol used during all EVA Physiology, Systems, and Performance (EPSP) Project tests, including previous NEEMO missions. The protocol consisted of ambulation, kneel/recover, fall/recover, shoveling, rock pick-up, and ladder climbing tasks, each of which was performed according to the EPSP protocol under each of the nine weight/CG configurations.\r\n<p>\r\nRESULTS:<br>\r\nPlease refer to the document NASA TP-2011-216152.  This document contains images, graphs, tables, and summarized results for each protocol of the study. \r\n<p>",
+  "payload_id": "NEEMO 14",
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "EPSP_Tasks",
+  "indexed": "2026-08-23T04:17:13.243641+00:00",
+  "GUID": "cl62b09yycdl001o6g2p8gpys",
+  "parameter_name": [
+   "Aft",
+   "Age",
+   "Body mass",
+   "Gravity compensation and performance scale (GCPS) ratings",
+   "Height",
+   "Task acceptability",
+   "Respiratory exchange ratio (RER)"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 1806,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Behavior and performance"
+  ],
+  "pme_role_with_name": [
+   "Co-Investigator: Abercromby, Andrew",
+   "Co-Investigator: Chappell, Steven",
+   "Co-Investigator: Norcross, Jason",
+   "Principal Investigator: Gernhardt, Michael"
+  ],
+  "missions": [
+   [
+    [
+     "NEEMO 14"
+    ]
+   ],
+   [
+    [
+     "EPSP"
+    ]
+   ]
+  ],
+  "__dirid": "f34e8138-cab8-5fc5-9a81-15c4ea7c0b8b",
+  "__record_size_wo_doccontent": 133259,
+  "PI": [
+   "Gernhardt, Michael"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "EPSP_Tasks"
+  ],
+  "mission_id": [
+   [
+    [
+     "NEEMO 14"
+    ]
+   ],
+   [
+    [
+     "EPSP"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "proposal_source": [],
+  "proposal_date": [],
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens)"
+   ]
+  ],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Gernhardt, Michael"
+  ],
+  "archive_status": "Data preservation is complete. All datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Constellation",
+  "__source_field_concat": "PUB001981 NEEMO 14 cl62b09yycdl001o6g2p8gpys Extravehicular activity  N/A EPSP_Tasks Constellation Data preservation is complete. All datasets are publicly available.",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<br>\r\nThe Space Exploration Vehicle (SEV) is regarded by the Exploration Systems Mission\r\nDirectorate (ESMD) as an integral part of the current exploration architectures under consideration. The SEV offers numerous health and safety advantages that accrue from having a pressurized safe haven/radiation shelter in close proximity to the crew at all times during exploration operations. It also combines a comfortable shirtsleeve, sensor-augmented environment for gross translations and geological/mapping observations with the ability to rapidly place suited astronauts outside of the vehicle using suitports to take full advantage of the unique human talents of perception, judgment, and dexterity. Data from the Desert Research and Technology Studies (DRATS) 2008 field test demonstrated that this combination of features and capabilities increases the productivity of suited crew time by an average of 370% during exploration/mapping/geological operations using an SEV compared to suited crew time with an unpressurized rover.\r\n<p>\r\nThe SEV concept is being developed through an aggressive process of designing, prototyping, and testing in close coordination with the development of other exploration systems including the extravehicular activity (EVA) suit. Different test objectives necessitate different test sites, and the objectives of the NASA Extreme Environment Mission Operations (NEEMO) 14 test required a simulated reduced-gravity environment. The ability to simulate microgravity and reduced gravity for extended durations during EVA tasks means that NEEMO missions represent a cost-effective opportunity to understand the operation and interaction of hardware and humans in these environments. The ultimate success of future exploration missions is dependent on the ability to perform EVA tasks efficiently and safely, whether those tasks represent a nominal mode of operation or a contingency capability; all systems must therefore be designed with EVA accessibility and operability as important considerations. During the 2-week NEEMO 14 mission, four crew members performed a series of EVA tasks under different simulated EVA-suit configurations and gravity levels and used full-scale mock-ups of an SEV and a cargo lander. Quantitative and qualitative data collected during NEEMO 14 will be used to directly inform ongoing hardware and operations concept development of the SEV, exploration EVA systems, and future EVA suits.\r\n<p>\r\nAPPROACH:<br>\r\nSubjects were recruited from the active astronaut corps as well as through a space life sciences selection process. Through this selection, four male astronaut subjects, consisting of two active astronauts and two space life sciences investigators, participated in the mission. All subjects successfully passed a modified Air Force Class III Physical or equivalent examination.\r\nEach subject was provided verbal and written explanations of the testing protocols and the potential risks and hazards involved in the testing and signed NASA JSC Human Research documentation indicating his/her understanding and consent. All testing protocols were reviewed and approved by the NASA JSC CPHS, and appropriate test readiness reviews were conducted before testing began.\r\n<p>\r\nCrewmembers were briefed on the objectives and methods of the study before departure for the field test site, and participated in a comprehensive training program that included review and practice of the following: 1) Study hypotheses, 2) Metrics and data collection procedures, 3) Mission rules, 4) Task procedures, 5) CG rig familiarization, 6) Mock-up familiarization, 7) Aquarius familiarization, and 8) Communications protocols.  On deployment to the field test site, all crewmembers completed a brief refresher course before the start of the mission.\r\n<p>\r\nThe SEV mock-up used in this study is based on the cabin 1B prototype that was developed as a collaborative effort among NASA Johnson Space Center (JSC), NASA Langley Research Center (LaRC), NASA Ames Research Center (ARC), and NASA Glenn Research Center (GRC). The SEV mock-up also incorporated the features necessary to achieve mission objectives. A full-scale mock-up of the\r\nSEV was constructed near the Aquarius habitat to achieve the rover-based test objectives. This SEV mock-up had side-hatches that were 101.6 cm (40 in.) wide and an adjustable height from 101.6 cm (40 in.) to 152.4 cm (60 in.). The aft bulkhead of the mockup featured suitport simulators. The height of the door thresholds, suitport thresholds, and aft deck accurately simulated the expected lowest possible heights based on prototypes. The SEV interior was minimally simulated by employing fold-up benches and side-hatch doors.\r\n<p>\r\nThe next iteration of the SEV-rover development process was the conceptual design of a Generation II (Gen II) SEV rover, which began in early fiscal year (FY) 2010. The size of the SEV side-hatches was one of the most significant drivers for the cabin geometry; and a primary driver for the hatch dimensions is the ability to transfer an incapacitated EVA crewmember into the SEV. Data regarding the adequacy of a 101.6 cm wide by 101.6 cm high (40 in. wide by 40 in. high) side-hatch for transferring an incapacitated EVA crewmember into the SEV was used by the SEV team to finalize the SEV side-hatch dimensions.\r\n<p>\r\nEVA interfaces, task design, suit weight and suit center of gravity (CG), and hardware accessibility and operability were quantitatively and qualitatively evaluated in simulated reduced gravity during the following EVA tasks at NEEMO 14:<br>\r\n1. Unloading an SEV mock-up from the deck of a cargo-lander mock-up<br>\r\n2. Off-loading small payloads from the deck of a cargo-lander mock-up<br>\r\n3. Transferring small payloads from the surface onto the deck of a cargo-lander mock-up<br>\r\n4. Transferring an incapacitated crewmember from the surface onto the deck of a crew-lander\r\nmock-up<br>\r\n5. Transferring an incapacitated crewmember from the surface into an SEV-rover mock-up via a:<br>\r\n6. Crewmember translation through hatchways:<br>\r\n7. Transferring an incapacitated crew member from the crew-lander deck into an airlock and\r\nascent module<br>\r\n8. Crewmember translation into an airlock and ascent module<br>\r\n<p>\r\nEach of the EVA tasks was performed a total of nine times by each of the four crewmembers to enable the combined effects of three different simulated suit weights and three different suit CG locations to be evaluated and compared. Data regarding the effects of suit weight and CG on task performance were systematically analyzed and will ensure that the implications of suit weight and CG location on EVA performance are adequately understood and considered during the development of exploration EVA suits. In addition to the EVA tasks listed above, crew members also completed a standard exploration EVA task protocol used during all EVA Physiology, Systems, and Performance (EPSP) Project tests, including previous NEEMO missions. The protocol consisted of ambulation, kneel/recover, fall/recover, shoveling, rock pick-up, and ladder climbing tasks, each of which was performed according to the EPSP protocol under each of the nine weight/CG configurations.\r\n<p>\r\nRESULTS:<br>\r\nPlease refer to the document NASA TP-2011-216152.  This document contains images, graphs, tables, and summarized results for each protocol of the study. \r\n<p>",
+  "__doi": "10.83263/d8jr-zf12",
+  "__doi_record_creation_date": "2026-08-23T04:17:13",
+  "__doi_record_modified_date": "2026-08-23T04:17:13"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000295",
+   "label": "EPSP_Tasks__530134399",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Final Report",
+    "dataset_catalog": "EPSP_Tasks__530134399",
+    "dataset_description": [
+     "This is the final report titled, Final Report of NEEMO 14: Evaluation of a Space Exploration Vehicle, Cargo Lander, and Crew Lander during Simulated Partial-gravity Exploration and Construction Tasks for the EPSP_Tasks study (NASA TP-2011-216152). This document is publicly available. \r\n<p>\r\nSource: Original data submitted by the PI"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "EPSP_Tasks"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "3d1b1036-f4b9-5e8d-a373-a112aea33353",
+     "label": "EPSP_Tasks__530134399.pdf_EPSP_EPSP_Tasks_2012_53_010209.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

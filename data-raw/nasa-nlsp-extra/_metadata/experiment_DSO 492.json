@@ -1,0 +1,250 @@
+{
+ "record": {
+  "id": "03c6a38a-3e85-5d41-b4f6-e42276e667ed",
+  "_id": "03c6a38a-3e85-5d41-b4f6-e42276e667ed",
+  "experiment_title": "In-flight Evaluation of a Portable Clinical Blood Analyzer",
+  "archive_status_index": 1,
+  "pub_document_number": "PUB001178",
+  "parameter_html": "<table><tr><td>Calcium, ionized</td></tr><tr><td>Glucose</td></tr><tr><td>Hematocrit</td></tr><tr><td>pH</td></tr><tr><td>Potassium</td></tr><tr><td>Sodium</td></tr><tr></tr></table>",
+  "__source_key": "cl62ayou7cd7r01o636bpg6zv",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Lane, Helen\">Principal Investigator: Lane, Helen</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Smith, Scott\">Co-Investigator: Smith, Scott</a>",
+  "experiment_type_lk": [
+   "Shuttle Detailed Supplementary Objectives (DSO)",
+   "Shuttle Extended Duration Orbiter Medical Project (EDOMP)"
+  ],
+  "__record_modified_date": "2026-08-23T04:11:27.326210+00:00",
+  "proposal_source": [
+   "N/A"
+  ],
+  "__indexed": "2026-08-23T04:11:27.326210+00:00",
+  "__record_creation_date": "2022-07-28T20:02:45.850Z",
+  "keyword": [
+   "Electrolytes",
+   "Biosensing techniques",
+   "Point of care systems",
+   "Blood specimen collection",
+   "Blood chemical analysis"
+  ],
+  "keyword_name": "Blood chemical analysis",
+  "__record_size": 56245,
+  "__record_version": 30,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<BR>\r\nResearch on human adaptation to microgravity often involves storing blood samples for later analysis on Earth. Immediate, inflight analysis would make results available during a mission and would avoid the need for refrigeration or freezing and the possibility of deterioration of the samples. The objective of this hardware study was to test a portable device for inflight analysis of blood samples.\r\n<P>\r\nAPPROACH:<BR>\r\nThe Portable Clinical Blood Analyzer (PCBA) is a hand-held, battery-powered device that measures electrolytes by ion-selective electrode potentiometry, glucose by amperometry, hematocrit by conductometrics, and pH by direct potentiometry. It does not measure hemoglobin. The analyzer was tested on the ground against traditional laboratory methods, using capillary blood, venous blood and control solutions. It was then tested for inflight use on 5 Shuttle missions. Control solutions were analyzed before and during the flights. Twice during flight, 21 astronauts performed finger sticks on each other, collected capillary blood using heparinized capillary tubes, and transferred the blood to the analyzer. Blood samples were also collected and analyzed before and after flights. \r\n<P>\r\nRESULTS:<BR>\r\nThe performance of the analyzer in microgravity was similar to its performance on the ground for all the control solutions except sodium, and the small difference in sodium levels was within clinical laboratory performance standards. The astronauts were able to collect and analyze blood samples in flight. Some changes were noted in pH and levels of potassium and ionized calcium during flight or on landing day, but the values returned to preflight levels within 3 to 6 days. The analyzer was found to be very reliable for immediate analysis of sodium, potassium, ionized calcium, pH and glucose on the ground and during space flight. It is being flown routinely to help flight surgeons evaluate the health of the astronauts, and it will be especially useful for following calcium levels and evaluating bone changes during long spaceflights. The device may also prove useful in remote areas on Earth.<END>",
+  "payload_id": "DSO62",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "DSO 492",
+  "indexed": "2026-08-23T04:11:27.326210+00:00",
+  "GUID": "cl62ayou7cd7r01o636bpg6zv",
+  "parameter_name": [
+   "Calcium, ionized",
+   "Glucose",
+   "Hematocrit",
+   "pH",
+   "Potassium",
+   "Sodium"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 600,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Metabolism and nutrition",
+   "Clinical medicine",
+   "Renal, fluid and electrolyte physiology",
+   "Technology development"
+  ],
+  "pme_role_with_name": [
+   "Co-Investigator: Smith, Scott",
+   "Principal Investigator: Lane, Helen",
+   "Statistician: Calkins, Dick",
+   "Technical Assistant to Principal Investigator: Davis- Street, Janis",
+   "Technical Assistant to Principal Investigator: Fontenot, Tina"
+  ],
+  "missions": [
+   [
+    [
+     "STS-62"
+    ]
+   ],
+   [
+    [
+     "STS-63"
+    ]
+   ],
+   [
+    [
+     "STS-69"
+    ]
+   ],
+   [
+    [
+     "STS-71"
+    ]
+   ],
+   [
+    [
+     "STS-72"
+    ]
+   ],
+   [
+    [
+     "STS-75"
+    ]
+   ]
+  ],
+  "__dirid": "03c6a38a-3e85-5d41-b4f6-e42276e667ed",
+  "__record_size_wo_doccontent": 56245,
+  "PI": [
+   "Lane, Helen"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "DSO 492"
+  ],
+  "mission_id": [
+   [
+    [
+     "STS-62"
+    ]
+   ],
+   [
+    [
+     "STS-63"
+    ]
+   ],
+   [
+    [
+     "STS-69"
+    ]
+   ],
+   [
+    [
+     "STS-71"
+    ]
+   ],
+   [
+    [
+     "STS-72"
+    ]
+   ],
+   [
+    [
+     "STS-75"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Lane, Helen"
+  ],
+  "archive_status": "Data preservation is complete. All datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Shuttle Program",
+  "__source_field_concat": "PUB001178 DSO62 cl62ayou7cd7r01o636bpg6zv Blood chemical analysis  N/A In-flight Evaluation of a Portable Clinical Blood Analyzer DSO 492 Shuttle Program Data preservation is complete. All datasets are publicly available.",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<BR>\r\nResearch on human adaptation to microgravity often involves storing blood samples for later analysis on Earth. Immediate, inflight analysis would make results available during a mission and would avoid the need for refrigeration or freezing and the possibility of deterioration of the samples. The objective of this hardware study was to test a portable device for inflight analysis of blood samples.\r\n<P>\r\nAPPROACH:<BR>\r\nThe Portable Clinical Blood Analyzer (PCBA) is a hand-held, battery-powered device that measures electrolytes by ion-selective electrode potentiometry, glucose by amperometry, hematocrit by conductometrics, and pH by direct potentiometry. It does not measure hemoglobin. The analyzer was tested on the ground against traditional laboratory methods, using capillary blood, venous blood and control solutions. It was then tested for inflight use on 5 Shuttle missions. Control solutions were analyzed before and during the flights. Twice during flight, 21 astronauts performed finger sticks on each other, collected capillary blood using heparinized capillary tubes, and transferred the blood to the analyzer. Blood samples were also collected and analyzed before and after flights. \r\n<P>\r\nRESULTS:<BR>\r\nThe performance of the analyzer in microgravity was similar to its performance on the ground for all the control solutions except sodium, and the small difference in sodium levels was within clinical laboratory performance standards. The astronauts were able to collect and analyze blood samples in flight. Some changes were noted in pH and levels of potassium and ionized calcium during flight or on landing day, but the values returned to preflight levels within 3 to 6 days. The analyzer was found to be very reliable for immediate analysis of sodium, potassium, ionized calcium, pH and glucose on the ground and during space flight. It is being flown routinely to help flight surgeons evaluate the health of the astronauts, and it will be especially useful for following calcium levels and evaluating bone changes during long spaceflights. The device may also prove useful in remote areas on Earth.<END>",
+  "__doi": "10.83263/xd6c-ah26",
+  "__doi_record_creation_date": "2026-08-23T04:11:27",
+  "__doi_record_modified_date": "2026-08-23T04:11:27"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000552",
+   "label": "JMDSO492_1",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Assessment of a portable clinical blood analyzer during space flight",
+    "dataset_catalog": "JMDSO492_1",
+    "dataset_description": [
+     "This is the final report for this study, designed to validate the utility of a commercial portable clinical blood analyzer (PCBA) in ground-based studies and on the Space Shuttle.  In: Smith SM, Davis-Street JE, Fontenot TB, Lane HW. Assessment of a portable clinical blood analyzer during space flight. Clin Chem 1997;43:1056-65."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 492"
+    ]
+   },
+   "meta": "6 files \u00b7 1.62 MB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "87d9a925-6fb5-55ee-b1b8-3a8aa8daba08",
+     "label": "JMDSO492_1.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 282624,
+     "meta": "276.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "88ad72a1-660a-51b7-b2ad-b17af46280c1",
+     "label": "JMDSO492_1.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 282624,
+     "meta": "276.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7a4953f2-1019-5058-a6f7-494d02ba84ab",
+     "label": "JMDSO492_1.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 282624,
+     "meta": "276.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b224c8d8-a771-5aab-bd0f-fbefd5dc370e",
+     "label": "JMDSO492_1.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 282624,
+     "meta": "276.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "513d1ccb-0dea-5d4a-82cb-c3e411356548",
+     "label": "JMDSO492_1.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 282624,
+     "meta": "276.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1d4df862-5a33-5637-af15-f12e4a328087",
+     "label": "JMDSO492_1.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 282624,
+     "meta": "276.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

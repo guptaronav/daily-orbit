@@ -1,0 +1,329 @@
+{
+ "record": {
+  "id": "27a861a7-886d-50d5-b8ca-2bbf30f29359",
+  "_id": "27a861a7-886d-50d5-b8ca-2bbf30f29359",
+  "experiment_title": "Radiological Protection and Medical Dosimetry for the Skylab Crew",
+  "archive_status_index": 2,
+  "pub_document_number": "PUB001049",
+  "parameter_html": "<table><tr><td>Absorbed dose</td></tr><tr><td>Electron flux</td></tr><tr><td>Proton flux</td></tr><tr><td>Radioactivity</td></tr><tr><td>Radiation dose equivalent</td></tr><tr></tr></table>",
+  "__source_key": "cl62aztrocdhh01o6dpbvesyg",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Bailey, Vernon\">Principal Investigator: Bailey, Vernon</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:English, Robert\">Co-Investigator: English, Robert</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Hoffman, Rudolf\">Co-Investigator: Hoffman, Rudolf</a>",
+  "experiment_type_lk": [
+   "Skylab Program"
+  ],
+  "__record_modified_date": "2026-08-23T04:05:53.147653+00:00",
+  "__indexed": "2026-08-23T04:05:53.147653+00:00",
+  "__record_creation_date": "2022-07-28T19:56:08.037Z",
+  "keyword": [
+   "Solar activity",
+   "Radiation dosage",
+   "Thermoluminescent dosimetry",
+   "Protons",
+   "Radiation monitoring",
+   "Radiation protection"
+  ],
+  "keyword_name": "Radiation protection",
+  "__record_size": 130578,
+  "__record_version": 29,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<BR>\r\nSkylab crewmembers needed protection from both expected and unexpected radiological events. Expected radiation events had components that were known with relative certainty whereas the unexpected events were completely indeterminate. The expected radiation sources were the trapped protons and electrons of the Van Allen Belts, galactic cosmic rays, and emissions from onboard radiation sources. Unexpected exposures might originate from energetic solar particle events, high altitude nuclear tests, and potential problems with the onboard sources already mentioned. The radiation plan outlined in this description was geared toward rapid identification of and reaction to any enhanced radiation situation.<P> \r\n\r\nAPPROACH:<BR>\r\nMonitoring of the Skylab radiation environment was conducted during Skylab 2, 3, and 4.  An analysis before the missions indicated that doses from the Van Allen Belt trapped particles and from galactic cosmic rays would be well below the limits adopted by NASA and the National Academy of Sciences.<BR>\r\nRadiation hardware consisted of both active and passive monitoring devices.  Active radiation hardware included a radiation survey meter, three personal radiation dosimeters (plus a spare), the Van Allen Belt dosimeter, and an electron-proton spectrometer. The personal dosimeters were worn by the crewmembers the first four days of each mission, and displayed integrated dose in 10 millirad intervals.  The radiation survey meter and the personal dosimeters provided dosimetry during the extravehicular activities (EVA), dose rate monitoring, and monitoring of various areas of the vehicle when not being worn by the crew or being used for the EVAs.  The Van Allen Belt dosimeter was used for routine monitoring of dose rates at fixed locations.  The electron-proton spectrometer was mounted on the spacecraft exterior and was used to monitor electron and proton fluences. Rate data from the previous two instruments were either telemetered or recorded for later transmission to the ground; the data were not available for direct read-out.<BR>\r\nPassive radiation detectors were also used during the experiment to supplement the data obtained by the active devices.  Passive dosimeter packets consisting of several different dosimetric materials were worn by the crewmembers throughout each mission.  In addition passive dosimeters were placed within the Orbital Workshop's film storage vault for the intervals from the beginning of Skylab 2 to the end of Skylab 2 (28 days) and from the beginning of Skylab 2 to the end of Skylab 3 (123 days). The film vault's aluminum shielding of 13 and 23 g/cm<sup>2</sup> corresponded to human soft tissue depths of 10 and 19 cm, and thus provided a comparison study.<BR>\r\nRadiation specialists on the ground analyzed spacecraft data, satellite information and solar observatory reports to continuously evaluate Skylab's radiation environment. In addition, crewmen reported their personal dosimeter readouts on a daily basis, and before and after each EVA.<P> \r\n\r\nRESULTS:<BR>\r\nDose equivalents received by the Skylab 4 crew were the highest received in any previous NASA mission, but remained well within limits set for the mission. Due to the low rates involved, dose equivalents for each crewman were well below significant clinical effects (long-term effects such as generalized life shortening, increased neoplasms, and cataract production). NASA career limits were 400 rem for blood forming organs, 1200 rem for skin and 600 rem for the lens of the eye. The Skylab 4 crewmen could have flown a mission comparable to Skylab 4's duration every year for 50 years before exceeding their career limits.<BR>\r\nAs previously stated, NASA was most concerned about the unexpected radiation events that might occur during Skylab.  The results of several unexpected radiation events are listed below along with the results obtained from the radiation monitoring hardware.<P>\r\n\r\n<U>Solar Particle Events</U><BR>\r\nThe Skylab missions were flown during a period when solar activity was approaching a minimum in the Sun's cycle. Although particle emissions from these events were of low energy and intensity, several events of scientific interest nevertheless occurred. However, when coupled with the shielding effects of the Earth's magnetic field, doses from solar particle events were below the limits of the onboard instrumentation detection capabilities (less than 10 millirad per event).<P> \r\n\r\n<U>High Altitude Nuclear Tests</U><BR>\r\nDuring Skylab 3, four nuclear devices were detonated by France at the Murona test site; these tests produced no ionizing radiation problems for Skylab. The only concern was the possibility of eye damage if the crew accidentally observed a test.  Therefore, visual observation of the Earth in the vicinity of the test area was strictly avoided.<P> \r\n\r\n<U>Onboard Radiation Sources</U><BR>\r\nVarious experiments conducted aboard Skylab involved radiation sources (Pm-147, H-3, Ag-110m, Zn-65, Am-241 and Th-232). One of the larger sources originated from radioluminescent markings for one of the experiments; approximately 200 mCi of promethium 147 were involved. Small amounts of this material became detached from the experiment, when a belt in the experiment jammed.  The material remained within a sealed portion of the experiment, and thus did not escape into the spacecraft atmosphere. After determining that the belt could not be fixed without releasing the Pm-147 into the spacecraft atmosphere, an alternative method for belt alignment was devised and used for the remainder of the mission, thus ensuring both crew safety and experiment success.<P> \r\n\r\n<U>Detailed Dosimetry Results</U><BR>\r\nMean dose rates from passive dosimeters show a trend toward increased values as use of food, water, propellants, and other expendables reduced the overall spacecraft shielding. The galactic cosmic ray component measured by the passive dosimeters accounted for 30-50% of the film vault doses, and 20-30% of the crew dose means. The majority of the remaining dose originated from protons in the Van Allen Belts and softer secondary radiations generated by passage of primary particles through spacecraft materials.<BR> \r\nVan Allen Belt electrons did not penetrate into the spacecraft, nor did they penetrate deeply enough (3 mm tissue equivalent) during EVAs to register on the dosimeters. Therefore, electron doses to the skin were calculated from the electron-proton spectrometer data.<BR>\r\nDoses to the blood forming organs averaged 0.66 of the doses to the skin. This value was derived from the dual sensors of the Van Allen Belt Dosimeter and was in agreement with the value obtained from the crew-worn and film vault dosimeters. <BR>\r\nIn terms of neutron dosimetry, thermal (0.02 to 2.0 electronvolts) and intermediate (2.0 to 2 x 10<sup>3</sup> electronvolts) neutrons both contributed to the crew dose equivalent at a combined rate of approximately 0.1 millirem/day. Direct measurement of fast neutron fluence by suspended track analysis of crew-worn nuclear emulsions was not possible due to the high track densities obtained on the Skylab missions. Therefore, upper limit dose calculations were made based on nuclear emulsion disintegration star analysis (to determine neutron production rates) and iridium/tantalum evaluation. Both methods showed excellent agreement with upper limit rates of 12.5 millirem/day (for fast neutrons with mean energy of approximately 1 megaelectronvolt.)<END>",
+  "payload_id": "Skylab 2",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "SKYRAD",
+  "indexed": "2026-08-23T04:05:53.147653+00:00",
+  "GUID": "cl62aztrocdhh01o6dpbvesyg",
+  "parameter_name": [
+   "Absorbed dose",
+   "Electron flux",
+   "Proton flux",
+   "Radioactivity",
+   "Radiation dose equivalent"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 840,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Radiation biology"
+  ],
+  "pme_role_with_name": [
+   "Co-Investigator: English, Robert",
+   "Co-Investigator: Hoffman, Rudolf",
+   "Principal Investigator: Bailey, Vernon"
+  ],
+  "missions": [
+   [
+    [
+     "Skylab 2"
+    ]
+   ],
+   [
+    [
+     "Skylab 3"
+    ]
+   ],
+   [
+    [
+     "Skylab 4"
+    ]
+   ]
+  ],
+  "__dirid": "27a861a7-886d-50d5-b8ca-2bbf30f29359",
+  "__record_size_wo_doccontent": 130578,
+  "PI": [
+   "Bailey, Vernon"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "SKYRAD"
+  ],
+  "mission_id": [
+   [
+    [
+     "Skylab 2"
+    ]
+   ],
+   [
+    [
+     "Skylab 3"
+    ]
+   ],
+   [
+    [
+     "Skylab 4"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "proposal_date": [],
+  "proposal_source": [],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Bailey, Vernon"
+  ],
+  "archive_status": "Data preservation is complete. Privacy-protected datasets are available via data request. Remaining datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Skylab",
+  "__source_field_concat": "PUB001049 Skylab 2 cl62aztrocdhh01o6dpbvesyg Radiation protection  N/A Radiological Protection and Medical Dosimetry for the Skylab Crew SKYRAD Skylab",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<BR>\r\nSkylab crewmembers needed protection from both expected and unexpected radiological events. Expected radiation events had components that were known with relative certainty whereas the unexpected events were completely indeterminate. The expected radiation sources were the trapped protons and electrons of the Van Allen Belts, galactic cosmic rays, and emissions from onboard radiation sources. Unexpected exposures might originate from energetic solar particle events, high altitude nuclear tests, and potential problems with the onboard sources already mentioned. The radiation plan outlined in this description was geared toward rapid identification of and reaction to any enhanced radiation situation.<P> \r\n\r\nAPPROACH:<BR>\r\nMonitoring of the Skylab radiation environment was conducted during Skylab 2, 3, and 4.  An analysis before the missions indicated that doses from the Van Allen Belt trapped particles and from galactic cosmic rays would be well below the limits adopted by NASA and the National Academy of Sciences.<BR>\r\nRadiation hardware consisted of both active and passive monitoring devices.  Active radiation hardware included a radiation survey meter, three personal radiation dosimeters (plus a spare), the Van Allen Belt dosimeter, and an electron-proton spectrometer. The personal dosimeters were worn by the crewmembers the first four days of each mission, and displayed integrated dose in 10 millirad intervals.  The radiation survey meter and the personal dosimeters provided dosimetry during the extravehicular activities (EVA), dose rate monitoring, and monitoring of various areas of the vehicle when not being worn by the crew or being used for the EVAs.  The Van Allen Belt dosimeter was used for routine monitoring of dose rates at fixed locations.  The electron-proton spectrometer was mounted on the spacecraft exterior and was used to monitor electron and proton fluences. Rate data from the previous two instruments were either telemetered or recorded for later transmission to the ground; the data were not available for direct read-out.<BR>\r\nPassive radiation detectors were also used during the experiment to supplement the data obtained by the active devices.  Passive dosimeter packets consisting of several different dosimetric materials were worn by the crewmembers throughout each mission.  In addition passive dosimeters were placed within the Orbital Workshop's film storage vault for the intervals from the beginning of Skylab 2 to the end of Skylab 2 (28 days) and from the beginning of Skylab 2 to the end of Skylab 3 (123 days). The film vault's aluminum shielding of 13 and 23 g/cm<sup>2</sup> corresponded to human soft tissue depths of 10 and 19 cm, and thus provided a comparison study.<BR>\r\nRadiation specialists on the ground analyzed spacecraft data, satellite information and solar observatory reports to continuously evaluate Skylab's radiation environment. In addition, crewmen reported their personal dosimeter readouts on a daily basis, and before and after each EVA.<P> \r\n\r\nRESULTS:<BR>\r\nDose equivalents received by the Skylab 4 crew were the highest received in any previous NASA mission, but remained well within limits set for the mission. Due to the low rates involved, dose equivalents for each crewman were well below significant clinical effects (long-term effects such as generalized life shortening, increased neoplasms, and cataract production). NASA career limits were 400 rem for blood forming organs, 1200 rem for skin and 600 rem for the lens of the eye. The Skylab 4 crewmen could have flown a mission comparable to Skylab 4's duration every year for 50 years before exceeding their career limits.<BR>\r\nAs previously stated, NASA was most concerned about the unexpected radiation events that might occur during Skylab.  The results of several unexpected radiation events are listed below along with the results obtained from the radiation monitoring hardware.<P>\r\n\r\n<U>Solar Particle Events</U><BR>\r\nThe Skylab missions were flown during a period when solar activity was approaching a minimum in the Sun's cycle. Although particle emissions from these events were of low energy and intensity, several events of scientific interest nevertheless occurred. However, when coupled with the shielding effects of the Earth's magnetic field, doses from solar particle events were below the limits of the onboard instrumentation detection capabilities (less than 10 millirad per event).<P> \r\n\r\n<U>High Altitude Nuclear Tests</U><BR>\r\nDuring Skylab 3, four nuclear devices were detonated by France at the Murona test site; these tests produced no ionizing radiation problems for Skylab. The only concern was the possibility of eye damage if the crew accidentally observed a test.  Therefore, visual observation of the Earth in the vicinity of the test area was strictly avoided.<P> \r\n\r\n<U>Onboard Radiation Sources</U><BR>\r\nVarious experiments conducted aboard Skylab involved radiation sources (Pm-147, H-3, Ag-110m, Zn-65, Am-241 and Th-232). One of the larger sources originated from radioluminescent markings for one of the experiments; approximately 200 mCi of promethium 147 were involved. Small amounts of this material became detached from the experiment, when a belt in the experiment jammed.  The material remained within a sealed portion of the experiment, and thus did not escape into the spacecraft atmosphere. After determining that the belt could not be fixed without releasing the Pm-147 into the spacecraft atmosphere, an alternative method for belt alignment was devised and used for the remainder of the mission, thus ensuring both crew safety and experiment success.<P> \r\n\r\n<U>Detailed Dosimetry Results</U><BR>\r\nMean dose rates from passive dosimeters show a trend toward increased values as use of food, water, propellants, and other expendables reduced the overall spacecraft shielding. The galactic cosmic ray component measured by the passive dosimeters accounted for 30-50% of the film vault doses, and 20-30% of the crew dose means. The majority of the remaining dose originated from protons in the Van Allen Belts and softer secondary radiations generated by passage of primary particles through spacecraft materials.<BR> \r\nVan Allen Belt electrons did not penetrate into the spacecraft, nor did they penetrate deeply enough (3 mm tissue equivalent) during EVAs to register on the dosimeters. Therefore, electron doses to the skin were calculated from the electron-proton spectrometer data.<BR>\r\nDoses to the blood forming organs averaged 0.66 of the doses to the skin. This value was derived from the dual sensors of the Van Allen Belt Dosimeter and was in agreement with the value obtained from the crew-worn and film vault dosimeters. <BR>\r\nIn terms of neutron dosimetry, thermal (0.02 to 2.0 electronvolts) and intermediate (2.0 to 2 x 10<sup>3</sup> electronvolts) neutrons both contributed to the crew dose equivalent at a combined rate of approximately 0.1 millirem/day. Direct measurement of fast neutron fluence by suspended track analysis of crew-worn nuclear emulsions was not possible due to the high track densities obtained on the Skylab missions. Therefore, upper limit dose calculations were made based on nuclear emulsion disintegration star analysis (to determine neutron production rates) and iridium/tantalum evaluation. Both methods showed excellent agreement with upper limit rates of 12.5 millirem/day (for fast neutrons with mean energy of approximately 1 megaelectronvolt.)<END>",
+  "__doi": "10.83263/9qgp-aw68",
+  "__doi_record_creation_date": "2026-08-23T04:05:53",
+  "__doi_record_modified_date": "2026-08-23T04:05:53"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000210",
+   "label": "JMSKYSKYRAD_288",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Trapped Radiation Environment Boundary for Skylab",
+    "dataset_catalog": "JMSKYSKYRAD_288",
+    "dataset_description": [
+     "Figure shows a map of the world with hatched boundaries indicating regions where Skylab 2 and 3 encountered the trapped protons and electrons of the Van Allen Belts.  Trapped protons with energy greater than or equal to 10 MeV are represented by lines angled to the right.  Trapped electrons with energies greater than 0.5 MeV are shown with lines angled to the left.<END>"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "SKYRAD"
+    ]
+   },
+   "meta": "2 files \u00b7 1.78 MB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "8bf54fe7-35d3-5500-b7f8-b8891ae74276",
+     "label": "JMSKYSKYRAD_288.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 932864,
+     "meta": "911.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "24e9c7bb-ffdf-53a8-8675-7b482cd90faf",
+     "label": "JMSKYSKYRAD_288.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 932864,
+     "meta": "911.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000194",
+   "label": "JMSKYSKYRAD_290",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Mean Daily Doses Within Skylab Vehicle",
+    "dataset_catalog": "JMSKYSKYRAD_290",
+    "dataset_description": [
+     "Tables show the mean daily dose rate (rad/day) measured at several locations within the Skylab spacecraft during Skylab 2, 3, and 4.  Measurements were obtained from the passive dosimeters worn by the crewmembers (Crew TLD), as well as the passive dosimeters placed in the film vault drawers.  Dose rates were also measured by the portable rate survey meter (Command mod., B-1) and the crew personal radiation dosimeters which were stowed at the specified locations when not being worn by the crewmembers.<END>"
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "SKYRAD"
+    ]
+   },
+   "meta": "3 files \u00b7 45.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "b7784361-9a45-558b-a44c-c9398d206f50",
+     "label": "JMSKYSKYRAD_290.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 15360,
+     "meta": "15.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6a5c2e5c-928f-5ce9-8ae2-26fc121ffd7c",
+     "label": "JMSKYSKYRAD_290.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 15360,
+     "meta": "15.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b6b28f6d-ed54-5705-a8eb-4320d4c7b7ec",
+     "label": "JMSKYSKYRAD_290.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 15360,
+     "meta": "15.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000195",
+   "label": "JMSKYSKYRAD_291",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Radiation Sources Aboard the Skylab Vehicle",
+    "dataset_catalog": "JMSKYSKYRAD_291",
+    "dataset_description": [
+     "Table lists the sources of radioactivity that were aboard the spacecraft during Skylab 2, 3, and 4.  The location of the source, type of radioactive material, and measured radioactivity (curie) are also shown.<END>"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "SKYRAD"
+    ]
+   },
+   "meta": "3 files \u00b7 49.5 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "8d8d6685-70d3-5712-8388-b9f070a45291",
+     "label": "JMSKYSKYRAD_291.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 16896,
+     "meta": "16.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6ae65693-fe48-5120-a442-15d8287e5342",
+     "label": "JMSKYSKYRAD_291.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 16896,
+     "meta": "16.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8115628a-1ee8-567d-81ef-404c1818db9e",
+     "label": "JMSKYSKYRAD_291.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 16896,
+     "meta": "16.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001114",
+   "label": "JMSKYSKYRAD_289",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Radiation Exposure Limits",
+    "dataset_catalog": "JMSKYSKYRAD_289",
+    "dataset_description": [
+     "Table shows the dose equivalent (rem) exposure limits for three areas of the human body (bone, skin, and eye).  An exposure limit corresponding to the one year average daily rate, 30-day maximum, quarterly maximum, yearly maximum, and career limit, is given for each of the three areas.<END>"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "SKYRAD"
+    ]
+   },
+   "meta": "3 files \u00b7 40.5 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "109d9de1-3090-5052-837d-c24a6ab032e0",
+     "label": "JMSKYSKYRAD_289.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 13824,
+     "meta": "13.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "50dd7564-5a13-5770-bc43-afac4a7990ad",
+     "label": "JMSKYSKYRAD_289.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 13824,
+     "meta": "13.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "efb4fabf-d86e-589c-b815-cf4c3a0317e5",
+     "label": "JMSKYSKYRAD_289.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 13824,
+     "meta": "13.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

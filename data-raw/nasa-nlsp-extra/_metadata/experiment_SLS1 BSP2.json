@@ -1,0 +1,7645 @@
+{
+ "record": {
+  "id": "8b84b1b1-e71b-5444-adc1-e1e9ab97f391",
+  "_id": "8b84b1b1-e71b-5444-adc1-e1e9ab97f391",
+  "experiment_title": "Bone Biomechanics",
+  "parameter_html": "<table><tr><td>Activity, motor, Rat, Microgravity, SLS-1 (counts)</td></tr><tr><td>Volume, Femur, bone, rat, Physical measurements</td></tr><tr><td>Biomechanics, femur</td></tr><tr><td>Bone loading, femur</td></tr><tr><td>Bone mineralization, femur</td></tr><tr><td>Bone porosity, femur</td></tr><tr></tr></table>",
+  "__source_key": "cl62axdbcccwk01o67af965ix",
+  "discipline": "N/A",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Bakulin, A.\">Principal Investigator: Bakulin, A.</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Morey- Holton, Emily\">Co-Investigator: Morey- Holton, Emily</a>",
+  "keyword": [
+   "Bone and bones",
+   "Biomechanics",
+   "Bone mineralization"
+  ],
+  "keyword_name": "Bone mineralization",
+  "__record_version": 31,
+  "experiment_description": "<B>Objectives:</B><P>Study of mechanical properties of mammalian bones performed previously in Cosmos flights and ground-based simulation experiments has demonstrated variations in bone strength and deformability during and after exposure to microgravity.  This experiment was to study mineralization parameters and mechanical properties of bones in response to repeated cyclic loading in rats after space flight.<P><B>Approach:</B><P>Bone mechanical properties were examined using samples prepared from the head of femur.  The stress-deformation curve was recorded simultaneously with sample compression in every cycle.  Tests were discontinued when the sample was destroyed.  Proximal and distal epiphysis of the femur were put into 100% ethanol to determine porosity.  Samples were then exposed to dry  ashing and the ash residue was weighed for volume content of the mineral component in bone. <P> <B>Results:</B><P>No significant changes of the general indices of mineralization were found; the results obtained permit to speak only of a trend towards a decreased mineralization compared to the control.  Meanwhile, a significant deterioration of mechanical bone properties (bone as a material) was observed.  The preliminary analysis of the cyclic compression results revealed significant differences in the bone tissue behavior after  the 9-day period of the postflight adaptation; these differences might be attributed to the increase of the low mineralized young structures' content in bone tissue.",
+  "indexed": "2026-08-31T22:16:57.805Z",
+  "GUID": "cl62axdbcccwk01o67af965ix",
+  "__model_type": "lsda_experiment",
+  "discipline_type": "N/A",
+  "__dirid": "8b84b1b1-e71b-5444-adc1-e1e9ab97f391",
+  "__record_size_wo_doccontent": 47222,
+  "experiment_parms_tissue2": "NULL",
+  "experiment_parms_tissue1": "NULL",
+  "__update_method": "Update Data",
+  "archive_status_index": 1,
+  "experiment_type_lk": [
+   "Shuttle Life Sciences Research (Spacelab)"
+  ],
+  "__record_modified_date": "2026-08-31T22:16:57.805Z",
+  "__indexed": "2026-08-31T22:16:57.805Z",
+  "session_type": "Basal",
+  "__record_creation_date": "2022-07-28T19:53:06.719Z",
+  "__record_size": 47222,
+  "__model_version": 423,
+  "payload_id": "SLS-1",
+  "CombinedSpecies": [
+   [
+    "Rat (Rattus norvegicus) Sprague-Dawley"
+   ]
+  ],
+  "agency": [
+   "Russian Space Agency (RSA)"
+  ],
+  "experiment_id": "SLS1 BSP2",
+  "experiment_related": [
+   "No related"
+  ],
+  "parameter_name": [
+   "Activity, motor, Rat, Microgravity, SLS-1 (counts)",
+   "Volume, Femur, bone, rat, Physical measurements",
+   "Biomechanics, femur",
+   "Bone loading, femur",
+   "Bone mineralization, femur",
+   "Bone porosity, femur"
+  ],
+  "exp_index": 18,
+  "research_area": [
+   "Skeletal physiology"
+  ],
+  "protocol_approach": "Synchronous control",
+  "pme_role_with_name": [
+   "ARC Assistant Payload Scientist: Hinds, William",
+   "ARC BSP Project Scientist: Ballard, Rodney",
+   "ARC BSP Project Scientist: Connolly, James",
+   "ARC Deputy Payload Manager: Creager, Roy",
+   "ARC Deputy Payload Scientist: Meylor, John",
+   "ARC Experiment Support Scientist: Hawes, Nichola",
+   "ARC Payload Manager: Dalton, Bonnie",
+   "ARC Payload Scientist: Jahns, Gary",
+   "Co-Investigator: Morey- Holton, Emily",
+   "Principal Investigator: Bakulin, A."
+  ],
+  "missions": [
+   [
+    [
+     "STS-40"
+    ]
+   ]
+  ],
+  "PI": [
+   "Bakulin, A."
+  ],
+  "_file_extension": [],
+  "experiment_identifier": [
+   "SLS1 BSP2"
+  ],
+  "mission_id": [
+   [
+    [
+     "STS-40"
+    ]
+   ]
+  ],
+  "center": [
+   "Ames Research Center"
+  ],
+  "ncindex": [
+   7
+  ],
+  "proposal_date": [],
+  "species": [
+   "Rat"
+  ],
+  "PrincipalInvestigator": [
+   "Bakulin, A."
+  ],
+  "program_name": [
+   "Shuttle Program"
+  ],
+  "archive_status": "Data preservation is complete. All datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Shuttle Program",
+  "__source_field_concat": "Basal SLS-1 cl62axdbcccwk01o67af965ix Bone mineralization NULL NULL N/A  Synchronous control N/A Bone Biomechanics SLS1 BSP2 Shuttle Program Data preservation is complete. All datasets are publicly available.",
+  "__icon_type": "rat",
+  "__description": "<B>Objectives:</B><P>Study of mechanical properties of mammalian bones performed previously in Cosmos flights and ground-based simulation experiments has demonstrated variations in bone strength and deformability during and after exposure to microgravity.  This experiment was to study mineralization parameters and mechanical properties of bones in response to repeated cyclic loading in rats after space flight.<P><B>Approach:</B><P>Bone mechanical properties were examined using samples prepared from the head of femur.  The stress-deformation curve was recorded simultaneously with sample compression in every cycle.  Tests were discontinued when the sample was destroyed.  Proximal and distal epiphysis of the femur were put into 100% ethanol to determine porosity.  Samples were then exposed to dry  ashing and the ash residue was weighed for volume content of the mineral component in bone. <P> <B>Results:</B><P>No significant changes of the general indices of mineralization were found; the results obtained permit to speak only of a trend towards a decreased mineralization compared to the control.  Meanwhile, a significant deterioration of mechanical bone properties (bone as a material) was observed.  The preliminary analysis of the cyclic compression results revealed significant differences in the bone tissue behavior after  the 9-day period of the postflight adaptation; these differences might be attributed to the increase of the low mineralized young structures' content in bone tissue.",
+  "__doi": "10.83263/hhge-4g95",
+  "__doi_record_creation_date": "2026-08-23T03:52:11",
+  "__doi_record_modified_date": "2026-08-23T03:52:11"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001396",
+   "label": "AINV0000000279",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Spacelab Life Sciences 1 Research Subject Treatments",
+    "dataset_catalog": "AINV0000000279",
+    "dataset_description": [
+     "This spreadsheet contains research subject treatment information by the collection phase, collection day, hardware, rat #, animal ID, session/type, caging conditions, biospecimen label code, injections, and description."
+    ],
+    "processing_level": "",
+    "experiment_id": [
+     "178012 1_2",
+     "178127 1_3",
+     "178141 1_2",
+     "178194 1_2",
+     "178238 1_2",
+     "178247",
+     "178303 1_2",
+     "SLS1 BSP1",
+     "SLS1 BSP10",
+     "SLS1 BSP11",
+     "SLS1 BSP12",
+     "SLS1 BSP13",
+     "SLS1 BSP14",
+     "SLS1 BSP15",
+     "SLS1 BSP16",
+     "SLS1 BSP17",
+     "SLS1 BSP18",
+     "SLS1 BSP19",
+     "SLS1 BSP2",
+     "SLS1 BSP21",
+     "SLS1 BSP25",
+     "SLS1 BSP3",
+     "SLS1 BSP4",
+     "SLS1 BSP5",
+     "SLS1 BSP6",
+     "SLS1 BSP7",
+     "SLS1 BSP8",
+     "SLS1 BSP9",
+     "SLS1 Proj"
+    ]
+   },
+   "meta": "29 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "6c3d66cf-c5eb-5b5d-80c6-0cf55f1bfbcf",
+     "label": "Treatmnt.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ee32d1b3-3d47-5d41-a4eb-4c3d9511a700",
+     "label": "Treatmnt.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "08635fd3-ad23-56bb-9b4d-f31380c18a6c",
+     "label": "Treatmnt.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "06bb9447-4f9f-5ba7-b644-ba16b5016f5e",
+     "label": "Treatmnt.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d50aaaa2-e14e-5b29-a37e-142d015c2b1c",
+     "label": "Treatmnt.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8bc42685-28fe-5191-9491-ba4f88702bfb",
+     "label": "Treatmnt.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "513f1aae-537b-5569-bbdf-2e2fac181835",
+     "label": "Treatmnt.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c975ea8c-b81f-54d3-a7d0-819ae9abe756",
+     "label": "Treatmnt.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4c57d593-e2fd-5759-ad0b-3586fd2e309a",
+     "label": "Treatmnt.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a5dd38b4-9145-5fb9-8527-4ebbee066d3d",
+     "label": "Treatmnt.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "654334e5-3977-5137-9422-8021e78a7a06",
+     "label": "Treatmnt.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "82aba4ab-e42e-5c14-9bd7-6461810729b1",
+     "label": "Treatmnt.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7f764c11-b24c-57ce-81b4-f200d2f43841",
+     "label": "Treatmnt.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f3f82510-531b-51c1-9afe-a3df63b924dc",
+     "label": "Treatmnt.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2887c97f-d0eb-5c2f-9a3f-34ed2a495c83",
+     "label": "Treatmnt.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8e1c091b-1754-583f-87da-f386adaa3304",
+     "label": "Treatmnt.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1d278064-08ff-5894-99f5-aca144a3ba39",
+     "label": "Treatmnt.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4934f88d-4927-51d0-b8ff-82118ff4e3e9",
+     "label": "Treatmnt.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9b8f6a61-d211-5e4a-9b7a-531468b55ad8",
+     "label": "Treatmnt.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "61ad5a3d-6684-5b2e-808c-27e1b9c2c7c1",
+     "label": "Treatmnt.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "629758af-eb1a-50d0-adc5-02cf34d87a37",
+     "label": "Treatmnt.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2c175842-82a7-5377-83a8-dae85f024978",
+     "label": "Treatmnt.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ade97b90-6faa-5755-a3b5-e15734cc6042",
+     "label": "Treatmnt.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f019e6bc-5d8f-5270-9b02-8ac6afa36773",
+     "label": "Treatmnt.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6c660ee4-8a25-5f1b-b70b-edc9722730a2",
+     "label": "Treatmnt.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e48433fc-d820-5fdf-9f34-3822a3a60a7f",
+     "label": "Treatmnt.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2435df53-7b11-5f53-a996-ad975e3c0558",
+     "label": "Treatmnt.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1abf297a-02f3-5a88-ab1a-eb4e905c8c58",
+     "label": "Treatmnt.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "81ae9d47-ce1c-5fb4-b391-8403410e042b",
+     "label": "Treatmnt.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000802",
+   "label": "AINV0000000022",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "SLS-1 (Day 164) Orbiter Middeck Temperature Spreadsheet, Launch+8 (L+8), Julian Day 164",
+    "dataset_catalog": "AINV0000000022",
+    "dataset_description": [
+     "Spreadsheet contains downlink orbiter middeck data.   Measurements are followed by the spreadsheet column headings in ( ):<br/>Greenwich Mean Time (GMT)<br/>Temperature in degrees centigrade (TEMP DEGC)<br/>Relative humidity (RHUM PCT)<br/>Carbon dioxide parts per million (CO2 PPM), Oxygen measured in millimeters of mercury (02-A MMHG, 02-B MMHG, 02-C MMHG)<br/>Total atmospheric pressure measured in millimeters of mercury (Total MMHG)."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "178012 1_2",
+     "178127 1_3",
+     "178141 1_2",
+     "178194 1_2",
+     "178238 1_2",
+     "178247",
+     "178303 1_2",
+     "SLS1 BSP1",
+     "SLS1 BSP10",
+     "SLS1 BSP11",
+     "SLS1 BSP12",
+     "SLS1 BSP13",
+     "SLS1 BSP14",
+     "SLS1 BSP15",
+     "SLS1 BSP16",
+     "SLS1 BSP17",
+     "SLS1 BSP18",
+     "SLS1 BSP19",
+     "SLS1 BSP2",
+     "SLS1 BSP21",
+     "SLS1 BSP25",
+     "SLS1 BSP3",
+     "SLS1 BSP4",
+     "SLS1 BSP5",
+     "SLS1 BSP6",
+     "SLS1 BSP7",
+     "SLS1 BSP8",
+     "SLS1 BSP9",
+     "SLS1 Proj"
+    ]
+   },
+   "meta": "29 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "af9da45d-5e0c-51d7-8aee-43ffc2862c47",
+     "label": "COMB164.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f88acd08-6294-5dab-8056-9941871b615f",
+     "label": "COMB164.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5712f40e-845a-5f17-9c30-cf7b5505c665",
+     "label": "COMB164.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "87065da0-049e-5ba7-9ad1-cfa3915c273d",
+     "label": "COMB164.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "40bfe304-fa6f-500b-a371-01e0cf13e274",
+     "label": "COMB164.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "51324160-4be1-5a46-a440-4309fa7e7c9c",
+     "label": "COMB164.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "861dd7b1-65e4-51c0-8f3e-ddb48e2365be",
+     "label": "COMB164.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6da8b3f1-f451-5d18-99b6-5449bbaf6490",
+     "label": "COMB164.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "88cdb8ad-8aa6-5dca-bf11-cb653d68bef2",
+     "label": "COMB164.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5f6d4ea0-85bf-5d8c-9028-42f74a90bf93",
+     "label": "COMB164.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6e84e653-9131-52e5-8d19-b89f6e9cb35c",
+     "label": "COMB164.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1823c59a-ecfa-57e9-95e0-6c0726e2aded",
+     "label": "COMB164.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "17864030-11f8-5261-99eb-a9361a853cb8",
+     "label": "COMB164.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8e8210cb-612a-5447-9fec-6f93eb0d7084",
+     "label": "COMB164.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "056cdcfa-0dad-5aa7-a24f-0b01c891d176",
+     "label": "COMB164.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "fc52ca21-5509-5181-b6ef-985773b034aa",
+     "label": "COMB164.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7c44abf6-345c-5734-adc3-3b75498d523a",
+     "label": "COMB164.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7386148a-7585-5380-bcd0-eff334f25279",
+     "label": "COMB164.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0dd703ff-c6f9-57b5-ab92-3b423876916c",
+     "label": "COMB164.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d84087b9-dbb9-557f-8a9f-c099f34a3f3b",
+     "label": "COMB164.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8b601de4-8a37-582f-b8d3-170c5b7fbee8",
+     "label": "COMB164.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5d452c70-11bd-5c05-83be-7c6ae01d4d5b",
+     "label": "COMB164.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5bf6c4eb-ed12-5b49-970c-7f34c7ece5a6",
+     "label": "COMB164.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f54b6c67-304a-5d71-98aa-980094414a09",
+     "label": "COMB164.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6606b3fe-b254-5d29-874e-42bcc59c9509",
+     "label": "COMB164.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7358d8d4-b8fa-5947-8256-cd65b1f30385",
+     "label": "COMB164.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "666f35aa-20e2-58f5-b12c-76c2353f8ae4",
+     "label": "COMB164.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "fcf4eeae-2310-59f7-bda7-f5e46c4efb23",
+     "label": "COMB164.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "66328c40-ed11-59ab-9e41-23f05ed99232",
+     "label": "COMB164.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002122",
+   "label": "AINV0000000159",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Organ Weights, Animal Enclosure Module (AEM) Animals",
+    "dataset_catalog": "AINV0000000159",
+    "dataset_description": [
+     "The spreadsheet contains organ weights in grams indexed to 100 grams of body weight for the AEM flight and ground control animals during the flight and DFPT phases."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "178012 1_2",
+     "178127 1_3",
+     "178141 1_2",
+     "178194 1_2",
+     "178238 1_2",
+     "178247",
+     "178303 1_2",
+     "SLS1 BSP1",
+     "SLS1 BSP10",
+     "SLS1 BSP11",
+     "SLS1 BSP12",
+     "SLS1 BSP13",
+     "SLS1 BSP14",
+     "SLS1 BSP15",
+     "SLS1 BSP16",
+     "SLS1 BSP17",
+     "SLS1 BSP18",
+     "SLS1 BSP19",
+     "SLS1 BSP2",
+     "SLS1 BSP21",
+     "SLS1 BSP25",
+     "SLS1 BSP3",
+     "SLS1 BSP4",
+     "SLS1 BSP5",
+     "SLS1 BSP6",
+     "SLS1 BSP7",
+     "SLS1 BSP8",
+     "SLS1 BSP9",
+     "SLS1 Proj"
+    ]
+   },
+   "meta": "29 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "d731b3ab-9f3a-55fc-908f-d55793b6beb4",
+     "label": "OrgnWt_A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3ebc7fdb-d19d-53e6-8292-e7dd8ea849f0",
+     "label": "OrgnWt_A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f906afae-9d7f-5bd8-ba74-3840b6d80508",
+     "label": "OrgnWt_A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "733e8575-d602-5715-985c-1907a1aa10a0",
+     "label": "OrgnWt_A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "db3b13d3-dca2-50a8-bfdd-c57c713c5f37",
+     "label": "OrgnWt_A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ca16c58f-1913-5cf9-b7f8-bf064fd4ebbb",
+     "label": "OrgnWt_A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "718ccf7a-0900-5dc6-9528-68d1a2bbd71e",
+     "label": "OrgnWt_A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "90a37e0d-bb12-5f83-a4b6-4dfa83aaab05",
+     "label": "OrgnWt_A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "909e48d9-2817-5190-a8ce-57104926f591",
+     "label": "OrgnWt_A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2d3938c8-2cbb-534a-9830-1b8698793adf",
+     "label": "OrgnWt_A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d1a717d2-b1e5-5c5f-ae66-b93c4d1936a8",
+     "label": "OrgnWt_A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3e558b34-030e-521e-a9b1-703f30ae0376",
+     "label": "OrgnWt_A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "bbad26f3-edf7-5a60-855d-ab000b7c94eb",
+     "label": "OrgnWt_A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f30e6dca-8683-55d2-bd46-ccaa0f54a7c9",
+     "label": "OrgnWt_A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "fb0ff6b4-900c-57b5-a450-b0f54d19c23f",
+     "label": "OrgnWt_A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "57e0049f-4920-574a-8880-960174b55d72",
+     "label": "OrgnWt_A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "bbb5afcb-ea04-5b0b-ac5f-f889d386e65c",
+     "label": "OrgnWt_A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b70ca190-0ecf-58d1-ad9d-1a7b40197bbc",
+     "label": "OrgnWt_A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "bb7b807a-fceb-5442-86f8-46cb80aa05f1",
+     "label": "OrgnWt_A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "80f1c03e-af21-5607-b649-4617e77dbd91",
+     "label": "OrgnWt_A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a33a8189-34c5-5754-89d5-455d7a0d646c",
+     "label": "OrgnWt_A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "19859c44-af28-5493-9460-8a1a60e8157d",
+     "label": "OrgnWt_A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2d99c6d6-3ccb-5595-a5ff-5a2c5cacb915",
+     "label": "OrgnWt_A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0197ff0b-ef7f-5503-a808-6c450c05fedf",
+     "label": "OrgnWt_A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "091badf6-d75c-54e9-b2b5-7270d4e7e39a",
+     "label": "OrgnWt_A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9b886681-87a1-5964-9afa-e0eb063f59bf",
+     "label": "OrgnWt_A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f86a2d9f-9bf5-5852-ab8a-951cc41a332a",
+     "label": "OrgnWt_A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ccb56d1c-d0de-59a7-a6c7-3a9b19b0dfb5",
+     "label": "OrgnWt_A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "04729ac5-b93b-52de-84ad-c55753572257",
+     "label": "OrgnWt_A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001274",
+   "label": "AINV0000000014",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "SLS-1 (Day 156) Orbiter Middeck Temperature Spreadsheet, Launch+0 (L+0), Julian Day 156",
+    "dataset_catalog": "AINV0000000014",
+    "dataset_description": [
+     "Spreadsheet contains downlink orbiter middeck data.   Measurements are followed by the spreadsheet column headings in ( ):<br/>Greenwich Mean Time (GMT)<br/>Temperature in degrees centigrade (TEMP DEGC)<br/>Relative humidity (RHUM PCT)<br/>Carbon dioxide parts per million (CO2 PPM), Oxygen measured in millimeters of mercury (02-A MMHG, 02-B MMHG, 02-C MMHG)<br/>Total atmospheric pressure measured in millimeters of mercury (Total MMHG)."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "178012 1_2",
+     "178127 1_3",
+     "178141 1_2",
+     "178194 1_2",
+     "178238 1_2",
+     "178247",
+     "178303 1_2",
+     "SLS1 BSP1",
+     "SLS1 BSP10",
+     "SLS1 BSP11",
+     "SLS1 BSP12",
+     "SLS1 BSP13",
+     "SLS1 BSP14",
+     "SLS1 BSP15",
+     "SLS1 BSP16",
+     "SLS1 BSP17",
+     "SLS1 BSP18",
+     "SLS1 BSP19",
+     "SLS1 BSP2",
+     "SLS1 BSP21",
+     "SLS1 BSP25",
+     "SLS1 BSP3",
+     "SLS1 BSP4",
+     "SLS1 BSP5",
+     "SLS1 BSP6",
+     "SLS1 BSP7",
+     "SLS1 BSP8",
+     "SLS1 BSP9",
+     "SLS1 Proj"
+    ]
+   },
+   "meta": "29 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "8fca721b-fe4f-50ac-94da-033d054f484b",
+     "label": "COMB156.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4f3b9d11-5da6-5711-a733-2b7bd7ee24ff",
+     "label": "COMB156.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a0d7d73f-5200-525f-8bde-671e89d8dab7",
+     "label": "COMB156.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5e76804d-1af9-538d-b641-b15f70fb8f6e",
+     "label": "COMB156.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3d55526f-77d7-5c67-bfbb-522e4e4f596c",
+     "label": "COMB156.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "009103d7-a700-5a33-90c5-1a1aad054a50",
+     "label": "COMB156.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7cc3bc58-3f19-5c9b-88d2-11134897fdde",
+     "label": "COMB156.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ca141e0c-c196-5292-b1d3-0e4613fc45d9",
+     "label": "COMB156.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "78c6fad0-5f28-544f-8167-43f38224aae8",
+     "label": "COMB156.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8b104dfa-1ec4-5c50-8cb2-be59d6a67d16",
+     "label": "COMB156.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "01d3812d-69dd-5941-bf74-f2a0ea848eee",
+     "label": "COMB156.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6317933a-306f-513d-8596-43af06bd2f38",
+     "label": "COMB156.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5eed74d3-39b2-5909-8e0e-085d39c58972",
+     "label": "COMB156.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "58207da7-d546-516e-96c3-18890ce3c424",
+     "label": "COMB156.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d57cb382-c224-5a88-a6be-7a97d0ed81d7",
+     "label": "COMB156.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "68fb92de-e8dc-541a-a34c-ec0c698186da",
+     "label": "COMB156.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e04baf89-5ec6-5283-8aaf-7f8d841ae548",
+     "label": "COMB156.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b5ca6fa0-2f1b-5dd7-987a-a1fee69eabcc",
+     "label": "COMB156.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b9d2e303-70b8-5d22-9ee3-da070fe9a9db",
+     "label": "COMB156.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-08-04",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7970b635-262f-5840-a61c-9e9f7af9b355",
+     "label": "COMB156.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-08-04",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "fb503cfd-95c3-5549-b2ca-611bd1ba6d3c",
+     "label": "COMB156.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "066803a8-7605-5da0-bed2-c7f8d0d20cd2",
+     "label": "COMB156.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7b0ce6c7-5f77-5d2c-ad77-e27bbf80e8dc",
+     "label": "COMB156.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "004c14df-dcf8-528a-b844-4aba23afe402",
+     "label": "COMB156.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b7b7d9db-9f23-525b-96dd-539798554b59",
+     "label": "COMB156.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6f16560b-ed49-5be2-b15e-c301789f8a8f",
+     "label": "COMB156.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0678f6f0-34e2-5c12-8303-602bea3ddeb4",
+     "label": "COMB156.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5bde8082-eda9-54e0-a764-776da9d48a90",
+     "label": "COMB156.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9cedb503-5f25-5a1f-9335-578b62388abe",
+     "label": "COMB156.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001598",
+   "label": "AINV0000000028",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Animal Enclosure Module (AEM), Serial Number 001, Temperature Data, Ground Control",
+    "dataset_catalog": "AINV0000000028",
+    "dataset_description": [
+     "Rodent Flight Group B, LCG2<br/>Initial set-up date: 6-2-91<br/>ATR #10A used, placed in AEM serial number 001<br/>Spreadsheet column headings: Item #, Day, GMT, Temperature."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "178012 1_2",
+     "178127 1_3",
+     "178141 1_2",
+     "178194 1_2",
+     "178238 1_2",
+     "178247",
+     "178303 1_2",
+     "SLS1 BSP1",
+     "SLS1 BSP10",
+     "SLS1 BSP11",
+     "SLS1 BSP12",
+     "SLS1 BSP13",
+     "SLS1 BSP14",
+     "SLS1 BSP15",
+     "SLS1 BSP16",
+     "SLS1 BSP17",
+     "SLS1 BSP18",
+     "SLS1 BSP19",
+     "SLS1 BSP2",
+     "SLS1 BSP21",
+     "SLS1 BSP25",
+     "SLS1 BSP3",
+     "SLS1 BSP4",
+     "SLS1 BSP5",
+     "SLS1 BSP6",
+     "SLS1 BSP7",
+     "SLS1 BSP8",
+     "SLS1 BSP9",
+     "SLS1 Proj"
+    ]
+   },
+   "meta": "29 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "d414d253-a6cd-5666-ab35-79c8c31d0434",
+     "label": "41AEM10A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1b78a20f-b753-5f5e-ae6f-359a9d50bab7",
+     "label": "41AEM10A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f8ae8d57-3104-56a6-a22d-1ac71105267e",
+     "label": "41AEM10A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "68e4ff73-5256-555c-927d-a97faa81195f",
+     "label": "41AEM10A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "45e14146-5fa5-5104-9616-5f3b5eeb068f",
+     "label": "41AEM10A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a822fd5a-dcf6-5f58-bcdf-782be667a101",
+     "label": "41AEM10A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ffe19b41-b56d-5039-b0ad-7d422f71e0a9",
+     "label": "41AEM10A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3d270671-dd05-5910-9309-e084cec8c2f6",
+     "label": "41AEM10A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e23572b2-1664-58fd-a27d-aff859318128",
+     "label": "41AEM10A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "711a771b-f4b2-53ba-beba-32e60989888c",
+     "label": "41AEM10A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6e3ef879-c3e7-565c-bd2d-4df81ccd7f0c",
+     "label": "41AEM10A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "146d8006-d169-5c0e-954f-dde0cb88366f",
+     "label": "41AEM10A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "286134b1-95c4-5953-a8e9-835a29397292",
+     "label": "41AEM10A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d36c42dc-8dbc-562f-9953-df3264305d79",
+     "label": "41AEM10A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "24ff4ca2-060c-5c2a-812b-bb4b04a54956",
+     "label": "41AEM10A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ebe9693b-583f-56c8-bb70-82c2fc0cb714",
+     "label": "41AEM10A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "be796df3-8490-5c16-a015-94473496ed9b",
+     "label": "41AEM10A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "acaf47a0-33e0-5034-ab36-096d69542c23",
+     "label": "41AEM10A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "299f4014-37e2-5dfa-b7af-f6fa96277a99",
+     "label": "41AEM10A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7f1d967c-5478-5cf6-b477-d9084904972b",
+     "label": "41AEM10A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "56ac1d06-351c-523c-8ba3-43ae1c3de5d0",
+     "label": "41AEM10A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a78056c9-965b-56da-8f7c-1cfc2528e19c",
+     "label": "41AEM10A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7d1c798e-658b-56b1-93ea-045d9ac790ee",
+     "label": "41AEM10A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9e52600e-5bfa-5ec7-bb23-217532102387",
+     "label": "41AEM10A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5f6f300d-73a2-5282-b823-eab087f1a0cc",
+     "label": "41AEM10A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3bb35a26-9ecd-57e9-8aac-a42cd9359636",
+     "label": "41AEM10A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "732a1dbb-f09a-5fc2-b6d2-a60e0edaf9c2",
+     "label": "41AEM10A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "fd90d946-20a4-57a6-8be7-b514357cbc07",
+     "label": "41AEM10A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e5157ebc-e638-52ba-b4c7-f5a0c68a2957",
+     "label": "41AEM10A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002046",
+   "label": "AINV0000000030",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Animal Enclosure Module (AEM) Room Temperature Data, Ground",
+    "dataset_catalog": "AINV0000000030",
+    "dataset_description": [
+     "Initial setup date:  6-2-91<br/>ATR #16A used<br/>Spreadsheet column headings: Item #, Day, GMT, Temperature."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "178012 1_2",
+     "178127 1_3",
+     "178141 1_2",
+     "178194 1_2",
+     "178238 1_2",
+     "178247",
+     "178303 1_2",
+     "SLS1 BSP1",
+     "SLS1 BSP10",
+     "SLS1 BSP11",
+     "SLS1 BSP12",
+     "SLS1 BSP13",
+     "SLS1 BSP14",
+     "SLS1 BSP15",
+     "SLS1 BSP16",
+     "SLS1 BSP17",
+     "SLS1 BSP18",
+     "SLS1 BSP19",
+     "SLS1 BSP2",
+     "SLS1 BSP21",
+     "SLS1 BSP25",
+     "SLS1 BSP3",
+     "SLS1 BSP4",
+     "SLS1 BSP5",
+     "SLS1 BSP6",
+     "SLS1 BSP7",
+     "SLS1 BSP8",
+     "SLS1 BSP9",
+     "SLS1 Proj"
+    ]
+   },
+   "meta": "29 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "3bc9bf78-1b0c-5114-8590-6aa80679385d",
+     "label": "41AEM16A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ad9db090-b7bc-5815-8c5e-91ad6f36b63b",
+     "label": "41AEM16A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e52c89a6-09de-57fa-9e8c-958152f9f87e",
+     "label": "41AEM16A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a9d8fc09-1798-5f8b-b040-a33eb89528db",
+     "label": "41AEM16A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9e1a356b-c584-5e5e-8bf1-6af3cb28ef46",
+     "label": "41AEM16A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "dea7c6ec-4e04-57cc-9151-64c98f3c10ad",
+     "label": "41AEM16A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8ea1471e-6c6a-5930-8661-f4feb99d0e47",
+     "label": "41AEM16A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1ad26de1-eec1-5925-b8be-4c43a6de1cc0",
+     "label": "41AEM16A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "44a07439-9179-5b32-9758-8c19d1bf2440",
+     "label": "41AEM16A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a6966119-43fb-542d-9a49-45ffedde0c73",
+     "label": "41AEM16A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "43f40782-d399-5dae-9f14-2050f51add17",
+     "label": "41AEM16A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "bc14cb22-2f99-5e89-a45a-134b03884103",
+     "label": "41AEM16A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e8750cd2-e321-5209-9247-1664aa1d9395",
+     "label": "41AEM16A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "957c5903-5684-5bb3-afd0-31bb156977fa",
+     "label": "41AEM16A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6e934972-7129-5d80-937e-2ec346690b99",
+     "label": "41AEM16A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2caeece2-fdac-5b58-b7ca-d472782262ec",
+     "label": "41AEM16A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3b8ed809-97b7-59eb-9c47-7f1573765ec5",
+     "label": "41AEM16A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "93529428-2a79-556d-a10f-b44f86b4b550",
+     "label": "41AEM16A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "383fe8a5-2a65-5765-a156-57ee06dd03ce",
+     "label": "41AEM16A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e5fe731b-a987-5408-a950-e6494a42610f",
+     "label": "41AEM16A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "491f4a1e-3abc-5c93-bb91-0b6f54895862",
+     "label": "41AEM16A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "402c3f2a-b919-5950-a3e5-4d9545b2b7d2",
+     "label": "41AEM16A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "395f1aea-1c93-5834-a85c-524149433e98",
+     "label": "41AEM16A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "88a0a0cd-455c-59c3-91f5-3440376c64ad",
+     "label": "41AEM16A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8b08b670-cd43-5b33-b2bb-871a04be613f",
+     "label": "41AEM16A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "52b23727-ab03-581f-8d31-19d6a8ebb889",
+     "label": "41AEM16A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "70354dde-d5b8-5a55-92d6-6ca38f557485",
+     "label": "41AEM16A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "07c76593-6cd2-54ca-9ad0-0ed03f292255",
+     "label": "41AEM16A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "86680027-a855-52b2-ad8a-97817eaa6d32",
+     "label": "41AEM16A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000419",
+   "label": "AINV0000000023",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "SLS-1 (Day 165) Orbiter Middeck Temperature Spreadsheet, Launch+9 (L+9), Julian Day 165",
+    "dataset_catalog": "AINV0000000023",
+    "dataset_description": [
+     "Spreadsheet contains downlink orbiter middeck data.   Measurements are followed by the spreadsheet column headings in ( ):<br/>Greenwich Mean Time (GMT)<br/>Temperature in degrees centigrade (TEMP DEGC)<br/>Relative humidity (RHUM PCT)<br/>Carbon dioxide parts per million (CO2 PPM), Oxygen measured in millimeters of mercury (02-A MMHG, 02-B MMHG, 02-C MMHG)<br/>Total atmospheric pressure measured in millimeters of mercury (Total MMHG)."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "178012 1_2",
+     "178127 1_3",
+     "178141 1_2",
+     "178194 1_2",
+     "178238 1_2",
+     "178247",
+     "178303 1_2",
+     "SLS1 BSP1",
+     "SLS1 BSP10",
+     "SLS1 BSP11",
+     "SLS1 BSP12",
+     "SLS1 BSP13",
+     "SLS1 BSP14",
+     "SLS1 BSP15",
+     "SLS1 BSP16",
+     "SLS1 BSP17",
+     "SLS1 BSP18",
+     "SLS1 BSP19",
+     "SLS1 BSP2",
+     "SLS1 BSP21",
+     "SLS1 BSP25",
+     "SLS1 BSP3",
+     "SLS1 BSP4",
+     "SLS1 BSP5",
+     "SLS1 BSP6",
+     "SLS1 BSP7",
+     "SLS1 BSP8",
+     "SLS1 BSP9",
+     "SLS1 Proj"
+    ]
+   },
+   "meta": "29 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "4fad6f1f-85d5-5542-b723-a73522426ddb",
+     "label": "COMB165.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d33af40b-eb4f-52b3-8d1a-1638ab77ccac",
+     "label": "COMB165.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "da5cfaa3-4128-52e1-83e2-1886002f0658",
+     "label": "COMB165.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "185f2c3d-7639-50a4-83cb-9b55c6f6e095",
+     "label": "COMB165.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "dedf6d91-b0cf-545b-bf3e-883f7af64b52",
+     "label": "COMB165.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "59178009-eb8c-589a-befd-1e98c5eba9d0",
+     "label": "COMB165.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b9bbe8f3-8bb0-5ce7-b26f-0c512e21456c",
+     "label": "COMB165.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9efd4a3d-db74-5c41-988f-540319047213",
+     "label": "COMB165.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8655a052-97dc-5580-84b0-caea52cc1f52",
+     "label": "COMB165.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f62f6cea-d3ee-5bd4-9c8e-a9c7bbdce6aa",
+     "label": "COMB165.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "473abf0e-0b03-5de5-a0db-325dec80b5ae",
+     "label": "COMB165.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "48d90a14-33c8-5dcb-9721-f41f86d88758",
+     "label": "COMB165.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "51ea1d34-1da1-5570-bf2d-78635e2b5514",
+     "label": "COMB165.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "92768822-a261-5c76-b80f-7b7f33b09a78",
+     "label": "COMB165.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "501ff433-5000-5089-9166-4948b0eb684a",
+     "label": "COMB165.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "823e52fb-c3cf-5e31-917b-7af8541c702e",
+     "label": "COMB165.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "67c0e228-bcaf-5422-bd69-e96f54a51a47",
+     "label": "COMB165.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0445f0ff-e659-53cd-be04-7448758006e2",
+     "label": "COMB165.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a0ac28bd-3281-529a-9301-38a567f3e8d7",
+     "label": "COMB165.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d3c074a3-e113-5f8b-b3c6-8e31a1692ebe",
+     "label": "COMB165.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c4fcbd80-54e1-5a2e-831c-6883a44c29a5",
+     "label": "COMB165.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "54a667a5-e0ef-53a3-9eef-a84b54349853",
+     "label": "COMB165.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "bffbae56-f82b-55b2-8645-9e51fd1487a0",
+     "label": "COMB165.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "36a772e5-f3b8-5a10-9faa-6f0d378cb4bd",
+     "label": "COMB165.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "256ea2fb-1f75-5ca8-81e0-b5f61e1ed340",
+     "label": "COMB165.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "dd09c606-e3b3-5339-887d-5a15b9086dce",
+     "label": "COMB165.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4dd63539-8d60-5249-bdf4-a06192069834",
+     "label": "COMB165.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "459646b3-e5b6-542d-8463-6d8901269db0",
+     "label": "COMB165.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0f90f6d7-ea79-58ce-8aee-c0f651d1d73a",
+     "label": "COMB165.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002299",
+   "label": "AINV0000000017",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "SLS-1 (Day 159) Orbiter Middeck Temperature Spreadsheet, Launch+3 (L+3), Julian Day 159",
+    "dataset_catalog": "AINV0000000017",
+    "dataset_description": [
+     "Spreadsheet contains downlink orbiter middeck data.   Measurements are followed by the spreadsheet column headings in ( ):<br/>Greenwich Mean Time (GMT)<br/>Temperature in degrees centigrade (TEMP DEGC)<br/>Relative humidity (RHUM PCT)<br/>Carbon dioxide parts per million (CO2 PPM), Oxygen measured in millimeters of mercury (02-A MMHG, 02-B MMHG, 02-C MMHG)<br/>Total atmospheric pressure measured in millimeters of mercury (Total MMHG)."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "178012 1_2",
+     "178127 1_3",
+     "178141 1_2",
+     "178194 1_2",
+     "178238 1_2",
+     "178247",
+     "178303 1_2",
+     "SLS1 BSP1",
+     "SLS1 BSP10",
+     "SLS1 BSP11",
+     "SLS1 BSP12",
+     "SLS1 BSP13",
+     "SLS1 BSP14",
+     "SLS1 BSP15",
+     "SLS1 BSP16",
+     "SLS1 BSP17",
+     "SLS1 BSP18",
+     "SLS1 BSP19",
+     "SLS1 BSP2",
+     "SLS1 BSP21",
+     "SLS1 BSP25",
+     "SLS1 BSP3",
+     "SLS1 BSP4",
+     "SLS1 BSP5",
+     "SLS1 BSP6",
+     "SLS1 BSP7",
+     "SLS1 BSP8",
+     "SLS1 BSP9",
+     "SLS1 Proj"
+    ]
+   },
+   "meta": "29 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "284eab34-543e-552c-b944-2f104ea45c12",
+     "label": "COMB159.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1440a50e-2329-5707-a226-3a0c3917cc9c",
+     "label": "COMB159.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "84fae30f-99f1-5472-a5ff-7007ff54af24",
+     "label": "COMB159.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "83fa3d8d-0668-50c8-8043-8cf43c936ff7",
+     "label": "COMB159.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8c5e4612-d1a0-55df-9369-0f457d2726aa",
+     "label": "COMB159.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "df68d155-e6a2-5bdc-b05a-5806b8f7a656",
+     "label": "COMB159.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e97ebd0f-f1ee-5a96-8c74-2c3657f5c1d1",
+     "label": "COMB159.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "fe564167-0f25-516d-a03b-ab28549aea21",
+     "label": "COMB159.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "704a31db-47f8-5ce0-89cc-25d495a494d7",
+     "label": "COMB159.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e955e787-23a9-5734-bc2a-229acfaadf37",
+     "label": "COMB159.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a29dbacf-8739-591a-8e64-95323ab3f0a7",
+     "label": "COMB159.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0c992388-ff8a-5cfe-9029-21d836ce9f7e",
+     "label": "COMB159.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a3a5a840-d465-582c-9335-0f69a0d95e28",
+     "label": "COMB159.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0a89070c-daa6-5549-bed5-a3f93e321895",
+     "label": "COMB159.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "cb9af5ae-0400-5af4-a4d9-b9aff4a30bb4",
+     "label": "COMB159.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7affa00b-7d59-58c0-bc77-c10ccafb722b",
+     "label": "COMB159.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "09050a9e-8081-54e0-a584-f71983d62af3",
+     "label": "COMB159.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "061171b8-1767-5519-a52a-7abde836eb5d",
+     "label": "COMB159.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "56ce015a-d6e9-5807-bbf3-ce2378a2ec09",
+     "label": "COMB159.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "18e430f5-52af-5d9d-a5db-31b4ad2b633a",
+     "label": "COMB159.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "dd524a19-6691-53b1-99ce-8e8be6de44b1",
+     "label": "COMB159.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f0429f2f-b0a9-5866-9d35-cef6cba023df",
+     "label": "COMB159.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a7f786b4-4c06-57b0-b70f-59cc8fb99527",
+     "label": "COMB159.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0d5b3c7d-8502-58bc-aaf0-786c5f359cc0",
+     "label": "COMB159.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "195045f6-9fe5-56d9-a7ba-7b8bf61a12c4",
+     "label": "COMB159.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "bb72d1b1-703e-5324-85e0-acddfdcc135f",
+     "label": "COMB159.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "fc7aaf6c-ca22-5ade-8c84-28877df6fdde",
+     "label": "COMB159.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e06e2c9e-4295-5a0b-aec2-e54f686d256d",
+     "label": "COMB159.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d86e8dc6-bfe6-5a13-ad7c-6844f1980f4e",
+     "label": "COMB159.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000285",
+   "label": "AINV0000000619",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "SLS-1 Onboard Film",
+    "dataset_catalog": "AINV0000000619",
+    "dataset_description": [
+     "SLS-1 video list from the onboard camera"
+    ],
+    "processing_level": [],
+    "experiment_id": [
+     "178012 1_2",
+     "178127 1_3",
+     "178141 1_2",
+     "178194 1_2",
+     "178238 1_2",
+     "178247",
+     "178303 1_2",
+     "DCL_SLS_1",
+     "PCDT",
+     "SLS1 BSP1",
+     "SLS1 BSP10",
+     "SLS1 BSP11",
+     "SLS1 BSP12",
+     "SLS1 BSP13",
+     "SLS1 BSP14",
+     "SLS1 BSP15",
+     "SLS1 BSP16",
+     "SLS1 BSP17",
+     "SLS1 BSP18",
+     "SLS1 BSP19",
+     "SLS1 BSP2",
+     "SLS1 BSP20",
+     "SLS1 BSP21",
+     "SLS1 BSP25",
+     "SLS1 BSP3",
+     "SLS1 BSP4",
+     "SLS1 BSP5",
+     "SLS1 BSP6",
+     "SLS1 BSP7",
+     "SLS1 BSP8",
+     "SLS1 BSP9",
+     "SLS1 Proj",
+     "SMMI"
+    ]
+   },
+   "meta": "33 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "832a1ed1-9bfe-584e-bcbf-bf3faf0c90e9",
+     "label": "ONBD_FLM.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2f770958-3cb5-543c-936f-7d7a4ac32e99",
+     "label": "ONBD_FLM.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "47d2d05a-0ec6-5128-b383-80bf412a40c7",
+     "label": "ONBD_FLM.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "be7d658b-8563-5159-9a21-2259f2419ac9",
+     "label": "ONBD_FLM.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "51835207-314d-5358-a978-85c3aec58c7a",
+     "label": "ONBD_FLM.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "29c487cf-2a3e-5440-94d2-e77f3f0ef9ef",
+     "label": "ONBD_FLM.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "000ead2a-3262-5c66-87b1-e92cd57c8dc6",
+     "label": "ONBD_FLM.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d7632531-a39c-50a4-a342-6279bcfce2e1",
+     "label": "ONBD_FLM.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "909b234c-03f9-5818-861e-0a857e2e4765",
+     "label": "ONBD_FLM.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "48bdc7fd-4b9f-5958-b10c-ff8ff6e17fd5",
+     "label": "ONBD_FLM.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b1cb9f24-8ea1-592a-8eab-d2504f77a4d5",
+     "label": "ONBD_FLM.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3ea392d6-1c34-5869-8543-eb83232c0828",
+     "label": "ONBD_FLM.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "02479c75-4633-580b-8c17-ed8cc8bfc74d",
+     "label": "ONBD_FLM.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "bed7df53-6f8a-547a-a6f1-228b77490012",
+     "label": "ONBD_FLM.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "07021924-9850-599b-9116-7165cf0620e7",
+     "label": "ONBD_FLM.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "987803f6-d0ef-5949-9a59-5913dd5f58af",
+     "label": "ONBD_FLM.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f84f21a6-cc15-57ae-a573-149d8b342e8e",
+     "label": "ONBD_FLM.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2e06f410-5177-5d8e-a62f-a5dab842e19a",
+     "label": "ONBD_FLM.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5bdcfe3a-b1cc-50e7-b506-29ca16c24d5e",
+     "label": "ONBD_FLM.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "45701acd-0337-5b00-ae43-4e9fdaa0dd6a",
+     "label": "ONBD_FLM.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4723b5e8-b957-57a0-81b4-cdac8db00ac4",
+     "label": "ONBD_FLM.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0d990a66-272c-5c6a-ae0b-0d860d2651a8",
+     "label": "ONBD_FLM.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b2ec3434-1cf8-5203-b84e-05946f1794a5",
+     "label": "ONBD_FLM.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5c4ecc0e-00a3-58d8-afd2-9f8de5e478af",
+     "label": "ONBD_FLM.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "26c10805-1194-5d98-9f85-11b2d269e16e",
+     "label": "ONBD_FLM.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ff73b2d8-02a0-5628-939e-282a36656fe6",
+     "label": "ONBD_FLM.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e56e212a-2e56-55e8-b92c-d3f084aa2484",
+     "label": "ONBD_FLM.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f3f97933-917c-5c59-9477-1b7af901bae9",
+     "label": "ONBD_FLM.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "76e4aa36-9f07-5e50-9f68-1959650775a0",
+     "label": "ONBD_FLM.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ee02563f-0f8d-5697-85b9-2b47730e0a91",
+     "label": "ONBD_FLM.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8b3a96e0-1f3f-5b30-bd18-fdf41a5ef3c5",
+     "label": "ONBD_FLM.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d4892cdd-5ce2-5ee8-951d-38de962f3f5d",
+     "label": "ONBD_FLM.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "df39f866-eb7e-5797-86fa-c986e08058a9",
+     "label": "ONBD_FLM.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002142",
+   "label": "AINV0000000019",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "SLS-1 (Day 161) Orbiter Middeck Temperature Spreadsheet, Launch+5 (L+5), Julian Day 161",
+    "dataset_catalog": "AINV0000000019",
+    "dataset_description": [
+     "Spreadsheet contains downlink orbiter middeck data.   Measurements are followed by the spreadsheet column headings in ( ):<br/>Greenwich Mean Time (GMT)<br/>Temperature in degrees centigrade (TEMP DEGC)<br/>Relative humidity (RHUM PCT)<br/>Carbon dioxide parts per million (CO2 PPM), Oxygen measured in millimeters of mercury (02-A MMHG, 02-B MMHG, 02-C MMHG)<br/>Total atmospheric pressure measured in millimeters of mercury (Total MMHG)."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "178012 1_2",
+     "178127 1_3",
+     "178141 1_2",
+     "178194 1_2",
+     "178238 1_2",
+     "178247",
+     "178303 1_2",
+     "SLS1 BSP1",
+     "SLS1 BSP10",
+     "SLS1 BSP11",
+     "SLS1 BSP12",
+     "SLS1 BSP13",
+     "SLS1 BSP14",
+     "SLS1 BSP15",
+     "SLS1 BSP16",
+     "SLS1 BSP17",
+     "SLS1 BSP18",
+     "SLS1 BSP19",
+     "SLS1 BSP2",
+     "SLS1 BSP21",
+     "SLS1 BSP25",
+     "SLS1 BSP3",
+     "SLS1 BSP4",
+     "SLS1 BSP5",
+     "SLS1 BSP6",
+     "SLS1 BSP7",
+     "SLS1 BSP8",
+     "SLS1 BSP9",
+     "SLS1 Proj"
+    ]
+   },
+   "meta": "29 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "64118695-3069-543e-b1fb-58d0830461e0",
+     "label": "COMB161.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2a2252bc-eed6-5244-b98e-8e049febcffa",
+     "label": "COMB161.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2b9ec1a6-b75c-5a8b-a890-643468588eca",
+     "label": "COMB161.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5d99f148-2727-5235-9afa-a2475344fa09",
+     "label": "COMB161.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7e26d27f-1eba-5921-b881-7b5cba86ec19",
+     "label": "COMB161.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f1b0dba6-c9fb-5007-97ee-59f0ab95674c",
+     "label": "COMB161.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7e4c4f02-33df-555c-9cc7-ea88f7e0c939",
+     "label": "COMB161.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c033dfb8-1f8a-5c02-823b-94543ad33c7f",
+     "label": "COMB161.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f409eda7-570b-5ade-89e8-cd36e1c8d4da",
+     "label": "COMB161.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b0e7cec0-770d-51d4-9609-767fe0cd681d",
+     "label": "COMB161.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c891d0c4-9521-5bdc-9c4e-826f6a9b06b5",
+     "label": "COMB161.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6bb5afc0-392e-575f-a9da-c101175ba012",
+     "label": "COMB161.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "16d750a7-8138-5b0b-8cb2-b1adda1d2fbc",
+     "label": "COMB161.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6bd078bf-54fc-5205-b691-146bf1fa80f8",
+     "label": "COMB161.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8fd65e64-72c1-58d6-b039-b9656b558d1d",
+     "label": "COMB161.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2adf09e7-98c5-5af1-a30a-ba588a00c2b0",
+     "label": "COMB161.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "33975864-719b-546e-b2ef-0b60280a2e42",
+     "label": "COMB161.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7fac0a14-e4fa-555c-a7b5-caffef19119f",
+     "label": "COMB161.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7863a132-7f2e-5dc7-9676-06aa70c9f498",
+     "label": "COMB161.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a3e2d726-4469-5197-97b1-9bde94b1e012",
+     "label": "COMB161.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e4e4d024-ef4c-5d81-ad59-dcca0937d7df",
+     "label": "COMB161.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b624c2ab-5394-5aa5-a114-eddd32b3b613",
+     "label": "COMB161.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d3a688db-7501-5467-9c31-c0d45d7f9c18",
+     "label": "COMB161.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "91e6e8f8-c41f-5607-a828-fb11741b3043",
+     "label": "COMB161.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "413919e6-3743-548f-9902-2e31e2615c84",
+     "label": "COMB161.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "222b5ae6-9b3e-5762-a5fd-2d6693504408",
+     "label": "COMB161.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4b2d18b9-f46b-545c-93a9-98dad1136277",
+     "label": "COMB161.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5591e1d3-d519-5645-9ff3-8fd7ad047991",
+     "label": "COMB161.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "814f16d3-3809-5886-b27c-80c3eab44304",
+     "label": "COMB161.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002115",
+   "label": "AINV0000000015",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "SLS-1 (Day 157) Orbiter Middeck Temperature Spreadsheet, Launch+1 (L+1), Julian Day 157",
+    "dataset_catalog": "AINV0000000015",
+    "dataset_description": [
+     "Spreadsheet contains downlink orbiter middeck data.   Measurements are followed by the spreadsheet column headings in ( ):<br/>Greenwich Mean Time (GMT)<br/>Temperature in degrees centigrade (TEMP DEGC)<br/>Relative humidity (RHUM PCT)<br/>Carbon dioxide parts per million (CO2 PPM), Oxygen measured in millimeters of mercury (02-A MMHG, 02-B MMHG, 02-C MMHG)<br/>Total atmospheric pressure measured in millimeters of mercury (Total MMHG)."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "178012 1_2",
+     "178127 1_3",
+     "178141 1_2",
+     "178194 1_2",
+     "178238 1_2",
+     "178247",
+     "178303 1_2",
+     "SLS1 BSP1",
+     "SLS1 BSP10",
+     "SLS1 BSP11",
+     "SLS1 BSP12",
+     "SLS1 BSP13",
+     "SLS1 BSP14",
+     "SLS1 BSP15",
+     "SLS1 BSP16",
+     "SLS1 BSP17",
+     "SLS1 BSP18",
+     "SLS1 BSP19",
+     "SLS1 BSP2",
+     "SLS1 BSP21",
+     "SLS1 BSP25",
+     "SLS1 BSP3",
+     "SLS1 BSP4",
+     "SLS1 BSP5",
+     "SLS1 BSP6",
+     "SLS1 BSP7",
+     "SLS1 BSP8",
+     "SLS1 BSP9",
+     "SLS1 Proj"
+    ]
+   },
+   "meta": "29 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "10a113dc-6935-5819-a661-907405e55d59",
+     "label": "COMB157.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1772133c-bdc0-5896-bee7-40aa3f42187c",
+     "label": "COMB157.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "47759652-3e61-5016-8922-ea9911f2c162",
+     "label": "COMB157.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c0c7e6b9-68d7-5604-a5aa-3bc6c6b8f6c5",
+     "label": "COMB157.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "88900f0e-ad3c-5229-8022-2a3a81e47dce",
+     "label": "COMB157.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b6b090af-861d-58fe-9717-0a0f0e767e44",
+     "label": "COMB157.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8f759953-79ec-56ec-a8ce-fa14760ff00f",
+     "label": "COMB157.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9fe91a74-9403-58ec-a820-f145b05df218",
+     "label": "COMB157.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "69312f8c-a619-5da2-9205-8b2e25f41bea",
+     "label": "COMB157.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "28017c73-9506-533e-bba7-1d0c7e113a6b",
+     "label": "COMB157.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "be937420-b30c-5949-93f7-4d9157b7d8e2",
+     "label": "COMB157.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5e97f34f-8906-58ea-b273-910e6077c17d",
+     "label": "COMB157.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "22a2528a-b3be-58b1-b497-0040168de303",
+     "label": "COMB157.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7f1bec07-b269-5d6f-983a-a62243e19253",
+     "label": "COMB157.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f2d1b1ca-bda4-5f47-af7b-552eff8fe510",
+     "label": "COMB157.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "36c40617-70b1-5f87-a49b-084932e9027c",
+     "label": "COMB157.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "88cafaaa-9c95-51a6-8d84-c8277a941f09",
+     "label": "COMB157.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "782480a6-564c-5240-85cc-5d92c25b646e",
+     "label": "COMB157.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ad2f7575-1abb-5559-aeb1-4b2c56241b73",
+     "label": "COMB157.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f6b0def6-88a9-5d9c-8b7a-90799a722a0e",
+     "label": "COMB157.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "22b2b083-2142-57b0-9425-cdba957f7cc1",
+     "label": "COMB157.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "65afc9ed-a8ea-523f-bca6-10850d5b578b",
+     "label": "COMB157.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e01823a0-5071-5839-bb98-2308efd77eb3",
+     "label": "COMB157.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d17578f5-3851-51a4-bd45-adb25fd1223c",
+     "label": "COMB157.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3cc07fae-d5ce-5f6c-bcf8-cd5f04fcb3aa",
+     "label": "COMB157.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "faca5de2-1d79-59c9-b0a9-e599693c9f11",
+     "label": "COMB157.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "dc0c422b-9808-5a4d-86dd-03e4fdb329ee",
+     "label": "COMB157.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b905c871-a3a3-57ef-ba5a-0122a620f5f6",
+     "label": "COMB157.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a61ed553-6b48-501a-b402-cbc665658e6b",
+     "label": "COMB157.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001805",
+   "label": "AINV0000000032",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Animal Enclosure Module (AEM), Serial Number 003, Temperature Data, Flight",
+    "dataset_catalog": "AINV0000000032",
+    "dataset_description": [
+     "Rodent Flight Group B, LCG2<br/>Initial set-up date: 6-2-91<br/>ATR #22B used, placed in AEM serial number 002<br/>Spreadsheet column headings: Item #, Day, GMT, Temperature."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "178012 1_2",
+     "178127 1_3",
+     "178141 1_2",
+     "178194 1_2",
+     "178238 1_2",
+     "178247",
+     "178303 1_2",
+     "SLS1 BSP1",
+     "SLS1 BSP10",
+     "SLS1 BSP11",
+     "SLS1 BSP12",
+     "SLS1 BSP13",
+     "SLS1 BSP14",
+     "SLS1 BSP15",
+     "SLS1 BSP16",
+     "SLS1 BSP17",
+     "SLS1 BSP18",
+     "SLS1 BSP19",
+     "SLS1 BSP2",
+     "SLS1 BSP21",
+     "SLS1 BSP25",
+     "SLS1 BSP3",
+     "SLS1 BSP4",
+     "SLS1 BSP5",
+     "SLS1 BSP6",
+     "SLS1 BSP7",
+     "SLS1 BSP8",
+     "SLS1 BSP9",
+     "SLS1 Proj"
+    ]
+   },
+   "meta": "29 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "ef7ca778-0a22-5734-8f25-a8d324317456",
+     "label": "41AEM22B.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "72420ca1-eb7d-50eb-a453-3c37d257e431",
+     "label": "41AEM22B.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4bcfd5f4-fbfe-5e07-8f75-6ff9d1cf11f8",
+     "label": "41AEM22B.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3ca5bafb-d1d5-5071-84a7-59a64f3cc3c7",
+     "label": "41AEM22B.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "29101d34-d502-59ea-ad24-c95998a6d73b",
+     "label": "41AEM22B.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f9fb6779-f31f-5ad7-8b75-18762f7741b0",
+     "label": "41AEM22B.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b0069996-3f4d-5373-9974-abc0958e33a5",
+     "label": "41AEM22B.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "007b0b81-c0e3-5d62-8cfb-405495426e62",
+     "label": "41AEM22B.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3d6e7542-94cc-52fe-8fb2-fec3184956c2",
+     "label": "41AEM22B.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7423ec01-1cef-5379-9c4e-66eb10de4cf8",
+     "label": "41AEM22B.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b4b9868b-f7de-51d8-9326-7c4f74f4419a",
+     "label": "41AEM22B.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b4e72c2b-755d-5437-8c61-dc3a226ca729",
+     "label": "41AEM22B.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "298f497a-f633-5504-91b2-cfaefa2753ea",
+     "label": "41AEM22B.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4112e7dc-9318-5dc6-85ca-5c6b44f6ed80",
+     "label": "41AEM22B.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f7902c4b-b8c0-5189-a2ef-2bce6c66c395",
+     "label": "41AEM22B.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "cafe5e38-7cfc-573a-b920-28e9aff90871",
+     "label": "41AEM22B.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4c90d507-b049-53a2-8322-0e29e3727aa8",
+     "label": "41AEM22B.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1bea5a1b-6a38-5905-bccd-cf4b6a3c6633",
+     "label": "41AEM22B.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c5a5f96b-5830-5589-a956-78e4c733fcf3",
+     "label": "41AEM22B.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8ed9bfed-cb9a-5be6-9032-34f48768885a",
+     "label": "41AEM22B.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "265826e3-e30a-58ce-a703-a2ddc01bbad2",
+     "label": "41AEM22B.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e2954109-2288-5aad-b3ad-1108211efced",
+     "label": "41AEM22B.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ba305818-668c-5605-afd5-647249678d39",
+     "label": "41AEM22B.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "607c23f9-641d-5543-9263-2ce3207f30ef",
+     "label": "41AEM22B.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "bbc22265-edbb-5a3d-95b5-31676766e722",
+     "label": "41AEM22B.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "cd357cff-5d99-56e8-a985-af95ee647203",
+     "label": "41AEM22B.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "90ebdde5-0205-5a2c-af4f-9d60bdad669f",
+     "label": "41AEM22B.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f59ccc45-d332-54e5-be79-8faca390c3ce",
+     "label": "41AEM22B.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a1043a18-f6ac-5044-95e2-e4bf493aef60",
+     "label": "41AEM22B.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001163",
+   "label": "AINV0000000029",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Animal Enclosure Module (AEM), Serial Number 004, Temperature Data, Ground Control",
+    "dataset_catalog": "AINV0000000029",
+    "dataset_description": [
+     "Rodent Flight Group B, LCG2<br/>Initial set-up date: 6-2-91<br/>ATR #15A used,  placed in AEM serial number 004<br/>Spreadsheet column headings: Item #, Day, GMT, Temperature."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "178012 1_2",
+     "178127 1_3",
+     "178141 1_2",
+     "178194 1_2",
+     "178238 1_2",
+     "178247",
+     "178303 1_2",
+     "SLS1 BSP1",
+     "SLS1 BSP10",
+     "SLS1 BSP11",
+     "SLS1 BSP12",
+     "SLS1 BSP13",
+     "SLS1 BSP14",
+     "SLS1 BSP15",
+     "SLS1 BSP16",
+     "SLS1 BSP17",
+     "SLS1 BSP18",
+     "SLS1 BSP19",
+     "SLS1 BSP2",
+     "SLS1 BSP21",
+     "SLS1 BSP25",
+     "SLS1 BSP3",
+     "SLS1 BSP4",
+     "SLS1 BSP5",
+     "SLS1 BSP6",
+     "SLS1 BSP7",
+     "SLS1 BSP8",
+     "SLS1 BSP9",
+     "SLS1 Proj"
+    ]
+   },
+   "meta": "29 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "6bb8a4c4-34f0-5494-86fe-5a3f654cbfe8",
+     "label": "41AEM15A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8e72e7d1-0b67-52f8-8f29-6eaf6cf9b1d8",
+     "label": "41AEM15A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4e1da454-f0f1-5ca2-8e05-0dfa765b64c6",
+     "label": "41AEM15A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ce313437-ffd5-5ad3-82c2-683a52b1c760",
+     "label": "41AEM15A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4146b3a3-d4f6-58cc-a5f1-263922eba073",
+     "label": "41AEM15A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "02cfe07a-47eb-563d-850b-9a0c632e9d89",
+     "label": "41AEM15A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d7d782fc-55ac-5858-bc24-d0aebcec65f9",
+     "label": "41AEM15A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1a57626f-530f-5af2-ac0e-6d4d7935df81",
+     "label": "41AEM15A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5c86c140-b7ff-5bc7-862d-70e360a62032",
+     "label": "41AEM15A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d89864ab-d804-59f3-8f5c-ec44568aad05",
+     "label": "41AEM15A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "20ec2399-5b7d-5a19-bf3a-675d95ce7811",
+     "label": "41AEM15A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "751ddc2e-85eb-5cd4-b3b0-fce55b4778c2",
+     "label": "41AEM15A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3b4f533d-968b-5017-8c8a-8960a56c78e4",
+     "label": "41AEM15A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3f0c3dbe-8970-5aa8-bbdd-3cb5d452a707",
+     "label": "41AEM15A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7495c2d5-a951-5fc2-a0d2-a06c2c8172b4",
+     "label": "41AEM15A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "276f0b6d-8544-5642-ba88-9a60ca8261bb",
+     "label": "41AEM15A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "131d4a3b-5ae2-5e93-91fc-243b23fba463",
+     "label": "41AEM15A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "55a44f50-c2e8-55b9-b330-1e30dc9f595c",
+     "label": "41AEM15A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "76c7045c-3ed0-56ca-b21f-01e5a0119ab7",
+     "label": "41AEM15A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "cd357ef5-5c76-5891-a278-24686eddce53",
+     "label": "41AEM15A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ad8545e3-d728-51d0-b6f1-9b2e55800e6f",
+     "label": "41AEM15A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3ef198d7-104c-5102-905b-64d5a037de65",
+     "label": "41AEM15A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a1bcf513-38f4-55a1-a068-0897c3ab9cbd",
+     "label": "41AEM15A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "074a9732-e669-5a0e-9f6c-e8503abc18d8",
+     "label": "41AEM15A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "cc9ade19-f17b-5a58-a562-e814763262d9",
+     "label": "41AEM15A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a6445f02-732d-5e93-bae6-9cae2b0376dc",
+     "label": "41AEM15A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "69c956dc-272c-56d4-bc49-7461b4964266",
+     "label": "41AEM15A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "756eb818-1e0d-51ec-b22e-cee1bf9cff1c",
+     "label": "41AEM15A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ecb9460e-392f-5e1f-8be1-91d1d879f031",
+     "label": "41AEM15A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000689",
+   "label": "AINV0000000031",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Animal Enclosure Module (AEM), Serial Number 002, Temperature Data, Flight",
+    "dataset_catalog": "AINV0000000031",
+    "dataset_description": [
+     "Rodent Flight Group B, LCG2<br/>Initial set-up date: 6-2-91<br/>ATR #17A used,  placed in AEM serial number 002<br/>Spreadsheet column headings: Item #, Day, GMT, Temperature."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "178012 1_2",
+     "178127 1_3",
+     "178141 1_2",
+     "178194 1_2",
+     "178238 1_2",
+     "178247",
+     "178303 1_2",
+     "SLS1 BSP1",
+     "SLS1 BSP10",
+     "SLS1 BSP11",
+     "SLS1 BSP12",
+     "SLS1 BSP13",
+     "SLS1 BSP14",
+     "SLS1 BSP15",
+     "SLS1 BSP16",
+     "SLS1 BSP17",
+     "SLS1 BSP18",
+     "SLS1 BSP19",
+     "SLS1 BSP2",
+     "SLS1 BSP21",
+     "SLS1 BSP25",
+     "SLS1 BSP3",
+     "SLS1 BSP4",
+     "SLS1 BSP5",
+     "SLS1 BSP6",
+     "SLS1 BSP7",
+     "SLS1 BSP8",
+     "SLS1 BSP9",
+     "SLS1 Proj"
+    ]
+   },
+   "meta": "29 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "c99592b7-2193-50cd-a102-283ffd10e151",
+     "label": "41AEM17A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f6791093-5b68-5de3-85f8-3c6587287d6c",
+     "label": "41AEM17A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d5808ac8-345b-5be3-9ba4-e179e900d3ee",
+     "label": "41AEM17A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3a2ca06b-46f5-546e-8d62-11f116bb4355",
+     "label": "41AEM17A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4b9a5206-5cdf-543d-9d95-9c26e3cba21d",
+     "label": "41AEM17A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3f56ccc0-7e0a-5984-b745-22bab403041d",
+     "label": "41AEM17A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d85067c6-ae6d-5df7-a27d-426c217bf270",
+     "label": "41AEM17A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b2433991-2463-51b4-9bec-f81ba8d39370",
+     "label": "41AEM17A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "dc753a6b-76a9-5fa0-9c87-a79e4558c502",
+     "label": "41AEM17A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a3d06744-f23c-501c-8342-51e22cd9a612",
+     "label": "41AEM17A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b0cf7331-8a60-5f78-b848-a3a5aa72646e",
+     "label": "41AEM17A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "94832908-a01d-56b4-bbb3-39e8ad3afe0d",
+     "label": "41AEM17A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ae12316d-a30c-5eaf-a88d-75588518bbff",
+     "label": "41AEM17A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5310e9b7-23d2-505a-81fe-7285904c26b3",
+     "label": "41AEM17A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "aaf7b074-f085-51fb-911d-6fd071308772",
+     "label": "41AEM17A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ecccdd0d-8ba8-5a2f-8a62-c48a4813233d",
+     "label": "41AEM17A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e059b31f-7fe0-5e99-949f-7b2b1d45f406",
+     "label": "41AEM17A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d52b7418-0e98-5bc9-8e0f-ee2b41b47c77",
+     "label": "41AEM17A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "81fce1e4-e796-566c-a822-8351962a498c",
+     "label": "41AEM17A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b38acc3e-fc22-5ada-b3e2-218d374cef98",
+     "label": "41AEM17A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c1addb52-aa13-576c-89af-97b542b804c1",
+     "label": "41AEM17A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a31eec33-237f-5fdb-bd46-83e07f83b9cc",
+     "label": "41AEM17A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "64b9d7f0-a850-5afb-b5f3-be3a6cbf1e3e",
+     "label": "41AEM17A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "dfcf971a-f924-5a78-8a79-7042a213bc21",
+     "label": "41AEM17A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4e21c4a8-0c2d-578a-8a5e-dcf9c1008e4a",
+     "label": "41AEM17A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "333fe53e-fe4c-5054-bcd1-55c3049c8787",
+     "label": "41AEM17A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6a06ff10-7949-5586-abd6-f7dfd244d4dd",
+     "label": "41AEM17A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0a62f3bb-221f-5fa1-bda7-2473e98d9a8b",
+     "label": "41AEM17A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3b3de823-744e-50ee-8994-4d4042e9538a",
+     "label": "41AEM17A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001806",
+   "label": "AINV0000000047",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Daily Food Intake Spreadsheet",
+    "dataset_catalog": "AINV0000000047",
+    "dataset_description": [
+     "The spreadsheet contains daily food intake measured in grams per day for all research subjects, and calculates the mean and standard deviation for each day.<br/><br/>Data collected on:<br/>L-25, L-22, L-19, L-16, L-13, L-10, L-7, L-4, L-2, L-1, L+1, L+2, L+2T, L+3, L+4, L+5, L+6, L+7, L+8, R+0, R+1, R+2, R+3, R+4, R+5, R+6, R+7, R+8, R+ML"
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "178012 1_2",
+     "178127 1_3",
+     "178141 1_2",
+     "178194 1_2",
+     "178238 1_2",
+     "178247",
+     "178303 1_2",
+     "SLS1 BSP1",
+     "SLS1 BSP10",
+     "SLS1 BSP11",
+     "SLS1 BSP12",
+     "SLS1 BSP13",
+     "SLS1 BSP14",
+     "SLS1 BSP15",
+     "SLS1 BSP16",
+     "SLS1 BSP17",
+     "SLS1 BSP18",
+     "SLS1 BSP19",
+     "SLS1 BSP2",
+     "SLS1 BSP21",
+     "SLS1 BSP25",
+     "SLS1 BSP3",
+     "SLS1 BSP4",
+     "SLS1 BSP5",
+     "SLS1 BSP6",
+     "SLS1 BSP7",
+     "SLS1 BSP8",
+     "SLS1 BSP9",
+     "SLS1 Proj"
+    ]
+   },
+   "meta": "29 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "6aa21e56-bd8e-5360-bedd-594b12c4f702",
+     "label": "FltDlyFd.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1656aace-1c63-5c67-9fc6-28d830064b7c",
+     "label": "FltDlyFd.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "56be6b64-f869-5f7a-94b7-4fde3380ab27",
+     "label": "FltDlyFd.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "79b9bde6-18fb-5d71-9090-89b7fa500676",
+     "label": "FltDlyFd.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b94c91b7-e282-5aee-a59a-fbacb2da2c57",
+     "label": "FltDlyFd.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "aee4f0c6-18ea-5355-a819-0b943469092b",
+     "label": "FltDlyFd.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "fb7eff4b-876f-53a3-8680-1207cf4f43f1",
+     "label": "FltDlyFd.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "22ffc53a-7a38-51c6-9722-bab0c60ea193",
+     "label": "FltDlyFd.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6a503163-18a8-5011-9e05-ced920e097ed",
+     "label": "FltDlyFd.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7ce86a61-28ad-5402-9a28-d322734d535d",
+     "label": "FltDlyFd.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b6fa3018-6781-543f-8b38-0a44f0567088",
+     "label": "FltDlyFd.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "41cb4ffa-d108-5eb8-991f-aca148b6c051",
+     "label": "FltDlyFd.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "380cf1ae-74db-5046-9ac8-45d61aabd2c5",
+     "label": "FltDlyFd.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "006591c2-261a-559d-821f-4c086c3bdc5f",
+     "label": "FltDlyFd.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4e832e5f-f2bc-5763-bf9e-0403b4a834b9",
+     "label": "FltDlyFd.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3795fceb-9194-5e6d-bd09-a9f2e03e1018",
+     "label": "FltDlyFd.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ac1e0fd9-175c-5a86-b2a2-828cc3f77d53",
+     "label": "FltDlyFd.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "48f529a8-4e74-5bad-80f4-a7292756f44b",
+     "label": "FltDlyFd.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0d0030b1-8e36-5bbc-a8e3-e35394d232b9",
+     "label": "FltDlyFd.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "caec420a-27e8-5029-99e7-7592a73dba2b",
+     "label": "FltDlyFd.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "eee6c7ea-7125-5375-aae0-03d9f5879e47",
+     "label": "FltDlyFd.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "cf213a77-11af-5f8f-87ee-26db9617e223",
+     "label": "FltDlyFd.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "68d5e04f-4007-505a-97dd-e6510c7382f7",
+     "label": "FltDlyFd.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "18a9021a-2593-58f6-8e28-c2b54f77f842",
+     "label": "FltDlyFd.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d273c9be-4745-5451-bd54-36b0731b4082",
+     "label": "FltDlyFd.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "08124a1a-2e1e-5f21-8445-47ac1a5bda29",
+     "label": "FltDlyFd.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a34ba0fa-9702-520b-94e9-dbb9a2bd546d",
+     "label": "FltDlyFd.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "bb0ee688-9097-5ea0-bd78-87d932ec8c74",
+     "label": "FltDlyFd.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a8b0b66f-7614-550a-838f-cfed8524c6ef",
+     "label": "FltDlyFd.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001277",
+   "label": "AINV0000000045",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Daily Water Intake Spreadsheet",
+    "dataset_catalog": "AINV0000000045",
+    "dataset_description": [
+     "The spreadsheet contains daily water intake measured in milliliters per day for all research subjects, and calculates the mean and standard deviation for each day.<br/><br/>Data collected on:<br/>L-25, L-22, L-19, L-16, L-13, L-10, L-7, L-4, L-2, L-1, L+1, L+2, L+2T, L+3, L+4, L+5, L+6, L+7, L+8, R+0, R+1, R+2, R+3, R+4, R+5, R+6, R+7, R+8, R+ML"
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "178012 1_2",
+     "178127 1_3",
+     "178141 1_2",
+     "178194 1_2",
+     "178238 1_2",
+     "178247",
+     "178303 1_2",
+     "SLS1 BSP1",
+     "SLS1 BSP10",
+     "SLS1 BSP11",
+     "SLS1 BSP12",
+     "SLS1 BSP13",
+     "SLS1 BSP14",
+     "SLS1 BSP15",
+     "SLS1 BSP16",
+     "SLS1 BSP17",
+     "SLS1 BSP18",
+     "SLS1 BSP19",
+     "SLS1 BSP2",
+     "SLS1 BSP21",
+     "SLS1 BSP25",
+     "SLS1 BSP3",
+     "SLS1 BSP4",
+     "SLS1 BSP5",
+     "SLS1 BSP6",
+     "SLS1 BSP7",
+     "SLS1 BSP8",
+     "SLS1 BSP9",
+     "SLS1 Proj"
+    ]
+   },
+   "meta": "29 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "e0876d0a-0728-5e82-b877-2249e4886c21",
+     "label": "FlDlyWtr.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "32e57523-99c0-5667-9d16-155c2971aac2",
+     "label": "FlDlyWtr.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "53512de2-5a96-5ba0-b184-454fd37a3f02",
+     "label": "FlDlyWtr.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "aec5f0cf-5db1-554c-9415-250e81097358",
+     "label": "FlDlyWtr.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "eb0c13c9-3c50-511b-8b63-cd4bdcd6a6c8",
+     "label": "FlDlyWtr.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8d192a07-4d95-5dfd-b3e5-798483b92bf7",
+     "label": "FlDlyWtr.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e3b7ec36-094c-57e4-98d4-d532e5d513f9",
+     "label": "FlDlyWtr.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6e4d21a6-d710-521e-ae2a-78ce888f9d8e",
+     "label": "FlDlyWtr.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b1c560b8-e03a-55d3-8000-1e0d67bcbf8d",
+     "label": "FlDlyWtr.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ceb202cc-25cb-579c-ae40-088168363b12",
+     "label": "FlDlyWtr.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "62a2c787-4304-52f5-88ab-ab3db3b7be74",
+     "label": "FlDlyWtr.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "60b49f5d-3cf8-567a-9b0b-0f478be28ecd",
+     "label": "FlDlyWtr.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "fe646a51-d7e8-5eea-82f3-5685a5e73ae9",
+     "label": "FlDlyWtr.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a1c4e113-1002-5ead-b78d-61acb394b07e",
+     "label": "FlDlyWtr.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "dc2a855d-cb39-51ec-8dd4-9e0cdc01805c",
+     "label": "FlDlyWtr.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6a746028-c29d-5613-921e-6678b1d598c8",
+     "label": "FlDlyWtr.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5e4f09ee-ac3f-5ef2-a4fe-af48053b1596",
+     "label": "FlDlyWtr.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b4fdc77e-ced4-54cb-ad93-eafe1d7a0934",
+     "label": "FlDlyWtr.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9e5d016d-d765-5ed7-806f-5e1a13d3eda6",
+     "label": "FlDlyWtr.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "40443448-9d84-5b04-bbc3-e79e8c35f8d6",
+     "label": "FlDlyWtr.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "855529f7-0f55-5bf1-b052-f6b5a607e729",
+     "label": "FlDlyWtr.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "19c41944-5afb-56be-99aa-fe8cd33b7473",
+     "label": "FlDlyWtr.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2232519b-fc8c-5e80-9ef5-8d5316fc7cd4",
+     "label": "FlDlyWtr.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f04bc176-dcd0-590a-a54c-2692fc94eeff",
+     "label": "FlDlyWtr.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "73b9f53d-333a-5cbb-92d8-d87476e4dd65",
+     "label": "FlDlyWtr.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e2221aa2-124b-52a0-8eda-f04b6981461b",
+     "label": "FlDlyWtr.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "bb4b29a1-2c21-58df-8fe3-43d86c6c5a2f",
+     "label": "FlDlyWtr.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e31aa196-97f7-5922-aabb-c1944a86172a",
+     "label": "FlDlyWtr.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "322f89a2-cf43-5f4b-94ce-b1042b80d734",
+     "label": "FlDlyWtr.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000075",
+   "label": "AINV0000000021",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "SLS-1 (Day 163) Orbiter Middeck Temperature Spreadsheet, Launch+7 (L+7), Julian Day 163",
+    "dataset_catalog": "AINV0000000021",
+    "dataset_description": [
+     "Spreadsheet contains downlink orbiter middeck data.   Measurements are followed by the spreadsheet column headings in ( ):<br/>Greenwich Mean Time (GMT)<br/>Temperature in degrees centigrade (TEMP DEGC)<br/>Relative humidity (RHUM PCT)<br/>Carbon dioxide parts per million (CO2 PPM), Oxygen measured in millimeters of mercury (02-A MMHG, 02-B MMHG, 02-C MMHG)<br/>Total atmospheric pressure measured in millimeters of mercury (Total MMHG)."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "178012 1_2",
+     "178127 1_3",
+     "178141 1_2",
+     "178194 1_2",
+     "178238 1_2",
+     "178247",
+     "178303 1_2",
+     "SLS1 BSP1",
+     "SLS1 BSP10",
+     "SLS1 BSP11",
+     "SLS1 BSP12",
+     "SLS1 BSP13",
+     "SLS1 BSP14",
+     "SLS1 BSP15",
+     "SLS1 BSP16",
+     "SLS1 BSP17",
+     "SLS1 BSP18",
+     "SLS1 BSP19",
+     "SLS1 BSP2",
+     "SLS1 BSP21",
+     "SLS1 BSP25",
+     "SLS1 BSP3",
+     "SLS1 BSP4",
+     "SLS1 BSP5",
+     "SLS1 BSP6",
+     "SLS1 BSP7",
+     "SLS1 BSP8",
+     "SLS1 BSP9",
+     "SLS1 Proj"
+    ]
+   },
+   "meta": "29 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "1707251f-f6a1-5f4b-a19b-85f9fdd1628b",
+     "label": "COMB163.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f696f5d8-72b0-5a8c-858b-2806a48085d8",
+     "label": "COMB163.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b6373337-49ec-50b2-adf7-5eda3713442b",
+     "label": "COMB163.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3855d070-bf0a-5354-9c08-3b9540044a2e",
+     "label": "COMB163.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8452899c-37cf-512c-9f8e-11f684af76d3",
+     "label": "COMB163.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0690becb-6a9b-5779-9511-a590ef9944a7",
+     "label": "COMB163.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "685cbd55-0b09-5a34-b112-3782dab48fb0",
+     "label": "COMB163.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d0f3c748-ab19-5754-ad91-6511fe046e75",
+     "label": "COMB163.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "22cf5759-1ebf-5454-a286-ce953ec6ed38",
+     "label": "COMB163.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0b261c1f-ee16-520a-938f-df1da1829fa7",
+     "label": "COMB163.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "de7a09c5-67c1-5568-9486-f2c1d13dc325",
+     "label": "COMB163.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "97f21e35-2f16-5244-a0d8-94d1804205fa",
+     "label": "COMB163.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8b1b7707-711f-5480-9bf2-292d21183ecb",
+     "label": "COMB163.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e4ddbae7-b486-59b8-8505-bb2a196b7803",
+     "label": "COMB163.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c79f0de5-8446-5505-8dc0-193d61292244",
+     "label": "COMB163.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "48f6a3ef-c069-5095-b20f-0b76714962a3",
+     "label": "COMB163.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "837b7f4e-8996-586f-be2a-5985dd51d6f8",
+     "label": "COMB163.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "856486cd-80fc-5ade-944d-fcc728bebd71",
+     "label": "COMB163.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d45f8cc4-024f-5da8-9915-858dfea5b707",
+     "label": "COMB163.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "dbd68792-bec9-5d51-b163-65405d498190",
+     "label": "COMB163.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7bc2056e-9d03-59d3-bf2e-247f1ef1bfaa",
+     "label": "COMB163.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "81b54b30-6ec9-5fbf-944b-2d13dd15924b",
+     "label": "COMB163.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7f5880fd-77e6-56dd-82bd-ecbab08a67e9",
+     "label": "COMB163.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c24d82a6-2ff6-5add-8ffa-7583ccfc57d7",
+     "label": "COMB163.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "84f69060-e772-521a-90d2-6218673e1a2e",
+     "label": "COMB163.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6b751743-dcad-517b-83bb-438d54d5efd0",
+     "label": "COMB163.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "73a1863a-9500-5699-9ef3-e8f63a33bd29",
+     "label": "COMB163.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "49b425bb-3a62-5efb-84b4-694e74af2102",
+     "label": "COMB163.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "09cdf800-aa7e-5959-9d75-c8aa7a78abf6",
+     "label": "COMB163.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002300",
+   "label": "AINV0000000020",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "SLS-1 (Day 162) Orbiter Middeck Temperature Spreadsheet, Launch+6 (L+6), Julian Day 162",
+    "dataset_catalog": "AINV0000000020",
+    "dataset_description": [
+     "Spreadsheet contains downlink orbiter middeck data.   Measurements are followed by the spreadsheet column headings in ( ):<br/>Greenwich Mean Time (GMT)<br/>Temperature in degrees centigrade (TEMP DEGC)<br/>Relative humidity (RHUM PCT)<br/>Carbon dioxide parts per million (CO2 PPM), Oxygen measured in millimeters of mercury (02-A MMHG, 02-B MMHG, 02-C MMHG)<br/>Total atmospheric pressure measured in millimeters of mercury (Total MMHG)."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "178012 1_2",
+     "178127 1_3",
+     "178141 1_2",
+     "178194 1_2",
+     "178238 1_2",
+     "178247",
+     "178303 1_2",
+     "SLS1 BSP1",
+     "SLS1 BSP10",
+     "SLS1 BSP11",
+     "SLS1 BSP12",
+     "SLS1 BSP13",
+     "SLS1 BSP14",
+     "SLS1 BSP15",
+     "SLS1 BSP16",
+     "SLS1 BSP17",
+     "SLS1 BSP18",
+     "SLS1 BSP19",
+     "SLS1 BSP2",
+     "SLS1 BSP21",
+     "SLS1 BSP25",
+     "SLS1 BSP3",
+     "SLS1 BSP4",
+     "SLS1 BSP5",
+     "SLS1 BSP6",
+     "SLS1 BSP7",
+     "SLS1 BSP8",
+     "SLS1 BSP9",
+     "SLS1 Proj"
+    ]
+   },
+   "meta": "29 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "749998d3-0eaa-56c4-b1b0-974466e4add2",
+     "label": "COMB162.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "81164336-adbd-5724-9e05-a90ea16b37e1",
+     "label": "COMB162.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "631b4308-215a-5914-b292-2e8cf2a089d9",
+     "label": "COMB162.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1951fd39-a008-5c3f-a06f-61900ff9a6a8",
+     "label": "COMB162.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c53e3996-84c6-53b2-8c60-da92139b66ea",
+     "label": "COMB162.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5d74df11-0e72-514e-a930-e15e997eee11",
+     "label": "COMB162.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d3752ead-afde-541c-be75-dcc6518c8c7f",
+     "label": "COMB162.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6732d237-c19e-5d96-8852-88d9dbc4ad2e",
+     "label": "COMB162.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f651368d-ecd8-55fd-90ec-89d664c55960",
+     "label": "COMB162.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "60ff2348-5967-53ba-9727-8a9e53d9634d",
+     "label": "COMB162.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d55dd7c2-dd71-5fd3-b88d-397b34c67fa5",
+     "label": "COMB162.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f584173d-4af7-5202-aa65-c30c83b32f71",
+     "label": "COMB162.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f612f248-340e-52d3-bc63-35bcdc4dfd8a",
+     "label": "COMB162.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6776e85a-407d-5a0a-871f-a28882330933",
+     "label": "COMB162.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c265f42a-cb11-54f3-be17-62d7d1c718c9",
+     "label": "COMB162.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c23cef26-5133-576c-b48b-0d9a818fd257",
+     "label": "COMB162.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "32377d9d-11e4-537f-b036-096a2c143e64",
+     "label": "COMB162.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "29b5fef6-c8c2-5ebf-a23b-a228a988633d",
+     "label": "COMB162.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6a64af68-a2f5-5530-b01d-69adbf62025f",
+     "label": "COMB162.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "82b868a7-7bb6-58e3-9d1d-ac89d9de8000",
+     "label": "COMB162.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e263acfd-cbd9-505f-871c-eb5ce2009166",
+     "label": "COMB162.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7781577b-bfc7-5b44-858e-84ec8de2b0d7",
+     "label": "COMB162.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "291238b8-3883-505c-aae1-2ee93eab664a",
+     "label": "COMB162.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5a793aaf-1b26-51a7-a041-dab2deb7a59e",
+     "label": "COMB162.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "52a73a43-d83e-5ce4-a8f6-1a3a706e2577",
+     "label": "COMB162.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "65d934bc-e753-5135-a1e1-2fba659552c2",
+     "label": "COMB162.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ee70a93c-6f3b-5d7e-8735-25bbebb6135c",
+     "label": "COMB162.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "aefc80ab-f6f8-5427-b98c-d6251999ed6a",
+     "label": "COMB162.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "af96d1fc-c6aa-5320-95a7-8608a5b18cba",
+     "label": "COMB162.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000688",
+   "label": "AINV0000000018",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "SLS-1 (Day 160) Orbiter Middeck Temperature Spreadsheet, Launch+4 (L+4), Julian Day 160",
+    "dataset_catalog": "AINV0000000018",
+    "dataset_description": [
+     "Spreadsheet contains downlink orbiter middeck data.   Measurements are followed by the spreadsheet column headings in ( ):<br/>Greenwich Mean Time (GMT)<br/>Temperature in degrees centigrade (TEMP DEGC)<br/>Relative humidity (RHUM PCT)<br/>Carbon dioxide parts per million (CO2 PPM), Oxygen measured in millimeters of mercury (02-A MMHG, 02-B MMHG, 02-C MMHG)<br/>Total atmospheric pressure measured in millimeters of mercury (Total MMHG)."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "178012 1_2",
+     "178127 1_3",
+     "178141 1_2",
+     "178194 1_2",
+     "178238 1_2",
+     "178247",
+     "178303 1_2",
+     "SLS1 BSP1",
+     "SLS1 BSP10",
+     "SLS1 BSP11",
+     "SLS1 BSP12",
+     "SLS1 BSP13",
+     "SLS1 BSP14",
+     "SLS1 BSP15",
+     "SLS1 BSP16",
+     "SLS1 BSP17",
+     "SLS1 BSP18",
+     "SLS1 BSP19",
+     "SLS1 BSP2",
+     "SLS1 BSP21",
+     "SLS1 BSP25",
+     "SLS1 BSP3",
+     "SLS1 BSP4",
+     "SLS1 BSP5",
+     "SLS1 BSP6",
+     "SLS1 BSP7",
+     "SLS1 BSP8",
+     "SLS1 BSP9",
+     "SLS1 Proj"
+    ]
+   },
+   "meta": "29 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "596ce96e-19ac-53e7-82df-e8cfefa40240",
+     "label": "COMB160.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b5dde4fc-3ffa-5cf4-953c-a1273775f0aa",
+     "label": "COMB160.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "04738df9-9d9e-5f8a-9fa7-3ac79abfdd36",
+     "label": "COMB160.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f85a5073-c7b3-5b50-a470-e9aa80159923",
+     "label": "COMB160.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "55c2f8fe-95c8-5607-9c7b-c77324e468f0",
+     "label": "COMB160.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f9368d12-652d-52d9-b5a6-f66018773efe",
+     "label": "COMB160.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "aa9e7d27-4294-5377-9de9-d8e4f350bca9",
+     "label": "COMB160.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "76a8b2ab-fcc6-5e24-b2e3-3e911fb5c036",
+     "label": "COMB160.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1ec16d65-94b2-5220-8a2b-2e9c102e5aa9",
+     "label": "COMB160.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ee252bfb-4a07-5921-b189-b152a6bb5f35",
+     "label": "COMB160.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "14e9d134-cbc5-5d1f-8d80-cb9e7063b65f",
+     "label": "COMB160.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "580e52f6-e82e-5b14-873f-a450ff155ab7",
+     "label": "COMB160.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "983e54b2-8b25-5a47-85d4-9c672fdb2b52",
+     "label": "COMB160.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "198639f9-ed9e-5ee6-8783-c233c74da1d5",
+     "label": "COMB160.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0541e72b-6cd9-5cce-b11b-071b33c65f34",
+     "label": "COMB160.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a0d946d6-42f8-550c-b0fe-b71b158097f8",
+     "label": "COMB160.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ffa8377a-a944-55ff-86bc-3cf188426bd6",
+     "label": "COMB160.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f6a78f26-4d2b-5352-976d-da0f1b0f291e",
+     "label": "COMB160.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3f6ad24f-5454-59c1-8462-fc42714e2cb6",
+     "label": "COMB160.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6d67c126-5f48-59f0-b7e6-caa80ef97a6b",
+     "label": "COMB160.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "42e55ea8-d30a-5125-8320-51ad47fb911d",
+     "label": "COMB160.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "58063134-d202-5420-9b58-f409f4f437fc",
+     "label": "COMB160.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4b0cdd3c-34e3-55f6-9129-8ecc36e58a8d",
+     "label": "COMB160.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f6e102cb-126c-5f60-881b-88cb97dfa727",
+     "label": "COMB160.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0c3e1fc8-96c8-58e6-ad31-8db4b3f8987f",
+     "label": "COMB160.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d46bae4d-b1ac-59b6-8ae0-584fc9311715",
+     "label": "COMB160.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "72c0a929-681f-56bb-ae03-68978b8f7273",
+     "label": "COMB160.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "286a7806-7efe-5041-af7f-bb2570b2983c",
+     "label": "COMB160.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "44232078-11d1-55b2-afd5-03b0c4f782b2",
+     "label": "COMB160.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000125",
+   "label": "AINV0000000046",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Body Weight Spreadsheet",
+    "dataset_catalog": "AINV0000000046",
+    "dataset_description": [
+     "The spreadsheet contains daily body weight measured in grams for all research subjects, and calculates the mean and standard deviation for each day.<br/><br/>Data collected on:<br/>L-25, L-22, L-19, L-16, L-13, L-10, L-7, L-4, L-2, L-1, L+1, L+2, L+2T, L+3, L+4, L+5, L+6, L+7, L+8, R+0, R+1, R+2, R+3, R+4, R+5, R+6, R+7, R+8, R+ML"
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "178012 1_2",
+     "178127 1_3",
+     "178141 1_2",
+     "178194 1_2",
+     "178238 1_2",
+     "178247",
+     "178303 1_2",
+     "SLS1 BSP1",
+     "SLS1 BSP10",
+     "SLS1 BSP11",
+     "SLS1 BSP12",
+     "SLS1 BSP13",
+     "SLS1 BSP14",
+     "SLS1 BSP15",
+     "SLS1 BSP16",
+     "SLS1 BSP17",
+     "SLS1 BSP18",
+     "SLS1 BSP19",
+     "SLS1 BSP2",
+     "SLS1 BSP21",
+     "SLS1 BSP25",
+     "SLS1 BSP3",
+     "SLS1 BSP4",
+     "SLS1 BSP5",
+     "SLS1 BSP6",
+     "SLS1 BSP7",
+     "SLS1 BSP8",
+     "SLS1 BSP9",
+     "SLS1 Proj"
+    ]
+   },
+   "meta": "29 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "459b9cdb-8b9f-590e-b6bc-9482ae0f2e52",
+     "label": "FltBdyWt.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "fcda4eac-c5a8-526b-bc30-fd44a2fb50e0",
+     "label": "FltBdyWt.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d159bbe5-3bce-5d13-b5f2-6f86c42162d4",
+     "label": "FltBdyWt.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "04e3682b-fd1b-5ddc-84fb-65c7941a9710",
+     "label": "FltBdyWt.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ec382a69-a192-585e-b58e-cd620b2e249a",
+     "label": "FltBdyWt.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a881ad7c-f7ae-5eaa-b675-1c2e2d678341",
+     "label": "FltBdyWt.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7a912d8a-c4a8-507f-bb4e-933818e5979f",
+     "label": "FltBdyWt.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "05bc6767-cde3-5e96-806a-446a8e4a9f1c",
+     "label": "FltBdyWt.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "065b85af-160c-5a57-b01e-14a27636bfdd",
+     "label": "FltBdyWt.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "49890c83-7df0-52c5-bff0-0dbd0139e7e4",
+     "label": "FltBdyWt.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a8333714-7d62-5adc-87a7-e8ce987fca4a",
+     "label": "FltBdyWt.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9fabc5ad-c491-556a-b2a1-a65d0730303d",
+     "label": "FltBdyWt.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1cdbc56a-8eb0-5faa-ace2-3391523ee6d2",
+     "label": "FltBdyWt.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2be1c93b-5ea5-50c9-bf03-52b0bf86e981",
+     "label": "FltBdyWt.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5f29a289-4e92-572d-8101-dc3f48a0e93c",
+     "label": "FltBdyWt.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f4e7d685-d456-5bf2-8900-d6755ec805ad",
+     "label": "FltBdyWt.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e53b46f6-7b39-5e91-9b58-affad8e0e699",
+     "label": "FltBdyWt.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "45e33ab5-a782-587d-ae49-b1076e7af110",
+     "label": "FltBdyWt.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3b479fdb-5a15-5ce8-b9df-d4b3b340005b",
+     "label": "FltBdyWt.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "46292931-9f8e-5cd1-a7d6-3f8cb8936d7a",
+     "label": "FltBdyWt.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0110a897-3049-5bcb-956c-9db7a25f7c09",
+     "label": "FltBdyWt.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b2354187-db50-59ed-8fb2-430b9f97ff89",
+     "label": "FltBdyWt.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ea022f32-06e5-5e04-a8c2-6594ec9cd828",
+     "label": "FltBdyWt.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f7716486-0cd5-5303-9997-cd0664f012c4",
+     "label": "FltBdyWt.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "66a6a06b-5e76-5f51-b064-2d1e295919f5",
+     "label": "FltBdyWt.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "26b9285b-0ef4-510e-840c-7bac8fffc025",
+     "label": "FltBdyWt.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "721f514b-427f-5ad4-8166-d61a10d7e72f",
+     "label": "FltBdyWt.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0bffdd5f-65b2-5825-b302-8981050e361c",
+     "label": "FltBdyWt.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "701db2b8-666d-5d4b-b076-08fe2dde70cc",
+     "label": "FltBdyWt.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001808",
+   "label": "AINV0000000167",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Animal Enclosure Module (AEM) Food and Water Intake for Flight and Ground Control Animals During Flight and Delayed Flight Profile Test (DFPT) Phases",
+    "dataset_catalog": "AINV0000000167",
+    "dataset_description": [
+     "The spreadsheet lists food and water intake for flight and ground control animals housed in the AEM 001, 002, 003, and 004 during flight and DFPT phases. Data includes 1) preflight /postflight food measurements in grams and total preflight/postflight food for each AEM group; 2)<br/>the delta for total food (?Food), food/day (?Food/Day), and food/rat/day (?Fd/Rt/Dy); 3) preflight /postflight water measurements in milliliters, water refills, delta for total water (TOTAL ?Water) and water/rat/day (? Wt/Rt/Dy)."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "178012 1_2",
+     "178127 1_3",
+     "178141 1_2",
+     "178194 1_2",
+     "178238 1_2",
+     "178247",
+     "178303 1_2",
+     "SLS1 BSP1",
+     "SLS1 BSP10",
+     "SLS1 BSP11",
+     "SLS1 BSP12",
+     "SLS1 BSP13",
+     "SLS1 BSP14",
+     "SLS1 BSP15",
+     "SLS1 BSP16",
+     "SLS1 BSP17",
+     "SLS1 BSP18",
+     "SLS1 BSP19",
+     "SLS1 BSP2",
+     "SLS1 BSP21",
+     "SLS1 BSP25",
+     "SLS1 BSP3",
+     "SLS1 BSP4",
+     "SLS1 BSP5",
+     "SLS1 BSP6",
+     "SLS1 BSP7",
+     "SLS1 BSP8",
+     "SLS1 BSP9",
+     "SLS1 Proj"
+    ]
+   },
+   "meta": "29 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "24299e7d-88f3-59d4-9ac8-66cbda18f72d",
+     "label": "AEM_FW.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3e8daa84-bfad-5d66-bdfb-ac5d028c6b52",
+     "label": "AEM_FW.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "efb95112-5d37-5edc-885c-b5f6e0468e6f",
+     "label": "AEM_FW.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0e14ded3-cdb7-5c69-8e5d-6aa4fe42ade7",
+     "label": "AEM_FW.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b09bfe5d-457f-5029-aed5-333b6aa0b1e8",
+     "label": "AEM_FW.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "85e59aca-07f9-5bfb-889a-e65bd1cd5657",
+     "label": "AEM_FW.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "56d1d808-ddf0-5d08-8b6a-54cc06312ce5",
+     "label": "AEM_FW.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6a55ce0a-df96-573b-b567-62e651f5dd27",
+     "label": "AEM_FW.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6958d3fc-e238-5585-9b8a-08f7c8588b0d",
+     "label": "AEM_FW.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a43f3748-67f2-563d-9ae6-1d3e662d8657",
+     "label": "AEM_FW.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8b4d3406-3d46-5a78-b442-318d3f976229",
+     "label": "AEM_FW.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c126f7c2-74fc-54cb-8fc0-765eb8981ca6",
+     "label": "AEM_FW.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6ac83648-9c9b-5525-b73a-de940d1e5f85",
+     "label": "AEM_FW.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "11c841d3-a29d-5af4-b41d-1c5f1d29b81b",
+     "label": "AEM_FW.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "52ffd66f-f66c-5646-9758-c9f7ee7b1988",
+     "label": "AEM_FW.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2806f9b6-e3f5-52f4-ba30-93e77f998001",
+     "label": "AEM_FW.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a44039d0-c261-5382-8889-478b58f6aae6",
+     "label": "AEM_FW.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "670e6f19-e3c9-505c-a837-2a1213167469",
+     "label": "AEM_FW.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a945fbed-606f-57c8-9132-36b8ff8a965b",
+     "label": "AEM_FW.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8400e959-f475-5867-b9a2-b6563ac3aed0",
+     "label": "AEM_FW.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "829bcb66-c2a7-5c4a-86ae-fbed7ec07c95",
+     "label": "AEM_FW.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f750a318-99c5-5fb8-871d-03cb810c656f",
+     "label": "AEM_FW.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "50a00449-bc06-546b-bd67-875c1002194d",
+     "label": "AEM_FW.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "faab8925-7dd6-52c3-8dc8-bfe5bf1eec45",
+     "label": "AEM_FW.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f6e1734e-3420-576d-b842-bc3ab4847dd9",
+     "label": "AEM_FW.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2988dfef-cab9-5280-b4eb-0d3f06bd384e",
+     "label": "AEM_FW.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6304166e-5358-553c-a010-7ed8e2104ca4",
+     "label": "AEM_FW.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2616a7b5-85e9-5eea-b8b9-8fa4131a8f87",
+     "label": "AEM_FW.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1475202c-fd36-5449-a007-388e7a023249",
+     "label": "AEM_FW.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001637",
+   "label": "AINV0000000016",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "SLS-1 (Day 158) Orbiter Middeck Temperature Spreadsheet, Launch+2 (L+2), Julian Day 158",
+    "dataset_catalog": "AINV0000000016",
+    "dataset_description": [
+     "Spreadsheet contains downlink orbiter middeck data.   Measurements are followed by the spreadsheet column headings in ( ):<br/>Greenwich Mean Time (GMT)<br/>Temperature in degrees centigrade (TEMP DEGC)<br/>Relative humidity (RHUM PCT)<br/>Carbon dioxide parts per million (CO2 PPM), Oxygen measured in millimeters of mercury (02-A MMHG, 02-B MMHG, 02-C MMHG)<br/>Total atmospheric pressure measured in millimeters of mercury (Total MMHG)."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "178012 1_2",
+     "178127 1_3",
+     "178141 1_2",
+     "178194 1_2",
+     "178238 1_2",
+     "178247",
+     "178303 1_2",
+     "SLS1 BSP1",
+     "SLS1 BSP10",
+     "SLS1 BSP11",
+     "SLS1 BSP12",
+     "SLS1 BSP13",
+     "SLS1 BSP14",
+     "SLS1 BSP15",
+     "SLS1 BSP16",
+     "SLS1 BSP17",
+     "SLS1 BSP18",
+     "SLS1 BSP19",
+     "SLS1 BSP2",
+     "SLS1 BSP21",
+     "SLS1 BSP25",
+     "SLS1 BSP3",
+     "SLS1 BSP4",
+     "SLS1 BSP5",
+     "SLS1 BSP6",
+     "SLS1 BSP7",
+     "SLS1 BSP8",
+     "SLS1 BSP9",
+     "SLS1 Proj"
+    ]
+   },
+   "meta": "29 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "75cdd1c1-2b29-56c0-a10c-7602874c7bb4",
+     "label": "COMB158.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "74ee26ba-e8a5-56ed-9ced-2bd9f878ccbf",
+     "label": "COMB158.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7273b105-82c0-51c4-9b32-9ec7635f5c4f",
+     "label": "COMB158.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "92ea0e48-303a-5eef-857a-a9928cadffff",
+     "label": "COMB158.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "27cdee57-148f-5a1c-a273-cd1e1bbfc471",
+     "label": "COMB158.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d993680b-60f9-5f91-aea8-5ef44f74be6a",
+     "label": "COMB158.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5a0acc53-477f-5067-9b4d-f67e5bb9959c",
+     "label": "COMB158.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5c967382-f944-55f5-b339-3fd854b65e7e",
+     "label": "COMB158.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ccf690c2-2cb3-53b8-b6bb-be48acd39475",
+     "label": "COMB158.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "71c9fb4f-5803-50f3-83f8-7d96e387251d",
+     "label": "COMB158.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0243329b-1992-5471-b6bd-30834ac26d14",
+     "label": "COMB158.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "56c6dfc8-047d-52d8-980f-d74505d61ba6",
+     "label": "COMB158.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0801d1bd-7623-5f92-a98b-a02198379028",
+     "label": "COMB158.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a764eccc-e79e-5503-9cc2-575addecb38b",
+     "label": "COMB158.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2f43a408-990c-5edb-b0e4-d81dafeeb9ad",
+     "label": "COMB158.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "efcc8aae-0895-5ce2-9898-2ae3838ea154",
+     "label": "COMB158.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "cc394ce7-6f30-5105-bdad-a5695fbfbc17",
+     "label": "COMB158.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0c3f3348-7e41-5afb-8e0e-f4e86479d8bf",
+     "label": "COMB158.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "948dd5f3-906c-5222-a61c-3df73ba16cd2",
+     "label": "COMB158.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "bf36d7e3-4cae-5fa5-9eff-d173e53335c8",
+     "label": "COMB158.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "01b31fa4-cedd-5eed-bfda-ad8b43cb4011",
+     "label": "COMB158.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4ffa24ca-562f-5992-8777-4fea5fe712c9",
+     "label": "COMB158.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c9780b3a-165d-55b5-8895-c787ec164aab",
+     "label": "COMB158.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "999ace54-b57f-5ffb-aa2f-8d9791d83ad8",
+     "label": "COMB158.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "803a8e84-779f-55d7-9fa9-24162d3fedc9",
+     "label": "COMB158.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "83c790ee-760f-5889-8ccc-179912c50211",
+     "label": "COMB158.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b2a933cf-1446-5482-8662-a22dbce34017",
+     "label": "COMB158.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "037bd39c-6dd8-51b3-a4be-a6a0749dbc26",
+     "label": "COMB158.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "316a499e-3253-5f10-ae8d-b8893edbddc0",
+     "label": "COMB158.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

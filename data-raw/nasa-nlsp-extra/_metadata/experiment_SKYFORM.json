@@ -1,0 +1,639 @@
+{
+ "record": {
+  "id": "28d5d52f-4f32-5b82-ae4e-b3a0533f60f6",
+  "_id": "28d5d52f-4f32-5b82-ae4e-b3a0533f60f6",
+  "experiment_title": "Biostereometric Analysis of Body Form",
+  "archive_status_index": 2,
+  "pub_document_number": "PUB001166",
+  "parameter_html": "<table><tr><td>Body density</td></tr><tr><td>Body part circumference</td></tr><tr><td>Body volume</td></tr><tr><td>Body weight</td></tr><tr><td>Bone density</td></tr><tr><td>Caloric intake</td></tr><tr><td>Cross-sectional body area</td></tr><tr><td>Exchangeable potassium</td></tr><tr><td>Inflight exercise</td></tr><tr><td>Nitrogen balance</td></tr><tr><td>Potassium balance</td></tr><tr><td>Rehydration volume, assumed</td></tr><tr><td>Body composition, bone mineral</td></tr><tr><td>Body composition, cell solids</td></tr><tr><td>Body composition, fat</td></tr><tr><td>Body composition, water</td></tr><tr><td>Lean body mass</td></tr><tr><td>Residual volume (RV)</td></tr><tr><td>Calcium, urine</td></tr><tr></tr></table>",
+  "__source_key": "cl62ayphqcd7x01o68ubadwcn",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Whittle, Michael\">Principal Investigator: Whittle, Michael</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Cuzzi, Jaime\">Co-Investigator: Cuzzi, Jaime</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Herron, Robin\">Co-Investigator: Herron, Robin</a>",
+  "image_name": [
+   "Diagram of Stereophotogrammetry Apparatus"
+  ],
+  "experiment_type_lk": [
+   "Skylab Program"
+  ],
+  "__record_modified_date": "2026-08-23T04:16:52.776713+00:00",
+  "__indexed": "2026-08-23T04:16:52.776713+00:00",
+  "__record_creation_date": "2022-07-28T20:02:50.386Z",
+  "keyword": [
+   "Lung volume measurements",
+   "Calcium",
+   "Energy intake",
+   "Potassium",
+   "Nitrogen",
+   "Body weight",
+   "Body composition",
+   "Body surface area",
+   "Bone density",
+   "Photogrammetry"
+  ],
+  "keyword_name": "Photogrammetry",
+  "__record_size": 172697,
+  "__record_version": 29,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:\r\n<br>\r\nBiostereometrics is the science of measuring, and describing in mathematical terms, the three-dimensional form of biological objects.  Exposure to weightlessness results in a dramatic change in the patterns of muscular activity in the human body insofar as they control posture and are responsible for locomotion.  These changes in muscular activity might be expected to result in changes in the bulk of particular muscle groups, and in the overall energy consumption of the body, which, unless accompanied by a compensating change in food intake, would cause a change in body fat.  Biostereometric analysis of the Skylab crewmembers enabled changes in muscle bulk to be measured, and by examining those areas of the body containing fat deposits enabled general conclusions to be drawn about changes in each Skylab crewmember's body fat.\r\n<P>\r\nAPPROACH:\r\n<br>\r\nThe biostereometric measurements of the Skylab crewmen were made using four-camera stereophotogrammetry, during the immediate preflight and postflight periods of Skylab 2, 3, and 4.  The subjects were weighed within a few minutes of taking the photographs.  Each subject was instructed to stand between two control stands, which provided dimensional information in the three orthogonal axes.  Two cameras in front, and two cameras behind then simultaneously photographed the subject.  The subject was nude except for an athletic supporter, and a skullcap to press his hair down.  To minimize variations in chest volume, photographs were taken in maximal forced exhalation. Between each pair of cameras was a strobe-projector, which through a focusing lens projects a pattern of lines onto the subject's skin, making it easier to visualize during the subsequent plotting process.  The stereophotgrammetry cameras were modified to accept fine-grain glass plates, for dimensional stability of the image.  Duplicate sets of plates were exposed to insure against breakage or camera malfunction.  The equipment was portable, and photographs were taken at Johnson Space Center (JSC), Kennedy Space Center (KSC), and on the recovery ships.  After development the plates were analyzed on a stereoplotter, which derived the three-dimensional coordinates of thousands of points on the body surface, punching them on IBM cards for subsequent computer analysis.  The computer program derived area, shape, and perimeter of between 80 to 100 sections of different parts of the body, the volume of any segment of the body, and of the body as a whole.\r\n<P>\r\nRESULTS:\r\n<br>\r\nMeasurements of leg circumference derived from stereometric analysis were compared to tape measure circumferences obtained on the same day.  A pattern typical of all comparisons made between the two methods, resulted in the stereometric techniques exceeding the tape measurements by 10 to 20 millimeters. There are two probable causes for this difference. Firstly, the stereoscopic photographs were made with the subject standing, whereas the tape measurements were made with the subject supine; the leg volume standing would exceed that supine by the volume of blood and interstitial fluid brought into the leg under the influence of gravity. Secondly, stereometric analysis, being a noncontact method, did not involve the compression of tissues, however small, which resulted from the use of a tape measure. The 10 to 20 millimeter discrepancy between the methods represents a difference in limb volume of 250 to 500 milliliters, which is entirely reasonable for the increased volume of blood and tissue fluid in the leg after transferring from the supine to the standing position.<P>\r\nNext, a comparison was made between the mean preflight weight and volume of the nine Skylab crewmembers and the first postflight determination. Density for all measurements was within the range 0.98 to 1.04 g/cm<sup>2</sup>. This is less than the normal range of density (1.02 to 1.10 g/cm<sup>2</sup>) derived from hydrostatic weighing or gas displacement, because the volume figure includes the residual lung volume, the volume of air enmeshed in the hair, and the volume of those areas which cannot be visualized by the cameras (axillae and perineum). These additional volumes should be reasonably reproducible from one measurement to another on the same subject, except for the hair volume, which is probably the largest single source of error. It is unrealistic to calculate the density of the tissue lost during the course of the flight, as small errors in the volume determination would lead to impossible values for tissue density. Two of the Skylab 4 crewmembers showed little or no weight change, although a redistribution of body volume did occur. Generally speaking, the changes in weight and total body volume were of similar magnitude, and the apparent changes in density were probably not significant.<P>\r\nDifferences between the mean preflight and first postflight measurements of regional and total body volume, and body weight were also analyzed.  It was difficult to reproduce the \"cutoff\" plane between the arms and the trunk; because of this the arm volumes were subjected to considerable random variation. There was no statistically significant difference in mean arm volume between preflight and postflight measurements.  However, the mean losses of volume of 1.2 liters in the head and trunk, and 1.3 liters in the legs, were significantly different from zero (P<0.005). The mean preflight volume of the head and trunk was 45.8 liters, and that of the legs was 18.9 liters, so that the postflight change in volume was proportionately much greater in the legs.<P>\r\nThe head and trunk segments of the body contain the extensively fatty areas of the buttocks and abdomen. It is probable that the volume changes seen in this body segment are due more to changes in fat than to changes in muscle, whereas the legs contain much more muscle than fat, except in the grossly obese, and are more sensitive to changes in muscle bulk. Both regions of the body would be affected by changes in body fluid.<P>\r\nA typical plot of the cross sectional areas of the body shows differences between preflight and postflight measurements in the regions of the head, shoulder, and arms were slight, and resulted from differences in posture. Marked loss of volume is seen in the abdomen, buttocks, and calves, and a less striking loss in the thighs. The abdominal area showed a flattening of the abdomen, and the gluteal region a reduction in volume of the buttocks, both probably resulting predominantly from loss of fat.  All crewmen lost volume from the abdomen, although the loss from this area was much greater in those who showed significant weight loss. The striking reduction in leg volume immediately postflight was investigated in more detail on the Skylab 4 mission, in an attempt to elucidate how much of it resulted from partial muscle atrophy, due to relative disuse of the legs in the weightless environment, and how much represented a purely temporary dehydration. The absolute loss of volume from the thigh and calf was of similar magnitude, although the much smaller dimensions of the calf resulted in a much greater proportional loss and a greater change in cross sectional area.<P>\r\nThe differences between the volume of thigh and calf postflight in the Skylab 4 crewmen and the mean preflight value was analyzed. On recovery day there was a deficit in the lower limbs of nearly 1000 milliliters, which had reduced by about a third by the following day, and had diminished to around 300 milliliters 3 days later. Both calf and thigh volume had returned to preflight values by the measurement made 30 days following recovery. It is clear that at least part of the deficient volume must represent missing fluid, which is replaced within a day or two of recovery, but there is probably also a reduction in bulk of the tissues of the leg. If, as seems probable, this loss of tissue represents partial atrophy of the leg muscles due to relative disuse in zero-gravity, it would probably be restored fairly rapidly on return to Earth, so that the 300 milliliters deficit measured on day 4 postflight may be an under estimate of the total leg muscle lost during the flight.<P>\r\nThe mean loss of leg volume on recovery day was 1.68 liters for the Skylab 2 crew, and 1.12 liters for the Skylab 4 crew. The mean loss on day 1 postflight was 1.06 liters for the Skylab 3 crew, and 0.77 liters for the Skylab 4 crew. While it is not possible directly to compare the Skylab 2 and Skylab 3 crews, there does appear to be a decrease in the loss of leg volume on succeeding missions. On the basis of these measurements, it seems likely that in-flight exercise, which was increased on successive flights, may have acted in opposition to the postflight loss of leg volume. How much of this opposition is mediated by the prevention of muscular atrophy, and how much by an effect on the cardiovascular system, and hence on body fluids, it is not possible to say.<P>\r\nIn conlcusion biostereometric analysis of body form on the nine Skylab astronauts, preflight and postflight, reveals a loss of volume of one to one and one-half liters from the legs, much of which was replaced during the first 4 days postflight. It was estimated that about one third of this loss represented partial atrophy of the leg muscles due to relative disuse in zero-gravity, the remainder being due to a deficit in body fluid. Reduction in volume of the abdomen was noted also; this probably represented a small loss of body fluid, combined with a loss of body fat in all but two of the crewmen. Difficulties in distinguishing between the upper arm and the shoulder regions may have prevented any useful conclusions being drawn from the measurement of arm-volume.<P>\r\nIn contradistinction to any other form of anthropometry, the stereoscopic photographs of the Skylab astronauts are a permanent detailed record of body form, which may be reexamined at some future date to answer new questions, or to take advantage of the increased accuracy resulting from advances in technique.<END>",
+  "payload_id": "Skylab 2",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "SKYFORM",
+  "indexed": "2026-08-23T04:16:52.776713+00:00",
+  "GUID": "cl62ayphqcd7x01o68ubadwcn",
+  "parameter_name": [
+   "Body density",
+   "Body part circumference",
+   "Body volume",
+   "Body weight",
+   "Bone density",
+   "Caloric intake",
+   "Cross-sectional body area",
+   "Exchangeable potassium",
+   "Inflight exercise",
+   "Nitrogen balance",
+   "Potassium balance",
+   "Rehydration volume, assumed",
+   "Body composition, bone mineral",
+   "Body composition, cell solids",
+   "Body composition, fat",
+   "Body composition, water",
+   "Lean body mass",
+   "Residual volume (RV)",
+   "Calcium, urine"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 1077,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Muscle physiology"
+  ],
+  "pme_role_with_name": [
+   "Co-Investigator: Cuzzi, Jaime",
+   "Co-Investigator: Herron, Robin",
+   "Principal Investigator: Whittle, Michael"
+  ],
+  "missions": [
+   [
+    [
+     "Skylab 2"
+    ]
+   ],
+   [
+    [
+     "Skylab 3"
+    ]
+   ],
+   [
+    [
+     "Skylab 4"
+    ]
+   ]
+  ],
+  "__dirid": "28d5d52f-4f32-5b82-ae4e-b3a0533f60f6",
+  "__record_size_wo_doccontent": 172697,
+  "PI": [
+   "Whittle, Michael"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "SKYFORM"
+  ],
+  "mission_id": [
+   [
+    [
+     "Skylab 2"
+    ]
+   ],
+   [
+    [
+     "Skylab 3"
+    ]
+   ],
+   [
+    [
+     "Skylab 4"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "proposal_date": [],
+  "proposal_source": [],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Whittle, Michael"
+  ],
+  "archive_status": "Data preservation is complete. Privacy-protected datasets are available via data request. Remaining datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Skylab",
+  "__source_field_concat": "PUB001166 Skylab 2 cl62ayphqcd7x01o68ubadwcn Photogrammetry  N/A Biostereometric Analysis of Body Form SKYFORM Skylab",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:\r\n<br>\r\nBiostereometrics is the science of measuring, and describing in mathematical terms, the three-dimensional form of biological objects.  Exposure to weightlessness results in a dramatic change in the patterns of muscular activity in the human body insofar as they control posture and are responsible for locomotion.  These changes in muscular activity might be expected to result in changes in the bulk of particular muscle groups, and in the overall energy consumption of the body, which, unless accompanied by a compensating change in food intake, would cause a change in body fat.  Biostereometric analysis of the Skylab crewmembers enabled changes in muscle bulk to be measured, and by examining those areas of the body containing fat deposits enabled general conclusions to be drawn about changes in each Skylab crewmember's body fat.\r\n<P>\r\nAPPROACH:\r\n<br>\r\nThe biostereometric measurements of the Skylab crewmen were made using four-camera stereophotogrammetry, during the immediate preflight and postflight periods of Skylab 2, 3, and 4.  The subjects were weighed within a few minutes of taking the photographs.  Each subject was instructed to stand between two control stands, which provided dimensional information in the three orthogonal axes.  Two cameras in front, and two cameras behind then simultaneously photographed the subject.  The subject was nude except for an athletic supporter, and a skullcap to press his hair down.  To minimize variations in chest volume, photographs were taken in maximal forced exhalation. Between each pair of cameras was a strobe-projector, which through a focusing lens projects a pattern of lines onto the subject's skin, making it easier to visualize during the subsequent plotting process.  The stereophotgrammetry cameras were modified to accept fine-grain glass plates, for dimensional stability of the image.  Duplicate sets of plates were exposed to insure against breakage or camera malfunction.  The equipment was portable, and photographs were taken at Johnson Space Center (JSC), Kennedy Space Center (KSC), and on the recovery ships.  After development the plates were analyzed on a stereoplotter, which derived the three-dimensional coordinates of thousands of points on the body surface, punching them on IBM cards for subsequent computer analysis.  The computer program derived area, shape, and perimeter of between 80 to 100 sections of different parts of the body, the volume of any segment of the body, and of the body as a whole.\r\n<P>\r\nRESULTS:\r\n<br>\r\nMeasurements of leg circumference derived from stereometric analysis were compared to tape measure circumferences obtained on the same day.  A pattern typical of all comparisons made between the two methods, resulted in the stereometric techniques exceeding the tape measurements by 10 to 20 millimeters. There are two probable causes for this difference. Firstly, the stereoscopic photographs were made with the subject standing, whereas the tape measurements were made with the subject supine; the leg volume standing would exceed that supine by the volume of blood and interstitial fluid brought into the leg under the influence of gravity. Secondly, stereometric analysis, being a noncontact method, did not involve the compression of tissues, however small, which resulted from the use of a tape measure. The 10 to 20 millimeter discrepancy between the methods represents a difference in limb volume of 250 to 500 milliliters, which is entirely reasonable for the increased volume of blood and tissue fluid in the leg after transferring from the supine to the standing position.<P>\r\nNext, a comparison was made between the mean preflight weight and volume of the nine Skylab crewmembers and the first postflight determination. Density for all measurements was within the range 0.98 to 1.04 g/cm<sup>2</sup>. This is less than the normal range of density (1.02 to 1.10 g/cm<sup>2</sup>) derived from hydrostatic weighing or gas displacement, because the volume figure includes the residual lung volume, the volume of air enmeshed in the hair, and the volume of those areas which cannot be visualized by the cameras (axillae and perineum). These additional volumes should be reasonably reproducible from one measurement to another on the same subject, except for the hair volume, which is probably the largest single source of error. It is unrealistic to calculate the density of the tissue lost during the course of the flight, as small errors in the volume determination would lead to impossible values for tissue density. Two of the Skylab 4 crewmembers showed little or no weight change, although a redistribution of body volume did occur. Generally speaking, the changes in weight and total body volume were of similar magnitude, and the apparent changes in density were probably not significant.<P>\r\nDifferences between the mean preflight and first postflight measurements of regional and total body volume, and body weight were also analyzed.  It was difficult to reproduce the \"cutoff\" plane between the arms and the trunk; because of this the arm volumes were subjected to considerable random variation. There was no statistically significant difference in mean arm volume between preflight and postflight measurements.  However, the mean losses of volume of 1.2 liters in the head and trunk, and 1.3 liters in the legs, were significantly different from zero (P<0.005). The mean preflight volume of the head and trunk was 45.8 liters, and that of the legs was 18.9 liters, so that the postflight change in volume was proportionately much greater in the legs.<P>\r\nThe head and trunk segments of the body contain the extensively fatty areas of the buttocks and abdomen. It is probable that the volume changes seen in this body segment are due more to changes in fat than to changes in muscle, whereas the legs contain much more muscle than fat, except in the grossly obese, and are more sensitive to changes in muscle bulk. Both regions of the body would be affected by changes in body fluid.<P>\r\nA typical plot of the cross sectional areas of the body shows differences between preflight and postflight measurements in the regions of the head, shoulder, and arms were slight, and resulted from differences in posture. Marked loss of volume is seen in the abdomen, buttocks, and calves, and a less striking loss in the thighs. The abdominal area showed a flattening of the abdomen, and the gluteal region a reduction in volume of the buttocks, both probably resulting predominantly from loss of fat.  All crewmen lost volume from the abdomen, although the loss from this area was much greater in those who showed significant weight loss. The striking reduction in leg volume immediately postflight was investigated in more detail on the Skylab 4 mission, in an attempt to elucidate how much of it resulted from partial muscle atrophy, due to relative disuse of the legs in the weightless environment, and how much represented a purely temporary dehydration. The absolute loss of volume from the thigh and calf was of similar magnitude, although the much smaller dimensions of the calf resulted in a much greater proportional loss and a greater change in cross sectional area.<P>\r\nThe differences between the volume of thigh and calf postflight in the Skylab 4 crewmen and the mean preflight value was analyzed. On recovery day there was a deficit in the lower limbs of nearly 1000 milliliters, which had reduced by about a third by the following day, and had diminished to around 300 milliliters 3 days later. Both calf and thigh volume had returned to preflight values by the measurement made 30 days following recovery. It is clear that at least part of the deficient volume must represent missing fluid, which is replaced within a day or two of recovery, but there is probably also a reduction in bulk of the tissues of the leg. If, as seems probable, this loss of tissue represents partial atrophy of the leg muscles due to relative disuse in zero-gravity, it would probably be restored fairly rapidly on return to Earth, so that the 300 milliliters deficit measured on day 4 postflight may be an under estimate of the total leg muscle lost during the flight.<P>\r\nThe mean loss of leg volume on recovery day was 1.68 liters for the Skylab 2 crew, and 1.12 liters for the Skylab 4 crew. The mean loss on day 1 postflight was 1.06 liters for the Skylab 3 crew, and 0.77 liters for the Skylab 4 crew. While it is not possible directly to compare the Skylab 2 and Skylab 3 crews, there does appear to be a decrease in the loss of leg volume on succeeding missions. On the basis of these measurements, it seems likely that in-flight exercise, which was increased on successive flights, may have acted in opposition to the postflight loss of leg volume. How much of this opposition is mediated by the prevention of muscular atrophy, and how much by an effect on the cardiovascular system, and hence on body fluids, it is not possible to say.<P>\r\nIn conlcusion biostereometric analysis of body form on the nine Skylab astronauts, preflight and postflight, reveals a loss of volume of one to one and one-half liters from the legs, much of which was replaced during the first 4 days postflight. It was estimated that about one third of this loss represented partial atrophy of the leg muscles due to relative disuse in zero-gravity, the remainder being due to a deficit in body fluid. Reduction in volume of the abdomen was noted also; this probably represented a small loss of body fluid, combined with a loss of body fat in all but two of the crewmen. Difficulties in distinguishing between the upper arm and the shoulder regions may have prevented any useful conclusions being drawn from the measurement of arm-volume.<P>\r\nIn contradistinction to any other form of anthropometry, the stereoscopic photographs of the Skylab astronauts are a permanent detailed record of body form, which may be reexamined at some future date to answer new questions, or to take advantage of the increased accuracy resulting from advances in technique.<END>",
+  "__doi": "10.83263/am8v-fd03",
+  "__doi_record_creation_date": "2026-08-23T04:16:52",
+  "__doi_record_modified_date": "2026-08-23T04:16:52"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000403",
+   "label": "JMSKYSKYFORM_16",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Part-by-part volume of the body",
+    "dataset_catalog": "JMSKYSKYFORM_16",
+    "dataset_description": [
+     "Table gives the upper and lower cutoff levels for the fourteen body parts analyzed by the volume calculation program.  Source: Whittle MW. Caloric and exercise requirements of space flight: biostereometric results from Skylab. Aviat. Space Environ. Med. 1979 Feb;50(2):162-7.<END>"
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "SKYFORM"
+    ]
+   },
+   "meta": "3 files \u00b7 45.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "d4612206-e553-588d-bb17-700ff23b478a",
+     "label": "JMSKYSKYFORM_16.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 15360,
+     "meta": "15.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4584c069-3f0e-5744-89e1-91c833580d60",
+     "label": "JMSKYSKYFORM_16.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 15360,
+     "meta": "15.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "af76b34b-3cb5-591b-92d7-063d1ddebd68",
+     "label": "JMSKYSKYFORM_16.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 15360,
+     "meta": "15.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000850",
+   "label": "JMSKYSKYFORM_38",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Equations for the best estimates of immediate postflight change in volume and weight.",
+    "dataset_catalog": "JMSKYSKYFORM_38",
+    "dataset_description": [
+     "Table summarizes the equations for the best estimates of the changes in postflight regional and total body volume, and body weight.  Where the caloric needs were adjusted to 49 kcal/day/kg lean body mass (LBM), the rehydration volume was also adjusted, so that the equation still balanced. <BR>\r\nSource: Whittle MW. Caloric and exercise requirements of space flight: biostereometric results from Skylab. Aviat. Space Environ. Med. 1979 Feb;50(2):162-7."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "SKYFORM"
+    ]
+   },
+   "meta": "3 files \u00b7 45.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "4e6da685-4462-5988-937d-a463b0c2e25e",
+     "label": "JMSKYSKYFORM_38.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 15360,
+     "meta": "15.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ea0335f6-02e2-56ea-92e7-fe1d9d7e639f",
+     "label": "JMSKYSKYFORM_38.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 15360,
+     "meta": "15.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "67011060-cbe3-50af-bbb8-bcad4aaabe44",
+     "label": "JMSKYSKYFORM_38.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 15360,
+     "meta": "15.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000725",
+   "label": "JMSKYSKYFORM_46",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Postflight mean changes in regional body volume",
+    "dataset_catalog": "JMSKYSKYFORM_46",
+    "dataset_description": [
+     "Graph depicting the postflight mean changes in regional body volumes for each of the nine Skylab crewmembers.  Body regions shown include head and neck, arms, chest, abdomen, and feet.<BR>Source: Whittle MW. Caloric and exercise requirements of space flight: biostereometric results from Skylab. Aviat. Space Environ. Med. 1979 Feb;50(2):162-7."
+    ],
+    "processing_level": [
+     "Analyzed",
+     "Analyzed",
+     "Analyzed",
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "SKYFORM"
+    ]
+   },
+   "meta": "3 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "af967e49-6c1d-53b3-8d5e-6aa6a5ecacb5",
+     "label": "JMSKYSKYFORM_46.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "bb37fea1-f40b-5f91-90a0-d3c5cd8fc240",
+     "label": "JMSKYSKYFORM_46.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5a0c0327-8d7b-54d8-bd39-ecb296be5bd2",
+     "label": "JMSKYSKYFORM_46.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000327",
+   "label": "JMSKYSKYFORM_47",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Postflight mean changes in total and regional body volume",
+    "dataset_catalog": "JMSKYSKYFORM_47",
+    "dataset_description": [
+     "Graph depicting the postflight mean changes in toal and regional body volumes for each of the nine Skylab crewmembers.  Body regions shown include buttocks, thighs and calves.<BR>Source: Whittle MW. Caloric and exercise requirements of space flight: biostereometric results from Skylab. Aviat. Space Environ. Med. 1979 Feb;50(2):162-7."
+    ],
+    "processing_level": [
+     "Analyzed",
+     "Analyzed",
+     "Analyzed",
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "SKYFORM"
+    ]
+   },
+   "meta": "3 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "3a9d0ad6-3097-54ff-a97b-fe43dba5696c",
+     "label": "JMSKYSKYFORM_47.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3c9d0096-2e01-5c5d-9584-7d838518002b",
+     "label": "JMSKYSKYFORM_47.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6fb5f6fc-a087-5e1e-aaac-670e75eac1c2",
+     "label": "JMSKYSKYFORM_47.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002095",
+   "label": "JMSKYSKYFORM_34",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Results of paired t-test between different estimates of lean body mass (LBM)",
+    "dataset_catalog": "JMSKYSKYFORM_34",
+    "dataset_description": [
+     "Table shows the results of a paired t-test examination which used five different methods of LBM estimation.  The difference between the means of the five different LBM estimations were used for the calculations.  Source: Whittle MW. Caloric and exercise requirements of space flight: biostereometric results from Skylab. Aviat. Space Environ. Med. 1979 Feb;50(2):162-7.<END>"
+    ],
+    "processing_level": [
+     "Summarized",
+     "Summarized"
+    ],
+    "experiment_id": [
+     "SKYFORM"
+    ]
+   },
+   "meta": "3 files \u00b7 42.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "4eb73171-1d31-5501-8280-9bc993658b67",
+     "label": "JMSKYSKYFORM_34.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 14336,
+     "meta": "14.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b38b8e6e-0ac8-5ae8-93df-f30edde99064",
+     "label": "JMSKYSKYFORM_34.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 14336,
+     "meta": "14.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "91cf0aec-db6e-5e32-9a37-8f9d218e8dc8",
+     "label": "JMSKYSKYFORM_34.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 14336,
+     "meta": "14.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000627",
+   "label": "JMSKYSKYFORM_45",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Mean body mass of Skylab astronauts around launch and recovery",
+    "dataset_catalog": "JMSKYSKYFORM_45",
+    "dataset_description": [
+     "Figure showing the mean changes in body mass that occurred around the time of launch and recovery, for the nine Skylab crewmember's.<BR>Source: Whittle MW. Caloric and exercise requirements of space flight: biostereometric results from Skylab. Aviat. Space Environ. Med. 1979 Feb;50(2):162-7.<END>"
+    ],
+    "processing_level": [
+     "Analyzed",
+     "Analyzed",
+     "Analyzed",
+     "Analyzed",
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "SKYFORM"
+    ]
+   },
+   "meta": "3 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "b41cf797-f803-50f1-8f5c-3525a1c0fad0",
+     "label": "JMSKYSKYFORM_45.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "19e200ac-64a6-537b-84af-a058e33df615",
+     "label": "JMSKYSKYFORM_45.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "77789c98-de2d-5130-a373-be55aabb70cc",
+     "label": "JMSKYSKYFORM_45.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000404",
+   "label": "JMSKYSKYFORM_37",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Regression analysis of changes in body volume",
+    "dataset_catalog": "JMSKYSKYFORM_37",
+    "dataset_description": [
+     "Table shows the results of examining the immediate postflight volume changes of the Skylab crewmembers by regression analysis.  Calculations were made using nine separate mean body regions volumes, mean whole body volume, and mean body weight (kg). <BR>Source: Whittle MW. Caloric and exercise requirements of space flight: biostereometric results from Skylab. Aviat. Space Environ. Med. 1979 Feb;50(2):162-7.<END>"
+    ],
+    "processing_level": [
+     "Summarized",
+     "Summarized",
+     "Summarized"
+    ],
+    "experiment_id": [
+     "SKYFORM"
+    ]
+   },
+   "meta": "3 files \u00b7 46.5 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "51d50c41-ea8c-5c95-ba45-b564313b4420",
+     "label": "JMSKYSKYFORM_37.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 15872,
+     "meta": "15.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "45927cb2-a34f-589c-8261-25cdfd7225f4",
+     "label": "JMSKYSKYFORM_37.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 15872,
+     "meta": "15.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6bad5d94-6345-59c5-b933-391483772b46",
+     "label": "JMSKYSKYFORM_37.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 15872,
+     "meta": "15.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000209",
+   "label": "JMSKYSKYFORM_32",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Postflight changes in total and regional body volume",
+    "dataset_catalog": "JMSKYSKYFORM_32",
+    "dataset_description": [
+     "This table gives the mean change from preflight values of the regional and total body volume for each of the Skylab flight crews, at each of the postflight measurement sessions (data from subject L were omitted).  Nine separate regional body volumes were measured as well as the total body volume.<BR>Source: Whittle MW. Caloric and exercise requirements of space flight: biostereometric results from Skylab. Aviat. Space Environ. Med. 1979 Feb;50(2):162-7.<END>"
+    ],
+    "processing_level": [
+     "Analyzed",
+     "Analyzed",
+     "Analyzed",
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "SKYFORM"
+    ]
+   },
+   "meta": "3 files \u00b7 48.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "d3305257-59aa-5311-8610-27cd292593e5",
+     "label": "JMSKYSKYFORM_32.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 16384,
+     "meta": "16.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3b87e783-2639-5d3e-9c6a-c5c8761e114d",
+     "label": "JMSKYSKYFORM_32.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 16384,
+     "meta": "16.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "462ae9e1-6603-5cfe-8ec1-c477dd674177",
+     "label": "JMSKYSKYFORM_32.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 16384,
+     "meta": "16.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000724",
+   "label": "JMSKYSKYFORM_31",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Preflight and immediate postflight regional and total body volume and body weight",
+    "dataset_catalog": "JMSKYSKYFORM_31",
+    "dataset_description": [
+     "This table summarizes the preflight and immediate postflight mean volume of each of nine separate body regions, and the total body volume and weight.  The preflight and postflight percent variability, difference between preflight and postflight measurements and level of significance are also given.  Source: Whittle MW. Caloric and exercise requirements of space flight: biostereometric results from Skylab. Aviat. Space Environ. Med. 1979 Feb;50(2):162-7.<END>"
+    ],
+    "processing_level": [
+     "Summarized",
+     "Summarized",
+     "Summarized",
+     "Summarized"
+    ],
+    "experiment_id": [
+     "SKYFORM"
+    ]
+   },
+   "meta": "3 files \u00b7 48.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "8224901a-3ba1-5d95-a31d-2127b5b284c8",
+     "label": "JMSKYSKYFORM_31.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 16384,
+     "meta": "16.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c637f459-c838-5b31-ad62-cd357576c947",
+     "label": "JMSKYSKYFORM_31.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 16384,
+     "meta": "16.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "274ac07e-b60e-532d-992e-385f56de1b17",
+     "label": "JMSKYSKYFORM_31.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 16384,
+     "meta": "16.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,13 @@
+ID,Campaign,Subject,Date,Test_Phase,BR_Day,Test,Position,Value,Units,Acceptable Range Lower Bound,Acceptable Range Upper Bound,NOTES
+1,MEDES2,L2,9/13/2005,PRE_TEST,18,Knee Concentric Strength,Extension at 60°/sec,94.6,ft-lb,30,250,NA
+2,MEDES2,L2,9/13/2005,PRE_TEST,18,Knee Concentric Strength,Extension at 180°/sec,71.3,ft-lb,30,250,NA
+3,MEDES2,L2,9/13/2005,PRE_TEST,18,Knee Concentric Strength,Flexion at 60°/sec,66.6,ft-lb,20,150,NA
+4,MEDES2,L2,9/13/2005,PRE_TEST,18,Knee Concentric Strength,Flexion at 180°/sec,50.4,ft-lb,20,150,NA
+5,MEDES2,L2,9/13/2005,PRE_TEST,18,Knee Concentric Endurance,Extension at 180°/sec,1014.2,ft-lb,500,3000,NA
+6,MEDES2,L2,9/13/2005,PRE_TEST,18,Knee Concentric Endurance,Flexion at 180°/sec,675.6,ft-lb,200,3000,NA
+7,MEDES2,L2,9/13/2005,PRE_TEST,18,Ankle Concentric Strength,Extension at 30°/sec,117.1,ft-lb,20,150,NA
+8,MEDES2,L2,9/13/2005,PRE_TEST,18,Ankle Concentric Strength,Flexion at 30°/sec,23.2,ft-lb,0,50,NA
+9,MEDES2,L2,9/13/2005,PRE_TEST,18,Ankle Eccentric Strength,Extension at 30°/sec,NA,ft-lb,20,200,Data recorded are not realistic
+10,MEDES2,L2,9/13/2005,PRE_TEST,18,Ankle Eccentric Strength,Flexion at 30°/sec,NA,ft-lb,10,100,Data recorded are not realistic
+11,MEDES2,L2,9/13/2005,PRE_TEST,18,Back Concentric Strength,Extension at 60°/sec,187.8,ft-lb,50,300,NA
+12,MEDES2,L2,9/13/2005,PRE_TEST,18,Back Concentric Strength,Flexion at 60°/sec,79.5,ft-lb,50,300,NA

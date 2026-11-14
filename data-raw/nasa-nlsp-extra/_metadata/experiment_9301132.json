@@ -1,0 +1,1470 @@
+{
+ "record": {
+  "id": "4c02c2c4-5830-5caa-9c70-398296a6c811",
+  "_id": "4c02c2c4-5830-5caa-9c70-398296a6c811",
+  "experiment_title": "CNS Control of Rhythms and Homeostasis During Space Flight",
+  "pub_document_number": "ARCPUB000434",
+  "experiment_alias": [
+   "E132"
+  ],
+  "parameter_html": "<table><tr><td>Activity, circadian rhythm, Rat, primate, Microgravity</td></tr><tr><td>Activity, Heart rate, rat, Implanted EKG electrodes, downlink telemetry</td></tr><tr><td>Activity, Heart rate, rat, Implanted transmitter, continuous EKG, rate algorithm</td></tr><tr><td>Consumption, Diet, rat, primate, Measured food</td></tr><tr><td>Consumption, Diet, rat, primate, Measured water</td></tr><tr><td>Temperature, Body, rat, Biotelemetry implant, computer</td></tr><tr><td>Whole body weight, balance (CGS units)</td></tr><tr></tr></table>",
+  "__source_key": "cl62au4nmcb0h01o64m1y6oy7",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Fuller, Charles\">Principal Investigator: Fuller, Charles</a>",
+  "keyword": [
+   "Photoperiod",
+   "Rotation",
+   "Proto-oncogene proteins",
+   "Suprachiasmatic nucleus",
+   "Homeostasis",
+   "Circadian rhythm"
+  ],
+  "keyword_name": "Circadian rhythm",
+  "__record_version": 29,
+  "experiment_description": "<B>Objectives:</B><P>Research has shown that the static gravitational field of the Earth and the dynamic cyclic changes caused by the Earth\u00ef\u00bf\u00bds rotation are two important selective pressures that shaped the evolution of biological organisms. Many features of an animal\u00ef\u00bf\u00bds physiology and behavior are a consequence of both static and dynamic geophysical influences. The circadian timing system (CTS) is one important temporal organizer controlling both physiology and behavior. Animals (including humans) exposed to microgravity exhibit alterations in both CTS function and homeostasis. These experiments examined the effects of space flight on the physiology of the CTS and the homeostatic control system of animals, specifically: 1) circadian rhythms; 2) neural responses of the circadian pacemaker and the sensory pathway for light information from the retina to the CTS; 3) adaptations in homeostatic regulation; and 4) neural changes in hypothalamic nuclei that regulate specific homeostatic functions.<P><B>Approach:</B><P>Six flight rats and ground control rats (six flight simulated and six vivarium controls) were utilized in one set of experiments. Twelve flight rats and two sets of ground control rats (12 simulated and 12 vivarium) were used in another set of experiments. The rodents were implanted with biotelemetry units to monitor circadian rhythms of body temperature, heart rate, and activity. In addition, eating and drinking was monitored for all rats. To examine the space flight effect on circadian and homeostatic regulation of physiological and behavioral functions, rats were exposed to 24-hour light/dark cycles (LD) consisting of 12 hours of light (approximately 30 lux) followed by 12 hours of darkness. The circadian rhythms and daily mean of rat body temperature, heart rate, feeding, drinking and activity (as a measure of homeostasis) were compared. To examine the space flight effect on free-running circadian rhythm characteristics, a subset of rats was maintained in a constant light condition (LL). Data were analyzed to determine circadian rhythms and results were compared to those of rats exposed to 24 -hour light/dark cycles. To examine the space flight effect on the pattern of c-Fos synthesis in hypothalamic nuclei, and whether it alters the effect of light pulses to induce c-Fos expression in the central nervous system, one group of rats received a one-hour pulse of light during the dark cycle. Another group was not exposed to a pulse of light. The brains and eyes from both groups were then removed and sections of the hypothalamus were histochemically stained for c-Fos reactive neurons.<P><B>Results:</B><P>The LL flight rats exhibited an increase (p<0.001) in free-running period of body temperature and heart rate relative to controls. The periods returned to preflight values after landing. The LL flight animals maintained internal phase angle relationships between rhythms compared with controls. The LD flight rats remained entrained to the LD cycle; however, they evidenced a pronounced phase delay in body temperature, suggesting an increase in period, compared to controls. The LD flight rats also demonstrated a decrease in body temperature and a change in the daily waveform compared to controls. Both the LD and LL flight rats and controls exhibited an increase in heart rate, suggesting a possible caging effect. Finally, the Flight Day 2 flight animals demonstrated a reduced sensitivity to light as evidenced by highly attenuated c-Fos immunoreactivity in the SCN compared to controls. The sensitivity to light of the flight animals returned to preflight and control levels by Flight Day 14. These findings demonstrate that microgravity affects the circadian clock, including the clock\u00ef\u00bf\u00bds ability to maintain temporal organization and to properly entrain to an external LD cycle.",
+  "indexed": "2026-08-23T04:08:59.103930+00:00",
+  "GUID": "cl62au4nmcb0h01o64m1y6oy7",
+  "__model_type": "lsda_experiment",
+  "__dirid": "4c02c2c4-5830-5caa-9c70-398296a6c811",
+  "__record_size_wo_doccontent": 85232,
+  "experiment_parms_tissue2": "NULL",
+  "experiment_parms_tissue1": "NULL",
+  "__update_method": "Update CDM",
+  "archive_status_index": 1,
+  "experiment_type_lk": [
+   "Shuttle Life Sciences Research (Spacelab)"
+  ],
+  "__record_modified_date": "2026-08-23T04:08:59.103930+00:00",
+  "proposal_source": [
+   "AO93-OLMSA-01-132"
+  ],
+  "__indexed": "2026-08-23T04:08:59.103930+00:00",
+  "alias": [
+   "E132"
+  ],
+  "session_type": "Flight",
+  "__record_creation_date": "2022-07-28T19:41:37.565Z",
+  "__record_size": 85232,
+  "__model_version": 60,
+  "payload_id": "Neurolab",
+  "CombinedSpecies": [
+   [
+    "Rat (Rattus norvegicus) Fischer 344"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "9301132",
+  "experiment_related": [
+   "COS 2229-4",
+   "9303024",
+   "8809A09",
+   "8808A06"
+  ],
+  "parameter_name": [
+   "Activity, circadian rhythm, Rat, primate, Microgravity",
+   "Activity, Heart rate, rat, Implanted EKG electrodes, downlink telemetry",
+   "Activity, Heart rate, rat, Implanted transmitter, continuous EKG, rate algorithm",
+   "Consumption, Diet, rat, primate, Measured food",
+   "Consumption, Diet, rat, primate, Measured water",
+   "Temperature, Body, rat, Biotelemetry implant, computer",
+   "Whole body weight, balance (CGS units)"
+  ],
+  "exp_index": 727,
+  "research_area": [
+   "Chronobiology",
+   "Neuroscience"
+  ],
+  "protocol_approach": "Delayed synchronous control",
+  "pme_role_with_name": [
+   "ARC Deputy Payload Scientist: Hinds, Kathleen",
+   "ARC Experiment Support Scientist: Dela Cruz, Angelo",
+   "ARC Payload Manager: Maese, Albert",
+   "ARC Payload Scientist: Howerton, Thomas",
+   "ARC Project Scientist: Ostrach, Louis",
+   "Principal Investigator: Fuller, Charles"
+  ],
+  "missions": [
+   [
+    [
+     "STS-90"
+    ]
+   ]
+  ],
+  "PI": [
+   "Fuller, Charles"
+  ],
+  "_file_extension": [],
+  "experiment_identifier": [
+   "9301132",
+   "E132"
+  ],
+  "mission_id": [
+   [
+    [
+     "STS-90"
+    ]
+   ]
+  ],
+  "center": [
+   "Ames Research Center"
+  ],
+  "ncindex": [
+   7
+  ],
+  "proposal_date": [
+   "11/25/1993"
+  ],
+  "species": [
+   "Rat"
+  ],
+  "PrincipalInvestigator": [
+   "Fuller, Charles"
+  ],
+  "program_name": [
+   "Shuttle Program"
+  ],
+  "archive_status": "Data preservation is complete. All datasets are publicly available.",
+  "__is_locked": false,
+  "Program": "Shuttle Program",
+  "__source_field_concat": "Flight ARCPUB000434 Neurolab cl62au4nmcb0h01o64m1y6oy7 Circadian rhythm NULL NULL Delayed synchronous control CNS Control of Rhythms and Homeostasis During Space Flight 9301132 Shuttle Program Data preservation is complete. All datasets are publicly available.",
+  "__icon_type": "rat",
+  "__description": "<B>Objectives:</B><P>Research has shown that the static gravitational field of the Earth and the dynamic cyclic changes caused by the Earth\u00ef\u00bf\u00bds rotation are two important selective pressures that shaped the evolution of biological organisms. Many features of an animal\u00ef\u00bf\u00bds physiology and behavior are a consequence of both static and dynamic geophysical influences. The circadian timing system (CTS) is one important temporal organizer controlling both physiology and behavior. Animals (including humans) exposed to microgravity exhibit alterations in both CTS function and homeostasis. These experiments examined the effects of space flight on the physiology of the CTS and the homeostatic control system of animals, specifically: 1) circadian rhythms; 2) neural responses of the circadian pacemaker and the sensory pathway for light information from the retina to the CTS; 3) adaptations in homeostatic regulation; and 4) neural changes in hypothalamic nuclei that regulate specific homeostatic functions.<P><B>Approach:</B><P>Six flight rats and ground control rats (six flight simulated and six vivarium controls) were utilized in one set of experiments. Twelve flight rats and two sets of ground control rats (12 simulated and 12 vivarium) were used in another set of experiments. The rodents were implanted with biotelemetry units to monitor circadian rhythms of body temperature, heart rate, and activity. In addition, eating and drinking was monitored for all rats. To examine the space flight effect on circadian and homeostatic regulation of physiological and behavioral functions, rats were exposed to 24-hour light/dark cycles (LD) consisting of 12 hours of light (approximately 30 lux) followed by 12 hours of darkness. The circadian rhythms and daily mean of rat body temperature, heart rate, feeding, drinking and activity (as a measure of homeostasis) were compared. To examine the space flight effect on free-running circadian rhythm characteristics, a subset of rats was maintained in a constant light condition (LL). Data were analyzed to determine circadian rhythms and results were compared to those of rats exposed to 24 -hour light/dark cycles. To examine the space flight effect on the pattern of c-Fos synthesis in hypothalamic nuclei, and whether it alters the effect of light pulses to induce c-Fos expression in the central nervous system, one group of rats received a one-hour pulse of light during the dark cycle. Another group was not exposed to a pulse of light. The brains and eyes from both groups were then removed and sections of the hypothalamus were histochemically stained for c-Fos reactive neurons.<P><B>Results:</B><P>The LL flight rats exhibited an increase (p<0.001) in free-running period of body temperature and heart rate relative to controls. The periods returned to preflight values after landing. The LL flight animals maintained internal phase angle relationships between rhythms compared with controls. The LD flight rats remained entrained to the LD cycle; however, they evidenced a pronounced phase delay in body temperature, suggesting an increase in period, compared to controls. The LD flight rats also demonstrated a decrease in body temperature and a change in the daily waveform compared to controls. Both the LD and LL flight rats and controls exhibited an increase in heart rate, suggesting a possible caging effect. Finally, the Flight Day 2 flight animals demonstrated a reduced sensitivity to light as evidenced by highly attenuated c-Fos immunoreactivity in the SCN compared to controls. The sensitivity to light of the flight animals returned to preflight and control levels by Flight Day 14. These findings demonstrate that microgravity affects the circadian clock, including the clock\u00ef\u00bf\u00bds ability to maintain temporal organization and to properly entrain to an external LD cycle.",
+  "__doi": "10.83263/9mhy-v533",
+  "__doi_record_creation_date": "2026-08-23T04:08:59",
+  "__doi_record_modified_date": "2026-08-23T04:08:59"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000390",
+   "label": "AINV0000000631",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Inflight Food Consumption Data, Integrated Neuronal Plasticity Sim-Caged Group",
+    "dataset_catalog": "AINV0000000631",
+    "dataset_description": [
+     "This file contains inflight food consumption data for the Integrated Neuronal Plasticity Sim-Caged group (96 hour delayed control). Data was collected from 4/19/98 to 5/7/98 (Sim cage \u2018flight\u2019). Data is presented raw, by animal number and date. Food consumption is measured in grams (not labeled on the chart). Note: animal number is presented in a decimal format."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9301085",
+     "9301118",
+     "9301127 1_2",
+     "9301132"
+    ]
+   },
+   "meta": "4 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "521d394c-9604-53f7-9491-43c2e20ea7b2",
+     "label": "NP Sim food 4_19_5_7.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "07ba132b-20a1-5d56-aa31-d60d4a1e211f",
+     "label": "NP Sim food 4_19_5_7.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "15b3673d-3db5-5456-b434-3d7640e65656",
+     "label": "NP Sim food 4_19_5_7.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "33a3caa9-b6e0-5ad6-9d42-785faf82c4e1",
+     "label": "NP Sim food 4_19_5_7.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001927",
+   "label": "AINV0000000626",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Postflight Food and Water Consumption Data, Integrated Neuronal Plasticity Flight Group",
+    "dataset_catalog": "AINV0000000626",
+    "dataset_description": [
+     "This file contains postflight Food and Water consumption data for the Integrated Neuronal Plasticity flight animals (for the animals remaining postflight; 13 were dissected inflight and five were dissected on R+1)."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9301085",
+     "9301118",
+     "9301127 1_2",
+     "9301132"
+    ]
+   },
+   "meta": "4 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "c9aaa5bc-4092-5d9c-9537-4097ce2c423c",
+     "label": "R+30 NP E132 RAHF postCU.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9b6d9a01-5d80-5d3f-b728-d36904de3f6f",
+     "label": "R+30 NP E132 RAHF postCU.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3cd5d858-090f-559c-8ceb-817188257995",
+     "label": "R+30 NP E132 RAHF postCU.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1eb0c8ef-ac44-5e9e-b370-f632307b4aff",
+     "label": "R+30 NP E132 RAHF postCU.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001928",
+   "label": "AINV0000000638",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Postflight Food and Water Consumption Data, Integrated Neuronal Plasticity Vivarium-Caged Group",
+    "dataset_catalog": "AINV0000000638",
+    "dataset_description": [
+     "This file contains postflight Food and Water consumption data for the Integrated Neuronal Plasticity Vivarium animals (for the 6 remaining postflight; 13 were dissected inflight and 5 were dissected at the end of the control session). (4 day delayed control)"
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9301085",
+     "9301118",
+     "9301127 1_2",
+     "9301132"
+    ]
+   },
+   "meta": "4 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "12e306de-4c98-5729-a912-ff2bb8462c51",
+     "label": "R+30 NP E132 VIV postCU.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b2482690-7073-5e61-8d5e-00f59cd5d50d",
+     "label": "R+30 NP E132 VIV postCU.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c9ba3440-3281-5dec-9e0e-804d740b0f1c",
+     "label": "R+30 NP E132 VIV postCU.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "fe812191-9118-55d8-a62a-ac78aa0bf656",
+     "label": "R+30 NP E132 VIV postCU.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000139",
+   "label": "AINV0000000627",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Inflight Water Consumption Data, Integrated Neuronal Plasticity Flight Group",
+    "dataset_catalog": "AINV0000000627",
+    "dataset_description": [
+     "Inflight water consumption data for Integrated Neuronal Plasticity flight animals. Data is presented raw, by animal number and date. Water consumption is measured in milliliters (not labeled on the chart). Comparison with simulated and vivarium control groups is also presented."
+    ],
+    "processing_level": [
+     "Processed<br/>Raw"
+    ],
+    "experiment_id": [
+     "9301085",
+     "9301118",
+     "9301127 1_2",
+     "9301132"
+    ]
+   },
+   "meta": "4 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "0d8b4ed6-ef3d-536e-8d8a-71baa47c21f8",
+     "label": "NP Flt water 4_15_5_1.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6f3de08b-f1a2-5d7e-aebd-533dc1601f4d",
+     "label": "NP Flt water 4_15_5_1.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4e5fca0f-3955-55f2-b5e3-4ff0435fa569",
+     "label": "NP Flt water 4_15_5_1.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9ac92956-06f9-531d-afc8-eefb54f8c755",
+     "label": "NP Flt water 4_15_5_1.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002019",
+   "label": "AINV0000000639",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Inflight Water Consumption Data, Integrated Neuronal Plasticity Vivarium-Caged Group",
+    "dataset_catalog": "AINV0000000639",
+    "dataset_description": [
+     "This file contains inflight water consumption data for the Integrated Neuronal Plasticity Vivarium-Caged group (48 hour delayed control). Data was collected from 4/17/98 to 5/5/98 (during Viv-cage \u2018flight\u2019). Data is presented raw, by animal number and date. Water consumption is measured in grams (not labeled on the chart)."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9301085",
+     "9301118",
+     "9301127 1_2",
+     "9301132"
+    ]
+   },
+   "meta": "4 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "60cdc2cf-e20c-5b9f-b212-6330cc055cd7",
+     "label": "NP Viv Water _4_17_5_5.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e8fda337-0c37-5bc5-a186-3224573e5828",
+     "label": "NP Viv Water _4_17_5_5.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "28a80e2e-0d3f-58e3-9b97-548f16bd4518",
+     "label": "NP Viv Water _4_17_5_5.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9513c31f-dc13-5cfa-8933-a79e1db29e30",
+     "label": "NP Viv Water _4_17_5_5.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000113",
+   "label": "AINV0000000939",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "CNS Control of Rhythms and Homeostasis During Space Flight",
+    "dataset_catalog": "AINV0000000939",
+    "dataset_description": [
+     "No data submitted by PI.  Refer to publication citations listed in experiment information for summarized and analyzed data."
+    ],
+    "processing_level": [],
+    "experiment_id": [
+     "9301132"
+    ]
+   },
+   "meta": "0 files",
+   "date": "2022-07-28",
+   "children": []
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002389",
+   "label": "AINV0000000632",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Postflight Food and Water Consumption Data, Neuronal Plasticity Sim-Caged Group",
+    "dataset_catalog": "AINV0000000632",
+    "dataset_description": [
+     "This file contains postflight food and water consumption data for the Integrated Neuronal Plasticity Sim-caged animals (for the 6 remaining postflight; 13 were dissected inflight and 5 were dissected at the end of the simulation). (96-hour delayed control)"
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9301085",
+     "9301118",
+     "9301127 1_2",
+     "9301132"
+    ]
+   },
+   "meta": "4 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "29e216d2-d893-5f6a-8ea1-d50caa1acfe6",
+     "label": "R+30 NP E132 simRAHF postCU.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "697ad80d-1960-559e-b8cc-29e8070aa588",
+     "label": "R+30 NP E132 simRAHF postCU.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "038ee87e-f89a-5d18-ab24-395342fbec36",
+     "label": "R+30 NP E132 simRAHF postCU.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f2bb17be-4199-5ece-8bc4-3599208dc660",
+     "label": "R+30 NP E132 simRAHF postCU.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002020",
+   "label": "AINV0000000636",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Preflight Food and Water Consumption Data, Integrated Neuronal Plasticity Vivarium Group",
+    "dataset_catalog": "AINV0000000636",
+    "dataset_description": [
+     "This file contains preflight and limited postflight food and water consumption data for the Integrated Neuronal Plasticity Vivarium animal pool. Most of the data in this file is from the preflight period. Data was collected from 2/2/98 to 5/16/98. Data is presented raw, by animal number and date. Food and water consumption is measured in grams (not labeled on the chart)."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9301085",
+     "9301118",
+     "9301127 1_2",
+     "9301132"
+    ]
+   },
+   "meta": "4 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "42e097cf-ab78-5db2-9a36-3780bff115b2",
+     "label": "Viv food_water NP.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c80e471a-2e1f-5675-87da-15f9ba0b375c",
+     "label": "Viv food_water NP.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "503fca0a-c649-5360-9a35-ef7df6f2bca9",
+     "label": "Viv food_water NP.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7ae3ec03-a41b-5b5e-a2f2-4b383d95fdbe",
+     "label": "Viv food_water NP.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000233",
+   "label": "AINV0000000630",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Preflight Food and Water Consumption Data, Integrated Neuronal Plasticity Sim-Caged Group",
+    "dataset_catalog": "AINV0000000630",
+    "dataset_description": [
+     "This file contains preflight food and water consumption data for the Integrated Neuronal Plasticity Sim-Caged animal pool. Data was collected from 2/2/98 to 4/19/98 (Sim cage load). Data is presented raw, by animal number and date. Food consumption and water consumption is measured in grams (not labeled on the chart). Some body-weight data points are also included."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9301085",
+     "9301118",
+     "9301127 1_2",
+     "9301132"
+    ]
+   },
+   "meta": "4 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "e7ad25ac-530a-5b8e-94c2-8636a4cfe6b3",
+     "label": "NP Sim food_water_body wt.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "781e676d-6095-51b3-84a4-41e421899c9d",
+     "label": "NP Sim food_water_body wt.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "dacce67c-e349-520e-93b3-78af19bba672",
+     "label": "NP Sim food_water_body wt.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8b1efa3f-2d16-5390-80d0-4015ebecab45",
+     "label": "NP Sim food_water_body wt.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000300",
+   "label": "AINV0000000625",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Inflight Food Consumption Data, Integrated Neuronal Plasticity Flight Group",
+    "dataset_catalog": "AINV0000000625",
+    "dataset_description": [
+     "Inflight food consumption data for Integrated Neuronal Plasticity flight animals. Data is presented raw, by animal number and date. Food consumption is measured in grams. A comparison with Sim-caged and Vivarium averages is also presented."
+    ],
+    "processing_level": [
+     "Raw<br/>Processed"
+    ],
+    "experiment_id": [
+     "9301085",
+     "9301118",
+     "9301127 1_2",
+     "9301132"
+    ]
+   },
+   "meta": "4 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "b801adab-9d4b-52f7-99b5-f8165097ed36",
+     "label": "NP Flt Food4_14_5_3.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8c44bebf-aff0-5e89-8921-fe669a12d8d4",
+     "label": "NP Flt Food4_14_5_3.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "781b6a13-11c4-590d-8038-ed48af9a6fa8",
+     "label": "NP Flt Food4_14_5_3.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d846419a-c9f9-501c-b7a6-51dbb73ff30f",
+     "label": "NP Flt Food4_14_5_3.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001551",
+   "label": "AINV0000000633",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Inflight Water Consumption Data, Integrated Neuronal Plasticity Sim-Caged Group",
+    "dataset_catalog": "AINV0000000633",
+    "dataset_description": [
+     "This file contains inflight water consumption data for the Integrated Neuronal Plasticity Sim-Caged group (96 hour delayed control). Data was collected from 4/19/98 to 5/7/98 (Sim-cage \u2018flight\u2019). Data is presented raw, by animal number and date. Water consumption is measured in milliliters (not labeled on the chart)."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9301085",
+     "9301118",
+     "9301127 1_2",
+     "9301132"
+    ]
+   },
+   "meta": "4 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "6fc57ed7-7163-525a-a6b1-8aae273a2d3d",
+     "label": "NP Sim water_4_19_5_7.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "40eeb2a9-4058-5a00-9539-0975770cd0a0",
+     "label": "NP Sim water_4_19_5_7.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b04c6e1e-7b6b-578a-8bd2-ef3a4b824b5d",
+     "label": "NP Sim water_4_19_5_7.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0cdb8006-ee6d-5513-839e-a0dc148724ca",
+     "label": "NP Sim water_4_19_5_7.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000232",
+   "label": "AINV0000000624",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Preflight Food and Water Consumption Data, Integrated Neuronal Plasticity Flight Group",
+    "dataset_catalog": "AINV0000000624",
+    "dataset_description": [
+     "This file contains preflight food and water consumption data for the Integrated Neuronal Plasticity flight animal pool. Data was collected from 2/2/98 to 4/14/98 (cage load). Data is presented raw, by animal number (2820, 2777, 2795, etc.) and date. Food and water consumption is measured in grams (not labeled on the chart)."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9301085",
+     "9301118",
+     "9301127 1_2",
+     "9301132"
+    ]
+   },
+   "meta": "4 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "536e5249-09cd-528d-98cc-ef1923d983f1",
+     "label": "FLT_water_txt_a.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3948f58c-6ab3-5d60-8ea9-49d2a3472bdc",
+     "label": "FLT_water_txt_a.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "52728afa-9539-55a7-bac4-fe14e0722a44",
+     "label": "FLT_water_txt_a.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "82648130-be44-5cf6-8e37-41496478b17c",
+     "label": "FLT_water_txt_a.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001669",
+   "label": "AINV0000000637",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Inflight Food Consumption Data, Integrated Neuronal Plasticity Vivarium-Caged Group",
+    "dataset_catalog": "AINV0000000637",
+    "dataset_description": [
+     "This file contains inflight food consumption data for the Integrated Neuronal Plasticity Vivarium-Caged group (48-hour delayed control). Data was collected from 4/16/98 to 5/6/98 (during Viv cage \u2018flight\u2019). Data is presented raw, by animal number and date. Food consumption is measured in grams (not labeled on the chart)."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9301085",
+     "9301118",
+     "9301127 1_2",
+     "9301132"
+    ]
+   },
+   "meta": "4 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "f5aa8024-a459-5c3a-9b7b-6c382bbc06ae",
+     "label": "NP Viv Food 4_16_5_6.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7918b37f-fa1e-50e3-b4ba-f3509cfea7fa",
+     "label": "NP Viv Food 4_16_5_6.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1b767a68-bb95-5b94-9999-61a63dbd8691",
+     "label": "NP Viv Food 4_16_5_6.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ef83d356-1113-52c2-b43c-ae8890c101ad",
+     "label": "NP Viv Food 4_16_5_6.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000054",
+   "label": "AINV0000000634",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Preflight (at Cage Load) Animal Weights, Integrated Neuronal Plasticity Vivarium Group",
+    "dataset_catalog": "AINV0000000634",
+    "dataset_description": [
+     "This file contains preflight (collected at cage load) Animal ID and Body Weight data for the 24 Integrated Neuronal Plasticity Vivarium animals (48 hour delayed control)."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9301085",
+     "9301118",
+     "9301127 1_2",
+     "9301132"
+    ]
+   },
+   "meta": "4 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "d7ad53b1-2e68-5a7f-a3ca-d79c2c6ac8a8",
+     "label": "CL 04_17_1998 NP VIV.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7fab3023-ae9b-5870-b67c-5a4da50ab2d4",
+     "label": "CL 04_17_1998 NP VIV.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "22b0c733-6bfb-5287-8066-9b3826e58f2e",
+     "label": "CL 04_17_1998 NP VIV.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3fcf59b1-0d85-5a86-b59f-3b141a143ea9",
+     "label": "CL 04_17_1998 NP VIV.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001318",
+   "label": "AINV0000000691",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Neurolab Data Roadmap",
+    "dataset_catalog": "AINV0000000691",
+    "dataset_description": [
+     "This roadmap explains the contents of all the archive records pertaining to the rodent project data operations inflight and pre/postflight at KSC."
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "9301034",
+     "9301085",
+     "9301100",
+     "9301103",
+     "9301118",
+     "9301122",
+     "9301123",
+     "9301127 1_2",
+     "9301132",
+     "9301143",
+     "9301150"
+    ]
+   },
+   "meta": "11 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "8aaf119f-564d-5ec0-8fcf-6402366fd950",
+     "label": "neurolab_data_map.doc",
+     "type": "file",
+     "ext": "doc",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a716c026-ad1e-5fbd-93c5-6f9ebe935df3",
+     "label": "neurolab_data_map.doc",
+     "type": "file",
+     "ext": "doc",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4f1d6ee7-3383-5b48-8cc3-173693867c33",
+     "label": "neurolab_data_map.doc",
+     "type": "file",
+     "ext": "doc",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3d99d9bb-2a0c-5fb4-b3ea-3b43701af3e5",
+     "label": "neurolab_data_map.doc",
+     "type": "file",
+     "ext": "doc",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5d23a74d-23c9-5d7a-bbbd-338a740d06f0",
+     "label": "neurolab_data_map.doc",
+     "type": "file",
+     "ext": "doc",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ef488f9d-6acc-50cd-bac9-d1a75945d574",
+     "label": "neurolab_data_map.doc",
+     "type": "file",
+     "ext": "doc",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d5108a6a-6432-5678-a772-82f4ff8c31d6",
+     "label": "neurolab_data_map.doc",
+     "type": "file",
+     "ext": "doc",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "fd1c6de0-a463-5596-88b7-5342f80d5ac2",
+     "label": "neurolab_data_map.doc",
+     "type": "file",
+     "ext": "doc",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "03962cd5-6a1b-5f39-8c3f-bf74f69fb4a0",
+     "label": "neurolab_data_map.doc",
+     "type": "file",
+     "ext": "doc",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "658d4aec-79f9-5b2d-a008-7adb3391a1db",
+     "label": "neurolab_data_map.doc",
+     "type": "file",
+     "ext": "doc",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "36497689-d0d3-5dfb-a427-a116a4a6aa44",
+     "label": "neurolab_data_map.doc",
+     "type": "file",
+     "ext": "doc",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000892",
+   "label": "AINV0000000623",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Postflight (at Cage Unload) Animal Weights, Integrated Neuronal Plasticity Flight Group",
+    "dataset_catalog": "AINV0000000623",
+    "dataset_description": [
+     "This file contains postflight (collected at cage unload) Animal ID, Body Weight, and RAHF Cage Slot/ID data for the Integrated Neuronal Plasticity flight animals (for the 11 remaining postflight; 13 were dissected inflight)."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9301085",
+     "9301118",
+     "9301127 1_2",
+     "9301132"
+    ]
+   },
+   "meta": "4 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "73d560b7-4176-550d-a34d-e62c9a0a2e60",
+     "label": "CU 05_03_1998 NP RAHF.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7a61561b-75c5-5253-94df-35ce7bd18253",
+     "label": "CU 05_03_1998 NP RAHF.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8d7dff12-30f0-54f1-a3c9-2454e1221caf",
+     "label": "CU 05_03_1998 NP RAHF.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5e00c77c-3e94-58e7-a2f8-4b21ed73a51d",
+     "label": "CU 05_03_1998 NP RAHF.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001550",
+   "label": "AINV0000000628",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Preflight (at Cage Load) Animal Weights, Integrated Neuronal Plasticity Sim-Caged Group",
+    "dataset_catalog": "AINV0000000628",
+    "dataset_description": [
+     "This file contains preflight (collected at cage load) Animal ID, Body Weight, and RAHF Cage Slot/ID data for the 24 Integrated Neuronal Plasticity Sim-Caged animals (96-hour delayed control)."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9301085",
+     "9301118",
+     "9301127 1_2",
+     "9301132"
+    ]
+   },
+   "meta": "4 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "3f2443ce-060c-5db8-8123-601a11890f2d",
+     "label": "CL 04_19_1998 NP SimRAHF.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5db84302-54ad-5e53-baa9-c1ec1f9f412d",
+     "label": "CL 04_19_1998 NP SimRAHF.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1ddbd96d-99f3-5c0c-b0ee-980d95df644b",
+     "label": "CL 04_19_1998 NP SimRAHF.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "cbcdb803-ca5a-51c6-96a5-b9b6a4505737",
+     "label": "CL 04_19_1998 NP SimRAHF.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001668",
+   "label": "AINV0000000629",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Postflight (at Cage Unload) Animal Weights, Integrated Neuronal Plasticity Sim-Caged Group",
+    "dataset_catalog": "AINV0000000629",
+    "dataset_description": [
+     "This file contains postflight (collected at cage unload) Animal ID, Body Weight, and RAHF Cage Slot/ID data for the Integrated Neuronal Plasticity Sim-Caged animals (for the 11 remaining postflight; 13 were dissected inflight). (96 hour delayed control)"
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9301085",
+     "9301118",
+     "9301127 1_2",
+     "9301132"
+    ]
+   },
+   "meta": "4 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "5afbed44-2786-5a4c-bae7-0a33f2ac4d66",
+     "label": "CU 05_07_1998 NP SimRAHF.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f40cfab1-9de6-59a0-a74e-ea2c274139ef",
+     "label": "CU 05_07_1998 NP SimRAHF.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7801081f-c71b-5745-8cea-971b983690d4",
+     "label": "CU 05_07_1998 NP SimRAHF.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d14cc5db-df82-5aa7-b2ce-7ab74f035fbb",
+     "label": "CU 05_07_1998 NP SimRAHF.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001671",
+   "label": "AINV0000000694",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Preflight (at Cage Load) Animal Weights, Integrated Neuronal Plasticity Flight Group",
+    "dataset_catalog": "AINV0000000694",
+    "dataset_description": [
+     "This file contains preflight (collected at cage load) Animal ID, Body Weight, and RAHF Cage Slot/ID data for the 24 Integrated Neuronal Plasticity flight animals."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9301085",
+     "9301118",
+     "9301127 1_2",
+     "9301132"
+    ]
+   },
+   "meta": "4 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "2cb10aa3-2d2b-59a1-997f-f2bda5b72b15",
+     "label": "CL 04_14_1998 NP RAHF.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e5a2f8bb-73ff-5540-835e-d9f004328643",
+     "label": "CL 04_14_1998 NP RAHF.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "53888f0d-41bd-5f04-98c2-2db022de3cff",
+     "label": "CL 04_14_1998 NP RAHF.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "54924ccf-e338-518f-8854-c89238834989",
+     "label": "CL 04_14_1998 NP RAHF.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002130",
+   "label": "AINV0000000635",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Postflight (at Cage Unload) Animal Weights, Integrated Neuronal Plasticity Vivarium Group",
+    "dataset_catalog": "AINV0000000635",
+    "dataset_description": [
+     "This file contains postflight (collected at cage unload) Animal ID and Body Weight data for the Integrated Neuronal Plasticity vivarium animals (for the 11 remaining postflight; 13 were dissected inflight). (48 hour delayed control)"
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9301085",
+     "9301118",
+     "9301127 1_2",
+     "9301132"
+    ]
+   },
+   "meta": "4 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "9d5407ad-989e-56bb-a8c4-a332c0c30c75",
+     "label": "CU 05_05_1998 NP VIV.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b71db1b3-d907-5778-a3d8-01acd31ab62a",
+     "label": "CU 05_05_1998 NP VIV.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b5ee35a0-82be-5645-a3b9-2017688e2cf0",
+     "label": "CU 05_05_1998 NP VIV.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "96d0c1a4-4ed2-5544-abfd-fa2f76ba0b33",
+     "label": "CU 05_05_1998 NP VIV.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

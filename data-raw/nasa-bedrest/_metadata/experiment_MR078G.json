@@ -1,0 +1,744 @@
+{
+ "record": {
+  "id": "b70ca856-2dc3-5c50-b690-6ff45be3a126",
+  "_id": "b70ca856-2dc3-5c50-b690-6ff45be3a126",
+  "__is_locked": false,
+  "experiment_title": "Functional Fitness Assessment (Flight Analog)",
+  "experiment_alias": "MR078L",
+  "__source_key": "cl62aznrlcdg201o62e3j9t0c",
+  "experiment_type": [
+   [
+    "Flight Analogs Project (FAP)"
+   ],
+   [
+    "Artificial Gravity (Fractional Gravity)"
+   ],
+   [
+    "NASA Bedrest Studies"
+   ],
+   [
+    "NASA Ground-Based Investigations"
+   ]
+  ],
+  "AssignedArchivist": [
+   "Liddell, Nyaia A."
+  ],
+  "keyword": [
+   "Abdominal muscles",
+   "Pectoralis muscles",
+   "Back"
+  ],
+  "__record_version": 33,
+  "experiment_description": "OBJECTIVES:<br>\nPhysical fitness was assessed pre- and post- bed rest to guide individual physical training and to determine individual responses to training countermeasures.  Functional Fitness pre- and post- bed rest testing captured a subject\u2019s flexibility, endurance, and strength in absolute numbers.  \n<div>\nAPPROACH:<br>\nFunctional fitness evaluations were performed by each subject before and after bed rest. Lower back and hamstring flexibility were tested by a sit and reach exercise immediately following a brief warm up and stretching exercises.  Upper body strength was measured using a Smith Bench Press and lower body strength was measured using a leg press.  Both measures used the 1 repetition maximum (RM) protocol. The 1 RM is typically achieved within 3 to 5 trials. The 1-RM value was recorded as the maximum weight lifted for the last successful trial.\n</div><div>\nEndurance of the latissimus dorsi, elbow flexors, and pectorals was assessed by the number of pull-ups the subject was able to complete.  Endurance of the pectoral and shoulder muscles was assessed by the number of push-ups the subject was able to complete in 2 minutes, and abdominal muscle endurance was assessed by the number of sliding crunches the subject was able to complete in 2 minutes.\n</div><div>\nRESULTS:<br>\nThis experiment has concluded in ground-based studies sponsored by the National Aeronautics and Space Administration's (NASAs) Human Adaptation and Countermeasures Division. This experiment was conducted during Bed Rest Campaigns 1 and 3, 5, Artificial Gravity (AG), and  Head Down Tilt - 30 day (HDT30). </div><div>\n\nThere was no significant change in flexibility when comparing pre- bed rest day 2 to post- bed rest day 1. This may be due to the fact that subjects followed a daily stretching routine during the bed rest.  Both genders had reduced endurance after bed rest.  Both male and female subjects showed a significant reduction in strength between pre- and post- bed rest scores.  The biceps and muscles of the back are used very little during bed rest, which leads to a reduction in muscular endurance.  The tests of the leg press show a significant change from the pre- and post.  During bed rest the subjects are not permitted to use their lower bodies; this provides the best representation to space flight that the investigators could record with Functional Fitness testing.  Subjects lost substantial percentages of lower body strength from pre- bed rest day 2 to post- bed rest day 1.  Strength returned to nearly the original pre- bed rest score on the final day of post-testing.  \n<end></end></div>",
+  "indexed": "2026-08-23T03:55:46.243183+00:00",
+  "GUID": "cl62aznrlcdg201o62e3j9t0c",
+  "_file_extension": "human",
+  "archive_status": "Data preservation is complete.  All datasets are publicly available.",
+  "__model_type": "lsda_experiment",
+  "__dirid": "b70ca856-2dc3-5c50-b690-6ff45be3a126",
+  "__record_size_wo_doccontent": 67571,
+  "__update_method": "Update CDM",
+  "experiment_identifier": [
+   "MR078G",
+   "MR078L"
+  ],
+  "CompleteArchivalExpectedInFiscalYear": [
+   "0"
+  ],
+  "experiment_type_lk": [
+   "Flight Analogs Project (FAP)",
+   "Artificial Gravity (Fractional Gravity)",
+   "NASA Bedrest Studies",
+   "NASA Ground-Based Investigations"
+  ],
+  "__record_modified_date": "2026-08-23T03:55:46.243183+00:00",
+  "__indexed": "2026-08-23T03:55:46.243183+00:00",
+  "alias": [
+   "MR078L"
+  ],
+  "__record_creation_date": "2022-07-28T19:57:48.246Z",
+  "__record_size": 67571,
+  "__model_version": 60,
+  "species_sci_name": [
+   [
+    "Homo sapiens"
+   ]
+  ],
+  "payload_id": [
+   "DBLS",
+   "HDT30",
+   "Pilot",
+   "Campaign 5",
+   "Campaign 3",
+   "Campaign 1",
+   "WISE"
+  ],
+  "CombinedSpecies": [
+   "Human (Homo sapiens)"
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "ncindex": 2,
+  "researchIndex": [
+   1089
+  ],
+  "experiment_id": "MR078G",
+  "experiment_related": [
+   "MR078L"
+  ],
+  "center": "JSC",
+  "parameter_name": [
+   "Endurance, m. latissimus dorsi",
+   "Endurance, abdominal muscles",
+   "Endurance, elbow flexors",
+   "Endurance, pectoral muscles",
+   "Endurance, shoulder muscles",
+   "Flexibility, hamstring",
+   "Flexibility, lower back",
+   "Strength, lower body",
+   "Strength, upper body"
+  ],
+  "exp_index": 1360,
+  "research_area": [
+   "Network physiology"
+  ],
+  "species": [
+   [
+    "Human"
+   ]
+  ],
+  "pme_role_with_name": [
+   "Principal Investigator: Laughlin, Mitzi S."
+  ],
+  "missions": [
+   "UTMB Campaign 1",
+   "UTMB Campaign 3",
+   "UTMB Campaign 5"
+  ],
+  "PI": [
+   "Laughlin, Mitzi S."
+  ],
+  "sort": [
+   3,
+   "fd0ed30c-9fb9-5e56-80ea-6931c139c85b"
+  ],
+  "Program": "Ground",
+  "parameter_html": "<table><tr><td>Endurance, m. latissimus dorsi</td></tr><tr><td>Endurance, abdominal muscles</td></tr><tr><td>Endurance, elbow flexors</td></tr><tr><td>Endurance, pectoral muscles</td></tr><tr><td>Endurance, shoulder muscles</td></tr><tr><td>Flexibility, hamstring</td></tr><tr><td>Flexibility, lower back</td></tr><tr><td>Strength, lower body</td></tr><tr><td>Strength, upper body</td></tr><tr></tr></table>",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Laughlin, Mitzi S.\">Principal Investigator: Laughlin, Mitzi S.</a>",
+  "PrincipalInvestigator": [
+   "Laughlin, Mitzi S."
+  ],
+  "mission_id": [
+   "UTMB Campaign 1",
+   "UTMB Campaign 3",
+   "UTMB Campaign 5"
+  ],
+  "__source_field_concat": "human cl62aznrlcdg201o62e3j9t0c JSC MR078L Functional Fitness Assessment (Flight Analog) MR078G Ground Data preservation is complete.  All datasets are publicly available.",
+  "__icon_type": "",
+  "__description": "OBJECTIVES:<br>\nPhysical fitness was assessed pre- and post- bed rest to guide individual physical training and to determine individual responses to training countermeasures.  Functional Fitness pre- and post- bed rest testing captured a subject\u2019s flexibility, endurance, and strength in absolute numbers.  \n<div>\nAPPROACH:<br>\nFunctional fitness evaluations were performed by each subject before and after bed rest. Lower back and hamstring flexibility were tested by a sit and reach exercise immediately following a brief warm up and stretching exercises.  Upper body strength was measured using a Smith Bench Press and lower body strength was measured using a leg press.  Both measures used the 1 repetition maximum (RM) protocol. The 1 RM is typically achieved within 3 to 5 trials. The 1-RM value was recorded as the maximum weight lifted for the last successful trial.\n</div><div>\nEndurance of the latissimus dorsi, elbow flexors, and pectorals was assessed by the number of pull-ups the subject was able to complete.  Endurance of the pectoral and shoulder muscles was assessed by the number of push-ups the subject was able to complete in 2 minutes, and abdominal muscle endurance was assessed by the number of sliding crunches the subject was able to complete in 2 minutes.\n</div><div>\nRESULTS:<br>\nThis experiment has concluded in ground-based studies sponsored by the National Aeronautics and Space Administration's (NASAs) Human Adaptation and Countermeasures Division. This experiment was conducted during Bed Rest Campaigns 1 and 3, 5, Artificial Gravity (AG), and  Head Down Tilt - 30 day (HDT30). </div><div>\n\nThere was no significant change in flexibility when comparing pre- bed rest day 2 to post- bed rest day 1. This may be due to the fact that subjects followed a daily stretching routine during the bed rest.  Both genders had reduced endurance after bed rest.  Both male and female subjects showed a significant reduction in strength between pre- and post- bed rest scores.  The biceps and muscles of the back are used very little during bed rest, which leads to a reduction in muscular endurance.  The tests of the leg press show a significant change from the pre- and post.  During bed rest the subjects are not permitted to use their lower bodies; this provides the best representation to space flight that the investigators could record with Functional Fitness testing.  Subjects lost substantial percentages of lower body strength from pre- bed rest day 2 to post- bed rest day 1.  Strength returned to nearly the original pre- bed rest score on the final day of post-testing.  \n<end></end></div>",
+  "__doi": "10.83263/a4w0-1b14",
+  "__doi_record_creation_date": "2026-08-23T03:55:46",
+  "__doi_record_modified_date": "2026-08-23T03:55:46"
+ },
+ "datasets": [
+  {
+   "key": "246ba4a9-5a5e-5179-95c2-03ecba19c3c1",
+   "label": "MR078G_Campaign_3_Functional_Fitness_Assessment_Finals",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "UTMB Bedrest Campaign 3 Functional Fitness Assessment Finals",
+    "dataset_catalog": "MR078G_Campaign_3_Functional_Fitness_Assessment_Finals",
+    "dataset_description": "This dataset contains final data for all subjects in Campaign 3 for the Bed Rest Standard Measure Function Fitness (MR078G) study. Data collection sessions for this measure were performed twice pre-bed rest and twice post bed rest. Flexibility, endurance, and strength were measured during these data collection sessions. The tabular data contains flexibility, strength, and endurance results for each subject who completed the study.",
+    "processing_level": [
+     "Processed Data"
+    ],
+    "experiment_id": [
+     "MR078G"
+    ]
+   },
+   "meta": "6 files \u00b7 11.2 KB",
+   "date": "2025-09-26",
+   "children": [
+    {
+     "key": "b65e6df4-95c5-52f4-a3b7-4af9d2b70a45",
+     "label": "MR078G_Campaign_3_Functional_Fitness_Assessment_All_Final_Crunch",
+     "type": "file",
+     "ext": "",
+     "file_size": 433,
+     "meta": "433 B",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0389299d-f674-51b7-be33-4a405cb93f1d",
+     "label": "MR078G_Campaign_3_Functional_Fitness_Assessment_All_Final_Sit_Reach",
+     "type": "file",
+     "ext": "",
+     "file_size": 419,
+     "meta": "419 B",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e24c880b-644c-5354-ab98-7f03cc56c2af",
+     "label": "MR078G_Campaign_3_Functional_Fitness_Assessment_All_Final_Raw",
+     "type": "file",
+     "ext": "",
+     "file_size": 9287,
+     "meta": "9.1 KB",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8cff12b9-80d3-50c6-996f-25b5862c06e4",
+     "label": "MR078G_Campaign_3_Functional_Fitness_Assessment_All_Final_Push_Up",
+     "type": "file",
+     "ext": "",
+     "file_size": 420,
+     "meta": "420 B",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c4e81a19-4f88-5012-ae35-a503b8394ccd",
+     "label": "MR078G_Campaign_3_Functional_Fitness_Assessment_All_Final_Leg_Press",
+     "type": "file",
+     "ext": "",
+     "file_size": 463,
+     "meta": "463 B",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4b9bac99-7b29-5b7b-894c-2bd4b119d26f",
+     "label": "MR078G_Campaign_3_Functional_Fitness_Assessment_All_Final_Pull_Up",
+     "type": "file",
+     "ext": "",
+     "file_size": 426,
+     "meta": "426 B",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "6329fd94-f235-5d47-a8b5-930f1556309e",
+   "label": "MR078G_Campaign_3_Functional_Fitness_Assessment",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "UTMB Bedrest Campaign 3 Functional Fitness Assessment",
+    "dataset_catalog": "MR078G_Campaign_3_Functional_Fitness_Assessment",
+    "dataset_description": "This dataset contains data for all subjects in Campaign 3 for the Bed Rest Standard Measure Function Fitness (MR078G) study. Data collection sessions for this measure were performed twice pre-bed rest and twice post bed rest. Flexibility, endurance, and strength were measured during these data collection sessions. The tabular data contains flexibility, strength, and endurance results for each subject who completed the study.",
+    "processing_level": [
+     "Processed Data"
+    ],
+    "experiment_id": [
+     "MR078G"
+    ]
+   },
+   "meta": "40 files \u00b7 122.8 KB",
+   "date": "2025-09-26",
+   "children": [
+    {
+     "key": "c81bd1b5-e5cf-505c-be3c-486481718927",
+     "label": "MR078G_Campaign_3_Functional_Fitness_Assessment_C3D_7961",
+     "type": "file",
+     "ext": "",
+     "file_size": 338,
+     "meta": "338 B",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f6247a9d-0de0-59b6-bc53-1020554be131",
+     "label": "MR078G_Campaign_3_Functional_Fitness_Assessment_C3C_7352",
+     "type": "file",
+     "ext": "",
+     "file_size": 625,
+     "meta": "625 B",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3155fff3-142f-56cb-8100-8dd0faa0b07e",
+     "label": "MR078G_Campaign_3_Functional_Fitness_Assessment_C3G_5814",
+     "type": "file",
+     "ext": "",
+     "file_size": 301,
+     "meta": "301 B",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5dac958b-0ad8-59e7-8c5c-7108e934e818",
+     "label": "MR078G_Campaign_3_Functional_Fitness_Assessment_C3B_7127",
+     "type": "file",
+     "ext": "",
+     "file_size": 240,
+     "meta": "240 B",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ad0d2348-11c8-5c01-8a30-988d1a9a8121",
+     "label": "MR078G_Campaign_3_Functional_Fitness_Assessment_C3F_5705",
+     "type": "file",
+     "ext": "",
+     "file_size": 209,
+     "meta": "209 B",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d34e5e72-7547-53a1-b1db-8bd1e8512953",
+     "label": "MR078G_Campaign_3_Functional_Fitness_Assessment_C3B_3768",
+     "type": "file",
+     "ext": "",
+     "file_size": 227,
+     "meta": "227 B",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3cda0a7b-20ef-53cc-9c47-693b3f7bf3ea",
+     "label": "MR078G_Campaign_3_Functional_Fitness_Assessment_C3G_9032",
+     "type": "file",
+     "ext": "",
+     "file_size": 306,
+     "meta": "306 B",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2ab9042f-91d9-5da1-a853-0d4322f87eaa",
+     "label": "MR078G_Campaign_3_Functional_Fitness_Assessment_C3A_Push_Ups",
+     "type": "file",
+     "ext": "",
+     "file_size": 17174,
+     "meta": "16.8 KB",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7c157bba-937f-504b-8a63-bab5e85bdd0a",
+     "label": "MR078G_Campaign_3_Functional_Fitness_Assessment_C3F_8454",
+     "type": "file",
+     "ext": "",
+     "file_size": 208,
+     "meta": "208 B",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "dcd35006-af64-5ffc-81ea-7e831c8d3eb0",
+     "label": "MR078G_Campaign_3_Functional_Fitness_Assessment_C3A_Avg",
+     "type": "file",
+     "ext": "",
+     "file_size": 921,
+     "meta": "921 B",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f3b20576-8b02-5980-81b3-aa27f4e152b0",
+     "label": "MR078G_Campaign_3_Functional_Fitness_Assessment_C3F_9947",
+     "type": "file",
+     "ext": "",
+     "file_size": 212,
+     "meta": "212 B",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e9ca4a0f-a3c2-5049-b3bc-35758c661478",
+     "label": "MR078G_Campaign_3_Functional_Fitness_Assessment_C3E_8715",
+     "type": "file",
+     "ext": "",
+     "file_size": 364,
+     "meta": "364 B",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "fd43dfa4-6d89-5f7f-95d2-db6294c32be2",
+     "label": "MR078G_Campaign_3_Functional_Fitness_Assessment_C3G_5580",
+     "type": "file",
+     "ext": "",
+     "file_size": 297,
+     "meta": "297 B",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "fc7aa8c8-1048-5828-b877-712dfc3558a7",
+     "label": "MR078G_Campaign_3_Functional_Fitness_Assessment_C3A_5788",
+     "type": "file",
+     "ext": "",
+     "file_size": 279,
+     "meta": "279 B",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1bc8b75a-be0e-50c8-827b-2f760e89b18a",
+     "label": "MR078G_Campaign_3_Functional_Fitness_Assessment_C3G_9485",
+     "type": "file",
+     "ext": "",
+     "file_size": 303,
+     "meta": "303 B",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8ae024f9-8bfb-5c7f-9e82-403eff92e0fc",
+     "label": "MR078G_Campaign_3_Functional_Fitness_Assessment_C3C_7772",
+     "type": "file",
+     "ext": "",
+     "file_size": 538,
+     "meta": "538 B",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "081a82d9-f634-5eae-98b5-3a1137e869b5",
+     "label": "MR078G_Campaign_3_Functional_Fitness_Assessment_C3D_7984",
+     "type": "file",
+     "ext": "",
+     "file_size": 309,
+     "meta": "309 B",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f04a3542-3a5b-5505-82fe-c4f3693be890",
+     "label": "MR078G_Campaign_3_Functional_Fitness_Assessment_C3G_9139",
+     "type": "file",
+     "ext": "",
+     "file_size": 303,
+     "meta": "303 B",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9da09aa3-6e83-5b8e-94bc-8df994e0f725",
+     "label": "MR078G_Campaign_3_Functional_Fitness_Assessment_C3G_6858",
+     "type": "file",
+     "ext": "",
+     "file_size": 307,
+     "meta": "307 B",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "efb88696-5353-52dd-aab9-26e85a95112b",
+     "label": "MR078G_Campaign_3_Functional_Fitness_Assessment_C3D_5165",
+     "type": "file",
+     "ext": "",
+     "file_size": 426,
+     "meta": "426 B",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e4e216b7-39e3-5d90-812d-89d05a9a13f8",
+     "label": "MR078G_Campaign_3_Functional_Fitness_Assessment_C3A_Bench_Press",
+     "type": "file",
+     "ext": "",
+     "file_size": 17011,
+     "meta": "16.6 KB",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8a5e0718-719f-5bb1-b9e6-2103bfb29c03",
+     "label": "MR078G_Campaign_3_Functional_Fitness_Assessment_C3G_9314",
+     "type": "file",
+     "ext": "",
+     "file_size": 307,
+     "meta": "307 B",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "cb4ecf50-01bf-5c38-bd93-327bc0c4a04a",
+     "label": "MR078G_Campaign_3_Functional_Fitness_Assessment_C3A_0446",
+     "type": "file",
+     "ext": "",
+     "file_size": 286,
+     "meta": "286 B",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9882a4ae-23ad-5c48-8fab-ee1d7c8912d5",
+     "label": "MR078G_Campaign_3_Functional_Fitness_Assessment_C3A_0992",
+     "type": "file",
+     "ext": "",
+     "file_size": 279,
+     "meta": "279 B",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c1eb95f4-e872-5eff-8108-59b122e5eac0",
+     "label": "MR078G_Campaign_3_Functional_Fitness_Assessment_C3F_9016",
+     "type": "file",
+     "ext": "",
+     "file_size": 209,
+     "meta": "209 B",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ecae5470-f6f8-5571-8374-4a6bcc3631ec",
+     "label": "MR078G_Campaign_3_Functional_Fitness_Assessment_C3D_8615",
+     "type": "file",
+     "ext": "",
+     "file_size": 352,
+     "meta": "352 B",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "fb9087bb-9493-5cb7-aec2-697dc31aed50",
+     "label": "MR078G_Campaign_3_Functional_Fitness_Assessment_C3A_0024",
+     "type": "file",
+     "ext": "",
+     "file_size": 289,
+     "meta": "289 B",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "bca7b4d9-d861-5777-9f84-8536020dd290",
+     "label": "MR078G_Campaign_3_Functional_Fitness_Assessment_C3A_Crunches",
+     "type": "file",
+     "ext": "",
+     "file_size": 18237,
+     "meta": "17.8 KB",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d59c05c2-5920-5be4-915e-6d102b9c2b02",
+     "label": "MR078G_Campaign_3_Functional_Fitness_Assessment_C3B_6345",
+     "type": "file",
+     "ext": "",
+     "file_size": 236,
+     "meta": "236 B",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7c69b60d-a537-5fd9-9e39-4a57c75cd8e4",
+     "label": "MR078G_Campaign_3_Functional_Fitness_Assessment_C3D_8779",
+     "type": "file",
+     "ext": "",
+     "file_size": 325,
+     "meta": "325 B",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e509b215-2082-5261-9b1f-25dcdfb3c604",
+     "label": "MR078G_Campaign_3_Functional_Fitness_Assessment_C3H_5907",
+     "type": "file",
+     "ext": "",
+     "file_size": 297,
+     "meta": "297 B",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e72e2422-efeb-54f1-86dc-a4016dbb0db6",
+     "label": "MR078G_Campaign_3_Functional_Fitness_Assessment_C3B_4023",
+     "type": "file",
+     "ext": "",
+     "file_size": 231,
+     "meta": "231 B",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8b850f00-836c-56ec-ba9a-f71532058394",
+     "label": "MR078G_Campaign_3_Functional_Fitness_Assessment_C3A_Reverse_Push_Ups",
+     "type": "file",
+     "ext": "",
+     "file_size": 21187,
+     "meta": "20.7 KB",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d0b4a6e8-73a7-5501-ae29-cfacd7927059",
+     "label": "MR078G_Campaign_3_Functional_Fitness_Assessment_C3A_Sit_Reach",
+     "type": "file",
+     "ext": "",
+     "file_size": 21136,
+     "meta": "20.6 KB",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "99af62a7-494e-5335-958f-6a5d3075f5b1",
+     "label": "MR078G_Campaign_3_Functional_Fitness_Assessment_C3D_8881",
+     "type": "file",
+     "ext": "",
+     "file_size": 307,
+     "meta": "307 B",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8b6e32bf-0c3d-5ed2-b9fb-bef454162f72",
+     "label": "MR078G_Campaign_3_Functional_Fitness_Assessment_C3D_3985",
+     "type": "file",
+     "ext": "",
+     "file_size": 842,
+     "meta": "842 B",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "537327e8-6aac-58f7-af02-40fd44e84b8e",
+     "label": "MR078G_Campaign_3_Functional_Fitness_Assessment_C3A_Leg_Press",
+     "type": "file",
+     "ext": "",
+     "file_size": 19565,
+     "meta": "19.1 KB",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5820f932-f63b-5f83-9380-64fe65baffdd",
+     "label": "MR078G_Campaign_3_Functional_Fitness_Assessment_C3F_5683",
+     "type": "file",
+     "ext": "",
+     "file_size": 212,
+     "meta": "212 B",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7c79f7b5-f27e-5165-8119-3f44cd787f9c",
+     "label": "MR078G_Campaign_3_Functional_Fitness_Assessment_C3E_6607",
+     "type": "file",
+     "ext": "",
+     "file_size": 258,
+     "meta": "258 B",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9b7e8a54-62f8-5fbc-8530-65633ab1922c",
+     "label": "MR078G_Campaign_3_Functional_Fitness_Assessment_C3E_6043",
+     "type": "file",
+     "ext": "",
+     "file_size": 265,
+     "meta": "265 B",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "9846ba2f-602b-55c3-a92b-7d8400029cbe",
+   "label": "MR078G_Campaign_1_Final_Performance",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "UTMB Bedrest Campaign 1 Final Performance",
+    "dataset_catalog": "MR078G_Campaign_1_Final_Performance",
+    "dataset_description": "This data set includes data from the MR078G-Funtional Fitness Assessment measure performed on the Campaign 1 Bed Rest Study. These data sets include Functional Fitness data for two pre test sessions and one post test session. Data set includes measurements of Sit and Reach (cm), Sliding Crunches, Reverse Push-up, Push-up, Bench Press (lbs), and Leg Press (lbs).",
+    "processing_level": "Processed Data",
+    "experiment_id": [
+     "MR078G"
+    ]
+   },
+   "meta": "8 files \u00b7 130.5 KB",
+   "date": "2025-04-15",
+   "children": [
+    {
+     "key": "ec319f09-0377-567d-bfe8-810d93653f5a",
+     "label": "MR078G_Campaign_1_Final_Performance_Final_Avgs",
+     "type": "file",
+     "ext": "",
+     "file_size": 496,
+     "meta": "496 B",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "88d22a33-71a7-5d0c-801a-338606ad5c40",
+     "label": "MR078G_Campaign_1_Final_Performance_Rev_Push_Ups",
+     "type": "file",
+     "ext": "",
+     "file_size": 22574,
+     "meta": "22.0 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "296675fb-06c6-5660-96a8-8c87728e626d",
+     "label": "MR078G_Campaign_1_Final_Performance_Sit_Reach",
+     "type": "file",
+     "ext": "",
+     "file_size": 21472,
+     "meta": "21.0 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c0ffa44e-c4fa-5afb-be81-a6a0ad33254d",
+     "label": "MR078G_Campaign_1_Final_Performance_Push_Ups",
+     "type": "file",
+     "ext": "",
+     "file_size": 23160,
+     "meta": "22.6 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "34c89fd3-d987-574d-a824-cb48f2f52119",
+     "label": "MR078G_Campaign_1_Final_Performance_Leg_Press",
+     "type": "file",
+     "ext": "",
+     "file_size": 21272,
+     "meta": "20.8 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "975961ac-d951-5f04-9741-3d515de951f1",
+     "label": "MR078G_Campaign_1_Final_Performance",
+     "type": "file",
+     "ext": "",
+     "file_size": 627,
+     "meta": "627 B",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8e26b7ef-860f-594b-920e-a6abb677d96e",
+     "label": "MR078G_Campaign_1_Final_Performance_Bench_Press",
+     "type": "file",
+     "ext": "",
+     "file_size": 21406,
+     "meta": "20.9 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "31b31d3d-e46e-5c9a-82c4-f6b317f36983",
+     "label": "MR078G_Campaign_1_Final_Performance_Crunches",
+     "type": "file",
+     "ext": "",
+     "file_size": 22661,
+     "meta": "22.1 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

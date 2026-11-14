@@ -1,0 +1,309 @@
+{
+ "record": {
+  "id": "91e7870e-e0ee-5934-b191-4edab30215b6",
+  "_id": "91e7870e-e0ee-5934-b191-4edab30215b6",
+  "experiment_title": "Exercise Response",
+  "archive_status_index": 2,
+  "pub_document_number": "PUB000354",
+  "parameter_html": "<table><tr><td>Carbon dioxide production (VCO2)</td></tr><tr><td>Cardiac output</td></tr><tr><td>Heart rate</td></tr><tr><td>Oxygen consumption (VO2)</td></tr><tr><td>Respiratory exchange ratio (RER)</td></tr><tr><td>Diastolic blood pressure</td></tr><tr><td>Systolic blood pressure</td></tr><tr><td>Minute ventilation (VE)</td></tr><tr></tr></table>",
+  "__source_key": "cl62aukpacbkm01o6buusbqgg",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Rummel, John\">Principal Investigator: Rummel, John</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Michel, Edward\">Co-Investigator: Michel, Edward</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Sawin, Charles\">Co-Investigator: Sawin, Charles</a>",
+  "image_name": [
+   "Bicycle Ergometry Testing",
+   "Physiological Mechanisms Associated with Increased Metabolic Activity"
+  ],
+  "experiment_type_lk": [
+   "Apollo Program"
+  ],
+  "__record_modified_date": "2026-08-23T04:08:53.306818+00:00",
+  "proposal_source": [
+   "N/A"
+  ],
+  "__indexed": "2026-08-23T04:08:53.306818+00:00",
+  "__record_creation_date": "2022-07-28T19:39:35.262Z",
+  "keyword": [
+   "Oxygen consumption",
+   "Exercise"
+  ],
+  "keyword_name": "Exercise",
+  "__record_size": 102627,
+  "__record_version": 29,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<br>\r\nThe success of the Apollo program overall, and the lunar landing missions specifically, was dependent upon the ability of the astronauts to engage in long and strenuous hours of extravehicular activity (EVA).  Although it was expected that reduced gravity would make some tasks less difficult, it was noted that reduced suit mobility and the complexity of the mission timeline indicated that metabolic activity would exceed resting levels for extended periods of time.  Because the type and extent of physiological dysfunction that could result from habitability in a zero-G environment had not yet been established, appropriate physiological tests were performed within Apollo program constraints to ascertain whether the physiological response of the crewmen to exercise was altered as a result of space flight.  The objective of this investigation, performed during the Apollo 7-11 and 14-17 missions, was to evaluate the physiological response to exercise pre- and postflight in order to assure the success of lunar surface extravehicular activity (EVA).\r\n<P>\r\nAPPROACH:<br>\r\nA bicycle ergometer and graded stress protocol were used to conduct the exercise stress tests.  Heart rate (beats per minute) was used in determining stress levels.  The bicycle ergometer was the only device capable of enabling quantitation of the work level. The graded exercise test permitted a progressive evaluation of physiological control system response and provided a better understanding of safe stress limits.  By  maintaining the same heart rate levels before and after flight, the same relative cardiovascular stresses were imposed.  The tests were conducted 30, 14 and 4 days before flight, on recovery day (R+0), and 24 and 36 hours postflight.  The same equipment was utilized before and after flight to conduct the stress tests.\r\n<P>\r\nThe protocol was comprised of exercise levels at heart rates of 120 ( for 6 minutes), 140 ( for 3 minutes), and 160 ( for 3 minutes).  Samples of expired gas were obtained at appropriate times during each test.  The Apollo 9 and 10 crewmen were also evaluated at stress level of 180 beats per minute (bpm).  During each test, workload, heart rate, blood pressure, and respiratory gas exchange (oxygen consumption, carbon dioxide production, and minute volume) were measured every minute.  For Apollo 15 to 17, cardiac output measurements were obtained by single-breath technique.  Arteriovenous oxygen differences were calculated from the measured oxygen consumption and cardiac output.\r\n<P>\r\nRESULTS:<br>\r\nEach preflight test was treated separately and a mean value was computed for each mission with the crewman serving as his own control.  A preflight mean and variance estimate for all crewmen was then computed and a similar statistic was computed for the separate postflight examinations.  Statistical evaluations were made by means of standard t-test criteria.  The test protocols were divided into three basic categories: pre-stress, exercise stress, and post-stress.\r\n<P>\r\nPre-stress Data:  Heart rate was increased on R+0 by an average of 16 beats per minute for the sitting heart rate but was not significantly elevated by the second test (R+1).  A slight increase was detected in minute volume on R+0 and R+1, and in the resting respiratory gas exchange ratio on R+1.\r\n<P>\r\nExercise Stress Data:  There were several significant changes noted during this period.  The relationship between heart rate and oxygen consumption (O2 pulse) was significantly altered at all heart rate levels postflight, whether elevated on an absolute basis (liters per minute) or corrected for body weight (liters per minute per kilogram).  There were no significant changes in the oxygen required for a given workload immediately after flight, although a small increase was noted during the R+1 examination.\r\n<P>\r\nBoth the systolic and diastolic blood pressures attained at a given heart rate level were significantly decreased immediately after flight but returned to normal by R+1.  There were no significant changes in the relationship between blood pressure and levels of oxygen consumption or cardiac output.\r\n<P>\r\nThe interrelationships of respiratory parameters (O2 consumption per minute volume and O2 consumption per CO2 production) indicated no significant changes immediately after flight.  Results of the R+1 examination indicated that minute volume increased minimally.\r\n<P>\r\nA statistically significant decrease of large magnitude (36 percent) was noted after flight in the cardiac output at a heart rate of 160 beats per minute.  This variable had returned to preflight levels by the time of the R+1 examination.\r\n<P>\r\nPost-stress Data:  None of the measured variables changed significantly after the flight.\r\n<P>\r\nBased upon the above physiological responses to exercise measured after space flight, it can be assumed that there was no significant change in mechanical or respiratory efficiency.  There was a decrease in stroke volume which could have been caused by changes in the circulating blood volume and/ or redistribution of blood volume to the lower extremities.  Heart rate was elevated for the same oxygen consumption.  When coupled with a reduced stroke volume, increased heart rate maintained the same cardiac output/ oxygen consumption relationship.<END>",
+  "payload_id": "Apollo 10",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "AP012",
+  "indexed": "2026-08-23T04:08:53.306818+00:00",
+  "GUID": "cl62aukpacbkm01o6buusbqgg",
+  "parameter_name": [
+   "Carbon dioxide production (VCO2)",
+   "Cardiac output",
+   "Heart rate",
+   "Oxygen consumption (VO2)",
+   "Respiratory exchange ratio (RER)",
+   "Diastolic blood pressure",
+   "Systolic blood pressure",
+   "Minute ventilation (VE)"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 379,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Cardiovascular physiology",
+   "Clinical medicine",
+   "Exercise physiology"
+  ],
+  "pme_role_with_name": [
+   "Co-Investigator: Michel, Edward",
+   "Co-Investigator: Sawin, Charles",
+   "Principal Investigator: Rummel, John"
+  ],
+  "missions": [
+   [
+    [
+     "Apollo 10"
+    ]
+   ],
+   [
+    [
+     "Apollo 11"
+    ]
+   ],
+   [
+    [
+     "Apollo 14"
+    ]
+   ],
+   [
+    [
+     "Apollo 15"
+    ]
+   ],
+   [
+    [
+     "Apollo 16"
+    ]
+   ],
+   [
+    [
+     "Apollo 17"
+    ]
+   ],
+   [
+    [
+     "Apollo 7"
+    ]
+   ],
+   [
+    [
+     "Apollo 8"
+    ]
+   ],
+   [
+    [
+     "Apollo 9"
+    ]
+   ]
+  ],
+  "__dirid": "91e7870e-e0ee-5934-b191-4edab30215b6",
+  "__record_size_wo_doccontent": 102627,
+  "PI": [
+   "Rummel, John"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "AP012"
+  ],
+  "mission_id": [
+   [
+    [
+     "Apollo 10"
+    ]
+   ],
+   [
+    [
+     "Apollo 11"
+    ]
+   ],
+   [
+    [
+     "Apollo 14"
+    ]
+   ],
+   [
+    [
+     "Apollo 15"
+    ]
+   ],
+   [
+    [
+     "Apollo 16"
+    ]
+   ],
+   [
+    [
+     "Apollo 17"
+    ]
+   ],
+   [
+    [
+     "Apollo 7"
+    ]
+   ],
+   [
+    [
+     "Apollo 8"
+    ]
+   ],
+   [
+    [
+     "Apollo 9"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Rummel, John"
+  ],
+  "archive_status": "Data preservation is complete. Privacy-protected datasets are available via data request. Remaining datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Apollo",
+  "__source_field_concat": "PUB000354 Apollo 10 cl62aukpacbkm01o6buusbqgg Exercise  N/A Exercise Response AP012 Apollo",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<br>\r\nThe success of the Apollo program overall, and the lunar landing missions specifically, was dependent upon the ability of the astronauts to engage in long and strenuous hours of extravehicular activity (EVA).  Although it was expected that reduced gravity would make some tasks less difficult, it was noted that reduced suit mobility and the complexity of the mission timeline indicated that metabolic activity would exceed resting levels for extended periods of time.  Because the type and extent of physiological dysfunction that could result from habitability in a zero-G environment had not yet been established, appropriate physiological tests were performed within Apollo program constraints to ascertain whether the physiological response of the crewmen to exercise was altered as a result of space flight.  The objective of this investigation, performed during the Apollo 7-11 and 14-17 missions, was to evaluate the physiological response to exercise pre- and postflight in order to assure the success of lunar surface extravehicular activity (EVA).\r\n<P>\r\nAPPROACH:<br>\r\nA bicycle ergometer and graded stress protocol were used to conduct the exercise stress tests.  Heart rate (beats per minute) was used in determining stress levels.  The bicycle ergometer was the only device capable of enabling quantitation of the work level. The graded exercise test permitted a progressive evaluation of physiological control system response and provided a better understanding of safe stress limits.  By  maintaining the same heart rate levels before and after flight, the same relative cardiovascular stresses were imposed.  The tests were conducted 30, 14 and 4 days before flight, on recovery day (R+0), and 24 and 36 hours postflight.  The same equipment was utilized before and after flight to conduct the stress tests.\r\n<P>\r\nThe protocol was comprised of exercise levels at heart rates of 120 ( for 6 minutes), 140 ( for 3 minutes), and 160 ( for 3 minutes).  Samples of expired gas were obtained at appropriate times during each test.  The Apollo 9 and 10 crewmen were also evaluated at stress level of 180 beats per minute (bpm).  During each test, workload, heart rate, blood pressure, and respiratory gas exchange (oxygen consumption, carbon dioxide production, and minute volume) were measured every minute.  For Apollo 15 to 17, cardiac output measurements were obtained by single-breath technique.  Arteriovenous oxygen differences were calculated from the measured oxygen consumption and cardiac output.\r\n<P>\r\nRESULTS:<br>\r\nEach preflight test was treated separately and a mean value was computed for each mission with the crewman serving as his own control.  A preflight mean and variance estimate for all crewmen was then computed and a similar statistic was computed for the separate postflight examinations.  Statistical evaluations were made by means of standard t-test criteria.  The test protocols were divided into three basic categories: pre-stress, exercise stress, and post-stress.\r\n<P>\r\nPre-stress Data:  Heart rate was increased on R+0 by an average of 16 beats per minute for the sitting heart rate but was not significantly elevated by the second test (R+1).  A slight increase was detected in minute volume on R+0 and R+1, and in the resting respiratory gas exchange ratio on R+1.\r\n<P>\r\nExercise Stress Data:  There were several significant changes noted during this period.  The relationship between heart rate and oxygen consumption (O2 pulse) was significantly altered at all heart rate levels postflight, whether elevated on an absolute basis (liters per minute) or corrected for body weight (liters per minute per kilogram).  There were no significant changes in the oxygen required for a given workload immediately after flight, although a small increase was noted during the R+1 examination.\r\n<P>\r\nBoth the systolic and diastolic blood pressures attained at a given heart rate level were significantly decreased immediately after flight but returned to normal by R+1.  There were no significant changes in the relationship between blood pressure and levels of oxygen consumption or cardiac output.\r\n<P>\r\nThe interrelationships of respiratory parameters (O2 consumption per minute volume and O2 consumption per CO2 production) indicated no significant changes immediately after flight.  Results of the R+1 examination indicated that minute volume increased minimally.\r\n<P>\r\nA statistically significant decrease of large magnitude (36 percent) was noted after flight in the cardiac output at a heart rate of 160 beats per minute.  This variable had returned to preflight levels by the time of the R+1 examination.\r\n<P>\r\nPost-stress Data:  None of the measured variables changed significantly after the flight.\r\n<P>\r\nBased upon the above physiological responses to exercise measured after space flight, it can be assumed that there was no significant change in mechanical or respiratory efficiency.  There was a decrease in stroke volume which could have been caused by changes in the circulating blood volume and/ or redistribution of blood volume to the lower extremities.  Heart rate was elevated for the same oxygen consumption.  When coupled with a reduced stroke volume, increased heart rate maintained the same cardiac output/ oxygen consumption relationship.<END>",
+  "__doi": "10.83263/054h-p790",
+  "__doi_record_creation_date": "2026-08-23T04:08:53",
+  "__doi_record_modified_date": "2026-08-23T04:08:53"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001004",
+   "label": "JMAPAP012_732",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Physiological Measurements Made Before, During, and After Exercise Stress",
+    "dataset_catalog": "JMAPAP012_732",
+    "dataset_description": [
+     "Preflight and postflight physiological measurements from the crew are shown in this table.  Source: Rummel JA, Sawin CF, Michel EL. Exercise response. In: Johnson RS, Dietlein LF, Berry CA, eds. Biomedical Results of Apollo. Washington, DC: NASA Headquarters; 1975:265-275. NASA SP-368. <END>"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "AP012"
+    ]
+   },
+   "meta": "9 files \u00b7 171.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "e4f8d47a-b445-590d-9618-616731b5bb6e",
+     "label": "JMAPAP012_732.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 19456,
+     "meta": "19.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "af3c381b-eed7-56fc-ab42-d73f743f5f41",
+     "label": "JMAPAP012_732.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 19456,
+     "meta": "19.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "eed3b3fa-17f5-5cac-b921-fd5d9afa1e5f",
+     "label": "JMAPAP012_732.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 19456,
+     "meta": "19.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "05a34f9c-6ba0-5708-8206-9ee043937cad",
+     "label": "JMAPAP012_732.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 19456,
+     "meta": "19.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "72794d06-8666-566a-98a0-63b53f433773",
+     "label": "JMAPAP012_732.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 19456,
+     "meta": "19.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "bd33f7eb-2f7a-5aa8-993a-95b37afc96ff",
+     "label": "JMAPAP012_732.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 19456,
+     "meta": "19.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5e6f17db-2226-5750-b7a4-e377d69fa58f",
+     "label": "JMAPAP012_732.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 19456,
+     "meta": "19.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "01dddfac-7771-5f70-b6e1-dd6cc42950aa",
+     "label": "JMAPAP012_732.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 19456,
+     "meta": "19.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "874d447c-5f8e-575c-a367-59788d19b765",
+     "label": "JMAPAP012_732.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 19456,
+     "meta": "19.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

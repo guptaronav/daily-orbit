@@ -1,0 +1,861 @@
+{
+ "record": {
+  "id": "6ee1250d-8a5f-5fde-bbcd-5eac38a42e64",
+  "_id": "6ee1250d-8a5f-5fde-bbcd-5eac38a42e64",
+  "experiment_title": "Inflight Radiation Dose Distribution",
+  "pub_document_number": "PUB001666",
+  "parameter_html": "<table><tr><td>Differential flux</td></tr><tr><td>Integral flux</td></tr><tr><td>Lineal energy</td></tr><tr><td>Probability density</td></tr><tr><td>Galactic cosmic rays</td></tr><tr><td>Linear energy transfer</td></tr><tr><td>Radiation dose</td></tr><tr></tr></table>",
+  "__source_key": "cl62aym9zcd7601o60iwd8oxh",
+  "discipline": "Radiation Health",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Badhwar, Gautam\">Principal Investigator: Badhwar, Gautam</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Keith, J.\">Co-Investigator: Keith, J.</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Konradi, A.\">Co-Investigator: Konradi, A.</a>",
+  "keyword": [
+   "Radiation monitoring",
+   "Radiation effects",
+   "Radiation",
+   "Radiation dosage"
+  ],
+  "keyword_name": "Radiation dosage",
+  "__record_version": 29,
+  "experiment_description": "OBJECTIVES:<br>\r\nManned interplanetary space travel involves long periods away from the protective cover of the Earth's magnetosphere to the regions where there exists the possibility of serious biological injury from galactic cosmic rays (GCR) and energetic solar panicle events (SPE). For an SPE, the major concerns are acute effects arising from sudden exposure to very large radiation doses of solar protons. The severity of these effects can be reduced when adequate storm shelters are provided.  The high-energy heavy-ion transport code (HZETRN) developed at NASA Langley Research Center is a computationally efficient tool suitable for space mission shielding design use in the protection of crewmembers and microelectronics.\r\n<p>\r\nIt has been known for some time that terrestrial surface features of the geomagnetic field experience a secular westward drift at a rate of about 0.3\u00b0 longitude per year. A prominent surface feature of the magnetic field is a local intensity minimum, currently located in the southern Atlantic Ocean near the coast of Brazil. Since the Inner Van Allen Belt particle population is governed by the Earth's magnetic field, it approaches closest to the Earth at that location. The positions of the field minimum and the South Atlantic field and the trapped radiation, one should expect that the South Atlantic Anomaly (SAA) would also participate in some fashion in the secular drift of the magnetic field. Thus, a change of location of the SAA over a period of several decades should provide positive evidence for this process. It is important for this study to use data obtained from a quiet magnetosphere, since following a large magnetic storm a disturbed magnetosphere is known to form additional belts and may temporarily change the location of the Inner Belt. \r\n<p>\r\nTo study the secular drift of the anomaly, the investigators averaged the dose rate in all the passes through the SAA as a function of longitude and determined the center of the distribution by fitting it to a gaussian. Similarly, they created a set of \"synthetic\" passes through the SAA by calculating the dose rate as a function of longitude for the same orbit using the AP-8 Max proton flux model and the IGRF 1965 field, epoch 1970. The investigators chose to use the AP-8 model rather than any single observation of the SAA because this model represents the observational results of a multitude of satellites and thus statistically probably provides a better measure of the particle distribution than any arbitrarily chosen individual measurement. These passes were also averaged in the same manner.\r\n<p>\r\nThe purpose of this joint NASA/DOD investigation was to establish, evaluate, and verify analytical and measurement methods for assessing and managing health risks from exposure to space radiation.\r\n<p>\r\nAPPROACH:<br>\r\nA generalized analytic model was used to describe the energy deposition of direct ion interaction events in a micron-size detector. The transport calculation accounting for the Space Shuttle configuration was accomplished by using a new version of HZETRN that was extensively verified with laboratory and flight data.\r\n<p>\r\nDuring STS-31 the tissue equivalent proportional counter (TEPC) was located on the starboard bulkhead of the crew compartment. Consequently, with respect to the TEPC, the mass distribution of the spacecraft and the associated systems was quite anisotropic and the high energy proton flux had predominant access from the starboard side while from the opposite direction additional shielding set the energy cutoff at a higher value. Since the investigators had information on the spacecraft altitude with respect to the magnetic field, they chose three passes through the SAA during which the spacecraft sampled either predominantly westward or eastward directed proton fluxes. When comparing passes it is very important that the same region of the SAA is covered. Thus, the investigators chose two passes whose longitude-latitude traces were close though not identical during which the TEPC saw a predominantly westward flux and one pass which fell between the other two during which the TEPC measured predominantly an eastward flux.\r\n<p>\r\nThe objectives of this experiment were accomplished using two hardware configurations.\r\n<p>\r\nConfiguration 1 consisted of a Passive Proton Spectrometer, a TEPC system, Bonner Spheres, and Activation foils. Preflight, a  15-minute introduction to the equipment for the flight crew occurred followed by the installation of the loop fastener (Velcro Pile) to the middeeck right wall near DLOC #2 (MR85B) in the orbiter.\r\n<p>\r\nWithin the first 4.5 hours after attaining orbit (FD1), a crewmember destowed the hardware. The deployments of elements on Velcro pads attached to the right wall near DLOC #2 (MR85B) occurred. The TEPC system was activated, noting mission elapsed time (MET). Near the conclusion of the flight, at any time after the completion of the last set of passes through the SAA, the TEPC was deactivated and the hardware restowed.\r\n<p>\r\nThere weren\u2019t any postflight requirements by the crewmembers. However, Bonner Spheres and foils were returned to the Johnson Space Center (JSC) within 24 hours of landing.\r\n<p>\r\nConfiguration 2 consisted of a Charged Particle Spectrometer. Flights with an altitude of ~200 nmi were preferred. Preflight training involved a 30-minute introduction to the equipment for the flight crewmembers.\r\n<p>\r\nWithin the first 4.5 hours after attaining orbit (FD1), the pre-routed DC power cable was connected to the utility outlet and to the spectrometer, the power to the spectrometer was turned on, and MET was recorded to the nearest second.  Prior to deorbit preparations, preferably after the completion of the last set of passes through the SAA, the instrument was deactivated and the DC power cable was disconnected and secured for landing.\r\n<p>\r\nThere weren\u2019t any postflight requirements by the crewmembers.  However, the data disks had to be returned to JSC within seven days of the landing.\r\n<p>\r\nRESULTS:<br>\r\nThe lineal energy transfer (LET) spectrum of both the trapped and galactic cosmic radiation was measured using a TEPC. The overall physical dose is in fairly good agreement with measurements using thermoluminescent detectors in the least shielded location. A comparison of the trapped proton LET spectra from STS-31, STS-40, and STS-42 showed that shapes are rather similar. The measured galactic cosmic radiation LET spectra, however, yielded dose rates that were higher by 1.39 and quality factor lowered by 0.79 in model calculations. There were significant differences between the model calculated LET spectra and the observed spectrum.\r\n<p>\r\n<b>DSOs 31, 37, 40, and 48</b><br>\r\nThe observations made both with the TEPC and proton and heavy ion detector telescope (PHIDE) show clearly that over the last 20 years a significant change has occurred in the location of the SAA.  The average position of the SAA has moved westward by about 6.7\u00b0 in longitude over a period of the past 20 years. While the westward drift in itself does not change, it does affect the planning for astronaut extravehicular activities (EVAs). Operationally, EVAs are scheduled to avoid the SAA as much as possible. The data obtained on STS-31 also allows investigators to observe the east-west effect whose magnitude is in qualitative agreement with both old and recent observations.\r\n<p>\r\nThe analysis of four shuttle flights which occurred between April 1990 and January 1992 preceding and following a large magnetic storm indicated that the location of the SAA in B-L space was at L = 1.3 and did not vary over that period. However, following the geomagnetic storm of March 24, 1991, the investigators clearly saw the emergence of a second radiation belt at L = 2 two and a half months later, and observed it moving to L = 1.8 six months after the storm. While it is reasonable to assume and independent evidence suggests that the second belt was produced during that storm, the investigators are unable to prove this because neither STS-31 nor STS-37 sampled the L = 2 drift shell. It is useful to point out that the second belt was detected not only by means of conventional particle detectors, but also through single event upsets (SEU) in proton sensitive devices.\r\n<p>\r\n<b>DSO 51 and 56</b><br>\r\nThe predicted spectra and flight data are in good agreement for the range from 2 to 400 keV/\u00b5m to within 70% with the remaining region below2 keV/\u00b5m underpredicted. This trend is consistent for these two flights but with systematic differences in their flux level which suggests possible problems in the geomagnetic transmission function used. The underprediction below 2 keV/\u00b5m could be due to neglecting secondary pion, kaons, and electrons in the HZETRN. But the importance of the contributions from these secondaries can only be assessed after the indirect delta ray events are included in the TEPC response model.\r\n<p>",
+  "indexed": "2026-08-23T04:06:19.770919+00:00",
+  "GUID": "cl62aym9zcd7601o60iwd8oxh",
+  "__model_type": "lsda_experiment",
+  "discipline_type": "N/A",
+  "__dirid": "6ee1250d-8a5f-5fde-bbcd-5eac38a42e64",
+  "__record_size_wo_doccontent": 155337,
+  "experiment_parms_tissue2": "N/A",
+  "experiment_parms_tissue1": "N/A",
+  "__update_method": "Update CDM",
+  "archive_status_index": 2,
+  "experiment_type_lk": [
+   "Shuttle Detailed Supplementary Objectives (DSO)"
+  ],
+  "__record_modified_date": "2026-08-23T04:06:19.770919+00:00",
+  "proposal_source": [
+   "Not applicable"
+  ],
+  "__indexed": "2026-08-23T04:06:19.770919+00:00",
+  "session_type": "N/A",
+  "__record_creation_date": "2022-07-28T20:02:39.361Z",
+  "__record_size": 155337,
+  "__model_version": 60,
+  "payload_id": "DSO40",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "DSO 469",
+  "experiment_related": [
+   "DTO 684",
+   "DSO 485",
+   "DSO 200"
+  ],
+  "parameter_name": [
+   "Differential flux",
+   "Integral flux",
+   "Lineal energy",
+   "Probability density",
+   "Galactic cosmic rays",
+   "Linear energy transfer",
+   "Radiation dose"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 200,
+  "research_area": [
+   "Radiation biology",
+   "Technology development"
+  ],
+  "pme_role_with_name": [
+   "Co-Investigator: Keith, J.",
+   "Co-Investigator: Konradi, A.",
+   "Principal Investigator: Badhwar, Gautam"
+  ],
+  "missions": [
+   [
+    [
+     "STS-40"
+    ]
+   ],
+   [
+    [
+     "STS-28"
+    ]
+   ],
+   [
+    [
+     "STS-36"
+    ]
+   ],
+   [
+    [
+     "STS-31"
+    ]
+   ],
+   [
+    [
+     "STS-65"
+    ]
+   ],
+   [
+    [
+     "STS-37"
+    ]
+   ],
+   [
+    [
+     "STS-48"
+    ]
+   ],
+   [
+    [
+     "STS-51"
+    ]
+   ],
+   [
+    [
+     "STS-56"
+    ]
+   ],
+   [
+    [
+     "STS-73"
+    ]
+   ],
+   [
+    [
+     "STS-42"
+    ]
+   ]
+  ],
+  "PI": [
+   "Badhwar, Gautam"
+  ],
+  "_file_extension": [],
+  "experiment_identifier": [
+   "DSO 469"
+  ],
+  "mission_id": [
+   [
+    [
+     "STS-40"
+    ]
+   ],
+   [
+    [
+     "STS-28"
+    ]
+   ],
+   [
+    [
+     "STS-36"
+    ]
+   ],
+   [
+    [
+     "STS-31"
+    ]
+   ],
+   [
+    [
+     "STS-65"
+    ]
+   ],
+   [
+    [
+     "STS-37"
+    ]
+   ],
+   [
+    [
+     "STS-48"
+    ]
+   ],
+   [
+    [
+     "STS-51"
+    ]
+   ],
+   [
+    [
+     "STS-56"
+    ]
+   ],
+   [
+    [
+     "STS-73"
+    ]
+   ],
+   [
+    [
+     "STS-42"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Badhwar, Gautam"
+  ],
+  "archive_status": "Data preservation is complete. Privacy-protected datasets are available via data request. Remaining datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Shuttle Program",
+  "__source_field_concat": "N/A PUB001666 DSO40 cl62aym9zcd7601o60iwd8oxh Radiation dosage N/A N/A N/A  N/A Radiation Health Inflight Radiation Dose Distribution DSO 469 Shuttle Program",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<br>\r\nManned interplanetary space travel involves long periods away from the protective cover of the Earth's magnetosphere to the regions where there exists the possibility of serious biological injury from galactic cosmic rays (GCR) and energetic solar panicle events (SPE). For an SPE, the major concerns are acute effects arising from sudden exposure to very large radiation doses of solar protons. The severity of these effects can be reduced when adequate storm shelters are provided.  The high-energy heavy-ion transport code (HZETRN) developed at NASA Langley Research Center is a computationally efficient tool suitable for space mission shielding design use in the protection of crewmembers and microelectronics.\r\n<p>\r\nIt has been known for some time that terrestrial surface features of the geomagnetic field experience a secular westward drift at a rate of about 0.3\u00b0 longitude per year. A prominent surface feature of the magnetic field is a local intensity minimum, currently located in the southern Atlantic Ocean near the coast of Brazil. Since the Inner Van Allen Belt particle population is governed by the Earth's magnetic field, it approaches closest to the Earth at that location. The positions of the field minimum and the South Atlantic field and the trapped radiation, one should expect that the South Atlantic Anomaly (SAA) would also participate in some fashion in the secular drift of the magnetic field. Thus, a change of location of the SAA over a period of several decades should provide positive evidence for this process. It is important for this study to use data obtained from a quiet magnetosphere, since following a large magnetic storm a disturbed magnetosphere is known to form additional belts and may temporarily change the location of the Inner Belt. \r\n<p>\r\nTo study the secular drift of the anomaly, the investigators averaged the dose rate in all the passes through the SAA as a function of longitude and determined the center of the distribution by fitting it to a gaussian. Similarly, they created a set of \"synthetic\" passes through the SAA by calculating the dose rate as a function of longitude for the same orbit using the AP-8 Max proton flux model and the IGRF 1965 field, epoch 1970. The investigators chose to use the AP-8 model rather than any single observation of the SAA because this model represents the observational results of a multitude of satellites and thus statistically probably provides a better measure of the particle distribution than any arbitrarily chosen individual measurement. These passes were also averaged in the same manner.\r\n<p>\r\nThe purpose of this joint NASA/DOD investigation was to establish, evaluate, and verify analytical and measurement methods for assessing and managing health risks from exposure to space radiation.\r\n<p>\r\nAPPROACH:<br>\r\nA generalized analytic model was used to describe the energy deposition of direct ion interaction events in a micron-size detector. The transport calculation accounting for the Space Shuttle configuration was accomplished by using a new version of HZETRN that was extensively verified with laboratory and flight data.\r\n<p>\r\nDuring STS-31 the tissue equivalent proportional counter (TEPC) was located on the starboard bulkhead of the crew compartment. Consequently, with respect to the TEPC, the mass distribution of the spacecraft and the associated systems was quite anisotropic and the high energy proton flux had predominant access from the starboard side while from the opposite direction additional shielding set the energy cutoff at a higher value. Since the investigators had information on the spacecraft altitude with respect to the magnetic field, they chose three passes through the SAA during which the spacecraft sampled either predominantly westward or eastward directed proton fluxes. When comparing passes it is very important that the same region of the SAA is covered. Thus, the investigators chose two passes whose longitude-latitude traces were close though not identical during which the TEPC saw a predominantly westward flux and one pass which fell between the other two during which the TEPC measured predominantly an eastward flux.\r\n<p>\r\nThe objectives of this experiment were accomplished using two hardware configurations.\r\n<p>\r\nConfiguration 1 consisted of a Passive Proton Spectrometer, a TEPC system, Bonner Spheres, and Activation foils. Preflight, a  15-minute introduction to the equipment for the flight crew occurred followed by the installation of the loop fastener (Velcro Pile) to the middeeck right wall near DLOC #2 (MR85B) in the orbiter.\r\n<p>\r\nWithin the first 4.5 hours after attaining orbit (FD1), a crewmember destowed the hardware. The deployments of elements on Velcro pads attached to the right wall near DLOC #2 (MR85B) occurred. The TEPC system was activated, noting mission elapsed time (MET). Near the conclusion of the flight, at any time after the completion of the last set of passes through the SAA, the TEPC was deactivated and the hardware restowed.\r\n<p>\r\nThere weren\u2019t any postflight requirements by the crewmembers. However, Bonner Spheres and foils were returned to the Johnson Space Center (JSC) within 24 hours of landing.\r\n<p>\r\nConfiguration 2 consisted of a Charged Particle Spectrometer. Flights with an altitude of ~200 nmi were preferred. Preflight training involved a 30-minute introduction to the equipment for the flight crewmembers.\r\n<p>\r\nWithin the first 4.5 hours after attaining orbit (FD1), the pre-routed DC power cable was connected to the utility outlet and to the spectrometer, the power to the spectrometer was turned on, and MET was recorded to the nearest second.  Prior to deorbit preparations, preferably after the completion of the last set of passes through the SAA, the instrument was deactivated and the DC power cable was disconnected and secured for landing.\r\n<p>\r\nThere weren\u2019t any postflight requirements by the crewmembers.  However, the data disks had to be returned to JSC within seven days of the landing.\r\n<p>\r\nRESULTS:<br>\r\nThe lineal energy transfer (LET) spectrum of both the trapped and galactic cosmic radiation was measured using a TEPC. The overall physical dose is in fairly good agreement with measurements using thermoluminescent detectors in the least shielded location. A comparison of the trapped proton LET spectra from STS-31, STS-40, and STS-42 showed that shapes are rather similar. The measured galactic cosmic radiation LET spectra, however, yielded dose rates that were higher by 1.39 and quality factor lowered by 0.79 in model calculations. There were significant differences between the model calculated LET spectra and the observed spectrum.\r\n<p>\r\n<b>DSOs 31, 37, 40, and 48</b><br>\r\nThe observations made both with the TEPC and proton and heavy ion detector telescope (PHIDE) show clearly that over the last 20 years a significant change has occurred in the location of the SAA.  The average position of the SAA has moved westward by about 6.7\u00b0 in longitude over a period of the past 20 years. While the westward drift in itself does not change, it does affect the planning for astronaut extravehicular activities (EVAs). Operationally, EVAs are scheduled to avoid the SAA as much as possible. The data obtained on STS-31 also allows investigators to observe the east-west effect whose magnitude is in qualitative agreement with both old and recent observations.\r\n<p>\r\nThe analysis of four shuttle flights which occurred between April 1990 and January 1992 preceding and following a large magnetic storm indicated that the location of the SAA in B-L space was at L = 1.3 and did not vary over that period. However, following the geomagnetic storm of March 24, 1991, the investigators clearly saw the emergence of a second radiation belt at L = 2 two and a half months later, and observed it moving to L = 1.8 six months after the storm. While it is reasonable to assume and independent evidence suggests that the second belt was produced during that storm, the investigators are unable to prove this because neither STS-31 nor STS-37 sampled the L = 2 drift shell. It is useful to point out that the second belt was detected not only by means of conventional particle detectors, but also through single event upsets (SEU) in proton sensitive devices.\r\n<p>\r\n<b>DSO 51 and 56</b><br>\r\nThe predicted spectra and flight data are in good agreement for the range from 2 to 400 keV/\u00b5m to within 70% with the remaining region below2 keV/\u00b5m underpredicted. This trend is consistent for these two flights but with systematic differences in their flux level which suggests possible problems in the geomagnetic transmission function used. The underprediction below 2 keV/\u00b5m could be due to neglecting secondary pion, kaons, and electrons in the HZETRN. But the importance of the contributions from these secondaries can only be assessed after the indirect delta ray events are included in the TEPC response model.\r\n<p>",
+  "__doi": "10.83263/rmjp-9597",
+  "__doi_record_creation_date": "2026-08-23T04:06:19",
+  "__doi_record_modified_date": "2026-08-23T04:06:19"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001222",
+   "label": "DSO 469__1970413208",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Probable Density Distributions of Lineal Energy for Water Sphere",
+    "dataset_catalog": "DSO 469__1970413208",
+    "dataset_description": [
+     "This graph depicts the probability distribution as a function of lineal energy <i>y </i>for a one micron diameter water sphere irradiated randomly by a single proton of various energies (from 0.3 to 5 MeV). \r\n<p>\r\nSource: Shinn JL, Dadwar GD, Xaposos MA, and Wilson JW.   An analysis of energy deposition in a tissue equivalent proportional counter onboard the space shuttle.  Radiation Measurements. 1999. Feb; 30(1):19-28."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 469"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "1a27f618-2736-59cc-85d2-574daa7312f2",
+     "label": "JMDSO_469_7.tif_STS-51_DSO_469_2010_197_050752.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000435",
+   "label": "DSO 469__1970355437",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Calculated GCR, Integral LET, and Lineal Energy Spectra for STS-51",
+    "dataset_catalog": "DSO 469__1970355437",
+    "dataset_description": [
+     "This graph depicts the calculated GCR, integral LET, and lineal energy spectra for a 28 degree shuttle flight. \r\n<p>\r\nSource: Shinn JL, Dadwar GD, Xaposos MA, and Wilson JW.   An analysis of energy deposition in a tissue equivalent proportional counter onboard the space shuttle.  Radiation Measurements. 1999. Feb; 30(1):19-28."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 469"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "5b9a1da8-708c-588c-b332-677d895b09aa",
+     "label": "JMDSO_469_5.tif_STS-51_DSO_469_2010_197_030723.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001162",
+   "label": "DSO 469__1970420997",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Probability Density Distributions of Lineal Energy for TEPC",
+    "dataset_catalog": "DSO 469__1970420997",
+    "dataset_description": [
+     "This graph depicts the probability density distributions of lineal energy for a cylindrical TEPC irradiated by a single randomly incident proton of various energies. The TEPC has equal dimension of a diameter and height which is 1.8 \u00b5m in water.  The LET of incident protons is indicated by the arrows.\r\n<p>\r\nSource: Shinn JL, Dadwar GD, Xaposos MA, and Wilson JW.   An analysis of energy deposition in a tissue equivalent proportional counter onboard the space shuttle.  Radiation Measurements. 1999. Feb; 30(1):19-28."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 469"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "19b15668-2440-546e-bf31-41a9dbb1a075",
+     "label": "JMDSO_469_8.tif_STS-51_DSO_469_2010_197_040701.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002141",
+   "label": "DSO 469__197033320",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Calculated GCR, Integral LET, and Lineal Energy Spectra for STS-56",
+    "dataset_catalog": "DSO 469__197033320",
+    "dataset_description": [
+     "This graph depicts the calculated GCR, integral LET, and lineal energy spectra for a 57 degree shuttle flight. The calculated integral <i>y</i> spectrum seems to smooth out the edges related to the minimum ionization peak of iron and alpha particles. In addition, a rather large discrepancy is seen on the 1 to 7 keV/\u00b5m region and above 100 keV/\u00b5m. \r\n<p>\r\nSource: Shinn JL, Dadwar GD, Xaposos MA, and Wilson JW.  An analysis of energy deposition in a tissue equivalent proportional counter onboard the space shuttle.  Radiation Measurements. 1999. Feb; 30(1):19-28."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 469"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "518dab39-c486-5f44-80be-f30a914df0c4",
+     "label": "JMDSO_469_3.tif_STS-56_DSO_469_2010_197_030724.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002140",
+   "label": "DSO 469__1970322138",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "TEPC Data for a 57 Degree Flight in GCR Differential Lineal Energy Spectra",
+    "dataset_catalog": "DSO 469__1970322138",
+    "dataset_description": [
+     "This graph depicts a comparison of present calculated results (solid line) with shuttle TEPC data for a 57 degree flight in GCR differential lineal energy spectra. The discrepancy shown here is drastically narrowed for all the <i>y</i> values above 2 keV/\u00b5m, partly due to the inclusion of target fragments for the high lineal energy region and more importantly due to the current TEPC response function calculation.\r\n<p>\r\nSource: Shinn JL, Dadwar GD, Xaposos MA, and Wilson JW.   An analysis of energy deposition in a tissue equivalent proportional counter onboard the space shuttle.  Radiation Measurements. 1999. Feb; 30(1):19-28."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 469"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "01992628-0fef-5113-9d40-d18795855bb0",
+     "label": "JMDSO_469_2.tif_STS-56_DSO_469_2010_197_030725.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001820",
+   "label": "DSO 469__1970512149",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Mission Demographics",
+    "dataset_catalog": "DSO 469__1970512149",
+    "dataset_description": [
+     "This Excel file contains a general overview of the missions conducted on DSO 469. The data presented in this study was derived from five shuttle missions, which took place at various times over a period of two years and at a variety of orbital inclinations and altitudes. \r\n<p>\r\nSource: Konradi A, Badwar GD, and  Braby LA.  Recent space shuttle observations of the South Atlantic Anomaly and the radiation belt models. Advances in Space Research. 1994. Oct; 14(10):911-21."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 469"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "f3423abd-b756-5b60-9e57-769e4ac7af2f",
+     "label": "JMDSO_469_20.xls_STS-31_DSO_469_2010_197_050730.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000158",
+   "label": "DSO 469__1970342961",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Calculated GCR, Integral LET, and Lineal Energy Spectra for STS-56",
+    "dataset_catalog": "DSO 469__1970342961",
+    "dataset_description": [
+     "This graph depicts a comparison of present calculated results with shuttle TEPC data for a 57 degree shuttle flight. These results, compared with graph 3, show improved agreement with the data for the integral spectra above 2 keV/\u00b5m and excellent agreement throughout the high <i>y</i> region for the calculated flux when the cutoff of <i>y</i> is set as 400 keV/\u00b5m to mimic the loss of measured data beyond this <i>y</i> value.\r\n<p>\r\nSource: Shinn JL, Dadwar GD, Xaposos MA, and Wilson JW.   An analysis of energy deposition in a tissue equivalent proportional counter onboard the space shuttle.  Radiation Measurements. 1999. Feb; 30(1):19-28."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 469"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "91915362-a71b-520b-b126-c8e6ca7cede3",
+     "label": "JMDSO_469_4.tif_STS-56_DSO_469_2010_197_030745.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002241",
+   "label": "DSO 469__1970359472",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Comparison of Present Calculated Results with Shuttle TEPC data for STS-51",
+    "dataset_catalog": "DSO 469__1970359472",
+    "dataset_description": [
+     "This graph depicts a comparison of present calculated results with shuttle TEPC data for a 28 degree shuttle flight. The prediction and measured data shown appear to be only within a factor of two near 10 keV/\u00b5m but improved over prior results using LET only. The results for both 28 degree and 57 degree flights are consistent in that there is a definite under prediction in the <i>y </i>region below 1 or 2 keV/\u00b5m by no more than a factor of 2.3. It appears that these two cases (graphs 4 and 6) will agree with each other if the predicted spectrum for the 28 degree flight is lowered (or the 57 degree is raised) by about 70% or so. This indicates that there might be problems in the orbit-averaged geomagnetic transmission function which is affected by the changes in the earth's magnetic field. The causes for the under prediction below 1-2 keV/\u00b5m may be resolved when the indirect delta rays are included in the response model. \r\n<p>\r\nSource: Shinn JL, Dadwar GD, Xaposos MA, and Wilson JW.   An analysis of energy deposition in a tissue equivalent proportional counter onboard the space shuttle.  Radiation Measurements. 1999. Feb; 30(1):19-28."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 469"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "177e5a4f-ad0b-5747-b1da-35ecf6fd46ec",
+     "label": "JMDSO_469_6.tif_STS-51_DSO_469_2010_197_040722.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000662",
+   "label": "DSO 469__197024684",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Calculated GCR Differential LET and Lineal Energy Spectra for STS-56",
+    "dataset_catalog": "DSO 469__197024684",
+    "dataset_description": [
+     "This graph depicts the calculated differential <i>y</i> and LET spectra for the Shuttle TEPC located at the payload bay due to GCR and albedo proton contribution for STS-56. The trapped radiation components in the measurement were eliminated by resolving the time of occurrence. The predicted <i>y</i> spectrum is seen to improve the agreement with shuttle TEPC measurements over comparison with the LET spectrum in the region below 10 keV/\u00b5m by increasing the spectral components by as much as a factor of two.\r\n<p>\r\nSource: Shinn JL, Dadwar GD, Xaposos MA, and Wilson JW.   An analysis of energy deposition in a tissue equivalent proportional counter onboard the space shuttle.  Radiation Measurements. 1999. Feb; 30(1):19-28."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 469"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "4a7c7697-bd9c-5174-b9d4-cce69cbe0b9f",
+     "label": "JMDSO_469_1.tif_STS-31_DSO_469_2010_197_030750.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000122",
+   "label": "DSO 469__1970424981",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Dose Distributions",
+    "dataset_catalog": "DSO 469__1970424981",
+    "dataset_description": [
+     "This graph depicts dose distributions measured by a 2-\u00b5m diameter spherical, wall-less TEPC  2-\u00b5m depth, in a water column irradiated by 3.9 GeV nitrogen ion beam.  The present calculation seems to agree well with the experiment except for the low<i> y </i>(below 10 keV/\u00b5m) region for which contributions from indirect delta rays events are not yet considered.\r\n<p>\r\nSource: Shinn JL, Dadwar GD, Xaposos MA, and Wilson JW.   An analysis of energy deposition in a tissue equivalent proportional counter onboard the space shuttle.  Radiation Measurements. 1999. Feb; 30(1):19-28."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 469"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "ee546b10-2527-5b73-89ba-b86c3587f081",
+     "label": "JMDSO_469_9.tif_STS-51_DSO_469_2010_197_040753.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000777",
+   "label": "DSO 469__1970446428",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "STS-31 TEPC Dose Rates in B-L Coordinates",
+    "dataset_catalog": "DSO 469__1970446428",
+    "dataset_description": [
+     "This graph displays the late April 1990 position of the Inner Belt projection in the SAA displayed in the B-L coordinate system. The numbers along the contours indicate dose rate in millirads/minute. The region containing contours is rather small in extent because of the limited latitudinal excursion of the orbiter during STS-31. The peak of the radiation belt seen in the SAA, occurs at L= 1.3 during a geomagnetically relatively quiet period. Note the limited regions of the B-L space sampled during that mission.\r\n<p>\r\nSource: Konradi A, Badwar GD, and  Braby LA.  Recent space shuttle observations of the South Atlantic Anomaly and the radiation belt models. Advances in Space Research. 1994. Oct; 14(10):911-21."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 469"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "70330210-2ea3-5795-b90a-b8574979882d",
+     "label": "JMDSO_469_14.tif_STS-31_DSO_469_2010_197_040745.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000671",
+   "label": "DSO 469__1970453887",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "SAA as seen by the STS-40 Mission",
+    "dataset_catalog": "DSO 469__1970453887",
+    "dataset_description": [
+     "This graph depicts a contour map of the dose rate in longitude-latitude coordinates. The SAA stands out as a dose maximum with a center at about -32 degrees longitude and -36 degrees latitude. However, there is a clear indication of another peak at about +10 degrees longitude and below -39 degrees latitude. Note the appearance of the second radiation belt.\r\n<p>\r\nSource: Konradi A, Badwar GD, and  Braby LA.  Recent space shuttle observations of the South Atlantic Anomaly and the radiation belt models. Advances in Space Research. 1994. Oct; 14(10):911-21."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 469"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "de68c8d9-72dd-548f-bce4-0763db037004",
+     "label": "JMDSO_469_16.tif_STS-40_DSO_469_2010_197_040759.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001373",
+   "label": "DSO 469__197050551",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "B-L Plot of the SAA as seen by STS-48",
+    "dataset_catalog": "DSO 469__197050551",
+    "dataset_description": [
+     "This graph depicts the B-L plot of the SAA as seen by STS-48 including the second belt which has by now moved to L= 1.8. Viewing this in the B-L coordinate system as shown in this graph, the second belt at L= 1.8 is clearly visible. This suggests a radically inward motion of the belt over a period of time. The main belt now appears at L= 1.26 which probably is within the digitization error of the contouring program.\r\n<p>\r\nSource: Konradi A, Badwar GD, and  Braby LA.  Recent space shuttle observations of the South Atlantic Anomaly and the radiation belt models. Advances in Space Research. 1994. Oct; 14(10):911-21."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 469"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "bf21c71b-4194-519b-ad90-84d737c549bc",
+     "label": "JMDSO_469_19.tif_STS-48_DSO_469_2010_197_050740.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000910",
+   "label": "DSO 469__197044193",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Dose Rate Measured on Two Passes Through the SAA",
+    "dataset_catalog": "DSO 469__197044193",
+    "dataset_description": [
+     "This graph depicts the dose rate measured on two passes through the SAA with the TEPC responding mainly to a westward flux and one pass when it was responding mainly to an eastward flux.  The ratio of the peaks is approximately 1.4. This should be viewed only as a qualitative measure of the east - west asymmetry because of the broad directional response of the detector due to the shuttle mass distribution and the uncertainties in the exact orientation of the shuttle.\r\n<p>\r\nSource: Konradi A, Badwar GD, and  Braby LA.  Recent space shuttle observations of the South Atlantic Anomaly and the radiation belt models. Advances in Space Research. 1994. Oct; 14(10):911-21."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 469"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "fc0473d0-55b4-5065-b282-e04a8d9716bd",
+     "label": "JMDSO_469_13.tif_STS-31_DSO_469_2010_197_040724.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001528",
+   "label": "DSO 469__1970449142",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "STS-37 Dose Rates in B-L Coordinates",
+    "dataset_catalog": "DSO 469__1970449142",
+    "dataset_description": [
+     "This graph depicts the B-L plot for STS-37 a year later, at the beginning of April 1991. The intensity peak occurs at L= 1.25, a slight change perhaps associated with the aftermath of the March 24, 1991 storm. Since both STS-31 and STS-37 had the same low orbital inclination, though the latter flew at a lower altitude, the B-L space sampled is similar but even more restricted for STS-37.\r\n<p>\r\nSource: Konradi A, Badwar GD, and  Braby LA.  Recent space shuttle observations of the South Atlantic Anomaly and the radiation belt models. Advances in Space Research. 1994. Oct; 14(10):911-21."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 469"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "d72c497a-6de0-549a-b0f4-b8aef073f682",
+     "label": "JMDSO_469_15.tif_STS-37_DSO_469_2010_197_040750.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001299",
+   "label": "DSO 469__1970457871",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "STS-40 Dose Rate in B-L Coordinates",
+    "dataset_catalog": "DSO 469__1970457871",
+    "dataset_description": [
+     "This graph depicts the function of B and L coordinates, The SAA is at L= 1.3 though spread to L=.1.5, and the second peak is at L=.2.0. This flight occurred during a very disturbed period with K<sub>p</sub> reaching 9 and the D<sub>st</sub> going down to 219.  Note the second belt at L=2.\r\n<p>\r\nSource: Konradi A, Badwar GD, and  Braby LA.  Recent space shuttle observations of the South Atlantic Anomaly and the radiation belt models. Advances in Space Research. 1994. Oct; 14(10):911-21."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 469"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "9a8ddeb6-86da-542e-80f9-8c72689982ee",
+     "label": "JMDSO_469_17.tif_STS-40_DSO_469_2010_197_050723.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001850",
+   "label": "DSO 469__1970439640",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Dose Rate Averages for all STS-31 Passes in the SAA",
+    "dataset_catalog": "DSO 469__1970439640",
+    "dataset_description": "",
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 469"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "3bc37d26-5e32-54b9-9eb3-117c10b954c2",
+     "label": "JMDSO_469_12.tif_STS-31_DSO_469_2010_197_050715.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001802",
+   "label": "DSO 469__1970433212",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Dose Rate on STS-31 at 617 km Altitude",
+    "dataset_catalog": "DSO 469__1970433212",
+    "dataset_description": [
+     "This graph depicts the dose rate in mrad per minute on STS-31 at 617 km altitude. The heart of the anomaly is not accessible because of the low inclination of the orbit. The graph also shows a contour plot of dose rate in a portion of the SAA as seen by the TEPC aboard STS-31. This diagram presents the average of all passes through the SAA for that mission and was produced without regard for spacecraft orientation. Note the center of the anomaly is south of the 28.5 degree parallel.\r\n<p>\r\nSource: Konradi A, Badwar GD, and  Braby LA.  Recent space shuttle observations of the South Atlantic Anomaly and the radiation belt models. Advances in Space Research. 1994. Oct; 14(10):911-21."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 469"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "91f2425c-7b8a-53c4-b08d-c25be4df868e",
+     "label": "JMDSO_469_11.tif_STS-51_DSO_469_2010_197_040755.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002044",
+   "label": "DSO 469__1970428207",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Mierodosimetric Spectra",
+    "dataset_catalog": "DSO 469__1970428207",
+    "dataset_description": [
+     "This graph depicts the mierodosimetric spectra (dose times lineal energy, <i>y</i>) as a function of <i>y</i> at 1.9 \u00b5m depth (plateau location) in water column irradiated by 160 MeV proton beam, as measured by a wall-less, 1-\u00b5m diameter spherical TEPC.\r\n<p>\r\nSource: Shinn JL, Dadwar GD, Xaposos MA, and Wilson JW.   An analysis of energy deposition in a tissue equivalent proportional counter onboard the space shuttle.  Radiation Measurements. 1999. Feb; 30(1):19-28."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 469"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "b2f80116-2f14-52ad-ae31-791c06593907",
+     "label": "JMDSO_469_10.tif_STS-51_DSO_469_2010_197_040700.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002285",
+   "label": "DSO 469__1970501636",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Complete Picture of the SAA",
+    "dataset_catalog": "DSO 469__1970501636",
+    "dataset_description": [
+     "This graph depicts a complete picture of the SAA including the second belt as seen by STS-48. Since the STS-48 orbital inclination was -57 degrees, the spacecraft covered all of the SAA during flight. This is shown in the graph. The second belt also stands out clearly with its center at -10 degrees longitude and -40 degrees latitude.\r\n<p>\r\nSource: Konradi A, Badwar GD, and  Braby LA.  Recent space shuttle observations of the South Atlantic Anomaly and the radiation belt models. Advances in Space Research. 1994. Oct; 14(10):911-21."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 469"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "65dacec5-e271-51ad-b014-284fecef72b9",
+     "label": "JMDSO_469_18.tif_STS-48_DSO_469_2010_197_050736.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,272 @@
+{
+ "record": {
+  "id": "1ffa0a76-88a9-5cb3-ad7b-4772171d78fd",
+  "_id": "1ffa0a76-88a9-5cb3-ad7b-4772171d78fd",
+  "experiment_title": "Cardiovascular Conditioning",
+  "pub_document_number": "PUB000380",
+  "parameter_html": "<table><tr><td>Blood pressure, mean</td></tr><tr><td>Body mass</td></tr><tr><td>Heart rate</td></tr><tr><td>Plasma volume</td></tr><tr><td>Pulse pressure</td></tr><tr><td>Red blood cell mass</td></tr><tr><td>Diastolic blood pressure</td></tr><tr><td>Systolic blood pressure</td></tr><tr><td>Blood volume</td></tr><tr><td>Leg volume</td></tr><tr></tr></table>",
+  "__source_key": "cl62ayuw4cd9701o67fhwedse",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Dietlein, Lawrence\">Principal Investigator: Dietlein, Lawrence</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Judy, William\">Co-Investigator: Judy, William</a>",
+  "image_name": [
+   "Cybex Isokinetic Dynamometer"
+  ],
+  "keyword": [
+   "Orthostatic intolerance",
+   "Orthostatic hypotension",
+   "Blood volume"
+  ],
+  "keyword_name": "Blood volume",
+  "__record_version": 30,
+  "experiment_description": "OBJECTIVES: <br>\r\nThe cardiovascular system was the first major body system to show physiologic change following space flight.  As a result, it was extensively investigated by various means during the Gemini missions.  The purpose of the Cardiovascular Conditioning (M001) experiment was to determine the effectiveness of the pneumatic cuff technique in preventing orthostatic intolerance to a 1-G stress after space flights lasting up to 14-days.\r\n<P>\r\nWater immersion studies in support of this experiment indicated that pneumatic leg cuffs alone, when inflated to 70 to 75 mm Hg for 2 out of every 6 minutes, provided protection against cardiovascular deconditioning.   Four healthy, male subjects were immersed in water up to neck level for six hours on two separate occasions, two days apart.  Before and after each period of water immersion, the heart rate of each subject was measured during a tilt table test.  Data analysis indicated that the first water immersion period, during which the subjects' did not wear leg cuffs, resulted in cardiovascular deconditioning.  This was evidenced by cardioacceleration in excess of that observed during the tilt-table test prior to water immersion.  Also, syncope occurred in two of the four subjects.  Tilt table responses following the second period of immersion, during which leg cuffs were utilized, revealed that a definite protective effect was achieved.  Cardioacceleration was less pronounced, and no syncope occurred.\r\n<P>\r\nThe physiological mechanisms responsible for the observed efficacy of the cuff technique were not completely understood.  It was hypothesized that the cuffs prevented thoracic blood volume overload, thus resulting in the Henry-Gauer response with its resultant diuresis and decreased effective circulating blood volumes.  It was also postulated that the cuffs induced an intermittent artificial hydrostatic gradient (by increasing venous pressure distal to the cuffs during inflation) across the walls of the leg veins, mimicking the deterioration of normal venomotor reflexes.  It was theorized that this action would decrease the pooling of blood in the lower extremities and increase the effective circulating blood volume upon return to a 1-G environment following weightlessness or its simulation.  \r\n<P>\r\nAPPROACH: <br>\r\nOne astronaut from each of the Gemini 5 (8-day) and Gemini 7 (14-day) missions participated as a test subject, described here as subjects A and B respectively.  The remaining astronaut aboard each respective flight acted as a control subject (subjects C and D.)  In-flight, the two test subjects wore cuff devices designed to maintain venous pressure in the lower extremities.\r\n<P>\r\nThe experiment equipment consisted of a pneumatic cycling system and a pair of pneumatic cuffs.  The cycling system alternately inflated and deflated the cuffs that were form-fitted to the proximal thigh region of the test subjects.  The bladder portion of each cuff was positioned on the dorsomedial aspect of each thigh.  \r\n<P>\r\nUpon reaching orbit, the cuffs were automatically pressurized to 80 mm Hg for 2 minutes out of every 6 minutes.  The system was capable of continuous operation during flight, but could be switched off for sleep periods if required.  The experiment imposed no operational requirement other than activation of the device after reaching orbit and deactivation prior to reentry.\r\n<P>\r\nThe experiment lasted for the first 4 days of the Gemini 5 mission and for the first 13.5 days of the Gemini 7 mission.  During the Gemini 5 mission, the cuffs were to operate continuously for the full 8-day mission.  After 4 days, however, the pneumatic programmer stopped cycling when the oxygen pressure in the storage vessel dropped below operational levels.\r\n<P>\r\nBefore and after flight, all Gemini Program astronauts, including the subjects of this experiment, were given a series of tilt table tests to measure orthostatic intolerance.  Parameters measured included heart rate, blood pressure, pulse pressure, and leg volume.  Leg volume was determined by the strain-gage technique.  Changes in blood volume, plasma volume, and red cell mass were determined using radioactive isotope (125I, 51Cr) techniques.  Body mass was also measured.\r\n<P>\r\nThe tilt table test protocol was as follows: each subject lay supine for 5 minutes.  The subject was then elevated into a +70 degree, head-up tilt position for 15 minutes.  Leg volume was measured for the duration of the 15-minute tilt.  After the tilt was completed, the subject was again supine for 5 minutes.  Leg volume was measured for an additional 5 minutes after the tilt was completed.  Heart rate and blood pressure were monitored continuously throughout the 25-minute test.  All subjects completed three preflight tilt-table tests.  The astronauts of Gemini 5 completed 6 post flight tilt table tests, while the astronauts of Gemini 7 completed 4 post flight tilt table tests.  Post flight tests for the Gemini 5 astronauts were conducted between 2-104 hours after recovery.  The Gemini 7 astronauts were measured between 2-56 hours after recovery.\r\n<P>\r\nRESULTS: <br>\r\nPost flight heart rates:  All four Gemini 5 and 7 crewmembers had increased resting heart rates during the first 12 to 24 hours after recovery.  Subjects A and C had a twofold greater increase in heart rate than did subjects B and D during the first two post flight tilts.  Although subjects B and D had a smaller increase in heart rate during the tilt procedures, subject B had to be returned to the supine position after 12 minutes during the first tilt.  This experience on the first tilt procedure may have accounted for his increased heart rate during the second and third tilts.  The heart rates of all subjects decreased during succeeding tilts to approximately preflight values.\r\n<P>\r\nPost flight blood pressure:  All four crewmembers had decreased resting systolic blood pressure 2 to 4 hours after recovery.  Test subject B and control subject C maintained systolic pressures that were lower than the preflight values throughout the post flight test period.  All four crewmembers had a decreased resting diastolic blood pressure during each post flight tilt test except during the first and last tilts of control subject C and during the second tilt of test subject B.\r\n<P>\r\nPost flight pulse pressure:  All four Gemini 5 and Gemini 7 crewmembers had narrowed pulse pressures during the first post flight tilt (compared with the preflight tilt and the post flight resting values).  Test subject A and control subject C also had a significant pulse pressure narrowing during the second (8 to 12 hours) post flight tilt.  Control subject C maintained a low systolic pressure during the third and forth tilts, whereas the systolic pressure of test subject A returned to normal preflight levels after the second post flight tilt.  Test subject B and control subject D had no significant pulse pressure narrowing during the second, third, or fourth post flight tilts.\r\n<P>\r\nPost flight leg volume changes:  Leg volume changes during the post flight tilts indicated that test subjects A and B, who wore the pneumatic cuffs, pooled significantly less blood in their legs than did control subjects C and D.  During the first post flight tilt table test, test subject B had signs of vasodepressor syncope.  The tilt was interrupted and the subject was returned to the supine position.  The episode occurred despite no evidence of increased pooling of blood in the lower extremities.  During subsequent tilts, test subject B showed no signs of syncope or of impending syncope.  It was significant that this episode of syncope occurred despite the fact that the measured blood volume of both test-subject B and control-subject D was unchanged from preflight values.  Researchers concluded it was possible that the syncopal episode was the result of sudden vasodilation.  The effects of which were a pooling of blood in the visceral region, a diminished venous return and cardiac output, and a decrease in cerebral blood flow. \r\n<P>\r\nBlood volume, plasma volume, and red cell mass variation:  Subjects' B and D of Gemini 7 sustained a 4 and 15 percent increase respectively in plasma volume during the 14-day mission.  Subjects' A and C of Gemini 5 lost 4 and 8 percent respectively of their plasma volume during the 8-day mission.  All four subjects lost 7 to 20 percent of their red cell mass.  The decrease in red cell mass and the increase in plasma volume of subjects B and D offset each other to result in a net zero percent change in blood volume.  The reduction in plasma volume and red cell mass subjects A and C contributed to a 12 and 13 percent decrease in blood volume.  These changes in blood volume may have reflected, in part, the extent of hydration of the Gemini 5 subjects, but this was not true for the Gemini 7 subjects.\r\n<P>\r\nBody mass changes:  Test subject A and control subject C sustained a loss in body mass of 8.5 and 7.5 pounds, respectively.  Test subject B and control subject D lost 6.5 and 10.0 pounds, respectively.  These values were similar to those observed after other missions of shorter duration.  Subjects' B and D regained less body weight during the first 24 hours post flight than did subjects A and C (25 percent and 40 percent compared with 50 percent.)\r\n<P>\r\nFlight conditions that were operative during the Gemini 7 mission were notably different from those that were operative during the Gemini 5 mission.  These differences were of sufficient magnitude that a comparison of the experiment results from the two missions was difficult, if not impossible.  The Gemini 7 mission was different from previous Gemini missions in that the Gemini 7 astronauts did not wear their suits during an extensive portion of the 14-day flight.  Their food and water intake more closely approximated the optimum than it did on previous flights that assured better hydration and fluid electrolyte balance.  Also, the Gemini 7 exercise regimen was more rigorous than that used on previous flights.  These variables, in addition to the individual variability, precluded any direct comparison of results on the two missions.  Further, the pneumatic cuffs were operative during only the first half of the Gemini 5 mission.  \r\n<P>\r\nThe post flight physiological responses of subjects B and D were different from, and generally improved in comparison with, those observed for subjects A and C.  However, it was difficult to determine which variables were responsible for the observed improvement.\r\n<P>\r\nResearchers concluded that pneumatic cuffs were not effective in decreasing post flight orthostatic intolerance.  This conclusion was not based on the occurrence of syncope during the first tilt of test subject B.  It was based on the higher heart rates observed (as compared with the control subject) during subsequent tilts.  (Syncope itself is a poor indicator of the extent of cardiovascular deconditioning.)  Researchers did conclude, however, that the pneumatic cuffs did lessen the extent of post flight pooling of blood in the legs as determined by the strain-gage technique.\r\n<END>",
+  "indexed": "2026-08-23T03:54:47.926782+00:00",
+  "GUID": "cl62ayuw4cd9701o67fhwedse",
+  "__model_type": "lsda_experiment",
+  "__dirid": "1ffa0a76-88a9-5cb3-ad7b-4772171d78fd",
+  "__record_size_wo_doccontent": 184037,
+  "experiment_parms_tissue2": "N/A",
+  "experiment_parms_tissue1": "N/A",
+  "__update_method": "Update CDM",
+  "archive_status_index": 2,
+  "experiment_type_lk": [
+   "Gemini Program"
+  ],
+  "__record_modified_date": "2026-08-23T03:54:47.926782+00:00",
+  "proposal_source": [
+   "N/A"
+  ],
+  "__indexed": "2026-08-23T03:54:47.926782+00:00",
+  "__record_creation_date": "2022-07-28T20:03:50.263Z",
+  "__record_size": 184037,
+  "__model_version": 60,
+  "payload_id": "Gemini 10",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "M001",
+  "parameter_name": [
+   "Blood pressure, mean",
+   "Body mass",
+   "Heart rate",
+   "Plasma volume",
+   "Pulse pressure",
+   "Red blood cell mass",
+   "Diastolic blood pressure",
+   "Systolic blood pressure",
+   "Blood volume",
+   "Leg volume"
+  ],
+  "payload_part": "Gemini 10",
+  "exp_index": 364,
+  "research_area": [
+   "Cardiovascular physiology"
+  ],
+  "pme_role_with_name": [
+   "Co-Investigator: Judy, William",
+   "Principal Investigator: Dietlein, Lawrence"
+  ],
+  "missions": [
+   [
+    [
+     "Gemini 10"
+    ]
+   ],
+   [
+    [
+     "Gemini 11"
+    ]
+   ],
+   [
+    [
+     "Gemini 12"
+    ]
+   ],
+   [
+    [
+     "Gemini 3"
+    ]
+   ],
+   [
+    [
+     "Gemini 4"
+    ]
+   ],
+   [
+    [
+     "Gemini 5"
+    ]
+   ],
+   [
+    [
+     "Gemini 6"
+    ]
+   ],
+   [
+    [
+     "Gemini 7"
+    ]
+   ],
+   [
+    [
+     "Gemini 8"
+    ]
+   ],
+   [
+    [
+     "Gemini 9"
+    ]
+   ]
+  ],
+  "PI": [
+   "Dietlein, Lawrence"
+  ],
+  "_file_extension": [],
+  "experiment_identifier": [
+   "M001"
+  ],
+  "mission_id": [
+   [
+    [
+     "Gemini 10"
+    ]
+   ],
+   [
+    [
+     "Gemini 11"
+    ]
+   ],
+   [
+    [
+     "Gemini 12"
+    ]
+   ],
+   [
+    [
+     "Gemini 3"
+    ]
+   ],
+   [
+    [
+     "Gemini 4"
+    ]
+   ],
+   [
+    [
+     "Gemini 5"
+    ]
+   ],
+   [
+    [
+     "Gemini 6"
+    ]
+   ],
+   [
+    [
+     "Gemini 7"
+    ]
+   ],
+   [
+    [
+     "Gemini 8"
+    ]
+   ],
+   [
+    [
+     "Gemini 9"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Dietlein, Lawrence"
+  ],
+  "archive_status": "Data preservation is complete. Privacy-protected datasets are available via data request. Remaining datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Gemini",
+  "__source_field_concat": "PUB000380 Gemini 10 cl62ayuw4cd9701o67fhwedse Blood volume N/A N/A  Gemini 10 Cardiovascular Conditioning M001 Gemini",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES: <br>\r\nThe cardiovascular system was the first major body system to show physiologic change following space flight.  As a result, it was extensively investigated by various means during the Gemini missions.  The purpose of the Cardiovascular Conditioning (M001) experiment was to determine the effectiveness of the pneumatic cuff technique in preventing orthostatic intolerance to a 1-G stress after space flights lasting up to 14-days.\r\n<P>\r\nWater immersion studies in support of this experiment indicated that pneumatic leg cuffs alone, when inflated to 70 to 75 mm Hg for 2 out of every 6 minutes, provided protection against cardiovascular deconditioning.   Four healthy, male subjects were immersed in water up to neck level for six hours on two separate occasions, two days apart.  Before and after each period of water immersion, the heart rate of each subject was measured during a tilt table test.  Data analysis indicated that the first water immersion period, during which the subjects' did not wear leg cuffs, resulted in cardiovascular deconditioning.  This was evidenced by cardioacceleration in excess of that observed during the tilt-table test prior to water immersion.  Also, syncope occurred in two of the four subjects.  Tilt table responses following the second period of immersion, during which leg cuffs were utilized, revealed that a definite protective effect was achieved.  Cardioacceleration was less pronounced, and no syncope occurred.\r\n<P>\r\nThe physiological mechanisms responsible for the observed efficacy of the cuff technique were not completely understood.  It was hypothesized that the cuffs prevented thoracic blood volume overload, thus resulting in the Henry-Gauer response with its resultant diuresis and decreased effective circulating blood volumes.  It was also postulated that the cuffs induced an intermittent artificial hydrostatic gradient (by increasing venous pressure distal to the cuffs during inflation) across the walls of the leg veins, mimicking the deterioration of normal venomotor reflexes.  It was theorized that this action would decrease the pooling of blood in the lower extremities and increase the effective circulating blood volume upon return to a 1-G environment following weightlessness or its simulation.  \r\n<P>\r\nAPPROACH: <br>\r\nOne astronaut from each of the Gemini 5 (8-day) and Gemini 7 (14-day) missions participated as a test subject, described here as subjects A and B respectively.  The remaining astronaut aboard each respective flight acted as a control subject (subjects C and D.)  In-flight, the two test subjects wore cuff devices designed to maintain venous pressure in the lower extremities.\r\n<P>\r\nThe experiment equipment consisted of a pneumatic cycling system and a pair of pneumatic cuffs.  The cycling system alternately inflated and deflated the cuffs that were form-fitted to the proximal thigh region of the test subjects.  The bladder portion of each cuff was positioned on the dorsomedial aspect of each thigh.  \r\n<P>\r\nUpon reaching orbit, the cuffs were automatically pressurized to 80 mm Hg for 2 minutes out of every 6 minutes.  The system was capable of continuous operation during flight, but could be switched off for sleep periods if required.  The experiment imposed no operational requirement other than activation of the device after reaching orbit and deactivation prior to reentry.\r\n<P>\r\nThe experiment lasted for the first 4 days of the Gemini 5 mission and for the first 13.5 days of the Gemini 7 mission.  During the Gemini 5 mission, the cuffs were to operate continuously for the full 8-day mission.  After 4 days, however, the pneumatic programmer stopped cycling when the oxygen pressure in the storage vessel dropped below operational levels.\r\n<P>\r\nBefore and after flight, all Gemini Program astronauts, including the subjects of this experiment, were given a series of tilt table tests to measure orthostatic intolerance.  Parameters measured included heart rate, blood pressure, pulse pressure, and leg volume.  Leg volume was determined by the strain-gage technique.  Changes in blood volume, plasma volume, and red cell mass were determined using radioactive isotope (125I, 51Cr) techniques.  Body mass was also measured.\r\n<P>\r\nThe tilt table test protocol was as follows: each subject lay supine for 5 minutes.  The subject was then elevated into a +70 degree, head-up tilt position for 15 minutes.  Leg volume was measured for the duration of the 15-minute tilt.  After the tilt was completed, the subject was again supine for 5 minutes.  Leg volume was measured for an additional 5 minutes after the tilt was completed.  Heart rate and blood pressure were monitored continuously throughout the 25-minute test.  All subjects completed three preflight tilt-table tests.  The astronauts of Gemini 5 completed 6 post flight tilt table tests, while the astronauts of Gemini 7 completed 4 post flight tilt table tests.  Post flight tests for the Gemini 5 astronauts were conducted between 2-104 hours after recovery.  The Gemini 7 astronauts were measured between 2-56 hours after recovery.\r\n<P>\r\nRESULTS: <br>\r\nPost flight heart rates:  All four Gemini 5 and 7 crewmembers had increased resting heart rates during the first 12 to 24 hours after recovery.  Subjects A and C had a twofold greater increase in heart rate than did subjects B and D during the first two post flight tilts.  Although subjects B and D had a smaller increase in heart rate during the tilt procedures, subject B had to be returned to the supine position after 12 minutes during the first tilt.  This experience on the first tilt procedure may have accounted for his increased heart rate during the second and third tilts.  The heart rates of all subjects decreased during succeeding tilts to approximately preflight values.\r\n<P>\r\nPost flight blood pressure:  All four crewmembers had decreased resting systolic blood pressure 2 to 4 hours after recovery.  Test subject B and control subject C maintained systolic pressures that were lower than the preflight values throughout the post flight test period.  All four crewmembers had a decreased resting diastolic blood pressure during each post flight tilt test except during the first and last tilts of control subject C and during the second tilt of test subject B.\r\n<P>\r\nPost flight pulse pressure:  All four Gemini 5 and Gemini 7 crewmembers had narrowed pulse pressures during the first post flight tilt (compared with the preflight tilt and the post flight resting values).  Test subject A and control subject C also had a significant pulse pressure narrowing during the second (8 to 12 hours) post flight tilt.  Control subject C maintained a low systolic pressure during the third and forth tilts, whereas the systolic pressure of test subject A returned to normal preflight levels after the second post flight tilt.  Test subject B and control subject D had no significant pulse pressure narrowing during the second, third, or fourth post flight tilts.\r\n<P>\r\nPost flight leg volume changes:  Leg volume changes during the post flight tilts indicated that test subjects A and B, who wore the pneumatic cuffs, pooled significantly less blood in their legs than did control subjects C and D.  During the first post flight tilt table test, test subject B had signs of vasodepressor syncope.  The tilt was interrupted and the subject was returned to the supine position.  The episode occurred despite no evidence of increased pooling of blood in the lower extremities.  During subsequent tilts, test subject B showed no signs of syncope or of impending syncope.  It was significant that this episode of syncope occurred despite the fact that the measured blood volume of both test-subject B and control-subject D was unchanged from preflight values.  Researchers concluded it was possible that the syncopal episode was the result of sudden vasodilation.  The effects of which were a pooling of blood in the visceral region, a diminished venous return and cardiac output, and a decrease in cerebral blood flow. \r\n<P>\r\nBlood volume, plasma volume, and red cell mass variation:  Subjects' B and D of Gemini 7 sustained a 4 and 15 percent increase respectively in plasma volume during the 14-day mission.  Subjects' A and C of Gemini 5 lost 4 and 8 percent respectively of their plasma volume during the 8-day mission.  All four subjects lost 7 to 20 percent of their red cell mass.  The decrease in red cell mass and the increase in plasma volume of subjects B and D offset each other to result in a net zero percent change in blood volume.  The reduction in plasma volume and red cell mass subjects A and C contributed to a 12 and 13 percent decrease in blood volume.  These changes in blood volume may have reflected, in part, the extent of hydration of the Gemini 5 subjects, but this was not true for the Gemini 7 subjects.\r\n<P>\r\nBody mass changes:  Test subject A and control subject C sustained a loss in body mass of 8.5 and 7.5 pounds, respectively.  Test subject B and control subject D lost 6.5 and 10.0 pounds, respectively.  These values were similar to those observed after other missions of shorter duration.  Subjects' B and D regained less body weight during the first 24 hours post flight than did subjects A and C (25 percent and 40 percent compared with 50 percent.)\r\n<P>\r\nFlight conditions that were operative during the Gemini 7 mission were notably different from those that were operative during the Gemini 5 mission.  These differences were of sufficient magnitude that a comparison of the experiment results from the two missions was difficult, if not impossible.  The Gemini 7 mission was different from previous Gemini missions in that the Gemini 7 astronauts did not wear their suits during an extensive portion of the 14-day flight.  Their food and water intake more closely approximated the optimum than it did on previous flights that assured better hydration and fluid electrolyte balance.  Also, the Gemini 7 exercise regimen was more rigorous than that used on previous flights.  These variables, in addition to the individual variability, precluded any direct comparison of results on the two missions.  Further, the pneumatic cuffs were operative during only the first half of the Gemini 5 mission.  \r\n<P>\r\nThe post flight physiological responses of subjects B and D were different from, and generally improved in comparison with, those observed for subjects A and C.  However, it was difficult to determine which variables were responsible for the observed improvement.\r\n<P>\r\nResearchers concluded that pneumatic cuffs were not effective in decreasing post flight orthostatic intolerance.  This conclusion was not based on the occurrence of syncope during the first tilt of test subject B.  It was based on the higher heart rates observed (as compared with the control subject) during subsequent tilts.  (Syncope itself is a poor indicator of the extent of cardiovascular deconditioning.)  Researchers did conclude, however, that the pneumatic cuffs did lessen the extent of post flight pooling of blood in the legs as determined by the strain-gage technique.\r\n<END>",
+  "__doi": "10.83263/b0g2-mh91",
+  "__doi_record_creation_date": "2026-08-23T03:54:47",
+  "__doi_record_modified_date": "2026-08-23T03:54:47"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002220",
+   "label": "J0001087",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Heart Rate Changes During the Initial Postflight Tilt Table Test",
+    "dataset_catalog": "J0001087",
+    "dataset_description": [
+     "The change in heart rate during the initial postflight tilt table test after flight was expressed as a percentage of the preflight values for all Gemini flights to date."
+    ],
+    "processing_level": [
+     "N/A"
+    ],
+    "experiment_id": [
+     "M001"
+    ]
+   },
+   "meta": "1 file \u00b7 388.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "f07ee9cb-c037-509a-95a3-dac1f0680c16",
+     "label": "JMGEMM001_396.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 397312,
+     "meta": "388.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001940",
+   "label": "J0001086",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Postflight Tilt Table Heart Rate Change Versus Time for Multiple Gemini Missions",
+    "dataset_catalog": "J0001086",
+    "dataset_description": [
+     "The change in heart rate during the initial postflight tilt-table test was expressed as a percent of the preflight value."
+    ],
+    "processing_level": [
+     "N/A"
+    ],
+    "experiment_id": [
+     "M001"
+    ]
+   },
+   "meta": "1 file \u00b7 1.31 MB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "600ff5fc-6bc9-575a-9abb-6887430beed0",
+     "label": "JMGEMM001_395.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 1373635,
+     "meta": "1.31 MB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

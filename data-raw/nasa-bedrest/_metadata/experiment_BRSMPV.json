@@ -1,0 +1,533 @@
+{
+ "record": {
+  "id": "adf51ad3-4370-545b-8d48-fbd33d73e796",
+  "_id": "adf51ad3-4370-545b-8d48-fbd33d73e796",
+  "__is_locked": false,
+  "experiment_title": "Bed Rest Standard Measures: Plasma Volume",
+  "__source_key": "cl62azrkacdgz01o6am93f822",
+  "experiment_type": [
+   [
+    "Flight Analogs Project (FAP)"
+   ],
+   [
+    "Artificial Gravity (Fractional Gravity)"
+   ],
+   [
+    "NASA Bedrest Studies"
+   ],
+   [
+    "NASA Ground-Based Investigations"
+   ]
+  ],
+  "AssignedArchivist": [
+   "Liddell, Nyaia A."
+  ],
+  "keyword": [
+   "Plasma volume",
+   "Carboxyhemoglobin",
+   "Hematocrit",
+   "Hemoglobins",
+   "Blood volume"
+  ],
+  "__record_version": 33,
+  "experiment_description": "OBJECTIVES:<br>\nThe objective of this test was to measure plasma volume to aid in the proper assessment of hemodynamic parameters, vascular responses, and cardiac size and function. The investigators hypothesized that plasma volume losses will be similar to those following space flight. They expected to see changes in blood volume for subjects following extended periods of bed rest. \n<div>APPROACH:<br>\nPlasma volume was measured by the carboxyhemoglobin rebreathing method. The test subject breathed into a mouthpiece into which 60 cc of carbon monoxide (CO) was injected. In addition, blood draws were completed before and 10 minutes after CO administration. \n</div><div>\nRESULTS:<br>\nThis experiment has concluded. Tabular results are available for the public.. \n</div><div>\nInterim results were published from Campaign 3 using thirteen subjects which were studied before and during bed rest. Statistical analysis was limited to the first 49-60 days of bed rest and compared to pre-bed rest data. Ultrasound data were collected on vascular and cardiac structure and function. Tilt testing was conducted for 30 minutes or until presyncopal symptoms intervened. Plasma volume was significantly reduced by day seven of bed rest. Flow-mediated dilation in the leg was significantly increased at bed rest day 49. Arterial responses to nitroglycerin differed in the arm and leg, but did not change as a result of bed rest. Anterior tibial artery intimal-medial thickness markedly decreased at bed rest days 21, 35, and 49. Several cardiac functional parameters, including isovolumic relaxation time (73 ms to 85 ms at day 7) and myocardial performance index, were significantly increased during bed rest. There was a trend for decreased orthostatic tolerance following 60 day of bed rest. Over all the data suggest that bed rest altered cardiovascular structure and function in a pattern similar to short-duration spaceflight. Additionally, the vascular alterations were primarily seen in the lower body, while vessels of the upper body were unaffected.\n</div><div>\nDuring the artificial gravity (AG) pilot study it was concluded that AG can mitigate some aspects of bed rest-induced cardiovascular deconditioning, including orthostatic intolerance and aerobic power. Mechanisms of improvement were not cardiac-mediated, but likely through improved sympathetic responsiveness to orthostatic stress.</div>",
+  "indexed": "2026-08-23T04:24:51.867414+00:00",
+  "GUID": "cl62azrkacdgz01o6am93f822",
+  "_file_extension": "human",
+  "archive_status": "Data preservation is complete.  All datasets are publicly available.",
+  "__model_type": "lsda_experiment",
+  "__dirid": "adf51ad3-4370-545b-8d48-fbd33d73e796",
+  "__record_size_wo_doccontent": 67004,
+  "__update_method": "Update CDM",
+  "experiment_identifier": [
+   "BRSMPV"
+  ],
+  "CompleteArchivalExpectedInFiscalYear": [
+   "0"
+  ],
+  "experiment_type_lk": [
+   "Flight Analogs Project (FAP)",
+   "Artificial Gravity (Fractional Gravity)",
+   "NASA Bedrest Studies",
+   "NASA Ground-Based Investigations"
+  ],
+  "__record_modified_date": "2026-08-23T04:24:51.867414+00:00",
+  "nasa_center": "JSC",
+  "__indexed": "2026-08-23T04:24:51.867414+00:00",
+  "__record_creation_date": "2022-07-28T19:56:53.467Z",
+  "__record_size": 67004,
+  "species_strain": [
+   [
+    "N/A"
+   ]
+  ],
+  "__model_version": 60,
+  "species_sci_name": [
+   [
+    "Homo sapiens"
+   ]
+  ],
+  "payload_id": [
+   "Campaign 19",
+   "DBLS",
+   "HDT30",
+   "CFT70",
+   "LAFSP2",
+   "Pilot",
+   "Campaign 3",
+   "Campaign 5",
+   "Campaign 1",
+   "ACG",
+   "LAFS"
+  ],
+  "CombinedSpecies": [
+   "Human (Homo sapiens) N/A"
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "ncindex": 2,
+  "researchIndex": [
+   3
+  ],
+  "experiment_id": "BRSMPV",
+  "center": "JSC",
+  "parameter_name": [
+   "Blood volume",
+   "Hematocrit",
+   "Hemoglobin",
+   "Plasma volume",
+   "Red blood cell volume"
+  ],
+  "exp_index": 1106,
+  "research_area": [
+   "Cardiovascular physiology"
+  ],
+  "species": [
+   [
+    "Human"
+   ]
+  ],
+  "pme_role_with_name": [
+   "Principal Investigator: Platts, Steven",
+   "Principal Investigator: Meck, Janice Fritsch- Yelle"
+  ],
+  "missions": [
+   "Campaign 19",
+   "DBLS",
+   "HDT30",
+   "UTMB Campaign 11",
+   "LAFSP2",
+   "Pilot",
+   "UTMB Campaign 3",
+   "UTMB Campaign 5",
+   "UTMB Campaign 1",
+   "Campaign 17",
+   "LAFS"
+  ],
+  "PI": [
+   "Platts, Steven",
+   "Meck, Janice Fritsch- Yelle"
+  ],
+  "sort": [
+   3,
+   "82c8df4c-79de-59a9-a9e4-dadea407507c"
+  ],
+  "parameter_html": "<table><tr><td>Blood volume</td></tr><tr><td>Hematocrit</td></tr><tr><td>Hemoglobin</td></tr><tr><td>Plasma volume</td></tr><tr><td>Red blood cell volume</td></tr><tr></tr></table>",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Meck, Janice Fritsch- Yelle\">Principal Investigator: Meck, Janice Fritsch- Yelle</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Platts, Steven\">Principal Investigator: Platts, Steven</a>",
+  "Program": "Ground",
+  "mission_id": [
+   "Campaign 19",
+   "DBLS",
+   "HDT30",
+   "UTMB Campaign 11",
+   "LAFSP2",
+   "Pilot",
+   "UTMB Campaign 3",
+   "UTMB Campaign 5",
+   "UTMB Campaign 1",
+   "Campaign 17",
+   "LAFS"
+  ],
+  "PrincipalInvestigator": [
+   "Platts, Steven",
+   "Meck, Janice Fritsch- Yelle"
+  ],
+  "__source_field_concat": "human cl62azrkacdgz01o6am93f822 JSC JSC Bed Rest Standard Measures: Plasma Volume BRSMPV Ground Data preservation is complete.  All datasets are publicly available.",
+  "__icon_type": "",
+  "__description": "OBJECTIVES:<br>\nThe objective of this test was to measure plasma volume to aid in the proper assessment of hemodynamic parameters, vascular responses, and cardiac size and function. The investigators hypothesized that plasma volume losses will be similar to those following space flight. They expected to see changes in blood volume for subjects following extended periods of bed rest. \n<div>APPROACH:<br>\nPlasma volume was measured by the carboxyhemoglobin rebreathing method. The test subject breathed into a mouthpiece into which 60 cc of carbon monoxide (CO) was injected. In addition, blood draws were completed before and 10 minutes after CO administration. \n</div><div>\nRESULTS:<br>\nThis experiment has concluded. Tabular results are available for the public.. \n</div><div>\nInterim results were published from Campaign 3 using thirteen subjects which were studied before and during bed rest. Statistical analysis was limited to the first 49-60 days of bed rest and compared to pre-bed rest data. Ultrasound data were collected on vascular and cardiac structure and function. Tilt testing was conducted for 30 minutes or until presyncopal symptoms intervened. Plasma volume was significantly reduced by day seven of bed rest. Flow-mediated dilation in the leg was significantly increased at bed rest day 49. Arterial responses to nitroglycerin differed in the arm and leg, but did not change as a result of bed rest. Anterior tibial artery intimal-medial thickness markedly decreased at bed rest days 21, 35, and 49. Several cardiac functional parameters, including isovolumic relaxation time (73 ms to 85 ms at day 7) and myocardial performance index, were significantly increased during bed rest. There was a trend for decreased orthostatic tolerance following 60 day of bed rest. Over all the data suggest that bed rest altered cardiovascular structure and function in a pattern similar to short-duration spaceflight. Additionally, the vascular alterations were primarily seen in the lower body, while vessels of the upper body were unaffected.\n</div><div>\nDuring the artificial gravity (AG) pilot study it was concluded that AG can mitigate some aspects of bed rest-induced cardiovascular deconditioning, including orthostatic intolerance and aerobic power. Mechanisms of improvement were not cardiac-mediated, but likely through improved sympathetic responsiveness to orthostatic stress.</div>",
+  "__doi": "10.83263/4dzb-2267",
+  "__doi_record_creation_date": "2026-08-23T04:24:51",
+  "__doi_record_modified_date": "2026-08-23T04:24:51"
+ },
+ "datasets": [
+  {
+   "key": "384ec216-6303-5472-a9fa-b0cc0d07ce62",
+   "label": "BRSMPV_Campaign_3_Plasma_Volume",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "UTMB Bedrest Campaign 3 Plasma Volume",
+    "dataset_catalog": "BRSMPV_Campaign_3_Plasma_Volume",
+    "dataset_description": "This dataset includes data collected from Bed Rest Standard Measures Plasma Volume experiment during UTMB Campaign 3.",
+    "processing_level": [
+     "Processed Data"
+    ],
+    "experiment_id": [
+     "BRSMPV"
+    ]
+   },
+   "meta": "28 files \u00b7 20.3 KB",
+   "date": "2025-09-12",
+   "children": [
+    {
+     "key": "d8b8bf29-a8af-519e-afd3-40ca24bcf41f",
+     "label": "BRSMPV_Campaign_3_Plasma_Volume_C3B_7127",
+     "type": "file",
+     "ext": "",
+     "file_size": 608,
+     "meta": "608 B",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "be18625e-68ee-5a73-adb2-8fa4f94c4af1",
+     "label": "BRSMPV_Campaign_3_Plasma_Volume_C3E_6043",
+     "type": "file",
+     "ext": "",
+     "file_size": 755,
+     "meta": "755 B",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "67474918-e492-5382-b9bc-d019210fe415",
+     "label": "BRSMPV_Campaign_3_Plasma_Volume_C3D_7984",
+     "type": "file",
+     "ext": "",
+     "file_size": 898,
+     "meta": "898 B",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "59593292-568d-54e6-8953-2942e6579937",
+     "label": "BRSMPV_Campaign_3_Plasma_Volume_C3D_8779",
+     "type": "file",
+     "ext": "",
+     "file_size": 906,
+     "meta": "906 B",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "18a6b09f-4580-5c89-a7c0-5c1383e27af6",
+     "label": "BRSMPV_Campaign_3_Plasma_Volume_C3C_7352",
+     "type": "file",
+     "ext": "",
+     "file_size": 1494,
+     "meta": "1.5 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "74e0dbfb-8e4e-5fb7-98a2-f5517d1f3ee1",
+     "label": "BRSMPV_Campaign_3_Plasma_Volume_C3G_5580",
+     "type": "file",
+     "ext": "",
+     "file_size": 648,
+     "meta": "648 B",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "32d69f13-8924-5126-9ddc-8e7d8870564b",
+     "label": "BRSMPV_Campaign_3_Plasma_Volume_C3A_5788",
+     "type": "file",
+     "ext": "",
+     "file_size": 612,
+     "meta": "612 B",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "93866b48-2bbd-50f2-8ec4-e135c698bdef",
+     "label": "BRSMPV_Campaign_3_Plasma_Volume_C3H_5907",
+     "type": "file",
+     "ext": "",
+     "file_size": 629,
+     "meta": "629 B",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "54068190-ebbd-52aa-9563-028702005af3",
+     "label": "BRSMPV_Campaign_3_Plasma_Volume_C3A_0446",
+     "type": "file",
+     "ext": "",
+     "file_size": 691,
+     "meta": "691 B",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "351f81ee-4cbe-5f9c-8b93-403938616e53",
+     "label": "BRSMPV_Campaign_3_Plasma_Volume_C3G_9032",
+     "type": "file",
+     "ext": "",
+     "file_size": 633,
+     "meta": "633 B",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c77a6dce-1769-5863-899d-5b233ae05b72",
+     "label": "BRSMPV_Campaign_3_Plasma_Volume_C3G_9485",
+     "type": "file",
+     "ext": "",
+     "file_size": 621,
+     "meta": "621 B",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "535bb11c-299e-5a33-844b-025074966777",
+     "label": "BRSMPV_Campaign_3_Plasma_Volume_C3A_0224",
+     "type": "file",
+     "ext": "",
+     "file_size": 679,
+     "meta": "679 B",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b54063fa-9c68-52ac-84d3-05b53a221e1b",
+     "label": "BRSMPV_Campaign_3_Plasma_Volume_C3D_5165",
+     "type": "file",
+     "ext": "",
+     "file_size": 923,
+     "meta": "923 B",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "fbd349b7-9a26-5e2f-8c1a-48b842c5301f",
+     "label": "BRSMPV_Campaign_3_Plasma_Volume_C3A_0992",
+     "type": "file",
+     "ext": "",
+     "file_size": 701,
+     "meta": "701 B",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2fdbe770-5eae-57b3-9014-eecb5eee2b18",
+     "label": "BRSMPV_Campaign_3_Plasma_Volume_C3D_7961",
+     "type": "file",
+     "ext": "",
+     "file_size": 885,
+     "meta": "885 B",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "96ff1533-d3b9-5bbd-bf79-76e97f4cdf34",
+     "label": "BRSMPV_Campaign_3_Plasma_Volume_C3C_7772",
+     "type": "file",
+     "ext": "",
+     "file_size": 897,
+     "meta": "897 B",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "27c783d1-d332-5a5b-884a-3496b2361d64",
+     "label": "BRSMPV_Campaign_3_Plasma_Volume_C3B_3768",
+     "type": "file",
+     "ext": "",
+     "file_size": 595,
+     "meta": "595 B",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "beacbd73-1fca-5515-b012-3eabc1cfd242",
+     "label": "BRSMPV_Campaign_3_Plasma_Volume_C3B_6345",
+     "type": "file",
+     "ext": "",
+     "file_size": 605,
+     "meta": "605 B",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5f108512-b179-5856-b240-e0ef4f49f80b",
+     "label": "BRSMPV_Campaign_3_Plasma_Volume_C3G_9314",
+     "type": "file",
+     "ext": "",
+     "file_size": 632,
+     "meta": "632 B",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d3b90dba-52be-56b8-9b66-0eeaa01ef9ea",
+     "label": "BRSMPV_Campaign_3_Plasma_Volume_C3B_4023",
+     "type": "file",
+     "ext": "",
+     "file_size": 598,
+     "meta": "598 B",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c1708121-c22f-5cbe-8ff4-a88a079c0f2a",
+     "label": "BRSMPV_Campaign_3_Plasma_Volume_C3D_8881",
+     "type": "file",
+     "ext": "",
+     "file_size": 916,
+     "meta": "916 B",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "be398bdd-f3d8-5408-a15b-e8370098e4e3",
+     "label": "BRSMPV_Campaign_3_Plasma_Volume_C3E_6607",
+     "type": "file",
+     "ext": "",
+     "file_size": 655,
+     "meta": "655 B",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1c02e3b3-b489-5fa3-9092-cf5406ae3243",
+     "label": "BRSMPV_Campaign_3_Plasma_Volume_C3D_8615",
+     "type": "file",
+     "ext": "",
+     "file_size": 895,
+     "meta": "895 B",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2b26e6cb-e72a-515c-8340-c0001079634f",
+     "label": "BRSMPV_Campaign_3_Plasma_Volume_C3G_5814",
+     "type": "file",
+     "ext": "",
+     "file_size": 626,
+     "meta": "626 B",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5d20b004-cfac-5f65-9927-4f4ff435894a",
+     "label": "BRSMPV_Campaign_3_Plasma_Volume_C3D_3985",
+     "type": "file",
+     "ext": "",
+     "file_size": 697,
+     "meta": "697 B",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d4f3a95c-d12f-5d77-84c1-a0555e5ff6e4",
+     "label": "BRSMPV_Campaign_3_Plasma_Volume_C3G_9139",
+     "type": "file",
+     "ext": "",
+     "file_size": 628,
+     "meta": "628 B",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e09a4325-dda2-5b63-b303-d8a5248cdceb",
+     "label": "BRSMPV_Campaign_3_Plasma_Volume_C3G_6858",
+     "type": "file",
+     "ext": "",
+     "file_size": 635,
+     "meta": "635 B",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "27e3d8cb-1cde-5e26-8c3e-0240ec5b4621",
+     "label": "BRSMPV_Campaign_3_Plasma_Volume_C3E_8715",
+     "type": "file",
+     "ext": "",
+     "file_size": 700,
+     "meta": "700 B",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "4a005ba7-30d4-5a30-b229-dba5e310e8a3",
+   "label": "BRSMPV_Campaign_1_Plasma_Volume",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "UTMB Bedrest Campaign 1 Plasma Volume",
+    "dataset_catalog": "BRSMPV_Campaign_1_Plasma_Volume",
+    "dataset_description": "This dataset includes data collected from Bed Rest Standard Measure Plasma Volume experiment on the Lunar Analog Feasibility Study (LAFS) Phase 1 Study and the LAFSP2, Phase 2 Study. The study was divided into campaign segments. This media contains the following campaigns: LAFS (05/13/2008 - 0606/2008), LAFS2 (07/08/20085 - 12/19/2008, LAFS3 (09/09/2008 - 12/09/2008, and LAFSP2 (04/20/2008 - 08/27/2008). During the LAFS operations, subjects wore special support stockings on their legs (Jobst\u00ae stockings). During LAFS Phase 1 session one, subjects wore thigh high stockings with 30-40mmHg of compression, session two, subjects wore thigh high stockings with 36-46mmHg of compression and session three, subjects wore knee high stockings at 36-46mmHg of compression. The results from this study will be combined with the results from the Cleveland Clinic Foundation study, The bedrest (BR) portion of this study was conducted at the UTMB GCRC for a period of six days. Subjects remained in a 9.5-degree head-up position to simulate 1/6th gravity loading on the feet.",
+    "processing_level": "Processed Data",
+    "experiment_id": [
+     "BRSMPV"
+    ]
+   },
+   "meta": "1 file \u00b7 1013 B",
+   "date": "2025-04-15",
+   "children": [
+    {
+     "key": "4bf1168b-8a6f-57b9-b5b5-1b8276aaacfc",
+     "label": "BRSMPV_Plasma_Volume_Campaign_1_Plasma_Vol",
+     "type": "file",
+     "ext": "",
+     "file_size": 1013,
+     "meta": "1013 B",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "0c558baa-61e0-57f9-a751-7f53c939ca1d",
+   "label": "BRSMPV_CFT70_PLASMA_VOLUME",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "BRSMPV CFT70 PLASMA VOLUME DATA",
+    "dataset_catalog": "BRSMPV_CFT70_PLASMA_VOLUME",
+    "dataset_description": "This dataset includes data collected from Bed Rest Standard Measures Plasma Volume experiment during CFT70.",
+    "processing_level": [
+     "Processed Data"
+    ],
+    "experiment_id": [
+     "BRSMPV"
+    ]
+   },
+   "meta": "2 files \u00b7 35.2 KB",
+   "date": "2026-03-24",
+   "children": [
+    {
+     "key": "590659ba-0c57-5bc0-8f75-d4630a98ceef",
+     "label": "BRSMPV_CFT70_PLASMA_VOLUME_Results",
+     "type": "file",
+     "ext": "",
+     "file_size": 5018,
+     "meta": "4.9 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "39daf461-b158-54b8-b2a9-8cd33b558a43",
+     "label": "BRSMPV_CFT70_PLASMA_VOLUME_all_subjects",
+     "type": "file",
+     "ext": "",
+     "file_size": 30977,
+     "meta": "30.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

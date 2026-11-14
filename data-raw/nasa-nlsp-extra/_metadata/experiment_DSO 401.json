@@ -1,0 +1,456 @@
+{
+ "record": {
+  "id": "1bac439e-5667-57f7-8e60-7f8bb8d5459c",
+  "_id": "1bac439e-5667-57f7-8e60-7f8bb8d5459c",
+  "experiment_title": "Validation of Predictive Tests and Countermeasures for Space Motion Sickness",
+  "pub_document_number": "PUB000774",
+  "archive_status_index": 2,
+  "parameter_html": "<table><tr><td>CSSI (Coriolis Sickness Susceptibility Test) scores</td></tr><tr><td>Chair rotations per minute</td></tr><tr><td>Head movements</td></tr><tr><td>Medication dosage</td></tr><tr><td>Medication usage</td></tr><tr><td>Space motion sickness (SMS)</td></tr><tr><td>Symptom points</td></tr><tr><td>Symptoms reported</td></tr><tr></tr></table>",
+  "__source_key": "cl62ayi4ucd6601o67wvnfhr5",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Homick, Jerry\">Principal Investigator: Homick, Jerry</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Reschke, Millard\">Co-Investigator: Reschke, Millard</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Vanderploeg, James\">Co-Investigator: Vanderploeg, James</a>",
+  "image_name": [
+   "EGG Data Collection",
+   "Electrogustogram (EGG) Placement",
+   "Oscillograph Monitor - front view",
+   "Rotator Chair Tests on the KC-135 Aircraft",
+   "STS-34 Crewmembers Conduct Experiment on Shuttle Middeck"
+  ],
+  "experiment_type_lk": [
+   "Shuttle Detailed Supplementary Objectives (DSO)",
+   "Shuttle Extended Duration Orbiter Medical Project (EDOMP)"
+  ],
+  "__record_modified_date": "2026-08-23T04:16:35.455851+00:00",
+  "proposal_source": [
+   "N/A"
+  ],
+  "__indexed": "2026-08-23T04:16:35.455851+00:00",
+  "keyword": [
+   "Weightlessness countermeasures",
+   "Pathological conditions, signs and symptoms",
+   "Vestibular function tests",
+   "Motion sickness",
+   "Space motion sickness (SMS)"
+  ],
+  "__record_creation_date": "2022-07-28T19:55:55.105Z",
+  "keyword_name": "Space motion sickness (SMS)",
+  "__record_version": 30,
+  "__record_size": 162400,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<BR> \r\nExperience from pre-Shuttle era flights indicated that the space sickness syndrome represented a potential threat to the operational efficacy and physical well-being of future crews.  Some of the Mercury and Gemini flight crews reported SMS, while 33% of the Apollo crew and 54% of the Skylab crew experienced symptoms.  Reports from the USSR indicated that about 40% of Soviet cosmonauts had experienced SMS.  These data suggested that if no corrective actions were taken, up to 40% of Shuttle crews could experience some degree of SMS during the first few days of flight.\r\n<P>\r\nPredominant symptoms of the syndrome are headache, depressed appetite, general malaise, lethargy, gastrointestinal discomfort, nausea, and vomiting. As in other forms of motion sickness, the syndrome may reduce self motivation and result in decreased ability to perform demanding tasks. The syndrome is self-limiting. Complete recovery from major symptomatology, or, in other words, adaptation to the space flight environment, occurs within two to four days. After complete adaptation occurs, crewmembers appear to be immune to the development of further symptomatology.\r\n<P>\r\nBecause of the complexity and uniqueness of this biomedical problem, the researchers considered it essential that data be collected systematically on individuals who fly shuttle missions.  Therefore, this experiment was developed to collect data on the first four Shuttle missions, with a primary purpose of conducting inflight observations supported by a series of preflight/postflight tests. The objectives of this study were to develop a set of predictors of SMS and countermeasures by determining whether ground-based tests that can cause motion sickness on Earth can predict susceptibility to SMS.  \r\n<P>\r\nAPPROACH:<BR>  \r\nPreflight data collection involved several different procedures. Approximately three to six months prior to flight, each crewmember completed a questionnaire designed to elicit information regarding past experiences with various types of motion environments and responses to those environments. Also during the three to six months before flight each crewmember was tested at least one time for susceptibility to experimentally induced motion sickness. The standard Coriolis Sickness Susceptibility Test (CSSI) was used; this procedure involves head movements while rotating at a constant velocity in a servo-controlled chair.  The test was terminated when the crewmember reached the Malaise III level (8 symptom points) or performed 150 head movements, whichever occurred first.  This test served two purposes: (1) it provided a ground-based susceptibility data point agaisnt which inflight susceptibiilty could be compared, and (2) it provided a baseline for subsequent evaluations of anti-motion sickness drug efficacy.  \r\n<P>\r\nThree different laboratory test procedures were used to provide a ground-based data point against which in-flight susceptibility could be compared.\r\n<p>\r\nFor the first nine Shuttle missions, which involved 29 different crewmembers, a standard Coriolis Sickness Susceptibility Index test (CSSI), was used. This procedure, which stimulates primarily the semicircular canals, requires the performance of head movements while rotating at a constant velocity in a servo-controlled chair. Prior to the start of the test, the crewmember was instructed on how to report his or her symptoms of motion sickness to an observer who was skilled in the recognition of signs and symptoms of motion sickness. The signs and symptoms were recorded and scored accordingly. The test was terminated when the blindfolded crewmember reached the Malaise III level of motion sickness or performed 150 head movements, whichever occurred first. The higher the score, the longer the subject continued the test, indicating a greater resistance to motion sickness. A majority of the crewmembers on the first nine Shuttle missions were tested at least one additional time with the CSSI procedure in order to evaluate the efficacy of an anti-motion sickness medication. The medication most frequently evaluated was oral scopolamine (.4 mg) plus dexedrine (5 mg).\r\n<P>\r\nThe second motion sickness susceptibility procedure used was a modified version of an off-vertical rotation or OVR. The OVR produces a rotating linear acceleration and is essentially an otolith stimulus. During this procedure crewmembers were blindfolded and restrained in the rotating chair with lap, shoulder and leg straps. The head was also restrained. While in the vertical position the chair was accelerated to a velocity of 20 rpm and rotated for 5 minutes. Following stabilization of 0\u00b0 tilt the angle of tilt of the chair was increased in 5\u00b0 increments at 5 minute intervals until the crewmember reached the Malaise III levels of symptoms or the chair had been maintained at a 30\u00b0 tilt for 5 minutes. The OVR test was performed on 29 individual astronauts most of whom flew subsequent to the ninth Shuttle flight.\r\n<P>\r\nThe third procedure used was a modified version of an eyes open sudden-stop test. This test assessed susceptibility to a vestibulo-visual interaction stimulus. Visual stimulation was provided by a stationary optokinetic field which surrounded the chair in which the crewmember was restrained. The chair was accelerated to a velocity of 50 rpm and held at that velocity for 30 seconds. The chair was then decelerated at 150\u00b0/sec to a complete stop and maintained at zero velocity for 30 seconds, after which the sequence was repeated for a total of 20 clockwise and 20 counterclockwise stops or until the Malaise III level of symptoms was reached, whichever occurred first. Data were collected on only six crewmembers with this procedure.\r\n<p>\r\nIn-flight data collection was limited to the use of a microcassette tape recorder and a motion sickness symptom checklist. The checklist allowed comparisons between the pattern of symptoms that occurred during the preflight tests and those that occurred in-flight. The checklist also required crewmembers to report on preventative measures used such as anti-motion sickness drugs and voluntary restriction of head and body movements. Each crewmember was required to use the recorder and checklist each mission day to report any symptoms or sensations that had been experienced during that day.\r\n<p>\r\nQuestions pertaining to SMS, vestibular sensations, and performance were also asked of each crewmember on the day of landing and during postflight medical debriefings. Both the in-flight and postflight crew debriefing data were used to categorize crewmembers as susceptible or non-susceptible to SMS. Those who were defined as being susceptible were further classified into mild, moderate, and severe subgroups for subsequent data analysis.\r\n<p>\r\nRESULTS:<BR> \r\nThere is a striking difference in the pattern of symptomatology generated in flight versus during the ground-based tests. Subjective warmth, sweating, and pallor, which were dominant ground-based test symptoms, were almost nonexistent inflight. In contrast, vomiting, anorexia, headache, malaise and lethargy were dominant in-flight symptoms.\r\n<p>\r\nThe specific nature and time course of in-flight symptomatology tends to be highly variable. Some crewmembers reported that symptoms appeared within the first one to two hours of the mission. Others did not become aware of symptoms until the second day of flight. In general, however, symptoms began during the first day of flight, plateau between 24-48 hours and gradually diminished between approximately 48-96 hours. During this time the symptoms usually waxed and waned in severity. Unquestionably, head and body movements exacerbated the symptomatology.\r\n<p>\r\nAnti-motion sickness and/or anti-emetic medication was used by 40 of the 65 crewmembers included in this study. The oral scopolamine plus dexedrine combination was the most frequently used with 25 crewmembers taking one or more doses during the first few days of flight. Oral metoclopramide was used by 18 crewmembers in an effort to restore gastric motility and alleviate nausea and vomiting. Of the 31 crewmembers that experienced symptoms, 29 used medication during the course of their symptomatology.\r\n<p>\r\nThe preflight questionnaire results did not correlate with the reported incidence of SMS.  Differences between susceptible and non-susceptible crewmembers in results for each of the preflight tests were not significant, nor were correlations between susceptibility to motion sickness in the ground-based tests and susceptibility to SMS. \r\n<p>\r\nThe results indicated that the use of a single ground-based parameter or test procedure is inadequate for predicting SMS susceptibility and that a composite index, which requires a larger number of cases, would be needed. Despite an inability to identify ground-based predictors of SMS susceptibility, one reasonably accurate predictor was identified, and that is space flight itself.  Of 16 crewmembers who had flown two or more space missions, the response pattern of only 3 changed from one flight to the next.\r\n<p>\r\nInformation archived for this experiment was provided by the William E.Thornton collection.",
+  "payload_id": "DSO1",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "indexed": "2026-08-23T04:16:35.455851+00:00",
+  "experiment_id": "DSO 401",
+  "GUID": "cl62ayi4ucd6601o67wvnfhr5",
+  "parameter_name": [
+   "CSSI (Coriolis Sickness Susceptibility Test) scores",
+   "Chair rotations per minute",
+   "Head movements",
+   "Medication dosage",
+   "Medication usage",
+   "Space motion sickness (SMS)",
+   "Symptom points",
+   "Symptoms reported"
+  ],
+  "payload_part": "DSO1",
+  "exp_index": 536,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Neuroscience",
+   "Clinical medicine"
+  ],
+  "protocol_approach": "Use of anti-motion sickness and/or anti-emetic medication",
+  "pme_role_with_name": [
+   "Co-Investigator: Reschke, Millard",
+   "Co-Investigator: Vanderploeg, James",
+   "Principal Investigator: Homick, Jerry"
+  ],
+  "missions": [
+   [
+    [
+     "STS-1"
+    ]
+   ],
+   [
+    [
+     "STS-2"
+    ]
+   ],
+   [
+    [
+     "STS-3"
+    ]
+   ],
+   [
+    [
+     "STS-4"
+    ]
+   ],
+   [
+    [
+     "STS-41C"
+    ]
+   ],
+   [
+    [
+     "STS-41D"
+    ]
+   ],
+   [
+    [
+     "STS-41G"
+    ]
+   ],
+   [
+    [
+     "STS-5"
+    ]
+   ],
+   [
+    [
+     "STS-51A"
+    ]
+   ],
+   [
+    [
+     "STS-51C"
+    ]
+   ],
+   [
+    [
+     "STS-51D"
+    ]
+   ],
+   [
+    [
+     "STS-6"
+    ]
+   ],
+   [
+    [
+     "STS-7"
+    ]
+   ],
+   [
+    [
+     "STS-8"
+    ]
+   ],
+   [
+    [
+     "STS-9"
+    ]
+   ]
+  ],
+  "__dirid": "1bac439e-5667-57f7-8e60-7f8bb8d5459c",
+  "__record_size_wo_doccontent": 162400,
+  "PI": [
+   "Homick, Jerry"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "DSO 401"
+  ],
+  "mission_id": [
+   [
+    [
+     "STS-1"
+    ]
+   ],
+   [
+    [
+     "STS-2"
+    ]
+   ],
+   [
+    [
+     "STS-3"
+    ]
+   ],
+   [
+    [
+     "STS-4"
+    ]
+   ],
+   [
+    [
+     "STS-41C"
+    ]
+   ],
+   [
+    [
+     "STS-41D"
+    ]
+   ],
+   [
+    [
+     "STS-41G"
+    ]
+   ],
+   [
+    [
+     "STS-5"
+    ]
+   ],
+   [
+    [
+     "STS-51A"
+    ]
+   ],
+   [
+    [
+     "STS-51C"
+    ]
+   ],
+   [
+    [
+     "STS-51D"
+    ]
+   ],
+   [
+    [
+     "STS-6"
+    ]
+   ],
+   [
+    [
+     "STS-7"
+    ]
+   ],
+   [
+    [
+     "STS-8"
+    ]
+   ],
+   [
+    [
+     "STS-9"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Homick, Jerry"
+  ],
+  "archive_status": "Data preservation is complete. Privacy-protected datasets are available via data request. Remaining datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Shuttle Program",
+  "__source_field_concat": "PUB000774 DSO1 cl62ayi4ucd6601o67wvnfhr5 Space motion sickness (SMS)  DSO1 Use of anti-motion sickness and/or anti-emetic medication Validation of Predictive Tests and Countermeasures for Space Motion Sickness DSO 401 Shuttle Program",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<BR> \r\nExperience from pre-Shuttle era flights indicated that the space sickness syndrome represented a potential threat to the operational efficacy and physical well-being of future crews.  Some of the Mercury and Gemini flight crews reported SMS, while 33% of the Apollo crew and 54% of the Skylab crew experienced symptoms.  Reports from the USSR indicated that about 40% of Soviet cosmonauts had experienced SMS.  These data suggested that if no corrective actions were taken, up to 40% of Shuttle crews could experience some degree of SMS during the first few days of flight.\r\n<P>\r\nPredominant symptoms of the syndrome are headache, depressed appetite, general malaise, lethargy, gastrointestinal discomfort, nausea, and vomiting. As in other forms of motion sickness, the syndrome may reduce self motivation and result in decreased ability to perform demanding tasks. The syndrome is self-limiting. Complete recovery from major symptomatology, or, in other words, adaptation to the space flight environment, occurs within two to four days. After complete adaptation occurs, crewmembers appear to be immune to the development of further symptomatology.\r\n<P>\r\nBecause of the complexity and uniqueness of this biomedical problem, the researchers considered it essential that data be collected systematically on individuals who fly shuttle missions.  Therefore, this experiment was developed to collect data on the first four Shuttle missions, with a primary purpose of conducting inflight observations supported by a series of preflight/postflight tests. The objectives of this study were to develop a set of predictors of SMS and countermeasures by determining whether ground-based tests that can cause motion sickness on Earth can predict susceptibility to SMS.  \r\n<P>\r\nAPPROACH:<BR>  \r\nPreflight data collection involved several different procedures. Approximately three to six months prior to flight, each crewmember completed a questionnaire designed to elicit information regarding past experiences with various types of motion environments and responses to those environments. Also during the three to six months before flight each crewmember was tested at least one time for susceptibility to experimentally induced motion sickness. The standard Coriolis Sickness Susceptibility Test (CSSI) was used; this procedure involves head movements while rotating at a constant velocity in a servo-controlled chair.  The test was terminated when the crewmember reached the Malaise III level (8 symptom points) or performed 150 head movements, whichever occurred first.  This test served two purposes: (1) it provided a ground-based susceptibility data point agaisnt which inflight susceptibiilty could be compared, and (2) it provided a baseline for subsequent evaluations of anti-motion sickness drug efficacy.  \r\n<P>\r\nThree different laboratory test procedures were used to provide a ground-based data point against which in-flight susceptibility could be compared.\r\n<p>\r\nFor the first nine Shuttle missions, which involved 29 different crewmembers, a standard Coriolis Sickness Susceptibility Index test (CSSI), was used. This procedure, which stimulates primarily the semicircular canals, requires the performance of head movements while rotating at a constant velocity in a servo-controlled chair. Prior to the start of the test, the crewmember was instructed on how to report his or her symptoms of motion sickness to an observer who was skilled in the recognition of signs and symptoms of motion sickness. The signs and symptoms were recorded and scored accordingly. The test was terminated when the blindfolded crewmember reached the Malaise III level of motion sickness or performed 150 head movements, whichever occurred first. The higher the score, the longer the subject continued the test, indicating a greater resistance to motion sickness. A majority of the crewmembers on the first nine Shuttle missions were tested at least one additional time with the CSSI procedure in order to evaluate the efficacy of an anti-motion sickness medication. The medication most frequently evaluated was oral scopolamine (.4 mg) plus dexedrine (5 mg).\r\n<P>\r\nThe second motion sickness susceptibility procedure used was a modified version of an off-vertical rotation or OVR. The OVR produces a rotating linear acceleration and is essentially an otolith stimulus. During this procedure crewmembers were blindfolded and restrained in the rotating chair with lap, shoulder and leg straps. The head was also restrained. While in the vertical position the chair was accelerated to a velocity of 20 rpm and rotated for 5 minutes. Following stabilization of 0\u00b0 tilt the angle of tilt of the chair was increased in 5\u00b0 increments at 5 minute intervals until the crewmember reached the Malaise III levels of symptoms or the chair had been maintained at a 30\u00b0 tilt for 5 minutes. The OVR test was performed on 29 individual astronauts most of whom flew subsequent to the ninth Shuttle flight.\r\n<P>\r\nThe third procedure used was a modified version of an eyes open sudden-stop test. This test assessed susceptibility to a vestibulo-visual interaction stimulus. Visual stimulation was provided by a stationary optokinetic field which surrounded the chair in which the crewmember was restrained. The chair was accelerated to a velocity of 50 rpm and held at that velocity for 30 seconds. The chair was then decelerated at 150\u00b0/sec to a complete stop and maintained at zero velocity for 30 seconds, after which the sequence was repeated for a total of 20 clockwise and 20 counterclockwise stops or until the Malaise III level of symptoms was reached, whichever occurred first. Data were collected on only six crewmembers with this procedure.\r\n<p>\r\nIn-flight data collection was limited to the use of a microcassette tape recorder and a motion sickness symptom checklist. The checklist allowed comparisons between the pattern of symptoms that occurred during the preflight tests and those that occurred in-flight. The checklist also required crewmembers to report on preventative measures used such as anti-motion sickness drugs and voluntary restriction of head and body movements. Each crewmember was required to use the recorder and checklist each mission day to report any symptoms or sensations that had been experienced during that day.\r\n<p>\r\nQuestions pertaining to SMS, vestibular sensations, and performance were also asked of each crewmember on the day of landing and during postflight medical debriefings. Both the in-flight and postflight crew debriefing data were used to categorize crewmembers as susceptible or non-susceptible to SMS. Those who were defined as being susceptible were further classified into mild, moderate, and severe subgroups for subsequent data analysis.\r\n<p>\r\nRESULTS:<BR> \r\nThere is a striking difference in the pattern of symptomatology generated in flight versus during the ground-based tests. Subjective warmth, sweating, and pallor, which were dominant ground-based test symptoms, were almost nonexistent inflight. In contrast, vomiting, anorexia, headache, malaise and lethargy were dominant in-flight symptoms.\r\n<p>\r\nThe specific nature and time course of in-flight symptomatology tends to be highly variable. Some crewmembers reported that symptoms appeared within the first one to two hours of the mission. Others did not become aware of symptoms until the second day of flight. In general, however, symptoms began during the first day of flight, plateau between 24-48 hours and gradually diminished between approximately 48-96 hours. During this time the symptoms usually waxed and waned in severity. Unquestionably, head and body movements exacerbated the symptomatology.\r\n<p>\r\nAnti-motion sickness and/or anti-emetic medication was used by 40 of the 65 crewmembers included in this study. The oral scopolamine plus dexedrine combination was the most frequently used with 25 crewmembers taking one or more doses during the first few days of flight. Oral metoclopramide was used by 18 crewmembers in an effort to restore gastric motility and alleviate nausea and vomiting. Of the 31 crewmembers that experienced symptoms, 29 used medication during the course of their symptomatology.\r\n<p>\r\nThe preflight questionnaire results did not correlate with the reported incidence of SMS.  Differences between susceptible and non-susceptible crewmembers in results for each of the preflight tests were not significant, nor were correlations between susceptibility to motion sickness in the ground-based tests and susceptibility to SMS. \r\n<p>\r\nThe results indicated that the use of a single ground-based parameter or test procedure is inadequate for predicting SMS susceptibility and that a composite index, which requires a larger number of cases, would be needed. Despite an inability to identify ground-based predictors of SMS susceptibility, one reasonably accurate predictor was identified, and that is space flight itself.  Of 16 crewmembers who had flown two or more space missions, the response pattern of only 3 changed from one flight to the next.\r\n<p>\r\nInformation archived for this experiment was provided by the William E.Thornton collection.",
+  "__doi": "10.83263/smy2-pf94",
+  "__doi_record_creation_date": "2026-08-23T04:16:35",
+  "__doi_record_modified_date": "2026-08-23T04:16:35"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000673",
+   "label": "DSO 401__621213571",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Coriolis Sickness Susceptibility Index (CSSI) Data",
+    "dataset_catalog": "DSO 401__621213571",
+    "dataset_description": [
+     "This graph summarizes the Coriolis Sickness Susceptibility Index test (CSSI) test data. The hatched bars are the normative data and the closed circles are the astronaut data. The star symbol indicates astronauts who reported space motion sickness (SMS). The astronaut mean CSSI score is 28.7 while the normative population mean CSSI score is 14.0.\r\n<p>\r\nSource: Unpublished data."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 401"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "3cd38a8d-8c4b-59af-a659-cf2659593803",
+     "label": "DSO_401__621213571.TIF_STS-1_DSO_401_2012_62_120312.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001301",
+   "label": "DSO 401__621228799",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Sudden-Stop Test Data",
+    "dataset_catalog": "DSO 401__621228799",
+    "dataset_description": [
+     "This graph summarizes the sudden-stop test data. The number of astronaut data points are too few to permit drawing any meaningful conclusions. However, it is of interest to note that two astronauts who were very susceptible to the preflight sudden stop test experienced space motion sickness (SMS).\r\n<p>\r\nSource: Unpublished data."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 401"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "94de4c54-f944-5877-804b-c7ce525e30bf",
+     "label": "DSO_401__621228799.TIF_STS-1_DSO_401_2012_62_120303.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002289",
+   "label": "DSO 401__30801845",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Motion Experience Questionnaire for DSO 401",
+    "dataset_catalog": "DSO 401__30801845",
+    "dataset_description": [
+     "This motion experience questionnaire was part of the preflight requirement for DSO 401, Validation of Predictors and Countermeasures\r\nfor Space Motion Sickness.This questionnaire was sent to the individual crewmember one to two weeks prior to the first rotating chair test in the Neurophysiology Laboratory, with the request that it be returned by mail or hand carried to the first test.\r\n<p>\r\nSource: Unpublished data."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 401"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "b0547b26-ed37-59b9-aa36-ec8c7a8fd052",
+     "label": "DSO_401__30801845.pdf_STS-1_DSO_401_2013_3_080131.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001957",
+   "label": "DSO 401__621217241",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Preflight Motion Sickness Test Results Versus Space Motion Sickness",
+    "dataset_catalog": "DSO 401__621217241",
+    "dataset_description": [
+     "This Excel file provides an overall summary of group mean differences between the space motion sickness (SMS) susceptible and non-SMS susceptible subgroups for each of the preflight motion sickness susceptibility tests used. The subgroups of astronauts who experienced SMS were slightly more susceptible to the preflight motion sickness tests than were the non-SMS susceptible astronauts.\r\n<p>\r\nSource: Unpublished data."
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "DSO 401"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "737de0e9-c531-5cd4-8f75-418dd6fe57af",
+     "label": "DSO_401__621217241.xls_STS-1_DSO_401_2012_62_120346.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000523",
+   "label": "DSO 401__621205636",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Incidence of Preflight Versus Inflight SMS Symtomatology",
+    "dataset_catalog": "DSO 401__621205636",
+    "dataset_description": [
+     "This graph depicts incidence of preflight versus inflight space motion sickness (SMS) symptomatology.  There is a striking difference in the pattern of symptomatology generated in-flight versus during the ground-based tests. Subjective warmth, sweating, and pallor, which were dominant ground-based test symptoms, were almost nonexistent in flight. In contrast, vomiting, anorexia, headache, malaise and lethargy were dominant in-flight symptoms.\r\n<p>\r\nSource: Unpublished data."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 401"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "e60406b3-a08d-55e0-80c1-9fd113ed05b7",
+     "label": "DSO_401__621205636.TIF_STS-1_DSO_401_2012_62_120330.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001909",
+   "label": "DSO 401__621223598",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Weighted Ground-based Test Scores Versus Space Motion Sickness",
+    "dataset_catalog": "DSO 401__621223598",
+    "dataset_description": [
+     "This Excel file compares a weighted ground-based test score with SMS susceptibility for each of 11 crewmembers on whom data were collected on two or more of the preflight tests. The weighted score is the algebraic sum of the differences between the astronaut's test scores and the normative population means for each test.\r\n<p>\r\nSource: Unpublished data."
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "DSO 401"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "1f2ee0ed-0bbe-5b38-82e5-f8cfb81f4240",
+     "label": "DSO_401__621223598.xls_STS-1_DSO_401_2012_62_120307.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

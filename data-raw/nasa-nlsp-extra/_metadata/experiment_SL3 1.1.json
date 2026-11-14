@@ -1,0 +1,861 @@
+{
+ "record": {
+  "id": "e34b5fd7-3797-5dac-a3b2-4c187bc3385b",
+  "_id": "e34b5fd7-3797-5dac-a3b2-4c187bc3385b",
+  "experiment_title": "Animal Studies on Spacelab-3",
+  "pub_document_number": "ARCPUB001314",
+  "experiment_alias": [
+   "ARCLSP"
+  ],
+  "parameter_html": "<table><tr><td>Activity, enzymic, Muscle, various, Various enzyme activity</td></tr><tr><td>Activity, Heart rate, rat, Implanted transmitter, continuous EKG, rate algorithm</td></tr><tr><td>Composition, Blood, rat, Clinical laboratory</td></tr><tr><td>Composition, Body, whole, rat, Various</td></tr><tr><td>Composition, Hematocrit, blood, rat, clinical laboratory</td></tr><tr><td>Content, Pituitary hormones, rat, Radioimmunoassay, bioassay</td></tr><tr><td>Corticosterone</td></tr><tr><td>Growth hormone (GH)</td></tr><tr><td>Hemoglobin</td></tr><tr><td>Luteinizing hormone (LH)</td></tr><tr><td>Muscle, contractile/non-contractile protein</td></tr><tr><td>Muscle, small electrolytes</td></tr><tr><td>Muscle, workload</td></tr><tr><td>Osteocalcin</td></tr><tr><td>Parathyroid hormone (PTH)</td></tr><tr><td>Percent, Potassium, whole body, rat, Balance, chemical, calculation (percent of fat free body mass)</td></tr><tr><td>Percent, Sodium, whole body, rat, Balance, chemical, calculation (percent of fat free body mass)</td></tr><tr><td>Prolactin</td></tr><tr><td>Thyrocalcitonin</td></tr><tr><td>Thyrotropin</td></tr><tr><td>Vasopressin</td></tr><tr><td>Vitamin D</td></tr><tr><td>Volume, Plasma volume, vascular system, rat, Isotopic</td></tr><tr><td>Volume, Plasma, vascular system, primate, volume (isotopic)</td></tr><tr><td>Weight, ash, Whole body, Balance, chemical, calculation (percent of fat free body mass)</td></tr><tr><td>Weight, dry, Whole body, rat, Balance, calculation (percent of total body mass)</td></tr><tr><td>Weight, nitrogen, Whole body, rat, Balance, chemical, calculation (percent of fat free body mass)</td></tr><tr><td>Weight, tissue, Fat (percent of body mass), Balance, calculation</td></tr><tr><td>Adrenocorticotropic hormone (ACTH)</td></tr><tr><td>Electrolytes, plasma</td></tr><tr><td>Follicle-stimulating hormone (FSH)</td></tr><tr><td>Histology/cytology, adrenal</td></tr><tr><td>Histology/cytology, bone</td></tr><tr><td>Histology/cytology, inner ear</td></tr><tr><td>Histology/cytology, muscle</td></tr><tr><td>Prolactin receptors, ventral prostate</td></tr><tr><td>Muscle, total protein</td></tr><tr></tr></table>",
+  "__source_key": "cl62axbm6ccw601o64o5025zw",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Callahan, Paul\">Principal Investigator: Callahan, Paul</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Berry, William\">Co-Investigator: Berry, William</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Fast, Tom\">Co-Investigator: Fast, Tom</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Funk, Glenn\">Co-Investigator: Funk, Glenn</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Grindeland, Richard\">Co-Investigator: Grindeland, Richard</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Lencki, Walter\">Co-Investigator: Lencki, Walter</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Schatte, Christopher\">Co-Investigator: Schatte, Christopher</a>",
+  "keyword": [
+   "1,25-Dihydroxyvitamin D3",
+   "Muscles",
+   "Urine",
+   "Body composition",
+   "Hematocrit",
+   "Circadian rhythm",
+   "Heart rate",
+   "Behavior, animal",
+   "Eating",
+   "Space motion sickness (SMS)",
+   "Hormones",
+   "Bone and bones",
+   "Body temperature",
+   "Drinking"
+  ],
+  "keyword_name": "Drinking",
+  "__record_version": 31,
+  "experiment_description": "<B>Objectives:</B><P>NASA-Ames undertook the first of several missions using animals as model mammalian systems with which to delineate the fundamental mechanisms of physiological response to an environment; i.e., microgravity.  The primary objective of the Spacelab-3 mission was to evaluate the ability of the Research Animal Holding Facility (RAHF) to maintain animals in a normal, laboratory environment in space.  It also provided the opportunity to obtain preliminary data on animal health and well being in flight as well as to sample selected physiological parameters which might be the focus of future flight experiments.<P><B>Approach:</B><P>Two monkeys and two groups of twelve rats each were flown in the primate and rodent cage modules of the RAHF, respectively.   It was important to select an animal that grows normally, behaves normally, and is free from chronic stress.  One group of rats was composed of twelve-week-old adults and the other group was composed of juveniles about eight weeks old.  Four of the large rats were implanted with a transmitter, which permitted the continuous monitoring of EKG, heart rate and deep-body temperature.  Food and water consumption, activity, and intermittent photographic records were obtained automatically and temperature, humidity, and light cycles were all controlled via the RAHF.  Animals spent one hour in the Spacelab prior to launch, and rodents were not sacrificed until twelve hours following recovery.  More extensive studies were performed by various investigators on the rats, following biosample distribution.<P><B>Results:</B><P>Data indicate that the RAHF was able to maintain both rats and monkeys in a relatively normal condition suitable for their use as experimental animals.  Both monkeys ate less food and were less active in space than on the ground.  One animal appeared to maintain relatively normal eating behavior throughout the mission, while the other showed abnormally low food consumption for the first four days followed by substantial recovery during the last three days. Videotape records were consistent with the conclusion that the latter animal may have suffered from space motion sickness.  Heart rate monitored in flight rats was lower at all times, but its circadian rhythm was unchanged from that of preflight.  Mean body temperature was not changed; however, its rhythm was increased inflight, suggesting that microgravity may cause body-temperature rhythm to become free-running.  Growth parameters and several indices of chronic stress suggested that changes in bone and muscle were a result of exposure to microgravity per se and not an artifact resulting from adverse housing conditions. It is apparent that microgravity induces a wide range of physiological changes.",
+  "indexed": "2026-08-31T22:16:56.630Z",
+  "GUID": "cl62axbm6ccw601o64o5025zw",
+  "__model_type": "lsda_experiment",
+  "__dirid": "e34b5fd7-3797-5dac-a3b2-4c187bc3385b",
+  "__record_size_wo_doccontent": 99610,
+  "experiment_parms_tissue2": "NULL",
+  "experiment_parms_tissue1": "NULL",
+  "__update_method": "Update Data",
+  "archive_status_index": 1,
+  "experiment_type_lk": [
+   "Shuttle Life Sciences Research (Spacelab)"
+  ],
+  "__record_modified_date": "2026-08-31T22:16:56.630Z",
+  "__indexed": "2026-08-31T22:16:56.630Z",
+  "alias": [
+   "ARCLSP"
+  ],
+  "session_type": "Basal",
+  "__record_creation_date": "2022-07-28T19:51:54.236Z",
+  "__record_size": 99610,
+  "__model_version": 423,
+  "payload_id": "SL-3",
+  "CombinedSpecies": [
+   [
+    "Rat (Rattus norvegicus) Sprague-Dawley"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "SL3 1.1",
+  "experiment_related": [
+   "SL3 BSP9",
+   "SL3 BSP8",
+   "SL3 BSP7",
+   "SL3 BSP6",
+   "SL3 BSP5",
+   "SL3 BSP4.1",
+   "SL3 BSP4",
+   "SL3 BSP30",
+   "SL3 BSP3",
+   "SL3 BSP29",
+   "SL3 BSP28",
+   "SL3 BSP27",
+   "SL3 BSP26",
+   "SL3 BSP25",
+   "SL3 BSP24",
+   "SL3 BSP23",
+   "SL3 BSP22",
+   "SL3 BSP21",
+   "SL3 BSP20",
+   "SL3 BSP2",
+   "SL3 BSP19",
+   "SL3 BSP18",
+   "SL3 BSP17",
+   "SL3 BSP16",
+   "SL3 BSP15",
+   "SL3 BSP14",
+   "SL3 BSP13",
+   "SL3 BSP12",
+   "SL3 BSP11",
+   "SL3 BSP10",
+   "SL3 1.2"
+  ],
+  "parameter_name": [
+   "Activity, enzymic, Muscle, various, Various enzyme activity",
+   "Activity, Heart rate, rat, Implanted transmitter, continuous EKG, rate algorithm",
+   "Composition, Blood, rat, Clinical laboratory",
+   "Composition, Body, whole, rat, Various",
+   "Composition, Hematocrit, blood, rat, clinical laboratory",
+   "Content, Pituitary hormones, rat, Radioimmunoassay, bioassay",
+   "Corticosterone",
+   "Growth hormone (GH)",
+   "Hemoglobin",
+   "Luteinizing hormone (LH)",
+   "Muscle, contractile/non-contractile protein",
+   "Muscle, small electrolytes",
+   "Muscle, workload",
+   "Osteocalcin",
+   "Parathyroid hormone (PTH)",
+   "Percent, Potassium, whole body, rat, Balance, chemical, calculation (percent of fat free body mass)",
+   "Percent, Sodium, whole body, rat, Balance, chemical, calculation (percent of fat free body mass)",
+   "Prolactin",
+   "Thyrocalcitonin",
+   "Thyrotropin",
+   "Vasopressin",
+   "Vitamin D",
+   "Volume, Plasma volume, vascular system, rat, Isotopic",
+   "Volume, Plasma, vascular system, primate, volume (isotopic)",
+   "Weight, ash, Whole body, Balance, chemical, calculation (percent of fat free body mass)",
+   "Weight, dry, Whole body, rat, Balance, calculation (percent of total body mass)",
+   "Weight, nitrogen, Whole body, rat, Balance, chemical, calculation (percent of fat free body mass)",
+   "Weight, tissue, Fat (percent of body mass), Balance, calculation",
+   "Adrenocorticotropic hormone (ACTH)",
+   "Electrolytes, plasma",
+   "Follicle-stimulating hormone (FSH)",
+   "Histology/cytology, adrenal",
+   "Histology/cytology, bone",
+   "Histology/cytology, inner ear",
+   "Histology/cytology, muscle",
+   "Prolactin receptors, ventral prostate",
+   "Muscle, total protein"
+  ],
+  "exp_index": 238,
+  "research_area": [
+   "Skeletal physiology",
+   "Cardiovascular physiology",
+   "Cell and molecular biology",
+   "Developmental biology",
+   "Endocrinology",
+   "Environmental monitoring",
+   "Hematology",
+   "Immunology",
+   "Network physiology",
+   "Life support systems",
+   "Metabolism and nutrition",
+   "Microbiology",
+   "Muscle physiology",
+   "Neuroscience",
+   "Pulmonary physiology",
+   "Renal, fluid and electrolyte physiology"
+  ],
+  "protocol_approach": "Simulated flight control",
+  "pme_role_with_name": [
+   "ARC Deputy Payload Manager (Hangar L): Dalton, Bonnie",
+   "ARC Deputy Payload Manager (POCC): Bowman, Gary",
+   "ARC Deputy Payload Manager (TMA): Gurney, Walt",
+   "ARC Payload Manager: Lencki, Walter",
+   "ARC Payload Scientist: Funk, Glenn",
+   "ARC Project Manager: Callahan, Paul",
+   "ARC Project Scientist: Schatte, Christopher",
+   "Co-Investigator: Berry, William",
+   "Co-Investigator: Fast, Tom",
+   "Co-Investigator: Funk, Glenn",
+   "Co-Investigator: Grindeland, Richard",
+   "Co-Investigator: Lencki, Walter",
+   "Co-Investigator: Schatte, Christopher",
+   "Principal Investigator: Callahan, Paul"
+  ],
+  "missions": [
+   [
+    [
+     "STS-51B"
+    ]
+   ]
+  ],
+  "PI": [
+   "Callahan, Paul"
+  ],
+  "_file_extension": [],
+  "experiment_identifier": [
+   "SL3 1.1",
+   "ARCLSP"
+  ],
+  "mission_id": [
+   [
+    [
+     "STS-51B"
+    ]
+   ]
+  ],
+  "center": [
+   "Ames Research Center"
+  ],
+  "ncindex": [
+   7
+  ],
+  "proposal_date": [],
+  "species": [
+   "Rat"
+  ],
+  "PrincipalInvestigator": [
+   "Callahan, Paul"
+  ],
+  "program_name": [
+   "Shuttle Program"
+  ],
+  "archive_status": "Data preservation is complete. All datasets are publicly available.",
+  "__is_locked": false,
+  "Program": "Shuttle Program",
+  "__source_field_concat": "Basal ARCPUB001314 SL-3 cl62axbm6ccw601o64o5025zw Drinking NULL NULL Simulated flight control Animal Studies on Spacelab-3 SL3 1.1 Shuttle Program Data preservation is complete. All datasets are publicly available.",
+  "__icon_type": "rat",
+  "__description": "<B>Objectives:</B><P>NASA-Ames undertook the first of several missions using animals as model mammalian systems with which to delineate the fundamental mechanisms of physiological response to an environment; i.e., microgravity.  The primary objective of the Spacelab-3 mission was to evaluate the ability of the Research Animal Holding Facility (RAHF) to maintain animals in a normal, laboratory environment in space.  It also provided the opportunity to obtain preliminary data on animal health and well being in flight as well as to sample selected physiological parameters which might be the focus of future flight experiments.<P><B>Approach:</B><P>Two monkeys and two groups of twelve rats each were flown in the primate and rodent cage modules of the RAHF, respectively.   It was important to select an animal that grows normally, behaves normally, and is free from chronic stress.  One group of rats was composed of twelve-week-old adults and the other group was composed of juveniles about eight weeks old.  Four of the large rats were implanted with a transmitter, which permitted the continuous monitoring of EKG, heart rate and deep-body temperature.  Food and water consumption, activity, and intermittent photographic records were obtained automatically and temperature, humidity, and light cycles were all controlled via the RAHF.  Animals spent one hour in the Spacelab prior to launch, and rodents were not sacrificed until twelve hours following recovery.  More extensive studies were performed by various investigators on the rats, following biosample distribution.<P><B>Results:</B><P>Data indicate that the RAHF was able to maintain both rats and monkeys in a relatively normal condition suitable for their use as experimental animals.  Both monkeys ate less food and were less active in space than on the ground.  One animal appeared to maintain relatively normal eating behavior throughout the mission, while the other showed abnormally low food consumption for the first four days followed by substantial recovery during the last three days. Videotape records were consistent with the conclusion that the latter animal may have suffered from space motion sickness.  Heart rate monitored in flight rats was lower at all times, but its circadian rhythm was unchanged from that of preflight.  Mean body temperature was not changed; however, its rhythm was increased inflight, suggesting that microgravity may cause body-temperature rhythm to become free-running.  Growth parameters and several indices of chronic stress suggested that changes in bone and muscle were a result of exposure to microgravity per se and not an artifact resulting from adverse housing conditions. It is apparent that microgravity induces a wide range of physiological changes.",
+  "__doi": "10.83263/8rqh-ac19",
+  "__doi_record_creation_date": "2026-08-23T04:23:04",
+  "__doi_record_modified_date": "2026-08-23T04:23:04"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002028",
+   "label": "AINV0000000572",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "SL-3 Plasma Hormones, Vivarium Group",
+    "dataset_catalog": "AINV0000000572",
+    "dataset_description": [
+     "Plasma hormones by animals and treatment.<br/>T4=Thyroxine (ug/dl)<br/>T3=Thyroid thyronine (ng/dl)<br/>PRL=Prolactin (ng/ml)<br/>CpdB=Corticosterone (ug/dl)<br/>iRGH=Growth hormone (ng/ml)<br/>Testosterone (ng/ml)"
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "SL3 1.1"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "c35241a2-23dd-5377-8161-28496a2c729e",
+     "label": "vivplashm.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000150",
+   "label": "AINV0000000577",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "SL-3 Rat Nitrogen Weights as Percent of Fat Free Body Mass",
+    "dataset_catalog": "AINV0000000577",
+    "dataset_description": [
+     "1. Preflight, 6 large rats, 6 small rats<br/>2. Flight, 7 large rats, 6 small rats<br/>3. Simulated, 7 large rats, 6 small rats<br/>4. Vivarium, 7 large rats, 6 small rats"
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "SL3 1.1"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "1c494a7b-65f3-5b85-8fe5-95ea56f8f228",
+     "label": "nitrowtsum.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000791",
+   "label": "AINV0000000580",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "SL-3 Rat Fat Weights as Percent of Total Body Mass",
+    "dataset_catalog": "AINV0000000580",
+    "dataset_description": [
+     "1. Preflight, 6 large rats, 6 small rats<br/>2. Flight, 7 large rats, 6 small rats<br/>3. Simulated, 7 large rats, 6 small rats<br/>4. Vivarium, 7 large rats, 6 small rats"
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "SL3 1.1"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "07c0ea55-0681-55b1-b4a7-dc467f8a7c1c",
+     "label": "fatwtsum.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002134",
+   "label": "AINV0000000579",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "SL-3 Rat Dry Weights as Percent of Total Body Mass",
+    "dataset_catalog": "AINV0000000579",
+    "dataset_description": [
+     "1. Preflight, 6 large rats, 6 small rats<br/>2. Flight, 7 large rats, 6 small rats<br/>3. Simulated, 7 large rats, 6 small rats<br/>4. Vivarium, 7 large rats, 6 small rats"
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "SL3 1.1"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "22463021-03d6-51b9-bc1f-81ce0fe7ff67",
+     "label": "drywtsum.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001389",
+   "label": "AINV0000000584",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "SL-3 Rodent Blood Work Preflight Group",
+    "dataset_catalog": "AINV0000000584",
+    "dataset_description": [
+     "Simulation Group 6-24 Slide, Unopette and hematocrit 1, 2 and 3."
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "SL3 1.1"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "42b748df-307d-5dbb-8e3f-a4f056384f3f",
+     "label": "preflt1_24hem.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000905",
+   "label": "AINV0000000585",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "SL-3 Preflight Group Rodent Necropsy",
+    "dataset_catalog": "AINV0000000585",
+    "dataset_description": [
+     "Preflight group 1-24, anesthetic time and date, body weight in gm, body length in cm, tail length in cm, total length in cm, blood collection in ml, tissue weights in mg.<br/>"
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "SL3 1.1"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "f6d83b34-ae47-5d41-990b-d5942cd65cfc",
+     "label": "prefltnec1_24.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001219",
+   "label": "AINV0000000568",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "SL-3 Simulation Group Rodent Necropsy\u00b6",
+    "dataset_catalog": "AINV0000000568",
+    "dataset_description": [
+     "1. Dr. Riley's group, large rat, anesthetic time and date, body weight in gm, body length in cm, tail length in cm, total length in cm.(Dr. Riley has this data)<br/>2. Simulation group 6-24, anesthetic time and date, body weight in gm, body length in cm, tail length in cm, total length in cm, blood collection in ml, tissue weights in mg."
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "SL3 1.1"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "d1e501f8-9d96-5193-b3e2-02b0cca0eff8",
+     "label": "simnec6_24.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000658",
+   "label": "AINV0000000573",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "SL-3 Flight Group Rodent Necropsy",
+    "dataset_catalog": "AINV0000000573",
+    "dataset_description": [
+     "1. Dr. Riley's group, large rats, anesthetic time and date, body weight in gm, body length in cm, tail length in cm, total length in cm. (Dr. Riley has this data)<br/>2. Flight group 6-24, anesthetic time and date, body weight in gm, body length in cm, tail length in cm, total length in cm, blood collection in ml, tissue weights in mg.<br/>"
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "SL3 1.1"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "55afacd9-62b2-5924-96ad-d20fba5bef29",
+     "label": "flt6_24.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000708",
+   "label": "AINV0000000582",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "SL-3 Plasma Hormones, Flight Group",
+    "dataset_catalog": "AINV0000000582",
+    "dataset_description": [
+     "Plasma hormones by animals and treatment.<br/>T4=Thyroxine (ug/dl)<br/>T3=Thyroid thyronine (ng/dl)<br/>PRL=Prolactin (ng/ml)<br/>CpdB=Corticosterone (ug/dl)<br/>iRGH=Growth hormone (ng/ml)<br/>Testosterone (ng/ml)"
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "SL3 1.1"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "11e97fc9-bf93-5eb3-afbd-c3a99f8e5c39",
+     "label": "fltplashrm.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002029",
+   "label": "AINV0000000576",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "SL-3 Rat Sodium and Potassium as Percent of Fat Free Body Mass",
+    "dataset_catalog": "AINV0000000576",
+    "dataset_description": [
+     "1. Preflight, 6 large rats, 6 small rats<br/>2. Flight, 7 large rats, 6 small rats<br/>3. Simulated, 7 large rats, 6 small rats<br/>4. Vivarium, 7 large rats, 6 small rats"
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "SL3 1.1"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "1e1c7ec5-0664-59d3-a495-75ecd349262d",
+     "label": "na_kwtsum6a6b.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001152",
+   "label": "AINV0000000583",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "SL-3 Rodent Blood Work Simulation Group",
+    "dataset_catalog": "AINV0000000583",
+    "dataset_description": [
+     "Simulation Group 6-24 Slide, Unopette and hematocrit 1, 2 and 3."
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "SL3 1.1"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "75d39d4f-d19e-5cbd-93fe-e4541c284303",
+     "label": "sim6_24hem.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000657",
+   "label": "AINV0000000570",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "SL-3 Plasma Hormones, Preflight Group",
+    "dataset_catalog": "AINV0000000570",
+    "dataset_description": [
+     "Plasma hormones by animals and treatment.<br/>T4=Thyroxine (ug/dl)<br/>T3=Thyroid thyronine (ng/dl)<br/>PRL=Prolactin (ng/ml)<br/>CpdB=Corticosterone (ug/dl)<br/>iRGH=Growth hormone (ng/ml)<br/>Testosterone (ng/ml)"
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "SL3 1.1"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "82a757e8-5a60-5e3d-a43f-5119d38de023",
+     "label": "pfltplashm.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001792",
+   "label": "AINV0000000575",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "SL-3 Rat Ash Weight as Percent of Fat Free Body Mass",
+    "dataset_catalog": "AINV0000000575",
+    "dataset_description": [
+     "1. Preflight, 6 large rats, 6 small rats<br/>2. Flight, 7 large rats, 6 small rats<br/>3. Simulated, 7 large rats, 6 small rats<br/>4. Vivarium, 7 large rats, 6 small rats"
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "SL3 1.1"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "7e75eb85-66b3-5c6e-b0cb-b49d04760a77",
+     "label": "ashwtsum.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002133",
+   "label": "AINV0000000567",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "SL-3 Plasma Hormones-plasma concentrations",
+    "dataset_catalog": "AINV0000000567",
+    "dataset_description": [
+     "Plasma hormones by animals and treatment.<br/>T4=Thyroxine (ug/dl)<br/>T3=Thyroid thyronine (ng/dl)<br/>PRL=Prolactin (ng/ml)<br/>CpdB=Corticosterone (ug/dl)<br/>iRGH=Growth hormone (ng/ml)<br/>Testosterone (ng/ml)"
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "SL3 1.1"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "a53f6e03-98f2-5320-a3d4-de2410d89559",
+     "label": "plashmsum.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001590",
+   "label": "AINV0000000571",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "SL-3 Vivarium Group Rodent Necropsy",
+    "dataset_catalog": "AINV0000000571",
+    "dataset_description": [
+     "1. Dr. Riley's group, large rats, anesthetic time and date, body weight in gm, body length in cm, tail length in cm, total length in cm. (Dr. Riley has this data)<br/>2. Vivarium group 6-24, anesthetic time and date, body weight in gm, body length in cm, tail length in cm, total length in cm, blood collection in ml, tissue weights in mg.<br/>"
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "SL3 1.1"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "6f93bea1-df81-5ecf-8e32-cc57bee83d21",
+     "label": "vivnec6_24.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001124",
+   "label": "AINV0000000569",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "SL-3 Plasma Hormones, Simulated Group",
+    "dataset_catalog": "AINV0000000569",
+    "dataset_description": [
+     "Plasma hormones by animals and treatment.<br/>T4=Thyroxine (ug/dl)<br/>T3=Thyroid thyronine (ng/dl)<br/>PRL=Prolactin (ng/ml)<br/>CpdB=Corticosterone (ug/dl)<br/>iRGH=Growth hormone (ng/ml)<br/>Testosterone (ng/ml)"
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "SL3 1.1"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "388360fd-7449-5f66-8b1e-a482ade2ca04",
+     "label": "simplashm.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000067",
+   "label": "AINV0000000581",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "SL-3 Small Rat Pituitary Growth Hormone mg hormone/mg tissue",
+    "dataset_catalog": "AINV0000000581",
+    "dataset_description": [
+     "Preflight (6) radioimmunoassay (RIA)=60.6+4.3<br/>Preflight (6) biological assay(BA)=25.6+2.7<br/>Vivarium (6) radioimmunoassay(RIA)=64.8+2.7<br/>Vivarium (6) biological assay(BA)=29.5+0.6<br/>Simulation (6) radioimmunoassay(RIA)=66.1+5.2<br/>Simulation (6) biological assay(BA)=26.5+0.3<br/>Flight (6) radioimmunoassay(RIA)=72.5+3.0<br/>Flight (6) biological assay(BA)=19.6+0.4"
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "SL3 1.1"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "26e45e6b-2832-5b88-a811-bbe22cc42498",
+     "label": "srpitghsum.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001388",
+   "label": "AINV0000000574",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "SL-3 Rat Calcium Weights in 100g of Fat Free Body Mass",
+    "dataset_catalog": "AINV0000000574",
+    "dataset_description": [
+     "1. Preflight, 6 large rats, 6 small rats<br/>2. Flight, 7 large rats, 6 small rats<br/>3. Simulated, 7 large rats, 6 small rats<br/>4. Vivarium, 7 large rats, 6 small rats"
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "SL3 1.1"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "99686fca-6209-5201-b03e-67aed78e8445",
+     "label": "calwtsum.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000413",
+   "label": "AINV0000000578",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "SL-3 Large Rat Pituitary Growth Hormone ug hormone/mg tissue",
+    "dataset_catalog": "AINV0000000578",
+    "dataset_description": [
+     "Preflight (7) radioimmunoassay (RIA)=94.1+7.0<br/>Preflight (7) biological assay(BA)=29.9+1.0<br/>Flight (3) radioimmunoassay(RIA)=111.5+32.2<br/>Flight (3) biological assay(BA)=22.5+0.7<br/>Vivarium (7) radioimmunoassay(RIA)=85.7+12.7<br/>Vivarium (7) biological assay(BA)=42.9+1.0<br/>"
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "SL3 1.1"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "980c9ba9-c780-5c6a-8431-f145248d4b37",
+     "label": "lrpitghsum.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001267",
+   "label": "AINV0000000590",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "SL-3 Rodent Blood Work Vivarium Group",
+    "dataset_catalog": "AINV0000000590",
+    "dataset_description": [
+     "Vivarium Group 6-24 Slide, Unopette and hematocrit 1, 2 and 3."
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "SL3 1.1"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "0f17a29c-0317-5b2f-805f-99f2fb344226",
+     "label": "viv13_24hem.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,254 @@
+{
+ "record": {
+  "id": "ea3075b3-6289-54c8-bbae-b6af0c515a5b",
+  "_id": "ea3075b3-6289-54c8-bbae-b6af0c515a5b",
+  "experiment_title": "Apollo Flight Crew Vestibular Assessment",
+  "archive_status_index": 2,
+  "pub_document_number": "PUB000348",
+  "parameter_html": "<table><tr><td>Irrigating temperature</td></tr><tr><td>Motion sickness</td></tr><tr><td>Nausea</td></tr><tr><td>Nystagmus, average velocity</td></tr><tr><td>Nystagmus, direction</td></tr><tr><td>Nystagmus, lag time</td></tr><tr><td>Nystagmus, maximum frequency</td></tr><tr><td>Nystagmus, maximum velocity</td></tr><tr><td>Nystagmus, total beats</td></tr><tr><td>Postural equilibrium</td></tr><tr><td>Previous spaceflight experience</td></tr><tr><td>Right-left asymmetry</td></tr><tr><td>Stomach awareness</td></tr><tr><td>Tumbling illusions</td></tr><tr><td>Vomiting</td></tr><tr><td>Inflight symptoms, severity</td></tr><tr></tr></table>",
+  "__source_key": "cl62aujx9cbkh01o62v9leri8",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Miller, Earl\">Principal Investigator: Miller, Earl</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Homick, Jerry\">Principal Investigator: Homick, Jerry</a>",
+  "image_name": [
+   "Inflight Medical Equipment Kit"
+  ],
+  "experiment_type_lk": [
+   "Apollo Program"
+  ],
+  "__record_modified_date": "2026-08-23T04:20:46.256332+00:00",
+  "proposal_source": [
+   "N/A"
+  ],
+  "__indexed": "2026-08-23T04:20:46.256332+00:00",
+  "__record_creation_date": "2022-07-28T19:39:43.900Z",
+  "keyword": [
+   "Postural equilibrium",
+   "Nystagmus",
+   "Motion sickness"
+  ],
+  "keyword_name": "Motion sickness",
+  "__record_size": 171717,
+  "__record_version": 29,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<br>\r\nThe United States manned space flight program addressed the potential problems that could arise during flight due to vestibular disturbances, particularly motion sickness.  Concern was expressed because of the highly unusual microgravity environment encountered during space flight.  Interestingly, astronauts from the early Mercury and Gemini programs reported no significant vestibular problems.  However, the Apollo program presented several significant changes from previous programs, including increases in the size of the spacecraft's interior and differences in the activities being performed during the mission.  Due to the larger habitable volume of the Apollo Command Module (CM), as compared to the Mercury and Gemini modules, crewmen were able to move about freely within the spacecraft.  In addition, inflight docking procedures allowed the crewmen to move back and forth between the Lunar Module (LM) and the Command Module.  It was also noted that crewmen would make the transition from zero-g (0-G) to the one sixth-G environment on the lunar surface and then back to 0-G numerous times during the six Apollo lunar-landing missions.  With these changes, particularly the greater mobility permitted by the larger volume of the CM and the LM, the potential for the first serious vestibular problems became evident.  Therefore, a set of qualitative assessment procedures was developed for the Apollo series of missions in order to document the vestibular disturbances experienced by the astronauts.  Opportunities for inflight quantitative monitoring of the vestibular system were severely limited because of the principal mission objectives and the technical nature of the tasks that were performed on each mission.  The objective of the vestibular investigations performed during the Apollo program was to obtain definitive information regarding the effects of microgravity on the vestibular system while using primarily qualitative data collection procedures. \r\n<P>\r\nAPPROACH:<br>\r\nQualitative assessment procedures:  The qualitative information used in the study was gathered from a variety of sources.  An attempt was made to compile detailed information on the history of the astronauts' motion sickness experiences.  These histories indicated whether an individual astronaut had ever experienced motion sickness in automobiles, boats, during 0-G parabolic flight, or during spacecraft egress exercises.  In addition, heavy emphasis was placed on subjective reporting by astronauts regarding the type and magnitude of vestibular disturbances experienced during and following their missions.  The inflight subjective reports documented whether the astronauts experienced stomach awareness, nausea, vomiting, or illusions while performing tumbling exercises. \r\n<P>\r\nSpecial preflight and postflight laboratory measurements:  To accomplish a comprehensive evaluation of vestibular function, two types of pre- and postflight tests were performed on the Apollo 16 and 17 astronauts.  Postural equilibrium tests were selected as a means of providing an assessment of a behavioral skill that is sensitive to altered vestibular inputs resulting from prolonged exposure to weightlessness.  The second test, caloric irrigation, complemented the tests of balance by monitoring changes in semicircular canal activity as a possible cause of postflight equilibrium disturbances.  \r\n<P>\r\n\r\nFor the postural equilibrium test, each astronaut was fitted with military-type shoes to rule out differences in footwear as a variable in subject comparisons.  Duration of time was the parameter designated as the performance measure of the balancing tasks.  The subject was instructed to stand on the prescribed support with eyes open and his feet in a tandem heel-to-toe arrangement and then to fold his arms and maintain his balance.  Timing began when the subject folded his arms.  In the second series of tests, the time measurement was initiated after the subject attained a balanced position and closed his eyes.  Rails of four widths (1.90, 3.17, 4.45, and 5.72 cm) and the floor provided the foot support for the standing subject.  A strip of tape 10.16 cm wide and 68.5 cm long served as a foot-guide alignment for the floor portion of the test. \r\n<P>\r\n\r\nThe caloric irrigation test required electrodes for recording nystagmic eye movements.  The silver chloride electrodes (Beckman) were placed at the outer canthus of each eye and the reference electrode was placed in the center of the forehead.  A Tracor RN-243 electronystagmograph system was used throughout the caloric test to record potential changes across the cornea and the retina.  Eye movement calibration and all subsequent caloric testing were done in a dark room.  Electronystagmographic calibration of eye movements in degrees per centimeter was obtained with the subject sitting in an upright position and fixating on two alternately flashing red lights placed at a distance from the center of eye rotation, providing a separation of 20 degrees of arc.  The subject was then reclined in a Tracor torsion swing chair so that his head was approximately 60 degrees from upright.  Baseline measurements were taken for 40 seconds to determine the presence of spontaneous nystagmus.  Two separate water baths were maintained at temperatures that ensured irrigating temperatures of 35.5 degrees Celsius (C) and 34.0 degrees C.  \r\n<P>\r\n\r\nCalorization of each subject proceeded according to the following schedule: right ear (RE), 35.5 degrees C; left ear (LE), 35.5 degrees C; RE, 34.0 degrees C; and LE, 34.0 degrees C.  In each case, approximately 160 ml of water was directed onto the tympanic membrane for a period of 40 seconds.  To maintain mental alertness, the subject silently solved arithmetic problems during the response period.  Following irrigation of each ear at 35.5 degrees C and a period of continuous recording that indicated the disappearance of all nystagmic response, an additional period (140 seconds) of rest was started; this rest period was increased to 260 seconds following the 34.0 degree C irrigation.  After all caloric testing, eye movement calibrations again were made in accordance with the pretest procedure.\r\n<P>\r\n\r\nNystagmus parameters measured during the caloric irrigation test included direction of eye movement, lag time, average velocity, maximum velocity, maximum frequency, duration of nystagmus, and right-left asymmetry.  Lag time is defined as the time between the onset of irrigation and the first measurable nystagmus.  Maximum velocity was obtained by selecting the 10-second time frame of a given record that contained the greatest preponderance of high-velocity, slow-phase nystagmus, and by calculating the average slow-phase velocity value for that time frame.  Maximum frequency was obtained by a similar calculation.  The duration of nystagmus was the interval between onset and complete cessation of nystagmus.  Right-left asymmetry was a measurement which compared right and left ear nystagmus responses and documented which ear elicited the greater response.         \r\n<P>\r\n\r\nPreflight data were collected on the Apollo 16 prime and backup astronauts 30 days before launch (L-30).  Postflight data were collected on all three prime astronauts three days following recovery; two of the three crewmen were tested again four days later.  Preflight data on the Apollo 17 prime and backup crewmen were collected at L-30 and at L-15.  No postflight data were collected on the Apollo 17 crewmen.  \r\n<P>\r\n\r\nRESULTS:<br>\r\nMotion sickness (MS) history and inflight MS:  The results of the MS history examination indicated that twenty-seven of the thirty-three Apollo crewmen had a positive MS history.  However, only nine of those twenty-seven crewmen experienced inflight MS symptoms.  Of the six crewmen who had a negative MS history, only two experienced MS symptoms during flight.  Therefore, the total number of Apollo astronauts who experienced inflight MS symptoms was eleven.\r\n<P>\r\nSeverity of inflight symptoms:  The total number of occurrences of mild MS (stomach awareness) was six.  Moderate MS symptoms (stomach awareness, nausea) occurred only twice throughout the entire series of Apollo missions.  However, severe MS symptoms (stomach awareness, nausea, vomiting) occurred three times.  \r\n<P>\r\nPrevious space flight experience:  Of the thirty-three Apollo crewmen, fifteen were classified as inexperienced astronauts (first space flight).  Six of the fifteen inexperienced crewmen experienced MS symptoms during flight.  Of the eighteen veteran crewmen (one or more space flights), only five experienced inflight MS symptoms.\r\n<P>\r\nSpecial pre- and postflight laboratory measurements:  Postflight data were not collected on the Apollo 17 crew.  Therefore, a complete data analysis was completed only for the Apollo 16 crew.\r\n<P>\r\nPreflight results for the postural equilibrium test indicated that all three crewmen were within the range of performance typically exhibited by young, healthy, pilot-type subjects.  Postflight results indicated that during the first and second test periods, 3 (denoted as R+3) and 7 (denoted as R+7) days after landing, respectively, postural equilibrium with eyes open was nearly identical to preflight performance in all crewmen.  However, at R+3, the Commander (CDR) and the Command Module Pilot (CMP) showed a marked decrease during the eyes-closed test.  When these two individuals were tested again at R+7, there was a definite improvement in postural stability with eyes closed compared to their R+3 results.\r\n<P>\r\nThe preflight results for the caloric irrigation test indicated that all Apollo 16 crewmen possessed normally functioning vestibular canals.  The nystagmus produced was always in the expected direction.  Spontaneous nystagmus was present in all three crewmen, but no meaningful trends were observed.  All of the crewmen exhibited an asymmetry in right and left ear nystagmus responses which generally remained unchanged through the R+7 test date.<END>",
+  "payload_id": "Apollo 10",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "AP006",
+  "indexed": "2026-08-23T04:20:46.256332+00:00",
+  "GUID": "cl62aujx9cbkh01o62v9leri8",
+  "parameter_name": [
+   "Irrigating temperature",
+   "Motion sickness",
+   "Nausea",
+   "Nystagmus, average velocity",
+   "Nystagmus, direction",
+   "Nystagmus, lag time",
+   "Nystagmus, maximum frequency",
+   "Nystagmus, maximum velocity",
+   "Nystagmus, total beats",
+   "Postural equilibrium",
+   "Previous spaceflight experience",
+   "Right-left asymmetry",
+   "Stomach awareness",
+   "Tumbling illusions",
+   "Vomiting",
+   "Inflight symptoms, severity"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 370,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Neuroscience"
+  ],
+  "pme_role_with_name": [
+   "Principal Investigator: Homick, Jerry",
+   "Principal Investigator: Miller, Earl"
+  ],
+  "missions": [
+   [
+    [
+     "Apollo 10"
+    ]
+   ],
+   [
+    [
+     "Apollo 11"
+    ]
+   ],
+   [
+    [
+     "Apollo 12"
+    ]
+   ],
+   [
+    [
+     "Apollo 13"
+    ]
+   ],
+   [
+    [
+     "Apollo 14"
+    ]
+   ],
+   [
+    [
+     "Apollo 15"
+    ]
+   ],
+   [
+    [
+     "Apollo 16"
+    ]
+   ],
+   [
+    [
+     "Apollo 17"
+    ]
+   ],
+   [
+    [
+     "Apollo 7"
+    ]
+   ],
+   [
+    [
+     "Apollo 8"
+    ]
+   ],
+   [
+    [
+     "Apollo 9"
+    ]
+   ]
+  ],
+  "__dirid": "ea3075b3-6289-54c8-bbae-b6af0c515a5b",
+  "__record_size_wo_doccontent": 171717,
+  "PI": [
+   "Homick, Jerry",
+   "Miller, Earl"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "AP006"
+  ],
+  "mission_id": [
+   [
+    [
+     "Apollo 10"
+    ]
+   ],
+   [
+    [
+     "Apollo 11"
+    ]
+   ],
+   [
+    [
+     "Apollo 12"
+    ]
+   ],
+   [
+    [
+     "Apollo 13"
+    ]
+   ],
+   [
+    [
+     "Apollo 14"
+    ]
+   ],
+   [
+    [
+     "Apollo 15"
+    ]
+   ],
+   [
+    [
+     "Apollo 16"
+    ]
+   ],
+   [
+    [
+     "Apollo 17"
+    ]
+   ],
+   [
+    [
+     "Apollo 7"
+    ]
+   ],
+   [
+    [
+     "Apollo 8"
+    ]
+   ],
+   [
+    [
+     "Apollo 9"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Homick, Jerry",
+   "Miller, Earl"
+  ],
+  "archive_status": "Data preservation is complete. Privacy-protected datasets are available via data request. Remaining datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Apollo",
+  "__source_field_concat": "PUB000348 Apollo 10 cl62aujx9cbkh01o62v9leri8 Motion sickness  N/A Apollo Flight Crew Vestibular Assessment AP006 Apollo",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<br>\r\nThe United States manned space flight program addressed the potential problems that could arise during flight due to vestibular disturbances, particularly motion sickness.  Concern was expressed because of the highly unusual microgravity environment encountered during space flight.  Interestingly, astronauts from the early Mercury and Gemini programs reported no significant vestibular problems.  However, the Apollo program presented several significant changes from previous programs, including increases in the size of the spacecraft's interior and differences in the activities being performed during the mission.  Due to the larger habitable volume of the Apollo Command Module (CM), as compared to the Mercury and Gemini modules, crewmen were able to move about freely within the spacecraft.  In addition, inflight docking procedures allowed the crewmen to move back and forth between the Lunar Module (LM) and the Command Module.  It was also noted that crewmen would make the transition from zero-g (0-G) to the one sixth-G environment on the lunar surface and then back to 0-G numerous times during the six Apollo lunar-landing missions.  With these changes, particularly the greater mobility permitted by the larger volume of the CM and the LM, the potential for the first serious vestibular problems became evident.  Therefore, a set of qualitative assessment procedures was developed for the Apollo series of missions in order to document the vestibular disturbances experienced by the astronauts.  Opportunities for inflight quantitative monitoring of the vestibular system were severely limited because of the principal mission objectives and the technical nature of the tasks that were performed on each mission.  The objective of the vestibular investigations performed during the Apollo program was to obtain definitive information regarding the effects of microgravity on the vestibular system while using primarily qualitative data collection procedures. \r\n<P>\r\nAPPROACH:<br>\r\nQualitative assessment procedures:  The qualitative information used in the study was gathered from a variety of sources.  An attempt was made to compile detailed information on the history of the astronauts' motion sickness experiences.  These histories indicated whether an individual astronaut had ever experienced motion sickness in automobiles, boats, during 0-G parabolic flight, or during spacecraft egress exercises.  In addition, heavy emphasis was placed on subjective reporting by astronauts regarding the type and magnitude of vestibular disturbances experienced during and following their missions.  The inflight subjective reports documented whether the astronauts experienced stomach awareness, nausea, vomiting, or illusions while performing tumbling exercises. \r\n<P>\r\nSpecial preflight and postflight laboratory measurements:  To accomplish a comprehensive evaluation of vestibular function, two types of pre- and postflight tests were performed on the Apollo 16 and 17 astronauts.  Postural equilibrium tests were selected as a means of providing an assessment of a behavioral skill that is sensitive to altered vestibular inputs resulting from prolonged exposure to weightlessness.  The second test, caloric irrigation, complemented the tests of balance by monitoring changes in semicircular canal activity as a possible cause of postflight equilibrium disturbances.  \r\n<P>\r\n\r\nFor the postural equilibrium test, each astronaut was fitted with military-type shoes to rule out differences in footwear as a variable in subject comparisons.  Duration of time was the parameter designated as the performance measure of the balancing tasks.  The subject was instructed to stand on the prescribed support with eyes open and his feet in a tandem heel-to-toe arrangement and then to fold his arms and maintain his balance.  Timing began when the subject folded his arms.  In the second series of tests, the time measurement was initiated after the subject attained a balanced position and closed his eyes.  Rails of four widths (1.90, 3.17, 4.45, and 5.72 cm) and the floor provided the foot support for the standing subject.  A strip of tape 10.16 cm wide and 68.5 cm long served as a foot-guide alignment for the floor portion of the test. \r\n<P>\r\n\r\nThe caloric irrigation test required electrodes for recording nystagmic eye movements.  The silver chloride electrodes (Beckman) were placed at the outer canthus of each eye and the reference electrode was placed in the center of the forehead.  A Tracor RN-243 electronystagmograph system was used throughout the caloric test to record potential changes across the cornea and the retina.  Eye movement calibration and all subsequent caloric testing were done in a dark room.  Electronystagmographic calibration of eye movements in degrees per centimeter was obtained with the subject sitting in an upright position and fixating on two alternately flashing red lights placed at a distance from the center of eye rotation, providing a separation of 20 degrees of arc.  The subject was then reclined in a Tracor torsion swing chair so that his head was approximately 60 degrees from upright.  Baseline measurements were taken for 40 seconds to determine the presence of spontaneous nystagmus.  Two separate water baths were maintained at temperatures that ensured irrigating temperatures of 35.5 degrees Celsius (C) and 34.0 degrees C.  \r\n<P>\r\n\r\nCalorization of each subject proceeded according to the following schedule: right ear (RE), 35.5 degrees C; left ear (LE), 35.5 degrees C; RE, 34.0 degrees C; and LE, 34.0 degrees C.  In each case, approximately 160 ml of water was directed onto the tympanic membrane for a period of 40 seconds.  To maintain mental alertness, the subject silently solved arithmetic problems during the response period.  Following irrigation of each ear at 35.5 degrees C and a period of continuous recording that indicated the disappearance of all nystagmic response, an additional period (140 seconds) of rest was started; this rest period was increased to 260 seconds following the 34.0 degree C irrigation.  After all caloric testing, eye movement calibrations again were made in accordance with the pretest procedure.\r\n<P>\r\n\r\nNystagmus parameters measured during the caloric irrigation test included direction of eye movement, lag time, average velocity, maximum velocity, maximum frequency, duration of nystagmus, and right-left asymmetry.  Lag time is defined as the time between the onset of irrigation and the first measurable nystagmus.  Maximum velocity was obtained by selecting the 10-second time frame of a given record that contained the greatest preponderance of high-velocity, slow-phase nystagmus, and by calculating the average slow-phase velocity value for that time frame.  Maximum frequency was obtained by a similar calculation.  The duration of nystagmus was the interval between onset and complete cessation of nystagmus.  Right-left asymmetry was a measurement which compared right and left ear nystagmus responses and documented which ear elicited the greater response.         \r\n<P>\r\n\r\nPreflight data were collected on the Apollo 16 prime and backup astronauts 30 days before launch (L-30).  Postflight data were collected on all three prime astronauts three days following recovery; two of the three crewmen were tested again four days later.  Preflight data on the Apollo 17 prime and backup crewmen were collected at L-30 and at L-15.  No postflight data were collected on the Apollo 17 crewmen.  \r\n<P>\r\n\r\nRESULTS:<br>\r\nMotion sickness (MS) history and inflight MS:  The results of the MS history examination indicated that twenty-seven of the thirty-three Apollo crewmen had a positive MS history.  However, only nine of those twenty-seven crewmen experienced inflight MS symptoms.  Of the six crewmen who had a negative MS history, only two experienced MS symptoms during flight.  Therefore, the total number of Apollo astronauts who experienced inflight MS symptoms was eleven.\r\n<P>\r\nSeverity of inflight symptoms:  The total number of occurrences of mild MS (stomach awareness) was six.  Moderate MS symptoms (stomach awareness, nausea) occurred only twice throughout the entire series of Apollo missions.  However, severe MS symptoms (stomach awareness, nausea, vomiting) occurred three times.  \r\n<P>\r\nPrevious space flight experience:  Of the thirty-three Apollo crewmen, fifteen were classified as inexperienced astronauts (first space flight).  Six of the fifteen inexperienced crewmen experienced MS symptoms during flight.  Of the eighteen veteran crewmen (one or more space flights), only five experienced inflight MS symptoms.\r\n<P>\r\nSpecial pre- and postflight laboratory measurements:  Postflight data were not collected on the Apollo 17 crew.  Therefore, a complete data analysis was completed only for the Apollo 16 crew.\r\n<P>\r\nPreflight results for the postural equilibrium test indicated that all three crewmen were within the range of performance typically exhibited by young, healthy, pilot-type subjects.  Postflight results indicated that during the first and second test periods, 3 (denoted as R+3) and 7 (denoted as R+7) days after landing, respectively, postural equilibrium with eyes open was nearly identical to preflight performance in all crewmen.  However, at R+3, the Commander (CDR) and the Command Module Pilot (CMP) showed a marked decrease during the eyes-closed test.  When these two individuals were tested again at R+7, there was a definite improvement in postural stability with eyes closed compared to their R+3 results.\r\n<P>\r\nThe preflight results for the caloric irrigation test indicated that all Apollo 16 crewmen possessed normally functioning vestibular canals.  The nystagmus produced was always in the expected direction.  Spontaneous nystagmus was present in all three crewmen, but no meaningful trends were observed.  All of the crewmen exhibited an asymmetry in right and left ear nystagmus responses which generally remained unchanged through the R+7 test date.<END>",
+  "__doi": "10.83263/69za-9k75",
+  "__doi_record_creation_date": "2026-08-23T04:20:46",
+  "__doi_record_modified_date": "2026-08-23T04:20:46"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001965",
+   "label": "AP006__1950126995",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Apollo Motion Sickness General Summary",
+    "dataset_catalog": "AP006__1950126995",
+    "dataset_description": [
+     "This table presents an overall summary of Apollo motion sickness findings.<BR>\r\n<P>\r\nFrom: Homick JL, Miller EF. Apollo Flight Crew Vestibular Assessment.  In: Johnson RS, Dietlein LF, Berry CA, eds.  Biomedical Results of Apollo.  Washington, DC:  NASA Headquarters; 1975:331. NASA SP-368."
+    ],
+    "processing_level": "",
+    "experiment_id": [
+     "AP006"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "d0d97713-3932-5edc-b052-3d38f97fb9d0",
+     "label": "AP006Table2.xls_Apollo_7_AP006_2010_244_040955.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

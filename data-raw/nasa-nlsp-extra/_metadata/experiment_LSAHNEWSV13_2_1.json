@@ -1,0 +1,167 @@
+{
+ "record": {
+  "id": "2f3c94ba-03b4-50d3-b4d7-a6c2c5de8643",
+  "_id": "2f3c94ba-03b4-50d3-b4d7-a6c2c5de8643",
+  "experiment_title": "Bone Health and Physical Activity in LSAH Participants",
+  "archive_status_index": 1,
+  "pub_document_number": "PUB001646",
+  "parameter_html": "<table><tr><td>Exercise, running</td></tr><tr><td>Exercise, walking</td></tr><tr><td>Exercise, weightlifting</td></tr><tr></tr></table>",
+  "__source_key": "cl62azjf7cdf101o6b3i87gx2",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:No Principal Investigator,\">Principal Investigator: No Principal Investigator,</a>",
+  "experiment_type_lk": [
+   "Longitudinal Study of Astronaut Health (LSAH)"
+  ],
+  "__record_modified_date": "2026-08-23T03:46:50.596559+00:00",
+  "__indexed": "2026-08-23T03:46:50.596559+00:00",
+  "__record_creation_date": "2022-07-28T19:54:45.751Z",
+  "keyword": [
+   "Weight-bearing",
+   "Bone density",
+   "Bone and bones"
+  ],
+  "keyword_name": "Bone and bones",
+  "__record_size": 60830,
+  "__record_version": 28,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<BR>\r\nPhysical activity, primarily weight bearing exercise, is an important factor in the development and maintenance of bone health.  Weight bearing exercise is defined as any physical activity in which someone supports their weight (e.g., running, walking) or moves weights using their muscles (e.g., weightlifting, resistance training).  For this study, weight bearing exercise was represented by the specific physical activities of walking, running, and weightlifting.  This study compared the amount of participation in these activities between the Longitudinal Study of Astronaut Health (LSAH) participants, a group of comparisons, and the U.S. general population.\r\n<P>\r\nAPPROACH:<BR>\r\nThe data were obtained through the Lifestyle Questionnaire, where respondents were asked to select the types of exercises they usually performed.  A total of 1080 participants responded to the questionnaire (238 astronauts and 842 comparisons).  Results of a national survey, the 1998 National Health Interview Survey, were used to compare the LSAH participants to the U.S. general population (N=32,440).  The survey had values for the U.S. general adult population\u2019s participation in walking, running, and weightlifting.\r\n<P>\r\nRESULTS:<BR>\r\nAstronauts reported the highest participation in running and weightlifting as compared to comparison participants and the general population.  The most striking difference between the astronauts and the other two groups was in running, where about two thirds of the astronauts reported participating, whereas more than one third of the comparison participants and only about a tenth of the general population did.  Astronauts reported higher participation in the more vigorous activities of running and weightlifting than the comparison participants or the general population.  The comparison participants appeared to have a similar pattern with the general population in the types of exercise they participated in, albeit with higher participation percentages.  \r\n<P>\r\nFemale astronauts (N=31) participated more in running and weightlifting than in walking.  The female comparison participants (N=117) and the female general population (N=18,238) respondents showed a clear preference for walking over the other two activities.  \r\n<P>\r\nOverall, LSAH participants reported higher participation in weight bearing exercises as compared to the general population, with astronauts having the highest rates.  The difference between astronauts and comparison participants is to be expected as astronauts by definition need to maintain their health for mission readiness.  Both astronauts and comparison participants therefore have a better chance of maintaining their bone density as they age as compared to the general population.\r\n<END>",
+  "payload_id": "LSAH",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "LSAHNEWSV13_2_1",
+  "indexed": "2026-08-23T03:46:50.596559+00:00",
+  "GUID": "cl62azjf7cdf101o6b3i87gx2",
+  "parameter_name": [
+   "Exercise, running",
+   "Exercise, walking",
+   "Exercise, weightlifting"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 1520,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Skeletal physiology"
+  ],
+  "pme_role_with_name": [
+   "Principal Investigator: No Principal Investigator,"
+  ],
+  "missions": [
+   [
+    [
+     "LSAH"
+    ]
+   ]
+  ],
+  "__dirid": "2f3c94ba-03b4-50d3-b4d7-a6c2c5de8643",
+  "__record_size_wo_doccontent": 60830,
+  "PI": [
+   "No Principal Investigator,"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "LSAHNEWSV13_2_1"
+  ],
+  "mission_id": [
+   [
+    [
+     "LSAH"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "proposal_source": [],
+  "proposal_date": [],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "No Principal Investigator,"
+  ],
+  "program_name": [
+   "Space Medicine"
+  ],
+  "archive_status": "Data preservation is complete. All datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Space Medicine",
+  "__source_field_concat": "PUB001646 LSAH cl62azjf7cdf101o6b3i87gx2 Bone and bones  N/A Bone Health and Physical Activity in LSAH Participants LSAHNEWSV13_2_1 Space Medicine Data preservation is complete. All datasets are publicly available.",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<BR>\r\nPhysical activity, primarily weight bearing exercise, is an important factor in the development and maintenance of bone health.  Weight bearing exercise is defined as any physical activity in which someone supports their weight (e.g., running, walking) or moves weights using their muscles (e.g., weightlifting, resistance training).  For this study, weight bearing exercise was represented by the specific physical activities of walking, running, and weightlifting.  This study compared the amount of participation in these activities between the Longitudinal Study of Astronaut Health (LSAH) participants, a group of comparisons, and the U.S. general population.\r\n<P>\r\nAPPROACH:<BR>\r\nThe data were obtained through the Lifestyle Questionnaire, where respondents were asked to select the types of exercises they usually performed.  A total of 1080 participants responded to the questionnaire (238 astronauts and 842 comparisons).  Results of a national survey, the 1998 National Health Interview Survey, were used to compare the LSAH participants to the U.S. general population (N=32,440).  The survey had values for the U.S. general adult population\u2019s participation in walking, running, and weightlifting.\r\n<P>\r\nRESULTS:<BR>\r\nAstronauts reported the highest participation in running and weightlifting as compared to comparison participants and the general population.  The most striking difference between the astronauts and the other two groups was in running, where about two thirds of the astronauts reported participating, whereas more than one third of the comparison participants and only about a tenth of the general population did.  Astronauts reported higher participation in the more vigorous activities of running and weightlifting than the comparison participants or the general population.  The comparison participants appeared to have a similar pattern with the general population in the types of exercise they participated in, albeit with higher participation percentages.  \r\n<P>\r\nFemale astronauts (N=31) participated more in running and weightlifting than in walking.  The female comparison participants (N=117) and the female general population (N=18,238) respondents showed a clear preference for walking over the other two activities.  \r\n<P>\r\nOverall, LSAH participants reported higher participation in weight bearing exercises as compared to the general population, with astronauts having the highest rates.  The difference between astronauts and comparison participants is to be expected as astronauts by definition need to maintain their health for mission readiness.  Both astronauts and comparison participants therefore have a better chance of maintaining their bone density as they age as compared to the general population.\r\n<END>",
+  "__doi": "10.83263/waaq-ek58",
+  "__doi_record_creation_date": "2026-08-23T03:46:50",
+  "__doi_record_modified_date": "2026-08-23T03:46:50"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000059",
+   "label": "JMLSAHNEWSV1321_2",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Selected Weight Bearing Exercises of Female Longitudinal Study of Astronaut Health (LSAH) Participants and U.S. General Population",
+    "dataset_catalog": "JMLSAHNEWSV1321_2",
+    "dataset_description": "",
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "LSAHNEWSV13_2_1"
+    ]
+   },
+   "meta": "1 file \u00b7 37.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "2a7d45c5-3eb8-5dce-8616-9a9aff28e237",
+     "label": "JMLSAHNEWSV1321_2.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 37888,
+     "meta": "37.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001569",
+   "label": "JMLSAHNEWSV1321_1",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Selected Weight Bearing Exercises of Longitudinal Study of Astronaut Health (LSAH) Participants and U.S. General Population",
+    "dataset_catalog": "JMLSAHNEWSV1321_1",
+    "dataset_description": "",
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "LSAHNEWSV13_2_1"
+    ]
+   },
+   "meta": "1 file \u00b7 50.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "fba9bbe6-cacc-5fb5-9ada-e147d4079d0d",
+     "label": "JMLSAHNEWSV1321_1.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 51200,
+     "meta": "50.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,9 @@
+﻿ID,Campaign,Test_Phase,Iteration,Gender,Average s&r,StdDev of s&r,Avg %ch from Pre2,StdDev  %ch from Pre2
+1,C3,POST_TEST,1,Female,29,13,0.12%,23.30%
+2,C3,POST_TEST,1,Male,28,10,0.93%,20.62%
+3,C3,POST_TEST,2,Female,31,12,8.52%,18.16%
+4,C3,POST_TEST,2,Male,28,9,8.81%,29.06%
+5,C3,PRE_TEST,1,Female,29,13,NA,NA
+6,C3,PRE_TEST,1,Male,27,9,NA,NA
+7,C3,PRE_TEST,2,Female,30,13,NA,NA
+8,C3,PRE_TEST,2,Male,28,9,NA,NA

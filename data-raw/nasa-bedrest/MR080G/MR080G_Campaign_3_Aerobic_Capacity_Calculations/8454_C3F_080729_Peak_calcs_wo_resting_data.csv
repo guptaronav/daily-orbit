@@ -1,0 +1,4 @@
+ID,Campaign,Subject,Test_Phase,BR_Day,Date,Age,Weight_kg,Height_cm,Plot,Slope,Intercept,R^2
+1,C3F,8454,PRE_TEST,10,07/29/2008,34,86.9,182.8,HR vs VO2,0.01,-0.15,0.99
+2,C3F,8454,PRE_TEST,10,07/29/2008,34,86.9,182.8,VO2 vs Wkld,60.67,-21.68,1.0
+3,C3F,8454,PRE_TEST,10,07/29/2008,34,86.9,182.8,VO2 vs HR,69.91,11.61,0.99

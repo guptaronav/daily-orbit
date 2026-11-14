@@ -1,0 +1,208 @@
+{
+ "record": {
+  "id": "44973347-d88b-516e-bcaf-a9b8c356256c",
+  "_id": "44973347-d88b-516e-bcaf-a9b8c356256c",
+  "experiment_title": "Phenotypic and Functional Analysis of Peripheral Mononuclear Cells During Long Duration Space Flight",
+  "pub_document_number": "PUB000309",
+  "archive_status_index": 2,
+  "parameter_html": "<table><tr><td>Interleukin-10 (IL-10)</td></tr><tr><td>Interleukin-2 (IL-2)</td></tr><tr><td>Interleukin-6 (IL-6)</td></tr><tr><td>Monocyte cell function assay</td></tr><tr><td>Prostaglandin E2 (PGE2)</td></tr><tr><td>Interleukin-1 beta (IL-1B)</td></tr><tr><td>Interleukin-1 receptor antagonist (IL-1RA)</td></tr><tr><td>mRNA, peripheral mononuclear cells</td></tr><tr><td>Natural killer (NK) cells, cytotoxicity</td></tr><tr><td>B lymphocytes (CD19), percentage</td></tr><tr><td>Granulocyte percentage</td></tr><tr><td>Human leukocyte antigen (HLA-DR), blood percentage</td></tr><tr><td>Leukocytes (CD45), percentage</td></tr><tr><td>Membrane-bound IL1a, blood percentage</td></tr><tr><td>Monocytes (CD14), percentage</td></tr><tr><td>Natural killer (NK) cells (CD16/CD56), blood percentage</td></tr><tr><td>CD4+ T cells, blood, percentage</td></tr><tr><td>CD3+ T cells, blood, percentage</td></tr><tr><td>CD8+ T cells, blood, percentage</td></tr><tr><td>T cell function assay</td></tr><tr></tr></table>",
+  "__source_key": "cl62atqdgcab401o69ak4f5uc",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Sams, Clarence\">Principal Investigator: Sams, Clarence</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Konstantinova, Irina\">Principal Investigator: Konstantinova, Irina</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Meehan, Richard\">Co-Investigator: Meehan, Richard</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Pierson, Duane\">Co-Investigator: Pierson, Duane</a>",
+  "experiment_type_lk": [
+   "NASA-Mir Program"
+  ],
+  "__record_modified_date": "2026-08-23T03:53:42.036513+00:00",
+  "proposal_source": [
+   "N/A"
+  ],
+  "__indexed": "2026-08-23T03:53:42.036513+00:00",
+  "keyword": [
+   "B-lymphocytes",
+   "Killer cells, natural",
+   "Macrophages",
+   "Leukocyte count",
+   "T-Lymphocytes",
+   "Immunity, cellular",
+   "Antibody formation",
+   "Cytokines"
+  ],
+  "__record_creation_date": "2022-07-28T19:40:30.628Z",
+  "keyword_name": "Cytokines",
+  "__record_version": 29,
+  "__record_size": 102389,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<br>\r\nChanges in the numbers of the immune cell subpopulations have been documented by US and Russian scientists.  Alterations in the immune cell function have also been observed such as the reduced mitogen-induced activation of T-cells, altered cytokine production, reduced natural killer cell (NK) cytotoxicity, and reduced delayed-type hypersensitivity responses to recall antigens applied intradermally during space flight.   This demonstrates that alterations in cell-mediated immunity do occur in vitro and in vivo.  Therefore, these results support the notion that the immune system is functionally altered during space flight.  The objectives of this experiment include (1) to determine phenotypic alterations in circulating immune cell subpopulations which occur during space flight and compare them to those observed immediately after flight (2) to assess functional changes in the peripheral mononuclear cells resulting from space flight and (3) to determine the roles of specific cytokines and immunoregulatory factors in mediating space flight-induced immune suppression.\r\n<P>\r\nAPPROACH:<br>\r\nBlood samples were obtained from each of  the three crewmembers preflight (150 and 35 days before launch), in-flight (FD 11),  and postflight (R+0 and R+9).  The different types of white blood cells were identified by specific cell-surface markers.  Staining of the cells, during flight, was performed using the Whole Blood Staining Device (WBSD).  The blood samples were injected into a plastic-reaction tube and stained with monoclonal antibodies.  The sample tubes were stored and transported back to the ground for analysis. The percentages of specific mononuclear cell subpopulations were determined by flow cytometry.  The basic immunophenotyping panel for analysis of circulating cell populations included the following markers: CD45 (leukocytes), CD14 (monocytes), CD3 (T-cells), CD16/CD56 (Natural Killer (NK) cells), CD4 (T helper/inducer cells), CD8 (T supressor/cytotoxic cells), CD19 (B cells), membrane-bound interleukin IL1a, and HLA-DR (Human Leukocyte Antigen). \r\n<P>\r\nMononuclear cells were assayed for monocyte, T-cell, and natural killer (NK) cell functions.  Mononuclear cell function was determined by the presence of early activation cell-surface markers.  Cells were incubated with mitogens for 24 hours to induce the early activation cell-surface markers.  Screening the cells for the early activation markers was performed by flow cytometry.  Cytokines and other immunomodulatory molecules were measured following the mitogen-induced activation.  Cell culture supernatants were harvested, frozen-stored at -70 degrees Celsius for subsequent analysis of cytokine production.  The concentration of cytokines and growth factors such as Interleukin-1a (IL1a), IL-1b, IL-2, IL-6 and IL-10 in the collected medium samples was measured by the Enzyme Linked Immunosorbent Assay (ELISA).  The culture medium concentrations of Prostaglandin E2 (PGE2) was measured by Radioimmunoassay (RIA).  Transcriptional levels of the cytokines were assayed in the flight and ground control cells by extracting and testing for messenger RNA (mRNA).  Natural Killer (NK) cell functions were assayed by the chromium release assay.  This assay measures the cytotoxic activity of effector (NK) cells by measuring the amount of chromium radioactivity released from the killed/lysed target cells.\r\n<P>\r\nRESULTS:<br>\r\nCirculating subpopulations of peripheral white cells were not greatly altered during flight as compared to the preflight baselines.  In contrast, the samples taken within 2-3 hours after landing had the relative granulocytosis and lymphopenia as observed after most space flights.  A relative decrease in T-cells, monocytes, B-cells and NK cells was also noted after flight.  These changes were not observed in the in-flight sample taken during the last flight day, suggesting the changes are an acute response to reentry and readaptation to unit gravity.\r\n<P>\r\nIn vitro activation of lymphocytes isolated from crewmembers during flight or immediately after flight was not significantly different from the control periods as determined by the expression of early activation markers.  Expression of CD 69 protein or IL-2 receptor (CD 25) 24 hours after mitogen activation was not altered relative to preflight control samples.  All crewmembers exhibited good NK cell function on landing day, however variable decreases in cytotoxicity were noted 9 days after landing.  The reasons for this effect are currently unclear, though it is consistent with previous observations during long durations space flight on Mir. \r\n<END>",
+  "payload_id": "Mir 18",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "indexed": "2026-08-23T03:53:42.036513+00:00",
+  "experiment_id": "2.4.4",
+  "GUID": "cl62atqdgcab401o69ak4f5uc",
+  "parameter_name": [
+   "Interleukin-10 (IL-10)",
+   "Interleukin-2 (IL-2)",
+   "Interleukin-6 (IL-6)",
+   "Monocyte cell function assay",
+   "Prostaglandin E2 (PGE2)",
+   "Interleukin-1 beta (IL-1B)",
+   "Interleukin-1 receptor antagonist (IL-1RA)",
+   "mRNA, peripheral mononuclear cells",
+   "Natural killer (NK) cells, cytotoxicity",
+   "B lymphocytes (CD19), percentage",
+   "Granulocyte percentage",
+   "Human leukocyte antigen (HLA-DR), blood percentage",
+   "Leukocytes (CD45), percentage",
+   "Membrane-bound IL1a, blood percentage",
+   "Monocytes (CD14), percentage",
+   "Natural killer (NK) cells (CD16/CD56), blood percentage",
+   "CD4+ T cells, blood, percentage",
+   "CD3+ T cells, blood, percentage",
+   "CD8+ T cells, blood, percentage",
+   "T cell function assay"
+  ],
+  "payload_part": "Mir 18",
+  "exp_index": 357,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Immunology"
+  ],
+  "pme_role_with_name": [
+   "Co-Investigator: Meehan, Richard",
+   "Co-Investigator: Pierson, Duane",
+   "Principal Investigator: Konstantinova, Irina",
+   "Principal Investigator: Sams, Clarence"
+  ],
+  "missions": [
+   [
+    [
+     "Mir 18"
+    ]
+   ],
+   [
+    [
+     "STS-71"
+    ]
+   ]
+  ],
+  "__dirid": "44973347-d88b-516e-bcaf-a9b8c356256c",
+  "__record_size_wo_doccontent": 102389,
+  "experiment_parms_tissue2": "N/A",
+  "experiment_parms_tissue1": "N/A",
+  "PI": [
+   "Konstantinova, Irina",
+   "Sams, Clarence"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "2.4.4"
+  ],
+  "mission_id": [
+   [
+    [
+     "Mir 18"
+    ]
+   ],
+   [
+    [
+     "STS-71"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Konstantinova, Irina",
+   "Sams, Clarence"
+  ],
+  "archive_status": "Data preservation is complete. Privacy-protected datasets are available via data request. Remaining datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Nasa-Mir",
+  "__source_field_concat": "PUB000309 Mir 18 cl62atqdgcab401o69ak4f5uc Cytokines N/A N/A  Mir 18 Phenotypic and Functional Analysis of Peripheral Mononuclear Cells During Long Duration Space Flight 2.4.4 Nasa-Mir",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<br>\r\nChanges in the numbers of the immune cell subpopulations have been documented by US and Russian scientists.  Alterations in the immune cell function have also been observed such as the reduced mitogen-induced activation of T-cells, altered cytokine production, reduced natural killer cell (NK) cytotoxicity, and reduced delayed-type hypersensitivity responses to recall antigens applied intradermally during space flight.   This demonstrates that alterations in cell-mediated immunity do occur in vitro and in vivo.  Therefore, these results support the notion that the immune system is functionally altered during space flight.  The objectives of this experiment include (1) to determine phenotypic alterations in circulating immune cell subpopulations which occur during space flight and compare them to those observed immediately after flight (2) to assess functional changes in the peripheral mononuclear cells resulting from space flight and (3) to determine the roles of specific cytokines and immunoregulatory factors in mediating space flight-induced immune suppression.\r\n<P>\r\nAPPROACH:<br>\r\nBlood samples were obtained from each of  the three crewmembers preflight (150 and 35 days before launch), in-flight (FD 11),  and postflight (R+0 and R+9).  The different types of white blood cells were identified by specific cell-surface markers.  Staining of the cells, during flight, was performed using the Whole Blood Staining Device (WBSD).  The blood samples were injected into a plastic-reaction tube and stained with monoclonal antibodies.  The sample tubes were stored and transported back to the ground for analysis. The percentages of specific mononuclear cell subpopulations were determined by flow cytometry.  The basic immunophenotyping panel for analysis of circulating cell populations included the following markers: CD45 (leukocytes), CD14 (monocytes), CD3 (T-cells), CD16/CD56 (Natural Killer (NK) cells), CD4 (T helper/inducer cells), CD8 (T supressor/cytotoxic cells), CD19 (B cells), membrane-bound interleukin IL1a, and HLA-DR (Human Leukocyte Antigen). \r\n<P>\r\nMononuclear cells were assayed for monocyte, T-cell, and natural killer (NK) cell functions.  Mononuclear cell function was determined by the presence of early activation cell-surface markers.  Cells were incubated with mitogens for 24 hours to induce the early activation cell-surface markers.  Screening the cells for the early activation markers was performed by flow cytometry.  Cytokines and other immunomodulatory molecules were measured following the mitogen-induced activation.  Cell culture supernatants were harvested, frozen-stored at -70 degrees Celsius for subsequent analysis of cytokine production.  The concentration of cytokines and growth factors such as Interleukin-1a (IL1a), IL-1b, IL-2, IL-6 and IL-10 in the collected medium samples was measured by the Enzyme Linked Immunosorbent Assay (ELISA).  The culture medium concentrations of Prostaglandin E2 (PGE2) was measured by Radioimmunoassay (RIA).  Transcriptional levels of the cytokines were assayed in the flight and ground control cells by extracting and testing for messenger RNA (mRNA).  Natural Killer (NK) cell functions were assayed by the chromium release assay.  This assay measures the cytotoxic activity of effector (NK) cells by measuring the amount of chromium radioactivity released from the killed/lysed target cells.\r\n<P>\r\nRESULTS:<br>\r\nCirculating subpopulations of peripheral white cells were not greatly altered during flight as compared to the preflight baselines.  In contrast, the samples taken within 2-3 hours after landing had the relative granulocytosis and lymphopenia as observed after most space flights.  A relative decrease in T-cells, monocytes, B-cells and NK cells was also noted after flight.  These changes were not observed in the in-flight sample taken during the last flight day, suggesting the changes are an acute response to reentry and readaptation to unit gravity.\r\n<P>\r\nIn vitro activation of lymphocytes isolated from crewmembers during flight or immediately after flight was not significantly different from the control periods as determined by the expression of early activation markers.  Expression of CD 69 protein or IL-2 receptor (CD 25) 24 hours after mitogen activation was not altered relative to preflight control samples.  All crewmembers exhibited good NK cell function on landing day, however variable decreases in cytotoxicity were noted 9 days after landing.  The reasons for this effect are currently unclear, though it is consistent with previous observations during long durations space flight on Mir. \r\n<END>",
+  "__doi": "10.83263/rae2-rb97",
+  "__doi_record_creation_date": "2026-08-23T03:53:42",
+  "__doi_record_modified_date": "2026-08-23T03:53:42"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000676",
+   "label": "2.4.4__2630625984",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Data Collection Timetables for Experiment 2.4.4",
+    "dataset_catalog": "2.4.4__2630625984",
+    "dataset_description": [
+     "This spreadsheet represents the data collection timetables for this experiment. Information included in this spreadsheet may include information about the test protocol, data collection constraints, parameters measured, hardware used, scheduled versus actual days of data collection, and subject information."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "2.4.4"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "18da0d2b-43a0-536b-ac53-ae78480f6f57",
+     "label": "244__2630625984.xls_Mir_18_2.4.4_2013_263_060926.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002421",
+   "label": "2.4.4__2630958952",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Final Report for Experiment 2.4.4",
+    "dataset_catalog": "2.4.4__2630958952",
+    "dataset_description": [
+     "This is the final report for this experiment. Sams CF, Konstantinova I, Meehan RT. Phenotypic and functional analysis of peripheral mononuclear  cells during long duration space flight (STS-71 final research report). In: Shuttle-Mir Science Program Phase 1A Research Postflight Science Report.  Houston, TX.  Lyndon B. Johnson Space Center;  1998:1-55 - 1-60. <p>\r\nData contained in the report:<BR>\r\nPercentage of Lymphocytes on Mir 18: This graph represents the relative percentage of lymphocytes in circulating peripheral mononuclear cell populations collected from Mir 18 crewmembers.  Data are expressed as a percentage of total leukocytes; each individual data bar represents an average three subjects.  Samples were collected 150 and 35 days before launch, on flight day 11 of STS-71, on landing day, and nine days after recovery. \r\n<P>\r\nPercent of Granulocytes on Mir 18: This graph represents the percentage of granulocytes in circulating peripheral mononuclear cell populations collected from Mir 18 crewmembers.  Data are expressed as a percentage of the total leukocyte count; each data bar represents and average of three subjects.  Samples were collected 150 and 35 days before launch, on flight day 11 of STS-71, on landing day, and nine days after recovery. \r\n\r\n<P>Percent of Monocytes on Mir 18: This graph represents the percentage of monocytes in circulating peripheral mononuclear cell populations.  Data are expressed as the percentage of total leukocytes; each data bar represents an average of three subjects.  Samples were collected 150 days and 35 days before launch, on flight day 11 of STS-71, on landing day, and nine days after recovery.\u000b\r\n<P>\r\nPercent of Natural Killer Cells on Mir 18: This graph represents the percentage of natural killer cells in circulating peripheral mononuclear cell populations.  Cells were identified as CD16/56 positive CD3 negative cells by flow cytometry.  Data are expressed as the gated cell percentage of total lymphocytes.  Samples were collected 150 and 35 days before launch, on flight day 11 of STS-71, on landing day, and nine days after recovery. \r\n<P>\r\nT-Cell Activation Response on Mir 18: This graph represents the T-cell activation response following 24 hour incubation with a lectin mitogen.  Percentage of  CD3+ cells (T-cells) expressing interleukin-2 receptors (CD25) was determined by flow cytometry.  T-cell activation was carried out on cells isolated from blood samples collected on L-35 (35 days before launch of Mir 18), FD11 (Flight Day 11), R+0 (Landing Day of STS-71), and R+9.<P>  \r\nT-Cell Activation Response on Mir 18: This graph represents the T-cell activation response following 24 hour incubation with a lectin mitogen.  Percentage of CD3+ cells (T-cells) expressing CD69 markers was determined by flow cytometry.  T-cell activation was carried out on cells isolated from blood samples collected on L-35 (35 days before launch of Mir 18), FD11 (Flight Day 11), R+0 (Landing Day of STS-71), and R+9. <P>"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "2.4.4"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "b911c0ad-ff89-5400-81ca-81763d428a22",
+     "label": "244__2630958952.pdf_Mir_18_2.4.4_2013_263_120908.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

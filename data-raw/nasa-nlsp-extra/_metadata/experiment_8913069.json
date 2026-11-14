@@ -1,0 +1,164 @@
+{
+ "record": {
+  "id": "12a2d8d3-0892-55fa-b34b-542114a290f0",
+  "_id": "12a2d8d3-0892-55fa-b34b-542114a290f0",
+  "experiment_title": "Effects of Microgravity on Aurelia Ephyra Behavior and Development",
+  "pub_document_number": "ARCPUB000852",
+  "parameter_html": "<table><tr><td>Behavior, Swimming, aurelia ephyrae, Microscopy, videotape</td></tr><tr><td>Count, Buds, aurelia polyps, Microscopy</td></tr><tr><td>Count, Ephyrae, jellyfish, Microscopy</td></tr><tr><td>Count, Rhopalia, jellyfish, Microscopy</td></tr><tr><td>Count, Statolith, jellyfish, Microscopy</td></tr><tr><td>Count, Tentacle, jellyfish, Microscopy</td></tr><tr><td>Pulses per minute</td></tr><tr><td>Statolith per rhopalia</td></tr><tr></tr></table>",
+  "__source_key": "cl62au0oocau101o6g4c5cutp",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Spangenberg, Dorothy\">Principal Investigator: Spangenberg, Dorothy</a>",
+  "keyword": [
+   "Microscopy",
+   "Swimming"
+  ],
+  "keyword_name": "Swimming",
+  "__record_version": 29,
+  "experiment_description": "OBJECTIVES:<br>\r\nAurelia polyps and ephyrae were exposed to microgravity and in flight centrifugation during the IML-2 mission. The objective of this experiment was to study the effects of microgravity on the development of ephyrae from polyps, the development of the graviceptors (rhopalia) of ephyrae, the formation or demineralization of statoliths of rhopalia, and the swimming/pulsing behavior of ephyrae.<P>\r\nAPPROACH:<br>\r\nPolyps were induced to strobilate at 28 degrees Celsius, using iodine or thyroxine.  Some ephyrae that formed in space were fixed in space on mission day 8, while others were fixed after flight. Swimming behavior in flight and under in-flight centrifugation was observed through in-flight video.  After landing, light and electron microscope examinations were performed.<P>\r\nRESULTS:<br>\r\nThe number of ephyrae formed per polyp were slightly higher in the groups induced 8 hours after launch (L+8h), as compared to those induced before launch (at L-24h and L-48h). On Earth, iodine is used by jellyfish to synthesize jellyfish-thyroxine (Jf-T4), which is necessary for ephyra production. Since iodine-treated polyps gave rise to ephyrae in space, it appears that jellyfish are able to synthesize Jf-T4 in space.  The two groups of polyps not given the inducer still formed ephyrae in space, presumably due to enhanced Jf-T4 synthesis, utilization, or accumulation.  Morphologically, ephyrae that developed in space were very similar to those that developed on Earth.  Quantitation of arm numbers revealed that there were no significant differences between space- and Earth-developed ephyrae.  Pulsing abnormalities, however, were found in greater numbers (18.3%) than in Earth-developed controls (2.9%).  These abnormalities suggest abnormal development of the graviceptors or the neuromuscular system, or a defect in the integration between systems in these microgravity-sensitive animals.",
+  "indexed": "2026-08-23T04:17:43.990962+00:00",
+  "GUID": "cl62au0oocau101o6g4c5cutp",
+  "__model_type": "lsda_experiment",
+  "__dirid": "12a2d8d3-0892-55fa-b34b-542114a290f0",
+  "__record_size_wo_doccontent": 55272,
+  "experiment_parms_tissue2": "NULL",
+  "experiment_parms_tissue1": "NULL",
+  "__update_method": "Update CDM",
+  "archive_status_index": 3,
+  "experiment_type_lk": [
+   "Shuttle Life Sciences Research (Spacelab)"
+  ],
+  "__record_modified_date": "2026-08-23T04:17:43.990962+00:00",
+  "proposal_source": [
+   "89-13 OSSA IML-2"
+  ],
+  "__indexed": "2026-08-23T04:17:43.990962+00:00",
+  "session_type": "Flight",
+  "__record_creation_date": "2022-07-28T19:49:15.364Z",
+  "__record_size": 55272,
+  "__model_version": 60,
+  "payload_id": "IML-2",
+  "CombinedSpecies": [
+   [
+    "Jellyfish (Aurelia aurita) Moon"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "8913069",
+  "parameter_name": [
+   "Behavior, Swimming, aurelia ephyrae, Microscopy, videotape",
+   "Count, Buds, aurelia polyps, Microscopy",
+   "Count, Ephyrae, jellyfish, Microscopy",
+   "Count, Rhopalia, jellyfish, Microscopy",
+   "Count, Statolith, jellyfish, Microscopy",
+   "Count, Tentacle, jellyfish, Microscopy",
+   "Pulses per minute",
+   "Statolith per rhopalia"
+  ],
+  "exp_index": 667,
+  "research_area": [
+   "Developmental biology"
+  ],
+  "protocol_approach": "Delayed synchronous control",
+  "pme_role_with_name": [
+   "ARC Experiment Support Scientist: Chee, Oliver",
+   "ARC Payload Manager: Maese, Albert",
+   "ARC Payload Scientist: Schaefer, Ronald",
+   "Principal Investigator: Spangenberg, Dorothy"
+  ],
+  "missions": [
+   [
+    [
+     "STS-65"
+    ]
+   ]
+  ],
+  "PI": [
+   "Spangenberg, Dorothy"
+  ],
+  "_file_extension": [],
+  "experiment_identifier": [
+   "8913069"
+  ],
+  "mission_id": [
+   [
+    [
+     "STS-65"
+    ]
+   ]
+  ],
+  "center": [
+   "Ames Research Center"
+  ],
+  "ncindex": [
+   7
+  ],
+  "proposal_date": [],
+  "species": [
+   "Jellyfish"
+  ],
+  "PrincipalInvestigator": [
+   "Spangenberg, Dorothy"
+  ],
+  "LaunchDate": [
+   "07/08/1994"
+  ],
+  "LaunchYear": 1994,
+  "program_name": [
+   "Shuttle Program"
+  ],
+  "archive_status": "No data from this study was submitted to LSDA. Please contact LSDA if you know of available data.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Shuttle Program",
+  "__source_field_concat": "Flight ARCPUB000852 IML-2 cl62au0oocau101o6g4c5cutp Swimming NULL NULL  Delayed synchronous control Effects of Microgravity on Aurelia Ephyra Behavior and Development 8913069 Shuttle Program No data from this study was submitted to LSDA. Please contact LSDA if you know of available data.",
+  "__icon_type": "jellyfish",
+  "__description": "OBJECTIVES:<br>\r\nAurelia polyps and ephyrae were exposed to microgravity and in flight centrifugation during the IML-2 mission. The objective of this experiment was to study the effects of microgravity on the development of ephyrae from polyps, the development of the graviceptors (rhopalia) of ephyrae, the formation or demineralization of statoliths of rhopalia, and the swimming/pulsing behavior of ephyrae.<P>\r\nAPPROACH:<br>\r\nPolyps were induced to strobilate at 28 degrees Celsius, using iodine or thyroxine.  Some ephyrae that formed in space were fixed in space on mission day 8, while others were fixed after flight. Swimming behavior in flight and under in-flight centrifugation was observed through in-flight video.  After landing, light and electron microscope examinations were performed.<P>\r\nRESULTS:<br>\r\nThe number of ephyrae formed per polyp were slightly higher in the groups induced 8 hours after launch (L+8h), as compared to those induced before launch (at L-24h and L-48h). On Earth, iodine is used by jellyfish to synthesize jellyfish-thyroxine (Jf-T4), which is necessary for ephyra production. Since iodine-treated polyps gave rise to ephyrae in space, it appears that jellyfish are able to synthesize Jf-T4 in space.  The two groups of polyps not given the inducer still formed ephyrae in space, presumably due to enhanced Jf-T4 synthesis, utilization, or accumulation.  Morphologically, ephyrae that developed in space were very similar to those that developed on Earth.  Quantitation of arm numbers revealed that there were no significant differences between space- and Earth-developed ephyrae.  Pulsing abnormalities, however, were found in greater numbers (18.3%) than in Earth-developed controls (2.9%).  These abnormalities suggest abnormal development of the graviceptors or the neuromuscular system, or a defect in the integration between systems in these microgravity-sensitive animals.",
+  "__doi": "10.83263/h7fa-4j87",
+  "__doi_record_creation_date": "2026-08-23T04:17:43",
+  "__doi_record_modified_date": "2026-08-23T04:17:43"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001210",
+   "label": "AINV0000000330",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "IML-2 Ambient Temperature Recorder (ATR) data",
+    "dataset_catalog": "AINV0000000330",
+    "dataset_description": [],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "8913069",
+     "8913083 1_3"
+    ]
+   },
+   "meta": "2 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "40ce1751-1025-5e51-85bd-5e207ee75a9f",
+     "label": "IML2_ATR.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "42ba0227-1eea-54ad-9a70-a1e5da8fd5d6",
+     "label": "IML2_ATR.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

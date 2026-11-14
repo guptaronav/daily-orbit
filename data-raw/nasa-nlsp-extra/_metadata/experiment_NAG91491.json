@@ -1,0 +1,170 @@
+{
+ "record": {
+  "id": "9a54b99e-30f2-5476-ae22-a9792a1898b5",
+  "_id": "9a54b99e-30f2-5476-ae22-a9792a1898b5",
+  "experiment_title": "Precise Assessment of Prevalence and Progression Rates of Lens Opacities in Astronauts as a Function of Radiation Exposure during Space Flight and Development of Improved Routine Clinical Assessment of Ocular Lens Status",
+  "archive_status_index": 2,
+  "pub_document_number": "PUB001787",
+  "experiment_alias": [
+   "NASCA",
+   "NAG901491",
+   "NAG9-01491"
+  ],
+  "parameter_html": "<table><tr><td>Age</td></tr><tr><td>Cataract progression</td></tr><tr><td>General health</td></tr><tr><td>Lens opacity</td></tr><tr><td>Nutritional intake</td></tr><tr><td>Radiation dose</td></tr><tr><td>Radiation exposure</td></tr><tr><td>Space radiation lens dose</td></tr><tr><td>Subject demographics</td></tr><tr><td>Total radiation lens dose</td></tr><tr><td>Radiation, galactic cosmic rays (GCR)</td></tr><tr><td>Ocular exposure, solar</td></tr><tr></tr></table>",
+  "__source_key": "cl62b1jb1cdvj01o6gbka8mny",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Chylack, Leo\">Principal Investigator: Chylack, Leo</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Cucinotta, Francis\">Co-Investigator: Cucinotta, Francis</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Peterson, Leif\">Co-Investigator: Peterson, Leif</a>",
+  "experiment_type_lk": [
+   "NASA Ground-Based Investigations",
+   "Supplementary Medical Objectives (SMO)"
+  ],
+  "__record_modified_date": "2026-08-23T04:06:35.419387+00:00",
+  "proposal_source": "Directed Research",
+  "__indexed": "2026-08-23T04:06:35.419387+00:00",
+  "alias": [
+   "NASCA",
+   "NAG901491",
+   "NAG9-01491"
+  ],
+  "__record_creation_date": "2022-07-28T20:09:38.511Z",
+  "keyword": [
+   "Radiation effects",
+   "Cataract",
+   "Radiation dosage",
+   "Radiation",
+   "Clinical medicine",
+   "Pupil",
+   "Eye"
+  ],
+  "keyword_name": "Eye",
+  "__record_size": 116662,
+  "__record_version": 29,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<br>\r\nAstronauts appear to suffer from cataracts more than the general population.  The onset of cataracts tends to happen at a younger age in those who have flown in space, and the tendency to develop cataracts is increased for astronauts who have been exposed to relatively higher doses of radiation throughout their flight careers.  It has also been shown that there is an association between the development of cataracts and exposure to the high linear energy transfer (LET) radiation (including heavy ions and neutrons) that occurs in space, or within a higher orbital plane of Earth's atmosphere. <p>\r\nThe objective of this study was to modify the current medical protocol used to assess the health of the eye's lens, as well as visual function, and then incorporate these modifications into a new periodic routine for vision assessment.   The long term goal of this project was to improve ocular safety for astronauts during space flight.\r\n<p>APPROACH:<br>\r\nIn an effort to more precisely define the magnitude of this risk and the relationship of space radiation to cataract progression, NASA funded this five year study to compare progression of cataract formation/development. The five institutions collaborating on this study were: Harvard University (Brigham and Women\u2019s Hospital), NASA, Baylor College of Medicine, Space Center Eye Associates, and Wyle Laboratories. \r\n<P>The study was designed to measure the effect of deep space radiation on the lens of the eye, and to measure the changes in lens clarity that might develop as a result of exposure to radiation in deep space. \r\n<P>The study measured the status of the lens and visual function in the astronaut population (active and retired) and two control groups: military aviators (active and retired), and people without any military aviation background. The two control groups allowed comparison of cataract risks among space radiation-exposed astronauts and non-astronauts with and without controlling for a military aviator lifestyle. Included in this study are measurements of nutritional intake, ocular exposure to sunlight, and radiation exposure. \r\n<P>\r\nThis investigation was designed to add validated measures of visual function to NASA\u2019s Johnson Space Center\u2019s (JSC's) current protocol, including a measure of visual acuity (logMAR) and cataract severity using a Nidek EAS 1000 Imaging System.  Pupils were be dilated to maximal size using topical medications:  2.5% phenylephrine and 1.0% tropicamide.  Imaging of the anterior and posterior lens and slit imaging of the nucleus were performed.  The modified drop procedure currently used at JSC was evaluated for its performance in achieving maximum pupil dilation.  Reverse dilation drops were used after the images were obtained.\r\n<p>\r\nFrom this digital lens data, a profile of the severity of each type of existing cataract was related to the type and duration of the astronaut's radiation exposure.  These measurements will make it possible to predict the probability of cataract formation in astronauts if the anticipated radiation dose for a particular mission can be determined.\r\n<p>RESULTS: <br>\r\nA review of the evolution of methods of cataract documentation and classification, and a review of the current state-of-the-art digital measurements of early changes in cataract development, were conducted.  A review of protocols used at the JSC for routine clinical assessment of the eye and lens has been conducted.\r\n<P>\r\nParticipants included 171 consenting astronauts who flew at least one mission in space and a comparison group made up of three components: (a) 53 astronauts who had not flown in space, (b) 95 military aircrew personnel, and (c) 99 non-aircrew ground-based comparison subjects. Continuous measures of nuclear, cortical and PSC lens opacities were derived from Nidek EAS 1000 digitized images. Age, demographics, general health, nutritional intake and solar ocular exposure were measured at baseline. Astronauts who flew at least one mission were matched to comparison subjects using propensity scores based on demographic characteristics and medical history stratified by gender and smoking (ever/never). \r\n<P>\r\nThe variability and median of cortical cataracts were significantly higher for exposed astronauts than for non-exposed astronauts and comparison subjects with similar ages (P=0.015). Galactic cosmic space radiation (GCR) may be linked to increased PSC area (P=0.056) and the number of PSC centers (P=0.095). Within the astronaut group, PSC size was greater in subjects with higher space radiation doses (P=0.016). No association was found between space radiation and nuclear cataracts. Cross-sectional data analysis revealed a small deleterious effect of space radiation for cortical cataracts and possibly for PSC cataracts. These results suggest increased cataract risks at smaller radiation doses than have been reported previously.\r\n<P>\r\nBecause of high variability and skewness of opacity measures, nonparametric methods were used to test for association between rates of opacification and space radiation exposure. First, median regression was used to collapse longitudinal data into robust estimates of progression rates (opacity severity compare to time for each eye of each subject). To quantify and test for a radiation effect, median regression with the dependent variable being the maximum of the two slopes (OD and OS) per subject was then used, adjusting for the confounding variables of age, nutritional, and sun-exposure histories. Median regression showed evidence of an association between the rate of cortical progression in the worse eye with radiation dose and age. The estimated median progression rate from space radiation being 0.25 \u00b1 0.13% lens area/Sv/year (P = 0.062).  The investigators found no relationship between radiation exposure and progression of aggregate area of posterior subcapsular cataract or nuclear progression rates. However, longer follow-up may be needed to further understand any impact of space radiation on progression rates for posterior subcapsular cataracts and nuclear cataracts, and to characterize changes to visual acuity.\r\n<p>",
+  "payload_id": "Ground",
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "NAG91491",
+  "indexed": "2026-08-23T04:06:35.419387+00:00",
+  "GUID": "cl62b1jb1cdvj01o6gbka8mny",
+  "parameter_name": [
+   "Age",
+   "Cataract progression",
+   "General health",
+   "Lens opacity",
+   "Nutritional intake",
+   "Radiation dose",
+   "Radiation exposure",
+   "Space radiation lens dose",
+   "Subject demographics",
+   "Total radiation lens dose",
+   "Radiation, galactic cosmic rays (GCR)",
+   "Ocular exposure, solar"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 1031,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Clinical medicine",
+   "Ocular physiological phenomena"
+  ],
+  "pme_role_with_name": [
+   "Co-Investigator: Cucinotta, Francis",
+   "Co-Investigator: Peterson, Leif",
+   "Principal Investigator: Chylack, Leo"
+  ],
+  "missions": [
+   [
+    [
+     "Ground"
+    ]
+   ]
+  ],
+  "__dirid": "9a54b99e-30f2-5476-ae22-a9792a1898b5",
+  "__record_size_wo_doccontent": 116662,
+  "PI": [
+   "Chylack, Leo"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "NAG91491",
+   "NASCA",
+   "NAG901491",
+   "NAG9-01491"
+  ],
+  "mission_id": [
+   [
+    [
+     "Ground"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "proposal_date": [
+   "01/06/2003"
+  ],
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens)"
+   ]
+  ],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Chylack, Leo"
+  ],
+  "program_name": [
+   "Ground"
+  ],
+  "archive_status": "Data preservation is complete. Privacy-protected datasets are available via data request. Remaining datasets are publicly available.",
+  "__is_locked": false,
+  "Program": "Ground",
+  "__source_field_concat": "PUB001787 Directed Research Ground cl62b1jb1cdvj01o6gbka8mny Eye N/A NAG91491 Ground",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<br>\r\nAstronauts appear to suffer from cataracts more than the general population.  The onset of cataracts tends to happen at a younger age in those who have flown in space, and the tendency to develop cataracts is increased for astronauts who have been exposed to relatively higher doses of radiation throughout their flight careers.  It has also been shown that there is an association between the development of cataracts and exposure to the high linear energy transfer (LET) radiation (including heavy ions and neutrons) that occurs in space, or within a higher orbital plane of Earth's atmosphere. <p>\r\nThe objective of this study was to modify the current medical protocol used to assess the health of the eye's lens, as well as visual function, and then incorporate these modifications into a new periodic routine for vision assessment.   The long term goal of this project was to improve ocular safety for astronauts during space flight.\r\n<p>APPROACH:<br>\r\nIn an effort to more precisely define the magnitude of this risk and the relationship of space radiation to cataract progression, NASA funded this five year study to compare progression of cataract formation/development. The five institutions collaborating on this study were: Harvard University (Brigham and Women\u2019s Hospital), NASA, Baylor College of Medicine, Space Center Eye Associates, and Wyle Laboratories. \r\n<P>The study was designed to measure the effect of deep space radiation on the lens of the eye, and to measure the changes in lens clarity that might develop as a result of exposure to radiation in deep space. \r\n<P>The study measured the status of the lens and visual function in the astronaut population (active and retired) and two control groups: military aviators (active and retired), and people without any military aviation background. The two control groups allowed comparison of cataract risks among space radiation-exposed astronauts and non-astronauts with and without controlling for a military aviator lifestyle. Included in this study are measurements of nutritional intake, ocular exposure to sunlight, and radiation exposure. \r\n<P>\r\nThis investigation was designed to add validated measures of visual function to NASA\u2019s Johnson Space Center\u2019s (JSC's) current protocol, including a measure of visual acuity (logMAR) and cataract severity using a Nidek EAS 1000 Imaging System.  Pupils were be dilated to maximal size using topical medications:  2.5% phenylephrine and 1.0% tropicamide.  Imaging of the anterior and posterior lens and slit imaging of the nucleus were performed.  The modified drop procedure currently used at JSC was evaluated for its performance in achieving maximum pupil dilation.  Reverse dilation drops were used after the images were obtained.\r\n<p>\r\nFrom this digital lens data, a profile of the severity of each type of existing cataract was related to the type and duration of the astronaut's radiation exposure.  These measurements will make it possible to predict the probability of cataract formation in astronauts if the anticipated radiation dose for a particular mission can be determined.\r\n<p>RESULTS: <br>\r\nA review of the evolution of methods of cataract documentation and classification, and a review of the current state-of-the-art digital measurements of early changes in cataract development, were conducted.  A review of protocols used at the JSC for routine clinical assessment of the eye and lens has been conducted.\r\n<P>\r\nParticipants included 171 consenting astronauts who flew at least one mission in space and a comparison group made up of three components: (a) 53 astronauts who had not flown in space, (b) 95 military aircrew personnel, and (c) 99 non-aircrew ground-based comparison subjects. Continuous measures of nuclear, cortical and PSC lens opacities were derived from Nidek EAS 1000 digitized images. Age, demographics, general health, nutritional intake and solar ocular exposure were measured at baseline. Astronauts who flew at least one mission were matched to comparison subjects using propensity scores based on demographic characteristics and medical history stratified by gender and smoking (ever/never). \r\n<P>\r\nThe variability and median of cortical cataracts were significantly higher for exposed astronauts than for non-exposed astronauts and comparison subjects with similar ages (P=0.015). Galactic cosmic space radiation (GCR) may be linked to increased PSC area (P=0.056) and the number of PSC centers (P=0.095). Within the astronaut group, PSC size was greater in subjects with higher space radiation doses (P=0.016). No association was found between space radiation and nuclear cataracts. Cross-sectional data analysis revealed a small deleterious effect of space radiation for cortical cataracts and possibly for PSC cataracts. These results suggest increased cataract risks at smaller radiation doses than have been reported previously.\r\n<P>\r\nBecause of high variability and skewness of opacity measures, nonparametric methods were used to test for association between rates of opacification and space radiation exposure. First, median regression was used to collapse longitudinal data into robust estimates of progression rates (opacity severity compare to time for each eye of each subject). To quantify and test for a radiation effect, median regression with the dependent variable being the maximum of the two slopes (OD and OS) per subject was then used, adjusting for the confounding variables of age, nutritional, and sun-exposure histories. Median regression showed evidence of an association between the rate of cortical progression in the worse eye with radiation dose and age. The estimated median progression rate from space radiation being 0.25 \u00b1 0.13% lens area/Sv/year (P = 0.062).  The investigators found no relationship between radiation exposure and progression of aggregate area of posterior subcapsular cataract or nuclear progression rates. However, longer follow-up may be needed to further understand any impact of space radiation on progression rates for posterior subcapsular cataracts and nuclear cataracts, and to characterize changes to visual acuity.\r\n<p>",
+  "__doi": "10.83263/4xkt-5t27",
+  "__doi_record_creation_date": "2026-08-23T04:06:35",
+  "__doi_record_modified_date": "2026-08-23T04:06:35"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000491",
+   "label": "NAG91491__700206283",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Final Report",
+    "dataset_catalog": "NAG91491__700206283",
+    "dataset_description": [
+     "This file contains the final report for the NAG91491 study."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "NAG91491"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "d7f4ebe4-f760-5597-ac0b-ef5d2f40d774",
+     "label": "NAG9_1491_FR.pdf_Ground_NAG91491_2014_70_020359.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

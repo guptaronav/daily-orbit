@@ -1,0 +1,162 @@
+{
+ "record": {
+  "id": "f8e3f755-5caa-522c-b628-7153cfe446f5",
+  "_id": "f8e3f755-5caa-522c-b628-7153cfe446f5",
+  "experiment_title": "Studies of Mechanisms Underlying Orthostatic Intolerance using Ambulatory Monitoring, Baroreflex Testing, and the Valsalva Maneuver",
+  "archive_status_index": 2,
+  "pub_document_number": "PUB001574",
+  "parameter_html": "<table><tr><td>Blood pressure</td></tr><tr><td>Catecholamines</td></tr><tr><td>Neck pressure</td></tr><tr><td>Renin, plasma</td></tr><tr><td>Respiration</td></tr><tr><td>Valsalva pressure</td></tr><tr><td>Electrocardiogram (ECG)</td></tr><tr></tr></table>",
+  "__source_key": "cl62atwvacann01o6gdpb2xvz",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Mikhaylov, Valeriy\">Principal Investigator: Mikhaylov, Valeriy</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Meck, Janice\">Principal Investigator: Meck, Janice</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Bondar, Roberta\">Co-Investigator: Bondar, Roberta</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Brown, Troy\">Co-Investigator: Brown, Troy</a>",
+  "experiment_type_lk": [
+   "NASA-Mir Program"
+  ],
+  "__record_modified_date": "2026-08-23T04:17:09.451205+00:00",
+  "proposal_source": [
+   "N/A"
+  ],
+  "__indexed": "2026-08-23T04:17:09.451205+00:00",
+  "__record_creation_date": "2022-07-28T19:49:27.769Z",
+  "keyword": [
+   "Orthostatic intolerance",
+   "Baroreflex",
+   "Valsalva's maneuver",
+   "Arterial pressure",
+   "Blood pressure",
+   "Heart rate",
+   "Cardiovascular"
+  ],
+  "keyword_name": "Cardiovascular",
+  "__record_size": 116200,
+  "__record_version": 29,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<br>\r\nOver the last three decades, symptoms of altered cardiovascular function ranging from orthostatic tachycardia on landing day to serious cardiac rhythm disturbances have been associated with short duration space flight.\u00a0 However, there is a lack of understanding about the effects of long duration space flight on cardiovascular function.</p>\r\n<p>It was hypothesized that: (1) after flight, autonomic responses to changes in arterial pressure (supine and standing) will be compromised; (2) carotid baroreceptor-cardiac reflex (baroreflex) function will decrease steadily during the first four weeks of flight and then remain stable; this decrease in function will relate to postflight orthostatic intolerance; (3) blood pressure (BP), heart rate (HR), and their variabilities will be decreased throughout the flight, and the reduced variabilities will relate to reductions in carotid baroreflex function and postflight orthostatic intolerance; (4) changes in heart rate and arterial responses during Valsalva maneuvers will reflect inflight loss of autonomic function.</p>\r\n<p>The primary objective of this experiment was to assess cardiovascular function before, at regular intervals during, and after long duration space flight by performing a standard battery of tests. The second objective was to characterize the integrated responses of arterial pressure reflex control systems to standing before and after long duration space flight. The third objective was to relate inflight changes in the integrated responses of arterial pressure reflex control systems before and after long duration space flight. The last objective of this experiment was to determine the importance of changes in blood volume to postflight decrements in orthostatic tolerance.\r\n<p>\r\nAPPROACH:<br>\r\nThere were four functional objectives in this experiment: 24 hour ECG and Blood Pressure Monitoring, Carotid Baroreflex, Valsalva Maneuver, and Stand Test. For the 24-hour period prior to carotid baroreflex measurements, HR, BP, and cardiac rhythm disturbances were recorded during normal routines in the ground and in flight. Holter monitors recorded the electrocardiogram continuously and blood pressure monitors recorded auscultative BP automatically every 20 minutes while awake and every 30 minutes while asleep. After the flight, a Holter analysis system automatically generated reports, which included average heart rate and incidence of atrial and ventricular dysrhythmias. All reports were verified by at least one board certified cardiologist. Blood pressure results were also verified. For the carotid baroreflex, carotid barorecptors were stimulated with a stereotyped series of pressure changes applied to a neck chamber. Pressure was raised initially to about +40 mmHg, reduced to about -60 mmHg, and then raised back to +40 mmHg in 20 mmHg, R-wave triggered steps. R-R interval responses were plotted as functions of carotid distending pressure. Baroreflex responses were reduced to the following set of parameters for analysis: range of R-R interval responses, maximum slope of the stimulus-response relation, and operational point. The operational point is a measure of the amount of buffering capacity below baseline systolic pressure. The crewmembers performed two 15 second Valsalva maneuvers at 30 mmHg expired pressure after the baroreflex measurements were completed. Two minutes separated each Valsalva maneuver.\u00a0 Before, during, and after each stimulus, the electrocardiogram, beat-to-beat finger blood pressure, and Valsalva straining pressure were recorded. Controlled frequency breathing was performed before and after each Valsalva maneuver. Valsalva responses were divided into four phases for analysis:\r\n<p>\r\n<li>Phase I, the initial blood pressure and R-R interval rise immediately after the onset of straining</li>\r\n<li>Phase II, the early blood pressure and R-R interval fall and partial recovery during straining</li>\r\n<li>Phase III, the sudden and brief blood pressure and R-R interval reduction immediately after the release of straining</li>\r\n<li>Phase IV, the blood pressure and R-R interval overshoot of recovery.\r\n<p>Stand tests were performed preflight and postflight after Valsalva maneuvers were completed. For stand tests, crewmembers were instrumented for electrocardiogram, manual blood pressure, beat-to-beat finger blood pressure, and transcranial Doppler. An intravenous catheter was inserted into an antecubital vein. Following a 20-minute supine rest period, plasma volume was determined using carbon monoxide rebreathing. A blood sample was drawn for plasma norepinephrine and plasma epinephrine levels. Then, 2-D and M-mode echocardiography were used to determine aortic cross-sectional diameter and aortic flow was measured with continuous-wave Doppler ultrasound. Middle cerebral artery flow was measured with transcranial Doppler ultrasound. Measurements continued while subjects remained supine for six additional minutes. Crewmembers were then assisted to a standing position by three investigators. The finger with the continuous arterial pressure device was held at heart level by a system of Velcro straps. Crewmembers then remained standing without support for 10 minutes. A final blood sample was drawn at the end of the standing period. All data were recorded on digital tape and on paper.</p>\r\n<p>\r\nRESULTS:<br>\r\nA number of preflight, inflight, and postflight anomalies occurred during the experiment. Data were lost due to equipment failure, subject compliance, and crew support personnel interference. Due to these various anomalies, some data collections were compromised.  Nonetheless, this experiment has yielded important information about cardiac function during long duration space flight.  \r\n<P>\r\nFindings from this investigation are very similar to those reported from short duration space flight investigations and indicate that most autonomic cardiovascular adaptations occur within the first days of space flight, possibly the result of decreased sympathoexcitation.  These changes persist for at least four months in flight.  However, the occurrence of a significant event of ventricular tachycardia during the mid-portion of the flight does not preclude the possiblity that long duration space flight increases the likelihood of malignant dysrhythmias.    <end>",
+  "payload_id": "Mir 18",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "Russian Space Agency (RSA)",
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "3.1.2",
+  "indexed": "2026-08-23T04:17:09.451205+00:00",
+  "GUID": "cl62atwvacann01o6gdpb2xvz",
+  "parameter_name": [
+   "Blood pressure",
+   "Catecholamines",
+   "Neck pressure",
+   "Renin, plasma",
+   "Respiration",
+   "Valsalva pressure",
+   "Electrocardiogram (ECG)"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 345,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Cardiovascular physiology",
+   "Pulmonary physiology"
+  ],
+  "pme_role_with_name": [
+   "Co-Investigator: Bondar, Roberta",
+   "Co-Investigator: Brown, Troy",
+   "Principal Investigator: Meck, Janice",
+   "Principal Investigator: Mikhaylov, Valeriy"
+  ],
+  "missions": [
+   [
+    [
+     "Mir 18"
+    ]
+   ],
+   [
+    [
+     "STS-71"
+    ]
+   ]
+  ],
+  "__dirid": "f8e3f755-5caa-522c-b628-7153cfe446f5",
+  "__record_size_wo_doccontent": 116200,
+  "PI": [
+   "Meck, Janice",
+   "Mikhaylov, Valeriy"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "3.1.2"
+  ],
+  "mission_id": [
+   [
+    [
+     "Mir 18"
+    ]
+   ],
+   [
+    [
+     "STS-71"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Meck, Janice",
+   "Mikhaylov, Valeriy"
+  ],
+  "archive_status": "Data preservation is complete. Privacy-protected datasets are available via data request. Remaining datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Nasa-Mir",
+  "__source_field_concat": "PUB001574 Mir 18 cl62atwvacann01o6gdpb2xvz Cardiovascular  N/A 3.1.2 Nasa-Mir",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<br>\r\nOver the last three decades, symptoms of altered cardiovascular function ranging from orthostatic tachycardia on landing day to serious cardiac rhythm disturbances have been associated with short duration space flight.\u00a0 However, there is a lack of understanding about the effects of long duration space flight on cardiovascular function.</p>\r\n<p>It was hypothesized that: (1) after flight, autonomic responses to changes in arterial pressure (supine and standing) will be compromised; (2) carotid baroreceptor-cardiac reflex (baroreflex) function will decrease steadily during the first four weeks of flight and then remain stable; this decrease in function will relate to postflight orthostatic intolerance; (3) blood pressure (BP), heart rate (HR), and their variabilities will be decreased throughout the flight, and the reduced variabilities will relate to reductions in carotid baroreflex function and postflight orthostatic intolerance; (4) changes in heart rate and arterial responses during Valsalva maneuvers will reflect inflight loss of autonomic function.</p>\r\n<p>The primary objective of this experiment was to assess cardiovascular function before, at regular intervals during, and after long duration space flight by performing a standard battery of tests. The second objective was to characterize the integrated responses of arterial pressure reflex control systems to standing before and after long duration space flight. The third objective was to relate inflight changes in the integrated responses of arterial pressure reflex control systems before and after long duration space flight. The last objective of this experiment was to determine the importance of changes in blood volume to postflight decrements in orthostatic tolerance.\r\n<p>\r\nAPPROACH:<br>\r\nThere were four functional objectives in this experiment: 24 hour ECG and Blood Pressure Monitoring, Carotid Baroreflex, Valsalva Maneuver, and Stand Test. For the 24-hour period prior to carotid baroreflex measurements, HR, BP, and cardiac rhythm disturbances were recorded during normal routines in the ground and in flight. Holter monitors recorded the electrocardiogram continuously and blood pressure monitors recorded auscultative BP automatically every 20 minutes while awake and every 30 minutes while asleep. After the flight, a Holter analysis system automatically generated reports, which included average heart rate and incidence of atrial and ventricular dysrhythmias. All reports were verified by at least one board certified cardiologist. Blood pressure results were also verified. For the carotid baroreflex, carotid barorecptors were stimulated with a stereotyped series of pressure changes applied to a neck chamber. Pressure was raised initially to about +40 mmHg, reduced to about -60 mmHg, and then raised back to +40 mmHg in 20 mmHg, R-wave triggered steps. R-R interval responses were plotted as functions of carotid distending pressure. Baroreflex responses were reduced to the following set of parameters for analysis: range of R-R interval responses, maximum slope of the stimulus-response relation, and operational point. The operational point is a measure of the amount of buffering capacity below baseline systolic pressure. The crewmembers performed two 15 second Valsalva maneuvers at 30 mmHg expired pressure after the baroreflex measurements were completed. Two minutes separated each Valsalva maneuver.\u00a0 Before, during, and after each stimulus, the electrocardiogram, beat-to-beat finger blood pressure, and Valsalva straining pressure were recorded. Controlled frequency breathing was performed before and after each Valsalva maneuver. Valsalva responses were divided into four phases for analysis:\r\n<p>\r\n<li>Phase I, the initial blood pressure and R-R interval rise immediately after the onset of straining</li>\r\n<li>Phase II, the early blood pressure and R-R interval fall and partial recovery during straining</li>\r\n<li>Phase III, the sudden and brief blood pressure and R-R interval reduction immediately after the release of straining</li>\r\n<li>Phase IV, the blood pressure and R-R interval overshoot of recovery.\r\n<p>Stand tests were performed preflight and postflight after Valsalva maneuvers were completed. For stand tests, crewmembers were instrumented for electrocardiogram, manual blood pressure, beat-to-beat finger blood pressure, and transcranial Doppler. An intravenous catheter was inserted into an antecubital vein. Following a 20-minute supine rest period, plasma volume was determined using carbon monoxide rebreathing. A blood sample was drawn for plasma norepinephrine and plasma epinephrine levels. Then, 2-D and M-mode echocardiography were used to determine aortic cross-sectional diameter and aortic flow was measured with continuous-wave Doppler ultrasound. Middle cerebral artery flow was measured with transcranial Doppler ultrasound. Measurements continued while subjects remained supine for six additional minutes. Crewmembers were then assisted to a standing position by three investigators. The finger with the continuous arterial pressure device was held at heart level by a system of Velcro straps. Crewmembers then remained standing without support for 10 minutes. A final blood sample was drawn at the end of the standing period. All data were recorded on digital tape and on paper.</p>\r\n<p>\r\nRESULTS:<br>\r\nA number of preflight, inflight, and postflight anomalies occurred during the experiment. Data were lost due to equipment failure, subject compliance, and crew support personnel interference. Due to these various anomalies, some data collections were compromised.  Nonetheless, this experiment has yielded important information about cardiac function during long duration space flight.  \r\n<P>\r\nFindings from this investigation are very similar to those reported from short duration space flight investigations and indicate that most autonomic cardiovascular adaptations occur within the first days of space flight, possibly the result of decreased sympathoexcitation.  These changes persist for at least four months in flight.  However, the occurrence of a significant event of ventricular tachycardia during the mid-portion of the flight does not preclude the possiblity that long duration space flight increases the likelihood of malignant dysrhythmias.    <end>",
+  "__doi": "10.83263/y1ag-4x65",
+  "__doi_record_creation_date": "2026-08-23T04:17:09",
+  "__doi_record_modified_date": "2026-08-23T04:17:09"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001947",
+   "label": "3.1.2__131141164",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Data Collection Timetables for Experiment 3.1.2",
+    "dataset_catalog": "3.1.2__131141164",
+    "dataset_description": [
+     "This spreadsheet represents the data collection timetables for data collection session(s) for this experiment. Information included in this spreadsheet may include information on the test protocol, data collection constraints, parameters measured, hardware used, scheduled versus actual days of data collection, and subject information."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "3.1.2"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "53a54e6f-19af-5696-ae23-cdf129fbe2c2",
+     "label": "312__131141164.xlsx_Mir_18_3.1.2_2011_13_110118.xlsx",
+     "type": "file",
+     "ext": "xlsx",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

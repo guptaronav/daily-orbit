@@ -1,0 +1,162 @@
+{
+ "record": {
+  "id": "4b0bbf22-c9d7-51fa-9262-7328f3ad70df",
+  "_id": "4b0bbf22-c9d7-51fa-9262-7328f3ad70df",
+  "__is_locked": false,
+  "experiment_title": "Bed Rest Standard Measures:  Urea Breath Test",
+  "__source_key": "cl62azxy3cdi501o6dykk056j",
+  "experiment_type": [
+   [
+    "Flight Analogs Project (FAP)"
+   ],
+   [
+    "NASA Bedrest Studies"
+   ],
+   [
+    "NASA Ground-Based Investigations"
+   ]
+  ],
+  "AssignedArchivist": [
+   "None Selected",
+   "[\"Nyaia Arzella NaTerrica Liddell\",\"Nyaia Arzella Liddell\"]"
+  ],
+  "keyword": [
+   "Gastrointestinal system",
+   "Nutrition",
+   "Pharmacokinetics",
+   "Urea"
+  ],
+  "__record_version": 31,
+  "indexed": "2026-08-23T04:18:51.423324+00:00",
+  "GUID": "cl62azxy3cdi501o6dykk056j",
+  "_file_extension": "human",
+  "archive_status": "Data preservation is complete.  All datasets are publicly available.",
+  "__model_type": "lsda_experiment",
+  "__dirid": "4b0bbf22-c9d7-51fa-9262-7328f3ad70df",
+  "__record_size_wo_doccontent": 27118,
+  "__update_method": "Update CDM",
+  "experiment_identifier": [
+   "BRSMUBT"
+  ],
+  "CompleteArchivalExpectedInFiscalYear": [
+   "0"
+  ],
+  "experiment_type_lk": [
+   "Flight Analogs Project (FAP)",
+   "NASA Bedrest Studies",
+   "NASA Ground-Based Investigations"
+  ],
+  "__record_modified_date": "2026-08-23T04:18:51.423324+00:00",
+  "__indexed": "2026-08-23T04:18:51.423324+00:00",
+  "__record_creation_date": "2022-07-28T19:56:20.717Z",
+  "__record_size": 27118,
+  "species_strain": [
+   [
+    "N/A"
+   ]
+  ],
+  "__model_version": 60,
+  "species_sci_name": [
+   [
+    "Homo sapiens"
+   ]
+  ],
+  "payload_id": [
+   "Campaign 3",
+   "Campaign 1"
+  ],
+  "CombinedSpecies": [
+   "Human (Homo sapiens) N/A"
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "ncindex": 2,
+  "researchIndex": [
+   20,
+   10
+  ],
+  "experiment_id": "BRSMUBT",
+  "experiment_related": [
+   "BRSMLac",
+   "BRSMGBT",
+   "BRSMAcet"
+  ],
+  "parameter_name": [
+   "Hepatic function",
+   "Nutrient absorption",
+   "Nutrient balance",
+   "Renal function"
+  ],
+  "exp_index": 1278,
+  "research_area": [
+   "Pharmacology",
+   "Gastrointestinal physiology"
+  ],
+  "species": [
+   [
+    "Human"
+   ]
+  ],
+  "pme_role_with_name": [
+   "Principal Investigator: Putcha, Lakshmi"
+  ],
+  "missions": [
+   "UTMB Campaign 3",
+   "UTMB Campaign 1"
+  ],
+  "PI": [
+   "Putcha, Lakshmi"
+  ],
+  "sort": [
+   3,
+   "ca86aa30-bf14-5a84-9e69-731541843e25"
+  ],
+  "Program": "Ground",
+  "parameter_html": "<table><tr><td>Hepatic function</td></tr><tr><td>Nutrient absorption</td></tr><tr><td>Nutrient balance</td></tr><tr><td>Renal function</td></tr><tr></tr></table>",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Putcha, Lakshmi\">Principal Investigator: Putcha, Lakshmi</a>",
+  "PrincipalInvestigator": [
+   "Putcha, Lakshmi"
+  ],
+  "mission_id": [
+   "UTMB Campaign 3",
+   "UTMB Campaign 1"
+  ],
+  "__source_field_concat": "human cl62azxy3cdi501o6dykk056j Bed Rest Standard Measures:  Urea Breath Test BRSMUBT Ground Data preservation is complete.  All datasets are publicly available.",
+  "__icon_type": "",
+  "__description": "",
+  "__doi": "10.83263/2427-0p13",
+  "__doi_record_creation_date": "2026-08-23T04:18:51",
+  "__doi_record_modified_date": "2026-08-23T04:18:51"
+ },
+ "datasets": [
+  {
+   "key": "57dad0cd-c63a-5bb4-af48-f2e18296b17e",
+   "label": "BRSMUBT_Campaign_1_Urea_Breath",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "UTMB Bedrest Campaign 1 BRSM Query Results",
+    "dataset_catalog": "BRSMUBT_Campaign_1_Urea_Breath",
+    "dataset_description": "This dataset contains data for all Campaign 1 subjects for the Bed Rest Standard Measure Urea Breath Test (BRSMGBT) study. Data collection sessions for this measure were performed once pre-bed rest, three times during bed rest, and one time post bed rest. Breath samples were taken during the data collection sessions to determine positive and negative H. pylori overgrowth.",
+    "processing_level": "Processed Data",
+    "experiment_id": [
+     "BRSMUBT"
+    ]
+   },
+   "meta": "1 file \u00b7 769 B",
+   "date": "2025-04-15",
+   "children": [
+    {
+     "key": "6e69b1b4-41af-56dd-b25e-d79557d3f7fb",
+     "label": "BRSMUBT_Campaign_1_BRSM_Query_Result_Urea_Breath",
+     "type": "file",
+     "ext": "",
+     "file_size": 769,
+     "meta": "769 B",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

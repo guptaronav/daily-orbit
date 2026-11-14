@@ -1,0 +1,378 @@
+{
+ "record": {
+  "id": "d9d40faf-088d-5df5-ba60-53cc1b322a66",
+  "_id": "d9d40faf-088d-5df5-ba60-53cc1b322a66",
+  "experiment_title": "In-flight Use of Florinef to Improve Orthostatic Intolerance Postflight",
+  "archive_status_index": 2,
+  "pub_document_number": "PUB001609",
+  "parameter_html": "<table><tr><td>Body weight</td></tr><tr><td>Cardiac output</td></tr><tr><td>Catecholamines</td></tr><tr><td>Diastolic blood pressure</td></tr><tr><td>Epinephrine, plasma</td></tr><tr><td>Fludrocortisone</td></tr><tr><td>Heart rate</td></tr><tr><td>Norepinephrine, plasma</td></tr><tr><td>Plasma volume</td></tr><tr><td>Red blood cell volume</td></tr><tr><td>Stroke volume</td></tr><tr><td>Systolic blood pressure</td></tr><tr><td>Total peripheral resistance</td></tr><tr><td>Orthostatic hypotension</td></tr><tr><td>Blood volume</td></tr><tr></tr></table>",
+  "__source_key": "cl62azye7cdi901o6an9m1seo",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Meck, Janice\">Principal Investigator: Meck, Janice</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Charles, John\">Co-Investigator: Charles, John</a>",
+  "experiment_type_lk": [
+   "Shuttle Detailed Supplementary Objectives (DSO)",
+   "Shuttle Extended Duration Orbiter Medical Project (EDOMP)"
+  ],
+  "__record_modified_date": "2026-08-23T04:16:28.614858+00:00",
+  "__indexed": "2026-08-23T04:16:28.614858+00:00",
+  "__record_creation_date": "2022-07-28T19:56:00.892Z",
+  "keyword": [
+   "Heart rate",
+   "Fludrocortisone",
+   "Blood pressure",
+   "Plasma volume",
+   "Hypotension, orthostatic",
+   "Catecholamines"
+  ],
+  "keyword_name": "Catecholamines",
+  "__record_size": 73815,
+  "__record_version": 29,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<br>\r\nHypovolemia may be one cause of the orthostatic intolerance that is common after space flight. Space flight is known to cause a shift in fluid away from the lower body and a decrease in body fluid.  These effects are also produced by head-down tilt bed rest. Fludrocortisone (Florinef) is a drug that increases plasma volume by causing the kidneys to retain sodium. It has shown some ability to restore plasma volume and orthostatic tolerance after bed rest. However, the absorption of a drug may be altered in microgravity, and a dosage regimen that is effective on the ground may not be effective in space. The objective of this study was to test the use of fludrocortisone during space flight to expand plasma volume and improve postflight orthostatic tolerance, comparing three dosage regimens.\r\n<p>\r\nAPPROACH:<br>\r\nThere were 25 male astronauts who were randomized into 2 groups: placebo (n = 18) and fludrocortisone (n = 7), and participated in stand tests 10 days before launch and 2-4 hours after landing. Three regimens of fludrocortisone were used: (1) 0.2 mg twice daily (B.I.D.) for the last 5 days of flight,(2) 0.1 mg twice a day for the last 5 days of flight, or (3) a single dose of 0.3 mg taken 7 hours before landing. Supine blood volume, supine and standing heart rate and arterial pressure, as well as plasma catecholamines were measured before and after flight. \r\n<p>\r\nRESULTS:<br>\r\nOnly limited conclusions could be made because participation in the protocols was incomplete, and were also limited by subjective evaluation of the medication. The first two protocols (five-day regimens) were not well-tolerated by the crew, being found to cause unacceptable side effects such as congestion, head fullness, and headache. The third regimen (single-dose) did not restore plasma volume and did not seem to improve orthostatic tolerance on landing day. \r\n<P>\r\nNone of the protocols restored blood volume. The percent change in plasma and red blood cell volumes\r\nfrom preflight to postflight was not significantly different in the fludrocortisone vs. non-fludrocortisone group. Fludrocortisone subjects did not have greater orthostatic tolerance than control subjects on landing day.\r\n<P>\r\nOn landing day, 2 of 18 in the placebo group and 1 of 7 in the fludrocortisone group became presyncopal (chi2 = 0.015, p = 0.90). Plasma volumes were significantly decreased after flight in the placebo group, but not in the fludrocortisone group. During postflight stand tests, standing plasma norepinephrine was significantly less in the fludrocortisone group compared with the placebo group.\r\n<P>\r\nThe conclusion therefore, was that treatment with a single dose of fludrocortisone results in protection of plasma volume but no protection of orthostatic tolerance. Fludrocortisone was, therefore, not recommended as a countermeasure for spaceflight-induced orthostatic intolerance.",
+  "payload_id": "DSO55",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "DSO 621",
+  "indexed": "2026-08-23T04:16:28.614858+00:00",
+  "experiment_related": [
+   "DSO 626",
+   "DSO 625"
+  ],
+  "GUID": "cl62azye7cdi901o6an9m1seo",
+  "parameter_name": [
+   "Body weight",
+   "Cardiac output",
+   "Catecholamines",
+   "Diastolic blood pressure",
+   "Epinephrine, plasma",
+   "Fludrocortisone",
+   "Heart rate",
+   "Norepinephrine, plasma",
+   "Plasma volume",
+   "Red blood cell volume",
+   "Stroke volume",
+   "Systolic blood pressure",
+   "Total peripheral resistance",
+   "Orthostatic hypotension",
+   "Blood volume"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 1255,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Renal, fluid and electrolyte physiology",
+   "Cardiovascular physiology"
+  ],
+  "pme_role_with_name": [
+   "Co-Investigator: Charles, John",
+   "Principal Investigator: Meck, Janice",
+   "Technical Assistant to Principal Investigator: Benavides, Edgar",
+   "Technical Assistant to Principal Investigator: Fortner, G.",
+   "Technical Assistant to Principal Investigator: Martin, David",
+   "Technical Assistant to Principal Investigator: Robinson, Sally",
+   "Technical Assistant to Principal Investigator: South, Donna"
+  ],
+  "missions": [
+   [
+    [
+     "STS-55"
+    ]
+   ],
+   [
+    [
+     "STS-52"
+    ]
+   ],
+   [
+    [
+     "STS-56"
+    ]
+   ],
+   [
+    [
+     "STS-49"
+    ]
+   ],
+   [
+    [
+     "STS-50"
+    ]
+   ],
+   [
+    [
+     "STS-45"
+    ]
+   ],
+   [
+    [
+     "STS-64"
+    ]
+   ],
+   [
+    [
+     "STS-66"
+    ]
+   ],
+   [
+    [
+     "STS-67"
+    ]
+   ],
+   [
+    [
+     "STS-68"
+    ]
+   ],
+   [
+    [
+     "STS-70"
+    ]
+   ],
+   [
+    [
+     "STS-73"
+    ]
+   ],
+   [
+    [
+     "STS-74"
+    ]
+   ]
+  ],
+  "__dirid": "d9d40faf-088d-5df5-ba60-53cc1b322a66",
+  "__record_size_wo_doccontent": 73815,
+  "PI": [
+   "Meck, Janice"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "DSO 621"
+  ],
+  "mission_id": [
+   [
+    [
+     "STS-55"
+    ]
+   ],
+   [
+    [
+     "STS-52"
+    ]
+   ],
+   [
+    [
+     "STS-56"
+    ]
+   ],
+   [
+    [
+     "STS-49"
+    ]
+   ],
+   [
+    [
+     "STS-50"
+    ]
+   ],
+   [
+    [
+     "STS-45"
+    ]
+   ],
+   [
+    [
+     "STS-64"
+    ]
+   ],
+   [
+    [
+     "STS-66"
+    ]
+   ],
+   [
+    [
+     "STS-67"
+    ]
+   ],
+   [
+    [
+     "STS-68"
+    ]
+   ],
+   [
+    [
+     "STS-70"
+    ]
+   ],
+   [
+    [
+     "STS-73"
+    ]
+   ],
+   [
+    [
+     "STS-74"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "proposal_date": [],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Meck, Janice"
+  ],
+  "archive_status": "Data preservation is complete. Privacy-protected datasets are available via data request. Remaining datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Shuttle Program",
+  "__source_field_concat": "PUB001609 DSO55 cl62azye7cdi901o6an9m1seo Catecholamines  N/A In-flight Use of Florinef to Improve Orthostatic Intolerance Postflight DSO 621 Shuttle Program",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<br>\r\nHypovolemia may be one cause of the orthostatic intolerance that is common after space flight. Space flight is known to cause a shift in fluid away from the lower body and a decrease in body fluid.  These effects are also produced by head-down tilt bed rest. Fludrocortisone (Florinef) is a drug that increases plasma volume by causing the kidneys to retain sodium. It has shown some ability to restore plasma volume and orthostatic tolerance after bed rest. However, the absorption of a drug may be altered in microgravity, and a dosage regimen that is effective on the ground may not be effective in space. The objective of this study was to test the use of fludrocortisone during space flight to expand plasma volume and improve postflight orthostatic tolerance, comparing three dosage regimens.\r\n<p>\r\nAPPROACH:<br>\r\nThere were 25 male astronauts who were randomized into 2 groups: placebo (n = 18) and fludrocortisone (n = 7), and participated in stand tests 10 days before launch and 2-4 hours after landing. Three regimens of fludrocortisone were used: (1) 0.2 mg twice daily (B.I.D.) for the last 5 days of flight,(2) 0.1 mg twice a day for the last 5 days of flight, or (3) a single dose of 0.3 mg taken 7 hours before landing. Supine blood volume, supine and standing heart rate and arterial pressure, as well as plasma catecholamines were measured before and after flight. \r\n<p>\r\nRESULTS:<br>\r\nOnly limited conclusions could be made because participation in the protocols was incomplete, and were also limited by subjective evaluation of the medication. The first two protocols (five-day regimens) were not well-tolerated by the crew, being found to cause unacceptable side effects such as congestion, head fullness, and headache. The third regimen (single-dose) did not restore plasma volume and did not seem to improve orthostatic tolerance on landing day. \r\n<P>\r\nNone of the protocols restored blood volume. The percent change in plasma and red blood cell volumes\r\nfrom preflight to postflight was not significantly different in the fludrocortisone vs. non-fludrocortisone group. Fludrocortisone subjects did not have greater orthostatic tolerance than control subjects on landing day.\r\n<P>\r\nOn landing day, 2 of 18 in the placebo group and 1 of 7 in the fludrocortisone group became presyncopal (chi2 = 0.015, p = 0.90). Plasma volumes were significantly decreased after flight in the placebo group, but not in the fludrocortisone group. During postflight stand tests, standing plasma norepinephrine was significantly less in the fludrocortisone group compared with the placebo group.\r\n<P>\r\nThe conclusion therefore, was that treatment with a single dose of fludrocortisone results in protection of plasma volume but no protection of orthostatic tolerance. Fludrocortisone was, therefore, not recommended as a countermeasure for spaceflight-induced orthostatic intolerance.",
+  "__doi": "10.83263/gw6a-pb32",
+  "__doi_record_creation_date": "2026-08-23T04:16:28",
+  "__doi_record_modified_date": "2026-08-23T04:16:28"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000267",
+   "label": "DSO 621__218125493",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Body weight",
+    "dataset_catalog": "DSO 621__218125493",
+    "dataset_description": [
+     "This graph contains preflight and landing day body weights (A), plasma volume index (B), and red blood cell volume index (C) for astronauts in the DSO 621 study. Body weight [82.0 \u00b1 2.4 (preflight) to 79.9 \u00b1 2.5 kg (landing day), p = 0.51, placebo; 74.0 \u00b1 2.5 (preflight) to 71.5 \u00b1 2.1 kg (landing day), p = 0.63, fludrocortisone] showed no significant day or treatment effect, but the fludrocortisones group was almost significantly smaller than the placebo group (p = 0.061, preflight; p = 0.051, landing day). Of the 25 astronauts studied, 23 had decreased body weight on landing day. * p < 0.05 vs. preflight.\r\n<p>\r\nSource: Shi SJ, South DA, Meck JV. Fludrocortisone does not prevent orthostatic hypotension in astronauts after spaceflight. Aviat Space Environ Med. 2004 Mar;75(3):235-9."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 621"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "720c8a0f-ba7a-51f9-85b2-63f768bbe408",
+     "label": "DSO_621__218125493.tif_STS-45_DSO_621_2010_218_010845.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001886",
+   "label": "JMDSO_621_1",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Effect of Fludrocortisone on Plasma Volume Losses",
+    "dataset_catalog": "JMDSO_621_1",
+    "dataset_description": [
+     "This is a graph depicting the effect of fludrocortisone on plasma volume losses for subjects during the DSO 621 study. \r\n<p>\r\nSource: Extended Duration Orbiter Medical Project (EDOMP) Final Report 1989-1995."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 621"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "a90157e6-5af1-5d39-9296-21b81b72bc31",
+     "label": "JMDSO_621_11.tiff_STS-45_DSO_621_2011_20_070111.tiff",
+     "type": "file",
+     "ext": "tiff",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001561",
+   "label": "DSO 621__2180130375",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Plasma Norepinephrine and Epinephrine Levels",
+    "dataset_catalog": "DSO 621__2180130375",
+    "dataset_description": [
+     "This graph depicts supine and standing plasma norepinephrine and epinephrine levels preflight (left) and on landing day (right). Preflight, there was no difference in supine and standing plasma norepinephrine levels between placebo and fludrocortisones groups. On landing day, standing, but not supine, norepinephrine levels were significantly less in the fludrocortisone group than in the placebo group.\r\n<p>\r\nSource: Shi SJ, South DA, Meck JV. Fludrocortisone does not prevent orthostatic hypotension in astronauts after spaceflight. Aviat Space Environ Med. 2004 Mar;75(3):235-9."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 621"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "331477a4-8b62-5705-98ed-daff1f6f76f2",
+     "label": "DSO_621__2180130375.tif_STS-45_DSO_621_2010_218_010842.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001021",
+   "label": "DSO 621__2180117851",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Hemodynamic Responses",
+    "dataset_catalog": "DSO 621__2180117851",
+    "dataset_description": [
+     "This graph depicts hemodynamic responses to standing in both placebo and fludrocortisone groups. Values include supine and standing heart rate, systolic pressure, diastolic pressure, stroke volume index, cardiac output index, and total peripheral resistance in astronauts preflight (left) and on landing day (right).There were no intergroup differences in any parameter either preflight or on landing day. Due to difficulties with catheter placement on landing day, not enough blood samples were obtained to report catecholamine data in all 25 astronauts.\r\n<p>\r\nSource: Shi SJ, South DA, Meck JV. Fludrocortisone does not prevent orthostatic hypotension in astronauts after spaceflight. Aviat Space Environ Med. 2004 Mar;75(3):235-9."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 621"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "f6f79c8e-70a9-511e-a01d-20cddf1df8fc",
+     "label": "DSO_621__2180117851.tif_STS-45_DSO_621_2010_218_010846.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

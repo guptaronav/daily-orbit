@@ -1,0 +1,277 @@
+{
+ "record": {
+  "id": "82e288d5-82d9-51a0-8e33-bc9bef232dfe",
+  "_id": "82e288d5-82d9-51a0-8e33-bc9bef232dfe",
+  "__is_locked": false,
+  "experiment_title": "Bed Rest Standard Measures: Viral Specific Immunity",
+  "__source_key": "cl62azs0acdh301o68zqhfunw",
+  "experiment_type": [
+   [
+    "Artificial Gravity (Fractional Gravity)"
+   ],
+   [
+    "Flight Analogs Project (FAP)"
+   ],
+   [
+    "NASA Bedrest Studies"
+   ],
+   [
+    "NASA Ground-Based Investigations"
+   ]
+  ],
+  "AssignedArchivist": [
+   "Liddell, Nyaia A."
+  ],
+  "keyword": [
+   "Virus shedding",
+   "Viruses",
+   "Virus latency/physiology",
+   "Virus shedding/physiology",
+   "Antibodies, viral/analysis"
+  ],
+  "__record_version": 32,
+  "experiment_description": "OBJECTIVES:<br>\nProlonged exposure to reduced gravity, physiological stress or other factors associated with space flight may result in immune system dysregulation.  Latent herpesvirus reactivation, a measurable result of dysregulated immunity, has been detected in crewmembers during and immediately following space missions.  \n<div>\nA panel of assays was designed to monitor immune system dysregulation, viral reactivation, and physiological stress has been developed and validated at the Johnson Space Center (JSC).  These assays will be applied to a future ISS/Shuttle Supplemental Medical Objective (SMO).  This assay panel is also appropriate to monitor the status and function of the immune system, viral reactivation, and physiological stress during ground-based analog studies.   These assays will be included on all future bed rest campaigns for the purpose of monitoring the immune status of the participants.  While bed rest is not the most appropriate model for space flight-associated immune dysregulation, it is possible that the various countermeasures proposed for evaluation during bed rest may affect immune function.  For this reason, the immune function of the participants will be monitored.\n</div><div>\nAPPROACH:<br>\nThere have been comparatively few flight studies investigating the effect of space flight on the human immune system.  Those studies that have been performed may be subdivided into the following categories:  (A) in flight culture of immune cells; (B) postflight assessments of crewmembers;  (C) in flight crewmember immune assessments.   These data were recently reviewed by Dr. Gerald Sonnenfeld (Sonnenfeld 2002, Sonnenfeld 2003) and are summarized as follows:\n</div><div>\nA.  In flight culture of immune cells<br>\n\nHuman studies have indicated that space flight changes human cell culture activities such as leukocyte blastogenesis, production of cytokines, and signal transduction of leukocytes.  Studies on animal cell cultures have also shown altered cytokine production and macrophage hematopoesis and function.   \n</div><div>\nB.  Postflight assessments of crewmembers<br>\n\nMost human space flight immunologic studies have explored the effects of space flight on cell-mediated immunity.  Inhibited mitogen-induced blastogenesis of leukocytes has been observed in cells obtained from astronauts and cosmonauts after the Apollo-Soyuz test project, Skylab, Space Shuttle and Soyuz flights.   Altered leukocyte subset distribution, altered cytokine production and altered natural killer (NK) cell activity have also been found to be altered immediately postflight.  \n</div><div>\nC.  In flight assessments of crewmembers<br>\n\nPrecious few studies have been performed using astronaut subjects during space flight.   Delayed hypersensitivity skin tests to common recall antigens were inhibited during short term and long term space flights.  On Space Shuttle mission STS-71 a novel device for staining whole blood samples with fluorescent antibodies was flight tested using three MIR-18 crewmembers as subjects.  Blood was collected and stained at a single timepoint late in the mission.  Only the bulk leukocyte and lymphocyte subsets were evaluated and no change was found in these crewmembers.  Recently, an in flight assessment of latent viral reactivation was performed using flight-collected saliva samples.  Latent viral reactivation is thought to directly correlate with diminished immune function.  The data showed that latent herpesviruses reactivate during flight to high levels. This is important since persistent viruses have been associated with non-Hodkins lymphoma tumors.  A short term space flight study on Shuttle assessed total antibody levels and found no change in total immunoglobulin levels, whereas a long-duration Soviet mission indicated small increases in total immunoglobulin levels.\n</div><div>\nIn the investigator's previous studies of astronauts, investigators found altered peripheral leukocyte distribution, altered cytokine production profiles, elevated levels of latent viral reactivation and elevated levels of cortisol during or immediately following long and short duration space flight.  In addition, significant increases in stress hormones (i.e., cortisol, catecholamines) were found after landing. Notably, investigators found increased shedding of Epstein-Barr virus (EBV) and cytomegalovirus (CMV), two medically important herpesviruses, during space flight along with evidence of decreased cellular immunity. These increases in stress hormones directly correlated with CMV and EBV reactivation. Thus, latent herpesvirus reactivation in these astronauts may have resulted from both direct (i.e., stress hormones) and indirect (i.e., decreased immune function) mechanisms stemming from launch and landing acceleration. These results underscore the need to determine the causes underlying immune suppression in space in order to develop countermeasures.\n</div><div>\nRESULTS:<br>\nIn general, subjects did not display altered peripheral leukocyte subsets, constitutive immune activation, altered T cell function, or significant latent viral reactivation (EBV, VZV). Levels of constitutively activated T cells (CD8+/CD69+) and virus-specific T cells (CMV and EBV) decreased during the study. Cortisol levels (plasma and saliva) did not vary significantly during 90-day bed rest. \n</div><div>\n<i>Conclusions:</i> These data demonstrate the absence of significant immune system alteration and physiological stress during 90-day bed rest, and establish control data against which future studies (including countermeasures) may be compared.</div>",
+  "indexed": "2026-08-23T04:24:41.656004+00:00",
+  "GUID": "cl62azs0acdh301o68zqhfunw",
+  "_file_extension": "human",
+  "archive_status": "Data preservation is complete.  All datasets are publicly available.",
+  "__model_type": "lsda_experiment",
+  "__dirid": "82e288d5-82d9-51a0-8e33-bc9bef232dfe",
+  "__record_size_wo_doccontent": 113001,
+  "__update_method": "Update CDM",
+  "experiment_identifier": [
+   "BRSMVSI"
+  ],
+  "CompleteArchivalExpectedInFiscalYear": [
+   "0"
+  ],
+  "experiment_type_lk": [
+   "Artificial Gravity (Fractional Gravity)",
+   "Flight Analogs Project (FAP)",
+   "NASA Bedrest Studies",
+   "NASA Ground-Based Investigations"
+  ],
+  "__record_modified_date": "2026-08-23T04:24:41.656004+00:00",
+  "nasa_center": "JSC",
+  "__indexed": "2026-08-23T04:24:41.656004+00:00",
+  "__record_creation_date": "2022-07-28T19:56:04.682Z",
+  "__record_size": 113001,
+  "species_strain": [
+   [
+    "N/A"
+   ]
+  ],
+  "__model_version": 60,
+  "species_sci_name": [
+   [
+    "Homo sapiens"
+   ]
+  ],
+  "payload_id": [
+   "DBLS",
+   "CFT70",
+   "Campaign 5",
+   "Pilot",
+   "Campaign 3"
+  ],
+  "CombinedSpecies": [
+   "Human (Homo sapiens) N/A"
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "ncindex": 2,
+  "researchIndex": [
+   14
+  ],
+  "experiment_id": "BRSMVSI",
+  "center": "JSC",
+  "parameter_name": [
+   "CMV-Specific CD8+ T cells",
+   "Cytomegalovirus (CMV), immuglobulin G (IgG) antibody level",
+   "Epstein-Barr virus (EBV), early antigen (EA) immunoglobulin G (IgG) antibody level",
+   "Epstein-Barr virus (EBV), nuclear antigen (EBNA) immunoglobulin G (IgG) antibody level",
+   "Epstein-Barr virus (EBV)-specific CD8+ T cells",
+   "Epstein-Barr virus (EBV), viral capsid antigen (VCA) immunoglobulin G (IgG) antibody level",
+   "Cytomegalovirus (CMV)-specific CD8+ T cells, interferon gamma (IFN-gamma) expression",
+   "Epstein-Barr virus (EBV)-specific CD8+ T cells, interferon gamma (IFN-gamma) expression"
+  ],
+  "exp_index": 1285,
+  "research_area": [
+   "Immunology"
+  ],
+  "species": [
+   [
+    "Human"
+   ]
+  ],
+  "pme_role_with_name": [
+   "Principal Investigator: Stowe, Raymond P."
+  ],
+  "missions": [
+   "DBLS",
+   "UTMB Campaign 11",
+   "UTMB Campaign 5",
+   "Pilot",
+   "UTMB Campaign 3"
+  ],
+  "PI": [
+   "Stowe, Raymond P."
+  ],
+  "sort": [
+   3,
+   "23900950-686d-5f3e-86e1-9e214fe57a1e"
+  ],
+  "parameter_html": "<table><tr><td>CMV-Specific CD8+ T cells</td></tr><tr><td>Cytomegalovirus (CMV), immuglobulin G (IgG) antibody level</td></tr><tr><td>Epstein-Barr virus (EBV), early antigen (EA) immunoglobulin G (IgG) antibody level</td></tr><tr><td>Epstein-Barr virus (EBV), nuclear antigen (EBNA) immunoglobulin G (IgG) antibody level</td></tr><tr><td>Epstein-Barr virus (EBV)-specific CD8+ T cells</td></tr><tr><td>Epstein-Barr virus (EBV), viral capsid antigen (VCA) immunoglobulin G (IgG) antibody level</td></tr><tr><td>Cytomegalovirus (CMV)-specific CD8+ T cells, interferon gamma (IFN-gamma) expression</td></tr><tr><td>Epstein-Barr virus (EBV)-specific CD8+ T cells, interferon gamma (IFN-gamma) expression</td></tr><tr></tr></table>",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Stowe, Raymond P.\">Principal Investigator: Stowe, Raymond P.</a>",
+  "Program": "Ground",
+  "mission_id": [
+   "DBLS",
+   "UTMB Campaign 11",
+   "UTMB Campaign 5",
+   "Pilot",
+   "UTMB Campaign 3"
+  ],
+  "PrincipalInvestigator": [
+   "Stowe, Raymond P."
+  ],
+  "__source_field_concat": "human cl62azs0acdh301o68zqhfunw JSC JSC Bed Rest Standard Measures: Viral Specific Immunity BRSMVSI Ground Data preservation is complete.  All datasets are publicly available.",
+  "__icon_type": "",
+  "__description": "OBJECTIVES:<br>\nProlonged exposure to reduced gravity, physiological stress or other factors associated with space flight may result in immune system dysregulation.  Latent herpesvirus reactivation, a measurable result of dysregulated immunity, has been detected in crewmembers during and immediately following space missions.  \n<div>\nA panel of assays was designed to monitor immune system dysregulation, viral reactivation, and physiological stress has been developed and validated at the Johnson Space Center (JSC).  These assays will be applied to a future ISS/Shuttle Supplemental Medical Objective (SMO).  This assay panel is also appropriate to monitor the status and function of the immune system, viral reactivation, and physiological stress during ground-based analog studies.   These assays will be included on all future bed rest campaigns for the purpose of monitoring the immune status of the participants.  While bed rest is not the most appropriate model for space flight-associated immune dysregulation, it is possible that the various countermeasures proposed for evaluation during bed rest may affect immune function.  For this reason, the immune function of the participants will be monitored.\n</div><div>\nAPPROACH:<br>\nThere have been comparatively few flight studies investigating the effect of space flight on the human immune system.  Those studies that have been performed may be subdivided into the following categories:  (A) in flight culture of immune cells; (B) postflight assessments of crewmembers;  (C) in flight crewmember immune assessments.   These data were recently reviewed by Dr. Gerald Sonnenfeld (Sonnenfeld 2002, Sonnenfeld 2003) and are summarized as follows:\n</div><div>\nA.  In flight culture of immune cells<br>\n\nHuman studies have indicated that space flight changes human cell culture activities such as leukocyte blastogenesis, production of cytokines, and signal transduction of leukocytes.  Studies on animal cell cultures have also shown altered cytokine production and macrophage hematopoesis and function.   \n</div><div>\nB.  Postflight assessments of crewmembers<br>\n\nMost human space flight immunologic studies have explored the effects of space flight on cell-mediated immunity.  Inhibited mitogen-induced blastogenesis of leukocytes has been observed in cells obtained from astronauts and cosmonauts after the Apollo-Soyuz test project, Skylab, Space Shuttle and Soyuz flights.   Altered leukocyte subset distribution, altered cytokine production and altered natural killer (NK) cell activity have also been found to be altered immediately postflight.  \n</div><div>\nC.  In flight assessments of crewmembers<br>\n\nPrecious few studies have been performed using astronaut subjects during space flight.   Delayed hypersensitivity skin tests to common recall antigens were inhibited during short term and long term space flights.  On Space Shuttle mission STS-71 a novel device for staining whole blood samples with fluorescent antibodies was flight tested using three MIR-18 crewmembers as subjects.  Blood was collected and stained at a single timepoint late in the mission.  Only the bulk leukocyte and lymphocyte subsets were evaluated and no change was found in these crewmembers.  Recently, an in flight assessment of latent viral reactivation was performed using flight-collected saliva samples.  Latent viral reactivation is thought to directly correlate with diminished immune function.  The data showed that latent herpesviruses reactivate during flight to high levels. This is important since persistent viruses have been associated with non-Hodkins lymphoma tumors.  A short term space flight study on Shuttle assessed total antibody levels and found no change in total immunoglobulin levels, whereas a long-duration Soviet mission indicated small increases in total immunoglobulin levels.\n</div><div>\nIn the investigator's previous studies of astronauts, investigators found altered peripheral leukocyte distribution, altered cytokine production profiles, elevated levels of latent viral reactivation and elevated levels of cortisol during or immediately following long and short duration space flight.  In addition, significant increases in stress hormones (i.e., cortisol, catecholamines) were found after landing. Notably, investigators found increased shedding of Epstein-Barr virus (EBV) and cytomegalovirus (CMV), two medically important herpesviruses, during space flight along with evidence of decreased cellular immunity. These increases in stress hormones directly correlated with CMV and EBV reactivation. Thus, latent herpesvirus reactivation in these astronauts may have resulted from both direct (i.e., stress hormones) and indirect (i.e., decreased immune function) mechanisms stemming from launch and landing acceleration. These results underscore the need to determine the causes underlying immune suppression in space in order to develop countermeasures.\n</div><div>\nRESULTS:<br>\nIn general, subjects did not display altered peripheral leukocyte subsets, constitutive immune activation, altered T cell function, or significant latent viral reactivation (EBV, VZV). Levels of constitutively activated T cells (CD8+/CD69+) and virus-specific T cells (CMV and EBV) decreased during the study. Cortisol levels (plasma and saliva) did not vary significantly during 90-day bed rest. \n</div><div>\n<i>Conclusions:</i> These data demonstrate the absence of significant immune system alteration and physiological stress during 90-day bed rest, and establish control data against which future studies (including countermeasures) may be compared.</div>",
+  "__doi": "10.83263/m3hm-nj40",
+  "__doi_record_creation_date": "2026-08-23T04:24:41",
+  "__doi_record_modified_date": "2026-08-23T04:24:41"
+ },
+ "datasets": [
+  {
+   "key": "d6675017-872e-5e74-bd3b-e94cebbae9b5",
+   "label": "BRSMVSI_Campaign_3_Viral_Specific_Immunity",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "UTMB Bedrest Campaign 3 Viral Specific Immunity",
+    "dataset_catalog": "BRSMVSI_Campaign_3_Viral_Specific_Immunity",
+    "dataset_description": "This dataset contains data for all Campaign 3 subjects for the Bed Rest Standard Measures Viral Specific Immunity (BRSMVSI) study. Data collection sessions for this measure were performed twice pre-bed rest, twice during bed rest, and twice post bed rest. For characterization of virus-specific T-cells, flow cytometric assays for virus EBV-specific T-cells were performed. The Analyzed Data contains values for viral-specific T-cells for each subject who completed the study.",
+    "processing_level": [
+     "Processed Data"
+    ],
+    "experiment_id": [
+     "BRSMVSI"
+    ]
+   },
+   "meta": "7 files \u00b7 11.3 KB",
+   "date": "2025-09-12",
+   "children": [
+    {
+     "key": "fc008dec-3b59-555d-8d8f-ddd487a35f10",
+     "label": "BRSMVSI_Campaign_3_Viral_Specific_Immunity_C3F_All",
+     "type": "file",
+     "ext": "",
+     "file_size": 382,
+     "meta": "382 B",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c90b2e5f-81ac-56ae-b07b-fa8cf2fec466",
+     "label": "BRSMVSI_Campaign_3_Viral_Specific_Immunity_C3A_All",
+     "type": "file",
+     "ext": "",
+     "file_size": 2024,
+     "meta": "2.0 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e546eafa-f4d4-5661-a36c-e4c403ccb1a5",
+     "label": "BRSMVSI_Campaign_3_Viral_Specific_Immunity_C3C_All",
+     "type": "file",
+     "ext": "",
+     "file_size": 1104,
+     "meta": "1.1 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "60e9e08f-bc98-570f-8f7d-43c993b2e206",
+     "label": "BRSMVSI_Campaign_3_Viral_Specific_Immunity_C3D_All",
+     "type": "file",
+     "ext": "",
+     "file_size": 3063,
+     "meta": "3.0 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2905af75-12bb-57e5-a036-08b04f4e65c9",
+     "label": "BRSMVSI_Campaign_3_Viral_Specific_Immunity_C3G_All",
+     "type": "file",
+     "ext": "",
+     "file_size": 2121,
+     "meta": "2.1 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "974d0af8-9e55-5830-af9e-64130f57d960",
+     "label": "BRSMVSI_Campaign_3_Viral_Specific_Immunity_C3H_All",
+     "type": "file",
+     "ext": "",
+     "file_size": 445,
+     "meta": "445 B",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c2c5f770-6269-5d1f-b946-60977fb3c73c",
+     "label": "BRSMVSI_Campaign_3_Viral_Specific_Immunity_C3E_All",
+     "type": "file",
+     "ext": "",
+     "file_size": 2462,
+     "meta": "2.4 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "bdc081bb-d428-5dfa-8a70-3818aa3cfe06",
+   "label": "BRSMVSI_CFT70",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "BRSMVSI CFT70 Data",
+    "dataset_catalog": "BRSMVSI_CFT70",
+    "dataset_description": "This dataset contains tabular data for CFT70 of the Bed Rest Standard Measures Viral Specific Immunity (BRSMVSI) study.",
+    "processing_level": [
+     "Processed Data"
+    ],
+    "experiment_id": [
+     "BRSMVSI"
+    ]
+   },
+   "meta": "2 files \u00b7 8.8 KB",
+   "date": "2026-03-24",
+   "children": [
+    {
+     "key": "840d9adc-53aa-5914-8b31-d4e9797e170e",
+     "label": "BRSMVSI_CFT70_A_C_Subjects",
+     "type": "file",
+     "ext": "",
+     "file_size": 2060,
+     "meta": "2.0 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a4421c37-f4b7-5c3a-9a6a-d4d816d4d2ef",
+     "label": "BRSMVSI_CFT70_All_Subjects",
+     "type": "file",
+     "ext": "",
+     "file_size": 6905,
+     "meta": "6.7 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,347 @@
+{
+ "record": {
+  "id": "1510b115-6bb1-568a-834f-076b79371b69",
+  "_id": "1510b115-6bb1-568a-834f-076b79371b69",
+  "experiment_title": "Confirmation of Ability of Polyethylene Glycol Interleukin-2 (PEG-IL2) to Counteract the Effect of Space Flight on the Rat Immune System",
+  "archive_status_index": 1,
+  "pub_document_number": "ARCPUB001021",
+  "parameter_html": "<table><tr><td>Activity, cell proliferation rate, Lymphocyte, lymph nodes, rat, Assay</td></tr><tr><td>Activity, cell proliferation rate, Lymphocyte, spleen, rat, Assay</td></tr><tr><td>Activity, secretion, Cytokines (M-CSF, IL-6, IFN-g, TGF-&amp;beta;), lymph node lymphocyte, rat, Assay</td></tr><tr><td>Activity, secretion, Cytokines (M-CSF, IL-6, IFN-g, TGF-&amp;beta;), splenic lymphocyte, rat, Assay</td></tr><tr><td>Activity, secretion, Interferon-g (IFN-g), spleen cells, rat, Assay</td></tr><tr><td>Activity, secretion, Interleukin-6 (IL-6) , lymph node lymphocyte, rat, Assay</td></tr><tr><td>Activity, secretion, Interleukin-6 (IL-6) , splenic lymphocyte, rat, Assay</td></tr><tr><td>Activity, secretion, Macrophage colony stimulating factor (M-CSF) , lymph node lymphocyte, rat, Assay</td></tr><tr><td>Activity, secretion, Macrophage colony stimulating factor (M-CSF) , splenic lymphocyte, rat, Assay</td></tr><tr><td>Activity, secretion, Tumor growth factor-&amp;beta; (TGF-&amp;beta;), peritoneal macrophage cells, rat, Assay</td></tr><tr><td>Content, Corticosterone, in serum, blood, rat, Clinical chemistry</td></tr><tr><td>Content, Granulocyte macrophage colony stimulating factor (M-CSF), bone marrow cells, rat, Dependent colony formation, assay</td></tr><tr><td>Content, Macrophage colony stimulating factor (M-CSF), bone marrow cells, rat, Dependent colony formation, assay</td></tr><tr><td>Count, Blood cell differential count, peripheral blood, rat, Clinical laboratory</td></tr><tr><td>Count, Complete blood cell (CBC) count, peripheral blood, rat, Clinical laboratory</td></tr><tr><td>Properties, bone deflection, Femur, rat, biomechanical testing (mm)</td></tr><tr><td>Properties, bone deflection, Tibia, rat, biomechanical testing (mm)</td></tr><tr><td>Properties, bone energy, Femur, rat, biomechanical testing (mJ)</td></tr><tr><td>Properties, bone energy, Tibia, rat, biomechanical testing (mJ)</td></tr><tr><td>Properties, bone strength, Femur, rat, biomechanical testing (N)</td></tr><tr><td>Properties, bone strength, Tibia, rat, biomechanical testing (N)</td></tr><tr><td>Temperature, AEM, Immune.2, Ambient temperature recorder (ATR)</td></tr><tr><td>Bone deflection, humerus</td></tr><tr><td>Bone energy, humerus</td></tr><tr><td>Bone strength, humerus</td></tr><tr></tr></table>",
+  "__source_key": "cl62ayaw2cd4g01o697uz6yow",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Zimmerman, Robert\">Principal Investigator: Zimmerman, Robert</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Chapes, Stephen\">Co-Investigator: Chapes, Stephen</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Goldwater, Danielle\">Co-Investigator: Goldwater, Danielle</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Simske, Steven\">Co-Investigator: Simske, Steven</a>",
+  "experiment_type_lk": [
+   "Shuttle Commercial Life Sciences Research (Spacelab)"
+  ],
+  "__record_modified_date": "2026-08-23T03:57:29.767768+00:00",
+  "__indexed": "2026-08-23T03:57:29.767768+00:00",
+  "session_type": "Flight",
+  "__record_creation_date": "2022-07-28T19:58:53.184Z",
+  "__record_size": 96999,
+  "__record_version": 30,
+  "__model_version": 60,
+  "experiment_description": "<B>Objectives:</B><P>Cytokines, proteins that serve as messengers to activate immune responses in lymphocytes and macrophages, appear to be altered during spaceflight. Because of this suppression of the immune system in otherwise healthy subjects, spaceflight offers a unique opportunity to study the effects of biological subtances with out the complications of illnesses normally present in immunosuppressed subjects. Polyethylene Glycol-Interleukin 2 (PEG-IL-2) is an immunological mediator and enhancer developed and manufactured by Chiron Corporation. The purpose of this experiment in conjunction with an Immune 1 experiment was to confirm and define the ability of Polyethylene Glycol-Interleukin 2 (PEG-IL2) to prevent or ameliorate the detrimental effects of space flight on immune responses of rats.<P><B>Approach:</B><P>Half of the animals in each group were injected subcutaneously with PEG-IL-2 two to three hours before transfer to the Animal Enclosure Modules (AEMs). Upon recovery of flight subjects, the following tissues and organs were removed and weighed: brain, heart, kidneys, liver, lungs, trachea, spleen, and thymus. Blood samples were collected and analyzed for blood cell counts and differentials. They were also analyzed for corticosterone concentration with radioimmunoassay. Macrophage (M-CSF) and granulocyte-macrophage stimulating factor (GM-CSF) dependent macrophage colony formation from bone marrow cells were assayed. Lymphocytes were obtained from the spleen and lymph nodes and assayed to determine cell proliferation rates and the secretion of cytokines, M-CSF, IL-6, IFN-g, and TGF-\u00a7. Peritoneal macrophages were assayed for secretion of TNFa and IL-6. The humerus, femur and tibia were collected and underwent biomechanical testing to calculate strength (N), deflection (mm), and energy  (mJ).  Bones were then dried and ashed in order to assess mineral content.<P><B>Results:</B><P>The results of this experiment are joined with the Immune 1 experiment. There was no significant pattern observed for body weight and organ weight parameters. Additionally, few immunological parameters were consistent across the  Immune 1 and Immune 2 experiments, making conclusive observations difficult. Significant changes in bone parameters were observed in Immune 2, but not Immune 1. The inconsistencies between the two experiments prevented any conclusive evidence concerning the effectiveness of the PEG-IL-2 treatment. Several factors may have played a role in these discrepancies. Some of the animals flown as a part of the Immune 1 experiment were discovered to have various degrees of damage to their tails (necrosis, loss, and gangrenous tissues). Additionally, flight animals in the Immune 2 experiment were exposed to significantly higher ambient temperatures than animals in Immune 1. These data illustrate some of the issues that can arise when small numbers of animals are studied under flight conditions that are difficult to reproduce from one flight to the next.",
+  "payload_id": "Immune.2",
+  "CombinedSpecies": [
+   [
+    "Rat (Rattus norvegicus) Sprague-Dawley"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "CPIMM02",
+  "indexed": "2026-08-23T03:57:29.767768+00:00",
+  "experiment_related": [
+   "CPIMM03",
+   "CPIMM01"
+  ],
+  "GUID": "cl62ayaw2cd4g01o697uz6yow",
+  "parameter_name": [
+   "Activity, cell proliferation rate, Lymphocyte, lymph nodes, rat, Assay",
+   "Activity, cell proliferation rate, Lymphocyte, spleen, rat, Assay",
+   "Activity, secretion, Cytokines (M-CSF, IL-6, IFN-g, TGF-&amp;beta;), lymph node lymphocyte, rat, Assay",
+   "Activity, secretion, Cytokines (M-CSF, IL-6, IFN-g, TGF-&amp;beta;), splenic lymphocyte, rat, Assay",
+   "Activity, secretion, Interferon-g (IFN-g), spleen cells, rat, Assay",
+   "Activity, secretion, Interleukin-6 (IL-6) , lymph node lymphocyte, rat, Assay",
+   "Activity, secretion, Interleukin-6 (IL-6) , splenic lymphocyte, rat, Assay",
+   "Activity, secretion, Macrophage colony stimulating factor (M-CSF) , lymph node lymphocyte, rat, Assay",
+   "Activity, secretion, Macrophage colony stimulating factor (M-CSF) , splenic lymphocyte, rat, Assay",
+   "Activity, secretion, Tumor growth factor-&amp;beta; (TGF-&amp;beta;), peritoneal macrophage cells, rat, Assay",
+   "Content, Corticosterone, in serum, blood, rat, Clinical chemistry",
+   "Content, Granulocyte macrophage colony stimulating factor (M-CSF), bone marrow cells, rat, Dependent colony formation, assay",
+   "Content, Macrophage colony stimulating factor (M-CSF), bone marrow cells, rat, Dependent colony formation, assay",
+   "Count, Blood cell differential count, peripheral blood, rat, Clinical laboratory",
+   "Count, Complete blood cell (CBC) count, peripheral blood, rat, Clinical laboratory",
+   "Properties, bone deflection, Femur, rat, biomechanical testing (mm)",
+   "Properties, bone deflection, Tibia, rat, biomechanical testing (mm)",
+   "Properties, bone energy, Femur, rat, biomechanical testing (mJ)",
+   "Properties, bone energy, Tibia, rat, biomechanical testing (mJ)",
+   "Properties, bone strength, Femur, rat, biomechanical testing (N)",
+   "Properties, bone strength, Tibia, rat, biomechanical testing (N)",
+   "Temperature, AEM, Immune.2, Ambient temperature recorder (ATR)",
+   "Bone deflection, humerus",
+   "Bone energy, humerus",
+   "Bone strength, humerus"
+  ],
+  "exp_index": 663,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Immunology"
+  ],
+  "protocol_approach": "Polyethylene Glycol-Interleukin 2 (PEG-IL2)",
+  "pme_role_with_name": [
+   "ARC Payload Engineer: Jaquez, Ramiro",
+   "Co-Investigator: Chapes, Stephen",
+   "Co-Investigator: Goldwater, Danielle",
+   "Co-Investigator: Simske, Steven",
+   "Principal Investigator: Zimmerman, Robert"
+  ],
+  "missions": [
+   [
+    [
+     "STS-63"
+    ]
+   ]
+  ],
+  "__dirid": "1510b115-6bb1-568a-834f-076b79371b69",
+  "__record_size_wo_doccontent": 96999,
+  "experiment_parms_tissue2": "NULL",
+  "experiment_parms_tissue1": "NULL",
+  "PI": [
+   "Zimmerman, Robert"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "CPIMM02"
+  ],
+  "keyword": [],
+  "mission_id": [
+   [
+    [
+     "STS-63"
+    ]
+   ]
+  ],
+  "center": [
+   "Ames Research Center"
+  ],
+  "ncindex": [
+   7
+  ],
+  "proposal_date": [],
+  "proposal_source": [],
+  "species": [
+   "Rat"
+  ],
+  "PrincipalInvestigator": [
+   "Zimmerman, Robert"
+  ],
+  "program_name": [
+   "Shuttle Program"
+  ],
+  "archive_status": "Data preservation is complete. All datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Shuttle Program",
+  "__source_field_concat": "Flight ARCPUB001021 Immune.2 cl62ayaw2cd4g01o697uz6yow NULL NULL  Polyethylene Glycol-Interleukin 2 (PEG-IL2) CPIMM02 Shuttle Program Data preservation is complete. All datasets are publicly available.",
+  "__icon_type": "rat",
+  "__description": "<B>Objectives:</B><P>Cytokines, proteins that serve as messengers to activate immune responses in lymphocytes and macrophages, appear to be altered during spaceflight. Because of this suppression of the immune system in otherwise healthy subjects, spaceflight offers a unique opportunity to study the effects of biological subtances with out the complications of illnesses normally present in immunosuppressed subjects. Polyethylene Glycol-Interleukin 2 (PEG-IL-2) is an immunological mediator and enhancer developed and manufactured by Chiron Corporation. The purpose of this experiment in conjunction with an Immune 1 experiment was to confirm and define the ability of Polyethylene Glycol-Interleukin 2 (PEG-IL2) to prevent or ameliorate the detrimental effects of space flight on immune responses of rats.<P><B>Approach:</B><P>Half of the animals in each group were injected subcutaneously with PEG-IL-2 two to three hours before transfer to the Animal Enclosure Modules (AEMs). Upon recovery of flight subjects, the following tissues and organs were removed and weighed: brain, heart, kidneys, liver, lungs, trachea, spleen, and thymus. Blood samples were collected and analyzed for blood cell counts and differentials. They were also analyzed for corticosterone concentration with radioimmunoassay. Macrophage (M-CSF) and granulocyte-macrophage stimulating factor (GM-CSF) dependent macrophage colony formation from bone marrow cells were assayed. Lymphocytes were obtained from the spleen and lymph nodes and assayed to determine cell proliferation rates and the secretion of cytokines, M-CSF, IL-6, IFN-g, and TGF-\u00a7. Peritoneal macrophages were assayed for secretion of TNFa and IL-6. The humerus, femur and tibia were collected and underwent biomechanical testing to calculate strength (N), deflection (mm), and energy  (mJ).  Bones were then dried and ashed in order to assess mineral content.<P><B>Results:</B><P>The results of this experiment are joined with the Immune 1 experiment. There was no significant pattern observed for body weight and organ weight parameters. Additionally, few immunological parameters were consistent across the  Immune 1 and Immune 2 experiments, making conclusive observations difficult. Significant changes in bone parameters were observed in Immune 2, but not Immune 1. The inconsistencies between the two experiments prevented any conclusive evidence concerning the effectiveness of the PEG-IL-2 treatment. Several factors may have played a role in these discrepancies. Some of the animals flown as a part of the Immune 1 experiment were discovered to have various degrees of damage to their tails (necrosis, loss, and gangrenous tissues). Additionally, flight animals in the Immune 2 experiment were exposed to significantly higher ambient temperatures than animals in Immune 1. These data illustrate some of the issues that can arise when small numbers of animals are studied under flight conditions that are difficult to reproduce from one flight to the next.",
+  "__doi": "10.83263/9r2y-ma02",
+  "__doi_record_creation_date": "2026-08-23T03:57:29",
+  "__doi_record_modified_date": "2026-08-23T03:57:29"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002107",
+   "label": "AINV0000000348",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Immune.2 Ambient Temperature Recorder (ATR) flight data - ATR serial number 47 located in flight AEM serial number 004",
+    "dataset_catalog": "AINV0000000348",
+    "dataset_description": [],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "CPIMM02"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "7e579592-6319-594f-9533-4550001d4f66",
+     "label": "4763004F.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002079",
+   "label": "AINV0000000346",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Immune.2 Ambient Temperature Recorder (ATR) ground control data - ATR serial number 50 located in ground control AEM serial number 001",
+    "dataset_catalog": "AINV0000000346",
+    "dataset_description": [],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "CPIMM02"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "9502cb2b-bfcd-5255-bf49-2bd5afc0f9e0",
+     "label": "5063001G.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001791",
+   "label": "AINV0000000344",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Immune.2 Ambient Temperature Recorder (ATR) ground control data - ATR serial number 48 located in ground control AEM serial number 101",
+    "dataset_catalog": "AINV0000000344",
+    "dataset_description": [],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "CPIMM02"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "fe0eb138-f4ed-58cd-8fc5-a8dc659c07a5",
+     "label": "4863101G.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000706",
+   "label": "AINV0000000347",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Immune.2 Ambient Temperature Recorder (ATR) flight data - ATR serial number 46 located in flight AEM serial number 003",
+    "dataset_catalog": "AINV0000000347",
+    "dataset_description": [],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "CPIMM02"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "db3d3ce5-cb33-57cf-abb6-6ffce843d0c8",
+     "label": "4663003F.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000680",
+   "label": "AINV0000000343",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Immune.2 PI data",
+    "dataset_catalog": "AINV0000000343",
+    "dataset_description": [],
+    "processing_level": [
+     "Raw<br/>Processed"
+    ],
+    "experiment_id": [
+     "CPIMM02"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "e3e32ec9-268e-52f7-89ac-64f49ee81ef5",
+     "label": "IMM2_PIdata.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000681",
+   "label": "AINV0000000345",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Immune.2 Ambient Temperature Recorder (ATR) ground control data - ATR serial number 49 located in ground control AEM serial number 102",
+    "dataset_catalog": "AINV0000000345",
+    "dataset_description": [],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "CPIMM02"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "a7694ff6-fecf-5c8e-9f75-37152b06c36f",
+     "label": "4963102G.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002078",
+   "label": "AINV0000000342",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Immune.2 Flight and Ground Control Groups Data",
+    "dataset_catalog": "AINV0000000342",
+    "dataset_description": [
+     "Treatments<br/>Animal and tissue weights"
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "CPIMM02"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "71161875-9d49-56b2-bc95-99e1a393f4d4",
+     "label": "Imm2flight_rats.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

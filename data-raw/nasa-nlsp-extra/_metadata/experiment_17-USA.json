@@ -1,0 +1,228 @@
+{
+ "record": {
+  "id": "3d9f2348-1dac-57ef-a0e0-058c0cb3ed1e",
+  "_id": "3d9f2348-1dac-57ef-a0e0-058c0cb3ed1e",
+  "experiment_title": "Correlation of Disconjugate Eye Torsion with the Time Course of the Space Adaptation Syndrome",
+  "archive_status_index": 2,
+  "pub_document_number": "PUB000817",
+  "parameter_html": "<table><tr><td>Ocular torsion</td></tr><tr></tr></table>",
+  "__source_key": "cl62azex5cddy01o6214zcycj",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Markham, Charles\">Principal Investigator: Markham, Charles</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Diamond, Shirley\">Co-Investigator: Diamond, Shirley</a>",
+  "image_name": [
+   "EGG Data Collection",
+   "Oscillograph Monitor - front view"
+  ],
+  "experiment_type_lk": [
+   "NASA-Mir Program",
+   "Shuttle Life Sciences Research (Spacelab)"
+  ],
+  "__record_modified_date": "2026-08-23T03:46:13.168747+00:00",
+  "proposal_source": [
+   "C NAS 9-19400"
+  ],
+  "__indexed": "2026-08-23T03:46:13.168747+00:00",
+  "__record_creation_date": "2022-07-28T19:54:14.287Z",
+  "keyword": [
+   "Posture",
+   "Gravitation",
+   "Eye movements",
+   "Torsion",
+   "Otolithic membrane",
+   "Reflex, vestibulo-ocular",
+   "Vision",
+   "Adaptation, ocular"
+  ],
+  "keyword_name": "Adaptation, ocular",
+  "__record_size": 143164,
+  "__record_version": 28,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<BR>\r\nSpace motion sickness (SMS) during space flight is very similar to motion sickness on Earth.  SMS can be predicted during parabolic flights on Earth by observing characteristic eye movements.  By identifying these same characteristic eye movements, particularly rotary eye movements during the course of space flight, researchers hope to obtain information on SMS, which will have a direct impact on Earth-based motion sickness.  This study documented the correlation of eye torsional changes with the development and recovery over time of SMS.\r\n<P>\r\nAPPROACH:<BR>\r\nThree astronauts underwent preflight, inflight, and postflight testing of spontaneous ocular torsion and ocular counterrolling (OCR) reflexes governed by the gravity-responsive otolith organs in the inner ear.  Subject A flew a 30-day space mission during Euromir '94 and was examined with a monocular video-oculography (VOG) system.  Subjects B and C were studied with a binocular VOG during the 180-day Euromir '95 mission.  VOG is a technique used to examine the function of the human balance system located in the inner ear (vestibular system) and the visuo-oculomotor interactions of the vestibular organ.  The subjects\u2019 eye movements were measured, recorded, and evaluated by state-of-the-art video techniques.\r\n<P>\r\nPreflight and postflight measurements were performed with the subject in a head-upright position.  Inflight measurements required only that the subject remain stationary.  To record images from both eyes simultaneously during Euromir \u201895, the monocular VOG used during Euromir '94 was augmented by one additional camera and recorder unit.  The binocular system videotaped both eyes simultaneously providing 25 synchronized images of each per second.  The torsional eye position was derived from surface landmarks of the iris.  First, a circular ring segment or arc was selected and defined by its radius from the center of the pupil, the thickness of the ring segment, and the angle swept by the arc.  A geometric assumption was made that the visible borders of the pupil were part of a circle or an ellipse.  For each line of the video image that passed through the pupil, the threshold for entering and leaving the pupil was determined.  If a line passing through the pupil was interrupted by reflections or other artifacts, that line was rejected.  The accepted lines were calculated to form a circle.  In this manner, reliable pupil center could be determined even though up to 50% of the pupil was not visible.  \r\n<P>\r\nA reference iris profile was calculated and stored in computer memory.  Using this reference, subsequent iris profiles could be compared to determine any changes in ocular torsion, e.g. the reference iris profile obtained preflight was compared with other profiles obtained preflight, during flight, and postflight.\r\n<P>\r\nIn the preflight and postflight experiments, the astronauts were strapped into a special chair.  An individual bitebar was made and fitted to a mask-headband assembly containing two small video cameras, one in front of each eye.  The bitebar was also rigidly attached to the chair.  The astronaut\u2019s eyes were adjusted to Earth-horizontal.  Once the bitebar-to-mask and bitebar-to-chair attachments were satisfactory, the joints were tightened and sealed in position.  The bitebar could fit only one way to the mask and chair.  This meant the relation of the mask and its cameras in front of the eyes could be precisely replicated for all other preflight and postflight experiments.\r\n<P>\r\nIn the earth-based studies, subjects were seated in the special chair, the bitebar-mask-head apparatus donned, and the eye position verified to be Earth-horizontal.  The subjects maintained their eyes in the primary position by gazing at a target one meter away.  The heights of the cameras were adjusted so that the iris images were equidistant from the lower edge of the video monitor.  In each of these Earth-based experiments, the eye positions were recorded for two minutes as the subject sat quietly upright.  Following the upright position, eye positions were recorded for two minutes with the subject tilted and maintained at a 30\u00ba right-ear-down tilt and two minutes with the subject in a 30\u00ba left-ear-down tilt.\r\n<P>\r\nFor space-flight experiments, an identical individual bitebar-to-camera apparatus was made for each subject and taken to the Mir Space Station.  These masks maintained the same head-to-eye-to-camera relation as the ground experiments.  The astronauts were adept at donning the apparatus and making sure the iris images were equidistant from the bottom of the video monitor.  A two-minute videotape was made with the head \u201cupright\u201d in six to eight experiments during the six-month space flight.\r\n<P>\r\nAs required, all three subjects had vestibular \u201cdeconditioning\u201d training for several weeks before space flight and again toward the end of flight.  This consisted of vigorous head rotation in the pitch and yaw modes.  During each experimental session in flight, each subject marked a detailed questionnaire of SMS symptoms as being absent, mild, moderate, or severe.\r\n<P>\r\nRESULTS:<BR>\r\nFive to six preflight baseline data collections (BDCs) were obtained for each subject.  In the upright position while seated quietly, spontaneous torsional eye movements were approximately \u00b10.75\u00ba, consistent with earlier studies of normal subjects.  The eyes were mostly conjugate.  When held for two minutes in a static tipped position, mean ocular counterrolling (OCR) in the three subjects was \u20135.94\u00ba and +5.54\u00ba in response to the 30\u00ba right and left tilts, respectively.\r\n<P>\r\nAll inflight and postflight analyses were based on a preflight external reference image enabling comparison of eye positions relative to the preflight baseline.  In all three subjects, the torsional position of each eye was substantially changed from its preflight setting.  A torsional reset was manifested during the entire inflight and postflight testing period, although each eye position might vary considerably throughout the study.\r\n<P>\r\nThe SMS evaluation forms on two subjects indicated no SMS symptoms during space flight.  One had moderate nausea in the Soyuz transport vehicle on the way to Mir and on flight day 4.  This subject was symptom-free at all other times.\r\n<P>\r\nUpon return to Earth, two subjects were grossly ataxic immediately after landing.  Seven hours after landing, both subjects could walk slowly with support.  Turning caused them to lurch to one side.  Both were pale and weak with marked atrophy of the legs.  Both were nauseated and had headaches.  One subject became nauseated by repeated head rotation, while the other felt too ill to be tested at all.  The day after landing (R+1), both could slowly walk independently with no further nausea, even with head rotation maneuvers.  After several more days, their overall behavior seemed normal.  The leg atrophy was improved by R+10.\r\n<P>\r\nPostflight testing repeated the preflight protocol with two minutes in each upright position, 30\u00ba right and 30\u00ba left.  In all three subjects, OCR amplitude differed from that observed preflight.  Subject B showed increased OCR to both sides of tilt, especially to 30\u00ba left, even considering the torsional reset of the eyes in the upright position.  Subject C also showed increased OCR to the left and approximately the same OCR to the right as preflight.  Subject A had decreased OCR on the day of landing, increasing daily until postflight day 10 (R+10), at which time it exceeded the baseline OCR in both directions of tilt.  At day 150, however, this subject\u2019s torsional eye position had returned to its preflight baseline.  No tests were performed between day 10 and 150, and therefore the time course of recovery cannot be ascertained.  By R+10, subject B\u2019s right eye had approached its preflight baseline; however, with the head in the upright position, the left eye remained about 2.5\u00ba torted counterclockwise.  Subject C had likewise not returned to his baseline settings by R+10.  \r\n<P>\r\nAs two of the three subjects did not have SMS and the third had none or marginal SMS, none of the changes in ocular torsion found during this study can be related to SMS.  However, analysis of parabolic flight disconjugacy in two of the present subjects correctly predicted absence of SMS.<END>",
+  "payload_id": "Euromir 95",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "17-USA",
+  "indexed": "2026-08-23T03:46:13.168747+00:00",
+  "GUID": "cl62azex5cddy01o6214zcycj",
+  "parameter_name": [
+   "Ocular torsion"
+  ],
+  "exp_index": 912,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Neuroscience",
+   "Ocular physiological phenomena"
+  ],
+  "pme_role_with_name": [
+   "ARC Assistant Payload Scientist: Hester, Patricia",
+   "Co-Investigator: Diamond, Shirley",
+   "Principal Investigator: Markham, Charles"
+  ],
+  "missions": [
+   [
+    [
+     "Mir 20"
+    ]
+   ],
+   [
+    [
+     "Mir 17"
+    ]
+   ]
+  ],
+  "__dirid": "3d9f2348-1dac-57ef-a0e0-058c0cb3ed1e",
+  "__record_size_wo_doccontent": 143164,
+  "PI": [
+   "Markham, Charles"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "17-USA"
+  ],
+  "mission_id": [
+   [
+    [
+     "Mir 20"
+    ]
+   ],
+   [
+    [
+     "Mir 17"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "proposal_date": [],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Markham, Charles"
+  ],
+  "archive_status": "Data preservation is complete. Privacy-protected datasets are available via data request. Remaining datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Nasa-Mir",
+  "__source_field_concat": "PUB000817 Euromir 95 cl62azex5cddy01o6214zcycj <table><tr><td>Ocular torsion</td></tr><tr></tr></table> Adaptation, ocular  Correlation of Disconjugate Eye Torsion with the Time Course of the Space Adaptation Syndrome 17-USA Nasa-Mir",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<BR>\r\nSpace motion sickness (SMS) during space flight is very similar to motion sickness on Earth.  SMS can be predicted during parabolic flights on Earth by observing characteristic eye movements.  By identifying these same characteristic eye movements, particularly rotary eye movements during the course of space flight, researchers hope to obtain information on SMS, which will have a direct impact on Earth-based motion sickness.  This study documented the correlation of eye torsional changes with the development and recovery over time of SMS.\r\n<P>\r\nAPPROACH:<BR>\r\nThree astronauts underwent preflight, inflight, and postflight testing of spontaneous ocular torsion and ocular counterrolling (OCR) reflexes governed by the gravity-responsive otolith organs in the inner ear.  Subject A flew a 30-day space mission during Euromir '94 and was examined with a monocular video-oculography (VOG) system.  Subjects B and C were studied with a binocular VOG during the 180-day Euromir '95 mission.  VOG is a technique used to examine the function of the human balance system located in the inner ear (vestibular system) and the visuo-oculomotor interactions of the vestibular organ.  The subjects\u2019 eye movements were measured, recorded, and evaluated by state-of-the-art video techniques.\r\n<P>\r\nPreflight and postflight measurements were performed with the subject in a head-upright position.  Inflight measurements required only that the subject remain stationary.  To record images from both eyes simultaneously during Euromir \u201895, the monocular VOG used during Euromir '94 was augmented by one additional camera and recorder unit.  The binocular system videotaped both eyes simultaneously providing 25 synchronized images of each per second.  The torsional eye position was derived from surface landmarks of the iris.  First, a circular ring segment or arc was selected and defined by its radius from the center of the pupil, the thickness of the ring segment, and the angle swept by the arc.  A geometric assumption was made that the visible borders of the pupil were part of a circle or an ellipse.  For each line of the video image that passed through the pupil, the threshold for entering and leaving the pupil was determined.  If a line passing through the pupil was interrupted by reflections or other artifacts, that line was rejected.  The accepted lines were calculated to form a circle.  In this manner, reliable pupil center could be determined even though up to 50% of the pupil was not visible.  \r\n<P>\r\nA reference iris profile was calculated and stored in computer memory.  Using this reference, subsequent iris profiles could be compared to determine any changes in ocular torsion, e.g. the reference iris profile obtained preflight was compared with other profiles obtained preflight, during flight, and postflight.\r\n<P>\r\nIn the preflight and postflight experiments, the astronauts were strapped into a special chair.  An individual bitebar was made and fitted to a mask-headband assembly containing two small video cameras, one in front of each eye.  The bitebar was also rigidly attached to the chair.  The astronaut\u2019s eyes were adjusted to Earth-horizontal.  Once the bitebar-to-mask and bitebar-to-chair attachments were satisfactory, the joints were tightened and sealed in position.  The bitebar could fit only one way to the mask and chair.  This meant the relation of the mask and its cameras in front of the eyes could be precisely replicated for all other preflight and postflight experiments.\r\n<P>\r\nIn the earth-based studies, subjects were seated in the special chair, the bitebar-mask-head apparatus donned, and the eye position verified to be Earth-horizontal.  The subjects maintained their eyes in the primary position by gazing at a target one meter away.  The heights of the cameras were adjusted so that the iris images were equidistant from the lower edge of the video monitor.  In each of these Earth-based experiments, the eye positions were recorded for two minutes as the subject sat quietly upright.  Following the upright position, eye positions were recorded for two minutes with the subject tilted and maintained at a 30\u00ba right-ear-down tilt and two minutes with the subject in a 30\u00ba left-ear-down tilt.\r\n<P>\r\nFor space-flight experiments, an identical individual bitebar-to-camera apparatus was made for each subject and taken to the Mir Space Station.  These masks maintained the same head-to-eye-to-camera relation as the ground experiments.  The astronauts were adept at donning the apparatus and making sure the iris images were equidistant from the bottom of the video monitor.  A two-minute videotape was made with the head \u201cupright\u201d in six to eight experiments during the six-month space flight.\r\n<P>\r\nAs required, all three subjects had vestibular \u201cdeconditioning\u201d training for several weeks before space flight and again toward the end of flight.  This consisted of vigorous head rotation in the pitch and yaw modes.  During each experimental session in flight, each subject marked a detailed questionnaire of SMS symptoms as being absent, mild, moderate, or severe.\r\n<P>\r\nRESULTS:<BR>\r\nFive to six preflight baseline data collections (BDCs) were obtained for each subject.  In the upright position while seated quietly, spontaneous torsional eye movements were approximately \u00b10.75\u00ba, consistent with earlier studies of normal subjects.  The eyes were mostly conjugate.  When held for two minutes in a static tipped position, mean ocular counterrolling (OCR) in the three subjects was \u20135.94\u00ba and +5.54\u00ba in response to the 30\u00ba right and left tilts, respectively.\r\n<P>\r\nAll inflight and postflight analyses were based on a preflight external reference image enabling comparison of eye positions relative to the preflight baseline.  In all three subjects, the torsional position of each eye was substantially changed from its preflight setting.  A torsional reset was manifested during the entire inflight and postflight testing period, although each eye position might vary considerably throughout the study.\r\n<P>\r\nThe SMS evaluation forms on two subjects indicated no SMS symptoms during space flight.  One had moderate nausea in the Soyuz transport vehicle on the way to Mir and on flight day 4.  This subject was symptom-free at all other times.\r\n<P>\r\nUpon return to Earth, two subjects were grossly ataxic immediately after landing.  Seven hours after landing, both subjects could walk slowly with support.  Turning caused them to lurch to one side.  Both were pale and weak with marked atrophy of the legs.  Both were nauseated and had headaches.  One subject became nauseated by repeated head rotation, while the other felt too ill to be tested at all.  The day after landing (R+1), both could slowly walk independently with no further nausea, even with head rotation maneuvers.  After several more days, their overall behavior seemed normal.  The leg atrophy was improved by R+10.\r\n<P>\r\nPostflight testing repeated the preflight protocol with two minutes in each upright position, 30\u00ba right and 30\u00ba left.  In all three subjects, OCR amplitude differed from that observed preflight.  Subject B showed increased OCR to both sides of tilt, especially to 30\u00ba left, even considering the torsional reset of the eyes in the upright position.  Subject C also showed increased OCR to the left and approximately the same OCR to the right as preflight.  Subject A had decreased OCR on the day of landing, increasing daily until postflight day 10 (R+10), at which time it exceeded the baseline OCR in both directions of tilt.  At day 150, however, this subject\u2019s torsional eye position had returned to its preflight baseline.  No tests were performed between day 10 and 150, and therefore the time course of recovery cannot be ascertained.  By R+10, subject B\u2019s right eye had approached its preflight baseline; however, with the head in the upright position, the left eye remained about 2.5\u00ba torted counterclockwise.  Subject C had likewise not returned to his baseline settings by R+10.  \r\n<P>\r\nAs two of the three subjects did not have SMS and the third had none or marginal SMS, none of the changes in ocular torsion found during this study can be related to SMS.  However, analysis of parabolic flight disconjugacy in two of the present subjects correctly predicted absence of SMS.<END>",
+  "__doi": "10.83263/9sdr-s324",
+  "__doi_record_creation_date": "2026-08-23T03:46:13",
+  "__doi_record_modified_date": "2026-08-23T03:46:13"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000995",
+   "label": "17_USA__2980313911",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Torsion Data",
+    "dataset_catalog": "17_USA__2980313911",
+    "dataset_description": [
+     "This file contains charts and graphs extracted from a publication. Preflight, inflight, and postflight torsion in upright and tilt positions for the subjects who participated in the 17-USA study are included."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "17-USA"
+    ]
+   },
+   "meta": "8 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "b26c6b81-f674-5cda-936e-beca02d2097d",
+     "label": "JIMIR17USA_682.TIF_Mir_20_17-USA_2013_298_031029.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "346245d7-6776-58c8-b822-9f50f62d4200",
+     "label": "JIMIR17USA_685.TIF_Mir_20_17-USA_2013_298_031034.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f8326b72-f23b-5b2f-a277-57936004b53a",
+     "label": "JIMIR17USA_679.TIF_Mir_20_17-USA_2013_298_031031.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "46f172fa-45c0-57da-920c-4129b637deea",
+     "label": "JIMIR17USA_683.xls_Mir_20_17-USA_2013_298_031026.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "612ec658-326f-5e41-a4bc-f286452ce858",
+     "label": "JIMIR17USA_687.xls_Mir_20_17-USA_2013_298_031051.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f37adf5b-8378-5681-88ac-1c0ca987f1b7",
+     "label": "JIMIR17USA_680.TIF_Mir_20_17-USA_2013_298_031052.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "bb4ec1b9-e250-5cb7-aabb-e7d978000488",
+     "label": "JIMIR17USA_681.TIF_Mir_20_17-USA_2013_298_031011.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "25d0dd39-779a-5b4a-8c87-d8740389392f",
+     "label": "JIMIR17USA_686.TIF_Mir_20_17-USA_2013_298_031049.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

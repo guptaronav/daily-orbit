@@ -1,0 +1,501 @@
+{
+ "record": {
+  "id": "2509d39b-ecd1-53c1-872a-f6d98978aa4f",
+  "_id": "2509d39b-ecd1-53c1-872a-f6d98978aa4f",
+  "experiment_title": "Motorized and Non-Motorized Treadmill Evaluation: Physiologic Responses and Biomechanical Aspects",
+  "archive_status_index": 2,
+  "pub_document_number": "NASA/TP-2006-0052414",
+  "experiment_alias": [
+   "Locomotion"
+  ],
+  "parameter_html": "<table><tr><td>Absolute oxygen consumption</td></tr><tr><td>Ankle angle at heel strike</td></tr><tr><td>Ankle angle at toe off</td></tr><tr><td>Ankle range of motion</td></tr><tr><td>Blood lactate</td></tr><tr><td>Carbon dioxide production</td></tr><tr><td>Contact time</td></tr><tr><td>Heart rate</td></tr><tr><td>Hip angle at heel strike</td></tr><tr><td>Hip angle at toe off</td></tr><tr><td>Hip range of motion</td></tr><tr><td>Impulse</td></tr><tr><td>Knee angle at heel strike</td></tr><tr><td>Knee angle at toe off</td></tr><tr><td>Knee range of motion</td></tr><tr><td>Loading rate</td></tr><tr><td>Peak ground reaction force</td></tr><tr><td>Peak impact</td></tr><tr><td>Peak propulsive force</td></tr><tr><td>Relative oxygen consumption</td></tr><tr><td>Stride length</td></tr><tr><td>Stride time</td></tr><tr><td>Treadmill speed</td></tr><tr><td>Trunk range of motion</td></tr><tr><td>Unloading rate</td></tr><tr><td>Expired ventilation (VE)</td></tr><tr><td>Ankle angle, maximum</td></tr><tr><td>Hip angle, maximum</td></tr><tr><td>Knee angle, maximum</td></tr><tr><td>Trunk angle, maximum</td></tr><tr><td>Ankle angle, minimum</td></tr><tr><td>Hip angle, minimum</td></tr><tr><td>Knee angle, minimum</td></tr><tr><td>Trunk angle, minimum</td></tr><tr><td>Oxygen consumption (VO2)</td></tr><tr><td>Rating of perceived exertion (RPE)</td></tr><tr><td>Resporatory exchange ratio (RER)</td></tr><tr><td>Exercise time, total</td></tr><tr></tr></table>",
+  "__source_key": "cl62azjuzcdf501o6hm8qafwq",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Hagan, R.\">Principal Investigator: Hagan, R.</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:De Witt, John\">Co-Investigator: De Witt, John</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Laughlin, Mitzi\">Co-Investigator: Laughlin, Mitzi</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Lee, Stuart\">Co-Investigator: Lee, Stuart</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Loehr, James\">Co-Investigator: Loehr, James</a>",
+  "image_name": [
+   "Data Collection on the Begovaya Dorozhka (BD-1) Treadmill",
+   "Exercising on the Treadmill with Vibration Isolation and Stabilization (TVIS) While Testing Metabolic Rate",
+   "Running on Begovaya Dorozhka (BD-1) with Harness",
+   "Running on the (BD-1) Treadmill in the JSC Exercise Laboratory",
+   "Running Surface of Treadmill with Isolation and Stabilization (TVIS)",
+   "Speed Display Hardware",
+   "Standard Laboratory Treadmill"
+  ],
+  "experiment_type_lk": [
+   "Countermeasures Evaluation &amp",
+   "Validation Project (CEVP)",
+   "Exercise Countermeasure Project (ECP)"
+  ],
+  "__record_modified_date": "2026-08-23T04:05:46.033032+00:00",
+  "__indexed": "2026-08-23T04:05:46.033032+00:00",
+  "alias": [
+   "Locomotion"
+  ],
+  "__record_creation_date": "2022-07-28T19:54:49.374Z",
+  "keyword": [
+   "Foot",
+   "Biomechanics",
+   "Weight-bearing",
+   "Exercise/physiology",
+   "Comparative study",
+   "Exercise",
+   "Musculoskeletal physiology"
+  ],
+  "keyword_name": "Musculoskeletal physiology",
+  "__record_size": 145103,
+  "__record_version": 29,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<br>\r\nTreadmill exercise is currently employed as a countermeasure to space flight de-conditioning during long duration missions aboard the International Space Station (ISS). The primary treadmill currently in use, a space flight treadmill with vibration isolation and stabilization (TVIS), can be operated in either motorized (TVIS-M) or non-motorized (TVIS-NM) modes. Although nominal treadmill exercise is performed in the motorized mode, non-motorized treadmill exercise has been utilized as a contingency situation in case of treadmill motor failure or low power availability for treadmill operation. Additionally, a Russian non-motorized treadmill (BD-1) has been proposed as a contingency exercise device in the event of a TVIS failure.\r\n<p>\r\nAlthough previous studies have demonstrated differences between motorized and non-motorized treadmill exercise, there has been no direct comparisons made between exercise hardware designed for space flight. Little is known about any differences in metabolic demand, muscle work, gait kinematics, and ground reaction forces between motorized and non-motorized treadmill exercise.</p>\r\n<p>The purpose of this study is to compare the acute metabolic and cardiovascular responses, as well as the kinetic and kinematic aspects of short-duration TVIS-M, TVIS-NM, and BD-1 treadmill exercise in relation to a standard laboratory treadmill (LAB-TM) exercise. The findings from this study provide valuable information regarding ongoing use of treadmill exercise as a countermeasure to musculoskeletal and cardiovascular de-conditioning associated with space flight and assist in the development of future treadmill exercise prescriptions.\r\n<p>\r\nAPPROACH:<br>\r\nTwenty-four subjects (males and females) were recruited by the Human Test Subject Facility at NASA-Johnson Space Center. Cardiovascular functional capacity of the subjects was screened using a graded exercise test on a motorized treadmill. The investigator team predetermined that the minimal level of aerobic fitness for test subjects, as assessed by peak oxygen consumption (VO<sub>2pk</sub>), was 35 ml/kg/min. Previous experience in our laboratory suggests that this is the lower limit of fitness among US astronauts. Of the 24 volunteers, only 21 achieved the desired level of fitness, and one subject later withdrew from the study. Twenty subjects completed the study.\r\n<p>\r\nFollowing the VO<sub>2pk</sub> test, subjects reported for testing on at least ten different occasions: two familiarization and eight data collection sessions. During the familiarization sessions, subjects practiced walking and running on the motorized and non-motorized treadmills at each of the study speeds (3.2-11.3 km/hr; 2-7 mph). Subjects exercised on the LAB-TM and BD-1 treadmills during one familiarization session and exercised on the TVIS-M and TVIS-NM treadmills during the other session.\r\n<p>\r\nDuring data collection subjects performed two exercise sessions in each of the four treadmill conditions. For each treadmill, the speeds were grouped as 3.2, 6.4, and 9.7 km/hr (2, 4, and 6 mph) for one session and 4.8, 8.0, and 11.3 km/hr (3, 5, and 7 mph) for the other session. Subjects attempted to complete five minutes of exercise at each speed, in order of increasing intensity, to acquire metabolic and cardiovascular measurements.\r\n<p>\r\nRESULTS:<br>\r\nAll but one subject completed five minutes of walking and running at each running speed in the motorized conditions, LAB-TM and TVIS-M. This subject could not complete the entire five minutes at 11.3 km/hr (7 mph). Not all subjects were able to complete walking or running during the non-motorized conditions on the TVIS-NM and BD-1. Subjects were successful at non-motorized treadmill speeds of 3.2 and 4.8 km/hr (2 and 3 mph), but the ability to complete the trials decreased precipitously as the speed increased from 6.4 to 11.3 km/hr (4 to 7 mph).\r\n<p>\r\nAll subjects completed the five minute walk at 3.2 km/hr (2 mph) in each of the treadmill conditions. Therefore, no comparisons were possible across treadmills for this speed. All subjects completed the five minute walk at 4.8 km/hr (3 mph) in the motorized conditions, and 19 of the 20 subjects completed five minutes of walking during the non-motorized conditions. At 4.8 km/hr (3 mph), there was no significant difference in completion times between the treadmill conditions. At speeds 6.4 km/hr (4 mph) and greater, subjects completed significantly longer exercise periods during the motorized treadmill exercise than during the non-motorized conditions. However, there was no difference in completion times between the LAB-TM and TVIS-M or between the BD-1 and TVIS-NM.</p>\r\n<p>\r\nComprehensive kinematic and kinetic data were collected to determine the differences between treadmill locomotion on motorized and non-motorized treadmills. The results suggest:<br />\r\n\u00a0</p>\r\n<ul>\r\n    <li>Subjects take shorter and more frequent steps to obtain a given speed on a non-motorized treadmill.<br />\r\n    \u00a0</li>\r\n    <li>Subjects will transition to a run at lower speeds on non-motorized treadmills (typically between 4.8 and 6.4 km/hr; 3 and 4 mph) than on motorized treadmills at the same speed.<br />\r\n    \u00a0</li>\r\n    <li>Peak ground reaction forces are not different between motorized and non-motorized treadmills. However, distinct impact peaks do not occur during running on non-motorized treadmills, and loading rates were much larger on the motorized treadmills, suggesting that motorized treadmill locomotion may provide a superior osteogenic stimulus.<br />\r\n    \u00a0</li>\r\n    <li>The greater forward lean and lack of heel strike during non-motorized locomotion suggest that gait on the non-motorized device should not be considered equivalent to gait on a level motorized treadmill at a similar speed.<br />\r\n    \u00a0</li>\r\n    <li>Hip range of motion was greater on the non-motorized treadmills, and knee range of motion was greater on the motorized treadmills, suggesting the emphasis upon different musculature depending on the device.<br />\r\n    \u00a0</li>\r\n    <li>Subjects exhibit different joint positions at heel strike, but similar positions at toe-off, suggesting that the physiological effects of locomotive exercise due to impact forces may differ between devices.<br />\r\n    \u00a0</li>\r\n    <li>Non-motorized treadmill locomotion on a level treadmill resembles motorized treadmill locomotion on an inclined treadmill.<br />\r\n    \u00a0</li>\r\n    <li>Long-term training on a non-motorized treadmill will probably result in different physiological effects than on a motorized treadmill.<br />\r\n    <end></end></li>\r\n</ul>",
+  "payload_id": "ROI",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "ROI_Locomotion",
+  "indexed": "2026-08-23T04:05:46.033032+00:00",
+  "GUID": "cl62azjuzcdf501o6hm8qafwq",
+  "parameter_name": [
+   "Absolute oxygen consumption",
+   "Ankle angle at heel strike",
+   "Ankle angle at toe off",
+   "Ankle range of motion",
+   "Blood lactate",
+   "Carbon dioxide production",
+   "Contact time",
+   "Heart rate",
+   "Hip angle at heel strike",
+   "Hip angle at toe off",
+   "Hip range of motion",
+   "Impulse",
+   "Knee angle at heel strike",
+   "Knee angle at toe off",
+   "Knee range of motion",
+   "Loading rate",
+   "Peak ground reaction force",
+   "Peak impact",
+   "Peak propulsive force",
+   "Relative oxygen consumption",
+   "Stride length",
+   "Stride time",
+   "Treadmill speed",
+   "Trunk range of motion",
+   "Unloading rate",
+   "Expired ventilation (VE)",
+   "Ankle angle, maximum",
+   "Hip angle, maximum",
+   "Knee angle, maximum",
+   "Trunk angle, maximum",
+   "Ankle angle, minimum",
+   "Hip angle, minimum",
+   "Knee angle, minimum",
+   "Trunk angle, minimum",
+   "Oxygen consumption (VO2)",
+   "Rating of perceived exertion (RPE)",
+   "Resporatory exchange ratio (RER)",
+   "Exercise time, total"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 1318,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Muscle physiology",
+   "Cardiovascular physiology",
+   "Exercise physiology"
+  ],
+  "pme_role_with_name": [
+   "Administration: Moore, Alan",
+   "Administration: Rogers, Alice",
+   "Co-Investigator: De Witt, John",
+   "Co-Investigator: Laughlin, Mitzi",
+   "Co-Investigator: Lee, Stuart",
+   "Co-Investigator: Loehr, James",
+   "Principal Investigator: Hagan, R.",
+   "Technical Assistant to Principal Investigator: Bentley, Jason",
+   "Technical Assistant to Principal Investigator: Borders, Heather",
+   "Technical Assistant to Principal Investigator: English, Kirk",
+   "Technical Assistant to Principal Investigator: McCleary, Frank",
+   "Technical Assistant to Principal Investigator: Norcross, Jason",
+   "Technical Assistant to Principal Investigator: Schaffner, Grant",
+   "Technical Assistant to Principal Investigator: Stroud, Leah",
+   "Technical Assistant to Principal Investigator: Wilson, Cassie"
+  ],
+  "missions": [
+   [
+    [
+     "ROI"
+    ]
+   ]
+  ],
+  "__dirid": "2509d39b-ecd1-53c1-872a-f6d98978aa4f",
+  "__record_size_wo_doccontent": 145103,
+  "PI": [
+   "Hagan, R."
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "ROI_Locomotion",
+   "Locomotion"
+  ],
+  "mission_id": [
+   [
+    [
+     "ROI"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "proposal_date": [],
+  "proposal_source": [],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Hagan, R."
+  ],
+  "LaunchDate": [
+   "01/01/2002"
+  ],
+  "LaunchYear": 2002,
+  "program_name": [
+   "Ground"
+  ],
+  "archive_status": "Data preservation is complete. Privacy-protected datasets are available via data request. Remaining datasets are publicly available.",
+  "__is_locked": false,
+  "Program": "Ground",
+  "__source_field_concat": "NASA/TP-2006-0052414 ROI cl62azjuzcdf501o6hm8qafwq Musculoskeletal physiology N/A Motorized and Non-Motorized Treadmill Evaluation: Physiologic Responses and Biomechanical Aspects ROI_Locomotion Ground",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<br>\r\nTreadmill exercise is currently employed as a countermeasure to space flight de-conditioning during long duration missions aboard the International Space Station (ISS). The primary treadmill currently in use, a space flight treadmill with vibration isolation and stabilization (TVIS), can be operated in either motorized (TVIS-M) or non-motorized (TVIS-NM) modes. Although nominal treadmill exercise is performed in the motorized mode, non-motorized treadmill exercise has been utilized as a contingency situation in case of treadmill motor failure or low power availability for treadmill operation. Additionally, a Russian non-motorized treadmill (BD-1) has been proposed as a contingency exercise device in the event of a TVIS failure.\r\n<p>\r\nAlthough previous studies have demonstrated differences between motorized and non-motorized treadmill exercise, there has been no direct comparisons made between exercise hardware designed for space flight. Little is known about any differences in metabolic demand, muscle work, gait kinematics, and ground reaction forces between motorized and non-motorized treadmill exercise.</p>\r\n<p>The purpose of this study is to compare the acute metabolic and cardiovascular responses, as well as the kinetic and kinematic aspects of short-duration TVIS-M, TVIS-NM, and BD-1 treadmill exercise in relation to a standard laboratory treadmill (LAB-TM) exercise. The findings from this study provide valuable information regarding ongoing use of treadmill exercise as a countermeasure to musculoskeletal and cardiovascular de-conditioning associated with space flight and assist in the development of future treadmill exercise prescriptions.\r\n<p>\r\nAPPROACH:<br>\r\nTwenty-four subjects (males and females) were recruited by the Human Test Subject Facility at NASA-Johnson Space Center. Cardiovascular functional capacity of the subjects was screened using a graded exercise test on a motorized treadmill. The investigator team predetermined that the minimal level of aerobic fitness for test subjects, as assessed by peak oxygen consumption (VO<sub>2pk</sub>), was 35 ml/kg/min. Previous experience in our laboratory suggests that this is the lower limit of fitness among US astronauts. Of the 24 volunteers, only 21 achieved the desired level of fitness, and one subject later withdrew from the study. Twenty subjects completed the study.\r\n<p>\r\nFollowing the VO<sub>2pk</sub> test, subjects reported for testing on at least ten different occasions: two familiarization and eight data collection sessions. During the familiarization sessions, subjects practiced walking and running on the motorized and non-motorized treadmills at each of the study speeds (3.2-11.3 km/hr; 2-7 mph). Subjects exercised on the LAB-TM and BD-1 treadmills during one familiarization session and exercised on the TVIS-M and TVIS-NM treadmills during the other session.\r\n<p>\r\nDuring data collection subjects performed two exercise sessions in each of the four treadmill conditions. For each treadmill, the speeds were grouped as 3.2, 6.4, and 9.7 km/hr (2, 4, and 6 mph) for one session and 4.8, 8.0, and 11.3 km/hr (3, 5, and 7 mph) for the other session. Subjects attempted to complete five minutes of exercise at each speed, in order of increasing intensity, to acquire metabolic and cardiovascular measurements.\r\n<p>\r\nRESULTS:<br>\r\nAll but one subject completed five minutes of walking and running at each running speed in the motorized conditions, LAB-TM and TVIS-M. This subject could not complete the entire five minutes at 11.3 km/hr (7 mph). Not all subjects were able to complete walking or running during the non-motorized conditions on the TVIS-NM and BD-1. Subjects were successful at non-motorized treadmill speeds of 3.2 and 4.8 km/hr (2 and 3 mph), but the ability to complete the trials decreased precipitously as the speed increased from 6.4 to 11.3 km/hr (4 to 7 mph).\r\n<p>\r\nAll subjects completed the five minute walk at 3.2 km/hr (2 mph) in each of the treadmill conditions. Therefore, no comparisons were possible across treadmills for this speed. All subjects completed the five minute walk at 4.8 km/hr (3 mph) in the motorized conditions, and 19 of the 20 subjects completed five minutes of walking during the non-motorized conditions. At 4.8 km/hr (3 mph), there was no significant difference in completion times between the treadmill conditions. At speeds 6.4 km/hr (4 mph) and greater, subjects completed significantly longer exercise periods during the motorized treadmill exercise than during the non-motorized conditions. However, there was no difference in completion times between the LAB-TM and TVIS-M or between the BD-1 and TVIS-NM.</p>\r\n<p>\r\nComprehensive kinematic and kinetic data were collected to determine the differences between treadmill locomotion on motorized and non-motorized treadmills. The results suggest:<br />\r\n\u00a0</p>\r\n<ul>\r\n    <li>Subjects take shorter and more frequent steps to obtain a given speed on a non-motorized treadmill.<br />\r\n    \u00a0</li>\r\n    <li>Subjects will transition to a run at lower speeds on non-motorized treadmills (typically between 4.8 and 6.4 km/hr; 3 and 4 mph) than on motorized treadmills at the same speed.<br />\r\n    \u00a0</li>\r\n    <li>Peak ground reaction forces are not different between motorized and non-motorized treadmills. However, distinct impact peaks do not occur during running on non-motorized treadmills, and loading rates were much larger on the motorized treadmills, suggesting that motorized treadmill locomotion may provide a superior osteogenic stimulus.<br />\r\n    \u00a0</li>\r\n    <li>The greater forward lean and lack of heel strike during non-motorized locomotion suggest that gait on the non-motorized device should not be considered equivalent to gait on a level motorized treadmill at a similar speed.<br />\r\n    \u00a0</li>\r\n    <li>Hip range of motion was greater on the non-motorized treadmills, and knee range of motion was greater on the motorized treadmills, suggesting the emphasis upon different musculature depending on the device.<br />\r\n    \u00a0</li>\r\n    <li>Subjects exhibit different joint positions at heel strike, but similar positions at toe-off, suggesting that the physiological effects of locomotive exercise due to impact forces may differ between devices.<br />\r\n    \u00a0</li>\r\n    <li>Non-motorized treadmill locomotion on a level treadmill resembles motorized treadmill locomotion on an inclined treadmill.<br />\r\n    \u00a0</li>\r\n    <li>Long-term training on a non-motorized treadmill will probably result in different physiological effects than on a motorized treadmill.<br />\r\n    <end></end></li>\r\n</ul>",
+  "__doi": "10.83263/t7p2-ct53",
+  "__doi_record_creation_date": "2026-08-23T04:05:46",
+  "__doi_record_modified_date": "2026-08-23T04:05:46"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001794",
+   "label": "JMROI_Locomotion_6",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Total Exercise Time and Treadmill Speed",
+    "dataset_catalog": "JMROI_Locomotion_6",
+    "dataset_description": [
+     "This graph shows the mean (\u00b1SE) total exercise time achieved during treadmill walking and\r\nrunning on the standard laboratory (LAB-TM), Russian (BD-1), TVIS motorized (TVIS-M),\r\nand TVIS non-motorized (TVIS-NM) treadmills.  \r\n<p>\r\nSource: Unpublished data"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "ROI_Locomotion"
+    ]
+   },
+   "meta": "1 file \u00b7 51.4 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "44a50eb7-fc10-57fc-a74d-9a4bcf41eda5",
+     "label": "JMROI_Locomotion_6.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 52634,
+     "meta": "51.4 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001126",
+   "label": "JMROI_Locomotion_11",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Survival Data",
+    "dataset_catalog": "JMROI_Locomotion_11",
+    "dataset_description": [
+     "This Excel file contains survival data grouped by speed and treadmill for subjects in the ROI_Locomotion study. Variables include speed, treadmill, trials completed, trials failed, and mean survival time in intervals.\r\n<p>\r\nSource: De Witt JK, Lee SM, Wilson CA, and Hagan RD. Determinants of time to fatigue during nonmotorized treadmill exercise. Journal of Strength and Conditioning Research. 2009 May; 23(3):883-90."
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "ROI_Locomotion"
+    ]
+   },
+   "meta": "1 file \u00b7 13.2 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "94a0b7c2-cf1d-5dbd-a7ca-4823b475564b",
+     "label": "JMROI_Locomotion_11.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 13517,
+     "meta": "13.2 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000151",
+   "label": "JMROI_Locomotion_12",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Cox Regression Coefficients, Wald Z-values, Hazard Ratio, and Confidence Limits",
+    "dataset_catalog": "JMROI_Locomotion_12",
+    "dataset_description": [
+     "This Excel file contains Cox regression coefficients, Wald Z-values, hazard ratio, and 95% confidence limits for all terms predicting time to failure during nonmotorized treadmill running for subjects in the ROI_Locomotion study.\r\n<p>\r\nSource: De Witt JK, Lee SM, Wilson CA, and Hagan RD. Determinants of time to fatigue during nonmotorized treadmill exercise. Journal of Strength and Conditioning Research. 2009 May; 23(3):883-90."
+    ],
+    "processing_level": "",
+    "experiment_id": [
+     "ROI_Locomotion"
+    ]
+   },
+   "meta": "1 file \u00b7 13.5 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "24e3e6f3-00df-516f-b36f-95c0b1973c1a",
+     "label": "JMROI_Locomotion_12.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 13824,
+     "meta": "13.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002031",
+   "label": "JMROI_Locomotion_13",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Parameter, Hazard Ratios, and Confidence Limits",
+    "dataset_catalog": "JMROI_Locomotion_13",
+    "dataset_description": [
+     "This Excel file contains parameter, hazard ratios, and 95% confidence limits for significant factors predicting time to failure during nonmotorized treadmill running for subjects in the ROI_Locomotion study.\r\n<p>\r\nSource: De Witt JK, Lee SM, Wilson CA, and Hagan RD. Determinants of time to fatigue during nonmotorized treadmill exercise. Journal of Strength and Conditioning Research. 2009 May; 23(3):883-90."
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "ROI_Locomotion"
+    ]
+   },
+   "meta": "1 file \u00b7 13.3 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "7b81187e-4033-5c81-bf6e-1ad38685d5a2",
+     "label": "JMROI_Locomotion_13.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 13619,
+     "meta": "13.3 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001846",
+   "label": "JMROI_Locomotion_8",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Factors Affecting Exercise to Exhaustion",
+    "dataset_catalog": "JMROI_Locomotion_8",
+    "dataset_description": [
+     "This graph depicts the estimated survival among subjects on the nonmotorized treadmills at 6.44 (panel A), 8.05 (panel B), 9.66 (panel C), and 11.27 km-h<sup>1</sup>1 (panel D). See Figure 2 in referenced publication.  Each interval represents 15 seconds.  Each plot is pooled across the entire sample. Survival plots were similar between treadmills at each speed, but as speed increased, the rate of failure increased. The log-rank tests revealed that the survival times for the group decreased as speed increased (p < 0.05). It should be noted that at 9.66 and 11.27 km-h<sup>1</sup>, the mean survival times were underestimated because of the large number of censored variables. There were no significant differences in survival times between treadmills.\r\n<p>\r\nSource: De Witt JK, Lee SM, Wilson CA, and Hagan RD. Determinants of time to fatigue during nonmotorized treadmill exercise. Journal of Strength and Conditioning Research. 2009 May; 23(3):883-90."
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "ROI_Locomotion"
+    ]
+   },
+   "meta": "1 file \u00b7 50.4 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "61ef0dad-f04f-5dc5-ad5a-51ba3ed95ddc",
+     "label": "JMROI_Locomotion_8.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 51610,
+     "meta": "50.4 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002333",
+   "label": "JMROI_Locomotion_7",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Number of Subjects with an Impact Peak Force",
+    "dataset_catalog": "JMROI_Locomotion_7",
+    "dataset_description": [
+     "This table shows the number of subjects who exhibited an impact peak force during locomotion at 3.2-11.3 km/h (2-7 mph) on each treadmill.  Peak impact forces ranged from 1.0 to 1.5 BW.  When peak impact occurred on all treadmills, there were no significant differences in magnitude of impact force between treadmills.\r\n<p>\r\nSource: Unpublished data"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "ROI_Locomotion"
+    ]
+   },
+   "meta": "1 file \u00b7 15.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "3ba41732-a693-5c57-b015-f336940f44a8",
+     "label": "JMROI_Locomotion_7.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 15360,
+     "meta": "15.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001643",
+   "label": "JMROI_Locomotion_10",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Subject Characteristics",
+    "dataset_catalog": "JMROI_Locomotion_10",
+    "dataset_description": [
+     "This Excel file contains subject demographics for those who participated in the ROI_Locomotion study.  Values include age, height, body mass, leg length, peak VO<sub>2</sub>, relative VO<sub>2</sub>, and maximal heart rate.\r\n<p>\r\nSource: De Witt JK, Lee SM, Wilson CA, and Hagan RD. Determinants of time to fatigue during nonmotorized treadmill exercise. Journal of Strength and Conditioning Research. 2009 May; 23(3):883-90."
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "ROI_Locomotion"
+    ]
+   },
+   "meta": "1 file \u00b7 13.3 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "ad4323be-1343-5c8a-a4bf-daae8083ec1c",
+     "label": "JMROI_Locomotion_10.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 13619,
+     "meta": "13.3 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001127",
+   "label": "JMROI_Locomotion_5",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Choice of Running Versus Walking on Each Treadmill for Each Speed",
+    "dataset_catalog": "JMROI_Locomotion_5",
+    "dataset_description": [
+     "This table shows the preferred type of gait at 3, 4, and 5 mph for each treadmill.  All subjects chose to walk at 3 mph regardless of treadmill, and nearly all (19 of 20) chose to run at 5 mph.  Fourteen of 20 chose to run at 4 mph on the non-motorized treadmill.  This suggests that the walk-to-run transition speed may be treadmill-modality dependent.\r\n<p>\r\nSource: Unpublished data"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "ROI_Locomotion"
+    ]
+   },
+   "meta": "1 file \u00b7 15.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "87404ff7-8c74-5c32-ae20-0a2de68dbe3f",
+     "label": "JMROI_Locomotion_5.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 15360,
+     "meta": "15.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001630",
+   "label": "JMROI_Locomotion_4",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Typical Ground Reaction Force (GRF)",
+    "dataset_catalog": "JMROI_Locomotion_4",
+    "dataset_description": [
+     "This graph shows the typical ground reaction force (GRF) for a single step for one subject on each of the four treadmills.  This particular subject chose to walk at 6.4 km/h (4 mph) on the motorized treadmills, but ran at the same speed on the non-motorized treadmills, as exhibited by the different GRF shape at that speed for each treadmill.\r\n<p>\r\nSource: Unpublished data"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "ROI_Locomotion"
+    ]
+   },
+   "meta": "1 file \u00b7 124.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "c8864d0b-6619-56e0-9824-e35fbe0b3489",
+     "label": "JMROI_Locomotion_4.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 126976,
+     "meta": "124.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001631",
+   "label": "JMROI_Locomotion_9",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Hazard Functions",
+    "dataset_catalog": "JMROI_Locomotion_9",
+    "dataset_description": [
+     "This graph depicts hazard functions among male and female subjects for all treadmill speeds. Each interval represents 15 seconds.\r\n<p>\r\nSource: De Witt JK, Lee SM, Wilson CA, and Hagan RD. Determinants of time to fatigue during nonmotorized treadmill exercise. Journal of Strength and Conditioning Research. 2009 May; 23(3):883-90."
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "ROI_Locomotion"
+    ]
+   },
+   "meta": "1 file \u00b7 36.7 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "b348436e-5271-5bb7-9e03-eb3fd7e3b2c7",
+     "label": "JMROI_Locomotion_9.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 37581,
+     "meta": "36.7 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

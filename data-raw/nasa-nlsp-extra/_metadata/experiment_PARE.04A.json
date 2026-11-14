@@ -1,0 +1,5898 @@
+{
+ "record": {
+  "id": "a300a2b3-8a39-5b5c-b9fc-d09b3479f8fa",
+  "_id": "a300a2b3-8a39-5b5c-b9fc-d09b3479f8fa",
+  "experiment_title": "Fluid Electrolyte Metabolism",
+  "pub_document_number": "ARCPUB001363",
+  "archive_status_index": 1,
+  "parameter_html": "<table><tr><td>Content, Copper, fetus, rat,, Atomic absorption spectrophotometer</td></tr><tr><td>Content, Copper, placenta, rat,, Atomic absorption spectrophotometer</td></tr><tr><td>Content, Iron , placenta, rat,, Atomic absorption spectrophotometer</td></tr><tr><td>Content, Iron, fetus, rat,, Atomic absorption spectrophotometer</td></tr><tr><td>Content, Magnesium, fetus, rat,, Atomic absorption spectrophotometer</td></tr><tr><td>Content, Magnesium, placenta, rat,, Atomic absorption spectrophotometer</td></tr><tr><td>Content, Potassium, fetus, rat, Photometer</td></tr><tr><td>Content, Potassium, placenta, rat, Photometer</td></tr><tr><td>Content, Sodium, fetus, rat, Photometer</td></tr><tr><td>Content, Sodium, placenta, rat, Photometer</td></tr><tr><td>Content, Water, fetus, rat, Dried, weighed, calculated</td></tr><tr><td>Content, Water, placenta, rat, Dried, weighed, calculated</td></tr><tr><td>Temperature, AEM, NIH.R1, Ambient temperature recorder (ATR)</td></tr><tr></tr></table>",
+  "__source_key": "cl62az5dicdbo01o67s39fem2",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Serova, Luba\">Principal Investigator: Serova, Luba</a>",
+  "experiment_type_lk": [
+   "Shuttle Life Sciences Research (Middeck)"
+  ],
+  "__record_modified_date": "2026-08-23T03:55:37.200216+00:00",
+  "proposal_source": "Foreign-Russia",
+  "__indexed": "2026-08-23T03:55:37.200216+00:00",
+  "session_type": "Flight",
+  "__record_creation_date": "2022-07-28T20:04:34.651Z",
+  "__record_version": 28,
+  "__record_size": 67984,
+  "__model_version": 60,
+  "experiment_description": "<B>Objectives:</B><P>Our previous experiments have revealed that an adult organism may well remain functional and a developing fetus may also develop normal functions in a space environment.  However, changes were also observed in space-flown fetuses and animals.  In this experiment it is assumed that a longer flight and exposure to microgravity may aggravate these changes. The purpose of this experiment is to accumulate new data concerning the metabolism of water and electrolytes in the placentas and fetuses that developed during spaceflight.<P><B>Approach:</B><P>Animals were laparotomized on the 8th gestational day to measure implantation rate, and on the 20th gestational day to remove one uterine horn containing fetuses. Animals were flown from the 9th through the 20th gestational day. One fetus and placenta from the flight, laporatimized viviarium controls, and synchronous groups were analyzed. Fetus organs were dissected and dried to a constant weight at 105 degrees Celsius to measure content, and then ashed in concentrated nitric acid at 90 degrees Celsius. Sodium and potassium were measured in air propane flames using a Corning-410 photometer.  Calcium, copper, iron, and magnesium were measured in air-acetylene flame using a Hitachi atomic absorption spectrophotometer. Placentas were also analyzed for the same parameters.<P><B>Results:</B><P>In placentas of the flight dams,  water, sodium, potassium, magnesium, and iron did not differ from those in synchronous and vivarium dams. Calcium in the placenta of the flight dams was lower than in synchronous dams and identical to that in vivarium controls, whereas copper in the placentas of the flight dams was higher than in the vivarium controls and very similar to that in synchronous dams. In fetuses of the flight group, water, sodium, and magnesium in fetuses of the flight group did not differ significantly from those in the synchronous controls and were lower than in the vivarium controls. Potassium, calcium, and copper in fetuses of the three groups were identical. Iron in the fetuses of the flight group was higher than in the synchronous group and identical to that in the vivarium controls. The data obtained allow the conclusion that no changes in water, sodium, potassium, iron or copper in the fetuses and placentas were observed that can attributed to the effect of microgravity. Minor changes seen in the flight fetuses and placents were also observed in the synchronous group.",
+  "payload_id": "NIH.R1",
+  "CombinedSpecies": [
+   [
+    "Rat (Rattus norvegicus) Sprague-Dawley"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "indexed": "2026-08-23T03:55:37.200216+00:00",
+  "experiment_id": "PARE.04A",
+  "experiment_related": [
+   "No related"
+  ],
+  "GUID": "cl62az5dicdbo01o67s39fem2",
+  "parameter_name": [
+   "Content, Copper, fetus, rat,, Atomic absorption spectrophotometer",
+   "Content, Copper, placenta, rat,, Atomic absorption spectrophotometer",
+   "Content, Iron , placenta, rat,, Atomic absorption spectrophotometer",
+   "Content, Iron, fetus, rat,, Atomic absorption spectrophotometer",
+   "Content, Magnesium, fetus, rat,, Atomic absorption spectrophotometer",
+   "Content, Magnesium, placenta, rat,, Atomic absorption spectrophotometer",
+   "Content, Potassium, fetus, rat, Photometer",
+   "Content, Potassium, placenta, rat, Photometer",
+   "Content, Sodium, fetus, rat, Photometer",
+   "Content, Sodium, placenta, rat, Photometer",
+   "Content, Water, fetus, rat, Dried, weighed, calculated",
+   "Content, Water, placenta, rat, Dried, weighed, calculated",
+   "Temperature, AEM, NIH.R1, Ambient temperature recorder (ATR)"
+  ],
+  "exp_index": 678,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Metabolism and nutrition",
+   "Renal, fluid and electrolyte physiology"
+  ],
+  "protocol_approach": "Synchronous control",
+  "pme_role_with_name": [
+   "Principal Investigator: Serova, Luba"
+  ],
+  "missions": [
+   [
+    [
+     "STS-66"
+    ]
+   ]
+  ],
+  "__dirid": "a300a2b3-8a39-5b5c-b9fc-d09b3479f8fa",
+  "__record_size_wo_doccontent": 67984,
+  "experiment_parms_tissue2": "NULL",
+  "experiment_parms_tissue1": "NULL",
+  "PI": [
+   "Serova, Luba"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "PARE.04A"
+  ],
+  "keyword": [],
+  "mission_id": [
+   [
+    [
+     "STS-66"
+    ]
+   ]
+  ],
+  "center": [
+   "Ames Research Center"
+  ],
+  "ncindex": [
+   7
+  ],
+  "proposal_date": [],
+  "species": [
+   "Rat"
+  ],
+  "PrincipalInvestigator": [
+   "Serova, Luba"
+  ],
+  "LaunchDate": [
+   "11/03/1994"
+  ],
+  "LaunchYear": 1994,
+  "program_name": [
+   "Shuttle Program"
+  ],
+  "archive_status": "Data preservation is complete. All datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Shuttle Program",
+  "__source_field_concat": "Flight ARCPUB001363 Foreign-Russia NIH.R1 cl62az5dicdbo01o67s39fem2 NULL NULL  Synchronous control Fluid Electrolyte Metabolism PARE.04A Shuttle Program Data preservation is complete. All datasets are publicly available.",
+  "__icon_type": "rat",
+  "__description": "<B>Objectives:</B><P>Our previous experiments have revealed that an adult organism may well remain functional and a developing fetus may also develop normal functions in a space environment.  However, changes were also observed in space-flown fetuses and animals.  In this experiment it is assumed that a longer flight and exposure to microgravity may aggravate these changes. The purpose of this experiment is to accumulate new data concerning the metabolism of water and electrolytes in the placentas and fetuses that developed during spaceflight.<P><B>Approach:</B><P>Animals were laparotomized on the 8th gestational day to measure implantation rate, and on the 20th gestational day to remove one uterine horn containing fetuses. Animals were flown from the 9th through the 20th gestational day. One fetus and placenta from the flight, laporatimized viviarium controls, and synchronous groups were analyzed. Fetus organs were dissected and dried to a constant weight at 105 degrees Celsius to measure content, and then ashed in concentrated nitric acid at 90 degrees Celsius. Sodium and potassium were measured in air propane flames using a Corning-410 photometer.  Calcium, copper, iron, and magnesium were measured in air-acetylene flame using a Hitachi atomic absorption spectrophotometer. Placentas were also analyzed for the same parameters.<P><B>Results:</B><P>In placentas of the flight dams,  water, sodium, potassium, magnesium, and iron did not differ from those in synchronous and vivarium dams. Calcium in the placenta of the flight dams was lower than in synchronous dams and identical to that in vivarium controls, whereas copper in the placentas of the flight dams was higher than in the vivarium controls and very similar to that in synchronous dams. In fetuses of the flight group, water, sodium, and magnesium in fetuses of the flight group did not differ significantly from those in the synchronous controls and were lower than in the vivarium controls. Potassium, calcium, and copper in fetuses of the three groups were identical. Iron in the fetuses of the flight group was higher than in the synchronous group and identical to that in the vivarium controls. The data obtained allow the conclusion that no changes in water, sodium, potassium, iron or copper in the fetuses and placentas were observed that can attributed to the effect of microgravity. Minor changes seen in the flight fetuses and placents were also observed in the synchronous group.",
+  "__doi": "10.83263/jy8q-eg24",
+  "__doi_record_creation_date": "2026-08-23T03:55:37",
+  "__doi_record_modified_date": "2026-08-23T03:55:37"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000060",
+   "label": "AINV0000000372",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "NIH.R1 Orbiter Environment Simulator (OES) real time data- Julian day 311",
+    "dataset_catalog": "AINV0000000372",
+    "dataset_description": [
+     "Spreadsheet column headings:  HH:MM:SS, TTTT.T, RRRRR.R, CCCCCCC, 1.0, 2.0, 3.0<br/><br/>T = temperature<br/>R = relative humidity<br/>C = CO2"
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9303003",
+     "9303006",
+     "9303009",
+     "9303011",
+     "9303012",
+     "9303019",
+     "9303021",
+     "9303026",
+     "9303028",
+     "9303031 1_2",
+     "PARE.04A",
+     "PARE.04B",
+     "PARE.04C"
+    ]
+   },
+   "meta": "13 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "cea88a9d-8509-59ab-b3eb-b1764716d9ab",
+     "label": "J311_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7b8165d3-16a2-5e67-b4d1-56a821e17d04",
+     "label": "J311_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "df682eac-f16e-564c-9edd-56cf7fdc7d2a",
+     "label": "J311_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9e8e017d-7ff3-5f8f-a0a2-0fc212546bdf",
+     "label": "J311_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "dd0ec5d0-5956-5de0-8cc9-4a3a93f6aacf",
+     "label": "J311_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "924ee8bc-1b8e-5691-8bc8-9c10ce36bf28",
+     "label": "J311_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3d7e62af-4d6e-5caa-97db-6a108b597716",
+     "label": "J311_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d9eed4de-923d-5b8a-8893-d0de9cdb464b",
+     "label": "J311_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "739ee17a-9a8d-56fc-b573-8f8ff3f27c84",
+     "label": "J311_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c128b587-b625-58f2-bded-96bb4c2705c0",
+     "label": "J311_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0f85ff27-1a93-5161-9dea-4b563d32e352",
+     "label": "J311_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9f250c48-ffbb-5fad-8c6e-d6e5f037fe49",
+     "label": "J311_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "fe2943d8-ed30-51af-8461-29c9003bcbae",
+     "label": "J311_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000308",
+   "label": "AINV0000000389",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "NIH.R1 Chamber temperature data- Julian day 314",
+    "dataset_catalog": "AINV0000000389",
+    "dataset_description": [
+     "Spreadsheet column headings: Time, Temp, RH, CO2, SET Point: Temp, RH, CO2"
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9303003",
+     "9303006",
+     "9303009",
+     "9303011",
+     "9303012",
+     "9303019",
+     "9303021",
+     "9303026",
+     "9303028",
+     "9303031 1_2",
+     "PARE.04A",
+     "PARE.04B",
+     "PARE.04C"
+    ]
+   },
+   "meta": "13 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "cee5450b-d975-5d35-a54a-fca66caab52c",
+     "label": "IK100ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7592e383-ff84-5c8d-945a-c7fb04eb9b8b",
+     "label": "IK100ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8f6c17a6-6ec0-5766-89de-b0b4d067e328",
+     "label": "IK100ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3641c4af-d2b3-57d7-874b-e378cc5196e1",
+     "label": "IK100ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "dbbd2978-abe9-5fcf-a634-c66ea23a32ce",
+     "label": "IK100ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "55e2c836-ebe7-53ea-b428-96aad2ba67f1",
+     "label": "IK100ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "01598aa1-6d50-5399-a415-7f48f1396ddc",
+     "label": "IK100ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "65880a09-6e47-54ae-b243-9e638fb032f7",
+     "label": "IK100ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "cac92f77-2e57-5cce-8a16-ab50f360ebfc",
+     "label": "IK100ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1047f8f4-5c2f-53e9-be26-e2c375b8fa5b",
+     "label": "IK100ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e257424e-91b7-5a97-82c0-df7a25347488",
+     "label": "IK100ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "345a7551-418b-5e6f-8806-f38933a0b8f1",
+     "label": "IK100ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f2c05a1e-376f-5264-a3ee-8c157dc07dc0",
+     "label": "IK100ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002366",
+   "label": "AINV0000000375",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "NIH.R1 Orbiter Environment Simulator (OES) real time data- Julian day 314",
+    "dataset_catalog": "AINV0000000375",
+    "dataset_description": [
+     "Spreadsheet column headings:  HH:MM:SS, TTTT.T, RRRRR.R, CCCCCCC, 1.0, 2.0, 3.0<br/><br/>T = temperature<br/>R = relative humidity<br/>C = CO2"
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9303003",
+     "9303006",
+     "9303009",
+     "9303011",
+     "9303012",
+     "9303019",
+     "9303021",
+     "9303026",
+     "9303028",
+     "9303031 1_2",
+     "PARE.04A",
+     "PARE.04B",
+     "PARE.04C"
+    ]
+   },
+   "meta": "13 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "9502b101-f8fe-5f75-91e9-531e7d77c591",
+     "label": "J314_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5b5997e0-4eb7-579c-b2c9-572121918bbe",
+     "label": "J314_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e9ab1dfd-922d-5fb3-b047-6fc76f598951",
+     "label": "J314_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7b3e41d7-79bd-52ea-82fe-7b429b73a14c",
+     "label": "J314_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5b6722a4-b8cf-5bf4-8993-ae38c16ef1dd",
+     "label": "J314_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a5d696f9-0cfd-5023-bdda-e90add8da0d2",
+     "label": "J314_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "42efb039-c132-5d03-8170-30c355ffc59c",
+     "label": "J314_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e044e561-69ca-5088-bffb-7ca797a0a410",
+     "label": "J314_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a90ac198-4291-5b33-a974-6efc1ae3b7e5",
+     "label": "J314_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "25139ee0-fab4-5f05-bafa-b94df0626195",
+     "label": "J314_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6d110654-5736-5fab-8e03-62e18c4ae007",
+     "label": "J314_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2df30480-052d-5eee-a55b-f55c3abdb8f2",
+     "label": "J314_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "60df9f0f-33b9-5896-8883-558f3a25ee9a",
+     "label": "J314_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001675",
+   "label": "AINV0000000382",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "NIH.R1 Chamber temperature data- Julian day 307",
+    "dataset_catalog": "AINV0000000382",
+    "dataset_description": [
+     "Spreadsheet column headings: Time, Temp, RH, CO2, SET Point: Temp, RH, CO2"
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9303003",
+     "9303006",
+     "9303009",
+     "9303011",
+     "9303012",
+     "9303019",
+     "9303021",
+     "9303026",
+     "9303028",
+     "9303031 1_2",
+     "PARE.04A",
+     "PARE.04B",
+     "PARE.04C"
+    ]
+   },
+   "meta": "13 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "515741d4-12b6-5dc8-85fc-e4aa15f7b495",
+     "label": "IK030ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "428f036d-8899-5452-afd7-54e85bf25820",
+     "label": "IK030ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7b6385e5-da08-501d-873f-b8da45b2bc6b",
+     "label": "IK030ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "fc5f9391-f10c-59e5-a668-f5bfc94f6bd2",
+     "label": "IK030ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1f88166d-5392-5157-9220-aef0cbd04497",
+     "label": "IK030ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c74b563c-a33a-5bbb-bd54-6a78a24163ba",
+     "label": "IK030ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "64fb3e76-5e7f-5d50-a367-d6f8bb72f6c0",
+     "label": "IK030ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "dcc709ab-062a-5d05-963c-d382f65bbcb0",
+     "label": "IK030ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5b41ca47-84ad-5a3c-9335-0848e2c1625c",
+     "label": "IK030ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "056372cb-1f59-59d8-8a7f-2e47d4f152fe",
+     "label": "IK030ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "79395ab4-9f06-5c08-bb21-8f802fde76bc",
+     "label": "IK030ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "84f2e7a6-7aa6-5ada-afef-e6bc44e41e17",
+     "label": "IK030ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "661509c4-9879-554a-bc11-7e29fe6c984c",
+     "label": "IK030ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001149",
+   "label": "AINV0000000368",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "NIH.R1 Orbiter Environment Simulator (OES) real time data- Julian day 307",
+    "dataset_catalog": "AINV0000000368",
+    "dataset_description": [
+     "Spreadsheet column headings:  HH:MM:SS, TTTT.T, RRRRR.R, CCCCCCC, 1.0, 2.0, 3.0 <br/><br/>T = temperature<br/>R = relative humidity<br/>C = CO2"
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9303003",
+     "9303006",
+     "9303009",
+     "9303011",
+     "9303012",
+     "9303019",
+     "9303021",
+     "9303026",
+     "9303028",
+     "9303031 1_2",
+     "PARE.04A",
+     "PARE.04B",
+     "PARE.04C"
+    ]
+   },
+   "meta": "13 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "2b0bbad0-3464-5c75-9b0f-72542c6b1f11",
+     "label": "J307_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3cc66b12-1152-5b38-9661-8946d542d6e0",
+     "label": "J307_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ceb21f02-c52c-5638-b47b-dfaa582d0c9d",
+     "label": "J307_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "02c80a25-5e7a-5f51-a33d-2c1245019418",
+     "label": "J307_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5f2a9b2d-7917-52f6-9714-f3bb891f6e00",
+     "label": "J307_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0b59026b-a33b-5797-abb0-49e7b428c6da",
+     "label": "J307_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "08e7f3d8-1ee6-5622-a7b6-19aedf29ce58",
+     "label": "J307_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "665a91d5-1627-5339-b4ad-eb914e498412",
+     "label": "J307_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ccc77d39-a281-5acf-9053-ff5a97f64d41",
+     "label": "J307_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d99e9cff-109a-560f-aa72-27557c5346a5",
+     "label": "J307_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4a89a79c-c73a-51d2-8f0c-f62f1d8a3585",
+     "label": "J307_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6b18ebba-2677-5b5d-b0e0-2c8efeb42d68",
+     "label": "J307_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "21515950-21ab-5d3a-bef3-61812af20053",
+     "label": "J307_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002072",
+   "label": "AINV0000000369",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "NIH.R1 Orbiter Environment Simulator (OES) real time data- Julian day 308",
+    "dataset_catalog": "AINV0000000369",
+    "dataset_description": [
+     "Spreadsheet column headings:  HH:MM:SS, TTTT.T, RRRRR.R, CCCCCCC, 1.0, 2.0, 3.0<br/><br/>T = temperature<br/>R = relative humidity<br/>C = CO2"
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9303003",
+     "9303006",
+     "9303009",
+     "9303011",
+     "9303012",
+     "9303019",
+     "9303021",
+     "9303026",
+     "9303028",
+     "9303031 1_2",
+     "PARE.04A",
+     "PARE.04B",
+     "PARE.04C"
+    ]
+   },
+   "meta": "13 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "1a10309b-2163-54cc-9188-7c5224b73dcb",
+     "label": "J308_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7eb9daca-6344-5bc3-bd67-848038c369cc",
+     "label": "J308_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "21795aeb-d29c-5b19-8c46-cca0a33dd6fe",
+     "label": "J308_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f084ffaa-2270-5e19-bbe4-cdcd36b57b5f",
+     "label": "J308_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3a9f860d-2fbd-5858-94b1-97b2f33ff34a",
+     "label": "J308_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "aa15e9e1-2af7-5e63-b3e2-947bf2740734",
+     "label": "J308_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6d035d4b-e621-52e7-be7b-af1a8650a351",
+     "label": "J308_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5f4a48c7-f152-58da-b73c-5ae832418eb9",
+     "label": "J308_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3f6286ed-2e30-5dee-a8a6-c265736f3f21",
+     "label": "J308_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "10cf2f4c-9ae7-5d19-91af-fbad729b04e7",
+     "label": "J308_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3b6e4fed-bbaa-5cc2-bfb3-d6296ebde2d5",
+     "label": "J308_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5e0366ed-aa19-5686-93cc-824831124d7d",
+     "label": "J308_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "379770e2-2104-5196-b3a8-c9d21282c52b",
+     "label": "J308_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001213",
+   "label": "AINV0000000367",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "NIH.R1 Orbiter Environment Simulator (OES) real time data- Julian day 306",
+    "dataset_catalog": "AINV0000000367",
+    "dataset_description": [
+     "Spreadsheet column headings:  HH:MM:SS, TTTT.T, RRRRR.R, CCCCCCC, 1.0, 2.0, 3.0 <br/><br/>T = temperature<br/>R = relative humidity<br/>C = CO2"
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9303003",
+     "9303006",
+     "9303009",
+     "9303011",
+     "9303012",
+     "9303019",
+     "9303021",
+     "9303026",
+     "9303028",
+     "9303031 1_2",
+     "PARE.04A",
+     "PARE.04B",
+     "PARE.04C"
+    ]
+   },
+   "meta": "13 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "11e60d44-0d74-50b8-bf4d-07e55e4fde41",
+     "label": "J306_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2aab2b1b-9c2b-5b2d-9ee9-6d1a4acd3d2e",
+     "label": "J306_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "944c29f0-21a4-531a-84c9-e8de8d9738fd",
+     "label": "J306_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a08d9607-0c56-56c4-a9f4-d2f73d5c4f6b",
+     "label": "J306_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6eb27a13-de61-5ee2-945c-dfaa1bc58bdd",
+     "label": "J306_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e3334aa5-da22-59ca-9715-3fafdfd4e1cf",
+     "label": "J306_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "04795f7c-57b0-562f-8453-26f2e4856e52",
+     "label": "J306_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5ada8ac7-4ea2-513f-87fa-a36e7566dc01",
+     "label": "J306_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0e5ba04a-95b7-5337-9bab-e3936487c565",
+     "label": "J306_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "54e2715d-d3f0-5da9-aa0c-0ac62d5dee7f",
+     "label": "J306_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "11ea9942-72ed-5355-9341-c0e31583968e",
+     "label": "J306_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5e8db85d-a6ac-54d0-92fd-e4db6b543203",
+     "label": "J306_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ca735a2f-dc01-52f8-be77-68167a44021e",
+     "label": "J306_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001205",
+   "label": "AINV0000000376",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "NIH.R1 Orbiter Environment Simulator (OES) real time data- Julian day 315",
+    "dataset_catalog": "AINV0000000376",
+    "dataset_description": [
+     "Spreadsheet column headings:  HH:MM:SS, TTTT.T, RRRRR.R, CCCCCCC, 1.0, 2.0, 3.0<br/><br/>T = temperature<br/>R = relative humidity<br/>C = CO2"
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9303003",
+     "9303006",
+     "9303009",
+     "9303011",
+     "9303012",
+     "9303019",
+     "9303021",
+     "9303026",
+     "9303028",
+     "9303031 1_2",
+     "PARE.04A",
+     "PARE.04B",
+     "PARE.04C"
+    ]
+   },
+   "meta": "13 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "a20d6daa-7f19-557f-9ac1-101e837728ba",
+     "label": "J315_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "dc7e7e54-d437-55f4-9ac5-814dc3df284a",
+     "label": "J315_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "af850faa-c324-5e22-abd0-08e7ac674b35",
+     "label": "J315_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "67f295c1-393d-5aca-a42a-46caa7ae8ed5",
+     "label": "J315_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "27d06b07-f0b5-5d0e-8057-4b6160440a1c",
+     "label": "J315_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ef5be39d-80f7-5ac3-be15-865be9582579",
+     "label": "J315_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "58b99292-ef07-58b6-b261-0735ca2d4d61",
+     "label": "J315_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "bd1aa71f-fbb8-55e4-aa00-59aa7720aa4b",
+     "label": "J315_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "fca969a5-d2bf-56b1-a910-2391be339d48",
+     "label": "J315_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a3899a1d-c5cd-5337-ae11-821a6571675c",
+     "label": "J315_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ff4c27ed-e22c-5405-b658-ab15d88064c7",
+     "label": "J315_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "697f6aa3-23c3-59bf-a539-d0d48e0f9b97",
+     "label": "J315_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5aa99a09-d126-5957-8fda-9f1b7f5f6a16",
+     "label": "J315_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002074",
+   "label": "AINV0000000379",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "NIH.R1 Orbiter Environment Simulator (OES) real time data- Julian day 318",
+    "dataset_catalog": "AINV0000000379",
+    "dataset_description": [
+     "Spreadsheet column headings:  HH:MM:SS, TTTT.T, RRRRR.R, CCCCCCC, 1.0, 2.0, 3.0<br/><br/>T = temperature<br/>R = relative humidity<br/>C = CO2"
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9303003",
+     "9303006",
+     "9303009",
+     "9303011",
+     "9303012",
+     "9303019",
+     "9303021",
+     "9303026",
+     "9303028",
+     "9303031 1_2",
+     "PARE.04A",
+     "PARE.04B",
+     "PARE.04C"
+    ]
+   },
+   "meta": "13 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "2ef4eee8-deea-5933-a4df-cb13de9b86f3",
+     "label": "J318_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d767880d-b136-511d-bf35-4cf7aa5bfba3",
+     "label": "J318_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d1bd23cb-7aac-5bf0-b0ef-a18c31be871a",
+     "label": "J318_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "dff87ddb-3145-5f09-b3eb-831319587de0",
+     "label": "J318_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4a6daa4a-7aca-52fb-8cc1-5d0a2e8f23ce",
+     "label": "J318_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "64bc9672-f9fb-5a75-98ee-efaecd9cbcb3",
+     "label": "J318_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "bd7099ca-56f3-53ff-a749-59507b328284",
+     "label": "J318_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "49bf0b7d-f406-56e7-ac61-8d321537fe11",
+     "label": "J318_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "17f5bbeb-f2d5-5e4a-8c6d-b3582feba4ad",
+     "label": "J318_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f82c5844-1b49-532a-b62b-7e92425d3df2",
+     "label": "J318_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b9f3dc36-406b-50b6-9a89-786ebe617309",
+     "label": "J318_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7e54b50e-196e-5dc7-9a4e-1870a91a18c6",
+     "label": "J318_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f14a378b-946c-5e92-876f-af68c14f9d12",
+     "label": "J318_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000939",
+   "label": "AINV0000000392",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "NIH.R1 Chamber temperature data- Julian day 317",
+    "dataset_catalog": "AINV0000000392",
+    "dataset_description": [
+     "Spreadsheet column headings: Time, Temp, RH, CO2, SET Point: Temp, RH, CO2"
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9303003",
+     "9303006",
+     "9303009",
+     "9303011",
+     "9303012",
+     "9303019",
+     "9303021",
+     "9303026",
+     "9303028",
+     "9303031 1_2",
+     "PARE.04A",
+     "PARE.04B",
+     "PARE.04C"
+    ]
+   },
+   "meta": "13 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "696df73f-3cb8-53d1-bd77-5ddda8ed5270",
+     "label": "IK130ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2f4b2674-628d-5bd6-964b-ac01e3ced438",
+     "label": "IK130ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f05542f1-b78d-5463-8eeb-16aee99ed9a9",
+     "label": "IK130ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6dce27c2-b180-553b-beb8-dda0740ef8cb",
+     "label": "IK130ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "96cceb7b-5f8e-57a8-8b51-cc2318d17d54",
+     "label": "IK130ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "bc04c040-db5c-552c-9741-5e3487926b08",
+     "label": "IK130ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "40c2b494-8e16-577a-81e0-dc9192e469ec",
+     "label": "IK130ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "015395f8-302f-56a7-a7d9-82cee4c658c1",
+     "label": "IK130ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6496a256-4171-5dd6-98bf-f6d65ef295ac",
+     "label": "IK130ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "cf0a0bca-b0f7-5bdd-9cd9-78e55a8aefd5",
+     "label": "IK130ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "983f57b1-b34a-52f9-a813-baf6fa62e2f0",
+     "label": "IK130ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2654cccb-f612-5d21-8f80-3865bddbfc4f",
+     "label": "IK130ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f70cf4a3-00f3-50c2-903b-9e8651fd65cc",
+     "label": "IK130ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001346",
+   "label": "AINV0000000371",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "NIH.R1 Orbiter Environment Simulator (OES) real time data- Julian day 310",
+    "dataset_catalog": "AINV0000000371",
+    "dataset_description": [
+     "Spreadsheet column headings:  HH:MM:SS, TTTT.T, RRRRR.R, CCCCCCC, 1.0, 2.0, 3.0<br/><br/>T = temperature<br/>R = relative humidity<br/>C = CO2"
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9303003",
+     "9303006",
+     "9303009",
+     "9303011",
+     "9303012",
+     "9303019",
+     "9303021",
+     "9303026",
+     "9303028",
+     "9303031 1_2",
+     "PARE.04A",
+     "PARE.04B",
+     "PARE.04C"
+    ]
+   },
+   "meta": "13 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "268c7648-0829-59d2-af83-624ff54d06bf",
+     "label": "J310_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "aa669f29-6254-5ce3-87ba-f3db82aab9ba",
+     "label": "J310_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "31ef1d7d-3968-5063-8479-45c9ee0ef7af",
+     "label": "J310_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "aea29127-78d5-5621-9c51-add6b75b9bcf",
+     "label": "J310_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "eea45944-da1e-562f-a7d2-05a70e901aca",
+     "label": "J310_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a4b25e05-ad17-5d1e-b6e7-0581640e6072",
+     "label": "J310_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "664acd26-f048-514f-bcb7-7d45bed83179",
+     "label": "J310_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "37075cda-cb95-5e8d-99cd-0fcdaec01908",
+     "label": "J310_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "80279fc4-b50f-569d-8e65-103482070d07",
+     "label": "J310_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5a7bab62-81ba-5ae8-88fc-f4f5b2500821",
+     "label": "J310_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5bf542d2-9595-5568-8596-383d66a4bb88",
+     "label": "J310_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "346d0e8b-0fdc-5ba3-9084-ce431eab015e",
+     "label": "J310_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "61031976-e2fa-5a0a-8f2c-3b669c4f1cd5",
+     "label": "J310_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001783",
+   "label": "AINV0000000391",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "NIH.R1 Chamber temperature data- Julian day 316",
+    "dataset_catalog": "AINV0000000391",
+    "dataset_description": [
+     "Spreadsheet column headings: Time, Temp, RH, CO2, SET Point: Temp, RH, CO2"
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9303003",
+     "9303006",
+     "9303009",
+     "9303011",
+     "9303012",
+     "9303019",
+     "9303021",
+     "9303026",
+     "9303028",
+     "9303031 1_2",
+     "PARE.04A",
+     "PARE.04B",
+     "PARE.04C"
+    ]
+   },
+   "meta": "13 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "8a68e99f-a5ef-5651-b714-0c30d8de0579",
+     "label": "IK120ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "47cccaa9-dd77-5a7c-a54b-83408bb5308e",
+     "label": "IK120ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5c6a0e8f-df8e-5067-9bce-5e9fa81c4458",
+     "label": "IK120ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1685268f-2aeb-514c-8ab6-a3a4f1affd9d",
+     "label": "IK120ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "65ee2f0f-27cd-5aad-bd2d-5f975c0c9d6f",
+     "label": "IK120ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2df62ba2-53eb-5ab3-b909-2e137cef5f4b",
+     "label": "IK120ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0e3a23e4-8265-542a-b999-57fc9596bb2a",
+     "label": "IK120ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "078210d3-5b65-5f8b-85ee-e0d0c1b1c3fb",
+     "label": "IK120ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "472cf872-0a78-5a6c-98cf-afb020986082",
+     "label": "IK120ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c0435117-de26-5e71-949c-83f73f4122a1",
+     "label": "IK120ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "60447c9f-6a29-5184-be38-c23d202b40c6",
+     "label": "IK120ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "67c17df6-eeb2-5194-b0e4-19fb5a4410aa",
+     "label": "IK120ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b88aaed7-56d4-5fae-ba20-32bc14bc4e8c",
+     "label": "IK120ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001782",
+   "label": "AINV0000000380",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "NIH.R1 Chamber temperature data- Julian day 305",
+    "dataset_catalog": "AINV0000000380",
+    "dataset_description": [
+     "Spreadsheet column headings: Time, Temp, RH, CO2, SET Point: Temp, RH, CO2"
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9303003",
+     "9303006",
+     "9303009",
+     "9303011",
+     "9303012",
+     "9303019",
+     "9303021",
+     "9303026",
+     "9303028",
+     "9303031 1_2",
+     "PARE.04A",
+     "PARE.04B",
+     "PARE.04C"
+    ]
+   },
+   "meta": "13 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "d11413de-a37b-5538-9cf8-1bb75cf47632",
+     "label": "IK010ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ab8d8865-08e6-5d83-8400-2cd46aba2b9c",
+     "label": "IK010ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b12decf4-173a-58ca-be3a-f29fd4b92344",
+     "label": "IK010ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "fdb78dd1-a4c1-5ea3-a8fa-ab35276eccff",
+     "label": "IK010ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3d59b551-1f6f-5e94-a15c-40d13217584b",
+     "label": "IK010ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "30af4272-dede-5dfd-8b1f-a340943cb7ef",
+     "label": "IK010ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "29bafec9-fea8-59f2-8a23-cd0a9c03b66f",
+     "label": "IK010ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d413f0b5-cf33-5dec-bbf7-54e22eddca0a",
+     "label": "IK010ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9910bb07-5471-5718-a297-3d421d637068",
+     "label": "IK010ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "bc69ed97-fd1a-5a25-b0f2-9e32984412eb",
+     "label": "IK010ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b3cee230-caa6-5856-869e-09077798e1c2",
+     "label": "IK010ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "97b9a09b-1d6d-5143-adab-81874aa07575",
+     "label": "IK010ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "21e9912c-bd69-5a7e-acdd-921e882f0d65",
+     "label": "IK010ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002367",
+   "label": "AINV0000000381",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "NIH.R1 Chamber temperature data- Julian day 306",
+    "dataset_catalog": "AINV0000000381",
+    "dataset_description": [
+     "Spreadsheet column headings: Time, Temp, RH, CO2, SET Point: Temp, RH, CO2"
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9303003",
+     "9303006",
+     "9303009",
+     "9303011",
+     "9303012",
+     "9303019",
+     "9303021",
+     "9303026",
+     "9303028",
+     "9303031 1_2",
+     "PARE.04A",
+     "PARE.04B",
+     "PARE.04C"
+    ]
+   },
+   "meta": "13 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "b4f6148d-5cd9-5fb2-84b4-a1d2d7bfdbb9",
+     "label": "IK020ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1309893e-fb3d-5a64-b2db-6e9c06e4647f",
+     "label": "IK020ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "14ddb16c-5e8a-5a21-9662-11fe226d3acb",
+     "label": "IK020ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "551758b5-c201-589e-b907-d0bcc66fcf6a",
+     "label": "IK020ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8a00644f-46c1-5c64-a871-e6129dc17ca3",
+     "label": "IK020ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f7deebaf-9972-53b5-acc3-7964ed606436",
+     "label": "IK020ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2a95fbc4-8e5a-5371-ad81-d74be560772a",
+     "label": "IK020ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a344d8a9-3704-5600-89cc-3b7ba2da65cd",
+     "label": "IK020ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "966feda5-0202-57c5-9960-2e1d5a3908e3",
+     "label": "IK020ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "852d64a3-0a99-5517-9579-ae2ba6e9c9b8",
+     "label": "IK020ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "11321616-c437-5a30-b0d6-5f4b88e3b65c",
+     "label": "IK020ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "124608cb-ee72-5887-bde9-2666ea55c905",
+     "label": "IK020ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0d49b9d2-d8fb-546c-a36d-cae6bc952422",
+     "label": "IK020ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001626",
+   "label": "AINV0000000390",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "NIH.R1 Chamber temperature data- Julian day 315",
+    "dataset_catalog": "AINV0000000390",
+    "dataset_description": [
+     "Spreadsheet column headings: Time, Temp, RH, CO2, SET Point: Temp, RH, CO2"
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9303003",
+     "9303006",
+     "9303009",
+     "9303011",
+     "9303012",
+     "9303019",
+     "9303021",
+     "9303026",
+     "9303028",
+     "9303031 1_2",
+     "PARE.04A",
+     "PARE.04B",
+     "PARE.04C"
+    ]
+   },
+   "meta": "13 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "dd7842ca-482e-526f-9d1c-9232e1688912",
+     "label": "IK110ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e03f6c7b-fc34-53e6-a869-c93f8da7074c",
+     "label": "IK110ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9e711d92-73d3-5dfe-8b10-a8c715755428",
+     "label": "IK110ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d371ac8b-a7f4-56c7-97dc-5e5b15667637",
+     "label": "IK110ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "319ea7a3-3558-5ee5-8697-61c800fe1135",
+     "label": "IK110ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a20e1758-4825-5b1e-8f18-27de84510707",
+     "label": "IK110ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3386c3a2-a5b9-5635-add3-64a463c3b0cd",
+     "label": "IK110ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f36955c0-aad4-54f9-ac66-46485c1bf699",
+     "label": "IK110ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "07868f20-7d72-52e3-a2c0-5adb1d26972e",
+     "label": "IK110ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b530b327-427f-5753-b8fa-6b04532feb03",
+     "label": "IK110ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "489f390e-9c1e-5469-afbf-46cb610fbdd8",
+     "label": "IK110ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "dea05a52-f061-5a20-a1e4-54e29d18ba35",
+     "label": "IK110ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f02702e4-dbcc-50f3-9360-65d65682fa34",
+     "label": "IK110ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001784",
+   "label": "AINV0000000394",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "NIH.R1 Ambient Temperature Recorder (ATR) flight data - ATR serial number 45 located in flight AEM serial number 001",
+    "dataset_catalog": "AINV0000000394",
+    "dataset_description": [],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9303003",
+     "9303006",
+     "9303009",
+     "9303011",
+     "9303012",
+     "9303019",
+     "9303021",
+     "9303026",
+     "9303028",
+     "9303031 1_2",
+     "PARE.04A",
+     "PARE.04B",
+     "PARE.04C"
+    ]
+   },
+   "meta": "13 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "fe1db952-aef9-50a5-81f5-a0d7160b7cee",
+     "label": "4566001F.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "76b4710a-8952-54fd-9e86-daf7c7d56602",
+     "label": "4566001F.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b9313faa-5ed9-5fdd-98f5-385a900bcc37",
+     "label": "4566001F.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ce57c873-aafe-55cc-a13b-f7ca3850dc36",
+     "label": "4566001F.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "683bfe1f-49ad-5d94-a01c-8119ad5eaa9c",
+     "label": "4566001F.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7e61f01f-df95-50e1-98cc-eb03975e9163",
+     "label": "4566001F.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9289a33c-4a9d-561a-8bed-4d5787a7f5a9",
+     "label": "4566001F.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a60548d4-d253-5a28-a02b-0e9ed6ccc65c",
+     "label": "4566001F.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "113c0421-0353-5bc7-89c3-c9373b16f239",
+     "label": "4566001F.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "43cdfff4-1644-527c-9441-06b4dad80361",
+     "label": "4566001F.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9cbf264b-5ede-5d87-8034-a7621ae235fb",
+     "label": "4566001F.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e96300da-3864-520c-8cdf-3533e91200c6",
+     "label": "4566001F.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "40b5090c-6bed-5d5e-8b4b-975440cefa43",
+     "label": "4566001F.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000898",
+   "label": "AINV0000000373",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "NIH.R1 Orbiter Environment Simulator (OES) real time data- Julian day 312",
+    "dataset_catalog": "AINV0000000373",
+    "dataset_description": [
+     "Spreadsheet column headings:  HH:MM:SS, TTTT.T, RRRRR.R, CCCCCCC, 1.0, 2.0, 3.0<br/><br/>T = temperature<br/>R = relative humidity<br/>C = CO2"
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9303003",
+     "9303006",
+     "9303009",
+     "9303011",
+     "9303012",
+     "9303019",
+     "9303021",
+     "9303026",
+     "9303028",
+     "9303031 1_2",
+     "PARE.04A",
+     "PARE.04B",
+     "PARE.04C"
+    ]
+   },
+   "meta": "13 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "59c2cc41-004c-59cb-be93-0a960a7d22da",
+     "label": "J312_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3c361a80-ed2b-5927-bab6-06ef096691c9",
+     "label": "J312_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c217f87e-e257-5fa9-8b45-cafa1dab2bd7",
+     "label": "J312_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "fe3fb3fc-1fc0-55b2-b3ab-c5b94eabb1da",
+     "label": "J312_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "640c6090-6d7f-5759-9bca-ba30e789c018",
+     "label": "J312_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "00148bbd-5807-5a4b-b929-24549affebff",
+     "label": "J312_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6b53af5c-bf90-54da-a9f3-b0a2730f1534",
+     "label": "J312_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e73ded28-d3e2-5d76-806b-91c668216351",
+     "label": "J312_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "790a753d-74ce-5931-8d1e-85f1d3f0c5ad",
+     "label": "J312_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "15ca349a-c465-50a7-8e38-04804410c095",
+     "label": "J312_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "843d2546-9020-5c98-b7ca-cc8d09e916d7",
+     "label": "J312_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "95c0b3b7-2959-5657-a4a3-d0466d8a8e81",
+     "label": "J312_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ffa15c85-cd20-5f9a-9380-b9b827a22b21",
+     "label": "J312_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000938",
+   "label": "AINV0000000364",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "NIH.R1 Flight data- Animal Surgery Record",
+    "dataset_catalog": "AINV0000000364",
+    "dataset_description": [
+     "The R1 Surgery Data File contains information gathered during surgeries and following delivery of the pups.  Several summaries can be generated from this file, including:<br/>\u2022  laparotomies<br/>\u2022  surgeries<br/>\u2022  fetal survival<br/>\u2022  fetus and pup weights<br/>\u2022  resorptions<br/><br/>The file contains data from both Launch Nominal Group (LNG) and Launch Control Group 1 (LCG1), though only the animals from Flight, Synchronous Control and Vivarium Control Groups have complete<br/>information through delivery."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "9303003",
+     "9303006",
+     "9303009",
+     "9303011",
+     "9303012",
+     "9303019",
+     "9303021",
+     "9303026",
+     "9303028",
+     "9303031 1_2",
+     "PARE.04A",
+     "PARE.04B",
+     "PARE.04C"
+    ]
+   },
+   "meta": "14 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "c502f445-ff77-59b1-bfa4-42745bb597d4",
+     "label": "NIH.xlsx_STS-66_9303006_2021_11_060120.xlsx",
+     "type": "file",
+     "ext": "xlsx",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ba273250-18d2-59b9-a8ad-efee2337c853",
+     "label": "R1SurgeryData_Flight.fmp",
+     "type": "file",
+     "ext": "fmp",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "306aaa7e-38a5-5344-a9a7-bfed6f8d2a1b",
+     "label": "R1SurgeryData_Flight.fmp",
+     "type": "file",
+     "ext": "fmp",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a0e06d1d-5330-52ba-acd5-84ee81047f55",
+     "label": "R1SurgeryData_Flight.fmp",
+     "type": "file",
+     "ext": "fmp",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4843db30-e95f-589c-a3b4-dda2e4a6ba62",
+     "label": "R1SurgeryData_Flight.fmp",
+     "type": "file",
+     "ext": "fmp",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d1a66716-073f-503f-a348-544434f09787",
+     "label": "R1SurgeryData_Flight.fmp",
+     "type": "file",
+     "ext": "fmp",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "997b4c82-d1fc-5206-9878-c91ab630f489",
+     "label": "R1SurgeryData_Flight.fmp",
+     "type": "file",
+     "ext": "fmp",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9cbb05b3-071b-5841-89eb-73cb3e891a22",
+     "label": "R1SurgeryData_Flight.fmp",
+     "type": "file",
+     "ext": "fmp",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "abaaf2d2-ff8b-5cc9-accc-b019feae9fd5",
+     "label": "R1SurgeryData_Flight.fmp",
+     "type": "file",
+     "ext": "fmp",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "745ee9d7-416d-5212-a368-fcfe6befdca1",
+     "label": "R1SurgeryData_Flight.fmp",
+     "type": "file",
+     "ext": "fmp",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f6a40248-185c-526b-b676-caed17261d93",
+     "label": "R1SurgeryData_Flight.fmp",
+     "type": "file",
+     "ext": "fmp",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "010aac80-4de8-558d-a6f9-11599f011d1a",
+     "label": "R1SurgeryData_Flight.fmp",
+     "type": "file",
+     "ext": "fmp",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "254ffd81-9642-5b87-afc7-2fe24645a689",
+     "label": "R1SurgeryData_Flight.fmp",
+     "type": "file",
+     "ext": "fmp",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4c104c90-ef07-5211-b241-761b48c5fd9e",
+     "label": "R1SurgeryData_Flight.fmp",
+     "type": "file",
+     "ext": "fmp",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000900",
+   "label": "AINV0000000397",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "NIH.R1 Ambient Temperature Recorder (ATR) ground control data - ATR serial number 53 located in ground control AEM serial number 004",
+    "dataset_catalog": "AINV0000000397",
+    "dataset_description": [],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9303003",
+     "9303006",
+     "9303009",
+     "9303011",
+     "9303012",
+     "9303019",
+     "9303021",
+     "9303026",
+     "9303028",
+     "9303031 1_2",
+     "PARE.04A",
+     "PARE.04B",
+     "PARE.04C"
+    ]
+   },
+   "meta": "13 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "ff3f2f72-b808-5196-8914-a4e85e75af04",
+     "label": "5355004G.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "326fe0f9-1b41-5136-a709-bd1ebfb6a08c",
+     "label": "5355004G.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "97ae6c8c-8a30-51d2-a5d2-0ede37e2477d",
+     "label": "5355004G.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5e7174b1-7ec3-578d-b9cb-f8ae571d1bc2",
+     "label": "5355004G.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a6ca62ad-2076-5eef-a9e7-15a12dc95d48",
+     "label": "5355004G.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c01a190f-6f64-57b4-8f8a-e57e5a429580",
+     "label": "5355004G.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "57487b64-1420-52ac-b46d-3fe6c977cad8",
+     "label": "5355004G.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a40cda0b-b201-5466-840e-8a4a71a6b642",
+     "label": "5355004G.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9e2e00e0-a6b9-58a1-961b-892922cd2007",
+     "label": "5355004G.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e5baca24-5e70-5fc5-bc02-13cbc9910141",
+     "label": "5355004G.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "acc90299-7d7a-502e-8974-31fae65a348c",
+     "label": "5355004G.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6ca9c821-41e2-5b4c-aba5-1f8b80ad7948",
+     "label": "5355004G.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "02705118-cf24-531f-b7f0-ed46e46f4e4d",
+     "label": "5355004G.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000146",
+   "label": "AINV0000000386",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "NIH.R1 Chamber temperature data- Julian day 311",
+    "dataset_catalog": "AINV0000000386",
+    "dataset_description": [
+     "Spreadsheet column headings: Time, Temp, RH, CO2, SET Point: Temp, RH, CO2"
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9303003",
+     "9303006",
+     "9303009",
+     "9303011",
+     "9303012",
+     "9303019",
+     "9303021",
+     "9303026",
+     "9303028",
+     "9303031 1_2",
+     "PARE.04A",
+     "PARE.04B",
+     "PARE.04C"
+    ]
+   },
+   "meta": "13 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "1b89355d-55af-5779-bb16-365ac3a21df8",
+     "label": "IK070ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "92691a02-55d9-571a-938f-d9c5411d0701",
+     "label": "IK070ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "dc94d211-0ecc-56ce-8dd7-eb3480cc58fe",
+     "label": "IK070ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2719377c-4c52-5632-a93b-df2301c4c348",
+     "label": "IK070ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b1a160a4-c295-5401-adfa-49522ee37ade",
+     "label": "IK070ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "861828a8-7d3d-513c-9d79-58d819e72e29",
+     "label": "IK070ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "dd337a2b-3983-510a-a479-276cc03d89b8",
+     "label": "IK070ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "fe179340-237d-5cfc-99c1-dcd7dbbe2e62",
+     "label": "IK070ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d4f42651-ca73-54d0-b18a-046faaff8450",
+     "label": "IK070ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "80a48733-4324-5f0e-a25d-5ae5d1d591d3",
+     "label": "IK070ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "81d7ac0b-5098-5941-a360-f30d4fd776dd",
+     "label": "IK070ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "74edc49b-ae16-5c9f-9ddb-bb8e7dfa6292",
+     "label": "IK070ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "78df8c5a-6afb-568f-89c1-68b2f1188fab",
+     "label": "IK070ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001625",
+   "label": "AINV0000000384",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "NIH.R1 Chamber temperature data- Julian day 309",
+    "dataset_catalog": "AINV0000000384",
+    "dataset_description": [
+     "Spreadsheet column headings: Time, Temp, RH, CO2, SET Point: Temp, RH, CO2"
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9303003",
+     "9303006",
+     "9303009",
+     "9303011",
+     "9303012",
+     "9303019",
+     "9303021",
+     "9303026",
+     "9303028",
+     "9303031 1_2",
+     "PARE.04A",
+     "PARE.04B",
+     "PARE.04C"
+    ]
+   },
+   "meta": "13 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "1f72d669-b3e9-5a33-b94e-41f797dd0e03",
+     "label": "IK050ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ee19944a-f036-5393-8310-92266989261e",
+     "label": "IK050ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a19d3fe9-4df5-5e14-822f-2d774feb2821",
+     "label": "IK050ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "dfc73fd0-03c6-5a57-8d06-1ef53a0b2e69",
+     "label": "IK050ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "10003314-c6f5-57da-a3e7-5033e0915675",
+     "label": "IK050ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9a3b716e-619a-5f76-bca5-8ca3a8cc6499",
+     "label": "IK050ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a2d12a7b-e100-5264-a9d3-7e26f4e641c2",
+     "label": "IK050ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "def1597e-be7e-50d3-908a-4d88d8ae6a5a",
+     "label": "IK050ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d1a9f6e1-4bf5-5aae-ac9e-16bb9038d0b5",
+     "label": "IK050ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "911d5da5-bd30-556f-b451-2e90289f6570",
+     "label": "IK050ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "87a3adcc-d1a4-59b9-aea3-b8044d42fc83",
+     "label": "IK050ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9cd3c1dc-23fc-54ad-80f6-6f7038164b53",
+     "label": "IK050ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "edbef813-c44d-54f6-a28f-da2d9e708e6d",
+     "label": "IK050ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001676",
+   "label": "AINV0000000387",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "NIH.R1 Chamber temperature data- Julian day 312",
+    "dataset_catalog": "AINV0000000387",
+    "dataset_description": [
+     "Spreadsheet column headings: Time, Temp, RH, CO2, SET Point: Temp, RH, CO2"
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9303003",
+     "9303006",
+     "9303009",
+     "9303011",
+     "9303012",
+     "9303019",
+     "9303021",
+     "9303026",
+     "9303028",
+     "9303031 1_2",
+     "PARE.04A",
+     "PARE.04B",
+     "PARE.04C"
+    ]
+   },
+   "meta": "13 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "954d70c9-f6f9-5452-90e5-499f7c4025f4",
+     "label": "IK080ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a492c117-20af-5708-be1d-b3e5a4a7e83d",
+     "label": "IK080ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b6862dee-2045-528d-b61d-82ea05b7d724",
+     "label": "IK080ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "834341cb-0721-5a57-8894-a04c4f976c75",
+     "label": "IK080ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "438821ea-2249-5cca-ac28-5374714fd2f9",
+     "label": "IK080ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2b1e335b-083c-557f-9696-34ccee05bfc6",
+     "label": "IK080ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "cf94065f-4b5f-5a45-ba57-790c980c91b1",
+     "label": "IK080ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "fb9e7a2a-43ad-5d68-81df-d98026556d5b",
+     "label": "IK080ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "435f5537-b18f-5b4e-b6fe-3b14b8fb34ed",
+     "label": "IK080ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7acb3a2b-3abe-5ce4-975c-cefcec93fb06",
+     "label": "IK080ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e5b2aaea-9c8a-54de-b0ce-7b24d9dc8408",
+     "label": "IK080ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9a1adef0-9b44-5642-92b6-08cf246b20bc",
+     "label": "IK080ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d4b96d6e-6bec-5603-ae65-c0ff21ee6aa7",
+     "label": "IK080ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000144",
+   "label": "AINV0000000366",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "NIH.R1 Kennedy Space Center (KSC) Dry Run Data, September 1994",
+    "dataset_catalog": "AINV0000000366",
+    "dataset_description": [
+     "This document contains the data for the KSC NIH.R1 dry run.  Data on rodent weights, laporotomies, unilateral hysterectomy, dam delivery and dissections performed during the dry run are documented."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9303003",
+     "9303006",
+     "9303009",
+     "9303011",
+     "9303012",
+     "9303019",
+     "9303021",
+     "9303026",
+     "9303028",
+     "9303031 1_2",
+     "PARE.04A",
+     "PARE.04B",
+     "PARE.04C"
+    ]
+   },
+   "meta": "0 files",
+   "date": "2022-07-28",
+   "children": []
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001214",
+   "label": "AINV0000000396",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "NIH.R1 Ambient Temperature Recorder (ATR) ground control data - ATR serial number 52 located in ground control AEM serial number 003",
+    "dataset_catalog": "AINV0000000396",
+    "dataset_description": [],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9303003",
+     "9303006",
+     "9303009",
+     "9303011",
+     "9303012",
+     "9303019",
+     "9303021",
+     "9303026",
+     "9303028",
+     "9303031 1_2",
+     "PARE.04A",
+     "PARE.04B",
+     "PARE.04C"
+    ]
+   },
+   "meta": "13 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "d40be8ee-55e4-52ec-a798-87a32bb039ed",
+     "label": "5266003G.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "122835a6-079f-5487-aa00-985aedb4930a",
+     "label": "5266003G.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "74e4f3ef-66db-58cb-8b37-e6175c5337a0",
+     "label": "5266003G.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0b4c4795-d920-5407-8819-f8066d602ed1",
+     "label": "5266003G.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ae516c0d-a781-5291-acd3-acaea134bf8c",
+     "label": "5266003G.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b8ece32b-c991-5652-ab88-1a9ff95c3717",
+     "label": "5266003G.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2a4e6840-6417-5167-a4da-ed6d13b76746",
+     "label": "5266003G.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d42214bd-54e2-5f9a-af83-6e0a7bdd0f2c",
+     "label": "5266003G.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ad7ccad7-9ec2-5817-b301-996dab125758",
+     "label": "5266003G.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "66c01c9b-89f1-553b-beed-e09213459ffe",
+     "label": "5266003G.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "fef5b3dc-8132-527b-80c2-dd712421edc6",
+     "label": "5266003G.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ff6a3008-232c-5dde-be19-ddf3a3607a91",
+     "label": "5266003G.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "90eb84cd-c243-53ae-887d-52da66db8497",
+     "label": "5266003G.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001677",
+   "label": "AINV0000000395",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "NIH.R1 Ambient Temperature Recorder (ATR) flight data - ATR serial number 46 located in flight AEM serial number 002",
+    "dataset_catalog": "AINV0000000395",
+    "dataset_description": [],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9303003",
+     "9303006",
+     "9303009",
+     "9303011",
+     "9303012",
+     "9303019",
+     "9303021",
+     "9303026",
+     "9303028",
+     "9303031 1_2",
+     "PARE.04A",
+     "PARE.04B",
+     "PARE.04C"
+    ]
+   },
+   "meta": "13 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "02468e85-5ea4-5910-a25e-28ea432eb4cf",
+     "label": "4666002F.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7933f998-630a-5a5f-b30d-dc2861b8787d",
+     "label": "4666002F.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "aec8b560-5f18-5f8e-88b8-6af7ecc193cc",
+     "label": "4666002F.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "18f2278f-a67f-59e6-bac0-152bcc069a9f",
+     "label": "4666002F.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3b0effc4-1f0a-5a1c-9c20-bbc7b142bd36",
+     "label": "4666002F.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "252eb6d8-da0d-505a-8799-d847a1b96e5b",
+     "label": "4666002F.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6368ee0f-9724-5b00-aa79-3c60fe6734ff",
+     "label": "4666002F.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "116a248c-340d-5755-86f8-cc6220b379f8",
+     "label": "4666002F.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "66213d70-1880-57b8-9efc-c3458aa3b613",
+     "label": "4666002F.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "58c908d5-ed36-5eb7-af3a-85977ebae474",
+     "label": "4666002F.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0143c701-6c0c-58ce-a060-8231c1493f7d",
+     "label": "4666002F.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ecc52598-2bc0-5099-be7e-ad647b8f56ab",
+     "label": "4666002F.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c79859f0-b513-5acb-b395-f9357ad5c5e1",
+     "label": "4666002F.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000063",
+   "label": "AINV0000000393",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "NIH.R1 Chamber temperature data- Julian day 318",
+    "dataset_catalog": "AINV0000000393",
+    "dataset_description": [
+     "Spreadsheet column headings: Time, Temp, RH, CO2, SET Point: Temp, RH, CO2"
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9303003",
+     "9303006",
+     "9303009",
+     "9303011",
+     "9303012",
+     "9303019",
+     "9303021",
+     "9303026",
+     "9303028",
+     "9303031 1_2",
+     "PARE.04A",
+     "PARE.04B",
+     "PARE.04C"
+    ]
+   },
+   "meta": "13 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "35b68786-61d5-5443-9e87-ebfc7e9d0e25",
+     "label": "IK140ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8a2c6358-5b9d-5057-b322-ebd274642c14",
+     "label": "IK140ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8f16f94b-14e3-5947-8ae1-3f20d70b4246",
+     "label": "IK140ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "298ea11c-b37d-56e2-b1fa-af9d7fc6436b",
+     "label": "IK140ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6da34aee-b33d-5b30-a8db-32cf450310c9",
+     "label": "IK140ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d5ca1806-18ab-56d4-ae1b-9fbece0c23a9",
+     "label": "IK140ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d6567f7d-2312-5206-add6-4792c6abec90",
+     "label": "IK140ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7852f7aa-2cb0-5e43-ac9f-4e13aca80494",
+     "label": "IK140ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e23c0dec-b89e-527e-bac8-d354e7b2f843",
+     "label": "IK140ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c1e37c01-7b73-585e-9d12-c54573c8efd7",
+     "label": "IK140ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "976dbf3a-6fc4-5fc8-ac3a-8af88cf3e8ef",
+     "label": "IK140ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d0496c0c-9179-5920-bdaf-7a9148c4d52c",
+     "label": "IK140ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b4a5ecf2-3a89-54ed-a11a-2d98a3bbb690",
+     "label": "IK140ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000899",
+   "label": "AINV0000000378",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "NIH.R1 Orbiter Environment Simulator (OES) real time data- Julian day 317",
+    "dataset_catalog": "AINV0000000378",
+    "dataset_description": [
+     "Spreadsheet column headings:  HH:MM:SS, TTTT.T, RRRRR.R, CCCCCCC, 1.0, 2.0, 3.0<br/><br/>T = temperature<br/>R = relative humidity<br/>C = CO2"
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9303003",
+     "9303006",
+     "9303009",
+     "9303011",
+     "9303012",
+     "9303019",
+     "9303021",
+     "9303026",
+     "9303028",
+     "9303031 1_2",
+     "PARE.04A",
+     "PARE.04B",
+     "PARE.04C"
+    ]
+   },
+   "meta": "13 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "c446165a-4b66-5d9b-9f1a-41c7a06ce0d3",
+     "label": "J317_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3dfd7427-58cf-579e-a45d-eb7964c00c2b",
+     "label": "J317_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9122e4ed-66ff-51a0-beca-1a544e628139",
+     "label": "J317_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9c94c58c-c903-5bf4-bdd7-d3ef8691815f",
+     "label": "J317_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "be20040b-e437-5db1-9cd5-a6191834c98d",
+     "label": "J317_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "dbf049f9-d695-55b0-8ada-46d4cfcb79f0",
+     "label": "J317_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b04759c0-dc23-57a3-aefd-b20f47163988",
+     "label": "J317_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a1168769-7e1a-5d91-8a69-249ad96900b1",
+     "label": "J317_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d4f84fc4-545c-5cfb-9d5b-cfcd2c9f01c5",
+     "label": "J317_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f4f79d58-c2eb-5278-94d3-8274db368017",
+     "label": "J317_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e49688a5-eb79-537e-aa81-c6c750661eac",
+     "label": "J317_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ecccbf31-503c-59fa-a1f7-681aa6525434",
+     "label": "J317_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "83883e6b-e5af-5125-a11e-e1b97e8b1d92",
+     "label": "J317_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000062",
+   "label": "AINV0000000388",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "NIH.R1 Chamber temperature data- Julian day 313",
+    "dataset_catalog": "AINV0000000388",
+    "dataset_description": [
+     "Spreadsheet column headings: Time, Temp, RH, CO2, SET Point: Temp, RH, CO2"
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9303003",
+     "9303006",
+     "9303009",
+     "9303011",
+     "9303012",
+     "9303019",
+     "9303021",
+     "9303026",
+     "9303028",
+     "9303031 1_2",
+     "PARE.04A",
+     "PARE.04B",
+     "PARE.04C"
+    ]
+   },
+   "meta": "13 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "21fc5c62-ea52-584a-8a37-b191a96e15db",
+     "label": "IK090ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e6add1cf-99f3-53eb-b4b3-4a1c93b3ab81",
+     "label": "IK090ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4398a7ba-6c69-547a-b42f-0c5d075468a0",
+     "label": "IK090ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4e45c1a9-4d68-5965-b64b-7a83d0e02c16",
+     "label": "IK090ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "71050bb1-b8e7-52d0-801a-b6c53a2ffed6",
+     "label": "IK090ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9dcd459b-6f74-59d9-a965-da136c1d11d1",
+     "label": "IK090ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "85c6d815-04a7-5c1b-a55e-8476c8e82d2d",
+     "label": "IK090ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "76273662-191d-515e-aa76-9225e007dc39",
+     "label": "IK090ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "bfecf94a-dbd8-5049-84b0-f1882c876a69",
+     "label": "IK090ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d53adfa0-5f81-5113-a713-e05bdfa9fd1b",
+     "label": "IK090ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4fb98df7-b7b6-5006-86a1-8d91a4788e52",
+     "label": "IK090ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f9a07402-f07d-5004-92ca-be80b8f4bdfa",
+     "label": "IK090ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "702de336-2521-5322-ba23-1dfb24cfb420",
+     "label": "IK090ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001327",
+   "label": "AINV0000000377",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "NIH.R1 Orbiter Environment Simulator (OES) real time data- Julian day 316",
+    "dataset_catalog": "AINV0000000377",
+    "dataset_description": [
+     "Spreadsheet column headings:  HH:MM:SS, TTTT.T, RRRRR.R, CCCCCCC, 1.0, 2.0, 3.0<br/><br/>T = temperature<br/>R = relative humidity<br/>C = CO2"
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9303003",
+     "9303006",
+     "9303009",
+     "9303011",
+     "9303012",
+     "9303019",
+     "9303021",
+     "9303026",
+     "9303028",
+     "9303031 1_2",
+     "PARE.04A",
+     "PARE.04B",
+     "PARE.04C"
+    ]
+   },
+   "meta": "13 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "8b8fc75b-ba9d-5209-9e64-48b8a6ce7378",
+     "label": "J316_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b9607386-57f0-53f6-8ae5-3057b6babaef",
+     "label": "J316_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "fea11305-0c19-51da-892b-450efab9dbfd",
+     "label": "J316_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "43e256a6-d9d9-550a-b870-e83c69c2084d",
+     "label": "J316_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "70ae3996-4c59-58c3-b818-04ad48e1c8a0",
+     "label": "J316_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a01a6ec8-0811-5888-a68a-85df4b6f0f2d",
+     "label": "J316_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "288e254b-ca04-5b13-a1f9-2bf8005fedbc",
+     "label": "J316_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e2599c5a-e56d-5eb1-b1a2-f37e095832bb",
+     "label": "J316_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f4b8fd54-ccfd-5c5c-80b6-0d7c9bd78fc9",
+     "label": "J316_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "07ab35ea-2b19-593b-8235-638c914133fb",
+     "label": "J316_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "89ccd661-df46-5b27-953a-ec8499e2ad68",
+     "label": "J316_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "59315685-4a35-59b3-b237-b56ad55c4ff4",
+     "label": "J316_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2a57b3a3-78c7-5f09-808e-f7398c338a7e",
+     "label": "J316_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002073",
+   "label": "AINV0000000370",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "NIH.R1 Orbiter Environment Simulator (OES) real time data- Julian day 309",
+    "dataset_catalog": "AINV0000000370",
+    "dataset_description": [
+     "Spreadsheet column headings:  HH:MM:SS, TTTT.T, RRRRR.R, CCCCCCC, 1.0, 2.0, 3.0<br/><br/>T = temperature<br/>R = relative humidity<br/>C = CO2"
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9303003",
+     "9303006",
+     "9303009",
+     "9303011",
+     "9303012",
+     "9303019",
+     "9303021",
+     "9303026",
+     "9303028",
+     "9303031 1_2",
+     "PARE.04A",
+     "PARE.04B",
+     "PARE.04C"
+    ]
+   },
+   "meta": "13 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "79d5442d-46b8-5e93-82d0-217cb2df6fa7",
+     "label": "J309_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4c3dac32-a3d2-5614-9316-73f6562d6de7",
+     "label": "J309_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6340131a-1ba6-57e1-b497-c2a1d6e1bc67",
+     "label": "J309_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6e09df2d-676b-51ca-b261-f9b30fbf3042",
+     "label": "J309_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9b1a57b7-d770-5324-b272-d771299ce314",
+     "label": "J309_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8c5fe476-5d61-5b77-b1cb-18172154d87a",
+     "label": "J309_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d622a24f-4c74-53eb-93c4-ed908d73c4b0",
+     "label": "J309_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a1335309-a7b3-5546-9fe0-366e71e1aedb",
+     "label": "J309_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d4cf05ef-506c-5aba-9ffe-97135b4da10a",
+     "label": "J309_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "86ee2152-c793-5741-ba90-e02ed76f0ffb",
+     "label": "J309_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "405c60b5-2f09-5201-b345-21af0b34b773",
+     "label": "J309_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "cdeac2aa-dab6-586a-a1db-a92d81cd4541",
+     "label": "J309_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "08aaedc8-6e50-5d45-bc88-6ab8261ec144",
+     "label": "J309_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000145",
+   "label": "AINV0000000385",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "NIH.R1 Chamber temperature data- Julian day 310",
+    "dataset_catalog": "AINV0000000385",
+    "dataset_description": [
+     "Spreadsheet column headings: Time, Temp, RH, CO2, SET Point: Temp, RH, CO2"
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9303003",
+     "9303006",
+     "9303009",
+     "9303011",
+     "9303012",
+     "9303019",
+     "9303021",
+     "9303026",
+     "9303028",
+     "9303031 1_2",
+     "PARE.04A",
+     "PARE.04B",
+     "PARE.04C"
+    ]
+   },
+   "meta": "13 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "20b43504-bd35-57f0-a310-5f90622fde8d",
+     "label": "IK060ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "447abce8-1bdc-5ddf-993c-e114fff57201",
+     "label": "IK060ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c99d3e83-fe52-58df-b3e4-dd2e8a42f561",
+     "label": "IK060ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ebd204af-2d3b-597a-9a16-323838a7c494",
+     "label": "IK060ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3a0f8882-4b59-5e20-b961-7e3010f0bfd4",
+     "label": "IK060ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4aafa91c-3cf4-5a9d-9a00-3cf15de9a7cc",
+     "label": "IK060ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b6fe7b62-4195-595c-82d3-edb8de328ad0",
+     "label": "IK060ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9451eb75-6ddc-5f40-9c2e-8a1d4c2ce63b",
+     "label": "IK060ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "bb34ca62-7db1-578b-930a-a6f65ad0700c",
+     "label": "IK060ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e4da4a94-9e16-5fb3-996b-5769790647cc",
+     "label": "IK060ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "036f8e74-8d44-5b60-ada5-25e107452854",
+     "label": "IK060ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4396da6d-17fb-5e25-9cc1-229d7efc4096",
+     "label": "IK060ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "03006a2d-48e1-55bd-8695-2ed7e7183564",
+     "label": "IK060ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001639",
+   "label": "AINV0000000383",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "NIH.R1 Chamber temperature data- Julian day 308",
+    "dataset_catalog": "AINV0000000383",
+    "dataset_description": [
+     "Spreadsheet column headings: Time, Temp, RH, CO2, SET Point: Temp, RH, CO2"
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9303003",
+     "9303006",
+     "9303009",
+     "9303011",
+     "9303012",
+     "9303019",
+     "9303021",
+     "9303026",
+     "9303028",
+     "9303031 1_2",
+     "PARE.04A",
+     "PARE.04B",
+     "PARE.04C"
+    ]
+   },
+   "meta": "13 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "98b68e60-d703-5753-9165-c9280ae43e65",
+     "label": "IK040ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9faf56db-16ab-5e16-bfee-2312ce8a8fa1",
+     "label": "IK040ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "53f02f48-c66c-597a-bd91-de2643e1d9c4",
+     "label": "IK040ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7487a36c-87d5-591d-bccd-ac84b78930c9",
+     "label": "IK040ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b048c196-2f51-5118-ab6b-413254499c57",
+     "label": "IK040ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d52821d4-f489-551d-98e6-b983f9453af3",
+     "label": "IK040ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a327c835-bb9e-591d-8782-9ee5d9ed653c",
+     "label": "IK040ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "08c0a669-205a-557e-9f34-932c9ddd5ae8",
+     "label": "IK040ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9eccce5a-4ff5-55b2-91ec-64509bf1004a",
+     "label": "IK040ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2824e4bb-5b55-5dff-a248-08ecd986c4fe",
+     "label": "IK040ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "460d6b16-9e78-5d54-8431-9e0dbec03d22",
+     "label": "IK040ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f858b016-cb2a-534d-a9c7-d3ae68cb746b",
+     "label": "IK040ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a6ef8ac3-2be2-55b1-aa23-aaf369016630",
+     "label": "IK040ES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001347",
+   "label": "AINV0000000374",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "NIH.R1 Orbiter Environment Simulator (OES) real time data- Julian day 313",
+    "dataset_catalog": "AINV0000000374",
+    "dataset_description": [
+     "Spreadsheet column headings:  HH:MM:SS, TTTT.T, RRRRR.R, CCCCCCC, 1.0, 2.0, 3.0<br/><br/>T = temperature<br/>R = relative humidity<br/>C = CO2"
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9303003",
+     "9303006",
+     "9303009",
+     "9303011",
+     "9303012",
+     "9303019",
+     "9303021",
+     "9303026",
+     "9303028",
+     "9303031 1_2",
+     "PARE.04A",
+     "PARE.04B",
+     "PARE.04C"
+    ]
+   },
+   "meta": "13 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "66c268b5-1a98-5686-92d2-56d41e433130",
+     "label": "J313_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "75ed1e2b-b710-5ead-ae67-0c81806065c6",
+     "label": "J313_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ba839f2d-0271-56a8-94e0-b8021cc94d2d",
+     "label": "J313_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "927fc95b-fdc2-594f-be1c-4e3d076cffd8",
+     "label": "J313_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "463772c6-39d2-5461-a1fe-9081d5c951cf",
+     "label": "J313_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2c659e48-1e01-574e-b2cc-e8cffb1a76da",
+     "label": "J313_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2d4ffeca-879e-5575-a69b-8e272c8198f6",
+     "label": "J313_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a81e371e-9079-5506-9426-a01e00a850b7",
+     "label": "J313_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b4f1293e-9b3f-5559-9c42-686ccbf2bac5",
+     "label": "J313_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4130e6dd-43bc-53bd-8d5f-4cc0b77f6888",
+     "label": "J313_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d3b1a9dd-3cf2-503b-8f78-cc2f9ae59f52",
+     "label": "J313_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "bc99d438-070c-5fc0-9309-0e8a55e3eb9b",
+     "label": "J313_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "98530929-1e0a-5606-8126-acc1988378b4",
+     "label": "J313_OES.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001324",
+   "label": "AINV0000000363",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "NIH.R1 Flight data- Rodent Maintenance- Launch Control Group 1 (LCG1)",
+    "dataset_catalog": "AINV0000000363",
+    "dataset_description": [
+     "The \u201cBody Weight Summary - LCG1\u201d layout shows the date, the average weight, the maximum weight, and the minimum weight for Launch Control Group 1 animals only.  The \u201cBody Weight Summary - Control\u201d layout shows the date, the average weight, the maximum weight, and the minimum weight for synchronous and vivarium control 2 animals only.  The \u201cSummary by Rat\u201d layout shows the rat number, the date, the body weight, the old food weight, the new food weight, the old water weight, the new water weight, and anomalies for the launch nominal group only."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "9303003",
+     "9303006",
+     "9303009",
+     "9303011",
+     "9303012",
+     "9303019",
+     "9303021",
+     "9303026",
+     "9303028",
+     "9303031 1_2",
+     "PARE.04A",
+     "PARE.04B",
+     "PARE.04C"
+    ]
+   },
+   "meta": "13 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "3fbcbed1-4eff-5780-a5da-f02f57a69897",
+     "label": "R1_LCG1.fmp",
+     "type": "file",
+     "ext": "fmp",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b7913211-5074-5bc2-805c-12c3f98f415e",
+     "label": "R1_LCG1.fmp",
+     "type": "file",
+     "ext": "fmp",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0a2f207b-5546-5290-b4dc-a91389edb7f8",
+     "label": "R1_LCG1.fmp",
+     "type": "file",
+     "ext": "fmp",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9abb48d6-5483-5b44-a068-e6e39d644e40",
+     "label": "R1_LCG1.fmp",
+     "type": "file",
+     "ext": "fmp",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e856cebb-adb9-53da-8306-e1f99a333c65",
+     "label": "R1_LCG1.fmp",
+     "type": "file",
+     "ext": "fmp",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1d8ffca7-4bf9-5bb1-974d-f47b04e8f822",
+     "label": "R1_LCG1.fmp",
+     "type": "file",
+     "ext": "fmp",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f5bf8337-6e75-5fd1-ad7e-0586b4ccac68",
+     "label": "R1_LCG1.fmp",
+     "type": "file",
+     "ext": "fmp",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "23e4d25a-9442-5b80-8ba3-405d212091d5",
+     "label": "R1_LCG1.fmp",
+     "type": "file",
+     "ext": "fmp",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ab366165-235f-5f20-a60a-ab9b82b624b0",
+     "label": "R1_LCG1.fmp",
+     "type": "file",
+     "ext": "fmp",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7930bd2a-4c2d-5958-ac65-732f56f99f8c",
+     "label": "R1_LCG1.fmp",
+     "type": "file",
+     "ext": "fmp",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6c15d2d2-688b-5dc8-9b99-c69224659aa7",
+     "label": "R1_LCG1.fmp",
+     "type": "file",
+     "ext": "fmp",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "36f435bf-9ff9-5961-b139-19dd29370fdb",
+     "label": "R1_LCG1.fmp",
+     "type": "file",
+     "ext": "fmp",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0dccacff-f4f1-50a3-992e-1489d68fbc26",
+     "label": "R1_LCG1.fmp",
+     "type": "file",
+     "ext": "fmp",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001325",
+   "label": "AINV0000000365",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "NIH.R1 Feasibility Tests 1 and 2 and Procedures Validation Test (PVT) data",
+    "dataset_catalog": "AINV0000000365",
+    "dataset_description": [
+     "This database contains information from the two Feasibility Tests and the Procedures Validation Test.  The format is identical to the database generated for the NIH.R1 flight and contains information gathered during surgeries and following delivery of the pups.  Several summaries can be generated from this file, including:<br/>\u2022  laparotomies<br/>\u2022  surgeries<br/>\u2022  fetal survival<br/>\u2022  fetus and pup weights<br/>\u2022  resorptions<br/><br/>Please refer to list of scripts to see summaries that can be generated.  All information on an animal by animal basis has been combined on one form, the Single Page Form, that can be used to see the complete picture.  For a less complete summary by treatment group, see the Dam Data Summary.<br/><br/>Rodent maintenance information (body weight, food and water consumption) is compiled with the data books from each test.  Data from the Procedures Validation Test was collected electronically via the Electronic Data Collection System (EDCS) in the FileMaker application."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "9303003",
+     "9303006",
+     "9303009",
+     "9303011",
+     "9303012",
+     "9303019",
+     "9303021",
+     "9303026",
+     "9303028",
+     "9303031 1_2",
+     "PARE.04A",
+     "PARE.04B",
+     "PARE.04C"
+    ]
+   },
+   "meta": "13 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "36e1e857-7052-5c5c-819b-5cc5e3452d56",
+     "label": "R1SurgeryData_PFT_PVT.fmp",
+     "type": "file",
+     "ext": "fmp",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a9cc11fb-a119-5e41-b1ed-062607480903",
+     "label": "R1SurgeryData_PFT_PVT.fmp",
+     "type": "file",
+     "ext": "fmp",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "08bcd6b7-bc20-5af9-8e9d-9fbbe6eb8cfd",
+     "label": "R1SurgeryData_PFT_PVT.fmp",
+     "type": "file",
+     "ext": "fmp",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "dbf5b797-749b-50b4-8aba-c18593ae9499",
+     "label": "R1SurgeryData_PFT_PVT.fmp",
+     "type": "file",
+     "ext": "fmp",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a37fa5af-83f9-5910-9d08-84a996c75c13",
+     "label": "R1SurgeryData_PFT_PVT.fmp",
+     "type": "file",
+     "ext": "fmp",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "55b7ba1d-15b8-5a40-8b05-3e485af3dbef",
+     "label": "R1SurgeryData_PFT_PVT.fmp",
+     "type": "file",
+     "ext": "fmp",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "afb3ab7d-6b04-50c5-82ea-587bf46fd1c0",
+     "label": "R1SurgeryData_PFT_PVT.fmp",
+     "type": "file",
+     "ext": "fmp",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0acc5ed5-8909-53e6-aa53-d30b446cab76",
+     "label": "R1SurgeryData_PFT_PVT.fmp",
+     "type": "file",
+     "ext": "fmp",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "78b07c36-c76b-58b4-9d34-c55cd2b2a2a2",
+     "label": "R1SurgeryData_PFT_PVT.fmp",
+     "type": "file",
+     "ext": "fmp",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "920dc4d6-262c-5b6d-85fc-26147ab31e23",
+     "label": "R1SurgeryData_PFT_PVT.fmp",
+     "type": "file",
+     "ext": "fmp",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c9c09723-a2b6-5f22-ac65-49a15daee69d",
+     "label": "R1SurgeryData_PFT_PVT.fmp",
+     "type": "file",
+     "ext": "fmp",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5ccefc10-1a13-5c64-b270-2504a6a68170",
+     "label": "R1SurgeryData_PFT_PVT.fmp",
+     "type": "file",
+     "ext": "fmp",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4064f671-f509-5b6d-bdd3-16c7853f8318",
+     "label": "R1SurgeryData_PFT_PVT.fmp",
+     "type": "file",
+     "ext": "fmp",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002328",
+   "label": "AINV0000000362",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "NIH.R1 Flight data- Rodent Maintenance- Launch Nominal Group (LNG)",
+    "dataset_catalog": "AINV0000000362",
+    "dataset_description": [
+     "The \u201cMax/Min Summary - LNG\u201d layout shows the date, the average weight, the maximum weight, and the minimum weight for launch nominal animals only.  The \u201cMax/Min Summary\u201d layout shows the date, the average weight, the maximum weight, and the minimum weight for flight and vivarium control 1 animals only.  The \u201cSummary by Rat\u201d layout shows the rat number, the date, the body weight, the old food weight, the new food weight, the old water weight, the new water weight, and anomalies for the Launch Control Group 1 animals only."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "9303003",
+     "9303006",
+     "9303009",
+     "9303011",
+     "9303012",
+     "9303019",
+     "9303021",
+     "9303026",
+     "9303028",
+     "9303031 1_2",
+     "PARE.04A",
+     "PARE.04B",
+     "PARE.04C"
+    ]
+   },
+   "meta": "13 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "157c904a-df7d-5258-92c9-e7e321d8465a",
+     "label": "R1_LNG.fmp",
+     "type": "file",
+     "ext": "fmp",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6385584e-4dc6-5f33-8d94-46f394d19f0b",
+     "label": "R1_LNG.fmp",
+     "type": "file",
+     "ext": "fmp",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "94db5921-24cd-5371-bc1f-0431f1908be2",
+     "label": "R1_LNG.fmp",
+     "type": "file",
+     "ext": "fmp",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "10ce7f44-fa95-5d0a-9263-7d4d01fc72c6",
+     "label": "R1_LNG.fmp",
+     "type": "file",
+     "ext": "fmp",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "50157400-cb5b-563c-a280-45e544714243",
+     "label": "R1_LNG.fmp",
+     "type": "file",
+     "ext": "fmp",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2990a99d-fda3-5c6e-8597-f31f6d448dd8",
+     "label": "R1_LNG.fmp",
+     "type": "file",
+     "ext": "fmp",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ff9a7f64-3fce-5542-9eb8-31e4f05c1ce7",
+     "label": "R1_LNG.fmp",
+     "type": "file",
+     "ext": "fmp",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "43c32278-80f4-5930-a58e-843984057574",
+     "label": "R1_LNG.fmp",
+     "type": "file",
+     "ext": "fmp",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c824ec99-181a-5fd2-a550-4ce8a52b3915",
+     "label": "R1_LNG.fmp",
+     "type": "file",
+     "ext": "fmp",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e595e0da-4465-508a-b487-a57108e764fb",
+     "label": "R1_LNG.fmp",
+     "type": "file",
+     "ext": "fmp",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "fda54726-771d-5da3-b0f0-64a311cf80da",
+     "label": "R1_LNG.fmp",
+     "type": "file",
+     "ext": "fmp",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ff76cfcf-e1cc-568f-a07a-1af410d94b6a",
+     "label": "R1_LNG.fmp",
+     "type": "file",
+     "ext": "fmp",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d075c7fc-a51a-56b7-85b0-9c1cdd24e920",
+     "label": "R1_LNG.fmp",
+     "type": "file",
+     "ext": "fmp",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

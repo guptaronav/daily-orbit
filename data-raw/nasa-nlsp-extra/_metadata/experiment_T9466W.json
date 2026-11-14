@@ -1,0 +1,152 @@
+{
+ "record": {
+  "id": "79d6baf0-fce6-573f-ba08-8aad76c9482d",
+  "_id": "79d6baf0-fce6-573f-ba08-8aad76c9482d",
+  "experiment_title": "Simulated Space Radiation Studies for the Assessment of Chromosomal Damage: An Integrated Experimental and Theoretical Approach",
+  "archive_status_index": 1,
+  "pub_document_number": "PUB001901",
+  "parameter_html": "<table><tr><td>Chromosome aberrations</td></tr><tr></tr></table>",
+  "__source_key": "cl62ay17vcd2601o66ds9fjvm",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Chatterjee, Aloke\">Principal Investigator: Chatterjee, Aloke</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Bedford, Joel\">Co-Investigator: Bedford, Joel</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Heilbronn, Lawrence\">Co-Investigator: Heilbronn, Lawrence</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Holley, William\">Co-Investigator: Holley, William</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Miller, Jack\">Co-Investigator: Miller, Jack</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Nagasawa, Hatsumi\">Co-Investigator: Nagasawa, Hatsumi</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Zeitlin, Cary\">Co-Investigator: Zeitlin, Cary</a>",
+  "experiment_type_lk": [
+   "NASA Ground-Based Investigations"
+  ],
+  "__record_modified_date": "2026-08-23T03:51:22.572866+00:00",
+  "proposal_source": [
+   "NRA-03-OBPR-04"
+  ],
+  "__indexed": "2026-08-23T03:51:22.572866+00:00",
+  "__record_creation_date": "2022-07-28T20:06:34.665Z",
+  "keyword": [
+   "Abnormalities, radiation-induced",
+   "Protons",
+   "Radiation effects",
+   "Fibroblasts",
+   "Radiation protection",
+   "HZE particles",
+   "Radiation",
+   "Chromosome aberrations"
+  ],
+  "keyword_name": "Chromosome aberrations",
+  "__record_size": 75684,
+  "__record_version": 29,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<br>\r\nOutside of the protection of Earth's atmosphere humans are exposed to increased radiation, even inside the shielded walls of their spacecraft.  Significant aberrations in the chromosomes of humans who stay in space for long-durations have been measured.  The blood cells of several Mir crewmembers showed such abnormalities.  This is of great concern since these aberrations lead to the death of cells, mutation of genes and, eventually, cancer.  This study investigated the frequency of several classes of chromosomal aberrations (lethal, non-lethal, carcinogenic and complex) that occur in human cells irradiated by protons and high-energy HZE particles through various types of shielding.  \r\np>\r\nAs high-energy radioactive particles penetrate the hull of a spacecraft, some of them are fragmented into a mixture of component particles.  Understanding what comprises this mixed beam of radiation is imperative for predicting the overall effect on chromosomes.  The experimental portion of this study was complemented by the development of an effective theoretical model to predict radiation-induced aberrations.  This research will help design future spacecraft shielding so that radiation risks are minimized. The ultimate goal is to lower the radiation risk to astronauts during long-duration missions.\r\n<p>\r\nAPPROACH:<br>\r\nCultured human fibroblasts and epithelial cells were irradiated within realistic shielding types.  The studies were conducted using proton beams, and later, heavy nuclei and protons, including energetic protons, neon and iron particles.  Shielding material will vary in material and thickness.  These measurements were designed to lead to development of a chromosome model and calculation of the frequency of radiation-caused aberrations. \r\n<p>\r\nIt is not feasible or cost-effective to lab-test all variations or types of shielding.  The product of this research study was an algorithm made into a user-friendly software that allows NASA to predict shielding effectiveness before designing and building spacecraft.   In addition, the orientation of cells during irradiation were altered randomly to test the hypothesis that, to be realistic to actual conditions of the body during space flight, cell orientation needs to be altered during radiation exposure.  \r\n<p>\r\nRESULTS:<br>\r\nThe theoretical model developed in this project can be used to predict biological effects such as chromosome aberrations for incident mixed beam combined with mixed beam due to nuclear disintegration caused by shielding materials. The effectiveness of the HZE iron ions for induction of acentric fragment producing chromosome-type aberrations at the first mitosis after irradiation of human GM2149 cells in G0 was not measurably different for incident iron ion energies of 0.3, 0.6, or 1GeV/n. Furthermore, the filtration of 1 GeV/n or 0.6 GeV/n Fe ions with 1.8cm or 5.4 cm of aluminum or 5.5cm or 11.0cm of polyethylene did not measurably alter the effectiveness of the emerging beam. One of the most important conclusions derived from the successful completion of this study is that, based on the current estimate of thicknesses of shielding materials, the biological effects of a mixed beam due to fragmentation processes will not be much different than the un-fragmented and pure beam.\r\n<p>",
+  "payload_id": "BRC",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "T9466W",
+  "indexed": "2026-08-23T03:51:22.572866+00:00",
+  "GUID": "cl62ay17vcd2601o66ds9fjvm",
+  "parameter_name": [
+   "Chromosome aberrations"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 1028,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Radiation biology"
+  ],
+  "pme_role_with_name": [
+   "Co-Investigator: Bedford, Joel",
+   "Co-Investigator: Heilbronn, Lawrence",
+   "Co-Investigator: Holley, William",
+   "Co-Investigator: Miller, Jack",
+   "Co-Investigator: Nagasawa, Hatsumi",
+   "Co-Investigator: Zeitlin, Cary",
+   "Principal Investigator: Chatterjee, Aloke"
+  ],
+  "missions": [
+   [
+    [
+     "BRC"
+    ]
+   ]
+  ],
+  "__dirid": "79d6baf0-fce6-573f-ba08-8aad76c9482d",
+  "__record_size_wo_doccontent": 75684,
+  "PI": [
+   "Chatterjee, Aloke"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "T9466W"
+  ],
+  "mission_id": [
+   [
+    [
+     "BRC"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "proposal_date": [
+   "01/24/2002"
+  ],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Chatterjee, Aloke"
+  ],
+  "program_name": [
+   "Ground"
+  ],
+  "archive_status": "Data preservation is complete. All datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Ground",
+  "__source_field_concat": "PUB001901 BRC cl62ay17vcd2601o66ds9fjvm <table><tr><td>Chromosome aberrations</td></tr><tr></tr></table> Chromosome aberrations  N/A T9466W Ground Data preservation is complete. All datasets are publicly available.",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<br>\r\nOutside of the protection of Earth's atmosphere humans are exposed to increased radiation, even inside the shielded walls of their spacecraft.  Significant aberrations in the chromosomes of humans who stay in space for long-durations have been measured.  The blood cells of several Mir crewmembers showed such abnormalities.  This is of great concern since these aberrations lead to the death of cells, mutation of genes and, eventually, cancer.  This study investigated the frequency of several classes of chromosomal aberrations (lethal, non-lethal, carcinogenic and complex) that occur in human cells irradiated by protons and high-energy HZE particles through various types of shielding.  \r\np>\r\nAs high-energy radioactive particles penetrate the hull of a spacecraft, some of them are fragmented into a mixture of component particles.  Understanding what comprises this mixed beam of radiation is imperative for predicting the overall effect on chromosomes.  The experimental portion of this study was complemented by the development of an effective theoretical model to predict radiation-induced aberrations.  This research will help design future spacecraft shielding so that radiation risks are minimized. The ultimate goal is to lower the radiation risk to astronauts during long-duration missions.\r\n<p>\r\nAPPROACH:<br>\r\nCultured human fibroblasts and epithelial cells were irradiated within realistic shielding types.  The studies were conducted using proton beams, and later, heavy nuclei and protons, including energetic protons, neon and iron particles.  Shielding material will vary in material and thickness.  These measurements were designed to lead to development of a chromosome model and calculation of the frequency of radiation-caused aberrations. \r\n<p>\r\nIt is not feasible or cost-effective to lab-test all variations or types of shielding.  The product of this research study was an algorithm made into a user-friendly software that allows NASA to predict shielding effectiveness before designing and building spacecraft.   In addition, the orientation of cells during irradiation were altered randomly to test the hypothesis that, to be realistic to actual conditions of the body during space flight, cell orientation needs to be altered during radiation exposure.  \r\n<p>\r\nRESULTS:<br>\r\nThe theoretical model developed in this project can be used to predict biological effects such as chromosome aberrations for incident mixed beam combined with mixed beam due to nuclear disintegration caused by shielding materials. The effectiveness of the HZE iron ions for induction of acentric fragment producing chromosome-type aberrations at the first mitosis after irradiation of human GM2149 cells in G0 was not measurably different for incident iron ion energies of 0.3, 0.6, or 1GeV/n. Furthermore, the filtration of 1 GeV/n or 0.6 GeV/n Fe ions with 1.8cm or 5.4 cm of aluminum or 5.5cm or 11.0cm of polyethylene did not measurably alter the effectiveness of the emerging beam. One of the most important conclusions derived from the successful completion of this study is that, based on the current estimate of thicknesses of shielding materials, the biological effects of a mixed beam due to fragmentation processes will not be much different than the un-fragmented and pure beam.\r\n<p>",
+  "__doi": "10.83263/979k-ww94",
+  "__doi_record_creation_date": "2026-08-23T03:51:22",
+  "__doi_record_modified_date": "2026-08-23T03:51:22"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000778",
+   "label": "T9466W__2640541906",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Final Report",
+    "dataset_catalog": "T9466W__2640541906",
+    "dataset_description": [
+     "This is the final report titled, Simulated Space Radiation Studies for The Assessment Of Chromosomal Damage: An Integrated Experimental and Theoretical Approach, for the T9466W study."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "T9466W"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "56a4d40c-9158-5acd-bae9-eb440a431c1b",
+     "label": "T9466W__2640541906.pdf_BRC_T9466W_2011_264_050927.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

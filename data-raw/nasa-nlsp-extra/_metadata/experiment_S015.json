@@ -1,0 +1,597 @@
+{
+ "record": {
+  "id": "201846e3-58d9-56c5-baad-63b17350d3d7",
+  "_id": "201846e3-58d9-56c5-baad-63b17350d3d7",
+  "experiment_title": "The Response of Single Human Cells to Zero Gravity",
+  "pub_document_number": "PUB000419",
+  "parameter_html": "<table><tr><td>Mitosis</td></tr><tr><td>Cell growth rate</td></tr><tr><td>Chromosome aberrations</td></tr><tr></tr></table>",
+  "__source_key": "cl62axb65ccw201o6h89d09x1",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Montgomery, P.\">Principal Investigator: Montgomery, P.</a>",
+  "image_name": [
+   "Woodlawn Wanderer -- external configuration",
+   "Woodlawn Wanderer -- hardware schematic",
+   "Woodlawn Wanderer -- interior configuration",
+   "Woodlawn Wanderer -- schematic of interior configuration",
+   "Woodlawn Wanderer 9"
+  ],
+  "keyword": [
+   "Cell physiology",
+   "Cell cycle",
+   "Mitosis"
+  ],
+  "keyword_name": "Mitosis",
+  "__record_version": 30,
+  "experiment_description": "OBJECTIVES:<br>\r\nStudies with centrifuges demonstrated that gravitational acceleration has a significant influence on cell biology systems. The purpose of this experiment was to determine the effects of zero-gravity on living human cells during and subsequent to the Skylab 3 mission. A strain of diploid human embryonic lung cells, WI-38, was chosen for this purpose. In general, this experiment was designed to detect the effects of zero-gravity on cell growth rates and on cell structure as observed by light microscopy, transmission electron microscopy and scanning electron microscopy, and histochemistry. Studies of the effects of zero-gravity on the cell function and the cell cycle were performed by time lapse motion picture photography and microspectrophotometry. Subsequent study of the returned living cells included karotyping, G- and C- banding, and analyses of the culture media. Some of the living cells returned were stored by deep freeze techniques for possible future experiments.</p>\r\n<p>\r\nAPPROACH:<br>\r\nThe Woodlawn Wanderer 9 was used inflight to support the growth of human embryonic lung cells. Cell cultures were maintained with the proper replacement of media with new fresh media. The cells were kept at a constant temperature of 36 degrees Celsius and at a constant pressure of one atmosphere in a hermetically sealed compartment. Two phase-contrast time-lapse motion pictures of living cells for 28 days was used to collect data on the cell cycle and mitosis. An automated system fixed the cells at predetermined intervals for postflight examination under the light microscope, scanning electron microscope, and transmission electron microscope. Cultures were maintained at approximately 22 degrees Celsius after the first 12 days of the mission for the return of intact cells for subsequent subculture. The cell cultures brought back to ground for subculture were analyzed for chromosomal aberrations, and the cell culture media was analyzed to determine chemical composition.</p>\r\n<p>Cellular growth rates were determined by cell counting procedures accomplished with the aid of a phase-contrast contrast microscope using a grid reticle in a 10X magnification eyepiece. Postflight, cell counting was performed with the 15X eyepiece due to the fact that the high density of the cell population made it difficult to determine single cells. Time lapse films were analyzed with a projector which permitted projection 1-8, 16, and 24 frames/second. Cells were counted every 3 hours. Cell multiplication was determined by adding the number of observed mitoses and mitotic activity, which was calculated from the average cell density. The rate of cell migration was determined by covering the projection screen with paper and tracing the location of the nucleus of individual cells every hour.</p>\r\n<p>Whole coverslips with attached cell monolayers in 4 percent glutaraldehyde fixative with cacodylate buffer were processed for transmission electron microscopy, scanning electron microscopy, and phase contrast microscopy. Scanning microspectrophotometry was performed on selected areas of the nuclei using a scanning microscope photometer having a 1-micron measuring at 1 micron intervals at 540 nanometers. Subcultures were incubated overnight with fresh growth medium, then harvested with standard colchimid arrest and hypotonic treatment procedures. Banding analysis was performed on air dried slides. Five cells from control cultures were analyzed for G-band pattern and 10 cells were analyzed for C-band pattern. At least 10 cells of the flight culture were analyzed for G-band pattern and 20 cells were analyzed for C-band pattern.</p>\r\n<p>\r\nRESULTS:<br>\r\nTen cultures were fixed during the first 12 days of flight. Growth curves, DNA microspectrophometery, phase microscopy, and ultrastructural studies of the fixed cells revealed no effects of a zero-gravity environment on the ten cultures. Two cultures were photographed by means of phase time-lapse cinematography during the first 27 days of the flight. Analysis of the films revealed no differences in mitotic index, cell cycle, and migration between the flight and control cells. No differences between the flight and control cell cultures were observed in the karotype and chromosome banding. Minor unexplained differences have been found in the biochemical constituents of the used flight and control media.<end></end></p>",
+  "indexed": "2026-08-23T03:57:09.302523+00:00",
+  "GUID": "cl62axb65ccw201o6h89d09x1",
+  "__model_type": "lsda_experiment",
+  "__dirid": "201846e3-58d9-56c5-baad-63b17350d3d7",
+  "__record_size_wo_doccontent": 84455,
+  "experiment_parms_tissue2": "N/A",
+  "experiment_parms_tissue1": "N/A",
+  "__update_method": "Update CDM",
+  "archive_status_index": 2,
+  "experiment_type_lk": [
+   "Skylab Program"
+  ],
+  "__record_modified_date": "2026-08-23T03:57:09.302523+00:00",
+  "proposal_source": [
+   "N/A"
+  ],
+  "__indexed": "2026-08-23T03:57:09.302523+00:00",
+  "__record_creation_date": "2022-07-28T19:51:48.062Z",
+  "__record_size": 84455,
+  "__model_version": 60,
+  "payload_id": "Skylab 3",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "S015",
+  "parameter_name": [
+   "Mitosis",
+   "Cell growth rate",
+   "Chromosome aberrations"
+  ],
+  "payload_part": "Skylab 3",
+  "exp_index": 424,
+  "research_area": [
+   "Cell and molecular biology"
+  ],
+  "pme_role_with_name": [
+   "Principal Investigator: Montgomery, P."
+  ],
+  "missions": [
+   [
+    [
+     "Skylab 3"
+    ]
+   ]
+  ],
+  "PI": [
+   "Montgomery, P."
+  ],
+  "_file_extension": [],
+  "experiment_identifier": [
+   "S015"
+  ],
+  "mission_id": [
+   [
+    [
+     "Skylab 3"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Montgomery, P."
+  ],
+  "program_name": [
+   "Skylab"
+  ],
+  "archive_status": "Data preservation is complete. Privacy-protected datasets are available via data request. Remaining datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Skylab",
+  "__source_field_concat": "PUB000419 Skylab 3 cl62axb65ccw201o6h89d09x1 Mitosis N/A N/A  Skylab 3 The Response of Single Human Cells to Zero Gravity S015 Skylab",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<br>\r\nStudies with centrifuges demonstrated that gravitational acceleration has a significant influence on cell biology systems. The purpose of this experiment was to determine the effects of zero-gravity on living human cells during and subsequent to the Skylab 3 mission. A strain of diploid human embryonic lung cells, WI-38, was chosen for this purpose. In general, this experiment was designed to detect the effects of zero-gravity on cell growth rates and on cell structure as observed by light microscopy, transmission electron microscopy and scanning electron microscopy, and histochemistry. Studies of the effects of zero-gravity on the cell function and the cell cycle were performed by time lapse motion picture photography and microspectrophotometry. Subsequent study of the returned living cells included karotyping, G- and C- banding, and analyses of the culture media. Some of the living cells returned were stored by deep freeze techniques for possible future experiments.</p>\r\n<p>\r\nAPPROACH:<br>\r\nThe Woodlawn Wanderer 9 was used inflight to support the growth of human embryonic lung cells. Cell cultures were maintained with the proper replacement of media with new fresh media. The cells were kept at a constant temperature of 36 degrees Celsius and at a constant pressure of one atmosphere in a hermetically sealed compartment. Two phase-contrast time-lapse motion pictures of living cells for 28 days was used to collect data on the cell cycle and mitosis. An automated system fixed the cells at predetermined intervals for postflight examination under the light microscope, scanning electron microscope, and transmission electron microscope. Cultures were maintained at approximately 22 degrees Celsius after the first 12 days of the mission for the return of intact cells for subsequent subculture. The cell cultures brought back to ground for subculture were analyzed for chromosomal aberrations, and the cell culture media was analyzed to determine chemical composition.</p>\r\n<p>Cellular growth rates were determined by cell counting procedures accomplished with the aid of a phase-contrast contrast microscope using a grid reticle in a 10X magnification eyepiece. Postflight, cell counting was performed with the 15X eyepiece due to the fact that the high density of the cell population made it difficult to determine single cells. Time lapse films were analyzed with a projector which permitted projection 1-8, 16, and 24 frames/second. Cells were counted every 3 hours. Cell multiplication was determined by adding the number of observed mitoses and mitotic activity, which was calculated from the average cell density. The rate of cell migration was determined by covering the projection screen with paper and tracing the location of the nucleus of individual cells every hour.</p>\r\n<p>Whole coverslips with attached cell monolayers in 4 percent glutaraldehyde fixative with cacodylate buffer were processed for transmission electron microscopy, scanning electron microscopy, and phase contrast microscopy. Scanning microspectrophotometry was performed on selected areas of the nuclei using a scanning microscope photometer having a 1-micron measuring at 1 micron intervals at 540 nanometers. Subcultures were incubated overnight with fresh growth medium, then harvested with standard colchimid arrest and hypotonic treatment procedures. Banding analysis was performed on air dried slides. Five cells from control cultures were analyzed for G-band pattern and 10 cells were analyzed for C-band pattern. At least 10 cells of the flight culture were analyzed for G-band pattern and 20 cells were analyzed for C-band pattern.</p>\r\n<p>\r\nRESULTS:<br>\r\nTen cultures were fixed during the first 12 days of flight. Growth curves, DNA microspectrophometery, phase microscopy, and ultrastructural studies of the fixed cells revealed no effects of a zero-gravity environment on the ten cultures. Two cultures were photographed by means of phase time-lapse cinematography during the first 27 days of the flight. Analysis of the films revealed no differences in mitotic index, cell cycle, and migration between the flight and control cells. No differences between the flight and control cell cultures were observed in the karotype and chromosome banding. Minor unexplained differences have been found in the biochemical constituents of the used flight and control media.<end></end></p>",
+  "__doi": "10.83263/z5k2-6902",
+  "__doi_record_creation_date": "2026-08-23T03:57:09",
+  "__doi_record_modified_date": "2026-08-23T03:57:09"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001998",
+   "label": "JMSKYS015_115",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Length of Individual Cell Cycles",
+    "dataset_catalog": "JMSKYS015_115",
+    "dataset_description": [
+     "This table is a comparison of the length of time of individual cell cycles for flight cultures and ground based cultures.  As reported in: Montgomery PO, Cook JE, Reynolds RC, Paul JS, Hayflick L, Stock D, Schulz WW, Kimzey S, Thirolf RG, Rogers T, Campbell D, Murrell J. The Response of Single Human Cells to Zero Gravity: The Proceeding of the Skylab Life Sciences Symposium, 27-29 August 1974, NASA TM X-58154.<END>"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "S015"
+    ]
+   },
+   "meta": "1 file \u00b7 14.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "126bdf21-1141-5538-8fd5-c1ead17d27c4",
+     "label": "JMSKYS015_115.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 14336,
+     "meta": "14.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001730",
+   "label": "JMSKYS015_123",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Chromosome C-Banding of Human WI-38 Flight Cells",
+    "dataset_catalog": "JMSKYS015_123",
+    "dataset_description": [
+     "The normal G-band and C-band patterns were found in all cultures, including the flight material. No abnormalities of banding patterns were observed. The normal C-band pattern is presented in this data set.<END>"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "S015"
+    ]
+   },
+   "meta": "1 file \u00b7 1.34 MB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "efffd859-f82e-5864-89f3-3cd68a51ebdd",
+     "label": "JMSKYS015_123.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 1404928,
+     "meta": "1.34 MB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000746",
+   "label": "JMSKYS015_128",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Scanning Electron hotomicrograph of WI-38 Cell Near End of Telophase",
+    "dataset_catalog": "JMSKYS015_128",
+    "dataset_description": [
+     "Scanning electron microscopy confirms the phase microscopy and transmission electron microscopy observations that these cells have a generally smooth surface and relatively few microvilli. The micrograph shows that some cytoplasmic bubbling (B) is present and that triangular shaped membranous cytoplasm is beginning to form (T). As reported in: Montgomery PO, Cook JE, Reynolds RC, Paul JS, Hayflick L, Stock D, Schulz WW, Kimzey S, Thirolf RG, Rogers T, Campbell D, Murrell J. The Response of Single Human Cells to Zero Gravity. Biomedical Results of Skylab, ed. Johnson RS, Dietlein L, 1977, NASA SP 377.<END>"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "S015"
+    ]
+   },
+   "meta": "1 file \u00b7 1.42 MB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "93f8771c-675a-585f-93b1-a2d7ac7c4f45",
+     "label": "JMSKYS015_128.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 1483776,
+     "meta": "1.42 MB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000594",
+   "label": "JMSKYS015_127",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Transmission Electron Photomicrograph of Peripheral Cytoplasm",
+    "dataset_catalog": "JMSKYS015_127",
+    "dataset_description": [
+     "This image is a transmission electron photomicrograph of peripheral cytoplasm showing free ribosomes \u00ae, microtubules (MT), and bundles of microfibrils (MF) beneath plasma membrane.  The magnification is 100,000 X.<P>In the 11- to 12-day old cultures filamentous mitochondria and lysosomes are decreased. Endoplasmic reticulum may be decreased and there appears to be a piling up of ribosomes around slightly dilated endoplasmic reticulum tubules. A marked increase in the number of microtubules and microfibrils is shown. As reported in: Montgomery PO, Cook JE, Reynolds RC, Paul JS, Hayflick L, Stock D, Schulz WW, Kimzey S, Thirolf RG, Rogers T, Campbell D, Murrell J. The Response of Single Human Cells to Zero Gravity. Biomedical Results of Skylab, ed. Johnson RS, Dietlein L, 1977, NASA SP 377.<END>"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "S015"
+    ]
+   },
+   "meta": "1 file \u00b7 1.17 MB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "fc13bbeb-68cd-5787-8758-b85b7e68fe47",
+     "label": "JMSKYS015_127.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 1231872,
+     "meta": "1.17 MB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000745",
+   "label": "JMSKYS015_125",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Transmission Electron Photomicrograph of 6-Day-Old Culture",
+    "dataset_catalog": "JMSKYS015_125",
+    "dataset_description": [
+     "The transmission electron photomicrograph shows the 6-day-old culture at the junction of central organelle rich zone of cytoplasm and ectoplasm.  The outer ectoplasm is rich in microtubules and microfibrils. As reported in: Montgomery PO, Cook JE, Reynolds RC, Paul JS, Hayflick L, Stock D, Schulz WW, Kimzey S, Thirolf RG, Rogers T, Campbell D, Murrell J. The Response of Single Human Cells to Zero Gravity. Biomedical Results of Skylab, ed. Johnson RS, Dietlein L, 1977, NASA SP 377.<END>"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "S015"
+    ]
+   },
+   "meta": "1 file \u00b7 389.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "95a73b90-1e58-5e61-8115-2192f6cb0ecb",
+     "label": "JMSKYS015_125.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 398336,
+     "meta": "389.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002208",
+   "label": "JMSKYS015_122",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Chromosome G-Banding of Human WI-38 Flight Cells",
+    "dataset_catalog": "JMSKYS015_122",
+    "dataset_description": [
+     "The normal G-band and C-band patterns were found in all cultures, including the flight material. No abnormalities of banding patterns were observed. The normal G-band pattern is presented in this data set.  As reported in: Montgomery PO, Cook JE, Reynolds RC, Paul JS, Hayflick L, Stock D, Schulz WW, Kimzey S, Thirolf RG, Rogers T, Campbell D, Murrell J. The Response of Single Human Cells to Zero Gravity: The Proceeding of the Skylab Life Sciences Symposium, 27-29 August 1974, NASA TM X-58154.\r\n<END>"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "S015"
+    ]
+   },
+   "meta": "1 file \u00b7 1.34 MB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "e6fd8cc4-b2df-5847-86c2-20d2ee632212",
+     "label": "JMSKYS015_122.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 1404928,
+     "meta": "1.34 MB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000247",
+   "label": "JMSKYS015_116",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Mitotic Index of Human Cell Cultures for Flight and Control Cultures",
+    "dataset_catalog": "JMSKYS015_116",
+    "dataset_description": [
+     "The data graph repesents the number of cell divisions or mitoses recorded for a 12-hour period per 1000 cells plotted against the days of film record. As reported in: Montgomery PO, Cook JE, Reynolds RC, Paul JS, Hayflick L, Stock D, Schulz WW, Kimzey S, Thirolf RG, Rogers T, Campbell D, Murrell J. The Response of Single Human Cells to Zero Gravity: The Proceeding of the Skylab Life Sciences Symposium, 27-29 August 1974, NASA TM X-58154.<END>"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "S015"
+    ]
+   },
+   "meta": "1 file \u00b7 483.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "29283359-8b94-532f-8ae2-62862d9849b9",
+     "label": "JMSKYS015_116.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 494592,
+     "meta": "483.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002000",
+   "label": "JMSKYS015_129",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Scanning Electron Photomicrograph of WI-38 Cell Near End of Telophase (High Magnification)",
+    "dataset_catalog": "JMSKYS015_129",
+    "dataset_description": [
+     "Scanning electron microscopy confirms the phase microscopy and transmission electron microscopy observations that these cells have a generally smooth surface and relatively few microvilli. This image represents a high magnification of the triangular shaped membranous cytoplasm shown in the data set entitled \u201cScanning Electron Photomicrograph of WI-38 Cell Near End of Telophase\u201d.  Note the folded cytoplasm (F).  Magnification is 20,000 X. As reported in: Montgomery PO, Cook JE, Reynolds RC, Paul JS, Hayflick L, Stock D, Schulz WW, Kimzey S, Thirolf RG, Rogers T, Campbell D, Murrell J. The Response of Single Human Cells to Zero Gravity. Biomedical Results of Skylab, ed. Johnson RS, Dietlein L, 1977, NASA SP 377.<END>"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "S015"
+    ]
+   },
+   "meta": "1 file \u00b7 465.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "f5b466cf-7fec-56e1-8784-a500cd0a43c4",
+     "label": "JMSKYS015_129.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 476160,
+     "meta": "465.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000248",
+   "label": "JMSKYS015_118",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Average Optical Density of Flight and Control Cells",
+    "dataset_catalog": "JMSKYS015_118",
+    "dataset_description": [
+     "Cell nucleus optical density expressed as a histogram are shown.  The mean nuclear density is plotted against the frequency of occurence for 3, 6, 7, 10, and 11 days of the cultures. As reported in: Montgomery PO, Cook JE, Reynolds RC, Paul JS, Hayflick L, Stock D, Schulz WW, Kimzey S, Thirolf RG, Rogers T, Campbell D, Murrell J. The Response of Single Human Cells to Zero Gravity: The Proceeding of the Skylab Life Sciences Symposium, 27-29 August 1974, NASA TM X-58154.<END>"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "S015"
+    ]
+   },
+   "meta": "1 file \u00b7 832.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "118dc5b3-63d8-5ad9-ab75-039d85a1e0ae",
+     "label": "JMSKYS015_118.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 851968,
+     "meta": "832.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001474",
+   "label": "JMSKYS015_120",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Amino Acid Analysis of Culture Medium",
+    "dataset_catalog": "JMSKYS015_120",
+    "dataset_description": [
+     "this spreadsheet represents the amount of amino acids found in the culture medium from the flight and ground control cell cultures. As reported in: Montgomery PO, Cook JE, Reynolds RC, Paul JS, Hayflick L, Stock D, Schulz WW, Kimzey S, Thirolf RG, Rogers T, Campbell D, Murrell J. The Response of Single Human Cells to Zero Gravity: The Proceeding of the Skylab Life Sciences Symposium, 27-29 August 1974, NASA TM X-58154.<END>"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "S015"
+    ]
+   },
+   "meta": "1 file \u00b7 15.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "f66f6067-2edf-5709-9b8e-85bfba72cf19",
+     "label": "JMSKYS015_120.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 15360,
+     "meta": "15.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000331",
+   "label": "JMSKYS015_114",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Growth Curve Analysis for Human WI-38 Cells",
+    "dataset_catalog": "JMSKYS015_114",
+    "dataset_description": [
+     "Growth curves of the cells in the flight unit and for the cells in the second backup unit.  The plot shows the number of cells/cm2 versus the days following subculture.  As reported in: Montgomery PO, Cook JE, Reynolds RC, Paul JS, Hayflick L, Stock D, Schulz WW, Kimzey S, Thirolf RG, Rogers T, Campbell D, Murrell J. The Response of Single Human Cells to Zero Gravity: The Proceeding of the Skylab Life Sciences Symposium, 27-29 August 1974, NASA TM X-58154.<END>"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "S015"
+    ]
+   },
+   "meta": "1 file \u00b7 682.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "c178fd29-c9fe-59bc-a65a-a3231fad011f",
+     "label": "JMSKYS015_114.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 698368,
+     "meta": "682.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000174",
+   "label": "JMSKYS015_121",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Rate of Cell Migration in Flight and Ground Control Cultures",
+    "dataset_catalog": "JMSKYS015_121",
+    "dataset_description": [
+     "This data table compares the migration rates of cells in the flight unit with the migration of cells in the backup unit.   As reported in: Montgomery PO, Cook JE, Reynolds RC, Paul JS, Hayflick L, Stock D, Schulz WW, Kimzey S, Thirolf RG, Rogers T, Campbell D, Murrell J. The Response of Single Human Cells to Zero Gravity: The Proceeding of the Skylab Life Sciences Symposium, 27-29 August 1974, NASA TM X-58154.<END>"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "S015"
+    ]
+   },
+   "meta": "1 file \u00b7 14.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "ec6a5d99-9865-5b2f-86bd-4e437408a2df",
+     "label": "JMSKYS015_121.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 14336,
+     "meta": "14.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000173",
+   "label": "JMSKYS015_117",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Average Optical Density of Nuclei of Flight and Control Cells",
+    "dataset_catalog": "JMSKYS015_117",
+    "dataset_description": [
+     "Optical density data of cell nuclei from the flight and ground control cell cultures are shown in this table. As reported in: Montgomery PO, Cook JE, Reynolds RC, Paul JS, Hayflick L, Stock D, Schulz WW, Kimzey S, Thirolf RG, Rogers T, Campbell D, Murrell J. The Response of Single Human Cells to Zero Gravity: The Proceeding of the Skylab Life Sciences Symposium, 27-29 August 1974, NASA TM X-58154.<END>"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "S015"
+    ]
+   },
+   "meta": "1 file \u00b7 14.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "37c25dde-ffc9-5c41-a70f-964872b6a5db",
+     "label": "JMSKYS015_117.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 14336,
+     "meta": "14.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000961",
+   "label": "JMSKYS015_126",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Phase Photomicrograph of 8-Day-Old WI-38 Cell Culture.",
+    "dataset_catalog": "JMSKYS015_126",
+    "dataset_description": [
+     "Microfibrils are especially dense adjacent to the plasma membrane where they form distinct bundles which may be demonstrated as light or dark bands with phase microscopy. These bands run in a longitudinal direction just beneath the plasma membrane of the cell.  As the cultures age, a variety of cytoplasmic vacuoles are formed. Transmission electron microscopy shows the vacuoles may be dilated mitochondria, lysosomes, and autophagosomes and fat vacuoles. As reported in: Montgomery PO, Cook JE, Reynolds RC, Paul JS, Hayflick L, Stock D, Schulz WW, Kimzey S, Thirolf RG, Rogers T, Campbell D, Murrell J. The Response of Single Human Cells to Zero Gravity. Biomedical Results of Skylab, ed. Johnson RS, Dietlein L, 1977, NASA SP 377.<END>"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "S015"
+    ]
+   },
+   "meta": "1 file \u00b7 378.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "18391f02-774d-5104-ba71-4db0c1fc3bf4",
+     "label": "JMSKYS015_126.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 387072,
+     "meta": "378.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000867",
+   "label": "JMSKYS015_119",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Culture Medium Analysis",
+    "dataset_catalog": "JMSKYS015_119",
+    "dataset_description": [
+     "This spreadsheet represents the amount of electrolytes, nutrients, and enzymes found in the culture medium from the flight and ground control cell cultures. As reported in: Montgomery PO, Cook JE, Reynolds RC, Paul JS, Hayflick L, Stock D, Schulz WW, Kimzey S, Thirolf RG, Rogers T, Campbell D, Murrell J. The Response of Single Human Cells to Zero Gravity: The Proceeding of the Skylab Life Sciences Symposium, 27-29 August 1974, NASA TM X-58154.<END>"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "S015"
+    ]
+   },
+   "meta": "1 file \u00b7 14.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "cf6ef35b-01de-545c-aefe-1186ce6501ce",
+     "label": "JMSKYS015_119.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 14336,
+     "meta": "14.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,233 @@
+{
+ "record": {
+  "id": "b6e825cd-3df6-57ab-8525-240c30aa1cf0",
+  "_id": "b6e825cd-3df6-57ab-8525-240c30aa1cf0",
+  "experiment_title": "Documentation of the Action of Metoclopramide",
+  "archive_status_index": 2,
+  "parameter_html": "<table><tr><td>Bowel sounds</td></tr><tr><td>Space motion sickness (SMS)</td></tr><tr></tr></table>",
+  "__source_key": "cl62ayejacd5b01o6ec2od9f7",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Thornton, William\">Principal Investigator: Thornton, William</a>",
+  "experiment_type_lk": [
+   "Shuttle Detailed Supplementary Objectives (DSO)"
+  ],
+  "__record_modified_date": "2026-08-23T03:47:53.692303+00:00",
+  "proposal_source": [
+   "N/A"
+  ],
+  "__indexed": "2026-08-23T03:47:53.692303+00:00",
+  "__record_creation_date": "2022-07-28T19:55:24.146Z",
+  "keyword": [
+   "Gastrointestinal system",
+   "Space motion sickness (SMS)"
+  ],
+  "keyword_name": "Space motion sickness (SMS)",
+  "__record_size": 92715,
+  "__record_version": 28,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<br>\r\nSpace motion sickness (SMS) differs in many of its signs and symptoms from 1g motion sickness, so much so that the traditional signs of SMS cannot be used to evaluate the presence, severity, or treatment of SMS. On STS-7 and 8 it was found that bowel sounds were strikingly absent during SMS and that GI symptoms were consistent with ileus (temporary paralysis of the bowel). A method of recording bowel sounds had been devised and demonstrated on STS-8. A ground-based study of subjects with acute MS was also done. \r\n<p>\r\nThis study had three objectives:<br>\r\n1. To demonstrate that presence or absence of bowel sound was related to SMS and especially GI symptoms.<br>\r\n2. To document any changes in motility, as evidenced by bowel sounds, produced by a drug known to effect GI motility in many situations.<br>\r\n3. To document any effects of weightlessness on bowel sounds of individuals not affected by SMS.<br>\r\n<p>\r\nAPPROACH:<br>\r\nCrewmembers with SMS were requested to make a recording on the day of recovery from the symptoms with a non-affected crewmember making a control recording if possible. Anyone electing to use the motility stimulating medication metoclopramide was requested to make a 45 minute recording during the initial drug dosage. The hardware consisted of four miniature professional two channel tape recorders and two small microphones and miniature battery supply mounted on an elastic Velcro coupled belt. Operations consisted of turning on the recorder, checking preset contro1s and connecting the microphone belt and placing it around the waist. A recording time of 45 minutes per cassette side was available and requested. The crewmember was free to perform his usual tasks during the recording. \r\n<p>\r\nThe recordings were analyzed by replaying and: 1) recording through a filter on a high frequency two channel graphics recorder; 2) having a skilled observer listen through stereo headphones and electrically mark the graphic record whenever a sound was heard.\r\nThe marks were then counted, averaged over five minute epochs, and plotted or otherwise analyzed.\r\n<p>\r\nRESULTS:<br>\r\nDuring investigation of space motion sickness on STS-4 through STS-8, it was discovered that the upper gastrointestinal system's normal action is stopped or greatly reduced. This explains the vomiting without nausea and other stomach complaints.  On these flights, the drug metaclopramide, which restores GI activity in certain conditions, was effective in restoring bowel sounds and reversing symptoms in two individuals.  It was ineffective in two others who were taking scopolamine, a known antagonist of the drug.\r\n<P>\r\nThree subjects made a total of four in-flight and three postflight recordings during STS-41D. Two of these were during the periods of SMS and one subject without SMS took the metoclopramide drug in-flight. Since this was the first opportunity to use this methodology after STS-8, a number of points are of interest including: with a trained observer it is possible to reliably record and quantify bowel sounds in all but the most active or the noisiest conditions in-flight. Secondly, the scheme works with a minimum of training and crewmember interference. With SMS there is barely detectable bowel activity and after recovery (MD-7) bowel sounds were essentially normal. Bowel sounds were also normal during the period of SMS in a third subject who had been affected on a previous mission. The differences are orders of magnitude. \r\n<p>\r\nOn STS-41G, four subjects made preflight records, and all except 1 recording (microphones were apparently not actuated) were nominal and reproduced without difficulty.  Inflight, a total of 8 recordings were made.  Only one channel was recorded on three of the recordings; three other recordings seem as if the microphones were partially elevated from the body.  The recordings were reproduced and analyzed with the exception of the latter three.  No crewmember made recordings during SMS or medication.\r\n<P>\r\nThat any recordings were made is a success in view of the few that have been obtained.  New data were added to help understand the problem.  Unfortunately, there was not a recording of the drug's action nor a complete series from any subject with SMS (pre or post, during sickness, during recovery or late in the flight).  These records add support to the concept of bowel sounds as an unequivocal marker of SMS, and further suggest a rebound in GI activity on recovery from SMS (and possibly hyperactivity in weightlessness in some subjects--a new finding).\r\n<P>\r\nRegarding hardware anomalies inflight, the loss of 1 channel on the three STS-41G records was due to the record gain knob being mis-set.  On disassembly, the circuit board supporting the gain control was found to be cracked, thus interrupting the signal to the channel.\r\n<P>\r\nThis experiment was later included as part of DSO 456.\r\n<P>\r\nInformation archived for this experiment was provided by the William E.Thornton collection.",
+  "payload_id": "DSO41D",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "DSO 439",
+  "indexed": "2026-08-23T03:47:53.692303+00:00",
+  "experiment_related": [
+   "DSO 456"
+  ],
+  "GUID": "cl62ayejacd5b01o6ec2od9f7",
+  "parameter_name": [
+   "Bowel sounds",
+   "Space motion sickness (SMS)"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 562,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Pharmacology",
+   "Gastrointestinal physiology",
+   "Clinical medicine"
+  ],
+  "pme_role_with_name": [
+   "Principal Investigator: Thornton, William"
+  ],
+  "missions": [
+   [
+    [
+     "STS-41D"
+    ]
+   ],
+   [
+    [
+     "STS-41G"
+    ]
+   ],
+   [
+    [
+     "STS-51B"
+    ]
+   ],
+   [
+    [
+     "STS-51C"
+    ]
+   ]
+  ],
+  "__dirid": "b6e825cd-3df6-57ab-8525-240c30aa1cf0",
+  "__record_size_wo_doccontent": 92715,
+  "PI": [
+   "Thornton, William"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "DSO 439"
+  ],
+  "mission_id": [
+   [
+    [
+     "STS-41D"
+    ]
+   ],
+   [
+    [
+     "STS-41G"
+    ]
+   ],
+   [
+    [
+     "STS-51B"
+    ]
+   ],
+   [
+    [
+     "STS-51C"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Thornton, William"
+  ],
+  "archive_status": "Data preservation is complete. Privacy-protected datasets are available via data request. Remaining datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Shuttle Program",
+  "__source_field_concat": "DSO41D cl62ayejacd5b01o6ec2od9f7 <table><tr><td>Bowel sounds</td></tr><tr><td>Space motion sickness (SMS)</td></tr><tr></tr></table> Space motion sickness (SMS)  N/A Documentation of the Action of Metoclopramide DSO 439 Shuttle Program",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<br>\r\nSpace motion sickness (SMS) differs in many of its signs and symptoms from 1g motion sickness, so much so that the traditional signs of SMS cannot be used to evaluate the presence, severity, or treatment of SMS. On STS-7 and 8 it was found that bowel sounds were strikingly absent during SMS and that GI symptoms were consistent with ileus (temporary paralysis of the bowel). A method of recording bowel sounds had been devised and demonstrated on STS-8. A ground-based study of subjects with acute MS was also done. \r\n<p>\r\nThis study had three objectives:<br>\r\n1. To demonstrate that presence or absence of bowel sound was related to SMS and especially GI symptoms.<br>\r\n2. To document any changes in motility, as evidenced by bowel sounds, produced by a drug known to effect GI motility in many situations.<br>\r\n3. To document any effects of weightlessness on bowel sounds of individuals not affected by SMS.<br>\r\n<p>\r\nAPPROACH:<br>\r\nCrewmembers with SMS were requested to make a recording on the day of recovery from the symptoms with a non-affected crewmember making a control recording if possible. Anyone electing to use the motility stimulating medication metoclopramide was requested to make a 45 minute recording during the initial drug dosage. The hardware consisted of four miniature professional two channel tape recorders and two small microphones and miniature battery supply mounted on an elastic Velcro coupled belt. Operations consisted of turning on the recorder, checking preset contro1s and connecting the microphone belt and placing it around the waist. A recording time of 45 minutes per cassette side was available and requested. The crewmember was free to perform his usual tasks during the recording. \r\n<p>\r\nThe recordings were analyzed by replaying and: 1) recording through a filter on a high frequency two channel graphics recorder; 2) having a skilled observer listen through stereo headphones and electrically mark the graphic record whenever a sound was heard.\r\nThe marks were then counted, averaged over five minute epochs, and plotted or otherwise analyzed.\r\n<p>\r\nRESULTS:<br>\r\nDuring investigation of space motion sickness on STS-4 through STS-8, it was discovered that the upper gastrointestinal system's normal action is stopped or greatly reduced. This explains the vomiting without nausea and other stomach complaints.  On these flights, the drug metaclopramide, which restores GI activity in certain conditions, was effective in restoring bowel sounds and reversing symptoms in two individuals.  It was ineffective in two others who were taking scopolamine, a known antagonist of the drug.\r\n<P>\r\nThree subjects made a total of four in-flight and three postflight recordings during STS-41D. Two of these were during the periods of SMS and one subject without SMS took the metoclopramide drug in-flight. Since this was the first opportunity to use this methodology after STS-8, a number of points are of interest including: with a trained observer it is possible to reliably record and quantify bowel sounds in all but the most active or the noisiest conditions in-flight. Secondly, the scheme works with a minimum of training and crewmember interference. With SMS there is barely detectable bowel activity and after recovery (MD-7) bowel sounds were essentially normal. Bowel sounds were also normal during the period of SMS in a third subject who had been affected on a previous mission. The differences are orders of magnitude. \r\n<p>\r\nOn STS-41G, four subjects made preflight records, and all except 1 recording (microphones were apparently not actuated) were nominal and reproduced without difficulty.  Inflight, a total of 8 recordings were made.  Only one channel was recorded on three of the recordings; three other recordings seem as if the microphones were partially elevated from the body.  The recordings were reproduced and analyzed with the exception of the latter three.  No crewmember made recordings during SMS or medication.\r\n<P>\r\nThat any recordings were made is a success in view of the few that have been obtained.  New data were added to help understand the problem.  Unfortunately, there was not a recording of the drug's action nor a complete series from any subject with SMS (pre or post, during sickness, during recovery or late in the flight).  These records add support to the concept of bowel sounds as an unequivocal marker of SMS, and further suggest a rebound in GI activity on recovery from SMS (and possibly hyperactivity in weightlessness in some subjects--a new finding).\r\n<P>\r\nRegarding hardware anomalies inflight, the loss of 1 channel on the three STS-41G records was due to the record gain knob being mis-set.  On disassembly, the circuit board supporting the gain control was found to be cracked, thus interrupting the signal to the channel.\r\n<P>\r\nThis experiment was later included as part of DSO 456.\r\n<P>\r\nInformation archived for this experiment was provided by the William E.Thornton collection.",
+  "__doi": "10.83263/x19n-wa52",
+  "__doi_record_creation_date": "2026-08-23T03:47:53",
+  "__doi_record_modified_date": "2026-08-23T03:47:53"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000019",
+   "label": "DSO 439__740837523",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "DSO 439 Notes on Medications",
+    "dataset_catalog": "DSO 439__740837523",
+    "dataset_description": [
+     "This document contains scans of notecards developed by the investigator regarding various uses of medications for symptoms of space motion sickness (SMS), particularly drugs similar to metaclopramide that influence gastric motility.\r\n<P>\r\nSource: Unpublished data from the William E.Thornton collection."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "DSO 439"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "857f0a7e-d9b5-50bf-be88-6fe9d4cb84e5",
+     "label": "DSO_439__740837523.pdf_STS-41D_DSO_439_2011_80_020315.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000364",
+   "label": "DSO 439__740828833",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "DSO 439 Checklist",
+    "dataset_catalog": "DSO 439__740828833",
+    "dataset_description": [
+     "This document contains a checklist for flight readiness for DSO 439. It contains various items regarding review boards, hardware fabrication, etc. that must be done prior to flight. The checklist is marked as STS-14, but is most likely for STS-51A, which was the 14th Shuttle flight.\r\n<P>\r\nSource: Unpublished data from the William E.Thornton collection."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "DSO 439"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "0cb31ef2-1c55-593a-bcae-ab07beeae799",
+     "label": "DSO_439__740828833.pdf_STS-51B_DSO_439_2011_74_080318.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001825",
+   "label": "DSO 439__30817492",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "DSO 439 Test Protocol",
+    "dataset_catalog": "DSO 439__30817492",
+    "dataset_description": [
+     "This document contains the test protocol for measurement of bowel sounds, EKG and temperature for DSO 439. <P>\r\nSource: Unpublished data from the William E.Thornton collection."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "DSO 439"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "8d3c9419-1a80-55c6-8fb0-bffa402a22f9",
+     "label": "DSO_439__30817492.pdf_STS-41D_DSO_439_2013_3_080130.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

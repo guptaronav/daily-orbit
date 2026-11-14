@@ -1,0 +1,370 @@
+{
+ "record": {
+  "id": "3ad03cef-70e8-5c97-ade4-a0855f74800c",
+  "_id": "3ad03cef-70e8-5c97-ade4-a0855f74800c",
+  "experiment_title": "Metabolism and Heat Dissipation During Apollo EVA Periods",
+  "archive_status_index": 2,
+  "pub_document_number": "PUB000355",
+  "parameter_html": "<table><tr><td>Elevation change</td></tr><tr><td>Heart rate</td></tr><tr><td>Metabolic production</td></tr><tr><td>Metabolic rate</td></tr><tr><td>Traverse distance</td></tr><tr><td>Traverse rate</td></tr><tr><td>Oxygen consumption (VO2)</td></tr><tr><td>Water temperature</td></tr><tr><td>Weight, water</td></tr><tr></tr></table>",
+  "__source_key": "cl62auktkcbq701o6b6ox7vyo",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Waligora, James\">Principal Investigator: Waligora, James</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Horrigan, David\">Principal Investigator: Horrigan, David</a>",
+  "image_name": [
+   "Apollo 17 Astronaut in the Lunar Roving Vehicle",
+   "Apollo 17 Astronaut Walking on the Lunar Surface",
+   "Apollo 17 Command Module Pilot Retrieving Film Canister",
+   "Apollo Space Suit with Portable Life Support System (PLSS)",
+   "Space Suit Installed Accessories"
+  ],
+  "experiment_type_lk": [
+   "Apollo Program"
+  ],
+  "__record_modified_date": "2026-08-23T04:07:12.220064+00:00",
+  "proposal_source": [
+   "N/A"
+  ],
+  "__indexed": "2026-08-23T04:07:12.220064+00:00",
+  "__record_creation_date": "2022-07-28T19:39:33.190Z",
+  "keyword": [
+   "Heart rate",
+   "Energy metabolism",
+   "Extravehicular activity",
+   "Oxygen consumption",
+   "Exertion"
+  ],
+  "keyword_name": "Exertion",
+  "__record_size": 119336,
+  "__record_version": 29,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<br>\r\n\r\nDuring the zero-G extravehicular activities (EVAs) performed during the five Gemini missions, considerable difficulty was experienced by the crewmembers.  In a space environment which imposed several life support requirements during EVA (the maintenance of a minimum oxygen pressure, the removal of expired carbon dioxide, the provision for useful mobility, and the maintenance of body temperature), the crewmen experienced high work rates and apparent overheating during the Gemini 4, 9, and 11 EVAs.  The crewmen also encountered unexpected difficulty performing specific tasks on each of these missions.\r\n<P>\r\nEvents such as these prompted several researchers to evaluate the effects of one-sixth (or lunar) gravity on the cost of work in a pressure suit.  Results, however, were inconclusive.  Predictions were made that metabolic costs would decrease with subgravity walking.  Other researchers predicted metabolic increases would accompany low traction exercise.  Other uncertainties  arose from the considerations of lunar terrain and surface composition and their effect on mobility and metabolic rate.  In response to these uncertainties, conservative biomedical estimates of the life support requirements were defined on the basis of available data.  Although metabolic rates were not measured during the Gemini EVAs, it was clear in several instances that crewmen worked at levels above the heat removal capability of the gas cooled life support system.  The Metabolism and Heat Dissipation experiment was therefore performed to determine life support requirements during Apollo EVAs.\r\n<P>\r\nAPPROACH:<br>\r\n\r\nSince it was desirable to measure metabolic rate during EVA on the lunar surface and in free space, several measurement approaches were evaluated.  Standard laboratory methods would have required breaking pressure suit integrity if used in space or during vacuum chamber training on the ground; this was undesirable.  The operational data available from the crewman and from his life support system were assessed to determine their usefulness in approximating metabolic rate.  This consisted of voice and electrocardiogram (ECG) data from each crewmember, oxygen bottle pressure, Liquid Cooling Garment (LCG) coolant-water entry and exit temperatures, and suit-gas entry temperature.  In addition, the sublimator water usage data was available after the majority of the EVAs; sublimator water usage provided a measure of the total heat loss from the suit.  All of the heat removed from the pressure suit was first transferred to a heat sink maintained by the sublimator which rejected heat by the change of state involved in sublimating ice to water vapor in the vacuum of space.\r\n<P>\r\nRESULTS:<br>\r\n\r\nTwo types of task identification methods were used for separating the activities performed during EVA periods.  For the first method, the metabolic rate monitors divided the operational tasks into four types of activities of importance to mission planners: overhead activities (those tasks required for each EVA, such as egressing and ingressing the vehicle), deploying the Apollo lunar surface experiment package (ALSEP), making geological surveys, and riding in the lunar roving vehicle.  The oxygen and LCG measurement methods could be used to obtain accurate metabolic rates for these activities.  The second method of task separation was based on a time and motion study which required dividing the tasks into as many definable activities as possible.  However, this method resulted in some activities of such short duration that metabolic rates could only be assigned using the postflight heart rate method.  Metabolic rate measurements were determined for both lunar surface EVAs (Apollo missions 11, 12, and 14 through 17) as well as zero-G EVAs (Apollo missions 9, 15, 16, 17).\r\n<P>\r\nMetabolic rates were lower than predicted before the Apollo missions for lunar surface EVAs.  Overhead activities consumed the most energy, while driving or riding in the lunar roving vehicle consumed the least.  This was comparable to shirt sleeve riding in an automobile.  The highest average metabolic rate was experienced by one Apollo 11 subject who was very active in evaluating modes of locomotion.  For discrete activities, the highest metabolic rates were associated with his transport of the ALSEP pallet, ingress to the Lunar Module (LM) with lunar samples, and drilling and removal of drill bits.\r\n<P>\r\nFor the Apollo 14 mission, which included some of the most extensive walking traverses, a specific effort was made to correlate metabolic rate and traverse rate.  However, data obtained showed poor correlation.  The crewmen apparently maintained a comfortable walking effort and, to a large extent, the rate of traverse at this level of effort varied with the terrain and the operational requirements of each traverse.  In general, both the speed and efficiency of lunar walking were greater than could be achieved while wearing a pressure suit in a 1-G environment, but neither speed nor efficiency was equivalent to that of a shirt sleeve operation in 1-G.\r\n<P>\r\nOperational film and kinescope were used in performing a time and motion study of Apollo 15 and 16 activities.  Results from observations of Apollo 15 and 16 time and motion studies indicated that tasks were completed more rapidly at 1-G wearing space suits than at one-sixth-G, but at higher metabolic rates.\r\n<P>\r\nThe zero-G EVA activities were measured using the heart rate method.  This method tended to yield higher estimates of metabolic rates therefore results ranging from 150 to 500 kcal /hr were considered maximum values.  Voice data did not indicate that the crewmen were performing strenuously.  In some cases, the actual metabolic rates were much lower than the values obtained by means of heart rate calibration data.  Excitement, rather than physical exertion, was considered the cause of elevation of heart rates.\r\n<P>\r\nThe crewmen were able to perform planned EVAs and to extend them to the maximum time allowable without medical problems.  The manually controlled Liquid Cooling Garment was effective in minimizing fatigue and water loss from sweating during EVA.  Gas cooling was adequate during the short zero-G EVA performed from the Command Module.  It was found that adequate body restraints, realistic zero-G preflight training in a water immersion simulator, and detailed planning of activities were essential to ensure completion of tasks and reduce fatigue.<END>",
+  "payload_id": "Apollo 11",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "AP013",
+  "indexed": "2026-08-23T04:07:12.220064+00:00",
+  "GUID": "cl62auktkcbq701o6b6ox7vyo",
+  "parameter_name": [
+   "Elevation change",
+   "Heart rate",
+   "Metabolic production",
+   "Metabolic rate",
+   "Traverse distance",
+   "Traverse rate",
+   "Oxygen consumption (VO2)",
+   "Water temperature",
+   "Weight, water"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 378,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Metabolism and nutrition",
+   "Life support systems"
+  ],
+  "pme_role_with_name": [
+   "Principal Investigator: Horrigan, David",
+   "Principal Investigator: Waligora, James"
+  ],
+  "missions": [
+   [
+    [
+     "Apollo 11"
+    ]
+   ],
+   [
+    [
+     "Apollo 12"
+    ]
+   ],
+   [
+    [
+     "Apollo 14"
+    ]
+   ],
+   [
+    [
+     "Apollo 15"
+    ]
+   ],
+   [
+    [
+     "Apollo 16"
+    ]
+   ],
+   [
+    [
+     "Apollo 17"
+    ]
+   ]
+  ],
+  "__dirid": "3ad03cef-70e8-5c97-ade4-a0855f74800c",
+  "__record_size_wo_doccontent": 119336,
+  "PI": [
+   "Horrigan, David",
+   "Waligora, James"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "AP013"
+  ],
+  "mission_id": [
+   [
+    [
+     "Apollo 11"
+    ]
+   ],
+   [
+    [
+     "Apollo 12"
+    ]
+   ],
+   [
+    [
+     "Apollo 14"
+    ]
+   ],
+   [
+    [
+     "Apollo 15"
+    ]
+   ],
+   [
+    [
+     "Apollo 16"
+    ]
+   ],
+   [
+    [
+     "Apollo 17"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Horrigan, David",
+   "Waligora, James"
+  ],
+  "archive_status": "Data preservation is complete. Privacy-protected datasets are available via data request. Remaining datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Apollo",
+  "__source_field_concat": "PUB000355 Apollo 11 cl62auktkcbq701o6b6ox7vyo Exertion  N/A Metabolism and Heat Dissipation During Apollo EVA Periods AP013 Apollo",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<br>\r\n\r\nDuring the zero-G extravehicular activities (EVAs) performed during the five Gemini missions, considerable difficulty was experienced by the crewmembers.  In a space environment which imposed several life support requirements during EVA (the maintenance of a minimum oxygen pressure, the removal of expired carbon dioxide, the provision for useful mobility, and the maintenance of body temperature), the crewmen experienced high work rates and apparent overheating during the Gemini 4, 9, and 11 EVAs.  The crewmen also encountered unexpected difficulty performing specific tasks on each of these missions.\r\n<P>\r\nEvents such as these prompted several researchers to evaluate the effects of one-sixth (or lunar) gravity on the cost of work in a pressure suit.  Results, however, were inconclusive.  Predictions were made that metabolic costs would decrease with subgravity walking.  Other researchers predicted metabolic increases would accompany low traction exercise.  Other uncertainties  arose from the considerations of lunar terrain and surface composition and their effect on mobility and metabolic rate.  In response to these uncertainties, conservative biomedical estimates of the life support requirements were defined on the basis of available data.  Although metabolic rates were not measured during the Gemini EVAs, it was clear in several instances that crewmen worked at levels above the heat removal capability of the gas cooled life support system.  The Metabolism and Heat Dissipation experiment was therefore performed to determine life support requirements during Apollo EVAs.\r\n<P>\r\nAPPROACH:<br>\r\n\r\nSince it was desirable to measure metabolic rate during EVA on the lunar surface and in free space, several measurement approaches were evaluated.  Standard laboratory methods would have required breaking pressure suit integrity if used in space or during vacuum chamber training on the ground; this was undesirable.  The operational data available from the crewman and from his life support system were assessed to determine their usefulness in approximating metabolic rate.  This consisted of voice and electrocardiogram (ECG) data from each crewmember, oxygen bottle pressure, Liquid Cooling Garment (LCG) coolant-water entry and exit temperatures, and suit-gas entry temperature.  In addition, the sublimator water usage data was available after the majority of the EVAs; sublimator water usage provided a measure of the total heat loss from the suit.  All of the heat removed from the pressure suit was first transferred to a heat sink maintained by the sublimator which rejected heat by the change of state involved in sublimating ice to water vapor in the vacuum of space.\r\n<P>\r\nRESULTS:<br>\r\n\r\nTwo types of task identification methods were used for separating the activities performed during EVA periods.  For the first method, the metabolic rate monitors divided the operational tasks into four types of activities of importance to mission planners: overhead activities (those tasks required for each EVA, such as egressing and ingressing the vehicle), deploying the Apollo lunar surface experiment package (ALSEP), making geological surveys, and riding in the lunar roving vehicle.  The oxygen and LCG measurement methods could be used to obtain accurate metabolic rates for these activities.  The second method of task separation was based on a time and motion study which required dividing the tasks into as many definable activities as possible.  However, this method resulted in some activities of such short duration that metabolic rates could only be assigned using the postflight heart rate method.  Metabolic rate measurements were determined for both lunar surface EVAs (Apollo missions 11, 12, and 14 through 17) as well as zero-G EVAs (Apollo missions 9, 15, 16, 17).\r\n<P>\r\nMetabolic rates were lower than predicted before the Apollo missions for lunar surface EVAs.  Overhead activities consumed the most energy, while driving or riding in the lunar roving vehicle consumed the least.  This was comparable to shirt sleeve riding in an automobile.  The highest average metabolic rate was experienced by one Apollo 11 subject who was very active in evaluating modes of locomotion.  For discrete activities, the highest metabolic rates were associated with his transport of the ALSEP pallet, ingress to the Lunar Module (LM) with lunar samples, and drilling and removal of drill bits.\r\n<P>\r\nFor the Apollo 14 mission, which included some of the most extensive walking traverses, a specific effort was made to correlate metabolic rate and traverse rate.  However, data obtained showed poor correlation.  The crewmen apparently maintained a comfortable walking effort and, to a large extent, the rate of traverse at this level of effort varied with the terrain and the operational requirements of each traverse.  In general, both the speed and efficiency of lunar walking were greater than could be achieved while wearing a pressure suit in a 1-G environment, but neither speed nor efficiency was equivalent to that of a shirt sleeve operation in 1-G.\r\n<P>\r\nOperational film and kinescope were used in performing a time and motion study of Apollo 15 and 16 activities.  Results from observations of Apollo 15 and 16 time and motion studies indicated that tasks were completed more rapidly at 1-G wearing space suits than at one-sixth-G, but at higher metabolic rates.\r\n<P>\r\nThe zero-G EVA activities were measured using the heart rate method.  This method tended to yield higher estimates of metabolic rates therefore results ranging from 150 to 500 kcal /hr were considered maximum values.  Voice data did not indicate that the crewmen were performing strenuously.  In some cases, the actual metabolic rates were much lower than the values obtained by means of heart rate calibration data.  Excitement, rather than physical exertion, was considered the cause of elevation of heart rates.\r\n<P>\r\nThe crewmen were able to perform planned EVAs and to extend them to the maximum time allowable without medical problems.  The manually controlled Liquid Cooling Garment was effective in minimizing fatigue and water loss from sweating during EVA.  Gas cooling was adequate during the short zero-G EVA performed from the Command Module.  It was found that adequate body restraints, realistic zero-G preflight training in a water immersion simulator, and detailed planning of activities were essential to ensure completion of tasks and reduce fatigue.<END>",
+  "__doi": "10.83263/0gk3-q373",
+  "__doi_record_creation_date": "2026-08-23T04:07:12",
+  "__doi_record_modified_date": "2026-08-23T04:07:12"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002342",
+   "label": "JMAPAP013_113",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Example of a Mode 1 Liquid Cooled Garment Program",
+    "dataset_catalog": "JMAPAP013_113",
+    "dataset_description": [
+     "Metabolic rate is plotted as a function of heat picked up by the Liquid Cooled Garment (LCG).  The relationship between the metabolic rate and the temperature is based on the assumption that the crewman is maintaining a comfortable LCG inlet temperature.  <P>Waligora JM, Horrigan DJ.  Metabolism and heat dissipation during Apollo EVA periods.  <I>Biomedical Results of Apollo.</I>  NASA SP-368, p.115-128, 1975.<END>"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "AP013"
+    ]
+   },
+   "meta": "6 files \u00b7 6 B",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "2a2182f6-dc64-5e45-b8a2-485a66b8e33d",
+     "label": "JMAPAP013_113.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 1,
+     "meta": "1 B",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0540e600-76bf-53e8-909c-b01c208a9b8c",
+     "label": "JMAPAP013_113.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 1,
+     "meta": "1 B",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "778ab7fc-f9b8-5cda-8b49-96a079fb1767",
+     "label": "JMAPAP013_113.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 1,
+     "meta": "1 B",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1db91117-e494-555e-b3b8-def57f8109f8",
+     "label": "JMAPAP013_113.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 1,
+     "meta": "1 B",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d83ae1eb-22ff-53d0-a24d-b8858aa08841",
+     "label": "JMAPAP013_113.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 1,
+     "meta": "1 B",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8a5d17c0-9dfd-5af7-9eae-274dc03e112f",
+     "label": "JMAPAP013_113.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 1,
+     "meta": "1 B",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000726",
+   "label": "JMAPAP013_114",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Example of a Mode 2 Liquid Cooled Garment Program",
+    "dataset_catalog": "JMAPAP013_114",
+    "dataset_description": [
+     "Metabolic rate is plotted as a function of heat picked up by the Liquid Cooled Garment (LCG).  The relationship between the metabolic rate and the temperature is based on the assumption that a steady-state exists.  Crewman comfort is not assumed.  <P>Waligora JM, Horrigan DJ.  Metabolism and heat dissipation during Apollo EVA periods.  <I>Biomedical Results of Apollo.</I>  NASA SP-368, p.115-128, 1975.<END>"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "AP013"
+    ]
+   },
+   "meta": "6 files \u00b7 3.19 MB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "78211286-8c4a-52e4-bb66-3735419caade",
+     "label": "JMAPAP013_114.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 557056,
+     "meta": "544.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "000d22a6-0554-55fa-a61e-deb37669289a",
+     "label": "JMAPAP013_114.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 557056,
+     "meta": "544.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "74219a44-7ff1-5801-a5bb-c8aa0fb5b65e",
+     "label": "JMAPAP013_114.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 557056,
+     "meta": "544.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "80bf65d1-71af-5c4d-8340-98048edcdd9d",
+     "label": "JMAPAP013_114.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 557056,
+     "meta": "544.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3e0cea84-59e3-5806-b100-7bbbfd5c6edf",
+     "label": "JMAPAP013_114.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 557056,
+     "meta": "544.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2c13f734-b2ed-56a8-a769-e42c87af7117",
+     "label": "JMAPAP013_114.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 557056,
+     "meta": "544.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002343",
+   "label": "JMAPAP013_115",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Metabolic Rate Measurement during Training and Flight for Apollo 15",
+    "dataset_catalog": "JMAPAP013_115",
+    "dataset_description": [
+     "This table shows some of the metabolic data obtained during training for Apollo 15 as compared with the inflight data.  Preflight data could assist in the assessment of the validity of the techniques of metabolic measurement, but this 1-gravity training did not predict actual workloads of the lower gravity conditions on the moon and at 0-gravity.  <P>Waligora JM, Horrigan DJ.  Metabolism and heat dissipation during Apollo EVA periods.  <I>Biomedical Results of Apollo.</I>  NASA SP-368, p.115-128, 1975.<END>"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "AP013"
+    ]
+   },
+   "meta": "1 file \u00b7 16.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "1ffb7746-4c35-5a01-a113-893fc73b593a",
+     "label": "JMAPAP013_115.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 16384,
+     "meta": "16.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

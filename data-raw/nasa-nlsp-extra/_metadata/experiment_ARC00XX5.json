@@ -1,0 +1,135 @@
+{
+ "record": {
+  "id": "3ea88d9c-d998-5151-9d68-9ee764ab0de1",
+  "_id": "3ea88d9c-d998-5151-9d68-9ee764ab0de1",
+  "experiment_title": "Commercial Biomedical Testing Module (CBTM)",
+  "archive_status_index": 1,
+  "parameter_html": "None",
+  "__source_key": "cl62aza8icdcv01o63frn0m0n",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Bateman, Ted\">Principal Investigator: Bateman, Ted</a>",
+  "resource_group": "NASA GeneLab Data",
+  "experiment_type_lk": [
+   "Shuttle Commercial Life Sciences Research (Middeck)"
+  ],
+  "__record_modified_date": "2026-08-23T03:47:34.369775+00:00",
+  "__indexed": "2026-08-23T03:47:34.369775+00:00",
+  "__record_creation_date": "2022-07-28T20:05:39.909Z",
+  "__record_size": 46690,
+  "__record_version": 28,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<P>Commercial Biomedical Testing Module: Effects of Osteoprotegerin on Bone Maintenance in Microgravity (CBTM) provides the capability to use the microgravity environment for evaluation of new pharmaceutical candidates in small mammals. Results may expedite the review of new pharmaceuticals for allowing immediate access to new disease treatments.\r\n<P>\r\nOsteoporosis is a debilitating disease that afflicts millions of people worldwide. One of the physiological changes experienced by astronauts during spaceflight is the accelerated loss of bone mass due to the lack of gravitational loading on the skeleton. This bone loss experienced by astronauts is similar to osteoporosis in the elderly population. Osteoprotegerin (OPG), a bone metabolism regulator, is being considered by the Food and Drug Administration (FDA) as a new treatment for osteoporosis.\r\n<P>\r\nAPPROACH<P>Laboratory mice were treated with either OPG or a placebo before launch. The mice were housed in an Animal Enclosure Module (AEM) designed specifically for spaceflight. This experiment provided a preclinical trial model to determine the effectiveness of OPG in treating bone loss.\r\n<P>\r\nRESULTS:<P>Mice exposed to microgravity exhibited a 15 - 20 percent decline in femur elastic strength and a 40 - 60 percent decrease in bone formation when compared to the controls. The femur elastic strength decline was caused by three mechanisms: reduced bone formation, increased bone resorption, and inhibition of mineralization. OPG treatment in mice exposed to microgravity nearly reversed the decline in strength and the increase in bone resorption found in untreated mice.\r\n<P>Gene expression data is available in the NASA GeneLab Data Repository at https://genelab-data.ndc.nasa.gov/ (accession number GLDS-21, Effects of spaceflight on murine skeletal muscle gene expression).",
+  "payload_id": "CBTM",
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "ARC00XX5",
+  "indexed": "2026-08-23T03:47:34.369775+00:00",
+  "GUID": "cl62aza8icdcv01o63frn0m0n",
+  "resourceTitle": "Effects of spaceflight on murine skeletal muscle gene expression",
+  "payload_part": "N/A",
+  "exp_index": 1424,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Muscle physiology"
+  ],
+  "pme_role_with_name": [
+   "Principal Investigator: Bateman, Ted"
+  ],
+  "missions": [
+   [
+    [
+     "STS-108"
+    ]
+   ]
+  ],
+  "__dirid": "3ea88d9c-d998-5151-9d68-9ee764ab0de1",
+  "__record_size_wo_doccontent": 46690,
+  "PI": [
+   "Bateman, Ted"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "parameter_name": "experiment_parms",
+  "experiment_identifier": [
+   "ARC00XX5"
+  ],
+  "keyword": [],
+  "mission_id": [
+   [
+    [
+     "STS-108"
+    ]
+   ]
+  ],
+  "center": [
+   "Ames Research Center"
+  ],
+  "ncindex": [
+   7
+  ],
+  "proposal_date": [],
+  "proposal_source": [],
+  "CombinedSpecies": [
+   [
+    "Mouse (Mus musculus)"
+   ]
+  ],
+  "species": [
+   "Mouse"
+  ],
+  "PrincipalInvestigator": [
+   "Bateman, Ted"
+  ],
+  "LaunchDate": [
+   "12/05/2001"
+  ],
+  "LaunchYear": 2001,
+  "program_name": [
+   "Shuttle Program"
+  ],
+  "archive_status": "Data preservation is complete. All datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Shuttle Program",
+  "__source_field_concat": "NASA GeneLab Data CBTM cl62aza8icdcv01o63frn0m0n None Effects of spaceflight on murine skeletal muscle gene expression  N/A Commercial Biomedical Testing Module (CBTM) ARC00XX5 Shuttle Program Data preservation is complete. All datasets are publicly available. experiment_parms",
+  "__icon_type": "mouse",
+  "__description": "OBJECTIVES:<P>Commercial Biomedical Testing Module: Effects of Osteoprotegerin on Bone Maintenance in Microgravity (CBTM) provides the capability to use the microgravity environment for evaluation of new pharmaceutical candidates in small mammals. Results may expedite the review of new pharmaceuticals for allowing immediate access to new disease treatments.\r\n<P>\r\nOsteoporosis is a debilitating disease that afflicts millions of people worldwide. One of the physiological changes experienced by astronauts during spaceflight is the accelerated loss of bone mass due to the lack of gravitational loading on the skeleton. This bone loss experienced by astronauts is similar to osteoporosis in the elderly population. Osteoprotegerin (OPG), a bone metabolism regulator, is being considered by the Food and Drug Administration (FDA) as a new treatment for osteoporosis.\r\n<P>\r\nAPPROACH<P>Laboratory mice were treated with either OPG or a placebo before launch. The mice were housed in an Animal Enclosure Module (AEM) designed specifically for spaceflight. This experiment provided a preclinical trial model to determine the effectiveness of OPG in treating bone loss.\r\n<P>\r\nRESULTS:<P>Mice exposed to microgravity exhibited a 15 - 20 percent decline in femur elastic strength and a 40 - 60 percent decrease in bone formation when compared to the controls. The femur elastic strength decline was caused by three mechanisms: reduced bone formation, increased bone resorption, and inhibition of mineralization. OPG treatment in mice exposed to microgravity nearly reversed the decline in strength and the increase in bone resorption found in untreated mice.\r\n<P>Gene expression data is available in the NASA GeneLab Data Repository at https://genelab-data.ndc.nasa.gov/ (accession number GLDS-21, Effects of spaceflight on murine skeletal muscle gene expression).",
+  "__doi": "10.83263/5bpx-cr46",
+  "__doi_record_creation_date": "2026-08-23T03:47:34",
+  "__doi_record_modified_date": "2026-08-23T03:47:34"
+ },
+ "datasets": [
+  {
+   "key": "fae4b06e-a7b5-54b7-984f-b03adcdf275f",
+   "label": "ARC00XX5__3640910174",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "CBTM Body Mass and Organ Weights",
+    "dataset_catalog": "ARC00XX5__3640910174",
+    "dataset_description": [
+     "This spreadsheet contains the animal body mass at sacrifice for basal, flight, AEM ground control and vivarium ground controls.  It also contains organ weights for the liver, spleen, heart, kidneys and thymus."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "ARC00XX5"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "6341c55c-87b9-5067-a1ac-5be7e86b2155",
+     "label": "CBTM_Body_Organ_Masses.xlsx_STS-108_ARC00XX5_2020_364_091242.xlsx",
+     "type": "file",
+     "ext": "xlsx",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

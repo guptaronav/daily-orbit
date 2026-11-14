@@ -1,0 +1,276 @@
+{
+ "record": {
+  "id": "f14194e7-3d9b-5bf8-8605-03bcf10e288f",
+  "_id": "f14194e7-3d9b-5bf8-8605-03bcf10e288f",
+  "experiment_title": "Behavior of Postnatal Rats After Space Flight",
+  "pub_document_number": "ARCPUB001313",
+  "archive_status_index": 1,
+  "parameter_html": "<table><tr><td>Behavior, Body position, neonate, rat, Videotape</td></tr><tr><td>Behavior, righting reflex, Forelimbs, rat pups, Videorecording, frame analysis</td></tr><tr><td>Behavior, righting reflex, Head, rat pups, Videorecording, frame analysis</td></tr><tr><td>Behavior, righting reflex, Hindlimbs, rat pups, Videorecording, frame analysis</td></tr><tr><td>Behavior, Swimming, neonate, rat, Videotape, Peak5 Motion Measurement System</td></tr><tr><td>Behavior, Walking, neonate, rat, Videotape, Peak5 Motion Measurement System</td></tr><tr><td>Temperature, AEM, NIH.R3, Ambient temperature recorder (ATR)</td></tr><tr></tr></table>",
+  "__source_key": "cl62aysjycd8n01o6daie3sxt",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Walton, Kerry\">Principal Investigator: Walton, Kerry</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Riley, Danny\">Principal Investigator: Riley, Danny</a>",
+  "experiment_type_lk": [
+   "Shuttle Life Sciences Research (Middeck)"
+  ],
+  "__record_modified_date": "2026-08-31T22:16:56.503Z",
+  "proposal_source": "AO-93-OLMSA-01",
+  "__indexed": "2026-08-31T22:16:56.503Z",
+  "session_type": "Flight",
+  "__record_creation_date": "2022-07-28T20:03:13.029Z",
+  "__record_version": 29,
+  "__record_size": 54047,
+  "__model_version": 423,
+  "experiment_description": "<B>Objectives:</B><P>This study makes use of neonatal mammals in order to study the effects of microgravity on the development of the nervous system. Altering gravity during development provides a noninvasive technique by which the influence of motor activity on the development of the nervous system may be studied. Neonates offer a unique and valuable model for experimentation because they possess critical periods of development during which an organism's development is most sensitive to environmental changes.<P><B>Approach:</B><P>The flight experiment consisted of six groups of ten neonates. The groups were housed in six nursing facilities that were contained within three Animal Enclosure Modules (AEM) and flown in shuttle middeck lockers. After landing, the P8 and P15 litters were studied for fourteen days. Swimming ability was measured daily by placing the animal in an aquarium and videotaping them for two minutes. Strokes that propelled the animal forward were counted and hindlimb angles were measured using the Peak5 Motion Measurement System. The free walking capabilities of the animals were also measured by videotaping their walking and analyzing their step cycle with the Peak System. Finally, surface righting ability was quantified using frame by frame analysis.<P><B>Results:</B><P>Results demonstrate that the development of the nervous system in microgravity is altered for both nonweightbearing activities, such as swimming, as well as for weight-bearing activities. Although microgravity has more of an effect on those functions that require weight-bearing. These results clearly show that environmental factors, such as gravity, affect the development of the nervous system. The data further supports the hypothesis that developing organisms have sets of overlapping critical periods.",
+  "payload_id": "NIH.R3",
+  "CombinedSpecies": [
+   [
+    "Rat (Rattus norvegicus) Sprague-Dawley"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "indexed": "2026-08-31T22:16:56.503Z",
+  "experiment_id": "E122B",
+  "experiment_related": [
+   "No related"
+  ],
+  "GUID": "cl62aysjycd8n01o6daie3sxt",
+  "parameter_name": [
+   "Behavior, Body position, neonate, rat, Videotape",
+   "Behavior, righting reflex, Forelimbs, rat pups, Videorecording, frame analysis",
+   "Behavior, righting reflex, Head, rat pups, Videorecording, frame analysis",
+   "Behavior, righting reflex, Hindlimbs, rat pups, Videorecording, frame analysis",
+   "Behavior, Swimming, neonate, rat, Videotape, Peak5 Motion Measurement System",
+   "Behavior, Walking, neonate, rat, Videotape, Peak5 Motion Measurement System",
+   "Temperature, AEM, NIH.R3, Ambient temperature recorder (ATR)"
+  ],
+  "exp_index": 740,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Behavior and performance"
+  ],
+  "protocol_approach": "Delayed synchronous control",
+  "pme_role_with_name": [
+   "Principal Investigator: Riley, Danny",
+   "Principal Investigator: Walton, Kerry"
+  ],
+  "missions": [
+   [
+    [
+     "STS-72"
+    ]
+   ]
+  ],
+  "__dirid": "f14194e7-3d9b-5bf8-8605-03bcf10e288f",
+  "__record_size_wo_doccontent": 54047,
+  "experiment_parms_tissue2": "NULL",
+  "experiment_parms_tissue1": "NULL",
+  "PI": [
+   "Riley, Danny",
+   "Walton, Kerry"
+  ],
+  "__update_method": "Update Data",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "E122B"
+  ],
+  "keyword": [],
+  "mission_id": [
+   [
+    [
+     "STS-72"
+    ]
+   ]
+  ],
+  "center": [
+   "Ames Research Center"
+  ],
+  "ncindex": [
+   7
+  ],
+  "proposal_date": [
+   "7/1/1993"
+  ],
+  "species": [
+   "Rat"
+  ],
+  "PrincipalInvestigator": [
+   "Riley, Danny",
+   "Walton, Kerry"
+  ],
+  "program_name": [
+   "Shuttle Program"
+  ],
+  "archive_status": "Data preservation is complete. All datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Shuttle Program",
+  "__source_field_concat": "Flight ARCPUB001313 AO-93-OLMSA-01 NIH.R3 cl62aysjycd8n01o6daie3sxt NULL NULL  Delayed synchronous control Behavior of Postnatal Rats After Space Flight E122B Shuttle Program Data preservation is complete. All datasets are publicly available.",
+  "__icon_type": "rat",
+  "__description": "<B>Objectives:</B><P>This study makes use of neonatal mammals in order to study the effects of microgravity on the development of the nervous system. Altering gravity during development provides a noninvasive technique by which the influence of motor activity on the development of the nervous system may be studied. Neonates offer a unique and valuable model for experimentation because they possess critical periods of development during which an organism's development is most sensitive to environmental changes.<P><B>Approach:</B><P>The flight experiment consisted of six groups of ten neonates. The groups were housed in six nursing facilities that were contained within three Animal Enclosure Modules (AEM) and flown in shuttle middeck lockers. After landing, the P8 and P15 litters were studied for fourteen days. Swimming ability was measured daily by placing the animal in an aquarium and videotaping them for two minutes. Strokes that propelled the animal forward were counted and hindlimb angles were measured using the Peak5 Motion Measurement System. The free walking capabilities of the animals were also measured by videotaping their walking and analyzing their step cycle with the Peak System. Finally, surface righting ability was quantified using frame by frame analysis.<P><B>Results:</B><P>Results demonstrate that the development of the nervous system in microgravity is altered for both nonweightbearing activities, such as swimming, as well as for weight-bearing activities. Although microgravity has more of an effect on those functions that require weight-bearing. These results clearly show that environmental factors, such as gravity, affect the development of the nervous system. The data further supports the hypothesis that developing organisms have sets of overlapping critical periods.",
+  "__doi": "10.83263/ayaf-gz76",
+  "__doi_record_creation_date": "2026-08-23T04:00:16",
+  "__doi_record_modified_date": "2026-08-23T04:00:16"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001206",
+   "label": "AINV0000000613",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "NIH.R3 Temperature Analysis of the Flight AEMs, Ground AEMs, and Orbiter Cabin",
+    "dataset_catalog": "AINV0000000613",
+    "dataset_description": [
+     "Temperature in degrees centigrade"
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "E122A",
+     "E122B"
+    ]
+   },
+   "meta": "2 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "7fb07680-c506-5fe3-9891-28135b1d793a",
+     "label": "TempAnalysis.doc",
+     "type": "file",
+     "ext": "doc",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "25a71388-fe34-5200-bb84-316ee305afb5",
+     "label": "TempAnalysis.doc",
+     "type": "file",
+     "ext": "doc",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000678",
+   "label": "AINV0000000402",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "NIH.R3 Ambient Temperature Recorder (ATR) flight data - ATR serial number 33 located in flight AEM serial number 001",
+    "dataset_catalog": "AINV0000000402",
+    "dataset_description": [],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "E122A",
+     "E122B"
+    ]
+   },
+   "meta": "2 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "271abc55-4ecb-525c-983a-fa24c11e07e1",
+     "label": "3372F001.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6dd3866c-f945-57e3-9d7c-d37445008a52",
+     "label": "3372F001.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001154",
+   "label": "AINV0000000595",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "NIH.R3 PI Data",
+    "dataset_catalog": "AINV0000000595",
+    "dataset_description": [
+     "Refer to PI 30 day reports for summarized data and the \u201cNIH.R3 National Institutes of Health NIH.R3 STS-72 R+30 Day Post Flight Report, Attachment K\u201d for Riley raw data."
+    ],
+    "processing_level": [
+     "Analyzed<br/>Summarized"
+    ],
+    "experiment_id": [
+     "E122B"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "a4cea9ab-2844-5248-a20c-17cf7aee50ef",
+     "label": "KW_R3_30DayRept.doc",
+     "type": "file",
+     "ext": "doc",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000427",
+   "label": "AINV0000000612",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "NIH.R3 Dam and Neonate Body Weight Data at Cageload and Unload for Flight and Ground Control Groups",
+    "dataset_catalog": "AINV0000000612",
+    "dataset_description": [
+     "Body weight in grams"
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "E122A",
+     "E122B"
+    ]
+   },
+   "meta": "2 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "e7ccd81c-ec25-5a85-95e5-f7ab816858d1",
+     "label": "NIHR3AnimalWts.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "79c76a61-fc96-5229-bd46-9a662b6a57ce",
+     "label": "NIHR3AnimalWts.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

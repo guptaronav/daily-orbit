@@ -1,0 +1,205 @@
+﻿ID,Campaign,Subject,Date,Test_Phase,BR_Day,Parameter Code,Parameter Description,Value
+1,C3H,5907,1/27/2010,PRE_TEST,4,CT02RUNNUM,Run number,11469
+2,C3H,5907,1/27/2010,PRE_TEST,4,CT02ADT,Anal DT,03/24/10 09:49 AM
+3,C3H,5907,1/27/2010,PRE_TEST,4,CT02QCO,Scan QA Code,0
+4,C3H,5907,1/27/2010,PRE_TEST,4,CT02TCO,Scan Technical Code,0
+5,C3H,5907,1/27/2010,PRE_TEST,4,CT02CCO,Analysis Completion Code,1
+6,C3H,5907,1/27/2010,PRE_TEST,4,CT02NIBD,Integral BMD of femoral neck region,0.322927
+7,C3H,5907,1/27/2010,PRE_TEST,4,CT02NIBC,Integral BMC of femoral neck region,3.358092
+8,C3H,5907,1/27/2010,PRE_TEST,4,CT02NIVL,Volume of integral femoral neck region,10.398937
+9,C3H,5907,1/27/2010,PRE_TEST,4,CT02NTBD,Trabecular BMD of femoral neck region,0.211319
+10,C3H,5907,1/27/2010,PRE_TEST,4,CT02NTBC,Trabecular BMC of femoral neck region,0.408402
+11,C3H,5907,1/27/2010,PRE_TEST,4,CT02NTVL,Volume of trabecular femoral neck region,1.932633
+12,C3H,5907,1/27/2010,PRE_TEST,4,CT02NCBD,Cortical BMD of femoral neck region,0.489074
+13,C3H,5907,1/27/2010,PRE_TEST,4,CT02NCBC,Cortical BMC of femoral neck region,2.515289
+14,C3H,5907,1/27/2010,PRE_TEST,4,CT02NCVL,Volume of cortical femoral neck region,5.142966
+15,C3H,5907,1/27/2010,PRE_TEST,4,CT02NAREA,CT-derived simulated DXA fem neck area ,5.414062
+16,C3H,5907,1/27/2010,PRE_TEST,4,CT02NBD,CT-derived simulated DXA fem neck bmd ,0.620
+17,C3H,5907,1/27/2010,PRE_TEST,4,CT02TIBD,Integral BMD of trochanteric region,0.31023
+18,C3H,5907,1/27/2010,PRE_TEST,4,CT02TIBC,Integral BMC of trochanteric region,12.807142
+19,C3H,5907,1/27/2010,PRE_TEST,4,CT02TIVL,Volume of integral trochanteric region,41.283131
+20,C3H,5907,1/27/2010,PRE_TEST,4,CT02TTBD,Trabecular BMD of trochanteric region,0.195
+21,C3H,5907,1/27/2010,PRE_TEST,4,CT02TTBC,Trabecular BMC of trochanteric region,2.550687
+22,C3H,5907,1/27/2010,PRE_TEST,4,CT02TTVL,Volume of trabecular trochanteric region,13.047544
+23,C3H,5907,1/27/2010,PRE_TEST,4,CT02TCBD,Cortical BMD of trochanteric region,0.494
+24,C3H,5907,1/27/2010,PRE_TEST,4,CT02TCBC,Cortical BMC of trochanteric region,8.287981
+25,C3H,5907,1/27/2010,PRE_TEST,4,CT02TCVL,Volume of cortical trochanteric region,16.789907
+26,C3H,5907,1/27/2010,PRE_TEST,4,CT02TRAREA,CT-derived simulated DXA troch area ,13.807617
+27,C3H,5907,1/27/2010,PRE_TEST,4,CT02TRBD,CT-derived simulated DXA troch bmd ,0.927
+28,C3H,5907,1/27/2010,PRE_TEST,4,CT02FIBD,Integral BMD of total femur region,0.307
+29,C3H,5907,1/27/2010,PRE_TEST,4,CT02FIBC,Integral BMC of total femur region,16.975012
+30,C3H,5907,1/27/2010,PRE_TEST,4,CT02FIVL,Volume of integral total femur region,55.265232
+31,C3H,5907,1/27/2010,PRE_TEST,4,CT02FTBD,Trabecular BMD of total femur region,0.197
+32,C3H,5907,1/27/2010,PRE_TEST,4,CT02FTBC,Trabecular BMC of total femur region,2.978374
+33,C3H,5907,1/27/2010,PRE_TEST,4,CT02FTVL,Volume of trabecular total femur region,15.103081
+34,C3H,5907,1/27/2010,PRE_TEST,4,CT02FCBD,Cortical BMD of total femur region,0.479
+35,C3H,5907,1/27/2010,PRE_TEST,4,CT02FCBC,Cortical BMC of total femur region,11.389601
+36,C3H,5907,1/27/2010,PRE_TEST,4,CT02FCVL,Volume of cortical total femur region,23.779722
+37,C3H,5907,1/27/2010,PRE_TEST,4,CT02FAREA,CT-derived simulated DXA totfem area ,18.703125
+38,C3H,5907,1/27/2010,PRE_TEST,4,CT02FBD,CT-derived simulated DXA totfem bmd ,0.906635
+39,C3H,5907,1/27/2010,PRE_TEST,4,CT02MIX1,Cross sectional moment of inertia measured along x-axis at femoral neck position of minimum cross-sectional area,1268863.75
+40,C3H,5907,1/27/2010,PRE_TEST,4,CT02MIY1,Cross sectional moment of inertia measured along y-axis at femoral neck position of minimum cross-sectional area,1719081
+41,C3H,5907,1/27/2010,PRE_TEST,4,CT02XDI1,Width of slice measured along x-axis,3.46875
+42,C3H,5907,1/27/2010,PRE_TEST,4,CT02YDI1,Width of slice measured along y-axis,3
+43,C3H,5907,1/27/2010,PRE_TEST,4,CT02MIX2,Cross sectional moment of inertia measured along x-axis at femoral neck position 5 mm lateral to slice 1,2083419
+44,C3H,5907,1/27/2010,PRE_TEST,4,CT02MIY2,Cross sectional moment of inertia measured along y-axis at femoral neck position 5 mm lateral to slice 1,8560139
+45,C3H,5907,1/27/2010,PRE_TEST,4,CT02XDI2,Width of slice measured along x-axis,5.4375
+46,C3H,5907,1/27/2010,PRE_TEST,4,CT02YDI2,Width of slice measured along y-axis,2.8125
+47,C3H,5907,1/27/2010,PRE_TEST,4,CT02MIX3,Cross sectional moment of inertia measured along x-axis at most basi-cervical femoral neck position,3302301.75
+48,C3H,5907,1/27/2010,PRE_TEST,4,CT02MIY3,Cross sectional moment of inertia measured along y-axis at most basicervical femoral neck position,11307243
+49,C3H,5907,1/27/2010,PRE_TEST,4,CT02XDI3,Width of slice measured along x-axis,5.53125
+50,C3H,5907,1/27/2010,PRE_TEST,4,CT02YDI3,Width of slice measured along y-axis,3.09375
+51,C3H,5907,1/27/2010,PRE_TEST,4,CT024mmEMX,"Same as CT02MIX1, but measured in a 4mm reconstructed slice",11171.27637
+52,C3H,5907,1/27/2010,PRE_TEST,4,CT024mmEMY,"Same as CT02MIY1, but measured in a 4mm reconstructed slice",15129.22656
+53,C3H,5907,1/27/2010,PRE_TEST,4,CT024mmTX,"Same as CT02XDI1, but measured in a 4mm reconstructed slice",3.46875
+54,C3H,5907,1/27/2010,PRE_TEST,4,CT024mmTY,"Same as CT02YDI1, but measured in a 4mm reconstructed slice",3
+55,C3H,5907,1/27/2010,PRE_TEST,4,CT024mmBDX,"Same as CT02MIX1, but measured in a 4mm reconstructed slice, and BMD weighted instead of EM weighted",1691.644897
+56,C3H,5907,1/27/2010,PRE_TEST,4,CT024mmBDY,"Same as CT02MIY1, but measured in a 4mm reconstructed slice, and BMD weighted instead of EM weighted",2260.884033
+57,C3H,5907,1/27/2010,PRE_TEST,4,CT024mmCOx,"Same as CT02MIX1, but measured in a 4mm reconstructed slice, and purely cortical geometry weighted instead of EM weighted",4.58328
+58,C3H,5907,1/27/2010,PRE_TEST,4,CT024mmCOY,"Same as CT02MIY1, but measured in a 4mm reconstructed slice, and purely cortical geometry weighted instead of EM weighted",5.836119
+59,C3H,5907,1/27/2010,PRE_TEST,4,CT02MESL,Average of calibration slope measured for all slices of acquisition.,0.641013
+60,C3H,5907,1/27/2010,PRE_TEST,4,CT02MNSL,Minimum calibration slope measured for all slices of acquisition.,0.622208
+61,C3H,5907,1/27/2010,PRE_TEST,4,CT02MXSL,Maximum of calibration slope measured for all slices of acquisition.,0.652844
+62,C3H,5907,1/27/2010,PRE_TEST,4,CT02MEIN,Average of calibration intercepts measured for all slices of acquisition.,-654.793274
+63,C3H,5907,1/27/2010,PRE_TEST,4,CT02MNIN,Minimum of calibration intercept measured for all slices of acquisition.,-667.508362
+64,C3H,5907,1/27/2010,PRE_TEST,4,CT02MXIN,Maximum of calibration intercept measured for all slices of acquisition.,0
+65,C3H,5907,1/27/2010,PRE_TEST,4,CT02MEER,Average of calibration error measured for all slices of acquisition.,1.588551
+66,C3H,5907,1/27/2010,PRE_TEST,4,CT02MNER,Minimum of calibration error measured for all slices of acquisition.,0.904542
+67,C3H,5907,1/27/2010,PRE_TEST,4,CT02MXER,Maximum of calibration slope measured for all slices of acquisition.,2.629677
+68,C3H,5907,1/27/2010,PRE_TEST,4,CT021HUME,Average HU of 150 or 200 g/cc test object measured for all slices of acquisition.,1098.491211
+69,C3H,5907,1/27/2010,PRE_TEST,4,CT021HUMI,Minimum HU of 150 or 200 g/cc test object  measured for all slices of acquisition.,1094.650024
+70,C3H,5907,1/27/2010,PRE_TEST,4,CT021HUMX,Maximum HU of 150 or 200 g/cc test object measured for all slices of acquisition.,1102.794922
+71,C3H,5907,1/27/2010,PRE_TEST,4,CT022HUME,Average HU of 75 or 100 g/cc test object measured for all slices of acquisition.,1181.525024
+72,C3H,5907,1/27/2010,PRE_TEST,4,CT022HUMI,Minimum HU of 75 or 100 g/cc test object measured for all slices of acquisition.,1178.075928
+73,C3H,5907,1/27/2010,PRE_TEST,4,CT022HUMX,Maximum HU of 75 or 100 g/cc test object measured for all slices of acquisition.,1185.679443
+74,C3H,5907,1/27/2010,PRE_TEST,4,CT023HUME,Average HU of 0 or 50 g/cc test object measured for all slices of acquisition.,1331.693726
+75,C3H,5907,1/27/2010,PRE_TEST,4,CT023HUMI,Minimum HU of 0 or 50 g/cc test object measured for all slices of acquisition.,1326.012817
+76,C3H,5907,1/27/2010,PRE_TEST,4,CT023HUMX,Maximum HU of 0 or 50 g/cc test object measured for all slices of acquisition.,1338.546631
+77,C3H,5907,1/27/2010,PRE_TEST,4,CT02MNCS,Minimum cross-sectional area of femoral neck,8.068174
+78,C3H,5907,1/27/2010,PRE_TEST,4,CT02MXCS,Maximum cross-sectional area through intertrochanteric plane,20.623554
+79,C3H,5907,1/27/2010,PRE_TEST,4,CT02AXIS,Distance along femoral neck axis from minCSA to maxCSA,22.5
+80,C3H,5907,1/27/2010,PRE_TEST,4,CT02NBMD,CT-derived simulated DXA fem neck bmd ,0.619592
+81,C3H,5907,1/27/2010,PRE_TEST,4,CT02NARE,CT-derived simulated DXA fem neck area ,5.414062
+82,C3H,5907,1/27/2010,PRE_TEST,4,CT02NBMC,CT-derived simulated DXA fem neck bmc,3.358092
+83,C3H,5907,1/27/2010,PRE_TEST,4,CT02TRLT,CT-derived simulated DXA troch bmd ,0.926553
+84,C3H,5907,1/27/2010,PRE_TEST,4,CT02TRLR,CT-derived simulated DXA troch area ,13.807617
+85,C3H,5907,1/27/2010,PRE_TEST,4,CT02TRLC,CT-derived simulated DXA troch bmc,12.807142
+86,C3H,5907,1/27/2010,PRE_TEST,4,CT02TOBD,CT-derived simulated DXA totfem bmd ,0.906635
+87,C3H,5907,1/27/2010,PRE_TEST,4,CT02TOAR,CT-derived simulated DXA totfem area ,18.703125
+88,C3H,5907,1/27/2010,PRE_TEST,4,CT02TOBC,CT-derived simulated DXA totfem bmc,16.975012
+89,C3H,5907,1/27/2010,PRE_TEST,4,CT02kVP,kVp,80
+90,C3H,5907,1/27/2010,PRE_TEST,4,CT02SLI,slice thickness,2.5
+91,C3H,5907,1/27/2010,PRE_TEST,4,CT02PX,pixel size,0.9375
+92,C3H,5907,1/27/2010,PRE_TEST,4,CT02XSIZE,matrix size in x,512
+93,C3H,5907,1/27/2010,PRE_TEST,4,CT02YSIZE,matrix size in y,512
+94,C3H,5907,1/27/2010,PRE_TEST,4,CT02NSLI,slice thickness,38
+95,C3H,5907,1/27/2010,PRE_TEST,4,CT02TBHT,table height,146.5
+96,C3H,5907,1/27/2010,PRE_TEST,4,CGT02HOSPNAME1,hospital name,UTMB
+97,C3H,5907,1/27/2010,PRE_TEST,4,CT02HOSPNAME2,hospital name,"Galveston,"
+98,C3H,5907,1/27/2010,PRE_TEST,4,CT02NBSI1,Neck torsional strength index elastic modulus based,2.018262
+99,C3H,5907,1/27/2010,PRE_TEST,4,CT02NBSI2,Neck torsional strength index BMD based,1233.196167
+100,C3H,5907,1/27/2010,PRE_TEST,4,CT02NBSI3,Neck torsional strength index cortical area based,3.250871
+101,C3H,5907,1/27/2010,PRE_TEST,4,CT02NCSI,Neck compressive strength index,0.841364
+102,C3H,5907,1/27/2010,PRE_TEST,4,CT02TCSI,Troch compressive strength index,1.984865
+103,C3H,5907,04/05/10,POST_TEST,4,CT02RUNNUM,Run number,12424
+104,C3H,5907,04/05/10,POST_TEST,4,CT02ADT,Anal DT,04/14/10 03:03 PM
+105,C3H,5907,04/05/10,POST_TEST,4,CT02QCO,Scan QA Code,0
+106,C3H,5907,04/05/10,POST_TEST,4,CT02TCO,Scan Technical Code,0
+107,C3H,5907,04/05/10,POST_TEST,4,CT02CCO,Analysis Completion Code,1
+108,C3H,5907,04/05/10,POST_TEST,4,CT02NIBD,Integral BMD of femoral neck region,0.316738
+109,C3H,5907,04/05/10,POST_TEST,4,CT02NIBC,Integral BMC of femoral neck region,2.877545
+110,C3H,5907,04/05/10,POST_TEST,4,CT02NIVL,Volume of integral femoral neck region,9.084945
+111,C3H,5907,04/05/10,POST_TEST,4,CT02NTBD,Trabecular BMD of femoral neck region,0.197863
+112,C3H,5907,04/05/10,POST_TEST,4,CT02NTBC,Trabecular BMC of femoral neck region,0.290347
+113,C3H,5907,04/05/10,POST_TEST,4,CT02NTVL,Volume of trabecular femoral neck region,1.467416
+114,C3H,5907,04/05/10,POST_TEST,4,CT02NCBD,Cortical BMD of femoral neck region,0.479217
+115,C3H,5907,04/05/10,POST_TEST,4,CT02NCBC,Cortical BMC of femoral neck region,2.265376
+116,C3H,5907,04/05/10,POST_TEST,4,CT02NCVL,Volume of cortical femoral neck region,4.72724
+117,C3H,5907,04/05/10,POST_TEST,4,CT02NAREA,CT-derived simulated DXA fem neck area ,4.526367
+118,C3H,5907,04/05/10,POST_TEST,4,CT02NBD,CT-derived simulated DXA fem neck bmd ,0.635
+119,C3H,5907,04/05/10,POST_TEST,4,CT02TIBD,Integral BMD of trochanteric region,0.291109
+120,C3H,5907,04/05/10,POST_TEST,4,CT02TIBC,Integral BMC of trochanteric region,11.678119
+121,C3H,5907,04/05/10,POST_TEST,4,CT02TIVL,Volume of integral trochanteric region,40.115959
+122,C3H,5907,04/05/10,POST_TEST,4,CT02TTBD,Trabecular BMD of trochanteric region,0.184
+123,C3H,5907,04/05/10,POST_TEST,4,CT02TTBC,Trabecular BMC of trochanteric region,2.38487
+124,C3H,5907,04/05/10,POST_TEST,4,CT02TTVL,Volume of trabecular trochanteric region,12.981556
+125,C3H,5907,04/05/10,POST_TEST,4,CT02TCBD,Cortical BMD of trochanteric region,0.471
+126,C3H,5907,04/05/10,POST_TEST,4,CT02TCBC,Cortical BMC of trochanteric region,7.219998
+127,C3H,5907,04/05/10,POST_TEST,4,CT02TCVL,Volume of cortical trochanteric region,15.343938
+128,C3H,5907,04/05/10,POST_TEST,4,CT02TRAREA,CT-derived simulated DXA troch area ,13.201172
+129,C3H,5907,04/05/10,POST_TEST,4,CT02TRBD,CT-derived simulated DXA troch bmd ,0.884
+130,C3H,5907,04/05/10,POST_TEST,4,CT02FIBD,Integral BMD of total femur region,0.292
+131,C3H,5907,04/05/10,POST_TEST,4,CT02FIBC,Integral BMC of total femur region,15.045174
+132,C3H,5907,04/05/10,POST_TEST,4,CT02FIVL,Volume of integral total femur region,51.4874
+133,C3H,5907,04/05/10,POST_TEST,4,CT02FTBD,Trabecular BMD of total femur region,0.185
+134,C3H,5907,04/05/10,POST_TEST,4,CT02FTBC,Trabecular BMC of total femur region,2.675222
+135,C3H,5907,04/05/10,POST_TEST,4,CT02FTVL,Volume of trabecular total femur region,14.448972
+136,C3H,5907,04/05/10,POST_TEST,4,CT02FCBD,Cortical BMD of total femur region,0.463
+137,C3H,5907,04/05/10,POST_TEST,4,CT02FCBC,Cortical BMC of total femur region,9.833545
+138,C3H,5907,04/05/10,POST_TEST,4,CT02FCVL,Volume of cortical total femur region,21.252369
+139,C3H,5907,04/05/10,POST_TEST,4,CT02FAREA,CT-derived simulated DXA totfem area ,17.217773
+140,C3H,5907,04/05/10,POST_TEST,4,CT02FBD,CT-derived simulated DXA totfem bmd ,0.872885
+141,C3H,5907,04/05/10,POST_TEST,4,CT02MIX1,Cross sectional moment of inertia measured along x-axis at femoral neck position of minimum cross-sectional area,1173674.375
+142,C3H,5907,04/05/10,POST_TEST,4,CT02MIY1,Cross sectional moment of inertia measured along y-axis at femoral neck position of minimum cross-sectional area,1750339
+143,C3H,5907,04/05/10,POST_TEST,4,CT02XDI1,Width of slice measured along x-axis,3.375
+144,C3H,5907,04/05/10,POST_TEST,4,CT02YDI1,Width of slice measured along y-axis,2.90625
+145,C3H,5907,04/05/10,POST_TEST,4,CT02MIX2,Cross sectional moment of inertia measured along x-axis at femoral neck position 5 mm lateral to slice 1,1660468
+146,C3H,5907,04/05/10,POST_TEST,4,CT02MIY2,Cross sectional moment of inertia measured along y-axis at femoral neck position 5 mm lateral to slice 1,5104221
+147,C3H,5907,04/05/10,POST_TEST,4,CT02XDI2,Width of slice measured along x-axis,4.96875
+148,C3H,5907,04/05/10,POST_TEST,4,CT02YDI2,Width of slice measured along y-axis,2.71875
+149,C3H,5907,04/05/10,POST_TEST,4,CT02MIX3,Cross sectional moment of inertia measured along x-axis at most basi-cervical femoral neck position,2677963.75
+150,C3H,5907,04/05/10,POST_TEST,4,CT02MIY3,Cross sectional moment of inertia measured along y-axis at most basicervical femoral neck position,10739577
+151,C3H,5907,04/05/10,POST_TEST,4,CT02XDI3,Width of slice measured along x-axis,5.53125
+152,C3H,5907,04/05/10,POST_TEST,4,CT02YDI3,Width of slice measured along y-axis,3
+153,C3H,5907,04/05/10,POST_TEST,4,CT024mmEMX,"Same as CT02MIX1, but measured in a 4mm reconstructed slice",10326.24219
+154,C3H,5907,04/05/10,POST_TEST,4,CT024mmEMY,"Same as CT02MIY1, but measured in a 4mm reconstructed slice",15393.30371
+155,C3H,5907,04/05/10,POST_TEST,4,CT024mmTX,"Same as CT02XDI1, but measured in a 4mm reconstructed slice",3.375
+156,C3H,5907,04/05/10,POST_TEST,4,CT024mmTY,"Same as CT02YDI1, but measured in a 4mm reconstructed slice",2.90625
+157,C3H,5907,04/05/10,POST_TEST,4,CT024mmBDX,"Same as CT02MIX1, but measured in a 4mm reconstructed slice, and BMD weighted instead of EM weighted",1578.907349
+158,C3H,5907,04/05/10,POST_TEST,4,CT024mmBDY,"Same as CT02MIY1, but measured in a 4mm reconstructed slice, and BMD weighted instead of EM weighted",2165.752197
+159,C3H,5907,04/05/10,POST_TEST,4,CT024mmCOx,"Same as CT02MIX1, but measured in a 4mm reconstructed slice, and purely cortical geometry weighted instead of EM weighted",4.451728
+160,C3H,5907,04/05/10,POST_TEST,4,CT024mmCOY,"Same as CT02MIY1, but measured in a 4mm reconstructed slice, and purely cortical geometry weighted instead of EM weighted",5.499568
+161,C3H,5907,04/05/10,POST_TEST,4,CT02MESL,Average of calibration slope measured for all slices of acquisition.,0.634476
+162,C3H,5907,04/05/10,POST_TEST,4,CT02MNSL,Minimum calibration slope measured for all slices of acquisition.,0.621108
+163,C3H,5907,04/05/10,POST_TEST,4,CT02MXSL,Maximum of calibration slope measured for all slices of acquisition.,0.645205
+164,C3H,5907,04/05/10,POST_TEST,4,CT02MEIN,Average of calibration intercepts measured for all slices of acquisition.,-647.375793
+165,C3H,5907,04/05/10,POST_TEST,4,CT02MNIN,Minimum of calibration intercept measured for all slices of acquisition.,-659.240845
+166,C3H,5907,04/05/10,POST_TEST,4,CT02MXIN,Maximum of calibration intercept measured for all slices of acquisition.,0
+167,C3H,5907,04/05/10,POST_TEST,4,CT02MEER,Average of calibration error measured for all slices of acquisition.,1.756275
+168,C3H,5907,04/05/10,POST_TEST,4,CT02MNER,Minimum of calibration error measured for all slices of acquisition.,0.758542
+169,C3H,5907,04/05/10,POST_TEST,4,CT02MXER,Maximum of calibration slope measured for all slices of acquisition.,3.246649
+170,C3H,5907,04/05/10,POST_TEST,4,CT021HUME,Average HU of 150 or 200 g/cc test object measured for all slices of acquisition.,1098.154419
+171,C3H,5907,04/05/10,POST_TEST,4,CT021HUMI,Minimum HU of 150 or 200 g/cc test object  measured for all slices of acquisition.,1095.205078
+172,C3H,5907,04/05/10,POST_TEST,4,CT021HUMX,Maximum HU of 150 or 200 g/cc test object measured for all slices of acquisition.,1102.397461
+173,C3H,5907,04/05/10,POST_TEST,4,CT022HUME,Average HU of 75 or 100 g/cc test object measured for all slices of acquisition.,1182.46875
+174,C3H,5907,04/05/10,POST_TEST,4,CT022HUMI,Minimum HU of 75 or 100 g/cc test object measured for all slices of acquisition.,1177.224976
+175,C3H,5907,04/05/10,POST_TEST,4,CT022HUMX,Maximum HU of 75 or 100 g/cc test object measured for all slices of acquisition.,1185.887451
+176,C3H,5907,04/05/10,POST_TEST,4,CT023HUME,Average HU of 0 or 50 g/cc test object measured for all slices of acquisition.,1333.451538
+177,C3H,5907,04/05/10,POST_TEST,4,CT023HUMI,Minimum HU of 0 or 50 g/cc test object measured for all slices of acquisition.,1327.824951
+178,C3H,5907,04/05/10,POST_TEST,4,CT023HUMX,Maximum HU of 0 or 50 g/cc test object measured for all slices of acquisition.,1338.0625
+179,C3H,5907,04/05/10,POST_TEST,4,CT02MNCS,Minimum cross-sectional area of femoral neck,7.918601
+180,C3H,5907,04/05/10,POST_TEST,4,CT02MXCS,Maximum cross-sectional area through intertrochanteric plane,21.811346
+181,C3H,5907,04/05/10,POST_TEST,4,CT02AXIS,Distance along femoral neck axis from minCSA to maxCSA,20.625
+182,C3H,5907,04/05/10,POST_TEST,4,CT02NBMD,CT-derived simulated DXA fem neck bmd ,0.635052
+183,C3H,5907,04/05/10,POST_TEST,4,CT02NARE,CT-derived simulated DXA fem neck area ,4.526367
+184,C3H,5907,04/05/10,POST_TEST,4,CT02NBMC,CT-derived simulated DXA fem neck bmc,2.877545
+185,C3H,5907,04/05/10,POST_TEST,4,CT02TRLT,CT-derived simulated DXA troch bmd ,0.883684
+186,C3H,5907,04/05/10,POST_TEST,4,CT02TRLR,CT-derived simulated DXA troch area ,13.201172
+187,C3H,5907,04/05/10,POST_TEST,4,CT02TRLC,CT-derived simulated DXA troch bmc,11.678119
+188,C3H,5907,04/05/10,POST_TEST,4,CT02TOBD,CT-derived simulated DXA totfem bmd ,0.872885
+189,C3H,5907,04/05/10,POST_TEST,4,CT02TOAR,CT-derived simulated DXA totfem area ,17.217773
+190,C3H,5907,04/05/10,POST_TEST,4,CT02TOBC,CT-derived simulated DXA totfem bmc,15.045174
+191,C3H,5907,04/05/10,POST_TEST,4,CT02kVP,kVp,80
+192,C3H,5907,04/05/10,POST_TEST,4,CT02SLI,slice thickness,2.5
+193,C3H,5907,04/05/10,POST_TEST,4,CT02PX,pixel size,0.9375
+194,C3H,5907,04/05/10,POST_TEST,4,CT02XSIZE,matrix size in x,512
+195,C3H,5907,04/05/10,POST_TEST,4,CT02YSIZE,matrix size in y,512
+196,C3H,5907,04/05/10,POST_TEST,4,CT02NSLI,slice thickness,38
+197,C3H,5907,04/05/10,POST_TEST,4,CT02TBHT,table height,145
+198,C3H,5907,04/05/10,POST_TEST,4,CGT02HOSPNAME1,hospital name,UTMB
+199,C3H,5907,04/05/10,POST_TEST,4,CT02HOSPNAME2,hospital name,"Galveston,"
+200,C3H,5907,04/05/10,POST_TEST,4,CT02NBSI1,Neck torsional strength index elastic modulus based,1.978184
+201,C3H,5907,04/05/10,POST_TEST,4,CT02NBSI2,Neck torsional strength index BMD based,1179.323242
+202,C3H,5907,04/05/10,POST_TEST,4,CT02NBSI3,Neck torsional strength index cortical area based,3.134008
+203,C3H,5907,04/05/10,POST_TEST,4,CT02NCSI,Neck compressive strength index,0.794418
+204,C3H,5907,04/05/10,POST_TEST,4,CT02TCSI,Troch compressive strength index,1.84839

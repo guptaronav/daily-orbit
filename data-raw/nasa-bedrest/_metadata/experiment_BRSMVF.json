@@ -1,0 +1,536 @@
+{
+ "record": {
+  "id": "adc0daf5-c8ac-5418-8fc7-d11115617671",
+  "_id": "adc0daf5-c8ac-5418-8fc7-d11115617671",
+  "__is_locked": false,
+  "experiment_title": "Bed Rest Standard Measures: Reactive Hyperemia and Vasodilation (Vascular Function)",
+  "__source_key": "cl62azrs6cdh101o60jcmg605",
+  "experiment_type": [
+   [
+    "Flight Analogs Project (FAP)"
+   ],
+   [
+    "NASA Bedrest Studies"
+   ],
+   [
+    "NASA Ground-Based Investigations"
+   ]
+  ],
+  "AssignedArchivist": [
+   "Liddell, Nyaia A."
+  ],
+  "keyword": [
+   "Vascular resistance",
+   "Hyperemia",
+   "Vasodilation",
+   "Administration, sublingual"
+  ],
+  "__record_version": 33,
+  "experiment_description": "OBJECTIVES:<br>\nThe objective of this measure was to acquire new data on the occurrence of vascular changes during bed rest as measured by responses to reactive hyperemia and sublingual nitroglycerin.\nThe investigators expected to see vascular responses for subjects in bed rest subjects which are similar to those seen in astronauts after spaceflight.\n<div>\nAPPROACH:<br>\t\nReactive hyperemia - The vasodilator responses in the brachial artery were measured by ultrasound.  Then, a pressure cuff around the arm was inflated at 50 mmHg above systolic blood pressure for 5 minutes.  The cuff was then be rapidly deflated and measurements were obtained 4 times per minute for 5 minutes.   The diameter at three cardiac cycles was analyzed for each scan and the measurements averaged.\n</div><div>\nAn identical procedure was used in the anterior tibial artery, except that the anterior tibial artery was scanned, and the cuff was inflated to 70 mmHg above systolic pressure (or to a pressure sufficient to completely occlude flow as determined by real-time ultrasound for 7 minutes).  \n</div><div>\nSublingual nitroglycerin - The instrumentation for this was identical to that used during reactive hyperemia.  Baseline measurements of brachial and anterior tibial artery diameters and arterial pressure were obtained.  A 0.4 mg tablet of nitroglycerin was given to the subject sublingually. Three minutes later the brachial and anterior tibial artery diameters were continuously recorded (using two separate machines) for 3 additional minutes or until artery diameters returned to normal. The subject remained supine and had ECG and blood pressure monitored during this procedure.\n</div><div>\nRESULTS:<br>\nThis experiment has been discontinued as a bed rest standard measure and is now being conducted as part of the <a href=\"http://lsda.jsc.nasa.gov/scripts/experiment/exper.cfm?exp_index=1289\">Gender Differences</a> extramural research protocol.  Results from the bed rest study indicate that flow-mediated dilation in the leg was significantly increased at bed rest day 49 (6% from pre-bed rest). Arterial responses to nitroglycerin differed in the arm and leg, but did not change as a result of bed rest. Anterior tibial artery intimal-medial thickness markedly decreased at bed rest days 21 (21%), 35 (22%), and 49 (19%). Several cardiac functional parameters, including isovolumic relaxation time (73 ms to 85 ms at day 7) and myocardial performance index, were significantly increased (0.41 to 0.49 by day 7 of bed rest; indicating a decrease in cardiac function) during bed rest. There was a trend for decreased orthostatic tolerance following 60 days of bed rest (P = 0.1). The data suggest that bed rest altered cardiovascular structure and function in a pattern similar to short-duration spaceflight. Additionally, the vascular alterations were primarily seen in the lower body, while vessels of the upper body were unaffected.<end></end></div>",
+  "indexed": "2026-08-23T03:54:25.529379+00:00",
+  "GUID": "cl62azrs6cdh101o60jcmg605",
+  "_file_extension": "human",
+  "archive_status": "Data preservation is complete.  All datasets are publicly available.",
+  "__model_type": "lsda_experiment",
+  "__dirid": "adc0daf5-c8ac-5418-8fc7-d11115617671",
+  "__record_size_wo_doccontent": 74417,
+  "__update_method": "Update CDM",
+  "experiment_identifier": [
+   "BRSMVF"
+  ],
+  "CompleteArchivalExpectedInFiscalYear": [
+   "0"
+  ],
+  "experiment_type_lk": [
+   "Flight Analogs Project (FAP)",
+   "NASA Bedrest Studies",
+   "NASA Ground-Based Investigations",
+   "Artificial Gravity (Fractional Gravity)"
+  ],
+  "__record_modified_date": "2026-08-23T03:54:25.529379+00:00",
+  "nasa_center": "JSC",
+  "__indexed": "2026-08-23T03:54:25.529379+00:00",
+  "__record_creation_date": "2022-07-28T19:56:07.031Z",
+  "__record_size": 74417,
+  "species_strain": [
+   [
+    "N/A"
+   ]
+  ],
+  "__model_version": 60,
+  "species_sci_name": [
+   [
+    "Homo sapiens"
+   ]
+  ],
+  "payload_id": [
+   "Campaign 5",
+   "Campaign 3",
+   "Campaign 1",
+   "Pilot"
+  ],
+  "CombinedSpecies": [
+   "Human (Homo sapiens) N/A"
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "ncindex": 2,
+  "researchIndex": [
+   3
+  ],
+  "experiment_id": "BRSMVF",
+  "experiment_related": [
+   "BEDREST0543"
+  ],
+  "center": "JSC",
+  "parameter_name": [
+   "Base at diastolic",
+   "Base at systolic",
+   "Heart rate",
+   "Intima-media thickness (IMT)",
+   "Pulse pressure",
+   "Reactive hyperemia",
+   "Diastolic blood pressure",
+   "Systolic blood pressure",
+   "Anterior tibia (popliteal) artery diameter",
+   "Brachial artery diameter"
+  ],
+  "exp_index": 1275,
+  "research_area": [
+   "Cardiovascular physiology"
+  ],
+  "species": [
+   [
+    "Human"
+   ]
+  ],
+  "pme_role_with_name": [
+   "Principal Investigator: Meck, Janice Fritsch- Yelle",
+   "Principal Investigator: Platts, Steven"
+  ],
+  "missions": [
+   "UTMB Campaign 1",
+   "UTMB Campaign 3",
+   "UTMB Campaign 5",
+   "Pilot"
+  ],
+  "PI": [
+   "Meck, Janice Fritsch- Yelle",
+   "Platts, Steven"
+  ],
+  "sort": [
+   3,
+   "3db3d32f-b124-5446-a648-fcf9565efafd"
+  ],
+  "Program": "Ground",
+  "parameter_html": "<table><tr><td>Base at diastolic</td></tr><tr><td>Base at systolic</td></tr><tr><td>Heart rate</td></tr><tr><td>Intima-media thickness (IMT)</td></tr><tr><td>Pulse pressure</td></tr><tr><td>Reactive hyperemia</td></tr><tr><td>Diastolic blood pressure</td></tr><tr><td>Systolic blood pressure</td></tr><tr><td>Anterior tibia (popliteal) artery diameter</td></tr><tr><td>Brachial artery diameter</td></tr><tr></tr></table>",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Platts, Steven\">Principal Investigator: Platts, Steven</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Meck, Janice Fritsch- Yelle\">Principal Investigator: Meck, Janice Fritsch- Yelle</a>",
+  "PrincipalInvestigator": [
+   "Meck, Janice Fritsch- Yelle",
+   "Platts, Steven"
+  ],
+  "mission_id": [
+   "UTMB Campaign 1",
+   "UTMB Campaign 3",
+   "UTMB Campaign 5",
+   "Pilot"
+  ],
+  "__source_field_concat": "human cl62azrs6cdh101o60jcmg605 JSC JSC Bed Rest Standard Measures: Reactive Hyperemia and Vasodilation (Vascular Function) BRSMVF Ground Data preservation is complete.  All datasets are publicly available.",
+  "__icon_type": "",
+  "__description": "OBJECTIVES:<br>\nThe objective of this measure was to acquire new data on the occurrence of vascular changes during bed rest as measured by responses to reactive hyperemia and sublingual nitroglycerin.\nThe investigators expected to see vascular responses for subjects in bed rest subjects which are similar to those seen in astronauts after spaceflight.\n<div>\nAPPROACH:<br>\t\nReactive hyperemia - The vasodilator responses in the brachial artery were measured by ultrasound.  Then, a pressure cuff around the arm was inflated at 50 mmHg above systolic blood pressure for 5 minutes.  The cuff was then be rapidly deflated and measurements were obtained 4 times per minute for 5 minutes.   The diameter at three cardiac cycles was analyzed for each scan and the measurements averaged.\n</div><div>\nAn identical procedure was used in the anterior tibial artery, except that the anterior tibial artery was scanned, and the cuff was inflated to 70 mmHg above systolic pressure (or to a pressure sufficient to completely occlude flow as determined by real-time ultrasound for 7 minutes).  \n</div><div>\nSublingual nitroglycerin - The instrumentation for this was identical to that used during reactive hyperemia.  Baseline measurements of brachial and anterior tibial artery diameters and arterial pressure were obtained.  A 0.4 mg tablet of nitroglycerin was given to the subject sublingually. Three minutes later the brachial and anterior tibial artery diameters were continuously recorded (using two separate machines) for 3 additional minutes or until artery diameters returned to normal. The subject remained supine and had ECG and blood pressure monitored during this procedure.\n</div><div>\nRESULTS:<br>\nThis experiment has been discontinued as a bed rest standard measure and is now being conducted as part of the <a href=\"http://lsda.jsc.nasa.gov/scripts/experiment/exper.cfm?exp_index=1289\">Gender Differences</a> extramural research protocol.  Results from the bed rest study indicate that flow-mediated dilation in the leg was significantly increased at bed rest day 49 (6% from pre-bed rest). Arterial responses to nitroglycerin differed in the arm and leg, but did not change as a result of bed rest. Anterior tibial artery intimal-medial thickness markedly decreased at bed rest days 21 (21%), 35 (22%), and 49 (19%). Several cardiac functional parameters, including isovolumic relaxation time (73 ms to 85 ms at day 7) and myocardial performance index, were significantly increased (0.41 to 0.49 by day 7 of bed rest; indicating a decrease in cardiac function) during bed rest. There was a trend for decreased orthostatic tolerance following 60 days of bed rest (P = 0.1). The data suggest that bed rest altered cardiovascular structure and function in a pattern similar to short-duration spaceflight. Additionally, the vascular alterations were primarily seen in the lower body, while vessels of the upper body were unaffected.<end></end></div>",
+  "__doi": "10.83263/pz53-yg20",
+  "__doi_record_creation_date": "2026-08-23T03:54:25",
+  "__doi_record_modified_date": "2026-08-23T03:54:25"
+ },
+ "datasets": [
+  {
+   "key": "158aece9-f5bd-5784-b6e6-1847c93ce701",
+   "label": "BRSMVF_Campaign_3_Vascular_Function_Sublingual_Nitroglycerin",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "UTMB Bedrest Campaign 3 BRSMVF Sublingual Nitroglycerin",
+    "dataset_catalog": "BRSMVF_Campaign_3_Vascular_Function_Sublingual_Nitroglycerin",
+    "dataset_description": "This dataset contains data for all Campaign 3 subjects for the Bed Rest Standard Measures: Reactive Hyperemia and Vasodilation (Vascular Function) (BRSMVF) study. The tabular data measures vascular change responses to sublingual nitroglycerin (SLN).",
+    "processing_level": [
+     "Processed Data"
+    ],
+    "experiment_id": [
+     "BRSMVF"
+    ]
+   },
+   "meta": "11 files \u00b7 529.4 KB",
+   "date": "2025-09-19",
+   "children": [
+    {
+     "key": "31e50235-6cb3-5640-ad53-1ad3fbe91199",
+     "label": "BRSMVF_Campaign_3_Vascular_Function_C3C_SLN_Arm_Leg_PCT_Change",
+     "type": "file",
+     "ext": "",
+     "file_size": 2324,
+     "meta": "2.3 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f6065f26-04f2-5de3-a37b-60dddaf10e23",
+     "label": "BRSMVF_Campaign_3_Vascular_Function_C3AB_SLN_Arm_Baseline_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 12889,
+     "meta": "12.6 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ec6c9546-3028-5394-96b6-ecaeeae7458e",
+     "label": "BRSMVF_Campaign_3_Vascular_Function_C3AB_SLN_Leg",
+     "type": "file",
+     "ext": "",
+     "file_size": 175998,
+     "meta": "171.9 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7a9c298f-5e49-5ced-9a82-b2b67e11b249",
+     "label": "BRSMVF_Campaign_3_Vascular_Function_C3AB_SLN_Arm_PCT_Change",
+     "type": "file",
+     "ext": "",
+     "file_size": 3507,
+     "meta": "3.4 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "525a19b2-d7b7-5aee-a264-1ab06f037ce2",
+     "label": "BRSMVF_Campaign_3_Vascular_Function_C3C_SLN_Arm_Leg_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 21331,
+     "meta": "20.8 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b2d3ae26-0217-54ab-8972-e26083bff02c",
+     "label": "BRSMVF_Campaign_3_Vascular_Function_C3AB_SLN_Arm",
+     "type": "file",
+     "ext": "",
+     "file_size": 178550,
+     "meta": "174.4 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "70348512-83bb-582d-bb56-972d5353ab16",
+     "label": "BRSMVF_Campaign_3_Vascular_Function_C3AB_SLN_Leg_PCT_Change",
+     "type": "file",
+     "ext": "",
+     "file_size": 2780,
+     "meta": "2.7 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7dad4241-2f6b-50cc-954e-5785e2177d3d",
+     "label": "BRSMVF_Campaign_3_Vascular_Function_C3AB_SLN_Arm_Avg",
+     "type": "file",
+     "ext": "",
+     "file_size": 29083,
+     "meta": "28.4 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ff28547b-4d9a-56ea-96d6-0a3031b8455a",
+     "label": "BRSMVF_Campaign_3_Vascular_Function_C3AB_SLN_Leg_PCT_Change_Avg",
+     "type": "file",
+     "ext": "",
+     "file_size": 73792,
+     "meta": "72.1 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "10341f4d-722c-5f23-9404-9e8503cd1638",
+     "label": "BRSMVF_Campaign_3_Vascular_Function_C3AB_SLN_Leg_Baseline_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 12943,
+     "meta": "12.6 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a493e2b6-41fa-5e88-8c33-822fa494a154",
+     "label": "BRSMVF_Campaign_3_Vascular_Function_C3AB_SLN_Leg_Avg",
+     "type": "file",
+     "ext": "",
+     "file_size": 28879,
+     "meta": "28.2 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "915afa88-2ecf-52b7-b081-28e698de73aa",
+   "label": "BRSMVF_Campaign_1_Vascular_Function",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "UTMB Bedrest Campaign 1 Vascular Function",
+    "dataset_catalog": "BRSMVF_Campaign_1_Vascular_Function",
+    "dataset_description": "This dataset contains a collection of pre- and post bed rest muscle strength and endurance data in select muscle groups for the evaluation of in-bed rest countermeasures and post bed rest rehabilitation during the Campaign 1 Bed Rest Study The torque-velocity relationships of the knee extensors and calf plantar flexors will be determined using a Cybex dynamometer. This isokinetic device controls the speed at which a person moves their limb and measures the torque developed when the person tries to move faster than the machine will allow.",
+    "processing_level": "Processed Data",
+    "experiment_id": [
+     "BRSMVF"
+    ]
+   },
+   "meta": "8 files \u00b7 100.5 KB",
+   "date": "2025-04-15",
+   "children": [
+    {
+     "key": "d44b3851-b723-5879-9bdd-3c3a14ba4eed",
+     "label": "BRSMVF_Campaign_1_Vascular_Function_Reactive_Hyperemia_Leg_Obsvs",
+     "type": "file",
+     "ext": "",
+     "file_size": 29040,
+     "meta": "28.4 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "22b812e4-ca8b-5b5b-826b-f5c216fbcd84",
+     "label": "BRSMVF_Campaign_1_Vascular_Function_Reactive_Hyperemia_Leg_Baseline_Obsvs",
+     "type": "file",
+     "ext": "",
+     "file_size": 8263,
+     "meta": "8.1 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e02b57c3-b933-5b95-860e-4e58e2c5a83c",
+     "label": "BRSMVF_Campaign_1_Vascular_Function_Reactive_Hyperemia_Leg_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 11371,
+     "meta": "11.1 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "aa6b39e2-4a98-51c8-b7c8-46f4ccc8a542",
+     "label": "BRSMVF_Campaign_1_Vascular_Function_Reactive_Hyperemia_Arm_Baseline_Obsvs",
+     "type": "file",
+     "ext": "",
+     "file_size": 8403,
+     "meta": "8.2 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "57117bc0-4be2-5f5b-b498-41811ff37d7d",
+     "label": "BRSMVF_Campaign_1_Vascular_Function_Reactive_Hyperemia_Arm_Obsvs",
+     "type": "file",
+     "ext": "",
+     "file_size": 29143,
+     "meta": "28.5 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "954b2b6e-bf3d-5959-8e9b-16cac03dcb8d",
+     "label": "BRSMVF_Campaign_1_Vascular_Function_Reactive_Hyperemia_Arm_Baseline_Avgs",
+     "type": "file",
+     "ext": "",
+     "file_size": 2702,
+     "meta": "2.6 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "71c9dbf1-5972-5a3f-8f6f-1085c3ae2cbd",
+     "label": "BRSMVF_Campaign_1_Vascular_Function_Reactive_Hyperemia_Arm_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 11346,
+     "meta": "11.1 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "20cb3188-d42b-5743-ab7e-909a70f4b566",
+     "label": "BRSMVF_Campaign_1_Vascular_Function_Reactive_Hyperemia_Leg_Baseline_Avgs",
+     "type": "file",
+     "ext": "",
+     "file_size": 2684,
+     "meta": "2.6 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "9d8e8933-fe34-5c6a-aa4b-6e6285fed75f",
+   "label": "BRSMVF_Campaign_3_Vascular_Function_Reactive_Hyperemia",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "UTMB Bedrest Campaign 3 BRSMVF Reactive Hyperemia",
+    "dataset_catalog": "BRSMVF_Campaign_3_Vascular_Function_Reactive_Hyperemia",
+    "dataset_description": "This dataset contains data for all Campaign 3 subjects for the Bed Rest Standard Measures: Reactive Hyperemia and Vasodilation (Vascular Function) (BRSMVF) study. The data measures vascular change responses to reactive hyperemia (RH).",
+    "processing_level": [
+     "Processed Data"
+    ],
+    "experiment_id": [
+     "BRSMVF"
+    ]
+   },
+   "meta": "14 files \u00b7 396.6 KB",
+   "date": "2025-09-19",
+   "children": [
+    {
+     "key": "3548c4db-1365-5c23-8dcc-2a9b264b6bcb",
+     "label": "BRSMVF_Campaign_3_Vascular_Function_C3AB_RH_Leg_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 75696,
+     "meta": "73.9 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4280c60d-4749-5cc8-b271-b5360bf9d127",
+     "label": "BRSMVF_Campaign_3_Vascular_Function_C3AB_RH_Leg_Baseline_Avg",
+     "type": "file",
+     "ext": "",
+     "file_size": 6111,
+     "meta": "6.0 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "27030cad-5c76-5de2-a4b5-bc5d9d4e4501",
+     "label": "BRSMVF_Campaign_3_Vascular_Function_C3AB_RH_Arm_Avg_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 36086,
+     "meta": "35.2 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c740a814-076e-56ab-b8fa-1a6119a18bf9",
+     "label": "BRSMVF_Campaign_3_Vascular_Function_C3AB_RH_Leg_Avg_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 4961,
+     "meta": "4.8 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f89f14e7-dbc4-5947-99bc-d842470a92ac",
+     "label": "BRSMVF_Campaign_3_Vascular_Function_C3AB_RH_Arm_Baseline_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 24542,
+     "meta": "24.0 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ab9051ee-073f-5dbc-9aec-98910f8af278",
+     "label": "BRSMVF_Campaign_3_Vascular_Function_C3C_RH_Arm_Leg_PCT_Change",
+     "type": "file",
+     "ext": "",
+     "file_size": 2540,
+     "meta": "2.5 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "aa9ea12f-32a4-57fe-91c3-8952513e0a7c",
+     "label": "BRSMVF_Campaign_3_Vascular_Function_C3AB_RH_Arm_Baseline_Avg",
+     "type": "file",
+     "ext": "",
+     "file_size": 7444,
+     "meta": "7.3 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "559db162-847c-5786-806c-9d761e3a02b7",
+     "label": "BRSMVF_Campaign_3_Vascular_Function_C3AB_RH_Leg_Baseline_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 20751,
+     "meta": "20.3 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e439f3b9-a47d-515e-a83d-2e5e8302814d",
+     "label": "BRSMVF_Campaign_3_Vascular_Function_C3AB_RH_Arm_Avg_Summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 4627,
+     "meta": "4.5 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a575d0bd-32a7-5b55-ad24-90a48feded03",
+     "label": "BRSMVF_Campaign_3_Vascular_Function_C3C_RH_Arm_Leg_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 24064,
+     "meta": "23.5 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "dd9d2bff-f6f6-5a2c-8d40-174f7486ea97",
+     "label": "BRSMVF_Campaign_3_Vascular_Function_C3AB_RH_Arm_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 90282,
+     "meta": "88.2 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d777f0b7-62cc-5afa-ac9d-76c37277a029",
+     "label": "BRSMVF_Campaign_3_Vascular_Function_C3AB_RH_Arm_PCT_Change",
+     "type": "file",
+     "ext": "",
+     "file_size": 40960,
+     "meta": "40.0 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b485c35f-aced-5492-8c55-1abfff52bd41",
+     "label": "BRSMVF_Campaign_3_Vascular_Function_C3AB_RH_Leg_PCT_Change",
+     "type": "file",
+     "ext": "",
+     "file_size": 31444,
+     "meta": "30.7 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9eb12196-7c4d-5918-9249-eb255319d6ac",
+     "label": "BRSMVF_Campaign_3_Vascular_Function_C3AB_RH_Leg_Avg_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 36572,
+     "meta": "35.7 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,214 @@
+{
+ "record": {
+  "id": "7bc06b8d-50a8-5aeb-88b9-b67c39f9210b",
+  "_id": "7bc06b8d-50a8-5aeb-88b9-b67c39f9210b",
+  "experiment_title": "The Influence of Environmental Stress on Cell-Mediated Immune Function",
+  "archive_status_index": 2,
+  "pub_document_number": "PUB001052",
+  "parameter_html": "<table><tr><td>Cell-mediated immunity (CMI) score</td></tr><tr><td>Positive immune reactions</td></tr><tr><td>Sum of mean indurations</td></tr><tr></tr></table>",
+  "__source_key": "cl62axx6scd1801o6czdo7lg1",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Sams, Clarence\">Principal Investigator: Sams, Clarence</a>",
+  "experiment_type_lk": [
+   "Lunar-Mars Life Support Test Project (LMLSTP)"
+  ],
+  "__record_modified_date": "2026-08-23T03:44:02.528704+00:00",
+  "__indexed": "2026-08-23T03:44:02.528704+00:00",
+  "__record_creation_date": "2022-07-28T20:06:32.421Z",
+  "keyword_name": "Hypersensitivity, delayed",
+  "__record_size": 133434,
+  "__record_version": 28,
+  "__model_version": 60,
+  "experiment_description": "<p><b><u>OBJECTIVES</u></b><br />\r\nThe human immune system is composed of multiple interacting elements including contributions from both the humoral and cell-mediated arms. These elements play unique roles and interact in various ways with each other in maintaining the optimum immune status and health of humans. Cell-mediated immunity (CMI) involving sensitized T-lymphocytes is important in defense against certain infectious agents (e.g., viruses and fungi), in surveillance against neoplastic cells, and in regulation of immune function. CMI function testing has traditionally been done by skin testing with cutaneous placement of recall antigens (delayed cutaneous hypersensitivity). By introducing an antigen to which an individual has been previously exposed, the capacity of T-lymphocytes to respond to an antigen in memory can be assessed.</p>\r\n<p>Measurement of cutaneous delayed-type hypersensitivity (DTH) responses to a battery of commonly encountered antigens is a generally accepted and preferred means of assessing CMI function. In the past, such DTH testing suffered from lack of standardized testing techniques, number and characterization of reactions, doses employed, and interpretation of reactions and results. A commercially available system has solved these problems by providing simultaneous and reproducible application of seven standardized recall antigens as a means of measuring DTH in assessment of CMI. Because of its properties, widespread clinical acceptance, and ease of use, this system was adopted for this study.</p>\r\n<p>This process of skin testing and evaluation of cell-mediated immune function has been used in other extreme environments such as Antarctic expeditions, tours of duty in submarines, and during both short- and long-duration space flights. All of these studies have shown that stress can have a negative impact on CMI function. The exact mechanisms underlying these changes are not yet fully understood.</p>\r\n<p><b><u>APPROACH</u></b><br />\r\nIn this investigation, repeated skin testing was utilized in order to determine the functional state of the chamber crews' CMI systems over time and compare to a control group of subjects not exposed to the environmental stress of isolation within the closed chamber.</p>\r\n<p>There were two subject groups in this study: (1) the experimental (chamber) group, which consisted of the four chamber occupants, and (2) the control group, which consisted of four sex- and age-matched volunteers. All individuals completed a training session on the proper application of the skin test device and measurement of the results.</p>\r\n<p>The following procedure was used for application of the testing device at each time point:<br />\r\n&nbsp;</p>\r\n<ol>\r\n    <li>The volar surface of a forearm was cleansed with an alcohol pad and allowed to dry.</li>\r\n    <li>The test device was then placed against the forearm and firmly pressed into the skin. The prongs at the tip of each arm entered the skin and delivered the antigen.</li>\r\n    <li>A rocking motion was used to ensure adequate delivery of the antigens and control.</li>\r\n    <li>The test device was removed, and the area was allowed to dry for 5 minutes.</li>\r\n    <li>A permanent marker was used to outline the skin area tested to allow later observation of the proper sites.</li>\r\n    <li>After 48 hours, each antigen site was evaluated for induration, and calipers were used to measure the diameter of the induration along the vertical and horizontal axes.</li>\r\n    <li>The number of antigens that reach at least 2 mm in diameter were considered positive. The sum total millimeters of induration and the number of positive antigens were recorded and used to determine a CMI score according to the formula: CMI Score = Sum of Mean Indurations/Number of Positive Antigens.</li>\r\n</ol>\r\n<p><b><u>RESULTS</u></b><br />\r\nThe chamber subjects had fewer responses to the seven antigens at the C-30 time point compared to the control subjects. By chamber day 45 (C+45), the chamber subjects showed hypoergic responses, and by chamber day 90 (C+90) all chamber subjects exhibited anergy to the seven challenge antigens. The chamber subjects had returned nearly to their prechamber baselines within 30 days of exiting the chamber. The control group subjects responded to more antigens at the C-30 time point and showed variable responses, but only minor changes throughout the study period.</p>\r\n<p>Since the chamber subjects responded initially (C-30) to fewer antigens, the baseline value for the sum of the indurations in the chamber subjects is less than that for the control group. The chamber subjects showed a loss of reactivity to most of the antigens by chamber day C+45 and had no response to any of the antigens and thus no measurable indurations at chamber day C+90. By 30 days after exit from the chamber (E+30), the measured sum of indurations had returned to near baseline level in the chamber subjects. The control subjects showed a variable response throughout the study. One control subject exhibited a slightly attenuated response on chamber day C+45 while another showed increased responses at chamber days C+45 and C+90. On day E+30, all control subjects had values similar to pre-chamber baseline measurements.</p>\r\n<p>The most interesting and meaningful results for both the control and chamber groups involved their average CMI scores. The average CMI score for the control subjects varied little throughout the entire study period (range 4.05 to 4.23). However, the chamber subjects as a group showed a profound decrement in their average CMI scores on chamber days C+45 and C+90 with no response to any of the seven challenge antigens noted in any of the four chamber subjects on chamber day C+90. The average CMI score of the chamber group had returned to near the baseline level at 30 days postchamber (E+30).</p>\r\n<p>The chamber subjects had a nearly 49% decrease in their CMI scores during the chamber stay which was statistically different from the control data set at p = 0.002. The CMI scores of the chamber subjects were still decreased from control values by approximately 13% at time point E+30 (30 days after exiting the chamber), but the difference was not significant.</p>\r\n<p>The primary aim of this study was to determine if isolation of human subjects within a closed chamber over a period of 91 days would adversely affect function of the cell-mediated arm of the immune system. The CMI scores were significantly decreased (-48.7% &plusmn; 10.1 SEM; p= 0.002; n = 8) for the chamber subjects during chamber isolation. The CMI scores were decreased below the control level (-13.1% &plusmn; 13.05 SEM) for the isolated chamber subjects at 30 days after exit from the chamber, but were not statistically different from the control values at this time point.</p>\r\n<p>The short-term and long-term effects of decreased CMI in isolated human subjects are not known. Since CMI plays important roles in combating infectious agents (e.g., viruses and fungi), in surveillance against neoplastic cells, and in regulation of immune function, possible consequences include increased susceptibility to acute and chronic infections, increased cancer risk, and immune dysregulation. The level of these increased risks associated with decreased CMI function in conjunction with isolation and other still poorly understood environmental, physiological, and psychological factors is not known. Additional prospective and retrospective longitudinal studies are required to better understand underlying mechanisms and the level of risks associated with decreased CMI function in persons living in isolated environments. The role of exercise and the specific types, intensity levels, and duration in modulating the immune response during isolation requires further investigation.<end></end></p>",
+  "payload_id": "LMLSTP",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "LMLSTP5.4",
+  "indexed": "2026-08-23T03:44:02.528704+00:00",
+  "GUID": "cl62axx6scd1801o6czdo7lg1",
+  "parameter_name": [
+   "Cell-mediated immunity (CMI) score",
+   "Positive immune reactions",
+   "Sum of mean indurations"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 941,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Immunology"
+  ],
+  "pme_role_with_name": [
+   "Collaborator: D'Aunno, Dominick",
+   "Collaborator: Feeback, Daniel",
+   "Principal Investigator: Sams, Clarence"
+  ],
+  "missions": [
+   [
+    [
+     "LMLSTP"
+    ]
+   ]
+  ],
+  "__dirid": "7bc06b8d-50a8-5aeb-88b9-b67c39f9210b",
+  "__record_size_wo_doccontent": 133434,
+  "PI": [
+   "Sams, Clarence"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "LMLSTP5.4"
+  ],
+  "keyword": [
+   "Antigens, bacterial",
+   "Stress",
+   "Immunohistochemistry",
+   "T-Lymphocytes",
+   "Immunity, cellular",
+   "Hypersensitivity, delayed"
+  ],
+  "mission_id": [
+   [
+    [
+     "LMLSTP"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "proposal_date": [],
+  "proposal_source": [],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Sams, Clarence"
+  ],
+  "LaunchDate": [
+   "08/01/1995"
+  ],
+  "LaunchYear": 1995,
+  "program_name": [
+   "Ground"
+  ],
+  "archive_status": "Data preservation is complete. Privacy-protected datasets are available via data request. Remaining datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Ground",
+  "__source_field_concat": "PUB001052 LMLSTP cl62axx6scd1801o6czdo7lg1 Hypersensitivity, delayed  N/A The Influence of Environmental Stress on Cell-Mediated Immune Function LMLSTP5.4 Ground",
+  "__icon_type": "human",
+  "__description": "<p><b><u>OBJECTIVES</u></b><br />\r\nThe human immune system is composed of multiple interacting elements including contributions from both the humoral and cell-mediated arms. These elements play unique roles and interact in various ways with each other in maintaining the optimum immune status and health of humans. Cell-mediated immunity (CMI) involving sensitized T-lymphocytes is important in defense against certain infectious agents (e.g., viruses and fungi), in surveillance against neoplastic cells, and in regulation of immune function. CMI function testing has traditionally been done by skin testing with cutaneous placement of recall antigens (delayed cutaneous hypersensitivity). By introducing an antigen to which an individual has been previously exposed, the capacity of T-lymphocytes to respond to an antigen in memory can be assessed.</p>\r\n<p>Measurement of cutaneous delayed-type hypersensitivity (DTH) responses to a battery of commonly encountered antigens is a generally accepted and preferred means of assessing CMI function. In the past, such DTH testing suffered from lack of standardized testing techniques, number and characterization of reactions, doses employed, and interpretation of reactions and results. A commercially available system has solved these problems by providing simultaneous and reproducible application of seven standardized recall antigens as a means of measuring DTH in assessment of CMI. Because of its properties, widespread clinical acceptance, and ease of use, this system was adopted for this study.</p>\r\n<p>This process of skin testing and evaluation of cell-mediated immune function has been used in other extreme environments such as Antarctic expeditions, tours of duty in submarines, and during both short- and long-duration space flights. All of these studies have shown that stress can have a negative impact on CMI function. The exact mechanisms underlying these changes are not yet fully understood.</p>\r\n<p><b><u>APPROACH</u></b><br />\r\nIn this investigation, repeated skin testing was utilized in order to determine the functional state of the chamber crews' CMI systems over time and compare to a control group of subjects not exposed to the environmental stress of isolation within the closed chamber.</p>\r\n<p>There were two subject groups in this study: (1) the experimental (chamber) group, which consisted of the four chamber occupants, and (2) the control group, which consisted of four sex- and age-matched volunteers. All individuals completed a training session on the proper application of the skin test device and measurement of the results.</p>\r\n<p>The following procedure was used for application of the testing device at each time point:<br />\r\n&nbsp;</p>\r\n<ol>\r\n    <li>The volar surface of a forearm was cleansed with an alcohol pad and allowed to dry.</li>\r\n    <li>The test device was then placed against the forearm and firmly pressed into the skin. The prongs at the tip of each arm entered the skin and delivered the antigen.</li>\r\n    <li>A rocking motion was used to ensure adequate delivery of the antigens and control.</li>\r\n    <li>The test device was removed, and the area was allowed to dry for 5 minutes.</li>\r\n    <li>A permanent marker was used to outline the skin area tested to allow later observation of the proper sites.</li>\r\n    <li>After 48 hours, each antigen site was evaluated for induration, and calipers were used to measure the diameter of the induration along the vertical and horizontal axes.</li>\r\n    <li>The number of antigens that reach at least 2 mm in diameter were considered positive. The sum total millimeters of induration and the number of positive antigens were recorded and used to determine a CMI score according to the formula: CMI Score = Sum of Mean Indurations/Number of Positive Antigens.</li>\r\n</ol>\r\n<p><b><u>RESULTS</u></b><br />\r\nThe chamber subjects had fewer responses to the seven antigens at the C-30 time point compared to the control subjects. By chamber day 45 (C+45), the chamber subjects showed hypoergic responses, and by chamber day 90 (C+90) all chamber subjects exhibited anergy to the seven challenge antigens. The chamber subjects had returned nearly to their prechamber baselines within 30 days of exiting the chamber. The control group subjects responded to more antigens at the C-30 time point and showed variable responses, but only minor changes throughout the study period.</p>\r\n<p>Since the chamber subjects responded initially (C-30) to fewer antigens, the baseline value for the sum of the indurations in the chamber subjects is less than that for the control group. The chamber subjects showed a loss of reactivity to most of the antigens by chamber day C+45 and had no response to any of the antigens and thus no measurable indurations at chamber day C+90. By 30 days after exit from the chamber (E+30), the measured sum of indurations had returned to near baseline level in the chamber subjects. The control subjects showed a variable response throughout the study. One control subject exhibited a slightly attenuated response on chamber day C+45 while another showed increased responses at chamber days C+45 and C+90. On day E+30, all control subjects had values similar to pre-chamber baseline measurements.</p>\r\n<p>The most interesting and meaningful results for both the control and chamber groups involved their average CMI scores. The average CMI score for the control subjects varied little throughout the entire study period (range 4.05 to 4.23). However, the chamber subjects as a group showed a profound decrement in their average CMI scores on chamber days C+45 and C+90 with no response to any of the seven challenge antigens noted in any of the four chamber subjects on chamber day C+90. The average CMI score of the chamber group had returned to near the baseline level at 30 days postchamber (E+30).</p>\r\n<p>The chamber subjects had a nearly 49% decrease in their CMI scores during the chamber stay which was statistically different from the control data set at p = 0.002. The CMI scores of the chamber subjects were still decreased from control values by approximately 13% at time point E+30 (30 days after exiting the chamber), but the difference was not significant.</p>\r\n<p>The primary aim of this study was to determine if isolation of human subjects within a closed chamber over a period of 91 days would adversely affect function of the cell-mediated arm of the immune system. The CMI scores were significantly decreased (-48.7% &plusmn; 10.1 SEM; p= 0.002; n = 8) for the chamber subjects during chamber isolation. The CMI scores were decreased below the control level (-13.1% &plusmn; 13.05 SEM) for the isolated chamber subjects at 30 days after exit from the chamber, but were not statistically different from the control values at this time point.</p>\r\n<p>The short-term and long-term effects of decreased CMI in isolated human subjects are not known. Since CMI plays important roles in combating infectious agents (e.g., viruses and fungi), in surveillance against neoplastic cells, and in regulation of immune function, possible consequences include increased susceptibility to acute and chronic infections, increased cancer risk, and immune dysregulation. The level of these increased risks associated with decreased CMI function in conjunction with isolation and other still poorly understood environmental, physiological, and psychological factors is not known. Additional prospective and retrospective longitudinal studies are required to better understand underlying mechanisms and the level of risks associated with decreased CMI function in persons living in isolated environments. The role of exercise and the specific types, intensity levels, and duration in modulating the immune response during isolation requires further investigation.<end></end></p>",
+  "__doi": "10.83263/t09z-e679",
+  "__doi_record_creation_date": "2026-08-23T03:44:02",
+  "__doi_record_modified_date": "2026-08-23T03:44:02"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002393",
+   "label": "JMGROUNDLMLSTP54_294",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Mean CMI Scores in Four Chamber and Four Control Subjects by Relative Chamber Day",
+    "dataset_catalog": "JMGROUNDLMLSTP54_294",
+    "dataset_description": [
+     "The mean cell-mediated immunity (CMI) score scores for the chamber and control subjects are shown by relative chamber day.  The average CMI score for the control subjects varied little throughout the entire study period (range 4.05 to 4.23). Source: Sams C, D'Aunno D, Feeback DL. The Influence of Environmental Stress on Cell-Mediated Immune Function. In: Lane HW, Sauer RL, Feeback DL, eds. Isolation: NASA Experiments in Closed-Environment Living. San Diego, CA: Univelt, Incorporated; 2002;104:357-68.<END>"
+    ],
+    "processing_level": [
+     "Analyzed",
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "LMLSTP5.4"
+    ]
+   },
+   "meta": "1 file \u00b7 42.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "a3a96c41-3c48-588b-ba2c-91ff3feec86a",
+     "label": "JMGROUNDLMLSTP54_294.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 43008,
+     "meta": "42.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000868",
+   "label": "JMGROUNDLMLSTP54_295",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Change (in Percent &plusmn; SEM) from Control in Composite\u000bCell-mediated Immunity (CMI) score for In-chamber Measurements and Postchamber Measurements",
+    "dataset_catalog": "JMGROUNDLMLSTP54_295",
+    "dataset_description": [
+     "Graph derived from statistical analysis of three datasets; all measurements for the control group plus the prechamber measurements of the chamber group (n=20), all data obtained from both in-chamber measurements for the chamber group (n=8), and measurements made postchamber on the chamber group (n=4). The three data sets were analyzed for variance and the variance expressed as a percent change &plusmn; SEM from the control data set calculated from measurements made in subjects not isolated in the chamber. Source: Sams C, D'Aunno D, Feeback DL. The Influence of Environmental Stress on Cell-Mediated Immune Function. In: Lane HW, Sauer RL, Feeback DL, eds. Isolation: NASA Experiments in Closed-Environment Living. San Diego, CA: Univelt, Incorporated; 2002;104:357-68.<END>"
+    ],
+    "processing_level": [
+     "Analyzed",
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "LMLSTP5.4"
+    ]
+   },
+   "meta": "1 file \u00b7 35.9 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "5ab2fedd-ce9f-51ed-b53b-afa0c541d5ac",
+     "label": "JMGROUNDLMLSTP54_295.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 36762,
+     "meta": "35.9 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001964",
+   "label": "JMGROUNDLMLSTP54_1",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Assessment of Cell-Mediated Immunity: Application of Antigens and Evaluation of Results",
+    "dataset_catalog": "JMGROUNDLMLSTP54_1",
+    "dataset_description": [
+     "This spreadsheet represents the data collection timetables for this experiment.  Information included in this spreadsheet may include information on the test protocol, data collection constraints, parameters measured, hardware used, scheduled versus actual days of data collection, and subject information."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "LMLSTP5.4"
+    ]
+   },
+   "meta": "1 file \u00b7 25.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "f5d4c7e6-2859-5c37-8ccf-b8a6397f6db2",
+     "label": "JMGROUNDLMLSTP54_1.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 25600,
+     "meta": "25.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

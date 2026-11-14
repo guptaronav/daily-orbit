@@ -1,0 +1,673 @@
+{
+ "record": {
+  "id": "0a5a7c7f-6b53-5f22-8380-520f0be6488d",
+  "_id": "0a5a7c7f-6b53-5f22-8380-520f0be6488d",
+  "experiment_title": "Magnetic Resonance Imaging (MRI) after Exposure to Microgravity",
+  "pub_document_number": "PUB001578",
+  "archive_status_index": 2,
+  "experiment_alias": [
+   "DSO 628",
+   "GMR",
+   "BACKPAIN",
+   "MRI",
+   "E586"
+  ],
+  "parameter_html": "<table><tr><td>Back pain</td></tr><tr><td>Lumbar spine disc size</td></tr><tr><td>Lumbar spine length</td></tr><tr><td>Muscle atrophy</td></tr><tr><td>Adductor muscles, volume</td></tr><tr><td>Anterior calf muscle volume</td></tr><tr><td>Gastrocnemius muscle volume</td></tr><tr><td>Hamstring muscle volume</td></tr><tr><td>Quadriceps muscle volume</td></tr><tr><td>Sartorius muscle volume</td></tr><tr><td>Soleus muscle volume</td></tr><tr><td>Muscle volume, calf</td></tr><tr><td>Muscle volume, lower back</td></tr><tr><td>Muscle volume, neck</td></tr><tr><td>Muscle volume, psoas</td></tr><tr><td>Muscle volume, thigh</td></tr><tr><td>Proton spectroscopy, lumbar vertebrae 3</td></tr><tr><td>T2, calf muscle</td></tr><tr><td>T2, lumbar vertebrae 3</td></tr><tr></tr></table>",
+  "__source_key": "cl62aznm1cdg101o601dq7z4p",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:LeBlanc, Adrian\">Principal Investigator: LeBlanc, Adrian</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Kozlovskaya, Inessa\">Principal Investigator: Kozlovskaya, Inessa</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Belichenko, Oleg\">Co-Investigator: Belichenko, Oleg</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Evans, Harlan\">Co-Investigator: Evans, Harlan</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Feeback, Daniel\">Co-Investigator: Feeback, Daniel</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Hedrick, Thomas\">Co-Investigator: Hedrick, Thomas</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Lin, Chen\">Co-Investigator: Lin, Chen</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Oganov, Victor\">Co-Investigator: Oganov, Victor</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Shackelford, Linda\">Co-Investigator: Shackelford, Linda</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Sinitsyn, Valentine\">Co-Investigator: Sinitsyn, Valentine</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:West, M.\">Co-Investigator: West, M.</a>",
+  "experiment_type_lk": [
+   "NASA-Mir Program"
+  ],
+  "__record_modified_date": "2026-08-23T03:57:17.648240+00:00",
+  "proposal_source": [
+   "NAS 9-18952 and NAS 9-194"
+  ],
+  "__indexed": "2026-08-23T03:57:17.648240+00:00",
+  "alias": [
+   "DSO 628",
+   "GMR",
+   "BACKPAIN",
+   "MRI",
+   "E586"
+  ],
+  "keyword": [
+   "Magnetic resonance imaging (MRI)",
+   "Body composition",
+   "Back pain"
+  ],
+  "__record_creation_date": "2022-07-28T19:57:36.860Z",
+  "keyword_name": "Back pain",
+  "__record_version": 31,
+  "__record_size": 284802,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<BR>\r\nIn microgravity, bones and muscles are not used as they are on Earth.  As many studies have shown, this altered use results in calcium loss, degeneration of the skeleton, lengthening of the spine by expansion of the intervertebral discs, change in spinal bone marrow composition and muscle atrophy.  Bedrest patients on earth show this same musculo-skeletal response with the exception of bone marrow alterations.\r\n<P>\r\nMagnetic Resonance Imaging (MRI) is one method that can be used to measure the resulting muscular and skeletal changes.  MRI is a safe, non-invasive scanning technique that uses a large magnet and low frequency radio waves to form an image by reading the amount of hydrogen in an area of the body. These images can be used to examine soft tissues in the body, as well as determine muscle volume, spinal bone marrow mass and cross-sectional area of intervertebral discs.\r\n<P>\r\nThe objectives of this investigation were to use MRI procedures (1) to measure the muscle volumes of the calf, thigh, back and neck of the Mir astronauts and cosmonauts before and after flight; (2) to determine and compare muscle volume changes on the day of landing and four days after landing; (3) to determine the change in intervertebral disc size in the lumbar spine after flight, and determine the rate of recovery after return to gravity; and (4) to determine the bone marrow cellularity of the third lumbar vertebra (L3) before and after flight.\r\n<P>\r\nFindings from this investigation will lead to improved therapies that will facilitate the recovery of patients on Earth who have been bedridden for extended periods and will aid in the development of countermeasures allowing longer duration space flights.\r\n<P>\r\nAPPROACH:<BR>\r\nAll crewmembers of the NASA 2, 3, 4, 5, 6 and 7 missions, as well as the Mir 21, 22, 23, 24 and 25 missions participated as subjects in this study.  MRI scans were performed 30 and 60 days before launch, on the day of landing (U.S. crewmembers only), and 4, 14 and 30 days after landing on all crewmembers.\r\n<P>\r\nImaging was performed using a 1.5 Tesla Siemens Magnetom MRI system (1.5 Tesla denotes the strength of the magnet used for the test) with various coils, including spine, Helmholz neck and whole body coils.  These coils are the antenna of the MRI system that broadcast the radio frequency signal to the patient and/or receive the return signal to form an image.  Specific coils are used to image different parts of the body; for example, Helmholz coils are used to image the cervical spine and muscles in the neck. \r\n<P>\r\nTo begin the test, crewmembers were to lie down on a padded table, which would enter the magnet.  Crewmembers were recumbent for approximately 10-15 minutes before beginning the test to minimize the effects of fluid shifts caused by lying down after standing.  The order in which the measurements were made was kept the same for each crewmember from one imaging session to the next.  The normal order was L3 spectroscopy, and then imaging of the intervertebral discs, then differential muscle volume measurements of the back muscles, neck muscles, thigh muscles and calf muscles.  <P>\r\nA number of variables are used to acquire MRI images, including echo time, echo sequence, repetition time and matrix size.  The echo time is the amount of time between magnetic pulses.  Echo sequences are the number of magnetic pulses used to create an image.  The repetition time is the amount of time between repetitions of the echo sequence, and the matrix size determines the resolution quality, or clearness, of the image.\r\n<P>\r\n<U>Muscle volume of calf, thigh, lower back and neck:</U><BR>\r\nFor imaging of the calf and thigh muscles, the feet of the subject were positioned in a holder during the test to minimize movement and insure repositioning.  The portion of the leg being imaged was suspended, while the non-imaged portion was supported with foam supports.  A radio frequency (RF) shield was positioned caudally to the imaged portion of the leg to remove artifacts in the image, which arise from parts of the body outside the imaging region but near the edge of the gradient coils.\r\n<P>\r\nFor the thigh and calf muscles of NASA 2, 3, 4 and 7 and Mir 21, 22, and 23 crewmembers, 32, 1 centimeter slices (0.8 centimeter slices for NASA 5, NASA 6, Mir 24, and Mir 25) with a 0.2 millimeter gap between slices were obtained using an echo time equal to 10 milliseconds (msec), a repetition time of 800 msec and a 256 x 512 matrix.\r\n<P>\r\nEvery tissue in the human body has its own spin-spin relaxation time (T2) value.  Therefore, it can be used to differentiate between different tissue types (e.g. fat and muscle) and changes due to tissue changes (e.g. edema in sore muscles).  Calf muscle spin-spin relaxation time (T2) was measured by rescanning the calf region using the same receiver gain at an echo time of 50 msec.  Spin-spin relaxation times for each muscle pixel were calculated by comparing the image intensity between the echo times of 10 msec and 50 msec.  T2 for a particular muscle was obtained by averaging the T2 for all pixels within that muscle.\r\n<P>\r\nFor the back muscles, 20, 0.5 centimeter slices centered on the third lumbar vertebra were obtained using a spine coil and a 10 msec echo time, an 800 msec repetition time and a 256 x 512 matrix.  For the neck muscles, a similar protocol was used with 32, 3 millimeter thick slices, and a Helmholtz neck coil in place of the spine coil. \r\n<P>\r\n<U>Lumbar spine disc size and lumbar spine length:</U><BR>\r\nTo measure lumbar spine intervertebral disc size and lumbar spine length, subjects were positioned within the MRI machine so that the imaging area was centered within the third lumbar vertebra, determined from a sagittal scout view.  A coronal scout image was used to position a 1 centimeter slice of interest down the center of the spinal column.\r\n<P>\r\nImaging sequences of the lumbar spine varied between missions.  During NASA 2 and 3 and Mir 21 and 22, two acquisitions of a four echo, spin echo sequence were obtained using echo times of 20, 45, 72 and 106 msec and a repetition time of 1 second.  \r\n<P>\r\nFor NASA 4, 5, 6 and 7 and Mir 23, 24 and 25, two different sequences were performed.  First, one gradient echo sequence was obtained with an echo time of 7 msec and a repetition time of 400 msec.  Second, two single echo, spin echo sequences were obtained using echo times of 10 and 25 msec and a repetition time of 400 msec.  The matrix size for spinal images of all NASA-Mir crewmembers was 256 x 256.\r\n<P>\r\nDisc area was obtained for intervertebral discs in the lower back (T12-L1, L1-2, L2-3, L3-4 and L4-5) from the number of pixels in each image.  A phantom was also imaged during each imaging session to correct for any changes in pixel size.  \r\n<P>\r\nTo measure spine length, templates (small sub-images) were taken from the first preflight images, each containing a spinal disc.  Each of these was registered (a mathematical best fit of position) for each subsequent measurement.  The change in separation from the preflight positions to postflight positions was the change in spine length.\r\n<P>\r\n<U>Bone marrow content (L3 spectroscopy):</U><BR>\r\nTo measure the fat to water ratio in vertebral bone marrow, volume selective proton spectroscopy was performed on a 15mm x 15mm cubic volume of interest in the third lumbar vertebra (L3) using a surface receive coil.  Spectroscopy uses absorption, emission or scattering of electromagnetic radiation by atoms or molecules to qualitatively or quantitatively study the atoms or molecules.  The Gradient Inversion Spectroscopy (GIS) technique was used to acquire spectra at echo times equal to 12, 18, 24 and 30 msec with a repetition time of 2 sec.  Images were corrected for T2 weighting by exponential extrapolation of the spectra obtained at various echo times.  Non-linear peak fitting was performed on the final spectrum to separate the water peak and different fat peaks from the background and to calculate their relative intensities.  Bone marrow cellularity was determined from the fat to water ratio.  T2 of the fat and water component was determined by fitting the decay of fat and water peaks with an exponential function.\r\n<P>\r\n<U>Back pain questionnaire:</U><BR>\r\nThe crew also filled out questionnaires to document the frequency, severity and location of back pain or discomfort during the first 10 days of flight and the first 10 days after flight.  \r\n<P>\r\nRESULTS:<BR>\r\n<U>Muscle volume:</U><BR>\r\nThe muscle volume changes as a percentage of the mean baseline volume in 16 crewmembers after long-duration flight were determined.  To calculate percent change from baseline, the first postflight measurement at 0 to 4 days after landing was used.  These flights ranged from 115 to197 days in duration.  Paired t-tests of the average preflight volume to the first postflight measurement showed significant decreases for all regions except the neck muscles.  The values, expressed as a percent of baseline (%\u00b1SD), for the 16 subjects were: anterior leg, 85.5\u00b12.9%; gastrocnemius, 83.1\u00b14.4%; soleus, 83.2\u00b14.4%; quadriceps, 89.9\u00b14.4%; hamstrings, 87.3\u00b13.4%; intrinsic back, 84.1\u00b15.8%; psoas, 95.6\u00b16.1%; neck, 100.9\u00b18.3%.  A linear regression of the percent loss against flight duration showed no significant slope for any of the regions suggesting that the volume changes reached a new steady state by or before about four months of flight.\r\n<P>\r\nAfter landing, each of the flight crew were measured at multiple time points.  Results indicate that muscle volume recovers at variable rates depending on the region, but generally have returned to baseline by 30-60 days postflight.\r\n<P>\r\nA comparison of percent change in muscle volume versus the size of the muscle before flight showed poor or no correlation for any of the muscle groups except the hamstrings, r=0.71.   This was also true for when change in muscle volume was correlated with total weight or total body lean mass.  This indicates that the suggestion that the percentage loss might be greater in those individuals with greatest mass before flight is not supported by the results in this study.\r\n<P>\r\nThere was no significant correlation between the percentage loss in spinal bone mineral content and intrinsic back muscle volume during flight (n=12).  However, when 12 bed rest subjects, half who performed an exercise countermeasure and the remaining who served as controls, were added to the flight data, the correlation was significant (r=0.61, p<0.0009).  This may indicate that muscle atrophy might provide an early indicator for the extent of bone loss.\r\n<P>\r\nComparison of flight results with bed rest data shows that the changes in the leg muscles during flight were generally less than bed rest.  This is likely a consequence of the exercise countermeasure employed during flight since the bed rest data did not include exercise.  The back muscles, however, showed greater loss during flight compared to bed rest, which may be reasonable, considering that the back muscles are active to a substantial degree in bed rest.\r\n<P>\r\n<U>Muscle T2:</U><BR>\r\nNo muscle T2 measurements were possible on landing day.  Therefore, the initial postflight measurements were obtained several days after landing which would obviously include significant ambulation prior to the first T2 measurement.  The general pattern, however, is that T2 tends to be increased relative to baseline at the first postflight measurement and was almost always elevated at R+14 compared to the initial postflight measurement or baseline.  By 30-70 days postflight the T2 decreased toward baseline in all cases where these measurements were available.  The general response pattern is consistent with postflight muscle swelling associated with muscle damage. \r\n<P>\r\n<U>Muscle Swelling:</U><BR>\r\nResults show that muscle swelling can occur during the early reambulation period after landing.  A similar pattern is seen following reambulation after bed rest.   The largest changes were in the calf, particularly the gastrocnemius.  The explanation for this swelling could represent rehydration of the muscle following dehydration of the muscle in microgravity.  However, the muscle T2 postflight were invariably elevated above baseline, increased further for several weeks after flight and then returned toward the original baseline.  These changes along with the reported sore muscles postflight would suggest muscle damage.  The large change in the intrinsic back muscles of one crewmember has not been seen previously and may represent postflight swelling.\r\n<P>\r\n<U>Intervertebral Disc:</U><BR>\r\nData indicate only minor spine lengthening and disc expansion by the time measurements were obtained on landing day.  Measurements were made within 2-4 hours after landing with some walking and sitting up on a stretcher by the crewmember before testing.  By 2-4 days postflight, slight residual expansion remained which by 2 weeks was back to baseline.  Importantly, no long-term residual changes in disc size were found following these flights.\r\n<P>\r\n<U>Proton Spectroscopy:</U><BR>\r\nComparison of NASA-Mir data to the LMS 17-day mission suggests that although the postflight T2 tends to increase as in the shorter LMS flight followed by a gradual return to baseline levels, there appears to be some differences.  The first postflight T2 values were significantly reduced relative to preflight values; this was not detected after the shorter LMS flight.  There is some evidence that the degree of decrease in the cellular bone marrow T2 is correlated with the percent change in spinal bone mineral density.  Two distinct patterns exist.  Postflight, some individuals begin below baseline and simply return to values close to baseline, while others like the LMS crew increase above baseline and gradually return to baseline over a period of several months.\r\n<P>\r\n<U>Back Pain:</U><BR>\r\nOut of 17 crewmembers (including one German guest cosmonaut on the Mir 97 mission), 9 (53%) indicated that they experienced back pain or discomfort during the flight.  Generally, this occurred in the lower lumbar region during the first week or two of flight.  The pain was typically described as \"can be ignored,\" lasted a few hours to several days in duration and was most noticeable during or after resting.  In one crewmember, it was most noticeable during exercise or applying bungies.  Some crewmembers indicated that bending or application of massage seemed to relieve the pain.  Postflight 8 of 17 (47%) crewmembers reported significant discomfort for some or all 10 days that monitoring was reported following flight.  There were a number of cases where written reports were not available or were not filled out.  Whenever possible, the crew were asked about their experience during and after flight.  When no information was available these were treated as being negative reports and therefore, the incidence rates above may underestimate actual rates.\r\n<P>\r\n<U>Conclusion:</U><BR>\r\nThere are measurable decreases in muscle volume during flight, which presumably represents muscle atrophy.  These changes appear to be maximized within the first 4 months of flight.  This degree of atrophy may indicate that bone loss may also reach a maximum probably at or around this same point, i.e., the rates of loss are different, but it seems reasonable that the degree of loss may be similar at the equilibrium point.  If this turns out to be the case, muscle atrophy might be used as an early indicator of bone loss.  Compared to bed rest without exercise, the inflight muscle changes are less, except in the back muscles.  Recovery in all muscle groups is complete within the first 30-60 days after return to Earth, similar to recovery after bed rest.  There are muscle volume and T2 changes during the first days and weeks after return from space flight compatible with muscle damage.  We did observe small, but no long-term changes in disc size following these flights.  There was a significant decrease in the T2 of the cellular component of the bone marrow of L3 which either increases to baseline during the first few weeks after landing or increases above baseline and subsequently returns to baseline over several months.  No significant changes in the T2 of the lipid fraction of the same bone marrow or in the cellular to lipid fraction was seen.  About 50% of the crewmembers reported some back pain during flight, however, the duration and magnitude of this problem seems not to be of major concern for long-duration flight.  A more important consideration may be the potential for significant injury/pain after flight since about 47% reported significant postflight discomfort lasting for a number of days to weeks.  This may be an important consideration after lengthy flights in microgravity followed by a visit to a planet that has significant gravity.<END>",
+  "payload_id": "NASA 2",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "Institute of Biomedical Problems (IBMP)",
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "indexed": "2026-08-23T03:57:17.648240+00:00",
+  "experiment_id": "9401586",
+  "experiment_related": [
+   "DSO 628",
+   "284054",
+   "284029 2/3",
+   "284029 1/3"
+  ],
+  "GUID": "cl62aznm1cdg101o601dq7z4p",
+  "parameter_name": [
+   "Back pain",
+   "Lumbar spine disc size",
+   "Lumbar spine length",
+   "Muscle atrophy",
+   "Adductor muscles, volume",
+   "Anterior calf muscle volume",
+   "Gastrocnemius muscle volume",
+   "Hamstring muscle volume",
+   "Quadriceps muscle volume",
+   "Sartorius muscle volume",
+   "Soleus muscle volume",
+   "Muscle volume, calf",
+   "Muscle volume, lower back",
+   "Muscle volume, neck",
+   "Muscle volume, psoas",
+   "Muscle volume, thigh",
+   "Proton spectroscopy, lumbar vertebrae 3",
+   "T2, calf muscle",
+   "T2, lumbar vertebrae 3"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 983,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Skeletal physiology",
+   "Muscle physiology"
+  ],
+  "pme_role_with_name": [
+   "Co-Investigator: Belichenko, Oleg",
+   "Co-Investigator: Evans, Harlan",
+   "Co-Investigator: Feeback, Daniel",
+   "Co-Investigator: Hedrick, Thomas",
+   "Co-Investigator: Lin, Chen",
+   "Co-Investigator: Oganov, Victor",
+   "Co-Investigator: Shackelford, Linda",
+   "Co-Investigator: Sinitsyn, Valentine",
+   "Co-Investigator: West, M.",
+   "Principal Investigator: Kozlovskaya, Inessa",
+   "Principal Investigator: LeBlanc, Adrian"
+  ],
+  "missions": [
+   [
+    [
+     "NASA 2"
+    ]
+   ],
+   [
+    [
+     "NASA 3"
+    ]
+   ],
+   [
+    [
+     "NASA 4"
+    ]
+   ],
+   [
+    [
+     "NASA 5"
+    ]
+   ],
+   [
+    [
+     "NASA 6"
+    ]
+   ],
+   [
+    [
+     "NASA 7"
+    ]
+   ],
+   [
+    [
+     "Mir 18"
+    ]
+   ],
+   [
+    [
+     "Mir 20"
+    ]
+   ],
+   [
+    [
+     "Mir 21"
+    ]
+   ],
+   [
+    [
+     "Mir 22"
+    ]
+   ],
+   [
+    [
+     "Mir 23"
+    ]
+   ],
+   [
+    [
+     "Mir 24"
+    ]
+   ],
+   [
+    [
+     "Mir 25"
+    ]
+   ],
+   [
+    [
+     "Mir 97"
+    ]
+   ]
+  ],
+  "__dirid": "0a5a7c7f-6b53-5f22-8380-520f0be6488d",
+  "__record_size_wo_doccontent": 284802,
+  "PI": [
+   "Kozlovskaya, Inessa",
+   "LeBlanc, Adrian"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "9401586",
+   "DSO 628",
+   "GMR",
+   "BACKPAIN",
+   "MRI",
+   "E586"
+  ],
+  "mission_id": [
+   [
+    [
+     "NASA 2"
+    ]
+   ],
+   [
+    [
+     "NASA 3"
+    ]
+   ],
+   [
+    [
+     "NASA 4"
+    ]
+   ],
+   [
+    [
+     "NASA 5"
+    ]
+   ],
+   [
+    [
+     "NASA 6"
+    ]
+   ],
+   [
+    [
+     "NASA 7"
+    ]
+   ],
+   [
+    [
+     "Mir 18"
+    ]
+   ],
+   [
+    [
+     "Mir 20"
+    ]
+   ],
+   [
+    [
+     "Mir 21"
+    ]
+   ],
+   [
+    [
+     "Mir 22"
+    ]
+   ],
+   [
+    [
+     "Mir 23"
+    ]
+   ],
+   [
+    [
+     "Mir 24"
+    ]
+   ],
+   [
+    [
+     "Mir 25"
+    ]
+   ],
+   [
+    [
+     "Mir 97"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "proposal_date": [],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Kozlovskaya, Inessa",
+   "LeBlanc, Adrian"
+  ],
+  "archive_status": "Data preservation is complete. Privacy-protected datasets are available via data request. Remaining datasets are publicly available.",
+  "__is_locked": false,
+  "Program": "Nasa-Mir",
+  "__source_field_concat": "PUB001578 NASA 2 cl62aznm1cdg101o601dq7z4p Back pain N/A Magnetic Resonance Imaging (MRI) after Exposure to Microgravity 9401586 Nasa-Mir",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<BR>\r\nIn microgravity, bones and muscles are not used as they are on Earth.  As many studies have shown, this altered use results in calcium loss, degeneration of the skeleton, lengthening of the spine by expansion of the intervertebral discs, change in spinal bone marrow composition and muscle atrophy.  Bedrest patients on earth show this same musculo-skeletal response with the exception of bone marrow alterations.\r\n<P>\r\nMagnetic Resonance Imaging (MRI) is one method that can be used to measure the resulting muscular and skeletal changes.  MRI is a safe, non-invasive scanning technique that uses a large magnet and low frequency radio waves to form an image by reading the amount of hydrogen in an area of the body. These images can be used to examine soft tissues in the body, as well as determine muscle volume, spinal bone marrow mass and cross-sectional area of intervertebral discs.\r\n<P>\r\nThe objectives of this investigation were to use MRI procedures (1) to measure the muscle volumes of the calf, thigh, back and neck of the Mir astronauts and cosmonauts before and after flight; (2) to determine and compare muscle volume changes on the day of landing and four days after landing; (3) to determine the change in intervertebral disc size in the lumbar spine after flight, and determine the rate of recovery after return to gravity; and (4) to determine the bone marrow cellularity of the third lumbar vertebra (L3) before and after flight.\r\n<P>\r\nFindings from this investigation will lead to improved therapies that will facilitate the recovery of patients on Earth who have been bedridden for extended periods and will aid in the development of countermeasures allowing longer duration space flights.\r\n<P>\r\nAPPROACH:<BR>\r\nAll crewmembers of the NASA 2, 3, 4, 5, 6 and 7 missions, as well as the Mir 21, 22, 23, 24 and 25 missions participated as subjects in this study.  MRI scans were performed 30 and 60 days before launch, on the day of landing (U.S. crewmembers only), and 4, 14 and 30 days after landing on all crewmembers.\r\n<P>\r\nImaging was performed using a 1.5 Tesla Siemens Magnetom MRI system (1.5 Tesla denotes the strength of the magnet used for the test) with various coils, including spine, Helmholz neck and whole body coils.  These coils are the antenna of the MRI system that broadcast the radio frequency signal to the patient and/or receive the return signal to form an image.  Specific coils are used to image different parts of the body; for example, Helmholz coils are used to image the cervical spine and muscles in the neck. \r\n<P>\r\nTo begin the test, crewmembers were to lie down on a padded table, which would enter the magnet.  Crewmembers were recumbent for approximately 10-15 minutes before beginning the test to minimize the effects of fluid shifts caused by lying down after standing.  The order in which the measurements were made was kept the same for each crewmember from one imaging session to the next.  The normal order was L3 spectroscopy, and then imaging of the intervertebral discs, then differential muscle volume measurements of the back muscles, neck muscles, thigh muscles and calf muscles.  <P>\r\nA number of variables are used to acquire MRI images, including echo time, echo sequence, repetition time and matrix size.  The echo time is the amount of time between magnetic pulses.  Echo sequences are the number of magnetic pulses used to create an image.  The repetition time is the amount of time between repetitions of the echo sequence, and the matrix size determines the resolution quality, or clearness, of the image.\r\n<P>\r\n<U>Muscle volume of calf, thigh, lower back and neck:</U><BR>\r\nFor imaging of the calf and thigh muscles, the feet of the subject were positioned in a holder during the test to minimize movement and insure repositioning.  The portion of the leg being imaged was suspended, while the non-imaged portion was supported with foam supports.  A radio frequency (RF) shield was positioned caudally to the imaged portion of the leg to remove artifacts in the image, which arise from parts of the body outside the imaging region but near the edge of the gradient coils.\r\n<P>\r\nFor the thigh and calf muscles of NASA 2, 3, 4 and 7 and Mir 21, 22, and 23 crewmembers, 32, 1 centimeter slices (0.8 centimeter slices for NASA 5, NASA 6, Mir 24, and Mir 25) with a 0.2 millimeter gap between slices were obtained using an echo time equal to 10 milliseconds (msec), a repetition time of 800 msec and a 256 x 512 matrix.\r\n<P>\r\nEvery tissue in the human body has its own spin-spin relaxation time (T2) value.  Therefore, it can be used to differentiate between different tissue types (e.g. fat and muscle) and changes due to tissue changes (e.g. edema in sore muscles).  Calf muscle spin-spin relaxation time (T2) was measured by rescanning the calf region using the same receiver gain at an echo time of 50 msec.  Spin-spin relaxation times for each muscle pixel were calculated by comparing the image intensity between the echo times of 10 msec and 50 msec.  T2 for a particular muscle was obtained by averaging the T2 for all pixels within that muscle.\r\n<P>\r\nFor the back muscles, 20, 0.5 centimeter slices centered on the third lumbar vertebra were obtained using a spine coil and a 10 msec echo time, an 800 msec repetition time and a 256 x 512 matrix.  For the neck muscles, a similar protocol was used with 32, 3 millimeter thick slices, and a Helmholtz neck coil in place of the spine coil. \r\n<P>\r\n<U>Lumbar spine disc size and lumbar spine length:</U><BR>\r\nTo measure lumbar spine intervertebral disc size and lumbar spine length, subjects were positioned within the MRI machine so that the imaging area was centered within the third lumbar vertebra, determined from a sagittal scout view.  A coronal scout image was used to position a 1 centimeter slice of interest down the center of the spinal column.\r\n<P>\r\nImaging sequences of the lumbar spine varied between missions.  During NASA 2 and 3 and Mir 21 and 22, two acquisitions of a four echo, spin echo sequence were obtained using echo times of 20, 45, 72 and 106 msec and a repetition time of 1 second.  \r\n<P>\r\nFor NASA 4, 5, 6 and 7 and Mir 23, 24 and 25, two different sequences were performed.  First, one gradient echo sequence was obtained with an echo time of 7 msec and a repetition time of 400 msec.  Second, two single echo, spin echo sequences were obtained using echo times of 10 and 25 msec and a repetition time of 400 msec.  The matrix size for spinal images of all NASA-Mir crewmembers was 256 x 256.\r\n<P>\r\nDisc area was obtained for intervertebral discs in the lower back (T12-L1, L1-2, L2-3, L3-4 and L4-5) from the number of pixels in each image.  A phantom was also imaged during each imaging session to correct for any changes in pixel size.  \r\n<P>\r\nTo measure spine length, templates (small sub-images) were taken from the first preflight images, each containing a spinal disc.  Each of these was registered (a mathematical best fit of position) for each subsequent measurement.  The change in separation from the preflight positions to postflight positions was the change in spine length.\r\n<P>\r\n<U>Bone marrow content (L3 spectroscopy):</U><BR>\r\nTo measure the fat to water ratio in vertebral bone marrow, volume selective proton spectroscopy was performed on a 15mm x 15mm cubic volume of interest in the third lumbar vertebra (L3) using a surface receive coil.  Spectroscopy uses absorption, emission or scattering of electromagnetic radiation by atoms or molecules to qualitatively or quantitatively study the atoms or molecules.  The Gradient Inversion Spectroscopy (GIS) technique was used to acquire spectra at echo times equal to 12, 18, 24 and 30 msec with a repetition time of 2 sec.  Images were corrected for T2 weighting by exponential extrapolation of the spectra obtained at various echo times.  Non-linear peak fitting was performed on the final spectrum to separate the water peak and different fat peaks from the background and to calculate their relative intensities.  Bone marrow cellularity was determined from the fat to water ratio.  T2 of the fat and water component was determined by fitting the decay of fat and water peaks with an exponential function.\r\n<P>\r\n<U>Back pain questionnaire:</U><BR>\r\nThe crew also filled out questionnaires to document the frequency, severity and location of back pain or discomfort during the first 10 days of flight and the first 10 days after flight.  \r\n<P>\r\nRESULTS:<BR>\r\n<U>Muscle volume:</U><BR>\r\nThe muscle volume changes as a percentage of the mean baseline volume in 16 crewmembers after long-duration flight were determined.  To calculate percent change from baseline, the first postflight measurement at 0 to 4 days after landing was used.  These flights ranged from 115 to197 days in duration.  Paired t-tests of the average preflight volume to the first postflight measurement showed significant decreases for all regions except the neck muscles.  The values, expressed as a percent of baseline (%\u00b1SD), for the 16 subjects were: anterior leg, 85.5\u00b12.9%; gastrocnemius, 83.1\u00b14.4%; soleus, 83.2\u00b14.4%; quadriceps, 89.9\u00b14.4%; hamstrings, 87.3\u00b13.4%; intrinsic back, 84.1\u00b15.8%; psoas, 95.6\u00b16.1%; neck, 100.9\u00b18.3%.  A linear regression of the percent loss against flight duration showed no significant slope for any of the regions suggesting that the volume changes reached a new steady state by or before about four months of flight.\r\n<P>\r\nAfter landing, each of the flight crew were measured at multiple time points.  Results indicate that muscle volume recovers at variable rates depending on the region, but generally have returned to baseline by 30-60 days postflight.\r\n<P>\r\nA comparison of percent change in muscle volume versus the size of the muscle before flight showed poor or no correlation for any of the muscle groups except the hamstrings, r=0.71.   This was also true for when change in muscle volume was correlated with total weight or total body lean mass.  This indicates that the suggestion that the percentage loss might be greater in those individuals with greatest mass before flight is not supported by the results in this study.\r\n<P>\r\nThere was no significant correlation between the percentage loss in spinal bone mineral content and intrinsic back muscle volume during flight (n=12).  However, when 12 bed rest subjects, half who performed an exercise countermeasure and the remaining who served as controls, were added to the flight data, the correlation was significant (r=0.61, p<0.0009).  This may indicate that muscle atrophy might provide an early indicator for the extent of bone loss.\r\n<P>\r\nComparison of flight results with bed rest data shows that the changes in the leg muscles during flight were generally less than bed rest.  This is likely a consequence of the exercise countermeasure employed during flight since the bed rest data did not include exercise.  The back muscles, however, showed greater loss during flight compared to bed rest, which may be reasonable, considering that the back muscles are active to a substantial degree in bed rest.\r\n<P>\r\n<U>Muscle T2:</U><BR>\r\nNo muscle T2 measurements were possible on landing day.  Therefore, the initial postflight measurements were obtained several days after landing which would obviously include significant ambulation prior to the first T2 measurement.  The general pattern, however, is that T2 tends to be increased relative to baseline at the first postflight measurement and was almost always elevated at R+14 compared to the initial postflight measurement or baseline.  By 30-70 days postflight the T2 decreased toward baseline in all cases where these measurements were available.  The general response pattern is consistent with postflight muscle swelling associated with muscle damage. \r\n<P>\r\n<U>Muscle Swelling:</U><BR>\r\nResults show that muscle swelling can occur during the early reambulation period after landing.  A similar pattern is seen following reambulation after bed rest.   The largest changes were in the calf, particularly the gastrocnemius.  The explanation for this swelling could represent rehydration of the muscle following dehydration of the muscle in microgravity.  However, the muscle T2 postflight were invariably elevated above baseline, increased further for several weeks after flight and then returned toward the original baseline.  These changes along with the reported sore muscles postflight would suggest muscle damage.  The large change in the intrinsic back muscles of one crewmember has not been seen previously and may represent postflight swelling.\r\n<P>\r\n<U>Intervertebral Disc:</U><BR>\r\nData indicate only minor spine lengthening and disc expansion by the time measurements were obtained on landing day.  Measurements were made within 2-4 hours after landing with some walking and sitting up on a stretcher by the crewmember before testing.  By 2-4 days postflight, slight residual expansion remained which by 2 weeks was back to baseline.  Importantly, no long-term residual changes in disc size were found following these flights.\r\n<P>\r\n<U>Proton Spectroscopy:</U><BR>\r\nComparison of NASA-Mir data to the LMS 17-day mission suggests that although the postflight T2 tends to increase as in the shorter LMS flight followed by a gradual return to baseline levels, there appears to be some differences.  The first postflight T2 values were significantly reduced relative to preflight values; this was not detected after the shorter LMS flight.  There is some evidence that the degree of decrease in the cellular bone marrow T2 is correlated with the percent change in spinal bone mineral density.  Two distinct patterns exist.  Postflight, some individuals begin below baseline and simply return to values close to baseline, while others like the LMS crew increase above baseline and gradually return to baseline over a period of several months.\r\n<P>\r\n<U>Back Pain:</U><BR>\r\nOut of 17 crewmembers (including one German guest cosmonaut on the Mir 97 mission), 9 (53%) indicated that they experienced back pain or discomfort during the flight.  Generally, this occurred in the lower lumbar region during the first week or two of flight.  The pain was typically described as \"can be ignored,\" lasted a few hours to several days in duration and was most noticeable during or after resting.  In one crewmember, it was most noticeable during exercise or applying bungies.  Some crewmembers indicated that bending or application of massage seemed to relieve the pain.  Postflight 8 of 17 (47%) crewmembers reported significant discomfort for some or all 10 days that monitoring was reported following flight.  There were a number of cases where written reports were not available or were not filled out.  Whenever possible, the crew were asked about their experience during and after flight.  When no information was available these were treated as being negative reports and therefore, the incidence rates above may underestimate actual rates.\r\n<P>\r\n<U>Conclusion:</U><BR>\r\nThere are measurable decreases in muscle volume during flight, which presumably represents muscle atrophy.  These changes appear to be maximized within the first 4 months of flight.  This degree of atrophy may indicate that bone loss may also reach a maximum probably at or around this same point, i.e., the rates of loss are different, but it seems reasonable that the degree of loss may be similar at the equilibrium point.  If this turns out to be the case, muscle atrophy might be used as an early indicator of bone loss.  Compared to bed rest without exercise, the inflight muscle changes are less, except in the back muscles.  Recovery in all muscle groups is complete within the first 30-60 days after return to Earth, similar to recovery after bed rest.  There are muscle volume and T2 changes during the first days and weeks after return from space flight compatible with muscle damage.  We did observe small, but no long-term changes in disc size following these flights.  There was a significant decrease in the T2 of the cellular component of the bone marrow of L3 which either increases to baseline during the first few weeks after landing or increases above baseline and subsequently returns to baseline over several months.  No significant changes in the T2 of the lipid fraction of the same bone marrow or in the cellular to lipid fraction was seen.  About 50% of the crewmembers reported some back pain during flight, however, the duration and magnitude of this problem seems not to be of major concern for long-duration flight.  A more important consideration may be the potential for significant injury/pain after flight since about 47% reported significant postflight discomfort lasting for a number of days to weeks.  This may be an important consideration after lengthy flights in microgravity followed by a visit to a planet that has significant gravity.<END>",
+  "__doi": "10.83263/bdkm-qq95",
+  "__doi_record_creation_date": "2026-08-23T03:57:17",
+  "__doi_record_modified_date": "2026-08-23T03:57:17"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001866",
+   "label": "JMMIR9401586_628",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Early Postflight Muscle Volume Changes Compared to Preflight Values",
+    "dataset_catalog": "JMMIR9401586_628",
+    "dataset_description": [
+     "This table presents the volume change between landing day and severaldays later for the different muscle groups for both the Spacelab (n=4) and NASA-Mir subjects (n=6).  Data for the NASA-Mir missions were limited because landing-day acquisition of data was not possible for any of the Russian crew and for only six of the seven American subjects.  The results between the long and shorter duration missions are similar.\u000b<P>\u000bIn: LeBlanc A, Lin C, Shackelford L, Sinitsyn V, Evans H, Belichenko O, et. al.  Muscle volume, MRI relaxation times (T2), and body composition after spaceflight.  <I>J Appl Physiol</I> 2000 Dec;89(6):2158-64.<END>"
+    ],
+    "processing_level": [
+     "Summarized",
+     "Summarized"
+    ],
+    "experiment_id": [
+     "9401586"
+    ]
+   },
+   "meta": "6 files \u00b7 126.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "8486e23b-a0c2-5808-8b8d-f69d3fc4136f",
+     "label": "JMMIR9401586_628.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 21504,
+     "meta": "21.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c155d5dc-1b27-512a-af5a-c2508709b971",
+     "label": "JMMIR9401586_628.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 21504,
+     "meta": "21.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "aec4d17c-92d9-5dda-a4ed-2c7173f4ec10",
+     "label": "JMMIR9401586_628.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 21504,
+     "meta": "21.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ee14d4e0-8d97-5353-90d6-fc387b1bd340",
+     "label": "JMMIR9401586_628.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 21504,
+     "meta": "21.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "51e8105a-ab51-5d49-8d2a-f3c17ba1b61d",
+     "label": "JMMIR9401586_628.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 21504,
+     "meta": "21.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1f3c7cd3-c947-5ea3-a86d-a780bf310942",
+     "label": "JMMIR9401586_628.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 21504,
+     "meta": "21.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000727",
+   "label": "JMMIR9401586_654",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Muscle Atrophy with Bed Rest",
+    "dataset_catalog": "JMMIR9401586_654",
+    "dataset_description": [
+     "This figure shows the published muscle atrophy results from horizontal bed rest.  Comparison of the flight data with bed rest shows that the changes in the leg muscles during flight were generally less than bed rest.  This is likely a consequence of the exercise countermeasure employed during flight since the bed rest data did not include exercise  Source: Unpublished data (PI final report to NASA.  Experiment E586-Magnetic Resonance Imaging After Exposure to Microgravity.  August 1, 1999.)"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "9401586"
+    ]
+   },
+   "meta": "1 file \u00b7 333.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "8aea8f22-a826-56e2-8201-c274c93549e1",
+     "label": "JMMIR9401586_654.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 340992,
+     "meta": "333.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002345",
+   "label": "JMMIR9401586_627",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Muscle Volume Loss and Recovery",
+    "dataset_catalog": "JMMIR9401586_627",
+    "dataset_description": [
+     "Muscle volume loss and recovery is shown in this figure for 16 NASA-Mir crewmembers who spent 4-6.5 months in space aboard the Mir Space Station.  Data are expressed as percentage of baseline plotted against days after landing.  All 16 crewmembers received 1 or 2 scans during the first week after landing.  Twelve of the 16 received an additional scan between 12 and 22 days after landing.  Eleven of the 12 plus one other who was not scanned in the 12- to 22-day period received an additional scan at 29-84 days after landing.  An exponential function of the form Y=<I>a</I>+<I>b</I>e<sup>-xt</sup> was used to fit the data, as indicated by the solid line in each graph.  Y is the fitted percentage, <I>a</I> and <I>b</I> are fitting constants, <I>x</I> is the measured rate of change, and <I>t</I> is time after return from space.<P> In: LeBlanc A, Lin C, Shackelford L, Sinitsyn V, Evans H, Belichenko O, et. al.  Muscle volume, MRI relaxation times (T2), and body composition after spaceflight.  <I>J Appl Physiol</I> 2000 Dec;89(6):2158-64.<END>"
+    ],
+    "processing_level": [
+     "Summarized",
+     "Summarized"
+    ],
+    "experiment_id": [
+     "9401586"
+    ]
+   },
+   "meta": "11 files \u00b7 341.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "62ac6912-bfe1-5942-8dbe-db00ff81c97d",
+     "label": "JMMIR9401586_627.jpg",
+     "type": "file",
+     "ext": "jpg",
+     "file_size": 31744,
+     "meta": "31.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5d21fbc4-4892-568a-b7d6-a081f81c8177",
+     "label": "JMMIR9401586_627.jpg",
+     "type": "file",
+     "ext": "jpg",
+     "file_size": 31744,
+     "meta": "31.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "31cad61e-a649-5ec8-8714-d1fb8e6c04a3",
+     "label": "JMMIR9401586_627.jpg",
+     "type": "file",
+     "ext": "jpg",
+     "file_size": 31744,
+     "meta": "31.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "631f4d64-7ed9-5d63-a575-f872e77be562",
+     "label": "JMMIR9401586_627.jpg",
+     "type": "file",
+     "ext": "jpg",
+     "file_size": 31744,
+     "meta": "31.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b54cd1d7-0bed-570a-84d8-766a9c639bc8",
+     "label": "JMMIR9401586_627.jpg",
+     "type": "file",
+     "ext": "jpg",
+     "file_size": 31744,
+     "meta": "31.0 KB",
+     "date": "2022-08-04",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4e66fae8-c6de-572c-bb9e-86f73ac27c2c",
+     "label": "JMMIR9401586_627.jpg",
+     "type": "file",
+     "ext": "jpg",
+     "file_size": 31744,
+     "meta": "31.0 KB",
+     "date": "2022-08-04",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "29b268b0-01e2-59c8-8cf5-73345a7cf3c8",
+     "label": "JMMIR9401586_627.jpg",
+     "type": "file",
+     "ext": "jpg",
+     "file_size": 31744,
+     "meta": "31.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "11f3a51a-8bb8-5cf6-966a-b66a72f00a17",
+     "label": "JMMIR9401586_627.jpg",
+     "type": "file",
+     "ext": "jpg",
+     "file_size": 31744,
+     "meta": "31.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d6c625fc-ea2e-5db8-9527-11c5f087115c",
+     "label": "JMMIR9401586_627.jpg",
+     "type": "file",
+     "ext": "jpg",
+     "file_size": 31744,
+     "meta": "31.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c1545e5c-169f-539f-9b4d-2f38b8737f14",
+     "label": "JMMIR9401586_627.jpg",
+     "type": "file",
+     "ext": "jpg",
+     "file_size": 31744,
+     "meta": "31.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d83e0083-8601-5ca3-9f64-1d01c17803d2",
+     "label": "JMMIR9401586_627.jpg",
+     "type": "file",
+     "ext": "jpg",
+     "file_size": 31744,
+     "meta": "31.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000639",
+   "label": "JMMIR9401586_629",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Calf Muscle T2 Values",
+    "dataset_catalog": "JMMIR9401586_629",
+    "dataset_description": [
+     "Calf muscle T2 values for 8 NASA-Mir crewmembers (4 - 6.5 month missions) expressed as percent change from baseline and plotted against time after landing are shown in this figure.  Because of equipment limitations, no T2 measurements wer epossible on landing day; therefore, the first postflight measurements were 2-4 days after landing.  All 8 crewmembers were measured at 3-4 days and again at 12-17 days after flight.  In 7 of the 8  crewmembers, an additional measurement was obtained at 29-84 days after flight.<P>In: LeBlanc A, Lin C, Shackelford L, Sinitsyn V, Evans H, Belichenko O, et. al.  Muscle volume, MRI relaxation times (T2), and body composition after spaceflight.  J Appl Physiol 2000 Dec;89(6):2158-64.<END>"
+    ],
+    "processing_level": [
+     "Summarized",
+     "Summarized"
+    ],
+    "experiment_id": [
+     "9401586"
+    ]
+   },
+   "meta": "7 files \u00b7 91.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "1b38b3f0-5ad9-5a34-95d0-c7e6b579b535",
+     "label": "JMMIR9401586_629.jpg",
+     "type": "file",
+     "ext": "jpg",
+     "file_size": 13312,
+     "meta": "13.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6a3eec87-03cb-5f03-a9d2-e39be675c28f",
+     "label": "JMMIR9401586_629.jpg",
+     "type": "file",
+     "ext": "jpg",
+     "file_size": 13312,
+     "meta": "13.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ae51e71b-2315-56c2-9d57-5585f339b1e6",
+     "label": "JMMIR9401586_629.jpg",
+     "type": "file",
+     "ext": "jpg",
+     "file_size": 13312,
+     "meta": "13.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "aa2dbcb3-3c4f-507f-9cbd-722538d41a28",
+     "label": "JMMIR9401586_629.jpg",
+     "type": "file",
+     "ext": "jpg",
+     "file_size": 13312,
+     "meta": "13.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ed6bb5ff-a3c3-59ae-8c8e-6f981ca28049",
+     "label": "JMMIR9401586_629.jpg",
+     "type": "file",
+     "ext": "jpg",
+     "file_size": 13312,
+     "meta": "13.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "170bdb04-cde9-5b15-9908-7863c2d6d41d",
+     "label": "JMMIR9401586_629.jpg",
+     "type": "file",
+     "ext": "jpg",
+     "file_size": 13312,
+     "meta": "13.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d9c9256c-35ea-5457-b54f-ada905c33b0e",
+     "label": "JMMIR9401586_629.jpg",
+     "type": "file",
+     "ext": "jpg",
+     "file_size": 13312,
+     "meta": "13.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000948",
+   "label": "JMMIR9401586_662",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Early Postflight Muscle Volume Percent Change from Baseline",
+    "dataset_catalog": "JMMIR9401586_662",
+    "dataset_description": [
+     "This table shows the muscle volume changes between R+0 and R+2-4 days after flight in four crewmembers.  This table demonstrates the muscle swelling that can occur during the early reambulation period which is also usually seen after bed rest.  The largest changes are in the calf, particularly the gastrocnemius.<END>"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "9401586"
+    ]
+   },
+   "meta": "2 files \u00b7 38.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "4c1e9b49-935f-5b12-b318-1725696af903",
+     "label": "JMMIR9401586_662.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 19456,
+     "meta": "19.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "cd5904c4-9965-5883-b476-3dce84ee10f4",
+     "label": "JMMIR9401586_662.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 19456,
+     "meta": "19.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

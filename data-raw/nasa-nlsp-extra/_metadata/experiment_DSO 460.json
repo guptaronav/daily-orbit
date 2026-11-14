@@ -1,0 +1,518 @@
+{
+ "record": {
+  "id": "af4096a1-504a-53a9-9077-1292381dc483",
+  "_id": "af4096a1-504a-53a9-9077-1292381dc483",
+  "experiment_title": "Changes in Total Body Water During Space Flight",
+  "archive_status_index": 4,
+  "pub_document_number": "PUB000258",
+  "parameter_html": "<table><tr><td>Body mass</td></tr><tr><td>Total body water (TBW)</td></tr><tr></tr></table>",
+  "__source_key": "cl62azw9bcdhq01o660yehsq3",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Leach- Huntoon, Carolyn\">Principal Investigator: Leach- Huntoon, Carolyn</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Inners, Lamar Daniel\">Principal Investigator: Inners, Lamar Daniel</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Charles, John\">Co-Investigator: Charles, John</a>",
+  "experiment_type_lk": [
+   "Shuttle Detailed Supplementary Objectives (DSO)"
+  ],
+  "__record_modified_date": "2026-08-23T04:21:12.668824+00:00",
+  "proposal_source": [
+   "Not applicable"
+  ],
+  "__indexed": "2026-08-23T04:21:12.668824+00:00",
+  "__record_creation_date": "2022-07-28T19:55:58.803Z",
+  "__record_size": 125489,
+  "__record_version": 29,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<br>\r\nThis investigation was designed to measure by means of direct in-flight assessment, the changes in total body water (TBW) occurring in humans as a consequence of several days' exposure to microgravity on the Space Shuttle. TBW measurements provide important data for several cardiovascular and fluid/electrolyte experiments making up the science payload for the dedicated life sciences missions (SLS-1 and SLS-2). According to several models, changes in TBW are predicted to parallel fluid shifts. Therefore, changes in TBW can be used as a convenient indicator of the time course of adaptation to weightlessness. Because of its ease of measurement, TBW was the method of choice to verify in flight the timing proposed for fluid compartment measurements planned for SLS-1. \r\n<p>\r\nAPPROACH:<br>\r\nThe subjects for this experiment were five male crewmembers of Space Shuttle missions STS-61C and\r\nSTS-26. The design included no special control group or control experiment. Instead, all in-flight and postflight data were compared to preflight baseline data. Because of a delay in the launch of STS 61-C and the unavailability of some crewmembers during the immediate pre-and postflight periods, the first preflight measurements were at L-31 to L-30, while some measurements were missed entirely.\r\n<p>\r\nTBW was measured by the isotope dilution technique utilizing <sup>18</sup>O-labeled water as the tracer. This method required the ingestion of a known mass of <sup>18</sup>O water followed by sampling of representative body fluids such as urine or saliva over a period of several hours following the administration of the tracer. The measurements were initiated immediately after a sleep cycle with the crewmember in a fasted state. After the collection of background samples, the dose was consumed followed by at least 50 ml of fruit juice or galley water. The subject was allowed to consume a light breakfast 30 minutes after dose administration and was requested to abstain from caffeine containing beverages for the duration of the experiment. All food consumed during the experiment was recorded on a log sheet.\r\n<p>\r\nSamples of galley water were collected on FD 2 and FD 4/FD 5. The experimental design called for galley water sampling on all days on which TBW was measured because water sampled from the galley on several occasions, including ST5-51D, was found to be enriched in <sup>18</sup>O.  \r\n<p>\r\nTest subjects collected saliva by placing a dental cotton roll under the tongue for several minutes and then replacing the saturated cotton in the vial. It was determined in supporting studies that samples could be stored for more than a week at ambient temperature without affecting isotope content, provided they were protected from evaporation. Sample vials were replaced in the original kit and stowed in a middeck locker different from the one for used dose syringes. As mentioned above, this precaution was taken to minimize the possibility of accidental contamination of the sample vial contents. The samples were frozen at -70\u00b0 C after being returned to the laboratory.\r\n<p>\r\nAnalyses of the samples were carried out in ground-based facilities of the USDA/ARS Children's Nutrition Research Center, Department of Pediatrics, Baylor College of Medicine and Texas Children's Hospital,\r\nHouston, TX. Two methods of analysis were used because of the advance in technology between the two missions on which data were gathered.\r\n<p>\r\n<i>STS-61C</i>: Frozen samples were thawed, and approximately 0.3-0.5 g were transferred to pre-weighed 20ml Vacutainer<sup>TM</sup> serum tubes using disposable plastic tuberculin syringes. The tubes were re-weighed to determine the mass of the sample. The tubes were then filled with5% carbon dioxide, 95% nitrogen and equilibrated for 48-72 hours at 25\u00b0 C. The cryogenically purified carbon dioxide was analyzed using a Model 3-60 Gas Isotope Ratio Mass Spectrometer (Nuclide Corp., University Park, PA).\r\n<p>\r\n<i>STS-26</i>: Samples were analyzed using a microchemical technique requiring only 100 \u00b5L of sample. The method employed a modified ISOPREP18 (VG Isogas Ltd., Cheshire, England) in which 100 \u00b5L of the aqueous sample was equilibrated with carbon dioxide for 10 hours at 25\u00b0 C,300 mbar. The carbon dioxide was cryogenically purified and introduced into a VG SIRA-12 gas-isotope-ratio mass spectrometer (VG Isogas Ltd.) for determination of <sup>18</sup>O to <sup>16</sup>O ratio.\r\n<p>\r\nRESULTS:<br>\r\nPreflight and postflight mean TBW values are significantly different from the in-flight mean values. However, the preflight and postflight values are not significantly different, nor do the in-flight means on FD 2 and FD 4/FD 5 differ appreciably from one another.\r\n<p>\r\nThe high variability of the measurements on FD 2 suggests that individuals may differ in the rate at which they respond to the weightless environment. The difference in response may be intrinsic or may be related to some other factor such as the nausea induced by space motion sickness (SMS). Returning flight crews rate their incidence of SMS on a scale of 0 to 3, where 0 represents no symptoms and 3 represents severe symptoms including three or more episodes of vomiting. It is reasonable to assume that astronauts who are experiencing even mild nausea would limit their consumption of water and other liquids and would therefore experience some degree of dehydration.\r\n<p>\r\nIt was noted that, of the three crewmen who reported an SMS index of 0 for the missions in question, two had not experienced a decrease of TBW by the time of the FD 2 measurement, Le., approximately 24 hours after launch. On the other hand, the two crewmen who reported either 1or 2 for SMS had experienced a decrease of several kg by this time. This observation suggests that decreased water intake may be an important factor influencing the rate of TBW decrease.\r\n<p>\r\nIn agreement with previous observations, the galley water was found to be enriched in <sup>18</sup>O; e.g., on STS-26 the enrichment was 57 parts per thousand relative to the standard, Vienna Standard Mean Ocean Water (V-SMOW). The actual ratio of <sup>18</sup>O to <sup>16</sup>O in galley water was 0.00212 (both at 19 and at 65 hours MET). This value may be compared with the ratio observed in V-SMOWO.0020052. The source of this enrichment seems likely attributable to the design of the Shuttle galley water system, which makes use of the water produced in the fuel cells. Enhanced evaporation of the lighter isotope during storage of the liquid oxygen may account for its enrichment in the heavier <sup>18</sup>O.\r\n<p>\r\n<i>Conclusions</i><br>\r\nThis study represents the first time that it has been possible to measure a body fluid compartment by\r\ndirect means during space flight. Based on the results observed in the five crewmembers, it is concluded that TBW decreases by 3.4% after one to three days of exposure to microgravity in the Space Shuttle. Some individuals appear to undergo this decrease within 24 hours. This effect may be enhanced by decreased water intake due to nausea associated with SMS.\r\n<p>",
+  "payload_id": "DSO26",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "DSO 460",
+  "indexed": "2026-08-23T04:21:12.668824+00:00",
+  "GUID": "cl62azw9bcdhq01o660yehsq3",
+  "parameter_name": [
+   "Body mass",
+   "Total body water (TBW)"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 316,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Metabolism and nutrition",
+   "Renal, fluid and electrolyte physiology"
+  ],
+  "protocol_approach": "Untreated",
+  "pme_role_with_name": [
+   "Co-Investigator: Charles, John",
+   "Principal Investigator: Inners, Lamar Daniel",
+   "Principal Investigator: Leach- Huntoon, Carolyn",
+   "Statistician: Lin, Karl"
+  ],
+  "missions": [
+   [
+    [
+     "STS-26"
+    ]
+   ],
+   [
+    [
+     "STS-61C"
+    ]
+   ]
+  ],
+  "__dirid": "af4096a1-504a-53a9-9077-1292381dc483",
+  "__record_size_wo_doccontent": 125489,
+  "experiment_parms_tissue2": "N/A",
+  "experiment_parms_tissue1": "N/A",
+  "PI": [
+   "Inners, Lamar Daniel",
+   "Leach- Huntoon, Carolyn"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "DSO 460"
+  ],
+  "keyword": [],
+  "mission_id": [
+   [
+    [
+     "STS-26"
+    ]
+   ],
+   [
+    [
+     "STS-61C"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Inners, Lamar Daniel",
+   "Leach- Huntoon, Carolyn"
+  ],
+  "archive_status": "Data preservation is complete. All datasets are privacy-protected. Data is available via data request.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Shuttle Program",
+  "__source_field_concat": "PUB000258 DSO26 cl62azw9bcdhq01o660yehsq3 <table><tr><td>Body mass</td></tr><tr><td>Total body water (TBW)</td></tr><tr></tr></table> N/A N/A  N/A Untreated Changes in Total Body Water During Space Flight DSO 460 Shuttle Program",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<br>\r\nThis investigation was designed to measure by means of direct in-flight assessment, the changes in total body water (TBW) occurring in humans as a consequence of several days' exposure to microgravity on the Space Shuttle. TBW measurements provide important data for several cardiovascular and fluid/electrolyte experiments making up the science payload for the dedicated life sciences missions (SLS-1 and SLS-2). According to several models, changes in TBW are predicted to parallel fluid shifts. Therefore, changes in TBW can be used as a convenient indicator of the time course of adaptation to weightlessness. Because of its ease of measurement, TBW was the method of choice to verify in flight the timing proposed for fluid compartment measurements planned for SLS-1. \r\n<p>\r\nAPPROACH:<br>\r\nThe subjects for this experiment were five male crewmembers of Space Shuttle missions STS-61C and\r\nSTS-26. The design included no special control group or control experiment. Instead, all in-flight and postflight data were compared to preflight baseline data. Because of a delay in the launch of STS 61-C and the unavailability of some crewmembers during the immediate pre-and postflight periods, the first preflight measurements were at L-31 to L-30, while some measurements were missed entirely.\r\n<p>\r\nTBW was measured by the isotope dilution technique utilizing <sup>18</sup>O-labeled water as the tracer. This method required the ingestion of a known mass of <sup>18</sup>O water followed by sampling of representative body fluids such as urine or saliva over a period of several hours following the administration of the tracer. The measurements were initiated immediately after a sleep cycle with the crewmember in a fasted state. After the collection of background samples, the dose was consumed followed by at least 50 ml of fruit juice or galley water. The subject was allowed to consume a light breakfast 30 minutes after dose administration and was requested to abstain from caffeine containing beverages for the duration of the experiment. All food consumed during the experiment was recorded on a log sheet.\r\n<p>\r\nSamples of galley water were collected on FD 2 and FD 4/FD 5. The experimental design called for galley water sampling on all days on which TBW was measured because water sampled from the galley on several occasions, including ST5-51D, was found to be enriched in <sup>18</sup>O.  \r\n<p>\r\nTest subjects collected saliva by placing a dental cotton roll under the tongue for several minutes and then replacing the saturated cotton in the vial. It was determined in supporting studies that samples could be stored for more than a week at ambient temperature without affecting isotope content, provided they were protected from evaporation. Sample vials were replaced in the original kit and stowed in a middeck locker different from the one for used dose syringes. As mentioned above, this precaution was taken to minimize the possibility of accidental contamination of the sample vial contents. The samples were frozen at -70\u00b0 C after being returned to the laboratory.\r\n<p>\r\nAnalyses of the samples were carried out in ground-based facilities of the USDA/ARS Children's Nutrition Research Center, Department of Pediatrics, Baylor College of Medicine and Texas Children's Hospital,\r\nHouston, TX. Two methods of analysis were used because of the advance in technology between the two missions on which data were gathered.\r\n<p>\r\n<i>STS-61C</i>: Frozen samples were thawed, and approximately 0.3-0.5 g were transferred to pre-weighed 20ml Vacutainer<sup>TM</sup> serum tubes using disposable plastic tuberculin syringes. The tubes were re-weighed to determine the mass of the sample. The tubes were then filled with5% carbon dioxide, 95% nitrogen and equilibrated for 48-72 hours at 25\u00b0 C. The cryogenically purified carbon dioxide was analyzed using a Model 3-60 Gas Isotope Ratio Mass Spectrometer (Nuclide Corp., University Park, PA).\r\n<p>\r\n<i>STS-26</i>: Samples were analyzed using a microchemical technique requiring only 100 \u00b5L of sample. The method employed a modified ISOPREP18 (VG Isogas Ltd., Cheshire, England) in which 100 \u00b5L of the aqueous sample was equilibrated with carbon dioxide for 10 hours at 25\u00b0 C,300 mbar. The carbon dioxide was cryogenically purified and introduced into a VG SIRA-12 gas-isotope-ratio mass spectrometer (VG Isogas Ltd.) for determination of <sup>18</sup>O to <sup>16</sup>O ratio.\r\n<p>\r\nRESULTS:<br>\r\nPreflight and postflight mean TBW values are significantly different from the in-flight mean values. However, the preflight and postflight values are not significantly different, nor do the in-flight means on FD 2 and FD 4/FD 5 differ appreciably from one another.\r\n<p>\r\nThe high variability of the measurements on FD 2 suggests that individuals may differ in the rate at which they respond to the weightless environment. The difference in response may be intrinsic or may be related to some other factor such as the nausea induced by space motion sickness (SMS). Returning flight crews rate their incidence of SMS on a scale of 0 to 3, where 0 represents no symptoms and 3 represents severe symptoms including three or more episodes of vomiting. It is reasonable to assume that astronauts who are experiencing even mild nausea would limit their consumption of water and other liquids and would therefore experience some degree of dehydration.\r\n<p>\r\nIt was noted that, of the three crewmen who reported an SMS index of 0 for the missions in question, two had not experienced a decrease of TBW by the time of the FD 2 measurement, Le., approximately 24 hours after launch. On the other hand, the two crewmen who reported either 1or 2 for SMS had experienced a decrease of several kg by this time. This observation suggests that decreased water intake may be an important factor influencing the rate of TBW decrease.\r\n<p>\r\nIn agreement with previous observations, the galley water was found to be enriched in <sup>18</sup>O; e.g., on STS-26 the enrichment was 57 parts per thousand relative to the standard, Vienna Standard Mean Ocean Water (V-SMOW). The actual ratio of <sup>18</sup>O to <sup>16</sup>O in galley water was 0.00212 (both at 19 and at 65 hours MET). This value may be compared with the ratio observed in V-SMOWO.0020052. The source of this enrichment seems likely attributable to the design of the Shuttle galley water system, which makes use of the water produced in the fuel cells. Enhanced evaporation of the lighter isotope during storage of the liquid oxygen may account for its enrichment in the heavier <sup>18</sup>O.\r\n<p>\r\n<i>Conclusions</i><br>\r\nThis study represents the first time that it has been possible to measure a body fluid compartment by\r\ndirect means during space flight. Based on the results observed in the five crewmembers, it is concluded that TBW decreases by 3.4% after one to three days of exposure to microgravity in the Space Shuttle. Some individuals appear to undergo this decrease within 24 hours. This effect may be enhanced by decreased water intake due to nausea associated with SMS.\r\n<p>",
+  "__doi": "10.83263/dzsy-p010",
+  "__doi_record_creation_date": "2026-08-23T04:21:12",
+  "__doi_record_modified_date": "2026-08-23T04:21:12"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001161",
+   "label": "JMDSO_460_4",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Schematic Representation of Inflight Experiment Session",
+    "dataset_catalog": "JMDSO_460_4",
+    "dataset_description": [
+     "This graph depicts the protocol for a typical measurement (Figure 2 in referenced publication). The measurements were initiated immediately after a sleep cycle with the crewmember in a fasted state. After the collection of background samples, the dose was consumed followed by at least 50 mL of fruit juice or galley water. The subject was allowed to consume a light breakfast 30 minutes after dose administration and was requested to abstain from caffeine-containing beverages for the duration of the experiment. All food consumed during the experiment was recorded on a log sheet.\r\n<p>\r\nSource: Leach CS, Inners, DL, and Charles, JB. Changes in Total Body Water During Spaceflight. Journal of Clinical Pharmacology 1991; 31: 1001-1006."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 460"
+    ]
+   },
+   "meta": "2 files \u00b7 57.2 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "80de0dd4-d9c2-5e76-abc6-7853a4dd220c",
+     "label": "JMDSO_460_4.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 29286,
+     "meta": "28.6 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "76fb196f-8c2d-58ce-a851-144f7c5f6e50",
+     "label": "JMDSO_460_4.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 29286,
+     "meta": "28.6 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000686",
+   "label": "JMDSO_460_3",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Nominal Schedule",
+    "dataset_catalog": "JMDSO_460_3",
+    "dataset_description": [
+     "This graph summarizes the nominal schedule of subjects in the DSO 460 study (Figure 1 in referenced publication). The design included no special control group or control experiment. \r\n<p>\r\nSource: Leach CS, Inners, DL, and Charles, JB. Changes in Total Body Water During Spaceflight. Journal of Clinical Pharmacology 1991; 31: 1001-1006."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 460"
+    ]
+   },
+   "meta": "2 files \u00b7 53.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "f4937b1a-a05d-505b-bdac-18b1d22dadb7",
+     "label": "JMDSO_460_3.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 27136,
+     "meta": "26.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "894a0d36-039b-593b-b0fa-372a4dee4814",
+     "label": "JMDSO_460_3.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 27136,
+     "meta": "26.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000061",
+   "label": "JMDSO_460_2",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Total Body Weight Measurements",
+    "dataset_catalog": "JMDSO_460_2",
+    "dataset_description": [
+     "This Excel file contains the schedule of total body weight (TBW) measurements for subjects in the DSO 460 study (Table II in referenced publication).  Because of a delay in the launch of STS-51C and the unavailability of some crewmembers during the immediate pre- and postflight periods, the first preflight measurements were at L-31 to L-30, whereas some measurements were missed entirely.\r\n<p>\r\nSource: Leach CS, Inners, DL, and Charles, JB. Changes in Total Body Water During Spaceflight. Journal of Clinical Pharmacology 1991; 31: 1001-1006."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 460"
+    ]
+   },
+   "meta": "2 files \u00b7 26.6 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "7adf3ba3-6265-5809-af70-f84ea0c9470b",
+     "label": "JMDSO_460_2.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 13619,
+     "meta": "13.3 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "bf4d7fef-a02c-53f1-bdb0-cee48f2c8ffd",
+     "label": "JMDSO_460_2.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 13619,
+     "meta": "13.3 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001801",
+   "label": "JMDSO_460_8",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Subject Profiles",
+    "dataset_catalog": "JMDSO_460_8",
+    "dataset_description": [
+     "This Excel file contains subject characteristics for subjects in the DSO 460 study.  Height, age, percent body fat, and postflight body mass are summarized (Table 1 in referenced publication).\r\n<p>\r\nSource: Leach CS, Inners, DL, and Charles, JB. Changes in Total Body Water During Spaceflight. Journal of Clinical Pharmacology 1991; 31: 1001-1006."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 460"
+    ]
+   },
+   "meta": "2 files \u00b7 26.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "ded2214c-adec-5cef-810e-62808f35ac84",
+     "label": "JMDSO_460_8.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 13312,
+     "meta": "13.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e1bef9a0-059f-53a5-8102-84d643f6fda5",
+     "label": "JMDSO_460_8.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 13312,
+     "meta": "13.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001932",
+   "label": "JMDSO_460_1",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Total Body Weight (TBW) Measurements",
+    "dataset_catalog": "JMDSO_460_1",
+    "dataset_description": [
+     "This Excel chart contains total body weight (TBW) measurements for four subjects in the DSO 460 study.  All values are in kg except for the variance.\r\n<p>\r\nSource: Unpublished data."
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "DSO 460"
+    ]
+   },
+   "meta": "2 files \u00b7 48.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "2178757f-edc2-5888-b97f-fa12b5e1849d",
+     "label": "JMDSO_460_1.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 24576,
+     "meta": "24.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "83e0a2e2-7e33-58ec-9b27-efd8bfdcd29a",
+     "label": "JMDSO_460_1.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 24576,
+     "meta": "24.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000712",
+   "label": "JMDSO_460_7",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Matrix for Orthogonal Contrasts",
+    "dataset_catalog": "JMDSO_460_7",
+    "dataset_description": [
+     "This Excel file contains preflight observations which are contrasted with postflight measurements for subjects in the DSO 460 study (Table V in referenced publication). \r\n<p>\r\nSource: Leach CS, Inners, DL, and Charles, JB. Changes in Total Body Water During Spaceflight. Journal of Clinical Pharmacology 1991; 31: 1001-1006."
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "DSO 460"
+    ]
+   },
+   "meta": "2 files \u00b7 25.8 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "53186170-ce84-586d-938e-83e6ccfe847d",
+     "label": "JMDSO_460_7.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 13210,
+     "meta": "12.9 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b15d2018-48fb-5a6d-88d7-6b79e7835fbc",
+     "label": "JMDSO_460_7.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 13210,
+     "meta": "12.9 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001849",
+   "label": "JMDSO_460_5",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Orthogonal Contrasts of Total Body Water Data",
+    "dataset_catalog": "JMDSO_460_5",
+    "dataset_description": [
+     "This Excel file contains the orthogonal contrasts of total body water inflight data for the four subjects in the DSO 460 study with complete data. \r\n<p>\r\nSource: Leach CS, Inners, DL, and Charles, JB. Changes in Total Body Water During Spaceflight. Journal of Clinical Pharmacology 1991; 31: 1001-1006."
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "DSO 460"
+    ]
+   },
+   "meta": "2 files \u00b7 25.8 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "454b55fc-7b10-5312-ac6f-4360aeea0f84",
+     "label": "JMDSO_460_5.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 13210,
+     "meta": "12.9 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1b4c7335-9795-5038-84e1-794f430f9aeb",
+     "label": "JMDSO_460_5.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 13210,
+     "meta": "12.9 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000071",
+   "label": "JMDSO_460_6",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Statistical Analysis of Total Body Water Data",
+    "dataset_catalog": "JMDSO_460_6",
+    "dataset_description": [
+     "This Excel file contains the summary results of total body weight (TBW) for subjects in the DSO 460 study (Table IV in referenced publication).  The analysis is based on the assumption that the day of measurement, i.e., the phase of the mission, is a fixed treatment effect. \r\n<p>\r\nSource: Leach CS, Inners, DL, and Charles, JB. Changes in Total Body Water During Spaceflight. Journal of Clinical Pharmacology 1991; 31: 1001-1006."
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "DSO 460"
+    ]
+   },
+   "meta": "2 files \u00b7 27.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "828a182e-9eb3-51fd-9437-713d63916c02",
+     "label": "JMDSO_460_6.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 13824,
+     "meta": "13.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "38532783-153b-5d20-80ee-2f4a778ab0bb",
+     "label": "JMDSO_460_6.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 13824,
+     "meta": "13.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000505",
+   "label": "DSO 460__1530444495",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Mean Total Body Water (TBW) During Space Flight",
+    "dataset_catalog": "DSO 460__1530444495",
+    "dataset_description": [
+     "This graph depicts mean total body water(TBW) during space flight for subjects in the DSO 460 study. Data are adjusted to 70 kg body mass. The error bars represent the standard error of the mean of the four observations on each of the five mission periods.<P>Source: Unpublished data."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 460"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "a042bad2-b041-56ff-a128-ea075d8590e3",
+     "label": "DSO_460__1530444495.tiff_STS-26_DSO_460_2010_153_050624.tiff",
+     "type": "file",
+     "ext": "tiff",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001835",
+   "label": "DSO 460__2880216499",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Table of Data Collection Sessions Performed",
+    "dataset_catalog": "DSO 460__2880216499",
+    "dataset_description": [
+     "This Excel file contains data collection information for the DSO 460 study.  Session constraints were: Oxygen-18 (<sup>18</sup>O) ingestion was taken fasting. Tolerance on saliva samples was +/-0.5 hours.  Subjects could not experience space motion sickness during flight. No caffeine-containing beverages could be ingested during the experiment. Initial saliva samples were fasting, after sleep. \r\n<p>\r\nSource: Experiment"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 460"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "4de0c8ca-b9d6-5e8d-ae90-34749f0024df",
+     "label": "DSO_460__2880216499.xls_STS-26_DSO_460_2010_288_021027.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

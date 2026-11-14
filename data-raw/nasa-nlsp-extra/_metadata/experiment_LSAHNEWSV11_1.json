@@ -1,0 +1,243 @@
+{
+ "record": {
+  "id": "401485a6-47e2-5a23-a965-17bc23a3e8b3",
+  "_id": "401485a6-47e2-5a23-a965-17bc23a3e8b3",
+  "experiment_title": "Physiological Variables of EVA Participants--An Update",
+  "archive_status_index": 1,
+  "pub_document_number": "PUB001402",
+  "parameter_html": "<table><tr><td>Body fat</td></tr><tr><td>Body mass index (BMI)</td></tr><tr><td>Heart rate, maximum</td></tr><tr><td>Maximal oxygen consumption (VO2max)</td></tr><tr></tr></table>",
+  "__source_key": "cl62az9h7cdco01o6hmkz6y92",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:No Principal Investigator,\">Principal Investigator: No Principal Investigator,</a>",
+  "experiment_type_lk": [
+   "Longitudinal Study of Astronaut Health (LSAH)"
+  ],
+  "__record_modified_date": "2026-08-23T03:53:24.477530+00:00",
+  "__indexed": "2026-08-23T03:53:24.477530+00:00",
+  "__record_creation_date": "2022-07-28T20:05:30.407Z",
+  "keyword": [
+   "Body mass index",
+   "Oxygen consumption",
+   "Body composition",
+   "Heart rate",
+   "Extravehicular activity"
+  ],
+  "keyword_name": "Extravehicular activity",
+  "__record_size": 99841,
+  "__record_version": 29,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<BR>\r\nThe physiological variables of extravehicular activity (EVA) participants were first explored in the October 1998 issue of the LSAH Newsletter.  This initial article investigated EVA participants within the Shuttle program, up to January 1998.  Between then and December 2001, 26 additional EVAs within 12 missions have been performed.  All but three of these EVAs were performed in support of assembly and maintenance of the International Space Station.  As this assembly and maintenance process is a continual one, many more EVAs will have to be performed in the future.  \r\n<P>\r\nAPPROACH:<BR>\r\nThe following is an updated look at EVA astronauts, to see if the increased number of participants leads to observations different than previously noted.  As before, this analysis compares physiological variables between astronauts who have flown in space (i.e., crewmembers) and those who have performed EVAs.  Currently, 312 individuals have been selected into the NASA astronaut corps.  Of these, 197 have flown in the Shuttle program through the launch of STS-108 on December 5, 2001.  Within the same time period, approximately 109 EVAs have been performed.  In analyzing the data, each mission is counted as an individual even for both Shuttle astronauts who have flown and EVA participants.  Therefore, one astronaut may count for more than one crewmember, and be in more than one age group.  Through December 2001 there have been 536 NASA crewmembers, with 79 EVA participants.\r\n<P>\r\nOf the Shuttle crewmembers, 519 had available data from the annual examination closest to, and before, their missions.  Their gender distribution shows that 86.4% are males.  Almost half of these crewmembers were between 38 and 43 years of age, making this age group the largest subset.  About 70% of the entire group was younger than 44 years of age.  Means of the following variables were measured for the Shuttle crewmembers: age (at time of examination), body mass index (BMI), percentage of body fat, mean VO2<sub>max</sub>, and maximum heart rate (MHR).  BMI and percentage of body fat provide measures of fatness for the group.  BMI, which is more accurate for a group of people than for an individual, is calculated by dividing the weight (in kilograms) by the squared height (in meters).  A BMI between 22-26 for both men and women is about standard.  Percentage of body fat is an estimation of fatness based on the sum of three skin-fold measurements and age at last birthday.  Values of 10%-15% for men, and 20%-25% for women, are considered to be the norm for the general population.  VO2<sub>max</sub> and MHR are estimations of cardiovascular fitness that are measured during an Exercise Tolerance Test.  VO2<sub>max</sub> is measured by the volume of oxygen, in milliliters per kilogram of body weight, expired per minute, and is an indicator of an individual's max aerobic capacity.  A higher number indicates a higher aerobic capacity.  The normative values of VO2<sub>max</sub> for men and women in good aerobic condition in the 30-49 years age group are 41 ml/kg/min and 37 ml/kg/min respectively.  The MHR is measured in beats per minute, and lower values are more desirable.  For individuals in the 38-49 years of age group, the expected MHR is 179.7 beats per minute.  \r\n<P>\r\nEach EVA per mission is accounted for, so that an astronaut is counted for every EVA mission and the age group s/he has achieved.  All 79 EVA participants had data available from examinations closest to and before their missions.  The majority (70.9%) of the EVA participants were under the age of 44, and 91.1% of them were male.  The small number of female participants precludes data analysis of this subset.\r\n<P>\r\nRESULTS:<BR>\r\nAs expected, the crewmembers, those in the 30-43 year age group, had higher VO2<sub>max</sub> and lower MHR values than the previously mentioned norms.\r\n<P>\r\nAll of the parameters varied only slightly between EVA participants and Shuttle crewmembers.  The largest age group representation for both EVA participants and crewmembers is in the 38-43 year age group (48.1% and 47.2%, respectively).  In comparing the majority of each group's subjects (38-43 year age group), there is very little difference in the BMI, average percentage of body fat, or mean MHR between the two age groups.  When these values are compared in terms of aging trend, EVA participants, unlike Shuttle crewmembers, did not show the expected trend of increasing BMI, increasing percentage of body fat, and decreasing VO2<sub>max</sub> in progressing from the younger to older age groups.  This may mean that EVA participants maintain better overall fitness within the older age group than crewmembers as a whole.  However, the small age group subsets of this sample may also affect their mean values.\r\n<P>\r\nThere is little difference in the age makeup between the Shuttle crewmembers and EVA participants.  The majority of crewmembers and EVA participants also have very similar fitness levels, as shown in the small difference in the physiological variables values between the two age groups.  The difference in aging trend between the two groups may indicate that EVA training facilities maintenance of aerobic fitness for the crewmembers.  As the entire astronaut corps ages, and more EVA data accumulate from the maintenance and assembly of the ISS, a more comprehensive analysis can be performed to substantiate this observation.<END>",
+  "payload_id": "LSAH",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "LSAHNEWSV11_1",
+  "indexed": "2026-08-23T03:53:24.477530+00:00",
+  "experiment_related": [
+   "LSAHNEWSV7.2.3"
+  ],
+  "GUID": "cl62az9h7cdco01o6hmkz6y92",
+  "parameter_name": [
+   "Body fat",
+   "Body mass index (BMI)",
+   "Heart rate, maximum",
+   "Maximal oxygen consumption (VO2max)"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 1098,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Cardiovascular physiology",
+   "Pulmonary physiology",
+   "Clinical medicine"
+  ],
+  "pme_role_with_name": [
+   "Principal Investigator: No Principal Investigator,"
+  ],
+  "missions": [
+   [
+    [
+     "LSAH"
+    ]
+   ]
+  ],
+  "__dirid": "401485a6-47e2-5a23-a965-17bc23a3e8b3",
+  "__record_size_wo_doccontent": 99841,
+  "PI": [
+   "No Principal Investigator,"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "LSAHNEWSV11_1"
+  ],
+  "mission_id": [
+   [
+    [
+     "LSAH"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "proposal_date": [],
+  "proposal_source": [],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "No Principal Investigator,"
+  ],
+  "program_name": [
+   "Space Medicine"
+  ],
+  "archive_status": "Data preservation is complete. All datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Space Medicine",
+  "__source_field_concat": "PUB001402 LSAH cl62az9h7cdco01o6hmkz6y92 Extravehicular activity  N/A Physiological Variables of EVA Participants--An Update LSAHNEWSV11_1 Space Medicine Data preservation is complete. All datasets are publicly available.",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<BR>\r\nThe physiological variables of extravehicular activity (EVA) participants were first explored in the October 1998 issue of the LSAH Newsletter.  This initial article investigated EVA participants within the Shuttle program, up to January 1998.  Between then and December 2001, 26 additional EVAs within 12 missions have been performed.  All but three of these EVAs were performed in support of assembly and maintenance of the International Space Station.  As this assembly and maintenance process is a continual one, many more EVAs will have to be performed in the future.  \r\n<P>\r\nAPPROACH:<BR>\r\nThe following is an updated look at EVA astronauts, to see if the increased number of participants leads to observations different than previously noted.  As before, this analysis compares physiological variables between astronauts who have flown in space (i.e., crewmembers) and those who have performed EVAs.  Currently, 312 individuals have been selected into the NASA astronaut corps.  Of these, 197 have flown in the Shuttle program through the launch of STS-108 on December 5, 2001.  Within the same time period, approximately 109 EVAs have been performed.  In analyzing the data, each mission is counted as an individual even for both Shuttle astronauts who have flown and EVA participants.  Therefore, one astronaut may count for more than one crewmember, and be in more than one age group.  Through December 2001 there have been 536 NASA crewmembers, with 79 EVA participants.\r\n<P>\r\nOf the Shuttle crewmembers, 519 had available data from the annual examination closest to, and before, their missions.  Their gender distribution shows that 86.4% are males.  Almost half of these crewmembers were between 38 and 43 years of age, making this age group the largest subset.  About 70% of the entire group was younger than 44 years of age.  Means of the following variables were measured for the Shuttle crewmembers: age (at time of examination), body mass index (BMI), percentage of body fat, mean VO2<sub>max</sub>, and maximum heart rate (MHR).  BMI and percentage of body fat provide measures of fatness for the group.  BMI, which is more accurate for a group of people than for an individual, is calculated by dividing the weight (in kilograms) by the squared height (in meters).  A BMI between 22-26 for both men and women is about standard.  Percentage of body fat is an estimation of fatness based on the sum of three skin-fold measurements and age at last birthday.  Values of 10%-15% for men, and 20%-25% for women, are considered to be the norm for the general population.  VO2<sub>max</sub> and MHR are estimations of cardiovascular fitness that are measured during an Exercise Tolerance Test.  VO2<sub>max</sub> is measured by the volume of oxygen, in milliliters per kilogram of body weight, expired per minute, and is an indicator of an individual's max aerobic capacity.  A higher number indicates a higher aerobic capacity.  The normative values of VO2<sub>max</sub> for men and women in good aerobic condition in the 30-49 years age group are 41 ml/kg/min and 37 ml/kg/min respectively.  The MHR is measured in beats per minute, and lower values are more desirable.  For individuals in the 38-49 years of age group, the expected MHR is 179.7 beats per minute.  \r\n<P>\r\nEach EVA per mission is accounted for, so that an astronaut is counted for every EVA mission and the age group s/he has achieved.  All 79 EVA participants had data available from examinations closest to and before their missions.  The majority (70.9%) of the EVA participants were under the age of 44, and 91.1% of them were male.  The small number of female participants precludes data analysis of this subset.\r\n<P>\r\nRESULTS:<BR>\r\nAs expected, the crewmembers, those in the 30-43 year age group, had higher VO2<sub>max</sub> and lower MHR values than the previously mentioned norms.\r\n<P>\r\nAll of the parameters varied only slightly between EVA participants and Shuttle crewmembers.  The largest age group representation for both EVA participants and crewmembers is in the 38-43 year age group (48.1% and 47.2%, respectively).  In comparing the majority of each group's subjects (38-43 year age group), there is very little difference in the BMI, average percentage of body fat, or mean MHR between the two age groups.  When these values are compared in terms of aging trend, EVA participants, unlike Shuttle crewmembers, did not show the expected trend of increasing BMI, increasing percentage of body fat, and decreasing VO2<sub>max</sub> in progressing from the younger to older age groups.  This may mean that EVA participants maintain better overall fitness within the older age group than crewmembers as a whole.  However, the small age group subsets of this sample may also affect their mean values.\r\n<P>\r\nThere is little difference in the age makeup between the Shuttle crewmembers and EVA participants.  The majority of crewmembers and EVA participants also have very similar fitness levels, as shown in the small difference in the physiological variables values between the two age groups.  The difference in aging trend between the two groups may indicate that EVA training facilities maintenance of aerobic fitness for the crewmembers.  As the entire astronaut corps ages, and more EVA data accumulate from the maintenance and assembly of the ISS, a more comprehensive analysis can be performed to substantiate this observation.<END>",
+  "__doi": "10.83263/vg56-gw75",
+  "__doi_record_creation_date": "2026-08-23T03:53:24",
+  "__doi_record_modified_date": "2026-08-23T03:53:24"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002350",
+   "label": "JMLSAHNEWSV111_174",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Age and Gender Distribution of Astronaut Groups at Time of Examination",
+    "dataset_catalog": "JMLSAHNEWSV111_174",
+    "dataset_description": [
+     "This graph depicts the age and gender distribution of Shuttle and EVA astronaut groups at the time of examination.<P>Reference: National Aeronautics and Space Administration. Physical Activity for a Healthy Lifestyle. In: Longitudinal Study of Astronaut Health Newsletter.  November 2000;9(2):1-2."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "LSAHNEWSV11_1"
+    ]
+   },
+   "meta": "1 file \u00b7 64.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "782ea28e-7493-511d-a660-b0b2e0fe737e",
+     "label": "JMLSAHNEWSV111_174.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 65536,
+     "meta": "64.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001413",
+   "label": "JMLSAHNEWSV111_172",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Astronaut Top 5 Reported Physical Activities",
+    "dataset_catalog": "JMLSAHNEWSV111_172",
+    "dataset_description": [
+     "According to the Longitudinal Study of Astronaut Health (LSAH) Lifestyle Questionnaire (LSQ), 72.3% of the responding 220 NASA astronauts and 38.2% of the responding 781 LSAH comparison participants list jogging/running among their various physical activities. Of the responding 32,440 National Health Interview Survey 1998 (NHIS) participants, 10.6% choose jogging/running among their various physical activities. In addition, 24.5%, 49.2%, and 43.2%, respectively, choose walking among their various physical activities. <P>Reference: National Aeronautics and Space Administration. Physical Activity for a Healthy Lifestyle. In: Longitudinal Study of Astronaut Health Newsletter.  November 2000;9(2):1-2."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "LSAHNEWSV11_1"
+    ]
+   },
+   "meta": "1 file \u00b7 167.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "125eb9ad-7deb-5d3d-8836-24e34cac008d",
+     "label": "JMLSAHNEWSV111_172.jpg",
+     "type": "file",
+     "ext": "jpg",
+     "file_size": 171008,
+     "meta": "167.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000450",
+   "label": "JMLSAHNEWSV111_175",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Select Physical Exam Parameters for non-EVA Shuttle Astronauts",
+    "dataset_catalog": "JMLSAHNEWSV111_175",
+    "dataset_description": [
+     "This graph depicts body mass index (BMI), percent body fat, VO2 max, and maximum heart rate for 174 Shuttle astronauts who did not perform extravehicular activities (EVAs).<P>Reference: National Aeronautics and Space Administration. Physical Activity for a Healthy Lifestyle. In: Longitudinal Study of Astronaut Health Newsletter.  November 2000;9(2):1-2."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "LSAHNEWSV11_1"
+    ]
+   },
+   "meta": "1 file \u00b7 15.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "0c0ec559-e826-5105-871b-29c458180386",
+     "label": "JMLSAHNEWSV111_175.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 15360,
+     "meta": "15.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000955",
+   "label": "JMLSAHNEWSV111_176",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Select Physical Exam Parameters for Shuttle Astronauts Performing EVA",
+    "dataset_catalog": "JMLSAHNEWSV111_176",
+    "dataset_description": [
+     "This graph depicts body mass index (BMI), percent body fat, VO2 max, and maximum heart rate for 51 Shuttle astronauts who performed extravehicular activities (EVAs).<P>Reference: National Aeronautics and Space Administration. Physical Activity for a Healthy Lifestyle. In: Longitudinal Study of Astronaut Health Newsletter.  November 2000;9(2):1-2."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "LSAHNEWSV11_1"
+    ]
+   },
+   "meta": "1 file \u00b7 14.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "da82dd57-f39c-5fba-85d3-7f12423038cc",
+     "label": "JMLSAHNEWSV111_176.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 14336,
+     "meta": "14.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

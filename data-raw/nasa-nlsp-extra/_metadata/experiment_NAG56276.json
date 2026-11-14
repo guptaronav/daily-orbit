@@ -1,0 +1,147 @@
+{
+ "record": {
+  "id": "2b5316e7-4702-5502-b948-3028f6f26cdf",
+  "_id": "2b5316e7-4702-5502-b948-3028f6f26cdf",
+  "experiment_title": "Vestibular Influences on Autonomic Cardiovascular Control",
+  "archive_status_index": 1,
+  "parameter_html": "<table><tr><td>Autonomic reflexes</td></tr><tr><td>Orthostatic intolerance</td></tr><tr><td>Vestibular afferents</td></tr><tr><td>Vestibular reflexes</td></tr><tr></tr></table>",
+  "__source_key": "cl62b1l3jcdvy01o6avgchu2r",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Kaufmann, Horacio\">Principal Investigator: Kaufmann, Horacio</a>",
+  "__record_modified_date": "2026-08-23T03:46:36.700003+00:00",
+  "proposal_source": [
+   "96-OLMSA-01"
+  ],
+  "__indexed": "2026-08-23T03:46:36.700003+00:00",
+  "__record_creation_date": "2022-07-28T20:09:24.989Z",
+  "keyword": [
+   "Promethazine",
+   "Otolithic membrane",
+   "Rotation",
+   "Reflex, vestibulo-ocular",
+   "Vestibular function tests",
+   "Acceleration",
+   "Saccade"
+  ],
+  "keyword_name": "Saccade",
+  "__record_size": 71316,
+  "__record_version": 28,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<br>\r\nAlthough there is substantial evidence that the vestibular and autonomic systems interact, the functional importance of the vestibular input in cardiovascular control is unknown. The goal of this proposal was to determine if activation of vestibular afferents triggers reflexes that engage autonomic pathways involved in cardiovascular regulation, particularly those that were studied in the Neurolab Project. The hypothesis is that linear acceleration along the long axis of the body (Z axis), or along the naso-occipital axis (X axis), signaling changes in body orientation with regard to gravity, causes vestibular-induced alterations in autonomic outflow to stabilize blood pressure. Novel scientific approaches include the use of paradigms that will allow investigators to distinguish between stimulation of semicircular canals and otolith organs. \r\n<p>\r\nSpecific Aims:<br>\r\n1. Investigators used \"radial\" centrifugation to produce acceleration along the Z axis, and rotation about axes tilted from the vertical (off-vertical axis rotation, OVAR) to produce sinusoidally varying naso-occipital acceleration while monitoring autonomic function. On-center rotation about a vertical axis and \"tangential\" centrifugation were provided to control conditions in which the semicircular canals and otolith organs were activated. <br>\r\n2. Microneurography was used to determine the effect of vestibular stimulation on sympathetic outflow in normal subjects and in patients with baroreflex failure. <br>\r\n3. Investigators assessed the impact of vestibular reflexes on orthostatic tolerance. <br>\r\n4. Investigators explored the effect of promethazine on vestibular and autonomic reflexes and reflex interactions. <br>\r\n<p>\r\nIn summary, this proposal used state-of-the-art techniques to determine in a definitive way whether vestibular reflexes have an important cardiovascular autonomic component and contribute to orthostatic tolerance. Because space-induced vestibular dysfunction may contribute to the orthostatic intolerance experienced by astronauts returning to Earth, understanding vestibular/autonomic interactions can help develop more effective countermeasures to alleviate space motion sickness and post-flight orthostatic intolerance. \r\n<p>\r\nAPPROACH:<br>\r\nInvestigators studied subjects during on- and off-vertical axis rotation (VAR and OVAR). In\r\nprevious ancillary experiments they found 15\u00b0 tilt to be a good neurovestibular stimulus.\r\nDuring off-vertical axis rotation (OVAR), this projects 0.26 g onto all axes in the\r\nhorizontal plane of the head. The original testing protocol consisted of four consecutive\r\nexperimental conditions, each lasting six minutes:<br>\r\n1. Vertical axis, stationary.<br>\r\n2. Vertical axis rotation (VAR) clockwise at 60\u00b0/s.<br>\r\n3. Off-vertical axis (tilted 15\u00b0, right ear down), stationary.<br>\r\n4. Off-vertical axis rotation (OVAR) (tilted 15\u00b0), clockwise at 60\u00b0/s.<br>\r\n<p>\r\nRESULTS:<br>\r\nInvestigators have solved technical problems related to blood pressure and respiratory monitoring during OVAR. Specifically, the OVAR chair has been fitted with the portapres device (a new small device for beat to beat blood pressure measurements) and the slip rings modified to transmit its signals. Software has been modified to accept signals from both the ISCAN device and the portapres. Pilot trials of rotation during tilt have been successfully carried out, confirming the ability to carry out these studies.\r\n<p>",
+  "payload_id": "BRC",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "NAG56276",
+  "indexed": "2026-08-23T03:46:36.700003+00:00",
+  "GUID": "cl62b1l3jcdvy01o6avgchu2r",
+  "parameter_name": [
+   "Autonomic reflexes",
+   "Orthostatic intolerance",
+   "Vestibular afferents",
+   "Vestibular reflexes"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 1221,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Cardiovascular physiology",
+   "Neuroscience"
+  ],
+  "pme_role_with_name": [
+   "Principal Investigator: Kaufmann, Horacio"
+  ],
+  "missions": [
+   [
+    [
+     "BRC"
+    ]
+   ]
+  ],
+  "__dirid": "2b5316e7-4702-5502-b948-3028f6f26cdf",
+  "__record_size_wo_doccontent": 71316,
+  "PI": [
+   "Kaufmann, Horacio"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "NAG56276"
+  ],
+  "mission_id": [
+   [
+    [
+     "BRC"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "proposal_date": [],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Kaufmann, Horacio"
+  ],
+  "LaunchDate": [
+   "01/01/2003"
+  ],
+  "LaunchYear": 2003,
+  "program_name": [
+   "Ground"
+  ],
+  "archive_status": "Data preservation is complete. All datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Ground",
+  "__source_field_concat": "BRC cl62b1l3jcdvy01o6avgchu2r Saccade  N/A Vestibular Influences on Autonomic Cardiovascular Control NAG56276 Ground Data preservation is complete. All datasets are publicly available.",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<br>\r\nAlthough there is substantial evidence that the vestibular and autonomic systems interact, the functional importance of the vestibular input in cardiovascular control is unknown. The goal of this proposal was to determine if activation of vestibular afferents triggers reflexes that engage autonomic pathways involved in cardiovascular regulation, particularly those that were studied in the Neurolab Project. The hypothesis is that linear acceleration along the long axis of the body (Z axis), or along the naso-occipital axis (X axis), signaling changes in body orientation with regard to gravity, causes vestibular-induced alterations in autonomic outflow to stabilize blood pressure. Novel scientific approaches include the use of paradigms that will allow investigators to distinguish between stimulation of semicircular canals and otolith organs. \r\n<p>\r\nSpecific Aims:<br>\r\n1. Investigators used \"radial\" centrifugation to produce acceleration along the Z axis, and rotation about axes tilted from the vertical (off-vertical axis rotation, OVAR) to produce sinusoidally varying naso-occipital acceleration while monitoring autonomic function. On-center rotation about a vertical axis and \"tangential\" centrifugation were provided to control conditions in which the semicircular canals and otolith organs were activated. <br>\r\n2. Microneurography was used to determine the effect of vestibular stimulation on sympathetic outflow in normal subjects and in patients with baroreflex failure. <br>\r\n3. Investigators assessed the impact of vestibular reflexes on orthostatic tolerance. <br>\r\n4. Investigators explored the effect of promethazine on vestibular and autonomic reflexes and reflex interactions. <br>\r\n<p>\r\nIn summary, this proposal used state-of-the-art techniques to determine in a definitive way whether vestibular reflexes have an important cardiovascular autonomic component and contribute to orthostatic tolerance. Because space-induced vestibular dysfunction may contribute to the orthostatic intolerance experienced by astronauts returning to Earth, understanding vestibular/autonomic interactions can help develop more effective countermeasures to alleviate space motion sickness and post-flight orthostatic intolerance. \r\n<p>\r\nAPPROACH:<br>\r\nInvestigators studied subjects during on- and off-vertical axis rotation (VAR and OVAR). In\r\nprevious ancillary experiments they found 15\u00b0 tilt to be a good neurovestibular stimulus.\r\nDuring off-vertical axis rotation (OVAR), this projects 0.26 g onto all axes in the\r\nhorizontal plane of the head. The original testing protocol consisted of four consecutive\r\nexperimental conditions, each lasting six minutes:<br>\r\n1. Vertical axis, stationary.<br>\r\n2. Vertical axis rotation (VAR) clockwise at 60\u00b0/s.<br>\r\n3. Off-vertical axis (tilted 15\u00b0, right ear down), stationary.<br>\r\n4. Off-vertical axis rotation (OVAR) (tilted 15\u00b0), clockwise at 60\u00b0/s.<br>\r\n<p>\r\nRESULTS:<br>\r\nInvestigators have solved technical problems related to blood pressure and respiratory monitoring during OVAR. Specifically, the OVAR chair has been fitted with the portapres device (a new small device for beat to beat blood pressure measurements) and the slip rings modified to transmit its signals. Software has been modified to accept signals from both the ISCAN device and the portapres. Pilot trials of rotation during tilt have been successfully carried out, confirming the ability to carry out these studies.\r\n<p>",
+  "__doi": "10.83263/9vpj-tp32",
+  "__doi_record_creation_date": "2026-08-23T03:46:36",
+  "__doi_record_modified_date": "2026-08-23T03:46:36"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001982",
+   "label": "NAG56276__700620952",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Final Report",
+    "dataset_catalog": "NAG56276__700620952",
+    "dataset_description": [
+     "This file contains the final report for the NAG56276 study."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "NAG56276"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "06fd0c02-24b3-5c46-9b24-090930b3a883",
+     "label": "NAG_56276_FR2.pdf_BRC_NAG56276_2014_70_060300.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

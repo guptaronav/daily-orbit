@@ -1,0 +1,165 @@
+{
+ "record": {
+  "id": "2adee9cd-ed4b-5e41-8bb4-09dc06f5015f",
+  "_id": "2adee9cd-ed4b-5e41-8bb4-09dc06f5015f",
+  "experiment_title": "Graded Exercise Test to Volitional Exertion (Bruce protocol)",
+  "archive_status_index": 3,
+  "parameter_html": "<table><tr><td>Cumulative time</td></tr><tr><td>Diastolic blood pressure</td></tr><tr><td>Heart rate</td></tr><tr><td>Height</td></tr><tr><td>Stage</td></tr><tr><td>Systolic blood pressure</td></tr><tr><td>Treadmill grade</td></tr><tr><td>Treadmill speed</td></tr><tr><td>Weight</td></tr><tr><td>Electrocardiogram (ECG)</td></tr><tr><td>Rating of perceived exertion (RPE)</td></tr><tr></tr></table>",
+  "__source_key": "cl62aze93cddt01o6et8kbut4",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Paloski, William\">Principal Investigator: Paloski, William</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Cavanagh, Peter\">Co-Investigator: Cavanagh, Peter</a>",
+  "image_name": [
+   "12-Lead ECG Placement",
+   "ECG Strip Chart Example",
+   "Head Up Tilt Bed",
+   "Head Up Tilt Bed Diagram",
+   "Head Up Tilt Sitting",
+   "LAFS Bed Design",
+   "LAFS Bed Design Diagram",
+   "Quinton Q-Stress Exercise ECG System"
+  ],
+  "experiment_type_lk": [
+   "Flight Analogs Project (FAP)",
+   "NASA Bedrest Studies",
+   "NASA Ground-Based Investigations"
+  ],
+  "__record_modified_date": "2026-08-23T03:54:43.728263+00:00",
+  "__indexed": "2026-08-23T03:54:43.728263+00:00",
+  "__record_creation_date": "2022-07-28T19:54:06.856Z",
+  "keyword": [
+   "Cardiovascular physiology",
+   "Echocardiography",
+   "Physical endurance",
+   "Heart rate",
+   "Physical fitness",
+   "Cardiovascular",
+   "Blood pressure",
+   "Excertion"
+  ],
+  "keyword_name": "Excertion",
+  "__record_size": 56791,
+  "__record_version": 29,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<BR>\r\nThe objectives of this test were to screen for EKG changes, signs, and symptoms indicative of cardiovascular disease using 12-lead ECG and blood pressure measurements.  If the medical monitor determined that there was sufficient evidence of cardiovascular disease, the test subject was not allowed to remain in the study.\r\n<P>\r\nAPPROACH:<BR>\r\nThe Bruce Treadmill Stress Test was administered to screen for occult cardiovascular disease, and each subject must qualify by passing a maximal exercise graded treadmill stress test with 12-lead ECG and physician monitoring. Exercise will be performed on a treadmill. \r\n<P>\r\nThe subject was instrumented with a 12-lead ECG and a blood pressure cuff placed on the arm.  Supine resting and standing ECG and blood pressure will be measured before the start of exercise.  The exercise portion of the test will be performed on a treadmill using the standard Bruce protocol.  The first exercise stage was at a speed of 2.74 km/hr (1.7 mph) and gradient of 10%.  Every three minutes the treadmill speed and grade was increased gradually until the subject no longer kept pace with the speed of the treadmill belt, requests to stop, the subject reaches 85% of their age predicted maximum heart rate (220-age), or the medical monitor terminates the test.   The subject completed an active cool-down by walking on the treadmill at a low intensity for up to 5 minutes.  Heart rate, cardiac rhythm, and blood pressure was monitored throughout exercise and recovery.  An ACLS-certified physician monitored the test.  The Bruce Treadmill Stress Test Protocol utilized during this study included ten stages with varying speed and gradients.<P> \r\n\r\nRESULTS :<BR>\r\nThis experiment has concluded in ground-based studies sponsored by the National Aeronautics and Space Administration's Human Adaptation and Countermeasures Division. This experiment was conducted during the Lunar Analog Feasibility Study. LSDA does not expect to receive results from this study.<end>",
+  "payload_id": "LAFS",
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "BRUCE",
+  "indexed": "2026-08-23T03:54:43.728263+00:00",
+  "GUID": "cl62aze93cddt01o6et8kbut4",
+  "parameter_name": [
+   "Cumulative time",
+   "Diastolic blood pressure",
+   "Heart rate",
+   "Height",
+   "Stage",
+   "Systolic blood pressure",
+   "Treadmill grade",
+   "Treadmill speed",
+   "Weight",
+   "Electrocardiogram (ECG)",
+   "Rating of perceived exertion (RPE)"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 1437,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Cardiovascular physiology"
+  ],
+  "pme_role_with_name": [
+   "Co-Investigator: Cavanagh, Peter",
+   "Principal Investigator: Paloski, William",
+   "Technical Assistant to Principal Investigator: Everett-Downs, Meghan",
+   "Technical Assistant to Principal Investigator: Lee, Stuart"
+  ],
+  "missions": [
+   [
+    [
+     "LAFS"
+    ]
+   ]
+  ],
+  "__dirid": "2adee9cd-ed4b-5e41-8bb4-09dc06f5015f",
+  "__record_size_wo_doccontent": 56791,
+  "PI": [
+   "Paloski, William"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "BRUCE"
+  ],
+  "mission_id": [
+   [
+    [
+     "LAFS"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "proposal_date": [],
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens)"
+   ]
+  ],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Paloski, William"
+  ],
+  "program_name": [
+   "Ground"
+  ],
+  "archive_status": "No data from this study was submitted to LSDA. Please contact LSDA if you know of available data.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Ground",
+  "__source_field_concat": "LAFS cl62aze93cddt01o6et8kbut4 Excertion  N/A Graded Exercise Test to Volitional Exertion (Bruce protocol) BRUCE Ground No data from this study was submitted to LSDA. Please contact LSDA if you know of available data.",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<BR>\r\nThe objectives of this test were to screen for EKG changes, signs, and symptoms indicative of cardiovascular disease using 12-lead ECG and blood pressure measurements.  If the medical monitor determined that there was sufficient evidence of cardiovascular disease, the test subject was not allowed to remain in the study.\r\n<P>\r\nAPPROACH:<BR>\r\nThe Bruce Treadmill Stress Test was administered to screen for occult cardiovascular disease, and each subject must qualify by passing a maximal exercise graded treadmill stress test with 12-lead ECG and physician monitoring. Exercise will be performed on a treadmill. \r\n<P>\r\nThe subject was instrumented with a 12-lead ECG and a blood pressure cuff placed on the arm.  Supine resting and standing ECG and blood pressure will be measured before the start of exercise.  The exercise portion of the test will be performed on a treadmill using the standard Bruce protocol.  The first exercise stage was at a speed of 2.74 km/hr (1.7 mph) and gradient of 10%.  Every three minutes the treadmill speed and grade was increased gradually until the subject no longer kept pace with the speed of the treadmill belt, requests to stop, the subject reaches 85% of their age predicted maximum heart rate (220-age), or the medical monitor terminates the test.   The subject completed an active cool-down by walking on the treadmill at a low intensity for up to 5 minutes.  Heart rate, cardiac rhythm, and blood pressure was monitored throughout exercise and recovery.  An ACLS-certified physician monitored the test.  The Bruce Treadmill Stress Test Protocol utilized during this study included ten stages with varying speed and gradients.<P> \r\n\r\nRESULTS :<BR>\r\nThis experiment has concluded in ground-based studies sponsored by the National Aeronautics and Space Administration's Human Adaptation and Countermeasures Division. This experiment was conducted during the Lunar Analog Feasibility Study. LSDA does not expect to receive results from this study.<end>",
+  "__doi": "10.83263/zxda-d797",
+  "__doi_record_creation_date": "2026-08-23T03:54:43",
+  "__doi_record_modified_date": "2026-08-23T03:54:43"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000121",
+   "label": "BRUCE__1481246226",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Bruce Treadmill Stress Test Protocol",
+    "dataset_catalog": "BRUCE__1481246226",
+    "dataset_description": [
+     "The Bruce Treadmill Stress Test Protocol utilized during this study included ten stages with varying speed and gradients."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "BRUCE"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "307466e5-06d2-522d-b59e-970b2a2bd981",
+     "label": "BRUCE__1481246226.xlsx_LAFS_BRUCE_2010_181_040603.xlsx",
+     "type": "file",
+     "ext": "xlsx",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

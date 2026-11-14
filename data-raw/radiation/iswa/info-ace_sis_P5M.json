@@ -1,0 +1,32 @@
+{
+ "HAPI": "2.0",
+ "status": {
+  "code": 1200,
+  "message": "OK"
+ },
+ "title": "ACE RT Integral Flux of High-energy Solar Protons (5-minute averaged)",
+ "description": "ACE Real-time data: Integral Flux of High-energy Solar Protons (5-minute averaged)",
+ "startDate": "2010-03-15T00:00:00Z",
+ "stopDate": "2026-11-14T19:10:00Z",
+ "parameters": [
+  {
+   "fill": "null",
+   "length": 22,
+   "name": "Time",
+   "type": "isotime",
+   "units": "UTC"
+  },
+  {
+   "fill": "-999.9",
+   "name": "IntegralProtonFlux_10",
+   "type": "double",
+   "units": "p/(cm^2-sec-ster)"
+  },
+  {
+   "fill": "-999.9",
+   "name": "IntegralProtonFlux_30",
+   "type": "double",
+   "units": "p/(cm^2-sec-ster)"
+  }
+ ]
+}

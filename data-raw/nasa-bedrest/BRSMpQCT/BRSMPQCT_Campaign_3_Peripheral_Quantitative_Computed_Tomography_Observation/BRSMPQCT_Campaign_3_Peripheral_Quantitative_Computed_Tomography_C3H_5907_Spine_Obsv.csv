@@ -1,0 +1,291 @@
+﻿ID,Campaign,Subject,Date,Test_Phase,BR_Day,Parameter Code,Parameter Description,Value
+1,C3H,5907,1/27/2010,PRE_TEST,4,CT01RUNNUM,Run number,11469
+2,C3H,5907,1/27/2010,PRE_TEST,4,CT01ADT,Anal DT,03/24/10 12:51 PM
+3,C3H,5907,1/27/2010,PRE_TEST,4,CT01QCO,Scan QA Code,0
+4,C3H,5907,1/27/2010,PRE_TEST,4,CT01TCO,Scan Technical Code,0
+5,C3H,5907,1/27/2010,PRE_TEST,4,CT01VERT,Vertebrae analyzed,L1L2
+6,C3H,5907,1/27/2010,PRE_TEST,4,CT01CCO,Analysis Completion Code,1
+7,C3H,5907,1/27/2010,PRE_TEST,4,CT01TB01,Trabecular BMD in elliptical region in anterior midvertebral body.,0.208
+8,C3H,5907,1/27/2010,PRE_TEST,4,CT01SD01,Standard deviation of pixels in ellipse region,0.016
+9,C3H,5907,1/27/2010,PRE_TEST,4,CT01VO01,Volume of ellipse region,1.591
+10,C3H,5907,1/27/2010,PRE_TEST,4,CT01TB02,Trabecular BMD in semi-circular region in anterior mid-vertebral body.,0.201
+11,C3H,5907,1/27/2010,PRE_TEST,4,CT01SD02,Standard deviation of pixels in 2Dt region,0.012
+12,C3H,5907,1/27/2010,PRE_TEST,4,CT01VO02,Volume of 2Dtregion,2.364
+13,C3H,5907,1/27/2010,PRE_TEST,4,CT01IB01,Integral BMD of entire mid-vertebra excluding transverse elements.,0.297
+14,C3H,5907,1/27/2010,PRE_TEST,4,CT01SD03,Standard deviation of pixels of 2DI region,0.008
+15,C3H,5907,1/27/2010,PRE_TEST,4,CT01VO03,Volume of 2DIregion,16.137
+16,C3H,5907,1/27/2010,PRE_TEST,4,CT01IB02,Integral BMD of mid-vertebral body transverse and posterior elements.,0.216
+17,C3H,5907,1/27/2010,PRE_TEST,4,CT01CS01,Estimated vertebral compressive strength (BMD^2)* cross-sectional area,0.368
+18,C3H,5907,1/27/2010,PRE_TEST,4,CT01MIX1,Vertical cross sectional moment of inertia measured along x-axis. (vert csmix),1446796.500
+19,C3H,5907,1/27/2010,PRE_TEST,4,CT01MIY1,Vertical cross sectional moment of inertia measured along y-axis. (vert csmiy),738829.188
+20,C3H,5907,1/27/2010,PRE_TEST,4,CT01MIP1,Vertical polar cross sectional moment of inertia. (vert polar csmi),2185625.750
+21,C3H,5907,1/27/2010,PRE_TEST,4,CT01TB03,Trabecular BMD in region encompassing almost all trabecular bone in vertebral body,0.213
+22,C3H,5907,1/27/2010,PRE_TEST,4,CT01SD04,Standard deviation of voxels in this region,0.003
+23,C3H,5907,1/27/2010,PRE_TEST,4,CT01VO04,volume of region,4.139
+24,C3H,5907,1/27/2010,PRE_TEST,4,CT01IB03,Integral BMD in entire vertebra except for transverse elements. Similar to AP DXA,0.286
+25,C3H,5907,1/27/2010,PRE_TEST,4,CT01SD05,Standard deviation of voxels in this region,0.002
+26,C3H,5907,1/27/2010,PRE_TEST,4,CT01VO05,Volume of region,44.594
+27,C3H,5907,1/27/2010,PRE_TEST,4,CT01IB04,Integral BMD in vertebral body. Excludes  transverse elements and posterior elements. Similar to Lateral DXA,0.219
+28,C3H,5907,1/27/2010,PRE_TEST,4,CT01SD06,Standard deviation of voxels in this region,0.001
+29,C3H,5907,1/27/2010,PRE_TEST,4,CT01VO06,Volume of region,26.117
+30,C3H,5907,1/27/2010,PRE_TEST,4,CT01IB05,"Integral BMD in 3DcI region, but where endplates are excluded.",0.219
+31,C3H,5907,1/27/2010,PRE_TEST,4,CT01SD07,Standard deviation of voxels in this region,0.001
+32,C3H,5907,1/27/2010,PRE_TEST,4,CT01VO07,Volume of region,24.951
+33,C3H,5907,1/27/2010,PRE_TEST,4,CT01VC01,BMD in region encompassing vertebral cortex.,0.206
+34,C3H,5907,1/27/2010,PRE_TEST,4,CT01SD08,Standard deviation of voxels in this region,0.003
+35,C3H,5907,1/27/2010,PRE_TEST,4,CT01VO08,Volume of region,6.022
+36,C3H,5907,1/27/2010,PRE_TEST,4,CT01LE01,Length of vertebral body between its anterior aspect and anterior  aspect of spinal canal.,32.000
+37,C3H,5907,1/27/2010,PRE_TEST,4,CT01LA01,Lateral width of vertebral body at level of anterior spinal canal.,40.000
+38,C3H,5907,1/27/2010,PRE_TEST,4,CT01ACV1,Aortic Ca volumeVolume of aortic Ca in mid 20-mm of L2,0.000
+39,C3H,5907,1/27/2010,PRE_TEST,4,CT01ACM1,Aortic Ca mass Mass of aortic Ca in mid 20-mm of L2,0.000
+40,C3H,5907,1/27/2010,PRE_TEST,4,CT01ACD1,Aortic Ca density Density of aortic Ca in mid 20-mm of L2,0.000
+41,C3H,5907,1/27/2010,PRE_TEST,4,CT01VHT1,Vertebral heightDistance between superior and inferior endplates of L2,2.344
+42,C3H,5907,1/27/2010,PRE_TEST,4,CT01MEA1,Mean spinal canal areaMean area of spinal canal in L2 slices enclosed by bone,3.772
+43,C3H,5907,1/27/2010,PRE_TEST,4,CT01MXA1,Max spinal canal area Max area of spinal canal in L2 slices enclosed by bone,7.567
+44,C3H,5907,1/27/2010,PRE_TEST,4,CT01MNA1,Min spinal canal area Min area of spinal canal in L2 slices enclosed by bone,1.204
+45,C3H,5907,1/27/2010,PRE_TEST,4,CT01MEL1,Mean spinal canal AP lengthMean AP length of spinal canal in L2 slices enclosed by bone,1.413
+46,C3H,5907,1/27/2010,PRE_TEST,4,CT01MXL1,Max spinal canal AP length Max AP length of spinal canal in L2 slices enclosed by bone,1.688
+47,C3H,5907,1/27/2010,PRE_TEST,4,CT01MNL1,Min spinal canal AP length Min AP length of spinal canal in L2 slices enclosed by bone,0.938
+48,C3H,5907,1/27/2010,PRE_TEST,4,CT01MEW1,Mean spinal canal Lat widthMean Lateral width of spinal canal in L2 slices enclosed by bone,2.927
+49,C3H,5907,1/27/2010,PRE_TEST,4,CT01MXW1,Max spinal canal Lat width Max Lateral width of spinal canal in L2 slices enclosed by bone,3.938
+50,C3H,5907,1/27/2010,PRE_TEST,4,CT01MNW1,Min spinal canal Lat width MIn Lateral width of spinal canal in L2 slices enclosed by bone,1.313
+51,C3H,5907,1/27/2010,PRE_TEST,4,CT01NES1,#enclosed slicesNumber of slices fully enclosed by bone - L2,69.000
+52,C3H,5907,1/27/2010,PRE_TEST,4,CT01TB04,Trabecular BMD in elliptical region in anterior midvertebral body.,0.183
+53,C3H,5907,1/27/2010,PRE_TEST,4,CT01SD09,Standard deviation of pixels in ellipse region,0.013
+54,C3H,5907,1/27/2010,PRE_TEST,4,CT01VO09,Volume of ellipse region,1.854
+55,C3H,5907,1/27/2010,PRE_TEST,4,CT01TB05,Trabecular BMD in semi-circular region in anterior mid-vertebral body.,0.185
+56,C3H,5907,1/27/2010,PRE_TEST,4,CT01SD10,Standard deviation of pixels in 2Dt region,0.010
+57,C3H,5907,1/27/2010,PRE_TEST,4,CT01VO10,Volume of 2Dtregion,2.883
+58,C3H,5907,1/27/2010,PRE_TEST,4,CT01IB06,Integral BMD of entire mid-vertebra excluding transverse elements.,0.282
+59,C3H,5907,1/27/2010,PRE_TEST,4,CT01SD11,Standard deviation of pixels of 2DI region,0.008
+60,C3H,5907,1/27/2010,PRE_TEST,4,CT01VO11,Volume of 2Diregion,14.748
+61,C3H,5907,1/27/2010,PRE_TEST,4,CT01IB07,Integral BMD of mid-vertebral body transverse and posterior elements.,0.204
+62,C3H,5907,1/27/2010,PRE_TEST,4,CT01CS02,Estimated vertebral compressive strength (BMD^2)* cross-sectional area,0.300
+63,C3H,5907,1/27/2010,PRE_TEST,4,CT01MIX2,Vertical cross sectional moment of inertia measured along x-axis. (vert csmix),1177859.000
+64,C3H,5907,1/27/2010,PRE_TEST,4,CT01MIY2,Vertical cross sectional moment of inertia measured along y-axis. (vert csmiy),584591.250
+65,C3H,5907,1/27/2010,PRE_TEST,4,CT01MIP2,Vertical polar cross sectional moment of inertia. (vert polar csmi),1762450.250
+66,C3H,5907,1/27/2010,PRE_TEST,4,CT01TB06,Trabecular BMD in region encompassing almost all trabecular bone in vertebral body,0.192
+67,C3H,5907,1/27/2010,PRE_TEST,4,CT01SD12,Standard deviation of voxels in this region,0.002
+68,C3H,5907,1/27/2010,PRE_TEST,4,CT01VO12,Volume of region,5.095
+69,C3H,5907,1/27/2010,PRE_TEST,4,CT01IB08,Integral BMD in entire vertebra except for transverse elements. Similar to AP DXA,0.259
+70,C3H,5907,1/27/2010,PRE_TEST,4,CT01SD13,Standard deviation of voxels in this region,0.001
+71,C3H,5907,1/27/2010,PRE_TEST,4,CT01VO13,Volume of region,43.543
+72,C3H,5907,1/27/2010,PRE_TEST,4,CT01IB09,Integral BMD in vertebral body. Excludes  transverse elements and posterior elements. Similar to Lateral DXA,0.200
+73,C3H,5907,1/27/2010,PRE_TEST,4,CT01SD14,Standard deviation of voxels in this region,0.001
+74,C3H,5907,1/27/2010,PRE_TEST,4,CT01VO14,Volume of region,22.732
+75,C3H,5907,1/27/2010,PRE_TEST,4,CT01IB10,"Integral BMD in 3DcI region, but where endplates are excluded.",0.202
+76,C3H,5907,1/27/2010,PRE_TEST,4,CT01SD15,Standard deviation of voxels in this region,0.001
+77,C3H,5907,1/27/2010,PRE_TEST,4,CT01VO15,Volume of region,21.238
+78,C3H,5907,1/27/2010,PRE_TEST,4,CT01VC02,BMD in region encompassing vertebral cortex.,0.193
+79,C3H,5907,1/27/2010,PRE_TEST,4,CT01SD16,Standard deviation of voxels in this region,0.003
+80,C3H,5907,1/27/2010,PRE_TEST,4,CT01VO16,Volume of region,5.418
+81,C3H,5907,1/27/2010,PRE_TEST,4,CT01LE02,Length of vertebral body between its anterior aspect and anterior  aspect of spinal canal.,30.000
+82,C3H,5907,1/27/2010,PRE_TEST,4,CT01LA02,Lateral width of vertebral body at level of anterior spinal canal.,37.000
+83,C3H,5907,1/27/2010,PRE_TEST,4,CT01ACV2,Aortic Ca volumeVolume of aortic Ca in mid 20-mm of L1,0.000
+84,C3H,5907,1/27/2010,PRE_TEST,4,CT01ACM2,Aortic Ca mass Mass of aortic Ca in mid 20-mm of L1,0.000
+85,C3H,5907,1/27/2010,PRE_TEST,4,CT01ACD2,Aortic Ca density Density of aortic Ca in mid 20-mm of L1,0.000
+86,C3H,5907,1/27/2010,PRE_TEST,4,CT01VHT2,Vertebral heightDistance between superior and inferior endplates of L1,2.390
+87,C3H,5907,1/27/2010,PRE_TEST,4,CT01MEA2,Mean spinal canal areaMean area of spinal canal in L1 slices enclosed by bone,3.063
+88,C3H,5907,1/27/2010,PRE_TEST,4,CT01MXA2,Max spinal canal area Max area of spinal canal in L1 slices enclosed by bone,7.567
+89,C3H,5907,1/27/2010,PRE_TEST,4,CT01MNA2,Min spinal canal area Min area of spinal canal in L1 slices enclosed by bone,1.406
+90,C3H,5907,1/27/2010,PRE_TEST,4,CT01MEL2,Mean spinal canal AP lengthMean AP length of spinal canal in L1 slices enclosed by bone,1.319
+91,C3H,5907,1/27/2010,PRE_TEST,4,CT01MXL2,Max spinal canal AP length Max AP length of spinal canal in L1 slices enclosed by bone,1.406
+92,C3H,5907,1/27/2010,PRE_TEST,4,CT01MNL2,Min spinal canal AP length Min AP length of spinal canal in L1 slices enclosed by bone,1.125
+93,C3H,5907,1/27/2010,PRE_TEST,4,CT01MEW2,Mean spinal canal Lat widthMean Lateral width of spinal canal in L1 slices enclosed by bone,2.410
+94,C3H,5907,1/27/2010,PRE_TEST,4,CT01MXW2,Max spinal canal Lat width Max Lateral width of spinal canal in L1 slices enclosed by bone,3.938
+95,C3H,5907,1/27/2010,PRE_TEST,4,CT01MNW2,Min spinal canal Lat width MIn Lateral width of spinal canal in L1 slices enclosed by bone,1.031
+96,C3H,5907,1/27/2010,PRE_TEST,4,CT01NES2,#enclosed slicesNumber of slices fully enclosed by bone - L1,45.000
+97,C3H,5907,1/27/2010,PRE_TEST,4,CT01MECS,Average of calibration slope measured for all slices of acquisition.,0.633
+98,C3H,5907,1/27/2010,PRE_TEST,4,CT01MNCS,Minimum calibration slope measured for all slices of acquisition.,0.618
+99,C3H,5907,1/27/2010,PRE_TEST,4,CT01MXCS,Maximum of calibration slope measured for all slices of acquisition.,0.644
+100,C3H,5907,1/27/2010,PRE_TEST,4,CT01MECI,Average of calibration intercepts measured for all slices of acquisition.,-647.630
+101,C3H,5907,1/27/2010,PRE_TEST,4,CT01MNCI,Minimum of calibration intercept measured for all slices of acquisition.,-660.344
+102,C3H,5907,1/27/2010,PRE_TEST,4,CT01MXCI,Maximum of calibration intercept measured for all slices of acquisition.,0.000
+103,C3H,5907,1/27/2010,PRE_TEST,4,CT01MECE,Average of calibration error measured for all slices of acquisition.,1.101
+104,C3H,5907,1/27/2010,PRE_TEST,4,CT01MNCE,Minimum of calibration error measured for all slices of acquisition.,0.364
+105,C3H,5907,1/27/2010,PRE_TEST,4,CT01MXCE,Maximum of calibration slope measured for all slices of acquisition.,2.272
+106,C3H,5907,1/27/2010,PRE_TEST,4,CT011HUME,Average HU of 150 or 200 g/cc test object measured for all slices of acquisition.,1099.554
+107,C3H,5907,1/27/2010,PRE_TEST,4,CT011HUMI,Minimum HU of 150 or 200 g/cc test object  measured for all slices of acquisition.,1094.500
+108,C3H,5907,1/27/2010,PRE_TEST,4,CT011HUMX,Maximum HU of 150 or 200 g/cc test object measured for all slices of acquisition.,1104.608
+109,C3H,5907,1/27/2010,PRE_TEST,4,CT012HUME,Average HU of 75 or 100 g/cc test object measured for all slices of acquisition.,1182.675
+110,C3H,5907,1/27/2010,PRE_TEST,4,CT012HUMI,Minimum HU of 75 or 100 g/cc test object measured for all slices of acquisition.,1177.848
+111,C3H,5907,1/27/2010,PRE_TEST,4,CT012HUMX,Maximum HU of 75 or 100 g/cc test object measured for all slices of acquisition.,1186.026
+112,C3H,5907,1/27/2010,PRE_TEST,4,CT013HUME,Average HU of 0 or 50 g/cc test object measured for all slices of acquisition.,1339.065
+113,C3H,5907,1/27/2010,PRE_TEST,4,CT013HUMI,Minimum HU of 0 or 50 g/cc test object measured for all slices of acquisition.,1334.513
+114,C3H,5907,1/27/2010,PRE_TEST,4,CT013HUMX,Maximum HU of 0 or 50 g/cc test object measured for all slices of acquisition.,1343.150
+115,C3H,5907,1/27/2010,PRE_TEST,4,CT01L1BD,CT-derived simulated DXA ap dxa bmd l1,1.175
+116,C3H,5907,1/27/2010,PRE_TEST,4,CT01L1AR,CT-derived simulated DXA ap dxa area l1,10.863
+117,C3H,5907,1/27/2010,PRE_TEST,4,CT01L1BC,CT-derived simulated DXA ap dxa bmc l1,12.763
+118,C3H,5907,1/27/2010,PRE_TEST,4,CT01L1LT,CT-derived simulated DXA lat dxa bmd l1,0.725
+119,C3H,5907,1/27/2010,PRE_TEST,4,CT01L1LR,CT-derived simulated DXA lat dxa area l1,7.893
+120,C3H,5907,1/27/2010,PRE_TEST,4,CT01L1LC,CT-derived simulated DXA lat dxa bmc l1,5.720
+121,C3H,5907,1/27/2010,PRE_TEST,4,CT01L2BD,CT-derived simulated DXA ap dxa bmd l2,1.081
+122,C3H,5907,1/27/2010,PRE_TEST,4,CT01L2AR,CT-derived simulated DXA ap dxa area l2,10.450
+123,C3H,5907,1/27/2010,PRE_TEST,4,CT01L2BC,CT-derived simulated DXA ap dxa bmc l2,11.295
+124,C3H,5907,1/27/2010,PRE_TEST,4,CT01L2LT,CT-derived simulated DXA lat dxa bmd l2,0.631
+125,C3H,5907,1/27/2010,PRE_TEST,4,CT01L2LR,CT-derived simulated DXA lat dxa area l2,7.225
+126,C3H,5907,1/27/2010,PRE_TEST,4,CT01L2LC,CT-derived simulated DXA lat dxa bmc l2,4.555
+127,C3H,5907,1/27/2010,PRE_TEST,4,CT01kVP,kVp,80.000
+128,C3H,5907,1/27/2010,PRE_TEST,4,CT01SLI,slice thickness,2.500
+129,C3H,5907,1/27/2010,PRE_TEST,4,CT01PX,pixel size,0.938
+130,C3H,5907,1/27/2010,PRE_TEST,4,CT01XSIZE,matrix size in x,512.000
+131,C3H,5907,1/27/2010,PRE_TEST,4,CT01YSIZE,matrix size in y,512.000
+132,C3H,5907,1/27/2010,PRE_TEST,4,CT01NSLI,slice thickness,33.000
+133,C3H,5907,1/27/2010,PRE_TEST,4,CT01TBHT,table height,146.500
+134,C3H,5907,1/27/2010,PRE_TEST,4,CGT01HOSPNAME1,hospital name,UTMB
+135,C3H,5907,1/27/2010,PRE_TEST,4,CT01HOSPNAME2,hospital name,"Galveston,"
+136,C3H,5907,1/27/2010,PRE_TEST,4,CT01VBCSA,average vert. Cross sectional area,7.559
+137,C3H,5907,1/27/2010,PRE_TEST,4,CT01VSTR,average estimated vert compressive str,0.334
+138,C3H,5907,1/27/2010,PRE_TEST,4,CT01DTBMD2,average mid vert trab BMD,0.192
+139,C3H,5907,1/27/2010,PRE_TEST,4,CT01DTBMD3,average 3D trab BMD,0.201
+140,C3H,5907,1/27/2010,PRE_TEST,4,CT01DIBMD2,average mid vert ingl BMD incl posterior elements,0.290
+141,C3H,5907,1/27/2010,PRE_TEST,4,CT01DIBMD3,average 3D intgl BMD incl posterior element-DXA like,0.273
+142,C3H,5907,1/27/2010,PRE_TEST,4,CT01DCIBMD3,average 3D intgl BMD excl posterior element-lat DXA like,0.210
+143,C3H,5907,1/27/2010,PRE_TEST,4,APDXAL1L2,average areal AP BMD,1.129
+144,C3H,5907,1/27/2010,PRE_TEST,4,LATDXAL1L2,average areal lat BMD,0.680
+145,C3H,5907,1/27/2010,PRE_TEST,4,MCBMD,average mid vert ingl BMD excl posterior elements,0.210
+146,C3H,5907,04/05/10,POST_TEST,4,CT01RUNNUM,Run number,12424
+147,C3H,5907,04/05/10,POST_TEST,4,CT01ADT,Anal DT,04/14/10 02:38 PM
+148,C3H,5907,04/05/10,POST_TEST,4,CT01QCO,Scan QA Code,0
+149,C3H,5907,04/05/10,POST_TEST,4,CT01TCO,Scan Technical Code,0
+150,C3H,5907,04/05/10,POST_TEST,4,CT01VERT,Vertebrae analyzed,L1L2
+151,C3H,5907,04/05/10,POST_TEST,4,CT01CCO,Analysis Completion Code,1
+152,C3H,5907,04/05/10,POST_TEST,4,CT01TB01,Trabecular BMD in elliptical region in anterior midvertebral body.,0.193
+153,C3H,5907,04/05/10,POST_TEST,4,CT01SD01,Standard deviation of pixels in ellipse region,0.013
+154,C3H,5907,04/05/10,POST_TEST,4,CT01VO01,Volume of ellipse region,2.013
+155,C3H,5907,04/05/10,POST_TEST,4,CT01TB02,Trabecular BMD in semi-circular region in anterior mid-vertebral body.,0.196
+156,C3H,5907,04/05/10,POST_TEST,4,CT01SD02,Standard deviation of pixels in 2Dt region,0.010
+157,C3H,5907,04/05/10,POST_TEST,4,CT01VO02,Volume of 2Dtregion,3.463
+158,C3H,5907,04/05/10,POST_TEST,4,CT01IB01,Integral BMD of entire mid-vertebra excluding transverse elements.,0.300
+159,C3H,5907,04/05/10,POST_TEST,4,CT01SD03,Standard deviation of pixels of 2DI region,0.008
+160,C3H,5907,04/05/10,POST_TEST,4,CT01VO03,Volume of 2DIregion,16.339
+161,C3H,5907,04/05/10,POST_TEST,4,CT01IB02,Integral BMD of mid-vertebral body transverse and posterior elements.,0.216
+162,C3H,5907,04/05/10,POST_TEST,4,CT01CS01,Estimated vertebral compressive strength (BMD^2)* cross-sectional area,0.362
+163,C3H,5907,04/05/10,POST_TEST,4,CT01MIX1,Vertical cross sectional moment of inertia measured along x-axis. (vert csmix),1410268.375
+164,C3H,5907,04/05/10,POST_TEST,4,CT01MIY1,Vertical cross sectional moment of inertia measured along y-axis. (vert csmiy),709020.000
+165,C3H,5907,04/05/10,POST_TEST,4,CT01MIP1,Vertical polar cross sectional moment of inertia. (vert polar csmi),2119288.500
+166,C3H,5907,04/05/10,POST_TEST,4,CT01TB03,Trabecular BMD in region encompassing almost all trabecular bone in vertebral body,0.200
+167,C3H,5907,04/05/10,POST_TEST,4,CT01SD04,Standard deviation of voxels in this region,0.003
+168,C3H,5907,04/05/10,POST_TEST,4,CT01VO04,volume of region,5.209
+169,C3H,5907,04/05/10,POST_TEST,4,CT01IB03,Integral BMD in entire vertebra except for transverse elements. Similar to AP DXA,0.280
+170,C3H,5907,04/05/10,POST_TEST,4,CT01SD05,Standard deviation of voxels in this region,0.002
+171,C3H,5907,04/05/10,POST_TEST,4,CT01VO05,Volume of region,42.691
+172,C3H,5907,04/05/10,POST_TEST,4,CT01IB04,Integral BMD in vertebral body. Excludes  transverse elements and posterior elements. Similar to Lateral DXA,0.216
+173,C3H,5907,04/05/10,POST_TEST,4,CT01SD06,Standard deviation of voxels in this region,0.001
+174,C3H,5907,04/05/10,POST_TEST,4,CT01VO06,Volume of region,25.225
+175,C3H,5907,04/05/10,POST_TEST,4,CT01IB05,"Integral BMD in 3DcI region, but where endplates are excluded.",0.218
+176,C3H,5907,04/05/10,POST_TEST,4,CT01SD07,Standard deviation of voxels in this region,0.001
+177,C3H,5907,04/05/10,POST_TEST,4,CT01VO07,Volume of region,23.893
+178,C3H,5907,04/05/10,POST_TEST,4,CT01VC01,BMD in region encompassing vertebral cortex.,0.207
+179,C3H,5907,04/05/10,POST_TEST,4,CT01SD08,Standard deviation of voxels in this region,0.003
+180,C3H,5907,04/05/10,POST_TEST,4,CT01VO08,Volume of region,5.917
+181,C3H,5907,04/05/10,POST_TEST,4,CT01LE01,Length of vertebral body between its anterior aspect and anterior  aspect of spinal canal.,31.000
+182,C3H,5907,04/05/10,POST_TEST,4,CT01LA01,Lateral width of vertebral body at level of anterior spinal canal.,40.000
+183,C3H,5907,04/05/10,POST_TEST,4,CT01ACV1,Aortic Ca volumeVolume of aortic Ca in mid 20-mm of L2,0.000
+184,C3H,5907,04/05/10,POST_TEST,4,CT01ACM1,Aortic Ca mass Mass of aortic Ca in mid 20-mm of L2,0.000
+185,C3H,5907,04/05/10,POST_TEST,4,CT01ACD1,Aortic Ca density Density of aortic Ca in mid 20-mm of L2,0.000
+186,C3H,5907,04/05/10,POST_TEST,4,CT01VHT1,Vertebral heightDistance between superior and inferior endplates of L2,2.344
+187,C3H,5907,04/05/10,POST_TEST,4,CT01MEA1,Mean spinal canal areaMean area of spinal canal in L2 slices enclosed by bone,3.991
+188,C3H,5907,04/05/10,POST_TEST,4,CT01MXA1,Max spinal canal area Max area of spinal canal in L2 slices enclosed by bone,7.567
+189,C3H,5907,04/05/10,POST_TEST,4,CT01MNA1,Min spinal canal area Min area of spinal canal in L2 slices enclosed by bone,1.257
+190,C3H,5907,04/05/10,POST_TEST,4,CT01MEL1,Mean spinal canal AP lengthMean AP length of spinal canal in L2 slices enclosed by bone,1.382
+191,C3H,5907,04/05/10,POST_TEST,4,CT01MXL1,Max spinal canal AP length Max AP length of spinal canal in L2 slices enclosed by bone,1.594
+192,C3H,5907,04/05/10,POST_TEST,4,CT01MNL1,Min spinal canal AP length Min AP length of spinal canal in L2 slices enclosed by bone,1.031
+193,C3H,5907,04/05/10,POST_TEST,4,CT01MEW1,Mean spinal canal Lat widthMean Lateral width of spinal canal in L2 slices enclosed by bone,2.989
+194,C3H,5907,04/05/10,POST_TEST,4,CT01MXW1,Max spinal canal Lat width Max Lateral width of spinal canal in L2 slices enclosed by bone,3.938
+195,C3H,5907,04/05/10,POST_TEST,4,CT01MNW1,Min spinal canal Lat width MIn Lateral width of spinal canal in L2 slices enclosed by bone,1.406
+196,C3H,5907,04/05/10,POST_TEST,4,CT01NES1,#enclosed slicesNumber of slices fully enclosed by bone - L2,80.000
+197,C3H,5907,04/05/10,POST_TEST,4,CT01TB04,Trabecular BMD in elliptical region in anterior midvertebral body.,0.184
+198,C3H,5907,04/05/10,POST_TEST,4,CT01SD09,Standard deviation of pixels in ellipse region,0.013
+199,C3H,5907,04/05/10,POST_TEST,4,CT01VO09,Volume of ellipse region,1.749
+200,C3H,5907,04/05/10,POST_TEST,4,CT01TB05,Trabecular BMD in semi-circular region in anterior mid-vertebral body.,0.183
+201,C3H,5907,04/05/10,POST_TEST,4,CT01SD10,Standard deviation of pixels in 2Dt region,0.011
+202,C3H,5907,04/05/10,POST_TEST,4,CT01VO10,Volume of 2Dtregion,2.654
+203,C3H,5907,04/05/10,POST_TEST,4,CT01IB06,Integral BMD of entire mid-vertebra excluding transverse elements.,0.269
+204,C3H,5907,04/05/10,POST_TEST,4,CT01SD11,Standard deviation of pixels of 2DI region,0.008
+205,C3H,5907,04/05/10,POST_TEST,4,CT01VO11,Volume of 2Diregion,14.405
+206,C3H,5907,04/05/10,POST_TEST,4,CT01IB07,Integral BMD of mid-vertebral body transverse and posterior elements.,0.198
+207,C3H,5907,04/05/10,POST_TEST,4,CT01CS02,Estimated vertebral compressive strength (BMD^2)* cross-sectional area,0.283
+208,C3H,5907,04/05/10,POST_TEST,4,CT01MIX2,Vertical cross sectional moment of inertia measured along x-axis. (vert csmix),1144316.125
+209,C3H,5907,04/05/10,POST_TEST,4,CT01MIY2,Vertical cross sectional moment of inertia measured along y-axis. (vert csmiy),561164.188
+210,C3H,5907,04/05/10,POST_TEST,4,CT01MIP2,Vertical polar cross sectional moment of inertia. (vert polar csmi),1705480.250
+211,C3H,5907,04/05/10,POST_TEST,4,CT01TB06,Trabecular BMD in region encompassing almost all trabecular bone in vertebral body,0.194
+212,C3H,5907,04/05/10,POST_TEST,4,CT01SD12,Standard deviation of voxels in this region,0.003
+213,C3H,5907,04/05/10,POST_TEST,4,CT01VO12,Volume of region,4.352
+214,C3H,5907,04/05/10,POST_TEST,4,CT01IB08,Integral BMD in entire vertebra except for transverse elements. Similar to AP DXA,0.266
+215,C3H,5907,04/05/10,POST_TEST,4,CT01SD13,Standard deviation of voxels in this region,0.001
+216,C3H,5907,04/05/10,POST_TEST,4,CT01VO13,Volume of region,41.600
+217,C3H,5907,04/05/10,POST_TEST,4,CT01IB09,Integral BMD in vertebral body. Excludes  transverse elements and posterior elements. Similar to Lateral DXA,0.199
+218,C3H,5907,04/05/10,POST_TEST,4,CT01SD14,Standard deviation of voxels in this region,0.001
+219,C3H,5907,04/05/10,POST_TEST,4,CT01VO14,Volume of region,24.135
+220,C3H,5907,04/05/10,POST_TEST,4,CT01IB10,"Integral BMD in 3DcI region, but where endplates are excluded.",0.200
+221,C3H,5907,04/05/10,POST_TEST,4,CT01SD15,Standard deviation of voxels in this region,0.001
+222,C3H,5907,04/05/10,POST_TEST,4,CT01VO15,Volume of region,22.361
+223,C3H,5907,04/05/10,POST_TEST,4,CT01VC02,BMD in region encompassing vertebral cortex.,0.188
+224,C3H,5907,04/05/10,POST_TEST,4,CT01SD16,Standard deviation of voxels in this region,0.003
+225,C3H,5907,04/05/10,POST_TEST,4,CT01VO16,Volume of region,5.714
+226,C3H,5907,04/05/10,POST_TEST,4,CT01LE02,Length of vertebral body between its anterior aspect and anterior  aspect of spinal canal.,31.000
+227,C3H,5907,04/05/10,POST_TEST,4,CT01LA02,Lateral width of vertebral body at level of anterior spinal canal.,37.000
+228,C3H,5907,04/05/10,POST_TEST,4,CT01ACV2,Aortic Ca volumeVolume of aortic Ca in mid 20-mm of L1,0.000
+229,C3H,5907,04/05/10,POST_TEST,4,CT01ACM2,Aortic Ca mass Mass of aortic Ca in mid 20-mm of L1,0.000
+230,C3H,5907,04/05/10,POST_TEST,4,CT01ACD2,Aortic Ca density Density of aortic Ca in mid 20-mm of L1,0.000
+231,C3H,5907,04/05/10,POST_TEST,4,CT01VHT2,Vertebral heightDistance between superior and inferior endplates of L1,2.434
+232,C3H,5907,04/05/10,POST_TEST,4,CT01MEA2,Mean spinal canal areaMean area of spinal canal in L1 slices enclosed by bone,3.066
+233,C3H,5907,04/05/10,POST_TEST,4,CT01MXA2,Max spinal canal area Max area of spinal canal in L1 slices enclosed by bone,7.567
+234,C3H,5907,04/05/10,POST_TEST,4,CT01MNA2,Min spinal canal area Min area of spinal canal in L1 slices enclosed by bone,1.266
+235,C3H,5907,04/05/10,POST_TEST,4,CT01MEL2,Mean spinal canal AP lengthMean AP length of spinal canal in L1 slices enclosed by bone,1.465
+236,C3H,5907,04/05/10,POST_TEST,4,CT01MXL2,Max spinal canal AP length Max AP length of spinal canal in L1 slices enclosed by bone,1.969
+237,C3H,5907,04/05/10,POST_TEST,4,CT01MNL2,Min spinal canal AP length Min AP length of spinal canal in L1 slices enclosed by bone,1.031
+238,C3H,5907,04/05/10,POST_TEST,4,CT01MEW2,Mean spinal canal Lat widthMean Lateral width of spinal canal in L1 slices enclosed by bone,2.601
+239,C3H,5907,04/05/10,POST_TEST,4,CT01MXW2,Max spinal canal Lat width Max Lateral width of spinal canal in L1 slices enclosed by bone,3.938
+240,C3H,5907,04/05/10,POST_TEST,4,CT01MNW2,Min spinal canal Lat width MIn Lateral width of spinal canal in L1 slices enclosed by bone,1.313
+241,C3H,5907,04/05/10,POST_TEST,4,CT01NES2,#enclosed slicesNumber of slices fully enclosed by bone - L1,82.000
+242,C3H,5907,04/05/10,POST_TEST,4,CT01MECS,Average of calibration slope measured for all slices of acquisition.,0.621
+243,C3H,5907,04/05/10,POST_TEST,4,CT01MNCS,Minimum calibration slope measured for all slices of acquisition.,0.610
+244,C3H,5907,04/05/10,POST_TEST,4,CT01MXCS,Maximum of calibration slope measured for all slices of acquisition.,0.633
+245,C3H,5907,04/05/10,POST_TEST,4,CT01MECI,Average of calibration intercepts measured for all slices of acquisition.,-634.633
+246,C3H,5907,04/05/10,POST_TEST,4,CT01MNCI,Minimum of calibration intercept measured for all slices of acquisition.,-649.290
+247,C3H,5907,04/05/10,POST_TEST,4,CT01MXCI,Maximum of calibration intercept measured for all slices of acquisition.,0.000
+248,C3H,5907,04/05/10,POST_TEST,4,CT01MECE,Average of calibration error measured for all slices of acquisition.,0.850
+249,C3H,5907,04/05/10,POST_TEST,4,CT01MNCE,Minimum of calibration error measured for all slices of acquisition.,0.119
+250,C3H,5907,04/05/10,POST_TEST,4,CT01MXCE,Maximum of calibration slope measured for all slices of acquisition.,1.302
+251,C3H,5907,04/05/10,POST_TEST,4,CT011HUME,Average HU of 150 or 200 g/cc test object measured for all slices of acquisition.,1101.892
+252,C3H,5907,04/05/10,POST_TEST,4,CT011HUMI,Minimum HU of 150 or 200 g/cc test object  measured for all slices of acquisition.,1097.658
+253,C3H,5907,04/05/10,POST_TEST,4,CT011HUMX,Maximum HU of 150 or 200 g/cc test object measured for all slices of acquisition.,1106.074
+254,C3H,5907,04/05/10,POST_TEST,4,CT012HUME,Average HU of 75 or 100 g/cc test object measured for all slices of acquisition.,1184.972
+255,C3H,5907,04/05/10,POST_TEST,4,CT012HUMI,Minimum HU of 75 or 100 g/cc test object measured for all slices of acquisition.,1178.872
+256,C3H,5907,04/05/10,POST_TEST,4,CT012HUMX,Maximum HU of 75 or 100 g/cc test object measured for all slices of acquisition.,1189.291
+257,C3H,5907,04/05/10,POST_TEST,4,CT013HUME,Average HU of 0 or 50 g/cc test object measured for all slices of acquisition.,1343.368
+258,C3H,5907,04/05/10,POST_TEST,4,CT013HUMI,Minimum HU of 0 or 50 g/cc test object measured for all slices of acquisition.,1337.949
+259,C3H,5907,04/05/10,POST_TEST,4,CT013HUMX,Maximum HU of 0 or 50 g/cc test object measured for all slices of acquisition.,1348.475
+260,C3H,5907,04/05/10,POST_TEST,4,CT01L1BD,CT-derived simulated DXA ap dxa bmd l1,1.112
+261,C3H,5907,04/05/10,POST_TEST,4,CT01L1AR,CT-derived simulated DXA ap dxa area l1,10.767
+262,C3H,5907,04/05/10,POST_TEST,4,CT01L1BC,CT-derived simulated DXA ap dxa bmc l1,11.971
+263,C3H,5907,04/05/10,POST_TEST,4,CT01L1LT,CT-derived simulated DXA lat dxa bmd l1,0.713
+264,C3H,5907,04/05/10,POST_TEST,4,CT01L1LR,CT-derived simulated DXA lat dxa area l1,7.638
+265,C3H,5907,04/05/10,POST_TEST,4,CT01L1LC,CT-derived simulated DXA lat dxa bmc l1,5.449
+266,C3H,5907,04/05/10,POST_TEST,4,CT01L2BD,CT-derived simulated DXA ap dxa bmd l2,1.059
+267,C3H,5907,04/05/10,POST_TEST,4,CT01L2AR,CT-derived simulated DXA ap dxa area l2,10.450
+268,C3H,5907,04/05/10,POST_TEST,4,CT01L2BC,CT-derived simulated DXA ap dxa bmc l2,11.067
+269,C3H,5907,04/05/10,POST_TEST,4,CT01L2LT,CT-derived simulated DXA lat dxa bmd l2,0.632
+270,C3H,5907,04/05/10,POST_TEST,4,CT01L2LR,CT-derived simulated DXA lat dxa area l2,7.585
+271,C3H,5907,04/05/10,POST_TEST,4,CT01L2LC,CT-derived simulated DXA lat dxa bmc l2,4.792
+272,C3H,5907,04/05/10,POST_TEST,4,CT01kVP,kVp,80.000
+273,C3H,5907,04/05/10,POST_TEST,4,CT01SLI,slice thickness,2.500
+274,C3H,5907,04/05/10,POST_TEST,4,CT01PX,pixel size,0.938
+275,C3H,5907,04/05/10,POST_TEST,4,CT01XSIZE,matrix size in x,512.000
+276,C3H,5907,04/05/10,POST_TEST,4,CT01YSIZE,matrix size in y,512.000
+277,C3H,5907,04/05/10,POST_TEST,4,CT01NSLI,slice thickness,32.000
+278,C3H,5907,04/05/10,POST_TEST,4,CT01TBHT,table height,145.000
+279,C3H,5907,04/05/10,POST_TEST,4,CGT01HOSPNAME1,hospital name,UTMB
+280,C3H,5907,04/05/10,POST_TEST,4,CT01HOSPNAME2,hospital name,"Galveston,"
+281,C3H,5907,04/05/10,POST_TEST,4,CT01VBCSA,average vert. Cross sectional area,7.488
+282,C3H,5907,04/05/10,POST_TEST,4,CT01VSTR,average estimated vert compressive str,0.323
+283,C3H,5907,04/05/10,POST_TEST,4,CT01DTBMD2,average mid vert trab BMD,0.191
+284,C3H,5907,04/05/10,POST_TEST,4,CT01DTBMD3,average 3D trab BMD,0.198
+285,C3H,5907,04/05/10,POST_TEST,4,CT01DIBMD2,average mid vert ingl BMD incl posterior elements,0.285
+286,C3H,5907,04/05/10,POST_TEST,4,CT01DIBMD3,average 3D intgl BMD incl posterior element-DXA like,0.273
+287,C3H,5907,04/05/10,POST_TEST,4,CT01DCIBMD3,average 3D intgl BMD excl posterior element-lat DXA like,0.207
+288,C3H,5907,04/05/10,POST_TEST,4,APDXAL1L2,average areal AP BMD,1.086
+289,C3H,5907,04/05/10,POST_TEST,4,LATDXAL1L2,average areal lat BMD,0.673
+290,C3H,5907,04/05/10,POST_TEST,4,MCBMD,average mid vert ingl BMD excl posterior elements,0.207

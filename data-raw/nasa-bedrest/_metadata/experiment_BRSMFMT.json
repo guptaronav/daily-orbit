@@ -1,0 +1,585 @@
+{
+ "record": {
+  "id": "dcff3b64-7700-5441-b4c3-2af31b9bb7b0",
+  "_id": "dcff3b64-7700-5441-b4c3-2af31b9bb7b0",
+  "__is_locked": false,
+  "experiment_title": "Bed Rest Standard Measures: Functional Mobility Test",
+  "__source_key": "cl62azr04cdgu01o6h2f21q5j",
+  "experiment_type": [
+   [
+    "Flight Analogs Project (FAP)"
+   ],
+   [
+    "Artificial Gravity (Fractional Gravity)"
+   ],
+   [
+    "NASA Bedrest Studies"
+   ],
+   [
+    "NASA Ground-Based Investigations"
+   ]
+  ],
+  "AssignedArchivist": [
+   "Liddell, Nyaia A."
+  ],
+  "keyword": [
+   "Mobility limitation",
+   "Exercise/physiology",
+   "Locomotion",
+   "Postural equilibrium"
+  ],
+  "__record_version": 33,
+  "indexed": "2026-08-23T03:56:14.856048+00:00",
+  "GUID": "cl62azr04cdgu01o6h2f21q5j",
+  "_file_extension": "human",
+  "archive_status": "Data preservation is complete.  All datasets are publicly available.",
+  "__model_type": "lsda_experiment",
+  "__dirid": "dcff3b64-7700-5441-b4c3-2af31b9bb7b0",
+  "__record_size_wo_doccontent": 33355,
+  "__update_method": "Update CDM",
+  "experiment_identifier": [
+   "BRSMFMT"
+  ],
+  "CompleteArchivalExpectedInFiscalYear": [
+   "0"
+  ],
+  "experiment_type_lk": [
+   "Flight Analogs Project (FAP)",
+   "Artificial Gravity (Fractional Gravity)",
+   "NASA Bedrest Studies",
+   "NASA Ground-Based Investigations"
+  ],
+  "__record_modified_date": "2026-08-23T03:56:14.856048+00:00",
+  "__indexed": "2026-08-23T03:56:14.856048+00:00",
+  "__record_creation_date": "2022-07-28T19:59:07.982Z",
+  "__record_size": 33355,
+  "species_strain": [
+   [
+    "N/A"
+   ]
+  ],
+  "__model_version": 60,
+  "species_sci_name": [
+   [
+    "Homo sapiens"
+   ]
+  ],
+  "payload_id": [
+   "Campaign 5",
+   "Campaign 3",
+   "Campaign 1"
+  ],
+  "CombinedSpecies": [
+   "Human (Homo sapiens) N/A"
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "ncindex": 2,
+  "researchIndex": [
+   1088
+  ],
+  "experiment_id": "BRSMFMT",
+  "parameter_name": [
+   "Average time around course",
+   "Confidence interval for time calculations",
+   "Direction",
+   "Hits per trial ratio",
+   "Maximum time around course",
+   "Session comments",
+   "Shoulder height",
+   "Shoulder width",
+   "Standard deviation time",
+   "Test operator",
+   "Time around course",
+   "Total hits for trial",
+   "Total obstacles hit",
+   "Trial",
+   "Time around course, minimum",
+   "Obstacles hit",
+   "Standard error of the mean, time calculations"
+  ],
+  "exp_index": 1114,
+  "research_area": [
+   "Neuroscience"
+  ],
+  "species": [
+   [
+    "Human"
+   ]
+  ],
+  "pme_role_with_name": [
+   "Principal Investigator: Bloomberg, Jacob J.",
+   "Technical Assistant to Principal Investigator: Brady, Rachel"
+  ],
+  "missions": [
+   "UTMB Campaign 5",
+   "UTMB Campaign 3",
+   "UTMB Campaign 1"
+  ],
+  "PI": [
+   "Bloomberg, Jacob J."
+  ],
+  "sort": [
+   3,
+   "22f41399-748d-5f38-93f9-38600c639601"
+  ],
+  "Program": "Ground",
+  "parameter_html": "<table><tr><td>Average time around course</td></tr><tr><td>Confidence interval for time calculations</td></tr><tr><td>Direction</td></tr><tr><td>Hits per trial ratio</td></tr><tr><td>Maximum time around course</td></tr><tr><td>Session comments</td></tr><tr><td>Shoulder height</td></tr><tr><td>Shoulder width</td></tr><tr><td>Standard deviation time</td></tr><tr><td>Test operator</td></tr><tr><td>Time around course</td></tr><tr><td>Total hits for trial</td></tr><tr><td>Total obstacles hit</td></tr><tr><td>Trial</td></tr><tr><td>Time around course, minimum</td></tr><tr><td>Obstacles hit</td></tr><tr><td>Standard error of the mean, time calculations</td></tr><tr></tr></table>",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Bloomberg, Jacob J.\">Principal Investigator: Bloomberg, Jacob J.</a>",
+  "PrincipalInvestigator": [
+   "Bloomberg, Jacob J."
+  ],
+  "mission_id": [
+   "UTMB Campaign 5",
+   "UTMB Campaign 3",
+   "UTMB Campaign 1"
+  ],
+  "__source_field_concat": "human cl62azr04cdgu01o6h2f21q5j Bed Rest Standard Measures: Functional Mobility Test BRSMFMT Ground Data preservation is complete.  All datasets are publicly available.",
+  "__icon_type": "",
+  "__description": "",
+  "__doi": "10.83263/ahtd-k915",
+  "__doi_record_creation_date": "2026-08-23T03:56:14",
+  "__doi_record_modified_date": "2026-08-23T03:56:14"
+ },
+ "datasets": [
+  {
+   "key": "e4ec7f91-55c0-55b5-a4d0-cbb5cbc815c8",
+   "label": "BRSMFMT_Campaign_3_Functional_Mobility_Test",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "UTMB Bedrest Campaign 3 Functional Mobility Test",
+    "dataset_catalog": "BRSMFMT_Campaign_3_Functional_Mobility_Test",
+    "dataset_description": "The Bed Rest Standard Measure Functional Mobility Test (BRSMFMT) consists of 6 trials around the obstacle course, 3 times in one direction, 3 times in the opposite direction. The direction of each trial is recorded with completion time and obstacle data. FMT processed and summary spreadsheets contain numeric data from all sessions, and also contain a session summary for each subjects session.",
+    "processing_level": [
+     "Processed Data"
+    ],
+    "experiment_id": [
+     "BRSMFMT"
+    ]
+   },
+   "meta": "26 files \u00b7 38.4 KB",
+   "date": "2025-09-12",
+   "children": [
+    {
+     "key": "3c2f3bbf-0ebf-5a32-b22c-4caac0235ada",
+     "label": "BRSMFMT_Campaign_3_Functional_Mobility_Test_C3B_7127_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 1616,
+     "meta": "1.6 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a9473757-6af4-5a73-a6d1-7a69f096f454",
+     "label": "BRSMFMT_Campaign_3_Functional_Mobility_Test_C3A_224_Avg",
+     "type": "file",
+     "ext": "",
+     "file_size": 609,
+     "meta": "609 B",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c94358f6-2069-5443-8492-1e976754d5cf",
+     "label": "BRSMFMT_Campaign_3_Functional_Mobility_Test_C3C_All_Pre_Test_CI_Calcs",
+     "type": "file",
+     "ext": "",
+     "file_size": 234,
+     "meta": "234 B",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d9f8d2e5-e651-51fb-a861-41c31d625422",
+     "label": "BRSMFMT_Campaign_3_Functional_Mobility_Test_C3A_5788_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 3608,
+     "meta": "3.5 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7e2c60ed-5e6c-5703-98a4-ee85004d9492",
+     "label": "BRSMFMT_Campaign_3_Functional_Mobility_Test_C3A_992_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 3552,
+     "meta": "3.5 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "84f98cf6-8d33-5e2a-a4a3-8c17576f0c77",
+     "label": "BRSMFMT_Campaign_3_Functional_Mobility_Test_C3A_446_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 4217,
+     "meta": "4.1 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2d07f84a-3ff2-59d3-8b84-153b16faf5b2",
+     "label": "BRSMFMT_Campaign_3_Functional_Mobility_Test_C3B_6345_Avg",
+     "type": "file",
+     "ext": "",
+     "file_size": 323,
+     "meta": "323 B",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "338b54c8-1ab8-5a47-98ec-67727ef84ec0",
+     "label": "BRSMFMT_Campaign_3_Functional_Mobility_Test_C3B_4023_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 1510,
+     "meta": "1.5 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "44e20d95-b09f-561d-a92a-f91bc0fe59c8",
+     "label": "BRSMFMT_Campaign_3_Functional_Mobility_Test_C3C_All_Avgs",
+     "type": "file",
+     "ext": "",
+     "file_size": 688,
+     "meta": "688 B",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "74381551-d617-5d14-9763-47b8f0de0dc7",
+     "label": "BRSMFMT_Campaign_3_Functional_Mobility_Test_C3B_3768_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 1558,
+     "meta": "1.5 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7f51fb73-f98a-5db1-bdcc-6a1b61413321",
+     "label": "BRSMFMT_Campaign_3_Functional_Mobility_Test_C3C_7772_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 3351,
+     "meta": "3.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5f5336b1-6c91-559b-98c2-85501674e2e6",
+     "label": "BRSMFMT_Campaign_3_Functional_Mobility_Test_C3B_4023_Avg",
+     "type": "file",
+     "ext": "",
+     "file_size": 326,
+     "meta": "326 B",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "fab12c93-5b1d-57f6-b379-775dbff0b65a",
+     "label": "BRSMFMT_Campaign_3_Functional_Mobility_Test_C3B_All_Pre_Test_CI_Calcs",
+     "type": "file",
+     "ext": "",
+     "file_size": 374,
+     "meta": "374 B",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7741a6f1-945f-5db4-9be4-4fb9300a9f0a",
+     "label": "BRSMFMT_Campaign_3_Functional_Mobility_Test_C3A_All_Avgs",
+     "type": "file",
+     "ext": "",
+     "file_size": 1288,
+     "meta": "1.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2f0bcb04-4e23-5008-8ea8-de50db3ac850",
+     "label": "BRSMFMT_Campaign_3_Functional_Mobility_Test_C3C_7352_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 3419,
+     "meta": "3.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5fa6e42b-169d-5a3a-8bea-db3f90a0247e",
+     "label": "BRSMFMT_Campaign_3_Functional_Mobility_Test_C3B_6345_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 1554,
+     "meta": "1.5 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "07c079b1-fb01-5f66-89f4-8cd3de309e34",
+     "label": "BRSMFMT_Campaign_3_Functional_Mobility_Test_C3B_7127_Avg",
+     "type": "file",
+     "ext": "",
+     "file_size": 329,
+     "meta": "329 B",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "fbeb9a02-a886-586a-ab4c-e7d7377ffc3c",
+     "label": "BRSMFMT_Campaign_3_Functional_Mobility_Test_C3C_7352_Avg",
+     "type": "file",
+     "ext": "",
+     "file_size": 626,
+     "meta": "626 B",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3a14ad5f-bd77-520d-a6ea-b22fe5541cc5",
+     "label": "BRSMFMT_Campaign_3_Functional_Mobility_Test_C3A_5788_Avg",
+     "type": "file",
+     "ext": "",
+     "file_size": 629,
+     "meta": "629 B",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "738ea295-07e7-5525-9722-3ffda9f0e3f2",
+     "label": "BRSMFMT_Campaign_3_Functional_Mobility_Test_C3A_446_Avg",
+     "type": "file",
+     "ext": "",
+     "file_size": 630,
+     "meta": "630 B",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a86afb97-1e4b-5a20-86a3-447b07bcaa8a",
+     "label": "BRSMFMT_Campaign_3_Functional_Mobility_Test_C3B_All_Avgs",
+     "type": "file",
+     "ext": "",
+     "file_size": 541,
+     "meta": "541 B",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ce658013-c4c0-5994-9aed-4b0a70e428c7",
+     "label": "BRSMFMT_Campaign_3_Functional_Mobility_Test_C3B_3768_Avg",
+     "type": "file",
+     "ext": "",
+     "file_size": 330,
+     "meta": "330 B",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2d40fff1-f648-597b-8e27-a9f8a9983346",
+     "label": "BRSMFMT_Campaign_3_Functional_Mobility_Test_C3A_All_Pre_Test_CI_Calcs",
+     "type": "file",
+     "ext": "",
+     "file_size": 372,
+     "meta": "372 B",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e3acfb83-ecec-50a6-ba8a-28188d35e3ea",
+     "label": "BRSMFMT_Campaign_3_Functional_Mobility_Test_C3A_224_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 3465,
+     "meta": "3.4 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "fd96c11e-dd30-5ae0-8d1b-85e74d991d99",
+     "label": "BRSMFMT_Campaign_3_Functional_Mobility_Test_C3A_992_Avg",
+     "type": "file",
+     "ext": "",
+     "file_size": 3552,
+     "meta": "3.5 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "780dcecf-9180-5c92-98d0-57ea640665e0",
+     "label": "BRSMFMT_Campaign_3_Functional_Mobility_Test_C3C_7772_Avg",
+     "type": "file",
+     "ext": "",
+     "file_size": 622,
+     "meta": "622 B",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "5fca791c-e1b8-5ee8-aba0-c6220789547e",
+   "label": "BRSMFMT_Campaign_1_Functional_Mobility_Test",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "UTMB Bedrest Campaign 1 Functional Mobility Test",
+    "dataset_catalog": "BRSMFMT_Campaign_1_Functional_Mobility_Test",
+    "dataset_description": "This dataset contains data from the Functional Mobility Test as performed on the Campaign 1 Bed Rest Project. It consists of 6 trials around the obstacle course, 3 times in one direction, 3 times in the opposite direction.",
+    "processing_level": "Processed Data",
+    "experiment_id": [
+     "BRSMFMT"
+    ]
+   },
+   "meta": "14 files \u00b7 175.3 KB",
+   "date": "2025-04-15",
+   "children": [
+    {
+     "key": "2106a343-76b6-5563-960e-9eed4cdbf339",
+     "label": "BRSMFMT_Campaign_1_Functional_Mobility_Test_Chart_Subject_1",
+     "type": "file",
+     "ext": "",
+     "file_size": 27816,
+     "meta": "27.2 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6de7005a-e96d-564c-a4e6-50bb48b909c7",
+     "label": "BRSMFMT_Campaign_1_Functional_Mobility_Test_FMT_Subject_3",
+     "type": "file",
+     "ext": "",
+     "file_size": 27648,
+     "meta": "27.0 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "adccbe84-f631-58c9-b251-5a510b07a499",
+     "label": "BRSMFMT_Campaign_1_Functional_Mobility_Test_Avgs_Subject_3",
+     "type": "file",
+     "ext": "",
+     "file_size": 410,
+     "meta": "410 B",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2ec6b043-dca4-5cca-a128-5d96ef1aa77f",
+     "label": "BRSMFMT_Campaign_1_Functional_Mobility_Test_Obsv_All",
+     "type": "file",
+     "ext": "",
+     "file_size": 9145,
+     "meta": "8.9 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d155a83a-564d-53df-bf95-fab243b66be1",
+     "label": "BRSMFMT_Campaign_1_Functional_Mobility_Test_Avgs_Subject_1",
+     "type": "file",
+     "ext": "",
+     "file_size": 414,
+     "meta": "414 B",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2a1fbad7-959a-5253-8f30-2bee42a10df4",
+     "label": "BRSMFMT_Campaign_1_Functional_Mobility_Test_Chart_Subject_3",
+     "type": "file",
+     "ext": "",
+     "file_size": 26560,
+     "meta": "25.9 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b53b4d59-70dd-5026-a515-f1d831ffedf1",
+     "label": "BRSMFMT_Campaign_1_Functional_Mobility_Test_Chart_Subject_2",
+     "type": "file",
+     "ext": "",
+     "file_size": 25095,
+     "meta": "24.5 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "fb3598af-1d29-520b-9656-d52121056c82",
+     "label": "BRSMFMT_Campaign_1_Functional_Mobility_Test_Obsv_Subject_2",
+     "type": "file",
+     "ext": "",
+     "file_size": 3193,
+     "meta": "3.1 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "de65b904-0672-5a20-af83-a9c550b26185",
+     "label": "BRSMFMT_Campaign_1_Functional_Mobility_Test_ Avgs_All",
+     "type": "file",
+     "ext": "",
+     "file_size": 1092,
+     "meta": "1.1 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "722ed4d0-1a4b-557f-87e8-a1d1f82ca572",
+     "label": "BRSMFMT_Campaign_1_Functional_Mobility_Test_FMT_Subject_2",
+     "type": "file",
+     "ext": "",
+     "file_size": 24883,
+     "meta": "24.3 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ad97fa66-5803-5c04-8920-a537967b2615",
+     "label": "BRSMFMT_Campaign_1_Functional_Mobility_Test_Obsv_Subject_1",
+     "type": "file",
+     "ext": "",
+     "file_size": 3157,
+     "meta": "3.1 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0a349d10-e823-5dd5-aa5d-82565b7c7290",
+     "label": "BRSMFMT_Campaign_1_Functional_Mobility_Test_Obsv_Subject_3",
+     "type": "file",
+     "ext": "",
+     "file_size": 3144,
+     "meta": "3.1 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4f3c1231-6e23-5e1e-8e0a-a06b7ef4828e",
+     "label": "BRSMFMT_Campaign_1_Functional_Mobility_Test_FMT_Subject_1",
+     "type": "file",
+     "ext": "",
+     "file_size": 26498,
+     "meta": "25.9 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "65fcba93-f7de-5f72-97b7-6b61a0710c01",
+     "label": "BRSMFMT_Campaign_1_Functional_Mobility_Test_ Avgs_Subject_2",
+     "type": "file",
+     "ext": "",
+     "file_size": 412,
+     "meta": "412 B",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

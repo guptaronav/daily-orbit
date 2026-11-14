@@ -1,0 +1,42 @@
+{
+ "HAPI": "2.0",
+ "status": {
+  "code": 1200,
+  "message": "OK"
+ },
+ "startDate": "2011-06-27T23:57:50Z",
+ "stopDate": "2012-11-13T07:39:28Z",
+ "parameters": [
+  {
+   "fill": "null",
+   "length": 22,
+   "name": "Time",
+   "type": "isotime",
+   "units": "UTC"
+  },
+  {
+   "fill": "null",
+   "name": "ParticleFlux",
+   "type": "double",
+   "units": "part/(s cm^2 sr)"
+  },
+  {
+   "fill": "null",
+   "name": "LETSi",
+   "type": "double",
+   "units": "[(Kev/um) / (s cm^2 sr)]"
+  },
+  {
+   "fill": "null",
+   "name": "Dose_in_water",
+   "type": "double",
+   "units": "nGy/s"
+  },
+  {
+   "fill": "null",
+   "name": "EquivalentDose_in_water",
+   "type": "double",
+   "units": "nSv/s"
+  }
+ ]
+}

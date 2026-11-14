@@ -1,0 +1,175 @@
+{
+ "record": {
+  "id": "e6c81667-e438-5a29-a928-f802387d6e9e",
+  "_id": "e6c81667-e438-5a29-a928-f802387d6e9e",
+  "experiment_title": "Rodent Research 2 (RR2)",
+  "archive_status_index": 6,
+  "parameter_html": "None",
+  "__source_key": "cl62auvw6cc3s01o6g3gbacj2",
+  "experiment_type_lk": [
+   "International Space Station (ISS)"
+  ],
+  "__record_modified_date": "2026-08-31T22:17:11.997Z",
+  "__indexed": "2026-08-31T22:17:11.997Z",
+  "__record_creation_date": "2022-07-28T19:42:35.257Z",
+  "keyword": [
+   "Bone density",
+   "Bone resorption"
+  ],
+  "keyword_name": "Bone resorption",
+  "__record_size": 58226,
+  "__record_version": 30,
+  "__model_version": 423,
+  "experiment_description": "<p>OBJECTIVES:<br>\r\nThe Rodent Research 2 study was sponsored by the Center for Advancement of Science in Space (CASIS), who collaborated with Novartis (lead scientist, Samuel Cadena) to characterize changes in the musculoskeletal tissues of mice exposed to varied lengths of spaceflight exposure.</p>\r\n\r\n<p>The primary objective of the study was to evaluate molecular changes in hind limb tissues of mice and correlate these with changes in structure, morphology, materials properties, and function of muscle and bone. The secondary objective was to examine other organ systems for molecular and morphological changes as a function of duration of spaceflight exposure in order to further characterize the potential use of mice in space to model human cardiovascular, immunological, ocular, metabolic and neurological diseases and disorders.</p>\r\n\r\n<p>Specifically, this flight study had three aims:<br>\r\n1. To evaluate muscle atrophy and bone loss under microgravity conditions and to identify molecular pathways and targets that could be used to develop novel therapeutics for muscle disease.<br>\r\n2. To quantify changes in various molecular markers from several tissues including whole blood, brain, heart, lungs, kidney/adrenal glands, liver, spleen, and small intestines.<br>\r\n3: To characterize the magnitude and time-course of bone loss during spaceflight exposure for future commercial bone drug testing.</p>\r\n\r\n<p>APPROACH:<br>\r\nTo evaluate structural and molecular changes over time, twenty wild-type female C57BL/6J mice were divided into four groups of five, which were processed identically: anesthetization and a scan using a bone densitometer, exsanguination via cardiac puncture, right and left hind limb removal, left eye removal, and preservation of the carcasses by freezing. The mice were processed over four dissection sessions throughout the mission after one week (Group 1), fifteen days (Group 2), twenty-seven days (Group 3), and fifty-four days (Group 4) of microgravity exposure after launch.</p> \r\n\r\n<p>The ground control experiments were conducted on a four-day delay from the on-orbit experiment. The mice were housed in the environmental simulators and planned and non-planned events (such as unexpected power losses) were replicated for ground controls. Ground control procedures followed strict timelines from on-orbit time logs. The same kits and hardware were also used on the ground, whenever necessary, to replicate the flight operations. The major difference between the on-orbit and ground control animals was that the ground control procedures were conducted on a standard laboratory work bench instead of a simulation of the Microgravity Sciences Glovebox. Also, the on-orbit habitats were warmer by approximately 2 degrees Celsius.</p> \r\n\r\n<p>Following on-orbit operations, the tissues were returned to Earth for evaluation.</p>\r\n\r\n<p>RESULTS:\r\nResults for this experiment are not targeted for archiving.</p>",
+  "payload_id": "RR2C",
+  "CombinedSpecies": [
+   [
+    "Mouse (Mus musculus) C57BL/6"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "ARC00XX197",
+  "indexed": "2026-08-31T22:17:11.997Z",
+  "GUID": "cl62auvw6cc3s01o6g3gbacj2",
+  "payload_part": "N/A",
+  "exp_index": 13960,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Skeletal physiology"
+  ],
+  "missions": [
+   [
+    [
+     "SpaceX_6"
+    ]
+   ]
+  ],
+  "__dirid": "e6c81667-e438-5a29-a928-f802387d6e9e",
+  "__record_size_wo_doccontent": 58226,
+  "__update_method": "Update Data",
+  "_file_extension": [],
+  "parameter_name": "experiment_parms",
+  "experiment_identifier": [
+   "ARC00XX197"
+  ],
+  "mission_id": [
+   [
+    [
+     "SpaceX_6"
+    ]
+   ]
+  ],
+  "center": [
+   "Ames Research Center"
+  ],
+  "ncindex": [
+   7
+  ],
+  "proposal_source": [],
+  "proposal_date": [],
+  "species": [
+   "Mouse"
+  ],
+  "program_name": [
+   "International Space Station (ISS)"
+  ],
+  "archive_status": "Data from this study is held by another repository. For more information, please contact LSDA.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "International Space Station (ISS)",
+  "__source_field_concat": "RR2C cl62auvw6cc3s01o6g3gbacj2 None Bone resorption  N/A Rodent Research 2 (RR2) ARC00XX197 International Space Station (ISS) Data from this study is held by another repository. For more information, please contact LSDA. experiment_parms",
+  "__icon_type": "mouse",
+  "__description": "<p>OBJECTIVES:<br>\r\nThe Rodent Research 2 study was sponsored by the Center for Advancement of Science in Space (CASIS), who collaborated with Novartis (lead scientist, Samuel Cadena) to characterize changes in the musculoskeletal tissues of mice exposed to varied lengths of spaceflight exposure.</p>\r\n\r\n<p>The primary objective of the study was to evaluate molecular changes in hind limb tissues of mice and correlate these with changes in structure, morphology, materials properties, and function of muscle and bone. The secondary objective was to examine other organ systems for molecular and morphological changes as a function of duration of spaceflight exposure in order to further characterize the potential use of mice in space to model human cardiovascular, immunological, ocular, metabolic and neurological diseases and disorders.</p>\r\n\r\n<p>Specifically, this flight study had three aims:<br>\r\n1. To evaluate muscle atrophy and bone loss under microgravity conditions and to identify molecular pathways and targets that could be used to develop novel therapeutics for muscle disease.<br>\r\n2. To quantify changes in various molecular markers from several tissues including whole blood, brain, heart, lungs, kidney/adrenal glands, liver, spleen, and small intestines.<br>\r\n3: To characterize the magnitude and time-course of bone loss during spaceflight exposure for future commercial bone drug testing.</p>\r\n\r\n<p>APPROACH:<br>\r\nTo evaluate structural and molecular changes over time, twenty wild-type female C57BL/6J mice were divided into four groups of five, which were processed identically: anesthetization and a scan using a bone densitometer, exsanguination via cardiac puncture, right and left hind limb removal, left eye removal, and preservation of the carcasses by freezing. The mice were processed over four dissection sessions throughout the mission after one week (Group 1), fifteen days (Group 2), twenty-seven days (Group 3), and fifty-four days (Group 4) of microgravity exposure after launch.</p> \r\n\r\n<p>The ground control experiments were conducted on a four-day delay from the on-orbit experiment. The mice were housed in the environmental simulators and planned and non-planned events (such as unexpected power losses) were replicated for ground controls. Ground control procedures followed strict timelines from on-orbit time logs. The same kits and hardware were also used on the ground, whenever necessary, to replicate the flight operations. The major difference between the on-orbit and ground control animals was that the ground control procedures were conducted on a standard laboratory work bench instead of a simulation of the Microgravity Sciences Glovebox. Also, the on-orbit habitats were warmer by approximately 2 degrees Celsius.</p> \r\n\r\n<p>Following on-orbit operations, the tissues were returned to Earth for evaluation.</p>\r\n\r\n<p>RESULTS:\r\nResults for this experiment are not targeted for archiving.</p>",
+  "__doi": "10.83263/yebg-ja53",
+  "__doi_record_creation_date": "2026-08-23T04:07:44",
+  "__doi_record_modified_date": "2026-08-23T04:07:44"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000500",
+   "label": "ARC00XX197__40105632",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Rodent Research 2 (RR2) Environmental Monitoring and Acceleration Data, SpaceX Dragon Spacecraft",
+    "dataset_catalog": "ARC00XX197__40105632",
+    "dataset_description": [
+     "<p>This portion of Series I of the Rodent Research 2 data collection contains environmental monitoring data for the experiment while it was carried aboard the SpaceX-6 Dragon spacecraft.</p>\r\n\r\n<p>The SpaceX6_Data directory contains datasets collected from the Dragon spacecraft. Included within are Dragon sensor locations and temperature and humidity data collected from loggers within the flight and ground transporters (SN 209 and SN 210).</p>\r\n\r\n<p>The SpX-6_LaunchData, SpX-6_ProcessedFlightData and SpX-6_ReturnData subdirectories include sensor readings of environmental conditions in the cabin of the spacecraft (i.e. relative humidity, pressure, temperature, carbon dioxide, and oxygen concentration), as well as cabin acceleration, acoustic noise levels, and vibration loads during launch and ascent.</p>"
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "ARC00XX197"
+    ]
+   },
+   "meta": "0 files",
+   "date": "2022-07-28",
+   "children": []
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001336",
+   "label": "ARC00XX197__41201675",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Guide to the Rodent Research 2 Payload (Mission ID: SpaceX-6) Project Data Collection",
+    "dataset_catalog": "ARC00XX197__41201675",
+    "dataset_description": [
+     "<p>Abstract<br />\r\nThe Rodent Research 2 Payload Project Data Collection, a part of the Rodent Research Record Group, contains raw, processed, and analyzed datasets resulting from NASA Ames Research Center-managed rodent experiments conducted aboard the International Space Station. The collection includes environmental monitoring data recorded during transport to the International Space Station via the SpaceX-6 Dragon vehicle, on the station, and on the ground at Kennedy Space center. Also included are dissection and animal maintenance data.</p>\r\n\r\n<p>Dates<br />\r\nInclusive: June 2015- June 2016<br />\r\nBulk: 2015</p>\r\n\r\n<p>Arrangement<br />\r\nThe collection is organized by function and format, chronologically, into two series:\r\n\r\n<p>I. Environmental Monitoring Data<br />\r\nII. Operations (Dissection and Maintenance Data Sheets and Logs)</p>\r\n\r\n<p>Series Descriptions</p>\r\n\r\n<p>I. Environmental Monitoring Data<br />\r\nThis series primarily consists of raw, reduced, and processed data detailing the environmental conditions in the Animal Enclosure Module Transporter (AEM-T) aboard the SpaceX-6 Dragon spacecraft, in the habitat modules (AEM-X) on the International Space Station (ISS), and in associated ground controls at Kennedy Space Center.</p>\r\n\r\n<p>Series II. Operations, Dissection and Maintenance Data Sheets and Logs<br />\r\nThis series contains documentation of animal dissection and maintenance operations from flight and ground activities, including dissection timetables, data sheets and associated console logs, pre-flight animal maintenance tables, and crew activity timetables.</p>"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "ARC00XX197"
+    ]
+   },
+   "meta": "0 files",
+   "date": "2022-07-28",
+   "children": []
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001197",
+   "label": "ARC00XX197__4124150",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Rodent Research 2 (RR2) Environmental Monitoring Data",
+    "dataset_catalog": "ARC00XX197__4124150",
+    "dataset_description": [
+     "<p>This portion of Series I of the Rodent Research 2 data collection contains environmental monitoring data for the Rodent Research experiment on the International Space Station (ISS), and in associated ground controls at Kennedy Space Center.</p>\r\n\r\n<p>The Flight_and_Ground directory contains environmental data collected for the habitat modules. Flight and ground telemetry subdirectories include temperature and humidity data, video and lighting status, and schedules. The data were logged as raw files (csv format), reduced data (csv format), and processed data. Descriptions of the data and how it was processed and analylzed are provided in \"Read me\" file in the directory.</p>\r\n\r\n<p>The NRT_ListRequests subdirectory includes analysis of the flight data, including files with data retrieved through EHS NRT requests that were merged with Acquisition of Signal (AOS)/Loss of Signal (LOS) data from the entire mission.  LOS was not an issue for the ground control habitats. Complete AOS/LOS data were only retrieved for the last few weeks of the mission. Rodent Habitat 2 (RH 2 , SN 209) and 4 (RH 4, SN 210) NRT requests used to generate these files were sampled at five-minute intervals.</p>"
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "ARC00XX197"
+    ]
+   },
+   "meta": "0 files",
+   "date": "2022-07-28",
+   "children": []
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000531",
+   "label": "ARC00XX197__40115521",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Rodent Research 2 (RR2) Dissection and Maintenance Data Sheets and Logs",
+    "dataset_catalog": "ARC00XX197__40115521",
+    "dataset_description": [
+     "<p>This subseries of the Rodent Research 2 data collection contains documentation of animal dissection and maintenance operations, including dissection timetables, data sheets and associated console logs, pre-flight animal maintenance tables, and crew activity timetables.</p>\r\n\r\n<p><i>Dissection_Console_Logs and Dissection_Logs</i> detail operations activities and associated performance times. All files are organized by calendar year day.</p>\r\n\r\n<p><i>GC_DissectionDataSheets</i> contains data sheets detailing ground control dissection operations.</p>"
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "ARC00XX197"
+    ]
+   },
+   "meta": "0 files",
+   "date": "2022-07-28",
+   "children": []
+  }
+ ]
+}

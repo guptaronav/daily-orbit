@@ -1,0 +1,415 @@
+{
+ "record": {
+  "id": "6a4d44ae-568d-51b7-9390-70706fff7a7c",
+  "_id": "6a4d44ae-568d-51b7-9390-70706fff7a7c",
+  "experiment_title": "Renal Stone Risk During Space Flight:  Assessment and Countermeasure Validation",
+  "archive_status_index": 2,
+  "pub_document_number": "PUB001957",
+  "experiment_alias": [
+   "Renal Stone",
+   "Renal",
+   "E057"
+  ],
+  "parameter_html": "<table><tr><td>Brushite</td></tr><tr><td>Calcium</td></tr><tr><td>Calcium oxalate</td></tr><tr><td>Citrate</td></tr><tr><td>Creatinine</td></tr><tr><td>Dietary intake</td></tr><tr><td>Magnesium</td></tr><tr><td>Oxalate</td></tr><tr><td>Phosphorus</td></tr><tr><td>Potassium</td></tr><tr><td>Sodium</td></tr><tr><td>Sodium urate</td></tr><tr><td>Struvite</td></tr><tr><td>Sulfate</td></tr><tr><td>Uric acid</td></tr><tr><td>Uric acid saturation</td></tr><tr><td>Urinary pH</td></tr><tr><td>Medication dosage</td></tr><tr><td>Urine volume</td></tr><tr></tr></table>",
+  "__source_key": "cl62axuvbcd0o01o6f44weep9",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Whitson, Peggy\">Principal Investigator: Whitson, Peggy</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Jones, Jeffrey\">Co-Investigator: Jones, Jeffrey</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Pak, Charles\">Co-Investigator: Pak, Charles</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Pietrzyk, Robert\">Co-Investigator: Pietrzyk, Robert</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Sams, Clarence\">Co-Investigator: Sams, Clarence</a>",
+  "image_name": [
+   "Bar Code Reader (BCR) Bag",
+   "Crew Training for the Renal Stone Experiment",
+   "Food, Fluid and Activity Logbook",
+   "ISS Bar Code Reader (BCR) Assembly",
+   "Potassium Citrate/Placebo Blister Packs",
+   "Potassium Citrate/Placebo Kit",
+   "Potassium Citrate/Placebo Pallet",
+   "Renal Stone Experiment  Flight Kits",
+   "Renal Stone Experiment Sample Processing",
+   "Renal Stone Flight Hardware Stowage",
+   "Sample Logbook",
+   "Sample Tube Dispenser-Renal Stone Experiment",
+   "Urine Collection Device (UCD)",
+   "Urine Collection Device (UCD) Adapters (female)",
+   "Urine Collection Device (UCD) Adapters (male)",
+   "Urine Collection Device (UCD) Quick Disconnect",
+   "Urine Collection Kit (UCK)",
+   "Urine Containment Bag (UCB)",
+   "Urine Sample Tubes",
+   "Urine Syringe Adapter Assembly",
+   "Urine Tube Dispenser",
+   "White Cap Syringe"
+  ],
+  "experiment_type_lk": [
+   "International Space Station (ISS)",
+   "Non-exercise Physiological Countermeasure (NxPCM) Project"
+  ],
+  "__record_modified_date": "2026-08-23T04:12:01.785489+00:00",
+  "__indexed": "2026-08-23T04:12:01.785489+00:00",
+  "alias": [
+   "Renal Stone",
+   "Renal",
+   "E057"
+  ],
+  "__record_creation_date": "2022-07-28T20:06:30.056Z",
+  "keyword": [
+   "Kidney calculi",
+   "Potassium",
+   "Body weight",
+   "Exercise",
+   "Urine",
+   "Food intake"
+  ],
+  "keyword_name": "Food intake",
+  "__record_size": 117229,
+  "__record_version": 29,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<BR>\r\nThe purpose of this study was to assess the renal stone-forming potential of humans as a function of mission duration and to determine how long after space flight the increased risk exists.  In addition to the analyses of mineral components, this study was designed to determine levels of the naturally occurring urinary protein inhibitors of calcium crystallization. This investigation provides a direct understanding of and overcoming human limitations in space that may affect crew health and potentially mission success. If a crewmember were to develop a kidney stone, only supportive action is possible at this time. Medical support would involve pain relief through on-board medication with the hope that the crewmember would pass the stone over time. The afflicted crewmember may not be able to perform his/her duties or, more significant, cause the mission to be aborted and return to Earth.<P>\r\nPrevious data have demonstrated that human exposure to the microgravity environment of space increases the risk of renal stone development during and immediately after space flight.  In-flight assessment has shown a greater risk of calcium oxalate, calcium phosphate and sodium urate stones.  Postflight changes to the urinary chemical composition increase the risk of uric acid and calcium oxalate stone formation.  \r\n<P>\r\nAstronauts in the U.S. program have experienced multiple postflight stone events (2\r\ncrewmembers had 2 postflight stones). The length of time for appearance of symptomatic stone\r\nformation ranged from 9-120 months. Six of these postflight stones have occurred since 1994\r\nand have taken place concurrently with the beginning of the extended shuttle missions of greater\r\nthan 12 days in space. Discussions with Russian medical science investigators have noted\r\nmultiple stone events among cosmonauts, with one in-flight renal stone episode nearly causing\r\nthe crewmember to abort the mission. These epidemiologic data may suggest that that risk of\r\nstone formation may extend beyond the testing period implemented during this investigation in\r\nsome crewmembers.\r\n<P>\r\nAPPROACH:<BR>\r\nPotassium citrate (K-cit), a proven Earth-based therapy to minimize calcium-containing renal stone development, was tested during space flight as a countermeasure to reduce the risk of renal stone formation.  Preflight baseline data collection sessions were performed at approximately L-180, L-60 and L-45 days. Two 10 mEq potassium citrate tablets (total dose 20 mEq) or placebo were ingested daily with the evening meal beginning three days before launch, all days during flight, and following landing through R+14. Urine was collected before, during, and after flight.  Food, fluid, exercise, and medications were monitored  before and during the urine collection period in order to assess environmental influences other than microgravity.   During ISS operations, 24 hour urine collections and 48 hour dietary monitoring were performed early (< FD 30), mid-mission (FD30-FD100), and late (within 30 days of landing). Postflight urine and dietary monitoring were performed at approximately R+0-2, R+7 and R+14 days.\r\n<P>\r\nSubjects were active astronauts and cosmonauts who were certified for space flight. There were\r\nno gender specific requirements, therefore both male and female crewmembers participated in this\r\nstudy. This investigation was designed as a double blind study with neither the investigators nor\r\nthe subjects knowing whether the subjects were ingesting potassium citrate or placebo.\r\n<P>\r\nRESULTS:<BR>\r\nThis investigation was successfully completed by 19 crewmembers. The majority of renal stones are composed of calcium containing salts. The risk of calcium oxalate stone formation as determined by the urinary supersaturation of calcium oxalate was observed to be lower in the potassium citrate treated group. The decreased risk was evident during the in-flight and immediate postflight assessment sessions. The risk of calcium phosphate (brushite) risk followed the same trend observed with the risk of calcium oxalate stone formation.\r\n<P>\r\nThis study also evaluated the effect of fluid intake and urinary output on the supersaturation of\r\nthe urine and the potential risk of stone formation. Regarding the correlation between 24-hr urinary volume and the risk of calcium oxalate stone development, data indicate an inverse relationship between urine volume and risk of calcium oxalate stone formation. \r\n<P>\r\nApproval for elimination of the double blind requirement was received from NASA in December, 2005. As a result, the participating crewmembers ingested only potassium citrate as a countermeasure to the risk of renal stone formation. Data from all the ISS missions were combined for a detailed analysis involving statistical analysis and evaluation of the pharmacologic countermeasure to reduce the risk of stone formation.<P>\r\nPotassium citrate-treated crew members had decreased urinary calcium excretion and maintained the calcium oxalate supersaturation risk at preflight levels compared to that in controls. Increased urinary pH in the treatment group decreased the risk of uric acid stones. Results from this investigation suggest that supplementation with potassium citrate may decrease the risk of renal stone formation during and immediately after spaceflight.",
+  "payload_id": "HRF5",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "96-E057",
+  "indexed": "2026-08-23T04:12:01.785489+00:00",
+  "experiment_related": [
+   "DSO 610",
+   "DSO 464",
+   "9401651",
+   "2.1.3"
+  ],
+  "GUID": "cl62axuvbcd0o01o6f44weep9",
+  "parameter_name": [
+   "Brushite",
+   "Calcium",
+   "Calcium oxalate",
+   "Citrate",
+   "Creatinine",
+   "Dietary intake",
+   "Magnesium",
+   "Oxalate",
+   "Phosphorus",
+   "Potassium",
+   "Sodium",
+   "Sodium urate",
+   "Struvite",
+   "Sulfate",
+   "Uric acid",
+   "Uric acid saturation",
+   "Urinary pH",
+   "Medication dosage",
+   "Urine volume"
+  ],
+  "exp_index": 902,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Renal, fluid and electrolyte physiology",
+   "Skeletal physiology",
+   "Endocrinology"
+  ],
+  "pme_role_with_name": [
+   "Astronaut: Eyharts, Leopold",
+   "Astronaut: Reiter, Thomas",
+   "Co-Investigator: Jones, Jeffrey",
+   "Co-Investigator: Pak, Charles",
+   "Co-Investigator: Pietrzyk, Robert",
+   "Co-Investigator: Sams, Clarence",
+   "Principal Investigator: Whitson, Peggy",
+   "Technical Assistant to Principal Investigator: Hudson, Ed",
+   "Technical Assistant to Principal Investigator: Nelman, Mayra"
+  ],
+  "missions": [
+   [
+    [
+     "Expedition 5"
+    ]
+   ],
+   [
+    [
+     "Expedition 6"
+    ]
+   ],
+   [
+    [
+     "Expedition 8"
+    ]
+   ],
+   [
+    [
+     "Expedition 11"
+    ]
+   ],
+   [
+    [
+     "Expedition 12"
+    ]
+   ],
+   [
+    [
+     "Expedition 13"
+    ]
+   ],
+   [
+    [
+     "Expedition 14"
+    ]
+   ],
+   [
+    [
+     "Expedition 4"
+    ]
+   ],
+   [
+    [
+     "Expedition 3"
+    ]
+   ]
+  ],
+  "__dirid": "6a4d44ae-568d-51b7-9390-70706fff7a7c",
+  "__record_size_wo_doccontent": 117229,
+  "PI": [
+   "Whitson, Peggy"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "96-E057",
+   "Renal Stone",
+   "Renal",
+   "E057"
+  ],
+  "mission_id": [
+   [
+    [
+     "Expedition 5"
+    ]
+   ],
+   [
+    [
+     "Expedition 6"
+    ]
+   ],
+   [
+    [
+     "Expedition 8"
+    ]
+   ],
+   [
+    [
+     "Expedition 11"
+    ]
+   ],
+   [
+    [
+     "Expedition 12"
+    ]
+   ],
+   [
+    [
+     "Expedition 13"
+    ]
+   ],
+   [
+    [
+     "Expedition 14"
+    ]
+   ],
+   [
+    [
+     "Expedition 4"
+    ]
+   ],
+   [
+    [
+     "Expedition 3"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "proposal_date": [],
+  "proposal_source": [],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Whitson, Peggy"
+  ],
+  "archive_status": "Data preservation is complete. Privacy-protected datasets are available via data request. Remaining datasets are publicly available.",
+  "__is_locked": false,
+  "Program": "International Space Station (ISS)",
+  "__source_field_concat": "PUB001957 HRF5 cl62axuvbcd0o01o6f44weep9 Food intake Renal Stone Risk During Space Flight:  Assessment and Countermeasure Validation 96-E057 International Space Station (ISS)",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<BR>\r\nThe purpose of this study was to assess the renal stone-forming potential of humans as a function of mission duration and to determine how long after space flight the increased risk exists.  In addition to the analyses of mineral components, this study was designed to determine levels of the naturally occurring urinary protein inhibitors of calcium crystallization. This investigation provides a direct understanding of and overcoming human limitations in space that may affect crew health and potentially mission success. If a crewmember were to develop a kidney stone, only supportive action is possible at this time. Medical support would involve pain relief through on-board medication with the hope that the crewmember would pass the stone over time. The afflicted crewmember may not be able to perform his/her duties or, more significant, cause the mission to be aborted and return to Earth.<P>\r\nPrevious data have demonstrated that human exposure to the microgravity environment of space increases the risk of renal stone development during and immediately after space flight.  In-flight assessment has shown a greater risk of calcium oxalate, calcium phosphate and sodium urate stones.  Postflight changes to the urinary chemical composition increase the risk of uric acid and calcium oxalate stone formation.  \r\n<P>\r\nAstronauts in the U.S. program have experienced multiple postflight stone events (2\r\ncrewmembers had 2 postflight stones). The length of time for appearance of symptomatic stone\r\nformation ranged from 9-120 months. Six of these postflight stones have occurred since 1994\r\nand have taken place concurrently with the beginning of the extended shuttle missions of greater\r\nthan 12 days in space. Discussions with Russian medical science investigators have noted\r\nmultiple stone events among cosmonauts, with one in-flight renal stone episode nearly causing\r\nthe crewmember to abort the mission. These epidemiologic data may suggest that that risk of\r\nstone formation may extend beyond the testing period implemented during this investigation in\r\nsome crewmembers.\r\n<P>\r\nAPPROACH:<BR>\r\nPotassium citrate (K-cit), a proven Earth-based therapy to minimize calcium-containing renal stone development, was tested during space flight as a countermeasure to reduce the risk of renal stone formation.  Preflight baseline data collection sessions were performed at approximately L-180, L-60 and L-45 days. Two 10 mEq potassium citrate tablets (total dose 20 mEq) or placebo were ingested daily with the evening meal beginning three days before launch, all days during flight, and following landing through R+14. Urine was collected before, during, and after flight.  Food, fluid, exercise, and medications were monitored  before and during the urine collection period in order to assess environmental influences other than microgravity.   During ISS operations, 24 hour urine collections and 48 hour dietary monitoring were performed early (< FD 30), mid-mission (FD30-FD100), and late (within 30 days of landing). Postflight urine and dietary monitoring were performed at approximately R+0-2, R+7 and R+14 days.\r\n<P>\r\nSubjects were active astronauts and cosmonauts who were certified for space flight. There were\r\nno gender specific requirements, therefore both male and female crewmembers participated in this\r\nstudy. This investigation was designed as a double blind study with neither the investigators nor\r\nthe subjects knowing whether the subjects were ingesting potassium citrate or placebo.\r\n<P>\r\nRESULTS:<BR>\r\nThis investigation was successfully completed by 19 crewmembers. The majority of renal stones are composed of calcium containing salts. The risk of calcium oxalate stone formation as determined by the urinary supersaturation of calcium oxalate was observed to be lower in the potassium citrate treated group. The decreased risk was evident during the in-flight and immediate postflight assessment sessions. The risk of calcium phosphate (brushite) risk followed the same trend observed with the risk of calcium oxalate stone formation.\r\n<P>\r\nThis study also evaluated the effect of fluid intake and urinary output on the supersaturation of\r\nthe urine and the potential risk of stone formation. Regarding the correlation between 24-hr urinary volume and the risk of calcium oxalate stone development, data indicate an inverse relationship between urine volume and risk of calcium oxalate stone formation. \r\n<P>\r\nApproval for elimination of the double blind requirement was received from NASA in December, 2005. As a result, the participating crewmembers ingested only potassium citrate as a countermeasure to the risk of renal stone formation. Data from all the ISS missions were combined for a detailed analysis involving statistical analysis and evaluation of the pharmacologic countermeasure to reduce the risk of stone formation.<P>\r\nPotassium citrate-treated crew members had decreased urinary calcium excretion and maintained the calcium oxalate supersaturation risk at preflight levels compared to that in controls. Increased urinary pH in the treatment group decreased the risk of uric acid stones. Results from this investigation suggest that supplementation with potassium citrate may decrease the risk of renal stone formation during and immediately after spaceflight.",
+  "__doi": "10.83263/zdb3-4841",
+  "__doi_record_creation_date": "2026-08-23T04:12:01",
+  "__doi_record_modified_date": "2026-08-23T04:12:01"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000826",
+   "label": "96_E057__3251131492",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Urinary values in placebo and potassium citrate-treated crewmembers",
+    "dataset_catalog": "96_E057__3251131492",
+    "dataset_description": [
+     "This figure shows urinary values in placebo (open bars) and potassium citrate-KCIT (black bars) treated crew members. Graph A shows percent change in citrate from preflight during first 35 (E-FLT), 36 to 120 (M-FLT) and greater than 120 (L-FLT) spaceflight days. Asterisk indicates p<0.05. Graph B shows calcium excretion before (Pre), during and after long duration spaceflight. R+10, 10 to 18 days after landing. Asterisk indicates p<0.05 vs placebo.<P>\r\nSource: Whitson PA, Pietrzyk RA, Jones JA, Nelman-Gonzalez M, Hudson EK, Sams CF. Effect of potassium citrate therapy on the risk of renal stone formation during spaceflight. J Urol. 2009 Nov;182(5):2490-6."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "96-E057"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "6a0e0233-4fa8-5f24-a7cb-fea4aed1de4d",
+     "label": "96_E057__3251131492.pdf_Expedition_3_96-E057_2011_325_111133.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000367",
+   "label": "96_E057__3251154469",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Urinary biochemistry in crew members before, during and after long duration spaceflight",
+    "dataset_catalog": "96_E057__3251154469",
+    "dataset_description": [
+     "This figure shows urinary biochemistry values in crew members before, during and after long duration spaceflight.<P>\r\nSource: Whitson PA, Pietrzyk RA, Jones JA, Nelman-Gonzalez M, Hudson EK, Sams CF. Effect of potassium citrate therapy on the risk of renal stone formation during spaceflight. J Urol. 2009 Nov;182(5):2490-6."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "96-E057"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "afc2be51-bd0e-5a80-803d-c9db39d5daf2",
+     "label": "96_E057__3251154469.pdf_Expedition_3_96-E057_2011_325_121137.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000021",
+   "label": "96_E057__3250307637",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Calcium Oxalate Supersaturation",
+    "dataset_catalog": "96_E057__3250307637",
+    "dataset_description": [
+     "Regression analysis of individual in-flight vs preflight log transformed CAOX supersaturation data. A, placebo group was at significantly increased risk during spaceflight. B, KCIT group.\r\n<P>\r\nSource: Whitson PA, Pietrzyk RA, Jones JA, Nelman-Gonzalez M, Hudson EK, Sams CF. Effect of potassium citrate therapy on the risk of renal stone formation during spaceflight. J Urol. 2009 Nov;182(5):2490-6."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "96-E057"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "2351dbeb-dced-5ede-89ca-df67dbb73b02",
+     "label": "96_E057__3250307637.pdf_Expedition_3_96-E057_2011_325_031130.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000488",
+   "label": "96_E057__3250312108",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Uric Acid Supersaturation",
+    "dataset_catalog": "96_E057__3250312108",
+    "dataset_description": [
+     "Spaceflight and potassium citrate (KCIT) effects on urinary uric acid supersaturation and potential stone risk. Crew members on daily KCIT (black bars) were at significantly lower risk than those on placebo (open bars) (p <0.005). Values greater than 2.0 indicate increased stone risk. <P>\r\nPRE=preflight. E-FLT=first 35 spaceflight days. M-FLT= 36 to 120 spaceflight days. L-FLT=greater than 120 spaceflight days. R+10=10 to 18 days after landing.\r\n<P>\r\nSource: Whitson PA, Pietrzyk RA, Jones JA, Nelman-Gonzalez M, Hudson EK, Sams CF. Effect of potassium citrate therapy on the risk of renal stone formation during spaceflight. J Urol. 2009 Nov;182(5):2490-6."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "96-E057"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "e4cd66d1-d048-5d88-93e9-5fb255b90d4e",
+     "label": "96_E057__3250312108.pdf_Expedition_3_96-E057_2011_325_061108.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001300",
+   "label": "96_E057__32512034",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "KCIT effect on urinary pH and calculated CaOx stone risk",
+    "dataset_catalog": "96_E057__32512034",
+    "dataset_description": [
+     "Graph A: KCIT effect on urinary pH in placebo (open bars) and KCIT (black bars) treated crew members. During spaceflight pH was significantly increased in KCIT group vs preflight (PRE) and vs. placebo group. \r\n<P>\r\nGraph B, calculated CAOX stone risk in individuals. Relative CAOX supersaturation was significantly higher in placebo (open circles) than in KCIT (black circles) group (p=0.002). Values greater than 2.0 indicate increased CAOX stone risk. Horizontal bars indicate mean. \r\nE-FLT, first 35 spaceflight days. M-FLT, 36 to 120 spaceflight days. L-FLT, greater than 120 spaceflight days. R+10, 10 to 18 days after landing.\r\n<P>\r\nSource: Whitson PA, Pietrzyk RA, Jones JA, Nelman-Gonzalez M, Hudson EK, Sams CF. Effect of potassium citrate therapy on the risk of renal stone formation during spaceflight. J Urol. 2009 Nov;182(5):2490-6."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "96-E057"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "cd3fdba8-07c2-59ff-9378-2a6055d7a9f3",
+     "label": "96_E057__32512034.pdf_Expedition_3_96-E057_2011_325_031102.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

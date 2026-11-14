@@ -1,0 +1,193 @@
+{
+ "record": {
+  "id": "e53d6cae-4ba1-5e61-a9fe-a952e605aed0",
+  "_id": "e53d6cae-4ba1-5e61-a9fe-a952e605aed0",
+  "experiment_title": "Resistance Exercise as a Countermeasure to Disuse-induced Bone Loss",
+  "archive_status_index": 2,
+  "pub_document_number": "PUB001499",
+  "parameter_html": "<table><tr><td>Alkaline phosphatase</td></tr><tr><td>Bone formation</td></tr><tr><td>Bone mineral density, heel</td></tr><tr><td>Bone mineral density, hip</td></tr><tr><td>Bone mineral density, lumbar spine</td></tr><tr><td>Bone mineral density, pelvis</td></tr><tr><td>Bone mineral density, total body</td></tr><tr><td>Bone resorption</td></tr><tr><td>Calcium balance</td></tr><tr><td>Isokinetic strength</td></tr><tr><td>Isotonic strength</td></tr><tr><td>Muscle mass</td></tr><tr><td>Muscle volume</td></tr><tr><td>Osteocalcin</td></tr><tr><td>1,25-dihydroxyvitamin D (1,25(OH)2D)</td></tr><tr><td>Bone-specific alkaline phosphatase (BSAP)</td></tr><tr><td>Calcium, ionized</td></tr><tr><td>Calcium, serum</td></tr><tr><td>Intact parathyroid hormone (iPTH)</td></tr><tr></tr></table>",
+  "__source_key": "cl62b0mrlcdo001o602mx637t",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Shackelford, Linda\">Principal Investigator: Shackelford, Linda</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:LeBlanc, Adrian\">Co-Investigator: LeBlanc, Adrian</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Smith, Scott\">Co-Investigator: Smith, Scott</a>",
+  "experiment_type_lk": [
+   "NASA Bedrest Studies",
+   "NASA Ground-Based Investigations"
+  ],
+  "__record_modified_date": "2026-08-23T04:23:15.611840+00:00",
+  "__indexed": "2026-08-23T04:23:15.611840+00:00",
+  "__record_creation_date": "2022-07-28T20:02:24.986Z",
+  "keyword": [
+   "Bone resorption",
+   "Bone and bones",
+   "Bone demineralization, pathologic",
+   "Bone remodeling",
+   "Bone density"
+  ],
+  "keyword_name": "Bone density",
+  "__record_size": 86828,
+  "__record_version": 30,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<BR>\r\nDuring spaceflight, skeletal unloading results in loss of bone mineral density (BMD). This occurs primarily in the spine and lower body regions. This loss of skeletal mass could prove hazardous to astronauts on flights of long duration.<P>\r\nAPPROACH:<BR>\r\nIn this study, intense resistance exercise was used to test whether a training regimen would prevent the loss of BMD that accompanies disuse. Nine subjects (5 men, 4 women) participated in a supine maximal resistance exercise training program during 17 wk of horizontal bed rest. These subjects were compared with 18 control subjects (13 men, 5 women) who followed the same bed rest protocol without exercise. Determination of treatment effect was based on measures of BMD, bone metabolism markers, and calcium balance obtained before, during, and after bed rest. \r\n<P>\r\nEffects on bone and muscle of a load-progression regimen modeled after those used by resistance-trained athletes using the HEM. Subjects exercised 6 days per week during bedrest, alternating days of lower- and upper body work. Maximum-effort sets were designed in order for subjects to perform an 11-, 8-, or 5-repetition maximum (RM) (+ 1 repetition), to assure progression in training loads throughout the study.\r\n<P>\r\nRESULTS:<br>\r\nExercisers and controls had significantly (P < 0.05) different means, represented by the respective following percent changes: lumbar spine BMD, +3% vs. -1%; total hip BMD, +1% vs. -3%; calcaneus BMD, +1% vs. -9%; pelvis BMD, -0.5% vs. -3%; total body BMD, 0% vs. -1%; bone-specific alkaline phosphatase, +64% vs. 0%; alkaline phosphatase, +31% vs. +5%; osteocalcin, +43% vs. +10%; 1,25 dihydroxyvitamin D, +12% vs. -15%; parathyroid hormone intact molecule, +18% vs. -25%; and serum and ionized calcium, -1% vs. +1%. The difference in net calcium balance was also significant (+21 mg/day vs. -199 mg/day, exercise vs. control). The gastrocnemius and soleus muscle volumes decreased significantly in the exercise group, but the loss was significantly less than observed in the control group. The results indicate that resistance exercise had a positive treatment effect and thus might be useful as a countermeasure to prevent the deleterious skeletal changes associated with long-duration spaceflight.\r\n<P>\r\nResistance exercise was effective in ameliorating bone loss (as measured by BMD) in the lumbar spine, total hip, heel, total body, and pelvis. Regional BMD was similar after BR to baseline levels in the EX subjects, except for lumbar spine, which was increased (+3.4%). Variations in response to EX in the trochanter region were noted. Biochemical markers in CTRL subjects indicated that bone resorption was increased with no change in bone formation, suggesting an uncoupling of bone remodeling. Both bone formation and resorption were increased in EX subjects, suggesting that bone remodeling was increased with less uncoupling. Changes in serum iCa, vitamin D metabolites and iPTH in CTRL but not EX subjects were consistent with the hormonal response to disuse-mediated increases in calcium release from bone (PTH is decreased, subsequently decreasing the hydroxylation of 25OHD to diOHD). Calcium balance was preserved in EX subjects and significantly negative in CTRL subjects, suggesting that resistance exercise is effective in preventing hypercalciuria with implications for renal stone risk.\r\n\r\nAt the end of BR, 1 RM strength (isotonic protocol) was increased while lower body muscle mass, volume, and isokinetic strength were relatively unaffected by EX. These findings support the concept of specificity of isotonic training for the EX protocol. The authors conclude that increasing resistance exercise in the inflight exercise prescription is warranted as are further investigations of the efficacy of RE alone or with other countermeasure approaches in ameliorating microgravity-induced bone and muscle loss.<END>",
+  "payload_id": "Ground",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "ECP-EB-1",
+  "indexed": "2026-08-23T04:23:15.611840+00:00",
+  "GUID": "cl62b0mrlcdo001o602mx637t",
+  "parameter_name": [
+   "Alkaline phosphatase",
+   "Bone formation",
+   "Bone mineral density, heel",
+   "Bone mineral density, hip",
+   "Bone mineral density, lumbar spine",
+   "Bone mineral density, pelvis",
+   "Bone mineral density, total body",
+   "Bone resorption",
+   "Calcium balance",
+   "Isokinetic strength",
+   "Isotonic strength",
+   "Muscle mass",
+   "Muscle volume",
+   "Osteocalcin",
+   "1,25-dihydroxyvitamin D (1,25(OH)2D)",
+   "Bone-specific alkaline phosphatase (BSAP)",
+   "Calcium, ionized",
+   "Calcium, serum",
+   "Intact parathyroid hormone (iPTH)"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 1344,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Skeletal physiology",
+   "Exercise physiology"
+  ],
+  "pme_role_with_name": [
+   "Co-Investigator: LeBlanc, Adrian",
+   "Co-Investigator: Smith, Scott",
+   "Principal Investigator: Shackelford, Linda"
+  ],
+  "missions": [
+   [
+    [
+     "Ground"
+    ]
+   ]
+  ],
+  "__dirid": "e53d6cae-4ba1-5e61-a9fe-a952e605aed0",
+  "__record_size_wo_doccontent": 86828,
+  "PI": [
+   "Shackelford, Linda"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "ECP-EB-1"
+  ],
+  "mission_id": [
+   [
+    [
+     "Ground"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "proposal_date": [],
+  "proposal_source": [],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Shackelford, Linda"
+  ],
+  "program_name": [
+   "Ground"
+  ],
+  "archive_status": "Data preservation is complete. Privacy-protected datasets are available via data request. Remaining datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Ground",
+  "__source_field_concat": "PUB001499 Ground cl62b0mrlcdo001o602mx637t Bone density  N/A Resistance Exercise as a Countermeasure to Disuse-induced Bone Loss ECP-EB-1 Ground",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<BR>\r\nDuring spaceflight, skeletal unloading results in loss of bone mineral density (BMD). This occurs primarily in the spine and lower body regions. This loss of skeletal mass could prove hazardous to astronauts on flights of long duration.<P>\r\nAPPROACH:<BR>\r\nIn this study, intense resistance exercise was used to test whether a training regimen would prevent the loss of BMD that accompanies disuse. Nine subjects (5 men, 4 women) participated in a supine maximal resistance exercise training program during 17 wk of horizontal bed rest. These subjects were compared with 18 control subjects (13 men, 5 women) who followed the same bed rest protocol without exercise. Determination of treatment effect was based on measures of BMD, bone metabolism markers, and calcium balance obtained before, during, and after bed rest. \r\n<P>\r\nEffects on bone and muscle of a load-progression regimen modeled after those used by resistance-trained athletes using the HEM. Subjects exercised 6 days per week during bedrest, alternating days of lower- and upper body work. Maximum-effort sets were designed in order for subjects to perform an 11-, 8-, or 5-repetition maximum (RM) (+ 1 repetition), to assure progression in training loads throughout the study.\r\n<P>\r\nRESULTS:<br>\r\nExercisers and controls had significantly (P < 0.05) different means, represented by the respective following percent changes: lumbar spine BMD, +3% vs. -1%; total hip BMD, +1% vs. -3%; calcaneus BMD, +1% vs. -9%; pelvis BMD, -0.5% vs. -3%; total body BMD, 0% vs. -1%; bone-specific alkaline phosphatase, +64% vs. 0%; alkaline phosphatase, +31% vs. +5%; osteocalcin, +43% vs. +10%; 1,25 dihydroxyvitamin D, +12% vs. -15%; parathyroid hormone intact molecule, +18% vs. -25%; and serum and ionized calcium, -1% vs. +1%. The difference in net calcium balance was also significant (+21 mg/day vs. -199 mg/day, exercise vs. control). The gastrocnemius and soleus muscle volumes decreased significantly in the exercise group, but the loss was significantly less than observed in the control group. The results indicate that resistance exercise had a positive treatment effect and thus might be useful as a countermeasure to prevent the deleterious skeletal changes associated with long-duration spaceflight.\r\n<P>\r\nResistance exercise was effective in ameliorating bone loss (as measured by BMD) in the lumbar spine, total hip, heel, total body, and pelvis. Regional BMD was similar after BR to baseline levels in the EX subjects, except for lumbar spine, which was increased (+3.4%). Variations in response to EX in the trochanter region were noted. Biochemical markers in CTRL subjects indicated that bone resorption was increased with no change in bone formation, suggesting an uncoupling of bone remodeling. Both bone formation and resorption were increased in EX subjects, suggesting that bone remodeling was increased with less uncoupling. Changes in serum iCa, vitamin D metabolites and iPTH in CTRL but not EX subjects were consistent with the hormonal response to disuse-mediated increases in calcium release from bone (PTH is decreased, subsequently decreasing the hydroxylation of 25OHD to diOHD). Calcium balance was preserved in EX subjects and significantly negative in CTRL subjects, suggesting that resistance exercise is effective in preventing hypercalciuria with implications for renal stone risk.\r\n\r\nAt the end of BR, 1 RM strength (isotonic protocol) was increased while lower body muscle mass, volume, and isokinetic strength were relatively unaffected by EX. These findings support the concept of specificity of isotonic training for the EX protocol. The authors conclude that increasing resistance exercise in the inflight exercise prescription is warranted as are further investigations of the efficacy of RE alone or with other countermeasure approaches in ameliorating microgravity-induced bone and muscle loss.<END>",
+  "__doi": "10.83263/0j12-6r20",
+  "__doi_record_creation_date": "2026-08-23T04:23:15",
+  "__doi_record_modified_date": "2026-08-23T04:23:15"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000538",
+   "label": "ECP_EB-1__270031844",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Resistance exercise as a countermeasure to disuse-induced bone loss",
+    "dataset_catalog": "ECP_EB-1__270031844",
+    "dataset_description": [
+     "This represents the final publication of results for this experiment.\r\nDuring spaceflight, skeletal unloading results in loss of bone mineral density (BMD). This occurs primarily in the spine and lower body regions. This loss of skeletal mass could prove hazardous to astronauts on flights of long duration. In this study, intense resistance exercise was used to test whether a training regimen would prevent the loss of BMD that accompanies disuse. Nine subjects (5 men, 4 women) participated in a supine maximal resistance exercise training program during 17 wk of horizontal bed rest. These subjects were compared with 18 control subjects (13 men, 5 women) who followed the same bed rest protocol without exercise. Determination of treatment effect was based on measures of BMD, bone metabolism markers, and calcium balance obtained before, during, and after bed rest. Exercisers and controls had significantly (P < 0.05) different means, represented by the respective following percent changes: lumbar spine BMD, +3% vs. -1%; total hip BMD, +1% vs. -3%; calcaneus BMD, +1% vs. -9%; pelvis BMD, -0.5% vs. -3%; total body BMD, 0% vs. -1%; bone-specific alkaline phosphatase, +64% vs. 0%; alkaline phosphatase, +31% vs. +5%; osteocalcin, +43% vs. +10%; 1,25 dihydroxyvitamin D, +12% vs. -15%; parathyroid hormone intact molecule, +18% vs. -25%; and serum and ionized calcium, -1% vs. +1%. The difference in net calcium balance was also significant (+21 mg/day vs. -199 mg/day, exercise vs. control). The gastrocnemius and soleus muscle volumes decreased significantly in the exercise group, but the loss was significantly less than observed in the control group. The results indicate that resistance exercise had a positive treatment effect and thus might be useful as a countermeasure to prevent the deleterious skeletal changes associated with long-duration spaceflight.<P>Source: Shackelford LC, LeBlanc AD, Driscoll TB, Evans HJ, Rianon NJ, Smith SM, Spector E, Feeback DL, Lai D.  Resistance exercise as a countermeasure to disuse-induced bone loss. J Appl Physiol (1985). 2004 Jul;97(1):119-29."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "ECP-EB-1"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "5324d949-ddcd-5efe-b710-73b65ccdc552",
+     "label": "ECP_EB1__270031844.pdf_Ground_ECP-EB-1_2013_270_030902.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002437",
+   "label": "ECP_EB-1__2700255133",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Alendronate countermeasure results",
+    "dataset_catalog": "ECP_EB-1__2700255133",
+    "dataset_description": [
+     "This article represents the summarized results of the 17 week horizontal bedrest study.  Microgravity, similar to disuse immobilization on earth, causes rapid bone loss. This loss is believed to be an adaptive response to the reduced musculoskeletal forces in space and occurs gradually enough that changes occurring during short duration space flight are not a concern. Bone loss, however, will be a major impediment for long duration missions if effective countermeasures are not developed and implemented. Bed rest is used to simulate the reduced mechanical forces in humans and was used to test the hypothesis that oral alendronate would reduce the effects of long duration (17 weeks) inactivity on bone. Eight male subjects were given daily oral doses of alendronate during 17 weeks of horizontal bed rest and compared with 13 male control subjects not given the drug. Efficacy was evaluated based on measurements of bone markers, calcium balance and bone density performed before, during and after the bed rest. The results show that oral alendronate attenuates most of the characteristic changes in bone that are associated with long duration bed rest and presumably space flight.<P>Source: \r\nLeBlanc AD, Driscol TB, Shackelford LC, Evans HJ, Rianon NJ, Smith SM, Feeback DL, Lai D. Alendronate as an effective countermeasure to disuse induced bone loss. J Musculoskelet Neuronal Interact. 2002 Jun;2(4):335-43."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "ECP-EB-1"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "506567a6-2c9d-53a5-9218-1b763a6bd6eb",
+     "label": "ECPEB1__2700255133.pdf_Ground_ECP-EB-1_2013_270_030940.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

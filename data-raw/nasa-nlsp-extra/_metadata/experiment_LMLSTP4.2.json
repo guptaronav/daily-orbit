@@ -1,0 +1,718 @@
+{
+ "record": {
+  "id": "eff6db1c-4f90-57a9-8118-2d625f73430a",
+  "_id": "eff6db1c-4f90-57a9-8118-2d625f73430a",
+  "experiment_title": "Water Chemistry Monitoring",
+  "pub_document_number": "PUB000975",
+  "archive_status_index": 1,
+  "parameter_html": "<table><tr><td>1,4-diacetylbenzene</td></tr><tr><td>1-formylpiperidine</td></tr><tr><td>1-hexadecanol</td></tr><tr><td>1-methyl-2-pyrrolidinone</td></tr><tr><td>1-octanol</td></tr><tr><td>1-tetradecanol</td></tr><tr><td>2,2,4-trimethyl-1,3-pentanediol diisobutyrate</td></tr><tr><td>2,4-di-t-butylphenol</td></tr><tr><td>2,6-di-t-butyl-1,4-benzoquinone</td></tr><tr><td>2,6-di-t-butyl-4-methylphenol</td></tr><tr><td>2-(2-butoxyethoxy) ethanol</td></tr><tr><td>2-(2-butoxyethoxy) ethanol acetate</td></tr><tr><td>2-butoxyethanol</td></tr><tr><td>2-ethylhexanoic acid</td></tr><tr><td>2-hexanol</td></tr><tr><td>2-methyl-2,4-pentanediol</td></tr><tr><td>2-phenyl-2-propanol</td></tr><tr><td>2-phenylphenol</td></tr><tr><td>2-propanol</td></tr><tr><td>3'-methylacetophenone</td></tr><tr><td>3,5-di-t-butyl-4-hydroxybenzaldehyde</td></tr><tr><td>3-t-butylphenol</td></tr><tr><td>4,4'-butylidenebis (6-tert-butyl-m-cresol)</td></tr><tr><td>4-chloro-3,5-dimethylphenol</td></tr><tr><td>4-hydroxy-4-methyl-2-pentanone</td></tr><tr><td>4-t-octylphenol</td></tr><tr><td>Acetate</td></tr><tr><td>Acetone</td></tr><tr><td>Acetophenone</td></tr><tr><td>Aluminum</td></tr><tr><td>Ammonium</td></tr><tr><td>Anethole</td></tr><tr><td>Arsenic</td></tr><tr><td>Barium</td></tr><tr><td>Benzaldehyde</td></tr><tr><td>Benzothiazole</td></tr><tr><td>Benzyl alcohol</td></tr><tr><td>Benzylbutyl phthalate</td></tr><tr><td>Butylated hydroxyanisole (BHA)</td></tr><tr><td>Cadmium</td></tr><tr><td>Calcium</td></tr><tr><td>Chloride</td></tr><tr><td>Chromium</td></tr><tr><td>Color</td></tr><tr><td>Conductivity</td></tr><tr><td>Copper</td></tr><tr><td>Cyanide</td></tr><tr><td>Cyclododecane</td></tr><tr><td>Cyclohexanone</td></tr><tr><td>Decamethylcyclopentasiloxane</td></tr><tr><td>Di-n-butyl phthalate</td></tr><tr><td>Di-n-butylamine</td></tr><tr><td>Dibutyl phthalate</td></tr><tr><td>Diethyl phthalate</td></tr><tr><td>Diiodomethane</td></tr><tr><td>Diisopropyl adipate</td></tr><tr><td>Dimethyl phthalate</td></tr><tr><td>Dioctyl phthalate</td></tr><tr><td>Dipropylene glycol methyl ether</td></tr><tr><td>Dodecamethylcyclohexasiloxane</td></tr><tr><td>Dodecanol</td></tr><tr><td>Formaldehyde</td></tr><tr><td>Formate</td></tr><tr><td>Iodoform</td></tr><tr><td>Iodomethane</td></tr><tr><td>Iron</td></tr><tr><td>Lactate</td></tr><tr><td>Lead</td></tr><tr><td>Magnesium</td></tr><tr><td>Manganese</td></tr><tr><td>Mercury</td></tr><tr><td>Methanol</td></tr><tr><td>Methyl sulfone</td></tr><tr><td>Methyl-4-hydroxybenzoate</td></tr><tr><td>Molybdenum</td></tr><tr><td>Monomethyl phthalate</td></tr><tr><td>N,N-dimethylbenzylamine</td></tr><tr><td>Naphthalene</td></tr><tr><td>Neomenthol</td></tr><tr><td>Nickel</td></tr><tr><td>Nitrate</td></tr><tr><td>Nitrite</td></tr><tr><td>Odor</td></tr><tr><td>Organic carbon recovery</td></tr><tr><td>Oxalate</td></tr><tr><td>Particulates</td></tr><tr><td>Pentacosane</td></tr><tr><td>pH</td></tr><tr><td>Phenol</td></tr><tr><td>Phenylethyl alcohol</td></tr><tr><td>Phosphate</td></tr><tr><td>Potassium</td></tr><tr><td>Selenium</td></tr><tr><td>Silver</td></tr><tr><td>Sodium</td></tr><tr><td>Squalene</td></tr><tr><td>Sulfate</td></tr><tr><td>Sulfide</td></tr><tr><td>Taste</td></tr><tr><td>Temperature</td></tr><tr><td>Tetrahydrofuran</td></tr><tr><td>Toluene</td></tr><tr><td>Total acids</td></tr><tr><td>Total alcohols</td></tr><tr><td>Total inorganic carbon (TIC)</td></tr><tr><td>Total iodine</td></tr><tr><td>Total organic carbon (TOC)</td></tr><tr><td>Total phenols</td></tr><tr><td>Total solids</td></tr><tr><td>Tributyl phosphate</td></tr><tr><td>Triethylamine</td></tr><tr><td>Turbidity</td></tr><tr><td>Uncharacterized total organic carbon (TOC)</td></tr><tr><td>Urea</td></tr><tr><td>Zinc</td></tr><tr><td>2-butanone</td></tr><tr><td>2-ethyl-1-hexanol</td></tr><tr><td>Bis(2-ethylhexyl) adipate</td></tr><tr><td>Bis(2-ethylhexyl) ester adipic acid</td></tr><tr><td>Bis(2-ethylhexyl) phthalate</td></tr><tr><td>Hypoiodous acid (HOI)</td></tr><tr><td>Iodide</td></tr><tr><td>Iodine</td></tr><tr><td>N,N-dibutylformamide</td></tr><tr><td>N-butylbenzenesulfonamide</td></tr><tr><td>Non-purgeable organic carbon (NPOC)</td></tr><tr><td>Octamethylcyclotetrasiloxane</td></tr><tr><td>Purgeable organic carbon (POC)</td></tr><tr><td>sec-Phenethyl alcohol</td></tr><tr><td>Triiodide (I3)</td></tr><tr><td>Tris(2-chloroethyl) phosphate</td></tr><tr></tr></table>",
+  "__source_key": "cl62axxancd1901o68gm767fs",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Sauer, Richard\">Principal Investigator: Sauer, Richard</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Schultz, John\">Co-Investigator: Schultz, John</a>",
+  "image_name": [
+   "Air Evaporation Subsystem (AES)",
+   "Ammonium Removal Subsystem (NHRS)",
+   "Aqueous Phase Catalytic Oxidation System (APCOS)",
+   "Immobilized Cell Bioreactor (ICB)",
+   "MILLI-Q&amp;reg; Water Purification System",
+   "Milli-Q\u00ae Post-processing Water Subsystem",
+   "Phase II Water Recovery System (WRS) schematic",
+   "Phase III Backup Water Recovery System (WRS) Multi-Filtration Unit",
+   "Phase III Water Recovery System (WRS) schematic",
+   "Potable Water Subsystem tanks",
+   "Primary Treatment Subsystem Feed Tank, Brine Tank, and Controls",
+   "Primary Treatment Subsystem Multi-filtration Unit",
+   "Primary Treatment Subsystem Product Tank and Controls",
+   "Primary Treatment Subsystem Support Plumbing",
+   "Process Control Water Quality Monitor (PCWQM)",
+   "Reverse Osmosis (RO) Subsystem",
+   "Schematic of Phase II Ultrafiltration/Reverse Osmosis (UF/RO) unit",
+   "Trickling Filter Bioreactor (TFB)",
+   "Ultrafiltration/Reverse Osmosis (UFRO) unit",
+   "Urine Fan Separator",
+   "Vapor Compression Distillation (VCD) System schematic",
+   "Vapor Compression Distillation (VCD) Unit",
+   "Vapor Compression Distillation (VCD) Urine Pretreatment System",
+   "Vapor Compression Distillation (VCD) Urine Processing unit",
+   "Vapor Compression Distillation (VCD) Urine Processing Unit Controls",
+   "Vapor Compression Distillation (VCD) urine vacuum system",
+   "Variable Pressure Growth Chamber (VPGC)",
+   "Volatile Removal Assembly (VRA)",
+   "Water Quality Monitor 1 (WQM1)",
+   "Water Quality Monitor 2 (WQM2)"
+  ],
+  "experiment_type_lk": [
+   "Lunar-Mars Life Support Test Project (LMLSTP)"
+  ],
+  "__record_modified_date": "2026-08-23T04:24:20.090418+00:00",
+  "__indexed": "2026-08-23T04:24:20.090418+00:00",
+  "keyword": [
+   "Urea",
+   "Conservation of natural resources",
+   "Ecological systems, closed",
+   "Poaceae",
+   "Plant transpiration",
+   "Carbon compounds, organic",
+   "Water purification",
+   "Standards",
+   "Water",
+   "Chromatography, gas",
+   "Electrophoresis, capillary",
+   "Water pollutants",
+   "Chromatography, ion exchange",
+   "Water supply",
+   "Phenol",
+   "Iodine",
+   "2,3-Diphosphoglycerate (DPG)",
+   "Ear",
+   "Environment",
+   "Color",
+   "Amines",
+   "Food contamination",
+   "1-Propanol",
+   "Hydrogen ion concentration",
+   "Glycols",
+   "Chromatography, supercritical fluid",
+   "Disinfection",
+   "Formaldehyde",
+   "Molecular weight",
+   "Electric conductivity",
+   "Ion-exchange resins",
+   "Humidity",
+   "Human engineering",
+   "Foramen magnum",
+   "Hygiene",
+   "United States Environmental Protection Agency",
+   "Encephalography",
+   "Mass fragmentography",
+   "Cations",
+   "Face",
+   "Alcohols",
+   "Anions"
+  ],
+  "__record_creation_date": "2022-07-28T20:06:42.994Z",
+  "keyword_name": "Anions",
+  "__record_version": 32,
+  "__record_size": 289660,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<br>\r\nA major goal of the Advanced Life Support Program was to develop and validate technologies for regenerative life support systems for long-duration space missions (lunar, Mars, and orbital). One regenerative system needed to achieve this goal is the water recovery system to produce potable water from various wastewaters. During the course of the chamber project, four separate and distinct test phases with human test subjects were conducted, each progressively more complex in terms of the water recovery system.</p>\r\n<p>Recovered water was not used for human consumption during Phase I. However, water sampling was performed because the crewmember commented on a distinct iodine odor and taste. During Phase II, the main objective was to verify the performance of the integrated physicochemical air revitalization, water recovery, and thermal control systems for a four-person crew for 30 days. Similarly, life support systems specific for use on the International Space Station (ISS) were analyzed for the ability to provide a habitable environment for 60 days for four crewmembers during Phase IIa. Phase III was the first test to incorporate biological wastewater processing. The overall objective of this test was to conduct a 90-day test of integrated physicochemical and biological life support systems for air revitalization, water recovery, thermal control, and solid waste management.\r\n<p>APPROACH:<br>\r\nWater quality standards and monitoring requirements for the chamber studies were based on U.S. Environmental Protection Agency (EPA) standards and NASA Man-Systems Integration Standards (MSIS), a set of standards specifically developed by NASA for recycled water.</p>\r\n<p>For each chamber study, potable water samples were collected and analyzed during pretest, test, and post-test operations. Samples were collected using sampling equipment provided by the medical operations Water and Food Analytical Laboratory (WAFAL). This equipment consisted of benzalkonium chloride disinfectant wipes, cleaned Teflon\u00ae sample bottles, and labels.</p>\r\n<p>To collect a sample, the sample port was disinfected using a wipe. Next, approximately 250 ml of fluid was purged from the sample port and discarded. Then, 1000 ml of fluid was collected into a prelabeled sample bottle. After collection, samples were transferred from the test facility to WAFAL for chemical analysis and to the Johnson Space Center (JSC) Microbiology laboratory for microbial analysis. Chemical results only are reported in this experiment.</p>\r\n<p>Samples of recycled water collected from the potable water storage tanks during the chamber studies were analyzed for pH, turbidity, iodine, color, conductivity, anions, cations, trace metals, total organic carbon (TOC), volatile organics, semivolatile organics, alcohols, formaldehyde, amines, carboxylates, organic acids, diols (glycols), and urea. These samples were analyzed in an attempt to characterize at least 80% of the organic components of the recycled water. Other samples, such as the shower, galley, handwash sink, wastewater feed to the Water Recovery System (WRS), and effluent samples from many of the WRS subsystem components were also collected at various stages in the water treatment process. These samples were analyzed for a number of inorganic and organic parameters to verify system performance at various stages of water recovery and to collect data for future reference.\r\n<p>Phase I:<br>In preparation for Phase I, a system checkout pretest was conducted in April 1995 using a human metabolic simulator (HMS) in place of the human test subject. During this pretest, the HMS was sealed inside the airlock compartment of the VPGC while a crop of wheat was grown in the plant chamber. Two samples of plant atmospheric moisture (condensate) were collected from the condensate collection tanks located on the outside of the VPGC, one from each side of the chamber (sides A and B).\r\n<p>For the actual Phase I test, a human test subject lived in the airlock compartment for 15 days while a crop of wheat grew in the plant chamber. Water recycling was limited to condensation of humidity from the air (human respired air, evaporation, plant transpiration). This recovered water, known as humidity condensate, was used to rehumidify the airlock and Variable Pressure Growth Chamber (VPGC), and was used to provide water for the plant nutrient solutions. Recovered water from humidity condensate was not used for human consumption during Phase 1.</p>\r\n<p>Potable water was not recycled during Phase I. Drinking water for the crewmember consisted of water from the NASA Johnson Space Center (JSC) public water supply that was deionized, filtered using a 0.2 \u00b5m microbial filter, and iodinated using a microbial check valve (MCV) to simulate spacecraft water supplies with iodine as the disinfectant. Two potable water samples were taken from the faucet at the sink in the airlock compartment of the VPGC, one before the start of the test and one at the end of the test. Four additional samples were collected in response to crewmember comments concerning a distinct iodine taste and odor. One of these samples was taken at the inlet of the MCV and another at the outlet of the MCV. Two more were taken at the sink outlet.\r\n<p>Phase II:<br>\r\nFor Phases II and IIa, potable water was generated from the recycle of wastewater using physicochemical methods. A series of system verification tests were conducted before the start of Phase II. A viral challenge test was also conducted to verify the capability of the water recovery system to remove viruses and provide potable water that met the NASA MSIS. One water sample was collected for chemical analysis during the viral challenge test. Once samples were collected, the product water was discarded. No water produced from these tests was consumed.\r\n<p>Three WRS donor mode tests and an integrated air revitalization system/water recovery system test were performed to validate the ability of the WRS to produce potable water from wastewater. During these tests, actual wastewater from human donors was processed. Although the final product water was not consumed by the donors, it was sampled and analyzed. The first donor mode test was initiated in March 1996 with a water recovery system consisting of a vapor compression and distillation subsystem (VCD), an ultrafiltration/ reverse osmosis subsystem (UF/RO), and an Aqueous Phase Catalytic Oxidation Subsystem (APCOS) for post treatment.\r\n<p>On June 12, 1996, the actual Phase II test began with three of four potable water storage tanks filled with about 211 kg (465 lbs) of water from the JSC public water supply that had been deionized, filtered with a 0.2 \u00b5m microbial filter, and iodinated with a MCV. Samples were collected from the storage tanks once they were filled completely with recycled water processed from humidity condensate and wastewater from the shower, handwash, galley, laundry, and urinal. This normally occurred every two days. During the test, one of the four tanks would be \"in use,\" one tank would be \"on hold\" awaiting completion of analytical tests, one tank would be a \"spare,\" and one tank would be \"filling\" with processed water. The tanks were configured such that they were sequentially cycled from the fill, hold, spare, and use modes. Each tank also had the capability of being heated to disinfect, if required.\r\n<p>Processing of wastewater for reuse began on day 1. The crew began using of one of the water tanks containing deionized water, while wastewater from hygiene activities was collected in one of two wastewater tanks. Crewmembers continued to consume deionized water during this period.</p>\r\n<p>Phase IIa:<br>\r\nSimilar to the Phase II WRS, the Phase IIa WRS was designed to accept wastewaters from the urinal, shower, handwash, and air revitalization system condensing heat exchangers (humidity condensate). In addition, the Phase IIa WRS was required to process simulated wastewaters expected on the ISS, such as condensate from animal experiments, wastewater from the Crew Health Care System (CHeCS) water quality monitors used for offline water quality monitoring, and condensate from the off-gassing of equipment and new materials introduced into the ISS environment.\r\n<p>The amount of water to be processed was reduced from 211 kg (465 lbs) to 52 kg (115 lbs) to reflect the water usage rates expected. For process control, an in-line process control water quality monitor (PCWQM) was added for continuous monitoring of the processed water's conductivity, TOC, and iodine (I2) levels. If any of the three parameters were out of specification, the product water was rejected and returned to the inlet of the system for reprocessing. After processing, the water was stored in one of three potable water storage tanks containing a 0.2 \u00b5m microbial filter and a MCV at the inlet of each of the tanks.\r\n<p>As with previous tests, several pretest verification tests were performed prior to the 60-day test including a subsystem check, an integrated wet functional test, and a WRS demonstration test. During subsystem checks, each subsystem was operated individually using deionized water. Next, the subsystems were plumbed together for the integrated wet functional test and deionized water was processed through the entire integrated system. Then, actual wastewater from human donors was processed by the integrated system during the WRS demonstration test. The processed water was not consumed by the donors, but instead was sampled and discarded. Six potable water samples were collected during the Phase IIa WRS demonstration test.\r\n<p>The Phase IIa test began in January 1997 with water from the JSC public water supply that was deionized, filtered with a 0.2 \u00b5m filter, iodinated using a MCV, and filled in two of the three potable water storage tanks.\r\n<p>Phase III:<br>\r\nPhase III water recycling systems were based on a combination of physicochemical and biological recovery systems. In preparation for Phase III, a demonstration test was performed from March through June 1997. This test processed urine and hygiene water generated by human donors but the water was not consumed. The recovered water was analyzed during the final two weeks of the test to evaluate the system's capability to produce potable water.\r\n<p>The Phase III test began on September 19, 1997. In terms of waste-water processing, biologically based systems were used to initially process the wastewaters collected during Phase III, and physicochemical systems were used for polishing and post-processing.\r\n<p>After processing, the recovered water was stored in one of four potable water tanks. A 0.2 \u00b5m microbial filter and a MCV were positioned at the inlet of each of the tanks for microbial control and for adding iodine to the product water. As in the previous tests, each tank and its contents had the capability of being heated to disinfect the tank if microbial water quality requirements were not met. The Phase III WRS was required to process laundry, shower, handwash, and oral hygiene wastewaters, along with urine, humidity condensate, and incinerator condensate from the processing of human solid wastes.\r\n<p>RESULTS:<br>\r\nWAFAL analyzed about 160 water samples throughout the course of the Lunar-Mars Life Support Test Project. This project was the first time since the late 1960\u0019s that water recycling with human consumption was performed and the first time systems developed for the ISS were tested in this manner. Results from the analysis of samples show that the water recycling systems developed during Phases II, IIa, and III were capable of producing potable water which met NASA and U.S. EPA requirements after the water was treated using a commercial system. All recovered water samples analyzed met U.S. EPA standards. Generally, the majority of samples also met NASA potability standards.</p>\r\n<p>On several occasions the organic and inorganic content of the water exceeded the NASA specifications and required the water to be reprocessed prior to consumption. Parameters of most importance where requirements were not met included total organic carbon, total bacteria, copper, lead, and nickel. During Phase II, the water was reprocessed seven times because total organic carbon requirements were not met. During Phase IIa, problems with the water recovery system required the recycled water to be reprocessed eleven times for TOC excursions and ten times for excessive microbial levels. While Phase III did not require reprocessing because a commercial Milli-Q\u00ae was used as a post processor, high microbial levels did require the potable water tanks to be heat sterilized three times. Thus, systems for polishing and disinfecting the potable water tanks appear necessary.</p>\r\n<p>As out of specification results were detected that required reprocessing of the water for potablity, the need for onboard water analytical capabilities was clearly demonstrated. Similarly, on several occasions microbial contamination in the potable water was detected and required heat disinfection to assure microbial safety. This demonstrates the need for onboard microbial analysis capability and the ability to recover microbiological control.</p>\r\n<p>Color and pH measurements consistently did not meet NASA standards because of the addition of iodine as a disinfectant in the potable water. With the help of these data, the MSIS specifications should be re-evaluated to determine more appropriate limits for pH and color in iodinated water. Another specification that should be evaluated is the MSIS total phenols specification. This level should be increased to agree with the EPA health advisory for phenol, which is 4 mg/L. Other standards outlined in the MSIS appear to be adequate. However, future work should concentrate on the development of short-term and long-term exposure requirements for the most critical water quality parameters.</p>\r\n<p>The sampling and monitoring plan performed during these studies proved to be adequate. However, analytical methods for identifying organic constituents in recovered water at low levels should be improved. More work should be done to increase the organic carbon recovery of the potable water samples by either developing more sensitive methods of analysis and/or by testing a wider array of organic compounds, especially those of a biological nature such as proteins and biomolecules.<end></end></p>",
+  "payload_id": "LMLSTP",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "indexed": "2026-08-23T04:24:20.090418+00:00",
+  "experiment_id": "LMLSTP4.2",
+  "GUID": "cl62axxancd1901o68gm767fs",
+  "parameter_name": [
+   "1,4-diacetylbenzene",
+   "1-formylpiperidine",
+   "1-hexadecanol",
+   "1-methyl-2-pyrrolidinone",
+   "1-octanol",
+   "1-tetradecanol",
+   "2,2,4-trimethyl-1,3-pentanediol diisobutyrate",
+   "2,4-di-t-butylphenol",
+   "2,6-di-t-butyl-1,4-benzoquinone",
+   "2,6-di-t-butyl-4-methylphenol",
+   "2-(2-butoxyethoxy) ethanol",
+   "2-(2-butoxyethoxy) ethanol acetate",
+   "2-butoxyethanol",
+   "2-ethylhexanoic acid",
+   "2-hexanol",
+   "2-methyl-2,4-pentanediol",
+   "2-phenyl-2-propanol",
+   "2-phenylphenol",
+   "2-propanol",
+   "3'-methylacetophenone",
+   "3,5-di-t-butyl-4-hydroxybenzaldehyde",
+   "3-t-butylphenol",
+   "4,4'-butylidenebis (6-tert-butyl-m-cresol)",
+   "4-chloro-3,5-dimethylphenol",
+   "4-hydroxy-4-methyl-2-pentanone",
+   "4-t-octylphenol",
+   "Acetate",
+   "Acetone",
+   "Acetophenone",
+   "Aluminum",
+   "Ammonium",
+   "Anethole",
+   "Arsenic",
+   "Barium",
+   "Benzaldehyde",
+   "Benzothiazole",
+   "Benzyl alcohol",
+   "Benzylbutyl phthalate",
+   "Butylated hydroxyanisole (BHA)",
+   "Cadmium",
+   "Calcium",
+   "Chloride",
+   "Chromium",
+   "Color",
+   "Conductivity",
+   "Copper",
+   "Cyanide",
+   "Cyclododecane",
+   "Cyclohexanone",
+   "Decamethylcyclopentasiloxane",
+   "Di-n-butyl phthalate",
+   "Di-n-butylamine",
+   "Dibutyl phthalate",
+   "Diethyl phthalate",
+   "Diiodomethane",
+   "Diisopropyl adipate",
+   "Dimethyl phthalate",
+   "Dioctyl phthalate",
+   "Dipropylene glycol methyl ether",
+   "Dodecamethylcyclohexasiloxane",
+   "Dodecanol",
+   "Formaldehyde",
+   "Formate",
+   "Iodoform",
+   "Iodomethane",
+   "Iron",
+   "Lactate",
+   "Lead",
+   "Magnesium",
+   "Manganese",
+   "Mercury",
+   "Methanol",
+   "Methyl sulfone",
+   "Methyl-4-hydroxybenzoate",
+   "Molybdenum",
+   "Monomethyl phthalate",
+   "N,N-dimethylbenzylamine",
+   "Naphthalene",
+   "Neomenthol",
+   "Nickel",
+   "Nitrate",
+   "Nitrite",
+   "Odor",
+   "Organic carbon recovery",
+   "Oxalate",
+   "Particulates",
+   "Pentacosane",
+   "pH",
+   "Phenol",
+   "Phenylethyl alcohol",
+   "Phosphate",
+   "Potassium",
+   "Selenium",
+   "Silver",
+   "Sodium",
+   "Squalene",
+   "Sulfate",
+   "Sulfide",
+   "Taste",
+   "Temperature",
+   "Tetrahydrofuran",
+   "Toluene",
+   "Total acids",
+   "Total alcohols",
+   "Total inorganic carbon (TIC)",
+   "Total iodine",
+   "Total organic carbon (TOC)",
+   "Total phenols",
+   "Total solids",
+   "Tributyl phosphate",
+   "Triethylamine",
+   "Turbidity",
+   "Uncharacterized total organic carbon (TOC)",
+   "Urea",
+   "Zinc",
+   "2-butanone",
+   "2-ethyl-1-hexanol",
+   "Bis(2-ethylhexyl) adipate",
+   "Bis(2-ethylhexyl) ester adipic acid",
+   "Bis(2-ethylhexyl) phthalate",
+   "Hypoiodous acid (HOI)",
+   "Iodide",
+   "Iodine",
+   "N,N-dibutylformamide",
+   "N-butylbenzenesulfonamide",
+   "Non-purgeable organic carbon (NPOC)",
+   "Octamethylcyclotetrasiloxane",
+   "Purgeable organic carbon (POC)",
+   "sec-Phenethyl alcohol",
+   "Triiodide (I3)",
+   "Tris(2-chloroethyl) phosphate"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 930,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Environmental monitoring",
+   "Life support systems",
+   "Technology development"
+  ],
+  "pme_role_with_name": [
+   "Co-Investigator: Schultz, John",
+   "Principal Investigator: Sauer, Richard",
+   "Technical Assistant to Principal Investigator: Carr, Sandra",
+   "Technical Assistant to Principal Investigator: Pierre, Lizanna"
+  ],
+  "missions": [
+   [
+    [
+     "LMLSTP"
+    ]
+   ]
+  ],
+  "__dirid": "eff6db1c-4f90-57a9-8118-2d625f73430a",
+  "__record_size_wo_doccontent": 289660,
+  "experiment_parms_tissue2": "N/A",
+  "experiment_parms_tissue1": "N/A",
+  "PI": [
+   "Sauer, Richard"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "LMLSTP4.2"
+  ],
+  "mission_id": [
+   [
+    [
+     "LMLSTP"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "proposal_date": [],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Sauer, Richard"
+  ],
+  "program_name": [
+   "Ground"
+  ],
+  "archive_status": "Data preservation is complete. All datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Ground",
+  "__source_field_concat": "PUB000975 LMLSTP cl62axxancd1901o68gm767fs Anions N/A N/A  N/A Water Chemistry Monitoring LMLSTP4.2 Ground Data preservation is complete. All datasets are publicly available.",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<br>\r\nA major goal of the Advanced Life Support Program was to develop and validate technologies for regenerative life support systems for long-duration space missions (lunar, Mars, and orbital). One regenerative system needed to achieve this goal is the water recovery system to produce potable water from various wastewaters. During the course of the chamber project, four separate and distinct test phases with human test subjects were conducted, each progressively more complex in terms of the water recovery system.</p>\r\n<p>Recovered water was not used for human consumption during Phase I. However, water sampling was performed because the crewmember commented on a distinct iodine odor and taste. During Phase II, the main objective was to verify the performance of the integrated physicochemical air revitalization, water recovery, and thermal control systems for a four-person crew for 30 days. Similarly, life support systems specific for use on the International Space Station (ISS) were analyzed for the ability to provide a habitable environment for 60 days for four crewmembers during Phase IIa. Phase III was the first test to incorporate biological wastewater processing. The overall objective of this test was to conduct a 90-day test of integrated physicochemical and biological life support systems for air revitalization, water recovery, thermal control, and solid waste management.\r\n<p>APPROACH:<br>\r\nWater quality standards and monitoring requirements for the chamber studies were based on U.S. Environmental Protection Agency (EPA) standards and NASA Man-Systems Integration Standards (MSIS), a set of standards specifically developed by NASA for recycled water.</p>\r\n<p>For each chamber study, potable water samples were collected and analyzed during pretest, test, and post-test operations. Samples were collected using sampling equipment provided by the medical operations Water and Food Analytical Laboratory (WAFAL). This equipment consisted of benzalkonium chloride disinfectant wipes, cleaned Teflon\u00ae sample bottles, and labels.</p>\r\n<p>To collect a sample, the sample port was disinfected using a wipe. Next, approximately 250 ml of fluid was purged from the sample port and discarded. Then, 1000 ml of fluid was collected into a prelabeled sample bottle. After collection, samples were transferred from the test facility to WAFAL for chemical analysis and to the Johnson Space Center (JSC) Microbiology laboratory for microbial analysis. Chemical results only are reported in this experiment.</p>\r\n<p>Samples of recycled water collected from the potable water storage tanks during the chamber studies were analyzed for pH, turbidity, iodine, color, conductivity, anions, cations, trace metals, total organic carbon (TOC), volatile organics, semivolatile organics, alcohols, formaldehyde, amines, carboxylates, organic acids, diols (glycols), and urea. These samples were analyzed in an attempt to characterize at least 80% of the organic components of the recycled water. Other samples, such as the shower, galley, handwash sink, wastewater feed to the Water Recovery System (WRS), and effluent samples from many of the WRS subsystem components were also collected at various stages in the water treatment process. These samples were analyzed for a number of inorganic and organic parameters to verify system performance at various stages of water recovery and to collect data for future reference.\r\n<p>Phase I:<br>In preparation for Phase I, a system checkout pretest was conducted in April 1995 using a human metabolic simulator (HMS) in place of the human test subject. During this pretest, the HMS was sealed inside the airlock compartment of the VPGC while a crop of wheat was grown in the plant chamber. Two samples of plant atmospheric moisture (condensate) were collected from the condensate collection tanks located on the outside of the VPGC, one from each side of the chamber (sides A and B).\r\n<p>For the actual Phase I test, a human test subject lived in the airlock compartment for 15 days while a crop of wheat grew in the plant chamber. Water recycling was limited to condensation of humidity from the air (human respired air, evaporation, plant transpiration). This recovered water, known as humidity condensate, was used to rehumidify the airlock and Variable Pressure Growth Chamber (VPGC), and was used to provide water for the plant nutrient solutions. Recovered water from humidity condensate was not used for human consumption during Phase 1.</p>\r\n<p>Potable water was not recycled during Phase I. Drinking water for the crewmember consisted of water from the NASA Johnson Space Center (JSC) public water supply that was deionized, filtered using a 0.2 \u00b5m microbial filter, and iodinated using a microbial check valve (MCV) to simulate spacecraft water supplies with iodine as the disinfectant. Two potable water samples were taken from the faucet at the sink in the airlock compartment of the VPGC, one before the start of the test and one at the end of the test. Four additional samples were collected in response to crewmember comments concerning a distinct iodine taste and odor. One of these samples was taken at the inlet of the MCV and another at the outlet of the MCV. Two more were taken at the sink outlet.\r\n<p>Phase II:<br>\r\nFor Phases II and IIa, potable water was generated from the recycle of wastewater using physicochemical methods. A series of system verification tests were conducted before the start of Phase II. A viral challenge test was also conducted to verify the capability of the water recovery system to remove viruses and provide potable water that met the NASA MSIS. One water sample was collected for chemical analysis during the viral challenge test. Once samples were collected, the product water was discarded. No water produced from these tests was consumed.\r\n<p>Three WRS donor mode tests and an integrated air revitalization system/water recovery system test were performed to validate the ability of the WRS to produce potable water from wastewater. During these tests, actual wastewater from human donors was processed. Although the final product water was not consumed by the donors, it was sampled and analyzed. The first donor mode test was initiated in March 1996 with a water recovery system consisting of a vapor compression and distillation subsystem (VCD), an ultrafiltration/ reverse osmosis subsystem (UF/RO), and an Aqueous Phase Catalytic Oxidation Subsystem (APCOS) for post treatment.\r\n<p>On June 12, 1996, the actual Phase II test began with three of four potable water storage tanks filled with about 211 kg (465 lbs) of water from the JSC public water supply that had been deionized, filtered with a 0.2 \u00b5m microbial filter, and iodinated with a MCV. Samples were collected from the storage tanks once they were filled completely with recycled water processed from humidity condensate and wastewater from the shower, handwash, galley, laundry, and urinal. This normally occurred every two days. During the test, one of the four tanks would be \"in use,\" one tank would be \"on hold\" awaiting completion of analytical tests, one tank would be a \"spare,\" and one tank would be \"filling\" with processed water. The tanks were configured such that they were sequentially cycled from the fill, hold, spare, and use modes. Each tank also had the capability of being heated to disinfect, if required.\r\n<p>Processing of wastewater for reuse began on day 1. The crew began using of one of the water tanks containing deionized water, while wastewater from hygiene activities was collected in one of two wastewater tanks. Crewmembers continued to consume deionized water during this period.</p>\r\n<p>Phase IIa:<br>\r\nSimilar to the Phase II WRS, the Phase IIa WRS was designed to accept wastewaters from the urinal, shower, handwash, and air revitalization system condensing heat exchangers (humidity condensate). In addition, the Phase IIa WRS was required to process simulated wastewaters expected on the ISS, such as condensate from animal experiments, wastewater from the Crew Health Care System (CHeCS) water quality monitors used for offline water quality monitoring, and condensate from the off-gassing of equipment and new materials introduced into the ISS environment.\r\n<p>The amount of water to be processed was reduced from 211 kg (465 lbs) to 52 kg (115 lbs) to reflect the water usage rates expected. For process control, an in-line process control water quality monitor (PCWQM) was added for continuous monitoring of the processed water's conductivity, TOC, and iodine (I2) levels. If any of the three parameters were out of specification, the product water was rejected and returned to the inlet of the system for reprocessing. After processing, the water was stored in one of three potable water storage tanks containing a 0.2 \u00b5m microbial filter and a MCV at the inlet of each of the tanks.\r\n<p>As with previous tests, several pretest verification tests were performed prior to the 60-day test including a subsystem check, an integrated wet functional test, and a WRS demonstration test. During subsystem checks, each subsystem was operated individually using deionized water. Next, the subsystems were plumbed together for the integrated wet functional test and deionized water was processed through the entire integrated system. Then, actual wastewater from human donors was processed by the integrated system during the WRS demonstration test. The processed water was not consumed by the donors, but instead was sampled and discarded. Six potable water samples were collected during the Phase IIa WRS demonstration test.\r\n<p>The Phase IIa test began in January 1997 with water from the JSC public water supply that was deionized, filtered with a 0.2 \u00b5m filter, iodinated using a MCV, and filled in two of the three potable water storage tanks.\r\n<p>Phase III:<br>\r\nPhase III water recycling systems were based on a combination of physicochemical and biological recovery systems. In preparation for Phase III, a demonstration test was performed from March through June 1997. This test processed urine and hygiene water generated by human donors but the water was not consumed. The recovered water was analyzed during the final two weeks of the test to evaluate the system's capability to produce potable water.\r\n<p>The Phase III test began on September 19, 1997. In terms of waste-water processing, biologically based systems were used to initially process the wastewaters collected during Phase III, and physicochemical systems were used for polishing and post-processing.\r\n<p>After processing, the recovered water was stored in one of four potable water tanks. A 0.2 \u00b5m microbial filter and a MCV were positioned at the inlet of each of the tanks for microbial control and for adding iodine to the product water. As in the previous tests, each tank and its contents had the capability of being heated to disinfect the tank if microbial water quality requirements were not met. The Phase III WRS was required to process laundry, shower, handwash, and oral hygiene wastewaters, along with urine, humidity condensate, and incinerator condensate from the processing of human solid wastes.\r\n<p>RESULTS:<br>\r\nWAFAL analyzed about 160 water samples throughout the course of the Lunar-Mars Life Support Test Project. This project was the first time since the late 1960\u0019s that water recycling with human consumption was performed and the first time systems developed for the ISS were tested in this manner. Results from the analysis of samples show that the water recycling systems developed during Phases II, IIa, and III were capable of producing potable water which met NASA and U.S. EPA requirements after the water was treated using a commercial system. All recovered water samples analyzed met U.S. EPA standards. Generally, the majority of samples also met NASA potability standards.</p>\r\n<p>On several occasions the organic and inorganic content of the water exceeded the NASA specifications and required the water to be reprocessed prior to consumption. Parameters of most importance where requirements were not met included total organic carbon, total bacteria, copper, lead, and nickel. During Phase II, the water was reprocessed seven times because total organic carbon requirements were not met. During Phase IIa, problems with the water recovery system required the recycled water to be reprocessed eleven times for TOC excursions and ten times for excessive microbial levels. While Phase III did not require reprocessing because a commercial Milli-Q\u00ae was used as a post processor, high microbial levels did require the potable water tanks to be heat sterilized three times. Thus, systems for polishing and disinfecting the potable water tanks appear necessary.</p>\r\n<p>As out of specification results were detected that required reprocessing of the water for potablity, the need for onboard water analytical capabilities was clearly demonstrated. Similarly, on several occasions microbial contamination in the potable water was detected and required heat disinfection to assure microbial safety. This demonstrates the need for onboard microbial analysis capability and the ability to recover microbiological control.</p>\r\n<p>Color and pH measurements consistently did not meet NASA standards because of the addition of iodine as a disinfectant in the potable water. With the help of these data, the MSIS specifications should be re-evaluated to determine more appropriate limits for pH and color in iodinated water. Another specification that should be evaluated is the MSIS total phenols specification. This level should be increased to agree with the EPA health advisory for phenol, which is 4 mg/L. Other standards outlined in the MSIS appear to be adequate. However, future work should concentrate on the development of short-term and long-term exposure requirements for the most critical water quality parameters.</p>\r\n<p>The sampling and monitoring plan performed during these studies proved to be adequate. However, analytical methods for identifying organic constituents in recovered water at low levels should be improved. More work should be done to increase the organic carbon recovery of the potable water samples by either developing more sensitive methods of analysis and/or by testing a wider array of organic compounds, especially those of a biological nature such as proteins and biomolecules.<end></end></p>",
+  "__doi": "10.83263/x6kz-3924",
+  "__doi_record_creation_date": "2026-08-23T04:24:20",
+  "__doi_record_modified_date": "2026-08-23T04:24:20"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002347",
+   "label": "JMGROUNDLMLSTP42_691",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Urine Distillate Water Quality",
+    "dataset_catalog": "JMGROUNDLMLSTP42_691",
+    "dataset_description": [
+     "The quality of the urine distillate sampled during the Lunar-Mars Life Support Test Project Phase II is listed in this table.  The Urine Treatment Subsystem operated, on average, six to eight hours per day.  It processed 400 pounds of urine plus flush water over the test duration recovering 394 pounds of water from the urine.  This represented a 98.5% recovery by the Vapor Compression Distillation (VCD) system. <BR> Source: Pierre LM, Schultz JR, Carr SE, Sauer RL. Water chemistry monitoring.In Isolation: NASA Experiments in Closed-Environment Living. San Diego, CA: Univelt, Incorporated; 2002;104:193-228. <END>"
+    ],
+    "processing_level": [],
+    "experiment_id": [
+     "LMLSTP4.2"
+    ]
+   },
+   "meta": "1 file \u00b7 14.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "6d0fc59d-68ab-5361-8367-3a5022fe0179",
+     "label": "JMGROUNDLMLSTP42_691.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 14336,
+     "meta": "14.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001359",
+   "label": "JMGROUNDLMLSTP42_693",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Average Recovered Water Quality",
+    "dataset_catalog": "JMGROUNDLMLSTP42_693",
+    "dataset_description": [
+     "This table presents a summary of the average Total Organic Carbon (TOC), conductivity, pH, and iodine levels for recovered hygiene and potable water during the Lunar-Mars Life Support Test Project (LMLSTP) Phase II.  The potable water includes potable water stored in Millipore cans and Potable Water System tanks.<BR> Source: Pierre LM, Schultz JR, Carr SE, Sauer RL. Water chemistry monitoring.In Isolation: NASA Experiments in Closed-Environment Living. San Diego, CA: Univelt, Incorporated; 2002;104:193-228. <END>"
+    ],
+    "processing_level": [],
+    "experiment_id": [
+     "LMLSTP4.2"
+    ]
+   },
+   "meta": "1 file \u00b7 13.5 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "9b2b8256-1227-55fa-bcfb-138ca3ade491",
+     "label": "JMGROUNDLMLSTP42_693.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 13824,
+     "meta": "13.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000731",
+   "label": "JMGROUNDLMLSTP42_694",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Data from Variation of VRA Operating Conditions",
+    "dataset_catalog": "JMGROUNDLMLSTP42_694",
+    "dataset_description": [
+     "Data show variation of VRA operating conditions.  Source:  Information taken from the  Early Human Testing Initiative Phase II Test Quick Look Test Report."
+    ],
+    "processing_level": "",
+    "experiment_id": [
+     "LMLSTP4.2"
+    ]
+   },
+   "meta": "1 file \u00b7 14.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "2499a416-3fcc-5864-bacf-efea44c5ea49",
+     "label": "JMGROUNDLMLSTP42_694.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 14336,
+     "meta": "14.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000730",
+   "label": "JMGROUNDLMLSTP42_692",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Ultrafiltration/Reverse Osmosis (UF/RO) Water Quality",
+    "dataset_catalog": "JMGROUNDLMLSTP42_692",
+    "dataset_description": [
+     "Average Ultrafiltration/Reverse Osmosis (UF/RO) water quality data for the Lunar-Mars Life Support Test Project Phase II is shown in this table.<BR> Source: Pierre LM, Schultz JR, Carr SE, Sauer RL. Water chemistry monitoring.In Isolation: NASA Experiments in Closed-Environment Living. San Diego, CA: Univelt, Incorporated; 2002;104:193-228. <END>"
+    ],
+    "processing_level": [],
+    "experiment_id": [
+     "LMLSTP4.2"
+    ]
+   },
+   "meta": "1 file \u00b7 13.5 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "88a2b980-332c-5b8b-a5db-854dd3ca96d1",
+     "label": "JMGROUNDLMLSTP42_692.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 13824,
+     "meta": "13.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002099",
+   "label": "JMGROUNDLMLSTP42_690",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Ultrafiltration/Reverse Osmosis (UF/RO) System Pressures",
+    "dataset_catalog": "JMGROUNDLMLSTP42_690",
+    "dataset_description": [
+     "The change in system pressures for the ultrafiltration/reverse osmosis unit over the course of a nine-hour run (run 15) are shown in this figure.  Through test day 28 of the Lunar-Mars Life Support Test Project (LMLSTP) Phase II, 31 nine-hour runs were completed.<BR> Source: Pierre LM, Schultz JR, Carr SE, Sauer RL. Water chemistry monitoring.In Isolation: NASA Experiments in Closed-Environment Living. San Diego, CA: Univelt, Incorporated; 2002;104:193-228. <END>"
+    ],
+    "processing_level": [],
+    "experiment_id": [
+     "LMLSTP4.2"
+    ]
+   },
+   "meta": "1 file \u00b7 329.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "1558e52a-085b-5348-84cc-3c0f4a574b33",
+     "label": "JMGROUNDLMLSTP42_690.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 336896,
+     "meta": "329.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001869",
+   "label": "JMGROUNDLMLSTP42_689",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Total Organic Carbon (TOC) Accountability of Potable Water Samples",
+    "dataset_catalog": "JMGROUNDLMLSTP42_689",
+    "dataset_description": [
+     "The total organic carbon (TOC) accountability is shown in this table.  The average TOC accountability ranged from 9-73%.  Low accountabilities were normally observed in samples with low TOC as the analytical methods employed were unable to detect or identify the specific organic compounds at the low TOC values encountered.  Higher levels of accountability were found for those samples with corresponding high levels of TOC.<BR> Source: Pierre LM, Schultz JR, Carr SE, Sauer RL. Water chemistry monitoring.In Isolation: NASA Experiments in Closed-Environment Living. San Diego, CA: Univelt, Incorporated; 2002;104:193-228. <END>"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "LMLSTP4.2"
+    ]
+   },
+   "meta": "1 file \u00b7 14.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "02e98247-cb90-539e-b7f2-e976c5e3a922",
+     "label": "JMGROUNDLMLSTP42_689.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 14336,
+     "meta": "14.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000164",
+   "label": "JMGROUNDLMLSTP42_687",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Phase III Water Recovery System (WRS) Demonstration Test Results",
+    "dataset_catalog": "JMGROUNDLMLSTP42_687",
+    "dataset_description": [
+     "In preparation for Phase III, a demonstration test was performed from March through June 1997.  This test processed urine and hygiene water generated by human donors, but the water was not consumed.  The analytical results from the ten samples collected and analyzed for this test are presented in this table.<BR> Source: Pierre LM, Schultz JR, Carr SE, Sauer RL. Water chemistry monitoring.In Isolation: NASA Experiments in Closed-Environment Living. San Diego, CA: Univelt, Incorporated; 2002;104:193-228. <END>"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "LMLSTP4.2"
+    ]
+   },
+   "meta": "1 file \u00b7 19.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "de02e1d8-c597-5c15-b459-da1e51f6d083",
+     "label": "JMGROUNDLMLSTP42_687.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 19456,
+     "meta": "19.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000854",
+   "label": "JMGROUNDLMLSTP42_685",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Phase IIa Consumed Potable Water Tank Results Summary",
+    "dataset_catalog": "JMGROUNDLMLSTP42_685",
+    "dataset_description": [
+     "A total of 51 recovered water samples were collected during Phase IIa.  A result summary for the consumed recovered potable water tank samples is shown in this table.<BR> Source: Pierre LM, Schultz JR, Carr SE, Sauer RL. Water chemistry monitoring.In Isolation: NASA Experiments in Closed-Environment Living. San Diego, CA: Univelt, Incorporated; 2002;104:193-228. <END>"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "LMLSTP4.2"
+    ]
+   },
+   "meta": "1 file \u00b7 23.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "833fb259-dd43-5bf0-a78c-18a26ded3dad",
+     "label": "JMGROUNDLMLSTP42_685.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 23552,
+     "meta": "23.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001358",
+   "label": "JMGROUNDLMLSTP42_688",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Phase III Consumed Potable Water Tank Results Summary",
+    "dataset_catalog": "JMGROUNDLMLSTP42_688",
+    "dataset_description": [
+     "A total of 52 recovered water samples and 15 in-process samples were collected for analysis during Phase III.  The summary data for the consumed recovered potable water tank samples are listed in this table.<BR> Source: Pierre LM, Schultz JR, Carr SE, Sauer RL. Water chemistry monitoring.In Isolation: NASA Experiments in Closed-Environment Living. San Diego, CA: Univelt, Incorporated; 2002;104:193-228. <END>"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "LMLSTP4.2"
+    ]
+   },
+   "meta": "1 file \u00b7 20.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "0570f49b-f856-59ff-beb8-f66232b4eed7",
+     "label": "JMGROUNDLMLSTP42_688.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 20480,
+     "meta": "20.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001118",
+   "label": "JMGROUNDLMLSTP42_680",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Phase I Potable Water Results",
+    "dataset_catalog": "JMGROUNDLMLSTP42_680",
+    "dataset_description": [
+     "This table shows a summary of the potable water analytical results obtained during the Lunar-Mars Life Support Test Project (LMLSTP) Phase I.  Listed are the parameters with related units, as well as the potable maximum contaminant level, hygiene maximum contaminant level, and U.S. Environmental Protection Agency maximum contaminant level for each parameter.  Potable water was supplied to the LMLSTP crew from the JSC public water supply. <BR> Source: Pierre LM, Schultz JR, Carr SE, Sauer RL. Water chemistry monitoring.In Isolation: NASA Experiments in Closed-Environment Living. San Diego, CA: Univelt, Incorporated; 2002;104:193-228. <END>"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "LMLSTP4.2"
+    ]
+   },
+   "meta": "1 file \u00b7 22.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "78547dc9-aea7-55f1-9640-645bb5d8f879",
+     "label": "JMGROUNDLMLSTP42_680.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 22528,
+     "meta": "22.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001589",
+   "label": "JMGROUNDLMLSTP42_684",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Phase IIa Water Recovery System (WRS) Demonstration Test Potable Water Results",
+    "dataset_catalog": "JMGROUNDLMLSTP42_684",
+    "dataset_description": [
+     "During the Water Recovery System (WRS) demonstration test, actual wastewater from human donors was processed by the integrated WRS system.  The processed water was not consumed by the donors, but instead was sampled and discarded.  This table shows a summary for the results of the six potable water samples collected during the WRS demonstration test.<BR> Source: Pierre LM, Schultz JR, Carr SE, Sauer RL. Water chemistry monitoring.In Isolation: NASA Experiments in Closed-Environment Living. San Diego, CA: Univelt, Incorporated; 2002;104:193-228. <END>"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "LMLSTP4.2"
+    ]
+   },
+   "meta": "1 file \u00b7 21.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "193984f1-cbd8-5cba-a5f4-cd583023640d",
+     "label": "JMGROUNDLMLSTP42_684.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 21504,
+     "meta": "21.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002173",
+   "label": "JMGROUNDLMLSTP42_681",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Phase II Consumed Potable Water Tank Results",
+    "dataset_catalog": "JMGROUNDLMLSTP42_681",
+    "dataset_description": [
+     "A summary of the results from the potable water tanks consumed during Phase II is presented in this table.  The prevalent organics identified in these samples were acetic acid and acetone.  Bis-2-ethylhexyl phthalate was also found.  However, this compound most likely originated from laboratory contamination.<BR> Source: Pierre LM, Schultz JR, Carr SE, Sauer RL. Water chemistry monitoring.In Isolation: NASA Experiments in Closed-Environment Living. San Diego, CA: Univelt, Incorporated; 2002;104:193-228. <END>"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "LMLSTP4.2"
+    ]
+   },
+   "meta": "1 file \u00b7 21.0 KB",
+   "date": "2022-08-01",
+   "children": [
+    {
+     "key": "d0b28f36-443c-5bce-b77c-799993a80655",
+     "label": "JMGROUNDLMLSTP42_681.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 21504,
+     "meta": "21.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002098",
+   "label": "JMGROUNDLMLSTP42_679",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "NASA Man System Integration Standards, Rev B, Volume III",
+    "dataset_catalog": "JMGROUNDLMLSTP42_679",
+    "dataset_description": [
+     "This table lists parameters with related units for the NASA Man System Integration Standard, as well as potable maximum contaminant level, hygiene maximum contaminant level, and U.S. Environmental Protection Agency maximum contaminant level for each parameter.  These standards were developed to document relevant human engineering requirements applicable to the space environment.  <BR> Source: Pierre LM, Schultz JR, Carr SE, Sauer RL. Water chemistry monitoring.In Isolation: NASA Experiments in Closed-Environment Living. San Diego, CA: Univelt, Incorporated; 2002;104:193-228. <END>"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "LMLSTP4.2"
+    ]
+   },
+   "meta": "1 file \u00b7 19.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "0babd7ec-59c0-5cce-838f-ff0b69089280",
+     "label": "JMGROUNDLMLSTP42_679.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 19456,
+     "meta": "19.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

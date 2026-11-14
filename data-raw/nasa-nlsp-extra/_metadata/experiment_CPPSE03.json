@@ -1,0 +1,242 @@
+{
+ "record": {
+  "id": "d37f9d35-073f-5cd6-b523-c6f6cee98bc8",
+  "_id": "d37f9d35-073f-5cd6-b523-c6f6cee98bc8",
+  "experiment_title": "Effect of Weightlessness on Tissue Regeneration in Rodents",
+  "archive_status_index": 1,
+  "pub_document_number": "ARCPUB001339",
+  "parameter_html": "<table><tr><td>Content, Collagen, in sponge implant, rat, Biochemistry, histology</td></tr><tr><td>Content, DNA, cell culture, chicken</td></tr><tr><td>Content, DNA, in sponge implant, rat, Biochemistry, histology</td></tr><tr><td>Content, Hydroxyproline, in sponge implant, rat, Biochemistry, histology</td></tr><tr><td>Content, Proline, in sponge implant, rat, Biochemistry, histology</td></tr><tr><td>Content, Protein, in sponge implant, rat, Biochemistry, histology</td></tr><tr><td>Granulation tissue</td></tr><tr><td>Hemorrhage resolution</td></tr><tr><td>Temperature, AEM, PSE.03, Ambient temperature recorder (ATR)</td></tr><tr></tr></table>",
+  "__source_key": "cl62ayb82cd4j01o6ao3kbmbv",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Wilfinger, William\">Principal Investigator: Wilfinger, William</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Kohn, Steve\">Co-Investigator: Kohn, Steve</a>",
+  "experiment_type_lk": [
+   "Shuttle Life Sciences Research (Middeck)"
+  ],
+  "__record_modified_date": "2026-08-23T03:51:00.586827+00:00",
+  "__indexed": "2026-08-23T03:51:00.586827+00:00",
+  "session_type": "Basal",
+  "__record_creation_date": "2022-07-28T19:58:28.792Z",
+  "__record_size": 59682,
+  "__record_version": 28,
+  "__model_version": 60,
+  "experiment_description": "<B>Objectives:</B><P>Little is currently known about the effects of microgravity on tissue repair. In the era of a long-term human presence in space, the probability of minor injury requiring on orbit treatment will increase. This experiment aims to evaluate the effects of spaceflight on the histological and tensiometric properties of full-thickness abdominal incisional skin wounds in the rat. A second objective was to evaluate the effectiveness of basic fibroblast growth factor (FGF) and platelet-derived growth factor (bb-homodimer, PDGF) in promoting granulation tissue formation and collagen deposition.<P><B>Approach:</B><P>Before flight, both flight and control rats received abdominal implants of polyvinyl acetal sponge disks containing either recombinant human bFGF, recombinant PDGF-BB, or a placebo.  After flight, animals received an injection of hypothalamic-releasing hormones. After sacrifice, the sponges were removed and prepared for biochemical and histological analysis of DNA, protein, and collagen content. Histological organization, amount of visible collagen, and the resolution of hemorrhage at the infiltrating interface were also examined.<P><B>Results:</B><P>Histological analysis showed that both bFGF and PDGF showed positive effects in the ground control rats, but only immediate-release bFGF and delayed-release PDGF had significant, positive effects in the flight rats. This may be due to the 2-day launch delay of the shuttle mission, which caused the growth factor to be released earlier during flight than planned. Although cellular influx into the tissue space of placebo-treated sponges was unaffected by spaceflight, there was a significantly blunted response to either bFGF or PDGF-BB in flight animals. Microgravity significantly reduced wound collagen concentration regardless of the treatment group. The collagen concentration of granulation tissue in flight animals treated with bFGF was significantly less than in those treated with PDGF, but not significantly less than in the placebo treated group. These results show that a highly standardized wound repair process in young rats is significantly altered by spaceflight.",
+  "payload_id": "PSE.03",
+  "CombinedSpecies": [
+   [
+    "Rat (Rattus norvegicus) Fischer 344"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "CPPSE03",
+  "indexed": "2026-08-23T03:51:00.586827+00:00",
+  "experiment_related": [
+   "CPPSE04"
+  ],
+  "GUID": "cl62ayb82cd4j01o6ao3kbmbv",
+  "parameter_name": [
+   "Content, Collagen, in sponge implant, rat, Biochemistry, histology",
+   "Content, DNA, cell culture, chicken",
+   "Content, DNA, in sponge implant, rat, Biochemistry, histology",
+   "Content, Hydroxyproline, in sponge implant, rat, Biochemistry, histology",
+   "Content, Proline, in sponge implant, rat, Biochemistry, histology",
+   "Content, Protein, in sponge implant, rat, Biochemistry, histology",
+   "Granulation tissue",
+   "Hemorrhage resolution",
+   "Temperature, AEM, PSE.03, Ambient temperature recorder (ATR)"
+  ],
+  "exp_index": 657,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Skeletal physiology"
+  ],
+  "protocol_approach": "Calcein",
+  "pme_role_with_name": [
+   "Co-Investigator: Kohn, Steve",
+   "Principal Investigator: Wilfinger, William"
+  ],
+  "missions": [
+   [
+    [
+     "STS-57"
+    ]
+   ]
+  ],
+  "__dirid": "d37f9d35-073f-5cd6-b523-c6f6cee98bc8",
+  "__record_size_wo_doccontent": 59682,
+  "experiment_parms_tissue2": "NULL",
+  "experiment_parms_tissue1": "NULL",
+  "PI": [
+   "Wilfinger, William"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "CPPSE03"
+  ],
+  "keyword": [],
+  "mission_id": [
+   [
+    [
+     "STS-57"
+    ]
+   ]
+  ],
+  "center": [
+   "Ames Research Center"
+  ],
+  "ncindex": [
+   7
+  ],
+  "proposal_date": [],
+  "species": [
+   "Rat"
+  ],
+  "PrincipalInvestigator": [
+   "Wilfinger, William"
+  ],
+  "program_name": [
+   "Shuttle Program"
+  ],
+  "archive_status": "Data preservation is complete. All datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Shuttle Program",
+  "__source_field_concat": "Basal ARCPUB001339 PSE.03 cl62ayb82cd4j01o6ao3kbmbv NULL NULL  Calcein Effect of Weightlessness on Tissue Regeneration in Rodents CPPSE03 Shuttle Program Data preservation is complete. All datasets are publicly available.",
+  "__icon_type": "rat",
+  "__description": "<B>Objectives:</B><P>Little is currently known about the effects of microgravity on tissue repair. In the era of a long-term human presence in space, the probability of minor injury requiring on orbit treatment will increase. This experiment aims to evaluate the effects of spaceflight on the histological and tensiometric properties of full-thickness abdominal incisional skin wounds in the rat. A second objective was to evaluate the effectiveness of basic fibroblast growth factor (FGF) and platelet-derived growth factor (bb-homodimer, PDGF) in promoting granulation tissue formation and collagen deposition.<P><B>Approach:</B><P>Before flight, both flight and control rats received abdominal implants of polyvinyl acetal sponge disks containing either recombinant human bFGF, recombinant PDGF-BB, or a placebo.  After flight, animals received an injection of hypothalamic-releasing hormones. After sacrifice, the sponges were removed and prepared for biochemical and histological analysis of DNA, protein, and collagen content. Histological organization, amount of visible collagen, and the resolution of hemorrhage at the infiltrating interface were also examined.<P><B>Results:</B><P>Histological analysis showed that both bFGF and PDGF showed positive effects in the ground control rats, but only immediate-release bFGF and delayed-release PDGF had significant, positive effects in the flight rats. This may be due to the 2-day launch delay of the shuttle mission, which caused the growth factor to be released earlier during flight than planned. Although cellular influx into the tissue space of placebo-treated sponges was unaffected by spaceflight, there was a significantly blunted response to either bFGF or PDGF-BB in flight animals. Microgravity significantly reduced wound collagen concentration regardless of the treatment group. The collagen concentration of granulation tissue in flight animals treated with bFGF was significantly less than in those treated with PDGF, but not significantly less than in the placebo treated group. These results show that a highly standardized wound repair process in young rats is significantly altered by spaceflight.",
+  "__doi": "10.83263/k0by-zw64",
+  "__doi_record_creation_date": "2026-08-23T03:51:00",
+  "__doi_record_modified_date": "2026-08-23T03:51:00"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001211",
+   "label": "AINV0000000417",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "PSE.03 Ambient Temperature Recorder (ATR) data for the two flight Animal Enclosure Modules (AEM) located in the Orbiter Middeck",
+    "dataset_catalog": "AINV0000000417",
+    "dataset_description": [
+     "The datasets represent ATR-4 devices installed in the 2 flight AEMs.  ATR-4s were turned on and installed in the flight AEMs in approximately the L-24h-to-L-20h period (ATR-4 activation at approximately 6/19/93 1110h EDT), at KSC/CCAFS/Hangar L.   Animals were installed in the AEMs at approximately 6/19/93 1300h.  The 2 flight AEMs were installed in the Orbiter middeck at approximately 1700h EDT 6/19/93, at approximately L-16h.  The scheduled 6/20/93 morning launch was scrubbed due to poor weather.  The 2 flight AEMs remained on the Orbiter middeck, and the 6/21/93 0907h EDT launch was successful.  The Orbiter landed at KSC on 7/1/93 0852h EDT.  The 2 flight AEMs were offloaded from the Orbiter and returned to Hangar L at approximately R+3hours (approximately 7/1/93 1200h), at which time animals were removed for processing, and ATR-4s were removed.<br/><br/>Within each dataset are temperature measurement  timepoints  separated by 225 seconds (3.75 minutes).  At each temperature measurement timepoint, there are 4 temperatures (in degrees C.), representing the internal temperature sensor in the ATR-4 (channel 1), and the 3 external probes attached to each ATR-4.  In each data timepoint entry in the dataset, the data read (from left to right):  time;  channel 1, channel 2, channel 3, channel 4.  For PSE.03, the ATR-4s were configured to record 4 channels of temperature data, with channel 1 recording from the ATR-4 internal temperature sensor, and the remaining 3 channels recording data from remotely-placed external temperature probes."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "CPPSE03"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "8e034cf3-69db-5898-bee3-1e23ec1b28cf",
+     "label": "PSE03_ATRflight.xls_STS-57_CPPSE03_2010_355_021250.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001218",
+   "label": "AINV0000000418",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "PSE.03 Ambient Temperature Recorder (ATR) data for the two 48-hour delayed ground control Animal Enclosure Modules (AEM) located at Kennedy Space Center (KSC) in the Orbital Environmental Simulator (OES)",
+    "dataset_catalog": "AINV0000000418",
+    "dataset_description": [
+     "The datasets represent ATR-4 devices installed in 2 ground AEMs, housed in the Orbiter Environmental Simulator (OES) at KSC/CCAFS/Hangar L/2nd floor.  These AEMs were set up on 6/21/93  (ATR-4 activation approximately 10:55am EDT 6/21/93), installed in the OES at approximately 1700h on 6/21/93, with simulated launch on 6/23/93, simulated landing on 7/3/93, and animals and ATR-4s removed on 7/3/93 (approximately 1200h) , in all cases on a strictly 48-hour delay basis as regards the flight AEMs.<br/><br/>Within each dataset are temperature measurement  timepoints  separated by 225 seconds (3.75 minutes).  At each temperature measurement timepoint, there are 4 temperatures (in degrees C.), representing the internal temperature sensor in the ATR-4 (channel 1), and the 3 external probes attached to each ATR-4.  In each data timepoint entry in the dataset, the data read (from left to right):  time;  channel 1, channel 2, channel 3, channel 4.  For PSE.03, the ATR-4s were configured to record 4 channels of temperature data, with channel 1 recording from the ATR-4 internal temperature sensor, and the remaining 3 channels recording data from remotely-placed external temperature probes."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "CPPSE03"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "3b58750f-a3e7-5c2a-aea1-3c4f7dd1cb5b",
+     "label": "PSE03_ATRground.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002229",
+   "label": "AINV0000000420",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "PSE.03 Chamber Data",
+    "dataset_catalog": "AINV0000000420",
+    "dataset_description": [
+     "temperature (\u00b0C.), humidity (% saturation), and partial pressure of CO2 (pCO2, in ppm or parts per million)."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "CPPSE03"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "5c6d97be-9c62-5748-9662-92d53f206928",
+     "label": "PSE03_chamber.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000111",
+   "label": "AINV0000000419",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "PSE.03 Calibrated Ancillary System (CAS) data downlinked from the Orbiter",
+    "dataset_catalog": "AINV0000000419",
+    "dataset_description": [
+     "Orbiter environmental temperature (\u00b0C.), relative humidity (% saturation), and partial pressure of oxygen and carbon dioxide and total pressure (in ppm or parts per million)."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "CPPSE03"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "2fb57583-5221-5a76-980a-fcfb229ee0c9",
+     "label": "PSE03_OES.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

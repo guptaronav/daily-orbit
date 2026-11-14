@@ -1,0 +1,452 @@
+{
+ "record": {
+  "id": "c22ccec2-3669-5977-a829-7e22a643dd2a",
+  "_id": "c22ccec2-3669-5977-a829-7e22a643dd2a",
+  "experiment_title": "Rodent Dam/Neonate Animal Enclosure Module Nursing Facility Development Experiment",
+  "archive_status_index": 1,
+  "parameter_html": "<table><tr><td>Properties, health, Rat, Test, observation</td></tr><tr><td>Survival rate: Dams, neonates, rat (Sprague-Dawley, Wistar), Observation (number)</td></tr><tr><td>Temperature, AEM, NIH.R3, Ambient temperature recorder (ATR)</td></tr><tr></tr></table>",
+  "__source_key": "cl62aysfwcd8m01o627ac9lpt",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Dalton, Maynard\">Principal Investigator: Dalton, Maynard</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Dalton, Bonnie\">Principal Investigator: Dalton, Bonnie</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Riley, Danny\">Co-Investigator: Riley, Danny</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Walton, Kerry\">Co-Investigator: Walton, Kerry</a>",
+  "experiment_type_lk": [
+   "Shuttle Life Sciences Research (Middeck)"
+  ],
+  "__record_modified_date": "2026-08-23T03:59:50.910641+00:00",
+  "proposal_source": [
+   "AO-93-OLMSA-01"
+  ],
+  "__indexed": "2026-08-23T03:59:50.910641+00:00",
+  "session_type": "Flight",
+  "__record_creation_date": "2022-07-28T20:03:10.318Z",
+  "__record_size": 55811,
+  "__record_version": 28,
+  "__model_version": 60,
+  "experiment_description": "<B>Objectives:</B><P>NIH.R3 was a proof-of-concept experiment, designed to test the capability of the Animal Enclosure Module Nursing Facility (AEM-NF) in preparation for the upcoming Neurolab (STS-90) mission. The goals of the hardware verification test were to verify the survival of rat dams and neonates in an AEM with a Nursing Facility (NF) insert for the duration of the flight, to verify that clinically healthy animals are retrieved post flight, and to evaluate the maternal behaviors of the rat dams in the AEM NF cages throughout the shuttle mission.<P><B>Approach:</B><P>Six litters of Sprague-Dawley rats were used in the experiment. Each litter consisted of one nursing dam and 10 neonates, with two identically-aged litters per AEM-NF. Two litters (in one AEM-NF) each were launched with neonate ages at Post Natal day 5 (PN%), Post Natal day 8 (PN8), and Post Natal day 15 (PN15). PN5 was the first choice for launch age for Neurolab. PN8 was second choice, and PN15 was last choice. In-flight activities consisted of daily health checks, water refill, and videotaping of the animals. Post-flight, animals were removed from the AEM-NF and assessed for survival rate and health.<P><B>Results:</B><P>Only 6 out of the 20 PN5 neonates survived the flight. Of the PN8 neonates, 19 out of 20 survived and all of the PN15 neonates survived. All flight groups weighed less than the corresponding ground controls, although there may have been a significant cage effect independent of gravity or microgravity. All surviving flight animals were in good or very good condition as described by the inspecting veterinarian. The AEM-NF proved to be suitable for the support of rat neonates aged PN8 or older at launch, but unsuitable for the support of those PN5 or younger at launch. However, because of the sample size of only 2 dams, it is inconclusive whether the poor survival in the PN5 group could have been due to poor dam behavior.",
+  "payload_id": "NIH.R3",
+  "CombinedSpecies": [
+   [
+    "Rat (Rattus norvegicus) Sprague-Dawley"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "E122A",
+  "indexed": "2026-08-23T03:59:50.910641+00:00",
+  "experiment_related": [
+   "No related"
+  ],
+  "GUID": "cl62aysfwcd8m01o627ac9lpt",
+  "parameter_name": [
+   "Properties, health, Rat, Test, observation",
+   "Survival rate: Dams, neonates, rat (Sprague-Dawley, Wistar), Observation (number)",
+   "Temperature, AEM, NIH.R3, Ambient temperature recorder (ATR)"
+  ],
+  "exp_index": 739,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Behavior and performance",
+   "Technology development"
+  ],
+  "protocol_approach": "Delayed synchronous control",
+  "pme_role_with_name": [
+   "ARC Experiment Support Scientist: Rodriguez, Shari",
+   "Co-Investigator: Riley, Danny",
+   "Co-Investigator: Walton, Kerry",
+   "Principal Investigator: Dalton, Bonnie",
+   "Principal Investigator: Dalton, Maynard"
+  ],
+  "missions": [
+   [
+    [
+     "STS-72"
+    ]
+   ]
+  ],
+  "__dirid": "c22ccec2-3669-5977-a829-7e22a643dd2a",
+  "__record_size_wo_doccontent": 55811,
+  "experiment_parms_tissue2": "NULL",
+  "experiment_parms_tissue1": "NULL",
+  "PI": [
+   "Dalton, Bonnie",
+   "Dalton, Maynard"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "E122A"
+  ],
+  "keyword": [],
+  "mission_id": [
+   [
+    [
+     "STS-72"
+    ]
+   ]
+  ],
+  "center": [
+   "Ames Research Center"
+  ],
+  "ncindex": [
+   7
+  ],
+  "proposal_date": [
+   "7/1/1993"
+  ],
+  "species": [
+   "Rat"
+  ],
+  "PrincipalInvestigator": [
+   "Dalton, Bonnie",
+   "Dalton, Maynard"
+  ],
+  "LaunchDate": [
+   "01/11/1996"
+  ],
+  "LaunchYear": 1996,
+  "program_name": [
+   "Shuttle Program"
+  ],
+  "archive_status": "Data preservation is complete. All datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Shuttle Program",
+  "__source_field_concat": "Flight NIH.R3 cl62aysfwcd8m01o627ac9lpt NULL NULL  Delayed synchronous control Rodent Dam/Neonate Animal Enclosure Module Nursing Facility Development Experiment E122A Shuttle Program Data preservation is complete. All datasets are publicly available.",
+  "__icon_type": "rat",
+  "__description": "<B>Objectives:</B><P>NIH.R3 was a proof-of-concept experiment, designed to test the capability of the Animal Enclosure Module Nursing Facility (AEM-NF) in preparation for the upcoming Neurolab (STS-90) mission. The goals of the hardware verification test were to verify the survival of rat dams and neonates in an AEM with a Nursing Facility (NF) insert for the duration of the flight, to verify that clinically healthy animals are retrieved post flight, and to evaluate the maternal behaviors of the rat dams in the AEM NF cages throughout the shuttle mission.<P><B>Approach:</B><P>Six litters of Sprague-Dawley rats were used in the experiment. Each litter consisted of one nursing dam and 10 neonates, with two identically-aged litters per AEM-NF. Two litters (in one AEM-NF) each were launched with neonate ages at Post Natal day 5 (PN%), Post Natal day 8 (PN8), and Post Natal day 15 (PN15). PN5 was the first choice for launch age for Neurolab. PN8 was second choice, and PN15 was last choice. In-flight activities consisted of daily health checks, water refill, and videotaping of the animals. Post-flight, animals were removed from the AEM-NF and assessed for survival rate and health.<P><B>Results:</B><P>Only 6 out of the 20 PN5 neonates survived the flight. Of the PN8 neonates, 19 out of 20 survived and all of the PN15 neonates survived. All flight groups weighed less than the corresponding ground controls, although there may have been a significant cage effect independent of gravity or microgravity. All surviving flight animals were in good or very good condition as described by the inspecting veterinarian. The AEM-NF proved to be suitable for the support of rat neonates aged PN8 or older at launch, but unsuitable for the support of those PN5 or younger at launch. However, because of the sample size of only 2 dams, it is inconclusive whether the poor survival in the PN5 group could have been due to poor dam behavior.",
+  "__doi": "10.83263/y21t-8r94",
+  "__doi_record_creation_date": "2026-08-23T03:59:50",
+  "__doi_record_modified_date": "2026-08-23T03:59:50"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001627",
+   "label": "AINV0000000403",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "NIH.R3 Calibrated Ancillary System (CAS) data",
+    "dataset_catalog": "AINV0000000403",
+    "dataset_description": [
+     "Orbiter environmental temperature (\u00b0C.), relative humidity (% saturation), and partial pressure of oxygen and carbon dioxide and total pressure (in ppm or parts per million)."
+    ],
+    "processing_level": [
+     "Raw<br/>Analyzed"
+    ],
+    "experiment_id": [
+     "E122A"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "f3ba73cc-9c1a-5718-a333-d00f37674680",
+     "label": "HIST.doc",
+     "type": "file",
+     "ext": "doc",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001785",
+   "label": "AINV0000000406",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "NIH.R3 Ambient Temperature Recorder (ATR) ground control data - ATR serial number 45 located in ground control AEM serial number 004",
+    "dataset_catalog": "AINV0000000406",
+    "dataset_description": [],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "E122A"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "ba9fd47d-74e4-58fe-b3ae-5bc6664acda9",
+     "label": "4572G004.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001206",
+   "label": "AINV0000000613",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "NIH.R3 Temperature Analysis of the Flight AEMs, Ground AEMs, and Orbiter Cabin",
+    "dataset_catalog": "AINV0000000613",
+    "dataset_description": [
+     "Temperature in degrees centigrade"
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "E122A",
+     "E122B"
+    ]
+   },
+   "meta": "2 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "7fb07680-c506-5fe3-9891-28135b1d793a",
+     "label": "TempAnalysis.doc",
+     "type": "file",
+     "ext": "doc",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "25a71388-fe34-5200-bb84-316ee305afb5",
+     "label": "TempAnalysis.doc",
+     "type": "file",
+     "ext": "doc",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000678",
+   "label": "AINV0000000402",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "NIH.R3 Ambient Temperature Recorder (ATR) flight data - ATR serial number 33 located in flight AEM serial number 001",
+    "dataset_catalog": "AINV0000000402",
+    "dataset_description": [],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "E122A",
+     "E122B"
+    ]
+   },
+   "meta": "2 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "271abc55-4ecb-525c-983a-fa24c11e07e1",
+     "label": "3372F001.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6dd3866c-f945-57e3-9d7c-d37445008a52",
+     "label": "3372F001.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000147",
+   "label": "AINV0000000407",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "NIH.R3 Ambient Temperature Recorder (ATR) ground control data - ATR serial number 46 located in ground control AEM serial number 101",
+    "dataset_catalog": "AINV0000000407",
+    "dataset_description": [],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "E122A"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "978057fe-46a4-560e-ad5d-90052bfc93f8",
+     "label": "4672G101.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001328",
+   "label": "AINV0000000405",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "NIH.R3 Ambient Temperature Recorder (ATR) flight data - ATR serial number 44 located in flight AEM serial number 003",
+    "dataset_catalog": "AINV0000000405",
+    "dataset_description": [],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "E122A"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "794042ee-eedb-5997-b5ae-905457b50e12",
+     "label": "4472F003.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000064",
+   "label": "AINV0000000404",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "NIH.R3 Ambient Temperature Recorder (ATR) flight data - ATR serial number 37 located in flight AEM serial number 002",
+    "dataset_catalog": "AINV0000000404",
+    "dataset_description": [],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "E122A"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "695771d5-f8f1-5417-9589-6141ba2addbf",
+     "label": "3772F002.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000787",
+   "label": "AINV0000000408",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "NIH.R3 Ambient Temperature Recorder (ATR) ground control data - ATR serial number 49 located in ground control AEM serial number 102",
+    "dataset_catalog": "AINV0000000408",
+    "dataset_description": [],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "E122A"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "3afc7b4b-dd3c-590d-b0d3-adccbf6ee050",
+     "label": "4972G102.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002226",
+   "label": "AINV0000000611",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "NIH.R3 Hangar L Temperature and Humidity Data",
+    "dataset_catalog": "AINV0000000611",
+    "dataset_description": [
+     "Temperature and relative humidity pen-and-ink graphs from room hygrothermographs from selelcted laboratories at Hangar L.<br/><br/>These data are available from the NIH.R3 30-Day Post Flight Report (AR-03006), Appendix I."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "E122A"
+    ]
+   },
+   "meta": "0 files",
+   "date": "2022-07-28",
+   "children": []
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000427",
+   "label": "AINV0000000612",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "NIH.R3 Dam and Neonate Body Weight Data at Cageload and Unload for Flight and Ground Control Groups",
+    "dataset_catalog": "AINV0000000612",
+    "dataset_description": [
+     "Body weight in grams"
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "E122A",
+     "E122B"
+    ]
+   },
+   "meta": "2 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "e7ccd81c-ec25-5a85-95e5-f7ab816858d1",
+     "label": "NIHR3AnimalWts.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "79c76a61-fc96-5229-bd46-9a662b6a57ce",
+     "label": "NIHR3AnimalWts.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

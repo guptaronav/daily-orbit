@@ -1,0 +1,983 @@
+{
+ "record": {
+  "id": "72616c68-3046-5d36-8f1d-a26d856107ff",
+  "_id": "72616c68-3046-5d36-8f1d-a26d856107ff",
+  "__is_locked": false,
+  "experiment_title": "Clinical Nutritional Assessment (Flight Analog)",
+  "experiment_alias": "MEDB 8.1,NEEMO-MR016L,SMO 016E,MR016L",
+  "__source_key": "cl62azna9cdfy01o64xds700f",
+  "experiment_type": [
+   [
+    "Flight Analogs Project (FAP)"
+   ],
+   [
+    "Artificial Gravity (Fractional Gravity)"
+   ],
+   [
+    "NASA Bedrest Studies"
+   ],
+   [
+    "NASA Ground-Based Investigations"
+   ]
+  ],
+  "AssignedArchivist": [
+   "Liddell, Nyaia A."
+  ],
+  "keyword": [
+   "Calcium",
+   "Cholesterol",
+   "Iron",
+   "Magnesium",
+   "Osteocalcin",
+   "Potassium",
+   "Sodium",
+   "Testosterone",
+   "Zinc",
+   "Parathyroid hormones"
+  ],
+  "__record_version": 35,
+  "experiment_description": "OBJECTIVES:<br>\nThe objective of this test was to assess nutrient intake and status during bed rest and to assure correction of nutritional status following bed rest.  <div>\n<div>\nAPPROACH:<br>\nAssessment of body composition was required to determine changes in muscle and bone compartments.  The nutritional assessment measured dietary intake and determined nutritional status through blood samples and 48-hour void-by-void urine samples.  \n</div><div>\nNutritional assessment is required to determine adequacy of nutrient stores prior to bed rest, to assess nutrient intake and status during bed rest, and to assure correction of nutritional status following bed rest. Assessment of body composition is required to determine changes in muscle and bone compartments during space flight.\n</div><div>\nNutritional status was expected to decline/remain unchanged during bed rest. A decrease in bone mineral density and an increase in markers of bone resorption were expected.\n</div><div>\nThe biological samples collected were used for determination of nutritional status, which included the following: </div><ul><li>Protein status\n</li><li>Calcium and bone status\n</li><li>Mineral status\n</li><li>Antioxidant status\n</li><li>General blood chemistry\n</li><li>Water-soluble vitamin status\n</li><li>Fat-soluble vitamin status\n</li><li>Iron status</li><li>Renal stone risk</li><li>General urine chemistry</li></ul><div><br></div><div>RESULTS:<br>\nThis experiment has concluded. Tabular results are available for the public. Refer to cited publications for more information.</div></div>",
+  "indexed": "2026-08-23T04:24:46.369501+00:00",
+  "GUID": "cl62azna9cdfy01o64xds700f",
+  "_file_extension": "human",
+  "archive_status": "Data preservation is complete.  All datasets are publicly available.",
+  "__model_type": "lsda_experiment",
+  "__dirid": "72616c68-3046-5d36-8f1d-a26d856107ff",
+  "__record_size_wo_doccontent": 144060,
+  "__update_method": "Update CDM",
+  "experiment_identifier": [
+   "MR016G",
+   "MEDB 8.1,NEEMO-MR016L,SMO 016E,MR016L"
+  ],
+  "CompleteArchivalExpectedInFiscalYear": [
+   "0"
+  ],
+  "experiment_type_lk": [
+   "Flight Analogs Project (FAP)",
+   "Artificial Gravity (Fractional Gravity)",
+   "NASA Bedrest Studies",
+   "NASA Ground-Based Investigations"
+  ],
+  "__record_modified_date": "2026-08-23T04:24:46.369501+00:00",
+  "nasa_center": "JSC",
+  "__indexed": "2026-08-23T04:24:46.369501+00:00",
+  "alias": [
+   "MEDB 8.1",
+   "NEEMO-MR016L",
+   "SMO 016E",
+   "MR016L"
+  ],
+  "__record_creation_date": "2022-07-28T19:57:39.080Z",
+  "__record_size": 144060,
+  "__model_version": 60,
+  "species_sci_name": [
+   [
+    "Homo sapiens"
+   ]
+  ],
+  "payload_id": [
+   "Campaign 19",
+   "DBLS",
+   "HDT30",
+   "Campaign 5",
+   "Pilot",
+   "Campaign 3",
+   "Campaign 1",
+   "WISE",
+   "ACG",
+   "CFT70"
+  ],
+  "CombinedSpecies": [
+   "Human (Homo sapiens)"
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "ncindex": 2,
+  "researchIndex": [
+   16,
+   6
+  ],
+  "experiment_id": "MR016G",
+  "experiment_related": [
+   "SMO 016E",
+   "NEEMO-MR016L",
+   "MR016L"
+  ],
+  "center": "JSC",
+  "parameter_name": [
+   "1,25-dihydroxyvitamin D (1,25(OH)2D)",
+   "2-methylcitric acid",
+   "25-hydroxyvitamin D (25(OH2D)",
+   "3-methylhistidine",
+   "3-methylhistidine, urine",
+   "4-pyridoxic acid, plasma",
+   "4-pyridoxic acid, urine",
+   "8-hydroxy-2-deoxyguanosine (8-OHdG), urine",
+   "Acesulfame potassium",
+   "Alanine",
+   "Alcohol",
+   "Alkaline phosphatase",
+   "All-rac-alpha-tocopherol",
+   "Alpha-carotene",
+   "Alpha-tocopherol",
+   "Alpha-tocopherol equivalents, total",
+   "Alpha-tocopherol, natural",
+   "Alpha-tocopherol, synthetic",
+   "Alpha-tocopherol, total",
+   "Arachidic acid",
+   "Arachidonic acid",
+   "Arginine",
+   "Ascorbic acid",
+   "Aspartame",
+   "Aspartic acid",
+   "Behenic acid",
+   "Beta carotene",
+   "Beta carotene equivalents derived from provitamin A carotenoids",
+   "Beta cryptoxanthin",
+   "Bioavailable testosterone",
+   "Biochanin A",
+   "Bone-specific alkaline phosphatase (BSAP)",
+   "Butyric acid",
+   "C-reactive protein (CRP)",
+   "CTX (C-terminal telopeptide), urine",
+   "Caffeine",
+   "Calciferol",
+   "Calcium",
+   "Calcium, ionized",
+   "Calcium, serum",
+   "Calcium, urine",
+   "Capric acid",
+   "Caproic acid",
+   "Caprylic acid",
+   "Carbohydrate, total",
+   "Chloride, urine",
+   "Cholesterol",
+   "Cholesterol to saturated fatty acid index",
+   "Cholesterol, high-density lipoprotein (HDL)",
+   "Cholesterol, low-density lipoprotein (LDL)",
+   "Citrate, urine",
+   "Cobalamin",
+   "Copper",
+   "Cortisol, serum",
+   "Cortisol, urine",
+   "Coumestrol",
+   "Creatinine clearance",
+   "Creatinine, serum",
+   "Creatinine, urine",
+   "Cystathionine",
+   "Cystine",
+   "D-alpha-tocopherol",
+   "Daidzein",
+   "Dehydroepiandrosterone (DHEA)",
+   "Delta-tocopherol",
+   "Deoxypyridinoline, urine",
+   "Dietary calories from alcohol",
+   "Dietary calories from carbohydrate",
+   "Dietary calories from fat",
+   "Dietary calories from monounsaturated fatty acids (MUFA)",
+   "Dietary calories from polyunsaturated fatty acids (PUFA)",
+   "Dietary calories from protein",
+   "Dietary calories from saturated fatty acids (SFA)",
+   "Dietary fiber, insoluble",
+   "Dietary fiber, soluble",
+   "Dietary fiber, total",
+   "Dietary folate equivalents",
+   "Dl alpha tocopherol",
+   "Docosahexaenoic acid (DHA)",
+   "Docosapentaenoic acid (DPA)",
+   "Eicosapentaenoic acid (EPA)",
+   "Elaidic acid",
+   "Energy",
+   "Erucic acid",
+   "Estradiol, serum",
+   "Fat, total",
+   "Fatty acids, total trans",
+   "Fibrinogen",
+   "Folate (vitamin B9), red blood cells",
+   "Folate, serum",
+   "Folic acid",
+   "Food content, folate",
+   "Formononetin",
+   "Fructose",
+   "Gadoleic acid",
+   "Galactose",
+   "Gamma-linolinec acid (GLA), urine",
+   "Gamma-tocopherol",
+   "Genistein",
+   "Glucose",
+   "Glutamic acid",
+   "Glutathione peroxidase (GPx)",
+   "Glycine",
+   "Glycitein",
+   "H peptide, urine",
+   "Heme, plasma",
+   "Histidine",
+   "Homocysteine, total",
+   "Insulin-like growth factor 1 (IGF-1)",
+   "Intact parathyroid hormone (iPTH)",
+   "Iron",
+   "Isoleucine",
+   "Lactose",
+   "Lauric acid",
+   "Leptin",
+   "Leucine",
+   "Linoleic acid",
+   "Linolelaidic acid",
+   "Linolenic acid",
+   "Lutein",
+   "Lycopene",
+   "Lysine",
+   "Magnesium",
+   "Magnesium, serum",
+   "Magnesium, urine",
+   "Malondialdehyde (MDA)",
+   "Maltose",
+   "Manganese",
+   "Margaric acid",
+   "Methionine",
+   "Methylmalonic acid (MMA)",
+   "Monounsaturated fatty acids (MUFA), total",
+   "Myristic acid",
+   "Myristoleic acid",
+   "N-telopeptide (NTX), urine",
+   "Natural folate",
+   "Niacin",
+   "Niacin equivalent",
+   "Oleic acid",
+   "Omega-3 fatty acids",
+   "Osmolality, urine",
+   "Osteocalcin, uncarboxylated",
+   "Osteoprotegerin (OPG)",
+   "Oxalate, urine",
+   "Oxalic acid",
+   "Palmitic acid",
+   "Palmitoleic acid",
+   "Pantothenic acid",
+   "Parinaric acid",
+   "Pectins",
+   "Phenylalanine",
+   "Phosphorus",
+   "Phosphorus, serum",
+   "Phosphorus, urine",
+   "Phytic acid",
+   "Polyunsaturated fatty acids (PUFA), total",
+   "Polyunsaturated to saturated fat ratio",
+   "Potassium",
+   "Potassium, urine",
+   "Proline",
+   "Prostaglandin F2alpha, urine",
+   "Protein total, serum protein electrophoresis (SPE)",
+   "Protein, animal",
+   "Protein, total",
+   "Protein, vegetable",
+   "Provitamin A carotenoid",
+   "Pyridinoline, urine",
+   "Pyridoxal 5'-phosphate (PLP), plasma",
+   "Pyridoxamine",
+   "Pyridoxine",
+   "Pyridoxyl",
+   "RRR alpha-tocopherol",
+   "Red blood cells, aspartate transaminase-stimulated activation",
+   "Red blood cells, glutathione reductase-stimulated activation",
+   "Red blood cells, transketolase-stimulated activation",
+   "Retinol",
+   "Retinol activity equivalents",
+   "Retinol binding protein",
+   "Retinol equivalents",
+   "Riboflavin",
+   "Saccharin",
+   "Saturated fatty acids (SFA), total",
+   "Sclerostin",
+   "Selenium",
+   "Serine",
+   "Sodium",
+   "Sodium, urine",
+   "Specific gravity, urine",
+   "Starch",
+   "Stearic acid",
+   "Sucralose",
+   "Sucrose",
+   "Sucrose polyester",
+   "Sugars, total",
+   "Sulfate, urine",
+   "Superoxide dismutase (SOD)",
+   "Synthetic folate",
+   "Thiamine",
+   "Threonine",
+   "Total antioxidant capacity (TAC)",
+   "Total folate",
+   "Total lipid peroxides",
+   "Total lipids",
+   "Trans-hexadecenoic acid",
+   "Trans-octadecadienoic acid",
+   "Trans-octadecenoic acid",
+   "Transferrin",
+   "Transferrin receptors",
+   "Transthyretin",
+   "Triglycerides",
+   "Tryptophan",
+   "Tyrosine",
+   "Uric acid",
+   "Urinary pH",
+   "Urine volume",
+   "Valine",
+   "Vitamin A activity, total",
+   "Vitamin B1",
+   "Vitamin B12",
+   "Vitamin B2",
+   "Vitamin B3",
+   "Vitamin B6",
+   "Vitamin C",
+   "Vitamin D",
+   "Vitamin D binding protein",
+   "Vitamin E",
+   "Vitamin E-total lipid ratio",
+   "Vitamin K",
+   "Vitamin K1 (phylloquinone)",
+   "Water",
+   "Zeaxanthin",
+   "Zinc"
+  ],
+  "exp_index": 1357,
+  "research_area": [
+   "Metabolism and nutrition",
+   "Clinical medicine"
+  ],
+  "species": [
+   [
+    "Human"
+   ]
+  ],
+  "pme_role_with_name": [
+   "Principal Investigator: Smith, Scott M."
+  ],
+  "missions": [
+   "UTMB Campaign 1",
+   "UTMB Campaign 3"
+  ],
+  "PI": [
+   "Smith, Scott M."
+  ],
+  "sort": [
+   3,
+   "402102a9-2bad-5dc8-9884-a4590256d481"
+  ],
+  "parameter_html": "<table><tr><td>1,25-dihydroxyvitamin D (1,25(OH)2D)</td></tr><tr><td>2-methylcitric acid</td></tr><tr><td>25-hydroxyvitamin D (25(OH2D)</td></tr><tr><td>3-methylhistidine</td></tr><tr><td>3-methylhistidine, urine</td></tr><tr><td>4-pyridoxic acid, plasma</td></tr><tr><td>4-pyridoxic acid, urine</td></tr><tr><td>8-hydroxy-2-deoxyguanosine (8-OHdG), urine</td></tr><tr><td>Acesulfame potassium</td></tr><tr><td>Alanine</td></tr><tr><td>Alcohol</td></tr><tr><td>Alkaline phosphatase</td></tr><tr><td>All-rac-alpha-tocopherol</td></tr><tr><td>Alpha-carotene</td></tr><tr><td>Alpha-tocopherol</td></tr><tr><td>Alpha-tocopherol equivalents, total</td></tr><tr><td>Alpha-tocopherol, natural</td></tr><tr><td>Alpha-tocopherol, synthetic</td></tr><tr><td>Alpha-tocopherol, total</td></tr><tr><td>Arachidic acid</td></tr><tr><td>Arachidonic acid</td></tr><tr><td>Arginine</td></tr><tr><td>Ascorbic acid</td></tr><tr><td>Aspartame</td></tr><tr><td>Aspartic acid</td></tr><tr><td>Behenic acid</td></tr><tr><td>Beta carotene</td></tr><tr><td>Beta carotene equivalents derived from provitamin A carotenoids</td></tr><tr><td>Beta cryptoxanthin</td></tr><tr><td>Bioavailable testosterone</td></tr><tr><td>Biochanin A</td></tr><tr><td>Bone-specific alkaline phosphatase (BSAP)</td></tr><tr><td>Butyric acid</td></tr><tr><td>C-reactive protein (CRP)</td></tr><tr><td>CTX (C-terminal telopeptide), urine</td></tr><tr><td>Caffeine</td></tr><tr><td>Calciferol</td></tr><tr><td>Calcium</td></tr><tr><td>Calcium, ionized</td></tr><tr><td>Calcium, serum</td></tr><tr><td>Calcium, urine</td></tr><tr><td>Capric acid</td></tr><tr><td>Caproic acid</td></tr><tr><td>Caprylic acid</td></tr><tr><td>Carbohydrate, total</td></tr><tr><td>Chloride, urine</td></tr><tr><td>Cholesterol</td></tr><tr><td>Cholesterol to saturated fatty acid index</td></tr><tr><td>Cholesterol, high-density lipoprotein (HDL)</td></tr><tr><td>Cholesterol, low-density lipoprotein (LDL)</td></tr><tr><td>Citrate, urine</td></tr><tr><td>Cobalamin</td></tr><tr><td>Copper</td></tr><tr><td>Cortisol, serum</td></tr><tr><td>Cortisol, urine</td></tr><tr><td>Coumestrol</td></tr><tr><td>Creatinine clearance</td></tr><tr><td>Creatinine, serum</td></tr><tr><td>Creatinine, urine</td></tr><tr><td>Cystathionine</td></tr><tr><td>Cystine</td></tr><tr><td>D-alpha-tocopherol</td></tr><tr><td>Daidzein</td></tr><tr><td>Dehydroepiandrosterone (DHEA)</td></tr><tr><td>Delta-tocopherol</td></tr><tr><td>Deoxypyridinoline, urine</td></tr><tr><td>Dietary calories from alcohol</td></tr><tr><td>Dietary calories from carbohydrate</td></tr><tr><td>Dietary calories from fat</td></tr><tr><td>Dietary calories from monounsaturated fatty acids (MUFA)</td></tr><tr><td>Dietary calories from polyunsaturated fatty acids (PUFA)</td></tr><tr><td>Dietary calories from protein</td></tr><tr><td>Dietary calories from saturated fatty acids (SFA)</td></tr><tr><td>Dietary fiber, insoluble</td></tr><tr><td>Dietary fiber, soluble</td></tr><tr><td>Dietary fiber, total</td></tr><tr><td>Dietary folate equivalents</td></tr><tr><td>Dl alpha tocopherol</td></tr><tr><td>Docosahexaenoic acid (DHA)</td></tr><tr><td>Docosapentaenoic acid (DPA)</td></tr><tr><td>Eicosapentaenoic acid (EPA)</td></tr><tr><td>Elaidic acid</td></tr><tr><td>Energy</td></tr><tr><td>Erucic acid</td></tr><tr><td>Estradiol, serum</td></tr><tr><td>Fat, total</td></tr><tr><td>Fatty acids, total trans</td></tr><tr><td>Fibrinogen</td></tr><tr><td>Folate (vitamin B9), red blood cells</td></tr><tr><td>Folate, serum</td></tr><tr><td>Folic acid</td></tr><tr><td>Food content, folate</td></tr><tr><td>Formononetin</td></tr><tr><td>Fructose</td></tr><tr><td>Gadoleic acid</td></tr><tr><td>Galactose</td></tr><tr><td>Gamma-linolinec acid (GLA), urine</td></tr><tr><td>Gamma-tocopherol</td></tr><tr><td>Genistein</td></tr><tr><td>Glucose</td></tr><tr><td>Glutamic acid</td></tr><tr><td>Glutathione peroxidase (GPx)</td></tr><tr><td>Glycine</td></tr><tr><td>Glycitein</td></tr><tr><td>H peptide, urine</td></tr><tr><td>Heme, plasma</td></tr><tr><td>Histidine</td></tr><tr><td>Homocysteine, total</td></tr><tr><td>Insulin-like growth factor 1 (IGF-1)</td></tr><tr><td>Intact parathyroid hormone (iPTH)</td></tr><tr><td>Iron</td></tr><tr><td>Isoleucine</td></tr><tr><td>Lactose</td></tr><tr><td>Lauric acid</td></tr><tr><td>Leptin</td></tr><tr><td>Leucine</td></tr><tr><td>Linoleic acid</td></tr><tr><td>Linolelaidic acid</td></tr><tr><td>Linolenic acid</td></tr><tr><td>Lutein</td></tr><tr><td>Lycopene</td></tr><tr><td>Lysine</td></tr><tr><td>Magnesium</td></tr><tr><td>Magnesium, serum</td></tr><tr><td>Magnesium, urine</td></tr><tr><td>Malondialdehyde (MDA)</td></tr><tr><td>Maltose</td></tr><tr><td>Manganese</td></tr><tr><td>Margaric acid</td></tr><tr><td>Methionine</td></tr><tr><td>Methylmalonic acid (MMA)</td></tr><tr><td>Monounsaturated fatty acids (MUFA), total</td></tr><tr><td>Myristic acid</td></tr><tr><td>Myristoleic acid</td></tr><tr><td>N-telopeptide (NTX), urine</td></tr><tr><td>Natural folate</td></tr><tr><td>Niacin</td></tr><tr><td>Niacin equivalent</td></tr><tr><td>Oleic acid</td></tr><tr><td>Omega-3 fatty acids</td></tr><tr><td>Osmolality, urine</td></tr><tr><td>Osteocalcin, uncarboxylated</td></tr><tr><td>Osteoprotegerin (OPG)</td></tr><tr><td>Oxalate, urine</td></tr><tr><td>Oxalic acid</td></tr><tr><td>Palmitic acid</td></tr><tr><td>Palmitoleic acid</td></tr><tr><td>Pantothenic acid</td></tr><tr><td>Parinaric acid</td></tr><tr><td>Pectins</td></tr><tr><td>Phenylalanine</td></tr><tr><td>Phosphorus</td></tr><tr><td>Phosphorus, serum</td></tr><tr><td>Phosphorus, urine</td></tr><tr><td>Phytic acid</td></tr><tr><td>Polyunsaturated fatty acids (PUFA), total</td></tr><tr><td>Polyunsaturated to saturated fat ratio</td></tr><tr><td>Potassium</td></tr><tr><td>Potassium, urine</td></tr><tr><td>Proline</td></tr><tr><td>Prostaglandin F2alpha, urine</td></tr><tr><td>Protein total, serum protein electrophoresis (SPE)</td></tr><tr><td>Protein, animal</td></tr><tr><td>Protein, total</td></tr><tr><td>Protein, vegetable</td></tr><tr><td>Provitamin A carotenoid</td></tr><tr><td>Pyridinoline, urine</td></tr><tr><td>Pyridoxal 5'-phosphate (PLP), plasma</td></tr><tr><td>Pyridoxamine</td></tr><tr><td>Pyridoxine</td></tr><tr><td>Pyridoxyl</td></tr><tr><td>RRR alpha-tocopherol</td></tr><tr><td>Red blood cells, aspartate transaminase-stimulated activation</td></tr><tr><td>Red blood cells, glutathione reductase-stimulated activation</td></tr><tr><td>Red blood cells, transketolase-stimulated activation</td></tr><tr><td>Retinol</td></tr><tr><td>Retinol activity equivalents</td></tr><tr><td>Retinol binding protein</td></tr><tr><td>Retinol equivalents</td></tr><tr><td>Riboflavin</td></tr><tr><td>Saccharin</td></tr><tr><td>Saturated fatty acids (SFA), total</td></tr><tr><td>Sclerostin</td></tr><tr><td>Selenium</td></tr><tr><td>Serine</td></tr><tr><td>Sodium</td></tr><tr><td>Sodium, urine</td></tr><tr><td>Specific gravity, urine</td></tr><tr><td>Starch</td></tr><tr><td>Stearic acid</td></tr><tr><td>Sucralose</td></tr><tr><td>Sucrose</td></tr><tr><td>Sucrose polyester</td></tr><tr><td>Sugars, total</td></tr><tr><td>Sulfate, urine</td></tr><tr><td>Superoxide dismutase (SOD)</td></tr><tr><td>Synthetic folate</td></tr><tr><td>Thiamine</td></tr><tr><td>Threonine</td></tr><tr><td>Total antioxidant capacity (TAC)</td></tr><tr><td>Total folate</td></tr><tr><td>Total lipid peroxides</td></tr><tr><td>Total lipids</td></tr><tr><td>Trans-hexadecenoic acid</td></tr><tr><td>Trans-octadecadienoic acid</td></tr><tr><td>Trans-octadecenoic acid</td></tr><tr><td>Transferrin</td></tr><tr><td>Transferrin receptors</td></tr><tr><td>Transthyretin</td></tr><tr><td>Triglycerides</td></tr><tr><td>Tryptophan</td></tr><tr><td>Tyrosine</td></tr><tr><td>Uric acid</td></tr><tr><td>Urinary pH</td></tr><tr><td>Urine volume</td></tr><tr><td>Valine</td></tr><tr><td>Vitamin A activity, total</td></tr><tr><td>Vitamin B1</td></tr><tr><td>Vitamin B12</td></tr><tr><td>Vitamin B2</td></tr><tr><td>Vitamin B3</td></tr><tr><td>Vitamin B6</td></tr><tr><td>Vitamin C</td></tr><tr><td>Vitamin D</td></tr><tr><td>Vitamin D binding protein</td></tr><tr><td>Vitamin E</td></tr><tr><td>Vitamin E-total lipid ratio</td></tr><tr><td>Vitamin K</td></tr><tr><td>Vitamin K1 (phylloquinone)</td></tr><tr><td>Water</td></tr><tr><td>Zeaxanthin</td></tr><tr><td>Zinc</td></tr><tr></tr></table>",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Smith, Scott M.\">Principal Investigator: Smith, Scott M.</a>",
+  "Program": "Ground",
+  "mission_id": [
+   "UTMB Campaign 1",
+   "UTMB Campaign 3"
+  ],
+  "PrincipalInvestigator": [
+   "Smith, Scott M."
+  ],
+  "__source_field_concat": "human cl62azna9cdfy01o64xds700f JSC JSC MEDB 8.1,NEEMO-MR016L,SMO 016E,MR016L Clinical Nutritional Assessment (Flight Analog) MR016G Ground Data preservation is complete.  All datasets are publicly available.",
+  "__icon_type": "",
+  "__description": "OBJECTIVES:<br>\nThe objective of this test was to assess nutrient intake and status during bed rest and to assure correction of nutritional status following bed rest.  <div>\n<div>\nAPPROACH:<br>\nAssessment of body composition was required to determine changes in muscle and bone compartments.  The nutritional assessment measured dietary intake and determined nutritional status through blood samples and 48-hour void-by-void urine samples.  \n</div><div>\nNutritional assessment is required to determine adequacy of nutrient stores prior to bed rest, to assess nutrient intake and status during bed rest, and to assure correction of nutritional status following bed rest. Assessment of body composition is required to determine changes in muscle and bone compartments during space flight.\n</div><div>\nNutritional status was expected to decline/remain unchanged during bed rest. A decrease in bone mineral density and an increase in markers of bone resorption were expected.\n</div><div>\nThe biological samples collected were used for determination of nutritional status, which included the following: </div><ul><li>Protein status\n</li><li>Calcium and bone status\n</li><li>Mineral status\n</li><li>Antioxidant status\n</li><li>General blood chemistry\n</li><li>Water-soluble vitamin status\n</li><li>Fat-soluble vitamin status\n</li><li>Iron status</li><li>Renal stone risk</li><li>General urine chemistry</li></ul><div><br></div><div>RESULTS:<br>\nThis experiment has concluded. Tabular results are available for the public. Refer to cited publications for more information.</div></div>",
+  "__doi": "10.83263/r8re-xs50",
+  "__doi_record_creation_date": "2026-08-23T04:24:46",
+  "__doi_record_modified_date": "2026-08-23T04:24:46"
+ },
+ "datasets": [
+  {
+   "key": "ce282fb9-a09a-54be-a0c2-fe282da54c24",
+   "label": "MR016G_Campaign_1_Renal_Stone",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "UTMB Bedrest Campaign 1 Renal Stone",
+    "dataset_catalog": "MR016G_Campaign_1_Renal_Stone",
+    "dataset_description": "This dataset contains a collection of the MR016G data resulting from Campaign 1.",
+    "processing_level": "Processed Data",
+    "experiment_id": [
+     "MR016G"
+    ]
+   },
+   "meta": "2 files \u00b7 3.5 KB",
+   "date": "2025-04-15",
+   "children": [
+    {
+     "key": "77ff8195-06dd-51db-9ed4-3e295cd5bc49",
+     "label": "MR016G_Campaign_1_Renal_Stone",
+     "type": "file",
+     "ext": "",
+     "file_size": 2130,
+     "meta": "2.1 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "661838b2-ca40-588e-b448-78b3b2e536a8",
+     "label": "MR016G_Campaign_1_Renal_Stone_Saturation_Analysis",
+     "type": "file",
+     "ext": "",
+     "file_size": 1457,
+     "meta": "1.4 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "d333430a-372f-51e7-a01f-0dc6fab57639",
+   "label": "MR016G_Campaign_1_Total_Fluids",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "UTMB Bedrest Campaign 1 Total Fluids",
+    "dataset_catalog": "MR016G_Campaign_1_Total_Fluids",
+    "dataset_description": "This dataset contains a collection of the MR016G data resulting from Campaign 1.",
+    "processing_level": "Processed Data",
+    "experiment_id": [
+     "MR016G"
+    ]
+   },
+   "meta": "2 files \u00b7 10.9 KB",
+   "date": "2025-04-15",
+   "children": [
+    {
+     "key": "889aa5ce-08fd-5765-85ed-b1cd4109cc42",
+     "label": "MR016G_Campaign_1_Total_Fluids_Intake",
+     "type": "file",
+     "ext": "",
+     "file_size": 10603,
+     "meta": "10.4 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "461aceec-dae7-53f5-abfe-5bc867ffc4d9",
+     "label": "MR016G_Campaign_1_Total_Fluids_ReadMe",
+     "type": "file",
+     "ext": "",
+     "file_size": 604,
+     "meta": "604 B",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "b066d270-a79b-5eb1-8e97-69b12fa8e2e8",
+   "label": "MR016G_Campaign_3",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "UTMB Bedrest Campaign 3",
+    "dataset_catalog": "MR016G_Campaign_3",
+    "dataset_description": "This data collection contains data from UTMB Bedrest Campaign 3.",
+    "processing_level": [
+     "Processed Data"
+    ],
+    "experiment_id": [
+     "MR016G"
+    ]
+   },
+   "meta": "3 files \u00b7 4.7 KB",
+   "date": "2025-09-26",
+   "children": [
+    {
+     "key": "b1088bc6-32ce-59c4-90a7-7da843103d77",
+     "label": "MR016G_Campaign_3_C3A_All _Serum_Minerals.csv",
+     "type": "file",
+     "ext": "csv",
+     "file_size": 1436,
+     "meta": "1.4 KB",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "cad1df0d-2a07-5545-80c0-c40c45fa24a6",
+     "label": "MR016G_Campaign_3_C3A_All _Antioxidant.csv",
+     "type": "file",
+     "ext": "csv",
+     "file_size": 1671,
+     "meta": "1.6 KB",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d8d738c1-1322-53c8-9af7-afb04af4fcfb",
+     "label": "MR016G_Campaign_3_C3A_All _Fat_Soluble_Vitamin.csv",
+     "type": "file",
+     "ext": "csv",
+     "file_size": 1657,
+     "meta": "1.6 KB",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "bd251656-b948-512e-86a7-03a67add6d60",
+   "label": "MR016G_Campaign_1_Dietary_Intake",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "UTMB Bedrest Campaign 1 Dietary Intake",
+    "dataset_catalog": "MR016G_Campaign_1_Dietary_Intake",
+    "dataset_description": "This dataset contains a collection of the MR016G data resulting from Campaign 1.",
+    "processing_level": "Processed Data",
+    "experiment_id": [
+     "MR016G"
+    ]
+   },
+   "meta": "9 files \u00b7 20.69 MB",
+   "date": "2025-04-15",
+   "children": [
+    {
+     "key": "a585c66b-ccf7-5699-a2b6-3de00b439df9",
+     "label": "MR016G_Campaign_1_Dietary_Intake_ReadMe",
+     "type": "file",
+     "ext": "",
+     "file_size": 115,
+     "meta": "115 B",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2d6f03ea-0a37-51a2-9588-c5ce4d30125c",
+     "label": "MR016G_Campaign_1_Dietary_Intake_Totals_Subject_3",
+     "type": "file",
+     "ext": "",
+     "file_size": 133667,
+     "meta": "130.5 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "091f9705-4b7e-5963-854d-69baf5c7ac72",
+     "label": "MR016G_Campaign_1_Dietary_Intake_Obsv_Subject_2",
+     "type": "file",
+     "ext": "",
+     "file_size": 3435627,
+     "meta": "3.28 MB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8806c05f-a35b-5c3f-bc46-24aba618f60f",
+     "label": "MR016G_Campaign_1_Dietary_Intake_Totals_Subject_2",
+     "type": "file",
+     "ext": "",
+     "file_size": 133759,
+     "meta": "130.6 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4d3c82ed-786a-57df-a69d-3b31c20e12a9",
+     "label": "MR016G_Campaign_1_Dietary_Intake_Totals_All",
+     "type": "file",
+     "ext": "",
+     "file_size": 391842,
+     "meta": "382.7 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3a1c98b7-5415-5978-99da-ecdbf4eaf8df",
+     "label": "MR016G_Campaign_1_Dietary_Intake_Totals_Subject_1",
+     "type": "file",
+     "ext": "",
+     "file_size": 131257,
+     "meta": "128.2 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "bd969132-ed7a-511f-9a31-dbb6466dd630",
+     "label": "MR016G_Campaign_1_Dietary_Intake_Obsv_Subject_3",
+     "type": "file",
+     "ext": "",
+     "file_size": 3688284,
+     "meta": "3.52 MB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6435b5ea-1914-547c-8d69-8b000ca01a5c",
+     "label": "MR016G_Campaign_1_Dietary_Intake_Obsv_Subject_1",
+     "type": "file",
+     "ext": "",
+     "file_size": 3351617,
+     "meta": "3.20 MB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7a0ce675-d550-55be-9977-2a69aa5c70a4",
+     "label": "MR016G_Campaign_1_Dietary_Intake_Obsv_All",
+     "type": "file",
+     "ext": "",
+     "file_size": 10425211,
+     "meta": "9.94 MB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "f6fe309d-bcd8-5c4e-94b1-08f652412683",
+   "label": "MR016G_Campaign_1_Urine_Panels",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "UTMB Bedrest Campaign 1 Urine Panels",
+    "dataset_catalog": "MR016G_Campaign_1_Urine_Panels",
+    "dataset_description": "This dataset contains a collection of the MR016G data resulting from Campaign 1.",
+    "processing_level": "Processed Data",
+    "experiment_id": [
+     "MR016G"
+    ]
+   },
+   "meta": "1 file \u00b7 3.8 KB",
+   "date": "2025-04-15",
+   "children": [
+    {
+     "key": "52cfba8f-36f3-514a-bc8e-6a416e58243b",
+     "label": "MR016G_Campaign_1_Urine_Panel",
+     "type": "file",
+     "ext": "",
+     "file_size": 3895,
+     "meta": "3.8 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "4d613f00-9304-5d1b-8d30-836bb2023079",
+   "label": "MR016G_Campaign_3_Dietary_Intake",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "UTMB Bedrest Campaign 3 Dietary Intake",
+    "dataset_catalog": "MR016G_Campaign_3_Dietary_Intake",
+    "dataset_description": "This dataset contains a collection of the MR016G data resulting from Campaign 3.",
+    "processing_level": [
+     "Processed Data"
+    ],
+    "experiment_id": [
+     "MR016G"
+    ]
+   },
+   "meta": "4 files \u00b7 196.2 KB",
+   "date": "2025-09-26",
+   "children": [
+    {
+     "key": "bfba72b5-c368-56b0-8c32-a3b4d83db272",
+     "label": "MR016G_Campaign_3_C3C_Dietary_Intake_mean_stdev.csv",
+     "type": "file",
+     "ext": "csv",
+     "file_size": 11981,
+     "meta": "11.7 KB",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1f0cde15-4c99-5908-b325-b40be5c48412",
+     "label": "MR016G_Campaign_3_C3C_7352_Dietary_Intake_mean_stdev.csv",
+     "type": "file",
+     "ext": "csv",
+     "file_size": 11850,
+     "meta": "11.6 KB",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6c82c3f2-52f4-505c-9f9c-eabc0cad3544",
+     "label": "MR016G_Campaign_3_C3C _7352_Dietary_Intake_obsv.csv",
+     "type": "file",
+     "ext": "csv",
+     "file_size": 88776,
+     "meta": "86.7 KB",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "da78b1ab-dda3-5d05-8f5e-0b0159213c3c",
+     "label": "MR016G_Campaign_3_C3C_7772_Dietary_Intake_obsv.csv",
+     "type": "file",
+     "ext": "csv",
+     "file_size": 88266,
+     "meta": "86.2 KB",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "ae794818-1060-52ad-97b8-5c4a514d9f0f",
+   "label": "MR016G_Campaign_1_Nutritional_Status_Assessment",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "UTMB Bedrest Campaign 1 Nutritional Status Assessment",
+    "dataset_catalog": "MR016G_Campaign_1_Nutritional_Status_Assessment",
+    "dataset_description": "This dataset contains a collection of the MR016G data resulting from Campaign 1.",
+    "processing_level": "Processed Data",
+    "experiment_id": [
+     "MR016G"
+    ]
+   },
+   "meta": "5 files \u00b7 4.5 KB",
+   "date": "2025-06-20",
+   "children": [
+    {
+     "key": "28dc8206-441e-5940-af9c-cf0cfc2e72a9",
+     "label": "MR016G_Campaign_1_Nutritional_Status_Assessment_Gen_Serum_Chemistry",
+     "type": "file",
+     "ext": "",
+     "file_size": 1005,
+     "meta": "1005 B",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5f150343-b69e-51df-956f-9161405ccf04",
+     "label": "MR016G_Campaign_1_Nutritional_Status_Assessment_PCBA",
+     "type": "file",
+     "ext": "",
+     "file_size": 924,
+     "meta": "924 B",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9542bab1-d30f-5d8b-859d-f3f0e8285b4f",
+     "label": "MR016G_Campaign_1_Nutritional_Status_Assessment_Protein",
+     "type": "file",
+     "ext": "",
+     "file_size": 1274,
+     "meta": "1.2 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c330cfd4-82e3-503a-86fc-9badd1ecefe1",
+     "label": "MR016G_Campaign_1_Nutritional_Status_Assessment_Bone_Marker_Panel",
+     "type": "file",
+     "ext": "",
+     "file_size": 1311,
+     "meta": "1.3 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d4af2f12-8a27-5904-92c7-3772d432c0ba",
+     "label": "MR016G_Campaign_1_Nutritional_Status_Assessment_ReadMe",
+     "type": "file",
+     "ext": "",
+     "file_size": 49,
+     "meta": "49 B",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000526",
+   "label": "MR016G__2770823760",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Results from Sclerostin Measurements",
+    "dataset_catalog": "MR016G__2770823760",
+    "dataset_description": [
+     "Changes in serum sclerostin and bone turnover markers in healthy adult men undergoing controlled bed rest were determined. Seven healthy adult men (31 \u00b1 3 yr old) underwent 90 days of 6 degree head down tilt bed rest at the University of Texas Medical Branch Institute for Translational Sciences-Clinical Research Center.<P>\r\nSerum sclerostin, PTH, vitamin D, bone resorption and formation markers, urinary calcium and phosphorus excretion, and 24-h pooled urinary markers of bone resorption were evaluated before bed rest [baseline (BL)] and at bed rest d 28 (BR-28), d 60 (BR-60), and d 90 (BR-90). Bone mineral density was measured at BL, BR-60, and 5 d after the end of the study (BR+5).\r\n<P>\r\nBone mineral density declined significantly (1-2% per month) at weight-bearing skeletal sites. Serum sclerostin was elevated above BL at BR-28 (+29 \u00b1 20%; P = 0.003) and BR-60 (+42 \u00b1 31%; P < 0.001), with a lesser increase at BR-90 (+22 \u00b1 21%; P = 0.07). Serum PTH levels were reduced at BR-28 (-17 \u00b1 16%; P = 0.02) and BR-60 (-24 \u00b1 14%; P = 0.03) and remained lower than BL at BR-90 (-21 \u00b1 21%; P = 0.14), but did not reach statistical significance. Serum bone turnover markers were unchanged; however, urinary bone resorption markers and calcium were significantly elevated at all time points after bed rest (P < 0.01)."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "MR016G"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "c840d7b1-2c7b-5884-8922-3d7af57f66eb",
+     "label": "MR016G__2770823760.pdf_Campaign_3_MR016G_2013_277_081049.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2025-06-06",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001525",
+   "label": "JMGROUND_MR016G_2",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Nutritional Status Assessment Before, During, and After Long-Duration Head-Down Bed Rest",
+    "dataset_catalog": "JMGROUND_MR016G_2",
+    "dataset_description": [
+     "This article summarizes the nutritional status from 13 subjects participating in 60 or 90 days of head down bed rest.  Graphs and tables in the article are as follows:  (1) markers of bone metabolism, (2) vitamins, (3) markers of oxidative damage and antioxidants, (4) urine chemistry, (5) blood chemistry, and (6) hematology and iron status before, during, and after bed rest.\r\n<P>\r\nSource: Zwart SR, Oliver SAM, Fesperman JV, Kala G, Krauhs J, Ericson K, Smith SM. Nutritional status assessment before, during, and after long-duration head-down bed rest. Aviat Space Environ Med 2009; 80(5,Suppl.):A15-22."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "MR016G"
+    ]
+   },
+   "meta": "6 files \u00b7 2.98 MB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "3702a007-fe76-5c18-9a39-7249923d67da",
+     "label": "JMGROUND_MR016G_2.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 520192,
+     "meta": "508.0 KB",
+     "date": "2025-06-06",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "62fff5df-b8fd-5600-a857-748cee184cce",
+     "label": "JMGROUND_MR016G_2.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 520192,
+     "meta": "508.0 KB",
+     "date": "2025-06-06",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0aa77e45-21d7-5185-954b-d6bdbbd071e8",
+     "label": "JMGROUND_MR016G_2.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 520192,
+     "meta": "508.0 KB",
+     "date": "2025-06-06",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "87407905-556b-5fca-b50d-fd03d60585f4",
+     "label": "JMGROUND_MR016G_2.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 520192,
+     "meta": "508.0 KB",
+     "date": "2025-06-06",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3ccf8765-950a-54d7-ad21-872f07a64612",
+     "label": "JMGROUND_MR016G_2.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 520192,
+     "meta": "508.0 KB",
+     "date": "2025-06-06",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e0acd0e7-c9e6-5f62-ba40-5deb4964c92a",
+     "label": "JMGROUND_MR016G_2.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 520192,
+     "meta": "508.0 KB",
+     "date": "2025-05-09",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001531",
+   "label": "MR016G__2770818510",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Results from the Artificial Gravity Study",
+    "dataset_catalog": "MR016G__2770818510",
+    "dataset_description": [
+     "Spaceflight and bed rest models of microgravity have profound effects on physiological systems, including the cardiovascular, musculoskeletal, and immune systems. These effects can be exacerbated by suboptimal nutrient status, and therefore it is critical to monitor nutritional status when evaluating countermeasures to mitigate negative effects of spaceflight. As part of a larger study to investigate the usefulness of artificial gravity as a countermeasure for musculoskeletal and cardiovascular deficits during bed rest, we tested the hypothesis that artificial gravity would have an effect on some aspects of nutritional status. Dietary intake was recorded daily before, during, and after 21 days of bed rest with artificial gravity (n = 8) or bed rest alone (n = 7). We examined body composition, hematology, general blood chemistry, markers of oxidative damage, and blood levels of selected vitamins and minerals before, during, and after the bed rest period. Several indicators of vitamin status changed in response to diet changes: serum alpha- and gamma-tocopherol and urinary 4-pyridoxic acid decreased (P < 0.001) and plasma beta-carotene increased (P < 0.001) in both groups during bed rest compared with before bed rest. A decrease in hematocrit (P < 0.001) after bed rest was accompanied by a decrease in transferrin (P < 0.001), but transferrin receptors were not changed. These data provide evidence that artificial gravity itself does not negatively affect nutritional status during bed rest. Likewise, artificial gravity has no protective effect on nutritional status during bed rest."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "MR016G"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "d14c697c-697a-5d6e-9d8c-d1106a58172b",
+     "label": "MR016G__2770818510.pdf_Pilot_MR016G_2013_277_081030.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001456",
+   "label": "MR016G__2770834471",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Results from Testosterone Measurements",
+    "dataset_catalog": "MR016G__2770834471",
+    "dataset_description": [
+     "The main objective was to assess testosterone and hormone status in long- and short-duration space flight and bed rest environments and to determine relationships with other physiological systems, including bone and muscle.\r\nBlood and urine samples were collected before, during, and after long-duration space flight. Samples were also collected before and after 12- to 14-d missions and from participants in 30- to 90-d bed rest studies.\r\nSpace flight studies were conducted on the International Space Station and before and after Space Shuttle missions. Bed rest studies were conducted in a clinical research center setting. Data from Skylab missions are also presented.\r\n<P>\r\nAll of the participants were male, and they included 15 long-duration and nine short-duration mission crew members and 30 bed rest subjects.\r\nSerum total, free, and bioavailable testosterone were measured along with serum and urinary cortisol, serum dehydroepiandrosterone, dehydroepiandrosterone sulfate, and SHBG. Total, free, and bioavailable testosterone was not changed during long-duration space flight but were decreased (P < 0.01) on landing day after these flights and after short-duration space flight. There were no changes in other hormones measured. Testosterone concentrations dropped before and soon after bed rest, but bed rest itself had no effect on testosterone.  There was no evidence for decrements in testosterone during long-duration space flight or bed rest."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "MR016G"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "73e7d1cf-ce71-5fcd-a68a-23c9fe1ac4ae",
+     "label": "MR016G__2770834471.pdf_Campaign_3_MR016G_2013_277_081046.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2025-06-06",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "5d1b5998-ba8f-5f77-a4a7-750191b48aaa",
+   "label": "MR016G_CFT70_DAILY_INTAKE",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "MR016G CFT70 DAILY INTAKE DATA",
+    "dataset_catalog": "MR016G_CFT70_DAILY_INTAKE",
+    "dataset_description": "This dataset contains a collection of the MR016G data resulting from CFT70.",
+    "processing_level": [
+     "Processed Data"
+    ],
+    "experiment_id": [
+     "MR016G"
+    ]
+   },
+   "meta": "1 file \u00b7 49.0 KB",
+   "date": "2026-03-24",
+   "children": [
+    {
+     "key": "fb187d8b-3ffb-5dd1-8a35-9f5a813b5ccc",
+     "label": "MR016G_CFT70_DAILY_INTAKE",
+     "type": "file",
+     "ext": "",
+     "file_size": 50189,
+     "meta": "49.0 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

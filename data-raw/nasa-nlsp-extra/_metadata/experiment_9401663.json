@@ -1,0 +1,212 @@
+{
+ "record": {
+  "id": "61b3cdb2-6623-5609-bc14-b41b27ad95de",
+  "_id": "61b3cdb2-6623-5609-bc14-b41b27ad95de",
+  "experiment_title": "Sleep and Vestibular Adaptation",
+  "pub_document_number": "PUB000816",
+  "experiment_alias": [
+   "E663"
+  ],
+  "parameter_html": "<table><tr><td>Awakenings</td></tr><tr><td>Dream reports</td></tr><tr><td>Head movement</td></tr><tr><td>Head movement time</td></tr><tr><td>Sleep duration</td></tr><tr><td>Sleep efficiency</td></tr><tr><td>Sleep latency</td></tr><tr><td>Sleep time</td></tr><tr><td>Wake time</td></tr><tr><td>Eye movements</td></tr><tr><td>Sleep, non-rapid eye movement (NREM) time</td></tr><tr><td>Rapid eye movement (REM) sleep, latency</td></tr><tr><td>Rapid eye movement (REM) sleep, time</td></tr><tr></tr></table>",
+  "__source_key": "cl62axstdcd0701o6gg8q0680",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Ponomareva, Irina\">Principal Investigator: Ponomareva, Irina</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Larina, Irina\">Principal Investigator: Larina, Irina</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:James, John\">Principal Investigator: James, John</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Hobson, J.\">Principal Investigator: Hobson, J.</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Larina, Irina\">Co-Investigator: Larina, Irina</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Ponomareva, Irina\">Co-Investigator: Ponomareva, Irina</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Scott, Laurie\">Co-Investigator: Scott, Laurie</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Stickgold, Robert\">Co-Investigator: Stickgold, Robert</a>",
+  "image_name": [
+   "Astronaut Wears Sleep Recording Device",
+   "Mir Interface to Payloads System (MIPS)-2 Laptop Computer",
+   "NASA 4 Astronaut Participates in Sleep Experiment",
+   "Night Headband Monitor Attached to Night Headband",
+   "Night Headband Monitoring System",
+   "Sleeping Astronaut Wears Recording Device"
+  ],
+  "keyword": [
+   "Sleep stages",
+   "Sleep, REM",
+   "Dreams",
+   "Head movements",
+   "Eye movements"
+  ],
+  "keyword_name": "Eye movements",
+  "__record_version": 29,
+  "experiment_description": "OBJECTIVES: <br>\r\nThis experiment was designed to study the effects of space flight on both sensorimotor (especially vestibular) and cognitive functions (especially orientation.)  Optimal human performance depends upon integrated sensorimotor and cognitive functions both of which are known to be exquisitely sensitive to loss of sleep.  The main objective of this study was to investigate variations in sleep and dreaming over an extended period of space flight, with special attention to changes in sleep and dreaming associated with the vestibular adaptation that occurs with adaptation to microgravity, and readaptation to 1-G conditions.   To achieve this, a sleep monitoring system was tested that could accurately identify periods of wake, non-rapid eye movement (NREM) and rapid eye movement (REM) sleep on-board the Mir space station.  \r\n<P>\r\nAPPROACH: <br>\r\nFive crewmembers completed measurements relating to the protocol before, during and after space flight.  During each phase, the experiment was divided into approximately three 12-day segments called measurement blocks.  The inflight measurement blocks were scheduled early in the mission (mission day 37-49), in the middle (MD 79-91) and at the end (MD 110-122) of the mission.  This investigation was conducted for the first time as part of the NASA 4 and Russian Mir 23 missions with three crewmembers participating.  The experiment protocols were repeated on the Mir 24 mission with two additional crewmembers.\r\n<P>\r\nIn each of the 12-day blocks, test subjects monitored sleep by wearing an apparatus called a Night Headband.  It consisted of a simple athletic headband into which a head movement sensor had been sewn, along with a self-adhesive eyelid movement sensor that attached to the surface of the upper eyelid.  The sensors were connected by two cables to a wallet-sized recording unit called the Night Headband Monitor (NHM).  Subjects wore the NHM in a supplied arm band or attached the unit to a nearby wall with Velcro.  The NHM analyzed data from the sensors and could store up to 30 nights before transfer to a computer.  Usually, data from the NHM was uploaded to a laptop computer daily and subsequently stored on disk.  Data was stored as one-minute counts of the number of 250 ms epochs during which eye or head movement was detected.  \r\n<P>\r\nBecause the head movement sensor originally designed for the Night Headband utilized a gravity-dependent mercury switch, the sensor was redesigned as an inertial switch.  The inertial switch had appropriate sensitivity in microgravity; no head movements were detected during quiet rest, but gentle rotations of the head were adequate to produce clear head movement signals.  Inflight Night Headbands all had these inertial switches built into them; baseline data collection Night Headbands continued to use the mercury switch version.\r\n<P>\r\nData was used to determine both the percent of sleep spent in rapid eye movement (REM) sleep (REM %) and the absolute amount of time spent in REM sleep (REM time).  The allowed testing of the hypotheses that REM % and REM time would increase during the period of adaptation to microgravity and then return to preflight baseline levels.  It was also hypothesized that the REM % and REM time would again increase during the period of readaptation to normal gravity.\r\n<P>\r\nIn addition to the objective sleep data described above, subjects were also asked to dictate dream reports into a pocket voice recorder at each awakening.  Researchers hoped to observe a shift in the fictive vestibular and motor activity of the subject's dreams as he went through adaptation first to microgravity and then, on return, to normal gravity.\r\n<P>\r\nRESULTS:<br>\r\nSubjects recorded an average of 26 nights of sleep during the preflight period, 24 nights inflight, and 14 nights postflight during the postflight recovery period.  All told, 317 nights of sleep data were recorded, of which 120 were collected inflight, between the 24th and 171st day in orbit.  Sixty of the 120 nights were recorded more than three months into the flight.  Analysis of data was made using repeated measures ANOVA's.\r\n<P>\r\nFor all five subjects, REM sleep was severely diminished during flight.  Both REM time and REM % were significantly diminished (REM time, F=20.5, p<0.001; REM %, F=16.5, p<0.002).  On average, REM time was reduced by 53% and REM % was reduced by 35% inflight compared to preflight.  All subjects showed at least a 40% reduction in REM time.  In contrast, postflight rates were essentially the same as preflight, showing on average a 4% increase in both REM time and REM % compared to the preflight period.  There was also decrease in total sleep time inflight (F=7.1, p<0.02).  Inflight values were reduced by 27% on average, while postflight values were 0.3% higher.  All subjects showed at least a 13% decrease in average nightly total sleep time inflight.  This did not result from a decrease in time in bed (F=0.2, p=0.84); subjects spent on average 4% longer in bed while inflight.  Rather it resulted from decreased sleep efficiency (F=24.1, p<0.005).  Sleep efficiency dropped from a mean of 89% in the preflight period to 63% inflight.  \r\n<P>\r\nThe Night Headband Kit sleep system permitted more extensive sleep recording during space flight than had previously been possible.  Data collected over 6 months of flight indicated that extended space flight leads to a consistent and pronounced decrease in sleep efficiency, time spent in REM sleep, and the percent of total sleep time spent in REM sleep as measured by the Nightcap.  \r\n<P>\r\nNeither the causes nor the consequences of these alterations were clear as the result of this experiment.  It was hypothesized that a continued reduction in the above values might well lead to diminished performance of crewmembers in space.<END>",
+  "indexed": "2026-08-23T04:10:24.373985+00:00",
+  "GUID": "cl62axstdcd0701o6gg8q0680",
+  "__model_type": "lsda_experiment",
+  "__dirid": "61b3cdb2-6623-5609-bc14-b41b27ad95de",
+  "__record_size_wo_doccontent": 120554,
+  "experiment_parms_tissue2": "N/A",
+  "experiment_parms_tissue1": "N/A",
+  "__update_method": "Update CDM",
+  "archive_status_index": 2,
+  "experiment_type_lk": [
+   "NASA-Mir Program"
+  ],
+  "__record_modified_date": "2026-08-23T04:10:24.373985+00:00",
+  "proposal_source": "94-OLMSA-01",
+  "__indexed": "2026-08-23T04:10:24.373985+00:00",
+  "alias": [
+   "E663"
+  ],
+  "__record_creation_date": "2022-07-28T19:53:28.163Z",
+  "__record_size": 120554,
+  "__model_version": 60,
+  "payload_id": "NASA 4",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "9401663",
+  "experiment_related": [
+   "9401710",
+   "9401639"
+  ],
+  "parameter_name": [
+   "Awakenings",
+   "Dream reports",
+   "Head movement",
+   "Head movement time",
+   "Sleep duration",
+   "Sleep efficiency",
+   "Sleep latency",
+   "Sleep time",
+   "Wake time",
+   "Eye movements",
+   "Sleep, non-rapid eye movement (NREM) time",
+   "Rapid eye movement (REM) sleep, latency",
+   "Rapid eye movement (REM) sleep, time"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 846,
+  "research_area": [
+   "Chronobiology"
+  ],
+  "pme_role_with_name": [
+   "Co-Investigator: Larina, Irina",
+   "Co-Investigator: Ponomareva, Irina",
+   "Co-Investigator: Scott, Laurie",
+   "Co-Investigator: Stickgold, Robert",
+   "Principal Investigator: Hobson, J.",
+   "Principal Investigator: James, John",
+   "Principal Investigator: Larina, Irina",
+   "Principal Investigator: Ponomareva, Irina",
+   "Technical Assistant to Principal Investigator: Scott, Laurie"
+  ],
+  "missions": [
+   [
+    [
+     "NASA 4"
+    ]
+   ],
+   [
+    [
+     "NASA 5"
+    ]
+   ],
+   [
+    [
+     "Mir 23"
+    ]
+   ],
+   [
+    [
+     "Mir 24"
+    ]
+   ]
+  ],
+  "PI": [
+   "Hobson, J.",
+   "James, John",
+   "Larina, Irina",
+   "Ponomareva, Irina"
+  ],
+  "_file_extension": [],
+  "experiment_identifier": [
+   "9401663",
+   "E663"
+  ],
+  "mission_id": [
+   [
+    [
+     "NASA 4"
+    ]
+   ],
+   [
+    [
+     "NASA 5"
+    ]
+   ],
+   [
+    [
+     "Mir 23"
+    ]
+   ],
+   [
+    [
+     "Mir 24"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "proposal_date": [],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Hobson, J.",
+   "James, John",
+   "Larina, Irina",
+   "Ponomareva, Irina"
+  ],
+  "archive_status": "Data preservation is complete. Privacy-protected datasets are available via data request. Remaining datasets are publicly available.",
+  "__is_locked": false,
+  "Program": "Nasa-Mir",
+  "__source_field_concat": "PUB000816 94-OLMSA-01 NASA 4 cl62axstdcd0701o6gg8q0680 Eye movements N/A N/A N/A Sleep and Vestibular Adaptation 9401663 Nasa-Mir",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES: <br>\r\nThis experiment was designed to study the effects of space flight on both sensorimotor (especially vestibular) and cognitive functions (especially orientation.)  Optimal human performance depends upon integrated sensorimotor and cognitive functions both of which are known to be exquisitely sensitive to loss of sleep.  The main objective of this study was to investigate variations in sleep and dreaming over an extended period of space flight, with special attention to changes in sleep and dreaming associated with the vestibular adaptation that occurs with adaptation to microgravity, and readaptation to 1-G conditions.   To achieve this, a sleep monitoring system was tested that could accurately identify periods of wake, non-rapid eye movement (NREM) and rapid eye movement (REM) sleep on-board the Mir space station.  \r\n<P>\r\nAPPROACH: <br>\r\nFive crewmembers completed measurements relating to the protocol before, during and after space flight.  During each phase, the experiment was divided into approximately three 12-day segments called measurement blocks.  The inflight measurement blocks were scheduled early in the mission (mission day 37-49), in the middle (MD 79-91) and at the end (MD 110-122) of the mission.  This investigation was conducted for the first time as part of the NASA 4 and Russian Mir 23 missions with three crewmembers participating.  The experiment protocols were repeated on the Mir 24 mission with two additional crewmembers.\r\n<P>\r\nIn each of the 12-day blocks, test subjects monitored sleep by wearing an apparatus called a Night Headband.  It consisted of a simple athletic headband into which a head movement sensor had been sewn, along with a self-adhesive eyelid movement sensor that attached to the surface of the upper eyelid.  The sensors were connected by two cables to a wallet-sized recording unit called the Night Headband Monitor (NHM).  Subjects wore the NHM in a supplied arm band or attached the unit to a nearby wall with Velcro.  The NHM analyzed data from the sensors and could store up to 30 nights before transfer to a computer.  Usually, data from the NHM was uploaded to a laptop computer daily and subsequently stored on disk.  Data was stored as one-minute counts of the number of 250 ms epochs during which eye or head movement was detected.  \r\n<P>\r\nBecause the head movement sensor originally designed for the Night Headband utilized a gravity-dependent mercury switch, the sensor was redesigned as an inertial switch.  The inertial switch had appropriate sensitivity in microgravity; no head movements were detected during quiet rest, but gentle rotations of the head were adequate to produce clear head movement signals.  Inflight Night Headbands all had these inertial switches built into them; baseline data collection Night Headbands continued to use the mercury switch version.\r\n<P>\r\nData was used to determine both the percent of sleep spent in rapid eye movement (REM) sleep (REM %) and the absolute amount of time spent in REM sleep (REM time).  The allowed testing of the hypotheses that REM % and REM time would increase during the period of adaptation to microgravity and then return to preflight baseline levels.  It was also hypothesized that the REM % and REM time would again increase during the period of readaptation to normal gravity.\r\n<P>\r\nIn addition to the objective sleep data described above, subjects were also asked to dictate dream reports into a pocket voice recorder at each awakening.  Researchers hoped to observe a shift in the fictive vestibular and motor activity of the subject's dreams as he went through adaptation first to microgravity and then, on return, to normal gravity.\r\n<P>\r\nRESULTS:<br>\r\nSubjects recorded an average of 26 nights of sleep during the preflight period, 24 nights inflight, and 14 nights postflight during the postflight recovery period.  All told, 317 nights of sleep data were recorded, of which 120 were collected inflight, between the 24th and 171st day in orbit.  Sixty of the 120 nights were recorded more than three months into the flight.  Analysis of data was made using repeated measures ANOVA's.\r\n<P>\r\nFor all five subjects, REM sleep was severely diminished during flight.  Both REM time and REM % were significantly diminished (REM time, F=20.5, p<0.001; REM %, F=16.5, p<0.002).  On average, REM time was reduced by 53% and REM % was reduced by 35% inflight compared to preflight.  All subjects showed at least a 40% reduction in REM time.  In contrast, postflight rates were essentially the same as preflight, showing on average a 4% increase in both REM time and REM % compared to the preflight period.  There was also decrease in total sleep time inflight (F=7.1, p<0.02).  Inflight values were reduced by 27% on average, while postflight values were 0.3% higher.  All subjects showed at least a 13% decrease in average nightly total sleep time inflight.  This did not result from a decrease in time in bed (F=0.2, p=0.84); subjects spent on average 4% longer in bed while inflight.  Rather it resulted from decreased sleep efficiency (F=24.1, p<0.005).  Sleep efficiency dropped from a mean of 89% in the preflight period to 63% inflight.  \r\n<P>\r\nThe Night Headband Kit sleep system permitted more extensive sleep recording during space flight than had previously been possible.  Data collected over 6 months of flight indicated that extended space flight leads to a consistent and pronounced decrease in sleep efficiency, time spent in REM sleep, and the percent of total sleep time spent in REM sleep as measured by the Nightcap.  \r\n<P>\r\nNeither the causes nor the consequences of these alterations were clear as the result of this experiment.  It was hypothesized that a continued reduction in the above values might well lead to diminished performance of crewmembers in space.<END>",
+  "__doi": "10.83263/5cxh-7f44",
+  "__doi_record_creation_date": "2026-08-23T04:10:24",
+  "__doi_record_modified_date": "2026-08-23T04:10:24"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002338",
+   "label": "J0001204",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Summary Table of Nightcap Sleep Experiment Results",
+    "dataset_catalog": "J0001204",
+    "dataset_description": [
+     "A summary table presents the results of sleep data collected on three subjects.<END>"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "9401663"
+    ]
+   },
+   "meta": "1 file \u00b7 20.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "e08c8b80-6fec-5560-9b47-7789417d3457",
+     "label": "JMMIR9401663_113.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 20480,
+     "meta": "20.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

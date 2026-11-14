@@ -1,0 +1,203 @@
+{
+ "record": {
+  "id": "f1a74e0f-dad5-5109-992c-7271f39da690",
+  "_id": "f1a74e0f-dad5-5109-992c-7271f39da690",
+  "__is_locked": false,
+  "experiment_title": "Bed Rest Standard Measures: Hepatic and Renal Function",
+  "__source_key": "cl62b0542cdju01o634q28jai",
+  "experiment_type": [
+   [
+    "Flight Analogs Project (FAP)"
+   ],
+   [
+    "NASA Bedrest Studies"
+   ],
+   [
+    "NASA Ground-Based Investigations"
+   ]
+  ],
+  "AssignedArchivist": [
+   "None Selected",
+   "[\"Nyaia Arzella NaTerrica Liddell\",\"Nyaia Arzella Liddell\"]"
+  ],
+  "keyword": [
+   "Albumins",
+   "Creatine",
+   "Pharmacokinetics",
+   "Liver"
+  ],
+  "__record_version": 32,
+  "indexed": "2026-08-23T03:57:39.403084+00:00",
+  "GUID": "cl62b0542cdju01o634q28jai",
+  "_file_extension": "human",
+  "archive_status": "Data preservation is complete.  All datasets are publicly available.",
+  "__model_type": "lsda_experiment",
+  "__dirid": "f1a74e0f-dad5-5109-992c-7271f39da690",
+  "__record_size_wo_doccontent": 26705,
+  "__update_method": "Update CDM",
+  "experiment_identifier": [
+   "BRSMRF"
+  ],
+  "CompleteArchivalExpectedInFiscalYear": [
+   "0"
+  ],
+  "experiment_type_lk": [
+   "Flight Analogs Project (FAP)",
+   "NASA Bedrest Studies",
+   "NASA Ground-Based Investigations"
+  ],
+  "__record_modified_date": "2026-08-23T03:57:39.403084+00:00",
+  "__indexed": "2026-08-23T03:57:39.403084+00:00",
+  "__record_creation_date": "2022-07-28T20:01:14.121Z",
+  "__record_size": 26705,
+  "species_strain": [
+   [
+    "N/A"
+   ]
+  ],
+  "__model_version": 60,
+  "species_sci_name": [
+   [
+    "Homo sapiens"
+   ]
+  ],
+  "payload_id": [
+   "Campaign 3",
+   "Campaign 1"
+  ],
+  "CombinedSpecies": [
+   "Human (Homo sapiens) N/A"
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "ncindex": 2,
+  "researchIndex": [
+   20,
+   24
+  ],
+  "experiment_id": "BRSMRF",
+  "parameter_name": [
+   "Creatinine clearance",
+   "Albumin, serum"
+  ],
+  "exp_index": 1110,
+  "research_area": [
+   "Pharmacology",
+   "Renal, fluid and electrolyte physiology"
+  ],
+  "species": [
+   [
+    "Human"
+   ]
+  ],
+  "pme_role_with_name": [
+   "Principal Investigator: Putcha, Lakshmi"
+  ],
+  "missions": [
+   "UTMB Campaign 1",
+   "UTMB Campaign 3"
+  ],
+  "PI": [
+   "Putcha, Lakshmi"
+  ],
+  "sort": [
+   3,
+   "496c10d4-d766-53cf-8577-965f14d90371"
+  ],
+  "Program": "Ground",
+  "parameter_html": "<table><tr><td>Creatinine clearance</td></tr><tr><td>Albumin, serum</td></tr><tr></tr></table>",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Putcha, Lakshmi\">Principal Investigator: Putcha, Lakshmi</a>",
+  "PrincipalInvestigator": [
+   "Putcha, Lakshmi"
+  ],
+  "mission_id": [
+   "UTMB Campaign 1",
+   "UTMB Campaign 3"
+  ],
+  "__source_field_concat": "human cl62b0542cdju01o634q28jai <table><tr><td>Creatinine clearance</td></tr><tr><td>Albumin, serum</td></tr><tr></tr></table> Bed Rest Standard Measures: Hepatic and Renal Function BRSMRF Ground Data preservation is complete.  All datasets are publicly available.",
+  "__icon_type": "",
+  "__description": "",
+  "__doi": "10.83263/qmr9-ek59",
+  "__doi_record_creation_date": "2026-08-23T03:57:39",
+  "__doi_record_modified_date": "2026-08-23T03:57:39"
+ },
+ "datasets": [
+  {
+   "key": "2b72edf1-4c0f-572d-a1a9-6b892b82fec1",
+   "label": "BRSMRF_Campaign_1_Hepatic_Renal",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "UTMB Bedrest Campaign 1 BRSM Query Results",
+    "dataset_catalog": "BRSMRF_Campaign_1_Hepatic_Renal",
+    "dataset_description": "This dataset contains data for all Campaign 1 subjects for the Bed Rest Standard Measure Renal Function (BRSMRF) study. Data collection sessions for this measure were performed once pre-bed rest, three times during bed rest, and one time post bed rest. Blood samples were taken during the data collection sessions to determine Albumin and Creatinine Clearance.",
+    "processing_level": "Processed Data",
+    "experiment_id": [
+     "BRSMRF"
+    ]
+   },
+   "meta": "2 files \u00b7 918 B",
+   "date": "2025-04-15",
+   "children": [
+    {
+     "key": "94fa6728-27c4-58aa-9355-f719200757c3",
+     "label": "BRSMRF_Campaign_1_BRSM_Query_Result_Hepatic_Renal",
+     "type": "file",
+     "ext": "",
+     "file_size": 800,
+     "meta": "800 B",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f2c66e0a-35b6-5203-9423-1a3b2105e701",
+     "label": "BRSMRF_Campaign_1_BRSM_Query_Result_Hepatic_ReadMe",
+     "type": "file",
+     "ext": "",
+     "file_size": 118,
+     "meta": "118 B",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "93a70939-88ad-5e94-9604-4bb680f606f0",
+   "label": "BRSMRF_Campaign_1_Creatinine_Albumin",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "UTMB Bedrest Campaign 1 Creatinine and Albumin",
+    "dataset_catalog": "BRSMRF_Campaign_1_Creatinine_Albumin",
+    "dataset_description": "This dataset contains data for all Campaign 1 subjects for the Bed Rest Standard Measure Renal Function (BRSMRF) study. Data collection sessions for this measure were performed once pre-bed rest, three times during bed rest, and one time post bed rest. Blood samples were taken during the data collection sessions to determine Albumin and Creatinine Clearance.",
+    "processing_level": "Processed Data",
+    "experiment_id": [
+     "BRSMRF"
+    ]
+   },
+   "meta": "2 files \u00b7 796 B",
+   "date": "2025-04-15",
+   "children": [
+    {
+     "key": "4ad7aecb-4d8b-5b9b-ba0c-cb7c3f45ea29",
+     "label": "BRSMRF_Campaign_1_Creatinine_Albumin_ReadMe",
+     "type": "file",
+     "ext": "",
+     "file_size": 108,
+     "meta": "108 B",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5ddea8de-bd86-5eb1-9e23-62a64c59b469",
+     "label": "BRSMRF_Campaign_1_Creatinine_Albumin",
+     "type": "file",
+     "ext": "",
+     "file_size": 688,
+     "meta": "688 B",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

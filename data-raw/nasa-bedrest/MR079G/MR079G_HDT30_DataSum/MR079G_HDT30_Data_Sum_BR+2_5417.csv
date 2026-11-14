@@ -1,0 +1,13 @@
+ID,Campaign,Subject,Date,Test_Phase,BR_Day,Test,Position,Value,Units,Acceptable Range Lower Bound,Acceptable Range Upper Bound
+1,HDT30,5417,11/27/2009,POST_TEST,2,Knee Concentric Strength,Extension at 60°/sec,111.8,ft-lb,30,250
+2,HDT30,5417,11/27/2009,POST_TEST,2,Knee Concentric Strength,Flexion at 60°/sec,90.2,ft-lb,20,150
+3,HDT30,5417,11/27/2009,POST_TEST,2,Knee Concentric Strength,Extension at 180°/sec,79.8,ft-lb,30,250
+4,HDT30,5417,11/27/2009,POST_TEST,2,Knee Concentric Strength,Flexion at 180°/sec,63.7,ft-lb,20,150
+5,HDT30,5417,11/27/2009,POST_TEST,2,Knee Concentric Endurance,Extension at 180°/sec,1198.1,ft-lb,500,3000
+6,HDT30,5417,11/27/2009,POST_TEST,2,Knee Concentric Endurance,Flexion at 180°/sec,689.1,ft-lb,200,3000
+7,HDT30,5417,11/27/2009,POST_TEST,2,Ankle Concentric Strength,Extension at 30°/sec,87.1,ft-lb,20,150
+8,HDT30,5417,11/27/2009,POST_TEST,2,Ankle Concentric Strength,Flexion at 30°/sec,25.1,ft-lb,0,50
+9,HDT30,5417,11/27/2009,POST_TEST,2,Ankle Eccentric Strength,Extension at 30°/sec,126.2,ft-lb,20,200
+10,HDT30,5417,11/27/2009,POST_TEST,2,Ankle Eccentric Strength,Flexion at 30°/sec,39.2,ft-lb,10,100
+11,HDT30,5417,11/27/2009,POST_TEST,2,Back Concentric Strength,Extension at 60°/sec,336.8,ft-lb,50,300
+12,HDT30,5417,11/27/2009,POST_TEST,2,Back Concentric Strength,Flexion at 60°/sec,149.6,ft-lb,50,300

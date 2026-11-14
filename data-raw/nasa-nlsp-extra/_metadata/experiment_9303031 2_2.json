@@ -1,0 +1,439 @@
+{
+ "record": {
+  "id": "80f08ab6-a1ec-5fad-bf0a-ad40f31b13a8",
+  "_id": "80f08ab6-a1ec-5fad-bf0a-ad40f31b13a8",
+  "experiment_title": "Spaceflight Effects on Mammalian Development",
+  "parameter_html": "<table><tr><td>Activity, electrocardiographic (EKG), Heart, Implanted electrodes</td></tr><tr><td>Activity, Heart rate, rat, Implanted EKG electrodes, downlink telemetry</td></tr><tr><td>Activity, Heart rate, rat, Implanted transmitter, continuous EKG, rate algorithm</td></tr><tr><td>Activity, motor, Pregnant rats, pups, Flight videorecordings</td></tr><tr><td>Behavior, function assessment, Posture, rat, Observation</td></tr><tr><td>Behavior, righting reflex, Standard, water immersion, rat dams, pups, Videorecording</td></tr><tr><td>Muscle contraction (labor)</td></tr><tr><td>Response, Vestibular, to rotation, rat pup, Videotape, observation</td></tr><tr><td>Temperature, AEM, NIH.R2, Ambient temperature recorder (ATR)</td></tr><tr></tr></table>",
+  "__source_key": "cl62au7e0cb1201o6d71a51ex",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Alberts, Jeffrey\">Principal Investigator: Alberts, Jeffrey</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Burden, Hubert\">Co-Investigator: Burden, Hubert</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Plaut, Karen\">Co-Investigator: Plaut, Karen</a>",
+  "__record_version": 28,
+  "experiment_description": "<B>Objectives:</B><P>The development of sensory systems has been shown to be affected by stimulation. It is hypothesized that exposure to microgravity reduces the stimulation of the developing fetal vestibular system and alters early vestibular functions in fetal rats. The purpose of this experiment is to explore that hypothesis as well as to study the effects of spaceflight on the behavior and physiology of pregnancy, labor, delivery and the onset of postnatal care, especially with respect to lactation.<P><B>Approach:</B><P>Vestibular development was studied prenatally and postnatally. During flight, a kinematic analysis of dams' was conducted using daily videorecordings of their activity. Postflight, prenatal fetuses were externalized from the uterus while keeping umbilical and placental connections to the dam intact. EKG electrodes were implanted in the embryos and EKG was monitored during vestibular perturbations of a 10s, 70\u00b0 degree tilt. Postnatally, pups were placed supine in and out of water and videorecorded in order to evaluate their standard righting response and water immersion righting response. Pups were also subjected to rotary stimulation to evaluate their responses to horizontal rotation. Rat pregnancy and parturition were also studied.  Animals were recorded inflight to observe the behavior of the dams. Immediately postflight, dams were placed in a glass chamber and videotaped before and after parturition.<P><B>Results:</B><P>Results from the vestibular portion of the study are as follows: Flight fetuses responded more dramatically than the controls to vestibular perturbations. Pups had no difference in the success or latency of the righting response indicating the flight groups retained the ability to orientate themselves with respect to gravity. Flight pups tested on recovery day 3, had a diminished water righting response, but flight pups tested on recovery day 5 could not be distinguished from control animals. Flight pups showed the same response as controls during the rotary stimulus, but were less-likely to perform the post-rotary righting response. Results from the pregnancy and parturition portion of this study are as follows: The flight dams displayed seven more times rolling movement than controls, probably due to the increased number of surfaces available in microgravity.  Immediately postflight, flight dams in general moved less. Flight dams had uncomplicated, and successful vaginal deliveries, and had similar size litters. However, flight dams had significantly more lordosis contractions probably related to spaceflight muscle atrophy.",
+  "indexed": "2026-08-23T04:04:02.187940+00:00",
+  "GUID": "cl62au7e0cb1201o6d71a51ex",
+  "resourceTitle": "https://genelab-data.ndc.nasa.gov/genelab/environmental/radiation",
+  "__model_type": "lsda_experiment",
+  "__dirid": "80f08ab6-a1ec-5fad-bf0a-ad40f31b13a8",
+  "__record_size_wo_doccontent": 70770,
+  "experiment_parms_tissue2": "NULL",
+  "experiment_parms_tissue1": "NULL",
+  "__update_method": "Update CDM",
+  "archive_status_index": 1,
+  "resource_group": "NASA GeneLab Data",
+  "experiment_type_lk": [
+   "Shuttle Life Sciences Research (Middeck)"
+  ],
+  "__record_modified_date": "2026-08-23T04:04:02.187940+00:00",
+  "proposal_source": [
+   "93-OLMSA-03"
+  ],
+  "__indexed": "2026-08-23T04:04:02.187940+00:00",
+  "session_type": "Basal",
+  "__record_creation_date": "2022-07-28T19:40:59.884Z",
+  "__record_size": 70770,
+  "__model_version": 60,
+  "payload_id": "NIH.R2",
+  "CombinedSpecies": [
+   [
+    "Rat (Rattus norvegicus) Sprague-Dawley"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "9303031 2_2",
+  "experiment_related": [
+   "9303031 1/2"
+  ],
+  "parameter_name": [
+   "Activity, electrocardiographic (EKG), Heart, Implanted electrodes",
+   "Activity, Heart rate, rat, Implanted EKG electrodes, downlink telemetry",
+   "Activity, Heart rate, rat, Implanted transmitter, continuous EKG, rate algorithm",
+   "Activity, motor, Pregnant rats, pups, Flight videorecordings",
+   "Behavior, function assessment, Posture, rat, Observation",
+   "Behavior, righting reflex, Standard, water immersion, rat dams, pups, Videorecording",
+   "Muscle contraction (labor)",
+   "Response, Vestibular, to rotation, rat pup, Videotape, observation",
+   "Temperature, AEM, NIH.R2, Ambient temperature recorder (ATR)"
+  ],
+  "exp_index": 688,
+  "research_area": [
+   "Developmental biology",
+   "Endocrinology",
+   "Cell and molecular biology"
+  ],
+  "protocol_approach": "Asynchronous control",
+  "pme_role_with_name": [
+   "ARC Experiment Support Scientist: Yavrom, Sharon",
+   "Co-Investigator: Burden, Hubert",
+   "Co-Investigator: Plaut, Karen",
+   "Principal Investigator: Alberts, Jeffrey"
+  ],
+  "missions": [
+   [
+    [
+     "STS-70"
+    ]
+   ]
+  ],
+  "PI": [
+   "Alberts, Jeffrey"
+  ],
+  "_file_extension": [],
+  "experiment_identifier": [
+   "9303031 2_2"
+  ],
+  "keyword": [],
+  "mission_id": [
+   [
+    [
+     "STS-70"
+    ]
+   ]
+  ],
+  "center": [
+   "Ames Research Center"
+  ],
+  "ncindex": [
+   7
+  ],
+  "species": [
+   "Rat"
+  ],
+  "PrincipalInvestigator": [
+   "Alberts, Jeffrey"
+  ],
+  "program_name": [
+   "Shuttle Program"
+  ],
+  "proposal_date": [
+   "7/9/1993"
+  ],
+  "archive_status": "Data preservation is complete. All datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Shuttle Program",
+  "__source_field_concat": "Basal NASA GeneLab Data NIH.R2 cl62au7e0cb1201o6d71a51ex NULL NULL https://genelab-data.ndc.nasa.gov/genelab/environmental/radiation  Asynchronous control Spaceflight Effects on Mammalian Development 9303031 2_2 Shuttle Program Data preservation is complete. All datasets are publicly available.",
+  "__icon_type": "rat",
+  "__description": "<B>Objectives:</B><P>The development of sensory systems has been shown to be affected by stimulation. It is hypothesized that exposure to microgravity reduces the stimulation of the developing fetal vestibular system and alters early vestibular functions in fetal rats. The purpose of this experiment is to explore that hypothesis as well as to study the effects of spaceflight on the behavior and physiology of pregnancy, labor, delivery and the onset of postnatal care, especially with respect to lactation.<P><B>Approach:</B><P>Vestibular development was studied prenatally and postnatally. During flight, a kinematic analysis of dams' was conducted using daily videorecordings of their activity. Postflight, prenatal fetuses were externalized from the uterus while keeping umbilical and placental connections to the dam intact. EKG electrodes were implanted in the embryos and EKG was monitored during vestibular perturbations of a 10s, 70\u00b0 degree tilt. Postnatally, pups were placed supine in and out of water and videorecorded in order to evaluate their standard righting response and water immersion righting response. Pups were also subjected to rotary stimulation to evaluate their responses to horizontal rotation. Rat pregnancy and parturition were also studied.  Animals were recorded inflight to observe the behavior of the dams. Immediately postflight, dams were placed in a glass chamber and videotaped before and after parturition.<P><B>Results:</B><P>Results from the vestibular portion of the study are as follows: Flight fetuses responded more dramatically than the controls to vestibular perturbations. Pups had no difference in the success or latency of the righting response indicating the flight groups retained the ability to orientate themselves with respect to gravity. Flight pups tested on recovery day 3, had a diminished water righting response, but flight pups tested on recovery day 5 could not be distinguished from control animals. Flight pups showed the same response as controls during the rotary stimulus, but were less-likely to perform the post-rotary righting response. Results from the pregnancy and parturition portion of this study are as follows: The flight dams displayed seven more times rolling movement than controls, probably due to the increased number of surfaces available in microgravity.  Immediately postflight, flight dams in general moved less. Flight dams had uncomplicated, and successful vaginal deliveries, and had similar size litters. However, flight dams had significantly more lordosis contractions probably related to spaceflight muscle atrophy.",
+  "__doi": "10.83263/5ckj-pc45",
+  "__doi_record_creation_date": "2026-08-23T04:04:02",
+  "__doi_record_modified_date": "2026-08-23T04:04:02"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002234",
+   "label": "AINV0000000950",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Spaceflight Effects on Mammalian Development",
+    "dataset_catalog": "AINV0000000950",
+    "dataset_description": [
+     "No data submitted by PI.  Refer to publication citations listed in experiment information for summarized and analyzed data."
+    ],
+    "processing_level": "",
+    "experiment_id": [
+     "9303031 2_2"
+    ]
+   },
+   "meta": "0 files",
+   "date": "2022-07-28",
+   "children": []
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000901",
+   "label": "AINV0000000401",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "NIH.R2 Ambient Temperature Recorder (ATR) ground control data - ATR serial number 39 located in ground control AEM serial number 004",
+    "dataset_catalog": "AINV0000000401",
+    "dataset_description": [],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9303017",
+     "9303024",
+     "9303025",
+     "9303030",
+     "9303031 2_2"
+    ]
+   },
+   "meta": "5 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "babd0034-86ea-5e8c-a488-45eea800998d",
+     "label": "3970G004.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ef8d90f7-44be-5d42-8860-4d43c52e1fdf",
+     "label": "3970G004.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7057be8f-21af-5833-8bd9-8924f775bd08",
+     "label": "3970G004.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9fc26250-a61a-5a26-903a-1eb56cfd7743",
+     "label": "3970G004.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "558cef9b-9005-5d8b-ba1e-c29ac91584ec",
+     "label": "3970G004.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001571",
+   "label": "AINV0000000398",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "NIH.R2 Ambient Temperature Recorder (ATR) flight data - ATR serial number 36 located in flight AEM serial number 001",
+    "dataset_catalog": "AINV0000000398",
+    "dataset_description": [],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9303017",
+     "9303024",
+     "9303025",
+     "9303030",
+     "9303031 2_2"
+    ]
+   },
+   "meta": "5 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "a26ed257-b613-5f9d-b9f9-7a03a3edc7c1",
+     "label": "3670F001.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3bacd1de-74f9-5dca-8f7c-29825297039d",
+     "label": "3670F001.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ef47b26c-fd55-55e0-878d-472f988e5276",
+     "label": "3670F001.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a69dde23-e51f-5aaa-bf99-e34e1605b6fc",
+     "label": "3670F001.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6803e6de-b9f5-5226-bbe8-1c70baadbdd8",
+     "label": "3670F001.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002329",
+   "label": "AINV0000000399",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "NIH.R2 Ambient Temperature Recorder (ATR) flight data - ATR serial number 37 located in flight AEM serial number 002",
+    "dataset_catalog": "AINV0000000399",
+    "dataset_description": [],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9303017",
+     "9303024",
+     "9303025",
+     "9303030",
+     "9303031 2_2"
+    ]
+   },
+   "meta": "5 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "38c5e8a7-b950-52a3-a3eb-ff11da8b54bf",
+     "label": "3770F002.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7e75287e-c176-50e9-baac-74ab4b7b34e1",
+     "label": "3770F002.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "bb5e85f3-bd4d-58fd-a798-b295763ca9d6",
+     "label": "3770F002.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4b453809-ccd2-5c33-8c5d-b8c688a84442",
+     "label": "3770F002.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ae5efbd8-539b-58e2-bf38-e9e6c87568b9",
+     "label": "3770F002.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002225",
+   "label": "AINV0000000400",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "NIH.R2 Ambient Temperature Recorder (ATR) ground control data - ATR serial number 38 located in ground control AEM serial number 003",
+    "dataset_catalog": "AINV0000000400",
+    "dataset_description": [],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9303017",
+     "9303024",
+     "9303025",
+     "9303030",
+     "9303031 2_2"
+    ]
+   },
+   "meta": "5 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "d2e4ffe9-48c2-575c-bbbe-d64c40eea667",
+     "label": "3870G003.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b0ba450c-e7f6-5fc5-b8e5-14b03f18eae0",
+     "label": "3870G003.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6c07b1df-18d1-53be-b866-d7f7226d56fa",
+     "label": "3870G003.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6516acb5-40b3-5961-9d6d-311cb9949500",
+     "label": "3870G003.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "63fc11f8-ebd3-57dc-a0f3-eea79e866049",
+     "label": "3870G003.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

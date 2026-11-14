@@ -1,0 +1,167 @@
+{
+ "record": {
+  "id": "26a8b51f-df92-5a52-9fc0-b8b77067246a",
+  "_id": "26a8b51f-df92-5a52-9fc0-b8b77067246a",
+  "__is_locked": false,
+  "experiment_title": "Retention of Skeletal, Musculature, and Postural Status with a Non-Invasive, Extremely Low-Level Mechanical Signal: A Ground-Based Evaluation of Efficacy",
+  "pub_document_number": "PUB001655",
+  "experiment_alias": [
+   "NNJ05HA02G",
+   "NNJ04HA02G"
+  ],
+  "parameter_html": "<table><tr><td>Bone strength</td></tr><tr><td>Muscle strength</td></tr><tr><td>Neurosensitivity</td></tr><tr><td>Postural control</td></tr><tr><td>Postural stability</td></tr><tr><td>Stabilogram</td></tr><tr></tr></table>",
+  "__source_key": "cl62azon8cdga01o60csz45g2",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Rubin, Clinton\">Principal Investigator: Rubin, Clinton</a>",
+  "keyword": [
+   "Bone and bones",
+   "Vibration"
+  ],
+  "keyword_name": "Vibration",
+  "__record_version": 29,
+  "experiment_description": "OBJECTIVES:<br> \r\nThe osteoporosis which develops in microgravity is one of the greatest hurdles to an extended human presence in space. Earth-based animal and human studies have demonstrated that extremely low magnitude mechanical stimuli (LMMS), if imposed at a high frequency, is strongly anabolic to the skeleton, and can serve to inhibit the bone loss, which typically parallels disuse. This experiment is designed to evaluate the efficacy of this unique biomechanical countermeasure to inhibit the disuse induced osteoporosis seen in long term bed-rest, the closest ground based equivalent of microgravity. To achieve this in a non-invasive, non-pharmacologic means would have tremendous impact not only in space, but would also address the bone loss which plagues over 20 million people world wide each year on earth.\r\n<P>\r\nThe objectives of this study are to: (1) show that application of low magnitude (0.3g), high frequency (30Hz) mechanical stimulation, will reduce the loss of bone seen with long term disuse; (2) show that application of low magnitude, high frequency mechanical stimulation will improve the postural control of subjects undergoing long term bed-rest; and (3) determine if long term bed-rest affects the sensitivity of the lower extremities as well as to determine if the application of low magnitude, high frequency mechanical stimulation will inhibit the changes if they exist.\r\n<p>\r\nAPPROACH:<br>\r\nVolunteers were subjected to 90 days of bedrest and 7 days of reambulation. While retaining this supine position, 18 random subjects received LMMS (30Hz) for 10min/d, at peak-to-peak acceleration magnitudes of either 0.3g (n=12) or 0.5g (n=6). The remaining subjects served as controls. Eighteen male and 11 female healthy subjects of astronaut age (33+/-7y) and without a history of back pain participated in this study. A combination of magnetic resonance imaging and computed tomography (CT) scans of the lumbar spine of all subjects were taken at baseline, 60 days, 90 days, and 7days post-bedrest. Back pain was self-reported. Intervertebral disc (IVD) morphology, spine length, and back pain were compared between control(CTR) and LMMS subjects. \r\n<P>\r\nRESULTS:<br>\r\nCompared with untreated control subjects, LMMS attenuated mean IVD swelling by 41% (p<.05) at 60 days and 30% (p<.05) at 90 days. After 7 days of reambulation, disc volume of the control group was still 8% (p<.01) greater than at baseline, whereas that for the LMMS group returned the disc volume to baseline levels. In contrast to BR alone, LMMS also retained disc convexity at all time points and reduced the incidence of LBP by 46% (p<.05). These data indicate that short daily bouts of LMMS can mitigate the detrimental changes in disc morphology, which arise during nonweightbearing, and provides preliminary support for a novel means of addressing spinal deterioration both on earth and in space.",
+  "Program": "Ground",
+  "indexed": "2026-08-23T04:18:44.154818+00:00",
+  "GUID": "cl62azon8cdga01o60csz45g2",
+  "sort": [
+   4,
+   "26a8b51f-df92-5a52-9fc0-b8b77067246a"
+  ],
+  "__model_type": "lsda_experiment",
+  "archive_status": "Data preservation is complete. Privacy-protected datasets are available via data request. Remaining datasets are publicly available.",
+  "__dirid": "26a8b51f-df92-5a52-9fc0-b8b77067246a",
+  "__record_size_wo_doccontent": 65114,
+  "__update_method": "Update CDM",
+  "archive_status_index": 2,
+  "mission_id": [
+   [
+    [
+     "UTMB Campaign 3"
+    ]
+   ],
+   [
+    [
+     "UTMB Campaign 5"
+    ]
+   ]
+  ],
+  "experiment_identifier": [
+   "BEDREST0035",
+   "NNJ05HA02G",
+   "NNJ04HA02G"
+  ],
+  "experiment_type_lk": [
+   "Flight Analogs Project (FAP)",
+   "NASA Bedrest Studies",
+   "NASA Ground-Based Investigations",
+   "Non-exercise Physiological Countermeasure (NxPCM) Project"
+  ],
+  "__record_modified_date": "2026-08-23T04:18:44.154818+00:00",
+  "proposal_source": [
+   "03-OBPR-04"
+  ],
+  "__indexed": "2026-08-23T04:18:44.154818+00:00",
+  "alias": [
+   "NNJ05HA02G",
+   "NNJ04HA02G"
+  ],
+  "__record_creation_date": "2022-07-28T19:59:06.691Z",
+  "__record_size": 65114,
+  "PrincipalInvestigator": [
+   "Rubin, Clinton"
+  ],
+  "__model_version": 60,
+  "payload_id": "Campaign 3",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens)"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "BEDREST0035",
+  "ncindex": [
+   2
+  ],
+  "experiment_related": [
+   "NSBRI-Bone1",
+   "NAG53950",
+   "ILSRA-2001-079"
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "parameter_name": [
+   "Bone strength",
+   "Muscle strength",
+   "Neurosensitivity",
+   "Postural control",
+   "Postural stability",
+   "Stabilogram"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 1381,
+  "research_area": [
+   "Skeletal physiology"
+  ],
+  "species": [
+   "Human"
+  ],
+  "pme_role_with_name": [
+   "Principal Investigator: Rubin, Clinton"
+  ],
+  "missions": [
+   [
+    [
+     "UTMB Campaign 3"
+    ]
+   ],
+   [
+    [
+     "UTMB Campaign 5"
+    ]
+   ]
+  ],
+  "PI": [
+   "Rubin, Clinton"
+  ],
+  "__source_field_concat": "PUB001655 Campaign 3 cl62azon8cdga01o60csz45g2 Vibration N/A BEDREST0035 Ground",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<br> \r\nThe osteoporosis which develops in microgravity is one of the greatest hurdles to an extended human presence in space. Earth-based animal and human studies have demonstrated that extremely low magnitude mechanical stimuli (LMMS), if imposed at a high frequency, is strongly anabolic to the skeleton, and can serve to inhibit the bone loss, which typically parallels disuse. This experiment is designed to evaluate the efficacy of this unique biomechanical countermeasure to inhibit the disuse induced osteoporosis seen in long term bed-rest, the closest ground based equivalent of microgravity. To achieve this in a non-invasive, non-pharmacologic means would have tremendous impact not only in space, but would also address the bone loss which plagues over 20 million people world wide each year on earth.\r\n<P>\r\nThe objectives of this study are to: (1) show that application of low magnitude (0.3g), high frequency (30Hz) mechanical stimulation, will reduce the loss of bone seen with long term disuse; (2) show that application of low magnitude, high frequency mechanical stimulation will improve the postural control of subjects undergoing long term bed-rest; and (3) determine if long term bed-rest affects the sensitivity of the lower extremities as well as to determine if the application of low magnitude, high frequency mechanical stimulation will inhibit the changes if they exist.\r\n<p>\r\nAPPROACH:<br>\r\nVolunteers were subjected to 90 days of bedrest and 7 days of reambulation. While retaining this supine position, 18 random subjects received LMMS (30Hz) for 10min/d, at peak-to-peak acceleration magnitudes of either 0.3g (n=12) or 0.5g (n=6). The remaining subjects served as controls. Eighteen male and 11 female healthy subjects of astronaut age (33+/-7y) and without a history of back pain participated in this study. A combination of magnetic resonance imaging and computed tomography (CT) scans of the lumbar spine of all subjects were taken at baseline, 60 days, 90 days, and 7days post-bedrest. Back pain was self-reported. Intervertebral disc (IVD) morphology, spine length, and back pain were compared between control(CTR) and LMMS subjects. \r\n<P>\r\nRESULTS:<br>\r\nCompared with untreated control subjects, LMMS attenuated mean IVD swelling by 41% (p<.05) at 60 days and 30% (p<.05) at 90 days. After 7 days of reambulation, disc volume of the control group was still 8% (p<.01) greater than at baseline, whereas that for the LMMS group returned the disc volume to baseline levels. In contrast to BR alone, LMMS also retained disc convexity at all time points and reduced the incidence of LBP by 46% (p<.05). These data indicate that short daily bouts of LMMS can mitigate the detrimental changes in disc morphology, which arise during nonweightbearing, and provides preliminary support for a novel means of addressing spinal deterioration both on earth and in space.",
+  "__doi": "10.83263/dk30-xz29",
+  "__doi_record_creation_date": "2026-08-23T04:18:44",
+  "__doi_record_modified_date": "2026-08-23T04:18:44"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001048",
+   "label": "BEDREST0035__2050655144",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Postural Instability Caused by Extended Bed Rest Is Alleviated by Brief Daily Exposure to Low Magnitude Mechanical Signals",
+    "dataset_catalog": "BEDREST0035__2050655144",
+    "dataset_description": "",
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "BEDREST0035"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "6da9463a-8cc3-5de5-acaa-4f966981c858",
+     "label": "BEDREST0035__2050655144.pdf_Campaign_5_BEDREST0035_2012_205_070716.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2025-06-06",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

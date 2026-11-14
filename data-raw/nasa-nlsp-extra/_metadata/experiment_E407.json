@@ -1,0 +1,243 @@
+{
+ "record": {
+  "id": "2eea6e06-cb1a-5e93-98ab-158c9d8b2277",
+  "_id": "2eea6e06-cb1a-5e93-98ab-158c9d8b2277",
+  "experiment_title": "Effects of Microgravity on the Biomechanical and Bioenergetic Characteristics of Human Skeletal Muscle",
+  "pub_document_number": "PUB002922",
+  "experiment_alias": [
+   "ECCO"
+  ],
+  "parameter_html": "<table><tr><td>Angular velocity</td></tr><tr><td>Body weight</td></tr><tr><td>Calf muscle, maximal voluntary contraction</td></tr><tr><td>Carbon dioxide concentration, expired gas</td></tr><tr><td>Carbon dioxide concentration, inspired gas</td></tr><tr><td>Cross-sectional area, thigh</td></tr><tr><td>Electromyogram (EMG), m. biceps brachii</td></tr><tr><td>Electromyogram (EMG), m. gastrocnemius medialis</td></tr><tr><td>Electromyogram (EMG), m. soleus</td></tr><tr><td>Electromyogram (EMG), m. tibialis anterior</td></tr><tr><td>Electromyogram (EMG), m. triceps brachii</td></tr><tr><td>Electromyogram force ratio</td></tr><tr><td>Enzymes, muscle fiber</td></tr><tr><td>Fat content, total body</td></tr><tr><td>Force</td></tr><tr><td>Force-mode, Torque-Velocity Dynamometer (TVD)</td></tr><tr><td>Force-output</td></tr><tr><td>Force-velocity</td></tr><tr><td>Force/cross-sectional area</td></tr><tr><td>Heart rate</td></tr><tr><td>Joint angular position, ankle</td></tr><tr><td>Joint angular position, elbow</td></tr><tr><td>Leg volume</td></tr><tr><td>Muscle fatigue, calf muscles</td></tr><tr><td>Muscle fiber size</td></tr><tr><td>Muscle fiber, cross-bridge stiffness</td></tr><tr><td>Muscle fiber, force-velocity</td></tr><tr><td>Muscle fiber, isozyme content</td></tr><tr><td>Muscle fiber, maximal shortening speed</td></tr><tr><td>Muscle fiber, pCa-force</td></tr><tr><td>Muscle fiber, peak rate of tension development</td></tr><tr><td>Muscle fiber, peak tension</td></tr><tr><td>Muscle fiber, substrate profile</td></tr><tr><td>Muscle force, calf muscles</td></tr><tr><td>Muscle velocity, calf muscles</td></tr><tr><td>Muscle volume</td></tr><tr><td>Muscle, lean tissue mass</td></tr><tr><td>Myosin heavy chain (MHC), muscle fiber</td></tr><tr><td>Oxygen concentration, expired gas</td></tr><tr><td>Oxygen concentration, inspired gas</td></tr><tr><td>Torque</td></tr><tr><td>Torque Velocity Dynamometer (TVD), lever arm position</td></tr><tr><td>Torque/angle</td></tr><tr><td>Torque/current</td></tr><tr><td>Torque/time</td></tr><tr><td>Velocity</td></tr><tr><td>Workload, ergometer</td></tr><tr></tr></table>",
+  "__source_key": "cl62aysrycd8p01o6ervj99g1",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:diPrampero, Pietro\">Principal Investigator: diPrampero, Pietro</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Capelli, Carlo\">Co-Investigator: Capelli, Carlo</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Denoth, Jachen\">Co-Investigator: Denoth, Jachen</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Marini, Jean\">Co-Investigator: Marini, Jean</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Milesi, Stefania\">Co-Investigator: Milesi, Stefania</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Stuessi, Edgar\">Co-Investigator: Stuessi, Edgar</a>",
+  "image_name": [
+   "Life and Microgravity Spacelab (LMS) Payload Operations, Torque-Velocity Dynamometer (TVD) arm muscle testing",
+   "Position of Electromyograph (EMG) Electrodes on the Leg Muscles"
+  ],
+  "keyword": [
+   "Muscle fibers",
+   "Torque",
+   "Electromyography",
+   "Carbon dioxide (CO2)"
+  ],
+  "keyword_name": "Carbon dioxide (CO2)",
+  "__record_version": 30,
+  "experiment_description": "OBJECTIVES:<br>\r\nLong-term space flight is known to negatively affect muscle structure and function, essentially because the constant pull of gravity is absent.  The changes are not completely understood and therefore, investigations concerning the biomechanics of human muscle function in microgravity are of great interest for deeper understanding of the basic aspects of muscle contraction and on how to improve countermeasures for preventing microgravity deconditioning.\r\n<p>\r\nSkeletal muscles transform chemical energy into mechanical energy.  This takes place during muscle contraction which is normally triggered by voluntarily induced nerve stimulation.  Muscle contractions can be subdivided into three general categories: (1) isometric, wherein the muscle is not permitted to shorten, so that the only result of the contraction is the generation of force,  (2) concentric, wherein the force applied to the muscle is lower than the maximal force the muscle is able to produce; as a consequence the muscle shortens, thus performing external mechanical work (force times distance shortened),  (3) eccentric, wherein the force applied to the muscle is greater than the maximum; the muscle is therefore forcibly lengthened, thus absorbing mechanical work.\r\n<p>\r\nThe maximal force the muscle can produce under isometric conditions depends on its length; it attains a peak at a length approximately equal to the \"physiological\" length of the muscle in vivo; it is less at greater or smaller lengths.  The speed at which a muscle shortens is a function of the force imposed on the muscle.  For concentric contractions, the force-velocity relationship is hyperbolic, the velocity increasing from zero (when the force is equal to the maximal isometric) to a maximum when the force is zero (unloaded contraction).  For eccentric contractions, the velocity of shortening is negative (the muscle becomes longer). Phenomenologically, muscle function is completely characterized with the following objectives of this investigation: <br>\r\n1. To determine the force/length characteristics of the contractile component. <br>\r\n2. To determine the force/length characteristics of the series elastic component.<br>\r\n3. To determine the force/velocity characteristics of the contractile component.<br>\r\n<p>\r\nAPPROACH:<br>\r\nThe experiment was performed by using the Torque-Velocity Dynamometer (TVD), a device built by the European Space Agency (ESA) to measure angular velocity and torque during predefined types of contractions of the elbow and ankle flexors and extensors.  The following contraction types have been studied:  (1) isometric, wherein the position of the joint was fixed and the torque measured,  (2) isovelocity, wherein the angular velocity was imposed and the torque measured,  (3) the same as under (2) but during eccentric contractions, where the force exceeded the maximal isometric and the muscle was forcibly lengthened.  \r\n<p>\r\nThe experiment protocol consisted of a series of predetermined profiles, each lasting for several seconds.  Each profile was repeated twice, and 3 or 4 profiles were performed in combined TVD modes, called experiment blocks. Throughout the experiment blocks the muscle activity was recorded by electromyography (EMG).  The same protocol was performed preflight, during the space flight and postflight.\r\n<p>\r\nInitially, the subject had to place the surface electrodes for EMG recording on the agonist and antagonist muscle groups, then enter the TVD and perform the necessary strapping and safety controls.  The lever arm of the TVD was automatically positioned to the appropriate angle and the subject was asked to exert either a maximal voluntary contraction (MVC) or 50% thereof, and to maintain it for 7 seconds, the duration of one profile.   During each profile, a sequence of isometric and isokinetic (concentric and eccentric) contractions were studied, automatically imposed by the TVD.  Between each profile the subject rested for 40 to 60 seconds. Overall, seven different profiles were used during the experiment.\r\n<p>\r\nThe tests were performed four times before the flight (at L-90, L-60, L-30 and L-15, days before launch), three times in flight (Flight Day 2,3,4; FD 7,8,9; FD 13,14,15) and four times after flight (R+1/2; R+4/5; R+8/9; R+15/16).  \r\n<p>\r\nRESULTS:<br>\r\nDuring flight, the neuromuscular system seemed able to maintain an unchanged capability of maximal recruitment of motor units. In fact, iEMG at 100% of MVC of biceps brachii, gastrocnemius lateralis and soleus remained almost stable throughout the study, whereas that of triceps brachii increased in the early phases of flight and remained high thereafter until return on Earth.\r\n<p>\r\nThe increase of triceps brachii iEMG was accompanied by a consensual and significant increase of the Tim of the elbow extensors. As a consequence, the ratio between mechanical output (Tim) and electrical activity, i.e. iEMG of triceps brachii, remained almost constant over the period of the study both at 100% of MVC and at sub maximal level. Thus, early in flight there seemed to occur a sort of dishinibition of this muscle group which, however, gradually subsided in the course of the mission.\r\n<p>\r\nIn the early phases of flight, Tim of the plantar flexors attained a value significantly lower than pre-flight; however, it progressively recovered in orbit to attain, after fifteen days of mission, a value close to control without any further change upon return on Earth. In this case, however, there was a clear dissociation between muscular performances in terms of Tim and iEMG: the neuromuscular activity of soleus and of gastrocnemius lateralis, in fact, was higher in the early phases of the flight as compared to the control situation. This phenomenon was reflected by the consensual drop of the Torque to iEMG ratio particularly evident in the soleus muscle at 100 % of MVC and, for both the soleus and gastrocnemius, at sub maximal level of contraction. However, the drops of plantar flexors Tim to soleus and gastrocnemius lateralis iEMGs ratios were clearly unexpected and it does deserve some words of comment. The drop of the Tim to iEMG ratios indicates the sudden occurrence of a microgravity effect negatively affecting the electromechanical coupling of this muscle. In fact, a drop of the Tim to iEMG ratio indicates that the involved muscle is able to develop a lower level of tension in response of the same electrical activation.\r\n<p>\r\n\r\n<p>",
+  "indexed": "2026-08-31T22:18:05.468Z",
+  "GUID": "cl62aysrycd8p01o6ervj99g1",
+  "__model_type": "lsda_experiment",
+  "__dirid": "2eea6e06-cb1a-5e93-98ab-158c9d8b2277",
+  "__record_size_wo_doccontent": 142408,
+  "experiment_parms_tissue2": "N/A",
+  "experiment_parms_tissue1": "N/A",
+  "__update_method": "Update Data",
+  "archive_status_index": 7,
+  "experiment_type_lk": [
+   "Shuttle Life Sciences Research (Spacelab)"
+  ],
+  "__record_modified_date": "2026-08-31T22:18:05.468Z",
+  "proposal_source": [
+   "Not available"
+  ],
+  "__indexed": "2026-08-31T22:18:05.468Z",
+  "alias": [
+   "ECCO"
+  ],
+  "__record_creation_date": "2022-07-28T20:03:05.512Z",
+  "__record_size": 142408,
+  "__model_version": 423,
+  "payload_id": "LMS",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "European Space Agency (ESA)"
+  ],
+  "experiment_id": "E407",
+  "parameter_name": [
+   "Angular velocity",
+   "Body weight",
+   "Calf muscle, maximal voluntary contraction",
+   "Carbon dioxide concentration, expired gas",
+   "Carbon dioxide concentration, inspired gas",
+   "Cross-sectional area, thigh",
+   "Electromyogram (EMG), m. biceps brachii",
+   "Electromyogram (EMG), m. gastrocnemius medialis",
+   "Electromyogram (EMG), m. soleus",
+   "Electromyogram (EMG), m. tibialis anterior",
+   "Electromyogram (EMG), m. triceps brachii",
+   "Electromyogram force ratio",
+   "Enzymes, muscle fiber",
+   "Fat content, total body",
+   "Force",
+   "Force-mode, Torque-Velocity Dynamometer (TVD)",
+   "Force-output",
+   "Force-velocity",
+   "Force/cross-sectional area",
+   "Heart rate",
+   "Joint angular position, ankle",
+   "Joint angular position, elbow",
+   "Leg volume",
+   "Muscle fatigue, calf muscles",
+   "Muscle fiber size",
+   "Muscle fiber, cross-bridge stiffness",
+   "Muscle fiber, force-velocity",
+   "Muscle fiber, isozyme content",
+   "Muscle fiber, maximal shortening speed",
+   "Muscle fiber, pCa-force",
+   "Muscle fiber, peak rate of tension development",
+   "Muscle fiber, peak tension",
+   "Muscle fiber, substrate profile",
+   "Muscle force, calf muscles",
+   "Muscle velocity, calf muscles",
+   "Muscle volume",
+   "Muscle, lean tissue mass",
+   "Myosin heavy chain (MHC), muscle fiber",
+   "Oxygen concentration, expired gas",
+   "Oxygen concentration, inspired gas",
+   "Torque",
+   "Torque Velocity Dynamometer (TVD), lever arm position",
+   "Torque/angle",
+   "Torque/current",
+   "Torque/time",
+   "Velocity",
+   "Workload, ergometer"
+  ],
+  "payload_part": "Euromir-94",
+  "exp_index": 321,
+  "research_area": [
+   "Muscle physiology"
+  ],
+  "protocol_approach": "Not applicable",
+  "pme_role_with_name": [
+   "Co-Investigator: Capelli, Carlo",
+   "Co-Investigator: Denoth, Jachen",
+   "Co-Investigator: Marini, Jean",
+   "Co-Investigator: Milesi, Stefania",
+   "Co-Investigator: Stuessi, Edgar",
+   "Principal Investigator: diPrampero, Pietro"
+  ],
+  "missions": [
+   [
+    [
+     "STS-78"
+    ]
+   ],
+   [
+    [
+     "STS-78"
+    ]
+   ]
+  ],
+  "PI": [
+   "diPrampero, Pietro"
+  ],
+  "_file_extension": [],
+  "experiment_identifier": [
+   "E407",
+   "ECCO"
+  ],
+  "mission_id": [
+   [
+    [
+     "STS-78"
+    ]
+   ],
+   [
+    [
+     "STS-78"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "diPrampero, Pietro"
+  ],
+  "archive_status": "This international study did not archive data with LSDA",
+  "__is_locked": false,
+  "Program": "Shuttle Program",
+  "__source_field_concat": "PUB002922 LMS cl62aysrycd8p01o6ervj99g1 Carbon dioxide (CO2) N/A N/A Euromir-94 Not applicable E407 Shuttle Program This international study did not archive data with LSDA",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<br>\r\nLong-term space flight is known to negatively affect muscle structure and function, essentially because the constant pull of gravity is absent.  The changes are not completely understood and therefore, investigations concerning the biomechanics of human muscle function in microgravity are of great interest for deeper understanding of the basic aspects of muscle contraction and on how to improve countermeasures for preventing microgravity deconditioning.\r\n<p>\r\nSkeletal muscles transform chemical energy into mechanical energy.  This takes place during muscle contraction which is normally triggered by voluntarily induced nerve stimulation.  Muscle contractions can be subdivided into three general categories: (1) isometric, wherein the muscle is not permitted to shorten, so that the only result of the contraction is the generation of force,  (2) concentric, wherein the force applied to the muscle is lower than the maximal force the muscle is able to produce; as a consequence the muscle shortens, thus performing external mechanical work (force times distance shortened),  (3) eccentric, wherein the force applied to the muscle is greater than the maximum; the muscle is therefore forcibly lengthened, thus absorbing mechanical work.\r\n<p>\r\nThe maximal force the muscle can produce under isometric conditions depends on its length; it attains a peak at a length approximately equal to the \"physiological\" length of the muscle in vivo; it is less at greater or smaller lengths.  The speed at which a muscle shortens is a function of the force imposed on the muscle.  For concentric contractions, the force-velocity relationship is hyperbolic, the velocity increasing from zero (when the force is equal to the maximal isometric) to a maximum when the force is zero (unloaded contraction).  For eccentric contractions, the velocity of shortening is negative (the muscle becomes longer). Phenomenologically, muscle function is completely characterized with the following objectives of this investigation: <br>\r\n1. To determine the force/length characteristics of the contractile component. <br>\r\n2. To determine the force/length characteristics of the series elastic component.<br>\r\n3. To determine the force/velocity characteristics of the contractile component.<br>\r\n<p>\r\nAPPROACH:<br>\r\nThe experiment was performed by using the Torque-Velocity Dynamometer (TVD), a device built by the European Space Agency (ESA) to measure angular velocity and torque during predefined types of contractions of the elbow and ankle flexors and extensors.  The following contraction types have been studied:  (1) isometric, wherein the position of the joint was fixed and the torque measured,  (2) isovelocity, wherein the angular velocity was imposed and the torque measured,  (3) the same as under (2) but during eccentric contractions, where the force exceeded the maximal isometric and the muscle was forcibly lengthened.  \r\n<p>\r\nThe experiment protocol consisted of a series of predetermined profiles, each lasting for several seconds.  Each profile was repeated twice, and 3 or 4 profiles were performed in combined TVD modes, called experiment blocks. Throughout the experiment blocks the muscle activity was recorded by electromyography (EMG).  The same protocol was performed preflight, during the space flight and postflight.\r\n<p>\r\nInitially, the subject had to place the surface electrodes for EMG recording on the agonist and antagonist muscle groups, then enter the TVD and perform the necessary strapping and safety controls.  The lever arm of the TVD was automatically positioned to the appropriate angle and the subject was asked to exert either a maximal voluntary contraction (MVC) or 50% thereof, and to maintain it for 7 seconds, the duration of one profile.   During each profile, a sequence of isometric and isokinetic (concentric and eccentric) contractions were studied, automatically imposed by the TVD.  Between each profile the subject rested for 40 to 60 seconds. Overall, seven different profiles were used during the experiment.\r\n<p>\r\nThe tests were performed four times before the flight (at L-90, L-60, L-30 and L-15, days before launch), three times in flight (Flight Day 2,3,4; FD 7,8,9; FD 13,14,15) and four times after flight (R+1/2; R+4/5; R+8/9; R+15/16).  \r\n<p>\r\nRESULTS:<br>\r\nDuring flight, the neuromuscular system seemed able to maintain an unchanged capability of maximal recruitment of motor units. In fact, iEMG at 100% of MVC of biceps brachii, gastrocnemius lateralis and soleus remained almost stable throughout the study, whereas that of triceps brachii increased in the early phases of flight and remained high thereafter until return on Earth.\r\n<p>\r\nThe increase of triceps brachii iEMG was accompanied by a consensual and significant increase of the Tim of the elbow extensors. As a consequence, the ratio between mechanical output (Tim) and electrical activity, i.e. iEMG of triceps brachii, remained almost constant over the period of the study both at 100% of MVC and at sub maximal level. Thus, early in flight there seemed to occur a sort of dishinibition of this muscle group which, however, gradually subsided in the course of the mission.\r\n<p>\r\nIn the early phases of flight, Tim of the plantar flexors attained a value significantly lower than pre-flight; however, it progressively recovered in orbit to attain, after fifteen days of mission, a value close to control without any further change upon return on Earth. In this case, however, there was a clear dissociation between muscular performances in terms of Tim and iEMG: the neuromuscular activity of soleus and of gastrocnemius lateralis, in fact, was higher in the early phases of the flight as compared to the control situation. This phenomenon was reflected by the consensual drop of the Torque to iEMG ratio particularly evident in the soleus muscle at 100 % of MVC and, for both the soleus and gastrocnemius, at sub maximal level of contraction. However, the drops of plantar flexors Tim to soleus and gastrocnemius lateralis iEMGs ratios were clearly unexpected and it does deserve some words of comment. The drop of the Tim to iEMG ratios indicates the sudden occurrence of a microgravity effect negatively affecting the electromechanical coupling of this muscle. In fact, a drop of the Tim to iEMG ratio indicates that the involved muscle is able to develop a lower level of tension in response of the same electrical activation.\r\n<p>\r\n\r\n<p>",
+  "__doi": "10.83263/raq5-n418",
+  "__doi_record_creation_date": "2026-08-23T03:54:54",
+  "__doi_record_modified_date": "2026-08-23T03:54:54"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001719",
+   "label": "JMLMS284036_63",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Data Collection Timetables for Experiment 284036",
+    "dataset_catalog": "JMLMS284036_63",
+    "dataset_description": [
+     "This spreadsheet represents the data collection timetables for blood collection, arm testing, leg motor fatigue testing and EMG recording for this experiment.  Information included in this spreadsheet may include information about the test protocol, data collection constraints, parameters measured, hardware used, scheduled versus actual days of data collection, and subject information."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "284036",
+     "284074",
+     "8913020",
+     "E407"
+    ]
+   },
+   "meta": "4 files \u00b7 420.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "3161c1a1-c653-5d3d-b85f-6a75733754a6",
+     "label": "JMLMS284036_63.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 107520,
+     "meta": "105.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "89b0049d-94dd-50e4-a7bd-61cb35e420b9",
+     "label": "JMLMS284036_63.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 107520,
+     "meta": "105.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0fdecaac-b00d-59b1-b567-1a87d16be3fa",
+     "label": "JMLMS284036_63.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 107520,
+     "meta": "105.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "febbe4b4-4439-552d-b896-d0929ee2992d",
+     "label": "JMLMS284036_63.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 107520,
+     "meta": "105.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

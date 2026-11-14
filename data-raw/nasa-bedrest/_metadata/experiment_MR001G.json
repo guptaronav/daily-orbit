@@ -1,0 +1,1780 @@
+{
+ "record": {
+  "id": "09bd2406-b323-5f7c-b0ac-d4585f0015ff",
+  "_id": "09bd2406-b323-5f7c-b0ac-d4585f0015ff",
+  "__is_locked": false,
+  "experiment_title": "Neuroendocrine and Cardiovascular Response to Tilt (Flight Analog)",
+  "experiment_alias": [
+   "MEDB 4.2",
+   "Tilt",
+   "BRSMTilt"
+  ],
+  "__source_key": "cl62azn2fcdfw01o6bd0y1hp2",
+  "experiment_type": [
+   [
+    "Flight Analogs Project (FAP)"
+   ],
+   [
+    "Artificial Gravity (Fractional Gravity)"
+   ],
+   [
+    "NASA Bedrest Studies"
+   ],
+   [
+    "NASA Ground-Based Investigations"
+   ]
+  ],
+  "AssignedArchivist": [
+   "Liddell, Nyaia A."
+  ],
+  "keyword": [
+   "Neurosecretory systems",
+   "Orthostatic intolerance",
+   "Tilt-table test",
+   "Cardiac output",
+   "Stroke volume"
+  ],
+  "__record_version": 36,
+  "experiment_description": "OBJECTIVES:<br>\nStand tests are used to assess the effects of prolonged weightlessness on orthostatic tolerance during upright posture.  Attempts are made to identify high-risk crewmembers before their current flight and adjust their inflight countermeasures accordingly, such as varying the proportion of aerobic versus resistive exercise and adjusting end-of-mission countermeasures.  Postflight data are used to guide rehabilitative measures and optimize performance on future flights.  Group data are used to assess the influence of other physical and physiological factors such as countermeasures, mission duration, and heat stress.<div>\nAPPROACH:<br>\nSubjects were placed on a tilt table with ECG electrodes applied to the chest and abdomen. An intravenous catheter was placed in a vein in the arm. Blood pressure cuffs were placed on the arm that does not contain the catheter. The subject rested for 20 minutes and then blood was drawn. Continuous measures of heart rate, ECG, arterial pressure, and aortic blood flow were collected for five minutes. The subject was then tilted upright at 80<deg>\u00b0</deg> for 30 minutes. A final blood draw took place at the conclusion to compare with that drawn in the supine position. If the subject could not tolerate 30 minutes of upright tilt, the tilt table was placed in the -10<deg>\u00b0</deg> head down tilt (HDT) position and blood drawn immediately if the subject stood for longer than seven minutes; otherwise, blood was drawn after one minute. \n</div><div>\nRESULTS:<br>\nDuring the artificial gravity (AG) pilot study it was concluded that AG can mitigate some aspects of bed rest-induced cardiovascular deconditioning, including orthostatic intolerance and aerobic power. Mechanisms of improvement were not cardiac-mediated, but likely through improved sympathetic responsiveness to orthostatic stress.\n<end></end></div>",
+  "indexed": "2026-08-23T03:54:33.375364+00:00",
+  "GUID": "cl62azn2fcdfw01o6bd0y1hp2",
+  "archive_status": "Data preservation is complete.  All datasets are publicly available.",
+  "__model_type": "lsda_experiment",
+  "__dirid": "09bd2406-b323-5f7c-b0ac-d4585f0015ff",
+  "__record_size_wo_doccontent": 63266,
+  "__update_method": "Update CDM",
+  "experiment_identifier": [
+   "MR001G",
+   "MEDB 4.2",
+   "Tilt",
+   "BRSMTilt"
+  ],
+  "CompleteArchivalExpectedInFiscalYear": [
+   "0"
+  ],
+  "experiment_type_lk": [
+   "Flight Analogs Project (FAP)",
+   "Artificial Gravity (Fractional Gravity)",
+   "NASA Bedrest Studies",
+   "NASA Ground-Based Investigations"
+  ],
+  "__record_modified_date": "2026-08-23T03:54:33.375364+00:00",
+  "nasa_center": "JSC",
+  "__indexed": "2026-08-23T03:54:33.375364+00:00",
+  "alias": [
+   "MEDB 4.2",
+   "Tilt",
+   "BRSMTilt"
+  ],
+  "__record_creation_date": "2022-07-28T19:57:49.882Z",
+  "__record_size": 63266,
+  "__model_version": 60,
+  "species_sci_name": [
+   [
+    "Homo sapiens"
+   ]
+  ],
+  "payload_id": [
+   "CFT70",
+   "DBLS",
+   "HDT30",
+   "Campaign 5",
+   "Campaign 3",
+   "Campaign 1",
+   "Pilot",
+   "ACG"
+  ],
+  "CombinedSpecies": [
+   "Human (Homo sapiens)"
+  ],
+  "agency": "National Aeronautics and Space Administration (NASA)",
+  "ncindex": 2,
+  "researchIndex": [
+   3
+  ],
+  "experiment_id": "MR001G",
+  "experiment_related": [
+   "MR001S",
+   "MR001L",
+   "M001"
+  ],
+  "center": "JSC",
+  "parameter_name": [
+   "Aldosterone",
+   "Angiotensin II",
+   "Arginine vasopressin (AVP)",
+   "Catecholamines",
+   "Epinephrine",
+   "Heart rate",
+   "Norepinephrine",
+   "Plasma renin activity (PRA)",
+   "Position",
+   "Diastolic blood pressure",
+   "Systolic blood pressure",
+   "Standing time",
+   "Total peripheral resistance"
+  ],
+  "exp_index": 1355,
+  "research_area": [
+   "Cardiovascular physiology"
+  ],
+  "species": [
+   [
+    "Human"
+   ]
+  ],
+  "pme_role_with_name": [
+   "Principal Investigator: Platts, Steven",
+   "Principal Investigator: Meck, Janice Fritsch- Yelle"
+  ],
+  "missions": [
+   "UTMB Campaign 11",
+   "DBLS",
+   "HDT30",
+   "UTMB Campaign 5",
+   "UTMB Campaign 3",
+   "UTMB Campaign 1",
+   "Pilot",
+   "Campaign 17"
+  ],
+  "PI": [
+   "Platts, Steven",
+   "Meck, Janice Fritsch- Yelle"
+  ],
+  "sort": [
+   3,
+   "9c5c32dc-7964-5f59-8697-319f00cf6dbe"
+  ],
+  "Program": "Ground",
+  "parameter_html": "<table><tr><td>Aldosterone</td></tr><tr><td>Angiotensin II</td></tr><tr><td>Arginine vasopressin (AVP)</td></tr><tr><td>Catecholamines</td></tr><tr><td>Epinephrine</td></tr><tr><td>Heart rate</td></tr><tr><td>Norepinephrine</td></tr><tr><td>Plasma renin activity (PRA)</td></tr><tr><td>Position</td></tr><tr><td>Diastolic blood pressure</td></tr><tr><td>Systolic blood pressure</td></tr><tr><td>Standing time</td></tr><tr><td>Total peripheral resistance</td></tr><tr></tr></table>",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Meck, Janice Fritsch- Yelle\">Principal Investigator: Meck, Janice Fritsch- Yelle</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Platts, Steven\">Principal Investigator: Platts, Steven</a>",
+  "PrincipalInvestigator": [
+   "Platts, Steven",
+   "Meck, Janice Fritsch- Yelle"
+  ],
+  "mission_id": [
+   "UTMB Campaign 11",
+   "DBLS",
+   "HDT30",
+   "UTMB Campaign 5",
+   "UTMB Campaign 3",
+   "UTMB Campaign 1",
+   "Pilot",
+   "Campaign 17"
+  ],
+  "__source_field_concat": "National Aeronautics and Space Administration (NASA) cl62azn2fcdfw01o6bd0y1hp2 JSC JSC Neuroendocrine and Cardiovascular Response to Tilt (Flight Analog) MR001G Ground Data preservation is complete.  All datasets are publicly available.",
+  "__icon_type": "",
+  "__description": "OBJECTIVES:<br>\nStand tests are used to assess the effects of prolonged weightlessness on orthostatic tolerance during upright posture.  Attempts are made to identify high-risk crewmembers before their current flight and adjust their inflight countermeasures accordingly, such as varying the proportion of aerobic versus resistive exercise and adjusting end-of-mission countermeasures.  Postflight data are used to guide rehabilitative measures and optimize performance on future flights.  Group data are used to assess the influence of other physical and physiological factors such as countermeasures, mission duration, and heat stress.<div>\nAPPROACH:<br>\nSubjects were placed on a tilt table with ECG electrodes applied to the chest and abdomen. An intravenous catheter was placed in a vein in the arm. Blood pressure cuffs were placed on the arm that does not contain the catheter. The subject rested for 20 minutes and then blood was drawn. Continuous measures of heart rate, ECG, arterial pressure, and aortic blood flow were collected for five minutes. The subject was then tilted upright at 80<deg>\u00b0</deg> for 30 minutes. A final blood draw took place at the conclusion to compare with that drawn in the supine position. If the subject could not tolerate 30 minutes of upright tilt, the tilt table was placed in the -10<deg>\u00b0</deg> head down tilt (HDT) position and blood drawn immediately if the subject stood for longer than seven minutes; otherwise, blood was drawn after one minute. \n</div><div>\nRESULTS:<br>\nDuring the artificial gravity (AG) pilot study it was concluded that AG can mitigate some aspects of bed rest-induced cardiovascular deconditioning, including orthostatic intolerance and aerobic power. Mechanisms of improvement were not cardiac-mediated, but likely through improved sympathetic responsiveness to orthostatic stress.\n<end></end></div>",
+  "__doi": "10.83263/gz1q-a824",
+  "__doi_record_creation_date": "2026-08-23T03:54:33",
+  "__doi_record_modified_date": "2026-08-23T03:54:33"
+ },
+ "datasets": [
+  {
+   "key": "c2401ec4-3e1a-569d-b9b9-fcc8cc0437aa",
+   "label": "MR001G_Campaign_3_Blood_Data_Atrial_Natriuretic_Peptide",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "UTMB Bedrest Campaign 3 Blood Data Atrial Natriuretic Peptide",
+    "dataset_catalog": "MR001G_Campaign_3_Blood_Data_Atrial_Natriuretic_Peptide",
+    "dataset_description": "This dataset contains a collection of the Bed Rest Standard Measures Neuroendocrine and Cardiovascular Response to Tilt (Flight Analog) (MR001G) Atrial Natriuretic Peptide (ANP) blood data collected during the Campaign 3 Bed Rest study.",
+    "processing_level": [
+     "Processed Data"
+    ],
+    "experiment_id": [
+     "MR001G"
+    ]
+   },
+   "meta": "6 files \u00b7 13.5 KB",
+   "date": "2025-09-19",
+   "children": [
+    {
+     "key": "d4f7fd9a-42d4-585b-b84e-9875cadd1cbd",
+     "label": "MR001G_Campaign_3_Blood_Data_Atrial_Natriuretic_Peptide_Female_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 2364,
+     "meta": "2.3 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a339e237-f23f-5739-93f3-38f783c0cf1f",
+     "label": "MR001G_Campaign_3_Blood_Data_Atrial_Natriuretic_Peptide_All_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 6390,
+     "meta": "6.2 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "18eee68d-3851-576e-8751-68d6d8e3bb6b",
+     "label": "MR001G_Campaign_3_Blood_Data_Atrial_Natriuretic_Peptide_Male_Avg",
+     "type": "file",
+     "ext": "",
+     "file_size": 318,
+     "meta": "318 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "79d47bfe-8bc7-58ae-b0fe-395fd8e2aeac",
+     "label": "MR001G_Campaign_3_Blood_Data_Atrial_Natriuretic_Peptide_Female_Avg",
+     "type": "file",
+     "ext": "",
+     "file_size": 315,
+     "meta": "315 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e189a023-6b0b-5930-b34b-a873c6fa37ac",
+     "label": "MR001G_Campaign_3_Blood_Data_Atrial_Natriuretic_Peptide_Male_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 4098,
+     "meta": "4.0 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e9e30a51-12f2-52b3-9f82-754268e0d198",
+     "label": "MR001G_Campaign_3_Blood_Data_Atrial_Natriuretic_Peptide_All_Avg",
+     "type": "file",
+     "ext": "",
+     "file_size": 326,
+     "meta": "326 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "8ff23043-a023-517f-8761-3406dd84d394",
+   "label": "MR001G_Campaign_3_Blood_Data_Plasma_Renin_Activity",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "UTMB Bedrest Campaign 3 Blood Data Plasma Renin Activity",
+    "dataset_catalog": "MR001G_Campaign_3_Blood_Data_Plasma_Renin_Activity",
+    "dataset_description": "This dataset contains a collection of the Bed Rest Standard Measures Neuroendocrine and Cardiovascular Response to Tilt (Flight Analog) (MR001G) Arginine Vasopressin (AVP) Plasma Renin Activity (PRA) blood data collected during the Campaign 3 Bed Rest study.",
+    "processing_level": [
+     "Processed Data"
+    ],
+    "experiment_id": [
+     "MR001G"
+    ]
+   },
+   "meta": "6 files \u00b7 12.2 KB",
+   "date": "2025-09-19",
+   "children": [
+    {
+     "key": "fd788574-6c93-538a-9f6d-0a6113f1f975",
+     "label": "MR001G_Campaign_3_Blood_Data_Plasma_Renin_Activity_All_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 5744,
+     "meta": "5.6 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "df9012eb-f7e5-5fb9-b468-01974d238cc1",
+     "label": "MR001G_Campaign_3_Blood_Data_Plasma_Renin_Activity_Male_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 3683,
+     "meta": "3.6 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d87bf1c6-ab3d-5108-9991-916aa3e8c652",
+     "label": "MR001G_Campaign_3_Blood_Data_Plasma_Renin_Activity_Female_Avg",
+     "type": "file",
+     "ext": "",
+     "file_size": 315,
+     "meta": "315 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "974b9750-e702-5773-9bac-0c4666fb2a57",
+     "label": "MR001G_Campaign_3_Blood_Data_Plasma_Renin_Activity_Female_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 2121,
+     "meta": "2.1 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "362ac211-f671-50a0-bd48-792f57946396",
+     "label": "MR001G_Campaign_3_Blood_Data_Plasma_Renin_Activity_Male_Avg",
+     "type": "file",
+     "ext": "",
+     "file_size": 321,
+     "meta": "321 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "64c29bc7-c08d-5ac0-982b-a46bc6819f3b",
+     "label": "MR001G_Campaign_3_Blood_Data_Plasma_Renin_Activity_All_Avg",
+     "type": "file",
+     "ext": "",
+     "file_size": 272,
+     "meta": "272 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "eccabdca-ad4c-5232-9228-b4745cb19e92",
+   "label": "MR001G_Campaign_3_Blood_Data_Adrenocorticotropic_Hormone",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "UTMB Bedrest Campaign 3 Blood Data Adrenocorticotropic Hormone",
+    "dataset_catalog": "MR001G_Campaign_3_Blood_Data_Adrenocorticotropic_Hormone",
+    "dataset_description": "This dataset contains a collection of the Bed Rest Standard Measures Neuroendocrine and Cardiovascular Response to Tilt (Flight Analog) (MR001G) Adrenocorticotropic Hormone (ACTH) blood data collected during the Campaign 3 Bed Rest study.",
+    "processing_level": [
+     "Processed Data"
+    ],
+    "experiment_id": [
+     "MR001G"
+    ]
+   },
+   "meta": "6 files \u00b7 13.3 KB",
+   "date": "2025-09-19",
+   "children": [
+    {
+     "key": "b379f46f-fa8b-5bbb-99d8-d446b71df609",
+     "label": "MR001G_Campaign_3_Blood_Data_ACTH_All_Avg",
+     "type": "file",
+     "ext": "",
+     "file_size": 325,
+     "meta": "325 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "56abf0d1-6b4d-5de3-880a-8813b25790e0",
+     "label": "MR001G_Campaign_3_Blood_Data_ACTH_Male_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 4027,
+     "meta": "3.9 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1b21c613-409e-5846-bb97-60648aa36263",
+     "label": "MR001G_Campaign_3_Blood_Data_ACTH_Female_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 2332,
+     "meta": "2.3 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b6473d97-2ffe-5f7d-b445-c0ca698b7b87",
+     "label": "MR001G_Campaign_3_Blood_Data_ACTH_Female_Avg",
+     "type": "file",
+     "ext": "",
+     "file_size": 319,
+     "meta": "319 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "25a366f2-e21c-561d-a656-69b8fd704881",
+     "label": "MR001G_Campaign_3_Blood_Data_ACTH_Male_Avg",
+     "type": "file",
+     "ext": "",
+     "file_size": 325,
+     "meta": "325 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "84fa6901-0bd3-5356-b70d-3a195bd1251b",
+     "label": "MR001G_Campaign_3_Blood_Data_ACTH_All_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 6286,
+     "meta": "6.1 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "5190d8c5-d28d-5f1d-8283-94a2fd9930c0",
+   "label": "MR001G_Campaign_1_Tilt",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "UTMB Bedrest Campaign 1 Tilt",
+    "dataset_catalog": "MR001G_Campaign_1_Tilt",
+    "dataset_description": "This dataset contains MR001G operational tilt test data measured during Campaign 1. It also includes blood catecholamine and hormone measurements, and total protein data",
+    "processing_level": "Processed Data",
+    "experiment_id": [
+     "MR001G"
+    ]
+   },
+   "meta": "6 files \u00b7 49.4 KB",
+   "date": "2025-04-15",
+   "children": [
+    {
+     "key": "8a9c427c-b267-5788-97c5-0dd6eeaff083",
+     "label": "MR001G_Campaign_1_Tilt_CO",
+     "type": "file",
+     "ext": "",
+     "file_size": 8424,
+     "meta": "8.2 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3a125a6d-001a-50a0-bb12-534abe26716c",
+     "label": "MR001G_Campaign_1_Tilt_DBP",
+     "type": "file",
+     "ext": "",
+     "file_size": 8257,
+     "meta": "8.1 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8e1aa319-126d-57b9-a22b-e915d8ac1993",
+     "label": "MR001G_Campaign_1_Tilt_HR",
+     "type": "file",
+     "ext": "",
+     "file_size": 8265,
+     "meta": "8.1 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "16a05a77-e469-5b16-9535-e3c9c238d8bc",
+     "label": "MR001G_Campaign_1_Tilt_SV",
+     "type": "file",
+     "ext": "",
+     "file_size": 8595,
+     "meta": "8.4 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e59f3764-583a-5e57-8f8a-59ca823764da",
+     "label": "MR001G_Campaign_1_Tilt_SBP",
+     "type": "file",
+     "ext": "",
+     "file_size": 8435,
+     "meta": "8.2 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8dc19e8b-608b-5c1a-bddc-4531f7e66ba5",
+     "label": "MR001G_Campaign_1_Tilt_TPR",
+     "type": "file",
+     "ext": "",
+     "file_size": 8597,
+     "meta": "8.4 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "4182faf3-aef8-54a4-900b-cbc216640507",
+   "label": "MR001G_Campaign_1_Blood_Data",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "UTMB Bedrest Campaign 1 Blood Data",
+    "dataset_catalog": "MR001G_Campaign_1_Blood_Data",
+    "dataset_description": "This dataset contains MR001G operational tilt test data measured during Campaign 1. It also includes blood catecholamine and hormone measurements, and total protein data.",
+    "processing_level": "Processed Data",
+    "experiment_id": [
+     "MR001G"
+    ]
+   },
+   "meta": "5 files \u00b7 3.6 KB",
+   "date": "2025-04-15",
+   "children": [
+    {
+     "key": "4ea87484-0ae8-5aa5-81a6-0a48b47bc7c4",
+     "label": "MR001G_Campaign_1_Blood_Data_Angiotensin",
+     "type": "file",
+     "ext": "",
+     "file_size": 721,
+     "meta": "721 B",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "124467fc-81f5-5922-a207-c9ab78f81ce7",
+     "label": "MR001G_Campaign_1_Blood_Data_Catecholamines",
+     "type": "file",
+     "ext": "",
+     "file_size": 775,
+     "meta": "775 B",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4b57b809-85e5-5f1b-b90d-1a8089a32163",
+     "label": "MR001G_Campaign_1_Blood_Data_PRA",
+     "type": "file",
+     "ext": "",
+     "file_size": 715,
+     "meta": "715 B",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "67be500a-dd96-533c-a8af-4c77e8777602",
+     "label": "MR001G_Campaign_1_Blood_Data_Aldosterone",
+     "type": "file",
+     "ext": "",
+     "file_size": 707,
+     "meta": "707 B",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e3f09a06-3f09-5b1c-95a7-c4d28c201b69",
+     "label": "MR001G_Campaign_1_Blood_Data_AVP",
+     "type": "file",
+     "ext": "",
+     "file_size": 723,
+     "meta": "723 B",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "335b56ac-e6a9-5d58-8af3-e6891456208f",
+   "label": "MR001G_Campaign_3_Blood_Data_Norepinephrine",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "UTMB Bedrest Campaign 3 Blood Data Norepinephrine",
+    "dataset_catalog": "MR001G_Campaign_3_Blood_Data_Norepinephrine",
+    "dataset_description": "This dataset contains a collection of the Bed Rest Standard Measures Neuroendocrine and Cardiovascular Response to Tilt (Flight Analog) (MR001G) Norepinephrine blood data collected during the Campaign 3 Bed Rest study.",
+    "processing_level": [
+     "Processed Data"
+    ],
+    "experiment_id": [
+     "MR001G"
+    ]
+   },
+   "meta": "6 files \u00b7 12.8 KB",
+   "date": "2025-09-19",
+   "children": [
+    {
+     "key": "cabbd903-565d-5db9-ae6f-2981ee486bda",
+     "label": "MR001G_Campaign_3_Blood_Data_Norepinephrine_Male_Avg",
+     "type": "file",
+     "ext": "",
+     "file_size": 361,
+     "meta": "361 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "02583b0c-985d-5925-a4e0-a60a050f5734",
+     "label": "MR001G_Campaign_3_Blood_Data_Norepinephrine_All_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 5631,
+     "meta": "5.5 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3934fd8c-fb14-5636-9416-b8996d62cc05",
+     "label": "MR001G_Campaign_3_Blood_Data_Norepinephrine_All_Avg",
+     "type": "file",
+     "ext": "",
+     "file_size": 355,
+     "meta": "355 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "66b65a24-3757-5f74-bcfd-786d6756a02c",
+     "label": "MR001G_Campaign_3_Blood_Data_Norepinephrine_Female_Avg",
+     "type": "file",
+     "ext": "",
+     "file_size": 350,
+     "meta": "350 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0aaae5f9-e16c-549e-9feb-898dd093b6e7",
+     "label": "MR001G_Campaign_3_Blood_Data_Norepinephrine_Male_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 4043,
+     "meta": "3.9 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "09fede86-717f-5fbf-897f-97e75dabab58",
+     "label": "MR001G_Campaign_3_Blood_Data_Norepinephrine_Female_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 2331,
+     "meta": "2.3 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "68e05065-3d74-5ea3-ac3d-af0d9cee5b54",
+   "label": "MR001G_Campaign_3_Blood_Data_Arginine_Vasopressin",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "UTMB Bedrest Campaign 3 Blood Data Arginine Vasopressin",
+    "dataset_catalog": "MR001G_Campaign_3_Blood_Data_Arginine_Vasopressin",
+    "dataset_description": "This dataset contains a collection of the Bed Rest Standard Measures Neuroendocrine and Cardiovascular Response to Tilt (Flight Analog) (MR001G) Arginine Vasopressin (AVP) blood data collected during the Campaign 3 Bed Rest study.",
+    "processing_level": [
+     "Processed Data"
+    ],
+    "experiment_id": [
+     "MR001G"
+    ]
+   },
+   "meta": "6 files \u00b7 13.5 KB",
+   "date": "2025-09-19",
+   "children": [
+    {
+     "key": "304ccb8a-4dc7-579e-88ea-86b4a3b46d62",
+     "label": "MR001G_Campaign_3_Blood_Data_Arginine_Vasopressin_Female_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 2357,
+     "meta": "2.3 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c98ae770-630b-5a7e-a391-7aa7cf841579",
+     "label": "MR001G_Campaign_3_Blood_Data_Arginine_Vasopressin_Male_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 4106,
+     "meta": "4.0 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "26574a1c-4b77-5fb4-8825-8fa12e1f725a",
+     "label": "MR001G_Campaign_3_Blood_Data_Arginine_Vasopressin_Female_Avg",
+     "type": "file",
+     "ext": "",
+     "file_size": 325,
+     "meta": "325 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "654c3aac-325d-5b69-ae27-33c4636873f4",
+     "label": "MR001G_Campaign_3_Blood_Data_Arginine_Vasopressin_Male_Avg",
+     "type": "file",
+     "ext": "",
+     "file_size": 327,
+     "meta": "327 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d3169bea-f677-5a25-a299-afc95856b592",
+     "label": "MR001G_Campaign_3_Blood_Data_Arginine_Vasopressin_All_Avg",
+     "type": "file",
+     "ext": "",
+     "file_size": 334,
+     "meta": "334 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ebc092f6-a83c-51f5-b3f3-c7847ce31294",
+     "label": "MR001G_Campaign_3_Blood_Data_Arginine_Vasopressin_All_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 6391,
+     "meta": "6.2 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "04c0c7e5-4049-56b7-81ac-6ae4944adde5",
+   "label": "MR001G_Campaign_3_Blood_Data_Aldosterone",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "UTMB Bedrest Campaign 3 Blood Data Aldosterone",
+    "dataset_catalog": "MR001G_Campaign_3_Blood_Data_Aldosterone",
+    "dataset_description": "This dataset contains a collection of the Bed Rest Standard Measures Neuroendocrine and Cardiovascular Response to Tilt (Flight Analog) (MR001G) Aldosterone blood data collected during the Campaign 3 Bed Rest study.",
+    "processing_level": [
+     "Processed Data"
+    ],
+    "experiment_id": [
+     "MR001G"
+    ]
+   },
+   "meta": "6 files \u00b7 13.3 KB",
+   "date": "2025-09-19",
+   "children": [
+    {
+     "key": "d5d372e8-ada0-540b-9aeb-67281c1f58de",
+     "label": "MR001G_Campaign_3_Blood_Data_Aldosterone_Male_Avg",
+     "type": "file",
+     "ext": "",
+     "file_size": 349,
+     "meta": "349 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7cd268a4-3e68-5b50-895f-8d81a67d2180",
+     "label": "MR001G_Campaign_3_Blood_Data_Aldosterone_Male_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 4018,
+     "meta": "3.9 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8725b993-03b2-5067-979f-111f3aeba207",
+     "label": "MR001G_Campaign_3_Blood_Data_Aldosterone_Female_Avg",
+     "type": "file",
+     "ext": "",
+     "file_size": 346,
+     "meta": "346 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "143c07e3-715d-5292-9128-cd589a51a81f",
+     "label": "MR001G_Campaign_3_Blood_Data_Aldosterone_Female_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 2321,
+     "meta": "2.3 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "83198f27-a4e6-563e-b9d0-3f62c581de51",
+     "label": "MR001G_Campaign_3_Blood_Data_Aldosterone_All_Avg",
+     "type": "file",
+     "ext": "",
+     "file_size": 358,
+     "meta": "358 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "55bc0ee4-8954-5407-9bd5-8b3151035358",
+     "label": "MR001G_Campaign_3_Blood_Data_Aldosterone_All_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 6259,
+     "meta": "6.1 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "f4a134da-7131-55f8-a0a1-e67d56509432",
+   "label": "MR001G_Campaign_3_Tilt",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "UTMB Bedrest Campaign 3 Tilt",
+    "dataset_catalog": "MR001G_Campaign_3_Tilt",
+    "dataset_description": "This dataset contains tabular data for all UTMB Campaign 3 subjects for the Bed Rest Standard Measures Neuroendocrine and Cardiovascular Response to Tilt (Flight Analog) (MR001G) study.",
+    "processing_level": [
+     "Processed Data"
+    ],
+    "experiment_id": [
+     "MR001G"
+    ]
+   },
+   "meta": "80 files \u00b7 158.5 KB",
+   "date": "2025-09-12",
+   "children": [
+    {
+     "key": "74d11554-e066-59bb-888d-23410e9a8cb2",
+     "label": "MR001G_Campaign_3_Tilt_C3D_5165_BR+3",
+     "type": "file",
+     "ext": "",
+     "file_size": 3145,
+     "meta": "3.1 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f172a357-ee9b-5730-812c-970342c3eb56",
+     "label": "MR001G_Campaign_3_Tilt_C3G_5814_BR+0",
+     "type": "file",
+     "ext": "",
+     "file_size": 1159,
+     "meta": "1.1 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b26aea75-c47d-56ac-ae20-2b2ba5ed2119",
+     "label": "MR001G_Campaign_3_Tilt_C3E_6043_BR-5",
+     "type": "file",
+     "ext": "",
+     "file_size": 3208,
+     "meta": "3.1 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "087efa7c-b654-5f45-b32a-f45e72803997",
+     "label": "MR001G_Campaign_3_Tilt_C3G_5814_BR+3",
+     "type": "file",
+     "ext": "",
+     "file_size": 2556,
+     "meta": "2.5 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ea37559d-56d2-5ad2-b1c8-cb06302074f0",
+     "label": "MR001G_Campaign_3_Tilt_C3D_8779_BR60",
+     "type": "file",
+     "ext": "",
+     "file_size": 848,
+     "meta": "848 B",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "315d8a31-2b9c-5878-ba41-3fdec8eb8872",
+     "label": "MR001G_Campaign_3_Tilt_C3D_7961_BR60",
+     "type": "file",
+     "ext": "",
+     "file_size": 3046,
+     "meta": "3.0 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "df5500c1-afab-5e41-9090-eeae46ce2efc",
+     "label": "MR001G_Campaign_3_Tilt_C3E_6607_BR+3",
+     "type": "file",
+     "ext": "",
+     "file_size": 2538,
+     "meta": "2.5 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b4530b0b-95e3-58e8-91a0-aa5cceee8f85",
+     "label": "MR001G_Campaign_3_Tilt_C3D_8881_BR-5",
+     "type": "file",
+     "ext": "",
+     "file_size": 2551,
+     "meta": "2.5 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b9321418-a259-5253-acac-87d732ca4c82",
+     "label": "MR001G_Campaign_3_Tilt_C3C_7772_BR61",
+     "type": "file",
+     "ext": "",
+     "file_size": 1005,
+     "meta": "1005 B",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6c7cab87-5cdf-5456-9d99-191712ea70ac",
+     "label": "MR001G_Campaign_3_Tilt_C3A_5788_BR+3",
+     "type": "file",
+     "ext": "",
+     "file_size": 1840,
+     "meta": "1.8 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a4cf85a0-fceb-50a9-9046-8fa938ea9bd6",
+     "label": "MR001G_Campaign_3_Tilt_C3D_5165_BR-5",
+     "type": "file",
+     "ext": "",
+     "file_size": 3160,
+     "meta": "3.1 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f41ba325-4eeb-50b3-a203-36ee7dfa4afc",
+     "label": "MR001G_Campaign_3_Tilt_C3A_992_BR-4",
+     "type": "file",
+     "ext": "",
+     "file_size": 2681,
+     "meta": "2.6 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7b3740ce-06a2-5c78-960f-8d3faf927a52",
+     "label": "MR001G_Campaign_3_Tilt_C3A_224_BR-5",
+     "type": "file",
+     "ext": "",
+     "file_size": 2222,
+     "meta": "2.2 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "873588ee-d240-5221-9d7e-b9073cf01df0",
+     "label": "MR001G_Campaign_3_Tilt_C3B_6345_BR-5",
+     "type": "file",
+     "ext": "",
+     "file_size": 2111,
+     "meta": "2.1 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9476d14a-20f8-550d-bae8-813d41fb815f",
+     "label": "MR001G_Campaign_3_Tilt_C3G_6858_BR+0",
+     "type": "file",
+     "ext": "",
+     "file_size": 778,
+     "meta": "778 B",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5db87996-c382-57ea-a3d9-c34d3d1c577e",
+     "label": "MR001G_Campaign_3_Tilt_C3C_7772_BR+3",
+     "type": "file",
+     "ext": "",
+     "file_size": 3180,
+     "meta": "3.1 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3bf018cd-b4f8-52ee-9174-97803386fd5f",
+     "label": "MR001G_Campaign_3_Tilt_C3A_992_BR+3",
+     "type": "file",
+     "ext": "",
+     "file_size": 1568,
+     "meta": "1.5 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "653f471c-1887-5cc6-bd00-be93ce3e0777",
+     "label": "MR001G_Campaign_3_Tilt_C3G_9485_BR+0",
+     "type": "file",
+     "ext": "",
+     "file_size": 2210,
+     "meta": "2.2 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e0abe65b-63c8-5385-888a-acfbf64f1559",
+     "label": "MR001G_Campaign_3_Tilt_C3G_5580_BR+0",
+     "type": "file",
+     "ext": "",
+     "file_size": 2255,
+     "meta": "2.2 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d2a0eb80-396e-5093-bc9a-4669d099be3d",
+     "label": "MR001G_Campaign_3_Tilt_C3G_6858_BR+3",
+     "type": "file",
+     "ext": "",
+     "file_size": 1957,
+     "meta": "1.9 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ddb0894d-005a-5177-86af-3befae093743",
+     "label": "MR001G_Campaign_3_Tilt_C3D_7984_BR+0",
+     "type": "file",
+     "ext": "",
+     "file_size": 957,
+     "meta": "957 B",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b262dbab-72e6-5ad6-aa2d-99217fea0c58",
+     "label": "MR001G_Campaign_3_Tilt_C3D_7961_BR+0",
+     "type": "file",
+     "ext": "",
+     "file_size": 2004,
+     "meta": "2.0 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c2bb2194-7f36-5dfa-8d18-8497deaa1a26",
+     "label": "MR001G_Campaign_3_Tilt_C3A_992_BR+0",
+     "type": "file",
+     "ext": "",
+     "file_size": 1824,
+     "meta": "1.8 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b6b4c1bd-fb9e-508e-9a84-c658fa57ceff",
+     "label": "MR001G_Campaign_3_Tilt_C3G_5814_BR-5",
+     "type": "file",
+     "ext": "",
+     "file_size": 2469,
+     "meta": "2.4 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0418555d-7ec5-51ad-9079-2debbb6e35b2",
+     "label": "MR001G_Campaign_3_Tilt_C3B_7127_BR-5",
+     "type": "file",
+     "ext": "",
+     "file_size": 1799,
+     "meta": "1.8 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "12cf3388-3e05-5e08-b53e-edbb48ac0bea",
+     "label": "MR001G_Campaign_3_Tilt_C3A_5788_BR-4",
+     "type": "file",
+     "ext": "",
+     "file_size": 2302,
+     "meta": "2.2 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "52634943-9126-50e7-ab00-c3d8bb658d8c",
+     "label": "MR001G_Campaign_3_Tilt_C3G_9485_BR-5",
+     "type": "file",
+     "ext": "",
+     "file_size": 2469,
+     "meta": "2.4 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "011766e2-d086-51c3-8e44-1129e20df7cc",
+     "label": "MR001G_Campaign_3_Tilt_C3G_5580_BR+5",
+     "type": "file",
+     "ext": "",
+     "file_size": 2518,
+     "meta": "2.5 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "44d33571-9ffb-5446-897b-d1298ac9e773",
+     "label": "MR001G_Campaign_3_Tilt_C3D_8779_BR+0",
+     "type": "file",
+     "ext": "",
+     "file_size": 895,
+     "meta": "895 B",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "192a54aa-61ff-5387-aa2f-eb7b667d45ba",
+     "label": "MR001G_Campaign_3_Tilt_C3G_9314_BR+7",
+     "type": "file",
+     "ext": "",
+     "file_size": 959,
+     "meta": "959 B",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6605ee87-7bdf-5efb-9496-e1895d358a30",
+     "label": "MR001G_Campaign_3_Tilt_C3C_7352_BR+3",
+     "type": "file",
+     "ext": "",
+     "file_size": 2329,
+     "meta": "2.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0df046de-f5b4-53be-aea8-132fdd6c510d",
+     "label": "MR001G_Campaign_3_Tilt_C3B_3768_BR-6",
+     "type": "file",
+     "ext": "",
+     "file_size": 1363,
+     "meta": "1.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3bc58a03-ce53-5d02-99e0-088aa827d48d",
+     "label": "MR001G_Campaign_3_Tilt_C3D_5165_BR+0",
+     "type": "file",
+     "ext": "",
+     "file_size": 3207,
+     "meta": "3.1 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "05db69c4-334e-545d-bfa5-a19f0b4cd34d",
+     "label": "MR001G_Campaign_3_Tilt_C3H_5907_BR+3",
+     "type": "file",
+     "ext": "",
+     "file_size": 2132,
+     "meta": "2.1 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6f0cadb5-5a99-5ba6-9b89-4570a0405c26",
+     "label": "MR001G_Campaign_3_Tilt_C3G_9032_BR-5",
+     "type": "file",
+     "ext": "",
+     "file_size": 2391,
+     "meta": "2.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1746730f-9dca-59cf-9b8c-a0b506ec1e59",
+     "label": "MR001G_Campaign_3_Tilt_C3A_224_BR61",
+     "type": "file",
+     "ext": "",
+     "file_size": 2689,
+     "meta": "2.6 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "93e7100e-8a93-5d5e-8d6f-1d1234ead378",
+     "label": "MR001G_Campaign_3_Tilt_C3D_8881_BR+0",
+     "type": "file",
+     "ext": "",
+     "file_size": 2433,
+     "meta": "2.4 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "16a429bf-f567-59e2-8ffb-ef4e2b440197",
+     "label": "MR001G_Campaign_3_Tilt_C3G_5580_BR-5",
+     "type": "file",
+     "ext": "",
+     "file_size": 2506,
+     "meta": "2.4 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f0a0bce0-7298-58cc-ab51-658ce3070688",
+     "label": "MR001G_Campaign_3_Tilt_C3G_9314_BR-8",
+     "type": "file",
+     "ext": "",
+     "file_size": 1437,
+     "meta": "1.4 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1eb9724c-a042-5168-835e-be14a33b1fc2",
+     "label": "MR001G_Campaign_3_Tilt_C3D_7984_BR+3",
+     "type": "file",
+     "ext": "",
+     "file_size": 3173,
+     "meta": "3.1 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ff2b8d47-4acc-51fb-bd40-8c832a8ca0d6",
+     "label": "MR001G_Campaign_3_Tilt_C3C_7352_BR60",
+     "type": "file",
+     "ext": "",
+     "file_size": 771,
+     "meta": "771 B",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "15a8b965-4c05-5db6-8a85-996ac78bee22",
+     "label": "MR001G_Campaign_3_Tilt_C3D_7984_BR-5",
+     "type": "file",
+     "ext": "",
+     "file_size": 3115,
+     "meta": "3.0 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "cee410e0-227c-5dff-a62e-f9921e66ec41",
+     "label": "MR001G_Campaign_3_Tilt_C3C_7772_BR+0",
+     "type": "file",
+     "ext": "",
+     "file_size": 1695,
+     "meta": "1.7 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8b61a716-492b-5765-8cf4-6ee7ba97c24a",
+     "label": "MR001G_Campaign_3_Tilt_C3D_7961_BR+3",
+     "type": "file",
+     "ext": "",
+     "file_size": 3203,
+     "meta": "3.1 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e54767ca-d0cd-5e0c-8011-c9cdfc1ba77b",
+     "label": "MR001G_Campaign_3_Tilt_C3G_9139_BR+0",
+     "type": "file",
+     "ext": "",
+     "file_size": 1173,
+     "meta": "1.1 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "bbb75701-aaa6-5c66-960a-43a9021dde08",
+     "label": "MR001G_Campaign_3_Tilt_C3D_8615_BR+3",
+     "type": "file",
+     "ext": "",
+     "file_size": 3214,
+     "meta": "3.1 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "16a8d5b9-d8b7-5a68-8516-7f4e0f0fd38d",
+     "label": "MR001G_Campaign_3_Tilt_C3B_4023_BR-7",
+     "type": "file",
+     "ext": "",
+     "file_size": 1583,
+     "meta": "1.5 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f728af90-cf8e-5359-8ee3-aafffb7b739a",
+     "label": "MR001G_Campaign_3_Tilt_C3H_5907_BR-5",
+     "type": "file",
+     "ext": "",
+     "file_size": 1445,
+     "meta": "1.4 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "81e3a9d8-49a0-53d8-bd4e-3ba4d652a8ca",
+     "label": "MR001G_Campaign_3_Tilt_C3G_9032_BR+3",
+     "type": "file",
+     "ext": "",
+     "file_size": 3281,
+     "meta": "3.2 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2dfcbb13-5da2-572b-a44f-a21e919eaa73",
+     "label": "MR001G_Campaign_3_Tilt_C3D_8615_BR-5",
+     "type": "file",
+     "ext": "",
+     "file_size": 1214,
+     "meta": "1.2 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d8e0bcf1-bf28-5f70-b6a5-13d6297895a3",
+     "label": "MR001G_Campaign_3_Tilt_C3G_6858_BR-5",
+     "type": "file",
+     "ext": "",
+     "file_size": 1119,
+     "meta": "1.1 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "eef36ca8-913b-59b8-b324-be5dce5ce62f",
+     "label": "MR001G_Campaign_3_Tilt_C3D_8779_BR+3",
+     "type": "file",
+     "ext": "",
+     "file_size": 2584,
+     "meta": "2.5 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1cde3fb0-dc16-5467-aa61-ae7488fbf2d1",
+     "label": "MR001G_Campaign_3_Tilt_C3G_9485_BR+3",
+     "type": "file",
+     "ext": "",
+     "file_size": 2516,
+     "meta": "2.5 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "46872f66-50a9-5296-8fb1-e861109ad885",
+     "label": "MR001G_Campaign_3_Tilt_C3E_6607_BR+0",
+     "type": "file",
+     "ext": "",
+     "file_size": 1314,
+     "meta": "1.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "345a0541-f233-5623-a580-b1ac043be1bf",
+     "label": "MR001G_Campaign_3_Tilt_C3C_7352_BR+0",
+     "type": "file",
+     "ext": "",
+     "file_size": 745,
+     "meta": "745 B",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0918a36c-71f0-5bd3-b8db-fa1115c2c8ef",
+     "label": "MR001G_Campaign_3_Tilt_C3D_3985_BR+0",
+     "type": "file",
+     "ext": "",
+     "file_size": 3163,
+     "meta": "3.1 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1afd04a2-6efb-5758-b1fa-340d6ec67659",
+     "label": "MR001G_Campaign_3_Tilt_C3D_7961_BR-5",
+     "type": "file",
+     "ext": "",
+     "file_size": 2050,
+     "meta": "2.0 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "573b57c8-cbc5-5610-a02a-554880e55190",
+     "label": "MR001G_Campaign_3_Tilt_C3E_6043_BR+0",
+     "type": "file",
+     "ext": "",
+     "file_size": 1898,
+     "meta": "1.9 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3787ab25-1185-5bb4-8e5f-ffc2cb19719c",
+     "label": "MR001G_Campaign_3_Tilt_C3D_8779_BR-5",
+     "type": "file",
+     "ext": "",
+     "file_size": 1883,
+     "meta": "1.8 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "537edef5-c721-506e-a101-b1283d38721a",
+     "label": "MR001G_Campaign_3_Tilt_C3B_7127_BR50",
+     "type": "file",
+     "ext": "",
+     "file_size": 1044,
+     "meta": "1.0 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e183f8c8-1470-5244-9f25-837465f6d0d9",
+     "label": "MR001G_Campaign_3_Tilt_C3H_5907_BR+0",
+     "type": "file",
+     "ext": "",
+     "file_size": 1141,
+     "meta": "1.1 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "bf2daa79-c0f2-54bd-aee7-aa77b7ff7c15",
+     "label": "MR001G_Campaign_3_Tilt_C3G_9032_BR+0",
+     "type": "file",
+     "ext": "",
+     "file_size": 381,
+     "meta": "381 B",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3ead48cd-20ea-50b1-9f0f-4d9c0963b927",
+     "label": "MR001G_Campaign_3_Tilt_C3A_224_BR+3",
+     "type": "file",
+     "ext": "",
+     "file_size": 2270,
+     "meta": "2.2 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2f2c48c3-2ad6-5c9a-a29b-60464d1bc056",
+     "label": "MR001G_Campaign_3_Tilt_C3G_9139_BR-5",
+     "type": "file",
+     "ext": "",
+     "file_size": 3215,
+     "meta": "3.1 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2617773e-7684-5123-b4a8-1e494d89ce7b",
+     "label": "MR001G_Campaign_3_Tilt_C3G_9314_BR+0",
+     "type": "file",
+     "ext": "",
+     "file_size": 579,
+     "meta": "579 B",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "31631b05-d29b-582f-8558-c21e130e1889",
+     "label": "MR001G_Campaign_3_Tilt_C3D_7984_BR60",
+     "type": "file",
+     "ext": "",
+     "file_size": 561,
+     "meta": "561 B",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "53878787-a9aa-50fd-bb2c-06492f69a889",
+     "label": "MR001G_Campaign_3_Tilt_C3A_5788_BR60",
+     "type": "file",
+     "ext": "",
+     "file_size": 1154,
+     "meta": "1.1 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "78ef921a-4596-5972-b8f7-2c891e98a52f",
+     "label": "MR001G_Campaign_3_Tilt_C3D_8881_BR+3",
+     "type": "file",
+     "ext": "",
+     "file_size": 3138,
+     "meta": "3.1 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "14b76b4d-7c01-579c-91ca-888f39abd51e",
+     "label": "MR001G_Campaign_3_Tilt_C3D_8615_BR+0",
+     "type": "file",
+     "ext": "",
+     "file_size": 669,
+     "meta": "669 B",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "31b7ec1c-7322-50f7-be3d-373a07384892",
+     "label": "MR001G_Campaign_3_Tilt_C3G_9139_BR+3",
+     "type": "file",
+     "ext": "",
+     "file_size": 3301,
+     "meta": "3.2 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1e8bbb49-b7f2-5bbd-8c7d-849f32769bdd",
+     "label": "MR001G_Campaign_3_Tilt_C3A_992_BR61",
+     "type": "file",
+     "ext": "",
+     "file_size": 1749,
+     "meta": "1.7 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7dc2b647-d1f8-58c1-ada6-33fbaae9a98b",
+     "label": "MR001G_Campaign_3_Tilt_C3E_6607_BR-5",
+     "type": "file",
+     "ext": "",
+     "file_size": 2480,
+     "meta": "2.4 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "98361e5c-8949-516c-87ac-48cbb7303407",
+     "label": "MR001G_Campaign_3_Tilt_C3A_224_BR90",
+     "type": "file",
+     "ext": "",
+     "file_size": 1622,
+     "meta": "1.6 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "326a3e58-d97f-5c9d-aa1e-e8bc485c28c9",
+     "label": "MR001G_Campaign_3_Tilt_C3D_3985_BR+3",
+     "type": "file",
+     "ext": "",
+     "file_size": 3157,
+     "meta": "3.1 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "31b98d36-2e11-5dce-b7a9-5eac4194c1d6",
+     "label": "MR001G_Campaign_3_Tilt_C3E_6043_BR+3",
+     "type": "file",
+     "ext": "",
+     "file_size": 3172,
+     "meta": "3.1 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b965ff3d-2f59-55a7-b8f5-695625ce9003",
+     "label": "MR001G_Campaign_3_Tilt_C3C_7772_BR-5",
+     "type": "file",
+     "ext": "",
+     "file_size": 839,
+     "meta": "839 B",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c9426614-26ba-5458-ab0b-a3cf5006f61f",
+     "label": "MR001G_Campaign_3_Tilt_C3D_3985_BR-5",
+     "type": "file",
+     "ext": "",
+     "file_size": 2935,
+     "meta": "2.9 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a1680476-0b78-5895-9ef6-e08ea51e58f5",
+     "label": "MR001G_Campaign_3_Tilt_C3A_5788_BR90",
+     "type": "file",
+     "ext": "",
+     "file_size": 1628,
+     "meta": "1.6 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b8c5ab2f-4e7a-53f4-aa53-c92ace49bcc2",
+     "label": "MR001G_Campaign_3_Tilt_C3C_7352_BR-8",
+     "type": "file",
+     "ext": "",
+     "file_size": 894,
+     "meta": "894 B",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "76d6d5f6-d6c1-5cba-8c70-04457ec48360",
+     "label": "MR001G_Campaign_3_Tilt_C3D_3985_BR60",
+     "type": "file",
+     "ext": "",
+     "file_size": 2521,
+     "meta": "2.5 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "d3adac7d-5578-5819-a1e7-5122d63534ca",
+   "label": "MR001G_Campaign_3_Blood_Data_Epinephrine",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "UTMB Bedrest Campaign 3 Blood Data Epinephrine",
+    "dataset_catalog": "MR001G_Campaign_3_Blood_Data_Epinephrine",
+    "dataset_description": "This dataset contains a collection of the Bed Rest Standard Measures Neuroendocrine and Cardiovascular Response to Tilt (Flight Analog) (MR001G) Epinephrine blood data collected during the Campaign 3 Bed Rest study.",
+    "processing_level": [
+     "Processed Data"
+    ],
+    "experiment_id": [
+     "MR001G"
+    ]
+   },
+   "meta": "6 files \u00b7 13.1 KB",
+   "date": "2025-09-19",
+   "children": [
+    {
+     "key": "573e0138-6d09-5aa0-84d3-fb4dc24d2f76",
+     "label": "MR001G_Campaign_3_Blood_Data_Epinephrine_Male_Avg",
+     "type": "file",
+     "ext": "",
+     "file_size": 331,
+     "meta": "331 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0e8c50bb-41ee-5d46-a8ed-5a7e90043e02",
+     "label": "MR001G_Campaign_3_Blood_Data_Epinephrine_Female_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 2294,
+     "meta": "2.2 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a038df4d-c6d6-5482-a6b3-3a726eb6fa78",
+     "label": "MR001G_Campaign_3_Blood_Data_Epinephrine_Female_Avg",
+     "type": "file",
+     "ext": "",
+     "file_size": 327,
+     "meta": "327 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e18548a6-8347-5d1a-ad3a-d06cb88c0c58",
+     "label": "MR001G_Campaign_3_Blood_Data_Epinephrine_All_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 6195,
+     "meta": "6.0 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9fcfd912-3b7d-5b14-9610-21d80aed889a",
+     "label": "MR001G_Campaign_3_Blood_Data_Epinephrine_All_Avg",
+     "type": "file",
+     "ext": "",
+     "file_size": 340,
+     "meta": "340 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "51471512-416d-5b31-8364-bb5590e6437c",
+     "label": "MR001G_Campaign_3_Blood_Data_Epinephrine_Male_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 3973,
+     "meta": "3.9 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "b0fe6989-f445-5d48-85ea-240b12fcd13c",
+   "label": "MR001G_Campaign_3_Blood_Data_Angiotensin",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "UTMB Bedrest Campaign 3 Blood Data Angiotensin",
+    "dataset_catalog": "MR001G_Campaign_3_Blood_Data_Angiotensin",
+    "dataset_description": "This dataset contains a collection of the Bed Rest Standard Measures Neuroendocrine and Cardiovascular Response to Tilt (Flight Analog) (MR001G) Angiotensin blood data collected during the Campaign 3 Bed Rest study.",
+    "processing_level": [
+     "Processed Data"
+    ],
+    "experiment_id": [
+     "MR001G"
+    ]
+   },
+   "meta": "6 files \u00b7 13.6 KB",
+   "date": "2025-09-19",
+   "children": [
+    {
+     "key": "ce3d5703-32ec-5889-a767-72764c52500d",
+     "label": "MR001G_Campaign_3_Blood_Data_Angiotensin_Male_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 4132,
+     "meta": "4.0 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "797464de-d5d4-5885-9f6a-069126d48d01",
+     "label": "MR001G_Campaign_3_Blood_Data_Angiotensin_Female_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 2390,
+     "meta": "2.3 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c7eee918-92a8-5df0-8b69-c4aa36035bb0",
+     "label": "MR001G_Campaign_3_Blood_Data_Angiotensin_All_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 6447,
+     "meta": "6.3 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "50b69382-ece1-5e55-a99b-b9896f82fa22",
+     "label": "MR001G_Campaign_3_Blood_Data_Angiotensin_All_Avg",
+     "type": "file",
+     "ext": "",
+     "file_size": 330,
+     "meta": "330 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5d283b57-1d88-588a-8efe-86421c54a91d",
+     "label": "MR001G_Campaign_3_Blood_Data_Angiotensin_Male_Avg",
+     "type": "file",
+     "ext": "",
+     "file_size": 323,
+     "meta": "323 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "554739ae-e96f-5b5f-976a-800ef6ce7b83",
+     "label": "MR001G_Campaign_3_Blood_Data_Angiotensin_Female_Avg",
+     "type": "file",
+     "ext": "",
+     "file_size": 323,
+     "meta": "323 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

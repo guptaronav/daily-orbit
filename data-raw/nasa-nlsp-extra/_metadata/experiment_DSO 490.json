@@ -1,0 +1,562 @@
+{
+ "record": {
+  "id": "92bbc8e7-4fc9-5df5-8a8f-65fc4a69ba84",
+  "_id": "92bbc8e7-4fc9-5df5-8a8f-65fc4a69ba84",
+  "experiment_title": "Bioavailability and Performance Effects of Promethazine (PMZ) During Space Flight",
+  "archive_status_index": 2,
+  "experiment_alias": [
+   "96-E389",
+   "9601389",
+   "SDBI_1490",
+   "PMZ",
+   "D490",
+   "Promethazine",
+   "DSO 490B"
+  ],
+  "parameter_html": "<table><tr><td>Blood pressure</td></tr><tr><td>Promethazine availability, intramuscular</td></tr><tr><td>Promethazine availability, oral</td></tr><tr><td>Promethazine availability, suppository</td></tr><tr><td>Pulse rate</td></tr><tr><td>Respiration rate</td></tr><tr><td>Saliva, pH</td></tr><tr><td>Sleep-wake time</td></tr><tr><td>Salivary flow rate</td></tr><tr><td>Promethazine concentration, saliva</td></tr><tr><td>Medication, sleep</td></tr><tr><td>Space motion sickness (SMS)</td></tr><tr><td>Stanford Sleepiness Scale score</td></tr><tr></tr></table>",
+  "__source_key": "cl62az1mdcdas01o6hqjggzns",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Putcha, Lakshmi\">Principal Investigator: Putcha, Lakshmi</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Harm, Deborah\">Principal Investigator: Harm, Deborah</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Berens, Kurt\">Co-Investigator: Berens, Kurt</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Kennedy, Robert\">Co-Investigator: Kennedy, Robert</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Sekula, B.\">Co-Investigator: Sekula, B.</a>",
+  "image_name": [
+   "Saliva Collection Kit and Log"
+  ],
+  "experiment_type_lk": [
+   "International Space Station (ISS)",
+   "Non-exercise Physiological Countermeasure (NxPCM) Project",
+   "Short Duration Bioastronautics Investigation (SDBI)",
+   "Shuttle Detailed Supplementary Objectives (DSO)",
+   "Shuttle Ongoing Research"
+  ],
+  "__record_modified_date": "2026-08-23T04:08:52.379923+00:00",
+  "proposal_source": [
+   "NRA-96-OLMSA-01A"
+  ],
+  "__indexed": "2026-08-23T04:08:52.379923+00:00",
+  "alias": [
+   "96-E389",
+   "9601389",
+   "SDBI_1490",
+   "PMZ",
+   "D490",
+   "Promethazine",
+   "DSO 490B"
+  ],
+  "__record_creation_date": "2022-07-28T20:04:44.698Z",
+  "keyword": [
+   "Sleep",
+   "Promethazine",
+   "Space motion sickness (SMS)"
+  ],
+  "keyword_name": "Space motion sickness (SMS)",
+  "__record_size": 132986,
+  "__record_version": 29,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<br>\r\nPromethazine (PMZ) is the anti-motion sickness medication of choice for treating space motion sickness (SMS) during Space Shuttle missions.  The side effects associated with PMZ when used on Earth include dizziness, drowsiness, sedation, and impaired psychomotor performance, all of which could impact spaceflight crew performance or mission operations.  Early anecdotal reports from crewmembers indicate that these central nervous system side effects of PMZ are absent or greatly attenuated in microgravity.  However, recent reviews of medical debriefs indicate that, at least in some crewmembers, the central nervous system depressant effects are moderate to large.  The pharmacokinetics and bioavailability of medications administered in microgravity may be different than on Earth.  This could significantly alter drug efficacy, as well as the severity of side effects for a given dosage.  Therefore, a systematic evaluation of PMZ bioavailability including the effects on performance, side effects, and efficacy in the treatment of SMS is essential for determining optimal dosage and route of administration of PMZ in flight.  Researchers believed this study would lead to a better understanding of how PMZ is handled by the body in space and that it would help to identify necessary changes for optimizing space motion sickness therapeutics in space.\r\n<p>\r\nThe specific objectives of this experiment were:\r\n<P>\r\n<U><I>Ground-based Testing</I></U><BR>\r\n<LI> Evaluate the effects of promethazine (PMZ) on Shuttle landing performance using the portable in-flight landing operations trainer (PILOT), and<BR>\r\n<LI> Collect saliva and urine samples to determine the pharmacokinetics of PMZ\r\n<P>\r\n<U><I>Space-flight Testing</I></U><BR>\r\n<LI> Establish a dose-response relationship of PMZ before and during flight,<BR>\r\n<LI> Estimate bioavailability of PMZ from the intramuscular, oral, and suppository routes of administration before and during flight, and<BR>\r\n<LI> Compare and contrast the effect of flight-related variables (e.g. SMS, mission duration, sleep medications, and crew activity schedules) and PMZ administration on sleep quality and efficiency.<BR>\r\n<p>\r\nAPPROACH:<br>\r\n<U><I>Ground-based Testing</I></U><BR>\r\nNine subjects participated in the study (6 commercial pilots and 3 Shuttle landing simulator trainers).  The study was a double-blind crossover design where each subject received PMZ 50 mg IM in one session and Placebo IM in the other session; the drug/placebo order was counterbalanced across subjects.  Subjects completed 4 training sessions (6-7 landings in each session) to achieve stable performance before drug/placebo sessions began.  Six landings were performed, and saliva samples were collected, before  and at 1, 2, 4, 8, 24, 32 and 48 hours after drug/placebo administration (all urine was collected from the first morning void to the 48-hour period; one additional saliva sample was collected at 36 hours).  For all sessions, the PILOT was configured for completely nominal conditions (i.e., no crosswinds, and daytime landing at KSC), and subjects performed the landing task in a quiet room to minimize distractions.\r\n<P>\r\n<U><I>Space-flight Testing</I></U><BR>\r\nCrewmembers that experience SMS were treated with PMZ. This delineated participants as test subjects versus control subjects.  Before the first PMZ dose, participants collected a saliva sample; thereafter, saliva samples were collected at 1, 2, 4, 8, 24, 36, and 48 hours post-PMZ consumption.  During the same time, participants ranked themselves using the Stanford Sleepiness Score (SSS), a standardized sleepiness index.  The SSS consists of seven numbered statements describing subjective levels of sleepiness/alertness with 1 equal to wide awake and 7 equal to no longer fighting sleep/sleep onset soon.  This entire protocol was repeated each time PMZ was taken.  If a crewmember elected to take PMZ before sleep, saliva samples were collected pre-dose, just before sleep, immediately upon wake-up, one hour after wake-up, and at 24, 36, and 48 hours post-dose.\r\n<p>\r\nBoth test subjects and/or control subjects wore a small light-weight activity and light recording device (Actiwatch).  As soon as possible upon entry into orbit on flight day 1 (FD1), the crewmember donned the watch and wore it continuously throughout the flight.  In addition to wearing the watch, crewmembers also recorded sleep time in a short paper sleep log every morning within 15 minutes of awakening.  On the last day of the mission, the crewmember doffed and stowed the Actiwatch.\r\n<p>\r\nApproximately 30 days after landing (R+30), crewmembers who took PMZ in flight also participated in one additional data collection session.  During a 48-hour data collection period, participants wore the Actiwatch activity monitor, took the same dosage and form of PMZ that was used in flight, completed the SSS, collected eight saliva samples following the same schedule as in flight, and recorded sleep times once a day.\r\n<p>\r\nRESULTS:<br>\r\n<U><I>Ground-based Testing</I></U><BR>\r\nThere were a number of parameters that could be analyzed to measure performance on the PILOT at specific times during the approach and landing.  In addition, the system provided a composite  score (the JNM score) at the end of each landing.  The investigators found no significant effect of PMZ on the JNM composite score and no significant correlation between the JNM score and the Stanford Sleepiness Scale.  However, there were a number of points during the approach and landing where pitch and roll errors were significantly larger following PMZ compared to Placebo-saline (at 2-4  after drug administration).  Unfortunately, due to hardware problems, approximately 50% of the individual parameter data were lost and unavailable for repeated measures analyses.  Nonetheless, despite the loss of a large portion of this data differences between PMZ and Placebo in X and Y runway position approached significance.\r\n<P>\r\nOverall, the data supported the conclusion that PMZ affects landing performance.  Moreover, it is important to note that the participants were all highly skilled at approach and landing tasks and that the conditions were all nominal.  Under these conditions, it was expected that much higher doses of medications or alcohol are required to significantly disrupt performance.   This leads investigators to suggest that PMZ (50mg IM) would be expected to produce greater disruption of task performance if the individual is not over-trained in the task, or if task performance occurs under off-nominal conditions.\r\n<P>\r\n<U><I>Space-flight Testing</I></U><BR>\r\nThis experiment has concluded. Results will be available once the investigator publishes her findings.\r\n<end>",
+  "payload_id": "DSO108",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "DSO 490",
+  "indexed": "2026-08-23T04:08:52.379923+00:00",
+  "GUID": "cl62az1mdcdas01o6hqjggzns",
+  "parameter_name": [
+   "Blood pressure",
+   "Promethazine availability, intramuscular",
+   "Promethazine availability, oral",
+   "Promethazine availability, suppository",
+   "Pulse rate",
+   "Respiration rate",
+   "Saliva, pH",
+   "Sleep-wake time",
+   "Salivary flow rate",
+   "Promethazine concentration, saliva",
+   "Medication, sleep",
+   "Space motion sickness (SMS)",
+   "Stanford Sleepiness Scale score"
+  ],
+  "exp_index": 972,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Clinical medicine",
+   "Pharmacology"
+  ],
+  "pme_role_with_name": [
+   "Co-Investigator: Berens, Kurt",
+   "Co-Investigator: Kennedy, Robert",
+   "Co-Investigator: Sekula, B.",
+   "Principal Investigator: Harm, Deborah",
+   "Principal Investigator: Putcha, Lakshmi"
+  ],
+  "missions": [
+   [
+    [
+     "STS-108"
+    ]
+   ],
+   [
+    [
+     "STS-120"
+    ]
+   ],
+   [
+    [
+     "STS-122"
+    ]
+   ],
+   [
+    [
+     "Expedition 13"
+    ]
+   ],
+   [
+    [
+     "Expedition 15"
+    ]
+   ],
+   [
+    [
+     "Expedition 16"
+    ]
+   ],
+   [
+    [
+     "Ground"
+    ]
+   ],
+   [
+    [
+     "STS-113"
+    ]
+   ],
+   [
+    [
+     "STS-109"
+    ]
+   ],
+   [
+    [
+     "STS-112"
+    ]
+   ],
+   [
+    [
+     "STS-114"
+    ]
+   ],
+   [
+    [
+     "STS-121"
+    ]
+   ],
+   [
+    [
+     "STS-118"
+    ]
+   ]
+  ],
+  "__dirid": "92bbc8e7-4fc9-5df5-8a8f-65fc4a69ba84",
+  "__record_size_wo_doccontent": 132986,
+  "PI": [
+   "Harm, Deborah",
+   "Putcha, Lakshmi"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "DSO 490",
+   "96-E389",
+   "9601389",
+   "SDBI_1490",
+   "PMZ",
+   "D490",
+   "Promethazine",
+   "DSO 490B"
+  ],
+  "mission_id": [
+   [
+    [
+     "STS-108"
+    ]
+   ],
+   [
+    [
+     "STS-120"
+    ]
+   ],
+   [
+    [
+     "STS-122"
+    ]
+   ],
+   [
+    [
+     "Expedition 13"
+    ]
+   ],
+   [
+    [
+     "Expedition 15"
+    ]
+   ],
+   [
+    [
+     "Expedition 16"
+    ]
+   ],
+   [
+    [
+     "Ground"
+    ]
+   ],
+   [
+    [
+     "STS-113"
+    ]
+   ],
+   [
+    [
+     "STS-109"
+    ]
+   ],
+   [
+    [
+     "STS-112"
+    ]
+   ],
+   [
+    [
+     "STS-114"
+    ]
+   ],
+   [
+    [
+     "STS-121"
+    ]
+   ],
+   [
+    [
+     "STS-118"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Harm, Deborah",
+   "Putcha, Lakshmi"
+  ],
+  "proposal_date": [
+   "03/27/1997"
+  ],
+  "archive_status": "Data preservation is complete. Privacy-protected datasets are available via data request. Remaining datasets are publicly available.",
+  "__is_locked": false,
+  "Program": "International Space Station (ISS)",
+  "__source_field_concat": "DSO108 cl62az1mdcdas01o6hqjggzns Space motion sickness (SMS) Bioavailability and Performance Effects of Promethazine (PMZ) During Space Flight DSO 490 International Space Station (ISS)",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<br>\r\nPromethazine (PMZ) is the anti-motion sickness medication of choice for treating space motion sickness (SMS) during Space Shuttle missions.  The side effects associated with PMZ when used on Earth include dizziness, drowsiness, sedation, and impaired psychomotor performance, all of which could impact spaceflight crew performance or mission operations.  Early anecdotal reports from crewmembers indicate that these central nervous system side effects of PMZ are absent or greatly attenuated in microgravity.  However, recent reviews of medical debriefs indicate that, at least in some crewmembers, the central nervous system depressant effects are moderate to large.  The pharmacokinetics and bioavailability of medications administered in microgravity may be different than on Earth.  This could significantly alter drug efficacy, as well as the severity of side effects for a given dosage.  Therefore, a systematic evaluation of PMZ bioavailability including the effects on performance, side effects, and efficacy in the treatment of SMS is essential for determining optimal dosage and route of administration of PMZ in flight.  Researchers believed this study would lead to a better understanding of how PMZ is handled by the body in space and that it would help to identify necessary changes for optimizing space motion sickness therapeutics in space.\r\n<p>\r\nThe specific objectives of this experiment were:\r\n<P>\r\n<U><I>Ground-based Testing</I></U><BR>\r\n<LI> Evaluate the effects of promethazine (PMZ) on Shuttle landing performance using the portable in-flight landing operations trainer (PILOT), and<BR>\r\n<LI> Collect saliva and urine samples to determine the pharmacokinetics of PMZ\r\n<P>\r\n<U><I>Space-flight Testing</I></U><BR>\r\n<LI> Establish a dose-response relationship of PMZ before and during flight,<BR>\r\n<LI> Estimate bioavailability of PMZ from the intramuscular, oral, and suppository routes of administration before and during flight, and<BR>\r\n<LI> Compare and contrast the effect of flight-related variables (e.g. SMS, mission duration, sleep medications, and crew activity schedules) and PMZ administration on sleep quality and efficiency.<BR>\r\n<p>\r\nAPPROACH:<br>\r\n<U><I>Ground-based Testing</I></U><BR>\r\nNine subjects participated in the study (6 commercial pilots and 3 Shuttle landing simulator trainers).  The study was a double-blind crossover design where each subject received PMZ 50 mg IM in one session and Placebo IM in the other session; the drug/placebo order was counterbalanced across subjects.  Subjects completed 4 training sessions (6-7 landings in each session) to achieve stable performance before drug/placebo sessions began.  Six landings were performed, and saliva samples were collected, before  and at 1, 2, 4, 8, 24, 32 and 48 hours after drug/placebo administration (all urine was collected from the first morning void to the 48-hour period; one additional saliva sample was collected at 36 hours).  For all sessions, the PILOT was configured for completely nominal conditions (i.e., no crosswinds, and daytime landing at KSC), and subjects performed the landing task in a quiet room to minimize distractions.\r\n<P>\r\n<U><I>Space-flight Testing</I></U><BR>\r\nCrewmembers that experience SMS were treated with PMZ. This delineated participants as test subjects versus control subjects.  Before the first PMZ dose, participants collected a saliva sample; thereafter, saliva samples were collected at 1, 2, 4, 8, 24, 36, and 48 hours post-PMZ consumption.  During the same time, participants ranked themselves using the Stanford Sleepiness Score (SSS), a standardized sleepiness index.  The SSS consists of seven numbered statements describing subjective levels of sleepiness/alertness with 1 equal to wide awake and 7 equal to no longer fighting sleep/sleep onset soon.  This entire protocol was repeated each time PMZ was taken.  If a crewmember elected to take PMZ before sleep, saliva samples were collected pre-dose, just before sleep, immediately upon wake-up, one hour after wake-up, and at 24, 36, and 48 hours post-dose.\r\n<p>\r\nBoth test subjects and/or control subjects wore a small light-weight activity and light recording device (Actiwatch).  As soon as possible upon entry into orbit on flight day 1 (FD1), the crewmember donned the watch and wore it continuously throughout the flight.  In addition to wearing the watch, crewmembers also recorded sleep time in a short paper sleep log every morning within 15 minutes of awakening.  On the last day of the mission, the crewmember doffed and stowed the Actiwatch.\r\n<p>\r\nApproximately 30 days after landing (R+30), crewmembers who took PMZ in flight also participated in one additional data collection session.  During a 48-hour data collection period, participants wore the Actiwatch activity monitor, took the same dosage and form of PMZ that was used in flight, completed the SSS, collected eight saliva samples following the same schedule as in flight, and recorded sleep times once a day.\r\n<p>\r\nRESULTS:<br>\r\n<U><I>Ground-based Testing</I></U><BR>\r\nThere were a number of parameters that could be analyzed to measure performance on the PILOT at specific times during the approach and landing.  In addition, the system provided a composite  score (the JNM score) at the end of each landing.  The investigators found no significant effect of PMZ on the JNM composite score and no significant correlation between the JNM score and the Stanford Sleepiness Scale.  However, there were a number of points during the approach and landing where pitch and roll errors were significantly larger following PMZ compared to Placebo-saline (at 2-4  after drug administration).  Unfortunately, due to hardware problems, approximately 50% of the individual parameter data were lost and unavailable for repeated measures analyses.  Nonetheless, despite the loss of a large portion of this data differences between PMZ and Placebo in X and Y runway position approached significance.\r\n<P>\r\nOverall, the data supported the conclusion that PMZ affects landing performance.  Moreover, it is important to note that the participants were all highly skilled at approach and landing tasks and that the conditions were all nominal.  Under these conditions, it was expected that much higher doses of medications or alcohol are required to significantly disrupt performance.   This leads investigators to suggest that PMZ (50mg IM) would be expected to produce greater disruption of task performance if the individual is not over-trained in the task, or if task performance occurs under off-nominal conditions.\r\n<P>\r\n<U><I>Space-flight Testing</I></U><BR>\r\nThis experiment has concluded. Results will be available once the investigator publishes her findings.\r\n<end>",
+  "__doi": "10.83263/mvy3-ce60",
+  "__doi_record_creation_date": "2026-08-23T04:08:52",
+  "__doi_record_modified_date": "2026-08-23T04:08:52"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000108",
+   "label": "DSO 490__2660402834",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "PILOT Testing - Statistical Analysis Results for Touchdown Data",
+    "dataset_catalog": "DSO 490__2660402834",
+    "dataset_description": [
+     "The information in this PDF file was contained in a box of ground-based PILOT results submitted by the principal investigator (PI).   The file contains a statistical analysis (MANOVA) of touchdown data plus data graphs."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 490"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "2fc0109f-c6f3-5e0b-b7fc-4be7d3d68ece",
+     "label": "DSO_490__2660402834.pdf_Ground_DSO_490_2012_266_040925.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001305",
+   "label": "DSO 490__2660359479",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "PILOT Testing - Statistical Analysis Results for Tracking Task",
+    "dataset_catalog": "DSO 490__2660359479",
+    "dataset_description": [
+     "The information in this PDF file was contained in a box of ground-based PILOT results submitted by the principal investigator (PI).   The file contains a statistical analysis (MANOVA) of tracking task data plus data graphs."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 490"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "5020d6fd-3ec2-504a-b6da-5113f16b8b60",
+     "label": "DSO_490__2660359479.pdf_Ground_DSO_490_2012_266_040948.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000675",
+   "label": "DSO 490__2650320691",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Documents Associated with DSO 490",
+    "dataset_catalog": "DSO 490__2650320691",
+    "dataset_description": [
+     "This PDF is a conglomeration of documents, presenations, handouts, and forms associated with DSO 490, \"Evaluation of the Effect of Promethazine on Performance of Crewmembers Using the Portable In-flight Landing Operations Trainer (PILOT)\" ground-based protocol."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 490"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "3c470c8b-8319-5e60-9a15-acefd3e8e617",
+     "label": "DSO_490__2650320691.pdf_Ground_DSO_490_2012_265_030958.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002269",
+   "label": "DSO 490__2660344518",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "PILOT Testing - Statistical Analysis Results for Switching",
+    "dataset_catalog": "DSO 490__2660344518",
+    "dataset_description": [
+     "The information in this PDF file was contained in a box of ground-based PILOT results submitted by the principal investigator (PI).   The file contains a statistical analysis (MANOVA) of graphics pad switching (choice reaction) data plus a few data graphs."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 490"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "cf567066-51cf-53ef-963b-7f779f81115a",
+     "label": "DSO_490__2660344518.pdf_Ground_DSO_490_2012_266_030930.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001050",
+   "label": "DSO 490__2660348409",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "PILOT Testing - Statistical Analysis Results for Motion Sickness Data",
+    "dataset_catalog": "DSO 490__2660348409",
+    "dataset_description": [
+     "The information in this PDF file was contained in a box of ground-based PILOT results submitted by the principal investigator (PI).   The file contains a statistical analysis (MANOVA) of motion sickness data."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 490"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "132551ce-75f1-5497-83a4-76737fc8a08d",
+     "label": "DSO_490__2660348409.pdf_Ground_DSO_490_2012_266_030901.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000993",
+   "label": "DSO 490__2660331178",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "PILOT Testing - Statistical Analysis Results for Coordination",
+    "dataset_catalog": "DSO 490__2660331178",
+    "dataset_description": [
+     "The information in this PDF file was contained in a box of ground-based PILOT results submitted by the principal investigator (PI).   The file contains a statistical analysis (MANOVA) of coordination data plus data graphs.  The coordination data results were separated by the PI as Coordination 1, 2, 3, and 4. The information contained in this PDF file is grouped in a similar way."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 490"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "9b5b97df-591e-516f-baad-a6ab2631ac2c",
+     "label": "DSO_490__2660331178.pdf_Ground_DSO_490_2012_266_030905.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000368",
+   "label": "DSO 490__2660351415",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "PILOT Testing - Statistical Analysis Results for Handwriting",
+    "dataset_catalog": "DSO 490__2660351415",
+    "dataset_description": [
+     "The information in this PDF file was contained in a box of ground-based PILOT results submitted by the principal investigator (PI).   The file contains a statistical analysis (MANOVA) of handwriting data.  The handwriting data results were separated by the PI as Handwriting 1 and 2.  The information contained in this PDF file is grouped in a similar way."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 490"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "5c6793b9-122e-5db7-b59e-e6460e353ffc",
+     "label": "DSO_490__2660351415.pdf_Ground_DSO_490_2012_266_030904.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001961",
+   "label": "DSO 490__2610232935",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Blank Test Forms for DSO 490",
+    "dataset_catalog": "DSO 490__2610232935",
+    "dataset_description": [
+     "This is a PDF file containing the blank forms used to collect data during this experiment."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 490"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "ca00b7c8-d787-5b3c-b68a-45a50a0045f6",
+     "label": "DSO_490__2610232935.pdf_Ground_DSO_490_2012_265_030927.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001033",
+   "label": "DSO 490__2610159791",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "PMZ Concentrations in Saliva after IM Administation in Nine Healthy Subjects",
+    "dataset_catalog": "DSO 490__2610159791",
+    "dataset_description": [
+     "The PDF file contains the promethazine concentrations in saliva over time after a 50 mg IM dose was administered to nine healthy subjects.  The measurements were collected nine times over a 48-hour period for each subject. There is also a page describing the mean +/- SEM for all subjects at each timepoint."
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "DSO 490"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "c65ccaa5-2c77-57a2-bf7d-ee3eee4277c0",
+     "label": "DSO_490__2610159791.pdf_Ground_DSO_490_2012_261_020918.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

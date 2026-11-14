@@ -1,0 +1,337 @@
+{
+ "record": {
+  "id": "4cf491be-1286-5be1-9c4f-949cd5cec9e2",
+  "_id": "4cf491be-1286-5be1-9c4f-949cd5cec9e2",
+  "experiment_title": "Acute Adaptation of Bone to Spaceflight",
+  "pub_document_number": "NASA TM-4501",
+  "experiment_alias": [
+   "PARE03A"
+  ],
+  "parameter_html": "<table><tr><td>Content, RNA, total, Cancellous metaphysis, rat, Northern analysis</td></tr><tr><td>Content, RNA, total, Long bone periosteum, rat, Northern analysis</td></tr><tr><td>Content, Transforming growth factor-b (TGF-b), mRNA, in metaphysis, bone, rat, Northern analysis</td></tr><tr><td>Content, Transforming growth factor-b (TGF-b), mRNA, in periosteum, bone, rat, Northern analysis</td></tr><tr><td>Count, Non-osteogenic cells, peridontal ligament (PDL), rat, Nuclear morphometric assay</td></tr><tr><td>Count, Preosteoblasts, peridontal ligament (PDL), rat, Nuclear morphometric assay</td></tr><tr><td>Count, Progenitor cells (less differentiated), peridontal ligament (PDL), rat, Nuclear morphometric assay</td></tr><tr><td>Morphology, cell differentiation, Long bones, rat, Microscopy</td></tr><tr><td>Temperature, AEM, PARE.03, Ambient temperature recorder (ATR)</td></tr><tr></tr></table>",
+  "__source_key": "cl62aygbjcd5q01o6a6y4dn2t",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Morey- Holton, Emily\">Principal Investigator: Morey- Holton, Emily</a>",
+  "__record_version": 29,
+  "experiment_description": "<B>Objectives:</B><P>Animals on Earth experience the constant loading of gravitational forces on their skeletal system.  These forces are a factor in determining size, shape and strength of bones.  When growing bones are unloaded, maturation is delayed and growth rate is reduced.  There may be an increase in size and mass but not in strength.  The hypothesis of this experiment is that gravity is necessary for normal development of bone structure and furthermore, that unloading causes defective bone growth. The expression of the skeletal growth factor TGF-b after exposure to microgravity was also examined.<P><B>Approach:</B><P>Flight rats were sacrificed 4, 24, and 72 hours postflight. Hematoxylin and eosin stained sections of the ligament were analyzed using a nuclear morphometric assay. Total cellular RNA was isolated from long bone periosteum and cancellous metaphysis, and characterized by Northern analysis.<P><B>Results:</B><P>Northern analysis showed mRNA levels for the skeletal growth factor TGF-b reduced by 57% in the periosteum. However, reloading upon return to 1-g caused an increase to 309% of levels found in the ground controls by 24 hours postflight. TGF-b mRNA levels returned to normal by 72 hours postflight. No changes in mRNA levels were observed in the metaphysis. Nearly identical results were found in the simultaneous hindlimb suspension control. These results indicate both a depression in osteoblast precursor cell differentiation caused by microgravity, and tissue specific responses to dynamic weight bearing.",
+  "indexed": "2026-08-31T22:16:58.934Z",
+  "GUID": "cl62aygbjcd5q01o6a6y4dn2t",
+  "__model_type": "lsda_experiment",
+  "__dirid": "4cf491be-1286-5be1-9c4f-949cd5cec9e2",
+  "__record_size_wo_doccontent": 52731,
+  "experiment_parms_tissue2": "NULL",
+  "experiment_parms_tissue1": "NULL",
+  "__update_method": "Update Data",
+  "archive_status_index": 1,
+  "experiment_type_lk": [
+   "Shuttle Life Sciences Research (Middeck)"
+  ],
+  "__record_modified_date": "2026-08-31T22:16:58.934Z",
+  "proposal_source": "Dear Colleague Letter",
+  "__indexed": "2026-08-31T22:16:58.934Z",
+  "alias": [
+   "PARE03A"
+  ],
+  "session_type": "Flight",
+  "__record_creation_date": "2022-07-28T19:55:50.082Z",
+  "__record_size": 52731,
+  "__model_version": 423,
+  "payload_id": "PARE.03",
+  "CombinedSpecies": [
+   [
+    "Rat (Rattus norvegicus) Sprague-Dawley"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "DC85LS04",
+  "experiment_related": [
+   "No related"
+  ],
+  "parameter_name": [
+   "Content, RNA, total, Cancellous metaphysis, rat, Northern analysis",
+   "Content, RNA, total, Long bone periosteum, rat, Northern analysis",
+   "Content, Transforming growth factor-b (TGF-b), mRNA, in metaphysis, bone, rat, Northern analysis",
+   "Content, Transforming growth factor-b (TGF-b), mRNA, in periosteum, bone, rat, Northern analysis",
+   "Count, Non-osteogenic cells, peridontal ligament (PDL), rat, Nuclear morphometric assay",
+   "Count, Preosteoblasts, peridontal ligament (PDL), rat, Nuclear morphometric assay",
+   "Count, Progenitor cells (less differentiated), peridontal ligament (PDL), rat, Nuclear morphometric assay",
+   "Morphology, cell differentiation, Long bones, rat, Microscopy",
+   "Temperature, AEM, PARE.03, Ambient temperature recorder (ATR)"
+  ],
+  "exp_index": 656,
+  "research_area": [
+   "Skeletal physiology"
+  ],
+  "protocol_approach": "Calcein green",
+  "pme_role_with_name": [
+   "Principal Investigator: Morey- Holton, Emily"
+  ],
+  "missions": [
+   [
+    [
+     "STS-56"
+    ]
+   ]
+  ],
+  "PI": [
+   "Morey- Holton, Emily"
+  ],
+  "_file_extension": [],
+  "experiment_identifier": [
+   "DC85LS04",
+   "PARE03A"
+  ],
+  "keyword": [],
+  "mission_id": [
+   [
+    [
+     "STS-56"
+    ]
+   ]
+  ],
+  "center": [
+   "Ames Research Center"
+  ],
+  "ncindex": [
+   7
+  ],
+  "proposal_date": [
+   "1985"
+  ],
+  "species": [
+   "Rat"
+  ],
+  "PrincipalInvestigator": [
+   "Morey- Holton, Emily"
+  ],
+  "program_name": [
+   "Shuttle Program"
+  ],
+  "archive_status": "Data preservation is complete. All datasets are publicly available.",
+  "__is_locked": false,
+  "Program": "Shuttle Program",
+  "__source_field_concat": "Flight NASA TM-4501 Dear Colleague Letter PARE.03 cl62aygbjcd5q01o6a6y4dn2t NULL NULL Calcein green Acute Adaptation of Bone to Spaceflight DC85LS04 Shuttle Program Data preservation is complete. All datasets are publicly available.",
+  "__icon_type": "rat",
+  "__description": "<B>Objectives:</B><P>Animals on Earth experience the constant loading of gravitational forces on their skeletal system.  These forces are a factor in determining size, shape and strength of bones.  When growing bones are unloaded, maturation is delayed and growth rate is reduced.  There may be an increase in size and mass but not in strength.  The hypothesis of this experiment is that gravity is necessary for normal development of bone structure and furthermore, that unloading causes defective bone growth. The expression of the skeletal growth factor TGF-b after exposure to microgravity was also examined.<P><B>Approach:</B><P>Flight rats were sacrificed 4, 24, and 72 hours postflight. Hematoxylin and eosin stained sections of the ligament were analyzed using a nuclear morphometric assay. Total cellular RNA was isolated from long bone periosteum and cancellous metaphysis, and characterized by Northern analysis.<P><B>Results:</B><P>Northern analysis showed mRNA levels for the skeletal growth factor TGF-b reduced by 57% in the periosteum. However, reloading upon return to 1-g caused an increase to 309% of levels found in the ground controls by 24 hours postflight. TGF-b mRNA levels returned to normal by 72 hours postflight. No changes in mRNA levels were observed in the metaphysis. Nearly identical results were found in the simultaneous hindlimb suspension control. These results indicate both a depression in osteoblast precursor cell differentiation caused by microgravity, and tissue specific responses to dynamic weight bearing.",
+  "__doi": "10.83263/hppg-md30",
+  "__doi_record_creation_date": "2026-08-23T03:46:29",
+  "__doi_record_modified_date": "2026-08-23T03:46:29"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000106",
+   "label": "AINV0000000747",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "PARE.03 Dissection Spreadsheet",
+    "dataset_catalog": "AINV0000000747",
+    "dataset_description": [
+     "Spreadsheet contains the subject body weight at L-2 for the basal control, flight, vivarium control and suspension control subjects.  Dissected tissue weight for adrenals, heart, kidney, testis and liver are listed in grams for each subject and any anomalies are also noted."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "DC85LS03",
+     "DC85LS04"
+    ]
+   },
+   "meta": "2 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "d834b148-a6c5-55a3-822d-33fab290cb33",
+     "label": "PARE03BSPtissuedata.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "417c94fe-2222-581f-a029-075c55c34a4d",
+     "label": "PARE03BSPtissuedata.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001372",
+   "label": "AINV0000000748",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "PARE.03 Tissue Spreadsheet",
+    "dataset_catalog": "AINV0000000748",
+    "dataset_description": [
+     "Spreadsheet contains the tissues collected from each subject, the approximate weight in grams of each tissue, approximate radioactivity of each tissue, fixative used, and storage temperature."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "DC85LS03",
+     "DC85LS04"
+    ]
+   },
+   "meta": "2 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "e6a438eb-5119-55a4-a3d1-aede0b8db313",
+     "label": "PARE03BSPtissuedata.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f103324c-d648-5c84-a06d-7753c72c8a28",
+     "label": "PARE03BSPtissuedata.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001153",
+   "label": "AINV0000000411",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "PARE.03 Flight Animal Enclosure Module (AEM) Ambient Temperature Recorder (ATR) data",
+    "dataset_catalog": "AINV0000000411",
+    "dataset_description": [
+     "Temperature data"
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "DC85LS03",
+     "DC85LS04"
+    ]
+   },
+   "meta": "2 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "af6d6047-14ea-5309-be56-60cf92b52331",
+     "label": "48A422.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a9d074c3-0e4c-5338-a0bb-671ab90e6267",
+     "label": "48A422.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000775",
+   "label": "AINV0000000410",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "PARE.03 Flight Animal Enclosure Module (AEM) Ambient Temperature Recorder (ATR) data",
+    "dataset_catalog": "AINV0000000410",
+    "dataset_description": [
+     "Temperature data"
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "DC85LS03",
+     "DC85LS04"
+    ]
+   },
+   "meta": "2 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "3ec003fb-6e2c-5491-b883-7e3d3a715af3",
+     "label": "47A422.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "423e25a8-efca-59a8-93d7-86f24c93b194",
+     "label": "47A422.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000670",
+   "label": "AINV0000000412",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "PARE.03 Ground Control Animal Enclosure Module (AEM) Ambient Temperature Recorder (ATR) data",
+    "dataset_catalog": "AINV0000000412",
+    "dataset_description": [
+     "Temperature data"
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "DC85LS03",
+     "DC85LS04"
+    ]
+   },
+   "meta": "2 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "70679387-a38b-50fe-9859-e9efc7a9dec1",
+     "label": "49A422.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b737d338-5fa8-517f-9d74-d70f480e3b52",
+     "label": "49A422.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

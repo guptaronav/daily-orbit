@@ -1,0 +1,456 @@
+{
+ "record": {
+  "id": "e8fbf705-cb63-5684-b236-5c8eb866119f",
+  "_id": "e8fbf705-cb63-5684-b236-5c8eb866119f",
+  "experiment_title": "Effects of Spaceflight on the Development of the Circadian Timing System",
+  "pub_document_number": "ARCPUB000774",
+  "parameter_html": "<table><tr><td>Activity, circadian rhythm, Rat, Microgravity</td></tr><tr><td>Circadian rhythm amplitude</td></tr><tr><td>Circadian rhythm onset</td></tr><tr><td>Temperature, AEM, NIH.R2, Ambient temperature recorder (ATR)</td></tr><tr><td>Temperature, Rhythm, rat</td></tr><tr><td>Inner nuclear development, retina</td></tr><tr><td>Inner plexiform development, retina</td></tr><tr><td>Outer nuclear development, retina</td></tr><tr><td>Outer plexiform development, retina</td></tr><tr><td>Oxidative metabolism, suprachiasmatic nucleus</td></tr><tr><td>Photic responsiveness, suprachiasmatic nucleus</td></tr><tr><td>Soma size, suprachiasmatic nucleus</td></tr><tr></tr></table>",
+  "__source_key": "cl62au6l3cb0w01o624y7fzzc",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Fuller, Charles\">Principal Investigator: Fuller, Charles</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Hoban- Higgins, Tana\">Co-Investigator: Hoban- Higgins, Tana</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Murakami, D.\">Co-Investigator: Murakami, D.</a>",
+  "keyword": [
+   "Circadian rhythm",
+   "Proto-oncogene proteins",
+   "Hypothalamus",
+   "Suprachiasmatic nucleus",
+   "Retina"
+  ],
+  "keyword_name": "Retina",
+  "__record_version": 30,
+  "experiment_description": "<B>Objectives:</B><P>The objectives of this experiment were to determine the effect of spaceflight on: retinal development; development of the suprachiasmatic nucleus (SCN), the circadian pacemaker of the circadian timing system (CTS); maturation of the retino-hypothalamic tract (RHT); and the development and maturation of circadian rhythms.<P><B>Approach:</B><P>Retinas were dissected, sectioned and mounted on slides, counterstained and analyzed for thickness of the inner plexiform, inner nuclear, outer nuclear and outer plexiform layers.  Differences in the initiation and maturation rate of laminar thickness were compared between animal groups. Coronal sections were made through the hypothalamus and mounted on slides that were counterstained and analyzed for mean soma diameter of neurons within the SCN. Coronal sections through the SCN were examined for cytochrome oxidase (CYOX) staining both within the SCN and in the surrounding regions at each age. As a provocative test of SCN function, animals from each group were either exposed to a light pulse (LP) or not (NLP). Sections through the SCN and surrounding hypothalamus were immunohistochemically stained for c-Fos reactive neurons. Brain sections containing c-Fos labeled neurons were mounted, counterstained and examined by light microscopy to determine differences in the number of immunoreactive SCN neurons between LP and NLP animals at the age that the RHT projection becomes functional.                                                                                                                                                                                                                                                                                                                                  <P><B>Results:</B><P>Histological examination of the retina revealed no differences in development between the Flight (FLT) and Flight Delayed Synchronous (FDS) retina at G20, PN1, PN3, and PN8. The pattern of cFos activation within the SCN of the G20 animals indicated that the FLT group was significantly delayed from the FDS group at this age. These differences disappeared by PN1. There was no difference between groups in the responsiveness of the SCN to light stimulation; a robust response was present by PN5.",
+  "indexed": "2026-08-31T22:16:54.799Z",
+  "GUID": "cl62au6l3cb0w01o624y7fzzc",
+  "resourceTitle": "https://genelab-data.ndc.nasa.gov/genelab/environmental/radiation",
+  "__model_type": "lsda_experiment",
+  "__dirid": "e8fbf705-cb63-5684-b236-5c8eb866119f",
+  "__record_size_wo_doccontent": 66423,
+  "experiment_parms_tissue2": "NULL",
+  "experiment_parms_tissue1": "NULL",
+  "__update_method": "Update Data",
+  "archive_status_index": 1,
+  "resource_group": "NASA GeneLab Data",
+  "experiment_type_lk": [
+   "Shuttle Life Sciences Research (Middeck)"
+  ],
+  "__record_modified_date": "2026-08-31T22:16:54.799Z",
+  "proposal_source": [
+   "93-OLMSA-03"
+  ],
+  "__indexed": "2026-08-31T22:16:54.799Z",
+  "session_type": "Basal",
+  "__record_creation_date": "2022-07-28T19:41:10.566Z",
+  "__record_size": 66423,
+  "__model_version": 423,
+  "payload_id": "NIH.R2",
+  "CombinedSpecies": [
+   [
+    "Rat (Rattus norvegicus) Sprague-Dawley"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "9303024",
+  "experiment_related": [
+   "COS 2229-4",
+   "9301132",
+   "8809A09",
+   "8808A06"
+  ],
+  "parameter_name": [
+   "Activity, circadian rhythm, Rat, Microgravity",
+   "Circadian rhythm amplitude",
+   "Circadian rhythm onset",
+   "Temperature, AEM, NIH.R2, Ambient temperature recorder (ATR)",
+   "Temperature, Rhythm, rat",
+   "Inner nuclear development, retina",
+   "Inner plexiform development, retina",
+   "Outer nuclear development, retina",
+   "Outer plexiform development, retina",
+   "Oxidative metabolism, suprachiasmatic nucleus",
+   "Photic responsiveness, suprachiasmatic nucleus",
+   "Soma size, suprachiasmatic nucleus"
+  ],
+  "exp_index": 686,
+  "research_area": [
+   "Developmental biology",
+   "Endocrinology"
+  ],
+  "protocol_approach": "Delayed synchronous control",
+  "pme_role_with_name": [
+   "ARC Deputy Payload Manager: Aquilina, Rudolph",
+   "ARC Experiment Support Scientist: Ching, Brian",
+   "ARC Payload Manager: Jarvi, Joellen",
+   "ARC Payload Scientist: Dumars, Paula",
+   "ARC Science Payload Manager: Reiss- Bubenheim, Debra",
+   "Co-Investigator: Hoban- Higgins, Tana",
+   "Co-Investigator: Murakami, D.",
+   "Principal Investigator: Fuller, Charles"
+  ],
+  "missions": [
+   [
+    [
+     "STS-70"
+    ]
+   ]
+  ],
+  "PI": [
+   "Fuller, Charles"
+  ],
+  "_file_extension": [],
+  "experiment_identifier": [
+   "9303024"
+  ],
+  "mission_id": [
+   [
+    [
+     "STS-70"
+    ]
+   ]
+  ],
+  "center": [
+   "Ames Research Center"
+  ],
+  "ncindex": [
+   7
+  ],
+  "species": [
+   "Rat"
+  ],
+  "PrincipalInvestigator": [
+   "Fuller, Charles"
+  ],
+  "program_name": [
+   "Shuttle Program"
+  ],
+  "proposal_date": [
+   "7/9/1993"
+  ],
+  "archive_status": "Data preservation is complete. All datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Shuttle Program",
+  "__source_field_concat": "Basal NASA GeneLab Data ARCPUB000774 NIH.R2 cl62au6l3cb0w01o624y7fzzc Retina NULL NULL https://genelab-data.ndc.nasa.gov/genelab/environmental/radiation  Delayed synchronous control Effects of Spaceflight on the Development of the Circadian Timing System 9303024 Shuttle Program Data preservation is complete. All datasets are publicly available.",
+  "__icon_type": "rat",
+  "__description": "<B>Objectives:</B><P>The objectives of this experiment were to determine the effect of spaceflight on: retinal development; development of the suprachiasmatic nucleus (SCN), the circadian pacemaker of the circadian timing system (CTS); maturation of the retino-hypothalamic tract (RHT); and the development and maturation of circadian rhythms.<P><B>Approach:</B><P>Retinas were dissected, sectioned and mounted on slides, counterstained and analyzed for thickness of the inner plexiform, inner nuclear, outer nuclear and outer plexiform layers.  Differences in the initiation and maturation rate of laminar thickness were compared between animal groups. Coronal sections were made through the hypothalamus and mounted on slides that were counterstained and analyzed for mean soma diameter of neurons within the SCN. Coronal sections through the SCN were examined for cytochrome oxidase (CYOX) staining both within the SCN and in the surrounding regions at each age. As a provocative test of SCN function, animals from each group were either exposed to a light pulse (LP) or not (NLP). Sections through the SCN and surrounding hypothalamus were immunohistochemically stained for c-Fos reactive neurons. Brain sections containing c-Fos labeled neurons were mounted, counterstained and examined by light microscopy to determine differences in the number of immunoreactive SCN neurons between LP and NLP animals at the age that the RHT projection becomes functional.                                                                                                                                                                                                                                                                                                                                  <P><B>Results:</B><P>Histological examination of the retina revealed no differences in development between the Flight (FLT) and Flight Delayed Synchronous (FDS) retina at G20, PN1, PN3, and PN8. The pattern of cFos activation within the SCN of the G20 animals indicated that the FLT group was significantly delayed from the FDS group at this age. These differences disappeared by PN1. There was no difference between groups in the responsiveness of the SCN to light stimulation; a robust response was present by PN5.",
+  "__doi": "10.83263/xs12-7m81",
+  "__doi_record_creation_date": "2026-08-23T04:13:58",
+  "__doi_record_modified_date": "2026-08-23T04:13:58"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000907",
+   "label": "AINV0000000938",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Effects of Spaceflight on the Development of the Circadian Timing System",
+    "dataset_catalog": "AINV0000000938",
+    "dataset_description": [
+     "No data submitted by PI.  Refer to publication citations listed in experiment information for summarized and analyzed data."
+    ],
+    "processing_level": "",
+    "experiment_id": [
+     "9303024"
+    ]
+   },
+   "meta": "0 files",
+   "date": "2022-07-28",
+   "children": []
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000901",
+   "label": "AINV0000000401",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "NIH.R2 Ambient Temperature Recorder (ATR) ground control data - ATR serial number 39 located in ground control AEM serial number 004",
+    "dataset_catalog": "AINV0000000401",
+    "dataset_description": [],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9303017",
+     "9303024",
+     "9303025",
+     "9303030",
+     "9303031 2_2"
+    ]
+   },
+   "meta": "5 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "babd0034-86ea-5e8c-a488-45eea800998d",
+     "label": "3970G004.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ef8d90f7-44be-5d42-8860-4d43c52e1fdf",
+     "label": "3970G004.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7057be8f-21af-5833-8bd9-8924f775bd08",
+     "label": "3970G004.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9fc26250-a61a-5a26-903a-1eb56cfd7743",
+     "label": "3970G004.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "558cef9b-9005-5d8b-ba1e-c29ac91584ec",
+     "label": "3970G004.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001571",
+   "label": "AINV0000000398",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "NIH.R2 Ambient Temperature Recorder (ATR) flight data - ATR serial number 36 located in flight AEM serial number 001",
+    "dataset_catalog": "AINV0000000398",
+    "dataset_description": [],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9303017",
+     "9303024",
+     "9303025",
+     "9303030",
+     "9303031 2_2"
+    ]
+   },
+   "meta": "5 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "a26ed257-b613-5f9d-b9f9-7a03a3edc7c1",
+     "label": "3670F001.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3bacd1de-74f9-5dca-8f7c-29825297039d",
+     "label": "3670F001.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ef47b26c-fd55-55e0-878d-472f988e5276",
+     "label": "3670F001.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a69dde23-e51f-5aaa-bf99-e34e1605b6fc",
+     "label": "3670F001.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6803e6de-b9f5-5226-bbe8-1c70baadbdd8",
+     "label": "3670F001.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002329",
+   "label": "AINV0000000399",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "NIH.R2 Ambient Temperature Recorder (ATR) flight data - ATR serial number 37 located in flight AEM serial number 002",
+    "dataset_catalog": "AINV0000000399",
+    "dataset_description": [],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9303017",
+     "9303024",
+     "9303025",
+     "9303030",
+     "9303031 2_2"
+    ]
+   },
+   "meta": "5 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "38c5e8a7-b950-52a3-a3eb-ff11da8b54bf",
+     "label": "3770F002.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7e75287e-c176-50e9-baac-74ab4b7b34e1",
+     "label": "3770F002.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "bb5e85f3-bd4d-58fd-a798-b295763ca9d6",
+     "label": "3770F002.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4b453809-ccd2-5c33-8c5d-b8c688a84442",
+     "label": "3770F002.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ae5efbd8-539b-58e2-bf38-e9e6c87568b9",
+     "label": "3770F002.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002225",
+   "label": "AINV0000000400",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "NIH.R2 Ambient Temperature Recorder (ATR) ground control data - ATR serial number 38 located in ground control AEM serial number 003",
+    "dataset_catalog": "AINV0000000400",
+    "dataset_description": [],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9303017",
+     "9303024",
+     "9303025",
+     "9303030",
+     "9303031 2_2"
+    ]
+   },
+   "meta": "5 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "d2e4ffe9-48c2-575c-bbbe-d64c40eea667",
+     "label": "3870G003.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b0ba450c-e7f6-5fc5-b8e5-14b03f18eae0",
+     "label": "3870G003.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6c07b1df-18d1-53be-b866-d7f7226d56fa",
+     "label": "3870G003.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6516acb5-40b3-5961-9d6d-311cb9949500",
+     "label": "3870G003.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "63fc11f8-ebd3-57dc-a0f3-eea79e866049",
+     "label": "3870G003.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,372 @@
+{
+ "record": {
+  "id": "7b314f94-efbd-565d-bea2-9403e48b997f",
+  "_id": "7b314f94-efbd-565d-bea2-9403e48b997f",
+  "__is_locked": false,
+  "experiment_title": "Testosterone Supplementation as a Countermeasure against Musculoskeletal Losses during Space Exploration",
+  "__source_key": "cl62b08efcdkm01o6foud0ryf",
+  "experiment_type": [
+   [
+    "Flight Analogs Project (FAP)"
+   ],
+   [
+    "NASA Bedrest Studies"
+   ]
+  ],
+  "AssignedArchivist": [
+   "None Selected",
+   "Liddell, Nyaia A."
+  ],
+  "keyword": [
+   "Bone density",
+   "Exercise",
+   "Muscle strength",
+   "Testosterone",
+   "Amino acids",
+   "Leucine"
+  ],
+  "__record_version": 31,
+  "hrr_task_title": "Testosterone Supplementation as a Countermeasure against Musculoskeletal Losses during Space Exploration",
+  "experiment_description": "OBJECTIVES:<br>\nThe long-term goal of this study was to determine the therapeutic efficacy of testosterone at preserving lean muscle mass, muscle strength, and bone mineral density in healthy humans during space flight. Investigators examined the interactive or additive effects of the combination of testosterone and exercise on lean body mass, muscle strength, and bone health. <div>\nTo achieve these goals investigators tested the following hypotheses before, during, and after 70 days of bed rest: <br></div><ol>\n<li>Cycled testosterone replacement (weekly testosterone injections for two weeks, followed by two weeks off) in conjunction with exercise will have an additive effect in preventing loss of muscle mass and muscle strength in men representative of the astronaut population compared to exercise with placebo testosterone. \n</li><li>Cycled testosterone replacement (weekly testosterone injections for two weeks, followed by two weeks off) in conjunction with exercise will have an additive effect in preventing loss of bone mass and alterations in markers of bone metabolism in men representative of the astronaut population compared to exercise with placebo testosterone.</li></ol>\nTo address these hypotheses investigators studied the following specific aims before, during, and after 70 days of bed rest: <ol>\n<li>To determine the effect of cycled testosterone replacement in conjunction with resistance exercise during bed rest on muscle mass, muscle strength, and fatigue in men aged 24-55 years. \n</li><li>To determine the effect of cycled testosterone replacement in conjunction with resistance exercise during bed rest on markers of bone metabolism and bone mass in men aged 24-55 years. </li></ol>\n<div>\nAPPROACH:<br>\nMale volunteers were randomly assigned to one of three bed rest groups 1) non-exercising + placebo (control group), 2) exercise + placebo (exercise A group) , and exercise + testosterone (exercise B group) using a standard of care approach with NASA space flight nutritional requirements and standard exercise protocols as the control condition. A total of 24 subjects completed the study. Eight subjects were in each bed rest group.</div><div>\nRESULTS:<br>\nResults suggest that exercise groups A and B appear protected against the bed rest-induced loss of lean body mass (LBM, total and legs). The exercise B group, but not A, significantly increased LBM and prevented increases in fat mass during bed rest. Effects on bone for both exercise groups was not significant. \n</div><div></div>",
+  "indexed": "2026-08-23T04:24:53.751444+00:00",
+  "proposal_date": "07/30/2010",
+  "GUID": "cl62b08efcdkm01o6foud0ryf",
+  "_file_extension": "human",
+  "archive_status": "Data preservation is complete. All datasets are privacy-protected. Data is available via data request.",
+  "__model_type": "lsda_experiment",
+  "__dirid": "7b314f94-efbd-565d-bea2-9403e48b997f",
+  "__record_size_wo_doccontent": 78673,
+  "__update_method": "Update CDM",
+  "experiment_identifier": [
+   "NNX10AP86G"
+  ],
+  "CompleteArchivalExpectedInFiscalYear": [
+   "0"
+  ],
+  "experiment_type_lk": [
+   "Flight Analogs Project (FAP)",
+   "NASA Bedrest Studies"
+  ],
+  "__record_modified_date": "2026-08-23T04:24:53.751444+00:00",
+  "proposal_source": "2009 Crew Health NNJ09ZSA002N",
+  "__indexed": "2026-08-23T04:24:53.751444+00:00",
+  "nasa_center": "JSC",
+  "__record_creation_date": "2022-07-28T20:01:25.555Z",
+  "__record_size": 78673,
+  "__model_version": 60,
+  "species_sci_name": [
+   [
+    "Homo sapiens"
+   ]
+  ],
+  "payload_id": [
+   "CFT70"
+  ],
+  "CombinedSpecies": [
+   "Human (Homo sapiens)"
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "ncindex": 2,
+  "researchIndex": [
+   1087,
+   18
+  ],
+  "experiment_id": "NNX10AP86G",
+  "center": "JSC",
+  "parameter_name": [
+   "Bone mineral density",
+   "C-peptide",
+   "Cholesterol",
+   "Cholesterol, high-density lipoprotein (HDL)",
+   "Cholesterol, low-density lipoprotein (LDL)",
+   "Cortisol",
+   "Dehydroepiandrosterone (DHEA)",
+   "Exercise-induced perceived fatigue",
+   "Fatigue",
+   "Follicle-stimulating hormone (FSH)",
+   "Insulin-like growth factor-binding protein 3 (IGFBP-3)",
+   "Lactate, serum",
+   "Lean body mass",
+   "Leucine",
+   "Muscle strength",
+   "Prolactin",
+   "Prostate-specific antigen (PSA) test",
+   "Protein abundances, vastus lateralis tissue",
+   "Testosterone",
+   "Triglycerides",
+   "Very-low-density lipoprotein (VLDL)",
+   "Estradiol",
+   "High-sensitivity C-reactive protein (HSCRP)",
+   "Muscle, lean tissue mass",
+   "Luteinizing hormone (LH)",
+   "Protein phosporylation, vastus lateralis tissue",
+   "Sex hormone-binding globulin (SHBG)"
+  ],
+  "exp_index": 1744,
+  "research_area": [
+   "Skeletal physiology",
+   "Muscle physiology"
+  ],
+  "species": [
+   [
+    "Human"
+   ]
+  ],
+  "pme_role_with_name": [
+   "Principal Investigator: Urban, Randall",
+   "Co-Investigator: Durham, William",
+   "Co-Investigator: Sheffield-Moore, Melinda",
+   "Co-Investigator: Dillon, Edgar L."
+  ],
+  "missions": [
+   "UTMB Campaign 11"
+  ],
+  "PI": [
+   "Urban, Randall"
+  ],
+  "sort": [
+   3,
+   "94c5696e-f197-54eb-a86d-1029c2092ce9"
+  ],
+  "pub_document_number": "PUB001960",
+  "parameter_html": "<table><tr><td>Bone mineral density</td></tr><tr><td>C-peptide</td></tr><tr><td>Cholesterol</td></tr><tr><td>Cholesterol, high-density lipoprotein (HDL)</td></tr><tr><td>Cholesterol, low-density lipoprotein (LDL)</td></tr><tr><td>Cortisol</td></tr><tr><td>Dehydroepiandrosterone (DHEA)</td></tr><tr><td>Exercise-induced perceived fatigue</td></tr><tr><td>Fatigue</td></tr><tr><td>Follicle-stimulating hormone (FSH)</td></tr><tr><td>Insulin-like growth factor-binding protein 3 (IGFBP-3)</td></tr><tr><td>Lactate, serum</td></tr><tr><td>Lean body mass</td></tr><tr><td>Leucine</td></tr><tr><td>Muscle strength</td></tr><tr><td>Prolactin</td></tr><tr><td>Prostate-specific antigen (PSA) test</td></tr><tr><td>Protein abundances, vastus lateralis tissue</td></tr><tr><td>Testosterone</td></tr><tr><td>Triglycerides</td></tr><tr><td>Very-low-density lipoprotein (VLDL)</td></tr><tr><td>Estradiol</td></tr><tr><td>High-sensitivity C-reactive protein (HSCRP)</td></tr><tr><td>Muscle, lean tissue mass</td></tr><tr><td>Luteinizing hormone (LH)</td></tr><tr><td>Protein phosporylation, vastus lateralis tissue</td></tr><tr><td>Sex hormone-binding globulin (SHBG)</td></tr><tr></tr></table>",
+  "program_name": [
+   "Ground"
+  ],
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Urban, Randall\">Principal Investigator: Urban, Randall</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Durham, William\">Co-Investigator: Durham, William</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Sheffield-Moore, Melinda\">Co-Investigator: Sheffield-Moore, Melinda</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Dillon, Edgar L.\">Co-Investigator: Dillon, Edgar L.</a>",
+  "keyword_name": "Leucine",
+  "Program": "Ground",
+  "archive_status_index": 4,
+  "mission_id": [
+   [
+    [
+     "UTMB Campaign 11"
+    ]
+   ]
+  ],
+  "PrincipalInvestigator": [
+   "Urban, Randall"
+  ],
+  "payload_part": "N/A",
+  "__source_field_concat": "human PUB001960 2009 Crew Health NNJ09ZSA002N cl62b08efcdkm01o6foud0ryf JSC JSC Leucine N/A NNX10AP86G Ground Data preservation is complete.  All datasets are publicly available.",
+  "__icon_type": "",
+  "__description": "OBJECTIVES:<br>\nThe long-term goal of this study was to determine the therapeutic efficacy of testosterone at preserving lean muscle mass, muscle strength, and bone mineral density in healthy humans during space flight. Investigators examined the interactive or additive effects of the combination of testosterone and exercise on lean body mass, muscle strength, and bone health. <div>\nTo achieve these goals investigators tested the following hypotheses before, during, and after 70 days of bed rest: <br></div><ol>\n<li>Cycled testosterone replacement (weekly testosterone injections for two weeks, followed by two weeks off) in conjunction with exercise will have an additive effect in preventing loss of muscle mass and muscle strength in men representative of the astronaut population compared to exercise with placebo testosterone. \n</li><li>Cycled testosterone replacement (weekly testosterone injections for two weeks, followed by two weeks off) in conjunction with exercise will have an additive effect in preventing loss of bone mass and alterations in markers of bone metabolism in men representative of the astronaut population compared to exercise with placebo testosterone.</li></ol>\nTo address these hypotheses investigators studied the following specific aims before, during, and after 70 days of bed rest: <ol>\n<li>To determine the effect of cycled testosterone replacement in conjunction with resistance exercise during bed rest on muscle mass, muscle strength, and fatigue in men aged 24-55 years. \n</li><li>To determine the effect of cycled testosterone replacement in conjunction with resistance exercise during bed rest on markers of bone metabolism and bone mass in men aged 24-55 years. </li></ol>\n<div>\nAPPROACH:<br>\nMale volunteers were randomly assigned to one of three bed rest groups 1) non-exercising + placebo (control group), 2) exercise + placebo (exercise A group) , and exercise + testosterone (exercise B group) using a standard of care approach with NASA space flight nutritional requirements and standard exercise protocols as the control condition. A total of 24 subjects completed the study. Eight subjects were in each bed rest group.</div><div>\nRESULTS:<br>\nResults suggest that exercise groups A and B appear protected against the bed rest-induced loss of lean body mass (LBM, total and legs). The exercise B group, but not A, significantly increased LBM and prevented increases in fat mass during bed rest. Effects on bone for both exercise groups was not significant. \n</div><div></div>",
+  "__doi": "10.83263/hk52-gc75",
+  "__doi_record_creation_date": "2026-08-23T04:24:53",
+  "__doi_record_modified_date": "2026-08-23T04:24:53"
+ },
+ "datasets": [
+  {
+   "key": "472a20ae-ba61-5f8c-9162-d440cdafa65e",
+   "label": "NNX10AP86G_CFT70",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "NNX10AP86G CFT70 Data",
+    "dataset_catalog": "NNX10AP86G_CFT70",
+    "dataset_description": "This dataset contains CFT70 tabular data for the Testosterone Supplementation as a Countermeasure against Musculoskeletal Losses during Space Exploration (NNX10AP86G) study.",
+    "processing_level": [
+     "Processed Data"
+    ],
+    "experiment_id": [
+     "NNX10AP86G"
+    ]
+   },
+   "meta": "19 files \u00b7 436.2 KB",
+   "date": "2026-03-24",
+   "children": [
+    {
+     "key": "26592655-5da7-5a58-bac3-d38bf0aa1a70",
+     "label": "NNX10AP86G_CFT70_POMS_Depression",
+     "type": "file",
+     "ext": "",
+     "file_size": 10820,
+     "meta": "10.6 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "23eccc0b-3d1c-5190-9350-2c0bb2a00e3c",
+     "label": "NNX10AP86G_CFT70_POMS_TMD",
+     "type": "file",
+     "ext": "",
+     "file_size": 11336,
+     "meta": "11.1 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "83202cf7-c74a-59df-a096-eb5c346ca1cd",
+     "label": "NNX10AP86G_CFT70_MFSI-SF_Emotional_Scale",
+     "type": "file",
+     "ext": "",
+     "file_size": 10831,
+     "meta": "10.6 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "48676024-a1bc-55a2-9cb3-a0a9ea70eb7a",
+     "label": "NNX10AP86G_CFT70_MFSI-SF_Vigor_Scale",
+     "type": "file",
+     "ext": "",
+     "file_size": 11112,
+     "meta": "10.9 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ef568b7a-7dc3-5f5a-8d72-f307b3255efa",
+     "label": "NNX10AP86G_CFT70_Amino_Acids",
+     "type": "file",
+     "ext": "",
+     "file_size": 58087,
+     "meta": "56.7 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a5129658-9241-59cc-b1a0-ce6f720d138e",
+     "label": "NNX10AP86G_CFT70_POMS_Vigor",
+     "type": "file",
+     "ext": "",
+     "file_size": 11093,
+     "meta": "10.8 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2d0865da-f14e-5cd5-a9c3-664fd32ed8aa",
+     "label": "NNX10AP86G_CFT70_POMS_Anger-hostility",
+     "type": "file",
+     "ext": "",
+     "file_size": 10826,
+     "meta": "10.6 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5aee4eb0-9c48-5b3a-9739-11ae06f5bfc9",
+     "label": "NNX10AP86G_CFT70_POMS_Tension-anxiety",
+     "type": "file",
+     "ext": "",
+     "file_size": 10825,
+     "meta": "10.6 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a36e2b32-29aa-5bcc-b240-24e20c718241",
+     "label": "NNX10AP86G_CFT70_POMS_Fatigue",
+     "type": "file",
+     "ext": "",
+     "file_size": 10822,
+     "meta": "10.6 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4f6acee9-e45e-5000-94f4-13616b2799ff",
+     "label": "NNX10AP86G_CFT70_MFSI-SF_Physical_Scale",
+     "type": "file",
+     "ext": "",
+     "file_size": 10835,
+     "meta": "10.6 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7b45f805-0ea4-5956-88d4-3f986779c6b5",
+     "label": "NNX10AP86G_CFT70_POMS_Confusion",
+     "type": "file",
+     "ext": "",
+     "file_size": 10818,
+     "meta": "10.6 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e43ab090-ea5b-586a-a3e7-2a8f11d9d283",
+     "label": "NNX10AP86G_CFT70_MFSI-SF_Total_Scale",
+     "type": "file",
+     "ext": "",
+     "file_size": 11384,
+     "meta": "11.1 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "fd2c24b5-bbe4-559d-a863-aab9c5c715ed",
+     "label": "NNX10AP86G_CFT70_iDXA_avgs",
+     "type": "file",
+     "ext": "",
+     "file_size": 53423,
+     "meta": "52.2 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2f8cf120-4a6f-5908-a865-d8fe2475aafb",
+     "label": "NNX10AP86G_CFT70_MFSI-SF_General_Scale",
+     "type": "file",
+     "ext": "",
+     "file_size": 10841,
+     "meta": "10.6 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2269f6a0-3ed9-50d0-8502-cf8cb2a2f0bb",
+     "label": "NNX10AP86G_CFT70_LIPIDS",
+     "type": "file",
+     "ext": "",
+     "file_size": 4349,
+     "meta": "4.2 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "499b2212-41d1-504a-9a02-51879f319f3e",
+     "label": "NNX10AP86G_CFT70_IMMULITE",
+     "type": "file",
+     "ext": "",
+     "file_size": 18038,
+     "meta": "17.6 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6e77740a-4d44-5623-afe2-480dd7cea5fd",
+     "label": "NNX10AP86G_CFT70_MFSI-SF_Mental_Scale",
+     "type": "file",
+     "ext": "",
+     "file_size": 10828,
+     "meta": "10.6 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9b718f06-7832-546e-b684-9759d30a4f1f",
+     "label": "NNX10AP86G_CFT70_OGTT",
+     "type": "file",
+     "ext": "",
+     "file_size": 30818,
+     "meta": "30.1 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "01b18581-928c-57a1-ac69-f08efe457a9a",
+     "label": "NNX10AP86G_CFT70_iDXA_obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 139629,
+     "meta": "136.4 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

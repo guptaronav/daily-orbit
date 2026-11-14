@@ -1,0 +1,239 @@
+{
+ "record": {
+  "id": "3e6c5420-ca80-5893-91ec-91f1c2de7c87",
+  "_id": "3e6c5420-ca80-5893-91ec-91f1c2de7c87",
+  "experiment_title": "In-flight LBNP Test of Countermeasures and End-of-Mission Countermeasure Trial",
+  "pub_document_number": "PUB001845",
+  "archive_status_index": 4,
+  "parameter_html": "<table><tr><td>Acetaldehyde</td></tr><tr><td>Butanol</td></tr><tr><td>Butanone</td></tr><tr><td>Butoxyethanol</td></tr><tr><td>Carbonyl sulfide</td></tr><tr><td>Chlorodifluoromethane</td></tr><tr><td>Chloroethane</td></tr><tr><td>Chloromethane</td></tr><tr><td>Cyclohexanone</td></tr><tr><td>Decamethylcyclopentasiloxane</td></tr><tr><td>Diastolic blood pressure</td></tr><tr><td>Dichlorodifluoromethane</td></tr><tr><td>Dichloroethene</td></tr><tr><td>Dichlorofluoromethane</td></tr><tr><td>Dichloromethane</td></tr><tr><td>Dimethylbenzene</td></tr><tr><td>Dodecamethylcyclohexasiloxane</td></tr><tr><td>Ethanol</td></tr><tr><td>Ethylbenzene</td></tr><tr><td>Heart rate</td></tr><tr><td>Hexamethylcyclotrisiloxane</td></tr><tr><td>Methylbutadiene</td></tr><tr><td>Methylcyclopentane</td></tr><tr><td>Methylpentanone</td></tr><tr><td>Methylpropanol</td></tr><tr><td>Octamethylcyclotetrasiloxane</td></tr><tr><td>Pentane</td></tr><tr><td>Propanol</td></tr><tr><td>Propanone</td></tr><tr><td>Substituted benzene</td></tr><tr><td>Systolic blood pressure</td></tr><tr><td>Tetrahydrofuran</td></tr><tr><td>Toluene</td></tr><tr><td>Trichloroethane</td></tr><tr><td>Trichlorofluoromethane</td></tr><tr><td>Triflurobromomethane</td></tr><tr><td>Trimethylsilanol</td></tr><tr><td>Acetic acid, butyl ester</td></tr><tr><td>C10 alkanes</td></tr><tr><td>C11 alkanes</td></tr><tr><td>C3-substituted cyclohexane</td></tr><tr><td>C4 alkenes</td></tr><tr><td>C4 branched cyclohexane</td></tr><tr><td>C6 alkanes</td></tr><tr><td>C7 alcohol</td></tr><tr><td>C7 ketone</td></tr><tr><td>C9 alkanes</td></tr><tr><td>Carbon disulfide</td></tr><tr><td>Ethoxyethyl acetate</td></tr><tr><td>Lower body negative pressure (LBNP)</td></tr><tr></tr></table>",
+  "__source_key": "cl62ayrs5cd8g01o6ajxi9x0s",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Charles, John\">Principal Investigator: Charles, John</a>",
+  "image_name": [
+   "American Echocardiograph Research Imaging System (AERIS)",
+   "Astronaut in the Lower Body Negative Pressure device on IML-2",
+   "Lower Body Negative Pressure (LBNP)",
+   "Lower Body Negative Pressure (LBNP) Controller",
+   "Lower Body Negative Pressure (LBNP) Controller Data Flow Diagram",
+   "Lower Body Negative Pressure (LBNP) Controller Schematic",
+   "Schematic of the Lower Body Negative Pressure (LBNP) Device"
+  ],
+  "experiment_type_lk": [
+   "Shuttle Detailed Supplementary Objectives (DSO)",
+   "Shuttle Extended Duration Orbiter Medical Project (EDOMP)"
+  ],
+  "__record_modified_date": "2026-08-23T03:53:19.279985+00:00",
+  "proposal_source": [
+   "N/A"
+  ],
+  "__indexed": "2026-08-23T03:53:19.279985+00:00",
+  "keyword": [
+   "Electrocardiography",
+   "Water",
+   "Heart rate",
+   "Hypotension, orthostatic",
+   "Monitoring, physiologic",
+   "Echocardiography",
+   "Syncope, vasovagal",
+   "Sodium",
+   "Hemodynamics",
+   "Drinking",
+   "Lower body negative pressure (LBNP)",
+   "Blood pressure",
+   "Fluid therapy",
+   "Weightlessness countermeasures"
+  ],
+  "__record_creation_date": "2022-07-28T20:03:04.056Z",
+  "keyword_name": "Weightlessness countermeasures",
+  "__record_version": 29,
+  "__record_size": 123760,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<br>\r\nSpace flight is known to cause a shift in fluid away from the lower body and results in a decrease in body fluid. Hypovolemia may be one cause of the orthostatic intolerance that is common after space flight. Countermeasures such as fluid loading and the use of a g-suit, have not completely prevented this problem. It\u2019s possible that postflight orthostatic intolerance could be prevented by the ingestion of isotonic saline while negative pressure is applied to the legs and abdomen to allow the plasma volume to increase. The purpose of this study was to conduct a controlled trial of performing this lower body negative pressure (LBNP) and fluid loading countermeasure once, 24 hours before landing.\r\n<p>\r\nAPPROACH:<br>\r\nTwelve astronauts participated in the study. Four months and three months before launch, their tolerance of LBNP was assessed by applying LBNP in steps of 10 millimeters of mercury (mm Hg) until they showed signs of presyncope (fainting). Three months and one month before launch, their orthostatic tolerance was assessed independently of gravity in LBNP ramp tests, in which the astronauts spent five minutes at each 10-mm Hg drop of pressure down to -60 mm Hg while heart rate, blood pressure, and electrocardiogram were monitored. Ultrasound echocardiography was used to measure heart dimensions and aortic blood flow in two of the astronauts for correlation with later in-flight measurements. Orthostatic tolerance was assessed in stand tests preflight.\r\n<p>\r\nThe LBNP chamber that could be collapsed and stowed was used aboard the Shuttle. Negative pressure was provided by connecting it to a vacuum source (the Waste Collection System or the Spacelab Vacuum Vent). The countermeasure treatment, called a \"soak,\" included a stepwise decompression to -50 mm Hg followed by 3.5 hours at 30 mm Hg below ambient pressure. During the first hour at -30 mm Hg, the astronauts ingested one liter of water or artificially sweetened fruit drink and eight grams of sodium chloride to provide isotonic saline. The soak was performed one day before the intended landing day by five of the astronauts, while seven others from the same missions served as controls. Heart rate, diastolic and systolic blood pressure, mean arterial pressure, and pulse pressure were determined at each stage of decompression. In-flight ramp tests were performed by the five test astronauts as well as by one of the controls.  Stand tests were repeated shortly after landing, with g-suits inflated.\r\n<p>\r\nSeveral LBNP tests were conducted on each subject before flight and during the mission.\r\nTwo \"ramps,\" a test consisting of a 10-rain rest period, followed by five 5-min stages at\r\neach level of decompression (-10, -20, -30, -40, and -50 mmHg), and then completed with a 5-\r\nmin recovery period after recompression to ambient pressure, were performed preflight, as well\r\nas 4 in flight. One countermeasure session (\"soak\") was performed on the flight day before the nominal landing day. This soak session consists of a standard \"ramp\" test followed by 3.5 h of continuous decompression at a level of 30 mmHg below ambient cabin pressure, ending with a 5-min recovery period. During the time spent at -30 mmHg, the crew member ingested the standard landing day fluid load of salt tablets and water. No postflight LBNP sessions were performed, however, orthostatic tolerance was assessed using stand tests on landing day and 3 days postflight.\r\nBlood pressure, heart rate (HR) and Echocardiographic (2-D and Doppler blood flow) measurements\r\nwere made during each LBNP session. These data were collected approximately every minute throughout the various stages of the tests, except that the Doppler measurements were collected every 30 min during the soak test. Blood pressure (auscultatory technique) was measured using a commercially available automatic blood pressure monitor (ABPM) modified for space flight. A set of ECG leads\r\n(three) were also attached to the subject via the ABPM to determine HR and document electrocardiographic activity. These data were telemetered to the ground in real-time to monitor the\r\ncrew's responses to the LBNP tests. Echocardiography was performed using the American Echocardiographic Research Imaging System (AERIS), a commercial Ultrasound unit modified for flight at the NASA Johnson Space Center (JSC). These data were recorded onboard and returned to JSC for postflight analysis, specifically cardiac dimensions, stroke volume (SV), cardiac output\r\n(CO), and total peripheral resistance (TPR). dimensions, stroke volume (SV), cardiac output\r\n(CO), and total peripheral resistance (TPR).  Preflight testing was performed with flight-like\r\nhardware and techniques for consistency.\r\n<P>RESULTS:<br>\r\nThe soak treatments occurred one or two days before landing for two astronauts. Shortly after landing, diastolic blood pressure and heart rate were lower in the treated astronauts than in the controls, whether they were seated or standing. The controls were more likely than the treated astronauts to have a decrease in systolic pressure after standing. No differences were found between treated astronauts and controls in heart rate and blood pressure during stand tests one to three hours after landing. These results show that the combination of LBNP with ingestion of isotonic saline one or two days before landing may be an effective countermeasure against postflight orthostatic intolerance. However, the countermeasure is impractical for use during Shuttle missions because treatment of one astronaut takes approximately five hours.",
+  "payload_id": "DSO52",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "indexed": "2026-08-23T03:53:19.279985+00:00",
+  "experiment_id": "DSO 623",
+  "experiment_related": [
+   "DSO 478"
+  ],
+  "GUID": "cl62ayrs5cd8g01o6ajxi9x0s",
+  "parameter_name": [
+   "Acetaldehyde",
+   "Butanol",
+   "Butanone",
+   "Butoxyethanol",
+   "Carbonyl sulfide",
+   "Chlorodifluoromethane",
+   "Chloroethane",
+   "Chloromethane",
+   "Cyclohexanone",
+   "Decamethylcyclopentasiloxane",
+   "Diastolic blood pressure",
+   "Dichlorodifluoromethane",
+   "Dichloroethene",
+   "Dichlorofluoromethane",
+   "Dichloromethane",
+   "Dimethylbenzene",
+   "Dodecamethylcyclohexasiloxane",
+   "Ethanol",
+   "Ethylbenzene",
+   "Heart rate",
+   "Hexamethylcyclotrisiloxane",
+   "Methylbutadiene",
+   "Methylcyclopentane",
+   "Methylpentanone",
+   "Methylpropanol",
+   "Octamethylcyclotetrasiloxane",
+   "Pentane",
+   "Propanol",
+   "Propanone",
+   "Substituted benzene",
+   "Systolic blood pressure",
+   "Tetrahydrofuran",
+   "Toluene",
+   "Trichloroethane",
+   "Trichlorofluoromethane",
+   "Triflurobromomethane",
+   "Trimethylsilanol",
+   "Acetic acid, butyl ester",
+   "C10 alkanes",
+   "C11 alkanes",
+   "C3-substituted cyclohexane",
+   "C4 alkenes",
+   "C4 branched cyclohexane",
+   "C6 alkanes",
+   "C7 alcohol",
+   "C7 ketone",
+   "C9 alkanes",
+   "Carbon disulfide",
+   "Ethoxyethyl acetate",
+   "Lower body negative pressure (LBNP)"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 622,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Cardiovascular physiology",
+   "Clinical medicine"
+  ],
+  "pme_role_with_name": [
+   "Principal Investigator: Charles, John"
+  ],
+  "missions": [
+   [
+    [
+     "STS-52"
+    ]
+   ],
+   [
+    [
+     "STS-58"
+    ]
+   ],
+   [
+    [
+     "STS-62"
+    ]
+   ],
+   [
+    [
+     "STS-65"
+    ]
+   ]
+  ],
+  "__dirid": "3e6c5420-ca80-5893-91ec-91f1c2de7c87",
+  "__record_size_wo_doccontent": 123760,
+  "PI": [
+   "Charles, John"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "DSO 623"
+  ],
+  "mission_id": [
+   [
+    [
+     "STS-52"
+    ]
+   ],
+   [
+    [
+     "STS-58"
+    ]
+   ],
+   [
+    [
+     "STS-62"
+    ]
+   ],
+   [
+    [
+     "STS-65"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Charles, John"
+  ],
+  "archive_status": "Data preservation is complete. All datasets are privacy-protected. Data is available via data request.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Shuttle Program",
+  "__source_field_concat": "PUB001845 DSO52 cl62ayrs5cd8g01o6ajxi9x0s Weightlessness countermeasures  N/A In-flight LBNP Test of Countermeasures and End-of-Mission Countermeasure Trial DSO 623 Shuttle Program",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<br>\r\nSpace flight is known to cause a shift in fluid away from the lower body and results in a decrease in body fluid. Hypovolemia may be one cause of the orthostatic intolerance that is common after space flight. Countermeasures such as fluid loading and the use of a g-suit, have not completely prevented this problem. It\u2019s possible that postflight orthostatic intolerance could be prevented by the ingestion of isotonic saline while negative pressure is applied to the legs and abdomen to allow the plasma volume to increase. The purpose of this study was to conduct a controlled trial of performing this lower body negative pressure (LBNP) and fluid loading countermeasure once, 24 hours before landing.\r\n<p>\r\nAPPROACH:<br>\r\nTwelve astronauts participated in the study. Four months and three months before launch, their tolerance of LBNP was assessed by applying LBNP in steps of 10 millimeters of mercury (mm Hg) until they showed signs of presyncope (fainting). Three months and one month before launch, their orthostatic tolerance was assessed independently of gravity in LBNP ramp tests, in which the astronauts spent five minutes at each 10-mm Hg drop of pressure down to -60 mm Hg while heart rate, blood pressure, and electrocardiogram were monitored. Ultrasound echocardiography was used to measure heart dimensions and aortic blood flow in two of the astronauts for correlation with later in-flight measurements. Orthostatic tolerance was assessed in stand tests preflight.\r\n<p>\r\nThe LBNP chamber that could be collapsed and stowed was used aboard the Shuttle. Negative pressure was provided by connecting it to a vacuum source (the Waste Collection System or the Spacelab Vacuum Vent). The countermeasure treatment, called a \"soak,\" included a stepwise decompression to -50 mm Hg followed by 3.5 hours at 30 mm Hg below ambient pressure. During the first hour at -30 mm Hg, the astronauts ingested one liter of water or artificially sweetened fruit drink and eight grams of sodium chloride to provide isotonic saline. The soak was performed one day before the intended landing day by five of the astronauts, while seven others from the same missions served as controls. Heart rate, diastolic and systolic blood pressure, mean arterial pressure, and pulse pressure were determined at each stage of decompression. In-flight ramp tests were performed by the five test astronauts as well as by one of the controls.  Stand tests were repeated shortly after landing, with g-suits inflated.\r\n<p>\r\nSeveral LBNP tests were conducted on each subject before flight and during the mission.\r\nTwo \"ramps,\" a test consisting of a 10-rain rest period, followed by five 5-min stages at\r\neach level of decompression (-10, -20, -30, -40, and -50 mmHg), and then completed with a 5-\r\nmin recovery period after recompression to ambient pressure, were performed preflight, as well\r\nas 4 in flight. One countermeasure session (\"soak\") was performed on the flight day before the nominal landing day. This soak session consists of a standard \"ramp\" test followed by 3.5 h of continuous decompression at a level of 30 mmHg below ambient cabin pressure, ending with a 5-min recovery period. During the time spent at -30 mmHg, the crew member ingested the standard landing day fluid load of salt tablets and water. No postflight LBNP sessions were performed, however, orthostatic tolerance was assessed using stand tests on landing day and 3 days postflight.\r\nBlood pressure, heart rate (HR) and Echocardiographic (2-D and Doppler blood flow) measurements\r\nwere made during each LBNP session. These data were collected approximately every minute throughout the various stages of the tests, except that the Doppler measurements were collected every 30 min during the soak test. Blood pressure (auscultatory technique) was measured using a commercially available automatic blood pressure monitor (ABPM) modified for space flight. A set of ECG leads\r\n(three) were also attached to the subject via the ABPM to determine HR and document electrocardiographic activity. These data were telemetered to the ground in real-time to monitor the\r\ncrew's responses to the LBNP tests. Echocardiography was performed using the American Echocardiographic Research Imaging System (AERIS), a commercial Ultrasound unit modified for flight at the NASA Johnson Space Center (JSC). These data were recorded onboard and returned to JSC for postflight analysis, specifically cardiac dimensions, stroke volume (SV), cardiac output\r\n(CO), and total peripheral resistance (TPR). dimensions, stroke volume (SV), cardiac output\r\n(CO), and total peripheral resistance (TPR).  Preflight testing was performed with flight-like\r\nhardware and techniques for consistency.\r\n<P>RESULTS:<br>\r\nThe soak treatments occurred one or two days before landing for two astronauts. Shortly after landing, diastolic blood pressure and heart rate were lower in the treated astronauts than in the controls, whether they were seated or standing. The controls were more likely than the treated astronauts to have a decrease in systolic pressure after standing. No differences were found between treated astronauts and controls in heart rate and blood pressure during stand tests one to three hours after landing. These results show that the combination of LBNP with ingestion of isotonic saline one or two days before landing may be an effective countermeasure against postflight orthostatic intolerance. However, the countermeasure is impractical for use during Shuttle missions because treatment of one astronaut takes approximately five hours.",
+  "__doi": "10.83263/cvez-h867",
+  "__doi_record_creation_date": "2026-08-23T03:53:19",
+  "__doi_record_modified_date": "2026-08-23T03:53:19"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001449",
+   "label": "DSO 623__1530833563",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Postflight Stand Test Results",
+    "dataset_catalog": "DSO 623__1530833563",
+    "dataset_description": [
+     "This graph depicts postflight orbiter stand test results with the g-suit inflated for subjects in the DSO 623 study.<BR>\r\nSource: Extended Duration Orbiter Medical Project (EDOMP) Final Report 1989-1995."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 623"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "c804915e-e9a5-5f76-8f25-0b3863e0ff39",
+     "label": "DSO_623__1530833563.tiff_STS-52_DSO_623_2010_153_080648.tiff",
+     "type": "file",
+     "ext": "tiff",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

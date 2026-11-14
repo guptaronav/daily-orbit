@@ -1,0 +1,2372 @@
+{
+ "record": {
+  "id": "adbd971a-9c65-5388-acef-ac52d749a113",
+  "_id": "adbd971a-9c65-5388-acef-ac52d749a113",
+  "experiment_title": "Toxicological Assessment of Airborne Volatile Organic Compounds",
+  "pub_document_number": "PUB0000368",
+  "parameter_html": "<table><tr><td>1,1,1-trichloroethane</td></tr><tr><td>1,1,2,2-tetrachloroethane</td></tr><tr><td>2-methyl-1,3-butadiene</td></tr><tr><td>2-methyl-2-propanol</td></tr><tr><td>Acetaldehyde</td></tr><tr><td>Acetone</td></tr><tr><td>Acrylonitrile</td></tr><tr><td>Benzaldehyde</td></tr><tr><td>Benzene</td></tr><tr><td>Bromomethane</td></tr><tr><td>Bromotrifluoromethane</td></tr><tr><td>Butanal</td></tr><tr><td>Butanol</td></tr><tr><td>Butylacetate</td></tr><tr><td>Carbon dioxide</td></tr><tr><td>Carbon monoxide</td></tr><tr><td>Chlorobenzene</td></tr><tr><td>Chloroethane</td></tr><tr><td>Chloroform</td></tr><tr><td>Chloromethane</td></tr><tr><td>Cineole</td></tr><tr><td>Cyclohexane</td></tr><tr><td>Cyclohexanone</td></tr><tr><td>Dichlorodifluoromethane</td></tr><tr><td>Dichloromethane</td></tr><tr><td>Dimethylcyclopentane isomers</td></tr><tr><td>Dimethyldisulfide</td></tr><tr><td>Ethanol</td></tr><tr><td>Ethyl acetate</td></tr><tr><td>Ethylbenzene</td></tr><tr><td>Ethylene</td></tr><tr><td>Ethylene oxide</td></tr><tr><td>Formaldehyde</td></tr><tr><td>Furan</td></tr><tr><td>Heptanal</td></tr><tr><td>Hexachloro-1,3-butadiene</td></tr><tr><td>Hexamethylcyclotrisiloxane</td></tr><tr><td>Hexanal</td></tr><tr><td>Hydrogen</td></tr><tr><td>Isopropanal</td></tr><tr><td>Limonene</td></tr><tr><td>Mesityl oxide</td></tr><tr><td>Meta-xylene</td></tr><tr><td>Methane</td></tr><tr><td>Methanol</td></tr><tr><td>Methyacetate</td></tr><tr><td>Methylcyclohexane</td></tr><tr><td>Methylcyclopentane</td></tr><tr><td>N-butanol</td></tr><tr><td>N-propanol</td></tr><tr><td>O-xylene</td></tr><tr><td>Octafluoropropane</td></tr><tr><td>Octamethylcyclotetrasiloxane</td></tr><tr><td>Pentanal</td></tr><tr><td>Perfluorodimethylcyclohexane</td></tr><tr><td>Propanal</td></tr><tr><td>Propane</td></tr><tr><td>Propenal</td></tr><tr><td>Propene</td></tr><tr><td>Styrene</td></tr><tr><td>Tetrachloroethene</td></tr><tr><td>Toluene</td></tr><tr><td>Trans-1,3-dichloropropene</td></tr><tr><td>Trichloroethene</td></tr><tr><td>Trichlorofluoromethane</td></tr><tr><td>Trimethylsilanol</td></tr><tr><td>Vinyl chloride</td></tr><tr><td>1,1,2-trichloro-1,2,2-trifluoroethane</td></tr><tr><td>1,1,2-trichloroethane</td></tr><tr><td>1,1-dichloroethane</td></tr><tr><td>1,1-dichloroethene</td></tr><tr><td>1,1-dichloropropene</td></tr><tr><td>1,2,4-trichlorobenzene</td></tr><tr><td>1,2,4-trimethylbenzene</td></tr><tr><td>1,2-dibromoethane</td></tr><tr><td>1,2-dichlor-1,1,2,2-tetrafluoroethane</td></tr><tr><td>1,2-dichlorobenzene</td></tr><tr><td>1,2-dichloroethane</td></tr><tr><td>1,2-dichloroethene</td></tr><tr><td>1,2-dichloropropane</td></tr><tr><td>1,3,5-trimethylbenzene</td></tr><tr><td>1,3-butadiene</td></tr><tr><td>1,3-dichlorobenzene</td></tr><tr><td>1,4-dichlorobenzene</td></tr><tr><td>1-chloro-1,1-difluoroethane</td></tr><tr><td>1-fluoro-1,1-dichloroethane</td></tr><tr><td>2,5-dimethylfuran</td></tr><tr><td>2-butanone</td></tr><tr><td>2-butenal</td></tr><tr><td>2-ethoxyethanol</td></tr><tr><td>2-ethyl-1-hexanol</td></tr><tr><td>2-ethylhexanol</td></tr><tr><td>2-heptanone</td></tr><tr><td>2-methanol-2-propanol</td></tr><tr><td>2-methylpropanenitrile</td></tr><tr><td>2-methylfuran</td></tr><tr><td>2-pentanone</td></tr><tr><td>2-pentenal</td></tr><tr><td>3-buten-2-one</td></tr><tr><td>C10 alkanes</td></tr><tr><td>C4 alkanes</td></tr><tr><td>C4 alkenes</td></tr><tr><td>C5 alkanes</td></tr><tr><td>C7 alkanes</td></tr><tr><td>C8 fluorinated hydrocarbon</td></tr><tr><td>Carbon disulfide</td></tr><tr><td>Carbon tetrachloride</td></tr><tr><td>Carbonyl sulfide</td></tr><tr><td>Chloropropenes</td></tr><tr><td>Cis-1,3-dichloropropene</td></tr><tr><td>Decamethylcyclopentasiloxane</td></tr><tr><td>Ethyl ether</td></tr><tr><td>P-Xylene (para-Xylene)</td></tr><tr><td>Pinene isomers</td></tr><tr></tr></table>",
+  "__source_key": "cl62axu5vcd0j01o61ydpcpt0",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:James, John\">Principal Investigator: James, John</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Beck, Steve\">Co-Investigator: Beck, Steve</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Boyd, John\">Co-Investigator: Boyd, John</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Covington, Phillip\">Co-Investigator: Covington, Phillip</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Limero, Thomas\">Co-Investigator: Limero, Thomas</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Lind, Debra\">Co-Investigator: Lind, Debra</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Martin, Mildred\">Co-Investigator: Martin, Mildred</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Matney, Marilyn\">Co-Investigator: Matney, Marilyn</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Yang, Lily\">Co-Investigator: Yang, Lily</a>",
+  "image_name": [
+   "Floating Grab Sample Container (GSC)",
+   "Grab Sample Container (GSC)",
+   "Grab Sample Container (GSC) Sampling Session",
+   "Solid Sorbent Air Sampler (SSAS)",
+   "Solid Sorbent Air Sampler (SSAS) in Spektr Module"
+  ],
+  "keyword": [
+   "Environmental exposure",
+   "Volatilization",
+   "Organic chemicals",
+   "Hazardous substances",
+   "Environmental monitoring",
+   "Maximum allowable concentration",
+   "Air pollutants"
+  ],
+  "keyword_name": "Air pollutants",
+  "__record_version": 29,
+  "experiment_description": "OBJECTIVES:\r\n<br>Astronauts living for an extended period of time in a closed environment, such as the Mir Space Station, are continuously exposed to pollutants in respirable air. Pollutants originate from material off-gassing, human metabolism, systems and payload leaks, and utility chemicals. If pollutant concentrations reach high levels, crewmembers may experience health problems and scientific experiments could be confounded. This experiment was designed to sample the Mir Space Station air at various locations and times in order to estimate the effects of airborne pollutants on crew health. The following were objectives of this experiment:<p>\r\n<li>Determine if Mir air meets U.S. standards for crew health during long-term exposure to trace contaminants\r\n<li>Sample air using several types of hardware to compare similarity of sampling methods\r\n<li>Sample Mir Space Station air at multiple locations simultaneously to assess spatial variations in the Mir complex\r\n<li>Measure ethylene concentrations to determine if plant growth experiments could be affected. <li>Assess the rate of pollutant mixing after hatch opening between shuttle and Mir.\r\n<p>APPROACH:<br>In-flight air sampling was performed on NASA-Mir 2-7. Instantaneous air samples were obtained using grab sample containers (GSCs), and 24 hour time-averaged air samples were obtained using solid sorbent air samplers (SSASs). Formaldehyde badges were used to measure formaldehyde concentrations throughout Mir.</p>\r\n<p>The GSCs and SSASs were tested preflight at the Johnson Space Center (JSC) Toxicology Laboratory to ensure that each sampler was clean and could perform as expected. Formaldehyde badges were tested, reconfigured to fit the NASA flight configuration, and packaged for use during flight.</p>\r\n<p>During flight, GSC and SSAS samples were taken approximately every thirty days. After each sampling session, the date, time, and location were recorded. Once during each mission, a spatial variation assessment was performed by sampling multiple modules simultaneously. The formaldehyde badges were worn by the crewmembers and also placed in the individual modules.</p>\r\n<p>Upon return to Earth, the GSC samples were analyzed by gas chromatography (GC) and a modified EPA TO-14 gas chromatography/mass spectrometry (GC/MS) method. The GC analysis was used to estimate ethylene concentrations. The SSAS samples were analyzed only via the GC/MS method. The filters were removed from the formaldehyde badges and extracted with formaldehyde-free water. The aqueous extracts were then analyzed for formaldehyde using a chromotropic acid-spectrophotometric method.\r\n<p>RESULTS:\r\n<br>The air quality on NASA-Mir 2-7 met, and exceeded, U.S. standards for human-rated spacecraft. However, the irritant group was slightly above a toxicity index of 1 during NASA-Mir 2, 6, and 7, and the carbon dioxide toxicity index was above 1 during NASA-Mir 2 and 3. The toxicity index was calculated for each toxicological group by summing the ratios of the measured concentrations to the space maximum allowable concentrations for each contaminant in a toxicological group. The high toxicity index of the irritant group was due in part to high concentrations of formaldehyde.</p>\r\n<p>As hypothesized, spatial variations of contaminants were small within the Mir complex for both SSAS and GSC samples. The variations were most likely caused by contaminants localized in the different modules. The rate of pollutant mixing after hatch opening between Shuttle and Mir could not be established because of too few samples. A comparison of the U.S. and Russian air sampling methods showed that the Russian AK-1 sorbent system samplers, on average, measured higher concentrations than did the U.S. samplers.</p>\r\n<p>During the course of this experiment, several opportunities arose that allowed scientists to study situations that had previously been unexamined. During NASA-Mir 4, a fire was caused by the solid fuel oxygen generator (SFOG); this presented an opportunity to study the contaminants released into the Mir atmosphere due to the fire, and also assess how well the life support system scrubs contaminants from the air. The life support system worked excellent and brought the pollutants associated with the fire back to baseline concentrations within 32 hours. During NASA-Mir 4 the investigators also had the opportunity to compare the results of the formaldehyde badges to those of the formaldehyde active sampler (FAS). Because of the difficulties involved with collecting inflight formaldehyde samples, conclusive results were not obtained. However, another opportunity arose to compare these two methods during the second phase of the Lunar Mars Life Support Test Project (LMLSTP). The results of this test verified the validity of the badges when compared to other methods.</p>\r\n<p>During NASA-Mir 5, all sampling hardware was lost due to the decompression of the Spektr module. The focus of the experiment then changed to analyzing how well the humidity control system would scrub a large concentration of ethylene glycol from the air. It was hypothesized that ethylene glycol present in Mir air due to a leak would be removed quickly. However, ethylene glycol detector tubes were used to measure ethylene concentrations, and it took one month for the concentration to drop below the 180-day SMAC level. Additionally, ethylene concentrations measured by the GSCs during the other NASA-Mir missions were determined to be high enough to affect plant growth experiments.</p>\r\n<p>The final unscheduled event occurred during a low temperature catalytic oxidizer (LTCO) burn. Improper operation of the LTCO caused dangerously high levels of carbon monoxide (CO) to be released into the Mir atmosphere. The combustion products analyzer (CPA) recorded high levels of CO, but because the crew appeared to be doing well after the incident, the high levels were thought to have been caused by hydrogen interference. Because this was such a serious toxicological incident, many steps have been taken to prevent a reoccurrence. One step, which will be used on the International Space Station (ISS), is the use of a new CPA that has much less cross sensitivity to hydrogen. <end>",
+  "indexed": "2026-08-23T04:14:20.995937+00:00",
+  "GUID": "cl62axu5vcd0j01o61ydpcpt0",
+  "__model_type": "lsda_experiment",
+  "__dirid": "adbd971a-9c65-5388-acef-ac52d749a113",
+  "__record_size_wo_doccontent": 162197,
+  "experiment_parms_tissue2": "N/A",
+  "experiment_parms_tissue1": "N/A",
+  "__update_method": "Update CDM",
+  "archive_status_index": 1,
+  "experiment_type_lk": [
+   "NASA-Mir Program"
+  ],
+  "__record_modified_date": "2026-08-23T04:14:20.995937+00:00",
+  "proposal_source": [
+   "N/A"
+  ],
+  "__indexed": "2026-08-23T04:14:20.995937+00:00",
+  "__record_creation_date": "2022-07-28T19:53:30.663Z",
+  "__record_size": 162197,
+  "__model_version": 60,
+  "payload_id": "NASA 3",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "MSD007",
+  "parameter_name": [
+   "1,1,1-trichloroethane",
+   "1,1,2,2-tetrachloroethane",
+   "2-methyl-1,3-butadiene",
+   "2-methyl-2-propanol",
+   "Acetaldehyde",
+   "Acetone",
+   "Acrylonitrile",
+   "Benzaldehyde",
+   "Benzene",
+   "Bromomethane",
+   "Bromotrifluoromethane",
+   "Butanal",
+   "Butanol",
+   "Butylacetate",
+   "Carbon dioxide",
+   "Carbon monoxide",
+   "Chlorobenzene",
+   "Chloroethane",
+   "Chloroform",
+   "Chloromethane",
+   "Cineole",
+   "Cyclohexane",
+   "Cyclohexanone",
+   "Dichlorodifluoromethane",
+   "Dichloromethane",
+   "Dimethylcyclopentane isomers",
+   "Dimethyldisulfide",
+   "Ethanol",
+   "Ethyl acetate",
+   "Ethylbenzene",
+   "Ethylene",
+   "Ethylene oxide",
+   "Formaldehyde",
+   "Furan",
+   "Heptanal",
+   "Hexachloro-1,3-butadiene",
+   "Hexamethylcyclotrisiloxane",
+   "Hexanal",
+   "Hydrogen",
+   "Isopropanal",
+   "Limonene",
+   "Mesityl oxide",
+   "Meta-xylene",
+   "Methane",
+   "Methanol",
+   "Methyacetate",
+   "Methylcyclohexane",
+   "Methylcyclopentane",
+   "N-butanol",
+   "N-propanol",
+   "O-xylene",
+   "Octafluoropropane",
+   "Octamethylcyclotetrasiloxane",
+   "Pentanal",
+   "Perfluorodimethylcyclohexane",
+   "Propanal",
+   "Propane",
+   "Propenal",
+   "Propene",
+   "Styrene",
+   "Tetrachloroethene",
+   "Toluene",
+   "Trans-1,3-dichloropropene",
+   "Trichloroethene",
+   "Trichlorofluoromethane",
+   "Trimethylsilanol",
+   "Vinyl chloride",
+   "1,1,2-trichloro-1,2,2-trifluoroethane",
+   "1,1,2-trichloroethane",
+   "1,1-dichloroethane",
+   "1,1-dichloroethene",
+   "1,1-dichloropropene",
+   "1,2,4-trichlorobenzene",
+   "1,2,4-trimethylbenzene",
+   "1,2-dibromoethane",
+   "1,2-dichlor-1,1,2,2-tetrafluoroethane",
+   "1,2-dichlorobenzene",
+   "1,2-dichloroethane",
+   "1,2-dichloroethene",
+   "1,2-dichloropropane",
+   "1,3,5-trimethylbenzene",
+   "1,3-butadiene",
+   "1,3-dichlorobenzene",
+   "1,4-dichlorobenzene",
+   "1-chloro-1,1-difluoroethane",
+   "1-fluoro-1,1-dichloroethane",
+   "2,5-dimethylfuran",
+   "2-butanone",
+   "2-butenal",
+   "2-ethoxyethanol",
+   "2-ethyl-1-hexanol",
+   "2-ethylhexanol",
+   "2-heptanone",
+   "2-methanol-2-propanol",
+   "2-methylpropanenitrile",
+   "2-methylfuran",
+   "2-pentanone",
+   "2-pentenal",
+   "3-buten-2-one",
+   "C10 alkanes",
+   "C4 alkanes",
+   "C4 alkenes",
+   "C5 alkanes",
+   "C7 alkanes",
+   "C8 fluorinated hydrocarbon",
+   "Carbon disulfide",
+   "Carbon tetrachloride",
+   "Carbonyl sulfide",
+   "Chloropropenes",
+   "Cis-1,3-dichloropropene",
+   "Decamethylcyclopentasiloxane",
+   "Ethyl ether",
+   "P-Xylene (para-Xylene)",
+   "Pinene isomers"
+  ],
+  "payload_part": "NASA 3",
+  "exp_index": 850,
+  "research_area": [
+   "Environmental monitoring",
+   "Toxicology"
+  ],
+  "pme_role_with_name": [
+   "Co-Investigator: Beck, Steve",
+   "Co-Investigator: Boyd, John",
+   "Co-Investigator: Covington, Phillip",
+   "Co-Investigator: Limero, Thomas",
+   "Co-Investigator: Lind, Debra",
+   "Co-Investigator: Martin, Mildred",
+   "Co-Investigator: Matney, Marilyn",
+   "Co-Investigator: Yang, Lily",
+   "Principal Investigator: James, John"
+  ],
+  "missions": [
+   [
+    [
+     "NASA 3"
+    ]
+   ],
+   [
+    [
+     "NASA 4"
+    ]
+   ],
+   [
+    [
+     "NASA 5"
+    ]
+   ],
+   [
+    [
+     "NASA 6"
+    ]
+   ],
+   [
+    [
+     "NASA 7"
+    ]
+   ],
+   [
+    [
+     "NASA 2"
+    ]
+   ]
+  ],
+  "PI": [
+   "James, John"
+  ],
+  "_file_extension": [],
+  "experiment_identifier": [
+   "MSD007"
+  ],
+  "mission_id": [
+   [
+    [
+     "NASA 3"
+    ]
+   ],
+   [
+    [
+     "NASA 4"
+    ]
+   ],
+   [
+    [
+     "NASA 5"
+    ]
+   ],
+   [
+    [
+     "NASA 6"
+    ]
+   ],
+   [
+    [
+     "NASA 7"
+    ]
+   ],
+   [
+    [
+     "NASA 2"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "James, John"
+  ],
+  "archive_status": "Data preservation is complete. All datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Nasa-Mir",
+  "__source_field_concat": "PUB0000368 NASA 3 cl62axu5vcd0j01o61ydpcpt0 Air pollutants N/A N/A  NASA 3 Toxicological Assessment of Airborne Volatile Organic Compounds MSD007 Nasa-Mir Data preservation is complete. All datasets are publicly available.",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:\r\n<br>Astronauts living for an extended period of time in a closed environment, such as the Mir Space Station, are continuously exposed to pollutants in respirable air. Pollutants originate from material off-gassing, human metabolism, systems and payload leaks, and utility chemicals. If pollutant concentrations reach high levels, crewmembers may experience health problems and scientific experiments could be confounded. This experiment was designed to sample the Mir Space Station air at various locations and times in order to estimate the effects of airborne pollutants on crew health. The following were objectives of this experiment:<p>\r\n<li>Determine if Mir air meets U.S. standards for crew health during long-term exposure to trace contaminants\r\n<li>Sample air using several types of hardware to compare similarity of sampling methods\r\n<li>Sample Mir Space Station air at multiple locations simultaneously to assess spatial variations in the Mir complex\r\n<li>Measure ethylene concentrations to determine if plant growth experiments could be affected. <li>Assess the rate of pollutant mixing after hatch opening between shuttle and Mir.\r\n<p>APPROACH:<br>In-flight air sampling was performed on NASA-Mir 2-7. Instantaneous air samples were obtained using grab sample containers (GSCs), and 24 hour time-averaged air samples were obtained using solid sorbent air samplers (SSASs). Formaldehyde badges were used to measure formaldehyde concentrations throughout Mir.</p>\r\n<p>The GSCs and SSASs were tested preflight at the Johnson Space Center (JSC) Toxicology Laboratory to ensure that each sampler was clean and could perform as expected. Formaldehyde badges were tested, reconfigured to fit the NASA flight configuration, and packaged for use during flight.</p>\r\n<p>During flight, GSC and SSAS samples were taken approximately every thirty days. After each sampling session, the date, time, and location were recorded. Once during each mission, a spatial variation assessment was performed by sampling multiple modules simultaneously. The formaldehyde badges were worn by the crewmembers and also placed in the individual modules.</p>\r\n<p>Upon return to Earth, the GSC samples were analyzed by gas chromatography (GC) and a modified EPA TO-14 gas chromatography/mass spectrometry (GC/MS) method. The GC analysis was used to estimate ethylene concentrations. The SSAS samples were analyzed only via the GC/MS method. The filters were removed from the formaldehyde badges and extracted with formaldehyde-free water. The aqueous extracts were then analyzed for formaldehyde using a chromotropic acid-spectrophotometric method.\r\n<p>RESULTS:\r\n<br>The air quality on NASA-Mir 2-7 met, and exceeded, U.S. standards for human-rated spacecraft. However, the irritant group was slightly above a toxicity index of 1 during NASA-Mir 2, 6, and 7, and the carbon dioxide toxicity index was above 1 during NASA-Mir 2 and 3. The toxicity index was calculated for each toxicological group by summing the ratios of the measured concentrations to the space maximum allowable concentrations for each contaminant in a toxicological group. The high toxicity index of the irritant group was due in part to high concentrations of formaldehyde.</p>\r\n<p>As hypothesized, spatial variations of contaminants were small within the Mir complex for both SSAS and GSC samples. The variations were most likely caused by contaminants localized in the different modules. The rate of pollutant mixing after hatch opening between Shuttle and Mir could not be established because of too few samples. A comparison of the U.S. and Russian air sampling methods showed that the Russian AK-1 sorbent system samplers, on average, measured higher concentrations than did the U.S. samplers.</p>\r\n<p>During the course of this experiment, several opportunities arose that allowed scientists to study situations that had previously been unexamined. During NASA-Mir 4, a fire was caused by the solid fuel oxygen generator (SFOG); this presented an opportunity to study the contaminants released into the Mir atmosphere due to the fire, and also assess how well the life support system scrubs contaminants from the air. The life support system worked excellent and brought the pollutants associated with the fire back to baseline concentrations within 32 hours. During NASA-Mir 4 the investigators also had the opportunity to compare the results of the formaldehyde badges to those of the formaldehyde active sampler (FAS). Because of the difficulties involved with collecting inflight formaldehyde samples, conclusive results were not obtained. However, another opportunity arose to compare these two methods during the second phase of the Lunar Mars Life Support Test Project (LMLSTP). The results of this test verified the validity of the badges when compared to other methods.</p>\r\n<p>During NASA-Mir 5, all sampling hardware was lost due to the decompression of the Spektr module. The focus of the experiment then changed to analyzing how well the humidity control system would scrub a large concentration of ethylene glycol from the air. It was hypothesized that ethylene glycol present in Mir air due to a leak would be removed quickly. However, ethylene glycol detector tubes were used to measure ethylene concentrations, and it took one month for the concentration to drop below the 180-day SMAC level. Additionally, ethylene concentrations measured by the GSCs during the other NASA-Mir missions were determined to be high enough to affect plant growth experiments.</p>\r\n<p>The final unscheduled event occurred during a low temperature catalytic oxidizer (LTCO) burn. Improper operation of the LTCO caused dangerously high levels of carbon monoxide (CO) to be released into the Mir atmosphere. The combustion products analyzer (CPA) recorded high levels of CO, but because the crew appeared to be doing well after the incident, the high levels were thought to have been caused by hydrogen interference. Because this was such a serious toxicological incident, many steps have been taken to prevent a reoccurrence. One step, which will be used on the International Space Station (ISS), is the use of a new CPA that has much less cross sensitivity to hydrogen. <end>",
+  "__doi": "10.83263/xj28-wp80",
+  "__doi_record_creation_date": "2026-08-23T04:14:20",
+  "__doi_record_modified_date": "2026-08-23T04:14:20"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000047",
+   "label": "J000988",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "NASA 6 Partial Pressure of Carbon Dioxide in mmHg",
+    "dataset_catalog": "J000988",
+    "dataset_description": [
+     "This graph shows the partial pressure of carbon dioxide (mmHg) as measured by the carbon dioxide sensor on Mir space station during NASA 6.<END>"
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "MSD007"
+    ]
+   },
+   "meta": "1 file \u00b7 23.5 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "d1b61f58-d797-5207-b0a5-36d2ac78e1a6",
+     "label": "JMMIRMSD007_59.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 24064,
+     "meta": "23.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000256",
+   "label": "J000980",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Toxicity Index Results of Individual Contaminants from NASA 6 Solid Sorbent Air Sample (SSAS) S/N 1005 Air Samples",
+    "dataset_catalog": "J000980",
+    "dataset_description": [
+     "This table shows the analytical results of the time averaged air samples obtained on the Mir space station.  The location, date, and time the sample was taken are listed, along with the contaminants identified and their toxicity index value (T-value).<END>"
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "MSD007"
+    ]
+   },
+   "meta": "1 file \u00b7 18.4 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "feef9005-f9f1-581e-a9c1-25597fc4d2fc",
+     "label": "JMMIRMSD007_51.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 18842,
+     "meta": "18.4 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000050",
+   "label": "J001017",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Toxicity Index Results of Individual Contaminants from NASA 7 Grab Sample Container (GSC) Air Samples",
+    "dataset_catalog": "J001017",
+    "dataset_description": [
+     "This table shows the analytical results of the container air samples obtained on the Mir space station.  The location, date, and time the sample was taken are listed, along with the contaminants identified and their toxicity index value (T-value).<END>"
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "MSD007"
+    ]
+   },
+   "meta": "1 file \u00b7 33.5 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "ac6b09e3-a611-521c-b5aa-af6d36a777ba",
+     "label": "JMMIRMSD007_90.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 34304,
+     "meta": "33.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000463",
+   "label": "J001021",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Surrogate Recoveries and Flow-Rate Changes of NASA 3 Hardware",
+    "dataset_catalog": "J001021",
+    "dataset_description": [
+     "This table shows the percentage of acetone-C13, fluorobenzene-D5, and chlorobenzene-D5 recovered after space flight from the Grab Sample Containers (GSC) and the Solid Sorbent Air Samplers (SSAS).  The flow difference of the hardware pre- and post-flight is also listed.<END>"
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "MSD007"
+    ]
+   },
+   "meta": "1 file \u00b7 5.5 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "59684a58-86fc-568e-96f8-fa2a76d3f020",
+     "label": "JMMIRMSD007_98.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 5632,
+     "meta": "5.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000257",
+   "label": "J000986",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Analysis of Air Samples Using Space Maximum Allowable Concentrations (SMACs)",
+    "dataset_catalog": "J000986",
+    "dataset_description": [
+     "This table is a comparison of each toxicological group\u00d5s toxicity index, calculated using the Russian limiting permissible concentration (LPC) values and the U.S. space maximum allowable concentration (SMAC) values.<END>"
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "MSD007"
+    ]
+   },
+   "meta": "1 file \u00b7 6.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "c5690b85-392f-5e99-bdad-46b15edff08c",
+     "label": "JMMIRMSD007_57.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 6144,
+     "meta": "6.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000258",
+   "label": "J001024",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Comparison of U.S. and Russian Methods for Air Quality Assessment",
+    "dataset_catalog": "J001024",
+    "dataset_description": [
+     "This table lists the important toxicological groups identified from NASA 7 samples, along with the Russian and U.S. calculated toxicity indexes.  The major components of the toxicological groups are also listed.<END>"
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "MSD007"
+    ]
+   },
+   "meta": "1 file \u00b7 14.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "5b1674b4-0bd6-56a3-9b7a-5de7535993a3",
+     "label": "JMMIRMSD007_101.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 14336,
+     "meta": "14.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000346",
+   "label": "J001034",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Surrogate Recoveries and Flow-Rate Changes of NASA 2 Hardware",
+    "dataset_catalog": "J001034",
+    "dataset_description": [
+     "This table shows the percentage of acetone-C13, fluorobenzene-D5, and chlorobenzene-D5 recovered after space flight from the Grab Sample Containers (GSC) and the Solid Sorbent Air Samplers (SSAS).  <END>"
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "MSD007"
+    ]
+   },
+   "meta": "1 file \u00b7 5.5 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "d4cac9b3-927b-5500-87a5-f04861c04218",
+     "label": "JMMIRMSD007_111.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 5632,
+     "meta": "5.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000469",
+   "label": "J001035",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Analysis of Formaldehyde Badges Deployed On NASA 3",
+    "dataset_catalog": "J001035",
+    "dataset_description": [
+     "This table shows the results obtained from the analysis of the formaldehyde badges.  Listed are the date and location where the sample was taken, along with the measured concenration of formaldehyde in parts per million (ppm).  The time the sample period started and ended is also listed.<END>"
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "MSD007"
+    ]
+   },
+   "meta": "1 file \u00b7 21.5 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "9dc1362e-dda1-53ec-b55c-7208c70d5bad",
+     "label": "JMMIRMSD007_113.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 22016,
+     "meta": "21.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000565",
+   "label": "J000992",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Toxicity Index Results of Individual Contaminants from NASA 4 Grab Sample Container (GSC) Air Samples",
+    "dataset_catalog": "J000992",
+    "dataset_description": [
+     "This table shows the analytical results of the container air samples obtained on the Mir space station.  The location, date, and time the sample was taken are listed, along with the contaminants identified and their toxicity index value (T-value).<END>"
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "MSD007"
+    ]
+   },
+   "meta": "1 file \u00b7 42.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "7cdb0a33-5472-52a7-8f75-d2ed8071a1a8",
+     "label": "JMMIRMSD007_63.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 43008,
+     "meta": "42.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000566",
+   "label": "J000998",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Surrogate Recoveries and Flow-Rate Changes of NASA 4 Hardware",
+    "dataset_catalog": "J000998",
+    "dataset_description": [
+     "This table shows the percentage of acetone-C13, fluorobenzene-D5, and chlorobenzene-D5 recovered after space flight from the Grab Sample Containers (GSC) and the Solid Sorbent Air Samplers (SSAS).  The flow difference of the hardware pre- and post-flight is also listed.<END>"
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "MSD007"
+    ]
+   },
+   "meta": "1 file \u00b7 5.5 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "c50edd8e-5789-5d0a-8058-5f617d2a63ac",
+     "label": "JMMIRMSD007_69.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 5632,
+     "meta": "5.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000567",
+   "label": "J001000",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Analytical Results of NASA 2 Grab Sample Container (GSC) Air Samples",
+    "dataset_catalog": "J001000",
+    "dataset_description": [
+     "This table shows the analytical results of the container air samples obtained on the Mir space station.  The location, date, and time the sample was taken are listed, along with the contaminants identified and their measured concentrations (mg/m&#179;).<END>"
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "MSD007"
+    ]
+   },
+   "meta": "1 file \u00b7 39.5 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "6c854db7-b09c-58f6-bf97-f769742ceb4d",
+     "label": "JMMIRMSD007_71.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 40448,
+     "meta": "39.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000568",
+   "label": "J001008",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Analytical Results of NASA 3 Grab Sample Container (GSC) Air Samples",
+    "dataset_catalog": "J001008",
+    "dataset_description": [
+     "This table shows the analytical results of the container air samples obtained on the Mir space station.  The location, date, and time the sample was taken are listed, along with the contaminants identified and their measured concentrations (mg/m&#179;).<END>"
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "MSD007"
+    ]
+   },
+   "meta": "1 file \u00b7 44.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "96d745f1-3250-54c7-b87a-39c0e2c3721f",
+     "label": "JMMIRMSD007_81.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 45056,
+     "meta": "44.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000600",
+   "label": "J001029",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Priority Trace Contaminants to Assess Air Quality Under Nominal International Space Station (ISS) Operating Conditions: NASA 7 Data",
+    "dataset_catalog": "J001029",
+    "dataset_description": "",
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "MSD007"
+    ]
+   },
+   "meta": "1 file \u00b7 19.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "a1ff771a-dcba-5c40-b27c-b48cc88675f9",
+     "label": "JMMIRMSD007_106.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 19456,
+     "meta": "19.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000176",
+   "label": "J000994",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Toxicity Index Results of Individual Contaminants from NASA 4 Solid Sorbent Air Sample (SSAS) S/N 1004 Air Samples",
+    "dataset_catalog": "J000994",
+    "dataset_description": [
+     "This table shows the analytical results of the time averaged air samples obtained on the Mir space station.  The location, date, and time the sample was taken are listed, along with the contaminants identified and their toxicity index value (T-value).<END>"
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "MSD007"
+    ]
+   },
+   "meta": "1 file \u00b7 30.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "ed3c966d-f086-53ac-a1ca-22e108102dd9",
+     "label": "JMMIRMSD007_65.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 30720,
+     "meta": "30.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000046",
+   "label": "J000985",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Surrogate Recoveries and Flow-Rate Changes of NASA 6 Hardware",
+    "dataset_catalog": "J000985",
+    "dataset_description": [
+     "This table shows the percentage of acetone-C13, fluorobenzene-D5, and chlorobenzene-D5 recovered after space flight from the Grab Sample Containers (GSC) and the Solid Sorbent Air Samplers (SSAS).  The flow difference of the hardware pre- and post-flight is also listed.<END>"
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "MSD007"
+    ]
+   },
+   "meta": "1 file \u00b7 13.5 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "a2198645-af42-586f-b21d-482ba48bf155",
+     "label": "JMMIRMSD007_56.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 13824,
+     "meta": "13.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000049",
+   "label": "J001002",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Analytical Results of NASA 2 Solid Sorbent Air Sampler (SSAS) S/N 1005 Air Samples",
+    "dataset_catalog": "J001002",
+    "dataset_description": [
+     "This table shows the analytical results of the time averaged air samples obtained on the Mir space station.  The location, date, and time the sample was taken are listed, along with the contaminants identified and their measured concentrations (mg/m&#179;).<END>"
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "MSD007"
+    ]
+   },
+   "meta": "1 file \u00b7 31.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "fa8cd7bf-90b6-523c-95cc-60dee4abfc35",
+     "label": "JMMIRMSD007_73.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 31744,
+     "meta": "31.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000048",
+   "label": "J000996",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Results For Formaldehyde Active Sampler Comparison (FASC) Study Conducted During STS-84 Docked Phase",
+    "dataset_catalog": "J000996",
+    "dataset_description": [
+     "This table shows a comparison of the measured concentrations of formaldehyde as obtained from formaldehyde badges and the formaldehyde active sampler (FAS).<END>"
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "MSD007"
+    ]
+   },
+   "meta": "1 file \u00b7 14.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "260115d1-183a-58eb-9892-ad20e1c81153",
+     "label": "JMMIRMSD007_67.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 14336,
+     "meta": "14.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000177",
+   "label": "J001033",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Estimated Concentrations (mg/m3) of Ethylene Glycol Following The Leak In Kvant",
+    "dataset_catalog": "J001033",
+    "dataset_description": [
+     "This table shows the estimated concentrations (mg/m&#179;) of ethylene glycol found in various Mir station modules following the leak on flight day 22.<END>"
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "MSD007"
+    ]
+   },
+   "meta": "1 file \u00b7 6.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "361327b8-548e-53ed-a8b8-3f23315a4d48",
+     "label": "JMMIRMSD007_110.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 6144,
+     "meta": "6.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000750",
+   "label": "J000983",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Analysis of Contaminants In Canisters By Toxicological Category for NASA 6",
+    "dataset_catalog": "J000983",
+    "dataset_description": [
+     "This table groups contaminants found in Mir canister samples into toxicological categories.  The toxicity index for the individual contaminants are shown, along with the overall categories toxicity index for each sampling session.  The average group toxicity index for all sampling sessions is also shown.<END>"
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "MSD007"
+    ]
+   },
+   "meta": "1 file \u00b7 17.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "b10074a6-ff27-50a4-becf-16ecc0cb5d7f",
+     "label": "JMMIRMSD007_54.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 17408,
+     "meta": "17.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000752",
+   "label": "J001037",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Mir Fire During NASA 4: Toxicological Analysis of Samples Returned on the Soyuz",
+    "dataset_catalog": "J001037",
+    "dataset_description": [
+     "This is a  brief report detailing the results of the analysis of four grab sample container (GSC) samples and 20 formaldehyde badges used shortly after the solid fuel oxygen generator fire (SFOG) that occurred on the Mir space station during NASA 4, February 23, 1997."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "MSD007"
+    ]
+   },
+   "meta": "1 file \u00b7 32.5 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "b9f1b5a3-eefa-5ded-a1f9-b1201bb85260",
+     "label": "JMMIRMSD007_177.doc",
+     "type": "file",
+     "ext": "doc",
+     "file_size": 33280,
+     "meta": "32.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000874",
+   "label": "J001013",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Toxicity Index Results of Individual Contaminants from NASA 3 Solid Sorbent Air Sample (SSAS) S/N 0011 Air Samples",
+    "dataset_catalog": "J001013",
+    "dataset_description": [
+     "This table shows the analytical results of the time averaged air samples obtained on the Mir space station.  The location, date, and time the sample was taken are listed, along with the contaminants identified and their toxicity index value (T-value).<END>"
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "MSD007"
+    ]
+   },
+   "meta": "1 file \u00b7 31.3 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "7c411282-5024-5ddb-acf8-151787a1deff",
+     "label": "JMMIRMSD007_86.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 32051,
+     "meta": "31.3 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000259",
+   "label": "J001036",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Mir Fire During NASA 4: Toxicological Analysis of Samples Returned on the Soyuz",
+    "dataset_catalog": "J001036",
+    "dataset_description": [
+     "Three spreadsheets that contain the results of the four grab sample container (GSC) samples and 20 formaldehyde badge samples that were obtained shortly after the solid fuel oxygen generator fire (SFOG) that occurred on the Mir space station during NASA 4, February 23, 1997."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "MSD007"
+    ]
+   },
+   "meta": "1 file \u00b7 119.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "e547b3b1-dda9-52c0-8c5f-70a7946dc5d8",
+     "label": "JMMIRMSD007_112.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 121856,
+     "meta": "119.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000873",
+   "label": "J000997",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Analysis of Contaminants In Canisters By Toxicological Category (Excludes Samples After Fire) for NASA 4",
+    "dataset_catalog": "J000997",
+    "dataset_description": [
+     "This table groups contaminants found in Mir canister samples into toxicological categories.  The toxicity index for the individual contaminants are shown, along with the overall categories toxicity index for each sampling session.  The average group toxicity index for all sampling sessions is also shown.<END>"
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "MSD007"
+    ]
+   },
+   "meta": "1 file \u00b7 8.5 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "63095104-d686-5e26-9ca0-26b31df43376",
+     "label": "JMMIRMSD007_68.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 8704,
+     "meta": "8.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000751",
+   "label": "J001018",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Toxicity Index Results of Individual Contaminants from NASA 7 Solid Sorbent Air Sample (SSAS) S/N 0013 Air Samples",
+    "dataset_catalog": "J001018",
+    "dataset_description": [
+     "This table shows the analytical results of the time averaged air samples obtained on the Mir space station.  The location, date, and time the sample was taken are listed, along with the contaminants identified and their toxicity index value (T-value).<END>"
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "MSD007"
+    ]
+   },
+   "meta": "1 file \u00b7 18.2 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "92b8e9ef-c539-5152-87ba-6120af938971",
+     "label": "JMMIRMSD007_91.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 18637,
+     "meta": "18.2 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000599",
+   "label": "J001016",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Analytical Results of NASA 7 Solid Sorbent Air Sampler (SSAS) S/N 0011 Air Samples",
+    "dataset_catalog": "J001016",
+    "dataset_description": [
+     "This table shows the analytical results of the time averaged air samples obtained on the Mir space station.  The location, date, and time the sample was taken are listed, along with the contaminants identified and their measured concentrations (mg/m&#179;).<END>"
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "MSD007"
+    ]
+   },
+   "meta": "1 file \u00b7 17.4 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "aab365bd-8f60-5c5f-8597-7948513447f9",
+     "label": "JMMIRMSD007_89.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 17818,
+     "meta": "17.4 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001255",
+   "label": "J000979",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Toxicity Index Results of Individual Contaminants from NASA 6 Grab Sample Container (GSC) Air Samples",
+    "dataset_catalog": "J000979",
+    "dataset_description": [
+     "This table shows the analytical results of the container air samples obtained on the Mir space station.  The location, date, and time the sample was taken are listed, along with the contaminants identified and their toxicity index value (T-value).<END>"
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "MSD007"
+    ]
+   },
+   "meta": "1 file \u00b7 26.8 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "d29056db-1acf-574b-8d20-df8754ac2ab6",
+     "label": "JMMIRMSD007_50.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 27443,
+     "meta": "26.8 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001258",
+   "label": "J001014",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Analytical Results of NASA 7 Grab Sample Container (GSC) Air Samples",
+    "dataset_catalog": "J001014",
+    "dataset_description": [
+     "This table shows the analytical results of the container air samples obtained on the Mir space station.  The location, date, and time the sample was taken are listed, along with the contaminants identified and their measured concentrations (mg/m&#179;).<END>"
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "MSD007"
+    ]
+   },
+   "meta": "1 file \u00b7 34.5 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "8aea9011-35b5-5698-b7b1-60f547032b18",
+     "label": "JMMIRMSD007_87.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 35328,
+     "meta": "34.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001256",
+   "label": "J000982",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Analysis of Formaldehyde Badges Deployed on NASA 6",
+    "dataset_catalog": "J000982",
+    "dataset_description": [
+     "This table shows the results obtained from the analysis of the formaldehyde badges.  Listed are the date and location where the sample was taken, along with the measured concenration of formaldehyde in parts per million (ppm).  <END>"
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "MSD007"
+    ]
+   },
+   "meta": "1 file \u00b7 4.2 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "022d7812-aa28-524f-a2e9-e0dda2c6649b",
+     "label": "JMMIRMSD007_53.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 4321,
+     "meta": "4.2 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001257",
+   "label": "J000990",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Analytical Results of NASA 4 Solid Sorbent Air Sampler (SSAS) S/N 1002 Air Samples",
+    "dataset_catalog": "J000990",
+    "dataset_description": [
+     "This table shows the analytical results of the time averaged air samples obtained on the Mir space station.  The location, date, and time the sample was taken are listed, along with the contaminants identified and their measured concentrations (mg/m&#179;).<END>"
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "MSD007"
+    ]
+   },
+   "meta": "1 file \u00b7 44.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "7b02a790-062e-5dfa-84ec-e07b9dc256f9",
+     "label": "JMMIRMSD007_61.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 45056,
+     "meta": "44.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001259",
+   "label": "J001022",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Analysis of Contaminants In Canisters By Toxicological Category for NASA 3",
+    "dataset_catalog": "J001022",
+    "dataset_description": [
+     "This table groups contaminants found in Mir canister samples into toxicological categories.  The toxicity index for the individual contaminants are shown, along with the overall categories toxicity index for each sampling session.  The average group toxicity index for all sampling sessions is also shown.<END>"
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "MSD007"
+    ]
+   },
+   "meta": "1 file \u00b7 17.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "b2e39992-8e23-556d-b056-85273f405f8e",
+     "label": "JMMIRMSD007_99.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 17408,
+     "meta": "17.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001013",
+   "label": "J001007",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Analysis of Contaminants In Canisters By Toxicological Category for NASA 2",
+    "dataset_catalog": "J001007",
+    "dataset_description": [
+     "This table groups contaminants found in Mir canister samples into toxicological categories.  The toxicity index for the individual contaminants are shown, along with the overall categories toxicity index for each sampling session.  The average group toxicity index for all sampling sessions is also shown.<END>"
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "MSD007"
+    ]
+   },
+   "meta": "1 file \u00b7 17.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "804e336a-ec08-5dfe-b04d-4dbba6bec1c4",
+     "label": "JMMIRMSD007_80.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 17408,
+     "meta": "17.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001380",
+   "label": "J001031",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Results of Testing Detector Tubes for Selectivity: STS-84",
+    "dataset_catalog": "J001031",
+    "dataset_description": [
+     "This table shows the results of preflight testing on the ethylene detector tubes.<END>"
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "MSD007"
+    ]
+   },
+   "meta": "1 file \u00b7 8.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "e7bfbcf9-f265-513e-af7f-6704cc6c8da9",
+     "label": "JMMIRMSD007_108.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 8192,
+     "meta": "8.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001100",
+   "label": "J001025",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Base Block Carbon Monoxide Readings 26 February - 2 March 1998",
+    "dataset_catalog": "J001025",
+    "dataset_description": [
+     "This is a graph showing the carbon monoxide (CO) concentration as measured by the combustion products analyzer (CPA) from zero to 90 hours after the low temperature catalytic oxidizer (LTCO) burn.<END>"
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "MSD007"
+    ]
+   },
+   "meta": "1 file \u00b7 34.5 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "8cf2eaa6-7fa1-5fd5-84b5-959feb948c7d",
+     "label": "JMMIRMSD007_102.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 35328,
+     "meta": "34.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001099",
+   "label": "J000987",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Hydrogen Levels Found In NASA 6 Canister Samples",
+    "dataset_catalog": "J000987",
+    "dataset_description": [
+     "This graph shows the hydrogen levels (ppm) of the Mir atmosphere during NASA 6.<END>"
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "MSD007"
+    ]
+   },
+   "meta": "1 file \u00b7 28.5 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "b224291a-e1ce-5751-bb4e-ddf276c2b549",
+     "label": "JMMIRMSD007_58.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 29184,
+     "meta": "28.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000968",
+   "label": "J001010",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Analytical Results of NASA 3 Solid Sorbent Air Sampler (SSAS) S/N 0011 Air Samples",
+    "dataset_catalog": "J001010",
+    "dataset_description": [
+     "This table shows the analytical results of the time averaged air samples obtained on the Mir space station.  The location, date, and time the sample was taken are listed, along with the contaminants identified and their measured concentrations (mg/m&#179;).<END>"
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "MSD007"
+    ]
+   },
+   "meta": "1 file \u00b7 25.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "758c9f7d-79bc-5c90-ba7d-87261da4a25d",
+     "label": "JMMIRMSD007_83.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 25600,
+     "meta": "25.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001260",
+   "label": "J001027",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Analysis of Formaldehyde Badges Deployed On NASA 7",
+    "dataset_catalog": "J001027",
+    "dataset_description": [
+     "This table groups contaminants found in Mir canister samples into toxicological categories.  The toxicity index for the individual contaminants are shown, along with the overall categories toxicity index for each sampling session.  The average group toxicity index for all sampling sessions is also shown.<END>"
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "MSD007"
+    ]
+   },
+   "meta": "1 file \u00b7 14.5 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "c180c45a-057f-5e86-b764-b0e4af7ca495",
+     "label": "JMMIRMSD007_104.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 14848,
+     "meta": "14.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001516",
+   "label": "J000978",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Analytical Results of NASA 6 Solid Sorbent Air Sampler (SSAS) S/N 1003 Air Samples",
+    "dataset_catalog": "J000978",
+    "dataset_description": [
+     "This table shows the analytical results of the time averaged air samples obtained on the Mir space station.  The location, date, and time the sample was taken are listed, along with the contaminants identified and their measured concentrations (mg/m&#179;).<END>"
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "MSD007"
+    ]
+   },
+   "meta": "1 file \u00b7 2.9 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "43983f9f-2738-52ee-85ca-13e91cceddfd",
+     "label": "JMMIRMSD007_49.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 2929,
+     "meta": "2.9 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001517",
+   "label": "J001005",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Toxicity Index Results of Individual Contaminants from NASA 2 Solid Sorbent Air Sample (SSAS) S/N 1005 Air Samples",
+    "dataset_catalog": "J001005",
+    "dataset_description": [
+     "This table shows the analytical results of the time averaged air samples obtained on the Mir space station.  The location, date, and time the sample was taken are listed, along with the contaminants identified and their toxicity index value (T-value).<END>"
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "MSD007"
+    ]
+   },
+   "meta": "1 file \u00b7 30.5 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "35a7d2d5-f20b-518c-8c1c-7c3dc2bd2b73",
+     "label": "JMMIRMSD007_77.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 31232,
+     "meta": "30.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001428",
+   "label": "J001019",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Toxicity Index Results of Individual Contaminants from NASA 7 Solid Sorbent Air Sample (SSAS) S/N 0011 Air Samples",
+    "dataset_catalog": "J001019",
+    "dataset_description": [
+     "This table shows the analytical results of the time averaged air samples obtained on the Mir space station.  The location, date, and time the sample was taken are listed, along with the contaminants identified and their toxicity index value (T-value).<END>"
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "MSD007"
+    ]
+   },
+   "meta": "1 file \u00b7 17.4 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "104b0ac4-b608-52dc-aae1-1a89077367cf",
+     "label": "JMMIRMSD007_92.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 17818,
+     "meta": "17.4 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001775",
+   "label": "MSD007__2500358931",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Data Collection Timetables for Experiment MSD007",
+    "dataset_catalog": "MSD007__2500358931",
+    "dataset_description": [
+     "This spreadsheet represents the data collection timetables for data collection sessions for this experiment: crew, air, surface and water microbiology. Information included in this spreadsheet may include information on the test protocol, data collection constraints, parameters measured, hardware used, scheduled versus actual days of data collection, and subject information."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "MSD007"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "768a0d6b-e1d5-5bbb-82f6-a82792b4c231",
+     "label": "MSD007__2500358931.xls_NASA_2_MSD007_2010_250_050905.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001713",
+   "label": "J001028",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Analysis of Contaminants In Canisters By Toxicological Category for NASA 7",
+    "dataset_catalog": "J001028",
+    "dataset_description": [
+     "This table groups contaminants found in Mir canister samples into toxicological categories.  The toxicity index for the individual contaminants are shown, along with the overall categories toxicity index for each sampling session.  The average group toxicity index for all sampling sessions is also shown.<END>"
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "MSD007"
+    ]
+   },
+   "meta": "1 file \u00b7 18.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "8bd7ee9a-2b79-5349-96c2-9b1a5afa7cc1",
+     "label": "JMMIRMSD007_105.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 18432,
+     "meta": "18.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001737",
+   "label": "J000984",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Priority Trace Contaminants to Assess Air Quality Under Nominal International Space Station (ISS) Operating Conditions: NASA 6 Data",
+    "dataset_catalog": "J000984",
+    "dataset_description": "",
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "MSD007"
+    ]
+   },
+   "meta": "1 file \u00b7 11.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "afd95ec2-f94d-5532-b4c3-67fb6fcbe169",
+     "label": "JMMIRMSD007_55.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 11264,
+     "meta": "11.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001739",
+   "label": "J001009",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Analytical Results of NASA 3 Solid Sorbent Air Sampler (SSAS) S/N 0013 Air Samples",
+    "dataset_catalog": "J001009",
+    "dataset_description": [
+     "This table shows the analytical results of the time averaged air samples obtained on the Mir space station.  The location, date, and time the sample was taken are listed, along with the contaminants identified and their measured concentrations (mg/m&#179;).<END>"
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "MSD007"
+    ]
+   },
+   "meta": "1 file \u00b7 31.5 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "1a8c13c0-cc51-5263-807f-c31ec242ff68",
+     "label": "JMMIRMSD007_82.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 32256,
+     "meta": "31.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001732",
+   "label": "J000976",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Analytical Results of NASA 6 Grab Sample Container (GSC) Air Samples",
+    "dataset_catalog": "J000976",
+    "dataset_description": [
+     "This table shows analytical results for the grab sample container (GSC) air samples obtained on the Mir space station.  The location, date, and time the sample was taken are listed, along with the contaminants identified and their measured concentrations (mg/m&#179;).<END>"
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "MSD007"
+    ]
+   },
+   "meta": "1 file \u00b7 27.3 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "5fc1fc2e-20f3-5ca6-8e93-e61e89ab8f23",
+     "label": "JMMIRMSD007_47.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 27955,
+     "meta": "27.3 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001738",
+   "label": "J001004",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Toxicity Index Results of Individual Contaminants from NASA 2 Solid Sorbent Air Sample (SSAS) S/N 1003 Air Samples",
+    "dataset_catalog": "J001004",
+    "dataset_description": [
+     "This table shows the analytical results of the time averaged air samples obtained on the Mir space station.  The location, date, and time the sample was taken are listed, along with the contaminants identified and their toxicity index value (T-value).<END>"
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "MSD007"
+    ]
+   },
+   "meta": "1 file \u00b7 33.5 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "23259a82-155c-5c0d-a36a-a546b23cdabd",
+     "label": "JMMIRMSD007_76.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 34304,
+     "meta": "33.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001740",
+   "label": "J001023",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Similarity of Results From the Three Sampling Methods Used on NASA 3",
+    "dataset_catalog": "J001023",
+    "dataset_description": [
+     "This tables compares the results of the three sampling methods (Grab Sample Containers, Solid Sorbent Air Samplers, and AK-1 Tube Samplers) used during NASA 3.  The individual contaminants along with the concentration (mg/m&#179;) of the contaminant that each piece of hardware identified is also listed.<END>"
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "MSD007"
+    ]
+   },
+   "meta": "1 file \u00b7 15.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "9be5f0f3-0dd2-5ed3-8490-d1c1be402770",
+     "label": "JMMIRMSD007_100.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 15360,
+     "meta": "15.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001712",
+   "label": "J001006",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Analysis of Formaldehyde Badges Deployed On NASA 2",
+    "dataset_catalog": "J001006",
+    "dataset_description": [
+     "This table shows the results obtained from the analysis of the formaldehyde badges.  Listed are the date and location where the sample was taken, along with the measured concenration of formaldehyde in parts per million (ppm).<END>"
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "MSD007"
+    ]
+   },
+   "meta": "1 file \u00b7 6.5 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "7b8b648d-b6c5-52ef-937a-6236600b8c20",
+     "label": "JMMIRMSD007_79.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 6656,
+     "meta": "6.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001741",
+   "label": "J001026",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Surrogate Recoveries and Flow-Rate Changes of NASA 7 Hardware",
+    "dataset_catalog": "J001026",
+    "dataset_description": [
+     "This table shows the percentage of acetone-C13, fluorobenzene-D5, and chlorobenzene-D5 recovered after space flight from the Grab Sample Containers (GSC) and the Solid Sorbent Air Samplers (SSAS).  The flow difference of the hardware pre- and postflight is also listed.<END>"
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "MSD007"
+    ]
+   },
+   "meta": "1 file \u00b7 5.5 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "5ebeb67e-afb2-56db-b48d-1747616732d7",
+     "label": "JMMIRMSD007_103.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 5632,
+     "meta": "5.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001934",
+   "label": "J000981",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Toxicity Index Results of Individual Contaminants from NASA 6 Solid Sorbent Air Sample (SSAS) S/N 1003 Air Samples",
+    "dataset_catalog": "J000981",
+    "dataset_description": [
+     "This table shows the analytical results of the time averaged air samples obtained on the Mir space station.  The location, date, and time the sample was taken are listed, along with the contaminants identified and their toxicity index value (T-value).<END>"
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "MSD007"
+    ]
+   },
+   "meta": "1 file \u00b7 6.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "1442e02c-4dc5-5f32-a1c3-245b3f61fd43",
+     "label": "JMMIRMSD007_52.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 6185,
+     "meta": "6.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001882",
+   "label": "J000995",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Analysis of Formaldehyde Badges Deployed On NASA 4",
+    "dataset_catalog": "J000995",
+    "dataset_description": [
+     "This table shows the results obtained from the analysis of the formaldehyde badges.  Listed are the date and location where the sample was taken, along with the measured concenration of formaldehyde in parts per million (ppm).<END>"
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "MSD007"
+    ]
+   },
+   "meta": "1 file \u00b7 7.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "1183f0e0-2c0e-5e63-a374-05e821a6afb6",
+     "label": "JMMIRMSD007_66.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 7168,
+     "meta": "7.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001935",
+   "label": "J001011",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Toxicity Index Results of Individual Contaminants from NASA 3 Grab Sample Container (GSC) Air Samples",
+    "dataset_catalog": "J001011",
+    "dataset_description": [
+     "This table shows the analytical results of the container air samples obtained on the Mir space station.  The location, date, and time the sample was taken are listed, along with the contaminants identified and their toxicity index value (T-value).<END>"
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "MSD007"
+    ]
+   },
+   "meta": "1 file \u00b7 49.2 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "6c1593fa-afac-5d85-bd29-54bffc8a6ac4",
+     "label": "JMMIRMSD007_84.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 50381,
+     "meta": "49.2 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001918",
+   "label": "MSD007__2820830684",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Reports for NASA 3, 4, 5, 6, and 7",
+    "dataset_catalog": "MSD007__2820830684",
+    "dataset_description": [
+     "These files contain 180 Day Reports for NASA 3, 4, 5, 6, and 7"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "MSD007"
+    ]
+   },
+   "meta": "5 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "9fdb6942-3d11-5c81-aa67-6194db8974ff",
+     "label": "NASA_7_180_Day.pdf_NASA_7_MSD007_2013_282_081030.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9efc21f3-39ef-5bd5-adb3-1bad3bed9da8",
+     "label": "NASA_6_180_Day.pdf_NASA_6_MSD007_2013_282_081011.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c5684739-bccd-5ac6-bb13-933e4232605b",
+     "label": "NASA_5_180_Day.pdf_NASA_5_MSD007_2013_282_081050.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3e80e595-5241-5681-825f-2d9256fd2e07",
+     "label": "NASA_4_180_Day.pdf_NASA_4_MSD007_2013_282_081031.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0eacde69-50f4-5992-8081-91097e9b528a",
+     "label": "NASA_3_180_Day.pdf_NASA_3_MSD007_2013_282_081010.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002002",
+   "label": "J000989",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Analytical Results of NASA 4 Grab Sample Container (GSC) Air Samples",
+    "dataset_catalog": "J000989",
+    "dataset_description": [
+     "This table shows the analytical results of the container air samples obtained on the Mir space station.  The location, date, and time the sample was taken are listed, along with the contaminants identified and their measured concentrations (mg/m&#179;).<END>"
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "MSD007"
+    ]
+   },
+   "meta": "1 file \u00b7 214.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "3f77d87b-fcae-5505-b336-03c6fe9884e9",
+     "label": "JMMIRMSD007_60.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 219136,
+     "meta": "214.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002215",
+   "label": "J001012",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Toxicity Index Results of Individual Contaminants from NASA 3 Solid Sorbent Air Sample (SSAS) S/N 0013 Air Samples",
+    "dataset_catalog": "J001012",
+    "dataset_description": [
+     "This table shows the analytical results of the time averaged air samples obtained on the Mir space station.  The location, date, and time the sample was taken are listed, along with the contaminants identified and their toxicity index value (T-value).<END>"
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "MSD007"
+    ]
+   },
+   "meta": "1 file \u00b7 33.2 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "8fbbad16-bf50-50c1-8895-b6ace2bd2f88",
+     "label": "JMMIRMSD007_85.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 33997,
+     "meta": "33.2 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002193",
+   "label": "J001001",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Analytical Results of NASA 2 Solid Sorbent Air Sampler (SSAS) S/N 1003 Air Samples",
+    "dataset_catalog": "J001001",
+    "dataset_description": [
+     "This table shows the analytical results of the time averaged air samples obtained on the Mir space station.  The location, date, and time the sample was taken are listed, along with the contaminants identified and their measured concentrations (mg/m&#179;).<END>"
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "MSD007"
+    ]
+   },
+   "meta": "1 file \u00b7 33.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "8f2c2edf-6a47-5821-8cdd-d76f8c9adb54",
+     "label": "JMMIRMSD007_72.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 33792,
+     "meta": "33.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002214",
+   "label": "J000993",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Toxicity Index Results of Individual Contaminants from NASA 4 Solid Sorbent Air Sample (SSAS) S/N 1002 Air Samples",
+    "dataset_catalog": "J000993",
+    "dataset_description": [
+     "This table shows the analytical results of the time averaged air samples obtained on the Mir space station.  The location, date, and time the sample was taken are listed, along with the contaminants identified and their toxicity index value (T-value).<END>"
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "MSD007"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "ed8ea9ec-78fd-542a-9e91-b5d0f76db2c9",
+     "label": "JMMIRMSD007_64.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002194",
+   "label": "J001032",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Test Mixtures",
+    "dataset_catalog": "J001032",
+    "dataset_description": [
+     "This table list compounds and their concentrations that were identified on Mir space station, along with concentrations identified from a preflight ethylene glycol detector tube test.<END>"
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "MSD007"
+    ]
+   },
+   "meta": "1 file \u00b7 15.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "54e94816-a2c1-501a-887d-bd3168208155",
+     "label": "JMMIRMSD007_109.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 15360,
+     "meta": "15.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002216",
+   "label": "J001015",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Analytical Results of NASA 7 Solid Sorbent Air Sampler (SSAS) S/N 0013 Air Samples",
+    "dataset_catalog": "J001015",
+    "dataset_description": [
+     "This table shows the analytical results of the time averaged air samples obtained on the Mir space station.  The location, date, and time the sample was taken are listed, along with the contaminants identified and their measured concentrations (mg/m&#179;).<END>"
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "MSD007"
+    ]
+   },
+   "meta": "1 file \u00b7 18.2 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "da5c7083-fa9b-5e68-8d09-020c70233927",
+     "label": "JMMIRMSD007_88.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 18637,
+     "meta": "18.2 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002003",
+   "label": "J001020",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Carbon Monoxide Readings of NASA 6 Carbon Monoxide Sensor Made During Flight",
+    "dataset_catalog": "J001020",
+    "dataset_description": [
+     "This graph shows the concentration of carbon monoxide (CO) measured by the CO sensor on the Combustion Products Analyzer (CPA) onboard the Mir space station during NASA 6.<END>"
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "MSD007"
+    ]
+   },
+   "meta": "1 file \u00b7 22.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "4a10317d-1ccb-5544-933a-8927cfe5a5d0",
+     "label": "JMMIRMSD007_93.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 22528,
+     "meta": "22.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002192",
+   "label": "J000991",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Analytical Results of NASA 4 Solid Sorbent Air Sampler (SSAS) S/N 1004 Air Samples",
+    "dataset_catalog": "J000991",
+    "dataset_description": [
+     "This table shows the analytical results of the time averaged air samples obtained on the Mir space station.  The location, date, and time the sample was taken are listed, along with the contaminants identified and their measured concentrations (mg/m&#179;).<END>"
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "MSD007"
+    ]
+   },
+   "meta": "1 file \u00b7 27.5 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "25951da3-371c-5cbc-a8f4-4ab48d699a68",
+     "label": "JMMIRMSD007_62.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 28160,
+     "meta": "27.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002397",
+   "label": "J001003",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Toxicity Index Results of Individual Contaminants from NASA 2 Grab Sample Container (GSC) Air Samples",
+    "dataset_catalog": "J001003",
+    "dataset_description": [
+     "This table shows the analytical results of the container air samples obtained on the Mir space station.  The location, date, and time the sample was taken are listed, along with the contaminants identified and their toxicity index value (T-value).<END>"
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "MSD007"
+    ]
+   },
+   "meta": "1 file \u00b7 42.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "8a72bfe3-87ee-5592-b91c-03264a82df1c",
+     "label": "JMMIRMSD007_75.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 43008,
+     "meta": "42.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002396",
+   "label": "J000999",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Scrubbing of Pollutants After Solid Fuel Oxygen Generator (SFOG) fire during NASA 4",
+    "dataset_catalog": "J000999",
+    "dataset_description": [
+     "This figure shows the concentrations of benzene, isopropanol, nitriles, and styrene before and after the solid fuel oxygen generator (SFOG) fire.<END>"
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "MSD007"
+    ]
+   },
+   "meta": "1 file \u00b7 12.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "3048c271-b5ec-5cb2-bce0-6430f85aa81e",
+     "label": "JMMIRMSD007_70.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 12288,
+     "meta": "12.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002217",
+   "label": "J001030",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "NASA 5 Partial Pressure of Carbon Dioxide in mmHg",
+    "dataset_catalog": "J001030",
+    "dataset_description": [
+     "This graph shows the partial pressure of carbon dioxide (mmHg) as measured by the carbon dioxide sensor on Mir space station during NASA 5.<END>"
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "MSD007"
+    ]
+   },
+   "meta": "1 file \u00b7 18.5 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "854a97a9-af17-5b4d-a13d-d1714ed3abd4",
+     "label": "JMMIRMSD007_107.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 18944,
+     "meta": "18.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002213",
+   "label": "J000977",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Analytical Results of NASA 6 Solid Sorbent Air Sampler (SSAS) S/N 1005 Air Samples",
+    "dataset_catalog": "J000977",
+    "dataset_description": [
+     "This table shows the analytical results of the time averaged air samples obtained on the Mir space station.  The location, date, and time the sample was taken are listed, along with the contaminants identified and their measured concentrations (mg/m&#179;).<END>"
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "MSD007"
+    ]
+   },
+   "meta": "1 file \u00b7 30.3 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "5977c423-f49b-54e5-9497-7d4b1d68e2fb",
+     "label": "JMMIRMSD007_48.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 31027,
+     "meta": "30.3 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

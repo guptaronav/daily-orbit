@@ -1,0 +1,240 @@
+{
+ "record": {
+  "id": "4c5033a0-d802-5320-a3ab-85774aa6ba89",
+  "_id": "4c5033a0-d802-5320-a3ab-85774aa6ba89",
+  "experiment_title": "Immunological Assessment of Crewmembers",
+  "archive_status_index": 1,
+  "parameter_html": "<table><tr><td>B cells</td></tr><tr><td>Monocytes</td></tr><tr><td>Neutrophils</td></tr><tr><td>Natural killer (NK) cells</td></tr><tr><td>CD8+ T cells</td></tr><tr><td>CD4+ T cells</td></tr><tr><td>Regulatory T cells (Tregs)</td></tr><tr></tr></table>",
+  "__source_key": "cl62ayobzcd7n01o6b6ba6od3",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Sams, Clarence\">Principal Investigator: Sams, Clarence</a>",
+  "experiment_type_lk": [
+   "Shuttle Detailed Supplementary Objectives (DSO)"
+  ],
+  "__record_modified_date": "2026-08-23T04:06:56.431086+00:00",
+  "proposal_source": [
+   "N/A"
+  ],
+  "__indexed": "2026-08-23T04:06:56.431086+00:00",
+  "__record_creation_date": "2022-07-28T20:02:47.256Z",
+  "keyword": [
+   "Immunity, cellular",
+   "Neutrophils",
+   "Monocytes"
+  ],
+  "keyword_name": "Monocytes",
+  "__record_size": 40152,
+  "__record_version": 29,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:\r\n<br>\r\nThe assessment of crew immunocompetence was required for the determination of space flight infectious disease risk.  This is of significant importance for longer duration missions and particularly, orbital station environments.\r\n<p>\r\nAPPROACH:\r\n<br>\r\nData was collected from 54 crewmembers during six shuttle flights.  White blood cells were collected after removal of the serum for use in the nominal Medical Operations physical.  These cells were resuspended in isotonic saline and divided into two aliquots.  One sample was used for flow cytometric analysis to determine cellular subpopulations and the other was further processed for functional assay of different immune cells (neutrophils, monocytes, and T-cells). \r\n<p>\r\nRESULTS:\r\n<br>\r\n<i>Phenotypic Analysis</i>\r\n<br>\r\nFlow cytometric analysis indicates that crewmembers exhibited a statistically significant decrease in total T cells with alterations in specific T cell subsets.  In addition, a statistically significant increase in B cells as well as variable alterations in circulating monocytes was observed.  \r\n<p>\r\n<i>Neutrophil Functional Testing</i>\r\n<br>\r\nNeutrophils exhibited a variable effect following space flight in response to a chemotactic factor.  \r\n<p>",
+  "payload_id": "DSO51",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "DSO 487",
+  "indexed": "2026-08-23T04:06:56.431086+00:00",
+  "GUID": "cl62ayobzcd7n01o6b6ba6od3",
+  "parameter_name": [
+   "B cells",
+   "Monocytes",
+   "Neutrophils",
+   "Natural killer (NK) cells",
+   "CD8+ T cells",
+   "CD4+ T cells",
+   "Regulatory T cells (Tregs)"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 596,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Immunology"
+  ],
+  "pme_role_with_name": [
+   "Principal Investigator: Sams, Clarence"
+  ],
+  "missions": [
+   [
+    [
+     "STS-51"
+    ]
+   ],
+   [
+    [
+     "STS-52"
+    ]
+   ],
+   [
+    [
+     "STS-54"
+    ]
+   ],
+   [
+    [
+     "STS-55"
+    ]
+   ],
+   [
+    [
+     "STS-58"
+    ]
+   ],
+   [
+    [
+     "STS-61"
+    ]
+   ]
+  ],
+  "__dirid": "4c5033a0-d802-5320-a3ab-85774aa6ba89",
+  "__record_size_wo_doccontent": 40152,
+  "PI": [
+   "Sams, Clarence"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "DSO 487"
+  ],
+  "mission_id": [
+   [
+    [
+     "STS-51"
+    ]
+   ],
+   [
+    [
+     "STS-52"
+    ]
+   ],
+   [
+    [
+     "STS-54"
+    ]
+   ],
+   [
+    [
+     "STS-55"
+    ]
+   ],
+   [
+    [
+     "STS-58"
+    ]
+   ],
+   [
+    [
+     "STS-61"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Sams, Clarence"
+  ],
+  "archive_status": "Data preservation is complete. All datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Shuttle Program",
+  "__source_field_concat": "DSO51 cl62ayobzcd7n01o6b6ba6od3 Monocytes  N/A Immunological Assessment of Crewmembers DSO 487 Shuttle Program Data preservation is complete. All datasets are publicly available.",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:\r\n<br>\r\nThe assessment of crew immunocompetence was required for the determination of space flight infectious disease risk.  This is of significant importance for longer duration missions and particularly, orbital station environments.\r\n<p>\r\nAPPROACH:\r\n<br>\r\nData was collected from 54 crewmembers during six shuttle flights.  White blood cells were collected after removal of the serum for use in the nominal Medical Operations physical.  These cells were resuspended in isotonic saline and divided into two aliquots.  One sample was used for flow cytometric analysis to determine cellular subpopulations and the other was further processed for functional assay of different immune cells (neutrophils, monocytes, and T-cells). \r\n<p>\r\nRESULTS:\r\n<br>\r\n<i>Phenotypic Analysis</i>\r\n<br>\r\nFlow cytometric analysis indicates that crewmembers exhibited a statistically significant decrease in total T cells with alterations in specific T cell subsets.  In addition, a statistically significant increase in B cells as well as variable alterations in circulating monocytes was observed.  \r\n<p>\r\n<i>Neutrophil Functional Testing</i>\r\n<br>\r\nNeutrophils exhibited a variable effect following space flight in response to a chemotactic factor.  \r\n<p>",
+  "__doi": "10.83263/wntf-zg09",
+  "__doi_record_creation_date": "2026-08-23T04:06:56",
+  "__doi_record_modified_date": "2026-08-23T04:06:56"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000143",
+   "label": "JMDSO_487_1",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Phenotyping Data",
+    "dataset_catalog": "JMDSO_487_1",
+    "dataset_description": [
+     "This Excel file contains phenotyping of peripheral mononuclear cell populations for subjects in the DSO 487 study.  The changes displayed in this chart were obtained using whole blood lysis method to process the white blood cells for phenotyping.  All changes were statistically significant (p<0.05).\r\n<p>\r\nSource: Unpublished data."
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "DSO 487"
+    ]
+   },
+   "meta": "6 files \u00b7 192.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "4ebf551c-176d-50e8-a908-ef469295274b",
+     "label": "JMDSO_487_1.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 32768,
+     "meta": "32.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "785af916-e212-563a-b2e6-cf836a0a13c7",
+     "label": "JMDSO_487_1.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 32768,
+     "meta": "32.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "16945ac6-3e4e-5933-93d5-9278dfecda82",
+     "label": "JMDSO_487_1.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 32768,
+     "meta": "32.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "22f0634b-58d8-5a7f-9da9-69c211494883",
+     "label": "JMDSO_487_1.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 32768,
+     "meta": "32.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "19a2ab57-64c8-5f7e-8b29-0aa79b8f9291",
+     "label": "JMDSO_487_1.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 32768,
+     "meta": "32.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "152915f6-820d-55ca-9c41-06245315e787",
+     "label": "JMDSO_487_1.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 32768,
+     "meta": "32.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

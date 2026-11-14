@@ -1,0 +1,398 @@
+{
+ "record": {
+  "id": "81784701-773d-50c5-a6fe-bf230c42bebb",
+  "_id": "81784701-773d-50c5-a6fe-bf230c42bebb",
+  "experiment_title": "In-flight Holter Monitoring",
+  "archive_status_index": 2,
+  "pub_document_number": "PUB001102",
+  "parameter_html": "<table><tr><td>Heart rate</td></tr><tr><td>Premature atrial contraction (PAC)</td></tr><tr><td>Premature ventricular contraction (PVC)</td></tr><tr></tr></table>",
+  "__source_key": "cl62aylq7cd7101o661bwbc2a",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Charles, John\">Principal Investigator: Charles, John</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Bungo, Michael\">Co-Investigator: Bungo, Michael</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Mulvagh, Sharon\">Co-Investigator: Mulvagh, Sharon</a>",
+  "experiment_type_lk": [
+   "Shuttle Detailed Supplementary Objectives (DSO)"
+  ],
+  "__record_modified_date": "2026-08-23T04:08:22.159088+00:00",
+  "proposal_source": [
+   "N/A"
+  ],
+  "__indexed": "2026-08-23T04:08:22.159088+00:00",
+  "__record_creation_date": "2022-07-28T20:02:58.344Z",
+  "keyword": [
+   "Heart rate",
+   "Electrocardiography",
+   "Cardiovascular deconditioning"
+  ],
+  "keyword_name": "Cardiovascular deconditioning",
+  "__record_size": 56735,
+  "__record_version": 29,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<br>\r\nThe incidence of cardiac rhythm abnormalities during Space Shuttle Extravehicular Activities (EVAs) is about 40% in individuals who do not exhibit such abnormalities during equivalent preflight stresses. It was hypothesized that some aspect of the space flight EVA environment was the instigating factor. Potential candidates included:  a physiological response to microgravity (including fluid volume loss and/or uncorrected electrolyte imbalance due to diuresis, which is detected only during EVAs due to the lack of Electrocardiogram (ECG) information during other flight phases; a response to the EVA workload; a response to the EVA environment of pure oxygen at 4.3 per square inch-; and a response to other environmental factors, such as low humidity. Strenuous activities during previous U.S. manned space flights did not produce equivalent frequencies of arrhythmias, for reasons that are unknown. Therefore, efforts to document the current phenomenon are considered of operational importance.\r\n<p>\r\nAPPROACH:<br>\r\nDuring the last 24 hours inflight, the crewmembers instrumented themselves with ECG electrodes, attached and activated the Holter recorder, and went about their normal activities. During this period, they donned the Operational Bioinstrumentation System (OBS) harness, mounted the treadmill, donned the bungee restraint cords, and stood quietly on the treadmill for five minutes. They then exercised at 70-85% of their maximum heart rate for a period of 20 minutes. \r\n<p>\r\nFollowing the exercise period, the crewmembers removed the OBS harness, stowed the treadmill, replaced any ECG electrodes loosened by sweat, and resumed their normal daily activities. The crewmembers continued wearing the Holter recorder through de-orbit preparations, landing, seat egress, and arrival at the medical facility for postflight testing.\r\n<p>\r\nRESULTS:<br>\r\nThere wasn\u2019t an increase in ectopic activity (relating to a heartbeat that has its origin other than in the sinoatrial node) during space flight and/or exercise in contrast to increased dysrhythmias seen during previous Shuttle EVA activities. This may be due to the natural variability between subjects or may relate more specifically to the particular environmental conditions unique to EVAs. \r\n<p>",
+  "payload_id": "DSO30",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "DSO 463",
+  "indexed": "2026-08-23T04:08:22.159088+00:00",
+  "experiment_related": [
+   "DSO 602"
+  ],
+  "GUID": "cl62aylq7cd7101o661bwbc2a",
+  "parameter_name": [
+   "Heart rate",
+   "Premature atrial contraction (PAC)",
+   "Premature ventricular contraction (PVC)"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 577,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Cardiovascular physiology"
+  ],
+  "pme_role_with_name": [
+   "Co-Investigator: Bungo, Michael",
+   "Co-Investigator: Mulvagh, Sharon",
+   "Principal Investigator: Charles, John"
+  ],
+  "missions": [
+   [
+    [
+     "STS-30"
+    ]
+   ],
+   [
+    [
+     "STS-33"
+    ]
+   ],
+   [
+    [
+     "STS-36"
+    ]
+   ],
+   [
+    [
+     "STS-44"
+    ]
+   ],
+   [
+    [
+     "STS-61C"
+    ]
+   ]
+  ],
+  "__dirid": "81784701-773d-50c5-a6fe-bf230c42bebb",
+  "__record_size_wo_doccontent": 56735,
+  "PI": [
+   "Charles, John"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "DSO 463"
+  ],
+  "mission_id": [
+   [
+    [
+     "STS-30"
+    ]
+   ],
+   [
+    [
+     "STS-33"
+    ]
+   ],
+   [
+    [
+     "STS-36"
+    ]
+   ],
+   [
+    [
+     "STS-44"
+    ]
+   ],
+   [
+    [
+     "STS-61C"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Charles, John"
+  ],
+  "archive_status": "Data preservation is complete. Privacy-protected datasets are available via data request. Remaining datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Shuttle Program",
+  "__source_field_concat": "PUB001102 DSO30 cl62aylq7cd7101o661bwbc2a Cardiovascular deconditioning  N/A In-flight Holter Monitoring DSO 463 Shuttle Program",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<br>\r\nThe incidence of cardiac rhythm abnormalities during Space Shuttle Extravehicular Activities (EVAs) is about 40% in individuals who do not exhibit such abnormalities during equivalent preflight stresses. It was hypothesized that some aspect of the space flight EVA environment was the instigating factor. Potential candidates included:  a physiological response to microgravity (including fluid volume loss and/or uncorrected electrolyte imbalance due to diuresis, which is detected only during EVAs due to the lack of Electrocardiogram (ECG) information during other flight phases; a response to the EVA workload; a response to the EVA environment of pure oxygen at 4.3 per square inch-; and a response to other environmental factors, such as low humidity. Strenuous activities during previous U.S. manned space flights did not produce equivalent frequencies of arrhythmias, for reasons that are unknown. Therefore, efforts to document the current phenomenon are considered of operational importance.\r\n<p>\r\nAPPROACH:<br>\r\nDuring the last 24 hours inflight, the crewmembers instrumented themselves with ECG electrodes, attached and activated the Holter recorder, and went about their normal activities. During this period, they donned the Operational Bioinstrumentation System (OBS) harness, mounted the treadmill, donned the bungee restraint cords, and stood quietly on the treadmill for five minutes. They then exercised at 70-85% of their maximum heart rate for a period of 20 minutes. \r\n<p>\r\nFollowing the exercise period, the crewmembers removed the OBS harness, stowed the treadmill, replaced any ECG electrodes loosened by sweat, and resumed their normal daily activities. The crewmembers continued wearing the Holter recorder through de-orbit preparations, landing, seat egress, and arrival at the medical facility for postflight testing.\r\n<p>\r\nRESULTS:<br>\r\nThere wasn\u2019t an increase in ectopic activity (relating to a heartbeat that has its origin other than in the sinoatrial node) during space flight and/or exercise in contrast to increased dysrhythmias seen during previous Shuttle EVA activities. This may be due to the natural variability between subjects or may relate more specifically to the particular environmental conditions unique to EVAs. \r\n<p>",
+  "__doi": "10.83263/f6d8-yx11",
+  "__doi_record_creation_date": "2026-08-23T04:08:22",
+  "__doi_record_modified_date": "2026-08-23T04:08:22"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000142",
+   "label": "JMDSO_463_2",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Intrasubject Standard Deviations",
+    "dataset_catalog": "JMDSO_463_2",
+    "dataset_description": [
+     "This is a graph which depicts intrasubject standard deviations of heart rate and arterial pressure before, during, and after space flight for subjects in the DSO 463 study."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 463"
+    ]
+   },
+   "meta": "5 files \u00b7 492.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "50fc0f61-c1b6-58c9-a3e4-019f34ea52be",
+     "label": "JMDSO_463_2.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 100762,
+     "meta": "98.4 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "acf6a6db-84f0-5f91-abbe-d693cf859981",
+     "label": "JMDSO_463_2.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 100762,
+     "meta": "98.4 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c23c966d-96f6-5706-8c12-0f033ddb00e7",
+     "label": "JMDSO_463_2.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 100762,
+     "meta": "98.4 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "22b85bf9-40c8-520e-9f02-101433bae653",
+     "label": "JMDSO_463_2.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 100762,
+     "meta": "98.4 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d1e74f67-1615-597a-a264-b8b83b9a64cf",
+     "label": "JMDSO_463_2.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 100762,
+     "meta": "98.4 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000700",
+   "label": "JMDSO_463_1",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Heart Rate and Arterial Pressure",
+    "dataset_catalog": "JMDSO_463_1",
+    "dataset_description": [
+     "This is a graph which depicts heart rate and arterial pressure before, during, and after space flight for subjects in the DSO 463 study."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 463"
+    ]
+   },
+   "meta": "5 files \u00b7 492.5 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "95723f1c-8def-528d-9d93-882c63c29223",
+     "label": "JMDSO_463_1.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 100864,
+     "meta": "98.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "73a2a419-9e28-59b3-8c48-6239b618b699",
+     "label": "JMDSO_463_1.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 100864,
+     "meta": "98.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "94eeaf10-1cbc-501d-9350-908113c72221",
+     "label": "JMDSO_463_1.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 100864,
+     "meta": "98.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c7f4a695-14bf-551e-b344-2ac48a885d36",
+     "label": "JMDSO_463_1.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 100864,
+     "meta": "98.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c01aed42-7ad1-502d-aa5c-36a2adaa2796",
+     "label": "JMDSO_463_1.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 100864,
+     "meta": "98.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000392",
+   "label": "JMDSO_463_3",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Atrial and Ventricular Contractions",
+    "dataset_catalog": "JMDSO_463_3",
+    "dataset_description": [
+     "This is a graph which depicts premature atrial and ventricular contractions before, during, and after space flight for subjects in the DSO 463 study."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 463"
+    ]
+   },
+   "meta": "5 files \u00b7 490.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "c02dfce1-cf1d-55ad-9787-528782150dba",
+     "label": "JMDSO_463_3.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 100352,
+     "meta": "98.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4b2513cb-16ef-5a92-ac00-5519f9cafcca",
+     "label": "JMDSO_463_3.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 100352,
+     "meta": "98.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8a57839d-48c3-5c53-a2c4-7f33c0d5542b",
+     "label": "JMDSO_463_3.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 100352,
+     "meta": "98.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6cf92a2d-9103-5ce6-9678-6bbb4d7ceb76",
+     "label": "JMDSO_463_3.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 100352,
+     "meta": "98.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f1540d39-2eab-5037-a5d7-d9c4da197284",
+     "label": "JMDSO_463_3.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 100352,
+     "meta": "98.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000827",
+   "label": "DSO 463__3550101978",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Procedures for Using Inflight Treadmill During DSO 463",
+    "dataset_catalog": "DSO 463__3550101978",
+    "dataset_description": [
+     "This file provides step-by-step procedures on how to setup and use the inflight treadmill during experiment DSO 463, \"In-flight Holter Monitoring.\"\r\n<P>\r\nSource: Data from the William E. Thornton Collection."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 463"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "457147c3-7746-5d57-983b-dc285c0f1f98",
+     "label": "DSO_463__3550101978.pdf_STS-61C_DSO_463_2011_355_011257.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,149 @@
+{
+ "record": {
+  "id": "76d78f49-05da-5361-98e7-96b297715db1",
+  "_id": "76d78f49-05da-5361-98e7-96b297715db1",
+  "experiment_title": "Development of a Flash X-ray Radiography and Tomography System to Measure Bone Mineral Density",
+  "archive_status_index": 1,
+  "pub_document_number": "PUB001199",
+  "parameter_html": "<table><tr><td>Bone mineral density</td></tr><tr><td>Energy</td></tr><tr></tr></table>",
+  "__source_key": "cl62axiv4ccxv01o6f70s8on2",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Seely, John\">Principal Investigator: Seely, John</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Boyer, Craig\">Co-Investigator: Boyer, Craig</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Holland, Glenn\">Co-Investigator: Holland, Glenn</a>",
+  "image_name": [
+   "Dual Energy X-ray Absorptometry (DXA) Image Processor Architecture",
+   "Four-Channel Time Resolved X-ray Detector Configured for Wide Band Energy Measurement",
+   "Naval Research Laboratory (NRL) Dual Energy X-ray Absorptometry (DXA) system",
+   "Perspective View of the Naval Research Laboratory (NRL) Dual Energy X-ray Absorptometry (DXA) System"
+  ],
+  "experiment_type_lk": [
+   "NASA Ground-Based Investigations"
+  ],
+  "__record_modified_date": "2026-08-23T04:03:20.803101+00:00",
+  "__indexed": "2026-08-23T04:03:20.803101+00:00",
+  "__record_creation_date": "2022-07-28T19:53:49.581Z",
+  "keyword": [
+   "Algorithms",
+   "Models, theoretical",
+   "Risk assessment",
+   "Bone density",
+   "Densitometry, X-Ray"
+  ],
+  "keyword_name": "Densitometry, X-Ray",
+  "__record_size": 110320,
+  "__record_version": 28,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<BR>\r\nThis project addressed NASA's need for a relatively compact and portable x-ray system to perform bone mineral density studies on the International Space Station. The use of a\r\n60 ns x-ray pulse to image biological specimens has been successfully demonstrated.<P>\r\nWith the dual-energy flash source, there is no need to change the anode-cathode (AK) voltage since the applied voltage across the AK gap is effectively swept during operation.\r\nThe x-ray energy is high early in the pulse and lower later in the pulse. Utilizing the dual energy properties of the x-ray source to perform x-ray absorptometry without changing the applied voltage across the AK gap or changing filters simplifies the implementation of the source. A computer simulation model was developed for the x-ray source, which permitted the distribution of radiated energy in a plane normal to the symmetry axis of the x-ray anode to be determined as well as its spectrum. The use of two amorphous silicon (aSi) imaging panels stacked in tandem with a metal x-ray filter yielded both hard and soft x-ray images. X-ray assays of bone mineral density (BMD) to accuracies of 2% percent are possible when the attenuation of the soft tissue is removed by means of a subtraction algorithm and by using a calibration phantom. The dual-energy x-ray absorptometry (DEXA) project implemented a complete system that integrates the dual energy pulsed x-ray source with the aSi digital imaging panels. Experiments were performed to determine the distribution of radiation over the image plane and the sensitivity or modulation transfer function of the imaging panels. Based on the imaging experiments and the ability of the software to generate computed tomographic (CT) images, a decision was made to add CT capability to DEXA imaging so that a 3-D map of the site bone mineral density could be obtained. The addition of the CT capability increases the patient radiation dose; so image-based reconstruction was planned for the purpose of reducing the dose. In this process a limited number (3 to 5) images of a target site are processed using <I>a priori</I> knowledge of the site architecture to construct a CT image. The following questions were examined and answered during this project. Is the fluence, forward distribution, repeatability, and energy spectrum of the pulsed x-ray source sufficient? Will the sensitivity of the aSi digital imaging panels and the choice of conversion phosphor produce an image suitable for DEXA analysis? Will the DEXA software operate correctly, and is it capable of generating a 3D map of bone mineral density?<P>\r\nAPPROACH:<BR>\r\nSystem tests were run to evaluate the CT image capability of the software. The DEXA  system was configured to examine a Lamb femur. The specimen was frozen to prevent motion during the periods between image collection.  The images were recorded on\r\ntwo stacked aSi digital panels and processed. The front panel was designed to be sensitive to 25-45 keV photons.  Each image was processed using pixels located within a slice equivalent to a fan-beam. The set of all slices was processed to generate a volume view of the object capable of full 360 degree rotation about the x,y,z axis. Since hard and soft x-ray CT image data were available, the DEXA could be used to extract both the density and composition of the scanned object. Specifically, the DEXA software used a plastic-aluminum calibration phantom to create a raster of all possible values scanned, then correlated this data to the correct attenuation value, generated a surface polynomial to approximate the surface, and used the surface to correct a complete dataset by simulating a monochromatic source. When the corrected dataset was passed through a CT 3D reconstruction, the resulting reconstruction contained calibrated data that could be used to determine the volumetric density.<P>\r\nTo further evaluate the DEXA's imaging capabilities, the denser bone-mineral was extracted from the surrounding tissue by applying a cubic volume opacity filter followed by an isosurface reconstruction of the digitized x-ray image. By using both soft (25-45 keV) and hard (67-150 keV) images, the bone mineral density in the CT volume reconstruction could be determined.<P>\r\nRESULTS:<BR>\r\nUnderstanding the process of charge flow in Marx-driven x-ray tubes was one of the goals of this research. The SCL flow in x-ray tubes with conical anodes and coaxial cathodes was successfully modeled using Langmuir's analytic solution for charge flow between coaxial cylinders, provided that the width of the plasma cathode was treated as a free parameter and that magnetic field effects were neglected.<P>\r\nThe use of simulated cathode current and AK voltage in a calculation of the x-ray emission spectrum confirmed that the x-ray tube was operating as a SCL diode and that the model could accurately simulate the emission spectrum and total radiated energy in the x-ray pulse. Moreover it was shown that when the filtered hard x-ray pulse was subtracted from the unfiltered x-ray pulse, the residual pulse was the expected soft x-ray pulse with the correct temporal shape.  This work experimentally verified the dual energy nature of the x-ray pulse.<p>\r\nThe second research goal was to develop a digital imaging system with radiography and computed tomography (CT) capabilities. The ability of the present system to deliver detailed CT volume reconstructions was dependent on the number of views in the sampling set. The excellent resolution in individual images was due to the small diameter, <3 mm, of the x-ray emission spot. The digital images obtained to date, and used to generate 3D volume reconstructions of biologic specimens, were not constrained by hardware or software limitations but by the number of views in the sample. The present system has the necessary software to determine the bone mineral density of specific volumetric sites within a chosen specimen.<END>",
+  "payload_id": "BRC",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "T5282W",
+  "indexed": "2026-08-23T04:03:20.803101+00:00",
+  "GUID": "cl62axiv4ccxv01o6f70s8on2",
+  "parameter_name": [
+   "Bone mineral density",
+   "Energy"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 1224,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Skeletal physiology",
+   "Technology development"
+  ],
+  "pme_role_with_name": [
+   "Co-Investigator: Boyer, Craig",
+   "Co-Investigator: Holland, Glenn",
+   "Principal Investigator: Seely, John"
+  ],
+  "missions": [
+   [
+    [
+     "BRC"
+    ]
+   ]
+  ],
+  "__dirid": "76d78f49-05da-5361-98e7-96b297715db1",
+  "__record_size_wo_doccontent": 110320,
+  "PI": [
+   "Seely, John"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "T5282W"
+  ],
+  "mission_id": [
+   [
+    [
+     "BRC"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "proposal_date": [],
+  "proposal_source": [],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Seely, John"
+  ],
+  "program_name": [
+   "Ground"
+  ],
+  "archive_status": "Data preservation is complete. All datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Ground",
+  "__source_field_concat": "PUB001199 BRC cl62axiv4ccxv01o6f70s8on2 <table><tr><td>Bone mineral density</td></tr><tr><td>Energy</td></tr><tr></tr></table> Densitometry, X-Ray  N/A Development of a Flash X-ray Radiography and Tomography System to Measure Bone Mineral Density T5282W Ground Data preservation is complete. All datasets are publicly available.",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<BR>\r\nThis project addressed NASA's need for a relatively compact and portable x-ray system to perform bone mineral density studies on the International Space Station. The use of a\r\n60 ns x-ray pulse to image biological specimens has been successfully demonstrated.<P>\r\nWith the dual-energy flash source, there is no need to change the anode-cathode (AK) voltage since the applied voltage across the AK gap is effectively swept during operation.\r\nThe x-ray energy is high early in the pulse and lower later in the pulse. Utilizing the dual energy properties of the x-ray source to perform x-ray absorptometry without changing the applied voltage across the AK gap or changing filters simplifies the implementation of the source. A computer simulation model was developed for the x-ray source, which permitted the distribution of radiated energy in a plane normal to the symmetry axis of the x-ray anode to be determined as well as its spectrum. The use of two amorphous silicon (aSi) imaging panels stacked in tandem with a metal x-ray filter yielded both hard and soft x-ray images. X-ray assays of bone mineral density (BMD) to accuracies of 2% percent are possible when the attenuation of the soft tissue is removed by means of a subtraction algorithm and by using a calibration phantom. The dual-energy x-ray absorptometry (DEXA) project implemented a complete system that integrates the dual energy pulsed x-ray source with the aSi digital imaging panels. Experiments were performed to determine the distribution of radiation over the image plane and the sensitivity or modulation transfer function of the imaging panels. Based on the imaging experiments and the ability of the software to generate computed tomographic (CT) images, a decision was made to add CT capability to DEXA imaging so that a 3-D map of the site bone mineral density could be obtained. The addition of the CT capability increases the patient radiation dose; so image-based reconstruction was planned for the purpose of reducing the dose. In this process a limited number (3 to 5) images of a target site are processed using <I>a priori</I> knowledge of the site architecture to construct a CT image. The following questions were examined and answered during this project. Is the fluence, forward distribution, repeatability, and energy spectrum of the pulsed x-ray source sufficient? Will the sensitivity of the aSi digital imaging panels and the choice of conversion phosphor produce an image suitable for DEXA analysis? Will the DEXA software operate correctly, and is it capable of generating a 3D map of bone mineral density?<P>\r\nAPPROACH:<BR>\r\nSystem tests were run to evaluate the CT image capability of the software. The DEXA  system was configured to examine a Lamb femur. The specimen was frozen to prevent motion during the periods between image collection.  The images were recorded on\r\ntwo stacked aSi digital panels and processed. The front panel was designed to be sensitive to 25-45 keV photons.  Each image was processed using pixels located within a slice equivalent to a fan-beam. The set of all slices was processed to generate a volume view of the object capable of full 360 degree rotation about the x,y,z axis. Since hard and soft x-ray CT image data were available, the DEXA could be used to extract both the density and composition of the scanned object. Specifically, the DEXA software used a plastic-aluminum calibration phantom to create a raster of all possible values scanned, then correlated this data to the correct attenuation value, generated a surface polynomial to approximate the surface, and used the surface to correct a complete dataset by simulating a monochromatic source. When the corrected dataset was passed through a CT 3D reconstruction, the resulting reconstruction contained calibrated data that could be used to determine the volumetric density.<P>\r\nTo further evaluate the DEXA's imaging capabilities, the denser bone-mineral was extracted from the surrounding tissue by applying a cubic volume opacity filter followed by an isosurface reconstruction of the digitized x-ray image. By using both soft (25-45 keV) and hard (67-150 keV) images, the bone mineral density in the CT volume reconstruction could be determined.<P>\r\nRESULTS:<BR>\r\nUnderstanding the process of charge flow in Marx-driven x-ray tubes was one of the goals of this research. The SCL flow in x-ray tubes with conical anodes and coaxial cathodes was successfully modeled using Langmuir's analytic solution for charge flow between coaxial cylinders, provided that the width of the plasma cathode was treated as a free parameter and that magnetic field effects were neglected.<P>\r\nThe use of simulated cathode current and AK voltage in a calculation of the x-ray emission spectrum confirmed that the x-ray tube was operating as a SCL diode and that the model could accurately simulate the emission spectrum and total radiated energy in the x-ray pulse. Moreover it was shown that when the filtered hard x-ray pulse was subtracted from the unfiltered x-ray pulse, the residual pulse was the expected soft x-ray pulse with the correct temporal shape.  This work experimentally verified the dual energy nature of the x-ray pulse.<p>\r\nThe second research goal was to develop a digital imaging system with radiography and computed tomography (CT) capabilities. The ability of the present system to deliver detailed CT volume reconstructions was dependent on the number of views in the sampling set. The excellent resolution in individual images was due to the small diameter, <3 mm, of the x-ray emission spot. The digital images obtained to date, and used to generate 3D volume reconstructions of biologic specimens, were not constrained by hardware or software limitations but by the number of views in the sample. The present system has the necessary software to determine the bone mineral density of specific volumetric sites within a chosen specimen.<END>",
+  "__doi": "10.83263/st9g-hy26",
+  "__doi_record_creation_date": "2026-08-23T04:03:20",
+  "__doi_record_modified_date": "2026-08-23T04:03:20"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001560",
+   "label": "T5282W__2590451820",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Final Report",
+    "dataset_catalog": "T5282W__2590451820",
+    "dataset_description": [
+     "This is the final report titled, Development of a Flash X-Ray Radiography and Tomography System to Measure Bone Mineral Density, for experiment T5282W."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "T5282W"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "51d68efb-36a7-5c02-889e-cf8892a4984c",
+     "label": "T5282W__2590451820.pdf_BRC_T5282W_2011_259_050955.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

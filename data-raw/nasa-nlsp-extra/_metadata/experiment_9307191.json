@@ -1,0 +1,481 @@
+{
+ "record": {
+  "id": "afab63cb-13c3-5713-9b7c-44e81e6c6e0e",
+  "_id": "afab63cb-13c3-5713-9b7c-44e81e6c6e0e",
+  "experiment_title": "The Effects of Long-Duration Space Flight on Eye, Head, and Trunk Coordination During Locomotion",
+  "archive_status_index": 2,
+  "pub_document_number": "PUB001059",
+  "experiment_alias": [
+   "E644"
+  ],
+  "parameter_html": "<table><tr><td>Accelerometry</td></tr><tr><td>Adaptability</td></tr><tr><td>Amplitude</td></tr><tr><td>Ankle total movement</td></tr><tr><td>Biceps femoris</td></tr><tr><td>Electromyography (EMG), biceps femoris</td></tr><tr><td>Electromyography (EMG), gastrocnemius</td></tr><tr><td>Electromyography (EMG), neck muscles</td></tr><tr><td>Electromyography (EMG), rectus femoris</td></tr><tr><td>Electromyography (EMG), tibialis anterior</td></tr><tr><td>Electrooculography (EOG)</td></tr><tr><td>Foot switch</td></tr><tr><td>Force</td></tr><tr><td>Head movement</td></tr><tr><td>Knee angle velocity</td></tr><tr><td>Leg movement</td></tr><tr><td>Locomotion</td></tr><tr><td>Pitch</td></tr><tr><td>Roll</td></tr><tr><td>Stride time</td></tr><tr><td>Thigh angle velocity</td></tr><tr><td>Time of heel strike</td></tr><tr><td>Time of toe off</td></tr><tr><td>Trunk movement</td></tr><tr><td>Visual acuity</td></tr><tr><td>Yaw</td></tr><tr><td>Knee, total movement</td></tr><tr><td>Medialis gastrocnemius muscle</td></tr><tr><td>Rectus femoris muscle</td></tr><tr><td>Knee range of motion</td></tr><tr><td>Thigh range of motion</td></tr><tr><td>Thigh, total movement</td></tr><tr><td>Tibialis anterior muscle</td></tr><tr></tr></table>",
+  "__source_key": "cl62ayjtrcd6k01o6fih0aafl",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Kozlovskaya, Inessa\">Principal Investigator: Kozlovskaya, Inessa</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Bloomberg, Jacob\">Principal Investigator: Bloomberg, Jacob</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Lange, Greg\">Co-Investigator: Lange, Greg</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Layne, Charles\">Co-Investigator: Layne, Charles</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:McDonald, Vernon\">Co-Investigator: McDonald, Vernon</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Melton, Shannon\">Co-Investigator: Melton, Shannon</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Mulavara, Ajitkumar\">Co-Investigator: Mulavara, Ajitkumar</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Voronov, Andrei\">Co-Investigator: Voronov, Andrei</a>",
+  "experiment_type_lk": [
+   "NASA-Mir Program"
+  ],
+  "__record_modified_date": "2026-08-23T04:14:15.487375+00:00",
+  "proposal_source": [
+   "93-OLMSA-07"
+  ],
+  "__indexed": "2026-08-23T04:14:15.487375+00:00",
+  "alias": [
+   "E644"
+  ],
+  "__record_creation_date": "2022-07-28T19:55:32.416Z",
+  "keyword": [
+   "Musculoskeletal physiology",
+   "Weightlessness countermeasures",
+   "Muscular atrophy",
+   "Space motion sickness (SMS)",
+   "Gait/physiology",
+   "Fixation, ocular",
+   "Posture",
+   "Automatic data processing",
+   "Vision",
+   "Orientation",
+   "Neuromuscular junction",
+   "Space perception",
+   "Locomotion",
+   "Adaptation, physiological",
+   "Exercise/physiology",
+   "Exercise test",
+   "Spatial behavior",
+   "Walking",
+   "Sensory deprivation",
+   "Electrooculography",
+   "Gait",
+   "Eye movements",
+   "Leg",
+   "Equilibrium",
+   "Homeostasis",
+   "Movement",
+   "Head",
+   "Feedback/physiology"
+  ],
+  "keyword_name": "Feedback/physiology",
+  "__record_size": 154763,
+  "__record_version": 29,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<BR>\r\nSignificant locomotor and postural equilibrium disturbances frequently occur following space flight and have been reported by both the U.S. and Russian space programs.  The general overriding objective of this investigation was to understand the underlying sensorimotor adaptive alterations that contribute to these postflight locomotor disturbances.  Previous investigations typically assessed how specific sensorimotor subsystems, such as vestibulo-ocular and otolith-spinal reflexes, function during the process of adaptation to weightlessness and readaptation to 1-G.  However, little documentation exists of changes in the strategies used for coordination among these subsystems.\r\n<P>\r\nThis experiment was designed to determine if extended exposure to the microgravity environment encountered during long-duration space flight adaptively modified eye and head control mechanisms required to maintain gaze stability during terrestrial locomotion; and determine if head-trunk coordination strategies that occur during terrestrial locomotion were modified following extended duration space flight and to determine if these changes were associated with disturbances in lower limb kinematics and muscle activity patterns of the leg during locomotion.\r\n<P>\r\nAPPROACH:<BR>\r\nTo evaluate the vestibular changes, participating subjects performed several tasks both before and after flight.  The data collected before flight was used as a baseline, and data gathered postflight was compared to preflight values to evaluate the changes or differences.  All data collection sessions were performed three times before launch at L-120, L-45 and L-20 (days before launch), and three times after return to Earth on R+1, R+3 and R+8 (days after landing).\r\n<P>\r\n<i>Treadmill locomotion:</i><BR>\r\nSubjects walked and ran on a motorized treadmill while fixating their gaze on a centrally placed target under four conditions (20 seconds per condition), slow walk (4 km/hr), fast walk (6.4 km/hr), and running (6.9 km/hr).  During both the slow walk and running conditions, subjects visually fixated on a far target 2 meters away.  While fast walking, the subjects visually fixated on a far target 2 meters away; while visually fixating on the target, subjects were asked to point and perform number recognition tasks.  The number recognition task measures dynamic visual acuity (DVA).  Also during the fast walk condition, subjects visually fixated on a near target located 30 cm from the subject.\r\n<P>\r\nTo measure head and trunk movements, passive retro-reflective markers (with negligible mass), which served as tracking landmarks, were affixed to the vertex, occipital, right temporal positions of the head, on the seventh cervical vertebrae (C7), two markers to the right and left of the midline at approximately the tenth thoracic vertebrae (T10) and on the sacrum.  Leg motion was measured by placing markers on the foot, ankle, knee and hip.  The movements of these markers were simultaneously recorded with video cameras that sampled concurrent video images at 60 Hz.  The position of each marker in space was uniquely determined with the aid of a video-based motion analysis system.  Subjects were outfitted with shorts, sleeveless shirts, athletic socks and running shoes with electronic pressure switches attached to the heels and toes so that times of heel strike and toe off could be determined.  After the skin was cleaned with alcohol wipes, preamplifier surface EMG electrodes were placed on the subjects over the bellies of the splenius capitis (SC), sternocleidomastoid (SCM), erector spinae (ES), rectus femoris (RF), biceps femoris (BF), tibialis anterior (TA), and gastrocnemius (GA) in parallel to the muscle fibers.  The electrodes were attached with hypoallergenic tape and then those on the legs were covered with elastic wraps to prevent the electrodes from moving on the skin.  The analog EMG data were bandpassed at 30-300 Hz before being digitized at 500 Hz.  An accelerometer was affixed to the shin using a mounting plate strapped to the leg with a neoprene strap with a Velcro closure.  Another accelerometer was attached to the helmet that was worn on the subject's head during walking.  The accelerometer and foot-switch information was sampled at 500 Hz.  Horizontal and vertical eye positions relative to the head were recorded using standard DC-electrooculographic (EOG) methods.\r\n<P>\r\nBefore initiating each trial, the subject straddled the treadmill belt while the treadmill speed was increased to the required speed.  With the treadmill belts at speed the subject was free to begin walking.  A few strides were permitted to allow the subject to become comfortable with the treadmill speed and to attain a steady gait.  After a verbal \"ready\" indication from the subject, data collection was initiated with the subject continuing to walk/run while visually fixating the target for 20 seconds.  The subject was instructed to maintain fixation of the target for the full duration of the trial.  To prevent potential injury through falling, each subject wore a torso harness that was attached to an overhead frame.  During nominal treadmill performance, this harness provided no support and did not act to interfere with the natural movement of the head or limbs.\r\n<P>\r\n<i>Overground locomotion:</i><BR>\r\nSubjects walked on a 6.1-meter walkway with one embedded force plate at three selected speeds (normal, slow, fast).  The subject was instructed to visually fixate on a wall-mounted target during walking.  Four trials at each pace comprised the complete data set.  An accelerometer was affixed to the shin using a mounting plate strapped to the leg with a neoprene strap with a Velcro closure.  Another accelerometer was attached to a bite-bar that was held in the subject's teeth during walking.  The subject performed the overground protocol in bare feet.\r\n<P>\r\nRESULTS:<BR>\r\nSeveral conclusions were made after a review of the data collected during the NASA-Mir program: 1) Exposure to space flight induces adaptive changes in head-trunk coordination along with alterations in lower limb kinematics during treadmill locomotion; 2) Following space flight, crewmembers experienced decrement in dynamic visual acuity (DVA) during treadmill locomotion; 3) Postflight changes in head movement control were also present during overground locomotion; and 4) Changes in head-trunk movement strategy coupled with alterations in lower limb kinematics may have contributed to the decrement in DVA observed during postflight locomotion.\r\n<P>\r\nAfter space flight all subjects showed altered head-trunk coordination strategies, modified lower limb kinematics, and reduced DVA during locomotion.  Full recovery of function was not complete within the 9-day post landing testing period. The outcome of all these changes is a loss of integration of the multiple full-body cascade of sensorimotor events responsible for efficient control of terrestrial locomotion.\r\n<P>\r\nFrom these data, scientists have begun to better understand the vestibular system and its re-adaptation process.  The information obtained and techniques developed during the NASA-Mir program were used to formulate a clinical test of dynamic visual acuity while walking.  This test is currently being used to assess the recovery rate of crewmembers returning from space flight as part of the Space Medicine and Countermeasure Program at NASA and to assess the recovery rate of patients following vestibular surgery at Baylor College of Medicine in Houston, Texas.<END>",
+  "payload_id": "NASA 2",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "9307191",
+  "indexed": "2026-08-23T04:14:15.487375+00:00",
+  "GUID": "cl62ayjtrcd6k01o6fih0aafl",
+  "parameter_name": [
+   "Accelerometry",
+   "Adaptability",
+   "Amplitude",
+   "Ankle total movement",
+   "Biceps femoris",
+   "Electromyography (EMG), biceps femoris",
+   "Electromyography (EMG), gastrocnemius",
+   "Electromyography (EMG), neck muscles",
+   "Electromyography (EMG), rectus femoris",
+   "Electromyography (EMG), tibialis anterior",
+   "Electrooculography (EOG)",
+   "Foot switch",
+   "Force",
+   "Head movement",
+   "Knee angle velocity",
+   "Leg movement",
+   "Locomotion",
+   "Pitch",
+   "Roll",
+   "Stride time",
+   "Thigh angle velocity",
+   "Time of heel strike",
+   "Time of toe off",
+   "Trunk movement",
+   "Visual acuity",
+   "Yaw",
+   "Knee, total movement",
+   "Medialis gastrocnemius muscle",
+   "Rectus femoris muscle",
+   "Knee range of motion",
+   "Thigh range of motion",
+   "Thigh, total movement",
+   "Tibialis anterior muscle"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 747,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Neuroscience",
+   "Exercise physiology"
+  ],
+  "pme_role_with_name": [
+   "Co-Investigator: Lange, Greg",
+   "Co-Investigator: Layne, Charles",
+   "Co-Investigator: McDonald, Vernon",
+   "Co-Investigator: Melton, Shannon",
+   "Co-Investigator: Mulavara, Ajitkumar",
+   "Co-Investigator: Voronov, Andrei",
+   "Principal Investigator: Bloomberg, Jacob",
+   "Principal Investigator: Kozlovskaya, Inessa",
+   "Technical Assistant to Principal Investigator: Melton, Shannon"
+  ],
+  "missions": [
+   [
+    [
+     "NASA 2"
+    ]
+   ],
+   [
+    [
+     "Mir 21"
+    ]
+   ],
+   [
+    [
+     "Mir 18"
+    ]
+   ],
+   [
+    [
+     "STS-71"
+    ]
+   ],
+   [
+    [
+     "STS-60"
+    ]
+   ],
+   [
+    [
+     "NASA 3"
+    ]
+   ],
+   [
+    [
+     "Mir 22"
+    ]
+   ],
+   [
+    [
+     "NASA 4"
+    ]
+   ],
+   [
+    [
+     "Mir 23"
+    ]
+   ]
+  ],
+  "__dirid": "afab63cb-13c3-5713-9b7c-44e81e6c6e0e",
+  "__record_size_wo_doccontent": 154763,
+  "PI": [
+   "Bloomberg, Jacob",
+   "Kozlovskaya, Inessa"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "9307191",
+   "E644"
+  ],
+  "mission_id": [
+   [
+    [
+     "NASA 2"
+    ]
+   ],
+   [
+    [
+     "Mir 21"
+    ]
+   ],
+   [
+    [
+     "Mir 18"
+    ]
+   ],
+   [
+    [
+     "STS-71"
+    ]
+   ],
+   [
+    [
+     "STS-60"
+    ]
+   ],
+   [
+    [
+     "NASA 3"
+    ]
+   ],
+   [
+    [
+     "Mir 22"
+    ]
+   ],
+   [
+    [
+     "NASA 4"
+    ]
+   ],
+   [
+    [
+     "Mir 23"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Bloomberg, Jacob",
+   "Kozlovskaya, Inessa"
+  ],
+  "archive_status": "Data preservation is complete. Privacy-protected datasets are available via data request. Remaining datasets are publicly available.",
+  "__is_locked": false,
+  "Program": "Nasa-Mir",
+  "__source_field_concat": "PUB001059 NASA 2 cl62ayjtrcd6k01o6fih0aafl Feedback/physiology N/A The Effects of Long-Duration Space Flight on Eye, Head, and Trunk Coordination During Locomotion 9307191 Nasa-Mir",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<BR>\r\nSignificant locomotor and postural equilibrium disturbances frequently occur following space flight and have been reported by both the U.S. and Russian space programs.  The general overriding objective of this investigation was to understand the underlying sensorimotor adaptive alterations that contribute to these postflight locomotor disturbances.  Previous investigations typically assessed how specific sensorimotor subsystems, such as vestibulo-ocular and otolith-spinal reflexes, function during the process of adaptation to weightlessness and readaptation to 1-G.  However, little documentation exists of changes in the strategies used for coordination among these subsystems.\r\n<P>\r\nThis experiment was designed to determine if extended exposure to the microgravity environment encountered during long-duration space flight adaptively modified eye and head control mechanisms required to maintain gaze stability during terrestrial locomotion; and determine if head-trunk coordination strategies that occur during terrestrial locomotion were modified following extended duration space flight and to determine if these changes were associated with disturbances in lower limb kinematics and muscle activity patterns of the leg during locomotion.\r\n<P>\r\nAPPROACH:<BR>\r\nTo evaluate the vestibular changes, participating subjects performed several tasks both before and after flight.  The data collected before flight was used as a baseline, and data gathered postflight was compared to preflight values to evaluate the changes or differences.  All data collection sessions were performed three times before launch at L-120, L-45 and L-20 (days before launch), and three times after return to Earth on R+1, R+3 and R+8 (days after landing).\r\n<P>\r\n<i>Treadmill locomotion:</i><BR>\r\nSubjects walked and ran on a motorized treadmill while fixating their gaze on a centrally placed target under four conditions (20 seconds per condition), slow walk (4 km/hr), fast walk (6.4 km/hr), and running (6.9 km/hr).  During both the slow walk and running conditions, subjects visually fixated on a far target 2 meters away.  While fast walking, the subjects visually fixated on a far target 2 meters away; while visually fixating on the target, subjects were asked to point and perform number recognition tasks.  The number recognition task measures dynamic visual acuity (DVA).  Also during the fast walk condition, subjects visually fixated on a near target located 30 cm from the subject.\r\n<P>\r\nTo measure head and trunk movements, passive retro-reflective markers (with negligible mass), which served as tracking landmarks, were affixed to the vertex, occipital, right temporal positions of the head, on the seventh cervical vertebrae (C7), two markers to the right and left of the midline at approximately the tenth thoracic vertebrae (T10) and on the sacrum.  Leg motion was measured by placing markers on the foot, ankle, knee and hip.  The movements of these markers were simultaneously recorded with video cameras that sampled concurrent video images at 60 Hz.  The position of each marker in space was uniquely determined with the aid of a video-based motion analysis system.  Subjects were outfitted with shorts, sleeveless shirts, athletic socks and running shoes with electronic pressure switches attached to the heels and toes so that times of heel strike and toe off could be determined.  After the skin was cleaned with alcohol wipes, preamplifier surface EMG electrodes were placed on the subjects over the bellies of the splenius capitis (SC), sternocleidomastoid (SCM), erector spinae (ES), rectus femoris (RF), biceps femoris (BF), tibialis anterior (TA), and gastrocnemius (GA) in parallel to the muscle fibers.  The electrodes were attached with hypoallergenic tape and then those on the legs were covered with elastic wraps to prevent the electrodes from moving on the skin.  The analog EMG data were bandpassed at 30-300 Hz before being digitized at 500 Hz.  An accelerometer was affixed to the shin using a mounting plate strapped to the leg with a neoprene strap with a Velcro closure.  Another accelerometer was attached to the helmet that was worn on the subject's head during walking.  The accelerometer and foot-switch information was sampled at 500 Hz.  Horizontal and vertical eye positions relative to the head were recorded using standard DC-electrooculographic (EOG) methods.\r\n<P>\r\nBefore initiating each trial, the subject straddled the treadmill belt while the treadmill speed was increased to the required speed.  With the treadmill belts at speed the subject was free to begin walking.  A few strides were permitted to allow the subject to become comfortable with the treadmill speed and to attain a steady gait.  After a verbal \"ready\" indication from the subject, data collection was initiated with the subject continuing to walk/run while visually fixating the target for 20 seconds.  The subject was instructed to maintain fixation of the target for the full duration of the trial.  To prevent potential injury through falling, each subject wore a torso harness that was attached to an overhead frame.  During nominal treadmill performance, this harness provided no support and did not act to interfere with the natural movement of the head or limbs.\r\n<P>\r\n<i>Overground locomotion:</i><BR>\r\nSubjects walked on a 6.1-meter walkway with one embedded force plate at three selected speeds (normal, slow, fast).  The subject was instructed to visually fixate on a wall-mounted target during walking.  Four trials at each pace comprised the complete data set.  An accelerometer was affixed to the shin using a mounting plate strapped to the leg with a neoprene strap with a Velcro closure.  Another accelerometer was attached to a bite-bar that was held in the subject's teeth during walking.  The subject performed the overground protocol in bare feet.\r\n<P>\r\nRESULTS:<BR>\r\nSeveral conclusions were made after a review of the data collected during the NASA-Mir program: 1) Exposure to space flight induces adaptive changes in head-trunk coordination along with alterations in lower limb kinematics during treadmill locomotion; 2) Following space flight, crewmembers experienced decrement in dynamic visual acuity (DVA) during treadmill locomotion; 3) Postflight changes in head movement control were also present during overground locomotion; and 4) Changes in head-trunk movement strategy coupled with alterations in lower limb kinematics may have contributed to the decrement in DVA observed during postflight locomotion.\r\n<P>\r\nAfter space flight all subjects showed altered head-trunk coordination strategies, modified lower limb kinematics, and reduced DVA during locomotion.  Full recovery of function was not complete within the 9-day post landing testing period. The outcome of all these changes is a loss of integration of the multiple full-body cascade of sensorimotor events responsible for efficient control of terrestrial locomotion.\r\n<P>\r\nFrom these data, scientists have begun to better understand the vestibular system and its re-adaptation process.  The information obtained and techniques developed during the NASA-Mir program were used to formulate a clinical test of dynamic visual acuity while walking.  This test is currently being used to assess the recovery rate of crewmembers returning from space flight as part of the Space Medicine and Countermeasure Program at NASA and to assess the recovery rate of patients following vestibular surgery at Baylor College of Medicine in Houston, Texas.<END>",
+  "__doi": "10.83263/c8hp-7j49",
+  "__doi_record_creation_date": "2026-08-23T04:14:15",
+  "__doi_record_modified_date": "2026-08-23T04:14:15"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001078",
+   "label": "9307191__75110930",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Spatial Reference",
+    "dataset_catalog": "9307191__75110930",
+    "dataset_description": [
+     "This file contains an image depicting the spatial reference system used in the head-trunk coordination analyses for the 9307191 study.\r\n<p>\r\nSource: Layne CS, Mulavara AP, McDonald PV, Kozlovskaya IB, and Bloomberg JJ.  The effects of long-duration space flight on eye, head, and trunk coordination during locomotion.  NASA 2 Final Research Paper.  Houston, TX."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "9307191"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "da7c7995-3a56-5b2c-981b-64b898710f9f",
+     "label": "9307191__75110930.TIF_NASA_2_9307191_2012_75_110327.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000509",
+   "label": "9307191__751130897",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Head-trunk Kinematic Parameters",
+    "dataset_catalog": "9307191__751130897",
+    "dataset_description": [
+     "This file contains an image depicting mean head-trunk kinematic parameters during the three visual conditions during treadmill locomotion (6.4 km/h) for all six NASA-Mir subjects. Note that subjects show plane specific strategies of movement restriction that persist beyond 7-9 days postflight.\r\n<p>\r\nSource: Layne CS, Mulavara AP, McDonald PV, Kozlovskaya IB, and Bloomberg JJ.  The effects of long-duration space flight on eye, head, and trunk coordination during locomotion.  NASA 2 Final Research Paper.  Houston, TX."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "9307191"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "7715ce95-70e9-552b-9bc5-facc7be4860e",
+     "label": "9307191_751130897.TIF_NASA_2_9307191_2012_75_110311.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000930",
+   "label": "9307191__750130664",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Knee and Thigh Angular Velocity",
+    "dataset_catalog": "9307191__750130664",
+    "dataset_description": [
+     "This file contains an image depicting mean knee and thigh angular velocity for all six NASA-Mir subjects for all three visual conditions\r\nobtained during treadmill locomotion (6.4 km/h).\r\n<p>\r\nSource: Layne CS, Mulavara AP, McDonald PV, Kozlovskaya IB, and Bloomberg JJ.  The effects of long-duration space flight on eye, head, and trunk coordination during locomotion.  NASA 2 Final Research Paper.  Houston, TX."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "9307191"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "3da3a0c9-2174-5a37-8db7-1c31c451e1a5",
+     "label": "9307191_750130664.TIF_NASA_2_9307191_2012_75_010346.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000381",
+   "label": "9307191__750206275",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Number Recognition Task",
+    "dataset_catalog": "9307191__750206275",
+    "dataset_description": [
+     "This file contains an image depicting results from the number recognition task (DVA test) during walking at 6.4 km/h. Box plots show results for six NASA-Mir subjects. These results show a trend of diminished dynamic visual acuity after space flight and a recovery over the first week following return to Earth. <p>\r\nSource: Layne CS, Mulavara AP, McDonald PV, Kozlovskaya IB, and Bloomberg JJ.  The effects of long-duration space flight on eye, head, and trunk coordination during locomotion.  NASA 2 Final Research Paper.  Houston, TX."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "9307191"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "75f19001-2fc3-58d8-b860-42cb36cec4e3",
+     "label": "9307191_750206275.TIF_NASA_2_9307191_2012_75_020334.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000886",
+   "label": "9307191__761141194",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Data Collection Timetables for Experiment 9307191",
+    "dataset_catalog": "9307191__761141194",
+    "dataset_description": [
+     "This spreadsheet represents the data collection timetables for data collection session(s) for this experiment. Information included in this spreadsheet may include information on the test protocol, data collection constraints, parameters measured, hardware used, scheduled versus actual days of data collection, and subject information."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "9307191"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "59435977-659a-5db4-9863-dfd1e56d0a2b",
+     "label": "9307191__761141194.xls_NASA_4_9307191_2012_76_110344.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001077",
+   "label": "9307191__750137552",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Knee, Thigh, and Ankle Total Movement",
+    "dataset_catalog": "9307191__750137552",
+    "dataset_description": [
+     "This file contains an image depicting mean knee, thigh, and ankle total movement for all six NASA-Mir subjects for all three visual conditions obtained during treadmill locomotion (6.4 km/h).<p>\r\nSource: Layne CS, Mulavara AP, McDonald PV, Kozlovskaya IB, and Bloomberg JJ.  The effects of long-duration space flight on eye, head, and trunk coordination during locomotion.  NASA 2 Final Research Paper.  Houston, TX."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "9307191"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "5a0725e4-e6a2-5928-a9a9-7f0de6fe5b98",
+     "label": "9307191_750137552.TIF_NASA_2_9307191_2012_75_020312.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002014",
+   "label": "9307191__751149828",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Knee and Thigh Range of Motion",
+    "dataset_catalog": "9307191__751149828",
+    "dataset_description": [
+     "This file contains an image depicting mean knee and thigh range of motion for all six NASA-Mir subjects for all three visual conditions obtained during treadmill locomotion (6.4 km/h).\r\n<p>\r\nSource: Layne CS, Mulavara AP, McDonald PV, Kozlovskaya IB, and Bloomberg JJ.  The effects of long-duration space flight on eye, head, and trunk coordination during locomotion.  NASA 2 Final Research Paper.  Houston, TX."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "9307191"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "eeb9a963-68d9-5330-9f6b-04a8ce1bd449",
+     "label": "9307191_751149828.TIF_NASA_2_9307191_2012_75_010315.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

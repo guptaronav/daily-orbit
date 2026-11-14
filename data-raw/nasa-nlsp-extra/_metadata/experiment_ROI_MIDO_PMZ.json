@@ -1,0 +1,368 @@
+{
+ "record": {
+  "id": "8e7c266e-87aa-5135-ad7c-ba6df380bdfc",
+  "_id": "8e7c266e-87aa-5135-ad7c-ba6df380bdfc",
+  "experiment_title": "Test of Interactions Between Midodrine as a Countermeasure Against Postflight Orthostatic Hypotension and Promethazine as an Anti-emetic",
+  "archive_status_index": 2,
+  "pub_document_number": "PUB001496",
+  "experiment_alias": [
+   "Midodrine Promethazine Study"
+  ],
+  "parameter_html": "<table><tr><td>Akathisia</td></tr><tr><td>Aldosterone</td></tr><tr><td>Angiotensin II</td></tr><tr><td>Cardiac output</td></tr><tr><td>Diastolic blood pressure</td></tr><tr><td>Dopamine</td></tr><tr><td>Echocardiography</td></tr><tr><td>Electrocardiogram (ECG)</td></tr><tr><td>Epinephrine</td></tr><tr><td>Heart rate</td></tr><tr><td>Midodrine</td></tr><tr><td>Nitric oxide metabolites</td></tr><tr><td>Norepinephrine</td></tr><tr><td>Orthostatic hypotension</td></tr><tr><td>Promethazine</td></tr><tr><td>Renin activity</td></tr><tr><td>Stroke volume</td></tr><tr><td>Systolic blood pressure</td></tr><tr><td>Total peripheral resistance</td></tr><tr><td>Upright time</td></tr><tr><td>Atrial natriuretic peptide (ANP)</td></tr><tr></tr></table>",
+  "__source_key": "cl62azmexcdfq01o664wugtff",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Shi, Shang- Jin\">Principal Investigator: Shi, Shang- Jin</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:D'Aunno, Dominick\">Co-Investigator: D'Aunno, Dominick</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Fortner, G.\">Co-Investigator: Fortner, G.</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Meck, Janice\">Co-Investigator: Meck, Janice</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Platts, Steven\">Co-Investigator: Platts, Steven</a>",
+  "experiment_type_lk": [
+   "Countermeasures Evaluation &amp",
+   "Validation Project (CEVP)",
+   "Non-exercise Physiological Countermeasure (NxPCM) Project"
+  ],
+  "__record_modified_date": "2026-08-23T03:52:12.636248+00:00",
+  "__indexed": "2026-08-23T03:52:12.636248+00:00",
+  "alias": [
+   "Midodrine Promethazine Study"
+  ],
+  "__record_creation_date": "2022-07-28T19:57:46.628Z",
+  "keyword": [
+   "Blood volume",
+   "Fludrocortisone",
+   "Orthostatic hypotension",
+   "Midodrine",
+   "Presyncope",
+   "Drug interactions",
+   "Hemodynamics",
+   "Promethazine"
+  ],
+  "keyword_name": "Promethazine",
+  "__record_size": 138236,
+  "__record_version": 29,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<br>\r\nTwenty percent of astronauts experience orthostatic hypotension, a decrease in blood pressure upon standing, when they return to Earth from space.  The reasons for this orthostatic hypotension are considered to be related to either hypovolemia or low sympathetic nerve activity.  Although some astronauts have been treated with fludrocortisone to increase plasma volume, this countermeasure was not accepted since fludrocortisone caused either a spaceflight headache or reduction of sympathetic nerve activity on landing day.  Midodrine, an a1-adrenergic agonist, has been shown to prevent orthostatic hypotension in patients, in subjects during head-down bed rest simulating the space environment, and in astronauts after spaceflight.  Midodrine constricts both arteries and veins to increase blood pressure and venous blood return, but does not increase sodium and water re-absorption.\r\n<P>\r\nSome astronauts experience not only upright low blood pressure but also nausea and vomiting during reentry.  Promethazine, a histamine H1-receptor antagonist, has been used to combat motion sickness and vertigo in astronauts. There are instances when an astronaut might need to use both midodrine and promethazine at the same time.  Cardiovascular effects of promethazine have been found to include increased or decreased blood pressure, tachycardia or bradycardia, and dizziness. The interactions of midodrine and promethazine have not yet been studied.\r\n<P>\r\nThe primary objective of this study was to evaluate potential interactions between midodrine and promethazine on hemodynamic responses to upright tilt testing.\r\n<P>\r\nAPPROACH:<br>\r\nA total of eight healthy subjects (5 males and 3 females) with normal blood pressure were used in this study. Their average age, body weight, and height were 42.0 \u00b1 1.6 yr, 73.1 \u00b1 5.4 kg, and 175.6 \u00b1 4.0 cm (mean \u00b1 SE), respectively.  The subjects had no history of cardiovascular disease, hypercholesterolemia, diabetes mellitus, liver disease, or renal disease. Midodrine (10 mg) or placebo midodrine (blank capsule without midodrine) was given orally.  Promethazine (25 mg) or placebo promethazine (0.9% sodium chloride) was administrated intravenously.  There were four test session days and the subject received one of the following medications on each day: 1) placebo midodrine + placebo promethazine (control group); 2) midodrine + placebo promethazine (midodrine group); 3) placebo midodrine + promethazine (promethazine group); and 4) midodrine + promethazine (combination group).  The order of the test medication combination was randomized.  The test personnel and subjects did not know what combination subjects received.  Subjects abstained from caffeine, alcohol, and any medications for 24 hours prior to any testing.  Subjects had been requested to eat a light breakfast composed of complex carbohydrates and adhere to this regimen for each test day.\r\n<P>\r\nFor each test session, a baseline pulse and arterial pressure were measured and blood samples were collected after a 20-min supine rest period. Arterial pressure was measured at five-minute intervals for 40 minutes after administering 10 mg of midodrine or placebo midodrine and blood sample was taken 60 minutes post midodrine administration. Heart rate and arterial pressure were measured at one-minute intervals during promethazine infusion or placebo promethazine and once again a supine blood sample was collected at 20 minutes post-promethazine. After a six-minute supine rest, an 80\u00ba head-up tilt test was carried out for 20 minutes.  Hemodynamic measurements were taken at one-minute intervals.  A final blood sample (post-tilt) was drawn at the end of the tilt-up period.  If a subject experienced orthostatic hypotension, he/she was returned to a supine position, and the blood sample was drawn immediately.  All data were recorded on digital and video tapes for later analyses.  All analog signals were also recorded on paper.\r\n<P>\r\nOnly four points of systolic pressure, diastolic pressure, heart rate, stroke volume, cardiac output, and total peripheral resistance were reported: a supine baseline before given any medications; last supine measurement after given midodrine or placebo midodrine; last supine measurement after promethazine or placebo promethazine administration; and last measurement of upright tilt test.\r\n<P>\r\nUrine samples were also collected prior to the test, at various points following the administration of the medications and after the test. Containers of urine samples were used to assay nitric oxide (NO) concentrations.\r\n<P>\r\nRESULTS:<br>\r\nThree of eight (38%) subjects in the control group, none of eight (0%) in the midodrine group, all eight (100%) in the promethazine group, and five of eight (63%) in the combination group experienced orthostatic hypotension during upright tilt test. Promethazine significantly increased the incidence of orthostatic hypotension.  Compared to the midodrine group, the combination group even increased orthostatic hypotension.\r\n<P>\r\nThe combination of 25 mg of promethazine given intravenously one hour after 10 mg of oral midodrine caused profound akathisia in 8 of 8 ground-based subjects. The symptoms of akathisia in these subjects involved uncontrolled foot movements, rocking, facial tick, anxiety, plus a panic attack in one individual and physical aggression in another. This result was reported to the flight surgeons who suggested that 12.5 mg promethazine was probably a more realistic dose. Five of the 8 subjects returned to be tested with 12.5 mg promethazine with midodrine. The combination of 12.5 mg of promethazine given intravenously one hour after 10 mg of oral midodrine again caused noticeable akathisia in 4 of 5 subjects. \r\n<P>\r\nThe results showed that supine systolic and diastolic pressures increased significantly only in the combination group.  Upright tilt systolic pressure decreased significantly only in the promethazine group.  Upright tilt diastolic pressure did not change in all groups.  In the supine position, heart rate did not change before and after given midodrine, promethazine, or both, in all groups.  However, upright tilt heart rate increased significantly in all groups.\r\n<P>\r\nSupine plasma NO showed no change before and after given medications in the four groups.  There is no difference in plasma NO between supine and upright positions in all groups.\r\n<P>\r\nThe results clearly show that midodrine helps to overcome orthostatic hypotension while promethazine enhances orthostatic hypotension. The combination still shows a slight increase in orthostatic hypotension. Of further interest, promethazine caused akathisia, sometimes severe, both alone and in combination with midodrine. These results were reported to the Committee for the Protection of Human Subjects (CPHS) with the following recommendations: If midodrine is administered at Time of Ignition (TIG), promethazine cannot be administered within 4 hours (T1/2 of midodrine); midodrine cannot be taken at TIG if promethazine has been administered within 70 hours (5 half-times). The CPHS instituted a policy that midodrine and promethazine will not be given to astronauts simultaneously. This information was subsequently sent to the FDA Med Watch as an adverse event from a midodrine/promethazine interaction.<END>",
+  "payload_id": "ROI",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "ROI_MIDO_PMZ",
+  "indexed": "2026-08-23T03:52:12.636248+00:00",
+  "experiment_related": [
+   "SMO 006"
+  ],
+  "GUID": "cl62azmexcdfq01o664wugtff",
+  "parameter_name": [
+   "Akathisia",
+   "Aldosterone",
+   "Angiotensin II",
+   "Cardiac output",
+   "Diastolic blood pressure",
+   "Dopamine",
+   "Echocardiography",
+   "Electrocardiogram (ECG)",
+   "Epinephrine",
+   "Heart rate",
+   "Midodrine",
+   "Nitric oxide metabolites",
+   "Norepinephrine",
+   "Orthostatic hypotension",
+   "Promethazine",
+   "Renin activity",
+   "Stroke volume",
+   "Systolic blood pressure",
+   "Total peripheral resistance",
+   "Upright time",
+   "Atrial natriuretic peptide (ANP)"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 1297,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Cardiovascular physiology"
+  ],
+  "pme_role_with_name": [
+   "Co-Investigator: D'Aunno, Dominick",
+   "Co-Investigator: Fortner, G.",
+   "Co-Investigator: Meck, Janice",
+   "Co-Investigator: Platts, Steven",
+   "Principal Investigator: Shi, Shang- Jin"
+  ],
+  "missions": [
+   [
+    [
+     "ROI"
+    ]
+   ]
+  ],
+  "__dirid": "8e7c266e-87aa-5135-ad7c-ba6df380bdfc",
+  "__record_size_wo_doccontent": 138236,
+  "PI": [
+   "Shi, Shang- Jin"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "ROI_MIDO_PMZ",
+   "Midodrine Promethazine Study"
+  ],
+  "mission_id": [
+   [
+    [
+     "ROI"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "proposal_date": [],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Shi, Shang- Jin"
+  ],
+  "program_name": [
+   "Ground"
+  ],
+  "archive_status": "Data preservation is complete. Privacy-protected datasets are available via data request. Remaining datasets are publicly available.",
+  "__is_locked": false,
+  "Program": "Ground",
+  "__source_field_concat": "PUB001496 ROI cl62azmexcdfq01o664wugtff Promethazine N/A ROI_MIDO_PMZ Ground",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<br>\r\nTwenty percent of astronauts experience orthostatic hypotension, a decrease in blood pressure upon standing, when they return to Earth from space.  The reasons for this orthostatic hypotension are considered to be related to either hypovolemia or low sympathetic nerve activity.  Although some astronauts have been treated with fludrocortisone to increase plasma volume, this countermeasure was not accepted since fludrocortisone caused either a spaceflight headache or reduction of sympathetic nerve activity on landing day.  Midodrine, an a1-adrenergic agonist, has been shown to prevent orthostatic hypotension in patients, in subjects during head-down bed rest simulating the space environment, and in astronauts after spaceflight.  Midodrine constricts both arteries and veins to increase blood pressure and venous blood return, but does not increase sodium and water re-absorption.\r\n<P>\r\nSome astronauts experience not only upright low blood pressure but also nausea and vomiting during reentry.  Promethazine, a histamine H1-receptor antagonist, has been used to combat motion sickness and vertigo in astronauts. There are instances when an astronaut might need to use both midodrine and promethazine at the same time.  Cardiovascular effects of promethazine have been found to include increased or decreased blood pressure, tachycardia or bradycardia, and dizziness. The interactions of midodrine and promethazine have not yet been studied.\r\n<P>\r\nThe primary objective of this study was to evaluate potential interactions between midodrine and promethazine on hemodynamic responses to upright tilt testing.\r\n<P>\r\nAPPROACH:<br>\r\nA total of eight healthy subjects (5 males and 3 females) with normal blood pressure were used in this study. Their average age, body weight, and height were 42.0 \u00b1 1.6 yr, 73.1 \u00b1 5.4 kg, and 175.6 \u00b1 4.0 cm (mean \u00b1 SE), respectively.  The subjects had no history of cardiovascular disease, hypercholesterolemia, diabetes mellitus, liver disease, or renal disease. Midodrine (10 mg) or placebo midodrine (blank capsule without midodrine) was given orally.  Promethazine (25 mg) or placebo promethazine (0.9% sodium chloride) was administrated intravenously.  There were four test session days and the subject received one of the following medications on each day: 1) placebo midodrine + placebo promethazine (control group); 2) midodrine + placebo promethazine (midodrine group); 3) placebo midodrine + promethazine (promethazine group); and 4) midodrine + promethazine (combination group).  The order of the test medication combination was randomized.  The test personnel and subjects did not know what combination subjects received.  Subjects abstained from caffeine, alcohol, and any medications for 24 hours prior to any testing.  Subjects had been requested to eat a light breakfast composed of complex carbohydrates and adhere to this regimen for each test day.\r\n<P>\r\nFor each test session, a baseline pulse and arterial pressure were measured and blood samples were collected after a 20-min supine rest period. Arterial pressure was measured at five-minute intervals for 40 minutes after administering 10 mg of midodrine or placebo midodrine and blood sample was taken 60 minutes post midodrine administration. Heart rate and arterial pressure were measured at one-minute intervals during promethazine infusion or placebo promethazine and once again a supine blood sample was collected at 20 minutes post-promethazine. After a six-minute supine rest, an 80\u00ba head-up tilt test was carried out for 20 minutes.  Hemodynamic measurements were taken at one-minute intervals.  A final blood sample (post-tilt) was drawn at the end of the tilt-up period.  If a subject experienced orthostatic hypotension, he/she was returned to a supine position, and the blood sample was drawn immediately.  All data were recorded on digital and video tapes for later analyses.  All analog signals were also recorded on paper.\r\n<P>\r\nOnly four points of systolic pressure, diastolic pressure, heart rate, stroke volume, cardiac output, and total peripheral resistance were reported: a supine baseline before given any medications; last supine measurement after given midodrine or placebo midodrine; last supine measurement after promethazine or placebo promethazine administration; and last measurement of upright tilt test.\r\n<P>\r\nUrine samples were also collected prior to the test, at various points following the administration of the medications and after the test. Containers of urine samples were used to assay nitric oxide (NO) concentrations.\r\n<P>\r\nRESULTS:<br>\r\nThree of eight (38%) subjects in the control group, none of eight (0%) in the midodrine group, all eight (100%) in the promethazine group, and five of eight (63%) in the combination group experienced orthostatic hypotension during upright tilt test. Promethazine significantly increased the incidence of orthostatic hypotension.  Compared to the midodrine group, the combination group even increased orthostatic hypotension.\r\n<P>\r\nThe combination of 25 mg of promethazine given intravenously one hour after 10 mg of oral midodrine caused profound akathisia in 8 of 8 ground-based subjects. The symptoms of akathisia in these subjects involved uncontrolled foot movements, rocking, facial tick, anxiety, plus a panic attack in one individual and physical aggression in another. This result was reported to the flight surgeons who suggested that 12.5 mg promethazine was probably a more realistic dose. Five of the 8 subjects returned to be tested with 12.5 mg promethazine with midodrine. The combination of 12.5 mg of promethazine given intravenously one hour after 10 mg of oral midodrine again caused noticeable akathisia in 4 of 5 subjects. \r\n<P>\r\nThe results showed that supine systolic and diastolic pressures increased significantly only in the combination group.  Upright tilt systolic pressure decreased significantly only in the promethazine group.  Upright tilt diastolic pressure did not change in all groups.  In the supine position, heart rate did not change before and after given midodrine, promethazine, or both, in all groups.  However, upright tilt heart rate increased significantly in all groups.\r\n<P>\r\nSupine plasma NO showed no change before and after given medications in the four groups.  There is no difference in plasma NO between supine and upright positions in all groups.\r\n<P>\r\nThe results clearly show that midodrine helps to overcome orthostatic hypotension while promethazine enhances orthostatic hypotension. The combination still shows a slight increase in orthostatic hypotension. Of further interest, promethazine caused akathisia, sometimes severe, both alone and in combination with midodrine. These results were reported to the Committee for the Protection of Human Subjects (CPHS) with the following recommendations: If midodrine is administered at Time of Ignition (TIG), promethazine cannot be administered within 4 hours (T1/2 of midodrine); midodrine cannot be taken at TIG if promethazine has been administered within 70 hours (5 half-times). The CPHS instituted a policy that midodrine and promethazine will not be given to astronauts simultaneously. This information was subsequently sent to the FDA Med Watch as an adverse event from a midodrine/promethazine interaction.<END>",
+  "__doi": "10.83263/bav1-1s42",
+  "__doi_record_creation_date": "2026-08-23T03:52:12",
+  "__doi_record_modified_date": "2026-08-23T03:52:12"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001953",
+   "label": "ROI_MIDO_PMZ__1460346968",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Supine to Upright Changes in Norepinephrine and Epinephrine",
+    "dataset_catalog": "ROI_MIDO_PMZ__1460346968",
+    "dataset_description": [
+     "This graph contains supine to upright (delta) changes in A) norepinephrine; B) epinephrine; C) plasma renin; and D) aldosterone during control, midodrine, promethazine, and midodrine plus promethazine (combination). Significant changes were found in norepinephrine responses between control and promethazine; and midodrine and promethazine. Significant changes were found in plasma renin activity between control and promethazine; control and combination; midodrine and promethazine; and midodrine and combination. Signifi ant changes were found in aldosterone between control and promethazine; control and combination; midodrine and promethazine; and midodrine and combination.\r\n<p>\r\nSource: Shi SJ, Platts SH, Ziegler MG, and Meck JV. Effects of promethazine and midodrine on orthostatic tolerance.  Aviation Space and Environmental Medicine. 2011 Jan; 82(1):9-12."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "ROI_MIDO_PMZ"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "cb2edcc4-2f76-50dc-8d5b-85d7fbb52a80",
+     "label": "ROI_MIDO_PMZ__1460346968.TIF_ROI_ROI_MIDO_PMZ_2011_146_030551.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000824",
+   "label": "ROI_MIDO_PMZ__1290509170",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Heart Rate and Arterial Pressure Response to Midodrine and Promethazine Interactions During Tilt Test",
+    "dataset_catalog": "ROI_MIDO_PMZ__1290509170",
+    "dataset_description": [
+     "This table shows four points of systolic pressure, diastolic pressure and heart rate: a supine baseline before being given any medications; last supine measurement after being given midodrine or placebo midodrine; last supine measurement after promethazine or placebo promethazine administration; and last measurement of upright tilt test. This table shows that supine systolic and diastolic pressures increased significantly only in the combination group (midodrine + promethazine).  Upright tilt systolic pressure decreased significantly only in the promethazine group.  Upright tilt diastolic pressure did not change in all groups.  In the supine position, heart rate did not change before and after being given midodrine, \r\npromethazine, or both, in all groups.  However, upright tilt heart rate increased significantly in all groups.\r\n<P>\r\nSource: unpublished data."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "ROI_MIDO_PMZ"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "63db4b3e-53d7-5472-9c69-8e4761d505d6",
+     "label": "ROI_MIDO_PMZ__1290509170.xls_ROI_ROI_MIDO_PMZ_2011_129_050541.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001902",
+   "label": "ROI_MIDO_PMZ__1460317865",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Responses to Promethazine Alone and Promethazine Plus Midodrine",
+    "dataset_catalog": "ROI_MIDO_PMZ__1460317865",
+    "dataset_description": [
+     "This table contains responses to promethazine alone and promethazine plus midodrine for subjects in the ROI_MIDO_PMZ study.\r\n<p>\r\n*No participants experienced akathisia with double placebo use or midodrine plus placebo. \u2020 Barnes score: 0, no akathisia; 1, nonspecific inner tension and fidgety movements; 2,awareness of restlessness that is worse when required to stay still; 3, symptoms of a score of 2 plus rocking movements and distress; 4, compulsive desire to move, with obvious distress; 5, inability to remain still, with distress, insomnia, and severe anxiety.\r\n<p>\r\nSource: Platts SH, Shi SJ, and Meck JV. Akathisia with combined use of midodrine and promethazine. JAMA. 2006 May 3;295(17):2000-1"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "ROI_MIDO_PMZ"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "4fcb5fa2-d49c-5356-9b2f-9c35e8d6bb07",
+     "label": "ROI_MIDO_PMZ__1460317865.xlsx_ROI_ROI_MIDO_PMZ_2011_146_030533.xlsx",
+     "type": "file",
+     "ext": "xlsx",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001906",
+   "label": "ROI_MIDO_PMZ__1460326215",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Incidence of Orthostatic Hypotension",
+    "dataset_catalog": "ROI_MIDO_PMZ__1460326215",
+    "dataset_description": [
+     "This table contains the probability of completing the tilt test during promethazine alone was less than with neither drug (P, 0.001), midodrine alone (P, 0.001), or midodrine plus promethazine (P, 0.01). The probability of completing the stand test was signifi cantly less with midodrine plus promethazine than with midodrine alone (P, 0.01).\r\n<p>\r\nSource: Shi SJ, Platts SH, Ziegler MG, and Meck JV. Effects of promethazine and midodrine on orthostatic tolerance.  Aviation Space and Environmental Medicine. 2011 Jan; 82(1):9-12."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "ROI_MIDO_PMZ"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "f102a4a2-bc3d-5457-ba51-92f817ec5791",
+     "label": "ROI_MIDO_PMZ__1460326215.xlsx_ROI_ROI_MIDO_PMZ_2011_146_030538.xlsx",
+     "type": "file",
+     "ext": "xlsx",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001031",
+   "label": "ROI_MIDO_PMZ__1290453711",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Orthostatic Hypotenstion Due to Midodrine and Promethazine Interactions During the Tilt Test",
+    "dataset_catalog": "ROI_MIDO_PMZ__1290453711",
+    "dataset_description": [
+     "This table shows the number and percent presyncopal during the 20-min tilt in all four groups. Three of eight (38%) subjects in the control group, none of eight (0%) in the midodrine group, all eight (100%) in the promethazine group, and five of eight (63%) in the combination group (midodrine + promethazine) experienced orthostatic hypotension during upright tilt test. The table also shows the average length of stand before presyncopy as well as the number of subjects who experienced akathisia.\r\n<P>\r\nSource: unpublished data."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "ROI_MIDO_PMZ"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "0997a398-1ea7-5d5e-b190-d186a5c74c1d",
+     "label": "ROI_MIDO_PMZ__1290453711.xls_ROI_ROI_MIDO_PMZ_2011_129_050506.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000105",
+   "label": "ROI_MIDO_PMZ__129044284",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Midodrine and Promethazine Interactions: Plasma Nitric Oxide (NO) Measurements",
+    "dataset_catalog": "ROI_MIDO_PMZ__129044284",
+    "dataset_description": [
+     "This table shows that supine plasma nitric oxide (NO) showed no change before and after given medications in the four groups.  There is no difference in plasma NO between supine and upright positions in all groups.\r\n<P>\r\nSource: unpublished data."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "ROI_MIDO_PMZ"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "9430c4ae-8a1c-5f5d-8c48-7ccf6f76d60a",
+     "label": "ROI_MIDO_PMZ__129044284.xls_ROI_ROI_MIDO_PMZ_2011_129_040543.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001952",
+   "label": "ROI_MIDO_PMZ__1460333764",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Supine to Upright Changes in Cardiac Measures",
+    "dataset_catalog": "ROI_MIDO_PMZ__1460333764",
+    "dataset_description": [
+     "This graph contains supine to upright changes (delta) in A) systolic pressure; B) diastolic pressure; C) heart rate; D) stroke volume; E) cardiac output; and F) total peripheral vascular resistance during control, midodrine, promethazine, and midodrine plus promethazine (combination). Significant changes were found in systolic pressure responses between control and promethazine; between midodrine and promethazine; and between midodrine and combination. Significant changes were found in diastolic pressure responses between midodrine and promethazine. Significant changes were found in cardiac output responses between control and promethazine and promethazine and combination. \r\n<p>\r\nSource: Shi SJ, Platts SH, Ziegler MG, and Meck JV. Effects of promethazine and midodrine on orthostatic tolerance.  Aviation Space and Environmental Medicine. 2011 Jan; 82(1):9-12."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "ROI_MIDO_PMZ"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "c63657a8-de78-5475-8c56-89d9d455f37b",
+     "label": "ROI_MIDO_PMZ__1460333764.TIF_ROI_ROI_MIDO_PMZ_2011_146_030500.TIF",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

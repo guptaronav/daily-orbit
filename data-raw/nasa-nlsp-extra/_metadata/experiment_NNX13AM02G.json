@@ -1,0 +1,217 @@
+{
+ "record": {
+  "id": "45dfa050-d8ee-5592-a9f9-3b1458d05d1e",
+  "_id": "45dfa050-d8ee-5592-a9f9-3b1458d05d1e",
+  "experiment_title": "The Effect of Microgravity on Mycobacteria",
+  "archive_status_index": 1,
+  "parameter_html": "<table><tr><td>Colony forming units (CFU)</td></tr><tr><td>Expression, gene, oxidative stress, Mycobacterium marinum, RNA-seq and qPCR</td></tr><tr><td>Growth rate: bacteria</td></tr><tr><td>Survival, 5 mM hydrogen peroxide, Mycobacterium marinum, colony counts (CFU)</td></tr><tr><td>Survival, gamma radiation exposure, Mycobacterium marinum, colony counts (CFU)</td></tr><tr><td>Survival, pH 3.5, citric acid, Mycobacterium marinum, colony counts (CFU)</td></tr><tr><td>Optical density (OD)</td></tr><tr></tr></table>",
+  "__source_key": "cl62avw4hccjz01o60nk23p6g",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Harrison, Lynn\">Principal Investigator: Harrison, Lynn</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Ennis, Don\">Co-Investigator: Ennis, Don</a>",
+  "resource_group": "NASA GeneLab Data",
+  "experiment_type_lk": [
+   "NASA Ground-Based Investigations"
+  ],
+  "__record_modified_date": "2026-08-23T04:10:36.065688+00:00",
+  "proposal_source": "2012 Space Biology NNH12Z",
+  "__indexed": "2026-08-23T04:10:36.065688+00:00",
+  "__record_creation_date": "2022-07-28T19:44:57.524Z",
+  "keyword": [
+   "Virulence",
+   "Stress, psychological",
+   "Weightlessness",
+   "Oxidative stress"
+  ],
+  "keyword_name": "Oxidative stress",
+  "__record_size": 150304,
+  "__record_version": 29,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<br>\r\nThe aim of this work is to determine whether mycobacteria have enhanced virulence during space travel and what mechanisms they use to adapt to microgravity. We will use M. marinum as a model mycobacterium species, as its optimal growth is at 30-33\u00b0C and it is less problematic in terms of causing serious human infections. M. marinum also infects fish, and this provides a future small animal model for both ground-based studies and possible experiments on the International Space Station. We therefore hypothesize that M. marinum grown under conditions of microgravity will be more infectious in terms of entry and survival inside macrophage cells, and that this will be achieved by altering gene expression to promote survival under stressful conditions. Oxygen has been found to play a role in altering gene expression in Pseudomonas aeruginosa grown during space flight, and Salmonella enterica are more resistance to oxidative stress when grown under microgravity. We hypothesize that genes involved in surviving oxidative stress will be induced in M. marinum grown under microgravity. M. marinum grown under microgravity and normal gravity will be tested for their ability to infect and survive in macrophage, for resistance to hydrogen peroxide and for gene expression changes stimulated by microgravity. Specific mutant strains defective in detoxification processes, damage repair or biofilm formation will also be generated and if time allows will also be tested for survival in macrophage after growth under microgravity. This will further extend our understanding of mycobacteria pathogenicity during space travel and potentially reveal mechanisms to target mycobacterium infections in space and on Earth.\r\n<P>\r\nAPPROACH:<br>\r\nThe liquid culture medium for M. marinum was Middlebrook 7H9 liquid medium supplemented with 0.2% tween 80, 100 \u00b5g/ ml cycloheximide, 0.5% glycerol and 10 % ADS (albumin, dextrose, saline solution). M. marinum were grown from colonies until the optical density at 600 nm (OD600) was 0.8-1 in 3-5 mls of liquid medium in a bacterial incubator at 30\u00b0C and 120 rpm. This takes between 4-6 days. The culture was then diluted either to OD600= 0.002 for early gene expression and growth studies or OD600= 0.0005 for long term gene expression studiesand cytotoxicity studies. The diluted culture was then put into two 10 ml or 50 ml high aspect ratio vessels (HARV) and attached to a rotary cell culture system (RCCS) in a water-jacketed humidified incubator at 30\u00b0C. One disk was orientated to be subjected to normal gravity and one disk was subjected to low shear simulated microgravity. The disks were rotated at 25 rpm in all the experiments. All methods are described in Abshire et al NPJ Microgravity (2016) 2, 16038; doi: 10.1038/npjmgrav.2016.38. <p>\r\n<p>\r\n1. Growth analysis \u2013 Two types of M. marinum were used for this study: the parental 1218R strain and a derivative of this strain (LHM4) carrying a plasmid integrated into the genome that expresses resistance to kanamycin and encodes for expression of red fluorescent protein (RFP). \r\n<p>\r\n2. Gene expression \u2013 The M. marinum 1218R strain were used for these studies. The effect of growth in the HARV subjected to normal or simulated microgravity on gene expression was studied.\r\n<p>\r\n3. Resistance to hydrogen peroxide, acid and gamma radiation - These studies used M. marinum LHM4 grown and treated as described in Abshire et al NPJ Microgravity (2016) 2, 16038; doi: 10.1038/npjmgrav.2016.38..\r\n<p>\r\nRESULTS:<br>\r\nThe objective of this proposal was to determine whether waterborne pathogenic mycobacteria alter gene expression, become resistant to stress, and hence could be more infectious when grown under low shear simulated microgravity (MG). Mycobacterium marinum was the model organism used in this study. This is a bacterium that naturally infects fish and amphibians to produce a tuberculosis-like disease in a variety of organs. In humans, M. marinum can cause a disease known as swimming pool granuloma, which is restricted to the skin due to the lower temperature of body extremities. The pathology is similar to dermal Mycobacterium tuberculosis infection and the infection route is through cuts or abrasions. Infection is usually limited to the skin in humans since M. marinum grows at 28-35\u00b0C. M. marinum infects and survives inside immune cells called macrophage by the same mechanisms as M. tuberculosis and Mycobacterium avium. M. tuberculosis and M. avium cause serious lung infections in humans. M. marinum is therefore a good model to understand how these pathogenic mycobacteria survive and adapt to the hostile environment inside macrophage. Since M. marinum and M. avium exist in the environment on Earth and can form biofilms in water systems, it is important to understand the effect of microgravity on these pathogenic mycobacteria as they could exist in the water systems on space vehicles.\r\n<p>\r\nM. marinum strain 1218R and LHM4 (a derivative of M. marinum carrying a plasmid encoding kanamycin resistance and red fluorescent protein) were grown in high aspect ratio vessels (HARV) in a rotary cell culture system (RCCS) under normal gravity (NG) or MG. By following the optical density of the culture as well as the colony forming units per milliliter we determined that the growth of both strains was altered by growth under MG once the culture was in exponential phase. There was no difference in the growth for ~40 hrs (early exponential phase) but the growth of the MG culture was significantly slower after 40 hrs. The doubling time during early exponential was ~6 hrs and after 40 hrs this increased to ~10-11 hrs for the NG cultures and to ~15.5-16 hrs for the MG cultures. We hypothesized that the slowing of growth may have been due to an oxidative stress in the bacteria. Hydrogen peroxide can cross membranes and so we repeated the growth studies adding catalase to the culture. Any hydrogen peroxide exiting the bacteria and existing in the medium would be detoxified by the catalase. This did not however improve the growth of the M. marinum under MG.\r\n<p>\r\nTo determine the effect of MG on the stress responses activated by the growth conditions, we used RNAseq to examine what genes were expressed. For RNAseq, the bacteria were harvested, RNA isolated and converted DNA (cDNA), and the cDNA sequenced using the MiSeq benchtop sequencer. Using bioinformatics, the amount of expression of the different M. marinum genes were compared between the NG and MG samples. To make sure that we were examining only gene expression changes due to MG, only bacteria in early exponential growth were used in the RNAseq studies. Triplicate NG and MG cultures were used to generate samples of bacteria grown for ~40 hrs. We also grew triplicate cultures for 4 days and then diluted them again and grew them for another ~40 hrs so we could examine gene expression from bacteria exposed for a longer time. From these studies it was obvious that stress response pathways were activated in the MG cultures and the stress responses were at a higher expression level the longer they were exposed to MG. Expression seemed to change to be similar to responses of M. tuberculosis inside macrophage. This suggests that the MG stress was similar to that of mycobacteria inside immune cells. Using the MG growth conditions may be useful in the future to test drugs designed to kill mycobacteria during infection. We are in the process of identifying regulator proteins that may be involved in aiding mycobacteria survival under MG.\r\n<p>\r\nPublished studies indicate that other species of bacteria show altered resistance to hydrogen peroxide and acid (pH 3.5) once grown under MG. We tested our LHM4 strain and determined that as found for other bacteria M. marinum were more sensitive to killing by hydrogen peroxide but did not alter their resistance to acid conditions once grown under MG. M. marinum sensitivity to gamma radiation did not change also. This type of study may aid in designing disinfection techniques for future space travel.\r\n<p>\r\nIn summary, growth of M. marinum under MG results in changes in growth, gene expression and sensitivity to stress conditions. SigH is a stress response protein that increases transcription at specific operons and this work suggests SigH may be involved in the response to growth under MG. We are in the process of generating an M. marinum sigH mutant that can be used in future studies to determine whether SigH is an important factor in the adaptation of M. marinum to the stress of growth under MG.\r\n<p>",
+  "payload_id": "Ground",
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "NNX13AM02G",
+  "indexed": "2026-08-23T04:10:36.065688+00:00",
+  "GUID": "cl62avw4hccjz01o60nk23p6g",
+  "resourceTitle": "https://genelab-data.ndc.nasa.gov/genelab/accession/GLDS-90/",
+  "payload_part": "N/A",
+  "exp_index": 13484,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Cell and molecular biology",
+   "Radiation biology"
+  ],
+  "pme_role_with_name": [
+   "Co-Investigator: Ennis, Don",
+   "Principal Investigator: Harrison, Lynn"
+  ],
+  "missions": [
+   [
+    [
+     "Ground"
+    ]
+   ]
+  ],
+  "__dirid": "45dfa050-d8ee-5592-a9f9-3b1458d05d1e",
+  "__record_size_wo_doccontent": 150304,
+  "PI": [
+   "Harrison, Lynn"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "parameter_name": [
+   "Colony forming units (CFU)",
+   "Expression, gene, oxidative stress, Mycobacterium marinum, RNA-seq and qPCR",
+   "Growth rate: bacteria",
+   "Survival, 5 mM hydrogen peroxide, Mycobacterium marinum, colony counts (CFU)",
+   "Survival, gamma radiation exposure, Mycobacterium marinum, colony counts (CFU)",
+   "Survival, pH 3.5, citric acid, Mycobacterium marinum, colony counts (CFU)",
+   "Optical density (OD)"
+  ],
+  "experiment_identifier": [
+   "NNX13AM02G"
+  ],
+  "mission_id": [
+   [
+    [
+     "Ground"
+    ]
+   ]
+  ],
+  "center": [
+   "Ames Research Center"
+  ],
+  "ncindex": [
+   7
+  ],
+  "proposal_date": [
+   "2012"
+  ],
+  "CombinedSpecies": [
+   [
+    "Bacteria (M. marinum)"
+   ]
+  ],
+  "species": [
+   "Bacteria"
+  ],
+  "PrincipalInvestigator": [
+   "Harrison, Lynn"
+  ],
+  "LaunchDate": [
+   "05/01/2009"
+  ],
+  "LaunchYear": 2009,
+  "program_name": [
+   "Ground"
+  ],
+  "archive_status": "Data preservation is complete. All datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Ground",
+  "__source_field_concat": "NASA GeneLab Data 2012 Space Biology NNH12Z Ground cl62avw4hccjz01o60nk23p6g Oxidative stress https://genelab-data.ndc.nasa.gov/genelab/accession/GLDS-90/  N/A The Effect of Microgravity on Mycobacteria NNX13AM02G Ground Data preservation is complete. All datasets are publicly available.",
+  "__icon_type": "bacteria",
+  "__description": "OBJECTIVES:<br>\r\nThe aim of this work is to determine whether mycobacteria have enhanced virulence during space travel and what mechanisms they use to adapt to microgravity. We will use M. marinum as a model mycobacterium species, as its optimal growth is at 30-33\u00b0C and it is less problematic in terms of causing serious human infections. M. marinum also infects fish, and this provides a future small animal model for both ground-based studies and possible experiments on the International Space Station. We therefore hypothesize that M. marinum grown under conditions of microgravity will be more infectious in terms of entry and survival inside macrophage cells, and that this will be achieved by altering gene expression to promote survival under stressful conditions. Oxygen has been found to play a role in altering gene expression in Pseudomonas aeruginosa grown during space flight, and Salmonella enterica are more resistance to oxidative stress when grown under microgravity. We hypothesize that genes involved in surviving oxidative stress will be induced in M. marinum grown under microgravity. M. marinum grown under microgravity and normal gravity will be tested for their ability to infect and survive in macrophage, for resistance to hydrogen peroxide and for gene expression changes stimulated by microgravity. Specific mutant strains defective in detoxification processes, damage repair or biofilm formation will also be generated and if time allows will also be tested for survival in macrophage after growth under microgravity. This will further extend our understanding of mycobacteria pathogenicity during space travel and potentially reveal mechanisms to target mycobacterium infections in space and on Earth.\r\n<P>\r\nAPPROACH:<br>\r\nThe liquid culture medium for M. marinum was Middlebrook 7H9 liquid medium supplemented with 0.2% tween 80, 100 \u00b5g/ ml cycloheximide, 0.5% glycerol and 10 % ADS (albumin, dextrose, saline solution). M. marinum were grown from colonies until the optical density at 600 nm (OD600) was 0.8-1 in 3-5 mls of liquid medium in a bacterial incubator at 30\u00b0C and 120 rpm. This takes between 4-6 days. The culture was then diluted either to OD600= 0.002 for early gene expression and growth studies or OD600= 0.0005 for long term gene expression studiesand cytotoxicity studies. The diluted culture was then put into two 10 ml or 50 ml high aspect ratio vessels (HARV) and attached to a rotary cell culture system (RCCS) in a water-jacketed humidified incubator at 30\u00b0C. One disk was orientated to be subjected to normal gravity and one disk was subjected to low shear simulated microgravity. The disks were rotated at 25 rpm in all the experiments. All methods are described in Abshire et al NPJ Microgravity (2016) 2, 16038; doi: 10.1038/npjmgrav.2016.38. <p>\r\n<p>\r\n1. Growth analysis \u2013 Two types of M. marinum were used for this study: the parental 1218R strain and a derivative of this strain (LHM4) carrying a plasmid integrated into the genome that expresses resistance to kanamycin and encodes for expression of red fluorescent protein (RFP). \r\n<p>\r\n2. Gene expression \u2013 The M. marinum 1218R strain were used for these studies. The effect of growth in the HARV subjected to normal or simulated microgravity on gene expression was studied.\r\n<p>\r\n3. Resistance to hydrogen peroxide, acid and gamma radiation - These studies used M. marinum LHM4 grown and treated as described in Abshire et al NPJ Microgravity (2016) 2, 16038; doi: 10.1038/npjmgrav.2016.38..\r\n<p>\r\nRESULTS:<br>\r\nThe objective of this proposal was to determine whether waterborne pathogenic mycobacteria alter gene expression, become resistant to stress, and hence could be more infectious when grown under low shear simulated microgravity (MG). Mycobacterium marinum was the model organism used in this study. This is a bacterium that naturally infects fish and amphibians to produce a tuberculosis-like disease in a variety of organs. In humans, M. marinum can cause a disease known as swimming pool granuloma, which is restricted to the skin due to the lower temperature of body extremities. The pathology is similar to dermal Mycobacterium tuberculosis infection and the infection route is through cuts or abrasions. Infection is usually limited to the skin in humans since M. marinum grows at 28-35\u00b0C. M. marinum infects and survives inside immune cells called macrophage by the same mechanisms as M. tuberculosis and Mycobacterium avium. M. tuberculosis and M. avium cause serious lung infections in humans. M. marinum is therefore a good model to understand how these pathogenic mycobacteria survive and adapt to the hostile environment inside macrophage. Since M. marinum and M. avium exist in the environment on Earth and can form biofilms in water systems, it is important to understand the effect of microgravity on these pathogenic mycobacteria as they could exist in the water systems on space vehicles.\r\n<p>\r\nM. marinum strain 1218R and LHM4 (a derivative of M. marinum carrying a plasmid encoding kanamycin resistance and red fluorescent protein) were grown in high aspect ratio vessels (HARV) in a rotary cell culture system (RCCS) under normal gravity (NG) or MG. By following the optical density of the culture as well as the colony forming units per milliliter we determined that the growth of both strains was altered by growth under MG once the culture was in exponential phase. There was no difference in the growth for ~40 hrs (early exponential phase) but the growth of the MG culture was significantly slower after 40 hrs. The doubling time during early exponential was ~6 hrs and after 40 hrs this increased to ~10-11 hrs for the NG cultures and to ~15.5-16 hrs for the MG cultures. We hypothesized that the slowing of growth may have been due to an oxidative stress in the bacteria. Hydrogen peroxide can cross membranes and so we repeated the growth studies adding catalase to the culture. Any hydrogen peroxide exiting the bacteria and existing in the medium would be detoxified by the catalase. This did not however improve the growth of the M. marinum under MG.\r\n<p>\r\nTo determine the effect of MG on the stress responses activated by the growth conditions, we used RNAseq to examine what genes were expressed. For RNAseq, the bacteria were harvested, RNA isolated and converted DNA (cDNA), and the cDNA sequenced using the MiSeq benchtop sequencer. Using bioinformatics, the amount of expression of the different M. marinum genes were compared between the NG and MG samples. To make sure that we were examining only gene expression changes due to MG, only bacteria in early exponential growth were used in the RNAseq studies. Triplicate NG and MG cultures were used to generate samples of bacteria grown for ~40 hrs. We also grew triplicate cultures for 4 days and then diluted them again and grew them for another ~40 hrs so we could examine gene expression from bacteria exposed for a longer time. From these studies it was obvious that stress response pathways were activated in the MG cultures and the stress responses were at a higher expression level the longer they were exposed to MG. Expression seemed to change to be similar to responses of M. tuberculosis inside macrophage. This suggests that the MG stress was similar to that of mycobacteria inside immune cells. Using the MG growth conditions may be useful in the future to test drugs designed to kill mycobacteria during infection. We are in the process of identifying regulator proteins that may be involved in aiding mycobacteria survival under MG.\r\n<p>\r\nPublished studies indicate that other species of bacteria show altered resistance to hydrogen peroxide and acid (pH 3.5) once grown under MG. We tested our LHM4 strain and determined that as found for other bacteria M. marinum were more sensitive to killing by hydrogen peroxide but did not alter their resistance to acid conditions once grown under MG. M. marinum sensitivity to gamma radiation did not change also. This type of study may aid in designing disinfection techniques for future space travel.\r\n<p>\r\nIn summary, growth of M. marinum under MG results in changes in growth, gene expression and sensitivity to stress conditions. SigH is a stress response protein that increases transcription at specific operons and this work suggests SigH may be involved in the response to growth under MG. We are in the process of generating an M. marinum sigH mutant that can be used in future studies to determine whether SigH is an important factor in the adaptation of M. marinum to the stress of growth under MG.\r\n<p>",
+  "__doi": "10.83263/arvv-h416",
+  "__doi_record_creation_date": "2026-08-23T04:10:36",
+  "__doi_record_modified_date": "2026-08-23T04:10:36"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001914",
+   "label": "NNX13AM02G__1020541391",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "The Effect of Microgravity on Mycobacteria, Survival Analysis Data",
+    "dataset_catalog": "NNX13AM02G__1020541391",
+    "dataset_description": [
+     "Test of resistance to different agents with treatment of radiation, or hydrogen peroxide or acid after growth under normal gravity (NG) and LSMMG. For survival data LHM4 strain was used as this is a derivative of strain 1218R. A plasmid is incorporated into the genome that encodes red fluorescent protein and kanamycin resistance. Bacteria were grown and treated according to Abshire et al NOJ Microgravity  (2016) 2, 16038; doi:10.1038/npjmgrav.2016.38. \r\n<p>\r\nLHM4 were removed from the HARV and the OD600 measured in a sample after disaggregation. Bacteria were in exponential phase (OD600 0.09-0.2). For radiation and hydrogen peroxide (H2O2) studies, bacteria were centrifuged and washed in PBS containing 0.2% Tween 80 (Tw-PBS) , before resuspension at OD600 ~0.2 in Tw-PBS. Two samples (200 \u00b5l in a sealed tube) were prepared for each time point or dose. One sample was treated (1-4 hours) with 5 mM H2O2 at 30\u00b0C or with ? radiation (100-400 Gy) at room temperature. The second sample was not treated and was used as the control to determine the CFU/ ml at zero treatment at the time point. A similar method was used to treat the bacteria with acid. The bacteria were centrifuged and resuspended at OD600 ~0.2 in growth medium (control) or growth medium at pH 3.5. 1 M citric acid was added to the medium to reach pH 3.5. Once the bacteria were resuspended, the pH was checked using pH paper. The control and acid-treated samples were incubated at 30\u00b0C for 1-4 hours. After all treatment regimens, bacteria were disaggregated and diluted as described above and grown on three plates containing solid medium. Bacteria were incubated at 30\u00b0C for 7-10 days and the CFU/ ml calculated for each control and treated sample. Survival was calculated by:% Survival = Avg CFU/ ml of treated culture x 100, Avg CFU/ ml of control culture\r\n<p>\r\nThe survival data were compared by calculating the area under the curve for each data set using the Trapezoidal Rule, and the Student T test was used to compare the values. These statistical analyses were performed using SAS 9.4 (SAS Inc. Gary, NC).\r\n<p>\r\nTime period of collection range from February 3, 2014 to February 17, 2015."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "NNX13AM02G"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "1d643ab5-2ea8-5eb3-976e-040ceacfc36d",
+     "label": "Harrison_DataInvForms_Survival.docx_Ground_NNX13AM02G_2017_108_030425.docx",
+     "type": "file",
+     "ext": "docx",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000374",
+   "label": "NNX13AM02G__103103268",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "The Effect of Microgravity on Mycobacteria, Growth Data",
+    "dataset_catalog": "NNX13AM02G__103103268",
+    "dataset_description": [
+     "Excel worksheets show dates, OD600 measurements and graphs for analysis of growth for strain 1218R and LHM4. Two strain were used, 1218R and LHM4 strain. LHM4 is a derivative of strain 1218R. To produce LHM4 a plasmid was incorporated into the genome of 1218R. The plasmid encodes red fluorescent and kanamycin resistance. Bacteria were grown and experiments performed according to Abshire et al NPJ Microgravity (2016) 2, 16038; doi:10.1038/npjmgrav.2016.38. \r\n<p>\r\nFor the continuous growth studies, one large volume of OD600 0.0005 culture was prepared from an initiating tube culture and split between two 10 ml HARV: one was subjected to NG and the other to LSMMG. After 4 days the cultures were removed and the OD600 was determined. The statistical difference between the LSMMG and NG cultures was tested by a T-test performed using SAS 9.4 (SAS Inc. Gary, NC). To examine culture density during exponential growth, one large volume of OD600 0.002 culture was prepared from an initiating tube culture and split between two 50 ml HARV: one was subjected to NG and the other to LSMMG. Where specified, 3 \u00b5g catalase / ml (0.06 U/ ml) (ThermoFisher Scientific, Waltham, MA) was included. Bacteria were grown for ~150 hrs but the HARVs were stopped to remove samples (1 -2 ml). Liquid medium was added to the HARV to replace the removed sample volume (2-4% of the volume) to maintain a low shear environment. In order to obtain accurate OD600 and CFU measurements, a disaggregation procedure was used: SDS (final concentration 0.01%) was added; the culture was passed through a 27.5 gauge needle and either vortexed prior to measurement of the OD600 or preparation of dilutions. The bacteria were allowed to settle for 5 minutes prior to growth on solid medium. Use of the syringe needle, vortexing, and then allowing the culture to settle prior to plating on solid medium is standard procedure for mycobacterium. Colonies from each sample were grown on at least two plates of solid medium for 7-10 days. Colonies were counted for each time point and the CFU/ ml calculated. Preliminary experiments confirmed by microscopy that disaggregation of cultures was achieved using the syringe needle, and initial experiments determined that the addition of the SDS to the NG and LSMMG cultures only during the disaggregation and dilution stage did not alter colony forming ability (data not shown). \r\n<p>\r\nTo determine statistical differences between LSMMG and NG cultures during the 37-70 hour time period of growth, regression analysis was performed on the OD600 data using SAS 9.4 (SAS Inc. Gary, NC).\r\n<p>\r\nPeriod of collection ranges from November 18, 2013 to June 12, 2014."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "NNX13AM02G"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "a50a09e1-2f28-5237-b7dd-1320559c5f8b",
+     "label": "Harrison_DataInvForms_Growth.docx_Ground_NNX13AM02G_2017_108_030450.docx",
+     "type": "file",
+     "ext": "docx",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000110",
+   "label": "NNX13AM02G__10310313",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "The Effect of Microgravity on Mycobacteria, Bacterium Size Data",
+    "dataset_catalog": "NNX13AM02G__10310313",
+    "dataset_description": [
+     "Size measured from images after growth under LSMMG and normal gravity (NG). Treatment included LSMMG and NG in high-aspect ratio vessels (HARV) on rotating cell culture system (RCCS). For size determination LHM4 strain was used. This is a derivative of strain 1218R. TO produce LHM4 a plasmid was incorporated into the genome of 1218R. The plasmid encodes red fluorescent protein and kanamycin resistance. Bacteria were grown and experiments performed according to Abshire et al NPJ Microgravity (2016) 2, 16038; doi:10.1038/npjmgrav.2016.38.  \r\n<p>\r\nA portion of the LHM4 culture grown for 4 days in a 10 ml HARV was passed through a 27.5 gauge needle and fixed by the addition of 30 \u00b5l 4% paraformaldehyde to 10 \u00b5l of culture. Samples were placed at 4\u00b0C for at least 24 hrs prior to the measurement of the diameter and length of 50 bacteria using microscopy. The Instat3 program and the Unpaired T-test or the Mann-Whitney test was used to compare the lengths and diameters of the bacterium. \r\n<p>\r\nTime period of collection November 2014."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "NNX13AM02G"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "01728fc3-62e5-5999-aa46-99ac07a0db28",
+     "label": "Harrison_DataInvForms_Bacterium_size.docx_Ground_NNX13AM02G_2017_108_030429.docx",
+     "type": "file",
+     "ext": "docx",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

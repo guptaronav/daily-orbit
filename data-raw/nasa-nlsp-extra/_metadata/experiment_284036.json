@@ -1,0 +1,655 @@
+{
+ "record": {
+  "id": "21311163-1540-5b70-ae57-b7ad2b1a898b",
+  "_id": "21311163-1540-5b70-ae57-b7ad2b1a898b",
+  "experiment_title": "Relationship of Long-Term Electromyographic Activity and Hormonal Function to Muscle Atrophy and Performance",
+  "pub_document_number": "PUB000262",
+  "experiment_alias": [
+   "E036",
+   "MCIM"
+  ],
+  "parameter_html": "<table><tr><td>Adenosine triphosphatase (ATPase), muscle fiber</td></tr><tr><td>Angular velocity</td></tr><tr><td>Body mass</td></tr><tr><td>Body weight</td></tr><tr><td>Calf muscle, maximal voluntary contraction</td></tr><tr><td>Calf muscles, voluntary contraction</td></tr><tr><td>Carbon dioxide concentration, expired gas</td></tr><tr><td>Carbon dioxide concentration, inspired gas</td></tr><tr><td>Cortisol, urine</td></tr><tr><td>Electroencephalogram (EEG)</td></tr><tr><td>Electromyogram (EMG), chin</td></tr><tr><td>Electromyogram (EMG), m. biceps brachii</td></tr><tr><td>Electromyogram (EMG), m. gastrocnemius medialis</td></tr><tr><td>Electromyogram (EMG), m. soleus</td></tr><tr><td>Electromyogram (EMG), m. tibialis anterior</td></tr><tr><td>Electromyogram (EMG), m. triceps brachii</td></tr><tr><td>Electromyogram force</td></tr><tr><td>Electromyogram force ratio</td></tr><tr><td>Electrooculogram (EOG)</td></tr><tr><td>Enzymes, muscle fiber</td></tr><tr><td>Fecal collection time</td></tr><tr><td>Force</td></tr><tr><td>Force output, leg muscles</td></tr><tr><td>Force-mode, Torque-Velocity Dynamometer (TVD)</td></tr><tr><td>Force-velocity</td></tr><tr><td>Force/cross-sectional area</td></tr><tr><td>Growth hormone carrier protein, urine</td></tr><tr><td>Heart rate</td></tr><tr><td>Immunoreactive growth hormone (IRGH), urine</td></tr><tr><td>Inspired gas concentration</td></tr><tr><td>Insulin, urine</td></tr><tr><td>Insulin-like growth factor 1 (IGF-1), urine</td></tr><tr><td>Insulin-like growth factor-binding protein 3 (IGFBP-3), urine</td></tr><tr><td>Joint angular position, ankle</td></tr><tr><td>Joint angular position, elbow</td></tr><tr><td>Leg volume</td></tr><tr><td>Maximal voluntary contraction (MVC), calf muscles</td></tr><tr><td>Muscle fatigue, calf muscles</td></tr><tr><td>Muscle fiber size</td></tr><tr><td>Muscle fiber, cross-bridge stiffness</td></tr><tr><td>Muscle fiber, force-velocity</td></tr><tr><td>Muscle fiber, isozyme content</td></tr><tr><td>Muscle fiber, maximal shortening speed</td></tr><tr><td>Muscle fiber, pCa-force</td></tr><tr><td>Muscle fiber, peak rate of tension development</td></tr><tr><td>Muscle fiber, peak tension</td></tr><tr><td>Muscle fiber, substrate profile</td></tr><tr><td>Muscle force</td></tr><tr><td>Muscle force, calf muscles</td></tr><tr><td>Muscle velocity, calf muscles</td></tr><tr><td>Muscle volume</td></tr><tr><td>Muscle, lean tissue mass</td></tr><tr><td>Myosin heavy chain (MHC), muscle fiber</td></tr><tr><td>Oxygen concentration, expired gas</td></tr><tr><td>Oxygen concentration, inspired gas</td></tr><tr><td>Performance measurement</td></tr><tr><td>Reaction time</td></tr><tr><td>Respiratory rate</td></tr><tr><td>Sleep log</td></tr><tr><td>Temperature, core</td></tr><tr><td>Temperature, oral</td></tr><tr><td>Testosterone, urine</td></tr><tr><td>Thyroxine (T4), urine</td></tr><tr><td>Torque</td></tr><tr><td>Torque/angle</td></tr><tr><td>Torque/current</td></tr><tr><td>Triiodothyronine (T3), urine</td></tr><tr><td>Urine void collection time</td></tr><tr><td>Velocity</td></tr><tr><td>Workload, ergometer</td></tr><tr></tr></table>",
+  "__source_key": "cl62atqv9cab801o6131xg6fq",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Edgerton, V.\">Principal Investigator: Edgerton, V.</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Cohen, Malcolm\">Co-Investigator: Cohen, Malcolm</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Greenisen, Michael\">Co-Investigator: Greenisen, Michael</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Grindeland, Richard\">Co-Investigator: Grindeland, Richard</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Hodgson, John\">Co-Investigator: Hodgson, John</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Roy, Roland\">Co-Investigator: Roy, Roland</a>",
+  "image_name": [
+   "Ambient Temperature Recorder (ATR-4) -- sketch drawing",
+   "Bar Code Reader (BCR) -- sketch drawing",
+   "Life and Microgravity Spacelab (LMS) Hardware, Life Sciences Laboratory Equipment (LSLE) Refrigerator/Freezer",
+   "Life and Microgravity Spacelab (LMS) Payload Operations",
+   "Life and Microgravity Spacelab (LMS) Payload Operations, Electromyograph (EMG) electrode positions on arm",
+   "Life and Microgravity Spacelab (LMS) Payload Operations, Electromyograph (EMG) electrode positions on leg",
+   "Life and Microgravity Spacelab (LMS) payload operations, Hand-Grip Dynamometer (HGD) and Torso Rotation Experiment (TRE)",
+   "Life and Microgravity Spacelab (LMS) Payload Operations, Hand-Grip Dynamometer (HGD) operations",
+   "Life and Microgravity Spacelab (LMS) Payload Operations, positioning of the Electromyograph (EMG) electrodes",
+   "Life and Microgravity Spacelab (LMS) payload operations, Torque-Velocity Dynamometer (TVD) arm muscle testing",
+   "Life and Microgravity Spacelab (LMS) payload operations, Torque-Velocity Dynamometer (TVD) leg muscle testing",
+   "Percutaneous Electrical Muscle Stimulator (PEMS) -- sketch drawing",
+   "Position of Electromyograph (EMG) Electrodes on the Leg Muscles"
+  ],
+  "keyword": [
+   "Heart rate",
+   "Reaction time",
+   "Muscle fibers",
+   "Carbon dioxide (CO2)",
+   "Oxygen consumption"
+  ],
+  "keyword_name": "Oxygen consumption",
+  "__record_version": 30,
+  "experiment_description": "OBJECTIVES: <br>\r\nThe muscular system and the neural control elements of the neuromuscular system are \r\nsignificantly affected by space flight.  Rapid adjustments in motor control are required \r\njust after launch and throughout the mission in order to function effectively in microgravity.  \r\nDegradation in skeletal muscle function associated with space flight may be caused, at least \r\npartially, by altered motor functions.  This experiment was designed to examine questions \r\nrelated to 1) the control of movement under a variety of conditions, 2) a human's ability to \r\nadapt movement skills to perform successfully under rapidly changing gravitational conditions, \r\n3) the physiological adjustments occurring in these different conditions that may be responsible \r\nfor alterations in movement precision and limitations in physical performance during postflight \r\nand recovery procedures, and 4) the physiological mechanisms that trigger neuromuscular adaptations \r\nto space flight.\r\n<p>\r\nThe investigation was designed to determine the relationship between the electromyographic \r\n(EMG) activity of the calf and elbow muscles and the level to which their functional integrity \r\ncan be maintained in prolonged space flight.  The selected muscles to be tested were located \r\nin the calf of the right leg and the upper right arm: the ankle dorsiflexor (m. tibialis anterior, \r\nTA) and plantar flexor (m. gastrocnemius medialis, GM, and m. soleus, SO) of the calf, the elbow \r\nflexor (m. biceps brachii, BB) and elbow extensor (m. triceps brachii, TB) in the arm.  \r\n <p>\r\nThe specific objectives of the experiment were:<br>\r\n1. To determine daily activity of the musculus soleus (SO), m. gastrocnemius medialis (GM), m. tibialis anterior (TA), m. biceps brachii (BB), and m. triceps brachii (TB) before, during and after space flight.<br>\r\n2. To determine the EMG-torque relationship for the SO, GM, TA, BB and TB muscles during maximal and submaximal efforts before, during and after flight. <br>\r\n3. To determine the changes in motor control of the ankle, elbow and hand-grip.<br>\r\n4. To determine the fatigability of the ankle plantar flexors (SO and GM) before, during and after flight.<br>\r\n5. To determine the blood plasma levels of immunoreactive growth hormone (IRGH), insulin-like growth factor (IGF1), growth hormone carrier protein, thyroxine (T4), triiodothyronine (T3), testosterone, insulin, and cortisol before, during, and after flight.<br>\r\n6. To determine the bioassayable growth hormone (GH) response to exercise before, during and after space flight.<br>\r\n7. To determine the relationship between plasma hormone levels and the decrease in plantar flexor torque associated with muscle fatigue.\r\n<p>\r\nAPPROACH:<br>\r\nThe experiment was composed of the following tests:<br>\r\n1) 24-hour EMG recordings to quantify the subject's daily level of muscle activity.<br>\r\n2) Motor control tests designed to provide information on the strategies of the nervous system to regulate controlled muscle activity, and on how microgravity modifies these neural strategies.<br>\r\n3) A fatigue test protocol and its resulting endocrine response, which indicated the relative importance of neural, as compared to muscular, fatigue.<br>\r\n<p>\r\nThe functional integrity of the calf muscles, and the elbow and wrist flexors, was assessed \r\nduring maximal and submaximal efforts, using the Torque-Velocity Dynamometer (TVD) and Hand \r\nGrip Dynamometer (HGD).  The calf muscles of the right leg were tested in a protocol using \r\nthe TVD, followed by the 8913020 protocol of Dr. Fitts and a fatigue test.  The elbow flexors \r\nof the right arm were also tested in a similar protocol on the TVD, followed by the E407 protocol \r\nof Dr. diPrampero.  The stand-alone Hand Grip test of the wrist flexors was composed of a \r\nreference test and a force curve.  The protocols on the TVD were composed of six different \r\ntests: 1) reference test, 2) estimate position, 3) torque curve, 4) maintain constant torque, \r\n5) dynamic stiffness and 6) position curve.  These six tests monitored different aspects of the \r\nsubject's motor control capabilities, and allowed determination of the torque-velocity/EMG \r\nrelationship.  Motor control capability of the ankle and arm were tested through a variety of \r\ntasks requiring precision in force production and displacement.  Specific temporal and amplitude \r\ncharacteristics of the EMG signal were correlated with the maximal torque, velocity, and power.  \r\nEMG of predominately slow and predominately fast ankle plantar flexors and elbow flexor and \r\nextensor muscles during the maximal and submaximal efforts were studied to compare the magnitude \r\nof the presumed decrease in total EMG throughout repeated 24-hour periods before, during, and \r\nafter space flight with torque, velocity, and power potentials of these muscle groups.  Similarly, \r\nthe changes in torque, velocity, and power potentials associated with prolonged flight were related to plasma hormonal changes during space flight.  \r\n<p>\r\nDuring both the early and late mission right leg TVD-test protocol, small amounts of blood were collected prior to and immediately after the fatigue test, to measure the level of growth hormone (GH), which increases in the bloodstream during exercise.  It was hypothesized that the stay in microgravity would affect GH production and result in a lower value.  In addition to the described measurements, plasma levels of other hormones that play a major role in regulating muscle protein metabolism were analyzed.  Additional samples were taken pre- and postflight.\r\n<p>\r\nThese data will help define the relative importance of muscle function to muscle maintenance in prolonged space flight.  Furthermore, these data will provide insight into the relative impact of neural and muscular components on changes in movement control and maximal performance capacity as might be needed in an emergency egress procedure.\r\n<p>\r\nRESULTS:<br>\r\nThe 24-hour electromyography (EMG) showed an increase in muscle activation on FD 1 for the soleus (SO), tibialis anterior (TA), biceps brachii (BB) and triceps brachii (TB) muscles.  The SO and TA activation was increased during the entire space flight, whereas a slight decrease in the gastrocnemius medialis (MG) daily level of muscular activity was observed.  The TB values were increased for the entire space flight, while for BB the daily values measured on FD 7 and FD 13 were similar to the baseline and recovery values.\r\n<P>\r\nThe measured torque values (for Hand Grip Dynamometer force values) showed no obvious effects caused by space flight.  A small but significant (p<0.05) increase in elbow flexor torque was observed across subjects during flight.  In addition, a decrease in elbow flexor torque (p<0.01) was seen in 3 of 4 subjects at FD 2-3, although one crewmember showed larger elbow flexor torque during this measurement session.  The steep decrease in torque seen in the plantarflexor muscle group on FD 2-3 with a sudden recovery at the next session (FD 6-7) was caused by problems with seating and securing the subject to the TVD during the FD 2-3 session.\r\n<P>\r\nFor changes in muscle output estimation (subjects were asked to apply a certain force level, expressed in percent of MVC) there was no specific trend observed.  However, in a number of instances output estimation was altered inflight relative to preflight (elbow extensors for all subjects, plantarflexors for 3 subjects, dorsiflexors and hand grip for 2 subjects).  In all such instances the direction of the change was toward an overestimation of output at lower force levels.\r\n<P>\r\nNo significant difference between pre- and inflight for the ability to maintain a constant torque output at a faster (1 Hertz) or slower (0.5 Hertz) passive isokinetic movement was observed.  Similarly, there was no significant difference in the ability to maintain torque with or without continuous feedback, with the exception of the 50% MVC ankle plantarflexion.  All subjects were significantly (p<0.05) more accurate at maintaining a constant torque for ankle plantarflexion at 50% MVC when given continuous feedback, and the torque was underestimated by 10% without feedback.  For elbow testing, subjects consistently overestimated 10% MVC and underestimated 50% MVC for elbow extension.  In opposition, for elbow flexion, 10% MVC was consistently underestimated while 50% MVC was overestimation.\r\n<P>\r\nTorque output for the ankle flexor and elbow flexor muscles were the most affected during space flight.  On the second inflight test (FD 4-5) there was a significant decrease in torque levels for ankle dorsiflexion at 50% MVC with feedback.  For elbow flexors, on the first day of space flight, the mean difference from requested torque increase significantly for elbow flexion at 10% MVC, such that subjects underestimated to a greater degree.  This effect continued throughout the flight and for the first eight days postflight.\r\n<P>\r\nThe EMG measurements during the experiment sessions revealed no significant changes for agonist or antagonist muscles whether or not subjects were given continuous feedback.  However, significant changes were observed for the agonist EMG activity recorded during low level ankle extension or elbow flexion.  The EMG signals for both the MG and BB muscles decreased significantly during the 10% MVC early into the flight.  SO and TB demonstrated no significant alterations in EMG activity.\r\n<P>\r\nThe hormone response (BGH response) to exercise was clearly present before space flight (p<0.05), blunted at FD 2-3, and was essentially absent by FD 13-14.  Following space flight, the BGH response remained absent at R+2 but had returned by R+4.  In conclusion, the exercise induced release of BGH was inhibited during space flight and early recovery, but has returned to normal four days after recovery.",
+  "indexed": "2026-08-23T03:57:59.840208+00:00",
+  "GUID": "cl62atqv9cab801o6131xg6fq",
+  "__model_type": "lsda_experiment",
+  "__dirid": "21311163-1540-5b70-ae57-b7ad2b1a898b",
+  "__record_size_wo_doccontent": 214606,
+  "experiment_parms_tissue2": "N/A",
+  "experiment_parms_tissue1": "N/A",
+  "__update_method": "Update CDM",
+  "archive_status_index": 2,
+  "experiment_type_lk": [
+   "Shuttle Life Sciences Research (Spacelab)"
+  ],
+  "__record_modified_date": "2026-08-23T03:57:59.840208+00:00",
+  "proposal_source": [
+   "Not available"
+  ],
+  "__indexed": "2026-08-23T03:57:59.840208+00:00",
+  "alias": [
+   "E036",
+   "MCIM"
+  ],
+  "__record_creation_date": "2022-07-28T19:40:38.497Z",
+  "__record_size": 214606,
+  "__model_version": 60,
+  "payload_id": "LMS",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "284036",
+  "experiment_related": [
+   "DSO 475"
+  ],
+  "parameter_name": [
+   "Adenosine triphosphatase (ATPase), muscle fiber",
+   "Angular velocity",
+   "Body mass",
+   "Body weight",
+   "Calf muscle, maximal voluntary contraction",
+   "Calf muscles, voluntary contraction",
+   "Carbon dioxide concentration, expired gas",
+   "Carbon dioxide concentration, inspired gas",
+   "Cortisol, urine",
+   "Electroencephalogram (EEG)",
+   "Electromyogram (EMG), chin",
+   "Electromyogram (EMG), m. biceps brachii",
+   "Electromyogram (EMG), m. gastrocnemius medialis",
+   "Electromyogram (EMG), m. soleus",
+   "Electromyogram (EMG), m. tibialis anterior",
+   "Electromyogram (EMG), m. triceps brachii",
+   "Electromyogram force",
+   "Electromyogram force ratio",
+   "Electrooculogram (EOG)",
+   "Enzymes, muscle fiber",
+   "Fecal collection time",
+   "Force",
+   "Force output, leg muscles",
+   "Force-mode, Torque-Velocity Dynamometer (TVD)",
+   "Force-velocity",
+   "Force/cross-sectional area",
+   "Growth hormone carrier protein, urine",
+   "Heart rate",
+   "Immunoreactive growth hormone (IRGH), urine",
+   "Inspired gas concentration",
+   "Insulin, urine",
+   "Insulin-like growth factor 1 (IGF-1), urine",
+   "Insulin-like growth factor-binding protein 3 (IGFBP-3), urine",
+   "Joint angular position, ankle",
+   "Joint angular position, elbow",
+   "Leg volume",
+   "Maximal voluntary contraction (MVC), calf muscles",
+   "Muscle fatigue, calf muscles",
+   "Muscle fiber size",
+   "Muscle fiber, cross-bridge stiffness",
+   "Muscle fiber, force-velocity",
+   "Muscle fiber, isozyme content",
+   "Muscle fiber, maximal shortening speed",
+   "Muscle fiber, pCa-force",
+   "Muscle fiber, peak rate of tension development",
+   "Muscle fiber, peak tension",
+   "Muscle fiber, substrate profile",
+   "Muscle force",
+   "Muscle force, calf muscles",
+   "Muscle velocity, calf muscles",
+   "Muscle volume",
+   "Muscle, lean tissue mass",
+   "Myosin heavy chain (MHC), muscle fiber",
+   "Oxygen concentration, expired gas",
+   "Oxygen concentration, inspired gas",
+   "Performance measurement",
+   "Reaction time",
+   "Respiratory rate",
+   "Sleep log",
+   "Temperature, core",
+   "Temperature, oral",
+   "Testosterone, urine",
+   "Thyroxine (T4), urine",
+   "Torque",
+   "Torque/angle",
+   "Torque/current",
+   "Triiodothyronine (T3), urine",
+   "Urine void collection time",
+   "Velocity",
+   "Workload, ergometer"
+  ],
+  "payload_part": "(null)",
+  "exp_index": 319,
+  "research_area": [
+   "Muscle physiology"
+  ],
+  "pme_role_with_name": [
+   "Co-Investigator: Cohen, Malcolm",
+   "Co-Investigator: Greenisen, Michael",
+   "Co-Investigator: Grindeland, Richard",
+   "Co-Investigator: Hodgson, John",
+   "Co-Investigator: Roy, Roland",
+   "Principal Investigator: Edgerton, V.",
+   "Technical Assistant to Collaborator: Fleischmann, Kyle",
+   "Technical Assistant to Principal Investigator: Boorman, Gordon",
+   "Technical Assistant to Principal Investigator: Goulet, Caroline",
+   "Technical Assistant to Principal Investigator: McCall, Gary"
+  ],
+  "missions": [
+   [
+    [
+     "STS-78"
+    ]
+   ]
+  ],
+  "PI": [
+   "Edgerton, V."
+  ],
+  "_file_extension": [],
+  "experiment_identifier": [
+   "284036",
+   "E036",
+   "MCIM"
+  ],
+  "mission_id": [
+   [
+    [
+     "STS-78"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Edgerton, V."
+  ],
+  "LaunchDate": [
+   "06/20/1996"
+  ],
+  "LaunchYear": 1996,
+  "program_name": [
+   "Shuttle Program"
+  ],
+  "archive_status": "Data preservation is complete. Privacy-protected datasets are available via data request. Remaining datasets are publicly available.",
+  "__is_locked": false,
+  "Program": "Shuttle Program",
+  "__source_field_concat": "PUB000262 LMS cl62atqv9cab801o6131xg6fq Oxygen consumption N/A N/A (null) 284036 Shuttle Program",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES: <br>\r\nThe muscular system and the neural control elements of the neuromuscular system are \r\nsignificantly affected by space flight.  Rapid adjustments in motor control are required \r\njust after launch and throughout the mission in order to function effectively in microgravity.  \r\nDegradation in skeletal muscle function associated with space flight may be caused, at least \r\npartially, by altered motor functions.  This experiment was designed to examine questions \r\nrelated to 1) the control of movement under a variety of conditions, 2) a human's ability to \r\nadapt movement skills to perform successfully under rapidly changing gravitational conditions, \r\n3) the physiological adjustments occurring in these different conditions that may be responsible \r\nfor alterations in movement precision and limitations in physical performance during postflight \r\nand recovery procedures, and 4) the physiological mechanisms that trigger neuromuscular adaptations \r\nto space flight.\r\n<p>\r\nThe investigation was designed to determine the relationship between the electromyographic \r\n(EMG) activity of the calf and elbow muscles and the level to which their functional integrity \r\ncan be maintained in prolonged space flight.  The selected muscles to be tested were located \r\nin the calf of the right leg and the upper right arm: the ankle dorsiflexor (m. tibialis anterior, \r\nTA) and plantar flexor (m. gastrocnemius medialis, GM, and m. soleus, SO) of the calf, the elbow \r\nflexor (m. biceps brachii, BB) and elbow extensor (m. triceps brachii, TB) in the arm.  \r\n <p>\r\nThe specific objectives of the experiment were:<br>\r\n1. To determine daily activity of the musculus soleus (SO), m. gastrocnemius medialis (GM), m. tibialis anterior (TA), m. biceps brachii (BB), and m. triceps brachii (TB) before, during and after space flight.<br>\r\n2. To determine the EMG-torque relationship for the SO, GM, TA, BB and TB muscles during maximal and submaximal efforts before, during and after flight. <br>\r\n3. To determine the changes in motor control of the ankle, elbow and hand-grip.<br>\r\n4. To determine the fatigability of the ankle plantar flexors (SO and GM) before, during and after flight.<br>\r\n5. To determine the blood plasma levels of immunoreactive growth hormone (IRGH), insulin-like growth factor (IGF1), growth hormone carrier protein, thyroxine (T4), triiodothyronine (T3), testosterone, insulin, and cortisol before, during, and after flight.<br>\r\n6. To determine the bioassayable growth hormone (GH) response to exercise before, during and after space flight.<br>\r\n7. To determine the relationship between plasma hormone levels and the decrease in plantar flexor torque associated with muscle fatigue.\r\n<p>\r\nAPPROACH:<br>\r\nThe experiment was composed of the following tests:<br>\r\n1) 24-hour EMG recordings to quantify the subject's daily level of muscle activity.<br>\r\n2) Motor control tests designed to provide information on the strategies of the nervous system to regulate controlled muscle activity, and on how microgravity modifies these neural strategies.<br>\r\n3) A fatigue test protocol and its resulting endocrine response, which indicated the relative importance of neural, as compared to muscular, fatigue.<br>\r\n<p>\r\nThe functional integrity of the calf muscles, and the elbow and wrist flexors, was assessed \r\nduring maximal and submaximal efforts, using the Torque-Velocity Dynamometer (TVD) and Hand \r\nGrip Dynamometer (HGD).  The calf muscles of the right leg were tested in a protocol using \r\nthe TVD, followed by the 8913020 protocol of Dr. Fitts and a fatigue test.  The elbow flexors \r\nof the right arm were also tested in a similar protocol on the TVD, followed by the E407 protocol \r\nof Dr. diPrampero.  The stand-alone Hand Grip test of the wrist flexors was composed of a \r\nreference test and a force curve.  The protocols on the TVD were composed of six different \r\ntests: 1) reference test, 2) estimate position, 3) torque curve, 4) maintain constant torque, \r\n5) dynamic stiffness and 6) position curve.  These six tests monitored different aspects of the \r\nsubject's motor control capabilities, and allowed determination of the torque-velocity/EMG \r\nrelationship.  Motor control capability of the ankle and arm were tested through a variety of \r\ntasks requiring precision in force production and displacement.  Specific temporal and amplitude \r\ncharacteristics of the EMG signal were correlated with the maximal torque, velocity, and power.  \r\nEMG of predominately slow and predominately fast ankle plantar flexors and elbow flexor and \r\nextensor muscles during the maximal and submaximal efforts were studied to compare the magnitude \r\nof the presumed decrease in total EMG throughout repeated 24-hour periods before, during, and \r\nafter space flight with torque, velocity, and power potentials of these muscle groups.  Similarly, \r\nthe changes in torque, velocity, and power potentials associated with prolonged flight were related to plasma hormonal changes during space flight.  \r\n<p>\r\nDuring both the early and late mission right leg TVD-test protocol, small amounts of blood were collected prior to and immediately after the fatigue test, to measure the level of growth hormone (GH), which increases in the bloodstream during exercise.  It was hypothesized that the stay in microgravity would affect GH production and result in a lower value.  In addition to the described measurements, plasma levels of other hormones that play a major role in regulating muscle protein metabolism were analyzed.  Additional samples were taken pre- and postflight.\r\n<p>\r\nThese data will help define the relative importance of muscle function to muscle maintenance in prolonged space flight.  Furthermore, these data will provide insight into the relative impact of neural and muscular components on changes in movement control and maximal performance capacity as might be needed in an emergency egress procedure.\r\n<p>\r\nRESULTS:<br>\r\nThe 24-hour electromyography (EMG) showed an increase in muscle activation on FD 1 for the soleus (SO), tibialis anterior (TA), biceps brachii (BB) and triceps brachii (TB) muscles.  The SO and TA activation was increased during the entire space flight, whereas a slight decrease in the gastrocnemius medialis (MG) daily level of muscular activity was observed.  The TB values were increased for the entire space flight, while for BB the daily values measured on FD 7 and FD 13 were similar to the baseline and recovery values.\r\n<P>\r\nThe measured torque values (for Hand Grip Dynamometer force values) showed no obvious effects caused by space flight.  A small but significant (p<0.05) increase in elbow flexor torque was observed across subjects during flight.  In addition, a decrease in elbow flexor torque (p<0.01) was seen in 3 of 4 subjects at FD 2-3, although one crewmember showed larger elbow flexor torque during this measurement session.  The steep decrease in torque seen in the plantarflexor muscle group on FD 2-3 with a sudden recovery at the next session (FD 6-7) was caused by problems with seating and securing the subject to the TVD during the FD 2-3 session.\r\n<P>\r\nFor changes in muscle output estimation (subjects were asked to apply a certain force level, expressed in percent of MVC) there was no specific trend observed.  However, in a number of instances output estimation was altered inflight relative to preflight (elbow extensors for all subjects, plantarflexors for 3 subjects, dorsiflexors and hand grip for 2 subjects).  In all such instances the direction of the change was toward an overestimation of output at lower force levels.\r\n<P>\r\nNo significant difference between pre- and inflight for the ability to maintain a constant torque output at a faster (1 Hertz) or slower (0.5 Hertz) passive isokinetic movement was observed.  Similarly, there was no significant difference in the ability to maintain torque with or without continuous feedback, with the exception of the 50% MVC ankle plantarflexion.  All subjects were significantly (p<0.05) more accurate at maintaining a constant torque for ankle plantarflexion at 50% MVC when given continuous feedback, and the torque was underestimated by 10% without feedback.  For elbow testing, subjects consistently overestimated 10% MVC and underestimated 50% MVC for elbow extension.  In opposition, for elbow flexion, 10% MVC was consistently underestimated while 50% MVC was overestimation.\r\n<P>\r\nTorque output for the ankle flexor and elbow flexor muscles were the most affected during space flight.  On the second inflight test (FD 4-5) there was a significant decrease in torque levels for ankle dorsiflexion at 50% MVC with feedback.  For elbow flexors, on the first day of space flight, the mean difference from requested torque increase significantly for elbow flexion at 10% MVC, such that subjects underestimated to a greater degree.  This effect continued throughout the flight and for the first eight days postflight.\r\n<P>\r\nThe EMG measurements during the experiment sessions revealed no significant changes for agonist or antagonist muscles whether or not subjects were given continuous feedback.  However, significant changes were observed for the agonist EMG activity recorded during low level ankle extension or elbow flexion.  The EMG signals for both the MG and BB muscles decreased significantly during the 10% MVC early into the flight.  SO and TB demonstrated no significant alterations in EMG activity.\r\n<P>\r\nThe hormone response (BGH response) to exercise was clearly present before space flight (p<0.05), blunted at FD 2-3, and was essentially absent by FD 13-14.  Following space flight, the BGH response remained absent at R+2 but had returned by R+4.  In conclusion, the exercise induced release of BGH was inhibited during space flight and early recovery, but has returned to normal four days after recovery.",
+  "__doi": "10.83263/vnd9-bc71",
+  "__doi_record_creation_date": "2026-08-23T03:57:59",
+  "__doi_record_modified_date": "2026-08-23T03:57:59"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001243",
+   "label": "JMLMS284036_24",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Agonist Electromyography (EMG) Activity for Ankle Plantarflexion and Ankle Dorsiflexion",
+    "dataset_catalog": "JMLMS284036_24",
+    "dataset_description": [
+     "Normalized agonist electromyography (EMG) activity (% of EMG value from maximal voluntary contraction (MVC)) for the soleus (SO) and gastrocnemius medialis (MG) muscles during ankle plantarflexion at (a) 10% MVC and (b) 50% MVC, and for tibialis anterior (TA) during ankle dorsiflexion at c) 10% MVC and (d) 50% MVC.  Each graph depicts the data collected with  (dashed line) and without (solid line) continuous feedback.  Flight days are indicated between the vertical dashed line.  Data points marked with a star (*) indicate significant differences compared to preflight values (p<0.05).<P>Source: Edgerton, Roy et.al. Human fiber size and enzymatic properties after 5 and 11 days of space flight. Journal of Applied Physiology 78: pp.1733-1739. 1995."
+    ],
+    "processing_level": [
+     "Summarized",
+     "Summarized",
+     "Summarized"
+    ],
+    "experiment_id": [
+     "284036"
+    ]
+   },
+   "meta": "1 file \u00b7 1.16 MB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "111880ef-8800-5822-aec3-cab034d1872f",
+     "label": "JMLMS284036_24.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 1216512,
+     "meta": "1.16 MB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000031",
+   "label": "JMLMS284036_28",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Position Estimation for Elbow Joint",
+    "dataset_catalog": "JMLMS284036_28",
+    "dataset_description": [
+     "The image shows the position estimation for the elbow joint at 90 degrees (upper panel) and at 135 degrees (lower panel), which was performed during isotonic extension (Est. Pos. I), passive isokinetic extension (Push 0%) and flexion (Pull 0%), and active isokinetic extension (Push 10%) and flexion (Pull 10%).  Data points marked with a star (*) show a significant decrease for all conditions (p<0.05).<P>Source: Edgerton, Roy et.al. Human fiber size and enzymatic properties after 5 and 11 days of space flight. Journal of Applied Physiology 78: pp.1733-1739. 1995."
+    ],
+    "processing_level": [
+     "Summarized",
+     "Summarized",
+     "Summarized"
+    ],
+    "experiment_id": [
+     "284036"
+    ]
+   },
+   "meta": "1 file \u00b7 1.98 MB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "17953d5d-25d9-5058-80d8-6de7f76691ce",
+     "label": "JMLMS284036_28.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 2072576,
+     "meta": "1.98 MB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002222",
+   "label": "JMLMS284036_62",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Estimated Ankle and Elbow Joint Position",
+    "dataset_catalog": "JMLMS284036_62",
+    "dataset_description": [
+     "During the motor control tests, the subjects were asked to estimate a 100 degree and a 120 degree ankle position and 90 degree and 135 degrees for the elbow joint.  The estimate was performed during isotonic extension, passive isotonic extension, passive isokinetic flexion, active isokinetic extension and active isokinetic flexion.  The table lists the means across all test days for all estimated ankle and elbow joint positions.<P>Source: Unpublished data (Final Report submitted to NASA in July 1998)."
+    ],
+    "processing_level": [
+     "Summarized",
+     "Summarized"
+    ],
+    "experiment_id": [
+     "284036"
+    ]
+   },
+   "meta": "1 file \u00b7 15.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "54d0a4b4-660c-5f70-a1e4-a1488ee45568",
+     "label": "JMLMS284036_62.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 15360,
+     "meta": "15.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002198",
+   "label": "JMLMS284036_21",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Agonist Electromyography (EMG) Activity for Elbow Extension and Elbow Flexion",
+    "dataset_catalog": "JMLMS284036_21",
+    "dataset_description": [
+     "Normalized agonist electromyography (EMG) activity (% of EMG value from maximal voluntary contraction (MVC)) for triceps brachii (TB) during elbow extension at (a) 10% MVC and (b) 50% MVC, and for biceps brachii (BB) during elbow flexion at c) 10% MVC and (d) 50% MVC.  Each graph depicts the data collected with (dashed line) and without (solid line) continious feedback.  Flight days are indicated between the vertical dashed lines.  Data points marked with a star (*) indicate significant differences compared to preflight values (p<0.05).   ?@? indicates significant difference between thrid preflight test day and first preflight test day.<P>Source: Edgerton, Roy et.al. Human fiber size and enzymatic properties after 5 and 11 days of space flight. Journal of Applied Physiology 78: pp.1733-1739. 1995."
+    ],
+    "processing_level": [
+     "Summarized",
+     "Summarized",
+     "Summarized"
+    ],
+    "experiment_id": [
+     "284036"
+    ]
+   },
+   "meta": "1 file \u00b7 923.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "5e49ebd1-9e19-5c3f-8a84-923a322cf186",
+     "label": "JMLMS284036_21.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 945152,
+     "meta": "923.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000240",
+   "label": "JMLMS284036_29",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Antagonist Electromyography (EMG) Activity for Elbow Extension and Elbow Flexion",
+    "dataset_catalog": "JMLMS284036_29",
+    "dataset_description": [
+     "Normalized antagonist electromyography (EMG) activity (% of EMG value from maximal voluntary contraction (MVC)) for biceps brachii (BB) during elbow extension at (a) 10% MVC and (b) 50% MVC, and for triceps brachii (TB) during elbow flexion at (c) 10% MVC and (d) 50% MVC.  Each graph depicts the data collected with (dashed line) and without (solid line) continious feedback.  Flight days are indicated between the vertical dashed lines.  Data points marked with a star (*) indicate significant differences compared to preflight values (p<0.05).   ?@? indicates significant difference between thrid preflight test day and first preflight test day.<P>Source: Edgerton, Roy et.al. Human fiber size and enzymatic properties after 5 and 11 days of space flight. Journal of Applied Physiology 78: pp.1733-1739. 1995."
+    ],
+    "processing_level": [
+     "Summarized",
+     "Summarized",
+     "Summarized"
+    ],
+    "experiment_id": [
+     "284036"
+    ]
+   },
+   "meta": "1 file \u00b7 1.07 MB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "c5f05cf3-998e-5068-b4ed-5f5a47bf3108",
+     "label": "JMLMS284036_29.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 1125376,
+     "meta": "1.07 MB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001993",
+   "label": "JMLMS284036_23",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Torque Output Ankle Plantarflexion and Ankle Dorsiflexion",
+    "dataset_catalog": "JMLMS284036_23",
+    "dataset_description": [
+     "Mean differences of torque output from requested torque (in Nm) for ankle plantarflexion at (a) 10% of maximal voluntary contraction (MVC) and (b) 50% MVC, and for ankle dorsiflexion at c) 10% MVC and (d) 50% MVC.  The dashed line represents the data when continuous feedback was presented, the solid line represents the data without continuous feedback.  Flight Days are indicated between the vertical dashed lines.  Data points marked with a star (*) indicates significant differences from preflight values  (p<0.05).  The ?#? sign indicates significant differences between with and without feedback.<P>Source: Edgerton, Roy et.al. Human fiber size and enzymatic properties after 5 and 11 days of space flight. Journal of Applied Physiology 78: pp.1733-1739. 1995."
+    ],
+    "processing_level": [
+     "Summarized",
+     "Summarized",
+     "Summarized"
+    ],
+    "experiment_id": [
+     "284036"
+    ]
+   },
+   "meta": "1 file \u00b7 1.02 MB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "d4cd852a-ddff-54ef-b16f-1b8d0b342fa3",
+     "label": "JMLMS284036_23.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 1065984,
+     "meta": "1.02 MB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000548",
+   "label": "JMLMS284036_26",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Growth Hormone (GH) Response to Exercise",
+    "dataset_catalog": "JMLMS284036_26",
+    "dataset_description": [
+     "Bioassayable growth hormone (BGH) response to exercise before (L-30 and L-12), during (Flight Days 2/3 and 13/14), and after (R+2, R+4, R+8 and R+15 days) 17-day space flight.  The white column represents the values measured before exercise (pre exercise), the black columnrepresents measurements taken post-exercise.  Star (*) indicates significant ANOVA main effect pre to post exercise (p<0.05).  Cross (+) indicates significant pairwise contrast pre to post exercise within test day (p<0.05).<P>Source: Edgerton, Roy et.al. Human fiber size and enzymatic properties after 5 and 11 days of space flight. Journal of Applied Physiology 78: pp.1733-1739. 1995."
+    ],
+    "processing_level": [
+     "Summarized",
+     "Summarized",
+     "Summarized"
+    ],
+    "experiment_id": [
+     "284036"
+    ]
+   },
+   "meta": "1 file \u00b7 719.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "d01199aa-eb11-5219-bebf-ac768c64caec",
+     "label": "JMLMS284036_26.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 736256,
+     "meta": "719.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001875",
+   "label": "JMLMS284036_27",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Position Estimation for Ankle Joint",
+    "dataset_catalog": "JMLMS284036_27",
+    "dataset_description": [
+     "The image shows the position estimation for the ankle joint at 100 degrees (upper panel) and at 120 degrees (lower panel), which was performed during isotonic extension (Est. Pos. I), passive isokinetic extension (Push 0%) and flexion (Pull 0%), and active isokinetic extension (Push 10%) and flexion (Pull 10%).  Data points marked with a star (*) show a significant decrease for Est. Pos. I (p<0.05).<P>Source: Edgerton, Roy et.al. Human fiber size and enzymatic properties after 5 and 11 days of space flight. Journal of Applied Physiology 78: pp.1733-1739. 1995."
+    ],
+    "processing_level": [
+     "Summarized",
+     "Summarized",
+     "Summarized"
+    ],
+    "experiment_id": [
+     "284036"
+    ]
+   },
+   "meta": "1 file \u00b7 1.94 MB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "00fa70f7-d326-58ec-ac5b-343bc525d6f9",
+     "label": "JMLMS284036_27.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 2031616,
+     "meta": "1.94 MB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001504",
+   "label": "JMLMS284036_20",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Torque Output Elbow Extension and Elbow Flexion",
+    "dataset_catalog": "JMLMS284036_20",
+    "dataset_description": [
+     "Mean differences of torque output from requested torque (in Nm) for elbow extension at (a) 10% of maximal voluntary contraction (MVC) and (b) 50% MVC, and for elbow flexion at c) 10% MVC and (d) 50% MVC.  The dashed line represents the data when continuous feedback was presented, the solid line represents the data without continuous feedback.  Flight Days are indicated between the vertical dashed lines.  Data points marked with a star (*) indicate significant differences from preflight values  (p<0.05).<P>Source: Edgerton, Roy et.al. Human fiber size and enzymatic properties after 5 and 11 days of space flight. Journal of Applied Physiology 78: pp.1733-1739. 1995."
+    ],
+    "processing_level": [
+     "Summarized",
+     "Summarized",
+     "Summarized"
+    ],
+    "experiment_id": [
+     "284036"
+    ]
+   },
+   "meta": "1 file \u00b7 1.02 MB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "a166b09d-6915-555c-9125-452184a387b8",
+     "label": "JMLMS284036_20.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 1068032,
+     "meta": "1.02 MB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000241",
+   "label": "JMLMS284036_22",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Antagonist Electromyography (EMG) Activity for Ankle Plantarflexion and Ankle Dorsiflexion",
+    "dataset_catalog": "JMLMS284036_22",
+    "dataset_description": [
+     "Normalized antagonist electromyography (EMG) activity (% of EMG value from maximal voluntary contraction (MVC)) for tibialis anterior (TA) during ankle plantarflexion at (a) 10% MVC and (b) 50% MVC, and for soleus (SO) and gastrocnemius medialis (GM) during ankle dorsiflexion at c) 10% MVC and (d) 50% MVC.  Each graph depicts the data collected with (dashed line) and without (solid line) continuous feedback.  Flight days are indicated between the vertical dashed lines.  Data points marked with a star (*) indicate significant differences compared to preflight values (p<0.05).<P>Source: Edgerton, Roy et.al. Human fiber size and enzymatic properties after 5 and 11 days of space flight. Journal of Applied Physiology 78: pp.1733-1739. 1995."
+    ],
+    "processing_level": [
+     "Summarized",
+     "Summarized",
+     "Summarized"
+    ],
+    "experiment_id": [
+     "284036"
+    ]
+   },
+   "meta": "1 file \u00b7 1.41 MB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "324ac2f3-dfcf-522e-a434-2f734edd2c7e",
+     "label": "JMLMS284036_22.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 1474560,
+     "meta": "1.41 MB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001719",
+   "label": "JMLMS284036_63",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Data Collection Timetables for Experiment 284036",
+    "dataset_catalog": "JMLMS284036_63",
+    "dataset_description": [
+     "This spreadsheet represents the data collection timetables for blood collection, arm testing, leg motor fatigue testing and EMG recording for this experiment.  Information included in this spreadsheet may include information about the test protocol, data collection constraints, parameters measured, hardware used, scheduled versus actual days of data collection, and subject information."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "284036",
+     "284074",
+     "8913020",
+     "E407"
+    ]
+   },
+   "meta": "4 files \u00b7 420.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "3161c1a1-c653-5d3d-b85f-6a75733754a6",
+     "label": "JMLMS284036_63.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 107520,
+     "meta": "105.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "89b0049d-94dd-50e4-a7bd-61cb35e420b9",
+     "label": "JMLMS284036_63.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 107520,
+     "meta": "105.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0fdecaac-b00d-59b1-b567-1a87d16be3fa",
+     "label": "JMLMS284036_63.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 107520,
+     "meta": "105.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "febbe4b4-4439-552d-b896-d0929ee2992d",
+     "label": "JMLMS284036_63.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 107520,
+     "meta": "105.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001776",
+   "label": "284036__3100356361",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Spaceflight suppresses exercise-induced release of bioassayable growth hormone",
+    "dataset_catalog": "284036__3100356361",
+    "dataset_description": [
+     "This publication examines the effects of spaceflight on the hormonal\r\nresponses (bioassayable growth hormone or BGH) to a unilateral plantar flexor exercise protocol. Four male astronauts on STS-78 (LMS) were examined.  Data included are as follows:\r\n<LI>Isometric plantar flexion exercise protocol\r\n<LI>Plantar flexor torque and electromyographic activity of the soleus and medial gastrocnemius muscles during maximal voluntary contractions\r\n<LI>Bioassayable and immunoassayable growth hormone (IGH and BGH)plasma concentrations before and after the exercise test\r\n<LI>Immunoassayable IGF-I plasma concentrations preexercise and postexercise\r\n<LI>Magnitudes of IGH and BGH exercise induced changes before, during, and after spaceflight\r\n<P>\r\nSource: McCall GE, Goulet C, Roy RR, Grindeland RE, Boorman GI, Bigbee AJ, Hodgson JA, Greenisen MC, Edgerton VR. Spaceflight suppresses exercise-induced release of bioassayable growth hormone. J Appl Physiol 1999 Sep; 87(3):1207-12."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "284036"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "adaff8fe-940c-5594-b6ba-95c16cc5edf6",
+     "label": "284036__3100356361.pdf_STS-78_284036_2012_310_041138.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

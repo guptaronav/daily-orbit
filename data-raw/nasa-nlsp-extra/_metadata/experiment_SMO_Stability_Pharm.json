@@ -1,0 +1,369 @@
+{
+ "record": {
+  "id": "44520452-b4e2-55f4-93cf-6d036130e8b8",
+  "_id": "44520452-b4e2-55f4-93cf-6d036130e8b8",
+  "experiment_title": "Stability of Pharmacotherapeutic Compounds",
+  "pub_document_number": "PUB001956",
+  "archive_status_index": 2,
+  "experiment_alias": [
+   "Pharma"
+  ],
+  "parameter_html": "<table><tr><td>Active pharmaceutical ingredients API</td></tr><tr><td>Acyclovir</td></tr><tr><td>Amoxicillin</td></tr><tr><td>Atorvastatin</td></tr><tr><td>Augmentin</td></tr><tr><td>Azithromycin</td></tr><tr><td>Cefadroxil</td></tr><tr><td>Chemical potency</td></tr><tr><td>Cilastatin</td></tr><tr><td>Ciprofloxacin</td></tr><tr><td>Clavulanate</td></tr><tr><td>Clotrimazole</td></tr><tr><td>Dextroamphetamine</td></tr><tr><td>Epinephrine</td></tr><tr><td>Estrogen</td></tr><tr><td>Ethinyl estradiol</td></tr><tr><td>Fluconazole</td></tr><tr><td>Furosemide</td></tr><tr><td>Ibuprofen</td></tr><tr><td>Imipenem</td></tr><tr><td>Levofloxacin</td></tr><tr><td>Lidocaine</td></tr><tr><td>Metoprolol succinate</td></tr><tr><td>Metronidazole</td></tr><tr><td>Mupirocin</td></tr><tr><td>Norethindrone</td></tr><tr><td>Phenytoin</td></tr><tr><td>Physical changes</td></tr><tr><td>Progestin</td></tr><tr><td>Promethazine</td></tr><tr><td>Radiation dose</td></tr><tr><td>Risedronate</td></tr><tr><td>Sertraline</td></tr><tr><td>Silver sulfadiazine</td></tr><tr><td>Sulfamethoxazole</td></tr><tr><td>Temazepam</td></tr><tr><td>Temperature</td></tr><tr><td>Triamcinolone</td></tr><tr><td>Trimethoprim</td></tr><tr><td>Levothyroxine</td></tr><tr><td>Nasal cobolamin</td></tr><tr><td>Relative humidity</td></tr><tr><td>United States Pharmacopoeia (USP) tolerance</td></tr><tr></tr></table>",
+  "__source_key": "cl62b0nftcdo601o6ee0kavks",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Putcha, Lakshmi\">Principal Investigator: Putcha, Lakshmi</a>",
+  "image_name": [
+   "Analzying the ISS Stability Samples",
+   "ISS Stability Ground Control Kit",
+   "Temperature and Radiation Monitors for ISS Stability Flight Kits"
+  ],
+  "experiment_type_lk": [
+   "International Space Station (ISS)"
+  ],
+  "__record_modified_date": "2026-08-23T03:53:39.202997+00:00",
+  "proposal_source": [
+   "04-OBPR-01: ILSRA 2004"
+  ],
+  "__indexed": "2026-08-23T03:53:39.202997+00:00",
+  "alias": [
+   "Pharma"
+  ],
+  "keyword": [
+   "Pharmaceutical preparations",
+   "Drug stability"
+  ],
+  "__record_creation_date": "2022-07-28T20:02:32.331Z",
+  "keyword_name": "Drug stability",
+  "__record_version": 29,
+  "__record_size": 79478,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<BR>\r\nAnalysis of certain medications returned from the Space Shuttle and the International Space Station (ISS) have indicated that some pharmaceuticals are significantly degraded in space, and this may compromise treatments and the health of crews on future exploration missions. Data gathered from past Space Shuttle missions suggest that some of the medications packed in the Shuttle's medical pack degrade even after relatively brief periods (less than 20 days) of space flight. The observed degradation included both physical and chemical characteristics of medicine formulations. Physical and chemical instability of medications could render treatments ineffective for assurance of optimal crew health during long duration space exploration missions. An evaluation of subjective data on medications used by crewmembers during space flight indicated that 8% of all treatments administered in the Space Shuttle program were reported ineffective. Pharmaceutical instability may modify effectiveness and safety, and is one possible cause of the ineffectiveness of treatments. \r\n<P>The objective of this project was to identify the pharmaceuticals that degrade in space by collecting data on the magnitude and time course of degradation of select pharmaceuticals. This investigation studied the effects of radiation in space on complex organic molecules, such as vitamins and other compounds in food and medicine. This could help researchers develop more stable and reliable pharmaceutical and nutritional countermeasures suitable for future long-duration missions to the moon and Mars. <P>\r\nAPPROACH:<br>\r\nThe pharmaceutical kits contained 35 types of pharmaceutical drugs, including tablets, ointments, suppositories, and injectable solutions. In addition to the food and drug items, the kits were equipped with two temperature loggers and a dosimeter to measure radiation. \r\n<P>\r\nRESULTS:<br>\r\nThere was no crew interaction with the contents of the kits, which were configured to prevent them from being inadvertently opened. One of the kits was immediately returned on STS-122 after 13 days, while the other three remained aboard ISS for 353, 596, and 880 days of spaceflight. Each kit was returned on subsequent Shuttle flights. The flight kits were analyzed in parallel with the eight ground control kits, identical to those flown. \r\n<P>\r\nResults from this investigation designed to examine changes in chemical content and physical attributes of dosage forms stored aboard space missions suggest that there may be differences with respect to potency and rate of degradation of formulations stored in space compared to those on the ground. Some APIs and formulations may be more sensitive than others, and specific chemical and formulation characteristics may influence the stability of medications in space. Cumulative low dose radiation and dispensers used for solid dosages in space appear to influence stability of pharmaceuticals in space.",
+  "payload_id": "HRF13",
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "indexed": "2026-08-23T03:53:39.202997+00:00",
+  "experiment_id": "SMO_Stability_Pharm",
+  "experiment_related": [
+   "BRC04-JSC01"
+  ],
+  "GUID": "cl62b0nftcdo601o6ee0kavks",
+  "parameter_name": [
+   "Active pharmaceutical ingredients API",
+   "Acyclovir",
+   "Amoxicillin",
+   "Atorvastatin",
+   "Augmentin",
+   "Azithromycin",
+   "Cefadroxil",
+   "Chemical potency",
+   "Cilastatin",
+   "Ciprofloxacin",
+   "Clavulanate",
+   "Clotrimazole",
+   "Dextroamphetamine",
+   "Epinephrine",
+   "Estrogen",
+   "Ethinyl estradiol",
+   "Fluconazole",
+   "Furosemide",
+   "Ibuprofen",
+   "Imipenem",
+   "Levofloxacin",
+   "Lidocaine",
+   "Metoprolol succinate",
+   "Metronidazole",
+   "Mupirocin",
+   "Norethindrone",
+   "Phenytoin",
+   "Physical changes",
+   "Progestin",
+   "Promethazine",
+   "Radiation dose",
+   "Risedronate",
+   "Sertraline",
+   "Silver sulfadiazine",
+   "Sulfamethoxazole",
+   "Temazepam",
+   "Temperature",
+   "Triamcinolone",
+   "Trimethoprim",
+   "Levothyroxine",
+   "Nasal cobolamin",
+   "Relative humidity",
+   "United States Pharmacopoeia (USP) tolerance"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 1791,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Pharmacology"
+  ],
+  "pme_role_with_name": [
+   "Principal Investigator: Putcha, Lakshmi"
+  ],
+  "missions": [
+   [
+    [
+     "Expedition 13"
+    ]
+   ],
+   [
+    [
+     "Expedition 14"
+    ]
+   ],
+   [
+    [
+     "Expedition 15"
+    ]
+   ],
+   [
+    [
+     "Expedition 16"
+    ]
+   ],
+   [
+    [
+     "Expedition 17"
+    ]
+   ],
+   [
+    [
+     "Expedition 18"
+    ]
+   ]
+  ],
+  "__dirid": "44520452-b4e2-55f4-93cf-6d036130e8b8",
+  "__record_size_wo_doccontent": 79478,
+  "PI": [
+   "Putcha, Lakshmi"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "SMO_Stability_Pharm",
+   "Pharma"
+  ],
+  "mission_id": [
+   [
+    [
+     "Expedition 13"
+    ]
+   ],
+   [
+    [
+     "Expedition 14"
+    ]
+   ],
+   [
+    [
+     "Expedition 15"
+    ]
+   ],
+   [
+    [
+     "Expedition 16"
+    ]
+   ],
+   [
+    [
+     "Expedition 17"
+    ]
+   ],
+   [
+    [
+     "Expedition 18"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "proposal_date": [],
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens)"
+   ]
+  ],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Putcha, Lakshmi"
+  ],
+  "archive_status": "Data preservation is complete. Privacy-protected datasets are available via data request. Remaining datasets are publicly available.",
+  "__is_locked": false,
+  "Program": "International Space Station (ISS)",
+  "__source_field_concat": "PUB001956 HRF13 cl62b0nftcdo601o6ee0kavks Drug stability N/A Stability of Pharmacotherapeutic Compounds SMO_Stability_Pharm International Space Station (ISS)",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<BR>\r\nAnalysis of certain medications returned from the Space Shuttle and the International Space Station (ISS) have indicated that some pharmaceuticals are significantly degraded in space, and this may compromise treatments and the health of crews on future exploration missions. Data gathered from past Space Shuttle missions suggest that some of the medications packed in the Shuttle's medical pack degrade even after relatively brief periods (less than 20 days) of space flight. The observed degradation included both physical and chemical characteristics of medicine formulations. Physical and chemical instability of medications could render treatments ineffective for assurance of optimal crew health during long duration space exploration missions. An evaluation of subjective data on medications used by crewmembers during space flight indicated that 8% of all treatments administered in the Space Shuttle program were reported ineffective. Pharmaceutical instability may modify effectiveness and safety, and is one possible cause of the ineffectiveness of treatments. \r\n<P>The objective of this project was to identify the pharmaceuticals that degrade in space by collecting data on the magnitude and time course of degradation of select pharmaceuticals. This investigation studied the effects of radiation in space on complex organic molecules, such as vitamins and other compounds in food and medicine. This could help researchers develop more stable and reliable pharmaceutical and nutritional countermeasures suitable for future long-duration missions to the moon and Mars. <P>\r\nAPPROACH:<br>\r\nThe pharmaceutical kits contained 35 types of pharmaceutical drugs, including tablets, ointments, suppositories, and injectable solutions. In addition to the food and drug items, the kits were equipped with two temperature loggers and a dosimeter to measure radiation. \r\n<P>\r\nRESULTS:<br>\r\nThere was no crew interaction with the contents of the kits, which were configured to prevent them from being inadvertently opened. One of the kits was immediately returned on STS-122 after 13 days, while the other three remained aboard ISS for 353, 596, and 880 days of spaceflight. Each kit was returned on subsequent Shuttle flights. The flight kits were analyzed in parallel with the eight ground control kits, identical to those flown. \r\n<P>\r\nResults from this investigation designed to examine changes in chemical content and physical attributes of dosage forms stored aboard space missions suggest that there may be differences with respect to potency and rate of degradation of formulations stored in space compared to those on the ground. Some APIs and formulations may be more sensitive than others, and specific chemical and formulation characteristics may influence the stability of medications in space. Cumulative low dose radiation and dispensers used for solid dosages in space appear to influence stability of pharmaceuticals in space.",
+  "__doi": "10.83263/2t39-cw20",
+  "__doi_record_creation_date": "2026-08-23T03:53:39",
+  "__doi_record_modified_date": "2026-08-23T03:53:39"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000825",
+   "label": "SMO_Stability_Pharm__3040433708",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Percent API Content in Stable Formulations with Acceptable Chemical Potency",
+    "dataset_catalog": "SMO_Stability_Pharm__3040433708",
+    "dataset_description": [
+     "This table lists the Percent API content in stable formulations with acceptable chemical potency.  Data are shown for 14 days in flight, 353 days in flight, 596 days in flight, and 880 days in flight.\r\n<P>\r\nSource: Du B, Daniels VR, Vaksman Z, Boyd JL, Crady C, Putcha L. Evaluation of physical and chemical changes in pharmaceuticals flown on space missions. AAPS J. 2011 Jun;13(2):299-308.  Supplemental table."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "SMO_Stability_Pharm"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "1358567f-c1e0-51a3-8660-69a62a7f165a",
+     "label": "SMO_Stability_Pharm__3040433708.xlsx_Expedition_13_SMO_Stability_Pharm_2011_305_071124.xlsx",
+     "type": "file",
+     "ext": "xlsx",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001979",
+   "label": "SMO_Stability_Pharm__3041046223",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Evaluation of Physical and Chemical Changes in Pharmaceuticals Flown on Space Missions",
+    "dataset_catalog": "SMO_Stability_Pharm__3041046223",
+    "dataset_description": [
+     "This is the final published report for the pharmaceutical portion of the ISS Stability experiment. The report contains the following data:\r\n<BR>\r\n<LI>Flight payload kit manifestation and return schedule. Each kit contained 33 dosage forms as 22 solid, seven semisolid, and four liquid formulations. <BR>\r\n<LI>Formulation Type and Physical Variables Assessed \r\n<LI>Formulations with Physical Changes after Spaceflight \r\n<LI>Formulations Failing Chemical Potency Requirement \r\n<LI>Degradation of amoxicillin and clavulanate in augmentin tablets \r\n<LI>Degradation of ciprofloxacin and promethazine dosage forms \r\n<LI>Degradation of antibiotic tablets (Cefadroxil, Azithromycin, Levofloxacin, Trimethoprim, Sulfamethoxazole) \r\n<LI>Dissolution Percent of API at USP Tolerance Time Period (Q) for Solid Formulations \r\n<LI>Comparison of mean temperature (a) and relative humidity (b)conditions between ground and spaceflight \r\n<LI>Comparison of cumulative radiation dose between ground and spaceflight\r\n<P>\r\nSource: Du B, Daniels VR, Vaksman Z, Boyd JL, Crady C, Putcha L. Evaluation of physical and chemical changes in pharmaceuticals flown on space missions. AAPS J. 2011 Jun;13(2):299-308."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "SMO_Stability_Pharm"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "e68d61ad-de3e-5d9f-8f19-434df94f2550",
+     "label": "SMO_Stability_Pharm__3041046223.pdf_Expedition_13_SMO_Stability_Pharm_2011_304_101030.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000020",
+   "label": "SMO_Stability_Pharm__3050746468",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Percent API Content in Unstable Formulations with Chemical Potency below Acceptable Limit",
+    "dataset_catalog": "SMO_Stability_Pharm__3050746468",
+    "dataset_description": [
+     "This table lists the percent active pharmaceutical ingredients (API) content in unstable formulations with chemical potency below acceptable limits. Data are shown for 14 days in flight, 353 days in flight, 596 days in flight, and 880 days in flight.\r\n<P>\r\nSource: Du B, Daniels VR, Vaksman Z, Boyd JL, Crady C, Putcha L. Evaluation of physical and chemical changes in pharmaceuticals flown on space missions. AAPS J. 2011 Jun;13(2):299-308.  Supplemental table."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "SMO_Stability_Pharm"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "429bc39b-ebe8-5b8a-a3b7-d3d41a3daca0",
+     "label": "SMO_Stability_Pharm__3050746468.xlsx_Expedition_13_SMO_Stability_Pharm_2011_305_081141.xlsx",
+     "type": "file",
+     "ext": "xlsx",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000672",
+   "label": "SMO_Stability_Pharm__3041058400",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Formulation Characteristics of Payload Medications",
+    "dataset_catalog": "SMO_Stability_Pharm__3041058400",
+    "dataset_description": [
+     "This table shows the formulation characteristics of payload medications flown as part of the ISS Stability experiment.  Drug name, expiration date, and formulation are shown for both solid and semi-solid flown medications.\r\n<P>\r\nSource: Du B, Daniels VR, Vaksman Z, Boyd JL, Crady C, Putcha L. Evaluation of physical and chemical changes in pharmaceuticals flown on space missions. AAPS J. 2011 Jun;13(2):299-308.  Supplemental table."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "SMO_Stability_Pharm"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "54b5847a-d105-5857-a933-ed5029d91fe8",
+     "label": "SMO_Stability_Pharm__3041058400.xlsx_Expedition_13_SMO_Stability_Pharm_2011_304_021058.xlsx",
+     "type": "file",
+     "ext": "xlsx",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001045",
+   "label": "SMO_Stability_Pharm__3040253427",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "List of Formulations Failing Chemical Potency Requirement",
+    "dataset_catalog": "SMO_Stability_Pharm__3040253427",
+    "dataset_description": [
+     "This table lists the formulations failing the chemical potency requirement for medications flown as part of the ISS Stability experiment.  Both control and flight data are given for 4 different groups of medications: P1=payload1=14 days in flight, P2=payload2=353 days in flight, P3=payload3=596 days in flight, and P4=payload 4=880 days in flight.\r\n<P>\r\nSource: Du B, Daniels VR, Vaksman Z, Boyd JL, Crady C, Putcha L. Evaluation of physical and chemical changes in pharmaceuticals flown on space missions. AAPS J. 2011 Jun;13(2):299-308.  Supplemental table."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "SMO_Stability_Pharm"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "86e56776-631a-5d2c-95c9-81cc503c3228",
+     "label": "SMO_Stability_Pharm__3040253427.xlsx_Expedition_13_SMO_Stability_Pharm_2011_304_041028.xlsx",
+     "type": "file",
+     "ext": "xlsx",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

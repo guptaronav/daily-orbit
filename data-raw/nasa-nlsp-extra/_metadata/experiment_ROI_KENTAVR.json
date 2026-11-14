@@ -1,0 +1,332 @@
+{
+ "record": {
+  "id": "511f5c7b-057c-50dd-a84f-1cd4abab891b",
+  "_id": "511f5c7b-057c-50dd-a84f-1cd4abab891b",
+  "experiment_title": "Evaluation of the Kentavr as a Countermeasure to Orthostatic Intolerance",
+  "archive_status_index": 2,
+  "pub_document_number": "PUB001611",
+  "experiment_alias": [
+   "Kentavr"
+  ],
+  "parameter_html": "<table><tr><td>Aortic blood flow</td></tr><tr><td>Blood pressure</td></tr><tr><td>Blood volume</td></tr><tr><td>Carboxyhemoglobin</td></tr><tr><td>Cardiac output</td></tr><tr><td>Electrocardiogram (ECG)</td></tr><tr><td>Heart rate</td></tr><tr><td>Hematocrit</td></tr><tr><td>Plasma volume</td></tr><tr><td>Red blood cell mass</td></tr><tr><td>Red blood cell volume</td></tr><tr><td>Stroke volume</td></tr><tr><td>Total peripheral resistance</td></tr><tr><td>Urine output</td></tr><tr><td>Weight</td></tr><tr><td>Hemoglobin</td></tr><tr><td>Creatinine, urine</td></tr><tr><td>Sodium, urine</td></tr><tr></tr></table>",
+  "__source_key": "cl62azmiycdfr01o6cmbx061n",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Waters, Wendy\">Principal Investigator: Waters, Wendy</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Tuxhorn, Jennifer\">Principal Investigator: Tuxhorn, Jennifer</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Buescher, C.\">Co-Investigator: Buescher, C.</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Fortner, G.\">Co-Investigator: Fortner, G.</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Martin, David\">Co-Investigator: Martin, David</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Meck, Janice\">Co-Investigator: Meck, Janice</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Platts, Steven\">Co-Investigator: Platts, Steven</a>",
+  "experiment_type_lk": [
+   "Countermeasures Evaluation &amp",
+   "Validation Project (CEVP)",
+   "Non-exercise Physiological Countermeasure (NxPCM) Project"
+  ],
+  "__record_modified_date": "2026-08-23T04:13:02.028146+00:00",
+  "__indexed": "2026-08-23T04:13:02.028146+00:00",
+  "alias": [
+   "Kentavr"
+  ],
+  "__record_creation_date": "2022-07-28T19:57:43.941Z",
+  "keyword": [
+   "Blood volume",
+   "Orthostatic intolerance",
+   "Cardiac output",
+   "Stroke volume",
+   "Plasma volume"
+  ],
+  "keyword_name": "Plasma volume",
+  "__record_size": 114303,
+  "__record_version": 30,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<br>\r\nOne of the most important physiological changes that negatively impact flight operations and crew safety is postflight orthostatic intolerance.  Orthostatic intolerance is commonly experienced by astronauts when they return to Earth and can lead to hypotension and syncope (temporary loss of consciousness, fainting, or dizziness).  This problem affects about 30% of crewmembers who fly short-duration missions (4-18 days), and 83% of astronauts who fly long-duration missions.  This condition creates a potential hazard for the returning crew by impairing their ability to exit the vehicle after landing.  A major driver for orthostatic intolerance is plasma volume loss.  Despite the use of a mandatory fluid load before re-entry, astronauts return from space with plasma volume deficits ranging from 7-20%.\r\n<P>\r\nTo provide additional protection against space flight induced orthostatic intolerance during re-entry and landing, both NASA and the Russian Federal Space Agency use compression garments, or antigravity suits. NASA astronauts use an inflatable antigravity suit (AGS) that is worn under the Advanced Crew Escape Suit. It has five interconnected air bladders that cover the abdomen, thighs, and calves. The AGS can be inflated to pressures ranging from 0.5 per square inch (psi), which is equivalent to 25.9 mmHg, to 2.5 psi (129.3 mmHg) in increments of 0.5 psi. When inflated, the AGS provides mechanical protection that reduces venous pooling and maintains arterial pressure.\r\n<p>\r\nRussian cosmonauts wear a non-inflatable compression garment, called the Kentavr, which is made of an elastic fabric. It is composed of shorts that extend from the waist to the knee and a pair of gaiters that cover the calves. Each component of the Kentavr has lacings to allow for an individualized fit. The nominal pressure provided by the Kentavr is 0.6 \u00b1 0.1 psi (30 \u00b1 5 mmHg).\r\n<p>\r\nThe purpose of this study was to evaluate the ability of NASA\u2019s AGS and the Russian Kentavr garment, to prevent hypovolemia-related orthostatic intolerance.\r\n<P>\r\nAPPROACH:<br>\r\nPrior to participation, 19 healthy volunteers, ages 32 \u2013 54 years, passed a modified Air Force Class III physical. Subjects were randomly assigned to one of two groups: AGS (six men and three women) or Kentavr (six men and four women). A separate group of 16 subjects (11 men and 5 women) from a related study participated in the same protocols and served as controls (no countermeasure group).\r\n<p>\r\nData collection was completed in two visits to the cardiovascular laboratory. For the first session, subjects reported to the laboratory following voluntary reduction of their dietary salt intake for 24 hours.   Subjects provided a urine sample to confirm that urinary sodium was less than 100 mEq/gm<sup>-1</sup> creatinine. Those meeting the selection criteria participated in a carbon monoxide re-breathing protocol to measure plasma volume. Subjects then received a single dose of furosemide (a loop diuretic commonly marketed under the brand name Lasix) and consumed a low salt diet provided by the investigators.\r\n<p>\r\nSubjects returned to the laboratory 36 hours later, when the plasma volume measurement was repeated and subjects underwent a tilt test protocol to assess orthostatic tolerance with (AGS inflated to 1.5 per square inch or Kentavr) or without a compression garment (separate study). Subjects did not consume any caffeine, nicotine, or alcohol for 12 hours and did not participate in maximal exercise or take any medications for 24 hours prior to testing.\r\n<p>\r\nRESULTS:<br>\r\n<i>Hypovolemia</i><br>\r\nControl subjects experienced a mean loss of plasma volume of 17.1 \u00b1 1.7%. AGS and Kentavr groups had a plasma volume loss of 16.9 \u00b1 4.0% and 18.4 \u00b1 2.6%, respectively. There were no statistically significant differences in plasma volume loss between groups. \r\n<p>\r\n<i>Incidence of Orthostatic Hypotension/Presyncope</i><br>\r\nThe ability to complete the tilt test was significantly greater in both the AGS and Kentavr subjects compared to the controls.  All subjects wearing a compression garment (either AGS or Kentavr) during the tilt test completed the test without symptoms of orthostatic hypotension or presyncope (0% incidence). In contrast, only nine control subjects (56%) were able to complete the tilt test without signs or symptoms of orthostatic hypotension or presyncope. \r\n<p>\r\n<i>Hemodynamic Responses</i><br>\r\nBoth compression garments prevented the decrease in systolic blood pressure at test termination which was observed in control subjects. The change in systolic blood pressure of control subjects was significantly greater than in the AGS and Kentavr subjects, but no differences were found between countermeasure groups. There were no differences in diastolic blood pressure between the groups.\r\n<p>\r\nThe change in heart rate was greater in the control subjects than in the AGS and Kentavr subjects. The elevation of heart rate in AGS and Kentavr subjects due to tilt was not significantly different between treatment groups. The drop in stroke volume at the end of tilt was significantly less in the AGS compared to the control subjects but not different between the Kentavr and controls. However, the standing stroke volumes for the AGS and Kentavr subjects were significantly higher than the controls at the end of tilt, and there was not a significant difference between AGS and Kentavr subjects. Neither the change from supine to tilt nor the final cardiac output and total peripheral resistance at tilt termination were different between groups.\r\n<p>",
+  "payload_id": "ROI",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "ROI_KENTAVR",
+  "indexed": "2026-08-23T04:13:02.028146+00:00",
+  "GUID": "cl62azmiycdfr01o6cmbx061n",
+  "parameter_name": [
+   "Aortic blood flow",
+   "Blood pressure",
+   "Blood volume",
+   "Carboxyhemoglobin",
+   "Cardiac output",
+   "Electrocardiogram (ECG)",
+   "Heart rate",
+   "Hematocrit",
+   "Plasma volume",
+   "Red blood cell mass",
+   "Red blood cell volume",
+   "Stroke volume",
+   "Total peripheral resistance",
+   "Urine output",
+   "Weight",
+   "Hemoglobin",
+   "Creatinine, urine",
+   "Sodium, urine"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 1296,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Cardiovascular physiology"
+  ],
+  "pme_role_with_name": [
+   "Co-Investigator: Buescher, C.",
+   "Co-Investigator: Fortner, G.",
+   "Co-Investigator: Martin, David",
+   "Co-Investigator: Meck, Janice",
+   "Co-Investigator: Platts, Steven",
+   "Principal Investigator: Tuxhorn, Jennifer",
+   "Principal Investigator: Waters, Wendy"
+  ],
+  "missions": [
+   [
+    [
+     "ROI"
+    ]
+   ]
+  ],
+  "__dirid": "511f5c7b-057c-50dd-a84f-1cd4abab891b",
+  "__record_size_wo_doccontent": 114303,
+  "PI": [
+   "Tuxhorn, Jennifer",
+   "Waters, Wendy"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "ROI_KENTAVR",
+   "Kentavr"
+  ],
+  "mission_id": [
+   [
+    [
+     "ROI"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "proposal_date": [],
+  "proposal_source": [],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Tuxhorn, Jennifer",
+   "Waters, Wendy"
+  ],
+  "program_name": [
+   "Ground"
+  ],
+  "archive_status": "Data preservation is complete. Privacy-protected datasets are available via data request. Remaining datasets are publicly available.",
+  "__is_locked": false,
+  "Program": "Ground",
+  "__source_field_concat": "PUB001611 ROI cl62azmiycdfr01o6cmbx061n Plasma volume N/A Evaluation of the Kentavr as a Countermeasure to Orthostatic Intolerance ROI_KENTAVR Ground",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<br>\r\nOne of the most important physiological changes that negatively impact flight operations and crew safety is postflight orthostatic intolerance.  Orthostatic intolerance is commonly experienced by astronauts when they return to Earth and can lead to hypotension and syncope (temporary loss of consciousness, fainting, or dizziness).  This problem affects about 30% of crewmembers who fly short-duration missions (4-18 days), and 83% of astronauts who fly long-duration missions.  This condition creates a potential hazard for the returning crew by impairing their ability to exit the vehicle after landing.  A major driver for orthostatic intolerance is plasma volume loss.  Despite the use of a mandatory fluid load before re-entry, astronauts return from space with plasma volume deficits ranging from 7-20%.\r\n<P>\r\nTo provide additional protection against space flight induced orthostatic intolerance during re-entry and landing, both NASA and the Russian Federal Space Agency use compression garments, or antigravity suits. NASA astronauts use an inflatable antigravity suit (AGS) that is worn under the Advanced Crew Escape Suit. It has five interconnected air bladders that cover the abdomen, thighs, and calves. The AGS can be inflated to pressures ranging from 0.5 per square inch (psi), which is equivalent to 25.9 mmHg, to 2.5 psi (129.3 mmHg) in increments of 0.5 psi. When inflated, the AGS provides mechanical protection that reduces venous pooling and maintains arterial pressure.\r\n<p>\r\nRussian cosmonauts wear a non-inflatable compression garment, called the Kentavr, which is made of an elastic fabric. It is composed of shorts that extend from the waist to the knee and a pair of gaiters that cover the calves. Each component of the Kentavr has lacings to allow for an individualized fit. The nominal pressure provided by the Kentavr is 0.6 \u00b1 0.1 psi (30 \u00b1 5 mmHg).\r\n<p>\r\nThe purpose of this study was to evaluate the ability of NASA\u2019s AGS and the Russian Kentavr garment, to prevent hypovolemia-related orthostatic intolerance.\r\n<P>\r\nAPPROACH:<br>\r\nPrior to participation, 19 healthy volunteers, ages 32 \u2013 54 years, passed a modified Air Force Class III physical. Subjects were randomly assigned to one of two groups: AGS (six men and three women) or Kentavr (six men and four women). A separate group of 16 subjects (11 men and 5 women) from a related study participated in the same protocols and served as controls (no countermeasure group).\r\n<p>\r\nData collection was completed in two visits to the cardiovascular laboratory. For the first session, subjects reported to the laboratory following voluntary reduction of their dietary salt intake for 24 hours.   Subjects provided a urine sample to confirm that urinary sodium was less than 100 mEq/gm<sup>-1</sup> creatinine. Those meeting the selection criteria participated in a carbon monoxide re-breathing protocol to measure plasma volume. Subjects then received a single dose of furosemide (a loop diuretic commonly marketed under the brand name Lasix) and consumed a low salt diet provided by the investigators.\r\n<p>\r\nSubjects returned to the laboratory 36 hours later, when the plasma volume measurement was repeated and subjects underwent a tilt test protocol to assess orthostatic tolerance with (AGS inflated to 1.5 per square inch or Kentavr) or without a compression garment (separate study). Subjects did not consume any caffeine, nicotine, or alcohol for 12 hours and did not participate in maximal exercise or take any medications for 24 hours prior to testing.\r\n<p>\r\nRESULTS:<br>\r\n<i>Hypovolemia</i><br>\r\nControl subjects experienced a mean loss of plasma volume of 17.1 \u00b1 1.7%. AGS and Kentavr groups had a plasma volume loss of 16.9 \u00b1 4.0% and 18.4 \u00b1 2.6%, respectively. There were no statistically significant differences in plasma volume loss between groups. \r\n<p>\r\n<i>Incidence of Orthostatic Hypotension/Presyncope</i><br>\r\nThe ability to complete the tilt test was significantly greater in both the AGS and Kentavr subjects compared to the controls.  All subjects wearing a compression garment (either AGS or Kentavr) during the tilt test completed the test without symptoms of orthostatic hypotension or presyncope (0% incidence). In contrast, only nine control subjects (56%) were able to complete the tilt test without signs or symptoms of orthostatic hypotension or presyncope. \r\n<p>\r\n<i>Hemodynamic Responses</i><br>\r\nBoth compression garments prevented the decrease in systolic blood pressure at test termination which was observed in control subjects. The change in systolic blood pressure of control subjects was significantly greater than in the AGS and Kentavr subjects, but no differences were found between countermeasure groups. There were no differences in diastolic blood pressure between the groups.\r\n<p>\r\nThe change in heart rate was greater in the control subjects than in the AGS and Kentavr subjects. The elevation of heart rate in AGS and Kentavr subjects due to tilt was not significantly different between treatment groups. The drop in stroke volume at the end of tilt was significantly less in the AGS compared to the control subjects but not different between the Kentavr and controls. However, the standing stroke volumes for the AGS and Kentavr subjects were significantly higher than the controls at the end of tilt, and there was not a significant difference between AGS and Kentavr subjects. Neither the change from supine to tilt nor the final cardiac output and total peripheral resistance at tilt termination were different between groups.\r\n<p>",
+  "__doi": "10.83263/xdg3-1417",
+  "__doi_record_creation_date": "2026-08-23T04:13:02",
+  "__doi_record_modified_date": "2026-08-23T04:13:02"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002387",
+   "label": "JMROI_Kentavr_2",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Blood Pressure, Heart Rate, and Stroke Volume During Tilt Test for Kentavr Study",
+    "dataset_catalog": "JMROI_Kentavr_2",
+    "dataset_description": [
+     "This slide contains three graphs depicting systolic blood pressure, heart rate, and stroke volume during tilt test.  Kentavr (white circle, n=10), REAGS (black circle, n=9) and non-presyncopal control subjects (black triangle, n=9) during supine rest and a 15 minute tilt test.  Four represenative presyncopal control subjects are also shown in graph A (lines with no symbol).\r\n<P>\r\nSource: Platts SH, Tuxhorn JA, Ribeiro LC, Stenger MB, Lee SM, Meck JV. Compression garments as countermeasures to orthostatic intolerance. Aviation, Space, and Environmental Medicine. 2009 May:80(5):437-42."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "ROI_KENTAVR"
+    ]
+   },
+   "meta": "1 file \u00b7 123.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "70ca96dc-b5c6-5df8-a989-c4324e329350",
+     "label": "JMROI_Kentavr_2.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 125952,
+     "meta": "123.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000737",
+   "label": "JMROI_Kentavr_1",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Heart Rate, Blood Pressure, and Countermeasure during Kentavr Study",
+    "dataset_catalog": "JMROI_Kentavr_1",
+    "dataset_description": [
+     "This slide contains three graphs depicting blood pressure and heart rate data for an individual subject that performed tilt tests under three conditions on three separate days: A) normololemia, B) hypovolemia, and C) hypovolemia while wearing a Kentavr anti-gravity suit.  Horizontal bar represents time standing.  In A and C the arrow indicates that the test continued for the entire 15 minutes. \r\n<P>\r\nSource: Platts SH, Tuxhorn JA, Ribeiro LC, Stenger MB, Lee SM, Meck JV. Compression garments as countermeasures to orthostatic intolerance. Aviation, Space, and Environmental Medicine. 2009 May:80(5):437-42."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "ROI_KENTAVR"
+    ]
+   },
+   "meta": "1 file \u00b7 2.34 MB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "37cb2fe3-0fdd-52f2-a8f8-1426ab202eec",
+     "label": "JMROI_Kentavr_1.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 2453668,
+     "meta": "2.34 MB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001720",
+   "label": "JMROI_Kentavr_3",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Kentavr Tilt Test During Hypovolemia",
+    "dataset_catalog": "JMROI_Kentavr_3",
+    "dataset_description": [
+     "This graph shows the probability of completing a 15 minute tilt test under hypovolemic conditions without an anti-gravity suit (black circle, n=16) and with an anti-gravity suit (white circle, Kentavr, n=10; REAGS, n=9).\r\n<P>\r\nSource: Platts SH, Tuxhorn JA, Ribeiro LC, Stenger MB, Lee SM, Meck JV. Compression garments as countermeasures to orthostatic intolerance. Aviation, Space, and Environmental Medicine. 2009 May:80(5):437-42."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "ROI_KENTAVR"
+    ]
+   },
+   "meta": "1 file \u00b7 25.5 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "335605fa-7822-52dc-b52b-88f96ea69e39",
+     "label": "JMROI_Kentavr_3.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 26112,
+     "meta": "25.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001419",
+   "label": "JMROI_Kentavr_5",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Cardiac Data During Tilt Test",
+    "dataset_catalog": "JMROI_Kentavr_5",
+    "dataset_description": [
+     "These graphs represent change in heart rate (HR), systolic blood pressure (SBP), diastolic blood pressure (DBP), stroke volume (SV), cardiac output (CO), and total peripheral resistance (TPR) from the last minute of supine rest to the last minute of tilt in the Control (N = 16), Kentavr ( N = 10), and AGS ( N = 9) groups. * Significantly different than control ( P < 0.05).\r\n<P>\r\nSource: Platts SH, Tuxhorn JA, Ribeiro LC, Stenger MB, Lee SM, Meck JV. Compression garments as countermeasures to orthostatic intolerance. Aviation, Space, and Environmental Medicine. 2009 May:80(5):437-42."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "ROI_KENTAVR"
+    ]
+   },
+   "meta": "1 file \u00b7 165.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "81f0563d-fe37-569d-9edf-fc8a5597adae",
+     "label": "JMROI_Kentavr_5.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 168960,
+     "meta": "165.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001464",
+   "label": "JMROI_Kentavr_4",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Tilt Test Results During Hypovolemia",
+    "dataset_catalog": "JMROI_Kentavr_4",
+    "dataset_description": [
+     "This graph shows the probability of completing a 15-minute tilt test under hypovolemic conditions with (solid line) and without a compression garment (dashed line, N=16).\r\n<P>\r\nSource: Platts SH, Tuxhorn JA, Ribeiro LC, Stenger MB, Lee SM, Meck JV. Compression garments as countermeasures to orthostatic intolerance. Aviation, Space, and Environmental Medicine. 2009 May:80(5):437-42."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "ROI_KENTAVR"
+    ]
+   },
+   "meta": "1 file \u00b7 74.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "7a3ba6b4-0b4d-5d1f-b524-05e71e805043",
+     "label": "JMROI_Kentavr_4.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 75776,
+     "meta": "74.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001005",
+   "label": "JMROI_Kentavr_6",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Hemodynamic variables",
+    "dataset_catalog": "JMROI_Kentavr_6",
+    "dataset_description": [
+     "This is an Excel file created from Table 1 (Hemodynamic Variables During the Last Minute of Supine Rest and at Tilt Test Termination). \r\n<P>\r\nSource: Platts SH, Tuxhorn JA, Ribeiro LC, Stenger MB, Lee SM, Meck JV. Compression garments as countermeasures to orthostatic intolerance. Aviation, Space, and Environmental Medicine. 2009 May:80(5):437-42."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "ROI_KENTAVR"
+    ]
+   },
+   "meta": "1 file \u00b7 20.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "cc35943a-60e2-5da9-874b-cddb7f21d327",
+     "label": "JMROI_Kentavr_6.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 20480,
+     "meta": "20.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

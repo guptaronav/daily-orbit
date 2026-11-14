@@ -1,0 +1,347 @@
+{
+ "record": {
+  "id": "0efe87dd-d04a-5755-add7-860dc0f67e56",
+  "_id": "0efe87dd-d04a-5755-add7-860dc0f67e56",
+  "__is_locked": false,
+  "experiment_title": "Bed Rest Standard Measures:  Performance Testing",
+  "__source_key": "cl62azfgtcde301o61r8j6fod",
+  "experiment_type": [
+   [
+    "Flight Analogs Project (FAP)"
+   ],
+   [
+    "NASA Bedrest Studies"
+   ],
+   [
+    "NASA Ground-Based Investigations"
+   ]
+  ],
+  "AssignedArchivist": [
+   "None Selected",
+   "[\"Nyaia Arzella NaTerrica Liddell\",\"Nyaia Arzella Liddell\"]"
+  ],
+  "keyword": [
+   "Absorption",
+   "Gastrointestinal system",
+   "Nutrition",
+   "Pharmacokinetics"
+  ],
+  "__record_version": 33,
+  "indexed": "2026-08-23T04:11:43.798419+00:00",
+  "GUID": "cl62azfgtcde301o61r8j6fod",
+  "_file_extension": "human",
+  "archive_status": "Data preservation is complete.  All datasets are publicly available.",
+  "__model_type": "lsda_experiment",
+  "__dirid": "0efe87dd-d04a-5755-add7-860dc0f67e56",
+  "__record_size_wo_doccontent": 27503,
+  "__update_method": "Update CDM",
+  "experiment_identifier": [
+   "BRSMPT"
+  ],
+  "CompleteArchivalExpectedInFiscalYear": [
+   "0"
+  ],
+  "experiment_type_lk": [
+   "Flight Analogs Project (FAP)",
+   "NASA Bedrest Studies",
+   "NASA Ground-Based Investigations"
+  ],
+  "__record_modified_date": "2026-08-23T04:11:43.798419+00:00",
+  "__indexed": "2026-08-23T04:11:43.798419+00:00",
+  "__record_creation_date": "2022-07-28T19:54:18.766Z",
+  "__record_size": 27503,
+  "species_strain": [
+   [
+    "N/A"
+   ]
+  ],
+  "__model_version": 60,
+  "species_sci_name": [
+   [
+    "Homo sapiens"
+   ]
+  ],
+  "payload_id": [
+   "Campaign 3",
+   "Campaign 1"
+  ],
+  "CombinedSpecies": [
+   "Human (Homo sapiens) N/A"
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "ncindex": 2,
+  "researchIndex": [
+   1
+  ],
+  "experiment_id": "BRSMPT",
+  "parameter_name": [
+   "Cognitive function",
+   "Gastrointestinal mobility",
+   "Hepatic function",
+   "Nutrient absorption",
+   "Nutrient balance",
+   "Renal function"
+  ],
+  "exp_index": 1279,
+  "research_area": [
+   "Behavior and performance"
+  ],
+  "species": [
+   [
+    "Human"
+   ]
+  ],
+  "pme_role_with_name": [
+   "Principal Investigator: Putcha, Lakshmi"
+  ],
+  "missions": [
+   "UTMB Campaign 3",
+   "UTMB Campaign 1"
+  ],
+  "PI": [
+   "Putcha, Lakshmi"
+  ],
+  "sort": [
+   3,
+   "31e7a326-49db-5d9b-9806-79260e07b870"
+  ],
+  "Program": "Ground",
+  "parameter_html": "<table><tr><td>Cognitive function</td></tr><tr><td>Gastrointestinal mobility</td></tr><tr><td>Hepatic function</td></tr><tr><td>Nutrient absorption</td></tr><tr><td>Nutrient balance</td></tr><tr><td>Renal function</td></tr><tr></tr></table>",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Putcha, Lakshmi\">Principal Investigator: Putcha, Lakshmi</a>",
+  "PrincipalInvestigator": [
+   "Putcha, Lakshmi"
+  ],
+  "mission_id": [
+   "UTMB Campaign 3",
+   "UTMB Campaign 1"
+  ],
+  "__source_field_concat": "human cl62azfgtcde301o61r8j6fod Bed Rest Standard Measures:  Performance Testing BRSMPT Ground Data preservation is complete.  All datasets are publicly available.",
+  "__icon_type": "",
+  "__description": "",
+  "__doi": "10.83263/7081-d617",
+  "__doi_record_creation_date": "2026-08-23T04:11:43",
+  "__doi_record_modified_date": "2026-08-23T04:11:43"
+ },
+ "datasets": [
+  {
+   "key": "3c3134b1-eb37-52ca-b8a7-a2aee7dea85d",
+   "label": "BRSMPT_Campaign_1_Ares",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "UTMB Bedrest Campaign 1 Ares",
+    "dataset_catalog": "BRSMPT_Campaign_1_Ares",
+    "dataset_description": "This dataset contains data for all Campaign 1 subjects for the Bed Rest Standard Measure Performance Testing (BRSMPT) study. Cognitive measures were collected using the ARES hand held cognitive function test. Data collection sessions for this measure were performed pre-bed rest, during bed rest, and post bed rest.",
+    "processing_level": "Processed Data",
+    "experiment_id": [
+     "BRSMPT"
+    ]
+   },
+   "meta": "20 files \u00b7 791.2 KB",
+   "date": "2025-04-15",
+   "children": [
+    {
+     "key": "f86d6b7f-b7af-5818-af87-6cf39f550800",
+     "label": "BRSMPT_Campaign_1_Ares_ReadMe_Subject_2",
+     "type": "file",
+     "ext": "",
+     "file_size": 649,
+     "meta": "649 B",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "99f50f92-f412-5b0a-87aa-5d0285a24186",
+     "label": "BRSMPT_Campaign_1_Ares_Simple_Reaction_Time",
+     "type": "file",
+     "ext": "",
+     "file_size": 13360,
+     "meta": "13.0 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b36c4dd5-35bb-594e-ae6b-b111083f4250",
+     "label": "BRSMPT_Campaign_1_Ares_PT_Subject_2",
+     "type": "file",
+     "ext": "",
+     "file_size": 4743,
+     "meta": "4.6 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e93e4204-0647-5b20-bf03-6a4da226970f",
+     "label": "BRSMPT_Campaign_1_Ares_PT_All",
+     "type": "file",
+     "ext": "",
+     "file_size": 13891,
+     "meta": "13.6 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b08130f4-0af2-589b-97fe-41d27ca2ba70",
+     "label": "BRSMPT_Campaign_1_Ares_PT_Subject_1",
+     "type": "file",
+     "ext": "",
+     "file_size": 4809,
+     "meta": "4.7 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "570ca7e4-7f2b-57c8-b8e9-c0c723ac5b2a",
+     "label": "BRSMPT_Campaign_1_Ares_Totals",
+     "type": "file",
+     "ext": "",
+     "file_size": 1048,
+     "meta": "1.0 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f5fe287d-79d9-5735-ba46-5efb0159e9f3",
+     "label": "BRSMPT_Campaign_1_Ares_ReadMe_Subject_3",
+     "type": "file",
+     "ext": "",
+     "file_size": 651,
+     "meta": "651 B",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b06dfc47-3033-571a-819e-a406e3d95540",
+     "label": "BRSMPT_Campaign_1_Ares_mRTC_Subject_1",
+     "type": "file",
+     "ext": "",
+     "file_size": 390,
+     "meta": "390 B",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c541fade-3a7a-5ed0-8b7b-8dc4a0f0b296",
+     "label": "BRSMPT_Campaign_1_Ares_mRTC_Subject_2",
+     "type": "file",
+     "ext": "",
+     "file_size": 392,
+     "meta": "392 B",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "eeeedd72-ec1d-5754-935d-f418233920ae",
+     "label": "BRSMPT_Campaign_1_Ares_Matching_to_Sample",
+     "type": "file",
+     "ext": "",
+     "file_size": 13603,
+     "meta": "13.3 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8449928d-4702-5da3-b13e-31a51d7f5d14",
+     "label": "BRSMPT_Campaign_1_Ares_Subject_1",
+     "type": "file",
+     "ext": "",
+     "file_size": 125795,
+     "meta": "122.8 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e65a11b3-c2cd-5653-8aae-3fe7945b9498",
+     "label": "BRSMPT_Campaign_1_Ares_Obsv_All",
+     "type": "file",
+     "ext": "",
+     "file_size": 372778,
+     "meta": "364.0 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "44192ab9-544a-57e7-b94e-c40090a067d3",
+     "label": "BRSMPT_Campaign_1_Ares_ReadMe_Subject_1",
+     "type": "file",
+     "ext": "",
+     "file_size": 827,
+     "meta": "827 B",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5a29e196-caf1-5448-bac2-1f8873ae9114",
+     "label": "BRSMPT_Campaign_1_Ares_Running_Memory",
+     "type": "file",
+     "ext": "",
+     "file_size": 11703,
+     "meta": "11.4 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0d7f757d-8e36-509b-ac2a-1226e48fc187",
+     "label": "BRSMPT_Campaign_1_Ares_mRTC_Subject_3",
+     "type": "file",
+     "ext": "",
+     "file_size": 416,
+     "meta": "416 B",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ab078525-51df-5871-bc7a-859808a4a70f",
+     "label": "BRSMPT_Campaign_1_Ares_PT_Subject_3",
+     "type": "file",
+     "ext": "",
+     "file_size": 4273,
+     "meta": "4.2 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e6da79b0-c8f0-5f38-96f3-b95fe3fc3754",
+     "label": "BRSMPT_Campaign_1_Ares_Means",
+     "type": "file",
+     "ext": "",
+     "file_size": 417,
+     "meta": "417 B",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "bff34b14-ee74-5d2a-a04a-5b1f714f3e77",
+     "label": "BRSMPT_Campaign_1_Ares_Subject_3",
+     "type": "file",
+     "ext": "",
+     "file_size": 115487,
+     "meta": "112.8 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "eb19499b-0e52-5e07-8afa-a1332321b954",
+     "label": "BRSMPT_Campaign_1_Ares_Subject_2",
+     "type": "file",
+     "ext": "",
+     "file_size": 123934,
+     "meta": "121.0 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "46ccaadb-66f3-5eca-b5f8-651aa6c84022",
+     "label": "BRSMPT_Campaign_1_Ares_mRTIC_All",
+     "type": "file",
+     "ext": "",
+     "file_size": 1053,
+     "meta": "1.0 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

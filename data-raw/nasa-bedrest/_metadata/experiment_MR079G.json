@@ -1,0 +1,4391 @@
+{
+ "record": {
+  "id": "f97392b8-b9dd-5bae-af9e-dd76a33bf049",
+  "_id": "f97392b8-b9dd-5bae-af9e-dd76a33bf049",
+  "__is_locked": false,
+  "experiment_title": "Isokinetic Muscle Function (Flight Analog)",
+  "experiment_alias": "MR079L,MEDB 5.3",
+  "__source_key": "cl62aznvhcdg301o6h78p90x6",
+  "experiment_type": [
+   [
+    "Flight Analogs Project (FAP)"
+   ],
+   [
+    "Artificial Gravity (Fractional Gravity)"
+   ],
+   [
+    "NASA Bedrest Studies"
+   ],
+   [
+    "NASA Ground-Based Investigations"
+   ]
+  ],
+  "AssignedArchivist": [
+   "Liddell, Nyaia A."
+  ],
+  "keyword": [
+   "Isometric exercise",
+   "Exercise/physiology",
+   "Exercise test",
+   "Muscle strength",
+   "Muscle contraction"
+  ],
+  "__record_version": 32,
+  "experiment_description": "OBJECTIVES:<br>\nThis test was performed to provide an objective measure of pre- and post-bed rest muscle strength and endurance in select muscle groups for the evaluation of countermeasures and rehabilitation.\n<div>\nAPPROACH:<br>\nThe torque-velocity relationships of the knee extensors and calf plantar flexors were determined using a Cybex dynamometer.  Knee and ankle flexors, as well as trunk extensors and flexors, were also tested to satisfy the requirements of the standard measures for the Bed Rest Project. The Cybex isokinetic dynamometer is an exercise device used clinically by physicians and physical therapists to rehabilitate and test athletes and persons with injury. This isokinetic device controls the speed at which a person moves their limb and measures the torque developed when the person tries to move faster than the machine will allow. This type of exercise is inherently safer than typical weight lifting exercises. The subjects became accustomed to the function of the test apparatus one week prior to the first test session.\n</div><div>\nThe test began with a 5 minute warm-up on a cycle ergometer, pedaling at a comfortable pace of 25-50 Watts. Subjects then performed tests of the knee joint, ankle joint, and back. Each test was preceded by a joint specific warm-up and practice of each movement before data collection began. During each test session, the subjects performed five trials at each test speed.  Angle-specific torque was determined for all measurements of knee and ankle extension torque. Subjects were encouraged to make maximal efforts throughout the range of motion. The best effort at each speed was used for data analyses. \n</div><div>\nAn additional measure of power was included for the Artificial Gravity (AG) Pilot Study.  Single joint measures of explosive power can be determined from the force-time curve generated during isometric force tests. \n</div><div>\nRESULTS:<br>\nThis experiment has concluded. <span class=\"cf0\">Tabular results are available for the public</span>.\n</div><div></div>",
+  "indexed": "2026-08-23T04:24:42.499863+00:00",
+  "GUID": "cl62aznvhcdg301o6h78p90x6",
+  "_file_extension": "human",
+  "archive_status": "Data preservation is complete.  All datasets are publicly available.",
+  "__model_type": "lsda_experiment",
+  "__dirid": "f97392b8-b9dd-5bae-af9e-dd76a33bf049",
+  "__record_size_wo_doccontent": 65912,
+  "__update_method": "Update CDM",
+  "experiment_identifier": [
+   "MR079G",
+   "MR079L,MEDB 5.3"
+  ],
+  "CompleteArchivalExpectedInFiscalYear": [
+   "0"
+  ],
+  "experiment_type_lk": [
+   "Flight Analogs Project (FAP)",
+   "Artificial Gravity (Fractional Gravity)",
+   "NASA Bedrest Studies",
+   "NASA Ground-Based Investigations"
+  ],
+  "__record_modified_date": "2026-08-23T04:24:42.499863+00:00",
+  "__indexed": "2026-08-23T04:24:42.499863+00:00",
+  "nasa_center": "JSC",
+  "alias": [
+   "MR079L",
+   "MEDB 5.3"
+  ],
+  "__record_creation_date": "2022-07-28T19:57:51.222Z",
+  "__record_size": 65912,
+  "__model_version": 60,
+  "species_sci_name": [
+   [
+    "Homo sapiens"
+   ]
+  ],
+  "payload_id": [
+   "DBLS",
+   "HDT30",
+   "Campaign 5",
+   "Pilot",
+   "Campaign 3",
+   "Campaign 1",
+   "WISE",
+   "CFT70",
+   "ACG"
+  ],
+  "CombinedSpecies": [
+   "Human (Homo sapiens)"
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "ncindex": 2,
+  "researchIndex": [
+   18,
+   1082
+  ],
+  "experiment_id": "MR079G",
+  "experiment_related": [
+   "MR079L"
+  ],
+  "center": "JSC",
+  "parameter_name": [
+   "Ankle concentric strength, extension",
+   "Ankle concentric strength, flexion",
+   "Ankle eccentric strength, extension",
+   "Ankle eccentric strength, flexion",
+   "Knee concentric endurance, extension",
+   "Knee concentric endurance, flexion",
+   "Knee concentric strength, extension",
+   "Knee concentric strength, flexion",
+   "Trunk concentric strength, extension",
+   "Trunk concentric strength, flexion"
+  ],
+  "exp_index": 1361,
+  "research_area": [
+   "Muscle physiology",
+   "Exercise physiology"
+  ],
+  "species": [
+   [
+    "Human"
+   ]
+  ],
+  "pme_role_with_name": [
+   "Principal Investigator: Moore, Alan D., Jr.",
+   "Technical Assistant to Principal Investigator: Lee, Stuart M. C.",
+   "Technical Assistant to Principal Investigator: Ciaozzo, Vince J.",
+   "Co-Investigator: Baldwin, Kenneth M.",
+   "Principal Investigator: Ploutz- Snyder, Lori"
+  ],
+  "missions": [
+   "DBLS",
+   "HDT30",
+   "UTMB Campaign 5",
+   "Pilot",
+   "UTMB Campaign 3",
+   "UTMB Campaign 1",
+   "MEDES",
+   "UTMB Campaign 11",
+   "Campaign 17"
+  ],
+  "PI": [
+   "Moore, Alan D., Jr.",
+   "Ploutz- Snyder, Lori"
+  ],
+  "sort": [
+   3,
+   "2ba011be-ad6a-5e29-9410-576ae7df933b"
+  ],
+  "parameter_html": "<table><tr><td>Ankle concentric strength, extension</td></tr><tr><td>Ankle concentric strength, flexion</td></tr><tr><td>Ankle eccentric strength, extension</td></tr><tr><td>Ankle eccentric strength, flexion</td></tr><tr><td>Knee concentric endurance, extension</td></tr><tr><td>Knee concentric endurance, flexion</td></tr><tr><td>Knee concentric strength, extension</td></tr><tr><td>Knee concentric strength, flexion</td></tr><tr><td>Trunk concentric strength, extension</td></tr><tr><td>Trunk concentric strength, flexion</td></tr><tr></tr></table>",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Ploutz- Snyder, Lori\">Principal Investigator: Ploutz- Snyder, Lori</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Moore, Alan D., Jr.\">Principal Investigator: Moore, Alan D., Jr.</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Baldwin, Kenneth M.\">Co-Investigator: Baldwin, Kenneth M.</a>",
+  "Program": "Ground",
+  "mission_id": [
+   "DBLS",
+   "HDT30",
+   "UTMB Campaign 5",
+   "Pilot",
+   "UTMB Campaign 3",
+   "UTMB Campaign 1",
+   "MEDES",
+   "UTMB Campaign 11",
+   "Campaign 17"
+  ],
+  "PrincipalInvestigator": [
+   "Moore, Alan D., Jr.",
+   "Ploutz- Snyder, Lori"
+  ],
+  "__source_field_concat": "human cl62aznvhcdg301o6h78p90x6 JSC JSC MR079L,MEDB 5.3 Isokinetic Muscle Function (Flight Analog) MR079G Ground Data preservation is complete.  All datasets are publicly available.",
+  "__icon_type": "",
+  "__description": "OBJECTIVES:<br>\nThis test was performed to provide an objective measure of pre- and post-bed rest muscle strength and endurance in select muscle groups for the evaluation of countermeasures and rehabilitation.\n<div>\nAPPROACH:<br>\nThe torque-velocity relationships of the knee extensors and calf plantar flexors were determined using a Cybex dynamometer.  Knee and ankle flexors, as well as trunk extensors and flexors, were also tested to satisfy the requirements of the standard measures for the Bed Rest Project. The Cybex isokinetic dynamometer is an exercise device used clinically by physicians and physical therapists to rehabilitate and test athletes and persons with injury. This isokinetic device controls the speed at which a person moves their limb and measures the torque developed when the person tries to move faster than the machine will allow. This type of exercise is inherently safer than typical weight lifting exercises. The subjects became accustomed to the function of the test apparatus one week prior to the first test session.\n</div><div>\nThe test began with a 5 minute warm-up on a cycle ergometer, pedaling at a comfortable pace of 25-50 Watts. Subjects then performed tests of the knee joint, ankle joint, and back. Each test was preceded by a joint specific warm-up and practice of each movement before data collection began. During each test session, the subjects performed five trials at each test speed.  Angle-specific torque was determined for all measurements of knee and ankle extension torque. Subjects were encouraged to make maximal efforts throughout the range of motion. The best effort at each speed was used for data analyses. \n</div><div>\nAn additional measure of power was included for the Artificial Gravity (AG) Pilot Study.  Single joint measures of explosive power can be determined from the force-time curve generated during isometric force tests. \n</div><div>\nRESULTS:<br>\nThis experiment has concluded. <span class=\"cf0\">Tabular results are available for the public</span>.\n</div><div></div>",
+  "__doi": "10.83263/bk5h-r757",
+  "__doi_record_creation_date": "2026-08-23T04:24:42",
+  "__doi_record_modified_date": "2026-08-23T04:24:42"
+ },
+ "datasets": [
+  {
+   "key": "5aeac389-083f-5bd0-b8dd-6d429728a7bb",
+   "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "UTMB Bedrest Campaign 3 Isokinetic Muscle Function",
+    "dataset_catalog": "MR079G_Campaign_3_Isokinetic_Muscle_Function",
+    "dataset_description": "This dataset contains tabular data for all UTMB Campaign 3 subjects for the Bed Rest Standard Measures Isokinetic Muscle Function (Flight Analog) (MR079G) study.",
+    "processing_level": [
+     "Processed Data"
+    ],
+    "experiment_id": [
+     "MR079G"
+    ]
+   },
+   "meta": "98 files \u00b7 127.4 KB",
+   "date": "2025-09-12",
+   "children": [
+    {
+     "key": "98123d56-dc42-52bb-85ff-42cf4b336024",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3G_9314_090312",
+     "type": "file",
+     "ext": "",
+     "file_size": 1323,
+     "meta": "1.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a3378b98-dc2b-5005-8837-f06b5a1bcedc",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3B_3768_050723",
+     "type": "file",
+     "ext": "",
+     "file_size": 1417,
+     "meta": "1.4 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9d11bef3-9f48-5eac-a905-0051cdb4db40",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3G_9485_090524",
+     "type": "file",
+     "ext": "",
+     "file_size": 1495,
+     "meta": "1.5 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a1294e8d-29fb-5ba7-8c4d-65c315c0a8b7",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3G_9314_090603",
+     "type": "file",
+     "ext": "",
+     "file_size": 1325,
+     "meta": "1.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "cff54fd3-4bf3-526c-b01c-bf55faf00821",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3D_8779_070418",
+     "type": "file",
+     "ext": "",
+     "file_size": 1323,
+     "meta": "1.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b55f5f67-d233-53c9-adb9-f318122ed96c",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3D_8615_070708",
+     "type": "file",
+     "ext": "",
+     "file_size": 1417,
+     "meta": "1.4 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ba95e0bd-9963-5dca-9614-5ada79526605",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3B_6345_050728",
+     "type": "file",
+     "ext": "",
+     "file_size": 1326,
+     "meta": "1.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2652ad2b-5491-5388-8946-729c67db53f0",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3G_5814_090829",
+     "type": "file",
+     "ext": "",
+     "file_size": 1618,
+     "meta": "1.6 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3a891847-6ac8-58d9-b81e-fb38862fb5d0",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3G_9139_090307",
+     "type": "file",
+     "ext": "",
+     "file_size": 1307,
+     "meta": "1.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0f5bf7b1-4f72-57a3-9325-950be1fe5b57",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3E_6043_080305",
+     "type": "file",
+     "ext": "",
+     "file_size": 1314,
+     "meta": "1.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9cb764f0-9253-5f80-b084-a525a3028318",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3A_0992_050613",
+     "type": "file",
+     "ext": "",
+     "file_size": 1300,
+     "meta": "1.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6dda7764-70b4-56e3-ae9a-f322d6c19699",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3G_9032_090615",
+     "type": "file",
+     "ext": "",
+     "file_size": 1323,
+     "meta": "1.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "65c43247-5ed1-510c-a1e2-9e79bf3aebed",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3G_9139_090529",
+     "type": "file",
+     "ext": "",
+     "file_size": 1335,
+     "meta": "1.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "50ff52b3-69ec-53a1-867c-f298a001d696",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3E_6607_080822",
+     "type": "file",
+     "ext": "",
+     "file_size": 1325,
+     "meta": "1.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "96fdcbd6-d568-5881-9633-a9c2f2450cd5",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3A_5788_050620",
+     "type": "file",
+     "ext": "",
+     "file_size": 1426,
+     "meta": "1.4 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7dc0b41e-f4a9-5e74-b809-6661a66f4af8",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3D_3985_070123",
+     "type": "file",
+     "ext": "",
+     "file_size": 1331,
+     "meta": "1.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2f585046-ef02-5101-9bad-0b9555ce49ba",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3B_4023_050726",
+     "type": "file",
+     "ext": "",
+     "file_size": 1322,
+     "meta": "1.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3d1569d8-8cbf-585c-861d-c285d76278b6",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3G_5814_091120",
+     "type": "file",
+     "ext": "",
+     "file_size": 1345,
+     "meta": "1.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7bae5c35-13aa-54da-a9b7-3f68eab0a0e2",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3D_8615_071025",
+     "type": "file",
+     "ext": "",
+     "file_size": 1490,
+     "meta": "1.5 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "21c1dc11-30f6-5b46-92fd-7a63afefea9f",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3E_6043_080628",
+     "type": "file",
+     "ext": "",
+     "file_size": 1337,
+     "meta": "1.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "606f43d6-db77-5d13-9a01-660e28ab3773",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3E_6607_080516",
+     "type": "file",
+     "ext": "",
+     "file_size": 1314,
+     "meta": "1.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "228a14b8-135e-5d21-a990-f96227346f0f",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3G_9139_090519",
+     "type": "file",
+     "ext": "",
+     "file_size": 1327,
+     "meta": "1.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d8998bf3-8615-5215-b867-ba66ffd770f7",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3B_3768_050719",
+     "type": "file",
+     "ext": "",
+     "file_size": 1441,
+     "meta": "1.4 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "93335bbd-eab2-5865-8722-6532eaa40fe0",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3D_5165_080510",
+     "type": "file",
+     "ext": "",
+     "file_size": 1282,
+     "meta": "1.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0d0c0fee-e042-5eee-9ea5-59526e4de520",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3D_7961_070119",
+     "type": "file",
+     "ext": "",
+     "file_size": 1473,
+     "meta": "1.4 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6146c292-0aa2-5b22-b4e9-9d95412c44df",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3A_0992_050225",
+     "type": "file",
+     "ext": "",
+     "file_size": 1276,
+     "meta": "1.2 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6a168613-fc5f-509b-bfea-579aa8d9cd67",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3A_0446_050610",
+     "type": "file",
+     "ext": "",
+     "file_size": 1287,
+     "meta": "1.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "cfad2556-505a-548a-a2c1-99013a538cf6",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3H_5907_100403",
+     "type": "file",
+     "ext": "",
+     "file_size": 1286,
+     "meta": "1.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e76440c3-feeb-5c67-907e-be087aad9a89",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3G_9032_090401",
+     "type": "file",
+     "ext": "",
+     "file_size": 1312,
+     "meta": "1.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3a81ff16-b81c-5718-82ec-65ff30b5e54c",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3C_7772_060513",
+     "type": "file",
+     "ext": "",
+     "file_size": 1430,
+     "meta": "1.4 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b7d43c94-3294-5191-b00c-58b3aae7c09e",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3G_9032_090407",
+     "type": "file",
+     "ext": "",
+     "file_size": 1302,
+     "meta": "1.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "dd7adbc9-3270-5cb6-9197-53d76ba076bf",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3D_7984_070515",
+     "type": "file",
+     "ext": "",
+     "file_size": 1326,
+     "meta": "1.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8eb4a028-65f8-5536-acde-3e39ebc677c2",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3D_8779_070423",
+     "type": "file",
+     "ext": "",
+     "file_size": 1311,
+     "meta": "1.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "78b1bfe3-8a99-52d1-be70-d4548c7d69c9",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3G_5580_090610",
+     "type": "file",
+     "ext": "",
+     "file_size": 1335,
+     "meta": "1.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8cb8e230-9c43-55e3-9305-60b22f1d3a87",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3H_5907_100125",
+     "type": "file",
+     "ext": "",
+     "file_size": 1285,
+     "meta": "1.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "374dfc63-34c9-58a4-a374-12ed79fb2f13",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3D_7984_070201",
+     "type": "file",
+     "ext": "",
+     "file_size": 1371,
+     "meta": "1.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "88552886-a86a-5009-8a35-12b88ed8819a",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3G_6858_090727",
+     "type": "file",
+     "ext": "",
+     "file_size": 1319,
+     "meta": "1.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "bd9b5e5a-433e-5f4e-bee0-f86f92169bc6",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3G_5580_090323",
+     "type": "file",
+     "ext": "",
+     "file_size": 1310,
+     "meta": "1.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "dab462ca-7af4-5fa2-a0ee-933a8f4cc75f",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3D_5165_080123",
+     "type": "file",
+     "ext": "",
+     "file_size": 1257,
+     "meta": "1.2 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d8022c3f-f4ba-53a0-aaf2-715a2d250e34",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3C_7772_060901",
+     "type": "file",
+     "ext": "",
+     "file_size": 1439,
+     "meta": "1.4 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b979a5f5-97c2-5ccc-9bd7-400ff3dca9de",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3A_0224_050617",
+     "type": "file",
+     "ext": "",
+     "file_size": 1236,
+     "meta": "1.2 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b8af27a4-af91-5f02-9a1b-61c5050ed72f",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3B_6345_050802",
+     "type": "file",
+     "ext": "",
+     "file_size": 1303,
+     "meta": "1.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "29b2df1b-a76e-57b4-ab21-d56667ebe2c4",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3H_5907_100120",
+     "type": "file",
+     "ext": "",
+     "file_size": 1298,
+     "meta": "1.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f85605e1-fe70-53b1-af93-17be618d09dd",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3A_0224_050301",
+     "type": "file",
+     "ext": "",
+     "file_size": 1202,
+     "meta": "1.2 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "31e982c8-1b19-5ee0-9d92-e2995a1474b0",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3H_5907_100413",
+     "type": "file",
+     "ext": "",
+     "file_size": 1310,
+     "meta": "1.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0abaf407-4c5a-5b8c-bded-25c6b971c8de",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3D_8615_070713",
+     "type": "file",
+     "ext": "",
+     "file_size": 1423,
+     "meta": "1.4 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "bec5ed28-41e4-50ab-b842-c34e7ae55d97",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3A_0446_050302",
+     "type": "file",
+     "ext": "",
+     "file_size": 1266,
+     "meta": "1.2 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c6127780-43d2-595f-8736-264c8c73d5f9",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3D_5165_080430",
+     "type": "file",
+     "ext": "",
+     "file_size": 1264,
+     "meta": "1.2 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2cb92082-a01f-5a23-9b90-15720f8dadd4",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3C_7772_060508",
+     "type": "file",
+     "ext": "",
+     "file_size": 1432,
+     "meta": "1.4 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f561dfa4-bd2d-5313-bd2e-9c12483160ea",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3D_3985_070518",
+     "type": "file",
+     "ext": "",
+     "file_size": 1338,
+     "meta": "1.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6d00b7f3-1c8c-5c44-aae2-15e08b11baf4",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3G_5814_091110",
+     "type": "file",
+     "ext": "",
+     "file_size": 1331,
+     "meta": "1.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7f15d124-8f26-5a7c-8e55-ef7017810383",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3D_5165_080118",
+     "type": "file",
+     "ext": "",
+     "file_size": 1266,
+     "meta": "1.2 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1ce6deb4-0532-5d71-bc04-71510c526c8b",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3C_7772_060822",
+     "type": "file",
+     "ext": "",
+     "file_size": 1439,
+     "meta": "1.4 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "71979727-9a67-50a3-8735-0d6ce7b4e523",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3C_7352_060409",
+     "type": "file",
+     "ext": "",
+     "file_size": 1298,
+     "meta": "1.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2fc61ca0-6b7a-58de-acf9-ace98c5abc18",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3B_7127_050727",
+     "type": "file",
+     "ext": "",
+     "file_size": 1316,
+     "meta": "1.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7bd1c11b-a82d-50bf-b8dd-e515ff39042d",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3G_6858_090517",
+     "type": "file",
+     "ext": "",
+     "file_size": 1312,
+     "meta": "1.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e0030170-d628-5f1a-9803-438da83579d4",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3G_9032_090625",
+     "type": "file",
+     "ext": "",
+     "file_size": 1331,
+     "meta": "1.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "40575c5f-aeff-5b9c-89ec-4c2932654803",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3A_0992_050603",
+     "type": "file",
+     "ext": "",
+     "file_size": 1275,
+     "meta": "1.2 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "aa9173da-0d9c-5e95-8fc7-1ef38c59f4f0",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3C_7352_060404",
+     "type": "file",
+     "ext": "",
+     "file_size": 1309,
+     "meta": "1.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "deea1c95-3060-5584-8684-41b9f066078c",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3G_9485_090818",
+     "type": "file",
+     "ext": "",
+     "file_size": 1337,
+     "meta": "1.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a50b7055-32e8-5a0f-9c8d-25006dc389aa",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3D_7961_070512",
+     "type": "file",
+     "ext": "",
+     "file_size": 1337,
+     "meta": "1.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "90c082ee-a3bd-53b8-bea6-3577b7c6f7e9",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3A_0224_050225",
+     "type": "file",
+     "ext": "",
+     "file_size": 1225,
+     "meta": "1.2 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7ed996cc-176b-52e7-ad0a-f0736ff6a72e",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3D_3985_070128",
+     "type": "file",
+     "ext": "",
+     "file_size": 1317,
+     "meta": "1.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "91b01b47-fb7e-5080-90c2-b982a7965dcf",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3A_5788_050228",
+     "type": "file",
+     "ext": "",
+     "file_size": 1415,
+     "meta": "1.4 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2fc1af07-7a91-573f-bf6b-26b003b3e1e0",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3D_3985_070508",
+     "type": "file",
+     "ext": "",
+     "file_size": 1311,
+     "meta": "1.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ff55cc8d-4f97-5881-855a-d170cc2c45f0",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3B_4023_050730",
+     "type": "file",
+     "ext": "",
+     "file_size": 1311,
+     "meta": "1.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d6984973-5f4f-52f4-b78c-1867840a6742",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3G_6858_090806",
+     "type": "file",
+     "ext": "",
+     "file_size": 1324,
+     "meta": "1.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4cc027f2-89d9-5cba-b4d6-287586dd87af",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3G_6858_090512",
+     "type": "file",
+     "ext": "",
+     "file_size": 1319,
+     "meta": "1.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c6a68cb2-d3ec-52d5-8ca3-4999781cced1",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3D_8881_080221",
+     "type": "file",
+     "ext": "",
+     "file_size": 1330,
+     "meta": "1.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f12860b5-a135-5c2b-83d2-cc386a03a21b",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3D_8881_080603",
+     "type": "file",
+     "ext": "",
+     "file_size": 1314,
+     "meta": "1.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1b522a72-81d9-59ca-a7e4-f7a554d89c6b",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3G_5814_090903",
+     "type": "file",
+     "ext": "",
+     "file_size": 1298,
+     "meta": "1.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9e885730-abbf-5667-a82f-8ff9cb8ec58a",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3G_9485_090808",
+     "type": "file",
+     "ext": "",
+     "file_size": 1313,
+     "meta": "1.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "673b1712-7570-5cf5-bed9-dffd478cd5f9",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3G_9139_090312",
+     "type": "file",
+     "ext": "",
+     "file_size": 1312,
+     "meta": "1.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0edb8bc2-f7d8-5063-b365-fca917919abe",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3E_6043_080312",
+     "type": "file",
+     "ext": "",
+     "file_size": 1313,
+     "meta": "1.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d09f3947-5745-5d7f-b64f-e29981930751",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3A_0446_050620",
+     "type": "file",
+     "ext": "",
+     "file_size": 1301,
+     "meta": "1.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "539e37f2-5968-50d0-8be8-76ccd7a7503e",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3G_9485_090529",
+     "type": "file",
+     "ext": "",
+     "file_size": 1309,
+     "meta": "1.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "80e38907-7b91-5e34-838a-b18bb2e13d00",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3D_7984_070525",
+     "type": "file",
+     "ext": "",
+     "file_size": 1336,
+     "meta": "1.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a5cec04c-90f9-54f6-8460-a92b2f29f017",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3D_8615_071018",
+     "type": "file",
+     "ext": "",
+     "file_size": 1330,
+     "meta": "1.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "fee55db2-9da0-5570-a8ac-93645026f8f8",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3D_8881_080226",
+     "type": "file",
+     "ext": "",
+     "file_size": 1317,
+     "meta": "1.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1adf2668-7f8c-590f-bd5d-6ad03d511e46",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3B_7127_050723",
+     "type": "file",
+     "ext": "",
+     "file_size": 1310,
+     "meta": "1.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "bbdc34e7-d7de-59be-84c6-101923a96914",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3A_0224_050607",
+     "type": "file",
+     "ext": "",
+     "file_size": 1212,
+     "meta": "1.2 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "99e0b820-9448-5981-a165-46e114356f10",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3A_5788_050610",
+     "type": "file",
+     "ext": "",
+     "file_size": 1414,
+     "meta": "1.4 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d850ad3c-446d-5d98-a1bc-4822677a8182",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3G_5580_090531",
+     "type": "file",
+     "ext": "",
+     "file_size": 1323,
+     "meta": "1.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f953ae51-6460-595c-8a6f-a57db0a43e88",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3G_9314_090524",
+     "type": "file",
+     "ext": "",
+     "file_size": 1321,
+     "meta": "1.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "fc988983-47ee-5658-af76-e0243668cbfd",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3A_5788_050304",
+     "type": "file",
+     "ext": "",
+     "file_size": 1391,
+     "meta": "1.4 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "47a753a7-19ea-526c-b5b3-0ed0bf6d041f",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3D_7961_070502",
+     "type": "file",
+     "ext": "",
+     "file_size": 1313,
+     "meta": "1.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0a65250b-c00f-58de-a12d-f4d09e371e62",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3C_7352_060729",
+     "type": "file",
+     "ext": "",
+     "file_size": 1332,
+     "meta": "1.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e8d1162d-6132-5d4f-9d86-99ed61fb1cca",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3C_7352_060719",
+     "type": "file",
+     "ext": "",
+     "file_size": 1321,
+     "meta": "1.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "27cbb492-2e52-5e0a-a88d-80514024cb39",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3G_9314_090317",
+     "type": "file",
+     "ext": "",
+     "file_size": 1312,
+     "meta": "1.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "bb1bf756-4734-52a3-9b3f-661e074de36e",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3D_8881_080613",
+     "type": "file",
+     "ext": "",
+     "file_size": 1331,
+     "meta": "1.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "829ef614-8180-5133-b0f2-ecb478765de1",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3D_7961_070124",
+     "type": "file",
+     "ext": "",
+     "file_size": 1313,
+     "meta": "1.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "166f0a51-9dc5-593a-96fe-04c8c2eb607c",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3E_6043_080618",
+     "type": "file",
+     "ext": "",
+     "file_size": 1324,
+     "meta": "1.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5b70e006-4e89-51c1-90ca-868770a8aa71",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3A_0992_050221",
+     "type": "file",
+     "ext": "",
+     "file_size": 1288,
+     "meta": "1.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6ad06cb9-aaa2-5b6c-923d-19a17e46c031",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3D_8779_070730",
+     "type": "file",
+     "ext": "",
+     "file_size": 1375,
+     "meta": "1.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "778f6a72-319d-5c21-827f-ff0a6a6e7e96",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3E_6607_080511",
+     "type": "file",
+     "ext": "",
+     "file_size": 1322,
+     "meta": "1.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8184f819-1ece-519e-8683-5d4e1bc542a7",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3D_7984_070206",
+     "type": "file",
+     "ext": "",
+     "file_size": 1304,
+     "meta": "1.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "69488ab8-f76c-5ac9-b568-0cbf37697b6a",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3A_0446_050304",
+     "type": "file",
+     "ext": "",
+     "file_size": 1265,
+     "meta": "1.2 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "73deb05d-df04-5976-9979-7b56819a8e46",
+     "label": "MR079G_Campaign_3_Isokinetic_Muscle_Function_C3G_5580_090318",
+     "type": "file",
+     "ext": "",
+     "file_size": 1323,
+     "meta": "1.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "4e4866dc-e69e-5d80-9d42-3f6e1c0e6101",
+   "label": "MR079G_Campaign_1_Muscle_Strength_Endurance",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "UTMB Bedrest Campaign 1 Muscle Strength and Endurance",
+    "dataset_catalog": "MR079G_Campaign_1_Muscle_Strength_Endurance",
+    "dataset_description": "This dataset contains a collection of pre- and post bed rest muscle strength and endurance data in select muscle groups for the evaluation of in-bed rest countermeasures and post bed rest rehabilitation during the Campaign 1 Bed Rest Study The torque-velocity relationships of the knee extensors and calf plantar flexors will be determined using a Cybex dynamometer. This isokinetic device controls the speed at which a person moves their limb and measures the torque developed when the person tries to move faster than the machine will allow.",
+    "processing_level": "Processed Data",
+    "experiment_id": [
+     "MR079G"
+    ]
+   },
+   "meta": "13 files \u00b7 29.9 KB",
+   "date": "2025-04-15",
+   "children": [
+    {
+     "key": "dd339a59-bbad-59bd-a356-1f4c7b55b240",
+     "label": "MR079G_Campaign_1_BR_+2_Subject_3",
+     "type": "file",
+     "ext": "",
+     "file_size": 1495,
+     "meta": "1.5 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4a2d19fa-6d83-5924-b376-c5fe9bcca751",
+     "label": "MR079G_Campaign_1_BR_-9_Subject_2",
+     "type": "file",
+     "ext": "",
+     "file_size": 1263,
+     "meta": "1.2 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "881a7053-4307-5c70-917d-57bb0280db62",
+     "label": "MR079G_Campaign_1_BR_+2_Subject_2",
+     "type": "file",
+     "ext": "",
+     "file_size": 1276,
+     "meta": "1.2 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c9b26580-26c2-5e9a-98fc-4faa79293077",
+     "label": "MR079G_Campaign_1_BR_-2_Subject_1",
+     "type": "file",
+     "ext": "",
+     "file_size": 1259,
+     "meta": "1.2 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f693ec06-2bd4-515e-a8fc-1a6be7a2e498",
+     "label": "MR079G_Campaign_1_BR_-2_Subject_3",
+     "type": "file",
+     "ext": "",
+     "file_size": 1255,
+     "meta": "1.2 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "80a6ac8d-1b28-5d63-b18f-6d4680a173cd",
+     "label": "MR079G_Campaign_1_BR_+1_Subject_2",
+     "type": "file",
+     "ext": "",
+     "file_size": 1276,
+     "meta": "1.2 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f6ba09b7-4117-5a7e-8c59-a19c8b8b8fc7",
+     "label": "MR079G_Campaign_1_BR_-2_Subject_2",
+     "type": "file",
+     "ext": "",
+     "file_size": 1254,
+     "meta": "1.2 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f61a5751-e226-554f-84c9-4ae22ff5bb7d",
+     "label": "MR079G_Campaign_1_BR_+2_Subject_1",
+     "type": "file",
+     "ext": "",
+     "file_size": 1278,
+     "meta": "1.2 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "90ee8f5d-8e0e-50a7-81b4-619fb7cc9ab6",
+     "label": "MR079G_Campaign_1_BR_-9_Subject_1",
+     "type": "file",
+     "ext": "",
+     "file_size": 1273,
+     "meta": "1.2 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a2f382a6-b47d-5ade-aa9d-fd0b6806c9a3",
+     "label": "MR079G_Campaign_1_BR_-9_Subject_3",
+     "type": "file",
+     "ext": "",
+     "file_size": 1389,
+     "meta": "1.4 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "16964d8c-b71e-5b77-84af-a8c08d6eb1f2",
+     "label": "MR079G_Campaign_1_BR_+1_Subject_3",
+     "type": "file",
+     "ext": "",
+     "file_size": 1495,
+     "meta": "1.5 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "12014b7c-e510-561b-ac4b-1c29e875a354",
+     "label": "MR079G_Campaign_1_BR_+1_Subject_1",
+     "type": "file",
+     "ext": "",
+     "file_size": 1278,
+     "meta": "1.2 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9ff14938-5de1-5602-a15c-80e18731c8c4",
+     "label": "MR079G_Campaign_1_All",
+     "type": "file",
+     "ext": "",
+     "file_size": 14870,
+     "meta": "14.5 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "31a42787-5b7c-53b8-9346-5e7fec3f5bd5",
+   "label": "MR079G_AG_DATASUM",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "MR079G AG DataSum Data",
+    "dataset_catalog": "MR079G_AG_DATASUM",
+    "dataset_description": "This dataset contains AG Data Sum tabular data for the Physical Fitness Evaluation: Isokinetic Muscle Function (Flight Analog) (MR079G) study.",
+    "processing_level": [
+     "Processed Data"
+    ],
+    "experiment_id": [
+     "MR079G"
+    ]
+   },
+   "meta": "36 files \u00b7 54.5 KB",
+   "date": "2026-03-24",
+   "children": [
+    {
+     "key": "94a938f8-7069-59f4-bac6-f976a2b26e7a",
+     "label": "MR079G_AG_DataSum_Post_7108",
+     "type": "file",
+     "ext": "",
+     "file_size": 1600,
+     "meta": "1.6 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "27a4a6e2-1961-5f4e-9e9d-7850ba2cd7a1",
+     "label": "MR079G_AG_DataSum_Post_8138",
+     "type": "file",
+     "ext": "",
+     "file_size": 1531,
+     "meta": "1.5 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6f3b79f7-bdfe-5856-907d-812ab5b10d9c",
+     "label": "MR079G_AG_DataSum_Post_BR+0_4011",
+     "type": "file",
+     "ext": "",
+     "file_size": 1638,
+     "meta": "1.6 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9afa96d7-ed2f-58f7-8ff9-b71483baaea9",
+     "label": "MR079G_AG_DataSum_Pre_1_9098",
+     "type": "file",
+     "ext": "",
+     "file_size": 1539,
+     "meta": "1.5 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "aa97b853-1ea7-5e83-87c6-94932bcff1ee",
+     "label": "MR079G_AG_DataSum_Pre_1_8920",
+     "type": "file",
+     "ext": "",
+     "file_size": 1530,
+     "meta": "1.5 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d5d7258b-da12-5557-a0bd-60874ebe8a5e",
+     "label": "MR079G_AG_DataSum_Post_7694",
+     "type": "file",
+     "ext": "",
+     "file_size": 1530,
+     "meta": "1.5 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "629700df-08dc-5de0-b4f0-e9b7d659f484",
+     "label": "MR079G_AG_DataSum_Pre_1_8168",
+     "type": "file",
+     "ext": "",
+     "file_size": 1529,
+     "meta": "1.5 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "82308eb4-176a-5ba4-a211-16a048c6b3ce",
+     "label": "MR079G_AG_DataSum_Pre_BR-3_4011",
+     "type": "file",
+     "ext": "",
+     "file_size": 1594,
+     "meta": "1.6 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f9946a4c-ac75-5cd3-a635-80b830cd20ca",
+     "label": "MR079G_AG_DataSum_Pre-2_7108",
+     "type": "file",
+     "ext": "",
+     "file_size": 1530,
+     "meta": "1.5 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "cb22d0c9-ce7e-54b5-9264-ad564c0bd979",
+     "label": "MR079G_AG_DataSum_Pre_1_8138",
+     "type": "file",
+     "ext": "",
+     "file_size": 1530,
+     "meta": "1.5 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c3d239cc-dc66-5648-bbd1-317068fc2102",
+     "label": "MR079G_AG_DataSum_Post_7218",
+     "type": "file",
+     "ext": "",
+     "file_size": 1531,
+     "meta": "1.5 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "08de1739-f0ed-50ed-bcb7-0c43aad0f5ad",
+     "label": "MR079G_AG_DataSum_Pre_BR-10_4011",
+     "type": "file",
+     "ext": "",
+     "file_size": 1605,
+     "meta": "1.6 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "78c028fd-50e1-522c-91ca-133505bfdd03",
+     "label": "MR079G_AG_DataSum_Pre_1_7330",
+     "type": "file",
+     "ext": "",
+     "file_size": 1540,
+     "meta": "1.5 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9d205e11-2f92-59f3-91a7-02e16cfbdf88",
+     "label": "MR079G_AG_DataSum_Pre_2_9997",
+     "type": "file",
+     "ext": "",
+     "file_size": 1519,
+     "meta": "1.5 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "da082060-a121-561a-aea0-dd77ef753ce8",
+     "label": "MR079G_AG_DataSum_Pre_1_7218",
+     "type": "file",
+     "ext": "",
+     "file_size": 1654,
+     "meta": "1.6 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8a0e0643-aa72-508f-b2f6-b14f7cd009e0",
+     "label": "MR079G_AG_DataSum_Post_9098",
+     "type": "file",
+     "ext": "",
+     "file_size": 1534,
+     "meta": "1.5 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "dcfce1a8-376e-591c-9c0c-04e2dd34b878",
+     "label": "MR079G_AG_DataSum_Post_6291",
+     "type": "file",
+     "ext": "",
+     "file_size": 1588,
+     "meta": "1.6 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6b0f7cf0-a40b-58aa-9d2d-be9cf2a84cff",
+     "label": "MR079G_AG_DataSum_Post_8920",
+     "type": "file",
+     "ext": "",
+     "file_size": 1584,
+     "meta": "1.5 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f4dc1a47-9ee2-5b4f-9899-b11e4410f6f2",
+     "label": "MR079G_AG_DataSum_Post_9203",
+     "type": "file",
+     "ext": "",
+     "file_size": 1530,
+     "meta": "1.5 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d3db5573-40ee-51ed-9217-3e4e70ff2692",
+     "label": "MR079G_AG_DataSum_Pre_2_9098",
+     "type": "file",
+     "ext": "",
+     "file_size": 1532,
+     "meta": "1.5 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ad4ce8e9-5ad5-5ba6-aca9-eed2778d14ce",
+     "label": "MR079G_AG_DataSum_Pre_2_9203",
+     "type": "file",
+     "ext": "",
+     "file_size": 1518,
+     "meta": "1.5 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a374ec06-2d21-5ca8-980c-78552a970711",
+     "label": "MR079G_AG_DataSum_Pre_1_9203",
+     "type": "file",
+     "ext": "",
+     "file_size": 1528,
+     "meta": "1.5 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7e13fbd7-44c6-5903-ae28-87f3e16abcc8",
+     "label": "MR079G_AG_DataSum_Pre_2_8138",
+     "type": "file",
+     "ext": "",
+     "file_size": 1510,
+     "meta": "1.5 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a4288394-c86a-5a2a-86d1-435530355577",
+     "label": "MR079G_AG_DataSum_Pre_1_7694",
+     "type": "file",
+     "ext": "",
+     "file_size": 1526,
+     "meta": "1.5 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "daeb6a84-0176-5709-b511-2182b4abe6c6",
+     "label": "MR079G_AG_DataSum_Post_9997",
+     "type": "file",
+     "ext": "",
+     "file_size": 1531,
+     "meta": "1.5 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "fbc29201-f631-5005-afc5-b5dad76874db",
+     "label": "MR079G_AG_DataSum_Pre_2_8168",
+     "type": "file",
+     "ext": "",
+     "file_size": 1518,
+     "meta": "1.5 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "699f8b2a-68c3-580c-b9e3-0436bcb45dee",
+     "label": "MR079G_AG_DataSum_Pre_2_6291",
+     "type": "file",
+     "ext": "",
+     "file_size": 1596,
+     "meta": "1.6 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "37b45fea-2165-5dac-b757-026df50ba53a",
+     "label": "MR079G_AG_DataSum_Pre_2_7694",
+     "type": "file",
+     "ext": "",
+     "file_size": 1504,
+     "meta": "1.5 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f7b09655-c91a-5721-89a6-272f7df2824f",
+     "label": "MR079G_AG_DataSum_Post_7330",
+     "type": "file",
+     "ext": "",
+     "file_size": 1540,
+     "meta": "1.5 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "08c52afd-b57c-537e-aa7e-00a1adcc03ab",
+     "label": "MR079G_AG_DataSum_Pre_2_8920",
+     "type": "file",
+     "ext": "",
+     "file_size": 1520,
+     "meta": "1.5 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6adbc5f4-3894-55bf-8e1e-6d4c5c4315cb",
+     "label": "MR079G_AG_DataSum_Post_8168",
+     "type": "file",
+     "ext": "",
+     "file_size": 1532,
+     "meta": "1.5 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "931b6abb-4bf6-5d24-9450-0561e6444b2a",
+     "label": "MR079G_AG_DataSum_Pre-1_7108",
+     "type": "file",
+     "ext": "",
+     "file_size": 1606,
+     "meta": "1.6 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "413637fb-ed05-5d8c-89c9-f00803f55ffd",
+     "label": "MR079G_AG_DataSum_Pre_2_7330",
+     "type": "file",
+     "ext": "",
+     "file_size": 1527,
+     "meta": "1.5 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2ad15d56-ec64-539c-9476-da47da528731",
+     "label": "MR079G_AG_DataSum_Pre_1_6291",
+     "type": "file",
+     "ext": "",
+     "file_size": 1607,
+     "meta": "1.6 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "862a8c3d-a8c4-5bf6-8050-2aa3131fb4f3",
+     "label": "MR079G_AG_DataSum_Pre_1_9997",
+     "type": "file",
+     "ext": "",
+     "file_size": 1531,
+     "meta": "1.5 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2bdfcc78-aa64-5a07-b5d0-b60d3212b6b1",
+     "label": "MR079G_AG_DataSum_Pre_2_7218",
+     "type": "file",
+     "ext": "",
+     "file_size": 1497,
+     "meta": "1.5 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "783959c7-8ef6-5109-9a64-1115fce43b59",
+   "label": "MR079G_AG_ANKLE",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "MR079G AG Ankle Data",
+    "dataset_catalog": "MR079G_AG_ANKLE",
+    "dataset_description": "This dataset contains AG Ankle tabular data for the Physical Fitness Evaluation: Isokinetic Muscle Function (Flight Analog) (MR079G) study.",
+    "processing_level": [
+     "Processed Data"
+    ],
+    "experiment_id": [
+     "MR079G"
+    ]
+   },
+   "meta": "48 files \u00b7 4.71 MB",
+   "date": "2026-03-24",
+   "children": [
+    {
+     "key": "2aea8aba-d2d1-5bc1-8d0c-60e3be1ac7f1",
+     "label": "MR079G_AG_ANKLE_2006-11-16_7330",
+     "type": "file",
+     "ext": "",
+     "file_size": 106293,
+     "meta": "103.8 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "68c71e13-4c62-5c67-98df-0410dc9e9a32",
+     "label": "MR079G_AG_ANKLE_2_2006-12-15_6291",
+     "type": "file",
+     "ext": "",
+     "file_size": 8376,
+     "meta": "8.2 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "76df14e5-91d2-529f-89e3-2b47a8fbe612",
+     "label": "MR079G_AG_ANKLE_1_2006-10-16_7330",
+     "type": "file",
+     "ext": "",
+     "file_size": 75333,
+     "meta": "73.6 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "62ae184c-af1e-5878-b0e5-d6779cf65e51",
+     "label": "MR079G_AG_ANKLE_2006-07-24_8138",
+     "type": "file",
+     "ext": "",
+     "file_size": 122355,
+     "meta": "119.5 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d20348e5-d4ed-5152-b8e3-728b06ae36bc",
+     "label": "MR079G_AG_ANKLE_1_2006-10-16_8168",
+     "type": "file",
+     "ext": "",
+     "file_size": 60510,
+     "meta": "59.1 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "86f5a74a-a724-5bbd-ad08-0fd106e7c51f",
+     "label": "MR079G_AG_ANKLE_2006-08-21_8920",
+     "type": "file",
+     "ext": "",
+     "file_size": 104923,
+     "meta": "102.5 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "dca36ca8-6599-55cf-b966-6f5075f7a149",
+     "label": "MR079G_AG_ANKLE_2006-12-14_9098",
+     "type": "file",
+     "ext": "",
+     "file_size": 114005,
+     "meta": "111.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7aa0f715-52e1-5a4c-80e8-ba133697fb90",
+     "label": "MR079G_AG_ANKLE_2_2006-10-02_8168",
+     "type": "file",
+     "ext": "",
+     "file_size": 67645,
+     "meta": "66.1 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "71aa364d-ca21-54d4-ba57-6a3433417b34",
+     "label": "MR079G_AG_ANKLE_2006-08-24_8138",
+     "type": "file",
+     "ext": "",
+     "file_size": 105909,
+     "meta": "103.4 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9f1e36ae-6105-5fda-b97c-5b50db635268",
+     "label": "MR079G_AG_ANKLE_2006-07-03_4011",
+     "type": "file",
+     "ext": "",
+     "file_size": 121746,
+     "meta": "118.9 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2d8adf39-e2eb-583f-9ef4-9f8a93d96b5b",
+     "label": "MR079G_AG_ANKLE_2006-02-13_6867",
+     "type": "file",
+     "ext": "",
+     "file_size": 157129,
+     "meta": "153.4 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5f46dfb6-7a14-514d-8bb9-0a00fe9d7dc0",
+     "label": "MR079G_AG_ANKLE_2006-06-26_7218",
+     "type": "file",
+     "ext": "",
+     "file_size": 126289,
+     "meta": "123.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5fe462fb-00fe-5dbb-8162-bf8e8a463ce6",
+     "label": "MR079G_AG_ANKLE_2_2006-06-15_9997",
+     "type": "file",
+     "ext": "",
+     "file_size": 13809,
+     "meta": "13.5 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c1b2ec70-17ca-55f9-93ac-dd175084a002",
+     "label": "MR079G_AG_ANKLE_2006-05-15_1392",
+     "type": "file",
+     "ext": "",
+     "file_size": 121730,
+     "meta": "118.9 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3155a022-4060-5ed0-a07c-bba16b23ed5d",
+     "label": "MR079G_AG_ANKLE_1_2006-10-23_7330",
+     "type": "file",
+     "ext": "",
+     "file_size": 110913,
+     "meta": "108.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "559b76a4-8f49-5fb4-9d1b-08a997997241",
+     "label": "MR079G_AG_ANKLE_2006-03-09_6867",
+     "type": "file",
+     "ext": "",
+     "file_size": 134622,
+     "meta": "131.5 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "be4ea207-3b4c-5d06-bc50-8a86b19fdbc8",
+     "label": "MR079G_AG_ANKLE_2006-11-21_6291",
+     "type": "file",
+     "ext": "",
+     "file_size": 112867,
+     "meta": "110.2 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f39daf8c-2eeb-593f-8aac-eea1c1dcc5ce",
+     "label": "MR079G_AG_ANKLE_2_2006-10-16_7330",
+     "type": "file",
+     "ext": "",
+     "file_size": 58844,
+     "meta": "57.5 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0f80ddf7-68b9-5bae-b1e4-adfe5b1d38dd",
+     "label": "MR079G_AG_ANKLE_2006-11-09_8168",
+     "type": "file",
+     "ext": "",
+     "file_size": 102590,
+     "meta": "100.2 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a32ef93f-5159-58c3-8c2a-aeb9401eda09",
+     "label": "MR079G_AG_ANKLE_2006-06-19_9203",
+     "type": "file",
+     "ext": "",
+     "file_size": 121812,
+     "meta": "119.0 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "fc153c8c-34a6-56b5-b7ed-e072cd9d1bd6",
+     "label": "MR079G_AG_ANKLE_1_2006-10-02_8168",
+     "type": "file",
+     "ext": "",
+     "file_size": 59271,
+     "meta": "57.9 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "06ab89e6-d1bc-573f-86f4-1c77bb649d16",
+     "label": "MR079G_AG_ANKLE_2006-06-26_9203",
+     "type": "file",
+     "ext": "",
+     "file_size": 124298,
+     "meta": "121.4 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e64c5a16-edf7-57ec-a2fc-f78cea0990f3",
+     "label": "MR079G_AG_ANKLE_2006-05-22_9997",
+     "type": "file",
+     "ext": "",
+     "file_size": 131191,
+     "meta": "128.1 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3574fcef-6964-5cb9-b8f2-f4f3014d1993",
+     "label": "MR079G_AG_ANKLE_1_2006-06-15_9997",
+     "type": "file",
+     "ext": "",
+     "file_size": 126332,
+     "meta": "123.4 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0201ebce-39bd-5025-b24c-2e474947c143",
+     "label": "MR079G_AG_ANKLE_1_2006-12-15_6291",
+     "type": "file",
+     "ext": "",
+     "file_size": 88820,
+     "meta": "86.7 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "045848f8-8bb5-55a8-a6ca-6fac8fc0f9cf",
+     "label": "MR079G_AG_ANKLE_2_2006-10-23_7330",
+     "type": "file",
+     "ext": "",
+     "file_size": 28986,
+     "meta": "28.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c6ba379b-afa0-5ddf-ac30-71b2605ffb72",
+     "label": "MR079G_AG_ANKLE_1_2006-06-05_7694",
+     "type": "file",
+     "ext": "",
+     "file_size": 60814,
+     "meta": "59.4 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ece4c24e-dcc6-5a31-ad37-d6f2a6479989",
+     "label": "MR079G_AG_ANKLE_2006-08-28_8920",
+     "type": "file",
+     "ext": "",
+     "file_size": 104293,
+     "meta": "101.8 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "400de9d8-0504-5326-8c07-b16d69432771",
+     "label": "MR079G_AG_ANKLE_2006-05-15_9997",
+     "type": "file",
+     "ext": "",
+     "file_size": 137015,
+     "meta": "133.8 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d11b099d-4aa7-5b28-a8c2-e6ff51b0e533",
+     "label": "MR079G_AG_ANKLE_2006-12-07_7108",
+     "type": "file",
+     "ext": "",
+     "file_size": 105451,
+     "meta": "103.0 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d7cb2301-b2f0-5f68-8fc8-404686414e30",
+     "label": "MR079G_AG_ANKLE_2006-09-21_8920",
+     "type": "file",
+     "ext": "",
+     "file_size": 111310,
+     "meta": "108.7 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f724b8f5-7efd-5fe1-a66a-3b3bb833c5cf",
+     "label": "MR079G_AG_ANKLE_2006-05-08_1392",
+     "type": "file",
+     "ext": "",
+     "file_size": 124583,
+     "meta": "121.7 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6972162a-6098-5173-966b-5b46536616e4",
+     "label": "MR079G_AG_ANKLE_2006-04-27_5695",
+     "type": "file",
+     "ext": "",
+     "file_size": 119117,
+     "meta": "116.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e6ba9839-6fb0-504f-9683-20d272d7ee83",
+     "label": "MR079G_AG_ANKLE_2006-02-06_6867",
+     "type": "file",
+     "ext": "",
+     "file_size": 136158,
+     "meta": "133.0 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "67a8ae45-4c95-5cd5-aa16-b9b10cb71cca",
+     "label": "MR079G_AG_ANKLE_2_2006-10-16_8168",
+     "type": "file",
+     "ext": "",
+     "file_size": 67952,
+     "meta": "66.4 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "374b814b-5c31-533a-9341-f92e8b124d20",
+     "label": "MR079G_AG_ANKLE_2_2006-06-05_7694",
+     "type": "file",
+     "ext": "",
+     "file_size": 54994,
+     "meta": "53.7 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b296e03e-b399-5c41-88f5-4bc93a762dd6",
+     "label": "MR079G_AG_ANKLE_2006-07-27_7218",
+     "type": "file",
+     "ext": "",
+     "file_size": 115528,
+     "meta": "112.8 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "eeb5a88e-1a02-510c-a546-ac3b547d96fb",
+     "label": "MR079G_AG_ANKLE_2006-11-14_6291",
+     "type": "file",
+     "ext": "",
+     "file_size": 109256,
+     "meta": "106.7 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4bd3df11-658f-503e-a9fa-bc1d7706fd73",
+     "label": "MR079G_AG_ANKLE_2006-07-20_9203",
+     "type": "file",
+     "ext": "",
+     "file_size": 125861,
+     "meta": "122.9 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "498de998-34ac-51ca-952b-33c860fd16b4",
+     "label": "MR079G_AG_ANKLE_2006-11-20_9098",
+     "type": "file",
+     "ext": "",
+     "file_size": 115211,
+     "meta": "112.5 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "adee08f5-e471-5810-80f2-45f7e785c4cc",
+     "label": "MR079G_AG_ANKLE_2006-03-27_5695",
+     "type": "file",
+     "ext": "",
+     "file_size": 126869,
+     "meta": "123.9 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7d49d4a9-a046-5302-b1ba-7107a20e1341",
+     "label": "MR079G_AG_ANKLE_2006-05-29_7694",
+     "type": "file",
+     "ext": "",
+     "file_size": 120287,
+     "meta": "117.5 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c1f67284-1e25-5e15-9fc8-53de7d0e4246",
+     "label": "MR079G_AG_ANKLE_2006-11-13_9098",
+     "type": "file",
+     "ext": "",
+     "file_size": 120554,
+     "meta": "117.7 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c58d0768-8d55-54fc-8b83-7bcb26a4d9d9",
+     "label": "MR079G_AG_ANKLE_2006-11-13_7108",
+     "type": "file",
+     "ext": "",
+     "file_size": 110206,
+     "meta": "107.6 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ff2c3c70-6a28-55a8-88b6-c8e575341cb7",
+     "label": "MR079G_AG_ANKLE_2006-11-06_7108",
+     "type": "file",
+     "ext": "",
+     "file_size": 114472,
+     "meta": "111.8 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d7a2cdeb-902b-5f2f-81f3-0690b9c632f4",
+     "label": "MR079G_AG_ANKLE_2006-04-03_5695",
+     "type": "file",
+     "ext": "",
+     "file_size": 125840,
+     "meta": "122.9 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5a3b4b1f-c665-5b46-91c9-7d9129630fe7",
+     "label": "MR079G_AG_ANKLE_2006-08-03_4011",
+     "type": "file",
+     "ext": "",
+     "file_size": 110786,
+     "meta": "108.2 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "35d71e2c-1403-5efa-a13d-30c68e1dcb01",
+     "label": "MR079G_AG_ANKLE_2006-07-31_8138",
+     "type": "file",
+     "ext": "",
+     "file_size": 111178,
+     "meta": "108.6 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "273b87ec-c813-5833-972a-d602f473d2ed",
+   "label": "MR079G_CFT70",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "MR079G CFT70 DATA",
+    "dataset_catalog": "MR079G_CFT70",
+    "dataset_description": "This dataset contains CFT70 tabular data for the Physical Fitness Evaluation: Isokinetic Muscle Function (Flight Analog) (MR079G) study.",
+    "processing_level": [
+     "Processed Data"
+    ],
+    "experiment_id": [
+     "MR079G"
+    ]
+   },
+   "meta": "9 files \u00b7 165.1 KB",
+   "date": "2026-03-24",
+   "children": [
+    {
+     "key": "a527c1d0-a689-5805-aab2-ab8594a496e3",
+     "label": "MR079G_CFT70_POST1_verifiers_ALL",
+     "type": "file",
+     "ext": "",
+     "file_size": 4175,
+     "meta": "4.1 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "06f1aa01-cda3-5120-8966-2519fe3f8076",
+     "label": "MR079G_CFT70_PRE2_verifiers_ALL",
+     "type": "file",
+     "ext": "",
+     "file_size": 4885,
+     "meta": "4.8 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "cddf0ba3-0b2d-59cf-af49-bced697e9c3e",
+     "label": "MR079G_CFT70_Demographics_ALL",
+     "type": "file",
+     "ext": "",
+     "file_size": 7281,
+     "meta": "7.1 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a1af0c5b-ddf4-5235-b5e4-5df8d45ed5f3",
+     "label": "MR079G_CFT70_POST2_verifiers_ALL",
+     "type": "file",
+     "ext": "",
+     "file_size": 4972,
+     "meta": "4.9 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "13e09fe4-3da3-54b4-b999-ee4aaf303f43",
+     "label": "MR079G_CFT70_PRE2_strength_ALL",
+     "type": "file",
+     "ext": "",
+     "file_size": 36124,
+     "meta": "35.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "610d93cd-e719-52db-b2b8-5b03919c60eb",
+     "label": "MR079G_CFT70_PRE1_strength_ALL",
+     "type": "file",
+     "ext": "",
+     "file_size": 39845,
+     "meta": "38.9 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "424e5957-ec87-5471-9e7d-40c6e36e3b44",
+     "label": "MR079G_CFT70_PRE1_verifiers_ALL",
+     "type": "file",
+     "ext": "",
+     "file_size": 5076,
+     "meta": "5.0 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "41494200-5ead-5393-a860-85695e11552d",
+     "label": "MR079G_CFT70_POST2_strength_ALL",
+     "type": "file",
+     "ext": "",
+     "file_size": 32846,
+     "meta": "32.1 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "059f6748-67fe-59d3-82db-a5a3b5bdad8b",
+     "label": "MR079G_CFT70_POST1_strength_ALL",
+     "type": "file",
+     "ext": "",
+     "file_size": 33841,
+     "meta": "33.0 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "5401cde7-b47c-5519-b655-178001e57ec0",
+   "label": "MR079G_MEDES_C1",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "MR079G MEDES Campaign 1",
+    "dataset_catalog": "MR079G_MEDES_C1",
+    "dataset_description": "This dataset contains MEDES Campaign 1 tabular data for the Physical Fitness Evaluation: Isokinetic Muscle Function (Flight Analog) (MR079G) study.",
+    "processing_level": [
+     "Processed Data"
+    ],
+    "experiment_id": [
+     "MR079G"
+    ]
+   },
+   "meta": "36 files \u00b7 46.6 KB",
+   "date": "2026-03-24",
+   "children": [
+    {
+     "key": "98d6f50e-335e-5ac5-a1f1-6e8a5109929c",
+     "label": "MR079_MEDES_C1_Data_Sum_050520_D1",
+     "type": "file",
+     "ext": "",
+     "file_size": 1340,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "de5c221f-1bba-5326-8740-27090ba58bae",
+     "label": "MR079_MEDES_C1_Data_Sum_050519_A1",
+     "type": "file",
+     "ext": "",
+     "file_size": 1339,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "18cce5cb-c685-58d4-8537-18155d439a93",
+     "label": "MR079_MEDES_C1_Data_Sum_050305_B1",
+     "type": "file",
+     "ext": "",
+     "file_size": 1331,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "94c7f389-ecea-5f61-a858-2ca95895e8c5",
+     "label": "MR079_MEDES_C1_Data_Sum_050306_C1",
+     "type": "file",
+     "ext": "",
+     "file_size": 1334,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2a0eddbf-639d-5594-8f27-1f4ec2ceaa8d",
+     "label": "MR079_MEDES_C1_Data_Sum_050228_J1",
+     "type": "file",
+     "ext": "",
+     "file_size": 1346,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6e481207-4059-5d21-9988-892a0f1070b3",
+     "label": "MR079_MEDES_C1_Data_Sum_050225_D1",
+     "type": "file",
+     "ext": "",
+     "file_size": 1331,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "cddc74f0-fad1-541c-a231-d773b907eba2",
+     "label": "MR079_MEDES_C1_Data_Sum_050308_H1",
+     "type": "file",
+     "ext": "",
+     "file_size": 1304,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7812002a-6fbf-57c1-8fd6-194c4bb3ce62",
+     "label": "MR079_MEDES_C1_Data_Sum_050521_F1",
+     "type": "file",
+     "ext": "",
+     "file_size": 1329,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "95972f63-f2f7-5c8e-a21f-143c3c13fafe",
+     "label": "MR079_MEDES_C1_Data_Sum_050305_A1",
+     "type": "file",
+     "ext": "",
+     "file_size": 1328,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0f0c4564-5d30-5873-a501-480a3027a177",
+     "label": "MR079_MEDES_C1_Data_Sum_050225_C1",
+     "type": "file",
+     "ext": "",
+     "file_size": 1345,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7b5ee3ab-bd3f-55f6-9f50-d70d5e7c59be",
+     "label": "MR079_MEDES_C1_Data_Sum_050307_F1",
+     "type": "file",
+     "ext": "",
+     "file_size": 1305,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d1fcd151-59a4-5f0d-82a8-eeedfd9f6ade",
+     "label": "MR079_MEDES_C1_Data_Sum_050227_G1",
+     "type": "file",
+     "ext": "",
+     "file_size": 1333,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "49e58a07-b6c3-5bbc-b9f9-e9b0964a373e",
+     "label": "MR079_MEDES_C1_Data_Sum_050523_J1",
+     "type": "file",
+     "ext": "",
+     "file_size": 1332,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c65b1aa1-a293-527b-9f48-78ea556018d1",
+     "label": "MR079_MEDES_C1_Data_Sum_050522_H1",
+     "type": "file",
+     "ext": "",
+     "file_size": 1332,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f2e8f414-b72e-58e2-93b7-a188aa1f2cca",
+     "label": "MR079_MEDES_C1_Data_Sum_050520_C1",
+     "type": "file",
+     "ext": "",
+     "file_size": 1344,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "922da52c-f94e-51f1-b0e5-d8840a622d1e",
+     "label": "MR079_MEDES_C1_Data_Sum_050521_E1",
+     "type": "file",
+     "ext": "",
+     "file_size": 1325,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d92dd1c0-6dbf-5917-bf19-1d7fa7fd27e0",
+     "label": "MR079_MEDES_C1_Data_Sum_050301_L1",
+     "type": "file",
+     "ext": "",
+     "file_size": 1325,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "89c83fd3-87a0-51b4-b4f9-f4128236e1d7",
+     "label": "MR079_MEDES_C1_Data_Sum_050224_B1",
+     "type": "file",
+     "ext": "",
+     "file_size": 1344,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b3e8037c-0c14-52f8-b1ce-b6b75be03942",
+     "label": "MR079_MEDES_C1_Data_Sum_050309_J1",
+     "type": "file",
+     "ext": "",
+     "file_size": 1308,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1fd94d99-99c4-5947-9742-07671869ef33",
+     "label": "MR079_MEDES_C1_Data_Sum_050301_K1",
+     "type": "file",
+     "ext": "",
+     "file_size": 1325,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0caa5cac-ad50-52ac-af49-49ee569e2a40",
+     "label": "MR079_MEDES_C1_Data_Sum_050227_H1",
+     "type": "file",
+     "ext": "",
+     "file_size": 1327,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "95ce282b-9c2b-54d5-9e97-ead63b8f1c5f",
+     "label": "MR079_MEDES_C1_Data_Sum_050310_K1",
+     "type": "file",
+     "ext": "",
+     "file_size": 1314,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a60babcf-89ed-55d6-aad2-62b1f9fed0ae",
+     "label": "MR079_MEDES_C1_Data_Sum_050309_I1",
+     "type": "file",
+     "ext": "",
+     "file_size": 1309,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2517d227-f93f-5616-9992-153b6191d9c0",
+     "label": "MR079_MEDES_C1_Data_Sum_050306_D1",
+     "type": "file",
+     "ext": "",
+     "file_size": 1303,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4b1b1dc7-4c5c-52f2-bfc7-4d746fcf0df4",
+     "label": "MR079_MEDES_C1_Data_Sum_050523_I1",
+     "type": "file",
+     "ext": "",
+     "file_size": 1330,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "028b0a7f-44e8-5cbc-ac6c-d7bfdf3edf8d",
+     "label": "MR079_MEDES_C1_Data_Sum_050224_A1",
+     "type": "file",
+     "ext": "",
+     "file_size": 1344,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6469046c-9464-54a6-86ad-dc7248407e31",
+     "label": "MR079_MEDES_C1_Data_Sum_050308_G1",
+     "type": "file",
+     "ext": "",
+     "file_size": 1306,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e39e71fb-082f-5063-9460-d90a1cb74237",
+     "label": "MR079_MEDES_C1_Data_Sum_050228_I1",
+     "type": "file",
+     "ext": "",
+     "file_size": 1331,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1f01e3ba-08fd-57d8-a0d0-e3a9f740c27d",
+     "label": "MR079_MEDES_C1_Data_Sum_050310_L1",
+     "type": "file",
+     "ext": "",
+     "file_size": 1311,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9796e996-d8d8-5934-82e0-1027a85947a2",
+     "label": "MR079_MEDES_C1_Data_Sum_050522_G1",
+     "type": "file",
+     "ext": "",
+     "file_size": 1327,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3743a557-7883-534e-882a-dd03a5c9c71b",
+     "label": "MR079_MEDES_C1_Data_Sum_050519_B1",
+     "type": "file",
+     "ext": "",
+     "file_size": 1343,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "825d96a8-e40c-594d-aca1-50513dd24720",
+     "label": "MR079_MEDES_C1_Data_Sum_050307_E1",
+     "type": "file",
+     "ext": "",
+     "file_size": 1308,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3ed74a93-a70b-5a63-aada-e1df70055a1b",
+     "label": "MR079_MEDES_C1_Data_Sum_050524_L1",
+     "type": "file",
+     "ext": "",
+     "file_size": 1323,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3eb6e078-f7fc-5824-9d16-60dea5447309",
+     "label": "MR079_MEDES_C1_Data_Sum_050226_F1",
+     "type": "file",
+     "ext": "",
+     "file_size": 1329,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9b9755c6-ca93-5b85-ae00-cbcf3be0a3da",
+     "label": "MR079_MEDES_C1_Data_Sum_050524_K1",
+     "type": "file",
+     "ext": "",
+     "file_size": 1323,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ce44db26-359c-5aa2-9b5f-08574162440d",
+     "label": "MR079_MEDES_C1_Data_Sum_050226_E1",
+     "type": "file",
+     "ext": "",
+     "file_size": 1333,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "def787af-1317-5172-bcc6-c257e129ef49",
+   "label": "MR079G_MEDES_C2",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "MR079G MEDES Campaign 2",
+    "dataset_catalog": "MR079G_MEDES_C2",
+    "dataset_description": "This dataset contains MEDES Campaign 2 tabular data for the Physical Fitness Evaluation: Isokinetic Muscle Function (Flight Analog) (MR079G) study.",
+    "processing_level": [
+     "Processed Data"
+    ],
+    "experiment_id": [
+     "MR079G"
+    ]
+   },
+   "meta": "36 files \u00b7 49.0 KB",
+   "date": "2026-03-24",
+   "children": [
+    {
+     "key": "28ad761c-b394-5d3e-9ed7-62a514961bef",
+     "label": "MR079_MEDES_C2_Data_Sum_050922_L2",
+     "type": "file",
+     "ext": "",
+     "file_size": 1416,
+     "meta": "1.4 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "aceaa2fc-05e6-5d0f-9a11-9f680a0a905f",
+     "label": "MR079_MEDES_C2_Data_Sum_050908_A2",
+     "type": "file",
+     "ext": "",
+     "file_size": 1341,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "924c36ce-994d-5332-8bc6-06f883fa4ab9",
+     "label": "MR079_MEDES_C2_Data_Sum_050917_A2",
+     "type": "file",
+     "ext": "",
+     "file_size": 1329,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a91c412f-be5b-50af-bfc8-553283ebb656",
+     "label": "MR079_MEDES_C2_Data_Sum_050909_C2",
+     "type": "file",
+     "ext": "",
+     "file_size": 1345,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "af8ff094-1137-5cff-8b09-d2ba96691135",
+     "label": "MR079_MEDES_C2_Data_Sum_051201_B2",
+     "type": "file",
+     "ext": "",
+     "file_size": 1339,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6b6a32c2-f4d6-5783-8a94-5e987f726ceb",
+     "label": "MR079_MEDES_C2_Data_Sum_051203_E2",
+     "type": "file",
+     "ext": "",
+     "file_size": 1422,
+     "meta": "1.4 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ef1f3a23-5475-5584-b6ec-04982b538d4a",
+     "label": "MR079_MEDES_C2_Data_Sum_050918_C2",
+     "type": "file",
+     "ext": "",
+     "file_size": 1333,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "02329e51-8c3c-5291-8e13-7ab6f26362ce",
+     "label": "MR079_MEDES_C2_Data_Sum_050921_I2",
+     "type": "file",
+     "ext": "",
+     "file_size": 1414,
+     "meta": "1.4 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f67fad80-e27a-52ef-b630-2e3511e2a43a",
+     "label": "MR079_MEDES_C2_Data_Sum_051206_L2",
+     "type": "file",
+     "ext": "",
+     "file_size": 1426,
+     "meta": "1.4 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6489e26a-b9d7-5b11-b61d-db0838aeffe0",
+     "label": "MR079_MEDES_C2_Data_Sum_051201_A2",
+     "type": "file",
+     "ext": "",
+     "file_size": 1342,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "985d5fbe-7fb1-5a88-9d68-e3688238fcbc",
+     "label": "MR079_MEDES_C2_Data_Sum_050922_K2",
+     "type": "file",
+     "ext": "",
+     "file_size": 1420,
+     "meta": "1.4 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4977a091-a5f2-5118-ab87-c1db46b60d4e",
+     "label": "MR079_MEDES_C2_Data_Sum_050921_J2",
+     "type": "file",
+     "ext": "",
+     "file_size": 1411,
+     "meta": "1.4 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9d39fa95-8f4e-53b3-80ef-56ffdb1f1a15",
+     "label": "MR079_MEDES_C2_Data_Sum_050910_E2",
+     "type": "file",
+     "ext": "",
+     "file_size": 1424,
+     "meta": "1.4 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9a8db457-e757-5a01-8dbf-786ae22faa6d",
+     "label": "MR079_MEDES_C2_Data_Sum_050908_B2",
+     "type": "file",
+     "ext": "",
+     "file_size": 1342,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "39b436d7-7dc2-5caf-bfd1-444684f18158",
+     "label": "MR079_MEDES_C2_Data_Sum_050913_K2",
+     "type": "file",
+     "ext": "",
+     "file_size": 1429,
+     "meta": "1.4 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6fa5945c-67e9-5e38-bae9-f3b521d3504c",
+     "label": "MR079_MEDES_C2_Data_Sum_050917_B2",
+     "type": "file",
+     "ext": "",
+     "file_size": 1327,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8425facf-94ce-546a-9e32-9c4c0b9dcd77",
+     "label": "MR079_MEDES_C2_Data_Sum_050919_F2",
+     "type": "file",
+     "ext": "",
+     "file_size": 1416,
+     "meta": "1.4 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "abb39097-da81-56c0-88a8-94aed10d4ecf",
+     "label": "MR079_MEDES_C2_Data_Sum_050912_I2",
+     "type": "file",
+     "ext": "",
+     "file_size": 1429,
+     "meta": "1.4 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5c787fb7-b6a4-59f3-9524-514bc21bd866",
+     "label": "MR079_MEDES_C2_Data_Sum_050920_G2",
+     "type": "file",
+     "ext": "",
+     "file_size": 1412,
+     "meta": "1.4 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "33eff4b7-f4be-5e39-842c-e3761ed2bae2",
+     "label": "MR079_MEDES_C2_Data_Sum_051202_D2",
+     "type": "file",
+     "ext": "",
+     "file_size": 1332,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9a69d361-5107-5963-ac22-c63e8c50dc82",
+     "label": "MR079_MEDES_C2_Data_Sum_0501202_C2",
+     "type": "file",
+     "ext": "",
+     "file_size": 1344,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7c5e25f7-5bdf-5353-a98f-bc31bdae6cfa",
+     "label": "MR079_MEDES_C2_Data_Sum_051204_H2",
+     "type": "file",
+     "ext": "",
+     "file_size": 1427,
+     "meta": "1.4 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a8350fd0-e69e-556f-a111-6fa8f1013d79",
+     "label": "MR079_MEDES_C2_Data_Sum_050919_E2",
+     "type": "file",
+     "ext": "",
+     "file_size": 1414,
+     "meta": "1.4 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a4dbc02d-2034-5745-a5c3-4b1b19f2fa94",
+     "label": "MR079_MEDES_C2_Data_Sum _050918_D2",
+     "type": "file",
+     "ext": "",
+     "file_size": 1320,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "028b7be4-903b-5ac3-a5e4-a78f3f1333af",
+     "label": "MR079_MEDES_C2_Data_Sum_050910_F2",
+     "type": "file",
+     "ext": "",
+     "file_size": 1429,
+     "meta": "1.4 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ca1e35e0-2f6a-5669-989b-6c75cc28e094",
+     "label": "MR079_MEDES_C2_Data_Sum_051205_J2",
+     "type": "file",
+     "ext": "",
+     "file_size": 1427,
+     "meta": "1.4 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7b7b7182-38aa-51a0-9d11-dcc28e28c383",
+     "label": "MR079_MEDES_C2_Data_Sum_050909_D2",
+     "type": "file",
+     "ext": "",
+     "file_size": 1345,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "93247677-6290-5ac7-b8c4-fb4298edfdff",
+     "label": "MR079_MEDES_C2_Data_Sum_050912_J2",
+     "type": "file",
+     "ext": "",
+     "file_size": 1424,
+     "meta": "1.4 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f36e9e1b-c7c0-5e06-8ccd-4174c0e44eb1",
+     "label": "MR079_MEDES_C2_Data_Sum_051203_F2",
+     "type": "file",
+     "ext": "",
+     "file_size": 1427,
+     "meta": "1.4 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9a1aaceb-3b89-58b1-a106-d1add9bdd029",
+     "label": "MR079_MEDES_C2_Data_Sum_050920_H2",
+     "type": "file",
+     "ext": "",
+     "file_size": 1418,
+     "meta": "1.4 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a21e852d-41e6-5c24-9147-3eb13c254605",
+     "label": "MR079_MEDES_C2_Data_Sum_050911_G2",
+     "type": "file",
+     "ext": "",
+     "file_size": 1426,
+     "meta": "1.4 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "51c95ef1-3fd3-5a7b-8ed6-7bde4edef7ea",
+     "label": "MR079_MEDES_C2_Data_Sum_050911_H2",
+     "type": "file",
+     "ext": "",
+     "file_size": 1425,
+     "meta": "1.4 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ad18919a-a262-5176-979c-04f85b5792d0",
+     "label": "MR079_MEDES_C2_Data_Sum_050913_L2",
+     "type": "file",
+     "ext": "",
+     "file_size": 1430,
+     "meta": "1.4 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e9ec9c36-8d3b-556a-b6fc-a375d6748d44",
+     "label": "MR079_MEDES_C2_Data_Sum_051205_I2",
+     "type": "file",
+     "ext": "",
+     "file_size": 1428,
+     "meta": "1.4 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9dd1b5de-0d7e-56c5-b1c0-fee87e7adc3e",
+     "label": "MR079_MEDES_C2_Data_Sum_051206_K2",
+     "type": "file",
+     "ext": "",
+     "file_size": 1425,
+     "meta": "1.4 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e2324ed7-67c3-5789-8d11-ccb6e9171cdb",
+     "label": "MR079_MEDES_C2_Data_Sum_051204_G2",
+     "type": "file",
+     "ext": "",
+     "file_size": 1426,
+     "meta": "1.4 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "b6fa9599-7e7e-52a0-ab74-4bb9372cc9f7",
+   "label": "MR079G_AG_KNEE",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "MR079G AG Knee Data",
+    "dataset_catalog": "MR079G_AG_KNEE",
+    "dataset_description": "This dataset contains AG Knee tabular data for the Physical Fitness Evaluation: Isokinetic Muscle Function (Flight Analog) (MR079G) study.",
+    "processing_level": [
+     "Processed Data"
+    ],
+    "experiment_id": [
+     "MR079G"
+    ]
+   },
+   "meta": "71 files \u00b7 6.99 MB",
+   "date": "2026-03-24",
+   "children": [
+    {
+     "key": "d09acf36-9b5d-5bbd-a1d3-eb2241cf2bb2",
+     "label": "MR079G_AG_Knee_2_2006-11-06_7108",
+     "type": "file",
+     "ext": "",
+     "file_size": 73527,
+     "meta": "71.8 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "097bb320-cf8d-5a12-873a-d789e6c7f4db",
+     "label": "MR079G_AG_Knee_2_2006-03-27_5695",
+     "type": "file",
+     "ext": "",
+     "file_size": 25100,
+     "meta": "24.5 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9fa0379d-4cba-5b49-85b5-59be6198c852",
+     "label": "MR079G_AG_Knee_1_2006-07-31_8138",
+     "type": "file",
+     "ext": "",
+     "file_size": 143301,
+     "meta": "139.9 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9aed96e3-7714-5a8a-b97f-d6c28f446c67",
+     "label": "MR079G_AG_Knee_2006-02-13_6867",
+     "type": "file",
+     "ext": "",
+     "file_size": 175297,
+     "meta": "171.2 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c5c31f87-8303-5390-a11d-156ce6a08972",
+     "label": "MR079G_AG_Knee_2006-05-08_1392",
+     "type": "file",
+     "ext": "",
+     "file_size": 175602,
+     "meta": "171.5 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "bcf80c10-8d8e-50f2-ad48-687ae1fc362a",
+     "label": "MR079G_AG_Knee_2006-10-23_7330",
+     "type": "file",
+     "ext": "",
+     "file_size": 152429,
+     "meta": "148.9 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "59cec2bd-060f-5c4e-8fd1-27c5f4c53338",
+     "label": "MR079G_AG_Knee_2006-08-21_8920",
+     "type": "file",
+     "ext": "",
+     "file_size": 146505,
+     "meta": "143.1 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "23fcd019-af80-51c6-9ed3-f359117cae13",
+     "label": "MR079G_AG_Knee_2_2006-10-16_7330",
+     "type": "file",
+     "ext": "",
+     "file_size": 78922,
+     "meta": "77.1 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9a2e6f9c-ab37-5026-9b9d-5fde5461efd5",
+     "label": "MR079G_AG_Knee_2_2006-11-13_7108",
+     "type": "file",
+     "ext": "",
+     "file_size": 77059,
+     "meta": "75.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0764ff44-3657-5746-89d3-631722503752",
+     "label": "MR079G_AG_Knee_1_2006-06-26_7218",
+     "type": "file",
+     "ext": "",
+     "file_size": 114649,
+     "meta": "112.0 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "34f8f1d2-f77b-582f-8e7f-82126d719ec0",
+     "label": "MR079G_AG_Knee_1_2006-10-16_7330",
+     "type": "file",
+     "ext": "",
+     "file_size": 86783,
+     "meta": "84.7 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5efc8684-c1bd-5c12-ab76-b08bdbff8e18",
+     "label": "MR079G_AG_Knee_2_2006-07-27_7218",
+     "type": "file",
+     "ext": "",
+     "file_size": 79907,
+     "meta": "78.0 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f34f6682-2830-5005-9cc9-f9428961569d",
+     "label": "MR079G_AG_Knee_3_2006-04-03_5695",
+     "type": "file",
+     "ext": "",
+     "file_size": 15824,
+     "meta": "15.5 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "75fbe04c-35a1-54dc-bf33-fe3fe40a261b",
+     "label": "MR079G_AG_Knee_2_2006-06-26_7218",
+     "type": "file",
+     "ext": "",
+     "file_size": 111614,
+     "meta": "109.0 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0e8c81c0-93db-5027-af7d-3f4537799eab",
+     "label": "MR079G_AG_Knee_2_2006-10-16_8168",
+     "type": "file",
+     "ext": "",
+     "file_size": 92079,
+     "meta": "89.9 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d287ba1c-f9d7-59da-b860-a21c5b34cdbc",
+     "label": "MR079G_AG_Knee_2_2006-08-24_8138",
+     "type": "file",
+     "ext": "",
+     "file_size": 22859,
+     "meta": "22.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2ff31f19-7f75-5c04-829f-7754ed1925e2",
+     "label": "MR079G_AG_Knee_1_2006-07-03_7218",
+     "type": "file",
+     "ext": "",
+     "file_size": 116385,
+     "meta": "113.7 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a0ee094b-4e0b-5fac-ab38-def1c47d0a6a",
+     "label": "MR079G_AG_Knee_2_2006-12-15_6291",
+     "type": "file",
+     "ext": "",
+     "file_size": 107198,
+     "meta": "104.7 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8a20765e-1a71-5abd-a14a-8d57073f5cea",
+     "label": "MR079G_AG_Knee_1_2006-10-16_8168",
+     "type": "file",
+     "ext": "",
+     "file_size": 93421,
+     "meta": "91.2 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2b250e61-1129-540d-a4b1-e3645a323d3c",
+     "label": "MR079G_AG_Knee_1_2006-07-24_8138",
+     "type": "file",
+     "ext": "",
+     "file_size": 91022,
+     "meta": "88.9 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a9ec31bf-bee6-58a1-96d3-dfc5296bc8dc",
+     "label": "MR079G_AG_Knee_2_2006-05-15_1392",
+     "type": "file",
+     "ext": "",
+     "file_size": 19137,
+     "meta": "18.7 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3c9fc115-c788-5cb2-9855-2bace1fb1cc3",
+     "label": "MR079G_AG_Knee_1_2006-11-21_6291",
+     "type": "file",
+     "ext": "",
+     "file_size": 109641,
+     "meta": "107.1 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "53a2e4cf-1043-532e-8ac2-5c0018068757",
+     "label": "MR079G_AG_Knee_2_2006-04-03_5695",
+     "type": "file",
+     "ext": "",
+     "file_size": 91045,
+     "meta": "88.9 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b0047e14-a34c-5b51-ad8f-2127936beab8",
+     "label": "MR079G_AG_Knee_2_2006-06-19_9203",
+     "type": "file",
+     "ext": "",
+     "file_size": 88902,
+     "meta": "86.8 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a317aadb-31a5-5f55-a682-a3d888166349",
+     "label": "MR079G_AG_Knee_1_2006-11-14_6291",
+     "type": "file",
+     "ext": "",
+     "file_size": 90031,
+     "meta": "87.9 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "56dcec2c-8ba3-5ee0-80f1-dc88b094be9b",
+     "label": "MR079G_AG_Knee_2006-11-13_9098",
+     "type": "file",
+     "ext": "",
+     "file_size": 142386,
+     "meta": "139.0 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e85b5045-d7af-57ee-a061-bdd2ff3b1950",
+     "label": "MR079G_AG_Knee_2006-05-29_7694",
+     "type": "file",
+     "ext": "",
+     "file_size": 192985,
+     "meta": "188.5 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ef9e712a-9957-5b7e-8501-36b8f0f91dd7",
+     "label": "MR079G_AG_Knee_1_2006-08-28_8920",
+     "type": "file",
+     "ext": "",
+     "file_size": 163402,
+     "meta": "159.6 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a79700aa-0367-5d5b-9a7a-c25a2278f812",
+     "label": "MR079G_AG_Knee_2006-11-20_9098",
+     "type": "file",
+     "ext": "",
+     "file_size": 140236,
+     "meta": "136.9 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d6629bb2-aa2b-5ea4-90bd-df18867fa13b",
+     "label": "MR079G_AG_Knee_2_2006-11-09_8168",
+     "type": "file",
+     "ext": "",
+     "file_size": 80343,
+     "meta": "78.5 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a68d6938-cbe3-5570-92b7-70f865a506ab",
+     "label": "MR079G_AG_Knee_2006-06-05_7694",
+     "type": "file",
+     "ext": "",
+     "file_size": 160234,
+     "meta": "156.5 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "11d8d3b0-d5b4-5e2d-9d65-bab0fe55012d",
+     "label": "MR079G_AG_Knee_3_2006-07-03_7218",
+     "type": "file",
+     "ext": "",
+     "file_size": 28168,
+     "meta": "27.5 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d4ed2109-87ad-5076-8065-e1230dbe95a5",
+     "label": "MR079G_AG_Knee_2006-06-26_9203",
+     "type": "file",
+     "ext": "",
+     "file_size": 165993,
+     "meta": "162.1 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "acdb9c48-b814-5e4a-bc51-c4b61d4c32c3",
+     "label": "MR079G_AG_Knee_2006-09-21_8920",
+     "type": "file",
+     "ext": "",
+     "file_size": 141051,
+     "meta": "137.7 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d7bc3e00-c30c-5fe7-aab1-ef70e187acec",
+     "label": "MR079G_AG_Knee_1_2006-07-27_7218",
+     "type": "file",
+     "ext": "",
+     "file_size": 101995,
+     "meta": "99.6 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "85bf38ef-7789-5e21-8dfa-be33ccee8572",
+     "label": "MR079G_AG_Knee_1_2006-06-15_9997",
+     "type": "file",
+     "ext": "",
+     "file_size": 112564,
+     "meta": "109.9 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d4880211-f0a2-58b0-a213-58524a267f01",
+     "label": "MR079G_AG_Knee_2006-07-20_9203",
+     "type": "file",
+     "ext": "",
+     "file_size": 160577,
+     "meta": "156.8 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "39ac50fc-9f9e-58c3-9252-1f23b496e272",
+     "label": "MR079G_AG_Knee_2_2006-06-15_9997",
+     "type": "file",
+     "ext": "",
+     "file_size": 94216,
+     "meta": "92.0 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b5358232-8d60-5fe6-b119-0d7b1b490a94",
+     "label": "MR079G_AG_Knee_1_2006-05-22_9997",
+     "type": "file",
+     "ext": "",
+     "file_size": 97499,
+     "meta": "95.2 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5f8eedc4-8a98-534e-a700-cc675b947679",
+     "label": "MR079G_AG_Knee_2_2006-07-10_4011",
+     "type": "file",
+     "ext": "",
+     "file_size": 12506,
+     "meta": "12.2 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "dff60591-b1ba-5fd9-967d-f0ea68de012a",
+     "label": "MR079G_AG_Knee_2_2006-11-21_6291",
+     "type": "file",
+     "ext": "",
+     "file_size": 66699,
+     "meta": "65.1 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "39a85232-ec69-52d2-87ac-018d6b0d49fc",
+     "label": "MR079G_AG_Knee_2006-05-15_9997",
+     "type": "file",
+     "ext": "",
+     "file_size": 169246,
+     "meta": "165.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "20389456-4783-5b15-a93c-1f2d6e1dc56b",
+     "label": "MR079G_AG_Knee_2006-06-08_1392",
+     "type": "file",
+     "ext": "",
+     "file_size": 146745,
+     "meta": "143.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "115674a9-b888-5b43-9cdc-7d185c73edb3",
+     "label": "MR079G_AG_Knee_1_2006-11-16_7330",
+     "type": "file",
+     "ext": "",
+     "file_size": 85594,
+     "meta": "83.6 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7a18231e-5ad0-5728-86f2-ea8d60d42c7b",
+     "label": "MR079G_AG_Knee_1_2006-12-07_7108",
+     "type": "file",
+     "ext": "",
+     "file_size": 85780,
+     "meta": "83.8 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5fde7574-4333-536a-95d4-c7b0b612c2b2",
+     "label": "MR079G_AG_Knee_1_2006-08-24_8138",
+     "type": "file",
+     "ext": "",
+     "file_size": 141536,
+     "meta": "138.2 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "405cf04d-cb92-56f1-8908-4fdcd9481e7f",
+     "label": "MR079G_AG_Knee_1_2006-04-03_5695",
+     "type": "file",
+     "ext": "",
+     "file_size": 95343,
+     "meta": "93.1 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "616d31f0-3b6b-56ff-8775-b5b1a1fbe0eb",
+     "label": "MR079G_AG_Knee_2006-03-27_5695",
+     "type": "file",
+     "ext": "",
+     "file_size": 134233,
+     "meta": "131.1 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3413a24b-6ddd-58da-a69d-6972b87207b1",
+     "label": "MR079G_AG_Knee_3_2006-11-21_6291",
+     "type": "file",
+     "ext": "",
+     "file_size": 26068,
+     "meta": "25.5 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "67bb4c5c-c868-530a-9c32-febcd4b13188",
+     "label": "MR079G_AG_Knee_2_2006-10-02_8168",
+     "type": "file",
+     "ext": "",
+     "file_size": 87556,
+     "meta": "85.5 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1b2cb96c-b98a-5f5d-aead-98e953491bec",
+     "label": "MR079G_AG_Knee_2_2006-08-28_8920",
+     "type": "file",
+     "ext": "",
+     "file_size": 11744,
+     "meta": "11.5 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ce25d5d4-b49b-57d7-a30e-654934efe52d",
+     "label": "MR079G_AG_Knee_2_2006-11-16_7330",
+     "type": "file",
+     "ext": "",
+     "file_size": 73007,
+     "meta": "71.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "894a44ea-cb4d-5e8d-9355-c2449db35474",
+     "label": "MR079G_AG_Knee_2_2006-07-24_8138",
+     "type": "file",
+     "ext": "",
+     "file_size": 92234,
+     "meta": "90.1 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e5382766-5ea1-549e-b180-b976d759be4c",
+     "label": "MR079G_AG_Knee_1_2006-11-09_8168",
+     "type": "file",
+     "ext": "",
+     "file_size": 101221,
+     "meta": "98.8 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "afa92f98-b5e9-536f-add5-b9739e220582",
+     "label": "MR079G_AG_Knee_1_2006-12-15_6291",
+     "type": "file",
+     "ext": "",
+     "file_size": 84481,
+     "meta": "82.5 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b603cebc-2f5b-59e0-8c06-35b20fc129d4",
+     "label": "MR079G_AG_Knee_1_2006-06-19_9203",
+     "type": "file",
+     "ext": "",
+     "file_size": 100471,
+     "meta": "98.1 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9a7baec8-08aa-5501-8528-e761cbf7407c",
+     "label": "MR079G_AG_Knee_2_2006-07-31_8138",
+     "type": "file",
+     "ext": "",
+     "file_size": 11362,
+     "meta": "11.1 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "78520994-b339-5344-8a21-a844d7737ac4",
+     "label": "MR079G_AG_Knee_3_2006-05-22_9997",
+     "type": "file",
+     "ext": "",
+     "file_size": 67229,
+     "meta": "65.7 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1a6ea29d-decf-534c-b8e9-b41e7070e181",
+     "label": "MR079G_AG_Knee_1_2006-11-06_7108",
+     "type": "file",
+     "ext": "",
+     "file_size": 88388,
+     "meta": "86.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "eb656650-357f-5443-86b9-fdf2543807c4",
+     "label": "MR079G_AG_Knee_2006-08-03_4011",
+     "type": "file",
+     "ext": "",
+     "file_size": 153607,
+     "meta": "150.0 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7ce4f569-c8cf-51dd-875e-2173361b8c29",
+     "label": "MR079G_AG_Knee_2_2006-05-22_9997",
+     "type": "file",
+     "ext": "",
+     "file_size": 45653,
+     "meta": "44.6 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "bd873e29-b3b5-5211-bca7-0dfbcbc75236",
+     "label": "MR079G_AG_Knee_2006-02-06_6867",
+     "type": "file",
+     "ext": "",
+     "file_size": 190460,
+     "meta": "186.0 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1743af47-feda-5f4a-aede-a71bf0bed92a",
+     "label": "MR079G_AG_Knee_1_2006-07-03_4011",
+     "type": "file",
+     "ext": "",
+     "file_size": 97643,
+     "meta": "95.4 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "67186866-8fea-5b3e-bd3c-92f45be8ada4",
+     "label": "MR079G_AG_Knee_2006-12-14_9098",
+     "type": "file",
+     "ext": "",
+     "file_size": 139673,
+     "meta": "136.4 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b71f204e-d197-5785-b6d3-4f5a46bd40fa",
+     "label": "MR079G_AG_Knee_2006-05-15_1392",
+     "type": "file",
+     "ext": "",
+     "file_size": 169032,
+     "meta": "165.1 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b59c8d60-0a42-5da6-86a4-337bfa747a97",
+     "label": "MR079G_AG_Knee_1_2006-11-13_7108",
+     "type": "file",
+     "ext": "",
+     "file_size": 88408,
+     "meta": "86.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b6f036f3-4548-5b39-a3bb-130e97d73e80",
+     "label": "MR079G_AG_Knee_2006-04-27_5695",
+     "type": "file",
+     "ext": "",
+     "file_size": 160447,
+     "meta": "156.7 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1c22e133-e20b-52b8-876e-65dcd1ea7832",
+     "label": "MR079G_AG_Knee_2_2006-11-14_6291",
+     "type": "file",
+     "ext": "",
+     "file_size": 97203,
+     "meta": "94.9 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "61b751a3-0f14-5c03-9e00-362f5d9b27de",
+     "label": "MR079G_AG_Knee_1_2006-10-02_8168",
+     "type": "file",
+     "ext": "",
+     "file_size": 87724,
+     "meta": "85.7 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "995c5f0f-a757-5905-8569-d942cc989a51",
+     "label": "MR079G_AG_Knee_2_2006-12-07_7108",
+     "type": "file",
+     "ext": "",
+     "file_size": 91703,
+     "meta": "89.6 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8c1d93ce-1cf3-52f1-8e74-a3472a2f5c08",
+     "label": "MR079G_AG_Knee_2006-03-09_6867",
+     "type": "file",
+     "ext": "",
+     "file_size": 168062,
+     "meta": "164.1 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "0dfd2185-49cf-567d-b744-d7177301e7ff",
+   "label": "MR079G_Campaign_11",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "MR079G Campaign 11 Data",
+    "dataset_catalog": "MR079G_Campaign_11",
+    "dataset_description": "This dataset contains Campaign 11 tabular data for the Physical Fitness Evaluation: Isokinetic Muscle Function (Flight Analog) (MR079G) study.",
+    "processing_level": [
+     "Processed Data"
+    ],
+    "experiment_id": [
+     "MR079G"
+    ]
+   },
+   "meta": "3 files \u00b7 18.3 KB",
+   "date": "2026-03-24",
+   "children": [
+    {
+     "key": "817cb3ac-29a7-5866-97af-07730375db8c",
+     "label": "MR079G_Campaign_11_April_2013_Exercise_Summary_MULTI",
+     "type": "file",
+     "ext": "",
+     "file_size": 2695,
+     "meta": "2.6 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d040d38b-fa6a-5250-9fd9-0f28dd1d3578",
+     "label": "MR079G_Campaign_11_April_2013_Control_Summary_MULTI",
+     "type": "file",
+     "ext": "",
+     "file_size": 2620,
+     "meta": "2.6 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4e1ea365-bf29-519c-9ac2-44743b181ac5",
+     "label": "MR079G_Campaign_11_April_2013_MULTI",
+     "type": "file",
+     "ext": "",
+     "file_size": 13376,
+     "meta": "13.1 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "9caccf84-b18b-5730-b0b7-6a9c412ec3e4",
+   "label": "MR079G_HDT30_DataSum",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "MR079G HDT30 Data Sum",
+    "dataset_catalog": "MR079G_HDT30_DataSum",
+    "dataset_description": "This dataset contains a collection of pre- and post bed rest muscle strength and endurance tabular data  in select muscle groups for the evaluation of in-bed rest countermeasures and post bed rest \nrehabilitation during Head Down Tilt 30 Day (HDT30) Physical Fitness Evaluation: Isokinetic Muscle Function (Flight Analog) (MR079G) study.",
+    "processing_level": [
+     "Processed Data"
+    ],
+    "experiment_id": [
+     "MR079G"
+    ]
+   },
+   "meta": "47 files \u00b7 61.0 KB",
+   "date": "2026-03-24",
+   "children": [
+    {
+     "key": "c280518f-e3be-55b0-834e-ed0ae3724f54",
+     "label": "MR079G_HDT30_Data_Sum_BR-6_6662",
+     "type": "file",
+     "ext": "",
+     "file_size": 1321,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4d2d1687-bc00-5b60-9bed-ed52d72c1522",
+     "label": "MR079G_HDT30_Data_Sum_BR+2_6314",
+     "type": "file",
+     "ext": "",
+     "file_size": 1335,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e22f3e8a-3c7f-5eba-87ca-f85afbc947fa",
+     "label": "MR079G_HDT30_Data_Sum_BR+2_6964",
+     "type": "file",
+     "ext": "",
+     "file_size": 1311,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9abd08c5-f055-5f40-8b30-052018239fc2",
+     "label": "MR079G_HDT30_Data_Sum_BR+12_8089",
+     "type": "file",
+     "ext": "",
+     "file_size": 1359,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "687d5f79-64d3-56ed-90ac-034f67debd56",
+     "label": "MR079G_HDT30_Data_Sum_BR-11_7132",
+     "type": "file",
+     "ext": "",
+     "file_size": 1335,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9f2f4d38-d82c-5f53-8d0d-192996f3f4bf",
+     "label": "MR079G_HDT30_Data_Sum_BR+2_7383",
+     "type": "file",
+     "ext": "",
+     "file_size": 1313,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "47d54a32-b12f-5a30-9cf7-084b1575abdb",
+     "label": "MR079G_HDT30_Data_Sum_BR-6_6964",
+     "type": "file",
+     "ext": "",
+     "file_size": 1311,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8f856451-3d98-5fe0-b399-0a0d9631f960",
+     "label": "MR079G_HDT30_Data_Sum_BR-11_5417",
+     "type": "file",
+     "ext": "",
+     "file_size": 1357,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7cbf355a-aa2b-5b80-9074-9e05d962e8c2",
+     "label": "MR079G_HDT30_Data_Sum_BR+12_6662",
+     "type": "file",
+     "ext": "",
+     "file_size": 1323,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c2fc8fd8-0f3e-544d-a29f-25c639049150",
+     "label": "MR079G_HDT30_Data_Sum_BR+2_8089",
+     "type": "file",
+     "ext": "",
+     "file_size": 1346,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a1592342-06a3-52fd-ac33-4a0696747e7c",
+     "label": "MR079G_HDT30_Data_Sum_BR-6_7685",
+     "type": "file",
+     "ext": "",
+     "file_size": 1312,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "44fb2adf-c32e-56e7-9009-39be3604c310",
+     "label": "MR079G_HDT30_Data_Sum_BR+2_6774",
+     "type": "file",
+     "ext": "",
+     "file_size": 1307,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c3a2ff10-fad7-5028-a976-4bb300bdaaa5",
+     "label": "MR079G_HDT30_Data_Sum_BR-11_9159",
+     "type": "file",
+     "ext": "",
+     "file_size": 1345,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "cba7fbe3-d66b-5285-b5d6-886887b3ef35",
+     "label": "MR079G_HDT30_Data_Sum_BR-6_5417",
+     "type": "file",
+     "ext": "",
+     "file_size": 1349,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3b78f9c3-0da4-5d7e-a704-a7968b0e0d78",
+     "label": "MR079G_HDT30_Data_Sum_BR+2_9420",
+     "type": "file",
+     "ext": "",
+     "file_size": 1309,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "aa1d1fff-7f13-54ef-9ac3-4b6ef8f2d5a4",
+     "label": "MR079G_HDT30_Data_Sum_BR-11_9420",
+     "type": "file",
+     "ext": "",
+     "file_size": 1297,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ea8ba07e-1ad6-551f-b1c3-e1199d4e5e8c",
+     "label": "MR079G_HDT30_Data_Sum_BR-6_9420",
+     "type": "file",
+     "ext": "",
+     "file_size": 1298,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "47e76634-290f-5843-897c-9702909d1f30",
+     "label": "MR079G_HDT30_Data_Sum_BR-11_6662",
+     "type": "file",
+     "ext": "",
+     "file_size": 1320,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d20fdc26-97e2-564f-9697-744f8ca45289",
+     "label": "MR079G_HDT30_Data_Sum_BR-11_7685",
+     "type": "file",
+     "ext": "",
+     "file_size": 1313,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a0cdc894-4726-5dad-be8d-b448974d0bee",
+     "label": "MR079G_HDT30_Data_Sum_BR-6_7132",
+     "type": "file",
+     "ext": "",
+     "file_size": 1335,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8429b93e-03f1-557a-8e5d-1605bd0c9ca1",
+     "label": "MR079G_HDT30_Data_Sum_BR-11_9379",
+     "type": "file",
+     "ext": "",
+     "file_size": 1337,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b8b63301-d924-5ed6-92f8-2911c64d7ba8",
+     "label": "MR079G_HDT30_Data_Sum_BR-11_6314",
+     "type": "file",
+     "ext": "",
+     "file_size": 1335,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4b0cdc49-8dd6-5482-b750-1fcdfcb9d502",
+     "label": "MR079G_HDT30_Data_Sum_BR-6_9159",
+     "type": "file",
+     "ext": "",
+     "file_size": 1332,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d6ea9a65-6a8d-55d4-91f6-bee2f705c77a",
+     "label": "MR079G_HDT30_Data_Sum_BR+2_9379",
+     "type": "file",
+     "ext": "",
+     "file_size": 1346,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "12039c06-4fa1-57f7-8ac6-da819d974c8f",
+     "label": "MR079G_HDT30_Data_Sum_BR+2_7685",
+     "type": "file",
+     "ext": "",
+     "file_size": 1311,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1b7c90f2-0f02-54c3-8321-ab7450d8b368",
+     "label": "MR079G_HDT30_Data_Sum_BR+12_6314",
+     "type": "file",
+     "ext": "",
+     "file_size": 1349,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "67699d9b-9701-51db-876a-9e1f989002bf",
+     "label": "MR079G_HDT30_Data_Sum_BR-11_6774",
+     "type": "file",
+     "ext": "",
+     "file_size": 1307,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "34666b3a-c78b-5582-8b16-0742e7dc230a",
+     "label": "MR079G_HDT30_Data_Sum_BR+12_7685",
+     "type": "file",
+     "ext": "",
+     "file_size": 1323,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "204bf762-807e-5b74-9f9f-04fc3dd1b4c8",
+     "label": "MR079G_HDT30_Data_Sum_BR+12_5417",
+     "type": "file",
+     "ext": "",
+     "file_size": 1370,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "39d1203b-fd9d-5a76-9f27-c69aff7e555d",
+     "label": "MR079G_HDT30_Data_Sum_BR-11_6964",
+     "type": "file",
+     "ext": "",
+     "file_size": 1322,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "23b3ea33-41fc-584d-adc3-cef21f5bb403",
+     "label": "MR079G_HDT30_Data_Sum_BR+12_6774",
+     "type": "file",
+     "ext": "",
+     "file_size": 1319,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "45dc3cfa-539f-5e34-97c3-aab0adcf1820",
+     "label": "MR079G_HDT30_Data_Sum_BR-6_6774",
+     "type": "file",
+     "ext": "",
+     "file_size": 1284,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d86f7e4a-ef7c-5f19-a402-f575ca432079",
+     "label": "MR079G_HDT30_Data_Sum_BR+12_9420",
+     "type": "file",
+     "ext": "",
+     "file_size": 1321,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0cd50b82-0f63-5163-ad08-de15d87e2764",
+     "label": "MR079G_HDT30_Data_Sum_BR-6_7383",
+     "type": "file",
+     "ext": "",
+     "file_size": 1302,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "591a62c3-a9d6-5872-bae7-b22098a667d7",
+     "label": "MR079G_HDT30_Data_Sum_BR+12_9159",
+     "type": "file",
+     "ext": "",
+     "file_size": 1348,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e31bb3fb-d6c5-5c77-99ca-eacedd9709be",
+     "label": "MR079G_HDT30_Data_Sum_BR-11_7383",
+     "type": "file",
+     "ext": "",
+     "file_size": 1313,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8c6b1e2a-ea44-5dd1-8dc7-eebac29f4564",
+     "label": "MR079G_HDT30_Data_Sum_BR-6_8089",
+     "type": "file",
+     "ext": "",
+     "file_size": 1325,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7bd5f374-6c8d-5096-989d-c2924f704a95",
+     "label": "MR079G_HDT30_Data_Sum_BR+2_7132",
+     "type": "file",
+     "ext": "",
+     "file_size": 1342,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b46bd86e-3621-5b95-a17f-0a662af0a718",
+     "label": "MR079G_HDT30_Data_Sum_BR+12_9379",
+     "type": "file",
+     "ext": "",
+     "file_size": 1359,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0aee18f9-254f-56cf-ba71-131a71e4979d",
+     "label": "MR079G_HDT30_Data_Sum_BR+12_6964",
+     "type": "file",
+     "ext": "",
+     "file_size": 1310,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "391f292a-5311-545e-acca-1bb31961fe00",
+     "label": "MR079G_HDT30_Data_Sum_BR-11_8089",
+     "type": "file",
+     "ext": "",
+     "file_size": 1347,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "214a1f4c-87c4-5f48-af96-15415bcfc154",
+     "label": "MR079G_HDT30_Data_Sum_BR-6_6314",
+     "type": "file",
+     "ext": "",
+     "file_size": 1323,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "70362358-dc85-5a2b-82a5-6b760e5d4d33",
+     "label": "MR079G_HDT30_Data_Sum_BR+12_7132",
+     "type": "file",
+     "ext": "",
+     "file_size": 1357,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f91382a4-4ea7-5b3a-ba39-586728978183",
+     "label": "MR079G_HDT30_Data_Sum_BR+2_9159",
+     "type": "file",
+     "ext": "",
+     "file_size": 1346,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "596af9df-186b-5059-8ce3-418d849b2eca",
+     "label": "MR079G_HDT30_Data_Sum_BR-6_9379",
+     "type": "file",
+     "ext": "",
+     "file_size": 1337,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ca6522eb-8399-50f8-b0fc-062a8810095e",
+     "label": "MR079G_HDT30_Data_Sum_BR+2_6662",
+     "type": "file",
+     "ext": "",
+     "file_size": 1297,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b3785eff-47c5-5423-9147-72238ed6f78d",
+     "label": "MR079G_HDT30_Data_Sum_BR+2_5417",
+     "type": "file",
+     "ext": "",
+     "file_size": 1360,
+     "meta": "1.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "0a7c0081-319e-567c-81ff-6134a5ae49e3",
+   "label": "MR079G_Campaign_17_Isokinetic_DataSum",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "MR079G Campaign 17 Isokinetic DataSum",
+    "dataset_catalog": "MR079G_Campaign_17_Isokinetic_DataSum",
+    "dataset_description": "This dataset contains Campaign 17 Isokinetic Data Sum tabular data for the Physical Fitness Evaluation: Isokinetic Muscle Function (Flight Analog) (MR079G) study.",
+    "processing_level": [
+     "Processed Data"
+    ],
+    "experiment_id": [
+     "MR079G"
+    ]
+   },
+   "meta": "3 files \u00b7 15.8 KB",
+   "date": "2026-03-24",
+   "children": [
+    {
+     "key": "c8c5572c-d2ef-55e3-8c79-ac99b31deade",
+     "label": "MR079G_Campaign_17_Isokinetic_DataSum_BR-12_ALL",
+     "type": "file",
+     "ext": "",
+     "file_size": 4360,
+     "meta": "4.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "59c3409c-bb3d-5641-9f72-5f3d972b1a6f",
+     "label": "MR079G_Campaign_17_Isokinetic_DataSum_Parameter_Reference_ALL",
+     "type": "file",
+     "ext": "",
+     "file_size": 7754,
+     "meta": "7.6 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9754781a-83e8-5cb2-b7ce-8f24006dcc4b",
+     "label": "MR079G_Campaign_17_Isokinetic_DataSum_BR+6_ALL",
+     "type": "file",
+     "ext": "",
+     "file_size": 4095,
+     "meta": "4.0 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

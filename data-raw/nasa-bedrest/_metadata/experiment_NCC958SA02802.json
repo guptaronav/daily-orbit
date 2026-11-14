@@ -1,0 +1,428 @@
+{
+ "record": {
+  "id": "e76e94d1-500e-56e2-88e6-36ec83bd0239",
+  "_id": "e76e94d1-500e-56e2-88e6-36ec83bd0239",
+  "__is_locked": false,
+  "experiment_title": "Bed Rest as a Spaceflight Analog to Study Neurocognitive Changes: Extent, Longevity, and Neural Bases",
+  "experiment_alias": "Neural Bases",
+  "__source_key": "cl62awnd6ccqg01o6aqkl6v3n",
+  "experiment_type": [
+   [
+    "Flight Analogs Project (FAP)"
+   ],
+   [
+    "NASA Bedrest Studies"
+   ]
+  ],
+  "AssignedArchivist": [
+   "None Selected",
+   "Liddell, Nyaia A."
+  ],
+  "keyword": [
+   "Magnetic resonance imaging (MRI)",
+   "Behavior",
+   "Brain",
+   "Motor activity",
+   "Bed rest",
+   "Locomotion",
+   "Posture",
+   "Psychomotor performance",
+   "Weightlessness",
+   "Task performance and analysis"
+  ],
+  "__record_version": 31,
+  "hrr_task_title": "Bed Rest as a Spaceflight Analog to Study Neurocognitive Changes: Extent, Longevity, and Neural Bases (Seidler)",
+  "experiment_description": "<div>OBJECTIVES :<br>\nThe objective of this experiment was to determine the effects of an analog of long-duration space flight on neural structural alterations and assess associated impacts on cognitive and behavioral performance. This experiment&nbsp;performed structural and functional MRI brain imaging (fMRI) to identify the relationship between changes in participants' neurocognitive function and neural structural alterations following 70 days of head-down tilt bed rest. The<span> central hypotheses were that measures of brain structure, function, and network integrity would change from pre- to post- bed rest to a greater extent than that observed in matched control subjects, but to a lesser extent than what was observed in crewmembers under the <span>NASA funded flight study, \u201cSpaceflight Effects on Neurocognitive Performance: Extent, Longevity, and Neural Bases\u201d (<span>NNX11AR02G)</span>. </span></span></div><div>This study had the following two specific aims:</div><div>1: <span>Identify changes in brain structure, function, and network integrity as a function of 70 days head down tilt bed rest and characterize their time course.</span></div><div>\n2: <span>Specify relationships between structural and functional brain changes and performance and characterize their time course.</span>\n</div><div>\n<br></div><div>APPROACH:</div><div>Specific Aim 1</div><div><span>The investigators acquired brain structural and functional images at two time points pre-, two time points during, and three time points post- bed rest in 18 individuals and 16 controls who were tested at&nbsp;4 time points but otherwise went around their daily lives.&nbsp;The researchers&nbsp;hypothesized that bed rest participants would exhibit changes from pre- to post- the intervention that were significantly greater than those seen in control participants across the same time period. Scans conducted during and following bed rest characterized the time course of changes and recovery. </span></div><div><span>Specific Aim 2</span></div><div><span><span>The investigators administered a broad ranging battery of sensory, motor, and cognitive assessments <span>at the time points described for Aim 1</span>.&nbsp;The researchers&nbsp;hypothesized that bed rest participants would exhibit pre- to post-intervention decrements in sensorimotor performance. Additionally, for some measures and time points, the researchers expected that there might be no performance effects despite alterations in brain structure and function due to compensatory brain processes, which would be identifiable with neuroimaging approaches. The measures acquired can be categorized into behavioral assessments and brain imaging assessments. The behavioral tests measured outside of the scanner included: card and cube rotation tests of spatial working memory, digit symbol substitution test of processing speed, rod and frame test of visual bias, pegboard test of bimanual coordination, sensory organization test of vestibular-mediated balance, functional mobility test of obstacle course navigation, and vestibular evoked myogenic potential to assess vestibular function. </span></span></div><div><span><span><span>The neuroimaging tests of brain structure and function included: structural MRI to measure regional brain volumes and relative gray matter density, diffusion weighted scans (often referred to as DTI) to measure structural connectivity integrity, resting state functional MRI to measure functional connectivity integrity, and functional MRI to measure brain networks engaged during the performance of various tasks. The latter tasks included: imaging of the functional vestibular cortex, brain regions engaged during single and dual tasking of cognitive and motor behaviors, brain regions engaged during adaptation of pointing movements to perturbed visual feedback, and brain regions engaged for spatial working memory and foot tapping. </span></span></span></div>\n<div>\nRESULTS :</div><div><span>The investigators found robust changes with bed rest in balance and functional mobility, replicating other studies that have previously reported sensorimotor declines.&nbsp;They also observed changes in brain gray matter volume, functional connectivity, and task based activation that were specific to the time period of the bed rest intervention, many of which were associated with the magnitude of behavioral change. Some metrics exhibited complete recovery by&nbsp;the last time point 12 days post bed rest, while others were trending towards recovery but had not yet returned to baseline levels. </span><br>\n</div><div><br></div><div></div>",
+  "indexed": "2026-08-23T04:24:43.408628+00:00",
+  "proposal_date": "08/01/2012",
+  "GUID": "cl62awnd6ccqg01o6aqkl6v3n",
+  "_file_extension": "human",
+  "archive_status": "Data preservation is complete. All datasets are privacy-protected. Data is available via data request.",
+  "__model_type": "lsda_experiment",
+  "__dirid": "e76e94d1-500e-56e2-88e6-36ec83bd0239",
+  "__record_size_wo_doccontent": 104048,
+  "__update_method": "Update CDM",
+  "experiment_identifier": [
+   "NCC958SA02802",
+   "Neural Bases"
+  ],
+  "CompleteArchivalExpectedInFiscalYear": [
+   "0"
+  ],
+  "experiment_type_lk": [
+   "Flight Analogs Project (FAP)",
+   "NASA Bedrest Studies"
+  ],
+  "__record_modified_date": "2026-08-23T04:24:43.408628+00:00",
+  "proposal_source": "2011 Crew Health NNJ11ZSA002NA",
+  "nasa_center": "JSC",
+  "__indexed": "2026-08-23T04:24:43.408628+00:00",
+  "alias": [
+   "Neural Bases"
+  ],
+  "__record_creation_date": "2022-07-28T19:50:20.027Z",
+  "__record_size": 104048,
+  "__model_version": 60,
+  "species_sci_name": [
+   [
+    "Homo sapiens"
+   ]
+  ],
+  "payload_id": [
+   "CFT70"
+  ],
+  "CombinedSpecies": [
+   "Human (Homo sapiens)"
+  ],
+  "agency": [
+   "National Space Biomedical Research Institute (NSBRI)"
+  ],
+  "ncindex": 3,
+  "researchIndex": [
+   1
+  ],
+  "experiment_id": "NCC958SA02802",
+  "experiment_related": [
+   "NeuroMapping"
+  ],
+  "center": "NASA JSC",
+  "parameter_name": [
+   "Balance performance",
+   "Behavior",
+   "Bimanual coordination",
+   "Brain volume",
+   "Cognition",
+   "Gray matter",
+   "Hand motor function",
+   "Posture and locomotor control",
+   "Processing speed",
+   "Spatial working memory capacity",
+   "Vestibular function",
+   "Brain, structural and functional changes",
+   "Task performance",
+   "Vestibular evoked myogenic potentials (VEMP)"
+  ],
+  "exp_index": 2033,
+  "research_area": [
+   "Behavior and performance"
+  ],
+  "species": [
+   [
+    "Human"
+   ]
+  ],
+  "pme_role_with_name": [
+   "Co-Investigator: Wood, Scott J.",
+   "Principal Investigator: Seidler, Rachael D.",
+   "Co-Investigator: Mulavara, Ajitkumar P.",
+   "Co-Investigator: Bloomberg, Jacob J."
+  ],
+  "missions": [
+   "UTMB Campaign 11"
+  ],
+  "PI": [
+   "Seidler, Rachael D."
+  ],
+  "sort": [
+   3,
+   "2bcdf9fa-37d1-5aa0-982f-894ccf28449d"
+  ],
+  "pub_document_number": "PUB003220",
+  "parameter_html": "<table><tr><td>Balance performance</td></tr><tr><td>Behavior</td></tr><tr><td>Bimanual coordination</td></tr><tr><td>Brain volume</td></tr><tr><td>Cognition</td></tr><tr><td>Gray matter</td></tr><tr><td>Hand motor function</td></tr><tr><td>Posture and locomotor control</td></tr><tr><td>Processing speed</td></tr><tr><td>Spatial working memory capacity</td></tr><tr><td>Vestibular function</td></tr><tr><td>Brain, structural and functional changes</td></tr><tr><td>Task performance</td></tr><tr><td>Vestibular evoked myogenic potentials (VEMP)</td></tr><tr></tr></table>",
+  "program_name": [
+   "Ground"
+  ],
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Seidler, Rachael D.\">Principal Investigator: Seidler, Rachael D.</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Wood, Scott J.\">Co-Investigator: Wood, Scott J.</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Mulavara, Ajitkumar P.\">Co-Investigator: Mulavara, Ajitkumar P.</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Bloomberg, Jacob J.\">Co-Investigator: Bloomberg, Jacob J.</a>",
+  "image_name": [
+   "Functional Mobility Test Obstacle Course",
+   "MRI Machine",
+   "Purdue Pegboard Test"
+  ],
+  "keyword_name": "Magnetic resonance imaging (MRI)",
+  "Program": "Ground",
+  "archive_status_index": 4,
+  "mission_id": [
+   [
+    [
+     "UTMB Campaign 11"
+    ]
+   ]
+  ],
+  "LaunchYear": 2011,
+  "PrincipalInvestigator": [
+   "Seidler, Rachael D."
+  ],
+  "payload_part": "N/A",
+  "LaunchDate": [
+   "05/11/2011"
+  ],
+  "__source_field_concat": "human PUB003220 2011 Crew Health NNJ11ZSA002NA cl62awnd6ccqg01o6aqkl6v3n NASA JSC JSC Magnetic resonance imaging (MRI) Neural Bases N/A NCC958SA02802 Ground Data preservation is complete.  All datasets are publicly available.",
+  "__icon_type": "",
+  "__description": "<div>OBJECTIVES :<br>\nThe objective of this experiment was to determine the effects of an analog of long-duration space flight on neural structural alterations and assess associated impacts on cognitive and behavioral performance. This experiment&nbsp;performed structural and functional MRI brain imaging (fMRI) to identify the relationship between changes in participants' neurocognitive function and neural structural alterations following 70 days of head-down tilt bed rest. The<span> central hypotheses were that measures of brain structure, function, and network integrity would change from pre- to post- bed rest to a greater extent than that observed in matched control subjects, but to a lesser extent than what was observed in crewmembers under the <span>NASA funded flight study, \u201cSpaceflight Effects on Neurocognitive Performance: Extent, Longevity, and Neural Bases\u201d (<span>NNX11AR02G)</span>. </span></span></div><div>This study had the following two specific aims:</div><div>1: <span>Identify changes in brain structure, function, and network integrity as a function of 70 days head down tilt bed rest and characterize their time course.</span></div><div>\n2: <span>Specify relationships between structural and functional brain changes and performance and characterize their time course.</span>\n</div><div>\n<br></div><div>APPROACH:</div><div>Specific Aim 1</div><div><span>The investigators acquired brain structural and functional images at two time points pre-, two time points during, and three time points post- bed rest in 18 individuals and 16 controls who were tested at&nbsp;4 time points but otherwise went around their daily lives.&nbsp;The researchers&nbsp;hypothesized that bed rest participants would exhibit changes from pre- to post- the intervention that were significantly greater than those seen in control participants across the same time period. Scans conducted during and following bed rest characterized the time course of changes and recovery. </span></div><div><span>Specific Aim 2</span></div><div><span><span>The investigators administered a broad ranging battery of sensory, motor, and cognitive assessments <span>at the time points described for Aim 1</span>.&nbsp;The researchers&nbsp;hypothesized that bed rest participants would exhibit pre- to post-intervention decrements in sensorimotor performance. Additionally, for some measures and time points, the researchers expected that there might be no performance effects despite alterations in brain structure and function due to compensatory brain processes, which would be identifiable with neuroimaging approaches. The measures acquired can be categorized into behavioral assessments and brain imaging assessments. The behavioral tests measured outside of the scanner included: card and cube rotation tests of spatial working memory, digit symbol substitution test of processing speed, rod and frame test of visual bias, pegboard test of bimanual coordination, sensory organization test of vestibular-mediated balance, functional mobility test of obstacle course navigation, and vestibular evoked myogenic potential to assess vestibular function. </span></span></div><div><span><span><span>The neuroimaging tests of brain structure and function included: structural MRI to measure regional brain volumes and relative gray matter density, diffusion weighted scans (often referred to as DTI) to measure structural connectivity integrity, resting state functional MRI to measure functional connectivity integrity, and functional MRI to measure brain networks engaged during the performance of various tasks. The latter tasks included: imaging of the functional vestibular cortex, brain regions engaged during single and dual tasking of cognitive and motor behaviors, brain regions engaged during adaptation of pointing movements to perturbed visual feedback, and brain regions engaged for spatial working memory and foot tapping. </span></span></span></div>\n<div>\nRESULTS :</div><div><span>The investigators found robust changes with bed rest in balance and functional mobility, replicating other studies that have previously reported sensorimotor declines.&nbsp;They also observed changes in brain gray matter volume, functional connectivity, and task based activation that were specific to the time period of the bed rest intervention, many of which were associated with the magnitude of behavioral change. Some metrics exhibited complete recovery by&nbsp;the last time point 12 days post bed rest, while others were trending towards recovery but had not yet returned to baseline levels. </span><br>\n</div><div><br></div><div></div>",
+  "__doi": "10.83263/qs2r-t591",
+  "__doi_record_creation_date": "2026-08-23T04:24:43",
+  "__doi_record_modified_date": "2026-08-23T04:24:43"
+ },
+ "datasets": [
+  {
+   "key": "be900283-2290-583b-939d-55b7dd9a2aa6",
+   "label": "NCC958SA02802_CFT70",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "NCC958SA02802 CFT70 DATA",
+    "dataset_catalog": "NCC958SA02802_CFT70",
+    "dataset_description": "This dataset contains CFT70 tabular data for the Bed Rest as a Spaceflight Analog to Study Neurocognitive Changes: Extent, Longevity, and Neural Bases study.",
+    "processing_level": [
+     "Processed Data"
+    ],
+    "experiment_id": [
+     "NCC958SA02802"
+    ]
+   },
+   "meta": "24 files \u00b7 295.1 KB",
+   "date": "2026-03-24",
+   "children": [
+    {
+     "key": "1d0cbfa5-730f-588e-a73d-92333ff3979f",
+     "label": "NCC958SA02802_CFT70_SOT5EQ",
+     "type": "file",
+     "ext": "",
+     "file_size": 12779,
+     "meta": "12.5 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "adca68ff-3406-549e-bcf3-7121ef9e7f9e",
+     "label": "NCC958SA02802_CFT70_CardRotationCompletionTime",
+     "type": "file",
+     "ext": "",
+     "file_size": 5213,
+     "meta": "5.1 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "059b538e-cfab-5b94-99d4-b10ffbf456de",
+     "label": "NCC958SA02802_CFT70_Digit_Symbol_Number_Correct_summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 2328,
+     "meta": "2.3 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "29536ea8-0c27-51c4-9034-0d2787a0d4de",
+     "label": "NCC958SA02802_CFT70_RodAndFrameFrameEffect",
+     "type": "file",
+     "ext": "",
+     "file_size": 5333,
+     "meta": "5.2 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "abfb3fd4-43bb-5dbe-af71-f37881a21792",
+     "label": "NCC958SA02802_CFT70_Digit_Symbol_Completion",
+     "type": "file",
+     "ext": "",
+     "file_size": 5347,
+     "meta": "5.2 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "fae0a603-84af-5080-85aa-f5d82c7b5957",
+     "label": "NCC958SA02802_CFT70_Digit_Symbol_Percent_Correct_summary",
+     "type": "file",
+     "ext": "",
+     "file_size": 2510,
+     "meta": "2.5 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c0fa9750-d949-506c-985e-12a3fe0640a4",
+     "label": "NCC958SA02802_CFT70_CardRotationNumberCorrect",
+     "type": "file",
+     "ext": "",
+     "file_size": 4872,
+     "meta": "4.8 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "005cbcb1-184a-5b64-9c53-f63b3acfd51c",
+     "label": "NCC958SA02802_CFT70_BimanualPegboardCompletionTime",
+     "type": "file",
+     "ext": "",
+     "file_size": 5222,
+     "meta": "5.1 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4a6ac33f-61e4-5ebf-8911-ac3c5c73f824",
+     "label": "NCC958SA02802_CFT70_Digit_Symbol_Number_Correct_obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 5011,
+     "meta": "4.9 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "474f0199-9359-50d4-b10a-3f97555eabc9",
+     "label": "NCC958SA02802_CFT70_FMT_Total_Completion_Time",
+     "type": "file",
+     "ext": "",
+     "file_size": 47306,
+     "meta": "46.2 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d77601e2-199d-5974-9ae7-412a5658be0d",
+     "label": "NCC958SA02802_CFT70_FMT_Total_Completion_Time_Second_Half",
+     "type": "file",
+     "ext": "",
+     "file_size": 46969,
+     "meta": "45.9 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e594b771-103a-510a-bd71-b1bc830fa3e7",
+     "label": "NCC958SA02802_CFT70_SOT5HeadMovementEQ",
+     "type": "file",
+     "ext": "",
+     "file_size": 11284,
+     "meta": "11.0 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "af318c24-065c-583c-b527-220eca625013",
+     "label": "NCC958SA02802_CFT70_CountNumberCorrect",
+     "type": "file",
+     "ext": "",
+     "file_size": 4772,
+     "meta": "4.7 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c1ec9214-b607-5e9f-b2ef-a7ae0ce5a704",
+     "label": "NCC958SA02802_CFT70_CardRotationItemsCompleted",
+     "type": "file",
+     "ext": "",
+     "file_size": 4872,
+     "meta": "4.8 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "66131202-6c3b-5438-9363-0b8eb0374c2c",
+     "label": "NCC958SA02802_CFT70_CubeRotationNumberCorrect",
+     "type": "file",
+     "ext": "",
+     "file_size": 4870,
+     "meta": "4.8 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "469813c7-e077-52db-ad21-8b2ecab45cd7",
+     "label": "NCC958SA02802_CFT70_ReadMe",
+     "type": "file",
+     "ext": "",
+     "file_size": 48283,
+     "meta": "47.2 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "eebbd4ea-b180-5ee0-ad43-0e2c74069805",
+     "label": "NCC958SA02802_CFT70_Digit_Symbol_Percent_Correct_obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 5236,
+     "meta": "5.1 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4ddba2c4-b2a4-58b7-b0f0-ba3fe1d8928e",
+     "label": "NCC958SA02802_CFT70_ActualBedRestTestDay",
+     "type": "file",
+     "ext": "",
+     "file_size": 5967,
+     "meta": "5.8 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "21c9449a-dcc2-507b-8f62-b9bcd69f4ad4",
+     "label": "NCC958SA02802_CFT70_CountDualCorrect",
+     "type": "file",
+     "ext": "",
+     "file_size": 4772,
+     "meta": "4.7 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c2f8dbdb-5b24-5544-a346-4e058f43ca0d",
+     "label": "NCC958SA02802_CFT70_CubeRotationResponseTime",
+     "type": "file",
+     "ext": "",
+     "file_size": 5575,
+     "meta": "5.4 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b070a26e-5203-55c0-8ea9-fd56dc974edc",
+     "label": "NCC958SA02802_CFT70_FMT_Total_Completion_Time_First_Half",
+     "type": "file",
+     "ext": "",
+     "file_size": 47090,
+     "meta": "46.0 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5bdf9162-0c3c-5930-b5f5-1074ddef8b53",
+     "label": "NCC958SA02802_CFT70_DualTaskingTappingResponseTime",
+     "type": "file",
+     "ext": "",
+     "file_size": 5728,
+     "meta": "5.6 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9c5a02ab-195f-56eb-a35b-b023903c3316",
+     "label": "NCC958SA02802_CFT70_TappingResponseTime",
+     "type": "file",
+     "ext": "",
+     "file_size": 5634,
+     "meta": "5.5 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "bdace177-77c3-57ed-b451-3bea5ab6b744",
+     "label": "NCC958SA02802_CFT70_CubeRotationPercentCorrect",
+     "type": "file",
+     "ext": "",
+     "file_size": 5236,
+     "meta": "5.1 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

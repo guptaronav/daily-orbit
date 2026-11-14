@@ -1,0 +1,676 @@
+{
+ "record": {
+  "id": "99479246-dbfe-5e92-bb6b-8ff96457a0b5",
+  "_id": "99479246-dbfe-5e92-bb6b-8ff96457a0b5",
+  "__is_locked": false,
+  "experiment_title": "Bed Rest Standard Measures: Functional Stretch Reflex",
+  "__source_key": "cl62azr40cdgv01o6cx591339",
+  "experiment_type": [
+   [
+    "Flight Analogs Project (FAP)"
+   ],
+   [
+    "Artificial Gravity (Fractional Gravity)"
+   ],
+   [
+    "NASA Bedrest Studies"
+   ],
+   [
+    "NASA Ground-Based Investigations"
+   ]
+  ],
+  "AssignedArchivist": [
+   "Liddell, Nyaia A."
+  ],
+  "keyword": [
+   "Electromyography",
+   "Tendons",
+   "Reflex",
+   "Reflex, stretch"
+  ],
+  "__record_version": 33,
+  "indexed": "2026-08-23T03:54:23.491525+00:00",
+  "GUID": "cl62azr40cdgv01o6cx591339",
+  "_file_extension": "human",
+  "archive_status": "Data preservation is complete.  All datasets are publicly available.",
+  "__model_type": "lsda_experiment",
+  "__dirid": "99479246-dbfe-5e92-bb6b-8ff96457a0b5",
+  "__record_size_wo_doccontent": 43869,
+  "__update_method": "Update CDM",
+  "experiment_identifier": [
+   "BRSMFSR"
+  ],
+  "CompleteArchivalExpectedInFiscalYear": [
+   "0"
+  ],
+  "experiment_type_lk": [
+   "Flight Analogs Project (FAP)",
+   "Artificial Gravity (Fractional Gravity)",
+   "NASA Bedrest Studies",
+   "NASA Ground-Based Investigations"
+  ],
+  "__record_modified_date": "2026-08-23T03:54:23.491525+00:00",
+  "nasa_center": "JSC",
+  "__indexed": "2026-08-23T03:54:23.491525+00:00",
+  "__record_creation_date": "2022-07-28T19:59:11.204Z",
+  "__record_size": 43869,
+  "species_strain": [
+   [
+    "N/A"
+   ]
+  ],
+  "__model_version": 60,
+  "species_sci_name": [
+   [
+    "Homo sapiens"
+   ]
+  ],
+  "payload_id": [
+   "Campaign 5",
+   "Pilot",
+   "Campaign 3",
+   "Campaign 1"
+  ],
+  "CombinedSpecies": [
+   "Human (Homo sapiens) N/A"
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "ncindex": 2,
+  "researchIndex": [
+   1088
+  ],
+  "experiment_id": "BRSMFSR",
+  "experiment_related": [
+   "BRSMTReflex"
+  ],
+  "parameter_name": [
+   "Amplitude",
+   "Amplitude power",
+   "Anatomical zero",
+   "Drive configuration",
+   "Electromyography amplifier",
+   "Fifty percent amplitude",
+   "Fifty percent latency",
+   "Functional stretch reflex amplitude",
+   "Functional stretch reflex latency",
+   "Functional stretch reflex torque",
+   "Height",
+   "L5 to C1 measurement",
+   "L5 to tibia measurment",
+   "Muscle",
+   "Oscillations",
+   "Out acceleration latency",
+   "Out acceleration peak",
+   "Out velocity latency",
+   "Out velocity peak",
+   "Peak amplitude",
+   "Peak latency",
+   "Power amplifier",
+   "Power amplitude",
+   "Propagation latency",
+   "S1 to Inter measurment",
+   "S1 to soleus measurement",
+   "Start amplitude",
+   "Start latency",
+   "Weight",
+   "Peak amplitude, average",
+   "Peak latency, average",
+   "Motor behavior",
+   "Motor torque, latency",
+   "Motor torque, peak",
+   "Motor velocity, latency",
+   "Motor velocity, peak",
+   "Root mean square (RMS)",
+   "S1 to C1 measurement",
+   "S1 to gastrocnemius measurement",
+   "Position, starting"
+  ],
+  "exp_index": 1115,
+  "research_area": [
+   "Neuroscience"
+  ],
+  "species": [
+   [
+    "Human"
+   ]
+  ],
+  "pme_role_with_name": [
+   "Technical Assistant to Principal Investigator: Cerisano, Jody",
+   "Principal Investigator: Reschke, Millard F.",
+   "Technical Assistant to Principal Investigator: Somers, Jeffery"
+  ],
+  "missions": [
+   "UTMB Campaign 5",
+   "Pilot",
+   "UTMB Campaign 3",
+   "UTMB Campaign 1"
+  ],
+  "PI": [
+   "Reschke, Millard F."
+  ],
+  "sort": [
+   3,
+   "911a7856-b282-5ebe-a68b-3493b10e7988"
+  ],
+  "Program": "Ground",
+  "parameter_html": "<table><tr><td>Amplitude</td></tr><tr><td>Amplitude power</td></tr><tr><td>Anatomical zero</td></tr><tr><td>Drive configuration</td></tr><tr><td>Electromyography amplifier</td></tr><tr><td>Fifty percent amplitude</td></tr><tr><td>Fifty percent latency</td></tr><tr><td>Functional stretch reflex amplitude</td></tr><tr><td>Functional stretch reflex latency</td></tr><tr><td>Functional stretch reflex torque</td></tr><tr><td>Height</td></tr><tr><td>L5 to C1 measurement</td></tr><tr><td>L5 to tibia measurment</td></tr><tr><td>Muscle</td></tr><tr><td>Oscillations</td></tr><tr><td>Out acceleration latency</td></tr><tr><td>Out acceleration peak</td></tr><tr><td>Out velocity latency</td></tr><tr><td>Out velocity peak</td></tr><tr><td>Peak amplitude</td></tr><tr><td>Peak latency</td></tr><tr><td>Power amplifier</td></tr><tr><td>Power amplitude</td></tr><tr><td>Propagation latency</td></tr><tr><td>S1 to Inter measurment</td></tr><tr><td>S1 to soleus measurement</td></tr><tr><td>Start amplitude</td></tr><tr><td>Start latency</td></tr><tr><td>Weight</td></tr><tr><td>Peak amplitude, average</td></tr><tr><td>Peak latency, average</td></tr><tr><td>Motor behavior</td></tr><tr><td>Motor torque, latency</td></tr><tr><td>Motor torque, peak</td></tr><tr><td>Motor velocity, latency</td></tr><tr><td>Motor velocity, peak</td></tr><tr><td>Root mean square (RMS)</td></tr><tr><td>S1 to C1 measurement</td></tr><tr><td>S1 to gastrocnemius measurement</td></tr><tr><td>Position, starting</td></tr><tr></tr></table>",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Reschke, Millard F.\">Principal Investigator: Reschke, Millard F.</a>",
+  "PrincipalInvestigator": [
+   "Reschke, Millard F."
+  ],
+  "mission_id": [
+   "UTMB Campaign 5",
+   "Pilot",
+   "UTMB Campaign 3",
+   "UTMB Campaign 1"
+  ],
+  "__source_field_concat": "human cl62azr40cdgv01o6cx591339 JSC Bed Rest Standard Measures: Functional Stretch Reflex BRSMFSR Ground Data preservation is complete.  All datasets are publicly available.",
+  "__icon_type": "",
+  "__description": "",
+  "__doi": "10.83263/mwn3-tw13",
+  "__doi_record_creation_date": "2026-08-23T03:54:23",
+  "__doi_record_modified_date": "2026-08-23T03:54:23"
+ },
+ "datasets": [
+  {
+   "key": "a262eff6-b992-5ee2-90c6-8511a647fba7",
+   "label": "BRSMFSR_Campaign_3_Functional_Stretch_Reflex",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "UTMB Bedrest Campaign 3 Functional Stretch Reflex",
+    "dataset_catalog": "BRSMFSR_Campaign_3_Functional_Stretch_Reflex",
+    "dataset_description": "This dataset contains a collection of the FSR data resulting from the Bed Rest Standard Measure Functional Stretch Reflex (BRSMFSR) collected during the Campaign 3 Bed Rest Study. The Analyzed Data contains analyzed excel files of the reports for each subject who completed the pre/in/post FSR session.",
+    "processing_level": [
+     "Processed Data"
+    ],
+    "experiment_id": [
+     "BRSMFSR"
+    ]
+   },
+   "meta": "20 files \u00b7 5.99 MB",
+   "date": "2025-09-19",
+   "children": [
+    {
+     "key": "6c59ba47-b657-5063-b8e6-e69583064762",
+     "label": "BRSMFSR_Campaign_3_Functional_Stretch_Reflex_C3B_3768",
+     "type": "file",
+     "ext": "",
+     "file_size": 174608,
+     "meta": "170.5 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b5ace4da-949e-5100-93a7-974d5b9a72f0",
+     "label": "BRSMFSR_Campaign_3_Functional_Stretch_Reflex_C3D_8779_Avg",
+     "type": "file",
+     "ext": "",
+     "file_size": 145246,
+     "meta": "141.8 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b66c13cb-1921-5898-bf6f-7a1147dcfafb",
+     "label": "BRSMFSR_Campaign_3_Functional_Stretch_Reflex_C3E_8715_Avg",
+     "type": "file",
+     "ext": "",
+     "file_size": 474221,
+     "meta": "463.1 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5c52ae0c-d37c-5bad-9b7d-eb9ebcd9134e",
+     "label": "BRSMFSR_Campaign_3_Functional_Stretch_Reflex_C3A_0224",
+     "type": "file",
+     "ext": "",
+     "file_size": 226189,
+     "meta": "220.9 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "155b918c-9dd9-5993-9f66-608884645178",
+     "label": "BRSMFSR_Campaign_3_Functional_Stretch_Reflex_C3B_4023",
+     "type": "file",
+     "ext": "",
+     "file_size": 175309,
+     "meta": "171.2 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8b0cf862-12ac-5418-9676-da4a6d5695b9",
+     "label": "BRSMFSR_Campaign_3_Functional_Stretch_Reflex_C3E_6607_Avg",
+     "type": "file",
+     "ext": "",
+     "file_size": 305789,
+     "meta": "298.6 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "34d42229-8f26-55f9-a2c6-2258b967a931",
+     "label": "BRSMFSR_Campaign_3_Functional_Stretch_Reflex_C3D_8881_Avg",
+     "type": "file",
+     "ext": "",
+     "file_size": 435622,
+     "meta": "425.4 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9a2855c7-eede-504c-955f-6aaeadccb68e",
+     "label": "BRSMFSR_Campaign_3_Functional_Stretch_Reflex_C3A_5788",
+     "type": "file",
+     "ext": "",
+     "file_size": 228554,
+     "meta": "223.2 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "fcebe9bf-c74e-516a-9b64-144e3dce88b7",
+     "label": "BRSMFSR_Campaign_3_Functional_Stretch_Reflex_C3B_7127",
+     "type": "file",
+     "ext": "",
+     "file_size": 157252,
+     "meta": "153.6 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "bd413a3a-632a-5cff-a935-3f70b442dc44",
+     "label": "BRSMFSR_Campaign_3_Functional_Stretch_Reflex_C3D_7984_Avg",
+     "type": "file",
+     "ext": "",
+     "file_size": 129802,
+     "meta": "126.8 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a3d8395b-f965-56f3-90ad-f0a2ecb90a79",
+     "label": "BRSMFSR_Campaign_3_Functional_Stretch_Reflex_C3B_6345",
+     "type": "file",
+     "ext": "",
+     "file_size": 173482,
+     "meta": "169.4 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "62e3d9d7-bebc-515e-8b27-dea89adb9999",
+     "label": "BRSMFSR_Campaign_3_Functional_Stretch_Reflex_C3E_6043_Avg",
+     "type": "file",
+     "ext": "",
+     "file_size": 487150,
+     "meta": "475.7 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "45ee29ce-575d-5566-9f83-6258db3cf7e9",
+     "label": "BRSMFSR_Campaign_3_Functional_Stretch_Reflex_C3D_5165_Avg",
+     "type": "file",
+     "ext": "",
+     "file_size": 481718,
+     "meta": "470.4 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "57bd2dd6-cc4f-572c-a357-eb896209bb6c",
+     "label": "BRSMFSR_Campaign_3_Functional_Stretch_Reflex_C3D_3985_Avg",
+     "type": "file",
+     "ext": "",
+     "file_size": 131885,
+     "meta": "128.8 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a134c904-27e4-593f-8435-ea65f1cd45aa",
+     "label": "BRSMFSR_Campaign_3_Functional_Stretch_Reflex_C3C_7352",
+     "type": "file",
+     "ext": "",
+     "file_size": 690204,
+     "meta": "674.0 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "bdf735c3-fb0a-556a-9340-b779593495ef",
+     "label": "BRSMFSR_Campaign_3_Functional_Stretch_Reflex_C3D_8615_Avg",
+     "type": "file",
+     "ext": "",
+     "file_size": 428769,
+     "meta": "418.7 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "56d0cf86-4870-54e3-8a94-a6a0b0e8f403",
+     "label": "BRSMFSR_Campaign_3_Functional_Stretch_Reflex_C3C_7772",
+     "type": "file",
+     "ext": "",
+     "file_size": 648424,
+     "meta": "633.2 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a1bdfc73-7d2f-55ba-b3ba-329d1ca3f117",
+     "label": "BRSMFSR_Campaign_3_Functional_Stretch_Reflex_C3A_0992",
+     "type": "file",
+     "ext": "",
+     "file_size": 228833,
+     "meta": "223.5 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "080dc20c-6ed3-595e-ad66-3dae43d90144",
+     "label": "BRSMFSR_Campaign_3_Functional_Stretch_Reflex_C3D_7961_Avg",
+     "type": "file",
+     "ext": "",
+     "file_size": 130260,
+     "meta": "127.2 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ce276629-91db-5fb0-b537-d577f656c6ab",
+     "label": "BRSMFSR_Campaign_3_Functional_Stretch_Reflex_C3E_5394_Avg",
+     "type": "file",
+     "ext": "",
+     "file_size": 431744,
+     "meta": "421.6 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "21ddc7bf-3cee-52c3-9420-bd15063c6eda",
+   "label": "BRSMFSR_Campaign_1_Functional_Stretch_Reflex",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "UTMB Bedrest Campaign 1 Functional Stretch Reflex",
+    "dataset_catalog": "BRSMFSR_Campaign_1_Functional_Stretch_Reflex",
+    "dataset_description": "This dataset contains a collection of the FSR data resulting from the Bed Rest Standard Measure Functional Stretch Reflex (BRSMFSR) collected during the Campaign 1 Bed Rest Study. The Analyzed Data folder contains analyzed excel files of the reports for each subject who completed the pre/in/post FSR session.",
+    "processing_level": "Processed Data",
+    "experiment_id": [
+     "BRSMFSR"
+    ]
+   },
+   "meta": "5 files \u00b7 629.3 KB",
+   "date": "2025-04-15",
+   "children": [
+    {
+     "key": "c31ddaed-0bfb-5627-ac1a-b535ea8a3644",
+     "label": "BRSMFSR_Campaign_1_Functional_Stretch_Reflex_FSR_Subject_3",
+     "type": "file",
+     "ext": "",
+     "file_size": 114029,
+     "meta": "111.4 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "80d2e5d7-dfaf-5dea-932e-9db4a4505c2b",
+     "label": "BRSMFSR_Campaign_1_Functional_Stretch_Reflex_FSR_Subject_1",
+     "type": "file",
+     "ext": "",
+     "file_size": 99521,
+     "meta": "97.2 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6c11ca2f-42b4-5e37-bbab-3ae2ad24a3ad",
+     "label": "BRSMFSR_Campaign_1_Functional_Stretch_Reflex_FSR_Subject_2",
+     "type": "file",
+     "ext": "",
+     "file_size": 108363,
+     "meta": "105.8 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0e55b52e-2073-585c-8d07-ba640519b433",
+     "label": "BRSMFSR_Campaign_1_Functional_Stretch_Reflex_FSR_All",
+     "type": "file",
+     "ext": "",
+     "file_size": 321472,
+     "meta": "313.9 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a42b53b0-b78d-57f7-893d-423c0701abdf",
+     "label": "BRSMFSR_Campaign_1_Functional_Stretch_Reflex_ReadMe",
+     "type": "file",
+     "ext": "",
+     "file_size": 1047,
+     "meta": "1.0 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "4580d9bb-0c7c-55a0-985b-adedf8f4e9ec",
+   "label": "BRSMFSR_Campaign_3_Monosynaptic_Reflex",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "UTMB Bedrest Campaign 3 Monosynaptic Reflex",
+    "dataset_catalog": "BRSMFSR_Campaign_3_Monosynaptic_Reflex",
+    "dataset_description": "This dataset contains a collection of the MSR data resulting from the Bed Rest Standard Measure Functional Stretch Reflex (BRSMFSR) Monosynaptic Reflex collected during the Campaign 3 Bed Rest Study. The Analyzed Data contains tabular data files of the reports for each subject who completed the pre/in/post FSR session.",
+    "processing_level": [
+     "Processed Data"
+    ],
+    "experiment_id": [
+     "BRSMFSR"
+    ]
+   },
+   "meta": "19 files \u00b7 385.3 KB",
+   "date": "2025-09-12",
+   "children": [
+    {
+     "key": "77773b51-4850-51ab-99dc-03d64aa9f5b8",
+     "label": "BRSMFSR_Campaign_3_Monosynaptic_Reflex_C3D_5165_Avg",
+     "type": "file",
+     "ext": "",
+     "file_size": 29591,
+     "meta": "28.9 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ef0c61d8-5c90-5391-bdf6-4bdc7ed33932",
+     "label": "BRSMFSR_Campaign_3_Monosynaptic_Reflex_C3G_5814_Avg",
+     "type": "file",
+     "ext": "",
+     "file_size": 12916,
+     "meta": "12.6 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d01f4c4f-c340-59f1-ba0d-938c5ae55677",
+     "label": "BRSMFSR_Campaign_3_Monosynaptic_Reflex_C3D_3985_Avg",
+     "type": "file",
+     "ext": "",
+     "file_size": 24376,
+     "meta": "23.8 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e222a6d8-7397-5320-836a-10d5cd325946",
+     "label": "BRSMFSR_Campaign_3_Monosynaptic_Reflex_C3E_6607_Avg",
+     "type": "file",
+     "ext": "",
+     "file_size": 19077,
+     "meta": "18.6 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "565711a0-a358-5607-ae97-7261d1b49669",
+     "label": "BRSMFSR_Campaign_3_Monosynaptic_Reflex_C3G_5580_Avg",
+     "type": "file",
+     "ext": "",
+     "file_size": 13172,
+     "meta": "12.9 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c1247f30-6ea6-5089-a5de-5696bbfc358a",
+     "label": "BRSMFSR_Campaign_3_Monosynaptic_Reflex_C3G_9032_Avg",
+     "type": "file",
+     "ext": "",
+     "file_size": 13265,
+     "meta": "13.0 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5dfd11aa-b112-58eb-ac70-3096eea6dc3e",
+     "label": "BRSMFSR_Campaign_3_Monosynaptic_Reflex_C3D_8615_Avg",
+     "type": "file",
+     "ext": "",
+     "file_size": 27113,
+     "meta": "26.5 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "117fde99-2304-5ad8-927b-e4d5545964e6",
+     "label": "BRSMFSR_Campaign_3_Monosynaptic_Reflex_C3G_9139_Avg",
+     "type": "file",
+     "ext": "",
+     "file_size": 13335,
+     "meta": "13.0 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f245f9c4-164b-5492-ab27-dd3b3de00443",
+     "label": "BRSMFSR_Campaign_3_Monosynaptic_Reflex_C3G_9485_Avg",
+     "type": "file",
+     "ext": "",
+     "file_size": 13464,
+     "meta": "13.1 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "db4c4539-436a-5fb8-84bd-9c683503cd49",
+     "label": "BRSMFSR_Campaign_3_Monosynaptic_Reflex_C3D_7984_Avg",
+     "type": "file",
+     "ext": "",
+     "file_size": 24301,
+     "meta": "23.7 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "332e2c4b-357f-593c-8e8a-be95814a68ea",
+     "label": "BRSMFSR_Campaign_3_Monosynaptic_Reflex_C3H_5907_Avg",
+     "type": "file",
+     "ext": "",
+     "file_size": 14051,
+     "meta": "13.7 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9e516a9e-7eec-5ce7-85d5-bc417db250ae",
+     "label": "BRSMFSR_Campaign_3_Monosynaptic_Reflex_C3E_8715_Avg",
+     "type": "file",
+     "ext": "",
+     "file_size": 29551,
+     "meta": "28.9 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "03d25843-dfb4-50b2-8e77-9f2ed409ee6d",
+     "label": "BRSMFSR_Campaign_3_Monosynaptic_Reflex_C3D_8779_Avg",
+     "type": "file",
+     "ext": "",
+     "file_size": 26819,
+     "meta": "26.2 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "cf15a07c-f779-5085-9a44-4688882c68ef",
+     "label": "BRSMFSR_Campaign_3_Monosynaptic_Reflex_C3D_8881_Avg",
+     "type": "file",
+     "ext": "",
+     "file_size": 26807,
+     "meta": "26.2 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3751a645-4d19-5500-adf1-8d8f310fbab9",
+     "label": "BRSMFSR_Campaign_3_Monosynaptic_Reflex_C3D_7961_Avg",
+     "type": "file",
+     "ext": "",
+     "file_size": 24119,
+     "meta": "23.6 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "aa49c5c8-51ef-5266-8fa3-18d63405bd19",
+     "label": "BRSMFSR_Campaign_3_Monosynaptic_Reflex_C3G_6858_Avg",
+     "type": "file",
+     "ext": "",
+     "file_size": 13536,
+     "meta": "13.2 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f109c08a-27b2-5578-b94c-5b0184f469a1",
+     "label": "BRSMFSR_Campaign_3_Monosynaptic_Reflex_C3E_6043_Avg",
+     "type": "file",
+     "ext": "",
+     "file_size": 28867,
+     "meta": "28.2 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "49d2056e-ba6b-51e5-9ac3-cd8f87d3be80",
+     "label": "BRSMFSR_Campaign_3_Monosynaptic_Reflex_C3E_5394_Avg",
+     "type": "file",
+     "ext": "",
+     "file_size": 26600,
+     "meta": "26.0 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c6a3fc80-1ced-5487-9f97-b5d05e509984",
+     "label": "BRSMFSR_Campaign_3_Monosynaptic_Reflex_C3G_9314_Avg",
+     "type": "file",
+     "ext": "",
+     "file_size": 13570,
+     "meta": "13.3 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

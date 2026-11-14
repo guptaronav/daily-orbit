@@ -1,0 +1,141 @@
+{
+ "record": {
+  "id": "aea2aa9b-a25d-5cb0-a093-137858b4a573",
+  "_id": "aea2aa9b-a25d-5cb0-a093-137858b4a573",
+  "experiment_title": "Gene Expression Profile Analysis as a Prognostic Indicator of Normal Tissue Response to Simulated Space Radiations",
+  "archive_status_index": 1,
+  "parameter_html": "<table><tr><td>Gene expression patterns</td></tr><tr><td>SF2 values, bone necrosis</td></tr><tr><td>SF2 values, fibroblasts</td></tr><tr><td>SF2 values, skin fibrosis</td></tr><tr><td>SF2 values, skin retraction</td></tr><tr><td>SF2 values, soft tissue necrosis</td></tr><tr><td>SF2 values, subcutaneous fibrosis</td></tr><tr></tr></table>",
+  "__source_key": "cl62b06xgcdk901o6clox83jl",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Story, Michael\">Principal Investigator: Story, Michael</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Stivers, David\">Co-Investigator: Stivers, David</a>",
+  "__record_modified_date": "2026-08-23T04:20:24.332606+00:00",
+  "__indexed": "2026-08-23T04:20:24.332606+00:00",
+  "__record_creation_date": "2022-07-28T19:57:21.038Z",
+  "keyword": [
+   "Radiation",
+   "Gene expression profiling",
+   "Fibroblasts"
+  ],
+  "keyword_name": "Fibroblasts",
+  "__record_size": 65646,
+  "__record_version": 30,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<br>\r\nThis project was funded as a pilot project to determine the feasibility of using gene expression profiles to characterize the response of human cells to exposure to particulate radiations such as those encountered in the space flight environment.  The investigators proposed to use microarray technology to examine the gene expression patterns of a bank of well-characterized human fibroblast cell cultures. These fibroblast cultures were derived from breast or head and neck cancer patients who exhibited normal, minimal, or severe normal tissue reactions following low LET radiation exposure via radiotherapy. Furthermore, determination of SF2 values from fibroblasts cultured from these individuals was predictive of risk for severe late reactions. The investigators hypothesized that by determining the expression of thousands of genes they could identify gene expression patterns that reflect how normal tissues respond to high Z and energy (HZE) particles, that is, that there are molecular signatures for HZE exposures. They also hypothesized that individuals who are intrinsically radiosensitive may elicit a unique response.\r\n<p>\r\nThe objectives of this study were to 1) determine molecular profiles (gene expression patterns} for normal human skin fibroblasts that have been exposed to heavy particles of increasing LET; 2) determine if there are unique, or signature, expression patterns that define exposure to a particular HZE particle\r\n<p>\r\nAPPROACH:<br>\r\nIn the last decade we have collected fibroblasts from head and neck and breast cancer patients. We have developed fibroblast lines from 100 patients. A significant number of the patients have had adverse reactions to radiotherapy with documented late normal tissue reactions scored according to the RTOG/EORTC scoring system. Late effects documented include skin fibrosis, subcutaneous fibrosis, skin retraction, and soft tissue and bone necrosis. For all of these primary cultures, fibroblast SF2 values were obtained. Interestingly, SF2 ranking appears as a continuous variation which is best approximated by a normal distribution of phenotype, which can be explained by multiple interacting Mendelian factors, that is, a genetic basis for differences in SF2. Because this was a pilot project the investigators limited themselves to 5 cell lines, all having a normal response to radiation exposure. \r\n<p>\r\nRESULTS:<br>\r\nStatistical analysis revealed 45 genes that met the investigators cutoff criteria of 1.5X fold, false discovery rate of 0.05. Two major signaling pathways were identified by gene ontology analysis, and they include genes associated with DNA repair, replication, recombination, and cell growth and death. BAD and  BID, and CIOE are unregulated, while BCl-2 is comparatively down-regulated. This opens the door for predicting radioresponse without having to irradiate. More data are needed on other radiosensitive cells lines to validate this supposition.\r\n<p>",
+  "payload_id": "BRC",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "NAG91522",
+  "indexed": "2026-08-23T04:20:24.332606+00:00",
+  "GUID": "cl62b06xgcdk901o6clox83jl",
+  "parameter_name": [
+   "Gene expression patterns",
+   "SF2 values, bone necrosis",
+   "SF2 values, fibroblasts",
+   "SF2 values, skin fibrosis",
+   "SF2 values, skin retraction",
+   "SF2 values, soft tissue necrosis",
+   "SF2 values, subcutaneous fibrosis"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 1270,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Cell and molecular biology",
+   "Radiation biology"
+  ],
+  "pme_role_with_name": [
+   "Co-Investigator: Stivers, David",
+   "Principal Investigator: Story, Michael"
+  ],
+  "missions": [
+   [
+    [
+     "BRC"
+    ]
+   ]
+  ],
+  "__dirid": "aea2aa9b-a25d-5cb0-a093-137858b4a573",
+  "__record_size_wo_doccontent": 65646,
+  "PI": [
+   "Story, Michael"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "NAG91522"
+  ],
+  "mission_id": [
+   [
+    [
+     "BRC"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "proposal_date": [],
+  "proposal_source": [],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Story, Michael"
+  ],
+  "program_name": [
+   "Ground"
+  ],
+  "archive_status": "Data preservation is complete. All datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Ground",
+  "__source_field_concat": "BRC cl62b06xgcdk901o6clox83jl Fibroblasts  N/A NAG91522 Ground Data preservation is complete. All datasets are publicly available.",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<br>\r\nThis project was funded as a pilot project to determine the feasibility of using gene expression profiles to characterize the response of human cells to exposure to particulate radiations such as those encountered in the space flight environment.  The investigators proposed to use microarray technology to examine the gene expression patterns of a bank of well-characterized human fibroblast cell cultures. These fibroblast cultures were derived from breast or head and neck cancer patients who exhibited normal, minimal, or severe normal tissue reactions following low LET radiation exposure via radiotherapy. Furthermore, determination of SF2 values from fibroblasts cultured from these individuals was predictive of risk for severe late reactions. The investigators hypothesized that by determining the expression of thousands of genes they could identify gene expression patterns that reflect how normal tissues respond to high Z and energy (HZE) particles, that is, that there are molecular signatures for HZE exposures. They also hypothesized that individuals who are intrinsically radiosensitive may elicit a unique response.\r\n<p>\r\nThe objectives of this study were to 1) determine molecular profiles (gene expression patterns} for normal human skin fibroblasts that have been exposed to heavy particles of increasing LET; 2) determine if there are unique, or signature, expression patterns that define exposure to a particular HZE particle\r\n<p>\r\nAPPROACH:<br>\r\nIn the last decade we have collected fibroblasts from head and neck and breast cancer patients. We have developed fibroblast lines from 100 patients. A significant number of the patients have had adverse reactions to radiotherapy with documented late normal tissue reactions scored according to the RTOG/EORTC scoring system. Late effects documented include skin fibrosis, subcutaneous fibrosis, skin retraction, and soft tissue and bone necrosis. For all of these primary cultures, fibroblast SF2 values were obtained. Interestingly, SF2 ranking appears as a continuous variation which is best approximated by a normal distribution of phenotype, which can be explained by multiple interacting Mendelian factors, that is, a genetic basis for differences in SF2. Because this was a pilot project the investigators limited themselves to 5 cell lines, all having a normal response to radiation exposure. \r\n<p>\r\nRESULTS:<br>\r\nStatistical analysis revealed 45 genes that met the investigators cutoff criteria of 1.5X fold, false discovery rate of 0.05. Two major signaling pathways were identified by gene ontology analysis, and they include genes associated with DNA repair, replication, recombination, and cell growth and death. BAD and  BID, and CIOE are unregulated, while BCl-2 is comparatively down-regulated. This opens the door for predicting radioresponse without having to irradiate. More data are needed on other radiosensitive cells lines to validate this supposition.\r\n<p>",
+  "__doi": "10.83263/s1zg-5y03",
+  "__doi_record_creation_date": "2026-08-23T04:20:24",
+  "__doi_record_modified_date": "2026-08-23T04:20:24"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001956",
+   "label": "NAG91522__2620300289",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Final Report",
+    "dataset_catalog": "NAG91522__2620300289",
+    "dataset_description": [
+     "This is a final report titled, Gene expression profile analysis as a prognostic indicator of normal tissue response to simulated space raditions, for the NAG91522 study."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "NAG91522"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "8b3d6ea7-8a85-59c1-bdfb-90d7fa061544",
+     "label": "NAG91522__2620300289.pdf_BRC_NAG91522_2011_262_030950.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

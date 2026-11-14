@@ -1,0 +1,249 @@
+{
+ "record": {
+  "id": "4507ef0e-b141-592c-b531-a9c78e2cdb0f",
+  "_id": "4507ef0e-b141-592c-b531-a9c78e2cdb0f",
+  "experiment_title": "Confirmation of Ability of Sustained-Release Insulin-like Growth Factor I (IGF-I)  to Counteract the Effect of Space Flight on the Rat Immune and Skeletal Systems",
+  "archive_status_index": 1,
+  "pub_document_number": "ARCPUB001110",
+  "parameter_html": "<table><tr><td>Bone formation rate</td></tr><tr><td>Content, Corticosterone, in serum, blood, rat, Clinical chemistry</td></tr><tr><td>Content, Interleukin-6 (IL-6), in bone marrow cells, rat</td></tr><tr><td>Content, Mineral, bone, femur, humerus, rat</td></tr><tr><td>Content, Mineral, bone, mineral content quail</td></tr><tr><td>Count, Lymphocytes, peripheral blood, rat, Hematology</td></tr><tr><td>Density, Bone mineral</td></tr><tr><td>Mineral apposition rate</td></tr><tr><td>Size, diameter, Femur, bone, rat</td></tr><tr><td>Size, diameter, Humerus, bone, rat</td></tr><tr><td>Size, length, Bone, femur, rat, Calipers</td></tr><tr><td>Size, length, Bone, humerus, rat, Calipers</td></tr><tr><td>Temperature, AEM, Immune.3, Ambient temperature recorder (ATR)</td></tr><tr><td>Bone stiffness, femur</td></tr><tr><td>Bone stiffness, humerus</td></tr><tr><td>Cytokine secretion, bone marrow cells</td></tr><tr><td>Bone microhardness</td></tr><tr><td>Nitric oxide, secretion</td></tr><tr></tr></table>",
+  "__source_key": "cl62ayb01cd4h01o6bz9b73ic",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Zimmerman, Robert\">Principal Investigator: Zimmerman, Robert</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Chapes, Stephen\">Co-Investigator: Chapes, Stephen</a>",
+  "experiment_type_lk": [
+   "Shuttle Commercial Life Sciences Research (Spacelab)"
+  ],
+  "__record_modified_date": "2026-08-31T22:16:58.796Z",
+  "__indexed": "2026-08-31T22:16:58.796Z",
+  "session_type": "Flight",
+  "__record_creation_date": "2022-07-28T19:58:38.380Z",
+  "__record_size": 59983,
+  "__record_version": 31,
+  "__model_version": 423,
+  "experiment_description": "<B>OBJECTIVES:</B><br>The microgravity that accompanies space flight, as well as other concomitant environmental factors, alters the effectiveness of astronauts' immune systems and bone homeostasis. The cytokine insulin-like growth factor (IGF-1) promotes growth in peripheral tissue, affects marrow blood cells that develop into immune cells, and is an important factor in erythropoiesis. IGF-1 has been shown to stimulate bone cell component synthesis as well as reduce protein degradation. This study investigates the possibility of utilizing IGF-1 to counter the detrimental effects of space flight on both the immune and the skeletal systems.<P><B>APPROACH:</B><br>Four days prior to launch, 2 ml Alzet osmotic pumps were subcutaneously inserted into the dorsal region of twelve male Sprague-Dawley rats. Six of the rats received 10 mg/kg per day of IGF-1 while the other six received an equal volume of saline. All rats were injected with 20 mg/kg of oxytetracycline one day before launch. The animals were then placed in two Animal Enclosure Modules (AEMs), with six animals per module, and flown on the ten day STS-77 mission. After landing, animals were weighed and euthanized. Ocular reflex test, cardiac puncture, and exsanguination were then performed. Blood samples were analyzed to determine complete cell counts and corticosterone content. Macrophage colony stimulating factor (M-CSF)-dependent macrophage colony formation was assayed from bone marrow cells and the stimulation index of the lymphocytes was calculated. Bone marrow cells were also assayed for secretion of IL-6, TNF-a and TGF-b.<P><B>RESULTS:</B><br>Results support the hypothesis that IGF-1 will have a beneficial effect on immune cells by relieving at least some of the effects of microgravity, though space flight appeared to inhibit the physiological effects of IGF-1. During the space flight, IGF-1 was also shown to have some beneficial anabolic effects upon bone.",
+  "payload_id": "Immune.3",
+  "CombinedSpecies": [
+   [
+    "Rat (Rattus norvegicus) Sprague-Dawley"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "CPIMM03",
+  "indexed": "2026-08-31T22:16:58.796Z",
+  "experiment_related": [
+   "CPIMM02",
+   "CPIMM01"
+  ],
+  "GUID": "cl62ayb01cd4h01o6bz9b73ic",
+  "exp_index": 741,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Immunology",
+   "Skeletal physiology"
+  ],
+  "protocol_approach": "Vivarium control",
+  "pme_role_with_name": [
+   "Co-Investigator: Chapes, Stephen",
+   "Principal Investigator: Zimmerman, Robert"
+  ],
+  "missions": [
+   [
+    [
+     "STS-77"
+    ]
+   ]
+  ],
+  "__dirid": "4507ef0e-b141-592c-b531-a9c78e2cdb0f",
+  "__record_size_wo_doccontent": 59983,
+  "experiment_parms_tissue2": "NULL",
+  "experiment_parms_tissue1": "NULL",
+  "PI": [
+   "Zimmerman, Robert"
+  ],
+  "__update_method": "Update Data",
+  "_file_extension": [],
+  "parameter_name": [
+   "Bone formation rate",
+   "Content, Corticosterone, in serum, blood, rat, Clinical chemistry",
+   "Content, Interleukin-6 (IL-6), in bone marrow cells, rat",
+   "Content, Mineral, bone, femur, humerus, rat",
+   "Content, Mineral, bone, mineral content quail",
+   "Count, Lymphocytes, peripheral blood, rat, Hematology",
+   "Density, Bone mineral",
+   "Mineral apposition rate",
+   "Size, diameter, Femur, bone, rat",
+   "Size, diameter, Humerus, bone, rat",
+   "Size, length, Bone, femur, rat, Calipers",
+   "Size, length, Bone, humerus, rat, Calipers",
+   "Temperature, AEM, Immune.3, Ambient temperature recorder (ATR)",
+   "Bone stiffness, femur",
+   "Bone stiffness, humerus",
+   "Cytokine secretion, bone marrow cells",
+   "Bone microhardness",
+   "Nitric oxide, secretion"
+  ],
+  "experiment_identifier": [
+   "CPIMM03"
+  ],
+  "keyword": [],
+  "mission_id": [
+   [
+    [
+     "STS-77"
+    ]
+   ]
+  ],
+  "center": [
+   "Ames Research Center"
+  ],
+  "ncindex": [
+   7
+  ],
+  "proposal_date": [],
+  "species": [
+   "Rat"
+  ],
+  "PrincipalInvestigator": [
+   "Zimmerman, Robert"
+  ],
+  "program_name": [
+   "Shuttle Program"
+  ],
+  "archive_status": "Data preservation is complete. All datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Shuttle Program",
+  "__source_field_concat": "Flight ARCPUB001110 Immune.3 cl62ayb01cd4h01o6bz9b73ic NULL NULL  Vivarium control CPIMM03 Shuttle Program Data preservation is complete. All datasets are publicly available.",
+  "__icon_type": "rat",
+  "__description": "<B>OBJECTIVES:</B><br>The microgravity that accompanies space flight, as well as other concomitant environmental factors, alters the effectiveness of astronauts' immune systems and bone homeostasis. The cytokine insulin-like growth factor (IGF-1) promotes growth in peripheral tissue, affects marrow blood cells that develop into immune cells, and is an important factor in erythropoiesis. IGF-1 has been shown to stimulate bone cell component synthesis as well as reduce protein degradation. This study investigates the possibility of utilizing IGF-1 to counter the detrimental effects of space flight on both the immune and the skeletal systems.<P><B>APPROACH:</B><br>Four days prior to launch, 2 ml Alzet osmotic pumps were subcutaneously inserted into the dorsal region of twelve male Sprague-Dawley rats. Six of the rats received 10 mg/kg per day of IGF-1 while the other six received an equal volume of saline. All rats were injected with 20 mg/kg of oxytetracycline one day before launch. The animals were then placed in two Animal Enclosure Modules (AEMs), with six animals per module, and flown on the ten day STS-77 mission. After landing, animals were weighed and euthanized. Ocular reflex test, cardiac puncture, and exsanguination were then performed. Blood samples were analyzed to determine complete cell counts and corticosterone content. Macrophage colony stimulating factor (M-CSF)-dependent macrophage colony formation was assayed from bone marrow cells and the stimulation index of the lymphocytes was calculated. Bone marrow cells were also assayed for secretion of IL-6, TNF-a and TGF-b.<P><B>RESULTS:</B><br>Results support the hypothesis that IGF-1 will have a beneficial effect on immune cells by relieving at least some of the effects of microgravity, though space flight appeared to inhibit the physiological effects of IGF-1. During the space flight, IGF-1 was also shown to have some beneficial anabolic effects upon bone.",
+  "__doi": "10.83263/wr23-5b10",
+  "__doi_record_creation_date": "2026-08-23T03:53:33",
+  "__doi_record_modified_date": "2026-08-23T03:53:33"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001795",
+   "label": "AINV0000000350",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Immune.3 PI data",
+    "dataset_catalog": "AINV0000000350",
+    "dataset_description": [
+     "Lymphoid cell counts in flight and vivarium animals."
+    ],
+    "processing_level": [
+     "Raw<br/>Processed"
+    ],
+    "experiment_id": [
+     "CPIMM03"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "2e086301-74f5-5330-b32f-4d631e3d21bd",
+     "label": "IMM3_PIdata.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002232",
+   "label": "AINV0000000349",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Immune.3 Dissection Data Sheets (vivarium and flight)",
+    "dataset_catalog": "AINV0000000349",
+    "dataset_description": [
+     "Dissection sheets listing weight of animal at sacrifice, tissues collected, tissue weight and condition of tissue for flight and vivarium control animals."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "CPIMM03"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "de178ebf-3729-5e0c-a94c-5deed6714792",
+     "label": "Imm3dissection.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001128",
+   "label": "AINV0000000352",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Immune.3 Ambient Temperature Recorder (ATR) flight data - ATR serial number 33 located in flight AEM serial number 008",
+    "dataset_catalog": "AINV0000000352",
+    "dataset_description": [],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "CPIMM03"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "eb2f09b3-a852-5cda-830b-747486288e9e",
+     "label": "3377F008.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000793",
+   "label": "AINV0000000351",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Immune.3 Ambient Temperature Recorder (ATR) flight data - ATR serial number 30 located in flight AEM serial number 007",
+    "dataset_catalog": "AINV0000000351",
+    "dataset_description": [],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "CPIMM03"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "62e39ee5-7267-5dad-a69a-a8f28409ba8e",
+     "label": "3077F007.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

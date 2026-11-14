@@ -1,0 +1,153 @@
+{
+ "record": {
+  "id": "c2b26de9-047f-54f8-8c54-54d2467b1dce",
+  "_id": "c2b26de9-047f-54f8-8c54-54d2467b1dce",
+  "experiment_title": "Physiologic Monitoring",
+  "archive_status_index": 2,
+  "parameter_html": "<table><tr><td>Activity</td></tr><tr><td>Blood pressure, mean</td></tr><tr><td>Heart rate</td></tr><tr><td>Respiration rate</td></tr><tr><td>Signal coverage</td></tr><tr><td>Skin temperature</td></tr><tr><td>Diastolic blood pressure</td></tr><tr><td>Systolic blood pressure</td></tr><tr><td>Peripheral oxygen saturation (SpO2)</td></tr><tr></tr></table>",
+  "__source_key": "cl62azj3ccdey01o66htf4wlg",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Logan, James\">Principal Investigator: Logan, James</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Clark, Jonathan\">Principal Investigator: Clark, Jonathan</a>",
+  "image_name": [
+   "Electrode Placement for NEEMO Physiological Monitoring Experiment",
+   "Lifeguard Vital Signs Monitoring System",
+   "NEEMO 5 Physiological Monitoring Experiment",
+   "Physiological Monitoring Experiment Data Download"
+  ],
+  "experiment_type_lk": [
+   "NASA Extreme Environment Mission Operations (NEEMO) Project"
+  ],
+  "__record_modified_date": "2026-08-23T04:21:46.275533+00:00",
+  "__indexed": "2026-08-23T04:21:46.275533+00:00",
+  "__record_creation_date": "2022-07-28T19:54:46.475Z",
+  "keyword": [
+   "Monitoring, physiologic",
+   "Signal processing, computer-assisted"
+  ],
+  "keyword_name": "Signal processing, computer-assisted",
+  "__record_size": 88235,
+  "__record_version": 30,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<br>\r\nThe objective of the Physiologic Monitoring experiment was to test wireless medical monitoring devices and their accompanying procedures in a metal-walled habitat similar to the International Space Station (ISS). Specifically, crewmembers assessed ease of use, assessed the ability to transmit/receive data over a period of several days in an isolated/busy environment, assessed hardware for robustness, and observed potential problems in microgravity.\r\n<P>\r\nAPPROACH:<br>\r\nDuring the experiment, crewmembers wore devices, which consisted of electrode leads attached to wireless transmitting devices, to record cardiac activity and respiration while inside the habitat. These devices were tested in two different scenarios: exercise and simulated injured crewmember. \r\n<P>\r\nPrior to the first scenario, one crewmember began by testing signal coverage in the habitat (radiofrequency mapping). A wireless connection was established between a laptop or tablet PC and a wearable device, called a Crew Physiological Observation Device (CPOD). The crewmember determined if the signal was maintained at each of ten locations in the habitat and recorded the information on the data sheet. \r\n<P>\r\nOnce the radiofrequency mapping was complete, the crewmembers prepared for the exercise and simulated ill/injured crewmember scenarios. This involved unstowing the needed equipment and preparing the skin for the Nexan sensor. When the set-up was complete, the crewmember wearing the monitoring system engaged in 10 minutes of physical activity (such as push-ups, jumping jacks, sit-ups, etc.) while the second crewmember monitored the data transmission and download. During the injured crewmember scenario, the monitoring system was attached to an electrocardiograph (ECG) simulator. One crewmember set the ECG rhythms (simulating changes in heart rhythm), while the second monitored that data transmission and download.\r\n<P>\r\nRESULTS:<br>\r\nFor the purpose of testing our device, the Aquarius facility was a good space analog in that it is a metal walled habitat.  The increased air pressure did affect the computer disk, but not any of the solid-state devices. \r\n<P>\r\n<u>Exercise Data Set with Nexan Sensor</u><br>\r\nThis exercise data set started at 4:36:35 and ended at 4:50:03 for a duration of 14:28.  However the subject marked the exercise as beginning at 37:50. The Accelerometer data records vigorous activity from 37.58 to 44:25.  The ECG II lead had 18 dropouts of less than one second and one of 1-2 seconds.  The ECG V lead had the same number of dropouts.  The R-Raw began at 2800 and varied smoothly between a high of 2825 and a low of 2700, spending a majority of the time around 2750.  The AccX, AccY, AccZ have nice sine waves from the event at 37:55 to the end of exercise at 44:25.  The temperature was mostly steady at 28 degrees Celsius but jumped for three seconds to 132 degrees Celsius, later for four seconds to 130 degrees Celsius, later one second to 131 degrees Celsius.  The SPO2 numbers began at 92 and varied smoothly from a high of 99 to a low of 84, spending most time around 95.  \r\n<P>\r\n<u>Exercise Data Set with Button Sensor</u><br>\r\nThis exercise data set began at 59:07 and ended at 12:57.  The AccX values indicate that vigorous exercise began with the Event mark at 01:11 and ended at 8:33.  The ECG II signal had approximately 42 dropouts of less than one second, one for 30 seconds, one for two seconds and one for 12 seconds.  About 30 of the dropouts were before exercise began.  The ECG V5 signal had the same dropouts.  Noise was present in EV5 from 5:09 to 5:19.  The AccX, AccY, AccZ values were valid looking sine waves.  The temperature was steady at 30 degrees Celsius except for a three second jump to 126 degrees Celsius.  The SPO2 varied smoothly between 84 and 99.  The heart rate (HR) is a reasonable 97 average, but often jumped suddenly for two seconds at a time to an impossible 190 or 200. \r\n<P>\r\n<u>Ill or Injured Crew Simulated Data</u><br>\r\nThe ill or injured crew simulated data is ECG simulator data.  One investigator reported that this was easily recognizable.  That fact implies that the lines, the CPOD, and the transmission of data were good.  The problem appears to arise in the sensors or their attachment to the subject or their sensitivity to movement rather than electro-magnetic flux.  \r\n<END>",
+  "payload_id": "NEEMO 5",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "NEEMO-PHYS",
+  "indexed": "2026-08-23T04:21:46.275533+00:00",
+  "GUID": "cl62azj3ccdey01o66htf4wlg",
+  "parameter_name": [
+   "Activity",
+   "Blood pressure, mean",
+   "Heart rate",
+   "Respiration rate",
+   "Signal coverage",
+   "Skin temperature",
+   "Diastolic blood pressure",
+   "Systolic blood pressure",
+   "Peripheral oxygen saturation (SpO2)"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 1101,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Clinical medicine",
+   "Cardiovascular physiology"
+  ],
+  "pme_role_with_name": [
+   "Principal Investigator: Clark, Jonathan",
+   "Principal Investigator: Logan, James"
+  ],
+  "missions": [
+   [
+    [
+     "NEEMO 5"
+    ]
+   ]
+  ],
+  "__dirid": "c2b26de9-047f-54f8-8c54-54d2467b1dce",
+  "__record_size_wo_doccontent": 88235,
+  "PI": [
+   "Clark, Jonathan",
+   "Logan, James"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "NEEMO-PHYS"
+  ],
+  "mission_id": [
+   [
+    [
+     "NEEMO 5"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "proposal_source": [],
+  "proposal_date": [],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Clark, Jonathan",
+   "Logan, James"
+  ],
+  "program_name": [
+   "Ground"
+  ],
+  "archive_status": "Data preservation is complete. Privacy-protected datasets are available via data request. Remaining datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Ground",
+  "__source_field_concat": "NEEMO 5 cl62azj3ccdey01o66htf4wlg Signal processing, computer-assisted  N/A Physiologic Monitoring NEEMO-PHYS Ground",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<br>\r\nThe objective of the Physiologic Monitoring experiment was to test wireless medical monitoring devices and their accompanying procedures in a metal-walled habitat similar to the International Space Station (ISS). Specifically, crewmembers assessed ease of use, assessed the ability to transmit/receive data over a period of several days in an isolated/busy environment, assessed hardware for robustness, and observed potential problems in microgravity.\r\n<P>\r\nAPPROACH:<br>\r\nDuring the experiment, crewmembers wore devices, which consisted of electrode leads attached to wireless transmitting devices, to record cardiac activity and respiration while inside the habitat. These devices were tested in two different scenarios: exercise and simulated injured crewmember. \r\n<P>\r\nPrior to the first scenario, one crewmember began by testing signal coverage in the habitat (radiofrequency mapping). A wireless connection was established between a laptop or tablet PC and a wearable device, called a Crew Physiological Observation Device (CPOD). The crewmember determined if the signal was maintained at each of ten locations in the habitat and recorded the information on the data sheet. \r\n<P>\r\nOnce the radiofrequency mapping was complete, the crewmembers prepared for the exercise and simulated ill/injured crewmember scenarios. This involved unstowing the needed equipment and preparing the skin for the Nexan sensor. When the set-up was complete, the crewmember wearing the monitoring system engaged in 10 minutes of physical activity (such as push-ups, jumping jacks, sit-ups, etc.) while the second crewmember monitored the data transmission and download. During the injured crewmember scenario, the monitoring system was attached to an electrocardiograph (ECG) simulator. One crewmember set the ECG rhythms (simulating changes in heart rhythm), while the second monitored that data transmission and download.\r\n<P>\r\nRESULTS:<br>\r\nFor the purpose of testing our device, the Aquarius facility was a good space analog in that it is a metal walled habitat.  The increased air pressure did affect the computer disk, but not any of the solid-state devices. \r\n<P>\r\n<u>Exercise Data Set with Nexan Sensor</u><br>\r\nThis exercise data set started at 4:36:35 and ended at 4:50:03 for a duration of 14:28.  However the subject marked the exercise as beginning at 37:50. The Accelerometer data records vigorous activity from 37.58 to 44:25.  The ECG II lead had 18 dropouts of less than one second and one of 1-2 seconds.  The ECG V lead had the same number of dropouts.  The R-Raw began at 2800 and varied smoothly between a high of 2825 and a low of 2700, spending a majority of the time around 2750.  The AccX, AccY, AccZ have nice sine waves from the event at 37:55 to the end of exercise at 44:25.  The temperature was mostly steady at 28 degrees Celsius but jumped for three seconds to 132 degrees Celsius, later for four seconds to 130 degrees Celsius, later one second to 131 degrees Celsius.  The SPO2 numbers began at 92 and varied smoothly from a high of 99 to a low of 84, spending most time around 95.  \r\n<P>\r\n<u>Exercise Data Set with Button Sensor</u><br>\r\nThis exercise data set began at 59:07 and ended at 12:57.  The AccX values indicate that vigorous exercise began with the Event mark at 01:11 and ended at 8:33.  The ECG II signal had approximately 42 dropouts of less than one second, one for 30 seconds, one for two seconds and one for 12 seconds.  About 30 of the dropouts were before exercise began.  The ECG V5 signal had the same dropouts.  Noise was present in EV5 from 5:09 to 5:19.  The AccX, AccY, AccZ values were valid looking sine waves.  The temperature was steady at 30 degrees Celsius except for a three second jump to 126 degrees Celsius.  The SPO2 varied smoothly between 84 and 99.  The heart rate (HR) is a reasonable 97 average, but often jumped suddenly for two seconds at a time to an impossible 190 or 200. \r\n<P>\r\n<u>Ill or Injured Crew Simulated Data</u><br>\r\nThe ill or injured crew simulated data is ECG simulator data.  One investigator reported that this was easily recognizable.  That fact implies that the lines, the CPOD, and the transmission of data were good.  The problem appears to arise in the sensors or their attachment to the subject or their sensitivity to movement rather than electro-magnetic flux.  \r\n<END>",
+  "__doi": "10.83263/zm3e-9g10",
+  "__doi_record_creation_date": "2026-08-23T04:21:46",
+  "__doi_record_modified_date": "2026-08-23T04:21:46"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000115",
+   "label": "NEEMO_PHYS__152104186",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Data Collection Timetables for Experiment NEEMO_PHYS",
+    "dataset_catalog": "NEEMO_PHYS__152104186",
+    "dataset_description": [
+     "This spreadsheet represents the data collection timetables for this experiment.  Information in this spreadsheet may include details about the test protocol, data collection constraints, parameters measured, hardware used, scheduled versus actual days of data collection, and subject information."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "NEEMO-PHYS"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "0a72db39-0cb6-5bbd-ba25-27992bbc3e39",
+     "label": "NEEMO_PHYS__152104186.xls_NEEMO_5_NEEMO-PHYS_2010_152_100620.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

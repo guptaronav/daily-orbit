@@ -1,0 +1,598 @@
+{
+ "record": {
+  "id": "f1016572-e5ea-5528-9593-a4013413c1e1",
+  "_id": "f1016572-e5ea-5528-9593-a4013413c1e1",
+  "experiment_title": "Radiation Protection and Instrumentation",
+  "pub_document_number": "PUB000345",
+  "archive_status_index": 2,
+  "parameter_html": "<table><tr><td>Absorbed dose</td></tr><tr><td>Fluence</td></tr><tr><td>Geometric mean fluence</td></tr><tr><td>Geometric mean flux</td></tr><tr><td>Total dose</td></tr><tr></tr></table>",
+  "__source_key": "cl62aujkkcbke01o6g12sc1le",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Bailey, Vernon\">Principal Investigator: Bailey, Vernon</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Benton, Eugene\">Co-Investigator: Benton, Eugene</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Henke, R.\">Co-Investigator: Henke, R.</a>",
+  "experiment_type_lk": [
+   "Apollo Program"
+  ],
+  "__record_modified_date": "2026-08-23T04:00:14.631251+00:00",
+  "proposal_source": [
+   "N/A"
+  ],
+  "__indexed": "2026-08-23T04:00:14.631251+00:00",
+  "keyword": [
+   "Cosmic radiation",
+   "Radiation monitoring",
+   "Radiation protection",
+   "Solar activity",
+   "Radiation dosage",
+   "Linear energy transfer (LET)"
+  ],
+  "__record_creation_date": "2022-07-28T19:39:10.642Z",
+  "keyword_name": "Linear energy transfer (LET)",
+  "__record_version": 28,
+  "__record_size": 124768,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES: <br>\r\nThe solar and cosmic radiation found in space has long been recognized as a possible danger in space travel.  Apollo missions, for the first time, placed men outside the Earth's geomagnetic shield, subjecting them to potentially hazardous particulate radiation of an intensity and frequency not encountered in Earth's environment.  During a complete Apollo mission, astronauts were exposed to widely varying radiation sources, such as the Van Allen belts, solar surface eruptions, cosmic rays, neutrons, and subatomic particles created in high-energy collisions of primary particles with spacecraft materials.  The primary objective was to limit exposure to these sources, and also to measure the dose from each source.\r\n<P>\r\nA secondary objective was to protect the astronauts and ground crews against sources of man made radiation, such as the radioisotope thermal generator used to conduct the lunar surface experiments, and some radioluminescent sources on the spacecraft.\r\n<P>\r\nThe Apollo radiation protection program focused on avoiding the harmful radiation effects encountered in space by limiting the radiation dose to the lowest level judged consistent with achieving beneficial goals.\r\n<P>\r\nAPPROACH: <br>\r\nVan Allen Belt Radiation <BR>\r\nThe simple solution to protection against the radiation found within the Van Allen belts was to (1) stay below the belts (556 km) when in Earth orbit, and (2) to traverse the belts rapidly on the way to outer space.  The inclination of a spacecraft determines the number of passes made per day through the South Atlantic Anomaly region of the Van Allen belts, and thus determines the radiation dose.  Particles within the Van Allen belts, because they are spiraling around the Earth's magnetic lines of force, display directionality that varies in angular relationship to the trajectory of the spacecraft.  The Van Allen belt dosimeters used on Apollo had relatively omnidirectional radiation sensors so that the radiation flux would be measured accurately.\r\n<P>\r\nSolar Particle Radiation <BR>\r\nIt is difficult to forecast individual eruptions on the solar surface, which made planning for the Apollo missions difficult.  In the event of a solar surface eruption during the Apollo missions, NASA planned to estimate the particle dose, given either visual or radiofrequency confirmation of an eruption from the Solar Particle Alert Network (SPAN), a NASA-sponsored network which provided continuous data on solar flare activity.  In the heavy, well-shielded Command Module, even one of the largest solar particle events would not have caused any impairment to the astronauts.   However, radiation doses to astronauts in the thinly shielded Lunar Module during an event like this would have been extremely serious.  To monitor particle activity, the Apollo missions were equipped with a nuclear particle detection system, designed to have a relatively narrow acceptance angle.  This device measured the isotropic proton and alpha particles derived from solar particle events.\r\n<P>\r\nCosmic Rays <BR>\r\nCosmic ray fluxes consist of completely ionized atomic nuclei originating outside the solar system.  They are accelerated to very high energies and provide an average dose rate of 1.0 millirad per hour in cislunar space, and 0.6 millirads per hour on the lunar surface.  During Apollo, the effect of high-energy cosmic rays on humans was not a concern unless exposures were of duration of a few years.\r\n<P>\r\nNeutrons <BR>\r\nNeutrons created by cosmic ray collisions with lunar materials were a potential hazard to Apollo astronauts.  Furthermore, the astronauts might have encountered neutron exposure from the radioisotope thermal generator used to power the Apollo lunar surface experiments.  Two methods for neutron dose assessment, initiated on the Apollo 11 mission, were used:  whole body counting and neutron resonant foil.  \r\n<P>\r\nOther Radiation Measurements <BR>\r\nTo allow accurate determination of overall radiation exposure of the astronauts, each carried a personal radiation dosimeter (PRD) and three passive dosimeters.  \r\nAs the mission progressed, the PRD provided a visual readout of the accumulated dose to each astronaut.  Each of the three passive dosimeters was placed in the astronaut's garment at various locations (ankle, chest, and thigh) to determine radiation doses for various body portions.  A radiation survey meter allowed astronauts to determine radiation levels in any desired location in their compartment.   This allowed the astronauts to find a habitable low dose region of the spacecraft in the event of a radiation emergency.\r\n<P>\r\nRESULTS: <br>\r\nRadiation was not an operational problem during the Apollo missions.  Doses received by the astronauts were significantly lower than the yearly average of 5 rem set by the US Atomic Energy Commission for workers who used radioactive materials in factories across the United States.\r\n<P>\r\nAverage radiation doses for all astronauts on a particular mission were computed for each of the Apollo missions, and ranged from skin doses of 0.16 to 1.14 rads.  The maximum dose limit was 400 rads to the skin for each of the Apollo missions, so actual radiation levels were well below the limit.  Individual readings varied 20 percent because the astronauts were in different parts of the spacecraft, which had different shielding effectiveness, and because of their different duties and movements.  Doses to blood forming organs were 40 percent lower than doses measured at the body surface.\r\n<P>\r\nThe main reason the doses were low is that no major solar particle events occurred during the Apollo missions.   One small event was detected by a radiation detector outside the Apollo 12 spacecraft, but no increase in radiation dose to the astronauts inside the spacecraft was detected.  One possible effect of cosmic ray radiation was the light flash phenomenon observed during Apollo 11 and subsequent flights; although ionizing radiation can produce visual phosphenes, a correlation was not established between cosmic rays and the observation of the light flashes.  (Further information on the light flashes can be found in this archive.)\r\n<P>\r\nIn terms of sources of man-made radiation aboard the Apollo spacecraft, there were two key problems that were resolved.  First, the leakage of radioactive materials from radioluminescent sources was eliminated by a change in encapsulating material.  Emission of soft x-ray radiation from radioluminescent sources was resolved by applying a layer of plastic to the panels.\r\n<P>\r\nAlthough the Apollo missions did not encounter any major space radiation event, procedures for handling any contingency were in place so that space radiation events would be recognized and dealt with immediately for the safety of the crew and mission objectives.  The possible deterent to manned spaceflight by large radiation doses was avoided during the Apollo program.\r\n<END>",
+  "payload_id": "Apollo 10",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "indexed": "2026-08-23T04:00:14.631251+00:00",
+  "experiment_id": "AP003",
+  "GUID": "cl62aujkkcbke01o6g12sc1le",
+  "parameter_name": [
+   "Absorbed dose",
+   "Fluence",
+   "Geometric mean fluence",
+   "Geometric mean flux",
+   "Total dose"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 369,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Radiation biology"
+  ],
+  "pme_role_with_name": [
+   "Co-Investigator: Benton, Eugene",
+   "Co-Investigator: Henke, R.",
+   "Principal Investigator: Bailey, Vernon"
+  ],
+  "missions": [
+   [
+    [
+     "Apollo 10"
+    ]
+   ],
+   [
+    [
+     "Apollo 11"
+    ]
+   ],
+   [
+    [
+     "Apollo 12"
+    ]
+   ],
+   [
+    [
+     "Apollo 13"
+    ]
+   ],
+   [
+    [
+     "Apollo 14"
+    ]
+   ],
+   [
+    [
+     "Apollo 15"
+    ]
+   ],
+   [
+    [
+     "Apollo 16"
+    ]
+   ],
+   [
+    [
+     "Apollo 17"
+    ]
+   ],
+   [
+    [
+     "Apollo 7"
+    ]
+   ],
+   [
+    [
+     "Apollo 8"
+    ]
+   ],
+   [
+    [
+     "Apollo 9"
+    ]
+   ]
+  ],
+  "__dirid": "f1016572-e5ea-5528-9593-a4013413c1e1",
+  "__record_size_wo_doccontent": 124768,
+  "experiment_parms_tissue2": "N/A",
+  "experiment_parms_tissue1": "N/A",
+  "PI": [
+   "Bailey, Vernon"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "AP003"
+  ],
+  "mission_id": [
+   [
+    [
+     "Apollo 10"
+    ]
+   ],
+   [
+    [
+     "Apollo 11"
+    ]
+   ],
+   [
+    [
+     "Apollo 12"
+    ]
+   ],
+   [
+    [
+     "Apollo 13"
+    ]
+   ],
+   [
+    [
+     "Apollo 14"
+    ]
+   ],
+   [
+    [
+     "Apollo 15"
+    ]
+   ],
+   [
+    [
+     "Apollo 16"
+    ]
+   ],
+   [
+    [
+     "Apollo 17"
+    ]
+   ],
+   [
+    [
+     "Apollo 7"
+    ]
+   ],
+   [
+    [
+     "Apollo 8"
+    ]
+   ],
+   [
+    [
+     "Apollo 9"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Bailey, Vernon"
+  ],
+  "archive_status": "Data preservation is complete. Privacy-protected datasets are available via data request. Remaining datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Apollo",
+  "__source_field_concat": "PUB000345 Apollo 10 cl62aujkkcbke01o6g12sc1le Linear energy transfer (LET) N/A N/A  N/A Radiation Protection and Instrumentation AP003 Apollo",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES: <br>\r\nThe solar and cosmic radiation found in space has long been recognized as a possible danger in space travel.  Apollo missions, for the first time, placed men outside the Earth's geomagnetic shield, subjecting them to potentially hazardous particulate radiation of an intensity and frequency not encountered in Earth's environment.  During a complete Apollo mission, astronauts were exposed to widely varying radiation sources, such as the Van Allen belts, solar surface eruptions, cosmic rays, neutrons, and subatomic particles created in high-energy collisions of primary particles with spacecraft materials.  The primary objective was to limit exposure to these sources, and also to measure the dose from each source.\r\n<P>\r\nA secondary objective was to protect the astronauts and ground crews against sources of man made radiation, such as the radioisotope thermal generator used to conduct the lunar surface experiments, and some radioluminescent sources on the spacecraft.\r\n<P>\r\nThe Apollo radiation protection program focused on avoiding the harmful radiation effects encountered in space by limiting the radiation dose to the lowest level judged consistent with achieving beneficial goals.\r\n<P>\r\nAPPROACH: <br>\r\nVan Allen Belt Radiation <BR>\r\nThe simple solution to protection against the radiation found within the Van Allen belts was to (1) stay below the belts (556 km) when in Earth orbit, and (2) to traverse the belts rapidly on the way to outer space.  The inclination of a spacecraft determines the number of passes made per day through the South Atlantic Anomaly region of the Van Allen belts, and thus determines the radiation dose.  Particles within the Van Allen belts, because they are spiraling around the Earth's magnetic lines of force, display directionality that varies in angular relationship to the trajectory of the spacecraft.  The Van Allen belt dosimeters used on Apollo had relatively omnidirectional radiation sensors so that the radiation flux would be measured accurately.\r\n<P>\r\nSolar Particle Radiation <BR>\r\nIt is difficult to forecast individual eruptions on the solar surface, which made planning for the Apollo missions difficult.  In the event of a solar surface eruption during the Apollo missions, NASA planned to estimate the particle dose, given either visual or radiofrequency confirmation of an eruption from the Solar Particle Alert Network (SPAN), a NASA-sponsored network which provided continuous data on solar flare activity.  In the heavy, well-shielded Command Module, even one of the largest solar particle events would not have caused any impairment to the astronauts.   However, radiation doses to astronauts in the thinly shielded Lunar Module during an event like this would have been extremely serious.  To monitor particle activity, the Apollo missions were equipped with a nuclear particle detection system, designed to have a relatively narrow acceptance angle.  This device measured the isotropic proton and alpha particles derived from solar particle events.\r\n<P>\r\nCosmic Rays <BR>\r\nCosmic ray fluxes consist of completely ionized atomic nuclei originating outside the solar system.  They are accelerated to very high energies and provide an average dose rate of 1.0 millirad per hour in cislunar space, and 0.6 millirads per hour on the lunar surface.  During Apollo, the effect of high-energy cosmic rays on humans was not a concern unless exposures were of duration of a few years.\r\n<P>\r\nNeutrons <BR>\r\nNeutrons created by cosmic ray collisions with lunar materials were a potential hazard to Apollo astronauts.  Furthermore, the astronauts might have encountered neutron exposure from the radioisotope thermal generator used to power the Apollo lunar surface experiments.  Two methods for neutron dose assessment, initiated on the Apollo 11 mission, were used:  whole body counting and neutron resonant foil.  \r\n<P>\r\nOther Radiation Measurements <BR>\r\nTo allow accurate determination of overall radiation exposure of the astronauts, each carried a personal radiation dosimeter (PRD) and three passive dosimeters.  \r\nAs the mission progressed, the PRD provided a visual readout of the accumulated dose to each astronaut.  Each of the three passive dosimeters was placed in the astronaut's garment at various locations (ankle, chest, and thigh) to determine radiation doses for various body portions.  A radiation survey meter allowed astronauts to determine radiation levels in any desired location in their compartment.   This allowed the astronauts to find a habitable low dose region of the spacecraft in the event of a radiation emergency.\r\n<P>\r\nRESULTS: <br>\r\nRadiation was not an operational problem during the Apollo missions.  Doses received by the astronauts were significantly lower than the yearly average of 5 rem set by the US Atomic Energy Commission for workers who used radioactive materials in factories across the United States.\r\n<P>\r\nAverage radiation doses for all astronauts on a particular mission were computed for each of the Apollo missions, and ranged from skin doses of 0.16 to 1.14 rads.  The maximum dose limit was 400 rads to the skin for each of the Apollo missions, so actual radiation levels were well below the limit.  Individual readings varied 20 percent because the astronauts were in different parts of the spacecraft, which had different shielding effectiveness, and because of their different duties and movements.  Doses to blood forming organs were 40 percent lower than doses measured at the body surface.\r\n<P>\r\nThe main reason the doses were low is that no major solar particle events occurred during the Apollo missions.   One small event was detected by a radiation detector outside the Apollo 12 spacecraft, but no increase in radiation dose to the astronauts inside the spacecraft was detected.  One possible effect of cosmic ray radiation was the light flash phenomenon observed during Apollo 11 and subsequent flights; although ionizing radiation can produce visual phosphenes, a correlation was not established between cosmic rays and the observation of the light flashes.  (Further information on the light flashes can be found in this archive.)\r\n<P>\r\nIn terms of sources of man-made radiation aboard the Apollo spacecraft, there were two key problems that were resolved.  First, the leakage of radioactive materials from radioluminescent sources was eliminated by a change in encapsulating material.  Emission of soft x-ray radiation from radioluminescent sources was resolved by applying a layer of plastic to the panels.\r\n<P>\r\nAlthough the Apollo missions did not encounter any major space radiation event, procedures for handling any contingency were in place so that space radiation events would be recognized and dealt with immediately for the safety of the crew and mission objectives.  The possible deterent to manned spaceflight by large radiation doses was avoided during the Apollo program.\r\n<END>",
+  "__doi": "10.83263/sapy-1956",
+  "__doi_record_creation_date": "2026-08-23T04:00:14",
+  "__doi_record_modified_date": "2026-08-23T04:00:14"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000667",
+   "label": "JMAPAP003_245",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Average Radiation Dose of the Flight Crews for Apollo Missions 7-15",
+    "dataset_catalog": "JMAPAP003_245",
+    "dataset_description": [
+     "This table lists the Apollo mission in the first column followed by the average radiation dose measured from the thermoluminescent dosimeters in the second column. As reported in: Bailey JV. Radiation protection and instrumentation. In: Johnson RS, Dietlein LF, Berry CA, eds. Biomedical Results of Apollo. Washington, DC: NASA Headquarters; 1975:105-15. NASA-SP-368.<END>"
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "AP003"
+    ]
+   },
+   "meta": "9 files \u00b7 22.1 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "426fb4d6-bf7e-5a67-8fc7-0b765b04ef6f",
+     "label": "JMAPAP003_245.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 2519,
+     "meta": "2.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "93e5bb68-179a-5097-bdb6-ee6137210668",
+     "label": "JMAPAP003_245.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 2519,
+     "meta": "2.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c71596bb-075c-59ec-9ba7-0dbb344f2d39",
+     "label": "JMAPAP003_245.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 2519,
+     "meta": "2.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "345a817e-89d0-5b1b-85ae-ea91dea2c0db",
+     "label": "JMAPAP003_245.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 2519,
+     "meta": "2.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5eb39ca2-43d8-5882-b7fb-b5eea43c59be",
+     "label": "JMAPAP003_245.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 2519,
+     "meta": "2.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3d583ae0-13aa-5fd6-86e6-3dd2533ccfad",
+     "label": "JMAPAP003_245.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 2519,
+     "meta": "2.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "65c54e76-0890-5612-9f03-8511b3911f27",
+     "label": "JMAPAP003_245.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 2519,
+     "meta": "2.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "80580858-9783-5c64-9bbd-b787c9dbde6c",
+     "label": "JMAPAP003_245.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 2519,
+     "meta": "2.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "773f39c3-97bb-563e-bd7b-16a0a0e42097",
+     "label": "JMAPAP003_245.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 2519,
+     "meta": "2.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000577",
+   "label": "JMAPAP003_244",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Radiation Dose Estimates for Particle Events between June 1968 and December 1969",
+    "dataset_catalog": "JMAPAP003_244",
+    "dataset_description": [
+     "This chart shows the estimated radiation dose that Apollo crewman received on Apollo missions 7-12.  As reported in: Benton EV, Henke RP and Bailey JV. Heavy cosmic ray exposure of Apollo astronauts. Science. 1975;187(4173):263-5.<END>"
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "AP003"
+    ]
+   },
+   "meta": "6 files \u00b7 8.70 MB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "e1f91d33-9092-52a9-a75e-7c522552b4d6",
+     "label": "JMAPAP003_244.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 1520435,
+     "meta": "1.45 MB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7360f3be-aab5-5cab-9845-00cb8080c2f4",
+     "label": "JMAPAP003_244.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 1520435,
+     "meta": "1.45 MB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8624dd98-ef36-5599-b6e8-af94880b648a",
+     "label": "JMAPAP003_244.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 1520435,
+     "meta": "1.45 MB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f9f4acfa-33b1-504c-8ed1-de641fba2e11",
+     "label": "JMAPAP003_244.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 1520435,
+     "meta": "1.45 MB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5f42ad15-0e8d-5f3e-8538-36c2e1c07b7f",
+     "label": "JMAPAP003_244.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 1520435,
+     "meta": "1.45 MB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "771ffb35-9ba8-5aab-9f87-e189c1c96e46",
+     "label": "JMAPAP003_244.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 1520435,
+     "meta": "1.45 MB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001968",
+   "label": "JMAPAP003_243",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "The Fractional Cell Loss (FCL) for Human Kidney Cells Exposed to the LET350 Spectra Measured in This Experiment",
+    "dataset_catalog": "JMAPAP003_243",
+    "dataset_description": [
+     "This graph shows the fractional cell loss (FCL) for human kidney cells exposed to the LET<sub>350</sub> spectra measured in this experiment.  The region with LET less than 1 MeV cm<sup>2</sup>/mg represents an extrapolation of these LET spectra.  The shaded area indicates the range of FCL for the different detector locations of Apollo 16.  As reported in: Benton EV, Henke RP and Bailey JV. Heavy cosmic ray exposure of Apollo astronauts. Science. 1975;187(4173):263-5.<END>"
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "AP003"
+    ]
+   },
+   "meta": "1 file \u00b7 1.46 MB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "e3c3bf81-d9f2-513e-948e-f5d81e0b3fe5",
+     "label": "JMAPAP003_243.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 1530921,
+     "meta": "1.46 MB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002275",
+   "label": "JMAPAP003_237",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Calibration Data Used for Apollo 17 Fluence Calculations",
+    "dataset_catalog": "JMAPAP003_237",
+    "dataset_description": [
+     "This plot shows the calibration data used for this experiment, shown is the track etch rate corrected for  UV attenutation, V<sub>1</sub>, as a function of LET<sub>350</sub>.  As reported in: Benton EV, Henke RP and Bailey JV. Heavy cosmic ray exposure of Apollo astronauts. Science. 1975;187(4173):263-5.<END>"
+    ],
+    "processing_level": [],
+    "experiment_id": [
+     "AP003"
+    ]
+   },
+   "meta": "1 file \u00b7 1.76 MB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "4ff4cfc1-584f-5afa-853a-3cc8f63cc28c",
+     "label": "JMAPAP003_237.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 1845494,
+     "meta": "1.76 MB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000007",
+   "label": "JMAPAP003_238",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "The Range of the Integral LET<sub>350</sub> Spectra for the Apollo 17 Dosimeters",
+    "dataset_catalog": "JMAPAP003_238",
+    "dataset_description": [
+     "This graph shows the range of the integral linear energy transfer (LET)<sub>350</sub> spectra for the Apollo 17 passive radiation dosimeters.  The shaded band corresponds to the total range of spectra seen aboard Apollo 17.  As reported in: Benton EV, Henke RP and Bailey JV. Heavy cosmic ray exposure of Apollo astronauts. Science. 1975;187(4173):263-5.<END>"
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "AP003"
+    ]
+   },
+   "meta": "1 file \u00b7 1.87 MB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "f9e36348-f326-53d4-aec9-6a69384ba56a",
+     "label": "JMAPAP003_238.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 1960837,
+     "meta": "1.87 MB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001365",
+   "label": "JMAPAP003_239",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "The Stopping HZE Particle (\u201cEnder\u201d) Density as an Integral Distribution in Particle Atomic Number, Z, for Apollo 17",
+    "dataset_catalog": "JMAPAP003_239",
+    "dataset_description": [
+     "This graph shows the average stopping density as a function of the atomic number, Z.  As reported in: Benton EV, Henke RP and Bailey JV. Heavy cosmic ray exposure of Apollo astronauts. Science. 1975;187(4173):263-5.<END>"
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "AP003"
+    ]
+   },
+   "meta": "1 file \u00b7 1.75 MB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "21f3dca1-7750-5189-93cd-4d924885b5ba",
+     "label": "JMAPAP003_239.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 1835008,
+     "meta": "1.75 MB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000353",
+   "label": "JMAPAP003_242",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "The Range of the Integral LET<sub>350</sub> Spectra for the Apollo 16 Dosimeters",
+    "dataset_catalog": "JMAPAP003_242",
+    "dataset_description": [
+     "This graph shows the range of linear energy transfer (LET) spectrum measured from Apollo 16 dosimeters.  As reported in: Benton EV, Henke RP and Bailey JV. Heavy cosmic ray exposure of Apollo astronauts. Science. 1975;187(4173):263-5.<END>"
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "AP003"
+    ]
+   },
+   "meta": "1 file \u00b7 1.94 MB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "428f0321-808d-5862-b808-8597897c22a3",
+     "label": "JMAPAP003_242.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 2034237,
+     "meta": "1.94 MB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001485",
+   "label": "JMAPAP003_241",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "The Stopping HZE Particle (\u201cEnder\u201d) Density as an Integral Distribution in Particle Atomic Number, Z, for Apollo 16",
+    "dataset_catalog": "JMAPAP003_241",
+    "dataset_description": [
+     "This graph shows the average stopping density as a function of the atomic number, Z.  As reported in: Benton EV, Henke RP and Bailey JV. Heavy cosmic ray exposure of Apollo astronauts. Science. 1975;187(4173):263-5.<END>"
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "AP003"
+    ]
+   },
+   "meta": "1 file \u00b7 1.66 MB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "d267ae60-5dbd-5ff1-86b9-af4753114a04",
+     "label": "JMAPAP003241.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 1740636,
+     "meta": "1.66 MB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

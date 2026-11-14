@@ -1,0 +1,145 @@
+{
+ "record": {
+  "id": "275f079a-35d9-5ecc-9f23-c7cd351870fc",
+  "_id": "275f079a-35d9-5ecc-9f23-c7cd351870fc",
+  "experiment_title": "Vestibular Modulation of Autonomic Responses to Orthostasis",
+  "archive_status_index": 1,
+  "pub_document_number": "PUB001911",
+  "parameter_html": "<table><tr><td>Blood pressure</td></tr><tr><td>Heart rate</td></tr><tr><td>Nystagmus</td></tr><tr><td>Sympathetic nerve activity</td></tr><tr><td>Thoracic impedance</td></tr><tr><td>Orthostasis</td></tr><tr><td>Respiration</td></tr><tr><td>Spectral power, high frequency</td></tr><tr><td>Spectral power, low frequency</td></tr><tr></tr></table>",
+  "__source_key": "cl62b0n7xcdo401o69t5v986j",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Smith, Michael\">Principal Investigator: Smith, Michael</a>",
+  "__record_modified_date": "2026-08-23T03:54:45.875812+00:00",
+  "__indexed": "2026-08-23T03:54:45.875812+00:00",
+  "__record_creation_date": "2022-07-28T20:02:29.400Z",
+  "keyword": [
+   "Heart rate",
+   "Orthostatic intolerance",
+   "Blood pressure"
+  ],
+  "keyword_name": "Blood pressure",
+  "__record_size": 87220,
+  "__record_version": 29,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<br>\r\nOrthostatic intolerance and related functional impairment remain a common problem for astronauts upon return from space. Despite considerable effort to develop countermeasures for this problem, a fundamental question remains unanswered: What is the cause of orthostatic intolerance?  Post flight symptoms vary widely and include both vestibular and orthostatic intolerance manifestations.  The role of vestibular disturbances in orthostatic intolerance is unknown.  Although it is known that vestibular signals project to the vasomotor centers of the brainstem in cats, there has been no prospective study of vestibular system effects on blood pressure control during orthostasis or on orthostatic tolerance in humans. Most fundamental, it remains unknown whether otolith inputs play an important role in the cardiovascular adjustments to the upright position in humans. The altered vestibular function after space flight may influence orthostatic tolerance indirectly (producing intolerable symptoms requiring recumbent posture) and/or directly (by affecting autonomic responses to orthostasis).  Post flight vestibular disturbances are complex and probably include some involvement of otolith inputs, semicircular canal inputs and related inputs. The purpose of this study was three-fold: 1) to determine the otolith contribution to the cardiovascular adjustments to the upright position; 2) to determine whether altering otolith or semicircular canal inputs affect blood pressure regulation during orthostasis; 3) to determine whether altering otolith or semicircular canal inputs affect orthostatic tolerance.\r\n<p>\r\nThe specific aims of the study were as follows: <br>\r\n1. To determine the role of otolith input in mediating the cardiovascular adjustments to the upright position.<br>\r\n2. To determine how otolith orientation affects the occurrence of pre-syncopal symptoms during an orthostatic stress.<br>\r\n3. To determine the effect of semicircular canal stimulation (with caloric testing) on the cardiovascular adjustments to orthostasis.<br>\r\n4. To determine the effect of semicircular canal stimulation (with caloric testing) on orthostatic tolerance.\r\n<p>\r\nAPPROACH:<br>\r\n<i>Study 1</i>:<br>\r\nThis study was performed to address specific aim 1. The response to seven perturbations involving combinations of head-up tilt (0, 30 and 60 degree) and neck position to affect otolith orientation. (30 degree flexion or extension) were obtained in random order.\r\n<p>\r\n<i>Study 2</i>:<br>\r\nThis study addressed specific aim 2 by assessing the heart rate, arterial pressure, sympathetic nerve activity, heart rate and blood pressure variances, respiration, responses to sustained orthostasis (30 degree head-up tilt plus lower body negative pressure at 10, 20 and 30 mmHg) with and without otolith input (0 degrees versus 60 degrees otolith orientation).\r\n<p>\r\n<i>Study 3</i>:<br>\r\nThis study addressed specific aims 3 and 4 by assessing the heart rate, arterial pressure, SNA. heart rate and blood pressure variances, responses to graded orthostasis (lower body negative pressure at -30, -40, -50 and -60 mmHg) with and without semicircular canal stimulation (caloric ear canal irrigation).\r\n<p>\r\nRESULTS:<br>\r\n<i>Study 1</i>:<br>\r\nWithin the first 20 seconds of tilt, arterial pressure increased most obviously in the 0 to 1 Gz otolith condition. Thoracic impedance tended to increase more in otolith-constant conditions. But no dependent variable differed significantly between tilt conditions, and no significant time x tilt interactions emerged.\r\n<p>\r\n<i>Study 2</i>:<br>\r\n<p>\r\nThere was a trend for greater increases in heart rate, but not for differences in arterial pressure or vascular resistance during the graded orthostasis. In addition, changes in low frequency and high frequency spectral power trended toward significance,, but did not achieve significance. In some subjects, this effect suggests that autonomic control was modestly affected by the otolith stimulus during graded orthostasis.\r\n<p>\r\n<i>Study 3</i>:<br>\r\n<p>\r\nSignificant nystagmus was provoked by the caloric stimulus in each subject with insignificant effects on baseline heart rate, mean arterial pressure, or sympathetic nerve activity consistent with previous pilot data and previous findings. The cold caloric stimulation performed during LBNP resulted in similar changes as the thermoneutral stimulus in heart rate and blood pressure suggesting that there was not a significant effect of semicircular canal stimulation.\r\n<p>",
+  "payload_id": "BRC",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "NAG91262",
+  "indexed": "2026-08-23T03:54:45.875812+00:00",
+  "GUID": "cl62b0n7xcdo401o69t5v986j",
+  "parameter_name": [
+   "Blood pressure",
+   "Heart rate",
+   "Nystagmus",
+   "Sympathetic nerve activity",
+   "Thoracic impedance",
+   "Orthostasis",
+   "Respiration",
+   "Spectral power, high frequency",
+   "Spectral power, low frequency"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 1269,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Cardiovascular physiology"
+  ],
+  "pme_role_with_name": [
+   "Principal Investigator: Smith, Michael"
+  ],
+  "missions": [
+   [
+    [
+     "BRC"
+    ]
+   ]
+  ],
+  "__dirid": "275f079a-35d9-5ecc-9f23-c7cd351870fc",
+  "__record_size_wo_doccontent": 87220,
+  "PI": [
+   "Smith, Michael"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "NAG91262"
+  ],
+  "mission_id": [
+   [
+    [
+     "BRC"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "proposal_date": [],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Smith, Michael"
+  ],
+  "LaunchDate": [
+   "01/01/2003"
+  ],
+  "LaunchYear": 2003,
+  "program_name": [
+   "Ground"
+  ],
+  "archive_status": "Data preservation is complete. All datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Ground",
+  "__source_field_concat": "PUB001911 BRC cl62b0n7xcdo401o69t5v986j Blood pressure  N/A Vestibular Modulation of Autonomic Responses to Orthostasis NAG91262 Ground Data preservation is complete. All datasets are publicly available.",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<br>\r\nOrthostatic intolerance and related functional impairment remain a common problem for astronauts upon return from space. Despite considerable effort to develop countermeasures for this problem, a fundamental question remains unanswered: What is the cause of orthostatic intolerance?  Post flight symptoms vary widely and include both vestibular and orthostatic intolerance manifestations.  The role of vestibular disturbances in orthostatic intolerance is unknown.  Although it is known that vestibular signals project to the vasomotor centers of the brainstem in cats, there has been no prospective study of vestibular system effects on blood pressure control during orthostasis or on orthostatic tolerance in humans. Most fundamental, it remains unknown whether otolith inputs play an important role in the cardiovascular adjustments to the upright position in humans. The altered vestibular function after space flight may influence orthostatic tolerance indirectly (producing intolerable symptoms requiring recumbent posture) and/or directly (by affecting autonomic responses to orthostasis).  Post flight vestibular disturbances are complex and probably include some involvement of otolith inputs, semicircular canal inputs and related inputs. The purpose of this study was three-fold: 1) to determine the otolith contribution to the cardiovascular adjustments to the upright position; 2) to determine whether altering otolith or semicircular canal inputs affect blood pressure regulation during orthostasis; 3) to determine whether altering otolith or semicircular canal inputs affect orthostatic tolerance.\r\n<p>\r\nThe specific aims of the study were as follows: <br>\r\n1. To determine the role of otolith input in mediating the cardiovascular adjustments to the upright position.<br>\r\n2. To determine how otolith orientation affects the occurrence of pre-syncopal symptoms during an orthostatic stress.<br>\r\n3. To determine the effect of semicircular canal stimulation (with caloric testing) on the cardiovascular adjustments to orthostasis.<br>\r\n4. To determine the effect of semicircular canal stimulation (with caloric testing) on orthostatic tolerance.\r\n<p>\r\nAPPROACH:<br>\r\n<i>Study 1</i>:<br>\r\nThis study was performed to address specific aim 1. The response to seven perturbations involving combinations of head-up tilt (0, 30 and 60 degree) and neck position to affect otolith orientation. (30 degree flexion or extension) were obtained in random order.\r\n<p>\r\n<i>Study 2</i>:<br>\r\nThis study addressed specific aim 2 by assessing the heart rate, arterial pressure, sympathetic nerve activity, heart rate and blood pressure variances, respiration, responses to sustained orthostasis (30 degree head-up tilt plus lower body negative pressure at 10, 20 and 30 mmHg) with and without otolith input (0 degrees versus 60 degrees otolith orientation).\r\n<p>\r\n<i>Study 3</i>:<br>\r\nThis study addressed specific aims 3 and 4 by assessing the heart rate, arterial pressure, SNA. heart rate and blood pressure variances, responses to graded orthostasis (lower body negative pressure at -30, -40, -50 and -60 mmHg) with and without semicircular canal stimulation (caloric ear canal irrigation).\r\n<p>\r\nRESULTS:<br>\r\n<i>Study 1</i>:<br>\r\nWithin the first 20 seconds of tilt, arterial pressure increased most obviously in the 0 to 1 Gz otolith condition. Thoracic impedance tended to increase more in otolith-constant conditions. But no dependent variable differed significantly between tilt conditions, and no significant time x tilt interactions emerged.\r\n<p>\r\n<i>Study 2</i>:<br>\r\n<p>\r\nThere was a trend for greater increases in heart rate, but not for differences in arterial pressure or vascular resistance during the graded orthostasis. In addition, changes in low frequency and high frequency spectral power trended toward significance,, but did not achieve significance. In some subjects, this effect suggests that autonomic control was modestly affected by the otolith stimulus during graded orthostasis.\r\n<p>\r\n<i>Study 3</i>:<br>\r\n<p>\r\nSignificant nystagmus was provoked by the caloric stimulus in each subject with insignificant effects on baseline heart rate, mean arterial pressure, or sympathetic nerve activity consistent with previous pilot data and previous findings. The cold caloric stimulation performed during LBNP resulted in similar changes as the thermoneutral stimulus in heart rate and blood pressure suggesting that there was not a significant effect of semicircular canal stimulation.\r\n<p>",
+  "__doi": "10.83263/abkf-y041",
+  "__doi_record_creation_date": "2026-08-23T03:54:45",
+  "__doi_record_modified_date": "2026-08-23T03:54:45"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001774",
+   "label": "NAG91262__2580213521",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Final Report",
+    "dataset_catalog": "NAG91262__2580213521",
+    "dataset_description": [
+     "This is the final report for the NAG91262 study.  It contains summarized results as well as a table which shows the tilt levels, neck orientation, and resulting otolith orientation for each subject."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "NAG91262"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "c11c4e64-763e-5c8b-8d53-4074caa6cdf4",
+     "label": "NAG91262__2580213521.pdf_BRC_NAG91262_2011_258_030956.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

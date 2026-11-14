@@ -1,0 +1,199 @@
+{
+ "record": {
+  "id": "229e9ecb-720c-51dd-93fd-ca1b533055bb",
+  "_id": "229e9ecb-720c-51dd-93fd-ca1b533055bb",
+  "experiment_title": "Magic Window System:  Habitability and Recreational Applications of Innovative Imagery Systems",
+  "archive_status_index": 2,
+  "parameter_html": "<table><tr><td>Task performance analysis</td></tr><tr></tr></table>",
+  "__source_key": "cl62aziv9cdew01o6dhiaebki",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Whitmore, Mihriban\">Principal Investigator: Whitmore, Mihriban</a>",
+  "experiment_type_lk": [
+   "NASA Extreme Environment Mission Operations (NEEMO) Project"
+  ],
+  "__record_modified_date": "2026-08-23T04:17:52.155328+00:00",
+  "__indexed": "2026-08-23T04:17:52.155328+00:00",
+  "__record_creation_date": "2022-07-28T19:54:34.623Z",
+  "keyword": [
+   "Task performance analysis"
+  ],
+  "keyword_name": "Task performance analysis",
+  "__record_size": 96313,
+  "__record_version": 29,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<br>\r\nThe objective of the Magic Windows study was to determine the functional requirements of innovative imagery systems for possible use on long-duration missions such as the International Space Station (ISS) and beyond. An imagery system could be used to display preferred information or images (work or entertainment), such as pictures, movies, and operational procedures like a \"Magic Window\" on the ISS.  A magic window for exercise, such as a virtual reality display, could show a moving scene that changes as the user advances on a treadmill.  In order to determine the best technology and facilitate its effective use, the desired functionality and needs for these types of systems were investigated.\r\n<P>\r\nAPPROACH:<br>\r\nEach aquanaut was asked to fill out individually the one-page Imagery System Technology Usability Matrix toward the end of the mission while still in the habitat.  Completing the survey took less than an hour.  The matrix addressed the usability of the Ipaq, Palm, and Comm System (e.g. useful for the task, usable interface, improvements, or different equipment better suited for task). \r\n<P>\r\nThe Imagery System Technology Usability Matrix was set up with Technology (split into applications, if applicable) by Usability categories (interface usability, technical issues, and wearability). Usability categories contained questions which participants were asked to provide a rating on the scale of 1 (completely unacceptable) to 7 (completely acceptable).  The last column of the matrix included suggested alternate uses for each technology and general comments.  Paper and electronic copies of the matrix were both available.\r\n<P>\r\nRESULTS:<br>\r\nUsability matrix survey was collected on the current display interfaces to determine additional needs and identify user interface issues.  The investigators had a complete dataset.  All crewmembers filled out the survey (in paper-and-pencil format).  A post mission debrief was attended to obtain additional comments and inputs.\r\n<P>\r\nThe issues that rated the lowest and the aquanaut comments have been focused on. Each usability category has been discussed separately pointing out the specific technologies that received low ratings.\r\n<P>\r\n<U>Interface Usability</U><BR>\r\nThe ease of use and input controls and displays were highly acceptable with ratings ranging from 5.5 to 6.5 (with a scale of 1 being completely unacceptable, to 7 being completely acceptable). Therefore, the personal digital assistant (PDA) is a reasonable tool for implementing tasks. Aquanauts commented that using an Ipaq and a Palm seemed to be unnecessary, and it would be beneficial to use one PDA for all tasks requiring the small interface.\r\n<P>\r\n<U>Technical Issues</U><BR>\r\nData transfer was consistently rated moderately unacceptable for Ipaq tasks (average rating of 3.0 for timeline viewing and e-mail and average rating of 3.8 for journal writing). A problem of synching with the computer could be due to the laptop rather than the Ipaq.  However, in terms of getting crewmembers to use a PDA for tasks, it is important to reduce frustration of data transfer. General comments were made that additional training and familiarity with PDA interfaces prior to the mission would be helpful.\r\n<P>\r\n<U>Wearability</U><BR>\r\nWearability information was only applicable to a subset of technologies. Of those technologies, the In-suit Doppler Device received low ratings for personal comfort (average 3.5), don/doff ease (average 4.0), and adjustability and good fit (average rating 4.3).  The application of the probes with the adhesive to the skin was reported to be difficult to remove resulting in discomfort and some skin damage. It would be beneficial to look into alternatives that have less discomfort if this is to be used in future missions.\r\n<P>\r\n<U>Additional Observations</U><BR>\r\nOne of the concurrent efforts in the Usability Testing and Analysis Facility (UTAF) conducted by a summer intern was packaging of a personal entertainment system. The NEEMO 5 crew attempted to set up an entertainment system for watching a Digital Video Disc (DVD) as a group by hanging towels from bunk to bunk to hold the speakers and using a stepladder for the monitor display. Through the imagery system project, investigators hope to provide an integrated concept to provide a better set up.\r\n<P>\r\nThe information gathered from this Imagery System Technology Usability Matrix was valuable to gain a better understanding of the uses of technologies for life sciences missions. If similar research is to be done on future NEEMO missions, it might be beneficial to expand the matrix to elicit more specific comments above and beyond rating scores. Specifically, during the NEEMO 5 mission debrief, some communication technology issues were presented that warrant further investigation for future missions. \r\n<P>\r\nSome additional research ideas were also generated that might be valuable for future missions, such as aquanaut comments about combining multiple activities on the same technology (e.g. need for only one type of PDA.\r\n<P>\r\nOverall, Aquarius is an appropriate space flight analog for the habitability and human factors discipline to evaluate usability and user interface issues in a confined setting. \r\n<END>",
+  "payload_id": "NEEMO 5",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "NEEMO-MWS",
+  "indexed": "2026-08-23T04:17:52.155328+00:00",
+  "GUID": "cl62aziv9cdew01o6dhiaebki",
+  "parameter_name": [
+   "Task performance analysis"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 1100,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Human factors"
+  ],
+  "pme_role_with_name": [
+   "Principal Investigator: Whitmore, Mihriban",
+   "Technical Assistant to Principal Investigator: Byrne, Vicky"
+  ],
+  "missions": [
+   [
+    [
+     "NEEMO 5"
+    ]
+   ]
+  ],
+  "__dirid": "229e9ecb-720c-51dd-93fd-ca1b533055bb",
+  "__record_size_wo_doccontent": 96313,
+  "PI": [
+   "Whitmore, Mihriban"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "NEEMO-MWS"
+  ],
+  "mission_id": [
+   [
+    [
+     "NEEMO 5"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "proposal_date": [],
+  "proposal_source": [],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Whitmore, Mihriban"
+  ],
+  "program_name": [
+   "Ground"
+  ],
+  "archive_status": "Data preservation is complete. Privacy-protected datasets are available via data request. Remaining datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Ground",
+  "__source_field_concat": "NEEMO 5 cl62aziv9cdew01o6dhiaebki <table><tr><td>Task performance analysis</td></tr><tr></tr></table> Task performance analysis  N/A Magic Window System:  Habitability and Recreational Applications of Innovative Imagery Systems NEEMO-MWS Ground",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<br>\r\nThe objective of the Magic Windows study was to determine the functional requirements of innovative imagery systems for possible use on long-duration missions such as the International Space Station (ISS) and beyond. An imagery system could be used to display preferred information or images (work or entertainment), such as pictures, movies, and operational procedures like a \"Magic Window\" on the ISS.  A magic window for exercise, such as a virtual reality display, could show a moving scene that changes as the user advances on a treadmill.  In order to determine the best technology and facilitate its effective use, the desired functionality and needs for these types of systems were investigated.\r\n<P>\r\nAPPROACH:<br>\r\nEach aquanaut was asked to fill out individually the one-page Imagery System Technology Usability Matrix toward the end of the mission while still in the habitat.  Completing the survey took less than an hour.  The matrix addressed the usability of the Ipaq, Palm, and Comm System (e.g. useful for the task, usable interface, improvements, or different equipment better suited for task). \r\n<P>\r\nThe Imagery System Technology Usability Matrix was set up with Technology (split into applications, if applicable) by Usability categories (interface usability, technical issues, and wearability). Usability categories contained questions which participants were asked to provide a rating on the scale of 1 (completely unacceptable) to 7 (completely acceptable).  The last column of the matrix included suggested alternate uses for each technology and general comments.  Paper and electronic copies of the matrix were both available.\r\n<P>\r\nRESULTS:<br>\r\nUsability matrix survey was collected on the current display interfaces to determine additional needs and identify user interface issues.  The investigators had a complete dataset.  All crewmembers filled out the survey (in paper-and-pencil format).  A post mission debrief was attended to obtain additional comments and inputs.\r\n<P>\r\nThe issues that rated the lowest and the aquanaut comments have been focused on. Each usability category has been discussed separately pointing out the specific technologies that received low ratings.\r\n<P>\r\n<U>Interface Usability</U><BR>\r\nThe ease of use and input controls and displays were highly acceptable with ratings ranging from 5.5 to 6.5 (with a scale of 1 being completely unacceptable, to 7 being completely acceptable). Therefore, the personal digital assistant (PDA) is a reasonable tool for implementing tasks. Aquanauts commented that using an Ipaq and a Palm seemed to be unnecessary, and it would be beneficial to use one PDA for all tasks requiring the small interface.\r\n<P>\r\n<U>Technical Issues</U><BR>\r\nData transfer was consistently rated moderately unacceptable for Ipaq tasks (average rating of 3.0 for timeline viewing and e-mail and average rating of 3.8 for journal writing). A problem of synching with the computer could be due to the laptop rather than the Ipaq.  However, in terms of getting crewmembers to use a PDA for tasks, it is important to reduce frustration of data transfer. General comments were made that additional training and familiarity with PDA interfaces prior to the mission would be helpful.\r\n<P>\r\n<U>Wearability</U><BR>\r\nWearability information was only applicable to a subset of technologies. Of those technologies, the In-suit Doppler Device received low ratings for personal comfort (average 3.5), don/doff ease (average 4.0), and adjustability and good fit (average rating 4.3).  The application of the probes with the adhesive to the skin was reported to be difficult to remove resulting in discomfort and some skin damage. It would be beneficial to look into alternatives that have less discomfort if this is to be used in future missions.\r\n<P>\r\n<U>Additional Observations</U><BR>\r\nOne of the concurrent efforts in the Usability Testing and Analysis Facility (UTAF) conducted by a summer intern was packaging of a personal entertainment system. The NEEMO 5 crew attempted to set up an entertainment system for watching a Digital Video Disc (DVD) as a group by hanging towels from bunk to bunk to hold the speakers and using a stepladder for the monitor display. Through the imagery system project, investigators hope to provide an integrated concept to provide a better set up.\r\n<P>\r\nThe information gathered from this Imagery System Technology Usability Matrix was valuable to gain a better understanding of the uses of technologies for life sciences missions. If similar research is to be done on future NEEMO missions, it might be beneficial to expand the matrix to elicit more specific comments above and beyond rating scores. Specifically, during the NEEMO 5 mission debrief, some communication technology issues were presented that warrant further investigation for future missions. \r\n<P>\r\nSome additional research ideas were also generated that might be valuable for future missions, such as aquanaut comments about combining multiple activities on the same technology (e.g. need for only one type of PDA.\r\n<P>\r\nOverall, Aquarius is an appropriate space flight analog for the habitability and human factors discipline to evaluate usability and user interface issues in a confined setting. \r\n<END>",
+  "__doi": "10.83263/2avt-8482",
+  "__doi_record_creation_date": "2026-08-23T04:17:52",
+  "__doi_record_modified_date": "2026-08-23T04:17:52"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000515",
+   "label": "NEEMO_MWS__1581019961",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Usability Matrix Questionnaire",
+    "dataset_catalog": "NEEMO_MWS__1581019961",
+    "dataset_description": [
+     "This Excel file contains subject usability questions as it relates to the Palm PDA for StarX, Ipaq - Timeline Viewing, Ipaq - Journal Writing, In-suit Doppler Device, and PolyCom Videocon System ISS.\r\n<p>\r\nSource: Unpublished data"
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "NEEMO-MWS"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "3459ed93-3e8e-5e71-9ad9-6f8c95416cce",
+     "label": "NEEMO_MWS__1581019961.xls_NEEMO_5_NEEMO-MWS_2011_158_110655.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000525",
+   "label": "NEEMO_MWS__390923193",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Data Collection Imagery System Technology Usability Matrix",
+    "dataset_catalog": "NEEMO_MWS__390923193",
+    "dataset_description": [
+     "This image contains a sample questionnaire that aquanauts filled out during the Magic Window System: Habitability and Recreational Applications of Innovative Imagery Systems (NEEMO-MWS) study. The Imagery System Technology Usability Matrix was set up with technology (split into applications, if applicable) by usability categories (interface usability, technical issues, and wearability). Usability categories contained questions which participants were asked to provide a rating on the scale of 1 (completely unacceptable) to 7 (completely acceptable). The last column of the matrix included suggested alternate uses for each technology and general comments. Paper and electronic copies of the matrix were both available."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "NEEMO-MWS"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "f2caf092-be86-54ec-8e49-951305868d72",
+     "label": "NEEMO_MWS__390923193.tif_NEEMO_5_NEEMO-MWS_2013_39_090232.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000358",
+   "label": "NEEMO_MWS__1581233661",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Data Collection Timetables for Experiment NEEMO-MWS",
+    "dataset_catalog": "NEEMO_MWS__1581233661",
+    "dataset_description": [
+     "This spreadsheet represents the data collection timetables for data collection sessions for this experiment. Information included in this spreadsheet may include information on the test protocol, data collection constraints, parameters measured, hardware used, scheduled versus actual days of data collection, and subject information."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "NEEMO-MWS"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "55f79645-3b53-51d9-a877-1300cc02ffc4",
+     "label": "NEEMO_MWS__1581233661.xls_NEEMO_5_NEEMO-MWS_2011_158_120623.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

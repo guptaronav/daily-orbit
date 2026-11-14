@@ -1,0 +1,464 @@
+{
+ "record": {
+  "id": "ff0398fd-0abc-589d-883c-7e55aa73831c",
+  "_id": "ff0398fd-0abc-589d-883c-7e55aa73831c",
+  "experiment_title": "Inflight Study of Cardiovascular Deconditioning",
+  "pub_document_number": "PUB000275",
+  "experiment_alias": [
+   "178066 1/2",
+   "E066"
+  ],
+  "parameter_html": "<table><tr><td>59Fe incorporation, erythrocytes</td></tr><tr><td>Alveolar gas tensions</td></tr><tr><td>Arterial-alveolar carbon dioxide (aADCO2) difference</td></tr><tr><td>Arteriovenous oxygen difference (A-VO2 diff)</td></tr><tr><td>Blood volume, pulmonary</td></tr><tr><td>Brachial diastolic blood pressure (DBPb)</td></tr><tr><td>Brachial mean blood pressure</td></tr><tr><td>Brachial systolic blood pressure (SBPb)</td></tr><tr><td>Carbon dioxide output</td></tr><tr><td>Carbon dioxide output, maximum</td></tr><tr><td>Cardiac output</td></tr><tr><td>Dead space</td></tr><tr><td>Diastolic blood pressure</td></tr><tr><td>Electrocardiogram (ECG)</td></tr><tr><td>Ferritin</td></tr><tr><td>Forced expiratory flow (FEF)</td></tr><tr><td>Functional residual capacity (FRC)</td></tr><tr><td>Gas tension, mixed venous</td></tr><tr><td>Heart rate</td></tr><tr><td>Lung tissue volume</td></tr><tr><td>Maximal oxygen consumption (VO2max)</td></tr><tr><td>Mean arterial pressure</td></tr><tr><td>Minute ventilation (VE)</td></tr><tr><td>Oxygen consumption (VO2)</td></tr><tr><td>Respiratory exchange, maximum</td></tr><tr><td>Respiratory minute volume (VE)</td></tr><tr><td>Respiratory minute volume (VE), maximum</td></tr><tr><td>Respiratory quotient</td></tr><tr><td>Resporatory exchange ratio (RER)</td></tr><tr><td>Stroke volume</td></tr><tr><td>Systolic blood pressure</td></tr><tr><td>Tidal volume</td></tr><tr><td>Total peripheral resistance</td></tr><tr><td>Vital capacity (VC)</td></tr><tr></tr></table>",
+  "__source_key": "cl62ats9kcah301o68f04hjzc",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Farhi, Leon\">Principal Investigator: Farhi, Leon</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Klocke, Robert\">Co-Investigator: Klocke, Robert</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Olszowka, Albert\">Co-Investigator: Olszowka, Albert</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Pendergast, David\">Co-Investigator: Pendergast, David</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Rokitka, Mary\">Co-Investigator: Rokitka, Mary</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Shykoff, Barbara\">Co-Investigator: Shykoff, Barbara</a>",
+  "image_name": [
+   "Cardiopulmonary Rebreathing Unit (CRU)",
+   "SLS-1 Astronaut",
+   "SLS-1 Astronaut Utilizing the Bicycle Ergometer",
+   "SLS-2 Utilizing the Bicycle Ergometer"
+  ],
+  "keyword": [
+   "2,3-Diphosphoglycerate (DPG)"
+  ],
+  "keyword_name": "2,3-Diphosphoglycerate (DPG)",
+  "__record_version": 29,
+  "experiment_description": "OBJECTIVES:<br>\r\nOrthostatic intolerance, a manifestation of cardiovascular deconditioning, constitutes a significant problem for astronauts on their return to normal gravity. Adaptation presumably occurs while subjects are freed from the need to enhance venous return from dependent parts of the body. The changes become undesirable when the cardiovascular system once again includes a hydrostatic column and plasma volume is reduced. The problem, therefore, can be broken down into two separate questions, namely, what happens during microgravity exposure and what happens when gravitational acceleration is experienced again.\r\n<p>\r\nConditions under which the normal gravitational pull of blood to the legs and abdomen is reduced or\r\ncounterbalanced have been supposed to mimic the effects of microgravity. Extended periods of bed rest, head-down tilt (HDT), or thermoneutral water immersion are commonly used, resulting in the well-documented\r\ninitial dilation of central blood vessels and increases in stroke volume (SV) and cardiac output (Q). Adaptations occur in a matter of hours, with cardiovascular variables generally returning to erect control levels unless rehydration is forced.\r\n<p>\r\nThe investigators studied resting and exercising subjects before, during, and after two space flights, Spacelab Life Sciences (SLS)-1 and SLS-2. Thus, they were able to make the first measurements of exercise Q during space flight. Their results and the interesting discrepancies with ground-based simulations are best explained by taking into account the results of other measurements from the same subjects made by different research teams before and during these flights.\r\n<p>\r\nThe primary objectives of this study were: 1) determination of the time course of changes in resting cardiovascular/cardiopulmonary variables resulting from a prolonged exposure to zero-G followed by a return to one-G, and 2) determination of the manner in which acute and prolonged exposure to zero-G affects the cardiovascular/cardiopulmonary response to stress induced by exercise. \r\n<p>\r\nAPPROACH:<br>\r\nData were obtained preflight, inflight and postflight, both at rest and at various levels of exercise. Non-invasive measurements made on members of the crew yielded: metabolic values (oxygen uptake, carbon dioxide output, gas exchange ratio), circulatory values (cardiac output, heart rate, stroke volume, arterial blood pressure, approximate total peripheral resistance), and pulmonary values (functional residual capacity, lung tissue volume, expired and alveolar gas pressures, arterial-alveolar CO2 difference). \r\n<p>\r\nCardiac output (Q), heart rate (HR), blood pressure, and oxygen consumption (Vo2) were measured repeatedly both at\r\nrest and at two levels of exercise in six subjects during microgravity exposure. Exercise was at 30 and 60% of the workload producing the individual's maximal Vo2 in 1 G. Three of the subjects were on a 9-day flight, Spacelab Life\r\nSciences-1, and three were on a 15-day flight, Spacelab Life Sciences-2.\r\n<p>\r\nAt the beginning of each session, a three-lead ECG was connected, and a blood pressure cuff was wrapped around one arm. The subject then rested on the cycle ergometer. Feet were secured to the pedals with cleated bicycle shoes, and shoulder restraints were adjusted when appropriate. For steady-state measurements, the subject breathed room or cabin air until the computer-generated graphs of breath-by-breath oxygen consumption (V02), carbon dioxide production, and respiratory quotient showed at least 10 consistent breaths. After this, the subject pushed a button that initiated rebreathing by causing the computer to connect the subject to the rebreathing bag at the end of the subsequent expiration. The rebreathing bag volume, which the subject inhaled and exhaled completely on every breath, was 1,590 ml at rest and was increased with exercise so as to remain higher than the subject's tidal volume. The duration of the rebreathing was 25 seconds at rest and 4 seconds shorter for each 100-W increment of exercise.  Before beginning measurements on the first exercise runs, the subject warmed up by pedaling for three minutes at 30% exercise and for two minutes at 60% exercise.\r\n<p>\r\nSteady-state measurements of Vo2 and carbon dioxide production were made by integrating the flow-gas fraction product over 30-60 seconds of the steady-state period. The total volume of nitrogen inhaled during the period was assumed to equal the total volume exhaled, and expiratory flows were corrected accordingly. The rebreathing method used is based on the mass balance for carbon dioxide and is a modification of the original single-step technique. All carbon dioxide entering the gas in the lungs in a time interval leaves the blood in that interval. That amount can be expressed as the product of Q, arteriovenous carbon dioxide content difference, and time interval. \r\n<p>\r\nResults:<br>\r\nThere were no significant differences in cardiovascular variables among flight days (FDs) for the measured durations of the missions, from FD2 to FDS on SLS-1 and from FD2 to FD14 on SLS-2. We therefore averaged in-flight data across sessions. This not only reduced the scatter of our in-flight data but also allowed for easier combination of the data from the two flights.\r\n<p>\r\nResting values are tabulated by subject. In-flight Q at rest was an average of 1.5 l/minutes greater than erect preflight values but was not different from supine preflight values. In-flight resting heart rate was an average of 15 beats/minute lower than the erect control value and five beats/minutes lower than the supine control value. The calculated in-flight resting SV was elevated on average by 47 ml relative to the erect control value and 11 ml relative to the supine control value. \r\n<p>\r\nIn-flight resting mean arterial blood pressure (MAP) was an average of 6 mmHg less than the erect control\r\nMAP, although not different from the supine control MAP. In microgravity, systolic pressure at rest was not different from preflight (an average of 4 mmHg greater in flight than erect and 2 mmHg greater in-flight then supine). In flight diastolic pressure at rest was an average of 11 mmHg less than that erect and not different from that supine. Resting pulse pressure in flight was increased by an average of 15 mmHg relative to the erect control value and 7 mmHg relative to the supine control value.\r\n<p>\r\nDifferent subjects exercised at different absolute workloads. Furthermore, workloads for preflight\r\nerect exercise and in-flight exercise were different from those for preflight supine exercise. This makes direct-statistical comparison difficult. However, comparisons of linear relationships with V02 are possible. The slopes of MAP, respiratory quotient, minute ventilation, and tidal volume were not different among conditions.\r\n<p>",
+  "indexed": "2026-08-23T04:22:40.787297+00:00",
+  "GUID": "cl62ats9kcah301o68f04hjzc",
+  "__model_type": "lsda_experiment",
+  "__dirid": "ff0398fd-0abc-589d-883c-7e55aa73831c",
+  "__record_size_wo_doccontent": 143773,
+  "experiment_parms_tissue2": "N/A",
+  "experiment_parms_tissue1": "brachial",
+  "__update_method": "Update CDM",
+  "archive_status_index": 1,
+  "experiment_type_lk": [
+   "Shuttle Life Sciences Research (Spacelab)"
+  ],
+  "__record_modified_date": "2026-08-23T04:22:40.787297+00:00",
+  "proposal_source": "AO OSS-1-78",
+  "__indexed": "2026-08-23T04:22:40.787297+00:00",
+  "alias": [
+   "178066 1/2",
+   "E066"
+  ],
+  "__record_creation_date": "2022-07-28T19:40:27.735Z",
+  "__record_size": 143773,
+  "__model_version": 60,
+  "payload_id": "SLS-1",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "178066",
+  "experiment_related": [
+   "178294",
+   "178198",
+   "178022"
+  ],
+  "parameter_name": [
+   "59Fe incorporation, erythrocytes",
+   "Alveolar gas tensions",
+   "Arterial-alveolar carbon dioxide (aADCO2) difference",
+   "Arteriovenous oxygen difference (A-VO2 diff)",
+   "Blood volume, pulmonary",
+   "Brachial diastolic blood pressure (DBPb)",
+   "Brachial mean blood pressure",
+   "Brachial systolic blood pressure (SBPb)",
+   "Carbon dioxide output",
+   "Carbon dioxide output, maximum",
+   "Cardiac output",
+   "Dead space",
+   "Diastolic blood pressure",
+   "Electrocardiogram (ECG)",
+   "Ferritin",
+   "Forced expiratory flow (FEF)",
+   "Functional residual capacity (FRC)",
+   "Gas tension, mixed venous",
+   "Heart rate",
+   "Lung tissue volume",
+   "Maximal oxygen consumption (VO2max)",
+   "Mean arterial pressure",
+   "Minute ventilation (VE)",
+   "Oxygen consumption (VO2)",
+   "Respiratory exchange, maximum",
+   "Respiratory minute volume (VE)",
+   "Respiratory minute volume (VE), maximum",
+   "Respiratory quotient",
+   "Resporatory exchange ratio (RER)",
+   "Stroke volume",
+   "Systolic blood pressure",
+   "Tidal volume",
+   "Total peripheral resistance",
+   "Vital capacity (VC)"
+  ],
+  "payload_part": "SLS-1",
+  "exp_index": 2,
+  "research_area": [
+   "Pulmonary physiology",
+   "Cardiovascular physiology",
+   "Exercise physiology"
+  ],
+  "protocol_approach": "Not applicable",
+  "pme_role_with_name": [
+   "Astronaut: Seddon, Margaret",
+   "Co-Investigator: Klocke, Robert",
+   "Co-Investigator: Olszowka, Albert",
+   "Co-Investigator: Pendergast, David",
+   "Co-Investigator: Rokitka, Mary",
+   "Co-Investigator: Shykoff, Barbara",
+   "Principal Investigator: Farhi, Leon"
+  ],
+  "missions": [
+   [
+    [
+     "STS-40"
+    ]
+   ],
+   [
+    [
+     "STS-58"
+    ]
+   ]
+  ],
+  "PI": [
+   "Farhi, Leon"
+  ],
+  "_file_extension": [],
+  "experiment_identifier": [
+   "178066",
+   "178066 1/2",
+   "E066"
+  ],
+  "mission_id": [
+   [
+    [
+     "STS-40"
+    ]
+   ],
+   [
+    [
+     "STS-58"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "proposal_date": [
+   "2/7/78"
+  ],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Farhi, Leon"
+  ],
+  "archive_status": "Data preservation is complete. All datasets are publicly available.",
+  "__is_locked": false,
+  "Program": "Shuttle Program",
+  "__source_field_concat": "PUB000275 AO OSS-1-78 SLS-1 cl62ats9kcah301o68f04hjzc 2,3-Diphosphoglycerate (DPG) N/A brachial SLS-1 Not applicable Inflight Study of Cardiovascular Deconditioning 178066 Shuttle Program Data preservation is complete. All datasets are publicly available.",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<br>\r\nOrthostatic intolerance, a manifestation of cardiovascular deconditioning, constitutes a significant problem for astronauts on their return to normal gravity. Adaptation presumably occurs while subjects are freed from the need to enhance venous return from dependent parts of the body. The changes become undesirable when the cardiovascular system once again includes a hydrostatic column and plasma volume is reduced. The problem, therefore, can be broken down into two separate questions, namely, what happens during microgravity exposure and what happens when gravitational acceleration is experienced again.\r\n<p>\r\nConditions under which the normal gravitational pull of blood to the legs and abdomen is reduced or\r\ncounterbalanced have been supposed to mimic the effects of microgravity. Extended periods of bed rest, head-down tilt (HDT), or thermoneutral water immersion are commonly used, resulting in the well-documented\r\ninitial dilation of central blood vessels and increases in stroke volume (SV) and cardiac output (Q). Adaptations occur in a matter of hours, with cardiovascular variables generally returning to erect control levels unless rehydration is forced.\r\n<p>\r\nThe investigators studied resting and exercising subjects before, during, and after two space flights, Spacelab Life Sciences (SLS)-1 and SLS-2. Thus, they were able to make the first measurements of exercise Q during space flight. Their results and the interesting discrepancies with ground-based simulations are best explained by taking into account the results of other measurements from the same subjects made by different research teams before and during these flights.\r\n<p>\r\nThe primary objectives of this study were: 1) determination of the time course of changes in resting cardiovascular/cardiopulmonary variables resulting from a prolonged exposure to zero-G followed by a return to one-G, and 2) determination of the manner in which acute and prolonged exposure to zero-G affects the cardiovascular/cardiopulmonary response to stress induced by exercise. \r\n<p>\r\nAPPROACH:<br>\r\nData were obtained preflight, inflight and postflight, both at rest and at various levels of exercise. Non-invasive measurements made on members of the crew yielded: metabolic values (oxygen uptake, carbon dioxide output, gas exchange ratio), circulatory values (cardiac output, heart rate, stroke volume, arterial blood pressure, approximate total peripheral resistance), and pulmonary values (functional residual capacity, lung tissue volume, expired and alveolar gas pressures, arterial-alveolar CO2 difference). \r\n<p>\r\nCardiac output (Q), heart rate (HR), blood pressure, and oxygen consumption (Vo2) were measured repeatedly both at\r\nrest and at two levels of exercise in six subjects during microgravity exposure. Exercise was at 30 and 60% of the workload producing the individual's maximal Vo2 in 1 G. Three of the subjects were on a 9-day flight, Spacelab Life\r\nSciences-1, and three were on a 15-day flight, Spacelab Life Sciences-2.\r\n<p>\r\nAt the beginning of each session, a three-lead ECG was connected, and a blood pressure cuff was wrapped around one arm. The subject then rested on the cycle ergometer. Feet were secured to the pedals with cleated bicycle shoes, and shoulder restraints were adjusted when appropriate. For steady-state measurements, the subject breathed room or cabin air until the computer-generated graphs of breath-by-breath oxygen consumption (V02), carbon dioxide production, and respiratory quotient showed at least 10 consistent breaths. After this, the subject pushed a button that initiated rebreathing by causing the computer to connect the subject to the rebreathing bag at the end of the subsequent expiration. The rebreathing bag volume, which the subject inhaled and exhaled completely on every breath, was 1,590 ml at rest and was increased with exercise so as to remain higher than the subject's tidal volume. The duration of the rebreathing was 25 seconds at rest and 4 seconds shorter for each 100-W increment of exercise.  Before beginning measurements on the first exercise runs, the subject warmed up by pedaling for three minutes at 30% exercise and for two minutes at 60% exercise.\r\n<p>\r\nSteady-state measurements of Vo2 and carbon dioxide production were made by integrating the flow-gas fraction product over 30-60 seconds of the steady-state period. The total volume of nitrogen inhaled during the period was assumed to equal the total volume exhaled, and expiratory flows were corrected accordingly. The rebreathing method used is based on the mass balance for carbon dioxide and is a modification of the original single-step technique. All carbon dioxide entering the gas in the lungs in a time interval leaves the blood in that interval. That amount can be expressed as the product of Q, arteriovenous carbon dioxide content difference, and time interval. \r\n<p>\r\nResults:<br>\r\nThere were no significant differences in cardiovascular variables among flight days (FDs) for the measured durations of the missions, from FD2 to FDS on SLS-1 and from FD2 to FD14 on SLS-2. We therefore averaged in-flight data across sessions. This not only reduced the scatter of our in-flight data but also allowed for easier combination of the data from the two flights.\r\n<p>\r\nResting values are tabulated by subject. In-flight Q at rest was an average of 1.5 l/minutes greater than erect preflight values but was not different from supine preflight values. In-flight resting heart rate was an average of 15 beats/minute lower than the erect control value and five beats/minutes lower than the supine control value. The calculated in-flight resting SV was elevated on average by 47 ml relative to the erect control value and 11 ml relative to the supine control value. \r\n<p>\r\nIn-flight resting mean arterial blood pressure (MAP) was an average of 6 mmHg less than the erect control\r\nMAP, although not different from the supine control MAP. In microgravity, systolic pressure at rest was not different from preflight (an average of 4 mmHg greater in flight than erect and 2 mmHg greater in-flight then supine). In flight diastolic pressure at rest was an average of 11 mmHg less than that erect and not different from that supine. Resting pulse pressure in flight was increased by an average of 15 mmHg relative to the erect control value and 7 mmHg relative to the supine control value.\r\n<p>\r\nDifferent subjects exercised at different absolute workloads. Furthermore, workloads for preflight\r\nerect exercise and in-flight exercise were different from those for preflight supine exercise. This makes direct-statistical comparison difficult. However, comparisons of linear relationships with V02 are possible. The slopes of MAP, respiratory quotient, minute ventilation, and tidal volume were not different among conditions.\r\n<p>",
+  "__doi": "10.83263/d8e9-0785",
+  "__doi_record_creation_date": "2026-08-23T04:22:40",
+  "__doi_record_modified_date": "2026-08-23T04:22:40"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001059",
+   "label": "178066__3141149154",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Average Resting Data by Subject",
+    "dataset_catalog": "178066__3141149154",
+    "dataset_description": [
+     "This file contains a table with average resting data by subject. \r\n<p>\r\nSource: Shykoff BE, Farhi LE, Olszowka AJ, Pendergast DR, Rokitka MA, Eisenhardt CG, and Morin RA.  Cardiovascular response to submaximal exercise in sustained microgravity.  Journal of Applied Physiology. 1996 July; 81(1):26-32."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "178066"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "65b45351-268a-5348-9b4f-1ae9fa38850c",
+     "label": "178066__3141149154.xlsx_STS-40_178066_2012_314_121122.xlsx",
+     "type": "file",
+     "ext": "xlsx",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001332",
+   "label": "178066__3140252691",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Triple Product (SV X HR x MAP)",
+    "dataset_catalog": "178066__3140252691",
+    "dataset_description": [
+     "This file contains a graph of triple product (SV X HR x MAP) as a function of VO2 in all subjects.<p>\r\nSource: Shykoff BE, Farhi LE, Olszowka AJ, Pendergast DR, Rokitka MA, Eisenhardt CG, and Morin RA.  Cardiovascular response to submaximal exercise in sustained microgravity.  Journal of Applied Physiology. 1996 Jul; 81(1):26-32."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "178066"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "e24813ec-8fa2-56e1-b899-8fbdfc627d7b",
+     "label": "178066__3140252691.tif_STS-40_178066_2012_314_031145.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000493",
+   "label": "178066__3141226226",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Cardiac Output",
+    "dataset_catalog": "178066__3141226226",
+    "dataset_description": [
+     "This file contains a graph of cardiac output as a function of oxygen consumption (VO2) in all subjects. <p>\r\nSource: Shykoff BE, Farhi LE, Olszowka AJ, Pendergast DR, Rokitka MA, Eisenhardt CG, and Morin RA.  Cardiovascular response to submaximal exercise in sustained microgravity.  Journal of Applied Physiology. 1996 July; 81(1):26-32."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "178066"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "153d6cc6-3be0-5543-8568-b9a8a0d287f8",
+     "label": "178066__3141226226.tif_STS-40_178066_2012_314_011120.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001331",
+   "label": "178066__3140201596",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Total Peripheral Resistance (TPR)",
+    "dataset_catalog": "178066__3140201596",
+    "dataset_description": [
+     "This file contains a graph of total peripheral resistance (TPR) as a function of VO2 in all subjects.\r\n<p>\r\nSource: Shykoff BE, Farhi LE, Olszowka AJ, Pendergast DR, Rokitka MA, Eisenhardt CG, and Morin RA.  Cardiovascular response to submaximal exercise in sustained microgravity.  Journal of Applied Physiology. 1996 July; 81(1):26-32."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "178066"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "5707a6eb-43ff-5bc7-9b6b-aa637d2fb52f",
+     "label": "178066__3140201596.tif_STS-40_178066_2012_314_021103.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001058",
+   "label": "178066__3140214984",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Regression Lines",
+    "dataset_catalog": "178066__3140214984",
+    "dataset_description": [
+     "This file contains a graph of regression lines for exercise cardiac output (Q) versus VO2 for all subjects.<p>\r\nSource: Shykoff BE, Farhi LE, Olszowka AJ, Pendergast DR, Rokitka MA, Eisenhardt CG, and Morin RA.  Cardiovascular response to submaximal exercise in sustained microgravity.  Journal of Applied Physiology. 1996 July; 81(1):26-32."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "178066"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "66d5a3f1-ff0f-5fe8-9484-a7e0cc597c6a",
+     "label": "178066__3140114984.tif_STS-40_178066_2012_314_021156.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001057",
+   "label": "178066__3140208927",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Arteriovenous Oxygen Difference",
+    "dataset_catalog": "178066__3140208927",
+    "dataset_description": [
+     "This file contains a graph of arteriovenous (a-v) oxygen difference as a function of VO2 in all subjects.\r\n<p>\r\nSource: Shykoff BE, Farhi LE, Olszowka AJ, Pendergast DR, Rokitka MA, Eisenhardt CG, and Morin RA.  Cardiovascular response to submaximal exercise in sustained microgravity.  Journal of Applied Physiology. 1996 July; 81(1):26-32."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "178066"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "7f9a5f94-8658-51c7-baa7-8de905a99812",
+     "label": "178066__3140208927.tif_STS-40_178066_2012_314_021133.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001533",
+   "label": "178066__3141213517",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Regression Slopes",
+    "dataset_catalog": "178066__3141213517",
+    "dataset_description": [
+     "This file contains a table with regression slopes for several data products.\r\n<p>\r\nSource: Shykoff BE, Farhi LE, Olszowka AJ, Pendergast DR, Rokitka MA, Eisenhardt CG, and Morin RA.  Cardiovascular response to submaximal exercise in sustained microgravity.  Journal of Applied Physiology. 1996 July; 81(1):26-32."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "178066"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "010531e9-7b70-55a9-8b64-0316b348a2f7",
+     "label": "178066__3141213517.xlsx_STS-40_178066_2012_314_121147.xlsx",
+     "type": "file",
+     "ext": "xlsx",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001912",
+   "label": "178066__3140114984",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Heart Rate",
+    "dataset_catalog": "178066__3140114984",
+    "dataset_description": [
+     "This file contains a graph of heart rate (HR) as a function of percentage of maximal V02 (A) and as a function of VO2 (B) in all subjects. <p>\r\nSource: Shykoff BE, Farhi LE, Olszowka AJ, Pendergast DR, Rokitka MA, Eisenhardt CG, and Morin RA.  Cardiovascular response to submaximal exercise in sustained microgravity.  Journal of Applied Physiology. 1996 July; 81(1):26-32."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "178066"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "ef9510d6-e3c7-5de6-977b-07be3dfb2567",
+     "label": "178066__3140114984.tif_STS-40_178066_2012_314_011151.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002425",
+   "label": "178066__3140123132",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Mean Arterial Pressure (MAP)",
+    "dataset_catalog": "178066__3140123132",
+    "dataset_description": [
+     "This file contains a graph of mean arterial pressure (MAP) as a function of VO2 in all subjects.\r\n<p>\r\nSource: Shykoff BE, Farhi LE, Olszowka AJ, Pendergast DR, Rokitka MA, Eisenhardt CG, and Morin RA.  Cardiovascular response to submaximal exercise in sustained microgravity.  Journal of Applied Physiology. 1996 July; 81(1):26-32."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "178066"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "bbd962dc-a2d8-599c-b9bb-a9b393faeae6",
+     "label": "178066__3140123132.tif_STS-40_178066_2012_314_011139.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

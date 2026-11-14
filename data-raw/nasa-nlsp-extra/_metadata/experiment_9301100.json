@@ -1,0 +1,762 @@
+{
+ "record": {
+  "id": "b32bb92b-1434-5f76-bc35-7c9632604f0c",
+  "_id": "b32bb92b-1434-5f76-bc35-7c9632604f0c",
+  "experiment_title": "Ensemble Neural Coding of Place and Direction in Zero-G",
+  "pub_document_number": "ARCPUB000450",
+  "experiment_alias": [
+   "E100"
+  ],
+  "parameter_html": "<table><tr><td>Behavior, Body position, pitch axis, rat, Position-image-locator cameras, data acquisition system</td></tr><tr><td>Behavior, Body position, roll axis, rat, Position-image-locator cameras, data acquisition system</td></tr><tr><td>Behavior, Spatial orientation, head-direction (H) cells, thalamus and limbic cortex, brain, rat, Implanted probes, neuronal spikes</td></tr><tr><td>Behavior, Spatial orientation, place cells, hippocampus, brain, rat, Implanted probes, neuronal spikes</td></tr><tr><td>Neural firing rate, rat position</td></tr><tr><td>Neural spike data, rat position data</td></tr><tr></tr></table>",
+  "__source_key": "cl62au2mycauh01o6c5ve76kq",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:McNaughton, Bruce\">Principal Investigator: McNaughton, Bruce</a>",
+  "keyword": [
+   "Neurons",
+   "Hippocampus"
+  ],
+  "keyword_name": "Hippocampus",
+  "__record_version": 28,
+  "experiment_description": "<B>Objectives:</B><P>Brain cells in the hippocampus play an important role in the ability of animals to orient themselves within their environment. Called place cells, they encode a mental map of the environment, which is then used to remember locations and determine routes between them. Another class of neurons associated with spatial orientation, called head direction (HD) cells, are located in the thalamus and limbic cortex. Firing properties of the place cells in the hippocampus and HD cells are tightly coupled; one function of the HD cells may be to orient the acquired cognitive map in the hippocampus. The fact that this orientation system is based on information with respect to gravity suggests that problems may develop in low gravity conditions leading to an inability of the hippocampus to develop stable place codes. The purpose of this experiment was to study how the hippocampal neural representations of place and direction are affected by zero-gravity conditions in rats performing tasks requiring navigation in three dimensions.<P>\r\n\r\n<B>Approach:</B><P>The first part of the experiment addressed the question of whether the hippocampal place system can maintain stable representations of the environment under zero-G. Three rats were singly tracked with two position-image-locator cameras synchronized with a data acquisition system as they navigated a special walking apparatus. The walking apparatus consisted of three orthogonal planes in which a track permits the animal to walk in a continuous loop, having three 90 degree turns in its yaw axis interspersed with three 90 degree backward pitches. When the animal returns to the origin, it has completed only 270 degrees of yaw. Animals were implanted with probes that monitored neuronal spikes simultaneously from about 20 or more hippocampal neurons, to determine whether they fired in a stable fashion with respect to the rat's location in three-dimensional space. In the second part of the experiment, rats were trained to visit each of four arms on a two dimensional cross-shaped track. The rat was then rotated 180 degrees in the pitch axis followed by a 180-degree rotation in the roll axis; as a result, the rat faced 180 degrees opposite its original position without experiencing rotation in the yaw axis. The animals were tracked as above to determine whether place cells fire in synchronization with the rat\u00ef\u00bf\u00bds spatial location relative to the track or relative to the reference frame of the work volume of the General Purpose Work Station.<P>\r\n\r\n<B>Results:</B><P>During the first zero-G recording session on FD 4, rat 2 did not show strong spatial tuning in any of the cells that fired while on the track. In contrast, this animal had normal, highly specific place fields in cells that fired when tested on a very similar track four days before launch. A spatial-tuning index for rat 2 was significantly different between preflight and FD 4 recordings. Rat 1 exhibited a different pattern of abnormal spatial selectivity; almost all the spatially-selective firing recorded occurred when the rat moved its head off the track. In contrast to rats 1 and 2, rat 3 displayed normal spatial tuning on FD 4; however, these data came from the animal's second run on the track. Data from the first run were lost due to technical difficulties, so it remains unknown if the animal gained spatial experience during the first trial. Spatial selectivity of rats 1 and 2 improved by FD 9, showing hippocampal adaptation. The main conclusion is that, contrary to the original hypothesis, the rat hippocampus is capable of forming a stable code for three dimensional space under low gravity conditions; however, the development of this code may be somewhat slower than under normal gravity conditions.",
+  "indexed": "2026-08-23T04:02:26.308421+00:00",
+  "GUID": "cl62au2mycauh01o6c5ve76kq",
+  "__model_type": "lsda_experiment",
+  "__dirid": "b32bb92b-1434-5f76-bc35-7c9632604f0c",
+  "__record_size_wo_doccontent": 84728,
+  "experiment_parms_tissue2": "NULL",
+  "experiment_parms_tissue1": "NULL",
+  "__update_method": "Update CDM",
+  "archive_status_index": 1,
+  "experiment_type_lk": [
+   "Shuttle Life Sciences Research (Spacelab)"
+  ],
+  "__record_modified_date": "2026-08-23T04:02:26.308421+00:00",
+  "proposal_source": [
+   "AO93-OLMSA-01-100"
+  ],
+  "__indexed": "2026-08-23T04:02:26.308421+00:00",
+  "alias": [
+   "E100"
+  ],
+  "session_type": "Flight",
+  "__record_creation_date": "2022-07-28T19:40:49.789Z",
+  "__record_size": 84728,
+  "__model_version": 60,
+  "payload_id": "Neurolab",
+  "CombinedSpecies": [
+   [
+    "Rat (Rattus norvegicus) Fischer 344"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "9301100",
+  "experiment_related": [
+   "No related"
+  ],
+  "parameter_name": [
+   "Behavior, Body position, pitch axis, rat, Position-image-locator cameras, data acquisition system",
+   "Behavior, Body position, roll axis, rat, Position-image-locator cameras, data acquisition system",
+   "Behavior, Spatial orientation, head-direction (H) cells, thalamus and limbic cortex, brain, rat, Implanted probes, neuronal spikes",
+   "Behavior, Spatial orientation, place cells, hippocampus, brain, rat, Implanted probes, neuronal spikes",
+   "Neural firing rate, rat position",
+   "Neural spike data, rat position data"
+  ],
+  "exp_index": 719,
+  "research_area": [
+   "Neuroscience"
+  ],
+  "protocol_approach": "Vivarium control",
+  "pme_role_with_name": [
+   "ARC Deputy Payload Scientist: Hinds, Kathleen",
+   "ARC Experiment Support Scientist: Baer, Lisa",
+   "ARC Experiment Support Scientist: Lagel, Kristina",
+   "ARC Experiment Support Scientist: Piert, Steve",
+   "ARC Payload Manager: Maese, Albert",
+   "ARC Payload Scientist: Howerton, Thomas",
+   "ARC Project Scientist: Ostrach, Louis",
+   "Principal Investigator: McNaughton, Bruce"
+  ],
+  "missions": [
+   [
+    [
+     "STS-90"
+    ]
+   ]
+  ],
+  "PI": [
+   "McNaughton, Bruce"
+  ],
+  "_file_extension": [],
+  "experiment_identifier": [
+   "9301100",
+   "E100"
+  ],
+  "mission_id": [
+   [
+    [
+     "STS-90"
+    ]
+   ]
+  ],
+  "center": [
+   "Ames Research Center"
+  ],
+  "ncindex": [
+   7
+  ],
+  "proposal_date": [
+   "11/25/1993"
+  ],
+  "species": [
+   "Rat"
+  ],
+  "PrincipalInvestigator": [
+   "McNaughton, Bruce"
+  ],
+  "program_name": [
+   "Shuttle Program"
+  ],
+  "archive_status": "Data preservation is complete. All datasets are publicly available.",
+  "__is_locked": false,
+  "Program": "Shuttle Program",
+  "__source_field_concat": "Flight ARCPUB000450 Neurolab cl62au2mycauh01o6c5ve76kq Hippocampus NULL NULL Vivarium control Ensemble Neural Coding of Place and Direction in Zero-G 9301100 Shuttle Program Data preservation is complete. All datasets are publicly available.",
+  "__icon_type": "rat",
+  "__description": "<B>Objectives:</B><P>Brain cells in the hippocampus play an important role in the ability of animals to orient themselves within their environment. Called place cells, they encode a mental map of the environment, which is then used to remember locations and determine routes between them. Another class of neurons associated with spatial orientation, called head direction (HD) cells, are located in the thalamus and limbic cortex. Firing properties of the place cells in the hippocampus and HD cells are tightly coupled; one function of the HD cells may be to orient the acquired cognitive map in the hippocampus. The fact that this orientation system is based on information with respect to gravity suggests that problems may develop in low gravity conditions leading to an inability of the hippocampus to develop stable place codes. The purpose of this experiment was to study how the hippocampal neural representations of place and direction are affected by zero-gravity conditions in rats performing tasks requiring navigation in three dimensions.<P>\r\n\r\n<B>Approach:</B><P>The first part of the experiment addressed the question of whether the hippocampal place system can maintain stable representations of the environment under zero-G. Three rats were singly tracked with two position-image-locator cameras synchronized with a data acquisition system as they navigated a special walking apparatus. The walking apparatus consisted of three orthogonal planes in which a track permits the animal to walk in a continuous loop, having three 90 degree turns in its yaw axis interspersed with three 90 degree backward pitches. When the animal returns to the origin, it has completed only 270 degrees of yaw. Animals were implanted with probes that monitored neuronal spikes simultaneously from about 20 or more hippocampal neurons, to determine whether they fired in a stable fashion with respect to the rat's location in three-dimensional space. In the second part of the experiment, rats were trained to visit each of four arms on a two dimensional cross-shaped track. The rat was then rotated 180 degrees in the pitch axis followed by a 180-degree rotation in the roll axis; as a result, the rat faced 180 degrees opposite its original position without experiencing rotation in the yaw axis. The animals were tracked as above to determine whether place cells fire in synchronization with the rat\u00ef\u00bf\u00bds spatial location relative to the track or relative to the reference frame of the work volume of the General Purpose Work Station.<P>\r\n\r\n<B>Results:</B><P>During the first zero-G recording session on FD 4, rat 2 did not show strong spatial tuning in any of the cells that fired while on the track. In contrast, this animal had normal, highly specific place fields in cells that fired when tested on a very similar track four days before launch. A spatial-tuning index for rat 2 was significantly different between preflight and FD 4 recordings. Rat 1 exhibited a different pattern of abnormal spatial selectivity; almost all the spatially-selective firing recorded occurred when the rat moved its head off the track. In contrast to rats 1 and 2, rat 3 displayed normal spatial tuning on FD 4; however, these data came from the animal's second run on the track. Data from the first run were lost due to technical difficulties, so it remains unknown if the animal gained spatial experience during the first trial. Spatial selectivity of rats 1 and 2 improved by FD 9, showing hippocampal adaptation. The main conclusion is that, contrary to the original hypothesis, the rat hippocampus is capable of forming a stable code for three dimensional space under low gravity conditions; however, the development of this code may be somewhat slower than under normal gravity conditions.",
+  "__doi": "10.83263/hagq-3362",
+  "__doi_record_creation_date": "2026-08-23T04:02:26",
+  "__doi_record_modified_date": "2026-08-23T04:02:26"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001778",
+   "label": "AINV0000000594",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Preflight Rat 1, Place field maps",
+    "dataset_catalog": "AINV0000000594",
+    "dataset_description": [
+     "Firing rate maps as a function of rat position for individual place cells - illustrate locations at which each neuron fires for Rat 1 on Escher Staircase or Magic Carpet.<br/><br/>These files are binary-formatted files that contain two 64x64 pixel arrays of information: the firing rate map for each place cell and a map of position occupancy by the rat during the session.  To generate the arrays, the video camera image was divided into a 64x64 pixel array and the image was sampled at a rate of 60 Hz.  At every sample, the position of the rat was determined and the counter in the appropriate occupancy array was incremented.  The firing rate array was calculated by dividing, for each pixel, the number of spikes fired when the rat was in the pixel (obtained from the raw files) divided by the number of times the rat occupied that pixel (obtained from the occupancy array).<br/><br/>File format:  The file is a binary file containing 32768 bytes.  Each byte must be read out in the proper order as follows:  First read out the firing rate map array.  Each bin of the 64x64 bin firing rate map array is a floating point number, composed of 4 bytes.  The first 64 entries correspond to the top row of the array, the second 64 entries correspond to the second row, etc.  Immediately after the last entry of the last row (entry 4095), the occupancy array starts.  Each entry of the occupancy array is an integer (4 bytes) that corresponds to the number of position samples counted when the rat was at that location.  As with the firing rate array, the first 64 entries of the occupancy array correspond to the first row, the second 64 entries correspond to the second row, etc."
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "9301100"
+    ]
+   },
+   "meta": "0 files",
+   "date": "2022-07-28",
+   "children": []
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000891",
+   "label": "AINV0000000610",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Flight Day 9 Rat 2 raw data",
+    "dataset_catalog": "AINV0000000610",
+    "dataset_description": [
+     "Neural spike data, timing and rat position data from Rat 2 during baseline, Escher Staircase and Magic Carpet experiments on FD9.<br/><br/>Each data set is identified by the day of recording (FD4, FD9, or Preflight) and by the Rat number.  For example, \u201cFD4Rat1\u201d contains the data set for the Flight Day 4 recording of Rat 1.<br/><br/>Each data set is organized into a variable number of directories (TT0, TT1, etc.)  Each directory contains the data recorded from one of the recording \u201ctetrodes\u201d in the rat's brain.  The tetrode is a 4-channel electrode that records the activity of a small cluster of neurons.  Each channel is labeled x, y, a, or b.<br/><br/>There are multiple files within each TT directory.  Each file contains the data from one of the cells recorded from that electrode.  The number of cells recorded on each electrode varied from 1 to > 10.<br/><br/>There are three types of sessions.  (1) Data from the animal's run on the Escher Staircase (ES) track, (2) data from the animal's run on the Magic Carpet (MC) track, and (3) data from a baseline (BL) session in which the animal rested quietly in the Rodent Sleeping Pouch.  There may be repetitions of each one of these session types.<br/><br/>File naming convention: These files are named with the Session type and the neuron number.  For example, \u201cES.cell1\u201d contains the data from Neuron #1 during the Escher Staircase experiment and \u201cBL2.cell5\u201d contains the data from Neuron #5 during the second baseline session.<br/><br/>File format: The first 14 lines contain a header that contains certain information.  The only important line is that starting with the word \u201cFields.\u201d  This line contains the column headings for each of the 15 columns of data.  Each field is identified below.<br/><br/>After the header, each line of the file contains the raw data corresponding to every spike produced by the neuron during the session.  Thus, if the neuron fired 100 spikes during the session, there will be 100 lines of data following the header.<br/><br/>The type of data recorded (the fields listed in the header) are as follows:<br/>id: The identifier for the spike<br/>t_px: the peak of the spike recorded on channel x<br/>t_py: the peak of the spike recorded on channel y<br/>t_pa: the peak of the spike recorded on channel a<br/>t_pb: the peak of the spike recorded on channel b<br/>t_mx: the integrated area under the spike waveform recorded on channel x<br/>t_my: the integrated area under the spike waveform recorded on channel y<br/>t_ma: the integrated area under the spike waveform recorded on channel a<br/>t_mb: the integrated area under the spike waveform recorded on channel b<br/>t_maxwd: the width of the spike<br/>t_maxht: the height of the spike on the largest channel<br/>time: the time of occurence of the spike (in units of tens of microseconds)<br/>pos_x: the x-coordinate of the rat's position when the spike fired<br/>pos_y: the y-coordinate of the rat's position when the spike fired"
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9301100"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "ef8ab62a-65a0-5ebf-9fec-6d3c28051a24",
+     "label": "md.zip",
+     "type": "file",
+     "ext": "zip",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000388",
+   "label": "AINV0000000607",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Flight Day 4 Rat 2 raw data",
+    "dataset_catalog": "AINV0000000607",
+    "dataset_description": [
+     "Neural spike data, timing and rat position data from Rat 2 during baseline, Escher Staircase and Magic Carpet experiments on FD4.<br/><br/>Each data set is identified by the day of recording (FD4, FD9, or Preflight) and by the Rat number.  For example, \u201cFD4Rat1\u201d contains the data set for the Flight Day 4 recording of Rat 1.<br/><br/>Each data set is organized into a variable number of directories (TT0, TT1, etc.)  Each directory contains the data recorded from one of the recording \u201ctetrodes\u201d in the rat's brain.  The tetrode is a 4-channel electrode that records the activity of a small cluster of neurons.  Each channel is labeled x, y, a, or b.<br/><br/>There are multiple files within each TT directory.  Each file contains the data from one of the cells recorded from that electrode.  The number of cells recorded on each electrode varied from 1 to > 10.<br/><br/>There are three types of sessions.  (1) Data from the animal's run on the Escher Staircase (ES) track, (2) data from the animal's run on the Magic Carpet (MC) track, and (3) data from a baseline (BL) session in which the animal rested quietly in the Rodent Sleeping Pouch.  There may be repetitions of each one of these session types.<br/><br/>File naming convention: These files are named with the Session type and the neuron number.  For example, \u201cES.cell1\u201d contains the data from Neuron #1 during the Escher Staircase experiment and \u201cBL2.cell5\u201d contains the data from Neuron #5 during the second baseline session.<br/><br/>File format: The first 14 lines contain a header that contains certain information.  The only important line is that starting with the word \u201cFields.\u201d  This line contains the column headings for each of the 15 columns of data.  Each field is identified below.<br/><br/>After the header, each line of the file contains the raw data corresponding to every spike produced by the neuron during the session.  Thus, if the neuron fired 100 spikes during the session, there will be 100 lines of data following the header.<br/><br/>The type of data recorded (the fields listed in the header) are as follows:<br/>id: The identifier for the spike<br/>t_px: the peak of the spike recorded on channel x<br/>t_py: the peak of the spike recorded on channel y<br/>t_pa: the peak of the spike recorded on channel a<br/>t_pb: the peak of the spike recorded on channel b<br/>t_mx: the integrated area under the spike waveform recorded on channel x<br/>t_my: the integrated area under the spike waveform recorded on channel y<br/>t_ma: the integrated area under the spike waveform recorded on channel a<br/>t_mb: the integrated area under the spike waveform recorded on channel b<br/>t_maxwd: the width of the spike<br/>t_maxht: the height of the spike on the largest channel<br/>time: the time of occurence of the spike (in units of tens of microseconds)<br/>pos_x: the x-coordinate of the rat's position when the spike fired<br/>pos_y: the y-coordinate of the rat's position when the spike fired"
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9301100"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "cc440d0c-5de1-5946-8200-e28517c17e78",
+     "label": "md.zip",
+     "type": "file",
+     "ext": "zip",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001565",
+   "label": "AINV0000000605",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Preflight Rat 3 raw data",
+    "dataset_catalog": "AINV0000000605",
+    "dataset_description": [
+     "Neural spike data, timing and rat position data from Rat 3 during ground-based versions of Escher Staircase and Magic Carpet.<br/><br/>Each data set is identified by the day of recording (FD4, FD9, or Preflight) and by the Rat number.  For example, \u201cFD4Rat1\u201d contains the data set for the Flight Day 4 recording of Rat 1.<br/><br/>Each data set is organized into a variable number of directories (TT0, TT1, etc.)  Each directory contains the data recorded from one of the recording \u201ctetrodes\u201d in the rat's brain.  The tetrode is a 4-channel electrode that records the activity of a small cluster of neurons.  Each channel is labeled x, y, a, or b.<br/><br/>There are multiple files within each TT directory.  Each file contains the data from one of the cells recorded from that electrode.  The number of cells recorded on each electrode varied from 1 to > 10.<br/><br/>There are three types of sessions.  (1) Data from the animal's run on the Escher Staircase (ES) track, (2) data from the animal's run on the Magic Carpet (MC) track, and (3) data from a baseline (BL) session in which the animal rested quietly in the Rodent Sleeping Pouch.  There may be repetitions of each one of these session types.<br/><br/>File naming convention: These files are named with the Session type and the neuron number.  For example, \u201cES.cell1\u201d contains the data from Neuron #1 during the Escher Staircase experiment and \u201cBL2.cell5\u201d contains the data from Neuron #5 during the second baseline session.<br/><br/>File format: The first 14 lines contain a header that contains certain information.  The only important line is that starting with the word \u201cFields.\u201d  This line contains the column headings for each of the 15 columns of data.  Each field is identified below.<br/><br/>After the header, each line of the file contains the raw data corresponding to every spike produced by the neuron during the session.  Thus, if the neuron fired 100 spikes during the session, there will be 100 lines of data following the header.<br/><br/>The type of data recorded (the fields listed in the header) are as follows:<br/>id: The identifier for the spike<br/>t_px: the peak of the spike recorded on channel x<br/>t_py: the peak of the spike recorded on channel y<br/>t_pa: the peak of the spike recorded on channel a<br/>t_pb: the peak of the spike recorded on channel b<br/>t_mx: the integrated area under the spike waveform recorded on channel x<br/>t_my: the integrated area under the spike waveform recorded on channel y<br/>t_ma: the integrated area under the spike waveform recorded on channel a<br/>t_mb: the integrated area under the spike waveform recorded on channel b<br/>t_maxwd: the width of the spike<br/>t_maxht: the height of the spike on the largest channel<br/>time: the time of occurence of the spike (in units of tens of microseconds)<br/>pos_x: the x-coordinate of the rat's position when the spike fired<br/>pos_y: the y-coordinate of the rat's position when the spike fired"
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9301100"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "94a47936-29eb-531b-a7bb-82e20634e8b3",
+     "label": "md.zip",
+     "type": "file",
+     "ext": "zip",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002322",
+   "label": "AINV0000000600",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Flight Day 4 Rat 3, Place field maps",
+    "dataset_catalog": "AINV0000000600",
+    "dataset_description": [
+     "Firing rate maps as a function of rat position for individual place cells - illustrate locations at which each neuron fires for Rat 3 on Escher Staircase or Magic Carpet.<br/><br/>These files are binary-formatted files that contain two 64x64 pixel arrays of information: the firing rate map for each place cell and a map of position occupancy by the rat during the session.  To generate the arrays, the video camera image was divided into a 64x64 pixel array and the image was sampled at a rate of 60 Hz.  At every sample, the position of the rat was determined and the counter in the appropriate occupancy array was incremented.  The firing rate array was calculated by dividing, for each pixel, the number of spikes fired when the rat was in the pixel (obtained from the raw files) divided by the number of times the rat occupied that pixel (obtained from the occupancy array).<br/><br/>File format:  The file is a binary file containing 32768 bytes.  Each byte must be read out in the proper order as follows:  First read out the firing rate map array.  Each bin of the 64x64 bin firing rate map array is a floating point number, composed of 4 bytes.  The first 64 entries correspond to the top row of the array, the second 64 entries correspond to the second row, etc.  Immediately after the last entry of the last row (entry 4095), the occupancy array starts.  Each entry of the occupancy array is an integer (4 bytes) that corresponds to the number of position samples counted when the rat was at that location.  As with the firing rate array, the first 64 entries of the occupancy array correspond to the first row, the second 64 entries correspond to the second row, etc."
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "9301100"
+    ]
+   },
+   "meta": "0 files",
+   "date": "2022-07-28",
+   "children": []
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001203",
+   "label": "AINV0000000609",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Flight Day 9 Rat 1 raw data",
+    "dataset_catalog": "AINV0000000609",
+    "dataset_description": [
+     "Neural spike data, timing and rat position data from Rat 1 during baseline, Escher Staircase and Magic Carpet experiments on FD9.<br/><br/>Each data set is identified by the day of recording (FD4, FD9, or Preflight) and by the Rat number.  For example, \u201cFD4Rat1\u201d contains the data set for the Flight Day 4 recording of Rat 1.<br/><br/>Each data set is organized into a variable number of directories (TT0, TT1, etc.)  Each directory contains the data recorded from one of the recording \u201ctetrodes\u201d in the rat's brain.  The tetrode is a 4-channel electrode that records the activity of a small cluster of neurons.  Each channel is labeled x, y, a, or b.<br/><br/>There are multiple files within each TT directory.  Each file contains the data from one of the cells recorded from that electrode.  The number of cells recorded on each electrode varied from 1 to > 10.<br/><br/>There are three types of sessions.  (1) Data from the animal's run on the Escher Staircase (ES) track, (2) data from the animal's run on the Magic Carpet (MC) track, and (3) data from a baseline (BL) session in which the animal rested quietly in the Rodent Sleeping Pouch.  There may be repetitions of each one of these session types.<br/><br/>File naming convention: These files are named with the Session type and the neuron number.  For example, \u201cES.cell1\u201d contains the data from Neuron #1 during the Escher Staircase experiment and \u201cBL2.cell5\u201d contains the data from Neuron #5 during the second baseline session.<br/><br/>File format: The first 14 lines contain a header that contains certain information.  The only important line is that starting with the word \u201cFields.\u201d  This line contains the column headings for each of the 15 columns of data.  Each field is identified below.<br/><br/>After the header, each line of the file contains the raw data corresponding to every spike produced by the neuron during the session.  Thus, if the neuron fired 100 spikes during the session, there will be 100 lines of data following the header.<br/><br/>The type of data recorded (the fields listed in the header) are as follows:<br/>id: The identifier for the spike<br/>t_px: the peak of the spike recorded on channel x<br/>t_py: the peak of the spike recorded on channel y<br/>t_pa: the peak of the spike recorded on channel a<br/>t_pb: the peak of the spike recorded on channel b<br/>t_mx: the integrated area under the spike waveform recorded on channel x<br/>t_my: the integrated area under the spike waveform recorded on channel y<br/>t_ma: the integrated area under the spike waveform recorded on channel a<br/>t_mb: the integrated area under the spike waveform recorded on channel b<br/>t_maxwd: the width of the spike<br/>t_maxht: the height of the spike on the largest channel<br/>time: the time of occurence of the spike (in units of tens of microseconds)<br/>pos_x: the x-coordinate of the rat's position when the spike fired<br/>pos_y: the y-coordinate of the rat's position when the spike fired"
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9301100"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "bf1af4e2-3f11-5547-ad42-fa912f9771cd",
+     "label": "md.zip",
+     "type": "file",
+     "ext": "zip",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000386",
+   "label": "AINV0000000602",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Flight Day 9 Rat 2, Place field maps",
+    "dataset_catalog": "AINV0000000602",
+    "dataset_description": [
+     "Firing rate maps as a function of rat position for individual place cells - illustrate locations at which each neuron fires for Rat 1 on Escher Staircase or Magic Carpet.<br/><br/>These files are binary-formatted files that contain two 64x64 pixel arrays of information: the firing rate map for each place cell and a map of position occupancy by the rat during the session.  To generate the arrays, the video camera image was divided into a 64x64 pixel array and the image was sampled at a rate of 60 Hz.  At every sample, the position of the rat was determined and the counter in the appropriate occupancy array was incremented.  The firing rate array was calculated by dividing, for each pixel, the number of spikes fired when the rat was in the pixel (obtained from the raw files) divided by the number of times the rat occupied that pixel (obtained from the occupancy array).<br/><br/>File format:  The file is a binary file containing 32768 bytes.  Each byte must be read out in the proper order as follows:  First read out the firing rate map array.  Each bin of the 64x64 bin firing rate map array is a floating point number, composed of 4 bytes.  The first 64 entries correspond to the top row of the array, the second 64 entries correspond to the second row, etc.  Immediately after the last entry of the last row (entry 4095), the occupancy array starts.  Each entry of the occupancy array is an integer (4 bytes) that corresponds to the number of position samples counted when the rat was at that location.  As with the firing rate array, the first 64 entries of the occupancy array correspond to the first row, the second 64 entries correspond to the second row, etc."
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "9301100"
+    ]
+   },
+   "meta": "0 files",
+   "date": "2022-07-28",
+   "children": []
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000541",
+   "label": "AINV0000000604",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Preflight Rat 2 raw data",
+    "dataset_catalog": "AINV0000000604",
+    "dataset_description": [
+     "Neural spike data, timing and rat position data from Rat 2 during ground-based versions of Escher Staircase and Magic Carpet.<br/><br/>Each data set is identified by the day of recording (FD4, FD9, or Preflight) and by the Rat number.  For example, \u201cFD4Rat1\u201d contains the data set for the Flight Day 4 recording of Rat 1.<br/><br/>Each data set is organized into a variable number of directories (TT0, TT1, etc.)  Each directory contains the data recorded from one of the recording \u201ctetrodes\u201d in the rat's brain.  The tetrode is a 4-channel electrode that records the activity of a small cluster of neurons.  Each channel is labeled x, y, a, or b.<br/><br/>There are multiple files within each TT directory.  Each file contains the data from one of the cells recorded from that electrode.  The number of cells recorded on each electrode varied from 1 to > 10.<br/><br/>There are three types of sessions.  (1) Data from the animal's run on the Escher Staircase (ES) track, (2) data from the animal's run on the Magic Carpet (MC) track, and (3) data from a baseline (BL) session in which the animal rested quietly in the Rodent Sleeping Pouch.  There may be repetitions of each one of these session types.<br/><br/>File naming convention: These files are named with the Session type and the neuron number.  For example, \u201cES.cell1\u201d contains the data from Neuron #1 during the Escher Staircase experiment and \u201cBL2.cell5\u201d contains the data from Neuron #5 during the second baseline session.<br/><br/>File format: The first 14 lines contain a header that contains certain information.  The only important line is that starting with the word \u201cFields.\u201d  This line contains the column headings for each of the 15 columns of data.  Each field is identified below.<br/><br/>After the header, each line of the file contains the raw data corresponding to every spike produced by the neuron during the session.  Thus, if the neuron fired 100 spikes during the session, there will be 100 lines of data following the header.<br/><br/>The type of data recorded (the fields listed in the header) are as follows:<br/>id: The identifier for the spike<br/>t_px: the peak of the spike recorded on channel x<br/>t_py: the peak of the spike recorded on channel y<br/>t_pa: the peak of the spike recorded on channel a<br/>t_pb: the peak of the spike recorded on channel b<br/>t_mx: the integrated area under the spike waveform recorded on channel x<br/>t_my: the integrated area under the spike waveform recorded on channel y<br/>t_ma: the integrated area under the spike waveform recorded on channel a<br/>t_mb: the integrated area under the spike waveform recorded on channel b<br/>t_maxwd: the width of the spike<br/>t_maxht: the height of the spike on the largest channel<br/>time: the time of occurence of the spike (in units of tens of microseconds)<br/>pos_x: the x-coordinate of the rat's position when the spike fired<br/>pos_y: the y-coordinate of the rat's position when the spike fired"
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9301100"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "2ebff862-92de-5d5d-b7ca-d22a0884c0e0",
+     "label": "md.zip",
+     "type": "file",
+     "ext": "zip",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002128",
+   "label": "AINV0000000601",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Flight Day 9 Rat 1, Place field maps",
+    "dataset_catalog": "AINV0000000601",
+    "dataset_description": [
+     "Firing rate maps as a function of rat position for individual place cells - illustrate locations at which each neuron fires for Rat 1 on Escher Staircase or Magic Carpet.<br/><br/>These files are binary-formatted files that contain two 64x64 pixel arrays of information: the firing rate map for each place cell and a map of position occupancy by the rat during the session.  To generate the arrays, the video camera image was divided into a 64x64 pixel array and the image was sampled at a rate of 60 Hz.  At every sample, the position of the rat was determined and the counter in the appropriate occupancy array was incremented.  The firing rate array was calculated by dividing, for each pixel, the number of spikes fired when the rat was in the pixel (obtained from the raw files) divided by the number of times the rat occupied that pixel (obtained from the occupancy array).<br/><br/>File format:  The file is a binary file containing 32768 bytes.  Each byte must be read out in the proper order as follows:  First read out the firing rate map array.  Each bin of the 64x64 bin firing rate map array is a floating point number, composed of 4 bytes.  The first 64 entries correspond to the top row of the array, the second 64 entries correspond to the second row, etc.  Immediately after the last entry of the last row (entry 4095), the occupancy array starts.  Each entry of the occupancy array is an integer (4 bytes) that corresponds to the number of position samples counted when the rat was at that location.  As with the firing rate array, the first 64 entries of the occupancy array correspond to the first row, the second 64 entries correspond to the second row, etc."
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "9301100"
+    ]
+   },
+   "meta": "0 files",
+   "date": "2022-07-28",
+   "children": []
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000387",
+   "label": "AINV0000000606",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Flight Day 4 Rat 1 raw data",
+    "dataset_catalog": "AINV0000000606",
+    "dataset_description": [
+     "Neural spike data, timing and rat position data from Rat 1 during baseline, Escher Staircase and Magic Carpet experiments on FD4.<br/><br/>Each data set is identified by the day of recording (FD4, FD9, or Preflight) and by the Rat number.  For example, \u201cFD4Rat1\u201d contains the data set for the Flight Day 4 recording of Rat 1.<br/><br/>Each data set is organized into a variable number of directories (TT0, TT1, etc.)  Each directory contains the data recorded from one of the recording \u201ctetrodes\u201d in the rat's brain.  The tetrode is a 4-channel electrode that records the activity of a small cluster of neurons.  Each channel is labeled x, y, a, or b.<br/><br/>There are multiple files within each TT directory.  Each file contains the data from one of the cells recorded from that electrode.  The number of cells recorded on each electrode varied from 1 to > 10.<br/><br/>There are three types of sessions.  (1) Data from the animal's run on the Escher Staircase (ES) track, (2) data from the animal's run on the Magic Carpet (MC) track, and (3) data from a baseline (BL) session in which the animal rested quietly in the Rodent Sleeping Pouch.  There may be repetitions of each one of these session types.<br/><br/>File naming convention: These files are named with the Session type and the neuron number.  For example, \u201cES.cell1\u201d contains the data from Neuron #1 during the Escher Staircase experiment and \u201cBL2.cell5\u201d contains the data from Neuron #5 during the second baseline session.<br/><br/>File format: The first 14 lines contain a header that contains certain information.  The only important line is that starting with the word \u201cFields.\u201d  This line contains the column headings for each of the 15 columns of data.  Each field is identified below.<br/><br/>After the header, each line of the file contains the raw data corresponding to every spike produced by the neuron during the session.  Thus, if the neuron fired 100 spikes during the session, there will be 100 lines of data following the header.<br/><br/>The type of data recorded (the fields listed in the header) are as follows:<br/>id: The identifier for the spike<br/>t_px: the peak of the spike recorded on channel x<br/>t_py: the peak of the spike recorded on channel y<br/>t_pa: the peak of the spike recorded on channel a<br/>t_pb: the peak of the spike recorded on channel b<br/>t_mx: the integrated area under the spike waveform recorded on channel x<br/>t_my: the integrated area under the spike waveform recorded on channel y<br/>t_ma: the integrated area under the spike waveform recorded on channel a<br/>t_mb: the integrated area under the spike waveform recorded on channel b<br/>t_maxwd: the width of the spike<br/>t_maxht: the height of the spike on the largest channel<br/>time: the time of occurence of the spike (in units of tens of microseconds)<br/>pos_x: the x-coordinate of the rat's position when the spike fired<br/>pos_y: the y-coordinate of the rat's position when the spike fired"
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9301100"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "122904ad-d41f-52c7-a1ce-6f7862e37f28",
+     "label": "md.zip",
+     "type": "file",
+     "ext": "zip",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001320",
+   "label": "AINV0000000597",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Preflight Rat 3, Place field maps",
+    "dataset_catalog": "AINV0000000597",
+    "dataset_description": [
+     "Firing rate maps as a function of rat position for individual place cells - illustrate locations at which each neuron fires for Rat 3 on Escher Staircase or Magic Carpet.<br/><br/>These files are binary-formatted files that contain two 64x64 pixel arrays of information: the firing rate map for each place cell and a map of position occupancy by the rat during the session.  To generate the arrays, the video camera image was divided into a 64x64 pixel array and the image was sampled at a rate of 60 Hz.  At every sample, the position of the rat was determined and the counter in the appropriate occupancy array was incremented.  The firing rate array was calculated by dividing, for each pixel, the number of spikes fired when the rat was in the pixel (obtained from the raw files) divided by the number of times the rat occupied that pixel (obtained from the occupancy array).<br/><br/>File format:  The file is a binary file containing 32768 bytes.  Each byte must be read out in the proper order as follows:  First read out the firing rate map array.  Each bin of the 64x64 bin firing rate map array is a floating point number, composed of 4 bytes.  The first 64 entries correspond to the top row of the array, the second 64 entries correspond to the second row, etc.  Immediately after the last entry of the last row (entry 4095), the occupancy array starts.  Each entry of the occupancy array is an integer (4 bytes) that corresponds to the number of position samples counted when the rat was at that location.  As with the firing rate array, the first 64 entries of the occupancy array correspond to the first row, the second 64 entries correspond to the second row, etc."
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "9301100"
+    ]
+   },
+   "meta": "0 files",
+   "date": "2022-07-28",
+   "children": []
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001547",
+   "label": "AINV0000000598",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Flight Day 4 Rat 1, Place field maps",
+    "dataset_catalog": "AINV0000000598",
+    "dataset_description": [
+     "Firing rate maps as a function of rat position for individual place cells - illustrate locations at which each neuron fires for Rat 1 on Escher Staircase or Magic Carpet.<br/><br/>These files are binary-formatted files that contain two 64x64 pixel arrays of information: the firing rate map for each place cell and a map of position occupancy by the rat during the session.  To generate the arrays, the video camera image was divided into a 64x64 pixel array and the image was sampled at a rate of 60 Hz.  At every sample, the position of the rat was determined and the counter in the appropriate occupancy array was incremented.  The firing rate array was calculated by dividing, for each pixel, the number of spikes fired when the rat was in the pixel (obtained from the raw files) divided by the number of times the rat occupied that pixel (obtained from the occupancy array).<br/><br/>File format:  The file is a binary file containing 32768 bytes.  Each byte must be read out in the proper order as follows:  First read out the firing rate map array.  Each bin of the 64x64 bin firing rate map array is a floating point number, composed of 4 bytes.  The first 64 entries correspond to the top row of the array, the second 64 entries correspond to the second row, etc.  Immediately after the last entry of the last row (entry 4095), the occupancy array starts.  Each entry of the occupancy array is an integer (4 bytes) that corresponds to the number of position samples counted when the rat was at that location.  As with the firing rate array, the first 64 entries of the occupancy array correspond to the first row, the second 64 entries correspond to the second row, etc."
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "9301100"
+    ]
+   },
+   "meta": "0 files",
+   "date": "2022-07-28",
+   "children": []
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002129",
+   "label": "AINV0000000608",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Flight Day 4 Rat 3 raw data",
+    "dataset_catalog": "AINV0000000608",
+    "dataset_description": [
+     "Neural spike data, timing and rat position data from Rat 3 during baseline, Escher Staircase and Magic Carpet experiments on FD4.<br/><br/>Each data set is identified by the day of recording (FD4, FD9, or Preflight) and by the Rat number.  For example, \u201cFD4Rat1\u201d contains the data set for the Flight Day 4 recording of Rat 1.<br/><br/>Each data set is organized into a variable number of directories (TT0, TT1, etc.)  Each directory contains the data recorded from one of the recording \u201ctetrodes\u201d in the rat's brain.  The tetrode is a 4-channel electrode that records the activity of a small cluster of neurons.  Each channel is labeled x, y, a, or b.<br/><br/>There are multiple files within each TT directory.  Each file contains the data from one of the cells recorded from that electrode.  The number of cells recorded on each electrode varied from 1 to > 10.<br/><br/>There are three types of sessions.  (1) Data from the animal's run on the Escher Staircase (ES) track, (2) data from the animal's run on the Magic Carpet (MC) track, and (3) data from a baseline (BL) session in which the animal rested quietly in the Rodent Sleeping Pouch.  There may be repetitions of each one of these session types.<br/><br/>File naming convention: These files are named with the Session type and the neuron number.  For example, \u201cES.cell1\u201d contains the data from Neuron #1 during the Escher Staircase experiment and \u201cBL2.cell5\u201d contains the data from Neuron #5 during the second baseline session.<br/><br/>File format: The first 14 lines contain a header that contains certain information.  The only important line is that starting with the word \u201cFields.\u201d  This line contains the column headings for each of the 15 columns of data.  Each field is identified below.<br/><br/>After the header, each line of the file contains the raw data corresponding to every spike produced by the neuron during the session.  Thus, if the neuron fired 100 spikes during the session, there will be 100 lines of data following the header.<br/><br/>The type of data recorded (the fields listed in the header) are as follows:<br/>id: The identifier for the spike<br/>t_px: the peak of the spike recorded on channel x<br/>t_py: the peak of the spike recorded on channel y<br/>t_pa: the peak of the spike recorded on channel a<br/>t_pb: the peak of the spike recorded on channel b<br/>t_mx: the integrated area under the spike waveform recorded on channel x<br/>t_my: the integrated area under the spike waveform recorded on channel y<br/>t_ma: the integrated area under the spike waveform recorded on channel a<br/>t_mb: the integrated area under the spike waveform recorded on channel b<br/>t_maxwd: the width of the spike<br/>t_maxht: the height of the spike on the largest channel<br/>time: the time of occurence of the spike (in units of tens of microseconds)<br/>pos_x: the x-coordinate of the rat's position when the spike fired<br/>pos_y: the y-coordinate of the rat's position when the spike fired"
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9301100"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "6d576658-94fe-5573-bca0-0a3b02709666",
+     "label": "md.zip",
+     "type": "file",
+     "ext": "zip",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001548",
+   "label": "AINV0000000603",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Preflight Rat 1 raw data",
+    "dataset_catalog": "AINV0000000603",
+    "dataset_description": [
+     "Neural spike data, timing and rat position data from Rat 1 during ground-based versions of Escher Staircase and Magic Carpet.<br/><br/>Each data set is identified by the day of recording (FD4, FD9, or Preflight) and by the Rat number.  For example, \u201cFD4Rat1\u201d contains the data set for the Flight Day 4 recording of Rat 1.<br/><br/>Each data set is organized into a variable number of directories (TT0, TT1, etc.)  Each directory contains the data recorded from one of the recording \u201ctetrodes\u201d in the rat's brain.  The tetrode is a 4-channel electrode that records the activity of a small cluster of neurons.  Each channel is labeled x, y, a, or b.<br/><br/>There are multiple files within each TT directory.  Each file contains the data from one of the cells recorded from that electrode.  The number of cells recorded on each electrode varied from 1 to > 10.<br/><br/>There are three types of sessions.  (1) Data from the animal's run on the Escher Staircase (ES) track, (2) data from the animal's run on the Magic Carpet (MC) track, and (3) data from a baseline (BL) session in which the animal rested quietly in the Rodent Sleeping Pouch.  There may be repetitions of each one of these session types.<br/><br/>File naming convention: These files are named with the Session type and the neuron number.  For example, \u201cES.cell1\u201d contains the data from Neuron #1 during the Escher Staircase experiment and \u201cBL2.cell5\u201d contains the data from Neuron #5 during the second baseline session.<br/><br/>File format: The first 14 lines contain a header that contains certain information.  The only important line is that starting with the word \u201cFields.\u201d  This line contains the column headings for each of the 15 columns of data.  Each field is identified below.<br/><br/>After the header, each line of the file contains the raw data corresponding to every spike produced by the neuron during the session.  Thus, if the neuron fired 100 spikes during the session, there will be 100 lines of data following the header.<br/><br/>The type of data recorded (the fields listed in the header) are as follows:<br/>id: The identifier for the spike<br/>t_px: the peak of the spike recorded on channel x<br/>t_py: the peak of the spike recorded on channel y<br/>t_pa: the peak of the spike recorded on channel a<br/>t_pb: the peak of the spike recorded on channel b<br/>t_mx: the integrated area under the spike waveform recorded on channel x<br/>t_my: the integrated area under the spike waveform recorded on channel y<br/>t_ma: the integrated area under the spike waveform recorded on channel a<br/>t_mb: the integrated area under the spike waveform recorded on channel b<br/>t_maxwd: the width of the spike<br/>t_maxht: the height of the spike on the largest channel<br/>time: the time of occurence of the spike (in units of tens of microseconds)<br/>pos_x: the x-coordinate of the rat's position when the spike fired<br/>pos_y: the y-coordinate of the rat's position when the spike fired"
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9301100"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "d55c7247-5e78-542b-baa0-593e36474de5",
+     "label": "md.zip",
+     "type": "file",
+     "ext": "zip",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001145",
+   "label": "AINV0000000599",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Flight Day 4 Rat 2, Place field maps",
+    "dataset_catalog": "AINV0000000599",
+    "dataset_description": [
+     "Firing rate maps as a function of rat position for individual place cells - illustrate locations at which each neuron fires for Rat 2 on Escher Staircase or Magic Carpet.<br/><br/>These files are binary-formatted files that contain two 64x64 pixel arrays of information: the firing rate map for each place cell and a map of position occupancy by the rat during the session.  To generate the arrays, the video camera image was divided into a 64x64 pixel array and the image was sampled at a rate of 60 Hz.  At every sample, the position of the rat was determined and the counter in the appropriate occupancy array was incremented.  The firing rate array was calculated by dividing, for each pixel, the number of spikes fired when the rat was in the pixel (obtained from the raw files) divided by the number of times the rat occupied that pixel (obtained from the occupancy array).<br/><br/>File format:  The file is a binary file containing 32768 bytes.  Each byte must be read out in the proper order as follows:  First read out the firing rate map array.  Each bin of the 64x64 bin firing rate map array is a floating point number, composed of 4 bytes.  The first 64 entries correspond to the top row of the array, the second 64 entries correspond to the second row, etc.  Immediately after the last entry of the last row (entry 4095), the occupancy array starts.  Each entry of the occupancy array is an integer (4 bytes) that corresponds to the number of position samples counted when the rat was at that location.  As with the firing rate array, the first 64 entries of the occupancy array correspond to the first row, the second 64 entries correspond to the second row, etc."
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "9301100"
+    ]
+   },
+   "meta": "0 files",
+   "date": "2022-07-28",
+   "children": []
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001319",
+   "label": "AINV0000000596",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Preflight Rat 2, Place field maps",
+    "dataset_catalog": "AINV0000000596",
+    "dataset_description": [
+     "Firing rate maps as a function of rat position for individual place cells - illustrate locations at which each neuron fires for Rat 2 on Escher Staircase or Magic Carpet.<br/><br/>These files are binary-formatted files that contain two 64x64 pixel arrays of information: the firing rate map for each place cell and a map of position occupancy by the rat during the session.  To generate the arrays, the video camera image was divided into a 64x64 pixel array and the image was sampled at a rate of 60 Hz.  At every sample, the position of the rat was determined and the counter in the appropriate occupancy array was incremented.  The firing rate array was calculated by dividing, for each pixel, the number of spikes fired when the rat was in the pixel (obtained from the raw files) divided by the number of times the rat occupied that pixel (obtained from the occupancy array).<br/><br/>File format:  The file is a binary file containing 32768 bytes.  Each byte must be read out in the proper order as follows:  First read out the firing rate map array.  Each bin of the 64x64 bin firing rate map array is a floating point number, composed of 4 bytes.  The first 64 entries correspond to the top row of the array, the second 64 entries correspond to the second row, etc.  Immediately after the last entry of the last row (entry 4095), the occupancy array starts.  Each entry of the occupancy array is an integer (4 bytes) that corresponds to the number of position samples counted when the rat was at that location.  As with the firing rate array, the first 64 entries of the occupancy array correspond to the first row, the second 64 entries correspond to the second row, etc."
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "9301100"
+    ]
+   },
+   "meta": "0 files",
+   "date": "2022-07-28",
+   "children": []
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001318",
+   "label": "AINV0000000691",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Neurolab Data Roadmap",
+    "dataset_catalog": "AINV0000000691",
+    "dataset_description": [
+     "This roadmap explains the contents of all the archive records pertaining to the rodent project data operations inflight and pre/postflight at KSC."
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "9301034",
+     "9301085",
+     "9301100",
+     "9301103",
+     "9301118",
+     "9301122",
+     "9301123",
+     "9301127 1_2",
+     "9301132",
+     "9301143",
+     "9301150"
+    ]
+   },
+   "meta": "11 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "8aaf119f-564d-5ec0-8fcf-6402366fd950",
+     "label": "neurolab_data_map.doc",
+     "type": "file",
+     "ext": "doc",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a716c026-ad1e-5fbd-93c5-6f9ebe935df3",
+     "label": "neurolab_data_map.doc",
+     "type": "file",
+     "ext": "doc",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4f1d6ee7-3383-5b48-8cc3-173693867c33",
+     "label": "neurolab_data_map.doc",
+     "type": "file",
+     "ext": "doc",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3d99d9bb-2a0c-5fb4-b3ea-3b43701af3e5",
+     "label": "neurolab_data_map.doc",
+     "type": "file",
+     "ext": "doc",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5d23a74d-23c9-5d7a-bbbd-338a740d06f0",
+     "label": "neurolab_data_map.doc",
+     "type": "file",
+     "ext": "doc",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ef488f9d-6acc-50cd-bac9-d1a75945d574",
+     "label": "neurolab_data_map.doc",
+     "type": "file",
+     "ext": "doc",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d5108a6a-6432-5678-a772-82f4ff8c31d6",
+     "label": "neurolab_data_map.doc",
+     "type": "file",
+     "ext": "doc",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "fd1c6de0-a463-5596-88b7-5342f80d5ac2",
+     "label": "neurolab_data_map.doc",
+     "type": "file",
+     "ext": "doc",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "03962cd5-6a1b-5f39-8c3f-bf74f69fb4a0",
+     "label": "neurolab_data_map.doc",
+     "type": "file",
+     "ext": "doc",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "658d4aec-79f9-5b2d-a008-7adb3391a1db",
+     "label": "neurolab_data_map.doc",
+     "type": "file",
+     "ext": "doc",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "36497689-d0d3-5dfb-a427-a116a4a6aa44",
+     "label": "neurolab_data_map.doc",
+     "type": "file",
+     "ext": "doc",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000932",
+   "label": "AINV0000000641",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Postflight (at Cage Unload) Animal Weights, Neuronal Plasticity AEM Flight Group",
+    "dataset_catalog": "AINV0000000641",
+    "dataset_description": [
+     "This file contains postflight (collected at cage unload) Animal ID and Body Weight data for the 4 Neuronal Plasticity AEM flight animals."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9301100"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "e3d1ff4d-c1b2-5685-ba2c-b10450d20cc8",
+     "label": "CU 05_03_1998 NP AEM.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002069",
+   "label": "AINV0000000640",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Preflight (at Cage Load) Animal Weights, Neuronal Plasticity AEM Flight Group",
+    "dataset_catalog": "AINV0000000640",
+    "dataset_description": [
+     "This file contains preflight (collected at cage load) Animal ID and Body Weight data for the 4 Neuronal Plasticity AEM flight animals."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9301100"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "b8a8dbed-5353-5c12-9424-932f6e4e3ef0",
+     "label": "CL 04_15_1998 NP AEM.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

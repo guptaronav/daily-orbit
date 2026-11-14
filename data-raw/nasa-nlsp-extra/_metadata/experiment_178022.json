@@ -1,0 +1,250 @@
+{
+ "record": {
+  "id": "919e4dcc-a3c9-57ed-a417-12cbada561cc",
+  "_id": "919e4dcc-a3c9-57ed-a417-12cbada561cc",
+  "experiment_title": "Influence of Weightlessness Upon Human Autonomic Cardiovascular Control",
+  "pub_document_number": "PUB000274",
+  "experiment_alias": [
+   "E022"
+  ],
+  "parameter_html": "<table><tr><td>Body mass</td></tr><tr><td>Brachial diastolic blood pressure (DBPb)</td></tr><tr><td>Brachial systolic blood pressure (SBPb)</td></tr><tr><td>Carotid baroreflex operational point</td></tr><tr><td>Carotid baroreflex, R-R interval at each carotid distending pressure</td></tr><tr><td>Carotid baroreflex, R-R interval baseline</td></tr><tr><td>Carotid baroreflex, R-R interval range</td></tr><tr><td>Carotid baroreflex, maximum R-R interval</td></tr><tr><td>Carotid baroreflex, minimum R-R interval</td></tr><tr><td>Carotid distending pressure</td></tr><tr><td>Carotid distending pressure, maximum R-R interval</td></tr><tr><td>Carotid distending pressure, minimum R-R interval</td></tr><tr><td>Diastolic blood pressure</td></tr><tr><td>Electrocardiogram (ECG)</td></tr><tr><td>Neck chamber pressure</td></tr><tr><td>Respiratory cycle</td></tr><tr><td>Systolic blood pressure</td></tr><tr></tr></table>",
+  "__source_key": "cl62atrvgcah001o6dmtl0bao",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Eckberg, Dwain\">Principal Investigator: Eckberg, Dwain</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Brown, Troy\">Co-Investigator: Brown, Troy</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Convertino, Victor\">Co-Investigator: Convertino, Victor</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Doerr, Donald\">Co-Investigator: Doerr, Donald</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Meck, Janice\">Co-Investigator: Meck, Janice</a>",
+  "image_name": [
+   "Baroreflex Measurement System"
+  ],
+  "keyword": [
+   "Baroreflex",
+   "Head Down Tilt",
+   "Hypotension, orthostatic",
+   "Vagus nerve",
+   "Electrocardiography",
+   "Heart rate",
+   "Saccade",
+   "Weightlessness",
+   "Pressoreceptors",
+   "Reflex",
+   "Sympathetic nervous system",
+   "Carotid arteries",
+   "Exercise/physiology",
+   "Autonomic nervous system",
+   "Hemodynamics",
+   "Blood pressure",
+   "Heart"
+  ],
+  "keyword_name": "Heart",
+  "__record_version": 29,
+  "experiment_description": "OBJECTIVES:<br>\r\nIt is hypothesized that changes in the baroreceptor reflex play a major role in the development of conditions responsible for the fall of blood pressure (orthostatic hypotension) after space flight. This is especially pronounced in many astronauts when they try to stand up shortly after their return to Earth; they may feel faint and some are unable to remain standing. Although this and other effects associated with cardiovascular deconditioning disappear within a relatively short time period (days), all efforts must be made to understand the causes of this condition which affects the health, safety, and productivity of the astronauts. \r\n<P>\r\nChanges in arterial pressure are detected by pressure sensors called baroreceptors, located in two areas of the arterial tree: the bifurcation of the carotid arteries in the neck and the arch of the aorta, located in the chest. Since carotid baroreceptors are more accessible, this protocol focuses on them. \r\n<P>\r\nPrevious experiments showed that changes of the intra-carotid pressure can cause changes of the heart period. The relationship was identified as a sigmoidal curve, consisting of a threshold region, a linear portion, and a saturation range. In the threshold range, pressure within the carotid sinus must rise to a certain level before heart period prolongation occurs. In the linear range, heart period increases more or less linearly as intra-carotid pressure rises. In the saturation range, additional increments of intra-carotid pressure do not increase heart period. With the intervals between each heart beat rising, the diastolic blood pressure decreases. \r\n<P>\r\nAPPROACH:<br>\r\nThe investigation used the technique of neck suction. A neck chamber made of silicone rubber, which is molded to fit the contour of the anterior three fourths of the neck, is the centerpiece of the system. It has a silastic rubber diaphragm inside the chamber which seals against the neck during positive pressure and a gel edge which seals when suction is applied. The system was programmed to deliver a complex baroreceptor stimulus for use in space. First, the pressure inside the diaphragm was increased to about 40 mmHg. The positive pressure reduced carotid sinus diameter, and in most subjects, reduced the level of afferent (toward the brain) carotid baroreceptor activity to levels below the threshold necessary to provoke cardiographic changes. After about 5 seconds a series of ECG triggered pressure reductions was delivered which lowered the neck chamber pressure in a stepwise fashion to 25, 10, -5, -20, -35, -50, and -65 mmHg. The external application of negative pressure stretched the wall of the carotid artery and the carotid sinuses were stimulated and responded. After the last pressure reduction, neck chamber pressure returned to ambient levels. For each subject the stimulus train was applied seven times and the results were averaged. \r\n<P>\r\nOnce the ECG electrodes and the neck chamber were properly attached, the pressure reduction sequence was initiated. Each subject was required to complete two normal respiratory cycles, holding his breath (approximately 15 seconds) after the second expiration. The complex baroreceptor stimulus then was applied. In addition, plasma catecholamine levels were measured from blood samples obtained during other D-2 experiments. \r\n<P>\r\nExperiment sessions were completed preflight, inflight and postflight. During data collection on Earth, all subjects assumed a recumbent positon (the experiment operations were done by other personnel). During the flight the astronauts performed the procedures by themselves. For each astronaut, four inflight sessions were planned. \r\n<P>\r\nRESULTS:<br>\r\nOn landing day, baseline R-R intervals and their standard deviations were significantly below pre-launch values.  Both maximum slopes and R-R interval ranges were significantly reduced 2 and 10 days  post flight.  The data document transient reductions of baseline vagal-cardiac neural outflow, and protracted impairment of vagal responses to baroreceptor stimulation after space missions.\r\n<P>",
+  "indexed": "2026-08-23T04:08:51.407022+00:00",
+  "GUID": "cl62atrvgcah001o6dmtl0bao",
+  "__model_type": "lsda_experiment",
+  "__dirid": "919e4dcc-a3c9-57ed-a417-12cbada561cc",
+  "__record_size_wo_doccontent": 97755,
+  "experiment_parms_tissue2": "N/A",
+  "experiment_parms_tissue1": "brachial",
+  "__update_method": "Update CDM",
+  "archive_status_index": 2,
+  "experiment_type_lk": [
+   "Shuttle Life Sciences Research (Spacelab)"
+  ],
+  "__record_modified_date": "2026-08-23T04:08:51.407022+00:00",
+  "proposal_source": "AO OSS-1-78",
+  "__indexed": "2026-08-23T04:08:51.407022+00:00",
+  "alias": [
+   "E022"
+  ],
+  "session_type": "Head-down tilt simulation study",
+  "__record_creation_date": "2022-07-28T19:40:26.333Z",
+  "__record_size": 97755,
+  "__model_version": 60,
+  "payload_id": "SLS-1",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "178022",
+  "experiment_related": [
+   "DSO 601",
+   "9401709",
+   "9301049",
+   "178294",
+   "178198",
+   "178066"
+  ],
+  "parameter_name": [
+   "Body mass",
+   "Brachial diastolic blood pressure (DBPb)",
+   "Brachial systolic blood pressure (SBPb)",
+   "Carotid baroreflex operational point",
+   "Carotid baroreflex, R-R interval at each carotid distending pressure",
+   "Carotid baroreflex, R-R interval baseline",
+   "Carotid baroreflex, R-R interval range",
+   "Carotid baroreflex, maximum R-R interval",
+   "Carotid baroreflex, minimum R-R interval",
+   "Carotid distending pressure",
+   "Carotid distending pressure, maximum R-R interval",
+   "Carotid distending pressure, minimum R-R interval",
+   "Diastolic blood pressure",
+   "Electrocardiogram (ECG)",
+   "Neck chamber pressure",
+   "Respiratory cycle",
+   "Systolic blood pressure"
+  ],
+  "payload_part": "SLS-1",
+  "exp_index": 3,
+  "research_area": [
+   "Cardiovascular physiology"
+  ],
+  "pme_role_with_name": [
+   "Co-Investigator: Brown, Troy",
+   "Co-Investigator: Convertino, Victor",
+   "Co-Investigator: Doerr, Donald",
+   "Co-Investigator: Meck, Janice",
+   "Principal Investigator: Eckberg, Dwain"
+  ],
+  "missions": [
+   [
+    [
+     "STS-40"
+    ]
+   ],
+   [
+    [
+     "STS-55"
+    ]
+   ]
+  ],
+  "PI": [
+   "Eckberg, Dwain"
+  ],
+  "_file_extension": [],
+  "experiment_identifier": [
+   "178022",
+   "E022"
+  ],
+  "mission_id": [
+   [
+    [
+     "STS-40"
+    ]
+   ],
+   [
+    [
+     "STS-55"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "proposal_date": [
+   "2/7/78"
+  ],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Eckberg, Dwain"
+  ],
+  "archive_status": "Data preservation is complete. Privacy-protected datasets are available via data request. Remaining datasets are publicly available.",
+  "__is_locked": false,
+  "Program": "Shuttle Program",
+  "__source_field_concat": "Head-down tilt simulation study PUB000274 AO OSS-1-78 SLS-1 cl62atrvgcah001o6dmtl0bao Heart N/A brachial SLS-1 Influence of Weightlessness Upon Human Autonomic Cardiovascular Control 178022 Shuttle Program",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<br>\r\nIt is hypothesized that changes in the baroreceptor reflex play a major role in the development of conditions responsible for the fall of blood pressure (orthostatic hypotension) after space flight. This is especially pronounced in many astronauts when they try to stand up shortly after their return to Earth; they may feel faint and some are unable to remain standing. Although this and other effects associated with cardiovascular deconditioning disappear within a relatively short time period (days), all efforts must be made to understand the causes of this condition which affects the health, safety, and productivity of the astronauts. \r\n<P>\r\nChanges in arterial pressure are detected by pressure sensors called baroreceptors, located in two areas of the arterial tree: the bifurcation of the carotid arteries in the neck and the arch of the aorta, located in the chest. Since carotid baroreceptors are more accessible, this protocol focuses on them. \r\n<P>\r\nPrevious experiments showed that changes of the intra-carotid pressure can cause changes of the heart period. The relationship was identified as a sigmoidal curve, consisting of a threshold region, a linear portion, and a saturation range. In the threshold range, pressure within the carotid sinus must rise to a certain level before heart period prolongation occurs. In the linear range, heart period increases more or less linearly as intra-carotid pressure rises. In the saturation range, additional increments of intra-carotid pressure do not increase heart period. With the intervals between each heart beat rising, the diastolic blood pressure decreases. \r\n<P>\r\nAPPROACH:<br>\r\nThe investigation used the technique of neck suction. A neck chamber made of silicone rubber, which is molded to fit the contour of the anterior three fourths of the neck, is the centerpiece of the system. It has a silastic rubber diaphragm inside the chamber which seals against the neck during positive pressure and a gel edge which seals when suction is applied. The system was programmed to deliver a complex baroreceptor stimulus for use in space. First, the pressure inside the diaphragm was increased to about 40 mmHg. The positive pressure reduced carotid sinus diameter, and in most subjects, reduced the level of afferent (toward the brain) carotid baroreceptor activity to levels below the threshold necessary to provoke cardiographic changes. After about 5 seconds a series of ECG triggered pressure reductions was delivered which lowered the neck chamber pressure in a stepwise fashion to 25, 10, -5, -20, -35, -50, and -65 mmHg. The external application of negative pressure stretched the wall of the carotid artery and the carotid sinuses were stimulated and responded. After the last pressure reduction, neck chamber pressure returned to ambient levels. For each subject the stimulus train was applied seven times and the results were averaged. \r\n<P>\r\nOnce the ECG electrodes and the neck chamber were properly attached, the pressure reduction sequence was initiated. Each subject was required to complete two normal respiratory cycles, holding his breath (approximately 15 seconds) after the second expiration. The complex baroreceptor stimulus then was applied. In addition, plasma catecholamine levels were measured from blood samples obtained during other D-2 experiments. \r\n<P>\r\nExperiment sessions were completed preflight, inflight and postflight. During data collection on Earth, all subjects assumed a recumbent positon (the experiment operations were done by other personnel). During the flight the astronauts performed the procedures by themselves. For each astronaut, four inflight sessions were planned. \r\n<P>\r\nRESULTS:<br>\r\nOn landing day, baseline R-R intervals and their standard deviations were significantly below pre-launch values.  Both maximum slopes and R-R interval ranges were significantly reduced 2 and 10 days  post flight.  The data document transient reductions of baseline vagal-cardiac neural outflow, and protracted impairment of vagal responses to baroreceptor stimulation after space missions.\r\n<P>",
+  "__doi": "10.83263/cn3t-fr50",
+  "__doi_record_creation_date": "2026-08-23T04:08:51",
+  "__doi_record_modified_date": "2026-08-23T04:08:51"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002429",
+   "label": "178022__2820609911",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Published Results",
+    "dataset_catalog": "178022__2820609911",
+    "dataset_description": [
+     "Abstract: Although astronauts' cardiovascular function is normal while they are in space, many have altered haemodynamic responses to standing after they return to Earth, including inordinate tachycardia, orthostatic hypotension, and uncommonly, syncope. Simulated microgravity impairs vagal baroreceptor-cardiac reflex function and causes orthostatic hypotension. Actual microgravity, however, has been shown to either increase, or not change vagal baroreflex gain. In this study, we tested the null hypothesis that spaceflight does not impair human baroreflex mechanisms. We studied 11 American and two German astronauts before, during (flight days 2-8), and after two, 9- and 10-day space shuttle missions, with graded neck pressure and suction, to elicit sigmoid, vagally mediated carotid baroreflex R-R interval responses. Baseline systolic pressures tended to be higher in space than on Earth (P = 0.015, repeated measures analysis of variance), and baseline R-R intervals tended to be lower (P = 0.049). Baroreceptor-cardiac reflex relations were displaced downward on the R-R interval axis in space. The average range of R-R interval responses to neck pressure changes declined from preflight levels by 37% on flight day 8 (P = 0.051), maximum R-R intervals declined by 14% (P = 0.003), and vagal baroreflex gain by 9% (P = 0.009). These measures returned to preflight levels by 7-10 days after astronauts returned to Earth. This study documents significant increases of arterial pressure and impairment of vagal baroreflex function in space. These results and results published earlier indicate that microgravity exposure augments sympathetic, and diminishes vagal cardiovascular influences.<BR>\r\nDwain L Eckberg, et al. J Physiol. 2010 April 1;588(Pt 7):1129-1138.\r\n<P>\r\nSupporting figures:<BR>\r\nFigure 3. Mean \u00b1 95% confidence intervals for preflight and inflight vagal baroreflex relations. From: Human vagal baroreflex mechanisms in space. \r\n\r\nConfidence limits for carotid distending pressures are obscured by the symbols. Open circles, preflight values; red circles inflight values.\r\n<P>\r\nFigure 4. Mean \u00b1 95% confidence intervals for R\u2013R interval changes provoked by baroreflex stimuli. From: Human vagal baroreflex mechanisms in space. \r\nRegressions for data from preflight to flight day 8 and from flight day 8 until postflight days 7\u201310 are shown with corresponding levels of significance. C, the integrals for all R\u2013R interval responses to stimulus sequences. *Maximum R\u2013R intervals during baroreflex testing were significantly lower on flight day 8 than preflight.\r\n<P>\r\nFigure 5. Mean \u00b1 95% confidence intervals and individual (grey) vagal baroreflex gains for all subjects for all experimental sessions. From: Human vagal baroreflex mechanisms in space. \r\nRegression of baroreflex gains from preflight to flight day 8 was highly significant (P= 0.009). Individual data illustrate the great variability of vagal baroreflex gain among healthy subjects.\r\n<P>\r\nFigure 1. Baroreflex testing. From: Human vagal baroreflex mechanisms in space. \r\nThe left panel shows astronaut Rhea Seddon performing baroreflex testing on herself during the SLS-1 mission. The custom-fabricated neck chamber was sealed around the mandible, posterior neck and chest with synthetic rubber. A, a stylized neck pressure sequence; B, R\u2013R interval responses to the stimulus profile, telemetered from space; C, baroreceptor stimulus\u2013R\u2013R interval response relations for a different astronaut, studied preflight and on flight day 8 during the D-2 mission. In this and other figures, data from space are shown in red.\r\n<P>\r\nFigure 2. Mean (\u00b1 95% confidence limits) baseline arterial pressures and R\u2013R intervals associated with each baroreflex test. From: Human vagal baroreflex mechanisms in space. \r\nDashed lines indicate preflight averages. Results from repeated measures analysis of variance are given. The significance of pairwise differences was determined with the Holm\u2013Sidak test. In panel B: *diastolic pressure was significantly higher on landing day than on all other experimental days. In panel C: *pulse pressure was significantly lower on flight day 8 than preflight, and **significantly higher on postflight day 4 than preflight, landing day, and postflight day 1. In panel D: *R\u2013R intervals were significantly lower on flight day 8 than preflight."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "178022"
+    ]
+   },
+   "meta": "6 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "be8569f9-5e00-5928-a028-d891e9a01fe5",
+     "label": "178022__2820609911.pdf_STS-40_178022_2013_282_061001.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "dc89b0e6-5fb3-50c9-b1bb-52cae5bdd2b0",
+     "label": "tjp0588-1129-f4.gif_STS-40_178022_2013_282_061010.gif",
+     "type": "file",
+     "ext": "gif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "25fc2686-9f47-514e-8ad9-65064cb2f64e",
+     "label": "tjp0588-1129-f1.gif_STS-40_178022_2013_282_061027.gif",
+     "type": "file",
+     "ext": "gif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3ee9f5ac-b9d4-5de6-9383-68e7c983a0d9",
+     "label": "tjp0588-1129-f2.gif_STS-40_178022_2013_282_061042.gif",
+     "type": "file",
+     "ext": "gif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3088ea18-3e92-5ff1-8ff7-dc77a20e43d6",
+     "label": "tjp0588-1129-f5.gif_STS-40_178022_2013_282_061024.gif",
+     "type": "file",
+     "ext": "gif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0ae05754-533b-545c-b087-1a820039248f",
+     "label": "tjp0588-1129-f3.gif_STS-40_178022_2013_282_061056.gif",
+     "type": "file",
+     "ext": "gif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

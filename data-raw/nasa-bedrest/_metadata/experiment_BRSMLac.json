@@ -1,0 +1,656 @@
+{
+ "record": {
+  "id": "5ff5f10d-fb82-5af3-b2eb-ffd60cad1381",
+  "_id": "5ff5f10d-fb82-5af3-b2eb-ffd60cad1381",
+  "__is_locked": false,
+  "experiment_title": "Bed Rest Standard Measures: Lactulose Test",
+  "__source_key": "cl62b0581cdjv01o6c5b4byhz",
+  "experiment_type": [
+   [
+    "Flight Analogs Project (FAP)"
+   ],
+   [
+    "NASA Bedrest Studies"
+   ],
+   [
+    "NASA Ground-Based Investigations"
+   ]
+  ],
+  "AssignedArchivist": [
+   "Liddell, Nyaia A."
+  ],
+  "keyword": [
+   "Acetaminophen",
+   "Bed rest",
+   "Gastrointestinal system",
+   "Glucose, breath",
+   "Lactulose",
+   "Pharmacokinetics"
+  ],
+  "__record_version": 33,
+  "experiment_description": "OBJECTIVES:<br>\nGastrointestinal (GI) function plays a critical role in the absorption and bioavailability of orally administered drugs.  Further, the GI tract plays a pivotal role in the bioavailability of nutrients.  The availability of energy depends on intake, absorption, storage, and utilization.  The absorption and bioavailability of ingested compounds depend on physiological factors such as GI motility, splanchnic blood flow, and pH of gastric secretions.  \n<div>\nLactulose (Lac) and acetaminophen (APAP) are commonly used in research and clinical settings to measure gastrointestinal (GI) motility and absorption; similarly, Lac is used to measure GI Transit Time (GITT) and APAP to measure GI absorption as a function of GI motility. These measures are important as they influence absorption and bioavailability of orally administered drugs which in turn influence drug efficacy. These measures are also important because the effectiveness of orally administered drugs is affected by their rate of transit in the GI tract. GI motility has been shown to be slowed in flight and with certain orally administered drugs, astronauts report reduced efficacy and absence of common side effects elicited with the administered dose on the ground. Once validated, GITT and bioavailability measurements using Lac and APAP can serve as standard measures for estimating physiological and functional changes of the GI tract in microgravity and analog environments. These standard measures help understand and estimate risk of failure to treat due to ineffectiveness of medications.\n</div><div>\nAPPROACH:<br>\nLactulose Breath Hydrogen Test (LBHT) \u2013 Serial breath samples were collected after administration of 10 g of Lac. Samples were analyzed for hydrogen concentrations using the Quintron Microlyzer<sup>TM</sup>. GITT was determined as the time after ingestion until the time of the first sustained increase in breath hydrogen levels greater than 10ppm.\n</div><div>\nFunctional and pathologic changes in the GI tract, a site for absorption and extra-hepatic metabolism of drugs, were characterized by three tests: 1) the Lactulose/ Acetaminophen Test, 2) the Glucose Breath Test and 3) the Urea Breath Test. The characterization of GI function and pharmacokinetic changes involved the collection of pre-dose biologic (breath, saliva and urine) samples followed by the ingestion of oral acetaminophen as a pharmaceutical probe, and Lac, a non-digestible sugar.\n</div><div>\nRESULTS:<br>\nThis experiment was performed during Bed Rest Campaigns 3A, 3B, 3C, 3D, 3E, 3F, 5A, 5B, and 5C.\n</div><div>\nGITT increased from pre-bed rest on all days during bed rest while no difference was observed post bed rest. These results were in close agreement with those from space flight.  Longer GITT values were recorded in some of the subjects.  Twelve subjects had GI transit times over 2 hours during bed rest. \n</div><div></div>",
+  "indexed": "2026-08-23T04:11:45.690773+00:00",
+  "GUID": "cl62b0581cdjv01o6c5b4byhz",
+  "_file_extension": "human",
+  "archive_status": "Data preservation is complete.  All datasets are publicly available.",
+  "__model_type": "lsda_experiment",
+  "__dirid": "5ff5f10d-fb82-5af3-b2eb-ffd60cad1381",
+  "__record_size_wo_doccontent": 69573,
+  "__update_method": "Update CDM",
+  "experiment_identifier": [
+   "BRSMLac"
+  ],
+  "CompleteArchivalExpectedInFiscalYear": [
+   "0"
+  ],
+  "experiment_type_lk": [
+   "Flight Analogs Project (FAP)",
+   "NASA Bedrest Studies",
+   "NASA Ground-Based Investigations"
+  ],
+  "__record_modified_date": "2026-08-23T04:11:45.690773+00:00",
+  "nasa_center": "JSC",
+  "__indexed": "2026-08-23T04:11:45.690773+00:00",
+  "__record_creation_date": "2022-07-28T19:57:21.868Z",
+  "__record_size": 69573,
+  "species_strain": [
+   [
+    "N/A"
+   ]
+  ],
+  "__model_version": 60,
+  "species_sci_name": [
+   [
+    "Homo sapiens"
+   ]
+  ],
+  "payload_id": [
+   "Campaign 3",
+   "Campaign 5",
+   "Campaign 1"
+  ],
+  "CombinedSpecies": [
+   "Human (Homo sapiens) N/A"
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "ncindex": 2,
+  "researchIndex": [
+   10,
+   20
+  ],
+  "experiment_id": "BRSMLac",
+  "experiment_related": [
+   "BRSMUBT",
+   "BRSMGBT",
+   "BRSMAcet"
+  ],
+  "center": "JSC",
+  "parameter_name": [
+   "Cmax",
+   "Area under concentration-time curve (AUC)",
+   "Gastrointestinal transit time (GITT)",
+   "Time to maximum concentration (Tmax)",
+   "Half life (t 1/2)"
+  ],
+  "exp_index": 1109,
+  "research_area": [
+   "Gastrointestinal physiology",
+   "Pharmacology"
+  ],
+  "species": [
+   [
+    "Human"
+   ]
+  ],
+  "pme_role_with_name": [
+   "Principal Investigator: Putcha, Lakshmi"
+  ],
+  "missions": [
+   "UTMB Campaign 3",
+   "UTMB Campaign 5",
+   "UTMB Campaign 1"
+  ],
+  "PI": [
+   "Putcha, Lakshmi"
+  ],
+  "sort": [
+   3,
+   "2752a766-4483-5f4d-afb1-af681ac91261"
+  ],
+  "Program": "Ground",
+  "parameter_html": "<table><tr><td>Cmax</td></tr><tr><td>Area under concentration-time curve (AUC)</td></tr><tr><td>Gastrointestinal transit time (GITT)</td></tr><tr><td>Time to maximum concentration (Tmax)</td></tr><tr><td>Half life (t 1/2)</td></tr><tr></tr></table>",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Putcha, Lakshmi\">Principal Investigator: Putcha, Lakshmi</a>",
+  "PrincipalInvestigator": [
+   "Putcha, Lakshmi"
+  ],
+  "mission_id": [
+   "UTMB Campaign 3",
+   "UTMB Campaign 5",
+   "UTMB Campaign 1"
+  ],
+  "__source_field_concat": "human cl62b0581cdjv01o6c5b4byhz JSC JSC Bed Rest Standard Measures: Lactulose Test BRSMLac Ground Data preservation is complete.  All datasets are publicly available.",
+  "__icon_type": "",
+  "__description": "OBJECTIVES:<br>\nGastrointestinal (GI) function plays a critical role in the absorption and bioavailability of orally administered drugs.  Further, the GI tract plays a pivotal role in the bioavailability of nutrients.  The availability of energy depends on intake, absorption, storage, and utilization.  The absorption and bioavailability of ingested compounds depend on physiological factors such as GI motility, splanchnic blood flow, and pH of gastric secretions.  \n<div>\nLactulose (Lac) and acetaminophen (APAP) are commonly used in research and clinical settings to measure gastrointestinal (GI) motility and absorption; similarly, Lac is used to measure GI Transit Time (GITT) and APAP to measure GI absorption as a function of GI motility. These measures are important as they influence absorption and bioavailability of orally administered drugs which in turn influence drug efficacy. These measures are also important because the effectiveness of orally administered drugs is affected by their rate of transit in the GI tract. GI motility has been shown to be slowed in flight and with certain orally administered drugs, astronauts report reduced efficacy and absence of common side effects elicited with the administered dose on the ground. Once validated, GITT and bioavailability measurements using Lac and APAP can serve as standard measures for estimating physiological and functional changes of the GI tract in microgravity and analog environments. These standard measures help understand and estimate risk of failure to treat due to ineffectiveness of medications.\n</div><div>\nAPPROACH:<br>\nLactulose Breath Hydrogen Test (LBHT) \u2013 Serial breath samples were collected after administration of 10 g of Lac. Samples were analyzed for hydrogen concentrations using the Quintron Microlyzer<sup>TM</sup>. GITT was determined as the time after ingestion until the time of the first sustained increase in breath hydrogen levels greater than 10ppm.\n</div><div>\nFunctional and pathologic changes in the GI tract, a site for absorption and extra-hepatic metabolism of drugs, were characterized by three tests: 1) the Lactulose/ Acetaminophen Test, 2) the Glucose Breath Test and 3) the Urea Breath Test. The characterization of GI function and pharmacokinetic changes involved the collection of pre-dose biologic (breath, saliva and urine) samples followed by the ingestion of oral acetaminophen as a pharmaceutical probe, and Lac, a non-digestible sugar.\n</div><div>\nRESULTS:<br>\nThis experiment was performed during Bed Rest Campaigns 3A, 3B, 3C, 3D, 3E, 3F, 5A, 5B, and 5C.\n</div><div>\nGITT increased from pre-bed rest on all days during bed rest while no difference was observed post bed rest. These results were in close agreement with those from space flight.  Longer GITT values were recorded in some of the subjects.  Twelve subjects had GI transit times over 2 hours during bed rest. \n</div><div></div>",
+  "__doi": "10.83263/7ng5-5112",
+  "__doi_record_creation_date": "2026-08-23T04:11:45",
+  "__doi_record_modified_date": "2026-08-23T04:11:45"
+ },
+ "datasets": [
+  {
+   "key": "e1e09b1d-d1ad-59ea-bfd2-fb0e1bca92fe",
+   "label": "BRSMLAC_Campaign_1_Lactulose_Breath_Test",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "UTMB Bedrest Campaign 1 Lactulose Breath Test",
+    "dataset_catalog": "BRSMLAC_Campaign_1_Lactulose_Breath_Test",
+    "dataset_description": "This dataset contains data for all Campaign 1 subjects for the Bed Rest Standard Measure Lactulose (BRSMLac) study. Data collection sessions for this measure were performed once pre-bed rest, three times during bed rest, and one time post bed rest. Urine, blood, saliva, and breath samples were taken during the data collection sessions to determine the absorption rate of lactulose.",
+    "processing_level": "Processed Data",
+    "experiment_id": [
+     "BRSMLac"
+    ]
+   },
+   "meta": "7 files \u00b7 157.6 KB",
+   "date": "2025-04-15",
+   "children": [
+    {
+     "key": "e8e45f91-c40f-50a2-bb8d-bc15d77eec7c",
+     "label": "BRSMLAC_Campaign_1_Lactulose_Breath_Test_All",
+     "type": "file",
+     "ext": "",
+     "file_size": 11955,
+     "meta": "11.7 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "727dc53f-4c0a-5f22-bf37-d044e84baa06",
+     "label": "BRSMLAC_Campaign_1_Lactulose_Breath_Test_Subject_3",
+     "type": "file",
+     "ext": "",
+     "file_size": 3966,
+     "meta": "3.9 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a59a5cc4-ef7f-57b6-9320-5a402a51f69f",
+     "label": "BRSMLAC_Campaign_1_Lactulose_Breath_Test_ReadMe",
+     "type": "file",
+     "ext": "",
+     "file_size": 271,
+     "meta": "271 B",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7e46f53a-b9e6-564c-9ec5-357495e3916b",
+     "label": "BRSMLAC_Campaign_1_Lactulose_Breath_Test_Subject_2",
+     "type": "file",
+     "ext": "",
+     "file_size": 4004,
+     "meta": "3.9 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e96e4e5c-99fd-57d5-81f4-be925531aeea",
+     "label": "BRSMLAC_Campaign_1_Lactulose_Breath_Test_Graph_Subject_1",
+     "type": "file",
+     "ext": "",
+     "file_size": 57686,
+     "meta": "56.3 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "28de97b0-22af-5670-9f53-d613a0684719",
+     "label": "BRSMLAC_Campaign_1_Lactulose_Breath_Test_Graph_Subject_2",
+     "type": "file",
+     "ext": "",
+     "file_size": 79573,
+     "meta": "77.7 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4ace0888-5094-5328-9386-a29991430030",
+     "label": "BRSMLAC_Campaign_1_Lactulose_Breath_Test_Subject_1",
+     "type": "file",
+     "ext": "",
+     "file_size": 3952,
+     "meta": "3.9 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "50254d4a-7ca1-5219-ac4e-07420e5d1b2d",
+   "label": "BRSMLac_Campaign_3_Lactulose",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "UTMB Bedrest Campaign 3 Lactulose",
+    "dataset_catalog": "BRSMLac_Campaign_3_Lactulose",
+    "dataset_description": "This dataset contains data for all Campaign 3 subjects for the Bed Rest Standard Measures Lactulose (BRSMLac) study. Data collection sessions for this measure were performed once pre-bed rest, three times during bed rest, and one time post bed rest.",
+    "processing_level": [
+     "Processed Data"
+    ],
+    "experiment_id": [
+     "BRSMLac"
+    ]
+   },
+   "meta": "3 files \u00b7 5.4 KB",
+   "date": "2025-09-19",
+   "children": [
+    {
+     "key": "e49d0443-75e5-5200-90d0-e2715adcaf7d",
+     "label": "BRSMLac_Campaign_3_Lactulose",
+     "type": "file",
+     "ext": "",
+     "file_size": 3869,
+     "meta": "3.8 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "90a1b9fa-68fe-5c48-aa53-6c8f0c0031f8",
+     "label": "BRSMLac_Campaign_3_Lactulose_C3D_Multiple",
+     "type": "file",
+     "ext": "",
+     "file_size": 1206,
+     "meta": "1.2 KB",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "872daf04-d08e-5d48-a96c-1e1d04815d08",
+     "label": "BRSMLac_Campaign_3_Lactulose_C3C_ALL",
+     "type": "file",
+     "ext": "",
+     "file_size": 473,
+     "meta": "473 B",
+     "date": "2025-09-19",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "d250f2e4-e373-54b6-bd8e-320877a95353",
+   "label": "BRSMLAC_Campaign_1_All_Saliva",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "UTMB Bedrest Campaign 1 All Saliva",
+    "dataset_catalog": "BRSMLAC_Campaign_1_All_Saliva",
+    "dataset_description": "This dataset contains data for all Campaign 1 subjects for the Bed Rest Standard Measure Lactulose (BRSMLac) study. Data collection sessions for this measure were performed once pre-bed rest, three times during bed rest, and one time post bed rest. Urine, blood, saliva, and breath samples were taken during the data collection sessions to determine the absorption rate of lactulose.",
+    "processing_level": "Processed Data",
+    "experiment_id": [
+     "BRSMLac"
+    ]
+   },
+   "meta": "11 files \u00b7 95.5 KB",
+   "date": "2025-04-15",
+   "children": [
+    {
+     "key": "62bd8fb0-5968-5981-9f80-70adeaaa4812",
+     "label": "BRSMLAC_Campaign_1_All_Saliva_Pre_9",
+     "type": "file",
+     "ext": "",
+     "file_size": 1267,
+     "meta": "1.2 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "19aa966d-8e30-5ae7-bfbc-741ad7aaa726",
+     "label": "BRSMLAC_Campaign_1_All_Saliva_BR_28",
+     "type": "file",
+     "ext": "",
+     "file_size": 1269,
+     "meta": "1.2 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2b87756a-5784-54a8-a8b1-d98a2b185d7f",
+     "label": "BRSMLAC_Campaign_1_All_Salvia_Post_7",
+     "type": "file",
+     "ext": "",
+     "file_size": 1274,
+     "meta": "1.2 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "921a6f46-f497-525b-94fc-d7bb0a9f737a",
+     "label": "BRSMLAC_Campaign_1_All_Saliva_BR_56",
+     "type": "file",
+     "ext": "",
+     "file_size": 1281,
+     "meta": "1.3 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e87ed69b-5ff6-5c5d-9da2-6cd72cc933b3",
+     "label": "BRSMLAC_Campaign_1_All_Saliva_Mean_Vol_Dist",
+     "type": "file",
+     "ext": "",
+     "file_size": 28385,
+     "meta": "27.7 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a4a16b79-ce91-5c39-94b7-a5e566d41c4a",
+     "label": "BRSMLAC_Campaign_1_All_Saliva_Mean_AUC",
+     "type": "file",
+     "ext": "",
+     "file_size": 26151,
+     "meta": "25.5 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3fa98133-3c88-5eaa-bf67-7e53f4effa92",
+     "label": "BRSMLAC_Campaign_1_All_Saliva_Obsv",
+     "type": "file",
+     "ext": "",
+     "file_size": 4304,
+     "meta": "4.2 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "759c9197-336a-5b1f-b82b-51c3cecbdb4c",
+     "label": "BRSMLAC_Campaign_1_All_Saliva_BR_2",
+     "type": "file",
+     "ext": "",
+     "file_size": 1267,
+     "meta": "1.2 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "dede545f-258d-5a81-b1a7-0ec37b7c6019",
+     "label": "BRSMLAC_Campaign_1_All_Saliva_Mean_Half_Life",
+     "type": "file",
+     "ext": "",
+     "file_size": 28165,
+     "meta": "27.5 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ec0868d5-9d28-59e7-83fb-aed43567d7cd",
+     "label": "BRSMLAC_Campaign_1_All_Saliva_SEM",
+     "type": "file",
+     "ext": "",
+     "file_size": 2274,
+     "meta": "2.2 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "01f39701-dccf-5dd0-9401-4c0598a2ee40",
+     "label": "BRSMLAC_Campaign_1_All_Saliva_Means",
+     "type": "file",
+     "ext": "",
+     "file_size": 2133,
+     "meta": "2.1 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "5f5181d7-ff44-5bbf-8106-4a599b7d1d5f",
+   "label": "BRSMLAC_Campaign_1_Urine_Saliva",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "UTMB Bedrest Campaign 1 Urine Saliva",
+    "dataset_catalog": "BRSMLAC_Campaign_1_Urine_Saliva",
+    "dataset_description": "This dataset contains data for all Campaign 1 subjects for the Bed Rest Standard Measure Lactulose (BRSMLac) study. Data collection sessions for this measure were performed once pre-bed rest, three times during bed rest, and one time post bed rest. Urine, blood, saliva, and breath samples were taken during the data collection sessions to determine the absorption rate of lactulose.",
+    "processing_level": "Processed Data",
+    "experiment_id": [
+     "BRSMLac"
+    ]
+   },
+   "meta": "23 files \u00b7 360.5 KB",
+   "date": "2025-04-15",
+   "children": [
+    {
+     "key": "a901c7e1-e0b7-5746-b112-379bc8aa1648",
+     "label": "BRSMLAC_Campaign_1_Urine_Saliva_AP_Levels_BR_28_Subject_2",
+     "type": "file",
+     "ext": "",
+     "file_size": 22790,
+     "meta": "22.3 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "199c1972-76b5-5513-8996-4ea5028b841e",
+     "label": "BRSMLAC_Campaign_1_Urine_Saliva_AP_Levels_BR_28_Subject_1",
+     "type": "file",
+     "ext": "",
+     "file_size": 23055,
+     "meta": "22.5 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1b38f193-b558-59cf-8359-e2f3a87c3671",
+     "label": "BRSMLAC_Campaign_1_Urine_Saliva_AG_AS_Urine_Lvls_Subject_1",
+     "type": "file",
+     "ext": "",
+     "file_size": 2694,
+     "meta": "2.6 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "662d715e-9f86-51be-a85f-7a01f5f446f2",
+     "label": "BRSMLAC_Campaign_1_Urine_Saliva_AG_AS_Urine_Lvls_All",
+     "type": "file",
+     "ext": "",
+     "file_size": 8911,
+     "meta": "8.7 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f6fc64b9-6fad-5fc1-bfc5-01a50295ea15",
+     "label": "BRSMLAC_Campaign_1_Urine_Saliva_AP_Levels_BR_2_Subject_3",
+     "type": "file",
+     "ext": "",
+     "file_size": 23141,
+     "meta": "22.6 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0a349e44-db91-5c34-bd94-ff403c866ff1",
+     "label": "BRSMLAC_Campaign_1_Urine_Saliva_AP_Levels_BR_+7_Subject_3",
+     "type": "file",
+     "ext": "",
+     "file_size": 24521,
+     "meta": "23.9 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d00312b1-1a9f-5f66-992c-2553c20314c7",
+     "label": "BRSMLAC_Campaign_1_Urine_Saliva_AP_Levels_BR_-9_Subject_3",
+     "type": "file",
+     "ext": "",
+     "file_size": 23255,
+     "meta": "22.7 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "dcd13401-aa01-5698-83e2-be006808b7d6",
+     "label": "BRSMLAC_Campaign_1_Urine_Saliva_AP_Levels_BR_56_Subject_1",
+     "type": "file",
+     "ext": "",
+     "file_size": 20989,
+     "meta": "20.5 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7ce8b27b-dcb6-5465-adee-305eaec12727",
+     "label": "BRSMLAC_Campaign_1_Urine_Saliva_AP_Levels_BR_+7_Subject_1",
+     "type": "file",
+     "ext": "",
+     "file_size": 22831,
+     "meta": "22.3 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "bcb39d90-7314-5c11-9102-01de3b8e9057",
+     "label": "BRSMLAC_Campaign_1_Urine_Saliva_AP_Saliva_Lvls_Subject_2",
+     "type": "file",
+     "ext": "",
+     "file_size": 1840,
+     "meta": "1.8 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ec14697f-7e55-5665-a849-a5c7298d8ff7",
+     "label": "BRSMLAC_Campaign_1_Urine_Saliva_AG_AS_Urine_Lvls_Subject_3",
+     "type": "file",
+     "ext": "",
+     "file_size": 3002,
+     "meta": "2.9 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "41e6aa87-f6e2-53fa-a576-5cb48a5458dd",
+     "label": "BRSMLAC_Campaign_1_Urine_Saliva_AP_Levels_BR_56_Subject_3",
+     "type": "file",
+     "ext": "",
+     "file_size": 21377,
+     "meta": "20.9 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "bdcb7a4b-1934-5445-81c7-e10813b0ee92",
+     "label": "BRSMLAC_Campaign_1_Urine_Saliva_AP_Levels_BR_2_Subject_2",
+     "type": "file",
+     "ext": "",
+     "file_size": 23308,
+     "meta": "22.8 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a6ac16e4-c0a1-5dc2-a21b-8a8b7dc4407e",
+     "label": "BRSMLAC_Campaign_1_Urine_Saliva_AP_Saliva_Lvls_All",
+     "type": "file",
+     "ext": "",
+     "file_size": 5423,
+     "meta": "5.3 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ccb8b84a-ae2f-5c1c-89a1-56e6e76b4f56",
+     "label": "BRSMLAC_Campaign_1_Urine_Saliva_AG_AS_Urine_Lvls_Subject_2",
+     "type": "file",
+     "ext": "",
+     "file_size": 3519,
+     "meta": "3.4 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0db53716-3ca5-5c49-b135-184692ef87eb",
+     "label": "BRSMLAC_Campaign_1_Urine_Saliva_AP_Levels_BR_28_Subject_3",
+     "type": "file",
+     "ext": "",
+     "file_size": 23466,
+     "meta": "22.9 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0fd90c73-caa7-55b9-9637-71f3df2d7911",
+     "label": "BRSMLAC_Campaign_1_Urine_Saliva_AP_Saliva_Lvls_Subject_3",
+     "type": "file",
+     "ext": "",
+     "file_size": 1844,
+     "meta": "1.8 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "314e4efc-de92-58c6-b788-5fea1bae0aeb",
+     "label": "BRSMLAC_Campaign_1_Urine_Saliva_AP_Levels_BR_-9_Subject_2",
+     "type": "file",
+     "ext": "",
+     "file_size": 24388,
+     "meta": "23.8 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c20d761e-3438-57cd-a02f-0069d8f1fd5c",
+     "label": "BRSMLAC_Campaign_1_Urine_Saliva_AP_Levels_BR_+7_Subject_2",
+     "type": "file",
+     "ext": "",
+     "file_size": 21120,
+     "meta": "20.6 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "39ded77e-2e72-50ca-9f61-dc2226c83da0",
+     "label": "BRSMLAC_Campaign_1_Urine_Saliva_AP_Levels_BR_-9_Subject_1",
+     "type": "file",
+     "ext": "",
+     "file_size": 21636,
+     "meta": "21.1 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "77b8f49a-587b-5413-9041-73f34d2c5f33",
+     "label": "BRSMLAC_Campaign_1_Urine_Saliva_AP_Levels_BR_56_Subject_2",
+     "type": "file",
+     "ext": "",
+     "file_size": 22263,
+     "meta": "21.7 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8e393b39-d015-532b-87c5-236e56591b36",
+     "label": "BRSMLAC_Campaign_1_Urine_Saliva_AP_Levels_BR_2_Subject_1",
+     "type": "file",
+     "ext": "",
+     "file_size": 21960,
+     "meta": "21.4 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "049c2aa4-b30d-5391-88a0-859a53b311e4",
+     "label": "BRSMLAC_Campaign_1_Urine_Saliva_AP_Saliva_Lvls_Subject_1",
+     "type": "file",
+     "ext": "",
+     "file_size": 1841,
+     "meta": "1.8 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

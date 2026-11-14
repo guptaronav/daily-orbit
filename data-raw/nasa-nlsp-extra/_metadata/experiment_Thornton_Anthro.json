@@ -1,0 +1,725 @@
+{
+ "record": {
+  "id": "229834a8-afbf-5796-8f9d-b4f3a101cea6",
+  "_id": "229834a8-afbf-5796-8f9d-b4f3a101cea6",
+  "experiment_title": "Anthropometric Data from the William E. Thornton Collection",
+  "archive_status_index": 2,
+  "pub_document_number": "PUB001995",
+  "parameter_html": "<table><tr><td>Acceleration</td></tr><tr><td>Age</td></tr><tr><td>Ankle dorsiflexion</td></tr><tr><td>Arm extension, decrement</td></tr><tr><td>Arm extension, mach arm</td></tr><tr><td>Arm extension, mean</td></tr><tr><td>Arm extension, mean body weight</td></tr><tr><td>Arm extension, mean lean body mass</td></tr><tr><td>Arm extension, peak</td></tr><tr><td>Arm extension, peak body weight</td></tr><tr><td>Arm extension, peak lean body mass</td></tr><tr><td>Arm flexion, decrement</td></tr><tr><td>Arm flexion, mean</td></tr><tr><td>Arm flexion, mean body weight</td></tr><tr><td>Arm flexion, mean lean body mass</td></tr><tr><td>Arm flexion, peak</td></tr><tr><td>Arm flexion, peak body weight</td></tr><tr><td>Arm flexion, peak lean body mass</td></tr><tr><td>Arm reach</td></tr><tr><td>Back extension, decrement</td></tr><tr><td>Back extension, mach arm</td></tr><tr><td>Back extension, mean</td></tr><tr><td>Back extension, mean body weight</td></tr><tr><td>Back extension, mean lean body mass</td></tr><tr><td>Back extension, peak</td></tr><tr><td>Back extension, peak body weight</td></tr><tr><td>Back extension, peak lean body mass</td></tr><tr><td>Back flexion, decrement</td></tr><tr><td>Back flexion, mean</td></tr><tr><td>Back flexion, mean body weight</td></tr><tr><td>Back flexion, mean lean body mass</td></tr><tr><td>Back flexion, peak</td></tr><tr><td>Back flexion, peak body weight</td></tr><tr><td>Back flexion, peak lean body mass</td></tr><tr><td>Body fat</td></tr><tr><td>Body weight</td></tr><tr><td>Chest width</td></tr><tr><td>Chest, front</td></tr><tr><td>Chest, rear</td></tr><tr><td>Chins, number</td></tr><tr><td>Chins, percent</td></tr><tr><td>Elbow extension</td></tr><tr><td>Elbow flexion</td></tr><tr><td>Force</td></tr><tr><td>Forearm pronation</td></tr><tr><td>Forearm supination</td></tr><tr><td>Girth, biceps</td></tr><tr><td>Girth, calf</td></tr><tr><td>Girth, chest expiration</td></tr><tr><td>Girth, chest female</td></tr><tr><td>Girth, chest inspiration</td></tr><tr><td>Girth, crown</td></tr><tr><td>Girth, knee</td></tr><tr><td>Girth, neck</td></tr><tr><td>Girth, thigh</td></tr><tr><td>Girth, waist</td></tr><tr><td>Hang secs</td></tr><tr><td>Hang secs, percent</td></tr><tr><td>Height, crotch</td></tr><tr><td>Height, seated</td></tr><tr><td>Height, standing</td></tr><tr><td>Height, supine</td></tr><tr><td>Hip/knee decrement</td></tr><tr><td>Hip/knee extension, mach arm</td></tr><tr><td>Hip/knee extension, mean</td></tr><tr><td>Hip/knee extension, mean body weight</td></tr><tr><td>Hip/knee extension, mean lean body mass</td></tr><tr><td>Hip/knee extension, peak</td></tr><tr><td>Hip/knee extension, peak body weight</td></tr><tr><td>Hip/knee extension, peak lean body mass</td></tr><tr><td>Hip/knee flexion, decrement</td></tr><tr><td>Hip/knee flexion, mean</td></tr><tr><td>Hip/knee flexion, mean body weight</td></tr><tr><td>Hip/knee flexion, mean lean body mass</td></tr><tr><td>Hip/knee flexion, peak</td></tr><tr><td>Hip/knee flexion, peak body weight</td></tr><tr><td>Hip/knee flexion, peak lean body mass</td></tr><tr><td>Knee extension</td></tr><tr><td>Knee flexion</td></tr><tr><td>Knee length</td></tr><tr><td>Knee-buttocks measurement</td></tr><tr><td>Lean body mass</td></tr><tr><td>Metabolic weight (MTWT)</td></tr><tr><td>Musgrave width</td></tr><tr><td>Neck extension</td></tr><tr><td>Neck flexion</td></tr><tr><td>Neck rotation</td></tr><tr><td>Shoulder extension, mean lean body mass</td></tr><tr><td>Shoulder extension, peak body weight</td></tr><tr><td>Shoulder extension, peak lean body mass</td></tr><tr><td>Shoulder flexion, decrement</td></tr><tr><td>Shoulder flexion, mean</td></tr><tr><td>Shoulder flexion, mean body weight</td></tr><tr><td>Shoulder flexion, mean lean body mass</td></tr><tr><td>Shoulder flexion, peak body weight</td></tr><tr><td>Shoulder flexion, peak lean body mass</td></tr><tr><td>Shoulder, exterior</td></tr><tr><td>Shoulder, interior</td></tr><tr><td>Skin fold abdomen, mean</td></tr><tr><td>Skin fold chest, mean</td></tr><tr><td>Skin fold thigh, mean</td></tr><tr><td>Skin fold tricep, mean</td></tr><tr><td>Time</td></tr><tr><td>Trunk, diagonal</td></tr><tr><td>Trunk, mean body weight</td></tr><tr><td>Trunk, mean lean body mass</td></tr><tr><td>Trunk, peak body weight</td></tr><tr><td>Trunk, peak lean body mass</td></tr><tr><td>Velocity</td></tr><tr><td>Wrist, extension</td></tr><tr><td>Wrist, flexion</td></tr><tr><td>Wrist, pronation free FTLB</td></tr><tr><td>Wrist, pronation seat FTLB</td></tr><tr><td>Wrist, radius</td></tr><tr><td>Wrist, supination free FTLB</td></tr><tr><td>Wrist, supination seat FTLB</td></tr><tr><td>Wrist, ulnar</td></tr><tr><td>Plantar flexion, ankle</td></tr><tr><td>Bideltoid width</td></tr><tr><td>Chest depth</td></tr><tr><td>Chest depth, expiration</td></tr><tr><td>Hip abduction</td></tr><tr><td>Hip extension</td></tr><tr><td>Hip flexion</td></tr><tr><td>Hips, width</td></tr><tr><td>Neck lateral</td></tr><tr><td>Shoulder abduction</td></tr><tr><td>Shoulder adduction</td></tr><tr><td>Shoulder extension</td></tr><tr><td>Shoulder extension, decrement</td></tr><tr><td>Shoulder extension, mach arm</td></tr><tr><td>Shoulder extension, mean</td></tr><tr><td>Shoulder extension, mean body weight</td></tr><tr><td>Shoulder extension, peak</td></tr><tr><td>Shoulder flexion</td></tr><tr><td>Shoulder flexion, peak</td></tr><tr><td>Skin fold suprailiac, mean</td></tr><tr><td>Trunk circumference</td></tr><tr></tr></table>",
+  "__source_key": "cl62b0b3fcdl901o6c6ahbyw4",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Thornton, William\">Principal Investigator: Thornton, William</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Berry, Michael\">Co-Investigator: Berry, Michael</a>",
+  "image_name": [
+   "Subject Performing Kinesimeter Test of Left Hand"
+  ],
+  "experiment_type_lk": [
+   "NASA Ground-Based Investigations"
+  ],
+  "__record_modified_date": "2026-08-23T03:58:02.025430+00:00",
+  "__indexed": "2026-08-23T03:58:02.025430+00:00",
+  "__record_creation_date": "2022-07-28T20:01:24.107Z",
+  "keyword": [
+   "Anthropometry"
+  ],
+  "keyword_name": "Anthropometry",
+  "__record_size": 132762,
+  "__record_version": 30,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<br> Although some portions of the musculoskeletal system have been examined as part of other astronaut examinations (doctor\u2019s physical, stress test, X-rays, et cetera) there has been no specific integrated examination for this largest system of the human body.  Conversely, the musculoskeletal system plays a primary role in space operations and research.  The state of muscles and the subject\u2019s use of them determines, not only their condition and potential performance, but also condition of the cardiovascular and respiratory system on Earth and in space.  Defects or limitations of this system can make it impossible for a subject to perform essential functions in operation and thus are disqualifying.  A number of such limitations are specified in the physical requirements, but measurement of them requires equipment and techniques not usually available to the flight surgeon.  Anthropometric measurements are urgently required by many man-machine designers in the space program.  Anthropometric data have also become increasingly important as a research tool for investigation of effects of weightlessness of the body.  Such information is particularly important for Shuttle, which is accepting an entirely new space-flight population.\r\n<P>\r\nAPPROACH:<br>  In 1978, approximately 207 astronaut candidates were examined during a NASA astronaut selection for the first Space Shuttle missions.  Of this number, 80% were men and 20% were women.  The crew positions to be assigned included male pilots, and both male and female mission specialists.  \r\n<P>\r\nBasic physical examinations were conducted in addition to numerous specialty exams.  The tests included a treadmill stress test and musculoskeletal examinations of each candidate.  The treadmill test used the standard Balke-Ware protocol.  The musculoskeletal exam consisted of a detailed history and physical examination, a large series of anthropometric measurements, and strength testing of major muscle groups by means of an isokinetic ergometer.  \r\n<P>\r\nRESULTS:<br>The results of the examinations were immediately supplied to the medical examination board to use in the selection process.   As expected from historical and general experience, the females were significantly weaker than the males, especially in the upper extremities.  Also, as in general experience, there were one or two exceptionally strong females well outside the normal range in the entire group of females.  This difference was most marked in the upper extremities when absolute comparisons were made.  If strength relative to body weight in pilot candidates, male mission specialist candidates, and female mission specialist candidates were compared, the difference was less but marked.  Since body fat was so different in males versus females (15 percent versus 25 percent in this case), the question was raised as to what happens if the female singly loses weight.   This was indicated by calculating strength per lean body mass.   In this case, back and leg differences in strength were much less, but arm and shoulder strength remained significantly different.\r\n<P>\r\nSome minor surprises were the differences in shoulder and back strength in pilots and mission specialists.  Mission specialists were stronger in both areas even when they were normalized for body weight and lean body mass.   As a matter of fact, the females had greater back strength on the basis of lean body mass than the pilots.",
+  "payload_id": "Ground",
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "Thornton_Anthro",
+  "indexed": "2026-08-23T03:58:02.025430+00:00",
+  "GUID": "cl62b0b3fcdl901o6c6ahbyw4",
+  "parameter_name": [
+   "Acceleration",
+   "Age",
+   "Ankle dorsiflexion",
+   "Arm extension, decrement",
+   "Arm extension, mach arm",
+   "Arm extension, mean",
+   "Arm extension, mean body weight",
+   "Arm extension, mean lean body mass",
+   "Arm extension, peak",
+   "Arm extension, peak body weight",
+   "Arm extension, peak lean body mass",
+   "Arm flexion, decrement",
+   "Arm flexion, mean",
+   "Arm flexion, mean body weight",
+   "Arm flexion, mean lean body mass",
+   "Arm flexion, peak",
+   "Arm flexion, peak body weight",
+   "Arm flexion, peak lean body mass",
+   "Arm reach",
+   "Back extension, decrement",
+   "Back extension, mach arm",
+   "Back extension, mean",
+   "Back extension, mean body weight",
+   "Back extension, mean lean body mass",
+   "Back extension, peak",
+   "Back extension, peak body weight",
+   "Back extension, peak lean body mass",
+   "Back flexion, decrement",
+   "Back flexion, mean",
+   "Back flexion, mean body weight",
+   "Back flexion, mean lean body mass",
+   "Back flexion, peak",
+   "Back flexion, peak body weight",
+   "Back flexion, peak lean body mass",
+   "Body fat",
+   "Body weight",
+   "Chest width",
+   "Chest, front",
+   "Chest, rear",
+   "Chins, number",
+   "Chins, percent",
+   "Elbow extension",
+   "Elbow flexion",
+   "Force",
+   "Forearm pronation",
+   "Forearm supination",
+   "Girth, biceps",
+   "Girth, calf",
+   "Girth, chest expiration",
+   "Girth, chest female",
+   "Girth, chest inspiration",
+   "Girth, crown",
+   "Girth, knee",
+   "Girth, neck",
+   "Girth, thigh",
+   "Girth, waist",
+   "Hang secs",
+   "Hang secs, percent",
+   "Height, crotch",
+   "Height, seated",
+   "Height, standing",
+   "Height, supine",
+   "Hip/knee decrement",
+   "Hip/knee extension, mach arm",
+   "Hip/knee extension, mean",
+   "Hip/knee extension, mean body weight",
+   "Hip/knee extension, mean lean body mass",
+   "Hip/knee extension, peak",
+   "Hip/knee extension, peak body weight",
+   "Hip/knee extension, peak lean body mass",
+   "Hip/knee flexion, decrement",
+   "Hip/knee flexion, mean",
+   "Hip/knee flexion, mean body weight",
+   "Hip/knee flexion, mean lean body mass",
+   "Hip/knee flexion, peak",
+   "Hip/knee flexion, peak body weight",
+   "Hip/knee flexion, peak lean body mass",
+   "Knee extension",
+   "Knee flexion",
+   "Knee length",
+   "Knee-buttocks measurement",
+   "Lean body mass",
+   "Metabolic weight (MTWT)",
+   "Musgrave width",
+   "Neck extension",
+   "Neck flexion",
+   "Neck rotation",
+   "Shoulder extension, mean lean body mass",
+   "Shoulder extension, peak body weight",
+   "Shoulder extension, peak lean body mass",
+   "Shoulder flexion, decrement",
+   "Shoulder flexion, mean",
+   "Shoulder flexion, mean body weight",
+   "Shoulder flexion, mean lean body mass",
+   "Shoulder flexion, peak body weight",
+   "Shoulder flexion, peak lean body mass",
+   "Shoulder, exterior",
+   "Shoulder, interior",
+   "Skin fold abdomen, mean",
+   "Skin fold chest, mean",
+   "Skin fold thigh, mean",
+   "Skin fold tricep, mean",
+   "Time",
+   "Trunk, diagonal",
+   "Trunk, mean body weight",
+   "Trunk, mean lean body mass",
+   "Trunk, peak body weight",
+   "Trunk, peak lean body mass",
+   "Velocity",
+   "Wrist, extension",
+   "Wrist, flexion",
+   "Wrist, pronation free FTLB",
+   "Wrist, pronation seat FTLB",
+   "Wrist, radius",
+   "Wrist, supination free FTLB",
+   "Wrist, supination seat FTLB",
+   "Wrist, ulnar",
+   "Plantar flexion, ankle",
+   "Bideltoid width",
+   "Chest depth",
+   "Chest depth, expiration",
+   "Hip abduction",
+   "Hip extension",
+   "Hip flexion",
+   "Hips, width",
+   "Neck lateral",
+   "Shoulder abduction",
+   "Shoulder adduction",
+   "Shoulder extension",
+   "Shoulder extension, decrement",
+   "Shoulder extension, mach arm",
+   "Shoulder extension, mean",
+   "Shoulder extension, mean body weight",
+   "Shoulder extension, peak",
+   "Shoulder flexion",
+   "Shoulder flexion, peak",
+   "Skin fold suprailiac, mean",
+   "Trunk circumference"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 1811,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Network physiology"
+  ],
+  "pme_role_with_name": [
+   "Co-Investigator: Berry, Michael",
+   "Collaborator: Jackson, John",
+   "Principal Investigator: Thornton, William"
+  ],
+  "missions": [
+   [
+    [
+     "Ground"
+    ]
+   ]
+  ],
+  "__dirid": "229834a8-afbf-5796-8f9d-b4f3a101cea6",
+  "__record_size_wo_doccontent": 132762,
+  "PI": [
+   "Thornton, William"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "Thornton_Anthro"
+  ],
+  "mission_id": [
+   [
+    [
+     "Ground"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "proposal_date": [],
+  "proposal_source": [],
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens)"
+   ]
+  ],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Thornton, William"
+  ],
+  "program_name": [
+   "Ground"
+  ],
+  "archive_status": "Data preservation is complete. Privacy-protected datasets are available via data request. Remaining datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Ground",
+  "__source_field_concat": "PUB001995 Ground cl62b0b3fcdl901o6c6ahbyw4 Anthropometry  N/A Anthropometric Data from the William E. Thornton Collection Thornton_Anthro Ground",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<br> Although some portions of the musculoskeletal system have been examined as part of other astronaut examinations (doctor\u2019s physical, stress test, X-rays, et cetera) there has been no specific integrated examination for this largest system of the human body.  Conversely, the musculoskeletal system plays a primary role in space operations and research.  The state of muscles and the subject\u2019s use of them determines, not only their condition and potential performance, but also condition of the cardiovascular and respiratory system on Earth and in space.  Defects or limitations of this system can make it impossible for a subject to perform essential functions in operation and thus are disqualifying.  A number of such limitations are specified in the physical requirements, but measurement of them requires equipment and techniques not usually available to the flight surgeon.  Anthropometric measurements are urgently required by many man-machine designers in the space program.  Anthropometric data have also become increasingly important as a research tool for investigation of effects of weightlessness of the body.  Such information is particularly important for Shuttle, which is accepting an entirely new space-flight population.\r\n<P>\r\nAPPROACH:<br>  In 1978, approximately 207 astronaut candidates were examined during a NASA astronaut selection for the first Space Shuttle missions.  Of this number, 80% were men and 20% were women.  The crew positions to be assigned included male pilots, and both male and female mission specialists.  \r\n<P>\r\nBasic physical examinations were conducted in addition to numerous specialty exams.  The tests included a treadmill stress test and musculoskeletal examinations of each candidate.  The treadmill test used the standard Balke-Ware protocol.  The musculoskeletal exam consisted of a detailed history and physical examination, a large series of anthropometric measurements, and strength testing of major muscle groups by means of an isokinetic ergometer.  \r\n<P>\r\nRESULTS:<br>The results of the examinations were immediately supplied to the medical examination board to use in the selection process.   As expected from historical and general experience, the females were significantly weaker than the males, especially in the upper extremities.  Also, as in general experience, there were one or two exceptionally strong females well outside the normal range in the entire group of females.  This difference was most marked in the upper extremities when absolute comparisons were made.  If strength relative to body weight in pilot candidates, male mission specialist candidates, and female mission specialist candidates were compared, the difference was less but marked.  Since body fat was so different in males versus females (15 percent versus 25 percent in this case), the question was raised as to what happens if the female singly loses weight.   This was indicated by calculating strength per lean body mass.   In this case, back and leg differences in strength were much less, but arm and shoulder strength remained significantly different.\r\n<P>\r\nSome minor surprises were the differences in shoulder and back strength in pilots and mission specialists.  Mission specialists were stronger in both areas even when they were normalized for body weight and lean body mass.   As a matter of fact, the females had greater back strength on the basis of lean body mass than the pilots.",
+  "__doi": "10.83263/jtgq-m970",
+  "__doi_record_creation_date": "2026-08-23T03:58:02",
+  "__doi_record_modified_date": "2026-08-23T03:58:02"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001374",
+   "label": "Thornton_Anthro__930311203",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Regression Parameters on Body Weight (for selected individuals)",
+    "dataset_catalog": "Thornton_Anthro__930311203",
+    "dataset_description": [
+     "This is a printout of regression parameters for each anthropometric measurement collected on 35 astronaut candidates in 1977.  The printout is not dated.  For each parameter measured, regression parameters A and B, plus the standard error estimate are given.  No additional information is available.  Source: Data from the William E. Thornton collection."
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "Thornton_Anthro"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "8d6be0c8-3af9-5d7c-9368-de41f50cb2e5",
+     "label": "Thornton_Anthro__930311203.pdf_Ground_Thornton_Anthro_2012_94_040419.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001910",
+   "label": "Thornton_Anthro__880408526",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Anthropometric Measurements for 200+ Astronaut Candidates",
+    "dataset_catalog": "Thornton_Anthro__880408526",
+    "dataset_description": [
+     "This file is a computer printout of eight parameters measured on 200+ astronaut candidates in 1977.  Males and females, both selected and non-selected candidates, are included in the printout.  The original software used to generate the spreadsheet appears to be FORTRAN.  The paper computer printout was scanned into PDF format for archiving purposes.  Source: Data from the William E. Thornton collection."
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "Thornton_Anthro"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "4c8ffdd5-e44f-50cc-96ee-d3dfb6710e89",
+     "label": "Thornton_Anthro__880408526.pdf_Ground_Thornton_Anthro_2012_90_040330.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001822",
+   "label": "Thornton_Anthro__880436453",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "All Mission Specialist Candidates",
+    "dataset_catalog": "Thornton_Anthro__880436453",
+    "dataset_description": [
+     "This file is a computer printout of four wrist anthropometric measurements collected on astronaut candidates in 1977.  No supporting information is available to describe the data.\r\n<P>\r\nSource: Data from the William E. Thornton collection."
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "Thornton_Anthro"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "182eb736-5e8e-5d94-a056-15b403599554",
+     "label": "Thornton_Anthro__880436453_.pdf_Ground_Thornton_Anthro_2012_90_050329.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000780",
+   "label": "Thornton_Anthro__880340303",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Results of Anthropometric Measurements",
+    "dataset_catalog": "Thornton_Anthro__880340303",
+    "dataset_description": [
+     "This spreadsheet is a summarization of the anthropometric measurements collected on astronaut candidates in 1977.  The results are broken down into two groupings: pilots and mission specialists.  The data for mission specialists are further broken down into male and female groups. For each parameter, the mean, standard deviation, range, and number of subjects examined is provided.  Source: Data from the William E. Thornton collection."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "Thornton_Anthro"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "10f50ba9-a6a2-526c-86af-56d6e01584a3",
+     "label": "Thornton_Anthro__880340303.pdf_Ground_Thornton_Anthro_2012_90_040348.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000022",
+   "label": "Thornton_Anthro__1010251341",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Automatic Video Goniometer (AVG) Procedures",
+    "dataset_catalog": "Thornton_Anthro__1010251341",
+    "dataset_description": [
+     "This is a draft document describing the fundamental procedures for obtaining measurements on astronaut candidates in 1977 using the Automatic Video Goniometer (AVG).\r\n<P> \r\nSource: Data from the William E. Thornton collection."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "Thornton_Anthro"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "d3241e48-fa0b-579b-8ca5-8a0c2a7185c8",
+     "label": "Thornton_Anthro__1010251341.pdf_Ground_Thornton_Anthro_2012_101_030420.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000524",
+   "label": "Thornton_Anthro__101024313",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Astronaut Candidate Simulated Exam",
+    "dataset_catalog": "Thornton_Anthro__101024313",
+    "dataset_description": [
+     "This is a draft document describing the fundamental procedures for obtaining anthropometric measurements on astronaut candidates in 1977.\r\n<P>\r\nSource: Data from the William E. Thornton collection."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "Thornton_Anthro"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "7fc21484-76f5-5c8e-a754-f85bd351f50a",
+     "label": "Thornton_Anthro__101024313.pdf_Ground_Thornton_Anthro_2012_101_020429.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000828",
+   "label": "Thornton_Anthro__880444434",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Percentile Scores for Anthropometric Measurements on Mission Specialist and Pilot Candidates",
+    "dataset_catalog": "Thornton_Anthro__880444434",
+    "dataset_description": [
+     "This is a printout of percentile scores for each anthropometric measurement collected on astronaut candidates in 1977.  The printout is not dated.  For each parameter measured, the percentile scores (5%-95%) were calculated for all subjects, pilots, male mission specialists, female mission specialists, all males (as a group), and all mission specialists (as a group).  A normal distribution was assumed for all measurements.  Source: Data from the William E. Thornton collection."
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "Thornton_Anthro"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "5253433b-3f47-5716-8279-c09e39566c02",
+     "label": "Thornton_Anthro__880444434.pdf_Ground_Thornton_Anthro_2012_90_050318.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000830",
+   "label": "Thornton_Anthro__931252156",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Statistics File for All Subjects",
+    "dataset_catalog": "Thornton_Anthro__931252156",
+    "dataset_description": [
+     "This is a printout of basic statistics for each anthropometric measurement collected on astronaut candidates in 1977.  The printout is not dated.  For each parameter measured, the mean, standard deviation, maximum and minimum values were calculated for all subjects, pilots, male mission specialists, female mission specialists, all males (as a group), and all mission specialists (as a group).  Source: Data from the William E. Thornton collection."
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "Thornton_Anthro"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "8ededf91-6557-5181-82c4-8388817b27c7",
+     "label": "Thornton_Anthro__931252156.pdf_Ground_Thornton_Anthro_2012_93_040419.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000829",
+   "label": "Thornton_Anthro__880534978",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Statistics File for All Anthropometric Parameters",
+    "dataset_catalog": "Thornton_Anthro__880534978",
+    "dataset_description": [
+     "This is a printout of basic statistics for each anthropometric measurement collected on astronaut candidates in 1977.  The printout is not dated.  For each parameter measured, the mean, standard deviation, maximum and minimum values were calculated for all subjects, pilots, male mission specialists, female mission specialists, all males (as a group), and all mission specialists (as a group).  Source: Data from the William E. Thornton collection."
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "Thornton_Anthro"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "80bf005e-69f2-5b20-94ee-e681e854c094",
+     "label": "Thornton_Anthro__880534978.pdf_Ground_Thornton_Anthro_2012_93_040411.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001046",
+   "label": "Thornton_Anthro__880528995",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Percentile Scores for Anthropometric Measurements on Mission Specialist and Pilot Candidates, Rank Ordered for All",
+    "dataset_catalog": "Thornton_Anthro__880528995",
+    "dataset_description": [
+     "This is a printout of percentile scores for each anthropometric measurement collected on astronaut candidates in 1977.  The printout is not dated.  For each parameter measured, the percentile scores (5%-95%) were calculated for all subjects, pilots, male mission specialists, female mission specialists, all males (as a group), and all mission specialists (as a group).  Source: Data from the William E. Thornton collection."
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "Thornton_Anthro"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "fdd38093-82b7-5cee-9085-e86f237e52c9",
+     "label": "Thornton_Anthro__880528995.pdf_Ground_Thornton_Anthro_2012_93_040448.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001453",
+   "label": "Thornton_Anthro__890431443",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Percentile Scores, Rank Orders for Selected",
+    "dataset_catalog": "Thornton_Anthro__890431443",
+    "dataset_description": [
+     "This is a printout of the percentile scores, rank ordered, for the  anthropometric measurements collected on astronaut candidates in 1977.  The printout is not dated.  For each parameter measured, the percentile scores (5%-95%) were calculated for all subjects, all pilots, male mission specialists, female mission specialists, all males (as a group), and all mission specialists (as a group).  Source: Data from the William E. Thornton collection."
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "Thornton_Anthro"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "a4a0017b-4d4d-5813-8679-79d44cc0e750",
+     "label": "Thornton_Anthro__890431443.pdf_Ground_Thornton_Anthro_2012_93_040415.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002268",
+   "label": "Thornton_Anthro__880415914",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Printout of Anthropometric Measurements Collected on Astronaut Candidates in 1977",
+    "dataset_catalog": "Thornton_Anthro__880415914",
+    "dataset_description": [
+     "This is a printout of all anthropometric measurements collected on the astronaut candidates in 1977.  The printout is dated 8/18/1980.  When compared to a similar (undated) printout for the same group of candidates, this printout appears to have in some cases more data points and in other cases fewer data points depending on the parameter being measured.  Source: Data from the William E. Thornton collection."
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "Thornton_Anthro"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "1d842a26-46b2-5215-895e-df5cc0b60df9",
+     "label": "Thornton_Anthro__880415914.pdf_Ground_Thornton_Anthro_2012_93_040436.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001980",
+   "label": "Thornton_Anthro__93124493",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Percentile Scores, Normal Distribution Assumed for Subjects",
+    "dataset_catalog": "Thornton_Anthro__93124493",
+    "dataset_description": [
+     "This is a printout of percentile scores for all anthropometric measurements collected on astronaut candidates in 1977.  The printout is not dated.  For each parameter measured, the percentile scores (5%-95%) were calculated for all subjects, all pilots, male mission specialists, female mission specialists, all males (as a group), and all mission specialists (as a group).  A normal distribution was assumed for all measurements.  Source: Data from the William E. Thornton collection."
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "Thornton_Anthro"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "184894db-1444-5ff1-aebb-495a8dc02bfa",
+     "label": "Thornton_Anthro__93124493.pdf_Ground_Thornton_Anthro_2012_93_040410.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002286",
+   "label": "Thornton_Anthro__1010307388",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Equations Used to Calculate Anthropometric Measurements",
+    "dataset_catalog": "Thornton_Anthro__1010307388",
+    "dataset_description": [
+     "This file is a compilation of several papers containing formulas used during the calculation of anthropometric measurements on astronaut candidates in 1977.\r\n<P> \r\nSource: Data from the William E. Thornton collection."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "Thornton_Anthro"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "f88adb0b-94ab-5fba-8a2c-9289a3284fed",
+     "label": "Thornton_Anthro__1010307388.pdf_Ground_Thornton_Anthro_2012_101_030432.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002287",
+   "label": "Thornton_Anthro__880429643",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Printout of Anthropometric Measurements Collected on Astronaut Candidates in 1977",
+    "dataset_catalog": "Thornton_Anthro__880429643",
+    "dataset_description": [
+     "This is a printout of all anthropometric measurements collected on astronaut candidates in 1977.  The printout is not dated.  When compared to a similar data set (dated 8/18/1980) for the same group of candidates, this printout appears to have in some cases more data points and in other cases fewer data points depending on the parameter being measured.  Source: Data from the William E. Thornton collection."
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "Thornton_Anthro"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "a7aac4c5-c2a2-54be-90c8-4328295501a0",
+     "label": "Thornton_Anthro__880429643.pdf_Ground_Thornton_Anthro_2012_90_050326.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

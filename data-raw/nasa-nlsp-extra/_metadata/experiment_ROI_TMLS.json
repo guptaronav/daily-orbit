@@ -1,0 +1,354 @@
+{
+ "record": {
+  "id": "66b4eafe-b73b-571e-a8af-78cd6a3bda73",
+  "_id": "66b4eafe-b73b-571e-a8af-78cd6a3bda73",
+  "experiment_title": "The Effect of Increasing Mass upon Locomotion",
+  "archive_status_index": 2,
+  "pub_document_number": "NASA-TM 2007-0019365",
+  "experiment_alias": [
+   "TMLS"
+  ],
+  "parameter_html": "<table><tr><td>Gait parameters</td></tr><tr><td>Ground reaction force</td></tr><tr><td>Impulse</td></tr><tr><td>Loading rate</td></tr><tr><td>Peak impact force</td></tr><tr><td>Peak propulsive force</td></tr><tr><td>Ankle dorsiflexion</td></tr><tr><td>Ankle extension</td></tr><tr><td>Hip extension</td></tr><tr><td>Knee extension</td></tr><tr><td>Ankle flexion</td></tr><tr><td>Hip flexion</td></tr><tr><td>Knee flexion</td></tr><tr><td>Plantar flexion, ankle</td></tr><tr><td>Ankle range of motion</td></tr><tr><td>Hip range of motion</td></tr><tr><td>Knee range of motion</td></tr><tr></tr></table>",
+  "__source_key": "cl62azk7ncdf801o65wk1g2hr",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Hagan, R.\">Principal Investigator: Hagan, R.</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:De Witt, John\">Co-Investigator: De Witt, John</a>",
+  "experiment_type_lk": [
+   "Countermeasures Evaluation &amp",
+   "Validation Project (CEVP)",
+   "Exercise Countermeasure Project (ECP)"
+  ],
+  "__record_modified_date": "2026-08-23T04:11:02.403802+00:00",
+  "__indexed": "2026-08-23T04:11:02.403802+00:00",
+  "alias": [
+   "TMLS"
+  ],
+  "__record_creation_date": "2022-07-28T19:54:30.861Z",
+  "keyword": [
+   "Biomechanics",
+   "Exercise/physiology",
+   "Weight-bearing",
+   "Musculoskeletal physiology",
+   "Exercise",
+   "Foot",
+   "Physical education and training"
+  ],
+  "keyword_name": "Physical education and training",
+  "__record_size": 162806,
+  "__record_version": 29,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<br>\r\nAstronauts perform locomotive exercise on the International Space Station (ISS) as a countermeasure to the physiological losses associated with space flight. The locomotive-related ground reaction forces may provide mechanical loading that is a sufficient stimulus for bone adaptation and thus reduce the bone loss that occurs. However, recent investigations have shown that the ground reaction forces developed during locomotion in microgravity are less than those occurring in normal gravity. Specifically, peak ground reaction forces measured in microgravity were less than those developed in normal gravity even when subjects were loaded at external load levels equal to or greater than their body weight.</p>\r\n<p>The ground reaction force occurring between the foot and ground is equivalent to the resultant force applied to the body's center of mass. Since force is the product of mass and acceleration, an increase in body mass with a given acceleration should result in an increase in ground reaction force. The loading mechanisms used on the ISS to date, appear to be limited in allowing astronauts to achieve normal-gravity-like levels of peak ground reaction force. Thus, other approaches may be necessary to effectively create normal-gravity-like ground reaction force using the current treadmill onboard the ISS. Adding mass to the astronaut could result in an increased ground reaction force. The addition of mass to the subject, however, may also affect the kinematics, kinetics, and adaptations in normal locomotion.</p>\r\n<p>Increasing the mass of the astronaut through a weighted vest offers a potentially economical and easily modifiable enhancement to current exercise countermeasures. The use of a harness capable of providing different levels of mass could save resources by reducing the need to develop new exercise devices. More importantly, the health and well-being of astronauts could be improved efficiently and inexpensively. Furthermore, exercise with body weight support and a weighted vest to increase overall mass may be useful during the rehabilitation process for individuals who are at risk for osteoporosis.\r\n<p>\r\nThe goal of this study is to determine whether or not increasing subject mass can create more effective exercise countermeasures during long-term space flight and to better understand the motor accommodations made to gait. The primary purpose of this investigation is to determine how the manipulation of mass affects the ground reaction force during treadmill locomotion. The secondary purpose is to examine the kinetic adaptations to increased body mass during locomotion.\r\n<p>\r\nAPPROACH:<br>\r\nTen subjects (five men and five women) participated in this study. The sample was drawn from the test subject pool at NASA Johnson Space Center in Houston, Texas. The test subjects approximated the age range of the current astronaut population. In order to be eligible for the test subject pool, each subject had to be healthy and had passed a United States Air Force Class III equivalent physical. In addition, because the weighted vest had a maximum capacity of 38.1 kg (84 lbs), all subjects had to weigh less than 200 pounds. Prior to being accepted to the sample, each potential subject was screened to ensure that they were healthy and free from injury.</p>\r\n<p>Vertical ground reaction force data were collected during the testing trials with a force-measuring treadmill (Kistler Gaitway, Amherst, NY) at 480 Hz. The treadmill was equipped with two force plates beneath the running tread arranged so one plate rested in the front and one in the rear of the locomotion area. Each plate contained four piezoelectric load cells that measure vertical ground reaction force and allow for a determination of the center of pressure during each sample.\r\n<p>\r\nThree-dimensional position data from reflective markers placed upon the subject were collected at 60 Hz with eight cameras (Smart Elite motion capture system, BTS Bioengineering Spa, Milanese, IT). Prior to each day of data collection, the motion capture system was calibrated to within 0.44 \u00b1 0.03 mm of marker re-prediction accuracy. All three-dimensional data were expressed relative to an inertial reference frame that was established during calibration. A reference trial was collected after calibration but before the subject arrived at the lab to establish a treadmill reference frame. An electronic pulse was output by the force treadmill upon the initiation of data collection. The signal was recorded by the motion capture system and was used to synchronize the data during post processing.\r\n<p>\r\nMass was added to each subject using a weighted exercise vest (X-Vest, Perform Better, Cranston, RI). The vest was worn over the shoulders and had top and bottom pockets on the front and back of the subject. Each pocket was fitted with slots in which up to twenty individual 1.1 kg masses could be placed. Slots for weight placement were located on the inside and outside inner surface of each pocket (10 on either surface). During AM (morning) trials, masses were added equally to the front and rear of the vest. The masses were always added to the inner-lower slots first, followed by inner-upper, outer-lower, and outer-upper slots. Within each pocket, weights were added to the center of each row of slots first, and then fanned outwards. Body weight was maintained with an overhead un-weighting system (H/P/Cosmos Airwalk, Nussdorf, Germany). The system provided a constant upward force via a pneumatic pump. The subjects wore a harness about their waist and thighs that were provided by the un-weighting system manufacturer.</p>\r\n<p>Data were collected during five mass treatments at two speeds. Subjects walked at 1.34 km/hr (3 mph) and ran at 3.13 km/hr (7 mph). In addition to a control condition with no added mass (0% AM), mass was added while body weight was maintained. Added mass (AM) conditions included, 10% AM, 20% AM, 30% AM, and 40% AM. At each AM condition, subjects had their weight relieved with an unloading system so the net force between the subject and treadmill remained equal to 100% body weight during quiet standing. All trials at each speed were completed during a single data collection session for each subject. Prior to actual data collection, each subject participated in a familiarization session during which they had the opportunity to practice walking and running at each speed and treatment condition.\r\n<p>\r\nSubjects completed all added mass treatments at one speed before completing treatments at the other speed. The speed order was randomized for each subject by a coin flip prior to their first testing session. Treatment randomization occurred independently for each speed. In order to assure that there was a balance of increased mass conditions between subjects, a balanced Latin square random assignment was used. The design allowed for a balance of treatment orders so that no two testing sequences were the same for different subjects within each speed. Each subject was randomly assigned a sequence with only one subject completing each specific order. Trial order assignment occurred separately for each speed. The subjects wore the un-weighting harness during all conditions, including the control trial.\r\n<p>\r\nRESULTS:<br>\r\n<i>Summary of Results During Walking</i>\r\n<p>\r\nDuring walking, stride time increased as mass was added. Adding mass increased impact forces and loading rates. Peak propulsive forces decreased with additional mass, but impulse was not affected. Angular impulse at the hip during the stance phase was affected by the addition of mass during walking. Stance phase hip extension torques increased as mass was added, with the 30% AM condition having the largest angular impulse. Positive work at the hip increased and negative work decreased. Negative work at the ankle joint also decreased as mass was added. During the swing phase, knee extension torques decreased with the addition of mass. There were no differences at any joint in positive or negative work during the swing phase.\r\n<p>\r\n<i>Summary of Results During Running</i>\r\n<p>\r\nDuring running, contact time and stride time increased as mass was added. Peak impact forces and loading rates decreased, and impulse increased as mass was added. There were no effects of additional mass upon peak propulsive forces. During the stance phase, hip extension angular impulse and knee flexion impulse increased with additional mass. Positive work at the hip increased and negative work decreased. During the swing phase, hip extension and flexion angular impulse decreased as mass was added. Knee extension and ankle plantar flexion impulses also decreased as mass was added. Negative work at the knee decreased; otherwise, there were no added mass effects on any of the other work dependent variables.\r\n<p>\r\nThe specific purpose of this investigation was to determine if adding mass to astronauts during locomotive exercise in microgravity would be beneficial to increasing the forces experienced by the musculoskeletal system. In both locomotive modes, hip musculature activity and positive work increased suggesting that the hip is the primary area of adaptation of joint torque. It is possible that increasing mass during locomotive exercise in microgravity may be beneficial to increasing impact forces and hip extensor activity during walking. During running, there may be adaptations in locomotive patterns to minimize increases in ground reaction forces.</p>",
+  "payload_id": "ROI",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "ROI_TMLS",
+  "indexed": "2026-08-23T04:11:02.403802+00:00",
+  "GUID": "cl62azk7ncdf801o65wk1g2hr",
+  "parameter_name": [
+   "Gait parameters",
+   "Ground reaction force",
+   "Impulse",
+   "Loading rate",
+   "Peak impact force",
+   "Peak propulsive force",
+   "Ankle dorsiflexion",
+   "Ankle extension",
+   "Hip extension",
+   "Knee extension",
+   "Ankle flexion",
+   "Hip flexion",
+   "Knee flexion",
+   "Plantar flexion, ankle",
+   "Ankle range of motion",
+   "Hip range of motion",
+   "Knee range of motion"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 1303,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Muscle physiology",
+   "Skeletal physiology",
+   "Exercise physiology"
+  ],
+  "pme_role_with_name": [
+   "Co-Investigator: De Witt, John",
+   "Principal Investigator: Hagan, R."
+  ],
+  "missions": [
+   [
+    [
+     "ROI"
+    ]
+   ]
+  ],
+  "__dirid": "66b4eafe-b73b-571e-a8af-78cd6a3bda73",
+  "__record_size_wo_doccontent": 162806,
+  "PI": [
+   "Hagan, R."
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "ROI_TMLS",
+   "TMLS"
+  ],
+  "mission_id": [
+   [
+    [
+     "ROI"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "proposal_source": [],
+  "proposal_date": [],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Hagan, R."
+  ],
+  "program_name": [
+   "Ground"
+  ],
+  "archive_status": "Data preservation is complete. Privacy-protected datasets are available via data request. Remaining datasets are publicly available.",
+  "__is_locked": false,
+  "Program": "Ground",
+  "__source_field_concat": "NASA-TM 2007-0019365 ROI cl62azk7ncdf801o65wk1g2hr Physical education and training N/A The Effect of Increasing Mass upon Locomotion ROI_TMLS Ground",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<br>\r\nAstronauts perform locomotive exercise on the International Space Station (ISS) as a countermeasure to the physiological losses associated with space flight. The locomotive-related ground reaction forces may provide mechanical loading that is a sufficient stimulus for bone adaptation and thus reduce the bone loss that occurs. However, recent investigations have shown that the ground reaction forces developed during locomotion in microgravity are less than those occurring in normal gravity. Specifically, peak ground reaction forces measured in microgravity were less than those developed in normal gravity even when subjects were loaded at external load levels equal to or greater than their body weight.</p>\r\n<p>The ground reaction force occurring between the foot and ground is equivalent to the resultant force applied to the body's center of mass. Since force is the product of mass and acceleration, an increase in body mass with a given acceleration should result in an increase in ground reaction force. The loading mechanisms used on the ISS to date, appear to be limited in allowing astronauts to achieve normal-gravity-like levels of peak ground reaction force. Thus, other approaches may be necessary to effectively create normal-gravity-like ground reaction force using the current treadmill onboard the ISS. Adding mass to the astronaut could result in an increased ground reaction force. The addition of mass to the subject, however, may also affect the kinematics, kinetics, and adaptations in normal locomotion.</p>\r\n<p>Increasing the mass of the astronaut through a weighted vest offers a potentially economical and easily modifiable enhancement to current exercise countermeasures. The use of a harness capable of providing different levels of mass could save resources by reducing the need to develop new exercise devices. More importantly, the health and well-being of astronauts could be improved efficiently and inexpensively. Furthermore, exercise with body weight support and a weighted vest to increase overall mass may be useful during the rehabilitation process for individuals who are at risk for osteoporosis.\r\n<p>\r\nThe goal of this study is to determine whether or not increasing subject mass can create more effective exercise countermeasures during long-term space flight and to better understand the motor accommodations made to gait. The primary purpose of this investigation is to determine how the manipulation of mass affects the ground reaction force during treadmill locomotion. The secondary purpose is to examine the kinetic adaptations to increased body mass during locomotion.\r\n<p>\r\nAPPROACH:<br>\r\nTen subjects (five men and five women) participated in this study. The sample was drawn from the test subject pool at NASA Johnson Space Center in Houston, Texas. The test subjects approximated the age range of the current astronaut population. In order to be eligible for the test subject pool, each subject had to be healthy and had passed a United States Air Force Class III equivalent physical. In addition, because the weighted vest had a maximum capacity of 38.1 kg (84 lbs), all subjects had to weigh less than 200 pounds. Prior to being accepted to the sample, each potential subject was screened to ensure that they were healthy and free from injury.</p>\r\n<p>Vertical ground reaction force data were collected during the testing trials with a force-measuring treadmill (Kistler Gaitway, Amherst, NY) at 480 Hz. The treadmill was equipped with two force plates beneath the running tread arranged so one plate rested in the front and one in the rear of the locomotion area. Each plate contained four piezoelectric load cells that measure vertical ground reaction force and allow for a determination of the center of pressure during each sample.\r\n<p>\r\nThree-dimensional position data from reflective markers placed upon the subject were collected at 60 Hz with eight cameras (Smart Elite motion capture system, BTS Bioengineering Spa, Milanese, IT). Prior to each day of data collection, the motion capture system was calibrated to within 0.44 \u00b1 0.03 mm of marker re-prediction accuracy. All three-dimensional data were expressed relative to an inertial reference frame that was established during calibration. A reference trial was collected after calibration but before the subject arrived at the lab to establish a treadmill reference frame. An electronic pulse was output by the force treadmill upon the initiation of data collection. The signal was recorded by the motion capture system and was used to synchronize the data during post processing.\r\n<p>\r\nMass was added to each subject using a weighted exercise vest (X-Vest, Perform Better, Cranston, RI). The vest was worn over the shoulders and had top and bottom pockets on the front and back of the subject. Each pocket was fitted with slots in which up to twenty individual 1.1 kg masses could be placed. Slots for weight placement were located on the inside and outside inner surface of each pocket (10 on either surface). During AM (morning) trials, masses were added equally to the front and rear of the vest. The masses were always added to the inner-lower slots first, followed by inner-upper, outer-lower, and outer-upper slots. Within each pocket, weights were added to the center of each row of slots first, and then fanned outwards. Body weight was maintained with an overhead un-weighting system (H/P/Cosmos Airwalk, Nussdorf, Germany). The system provided a constant upward force via a pneumatic pump. The subjects wore a harness about their waist and thighs that were provided by the un-weighting system manufacturer.</p>\r\n<p>Data were collected during five mass treatments at two speeds. Subjects walked at 1.34 km/hr (3 mph) and ran at 3.13 km/hr (7 mph). In addition to a control condition with no added mass (0% AM), mass was added while body weight was maintained. Added mass (AM) conditions included, 10% AM, 20% AM, 30% AM, and 40% AM. At each AM condition, subjects had their weight relieved with an unloading system so the net force between the subject and treadmill remained equal to 100% body weight during quiet standing. All trials at each speed were completed during a single data collection session for each subject. Prior to actual data collection, each subject participated in a familiarization session during which they had the opportunity to practice walking and running at each speed and treatment condition.\r\n<p>\r\nSubjects completed all added mass treatments at one speed before completing treatments at the other speed. The speed order was randomized for each subject by a coin flip prior to their first testing session. Treatment randomization occurred independently for each speed. In order to assure that there was a balance of increased mass conditions between subjects, a balanced Latin square random assignment was used. The design allowed for a balance of treatment orders so that no two testing sequences were the same for different subjects within each speed. Each subject was randomly assigned a sequence with only one subject completing each specific order. Trial order assignment occurred separately for each speed. The subjects wore the un-weighting harness during all conditions, including the control trial.\r\n<p>\r\nRESULTS:<br>\r\n<i>Summary of Results During Walking</i>\r\n<p>\r\nDuring walking, stride time increased as mass was added. Adding mass increased impact forces and loading rates. Peak propulsive forces decreased with additional mass, but impulse was not affected. Angular impulse at the hip during the stance phase was affected by the addition of mass during walking. Stance phase hip extension torques increased as mass was added, with the 30% AM condition having the largest angular impulse. Positive work at the hip increased and negative work decreased. Negative work at the ankle joint also decreased as mass was added. During the swing phase, knee extension torques decreased with the addition of mass. There were no differences at any joint in positive or negative work during the swing phase.\r\n<p>\r\n<i>Summary of Results During Running</i>\r\n<p>\r\nDuring running, contact time and stride time increased as mass was added. Peak impact forces and loading rates decreased, and impulse increased as mass was added. There were no effects of additional mass upon peak propulsive forces. During the stance phase, hip extension angular impulse and knee flexion impulse increased with additional mass. Positive work at the hip increased and negative work decreased. During the swing phase, hip extension and flexion angular impulse decreased as mass was added. Knee extension and ankle plantar flexion impulses also decreased as mass was added. Negative work at the knee decreased; otherwise, there were no added mass effects on any of the other work dependent variables.\r\n<p>\r\nThe specific purpose of this investigation was to determine if adding mass to astronauts during locomotive exercise in microgravity would be beneficial to increasing the forces experienced by the musculoskeletal system. In both locomotive modes, hip musculature activity and positive work increased suggesting that the hip is the primary area of adaptation of joint torque. It is possible that increasing mass during locomotive exercise in microgravity may be beneficial to increasing impact forces and hip extensor activity during walking. During running, there may be adaptations in locomotive patterns to minimize increases in ground reaction forces.</p>",
+  "__doi": "10.83263/gmym-2w72",
+  "__doi_record_creation_date": "2026-08-23T04:11:02",
+  "__doi_record_modified_date": "2026-08-23T04:11:02"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001642",
+   "label": "JMROI_TMLS_2",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Treadmill Mass Loading Study (TMLS) NASA TM",
+    "dataset_catalog": "JMROI_TMLS_2",
+    "dataset_description": [
+     "This PDF File is a NASA Technical Memorandum which was presented at the American Society of Biomechanics Annual Meeting on August 22-25, 2007 in Palo Alto, CA.  It includes summarized results for the Treadmill Mass Loading Study (TMLS).  Data includes hip and knee joint torque trajectories during walking and running from subjects in the TMLS study.  Individual subject data is available in a restricted Access database file.\r\n<p>\r\nSource: DeWitt JK, Cromwell RL, Hagan RD. The effect of manipulating subject mass on lower extremity torque: Paper presented at: American Society of Biomechanics Annual Meeting; August 22-25, 2007; Palo Alto, CA. NASA Technical Memorandum NASA-TM 2007-0019365."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "ROI_TMLS"
+    ]
+   },
+   "meta": "1 file \u00b7 34.6 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "377cc98a-107b-51db-9f2f-fc75f325be17",
+     "label": "JMROI_TMLS_2.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 35430,
+     "meta": "34.6 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001629",
+   "label": "JMROI_TMLS_5",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Contact Time and Stride Time",
+    "dataset_catalog": "JMROI_TMLS_5",
+    "dataset_description": [
+     "This Excel file contains contact time and stride time for each added inertial force (AIF) condition for walking and running for all subjects in the ROI_TMLS study   Contact time was affected differently by AIF between walking and running. Contact time did not change during walking, but did increase with added inertia during running. Stride time was affected by inertia during both walking and running for the largest AIF condition (see Table 1 in referenced publication).\r\n<p>\r\nSource:  De Witt JK, Hagan RD, and Cromwell RL. The effect of increasing inertia upon vertical ground reaction forces and temporal kinematics during locomotion. The Journal of Experimental Biology 2008. 211, 1087-1092."
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "ROI_TMLS"
+    ]
+   },
+   "meta": "1 file \u00b7 12.1 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "4c8ea30d-2a58-545d-8445-959fd5f65bc0",
+     "label": "JMROI_TMLS_5.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 12390,
+     "meta": "12.1 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002230",
+   "label": "JMROI_TMLS_1",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Treadmill Mass Loading Study (TMLS) NASA TP",
+    "dataset_catalog": "JMROI_TMLS_1",
+    "dataset_description": [
+     "This PDF File is the NASA Technical Publication which includes summarized results for the Treadmill Mass Loading Study (TMLS).  Data includes ground reaction force, kinematic, and kinetic data from the TMLS for all subjects.  Individual subject data is available in a restricted Access database file.\r\n<p>\r\nSource: Dewitt JK, Hagan RD. The effect of increasing mass upon locomotion. Houston TX: National Aeronautics and Space Administration, Lyndon B. Johnson Space Center; 2007 June. NASA Technical Publication NASA-TP-2007-0022350."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "ROI_TMLS"
+    ]
+   },
+   "meta": "1 file \u00b7 419.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "9729e3db-179d-5416-84a5-68b348a908ce",
+     "label": "JMROI_TMLS_1.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 429056,
+     "meta": "419.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001845",
+   "label": "JMROI_TMLS_7",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Peak Vertical Propulsive Force and Impulse",
+    "dataset_catalog": "JMROI_TMLS_7",
+    "dataset_description": [
+     "This Excel file contains peak vertical propulsive force and impulse for each added inertial force (AIF) condition for walking and running for all subjects in the ROI_TMLS study.  Variables include peak vertical propulsive force (BW) and impulse (BW<sup>ms</sup>). During running, peak vertical impact forces and loading rate decreased as inertial force was added. There was no effect of AIF during running for peak vertical propulsive force. The impulse during the 40% AIF condition was greater than during the 0% AIF condition (see Table 3 in referenced publication). \r\n<p>\r\nSource:  De Witt JK, Hagan RD, and Cromwell RL. The effect of increasing inertia upon vertical ground reaction forces and temporal kinematics during locomotion. The Journal of Experimental Biology 2008. 211, 1087-1092."
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "ROI_TMLS"
+    ]
+   },
+   "meta": "1 file \u00b7 12.4 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "fa2f2303-2e5d-57ba-acd2-b2e3c15ee0e7",
+     "label": "JMROI_TMLS_7.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 12698,
+     "meta": "12.4 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002135",
+   "label": "JMROI_TMLS_6",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Peak Vertical Impact Force and Loading Rate",
+    "dataset_catalog": "JMROI_TMLS_6",
+    "dataset_description": [
+     "This Excel file contains peak vertical impact force and loading rate for each added inertial force (AIF) condition for walking and running for all subjects in the ROI_TMLS study.  Variables include peak vertical impact force (BW) and loading rate (BW <sup>1</sup>). During running, peak vertical impact forces and loading rate decreased as inertial force was added. There was no effect of AIF during running for peak vertical propulsive force. The impulse during the 40% AIF condition was greater than during the 0% AIF condition (see Table 2 in referenced publication). \r\n<p>\r\nSource:  De Witt JK, Hagan RD, and Cromwell RL. The effect of increasing inertia upon vertical ground reaction forces and temporal kinematics during locomotion. The Journal of Experimental Biology 2008. 211, 1087-1092."
+    ],
+    "processing_level": "",
+    "experiment_id": [
+     "ROI_TMLS"
+    ]
+   },
+   "meta": "1 file \u00b7 12.3 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "427aa4f5-8378-5968-8070-7d130380a571",
+     "label": "JMROI_TMLS_6.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 12595,
+     "meta": "12.3 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001793",
+   "label": "JMROI_TMLS_4",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Adaptations to Inertia During Running",
+    "dataset_catalog": "JMROI_TMLS_4",
+    "dataset_description": [
+     "This graph depicts normalized, ensemble averaged vertical GRF trajectories for running over all trials for all subjects in the ROI_TMLS study (see Figure 3 in referenced publication). Values include mean ensemble ground reaction force (GRF) trajectories during walking at all added mass (AM) levels. AIF = added inertial force; BW = body weights.\r\n<p>\r\nSource:  De Witt JK, Hagan RD, and Cromwell RL. The effect of increasing inertia upon vertical ground reaction forces and temporal kinematics during locomotion. The Journal of Experimental Biology 2008. 211, 1087-1092."
+    ],
+    "processing_level": "",
+    "experiment_id": [
+     "ROI_TMLS"
+    ]
+   },
+   "meta": "1 file \u00b7 54.2 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "ef03b10c-2c16-50f1-827d-d900429bfed4",
+     "label": "JMROI_TMLS_4.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 55501,
+     "meta": "54.2 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002231",
+   "label": "JMROI_TMLS_3",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Adaptations to Inertia During Walking",
+    "dataset_catalog": "JMROI_TMLS_3",
+    "dataset_description": [
+     "This graph depicts normalized, ensemble averaged vertical GRF trajectories for walking over all trials for all subjects in the ROI_TMLS study (see Figure 2 in referenced publication). Values include mean ensemble ground reaction force (GRF) trajectories during walking at all added mass (AM) levels. AIF = added inertial force; BW = body weights.\r\n<p>\r\nSource:  De Witt JK, Hagan RD, and Cromwell RL. The effect of increasing inertia upon vertical ground reaction forces and temporal kinematics during locomotion. The Journal of Experimental Biology 2008. 211, 1087-1092."
+    ],
+    "processing_level": "",
+    "experiment_id": [
+     "ROI_TMLS"
+    ]
+   },
+   "meta": "1 file \u00b7 51.7 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "0ab7c75a-83a3-55ed-adfe-18f835337926",
+     "label": "JMROI_TMLS_3.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 52941,
+     "meta": "51.7 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

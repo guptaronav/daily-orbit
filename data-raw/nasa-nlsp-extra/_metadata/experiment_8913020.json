@@ -1,0 +1,247 @@
+{
+ "record": {
+  "id": "c4b64834-9ef6-5349-983a-408f71bcd5a3",
+  "_id": "c4b64834-9ef6-5349-983a-408f71bcd5a3",
+  "experiment_title": "The Effects of Weightlessness on Human Single Muscle Fiber Function",
+  "pub_document_number": "PUB002924",
+  "experiment_alias": [
+   "E920",
+   "STAB"
+  ],
+  "parameter_html": "<table><tr><td>Angular velocity</td></tr><tr><td>Blood flow, pulmonary capillary</td></tr><tr><td>Body mass</td></tr><tr><td>Calf muscle, maximal voluntary contraction</td></tr><tr><td>Carbon dioxide concentration, expired gas</td></tr><tr><td>Carbon dioxide concentration, inspired gas</td></tr><tr><td>Cross-sectional area, thigh</td></tr><tr><td>Diffusing capacity of the lung for carbon monoxide (DLCO)</td></tr><tr><td>Drug usage and dosage</td></tr><tr><td>Effective alveolar volume</td></tr><tr><td>Electromyogram (EMG), m. biceps brachii</td></tr><tr><td>Electromyogram (EMG), m. gastrocnemius medialis</td></tr><tr><td>Electromyogram (EMG), m. soleus</td></tr><tr><td>Electromyogram (EMG), m. tibialis anterior</td></tr><tr><td>Electromyogram (EMG), m. triceps brachii</td></tr><tr><td>Electromyogram force ratio</td></tr><tr><td>Enzymes, muscle fiber</td></tr><tr><td>Fluid intake</td></tr><tr><td>Food intake</td></tr><tr><td>Force-mode, Torque-Velocity Dynamometer (TVD)</td></tr><tr><td>Force-output</td></tr><tr><td>Force-velocity</td></tr><tr><td>Force/cross-sectional area</td></tr><tr><td>Heart rate</td></tr><tr><td>Joint angular position, ankle</td></tr><tr><td>Leg volume</td></tr><tr><td>Muscle fatigue, calf muscles</td></tr><tr><td>Muscle fiber size</td></tr><tr><td>Muscle fiber, cross-bridge stiffness</td></tr><tr><td>Muscle fiber, force-velocity</td></tr><tr><td>Muscle fiber, isozyme content</td></tr><tr><td>Muscle fiber, maximal shortening speed</td></tr><tr><td>Muscle fiber, pCa-force</td></tr><tr><td>Muscle fiber, peak rate of tension development</td></tr><tr><td>Muscle fiber, peak tension</td></tr><tr><td>Muscle fiber, substrate profile</td></tr><tr><td>Muscle force</td></tr><tr><td>Muscle velocity, calf muscles</td></tr><tr><td>Muscle volume</td></tr><tr><td>Muscle, lean tissue mass</td></tr><tr><td>Myosin heavy chain (MHC), muscle fiber</td></tr><tr><td>Oxygen concentration, expired gas</td></tr><tr><td>Oxygen concentration, inspired gas</td></tr><tr><td>Respiratory rate</td></tr><tr><td>Resporatory exchange ratio (RER)</td></tr><tr><td>Tidal volume</td></tr><tr><td>Torque</td></tr><tr><td>Torque Velocity Dynamometer (TVD), lever arm position</td></tr><tr><td>Torque/angle</td></tr><tr><td>Torque/current</td></tr><tr><td>Torque/time</td></tr><tr><td>Total lung capacity (TLC)</td></tr><tr><td>Velocity</td></tr><tr><td>Vital capacity (VC)</td></tr><tr><td>Workload, ergometer</td></tr><tr></tr></table>",
+  "__source_key": "cl62atzrccaoa01o6hwtpbvu6",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Fitts, Robert\">Principal Investigator: Fitts, Robert</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Costill, David\">Co-Investigator: Costill, David</a>",
+  "image_name": [
+   "Bicycle Ergometer III -- sketch drawing",
+   "Gas Analyzer System for Metabolic Analysis Physiology (GASMAP) -- sketch drawing",
+   "Life and Microgravity Spacelab (LMS) payload operations, analysis of inhaled and exhaled air",
+   "Life and Microgravity Spacelab (LMS) Payload Operations, measuring inhaled and exhaled air"
+  ],
+  "keyword": [
+   "Electromyography",
+   "Carbon dioxide (CO2)",
+   "Cross-sectional area (CSA)",
+   "Muscle fibers",
+   "Torque"
+  ],
+  "keyword_name": "Torque",
+  "__record_version": 29,
+  "experiment_description": "OBJECTIVES:<br>\r\nInvestigations on previous space flights have documented that microgravity produces significant muscle atrophy, particularly in the anti-gravity muscles, such as those in the calf. However, a comprehensive description of microgravity-induced changes in human skeletal muscle structure and function and the underlying cellular mechanisms contributing to the altered function have not been established. Consequently, the overall objective of this project was to study the effects of microgravity on skeletal muscle function and to establish the cellular causes of the reduced functional capacity of skeletal muscle.<p>\r\nSpecific objectives were the following:<br>\r\n1. To determine the extent to which microgravity alters human performance and skeletal muscle function.<br>\r\n2. To study the effects of microgravity on single fiber function, including the physiological and biochemical properties of the individual slow-twitch and fast-twitch fibers of human skeletal muscles.<br>\r\n3. To elucidate the cellular mechanisms of the observed microgravity-induced alterations in single fiber function.<br>\r\n4. To assess the role of an altered cellular capacity in eliciting the microgravity-induced reduction in both skeletal muscle and whole body performance and physical work capacity.\r\n<p>\r\nAPPROACH:<br>\r\nTo determine the effects of microgravity on maximal aerobic work capacity (VO2 max), maximal heart rate, VO2 max, calf muscle functions, and calf muscle performance were monitored during different tests. In addition, a muscle biopsy sample was obtained from the gastrocnemius and soleus muscles of the calf, both preflight and immediately postflight.<br>\r\nTest for maximal oxygen consumption (VO2 max): The subject exercised on a bicycle ergometer with gradually increasing workloads. During the test the subject rode with a mouthpiece and noseclip in place for measurement and analysis of the expired oxygen and carbon dioxide. Preflight and most postflight tests were performed up to a 100% volitional maximum. Inflight and immediately postflight, tests were performed at 85% of this level.<br>\r\nCalf muscle testing: The Torque-Velocity Dynamometer (TVD) was used to evaluate functional capacity of the calf muscle group. During the tests, the astronaut was supine with the right leg secured to the TVD. Three different protocols were tested: isometric, isokinetic and fatigue test. They are described as follows:<br>\r\n1. Isometric: The test subject was asked to apply the maximal force onto the TVD, while the footplate was in a fixed position. The test was repeated three times with different angles of the footplate: 80 degrees, 90 degrees, and 100 degrees.<br>\r\n2. Isokinetic: This test was employed at six different velocities (30, 60, 120, 180, 240 and 300 degrees per second), starting with the slow speed. The footplate was moving and the subject was asked to apply as much force as possible onto the moving surface.<br>\r\n3. Fatigue test: Thirty contractions were completed at 180 degrees per second. The subject was asked to perform with maximal effort and then attempt to maintain that effort.<br>\r\n4. Muscle biopsy: A small section of muscle (about 50 mg) was taken from the gastrocnemius and soleus muscles with a special biopsy needle. The sample was taken from the left leg preflight and right leg postflight. Muscle samples were analyzed by single fiber physiology to look at their contractile characteristics and biochemistry, by histochemistry to look at the fiber composition and size and the capillary density, and by electron microscopy to look at fiber microtrauma.\r\n<p>\r\nIn addition to the above tests, VO2 max was tested three times during the flight; on Flight Days 3/4, 8/9 and 13/14. VO2 max tests were preceded and followed by a pulmonary function test (Experiment 284030). Calf muscle function testing was performed on Flight Days 2/3, 7/8 and 12/13 following the motor control tests of Experiment 284036 on the right leg. The fatigue test portion of the test was only performed during the Flight Day 2/3 and 12/13 sessions. Postflight testing included another muscle biopsy sample on landing day, calf muscle function testing on R+2, 4, 8, 15 and 30, and VO2 max testing on R+1, 5, 9, 16 and 31 (R is the day of landing).\r\n<p>\r\nRESULTS:<br>\r\nThe 17 day LMS space flight resulted in significant decline in the whole body aerobic capacity of the crew, and in the functional performance of individual slow- and fast-twitch fibers. The fiber atrophy and decline in function (force and power) was greatest in the slow type I fibers of the antigravity soleus muscle. Considerable subject variability occurred for example, subject 0 showed a 40% decline in peak power of the soleus type I fiber, while this parameter was reduced by only 12% in subject A. The reason for the different responsiveness of the crew to microgravity is unknown, but could relate to the degree of exercise countermeasure performed.\r\n<p>\r\nCell atrophy was the primary cause of the decline in fiber force and power as the force per cross-sectional area showed only minimal changes. In the slow type I fibers of the soleus, 2 of the 4 crew members showed a significant drop in peak power. All 4 subjects showed an increased shortening speed, and this partially protected against the loss of power. The increased velocity appears to have resulted from a selective loss of filamentous actin. This increased the actin-myosin filament spacing which in turn allowed a faster cross-bridge cycling rate and increased fiber speed. The structural rearrangement of the filaments represents an important adaptation to preserve cell power. One expects that this strategy is considerable more efficient than switching the myosin phenotype from the slow to the fast isozyme. The latter strategy occurs in rats flown in space, and results in a faster but less efficient muscle.\r\n<p>\r\nThe reduced force and power of the individual fibers of the soleus and gastrocnemius did not result in a compromised calf muscle function. This suggests that the cellular changes were either too small to be detected by the TVD or that the crew compensated for the decline in cell function by altering their motor unit recruitment pattern.\r\n<p>",
+  "indexed": "2026-08-23T04:20:02.675326+00:00",
+  "GUID": "cl62atzrccaoa01o6hwtpbvu6",
+  "__model_type": "lsda_experiment",
+  "__dirid": "c4b64834-9ef6-5349-983a-408f71bcd5a3",
+  "__record_size_wo_doccontent": 141946,
+  "experiment_parms_tissue2": "N/A",
+  "experiment_parms_tissue1": "N/A",
+  "__update_method": "Update CDM",
+  "archive_status_index": 3,
+  "experiment_type_lk": [
+   "Shuttle Life Sciences Research (Spacelab)"
+  ],
+  "__record_modified_date": "2026-08-23T04:20:02.675326+00:00",
+  "proposal_source": [
+   "Not available"
+  ],
+  "__indexed": "2026-08-23T04:20:02.675326+00:00",
+  "alias": [
+   "E920",
+   "STAB"
+  ],
+  "__record_creation_date": "2022-07-28T19:40:49.108Z",
+  "__record_size": 141946,
+  "__model_version": 60,
+  "payload_id": "LMS",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "8913020",
+  "parameter_name": [
+   "Angular velocity",
+   "Blood flow, pulmonary capillary",
+   "Body mass",
+   "Calf muscle, maximal voluntary contraction",
+   "Carbon dioxide concentration, expired gas",
+   "Carbon dioxide concentration, inspired gas",
+   "Cross-sectional area, thigh",
+   "Diffusing capacity of the lung for carbon monoxide (DLCO)",
+   "Drug usage and dosage",
+   "Effective alveolar volume",
+   "Electromyogram (EMG), m. biceps brachii",
+   "Electromyogram (EMG), m. gastrocnemius medialis",
+   "Electromyogram (EMG), m. soleus",
+   "Electromyogram (EMG), m. tibialis anterior",
+   "Electromyogram (EMG), m. triceps brachii",
+   "Electromyogram force ratio",
+   "Enzymes, muscle fiber",
+   "Fluid intake",
+   "Food intake",
+   "Force-mode, Torque-Velocity Dynamometer (TVD)",
+   "Force-output",
+   "Force-velocity",
+   "Force/cross-sectional area",
+   "Heart rate",
+   "Joint angular position, ankle",
+   "Leg volume",
+   "Muscle fatigue, calf muscles",
+   "Muscle fiber size",
+   "Muscle fiber, cross-bridge stiffness",
+   "Muscle fiber, force-velocity",
+   "Muscle fiber, isozyme content",
+   "Muscle fiber, maximal shortening speed",
+   "Muscle fiber, pCa-force",
+   "Muscle fiber, peak rate of tension development",
+   "Muscle fiber, peak tension",
+   "Muscle fiber, substrate profile",
+   "Muscle force",
+   "Muscle velocity, calf muscles",
+   "Muscle volume",
+   "Muscle, lean tissue mass",
+   "Myosin heavy chain (MHC), muscle fiber",
+   "Oxygen concentration, expired gas",
+   "Oxygen concentration, inspired gas",
+   "Respiratory rate",
+   "Resporatory exchange ratio (RER)",
+   "Tidal volume",
+   "Torque",
+   "Torque Velocity Dynamometer (TVD), lever arm position",
+   "Torque/angle",
+   "Torque/current",
+   "Torque/time",
+   "Total lung capacity (TLC)",
+   "Velocity",
+   "Vital capacity (VC)",
+   "Workload, ergometer"
+  ],
+  "payload_part": "(null)",
+  "exp_index": 323,
+  "research_area": [
+   "Muscle physiology",
+   "Exercise physiology"
+  ],
+  "protocol_approach": "Not applicable",
+  "pme_role_with_name": [
+   "Co-Investigator: Costill, David",
+   "Principal Investigator: Fitts, Robert"
+  ],
+  "missions": [
+   [
+    [
+     "STS-78"
+    ]
+   ]
+  ],
+  "PI": [
+   "Fitts, Robert"
+  ],
+  "_file_extension": [],
+  "experiment_identifier": [
+   "8913020",
+   "E920",
+   "STAB"
+  ],
+  "mission_id": [
+   [
+    [
+     "STS-78"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Fitts, Robert"
+  ],
+  "program_name": [
+   "Shuttle Program"
+  ],
+  "archive_status": "No data from this study was submitted to LSDA. Please contact LSDA if you know of available data.",
+  "__is_locked": false,
+  "Program": "Shuttle Program",
+  "__source_field_concat": "PUB002924 LMS cl62atzrccaoa01o6hwtpbvu6 Torque N/A N/A (null) Not applicable The Effects of Weightlessness on Human Single Muscle Fiber Function 8913020 Shuttle Program No data from this study was submitted to LSDA. Please contact LSDA if you know of available data.",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<br>\r\nInvestigations on previous space flights have documented that microgravity produces significant muscle atrophy, particularly in the anti-gravity muscles, such as those in the calf. However, a comprehensive description of microgravity-induced changes in human skeletal muscle structure and function and the underlying cellular mechanisms contributing to the altered function have not been established. Consequently, the overall objective of this project was to study the effects of microgravity on skeletal muscle function and to establish the cellular causes of the reduced functional capacity of skeletal muscle.<p>\r\nSpecific objectives were the following:<br>\r\n1. To determine the extent to which microgravity alters human performance and skeletal muscle function.<br>\r\n2. To study the effects of microgravity on single fiber function, including the physiological and biochemical properties of the individual slow-twitch and fast-twitch fibers of human skeletal muscles.<br>\r\n3. To elucidate the cellular mechanisms of the observed microgravity-induced alterations in single fiber function.<br>\r\n4. To assess the role of an altered cellular capacity in eliciting the microgravity-induced reduction in both skeletal muscle and whole body performance and physical work capacity.\r\n<p>\r\nAPPROACH:<br>\r\nTo determine the effects of microgravity on maximal aerobic work capacity (VO2 max), maximal heart rate, VO2 max, calf muscle functions, and calf muscle performance were monitored during different tests. In addition, a muscle biopsy sample was obtained from the gastrocnemius and soleus muscles of the calf, both preflight and immediately postflight.<br>\r\nTest for maximal oxygen consumption (VO2 max): The subject exercised on a bicycle ergometer with gradually increasing workloads. During the test the subject rode with a mouthpiece and noseclip in place for measurement and analysis of the expired oxygen and carbon dioxide. Preflight and most postflight tests were performed up to a 100% volitional maximum. Inflight and immediately postflight, tests were performed at 85% of this level.<br>\r\nCalf muscle testing: The Torque-Velocity Dynamometer (TVD) was used to evaluate functional capacity of the calf muscle group. During the tests, the astronaut was supine with the right leg secured to the TVD. Three different protocols were tested: isometric, isokinetic and fatigue test. They are described as follows:<br>\r\n1. Isometric: The test subject was asked to apply the maximal force onto the TVD, while the footplate was in a fixed position. The test was repeated three times with different angles of the footplate: 80 degrees, 90 degrees, and 100 degrees.<br>\r\n2. Isokinetic: This test was employed at six different velocities (30, 60, 120, 180, 240 and 300 degrees per second), starting with the slow speed. The footplate was moving and the subject was asked to apply as much force as possible onto the moving surface.<br>\r\n3. Fatigue test: Thirty contractions were completed at 180 degrees per second. The subject was asked to perform with maximal effort and then attempt to maintain that effort.<br>\r\n4. Muscle biopsy: A small section of muscle (about 50 mg) was taken from the gastrocnemius and soleus muscles with a special biopsy needle. The sample was taken from the left leg preflight and right leg postflight. Muscle samples were analyzed by single fiber physiology to look at their contractile characteristics and biochemistry, by histochemistry to look at the fiber composition and size and the capillary density, and by electron microscopy to look at fiber microtrauma.\r\n<p>\r\nIn addition to the above tests, VO2 max was tested three times during the flight; on Flight Days 3/4, 8/9 and 13/14. VO2 max tests were preceded and followed by a pulmonary function test (Experiment 284030). Calf muscle function testing was performed on Flight Days 2/3, 7/8 and 12/13 following the motor control tests of Experiment 284036 on the right leg. The fatigue test portion of the test was only performed during the Flight Day 2/3 and 12/13 sessions. Postflight testing included another muscle biopsy sample on landing day, calf muscle function testing on R+2, 4, 8, 15 and 30, and VO2 max testing on R+1, 5, 9, 16 and 31 (R is the day of landing).\r\n<p>\r\nRESULTS:<br>\r\nThe 17 day LMS space flight resulted in significant decline in the whole body aerobic capacity of the crew, and in the functional performance of individual slow- and fast-twitch fibers. The fiber atrophy and decline in function (force and power) was greatest in the slow type I fibers of the antigravity soleus muscle. Considerable subject variability occurred for example, subject 0 showed a 40% decline in peak power of the soleus type I fiber, while this parameter was reduced by only 12% in subject A. The reason for the different responsiveness of the crew to microgravity is unknown, but could relate to the degree of exercise countermeasure performed.\r\n<p>\r\nCell atrophy was the primary cause of the decline in fiber force and power as the force per cross-sectional area showed only minimal changes. In the slow type I fibers of the soleus, 2 of the 4 crew members showed a significant drop in peak power. All 4 subjects showed an increased shortening speed, and this partially protected against the loss of power. The increased velocity appears to have resulted from a selective loss of filamentous actin. This increased the actin-myosin filament spacing which in turn allowed a faster cross-bridge cycling rate and increased fiber speed. The structural rearrangement of the filaments represents an important adaptation to preserve cell power. One expects that this strategy is considerable more efficient than switching the myosin phenotype from the slow to the fast isozyme. The latter strategy occurs in rats flown in space, and results in a faster but less efficient muscle.\r\n<p>\r\nThe reduced force and power of the individual fibers of the soleus and gastrocnemius did not result in a compromised calf muscle function. This suggests that the cellular changes were either too small to be detected by the TVD or that the crew compensated for the decline in cell function by altering their motor unit recruitment pattern.\r\n<p>",
+  "__doi": "10.83263/6t82-q864",
+  "__doi_record_creation_date": "2026-08-23T04:20:02",
+  "__doi_record_modified_date": "2026-08-23T04:20:02"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001719",
+   "label": "JMLMS284036_63",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Data Collection Timetables for Experiment 284036",
+    "dataset_catalog": "JMLMS284036_63",
+    "dataset_description": [
+     "This spreadsheet represents the data collection timetables for blood collection, arm testing, leg motor fatigue testing and EMG recording for this experiment.  Information included in this spreadsheet may include information about the test protocol, data collection constraints, parameters measured, hardware used, scheduled versus actual days of data collection, and subject information."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "284036",
+     "284074",
+     "8913020",
+     "E407"
+    ]
+   },
+   "meta": "4 files \u00b7 420.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "3161c1a1-c653-5d3d-b85f-6a75733754a6",
+     "label": "JMLMS284036_63.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 107520,
+     "meta": "105.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "89b0049d-94dd-50e4-a7bd-61cb35e420b9",
+     "label": "JMLMS284036_63.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 107520,
+     "meta": "105.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0fdecaac-b00d-59b1-b567-1a87d16be3fa",
+     "label": "JMLMS284036_63.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 107520,
+     "meta": "105.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "febbe4b4-4439-552d-b896-d0929ee2992d",
+     "label": "JMLMS284036_63.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 107520,
+     "meta": "105.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

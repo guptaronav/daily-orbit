@@ -1,0 +1,368 @@
+{
+ "record": {
+  "id": "9af6f9ba-3730-54ab-a82a-1a32798667ae",
+  "_id": "9af6f9ba-3730-54ab-a82a-1a32798667ae",
+  "__is_locked": false,
+  "experiment_title": "Bed Rest Standard Measures: Cardiovascular Function",
+  "__source_key": "cl62azro5cdh001o61kzsdlf8",
+  "experiment_type": [
+   [
+    "Flight Analogs Project (FAP)"
+   ],
+   [
+    "Artificial Gravity (Fractional Gravity)"
+   ],
+   [
+    "NASA Bedrest Studies"
+   ],
+   [
+    "NASA Ground-Based Investigations"
+   ]
+  ],
+  "AssignedArchivist": [
+   "Liddell, Nyaia A."
+  ],
+  "keyword": [
+   "Echocardiography",
+   "Cardiovascular deconditioning"
+  ],
+  "__record_version": 34,
+  "experiment_description": "OBJECTIVES:<br>\nThe objective of this test was to aid in the proper assessment of hemodynamic parameters, vascular responses, and cardiac size and function. Investigators hypothesized that bed rest changes in cardiac dimensions and function will be similar to those seen after space flight.  They expect to see changes in cardiac function which is similar to those seen pre-bedrest.\n<div>\nAPPROACH:<br>\nHemodynamic assessment was accomplished by the use of continuous, pulsed wave, and color flow Doppler.  All four cardiac valves were evaluated for regurgitation.  A critical factor on cardiac function is the relaxation component or diastolic function.  To address the diastolic function, several traditional echocardiographic measurements and indices were used in addition to more investigational measures. The echocardiography was used to give views necessary to image all valves and chambers of the heart.  Electrodes were placed on the subject and ultrasound measurements were made of the heart.\n</div><div>\nRESULTS:<br>\nResults from the Artificial Gravity Study indicate that artificial gravity can mitigate some aspects of bed rest-induced cardiovascular deconditioning, including orthostatic intolerance and aerobic power. Mechanisms of improvement were not cardiac-mediated, but likely through improved sympathetic responsiveness to orthostatic stress. More information can be found in the publications cited.<end></end></div>",
+  "indexed": "2026-08-23T04:24:44.293315+00:00",
+  "GUID": "cl62azro5cdh001o61kzsdlf8",
+  "_file_extension": "human",
+  "archive_status": "Data preservation is complete.  All datasets are publicly available.",
+  "__model_type": "lsda_experiment",
+  "__dirid": "9af6f9ba-3730-54ab-a82a-1a32798667ae",
+  "__record_size_wo_doccontent": 62685,
+  "__update_method": "Update CDM",
+  "experiment_identifier": [
+   "BRSMCF"
+  ],
+  "CompleteArchivalExpectedInFiscalYear": [
+   "0"
+  ],
+  "experiment_type_lk": [
+   "Flight Analogs Project (FAP)",
+   "Artificial Gravity (Fractional Gravity)",
+   "NASA Bedrest Studies",
+   "NASA Ground-Based Investigations"
+  ],
+  "__record_modified_date": "2026-08-23T04:24:44.293315+00:00",
+  "nasa_center": "JSC",
+  "__indexed": "2026-08-23T04:24:44.293315+00:00",
+  "__record_creation_date": "2022-07-28T19:56:11.566Z",
+  "__record_size": 62685,
+  "species_strain": [
+   [
+    "N/A"
+   ]
+  ],
+  "__model_version": 60,
+  "species_sci_name": [
+   [
+    "Homo sapiens"
+   ]
+  ],
+  "payload_id": [
+   "CFT70",
+   "DBLS",
+   "HDT30",
+   "Campaign 5",
+   "Pilot",
+   "Campaign 3",
+   "Campaign 1",
+   "ACG"
+  ],
+  "CombinedSpecies": [
+   "Human (Homo sapiens) N/A"
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "ncindex": 2,
+  "researchIndex": [
+   3
+  ],
+  "experiment_id": "BRSMCF",
+  "center": "JSC",
+  "parameter_name": [
+   "Basal septal systole",
+   "Ejection fraction",
+   "Ejection time",
+   "Left ventricular diameter diastole",
+   "Left ventricular diameter systole",
+   "Left ventricular mass",
+   "Left ventricular outflow tract diameter",
+   "Mitral annular A",
+   "Mitral annular E",
+   "Mitral annular systole",
+   "Pulmonic valve acceleration time",
+   "Pulmonic valve ejection time",
+   "Stroke volume",
+   "Tricuspid regurgitation",
+   "Echocardiography, tissue Doppler imaging (TDI), basal septal A wave",
+   "Echocardiography, tissue Doppler imaging (TDI), basal septal E wave",
+   "Color M-mode velocity propagation time",
+   "Isovolumic contraction time",
+   "Isovolumic relaxation time",
+   "Left ventricular outflow tract, velocity time integral",
+   "Mitral A-wave velocity",
+   "Mitral E-wave velocity"
+  ],
+  "exp_index": 1276,
+  "research_area": [
+   "Cardiovascular physiology"
+  ],
+  "species": [
+   [
+    "Human"
+   ]
+  ],
+  "pme_role_with_name": [
+   "Principal Investigator: Platts, Steven",
+   "Principal Investigator: Meck, Janice Fritsch- Yelle"
+  ],
+  "missions": [
+   "UTMB Campaign 11",
+   "DBLS",
+   "HDT30",
+   "UTMB Campaign 5",
+   "Pilot",
+   "UTMB Campaign 3",
+   "UTMB Campaign 1",
+   "Campaign 17"
+  ],
+  "PI": [
+   "Platts, Steven",
+   "Meck, Janice Fritsch- Yelle"
+  ],
+  "sort": [
+   3,
+   "2df8f874-7910-524e-90c1-b03ec755e8e0"
+  ],
+  "parameter_html": "<table><tr><td>Basal septal systole</td></tr><tr><td>Ejection fraction</td></tr><tr><td>Ejection time</td></tr><tr><td>Left ventricular diameter diastole</td></tr><tr><td>Left ventricular diameter systole</td></tr><tr><td>Left ventricular mass</td></tr><tr><td>Left ventricular outflow tract diameter</td></tr><tr><td>Mitral annular A</td></tr><tr><td>Mitral annular E</td></tr><tr><td>Mitral annular systole</td></tr><tr><td>Pulmonic valve acceleration time</td></tr><tr><td>Pulmonic valve ejection time</td></tr><tr><td>Stroke volume</td></tr><tr><td>Tricuspid regurgitation</td></tr><tr><td>Echocardiography, tissue Doppler imaging (TDI), basal septal A wave</td></tr><tr><td>Echocardiography, tissue Doppler imaging (TDI), basal septal E wave</td></tr><tr><td>Color M-mode velocity propagation time</td></tr><tr><td>Isovolumic contraction time</td></tr><tr><td>Isovolumic relaxation time</td></tr><tr><td>Left ventricular outflow tract, velocity time integral</td></tr><tr><td>Mitral A-wave velocity</td></tr><tr><td>Mitral E-wave velocity</td></tr><tr></tr></table>",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Meck, Janice Fritsch- Yelle\">Principal Investigator: Meck, Janice Fritsch- Yelle</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Platts, Steven\">Principal Investigator: Platts, Steven</a>",
+  "Program": "Ground",
+  "mission_id": [
+   "UTMB Campaign 11",
+   "DBLS",
+   "HDT30",
+   "UTMB Campaign 5",
+   "Pilot",
+   "UTMB Campaign 3",
+   "UTMB Campaign 1",
+   "Campaign 17"
+  ],
+  "PrincipalInvestigator": [
+   "Platts, Steven",
+   "Meck, Janice Fritsch- Yelle"
+  ],
+  "__source_field_concat": "human cl62azro5cdh001o61kzsdlf8 JSC JSC Bed Rest Standard Measures: Cardiovascular Function BRSMCF Ground Data preservation is complete.  All datasets are publicly available.",
+  "__icon_type": "",
+  "__description": "OBJECTIVES:<br>\nThe objective of this test was to aid in the proper assessment of hemodynamic parameters, vascular responses, and cardiac size and function. Investigators hypothesized that bed rest changes in cardiac dimensions and function will be similar to those seen after space flight.  They expect to see changes in cardiac function which is similar to those seen pre-bedrest.\n<div>\nAPPROACH:<br>\nHemodynamic assessment was accomplished by the use of continuous, pulsed wave, and color flow Doppler.  All four cardiac valves were evaluated for regurgitation.  A critical factor on cardiac function is the relaxation component or diastolic function.  To address the diastolic function, several traditional echocardiographic measurements and indices were used in addition to more investigational measures. The echocardiography was used to give views necessary to image all valves and chambers of the heart.  Electrodes were placed on the subject and ultrasound measurements were made of the heart.\n</div><div>\nRESULTS:<br>\nResults from the Artificial Gravity Study indicate that artificial gravity can mitigate some aspects of bed rest-induced cardiovascular deconditioning, including orthostatic intolerance and aerobic power. Mechanisms of improvement were not cardiac-mediated, but likely through improved sympathetic responsiveness to orthostatic stress. More information can be found in the publications cited.<end></end></div>",
+  "__doi": "10.83263/kw2c-zj80",
+  "__doi_record_creation_date": "2026-08-23T04:24:44",
+  "__doi_record_modified_date": "2026-08-23T04:24:44"
+ },
+ "datasets": [
+  {
+   "key": "95186651-28d7-5c72-8f32-d40838766078",
+   "label": "BRSMCF_Campaign_1_Echocardiography",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "UTMB Bedrest Campaign 1 Echocardiography",
+    "dataset_catalog": "BRSMCF_Campaign_1_Echocardiography",
+    "dataset_description": "This dataset contains analyzed echocardiography data (experiment BRSMCF) from the bed rest standard measure performed in Campaign 1.",
+    "processing_level": "Processed Data",
+    "experiment_id": [
+     "BRSMCF"
+    ]
+   },
+   "meta": "6 files \u00b7 445.6 KB",
+   "date": "2025-04-15",
+   "children": [
+    {
+     "key": "20a198bc-610c-50b2-bb4a-85c983802099",
+     "label": "BRSMCF_Campaign_1_Echocardiography_SLN_PCT_Change",
+     "type": "file",
+     "ext": "",
+     "file_size": 1296,
+     "meta": "1.3 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b2fb6099-44c4-57c5-b059-56470cdd1903",
+     "label": "BRSMCF_Campaign_1_Echocardiography_SLN_Arm",
+     "type": "file",
+     "ext": "",
+     "file_size": 71472,
+     "meta": "69.8 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6fe3b992-242b-5d63-ad79-4bd8a768ada2",
+     "label": "BRSMCF_Campaign_1_Echocardiography_CF_Avg",
+     "type": "file",
+     "ext": "",
+     "file_size": 73502,
+     "meta": "71.8 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8beb711a-b74f-506a-808e-9673e5734446",
+     "label": "BRSMCF_Campaign_1_Echocardiography_SLN_Leg",
+     "type": "file",
+     "ext": "",
+     "file_size": 69569,
+     "meta": "67.9 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b7f78d80-6442-50a5-9f0b-26cbf96fabd6",
+     "label": "BRSMCF_Campaign_1_Echocardiography_SLN_Leg_Avg",
+     "type": "file",
+     "ext": "",
+     "file_size": 11336,
+     "meta": "11.1 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a65a7a53-2bf7-5261-b93d-7376f93c174f",
+     "label": "BRSMCF_Campaign_1_Echocardiography_CF",
+     "type": "file",
+     "ext": "",
+     "file_size": 229134,
+     "meta": "223.8 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "c3bdfa7e-6661-5891-9ba0-0fc7c7a080d6",
+   "label": "BRSMCF_Campaign_3_Echocardiography",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "UTMB Bedrest Campaign 3 Echocardiography",
+    "dataset_catalog": "BRSMCF_Campaign_3_Echocardiography",
+    "dataset_description": "This dataset contains analyzed echocardiography data (experiment BRSMCF) from the bed rest standard measure performed in UTMB Bedrest Campaign 3.",
+    "processing_level": [
+     "Processed Data"
+    ],
+    "experiment_id": [
+     "BRSMCF"
+    ]
+   },
+   "meta": "5 files \u00b7 82.9 KB",
+   "date": "2025-09-26",
+   "children": [
+    {
+     "key": "07e727b6-28a6-53f1-996b-ddd4aa0bc009",
+     "label": "BRSMCF_Campaign_3 _C3D_Echocardiography_stills.csv",
+     "type": "file",
+     "ext": "csv",
+     "file_size": 6979,
+     "meta": "6.8 KB",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "975c46f9-f290-5e79-bb90-d3118ede6d24",
+     "label": "BRSMCF_Campaign_3 _C3E_Echocardiography_stills.csv",
+     "type": "file",
+     "ext": "csv",
+     "file_size": 6949,
+     "meta": "6.8 KB",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "62c3ce72-46b9-5ef6-90a7-28c201cc87cc",
+     "label": "BRSMCF_Campaign_3 _C3ABCD_Echocardiography_avgs.csv",
+     "type": "file",
+     "ext": "csv",
+     "file_size": 13621,
+     "meta": "13.3 KB",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e81adbae-0290-5d34-9c31-70d382902a24",
+     "label": "BRSMCF_Campaign_3 _C3ABCD_Echocardiography_obsv.csv",
+     "type": "file",
+     "ext": "csv",
+     "file_size": 53743,
+     "meta": "52.5 KB",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ad95f2a0-854c-5efd-9aa8-9bb8d1c37069",
+     "label": "BRSMCF_Campaign_3 _C3F_Echocardiography_stills.csv",
+     "type": "file",
+     "ext": "csv",
+     "file_size": 3599,
+     "meta": "3.5 KB",
+     "date": "2025-09-26",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "59501092-7252-5848-b79c-650e954b51ed",
+   "label": "BRSMCF_CFT70",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "BRSMCF CFT70 Data",
+    "dataset_catalog": "BRSMCF_CFT70",
+    "dataset_description": "This data set contains tabular data of the Cardiac Function (BRSMCF) data collected during the CFT70 Study for the Flight Analogs Project (FAP)",
+    "processing_level": [
+     "Processed Data"
+    ],
+    "experiment_id": [
+     "BRSMCF"
+    ]
+   },
+   "meta": "3 files \u00b7 76.2 KB",
+   "date": "2026-03-24",
+   "children": [
+    {
+     "key": "9ea35af2-4469-54ff-b01b-5c222ad77ce5",
+     "label": "BRSMCF_CFT70_2D_Echo_All",
+     "type": "file",
+     "ext": "",
+     "file_size": 35514,
+     "meta": "34.7 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "47eb7750-0352-5da9-a074-dd27dc953455",
+     "label": "BRSMCF_CFT70_2D_Echo_7_Subjects",
+     "type": "file",
+     "ext": "",
+     "file_size": 7083,
+     "meta": "6.9 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a4bef7e9-8ad2-5624-bcfe-4b952c30a2c8",
+     "label": "BRSMCF_CFT70_3D_Echo_All",
+     "type": "file",
+     "ext": "",
+     "file_size": 35454,
+     "meta": "34.6 KB",
+     "date": "2026-03-24",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

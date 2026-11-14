@@ -1,0 +1,2157 @@
+{
+ "record": {
+  "id": "315c04af-b1ef-5417-9af4-7f7bfbe50c2b",
+  "_id": "315c04af-b1ef-5417-9af4-7f7bfbe50c2b",
+  "experiment_title": "Apoptosis in Microgravity-Sensitive Cells After Space Flight",
+  "archive_status_index": 1,
+  "parameter_html": "None",
+  "__source_key": "cl62auhi2cbjx01o61suhc845",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Rhoten, William\">Principal Investigator: Rhoten, William</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Sergeev, Igor\">Co-Investigator: Sergeev, Igor</a>",
+  "experiment_type_lk": [
+   "Biospecimen Sharing Program (BSP)"
+  ],
+  "__record_modified_date": "2026-08-23T03:43:27.992009+00:00",
+  "__indexed": "2026-08-23T03:43:27.992009+00:00",
+  "session_type": "Flight",
+  "__record_creation_date": "2022-07-28T19:39:39.586Z",
+  "__record_size": 192612,
+  "__record_version": 28,
+  "__model_version": 60,
+  "experiment_description": "<B>Objectives:</B><P>The regulation of the intracellular level of Ca2+ is very crucial for a number of biological functions such as gene expression, muscle contraction, bone remodeling, glucose metabolism, and apoptosis. Calbindins are Ca2+-binding proteins that have among their known functions in cells the buffering of intracellular Ca2+ and thus, inter alia, potentially modulate Ca2+-dependent biological functions in living organisms. In order to better understand the mechanism of action of calbindins including their role in the (1) active absorption of Ca2+ in the kidney, (2) the regulation of insulin producing cells (beta-cells) and (3) glucagon producing cells (alpha-cells) of the pancreas we have used microgravity as a perturbent and have analysed the in situ levels of calbindins in kidney and intestine and levels of insulin and glucagon in the pancreas. The rats were flown aboard the Space Shuttle (STS-40, STS-58, and STS-90) to expose them to microgravity. The in situ levels of calbindins, insulin and glucagons were then determined by quantitative immunocytochemistry coupled to digital video imaging. The study provides microgravity as an important perturbent for understanding signaling mechanisms in living systems.<P><B>Approach:</B><P>Quantitative immunocytochemistry (QICC) experiments were carried out in conjunction with the digital video image analysis in order to measure the in situ expression of calbindins, insulin and glucagons from 10% formalin-fixed tissues of flight rats and their controls. Cellular localization of calbindin-D28k was carried out with a monoclonal antibody directed against chicken intestinal calbindin-D28k (clone CL-300, Sigma), which specifically and strongly cross reacts with calbindin-D28k in higher vertebrates, including rats, and an indirect peroxidase method. Cellular localization of calbindin-D9k was carried out with a rabbit anti-rat intestinal calbindin-D9k. Monoclonal antibodies were used to localize insulin and glucagon. Using the quantitative in situ immunocytochemical analysis, differences in percentages of reactive cells and in intensity of the reaction product in specific cells indicate differences in gene expression for the proteins under some microgravity-associated conditions. <P>In situ levels of calbindins, insulin and glucagon were quantified on the basis of the intensity of the oxidized diaminobenzidine reaction product  present in individual cells, using a MetaMorph image acquisition, processing, and  integrated morphometric analysis system (Universal Imaging Corp., PA). Labeling intensities were measured on digitized images in arbitrary average gray level units based on a 256 tone gray scale, where a 0 value indicates completely black and 255 indicates completely white (transparent). The intensity value included both the labeled cells and their individual brightness values, and was obtained by defining the outline of cell clusters using an inclusive thresholding procedure and determining the average gray values over the thresholded areas. The brightness of the background was determined on the entire image by using the exclusive thresholding protocol in which the objects were excluded and specifically the average gray level of the background was counted. Data is expressed as relative labeling intensity and is defined as the inverse of (average gray level of the area of interest/average gray level of the background) x 100, so that the higher numbers correspond to the higher levels of calbindins and pancreatic hormones. QICC was performed blindly, i.e., without knowing initially the protocol for the groups from which the tissue was derived.<P>The insulin and glucagons content in pancreas was also determined by using standard biochemical Enzyme-Linked Immunosorbent Assay (ELISA) protocol.<P><B>Results:</B><P>A summary of the results for the three experiments are listed below.  For a complete discussion and tables see the final report \"Calbindins and Apoptosis After Short-term Spaceflight\".<P>TASK 1:  To quantify in situ levels of calbindins in the small intestine, hypothalmic nuclei, kidney, and pancreas.<P>Kidney:  analysis by QUICC revealed a significantly higher f (by one way analysis of variance) level of calbindin-D28k in animals in space for 16 days on STS-90 plus 1-day at Earth gravity (R+1) (Figure 1) compared to asynchronous ground control rats ((48 hour delay from experimental group, vivarium, R+3 (P=0.008); 96 hour delay from experimental group, simulation, R+5 (P<0.001)), flight animals plus 14-days at Earth gravity (R+14) (P<0.001), and asynchronous ground controls: 15 days delay, vivarium (R+15) (P=0.004); 17 days delay, simulation (R+17) (P=0.008).<P>Only the flight animals at 1 day following return from on orbit exhibited statistically significant differences from the other groups, including flight animals after 14 days at Earth gravity.<P>Duodenum:  levels of calbindin-D28k determined by QUICC were rather consistent across groups, flight and controls.  No statistically significant differences were found (P>0.06).<P>Hypothalmus: sections of hypothalami from STS-56 showed little or no reactivity for calbindin-D28k. This was an unexpected result since calbindin-D28k has previously been described as present in neurons of the ventromedial nucleus, supraoptic nucleus and medial mammillary nucleus of the rat. Because there was weak immunoreactivity for positive control peptides (neuropeptide Y and neurophysin), it is believed that the lengthy storage time in fixative contributed to the diminished immunoreactivity for calbindin-D28k and the control neuropeptides in the hypothalamus. The flight controls as a group showed weaker neurophysin II immunoreactivity than flight animals, however, the flight group exhibited considerable variability in the density of reaction product. Due to weak or absent immunoreactivity in the available tissue specimens, no conclusion can be reached regarding the effect of mg on hypothalamic levels of calbindin-D28k.<br><br>Pancreas<br>Our results confirmed that there is little or no expression of calbindin-D28k in Beta-cells of normal pancreatic islets of the rat.  There were no observed differences in calbindin-D28k levels in the pancreatic islets of flight and control animals.<P>TASK 2:  To evaluate apoptosis in the small intestine, hypothalmic nuclei, kidney and pancreas.<P>Duodenum: Apoptosis in the duodenum ranged from five to about 11 apoptotic nuclei per three microvillous profiles over all experimental and control groups.  There was no statistically significant difference by ANOVA in apoptotic rates between any groups (P=0.2).<P>Pancreas: For the pancreas, apoptosis was expressed as the number of FITC-positive (apoptotic) Beta-cell nuclei per pancreatic islet.  The apoptotic rate based upon TUNEL staining and morphological criteria was low for all islets examined (0-3).  There was no statistically significant difference by ANOVA in apoptotic rates between any groups.<P>Hypothalmus: Apoptotic nuclei were only infrequently observed in nerve cells of the hypothalmus in flight and control specimens.  There was no statistically significant difference by ANOVA in apoptotic rates between any groups.<P>Kidney: Distal convoluted tubules exhibited few apoptotic nuclei and there was no statistically significant difference in apoptotic rates between any groups.<P>TASK 3:  To determine if levels of renal calbindin-D28k depleted by microgravity are restored to normal after nine- and 14-days at Earth gravity.<P>The results of this study with ELISA of calbindin-D28k did not confirm the reduction in calbindin-D28k found in our earlier study (Sergeev, et al. 1996).  Calbindin-D28k  levels in kidneys of SLS-1 flight animals after just returning to Earth (R+0), 2.24 \u00b1 0.17 \u00ef\u00bf\u00bdg/mg protein, were significantly greater than those of basal controls (L+0), 0.89 \u00b1 0.06 \u00ef\u00bf\u00bdg/mg, but not ground controls (GC), 1.97 \u00b1 0.03 \u00ef\u00bf\u00bdg/mg.  Levels of calbindin-D28k measured by ELISA were equivalent in flight animals immediately following flight (R+0) and after nine days at Earth gravity (R+ML), 1.94 \u00b1 0.12 \u00ef\u00bf\u00bdg/mg protein (P=0.5).  In SLS-2 animals, renal calbindin-D28k in flight animals after just returning to Earth (R+0), 2.22 \u00b1 0.27 \u00ef\u00bf\u00bdg/mg protein, was significantly greater that basal controls (L+0), 1.08 \u00b1 0.13, (P<0.001) and ground controls, 0.62 \u00b1 0.04 (P<0.001).  Calbindin-D28k in kidneys of flight animals after 14 days of Earth gravity (R+ML), 2.03 \u00b1 0.31 (P=0.06).  Thus, the results of this study indicate an incrrease in calbindin-D28k levels in microgravity.  Differences in the results of this and our previous study (Sergeev, et al., 1996) suggest that other factors the animals are exposed to during flight regulate in a substantial way calbindin-D28k.  Among these factors may be environmental stresses, such as elevated temperatures (from about 24.5 to 28.5 degrees C in SLS-2) and reduced humidity (slightly more than 30 percent to over 100 percent for SLS-2).  Temperature extremes were even greater for SLS-1 (27-32 degrees C).<br><br>TASK 4:  To determine pancreatic levels of insulin.<br><br>Head of pancreas<br>Insulin content of the head of the pancreas from rats flown on STS-58 (SLS-2) was significantly higher (P>0.001) immediately following recovery (R+0 F) 364.7 \u00b1 52.0 ng/mg (n=6), than all of the appropriate controls: R+0 FC (flight control), 160.1 \u00b1 17.8 ng/mg (n=6), R+0 GC (ground control), 104.4 \u00b1 14.0 ng/mg; BC (basal control), 71.2 \u00b1 4.1 ng/mg (n=6).<br><br>The elevated insulin content of flight animals following recovery was also significantly greater (P<0.001) than the content of flight animals held for mission-length following recovery (F, R+ML), 141.7 \u00b1 28.6 ng/mg (n=6), and their controls ((FC, R+ML, 94.1 \u00b1 19.2 ng/mg (n=6); GC, R+ML, 92.4 \u00b1 17.8 ng/mg (n=5)).  After 14-days at Earth-gravity; the insulin content of flight rats (F, R+ML) was similar to control levels (FC R+0; GC, R+0).  There was no significant difference between flight animals held on the ground for the length of the mission after recovery (F, R+ML) and mission-length and recovery flight controls (FC: R+ML and R+0) and ground controls (GC: R+ML and R+0).  There also was no statistically significant difference between mission-length controls (FC, R+0; GC, R+0) and recovery plus mission-length animals.  No other significant differences were present by ANOVA.<br><br>The concentration of insulin in the head of the pancreas from rats flown on STS-40 (SLS-1) tended to be lower than that of STS-58.  The insulin concentration for flight animals from STS-40 \"immediately\" following recovery (F, R+0) was 103.9 \u00b1 11.9 ng/mg (n=10), which was significantly greater (P<0.02) that flight controls (C, R+0), 58.2 \u00b1 11.0 ng/mg (n=5).  The insulin content of flight animals (F, R+0) was not significantly different from vivarium controls (CV, R+0), 84.9 \u00b1 9.4 ng/mg (n=5) or basal controls (L+0), 83.4 \u00b1 12.1 ng/mg (n=5).  As with rats from the STS-58 flight, there was no difference between flight animals held for mission-length after recovery (F, R+ML), 97.9 \u00b1 14.2 ng/mg (n=9) and recovery plus mission-length control animals (C, R+ML: 67.4 \u00b1 16.3 ng/mg; CV, R+ML: 131.3 \u00b1 9.3 ng/mg).<br><br>Tail<br>Sample of the tail of the pancreas for insulin extraction were only available for STS-58.  In contrast to the findings with the head of the pancreas, the insulin content of the tail of the pancreas from flight animals following landing (R+0), 19.4 \u00b1 47.7 ng/mg of protein (n=6) did not differ significantly from any of its controls: FC, R+0, 202.1 \u00b1 30.0 ng/mg (n=5) (P=0.81); GC. R+0, 235.0 \u00b1 31.2 ng/mg (n=6) (P<0.05); L+0. 153.7 \u00b1 35.8 ng/mg (n=6) (P<0.05).<br><br>In summary, the concentration of insulin in the head of the pancreas is increased following nine and 14 days of exposure to microgravity.  Additional experiments are necessary to evaluate the functional significance of increased insulin levels in the pancreas following return to earth after exposure to microgravity.",
+  "payload_id": "Neurolab",
+  "CombinedSpecies": [
+   [
+    "Rat (Rattus norvegicus) Fischer 344"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "97NTSP01001",
+  "indexed": "2026-08-23T03:43:27.992009+00:00",
+  "experiment_related": [
+   "NAG21194",
+   "9302006"
+  ],
+  "GUID": "cl62auhi2cbjx01o61suhc845",
+  "exp_index": 510,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Skeletal physiology",
+   "Cell and molecular biology",
+   "Metabolism and nutrition",
+   "Renal, fluid and electrolyte physiology"
+  ],
+  "pme_role_with_name": [
+   "Co-Investigator: Sergeev, Igor",
+   "Principal Investigator: Rhoten, William"
+  ],
+  "missions": [
+   [
+    [
+     "STS-90"
+    ]
+   ]
+  ],
+  "__dirid": "315c04af-b1ef-5417-9af4-7f7bfbe50c2b",
+  "__record_size_wo_doccontent": 192612,
+  "PI": [
+   "Rhoten, William"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "parameter_name": "experiment_parms",
+  "experiment_identifier": [
+   "97NTSP01001"
+  ],
+  "keyword": [],
+  "mission_id": [
+   [
+    [
+     "STS-90"
+    ]
+   ]
+  ],
+  "center": [
+   "Ames Research Center"
+  ],
+  "ncindex": [
+   7
+  ],
+  "proposal_date": [],
+  "proposal_source": [],
+  "species": [
+   "Rat"
+  ],
+  "PrincipalInvestigator": [
+   "Rhoten, William"
+  ],
+  "program_name": [
+   "Shuttle Program"
+  ],
+  "archive_status": "Data preservation is complete. All datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Shuttle Program",
+  "__source_field_concat": "Flight Neurolab cl62auhi2cbjx01o61suhc845 None  Apoptosis in Microgravity-Sensitive Cells After Space Flight 97NTSP01001 Shuttle Program Data preservation is complete. All datasets are publicly available. experiment_parms",
+  "__icon_type": "rat",
+  "__description": "<B>Objectives:</B><P>The regulation of the intracellular level of Ca2+ is very crucial for a number of biological functions such as gene expression, muscle contraction, bone remodeling, glucose metabolism, and apoptosis. Calbindins are Ca2+-binding proteins that have among their known functions in cells the buffering of intracellular Ca2+ and thus, inter alia, potentially modulate Ca2+-dependent biological functions in living organisms. In order to better understand the mechanism of action of calbindins including their role in the (1) active absorption of Ca2+ in the kidney, (2) the regulation of insulin producing cells (beta-cells) and (3) glucagon producing cells (alpha-cells) of the pancreas we have used microgravity as a perturbent and have analysed the in situ levels of calbindins in kidney and intestine and levels of insulin and glucagon in the pancreas. The rats were flown aboard the Space Shuttle (STS-40, STS-58, and STS-90) to expose them to microgravity. The in situ levels of calbindins, insulin and glucagons were then determined by quantitative immunocytochemistry coupled to digital video imaging. The study provides microgravity as an important perturbent for understanding signaling mechanisms in living systems.<P><B>Approach:</B><P>Quantitative immunocytochemistry (QICC) experiments were carried out in conjunction with the digital video image analysis in order to measure the in situ expression of calbindins, insulin and glucagons from 10% formalin-fixed tissues of flight rats and their controls. Cellular localization of calbindin-D28k was carried out with a monoclonal antibody directed against chicken intestinal calbindin-D28k (clone CL-300, Sigma), which specifically and strongly cross reacts with calbindin-D28k in higher vertebrates, including rats, and an indirect peroxidase method. Cellular localization of calbindin-D9k was carried out with a rabbit anti-rat intestinal calbindin-D9k. Monoclonal antibodies were used to localize insulin and glucagon. Using the quantitative in situ immunocytochemical analysis, differences in percentages of reactive cells and in intensity of the reaction product in specific cells indicate differences in gene expression for the proteins under some microgravity-associated conditions. <P>In situ levels of calbindins, insulin and glucagon were quantified on the basis of the intensity of the oxidized diaminobenzidine reaction product  present in individual cells, using a MetaMorph image acquisition, processing, and  integrated morphometric analysis system (Universal Imaging Corp., PA). Labeling intensities were measured on digitized images in arbitrary average gray level units based on a 256 tone gray scale, where a 0 value indicates completely black and 255 indicates completely white (transparent). The intensity value included both the labeled cells and their individual brightness values, and was obtained by defining the outline of cell clusters using an inclusive thresholding procedure and determining the average gray values over the thresholded areas. The brightness of the background was determined on the entire image by using the exclusive thresholding protocol in which the objects were excluded and specifically the average gray level of the background was counted. Data is expressed as relative labeling intensity and is defined as the inverse of (average gray level of the area of interest/average gray level of the background) x 100, so that the higher numbers correspond to the higher levels of calbindins and pancreatic hormones. QICC was performed blindly, i.e., without knowing initially the protocol for the groups from which the tissue was derived.<P>The insulin and glucagons content in pancreas was also determined by using standard biochemical Enzyme-Linked Immunosorbent Assay (ELISA) protocol.<P><B>Results:</B><P>A summary of the results for the three experiments are listed below.  For a complete discussion and tables see the final report \"Calbindins and Apoptosis After Short-term Spaceflight\".<P>TASK 1:  To quantify in situ levels of calbindins in the small intestine, hypothalmic nuclei, kidney, and pancreas.<P>Kidney:  analysis by QUICC revealed a significantly higher f (by one way analysis of variance) level of calbindin-D28k in animals in space for 16 days on STS-90 plus 1-day at Earth gravity (R+1) (Figure 1) compared to asynchronous ground control rats ((48 hour delay from experimental group, vivarium, R+3 (P=0.008); 96 hour delay from experimental group, simulation, R+5 (P<0.001)), flight animals plus 14-days at Earth gravity (R+14) (P<0.001), and asynchronous ground controls: 15 days delay, vivarium (R+15) (P=0.004); 17 days delay, simulation (R+17) (P=0.008).<P>Only the flight animals at 1 day following return from on orbit exhibited statistically significant differences from the other groups, including flight animals after 14 days at Earth gravity.<P>Duodenum:  levels of calbindin-D28k determined by QUICC were rather consistent across groups, flight and controls.  No statistically significant differences were found (P>0.06).<P>Hypothalmus: sections of hypothalami from STS-56 showed little or no reactivity for calbindin-D28k. This was an unexpected result since calbindin-D28k has previously been described as present in neurons of the ventromedial nucleus, supraoptic nucleus and medial mammillary nucleus of the rat. Because there was weak immunoreactivity for positive control peptides (neuropeptide Y and neurophysin), it is believed that the lengthy storage time in fixative contributed to the diminished immunoreactivity for calbindin-D28k and the control neuropeptides in the hypothalamus. The flight controls as a group showed weaker neurophysin II immunoreactivity than flight animals, however, the flight group exhibited considerable variability in the density of reaction product. Due to weak or absent immunoreactivity in the available tissue specimens, no conclusion can be reached regarding the effect of mg on hypothalamic levels of calbindin-D28k.<br><br>Pancreas<br>Our results confirmed that there is little or no expression of calbindin-D28k in Beta-cells of normal pancreatic islets of the rat.  There were no observed differences in calbindin-D28k levels in the pancreatic islets of flight and control animals.<P>TASK 2:  To evaluate apoptosis in the small intestine, hypothalmic nuclei, kidney and pancreas.<P>Duodenum: Apoptosis in the duodenum ranged from five to about 11 apoptotic nuclei per three microvillous profiles over all experimental and control groups.  There was no statistically significant difference by ANOVA in apoptotic rates between any groups (P=0.2).<P>Pancreas: For the pancreas, apoptosis was expressed as the number of FITC-positive (apoptotic) Beta-cell nuclei per pancreatic islet.  The apoptotic rate based upon TUNEL staining and morphological criteria was low for all islets examined (0-3).  There was no statistically significant difference by ANOVA in apoptotic rates between any groups.<P>Hypothalmus: Apoptotic nuclei were only infrequently observed in nerve cells of the hypothalmus in flight and control specimens.  There was no statistically significant difference by ANOVA in apoptotic rates between any groups.<P>Kidney: Distal convoluted tubules exhibited few apoptotic nuclei and there was no statistically significant difference in apoptotic rates between any groups.<P>TASK 3:  To determine if levels of renal calbindin-D28k depleted by microgravity are restored to normal after nine- and 14-days at Earth gravity.<P>The results of this study with ELISA of calbindin-D28k did not confirm the reduction in calbindin-D28k found in our earlier study (Sergeev, et al. 1996).  Calbindin-D28k  levels in kidneys of SLS-1 flight animals after just returning to Earth (R+0), 2.24 \u00b1 0.17 \u00ef\u00bf\u00bdg/mg protein, were significantly greater than those of basal controls (L+0), 0.89 \u00b1 0.06 \u00ef\u00bf\u00bdg/mg, but not ground controls (GC), 1.97 \u00b1 0.03 \u00ef\u00bf\u00bdg/mg.  Levels of calbindin-D28k measured by ELISA were equivalent in flight animals immediately following flight (R+0) and after nine days at Earth gravity (R+ML), 1.94 \u00b1 0.12 \u00ef\u00bf\u00bdg/mg protein (P=0.5).  In SLS-2 animals, renal calbindin-D28k in flight animals after just returning to Earth (R+0), 2.22 \u00b1 0.27 \u00ef\u00bf\u00bdg/mg protein, was significantly greater that basal controls (L+0), 1.08 \u00b1 0.13, (P<0.001) and ground controls, 0.62 \u00b1 0.04 (P<0.001).  Calbindin-D28k in kidneys of flight animals after 14 days of Earth gravity (R+ML), 2.03 \u00b1 0.31 (P=0.06).  Thus, the results of this study indicate an incrrease in calbindin-D28k levels in microgravity.  Differences in the results of this and our previous study (Sergeev, et al., 1996) suggest that other factors the animals are exposed to during flight regulate in a substantial way calbindin-D28k.  Among these factors may be environmental stresses, such as elevated temperatures (from about 24.5 to 28.5 degrees C in SLS-2) and reduced humidity (slightly more than 30 percent to over 100 percent for SLS-2).  Temperature extremes were even greater for SLS-1 (27-32 degrees C).<br><br>TASK 4:  To determine pancreatic levels of insulin.<br><br>Head of pancreas<br>Insulin content of the head of the pancreas from rats flown on STS-58 (SLS-2) was significantly higher (P>0.001) immediately following recovery (R+0 F) 364.7 \u00b1 52.0 ng/mg (n=6), than all of the appropriate controls: R+0 FC (flight control), 160.1 \u00b1 17.8 ng/mg (n=6), R+0 GC (ground control), 104.4 \u00b1 14.0 ng/mg; BC (basal control), 71.2 \u00b1 4.1 ng/mg (n=6).<br><br>The elevated insulin content of flight animals following recovery was also significantly greater (P<0.001) than the content of flight animals held for mission-length following recovery (F, R+ML), 141.7 \u00b1 28.6 ng/mg (n=6), and their controls ((FC, R+ML, 94.1 \u00b1 19.2 ng/mg (n=6); GC, R+ML, 92.4 \u00b1 17.8 ng/mg (n=5)).  After 14-days at Earth-gravity; the insulin content of flight rats (F, R+ML) was similar to control levels (FC R+0; GC, R+0).  There was no significant difference between flight animals held on the ground for the length of the mission after recovery (F, R+ML) and mission-length and recovery flight controls (FC: R+ML and R+0) and ground controls (GC: R+ML and R+0).  There also was no statistically significant difference between mission-length controls (FC, R+0; GC, R+0) and recovery plus mission-length animals.  No other significant differences were present by ANOVA.<br><br>The concentration of insulin in the head of the pancreas from rats flown on STS-40 (SLS-1) tended to be lower than that of STS-58.  The insulin concentration for flight animals from STS-40 \"immediately\" following recovery (F, R+0) was 103.9 \u00b1 11.9 ng/mg (n=10), which was significantly greater (P<0.02) that flight controls (C, R+0), 58.2 \u00b1 11.0 ng/mg (n=5).  The insulin content of flight animals (F, R+0) was not significantly different from vivarium controls (CV, R+0), 84.9 \u00b1 9.4 ng/mg (n=5) or basal controls (L+0), 83.4 \u00b1 12.1 ng/mg (n=5).  As with rats from the STS-58 flight, there was no difference between flight animals held for mission-length after recovery (F, R+ML), 97.9 \u00b1 14.2 ng/mg (n=9) and recovery plus mission-length control animals (C, R+ML: 67.4 \u00b1 16.3 ng/mg; CV, R+ML: 131.3 \u00b1 9.3 ng/mg).<br><br>Tail<br>Sample of the tail of the pancreas for insulin extraction were only available for STS-58.  In contrast to the findings with the head of the pancreas, the insulin content of the tail of the pancreas from flight animals following landing (R+0), 19.4 \u00b1 47.7 ng/mg of protein (n=6) did not differ significantly from any of its controls: FC, R+0, 202.1 \u00b1 30.0 ng/mg (n=5) (P=0.81); GC. R+0, 235.0 \u00b1 31.2 ng/mg (n=6) (P<0.05); L+0. 153.7 \u00b1 35.8 ng/mg (n=6) (P<0.05).<br><br>In summary, the concentration of insulin in the head of the pancreas is increased following nine and 14 days of exposure to microgravity.  Additional experiments are necessary to evaluate the functional significance of increased insulin levels in the pancreas following return to earth after exposure to microgravity.",
+  "__doi": "10.83263/e6gw-d489",
+  "__doi_record_creation_date": "2026-08-23T03:43:27",
+  "__doi_record_modified_date": "2026-08-23T03:43:27"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000788",
+   "label": "AINV0000000744",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Insulin content in the head of the pancreas from STS-40",
+    "dataset_catalog": "AINV0000000744",
+    "dataset_description": [
+     "The concentration of insulin in the head of the pancreas from rats flown on STS-40 (SLS-1) tended to be lower than that of STS-58. The insulin concentration for flight animals from STS-40 \u201cimmediately\u201d following recovery (F, R+0) was 103.9 +/-11.9 ng/mg (n=10), which was significantly greater (P < 0.02) than flight controls (C, R+0) 58.2 +/- 11.0 ng/mg (n=5). The insulin content of flight animals (F, R+0) was not significantly different from vivarium controls (CV, R+0), 84.9 +/- 9.4 ng/mg (n=5) or basal controls (L+0), 83.4 +/- 12.1 ng/mg (n=5). As with rats from the STS-54 flight, there was no difference between flight animals held for mission-length after recovery (F, R+ML), 97.9 +/- 14.2 ng/mg (n=9) and recovery plus mission-length control animals (C, R+ML: 67.4 +/- 16.3 ng/mg; CV, R+ML: 131.3 +/-9.3 ng/,g)."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "9302006",
+     "97NTSP01001",
+     "NAG21194"
+    ]
+   },
+   "meta": "3 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "063b7d1a-7d43-562d-aed4-2bc72cc382e9",
+     "label": "INSULINV1.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "833d471c-de9d-58b5-9bfa-aca05d6d2817",
+     "label": "INSULINV1.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "05c292a6-1228-55c1-97f1-861c523808ba",
+     "label": "INSULINV1.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001843",
+   "label": "AINV0000000711",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Calbindin And Apoptosis, SLS-1 Protein Concentrations",
+    "dataset_catalog": "AINV0000000711",
+    "dataset_description": [
+     "This spreadsheet lists calbindin and apoptosis data (RAT #, ANIMAL ID, WET WT, VOL., ng/.1ml, ug/mlEl, P-ug/ml, mg/ml, ug/mg) for flight and control rats from SLS-1."
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "9302006",
+     "97NTSP01001",
+     "NAG21194"
+    ]
+   },
+   "meta": "3 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "55c03ea8-91f9-5f49-8918-3752c49e0731",
+     "label": "CALBINDIN_D28K_APOP_EBA.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "360f7ddf-0132-5eca-ac33-1aa76451280d",
+     "label": "CALBINDIN_D28K_APOP_EBA.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "011a8d6b-f37b-5632-9fb0-74c92f59a6d8",
+     "label": "CALBINDIN_D28K_APOP_EBA.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001384",
+   "label": "AINV0000000722",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Average Calbindin-D28k in Animal Groups from SLS-1 and SLS-2",
+    "dataset_catalog": "AINV0000000722",
+    "dataset_description": [
+     "This spreadsheet shows average kidney calbindin-D28k levels in flight and control animals from SLS-1 and SLS-2.<br/><br/>The results of this study with ELISA of calbindin-D28k did not confirm the reduction in calbindn-D28k found in our earlier study (Sergeev, et al., 1996). Calbindin-D28k levels in kidneys of SLS-1 flight animals after just returning to Earth (R+0), 2.24 +/- 0.17 ug/mg protein, were significantly greater than those of basal controls (L+0), 0.89 +/- 0.06 ug/mg, but not ground controls (GC), 1.97 +/-0.03 (Figure 4). Levels of calbindin-D28k measured by ELISA were equivalent in flight animals immediately following flight (R+0) and after nine days at Earth gravity (R+ML), 1.94 +/- 0.12 ug/mg protein (P=0.5). In SLS-2 animals, renal calbindin-D28k in flight animals after just returning to Earth (R+0), 2.22 +/- 0.27 ug/mg protein, was significantly greater than basal controls (L+0), 1.08 +/- 0.13, (P<0.001) and ground controls, 0.62 +/- 0.04 (P<0.001) (Figure 5). Calbindin-D28k in kidneys of flight animals after return to Earth gravity (R+0) was similar to those of flight animals after 14 days at Earth gravity (R+ML), 2.03 +/- 0.11 (P=0.5) and to animals sacrificed in flight (FD13), 2.75 +/- 0.31 (P=0.06). Thus, the results of this study indicate an increase in calbindin-D28k levels in microgravity. Differences in the results of this and our previous study (Sergeev, et al., 1996) suggest that other factors the animals are exposed to during flight regulate in a substantial way calbindin-D28k. Among these factors may be environmental stresses, such as elevated temperatures (from about 24.5 C to 28.5 C in SLS-2) and reduced humidity (slightly more than 30% to over 100% for SLS-2). Temperature extremes were even greater for SLS-1 (27-32 C)."
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "9302006",
+     "97NTSP01001",
+     "NAG21194"
+    ]
+   },
+   "meta": "3 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "ad1cdec6-c8f8-59f0-a428-cd20a7d22314",
+     "label": "AvgCalbindin_D28Kin4AC.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "50103cde-3c18-50b5-92f8-fc1f95b8b5f2",
+     "label": "AvgCalbindin_D28Kin4AC.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e7abe3f4-d403-5f00-9073-f0e90099172a",
+     "label": "AvgCalbindin_D28Kin4AC.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001266",
+   "label": "AINV0000000721",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Data Key and Second Data Key to Rat Pancreas Glucagon Images NLR+1",
+    "dataset_catalog": "AINV0000000721",
+    "dataset_description": [
+     "This Excel workbook contains 11 worksheets listing the object number, pixel area, average gray value data for the Neurolab R+1 glucagon images. <br/><br/>NLR+1 P01-1r3 sl2 sec4 glu.tif<br/>NLR+1 P01-1r4 sl7 sec2 glu.tif<br/>NLR+1 P01-1r5 sl6 sec2 glu .tif<br/>NLR+1 P01-1r6 sl5 sec4 glu.tif<br/>NLR+1 P01-2r1 sl6 sec2 glu.tif<br/>NLR+1 P01-2r2 sl3 sec2 glu.tif"
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "9302006",
+     "97NTSP01001",
+     "NAG21194"
+    ]
+   },
+   "meta": "3 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "fde5f7a8-b92f-5406-971e-6979d37c1fb7",
+     "label": "NL R_1 G01.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "65799be9-c790-506d-b99d-bda2a99266a0",
+     "label": "NL R_1 G01.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "de54e87b-7337-5bb7-a9a4-bd1f10c40a47",
+     "label": "NL R_1 G01.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002228",
+   "label": "AINV0000000741",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Bright field micrograph image: insulin in the rat pancreas, R+1",
+    "dataset_catalog": "AINV0000000741",
+    "dataset_description": [
+     "Bright field micrograph images of a pancreas section labeled to quantify in situ levels of insulin. Tissue was collected on experiment day R+1, 3, 5, 13, 15, 17.<br/><br/>Images:<br/>NLR+1 P01-ins.pdf<br/>NLR+13 P01-ins.pdf<br/>NLR+15 P01-ins.pdf<br/>NLR+17 P01-ins.pdf<br/>NLR+3 P01-ins.pdf<br/>NLR+5 P01-ins.pdf"
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9302006",
+     "97NTSP01001",
+     "NAG21194"
+    ]
+   },
+   "meta": "3 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "53e571c7-59df-57ae-b0a3-601d9be5b01e",
+     "label": "NLR_1Pancreas_ins.zip",
+     "type": "file",
+     "ext": "zip",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "fb403c58-1306-5e95-a03b-6532e2335122",
+     "label": "NLR_1Pancreas_ins.zip",
+     "type": "file",
+     "ext": "zip",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8e0d7144-7516-50ad-9cf5-a11a2847cecc",
+     "label": "NLR_1Pancreas_ins.zip",
+     "type": "file",
+     "ext": "zip",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001216",
+   "label": "AINV0000000715",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Data Key and Control Data Key to Rat Kidney Calbindin Images NL R+15",
+    "dataset_catalog": "AINV0000000715",
+    "dataset_description": [
+     "This Excel workbook contains 14 worksheets listing the object number, pixel area, average gray value data and background control pixel intensity for the Neurolab R+15 kidney images.<br/><br/>NL R+15 K01-1R1 SL6SEC2.TIF<br/>NL R+15 K01-1 R1 SL7 SEC2.TIF<br/>NL R+15 K01-1 R4 SL4 SEC1.TIF<br/>NL R+15 K01-2 R1 SL 1SEC1.TIF<br/>NL R+15 K01-2 R3 SL5 SEC3.TIF<br/>NL R+15 K01-2 R5 SL 5SEC1.TIF<br/>NL R+15 K01-2 R6 SL1 SEC2.TIF"
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "9302006",
+     "97NTSP01001",
+     "NAG21194"
+    ]
+   },
+   "meta": "3 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "9c783170-2a1c-52a4-a4d3-8da6284cdc51",
+     "label": "NL R_15 K01.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "27f8aaea-2fbf-5870-9b5d-c6aa8d7385da",
+     "label": "NL R_15 K01.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "41951fa9-5b88-5b40-a7ba-3309bdf2faaf",
+     "label": "NL R_15 K01.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000704",
+   "label": "AINV0000000727",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Glucagon in Rat Pancreas: Data Summary",
+    "dataset_catalog": "AINV0000000727",
+    "dataset_description": [
+     "This spreadsheet gives a summary of glucagon intensity in the rat pancreas as quantified by QICC. Measurements from animal groups from experiment days R+1, R+3, R+5, R+13, R+15, and R+17 were compared."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "9302006",
+     "97NTSP01001",
+     "NAG21194"
+    ]
+   },
+   "meta": "3 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "e340fd6f-dd81-583b-b634-615d94c18229",
+     "label": "G118.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "54272111-0f07-56bd-bdc8-a996b46dcfa1",
+     "label": "G118.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6d2dd069-495f-5ebb-a812-6d681dc80dcb",
+     "label": "G118.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001628",
+   "label": "AINV0000000738",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Data Key and Second Data Key to Rat Pancreas Insulin Images NLR+17",
+    "dataset_catalog": "AINV0000000738",
+    "dataset_description": [
+     "This Excel workbook contains 12 worksheets listing the object number, pixel area, average gray value data for the Neurolab R+17 pancreas insulin images.  The images were used to measure in situ levels of insulin in rat pancreas tissue.<br/><br/>NLR+17 P01-1r3 sl3 sec1 ins.tif<br/>NLR+17 P01-1r4 sl2 sec1 ins.tif<br/>NLR+17 P01-1r5 sl3 sec1 ins.tif<br/>NLR+17 P01-2r1 sl3 sec1 ins.tif<br/>NLR+17 P01-2r2 sl7 sec1 ins.tif<br/>NLR+17 P01-2r3 sl9 sec1 ins.tif"
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "9302006",
+     "97NTSP01001",
+     "NAG21194"
+    ]
+   },
+   "meta": "3 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "9b90f3e1-f8be-5057-ab92-8960a614da55",
+     "label": "NL R_17 P01.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "14858cb6-2eaf-55ec-a964-09e8a40f7f86",
+     "label": "NL R_17 P01.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ec1c9dd7-77ec-5bdb-9492-6ddb94473789",
+     "label": "NL R_17 P01.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000412",
+   "label": "AINV0000000739",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Data Key and Second Data Key to Rat Pancreas Insulin Images NLR+3",
+    "dataset_catalog": "AINV0000000739",
+    "dataset_description": [
+     "This Excel workbook contains 10 worksheets listing the object number, pixel area, average gray value data for the Neurolab R+3 pancreas insulin images.  The images were used to measure in situ levels of insulin in rat pancreas tissue.<br/><br/>NLR+3 P01-1r1 sl5 sec3 ins.tif<br/>NLR+3 P01-1r2 sl4 sec1 ins.tif<br/>NLR+3 P01-1r3 sl3 sec1 ins.tif<br/>NLR+3 P01-1r4 sl4 sec1 ins.tif<br/>NLR+3 P01-1r5 sl3 sec1 ins.tif"
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "9302006",
+     "97NTSP01001",
+     "NAG21194"
+    ]
+   },
+   "meta": "3 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "911a638a-6755-535d-af34-a35ab1a35953",
+     "label": "NL R_3 P01.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f8fce0bd-3e48-55b3-9ce8-86202c938748",
+     "label": "NL R_3 P01.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "eff67808-5668-52de-960e-3020f4218cff",
+     "label": "NL R_3 P01.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000764",
+   "label": "AINV0000000702",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Calbindin-D9K in Rat Duodenum: Data Summary",
+    "dataset_catalog": "AINV0000000702",
+    "dataset_description": [
+     "This spreadsheet contains a summary of Calbindin-D9k levels in duodenum tissue of rats collected on experiment days R +1, R+3, R+5, R+13, R+15, and R+17. Levels of Calbindin-D9k determined by quantitative immunocytochemistry were mostly consistent across all groups, flight and controls. No statistically significant differences were found (P>0.06)."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "9302006",
+     "97NTSP01001",
+     "NAG21194"
+    ]
+   },
+   "meta": "3 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "8e957133-b57d-5dd5-a9c5-b8069d4b399c",
+     "label": "D118.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9a8ad032-cf73-5cfa-a9c8-787d87d3fb5d",
+     "label": "D118.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "778927fa-7a10-59c8-96e3-f307e5f13a51",
+     "label": "D118.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002105",
+   "label": "AINV0000000720",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Calbindin-D28K in Rat Kidney: Data Summary",
+    "dataset_catalog": "AINV0000000720",
+    "dataset_description": [
+     "Analysis by quantitative immunocytochemistry (QUICC) revealed a significantly higher (by one way analysis of variance) level of calbindin-D28K in animals in space for 16 days on STS-90 plus 1-day at Earth gravity (R+1) compared to asynchronous ground control rats [48 hr delay from experimental group, vivarium, R+3 (P=0.008); 96 hr delay from experimental group, simulation , R+5 (P<0.001], flight animals plus 14-days at Earth gravity (R+14) (P<0.001), and asynchronous ground controls: 15 days delay, vivarium (R+15) (P=0.004); 17 days delay, simulation (R+17) (P=0.008).<br/><br/>Only the flight animals at 1 day following return from on orbit exhibited statistically significant differences from the other groups, including flight animals after 14 days at Earth gravity."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "9302006",
+     "97NTSP01001",
+     "NAG21194"
+    ]
+   },
+   "meta": "3 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "0610798c-1196-5900-83f6-dd59803e73a4",
+     "label": "S118A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6df64452-c650-5e8a-af1b-174609158492",
+     "label": "S118A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7c670a88-a0e0-502e-a600-a8dfcbef2ea7",
+     "label": "S118A.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001439",
+   "label": "AINV0000000703",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Data Key and Control Data Key to Rat Duodenum Calbindin Images NL R+1",
+    "dataset_catalog": "AINV0000000703",
+    "dataset_description": [
+     "This Excel workbook contains 12 worksheets listing the object number, pixel area, average gray value data and background control pixel intensity for the Neurolab R+1 duodenum images.<br/><br/>NL R+1 D01-2 R3SL9SEC1.TIF<br/>NL R+1 D01-2 R2 SL4SEC1#3.TIF<br/>NL R+1 D01-2R1SL5SEC3.TIF<br/>NL R+1 D01-1R6SL5SEC1.TIF<br/>NL R+1 D01-1 R5 SL8SEC1.TIF<br/>NL R+1 D01-1 r4 sl4sec3.TIF"
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "9302006",
+     "97NTSP01001",
+     "NAG21194"
+    ]
+   },
+   "meta": "3 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "96356587-023a-5759-b840-a720ba63f78f",
+     "label": "NL R_1 D01.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7f6724c4-5337-5037-be7e-c776fceaabbd",
+     "label": "NL R_1 D01.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7c54b108-45ac-5382-9b34-7899d492e4e7",
+     "label": "NL R_1 D01.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000902",
+   "label": "AINV0000000737",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Data Key and Second Data Key to Rat Pancreas Insulin Images NLR+15",
+    "dataset_catalog": "AINV0000000737",
+    "dataset_description": [
+     "This Excel workbook contains 14 worksheets listing the object number, pixel area, average gray value data for the Neurolab R+15 pancreas insulin images.  The images were used to measure in situ levels of insulin in rat pancreas tissue.<br/><br/>NLR+15 P01-1r1 sl3 sec1 ins.tif<br/>NLR+15 P01-1r2 sl2 sec1 ins.tif<br/>NLR+15 P01-1r4 sl9 sec1 ins.tif<br/>NLR+15 P01-1r5 sl8 sec1 ins.tif<br/>NLR+15 P01-1r6 sl9 sec1 ins.tif<br/>NLR+15 P01-2r3 sl1 sec1 ins.tif<br/>NLR+15 P01-2r6 sl8 sec1 ins.tif"
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "9302006",
+     "97NTSP01001",
+     "NAG21194"
+    ]
+   },
+   "meta": "3 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "bac4ddaf-e3c2-5168-a467-29780125349b",
+     "label": "NL R_15 P01.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c7efab11-d528-5f84-a8f1-9f65ccc42dc2",
+     "label": "NL R_15 P01.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0c8168c0-0d30-5660-aae6-44ee624002bd",
+     "label": "NL R_15 P01.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002075",
+   "label": "AINV0000000723",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Calbindin-28k ELISA Measurements in Kidney Tissue from SLS-1",
+    "dataset_catalog": "AINV0000000723",
+    "dataset_description": [
+     "This graph shows calbindin-28k measurements (ug/mg Protein) in flight and ground control animals from SLS-1. Enzyme-Linked Immunosorbent Assay (ELISA) protocol was used to obtain these measurements.<br/><br/>The results of this study with ELISA of calbindin-D28k did not confirm the reduction in calbindn-D28k found in our earlier study (Sergeev, et al., 1996). Calbindin-D28k levels in kidneys of SLS-1 flight animals after just returning to Earth (R+0), 2.24 +/- 0.17 ug/mg protein, were significantly greater than those of basal controls (L+0), 0.89 +/- 0.06 ug/mg, but not ground controls (GC), 1.97 +/-0.03 (Figure 4). Levels of calbindin-D28k measured by ELISA were equivalent in flight animals immediately following flight (R+0) and after nine days at Earth gravity (R+ML), 1.94 +/- 0.12 ug/mg protein (P=0.5). In SLS-2 animals, renal calbindin-D28k in flight animals after just returning to Earth (R+0), 2.22 +/- 0.27 ug/mg protein, was significantly greater than basal controls (L+0), 1.08 +/- 0.13, (P<0.001) and ground controls, 0.62 +/- 0.04 (P<0.001) (Figure 5). Calbindin-D28k in kidneys of flight animals after return to Earth gravity (R+0) was similar to those of flight animals after 14 days at Earth gravity (R+ML), 2.03 +/- 0.11 (P=0.5) and to animals sacrificed in flight (FD13), 2.75 +/- 0.31 (P=0.06). Thus, the results of this study indicate an increase in calbindin-D28k levels in microgravity. Differences in the results of this and our previous study (Sergeev, et al., 1996) suggest that other factors the animals are exposed to during flight regulate in a substantial way calbindin-D28k. Among these factors may be environmental stresses, such as elevated temperatures (from about 24.5 C to 28.5 C in SLS-2) and reduced humidity (slightly more than 30% to over 100% for SLS-2). Temperature extremes were even greater for SLS-1 (27-32 C)."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "9302006",
+     "97NTSP01001",
+     "NAG21194"
+    ]
+   },
+   "meta": "3 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "441c1c43-9e93-57f0-97cb-f841e831ae48",
+     "label": "SLS1KIDNEY.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d350dece-6c22-5f0f-a21f-37b0cb7c9a66",
+     "label": "SLS1KIDNEY.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0dbe4105-e794-57b5-8c12-3ab995934642",
+     "label": "SLS1KIDNEY.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001209",
+   "label": "AINV0000000716",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Data Key and Control Data Key to Rat Kidney Calbindin Images NL R+17",
+    "dataset_catalog": "AINV0000000716",
+    "dataset_description": [
+     "This Excel workbook contains 9 worksheets listing the object number, pixel area, average gray value data and background control pixel intensity for the Neurolab R+17 kidney images.<br/><br/>NL R+17 K01-1 R1 SL3SEC1.TIF<br/>NL R+17 K01-1 R3 SL4 SEC3.TIF<br/>NL R+17 K01-1 R6 SL3 SEC2.TIF<br/>NL R+17 K01-2 R4 SL1 SEC1.TIF<br/>NL R+17 K01-2 R5 SL3SEC1.TIF"
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "9302006",
+     "97NTSP01001",
+     "NAG21194"
+    ]
+   },
+   "meta": "3 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "18fa669e-7865-5ad1-b996-7a5819d0ea5a",
+     "label": "NL R_17 K01.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ac59fc84-df41-53ed-939f-e970cb22303f",
+     "label": "NL R_17 K01.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "11e5d078-85bb-575b-b2bd-6b31af4f0120",
+     "label": "NL R_17 K01.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000016",
+   "label": "AINV0000000745",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Calbindin-D28k in the rat hypothalamus",
+    "dataset_catalog": "AINV0000000745",
+    "dataset_description": [
+     "This excel spreadsheet contains a list of slides that are stored in the investigator's laboratory, along with related treatment information.<br/><br/>Sections of hypothalami from STS-56 showed little or no reactivity for calbindin-D28k. This was an unexpected result since calbindin-D28k has previously been described as present in neurons of the ventromedial nucleus, supraoptic nucleus and medial mammillary nucleus of the rat. Because there was weak immunoreactivity for positive control peptides (neuropeptide Y and neurophysin), it is believed that the lengthy storage time in fixative contributed to the diminished immunoreactivity for calbindin-D28k and the control neuropeptides in the hypothalamus. The flight controls as a group showed weaker neurophysin II immunoreactivity than flight animals, however, the flight group exhibited considerable variability in the density of reaction product. Due to weak or absent immunoreactivity in the available tissue specimens, no conclusion can be reached regarding the effect of mg on hypothalamic levels of calbindin-D28k."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9302006",
+     "97NTSP01001",
+     "NAG21194"
+    ]
+   },
+   "meta": "3 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "2e5c9690-202e-5ef7-83c1-482f66db2bd9",
+     "label": "HypothalmusSlidesList.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4bed51a5-5d90-5d20-8497-7fe79fd90cba",
+     "label": "HypothalmusSlidesList.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "91a0cfe9-b221-5b62-bf84-f7a2366f57a2",
+     "label": "HypothalmusSlidesList.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001440",
+   "label": "AINV0000000707",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Data Key and Control Data Key to Rat Duodenum Calbindin Images NL R+3",
+    "dataset_catalog": "AINV0000000707",
+    "dataset_description": [
+     "This Excel workbook contains 10 worksheets listing the object number, pixel area, average gray value data and background control pixel intensity for the Neurolab R+3 duodenum images.<br/><br/>NL R+3D01-1 R1SL2SEC1.TIF<br/>NL R+3D01-1 R2SL8SEC1.TIF<br/>NL R+3D01-1 R3SL2SEC1.TIF<br/>NL R+3D01-1 R4SL1SEC1.TIF<br/>NL R+3D01-1 R5SL9SEC1.TIF"
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "9302006",
+     "97NTSP01001",
+     "NAG21194"
+    ]
+   },
+   "meta": "3 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "8a8456e7-e539-5625-9110-47fd44678f69",
+     "label": "NL R_3 D01.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9560d41d-fa15-5f58-874a-76a4ddd3a97f",
+     "label": "NL R_3 D01.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c1696199-0855-5d53-8044-8f0dcee54dd5",
+     "label": "NL R_3 D01.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001833",
+   "label": "AINV0000000706",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Data Key and Control Data Key to Rat Duodenum Calbindin Images NL R+17",
+    "dataset_catalog": "AINV0000000706",
+    "dataset_description": [
+     "This Excel workbook contains 12 worksheets listing the object number, pixel area, average gray value data and background control pixel intensity for the Neurolab R+17 duodenum images.<br/><br/>NL R+17 D01-1R1SL20SEC1.TIF<br/>NL R+17 D01-1R2SL2SEC1.TIF<br/>NL R+17 D01-1R3SL5SEC2.TIF<br/>NL R+17 D01-1R4SL9SEC1.TIF<br/>NL R+17 D01-1R5SL5SEC1.TIF<br/>NL R+17 D01-1R6SL5SEC1.TIF"
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "9302006",
+     "97NTSP01001",
+     "NAG21194"
+    ]
+   },
+   "meta": "3 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "38b50b33-b654-5bb4-8743-7fa8412be28c",
+     "label": "NL R_17 D01.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "29e81ae8-effc-554b-b536-0ffc30da3658",
+     "label": "NL R_17 D01.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0b472b7b-39e7-529a-8762-f5f30140bc7f",
+     "label": "NL R_17 D01.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001834",
+   "label": "AINV0000000708",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Data Key and Control Data Key to Rat Duodenum Calbindin Images NL R+5",
+    "dataset_catalog": "AINV0000000708",
+    "dataset_description": [
+     "This Excel workbook contains 10 worksheets listing the object number, pixel area, average gray value data and background control pixel intensity for the Neurolab R+5 duodenum images.<br/><br/>NL R+5 D01-1 R1 SL6SEC1.TIF<br/>NL R+5 D01-1 R2 SL4SEC1.TIF<br/>NL R+5 D01-1 R4SL5SEC1.TIF<br/>NL R+5 D01-1 R5SL2SEC1.TIF"
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "9302006",
+     "97NTSP01001",
+     "NAG21194"
+    ]
+   },
+   "meta": "3 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "35a7a6a4-ebb5-5004-8cdf-e04f31838c1f",
+     "label": "NL R_5 D01.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9dd2c5be-cc3f-5d70-8d31-5872f5528650",
+     "label": "NL R_5 D01.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "95dc2447-8126-5da5-b55d-077f355d285a",
+     "label": "NL R_5 D01.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002331",
+   "label": "AINV0000000719",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Bright field micrograph image: calbindin D28k in the rat kidney, R+1",
+    "dataset_catalog": "AINV0000000719",
+    "dataset_description": [
+     "Bright field micrograph images of a kidney section labeled to quantify in situ levels of calbindin-D28k. Tissue was collected on experiment day R+1, 3, 5, 13, 15, 17.<br/><br/>Images:<br/>NL R+1 K01.pdf<br/>NL R+3 K01.pdf<br/>NL R+5 K01.pdf<br/>NL R+13 K01.pdf<br/>NL R+15 K01.pdf<br/>NL R+17 K01.pdf"
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9302006",
+     "97NTSP01001",
+     "NAG21194"
+    ]
+   },
+   "meta": "3 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "88c38a6a-b177-5728-a156-5ea005b2e3de",
+     "label": "NL R_1Kidney.zip",
+     "type": "file",
+     "ext": "zip",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "452077e7-427f-59a3-b3a6-a8228bba8f88",
+     "label": "NL R_1Kidney.zip",
+     "type": "file",
+     "ext": "zip",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3526b9f8-fd93-5737-a456-f0aa3f689bb7",
+     "label": "NL R_1Kidney.zip",
+     "type": "file",
+     "ext": "zip",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001788",
+   "label": "AINV0000000729",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Data Key and Second Data Key to Rat Pancreas Glucagon Images NLR+13",
+    "dataset_catalog": "AINV0000000729",
+    "dataset_description": [
+     "This Excel workbook contains 6 worksheets listing the object number, pixel area, average gray value data for the Neurolab R+13 glucagon images.<br/><br/>NLR+13 P01-1r2 sl8 sec2 glu.tif<br/>NLR+13 P01-1r5 sl6 sec2 glu.tif<br/>NLR+13 P01-1r6 sl4 sec2 glu.tif<br/>"
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "9302006",
+     "97NTSP01001",
+     "NAG21194"
+    ]
+   },
+   "meta": "3 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "b94a514f-ef43-5437-abd3-a13510c35bc3",
+     "label": "NL R_13 G01.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "715ff5b5-f9ab-59b5-a830-7c25cfe2aa12",
+     "label": "NL R_13 G01.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "674a0aa9-9809-538a-80d1-90fcd2b97f31",
+     "label": "NL R_13 G01.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000428",
+   "label": "AINV0000000713",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Data Key and Control Data Key to Rat Kidney Calbindin Images NL R+1",
+    "dataset_catalog": "AINV0000000713",
+    "dataset_description": [
+     "This Excel workbook contains 9 worksheets listing the object number, pixel area, average gray value data and background control pixel intensity for the Neurolab R+1 kidney images.<br/><br/>NL R+1 K01-1 R2 SL5 SEC1.TIF<br/>NL R+1 K01-1 R3 SL4 SEC2.TIF<br/>NL R+1 K01-1 R4 SL4 SEC1.TIF<br/>NL R+1 K01-1 R5 SL3 SEC2.TIF<br/>NL R+1 K01-2 R1 SL3 SEC2.TIF<br/>"
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "9302006",
+     "97NTSP01001",
+     "NAG21194"
+    ]
+   },
+   "meta": "3 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "b0cfd872-262a-5ce3-bb17-aa7db2514f14",
+     "label": "NL R_1 K01.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "35229876-b14a-5bd1-ba50-f7cff5041973",
+     "label": "NL R_1 K01.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "684a2a1e-ff2b-5939-b395-8337056c9281",
+     "label": "NL R_1 K01.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002106",
+   "label": "AINV0000000732",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Data Key and Second Data Key to Rat Pancreas Glucagon Images NLR+3",
+    "dataset_catalog": "AINV0000000732",
+    "dataset_description": [
+     "This Excel workbook contains 10 worksheets listing the object number, pixel area, average gray value data for the Neurolab R+3 glucagon images.  The images were used to measure in situ levels of glucagon in rat pancreas tissue.<br/><br/>NLR+3 P01-1r1 sl5 sec2 glu.tif<br/>NLR+3 P01-1r2 sl4 sec2 glu.tif<br/>NLR+3 P01-1r3 sl3 sec2 glu.tif<br/>NLR+3 P01-1r4 sl4 sec2 glu.tif<br/>NLR+3 P01-1r5 sl3 sec2 glu.tif"
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "9302006",
+     "97NTSP01001",
+     "NAG21194"
+    ]
+   },
+   "meta": "3 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "93286e0e-776f-53f2-bd7a-6d8b862ba613",
+     "label": "NL R_3 G01.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b0fdae25-fd7a-5e5f-ae0b-9edde4296d84",
+     "label": "NL R_3 G01.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "32ddd72a-e60f-54bf-a58b-9ffacdc1caf1",
+     "label": "NL R_3 G01.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001789",
+   "label": "AINV0000000734",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Bright field micrograph image: glucagon in the rat pancreas, R+1",
+    "dataset_catalog": "AINV0000000734",
+    "dataset_description": [
+     "Bright field micrograph images of a pancreas section labeled to quantify in situ levels of glucagon. Tissue was collected on experiment day R+1, 3, 5, 13, 15, 17.<br/><br/>Images:<br/>NLR+1 P01-glu.pdf<br/>NLR+13 P01-glu.pdf<br/>NLR+15 P01-glu.pdf<br/>NLR+17 P01-glu.pdf<br/>NLR+3 P01-glu.pdf<br/>NLR+5 P01-glu.pdf"
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9302006",
+     "97NTSP01001",
+     "NAG21194"
+    ]
+   },
+   "meta": "3 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "91ce9029-c1a3-5382-9f1e-aaf5fb286c6c",
+     "label": "NLR_1Pancreas_glu.zip",
+     "type": "file",
+     "ext": "zip",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "96a87661-7224-512b-aeb8-9cfb63dcf7eb",
+     "label": "NLR_1Pancreas_glu.zip",
+     "type": "file",
+     "ext": "zip",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "721ca284-9f41-5661-9778-fd1eb93b060e",
+     "label": "NLR_1Pancreas_glu.zip",
+     "type": "file",
+     "ext": "zip",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001787",
+   "label": "AINV0000000728",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Insulin in Rat Pancreas: Data Summary",
+    "dataset_catalog": "AINV0000000728",
+    "dataset_description": [
+     "This spreadsheet gives a summary of insulin intensity by QICC in the rat pancreas as quantified by QICC. Measurements from animal groups from experiment days R+1, R+3, R+5, R+13, R+15, and R+17 were compared."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "9302006",
+     "97NTSP01001",
+     "NAG21194"
+    ]
+   },
+   "meta": "3 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "4f4d105a-0066-53eb-943c-4ac3a0802217",
+     "label": "I118.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "fae86649-5176-5521-9439-8189a6f219f3",
+     "label": "I118.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0e9cf75b-a996-5026-9846-6475ac76515a",
+     "label": "I118.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001971",
+   "label": "AINV0000000709",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Bright field micrograph image: calbindin D9k in the rat duodenum, R+1",
+    "dataset_catalog": "AINV0000000709",
+    "dataset_description": [
+     "Bright field micrograph images of a duodenum section labeled to quantify in situ levels of calbindin-D9k. Tissue was collected on experiment day R+1, 3, 5, 13, 15, 17.<br/><br/>Images:<br/>NL R+1 D01.pdf<br/>NL R+13 D01.pdf<br/>NL R+15 D01.pdf<br/>NL R+17 D01.pdf<br/>NL R+3 D01.pdf<br/>NL R+5 D01.pdf"
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9302006",
+     "97NTSP01001",
+     "NAG21194"
+    ]
+   },
+   "meta": "3 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "020cadbe-4d31-5672-aa38-2aacd2ad1788",
+     "label": "NL R_1Duodenum.zip",
+     "type": "file",
+     "ext": "zip",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "dd0beb4b-d1ab-5db2-9cd2-76e30ca3f660",
+     "label": "NL R_1Duodenum.zip",
+     "type": "file",
+     "ext": "zip",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "154e26b6-a8c7-58ee-923c-32666aeb1bda",
+     "label": "NL R_1Duodenum.zip",
+     "type": "file",
+     "ext": "zip",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001573",
+   "label": "AINV0000000718",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Data Key and Control Data Key to Rat Kidney Calbindin Images NL R+5",
+    "dataset_catalog": "AINV0000000718",
+    "dataset_description": [
+     "This Excel workbook contains 10 worksheets listing the object number, pixel area, average gray value data and background control pixel intensity for the Neurolab R+5 kidney images.<br/><br/>NL R+5 K01-1 R2 SL7 SEC1.TIF<br/>NL R+5 K01-1 R4 SL8 SEC1.TIF<br/>NL R+5 K01-1 R5 SL7 SEC2.TIF<br/>NL R+5 K01-2 R1 SL2 SEC1.TIF<br/>NL R+5 K01-2 R3 SL9 SEC2.TIF"
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "9302006",
+     "97NTSP01001",
+     "NAG21194"
+    ]
+   },
+   "meta": "3 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "aa725fa7-ebbc-52be-a9a4-78e0519889a3",
+     "label": "NL R_5 K01.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "13dd7b33-5a06-5291-a177-4f850314b3ee",
+     "label": "NL R_5 K01.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e97fda76-22fd-580b-93f5-d34e1a371c44",
+     "label": "NL R_5 K01.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001385",
+   "label": "AINV0000000736",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Data Key and Second Data Key to Rat Pancreas Insulin Images NLR+13",
+    "dataset_catalog": "AINV0000000736",
+    "dataset_description": [
+     "This Excel workbook contains 8 worksheets listing the object number, pixel area, average gray value data for the Neurolab R+13 pancreas insulin images.  The images were used to measure in situ levels of insulin in rat pancreas tissue.<br/><br/>NLR+13 P01-1r2 sl8 sec1 ins.tif<br/>NLR+13 P01-1r3 sl5 sec1 ins.tif<br/>NLR+13 P01-1r5 sl6 sec1 ins.tif<br/>NLR+13 P01-1r6 sl4 sec3 ins.tif"
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "9302006",
+     "97NTSP01001",
+     "NAG21194"
+    ]
+   },
+   "meta": "3 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "8117c085-0ba3-5ed8-b882-64f7261d7f6b",
+     "label": "NL R_13 P01.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "01fd50c4-ad84-51d7-8e69-2b34c6e98484",
+     "label": "NL R_13 P01.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "46ed1ac9-c8f8-5b04-83d9-8452fb626bc4",
+     "label": "NL R_13 P01.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000653",
+   "label": "AINV0000000710",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Neurolab Kidney Lysates Total Protein and CaBP28K Analysis",
+    "dataset_catalog": "AINV0000000710",
+    "dataset_description": [
+     "This spreadsheet lists kidney lysates total protein and CaBP28K analysis data (Animal #ID, ng/0.1ml, ng(dil)/ml, Caug/ml, Pt. ug/ml, mg(dil)/ml, Cug/mgP) for flight and control rats from Neurolab."
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "9302006",
+     "97NTSP01001",
+     "NAG21194"
+    ]
+   },
+   "meta": "3 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "1cf73678-9fb0-59bb-b885-ceef88581ca9",
+     "label": "CALBINDIN-D28K IN KIDNE 0D0.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "869165fc-20df-5dcf-b5a4-e953e2a5fa21",
+     "label": "CALBINDIN-D28K IN KIDNE 0D0.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "93034ba9-109f-57b4-b62f-b440934bfadb",
+     "label": "CALBINDIN-D28K IN KIDNE 0D0.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000679",
+   "label": "AINV0000000733",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Data Key and Second Data Key to Rat Pancreas Glucagon Images NLR+5",
+    "dataset_catalog": "AINV0000000733",
+    "dataset_description": [
+     "This Excel workbook contains 10 worksheets listing the object number, pixel area, average gray value data for the Neurolab R+3 glucagon images.  The images were used to measure in situ levels of glucagon in rat pancreas tissue.<br/><br/>NLR+5 P01 -1r3 sl2 sec2 glu.tif<br/>NLR+5 P01 -1r4 sl5 sec2 glu.tif<br/>NLR+5 P01 -1r5 sl5 sec2 glu.tif<br/>NLR+5 P01 -2r1 sl5 sec2 glu.tif<br/>NLR+5 P01 -2r2 sl10 sec2glu.tif"
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "9302006",
+     "97NTSP01001",
+     "NAG21194"
+    ]
+   },
+   "meta": "3 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "54eba0b7-9b1d-5de5-aed1-83eb6dfbe1af",
+     "label": "NL R_5 G01.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4da5a396-7816-55ff-95f9-64c7c87bb882",
+     "label": "NL R_5 G01.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7afb3167-365b-5022-8720-89feaa796a1d",
+     "label": "NL R_5 G01.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000236",
+   "label": "AINV0000000731",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Data Key and Second Data Key to Rat Pancreas Glucagon Images NLR+17",
+    "dataset_catalog": "AINV0000000731",
+    "dataset_description": [
+     "This Excel workbook contains 10 worksheets listing the object number, pixel area, average gray value data for the Neurolab R+17 glucagon images.  The images were used to measure in situ levels of glucagon in rat pancreas tissue.<br/><br/>NLR+17 P01-1r4 sl2 sec2 glu.tif<br/>NLR+17 P01-1r5 sl3 sec2 glu.tif<br/>NLR+17 P01-2r1 sl3 sec2 glu.tif<br/>NLR+17 P01-2r2 sl7 sec2 glu.tif<br/>NLR+17 P01-2r3 sl9 sec2 glu.tif"
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "9302006",
+     "97NTSP01001",
+     "NAG21194"
+    ]
+   },
+   "meta": "3 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "e351bd5e-0c2c-5630-90a0-cb2f2d46487f",
+     "label": "NL R_17 G01.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7e4d3f4b-713c-5fc4-8c94-5e589b5b8e2f",
+     "label": "NL R_17 G01.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "fc1efbf7-94b3-5e50-b099-89d65981e537",
+     "label": "NL R_17 G01.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000983",
+   "label": "AINV0000000704",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Data Key and Control Data Key to Rat Duodenum Calbindin Images NL R+13",
+    "dataset_catalog": "AINV0000000704",
+    "dataset_description": [
+     "This Excel workbook contains 12 worksheets listing the object number, pixel area, average gray value data and background control pixel intensity for the Neurolab R+13 duodenum images.<br/><br/>NL R+13D01-1 R4SL8SEC1#2.TIF<br/>NL R+13 D01-1R3SL3SEC1.TIF<br/>NL R+13 D01-2 R1SL5SEC1.TIF<br/>NL R+13 D01-2 R2SL5SEC1.TIF<br/>NL R+13D01-2R6SL7SEC1.TIF<br/>NL R+13D01-2R5SL15SEC1.TIF"
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "9302006",
+     "97NTSP01001",
+     "NAG21194"
+    ]
+   },
+   "meta": "3 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "6c7b6941-deb4-55de-8f65-b989c95ca53f",
+     "label": "NL R_13 D01.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d68a8d12-8000-576d-a143-5ce512f35548",
+     "label": "NL R_13 D01.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "994fd584-797f-519c-a874-eae5cf1f447d",
+     "label": "NL R_13 D01.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001150",
+   "label": "AINV0000000717",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Data Key and Control Data Key to Rat Kidney Calbindin Images NL R+3",
+    "dataset_catalog": "AINV0000000717",
+    "dataset_description": [
+     "This Excel workbook contains 6 worksheets listing the object number, pixel area, average gray value data and background control pixel intensity for the Neurolab R+3 kidney images.<br/><br/>NL R+3 K01-1 R3 SL5SEC1.TIF<br/>NL R+3 K01-1 R4 SL8SEC2.TIF<br/>NL R+3 K01-2 R5 SL9SEC2.TIF"
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "9302006",
+     "97NTSP01001",
+     "NAG21194"
+    ]
+   },
+   "meta": "3 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "1c0137a8-4fec-5cc1-a176-b4212447923d",
+     "label": "NL R_3 K01.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b60f455b-2518-57ad-957d-6e6729222f9e",
+     "label": "NL R_3 K01.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3ffbd875-ad59-5159-8efe-c98da7f7e53c",
+     "label": "NL R_3 K01.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001786",
+   "label": "AINV0000000714",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Data Key and Control Data Key to Rat Kidney Calbindin Images NL R+13",
+    "dataset_catalog": "AINV0000000714",
+    "dataset_description": [
+     "This Excel workbook contains 14 worksheets listing the object number, pixel area, average gray value data and background control pixel intensity for the Neurolab R+13 kidney images.<br/><br/>NL R+13 K01-1 R1 SL6 SEC1#2.TIF<br/>NL R+13 K01-1 R1 SL6 SEC1.TIF<br/>NL R+13 K01-1 R2 SL5SEC1.TIF<br/>NL R+13 K01-1 R4SL2SEC1.TIF<br/>NL R+13 K01-1R5 SL1SEC3.TIF<br/>NL R+13 K01-1 R6 SL5SEC3.TIF<br/>NL R+13 K01-2 R3 SL6SEC1.TIF"
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "9302006",
+     "97NTSP01001",
+     "NAG21194"
+    ]
+   },
+   "meta": "3 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "0a1cb724-ba8a-56da-8527-28f1ac63f602",
+     "label": "NL R_13 K01.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "09445c01-323e-54f5-89b7-4e1dfe498143",
+     "label": "NL R_13 K01.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a2a1c7cc-eae4-5a6c-b6d0-687b55413924",
+     "label": "NL R_13 K01.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001943",
+   "label": "AINV0000000705",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Data Key and Control Data Key to Rat Duodenum Calbindin Images NL R+15",
+    "dataset_catalog": "AINV0000000705",
+    "dataset_description": [
+     "This Excel workbook contains 12 worksheets listing the object number, pixel area, average gray value data and background control pixel intensity for the Neurolab R+15 duodenum images.<br/><br/>NL R+15 D01-1 R1SL4SEC2.TIF<br/>NL R+15 D01-1 R3 SL8SEC1.TIF<br/>NL R+15 D01-2 R4 SL10SEC1#2.TIF<br/>NL R+15 D01-2 R5 SL6SEC1.TIF<br/>NL R+15 D01-2 R6SL3SEC1.TIF<br/>NL R+15 D01-3 R2 SL3SEC1.TIF"
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "9302006",
+     "97NTSP01001",
+     "NAG21194"
+    ]
+   },
+   "meta": "3 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "2de8af9a-b599-51f9-8dc2-8e79faf2166e",
+     "label": "NL R_15 D01.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6d5821e8-6d7d-5b1d-bd7a-6314e0d024f7",
+     "label": "NL R_15 D01.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "75d6091c-e5ba-5953-a22e-b50a7e780ddb",
+     "label": "NL R_15 D01.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001217",
+   "label": "AINV0000000730",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Data Key and Second Data Key to Rat Pancreas Glucagon Images NLR+15",
+    "dataset_catalog": "AINV0000000730",
+    "dataset_description": [
+     "This Excel workbook contains 12 worksheets listing the object number, pixel area, average gray value data for the Neurolab R+15 glucagon images.  The images were used to measure in situ levels of glucagon in rat pancreas tissue.<br/><br/>NLR+15 P01-1r1 sl3 sec2 glu.tif<br/>NLR+15 P01-1r4 sl9 sec2 glu.tif<br/>NLR+15 P01-1r5 sl8 sec2 glu.tif<br/>NLR+15 P01-1r6 sl9 sec2 glu.tif<br/>NLR+15 P01-2r3 sl1 sec2 glu.tif<br/>NLR+15 P01-2r6 sl8 sec2 glu.tif"
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "9302006",
+     "97NTSP01001",
+     "NAG21194"
+    ]
+   },
+   "meta": "3 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "ee5dc499-f995-54a7-a560-e2725a156958",
+     "label": "NL R_15 G01.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c2b16cb2-98f7-5ddc-a4f3-5ab4e8cd72b2",
+     "label": "NL R_15 G01.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e9bc3ded-f043-54a6-9315-029bd3efa6b1",
+     "label": "NL R_15 G01.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001640",
+   "label": "AINV0000000735",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Data Key and Second Data Key to Rat Pancreas Insulin Images NLR+1",
+    "dataset_catalog": "AINV0000000735",
+    "dataset_description": [
+     "This Excel workbook contains 12 worksheets listing the object number, pixel area, average gray value data for the Neurolab R+1 pancreas insulin images.  The images were used to measure in situ levels of insulin in rat pancreas tissue.<br/><br/>NL R+1 P01-1r3 sl2 sec1 ins.tif<br/>NLR+1 P01-1r4 sl7 sec1 ins.tif<br/>NLR+1 P01-1r5 sl6 sec1 ins.tif<br/>NLR+1 P01-1r6 sl5 sec3 ins.tif<br/>NLR+1 P01-2r1 sl6 sec1 ins.tif<br/>NLR+1 P01-2r2 sl4 sec1 ins.tif"
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "9302006",
+     "97NTSP01001",
+     "NAG21194"
+    ]
+   },
+   "meta": "3 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "febed5d8-4d78-5fa5-8efa-48eb3fb3c285",
+     "label": "NL R_1 P01.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c9d7d119-071e-5f81-812c-794d85e0cc30",
+     "label": "NL R_1 P01.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5c114784-aa46-524b-a89c-bb004265b9bf",
+     "label": "NL R_1 P01.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001790",
+   "label": "AINV0000000740",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Data Key and Second Data Key to Rat Pancreas Insulin Images NLR+5",
+    "dataset_catalog": "AINV0000000740",
+    "dataset_description": [
+     "This Excel workbook contains 10 worksheets listing the object number, pixel area, average gray value data for the Neurolab R+5 pancreas insulin images.  The images were used to measure in situ levels of insulin in rat pancreas tissue.<br/><br/>NLR+5 P01 -1r3 sl2 sec1 ins.tif<br/>NLR+5 P01 -1r4 sl5 sec1 ins.tif<br/>NLR+5 P01 -1r5 sl5 sec1 ins.tif<br/>NLR+5 P01 -2r1 sl5 sec3 ins.tif<br/>NLR+5 P01 -2r2 sl10 sec1ins.tif"
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "9302006",
+     "97NTSP01001",
+     "NAG21194"
+    ]
+   },
+   "meta": "3 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "65218936-2f8f-5c1b-96cf-637352713945",
+     "label": "NL R_5 P01.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6133047b-7821-5c6d-90f5-59935aaeca77",
+     "label": "NL R_5 P01.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9a915fcf-234b-53d3-824f-8fcce791a3e8",
+     "label": "NL R_5 P01.XLS",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

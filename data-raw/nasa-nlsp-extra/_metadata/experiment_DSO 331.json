@@ -1,0 +1,244 @@
+{
+ "record": {
+  "id": "6867ff72-b080-5d65-ae5a-ab0a5f2d4fc1",
+  "_id": "6867ff72-b080-5d65-ae5a-ab0a5f2d4fc1",
+  "experiment_title": "Interaction of the Space Shuttle Launch and Entry Suit and Sustained Weightlessness on Egress Locomotion",
+  "archive_status_index": 1,
+  "pub_document_number": "PUB001963",
+  "parameter_html": "<table><tr><td>Heart rate</td></tr><tr><td>Segmental motion analysis</td></tr><tr><td>Carbon dioxide, inspired and expired</td></tr><tr><td>Oxygen, inspired and expired</td></tr><tr><td>Skin temperature, arm</td></tr><tr><td>Skin temperature, calf</td></tr><tr><td>Skin temperature, chest</td></tr><tr><td>Skin temperature, thigh</td></tr><tr></tr></table>",
+  "__source_key": "cl62b08qicdkp01o6d5fh8pd6",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Fortney- Schneider, Suzanne\">Principal Investigator: Fortney- Schneider, Suzanne</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Greenisen, Michael\">Co-Investigator: Greenisen, Michael</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Lee, Stuart\">Co-Investigator: Lee, Stuart</a>",
+  "image_name": [
+   "Advanced Crew Escape Suit (ACES)",
+   "Launch and Entry Suit (LES)"
+  ],
+  "experiment_type_lk": [
+   "Shuttle Detailed Supplementary Objectives (DSO)"
+  ],
+  "__record_modified_date": "2026-08-23T04:12:52.863117+00:00",
+  "__indexed": "2026-08-23T04:12:52.863117+00:00",
+  "__record_creation_date": "2022-07-28T20:00:59.038Z",
+  "keyword": [
+   "Temperature"
+  ],
+  "keyword_name": "Temperature",
+  "__record_size": 119630,
+  "__record_version": 29,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<br>\r\nTwo flight suits are currently worn by crewmembers during Space Shuttle launch and landing. The Launch and Entry Suit (LES) and Advanced Crew Escape Suit (ACES) are designed to protect crewmembers in the case of emergency but may increase thermal stress and limit their egress capabilities. A Liquid Cooling Garment (LCG) worn under the flight suit was designed to counteract the heat storage of the suit. \r\n<p>\r\nThis study was conducted to assess egress performance of Space Shuttle crewmembers after space flight. Emergency egress performance was evaluated during a simulated egress in which an astronaut stands and then walks on a treadmill at 3.5 miles per hour for 5 minutes. Preflight testing was conducted in both unsuited and suited conditions. Postflight testing was conducted within two hours of landing in the suited condition only. To partially assess thermal load during the egress simulation, skin temperature was measured at four body locations: upper arm, chest, thigh, and calf.\r\n<p>\r\nThe primary purpose of this of DSO was to assess the thermal loads experienced by Shuttle crewmembers during the performance of a simulated egress before and after space flight. Specifically, the investigators sought to:<br>\r\n1) Determine the additional heat stress imparted by the LES and ACES suits above normal unsuited conditions.<br>\r\n2) Determine whether there was a differential effect of suit choice (LES or ACES) on thermal stress during simulated egress.<br>\r\n3) Determine whether the LCG would successfully maintain a constant skin temperature from rest through the end of simulated emergency egress.<br>\r\n4) Assess any changes in thermal stress during egress from pre- to postflight.<br>\r\n5) Document skin temperature during deorbit burn, landing, and hatch opening immediately prior to egress.<br>\r\n<p>\r\nAPPROACH:<br>\r\nCrewmembers were tested twice: once three to six months prior to flight and once within two hours of landing. During the preflight testing, crewmembers were tested in both the unsuited (T-shirt and shorts) and suited (LES or ACES) conditions. On landing day (R+0), crewmembers were tested in the suited condition only. All subjects read and signed a statement of informed consent prior to participating in any data collection. The protocol for this study was approved by the JSC Institutional Review Board.\r\n<p>\r\n<i>Preflight Testing</i><br>\r\nUnsuited Condition<br>\r\nIn the first testing session, crewmembers performed the simulated unaided egress in the unsuited condition while wearing a T-shirt, shorts, and flight boots. Subjects stood in the center of the treadmill for approximately two minutes and donned the mouthpiece, pneumotach, and nose clips for the sampling of respiratory gases. Treadmill speed was increased to 3.5 miles per hour. Upon reaching 3.5 mph, the test began and the heart rate monitor was started. Subjects walked for five minutes at this speed.\r\n<p>\r\nSuited Condition<br>\r\nAfter unsuited testing was completed, crewmembers donned either the LES or ACES, depending on which suit they would use for flight, and repeated the above test. With the crewmember seated in a chair on the treadmill, the g-suit was inflated to the pressure anticipated to be used during landing and egress and the crewmember regulated the flow rate to the liquid cooling garment to maintain comfort. With the helmet visor closed, the crewmember pre-breathed 100% O2 for six minutes. The crewmember then stood, liquid cooling was discontinued, and he/she began walking as the treadmill speed was increased to 3.5 mph. Test time started when the treadmill speed reached 3.5 mph, at which time the heart watch was started. The crewmember continued walking at this speed until one of the following test termination criteria was attained: 1)subject request, 2) completion of five-minute walk, 3) inspired CO2 exceeded 6%, 4) medical monitor request, or 5) subject exhibited symptoms of CO2 toxicity (ie., unsteady gait).\r\n<p>\r\n<i>Postflight Testing</i><br>\r\nWhile in orbit, crewmembers donned the skin temperature thermistors and the chest strap for the heart rate monitor. Crewmembers then donned their liquid cooling garments and either the LES or ACES. All crewmembers received self-controlled liquid cooling during re-entry and landing.\r\nSkin temperature data loggers recorded data in 15-second intervals for seven hours and 30 minutes prior to the completion of the simulated egress after landing. Time of major events, deorbit burn, landing, and hatch opening, were identified from Shuttle operations records. Data from these time points were collated and compared.\r\n<p>\r\nAll postflight tests were conducted on the Crew Transport Vehicle (CTV) within two hours of landing. Crewmembers exited the Space Shuttle and were directed to the testing area at the rear of the CTV. Prior to testing, crewmembers self-adjusted cooling through the liquid cooling garment to personal comfort. Postflight testing was conducted in the same manner as the preflight suited condition, and the same termination criteria were applied. If on R+0 the crewmember chose to use a g-suit inflation pressure different from that used during preflight testing, the preflight suited testing condition was repeated three to six months after landing, and these data were substituted for the preflight data.\r\n<p>\r\nRESULTS:<br>\r\nIn the comparison of LES and ACES, there is no significant difference between the two suits at the arm, chest, and thigh measurement sites, or in the mean skin temperature. ACES T-calf is significantly lower than LES T-calf during rest and through minute 2 of exercise. Both suits demonstrate a significant rise in skin temperature from rest to exercise, starting at minute 2, at the arm, chest, thigh, and mean skin temperature. ACES T-calf is also significantly greater than rest starting at minute 2 of exercise. LES T-calf during exercise is not different from T-calf at rest.\r\n<p>\r\nA comparison was also made for the skin temperatures at four stages of landing. Skin temperatures were compared at de-orbit (D/O) burn, landing/wheel stop, hatch opening, and orbiter exit. From D/O burn through Orbiter exit, all regions dropped in skin temperature. The arm and chest regions demonstrated the highest temperature from D/O burn through orbiter exit.\r\nThe calf skin temperature was the lowest at D/O burn, while the thigh skin temperature was the lowest at landing through orbiter exit.",
+  "payload_id": "DSO82",
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "DSO 331",
+  "indexed": "2026-08-23T04:12:52.863117+00:00",
+  "GUID": "cl62b08qicdkp01o6d5fh8pd6",
+  "parameter_name": [
+   "Heart rate",
+   "Segmental motion analysis",
+   "Carbon dioxide, inspired and expired",
+   "Oxygen, inspired and expired",
+   "Skin temperature, arm",
+   "Skin temperature, calf",
+   "Skin temperature, chest",
+   "Skin temperature, thigh"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 1796,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Behavior and performance"
+  ],
+  "pme_role_with_name": [
+   "Co-Investigator: Greenisen, Michael",
+   "Co-Investigator: Lee, Stuart",
+   "Principal Investigator: Fortney- Schneider, Suzanne"
+  ],
+  "missions": [
+   [
+    [
+     "STS-82"
+    ]
+   ],
+   [
+    [
+     "STS-83"
+    ]
+   ],
+   [
+    [
+     "STS-88"
+    ]
+   ],
+   [
+    [
+     "STS-76"
+    ]
+   ],
+   [
+    [
+     "STS-77"
+    ]
+   ],
+   [
+    [
+     "STS-84"
+    ]
+   ],
+   [
+    [
+     "STS-87"
+    ]
+   ],
+   [
+    [
+     "STS-85"
+    ]
+   ],
+   [
+    [
+     "STS-93"
+    ]
+   ],
+   [
+    [
+     "STS-75"
+    ]
+   ],
+   [
+    [
+     "STS-94"
+    ]
+   ],
+   [
+    [
+     "STS-90"
+    ]
+   ]
+  ],
+  "__dirid": "6867ff72-b080-5d65-ae5a-ab0a5f2d4fc1",
+  "__record_size_wo_doccontent": 119630,
+  "PI": [
+   "Fortney- Schneider, Suzanne"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "DSO 331"
+  ],
+  "mission_id": [
+   [
+    [
+     "STS-82"
+    ]
+   ],
+   [
+    [
+     "STS-83"
+    ]
+   ],
+   [
+    [
+     "STS-88"
+    ]
+   ],
+   [
+    [
+     "STS-76"
+    ]
+   ],
+   [
+    [
+     "STS-77"
+    ]
+   ],
+   [
+    [
+     "STS-84"
+    ]
+   ],
+   [
+    [
+     "STS-87"
+    ]
+   ],
+   [
+    [
+     "STS-85"
+    ]
+   ],
+   [
+    [
+     "STS-93"
+    ]
+   ],
+   [
+    [
+     "STS-75"
+    ]
+   ],
+   [
+    [
+     "STS-94"
+    ]
+   ],
+   [
+    [
+     "STS-90"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "proposal_date": [],
+  "proposal_source": [],
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens)"
+   ]
+  ],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Fortney- Schneider, Suzanne"
+  ],
+  "archive_status": "Data preservation is complete. All datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Shuttle Program",
+  "__source_field_concat": "PUB001963 DSO82 cl62b08qicdkp01o6d5fh8pd6 Temperature  N/A DSO 331 Shuttle Program Data preservation is complete. All datasets are publicly available.",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<br>\r\nTwo flight suits are currently worn by crewmembers during Space Shuttle launch and landing. The Launch and Entry Suit (LES) and Advanced Crew Escape Suit (ACES) are designed to protect crewmembers in the case of emergency but may increase thermal stress and limit their egress capabilities. A Liquid Cooling Garment (LCG) worn under the flight suit was designed to counteract the heat storage of the suit. \r\n<p>\r\nThis study was conducted to assess egress performance of Space Shuttle crewmembers after space flight. Emergency egress performance was evaluated during a simulated egress in which an astronaut stands and then walks on a treadmill at 3.5 miles per hour for 5 minutes. Preflight testing was conducted in both unsuited and suited conditions. Postflight testing was conducted within two hours of landing in the suited condition only. To partially assess thermal load during the egress simulation, skin temperature was measured at four body locations: upper arm, chest, thigh, and calf.\r\n<p>\r\nThe primary purpose of this of DSO was to assess the thermal loads experienced by Shuttle crewmembers during the performance of a simulated egress before and after space flight. Specifically, the investigators sought to:<br>\r\n1) Determine the additional heat stress imparted by the LES and ACES suits above normal unsuited conditions.<br>\r\n2) Determine whether there was a differential effect of suit choice (LES or ACES) on thermal stress during simulated egress.<br>\r\n3) Determine whether the LCG would successfully maintain a constant skin temperature from rest through the end of simulated emergency egress.<br>\r\n4) Assess any changes in thermal stress during egress from pre- to postflight.<br>\r\n5) Document skin temperature during deorbit burn, landing, and hatch opening immediately prior to egress.<br>\r\n<p>\r\nAPPROACH:<br>\r\nCrewmembers were tested twice: once three to six months prior to flight and once within two hours of landing. During the preflight testing, crewmembers were tested in both the unsuited (T-shirt and shorts) and suited (LES or ACES) conditions. On landing day (R+0), crewmembers were tested in the suited condition only. All subjects read and signed a statement of informed consent prior to participating in any data collection. The protocol for this study was approved by the JSC Institutional Review Board.\r\n<p>\r\n<i>Preflight Testing</i><br>\r\nUnsuited Condition<br>\r\nIn the first testing session, crewmembers performed the simulated unaided egress in the unsuited condition while wearing a T-shirt, shorts, and flight boots. Subjects stood in the center of the treadmill for approximately two minutes and donned the mouthpiece, pneumotach, and nose clips for the sampling of respiratory gases. Treadmill speed was increased to 3.5 miles per hour. Upon reaching 3.5 mph, the test began and the heart rate monitor was started. Subjects walked for five minutes at this speed.\r\n<p>\r\nSuited Condition<br>\r\nAfter unsuited testing was completed, crewmembers donned either the LES or ACES, depending on which suit they would use for flight, and repeated the above test. With the crewmember seated in a chair on the treadmill, the g-suit was inflated to the pressure anticipated to be used during landing and egress and the crewmember regulated the flow rate to the liquid cooling garment to maintain comfort. With the helmet visor closed, the crewmember pre-breathed 100% O2 for six minutes. The crewmember then stood, liquid cooling was discontinued, and he/she began walking as the treadmill speed was increased to 3.5 mph. Test time started when the treadmill speed reached 3.5 mph, at which time the heart watch was started. The crewmember continued walking at this speed until one of the following test termination criteria was attained: 1)subject request, 2) completion of five-minute walk, 3) inspired CO2 exceeded 6%, 4) medical monitor request, or 5) subject exhibited symptoms of CO2 toxicity (ie., unsteady gait).\r\n<p>\r\n<i>Postflight Testing</i><br>\r\nWhile in orbit, crewmembers donned the skin temperature thermistors and the chest strap for the heart rate monitor. Crewmembers then donned their liquid cooling garments and either the LES or ACES. All crewmembers received self-controlled liquid cooling during re-entry and landing.\r\nSkin temperature data loggers recorded data in 15-second intervals for seven hours and 30 minutes prior to the completion of the simulated egress after landing. Time of major events, deorbit burn, landing, and hatch opening, were identified from Shuttle operations records. Data from these time points were collated and compared.\r\n<p>\r\nAll postflight tests were conducted on the Crew Transport Vehicle (CTV) within two hours of landing. Crewmembers exited the Space Shuttle and were directed to the testing area at the rear of the CTV. Prior to testing, crewmembers self-adjusted cooling through the liquid cooling garment to personal comfort. Postflight testing was conducted in the same manner as the preflight suited condition, and the same termination criteria were applied. If on R+0 the crewmember chose to use a g-suit inflation pressure different from that used during preflight testing, the preflight suited testing condition was repeated three to six months after landing, and these data were substituted for the preflight data.\r\n<p>\r\nRESULTS:<br>\r\nIn the comparison of LES and ACES, there is no significant difference between the two suits at the arm, chest, and thigh measurement sites, or in the mean skin temperature. ACES T-calf is significantly lower than LES T-calf during rest and through minute 2 of exercise. Both suits demonstrate a significant rise in skin temperature from rest to exercise, starting at minute 2, at the arm, chest, thigh, and mean skin temperature. ACES T-calf is also significantly greater than rest starting at minute 2 of exercise. LES T-calf during exercise is not different from T-calf at rest.\r\n<p>\r\nA comparison was also made for the skin temperatures at four stages of landing. Skin temperatures were compared at de-orbit (D/O) burn, landing/wheel stop, hatch opening, and orbiter exit. From D/O burn through Orbiter exit, all regions dropped in skin temperature. The arm and chest regions demonstrated the highest temperature from D/O burn through orbiter exit.\r\nThe calf skin temperature was the lowest at D/O burn, while the thigh skin temperature was the lowest at landing through orbiter exit.",
+  "__doi": "10.83263/tf03-5764",
+  "__doi_record_creation_date": "2026-08-23T04:12:52",
+  "__doi_record_modified_date": "2026-08-23T04:12:52"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000674",
+   "label": "DSO 331__2350329198",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Final Report: Skin Temperatures During Unaided Egress: Unsuited and While Wearing the NASA Launch and Entry or Advanced Crew Escape Suits",
+    "dataset_catalog": "DSO 331__2350329198",
+    "dataset_description": [
+     "Report NASA/TM\u20142000\u2013209761, Skin Temperatures During Unaided Egress: Unsuited and While Wearing the NASA Launch and Entry or Advanced Crew Escape Suits, contains final results from the skin temperature subset of measurements performed as part of DSO 331.<P>\r\nIn this report, the following data are presented:<BR>\r\n<LI>Preflight Unsuited vs. Suited Condition\r\n<LI>Advanced Crew Escape Suits (ACES) vs. Launch and Entry Suit (LES)\r\n<LI>A comparison was also made for the skin temperatures at four stages of landing.\r\n<LI>Comparisons were also made between preflight and postflight suited conditions.\r\n<LI>Comparisons between the two suits at the arm, chest, and thigh measurement sites, and in the mean skin temperature."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 331"
+    ]
+   },
+   "meta": "0 files",
+   "date": "2022-07-28",
+   "children": []
+  }
+ ]
+}

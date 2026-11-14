@@ -1,0 +1,91 @@
+ID,Campaign,Subject,Study Number,Date,Region,Measure_label,Measure_code,BMD_g_cm2
+1,CFT70,9682,QCT-153,7/13/2011,femoral neck,Integral BMD of femoral neck region,CT02NIBD,0.31
+2,CFT70,9682,QCT-157,10/3/2011,femoral neck,Integral BMD of femoral neck region,CT02NIBD,0.308
+3,CFT70,7036,QCT-154,7/20/2011,femoral neck,Integral BMD of femoral neck region,CT02NIBD,0.295
+4,CFT70,7036,QCT-158,10/6/2011,femoral neck,Integral BMD of femoral neck region,CT02NIBD,0.283
+5,CFT70,6791,QCT-159,10/19/2011,femoral neck,Integral BMD of femoral neck region,CT02NIBD,0.367
+6,CFT70,6791,QCT-162,1/9/2012,femoral neck,Integral BMD of femoral neck region,CT02NIBD,0.338
+7,CFT70,5803,QCT-164,3/28/2012,femoral neck,Integral BMD of femoral neck region,CT02NIBD,0.328
+8,CFT70,5803,QCT-172,6/15/2012,femoral neck,Integral BMD of femoral neck region,CT02NIBD,0.306
+9,CFT70,5210,QCT-151,6/23/2011,femoral neck,Integral BMD of femoral neck region,CT02NIBD,0.223
+10,CFT70,5210,QCT-156,9/12/2011,femoral neck,Integral BMD of femoral neck region,CT02NIBD,0.234
+11,CFT70,9682,QCT-153,7/13/2011,femoral neck,Trabecular BMD of femoral neck region,CT02NTBD,0.102
+12,CFT70,9682,QCT-157,10/3/2011,femoral neck,Trabecular BMD of femoral neck region,CT02NTBD,0.114
+13,CFT70,7036,QCT-154,7/20/2011,femoral neck,Trabecular BMD of femoral neck region,CT02NTBD,0.126
+14,CFT70,7036,QCT-158,10/6/2011,femoral neck,Trabecular BMD of femoral neck region,CT02NTBD,0.117
+15,CFT70,6791,QCT-159,10/19/2011,femoral neck,Trabecular BMD of femoral neck region,CT02NTBD,0.127
+16,CFT70,6791,QCT-162,1/9/2012,femoral neck,Trabecular BMD of femoral neck region,CT02NTBD,0.101
+17,CFT70,5803,QCT-164,3/28/2012,femoral neck,Trabecular BMD of femoral neck region,CT02NTBD,0.154
+18,CFT70,5803,QCT-172,6/15/2012,femoral neck,Trabecular BMD of femoral neck region,CT02NTBD,0.139
+19,CFT70,5210,QCT-151,6/23/2011,femoral neck,Trabecular BMD of femoral neck region,CT02NTBD,0.071
+20,CFT70,5210,QCT-156,9/12/2011,femoral neck,Trabecular BMD of femoral neck region,CT02NTBD,0.092
+21,CFT70,9682,QCT-153,7/13/2011,femoral neck,Cortical BMD of femoral neck region,CT02NCBD,0.514
+22,CFT70,9682,QCT-157,10/3/2011,femoral neck,Cortical BMD of femoral neck region,CT02NCBD,0.509
+23,CFT70,7036,QCT-154,7/20/2011,femoral neck,Cortical BMD of femoral neck region,CT02NCBD,0.465
+24,CFT70,7036,QCT-158,10/6/2011,femoral neck,Cortical BMD of femoral neck region,CT02NCBD,0.465
+25,CFT70,6791,QCT-159,10/19/2011,femoral neck,Cortical BMD of femoral neck region,CT02NCBD,0.586
+26,CFT70,6791,QCT-162,1/9/2012,femoral neck,Cortical BMD of femoral neck region,CT02NCBD,0.549
+27,CFT70,5803,QCT-164,3/28/2012,femoral neck,Cortical BMD of femoral neck region,CT02NCBD,0.522
+28,CFT70,5803,QCT-172,6/15/2012,femoral neck,Cortical BMD of femoral neck region,CT02NCBD,0.502
+29,CFT70,5210,QCT-151,6/23/2011,femoral neck,Cortical BMD of femoral neck region,CT02NCBD,0.428
+30,CFT70,5210,QCT-156,9/12/2011,femoral neck,Cortical BMD of femoral neck region,CT02NCBD,0.429
+31,CFT70,9682,QCT-153,7/13/2011,trochanteric,Integral BMD of trochanteric region,CT02TIBD,0.277
+32,CFT70,9682,QCT-157,10/3/2011,trochanteric,Integral BMD of trochanteric region,CT02TIBD,0.275
+33,CFT70,7036,QCT-154,7/20/2011,trochanteric,Integral BMD of trochanteric region,CT02TIBD,0.276
+34,CFT70,7036,QCT-158,10/6/2011,trochanteric,Integral BMD of trochanteric region,CT02TIBD,0.266
+35,CFT70,6791,QCT-159,10/19/2011,trochanteric,Integral BMD of trochanteric region,CT02TIBD,0.301
+36,CFT70,6791,QCT-162,1/9/2012,trochanteric,Integral BMD of trochanteric region,CT02TIBD,0.27
+37,CFT70,5803,QCT-164,3/28/2012,trochanteric,Integral BMD of trochanteric region,CT02TIBD,0.282
+38,CFT70,5803,QCT-172,6/15/2012,trochanteric,Integral BMD of trochanteric region,CT02TIBD,0.273
+39,CFT70,5210,QCT-151,6/23/2011,trochanteric,Integral BMD of trochanteric region,CT02TIBD,0.222
+40,CFT70,5210,QCT-156,9/12/2011,trochanteric,Integral BMD of trochanteric region,CT02TIBD,0.245
+41,CFT70,9682,QCT-153,7/13/2011,trochanteric,Trabecular BMD of trochanteric region,CT02TTBD,0.11
+42,CFT70,9682,QCT-157,10/3/2011,trochanteric,Trabecular BMD of trochanteric region,CT02TTBD,0.107
+43,CFT70,7036,QCT-154,7/20/2011,trochanteric,Trabecular BMD of trochanteric region,CT02TTBD,0.116
+44,CFT70,7036,QCT-158,10/6/2011,trochanteric,Trabecular BMD of trochanteric region,CT02TTBD,0.111
+45,CFT70,6791,QCT-159,10/19/2011,trochanteric,Trabecular BMD of trochanteric region,CT02TTBD,0.128
+46,CFT70,6791,QCT-162,1/9/2012,trochanteric,Trabecular BMD of trochanteric region,CT02TTBD,0.112
+47,CFT70,5803,QCT-164,3/28/2012,trochanteric,Trabecular BMD of trochanteric region,CT02TTBD,0.136
+48,CFT70,5803,QCT-172,6/15/2012,trochanteric,Trabecular BMD of trochanteric region,CT02TTBD,0.122
+49,CFT70,5210,QCT-151,6/23/2011,trochanteric,Trabecular BMD of trochanteric region,CT02TTBD,0.069
+50,CFT70,5210,QCT-156,9/12/2011,trochanteric,Trabecular BMD of trochanteric region,CT02TTBD,0.081
+51,CFT70,9682,QCT-153,7/13/2011,trochanteric,Cortical BMD of trochanteric region,CT02TCBD,0.491
+52,CFT70,9682,QCT-157,10/3/2011,trochanteric,Cortical BMD of trochanteric region,CT02TCBD,0.492
+53,CFT70,7036,QCT-154,7/20/2011,trochanteric,Cortical BMD of trochanteric region,CT02TCBD,0.501
+54,CFT70,7036,QCT-158,10/6/2011,trochanteric,Cortical BMD of trochanteric region,CT02TCBD,0.49
+55,CFT70,6791,QCT-159,10/19/2011,trochanteric,Cortical BMD of trochanteric region,CT02TCBD,0.543
+56,CFT70,6791,QCT-162,1/9/2012,trochanteric,Cortical BMD of trochanteric region,CT02TCBD,0.505
+57,CFT70,5803,QCT-164,3/28/2012,trochanteric,Cortical BMD of trochanteric region,CT02TCBD,0.508
+58,CFT70,5803,QCT-172,6/15/2012,trochanteric,Cortical BMD of trochanteric region,CT02TCBD,0.508
+59,CFT70,5210,QCT-151,6/23/2011,trochanteric,Cortical BMD of trochanteric region,CT02TCBD,0.512
+60,CFT70,5210,QCT-156,9/12/2011,trochanteric,Cortical BMD of trochanteric region,CT02TCBD,0.532
+61,CFT70,9682,QCT-153,7/13/2011,total femur,Integral BMD of total femur region,CT02FIBD,0.282
+62,CFT70,9682,QCT-157,10/3/2011,total femur,Integral BMD of total femur region,CT02FIBD,0.281
+63,CFT70,7036,QCT-154,7/20/2011,total femur,Integral BMD of total femur region,CT02FIBD,0.278
+64,CFT70,7036,QCT-158,10/6/2011,total femur,Integral BMD of total femur region,CT02FIBD,0.269
+65,CFT70,6791,QCT-159,10/19/2011,total femur,Integral BMD of total femur region,CT02FIBD,0.309
+66,CFT70,6791,QCT-162,1/9/2012,total femur,Integral BMD of total femur region,CT02FIBD,0.279
+67,CFT70,5803,QCT-164,3/28/2012,total femur,Integral BMD of total femur region,CT02FIBD,0.285
+68,CFT70,5803,QCT-172,6/15/2012,total femur,Integral BMD of total femur region,CT02FIBD,0.273
+69,CFT70,5210,QCT-151,6/23/2011,total femur,Integral BMD of total femur region,CT02FIBD,0.221
+70,CFT70,5210,QCT-156,9/12/2011,total femur,Integral BMD of total femur region,CT02FIBD,0.241
+71,CFT70,9682,QCT-153,7/13/2011,total femur,Trabecular BMD of total femur region,CT02FTBD,0.109
+72,CFT70,9682,QCT-157,10/3/2011,total femur,Trabecular BMD of total femur region,CT02FTBD,0.108
+73,CFT70,7036,QCT-154,7/20/2011,total femur,Trabecular BMD of total femur region,CT02FTBD,0.117
+74,CFT70,7036,QCT-158,10/6/2011,total femur,Trabecular BMD of total femur region,CT02FTBD,0.112
+75,CFT70,6791,QCT-159,10/19/2011,total femur,Trabecular BMD of total femur region,CT02FTBD,0.128
+76,CFT70,6791,QCT-162,1/9/2012,total femur,Trabecular BMD of total femur region,CT02FTBD,0.111
+77,CFT70,5803,QCT-164,3/28/2012,total femur,Trabecular BMD of total femur region,CT02FTBD,0.138
+78,CFT70,5803,QCT-172,6/15/2012,total femur,Trabecular BMD of total femur region,CT02FTBD,0.124
+79,CFT70,5210,QCT-151,6/23/2011,total femur,Trabecular BMD of total femur region,CT02FTBD,0.07
+80,CFT70,5210,QCT-156,9/12/2011,total femur,Trabecular BMD of total femur region,CT02FTBD,0.083
+81,CFT70,9682,QCT-153,7/13/2011,total femur,Cortical BMD of total femur region,CT02FCBD,0.49
+82,CFT70,9682,QCT-157,10/3/2011,total femur,Cortical BMD of total femur region,CT02FCBD,0.491
+83,CFT70,7036,QCT-154,7/20/2011,total femur,Cortical BMD of total femur region,CT02FCBD,0.483
+84,CFT70,7036,QCT-158,10/6/2011,total femur,Cortical BMD of total femur region,CT02FCBD,0.477
+85,CFT70,6791,QCT-159,10/19/2011,total femur,Cortical BMD of total femur region,CT02FCBD,0.539
+86,CFT70,6791,QCT-162,1/9/2012,total femur,Cortical BMD of total femur region,CT02FCBD,0.503
+87,CFT70,5803,QCT-164,3/28/2012,total femur,Cortical BMD of total femur region,CT02FCBD,0.493
+88,CFT70,5803,QCT-172,6/15/2012,total femur,Cortical BMD of total femur region,CT02FCBD,0.489
+89,CFT70,5210,QCT-151,6/23/2011,total femur,Cortical BMD of total femur region,CT02FCBD,0.481
+90,CFT70,5210,QCT-156,9/12/2011,total femur,Cortical BMD of total femur region,CT02FCBD,0.496

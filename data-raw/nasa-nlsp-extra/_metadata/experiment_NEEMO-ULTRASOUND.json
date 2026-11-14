@@ -1,0 +1,158 @@
+{
+ "record": {
+  "id": "69df6377-e322-5256-9718-4eeeb96f2123",
+  "_id": "69df6377-e322-5256-9718-4eeeb96f2123",
+  "experiment_title": "Evaluation of Portable Ultrasound in Remote Environments:  NEEMO",
+  "archive_status_index": 2,
+  "parameter_html": "<table><tr><td>Communication</td></tr><tr><td>Technology demonstration</td></tr><tr><td>Training quality</td></tr><tr><td>Ultrasound imaging analysis</td></tr><tr><td>Ultrasound imaging quality</td></tr><tr><td>Ultrasound procedures</td></tr><tr><td>Ultrasound usability</td></tr><tr></tr></table>",
+  "__source_key": "cl62azcbfcddc01o62wzp5xws",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Logan, James\">Principal Investigator: Logan, James</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Clark, Jonathan\">Co-Investigator: Clark, Jonathan</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Sargsyan, Ashot\">Co-Investigator: Sargsyan, Ashot</a>",
+  "image_name": [
+   "Portable Ultrasound System",
+   "Portable Ultrasound System - power adapter",
+   "Portable Ultrasound System - probe",
+   "Portable Ultrasound System - remote guidance cue cards",
+   "Ultrasound Experiment Imaging Session"
+  ],
+  "experiment_type_lk": [
+   "NASA Extreme Environment Mission Operations (NEEMO) Project"
+  ],
+  "__record_modified_date": "2026-08-23T03:49:46.589902+00:00",
+  "__indexed": "2026-08-23T03:49:46.589902+00:00",
+  "__record_creation_date": "2022-07-28T19:54:06.198Z",
+  "keyword": [
+   "Telemedicine",
+   "Satellite communications",
+   "Remote consultation",
+   "Robotics",
+   "Aerospace medicine",
+   "Ultrasonography"
+  ],
+  "keyword_name": "Ultrasonography",
+  "__record_size": 134253,
+  "__record_version": 29,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<BR>\r\nAs space missions become longer and venture farther into space, the risk of a serious medical event occurring increases. Because the medical capabilities on a spacecraft or at any remote landing site are quite limited, there is the need for a tool that can be used to diagnose a variety of conditions by a person with a minimal medical background. Ultrasound technology gives a person the ability to diagnose several conditions that are likely to occur during an exploration-class mission, such as renal stones, appendicitis, and fractures.\r\n<P>\r\nWhile many ultrasound machines are large, bulky, and difficult to operate by anyone but a trained ultrasonographer, newer portable devices have been developed that are easier to use. The objective of this experiment was to test a portable ultrasound device during a simulated medical event in the space flight analog provided by NEEMO. \r\n<P>\r\nAPPROACH:<br>\r\nPrior to the mission, two crewmembers received training on how to operate the ultrasound device using one or more of the following imaging procedures.\r\n<LI>Focused Assessment by Sonography in Trauma (FAST) with the Thoracic Module for Microgravity (Expanded FAST) - imaging in standard locations of the abdomen and chest for signs of organ injury, including pneumothorax \r\n<LI>General Abdominal Protocol for Microgravity (liver, gallbladder, spleen, pancreas)\r\n<LI>Renal/Pelvic Protocol for Microgravity (kidneys, urinary bladder)\r\n<LI>Representative Musculoskeletal Protocol (wrist and forearm - bones, tendons, muscles, joints, nerves)\r\n<P>\r\nAt an undesignated time during the mission, one crewmember was green-carded with symptoms indicative of a medical condition. At that point, a trained crewmember, following the instructions of the crew surgeon in the Exploration Planning and Operations Control (ExPOC), attempted to manipulate the ultrasound probe in such a manner that allowed the surgeon to diagnose the condition.  Standard ultrasound gel (Aquasonic or similar) was used to maintain acoustical contact of the probe with the subject\u2019s skin. \r\n<P>\r\nAll activities were video taped by a third crewmember.  The resulting video was used to evaluate the quality of training received, the ease-of-use of the ultrasound device and its procedures, and the ability to communicate successfully with the crew surgeon from the remote environment.\r\n<P>\r\nRESULTS:<br>\r\nOne data session was planned and completed.  Additional data was captured during the session by using two different operators to capture the images.  Although some visible degradation of the images was noticeable, the pixel resolution, grayscale resolution, and frame rate were all acceptable for both remote guidance and real-time focused diagnostic assessment.  There was some fluctuation in the bandwidth available for video conferencing, which caused slower frame rate of the video for short (2-5 seconds) periods of time.  The remote guidance expert waited until the connection improved and continued the guidance.  Although not ideal this was tolerable and expected. No other hardware anomalies were encountered.\r\n<P>\r\n<U>Data Analysis and Findings </U><BR>\r\nSubjective perception of the data quality was such that gross pathology would not be overlooked. Fine detail (such as minute non-obstructing calculi (stones) in the renal collecting system) could potentially be overlooked, and in case of suspicion would be ruled out through post-event image transfers. The approach to quality, in the opinion of the investigators, should be conservative, and in the absence of scientifically proven metrics, the interpretation of data should consist of phases.\r\n<P>\r\n1. <I>Preliminary Real-Time Imaging Interpretation</I> : most conservative and preliminary, focusing on the imaging representation of anatomical and functional situation in the patient's organism potentially causing signs and symptoms or threatening safety or life. This preliminary real-time assessment (in the process of the imaging session)<BR>\r\n<UL>\r\n<LI>Confirms, modifies, or changes the Crew Surgeon's and/or Consultant's concept of the diagnosis, prognosis, and management\r\n<LI>Allows changing the course of the imaging session, expand, or focus the imaging session through additional inputs / orders from the Crew Surgeon\r\n<LI>Is expected to make the most difference in the decision-making process and the outcome of the most severe and time-critical medical contingencies\r\n<LI>If the remotely guiding ultrasound expert is an RDMS/RVT/RDCS but not a physician, this phase still retains its legitimacy [such preliminary assessments are common in terrestrial environment, and the responsible physicians use the diagnostic imaging input upon their discretion and responsibility]\r\n</UL>\r\n<P>\r\n2. <I>Preliminary Post-Imaging Interpretation</I> : takes place in less demanding conditions, after the remote guidance session is completed, and has some additional features<BR>\r\n<UL><LI>Is normally performed by a qualified interpreting physician (normally radiologist or cardiologist for cardiac imaging), (jointly with the remote guidance expert if different)\r\n<LI>Allows sufficient time for review of the audio / video recording of the session\r\n<LI>Is the first formal (written or dictated) imaging report\r\n<LI>Is the closest to a terrestrial imaging report, and includes recommendations to the Crew Surgeon regarding follow-up imaging or clinical / diagnostic correlations as necessary\r\n<LI>Includes assessments of data quality and emphasizes any aspects of quality degradation or deficiency of the imaging data \r\n<UL><LI>caused by the fact of data transmission through non-digital imaging and communications in medicine (DICOM)-compliant media\r\n<LI>remote guidance\r\n<LI>an inexperienced operator\r\n<LI>time delay\r\n<LI>limited time\r\n<LI>and other factors that may have resulted in spurious or incomplete data, compared to average similar examination in common terrestrial setting</UL>\r\n</UL>\r\n<P>\r\n3.  <I>Final Imaging Report</I> : includes results of the above phases of interpretation, and any new information derived from additional data reviews, lossless downloaded still image or cine-loop files, takes into account technical image quality analysis. \r\n<P>\r\n<U>Clinical Outcome and Contribution of Imaging</U><BR>\r\nDuring this simulation, ultrasound allowed ruling out major urinary obstruction. Thus, it contributed objective data for diagnosis and management. The Crew Surgeon accepted the results in both real-time and immediate post-imaging phases, and prescribed monitoring instead of considering emergency evacuation. While the diagnosis of kidney stones, urolithiasis, in this simulated patient remained unchanged, the following evidence: \r\n<P>\r\n<UL><LI>ureteral patency (by power Doppler method)\r\n<LI>normal sizes and shapes of both kidneys\r\n<LI>no signs of dilatation of collecting systems and ureters\r\n<LI>no asymmetry of the structure and imaging features of the two kidneys \r\n<LI>explicitly symmetrical ureteral orifices in the urinary bladder trigone\r\n<LI>absence of signs of calculi, within the overall sensitivity of the system\r\n<LI>absence of signs of any other condition with a clinical presentation similar to urolithiasis</UL>\r\n<P>\r\nThis allowed medical personnel to postpone the consideration of immediate medical evacuation, and distribute the available treatment resources (including the limited amount of analgesics and antibiotics) according to best available prognosis of the further course and outcome.<END>",
+  "payload_id": "NEEMO 5",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "NEEMO-ULTRASOUND",
+  "indexed": "2026-08-23T03:49:46.589902+00:00",
+  "experiment_related": [
+   "ADVUltrasound"
+  ],
+  "GUID": "cl62azcbfcddc01o62wzp5xws",
+  "parameter_name": [
+   "Communication",
+   "Technology demonstration",
+   "Training quality",
+   "Ultrasound imaging analysis",
+   "Ultrasound imaging quality",
+   "Ultrasound procedures",
+   "Ultrasound usability"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 1066,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Human factors",
+   "Clinical medicine"
+  ],
+  "pme_role_with_name": [
+   "Co-Investigator: Clark, Jonathan",
+   "Co-Investigator: Sargsyan, Ashot",
+   "Principal Investigator: Logan, James"
+  ],
+  "missions": [
+   [
+    [
+     "NEEMO 5"
+    ]
+   ]
+  ],
+  "__dirid": "69df6377-e322-5256-9718-4eeeb96f2123",
+  "__record_size_wo_doccontent": 134253,
+  "PI": [
+   "Logan, James"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "NEEMO-ULTRASOUND"
+  ],
+  "mission_id": [
+   [
+    [
+     "NEEMO 5"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "proposal_source": [],
+  "proposal_date": [],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Logan, James"
+  ],
+  "program_name": [
+   "Ground"
+  ],
+  "archive_status": "Data preservation is complete. Privacy-protected datasets are available via data request. Remaining datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Ground",
+  "__source_field_concat": "NEEMO 5 cl62azcbfcddc01o62wzp5xws Ultrasonography  N/A Evaluation of Portable Ultrasound in Remote Environments:  NEEMO NEEMO-ULTRASOUND Ground",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<BR>\r\nAs space missions become longer and venture farther into space, the risk of a serious medical event occurring increases. Because the medical capabilities on a spacecraft or at any remote landing site are quite limited, there is the need for a tool that can be used to diagnose a variety of conditions by a person with a minimal medical background. Ultrasound technology gives a person the ability to diagnose several conditions that are likely to occur during an exploration-class mission, such as renal stones, appendicitis, and fractures.\r\n<P>\r\nWhile many ultrasound machines are large, bulky, and difficult to operate by anyone but a trained ultrasonographer, newer portable devices have been developed that are easier to use. The objective of this experiment was to test a portable ultrasound device during a simulated medical event in the space flight analog provided by NEEMO. \r\n<P>\r\nAPPROACH:<br>\r\nPrior to the mission, two crewmembers received training on how to operate the ultrasound device using one or more of the following imaging procedures.\r\n<LI>Focused Assessment by Sonography in Trauma (FAST) with the Thoracic Module for Microgravity (Expanded FAST) - imaging in standard locations of the abdomen and chest for signs of organ injury, including pneumothorax \r\n<LI>General Abdominal Protocol for Microgravity (liver, gallbladder, spleen, pancreas)\r\n<LI>Renal/Pelvic Protocol for Microgravity (kidneys, urinary bladder)\r\n<LI>Representative Musculoskeletal Protocol (wrist and forearm - bones, tendons, muscles, joints, nerves)\r\n<P>\r\nAt an undesignated time during the mission, one crewmember was green-carded with symptoms indicative of a medical condition. At that point, a trained crewmember, following the instructions of the crew surgeon in the Exploration Planning and Operations Control (ExPOC), attempted to manipulate the ultrasound probe in such a manner that allowed the surgeon to diagnose the condition.  Standard ultrasound gel (Aquasonic or similar) was used to maintain acoustical contact of the probe with the subject\u2019s skin. \r\n<P>\r\nAll activities were video taped by a third crewmember.  The resulting video was used to evaluate the quality of training received, the ease-of-use of the ultrasound device and its procedures, and the ability to communicate successfully with the crew surgeon from the remote environment.\r\n<P>\r\nRESULTS:<br>\r\nOne data session was planned and completed.  Additional data was captured during the session by using two different operators to capture the images.  Although some visible degradation of the images was noticeable, the pixel resolution, grayscale resolution, and frame rate were all acceptable for both remote guidance and real-time focused diagnostic assessment.  There was some fluctuation in the bandwidth available for video conferencing, which caused slower frame rate of the video for short (2-5 seconds) periods of time.  The remote guidance expert waited until the connection improved and continued the guidance.  Although not ideal this was tolerable and expected. No other hardware anomalies were encountered.\r\n<P>\r\n<U>Data Analysis and Findings </U><BR>\r\nSubjective perception of the data quality was such that gross pathology would not be overlooked. Fine detail (such as minute non-obstructing calculi (stones) in the renal collecting system) could potentially be overlooked, and in case of suspicion would be ruled out through post-event image transfers. The approach to quality, in the opinion of the investigators, should be conservative, and in the absence of scientifically proven metrics, the interpretation of data should consist of phases.\r\n<P>\r\n1. <I>Preliminary Real-Time Imaging Interpretation</I> : most conservative and preliminary, focusing on the imaging representation of anatomical and functional situation in the patient's organism potentially causing signs and symptoms or threatening safety or life. This preliminary real-time assessment (in the process of the imaging session)<BR>\r\n<UL>\r\n<LI>Confirms, modifies, or changes the Crew Surgeon's and/or Consultant's concept of the diagnosis, prognosis, and management\r\n<LI>Allows changing the course of the imaging session, expand, or focus the imaging session through additional inputs / orders from the Crew Surgeon\r\n<LI>Is expected to make the most difference in the decision-making process and the outcome of the most severe and time-critical medical contingencies\r\n<LI>If the remotely guiding ultrasound expert is an RDMS/RVT/RDCS but not a physician, this phase still retains its legitimacy [such preliminary assessments are common in terrestrial environment, and the responsible physicians use the diagnostic imaging input upon their discretion and responsibility]\r\n</UL>\r\n<P>\r\n2. <I>Preliminary Post-Imaging Interpretation</I> : takes place in less demanding conditions, after the remote guidance session is completed, and has some additional features<BR>\r\n<UL><LI>Is normally performed by a qualified interpreting physician (normally radiologist or cardiologist for cardiac imaging), (jointly with the remote guidance expert if different)\r\n<LI>Allows sufficient time for review of the audio / video recording of the session\r\n<LI>Is the first formal (written or dictated) imaging report\r\n<LI>Is the closest to a terrestrial imaging report, and includes recommendations to the Crew Surgeon regarding follow-up imaging or clinical / diagnostic correlations as necessary\r\n<LI>Includes assessments of data quality and emphasizes any aspects of quality degradation or deficiency of the imaging data \r\n<UL><LI>caused by the fact of data transmission through non-digital imaging and communications in medicine (DICOM)-compliant media\r\n<LI>remote guidance\r\n<LI>an inexperienced operator\r\n<LI>time delay\r\n<LI>limited time\r\n<LI>and other factors that may have resulted in spurious or incomplete data, compared to average similar examination in common terrestrial setting</UL>\r\n</UL>\r\n<P>\r\n3.  <I>Final Imaging Report</I> : includes results of the above phases of interpretation, and any new information derived from additional data reviews, lossless downloaded still image or cine-loop files, takes into account technical image quality analysis. \r\n<P>\r\n<U>Clinical Outcome and Contribution of Imaging</U><BR>\r\nDuring this simulation, ultrasound allowed ruling out major urinary obstruction. Thus, it contributed objective data for diagnosis and management. The Crew Surgeon accepted the results in both real-time and immediate post-imaging phases, and prescribed monitoring instead of considering emergency evacuation. While the diagnosis of kidney stones, urolithiasis, in this simulated patient remained unchanged, the following evidence: \r\n<P>\r\n<UL><LI>ureteral patency (by power Doppler method)\r\n<LI>normal sizes and shapes of both kidneys\r\n<LI>no signs of dilatation of collecting systems and ureters\r\n<LI>no asymmetry of the structure and imaging features of the two kidneys \r\n<LI>explicitly symmetrical ureteral orifices in the urinary bladder trigone\r\n<LI>absence of signs of calculi, within the overall sensitivity of the system\r\n<LI>absence of signs of any other condition with a clinical presentation similar to urolithiasis</UL>\r\n<P>\r\nThis allowed medical personnel to postpone the consideration of immediate medical evacuation, and distribute the available treatment resources (including the limited amount of analgesics and antibiotics) according to best available prognosis of the further course and outcome.<END>",
+  "__doi": "10.83263/sbjt-qt53",
+  "__doi_record_creation_date": "2026-08-23T03:49:46",
+  "__doi_record_modified_date": "2026-08-23T03:49:46"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001199",
+   "label": "NEEMO_ULTRASOUND__1340820246",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Data Collection Timetables for NEEMO_Ultrasound",
+    "dataset_catalog": "NEEMO_ULTRASOUND__1340820246",
+    "dataset_description": [
+     "This spreadsheet represents the data collection timetables for this experiment.  Information in this spreadsheet may include details about the test protocol, data collection constraints, parameters measured, hardware used, scheduled versus actual days of data collection, and subject information."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "NEEMO-ULTRASOUND"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "4b79fd5a-c036-5492-b6f6-993df76895e1",
+     "label": "NEEMO_ULTRASOUND__1340820246.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

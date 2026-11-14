@@ -1,0 +1,720 @@
+{
+ "record": {
+  "id": "db66a742-80cf-522a-b962-342b412def9e",
+  "_id": "db66a742-80cf-522a-b962-342b412def9e",
+  "experiment_title": "Clinical Aspects of Crew Health",
+  "pub_document_number": "PUB000343",
+  "parameter_html": "<table><tr><td>Iodine, protein bound</td></tr><tr><td>Magnesium</td></tr><tr><td>Metabolic rate</td></tr><tr><td>Microflora</td></tr><tr><td>Oxygen consumption (VO2)</td></tr><tr><td>Phospholipids</td></tr><tr><td>Phosphorus</td></tr><tr><td>Protein, total</td></tr><tr><td>Pulse rate</td></tr><tr><td>Respiration rate</td></tr><tr><td>Thymol turbidity</td></tr><tr><td>Uric acid</td></tr><tr><td>Vectorcardiogram (VCG)</td></tr><tr><td>Visual acuity, unaided</td></tr><tr><td>Visual amplitude of accommodation</td></tr><tr><td>Visual color perception</td></tr><tr><td>Visual depth perception</td></tr><tr><td>Visual fields</td></tr><tr><td>Visual fusional amplitudes</td></tr><tr><td>Visual horizontal phorias</td></tr><tr><td>Visual intraocular tension</td></tr><tr><td>Visual near point of convergence</td></tr><tr><td>Visual refraction</td></tr><tr><td>Weight</td></tr><tr><td>Workload</td></tr><tr><td>Total lipids</td></tr><tr><td>Intracellular potassium, red blood cells</td></tr><tr><td>Serum glutamic oxaloacetic transaminase (SGOT)</td></tr><tr><td>Serum glutamic pyruvic transaminase (SGPT)</td></tr><tr><td>Intracellular sodium, red blood cells</td></tr><tr><td>Body temperature</td></tr><tr></tr></table>",
+  "__source_key": "cl62aujbdcbkc01o63enoeyfs",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Zieglschmid, John\">Principal Investigator: Zieglschmid, John</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Hawkins, Willard\">Principal Investigator: Hawkins, Willard</a>",
+  "image_name": [
+   "Biobelt Assembly",
+   "Bioinstrumentation System",
+   "Inflight Medical Equipment Kit"
+  ],
+  "keyword": [
+   "Intraocular pressure",
+   "Sleep initiation and maintenance disorders",
+   "Erythrocyte volume",
+   "Musculoskeletal physiology",
+   "Retinal vessels",
+   "Exercise tolerance",
+   "Monitoring, physiologic",
+   "Chemistry, clinical",
+   "Hypersensitivity, drug",
+   "Body weight",
+   "Space motion sickness (SMS)",
+   "Cardiovascular deconditioning",
+   "Psychiatry",
+   "Microbiology",
+   "Allergy and immunology",
+   "Diagnostic tests, routine",
+   "Dental care",
+   "Vision"
+  ],
+  "keyword_name": "Vision",
+  "__record_version": 30,
+  "experiment_description": "OBJECTIVES: <br>\r\nThe primary goal of the Apollo Program was to land men on the moon.  However, the physiological changes the astronauts experienced during the Gemini and Mercury programs raised concerns about the health and safety of future crews.  One such concern was the high metabolic energy expenditure during extravehicular activity (EVA) during the Gemini missions.  Another was the change in cardiopulmonary status as exhibited by decreased exercise capacity, loss of red blood cell mass, and cardiovascular deconditioning.  These and other medical concerns led to establishing the following medical objectives for the Apollo Program:\r\n<br>\r\n<LI>Ensuring crew safety from a medical standpoint.  This required that every effort be made to identify, eliminate, or minimize anything that posed a potential hazard to the crew.<br>\r\n<LI>  Improving the probability of mission success by ensuring that sufficient medical information was available for management decisions.<br>\r\n<LI>Preventing back-contamination from the lunar surface.<br>\r\n<LI>Continuing the further understanding of the biomedical changes incident to space flight by detecting, documenting, and understanding the changes that occurred during space flight.\r\n<p>\r\nThere were also five additional objectives, which specifically defined the preflight medical goals of the Apollo program.  They were:\r\n<br>\r\n1)  The discovery of latent illness during the process of selection of astronauts and preparation for missions.<BR>\r\n2)  The implementation of the health stabilization program and other preventive measures.<BR>\r\n3)  The determination of individual drug sensitivity to the contents of the Apollo medical kits.<BR>\r\n4)  The collection of baseline data against which to compare postflight data for determination of space flight effects.<BR>\r\n5)  The prevention of any situations that might delay or otherwise interfere with operational aspects of the missions.<BR>\r\n<P>\r\nIn-flight biotelemetry monitoring, diagnosis, and treatment were performed.  Comparisons of pre- and postflight medical testing became the primary source of medical data for the Apollo program, since opportunities for in-flight medical investigations were severely restricted due to conflicts with primary operational objectives.\r\n<P>\r\nAPPROACH:  <br>\r\nPreflight Procedures:  Preflight objectives of the Apollo program were addressed in the following areas:\r\n<br>\r\n1)  Medical screening and examinations, which consisted of physical and dental examinations, visual function test, and special studies.<BR>\r\n2)  Health Stabilization.<BR>\r\n3)  Drug Sensitivity Testing.<BR>\r\n4)  Medical Training.<BR>\r\n5)  The Astronaut Health Care Program.\r\n<P>\r\nMedical Screening/ Examinations: The medical screening process consisted of:\r\n<br>\r\nMedical history and review of systems <BR>\r\nPhysical examination<BR>\r\nElectrocardiographic (EKG) examinations<BR>\r\nTreadmill exercise tolerance test<BR>\r\nVectorcardiographic (VCG) study<BR>\r\nPhonocardiographic study<BR>\r\nTilt table study<BR>\r\nPulmonary function study<BR>\r\nRadiographic study<BR>\r\nBody composition study<BR>\r\nLaboratory examination<BR>\r\nDetailed examination of the sinuses, larynx and Eustachian tubes<BR>\r\nVestibular studies<BR>\r\nDiagnostic hearing tests<BR>\r\nVisual fields and special eye examination<BR>\r\nGeneral surgical evaluation<BR>\r\nProcto-sigmoidoscopy<BR>\r\nDental examination<BR>\r\nNeurological examination<BR>\r\nPsychological summary<BR>\r\nElectroencephalographic (EEG) studies<BR>\r\nCentrifuge testing\r\n<P>\r\nThese medical tests were components of the astronaut selection process.  The preflight medical examinations for Apollo crewmembers included detailed physical examinations and special studies.  The special studies involved collection of baseline data for comparison with postflight findings in  the areas of microbiology, immuno-hematology, clinical chemistry, and cardiopulmonary function.\r\n<P>\r\nPreliminary physical examinations were conducted 30 days prior to flight (L-30) and consisted of interval history, vital signs, and a general physical examination.  An interim exam was conducted on L-15 and consisted of general physical and dental examinations and monitoring of vital signs.  The comprehensive examination conducted at L-5 was intended to accurately document the physical status of the crewmember at the outset of the mission.\r\n<P>\r\nCursory examinations were also conducted from L-4 to launch.  The protocol consisted of recording vital signs, oral temperature, pulse, blood pressure, and weight, plus brief examination of the ears, nose, throat, heart and lungs.  Other signs and systems were examined as indicated by medical histories.  The final examination prior to flight involved last minute recordings of critical parameters to provide the most reliable basis that could be obtained for postflight comparisons.\r\n<P>\r\nHealth Stabilization - Because the flight crew could be exposed to communicable diseases prior to flight, and because illness could develop during flight, there was a need to isolate the crew for a period of time prior to launch.  Though this was first thought to be infeasible, the impact of clinical illness on the preflight operations of the Apollo 9 through 13 missions elucidated the need for a health stabilization program.  Thus, beginning with the Apollo 14 mission, the Flight Crew Health Stabilization Program was implemented and remained in effect through the end of the program.\r\n<P>\r\nDrug Sensitivity Testing - Drug sensitivity testing was performed to determine the response of flight crewmembers to each item in the medical kit to preclude allergic reactions and other undesirable side effects during flight.  Each crewman was tested under controlled conditions.  A physician would obtain a medical history pertinent to the experience of each crewman with each medication under test.  After it had been determined that no adverse reaction had been experienced and that there was no evidence of impaired health at the time of testing, the medication was administered to the astronaut.  The crewmember was then observed for an appropriate period of time following the administration of the medication and was asked about subjective responses.  If positive subjective findings were reported, either a double-blind test was conducted or a replacement drug was substituted.  Crewmembers were also tested for allergic reactions to electrode paste.\r\n<P>\r\nMedical Training - Shortly after astronaut selection, instruction was provided in the areas of space flight physiology and therapeutics.  The astronauts received 16 hours of didactic instruction provided by experts in various fields.  This instruction covered these areas: cardiovascular,  pulmonary, vestibular and visual systems, hematology and laboratory medicine (which addressed Mercury and Gemini findings), and the role of psychiatry in crew selection.\r\n<P>\r\nThe Astronaut Health Care Program - This program provided comprehensive health care to all astronauts and their families through a preventive, diagnostic, and therapeutic program managed by NASA, but also supported with the aid of many civilian and military consultants.  Annual physical examinations were conducted for each astronaut, regardless of his flight status.  In addition, astronauts were instructed to report all illnesses and injuries for evaluation and treatment.  Preventive dental care was also provided.\r\n<P>\r\nVision Testing - After Apollo 11, all crewmen except one had observed bright flashes of light while on orbit.  Retinal photography was considered to determine whether the high energy particles believed to be responsible for the phenomenon produced retinal lesions.  Preflight retinal photographs were taken as part of the physical exams done 30 days prior to flight and repeated three days after splashdown.  Pre- and postflight retinal photographs were taken for the Apollo 15 and 16 missions only.\r\n<P>\r\nIn-flight Procedures:  During the in-flight phase of the Apollo missions, health care was limited to long distance biotelemetry monitoring, diagnosis, and treatment with onboard drugs.  Treatment was administered by the crew with direction from the ground-based flight surgeons.\r\n<P>\r\nMonitoring - The Apollo astronauts each wore a biosensor harness, which provided a means of transmitting critical physiological data back to the ground.  The system returned EKG, heart rate, and respiratory pattern and rate data.  A two-lead EKG with synchronous phonocardiography provided an index of cardiac activity.  Cardiotachometer equipment provided the means to monitor instantaneous and average heart rate information.\r\n<P>\r\nThe operational bioinstrumentation system was designed as an individually adjustable unit to be worn under each astronaut's flight clothing.  The biobelt assembly was an electronic system that included sensors, signal conditioners, and telemetry interfaces.  Data from the spacecraft biotelemetry system were displayed at consoles at the launch and mission control centers.  Heart and respiration rates were displayed in digital form; electrocardiogram and impedance pneumograph data were presented on a cathode ray oscilloscope.  Voice communications and real-time television observations, coupled with monitoring of the vital signs, provided the medical basis for an in-flight clinical profile of the Apollo astronauts.\r\n<P>\r\nIn-flight Medications - Originally, the use of medications during flight was limited to emergency situations only.  With additional experience, this philosophy was altered to the extent that certain drugs were prescribed during Apollo missions when indicated.\r\n<P>\r\nPostflight Procedures:  Postflight physical exams involved obtaining a careful history and complete review of body systems.  Laboratory studies included the following:\r\n<P>\r\n1.  Urine culture and sensitivity<BR>\r\n2.  Complete blood count<BR>\r\n3.  Urinalysis<BR>\r\n4.  Serum electrolytes\r\n<P>\r\nCharacterization of viral and mycoplasma flora was initiated with Apollo 14.  State of the art procedures included inoculating tissue cultures, embryonated eggs, suckling mice, and mycoplasma media with specimens obtained at various times in preflight and postflight periods.\r\n<P>\r\nRESULTS: <br>\r\nIn general, Apollo astronauts adapted well to weightlessness.  In the 7506 hours of space flight accumulated by the Apollo astronauts, no major medical problems were encountered.  What was considered significant in postflight medical findings was the absence of any pathology attributable to space flight exposure.  Physiological changes that did occur were reversed within a 2- to 3-day period, with the exception of the Apollo 15 crew, which required 2 weeks for complete return to preflight baselines.  Cardiovascular deconditioning, reduction of red blood cell mass, and musculoskeletal deterioration were the most important physiological changes observed.  All medical objectives of the Apollo program were achieved, thus providing a sound medical basis for committing man to the prolonged spaceflight exposure planned for the Skylab program.\r\n<P>\r\nGeneral Adaptation: <BR>\r\nThe most frequently reported subjective sensation associated with initial exposure to microgravity was a feeling of fullness in the head.  Of 33 astronauts, 31 reported this sensation, which was said to persist from 4 hours to 3 days.  A roundness of the face, as well as engorgement of the veins of the head and neck, were also observed.  This sensation was equated to standing on the head or hanging upside-down.\r\n<P>\r\nAstronauts of the Apollo 7,12, 14, and 15 missions reported some soreness of the back muscles.  This was relieved by exercise and hyperextension of the back.  The crew typically exercised in the Command Module several times per day for periods of 15 to 30 minutes using the exercise device provided, though no in-flight exercise program was planned or implemented for the Apollo missions.\r\n<P>\r\nInsomnia was also frequently reported by the astronauts.  This was attributed to the shifting of the customary sleep time, altering circadian rhythm, and combating operational problems.  In some cases, the use of a hypnotic facilitated restful sleep.\r\n<P>\r\nThe Apollo astronauts were the first of the American space crews to report any symptoms of motion sickness.  Symptoms ranged from \"stomach awareness\" to nausea and, in some instances, vomiting.  In most instances, the nausea appeared to be related to rapid body movement before adaptation to weightlessness had occurred.  Symptoms subsided or were absent when crewmen moved slowly during the initial period of weightlessness.  Increased susceptibility to motion sickness was thought to be the result of the relatively enhanced effect of stimulation of the acceleration-detecting nerve endings in the semicircular canals that occurs during weightlessness.  The otolith, the gravity component of the inner ear, is thought to bias the input of the semicircular canals to the brain center that controls vomiting.  The removal of this bias during weightlessness results in an alteration of the input to the brain from the semicircular canals.  Then, in a susceptible individual, rapid head movement would result in motion sickness.  Adaptation of the inner ear to weightlessness, which occurs fairly rapidly in most individuals, was hastened by appropriate head movements that produced a subthreshold stimulation of the semicircular canals.  This technique was taught to all Apollo crewmen subsequent to the Apollo 9 mission.  Of the crewmen who used this technique, fairly good results were achieved.\r\n<P>\r\nWeight loss was a consistent postflight finding for all the crewmen with the exception of 2 of 33 Apollo astronauts.  The major portion of these weight changes was attributed to loss of total body water, while the remainder was attributed to tissue mass loss.\r\n<P>\r\nCrew Illness, Medications and Clinical Findings: <BR>\r\nApollo 7 - Three days prior to launch, Subjects A and C experienced slight nasal stuffiness but were successfully treated and certified fit for flight.  Fifteen hours after lift-off, the crew reported that Subject A had a bad head cold. The flight surgeon recommended that aspirin be taken for symptomatic relief and that one decongestant tablet (Actifed) be taken every eight hours until he felt better or on-board supplies were exhausted.  Subjects B and C were similarly treated when they experienced similar symptoms 24 hours later.  Postflight physical examinations of the two crewmembers with the most severe symptoms revealed no residual evidence of their colds.  The other crewman had a slight amount of fluid in the middle ear.\r\n<P>\r\nAfter flight, Subject A reported that the cold symptoms had begun 1 hour after launch.  He also reported that in the microgravity environment, drainage of nasal and sinus secretions cease.  Post-nasal drip did not occur and, because the secretions do not reach the lower respiratory tract, no coughing was produced.  Forceful blowing was the method used to purge nasal secretions, but was ineffective in removing mucoid material from the sinus cavity.\r\n<P>\r\nApollo 8 - During flight, once Subject A's symptoms of motion sickness had dissipated, he experienced symptoms of an in-flight illness believed to be unrelated to the adaptation syndrome.  When unable to fall asleep two hours into his initial rest period, he took a sleeping tablet (Seconal) that provided him with approximately 5 hours of what was called \"fitful\" sleep.  He experienced feelings of nausea and a moderate occipital headache upon awakening.  He took 2 aspirin tablets then went from the sleep station to his couch to rest.  The nausea symptoms progressively worsened and he vomited twice.  As the mission progressed the flight surgeon had the impression that Subject A was experiencing acute viral gastroenteritis.  This tentative diagnosis was based upon a recorded voice report that Subject A had a headache, sore throat, loose bowels, and had vomited twice.  This was confirmed by a conversation between the senior flight surgeon and Subject A.  He reported at that time that his condition, which he described as \"a 24-hour intestinal flu,\" had improved.  It was noted that just prior to the Apollo 8 launch, an epidemic of acute viral gastroenteritis lasting 24 hours occurred in the Cape Canaveral area.\r\n<P>\r\nSix days after end-of-mission recovery, Subject C developed a mild pharyngitis that evolved into a common cold and nonproductive cough.  He recovered completely after six days of symptomatic therapy.  Subject A developed a cold 12 days after flight.\r\n<P>\r\nApollo 9 - Three days before the scheduled launch, Subject A reported symptoms of general malaise, nasal discharge, and stuffiness, which were not present during the previous day's physical exam.  He was treated symptomatically and his temperature remained normal throughout the illness.  Two days before the launch, the remaining crewmembers also became ill with colds and were treated symptomatically.  However, because the symptoms persisted, the launch of Apollo 9 was postponed for three days.  The crewmen responded well to rest and therapy and were certified for flight the day before the rescheduled launch date.\r\n<P>\r\nDuring flight, Subject C experienced motion sickness and vomited twice (once while preparing for transfer to the Lunar Module and again after transfer).  After about 50 hours of flight, he was still feeling ill, but did not vomit again.  He reported that his motion sickness symptoms subsided when he remained still.  He was advised to take Marezine prior to donning his pressure suit for extravehicular operations to be conducted approximately 73 hours into flight.  The EVA was modified to reduce the amount of time he was to spend outside the space craft.  Seconal was used several times during flight by Subject C to induce sleep.\r\n<P>\r\nPostflight, it was found that Subject A suffered from bilateral barotitis media.  This condition responded rapidly to decongestant therapy and cleared after 2 days.  Four days after recovery, Subject C developed an upper respiratory infection with secondary bacterial bronchitis.  He was treated with penicillin and was well 7 days later. Subject A developed a mild upper respiratory syndrome 8 days after recovery and was treated symptomatically.  He recovered 4 days later.  The etiology of both these cases was determined to be type-B influenza virus.\r\n<P>\r\nApollo 10 - In-flight, all three crewmen experienced irritation of the skin, eyes, and upper respiratory passages when fiberglass insulation became loose in the command module.  This was treated symptomatically with good results.  Subjects A and C also suffered mild rashes on their forearms caused either by exposure to the fiberglass insulation or to the beta cloth in their flight suits.\r\n<P>\r\nThe crew complained of  abdominal rumbling caused by ingestion of hydrogen gas present in the potable water.  The crew, of their own accord, took Lomotil tablets for this condition although medically its use was not indicated (Lomotil functions to decrease the activity of the lower intestinal tract to reduce the amount of gas which can be expelled).  Aspirin was taken occasionally by all crewmembers. \r\n<P>\r\nFour days after recovery, Subject C developed a mild infection in his left nasal passage, which was probably caused by a small piece of fiberglass; this responded rapidly to symptomatic  therapy.\r\n<P>\r\nApollo 11 - During flight, Subjects A and C each took Lomotil tablets to retard bowel movements prior to Lunar Module operations.  Aspirin was also taken, but exact numbers per individual were not known.  Subject C did recall that he took 2 aspirins almost every night to aid sleep.  Four hours before entry and again after splashdown, the 3 crewmen took scopolamine/ dextroamphetamine (antimotion sickness) tablets.  Postflight, it was discovered that Subject A had a mild barotitis media of the right ear.  He was, however, able to clear the middle ear satisfactorily, eliminating the need for specific treatment.\r\n<P>\r\nSubject A reported that he experienced dysbarism during this mission.  He added he had experienced this on his first space flight (Gemini 10) as well. The symptoms were described as a sharp throbbing ache in the left knee.  The pain was said to gradually worsen and then leveled off at a moderate, but very uncomfortable level of pain.  The Apollo 11 experience was reported to be less painful than the Gemini experience (this information was not made available to the medical teams during the Gemini and Apollo programs).\r\n<P>\r\nApollo 12 - During flight, Subject A developed a mild contact dermatitis from the biosensor electrolyte paste.  Postflight analysis performed on the batch of paste used failed to identify any constituent not present in batches of the electrolyte paste that did not cause irritation.  To avoid similar occurrences, subsequent Apollo crewmen were tested with all materials of known allergic potential.  In addition, as an added precaution, the identical material to be used during flight was used during training to provide for scrupulous observation and reporting of skin reactions. \r\n<P>\r\nAll three crewmen used Actifed decongestant tablets to relieve nasal congestion at various times during flight.  Subject C used Seconal throughout most of the mission to aid sleep.  Aspirin was taken occasionally by all the crewmen.  After flight, Subject C was initially found to have a small amount of clear fluid with bubbles in the middle ear (bilaterally).  This disappeared after 24 hours of decongestant therapy.  He also sustained a laceration over the right eye when struck by a camera, which broke loose after the impact of landing.  The cut was sutured on board the recovery vessel and healed normally.  On the day after recovery, Subject A developed an acute maxillary sinusitis, which was treated successfully with decongestants and antibiotics.\r\n<P>\r\nApollo 13 - Subject C awoke on the second day of the mission with a severe headache that was treated with aspirin; however, this yielded only fair results.  After eating breakfast and engaging in physical activity, he became nauseated and vomited.  His symptoms began to subside over the next 12 hours as adaptation to weightlessness progressed.\r\n<P>\r\nPostflight, all three crewmembers showed extreme fatigue resulting from the severe environmental stresses imposed by their crippled spacecraft. Subject C suffered an acute <I>pseudomonas</I> urinary tract infection which required 2 weeks of antibiotic therapy to resolve.  This was attributed to a combination of the stresses of cold, dehydration, and prolonged wearing of the urine collection device (which was not designed for extended wear).\r\n<P>\r\nApollo 14 - During flight, the only medication used was nose drops to relieve nasal stuffiness caused by the spacecraft atmosphere.  Postflight, Subjects A and B each exhibited a small amount of clear bubbly fluid in the left middle ear cavity with slight reddening of the tympanic membrane.  These findings disappeared within 24 hours without treatment.  Subject C had moderate eyelid irritation in addition to slight redness of the tympanic membrane.  All crewmen showed a mild transient irritation from the micropore tape that covered their biomedical sensors.\r\n<P>\r\nApollo 15 - Aspirin and nose drops were the only medications use on this mission.  Subject A took 14 aspirins over the course of a few days to relieve pain in his right shoulder.  This condition was noted after conducting difficult deep core-tube drilling on the lunar surface.  Subject A also developed a dermatitis from the deerskin lining of a communications carrier.  Sensitivity to this was not recognized prior to flight because of the existence of concomitant skin disorder (seborrheic dermatitis).\r\n<P>\r\nPostflight findings showed Subject A to suffer from subungual hematomas of both hands and a painful right shoulder.  The hematomas were caused by the hands being pressed too forcefully into the gloves of the pressurized suit (by request of Subject A, the length of the sleeves had been shortened to permit better tactile sensation and manual dexterity during mission EVA's).  The shoulder pain was caused by a muscle/ ligament strain that was successfully treated with heat therapy.\r\n<P>\r\nApollo 16 - During flight, Subject C used 3 Seconal tablets to induce sleep: one tablet was taken prior to lunar descent, one during the first lunar sleep period, and the last during the second lunar sleep period.  Postflight, Subject C reported that the Seconal was effective in producing a rapid onset of good sleep.\r\n<P>\r\nEach of the 3 crewmen suffered varying degrees of skin irritation at the biosensor sites.  The irritation subsided within 48 hours without treatment.  The skin irritation resulted from continuous wearing of the biosensor harness (done to save the 15 to 20 minutes required to apply the bioharnesses).\r\n<P>\r\nApollo 17 - The crew of this mission used more medications than any of the previous crews.  Seconal was used by all 3 crewmen intermittently throughout the mission to induce sleep.  Simethicone was used daily by Subject A for symptomatic relief of flatulence.  Subject A also took a scopolamine/ dextroamphetamine capsule on the second day of flight for \"stomach awareness.\"  Subjects A and C both experienced one loose bowel each on the 11th and 12th days of flight, respectively.  Lomotil was effective treatment for this condition.\r\n<P>\r\nThe two lunar surface crewmen developed subungual hematomas of both hands due to insufficient sleeve length of the pressure suits (as noted on Apollo 15).  Subject A also had a herpetic lesion on the right side of the upper lip that was approximately 72 hours old at the time of recovery.\r\n<P>\r\nPostflight Vision Findings: <BR>\r\nAlthough numerous trends were noted, statistically significant changes between pre- and postflight testing were found only in the superior, superior-nasal and superior-temporal visual fields, each of which were constricted postflight.  Only one other parameter approached significance: the unaided 7-meter (20-foot) visual acuity, which also was decreased postflight.  Etiology of these changes was unknown at the time.\r\n<P>\r\nAlso of interest is the result of a longitudinal study of changes in intraocular tension of Apollo, Gemini, and Mercury astronauts.  In the immediate postflight period, and for a short time thereafter, a statistically significant decrease in intraocular tension, when compared with their preflight tension, was found in all astronauts.  The postflight intraocular tension reverted to preflight values at a much slower rate than expected.\r\n<P>\r\nRetinal photographs were first taken on the Apollo 15 crew.  No lesions were noted in the eye grounds but a decrease in the size of the retinal vessels was observed.  However, no statistical comparison could be conducted due to the low resolution of the film used.  Retinal photography was repeated on the Apollo 16 crewmen, this time using high resolution film.  Comparison of the pre- and postflight films of this crew showed no change for Subject C in the size of either the retinal veins or arteries approximately 3 hours after postflight.  Subject B exhibited a significant decrease in the size of both the veins and arteries about 3.5 hours after flight; Subject A showed only a decrease in the veins 4 hours after flight.  The degree of constriction of retinal vasculature in this crew was greater and persisted longer than could be accounted for  by the vasoconstrictive effect of atmospheric oxygen alone.\r\n<END>",
+  "indexed": "2026-08-23T04:24:35.730864+00:00",
+  "GUID": "cl62aujbdcbkc01o63enoeyfs",
+  "__model_type": "lsda_experiment",
+  "__dirid": "db66a742-80cf-522a-b962-342b412def9e",
+  "__record_size_wo_doccontent": 431109,
+  "experiment_parms_tissue2": "N/A",
+  "experiment_parms_tissue1": "N/A",
+  "__update_method": "Update CDM",
+  "archive_status_index": 2,
+  "experiment_type_lk": [
+   "Apollo Program"
+  ],
+  "__record_modified_date": "2026-08-23T04:24:35.730864+00:00",
+  "proposal_source": [
+   "N/A"
+  ],
+  "__indexed": "2026-08-23T04:24:35.730864+00:00",
+  "__record_creation_date": "2022-07-28T19:39:11.556Z",
+  "__record_size": 431109,
+  "__model_version": 60,
+  "payload_id": "Apollo 10",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "AP001",
+  "parameter_name": [
+   "Iodine, protein bound",
+   "Magnesium",
+   "Metabolic rate",
+   "Microflora",
+   "Oxygen consumption (VO2)",
+   "Phospholipids",
+   "Phosphorus",
+   "Protein, total",
+   "Pulse rate",
+   "Respiration rate",
+   "Thymol turbidity",
+   "Uric acid",
+   "Vectorcardiogram (VCG)",
+   "Visual acuity, unaided",
+   "Visual amplitude of accommodation",
+   "Visual color perception",
+   "Visual depth perception",
+   "Visual fields",
+   "Visual fusional amplitudes",
+   "Visual horizontal phorias",
+   "Visual intraocular tension",
+   "Visual near point of convergence",
+   "Visual refraction",
+   "Weight",
+   "Workload",
+   "Total lipids",
+   "Intracellular potassium, red blood cells",
+   "Serum glutamic oxaloacetic transaminase (SGOT)",
+   "Serum glutamic pyruvic transaminase (SGPT)",
+   "Intracellular sodium, red blood cells",
+   "Body temperature"
+  ],
+  "payload_part": "Apollo 10",
+  "exp_index": 374,
+  "research_area": [
+   "Clinical medicine",
+   "Immunology",
+   "Ocular physiological phenomena"
+  ],
+  "pme_role_with_name": [
+   "Principal Investigator: Hawkins, Willard",
+   "Principal Investigator: Zieglschmid, John"
+  ],
+  "missions": [
+   [
+    [
+     "Apollo 10"
+    ]
+   ],
+   [
+    [
+     "Apollo 11"
+    ]
+   ],
+   [
+    [
+     "Apollo 12"
+    ]
+   ],
+   [
+    [
+     "Apollo 13"
+    ]
+   ],
+   [
+    [
+     "Apollo 14"
+    ]
+   ],
+   [
+    [
+     "Apollo 15"
+    ]
+   ],
+   [
+    [
+     "Apollo 16"
+    ]
+   ],
+   [
+    [
+     "Apollo 17"
+    ]
+   ],
+   [
+    [
+     "Apollo 7"
+    ]
+   ],
+   [
+    [
+     "Apollo 8"
+    ]
+   ],
+   [
+    [
+     "Apollo 9"
+    ]
+   ]
+  ],
+  "PI": [
+   "Hawkins, Willard",
+   "Zieglschmid, John"
+  ],
+  "_file_extension": [],
+  "experiment_identifier": [
+   "AP001"
+  ],
+  "mission_id": [
+   [
+    [
+     "Apollo 10"
+    ]
+   ],
+   [
+    [
+     "Apollo 11"
+    ]
+   ],
+   [
+    [
+     "Apollo 12"
+    ]
+   ],
+   [
+    [
+     "Apollo 13"
+    ]
+   ],
+   [
+    [
+     "Apollo 14"
+    ]
+   ],
+   [
+    [
+     "Apollo 15"
+    ]
+   ],
+   [
+    [
+     "Apollo 16"
+    ]
+   ],
+   [
+    [
+     "Apollo 17"
+    ]
+   ],
+   [
+    [
+     "Apollo 7"
+    ]
+   ],
+   [
+    [
+     "Apollo 8"
+    ]
+   ],
+   [
+    [
+     "Apollo 9"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Hawkins, Willard",
+   "Zieglschmid, John"
+  ],
+  "archive_status": "Data preservation is complete. Privacy-protected datasets are available via data request. Remaining datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Apollo",
+  "__source_field_concat": "PUB000343 Apollo 10 cl62aujbdcbkc01o63enoeyfs Vision N/A N/A  Apollo 10 Clinical Aspects of Crew Health AP001 Apollo",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES: <br>\r\nThe primary goal of the Apollo Program was to land men on the moon.  However, the physiological changes the astronauts experienced during the Gemini and Mercury programs raised concerns about the health and safety of future crews.  One such concern was the high metabolic energy expenditure during extravehicular activity (EVA) during the Gemini missions.  Another was the change in cardiopulmonary status as exhibited by decreased exercise capacity, loss of red blood cell mass, and cardiovascular deconditioning.  These and other medical concerns led to establishing the following medical objectives for the Apollo Program:\r\n<br>\r\n<LI>Ensuring crew safety from a medical standpoint.  This required that every effort be made to identify, eliminate, or minimize anything that posed a potential hazard to the crew.<br>\r\n<LI>  Improving the probability of mission success by ensuring that sufficient medical information was available for management decisions.<br>\r\n<LI>Preventing back-contamination from the lunar surface.<br>\r\n<LI>Continuing the further understanding of the biomedical changes incident to space flight by detecting, documenting, and understanding the changes that occurred during space flight.\r\n<p>\r\nThere were also five additional objectives, which specifically defined the preflight medical goals of the Apollo program.  They were:\r\n<br>\r\n1)  The discovery of latent illness during the process of selection of astronauts and preparation for missions.<BR>\r\n2)  The implementation of the health stabilization program and other preventive measures.<BR>\r\n3)  The determination of individual drug sensitivity to the contents of the Apollo medical kits.<BR>\r\n4)  The collection of baseline data against which to compare postflight data for determination of space flight effects.<BR>\r\n5)  The prevention of any situations that might delay or otherwise interfere with operational aspects of the missions.<BR>\r\n<P>\r\nIn-flight biotelemetry monitoring, diagnosis, and treatment were performed.  Comparisons of pre- and postflight medical testing became the primary source of medical data for the Apollo program, since opportunities for in-flight medical investigations were severely restricted due to conflicts with primary operational objectives.\r\n<P>\r\nAPPROACH:  <br>\r\nPreflight Procedures:  Preflight objectives of the Apollo program were addressed in the following areas:\r\n<br>\r\n1)  Medical screening and examinations, which consisted of physical and dental examinations, visual function test, and special studies.<BR>\r\n2)  Health Stabilization.<BR>\r\n3)  Drug Sensitivity Testing.<BR>\r\n4)  Medical Training.<BR>\r\n5)  The Astronaut Health Care Program.\r\n<P>\r\nMedical Screening/ Examinations: The medical screening process consisted of:\r\n<br>\r\nMedical history and review of systems <BR>\r\nPhysical examination<BR>\r\nElectrocardiographic (EKG) examinations<BR>\r\nTreadmill exercise tolerance test<BR>\r\nVectorcardiographic (VCG) study<BR>\r\nPhonocardiographic study<BR>\r\nTilt table study<BR>\r\nPulmonary function study<BR>\r\nRadiographic study<BR>\r\nBody composition study<BR>\r\nLaboratory examination<BR>\r\nDetailed examination of the sinuses, larynx and Eustachian tubes<BR>\r\nVestibular studies<BR>\r\nDiagnostic hearing tests<BR>\r\nVisual fields and special eye examination<BR>\r\nGeneral surgical evaluation<BR>\r\nProcto-sigmoidoscopy<BR>\r\nDental examination<BR>\r\nNeurological examination<BR>\r\nPsychological summary<BR>\r\nElectroencephalographic (EEG) studies<BR>\r\nCentrifuge testing\r\n<P>\r\nThese medical tests were components of the astronaut selection process.  The preflight medical examinations for Apollo crewmembers included detailed physical examinations and special studies.  The special studies involved collection of baseline data for comparison with postflight findings in  the areas of microbiology, immuno-hematology, clinical chemistry, and cardiopulmonary function.\r\n<P>\r\nPreliminary physical examinations were conducted 30 days prior to flight (L-30) and consisted of interval history, vital signs, and a general physical examination.  An interim exam was conducted on L-15 and consisted of general physical and dental examinations and monitoring of vital signs.  The comprehensive examination conducted at L-5 was intended to accurately document the physical status of the crewmember at the outset of the mission.\r\n<P>\r\nCursory examinations were also conducted from L-4 to launch.  The protocol consisted of recording vital signs, oral temperature, pulse, blood pressure, and weight, plus brief examination of the ears, nose, throat, heart and lungs.  Other signs and systems were examined as indicated by medical histories.  The final examination prior to flight involved last minute recordings of critical parameters to provide the most reliable basis that could be obtained for postflight comparisons.\r\n<P>\r\nHealth Stabilization - Because the flight crew could be exposed to communicable diseases prior to flight, and because illness could develop during flight, there was a need to isolate the crew for a period of time prior to launch.  Though this was first thought to be infeasible, the impact of clinical illness on the preflight operations of the Apollo 9 through 13 missions elucidated the need for a health stabilization program.  Thus, beginning with the Apollo 14 mission, the Flight Crew Health Stabilization Program was implemented and remained in effect through the end of the program.\r\n<P>\r\nDrug Sensitivity Testing - Drug sensitivity testing was performed to determine the response of flight crewmembers to each item in the medical kit to preclude allergic reactions and other undesirable side effects during flight.  Each crewman was tested under controlled conditions.  A physician would obtain a medical history pertinent to the experience of each crewman with each medication under test.  After it had been determined that no adverse reaction had been experienced and that there was no evidence of impaired health at the time of testing, the medication was administered to the astronaut.  The crewmember was then observed for an appropriate period of time following the administration of the medication and was asked about subjective responses.  If positive subjective findings were reported, either a double-blind test was conducted or a replacement drug was substituted.  Crewmembers were also tested for allergic reactions to electrode paste.\r\n<P>\r\nMedical Training - Shortly after astronaut selection, instruction was provided in the areas of space flight physiology and therapeutics.  The astronauts received 16 hours of didactic instruction provided by experts in various fields.  This instruction covered these areas: cardiovascular,  pulmonary, vestibular and visual systems, hematology and laboratory medicine (which addressed Mercury and Gemini findings), and the role of psychiatry in crew selection.\r\n<P>\r\nThe Astronaut Health Care Program - This program provided comprehensive health care to all astronauts and their families through a preventive, diagnostic, and therapeutic program managed by NASA, but also supported with the aid of many civilian and military consultants.  Annual physical examinations were conducted for each astronaut, regardless of his flight status.  In addition, astronauts were instructed to report all illnesses and injuries for evaluation and treatment.  Preventive dental care was also provided.\r\n<P>\r\nVision Testing - After Apollo 11, all crewmen except one had observed bright flashes of light while on orbit.  Retinal photography was considered to determine whether the high energy particles believed to be responsible for the phenomenon produced retinal lesions.  Preflight retinal photographs were taken as part of the physical exams done 30 days prior to flight and repeated three days after splashdown.  Pre- and postflight retinal photographs were taken for the Apollo 15 and 16 missions only.\r\n<P>\r\nIn-flight Procedures:  During the in-flight phase of the Apollo missions, health care was limited to long distance biotelemetry monitoring, diagnosis, and treatment with onboard drugs.  Treatment was administered by the crew with direction from the ground-based flight surgeons.\r\n<P>\r\nMonitoring - The Apollo astronauts each wore a biosensor harness, which provided a means of transmitting critical physiological data back to the ground.  The system returned EKG, heart rate, and respiratory pattern and rate data.  A two-lead EKG with synchronous phonocardiography provided an index of cardiac activity.  Cardiotachometer equipment provided the means to monitor instantaneous and average heart rate information.\r\n<P>\r\nThe operational bioinstrumentation system was designed as an individually adjustable unit to be worn under each astronaut's flight clothing.  The biobelt assembly was an electronic system that included sensors, signal conditioners, and telemetry interfaces.  Data from the spacecraft biotelemetry system were displayed at consoles at the launch and mission control centers.  Heart and respiration rates were displayed in digital form; electrocardiogram and impedance pneumograph data were presented on a cathode ray oscilloscope.  Voice communications and real-time television observations, coupled with monitoring of the vital signs, provided the medical basis for an in-flight clinical profile of the Apollo astronauts.\r\n<P>\r\nIn-flight Medications - Originally, the use of medications during flight was limited to emergency situations only.  With additional experience, this philosophy was altered to the extent that certain drugs were prescribed during Apollo missions when indicated.\r\n<P>\r\nPostflight Procedures:  Postflight physical exams involved obtaining a careful history and complete review of body systems.  Laboratory studies included the following:\r\n<P>\r\n1.  Urine culture and sensitivity<BR>\r\n2.  Complete blood count<BR>\r\n3.  Urinalysis<BR>\r\n4.  Serum electrolytes\r\n<P>\r\nCharacterization of viral and mycoplasma flora was initiated with Apollo 14.  State of the art procedures included inoculating tissue cultures, embryonated eggs, suckling mice, and mycoplasma media with specimens obtained at various times in preflight and postflight periods.\r\n<P>\r\nRESULTS: <br>\r\nIn general, Apollo astronauts adapted well to weightlessness.  In the 7506 hours of space flight accumulated by the Apollo astronauts, no major medical problems were encountered.  What was considered significant in postflight medical findings was the absence of any pathology attributable to space flight exposure.  Physiological changes that did occur were reversed within a 2- to 3-day period, with the exception of the Apollo 15 crew, which required 2 weeks for complete return to preflight baselines.  Cardiovascular deconditioning, reduction of red blood cell mass, and musculoskeletal deterioration were the most important physiological changes observed.  All medical objectives of the Apollo program were achieved, thus providing a sound medical basis for committing man to the prolonged spaceflight exposure planned for the Skylab program.\r\n<P>\r\nGeneral Adaptation: <BR>\r\nThe most frequently reported subjective sensation associated with initial exposure to microgravity was a feeling of fullness in the head.  Of 33 astronauts, 31 reported this sensation, which was said to persist from 4 hours to 3 days.  A roundness of the face, as well as engorgement of the veins of the head and neck, were also observed.  This sensation was equated to standing on the head or hanging upside-down.\r\n<P>\r\nAstronauts of the Apollo 7,12, 14, and 15 missions reported some soreness of the back muscles.  This was relieved by exercise and hyperextension of the back.  The crew typically exercised in the Command Module several times per day for periods of 15 to 30 minutes using the exercise device provided, though no in-flight exercise program was planned or implemented for the Apollo missions.\r\n<P>\r\nInsomnia was also frequently reported by the astronauts.  This was attributed to the shifting of the customary sleep time, altering circadian rhythm, and combating operational problems.  In some cases, the use of a hypnotic facilitated restful sleep.\r\n<P>\r\nThe Apollo astronauts were the first of the American space crews to report any symptoms of motion sickness.  Symptoms ranged from \"stomach awareness\" to nausea and, in some instances, vomiting.  In most instances, the nausea appeared to be related to rapid body movement before adaptation to weightlessness had occurred.  Symptoms subsided or were absent when crewmen moved slowly during the initial period of weightlessness.  Increased susceptibility to motion sickness was thought to be the result of the relatively enhanced effect of stimulation of the acceleration-detecting nerve endings in the semicircular canals that occurs during weightlessness.  The otolith, the gravity component of the inner ear, is thought to bias the input of the semicircular canals to the brain center that controls vomiting.  The removal of this bias during weightlessness results in an alteration of the input to the brain from the semicircular canals.  Then, in a susceptible individual, rapid head movement would result in motion sickness.  Adaptation of the inner ear to weightlessness, which occurs fairly rapidly in most individuals, was hastened by appropriate head movements that produced a subthreshold stimulation of the semicircular canals.  This technique was taught to all Apollo crewmen subsequent to the Apollo 9 mission.  Of the crewmen who used this technique, fairly good results were achieved.\r\n<P>\r\nWeight loss was a consistent postflight finding for all the crewmen with the exception of 2 of 33 Apollo astronauts.  The major portion of these weight changes was attributed to loss of total body water, while the remainder was attributed to tissue mass loss.\r\n<P>\r\nCrew Illness, Medications and Clinical Findings: <BR>\r\nApollo 7 - Three days prior to launch, Subjects A and C experienced slight nasal stuffiness but were successfully treated and certified fit for flight.  Fifteen hours after lift-off, the crew reported that Subject A had a bad head cold. The flight surgeon recommended that aspirin be taken for symptomatic relief and that one decongestant tablet (Actifed) be taken every eight hours until he felt better or on-board supplies were exhausted.  Subjects B and C were similarly treated when they experienced similar symptoms 24 hours later.  Postflight physical examinations of the two crewmembers with the most severe symptoms revealed no residual evidence of their colds.  The other crewman had a slight amount of fluid in the middle ear.\r\n<P>\r\nAfter flight, Subject A reported that the cold symptoms had begun 1 hour after launch.  He also reported that in the microgravity environment, drainage of nasal and sinus secretions cease.  Post-nasal drip did not occur and, because the secretions do not reach the lower respiratory tract, no coughing was produced.  Forceful blowing was the method used to purge nasal secretions, but was ineffective in removing mucoid material from the sinus cavity.\r\n<P>\r\nApollo 8 - During flight, once Subject A's symptoms of motion sickness had dissipated, he experienced symptoms of an in-flight illness believed to be unrelated to the adaptation syndrome.  When unable to fall asleep two hours into his initial rest period, he took a sleeping tablet (Seconal) that provided him with approximately 5 hours of what was called \"fitful\" sleep.  He experienced feelings of nausea and a moderate occipital headache upon awakening.  He took 2 aspirin tablets then went from the sleep station to his couch to rest.  The nausea symptoms progressively worsened and he vomited twice.  As the mission progressed the flight surgeon had the impression that Subject A was experiencing acute viral gastroenteritis.  This tentative diagnosis was based upon a recorded voice report that Subject A had a headache, sore throat, loose bowels, and had vomited twice.  This was confirmed by a conversation between the senior flight surgeon and Subject A.  He reported at that time that his condition, which he described as \"a 24-hour intestinal flu,\" had improved.  It was noted that just prior to the Apollo 8 launch, an epidemic of acute viral gastroenteritis lasting 24 hours occurred in the Cape Canaveral area.\r\n<P>\r\nSix days after end-of-mission recovery, Subject C developed a mild pharyngitis that evolved into a common cold and nonproductive cough.  He recovered completely after six days of symptomatic therapy.  Subject A developed a cold 12 days after flight.\r\n<P>\r\nApollo 9 - Three days before the scheduled launch, Subject A reported symptoms of general malaise, nasal discharge, and stuffiness, which were not present during the previous day's physical exam.  He was treated symptomatically and his temperature remained normal throughout the illness.  Two days before the launch, the remaining crewmembers also became ill with colds and were treated symptomatically.  However, because the symptoms persisted, the launch of Apollo 9 was postponed for three days.  The crewmen responded well to rest and therapy and were certified for flight the day before the rescheduled launch date.\r\n<P>\r\nDuring flight, Subject C experienced motion sickness and vomited twice (once while preparing for transfer to the Lunar Module and again after transfer).  After about 50 hours of flight, he was still feeling ill, but did not vomit again.  He reported that his motion sickness symptoms subsided when he remained still.  He was advised to take Marezine prior to donning his pressure suit for extravehicular operations to be conducted approximately 73 hours into flight.  The EVA was modified to reduce the amount of time he was to spend outside the space craft.  Seconal was used several times during flight by Subject C to induce sleep.\r\n<P>\r\nPostflight, it was found that Subject A suffered from bilateral barotitis media.  This condition responded rapidly to decongestant therapy and cleared after 2 days.  Four days after recovery, Subject C developed an upper respiratory infection with secondary bacterial bronchitis.  He was treated with penicillin and was well 7 days later. Subject A developed a mild upper respiratory syndrome 8 days after recovery and was treated symptomatically.  He recovered 4 days later.  The etiology of both these cases was determined to be type-B influenza virus.\r\n<P>\r\nApollo 10 - In-flight, all three crewmen experienced irritation of the skin, eyes, and upper respiratory passages when fiberglass insulation became loose in the command module.  This was treated symptomatically with good results.  Subjects A and C also suffered mild rashes on their forearms caused either by exposure to the fiberglass insulation or to the beta cloth in their flight suits.\r\n<P>\r\nThe crew complained of  abdominal rumbling caused by ingestion of hydrogen gas present in the potable water.  The crew, of their own accord, took Lomotil tablets for this condition although medically its use was not indicated (Lomotil functions to decrease the activity of the lower intestinal tract to reduce the amount of gas which can be expelled).  Aspirin was taken occasionally by all crewmembers. \r\n<P>\r\nFour days after recovery, Subject C developed a mild infection in his left nasal passage, which was probably caused by a small piece of fiberglass; this responded rapidly to symptomatic  therapy.\r\n<P>\r\nApollo 11 - During flight, Subjects A and C each took Lomotil tablets to retard bowel movements prior to Lunar Module operations.  Aspirin was also taken, but exact numbers per individual were not known.  Subject C did recall that he took 2 aspirins almost every night to aid sleep.  Four hours before entry and again after splashdown, the 3 crewmen took scopolamine/ dextroamphetamine (antimotion sickness) tablets.  Postflight, it was discovered that Subject A had a mild barotitis media of the right ear.  He was, however, able to clear the middle ear satisfactorily, eliminating the need for specific treatment.\r\n<P>\r\nSubject A reported that he experienced dysbarism during this mission.  He added he had experienced this on his first space flight (Gemini 10) as well. The symptoms were described as a sharp throbbing ache in the left knee.  The pain was said to gradually worsen and then leveled off at a moderate, but very uncomfortable level of pain.  The Apollo 11 experience was reported to be less painful than the Gemini experience (this information was not made available to the medical teams during the Gemini and Apollo programs).\r\n<P>\r\nApollo 12 - During flight, Subject A developed a mild contact dermatitis from the biosensor electrolyte paste.  Postflight analysis performed on the batch of paste used failed to identify any constituent not present in batches of the electrolyte paste that did not cause irritation.  To avoid similar occurrences, subsequent Apollo crewmen were tested with all materials of known allergic potential.  In addition, as an added precaution, the identical material to be used during flight was used during training to provide for scrupulous observation and reporting of skin reactions. \r\n<P>\r\nAll three crewmen used Actifed decongestant tablets to relieve nasal congestion at various times during flight.  Subject C used Seconal throughout most of the mission to aid sleep.  Aspirin was taken occasionally by all the crewmen.  After flight, Subject C was initially found to have a small amount of clear fluid with bubbles in the middle ear (bilaterally).  This disappeared after 24 hours of decongestant therapy.  He also sustained a laceration over the right eye when struck by a camera, which broke loose after the impact of landing.  The cut was sutured on board the recovery vessel and healed normally.  On the day after recovery, Subject A developed an acute maxillary sinusitis, which was treated successfully with decongestants and antibiotics.\r\n<P>\r\nApollo 13 - Subject C awoke on the second day of the mission with a severe headache that was treated with aspirin; however, this yielded only fair results.  After eating breakfast and engaging in physical activity, he became nauseated and vomited.  His symptoms began to subside over the next 12 hours as adaptation to weightlessness progressed.\r\n<P>\r\nPostflight, all three crewmembers showed extreme fatigue resulting from the severe environmental stresses imposed by their crippled spacecraft. Subject C suffered an acute <I>pseudomonas</I> urinary tract infection which required 2 weeks of antibiotic therapy to resolve.  This was attributed to a combination of the stresses of cold, dehydration, and prolonged wearing of the urine collection device (which was not designed for extended wear).\r\n<P>\r\nApollo 14 - During flight, the only medication used was nose drops to relieve nasal stuffiness caused by the spacecraft atmosphere.  Postflight, Subjects A and B each exhibited a small amount of clear bubbly fluid in the left middle ear cavity with slight reddening of the tympanic membrane.  These findings disappeared within 24 hours without treatment.  Subject C had moderate eyelid irritation in addition to slight redness of the tympanic membrane.  All crewmen showed a mild transient irritation from the micropore tape that covered their biomedical sensors.\r\n<P>\r\nApollo 15 - Aspirin and nose drops were the only medications use on this mission.  Subject A took 14 aspirins over the course of a few days to relieve pain in his right shoulder.  This condition was noted after conducting difficult deep core-tube drilling on the lunar surface.  Subject A also developed a dermatitis from the deerskin lining of a communications carrier.  Sensitivity to this was not recognized prior to flight because of the existence of concomitant skin disorder (seborrheic dermatitis).\r\n<P>\r\nPostflight findings showed Subject A to suffer from subungual hematomas of both hands and a painful right shoulder.  The hematomas were caused by the hands being pressed too forcefully into the gloves of the pressurized suit (by request of Subject A, the length of the sleeves had been shortened to permit better tactile sensation and manual dexterity during mission EVA's).  The shoulder pain was caused by a muscle/ ligament strain that was successfully treated with heat therapy.\r\n<P>\r\nApollo 16 - During flight, Subject C used 3 Seconal tablets to induce sleep: one tablet was taken prior to lunar descent, one during the first lunar sleep period, and the last during the second lunar sleep period.  Postflight, Subject C reported that the Seconal was effective in producing a rapid onset of good sleep.\r\n<P>\r\nEach of the 3 crewmen suffered varying degrees of skin irritation at the biosensor sites.  The irritation subsided within 48 hours without treatment.  The skin irritation resulted from continuous wearing of the biosensor harness (done to save the 15 to 20 minutes required to apply the bioharnesses).\r\n<P>\r\nApollo 17 - The crew of this mission used more medications than any of the previous crews.  Seconal was used by all 3 crewmen intermittently throughout the mission to induce sleep.  Simethicone was used daily by Subject A for symptomatic relief of flatulence.  Subject A also took a scopolamine/ dextroamphetamine capsule on the second day of flight for \"stomach awareness.\"  Subjects A and C both experienced one loose bowel each on the 11th and 12th days of flight, respectively.  Lomotil was effective treatment for this condition.\r\n<P>\r\nThe two lunar surface crewmen developed subungual hematomas of both hands due to insufficient sleeve length of the pressure suits (as noted on Apollo 15).  Subject A also had a herpetic lesion on the right side of the upper lip that was approximately 72 hours old at the time of recovery.\r\n<P>\r\nPostflight Vision Findings: <BR>\r\nAlthough numerous trends were noted, statistically significant changes between pre- and postflight testing were found only in the superior, superior-nasal and superior-temporal visual fields, each of which were constricted postflight.  Only one other parameter approached significance: the unaided 7-meter (20-foot) visual acuity, which also was decreased postflight.  Etiology of these changes was unknown at the time.\r\n<P>\r\nAlso of interest is the result of a longitudinal study of changes in intraocular tension of Apollo, Gemini, and Mercury astronauts.  In the immediate postflight period, and for a short time thereafter, a statistically significant decrease in intraocular tension, when compared with their preflight tension, was found in all astronauts.  The postflight intraocular tension reverted to preflight values at a much slower rate than expected.\r\n<P>\r\nRetinal photographs were first taken on the Apollo 15 crew.  No lesions were noted in the eye grounds but a decrease in the size of the retinal vessels was observed.  However, no statistical comparison could be conducted due to the low resolution of the film used.  Retinal photography was repeated on the Apollo 16 crewmen, this time using high resolution film.  Comparison of the pre- and postflight films of this crew showed no change for Subject C in the size of either the retinal veins or arteries approximately 3 hours after postflight.  Subject B exhibited a significant decrease in the size of both the veins and arteries about 3.5 hours after flight; Subject A showed only a decrease in the veins 4 hours after flight.  The degree of constriction of retinal vasculature in this crew was greater and persisted longer than could be accounted for  by the vasoconstrictive effect of atmospheric oxygen alone.\r\n<END>",
+  "__doi": "10.83263/0nkx-pr72",
+  "__doi_record_creation_date": "2026-08-23T04:24:35",
+  "__doi_record_modified_date": "2026-08-23T04:24:35"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000785",
+   "label": "AP001__2810653853",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Data Collection Timetables for AP001",
+    "dataset_catalog": "AP001__2810653853",
+    "dataset_description": [
+     "This spreadsheet represents the data collection timetables for data collection session(s) for this experiment. Information included in this spreadsheet may include information on the test protocol, data collection constraints, parameters measured, hardware used, scheduled versus actual days of data collection, and subject information."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "AP001"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "67855574-606f-54b6-986a-987a92acaead",
+     "label": "AP001.xls_Apollo_7_AP001_2013_281_071043.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001432",
+   "label": "J0001106",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Typical Pharmacological Agent Administration and Observation Constraints",
+    "dataset_catalog": "J0001106",
+    "dataset_description": [
+     "Drug sensitivity testing was performed to determine the response of flight crewmembers to each item in the medical kit to preclude allergic reactions and other undesirable side effects in flight. Each Apollo crewmember was tested under controlled conditions to determine his response to medical kit items carried onboard the spacecraft.  After a medical history was obtained by a physician regarding the experience of each crewmember with each medication under test, and it had been determined that (1) no adverse reaction had been experienced, and (2) there was no evidence of impaired health at the time of testing, the medication was administered to the astronaut.\r\n<p>\r\nThe crewmember was observed by the physician for an appropriate period of time following administration of the medication and was queried about subjective responses.  If positive subjective findings were reported, the test was either repeated with a double-blind placebo method, or an appropriate drug was substituted for which no undesirable side effects had been reported. Individuals were additionally tested for any allergic reaction to the electrode paste.  This table lists the medications tested as reported in: Hawkins WR, Zieglschmid JF.  Clinical aspects of crew health.  In: Johnson RS, Dietlein LF, Berry CA, eds.  <I>Biomedical Results of Apollo</I>. Washington, DC: NASA Headquarters; 1975:55-56.  NASA SP-368.<end>"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "AP001"
+    ]
+   },
+   "meta": "1 file \u00b7 17.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "1f05ce73-36c7-54e2-af22-daf5e5a09812",
+     "label": "JMAPAP001_115.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 17408,
+     "meta": "17.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001402",
+   "label": "JMAPAP001_116",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Inflight Medical Problems in Apollo Crew",
+    "dataset_catalog": "JMAPAP001_116",
+    "dataset_description": [
+     "During the inflight phase of Apollo missions, medical care was limited to long-distance biotelemetry monitoring, diagnosis, and treatment with the appropriate onboard drugs.  This treatment was carried out by the astronauts themselves under the direction of ground-based flight surgeons. The flight phase of Apollo missions was characterized by certain transient adaptational difficulties, by a few clinical illnesses, and by a limited number of physiological phenomena apparently related largely to space flight factors.  This figure lists the medical problems experienced by the Apollo crew during flight as reported in: Hawkins WR, Zieglschmid JF.  Clinical aspects of crew health.  In: Johnson RS, Dietlein LF, Berry CA, eds.  <I>Biomedical Results of Apollo</I>. Washington, DC: NASA Headquarters; 1975:68.  NASA SP-368.<end>"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "AP001"
+    ]
+   },
+   "meta": "11 files \u00b7 1.31 MB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "c8f4832f-5842-5e03-832a-6c7c43424358",
+     "label": "JMAPAP001_116.jpg",
+     "type": "file",
+     "ext": "jpg",
+     "file_size": 124928,
+     "meta": "122.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c5ff5214-6658-5043-9e5e-f04ef4ccfdf5",
+     "label": "JMAPAP001_116.jpg",
+     "type": "file",
+     "ext": "jpg",
+     "file_size": 124928,
+     "meta": "122.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "102c5705-385d-5cca-b81b-acf829de3342",
+     "label": "JMAPAP001_116.jpg",
+     "type": "file",
+     "ext": "jpg",
+     "file_size": 124928,
+     "meta": "122.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e3d5c0b1-c314-56f1-b608-f52c2a79f0ac",
+     "label": "JMAPAP001_116.jpg",
+     "type": "file",
+     "ext": "jpg",
+     "file_size": 124928,
+     "meta": "122.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d1d07c01-2ab0-5533-b9df-3984c9f7c697",
+     "label": "JMAPAP001_116.jpg",
+     "type": "file",
+     "ext": "jpg",
+     "file_size": 124928,
+     "meta": "122.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "429e4132-8ec5-5530-aa42-69ec96dc93d8",
+     "label": "JMAPAP001_116.jpg",
+     "type": "file",
+     "ext": "jpg",
+     "file_size": 124928,
+     "meta": "122.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e54ddf3d-cbf5-5600-85d9-f918def54288",
+     "label": "JMAPAP001_116.jpg",
+     "type": "file",
+     "ext": "jpg",
+     "file_size": 124928,
+     "meta": "122.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c3f7811b-3312-56f3-9266-667506e83387",
+     "label": "JMAPAP001_116.jpg",
+     "type": "file",
+     "ext": "jpg",
+     "file_size": 124928,
+     "meta": "122.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e33cf2bb-75f7-5e39-b802-b623a2ed0e9b",
+     "label": "JMAPAP001_116.jpg",
+     "type": "file",
+     "ext": "jpg",
+     "file_size": 124928,
+     "meta": "122.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "333824d7-d758-582c-b629-5dc843160f8b",
+     "label": "JMAPAP001_116.jpg",
+     "type": "file",
+     "ext": "jpg",
+     "file_size": 124928,
+     "meta": "122.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f92af3ee-988f-5bc4-a8a7-f20c64d225dd",
+     "label": "JMAPAP001_116.jpg",
+     "type": "file",
+     "ext": "jpg",
+     "file_size": 124928,
+     "meta": "122.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001759",
+   "label": "JMAPAP001_119",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Postflight Medical Findings in Apollo Mission Crews",
+    "dataset_catalog": "JMAPAP001_119",
+    "dataset_description": [
+     "Comprehensive medical examinations similar to the preflight L-5 exam were conducted immediately after recovery of the astronauts to document the physiological changes resulting from space flight and to detect and treat any medical problems.  Though all Apollo astronauts were in good health after flight, they did exhibit varying degrees of fatigue and weight loss.  This figure lists the postflight medical findings in Apollo mission crews as reported in: Hawkins WR, Zieglschmid JF.  Clinical aspects of crew health.  In: Johnson RS, Dietlein LF, Berry CA, eds.  <I>Biomedical Results of Apollo</I>. Washington, DC: NASA Headquarters; 1975:78.  NASA SP-368. <end>"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "AP001"
+    ]
+   },
+   "meta": "11 files \u00b7 1.06 MB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "7116b255-197d-5239-8b9d-cdc234b02a6f",
+     "label": "JMAPAP001_119.jpg",
+     "type": "file",
+     "ext": "jpg",
+     "file_size": 101376,
+     "meta": "99.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3773a46e-4503-5b98-a02a-d15e5f9cec2f",
+     "label": "JMAPAP001_119.jpg",
+     "type": "file",
+     "ext": "jpg",
+     "file_size": 101376,
+     "meta": "99.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b29c347b-6d07-5acb-a033-347b6d5fed67",
+     "label": "JMAPAP001_119.jpg",
+     "type": "file",
+     "ext": "jpg",
+     "file_size": 101376,
+     "meta": "99.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "32f963eb-3c44-5450-8a40-84996fea80eb",
+     "label": "JMAPAP001_119.jpg",
+     "type": "file",
+     "ext": "jpg",
+     "file_size": 101376,
+     "meta": "99.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "88717239-2cf6-5e45-a75a-b8ddd503e470",
+     "label": "JMAPAP001_119.jpg",
+     "type": "file",
+     "ext": "jpg",
+     "file_size": 101376,
+     "meta": "99.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "201c3ae2-987b-5cc9-921d-15ad1e1e500b",
+     "label": "JMAPAP001_119.jpg",
+     "type": "file",
+     "ext": "jpg",
+     "file_size": 101376,
+     "meta": "99.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "23305031-f1e9-5fd4-8ef4-5ddf474780c6",
+     "label": "JMAPAP001_119.jpg",
+     "type": "file",
+     "ext": "jpg",
+     "file_size": 101376,
+     "meta": "99.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0d73546b-2314-583e-be9a-982482851a27",
+     "label": "JMAPAP001_119.jpg",
+     "type": "file",
+     "ext": "jpg",
+     "file_size": 101376,
+     "meta": "99.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3f57bb26-781d-536d-91d0-8fcf66f0c67b",
+     "label": "JMAPAP001_119.jpg",
+     "type": "file",
+     "ext": "jpg",
+     "file_size": 101376,
+     "meta": "99.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e6b916b8-5713-5609-9410-449007261899",
+     "label": "JMAPAP001_119.jpg",
+     "type": "file",
+     "ext": "jpg",
+     "file_size": 101376,
+     "meta": "99.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7c211540-e19d-5173-b05f-aeb1421bccd3",
+     "label": "JMAPAP001_119.jpg",
+     "type": "file",
+     "ext": "jpg",
+     "file_size": 101376,
+     "meta": "99.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002094",
+   "label": "JMAPAP001_113",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Preflight Medical Findings in Apollo Mission Crews",
+    "dataset_catalog": "JMAPAP001_113",
+    "dataset_description": [
+     "The scheduled physical examinations varied slightly with mission requirements; however, they had to commence no earlier than  30 and no later than 21 days prior to lift-off in order to provide sufficient time to diagnose and treat any illnesses of recent onset.  Significant medical findings that occurred during the 30-day preflight period are listed in this figure as reported in: Hawkins WR, Zieglschmid JF.  Clinical aspects of crew health.  In: Johnson RS, Dietlein LF, Berry CA, eds.  <I>Biomedical Results of Apollo</I>. Washington, DC: NASA Headquarters; 1975:49.  NASA SP-368.<END>"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "AP001"
+    ]
+   },
+   "meta": "11 files \u00b7 1.10 MB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "627e0458-ec48-51e6-b570-4316d3fff480",
+     "label": "JMAPAP001_113.jpg",
+     "type": "file",
+     "ext": "jpg",
+     "file_size": 104448,
+     "meta": "102.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "62c995e7-abdc-55e8-88f9-f7f14d40f472",
+     "label": "JMAPAP001_113.jpg",
+     "type": "file",
+     "ext": "jpg",
+     "file_size": 104448,
+     "meta": "102.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "366fe05e-3744-52b2-aa2b-be870690b64e",
+     "label": "JMAPAP001_113.jpg",
+     "type": "file",
+     "ext": "jpg",
+     "file_size": 104448,
+     "meta": "102.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "86dd9a14-08fc-5098-bb91-5179455230f9",
+     "label": "JMAPAP001_113.jpg",
+     "type": "file",
+     "ext": "jpg",
+     "file_size": 104448,
+     "meta": "102.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f795d1c6-fa6f-5fea-9e85-9b235714ef76",
+     "label": "JMAPAP001_113.jpg",
+     "type": "file",
+     "ext": "jpg",
+     "file_size": 104448,
+     "meta": "102.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3428c273-1309-5dd6-ad25-c96acaafa93a",
+     "label": "JMAPAP001_113.jpg",
+     "type": "file",
+     "ext": "jpg",
+     "file_size": 104448,
+     "meta": "102.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f7a5353d-e542-57eb-a27d-e0ed30247d22",
+     "label": "JMAPAP001_113.jpg",
+     "type": "file",
+     "ext": "jpg",
+     "file_size": 104448,
+     "meta": "102.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4e6d4fb2-54fe-5ef0-9b86-96159cb4c986",
+     "label": "JMAPAP001_113.jpg",
+     "type": "file",
+     "ext": "jpg",
+     "file_size": 104448,
+     "meta": "102.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "db95fb2a-2b20-56a6-b66e-dc91198d8014",
+     "label": "JMAPAP001_113.jpg",
+     "type": "file",
+     "ext": "jpg",
+     "file_size": 104448,
+     "meta": "102.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f60b712c-3e4f-5d4c-b6fa-baa9a1e7adc0",
+     "label": "JMAPAP001_113.jpg",
+     "type": "file",
+     "ext": "jpg",
+     "file_size": 104448,
+     "meta": "102.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5c04c30f-297e-52a2-9851-ba0b42d87258",
+     "label": "JMAPAP001_113.jpg",
+     "type": "file",
+     "ext": "jpg",
+     "file_size": 104448,
+     "meta": "102.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,11 @@
+ID,Campaign,Subject,Test_Phase,BR_Day,Date,Test,Stage,Time (min),HR,VO2,VCO2,RER,VO2 (ml/kg/min),VE,FEO2,FECO2
+1,C3B,4023,PRE_TEST,13,7/24/2005,Preflight Maximum Cycle,50 Watts,2.5,91,1.06,1.06,1.0,12.6,26.68,16.13,4.86
+2,C3B,4023,PRE_TEST,13,7/24/2005,Preflight Maximum Cycle,50 Watts,3.0,93,0.98,1.05,1.06,11.6,25.67,16.25,4.98
+3,C3B,4023,PRE_TEST,13,7/24/2005,Preflight Maximum Cycle,100 Watts,5.5,123,1.45,1.71,1.18,17.2,40.04,16.39,5.21
+4,C3B,4023,PRE_TEST,13,7/24/2005,Preflight Maximum Cycle,100 Watts,6.0,122,1.58,1.84,1.16,18.7,43.36,16.38,5.18
+5,C3B,4023,PRE_TEST,13,7/24/2005,Preflight Maximum Cycle,150 Watts,8.5,154,2.07,2.65,1.28,24.5,67.21,16.99,4.81
+6,C3B,4023,PRE_TEST,13,7/24/2005,Preflight Maximum Cycle,150 Watts,9.0,169,2.08,2.82,1.35,24.6,75.9,17.38,4.53
+7,C3B,4023,PRE_TEST,13,7/24/2005,Preflight Maximum Cycle,175 Watts,9.5,174,2.19,3.08,1.41,25.9,91.46,17.8,4.11
+8,C3B,4023,PRE_TEST,13,7/24/2005,Preflight Maximum Cycle,175 Watts,10.0,180,2.25,3.1,1.38,26.6,95.14,17.85,3.99
+9,C3B,4023,PRE_TEST,13,7/24/2005,Preflight Maximum Cycle,Peak-30 sec,Watts,174,2.19,3.08,1.41,25.9,91.46,17.8,4.11
+10,C3B,4023,PRE_TEST,13,7/24/2005,Preflight Maximum Cycle,Peak,10,180,2.25,3.1,1.38,26.6,95.14,17.85,3.99

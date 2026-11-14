@@ -1,0 +1,316 @@
+{
+ "record": {
+  "id": "caf12d45-8bd3-5e0e-badd-e9473dd7cb21",
+  "_id": "caf12d45-8bd3-5e0e-badd-e9473dd7cb21",
+  "experiment_title": "Assessment of Sleep Dynamics in a Simulated Space Station Environment",
+  "archive_status_index": 1,
+  "pub_document_number": "PUB001077",
+  "parameter_html": "<table><tr><td>Illumination</td></tr><tr><td>Melatonin acrophase, saliva</td></tr><tr><td>Melatonin sulfate acrophase, urine</td></tr><tr><td>Movement</td></tr><tr><td>Percent sleep efficiency</td></tr><tr><td>Sleep duration</td></tr><tr><td>Sleep efficiency</td></tr><tr><td>Sleep latency</td></tr><tr><td>Sleep quality</td></tr><tr><td>Wake after sleep onset</td></tr><tr><td>Awakenings, number</td></tr><tr></tr></table>",
+  "__source_key": "cl62axwahcd1001o621v1073s",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Putcha, Lakshmi\">Principal Investigator: Putcha, Lakshmi</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Bandyopadhyay, Dipta\">Co-Investigator: Bandyopadhyay, Dipta</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Berens, Kurt\">Co-Investigator: Berens, Kurt</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Nimmagudda, Ram\">Co-Investigator: Nimmagudda, Ram</a>",
+  "image_name": [
+   "Phase IIa Commander Wearing Experiment Hardware",
+   "Phase III Crewmembers Wearing Experiment Hardware"
+  ],
+  "experiment_type_lk": [
+   "Lunar-Mars Life Support Test Project (LMLSTP)"
+  ],
+  "__record_modified_date": "2026-08-23T04:23:29.946682+00:00",
+  "__indexed": "2026-08-23T04:23:29.946682+00:00",
+  "__record_creation_date": "2022-07-28T20:06:30.829Z",
+  "keyword": [
+   "Motion",
+   "Saliva",
+   "Sleep",
+   "Urine",
+   "Melatonin",
+   "Circadian rhythm",
+   "Illumination"
+  ],
+  "keyword_name": "Illumination",
+  "__record_size": 151158,
+  "__record_version": 29,
+  "__model_version": 60,
+  "experiment_description": "<p>OBJECTIVE:<br />\r\n&nbsp;</p>\r\n<p>Based on prior experience, it is believed that the unique environmental conditions and work-rest schedules aboard orbital spacecraft result in sleep decrements and fatigue in astronauts. Potential disturbances of circadian rhythmicity in the space flight environment and consequent decrements in performance efficiency and in the well being of astronauts are major concerns of NASA. In addition to changes in environmental factors, such as the absence of a gravity vector and ultra-shortened light-dark cycles, other factors that contribute to the development of sleep disturbances and fatigue during space flights include the abnormal length of working periods (high work load effect), continuous deviation of the sleep-wake cycle duration from 24 hours (&quot;migrating day&quot;), and cyclic noise disturbances. In addition to these physiological and sleep disturbances, in order to meet operational demands, crewmembers have been assigned shift-work schedules during certain dual-shift missions. Sleep deficits, biological asynchrony with work-rest activities, and sleep-promoting medications have been documented to impact alertness and induce fatigue. This presents a very high risk for shuttle and ground-operations of the space program and particularly to crew health and safety.</p>\r\n<p>To augment sleep quality, pharmacological agents are often prescribed during flight in addition to preflight entrainment. However, a systematic evaluation of the effectiveness of light treatment on the maintenance of in flight work-rest demands is missing due to a lack of methods and technologies that are both sufficiently sensitive and flight-suitable. To fill this gap, the present study was conducted to evaluate objective and subjective data collection methods for sleep quality and contributing variables in a ground-based analog environment in human subjects confined to a closed chamber during as part of Phase IIa and Phase III Lunar Mars Life Support Test Project (LMLSTP). Information gained from this study will be useful in the identification and validation of sensitive, non-obtrusive techniques for evaluating sleep and circadian rhythms during space flight.</p>\r\n<p>APPROACH:<br />\r\n&nbsp;</p>\r\n<p>Methods for estimating sleep variables and circadian rhythms in a simulated work-rest environment that mimics the schedule of International Space Station (ISS) crew activities were investigated. Eight healthy subjects, three females and five males, stayed for 60 days (Phase IIa) and 91 days (Phase III) in a closed life support test facility at the Johnson Space Center. Each phase consisted of one pre-chamber data collection session, four (Phase IIa) or six (Phase III) in-chamber sessions, and one post-chamber session. Each session was 48 hours long during which time the subjects wore an activity and ambient light monitor (Actillume) on the wrist of the non-dominant arm, completed sleep logs twice daily, and collected timed saliva and void-by-void urine samples.</p>\r\n<p>The activity data recorded by the Actillume were autoscored for sleep, while the illumination data were analyzed for patterns of light exposure. An electronic sleep/wake questionnaire was completed upon wake-up and before bedtime using the Ames Interactive Reporting Log (AIRLOG). AIRLOG is a tool developed exclusively for research in aviation and ground transportation environments; the instrument was developed by NASA Ames Research Center and includes separate components that relate to the events of the day preceding the sleep period, the quality of sleep period, and the ensuing wake time. These data were analyzed to estimate subjective changes in sleep duration, latency, efficiency, and quality during chamber stay.</p>\r\n<p>Saliva samples were collected every two hours while subjects were awake using salivettes. Void-by-void urine samples were also collected during the 48-hour period. All saliva and urine samples were processed and stored at -40&deg; C until analysis. Samples were analyzed using commercial radioimmunoassay kits to determine levels of melatonin and melatonin sulfate.</p>\r\n<p>Sleep variables (latency, duration and efficiency) were estimated from the Actillume data (objective) and from sleep logs (subjective); acrophases for salivary melatonin and urinary melatonin sulfate were determined from concentration versus time profiles.</p>\r\n<p><i>Data Analysis</i></p>\r\n<p>Illumination data from the Actillume were analyzed for patterns and intensity of light exposure using vendor provided Action-3 software. Activity data were analyzed with Action-3 software using both the manual and autoscore options in the software to estimate objective sleep variables. Data from the AIRLOG were analyzed to estimate subjective sleep quality, efficiency, and latency. Salivary melatonin concentrations were determined using commercially available direct radioimmunoassay kit (ALPCO). Urine aliquots were assayed to determine 6-hydroxymelatonin sulfate levels. Cosinor and cross-correlation methods were used to analyze salivary melatonin and urinary melatonin sulfate measurement data with respect to time. Cosinor analysis was based on least-squares fit of the cosine function to a series of observations. This technique allowed characterization of the mesor (the 48-hour time-series mean), acrophase (peak time, referenced to local midnight) and amplitude (half of the peak-to- trough variability). Phase shifts were calculated from the entire 48-hour session by subtracting the baseline acrophase from the in-chamber acrophase.</p>\r\n<p>RESULTS <br />\r\n&nbsp;</p>\r\n<p>Objective measurements of sleep variables by Actillume showed no statistically significant differences between baseline (pre- and post-chamber) and in-chamber periods. These data suggest that crewmembers adjusted with the Space Station analog work-rest activities. Light intensity during waking periods in the chamber was lower (50-100 lux) compared to baseline readings (1000-1500 lux.) Similar readings of light intensity have been observed on two earlier space flight missions as well. Self-assessment of sleep variables (sleep latency, number of awakenings, sleep duration and sleep efficiency) by AIRLOG showed no changes between chamber stay and baseline. In addition, sleep quality scores did not reflect any sleep decrements during chamber stays. A comparison of the sleep variables data from the objective and subjective scores indicated that subjective assessment scores of sleep by the crewmembers were higher than the respective objective measures derived from actigraphy. This observation confirms the general notion among sleep researchers that perception of sleep decrements is always less than actual deficits. In addition, the number of awakenings recorded by actigraphy was higher than those from the subjective sleep log scores. Results from this study indicate that the methods tested here are suitable for in-flight assessment of sleep during long-duration flights. Non-obtrusive wrist-actigraphy appears to be a valuable diagnostic method for the assessment of sleep decrements in astronauts.</p>\r\n<p>Urine melatonin sulfate is well known to be a good index for determining circadian rhythmicity. Earlier reports have suggested that salivary melatonin rhythm is an accurate predictor of circadian rhythmicity. Cosinor analysis of salivary melatonin and urinary melatonin sulfate excretion rates from the present study yielded valuable information on the applicability of salivary data for the assessment of circadian rhythms. When circadian variables derived from both markers are in agreement, acrophase estimates calculated from time profiles of both markers and an accepted measure of circadian shifts, are also in agreement. Salivary melatonin acrophase was delayed during the chamber stay by 2.7 hours and compared well with the urinary melatonin sulfate acrophase, which was delayed 3.0 hours. The chamber light conditions were similar to those of ISS and may be responsible for the melatonin acrophase delays noted during the chamber study. Regression analysis of these data indicated that good correlation exists between estimates from the two sets of data (r = 0.79). However, the correlation between delayed salivary melatonin rhythm and sleep duration, although weak (r =0.42) suggests that the desynchronized melatonin rhythm and sleep period may have affected the sleep quality in the chamber crewmembers as depicted by reduced sleep duration. These results suggest that salivary melatonin rhythms may be successfully employed for estimating circadian rhythms and related sleep decrements in astronauts during space missions.<end></end></p>",
+  "payload_id": "LMLSTP",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "LMLSTP3.4",
+  "indexed": "2026-08-23T04:23:29.946682+00:00",
+  "GUID": "cl62axwahcd1001o621v1073s",
+  "parameter_name": [
+   "Illumination",
+   "Melatonin acrophase, saliva",
+   "Melatonin sulfate acrophase, urine",
+   "Movement",
+   "Percent sleep efficiency",
+   "Sleep duration",
+   "Sleep efficiency",
+   "Sleep latency",
+   "Sleep quality",
+   "Wake after sleep onset",
+   "Awakenings, number"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 926,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Chronobiology"
+  ],
+  "pme_role_with_name": [
+   "Co-Investigator: Bandyopadhyay, Dipta",
+   "Co-Investigator: Berens, Kurt",
+   "Co-Investigator: Nimmagudda, Ram",
+   "Principal Investigator: Putcha, Lakshmi"
+  ],
+  "missions": [
+   [
+    [
+     "LMLSTP"
+    ]
+   ]
+  ],
+  "__dirid": "caf12d45-8bd3-5e0e-badd-e9473dd7cb21",
+  "__record_size_wo_doccontent": 151158,
+  "PI": [
+   "Putcha, Lakshmi"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "LMLSTP3.4"
+  ],
+  "mission_id": [
+   [
+    [
+     "LMLSTP"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "proposal_date": [],
+  "proposal_source": [],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Putcha, Lakshmi"
+  ],
+  "program_name": [
+   "Ground"
+  ],
+  "archive_status": "Data preservation is complete. All datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Ground",
+  "__source_field_concat": "PUB001077 LMLSTP cl62axwahcd1001o621v1073s Illumination  N/A Assessment of Sleep Dynamics in a Simulated Space Station Environment LMLSTP3.4 Ground Data preservation is complete. All datasets are publicly available.",
+  "__icon_type": "human",
+  "__description": "<p>OBJECTIVE:<br />\r\n&nbsp;</p>\r\n<p>Based on prior experience, it is believed that the unique environmental conditions and work-rest schedules aboard orbital spacecraft result in sleep decrements and fatigue in astronauts. Potential disturbances of circadian rhythmicity in the space flight environment and consequent decrements in performance efficiency and in the well being of astronauts are major concerns of NASA. In addition to changes in environmental factors, such as the absence of a gravity vector and ultra-shortened light-dark cycles, other factors that contribute to the development of sleep disturbances and fatigue during space flights include the abnormal length of working periods (high work load effect), continuous deviation of the sleep-wake cycle duration from 24 hours (&quot;migrating day&quot;), and cyclic noise disturbances. In addition to these physiological and sleep disturbances, in order to meet operational demands, crewmembers have been assigned shift-work schedules during certain dual-shift missions. Sleep deficits, biological asynchrony with work-rest activities, and sleep-promoting medications have been documented to impact alertness and induce fatigue. This presents a very high risk for shuttle and ground-operations of the space program and particularly to crew health and safety.</p>\r\n<p>To augment sleep quality, pharmacological agents are often prescribed during flight in addition to preflight entrainment. However, a systematic evaluation of the effectiveness of light treatment on the maintenance of in flight work-rest demands is missing due to a lack of methods and technologies that are both sufficiently sensitive and flight-suitable. To fill this gap, the present study was conducted to evaluate objective and subjective data collection methods for sleep quality and contributing variables in a ground-based analog environment in human subjects confined to a closed chamber during as part of Phase IIa and Phase III Lunar Mars Life Support Test Project (LMLSTP). Information gained from this study will be useful in the identification and validation of sensitive, non-obtrusive techniques for evaluating sleep and circadian rhythms during space flight.</p>\r\n<p>APPROACH:<br />\r\n&nbsp;</p>\r\n<p>Methods for estimating sleep variables and circadian rhythms in a simulated work-rest environment that mimics the schedule of International Space Station (ISS) crew activities were investigated. Eight healthy subjects, three females and five males, stayed for 60 days (Phase IIa) and 91 days (Phase III) in a closed life support test facility at the Johnson Space Center. Each phase consisted of one pre-chamber data collection session, four (Phase IIa) or six (Phase III) in-chamber sessions, and one post-chamber session. Each session was 48 hours long during which time the subjects wore an activity and ambient light monitor (Actillume) on the wrist of the non-dominant arm, completed sleep logs twice daily, and collected timed saliva and void-by-void urine samples.</p>\r\n<p>The activity data recorded by the Actillume were autoscored for sleep, while the illumination data were analyzed for patterns of light exposure. An electronic sleep/wake questionnaire was completed upon wake-up and before bedtime using the Ames Interactive Reporting Log (AIRLOG). AIRLOG is a tool developed exclusively for research in aviation and ground transportation environments; the instrument was developed by NASA Ames Research Center and includes separate components that relate to the events of the day preceding the sleep period, the quality of sleep period, and the ensuing wake time. These data were analyzed to estimate subjective changes in sleep duration, latency, efficiency, and quality during chamber stay.</p>\r\n<p>Saliva samples were collected every two hours while subjects were awake using salivettes. Void-by-void urine samples were also collected during the 48-hour period. All saliva and urine samples were processed and stored at -40&deg; C until analysis. Samples were analyzed using commercial radioimmunoassay kits to determine levels of melatonin and melatonin sulfate.</p>\r\n<p>Sleep variables (latency, duration and efficiency) were estimated from the Actillume data (objective) and from sleep logs (subjective); acrophases for salivary melatonin and urinary melatonin sulfate were determined from concentration versus time profiles.</p>\r\n<p><i>Data Analysis</i></p>\r\n<p>Illumination data from the Actillume were analyzed for patterns and intensity of light exposure using vendor provided Action-3 software. Activity data were analyzed with Action-3 software using both the manual and autoscore options in the software to estimate objective sleep variables. Data from the AIRLOG were analyzed to estimate subjective sleep quality, efficiency, and latency. Salivary melatonin concentrations were determined using commercially available direct radioimmunoassay kit (ALPCO). Urine aliquots were assayed to determine 6-hydroxymelatonin sulfate levels. Cosinor and cross-correlation methods were used to analyze salivary melatonin and urinary melatonin sulfate measurement data with respect to time. Cosinor analysis was based on least-squares fit of the cosine function to a series of observations. This technique allowed characterization of the mesor (the 48-hour time-series mean), acrophase (peak time, referenced to local midnight) and amplitude (half of the peak-to- trough variability). Phase shifts were calculated from the entire 48-hour session by subtracting the baseline acrophase from the in-chamber acrophase.</p>\r\n<p>RESULTS <br />\r\n&nbsp;</p>\r\n<p>Objective measurements of sleep variables by Actillume showed no statistically significant differences between baseline (pre- and post-chamber) and in-chamber periods. These data suggest that crewmembers adjusted with the Space Station analog work-rest activities. Light intensity during waking periods in the chamber was lower (50-100 lux) compared to baseline readings (1000-1500 lux.) Similar readings of light intensity have been observed on two earlier space flight missions as well. Self-assessment of sleep variables (sleep latency, number of awakenings, sleep duration and sleep efficiency) by AIRLOG showed no changes between chamber stay and baseline. In addition, sleep quality scores did not reflect any sleep decrements during chamber stays. A comparison of the sleep variables data from the objective and subjective scores indicated that subjective assessment scores of sleep by the crewmembers were higher than the respective objective measures derived from actigraphy. This observation confirms the general notion among sleep researchers that perception of sleep decrements is always less than actual deficits. In addition, the number of awakenings recorded by actigraphy was higher than those from the subjective sleep log scores. Results from this study indicate that the methods tested here are suitable for in-flight assessment of sleep during long-duration flights. Non-obtrusive wrist-actigraphy appears to be a valuable diagnostic method for the assessment of sleep decrements in astronauts.</p>\r\n<p>Urine melatonin sulfate is well known to be a good index for determining circadian rhythmicity. Earlier reports have suggested that salivary melatonin rhythm is an accurate predictor of circadian rhythmicity. Cosinor analysis of salivary melatonin and urinary melatonin sulfate excretion rates from the present study yielded valuable information on the applicability of salivary data for the assessment of circadian rhythms. When circadian variables derived from both markers are in agreement, acrophase estimates calculated from time profiles of both markers and an accepted measure of circadian shifts, are also in agreement. Salivary melatonin acrophase was delayed during the chamber stay by 2.7 hours and compared well with the urinary melatonin sulfate acrophase, which was delayed 3.0 hours. The chamber light conditions were similar to those of ISS and may be responsible for the melatonin acrophase delays noted during the chamber study. Regression analysis of these data indicated that good correlation exists between estimates from the two sets of data (r = 0.79). However, the correlation between delayed salivary melatonin rhythm and sleep duration, although weak (r =0.42) suggests that the desynchronized melatonin rhythm and sleep period may have affected the sleep quality in the chamber crewmembers as depicted by reduced sleep duration. These results suggest that salivary melatonin rhythms may be successfully employed for estimating circadian rhythms and related sleep decrements in astronauts during space missions.<end></end></p>",
+  "__doi": "10.83263/vye7-fv52",
+  "__doi_record_creation_date": "2026-08-23T04:23:29",
+  "__doi_record_modified_date": "2026-08-23T04:23:29"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000332",
+   "label": "JMGROUNDLMLSTP34_118",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Correlation between Urinary MTS and Salivary Melatonin Acrophases",
+    "dataset_catalog": "JMGROUNDLMLSTP34_118",
+    "dataset_description": [
+     "A sumary plot showing the regression equation and correlation between urinary 6-alpha MTS acrophase and salivary melatonin acrophase. Source: Putcha L, Nimmagudda R, Rivera C. Assessment of sleep dynamics in a simulated space station environment. In: Lane HW, Sauer RL, Feeback DL, eds. Isolation: NASA Experiments in Closed-Environment Living: Advanced Human Life Support Enclosed System Final Report. San Diego: Univelt, Incorporated. 2002;104:131-139.<end>"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "LMLSTP3.4"
+    ]
+   },
+   "meta": "1 file \u00b7 64.4 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "d1ee43d0-1202-5f61-bef6-1697a9b281c5",
+     "label": "JMGROUNDLMLSTP34_118.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 65946,
+     "meta": "64.4 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001503",
+   "label": "JMGROUNDLMLSTP34_117",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Comparative Estimates of Circadian Rhythm Changes",
+    "dataset_catalog": "JMGROUNDLMLSTP34_117",
+    "dataset_description": [
+     "A summary plot is shown in this figure comparing baseline to in-chamber acrophases for saliva and urine samples from eight subjects.  Data were collected during two periods of confinement. Source: Putcha L, Nimmagudda R, Rivera C. Assessment of sleep dynamics in a simulated space station environment. In: Lane HW, Sauer RL, Feeback DL, eds. Isolation: NASA Experiments in Closed-Environment Living: Advanced Human Life Support Enclosed System Final Report. San Diego: Univelt, Incorporated. 2002;104:131-139.<end>"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "LMLSTP3.4"
+    ]
+   },
+   "meta": "1 file \u00b7 35.8 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "5f14be95-a62f-5123-91ca-4ee872bc4515",
+     "label": "JMGROUNDLMLSTP34_117.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 36659,
+     "meta": "35.8 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001698",
+   "label": "JMGROUNDLMLSTP34_116",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Light Exposure during Wake Period",
+    "dataset_catalog": "JMGROUNDLMLSTP34_116",
+    "dataset_description": [
+     "Illumination data was collected from eight subjects during the waking period using the Actillume&#153; wrist watch and presented as a summary plot. Source: Putcha L, Nimmagudda R, Rivera C. Assessment of sleep dynamics in a simulated space station environment. In: Lane HW, Sauer RL, Feeback DL, eds. Isolation: NASA Experiments in Closed-Environment Living: Advanced Human Life Support Enclosed System Final Report. San Diego: Univelt, Incorporated. 2002;104:131-139.<end>"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "LMLSTP3.4"
+    ]
+   },
+   "meta": "1 file \u00b7 90.7 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "3948dd73-11af-5be8-a9ba-76d4de816523",
+     "label": "JMGROUNDLMLSTP34_116.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 92877,
+     "meta": "90.7 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002178",
+   "label": "JMGROUNDLMLSTP34_119",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Correlation of Rhythm Markers (Salivary Melatonin Acrophase) with Subjective Measurement of Sleep Duration",
+    "dataset_catalog": "JMGROUNDLMLSTP34_119",
+    "dataset_description": [
+     "A summary plot showing the correlation between salivary melatonin acrophase and subjective sleep duration is shown in this figure. Source: Putcha L, Nimmagudda R, Rivera C. Assessment of sleep dynamics in a simulated space station environment. In: Lane HW, Sauer RL, Feeback DL, eds. Isolation: NASA Experiments in Closed-Environment Living: Advanced Human Life Support Enclosed System Final Report. San Diego: Univelt, Incorporated. 2002;104:131-139.<end>"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "LMLSTP3.4"
+    ]
+   },
+   "meta": "1 file \u00b7 81.6 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "95a48dc2-b52c-5e64-8d0f-b9c908d6214e",
+     "label": "JMGROUNDLMLSTP34_119.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 83558,
+     "meta": "81.6 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000410",
+   "label": "JMGROUNDLMLSTP34_1",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Data Collection Timetables for LMLSTP3.4",
+    "dataset_catalog": "JMGROUNDLMLSTP34_1",
+    "dataset_description": [
+     "This spreadsheet represents the data collection timetables for data collection sessions for this experiment.  Information in this spreadsheet may include information on the test protocol, data collection constraints, parameters measured, hardware used, sheduled versus actual days of data collection and subject information."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "LMLSTP3.4"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "7b963fac-9e2d-571f-b500-a806f4ca2b2d",
+     "label": "JMGROUNDLMLSTP341.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001992",
+   "label": "JMGROUNDLMLSTP34_115",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Measurement of Sleep Variables by Chamber Crewmembers",
+    "dataset_catalog": "JMGROUNDLMLSTP34_115",
+    "dataset_description": "",
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "LMLSTP3.4"
+    ]
+   },
+   "meta": "1 file \u00b7 14.5 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "14ddfb62-3115-531b-9baf-83cd4993b829",
+     "label": "JMGROUNDLMLSTP34_115.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 14848,
+     "meta": "14.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

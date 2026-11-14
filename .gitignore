@@ -2,3 +2,7 @@
 node_modules/
 .env
 __pycache__/
+
+# Downloaded NASA source data and research snapshots
+.gstack/
+.gstack/

@@ -1,0 +1,10 @@
+ID,Campaign,Subject,Test_Phase,BR_Day,Date,Test,Stage,Time (min),HR,VO2,VCO2,RER,VO2 (ml/kg/min),VE,FEO2,FECO2
+1,C3D,7961,PRE_TEST,7,1/23/2007,Pre Bed Rest Maximum Cycle,50 Watts,2.5,100,1.0,1.05,1.05,12.8,26.92,16.4,4.77
+2,C3D,7961,PRE_TEST,7,1/23/2007,Pre Bed Rest Maximum Cycle,50 Watts,3.0,104,1.18,1.22,1.03,15.1,30.93,16.3,4.8
+3,C3D,7961,PRE_TEST,7,1/23/2007,Pre Bed Rest Maximum Cycle,100 Watts,5.5,133,1.36,1.66,1.22,17.3,42.39,16.9,4.77
+4,C3D,7961,PRE_TEST,7,1/23/2007,Pre Bed Rest Maximum Cycle,100 Watts,6.0,136,1.62,2.02,1.24,20.7,53.19,17.07,4.62
+5,C3D,7961,PRE_TEST,7,1/23/2007,Pre Bed Rest Maximum Cycle,150 Watts,8.5,166,2.02,2.72,1.35,25.7,82.22,17.76,4.04
+6,C3D,7961,PRE_TEST,7,1/23/2007,Pre Bed Rest Maximum Cycle,150 Watts,9.0,170,2.06,2.75,1.33,26.3,86.88,17.87,3.87
+7,C3D,7961,PRE_TEST,7,1/23/2007,Pre Bed Rest Maximum Cycle,175 Watts,9.5,173,2.16,2.76,1.28,27.5,89.5,17.86,3.76
+8,C3D,7961,PRE_TEST,7,1/23/2007,Pre Bed Rest Maximum Cycle,Peak-30 sec,Watts,170,2.06,2.75,1.33,26.3,86.88,17.87,3.87
+9,C3D,7961,PRE_TEST,7,1/23/2007,Pre Bed Rest Maximum Cycle,Peak,NA,173,2.16,2.76,1.28,27.5,89.5,17.86,3.76

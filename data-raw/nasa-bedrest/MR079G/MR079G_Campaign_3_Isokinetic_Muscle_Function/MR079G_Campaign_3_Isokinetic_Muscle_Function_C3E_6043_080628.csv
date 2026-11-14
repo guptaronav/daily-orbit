@@ -1,0 +1,13 @@
+﻿ID,Campaign,Subject,Date,Test_Phase,BR_Day,Test,Position,Value,Units,Acceptable Range Lower Bound,Acceptable Range Upper Bound
+1,C3E,6043,6/28/2008,POST_TEST,12,Knee Concentric Strength,Extension at 60°/sec,123.4,ft-lb,30,250
+2,C3E,6043,6/28/2008,POST_TEST,12,Knee Concentric Strength,Flexion at 60°/sec,76.5,ft-lb,30,250
+3,C3E,6043,6/28/2008,POST_TEST,12,Knee Concentric Strength,Extension at 180°/sec,95.5,ft-lb,20,150
+4,C3E,6043,6/28/2008,POST_TEST,12,Knee Concentric Strength,Flexion at 180°/sec,62.4,ft-lb,20,150
+5,C3E,6043,6/28/2008,POST_TEST,12,Knee Concentric Endurance,Extension at 180°/sec,1114.1,ft-lb,500,3000
+6,C3E,6043,6/28/2008,POST_TEST,12,Knee Concentric Endurance,Flexion at 180°/sec,628.2,ft-lb,200,3000
+7,C3E,6043,6/28/2008,POST_TEST,12,Ankle Concentric Strength,Extension at 30°/sec,84.2,ft-lb,20,150
+8,C3E,6043,6/28/2008,POST_TEST,12,Ankle Concentric Strength,Flexion at 30°/sec,24.7,ft-lb,0,50
+9,C3E,6043,6/28/2008,POST_TEST,12,Ankle Eccentric Strength,Extension at 30°/sec,131,ft-lb,20,200
+10,C3E,6043,6/28/2008,POST_TEST,12,Ankle Eccentric Strength,Flexion at 30°/sec,38.3,ft-lb,10,100
+11,C3E,6043,6/28/2008,POST_TEST,12,Back Concentric Strength,Extension at 60°/sec,305.7,ft-lb,50,300
+12,C3E,6043,6/28/2008,POST_TEST,12,Back Concentric Strength,Flexion at 60°/sec,154.9,ft-lb,50,300

@@ -1,0 +1,424 @@
+{
+ "record": {
+  "id": "76fdda3f-aed5-5a62-b6fb-c9e64381bdd1",
+  "_id": "76fdda3f-aed5-5a62-b6fb-c9e64381bdd1",
+  "experiment_title": "Human Lymphocyte Locomotion in Microgravity",
+  "archive_status_index": 1,
+  "pub_document_number": "PUB001614",
+  "parameter_html": "<table><tr><td>Collagen</td></tr><tr><td>Immunocompetence</td></tr><tr><td>Lymphocytes</td></tr><tr></tr></table>",
+  "__source_key": "cl62ayhkjcd6101o681751aeq",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Spaulding, Glenn\">Principal Investigator: Spaulding, Glenn</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Goodwin, Thomas\">Principal Investigator: Goodwin, Thomas</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Goodwin, Thomas\">Co-Investigator: Goodwin, Thomas</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Spaulding, Glenn\">Co-Investigator: Spaulding, Glenn</a>",
+  "image_name": [
+   "Rotating Wall Vessel",
+   "Schematic Drawing of the Rotating Wall Vessel"
+  ],
+  "experiment_type_lk": [
+   "Shuttle Detailed Supplementary Objectives (DSO)"
+  ],
+  "__record_modified_date": "2026-08-23T03:48:14.388291+00:00",
+  "proposal_source": [
+   "N/A"
+  ],
+  "__indexed": "2026-08-23T03:48:14.388291+00:00",
+  "__record_creation_date": "2022-07-28T19:55:15.855Z",
+  "keyword": [
+   "Locomotion",
+   "Signal transduction",
+   "Lymphocytes"
+  ],
+  "keyword_name": "Lymphocytes",
+  "__record_size": 86338,
+  "__record_version": 28,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<br>\r\nUnderstanding the movement of white blood cells (leukocytes) is a vital step for cancer researchers to determine how to help lemphocytes penetrate tissue to kill tumors. This is important because the lymphocytes fight cancers and all types of infection by moving into the diseased area.  In the case of cancer, however; researchers have discovered that the closer a lymphocyte gets to a tumor, the more impaired its movement is.  \r\n<p>\r\nThe impact of long-term weightlessness on immunity has been revealed in extended manned space flights. This investigation (a) provided data which illuminates microgravity effects on locomotion and migration of human lymphocytes through an intercellular matrix, a function that is crucial to immunocompetence, (b) tested the adequacy of the Rotating Wall Vessel (RWV), a laboratory-based microgravity simulation environment developed by NASA, and (c) verified the Specimen Temperature Controller which is necessary to control the thermal environment of the living cells inflight. Analysis of in-flight data was performed in the Biotechnology Laboratory at Johnson Space Center.\r\n<p>\r\nAPPROACH:<br>\r\nIn single-phase microcarrier experiments, microcarriers were transferred to RWVs at a concentration of 200 microcarriers per 107 PBLs/100 ml c-RPMI culture volume. Controls were incubated at the same density in 24-well culture trays in stationary mode. In dual-phase microcarrier experiments, microcarriers were placed in RWVs at a concentration of 200 microcarriers/100 ml culture volume. Control cultures contained the same microcarrier-to-media density as their RWV counterparts. In a humidified, seven percent C0<sub>2</sub> incubator at 37\u00b0 C, RWV cultures were rotated at 14 rpm, whereas control cultures were incubated in 24-well culture trays in stationary mode. At 24-hour intervals, four to six microcarriers were removed from the RWV and from control cultures and transferred to tubes containing one percent paraformaldehyde fixative, and the locomotion distance was measured.\r\n<p>\r\nCell locomotion was defined as the distance between the microcarrier surface (single-phase microcarrier) or cell/collagen interface (dual-phase microcarrier) and the three leading-edge cells. This measurement was determined by fine focus microscopy using an inverted microscope with phase contrast (Nikon Diaphot, Japan). Using a predetermined calibration factor, this measurement was converted from fine focus units to locomotory distance in micrometers (gin). \r\n<p>\r\nRESULTS:<br>\r\nIn the randomized gravity of the rotating-wall vessel culture system, peripheral blood lymphocytes\r\ndid not locomote through Type I collagen, whereas static cultures supported normal movement. Although cells remained viable during the entire culture period, peripheral blood lymphocytes transferred to unit gravity (static culture) after 6 hours in the rotating-wall vessel culture system were slow to recover and locomote into collagen matrix. After 72 hours in the rotating-wall vessel culture system and an additional 72 hours in static culture, peripheral blood lymphocytes did not recover their ability to locomote. Loss of locomotory activity in rotating-wall vessel cultures appears to be related to changes in the activation state of the lymphocytes and the expression of adhesion molecules. Culture in the rotating-wall vessel system blunted the ability of peripheral blood lymphocytes to respond to polyclonal activation with phytohemagglutinin. Locomotory response remained intact when peripheral blood lymphocytes were activated by anti-CD3 antibody and interleukin-2 prior to introduction into the rotating-wall vessel culture system. Thus, in addition to the systemic stress factors that may affect immunity, isolated lymphocytes respond to gravitational changes by ceasing locomotion through model interstitium. These in vitro investigations suggest that microgravity induces non-stress-related changes in cell function that may be critical to immunity. Preliminary analysis of locomotion in true microgravity revealed a substantial inhibition of cellular movement in Type I collagen. Thus, the rotating-wall vessel culture system provides a model for analyzing the microgravity-induced inhibition of lymphocyte locomotion and the investigation of the mechanisms related to lymphocyte movement.\r\n<p>",
+  "payload_id": "DSO54",
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "DSO 322",
+  "indexed": "2026-08-23T03:48:14.388291+00:00",
+  "experiment_related": [
+   "DSO 316"
+  ],
+  "GUID": "cl62ayhkjcd6101o681751aeq",
+  "parameter_name": [
+   "Collagen",
+   "Immunocompetence",
+   "Lymphocytes"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 532,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Cell and molecular biology",
+   "Immunology"
+  ],
+  "pme_role_with_name": [
+   "Co-Investigator: Goodwin, Thomas",
+   "Co-Investigator: Spaulding, Glenn",
+   "Principal Investigator: Goodwin, Thomas",
+   "Principal Investigator: Spaulding, Glenn"
+  ],
+  "missions": [
+   [
+    [
+     "STS-54"
+    ]
+   ],
+   [
+    [
+     "STS-56"
+    ]
+   ],
+   [
+    [
+     "STS-62"
+    ]
+   ]
+  ],
+  "__dirid": "76fdda3f-aed5-5a62-b6fb-c9e64381bdd1",
+  "__record_size_wo_doccontent": 86338,
+  "PI": [
+   "Goodwin, Thomas",
+   "Spaulding, Glenn"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "DSO 322"
+  ],
+  "mission_id": [
+   [
+    [
+     "STS-54"
+    ]
+   ],
+   [
+    [
+     "STS-56"
+    ]
+   ],
+   [
+    [
+     "STS-62"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "PrincipalInvestigator": [
+   "Goodwin, Thomas",
+   "Spaulding, Glenn"
+  ],
+  "archive_status": "Data preservation is complete. All datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Shuttle Program",
+  "__source_field_concat": "PUB001614 DSO54 cl62ayhkjcd6101o681751aeq Lymphocytes  N/A Human Lymphocyte Locomotion in Microgravity DSO 322 Shuttle Program Data preservation is complete. All datasets are publicly available.",
+  "__icon_type": "",
+  "__description": "OBJECTIVES:<br>\r\nUnderstanding the movement of white blood cells (leukocytes) is a vital step for cancer researchers to determine how to help lemphocytes penetrate tissue to kill tumors. This is important because the lymphocytes fight cancers and all types of infection by moving into the diseased area.  In the case of cancer, however; researchers have discovered that the closer a lymphocyte gets to a tumor, the more impaired its movement is.  \r\n<p>\r\nThe impact of long-term weightlessness on immunity has been revealed in extended manned space flights. This investigation (a) provided data which illuminates microgravity effects on locomotion and migration of human lymphocytes through an intercellular matrix, a function that is crucial to immunocompetence, (b) tested the adequacy of the Rotating Wall Vessel (RWV), a laboratory-based microgravity simulation environment developed by NASA, and (c) verified the Specimen Temperature Controller which is necessary to control the thermal environment of the living cells inflight. Analysis of in-flight data was performed in the Biotechnology Laboratory at Johnson Space Center.\r\n<p>\r\nAPPROACH:<br>\r\nIn single-phase microcarrier experiments, microcarriers were transferred to RWVs at a concentration of 200 microcarriers per 107 PBLs/100 ml c-RPMI culture volume. Controls were incubated at the same density in 24-well culture trays in stationary mode. In dual-phase microcarrier experiments, microcarriers were placed in RWVs at a concentration of 200 microcarriers/100 ml culture volume. Control cultures contained the same microcarrier-to-media density as their RWV counterparts. In a humidified, seven percent C0<sub>2</sub> incubator at 37\u00b0 C, RWV cultures were rotated at 14 rpm, whereas control cultures were incubated in 24-well culture trays in stationary mode. At 24-hour intervals, four to six microcarriers were removed from the RWV and from control cultures and transferred to tubes containing one percent paraformaldehyde fixative, and the locomotion distance was measured.\r\n<p>\r\nCell locomotion was defined as the distance between the microcarrier surface (single-phase microcarrier) or cell/collagen interface (dual-phase microcarrier) and the three leading-edge cells. This measurement was determined by fine focus microscopy using an inverted microscope with phase contrast (Nikon Diaphot, Japan). Using a predetermined calibration factor, this measurement was converted from fine focus units to locomotory distance in micrometers (gin). \r\n<p>\r\nRESULTS:<br>\r\nIn the randomized gravity of the rotating-wall vessel culture system, peripheral blood lymphocytes\r\ndid not locomote through Type I collagen, whereas static cultures supported normal movement. Although cells remained viable during the entire culture period, peripheral blood lymphocytes transferred to unit gravity (static culture) after 6 hours in the rotating-wall vessel culture system were slow to recover and locomote into collagen matrix. After 72 hours in the rotating-wall vessel culture system and an additional 72 hours in static culture, peripheral blood lymphocytes did not recover their ability to locomote. Loss of locomotory activity in rotating-wall vessel cultures appears to be related to changes in the activation state of the lymphocytes and the expression of adhesion molecules. Culture in the rotating-wall vessel system blunted the ability of peripheral blood lymphocytes to respond to polyclonal activation with phytohemagglutinin. Locomotory response remained intact when peripheral blood lymphocytes were activated by anti-CD3 antibody and interleukin-2 prior to introduction into the rotating-wall vessel culture system. Thus, in addition to the systemic stress factors that may affect immunity, isolated lymphocytes respond to gravitational changes by ceasing locomotion through model interstitium. These in vitro investigations suggest that microgravity induces non-stress-related changes in cell function that may be critical to immunity. Preliminary analysis of locomotion in true microgravity revealed a substantial inhibition of cellular movement in Type I collagen. Thus, the rotating-wall vessel culture system provides a model for analyzing the microgravity-induced inhibition of lymphocyte locomotion and the investigation of the mechanisms related to lymphocyte movement.\r\n<p>",
+  "__doi": "10.83263/6xer-sd55",
+  "__doi_record_creation_date": "2026-08-23T03:48:14",
+  "__doi_record_modified_date": "2026-08-23T03:48:14"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001081",
+   "label": "JMDSO_322_4",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Survival of Lymphocytes",
+    "dataset_catalog": "JMDSO_322_4",
+    "dataset_description": [
+     "This graph depicts survival of lymphocytes in the rotating-wall vessel (RWV). The RWV was set up with 1 X 10<sup>6</sup> lymphocytes per ml and then incubated for 9 days. Control cultures at the same density were prepared in 24-well culture trays. Daily samples were obtained and cell counts and Trypan Blue exclusion assays performed. Data are presented as number of viable cells/ml of culture.\r\n<p>\r\nSource: Unpublished data."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 322"
+    ]
+   },
+   "meta": "2 files \u00b7 97.4 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "7b0238a7-17ba-5116-88d0-aa6b0f0c6306",
+     "label": "JMDSO_322_4.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 49869,
+     "meta": "48.7 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f8fc6798-68b4-512b-b7a8-9b1af8228e34",
+     "label": "JMDSO_322_4.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 49869,
+     "meta": "48.7 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001343",
+   "label": "JMDSO_322_8",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Adhesion Molecules",
+    "dataset_catalog": "JMDSO_322_8",
+    "dataset_description": [
+     "This Excel file shows the flow cytometric analysis of the expression of selected adhesion molecules on the surface of peripheral blood lymphocytes (PBLs) harvested after 48 hours of culture in conventional flasks and in the rotating-wall vessel (RWV).\r\n<p>\r\nSource: Unpublished data."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 322"
+    ]
+   },
+   "meta": "2 files \u00b7 48.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "fef12009-7bf1-5467-9e4a-0edb80f17b99",
+     "label": "JMDSO_322_8.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 24576,
+     "meta": "24.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f1fd6d1c-adee-555c-aad1-10c93769f08a",
+     "label": "JMDSO_322_8.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 24576,
+     "meta": "24.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000141",
+   "label": "JMDSO_322_7",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Cell Activation",
+    "dataset_catalog": "JMDSO_322_7",
+    "dataset_description": [
+     "This graph depicts the effect of cell activation prior to rotating-wall vessel (RWV) culture on peripheral blood lymphocyte (PBL) locomotion. PBLs were cultured in c-RPMI with 1 \u00b5g/ml anti-CD3 and 200 U/ml interleukin-2 for 10 days at 37\u00b0 C. Cells were then cultured in static flasks or RWVs for an additional 48 hours. PBL locomotion assayed thereafter and compared with locomotion of non-activated lymphocytes. Data are presented as mean locomotory distance (\u00b5m) \u00b1 standard error of the mean (SEM).\r\n<p>\r\nSource: Unpublished data."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 322"
+    ]
+   },
+   "meta": "2 files \u00b7 96.2 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "7ee56a39-2ea1-5881-928a-61c34ac9d797",
+     "label": "JMDSO_322_7.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 49254,
+     "meta": "48.1 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7606e3bf-bb88-51ef-85e2-7fac9acc803c",
+     "label": "JMDSO_322_7.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 49254,
+     "meta": "48.1 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000894",
+   "label": "JMDSO_322_6",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Response of Rotating-Wall Vessel (RWV)",
+    "dataset_catalog": "JMDSO_322_6",
+    "dataset_description": [
+     "This graph depicts a response of rotating-wall vessel (RWV) cultured peripheral blood lymphocytes (PBL) to MTT. After 0, 4, or 7 days in static control or RWV culture, the ability of PBLs (1 \u00d7 10<sup>5</sup>/well) to convert MTT was measured by spectrophotometric absorbance at 570 nm.\r\n<p>\r\nSource: Unpublished data."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 322"
+    ]
+   },
+   "meta": "2 files \u00b7 99.4 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "3d498a92-bfcb-522f-b033-be1dde8fc931",
+     "label": "JMDSO_322_6.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 50893,
+     "meta": "49.7 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "99012472-acdc-5200-8392-de37dd06f2ef",
+     "label": "JMDSO_322_6.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 50893,
+     "meta": "49.7 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000304",
+   "label": "JMDSO_322_3",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Arrested Locomotion",
+    "dataset_catalog": "JMDSO_322_3",
+    "dataset_description": [
+     "This graph depicts arrested locomotion in randomized gravity. Two hundred microcarriers suspended in 100 ml of medium in the rotating-wall vessel (RWV) were incubated at 37\u00b0 C for 5 days. Control microcarriers were incubated under the same conditions but in stationary culture in 24-well culture trays. At 24-hour intervals, four to six microcarriers were removed and transferred to 1% paraformaldehyde fixative and the locomotory distance estimated as described. Data are presented as mean locomotory distance (\u00b5m) \u00b1 standard error of the mean (SEM).\r\n<p>\r\nSource: Unpublished data."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 322"
+    ]
+   },
+   "meta": "2 files \u00b7 104.2 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "46a530bc-c314-504e-ba72-a7d1c2846c82",
+     "label": "JMDSO_322_3.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 53350,
+     "meta": "52.1 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "91e86421-4c06-5af2-bbda-abc0d49279c5",
+     "label": "JMDSO_322_3.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 53350,
+     "meta": "52.1 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001342",
+   "label": "JMDSO_322_1",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Rotating-Wall Vessel (RWV) Conditions",
+    "dataset_catalog": "JMDSO_322_1",
+    "dataset_description": [
+     "This graph depicts how rotating-wall vessel (RWV) conditions permit attachment of lymphocytes to single-phase collagen beads but do not support locomotion. Single-phase collagen microcarriers (200 microcarriers/100 ml culture) were incubated with 10<sup>7</sup> per ml lymphocyte suspension in the RWV. Controls were incubated at the same density in 24-well culture trays in stationary mode. At 24-hour intervals, samples were fixed and analyzed for depth of locomotion into the microcarrier. Data are presented as mean locomotory distance (\u00b5m) \u00b1 standard error of the mean (SEM).\r\n<p>\r\nSource: Unpublished data."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 322"
+    ]
+   },
+   "meta": "2 files \u00b7 94.2 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "13d876ff-7427-59c6-8eb4-9a922f4c6872",
+     "label": "JMDSO_322_1.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 48230,
+     "meta": "47.1 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2cc7d0ac-5ab9-5d91-85fd-f348695220ba",
+     "label": "JMDSO_322_1.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 48230,
+     "meta": "47.1 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001780",
+   "label": "JMDSO_322_2",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Lymphocyte Activity",
+    "dataset_catalog": "JMDSO_322_2",
+    "dataset_description": [
+     "This schematic drawing depicts lymphocyte locomotory activity in biphasic microcarriers. In randomized and uniform gravity, 5 \u00d7 10<sup>5</sup> lymphocytes were introduced at the interface of biphasic microcarriers. At 24 hours, lymphocytes at uniform g have locomoted through the matrix and are visible at more than 500 \u00b5m from the interface. In contrast, the carriers obtained from the rotating-wall vessel (RWV) showed little evidence of locomotion.\r\n<p>\r\nSource: Unpublished data."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 322"
+    ]
+   },
+   "meta": "2 files \u00b7 234.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "afdfc29d-6fd5-5d39-a654-109ecbf0cb13",
+     "label": "JMDSO_322_2.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 119808,
+     "meta": "117.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "22d32b9d-40e4-5d8f-9cc3-22507428620d",
+     "label": "JMDSO_322_2.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 119808,
+     "meta": "117.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

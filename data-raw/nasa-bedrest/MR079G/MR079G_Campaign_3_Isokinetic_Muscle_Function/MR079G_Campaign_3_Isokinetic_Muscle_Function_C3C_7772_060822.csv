@@ -1,0 +1,13 @@
+﻿ID,Campaign,Subject,Date,Test_Phase,BR_Day,Test,Position,Value,Units,Acceptable Range Lower Bound,Acceptable Range Upper Bound,Comments
+1,C3C,7772,8/22/2006,POST_TEST,2,Knee Concentric Strength,Extension at 60°/sec,51,ft-lb,30,250,NA
+2,C3C,7772,8/22/2006,POST_TEST,2,Knee Concentric Strength,Extension at 180°/sec,37.2,ft-lb,30,250,NA
+3,C3C,7772,8/22/2006,POST_TEST,2,Knee Concentric Strength,Flexion at 60°/sec,30.2,ft-lb,20,150,NA
+4,C3C,7772,8/22/2006,POST_TEST,2,Knee Concentric Strength,Flexion at 180°/sec,25.2,ft-lb,20,150,NA
+5,C3C,7772,8/22/2006,POST_TEST,2,Knee Concentric Endurance,Extension at 180°/sec,454.7,ft-lb,500,3000,NA
+6,C3C,7772,8/22/2006,POST_TEST,2,Knee Concentric Endurance,Flexion at 180°/sec,288,ft-lb,200,3000,NA
+7,C3C,7772,8/22/2006,POST_TEST,2,Ankle Concentric Strength,Extension at 30°/sec,39.5,ft-lb,20,150,NA
+8,C3C,7772,8/22/2006,POST_TEST,2,Ankle Concentric Strength,Flexion at 30°/sec,14.1,ft-lb,0,50,NA
+9,C3C,7772,8/22/2006,POST_TEST,2,Ankle Eccentric Strength,Extension at 30°/sec,46.8,ft-lb,20,200,NA
+10,C3C,7772,8/22/2006,POST_TEST,2,Ankle Eccentric Strength,Flexion at 30°/sec,24.3,ft-lb,10,100,NA
+11,C3C,7772,8/22/2006,POST_TEST,2,Back Concentric Strength,Extension at 60°/sec,NA,ft-lb,50,300,Subject too short for the trunk attachment
+12,C3C,7772,8/22/2006,POST_TEST,2,Back Concentric Strength,Flexion at 60°/sec,NA,ft-lb,50,300,Subject too short for the trunk attachment

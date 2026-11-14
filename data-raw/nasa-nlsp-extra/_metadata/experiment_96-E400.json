@@ -1,0 +1,628 @@
+{
+ "record": {
+  "id": "1f07b471-262c-5f9d-b61e-9af95051f8d8",
+  "_id": "1f07b471-262c-5f9d-b61e-9af95051f8d8",
+  "experiment_title": "Effect of Prolonged Space Flight on Human Skeletal Muscle",
+  "pub_document_number": "PUB001602",
+  "experiment_alias": [
+   "E400",
+   "Biopsy"
+  ],
+  "parameter_html": "<table><tr><td>Abdominals</td></tr><tr><td>Actin filament density</td></tr><tr><td>Aerobic duration</td></tr><tr><td>Aerobic frequency</td></tr><tr><td>Aft (pounds)</td></tr><tr><td>Alanine</td></tr><tr><td>Alcohol</td></tr><tr><td>Animal protein</td></tr><tr><td>Ankle range of motion</td></tr><tr><td>Arginine</td></tr><tr><td>Ash</td></tr><tr><td>Aspartame</td></tr><tr><td>Aspartic acid</td></tr><tr><td>Biochanin A</td></tr><tr><td>Body mass</td></tr><tr><td>Bungee</td></tr><tr><td>Caffeine</td></tr><tr><td>Calcium</td></tr><tr><td>Calf MRI</td></tr><tr><td>Calf volume</td></tr><tr><td>Cholesterol</td></tr><tr><td>Clips</td></tr><tr><td>Copper</td></tr><tr><td>Coumestrol</td></tr><tr><td>Curls</td></tr><tr><td>Cystine</td></tr><tr><td>Distance</td></tr><tr><td>Duration</td></tr><tr><td>Dystrophin-dystroglycan complex</td></tr><tr><td>Energy</td></tr><tr><td>Fiber cross-bridge stiffness</td></tr><tr><td>Fiber size</td></tr><tr><td>Fore (pounds)</td></tr><tr><td>Formononetin</td></tr><tr><td>Fructose</td></tr><tr><td>Galactose</td></tr><tr><td>Gastrocnemius muscle</td></tr><tr><td>Genistein</td></tr><tr><td>Glucose</td></tr><tr><td>Glutamic acid</td></tr><tr><td>Glycine</td></tr><tr><td>Glycitein</td></tr><tr><td>Height</td></tr><tr><td>Hill peak power</td></tr><tr><td>Histidine</td></tr><tr><td>Iron</td></tr><tr><td>Isokinetic peak torque</td></tr><tr><td>Isokinetic performance</td></tr><tr><td>Isoleucine</td></tr><tr><td>Isometric peak torque</td></tr><tr><td>Knee extension</td></tr><tr><td>Knee flexion</td></tr><tr><td>Lactose</td></tr><tr><td>Leucine</td></tr><tr><td>Linear peak power</td></tr><tr><td>Linear relative peak power</td></tr><tr><td>Lysine</td></tr><tr><td>Magnesium</td></tr><tr><td>Maltose</td></tr><tr><td>Mass</td></tr><tr><td>Methionine</td></tr><tr><td>Muscle fatigability</td></tr><tr><td>Muscle force</td></tr><tr><td>Muscle velocity</td></tr><tr><td>Muscle volume</td></tr><tr><td>Myosin filament density</td></tr><tr><td>Neck</td></tr><tr><td>Niacin</td></tr><tr><td>Organelle distribution</td></tr><tr><td>Oxalic acid</td></tr><tr><td>Pantothenic acid</td></tr><tr><td>Peak force</td></tr><tr><td>Peak power</td></tr><tr><td>Peak velocity</td></tr><tr><td>Pectins</td></tr><tr><td>Percent change</td></tr><tr><td>Phenylalanine</td></tr><tr><td>Phosphorus</td></tr><tr><td>Phytic acid</td></tr><tr><td>Potassium</td></tr><tr><td>Proline</td></tr><tr><td>Pullups</td></tr><tr><td>Retinol</td></tr><tr><td>Riboflavin</td></tr><tr><td>Saccharin</td></tr><tr><td>Selenium</td></tr><tr><td>Serine</td></tr><tr><td>Sodium</td></tr><tr><td>Soleus muscle</td></tr><tr><td>Speed</td></tr><tr><td>Squats</td></tr><tr><td>Starch</td></tr><tr><td>Sucrose</td></tr><tr><td>Threonine</td></tr><tr><td>Time</td></tr><tr><td>Total carbohydrate</td></tr><tr><td>Total fiber</td></tr><tr><td>Total folate</td></tr><tr><td>Total sugar</td></tr><tr><td>Treadmill exercise time</td></tr><tr><td>Tryptophan</td></tr><tr><td>Tyrosine</td></tr><tr><td>Valine</td></tr><tr><td>Vitamin A</td></tr><tr><td>Vitamin C</td></tr><tr><td>Vitamin D</td></tr><tr><td>Vitamin K</td></tr><tr><td>Volume (CM)</td></tr><tr><td>Volume (pounds)</td></tr><tr><td>Water</td></tr><tr><td>Watts</td></tr><tr><td>Weight</td></tr><tr><td>Zinc</td></tr><tr><td>Bench press</td></tr><tr><td>Bent-over row</td></tr><tr><td>Beta-tocopherol</td></tr><tr><td>Beta-hydroxyacyl-CoA dehydrogenase (BOAC) enzyme</td></tr><tr><td>Cross-overs</td></tr><tr><td>Citrate synthase (CS)</td></tr><tr><td>Daidzein</td></tr><tr><td>Deadlift</td></tr><tr><td>Delta-tocopherol</td></tr><tr><td>Muscle fiber, ATPase</td></tr><tr><td>Enzymes, muscle fiber</td></tr><tr><td>Fiber, force velocity</td></tr><tr><td>Muscle fiber, isozyme content</td></tr><tr><td>Fiber, maximum shortening speed</td></tr><tr><td>Myosin heavy chain (MHC), muscle fiber</td></tr><tr><td>Myosin light chain (MLC), muscle fiber</td></tr><tr><td>Fiber, pCa-force</td></tr><tr><td>Muscle fiber, peak rate of tension development</td></tr><tr><td>Fiber, peak tension</td></tr><tr><td>Muscle fiber, substrate profile</td></tr><tr><td>Gamma-tocopherol</td></tr><tr><td>Heel raises</td></tr><tr><td>Hip abduction</td></tr><tr><td>Hip adduction</td></tr><tr><td>Hip extension</td></tr><tr><td>Hip flexion</td></tr><tr><td>Knee raises</td></tr><tr><td>Lactate dehydrogenase (LDH)</td></tr><tr><td>Manganese</td></tr><tr><td>Maximal voluntary contraction (MVC)</td></tr><tr><td>Magnetic resonance imaging (MRI), calf</td></tr><tr><td>Muscle, force vs. velocity characteristics</td></tr><tr><td>Omega-3 fatty acids</td></tr><tr><td>Phosphofructokinase (PFK)</td></tr><tr><td>Stretch-induced damage</td></tr><tr><td>Thiamine</td></tr><tr><td>Torque Velocity Dynamometer (TVD), performance</td></tr><tr><td>Exercise time, total</td></tr><tr><td>Fat, total</td></tr><tr><td>Protein, total</td></tr><tr><td>Upright row</td></tr><tr><td>Vitamin B12</td></tr><tr><td>Vitamin B6</td></tr><tr><td>Wall sits</td></tr><tr></tr></table>",
+  "__source_key": "cl62axvcrcd0s01o62vew9yga",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Fitts, Robert\">Principal Investigator: Fitts, Robert</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Costill, David\">Co-Investigator: Costill, David</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Riley, Danny\">Co-Investigator: Riley, Danny</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Trappe, Scott\">Co-Investigator: Trappe, Scott</a>",
+  "image_name": [
+   "ATPase Capillary Stain",
+   "Interim Resistive Exercise Device (IRED)",
+   "MRI Machine",
+   "Muscle Fibers",
+   "Single Muscle Fiber"
+  ],
+  "keyword": [
+   "Muscle fibers, slow-twitch",
+   "Myosin",
+   "Actins",
+   "Muscle, skeletal",
+   "Muscle fibers",
+   "Muscle fibers, fast-twitch"
+  ],
+  "keyword_name": "Muscle fibers, fast-twitch",
+  "__record_version": 30,
+  "experiment_description": "OBJECTIVES:<br>\r\nWith humans currently occupying the International Space Station (ISS) for six months and space exploration missions of one to three years on the horizon, preservation of crewmember health and fitness is a major objective of the international space community. Exercise has been the primary utility used by the space agencies in an effort to protect cardiovascular, bone, and skeletal muscle health while in space for extended stays. \r\n<p>\r\nThe aim of this study was to document the exercise program used by crewmembers aboard the ISS and examine its effectiveness for preserving skeletal muscle size and function. The focus of the study was on the calf muscles, since it has shown to atrophy more than other leg and upper body muscles with unloading. To obtain a comprehensive profile of skeletal muscle before and after flight, the investigators utilized magnetic resonance imaging (MRI) to assess muscle volume, static and dynamic muscle testing to assess muscle performance, and muscle biopsies from the gastrocnemius and soleus to assess fiber type, contractile function, and microanatomy.\r\n<p>\r\nAPPROACH:<br>\r\nTen crewmembers participated in this investigation. The subject population consisted of American astronauts and Russian cosmonauts. During the six months the crewmembers were on the ISS, they had access to a treadmill (treadmill with vibration isolation system), two bicycle ergometers (cycle ergometer with vibration isolation system and a Velosiped, i.e., Russian bicycle exercise device), and an interim resistive exercise device (iRED). The crewmembers also had access to bungee cords, which they could use to provide resistance-type exercise for various muscle groups. \r\n<p>\r\nTo determine muscle volume of the calf muscle, a MRI was performed on crewmembers 40 \u00b1 3 (L - 40) days before launch and 4 \u00b1 1 (R + 4) days after returning from the ISS. An additional MRI was obtained on each crewmember 19 \u00b1 2 (R + 19) days after returning from space. All preflight MRI scans were conducted in Clear Lake, TX, and all postflight (R + 4) MRI scans were conducted in Moscow, Russia.\r\n<p>\r\nMaximal voluntary contraction and isokinetic strength of the left leg calf muscles was assessed using a torque velocity dynamometer. Each crewmember performed two familiarization sessions before preflight trials. Before launch, each crewmember performed four complete testing sessions over a four-month period (L - 127 \u00b1 13, L - 87 \u00b1 13, L - 40 \u00b1 4, and L - 27 \u00b1 1). Postflight, torque-velocity dynamometer measurements were obtained at R + 7 and R + 13 for all subjects.\r\n<p>\r\nA muscle biopsy was obtained from the lateral head of the gastrocnemius and soleus muscle of each crewmember before launch (L - 55 \u00b1 2) and on landing day (R + 0). The landing day muscle biopsy was generally performed mid to late afternoon approximately six to eight hours after landing. Crewmembers were transported to the main medical operations facilities for observation. After a period of personal activities the crewmembers were brought to the data collection facility for the muscle biopsies. Crewmembers had performed very light ambulatory activities before the muscle biopsy procedure.\r\n<p>\r\nDuring flight, consumption of food and fluid was monitored according to the same schedule, but subjects used an automated bar code scanning system in which each individually packaged food item was labeled. The in-flight diet was designed to meet the nutritional requirements for ISS missions as established by NASA and the Russian Space Agency. Neither diet nor activity levels were restricted during any of the sampling periods. In-flight consumption data were stored in the bar code reader and downloaded to the ground.\r\n<p>\r\nRESULTS:<br>\r\n<i>Exercise Training Profile</i><br>\r\nOn average, subjects completed 138 \u00b1 26 minutes per week of cycle exercise that generally ranged between 100 and 150 Watts (W). While in orbit, crewmembers used the cycle ergometer approximately 60% of mission days. Four of the crewmembers used the cycle ergometer approximately 81% or more of mission days, whereas four others averaged approximately 37% of mission days, and one crewmember did minimal cycling. For the treadmill exercise, subjects averaged 146 \u00b1 34 minutes per week on a level grade at a speed ranging from 2.1 to 5.5 miles per hour.  The treadmill appeared to be used less frequently compared with the cycle ergometer, accounting for less than 50% of total mission days.  However, there was a wide range of treadmill use, with four crewmembers having a high volume (200 minutes per week) of walking/running activities.  The other five crewmembers used the treadmill much less (85 minutes per week).\r\n<p>\r\n<i>Muscle Volume</i><br>\r\nThe gastrocnemius (medial and lateral) and soleus muscle were smaller (P < 0.05) after six months in space. Combined, the gastrocnemius and soleus atrophied (P < 0.05) - 13 \u00b1 2% pre- to postflight. The soleus (- 15 \u00b1 2%) atrophied more (P < 0.05) than the gastrocnemius (- 10 \u00b1 2%) pre- to postflight. One crewmember had insignificant (- 1%) atrophy after the flight. Two of the crewmembers lost more than 20% of their calf muscle mass. Of the remaining six crewmembers, five lost more than 10% calf muscle mass. At R + 19 after landing, the gastrocnemius was still five to six percent atrophied, but this was not significant. Conversely, the soleus was still reduced (P < 0.05) compared with preflight, averaging - 9 \u00b1 1% for all crewmembers. Although calf muscle volume was still reduced - 8 \u00b1 2%, it represented a partial recovery from the more immediate (R + 4) flight measurement.\r\n<p>\r\n<i>Muscle Performance</i><br>\r\nMVC was reduced (P < 0.05) -14 \u00b1 2% at R + 7 and remained lower (- 13 \u00b1 5%; P < 0.05) at R + 13. All nine crewmembers had a decline in MVC (range = - 7 to \u00b1 22%) with flight. At R + 13, seven of the nine crewmembers were lower (range = -9 to \u00b1 33%), with two crewmembers having a 5\u201310% increase compared with preflight. At the slow isokinetic speed (60\u00b0 per second) there was a -20 \u00b1  3% loss (P < 0.05), which was sustained (- 19 \u00b1  4; P < 0.05) at R + 13. This pattern was also evident at the faster (180\u00b0 per second) isokinetic speed with a 25 \u00b1 10% reduction at R + 7 and R + 13. For both the slow and fast speeds, eight of the nine subjects had a decrease in muscle performance.  On average, force-velocity characteristics were reduced - 20 to - 29% across the velocity spectrum (P < 0.05). Peak power was 134 \u00b1 11, 91 \u00b1 10, and 94 \u00b1 13 W preflight, R + 7, and R + 13, respectively. On average, peak power declined 32% with spaceflight (P < 0.05).\r\n<p>\r\n<i>Muscle Fiber Type</i><br>\r\nThe investigators isolated and analyzed the MHC profile on a total of 4,328 single muscle fibers from the gastrocnemius and soleus muscles before and after flight. The breakdown was 1,960 muscle fibers for the gastrocnemius and 2,368 muscle fibers for the soleus. The gastrocnemius had a 12% decrease (P < 0.05) in MHC I fibers and an increase (P < 0.05) in MHC I/IIa (+ 4%) hybrid fibers and MHC IIa fibers (+ 9%). Seven of the eight subjects had a decrease in MHC I fibers (range = - 6 to - 31%). There were minimal MHC IIx and MHC I/IIa/IIx fibers detected in the pre- and postflight muscle samples. The four percent increase in hybrid muscle fibers appears to be the result of the MHC I/IIa hybrid fiber type.  On average, the soleus had a 17% decrease (P < 0.05) in MHC I fibers. The shift away from MHC I fibers was distributed among the other fiber types (MHC I/IIa, IIa, IIa/IIx), with a non-significant increase of four to five percent within each MHC phenotype. Combined, the soleus had a 12% increase (P < 0.05) in hybrid MHC isoforms. Three of the crewmembers did not have any major alterations in fiber type of the soleus. Four of the crewmembers had a decrease in soleus MHC I fibers that ranged from - 20 to - 44%.\r\n<p>\r\n<i>Nutrition</i><br>\r\nCrewmembers had a daily average caloric intake of 2,377 \u00b1 118 kcal (range = 1,874 \u20132,902 kcal). The dietary percent breakdown of carbohydrate, fat, and protein was 48, 33, and 18%, respectively.\r\n<p>\r\nThe average amount of muscle mass lost (- 13%) with space flight was slightly less than with previous long-duration stays on the Russian Space Station Mir (- 17%). The current ISS and previous Mir calf muscle volume loss is about one-half that of long-duration (60- to 120-day) bed rest studies showing a - 29% decrease among the control subjects without countermeasures. These data imply that the exercise in space is having a beneficial effect but is not complete, with the soleus being more difficult to protect than the gastrocnemius.\r\n<p>\r\nFor more detailed results please refer to the PubMed article, Exercise In Space, which is freely available via PubMed's website or at the Journal of Applied Physiology's website, http://jap.physiology.org/.",
+  "indexed": "2026-08-23T03:57:42.408475+00:00",
+  "GUID": "cl62axvcrcd0s01o62vew9yga",
+  "__model_type": "lsda_experiment",
+  "__dirid": "1f07b471-262c-5f9d-b61e-9af95051f8d8",
+  "__record_size_wo_doccontent": 208831,
+  "__update_method": "Update CDM",
+  "archive_status_index": 2,
+  "experiment_type_lk": [
+   "International Space Station (ISS)",
+   "Non-exercise Physiological Countermeasure (NxPCM) Project"
+  ],
+  "__record_modified_date": "2026-08-23T03:57:42.408475+00:00",
+  "proposal_source": [
+   "NRA-96-OLMSA-04"
+  ],
+  "__indexed": "2026-08-23T03:57:42.408475+00:00",
+  "alias": [
+   "E400",
+   "Biopsy"
+  ],
+  "__record_creation_date": "2022-07-28T20:06:21.242Z",
+  "__record_size": 208831,
+  "__model_version": 60,
+  "payload_id": "HRF5",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "96-E400",
+  "experiment_related": [
+   "8913020"
+  ],
+  "parameter_name": [
+   "Abdominals",
+   "Actin filament density",
+   "Aerobic duration",
+   "Aerobic frequency",
+   "Aft (pounds)",
+   "Alanine",
+   "Alcohol",
+   "Animal protein",
+   "Ankle range of motion",
+   "Arginine",
+   "Ash",
+   "Aspartame",
+   "Aspartic acid",
+   "Biochanin A",
+   "Body mass",
+   "Bungee",
+   "Caffeine",
+   "Calcium",
+   "Calf MRI",
+   "Calf volume",
+   "Cholesterol",
+   "Clips",
+   "Copper",
+   "Coumestrol",
+   "Curls",
+   "Cystine",
+   "Distance",
+   "Duration",
+   "Dystrophin-dystroglycan complex",
+   "Energy",
+   "Fiber cross-bridge stiffness",
+   "Fiber size",
+   "Fore (pounds)",
+   "Formononetin",
+   "Fructose",
+   "Galactose",
+   "Gastrocnemius muscle",
+   "Genistein",
+   "Glucose",
+   "Glutamic acid",
+   "Glycine",
+   "Glycitein",
+   "Height",
+   "Hill peak power",
+   "Histidine",
+   "Iron",
+   "Isokinetic peak torque",
+   "Isokinetic performance",
+   "Isoleucine",
+   "Isometric peak torque",
+   "Knee extension",
+   "Knee flexion",
+   "Lactose",
+   "Leucine",
+   "Linear peak power",
+   "Linear relative peak power",
+   "Lysine",
+   "Magnesium",
+   "Maltose",
+   "Mass",
+   "Methionine",
+   "Muscle fatigability",
+   "Muscle force",
+   "Muscle velocity",
+   "Muscle volume",
+   "Myosin filament density",
+   "Neck",
+   "Niacin",
+   "Organelle distribution",
+   "Oxalic acid",
+   "Pantothenic acid",
+   "Peak force",
+   "Peak power",
+   "Peak velocity",
+   "Pectins",
+   "Percent change",
+   "Phenylalanine",
+   "Phosphorus",
+   "Phytic acid",
+   "Potassium",
+   "Proline",
+   "Pullups",
+   "Retinol",
+   "Riboflavin",
+   "Saccharin",
+   "Selenium",
+   "Serine",
+   "Sodium",
+   "Soleus muscle",
+   "Speed",
+   "Squats",
+   "Starch",
+   "Sucrose",
+   "Threonine",
+   "Time",
+   "Total carbohydrate",
+   "Total fiber",
+   "Total folate",
+   "Total sugar",
+   "Treadmill exercise time",
+   "Tryptophan",
+   "Tyrosine",
+   "Valine",
+   "Vitamin A",
+   "Vitamin C",
+   "Vitamin D",
+   "Vitamin K",
+   "Volume (CM)",
+   "Volume (pounds)",
+   "Water",
+   "Watts",
+   "Weight",
+   "Zinc",
+   "Bench press",
+   "Bent-over row",
+   "Beta-tocopherol",
+   "Beta-hydroxyacyl-CoA dehydrogenase (BOAC) enzyme",
+   "Cross-overs",
+   "Citrate synthase (CS)",
+   "Daidzein",
+   "Deadlift",
+   "Delta-tocopherol",
+   "Muscle fiber, ATPase",
+   "Enzymes, muscle fiber",
+   "Fiber, force velocity",
+   "Muscle fiber, isozyme content",
+   "Fiber, maximum shortening speed",
+   "Myosin heavy chain (MHC), muscle fiber",
+   "Myosin light chain (MLC), muscle fiber",
+   "Fiber, pCa-force",
+   "Muscle fiber, peak rate of tension development",
+   "Fiber, peak tension",
+   "Muscle fiber, substrate profile",
+   "Gamma-tocopherol",
+   "Heel raises",
+   "Hip abduction",
+   "Hip adduction",
+   "Hip extension",
+   "Hip flexion",
+   "Knee raises",
+   "Lactate dehydrogenase (LDH)",
+   "Manganese",
+   "Maximal voluntary contraction (MVC)",
+   "Magnetic resonance imaging (MRI), calf",
+   "Muscle, force vs. velocity characteristics",
+   "Omega-3 fatty acids",
+   "Phosphofructokinase (PFK)",
+   "Stretch-induced damage",
+   "Thiamine",
+   "Torque Velocity Dynamometer (TVD), performance",
+   "Exercise time, total",
+   "Fat, total",
+   "Protein, total",
+   "Upright row",
+   "Vitamin B12",
+   "Vitamin B6",
+   "Wall sits"
+  ],
+  "payload_part": "Expedition 5",
+  "exp_index": 909,
+  "research_area": [
+   "Muscle physiology",
+   "Exercise physiology"
+  ],
+  "pme_role_with_name": [
+   "Astronaut: Lu, Edward",
+   "Co-Investigator: Costill, David",
+   "Co-Investigator: Riley, Danny",
+   "Co-Investigator: Trappe, Scott",
+   "Principal Investigator: Fitts, Robert"
+  ],
+  "missions": [
+   [
+    [
+     "Expedition 5"
+    ]
+   ],
+   [
+    [
+     "Expedition 6"
+    ]
+   ],
+   [
+    [
+     "Expedition 7"
+    ]
+   ],
+   [
+    [
+     "Expedition 9"
+    ]
+   ],
+   [
+    [
+     "Expedition 10"
+    ]
+   ],
+   [
+    [
+     "Expedition 11"
+    ]
+   ]
+  ],
+  "PI": [
+   "Fitts, Robert"
+  ],
+  "_file_extension": [],
+  "experiment_identifier": [
+   "96-E400",
+   "E400",
+   "Biopsy"
+  ],
+  "mission_id": [
+   [
+    [
+     "Expedition 5"
+    ]
+   ],
+   [
+    [
+     "Expedition 6"
+    ]
+   ],
+   [
+    [
+     "Expedition 7"
+    ]
+   ],
+   [
+    [
+     "Expedition 9"
+    ]
+   ],
+   [
+    [
+     "Expedition 10"
+    ]
+   ],
+   [
+    [
+     "Expedition 11"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "proposal_date": [
+   "10/01/1998"
+  ],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Fitts, Robert"
+  ],
+  "archive_status": "Data preservation is complete. Privacy-protected datasets are available via data request. Remaining datasets are publicly available.",
+  "__is_locked": false,
+  "Program": "International Space Station (ISS)",
+  "__source_field_concat": "PUB001602 HRF5 cl62axvcrcd0s01o62vew9yga Muscle fibers, fast-twitch Expedition 5 Effect of Prolonged Space Flight on Human Skeletal Muscle 96-E400 International Space Station (ISS)",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<br>\r\nWith humans currently occupying the International Space Station (ISS) for six months and space exploration missions of one to three years on the horizon, preservation of crewmember health and fitness is a major objective of the international space community. Exercise has been the primary utility used by the space agencies in an effort to protect cardiovascular, bone, and skeletal muscle health while in space for extended stays. \r\n<p>\r\nThe aim of this study was to document the exercise program used by crewmembers aboard the ISS and examine its effectiveness for preserving skeletal muscle size and function. The focus of the study was on the calf muscles, since it has shown to atrophy more than other leg and upper body muscles with unloading. To obtain a comprehensive profile of skeletal muscle before and after flight, the investigators utilized magnetic resonance imaging (MRI) to assess muscle volume, static and dynamic muscle testing to assess muscle performance, and muscle biopsies from the gastrocnemius and soleus to assess fiber type, contractile function, and microanatomy.\r\n<p>\r\nAPPROACH:<br>\r\nTen crewmembers participated in this investigation. The subject population consisted of American astronauts and Russian cosmonauts. During the six months the crewmembers were on the ISS, they had access to a treadmill (treadmill with vibration isolation system), two bicycle ergometers (cycle ergometer with vibration isolation system and a Velosiped, i.e., Russian bicycle exercise device), and an interim resistive exercise device (iRED). The crewmembers also had access to bungee cords, which they could use to provide resistance-type exercise for various muscle groups. \r\n<p>\r\nTo determine muscle volume of the calf muscle, a MRI was performed on crewmembers 40 \u00b1 3 (L - 40) days before launch and 4 \u00b1 1 (R + 4) days after returning from the ISS. An additional MRI was obtained on each crewmember 19 \u00b1 2 (R + 19) days after returning from space. All preflight MRI scans were conducted in Clear Lake, TX, and all postflight (R + 4) MRI scans were conducted in Moscow, Russia.\r\n<p>\r\nMaximal voluntary contraction and isokinetic strength of the left leg calf muscles was assessed using a torque velocity dynamometer. Each crewmember performed two familiarization sessions before preflight trials. Before launch, each crewmember performed four complete testing sessions over a four-month period (L - 127 \u00b1 13, L - 87 \u00b1 13, L - 40 \u00b1 4, and L - 27 \u00b1 1). Postflight, torque-velocity dynamometer measurements were obtained at R + 7 and R + 13 for all subjects.\r\n<p>\r\nA muscle biopsy was obtained from the lateral head of the gastrocnemius and soleus muscle of each crewmember before launch (L - 55 \u00b1 2) and on landing day (R + 0). The landing day muscle biopsy was generally performed mid to late afternoon approximately six to eight hours after landing. Crewmembers were transported to the main medical operations facilities for observation. After a period of personal activities the crewmembers were brought to the data collection facility for the muscle biopsies. Crewmembers had performed very light ambulatory activities before the muscle biopsy procedure.\r\n<p>\r\nDuring flight, consumption of food and fluid was monitored according to the same schedule, but subjects used an automated bar code scanning system in which each individually packaged food item was labeled. The in-flight diet was designed to meet the nutritional requirements for ISS missions as established by NASA and the Russian Space Agency. Neither diet nor activity levels were restricted during any of the sampling periods. In-flight consumption data were stored in the bar code reader and downloaded to the ground.\r\n<p>\r\nRESULTS:<br>\r\n<i>Exercise Training Profile</i><br>\r\nOn average, subjects completed 138 \u00b1 26 minutes per week of cycle exercise that generally ranged between 100 and 150 Watts (W). While in orbit, crewmembers used the cycle ergometer approximately 60% of mission days. Four of the crewmembers used the cycle ergometer approximately 81% or more of mission days, whereas four others averaged approximately 37% of mission days, and one crewmember did minimal cycling. For the treadmill exercise, subjects averaged 146 \u00b1 34 minutes per week on a level grade at a speed ranging from 2.1 to 5.5 miles per hour.  The treadmill appeared to be used less frequently compared with the cycle ergometer, accounting for less than 50% of total mission days.  However, there was a wide range of treadmill use, with four crewmembers having a high volume (200 minutes per week) of walking/running activities.  The other five crewmembers used the treadmill much less (85 minutes per week).\r\n<p>\r\n<i>Muscle Volume</i><br>\r\nThe gastrocnemius (medial and lateral) and soleus muscle were smaller (P < 0.05) after six months in space. Combined, the gastrocnemius and soleus atrophied (P < 0.05) - 13 \u00b1 2% pre- to postflight. The soleus (- 15 \u00b1 2%) atrophied more (P < 0.05) than the gastrocnemius (- 10 \u00b1 2%) pre- to postflight. One crewmember had insignificant (- 1%) atrophy after the flight. Two of the crewmembers lost more than 20% of their calf muscle mass. Of the remaining six crewmembers, five lost more than 10% calf muscle mass. At R + 19 after landing, the gastrocnemius was still five to six percent atrophied, but this was not significant. Conversely, the soleus was still reduced (P < 0.05) compared with preflight, averaging - 9 \u00b1 1% for all crewmembers. Although calf muscle volume was still reduced - 8 \u00b1 2%, it represented a partial recovery from the more immediate (R + 4) flight measurement.\r\n<p>\r\n<i>Muscle Performance</i><br>\r\nMVC was reduced (P < 0.05) -14 \u00b1 2% at R + 7 and remained lower (- 13 \u00b1 5%; P < 0.05) at R + 13. All nine crewmembers had a decline in MVC (range = - 7 to \u00b1 22%) with flight. At R + 13, seven of the nine crewmembers were lower (range = -9 to \u00b1 33%), with two crewmembers having a 5\u201310% increase compared with preflight. At the slow isokinetic speed (60\u00b0 per second) there was a -20 \u00b1  3% loss (P < 0.05), which was sustained (- 19 \u00b1  4; P < 0.05) at R + 13. This pattern was also evident at the faster (180\u00b0 per second) isokinetic speed with a 25 \u00b1 10% reduction at R + 7 and R + 13. For both the slow and fast speeds, eight of the nine subjects had a decrease in muscle performance.  On average, force-velocity characteristics were reduced - 20 to - 29% across the velocity spectrum (P < 0.05). Peak power was 134 \u00b1 11, 91 \u00b1 10, and 94 \u00b1 13 W preflight, R + 7, and R + 13, respectively. On average, peak power declined 32% with spaceflight (P < 0.05).\r\n<p>\r\n<i>Muscle Fiber Type</i><br>\r\nThe investigators isolated and analyzed the MHC profile on a total of 4,328 single muscle fibers from the gastrocnemius and soleus muscles before and after flight. The breakdown was 1,960 muscle fibers for the gastrocnemius and 2,368 muscle fibers for the soleus. The gastrocnemius had a 12% decrease (P < 0.05) in MHC I fibers and an increase (P < 0.05) in MHC I/IIa (+ 4%) hybrid fibers and MHC IIa fibers (+ 9%). Seven of the eight subjects had a decrease in MHC I fibers (range = - 6 to - 31%). There were minimal MHC IIx and MHC I/IIa/IIx fibers detected in the pre- and postflight muscle samples. The four percent increase in hybrid muscle fibers appears to be the result of the MHC I/IIa hybrid fiber type.  On average, the soleus had a 17% decrease (P < 0.05) in MHC I fibers. The shift away from MHC I fibers was distributed among the other fiber types (MHC I/IIa, IIa, IIa/IIx), with a non-significant increase of four to five percent within each MHC phenotype. Combined, the soleus had a 12% increase (P < 0.05) in hybrid MHC isoforms. Three of the crewmembers did not have any major alterations in fiber type of the soleus. Four of the crewmembers had a decrease in soleus MHC I fibers that ranged from - 20 to - 44%.\r\n<p>\r\n<i>Nutrition</i><br>\r\nCrewmembers had a daily average caloric intake of 2,377 \u00b1 118 kcal (range = 1,874 \u20132,902 kcal). The dietary percent breakdown of carbohydrate, fat, and protein was 48, 33, and 18%, respectively.\r\n<p>\r\nThe average amount of muscle mass lost (- 13%) with space flight was slightly less than with previous long-duration stays on the Russian Space Station Mir (- 17%). The current ISS and previous Mir calf muscle volume loss is about one-half that of long-duration (60- to 120-day) bed rest studies showing a - 29% decrease among the control subjects without countermeasures. These data imply that the exercise in space is having a beneficial effect but is not complete, with the soleus being more difficult to protect than the gastrocnemius.\r\n<p>\r\nFor more detailed results please refer to the PubMed article, Exercise In Space, which is freely available via PubMed's website or at the Journal of Applied Physiology's website, http://jap.physiology.org/.",
+  "__doi": "10.83263/kww7-ag48",
+  "__doi_record_creation_date": "2026-08-23T03:57:42",
+  "__doi_record_modified_date": "2026-08-23T03:57:42"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001559",
+   "label": "JMISS96_E400_8",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Calf Muscle Performance Profile Before and After Space Flight",
+    "dataset_catalog": "JMISS96_E400_8",
+    "dataset_description": [
+     "This is an Excel file which contains individual subject data for preflight and postflight calf muscle performance profiles.  This file was extracted from Table 6 in the cited publication.  \r\n<p>\r\nSource: Trappe S, Costill D, Gallagher PM, Creer A, Peters JR, Evans H, Riley DA, and Fitts RH. Exercise in space: human skeletal muscle after 6 months aboard the International Space Station. Journal of Applied Physiology. 2009, January 15."
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "96-E400"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "af4f1476-3713-5b31-aaa0-2339c2de9074",
+     "label": "JMISS96_E400_81.xls_Expedition_5_96-E400_2010_254_120923.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000882",
+   "label": "JMISS96_E400_3",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Changes in Myosin Heavy Chain Composition",
+    "dataset_catalog": "JMISS96_E400_3",
+    "dataset_description": [
+     "This is a graph of the myosin heavy chain (MHC) composition of the gastrocnemius and soleus muscles before and after space flight. Hybrid, all fibers with more than one MHC isoform. *P < 0.05 versus preflight.\r\n<p>\r\nSource: Trappe S, Costill D, Gallagher PM, Creer A, Peters JR, Evans H, Riley DA, and Fitts RH. Exercise in space: human skeletal muscle after 6 months aboard the International Space Station. Journal of Applied Physiology. 2009 April; 106(4):1159-68."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "96-E400"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "17588beb-5ae4-5d33-a804-f37658b1d8b6",
+     "label": "JMISS96_E400_31.tif_Expedition_5_96-E400_2010_254_110945.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000815",
+   "label": "96_E400__2541047893",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Treadmill Exercise Time",
+    "dataset_catalog": "96_E400__2541047893",
+    "dataset_description": [
+     "This graph shows a correlation between treadmill exercise time (min/wk) while on the International Space Station and calf muscle volume loss (cm3) with space flight.<P>\r\nSource: Trappe S, Costill D, Gallagher PM, Creer A, Peters JR, Evans H, Riley DA, and Fitts RH. Exercise in space: human skeletal muscle after 6 months aboard the International Space Station. Journal of Applied Physiology. 2009 April; 106(4):1159-68."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "96-E400"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "4f4825d3-7e4f-5250-89e0-a65e218101d7",
+     "label": "96_E400__2541047893.tif_Expedition_5_96-E400_2010_254_110943.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001070",
+   "label": "JMISS96_E400_5",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Calf Muscle Volume",
+    "dataset_catalog": "JMISS96_E400_5",
+    "dataset_description": [
+     "This graph shows a correlation between calf muscle volume before space flight and calf muscle volume loss with space flight.  \r\n<p>\r\nSource: Trappe S, Costill D, Gallagher PM, Creer A, Peters JR, Evans H, Riley DA, and Fitts RH. Exercise in space: human skeletal muscle after 6 months aboard the International Space Station. Journal of Applied Physiology. 2009 April; 106(4):1159-68."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "96-E400"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "814426ff-b680-5f9d-8e7e-be1bacccc9cb",
+     "label": "JMISS96_E400_51.tif_Expedition_5_96-E400_2010_254_110958.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001773",
+   "label": "JMISS96_E400_2",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Calf Muscle Force Velocity",
+    "dataset_catalog": "JMISS96_E400_2",
+    "dataset_description": [
+     "This is a graph of a calf muscle force-velocity profile before and after space flight. *P < 0.05 versus preflight.\r\n<p>\r\nSource: Trappe S, Costill D, Gallagher PM, Creer A, Peters JR, Evans H, Riley DA, and Fitts RH. Exercise in space: human skeletal muscle after 6 months aboard the International Space Station. Journal of Applied Physiology. 2009 April; 106(4):1159-68."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "96-E400"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "0ef7e182-58ce-5deb-b303-8148b054c0e1",
+     "label": "JMISS96_E400_21.tif_Expedition_5_96-E400_2010_254_110932.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000535",
+   "label": "JMISS96_E400_7",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Gastrocnemius Fiber Type Distribution Before and After Space Flight",
+    "dataset_catalog": "JMISS96_E400_7",
+    "dataset_description": [
+     "This is an Excel file which contains individual subject data for preflight and postflight gastrocnemius fiber myosin heavy chain (MHC) profiles.  This file was extracted from Table 7 from the cited publication.  \r\n<p>\r\nSource: Trappe S, Costill D, Gallagher PM, Creer A, Peters JR, Evans H, Riley DA, and Fitts RH. Exercise in space: human skeletal muscle after 6 months aboard the International Space Station. Journal of Applied Physiology. 2009, January 15."
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "96-E400"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "13c8c591-5496-51cb-b8a9-046f67b55b05",
+     "label": "JMISS96_E400_71.xls_Expedition_5_96-E400_2010_254_110913.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002011",
+   "label": "JMISS96_E400_6",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Soleus Fiber Type Distribution Before and After Space Flight",
+    "dataset_catalog": "JMISS96_E400_6",
+    "dataset_description": [
+     "This is an Excel file which contains individual subject data for preflight and postflight soleus fiber myosin heavy chain (MHC) profiles.  This file was extracted from Table 8 from the cited publication.  \r\n<p>\r\nSource: Trappe S, Costill D, Gallagher PM, Creer A, Peters JR, Evans H, Riley DA, and Fitts RH. Exercise in space: human skeletal muscle after 6 months aboard the International Space Station. Journal of Applied Physiology. 2009 April; 106(4):1159-68."
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "96-E400"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "407e1176-ca0f-5f45-8c94-b78d5c0c010e",
+     "label": "JMISS96_E400_61.xls_Expedition_5_96-E400_2010_254_110942.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000481",
+   "label": "96_E400__2540822186",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Percent Changes in Muscle Volume",
+    "dataset_catalog": "96_E400__2540822186",
+    "dataset_description": [
+     "This graph represents percent changes in gastrocnemius and soleus muscle volume from preflight to postflight recovery days 4 (R+4) and 19 (R+19). *P < 0.05 versus preflight. \u2020P < 0.05 versus gastrocnemius.  \r\n<p>\r\nSource: Trappe S, Costill D, Gallagher PM, Creer A, Peters JR, Evans H, Riley DA, and Fitts RH. Exercise in space: human skeletal muscle after 6 months aboard the International Space Station. Journal of Applied Physiology. 2009 April; 106(4):1159-68."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "96-E400"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "1cbf4407-a18a-5eef-adae-c74e46970ff8",
+     "label": "96_E400__2540822186.tif_Expedition_5_96-E400_2010_254_100919.tif",
+     "type": "file",
+     "ext": "tif",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000378",
+   "label": "JMISS96_E400_9",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Calf Muscle Volume Before and After Space Flight",
+    "dataset_catalog": "JMISS96_E400_9",
+    "dataset_description": [
+     "This is an Excel file which contains individual subject data for preflight and postflight calf muscle volume profiles.  This file was extracted from Table 5 in the cited publication.  \r\n<p>\r\nSource: Trappe S, Costill D, Gallagher PM, Creer A, Peters JR, Evans H, Riley DA, and Fitts RH. Exercise in space: human skeletal muscle after 6 months aboard the International Space Station. Journal of Applied Physiology. 2009, January 15."
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "96-E400"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "21e2baed-1960-5c27-9411-10507e17fed8",
+     "label": "JMISS96_E400_91.xls_Expedition_5_96-E400_2010_254_120908.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

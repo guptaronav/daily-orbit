@@ -1,0 +1,774 @@
+{
+ "record": {
+  "id": "7b21f5ba-276b-5a19-adc4-8a0d55451386",
+  "_id": "7b21f5ba-276b-5a19-adc4-8a0d55451386",
+  "experiment_title": "Bone, Calcium, and Spaceflight",
+  "experiment_alias": [
+   "E194"
+  ],
+  "parameter_html": "<table><tr><td>Activity, motor, Rat, Microgravity, SLS-2 (counts)</td></tr><tr><td>Area, cross section, Humerus, cortical, left, bone, rat</td></tr><tr><td>Area, cross section, Humerus, medullary, left, bone, rat</td></tr><tr><td>Area, cross section, Humerus, total, left, bone, rat</td></tr><tr><td>Area, cross section, Tibia, cortical, left, bone, rat</td></tr><tr><td>Area, cross section, Tibia, medullary, left, bone, rat</td></tr><tr><td>Area, cross section, Tibia, total, left, bone, rat</td></tr><tr><td>Consumption, Diet, rat, primate, Measured food</td></tr><tr><td>Consumption, Diet, rat, primate, Measured water</td></tr><tr><td>Content, Calcium, humerus, bone, rat</td></tr><tr><td>Content, Calcium, in feces, rat, Atomic absorption spectrophotometry, isotope dilution</td></tr><tr><td>Content, Calcium, tibia, left, bone, rat</td></tr><tr><td>Content, Collagen crosslink residue, in urine, rat, Biochemistry</td></tr><tr><td>Content, Collagen, in humerus, bone, rat</td></tr><tr><td>Content, Collagen, in tibia, bone, rat</td></tr><tr><td>Content, Creatine, in urine, rat, Biochemistry</td></tr><tr><td>Content, Hydroxylysylpyridinoline (HP), in urine, rat, Biochemistry</td></tr><tr><td>Content, Hydroxyproline, in urine, rat, Biochemistry</td></tr><tr><td>Content, Lysylpyridinoline (LP), in urine, rat, Biochemistry</td></tr><tr><td>Isotope, 40 Calcium, plasma content, rat, Atomic absorption spectrophotometry</td></tr><tr><td>pH, Plasma, rat, pH meter</td></tr><tr><td>Size, diameter, Humerus, maximum, bone, rat</td></tr><tr><td>Size, diameter, Humerus, medullary, bone, rat</td></tr><tr><td>Size, diameter, Humerus, minimum, bone, rat</td></tr><tr><td>Size, diameter, Humerus, periosteal, bone, rat</td></tr><tr><td>Size, diameter, Tibia, maximum, bone, rat</td></tr><tr><td>Size, diameter, Tibia, minimum, bone, rat</td></tr><tr><td>Size, diameter, Tibia, periosteal, bone, rat</td></tr><tr><td>Size, length, Bone, humerus, rat, Calipers</td></tr><tr><td>Size, length, Bone, tibia, rat, Calipers</td></tr><tr><td>Volume, Feces, rat, Measurement</td></tr><tr><td>Volume, Urine, rat, Pre &amp; post-flight (cc)</td></tr><tr><td>Weight, tissue, Humerus, bone, rat, Balance (CGS units)</td></tr><tr><td>Weight, tissue, Tibia, bone, rat, Balance (CGS units)</td></tr><tr><td>Bone deformation at failure, left humerus</td></tr><tr><td>Bone stiffness, left humerus</td></tr><tr><td>Bone stiffness, left tibia</td></tr><tr><td>Bone thickness, anterior humerus</td></tr><tr><td>Bone thickness, posterior humerus</td></tr><tr><td>Bone thickness, lateral left humerus</td></tr><tr><td>Bone thickness, medial left humerus</td></tr><tr><td>Bone thickness, lateral left tibia</td></tr><tr><td>Bone thickness, medial left tibia</td></tr><tr><td>Bone thickness, anterior tibia</td></tr><tr><td>Bone thickness, posterior tibia</td></tr><tr><td>Bone, medullary perimeter, left tibia</td></tr><tr><td>Bone, total mineral, left humerus</td></tr><tr><td>Bone, total mineral, left tibia</td></tr><tr><td>Calcium, ionic, plasma</td></tr><tr><td>Collagen crosslinks, left humerus</td></tr><tr><td>Collagen crosslinks, left tibia</td></tr><tr><td>Elastic modulus, left humerus</td></tr><tr><td>Elastic modulus, left tibia</td></tr><tr><td>Energy to failure, left humerus</td></tr><tr><td>Energy to failure, left tibia</td></tr><tr><td>Hydroxylysylpyridinoline (HP), left humerus</td></tr><tr><td>Hydroxylysylpyridinoline (HP), left tibia</td></tr><tr><td>Hydroxyproline, left humerus</td></tr><tr><td>Hydroxyproline, left tibia</td></tr><tr><td>Peak load, left humerus</td></tr><tr><td>Peak load, left tibia</td></tr><tr><td>Lysylpyridinoline (LP), left humerus</td></tr><tr><td>Lysylpyridinoline (LP), left tibia</td></tr><tr><td>Phosphorus, left humerus</td></tr><tr><td>Phosphorus, left tibia</td></tr><tr><td>Whole body weight, balance (CGS units)</td></tr><tr></tr></table>",
+  "__source_key": "cl62attyqcahg01o6f900d5w6",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Morey- Holton, Emily\">Principal Investigator: Morey- Holton, Emily</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Cann, Christopher\">Co-Investigator: Cann, Christopher</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Doty, Stephen\">Co-Investigator: Doty, Stephen</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Roberts, W.\">Co-Investigator: Roberts, W.</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Vailas, Arthur\">Co-Investigator: Vailas, Arthur</a>",
+  "keyword": [
+   "Humerus",
+   "Calcium",
+   "Tibia",
+   "Bone remodeling",
+   "Femur",
+   "Bone and bones",
+   "Bone mineralization"
+  ],
+  "keyword_name": "Bone mineralization",
+  "__record_version": 29,
+  "experiment_description": "<B>Objectives:</B><P>The objectives of this experiment were; 1) to determine if exposure to microgravity causes a significant decrease in bone mineralization at the outer surface of limb bones within the first week of flight and to assess those bone parameters causing, or affected by, this decrease, 2) to measure activity of osteoblast immediately postflight, 3) to determine if bone mineralization is restored following two weeks of recovery from spaceflight, 4) to determine total skeletal and site-specific bone mineralization rates mineralization and resorption, as well as calcium absorption and excretion, 5) to relate effects of microgravity on bone to changes in calcium metabolism and 6) to determine gut and renal responses during postflight recovery period.<P><B>Approach:</B><P>Preflight, rats were subcutaneously injected with flourescent bone marker in order to determine the rate of bone development.  During flight, rats were fed food bars containing 40Ca to help determine relative rates of bone formation/resorption.  Postflight, some rats were treated with tritiated proline to measure the rate of new bone formation.  Body mass, blood pH, urine volume were also measured.  Upon sacrifice, the vertebrae, maxillae, tibias, femurs, humeri, calvaria were removed and processed.  Bone samples were analyzed for bone mineralization rates, alkaline phosphatase activity, bone dimensions, osteoblast populations, matrix and mineral content, and biomechanics.  Ca and crosslink content was determine for the urine as well as bone samples.  Bone samples were also analyzed under electron micrscopy and 3-D x-ray topographic microscopic images.<P><B>Results:</B><P>Ionic calcium and pH were similar in all groups at the end of the flight period suggesting that any changes induced by flight had returned to normal prior to the time that the animals were sacrificed.  All groups had similar bone length in both front and hindlimbs as well as in the jaw.  Bone mineralization on the periosteal surface at the tibiofibular junction was suppressed in the flight rats during the flight period and did not return to normal until the second week of the recovery period.  Alkaline phosphatase activity, a marker of bone matrix maturation, was suppressed in the endosteal osteoblast immediately postflight and at two weeks postrecovery.  This data suggest that bone response to unloading and reloading may be different at different bone sites.  Urinary collagen crosslinks were slightly decreased following flight suggesting that resorption was not dramatically effected during the recovery period. Surprisingly, very few significant changes in bone were noted in these very young, rapidly growing rats (38 days old at launch).",
+  "indexed": "2026-08-23T03:52:36.407505+00:00",
+  "GUID": "cl62attyqcahg01o6f900d5w6",
+  "__model_type": "lsda_experiment",
+  "__dirid": "7b21f5ba-276b-5a19-adc4-8a0d55451386",
+  "__record_size_wo_doccontent": 113225,
+  "experiment_parms_tissue2": "NULL",
+  "experiment_parms_tissue1": "NULL",
+  "__update_method": "Update CDM",
+  "archive_status_index": 1,
+  "experiment_type_lk": [
+   "Shuttle Life Sciences Research (Spacelab)"
+  ],
+  "__record_modified_date": "2026-08-23T03:52:36.407505+00:00",
+  "proposal_source": [
+   "AO-OSS-1-78"
+  ],
+  "__indexed": "2026-08-23T03:52:36.407505+00:00",
+  "alias": [
+   "E194"
+  ],
+  "session_type": "Basal",
+  "__record_creation_date": "2022-07-28T19:48:46.939Z",
+  "__record_size": 113225,
+  "__model_version": 60,
+  "payload_id": "SLS-2",
+  "CombinedSpecies": [
+   [
+    "Rat (Rattus norvegicus) Sprague-Dawley"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "178194 2_2",
+  "experiment_related": [
+   "178194 1/2"
+  ],
+  "parameter_name": [
+   "Activity, motor, Rat, Microgravity, SLS-2 (counts)",
+   "Area, cross section, Humerus, cortical, left, bone, rat",
+   "Area, cross section, Humerus, medullary, left, bone, rat",
+   "Area, cross section, Humerus, total, left, bone, rat",
+   "Area, cross section, Tibia, cortical, left, bone, rat",
+   "Area, cross section, Tibia, medullary, left, bone, rat",
+   "Area, cross section, Tibia, total, left, bone, rat",
+   "Consumption, Diet, rat, primate, Measured food",
+   "Consumption, Diet, rat, primate, Measured water",
+   "Content, Calcium, humerus, bone, rat",
+   "Content, Calcium, in feces, rat, Atomic absorption spectrophotometry, isotope dilution",
+   "Content, Calcium, tibia, left, bone, rat",
+   "Content, Collagen crosslink residue, in urine, rat, Biochemistry",
+   "Content, Collagen, in humerus, bone, rat",
+   "Content, Collagen, in tibia, bone, rat",
+   "Content, Creatine, in urine, rat, Biochemistry",
+   "Content, Hydroxylysylpyridinoline (HP), in urine, rat, Biochemistry",
+   "Content, Hydroxyproline, in urine, rat, Biochemistry",
+   "Content, Lysylpyridinoline (LP), in urine, rat, Biochemistry",
+   "Isotope, 40 Calcium, plasma content, rat, Atomic absorption spectrophotometry",
+   "pH, Plasma, rat, pH meter",
+   "Size, diameter, Humerus, maximum, bone, rat",
+   "Size, diameter, Humerus, medullary, bone, rat",
+   "Size, diameter, Humerus, minimum, bone, rat",
+   "Size, diameter, Humerus, periosteal, bone, rat",
+   "Size, diameter, Tibia, maximum, bone, rat",
+   "Size, diameter, Tibia, minimum, bone, rat",
+   "Size, diameter, Tibia, periosteal, bone, rat",
+   "Size, length, Bone, humerus, rat, Calipers",
+   "Size, length, Bone, tibia, rat, Calipers",
+   "Volume, Feces, rat, Measurement",
+   "Volume, Urine, rat, Pre &amp; post-flight (cc)",
+   "Weight, tissue, Humerus, bone, rat, Balance (CGS units)",
+   "Weight, tissue, Tibia, bone, rat, Balance (CGS units)",
+   "Bone deformation at failure, left humerus",
+   "Bone stiffness, left humerus",
+   "Bone stiffness, left tibia",
+   "Bone thickness, anterior humerus",
+   "Bone thickness, posterior humerus",
+   "Bone thickness, lateral left humerus",
+   "Bone thickness, medial left humerus",
+   "Bone thickness, lateral left tibia",
+   "Bone thickness, medial left tibia",
+   "Bone thickness, anterior tibia",
+   "Bone thickness, posterior tibia",
+   "Bone, medullary perimeter, left tibia",
+   "Bone, total mineral, left humerus",
+   "Bone, total mineral, left tibia",
+   "Calcium, ionic, plasma",
+   "Collagen crosslinks, left humerus",
+   "Collagen crosslinks, left tibia",
+   "Elastic modulus, left humerus",
+   "Elastic modulus, left tibia",
+   "Energy to failure, left humerus",
+   "Energy to failure, left tibia",
+   "Hydroxylysylpyridinoline (HP), left humerus",
+   "Hydroxylysylpyridinoline (HP), left tibia",
+   "Hydroxyproline, left humerus",
+   "Hydroxyproline, left tibia",
+   "Peak load, left humerus",
+   "Peak load, left tibia",
+   "Lysylpyridinoline (LP), left humerus",
+   "Lysylpyridinoline (LP), left tibia",
+   "Phosphorus, left humerus",
+   "Phosphorus, left tibia",
+   "Whole body weight, balance (CGS units)"
+  ],
+  "exp_index": 313,
+  "research_area": [
+   "Skeletal physiology",
+   "Hematology"
+  ],
+  "protocol_approach": "Modified colony cage",
+  "pme_role_with_name": [
+   "ARC Deputy Payload Manager: Wray, Angela",
+   "ARC Deputy Payload Scientist: Howerton, Thomas",
+   "ARC Payload Manager: Savage, Paul",
+   "ARC Payload Scientist: Hinds, William",
+   "Co-Investigator: Cann, Christopher",
+   "Co-Investigator: Doty, Stephen",
+   "Co-Investigator: Roberts, W.",
+   "Co-Investigator: Vailas, Arthur",
+   "Principal Investigator: Morey- Holton, Emily"
+  ],
+  "missions": [
+   [
+    [
+     "STS-58"
+    ]
+   ]
+  ],
+  "PI": [
+   "Morey- Holton, Emily"
+  ],
+  "_file_extension": [],
+  "experiment_identifier": [
+   "178194 2_2",
+   "E194"
+  ],
+  "mission_id": [
+   [
+    [
+     "STS-58"
+    ]
+   ]
+  ],
+  "center": [
+   "Ames Research Center"
+  ],
+  "ncindex": [
+   7
+  ],
+  "proposal_date": [
+   "2/7/1978"
+  ],
+  "species": [
+   "Rat"
+  ],
+  "PrincipalInvestigator": [
+   "Morey- Holton, Emily"
+  ],
+  "program_name": [
+   "Shuttle Program"
+  ],
+  "archive_status": "Data preservation is complete. All datasets are publicly available.",
+  "__is_locked": false,
+  "Program": "Shuttle Program",
+  "__source_field_concat": "Basal SLS-2 cl62attyqcahg01o6f900d5w6 Bone mineralization NULL NULL Modified colony cage Bone, Calcium, and Spaceflight 178194 2_2 Shuttle Program Data preservation is complete. All datasets are publicly available.",
+  "__icon_type": "rat",
+  "__description": "<B>Objectives:</B><P>The objectives of this experiment were; 1) to determine if exposure to microgravity causes a significant decrease in bone mineralization at the outer surface of limb bones within the first week of flight and to assess those bone parameters causing, or affected by, this decrease, 2) to measure activity of osteoblast immediately postflight, 3) to determine if bone mineralization is restored following two weeks of recovery from spaceflight, 4) to determine total skeletal and site-specific bone mineralization rates mineralization and resorption, as well as calcium absorption and excretion, 5) to relate effects of microgravity on bone to changes in calcium metabolism and 6) to determine gut and renal responses during postflight recovery period.<P><B>Approach:</B><P>Preflight, rats were subcutaneously injected with flourescent bone marker in order to determine the rate of bone development.  During flight, rats were fed food bars containing 40Ca to help determine relative rates of bone formation/resorption.  Postflight, some rats were treated with tritiated proline to measure the rate of new bone formation.  Body mass, blood pH, urine volume were also measured.  Upon sacrifice, the vertebrae, maxillae, tibias, femurs, humeri, calvaria were removed and processed.  Bone samples were analyzed for bone mineralization rates, alkaline phosphatase activity, bone dimensions, osteoblast populations, matrix and mineral content, and biomechanics.  Ca and crosslink content was determine for the urine as well as bone samples.  Bone samples were also analyzed under electron micrscopy and 3-D x-ray topographic microscopic images.<P><B>Results:</B><P>Ionic calcium and pH were similar in all groups at the end of the flight period suggesting that any changes induced by flight had returned to normal prior to the time that the animals were sacrificed.  All groups had similar bone length in both front and hindlimbs as well as in the jaw.  Bone mineralization on the periosteal surface at the tibiofibular junction was suppressed in the flight rats during the flight period and did not return to normal until the second week of the recovery period.  Alkaline phosphatase activity, a marker of bone matrix maturation, was suppressed in the endosteal osteoblast immediately postflight and at two weeks postrecovery.  This data suggest that bone response to unloading and reloading may be different at different bone sites.  Urinary collagen crosslinks were slightly decreased following flight suggesting that resorption was not dramatically effected during the recovery period. Surprisingly, very few significant changes in bone were noted in these very young, rapidly growing rats (38 days old at launch).",
+  "__doi": "10.83263/ztky-9r90",
+  "__doi_record_creation_date": "2026-08-23T03:52:36",
+  "__doi_record_modified_date": "2026-08-23T03:52:36"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002082",
+   "label": "AINV0000000301",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Fecal Calcium Output",
+    "dataset_catalog": "AINV0000000301",
+    "dataset_description": [
+     "Milligrams calcium excreted per gram dry feces for the flight and control groups during the flight period."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "178194 2_2"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "03ab0403-32ad-5a90-8f09-611bf7f1df8f",
+     "label": "FecalOut.jpg",
+     "type": "file",
+     "ext": "jpg",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000202",
+   "label": "AINV0000000303",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Food Consumption",
+    "dataset_catalog": "AINV0000000303",
+    "dataset_description": [
+     "Food consumption (grams) was measured for the flight and control animals during the inflight and postflight periods.<br/>Some definitions and/or clarifications for the dataset:<br/>A) Excel sheets<br/>FC1=Flight control animals dissected on R+0 (day of landing)<br/>FC2=Flight control animals dissected on R+ML (recovery plus length of mission)<br/>V1=Ground control animals dissected on R+0<br/>V2=Ground control animals dissected on R+ML<br/>F2=Flight animals dissected on R+ML<br/>g/d=grams of food consumed per day<br/>B) Descriptive Statistics Spreadsheet<br/>g/d=grams of food consumed per day<br/>Count=number of animals used for the statistical analysis<br/>Missing cells=number of animals missing from the statistical analysis"
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "178194 2_2"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "411c5e92-0f7e-58aa-b477-a5d4fa9e9c39",
+     "label": "Food.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002369",
+   "label": "AINV0000000302",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Fecal Data",
+    "dataset_catalog": "AINV0000000302",
+    "dataset_description": [
+     "Fecal volume (grams) and fecal calcium output of flight and flight control animals during the inflight period.<br/>Some clarifications and/or definitions for the data set:<br/>A) Excel sheet<br/>FC= Flight control animals<br/>F=Flight animals<br/>FD2-8, 10, 14= fecal collection days during the mission<br/>1) Flight animal designation<br/>F271/3-11A= Flight animal #271, housed in RAHF rack 3, cage 11A.  Follow same pattern for other animals in flight group<br/>B) Descriptive Statistics Spreadsheet<br/>Count=number of animals used for analysis<br/>Missing Cells=number of animals omitted from analysis<br/>FD=flight day of fecal collection"
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "178194 2_2"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "f53cd18a-a5aa-59c9-980b-64d6625ee878",
+     "label": "FecesVol.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001683",
+   "label": "AINV0000000316",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Water Data",
+    "dataset_catalog": "AINV0000000316",
+    "dataset_description": [
+     "Water consumption measured (ml) from the flight and control groups during the postflight period."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "178194 2_2"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "97446b9d-e0d7-58a9-9de2-2c6211ef139e",
+     "label": "water.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000189",
+   "label": "AINV0000000315",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Urine Data",
+    "dataset_catalog": "AINV0000000315",
+    "dataset_description": [
+     "Urinary volume (ml) was determined for the flight and control animals during the postflight period<br/>Some clarifications and/or definitions for the data set:<br/>A) Excel Sheet<br/>V=Vivarium group<br/>FC=Flight control group<br/>Flight=Flight group<br/>UV=Urinary volume (ml)<br/>UV1-2=Urinary volume excreted between postflight days 1 and 2.<br/>UV2-2=Urinary volume excreted within postflight day 2<br/>Follow same system for successive readings<br/>B) Descriptive Statistics Spreadsheet<br/>Count=number of animals used for statistical analysis<br/>Missing Cells=number of animals omitted from statistical analysis.<br/>UV1-2=Urinary volume excreted between postflight days 1 and 2<br/>UV2-2=Urinary volume excreted on postflight day 2<br/>Note:  Water volume<br/>Water volume was also included with this data set, however, it will not be it will not be discussed here since there is a more comprehensive dataset on water consumption alone."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "178194 2_2"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "d54e1bda-8998-50c5-ae04-b65aa3f3ad7c",
+     "label": "urin_h20.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000320",
+   "label": "AINV0000000314",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Urine Biochemistry:  AM and PM collections",
+    "dataset_catalog": "AINV0000000314",
+    "dataset_description": [
+     "Urinary biochemical analysis on an AM and PM basis for the flight and control groups of animals during the postflight period."
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "178194 2_2"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "bf972794-9859-51f9-b021-9e00302e5d1c",
+     "label": "UrBioMns.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000634",
+   "label": "AINV0000000306",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Humerus Mineral Content",
+    "dataset_catalog": "AINV0000000306",
+    "dataset_description": [
+     "Mineral analysis of the left humerus for the flight and control groups during the preflight and postflight periods.<br/>Some definitions and/or clarifications for the dataset:<br/>A) Excel Sheet<br/>L+0=Day of landing<br/>R+0=Day of recovery<br/>R+ML=Day of recovery plus mission length period of recovery<br/>Trans=Transportation Control group of animals<br/>Viv Control=Vivarium Control group of animals."
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "178194 2_2"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "c9025d0a-b79e-5c39-af19-4f6e751235fc",
+     "label": "HumMin.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000719",
+   "label": "AINV0000000308",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Weight Gain Data",
+    "dataset_catalog": "AINV0000000308",
+    "dataset_description": [
+     "Weight gain (grams) of the flight and control groups taken during the preflight, flight and postflight periods.<br/>Some clarifications and/or definitions for the dataset:<br/>A) Excel Sheets<br/>wt=weight on any given day <br/>F1=Flight group dissected on R+0 (day of landing)<br/>F2=Flight group dissected on R+ML (day of landing plus length of mission recovery period)<br/>FC1=Flight Control group dissected on R+0 (day of landing)<br/>FC2=Flight Control group dissected on R+ML (day of landing plus length of mission recovery)<br/>V1=Vivarium group dissected on R+0 (day of landing)<br/>V2=Vivarium group dissected on R+ML (day of landing plus length of mission recovery)<br/>TC1=Transportation Controls dissected on R+0 (day of landing)<br/>TC2=Transportation Controls dissected on R+ML (day of landing plus length of mission recovery)<br/>B) Descriptive Statistics Spreadsheet<br/>LNGB1=Launch nominal group 1b (these are the group of animals that actually were used for the SLS2 experiment)<br/>Count=number of animals used for statistical analysis<br/>Missing=number of animals not used for statistical analysis<br/>Pref gain=Preflight weight gain<br/>Pref gain TC= Preflight weight gain for Transportation Controls<br/>Fltgain TC=weight gain for the Transportation controls during the flight period<br/>Postgain TC=weight gain for the Transportation controls during the postflight period<br/>Wtgain flt= weight gain during the flight period<br/>Postwt1=postflight weight gain during a designated period."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "178194 2_2"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "6853bed3-bfb0-5ced-aff4-11b8c35b70a8",
+     "label": "LNG-1B1.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000633",
+   "label": "AINV0000000305",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Humerus Biochemistry",
+    "dataset_catalog": "AINV0000000305",
+    "dataset_description": [
+     "Determination of the left humerus biochemistry for the flight and control groups during the preflight and postflight periods."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "178194 2_2"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "538529fe-5f65-5905-999d-aa243c8c735f",
+     "label": "HumBio.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000940",
+   "label": "AINV0000000307",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Humerus Morphology",
+    "dataset_catalog": "AINV0000000307",
+    "dataset_description": [
+     "Morphological analysis of the left humerus for the flight and control group during the preflight and postflight periods.<br/>Some clarification and/or definitions for the dataset:<br/>A) Excel Sheet<br/>L+0=Day of launch<br/>R+0=Day of landing<br/>R+ML=Day of landing plus mission length of recovery<br/>Trans=Transportation Control group of animals<br/>Viv Control=Vivarium Control group of animals."
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "178194 2_2"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "04a77965-2b4b-5611-b4f4-5e3b10b4b3af",
+     "label": "HumMorph.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000941",
+   "label": "AINV0000000309",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Urine Biochemistry:  daily",
+    "dataset_catalog": "AINV0000000309",
+    "dataset_description": [
+     "Urinary biochemical analysis on a daily basis of the flight and control groups of animals during the postflight period."
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "178194 2_2"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "21aee3ae-a9db-5b51-8f43-b0dbf20d5abc",
+     "label": "RatUrine.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000942",
+   "label": "AINV0000000312",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Tibia Mineral Content",
+    "dataset_catalog": "AINV0000000312",
+    "dataset_description": [
+     "Left tibia mineral analysis for the flight and control groups during the preflight and postflight periods.<br/>Some clarifications and/or definitions for the dataset:<br/>A) Excel Sheet<br/>L+0=Day of launch<br/>R+0=Day of landing<br/>R+ML=Day of landing plus length of mission recovery<br/>Trans=Transportation Control group of animals<br/>Viv Control=Vivarium group of animals."
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "178194 2_2"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "a7edc066-97e7-5c75-9725-f8b029e2fb8e",
+     "label": "TibiaMin.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001682",
+   "label": "AINV0000000299",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Blood Data",
+    "dataset_catalog": "AINV0000000299",
+    "dataset_description": [
+     "Calcium concentration (mmol/L), pH of plasma and plasma calcium isotopic ratios from flight and control animals dissected on recovery (R+0) and (R+ML) days.<br/>Some definitions and/or clarifications for the dataset:<br/>A) Spreadsheet<br/>R+0 Flight= flight group sacrificed on the day of shuttle landing (R+0)<br/>R+0 Flight Control= flight control group<br/>R+0 Viv= ground control group<br/>R+0 Trans= transportation group (a ground control)<br/>Rat #1-6= represents the total number of animals in any group<br/>B) Descriptive Statistical Spreadsheet<br/>Count= number of animals for statistical analysis<br/>Missing Cells=number of animals missing from the statistical analysis<br/>Notes:  Transportation controls<br/>1)  Transportation controls were an additional group added to this experiment to control for any unforseen stresses attributed to travel of the original ground control groups from Kennedy Space Center (KSC) to Dryden Flight Research Facility (DFRF) following a successful launch.<br/>2) Transportation control animals were sacrificed the day before landing (R+0), but were considered part of the R+0 dissection group for statistical analysis.  The dissection of transportation controls served as a practice for the R+0 dissection as well as decrease the total number of animals to dissect on the day of landing (R+0)."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "178194 2_2"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "bde5bfec-80c2-5fdf-9857-295c5dd3e497",
+     "label": "bloodata.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002370",
+   "label": "AINV0000000304",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Humerus Biomechanics",
+    "dataset_catalog": "AINV0000000304",
+    "dataset_description": [
+     "Biomechanical analysis of the left humerus from the flight and control groups of animals for the preflight and postflight periods."
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "178194 2_2"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "fdc9b948-07b4-587c-b3fa-0aa7724b0ee8",
+     "label": "HumBiMec.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002161",
+   "label": "AINV0000000300",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Bone Length Measurements",
+    "dataset_catalog": "AINV0000000300",
+    "dataset_description": [
+     "Right humeral, right tibial measurements (mm) and body weights (grams) for the ground controls and flight animals dissected on L+0 (Launch) and R+0 (Landing) days.<br/>Some definitions and/or clarifications for the dataset:<br/>A) Excel spread sheet<br/>F1= Flight group dissected on R+0 (Recovery day)<br/>F2= Flight group dissected on R+ML day (recovery plus length of mission)<br/>FC1= Flight control group dissected on R+0 (recovery day)<br/>FC2= Flight control group dissected on R+ML (recovery plus length of the mission)<br/>V1= Vivarium ground control group dissected on R+0 (recovery day)<br/>V2= Vivarium ground control group dissected on R+ML (recovery day plus the length of the mission)<br/>TC= Transportation (ground control) group dissected the day before recovery (R+0)<br/>Wt= weight of animal (grams)<br/>B) Statistics Spread Sheet<br/>Count= number of animals in statistical analysis<br/>Mean= average weight (gram) or bone measurement (mm) for the L+0 (launch) or R+0 (landing) dissections."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "178194 2_2"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "094230b3-65e8-5b0f-a478-b2f29b79baf8",
+     "label": "BonLngth.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002334",
+   "label": "AINV0000000311",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Tibia Biochemistry",
+    "dataset_catalog": "AINV0000000311",
+    "dataset_description": [
+     "Analysis of left tibia biochemistry from the flight and control groups during the preflight and postflight periods.<br/>Some clarification and/or definitions for the dataset:<br/>A) Excel sheet<br/>L+0=day of launch<br/>R+0=day of landing<br/>R+ML=day of original landing plus mission length recovery<br/>Trans=Transportation group of animals<br/>VivControl=Vivarium control group of animals."
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "178194 2_2"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "be08d870-9f47-5a7d-98db-946681a1f32b",
+     "label": "TibiaBio.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002371",
+   "label": "AINV0000000310",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Tibia Biomechanics",
+    "dataset_catalog": "AINV0000000310",
+    "dataset_description": [
+     "Biomechanical analysis of the left tibia form the flight and control groups of animals for the preflight and postflight periods."
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "178194 2_2"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "b44b4d56-5f21-5a33-8e75-88138d00c9fe",
+     "label": "TibBiMec.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002335",
+   "label": "AINV0000000313",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Tibia Morphology",
+    "dataset_catalog": "AINV0000000313",
+    "dataset_description": [
+     "Morphological analysis of the left tibia for the flight and control group for the preflight and postflight periods.<br/>Some clarification and/or definitions for the dataset:<br/>A) Excel Sheet<br/>L+0=Day of launch<br/>R+0=Day of landing<br/>R+ML=Day of landing plus mission length of recovery<br/>Trans=Transportation Control group of animals<br/>Viv Control=Vivarium Control group of animals."
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "178194 2_2"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "eaa75440-daa0-5c44-bf25-75b8b9fa1710",
+     "label": "TibMorph.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

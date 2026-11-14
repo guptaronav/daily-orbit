@@ -1,0 +1,272 @@
+{
+ "record": {
+  "id": "9a4bb069-9736-545f-ae48-76c9e2166fed",
+  "_id": "9a4bb069-9736-545f-ae48-76c9e2166fed",
+  "experiment_title": "Intraocular Pressure",
+  "archive_status_index": 4,
+  "pub_document_number": "PUB001618",
+  "parameter_html": "<table><tr><td>Intraocular pressure (IOP)</td></tr><tr></tr></table>",
+  "__source_key": "cl62aymqacd7901o661yw04wy",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Mader, Thomas\">Principal Investigator: Mader, Thomas</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Bagian, James\">Co-Investigator: Bagian, James</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Charles, John\">Co-Investigator: Charles, John</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Meehan, Richard\">Co-Investigator: Meehan, Richard</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Taylor, Gerald\">Co-Investigator: Taylor, Gerald</a>",
+  "image_name": [
+   "STS-41 Crewmembers Measuring Intraocular Pressure",
+   "STS-44 Crewmember Using a Tono Pen"
+  ],
+  "experiment_type_lk": [
+   "Shuttle Detailed Supplementary Objectives (DSO)"
+  ],
+  "__record_modified_date": "2026-08-23T04:13:15.705345+00:00",
+  "proposal_source": [
+   "N/A"
+  ],
+  "__indexed": "2026-08-23T04:13:15.705345+00:00",
+  "__record_creation_date": "2022-07-28T19:55:28.629Z",
+  "keyword": [
+   "Intraocular pressure"
+  ],
+  "keyword_name": "Intraocular pressure",
+  "__record_size": 89054,
+  "__record_version": 29,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<br>\r\nIntraocular pressure (IOP) has been shown to be an objective and quantitative measure of fluid shifts toward the head in the 10-degree head-down tilt bed rest model of microgravity. However, insufficient numbers of measurements have been made in microgravity to correlate bed rest changes with changes that occur in weightlessness.\r\n<p>\r\nA study by Mader and Meehan (Mader et al., 1990) has quantified IOP changes that occurred with a 10-degree whole body head-down tilt over 48 hours.  An immediate rise in IOP was documented upon assuming the head-down position.  For the next 48 hours, variations in IOP were observed.  Upon resuming the sitting position, there was a significant drop in IOP below the initial sitting values.  The results of this study support the theory that distension of the retinal veins is a mechanism for the sudden changes in IOP that occur with changes in position. Assuming that head-down tilt is a valid model for fluid shifts in microgravity, the results from this study predict a similar sustained IOP increase in microgravity and a corresponding temporary drop in IOP (to below preflight values) upon return to Earth.  Significant increases in IOP could result in visual impairment affecting crew performance and operations.\r\n<p>\r\nThis study was designed to test the following hypothesis: Intraocular pressures will rise immediately upon entering microgravity due to fluid shifts toward the head, and will drop to below preflight levels upon return to 1-G.  The objectives of this study were:\r\n<p>\r\n1. To establish a database of changes in intraocular pressures that can be used to evaluate crew health,<br>\r\n2. To validate 10-degree head-down tilt bed rest as a model for fluid shifts toward the head in microgravity,<br>\r\n3. To facilitate the interpretation of data by providing a quantitative measure of microgravity induced fluid shifts toward the head,<br>\r\n4. To validate the hand-held tonometer as an effective tool for diagnostic and scientific data collection that can be used in on orbit investigations.<br>\r\n<p>\r\nAPPROACH:<br>\r\nA series of measurements were taken (on one eye only) preflight at Launch-6 (L-6) weeks, L-4 weeks, and L-10 days (dates are approximate) using the Tono-Pen (a clinical instrument commonly used by non-physicians in an ophthalmologist's office for measuring IOP).  All preflight measurements were taken with the subject in the seated position.  During flight, measurements were taken as soon as possible on orbit, post-sleep on flight day (FD) 2 and on the final flight day post sleep.  Additional measurements were desired on orbit (pre- and post sleep), but were optional.  Postflight measurements were taken at return (R)+0 and during the postflight physical on R+3.\r\n<p>\r\nOne drop of the short-activity topical anesthetic (proparacaine\r\n 0.5 percent) was instilled into the left eye and the subject instructed to look straight ahead.  During flight, the drop of proparacaine was brought into contact with the lower conjunctival fornice to be absorbed onto the cornea by capillary action. \r\n<p>\r\nThe operator performed the following steps: \r\n<p>\r\n1.  Replaced the tonometer tip cover.<br>\r\n2.  Instilled one drop of proparacaine into left eye.<br>\r\n3.  Gently tapped the cornea 3-6 times until a beep is heard.<br>\r\n4.  Recorded the data displayed on the Tono-Pen LCD screen.<br>\r\n5.  Repeated the procedure 5 times.<br>\r\n<p>\r\nMeasurements were taken in the subject's left eye at each data collection point (in prior studies, there have been no significant differences between the measurements taken in 2 healthy eyes of an individual).  The data collection sessions were approximately 5 minutes per subject; however, 15 minutes was scheduled to allow for the effects of the proparacaine to abate (the anesthetic deadens the eye for approximately 15 minutes).  Neither the anesthetic nor the pressure measurement with the Tono-Pen caused discomfort to the eye when used properly.  \r\n<p>\r\nRESULTS:<br>\r\nAcceptable data was acquired from 9 subjects on missions STS-31, 32, 34, 41, 52 and 53.  Sufficient data was not collected on STS-33, 44, and 50.  There was a mean increase in intraocular pressure during the first two days of space flight. This increase of approximately 20 percent above baseline values decreased during the remainder of the flight but was elevated above baselines on landing day.\r\n<p>",
+  "payload_id": "DSO31",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "DSO 472",
+  "indexed": "2026-08-23T04:13:15.705345+00:00",
+  "GUID": "cl62aymqacd7901o661yw04wy",
+  "parameter_name": [
+   "Intraocular pressure (IOP)"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 625,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Cardiovascular physiology",
+   "Ocular physiological phenomena"
+  ],
+  "pme_role_with_name": [
+   "Co-Investigator: Bagian, James",
+   "Co-Investigator: Charles, John",
+   "Co-Investigator: Meehan, Richard",
+   "Co-Investigator: Taylor, Gerald",
+   "Principal Investigator: Mader, Thomas"
+  ],
+  "missions": [
+   [
+    [
+     "STS-31"
+    ]
+   ],
+   [
+    [
+     "STS-32"
+    ]
+   ],
+   [
+    [
+     "STS-41"
+    ]
+   ],
+   [
+    [
+     "STS-44"
+    ]
+   ],
+   [
+    [
+     "STS-50"
+    ]
+   ],
+   [
+    [
+     "STS-52"
+    ]
+   ],
+   [
+    [
+     "STS-53"
+    ]
+   ],
+   [
+    [
+     "STS-34"
+    ]
+   ]
+  ],
+  "__dirid": "9a4bb069-9736-545f-ae48-76c9e2166fed",
+  "__record_size_wo_doccontent": 89054,
+  "PI": [
+   "Mader, Thomas"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "DSO 472"
+  ],
+  "mission_id": [
+   [
+    [
+     "STS-31"
+    ]
+   ],
+   [
+    [
+     "STS-32"
+    ]
+   ],
+   [
+    [
+     "STS-41"
+    ]
+   ],
+   [
+    [
+     "STS-44"
+    ]
+   ],
+   [
+    [
+     "STS-50"
+    ]
+   ],
+   [
+    [
+     "STS-52"
+    ]
+   ],
+   [
+    [
+     "STS-53"
+    ]
+   ],
+   [
+    [
+     "STS-34"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Mader, Thomas"
+  ],
+  "archive_status": "Data preservation is complete. All datasets are privacy-protected. Data is available via data request.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Shuttle Program",
+  "__source_field_concat": "PUB001618 DSO31 cl62aymqacd7901o661yw04wy <table><tr><td>Intraocular pressure (IOP)</td></tr><tr></tr></table> Intraocular pressure  N/A Intraocular Pressure DSO 472 Shuttle Program",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<br>\r\nIntraocular pressure (IOP) has been shown to be an objective and quantitative measure of fluid shifts toward the head in the 10-degree head-down tilt bed rest model of microgravity. However, insufficient numbers of measurements have been made in microgravity to correlate bed rest changes with changes that occur in weightlessness.\r\n<p>\r\nA study by Mader and Meehan (Mader et al., 1990) has quantified IOP changes that occurred with a 10-degree whole body head-down tilt over 48 hours.  An immediate rise in IOP was documented upon assuming the head-down position.  For the next 48 hours, variations in IOP were observed.  Upon resuming the sitting position, there was a significant drop in IOP below the initial sitting values.  The results of this study support the theory that distension of the retinal veins is a mechanism for the sudden changes in IOP that occur with changes in position. Assuming that head-down tilt is a valid model for fluid shifts in microgravity, the results from this study predict a similar sustained IOP increase in microgravity and a corresponding temporary drop in IOP (to below preflight values) upon return to Earth.  Significant increases in IOP could result in visual impairment affecting crew performance and operations.\r\n<p>\r\nThis study was designed to test the following hypothesis: Intraocular pressures will rise immediately upon entering microgravity due to fluid shifts toward the head, and will drop to below preflight levels upon return to 1-G.  The objectives of this study were:\r\n<p>\r\n1. To establish a database of changes in intraocular pressures that can be used to evaluate crew health,<br>\r\n2. To validate 10-degree head-down tilt bed rest as a model for fluid shifts toward the head in microgravity,<br>\r\n3. To facilitate the interpretation of data by providing a quantitative measure of microgravity induced fluid shifts toward the head,<br>\r\n4. To validate the hand-held tonometer as an effective tool for diagnostic and scientific data collection that can be used in on orbit investigations.<br>\r\n<p>\r\nAPPROACH:<br>\r\nA series of measurements were taken (on one eye only) preflight at Launch-6 (L-6) weeks, L-4 weeks, and L-10 days (dates are approximate) using the Tono-Pen (a clinical instrument commonly used by non-physicians in an ophthalmologist's office for measuring IOP).  All preflight measurements were taken with the subject in the seated position.  During flight, measurements were taken as soon as possible on orbit, post-sleep on flight day (FD) 2 and on the final flight day post sleep.  Additional measurements were desired on orbit (pre- and post sleep), but were optional.  Postflight measurements were taken at return (R)+0 and during the postflight physical on R+3.\r\n<p>\r\nOne drop of the short-activity topical anesthetic (proparacaine\r\n 0.5 percent) was instilled into the left eye and the subject instructed to look straight ahead.  During flight, the drop of proparacaine was brought into contact with the lower conjunctival fornice to be absorbed onto the cornea by capillary action. \r\n<p>\r\nThe operator performed the following steps: \r\n<p>\r\n1.  Replaced the tonometer tip cover.<br>\r\n2.  Instilled one drop of proparacaine into left eye.<br>\r\n3.  Gently tapped the cornea 3-6 times until a beep is heard.<br>\r\n4.  Recorded the data displayed on the Tono-Pen LCD screen.<br>\r\n5.  Repeated the procedure 5 times.<br>\r\n<p>\r\nMeasurements were taken in the subject's left eye at each data collection point (in prior studies, there have been no significant differences between the measurements taken in 2 healthy eyes of an individual).  The data collection sessions were approximately 5 minutes per subject; however, 15 minutes was scheduled to allow for the effects of the proparacaine to abate (the anesthetic deadens the eye for approximately 15 minutes).  Neither the anesthetic nor the pressure measurement with the Tono-Pen caused discomfort to the eye when used properly.  \r\n<p>\r\nRESULTS:<br>\r\nAcceptable data was acquired from 9 subjects on missions STS-31, 32, 34, 41, 52 and 53.  Sufficient data was not collected on STS-33, 44, and 50.  There was a mean increase in intraocular pressure during the first two days of space flight. This increase of approximately 20 percent above baseline values decreased during the remainder of the flight but was elevated above baselines on landing day.\r\n<p>",
+  "__doi": "10.83263/wbp1-2320",
+  "__doi_record_creation_date": "2026-08-23T04:13:15",
+  "__doi_record_modified_date": "2026-08-23T04:13:15"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000877",
+   "label": "JMDSO_472_1",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Intraocular Pressure for Crewmembers",
+    "dataset_catalog": "JMDSO_472_1",
+    "dataset_description": [
+     "This graph contains mean intraocular pressure for crewmembers during the DSO 472 study.  Intraocular pressure results for preflight, inflight, and postflight are presented in millimeters of Mercury (mmHg).  \r\n<p>\r\nSource: Unpublished Data."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DSO 472"
+    ]
+   },
+   "meta": "7 files \u00b7 644 B",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "b94808b3-b5d4-5ef4-ae4c-ce14d1f1c0b6",
+     "label": "JMDSO_472_1.tiff",
+     "type": "file",
+     "ext": "tiff",
+     "file_size": 92,
+     "meta": "92 B",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "98203513-325f-5801-ad59-8d5764680380",
+     "label": "JMDSO_472_1.tiff",
+     "type": "file",
+     "ext": "tiff",
+     "file_size": 92,
+     "meta": "92 B",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2a18c712-fede-5814-8d52-f53241e34985",
+     "label": "JMDSO_472_1.tiff",
+     "type": "file",
+     "ext": "tiff",
+     "file_size": 92,
+     "meta": "92 B",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2a607d42-827c-57f8-85c6-b4d05078afa7",
+     "label": "JMDSO_472_1.tiff",
+     "type": "file",
+     "ext": "tiff",
+     "file_size": 92,
+     "meta": "92 B",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "686bcb5a-12ad-5eaa-b35b-63a2200671fb",
+     "label": "JMDSO_472_1.tiff",
+     "type": "file",
+     "ext": "tiff",
+     "file_size": 92,
+     "meta": "92 B",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6cdcb317-bc7d-59c6-9fe5-644903c9e77e",
+     "label": "JMDSO_472_1.tiff",
+     "type": "file",
+     "ext": "tiff",
+     "file_size": 92,
+     "meta": "92 B",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "811ce699-a645-5837-98d0-b76b802fe17f",
+     "label": "JMDSO_472_1.tiff",
+     "type": "file",
+     "ext": "tiff",
+     "file_size": 92,
+     "meta": "92 B",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

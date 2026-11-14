@@ -1,0 +1,1424 @@
+{
+ "record": {
+  "id": "a010ee1a-3a7e-5cc7-b519-edc1361beaf7",
+  "_id": "a010ee1a-3a7e-5cc7-b519-edc1361beaf7",
+  "experiment_title": "Nutritional Studies",
+  "archive_status_index": 2,
+  "pub_document_number": "PUB000352",
+  "parameter_html": "<table><tr><td>Alkaline phosphatase</td></tr><tr><td>Angiotensin</td></tr><tr><td>Basophils</td></tr><tr><td>Bilirubin</td></tr><tr><td>Body density</td></tr><tr><td>Body volume</td></tr><tr><td>Calcium</td></tr><tr><td>Carbohydrate intake</td></tr><tr><td>Chloride</td></tr><tr><td>Cholesterol</td></tr><tr><td>Creatinine</td></tr><tr><td>Crude fiber, feces</td></tr><tr><td>Dietary intake, fat</td></tr><tr><td>Dietary intake, fiber</td></tr><tr><td>Dietary intake, fluid</td></tr><tr><td>Dietary intake, food</td></tr><tr><td>Dietary intake, protein</td></tr><tr><td>Electrolytes, urine</td></tr><tr><td>Eosinophils</td></tr><tr><td>Eosinophils, total</td></tr><tr><td>Fat, percentage</td></tr><tr><td>Fatty acids, feces</td></tr><tr><td>Fluid output</td></tr><tr><td>Folic acid</td></tr><tr><td>Food content, fat soluble vitamins</td></tr><tr><td>Food content, iron</td></tr><tr><td>Food content, magnesium</td></tr><tr><td>Food content, potassium</td></tr><tr><td>Food content, sodium</td></tr><tr><td>Food content, water soluble vitamins</td></tr><tr><td>Glucose</td></tr><tr><td>Hematocrit</td></tr><tr><td>Hemoglobin</td></tr><tr><td>Insulin</td></tr><tr><td>Kilocalories, feces</td></tr><tr><td>Lean body mass</td></tr><tr><td>Lipoproteins</td></tr><tr><td>Lymphocytes</td></tr><tr><td>Magnesium</td></tr><tr><td>Monocytes</td></tr><tr><td>Nickel, feces</td></tr><tr><td>Nicotinate</td></tr><tr><td>Osmolality, urine</td></tr><tr><td>Pantothenate</td></tr><tr><td>Phosphorus</td></tr><tr><td>Phosphorus intake</td></tr><tr><td>Plasma volume</td></tr><tr><td>Potassium</td></tr><tr><td>Potassium intake</td></tr><tr><td>Potassium, feces</td></tr><tr><td>Protein, feces</td></tr><tr><td>Red blood cell count</td></tr><tr><td>Riboflavin</td></tr><tr><td>Sodium</td></tr><tr><td>Sodium intake</td></tr><tr><td>Thiamine</td></tr><tr><td>Thyroxine (T4)</td></tr><tr><td>Triiodothyronine (T3)</td></tr><tr><td>Uric acid</td></tr><tr><td>Urine volume</td></tr><tr><td>Vitamin A</td></tr><tr><td>Vitamin B12</td></tr><tr><td>Vitamin B6</td></tr><tr><td>Vitamin C</td></tr><tr><td>Vitamin E</td></tr><tr><td>Water, feces</td></tr><tr><td>Weight</td></tr><tr><td>17-hydroxyprogesterone (17-OHP)</td></tr><tr><td>Blood urea nitrogen (BUN)</td></tr><tr><td>Creatinine phosphokinase (CPK)</td></tr><tr><td>Creatinine, urine</td></tr><tr><td>Extracellular fluid volume (ECFV)</td></tr><tr><td>Alpha 1 globulin</td></tr><tr><td>Alpha 2 globulin</td></tr><tr><td>Beta globulin</td></tr><tr><td>Gamma globulin</td></tr><tr><td>Intracellular fluid volume (ICFV)</td></tr><tr><td>Lactate dehydrogenase (LDH)</td></tr><tr><td>Total lipids, feces</td></tr><tr><td>Apolipoprotein, urine</td></tr><tr><td>Magnesium, urine</td></tr><tr><td>Mean corpuscular hemoglobin (MCH)</td></tr><tr><td>Mean corpuscular volume (MCV)</td></tr><tr><td>Nitrogen, urine</td></tr><tr><td>Norepinephrine, urine</td></tr><tr><td>Potassium, urine</td></tr><tr><td>Serum glutamic oxaloacetic transaminase (SGOT)</td></tr><tr><td>Body fat, total</td></tr><tr><td>Total body water (TBW)</td></tr><tr><td>Triglycerides</td></tr><tr></tr></table>",
+  "__source_key": "cl62aukgqcbkk01o6ay13fvjn",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Wheeler, Harry\">Principal Investigator: Wheeler, Harry</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Smith, Malcolm\">Principal Investigator: Smith, Malcolm</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Rambaut, Paul\">Principal Investigator: Rambaut, Paul</a>",
+  "image_name": [
+   "Apollo 17 Food Samples",
+   "Apollo Beverage Sample",
+   "Apollo Food Sample",
+   "Apollo Food Tray",
+   "Apollo Glove Assembly, Helmet, and Space Food",
+   "Apollo Pop-top Food Containers",
+   "Astronaut Edwin Aldrin Makes a Sandwich in Zero Gravity",
+   "Astronaut Eugene Cernan Eating Aboard Apollo 17 Spacecraft",
+   "Food Testing Session",
+   "Portrait of Dr. Malcolm C. Smith"
+  ],
+  "experiment_type_lk": [
+   "Apollo Program"
+  ],
+  "__record_modified_date": "2026-08-23T04:13:05.235839+00:00",
+  "proposal_source": [
+   "N/A"
+  ],
+  "__indexed": "2026-08-23T04:13:05.235839+00:00",
+  "__record_creation_date": "2022-07-28T19:39:36.049Z",
+  "keyword": [
+   "Fats",
+   "Phosphates",
+   "Potassium, dietary",
+   "Diet",
+   "Dietary proteins",
+   "Water",
+   "Urine",
+   "Dietary carbohydrates",
+   "Calcium",
+   "Nitrogen",
+   "Body weight",
+   "Eating",
+   "Dietary fats",
+   "Absorption",
+   "Chloride",
+   "Feces",
+   "Magnesium",
+   "Nutrition",
+   "Fatty acids"
+  ],
+  "keyword_name": "Fatty acids",
+  "__record_size": 194110,
+  "__record_version": 29,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<br>\r\nThe importance of nutrition in the adaptation of man to weightlessness was recognized early in the United States manned space flight program.  Investigators were concerned with the possibility that exposure to microgravity would impose high demands on micronutrients and would therefore lead to nutritional deficiencies.  Experiments conducted during the Gemini program led space life scientists to believe that some physiological changes associated with space flight were related to nutritional imbalances.   It was noted that the musculoskeletal system is one of the primary physiological systems affected by microgravity-induced nutritional alterations.  Numerous studies documented that imbalances between bone formation and resorption can lead to clinical disorders such as increased calcium in the blood and urine and osteoporosis.  Bed rest investigations lasting from 30 to 36 weeks provided evidence that mineral losses associated with bone resorption were likely to continue unabated during prolonged space flight. \r\n<P>\r\nIn addition, the physical data on astronauts from the Mercury and Gemini programs showed a consistent pattern of postmission weight loss.  The weight reduction was believed to have resulted from water and muscle tissue losses.  Scientists also considered the possibility that the weight loss was due to insufficient caloric intake.  Therefore, the issue of inflight caloric requirements was investigated thoroughly during the Apollo missions.\r\n<P>\r\nApollo scientists were also concerned with the fact that food systems having minimum weight and volume are required for space flight.  The food consumed during the Apollo missions was generally dehydrated and specially formulated to occupy minimal volume.  Therefore, the effects of the specialized food packaging methods on the nutritional content of the food was investigated.  Thus, the objective of the Apollo nutritional investigation was to conduct a comprehensive metabolic balance study in order to correlate nutrient intake and excretion data to specific inflight physiological changes.  The study helped scientists acquire an accurate knowledge of inflight human nutrition requirements which was essential for the development of more advanced space food systems.   \r\n<P>\r\nAPPROACH:<br>\r\nFood analysis:  All foods were analyzed for nitrogen, fat, carbohydrates, crude fiber, phosphorus, iron, sodium, potassium, and magnesium content.  Some composite Apollo menus were analyzed for water- and fat-soluble vitamins.  \r\n<P>\r\nDietetics:  The menus used by the Apollo astronauts were formulated from flight-qualified Apollo foods in combinations that complied with the personal preferences of the crewmen and that met the Recommended Daily Allowance (RDA) requirement.  The menus were primarily composed of dehydrated foods that were reconstituted before eating.  The foods were consumed in a prearranged sequence, but could be supplemented by additional items.\r\n<P>\r\nNutrient intake measurements:  Each meal was composed of a predetermined number of food items.  Records were kept on any foods omitted or incompletely consumed.  Snack items consumed that were not part of the programmed meals were also recorded in the flight logs.  All food residue and unopened food packages were returned from the missions.  Residue was weighed to provide more precise information on inflight nutrient intake.  For the Apollo 17 mission, a five-day metabolic balance study was performed approximately two months before the mission by using the flight menus and collecting urine and fecal wastes.  \r\n<P>\r\nFecal measurements:  Fecal samples were returned from all Apollo flights and analyzed for a variety of constituents either by nuclear activation analysis or by wet chemistry techniques.  \r\n<P>\r\nMetabolic balance:  A partial metabolic balance study was performed on the Apollo 16 crew.  Urine and fecal samples were returned for analysis and the data was compared to the inflight nutrient intake data.  For a more detailed metabolic balance study in conjunction with Apollo 17, accurate measurements of fluid intake and output were performed approximately two months before the mission.  A five-day food compatibility / metabolic study was performed in which three Apollo 17 prime and backup crewmembers consumed their flight foods and participated in metabolic collections.  The study was designed to obtain baseline data on the excretory levels of electrolytes and nitrogen in response to the Apollo 17 flight menu.  \r\n<P>\r\nBeginning 64 hours before Apollo 17 lift-off and continuing throughout the mission until 44 hours following recovery, all food and fluid intake was measured.  During the preflight and postflight periods, conventional meals were prepared in duplicate for each astronaut.  One duplicate of each meal was analyzed in addition to the residue from the meal that was consumed in order to measure nutrient intake and output.  Every food item consumed inflight was derived from a group of foods that had been analyzed for nutritional content.  All deviations from programmed food intake were logged and reported.  Inflight water consumption was measured using a beverage dispenser.    \r\n<P>             \r\nAll urine was collected, measured, sampled and returned for analysis.  Inflight urine samples were collected by means of a biomedical urine sampling system (BUSS).  Each BUSS was marked with the name of the crewmember and the time of collection.  Following each collection period, the urine pool was thoroughly mixed before a sample was taken.  The urine samples represented a 24-hour void and were subsequently analyzed for electrolytes, nitrogen, and creatine.  Complete stool collections were also performed. \r\n<P>\r\nBody volume measurements:  For the Apollo 16 crewmembers, three preflight and three postflight body volume measurements were made by stereophotogrammetry.  Body density was calculated from body volume and weight.  Density was used to calculate the percentage of fat.  Changes in calculated lean body mass and total body fat were converted into caloric equivalents.  Total body water was measured using a potassium-42 dilution technique.  \r\n<P>\r\nRESULTS:<br>\r\nFood analysis:  The overall nutritional analysis indicated that the typical Apollo diet was composed of protein, fat, carbohydrates, fiber, and minerals in the following percentages (percent of dry weight): 18.0, 17.0, 61.0, 1.0, and 3.0, respectively.  The results of the vitamin analysis indicated that the Apollo diet provided an excess of some vitamins (A, E, C, B12, B6, and riboflavin) and marginal amounts of others (nicotinate, pantothenate, thiamine, and folic acid). \r\n<P>\r\nNutrient intake measurements:  The daily intake (grams) of protein, fat, carbohydrates, and fiber averaged over all Apollo missions was 76, 61, 269, and 5.4, respectively.  The daily intake (milligrams) of calcium, phosphorus, sodium, and potassium averaged over all Apollo missions was 773.0, 1121.0, 3666.0, 2183.0, respectively.    \r\n<P>\r\nMetabolic balance:  A detailed assessment of energy metabolism was conducted for the Apollo 16 metabolic balance study and special emphasis was placed on potassium intake and excretion.  The average energy intake (kcal/day) for the Commander (CDR), Command Module Pilot (CMP), and Lunar Module Pilot (LMP) was 2403, 1565, and 2366, respectively.  The average daily inflight potassium intake for the CMD was 113.6 milliequivalents (mEq).  In flight, the CMD lost potassium by the fecal route at a rate of 6.4 mEq/day, whereas 18.8 mEq/day were lost preflight and 20.5 mEq/day postflight.  For the LMP, the average daily pre-, in-, and postflight potassium intake was 110.5, 114.7, and 97.5 mEq, respectively.  During the pre-, in-, and postflight phases, the average daily potassium fecal losses for the LMP were 33.5, 11.1, and 31.0 mEq, respectively.  For the CMP, average daily pre-, in-, and postflight dietary potassium intakes were 94.3, 79.9, and 82.4 mEq, respectively.  CMP fecal samples for the same periods indicated that potassium levels were 27.6, 6.3, and 26.2 mEq, respectively.\r\n<P>\r\nThe metabolic data from the Apollo 17 mission was compared to the five-day control study data, however, the duration of the pre- and postflight measurement periods was not sufficient to establish reliable metabolic baselines.  Inflight urine outputs were proportionately lower for all three crewmembers compared to control study values.  Inflight estimates of water loss for all crewmembers indicated that 900 to 1200 ml/day were lost.  Total body water measurements did not indicate a negative water balance for the crew.  Calcium, phosphorus, and nitrogen balance results indicated that all crewmembers were in negative balance for these elements during the inflight period.   Intake and output measurements for sodium indicated a positive balance for this element during the flight for all crewmembers.  \r\n<P>\r\nAnthropometric measurements:  The average inflight weight loss for all crewmen in the Apollo program was 3.53 kg.  Body volume (liters) measurements for the Apollo 16 crew indicated that the CDR, CMP, and LMP had preflight volumes of 75.5, 62.1, and 73.2, respectively.  Postflight data on body volume showed that the CDR, CMP, and LMP had body volume measurements of 74.8, 57.8, and 71.4 liters, respectively.<END>",
+  "payload_id": "Apollo 10",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "AP010",
+  "indexed": "2026-08-23T04:13:05.235839+00:00",
+  "GUID": "cl62aukgqcbkk01o6ay13fvjn",
+  "parameter_name": [
+   "Alkaline phosphatase",
+   "Angiotensin",
+   "Basophils",
+   "Bilirubin",
+   "Body density",
+   "Body volume",
+   "Calcium",
+   "Carbohydrate intake",
+   "Chloride",
+   "Cholesterol",
+   "Creatinine",
+   "Crude fiber, feces",
+   "Dietary intake, fat",
+   "Dietary intake, fiber",
+   "Dietary intake, fluid",
+   "Dietary intake, food",
+   "Dietary intake, protein",
+   "Electrolytes, urine",
+   "Eosinophils",
+   "Eosinophils, total",
+   "Fat, percentage",
+   "Fatty acids, feces",
+   "Fluid output",
+   "Folic acid",
+   "Food content, fat soluble vitamins",
+   "Food content, iron",
+   "Food content, magnesium",
+   "Food content, potassium",
+   "Food content, sodium",
+   "Food content, water soluble vitamins",
+   "Glucose",
+   "Hematocrit",
+   "Hemoglobin",
+   "Insulin",
+   "Kilocalories, feces",
+   "Lean body mass",
+   "Lipoproteins",
+   "Lymphocytes",
+   "Magnesium",
+   "Monocytes",
+   "Nickel, feces",
+   "Nicotinate",
+   "Osmolality, urine",
+   "Pantothenate",
+   "Phosphorus",
+   "Phosphorus intake",
+   "Plasma volume",
+   "Potassium",
+   "Potassium intake",
+   "Potassium, feces",
+   "Protein, feces",
+   "Red blood cell count",
+   "Riboflavin",
+   "Sodium",
+   "Sodium intake",
+   "Thiamine",
+   "Thyroxine (T4)",
+   "Triiodothyronine (T3)",
+   "Uric acid",
+   "Urine volume",
+   "Vitamin A",
+   "Vitamin B12",
+   "Vitamin B6",
+   "Vitamin C",
+   "Vitamin E",
+   "Water, feces",
+   "Weight",
+   "17-hydroxyprogesterone (17-OHP)",
+   "Blood urea nitrogen (BUN)",
+   "Creatinine phosphokinase (CPK)",
+   "Creatinine, urine",
+   "Extracellular fluid volume (ECFV)",
+   "Alpha 1 globulin",
+   "Alpha 2 globulin",
+   "Beta globulin",
+   "Gamma globulin",
+   "Intracellular fluid volume (ICFV)",
+   "Lactate dehydrogenase (LDH)",
+   "Total lipids, feces",
+   "Apolipoprotein, urine",
+   "Magnesium, urine",
+   "Mean corpuscular hemoglobin (MCH)",
+   "Mean corpuscular volume (MCV)",
+   "Nitrogen, urine",
+   "Norepinephrine, urine",
+   "Potassium, urine",
+   "Serum glutamic oxaloacetic transaminase (SGOT)",
+   "Body fat, total",
+   "Total body water (TBW)",
+   "Triglycerides"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 371,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Metabolism and nutrition"
+  ],
+  "pme_role_with_name": [
+   "Principal Investigator: Rambaut, Paul",
+   "Principal Investigator: Smith, Malcolm",
+   "Principal Investigator: Wheeler, Harry"
+  ],
+  "missions": [
+   [
+    [
+     "Apollo 10"
+    ]
+   ],
+   [
+    [
+     "Apollo 11"
+    ]
+   ],
+   [
+    [
+     "Apollo 12"
+    ]
+   ],
+   [
+    [
+     "Apollo 13"
+    ]
+   ],
+   [
+    [
+     "Apollo 14"
+    ]
+   ],
+   [
+    [
+     "Apollo 15"
+    ]
+   ],
+   [
+    [
+     "Apollo 16"
+    ]
+   ],
+   [
+    [
+     "Apollo 17"
+    ]
+   ],
+   [
+    [
+     "Apollo 7"
+    ]
+   ],
+   [
+    [
+     "Apollo 8"
+    ]
+   ],
+   [
+    [
+     "Apollo 9"
+    ]
+   ]
+  ],
+  "__dirid": "a010ee1a-3a7e-5cc7-b519-edc1361beaf7",
+  "__record_size_wo_doccontent": 194110,
+  "PI": [
+   "Rambaut, Paul",
+   "Smith, Malcolm",
+   "Wheeler, Harry"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "AP010"
+  ],
+  "mission_id": [
+   [
+    [
+     "Apollo 10"
+    ]
+   ],
+   [
+    [
+     "Apollo 11"
+    ]
+   ],
+   [
+    [
+     "Apollo 12"
+    ]
+   ],
+   [
+    [
+     "Apollo 13"
+    ]
+   ],
+   [
+    [
+     "Apollo 14"
+    ]
+   ],
+   [
+    [
+     "Apollo 15"
+    ]
+   ],
+   [
+    [
+     "Apollo 16"
+    ]
+   ],
+   [
+    [
+     "Apollo 17"
+    ]
+   ],
+   [
+    [
+     "Apollo 7"
+    ]
+   ],
+   [
+    [
+     "Apollo 8"
+    ]
+   ],
+   [
+    [
+     "Apollo 9"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Rambaut, Paul",
+   "Smith, Malcolm",
+   "Wheeler, Harry"
+  ],
+  "archive_status": "Data preservation is complete. Privacy-protected datasets are available via data request. Remaining datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Apollo",
+  "__source_field_concat": "PUB000352 Apollo 10 cl62aukgqcbkk01o6ay13fvjn Fatty acids  N/A Nutritional Studies AP010 Apollo",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<br>\r\nThe importance of nutrition in the adaptation of man to weightlessness was recognized early in the United States manned space flight program.  Investigators were concerned with the possibility that exposure to microgravity would impose high demands on micronutrients and would therefore lead to nutritional deficiencies.  Experiments conducted during the Gemini program led space life scientists to believe that some physiological changes associated with space flight were related to nutritional imbalances.   It was noted that the musculoskeletal system is one of the primary physiological systems affected by microgravity-induced nutritional alterations.  Numerous studies documented that imbalances between bone formation and resorption can lead to clinical disorders such as increased calcium in the blood and urine and osteoporosis.  Bed rest investigations lasting from 30 to 36 weeks provided evidence that mineral losses associated with bone resorption were likely to continue unabated during prolonged space flight. \r\n<P>\r\nIn addition, the physical data on astronauts from the Mercury and Gemini programs showed a consistent pattern of postmission weight loss.  The weight reduction was believed to have resulted from water and muscle tissue losses.  Scientists also considered the possibility that the weight loss was due to insufficient caloric intake.  Therefore, the issue of inflight caloric requirements was investigated thoroughly during the Apollo missions.\r\n<P>\r\nApollo scientists were also concerned with the fact that food systems having minimum weight and volume are required for space flight.  The food consumed during the Apollo missions was generally dehydrated and specially formulated to occupy minimal volume.  Therefore, the effects of the specialized food packaging methods on the nutritional content of the food was investigated.  Thus, the objective of the Apollo nutritional investigation was to conduct a comprehensive metabolic balance study in order to correlate nutrient intake and excretion data to specific inflight physiological changes.  The study helped scientists acquire an accurate knowledge of inflight human nutrition requirements which was essential for the development of more advanced space food systems.   \r\n<P>\r\nAPPROACH:<br>\r\nFood analysis:  All foods were analyzed for nitrogen, fat, carbohydrates, crude fiber, phosphorus, iron, sodium, potassium, and magnesium content.  Some composite Apollo menus were analyzed for water- and fat-soluble vitamins.  \r\n<P>\r\nDietetics:  The menus used by the Apollo astronauts were formulated from flight-qualified Apollo foods in combinations that complied with the personal preferences of the crewmen and that met the Recommended Daily Allowance (RDA) requirement.  The menus were primarily composed of dehydrated foods that were reconstituted before eating.  The foods were consumed in a prearranged sequence, but could be supplemented by additional items.\r\n<P>\r\nNutrient intake measurements:  Each meal was composed of a predetermined number of food items.  Records were kept on any foods omitted or incompletely consumed.  Snack items consumed that were not part of the programmed meals were also recorded in the flight logs.  All food residue and unopened food packages were returned from the missions.  Residue was weighed to provide more precise information on inflight nutrient intake.  For the Apollo 17 mission, a five-day metabolic balance study was performed approximately two months before the mission by using the flight menus and collecting urine and fecal wastes.  \r\n<P>\r\nFecal measurements:  Fecal samples were returned from all Apollo flights and analyzed for a variety of constituents either by nuclear activation analysis or by wet chemistry techniques.  \r\n<P>\r\nMetabolic balance:  A partial metabolic balance study was performed on the Apollo 16 crew.  Urine and fecal samples were returned for analysis and the data was compared to the inflight nutrient intake data.  For a more detailed metabolic balance study in conjunction with Apollo 17, accurate measurements of fluid intake and output were performed approximately two months before the mission.  A five-day food compatibility / metabolic study was performed in which three Apollo 17 prime and backup crewmembers consumed their flight foods and participated in metabolic collections.  The study was designed to obtain baseline data on the excretory levels of electrolytes and nitrogen in response to the Apollo 17 flight menu.  \r\n<P>\r\nBeginning 64 hours before Apollo 17 lift-off and continuing throughout the mission until 44 hours following recovery, all food and fluid intake was measured.  During the preflight and postflight periods, conventional meals were prepared in duplicate for each astronaut.  One duplicate of each meal was analyzed in addition to the residue from the meal that was consumed in order to measure nutrient intake and output.  Every food item consumed inflight was derived from a group of foods that had been analyzed for nutritional content.  All deviations from programmed food intake were logged and reported.  Inflight water consumption was measured using a beverage dispenser.    \r\n<P>             \r\nAll urine was collected, measured, sampled and returned for analysis.  Inflight urine samples were collected by means of a biomedical urine sampling system (BUSS).  Each BUSS was marked with the name of the crewmember and the time of collection.  Following each collection period, the urine pool was thoroughly mixed before a sample was taken.  The urine samples represented a 24-hour void and were subsequently analyzed for electrolytes, nitrogen, and creatine.  Complete stool collections were also performed. \r\n<P>\r\nBody volume measurements:  For the Apollo 16 crewmembers, three preflight and three postflight body volume measurements were made by stereophotogrammetry.  Body density was calculated from body volume and weight.  Density was used to calculate the percentage of fat.  Changes in calculated lean body mass and total body fat were converted into caloric equivalents.  Total body water was measured using a potassium-42 dilution technique.  \r\n<P>\r\nRESULTS:<br>\r\nFood analysis:  The overall nutritional analysis indicated that the typical Apollo diet was composed of protein, fat, carbohydrates, fiber, and minerals in the following percentages (percent of dry weight): 18.0, 17.0, 61.0, 1.0, and 3.0, respectively.  The results of the vitamin analysis indicated that the Apollo diet provided an excess of some vitamins (A, E, C, B12, B6, and riboflavin) and marginal amounts of others (nicotinate, pantothenate, thiamine, and folic acid). \r\n<P>\r\nNutrient intake measurements:  The daily intake (grams) of protein, fat, carbohydrates, and fiber averaged over all Apollo missions was 76, 61, 269, and 5.4, respectively.  The daily intake (milligrams) of calcium, phosphorus, sodium, and potassium averaged over all Apollo missions was 773.0, 1121.0, 3666.0, 2183.0, respectively.    \r\n<P>\r\nMetabolic balance:  A detailed assessment of energy metabolism was conducted for the Apollo 16 metabolic balance study and special emphasis was placed on potassium intake and excretion.  The average energy intake (kcal/day) for the Commander (CDR), Command Module Pilot (CMP), and Lunar Module Pilot (LMP) was 2403, 1565, and 2366, respectively.  The average daily inflight potassium intake for the CMD was 113.6 milliequivalents (mEq).  In flight, the CMD lost potassium by the fecal route at a rate of 6.4 mEq/day, whereas 18.8 mEq/day were lost preflight and 20.5 mEq/day postflight.  For the LMP, the average daily pre-, in-, and postflight potassium intake was 110.5, 114.7, and 97.5 mEq, respectively.  During the pre-, in-, and postflight phases, the average daily potassium fecal losses for the LMP were 33.5, 11.1, and 31.0 mEq, respectively.  For the CMP, average daily pre-, in-, and postflight dietary potassium intakes were 94.3, 79.9, and 82.4 mEq, respectively.  CMP fecal samples for the same periods indicated that potassium levels were 27.6, 6.3, and 26.2 mEq, respectively.\r\n<P>\r\nThe metabolic data from the Apollo 17 mission was compared to the five-day control study data, however, the duration of the pre- and postflight measurement periods was not sufficient to establish reliable metabolic baselines.  Inflight urine outputs were proportionately lower for all three crewmembers compared to control study values.  Inflight estimates of water loss for all crewmembers indicated that 900 to 1200 ml/day were lost.  Total body water measurements did not indicate a negative water balance for the crew.  Calcium, phosphorus, and nitrogen balance results indicated that all crewmembers were in negative balance for these elements during the inflight period.   Intake and output measurements for sodium indicated a positive balance for this element during the flight for all crewmembers.  \r\n<P>\r\nAnthropometric measurements:  The average inflight weight loss for all crewmen in the Apollo program was 3.53 kg.  Body volume (liters) measurements for the Apollo 16 crew indicated that the CDR, CMP, and LMP had preflight volumes of 75.5, 62.1, and 73.2, respectively.  Postflight data on body volume showed that the CDR, CMP, and LMP had body volume measurements of 74.8, 57.8, and 71.4 liters, respectively.<END>",
+  "__doi": "10.83263/vmr6-wa28",
+  "__doi_record_creation_date": "2026-08-23T04:13:05",
+  "__doi_record_modified_date": "2026-08-23T04:13:05"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000640",
+   "label": "JMAPAP010_128",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Fatty Acid Analysis of Fecal Samples Based on Total Fat",
+    "dataset_catalog": "JMAPAP010_128",
+    "dataset_description": [
+     "Inflight fecal samples were analyzed for total fat, fatty acids, and conjugated and unconjugated bile acids for Apollo 7 through 17 missions.  The values are percentage of total fat +/- standard deviation.  The \"C\" represents the element carbon and the number preceding represents the number of carbons in the fatty acid chain.\r\n<P>\r\nSource: Rambaut PC, Smith MC, Wheeler HO.  Nutritional Studies.  In:  Johnston RS, Dietlein LF, Berry CA, editors.  <I>Biomedical Results of Apollo.</I>  Washington D.C.: National Aeronautics and Space Administration, 1975.  NASA SP-368.<END>"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "AP010"
+    ]
+   },
+   "meta": "11 files \u00b7 209.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "1e54f865-d3f1-5f57-bf44-9a66c48ac834",
+     "label": "JMAPAP010_128.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 19456,
+     "meta": "19.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "82115bea-ea1c-5cff-9e59-d39cd6c3dc8d",
+     "label": "JMAPAP010_128.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 19456,
+     "meta": "19.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5def3430-c2e1-546c-ba63-742647d7fa28",
+     "label": "JMAPAP010_128.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 19456,
+     "meta": "19.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "6e37a81c-0489-527c-8114-8b4c391e8ec4",
+     "label": "JMAPAP010_128.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 19456,
+     "meta": "19.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f6f545ac-1d78-5934-a651-a6607b2f72ca",
+     "label": "JMAPAP010_128.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 19456,
+     "meta": "19.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c2846e76-f4f8-5732-9d9f-bf64ba5024f1",
+     "label": "JMAPAP010_128.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 19456,
+     "meta": "19.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b1985bb9-d165-5a31-9fff-17b2fb6b01b8",
+     "label": "JMAPAP010_128.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 19456,
+     "meta": "19.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "68b8f5d0-6432-5b09-9bff-46f260742f93",
+     "label": "JMAPAP010_128.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 19456,
+     "meta": "19.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "63a467f7-6d8d-5a72-8b8f-bf1d8605750d",
+     "label": "JMAPAP010_128.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 19456,
+     "meta": "19.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b35d9c39-0795-5962-9de7-649196e1b60c",
+     "label": "JMAPAP010_128.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 19456,
+     "meta": "19.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f105f1df-1e93-59d2-bc6c-0ce2509bb762",
+     "label": "JMAPAP010_128.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 19456,
+     "meta": "19.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000206",
+   "label": "JMAPAP010_114",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Apollo Food and Beverage Baseline List",
+    "dataset_catalog": "JMAPAP010_114",
+    "dataset_description": [
+     "Apollo food and beverage list, including all abbreviations for each food item's state before consumption (for example RSB, for rehydratable spoon bowl or T, for thermostabilized).  Included in the list are beverages, breakfast items, cubes and candy, desserts, salads and soups, sandwich spreads and bread, and meats.\r\n<P>\r\nSource: NASA History Site at http://history.nasa.gov/<END>"
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "AP010"
+    ]
+   },
+   "meta": "11 files \u00b7 231.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "1880f80d-2ebf-5bfb-bf4b-160536c397be",
+     "label": "JMAPAP010_114.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 21504,
+     "meta": "21.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "fcd36eea-cde0-55dc-b68e-577f064a9e41",
+     "label": "JMAPAP010_114.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 21504,
+     "meta": "21.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "07b7276d-ff23-5b89-b9cd-8e15f986e7ce",
+     "label": "JMAPAP010_114.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 21504,
+     "meta": "21.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a2be7611-ac6e-5464-99c9-d9a8f2569ad0",
+     "label": "JMAPAP010_114.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 21504,
+     "meta": "21.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "bc6406e4-c262-5156-9378-4771ffd96cd7",
+     "label": "JMAPAP010_114.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 21504,
+     "meta": "21.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "75d11480-0dae-5125-bf0c-8e1f61e3e714",
+     "label": "JMAPAP010_114.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 21504,
+     "meta": "21.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "cc4bc661-54d0-5ddf-b225-4fc46c0e3bfa",
+     "label": "JMAPAP010_114.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 21504,
+     "meta": "21.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ffb2ebcf-d252-59d2-a5df-a58e354b5c8e",
+     "label": "JMAPAP010_114.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 21504,
+     "meta": "21.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d6be4d67-4939-5581-a27d-803046c60ea3",
+     "label": "JMAPAP010_114.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 21504,
+     "meta": "21.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5b18be0c-f1f8-52f1-988a-8068654739bc",
+     "label": "JMAPAP010_114.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 21504,
+     "meta": "21.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "02fffe6c-7a50-5b2a-bac4-5a1f8de1c9c6",
+     "label": "JMAPAP010_114.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 21504,
+     "meta": "21.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000638",
+   "label": "JMAPAP010_127",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Analysis of Fecal Samples Based on Dry Weight",
+    "dataset_catalog": "JMAPAP010_127",
+    "dataset_description": [
+     "This table represents analysis of fecal dry weight samples for moisture, nitrogen, protein, total lipids, crude fiber, energy value, potassium, and nickel.  Values are averages +/- standard deviation.\r\n<P>\r\nSource: Rambaut PC, Smith MC, Wheeler HO.  Nutritional Studies.  In:  Johnston RS, Dietlein LF, Berry CA, editors.  <I>Biomedical Results of Apollo.</I>  Washington D.C.: National Aeronautics and Space Administration, 1975.  NASA SP-368.<END>"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "AP010"
+    ]
+   },
+   "meta": "11 files \u00b7 220.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "24bc4b42-be6a-5b8f-9ff3-0b6c8cecafca",
+     "label": "JMAPAP010_127.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 20480,
+     "meta": "20.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2db7a4c1-b484-5512-a62b-8cda0e43a060",
+     "label": "JMAPAP010_127.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 20480,
+     "meta": "20.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7c33b4bc-810b-560d-8272-4ff0751e17f4",
+     "label": "JMAPAP010_127.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 20480,
+     "meta": "20.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0f3b5cde-1186-5e9f-b748-be0f6ca90551",
+     "label": "JMAPAP010_127.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 20480,
+     "meta": "20.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "73c97a87-c8d4-553c-8fe7-2b8c24764510",
+     "label": "JMAPAP010_127.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 20480,
+     "meta": "20.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "850bf94c-45b9-503b-a8ed-bd43550980ce",
+     "label": "JMAPAP010_127.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 20480,
+     "meta": "20.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0cca63e6-a968-5d15-9654-cf0477f19f69",
+     "label": "JMAPAP010_127.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 20480,
+     "meta": "20.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "631c777a-276b-51e3-a429-13d4c251334c",
+     "label": "JMAPAP010_127.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 20480,
+     "meta": "20.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9cf3c412-9c62-57ae-8653-05749934b20a",
+     "label": "JMAPAP010_127.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 20480,
+     "meta": "20.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a7652ee8-dafd-5eb8-a95a-60812d5de30c",
+     "label": "JMAPAP010_127.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 20480,
+     "meta": "20.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2dd162ee-2631-5700-97f3-032a68572378",
+     "label": "JMAPAP010_127.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 20480,
+     "meta": "20.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002377",
+   "label": "JMAPAP010_118",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Nutrient Intake During Apollo Missions",
+    "dataset_catalog": "JMAPAP010_118",
+    "dataset_description": [
+     "The quality of individual nutrients consumed during all Apollo missions is presented in this table as a composite estimate derived from numerous measurements.  The items consumed or omitted were logged daily.  On all Apollo flights, most residue and unopened food packages were returned , and the residue was weighted to provide more precise information on inflight food consumption, as well as to verify inflight logging procedures.\r\n<P>\r\nSource: Rambaut PC, Smith MC, Wheeler HO.  Nutritional Studies.  In:  Johnston RS, Dietlein LF, Berry CA, editors.  <I>Biomedical Results of Apollo.</I>  Washington D.C.: National Aeronautics and Space Administration, 1975.  NASA SP-368.<END>"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "AP010"
+    ]
+   },
+   "meta": "11 files \u00b7 187.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "b4f41614-c8f5-5a00-afab-80fddfd2427c",
+     "label": "JMAPAP010_118.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 17408,
+     "meta": "17.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4792015e-1fe9-59cc-a42b-29bd5e4a6752",
+     "label": "JMAPAP010_118.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 17408,
+     "meta": "17.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e46506dc-fd37-5710-988a-3617c05f641b",
+     "label": "JMAPAP010_118.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 17408,
+     "meta": "17.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f1fc71e6-2a43-5530-bd92-af8c641cce49",
+     "label": "JMAPAP010_118.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 17408,
+     "meta": "17.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "58ba98ea-7796-5973-b6d6-1c417fcbcadb",
+     "label": "JMAPAP010_118.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 17408,
+     "meta": "17.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "7890748e-d112-593f-88e1-a0007099f6a6",
+     "label": "JMAPAP010_118.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 17408,
+     "meta": "17.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a1865e51-b099-5631-ac52-514410c03db9",
+     "label": "JMAPAP010_118.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 17408,
+     "meta": "17.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "11f7865d-8e2c-5404-905c-02dba1178304",
+     "label": "JMAPAP010_118.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 17408,
+     "meta": "17.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "fe712f6d-7d6a-533c-ac96-3d3812e46389",
+     "label": "JMAPAP010_118.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 17408,
+     "meta": "17.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "123bf97c-da83-5ac7-8f96-0f8cf867c2a6",
+     "label": "JMAPAP010_118.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 17408,
+     "meta": "17.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "45df9205-5985-52b7-ae7a-f05b70a778c0",
+     "label": "JMAPAP010_118.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 17408,
+     "meta": "17.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000625",
+   "label": "JMAPAP010_119",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Nutritional Composition of Typical Apollo Diet",
+    "dataset_catalog": "JMAPAP010_119",
+    "dataset_description": [
+     "The nutritional composition of the typical Apollo inflight diet is given in this table, which lists the dry percentage weight of several nutrients including, protein, fat, total carbohydrate, fiber and minerals.  This diet is high in protein and carbohydrate and low in residue and fat, but not all astronauts necessarily consumed this in its entirety.\r\n<P>\r\nSource: Rambaut PC, Smith MC, Wheeler HO.  Nutritional Studies.  In:  Johnston RS, Dietlein LF, Berry CA, editors.  <I>Biomedical Results of Apollo.</I>  Washington D.C.: National Aeronautics and Space Administration, 1975.  NASA SP-368.<END>"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "AP010"
+    ]
+   },
+   "meta": "11 files \u00b7 154.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "20d8da63-c4fe-54b2-96c0-3bf3703dd57c",
+     "label": "JMAPAP010_119.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 14336,
+     "meta": "14.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "be724b7a-9ad9-5b93-bd6c-059639281681",
+     "label": "JMAPAP010_119.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 14336,
+     "meta": "14.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9f4bcb26-970a-54d3-a017-7439ec3e8127",
+     "label": "JMAPAP010_119.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 14336,
+     "meta": "14.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "245225cd-5f59-59a2-bcf2-ac897196f281",
+     "label": "JMAPAP010_119.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 14336,
+     "meta": "14.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "39dc1fa4-71a8-56ec-8996-f6e8b06797d0",
+     "label": "JMAPAP010_119.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 14336,
+     "meta": "14.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9cb4aee2-7430-563b-a37a-ebb76df14944",
+     "label": "JMAPAP010_119.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 14336,
+     "meta": "14.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3c70ca9f-7256-547a-a1af-606c606ef3fa",
+     "label": "JMAPAP010_119.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 14336,
+     "meta": "14.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b1726253-b2dd-506d-8958-ca4e7db0f099",
+     "label": "JMAPAP010_119.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 14336,
+     "meta": "14.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "1dd9d8a0-0ebf-539d-830e-ad0739b5051a",
+     "label": "JMAPAP010_119.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 14336,
+     "meta": "14.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2a8d4b51-b664-503e-9f2a-c6134cdb0e4d",
+     "label": "JMAPAP010_119.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 14336,
+     "meta": "14.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "009f9996-baa1-594f-acfa-fe5198f45b4d",
+     "label": "JMAPAP010_119.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 14336,
+     "meta": "14.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000626",
+   "label": "JMAPAP010_129",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Apollo Dietary Fat Absorbed",
+    "dataset_catalog": "JMAPAP010_129",
+    "dataset_description": [
+     "This dataset shows the fat absorbed in the diet for Apollo 16 and 17 crewmembers.  Measurements are from fecal analyses.\r\n<P>\r\nSource: Rambaut PC, Smith MC, Wheeler HO. Nutritional Studies. In: Johnston RS, Dietlein LF,\r\nBerry CA, editors. Biomedical Results of Apollo. Washington D.C.: National Aeronautics and\r\nSpace Administration, 1975. NASA SP-368."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "AP010"
+    ]
+   },
+   "meta": "2 files \u00b7 38.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "fcf534d3-0137-5363-b8c5-90165545f542",
+     "label": "JMAPAP010_129.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 19456,
+     "meta": "19.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e81da326-0fdf-50f0-9e00-f301550370c1",
+     "label": "JMAPAP010_129.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 19456,
+     "meta": "19.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001399",
+   "label": "JMAPAP010_116",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Dietary 24 Hour Urine Chemistry",
+    "dataset_catalog": "JMAPAP010_116",
+    "dataset_description": [
+     "This table includes the values for 24-hour urine analysis for one day pre-diet and for each day of the diet.  As will be noted, a significant variation in phosphate excretion was observed on the last three days of the diet.  Values shown in the table are for all 6 subjects combined.  No other significant variations were observed.\r\n<P>\r\nSource: Hander EW, Leach CS, Johnson PC, Fischer CL, Rummel J, Rambaut PC.  <I>Biochemical and Physiological Consequences of the Apollo Flight Diet.</I>  Aerospace Medicine 1971 Nov; 42(11):1192-95.<END>"
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "AP010"
+    ]
+   },
+   "meta": "11 files \u00b7 231.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "9e803707-78c2-52fa-95e2-a3f5fe6ea1c7",
+     "label": "JMAPAP010_116.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 21504,
+     "meta": "21.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "bb090a05-5209-5e99-92cf-30fc4812e8b8",
+     "label": "JMAPAP010_116.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 21504,
+     "meta": "21.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "2e35b2b6-ffa3-510a-974b-f13a1f607698",
+     "label": "JMAPAP010_116.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 21504,
+     "meta": "21.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9919cc14-97f1-56cd-abfc-245a84f92a23",
+     "label": "JMAPAP010_116.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 21504,
+     "meta": "21.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c378c566-c840-5a68-b35f-ddc7fdbdfe40",
+     "label": "JMAPAP010_116.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 21504,
+     "meta": "21.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0664ce3b-b405-51f6-bb9d-a09b68f59ec4",
+     "label": "JMAPAP010_116.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 21504,
+     "meta": "21.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5bc69737-e893-597a-8dde-bd24230b6531",
+     "label": "JMAPAP010_116.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 21504,
+     "meta": "21.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "61983f0a-6688-557c-8e47-541036ffa59f",
+     "label": "JMAPAP010_116.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 21504,
+     "meta": "21.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f99b5b71-a9d0-5586-b105-f0889dc483c5",
+     "label": "JMAPAP010_116.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 21504,
+     "meta": "21.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "cabbe811-6b56-5dcf-9155-57582018bc17",
+     "label": "JMAPAP010_116.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 21504,
+     "meta": "21.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "76354929-ba99-5ee0-ad1f-7ac38e01656a",
+     "label": "JMAPAP010_116.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 21504,
+     "meta": "21.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001755",
+   "label": "JMAPAP010_115",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Apollo Dietary Mean Values(Serum and Blood)",
+    "dataset_catalog": "JMAPAP010_115",
+    "dataset_description": [
+     "This table shows a detailed analysis of each of the parameters measured.  The values shown are mean values for all six individuals considered as a population.  This table includes all values for serum and blood for pre-diet, third day of diet and post-diet samples  There were no significant variations from control values noted.\r\n<P>\r\nSource: Hander EW, Leach CS, Johnson PC, Fischer CL, Rummel J, Rambaut PC.  <I>Biochemical and Physiological Consequences of the Apollo Flight Diet.</I>  Aerospace Medicine 1971 Nov; 42(11):1192-95.<END>"
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "AP010"
+    ]
+   },
+   "meta": "11 files \u00b7 341.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "85b7b64c-4a76-56b1-9ad5-f4c51c15f8d2",
+     "label": "JMAPAP010_115.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 31744,
+     "meta": "31.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4684c40a-887e-5437-9027-79170ca8a905",
+     "label": "JMAPAP010_115.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 31744,
+     "meta": "31.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "f43735e8-0799-5230-ada2-c2bb83c57a8a",
+     "label": "JMAPAP010_115.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 31744,
+     "meta": "31.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "45c7dcc7-8f86-59f8-a6be-3c7d0827662d",
+     "label": "JMAPAP010_115.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 31744,
+     "meta": "31.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "00a847ac-1e6b-5c59-866d-9d4bbbc7a1d1",
+     "label": "JMAPAP010_115.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 31744,
+     "meta": "31.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0ed35e1b-25d3-5aa1-ac18-82a2386ed81d",
+     "label": "JMAPAP010_115.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 31744,
+     "meta": "31.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9e7f7ebb-878c-51c8-8dc3-d351480e80cc",
+     "label": "JMAPAP010_115.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 31744,
+     "meta": "31.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "bb0e28e5-9158-500a-96d6-aed0514456cd",
+     "label": "JMAPAP010_115.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 31744,
+     "meta": "31.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5e5f1901-e151-58e5-8d36-5f7769eaef72",
+     "label": "JMAPAP010_115.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 31744,
+     "meta": "31.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e76c8b53-6d1f-518c-9f20-0e0c750eee8f",
+     "label": "JMAPAP010_115.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 31744,
+     "meta": "31.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "444294ff-103c-58a9-a35d-0e5b0cd5a664",
+     "label": "JMAPAP010_115.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 31744,
+     "meta": "31.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001756",
+   "label": "JMAPAP010_117",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Pre-diet and Post-diet Body Fluids",
+    "dataset_catalog": "JMAPAP010_117",
+    "dataset_description": [
+     "This table includes all values for extravascular body fluids and blood volume as determined pre-diet and post-diet.  There were no significant variation noted.  Values shown in the table are for all 6 subjects combined.\r\n<P>\r\nSource: Hander EW, Leach CS, Johnson PC, Fischer CL, Rummel J, Rambaut PC.  <I>Biochemical and Physiological Consequences of the Apollo Flight Diet.</I>  Aerospace Medicine 1971 Nov; 42(11):1192-95.<END>"
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "AP010"
+    ]
+   },
+   "meta": "11 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "7d38f1ef-9680-58dd-ace0-7bd50f89e9e5",
+     "label": "JMAPAP010_117.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "55827606-077b-5925-87dd-bc104827f2da",
+     "label": "JMAPAP010_117.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ee3fb7d6-7c3e-50ba-a797-657ebb4a0b19",
+     "label": "JMAPAP010_117.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "67b49c55-dece-59e8-a161-ba9171d960e0",
+     "label": "JMAPAP010_117.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "351b0874-ba52-5fd5-933d-8cc7639d3520",
+     "label": "JMAPAP010_117.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "0496b4f7-8dd5-5349-bc25-5e72b0502f07",
+     "label": "JMAPAP010_117.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3449b5b1-bacb-5cce-bce0-4e1e628b2ff4",
+     "label": "JMAPAP010_117.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "8935b4a1-c280-5037-9240-6e0a2ed7c8bf",
+     "label": "JMAPAP010_117.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "e920486d-9c2a-5e15-8827-32f9a61a842a",
+     "label": "JMAPAP010_117.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b210ea2d-f348-58be-b5fc-fd6aff702a7f",
+     "label": "JMAPAP010_117.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ca67e357-312b-5c97-af8b-b514e3e9fdd0",
+     "label": "JMAPAP010_117.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,140 @@
+{
+ "record": {
+  "id": "331f9d8b-37b1-5f3d-aff6-c5c1269eeaf3",
+  "_id": "331f9d8b-37b1-5f3d-aff6-c5c1269eeaf3",
+  "experiment_title": "Inter Limb Resistance Device Evaluation",
+  "archive_status_index": 1,
+  "pub_document_number": "PUB002098",
+  "parameter_html": "<table><tr><td>Force, bicep curl</td></tr><tr><td>Force, calf press</td></tr><tr><td>Force, leg press</td></tr><tr></tr></table>",
+  "__source_key": "cl62aw962ccn201o64msoe6uq",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Hargens, Alan\">Principal Investigator: Hargens, Alan</a>",
+  "experiment_type_lk": [
+   "Shuttle Detailed Test Objectives (DTO)"
+  ],
+  "__record_modified_date": "2026-08-23T03:42:40.022702+00:00",
+  "__indexed": "2026-08-23T03:42:40.022702+00:00",
+  "__record_creation_date": "2022-07-28T19:45:27.909Z",
+  "keyword": [
+   "Weightlessness countermeasures",
+   "Exertion",
+   "Exercise"
+  ],
+  "keyword_name": "Exercise",
+  "__record_size": 50365,
+  "__record_version": 28,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<br>\r\nThe Inter Limb Resistance Device (ILRD) has been tested on the KC-135 and in the Weightless Environment Training Facility (WETF).  The ILRD is a safe, simple, compact, low mass exercise harness with an inelelastic cable and pulley system that allows the subject to exercise one limb against the other.\r\n<p>\r\nThe objectives of this experiment were:<br>\r\n1. Expected to minimize vibration of sensitive experiments aboard the spacecraft.<br>\r\n2. Evaluate for ease of set up and stowage, and physical comfort during exercise.<br>\r\n3. Demonstrate ability to provide concentric, eccentric and isometric resistive exercise.<br>\r\n4. Evaluate the subject restraint system used to stabilize the exercising subject.<br>\r\n5. Evaluate the impact on the microgravity environment of the orbiter utilizing an on-board acceleration measurement system, when available.<br>\r\n<p>\r\nAPPROACH:<br>\r\n<li>Heart rate monitor was worn prior to and during each session. </li>\r\n<li>Evaluated: setup, ILRD donning and doffing, restraint system. </li>\r\n<li> Configured for anti-gravity muscle training, performed general repetitions at high loads, followed by \"running\" at lower loads. </li>\r\n<li>Minor reconfiguration for calf and upper body exercise (press, bicep curl and tricep curl). </li>\r\n<li> The ILRD had to be stowed between exercise sessions due to middeck constraints. </li>\r\n</ul>\r\n<p>\r\nRESULTS:<br>\r\nThe Inter-Limb Resistance exercise device performed very well during its first \"shake-down\" test in the short-duration microgravity on board the KC-135. Three subjects generated peak forces ranging from 640 to 1156 N (144 to 260 lbs) during the leg press (sum of force from both legs). Two subjects performed the calf press and generated peak forces of 702 to 782 N (158 to 176 lbs). The biceps curl exercise produced up to 623 N (140 lbs) for one subject. Forces approaching peak values were sustained throughout the range of motion for all exercises. Subjects successfully donned, reconfigured, and removed the Inter-Limb Resistance device during microgravity tests.\r\n<p>",
+  "payload_id": "DSO56",
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "DTO 683",
+  "indexed": "2026-08-23T03:42:40.022702+00:00",
+  "GUID": "cl62aw962ccn201o64msoe6uq",
+  "payload_part": "N/A",
+  "exp_index": 1873,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Muscle physiology",
+   "Technology development"
+  ],
+  "pme_role_with_name": [
+   "Principal Investigator: Hargens, Alan"
+  ],
+  "missions": [
+   [
+    [
+     "STS-56"
+    ]
+   ]
+  ],
+  "__dirid": "331f9d8b-37b1-5f3d-aff6-c5c1269eeaf3",
+  "__record_size_wo_doccontent": 50365,
+  "PI": [
+   "Hargens, Alan"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "parameter_name": [
+   "Force, bicep curl",
+   "Force, calf press",
+   "Force, leg press"
+  ],
+  "experiment_identifier": [
+   "DTO 683"
+  ],
+  "mission_id": [
+   [
+    [
+     "STS-56"
+    ]
+   ]
+  ],
+  "center": [
+   "Ames Research Center"
+  ],
+  "ncindex": [
+   7
+  ],
+  "proposal_date": [],
+  "proposal_source": [],
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens)"
+   ]
+  ],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Hargens, Alan"
+  ],
+  "program_name": [
+   "Shuttle Program"
+  ],
+  "archive_status": "Data preservation is complete. All datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Shuttle Program",
+  "__source_field_concat": "PUB002098 DSO56 cl62aw962ccn201o64msoe6uq Exercise  N/A Inter Limb Resistance Device Evaluation DTO 683 Shuttle Program Data preservation is complete. All datasets are publicly available.",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<br>\r\nThe Inter Limb Resistance Device (ILRD) has been tested on the KC-135 and in the Weightless Environment Training Facility (WETF).  The ILRD is a safe, simple, compact, low mass exercise harness with an inelelastic cable and pulley system that allows the subject to exercise one limb against the other.\r\n<p>\r\nThe objectives of this experiment were:<br>\r\n1. Expected to minimize vibration of sensitive experiments aboard the spacecraft.<br>\r\n2. Evaluate for ease of set up and stowage, and physical comfort during exercise.<br>\r\n3. Demonstrate ability to provide concentric, eccentric and isometric resistive exercise.<br>\r\n4. Evaluate the subject restraint system used to stabilize the exercising subject.<br>\r\n5. Evaluate the impact on the microgravity environment of the orbiter utilizing an on-board acceleration measurement system, when available.<br>\r\n<p>\r\nAPPROACH:<br>\r\n<li>Heart rate monitor was worn prior to and during each session. </li>\r\n<li>Evaluated: setup, ILRD donning and doffing, restraint system. </li>\r\n<li> Configured for anti-gravity muscle training, performed general repetitions at high loads, followed by \"running\" at lower loads. </li>\r\n<li>Minor reconfiguration for calf and upper body exercise (press, bicep curl and tricep curl). </li>\r\n<li> The ILRD had to be stowed between exercise sessions due to middeck constraints. </li>\r\n</ul>\r\n<p>\r\nRESULTS:<br>\r\nThe Inter-Limb Resistance exercise device performed very well during its first \"shake-down\" test in the short-duration microgravity on board the KC-135. Three subjects generated peak forces ranging from 640 to 1156 N (144 to 260 lbs) during the leg press (sum of force from both legs). Two subjects performed the calf press and generated peak forces of 702 to 782 N (158 to 176 lbs). The biceps curl exercise produced up to 623 N (140 lbs) for one subject. Forces approaching peak values were sustained throughout the range of motion for all exercises. Subjects successfully donned, reconfigured, and removed the Inter-Limb Resistance device during microgravity tests.\r\n<p>",
+  "__doi": "10.83263/dwk0-fy41",
+  "__doi_record_creation_date": "2026-08-23T03:42:40",
+  "__doi_record_modified_date": "2026-08-23T03:42:40"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001049",
+   "label": "DTO 683__2751208921",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Final Report",
+    "dataset_catalog": "DTO 683__2751208921",
+    "dataset_description": [
+     "This is a final report titled Dynamic Inter-Limb Resistance Exercise Device For Long-Duration Space Flight, which stems from the DTO 683 study. \r\n<p>\r\nSource: Schwandt DF, Watenpaugh DE, Parazynski SE, and Hargens AR. Dynamic Inter-Limb Resistance Exercise Device For Long-Duration Space Flight. In NASA, Washington, Technology 2001: The Second National Technology Transfer Conference and Exposition, Volume 2 p 533-537."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "DTO 683"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "12f2db3c-dd72-547f-a110-70e5847151dd",
+     "label": "DTO_683__2751208921.pdf_STS-56_DTO_683_2012_275_121038.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

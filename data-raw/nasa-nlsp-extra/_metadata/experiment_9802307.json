@@ -1,0 +1,220 @@
+{
+ "record": {
+  "id": "50e755d6-1401-55c3-9fd6-156791e8a199",
+  "_id": "50e755d6-1401-55c3-9fd6-156791e8a199",
+  "experiment_title": "Skeletal Development in Embryonic Quail",
+  "parameter_html": "<table><tr><td>Content, Collagen/Procollagen, bone, quail embryo, Immunohistochemistry, microscopy</td></tr><tr><td>Content, Osteocalcin, bone, quail embryo, Immunohistochemistry, microscopy</td></tr><tr><td>Weight, tissue, quail embryo, Balance (CGS units)</td></tr><tr></tr></table>",
+  "__source_key": "cl62axw2ecd0y01o6h31udsjb",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Doty, Stephen\">Principal Investigator: Doty, Stephen</a>",
+  "__record_version": 28,
+  "experiment_description": "Objectives:<P>\r\nPrevious studies of limb and musculoskeletal development in quail eggs incubated onboard the Mir space station showed that there was a developmental perturbation in the early embryo that seemed to be corrected during later embryogenesis. From these results, the following objectives were identified: 1) To determine if fibronectin influences the cellular differentiation process and the subsequent formation of a mineralizable matrix; 2) To investigate the effect of microgravity on cell cycle changes and/or cell death (apoptosis); 3) To localize and compare the distribution of BMP-2, PTHrP, and alkaline phosphatase activity in the developing bone and cartilage, as affected by microgravity; and 4) To analyze the early mineral deposition by FTIRM (Fourier transform infrared microscopy) to determine chemical changes or content of the mineralization process occurring during exposure to microgravity.\r\n<P>\r\nAPPROACH:<P>Light and electron microscopy were used, coupled to morphometric analysis of bone and cartilage, to evaluate limb development during space flight. The ADF contained a 1 G centrifuge so that some embryos were exposed to 1 G during flight, whereas some were maintained at 0 G. Immunohistochemistry was used to determine cellular function of cartilage and bone and evaluate any matrix change. Edax and FTIR were used to analyze the mineral component of bone.\r\n<P>\r\nRESULTS:<P>Embryos at day 6 did not show any significant alteration in development among the four groups although the number of viable embryos was small. At day 12, the ADF Flight group maintained on the centrifuge at 1xG showed good embryo viability, increased body weight and longer limbs, compared to the ADF Flight group at 0xG. No effects of flight were seen in the cartilage as measured by Type X collagen, or proteoglycan content. The day-12 embryos also did not show any flight effect on osteocalcin staining in the bone matrix. Immunostaining for Type I procollagen, which is found in the osteoblast's cytoplasm, showed greater content in the 1 G (no spin) ground control than either one of the two flight groups. This result would suggest that application of 1 G during flight does not prevent a decrease in osteoblast activity and bone loss continues during flight due to reduced formation rates. The finding that the limbs were the same length among all groups would suggest that since the embryonic limbs are largely cartilage, space flight does not have an effect on the cartilage anlage formation. Thus, bone and cartilage may be differentially affected by space flight; a conclusion that requires supporting evidence from a longer duration space flight.",
+  "indexed": "2026-08-23T03:44:25.790080+00:00",
+  "GUID": "cl62axw2ecd0y01o6h31udsjb",
+  "resourceTitle": "https://genelab-data.ndc.nasa.gov/genelab/environmental/radiation",
+  "__model_type": "lsda_experiment",
+  "__dirid": "50e755d6-1401-55c3-9fd6-156791e8a199",
+  "__record_size_wo_doccontent": 62454,
+  "experiment_parms_tissue2": "NULL",
+  "experiment_parms_tissue1": "NULL",
+  "__update_method": "Update CDM",
+  "archive_status_index": 1,
+  "resource_group": "NASA GeneLab Data",
+  "experiment_type_lk": [
+   "Shuttle Life Sciences Research (Middeck)"
+  ],
+  "__record_modified_date": "2026-08-23T03:44:25.790080+00:00",
+  "proposal_source": [
+   "98-HEDS-02"
+  ],
+  "__indexed": "2026-08-23T03:44:25.790080+00:00",
+  "session_type": "Flight",
+  "__record_creation_date": "2022-07-28T20:06:25.916Z",
+  "__record_size": 62454,
+  "__model_version": 60,
+  "payload_id": "UF-1",
+  "CombinedSpecies": [
+   [
+    "Quail (Coturnix coturnix) Japonica"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "9802307",
+  "experiment_related": [
+   "No related"
+  ],
+  "parameter_name": [
+   "Content, Collagen/Procollagen, bone, quail embryo, Immunohistochemistry, microscopy",
+   "Content, Osteocalcin, bone, quail embryo, Immunohistochemistry, microscopy",
+   "Weight, tissue, quail embryo, Balance (CGS units)"
+  ],
+  "exp_index": 935,
+  "research_area": [
+   "Skeletal physiology"
+  ],
+  "protocol_approach": "Delayed synchronous control",
+  "pme_role_with_name": [
+   "Principal Investigator: Doty, Stephen"
+  ],
+  "missions": [
+   [
+    [
+     "STS-108"
+    ]
+   ]
+  ],
+  "PI": [
+   "Doty, Stephen"
+  ],
+  "_file_extension": [],
+  "experiment_identifier": [
+   "9802307"
+  ],
+  "keyword": [],
+  "mission_id": [
+   [
+    [
+     "STS-108"
+    ]
+   ]
+  ],
+  "center": [
+   "Ames Research Center"
+  ],
+  "ncindex": [
+   7
+  ],
+  "proposal_date": [
+   "6/1/1998"
+  ],
+  "species": [
+   "Quail"
+  ],
+  "PrincipalInvestigator": [
+   "Doty, Stephen"
+  ],
+  "program_name": [
+   "Shuttle Program"
+  ],
+  "archive_status": "Data preservation is complete. All datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Shuttle Program",
+  "__source_field_concat": "Flight NASA GeneLab Data UF-1 cl62axw2ecd0y01o6h31udsjb NULL NULL https://genelab-data.ndc.nasa.gov/genelab/environmental/radiation  Delayed synchronous control Skeletal Development in Embryonic Quail 9802307 Shuttle Program Data preservation is complete. All datasets are publicly available.",
+  "__icon_type": "quail",
+  "__description": "Objectives:<P>\r\nPrevious studies of limb and musculoskeletal development in quail eggs incubated onboard the Mir space station showed that there was a developmental perturbation in the early embryo that seemed to be corrected during later embryogenesis. From these results, the following objectives were identified: 1) To determine if fibronectin influences the cellular differentiation process and the subsequent formation of a mineralizable matrix; 2) To investigate the effect of microgravity on cell cycle changes and/or cell death (apoptosis); 3) To localize and compare the distribution of BMP-2, PTHrP, and alkaline phosphatase activity in the developing bone and cartilage, as affected by microgravity; and 4) To analyze the early mineral deposition by FTIRM (Fourier transform infrared microscopy) to determine chemical changes or content of the mineralization process occurring during exposure to microgravity.\r\n<P>\r\nAPPROACH:<P>Light and electron microscopy were used, coupled to morphometric analysis of bone and cartilage, to evaluate limb development during space flight. The ADF contained a 1 G centrifuge so that some embryos were exposed to 1 G during flight, whereas some were maintained at 0 G. Immunohistochemistry was used to determine cellular function of cartilage and bone and evaluate any matrix change. Edax and FTIR were used to analyze the mineral component of bone.\r\n<P>\r\nRESULTS:<P>Embryos at day 6 did not show any significant alteration in development among the four groups although the number of viable embryos was small. At day 12, the ADF Flight group maintained on the centrifuge at 1xG showed good embryo viability, increased body weight and longer limbs, compared to the ADF Flight group at 0xG. No effects of flight were seen in the cartilage as measured by Type X collagen, or proteoglycan content. The day-12 embryos also did not show any flight effect on osteocalcin staining in the bone matrix. Immunostaining for Type I procollagen, which is found in the osteoblast's cytoplasm, showed greater content in the 1 G (no spin) ground control than either one of the two flight groups. This result would suggest that application of 1 G during flight does not prevent a decrease in osteoblast activity and bone loss continues during flight due to reduced formation rates. The finding that the limbs were the same length among all groups would suggest that since the embryonic limbs are largely cartilage, space flight does not have an effect on the cartilage anlage formation. Thus, bone and cartilage may be differentially affected by space flight; a conclusion that requires supporting evidence from a longer duration space flight.",
+  "__doi": "10.83263/94fe-fn29",
+  "__doi_record_creation_date": "2026-08-23T03:44:25",
+  "__doi_record_modified_date": "2026-08-23T03:44:25"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001903",
+   "label": "AINV0000000823",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Skeletal Development in Embryonic Quail",
+    "dataset_catalog": "AINV0000000823",
+    "dataset_description": [
+     "Final report provided by PI includes data in tabular form:<br/><br/>Embryo whole body weights (12 day embryos)<br/>Type X collagen staining of cartilage anlage<br/>Osteocalcin staining of bone matrix (12 day embryos)<br/>Procollagen Type I staining of osteoblasts forming bony collar<br/>Statistical comparisons between groups and between the various immunostains and conclusions drawn from the data (see experiment records, results section)."
+    ],
+    "processing_level": [
+     "Analyzed<br/>Summarized"
+    ],
+    "experiment_id": [
+     "9802307"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "ee4aaa0a-e0e2-54a0-9342-9c82364e850c",
+     "label": "DotyFinalReport.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001877",
+   "label": "J0001261",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Summary of the STS-108 Flight of the Avian Development Facility (ADF) Experiment for the Biospecimen Sharing Plan (BSP) Tissues",
+    "dataset_catalog": "J0001261",
+    "dataset_description": [
+     "This Technical Information Release provides a summary of the pre-flight, in-flight, and post-flight operations for the Avian Development Facility (ADF) experiment for investigators requesting tissue from the Biospecimen Sharing Plan (BSP).  It provides technical information and data concerning the handling and processing of the ADF, including the Japanese quail eggs and embryos."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9802307"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "1a6fbf04-74a3-5185-8904-76833bf0ba61",
+     "label": "TIR_ADF_BSP_Arc_Tissue.doc",
+     "type": "file",
+     "ext": "doc",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002282",
+   "label": "AINV0000000746",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Summary of the STS-108 Flight of the Avian Development Facility (ADF) Experiment for the Biospecimen Sharing Plan (BSP) Tissues",
+    "dataset_catalog": "AINV0000000746",
+    "dataset_description": [
+     "This Technical Information Release provides a summary of the pre-flight, in-flight, and post-flight operations for the Avian Development Facility (ADF) experiment for investigators requesting tissue from the Biospecimen Sharing Plan (BSP).  It provides technical information and data concerning the handling and processing of the ADF, including the Japanese quail eggs and embryos."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9802272",
+     "9802307"
+    ]
+   },
+   "meta": "2 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "5d6d5bf1-984e-5edf-aef1-c4653f35be47",
+     "label": "TIR_ADF_BSP_Arc_Tissue.doc",
+     "type": "file",
+     "ext": "doc",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "44f7dadc-0b0c-5b7a-8689-058dad5b617d",
+     "label": "TIR_ADF_BSP_Arc_Tissue.doc",
+     "type": "file",
+     "ext": "doc",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

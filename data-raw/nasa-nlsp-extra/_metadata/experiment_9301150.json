@@ -1,0 +1,988 @@
+{
+ "record": {
+  "id": "342384bc-6f2f-5abf-bb91-65b4846543b9",
+  "_id": "342384bc-6f2f-5abf-bb91-65b4846543b9",
+  "experiment_title": "Effects Of Microgravity On Postnatal Motor Development",
+  "pub_document_number": "ARCPUB000556",
+  "experiment_alias": [
+   "E150"
+  ],
+  "parameter_html": "<table><tr><td>Morphology, anatomic, Vestibular-cerebellar circuits, rat, Microscopy, observation,</td></tr><tr><td>Morphology, anatomic, Vestibular-spinal circuits, rat, Microscopy, observation</td></tr><tr><td>Receptor, NMDA glutamate, Motor nervous system, rat, Molecular characterization, Microscopy</td></tr><tr><td>Receptor, non-NMDA glutamate, Motor nervous system, rat, Molecular characterization, Microscopy</td></tr><tr><td>Response, complex motor skill, Neuromotor development, rat, Animal Walking Apparatus, videotape</td></tr><tr><td>Response, dynamic postural stability, Neuromotor development, rat, Animal Walking Apparatus, videotape</td></tr><tr><td>Response, geotactic reactions, Neuromotor development, rat, Animal Walking Apparatus</td></tr><tr><td>Response, locomotion/interlimb coordination, Neuromotor development, rat, Animal Walking Apparatus, videotape</td></tr><tr><td>Response, vestibular reflexes, Neuromotor development, rat, Animal Walking Apparatus, vidrotape</td></tr><tr></tr></table>",
+  "__source_key": "cl62au50tcb0k01o60xhje772",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Walton, Kerry\">Principal Investigator: Walton, Kerry</a>",
+  "keyword": [
+   "Animals, newborn",
+   "Gait",
+   "Locomotion",
+   "Neuronal plasticity",
+   "Hindlimb suspension",
+   "Ion channels",
+   "Motor skills",
+   "Nervous system",
+   "Reflex"
+  ],
+  "keyword_name": "Reflex",
+  "__record_version": 28,
+  "experiment_description": "<B>Objectives:</B><P>The force of gravity is one of the few constant factors during the evolution of the nervous system and is deeply embedded in its functionality. An animal\u00ef\u00bf\u00bds posture is dependent on the appropriate force being maintained at every joint of the skeleton in order to counteract the force of gravity. This experiment examines the adaptability of the motor nervous system to environmental demands. Since young animals are particularly susceptible to changes in their environment, they offer a sensitive model for nervous system plasticity. The hypothesis tested in this experiment is: 1) a normal gravitational field is essential for the normal postnatal development of the motor system; 2) elimination of weight-bearing will lead to profound changes in motor system organization; 3) changes in motor function will be most marked when animals are exposed to microgravity during sensitive periods of development; and 4) functional changes will persist into adulthood when animals are exposed during critical periods of motor development.<P><B>Approach:</B><P>Rat pup ages at flight allowed exposure to microgravity during both the sensitive period (P8-P24) and critical period (P14-P30) of neuromotor development. Inflight experiments evaluated locomotion, complex motor skills, and vestibular reflexes with the use of an Animal Walking Apparatus (AWA). Animals were videotaped inflight using two cameras simultaneously while they progressed along rods of varying diameters, along a 1/2-inch mesh surface, on a foam surface, and during tests of surface (or contact) righting. Postflight, animals underwent numerous non-invasive behavioral tests to test their motor skills including, swimming, walking, startle reflex and surface righting.<P><B>Results:</B><P>Three general observations were made over the course of the experiment: (1) The exact set of movements used to achieve a goal, i.e., motor tactics, is influenced by the physical environment during development. This was found in both swimming and walking. Other aspects of movement, such as how fast the movement is made, are not as sensitive. (2) The age of the animals influenced the magnitude and duration of the effect. For example, locomotion was more affected in the older than in the younger animals. However, the immaturity of surface righting tactics were more marked in the younger animals. (3) The length of time an animal spends in an altered environment determines if the effects will be transient or long lasting. Locomotion in the microgravity environment was dominated by the forelimbs; when the hind limbs were used, overstepping was observed. In addition, poor interlimb coordination was observed in these animals. Anatomical studies found that the arborization of the dendritic tree of cervial motorneurons is less rich in flight animals on the day of landing. Studies in the cerebral cortex have found differences on the day of landing that persist for at least three months post-flight. <br><br>A preliminary analysis indicates that an Earth-normal gravitational field is needed for the normal postnatal development of motor function. The tactics an animal used to achieve its motor goal, such as turning over, walking, or swimming are influenced by the environment. Thus, animals spending 16-days in microgravity use a different set of tactics to achieve their goal than ground-based control animals. In the case of surface righting, which did not occur in microgravity, the tactics for turning over were identical at launch and landing. This indicates that the postnatal development of motor skills requires activity in an environment context. Thus, postnatal development of motor skills represents a \u00ef\u00bf\u00bdtuning\u00ef\u00bf\u00bd of the nervous system to the environment. Further, the anatomical substrates for this tuning are at the level of the spinal cord and cerebral cortex.",
+  "indexed": "2026-08-23T03:48:51.214945+00:00",
+  "GUID": "cl62au50tcb0k01o60xhje772",
+  "__model_type": "lsda_experiment",
+  "__dirid": "342384bc-6f2f-5abf-bb91-65b4846543b9",
+  "__record_size_wo_doccontent": 91707,
+  "experiment_parms_tissue2": "NULL",
+  "experiment_parms_tissue1": "NULL",
+  "__update_method": "Update CDM",
+  "archive_status_index": 1,
+  "experiment_type_lk": [
+   "Shuttle Life Sciences Research (Spacelab)"
+  ],
+  "__record_modified_date": "2026-08-23T03:48:51.214945+00:00",
+  "proposal_source": [
+   "AO93-OLMSA-01-150"
+  ],
+  "__indexed": "2026-08-23T03:48:51.214945+00:00",
+  "alias": [
+   "E150"
+  ],
+  "session_type": "Flight",
+  "__record_creation_date": "2022-07-28T19:41:39.664Z",
+  "__record_size": 91707,
+  "__model_version": 60,
+  "payload_id": "Neurolab",
+  "CombinedSpecies": [
+   [
+    "Rat (Rattus norvegicus) Sprague-Dawley"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "9301150",
+  "experiment_related": [
+   "No related"
+  ],
+  "parameter_name": [
+   "Morphology, anatomic, Vestibular-cerebellar circuits, rat, Microscopy, observation,",
+   "Morphology, anatomic, Vestibular-spinal circuits, rat, Microscopy, observation",
+   "Receptor, NMDA glutamate, Motor nervous system, rat, Molecular characterization, Microscopy",
+   "Receptor, non-NMDA glutamate, Motor nervous system, rat, Molecular characterization, Microscopy",
+   "Response, complex motor skill, Neuromotor development, rat, Animal Walking Apparatus, videotape",
+   "Response, dynamic postural stability, Neuromotor development, rat, Animal Walking Apparatus, videotape",
+   "Response, geotactic reactions, Neuromotor development, rat, Animal Walking Apparatus",
+   "Response, locomotion/interlimb coordination, Neuromotor development, rat, Animal Walking Apparatus, videotape",
+   "Response, vestibular reflexes, Neuromotor development, rat, Animal Walking Apparatus, vidrotape"
+  ],
+  "exp_index": 725,
+  "research_area": [
+   "Muscle physiology",
+   "Neuroscience",
+   "Developmental biology"
+  ],
+  "protocol_approach": "Asynchronous control",
+  "pme_role_with_name": [
+   "ARC Deputy Payload Scientist: Hinds, Kathleen",
+   "ARC Experiment Support Scientist: Elland, Carol",
+   "ARC Payload Manager: Maese, Albert",
+   "ARC Payload Scientist: Howerton, Thomas",
+   "ARC Project Scientist: Ostrach, Louis",
+   "Principal Investigator: Walton, Kerry"
+  ],
+  "missions": [
+   [
+    [
+     "STS-90"
+    ]
+   ]
+  ],
+  "PI": [
+   "Walton, Kerry"
+  ],
+  "_file_extension": [],
+  "experiment_identifier": [
+   "9301150",
+   "E150"
+  ],
+  "mission_id": [
+   [
+    [
+     "STS-90"
+    ]
+   ]
+  ],
+  "center": [
+   "Ames Research Center"
+  ],
+  "ncindex": [
+   7
+  ],
+  "proposal_date": [
+   "11/25/1993"
+  ],
+  "species": [
+   "Rat"
+  ],
+  "PrincipalInvestigator": [
+   "Walton, Kerry"
+  ],
+  "program_name": [
+   "Shuttle Program"
+  ],
+  "archive_status": "Data preservation is complete. All datasets are publicly available.",
+  "__is_locked": false,
+  "Program": "Shuttle Program",
+  "__source_field_concat": "Flight ARCPUB000556 Neurolab cl62au50tcb0k01o60xhje772 Reflex NULL NULL Asynchronous control Effects Of Microgravity On Postnatal Motor Development 9301150 Shuttle Program Data preservation is complete. All datasets are publicly available.",
+  "__icon_type": "rat",
+  "__description": "<B>Objectives:</B><P>The force of gravity is one of the few constant factors during the evolution of the nervous system and is deeply embedded in its functionality. An animal\u00ef\u00bf\u00bds posture is dependent on the appropriate force being maintained at every joint of the skeleton in order to counteract the force of gravity. This experiment examines the adaptability of the motor nervous system to environmental demands. Since young animals are particularly susceptible to changes in their environment, they offer a sensitive model for nervous system plasticity. The hypothesis tested in this experiment is: 1) a normal gravitational field is essential for the normal postnatal development of the motor system; 2) elimination of weight-bearing will lead to profound changes in motor system organization; 3) changes in motor function will be most marked when animals are exposed to microgravity during sensitive periods of development; and 4) functional changes will persist into adulthood when animals are exposed during critical periods of motor development.<P><B>Approach:</B><P>Rat pup ages at flight allowed exposure to microgravity during both the sensitive period (P8-P24) and critical period (P14-P30) of neuromotor development. Inflight experiments evaluated locomotion, complex motor skills, and vestibular reflexes with the use of an Animal Walking Apparatus (AWA). Animals were videotaped inflight using two cameras simultaneously while they progressed along rods of varying diameters, along a 1/2-inch mesh surface, on a foam surface, and during tests of surface (or contact) righting. Postflight, animals underwent numerous non-invasive behavioral tests to test their motor skills including, swimming, walking, startle reflex and surface righting.<P><B>Results:</B><P>Three general observations were made over the course of the experiment: (1) The exact set of movements used to achieve a goal, i.e., motor tactics, is influenced by the physical environment during development. This was found in both swimming and walking. Other aspects of movement, such as how fast the movement is made, are not as sensitive. (2) The age of the animals influenced the magnitude and duration of the effect. For example, locomotion was more affected in the older than in the younger animals. However, the immaturity of surface righting tactics were more marked in the younger animals. (3) The length of time an animal spends in an altered environment determines if the effects will be transient or long lasting. Locomotion in the microgravity environment was dominated by the forelimbs; when the hind limbs were used, overstepping was observed. In addition, poor interlimb coordination was observed in these animals. Anatomical studies found that the arborization of the dendritic tree of cervial motorneurons is less rich in flight animals on the day of landing. Studies in the cerebral cortex have found differences on the day of landing that persist for at least three months post-flight. <br><br>A preliminary analysis indicates that an Earth-normal gravitational field is needed for the normal postnatal development of motor function. The tactics an animal used to achieve its motor goal, such as turning over, walking, or swimming are influenced by the environment. Thus, animals spending 16-days in microgravity use a different set of tactics to achieve their goal than ground-based control animals. In the case of surface righting, which did not occur in microgravity, the tactics for turning over were identical at launch and landing. This indicates that the postnatal development of motor skills requires activity in an environment context. Thus, postnatal development of motor skills represents a \u00ef\u00bf\u00bdtuning\u00ef\u00bf\u00bd of the nervous system to the environment. Further, the anatomical substrates for this tuning are at the level of the spinal cord and cerebral cortex.",
+  "__doi": "10.83263/3zp0-mw03",
+  "__doi_record_creation_date": "2026-08-23T03:48:51",
+  "__doi_record_modified_date": "2026-08-23T03:48:51"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002326",
+   "label": "AINV0000000678",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Postflight Neonate Reorganization and Renumbering, Mammalian Development P13 Vivarium-Caged Group",
+    "dataset_catalog": "AINV0000000678",
+    "dataset_description": [
+     "This file tracks the renumbering of the Mammalian Development P13 Vivarium-caged neonates as they are reorganized and dissected postflight. Several postflight data sets in this archive refer to the new neonate numbers.<br/><br/>For details on the postflight neonate reorganization and renumbering, see the Data Element titled \u201cPostflight Neonate Reorganization and Renumbering, Mammalian Development P13 Roadmap\u201d.  The downloadable file details this information."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9301150"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "91ead4f9-7405-5736-92cd-b0bee8d6f5d0",
+     "label": "p13_viv_reorg.jpg",
+     "type": "file",
+     "ext": "jpg",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000303",
+   "label": "AINV0000000676",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Postflight Neonate Reorganization and Renumbering, Mammalian Development P13 Flight Group",
+    "dataset_catalog": "AINV0000000676",
+    "dataset_description": [
+     "This file tracks the renumbering of the Mammalian Development P13 flight neonates as they are reorganized and dissected postflight. Several postflight data sets in this archive refer to the new neonate numbers.<br/><br/>For details on the postflight neonate reorganization and renumbering, see the Data Element titled \u201cPostflight Neonate Reorganization and Renumbering, Mammalian Development P13 Roadmap\u201d.  The downloadable file details this information."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9301150"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "72f0ac40-3003-53af-ad47-c83972c6da05",
+     "label": "p13_flight_reorg.jpg",
+     "type": "file",
+     "ext": "jpg",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002325",
+   "label": "AINV0000000674",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Inflight Food and Water Consumption Data for Mammalian Development P13 Vivarium-Caged Group",
+    "dataset_catalog": "AINV0000000674",
+    "dataset_description": [
+     "Food and water consumption data from 4/20/98 to 5/7/98 (Viv \u2018flight\u2019) for the Mammalian Development P13 Vivarium-Caged animals, organized by dam number. (4 day delayed control)"
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9301150"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "dd1247d8-ddf6-546e-ab48-b5da7a92d008",
+     "label": "MD P13 VIV Daily inflight.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000302",
+   "label": "AINV0000000669",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Preflight Dam and Litter Weight, Food and Water Consumption Data for Mammalian Development P13 Sim-Caged Group",
+    "dataset_catalog": "AINV0000000669",
+    "dataset_description": [
+     "Preflight dam and litter weights and food and water consumption data from 4/16/98 to 4/23/98 for the Mammalian Development P13 Sim-Caged animal pool (8 day delayed control). Dams/litters 6501 and 6503 were selected for flight."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9301150"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "b1c2133a-cd8f-561d-906b-760fe8e39e9e",
+     "label": "MD P13 SIM Daily preflight.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002132",
+   "label": "AINV0000000666",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Postflight Food and Water Consumption for Mammalian Development P13 Flight Group",
+    "dataset_catalog": "AINV0000000666",
+    "dataset_description": [
+     "Postflight food and water consumption data for Mammalian Development P13 flight dams and litters (for animals not dissected \u2018postflight\u2019) from 5/8/98 to 6/13/98, organized by dam number."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9301150"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "5872662d-3307-5e7b-b7f6-395e72af8ccf",
+     "label": "MD P13 FLT Daily_postflight.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001672",
+   "label": "AINV0000000665",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Preflight Dam and Litter Weight, and Food and Water Consumption Data for Mammalian Development P13 Flight Group",
+    "dataset_catalog": "AINV0000000665",
+    "dataset_description": [
+     "Preflight dam and litter weights and food and water consumption data from 4/8/98 to 4/14/98 for the Mammalian Development P13 flight animal pool. Dams/litters 4105 and 4106 were selected for flight."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9301150"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "1acce76b-afee-5c20-a601-f5532d207384",
+     "label": "MD P13 FLT Daily_preflight.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000950",
+   "label": "AINV0000000690",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Postflight Neonate Reorganization and Renumbering, Mammalian Development P13 Roadmap",
+    "dataset_catalog": "AINV0000000690",
+    "dataset_description": [
+     "This document explains the reorganization and renumbering techniques used for the P13 flight, sim-caged, and vivarium animals postflight."
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "9301150"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "6eab4082-5ea1-532d-9494-104f584d840f",
+     "label": "p13_map.doc",
+     "type": "file",
+     "ext": "doc",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001779",
+   "label": "AINV0000000675",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Postflight Food and Water Consumption for Mammalian Development P13 Vivarium-Caged Group",
+    "dataset_catalog": "AINV0000000675",
+    "dataset_description": [
+     "Postflight food and water consumption data for Mammalian Development P13 vivarium-caged dams and litters from 5/7/98 to 6/13/98, organized by dam number. (4 day delayed control: for animals not dissected \u2018postflight\u2019)"
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9301150"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "725ac126-b004-5a84-9044-b6a4f07c72c9",
+     "label": "MD P13 VIV Daily postflight.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000544",
+   "label": "AINV0000000670",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Postflight Food and Water Consumption for Mammalian Development P13 Sim-Caged Group",
+    "dataset_catalog": "AINV0000000670",
+    "dataset_description": [
+     "Postflight food and water consumption data for Mammalian Development P13 Sim-caged dams and litters from 5/11/98 to 6/13/98, organized by dam number (8 day delayed control: for animals not dissected \u2018postflight\u2019)."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9301150"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "3ab624e5-2d05-562b-bd91-596a6ad16847",
+     "label": "MD P13 SIM Daily postflight.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002023",
+   "label": "AINV0000000677",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Postflight Neonate Reorganization and Renumbering, Mammalian Development P13 Sim-Caged Group",
+    "dataset_catalog": "AINV0000000677",
+    "dataset_description": [
+     "This file tracks the renumbering of the Mammalian Development P13 Sim-caged neonates as they are reorganized and dissected postflight. Several postflight data sets in this archive refer to the new neonate numbers.<br/><br/>For details on the postflight neonate reorganization and renumbering, see the Data Element titled \u201cPostflight Neonate Reorganization and Renumbering, Mammalian Development P13 Roadmap\u201d.  The downloadable file details this information."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9301150"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "0ec3c030-cc27-530b-936d-14c75a0729d8",
+     "label": "p13_sim_reorg.jpg",
+     "type": "file",
+     "ext": "jpg",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000057",
+   "label": "AINV0000000673",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Preflight Dam and Litter Weight, Food and Water Consumption Data for Mammalian Development P13 Vivarium-Caged Group",
+    "dataset_catalog": "AINV0000000673",
+    "dataset_description": [
+     "Preflight dam and litter weights and food and water consumption data from 4/12/98 to 4/19/98 for the Mammalian Development P13 Vivarium-Caged animal pool. Dams/litters 5302 and 5305 were selected for flight. (4 day delayed control)"
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9301150"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "83fdb4da-a2f7-590c-abed-e38b28439d25",
+     "label": "MD P13 VIV Daily preflight.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000394",
+   "label": "AINV0000000679",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Litter Selection, Mammalian Development P13 Flight Group",
+    "dataset_catalog": "AINV0000000679",
+    "dataset_description": [
+     "This spreadsheet contains data used to select the final two flight dams and litters from the flight animal pool. Dams/litters 4105 and 4106 were selected for flight."
+    ],
+    "processing_level": [
+     "Raw<br/>Processed"
+    ],
+    "experiment_id": [
+     "9301150"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "728409ba-3cee-5764-b5d0-f61997307a3f",
+     "label": "Litter Selection Flight P13.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000872",
+   "label": "AINV0000000663",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Cross-Group (Flight, Sim-Caged, Vivarium) Comparison of Neonate Weights Pre-and Postflight, Mammalian Development P13 Group",
+    "dataset_catalog": "AINV0000000663",
+    "dataset_description": [
+     "This file presents a cross-group comparison of Flight, Sim-Caged and Vivarium neonate weights in the Mammalian Development P13 group, pre- and postflight. Data is presented both in tabular and graphic formats. Individual neonate weights are listed on one of the sheets."
+    ],
+    "processing_level": [
+     "Raw<br/>Processed"
+    ],
+    "experiment_id": [
+     "9301150"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "2d41b0c5-886c-5b64-ba71-a5244afc234c",
+     "label": "MD P13 All Neonate Weights.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000301",
+   "label": "AINV0000000668",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Postflight (at Cage Unload) Animal Weights, Mammalian Development P13 Sim-Caged Group",
+    "dataset_catalog": "AINV0000000668",
+    "dataset_description": [
+     "This file contains postflight (collected at cage unload) Animal ID and Body Weight data for the 2 Mammalian Development P13 Sim-caged Dams and Litters (individual neonate weights included: for animals not dissected \u2018postflight\u2019). (8-day delayed control)"
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9301150"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "261389ab-ce0e-5e82-a42f-a5f3666981ac",
+     "label": "CU 05_11_98 MD_P13 SimAEM.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000593",
+   "label": "AINV0000000662",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Cross-Group (Flight, Sim-Caged, Vivarium) Comparison of Dam Weights Pre-and Postflight, Mammalian Development P13 Group",
+    "dataset_catalog": "AINV0000000662",
+    "dataset_description": [
+     "This file presents a cross-group comparison of Flight, Sim-Caged and Vivarium dam weights in the Mammalian Development P13 group, pre- and postflight. Data is presented both in tabular and graphic formats."
+    ],
+    "processing_level": [
+     "Processed<br/>Raw"
+    ],
+    "experiment_id": [
+     "9301150"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "287b3cb4-7aae-562e-af7b-41076c18a778",
+     "label": "MD P13 All Dam Weights.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001318",
+   "label": "AINV0000000691",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Neurolab Data Roadmap",
+    "dataset_catalog": "AINV0000000691",
+    "dataset_description": [
+     "This roadmap explains the contents of all the archive records pertaining to the rodent project data operations inflight and pre/postflight at KSC."
+    ],
+    "processing_level": [
+     "Processed"
+    ],
+    "experiment_id": [
+     "9301034",
+     "9301085",
+     "9301100",
+     "9301103",
+     "9301118",
+     "9301122",
+     "9301123",
+     "9301127 1_2",
+     "9301132",
+     "9301143",
+     "9301150"
+    ]
+   },
+   "meta": "11 files",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "8aaf119f-564d-5ec0-8fcf-6402366fd950",
+     "label": "neurolab_data_map.doc",
+     "type": "file",
+     "ext": "doc",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "a716c026-ad1e-5fbd-93c5-6f9ebe935df3",
+     "label": "neurolab_data_map.doc",
+     "type": "file",
+     "ext": "doc",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "4f1d6ee7-3383-5b48-8cc3-173693867c33",
+     "label": "neurolab_data_map.doc",
+     "type": "file",
+     "ext": "doc",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "3d99d9bb-2a0c-5fb4-b3ea-3b43701af3e5",
+     "label": "neurolab_data_map.doc",
+     "type": "file",
+     "ext": "doc",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "5d23a74d-23c9-5d7a-bbbd-338a740d06f0",
+     "label": "neurolab_data_map.doc",
+     "type": "file",
+     "ext": "doc",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "ef488f9d-6acc-50cd-bac9-d1a75945d574",
+     "label": "neurolab_data_map.doc",
+     "type": "file",
+     "ext": "doc",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "d5108a6a-6432-5678-a772-82f4ff8c31d6",
+     "label": "neurolab_data_map.doc",
+     "type": "file",
+     "ext": "doc",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "fd1c6de0-a463-5596-88b7-5342f80d5ac2",
+     "label": "neurolab_data_map.doc",
+     "type": "file",
+     "ext": "doc",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "03962cd5-6a1b-5f39-8c3f-bf74f69fb4a0",
+     "label": "neurolab_data_map.doc",
+     "type": "file",
+     "ext": "doc",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "658d4aec-79f9-5b2d-a008-7adb3391a1db",
+     "label": "neurolab_data_map.doc",
+     "type": "file",
+     "ext": "doc",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "36497689-d0d3-5dfb-a427-a116a4a6aa44",
+     "label": "neurolab_data_map.doc",
+     "type": "file",
+     "ext": "doc",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001673",
+   "label": "AINV0000000667",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Preflight (at Cage Load) Animal Weights, Mammalian Development P13 Sim-Caged Group",
+    "dataset_catalog": "AINV0000000667",
+    "dataset_description": [
+     "This file contains preflight (collected at cage load) Animal ID and Body Weight data for the 2 Mammalian Development P13 Sim-caged Dams and Litters (individual neonate weights included). (8-day delayed control)"
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9301150"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "d5f4649b-06d1-5e17-86f6-79275e92f709",
+     "label": "CL 04_23_98 MD_P13 SimAEM.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000001781",
+   "label": "AINV0000000681",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Litter Selection, Mammalian Development P13 Vivarium-Caged Group",
+    "dataset_catalog": "AINV0000000681",
+    "dataset_description": [
+     "This spreadsheet contains data used to select the final two flight dams and litters from the vivarium animal pool. Dams/litters 5302 and 5305 were selected for flight control."
+    ],
+    "processing_level": [
+     "Raw<br/>Processed"
+    ],
+    "experiment_id": [
+     "9301150"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "22dab072-a65a-53fc-81ac-846bc4d51178",
+     "label": "Litter Selection Viv P13.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002070",
+   "label": "AINV0000000664",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Post-Flight (at Cage Unload) Animal Weights, Mammalian Development P13 Flight Group",
+    "dataset_catalog": "AINV0000000664",
+    "dataset_description": [
+     "This file contains postflight (collected at cage unload) Animal ID and Body Weight data for the 2 Mammalian Development P13 Flight Dams and Litters (individual neonate weights included)."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9301150"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "9a7aec1f-dbdd-5bb7-b6cf-61203cf9fd34",
+     "label": "CU 05_03_1998 MD_P13 AEM.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002168",
+   "label": "AINV0000000680",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Litter Selection, Mammalian Development P13 Sim-Caged Group",
+    "dataset_catalog": "AINV0000000680",
+    "dataset_description": [
+     "This spreadsheet contains data used to select the final two flight dams and litters from the sim animal pool. Dams/litters 6501 and 6503 were selected for flight simulation."
+    ],
+    "processing_level": [
+     "Raw<br/>Processed"
+    ],
+    "experiment_id": [
+     "9301150"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "f4848d0e-9d3f-5a2f-b2d3-30b5a91404eb",
+     "label": "Litter Selection Sim P13.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002323",
+   "label": "AINV0000000661",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Preflight (at Cage Load) Animal Weights, Mammalian Development P13 Flight Group",
+    "dataset_catalog": "AINV0000000661",
+    "dataset_description": [
+     "This file contains preflight (collected at cage load) Animal ID and Body Weight data for the 2 Mammalian Development P13 Flight Dams and Litters (individual neonate weights included)."
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9301150"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "97deed98-3175-5cf0-b7b2-7fbcdd466db2",
+     "label": "CL 04_15_1998 MD_P13 AEM.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002022",
+   "label": "AINV0000000672",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Postflight (at Cage Unload) Animal Weights, Mammalian Development P13 Vivarium-Caged Group",
+    "dataset_catalog": "AINV0000000672",
+    "dataset_description": [
+     "This file contains postflight (collected at cage unload) Animal ID and Body Weight data for the 2 Mammalian Development P13 Vivarium-caged Dams and Litters (individual neonate weights included). (4 day delayed control)"
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9301150"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "6364e2fe-a81f-5caa-9592-a6b2cb479d32",
+     "label": "CU 05_07_1998 MD_P13 VIV.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002324",
+   "label": "AINV0000000671",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Preflight (at Cage Load) Animal Weights, Mammalian Development P13 Vivarium-Caged Group",
+    "dataset_catalog": "AINV0000000671",
+    "dataset_description": [
+     "This file contains preflight (collected at cage load) Animal ID and Body Weight data for the 2 Mammalian Development P13 Vivarium-caged Dams and Litters (individual neonate weights included). (4 day delayed control)"
+    ],
+    "processing_level": [
+     "Raw"
+    ],
+    "experiment_id": [
+     "9301150"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "83d00e59-601d-58e0-96e6-4371c38309c9",
+     "label": "CL 04_19_1998 MD_P13 VIV.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

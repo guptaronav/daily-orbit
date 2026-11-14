@@ -1,0 +1,209 @@
+{
+ "record": {
+  "id": "51e40f18-3b2f-5fc3-9b2a-1fee7286fde1",
+  "_id": "51e40f18-3b2f-5fc3-9b2a-1fee7286fde1",
+  "experiment_title": "Investigation of Partial-g Effects on Ocular Alignment",
+  "archive_status_index": 5,
+  "parameter_html": "<table><tr><td>Torsional misalignments</td></tr><tr></tr></table>",
+  "__source_key": "cl62b2g6tce2d01o6bsc9fxq4",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Shelhamer, Mark\">Principal Investigator: Shelhamer, Mark</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Schubert, Michael\">Co-Investigator: Schubert, Michael</a>",
+  "experiment_type_lk": [
+   "NASA Ground-Based Investigations"
+  ],
+  "__record_modified_date": "2026-08-23T03:46:32.960852+00:00",
+  "proposal_source": [
+   "2019 HERO 80JSC019N0001-FLAGSHIP & OMNIBUS: Human Research Program Crew Health. Appendix A&B"
+  ],
+  "__indexed": "2026-08-23T03:46:32.960852+00:00",
+  "__record_creation_date": "2022-07-28T20:10:29.279Z",
+  "keyword": [
+   "Eye movements",
+   "Motion sickness"
+  ],
+  "keyword_name": "Motion sickness",
+  "__record_size": 84427,
+  "__record_version": 29,
+  "__model_version": 60,
+  "experiment_description": "<p>OBJECTIVES</p><p><span>During the g-level changes of parabolic flight there are changes in torsional eye position. These changes can be markedly asymmetric and are on the order of one degree. This change in torsional alignment may be due to loss of compensation for otolith asymmetry in unusual g environments. On earth, the nervous system presumably compensates for natural asymmetries (e.g., unequal otoconial mass) in otolith properties, but in other than 1 g this compensation is inappropriate and produces torsional misalignment. A similar disconjugate change has been found during space flight, persisting throughout flights up to 180 days and for many days after flight. Torsional offsets seen in parabolic flight have been proposed as a predictive test for space motion sickness. </span></p><p><span>\r\n\r\nMotion sickness in parabolic flight has likewise been correlated with differences in counterrolling with tilts to the right and left. This is intriguing because it implies a link between motion sickness susceptibility in parabolic flight and in space flight, while other studies have not been able to establish this connection. More recently, a connection between such vestibular asymmetry and terrestrial motion sickness has also been postulated. Central neural compensation for such asymmetry becomes inappropriate in gravity fields other than 1 g, leading to potentially disruptive changes in ocular alignment. A mathematical model of the central compensating mechanisms for otolith asymmetry has been developed based on the investigator\u2019s team findings in parabolic flight.\r\n</span></p><p><span>\r\nThis study has the following specific aims:\r\n1)\tEvaluate modifications that permit use of the tablet-computer system in ambien lighting.\r\n2)\tAssess binocular alignment (vertical and torsional skew) in different g levels of parabolic flight.\r\n3)\tDetermine the nature of the function that relates the sensorimotor response of binocular alignment to instantaneous g level: continuous (with what slope) or piecewise-linear (with a threshold).\r\n</span></p><p><span>APPROACH</span></p><p><span><span>During vertical alignment nulling (VAN) and torsional alignment nulling (TAN) testing, the subject views a red line and a blue line on the tablet screen through color-matched red and blue filters, one over each eye. This provides separate visual information to each eye. One line, designated as the stationary line, remains fixed on the screen, while the other line, the moving line, is repositioned by the subject: vertically (up and down) during VAN and torsionally (clockwise and counter-clockwise) during TAN. The subject\u2019s objective during both VAN and TAN is to adjust the moving line until it appears perfectly in-line with the stationary line (i.e., to null any apparent vertical or rotational offset between the two lines). If there exists a small range for which the moving line appears aligned with the stationary line, meaning that the subject can perceptually fuse a slight physical offset in the two lines, the subject is instructed to find the middle of that range. The final amount by which the lines are separated from one another vertically or rotated relative to one another provides a measure of vertical and torsional ocular misalignment, respectively. For example, if a subject sets the right line above the left line during VAN, then researchers infer that this individual has a vertical misalignment such that the right eye is elevated relative to the left eye (i.e., the right fovea is elevated above the left fovea). If a subject orients the right line clockwise relative to the left line during TAN, then researchers infer that this subject has a torsional misalignment such that the right eye is extorted relative to the left eye. If a subject perfectly aligns the two lines during both VAN and TAN, then researchers infer that this individual has normal vertical and torsional binocular alignment.</span></span></p><p><span><span>RESULTS</span></span></p><p><span><span><span>Based on previous studies the researchers anticipate a threshold of about 0.3g between the response (binocular alignment) present in 1g and that present in 0g, for a given subject. A mathematical model suggests a slightly higher (not as abrupt) transition at about 0.6, so the researchers anticipate a switching threshold in the range of 0.3 to 0.6 g.</span></span></span></p>",
+  "payload_id": "Ground",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "80NSSC20K1498",
+  "indexed": "2026-08-23T03:46:32.960852+00:00",
+  "GUID": "cl62b2g6tce2d01o6bsc9fxq4",
+  "payload_part": "Ground",
+  "exp_index": 27094,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Biomedical countermeasures",
+   "Neuroscience"
+  ],
+  "pme_role_with_name": [
+   "Co-Investigator: Schubert, Michael",
+   "Principal Investigator: Shelhamer, Mark"
+  ],
+  "missions": [
+   [
+    [
+     "Ground"
+    ]
+   ]
+  ],
+  "__dirid": "51e40f18-3b2f-5fc3-9b2a-1fee7286fde1",
+  "__record_size_wo_doccontent": 84427,
+  "PI": [
+   "Shelhamer, Mark"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "parameter_name": [
+   "Torsional misalignments"
+  ],
+  "experiment_identifier": [
+   "80NSSC20K1498"
+  ],
+  "mission_id": [
+   [
+    [
+     "Ground"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "proposal_date": [
+   "07/28/2020"
+  ],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Shelhamer, Mark"
+  ],
+  "program_name": [
+   "Ground"
+  ],
+  "archive_status": "Data collection is ongoing. Available datasets are accessible via data request.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Ground",
+  "__source_field_concat": "Ground cl62b2g6tce2d01o6bsc9fxq4 <table><tr><td>Torsional misalignments</td></tr><tr></tr></table> Motion sickness  Ground Investigation of Partial-g Effects on Ocular Alignment 80NSSC20K1498 Ground Data collection is ongoing. Available datasets are accessible via data request.",
+  "__icon_type": "human",
+  "__description": "<p>OBJECTIVES</p><p><span>During the g-level changes of parabolic flight there are changes in torsional eye position. These changes can be markedly asymmetric and are on the order of one degree. This change in torsional alignment may be due to loss of compensation for otolith asymmetry in unusual g environments. On earth, the nervous system presumably compensates for natural asymmetries (e.g., unequal otoconial mass) in otolith properties, but in other than 1 g this compensation is inappropriate and produces torsional misalignment. A similar disconjugate change has been found during space flight, persisting throughout flights up to 180 days and for many days after flight. Torsional offsets seen in parabolic flight have been proposed as a predictive test for space motion sickness. </span></p><p><span>\r\n\r\nMotion sickness in parabolic flight has likewise been correlated with differences in counterrolling with tilts to the right and left. This is intriguing because it implies a link between motion sickness susceptibility in parabolic flight and in space flight, while other studies have not been able to establish this connection. More recently, a connection between such vestibular asymmetry and terrestrial motion sickness has also been postulated. Central neural compensation for such asymmetry becomes inappropriate in gravity fields other than 1 g, leading to potentially disruptive changes in ocular alignment. A mathematical model of the central compensating mechanisms for otolith asymmetry has been developed based on the investigator\u2019s team findings in parabolic flight.\r\n</span></p><p><span>\r\nThis study has the following specific aims:\r\n1)\tEvaluate modifications that permit use of the tablet-computer system in ambien lighting.\r\n2)\tAssess binocular alignment (vertical and torsional skew) in different g levels of parabolic flight.\r\n3)\tDetermine the nature of the function that relates the sensorimotor response of binocular alignment to instantaneous g level: continuous (with what slope) or piecewise-linear (with a threshold).\r\n</span></p><p><span>APPROACH</span></p><p><span><span>During vertical alignment nulling (VAN) and torsional alignment nulling (TAN) testing, the subject views a red line and a blue line on the tablet screen through color-matched red and blue filters, one over each eye. This provides separate visual information to each eye. One line, designated as the stationary line, remains fixed on the screen, while the other line, the moving line, is repositioned by the subject: vertically (up and down) during VAN and torsionally (clockwise and counter-clockwise) during TAN. The subject\u2019s objective during both VAN and TAN is to adjust the moving line until it appears perfectly in-line with the stationary line (i.e., to null any apparent vertical or rotational offset between the two lines). If there exists a small range for which the moving line appears aligned with the stationary line, meaning that the subject can perceptually fuse a slight physical offset in the two lines, the subject is instructed to find the middle of that range. The final amount by which the lines are separated from one another vertically or rotated relative to one another provides a measure of vertical and torsional ocular misalignment, respectively. For example, if a subject sets the right line above the left line during VAN, then researchers infer that this individual has a vertical misalignment such that the right eye is elevated relative to the left eye (i.e., the right fovea is elevated above the left fovea). If a subject orients the right line clockwise relative to the left line during TAN, then researchers infer that this subject has a torsional misalignment such that the right eye is extorted relative to the left eye. If a subject perfectly aligns the two lines during both VAN and TAN, then researchers infer that this individual has normal vertical and torsional binocular alignment.</span></span></p><p><span><span>RESULTS</span></span></p><p><span><span><span>Based on previous studies the researchers anticipate a threshold of about 0.3g between the response (binocular alignment) present in 1g and that present in 0g, for a given subject. A mathematical model suggests a slightly higher (not as abrupt) transition at about 0.6, so the researchers anticipate a switching threshold in the range of 0.3 to 0.6 g.</span></span></span></p>",
+  "__doi": "10.83263/pd8m-5n40",
+  "__doi_record_creation_date": "2026-08-23T03:46:32",
+  "__doi_record_modified_date": "2026-08-23T03:46:32"
+ },
+ "datasets": [
+  {
+   "key": "7fccae78-637a-53ce-9c3c-992b3afee137",
+   "label": "80NSSC20K1498 Dataset",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "80NSSC20K1498 Dataset",
+    "dataset_catalog": "80NSSC20K1498 Dataset",
+    "dataset_description": "This dataset includes VAN (vertical alignment nulling) and TAN (torsional alignment nulling) ocular data obtained from a parabolic flight study.",
+    "processing_level": [
+     "Processed Data"
+    ],
+    "experiment_id": [
+     "80NSSC20K1498"
+    ]
+   },
+   "meta": "8 files \u00b7 91.0 KB",
+   "date": "2026-06-15",
+   "children": [
+    {
+     "key": "97c8667e-64e6-582d-b0da-f0e1c0cd4432",
+     "label": "FD4goodtrials.xlsx",
+     "type": "file",
+     "ext": "xlsx",
+     "file_size": 17934,
+     "meta": "17.5 KB",
+     "date": "2026-06-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "26d7cfcf-13ed-58f5-a9ae-f8e16c3de299",
+     "label": "Novespace Data.xlsx",
+     "type": "file",
+     "ext": "xlsx",
+     "file_size": 16003,
+     "meta": "15.6 KB",
+     "date": "2026-06-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "9d2c7894-c743-5c3b-ae03-9e707d129c06",
+     "label": "FD3goodtrials.xlsx",
+     "type": "file",
+     "ext": "xlsx",
+     "file_size": 20022,
+     "meta": "19.6 KB",
+     "date": "2026-06-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c5bddfe7-38ad-5d05-baa6-be58ef969b70",
+     "label": "FD2goodtrials.xlsx",
+     "type": "file",
+     "ext": "xlsx",
+     "file_size": 21040,
+     "meta": "20.5 KB",
+     "date": "2026-06-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "b7943e0d-35be-5e24-a3b4-fdd5d0c8a8e2",
+     "label": "MD5checksums_80NSSC20K1498.txt",
+     "type": "file",
+     "ext": "txt",
+     "file_size": 367,
+     "meta": "367 B",
+     "date": "2026-06-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "c08080b7-fa44-5aa8-a29a-b270100b5ff4",
+     "label": "Read Me - parabolic flight data.docx",
+     "type": "file",
+     "ext": "docx",
+     "file_size": 15893,
+     "meta": "15.5 KB",
+     "date": "2026-06-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "071d380b-3464-5afd-a27b-066cdc219f40",
+     "label": "Archivist Notes for 80NSSC20K1498 data.txt",
+     "type": "file",
+     "ext": "txt",
+     "file_size": 1963,
+     "meta": "1.9 KB",
+     "date": "2026-06-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "49187e4a-d84a-5756-a057-adb4f3f0e5c8",
+     "label": "FD1goodtrials.xlsx",
+     "type": "file",
+     "ext": "xlsx",
+     "file_size": 0,
+     "meta": "",
+     "date": "2026-06-15",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

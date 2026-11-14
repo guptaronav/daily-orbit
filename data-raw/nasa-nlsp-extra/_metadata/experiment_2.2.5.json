@@ -1,0 +1,175 @@
+{
+ "record": {
+  "id": "fcf46861-1242-50e8-8a5d-808eb3e660fd",
+  "_id": "fcf46861-1242-50e8-8a5d-808eb3e660fd",
+  "experiment_title": "Red Blood Cell Mass and Survival",
+  "pub_document_number": "PUB000305",
+  "parameter_html": "<table><tr><td>Blood volume</td></tr><tr><td>Carboxyhemoglobin</td></tr><tr><td>Dietary intake</td></tr><tr><td>Hematocrit</td></tr><tr><td>Hemoglobin</td></tr><tr><td>Iron indices</td></tr><tr><td>Red blood cell mass</td></tr><tr><td>Red blood cell survival</td></tr><tr><td>Transferrin receptors</td></tr><tr><td>Dietary intake, iron</td></tr><tr><td>Erythropoietin, plasma</td></tr><tr><td>Ferritin, plasma</td></tr><tr><td>Iron, serum</td></tr><tr><td>Total iron-binding capacity (TIBC)</td></tr><tr></tr></table>",
+  "__source_key": "cl62atpy3cab101o697i98cav",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Lane, Helen\">Principal Investigator: Lane, Helen</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Ivanova, Svetlana\">Principal Investigator: Ivanova, Svetlana</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Alfrey, Clarence\">Co-Investigator: Alfrey, Clarence</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Driscoll, Theda\">Co-Investigator: Driscoll, Theda</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Larina, Irina\">Co-Investigator: Larina, Irina</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Morukov, Boris\">Co-Investigator: Morukov, Boris</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Nyquist, Lawrence\">Co-Investigator: Nyquist, Lawrence</a><a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Smith, Scott\">Co-Investigator: Smith, Scott</a>",
+  "keyword": [
+   "Erythropoiesis",
+   "Erythrocyte count",
+   "Erythropoietin",
+   "Ferritin",
+   "Hematocrit",
+   "Erythrocytes",
+   "Iron"
+  ],
+  "keyword_name": "Iron",
+  "__record_version": 29,
+  "experiment_description": "OBJECTIVES: <br>\r\nStudies of red blood cell (RBC) mass during short-term, 9-day space flight revealed a rapid decrease in total blood volume of about 12% within the first 24 hours of the mission. The associated decrease in plasma volume resulted in an increase in packed cell volume (central body hematocrit) compared to 1-G. Erythropoietin release and serum erythropoietin levels were also decreased during the flight. Measurements using labeled RBC revealed that the labeled circulating cells were not diluted by newly produced cells and that the RBC mass declined by 9% during the 9-day mission. The decline is concomitant with normal survival of circulating red blood cells (loss of 0.83% per day). As a result of this study, investigators surmised that (a) the release of newly produced RBCs from bone marrow into the blood stream stopped immediately after the subjects entered microgravity and that (b) a change of this magnitude could only result from nearly complete cessation of the release of red blood cells into the blood stream caused by the decrease in erythropoietin levels. The decline in erythropoietin release and serum erythropoietin levels are probably a consequence of increased oxyhemoglobin delivery to the kidney (assumed unchanged total renal blood flow) because of the decrease in plasma volume and increase in hematocrit.</p>\r\n<p>During this short-term flight, the subjects displayed a production rate of new RBCs similar to that present at 1-g, but far fewer of these cells ever appeared in the blood stream. Moreover, at the time of launch, the bone marrow in these crewmembers contained nearly mature cell precursors that should have been released within the next three days. Retaining and perhaps destroying the RBCs within the bone marrow can only explain this discordance. Intramedullary destruction of RBCs is a recognized phenomenon and has been termed \"ineffective erythropoiesis\"; it is known to occur in several disease states such as different types of anemia.</p>\r\n<p>The aim of this study was to prove the ineffective erythropoiesis hypothesis during a long-duration mission, based on the observations of the 9-day Shuttle flight. The previous study suggested that the immediate down-regulation of red cell production during space flight was caused by ineffective erythropoiesis, resulting from decreased erythropoietin levels in the blood stream.\r\n<p>APPROACH:<br>\r\nTo estimate red blood cell mass and survival, a stable chromium isotope (50 Cr) was used as a tracer to label red blood cells (RBCs). Twenty milliliters (ml) of venous blood were drawn from the subject by venipuncture. The autologous RBCs were tagged with 50 Cr isotopes and the labeled cells were reinfused into the subject. A blood sample was taken about 20 minutes later and the initial dilution of labeled red blood cells was used to calculate red blood cell mass (RBCM). During the next four weeks, subsequent blood samples were drawn; counts of labeled RBCs from these blood samples were used to calculate RBC life span. Dosages of 50 Cr labeled RBCs were given 35 days before launch and landing day. Two more scheduled sessions (launch day and sixteen days after landing) were not performed. Each 50 Cr session was followed by two or three blood draws over the next few weeks.</p>\r\n<p>In addition to RBC mass and survival measurements, the blood samples were used to determine the levels of all major hormones and substances involved in the both the production and destruction of red blood cells in the bone marrow: erythropoietin, haptoglobin, ferritin and iron. Overall, a total of 3 preflight, 9 inflight and 8 postflight blood samples were collected for this experiment.</p>\r\n<p>To validate this method, two assumptions were made: (1) the 50 Cr labeled red blood cells were not diluted upon entry into microgravity, and (2) the immediate destruction of nearly mature RBCs in the bone marrow should be reflected by a sudden rise in urobilinogen concentration. To measure urobilinogen concentration in urine, the subject swallowed a capsule containing the stable, non-radioactive nitrogen isotope 15N. Over the next few hours following the ingestion, urine was collected void-by-void to determine the ratio between 15N-labeled- and total urobilinoids.</p>\r\n<p>Logs of food, fluid, and medication intake, as well as exercise regimen, were kept by the astronauts during the testing period.</p>\r\n<p>RESULTS:<br />\r\nThe results of this experiment were compromised because no labeled red blood cells could be administered to the crewmembers shortly before launch. The last 50 Cr dosage given to the subjects was 35 days prior to launch. Also, urine samples were destroyed by the failure of the EuroMir Freezer. In consequence, urobilinogen and urobilinoid measurements were not performed.</p>\r\n<p>The collected data revealed that the erythropoietin serum concentrations were decreased in all three subjects compared to preflight levels. Hematocrit was also lower during and after the space flight. During their mission, the subjects consumed an average of 13.5 mg iron per day. The indices of iron storage and availability were increased during and after flight. Serum ferritin was greater during flight (average > 100 ng/mL) than before flight. Serum iron was increased in two subjects (average 20% greater than preflight) and unchanged in the third subject. Total iron binding capacity was lowered by an average of 10% during flight and was still below preflight levels 9 days after landing (R+9). On landing day (R+0), red blood cell mass (RBCM) was decreased by 17% compared to preflight baseline values, while serum ferritin concentrations were elevated. Serum erythropoietin was decreased in 2 of the 3 subjects on landing day, and elevated (80% greater than preflight) in all three subjects nine days later (R+9). All other indicators of iron status were unchanged. During additional measurements at R+3 months, the serum ferritin concentrations were below preflight level in all three subjects.</p>\r\n<p>Overall, investigators concluded that the subjects' RBC mass and survival adaptation to a microgravity environment resulted in a state of anemia. The anemia can be used as a model to better understand the mechanisms of erythropoiesis during space flight.</p>\r\n<end>",
+  "indexed": "2026-08-23T04:22:42.683077+00:00",
+  "GUID": "cl62atpy3cab101o697i98cav",
+  "__model_type": "lsda_experiment",
+  "__dirid": "fcf46861-1242-50e8-8a5d-808eb3e660fd",
+  "__record_size_wo_doccontent": 123480,
+  "experiment_parms_tissue2": "N/A",
+  "experiment_parms_tissue1": "N/A",
+  "__update_method": "Update CDM",
+  "archive_status_index": 2,
+  "experiment_type_lk": [
+   "NASA-Mir Program"
+  ],
+  "__record_modified_date": "2026-08-23T04:22:42.683077+00:00",
+  "proposal_source": [
+   "N/A"
+  ],
+  "__indexed": "2026-08-23T04:22:42.683077+00:00",
+  "__record_creation_date": "2022-07-28T19:40:35.646Z",
+  "__record_size": 123480,
+  "__model_version": 60,
+  "payload_id": "Mir 18",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "Institute of Biomedical Problems (IBMP)",
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "2.2.5",
+  "experiment_related": [
+   "2.2.4",
+   "2.2.3",
+   "2.1.2",
+   "2.1.1"
+  ],
+  "parameter_name": [
+   "Blood volume",
+   "Carboxyhemoglobin",
+   "Dietary intake",
+   "Hematocrit",
+   "Hemoglobin",
+   "Iron indices",
+   "Red blood cell mass",
+   "Red blood cell survival",
+   "Transferrin receptors",
+   "Dietary intake, iron",
+   "Erythropoietin, plasma",
+   "Ferritin, plasma",
+   "Iron, serum",
+   "Total iron-binding capacity (TIBC)"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 335,
+  "research_area": [
+   "Hematology",
+   "Metabolism and nutrition",
+   "Cardiovascular physiology"
+  ],
+  "pme_role_with_name": [
+   "Co-Investigator: Alfrey, Clarence",
+   "Co-Investigator: Driscoll, Theda",
+   "Co-Investigator: Larina, Irina",
+   "Co-Investigator: Morukov, Boris",
+   "Co-Investigator: Nyquist, Lawrence",
+   "Co-Investigator: Smith, Scott",
+   "Principal Investigator: Ivanova, Svetlana",
+   "Principal Investigator: Lane, Helen"
+  ],
+  "missions": [
+   [
+    [
+     "Mir 18"
+    ]
+   ]
+  ],
+  "PI": [
+   "Ivanova, Svetlana",
+   "Lane, Helen"
+  ],
+  "_file_extension": [],
+  "experiment_identifier": [
+   "2.2.5"
+  ],
+  "mission_id": [
+   [
+    [
+     "Mir 18"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Ivanova, Svetlana",
+   "Lane, Helen"
+  ],
+  "program_name": [
+   "Nasa-Mir"
+  ],
+  "archive_status": "Data preservation is complete. Privacy-protected datasets are available via data request. Remaining datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Nasa-Mir",
+  "__source_field_concat": "PUB000305 Mir 18 cl62atpy3cab101o697i98cav Iron N/A N/A  N/A Red Blood Cell Mass and Survival 2.2.5 Nasa-Mir",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES: <br>\r\nStudies of red blood cell (RBC) mass during short-term, 9-day space flight revealed a rapid decrease in total blood volume of about 12% within the first 24 hours of the mission. The associated decrease in plasma volume resulted in an increase in packed cell volume (central body hematocrit) compared to 1-G. Erythropoietin release and serum erythropoietin levels were also decreased during the flight. Measurements using labeled RBC revealed that the labeled circulating cells were not diluted by newly produced cells and that the RBC mass declined by 9% during the 9-day mission. The decline is concomitant with normal survival of circulating red blood cells (loss of 0.83% per day). As a result of this study, investigators surmised that (a) the release of newly produced RBCs from bone marrow into the blood stream stopped immediately after the subjects entered microgravity and that (b) a change of this magnitude could only result from nearly complete cessation of the release of red blood cells into the blood stream caused by the decrease in erythropoietin levels. The decline in erythropoietin release and serum erythropoietin levels are probably a consequence of increased oxyhemoglobin delivery to the kidney (assumed unchanged total renal blood flow) because of the decrease in plasma volume and increase in hematocrit.</p>\r\n<p>During this short-term flight, the subjects displayed a production rate of new RBCs similar to that present at 1-g, but far fewer of these cells ever appeared in the blood stream. Moreover, at the time of launch, the bone marrow in these crewmembers contained nearly mature cell precursors that should have been released within the next three days. Retaining and perhaps destroying the RBCs within the bone marrow can only explain this discordance. Intramedullary destruction of RBCs is a recognized phenomenon and has been termed \"ineffective erythropoiesis\"; it is known to occur in several disease states such as different types of anemia.</p>\r\n<p>The aim of this study was to prove the ineffective erythropoiesis hypothesis during a long-duration mission, based on the observations of the 9-day Shuttle flight. The previous study suggested that the immediate down-regulation of red cell production during space flight was caused by ineffective erythropoiesis, resulting from decreased erythropoietin levels in the blood stream.\r\n<p>APPROACH:<br>\r\nTo estimate red blood cell mass and survival, a stable chromium isotope (50 Cr) was used as a tracer to label red blood cells (RBCs). Twenty milliliters (ml) of venous blood were drawn from the subject by venipuncture. The autologous RBCs were tagged with 50 Cr isotopes and the labeled cells were reinfused into the subject. A blood sample was taken about 20 minutes later and the initial dilution of labeled red blood cells was used to calculate red blood cell mass (RBCM). During the next four weeks, subsequent blood samples were drawn; counts of labeled RBCs from these blood samples were used to calculate RBC life span. Dosages of 50 Cr labeled RBCs were given 35 days before launch and landing day. Two more scheduled sessions (launch day and sixteen days after landing) were not performed. Each 50 Cr session was followed by two or three blood draws over the next few weeks.</p>\r\n<p>In addition to RBC mass and survival measurements, the blood samples were used to determine the levels of all major hormones and substances involved in the both the production and destruction of red blood cells in the bone marrow: erythropoietin, haptoglobin, ferritin and iron. Overall, a total of 3 preflight, 9 inflight and 8 postflight blood samples were collected for this experiment.</p>\r\n<p>To validate this method, two assumptions were made: (1) the 50 Cr labeled red blood cells were not diluted upon entry into microgravity, and (2) the immediate destruction of nearly mature RBCs in the bone marrow should be reflected by a sudden rise in urobilinogen concentration. To measure urobilinogen concentration in urine, the subject swallowed a capsule containing the stable, non-radioactive nitrogen isotope 15N. Over the next few hours following the ingestion, urine was collected void-by-void to determine the ratio between 15N-labeled- and total urobilinoids.</p>\r\n<p>Logs of food, fluid, and medication intake, as well as exercise regimen, were kept by the astronauts during the testing period.</p>\r\n<p>RESULTS:<br />\r\nThe results of this experiment were compromised because no labeled red blood cells could be administered to the crewmembers shortly before launch. The last 50 Cr dosage given to the subjects was 35 days prior to launch. Also, urine samples were destroyed by the failure of the EuroMir Freezer. In consequence, urobilinogen and urobilinoid measurements were not performed.</p>\r\n<p>The collected data revealed that the erythropoietin serum concentrations were decreased in all three subjects compared to preflight levels. Hematocrit was also lower during and after the space flight. During their mission, the subjects consumed an average of 13.5 mg iron per day. The indices of iron storage and availability were increased during and after flight. Serum ferritin was greater during flight (average > 100 ng/mL) than before flight. Serum iron was increased in two subjects (average 20% greater than preflight) and unchanged in the third subject. Total iron binding capacity was lowered by an average of 10% during flight and was still below preflight levels 9 days after landing (R+9). On landing day (R+0), red blood cell mass (RBCM) was decreased by 17% compared to preflight baseline values, while serum ferritin concentrations were elevated. Serum erythropoietin was decreased in 2 of the 3 subjects on landing day, and elevated (80% greater than preflight) in all three subjects nine days later (R+9). All other indicators of iron status were unchanged. During additional measurements at R+3 months, the serum ferritin concentrations were below preflight level in all three subjects.</p>\r\n<p>Overall, investigators concluded that the subjects' RBC mass and survival adaptation to a microgravity environment resulted in a state of anemia. The anemia can be used as a model to better understand the mechanisms of erythropoiesis during space flight.</p>\r\n<end>",
+  "__doi": "10.83263/y84n-t951",
+  "__doi_record_creation_date": "2026-08-23T04:22:42",
+  "__doi_record_modified_date": "2026-08-23T04:22:42"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000002010",
+   "label": "2.2.5__2630551746",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Data Collection Timetables for Experiment 2.2.5",
+    "dataset_catalog": "2.2.5__2630551746",
+    "dataset_description": [
+     "This spreadsheet represents the data collection timetables for this experiment. Information included in this spreadsheet may include information about the test protocol, data collection constraints, parameters measured, hardware used, scheduled versus actual days of data collection, and subject information"
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "2.2.5"
+    ]
+   },
+   "meta": "1 file",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "9719362d-3524-5104-870b-ba07243b1a4f",
+     "label": "225__2630551746.pdf_Mir_18_2.2.5_2013_263_050951.pdf",
+     "type": "file",
+     "ext": "pdf",
+     "file_size": 0,
+     "meta": "",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

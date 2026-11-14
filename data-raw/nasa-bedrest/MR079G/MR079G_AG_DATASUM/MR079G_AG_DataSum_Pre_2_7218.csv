@@ -1,0 +1,13 @@
+ID,Campaign,Subject,Date,Test_Phase,BR_Day,Test,Position,Value,Units,Acceptable Range Lower Bound,Acceptable Range Upper Bound,NOTES
+1,AG,7218,7/3/2006,PRE_TEST,3,Knee Concentric Strength,Extension at 60°/sec,154.5,ft-lb,30,250,NA
+2,AG,7218,7/3/2006,PRE_TEST,3,Knee Concentric Strength,Extension at 180°/sec,NA,ft-lb,30,250,Not part of the AG Bed Rest Protocol
+3,AG,7218,7/3/2006,PRE_TEST,3,Knee Concentric Strength,Flexion at 60°/sec,83.6,ft-lb,20,150,NA
+4,AG,7218,7/3/2006,PRE_TEST,3,Knee Concentric Strength,Flexion at 180°/sec,NA,ft-lb,20,150,Not part of the AG Bed Rest Protocol
+5,AG,7218,7/3/2006,PRE_TEST,3,Knee Concentric Endurance,Extension at 180°/sec,NA,ft-lb,500,3000,Not part of the AG Bed Rest Protocol
+6,AG,7218,7/3/2006,PRE_TEST,3,Knee Concentric Endurance,Flexion at 180°/sec,NA,ft-lb,200,3000,Not part of the AG Bed Rest Protocol
+7,AG,7218,7/3/2006,PRE_TEST,3,Ankle Concentric Strength,Extension at 30°/sec,112.8,ft-lb,20,150,NA
+8,AG,7218,7/3/2006,PRE_TEST,3,Ankle Concentric Strength,Flexion at 30°/sec,34.9,ft-lb,0,50,NA
+9,AG,7218,7/3/2006,PRE_TEST,3,Ankle Eccentric Strength,Extension at 30°/sec,NA,ft-lb,20,200,Not part of the AG Bed Rest Protocol
+10,AG,7218,7/3/2006,PRE_TEST,3,Ankle Eccentric Strength,Flexion at 30°/sec,NA,ft-lb,10,100,Not part of the AG Bed Rest Protocol
+11,AG,7218,7/3/2006,PRE_TEST,3,Back Concentric Strength,Extension at 60°/sec,,ft-lb,50,300,NA
+12,AG,7218,7/3/2006,PRE_TEST,3,Back Concentric Strength,Flexion at 60°/sec,,ft-lb,50,300,NA

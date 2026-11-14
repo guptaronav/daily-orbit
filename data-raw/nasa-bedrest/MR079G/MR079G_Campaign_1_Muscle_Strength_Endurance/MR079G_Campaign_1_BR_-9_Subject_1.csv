@@ -1,0 +1,13 @@
+ID,Subject,Date,Test_Phase,BR_Day,Test,Position,Value,Units,Acceptable Range Lower Bound,Acceptable Range Upper Bound
+1,C1G0001,8/31/2004,PRE_TEST,9,Knee Concentric Strength,Extension at 60°/sec,97.1,ft-lb,30,250
+2,C1G0001,8/31/2004,PRE_TEST,9,Knee Concentric Strength,Extension at 180°/sec,84.2,ft-lb,30,250
+3,C1G0001,8/31/2004,PRE_TEST,9,Knee Concentric Strength,Flexion at 60°/sec,69.6,ft-lb,20,150
+4,C1G0001,8/31/2004,PRE_TEST,9,Knee Concentric Strength,Flexion at 180°/sec,62.7,ft-lb,20,150
+5,C1G0001,8/31/2004,PRE_TEST,9,Knee Concentric Endurance,Extension at 180°/sec,1128,ft-lb,500,3000
+6,C1G0001,8/31/2004,PRE_TEST,9,Knee Concentric Endurance,Flexion at 180°/sec,884,ft-lb,200,3000
+7,C1G0001,8/31/2004,PRE_TEST,9,Ankle Concentric Strength,Extension at 30°/sec,83.8,ft-lb,20,150
+8,C1G0001,8/31/2004,PRE_TEST,9,Ankle Concentric Strength,Flexion at 30°/sec,23.8,ft-lb,0,50
+9,C1G0001,8/31/2004,PRE_TEST,9,Ankle Eccentric Strength,Extension at 30°/sec,86.6,ft-lb,20,200
+10,C1G0001,8/31/2004,PRE_TEST,9,Ankle Eccentric Strength,Flexion at 30°/sec,38.7,ft-lb,10,100
+11,C1G0001,8/31/2004,PRE_TEST,9,Back Concentric Strength,Extension at 60°/sec,N/A**,ft-lb,50,300
+12,C1G0001,8/31/2004,PRE_TEST,9,Back Concentric Strength,Flexion at 60°/sec,N/A**,ft-lb,50,300

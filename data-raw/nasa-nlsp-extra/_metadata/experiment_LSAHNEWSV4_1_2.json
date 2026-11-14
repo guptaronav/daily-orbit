@@ -1,0 +1,138 @@
+{
+ "record": {
+  "id": "daeb10e7-940a-5d3c-9516-8a42e5213fa0",
+  "_id": "daeb10e7-940a-5d3c-9516-8a42e5213fa0",
+  "experiment_title": "Intraocular Pressure in the LSAH Population",
+  "archive_status_index": 1,
+  "pub_document_number": "PUB001132",
+  "parameter_html": "<table><tr><td>Intraocular pressure (IOP)</td></tr><tr></tr></table>",
+  "__source_key": "cl62axm6bccyn01o6bu2w10nk",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:No Principal Investigator,\">Principal Investigator: No Principal Investigator,</a>",
+  "experiment_type_lk": [
+   "Longitudinal Study of Astronaut Health (LSAH)"
+  ],
+  "__record_modified_date": "2026-08-23T04:20:39.371862+00:00",
+  "__indexed": "2026-08-23T04:20:39.371862+00:00",
+  "__record_creation_date": "2022-07-28T20:03:43.656Z",
+  "keyword": [
+   "Glaucoma",
+   "Intraocular pressure"
+  ],
+  "keyword_name": "Intraocular pressure",
+  "__record_size": 59612,
+  "__record_version": 29,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<BR>\r\nGlaucoma is one of the leading causes of blindness in the United States.  A common threat to good vision in midlife, it affects two out of every 100 people over the age of 40.\r\n<P>\r\nGlaucoma is a degenerative disease of the optic nerve.  In glaucoma, some of the nerve fibers become damaged and fail to transmit signals to the brain.  As a result, there may be blind spots, which usually occur at the outer edges of the field of vision.  This gradual loss of peripheral vision often goes unnoticed until significant optic nerve damage has occurred.  If not treated, glaucoma may affect an increasing number of nerve fibers, causing continued shrinking of the visual field.  The cause of the nerve damage in glaucoma is not known precisely.  In most patients, it is associated with increased fluid pressure inside the eye known as intraocular pressure.\tThe eye constantly produces and drains fluids.  If the drainage mechanism in the eye is blocked or restricted, the buildup of fluid will result in an increase in intraocular pressure.  It is important, however, to understand that high intraocular pressure (i.e. ocular hypertension) does not necessarily result in glaucoma.  There are individual tolerances for eye pressure and it can be higher than average in some individuals without resulting in optic nerve damage or subsequent loss of vision.  Most individuals with ocular hypertension go for years without developing nerve damage and may never have damage to the optic nerve.  However, people with ocular hypertension have a higher risk of developing optic nerve damage.  The goal of this study was to compare intraocular pressures between astronauts and comparison subjects.\r\n<P>\r\nAPPROACH:<BR>\r\nIntraocular pressure is measured with a tonometer.  Although several slightly different types of tonometers are used, the basic principle is the same.  This test uses air pressure (in mmHg) against the outside of the eyeball to measure the resistant pressure inside the eyeball.  This painless and non-invasive test is performed on both astronauts and comparison participants as part of the routine physical examination.  Normal intraocular pressure is typically between 10 and 20 mmHg.  If elevated intraocular pressure is detected, an in-depth evaluation of the eye is warranted before a diagnosis of glaucoma can be made.  \r\n<P>\r\nRESULTS:<BR>\r\nThere is no significant difference in the distribution of intraocular pressures between the astronauts and the comparison population.  Mean values of the right eye intraocular pressure were 13.5 mmHg for the astronauts and 13.2 mmHg for the comparisons.  Left eye values were 13.7 mmHg for the astronauts and 13.5 for the comparisons. <END>",
+  "payload_id": "LSAH",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "LSAHNEWSV4_1_2",
+  "indexed": "2026-08-23T04:20:39.371862+00:00",
+  "GUID": "cl62axm6bccyn01o6bu2w10nk",
+  "parameter_name": [
+   "Intraocular pressure (IOP)"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 1052,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Clinical medicine",
+   "Neuroscience",
+   "Ocular physiological phenomena"
+  ],
+  "pme_role_with_name": [
+   "Principal Investigator: No Principal Investigator,"
+  ],
+  "missions": [
+   [
+    [
+     "LSAH"
+    ]
+   ]
+  ],
+  "__dirid": "daeb10e7-940a-5d3c-9516-8a42e5213fa0",
+  "__record_size_wo_doccontent": 59612,
+  "PI": [
+   "No Principal Investigator,"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "LSAHNEWSV4_1_2"
+  ],
+  "mission_id": [
+   [
+    [
+     "LSAH"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "proposal_source": [],
+  "proposal_date": [],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "No Principal Investigator,"
+  ],
+  "program_name": [
+   "Space Medicine"
+  ],
+  "archive_status": "Data preservation is complete. All datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Space Medicine",
+  "__source_field_concat": "PUB001132 LSAH cl62axm6bccyn01o6bu2w10nk <table><tr><td>Intraocular pressure (IOP)</td></tr><tr></tr></table> Intraocular pressure  N/A Intraocular Pressure in the LSAH Population LSAHNEWSV4_1_2 Space Medicine Data preservation is complete. All datasets are publicly available.",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<BR>\r\nGlaucoma is one of the leading causes of blindness in the United States.  A common threat to good vision in midlife, it affects two out of every 100 people over the age of 40.\r\n<P>\r\nGlaucoma is a degenerative disease of the optic nerve.  In glaucoma, some of the nerve fibers become damaged and fail to transmit signals to the brain.  As a result, there may be blind spots, which usually occur at the outer edges of the field of vision.  This gradual loss of peripheral vision often goes unnoticed until significant optic nerve damage has occurred.  If not treated, glaucoma may affect an increasing number of nerve fibers, causing continued shrinking of the visual field.  The cause of the nerve damage in glaucoma is not known precisely.  In most patients, it is associated with increased fluid pressure inside the eye known as intraocular pressure.\tThe eye constantly produces and drains fluids.  If the drainage mechanism in the eye is blocked or restricted, the buildup of fluid will result in an increase in intraocular pressure.  It is important, however, to understand that high intraocular pressure (i.e. ocular hypertension) does not necessarily result in glaucoma.  There are individual tolerances for eye pressure and it can be higher than average in some individuals without resulting in optic nerve damage or subsequent loss of vision.  Most individuals with ocular hypertension go for years without developing nerve damage and may never have damage to the optic nerve.  However, people with ocular hypertension have a higher risk of developing optic nerve damage.  The goal of this study was to compare intraocular pressures between astronauts and comparison subjects.\r\n<P>\r\nAPPROACH:<BR>\r\nIntraocular pressure is measured with a tonometer.  Although several slightly different types of tonometers are used, the basic principle is the same.  This test uses air pressure (in mmHg) against the outside of the eyeball to measure the resistant pressure inside the eyeball.  This painless and non-invasive test is performed on both astronauts and comparison participants as part of the routine physical examination.  Normal intraocular pressure is typically between 10 and 20 mmHg.  If elevated intraocular pressure is detected, an in-depth evaluation of the eye is warranted before a diagnosis of glaucoma can be made.  \r\n<P>\r\nRESULTS:<BR>\r\nThere is no significant difference in the distribution of intraocular pressures between the astronauts and the comparison population.  Mean values of the right eye intraocular pressure were 13.5 mmHg for the astronauts and 13.2 mmHg for the comparisons.  Left eye values were 13.7 mmHg for the astronauts and 13.5 for the comparisons. <END>",
+  "__doi": "10.83263/qkkt-9597",
+  "__doi_record_creation_date": "2026-08-23T04:20:39",
+  "__doi_record_modified_date": "2026-08-23T04:20:39"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000385",
+   "label": "JMLSAHNEWS412_137",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Intraocular Pressures Measured in Astronaut Physical Exams",
+    "dataset_catalog": "JMLSAHNEWS412_137",
+    "dataset_description": [
+     "The graph shows intraocular pressures of the left eye, which was measured at the most recent physical examination for the astronaut population (as of 1995) and the comparison population.\r\n<P>Source: National Aeronautics and Space Administration. Glaucoma: are you at risk? In: Longitudinal Study of Astronaut Health Newsletter. Spring 1995; 4(1):3-4."
+    ],
+    "processing_level": [
+     "Summarized"
+    ],
+    "experiment_id": [
+     "LSAHNEWSV4_1_2"
+    ]
+   },
+   "meta": "1 file \u00b7 79.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "1a498569-d810-5591-964c-04593f7e68df",
+     "label": "JMLSAHNEWS412_137.tiff",
+     "type": "file",
+     "ext": "tiff",
+     "file_size": 80896,
+     "meta": "79.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

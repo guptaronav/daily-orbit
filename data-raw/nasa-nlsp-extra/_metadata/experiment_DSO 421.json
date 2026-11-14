@@ -1,0 +1,173 @@
+{
+ "record": {
+  "id": "fc3e7766-cd20-52c6-90f3-d066e3b9f4a1",
+  "_id": "fc3e7766-cd20-52c6-90f3-d066e3b9f4a1",
+  "experiment_title": "Animal Enclosure Module In-flight Test",
+  "archive_status_index": 1,
+  "parameter_html": "<table><tr><td>Staphylococcus aureus</td></tr><tr><td>Lactobacillus species</td></tr><tr><td>Streptococcus viridans</td></tr><tr></tr></table>",
+  "__source_key": "cl62aykdgcd6p01o63m9h67ic",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Smith, Malcolm\">Principal Investigator: Smith, Malcolm</a>",
+  "experiment_type_lk": [
+   "Shuttle Detailed Supplementary Objectives (DSO)"
+  ],
+  "__record_modified_date": "2026-08-23T04:22:06.110139+00:00",
+  "proposal_source": [
+   "N/A"
+  ],
+  "__indexed": "2026-08-23T04:22:06.110139+00:00",
+  "__record_creation_date": "2022-07-28T19:55:27.113Z",
+  "keyword": [
+   "Lactobacillus",
+   "Weight"
+  ],
+  "keyword_name": "Weight",
+  "__record_size": 99946,
+  "__record_version": 29,
+  "__model_version": 60,
+  "experiment_description": "OBJECTIVES:<br>\r\nThis experiment was flown as a Detailed Supplementary Objective (DSO) to test the efficacy of the Animal Enclosure Module (AEM) in supporting healthy animals without compromising crew safety and comfort. This study represents the first attempt to fly animals in the crew compartment of a United States space vehicle, and ground testing was accordingly rigorous.\r\n<p>\r\nThe AEM was installed in a mid-deck locker in the Shuttle Orbiter. Operation of the AEM required a 28 v DC power supply to operate air intake/exhaust fans and interior lights. Otherwise, it was a self-contained system designed to maintain six adult rats (250-300 grams each) for seven days.\r\n<p>\r\nTesting to assure that the crewmembers would not be exposed to obnoxious or noxious odors and pathogenic microorganisms was accomplished. In-flight crew involvement in the experiment was limited to activating lights to maintain nominal circadian rhythms, a 10 minute video tape on days 2 and 5, and daily observation of animal behavior.  At no time did the crew handle the animals outside of the AEM.\r\n<p>\r\nAPPROACH:<br>\r\nSix Specific Pathogen Free (SPF) male albino rats (Lewis Wistar strain), age 56 days and weighing approximately 275 g at launch were to be used for flight. A group of six controls and six flight back-ups were required. However, the animal supplier could not guarantee that the rats would be free of one of the microorganisms on the restricted list, <i>Klebsiella pneumonia</i>. Therefore, it was determined that germfree (cesarian derived and isolator reared) rats would be required in order to meet all of the microbiological requirements. These germ-free rats were stabilized with a \"cocktail\" of <i>Lactobacillus</i> spp four days prior to shipment from the vendor's facility to the Life Science Support Facility (LSSF) at Kennedy Space Center (KSC). Only 15 of the germ-free rats were available, and these were subsequently divided into one group of six flight animals, one group of six backup flight animals, and one group of three controls.\r\n<p>\r\nHousing facilities preflight were provided by the KSC LSSF in Hanger L. Procedures for handling and maintaining germ-free animals at this facility are as specified by the Association for Laboratory Animal Science. Procedures and equipment at the KSC LSSF were consistently within specification and animal comfort and exposure to microbial contamination was not compromised. Animals were received in the LSSF on August 18, 1983 (F-12 days). Physical exams and microbiological analyses were accomplished upon receipt, at F-5 days, and at F-18 hours.\r\n<p>\r\nRESULTS:<br>\r\nFlight animals lost an average of 11 g (3.7%) in side A of the cage or gained an average of 3 g (1.3%) in side B. Controls gained an average of 5, 29, and 2 g (1.7%, 11%, and 0.6%). The flight rats failed to gain weight at their expected rates and some even lost weight while the ground based controls either gained weight as expected or gained slightly less than expected.\r\n<p>\r\nFlight rats were at a disadvantage in that their food supply was glued to the sides of the cage and was slightly more difficult to access than the food in the cages of the controls. Flight animals consumed an average of 175 g of food whereas controls consumed 223 g. Control group KSC-1 did not gain at the expected rate, probably due to the fact that this group was anesthetized for a blood sample on August 30, 1983. Control group ARC-5 did not gain at their expected rate due to the fact that this group was disturbed by transfer from KSC to ARC, and they had no food supply for about 24 hours.\r\n<p>\r\nPostflight examination of the flight animals revealed that they were in good physical condition. They were alert and were actively grooming themselves and each other. Their supply of water in the raw potatoes was exhausted on Side A and nearly exhausted on Side B. Their hair coat was slightly discolored and stained which was probably due to their inadvertent rubbing against the food bars in microgravity. Postflight examination of the cage and in-flight video tapes indicated that the air flow through the cage was not great enough to quickly pull urine, feces, and debris out of the cage area and onto the exhaust filter grid. Therefore, coprophagy was not prevented.\r\n<p>\r\nPreflight microbial testing of the animals yielded <i>Lactobacillus</i> spp as expected, but no organism on the exclusion list was found. Testing of the raw potatoes revealed a variety of organisms in spite of using ionizing radiation and a chlorine scrub to provide a sterile potato. The potato-borne organisms were not on the exclusion list.\r\n<p>\r\nPostflight microbial testing of the animals yielded two organisms in the animals which had not been recovered during preflight testing. These were <i>Streptococcus vividans</i>  and <i>Staphylococcus aureus</i>, and it is presumed that these organisms were introduced by the raw potatoes and/or by the lack of complete sterility of the AEM. These organisms were not recovered from the exhaust ports of the AEM, and this supports the contention that the AEM is an effective microbial isolator and does not result in contamination of the external environment.\r\n<p>\r\n<i>Conclusions</i>\r\n<p>\r\nThe AEM successfully maintained six healthy rats for the duration of the mission (six days). Improvements in the water supply (to provide a margin of safety of at least 20%) and an increase in the rate of air flow through the AEM are highly desirable. The AEM can be used for a variety of flight experiments using small laboratory animals without impairing crew time, crew safety, and crew comfort.\r\n<p>",
+  "payload_id": "DSO8",
+  "CombinedSpecies": [
+   [
+    "Human (Homo sapiens) N/A"
+   ]
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "experiment_id": "DSO 421",
+  "indexed": "2026-08-23T04:22:06.110139+00:00",
+  "experiment_related": [
+   "SSIP-8"
+  ],
+  "GUID": "cl62aykdgcd6p01o63m9h67ic",
+  "parameter_name": [
+   "Staphylococcus aureus",
+   "Lactobacillus species",
+   "Streptococcus viridans"
+  ],
+  "payload_part": "N/A",
+  "exp_index": 554,
+  "__model_type": "lsda_experiment",
+  "research_area": [
+   "Network physiology"
+  ],
+  "pme_role_with_name": [
+   "Principal Investigator: Smith, Malcolm"
+  ],
+  "missions": [
+   [
+    [
+     "STS-8"
+    ]
+   ]
+  ],
+  "__dirid": "fc3e7766-cd20-52c6-90f3-d066e3b9f4a1",
+  "__record_size_wo_doccontent": 99946,
+  "PI": [
+   "Smith, Malcolm"
+  ],
+  "__update_method": "Update CDM",
+  "_file_extension": [],
+  "experiment_identifier": [
+   "DSO 421"
+  ],
+  "mission_id": [
+   [
+    [
+     "STS-8"
+    ]
+   ]
+  ],
+  "center": [
+   "Johnson Space Center"
+  ],
+  "ncindex": [
+   2
+  ],
+  "species": [
+   "Human"
+  ],
+  "PrincipalInvestigator": [
+   "Smith, Malcolm"
+  ],
+  "program_name": [
+   "Shuttle Program"
+  ],
+  "archive_status": "Data preservation is complete. All datasets are publicly available.",
+  "__is_locked": false,
+  "experiment_alias": "",
+  "Program": "Shuttle Program",
+  "__source_field_concat": "DSO8 cl62aykdgcd6p01o63m9h67ic Weight  N/A Animal Enclosure Module In-flight Test DSO 421 Shuttle Program Data preservation is complete. All datasets are publicly available.",
+  "__icon_type": "human",
+  "__description": "OBJECTIVES:<br>\r\nThis experiment was flown as a Detailed Supplementary Objective (DSO) to test the efficacy of the Animal Enclosure Module (AEM) in supporting healthy animals without compromising crew safety and comfort. This study represents the first attempt to fly animals in the crew compartment of a United States space vehicle, and ground testing was accordingly rigorous.\r\n<p>\r\nThe AEM was installed in a mid-deck locker in the Shuttle Orbiter. Operation of the AEM required a 28 v DC power supply to operate air intake/exhaust fans and interior lights. Otherwise, it was a self-contained system designed to maintain six adult rats (250-300 grams each) for seven days.\r\n<p>\r\nTesting to assure that the crewmembers would not be exposed to obnoxious or noxious odors and pathogenic microorganisms was accomplished. In-flight crew involvement in the experiment was limited to activating lights to maintain nominal circadian rhythms, a 10 minute video tape on days 2 and 5, and daily observation of animal behavior.  At no time did the crew handle the animals outside of the AEM.\r\n<p>\r\nAPPROACH:<br>\r\nSix Specific Pathogen Free (SPF) male albino rats (Lewis Wistar strain), age 56 days and weighing approximately 275 g at launch were to be used for flight. A group of six controls and six flight back-ups were required. However, the animal supplier could not guarantee that the rats would be free of one of the microorganisms on the restricted list, <i>Klebsiella pneumonia</i>. Therefore, it was determined that germfree (cesarian derived and isolator reared) rats would be required in order to meet all of the microbiological requirements. These germ-free rats were stabilized with a \"cocktail\" of <i>Lactobacillus</i> spp four days prior to shipment from the vendor's facility to the Life Science Support Facility (LSSF) at Kennedy Space Center (KSC). Only 15 of the germ-free rats were available, and these were subsequently divided into one group of six flight animals, one group of six backup flight animals, and one group of three controls.\r\n<p>\r\nHousing facilities preflight were provided by the KSC LSSF in Hanger L. Procedures for handling and maintaining germ-free animals at this facility are as specified by the Association for Laboratory Animal Science. Procedures and equipment at the KSC LSSF were consistently within specification and animal comfort and exposure to microbial contamination was not compromised. Animals were received in the LSSF on August 18, 1983 (F-12 days). Physical exams and microbiological analyses were accomplished upon receipt, at F-5 days, and at F-18 hours.\r\n<p>\r\nRESULTS:<br>\r\nFlight animals lost an average of 11 g (3.7%) in side A of the cage or gained an average of 3 g (1.3%) in side B. Controls gained an average of 5, 29, and 2 g (1.7%, 11%, and 0.6%). The flight rats failed to gain weight at their expected rates and some even lost weight while the ground based controls either gained weight as expected or gained slightly less than expected.\r\n<p>\r\nFlight rats were at a disadvantage in that their food supply was glued to the sides of the cage and was slightly more difficult to access than the food in the cages of the controls. Flight animals consumed an average of 175 g of food whereas controls consumed 223 g. Control group KSC-1 did not gain at the expected rate, probably due to the fact that this group was anesthetized for a blood sample on August 30, 1983. Control group ARC-5 did not gain at their expected rate due to the fact that this group was disturbed by transfer from KSC to ARC, and they had no food supply for about 24 hours.\r\n<p>\r\nPostflight examination of the flight animals revealed that they were in good physical condition. They were alert and were actively grooming themselves and each other. Their supply of water in the raw potatoes was exhausted on Side A and nearly exhausted on Side B. Their hair coat was slightly discolored and stained which was probably due to their inadvertent rubbing against the food bars in microgravity. Postflight examination of the cage and in-flight video tapes indicated that the air flow through the cage was not great enough to quickly pull urine, feces, and debris out of the cage area and onto the exhaust filter grid. Therefore, coprophagy was not prevented.\r\n<p>\r\nPreflight microbial testing of the animals yielded <i>Lactobacillus</i> spp as expected, but no organism on the exclusion list was found. Testing of the raw potatoes revealed a variety of organisms in spite of using ionizing radiation and a chlorine scrub to provide a sterile potato. The potato-borne organisms were not on the exclusion list.\r\n<p>\r\nPostflight microbial testing of the animals yielded two organisms in the animals which had not been recovered during preflight testing. These were <i>Streptococcus vividans</i>  and <i>Staphylococcus aureus</i>, and it is presumed that these organisms were introduced by the raw potatoes and/or by the lack of complete sterility of the AEM. These organisms were not recovered from the exhaust ports of the AEM, and this supports the contention that the AEM is an effective microbial isolator and does not result in contamination of the external environment.\r\n<p>\r\n<i>Conclusions</i>\r\n<p>\r\nThe AEM successfully maintained six healthy rats for the duration of the mission (six days). Improvements in the water supply (to provide a margin of safety of at least 20%) and an increase in the rate of air flow through the AEM are highly desirable. The AEM can be used for a variety of flight experiments using small laboratory animals without impairing crew time, crew safety, and crew comfort.\r\n<p>",
+  "__doi": "10.83263/bdvd-7453",
+  "__doi_record_creation_date": "2026-08-23T04:22:06",
+  "__doi_record_modified_date": "2026-08-23T04:22:06"
+ },
+ "datasets": [
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000596",
+   "label": "JMDSO_421_1",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "Average Body Weight Change",
+    "dataset_catalog": "JMDSO_421_1",
+    "dataset_description": [
+     "This Excel chart contains average body weight changes in rats during the the DSO 421 study.  Values include the amount of food and potatoes consumed preflight and postflight. \r\n<p>\r\nSource: Unpublished data."
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "DSO 421"
+    ]
+   },
+   "meta": "1 file \u00b7 24.0 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "e0d2595c-013b-5d5f-8c02-09c88619fa36",
+     "label": "JMDSO_421_1.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 24576,
+     "meta": "24.0 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "IDP-LSDA_DATASET-0000000000000652",
+   "label": "JMDSO_421_2",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "CBC Data",
+    "dataset_catalog": "JMDSO_421_2",
+    "dataset_description": [
+     "This Excel chart contains CBC results for all rats in the DSO 421 study.  Values include WBC, RBC, hemoglobin, hematocrit, MCV, MCH, MCHC, platelets, and retics preflight and postflight. \r\n<p>\r\nSource: Unpublished data."
+    ],
+    "processing_level": [
+     "Analyzed"
+    ],
+    "experiment_id": [
+     "DSO 421"
+    ]
+   },
+   "meta": "1 file \u00b7 24.5 KB",
+   "date": "2022-07-28",
+   "children": [
+    {
+     "key": "7f2d86e7-8b34-5bae-be04-b90cb4721f82",
+     "label": "JMDSO_421_2.xls",
+     "type": "file",
+     "ext": "xls",
+     "file_size": 25088,
+     "meta": "24.5 KB",
+     "date": "2022-07-28",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}

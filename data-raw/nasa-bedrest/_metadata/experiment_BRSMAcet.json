@@ -1,0 +1,217 @@
+{
+ "record": {
+  "id": "7ab565bb-f9d6-510f-bd07-407caccaeb9f",
+  "_id": "7ab565bb-f9d6-510f-bd07-407caccaeb9f",
+  "__is_locked": false,
+  "experiment_title": "Bed Rest Standard Measures:  Acetaminophen Test",
+  "__source_key": "cl62azf8wcde101o6ebxja2ut",
+  "experiment_type": [
+   [
+    "Flight Analogs Project (FAP)"
+   ],
+   [
+    "NASA Bedrest Studies"
+   ],
+   [
+    "NASA Ground-Based Investigations"
+   ]
+  ],
+  "AssignedArchivist": [
+   "Liddell, Nyaia A."
+  ],
+  "keyword": [
+   "Acetaminophen",
+   "Bed rest",
+   "Lactulose",
+   "Pharmacokinetics",
+   "Gastrointestinal system",
+   "Glucose, breath"
+  ],
+  "__record_version": 34,
+  "indexed": "2026-08-23T04:15:31.890177+00:00",
+  "GUID": "cl62azf8wcde101o6ebxja2ut",
+  "_file_extension": "human",
+  "archive_status": "Data preservation is complete.  All datasets are publicly available.",
+  "__model_type": "lsda_experiment",
+  "__dirid": "7ab565bb-f9d6-510f-bd07-407caccaeb9f",
+  "__record_size_wo_doccontent": 28175,
+  "__update_method": "Update CDM",
+  "experiment_identifier": [
+   "BRSMAcet"
+  ],
+  "CompleteArchivalExpectedInFiscalYear": [
+   "0"
+  ],
+  "experiment_type_lk": [
+   "Flight Analogs Project (FAP)",
+   "NASA Bedrest Studies",
+   "NASA Ground-Based Investigations"
+  ],
+  "__record_modified_date": "2026-08-23T04:15:31.890177+00:00",
+  "__indexed": "2026-08-23T04:15:31.890177+00:00",
+  "__record_creation_date": "2022-07-28T19:54:41.904Z",
+  "__record_size": 28175,
+  "species_strain": [
+   [
+    "N/A"
+   ]
+  ],
+  "__model_version": 60,
+  "species_sci_name": [
+   [
+    "Homo sapiens"
+   ]
+  ],
+  "payload_id": [
+   "Campaign 3",
+   "Campaign 5",
+   "Campaign 1"
+  ],
+  "CombinedSpecies": [
+   "Human (Homo sapiens) N/A"
+  ],
+  "agency": [
+   "National Aeronautics and Space Administration (NASA)"
+  ],
+  "ncindex": 2,
+  "researchIndex": [
+   20,
+   10
+  ],
+  "experiment_id": "BRSMAcet",
+  "experiment_related": [
+   "BRSMUBT",
+   "BRSMLac",
+   "BRSMGBT"
+  ],
+  "parameter_name": [
+   "Area under concentration-time curve (AUC)",
+   "Cmax",
+   "Gastrointestinal transit time (GITT)",
+   "Half life lambda-z (t 1/2)",
+   "Time to maximum concentration (Tmax)"
+  ],
+  "exp_index": 1277,
+  "research_area": [
+   "Pharmacology",
+   "Gastrointestinal physiology"
+  ],
+  "species": [
+   [
+    "Human"
+   ]
+  ],
+  "pme_role_with_name": [
+   "Principal Investigator: Putcha, Lakshmi"
+  ],
+  "missions": [
+   "UTMB Campaign 3",
+   "UTMB Campaign 5",
+   "UTMB Campaign 1"
+  ],
+  "PI": [
+   "Putcha, Lakshmi"
+  ],
+  "sort": [
+   3,
+   "4ad7effd-4428-5141-9342-a482f111451f"
+  ],
+  "Program": "Ground",
+  "parameter_html": "<table><tr><td>Area under concentration-time curve (AUC)</td></tr><tr><td>Cmax</td></tr><tr><td>Gastrointestinal transit time (GITT)</td></tr><tr><td>Half life lambda-z (t 1/2)</td></tr><tr><td>Time to maximum concentration (Tmax)</td></tr><tr></tr></table>",
+  "investigators": "<a href=\"/explore/mtable/lsda_personnel/lsda_personnel?&searchfields=CompleteName:Putcha, Lakshmi\">Principal Investigator: Putcha, Lakshmi</a>",
+  "PrincipalInvestigator": [
+   "Putcha, Lakshmi"
+  ],
+  "mission_id": [
+   "UTMB Campaign 3",
+   "UTMB Campaign 5",
+   "UTMB Campaign 1"
+  ],
+  "__source_field_concat": "human cl62azf8wcde101o6ebxja2ut Bed Rest Standard Measures:  Acetaminophen Test BRSMAcet Ground Data preservation is complete.  All datasets are publicly available.",
+  "__icon_type": "",
+  "__description": "",
+  "__doi": "10.83263/0njm-h670",
+  "__doi_record_creation_date": "2026-08-23T04:15:31",
+  "__doi_record_modified_date": "2026-08-23T04:15:31"
+ },
+ "datasets": [
+  {
+   "key": "ed9d17dc-e722-5afe-b67c-3c7d5405dbb7",
+   "label": "BRSMAcet_Campaign_1_Acetaminophen",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "UTMB Bedrest Campaign 1 BRSM Query Results",
+    "dataset_catalog": "BRSMAcet_Campaign_1_Acetaminophen",
+    "dataset_description": "This dataset contains data for all Campaign 1 subjects for the Bed Rest Standard Measure Acetaminophen (BRSMAcet) study. Data collection sessions for this measure were performed once pre-bed rest, three times during bed rest, and one time post bed rest. Urine, blood, saliva, and breath samples were taken during the data collection sessions to determine the absorption rate of acetaminophen. The Analyzed Data folder contains maximal concentration, half life, and observed volume and clearance of acetaminophen derived from saliva samples for each subject who completed the study.",
+    "processing_level": "Processed Data",
+    "experiment_id": [
+     "BRSMAcet"
+    ]
+   },
+   "meta": "2 files \u00b7 1.9 KB",
+   "date": "2025-04-15",
+   "children": [
+    {
+     "key": "f09861bf-9946-59fa-9bcc-f749506e1953",
+     "label": "BRSMACET_Campaign_1_BRSM_Query_Result_Acetaminophen_ReadMe",
+     "type": "file",
+     "ext": "",
+     "file_size": 425,
+     "meta": "425 B",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "52752093-2d21-5459-a959-3a34e00a6cd3",
+     "label": "BRSMACET_Campaign_1_BRSM_Query_Result_Acetaminophen",
+     "type": "file",
+     "ext": "",
+     "file_size": 1527,
+     "meta": "1.5 KB",
+     "date": "2025-04-15",
+     "dataset_file_info": {}
+    }
+   ]
+  },
+  {
+   "key": "cca03442-fa15-5fde-8b91-ac4275343818",
+   "label": "BRSMAcet_Campaign_3_Acetaminophen",
+   "type": "folder",
+   "dataset_info": {
+    "dataset_name": "UTMB Bedrest Campaign 3 Acetaminophen",
+    "dataset_catalog": "BRSMAcet_Campaign_3_Acetaminophen",
+    "dataset_description": "This dataset contains data for Campaign 3 subjects for the Bed Rest Standard Measure Acetaminophen (BRSMAcet) study. Data collection sessions for this measure were performed once pre-bed rest, three times during bed rest, and one time post bed rest. Urine, blood, saliva, and breath samples were taken during the data collection sessions to determine the absorption rate of acetaminophen. Data in this dataset includes maximal concentration, half life, and Area Under Concentration time curve derived from saliva samples.",
+    "processing_level": [
+     "Processed Data"
+    ],
+    "experiment_id": [
+     "BRSMAcet"
+    ]
+   },
+   "meta": "2 files \u00b7 2.8 KB",
+   "date": "2025-09-12",
+   "children": [
+    {
+     "key": "fcd8ddb4-0326-5b1e-86f1-de6d8ae8aa79",
+     "label": "BRSMAcet_Campaign_3_Acetaminophen_C3C_All",
+     "type": "file",
+     "ext": "",
+     "file_size": 819,
+     "meta": "819 B",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    },
+    {
+     "key": "243ea712-4db3-500b-be07-1b17ba952143",
+     "label": "BRSMAcet_Campaign_3_Acetaminophen_C3D_Multiple",
+     "type": "file",
+     "ext": "",
+     "file_size": 2069,
+     "meta": "2.0 KB",
+     "date": "2025-09-12",
+     "dataset_file_info": {}
+    }
+   ]
+  }
+ ]
+}
