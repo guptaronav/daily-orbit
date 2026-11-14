@@ -8,6 +8,12 @@ const SEED = 42
 export const addMeasurement = (m: Measurement): Promise<boolean> =>
   safe(async () => (await db.measurements.put(m), true), false)
 
+export const addMeasurements = (ms: Measurement[]): Promise<boolean> =>
+  safe(async () => (await db.measurements.bulkPut(ms), true), false)
+
+export const removeEvents = (ids: string[]): Promise<boolean> =>
+  safe(async () => (await db.events.bulkDelete(ids), true), false)
+
 export const addEvent = (e: GameEvent): Promise<boolean> =>
   safe(async () => (await db.events.put(e), true), false)
 

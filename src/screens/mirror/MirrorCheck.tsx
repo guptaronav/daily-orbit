@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { saveSession } from '../../db/repo'
-import type { MirrorSession } from '../../lib/session'
+import { sessionEventKinds, type MirrorSession } from '../../lib/session'
 import { useApp } from '../../state/AppContext'
 import { CameraCheck, type CameraResult } from './CameraCheck'
 import type { CaptureDiagnostics } from '../../lib/signal/analyze'
@@ -59,7 +59,7 @@ export function MirrorCheck() {
       {step === 'camera' && <CameraCheck onComplete={onCamera} />}
       {step === 'vision' && <Vision onComplete={onVision} />}
       {step === 'symptoms' && <Symptoms onComplete={onSymptoms} busy={saving} />}
-      {step === 'summary' && <Summary crewId={crewId} sessionId={session.sessionId} diagnostics={diagnostics} onRetake={retake} onDone={() => go('bodymap')} />}
+      {step === 'summary' && <Summary crewId={crewId} sessionId={session.sessionId} earned={sessionEventKinds(session)} diagnostics={diagnostics} onRetake={retake} onDone={() => go('bodymap')} />}
     </main>
   )
 }

@@ -42,9 +42,14 @@ export function Landing() {
             ))}
           </select>
         </label>
-        <button onClick={() => void resetDemo()} className="mt-4 text-sm text-accent underline underline-offset-4 hover:text-ink">
-          Reset demo
-        </button>
+        <div className="mt-4 flex flex-wrap gap-x-5 gap-y-1">
+          <button onClick={() => void resetDemo()} className="text-sm text-accent underline underline-offset-4 hover:text-ink">
+            Reset demo
+          </button>
+          <button onClick={() => window.dispatchEvent(new Event('demo:toggle'))} className="text-sm text-accent underline underline-offset-4 hover:text-ink">
+            Demo controls (Shift+D)
+          </button>
+        </div>
       </aside>
     </main>
   )

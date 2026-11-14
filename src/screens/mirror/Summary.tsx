@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { StatusDot } from '../../components/StatusDot'
 import { btnPrimary, btnSecondary } from '../../components/ui'
-import type { Indicator, Measurement } from '../../contract/types'
+import type { GameEventKind, Indicator, Measurement } from '../../contract/types'
 import { listMeasurements } from '../../db/repo'
 import { BASELINE_MIN_SAMPLES } from '../../lib/baseline'
 import { readIndicator } from '../../lib/bodyStatus'
@@ -10,13 +10,22 @@ import type { CaptureDiagnostics } from '../../lib/signal/analyze'
 import { getContent } from '../../lib/content'
 import { formatValue } from '../../lib/format'
 import { retakeAdvice } from '../../lib/retake'
+import { EVENT_LABEL, POINTS, pointsFor } from '../../lib/scoring'
 
-type Props = { crewId: string; sessionId: string; diagnostics?: CaptureDiagnostics | null; onRetake: () => void; onDone: () => void }
+type Props = {
+  crewId: string
+  sessionId: string
+  /** Effort events this check-in earned. */
+  earned: GameEventKind[]
+  diagnostics?: CaptureDiagnostics | null
+  onRetake: () => void
+  onDone: () => void
+}
 
 // Shown in this order; only indicators that were actually measured this session appear.
 const ORDER: Indicator[] = ['heartRate', 'blinkRate', 'eyelidClosure', 'sleepHours', 'sleepQuality', 'mood', 'stress', 'appetite', 'digestiveComfort', 'amslerDistortion', 'nearAcuity', 'symptomReport']
 
-export function Summary({ crewId, sessionId, diagnostics, onRetake, onDone }: Props) {
+export function Summary({ crewId, sessionId, earned, diagnostics, onRetake, onDone }: Props) {
   const [all, setAll] = useState<Measurement[] | null>(null)
 
   useEffect(() => {
@@ -70,6 +79,20 @@ export function Summary({ crewId, sessionId, diagnostics, onRetake, onDone }: Pr
         })}
       </ul>
       <p className="max-w-xl text-sm text-muted">Colors compare each reading with your own baseline. A reading we could not trust is never colored.</p>
+      <section aria-labelledby="credit-heading" className="max-w-xl border-l-4 border-accent bg-panel p-4">
+        <h3 id="credit-heading" className="text-sm font-semibold">
+          Credit earned: {pointsFor(earned.map((kind) => ({ kind })))} points
+        </h3>
+        <ul className="mt-2 text-sm">
+          {earned.map((kind) => (
+            <li key={kind} className="flex justify-between gap-4">
+              <span>{EVENT_LABEL[kind]}</span>
+              <span className="font-medium">+{POINTS[kind]}</span>
+            </li>
+          ))}
+        </ul>
+        <p className="mt-2 text-xs text-muted">Points come from what you did, not from your readings. A hard day earns exactly what an easy one does.</p>
+      </section>
       {diagnostics && (
         <details className="max-w-xl border border-rule bg-panel p-3 text-sm">
           <summary className="cursor-pointer font-medium">Measurement details</summary>

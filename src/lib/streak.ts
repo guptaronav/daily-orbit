@@ -1,3 +1,5 @@
+import type { GameEvent } from '../contract/types'
+
 const DAY_MS = 86_400_000
 const FORGIVE_WINDOW_DAYS = 7 // a second missed day within this many days breaks the streak
 
@@ -27,4 +29,10 @@ export function currentStreak(checkInDays: readonly string[], today: string): nu
     }
   }
   return count
+}
+
+/** Unique ISO dates (UTC) on which this crew member completed a check-in, oldest first. */
+export function checkInDays(events: readonly GameEvent[], crewId: string): string[] {
+  const days = new Set(events.filter((e) => e.crewId === crewId && e.kind === 'checkInComplete').map((e) => e.timestamp.slice(0, 10)))
+  return [...days].sort()
 }

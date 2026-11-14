@@ -6,6 +6,7 @@ import { ENVIRONMENTS, type EnvId, type Environment } from '../lib/environments'
 export type Screen =
   | 'landing'
   | 'bodymap'
+  | 'progress'
   | 'mirror'
   | 'manual'
   | 'escalation'

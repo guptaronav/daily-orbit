@@ -5,6 +5,7 @@ import { useApp, type Screen } from '../state/AppContext'
 const NAV: { screen: Screen; label: string }[] = [
   { screen: 'bodymap', label: 'Body map' },
   { screen: 'mirror', label: 'Mirror check' },
+  { screen: 'progress', label: 'Crew progress' },
   { screen: 'manual', label: 'Manual entry' },
   { screen: 'escalation', label: 'Escalation' },
   { screen: 'radiation', label: 'Radiation' },
