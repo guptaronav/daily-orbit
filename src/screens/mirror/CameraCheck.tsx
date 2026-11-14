@@ -4,6 +4,7 @@ import { runCapture } from '../../camera/capture'
 import { getFaceLandmarker } from '../../camera/faceLandmarker'
 import { createFrameAnalyzer, onEachFrame } from '../../camera/frames'
 import { useVideoSource, type VideoError, type VideoMode } from '../../camera/useVideoSource'
+import { OptionalSlider } from '../../components/OptionalSlider'
 import { btnPrimary, btnSecondary, linkBtn } from '../../components/ui'
 import { analyzeCapture, type CaptureAnalysis } from '../../lib/signal/analyze'
 import { positionChecks, type PositionChecks } from '../../lib/signal/position'
@@ -54,6 +55,8 @@ export function CameraCheck({ onComplete }: { onComplete: (result: CameraResult)
   const [faceNow, setFaceNow] = useState(true)
   const [report, setReport] = useState<SelfReport>({})
   const reportRef = useRef(report)
+  const setAnswer = (key: keyof SelfReport, value: number | undefined) =>
+    setReport(({ [key]: _dropped, ...rest }) => (value === undefined ? rest : { ...rest, [key]: value }))
   const abortRef = useRef<AbortController | null>(null)
 
   useEffect(() => {
@@ -220,26 +223,9 @@ export function CameraCheck({ onComplete }: { onComplete: (result: CameraResult)
           </div>
           <div className="max-w-xl space-y-3">
             <p className="text-sm text-muted">While we read your pulse, answer what you like (0 is lowest, 10 is highest). Skipped questions are not saved.</p>
-            {SLIDERS.map(({ key, label }) => {
-              const value = report[key]
-              return (
-                <label key={key} className="flex items-center justify-between gap-4 text-sm">
-                  <span>{label}</span>
-                  <span className="flex items-center gap-3">
-                    <input
-                      type="range"
-                      min={0}
-                      max={10}
-                      step={1}
-                      value={value ?? 5}
-                      aria-valuetext={value === undefined ? 'not answered' : String(value)}
-                      onChange={(e) => setReport((r) => ({ ...r, [key]: Number(e.target.value) }))}
-                    />
-                    <span className={`w-12 text-right ${value === undefined ? 'text-muted' : 'font-medium'}`}>{value ?? 'skip'}</span>
-                  </span>
-                </label>
-              )
-            })}
+            {SLIDERS.map(({ key, label }) => (
+              <OptionalSlider key={key} label={label} value={report[key]} onChange={(v) => setAnswer(key, v)} />
+            ))}
             <label className="flex items-center justify-between gap-4 text-sm">
               <span>Hours you slept last night</span>
               <input

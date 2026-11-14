@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { OptionalSlider } from '../../components/OptionalSlider'
 import { btnPrimary } from '../../components/ui'
 
 // Quick-pick list only, no scoring and no thresholds. Reporting any of these earns credit.
@@ -47,28 +48,15 @@ export function Symptoms({ onComplete, busy }: { onComplete: (result: SymptomRes
       <p className="max-w-xl text-sm text-muted">Optional. Reporting early is useful and earns credit. Leave it empty if you have nothing to report.</p>
       <div className="max-w-xl space-y-3 border border-rule bg-panel p-4">
         <h3 className="text-sm font-semibold">Gut and nutrition (optional)</h3>
-        {GUT.map(({ key, label, hint }) => {
-          const value = gut[key]
-          return (
-            <label key={key} className="flex flex-wrap items-center justify-between gap-x-4 gap-y-1 text-sm">
-              <span>
-                {label} <span className="text-xs text-muted">({hint})</span>
-              </span>
-              <span className="flex items-center gap-3">
-                <input
-                  type="range"
-                  min={0}
-                  max={10}
-                  step={1}
-                  value={value ?? 5}
-                  aria-valuetext={value === undefined ? 'not answered' : String(value)}
-                  onChange={(e) => setGut((g) => ({ ...g, [key]: Number(e.target.value) }))}
-                />
-                <span className={`w-12 text-right ${value === undefined ? 'text-muted' : 'font-medium'}`}>{value ?? 'skip'}</span>
-              </span>
-            </label>
-          )
-        })}
+        {GUT.map(({ key, label, hint }) => (
+          <OptionalSlider
+            key={key}
+            label={label}
+            hint={hint}
+            value={gut[key]}
+            onChange={(v) => setGut(({ [key]: _dropped, ...rest }) => (v === undefined ? rest : { ...rest, [key]: v }))}
+          />
+        ))}
       </div>
       <fieldset className="grid gap-2 sm:grid-cols-2">
         <legend className="sr-only">Symptoms</legend>
