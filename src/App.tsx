@@ -7,6 +7,7 @@ import { Landing } from './screens/Landing'
 import { Manual } from './screens/Manual'
 import { Medical } from './screens/Medical'
 import { Metrics } from './screens/Metrics'
+import { Onboarding } from './screens/Onboarding'
 import { Progress } from './screens/Progress'
 import { Radiation } from './screens/Radiation'
 import { Sources } from './screens/Sources'
@@ -16,9 +17,41 @@ import { AppProvider, useApp } from './state/AppContext'
 const BodyMap = lazy(() => import('./screens/BodyMap').then((m) => ({ default: m.BodyMap })))
 const MirrorCheck = lazy(() => import('./screens/mirror/MirrorCheck').then((m) => ({ default: m.MirrorCheck })))
 
+const ONBOARDED_KEY = 'chm-onboarded'
+
+const hasOnboarded = (): boolean => {
+  try {
+    return localStorage.getItem(ONBOARDED_KEY) === '1'
+  } catch {
+    // Blocked storage: treat the person as set up rather than trapping them in setup forever.
+    return true
+  }
+}
+
+/** Marks setup done and sends you straight into the thing setup was for. */
+function OnboardingGate({ onFinished }: { onFinished: () => void }) {
+  const { go } = useApp()
+  return (
+    <Onboarding
+      onDone={() => {
+        onFinished()
+        try {
+          localStorage.setItem(ONBOARDED_KEY, '1')
+        } catch {
+          // Not remembering is fine; the landing page always offers setup again.
+        }
+        go('mirror')
+      }}
+    />
+  )
+}
+
 function Screen() {
   const { screen, ready } = useApp()
+  // First visit lands in setup instead of the hero; afterwards the hero is the home screen.
+  const [setupDone, setSetupDone] = useState(hasOnboarded)
   if (!ready) return <main className="p-8 text-muted">Loading crew data…</main>
+  if (screen === 'onboarding' || (screen === 'landing' && !setupDone)) return <OnboardingGate onFinished={() => setSetupDone(true)} />
   if (screen === 'landing') return <Landing />
   if (screen === 'bodymap') return <BodyMap />
   if (screen === 'mirror') return <MirrorCheck />

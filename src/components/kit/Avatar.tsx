@@ -1,4 +1,5 @@
 import type { CrewMember, Status } from '../../contract/types'
+import { getGear, suitById, visorById, type Gear } from '../../lib/gear'
 import { mulberry32 } from '../../lib/sim/rng'
 import { STATUS_COLOR } from '../StatusDot'
 
@@ -57,11 +58,16 @@ type Props = {
   ring?: string
   /** Shows the crew code chip. The drawing alone is too subtle to identify at 40px. */
   badge?: boolean
+  /** Cosmetic visor and suit. Defaults to whatever the person picked during setup. */
+  gear?: Gear
   className?: string
 }
 
-export function Avatar({ crew, size = 44, status, level, ring: ringOverride, badge = false, className = '' }: Props) {
+export function Avatar({ crew, size = 44, status, level, ring: ringOverride, badge = false, gear, className = '' }: Props) {
   const t = traitsFor(crew.id)
+  const kit = gear ?? getGear()
+  const visor = visorById(kit.visor)
+  const suit = suitById(kit.suit)
   const ring = ringOverride ?? (status ? STATUS_COLOR[status] : level ? ringForLevel(level) : 'var(--color-rule-strong)')
   const uid = `av-${crew.id.replace(/[^a-z0-9]/gi, '')}`
   const chip = Math.max(17, Math.round(size * 0.4))
@@ -75,8 +81,8 @@ export function Avatar({ crew, size = 44, status, level, ring: ringOverride, bad
         <svg viewBox="0 0 48 48" width="100%" height="100%" role="img" aria-label={`${crew.name}, placeholder portrait`}>
           <defs>
             <linearGradient id={`${uid}-visor`} x1="0" y1="0" x2="0.55" y2="1">
-              <stop offset="0%" stopColor="var(--color-accent)" stopOpacity="0.92" />
-              <stop offset="100%" stopColor="var(--color-accent)" stopOpacity="0.4" />
+              <stop offset="0%" stopColor={visor.from} />
+              <stop offset="100%" stopColor={visor.to} />
             </linearGradient>
             <clipPath id={`${uid}-clip`}>
               <circle cx="24" cy="24" r="24" />
@@ -85,7 +91,7 @@ export function Avatar({ crew, size = 44, status, level, ring: ringOverride, bad
 
           <g clipPath={`url(#${uid}-clip)`} stroke="var(--color-ink)" strokeWidth={1.6} fill="none" strokeLinejoin="round">
             {/* Shoulders first, so the helmet sits on top of them. */}
-            <path d="M3 52 C3 39.5 12.5 33 24 33 C35.5 33 45 39.5 45 52 Z" fill="color-mix(in srgb, var(--color-ink) 16%, transparent)" />
+            <path d="M3 52 C3 39.5 12.5 33 24 33 C35.5 33 45 39.5 45 52 Z" fill={suit.fill} />
             {Array.from({ length: t.stripes }, (_, i) => (
               <path key={i} d={`M${14 + i * 5} 52 L${14 + i * 5} ${41 - i * 1.5}`} strokeWidth={1.4} opacity={0.6} />
             ))}
