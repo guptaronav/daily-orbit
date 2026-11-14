@@ -1,5 +1,6 @@
 import { Footer } from './components/Footer'
 import { TopBar } from './components/TopBar'
+import { BodyMap } from './screens/BodyMap'
 import { Landing } from './screens/Landing'
 import { AppProvider, useApp } from './state/AppContext'
 
@@ -7,6 +8,7 @@ function Screen() {
   const { screen, ready } = useApp()
   if (!ready) return <main className="p-8 text-muted">Loading crew data…</main>
   if (screen === 'landing') return <Landing />
+  if (screen === 'bodymap') return <BodyMap />
   // Remaining screens land in later plan tasks.
   return <main className="p-8 text-muted">Screen "{screen}" is not built yet.</main>
 }

@@ -8,19 +8,39 @@ const REST_DAY_PROB = 0.15
 
 export type SeedData = { crew: CrewMember[]; measurements: Measurement[]; events: GameEvent[] }
 
-type Profile = { sleepHours: number; sleepQuality: number; mood: number; stress: number; heartRate: number; blinkRate: number; exerciseMinutes: number }
+type Profile = {
+  sleepHours: number
+  sleepQuality: number
+  mood: number
+  stress: number
+  heartRate: number
+  blinkRate: number
+  exerciseMinutes: number
+  bloodPressureSys: number
+  bloodPressureDia: number
+  temperature: number
+  bloodSugar: number
+  nearAcuity: number
+}
 
 // ponytail: invented simulation profiles, labeled "Simulated data" everywhere they surface.
 const PROFILES: Record<string, Profile> = {
-  'crew-1': { sleepHours: 7.1, sleepQuality: 7, mood: 7, stress: 3, heartRate: 62, blinkRate: 15, exerciseMinutes: 45 },
-  'crew-2': { sleepHours: 6.6, sleepQuality: 6, mood: 6.5, stress: 4, heartRate: 68, blinkRate: 17, exerciseMinutes: 40 },
-  'crew-3': { sleepHours: 7.4, sleepQuality: 7.5, mood: 7.5, stress: 2.5, heartRate: 58, blinkRate: 14, exerciseMinutes: 50 },
-  guest: { sleepHours: 7, sleepQuality: 6.5, mood: 6.5, stress: 3.5, heartRate: 66, blinkRate: 16, exerciseMinutes: 35 },
+  'crew-1': { sleepHours: 7.1, sleepQuality: 7, mood: 7, stress: 3, heartRate: 62, blinkRate: 15, exerciseMinutes: 45, bloodPressureSys: 116, bloodPressureDia: 74, temperature: 36.6, bloodSugar: 90, nearAcuity: 0 },
+  'crew-2': { sleepHours: 6.6, sleepQuality: 6, mood: 6.5, stress: 4, heartRate: 68, blinkRate: 17, exerciseMinutes: 40, bloodPressureSys: 120, bloodPressureDia: 78, temperature: 36.7, bloodSugar: 94, nearAcuity: 0.05 },
+  'crew-3': { sleepHours: 7.4, sleepQuality: 7.5, mood: 7.5, stress: 2.5, heartRate: 58, blinkRate: 14, exerciseMinutes: 50, bloodPressureSys: 112, bloodPressureDia: 72, temperature: 36.5, bloodSugar: 88, nearAcuity: -0.05 },
+  guest: { sleepHours: 7, sleepQuality: 6.5, mood: 6.5, stress: 3.5, heartRate: 66, blinkRate: 16, exerciseMinutes: 35, bloodPressureSys: 118, bloodPressureDia: 76, temperature: 36.6, bloodSugar: 92, nearAcuity: 0 },
 }
 
-const SPREAD: Record<keyof Profile, number> = { sleepHours: 0.6, sleepQuality: 0.8, mood: 0.8, stress: 0.8, heartRate: 3, blinkRate: 1.5, exerciseMinutes: 8 }
+const SPREAD: Record<keyof Profile, number> = {
+  sleepHours: 0.6, sleepQuality: 0.8, mood: 0.8, stress: 0.8, heartRate: 3, blinkRate: 1.5, exerciseMinutes: 8,
+  bloodPressureSys: 4, bloodPressureDia: 3, temperature: 0.2, bloodSugar: 5, nearAcuity: 0.05,
+}
+const DECIMALS: Partial<Record<keyof Profile, number>> = { nearAcuity: 2 }
+// The most recent day is damped toward each person's typical value so seeded crew start healthy.
+const LATEST_DAY_NOISE = 0.2
 const CLAMP: Record<keyof Profile, [number, number]> = {
   sleepHours: [3, 10], sleepQuality: [0, 10], mood: [0, 10], stress: [0, 10], heartRate: [40, 120], blinkRate: [4, 30], exerciseMinutes: [0, 120],
+  bloodPressureSys: [90, 150], bloodPressureDia: [55, 95], temperature: [35.5, 38], bloodSugar: [65, 140], nearAcuity: [-0.2, 0.6],
 }
 
 export const CREW: CrewMember[] = [
@@ -57,9 +77,11 @@ export function generateCrew(seed: number, now: Date = new Date()): SeedData {
       const timestamp = new Date(now.getTime() - (DAYS - 1 - i) * DAY_MS).toISOString()
       for (const key of Object.keys(profile) as (keyof Profile)[]) {
         const [lo, hi] = CLAMP[key]
-        let value = profile[key] + gaussian(rand) * SPREAD[key]
-        if (key === 'exerciseMinutes' && rand() < REST_DAY_PROB) value = 0
-        value = Math.round(Math.min(hi, Math.max(lo, value)) * 10) / 10
+        const isLatest = i === DAYS - 1
+        let value = profile[key] + gaussian(rand) * SPREAD[key] * (isLatest ? LATEST_DAY_NOISE : 1)
+        if (key === 'exerciseMinutes' && !isLatest && rand() < REST_DAY_PROB) value = 0
+        const scale = 10 ** (DECIMALS[key] ?? 1)
+        value = Math.round(Math.min(hi, Math.max(lo, value)) * scale) / scale
         const indicator: Indicator = key
         measurements.push({
           id: `${crew.id}-${indicator}-${i}`,
@@ -74,6 +96,17 @@ export function generateCrew(seed: number, now: Date = new Date()): SeedData {
         if (key === 'exerciseMinutes' && value > 0) {
           events.push({ id: `${crew.id}-ex-${i}`, crewId: crew.id, timestamp, kind: 'exerciseComplete' })
         }
+      }
+      if (i % 7 === 1) {
+        measurements.push({
+          id: `${crew.id}-amslerDistortion-${i}`,
+          crewId: crew.id,
+          timestamp,
+          indicator: 'amslerDistortion',
+          value: { distortion: false, distortedCells: 0 },
+          quality: { score: 1, passed: true },
+          source: 'simulated',
+        })
       }
       if (rand() >= MISSED_CHECKIN_PROB) {
         events.push({ id: `${crew.id}-ci-${i}`, crewId: crew.id, timestamp, kind: 'checkInComplete' })

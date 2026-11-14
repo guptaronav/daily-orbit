@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 /* Flight-manual palette: warm paper, ink, one NASA-blue accent. Status colors are semantic only. */
-@theme {
+@theme static {
   --color-ink: #14181f;
   --color-paper: #f3f1ea;
   --color-panel: #fbfaf6;
@@ -32,4 +32,30 @@ body {
 :focus-visible {
   outline: 2px solid var(--color-accent);
   outline-offset: 2px;
+}
+
+/* Body figure regions: keyboard focus and hover are drawn on the shapes (outline on <g> is unreliable). */
+.region {
+  cursor: pointer;
+}
+.region .shape {
+  stroke: var(--color-ink);
+  stroke-width: 1.5;
+  transition: stroke-width 150ms;
+}
+.region:hover .shape {
+  stroke-width: 3;
+}
+.region:focus-visible {
+  outline: none;
+}
+.region:focus-visible .shape,
+.region[aria-pressed="true"] .shape {
+  stroke: var(--color-accent);
+  stroke-width: 3.5;
+}
+@media (prefers-reduced-motion: reduce) {
+  .region .shape {
+    transition: none;
+  }
 }

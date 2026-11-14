@@ -1,5 +1,7 @@
 import { describe, expect, test } from 'vitest'
 import { computeBaseline } from '../baseline'
+import { readAll, regionStatus } from '../bodyStatus'
+import { REGIONS } from '../regions'
 import { generateCrew } from './seed'
 
 const NOW = new Date('2026-11-14T12:00:00Z')
@@ -45,6 +47,18 @@ describe('generateCrew', () => {
     const { measurements } = generateCrew(42, NOW)
     const hr = measurements.filter((m) => m.crewId === 'crew-1' && m.indicator === 'heartRate').map((m) => m.value as number)
     expect(computeBaseline(hr)).not.toBeNull()
+  })
+
+  test('every region of every seeded crew member starts green, so demo events tell the story', () => {
+    const { crew, measurements } = generateCrew(42, NOW)
+    for (const c of crew) {
+      const readings = readAll(measurements.filter((m) => m.crewId === c.id))
+      for (const region of REGIONS) {
+        const status = regionStatus(region, readings)
+        // radiationDose and symptomReport are intentionally unseeded, so 'body' stays driven by temperature alone.
+        expect({ crew: c.id, region: region.id, status }).toEqual({ crew: c.id, region: region.id, status: 'green' })
+      }
+    }
   })
 
   test('emits check-in and exercise events for the same crew', () => {
