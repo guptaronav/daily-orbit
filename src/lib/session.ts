@@ -19,6 +19,15 @@ export type MirrorSession = {
 
 const PASSED: Quality = { score: 1, passed: true }
 
+/** The effort events a session earns. Depends only on what the person did, never on health values. */
+export function sessionEventKinds(session: MirrorSession): GameEventKind[] {
+  const kinds: GameEventKind[] = ['checkInComplete']
+  const { symptoms } = session
+  if (symptoms && (symptoms.symptoms.length > 0 || Boolean(symptoms.note))) kinds.push('symptomReported')
+  if (session.retookAfterQualityFail) kinds.push('retakeAfterQualityFail')
+  return kinds
+}
+
 /**
  * Turn a finished mirror check into storable records. Events depend only on what the person DID
  * (completed, reported, retook), never on any health value, so reporting a bad day earns exactly
@@ -69,10 +78,7 @@ export function buildSessionRecords(session: MirrorSession, crewId: string, now:
   if (acuity) add('nearAcuity', acuity.logMar, 'selfReport')
   if (symptoms) add('symptomReport', { symptoms: symptoms.symptoms, ...(symptoms.note ? { note: symptoms.note } : {}) }, 'selfReport')
 
-  const kinds: GameEventKind[] = ['checkInComplete']
-  if (symptoms && (symptoms.symptoms.length > 0 || Boolean(symptoms.note))) kinds.push('symptomReported')
-  if (session.retookAfterQualityFail) kinds.push('retakeAfterQualityFail')
-  const events = kinds.map((kind): GameEvent => ({ id: crypto.randomUUID(), crewId, timestamp, kind }))
+  const events = sessionEventKinds(session).map((kind): GameEvent => ({ id: crypto.randomUUID(), crewId, timestamp, kind }))
 
   return { measurements, events }
 }
