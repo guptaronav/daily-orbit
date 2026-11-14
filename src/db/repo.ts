@@ -43,7 +43,7 @@ export const resetAndReseed = (): Promise<void> =>
   }, undefined)
 
 // Bump when the seed data changes so stale local data is replaced (this clears local check-ins).
-const SEED_VERSION = '3'
+const SEED_VERSION = '4'
 const SEED_KEY = 'seedVersion'
 
 function storedSeedVersion(): string | null {

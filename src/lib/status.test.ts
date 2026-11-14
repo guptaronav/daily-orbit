@@ -1,6 +1,7 @@
 import { describe, expect, test } from 'vitest'
 import type { Measurement } from '../contract/types'
 import type { Baseline } from './baseline'
+import { computeBaseline } from './baseline'
 import { getCategoricalStatus, getStatus } from './status'
 
 const base: Baseline = { mean: 70, sd: 5, n: 30 }
@@ -45,6 +46,24 @@ describe('getStatus', () => {
 
   test('object values are gray (use getCategoricalStatus)', () => {
     expect(getStatus(m({ value: { x: 1 } }), base)).toBe('gray')
+  })
+})
+
+describe('getStatus on quantities with a big offset and small natural spread', () => {
+  const temps = Array.from({ length: 30 }, (_, i) => 36.6 + ((i % 5) - 2) * 0.1)
+  const tempBase = computeBaseline(temps)!
+  const t = (value: number): Measurement => m({ indicator: 'temperature', value })
+
+  test('a 38 degree reading is flagged against a 36.6 degree baseline (it was invisible before)', () => {
+    expect(getStatus(t(38.1), tempBase)).toBe('red')
+  })
+
+  test('a normal day-to-day wobble stays green', () => {
+    expect(getStatus(t(36.7), tempBase)).toBe('green')
+  })
+
+  test('a one-degree rise is at least a watch', () => {
+    expect(['yellow', 'red']).toContain(getStatus(t(37.6), tempBase))
   })
 })
 

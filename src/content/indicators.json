@@ -264,5 +264,19 @@
     "whenToEscalate": "[CONTENT TODO]",
     "prevention": "[CONTENT TODO]",
     "recommendedAction": "[CONTENT TODO]"
+  },
+  {
+    "id": "bowelMovements",
+    "label": "Bowel movements",
+    "unit": "per day",
+    "region": "gut",
+    "standardMeasure": "none",
+    "hrpRisk": "Risk of Host-Microorganism Interactions",
+    "canMeasureInSpace": "[CONTENT TODO]",
+    "whyCheck": "[CONTENT TODO]",
+    "hazardEffect": "[CONTENT TODO]",
+    "whenToEscalate": "[CONTENT TODO]",
+    "prevention": "[CONTENT TODO]",
+    "recommendedAction": "[CONTENT TODO]"
   }
 ]

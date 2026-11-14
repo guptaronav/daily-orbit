@@ -4,7 +4,7 @@
 - Stack versions as installed by `npm create vite` on 2026-11-14 (Vite 8, React 19, TS 7, Vitest 5).
 
 - Status colors come from deviation from the crew member's own baseline (green within 1 SD, yellow 1-2 SD, red beyond 2 SD). This is statistical, not a clinical threshold. Baseline needs at least 5 samples, otherwise gray.
-- Baseline SD is floored at 5% of |mean| so a perfectly flat history does not make every tiny change red.
+- Baseline SD is floored at 1% of |mean| so a perfectly flat history does not divide by zero. (It was 5%, which made a 38 C fever look normal against a 36.6 C baseline; found while importing real data and fixed with a test.)
 - All clinical thresholds in `src/config/thresholds.ts` are `value: null` until sourced from NASA HRP / NASA-STD-3001; the UI shows "threshold not set".
 - Status never colors a reading whose quality check failed (gray).
 
@@ -96,6 +96,32 @@ Verified by reading the primary pages on 2026-11-14:
 - NASA Spaceflight Standard Measures, https://www.nasa.gov/reference/standard-measures/ and https://www.nasa.gov/humans-in-space/spaceflight-standard-measures-characterizing-how-humans-adapt-in-space/. Nine core measurements: Actigraphy; Biochemical markers (blood, urine); Carotid intima-media thickness; Cellular profile (blood, saliva); Cognition (10 computer tests); Microbiome (body, saliva, fecal samples); Personality questionnaire; Sleep quality/team questionnaire (mood before sleep); Sensorimotor (movement, balance, heart rate, blood pressure). Not mentioned: body mass, blood glucose, body temperature, vision.
 - Body mass on the ISS: Body mass changes during long-duration spaceflight, https://www.ncbi.nlm.nih.gov/pubmed/25197887 (not a NASA page; found by search).
 - Gut datasets (found through a data.gov catalog search, NOT yet opened on osdr.nasa.gov): SpaceX Inspiration4 stool metagenome OSD-630; MARS500 gut microbiota GLDS-191 (ground analog).
+
+### E1: NASA bed-rest data inventory (read from the files, 2026-11-14)
+
+- **Where:** `data-raw/nasa-bedrest/`, NASA Life Sciences Data Archive bed-rest studies. 38 study folders, 4,529 files, 109 MB. Study descriptions are in `_metadata/experiment_*.json`.
+- **Terms:** the metadata for the Case Report Forms says "Data preservation is complete. All datasets are publicly available." No separate terms-of-use text was found in the files. Confirm on the NLSP site before the repo goes public, and cite DOI **10.83263/wjw1-ta27** (Case Report Form, JSC, Flight Analogs Project).
+- **What it is:** ground-based **head-down-tilt bed rest**, a spaceflight analog (fluid shift, disuse). It is NOT in-flight data and the app labels it that way.
+- **What we use (Case Report Forms, Campaign 3, daily logs, one participant):**
+
+| Log | Columns used | Our indicator | Unit |
+|---|---|---|---|
+| Daily Vitals | Pulse | heartRate | bpm |
+| Daily Vitals | Systolic / diastolic blood pressure | bloodPressureSys / bloodPressureDia | mmHg |
+| Daily Vitals | Weight | bodyMass | kg |
+| Daily Vitals | Body temperature (Celsius) | temperature | degrees C |
+| Bowel Movement | Yes/No and Quantity | bowelMovements (new indicator) | per day |
+| Stretch Log | Duration of completed sessions | exerciseMinutes | min |
+| Symptom Complaint | Symptom category only | symptomReport | labels |
+
+- **Column names vary:** the 23 daily-vitals files use at least 4 header spellings (`Pulse (bpm)`, `Pulse`, `SysBP (mmHg)`, `Blood Pressure, systolic`, ...). The importer finds columns by meaning and stops with an error if one is missing; a naive importer would have silently skipped most participants. A plain `Body Temp` column has no unit, so a value of 90 to 110 is converted from Fahrenheit.
+- **Participant and window:** Campaign 3 has 23 participants, 13 in all six logs. The importer takes one with complete daily vitals and the fullest other logs, and the **first 30 days: 12 baseline days, then 18 days of head-down tilt**. Real effect in the data: body mass falls from about 74.8 kg to about 72.4 kg; resting heart rate stays about 55.
+- **Privacy:** free-text comment, action and description columns contain **real clinicians' names**, so they are never read. The output keeps only day offsets and numbers, no dates, subject number or campaign code. The importer refuses to write if its output matches a date, the subject number or a name pattern, and a test scans the shipped JSON.
+- **Not used (no matching indicator or participant):** respiration rate, ambient temperature and humidity, meals completed (could proxy appetite, not mapped), water intake, urine collection, medication logs.
+- **Studies with relevant variables that use other participants (cannot be joined to this one):** BRSMAct (sleep duration, sleep latency), MR010G (clinical labs including glucose), MR001G / BRSMVF / MR080G (heart rate and blood pressure in tilt and exercise tests), MR085G (WinSCAT cognition reaction times), BRSMLac / BRSMAcet / BRSMGBT / BRSMUBT (gastrointestinal transit and breath tests), BRSMImmune. These are the natural next imports; sleep for Crew 3 stays simulated until one is matched.
+- **Not investigated:** exercise-versus-control group comparisons (the 70-day campaign data, `CFT70`, is in `BEDREST_iRATS` and `CRF_CFT70_*`).
+- **Crew 3:** 202 real records and 305 simulated ones. Each indicator is all real or all simulated; the footer and every card's source line say which. Real stretch sessions and symptom reports also become real exercise and symptom-report events.
+- **Known limitation:** a reading is compared with a baseline built from ALL earlier readings, so a gradual real decline (body mass during tilt) partly pulls its own baseline down and reads as "Watch" instead of "Act". NASA uses a fixed pre-mission reference period; switching to that is a design decision for the team.
 
 Mapping choices that are ours, not NASA's: blink rate and eyelid closure to the sleep risk (fatigue proxy); blood sugar to the nutrition risk; blood pressure to the cardiovascular risk (BP is not named there); heart rate and blood pressure tagged `sensorimotor` because the Standard Measures page lists them under sensorimotor tests; mood tagged `sleep` because the pre-sleep questionnaire covers mood; digestive comfort and appetite tagged `none` (they are self-reports, not the microbiome sample).
 

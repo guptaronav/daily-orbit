@@ -2,7 +2,7 @@ export type Baseline = { mean: number; sd: number; n: number }
 
 /** A baseline needs at least this many earlier readings. */
 export const BASELINE_MIN_SAMPLES = 5
-const SD_FLOOR_FRACTION = 0.05 // sd never below 5% of |mean| (NOTES.md)
+const SD_FLOOR_FRACTION = 0.01 // sd never below 1% of |mean|: avoids divide-by-zero without hiding real change (5% made a 38 C fever look normal against 36.6 C)
 const SD_FLOOR_ABS = 1e-6
 
 export function computeBaseline(values: readonly number[]): Baseline | null {
