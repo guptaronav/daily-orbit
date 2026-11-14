@@ -159,7 +159,7 @@ export function TopBar() {
               aria-expanded={envOpen}
               aria-haspopup="true"
               aria-label="Mission environment and comm delay"
-              className="btn btn-secondary"
+              className="btn btn-secondary btn-pill"
             >
               <Icon name="globe" size={16} />
               <span className="font-semibold">{envShort}</span>

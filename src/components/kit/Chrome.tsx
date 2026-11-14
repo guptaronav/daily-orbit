@@ -43,7 +43,7 @@ export function ThemeToggle({ compact = false }: { compact?: boolean }) {
     <button
       type="button"
       onClick={toggle}
-      className={`btn btn-secondary ${compact ? 'btn-icon' : ''}`}
+      className={`btn btn-secondary btn-pill ${compact ? 'btn-icon' : ''}`}
       aria-label={`Switch to the ${next} theme`}
       title={`Switch to the ${next} theme`}
     >

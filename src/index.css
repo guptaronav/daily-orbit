@@ -241,11 +241,11 @@ body {
     align-items: center;
     justify-content: center;
     gap: 0.5rem;
-    min-height: 44px;
-    padding: 0 1.15rem;
+    min-height: 48px;
+    padding: 0 1.3rem;
     border: 1px solid transparent;
-    border-radius: var(--r-pill);
-    font-size: 0.9375rem;
+    border-radius: 18px;
+    font-size: 1rem;
     font-weight: 600;
     line-height: 1.2;
     text-align: center;
@@ -336,9 +336,25 @@ body {
   }
 
   .btn-sm {
-    min-height: 38px;
-    padding: 0 0.85rem;
+    min-height: 40px;
+    padding: 0 0.9rem;
+    border-radius: 14px;
     font-size: 0.875rem;
+  }
+
+  /* Chrome buttons (nav, wallet, env, dock) stay fully round. */
+  .btn-pill {
+    border-radius: var(--r-pill);
+    min-height: 44px;
+    font-size: 0.9375rem;
+  }
+
+  /* The big hero actions. */
+  .btn-lg {
+    min-height: 58px;
+    padding: 0 1.6rem;
+    font-size: 1rem;
+    font-weight: 650;
   }
 
   .btn-icon {
@@ -640,3 +656,22 @@ body {
 }
 .figure-static .region { cursor: default; }
 .figure-static .region:hover .shape { stroke-width: 1.5; filter: none; }
+
+/* ---- Landing orbit ------------------------------------------------------
+ * The crew ring turns slowly and each portrait counter-rotates so faces stay
+ * upright. Decoration only: every fact on that panel is also printed below it.
+ */
+@keyframes orbit-spin {
+  to { transform: rotate(360deg); }
+}
+@keyframes orbit-counter {
+  to { transform: rotate(-360deg); }
+}
+@keyframes float-slow {
+  0%, 100% { transform: translateY(-6px); }
+  50% { transform: translateY(6px); }
+}
+
+.orbit { animation: orbit-spin 40s linear infinite; }
+.orbit-counter { animation: orbit-counter 40s linear infinite; }
+.float-slow { animation: float-slow 5s ease-in-out infinite; }
