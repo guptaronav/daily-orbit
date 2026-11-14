@@ -1,0 +1,379 @@
+{
+ "note": "Files where the bytes NASA's server returns differ from the size in NASA's own catalog record, and files that could not be fetched.",
+ "servedDiffersFromCatalog": [
+  {
+   "dataset": "BRSMPT_Campaign_1_Ares",
+   "file": "BRSMPT_Campaign_1_Ares_ReadMe_Subject_3.csv",
+   "fileId": "f5fe287d-79d9-5735-ba46-5efb0159e9f3",
+   "catalogBytes": 651,
+   "servedBytes": 115498,
+   "sha256": "6dd8851aab908f25593a320719cf083792fca957398872aa7c207eb46d3a1aa8"
+  },
+  {
+   "dataset": "BRSMPT_Campaign_1_Ares",
+   "file": "BRSMPT_Campaign_1_Ares_Subject_1.csv",
+   "fileId": "8449928d-4702-5da3-b13e-31a51d7f5d14",
+   "catalogBytes": 125795,
+   "servedBytes": 125814,
+   "sha256": "b18e706d60ef3c9960766f17774c6629093ae23d9af4b81c8421689744602f16"
+  },
+  {
+   "dataset": "MR035G_Campaign_3_DXA_Heel",
+   "file": "MR035G_Campaign_3_DXA_C3D_3985_1Y_Heel.csv",
+   "fileId": "854d7b10-c407-5b3a-a13f-678fe8f5fc0d",
+   "catalogBytes": 596,
+   "servedBytes": 447,
+   "sha256": "0eaae9640073a0810f23ab698582c26a4d199ce1e4c573afdbb41a9573e3e9d7"
+  },
+  {
+   "dataset": "MR035G_Campaign_3_DXA_Heel",
+   "file": "MR035G_Campaign_3_DXA_C3D_3985_Heel.csv",
+   "fileId": "14128f3d-3d11-5dc7-83da-a15d158aca44",
+   "catalogBytes": 3195,
+   "servedBytes": 709,
+   "sha256": "129430c2fa62d7dd96f9182ca6ebefb929644a040aba1893301fd69270ac6f3a"
+  },
+  {
+   "dataset": "MR035G_Campaign_3_DXA_Forearm",
+   "file": "MR035G_Campaign_3_DXA_C3D_3985_Forearm.csv",
+   "fileId": "9db8e705-b082-505f-8fbe-67910bd5336a",
+   "catalogBytes": 3195,
+   "servedBytes": 804,
+   "sha256": "d215ce477766aaa598b0f2189dbe2b2340bc1c92fead34012c0ba667b05a6d3c"
+  },
+  {
+   "dataset": "MR035G_Campaign_3_DXA_Forearm",
+   "file": "MR035G_Campaign_3_DXA_C3D_3985_1Y_Forearm.csv",
+   "fileId": "24121ff8-753e-5b69-81a2-a4a6e03f4b6c",
+   "catalogBytes": 699,
+   "servedBytes": 541,
+   "sha256": "ee880af25eea122aa2b1b5b10f18f6dd08c2f0c02fd2ed77e6a9c1e02a29071c"
+  },
+  {
+   "dataset": "MR035G_Campaign_3_DXA_Hip",
+   "file": "MR035G_Campaign_3_DXA_C3D_3985_1Y_RH_Bone.csv",
+   "fileId": "ad8ebc70-7160-5102-a965-6cdacf3fb23b",
+   "catalogBytes": 1833,
+   "servedBytes": 1692,
+   "sha256": "d8f384aeffd19042b9a5f89ec9aca82150c40b6531893d57c3c7b9bef35a17cf"
+  },
+  {
+   "dataset": "MR035G_Campaign_3_DXA_Hip",
+   "file": "MR035G_Campaign_3_DXA_C3D_3985_R_Hip.csv",
+   "fileId": "f45c526d-d4c5-5e7a-889f-6b203b75a498",
+   "catalogBytes": 3195,
+   "servedBytes": 1040,
+   "sha256": "a08fc2527ad502e5bdd808477642e04a46eb0a1810c922a930222d9d281286fc"
+  },
+  {
+   "dataset": "MR035G_Campaign_3_DXA_Hip",
+   "file": "MR035G_Campaign_3_DXA_C3D_3985_1Y_LH_Bone.csv",
+   "fileId": "f1df6cd4-4575-52a0-9d28-2514cca2d963",
+   "catalogBytes": 1833,
+   "servedBytes": 1691,
+   "sha256": "75ccafb8b919330084c26be681be925a12fc429adc7ac95bfab94175ae09ef43"
+  },
+  {
+   "dataset": "MR035G_Campaign_3_DXA_Hip",
+   "file": "MR035G_Campaign_3_DXA_C3D_3985_LH_Bone.csv",
+   "fileId": "0c590271-94a0-58aa-b289-981d43e0d3f4",
+   "catalogBytes": 3195,
+   "servedBytes": 1566,
+   "sha256": "e88ec5b9e9799bbf9ef1d30212209cd1a2522c860b007db10cd939abe51a68d1"
+  },
+  {
+   "dataset": "MR035G_Campaign_3_DXA_Hip",
+   "file": "MR035G_Campaign_3_DXA_C3D_3985_L_Hip.csv",
+   "fileId": "fb438368-c3f8-56ea-a07c-50c28be2adc4",
+   "catalogBytes": 3195,
+   "servedBytes": 1040,
+   "sha256": "4139c6735e929688d3402e58e093be6c68b9b817f1136e36fded39f140ae29e7"
+  },
+  {
+   "dataset": "MR035G_Campaign_3_DXA_Hip",
+   "file": "MR035G_Campaign_3_DXA_C3D_3985_1Y_R_Hip.csv",
+   "fileId": "fc69848e-234d-5fa1-8a34-751f24a97f8d",
+   "catalogBytes": 1068,
+   "servedBytes": 914,
+   "sha256": "cc55d410155484cf090c1e6409846754c4255d7ace367de9bee37c8331fab0f0"
+  },
+  {
+   "dataset": "MR035G_Campaign_3_DXA_Hip",
+   "file": "MR035G_Campaign_3_DXA_C3D_3985_1Y_L_Hip.csv",
+   "fileId": "765fe3bd-fc00-56a4-8abe-c19de92a4e3f",
+   "catalogBytes": 1068,
+   "servedBytes": 910,
+   "sha256": "88426ace25698e20f98274ff56f431c80dd0d6761a59989eceafbf8da2b31d2b"
+  },
+  {
+   "dataset": "MR035G_Campaign_3_DXA_Hip",
+   "file": "MR035G_Campaign_3_DXA_C3D_3985_RH_Bone.csv",
+   "fileId": "d11b36a7-e71a-5202-819e-2494f39f217c",
+   "catalogBytes": 3195,
+   "servedBytes": 1566,
+   "sha256": "08cb0d132ea0e3c1884c20b8d27c58a8beac9d76b82d4991120ef21428118cac"
+  },
+  {
+   "dataset": "MR035G_Campaign_3_DXA_Femur_Bone",
+   "file": "MR035G_Campaign_3_DXA_C3D_3985_SR_Bone.csv",
+   "fileId": "b1d4fef8-df7d-5984-9a64-04128f1aa25f",
+   "catalogBytes": 3195,
+   "servedBytes": 732,
+   "sha256": "14cf6a8501fcd6ebb1ad358cb1b0ae2db97cc24499b2d24d0836a4b4128c5aad"
+  },
+  {
+   "dataset": "MR035G_Campaign_3_DXA_Femur_Bone",
+   "file": "MR035G_Campaign_3_DXA_C3D_3985_F_Bone.csv",
+   "fileId": "596819f4-fc12-543d-b067-03733178be38",
+   "catalogBytes": 3195,
+   "servedBytes": 2972,
+   "sha256": "265d0b508fca8fd75c48ec86281e6e1b7b7f39de763370feff4e6b77803f53cc"
+  },
+  {
+   "dataset": "MR035G_Campaign_3_DXA_Femur_Bone",
+   "file": "MR035G_Campaign_3_DXA_C3D_3985_1Y_F_Bone.csv",
+   "fileId": "bf2045f7-1123-53a7-9ba5-9abefe222f84",
+   "catalogBytes": 3490,
+   "servedBytes": 3272,
+   "sha256": "4331949cff734ca81fac9fc9e9f141b6a20555d5bd0f0649639a0579081b6913"
+  },
+  {
+   "dataset": "MR035G_Campaign_3_DXA_Femur_Bone",
+   "file": "MR035G_Campaign_3_DXA_C3D_3985_1Y_SR_Bone.csv",
+   "fileId": "836fab50-6cf6-51de-8089-7b8b086cf3e8",
+   "catalogBytes": 1021,
+   "servedBytes": 892,
+   "sha256": "e287eba7039df7892ecba578835e4fed02f8af8e3c54f819ae363956452480e3"
+  },
+  {
+   "dataset": "MR035G_Campaign_3_DXA_Whole_Body",
+   "file": "3985_C3D_DXA_WB_Bone.csv",
+   "fileId": "a297a1b6-0067-55fe-bc01-f733a9cf4cf4",
+   "catalogBytes": 3195,
+   "servedBytes": 3208,
+   "sha256": "9f7448232430cf42e8b48e084a11aa585c74f7a28460c530aa5ef5ed4cf9caae"
+  },
+  {
+   "dataset": "MR035G_Campaign_3_DXA_Whole_Body",
+   "file": "3985_C3D_DXA_WB_Comp.csv",
+   "fileId": "2f642de0-53d6-5d3f-b346-8ba58e16d17d",
+   "catalogBytes": 3195,
+   "servedBytes": 3026,
+   "sha256": "7ce0a283632b5ba665c3b2b38ffde0a3236cac6942997bae32892db706cc7886"
+  },
+  {
+   "dataset": "MR035G_Campaign_3_DXA_Whole_Body",
+   "file": "MR035G_Campaign_3_DXA_C3D_3985_1Y_Body_Comp.csv",
+   "fileId": "ad0d3242-b310-5d22-9c4f-4e06fd0df289",
+   "catalogBytes": 1898,
+   "servedBytes": 1751,
+   "sha256": "1569b3bb1871008c94be5a259d30f9f99b5b99dd7f4560df341242a6926adc12"
+  },
+  {
+   "dataset": "MR035G_Campaign_3_DXA_Whole_Body",
+   "file": "MR035G_Campaign_3_DXA_C3D_3985_1Y_WB_Comp.csv",
+   "fileId": "031714be-4b6a-5d91-a165-06b79883974d",
+   "catalogBytes": 3486,
+   "servedBytes": 3309,
+   "sha256": "ff07965249820ff8e107cd5444a04b893f16fc7e1691e9e5c68ab8f97ce794ae"
+  },
+  {
+   "dataset": "MR035G_Campaign_3_DXA_Whole_Body",
+   "file": "MR035G_Campaign_3_DXA_C3D_3985_1Y_WB_Bone.csv",
+   "fileId": "c7ccd924-0e07-57b1-bab5-033de666a74f",
+   "catalogBytes": 3632,
+   "servedBytes": 3426,
+   "sha256": "e50d888bd49806757a4fb8abe938fe6385a5451c48b09d00e95848baa67aab86"
+  },
+  {
+   "dataset": "MR035G_Campaign_3_DXA_Whole_Body",
+   "file": "3985_C3D_DXA_Body_Comp.csv",
+   "fileId": "f9bddbc6-c612-5f11-8b98-acebface0bef",
+   "catalogBytes": 3195,
+   "servedBytes": 1809,
+   "sha256": "4ff480b8f288c64c1b9e0fde5c639591e70cca72a02fe793673976872e24c205"
+  },
+  {
+   "dataset": "MR035G_Campaign_3_DXA_Spine",
+   "file": "MR035G_Campaign_3_DXA_C3D_3985_1Y_S_Bone.csv",
+   "fileId": "586388d1-9169-56f6-8708-b5b5ae8e458b",
+   "catalogBytes": 1737,
+   "servedBytes": 1579,
+   "sha256": "d3708ad5dd875231117879d8d7ff9a6034c7970a1be0e5bc514bb5216d5a9a80"
+  },
+  {
+   "dataset": "MR035G_Campaign_3_DXA_Spine",
+   "file": "MR035G_Campaign_3_DXA_C3D_3985_S_Bone.csv",
+   "fileId": "80b84e9a-87ba-512a-ab65-bbfa40ea9304",
+   "catalogBytes": 3195,
+   "servedBytes": 1448,
+   "sha256": "4492525aaa6e0aa2475fda049f52f77eb972ae191bd3baa3de85a32d8002a3d2"
+  },
+  {
+   "dataset": "MR035G_Campaign_3_DXA_Spine",
+   "file": "MR035G_Campaign_3_DXA_C3D_3985_Spine.csv",
+   "fileId": "65ab2d39-fc18-53db-9fe0-41af95272e25",
+   "catalogBytes": 3195,
+   "servedBytes": 710,
+   "sha256": "7aa6903c62434644e0cb2f6a9218b0bab04b78853283c07790696be45790101b"
+  },
+  {
+   "dataset": "MR035G_Campaign_3_DXA_Spine",
+   "file": "MR035G_Campaign_3_DXA_C3D_3985_1Y_Spine.csv",
+   "fileId": "e13066d1-d9d5-5756-a9a4-5b20c7900052",
+   "catalogBytes": 708,
+   "servedBytes": 554,
+   "sha256": "6c46159281f66543aa7aa54abca1c35b5eda5f6c105aaf96a1bb9a184e578947"
+  },
+  {
+   "dataset": "MR080G_Campaign_1_Physical_Fitness_Evaluation",
+   "file": "MR080G_Campaign_1_Rest_Fitness_RX_09_01_2004_Subject_3.csv",
+   "fileId": "66083cb0-adec-5ead-9ba1-ec52488d1064",
+   "catalogBytes": 9088,
+   "servedBytes": 153,
+   "sha256": "e190a6adabe1eed0dca38c8b9f069101467757bad7252d7fc307074d66030300"
+  },
+  {
+   "dataset": "MR080G_Campaign_1_Physical_Fitness_Evaluation",
+   "file": "MR080G_Campaign_1_Postflight_Submax_Avgs_11_21_2004_Subject_3.csv",
+   "fileId": "f62bea7b-13a5-5ccf-ac99-876ba66fb215",
+   "catalogBytes": 9476,
+   "servedBytes": 428,
+   "sha256": "5cf598fc5624d397db9fbe1ca8fc5b76149690acd642ffd910baedb577d74e82"
+  },
+  {
+   "dataset": "MR080G_Campaign_1_Physical_Fitness_Evaluation",
+   "file": "MR080G_Campaign_1_Preflight_Submax_Avgs_09_08_2004_Subject_1.csv",
+   "fileId": "ac8131ab-656d-5840-b4e1-5c2da3b125b0",
+   "catalogBytes": 9507,
+   "servedBytes": 408,
+   "sha256": "26589e2f832e4862c1972fae6714b50213e8e352251253a156d1944ade6f3505"
+  },
+  {
+   "dataset": "MR080G_Campaign_1_Physical_Fitness_Evaluation",
+   "file": "MR080G_Campaign_1_Postflight_Avgs_11_09_2004_Subject_2.csv",
+   "fileId": "8bd7a386-8712-5000-bed2-64af7fca4dff",
+   "catalogBytes": 9444,
+   "servedBytes": 421,
+   "sha256": "fefb19bc9c200568ddf60f57c56ae4f9e41e38b80cfd09884aeefa32bce04c13"
+  },
+  {
+   "dataset": "MR080G_Campaign_1_Physical_Fitness_Evaluation",
+   "file": "MR080G_Campaign_1_Preflight_Submax_Avgs_09_08_2004_Subject_2.csv",
+   "fileId": "2273dc4f-16b0-5f3c-9f38-85a44f261662",
+   "catalogBytes": 9434,
+   "servedBytes": 409,
+   "sha256": "a912959b440a5230766e0503d353ac6e94498aa79659f27e22304d573ae46589"
+  },
+  {
+   "dataset": "MR080G_Campaign_1_Physical_Fitness_Evaluation",
+   "file": "MR080G_Campaign_1_Rest_EVA_RX_09_01_2004_Subject_2.csv",
+   "fileId": "7a463cff-1716-54d4-a324-43a91d2e54e0",
+   "catalogBytes": 9218,
+   "servedBytes": 215,
+   "sha256": "31d3ca702cea9deaaf6c5beed008fee7c0f2b86eef35a3deacb9d7141e1455d8"
+  },
+  {
+   "dataset": "MR080G_Campaign_1_Physical_Fitness_Evaluation",
+   "file": "MR080G_Campaign_1_No_Rest_EVA_RX_09_01_2004_Subject_3.csv",
+   "fileId": "9c24aeb6-1507-5af8-b6d3-eb5daa7e268b",
+   "catalogBytes": 9285,
+   "servedBytes": 341,
+   "sha256": "d44447e5f722cce49d59847dbdd37b5a69f394133dd117f0e7f979bae53045f7"
+  },
+  {
+   "dataset": "MR080G_Campaign_1_Physical_Fitness_Evaluation",
+   "file": "MR080G_Campaign_1_Rest_EVA_RX_09_01_2004_Subject_3.csv",
+   "fileId": "abf20145-a56d-5b82-b50c-26f3d4faabf3",
+   "catalogBytes": 9215,
+   "servedBytes": 222,
+   "sha256": "27072502888e131ea18f5198815bbac00edeac6620a4ffc0f65e264a3bdb7a7d"
+  },
+  {
+   "dataset": "MR080G_Campaign_1_Physical_Fitness_Evaluation",
+   "file": "MR080G_Campaign_1_Postflight_Submax_Avgs_11_21_2004_Subject_2.csv",
+   "fileId": "9699ed92-0c32-5758-b4c3-cc435e351264",
+   "catalogBytes": 9461,
+   "servedBytes": 425,
+   "sha256": "7af697e2ca8005a91a33deda343c4b944d0a09ea61de53b865f915a0efa02ae4"
+  },
+  {
+   "dataset": "MR080G_Campaign_1_Physical_Fitness_Evaluation",
+   "file": "MR080G_Campaign_1_Preflight_Max_Avgs_09_01_2004_Subject_1.csv",
+   "fileId": "bbe69583-71e8-540d-b7fb-e952ca3c853c",
+   "catalogBytes": 9595,
+   "servedBytes": 543,
+   "sha256": "5cd30e9bf606c9552e79c5c5b04018d1b7369867975e6d4fbd7a9754e4ab5460"
+  },
+  {
+   "dataset": "MR080G_Campaign_3_Aerobic_Capacity_EVA",
+   "file": "MR080G_Campaign_3_C3D_5165_Peak_080122_eva_ex_wo_rest.csv",
+   "fileId": "14e74ea6-c691-524b-8e59-dbc8a2726a50",
+   "catalogBytes": 478,
+   "servedBytes": 479,
+   "sha256": "e616fe40c770e9ea859c5075f8fd3cc5a0d913bd2389316e5a022b9def5288ed"
+  }
+ ],
+ "failed": [
+  {
+   "dataset": "BEDREST0035__2050655144",
+   "file": "BEDREST0035__2050655144.pdf_Campaign_5_BEDREST0035_2012_205_070716.pdf",
+   "fileId": "6da9463a-8cc3-5de5-acaa-4f966981c858",
+   "error": "HTTP Error 502: Bad Gateway"
+  },
+  {
+   "dataset": "MR016G__2770823760",
+   "file": "MR016G__2770823760.pdf_Campaign_3_MR016G_2013_277_081049.pdf",
+   "fileId": "c840d7b1-2c7b-5884-8922-3d7af57f66eb",
+   "error": "HTTP Error 502: Bad Gateway"
+  },
+  {
+   "dataset": "JMGROUND_MR016G_2",
+   "file": "JMGROUND_MR016G_2.pdf",
+   "fileId": "3702a007-fe76-5c18-9a39-7249923d67da",
+   "error": "HTTP Error 502: Bad Gateway"
+  },
+  {
+   "dataset": "JMGROUND_MR016G_2",
+   "file": "JMGROUND_MR016G_2.pdf",
+   "fileId": "62fff5df-b8fd-5600-a857-748cee184cce",
+   "error": "HTTP Error 502: Bad Gateway"
+  },
+  {
+   "dataset": "JMGROUND_MR016G_2",
+   "file": "JMGROUND_MR016G_2.pdf",
+   "fileId": "0aa77e45-21d7-5185-954b-d6bdbbd071e8",
+   "error": "HTTP Error 502: Bad Gateway"
+  },
+  {
+   "dataset": "JMGROUND_MR016G_2",
+   "file": "JMGROUND_MR016G_2.pdf",
+   "fileId": "87407905-556b-5fca-b50d-fd03d60585f4",
+   "error": "HTTP Error 502: Bad Gateway"
+  },
+  {
+   "dataset": "JMGROUND_MR016G_2",
+   "file": "JMGROUND_MR016G_2.pdf",
+   "fileId": "3ccf8765-950a-54d7-ad21-872f07a64612",
+   "error": "HTTP Error 502: Bad Gateway"
+  },
+  {
+   "dataset": "JMGROUND_MR016G_2",
+   "file": "JMGROUND_MR016G_2.pdf",
+   "fileId": "e0acd0e7-c9e6-5f62-ba40-5deb4964c92a",
+   "error": "HTTP Error 502: Bad Gateway"
+  },
+  {
+   "dataset": "MR016G__2770834471",
+   "file": "MR016G__2770834471.pdf_Campaign_3_MR016G_2013_277_081046.pdf",
+   "fileId": "73e7d1cf-ce71-5fcd-a68a-23c9fe1ac4ae",
+   "error": "HTTP Error 502: Bad Gateway"
+  },
+  {
+   "dataset": "NSBRI20010036__2340403140",
+   "file": "NSBRI20010036__2340403140.pdf_Campaign_3_NSBRI20010036_2011_234_050809.pdf",
+   "fileId": "ce0550ec-d721-55cc-9f4f-a3f06a563ac9",
+   "error": "HTTP Error 502: Bad Gateway"
+  }
+ ]
+}
