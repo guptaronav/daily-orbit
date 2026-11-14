@@ -76,4 +76,13 @@ export type Threshold = {
   source: string
 }
 
-export type Status = 'green' | 'yellow' | 'red' | 'gray'
+export type DataLabel = 'Simulated data' | 'NASA bed-rest analog data, de-identified'
+
+export type CrewMember = {
+  id: string
+  name: string
+  role: string
+  dataLabel: DataLabel
+}
+
+export type Status ='green' | 'yellow' | 'red' | 'gray'
