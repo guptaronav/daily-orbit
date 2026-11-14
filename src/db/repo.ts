@@ -1,4 +1,5 @@
 import type { CrewMember, GameEvent, Indicator, Measurement } from '../contract/types'
+import { buildSessionRecords, type MirrorSession } from '../lib/session'
 import { generateCrew } from '../lib/sim/seed'
 import { db, safe } from './db'
 
@@ -39,3 +40,14 @@ export async function ensureSeeded(): Promise<void> {
   const count = await safe(() => db.crew.count(), 0)
   if (count === 0) await resetAndReseed()
 }
+
+/** Persist a finished mirror check (measurements + effort events) in one transaction. */
+export const saveSession = (session: MirrorSession, crewId: string): Promise<boolean> =>
+  safe(async () => {
+    const { measurements, events } = buildSessionRecords(session, crewId, new Date())
+    await db.transaction('rw', db.measurements, db.events, async () => {
+      await db.measurements.bulkPut(measurements)
+      await db.events.bulkPut(events)
+    })
+    return true
+  }, false)
