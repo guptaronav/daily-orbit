@@ -1,1 +1,35 @@
 @import "tailwindcss";
+
+/* Flight-manual palette: warm paper, ink, one NASA-blue accent. Status colors are semantic only. */
+@theme {
+  --color-ink: #14181f;
+  --color-paper: #f3f1ea;
+  --color-panel: #fbfaf6;
+  --color-rule: #cdc8b8;
+  --color-muted: #5b6270;
+  --color-accent: #0b3d91;
+  --color-ok: #2f7d4f;
+  --color-watch: #b7791f;
+  --color-act: #b3261e;
+  --color-nodata: #8a8f98;
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  font-variant-numeric: tabular-nums;
+  margin: 0;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
