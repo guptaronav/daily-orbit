@@ -8,7 +8,11 @@
 - All clinical thresholds in `src/config/thresholds.ts` are `value: null` until sourced from NASA HRP / NASA-STD-3001; the UI shows "threshold not set".
 - Status never colors a reading whose quality check failed (gray).
 
-- Seeded crew (`crew-1..3`) and the guest profile all start with 30 days of simulated history, labeled "Simulated data". The guest gets a simulated baseline so a judge's first check-in can be compared against something; their own check-ins are added on top.
+- Seeded crew (`crew-1..3`) start with 30 days of simulated history, labeled "Simulated data". **The guest starts empty** and builds their own baseline (5 earlier readings) so a real person is never compared to invented numbers; until then the summary says "Building your baseline (n of 5)". (This replaces an earlier design that seeded the guest, which showed false "Act" colors on a real first run.)
+- Seed data is versioned (`SEED_VERSION` in `src/db/repo.ts`): bumping it clears local data once on the next load.
+- Unanswered check-in questions are not saved, so an untouched slider can never become a fake reading. Body mass is seeded daily for simplicity, though real cadence is weekly.
+- Head motion for the pulse reading is detrended, outlier-robust jitter of the nose tip, not total movement, so slow drift and brief glances do not refuse a reading.
+- An acuity check where the largest letter was never answered correctly is saved as a failed reading (retake), not judged.
 - Seed profiles (typical sleep, HR, etc.) are invented simulation parameters, not NASA data. Seed ids are deterministic strings (`crew-1-heartRate-3`), not UUIDs, so reseeding is reproducible.
 - Comm delay: ISS 1 s, lunar 1.3 s (from the brief), Mars default 20 min, adjustable 3 to 22 min.
 - Environment equipment lists are `[CONTENT TODO]` until sourced.
@@ -35,6 +39,14 @@
 - Webcam frames arrive unevenly, so traces are resampled onto a uniform 30 Hz clock by timestamp before the pulse estimator runs.
 
 ## Sources
+
+Verified by reading the primary pages on 2026-11-14:
+- NASA Human Research Program risks, https://www.nasa.gov/hrp/risks (page updated Jul 21, 2026). 17 risk titles; the ones we cite, verbatim: Risk of Cardiovascular Adaptations; Risk of Inadequate Sleep and Irregular Schedules; Risk of Behavioral Changes and Psychiatric Disorders; Risk of Spaceflight Associated Neuro-ocular Syndrome (SANS); Risk of Spaceflight-Induced Bone Changes; Risk of Reduced Cardiorespiratory and Musculoskeletal Fitness; Risk of Radiation-Induced Cancers; Risk of Inadequate Food and Nutrition; Risk of Host-Microorganism Interactions. The page does not mention blood pressure, body temperature, blood glucose, body mass, kidney or "fluid shift".
+- NASA Spaceflight Standard Measures, https://www.nasa.gov/reference/standard-measures/ and https://www.nasa.gov/humans-in-space/spaceflight-standard-measures-characterizing-how-humans-adapt-in-space/. Nine core measurements: Actigraphy; Biochemical markers (blood, urine); Carotid intima-media thickness; Cellular profile (blood, saliva); Cognition (10 computer tests); Microbiome (body, saliva, fecal samples); Personality questionnaire; Sleep quality/team questionnaire (mood before sleep); Sensorimotor (movement, balance, heart rate, blood pressure). Not mentioned: body mass, blood glucose, body temperature, vision.
+- Body mass on the ISS: Body mass changes during long-duration spaceflight, https://www.ncbi.nlm.nih.gov/pubmed/25197887 (not a NASA page; found by search).
+- Gut datasets (found through a data.gov catalog search, NOT yet opened on osdr.nasa.gov): SpaceX Inspiration4 stool metagenome OSD-630; MARS500 gut microbiota GLDS-191 (ground analog).
+
+Mapping choices that are ours, not NASA's: blink rate and eyelid closure to the sleep risk (fatigue proxy); blood sugar to the nutrition risk; blood pressure to the cardiovascular risk (BP is not named there); heart rate and blood pressure tagged `sensorimotor` because the Standard Measures page lists them under sensorimotor tests; mood tagged `sleep` because the pre-sleep questionnaire covers mood; digestive comfort and appetite tagged `none` (they are self-reports, not the microbiome sample).
 
 ## Limitations
 

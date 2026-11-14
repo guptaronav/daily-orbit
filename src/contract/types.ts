@@ -15,6 +15,9 @@ export const INDICATORS = [
   'bloodSugar',
   'exerciseMinutes',
   'radiationDose',
+  'appetite',
+  'digestiveComfort',
+  'bodyMass',
 ] as const
 
 export type Indicator = (typeof INDICATORS)[number]

@@ -23,7 +23,9 @@ function OptotypeE({ sizePx, direction }: { sizePx: number; direction: Direction
   )
 }
 
-export function Acuity({ onComplete }: { onComplete: (logMar: number) => void }) {
+export type AcuityOutcome = { logMar: number; readable: boolean }
+
+export function Acuity({ onComplete }: { onComplete: (outcome: AcuityOutcome) => void }) {
   const [history, setHistory] = useState<Trial[]>([])
   const [direction, setDirection] = useState<Direction>(randomDirection)
   const { level } = nextStep(history)
@@ -32,7 +34,8 @@ export function Acuity({ onComplete }: { onComplete: (logMar: number) => void })
   function answer(guess: Direction | null) {
     const next = [...history, { level, correct: guess === direction }]
     if (nextStep(next).done) {
-      onComplete(acuityResult(next)?.logMar ?? UNREADABLE_LOGMAR)
+      const result = acuityResult(next)
+      onComplete({ logMar: result?.logMar ?? UNREADABLE_LOGMAR, readable: result !== null })
       return
     }
     setHistory(next)

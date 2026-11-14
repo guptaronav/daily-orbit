@@ -19,9 +19,15 @@ describe('generateCrew', () => {
     expect(crew.every((c) => c.dataLabel === 'Simulated data')).toBe(true)
   })
 
-  test('each crew has about 30 days of passed, simulated sleepHours', () => {
+  test('the guest starts with no history so they build their own baseline, not a fake one', () => {
+    const { measurements, events } = generateCrew(42, NOW)
+    expect(measurements.some((m) => m.crewId === 'guest')).toBe(false)
+    expect(events.some((e) => e.crewId === 'guest')).toBe(false)
+  })
+
+  test('each seeded crew member has about 30 days of passed, simulated sleepHours', () => {
     const { crew, measurements } = generateCrew(42, NOW)
-    for (const c of crew) {
+    for (const c of crew.filter((x) => x.id !== 'guest')) {
       const sleep = measurements.filter((m) => m.crewId === c.id && m.indicator === 'sleepHours')
       expect(sleep.length).toBe(30)
       expect(sleep.every((m) => m.source === 'simulated' && m.quality.passed)).toBe(true)
@@ -51,13 +57,21 @@ describe('generateCrew', () => {
 
   test('every region of every seeded crew member starts green, so demo events tell the story', () => {
     const { crew, measurements } = generateCrew(42, NOW)
-    for (const c of crew) {
+    for (const c of crew.filter((x) => x.id !== 'guest')) {
       const readings = readAll(measurements.filter((m) => m.crewId === c.id))
       for (const region of REGIONS) {
         const status = regionStatus(region, readings)
         // radiationDose and symptomReport are intentionally unseeded, so 'body' stays driven by temperature alone.
         expect({ crew: c.id, region: region.id, status }).toEqual({ crew: c.id, region: region.id, status: 'green' })
       }
+    }
+  })
+
+  test('every indicator the app defines except radiation and symptoms is seeded, including gut and nutrition', () => {
+    const { measurements } = generateCrew(42, NOW)
+    const seeded = new Set(measurements.filter((m) => m.crewId === 'crew-1').map((m) => m.indicator))
+    for (const i of ['appetite', 'digestiveComfort', 'bodyMass', 'bloodSugar', 'eyelidClosure', 'sleepHours', 'bloodPressureSys']) {
+      expect(seeded.has(i as never), i).toBe(true)
     }
   })
 

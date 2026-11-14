@@ -20,6 +20,10 @@ describe('formatValue', () => {
   test('numbers without a unit are just the number', () => {
     expect(formatValue({ ...base, unit: undefined })).toBe('62')
   })
+  test('long decimals are rounded for display', () => {
+    expect(formatValue({ ...base, indicator: 'blinkRate', value: 10.483663902738733, unit: 'blinks/min' })).toBe('10.48 blinks/min')
+    expect(formatValue({ ...base, indicator: 'eyelidClosure', value: 2.579034941763727, unit: '%' })).toBe('2.58 %')
+  })
   test('0-10 scales read as a fraction of 10', () => {
     expect(formatValue({ ...base, indicator: 'mood', value: 7.3, unit: '0-10' })).toBe('7.3 / 10')
   })

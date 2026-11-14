@@ -18,6 +18,14 @@ describe('estimateHeartRate', () => {
     expect(out.quality).toMatchObject({ passed: false, reason: 'motion' })
   })
 
+  test('a refused reading still reports the best-guess bpm and prominence for diagnostics', () => {
+    const { r, g, b } = synthRgb({ bpm: 72, fps: FPS, seconds: 30 })
+    const out = estimateHeartRate({ r, g, b, fps: FPS, motion: 0.08, meanLuma: 130, faceLostFraction: 0 })
+    expect(out.bpm).toBeNull()
+    expect(Math.abs(out.candidateBpm! - 72)).toBeLessThanOrEqual(2)
+    expect(out.prominence).toBeGreaterThan(0.7)
+  })
+
   test('a dark room is refused as lighting', () => {
     const { r, g, b } = synthRgb({ bpm: 72, fps: FPS, seconds: 30 })
     const out = estimateHeartRate({ r, g, b, fps: FPS, motion: 0.005, meanLuma: 25, faceLostFraction: 0 })

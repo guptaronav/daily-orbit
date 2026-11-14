@@ -24,6 +24,25 @@ describe('motionScore', () => {
   })
 })
 
+describe('motionScore ignores what does not hurt the pulse reading', () => {
+  const still = (n = 600, seed = 5) => wander(0.002, n, seed)
+
+  test('slow steady drift (slouching, settling in) is not motion', () => {
+    const drifting = still().map((p, i) => ({ x: p.x + (i / 600) * 0.06, y: p.y }))
+    expect(motionScore(drifting, FACE_WIDTH)).toBeLessThan(0.03)
+  })
+
+  test('a few brief glances away (5% of frames) are not motion', () => {
+    const glances = still().map((p, i) => (i % 20 === 0 ? { x: p.x + 0.08, y: p.y + 0.08 } : p))
+    expect(motionScore(glances, FACE_WIDTH)).toBeLessThan(0.03)
+  })
+
+  test('sustained shaking or nodding is still caught', () => {
+    const shaking = still().map((p, i) => ({ x: p.x + 0.03 * Math.sin(i / 3), y: p.y + 0.03 * Math.cos(i / 4) }))
+    expect(motionScore(shaking, FACE_WIDTH)).toBeGreaterThan(0.03)
+  })
+})
+
 describe('lightingOk', () => {
   test('fails when too dark or blown out, passes in between', () => {
     expect(lightingOk(20)).toBe('dark')

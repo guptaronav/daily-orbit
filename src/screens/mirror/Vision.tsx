@@ -1,12 +1,12 @@
 import { useState } from 'react'
 import { btnPrimary, linkBtn } from '../../components/ui'
 import { summarizeAmsler, type AmslerSummary } from '../../lib/vision/amsler'
-import { Acuity } from './Acuity'
+import { Acuity, type AcuityOutcome } from './Acuity'
 import { AmslerGrid } from './AmslerGrid'
 
 const GRID_N = 10
 
-export type VisionResult = { amsler: { left: AmslerSummary; right: AmslerSummary }; acuity: { logMar: number } }
+export type VisionResult = { amsler: { left: AmslerSummary; right: AmslerSummary }; acuity: AcuityOutcome }
 
 type Phase = 'right' | 'left' | 'acuity'
 
@@ -49,9 +49,7 @@ export function Vision({ onComplete }: { onComplete: (result: VisionResult) => v
           Near-vision check
         </h2>
         <Acuity
-          onComplete={(logMar) =>
-            onComplete({ amsler: { right: rightEye as AmslerSummary, left: leftEye as AmslerSummary }, acuity: { logMar } })
-          }
+          onComplete={(acuity) => onComplete({ amsler: { right: rightEye as AmslerSummary, left: leftEye as AmslerSummary }, acuity })}
         />
       </section>
     )

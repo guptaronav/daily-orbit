@@ -9,6 +9,8 @@ export type IndicatorReading = {
   /** Latest reading that passed quality. Failed readings never become `latest`. */
   latest?: Measurement
   baseline: Baseline | null
+  /** Earlier quality-passed numeric readings available for the baseline (excludes the latest). */
+  priorCount: number
   failedCount: number
   /** Every reading for this indicator, oldest first, including failed ones. */
   history: Measurement[]
@@ -25,15 +27,15 @@ export function readIndicator(indicator: Indicator, all: readonly Measurement[])
   const passed = history.filter((m) => m.quality.passed)
   const failedCount = history.length - passed.length
   const latest = passed.at(-1)
-  if (!latest) return { indicator, status: 'gray', baseline: null, failedCount, history }
+  if (!latest) return { indicator, status: 'gray', baseline: null, priorCount: 0, failedCount, history }
 
   if (typeof latest.value !== 'number') {
-    return { indicator, status: getCategoricalStatus(latest), latest, baseline: null, failedCount, history }
+    return { indicator, status: getCategoricalStatus(latest), latest, baseline: null, priorCount: 0, failedCount, history }
   }
   // Baseline excludes the latest reading so a sudden change is not diluted by itself.
   const prior = passed.slice(0, -1).flatMap((m) => (typeof m.value === 'number' ? [m.value] : []))
   const baseline = computeBaseline(prior)
-  return { indicator, status: getStatus(latest, baseline), latest, baseline, failedCount, history }
+  return { indicator, status: getStatus(latest, baseline), latest, baseline, priorCount: prior.length, failedCount, history }
 }
 
 export function readAll(measurements: readonly Measurement[]): Record<Indicator, IndicatorReading> {

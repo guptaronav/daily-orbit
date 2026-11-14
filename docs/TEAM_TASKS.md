@@ -83,7 +83,7 @@ Node 24 is required for the data scripts (`node scripts/foo.ts` runs TypeScript 
 
 **Files you own:** `src/screens/Manual.tsx`, new `src/lib/manualEntry.ts` and `src/lib/manualEntry.test.ts`.
 
-**Spec:** five small forms: blood pressure (systolic and diastolic), temperature, blood sugar, sleep hours, exercise minutes.
+**Spec:** six small forms: blood pressure (systolic and diastolic), temperature, blood sugar, sleep hours, exercise minutes, and **body mass (kg)**. Body mass and blood sugar feed the new "Gut and nutrition" region. See `docs/DATA_COVERAGE.md`.
 - `manualEntry.ts` exports pure `validateEntry(kind, rawInput)` returning `{ ok: true, values } | { ok: false, error }`. Numeric sanity bounds are **input guards only** (reject obviously impossible typos like 9000 mmHg), not clinical thresholds. Write the test first, including: empty, non-numeric, negative, out of range, boundary values.
 - On submit build `Measurement` objects: `source: 'manual'`, `quality: { score: 1, passed: true }`, `crewId` from `useApp()`, `timestamp: new Date().toISOString()`, `id: crypto.randomUUID()`, `unit` from `getThreshold(indicator).unit`. Save with `addMeasurement`, then call `refresh()` from `useApp()`.
 - Exercise minutes also writes one `GameEvent` of kind `exerciseComplete` via `addEvent` (points come from effort, never values).
@@ -149,6 +149,7 @@ The NASA Life Sciences Portal renders with JavaScript, so a script can't fetch i
 **Spec:**
 - `scripts/fetch-donki.ts`: fetch historical solar energetic particle events at **build time** (never at runtime). Try `https://api.nasa.gov/DONKI/SEP?startDate=...&endDate=...&api_key=$NASA_API_KEY` first and `https://ccmc.gsfc.nasa.gov/DONKI-API/get/SEP...` as the second option (a report says DONKI moved there on Sep 30, 2026). Log which one worked. Read the key from the env var `NASA_API_KEY`; **never commit a key**. Write `src/data/donki-sep.json`. If both fail, fail loudly.
 - `radiation.ts` (pure, test first): `buildLedger(replay, steps)` accumulates a **simulated** dose over time (never decreases) and `shelterPromptAt(replay)` returns the first step at event onset. State the dose formula and its assumptions plainly in `NOTES.md` and on screen. This is a labeled simulation, **not** real dosimetry.
+- While replaying, **write `radiationDose` measurements** with `addMeasurement` (`source: 'simulated'`, unit `mSv`, the cumulative simulated dose) so the "Whole body" region on the body map reacts. Nothing else in the app produces this indicator.
 - `Radiation.tsx`: pick a real historical event from the JSON, replay it with a timeline control. At onset show a shelter prompt, the dose ledger, and follow-up symptom prompts. Label it as a replay of a historical event on a simulated vehicle.
 
 **Done when:** replaying an event triggers the shelter prompt and updates the dose ledger (acceptance criterion 5).
@@ -157,7 +158,7 @@ The NASA Life Sciences Portal renders with JavaScript, so a script can't fetch i
 
 **Files you own:** `src/content/indicators.json`, `src/content/environments.json`, new `src/content/sources.json`.
 
-**Spec:** replace `[CONTENT TODO]` with **cited** content, from NASA pages you have opened:
+**Spec:** the exact HRP risk titles (`hrpRisk`) and a first-pass Standard Measures tag are already filled in from nasa.gov/hrp/risks and the Standard Measures pages (see `docs/DATA_COVERAGE.md`); check them, don't redo them. Now replace the remaining `[CONTENT TODO]` text with **cited** content, from NASA pages you have opened. Three indicators are new and need full text: `digestiveComfort`, `appetite`, `bodyMass` (gut and nutrition):
 - For each indicator: the named NASA Human Research Program risk (https://www.nasa.gov/hrp/risks) in `hrpRisk`, and plain-language answers to the challenge's five questions (can it be measured in space, why check it, how spaceflight hazards affect it, when it needs crew or flight-surgeon attention, what prevents a critical condition) plus one `recommendedAction`. Write for people who **don't know how to assess their own health** (that is in the brief). Keep each answer short.
 - Review the `standardMeasure` tag on each indicator against https://www.nasa.gov/reference/standard-measures (our current tags are a first guess, mostly `none`). Correct them.
 - Fill the `equipment` lists in `environments.json` for ISS, lunar surface and Mars transit **only with facts you can cite**.
@@ -170,7 +171,7 @@ The NASA Life Sciences Portal renders with JavaScript, so a script can't fetch i
 
 **Files you own:** `src/screens/Sources.tsx`.
 
-**Spec:** a table of every NASA dataset and page we use, which screens or records each drives, and a **"couldn't use"** section (uncovered Standard Measures categories, OSDR if skipped, anything that didn't work). Read from `src/content/sources.json`. This screen is a judging criterion (Relevance), so make it accurate and easy to scan.
+**Spec:** also render the indicator coverage table from `COVERAGE` in `src/lib/dataCoverage.ts` and the list of **Standard Measures categories we do not cover** from `docs/DATA_COVERAGE.md`. A table of every NASA dataset and page we use, which screens or records each drives, and a **"couldn't use"** section (uncovered Standard Measures categories, OSDR if skipped, anything that didn't work). Read from `src/content/sources.json`. This screen is a judging criterion (Relevance), so make it accurate and easy to scan.
 
 ### E6. Deploy and offline  ~2 h
 
@@ -180,11 +181,21 @@ The NASA Life Sciences Portal renders with JavaScript, so a script can't fetch i
 1. **Deploy a first version now** so we always have a live link. The repo is private, and GitHub Pages on a private repo needs a paid plan, so use **Vercel**: import the GitHub repo, framework Vite, build `npm run build`, output `dist`. Put the live URL at the top of `README.md`. Deploy from `feat/scaffold-and-foundation` until we merge to `main`.
 2. **Later (after Ronav's webcam code lands):** add the PWA service worker with `vite-plugin-pwa` (already installed) precaching **everything**, including the MediaPipe model and WASM files, with `maximumFileSizeToCacheInBytes` high enough. Verify in Chrome DevTools: load once, go **Offline**, hard reload, and the whole app (including the mirror check with the bundled sample video) must still work. This is acceptance criterion 9.
 
-### E7. Stretch: NASA OSDR  only if everything above is done
+### E7. Stretch: NASA OSDR gut data  only if everything above is done
 
-Search https://osdr.nasa.gov/bio/repo with filters Human, Spaceflight, Physiological. If a dataset has usable physiological measurements at pre-, in-, and post-flight timepoints, add a small reference panel to the relevant indicator card. If not usable in time, **skip it and list it under "couldn't use" on the Sources screen**. Don't fake it.
+First look at these two human gut datasets (found through a catalog search, **not yet opened**, so confirm they exist, are open access, and what files they offer): SpaceX Inspiration4 stool metagenome (`OSD-630`, samples before and after a 3-day flight) and the MARS500 gut microbiota study (`GLDS-191`, a 520-day ground confinement analog, **not** spaceflight and must be labeled that way). If either is usable, add a small reference panel to the Digestive comfort card. Otherwise search https://osdr.nasa.gov/bio/repo with filters Human, Spaceflight, Physiological. If a dataset has usable physiological measurements at pre-, in-, and post-flight timepoints, add a small reference panel to the relevant indicator card. If not usable in time, **skip it and list it under "couldn't use" on the Sources screen**. Don't fake it.
 
 ---
+
+### A6. Scheduled prompts (P1, after A2 to A4)  ~2 h
+
+**Files you own:** new `src/lib/schedule.ts` and `src/lib/schedule.test.ts`, a banner in `src/components/TopBar.tsx` or `src/screens/BodyMap.tsx`.
+
+**Spec:** pure `dueItems(measurements, events, now)` returning what is overdue: the next mirror check, a body-mass reading (weekly), and a microbiome sample (placeholder interval, labeled as an assumption). NASA collects fecal samples for the microbiome and takes body mass regularly, so a reminder follows real practice. Show due items as a quiet in-app banner with a link to the right screen. Test first: nothing due right after a check-in, due after the interval, never due for an indicator with no data yet.
+
+### A7. Optional: short cognition check (only if everything else is done)
+
+The Standard Measures include computer-based cognition tests and we cover none. A 60-second reaction-time test would close that gap. It needs a new indicator, so talk to Ronav before starting.
 
 ## Ronav (for reference)
 
@@ -192,7 +203,7 @@ Mirror check webcam capture (Tasks 7 and 8), gamification scoring and progress s
 
 ## Cut line
 
-If we are behind by Saturday 6 pm, drop in this order: `A5` (Metrics), `A4` (Medical view), the exercise-group comparison in `E2`, `E7`. **Never drop:** quality gating, offline mode, the Sources screen, the labeled bed-rest crew member, the sample-video fallback.
+If we are behind by Saturday 6 pm, drop in this order: `A7`, `A6`, `A5` (Metrics), `A4` (Medical view), the exercise-group comparison in `E2`, `E7`. **Never drop:** quality gating, offline mode, the Sources screen, the labeled bed-rest crew member, the sample-video fallback.
 
 ## Acceptance checklist (what the judges will try)
 

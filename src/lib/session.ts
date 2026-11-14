@@ -9,9 +9,11 @@ export type MirrorSession = {
   sessionId: string
   heartRate?: { bpm: number | null; quality: Quality; source: CameraSource }
   blink?: { blinkRate: number; eyelidClosurePct: number; quality: Quality; source: CameraSource }
-  selfReport?: { sleepQuality: number; mood: number; stress: number }
+  /** Only questions the person actually answered; unanswered ones are absent, never defaulted. */
+  selfReport?: Partial<Record<'sleepQuality' | 'mood' | 'stress' | 'sleepHours' | 'appetite' | 'digestiveComfort', number>>
   amsler?: { left: AmslerSummary; right: AmslerSummary }
-  acuity?: { logMar: number }
+  /** `readable: false` means the largest letter was never answered correctly: refuse to judge it. */
+  acuity?: { logMar: number; readable?: boolean }
   symptoms?: { symptoms: string[]; note?: string }
   /** True when this session's reading was retaken after a quality failure. */
   retookAfterQualityFail?: boolean
@@ -58,9 +60,10 @@ export function buildSessionRecords(session: MirrorSession, crewId: string, now:
     add('eyelidClosure', blink.eyelidClosurePct, blink.source, blink.quality)
   }
   if (selfReport) {
-    add('sleepQuality', selfReport.sleepQuality, 'selfReport')
-    add('mood', selfReport.mood, 'selfReport')
-    add('stress', selfReport.stress, 'selfReport')
+    for (const indicator of ['sleepQuality', 'mood', 'stress', 'sleepHours', 'appetite', 'digestiveComfort'] as const) {
+      const value = selfReport[indicator]
+      if (value !== undefined) add(indicator, value, 'selfReport')
+    }
   }
   if (amsler) {
     add(
@@ -75,7 +78,7 @@ export function buildSessionRecords(session: MirrorSession, crewId: string, now:
       'selfReport',
     )
   }
-  if (acuity) add('nearAcuity', acuity.logMar, 'selfReport')
+  if (acuity) add('nearAcuity', acuity.logMar, 'selfReport', acuity.readable === false ? { score: 0, passed: false, reason: 'other' } : PASSED)
   if (symptoms) add('symptomReport', { symptoms: symptoms.symptoms, ...(symptoms.note ? { note: symptoms.note } : {}) }, 'selfReport')
 
   const events = sessionEventKinds(session).map((kind): GameEvent => ({ id: crypto.randomUUID(), crewId, timestamp, kind }))

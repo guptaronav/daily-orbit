@@ -19,26 +19,36 @@ export type HeartRateInput = {
   faceLostFraction?: number
 }
 
-export type HeartRateResult = { bpm: number | null; prominence: number; quality: Quality }
+export type HeartRateResult = {
+  bpm: number | null
+  prominence: number
+  /** Best-guess rate from the strongest spectral peak, even when the reading was refused (diagnostics only). */
+  candidateBpm: number | null
+  quality: Quality
+}
 
-const fail = (reason: NonNullable<Quality['reason']>, prominence = 0): HeartRateResult => ({
+const fail = (reason: NonNullable<Quality['reason']>, prominence = 0, candidateBpm: number | null = null): HeartRateResult => ({
   bpm: null,
   prominence,
+  candidateBpm,
   quality: { score: Math.min(1, prominence / 0.7), passed: false, reason },
 })
 
 /**
  * Heart rate from face-ROI color traces. The check order matters: we name the most fixable cause
  * first (face, light, motion) before blaming a weak signal, so the retake advice is specific.
+ * The spectrum is computed before the gates so a refusal can still report what it saw.
  */
 export function estimateHeartRate(input: HeartRateInput): HeartRateResult {
   const { r, g, b, fps } = input
   if (r.length < MIN_SECONDS * fps) return fail('lowSignal')
-  if ((input.faceLostFraction ?? 0) > MAX_FACE_LOST) return fail('faceLost')
-  if (input.meanLuma !== undefined && lightingOk(input.meanLuma) !== 'ok') return fail('lighting')
-  if ((input.motion ?? 0) > MAX_MOTION) return fail('motion')
 
   const { freq, prominence } = dominantFrequency(bandpass(pos(r, g, b, fps), fps), fps)
-  if (prominence < MIN_PROMINENCE) return fail('lowSignal', prominence)
-  return { bpm: Math.round(freq * 60), prominence, quality: { score: Math.min(1, prominence / 0.7), passed: true } }
+  const candidate = prominence > 0 ? Math.round(freq * 60) : null
+
+  if ((input.faceLostFraction ?? 0) > MAX_FACE_LOST) return fail('faceLost', prominence, candidate)
+  if (input.meanLuma !== undefined && lightingOk(input.meanLuma) !== 'ok') return fail('lighting', prominence, candidate)
+  if ((input.motion ?? 0) > MAX_MOTION) return fail('motion', prominence, candidate)
+  if (prominence < MIN_PROMINENCE) return fail('lowSignal', prominence, candidate)
+  return { bpm: candidate, prominence, candidateBpm: candidate, quality: { score: Math.min(1, prominence / 0.7), passed: true } }
 }

@@ -33,6 +33,19 @@ describe('analyzeCapture', () => {
     expect(out.blink.blinkRate).toBeCloseTo(8, 0) // 4 blinks in 30 s
   })
 
+  test('diagnostics expose why a reading passed or failed', () => {
+    const d = analyzeCapture(assembled({ motion: 0.08 })).diagnostics
+    expect(d).toMatchObject({ seconds: 30, frames: 900, fps: 30, motion: 0.08, meanLuma: 130, faceLostFraction: 0 })
+    expect(d.prominence).toBeGreaterThan(0.7)
+    expect(Math.abs(d.candidateBpm! - 72)).toBeLessThanOrEqual(2)
+  })
+
+  test('blink metrics are rounded to one decimal', () => {
+    const { blink } = analyzeCapture(assembled())
+    expect(blink.blinkRate).toBe(Math.round(blink.blinkRate * 10) / 10)
+    expect(blink.eyelidClosurePct).toBe(Math.round(blink.eyelidClosurePct * 10) / 10)
+  })
+
   test('losing the face fails both readings with faceLost', () => {
     const out = analyzeCapture(assembled({ faceLostFraction: 0.4 }))
     expect(out.heartRate.quality).toMatchObject({ passed: false, reason: 'faceLost' })

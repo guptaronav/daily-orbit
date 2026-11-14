@@ -10,7 +10,7 @@ export const REGIONS: readonly Region[] = [
   { id: 'heart', label: 'Heart', indicators: ['heartRate', 'bloodPressureSys', 'bloodPressureDia'] },
   { id: 'skeleton', label: 'Skeleton', indicators: ['exerciseMinutes'] },
   { id: 'body', label: 'Whole body', indicators: ['radiationDose', 'temperature', 'symptomReport'] },
-  { id: 'gut', label: 'Gut', indicators: ['bloodSugar'] },
+  { id: 'gut', label: 'Gut and nutrition', indicators: ['digestiveComfort', 'appetite', 'bodyMass', 'bloodSugar'] },
 ]
 
 export const STATUS_LABEL: Record<Status, string> = {

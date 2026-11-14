@@ -36,9 +36,30 @@ export const resetAndReseed = (): Promise<void> =>
     })
   }, undefined)
 
+// Bump when the seed data changes so stale local data is replaced (this clears local check-ins).
+const SEED_VERSION = '3'
+const SEED_KEY = 'seedVersion'
+
+function storedSeedVersion(): string | null {
+  try {
+    return localStorage.getItem(SEED_KEY)
+  } catch {
+    return null
+  }
+}
+
+function storeSeedVersion(): void {
+  try {
+    localStorage.setItem(SEED_KEY, SEED_VERSION)
+  } catch {
+    /* storage blocked: the app still works, it just reseeds next visit */
+  }
+}
+
 export async function ensureSeeded(): Promise<void> {
   const count = await safe(() => db.crew.count(), 0)
-  if (count === 0) await resetAndReseed()
+  if (count === 0 || storedSeedVersion() !== SEED_VERSION) await resetAndReseed()
+  storeSeedVersion()
 }
 
 /** Persist a finished mirror check (measurements + effort events) in one transaction. */

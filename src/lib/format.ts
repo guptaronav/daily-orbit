@@ -2,8 +2,9 @@ import type { Measurement } from '../contract/types'
 
 export function formatValue(m: Measurement): string {
   if (typeof m.value === 'number') {
-    if (m.unit === '0-10') return `${m.value} / 10`
-    return m.unit ? `${m.value} ${m.unit}` : `${m.value}`
+    const v = Math.round(m.value * 100) / 100 // 2 decimals covers logMAR; stored values stay unrounded
+    if (m.unit === '0-10') return `${v} / 10`
+    return m.unit ? `${v} ${m.unit}` : `${v}`
   }
   const v = m.value
   if (Array.isArray(v.symptoms)) {
