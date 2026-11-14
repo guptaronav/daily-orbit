@@ -104,7 +104,7 @@ export function BodyFigure({ statuses, selected, onSelect, className = 'h-[360px
       {region(
         'eyes',
         <>
-          <rect className="hit" x="72" y="34" width="56" height="24" />
+          <rect className="hit" x="72" y="30" width="56" height="34" />
           <ellipse className="shape" cx="87" cy="45" rx="9" ry="5.5" />
           <ellipse className="shape" cx="113" cy="45" rx="9" ry="5.5" />
         </>,
@@ -112,14 +112,14 @@ export function BodyFigure({ statuses, selected, onSelect, className = 'h-[360px
       {region(
         'heart',
         <>
-          <rect className="hit" x="84" y="122" width="40" height="42" />
+          <rect className="hit" x="78" y="116" width="52" height="52" />
           <path className="shape" d={HEART} />
         </>,
       )}
       {region(
         'gut',
         <>
-          <rect className="hit" x="78" y="186" width="44" height="48" />
+          <rect className="hit" x="74" y="182" width="52" height="54" />
           <rect className="shape" x="81" y="190" width="38" height="40" rx="16" />
         </>,
       )}

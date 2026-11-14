@@ -25,7 +25,7 @@ export function TopBar() {
         Skip to content
       </a>
       <div className="flex flex-wrap items-center gap-x-6 gap-y-3 px-4 py-3 sm:px-8">
-        <button onClick={() => go('landing')} className="mr-auto flex items-baseline gap-2 text-left">
+        <button onClick={() => go('landing')} className="mr-auto flex min-h-[44px] items-center gap-2 text-left">
           <span className="text-base font-semibold tracking-tight">{APP_NAME}</span>
           <span className="label hidden sm:inline">home</span>
         </button>
@@ -58,7 +58,7 @@ export function TopBar() {
           {adjustable && (
             <input
               aria-label="One-way comm delay in seconds"
-              className="w-24 accent-accent sm:w-32"
+              className="h-11 w-24 accent-accent sm:w-32"
               type="range"
               min={environment.minDelaySec}
               max={environment.maxDelaySec}
@@ -77,7 +77,7 @@ export function TopBar() {
               key={item.screen}
               onClick={() => go(item.screen)}
               aria-current={screen === item.screen ? 'page' : undefined}
-              className={`-mb-px shrink-0 whitespace-nowrap border-b-2 py-2.5 text-sm transition-colors ${
+              className={`-mb-px flex min-h-[44px] shrink-0 items-center whitespace-nowrap border-b-2 text-sm transition-colors ${
                 screen === item.screen ? 'border-accent font-semibold text-ink' : 'border-transparent text-muted hover:border-rule-strong hover:text-ink'
               }`}
             >
