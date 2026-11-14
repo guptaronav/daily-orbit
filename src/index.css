@@ -576,3 +576,227 @@ body {
     left: -2.2rem;
   }
 }
+
+/* =========================================================================
+ * Controls, second pass. Patterns adapted from 21st.dev community components
+ * (Border Beam, Glow Button, Price Range Slider, Animated Number steppers)
+ * and rebuilt in our own tokens: no component library, no new dependency.
+ * ========================================================================= */
+
+@property --beam-angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+@keyframes beam-spin {
+  to {
+    --beam-angle: 360deg;
+  }
+}
+
+/* A light that travels around a card's border. Marks which card has focus;
+   purely decorative, and the card also carries a solid accent border. */
+.beam {
+  position: absolute;
+  inset: -1px;
+  padding: 1px;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 220ms ease;
+  background: conic-gradient(
+    from var(--beam-angle),
+    transparent 0 62%,
+    color-mix(in srgb, var(--color-accent) 35%, transparent) 76%,
+    var(--color-accent) 86%,
+    transparent 100%
+  );
+  -webkit-mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  mask-composite: exclude;
+  animation: beam-spin 3.4s linear infinite;
+}
+
+.beam-on {
+  opacity: 1;
+}
+
+@layer components {
+  /* ---- Button variants --------------------------------------------------- */
+
+  /* The sheen that crosses a solid button on hover. */
+  .btn-sheen {
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
+  }
+  .btn-sheen::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    transform: translateX(-130%) skewX(-18deg);
+    background: linear-gradient(90deg, transparent, color-mix(in srgb, #fff 45%, transparent), transparent);
+    transition: transform 620ms cubic-bezier(0.22, 1, 0.36, 1);
+  }
+  .btn-sheen:hover:not(:disabled)::after {
+    transform: translateX(130%) skewX(-18deg);
+  }
+
+  /* Third weight: no border until you touch it. */
+  .btn-ghost {
+    background: transparent;
+    border-color: transparent;
+    color: var(--color-muted);
+  }
+  .btn-ghost:hover:not(:disabled) {
+    color: var(--color-ink);
+    background: color-mix(in srgb, var(--color-ink) 7%, transparent);
+  }
+
+  .btn-danger {
+    background: transparent;
+    border-color: var(--color-act);
+    color: var(--color-act-ink);
+  }
+  .btn-danger:hover:not(:disabled) {
+    background: color-mix(in srgb, var(--color-act) 12%, transparent);
+  }
+
+  .btn-sm {
+    min-height: 36px;
+    padding: 0.35rem 0.75rem;
+    font-size: 0.6875rem;
+  }
+
+  /* ---- Stepper ----------------------------------------------------------- */
+
+  .stepper {
+    display: flex;
+    align-items: stretch;
+    border: 1px solid var(--color-rule-strong);
+    background: var(--color-paper);
+    transition: border-color 140ms ease, box-shadow 140ms ease;
+  }
+  .stepper:focus-within {
+    border-color: var(--color-accent);
+    box-shadow: 0 0 0 1px var(--color-accent);
+  }
+  .stepper[data-invalid="true"] {
+    border-color: var(--color-act);
+    box-shadow: 0 0 0 1px var(--color-act);
+  }
+
+  .stepper-btn {
+    display: grid;
+    place-items: center;
+    width: 44px;
+    min-height: 48px;
+    color: var(--color-muted);
+    cursor: pointer;
+    background: none;
+    border: 0;
+    transition: color 120ms ease, background-color 120ms ease;
+  }
+  .stepper-btn:hover:not(:disabled) {
+    color: var(--color-accent);
+    background: color-mix(in srgb, var(--color-accent) 10%, transparent);
+  }
+  .stepper-btn:disabled {
+    opacity: 0.35;
+    cursor: not-allowed;
+  }
+
+  .stepper-input {
+    flex: 1;
+    min-width: 0;
+    border: 0;
+    border-left: 1px solid var(--color-rule);
+    border-right: 1px solid var(--color-rule);
+    background: transparent;
+    color: var(--color-ink);
+    font-family: var(--font-mono);
+    font-size: 1.35rem;
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+    text-align: center;
+    padding: 0.35rem 0.25rem;
+  }
+  .stepper-input:focus {
+    outline: none;
+  }
+  /* The spin buttons are replaced by our own, in both engines. */
+  .stepper-input::-webkit-outer-spin-button,
+  .stepper-input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  .stepper-input[type="number"] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+  }
+
+  /* ---- Range slider ------------------------------------------------------ */
+
+  .range {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    /* 44 px of grab area around a 4 px track: the track is thin, the target is not. */
+    height: 44px;
+    background: transparent;
+    cursor: pointer;
+  }
+  .range::-webkit-slider-runnable-track {
+    height: 4px;
+    border-radius: 999px;
+    background: linear-gradient(
+      to right,
+      var(--color-accent) 0 var(--pct, 0%),
+      color-mix(in srgb, var(--color-rule) 85%, transparent) var(--pct, 0%) 100%
+    );
+  }
+  .range::-moz-range-track {
+    height: 4px;
+    border-radius: 999px;
+    background: linear-gradient(
+      to right,
+      var(--color-accent) 0 var(--pct, 0%),
+      color-mix(in srgb, var(--color-rule) 85%, transparent) var(--pct, 0%) 100%
+    );
+  }
+  .range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 18px;
+    height: 18px;
+    margin-top: -7px;
+    border-radius: 999px;
+    background: var(--color-paper);
+    border: 2px solid var(--color-accent);
+    box-shadow: 0 0 0 4px color-mix(in srgb, var(--color-accent) 16%, transparent);
+    transition: box-shadow 140ms ease, transform 90ms ease;
+  }
+  .range::-moz-range-thumb {
+    width: 18px;
+    height: 18px;
+    border-radius: 999px;
+    background: var(--color-paper);
+    border: 2px solid var(--color-accent);
+    box-shadow: 0 0 0 4px color-mix(in srgb, var(--color-accent) 16%, transparent);
+  }
+  .range:hover::-webkit-slider-thumb,
+  .range:focus-visible::-webkit-slider-thumb {
+    box-shadow: 0 0 0 7px color-mix(in srgb, var(--color-accent) 20%, transparent);
+  }
+  .range:active::-webkit-slider-thumb {
+    transform: scale(1.1);
+  }
+  .range:focus-visible {
+    outline: none;
+  }
+}
