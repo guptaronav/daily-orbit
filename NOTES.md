@@ -48,6 +48,13 @@
 - Face regions (`src/camera/rois.ts`) are axis-aligned boxes built from 8 well-known mesh anchor points (10, 168, 234, 454, 33, 263, 61, 291) rather than hand-picked polygon indices: forehead 30%x12% of face width centered 45% of the way from the hairline point to the bridge; cheeks 16% square midway between eye corner and mouth corner. Head tilt is ignored. **Needs a visual check with a real face (dev harness).**
 - Webcam frames arrive unevenly, so traces are resampled onto a uniform 30 Hz clock by timestamp before the pulse estimator runs.
 
+- Radiation replay (E3, `src/lib/radiation.ts`): the dose ledger is a **simulation, not dosimetry**. Formula: dose = starting dose + sum over replay hours of (measured dose rate in mGy/h x 1 h x 1 mSv/mGy). Assumptions, all ours: (1) the dose rate LRO CRaTER measured in lunar orbit (detector pair D3/D4) is applied unchanged to the simulated vehicle in every environment, so vehicle shielding and location (ISS, Mars transit) are not modeled; (2) 1 mGy is counted as 1 mSv, no radiation quality factor, so the number is not a dose equivalent; (3) the starting dose is the quiet rate (median of the 24 h before onset) for an assumed 30 mission days; (4) an hour with no measurement repeats the last measured rate; (5) taking shelter does not change the ledger.
+- Why D3/D4: it is the middle detector pair. Our understanding is that it sits between the two pieces of tissue-equivalent plastic and is the most shielded of the three, which is closer to a crew member inside a vehicle than the outward-facing D1/D2 pair (about 7x higher in the March 2012 event). **To confirm against the CRaTER instrument documentation.**
+- Replay events: `scripts/fetch-donki.ts` keeps the 6 events with the largest measured dose above the pre-event level, among events reported by a GOES instrument (near Earth), with at least 85% hourly CRaTER coverage. DONKI reports within 72 h of each other are treated as one event; onset is the first GOES report. Window: 24 h before to 72 h after onset, hourly.
+- Replay hours are stored as `radiationDose` measurements (`source: 'simulated'`, mSv) with timestamps remapped so the last replay hour is "now". Ids depend only on crew and hour, so a new replay replaces the previous one. Rewinding deletes the later hours (`removeMeasurements` added to `src/db/repo.ts`, Ronav's file, 3 lines).
+- Whole body status during a replay comes from the same personal-baseline rule as every other indicator, so it turns red when the dose jumps and can relax again once the cumulative dose levels off. That is the statistical rule, not a statement that the dose stopped mattering.
+- Shelter prompt wording and the follow-up steps are generic. The list of symptoms to watch for after a radiation event is `[CONTENT TODO]` until sourced from NASA.
+
 ## Sources
 
 Verified by reading the primary pages on 2026-11-14:
@@ -57,6 +64,10 @@ Verified by reading the primary pages on 2026-11-14:
 - Gut datasets (found through a data.gov catalog search, NOT yet opened on osdr.nasa.gov): SpaceX Inspiration4 stool metagenome OSD-630; MARS500 gut microbiota GLDS-191 (ground analog).
 
 Mapping choices that are ours, not NASA's: blink rate and eyelid closure to the sleep risk (fatigue proxy); blood sugar to the nutrition risk; blood pressure to the cardiovascular risk (BP is not named there); heart rate and blood pressure tagged `sensorimotor` because the Standard Measures page lists them under sensorimotor tests; mood tagged `sleep` because the pre-sleep questionnaire covers mood; digestive comfort and appetite tagged `none` (they are self-reports, not the microbiome sample).
+
+- NASA DONKI solar energetic particle events, https://ccmc.gsfc.nasa.gov/DONKI-API/get/SEP (fetched 2026-11-14 at build time, 494 events from 2010-08-14 to 2026-09-05). No API key needed on this host; it rejects date ranges over 60 days, so the script uses 30-day windows. `api.nasa.gov/DONKI/SEP` is tried first only when `NASA_API_KEY` is set. On 2026-11-14 three sample periods returned identical event ids from both hosts. DONKI SEP records carry time, instruments and linked events, no intensity.
+- LRO CRaTER dose rates via NASA CCMC iSWA HAPI, https://iswa.gsfc.nasa.gov/IswaSystemWebApp/hapi (dataset `CRaTER`, column `d3_4_dose_rate`, cGy/day, hourly, described there as "CRaTER (GCR+SEP) dose rates for individual and combined detectors with silicon to water correction"). Converted to mGy/h (x 10 / 24). The server allows at most 31 days per request.
+- GOES primary >10 MeV proton flux via the same iSWA HAPI (dataset `goesp_part_flux_P5M`, column `P10`, 5-minute, averaged to hourly). GOES is a NOAA satellite; the copy we use is served by NASA CCMC. Shown for context only.
 
 ## Limitations
 

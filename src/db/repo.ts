@@ -11,6 +11,10 @@ export const addMeasurement = (m: Measurement): Promise<boolean> =>
 export const addMeasurements = (ms: Measurement[]): Promise<boolean> =>
   safe(async () => (await db.measurements.bulkPut(ms), true), false)
 
+/** Used by the radiation replay to clear steps it wrote earlier when the timeline is rewound. */
+export const removeMeasurements = (ids: string[]): Promise<boolean> =>
+  safe(async () => (await db.measurements.bulkDelete(ids), true), false)
+
 export const removeEvents = (ids: string[]): Promise<boolean> =>
   safe(async () => (await db.events.bulkDelete(ids), true), false)
 
