@@ -1,7 +1,6 @@
-import { useEffect, useMemo, useRef, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { StatusDot } from '../components/StatusDot'
 import { btnPrimary, btnSecondary, h1, page } from '../components/ui'
-import type { Measurement } from '../contract/types'
 import { listMeasurements } from '../db/repo'
 import { formatDelay } from '../lib/environments'
 import { buildPacket, packetFilename, type Packet } from '../lib/packet'
@@ -46,41 +45,51 @@ function download(packet: Packet, crewId: string, now: Date) {
   URL.revokeObjectURL(url)
 }
 
-/** Counts a transmission down from the one-way delay. Resets whenever the delay changes. */
-function useTransmission(delaySec: number) {
-  const [remaining, setRemaining] = useState<number | null>(null)
-  const timer = useRef<ReturnType<typeof setInterval> | null>(null)
+type Transmission = { remaining: number; delaySec: number; arrivalText: string }
 
-  useEffect(() => setRemaining(null), [delaySec])
+/**
+ * Counts one simulated transmission down from the one-way delay. A transmission started under a
+ * different delay is discarded during render, so changing environment mid-countdown cannot leave
+ * a stale clock on screen.
+ */
+function useTransmission(delaySec: number) {
+  const [sent, setSent] = useState<Transmission | null>(null)
+  const active = sent && sent.delaySec === delaySec ? sent : null
 
   useEffect(() => {
-    if (remaining === null || remaining <= 0) return
-    timer.current = setInterval(() => setRemaining((r) => (r === null ? null : Math.max(0, r - 1))), 1000)
-    return () => {
-      if (timer.current) clearInterval(timer.current)
-    }
-  }, [remaining])
+    if (active === null || active.remaining <= 0) return
+    const timer = setInterval(() => setSent((s) => (s === null ? null : { ...s, remaining: Math.max(0, s.remaining - 1) })), 1000)
+    return () => clearInterval(timer)
+  }, [active])
 
-  return { remaining, send: () => setRemaining(Math.round(delaySec)), cancel: () => setRemaining(null) }
+  const send = () => {
+    const seconds = Math.round(delaySec)
+    setSent({ remaining: seconds, delaySec, arrivalText: new Date(Date.now() + seconds * 1000).toLocaleTimeString() })
+  }
+
+  return { transmission: active, send, cancel: () => setSent(null) }
 }
 
 export function Escalation() {
   const { crewId, currentCrew, dataVersion, delaySec, environment } = useApp()
-  const [measurements, setMeasurements] = useState<Measurement[] | null>(null)
-  const { remaining, send, cancel } = useTransmission(delaySec)
+  const [built, setBuilt] = useState<{ packet: Packet; now: Date } | null>(null)
+  const { transmission, send, cancel } = useTransmission(delaySec)
+  const remaining = transmission?.remaining ?? null
 
+  // Built in the effect, not in render: one timestamp per data load, shared by the packet and its filename.
   useEffect(() => {
     let cancelled = false
-    void listMeasurements(crewId).then((rows) => !cancelled && setMeasurements(rows))
+    void listMeasurements(crewId).then((measurements) => {
+      if (cancelled) return
+      const now = new Date()
+      setBuilt({ packet: buildPacket({ crewId, measurements, now }), now })
+    })
     return () => {
       cancelled = true
     }
   }, [crewId, dataVersion])
 
-  // One timestamp per data load, so the packet and its filename agree with each other.
-  const packet = useMemo(() => (measurements === null ? null : buildPacket({ crewId, measurements, now: new Date() })), [measurements, crewId])
-
-  const arrival = remaining !== null && remaining > 0 ? new Date(Date.now() + remaining * 1000) : null
+  const packet = built?.packet ?? null
 
   return (
     <main className={page}>
@@ -162,7 +171,7 @@ export function Escalation() {
               <button className={btnPrimary} onClick={send} disabled={remaining !== null}>
                 Send to flight surgeon (simulated)
               </button>
-              <button className={btnSecondary} onClick={() => download(packet, crewId, new Date())}>
+              <button className={btnSecondary} onClick={() => built && download(built.packet, crewId, built.now)}>
                 Download JSON
               </button>
               {remaining !== null && (
@@ -185,7 +194,7 @@ export function Escalation() {
                   </span>
                   <br />
                   <span className="text-muted">
-                    Ground receives it around {arrival?.toLocaleTimeString()}. A reply cannot come back in less than another{' '}
+                    Ground receives it around {transmission?.arrivalText}. A reply cannot come back in less than another{' '}
                     {formatDelay(delaySec)}.
                   </span>
                 </p>
