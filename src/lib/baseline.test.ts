@@ -13,6 +13,11 @@ describe('computeBaseline', () => {
     expect(b.sd).toBeCloseTo(2.138, 3)
   })
 
+  test('natural variability is not swallowed by the floor: a body temperature baseline keeps its small spread', () => {
+    const temps = Array.from({ length: 30 }, (_, i) => 36.6 + ((i % 5) - 2) * 0.1) // 36.4 to 36.8
+    expect(computeBaseline(temps)!.sd).toBeLessThan(0.4)
+  })
+
   test('floors sd so a perfectly flat history does not divide by zero', () => {
     const b = computeBaseline([60, 60, 60, 60, 60])!
     expect(b.sd).toBeGreaterThan(0)

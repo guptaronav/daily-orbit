@@ -1,0 +1,1594 @@
+{
+ "source": {
+  "name": "NASA Life Sciences Data Archive: bed rest Case Report Forms, Campaign 3",
+  "doi": "10.83263/wjw1-ta27",
+  "archiveStatus": "Data preservation is complete. All datasets are publicly available. (NLSP metadata for this record)",
+  "participant": "analog-1",
+  "note": "One de-identified participant in a head-down-tilt bed-rest spaceflight analog. Dates, subject numbers and comments are removed. This is ground analog data, not in-flight data.",
+  "window": "first 30 days of the participant's record: the end of the pre-bed-rest baseline, then the start of head-down tilt"
+ },
+ "days": [
+  {
+   "day": 0,
+   "phase": "PRE_TEST",
+   "brDay": 12
+  },
+  {
+   "day": 1,
+   "phase": "PRE_TEST",
+   "brDay": 11
+  },
+  {
+   "day": 2,
+   "phase": "PRE_TEST",
+   "brDay": 10
+  },
+  {
+   "day": 3,
+   "phase": "PRE_TEST",
+   "brDay": 9
+  },
+  {
+   "day": 4,
+   "phase": "PRE_TEST",
+   "brDay": 8
+  },
+  {
+   "day": 5,
+   "phase": "PRE_TEST",
+   "brDay": 7
+  },
+  {
+   "day": 6,
+   "phase": "PRE_TEST",
+   "brDay": 6
+  },
+  {
+   "day": 7,
+   "phase": "PRE_TEST",
+   "brDay": 5
+  },
+  {
+   "day": 8,
+   "phase": "PRE_TEST",
+   "brDay": 4
+  },
+  {
+   "day": 9,
+   "phase": "PRE_TEST",
+   "brDay": 3
+  },
+  {
+   "day": 10,
+   "phase": "PRE_TEST",
+   "brDay": 2
+  },
+  {
+   "day": 11,
+   "phase": "PRE_TEST",
+   "brDay": 1
+  },
+  {
+   "day": 12,
+   "phase": "IN_TEST",
+   "brDay": 1
+  },
+  {
+   "day": 13,
+   "phase": "IN_TEST",
+   "brDay": 2
+  },
+  {
+   "day": 14,
+   "phase": "IN_TEST",
+   "brDay": 3
+  },
+  {
+   "day": 15,
+   "phase": "IN_TEST",
+   "brDay": 4
+  },
+  {
+   "day": 16,
+   "phase": "IN_TEST",
+   "brDay": 5
+  },
+  {
+   "day": 17,
+   "phase": "IN_TEST",
+   "brDay": 6
+  },
+  {
+   "day": 18,
+   "phase": "IN_TEST",
+   "brDay": 7
+  },
+  {
+   "day": 19,
+   "phase": "IN_TEST",
+   "brDay": 8
+  },
+  {
+   "day": 20,
+   "phase": "IN_TEST",
+   "brDay": 9
+  },
+  {
+   "day": 21,
+   "phase": "IN_TEST",
+   "brDay": 10
+  },
+  {
+   "day": 22,
+   "phase": "IN_TEST",
+   "brDay": 11
+  },
+  {
+   "day": 23,
+   "phase": "IN_TEST",
+   "brDay": 12
+  },
+  {
+   "day": 24,
+   "phase": "IN_TEST",
+   "brDay": 13
+  },
+  {
+   "day": 25,
+   "phase": "IN_TEST",
+   "brDay": 14
+  },
+  {
+   "day": 26,
+   "phase": "IN_TEST",
+   "brDay": 15
+  },
+  {
+   "day": 27,
+   "phase": "IN_TEST",
+   "brDay": 16
+  },
+  {
+   "day": 28,
+   "phase": "IN_TEST",
+   "brDay": 17
+  },
+  {
+   "day": 29,
+   "phase": "IN_TEST",
+   "brDay": 18
+  }
+ ],
+ "records": [
+  {
+   "day": 0,
+   "indicator": "heartRate",
+   "value": 52,
+   "unit": "bpm",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 0,
+   "indicator": "bloodPressureSys",
+   "value": 112,
+   "unit": "mmHg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 0,
+   "indicator": "bloodPressureDia",
+   "value": 54,
+   "unit": "mmHg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 0,
+   "indicator": "bodyMass",
+   "value": 74.55,
+   "unit": "kg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 0,
+   "indicator": "temperature",
+   "value": 36.5,
+   "unit": "°C",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 0,
+   "indicator": "bowelMovements",
+   "value": 1,
+   "unit": "per day",
+   "dataset": "Campaign 3 Bowel Movement"
+  },
+  {
+   "day": 1,
+   "indicator": "heartRate",
+   "value": 57,
+   "unit": "bpm",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 1,
+   "indicator": "bloodPressureSys",
+   "value": 119,
+   "unit": "mmHg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 1,
+   "indicator": "bloodPressureDia",
+   "value": 61,
+   "unit": "mmHg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 1,
+   "indicator": "bodyMass",
+   "value": 74.55,
+   "unit": "kg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 1,
+   "indicator": "temperature",
+   "value": 36.5,
+   "unit": "°C",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 1,
+   "indicator": "bowelMovements",
+   "value": 1,
+   "unit": "per day",
+   "dataset": "Campaign 3 Bowel Movement"
+  },
+  {
+   "day": 2,
+   "indicator": "heartRate",
+   "value": 60,
+   "unit": "bpm",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 2,
+   "indicator": "bloodPressureSys",
+   "value": 112,
+   "unit": "mmHg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 2,
+   "indicator": "bloodPressureDia",
+   "value": 61,
+   "unit": "mmHg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 2,
+   "indicator": "bodyMass",
+   "value": 74.45,
+   "unit": "kg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 2,
+   "indicator": "temperature",
+   "value": 36.8,
+   "unit": "°C",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 2,
+   "indicator": "bowelMovements",
+   "value": 1,
+   "unit": "per day",
+   "dataset": "Campaign 3 Bowel Movement"
+  },
+  {
+   "day": 3,
+   "indicator": "heartRate",
+   "value": 51,
+   "unit": "bpm",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 3,
+   "indicator": "bloodPressureSys",
+   "value": 122,
+   "unit": "mmHg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 3,
+   "indicator": "bloodPressureDia",
+   "value": 63,
+   "unit": "mmHg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 3,
+   "indicator": "bodyMass",
+   "value": 74,
+   "unit": "kg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 3,
+   "indicator": "temperature",
+   "value": 36.6,
+   "unit": "°C",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 3,
+   "indicator": "bowelMovements",
+   "value": 2,
+   "unit": "per day",
+   "dataset": "Campaign 3 Bowel Movement"
+  },
+  {
+   "day": 4,
+   "indicator": "heartRate",
+   "value": 50,
+   "unit": "bpm",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 4,
+   "indicator": "bloodPressureSys",
+   "value": 112,
+   "unit": "mmHg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 4,
+   "indicator": "bloodPressureDia",
+   "value": 65,
+   "unit": "mmHg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 4,
+   "indicator": "bodyMass",
+   "value": 74.9,
+   "unit": "kg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 4,
+   "indicator": "temperature",
+   "value": 36.7,
+   "unit": "°C",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 4,
+   "indicator": "bowelMovements",
+   "value": 1,
+   "unit": "per day",
+   "dataset": "Campaign 3 Bowel Movement"
+  },
+  {
+   "day": 5,
+   "indicator": "heartRate",
+   "value": 50,
+   "unit": "bpm",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 5,
+   "indicator": "bloodPressureSys",
+   "value": 116,
+   "unit": "mmHg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 5,
+   "indicator": "bloodPressureDia",
+   "value": 61,
+   "unit": "mmHg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 5,
+   "indicator": "bodyMass",
+   "value": 74.95,
+   "unit": "kg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 5,
+   "indicator": "temperature",
+   "value": 36.5,
+   "unit": "°C",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 5,
+   "indicator": "bowelMovements",
+   "value": 1,
+   "unit": "per day",
+   "dataset": "Campaign 3 Bowel Movement"
+  },
+  {
+   "day": 6,
+   "indicator": "heartRate",
+   "value": 56,
+   "unit": "bpm",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 6,
+   "indicator": "bloodPressureSys",
+   "value": 121,
+   "unit": "mmHg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 6,
+   "indicator": "bloodPressureDia",
+   "value": 69,
+   "unit": "mmHg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 6,
+   "indicator": "bodyMass",
+   "value": 74.8,
+   "unit": "kg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 6,
+   "indicator": "temperature",
+   "value": 36.5,
+   "unit": "°C",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 6,
+   "indicator": "bowelMovements",
+   "value": 1,
+   "unit": "per day",
+   "dataset": "Campaign 3 Bowel Movement"
+  },
+  {
+   "day": 7,
+   "indicator": "heartRate",
+   "value": 63,
+   "unit": "bpm",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 7,
+   "indicator": "bloodPressureSys",
+   "value": 121,
+   "unit": "mmHg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 7,
+   "indicator": "bloodPressureDia",
+   "value": 70,
+   "unit": "mmHg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 7,
+   "indicator": "bodyMass",
+   "value": 74.9,
+   "unit": "kg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 7,
+   "indicator": "temperature",
+   "value": 36.5,
+   "unit": "°C",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 7,
+   "indicator": "bowelMovements",
+   "value": 1,
+   "unit": "per day",
+   "dataset": "Campaign 3 Bowel Movement"
+  },
+  {
+   "day": 8,
+   "indicator": "heartRate",
+   "value": 55,
+   "unit": "bpm",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 8,
+   "indicator": "bloodPressureSys",
+   "value": 118,
+   "unit": "mmHg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 8,
+   "indicator": "bloodPressureDia",
+   "value": 65,
+   "unit": "mmHg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 8,
+   "indicator": "bodyMass",
+   "value": 74.8,
+   "unit": "kg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 8,
+   "indicator": "temperature",
+   "value": 36.7,
+   "unit": "°C",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 8,
+   "indicator": "bowelMovements",
+   "value": 1,
+   "unit": "per day",
+   "dataset": "Campaign 3 Bowel Movement"
+  },
+  {
+   "day": 9,
+   "indicator": "heartRate",
+   "value": 53,
+   "unit": "bpm",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 9,
+   "indicator": "bloodPressureSys",
+   "value": 117,
+   "unit": "mmHg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 9,
+   "indicator": "bloodPressureDia",
+   "value": 54,
+   "unit": "mmHg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 9,
+   "indicator": "bodyMass",
+   "value": 75,
+   "unit": "kg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 9,
+   "indicator": "temperature",
+   "value": 36.8,
+   "unit": "°C",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 9,
+   "indicator": "bowelMovements",
+   "value": 1,
+   "unit": "per day",
+   "dataset": "Campaign 3 Bowel Movement"
+  },
+  {
+   "day": 10,
+   "indicator": "heartRate",
+   "value": 57,
+   "unit": "bpm",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 10,
+   "indicator": "bloodPressureSys",
+   "value": 118,
+   "unit": "mmHg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 10,
+   "indicator": "bloodPressureDia",
+   "value": 64,
+   "unit": "mmHg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 10,
+   "indicator": "bodyMass",
+   "value": 75.2,
+   "unit": "kg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 10,
+   "indicator": "temperature",
+   "value": 36.7,
+   "unit": "°C",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 10,
+   "indicator": "bowelMovements",
+   "value": 1,
+   "unit": "per day",
+   "dataset": "Campaign 3 Bowel Movement"
+  },
+  {
+   "day": 11,
+   "indicator": "heartRate",
+   "value": 53,
+   "unit": "bpm",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 11,
+   "indicator": "bloodPressureSys",
+   "value": 118,
+   "unit": "mmHg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 11,
+   "indicator": "bloodPressureDia",
+   "value": 59,
+   "unit": "mmHg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 11,
+   "indicator": "bodyMass",
+   "value": 75.1,
+   "unit": "kg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 11,
+   "indicator": "temperature",
+   "value": 36.5,
+   "unit": "°C",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 11,
+   "indicator": "bowelMovements",
+   "value": 1,
+   "unit": "per day",
+   "dataset": "Campaign 3 Bowel Movement"
+  },
+  {
+   "day": 12,
+   "indicator": "heartRate",
+   "value": 53,
+   "unit": "bpm",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 12,
+   "indicator": "bloodPressureSys",
+   "value": 119,
+   "unit": "mmHg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 12,
+   "indicator": "bloodPressureDia",
+   "value": 67,
+   "unit": "mmHg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 12,
+   "indicator": "bodyMass",
+   "value": 74.75,
+   "unit": "kg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 12,
+   "indicator": "temperature",
+   "value": 36.5,
+   "unit": "°C",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 12,
+   "indicator": "bowelMovements",
+   "value": 3,
+   "unit": "per day",
+   "dataset": "Campaign 3 Bowel Movement"
+  },
+  {
+   "day": 12,
+   "indicator": "exerciseMinutes",
+   "value": 15,
+   "unit": "min",
+   "dataset": "Campaign 3 Stretch Log"
+  },
+  {
+   "day": 13,
+   "indicator": "heartRate",
+   "value": 48,
+   "unit": "bpm",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 13,
+   "indicator": "bloodPressureSys",
+   "value": 107,
+   "unit": "mmHg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 13,
+   "indicator": "bloodPressureDia",
+   "value": 56,
+   "unit": "mmHg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 13,
+   "indicator": "bodyMass",
+   "value": 74.15,
+   "unit": "kg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 13,
+   "indicator": "temperature",
+   "value": 36.5,
+   "unit": "°C",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 13,
+   "indicator": "bowelMovements",
+   "value": 2,
+   "unit": "per day",
+   "dataset": "Campaign 3 Bowel Movement"
+  },
+  {
+   "day": 13,
+   "indicator": "exerciseMinutes",
+   "value": 34,
+   "unit": "min",
+   "dataset": "Campaign 3 Stretch Log"
+  },
+  {
+   "day": 14,
+   "indicator": "heartRate",
+   "value": 52,
+   "unit": "bpm",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 14,
+   "indicator": "bloodPressureSys",
+   "value": 118,
+   "unit": "mmHg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 14,
+   "indicator": "bloodPressureDia",
+   "value": 72,
+   "unit": "mmHg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 14,
+   "indicator": "bodyMass",
+   "value": 73.32,
+   "unit": "kg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 14,
+   "indicator": "temperature",
+   "value": 36.8,
+   "unit": "°C",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 14,
+   "indicator": "bowelMovements",
+   "value": 3,
+   "unit": "per day",
+   "dataset": "Campaign 3 Bowel Movement"
+  },
+  {
+   "day": 14,
+   "indicator": "exerciseMinutes",
+   "value": 32,
+   "unit": "min",
+   "dataset": "Campaign 3 Stretch Log"
+  },
+  {
+   "day": 15,
+   "indicator": "heartRate",
+   "value": 67,
+   "unit": "bpm",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 15,
+   "indicator": "bloodPressureSys",
+   "value": 120,
+   "unit": "mmHg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 15,
+   "indicator": "bloodPressureDia",
+   "value": 63,
+   "unit": "mmHg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 15,
+   "indicator": "bodyMass",
+   "value": 73.1,
+   "unit": "kg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 15,
+   "indicator": "temperature",
+   "value": 36.7,
+   "unit": "°C",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 15,
+   "indicator": "bowelMovements",
+   "value": 1,
+   "unit": "per day",
+   "dataset": "Campaign 3 Bowel Movement"
+  },
+  {
+   "day": 15,
+   "indicator": "exerciseMinutes",
+   "value": 42,
+   "unit": "min",
+   "dataset": "Campaign 3 Stretch Log"
+  },
+  {
+   "day": 16,
+   "indicator": "heartRate",
+   "value": 53,
+   "unit": "bpm",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 16,
+   "indicator": "bloodPressureSys",
+   "value": 116,
+   "unit": "mmHg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 16,
+   "indicator": "bloodPressureDia",
+   "value": 62,
+   "unit": "mmHg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 16,
+   "indicator": "bodyMass",
+   "value": 73.4,
+   "unit": "kg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 16,
+   "indicator": "temperature",
+   "value": 36.6,
+   "unit": "°C",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 16,
+   "indicator": "bowelMovements",
+   "value": 1,
+   "unit": "per day",
+   "dataset": "Campaign 3 Bowel Movement"
+  },
+  {
+   "day": 16,
+   "indicator": "exerciseMinutes",
+   "value": 41,
+   "unit": "min",
+   "dataset": "Campaign 3 Stretch Log"
+  },
+  {
+   "day": 17,
+   "indicator": "heartRate",
+   "value": 55,
+   "unit": "bpm",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 17,
+   "indicator": "bloodPressureSys",
+   "value": 123,
+   "unit": "mmHg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 17,
+   "indicator": "bloodPressureDia",
+   "value": 71,
+   "unit": "mmHg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 17,
+   "indicator": "bodyMass",
+   "value": 73.4,
+   "unit": "kg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 17,
+   "indicator": "temperature",
+   "value": 36.6,
+   "unit": "°C",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 17,
+   "indicator": "bowelMovements",
+   "value": 1,
+   "unit": "per day",
+   "dataset": "Campaign 3 Bowel Movement"
+  },
+  {
+   "day": 17,
+   "indicator": "exerciseMinutes",
+   "value": 40,
+   "unit": "min",
+   "dataset": "Campaign 3 Stretch Log"
+  },
+  {
+   "day": 18,
+   "indicator": "heartRate",
+   "value": 56,
+   "unit": "bpm",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 18,
+   "indicator": "bloodPressureSys",
+   "value": 113,
+   "unit": "mmHg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 18,
+   "indicator": "bloodPressureDia",
+   "value": 60,
+   "unit": "mmHg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 18,
+   "indicator": "bodyMass",
+   "value": 73.15,
+   "unit": "kg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 18,
+   "indicator": "temperature",
+   "value": 36.6,
+   "unit": "°C",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 18,
+   "indicator": "bowelMovements",
+   "value": 1,
+   "unit": "per day",
+   "dataset": "Campaign 3 Bowel Movement"
+  },
+  {
+   "day": 18,
+   "indicator": "exerciseMinutes",
+   "value": 36,
+   "unit": "min",
+   "dataset": "Campaign 3 Stretch Log"
+  },
+  {
+   "day": 19,
+   "indicator": "heartRate",
+   "value": 50,
+   "unit": "bpm",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 19,
+   "indicator": "bloodPressureSys",
+   "value": 122,
+   "unit": "mmHg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 19,
+   "indicator": "bloodPressureDia",
+   "value": 66,
+   "unit": "mmHg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 19,
+   "indicator": "bodyMass",
+   "value": 73.25,
+   "unit": "kg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 19,
+   "indicator": "temperature",
+   "value": 36.6,
+   "unit": "°C",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 19,
+   "indicator": "bowelMovements",
+   "value": 1,
+   "unit": "per day",
+   "dataset": "Campaign 3 Bowel Movement"
+  },
+  {
+   "day": 19,
+   "indicator": "exerciseMinutes",
+   "value": 51,
+   "unit": "min",
+   "dataset": "Campaign 3 Stretch Log"
+  },
+  {
+   "day": 19,
+   "indicator": "symptomReport",
+   "value": {
+    "symptoms": [
+     "headache"
+    ]
+   },
+   "unit": "symptoms",
+   "dataset": "Campaign 3 Symptom Complaint"
+  },
+  {
+   "day": 20,
+   "indicator": "heartRate",
+   "value": 54,
+   "unit": "bpm",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 20,
+   "indicator": "bloodPressureSys",
+   "value": 116,
+   "unit": "mmHg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 20,
+   "indicator": "bloodPressureDia",
+   "value": 69,
+   "unit": "mmHg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 20,
+   "indicator": "bodyMass",
+   "value": 73.15,
+   "unit": "kg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 20,
+   "indicator": "temperature",
+   "value": 36.6,
+   "unit": "°C",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 20,
+   "indicator": "bowelMovements",
+   "value": 2,
+   "unit": "per day",
+   "dataset": "Campaign 3 Bowel Movement"
+  },
+  {
+   "day": 20,
+   "indicator": "exerciseMinutes",
+   "value": 42,
+   "unit": "min",
+   "dataset": "Campaign 3 Stretch Log"
+  },
+  {
+   "day": 20,
+   "indicator": "symptomReport",
+   "value": {
+    "symptoms": [
+     "other"
+    ]
+   },
+   "unit": "symptoms",
+   "dataset": "Campaign 3 Symptom Complaint"
+  },
+  {
+   "day": 21,
+   "indicator": "heartRate",
+   "value": 63,
+   "unit": "bpm",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 21,
+   "indicator": "bloodPressureSys",
+   "value": 126,
+   "unit": "mmHg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 21,
+   "indicator": "bloodPressureDia",
+   "value": 73,
+   "unit": "mmHg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 21,
+   "indicator": "bodyMass",
+   "value": 72.65,
+   "unit": "kg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 21,
+   "indicator": "temperature",
+   "value": 36.8,
+   "unit": "°C",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 21,
+   "indicator": "bowelMovements",
+   "value": 1,
+   "unit": "per day",
+   "dataset": "Campaign 3 Bowel Movement"
+  },
+  {
+   "day": 21,
+   "indicator": "exerciseMinutes",
+   "value": 35,
+   "unit": "min",
+   "dataset": "Campaign 3 Stretch Log"
+  },
+  {
+   "day": 22,
+   "indicator": "heartRate",
+   "value": 53,
+   "unit": "bpm",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 22,
+   "indicator": "bloodPressureSys",
+   "value": 113,
+   "unit": "mmHg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 22,
+   "indicator": "bloodPressureDia",
+   "value": 73,
+   "unit": "mmHg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 22,
+   "indicator": "bodyMass",
+   "value": 72.75,
+   "unit": "kg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 22,
+   "indicator": "temperature",
+   "value": 36.7,
+   "unit": "°C",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 22,
+   "indicator": "bowelMovements",
+   "value": 1,
+   "unit": "per day",
+   "dataset": "Campaign 3 Bowel Movement"
+  },
+  {
+   "day": 22,
+   "indicator": "exerciseMinutes",
+   "value": 39,
+   "unit": "min",
+   "dataset": "Campaign 3 Stretch Log"
+  },
+  {
+   "day": 23,
+   "indicator": "heartRate",
+   "value": 59,
+   "unit": "bpm",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 23,
+   "indicator": "bloodPressureSys",
+   "value": 129,
+   "unit": "mmHg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 23,
+   "indicator": "bloodPressureDia",
+   "value": 70,
+   "unit": "mmHg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 23,
+   "indicator": "bodyMass",
+   "value": 72.05,
+   "unit": "kg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 23,
+   "indicator": "temperature",
+   "value": 36.5,
+   "unit": "°C",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 23,
+   "indicator": "bowelMovements",
+   "value": 1,
+   "unit": "per day",
+   "dataset": "Campaign 3 Bowel Movement"
+  },
+  {
+   "day": 23,
+   "indicator": "exerciseMinutes",
+   "value": 35,
+   "unit": "min",
+   "dataset": "Campaign 3 Stretch Log"
+  },
+  {
+   "day": 24,
+   "indicator": "heartRate",
+   "value": 55,
+   "unit": "bpm",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 24,
+   "indicator": "bloodPressureSys",
+   "value": 114,
+   "unit": "mmHg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 24,
+   "indicator": "bloodPressureDia",
+   "value": 68,
+   "unit": "mmHg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 24,
+   "indicator": "bodyMass",
+   "value": 72.5,
+   "unit": "kg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 24,
+   "indicator": "temperature",
+   "value": 36.5,
+   "unit": "°C",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 24,
+   "indicator": "bowelMovements",
+   "value": 1,
+   "unit": "per day",
+   "dataset": "Campaign 3 Bowel Movement"
+  },
+  {
+   "day": 24,
+   "indicator": "exerciseMinutes",
+   "value": 40,
+   "unit": "min",
+   "dataset": "Campaign 3 Stretch Log"
+  },
+  {
+   "day": 25,
+   "indicator": "heartRate",
+   "value": 57,
+   "unit": "bpm",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 25,
+   "indicator": "bloodPressureSys",
+   "value": 118,
+   "unit": "mmHg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 25,
+   "indicator": "bloodPressureDia",
+   "value": 74,
+   "unit": "mmHg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 25,
+   "indicator": "bodyMass",
+   "value": 72.4,
+   "unit": "kg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 25,
+   "indicator": "temperature",
+   "value": 37,
+   "unit": "°C",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 25,
+   "indicator": "bowelMovements",
+   "value": 0,
+   "unit": "per day",
+   "dataset": "Campaign 3 Bowel Movement"
+  },
+  {
+   "day": 25,
+   "indicator": "exerciseMinutes",
+   "value": 32,
+   "unit": "min",
+   "dataset": "Campaign 3 Stretch Log"
+  },
+  {
+   "day": 26,
+   "indicator": "heartRate",
+   "value": 56,
+   "unit": "bpm",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 26,
+   "indicator": "bloodPressureSys",
+   "value": 121,
+   "unit": "mmHg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 26,
+   "indicator": "bloodPressureDia",
+   "value": 61,
+   "unit": "mmHg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 26,
+   "indicator": "bodyMass",
+   "value": 72.4,
+   "unit": "kg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 26,
+   "indicator": "temperature",
+   "value": 36.6,
+   "unit": "°C",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 26,
+   "indicator": "bowelMovements",
+   "value": 2,
+   "unit": "per day",
+   "dataset": "Campaign 3 Bowel Movement"
+  },
+  {
+   "day": 26,
+   "indicator": "exerciseMinutes",
+   "value": 37,
+   "unit": "min",
+   "dataset": "Campaign 3 Stretch Log"
+  },
+  {
+   "day": 26,
+   "indicator": "symptomReport",
+   "value": {
+    "symptoms": [
+     "other"
+    ]
+   },
+   "unit": "symptoms",
+   "dataset": "Campaign 3 Symptom Complaint"
+  },
+  {
+   "day": 27,
+   "indicator": "heartRate",
+   "value": 55,
+   "unit": "bpm",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 27,
+   "indicator": "bloodPressureSys",
+   "value": 131,
+   "unit": "mmHg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 27,
+   "indicator": "bloodPressureDia",
+   "value": 70,
+   "unit": "mmHg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 27,
+   "indicator": "bodyMass",
+   "value": 72.4,
+   "unit": "kg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 27,
+   "indicator": "temperature",
+   "value": 36.6,
+   "unit": "°C",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 27,
+   "indicator": "bowelMovements",
+   "value": 1,
+   "unit": "per day",
+   "dataset": "Campaign 3 Bowel Movement"
+  },
+  {
+   "day": 27,
+   "indicator": "exerciseMinutes",
+   "value": 39,
+   "unit": "min",
+   "dataset": "Campaign 3 Stretch Log"
+  },
+  {
+   "day": 27,
+   "indicator": "symptomReport",
+   "value": {
+    "symptoms": [
+     "other"
+    ]
+   },
+   "unit": "symptoms",
+   "dataset": "Campaign 3 Symptom Complaint"
+  },
+  {
+   "day": 28,
+   "indicator": "heartRate",
+   "value": 57,
+   "unit": "bpm",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 28,
+   "indicator": "bloodPressureSys",
+   "value": 120,
+   "unit": "mmHg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 28,
+   "indicator": "bloodPressureDia",
+   "value": 72,
+   "unit": "mmHg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 28,
+   "indicator": "bodyMass",
+   "value": 72.15,
+   "unit": "kg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 28,
+   "indicator": "temperature",
+   "value": 36.6,
+   "unit": "°C",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 28,
+   "indicator": "bowelMovements",
+   "value": 1,
+   "unit": "per day",
+   "dataset": "Campaign 3 Bowel Movement"
+  },
+  {
+   "day": 28,
+   "indicator": "exerciseMinutes",
+   "value": 37,
+   "unit": "min",
+   "dataset": "Campaign 3 Stretch Log"
+  },
+  {
+   "day": 29,
+   "indicator": "heartRate",
+   "value": 55,
+   "unit": "bpm",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 29,
+   "indicator": "bloodPressureSys",
+   "value": 128,
+   "unit": "mmHg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 29,
+   "indicator": "bloodPressureDia",
+   "value": 73,
+   "unit": "mmHg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 29,
+   "indicator": "bodyMass",
+   "value": 72.35,
+   "unit": "kg",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 29,
+   "indicator": "temperature",
+   "value": 36.8,
+   "unit": "°C",
+   "dataset": "Campaign 3 Daily Vitals"
+  },
+  {
+   "day": 29,
+   "indicator": "bowelMovements",
+   "value": 1,
+   "unit": "per day",
+   "dataset": "Campaign 3 Bowel Movement"
+  },
+  {
+   "day": 29,
+   "indicator": "exerciseMinutes",
+   "value": 35,
+   "unit": "min",
+   "dataset": "Campaign 3 Stretch Log"
+  }
+ ]
+}

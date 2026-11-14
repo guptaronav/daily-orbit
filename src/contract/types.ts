@@ -18,6 +18,7 @@ export const INDICATORS = [
   'appetite',
   'digestiveComfort',
   'bodyMass',
+  'bowelMovements',
 ] as const
 
 export type Indicator = (typeof INDICATORS)[number]
@@ -86,7 +87,7 @@ export type Threshold = {
   source: string
 }
 
-export type DataLabel = 'Simulated data' | 'NASA bed-rest analog data, de-identified'
+export type DataLabel = 'Simulated data' | 'NASA bed-rest analog data, de-identified' | 'NASA bed-rest analog data, de-identified (partly simulated)'
 
 export type CrewMember = {
   id: string
