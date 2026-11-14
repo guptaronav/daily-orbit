@@ -32,7 +32,10 @@ function Shell() {
   return (
     <div className="flex min-h-screen flex-col">
       {screen !== 'landing' && <TopBar />}
-      <Screen />
+      {/* Target for the TopBar's "Skip to content" link (A1 accessibility pass). */}
+      <div id="main" tabIndex={-1} className="flex flex-1 flex-col outline-none">
+        <Screen />
+      </div>
       <Footer />
     </div>
   )

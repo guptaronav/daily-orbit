@@ -1,18 +1,40 @@
 @import "tailwindcss";
 
-/* Flight-manual palette: warm paper, ink, one NASA-blue accent. Status colors are semantic only. */
+/*
+ * Flight-manual palette: warm paper, ink, one NASA-blue accent, hairline rules.
+ * Status colors are semantic only (green within baseline, yellow watch, red act, gray no good data)
+ * and are never the only signal: the status word is always shown next to the swatch.
+ *
+ * Each status has two tokens: the *swatch* value (used for fills and figure regions) and an
+ * *-ink* value dark enough for AA text contrast on paper. Never set small text to a swatch value.
+ */
 @theme static {
   --color-ink: #14181f;
+  --color-ink-soft: #2b323d;
   --color-paper: #f3f1ea;
+  --color-paper-deep: #e8e4d8;
   --color-panel: #fbfaf6;
   --color-rule: #cdc8b8;
+  --color-rule-strong: #a49c88;
   --color-muted: #5b6270;
   --color-accent: #0b3d91;
+  --color-accent-wash: #e4e9f3;
+
   --color-ok: #2f7d4f;
+  --color-ok-ink: #1b5b33;
   --color-watch: #b7791f;
+  --color-watch-ink: #7a4f00;
   --color-act: #b3261e;
+  --color-act-ink: #8c1d18;
   --color-nodata: #8a8f98;
+  --color-nodata-ink: #5b6270;
+
   --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+
+  /* One deliberate scale. Headings step hard; labels stay small and wide-tracked. */
+  --text-micro: 0.6875rem;
+  --text-hero: clamp(2.5rem, 7vw, 4.5rem);
+  --text-value: clamp(1.75rem, 4.5vw, 2.5rem);
 }
 
 html,
@@ -27,6 +49,7 @@ body {
   font-family: var(--font-sans);
   font-variant-numeric: tabular-nums;
   margin: 0;
+  -webkit-text-size-adjust: 100%;
 }
 
 :focus-visible {
@@ -34,17 +57,209 @@ body {
   outline-offset: 2px;
 }
 
-/* Body figure regions: keyboard focus and hover are drawn on the shapes (outline on <g> is unreliable). */
+/* Nothing in this app animates further than a nudge, and nothing animates under reduced motion. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@layer components {
+  /* ---- Type roles ------------------------------------------------------- */
+
+  /* Wide-tracked micro caps: the printed-form label above a field or a number. */
+  .label {
+    font-size: var(--text-micro);
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--color-muted);
+  }
+
+  /* The hero of every card: the number you came to read. */
+  .value {
+    font-size: var(--text-value);
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .value-unit {
+    font-size: 0.875rem;
+    font-weight: 500;
+    letter-spacing: 0;
+    color: var(--color-muted);
+  }
+
+  /* ---- Surfaces -------------------------------------------------------- */
+
+  .panel {
+    background: var(--color-panel);
+    border: 1px solid var(--color-rule);
+  }
+
+  /* Faint ruled-paper texture. Used sparingly (landing hero, medical grid header). */
+  .ruled {
+    background-image: repeating-linear-gradient(
+      to bottom,
+      transparent 0,
+      transparent 31px,
+      color-mix(in srgb, var(--color-rule) 45%, transparent) 31px,
+      color-mix(in srgb, var(--color-rule) 45%, transparent) 32px
+    );
+  }
+
+  /* ---- Buttons: three weights, every state designed ---------------------- */
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    min-height: 44px; /* touch target floor */
+    padding: 0.6rem 1.25rem;
+    border: 1px solid transparent;
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.2;
+    text-align: center;
+    cursor: pointer;
+    transition:
+      background-color 120ms ease,
+      color 120ms ease,
+      border-color 120ms ease,
+      transform 80ms ease;
+  }
+
+  .btn:active:not(:disabled) {
+    transform: translateY(1px);
+  }
+
+  .btn:disabled {
+    cursor: not-allowed;
+    opacity: 0.45;
+  }
+
+  .btn-primary {
+    background: var(--color-accent);
+    border-color: var(--color-accent);
+    color: #fff;
+  }
+
+  .btn-primary:hover:not(:disabled) {
+    background: var(--color-ink);
+    border-color: var(--color-ink);
+  }
+
+  .btn-secondary {
+    background: transparent;
+    border-color: var(--color-ink);
+    color: var(--color-ink);
+  }
+
+  .btn-secondary:hover:not(:disabled) {
+    background: var(--color-ink);
+    color: var(--color-paper);
+  }
+
+  /* Quiet third weight for in-page navigation ("All regions", "Reset demo"). */
+  .btn-quiet {
+    min-height: 44px;
+    padding: 0.5rem 0;
+    font-size: 0.875rem;
+    color: var(--color-accent);
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    cursor: pointer;
+    background: none;
+    border: 0;
+    transition: color 120ms ease;
+  }
+
+  .btn-quiet:hover:not(:disabled) {
+    color: var(--color-ink);
+  }
+
+  .btn-quiet:disabled {
+    cursor: not-allowed;
+    opacity: 0.45;
+  }
+
+  /* ---- Fields ----------------------------------------------------------- */
+
+  .field {
+    min-height: 44px;
+    width: 100%;
+    background: var(--color-paper);
+    border: 1px solid var(--color-rule-strong);
+    padding: 0.5rem 0.65rem;
+    color: var(--color-ink);
+    font: inherit;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .field:hover:not(:disabled) {
+    border-color: var(--color-ink-soft);
+  }
+
+  .field[aria-invalid="true"] {
+    border-color: var(--color-act-ink);
+    border-width: 2px;
+  }
+
+  /* ---- Cards ------------------------------------------------------------ */
+
+  .card {
+    background: var(--color-panel);
+    border: 1px solid var(--color-rule);
+    transition:
+      border-color 120ms ease,
+      transform 120ms ease;
+  }
+
+  /* A card that is itself a control. */
+  .card-action {
+    display: block;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+  }
+
+  .card-action:hover {
+    border-color: var(--color-ink);
+    transform: translateY(-2px);
+  }
+
+  .card-action:focus-visible {
+    border-color: var(--color-accent);
+  }
+}
+
+/* ---- Body figure regions ------------------------------------------------
+ * Focus and hover are drawn on the shapes themselves: an outline on a <g> is unreliable.
+ */
 .region {
   cursor: pointer;
 }
 .region .shape {
   stroke: var(--color-ink);
-  stroke-width: 1.5;
-  transition: stroke-width 150ms;
+  stroke-width: 1.25;
+  transition:
+    stroke-width 150ms ease,
+    fill-opacity 150ms ease;
+}
+.region .hit {
+  fill: none;
+  pointer-events: all;
 }
 .region:hover .shape {
-  stroke-width: 3;
+  stroke-width: 2.75;
 }
 .region:focus-visible {
   outline: none;
@@ -52,10 +267,12 @@ body {
 .region:focus-visible .shape,
 .region[aria-pressed="true"] .shape {
   stroke: var(--color-accent);
-  stroke-width: 3.5;
+  stroke-width: 3;
 }
-@media (prefers-reduced-motion: reduce) {
-  .region .shape {
-    transition: none;
-  }
+/* Non-interactive copies of the figure (the all-crew grid) must not look clickable. */
+.figure-static .region {
+  cursor: default;
+}
+.figure-static .region:hover .shape {
+  stroke-width: 1.25;
 }

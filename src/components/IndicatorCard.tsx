@@ -2,7 +2,7 @@ import { getThreshold } from '../config/thresholds'
 import type { IndicatorReading } from '../lib/bodyStatus'
 import { getContent, isTodo } from '../lib/content'
 import { formatValue } from '../lib/format'
-import { StatusDot } from './StatusDot'
+import { STATUS_TEXT, StatusDot } from './StatusDot'
 import { TrendChart } from './TrendChart'
 
 const QUESTIONS = [
@@ -17,56 +17,94 @@ function Text({ value }: { value: string }) {
   return <span className={isTodo(value) ? 'text-muted italic' : ''}>{value}</span>
 }
 
+/** Splits "62 bpm" into hero number and quiet unit so the number can carry the card. */
+function HeroValue({ text }: { text: string }) {
+  const match = /^(-?[\d.]+(?:\s*\/\s*10)?)\s*(.*)$/.exec(text)
+  if (!match) return <span className="value">{text}</span>
+  return (
+    <span className="value">
+      {match[1]}
+      {match[2] && <span className="value-unit"> {match[2]}</span>}
+    </span>
+  )
+}
+
 export function IndicatorCard({ reading }: { reading: IndicatorReading }) {
   const content = getContent(reading.indicator)
   const threshold = getThreshold(reading.indicator)
   const { latest } = reading
 
   return (
-    <article className="border border-rule bg-panel p-5" aria-labelledby={`card-${content.id}`}>
-      <header className="flex flex-wrap items-baseline justify-between gap-2">
-        <h3 id={`card-${content.id}`} className="text-lg font-semibold tracking-tight">
-          {content.label}
-        </h3>
-        <StatusDot status={reading.status} />
+    <article className="card p-5 sm:p-6" aria-labelledby={`card-${content.id}`}>
+      {/* The number is the hero; the label sits above it as a quiet caption. */}
+      <header className="flex flex-wrap items-start justify-between gap-x-6 gap-y-3 border-b border-rule pb-4">
+        <div className="min-w-0">
+          <h3 id={`card-${content.id}`} className="label">
+            {content.label}
+          </h3>
+          <p className="mt-1.5">
+            {latest ? <HeroValue text={formatValue(latest)} /> : <span className="value text-nodata-ink">—</span>}
+          </p>
+          {!latest && <p className="mt-1 text-sm text-muted">No reading has passed the quality check yet.</p>}
+        </div>
+        <div className="shrink-0 text-right">
+          <StatusDot status={reading.status} size="md" />
+          {reading.baseline && (
+            <p className="mt-1.5 text-xs text-muted">
+              baseline {reading.baseline.mean.toFixed(1)} ± {reading.baseline.sd.toFixed(1)} {content.unit} (n={reading.baseline.n})
+            </p>
+          )}
+          {!reading.baseline && latest && <p className="mt-1.5 text-xs text-muted">no baseline yet (needs 5 readings)</p>}
+        </div>
       </header>
 
-      <div className="mt-3 grid gap-x-8 gap-y-1 text-sm sm:grid-cols-2">
-        <p>
-          <span className="text-muted">Latest </span>
-          <span className="text-2xl font-semibold">{latest ? formatValue(latest) : 'No good reading'}</span>
+      {latest && (
+        <dl className="mt-4 grid grid-cols-2 gap-x-6 gap-y-3 text-sm sm:grid-cols-4">
+          <div>
+            <dt className="label">Quality</dt>
+            <dd className="mt-0.5" style={{ color: latest.quality.passed ? undefined : STATUS_TEXT.gray }}>
+              {Math.round(latest.quality.score * 100)}%
+            </dd>
+          </div>
+          <div>
+            <dt className="label">Source</dt>
+            <dd className="mt-0.5">{latest.source}</dd>
+          </div>
+          <div>
+            <dt className="label">Taken</dt>
+            <dd className="mt-0.5">{new Date(latest.timestamp).toLocaleDateString()}</dd>
+          </div>
+          <div>
+            <dt className="label">Clinical threshold</dt>
+            <dd className="mt-0.5">{threshold.value === null ? 'not set' : `${threshold.value} ${threshold.unit}`}</dd>
+          </div>
+        </dl>
+      )}
+
+      {reading.failedCount > 0 && (
+        <p className="mt-3 border-l-2 border-nodata pl-3 text-xs text-muted">
+          {reading.failedCount} reading(s) failed the quality check and are excluded from the status and the baseline.
         </p>
-        {latest && (
-          <p className="text-muted">
-            Quality {Math.round(latest.quality.score * 100)}% · {latest.source} · {new Date(latest.timestamp).toLocaleDateString()}
-          </p>
-        )}
-        {reading.baseline && (
-          <p className="text-muted">
-            Your baseline {reading.baseline.mean.toFixed(1)} ± {reading.baseline.sd.toFixed(1)} {content.unit}
-          </p>
-        )}
-        {reading.failedCount > 0 && <p className="text-muted">{reading.failedCount} reading(s) failed quality and are excluded.</p>}
-        <p className="text-muted">Clinical threshold: {threshold.value === null ? 'threshold not set' : `${threshold.value} ${threshold.unit}`}</p>
+      )}
+
+      <div className="mt-5">
+        <TrendChart history={reading.history} baseline={reading.baseline} unit={content.unit} status={reading.status} />
       </div>
 
-      <div className="mt-4">
-        <TrendChart history={reading.history} baseline={reading.baseline} unit={content.unit} />
-      </div>
-
-      <dl className="mt-5 space-y-3 text-sm">
+      <dl className="mt-6 grid gap-x-8 gap-y-4 text-sm sm:grid-cols-2">
         {QUESTIONS.map(([key, question]) => (
           <div key={key}>
             <dt className="font-medium">{question}</dt>
-            <dd className="mt-0.5 text-ink/80">
+            <dd className="mt-1 text-ink-soft">
               <Text value={content[key]} />
             </dd>
           </div>
         ))}
       </dl>
 
-      <p className="mt-5 border-l-4 border-accent pl-3 text-sm">
-        <span className="font-medium">Recommended action: </span>
+      <p className="mt-6 border-l-[3px] border-accent bg-accent-wash px-3 py-2.5 text-sm">
+        <span className="label">Recommended action</span>
+        <br />
         <Text value={content.recommendedAction} />
       </p>
 
