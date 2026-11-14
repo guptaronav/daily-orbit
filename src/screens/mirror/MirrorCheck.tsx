@@ -2,20 +2,31 @@ import { useState } from 'react'
 import { saveSession } from '../../db/repo'
 import type { MirrorSession } from '../../lib/session'
 import { useApp } from '../../state/AppContext'
+import { CameraCheck, type CameraResult } from './CameraCheck'
 import { Summary } from './Summary'
 import { Symptoms, type SymptomResult } from './Symptoms'
 import { Vision, type VisionResult } from './Vision'
 
-// 'position' and 'capture' (webcam heart rate + blink) are added in plan Task 8.
-type Step = 'vision' | 'symptoms' | 'summary'
+type Step = 'camera' | 'vision' | 'symptoms' | 'summary'
 
 const newSession = (retook = false): MirrorSession => ({ sessionId: crypto.randomUUID(), ...(retook ? { retookAfterQualityFail: true } : {}) })
 
 export function MirrorCheck() {
   const { crewId, go, refresh } = useApp()
-  const [step, setStep] = useState<Step>('vision')
+  const [step, setStep] = useState<Step>('camera')
   const [session, setSession] = useState<MirrorSession>(() => newSession())
   const [saving, setSaving] = useState(false)
+
+  const onCamera = ({ analysis, selfReport, source }: CameraResult) => {
+    const { heartRate, blink } = analysis
+    setSession((s) => ({
+      ...s,
+      selfReport,
+      heartRate: { bpm: heartRate.bpm, quality: heartRate.quality, source },
+      blink: { blinkRate: blink.blinkRate, eyelidClosurePct: blink.eyelidClosurePct, quality: blink.quality, source },
+    }))
+    setStep('vision')
+  }
 
   const onVision = (v: VisionResult) => {
     setSession((s) => ({ ...s, ...v }))
@@ -34,12 +45,13 @@ export function MirrorCheck() {
 
   const retake = () => {
     setSession(newSession(true))
-    setStep('vision')
+    setStep('camera')
   }
 
   return (
     <main className="mx-auto w-full max-w-3xl px-4 py-8 sm:px-8">
       <h1 className="mb-6 text-2xl font-semibold tracking-tight">Mirror check</h1>
+      {step === 'camera' && <CameraCheck onComplete={onCamera} />}
       {step === 'vision' && <Vision onComplete={onVision} />}
       {step === 'symptoms' && <Symptoms onComplete={onSymptoms} busy={saving} />}
       {step === 'summary' && <Summary crewId={crewId} sessionId={session.sessionId} onRetake={retake} onDone={() => go('bodymap')} />}
