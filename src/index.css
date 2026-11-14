@@ -1,19 +1,67 @@
 @import "tailwindcss";
 
 /*
- * Flight-manual palette: warm paper, ink, one NASA-blue accent, hairline rules.
- * Status colors are semantic only (green within baseline, yellow watch, red act, gray no good data)
- * and are never the only signal: the status word is always shown next to the swatch.
+ * FLIGHT DECK — the default theme.
  *
- * Each status has two tokens: the *swatch* value (used for fills and figure regions) and an
- * *-ink* value dark enough for AA text contrast on paper. Never set small text to a swatch value.
+ * Near-black hull, cyan instrument light, one warning amber, one alarm red. The look is a
+ * spacecraft console, not a consumer dashboard: hairline rules, corner brackets, mono micro-labels,
+ * tabular numerals, square corners. No emoji, no confetti, no decorative badges.
+ *
+ * PAPER — the original flight-manual theme, kept behind the theme switch
+ * (`<html data-theme="paper">`). Both themes are built from the same token names, so every
+ * component, including the ones other people own, follows the switch without changing a line.
+ *
+ * Each status has two tokens: the *swatch* value (fills: figure regions, legend squares, chart
+ * marks) and an *-ink* value tuned for AA text contrast against that theme's panel. Never set
+ * small text to a swatch value.
  */
 @theme static {
+  --color-ink: #e6edf7;
+  --color-ink-soft: #aebbd0;
+  --color-paper: #070b12;
+  --color-paper-deep: #04070c;
+  --color-panel: #0d1420;
+  --color-panel-2: #121b2a;
+  --color-rule: #1d2a3d;
+  --color-rule-strong: #35496a;
+  --color-muted: #8896ad;
+  --color-accent: #4cc9f0;
+  --color-accent-wash: #0e2634;
+
+  --color-ok: #2fd39b;
+  --color-ok-ink: #45e0ac;
+  --color-watch: #f2b134;
+  --color-watch-ink: #ffc24d;
+  --color-act: #ff5f56;
+  --color-act-ink: #ff7c74;
+  --color-nodata: #5d6b82;
+  --color-nodata-ink: #93a1b8;
+
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-mono: ui-monospace, "SFMono-Regular", "JetBrains Mono", Menlo, Consolas, monospace;
+
+  /* One deliberate scale. Headings step hard; labels stay small, mono and wide-tracked. */
+  --text-micro: 0.6875rem;
+  --text-hero: clamp(2.5rem, 7vw, 5rem);
+  --text-value: clamp(1.75rem, 4.5vw, 2.75rem);
+}
+
+:root {
+  --glow: 0 0 0 1px color-mix(in srgb, var(--color-accent) 22%, transparent), 0 0 28px -12px var(--color-accent);
+  --panel-grad: linear-gradient(180deg, color-mix(in srgb, var(--color-panel-2) 70%, transparent), var(--color-panel));
+  --star-opacity: 1;
+  --scan-opacity: 0.85;
+  --aura-opacity: 1;
+  color-scheme: dark;
+}
+
+:root[data-theme="paper"] {
   --color-ink: #14181f;
   --color-ink-soft: #2b323d;
   --color-paper: #f3f1ea;
   --color-paper-deep: #e8e4d8;
   --color-panel: #fbfaf6;
+  --color-panel-2: #f6f4ec;
   --color-rule: #cdc8b8;
   --color-rule-strong: #a49c88;
   --color-muted: #5b6270;
@@ -29,12 +77,12 @@
   --color-nodata: #8a8f98;
   --color-nodata-ink: #5b6270;
 
-  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
-
-  /* One deliberate scale. Headings step hard; labels stay small and wide-tracked. */
-  --text-micro: 0.6875rem;
-  --text-hero: clamp(2.5rem, 7vw, 4.5rem);
-  --text-value: clamp(1.75rem, 4.5vw, 2.5rem);
+  --glow: none;
+  --panel-grad: none;
+  --star-opacity: 0;
+  --scan-opacity: 0.16;
+  --aura-opacity: 0.3;
+  color-scheme: light;
 }
 
 html,
@@ -57,6 +105,10 @@ body {
   outline-offset: 2px;
 }
 
+::selection {
+  background: color-mix(in srgb, var(--color-accent) 35%, transparent);
+}
+
 /* Nothing in this app animates further than a nudge, and nothing animates under reduced motion. */
 @media (prefers-reduced-motion: reduce) {
   *,
@@ -72,16 +124,25 @@ body {
 @layer components {
   /* ---- Type roles ------------------------------------------------------- */
 
-  /* Wide-tracked micro caps: the printed-form label above a field or a number. */
+  /* Mono micro caps: the engraved label above a readout. The single strongest console cue. */
   .label {
+    font-family: var(--font-mono);
     font-size: var(--text-micro);
     font-weight: 500;
-    letter-spacing: 0.14em;
+    letter-spacing: 0.16em;
     text-transform: uppercase;
     color: var(--color-muted);
   }
 
-  /* The hero of every card: the number you came to read. */
+  /* A label with the console bullet in front of it. */
+  .label-mark::before {
+    content: "◆";
+    margin-right: 0.5em;
+    color: var(--color-accent);
+    font-size: 0.8em;
+  }
+
+  /* The hero of every panel: the number you came to read. */
   .value {
     font-size: var(--text-value);
     font-weight: 600;
@@ -91,20 +152,53 @@ body {
   }
 
   .value-unit {
-    font-size: 0.875rem;
+    font-family: var(--font-mono);
+    font-size: 0.8125rem;
     font-weight: 500;
-    letter-spacing: 0;
+    letter-spacing: 0.04em;
     color: var(--color-muted);
   }
 
-  /* ---- Surfaces -------------------------------------------------------- */
+  /* Deltas, byte counts, timers, coordinates: anything that should read as instrumentation. */
+  .mono {
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* ---- Surfaces --------------------------------------------------------- */
 
   .panel {
+    position: relative;
     background: var(--color-panel);
+    background-image: var(--panel-grad);
     border: 1px solid var(--color-rule);
   }
 
-  /* Faint ruled-paper texture. Used sparingly (landing hero, medical grid header). */
+  /* Four corner brackets, drawn with two gradients. Decorative; never announced. */
+  .bracketed::before,
+  .bracketed::after {
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    pointer-events: none;
+    border-color: var(--color-accent);
+    opacity: 0.75;
+  }
+  .bracketed::before {
+    top: -1px;
+    left: -1px;
+    border-top: 2px solid;
+    border-left: 2px solid;
+  }
+  .bracketed::after {
+    right: -1px;
+    bottom: -1px;
+    border-right: 2px solid;
+    border-bottom: 2px solid;
+  }
+
+  /* Faint ruled-paper texture, used on the paper theme only. */
   .ruled {
     background-image: repeating-linear-gradient(
       to bottom,
@@ -115,26 +209,39 @@ body {
     );
   }
 
-  /* ---- Buttons: three weights, every state designed ---------------------- */
+  /* Hairline instrument grid behind a hero area. */
+  .gridded {
+    background-image:
+      linear-gradient(to right, color-mix(in srgb, var(--color-rule) 55%, transparent) 1px, transparent 1px),
+      linear-gradient(to bottom, color-mix(in srgb, var(--color-rule) 55%, transparent) 1px, transparent 1px);
+    background-size: 64px 64px;
+  }
+
+  /* ---- Buttons: four weights, every state designed ----------------------- */
 
   .btn {
+    position: relative;
     display: inline-flex;
     align-items: center;
     justify-content: center;
     gap: 0.5rem;
-    min-height: 44px; /* touch target floor */
+    min-height: 44px;
     padding: 0.6rem 1.25rem;
     border: 1px solid transparent;
-    font-size: 0.875rem;
-    font-weight: 500;
+    font-family: var(--font-mono);
+    font-size: 0.8125rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
     line-height: 1.2;
     text-align: center;
     cursor: pointer;
     transition:
-      background-color 120ms ease,
-      color 120ms ease,
-      border-color 120ms ease,
-      transform 80ms ease;
+      background-color 140ms ease,
+      color 140ms ease,
+      border-color 140ms ease,
+      box-shadow 140ms ease,
+      transform 90ms ease;
   }
 
   .btn:active:not(:disabled) {
@@ -143,52 +250,76 @@ body {
 
   .btn:disabled {
     cursor: not-allowed;
-    opacity: 0.45;
+    opacity: 0.4;
   }
 
   .btn-primary {
     background: var(--color-accent);
     border-color: var(--color-accent);
-    color: #fff;
+    color: var(--color-paper-deep);
   }
 
   .btn-primary:hover:not(:disabled) {
+    box-shadow: 0 0 0 1px var(--color-accent), 0 0 24px -6px var(--color-accent);
+    filter: brightness(1.08);
+  }
+
+  :root[data-theme="paper"] .btn-primary {
+    color: #fff;
+  }
+  :root[data-theme="paper"] .btn-primary:hover:not(:disabled) {
     background: var(--color-ink);
     border-color: var(--color-ink);
+    box-shadow: none;
+    filter: none;
   }
 
   .btn-secondary {
     background: transparent;
-    border-color: var(--color-ink);
+    border-color: var(--color-rule-strong);
     color: var(--color-ink);
   }
 
   .btn-secondary:hover:not(:disabled) {
-    background: var(--color-ink);
-    color: var(--color-paper);
+    border-color: var(--color-accent);
+    color: var(--color-accent);
+    background: color-mix(in srgb, var(--color-accent) 8%, transparent);
   }
 
   /* Quiet third weight for in-page navigation ("All regions", "Reset demo"). */
   .btn-quiet {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
     min-height: 44px;
     padding: 0.5rem 0;
-    font-size: 0.875rem;
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
     color: var(--color-accent);
-    text-decoration: underline;
-    text-underline-offset: 4px;
     cursor: pointer;
     background: none;
     border: 0;
-    transition: color 120ms ease;
+    border-bottom: 1px solid color-mix(in srgb, var(--color-accent) 45%, transparent);
+    transition: color 140ms ease, border-color 140ms ease;
   }
 
   .btn-quiet:hover:not(:disabled) {
     color: var(--color-ink);
+    border-color: var(--color-ink);
   }
 
   .btn-quiet:disabled {
     cursor: not-allowed;
-    opacity: 0.45;
+    opacity: 0.4;
+  }
+
+  /* Icon-only square control. */
+  .btn-icon {
+    min-height: 44px;
+    min-width: 44px;
+    padding: 0;
   }
 
   /* ---- Fields ----------------------------------------------------------- */
@@ -200,30 +331,40 @@ body {
     border: 1px solid var(--color-rule-strong);
     padding: 0.5rem 0.65rem;
     color: var(--color-ink);
-    font: inherit;
+    font-family: var(--font-mono);
+    font-size: 0.9375rem;
     font-variant-numeric: tabular-nums;
+    transition: border-color 140ms ease, box-shadow 140ms ease;
   }
 
   .field:hover:not(:disabled) {
-    border-color: var(--color-ink-soft);
+    border-color: var(--color-rule-strong);
+  }
+
+  .field:focus {
+    border-color: var(--color-accent);
+    box-shadow: 0 0 0 1px var(--color-accent);
+    outline: none;
   }
 
   .field[aria-invalid="true"] {
-    border-color: var(--color-act-ink);
-    border-width: 2px;
+    border-color: var(--color-act);
+    box-shadow: 0 0 0 1px var(--color-act);
   }
 
   /* ---- Cards ------------------------------------------------------------ */
 
   .card {
+    position: relative;
     background: var(--color-panel);
+    background-image: var(--panel-grad);
     border: 1px solid var(--color-rule);
     transition:
-      border-color 120ms ease,
-      transform 120ms ease;
+      border-color 140ms ease,
+      box-shadow 140ms ease,
+      transform 140ms ease;
   }
 
-  /* A card that is itself a control. */
   .card-action {
     display: block;
     width: 100%;
@@ -232,13 +373,124 @@ body {
   }
 
   .card-action:hover {
-    border-color: var(--color-ink);
+    border-color: var(--color-accent);
+    box-shadow: var(--glow);
     transform: translateY(-2px);
   }
 
   .card-action:focus-visible {
     border-color: var(--color-accent);
   }
+
+  /* ---- Instrument bits --------------------------------------------------- */
+
+  /* Status pill: swatch + word, both carried by the same hue. */
+  .pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    padding: 0.2rem 0.5rem;
+    border: 1px solid currentColor;
+    font-family: var(--font-mono);
+    font-size: var(--text-micro);
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+
+  /* Horizontal meter: a bar that fills from the left. */
+  .meter {
+    position: relative;
+    height: 6px;
+    width: 100%;
+    background: color-mix(in srgb, var(--color-rule) 70%, transparent);
+    overflow: hidden;
+  }
+
+  .meter > span {
+    display: block;
+    height: 100%;
+    background: var(--color-accent);
+    transition: width 600ms cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  /* The thin moving highlight on a live readout. */
+  .ticker {
+    font-family: var(--font-mono);
+    font-size: var(--text-micro);
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--color-muted);
+  }
+}
+
+/* ---- Motion -------------------------------------------------------------
+ * Transform and opacity only, so nothing reflows, and all of it is switched off
+ * by the reduced-motion block above.
+ */
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes sweep {
+  0% {
+    transform: translateY(-6%);
+    opacity: 0;
+  }
+  12%,
+  88% {
+    opacity: 0.85;
+  }
+  100% {
+    transform: translateY(106%);
+    opacity: 0;
+  }
+}
+
+@keyframes blip {
+  0%,
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.45;
+    transform: scale(0.82);
+  }
+}
+
+@keyframes trace {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.animate-rise {
+  animation: rise 420ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.animate-blip {
+  animation: blip 2.4s ease-in-out infinite;
+}
+
+/* The scan line that travels down the body figure while a console is live. */
+.scanline {
+  animation: sweep 5.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* A stroked path that draws itself once. Set --len to the path length. */
+.trace {
+  stroke-dasharray: var(--len, 1000);
+  stroke-dashoffset: var(--len, 1000);
+  animation: trace 1.6s cubic-bezier(0.22, 1, 0.36, 1) forwards;
 }
 
 /* ---- Body figure regions ------------------------------------------------
@@ -248,11 +500,12 @@ body {
   cursor: pointer;
 }
 .region .shape {
-  stroke: var(--color-ink);
+  stroke: color-mix(in srgb, var(--color-ink) 55%, transparent);
   stroke-width: 1.5;
   transition:
     stroke-width 150ms ease,
-    fill-opacity 150ms ease;
+    fill-opacity 150ms ease,
+    filter 150ms ease;
 }
 .region .hit {
   fill: none;
@@ -260,6 +513,7 @@ body {
 }
 .region:hover .shape {
   stroke-width: 2.75;
+  filter: brightness(1.2);
 }
 /* Chrome paints its own ring on a focusable <g>; we draw focus on the shape instead.
    :focus as well as :focus-visible, because the UA ring appears on both for SVG groups. */
@@ -279,4 +533,46 @@ body {
 }
 .figure-static .region:hover .shape {
   stroke-width: 1.5;
+  filter: none;
+}
+
+/* ---- Leader lines -------------------------------------------------------
+ * The dashed run from a callout card to the body figure. Decorative only: the card's own
+ * heading says which region it belongs to, so nothing is lost when the layout collapses
+ * to one column and these are hidden.
+ */
+@media (min-width: 1024px) {
+  .leader {
+    position: relative;
+  }
+  .leader::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 1.9rem;
+    border-top: 1px dashed color-mix(in srgb, var(--color-accent) 55%, transparent);
+  }
+  .leader::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 6px;
+    height: 6px;
+    margin-top: -3px;
+    border-radius: 9999px;
+    background: var(--color-accent);
+    opacity: 0.85;
+  }
+  .leader-right::after {
+    right: -1.9rem;
+  }
+  .leader-right::before {
+    right: -2.2rem;
+  }
+  .leader-left::after {
+    left: -1.9rem;
+  }
+  .leader-left::before {
+    left: -2.2rem;
+  }
 }

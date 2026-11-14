@@ -52,6 +52,27 @@ Both numbers on the Metrics screen are models, not observations, and every input
 - Reporting completeness: per person-day, draw (a) whether the person does the check (default 0.85), (b) whether it is a day worth reporting (0.25), (c) whether they would hide it under value-based scoring (0.4). Effort-based scoring counts every check; value-based scoring drops the hidden bad days. Both arms use the same three draws, so effort >= value always, with equality exactly when nobody hides anything. Deterministic in the seed (`mulberry32`).
 - The claim that people under-report when bad values are punished is an **assumption we made**, not a result we found. The model exists to make that assumption arguable, not to prove it.
 
+### Arnav: flight-deck visual system (A1, second pass)
+
+- The app now ships **two themes built from the same token names**: `deck` (dark instrument console, the default) and `paper` (the original warm flight-manual look, `<html data-theme="paper">`). No component, including the ones other people own, knows which theme is on: everything reads `--color-ink`, `--color-panel`, `--color-accent` and so on. The mirror-check screens picked up the dark theme with no change because they already used only semantic tokens.
+- The choice is remembered in `localStorage` under `chm-theme`, inside try/catch: blocked storage falls back to the default rather than throwing.
+- Both themes are contrast-checked in the live page. Every text token measures at least 6.1:1 against both the page and the panel background in deck, and at least 5.4:1 in paper.
+- Micro-labels, values, deltas, timers and byte counts are set in the **system monospace stack** (`--font-mono`). No web font is loaded: the offline guarantee in E6 stays intact and there is no new dependency.
+- Motion is CSS only (`rise`, `sweep`, `blip`, `trace`) and touches transform/opacity/stroke-dashoffset only. A global `prefers-reduced-motion` block switches all of it off, and the count-up `Counter` subscribes to that media query rather than sampling it, so changing the OS setting takes effect without a reload.
+- Design direction note: the task doc asked to push the paper look rather than replace it. The dark console is a deliberate alternative aimed at the visual-impact judging criterion, not a generic template; the paper direction is kept intact behind the switch so the team can still demo it.
+
+### Arnav: the component kit (`src/components/kit/`)
+
+Hand-rolled rather than pulled from a component library, because the rule is no new dependencies without asking, and because a console look is mostly tokens and hairlines rather than widgets.
+
+- `Panel` — the console panel: hairline border, mono label rail, corner brackets, optional staggered entrance.
+- `Icon` — 18 inline SVG glyphs at a 1.5 px hairline weight, inheriting `currentColor`. Replaces an icon package.
+- `Readout` — `Counter` (count-up), `Gauge` (270-degree arc), `Sparkline` (flat-line safe), `Bar`, and `Sigma` (signed deviation in SD).
+- `Chrome` — `Starfield` (deterministic, seeded from the existing `mulberry32`, so it never differs between two people looking at the same demo), `ThemeToggle`, `Segmented`, `StatusRail`.
+- Body map callouts are connected to the figure by CSS leader lines. They are decorative: each card names its own region, so nothing is lost when the layout collapses to one column below 1024 px and the lines are hidden.
+- The figure's scan line and aura are decorative, dimmed to near-nothing on the paper theme (`--scan-opacity`, `--aura-opacity`), and carry no information.
+- `Sigma` (for example "-7.4σ") is the existing z-score from `src/lib/status.ts` shown directly. It is a statistical distance from that person's own baseline, never a clinical severity.
+
 ## Sources
 
 ## Limitations

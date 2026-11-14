@@ -1,7 +1,8 @@
 import { useEffect, useMemo, useState } from 'react'
 import { BodyFigure } from '../components/BodyFigure'
-import { StatusDot } from '../components/StatusDot'
-import { h1, page } from '../components/ui'
+import { Icon } from '../components/kit/Icon'
+import { Counter } from '../components/kit/Readout'
+import { StatusDot, STATUS_COLOR, STATUS_TEXT } from '../components/StatusDot'
 import type { CrewMember, Measurement, Status } from '../contract/types'
 import { listMeasurements } from '../db/repo'
 import { readAll, regionStatus, worstStatus } from '../lib/bodyStatus'
@@ -19,6 +20,13 @@ type CrewView = {
 }
 
 const SEVERITY: Record<Status, number> = { red: 0, yellow: 1, gray: 2, green: 3 }
+
+/** "Crew 1" -> "C1", "You (guest crew member)" -> "YOU". */
+function initials(crew: CrewMember): string {
+  const digits = crew.name.match(/\d+/)
+  if (digits) return `C${digits[0]}`.slice(0, 3)
+  return crew.name.replace(/[^A-Za-z]/g, '').slice(0, 3).toUpperCase()
+}
 
 function build(crew: CrewMember, measurements: Measurement[]): CrewView {
   const readings = readAll(measurements)
@@ -57,37 +65,83 @@ export function Medical() {
     [rows, crew],
   )
 
+  const needAttention = views?.filter((v) => v.flagged.length > 0).length ?? 0
+
   const open = (id: string) => {
     setCrewId(id)
     go('bodymap')
   }
 
   return (
-    <main className={page}>
-      <p className="label">Medical officer view</p>
-      <h1 className={`${h1} mt-1`}>Everyone, at once</h1>
-      <p className="mt-3 max-w-2xl text-sm leading-relaxed text-muted">
-        Every crew member&rsquo;s body map on one screen, the people with something outside their own baseline first. Select anyone to open
-        their full body map. Gray is never a verdict: it means no reading has passed the quality check yet.
-      </p>
+    <main className="mx-auto w-full max-w-[1500px] px-4 py-6 sm:px-6">
+      <div className="flex flex-wrap items-end justify-between gap-x-8 gap-y-4 border-b border-rule pb-5">
+        <div>
+          <p className="label label-mark">Medical officer view</p>
+          <h1 className="mt-1.5 text-3xl font-semibold tracking-tight sm:text-4xl">Everyone, at once</h1>
+          <p className="mt-3 max-w-3xl text-sm leading-relaxed text-muted">
+            Every crew member&rsquo;s body map on one screen, the people with something outside their own baseline first. Select anyone to
+            open their full console. Gray is never a verdict: it means no reading has passed the quality check yet.
+          </p>
+        </div>
+
+        {views && (
+          <dl className="flex flex-wrap items-end gap-x-8 gap-y-3">
+            <div>
+              <dt className="label">Crew</dt>
+              <dd className="value mt-1" style={{ fontSize: '1.75rem' }}>
+                <Counter value={views.length} />
+              </dd>
+            </div>
+            <div>
+              <dt className="label">Outside baseline</dt>
+              <dd
+                className="value mt-1"
+                style={{ fontSize: '1.75rem', color: needAttention > 0 ? 'var(--color-watch-ink)' : 'var(--color-ok-ink)' }}
+              >
+                <Counter value={needAttention} />
+                <span className="value-unit"> of {views.length}</span>
+              </dd>
+            </div>
+          </dl>
+        )}
+      </div>
 
       {/* Never say "not enough data" while the data is still loading. */}
       {views === null ? (
-        <p className="mt-8 text-muted">Loading every crew member&rsquo;s readings…</p>
+        <div className="mt-8 grid gap-5 sm:grid-cols-2 xl:grid-cols-4">
+          {[0, 1, 2, 3].map((i) => (
+            <div key={i} className="card h-80 animate-pulse" />
+          ))}
+        </div>
       ) : (
         <ul className="mt-8 grid gap-5 sm:grid-cols-2 xl:grid-cols-4">
-          {views.map((v) => (
-            <li key={v.crew.id}>
+          {views.map((v, i) => (
+            <li key={v.crew.id} className="animate-rise" style={{ animationDelay: `${i * 70}ms` }}>
               <button
                 onClick={() => open(v.crew.id)}
                 aria-current={v.crew.id === crewId ? 'true' : undefined}
-                className={`card card-action h-full p-5 ${v.crew.id === crewId ? 'border-ink' : ''}`}
+                className={`card card-action bracketed flex h-full flex-col p-5 ${v.crew.id === crewId ? 'border-accent' : ''}`}
+                style={v.crew.id === crewId ? { boxShadow: 'var(--glow)' } : undefined}
               >
-                <div className="flex items-baseline justify-between gap-3">
-                  <span className="text-base font-semibold tracking-tight">{v.crew.name}</span>
-                  {v.crew.id === crewId && <span className="label">selected</span>}
+                <div className="flex items-start gap-3">
+                  <span
+                    aria-hidden
+                    className="mono grid h-11 w-11 shrink-0 place-items-center border text-xs font-semibold tracking-wider"
+                    style={{
+                      clipPath: 'polygon(25% 0, 75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%)',
+                      borderColor: STATUS_COLOR[v.worst],
+                      color: STATUS_TEXT[v.worst],
+                      background: 'color-mix(in srgb, currentColor 10%, transparent)',
+                    }}
+                  >
+                    {initials(v.crew)}
+                  </span>
+                  <div className="min-w-0 flex-1">
+                    <p className="truncate text-base font-semibold tracking-tight">{v.crew.name}</p>
+                    <p className="mono truncate text-[0.625rem] uppercase tracking-wider text-muted">{v.crew.role}</p>
+                  </div>
+                  {v.crew.id === crewId && <span className="label shrink-0">selected</span>}
                 </div>
-                <p className="mt-0.5 text-xs text-muted">{v.crew.role}</p>
 
                 <div className="mt-4 flex justify-center">
                   <BodyFigure
@@ -95,24 +149,33 @@ export function Medical() {
                     selected={null}
                     onSelect={() => {}}
                     interactive={false}
-                    className="h-[190px] w-auto max-w-full"
+                    markers
+                    className="h-[180px] w-auto max-w-full"
                   />
                 </div>
 
                 <div className="mt-4 border-t border-rule pt-3">
-                  <span className="label">Worst region</span>
-                  <div className="mt-1">
-                    <StatusDot status={v.worst} size="md" />
+                  <div className="flex items-center justify-between gap-3">
+                    <span className="label">Worst region</span>
+                    <StatusDot status={v.worst} short />
                   </div>
-                  <p className="mt-2 text-xs text-muted">
+                  <p className="mono mt-2 text-[0.6875rem] leading-relaxed text-muted">
                     {v.flagged.length === 0
                       ? 'No region outside baseline.'
                       : v.flagged.map((f) => `${f.label}: ${STATUS_LABEL[f.status].toLowerCase()}`).join(' · ')}
                   </p>
-                  <p className="mt-1 text-xs text-muted">
-                    {v.indicatorsWithData} of {v.indicatorsTotal} indicators have a good reading
+                  <div className="meter mt-3">
+                    <span style={{ width: `${(v.indicatorsWithData / v.indicatorsTotal) * 100}%` }} />
+                  </div>
+                  <p className="mono mt-1.5 flex items-center justify-between text-[0.625rem] uppercase tracking-wider text-muted">
+                    <span>
+                      {v.indicatorsWithData}/{v.indicatorsTotal} measured
+                    </span>
+                    <span className="inline-flex items-center gap-1">
+                      open <Icon name="arrowRight" size={12} />
+                    </span>
                   </p>
-                  <p className="mt-2 text-xs text-muted">{v.crew.dataLabel}</p>
+                  <p className="mono mt-2 text-[0.625rem] uppercase tracking-wider text-muted">{v.crew.dataLabel}</p>
                 </div>
               </button>
             </li>

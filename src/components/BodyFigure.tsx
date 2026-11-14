@@ -14,9 +14,25 @@ type Props = {
    * The all-crew grid needs this because each figure sits inside a card-sized button.
    */
   interactive?: boolean
+  /** Pulsing anchor dots on each region, colored by status. For the console view. */
+  markers?: boolean
+  /** The scan line that travels down the figure while the console is live. */
+  scan?: boolean
 }
 
 const LABEL = Object.fromEntries(REGIONS.map((r) => [r.id, r.label])) as Record<RegionId, string>
+
+export const FIGURE_VIEWBOX = { width: 200, height: 446 }
+
+/** Where a leader line should meet each region, in viewBox units. */
+export const REGION_ANCHORS: Record<RegionId, { x: number; y: number }> = {
+  head: { x: 100, y: 22 },
+  eyes: { x: 113, y: 45 },
+  heart: { x: 104, y: 142 },
+  gut: { x: 100, y: 210 },
+  body: { x: 100, y: 110 },
+  skeleton: { x: 46, y: 200 },
+}
 
 /*
  * One coherent front-view silhouette, drawn back to front so the joints are covered:
@@ -38,11 +54,19 @@ const NECK = 'M91 72 L109 72 L109 97 L91 97 Z'
 const HEAD = 'M100 13 C117 13 128 27 128 47 C128 68 116 82 100 82 C84 82 72 68 72 47 C72 27 83 13 100 13 Z'
 const HEART = 'M104 160 C86 145 89 127 99 127 C103 127 105 131 105 131 C105 131 107 127 111 127 C121 127 123 147 104 160 Z'
 
-export function BodyFigure({ statuses, selected, onSelect, className = 'h-[360px] w-auto max-w-full', interactive = true }: Props) {
+export function BodyFigure({
+  statuses,
+  selected,
+  onSelect,
+  className = 'h-[360px] w-auto max-w-full',
+  interactive = true,
+  markers = false,
+  scan = false,
+}: Props) {
   // A plain function (not a component) so the <g> elements keep their identity, and focus, across renders.
   const region = (id: RegionId, shapes: ReactNode) => {
     const status = statuses[id]
-    const fill = { fill: STATUS_COLOR[status], fillOpacity: status === 'gray' ? 0.35 : 0.85 }
+    const fill = { fill: STATUS_COLOR[status], fillOpacity: status === 'gray' ? 0.28 : 0.72 }
     const label = `${LABEL[id]}: ${STATUS_LABEL[status]}`
 
     if (!interactive) {
@@ -76,14 +100,33 @@ export function BodyFigure({ statuses, selected, onSelect, className = 'h-[360px
     )
   }
 
+  const { width, height } = FIGURE_VIEWBOX
+
   return (
     <svg
-      viewBox="0 0 200 446"
+      viewBox={`0 0 ${width} ${height}`}
       className={`${className} ${interactive ? '' : 'figure-static'}`}
       role="group"
       aria-label="Human body map"
       focusable="false"
     >
+      <defs>
+        <radialGradient id="bf-aura" cx="50%" cy="42%" r="56%">
+          <stop offset="0%" stopColor="var(--color-accent)" stopOpacity="0.16" />
+          <stop offset="100%" stopColor="var(--color-accent)" stopOpacity="0" />
+        </radialGradient>
+        <linearGradient id="bf-scan" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stopColor="var(--color-accent)" stopOpacity="0" />
+          <stop offset="50%" stopColor="var(--color-accent)" stopOpacity="0.9" />
+          <stop offset="100%" stopColor="var(--color-accent)" stopOpacity="0" />
+        </linearGradient>
+        <clipPath id="bf-clip">
+          <rect x="0" y="0" width={width} height={height} />
+        </clipPath>
+      </defs>
+
+      <ellipse cx={width / 2} cy={height * 0.42} rx={width * 0.58} ry={height * 0.46} fill="url(#bf-aura)" style={{ opacity: 'var(--aura-opacity)' }} />
+
       {region(
         'skeleton',
         <>
@@ -122,6 +165,28 @@ export function BodyFigure({ statuses, selected, onSelect, className = 'h-[360px
           <rect className="hit" x="74" y="182" width="52" height="54" />
           <rect className="shape" x="81" y="190" width="38" height="40" rx="16" />
         </>,
+      )}
+
+      {/* Anchor dots sit above the silhouette and below nothing: they mark where a callout points. */}
+      {markers &&
+        REGIONS.map((r) => {
+          const a = REGION_ANCHORS[r.id]
+          const s = statuses[r.id]
+          return (
+            <g key={`m-${r.id}`} aria-hidden pointerEvents="none">
+              <circle cx={a.x} cy={a.y} r={7} fill={STATUS_COLOR[s]} fillOpacity={0.18} />
+              <circle cx={a.x} cy={a.y} r={3} fill={STATUS_COLOR[s]} />
+              {(s === 'yellow' || s === 'red') && (
+                <circle className="animate-blip" cx={a.x} cy={a.y} r={10} fill="none" stroke={STATUS_COLOR[s]} strokeWidth={1} />
+              )}
+            </g>
+          )
+        })}
+
+      {scan && (
+        <g clipPath="url(#bf-clip)" aria-hidden pointerEvents="none">
+          <rect className="scanline" x="0" y="0" width={width} height="26" fill="url(#bf-scan)" style={{ opacity: 'var(--scan-opacity)' }} />
+        </g>
       )}
     </svg>
   )
