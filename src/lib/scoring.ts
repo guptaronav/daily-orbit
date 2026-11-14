@@ -8,6 +8,8 @@ export const POINTS: Record<GameEventKind, number> = {
   exerciseComplete: 10,
   retakeAfterQualityFail: 5,
   countermeasureComplete: 10, // doing a step the app proposed because of YOUR data (sleep, nutrition, telling someone)
+  supplyDrop: 15, // one free crate a day, just for opening the console
+  streakMilestone: 25, // claimed once per milestone, for days in a row
 }
 
 export const EVENT_LABEL: Record<GameEventKind, string> = {
@@ -16,6 +18,8 @@ export const EVENT_LABEL: Record<GameEventKind, string> = {
   exerciseComplete: 'Exercise complete',
   retakeAfterQualityFail: 'Retook a reading we could not trust',
   countermeasureComplete: 'Followed a care step',
+  supplyDrop: 'Daily supply drop',
+  streakMilestone: 'Streak milestone',
 }
 
 export const pointsFor = (events: readonly Pick<GameEvent, 'kind'>[]): number => events.reduce((sum, e) => sum + POINTS[e.kind], 0)

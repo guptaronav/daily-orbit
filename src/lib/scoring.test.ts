@@ -181,8 +181,12 @@ describe('anti-farming: each kind earns credit once per person per day', () => {
     const everything: GameEvent[] = (Object.keys(POINTS) as GameEventKind[]).flatMap((kind) =>
       Array.from({ length: 20 }, (_, i) => at(kind, `2026-11-14T${String(i % 20).padStart(2, '0')}:00:00Z`, 'crew-1', kind === 'countermeasureComplete' ? ['sleep', 'nutrition', 'escalate'][i % 3] : undefined)),
     )
-    // 4 plain kinds once each + countermeasure once per distinct step (3)
-    const max = POINTS.checkInComplete + POINTS.symptomReported + POINTS.exerciseComplete + POINTS.retakeAfterQualityFail + 3 * POINTS.countermeasureComplete
+    // Every plain kind once each + countermeasure once per distinct step (3).
+    // Derived from POINTS so adding a kind updates the bound instead of breaking the test.
+    const plain = (Object.keys(POINTS) as GameEventKind[])
+      .filter((k) => k !== 'countermeasureComplete')
+      .reduce((sum, k) => sum + POINTS[k], 0)
+    const max = plain + 3 * POINTS.countermeasureComplete
     expect(pointsFor(creditedEvents(everything))).toBe(max)
   })
 

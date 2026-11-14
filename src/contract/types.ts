@@ -65,6 +65,10 @@ export type GameEventKind =
   | 'exerciseComplete'
   | 'retakeAfterQualityFail'
   | 'countermeasureComplete'
+  // Reward-surface events. They pay for showing up and for keeping a streak, never for a health
+  // value, so they cannot give anyone a reason to hide a symptom.
+  | 'supplyDrop'
+  | 'streakMilestone'
 
 export type GameEvent = {
   id: string
