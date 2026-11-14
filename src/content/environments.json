@@ -1,0 +1,22 @@
+[
+  {
+    "id": "iss",
+    "label": "ISS (low Earth orbit)",
+    "oneWayDelaySec": 1,
+    "equipment": ["[CONTENT TODO]"]
+  },
+  {
+    "id": "lunar",
+    "label": "Lunar surface",
+    "oneWayDelaySec": 1.3,
+    "equipment": ["[CONTENT TODO]"]
+  },
+  {
+    "id": "mars",
+    "label": "Mars transit",
+    "oneWayDelaySec": 1200,
+    "minDelaySec": 180,
+    "maxDelaySec": 1320,
+    "equipment": ["[CONTENT TODO]"]
+  }
+]

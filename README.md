@@ -9,3 +9,7 @@ Project scaffold. Problem statement, approach, and demo to follow.
 - Ronav Gupta
 - Arnav Jain
 - Evode Manirahari
+
+## For teammates
+
+Who builds what, in parallel: [docs/TEAM_TASKS.md](docs/TEAM_TASKS.md)
