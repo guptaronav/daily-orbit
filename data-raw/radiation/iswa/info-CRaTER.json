@@ -1,0 +1,168 @@
+{
+ "HAPI": "2.0",
+ "status": {
+  "code": 1200,
+  "message": "OK"
+ },
+ "title": "CRaTER Dose Rates",
+ "description": "CRaTER (GCR+SEP) dose rates for individual and combined detectors with silicon to water correction",
+ "cadence": "PT1H",
+ "startDate": "2009-06-26T20:06:35Z",
+ "stopDate": "2026-10-07T23:30:00Z",
+ "parameters": [
+  {
+   "fill": "null",
+   "length": 22,
+   "name": "Time",
+   "type": "isotime",
+   "units": "UTC"
+  },
+  {
+   "fill": "null",
+   "name": "h2o",
+   "type": "double",
+   "units": "factor",
+   "description": "H2O Factor - Silicon to water correction factor"
+  },
+  {
+   "fill": "null",
+   "name": "alt",
+   "type": "double",
+   "units": "factor",
+   "description": "Altitude Factor - Altitude correction to lunar surface"
+  },
+  {
+   "fill": "null",
+   "name": "ge",
+   "type": "double",
+   "units": "factor",
+   "description": "Good Event Factor - Data quality factor"
+  },
+  {
+   "fill": "null",
+   "name": "d1_2_dose_rate",
+   "type": "double",
+   "units": "cGy/day",
+   "description": "Combined D1&2 detector dose rate"
+  },
+  {
+   "fill": "null",
+   "name": "d3_4_dose_rate",
+   "type": "double",
+   "units": "cGy/day",
+   "description": "Combined D3&4 detector dose rate"
+  },
+  {
+   "fill": "null",
+   "name": "d5_6_dose_rate",
+   "type": "double",
+   "units": "cGy/day",
+   "description": "Combined D5&6 detector dose rate"
+  },
+  {
+   "fill": "null",
+   "name": "d1_dose_rate",
+   "type": "double",
+   "units": "cGy/day",
+   "description": "D1 detector dose rate"
+  },
+  {
+   "fill": "null",
+   "name": "d2_dose_rate",
+   "type": "double",
+   "units": "cGy/day",
+   "description": "D2 detector dose rate"
+  },
+  {
+   "fill": "null",
+   "name": "d3_dose_rate",
+   "type": "double",
+   "units": "cGy/day",
+   "description": "D3 detector dose rate"
+  },
+  {
+   "fill": "null",
+   "name": "d4_dose_rate",
+   "type": "double",
+   "units": "cGy/day",
+   "description": "D4 detector dose rate"
+  },
+  {
+   "fill": "null",
+   "name": "d5_dose_rate",
+   "type": "double",
+   "units": "cGy/day",
+   "description": "D5 detector dose rate"
+  },
+  {
+   "fill": "null",
+   "name": "d6_dose_rate",
+   "type": "double",
+   "units": "cGy/day",
+   "description": "D6 detector dose rate"
+  },
+  {
+   "fill": "null",
+   "name": "d1_2_dosage_30day_sum",
+   "type": "double",
+   "units": "cGy",
+   "description": "Combined D1&2 detector dosage 30-day running sum"
+  },
+  {
+   "fill": "null",
+   "name": "d3_4_dosage_30day_sum",
+   "type": "double",
+   "units": "cGy",
+   "description": "Combined D3&4 detector dosage 30-day running sum"
+  },
+  {
+   "fill": "null",
+   "name": "d5_6_dosage_30day_sum",
+   "type": "double",
+   "units": "cGy",
+   "description": "Combined D5&6 detector dosage 30-day running sum"
+  },
+  {
+   "fill": "null",
+   "name": "d1_dosage_30day_sum",
+   "type": "double",
+   "units": "cGy",
+   "description": "D1 detector dosage 30-day running sum"
+  },
+  {
+   "fill": "null",
+   "name": "d2_dosage_30day_sum",
+   "type": "double",
+   "units": "cGy",
+   "description": "D2 detector dosage 30-day running sum"
+  },
+  {
+   "fill": "null",
+   "name": "d3_dosage_30day_sum",
+   "type": "double",
+   "units": "cGy",
+   "description": "D3 detector dosage 30-day running sum"
+  },
+  {
+   "fill": "null",
+   "name": "d4_dosage_30day_sum",
+   "type": "double",
+   "units": "cGy",
+   "description": "D4 detector dosage 30-day running sum"
+  },
+  {
+   "fill": "null",
+   "name": "d5_dosage_30day_sum",
+   "type": "double",
+   "units": "cGy",
+   "description": "D5 detector dosage 30-day running sum"
+  },
+  {
+   "fill": "null",
+   "name": "d6_dosage_30day_sum",
+   "type": "double",
+   "units": "cGy",
+   "description": "D6 detector dosage 30-day running sum"
+  }
+ ]
+}

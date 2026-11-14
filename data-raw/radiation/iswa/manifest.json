@@ -1,0 +1,741 @@
+{
+ "source": "NASA CCMC iSWA HAPI, https://iswa.gsfc.nasa.gov/IswaSystemWebApp/hapi",
+ "downloadedAt": "2026-11-14T19:48:39Z",
+ "datasets": [
+  {
+   "id": "ALTEA_P5M",
+   "file": "ALTEA_P5M.csv",
+   "rows": 72265,
+   "start": "2011-06-27T23:57:50Z",
+   "stop": "2012-11-13T07:39:28Z",
+   "description": null,
+   "parameters": [
+    {
+     "name": "Time",
+     "units": "UTC",
+     "description": null
+    },
+    {
+     "name": "ParticleFlux",
+     "units": "part/(s cm^2 sr)",
+     "description": null
+    },
+    {
+     "name": "LETSi",
+     "units": "[(Kev/um) / (s cm^2 sr)]",
+     "description": null
+    },
+    {
+     "name": "Dose_in_water",
+     "units": "nGy/s",
+     "description": null
+    },
+    {
+     "name": "EquivalentDose_in_water",
+     "units": "nSv/s",
+     "description": null
+    }
+   ]
+  },
+  {
+   "id": "msl_rad_dosimetry",
+   "file": "msl_rad_dosimetry.csv",
+   "rows": 390249,
+   "start": "2011-11-20T18:29:59Z",
+   "stop": "2026-11-12T16:19:14Z",
+   "description": "Mars Science Laboratory Radiation Assessment Detector",
+   "parameters": [
+    {
+     "name": "Time",
+     "units": "UTC",
+     "description": null
+    },
+    {
+     "name": "dose_b_raw",
+     "units": "uGy/day",
+     "description": "Radiation dose rate in Si detector B (raw)"
+    },
+    {
+     "name": "dose_b_rtg",
+     "units": "uGy/day",
+     "description": "Radiation dose rate in Si detector B (RTG-corrected)"
+    },
+    {
+     "name": "dose_e_total",
+     "units": "uGy/day",
+     "description": "Radiation dose rate in tissue-equivalent plastic detector E"
+    }
+   ]
+  },
+  {
+   "id": "CRaTER",
+   "file": "CRaTER.csv",
+   "rows": 149532,
+   "start": "2009-06-26T20:06:35Z",
+   "stop": "2026-10-07T23:30:00Z",
+   "description": "CRaTER (GCR+SEP) dose rates for individual and combined detectors with silicon to water correction",
+   "parameters": [
+    {
+     "name": "Time",
+     "units": "UTC",
+     "description": null
+    },
+    {
+     "name": "h2o",
+     "units": "factor",
+     "description": "H2O Factor - Silicon to water correction factor"
+    },
+    {
+     "name": "alt",
+     "units": "factor",
+     "description": "Altitude Factor - Altitude correction to lunar surface"
+    },
+    {
+     "name": "ge",
+     "units": "factor",
+     "description": "Good Event Factor - Data quality factor"
+    },
+    {
+     "name": "d1_2_dose_rate",
+     "units": "cGy/day",
+     "description": "Combined D1&2 detector dose rate"
+    },
+    {
+     "name": "d3_4_dose_rate",
+     "units": "cGy/day",
+     "description": "Combined D3&4 detector dose rate"
+    },
+    {
+     "name": "d5_6_dose_rate",
+     "units": "cGy/day",
+     "description": "Combined D5&6 detector dose rate"
+    },
+    {
+     "name": "d1_dose_rate",
+     "units": "cGy/day",
+     "description": "D1 detector dose rate"
+    },
+    {
+     "name": "d2_dose_rate",
+     "units": "cGy/day",
+     "description": "D2 detector dose rate"
+    },
+    {
+     "name": "d3_dose_rate",
+     "units": "cGy/day",
+     "description": "D3 detector dose rate"
+    },
+    {
+     "name": "d4_dose_rate",
+     "units": "cGy/day",
+     "description": "D4 detector dose rate"
+    },
+    {
+     "name": "d5_dose_rate",
+     "units": "cGy/day",
+     "description": "D5 detector dose rate"
+    },
+    {
+     "name": "d6_dose_rate",
+     "units": "cGy/day",
+     "description": "D6 detector dose rate"
+    },
+    {
+     "name": "d1_2_dosage_30day_sum",
+     "units": "cGy",
+     "description": "Combined D1&2 detector dosage 30-day running sum"
+    },
+    {
+     "name": "d3_4_dosage_30day_sum",
+     "units": "cGy",
+     "description": "Combined D3&4 detector dosage 30-day running sum"
+    },
+    {
+     "name": "d5_6_dosage_30day_sum",
+     "units": "cGy",
+     "description": "Combined D5&6 detector dosage 30-day running sum"
+    },
+    {
+     "name": "d1_dosage_30day_sum",
+     "units": "cGy",
+     "description": "D1 detector dosage 30-day running sum"
+    },
+    {
+     "name": "d2_dosage_30day_sum",
+     "units": "cGy",
+     "description": "D2 detector dosage 30-day running sum"
+    },
+    {
+     "name": "d3_dosage_30day_sum",
+     "units": "cGy",
+     "description": "D3 detector dosage 30-day running sum"
+    },
+    {
+     "name": "d4_dosage_30day_sum",
+     "units": "cGy",
+     "description": "D4 detector dosage 30-day running sum"
+    },
+    {
+     "name": "d5_dosage_30day_sum",
+     "units": "cGy",
+     "description": "D5 detector dosage 30-day running sum"
+    },
+    {
+     "name": "d6_dosage_30day_sum",
+     "units": "cGy",
+     "description": "D6 detector dosage 30-day running sum"
+    }
+   ]
+  },
+  {
+   "id": "CRaTER_micro",
+   "file": "CRaTER_micro.csv",
+   "rows": 148100,
+   "start": "2009-06-27T00:30:00Z",
+   "stop": "2026-10-07T23:30:00Z",
+   "description": "CRaTER micro-dosimeter dose rates with silicon to water correction",
+   "parameters": [
+    {
+     "name": "Time",
+     "units": "UTC",
+     "description": null
+    },
+    {
+     "name": "dose_rate",
+     "units": "cGy/day",
+     "description": "Micro-dosimeter detector dose rate"
+    },
+    {
+     "name": "dosage_30day_sum",
+     "units": "cGy",
+     "description": "Micro-dosimeter detector dosage 30-day running sum"
+    },
+    {
+     "name": "h2o",
+     "units": "factor",
+     "description": "H2O Factor - Silicon to water correction factor"
+    },
+    {
+     "name": "alt",
+     "units": "factor",
+     "description": "Altitude Factor - Altitude correction to lunar surface"
+    }
+   ]
+  },
+  {
+   "id": "goesp_part_flux_P5M",
+   "file": "goesp_part_flux_P5M_SEP-windows.csv",
+   "rows": 247117,
+   "start": "2010-04-14T00:00:00Z",
+   "stop": "2026-11-14T19:35:00Z",
+   "description": "GOES-Primary Real-time data: Solar Particle and Electron Flux (5-minute)",
+   "parameters": [
+    {
+     "name": "Time",
+     "units": "UTC",
+     "description": null
+    },
+    {
+     "name": "P1",
+     "units": "Protons/cm^2 - s^-1 - sr",
+     "description": null
+    },
+    {
+     "name": "P5",
+     "units": "Protons/cm^2 - s^-1 - sr",
+     "description": null
+    },
+    {
+     "name": "P10",
+     "units": "Protons/cm^2 - s^-1 - sr",
+     "description": null
+    },
+    {
+     "name": "P30",
+     "units": "Protons/cm^2 - s^-1 - sr",
+     "description": null
+    },
+    {
+     "name": "P50",
+     "units": "Protons/cm^2 - s^-1 - sr",
+     "description": null
+    },
+    {
+     "name": "P100",
+     "units": "Protons/cm^2 - s^-1 - sr",
+     "description": null
+    },
+    {
+     "name": "E_8",
+     "units": "Electrons/cm^2 - s^-1 - sr",
+     "description": null
+    },
+    {
+     "name": "E2_0",
+     "units": "Electrons/cm^2 - s^-1 - sr",
+     "description": null
+    },
+    {
+     "name": "E4_0",
+     "units": "Electrons/cm^2 - s^-1 - sr",
+     "description": null
+    },
+    {
+     "name": "P60",
+     "units": "Protons/cm^2 - s^-1 - sr",
+     "description": null
+    },
+    {
+     "name": "P500",
+     "units": "Protons/cm^2 - s^-1 - sr",
+     "description": null
+    },
+    {
+     "name": "satelliteElectron",
+     "units": "identifier",
+     "description": "satellited identifier for electron parameters"
+    },
+    {
+     "name": "satelliteProton",
+     "units": "identifier",
+     "description": "satellited identifier for proton parameters"
+    }
+   ],
+   "windows": [
+    [
+     "2010-08-13T12:30:00Z",
+     "2010-08-19T12:30:00Z"
+    ],
+    [
+     "2011-03-06T18:00:00Z",
+     "2011-03-13T01:05:00Z"
+    ],
+    [
+     "2011-03-19T18:00:00Z",
+     "2011-03-26T19:40:00Z"
+    ],
+    [
+     "2011-06-03T04:00:00Z",
+     "2011-06-12T08:25:00Z"
+    ],
+    [
+     "2011-08-03T05:00:00Z",
+     "2011-08-14T08:45:00Z"
+    ],
+    [
+     "2011-09-06T06:00:00Z",
+     "2011-09-12T06:00:00Z"
+    ],
+    [
+     "2011-09-21T11:35:00Z",
+     "2011-10-01T21:00:00Z"
+    ],
+    [
+     "2011-10-04T01:15:00Z",
+     "2011-10-10T01:15:00Z"
+    ],
+    [
+     "2011-10-22T15:00:00Z",
+     "2011-10-28T15:00:00Z"
+    ],
+    [
+     "2011-11-03T00:52:00Z",
+     "2011-11-09T00:52:00Z"
+    ],
+    [
+     "2011-11-25T08:00:00Z",
+     "2011-12-01T11:25:00Z"
+    ],
+    [
+     "2012-01-22T04:49:00Z",
+     "2012-02-01T23:35:00Z"
+    ],
+    [
+     "2012-03-03T19:32:00Z",
+     "2012-03-18T18:10:00Z"
+    ],
+    [
+     "2012-03-18T18:53:00Z",
+     "2012-04-01T01:05:00Z"
+    ],
+    [
+     "2012-05-16T02:10:00Z",
+     "2012-05-22T02:10:00Z"
+    ],
+    [
+     "2012-05-25T22:50:00Z",
+     "2012-06-01T05:05:00Z"
+    ],
+    [
+     "2012-06-15T18:45:00Z",
+     "2012-06-21T18:45:00Z"
+    ],
+    [
+     "2012-07-06T04:00:00Z",
+     "2012-07-29T18:27:00Z"
+    ],
+    [
+     "2012-08-18T20:21:00Z",
+     "2012-08-24T20:21:00Z"
+    ],
+    [
+     "2012-08-30T22:31:00Z",
+     "2012-09-06T13:35:00Z"
+    ],
+    [
+     "2012-09-20T02:37:00Z",
+     "2012-10-03T05:21:00Z"
+    ],
+    [
+     "2012-11-07T11:55:00Z",
+     "2012-11-13T11:55:00Z"
+    ],
+    [
+     "2013-03-04T05:24:00Z",
+     "2013-03-10T22:57:00Z"
+    ],
+    [
+     "2013-03-15T10:00:00Z",
+     "2013-03-21T19:05:00Z"
+    ],
+    [
+     "2013-04-10T08:12:00Z",
+     "2013-04-16T10:10:00Z"
+    ],
+    [
+     "2013-05-12T04:12:00Z",
+     "2013-05-20T13:25:00Z"
+    ],
+    [
+     "2013-05-21T15:05:00Z",
+     "2013-05-27T15:30:00Z"
+    ],
+    [
+     "2013-06-20T06:09:00Z",
+     "2013-06-28T20:10:00Z"
+    ],
+    [
+     "2013-08-19T05:54:00Z",
+     "2013-08-26T06:57:00Z"
+    ],
+    [
+     "2013-09-29T05:05:00Z",
+     "2013-10-16T11:46:00Z"
+    ],
+    [
+     "2013-10-24T13:36:00Z",
+     "2013-10-30T13:36:00Z"
+    ],
+    [
+     "2013-11-01T05:08:00Z",
+     "2013-11-12T14:26:00Z"
+    ],
+    [
+     "2013-11-30T21:48:00Z",
+     "2013-12-06T21:48:00Z"
+    ],
+    [
+     "2013-12-25T08:44:00Z",
+     "2014-01-02T21:50:00Z"
+    ],
+    [
+     "2014-01-05T08:30:00Z",
+     "2014-01-13T21:31:00Z"
+    ],
+    [
+     "2014-02-19T08:55:00Z",
+     "2014-03-02T13:55:00Z"
+    ],
+    [
+     "2014-03-04T21:05:00Z",
+     "2014-03-10T21:05:00Z"
+    ],
+    [
+     "2014-03-11T20:47:00Z",
+     "2014-03-17T20:47:00Z"
+    ],
+    [
+     "2014-04-01T15:55:00Z",
+     "2014-04-07T15:55:00Z"
+    ],
+    [
+     "2014-04-17T15:25:00Z",
+     "2014-04-23T21:51:00Z"
+    ],
+    [
+     "2014-08-27T20:58:00Z",
+     "2014-09-09T22:45:00Z"
+    ],
+    [
+     "2014-09-10T02:40:00Z",
+     "2014-09-16T04:25:00Z"
+    ],
+    [
+     "2014-09-24T02:25:00Z",
+     "2014-09-30T19:51:00Z"
+    ],
+    [
+     "2014-10-14T06:57:00Z",
+     "2014-10-20T06:57:00Z"
+    ],
+    [
+     "2014-11-01T21:10:00Z",
+     "2014-11-07T21:10:00Z"
+    ],
+    [
+     "2014-12-12T19:16:00Z",
+     "2014-12-18T19:16:00Z"
+    ],
+    [
+     "2014-12-22T11:15:00Z",
+     "2014-12-28T11:15:00Z"
+    ],
+    [
+     "2015-03-05T19:20:00Z",
+     "2015-03-11T19:20:00Z"
+    ],
+    [
+     "2015-03-15T07:36:00Z",
+     "2015-03-21T07:36:00Z"
+    ],
+    [
+     "2015-06-17T09:25:00Z",
+     "2015-07-01T01:20:00Z"
+    ],
+    [
+     "2015-10-28T04:00:00Z",
+     "2015-11-03T05:50:00Z"
+    ],
+    [
+     "2016-01-01T02:48:00Z",
+     "2016-01-07T04:30:00Z"
+    ],
+    [
+     "2017-04-17T23:39:00Z",
+     "2017-04-23T23:39:00Z"
+    ],
+    [
+     "2017-07-13T09:00:00Z",
+     "2017-07-19T09:00:00Z"
+    ],
+    [
+     "2017-07-22T10:19:00Z",
+     "2017-07-28T10:19:00Z"
+    ],
+    [
+     "2017-09-03T22:56:00Z",
+     "2017-09-22T23:40:00Z"
+    ],
+    [
+     "2020-11-29T04:26:00Z",
+     "2020-12-05T14:16:00Z"
+    ],
+    [
+     "2021-05-28T03:00:00Z",
+     "2021-06-03T03:00:00Z"
+    ],
+    [
+     "2021-07-08T18:05:00Z",
+     "2021-07-14T18:05:00Z"
+    ],
+    [
+     "2021-10-08T07:51:00Z",
+     "2021-10-14T07:51:00Z"
+    ],
+    [
+     "2021-10-27T16:16:00Z",
+     "2021-11-08T20:55:00Z"
+    ],
+    [
+     "2022-01-19T07:20:00Z",
+     "2022-01-25T08:10:00Z"
+    ],
+    [
+     "2022-03-27T12:25:00Z",
+     "2022-04-07T14:39:00Z"
+    ],
+    [
+     "2022-07-08T15:23:00Z",
+     "2022-07-14T15:49:00Z"
+    ],
+    [
+     "2022-08-26T11:12:00Z",
+     "2022-09-01T11:55:00Z"
+    ],
+    [
+     "2022-09-11T06:15:00Z",
+     "2022-09-20T09:32:00Z"
+    ],
+    [
+     "2022-09-30T21:17:00Z",
+     "2022-10-09T15:53:00Z"
+    ],
+    [
+     "2023-02-23T21:53:00Z",
+     "2023-03-08T22:11:00Z"
+    ],
+    [
+     "2023-03-12T07:45:00Z",
+     "2023-03-19T15:13:00Z"
+    ],
+    [
+     "2023-04-22T11:48:00Z",
+     "2023-04-28T18:29:00Z"
+    ],
+    [
+     "2023-05-07T06:19:00Z",
+     "2023-05-14T23:15:00Z"
+    ],
+    [
+     "2023-07-14T21:00:00Z",
+     "2023-07-23T01:15:00Z"
+    ],
+    [
+     "2023-07-27T18:12:00Z",
+     "2023-08-03T00:53:00Z"
+    ],
+    [
+     "2023-08-04T10:00:00Z",
+     "2023-08-13T04:26:00Z"
+    ],
+    [
+     "2023-08-31T04:30:00Z",
+     "2023-09-06T05:05:00Z"
+    ],
+    [
+     "2023-12-14T10:05:00Z",
+     "2023-12-20T23:45:00Z"
+    ],
+    [
+     "2024-01-01T23:22:00Z",
+     "2024-01-08T20:05:00Z"
+    ],
+    [
+     "2024-01-21T13:00:00Z",
+     "2024-01-27T16:48:00Z"
+    ],
+    [
+     "2024-01-28T05:11:00Z",
+     "2024-02-03T06:15:00Z"
+    ],
+    [
+     "2024-02-05T05:25:00Z",
+     "2024-02-17T10:15:00Z"
+    ],
+    [
+     "2024-03-14T20:29:00Z",
+     "2024-03-21T02:57:00Z"
+    ],
+    [
+     "2024-03-22T05:57:00Z",
+     "2024-03-28T09:55:00Z"
+    ],
+    [
+     "2024-05-08T13:59:00Z",
+     "2024-05-18T18:07:00Z"
+    ],
+    [
+     "2024-06-07T02:25:00Z",
+     "2024-06-17T04:03:00Z"
+    ],
+    [
+     "2024-07-22T01:20:00Z",
+     "2024-07-28T03:00:00Z"
+    ],
+    [
+     "2024-07-30T20:10:00Z",
+     "2024-08-10T17:26:00Z"
+    ],
+    [
+     "2024-08-31T23:14:00Z",
+     "2024-09-14T20:58:00Z"
+    ],
+    [
+     "2024-09-16T04:33:00Z",
+     "2024-09-22T15:43:00Z"
+    ],
+    [
+     "2024-10-08T03:50:00Z",
+     "2024-10-14T08:55:00Z"
+    ],
+    [
+     "2024-10-25T16:45:00Z",
+     "2024-11-02T08:57:00Z"
+    ],
+    [
+     "2024-11-20T18:45:00Z",
+     "2024-11-26T19:25:00Z"
+    ],
+    [
+     "2024-12-07T10:20:00Z",
+     "2024-12-13T10:20:00Z"
+    ],
+    [
+     "2024-12-17T12:01:00Z",
+     "2024-12-26T16:12:00Z"
+    ],
+    [
+     "2025-01-03T21:46:00Z",
+     "2025-01-12T00:42:00Z"
+    ],
+    [
+     "2025-02-24T00:11:00Z",
+     "2025-03-06T03:22:00Z"
+    ],
+    [
+     "2025-03-29T21:50:00Z",
+     "2025-04-05T15:51:00Z"
+    ],
+    [
+     "2025-05-12T18:14:00Z",
+     "2025-05-18T18:14:00Z"
+    ],
+    [
+     "2025-05-30T15:00:00Z",
+     "2025-06-06T06:51:00Z"
+    ],
+    [
+     "2025-08-09T16:25:00Z",
+     "2025-08-15T16:25:00Z"
+    ],
+    [
+     "2025-08-23T16:34:00Z",
+     "2025-08-31T15:19:00Z"
+    ],
+    [
+     "2025-10-21T00:09:00Z",
+     "2025-10-27T00:09:00Z"
+    ],
+    [
+     "2025-11-09T10:24:00Z",
+     "2025-11-20T09:34:00Z"
+    ],
+    [
+     "2026-01-17T22:33:00Z",
+     "2026-01-26T03:00:00Z"
+    ],
+    [
+     "2026-05-24T23:31:00Z",
+     "2026-05-31T04:07:00Z"
+    ],
+    [
+     "2026-06-05T15:14:00Z",
+     "2026-06-11T15:14:00Z"
+    ],
+    [
+     "2026-07-29T18:20:00Z",
+     "2026-08-04T20:58:00Z"
+    ],
+    [
+     "2026-08-19T20:23:00Z",
+     "2026-08-27T22:28:00Z"
+    ],
+    [
+     "2026-09-04T15:45:00Z",
+     "2026-09-10T16:30:00Z"
+    ]
+   ],
+   "note": "Only windows from 1 day before to 5 days after each DONKI SEP event (merged)."
+  }
+ ]
+}
