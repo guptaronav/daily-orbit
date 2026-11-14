@@ -1,7 +1,7 @@
 import { getThreshold } from '../config/thresholds'
 import type { Indicator } from '../contract/types'
 
-export type EntryKind = 'bloodPressure' | 'temperature' | 'bloodSugar' | 'sleepHours' | 'exerciseMinutes'
+export type EntryKind = 'bloodPressure' | 'temperature' | 'bloodSugar' | 'sleepHours' | 'exerciseMinutes' | 'bodyMass' | 'bowelMovements'
 
 export type EntryField = {
   /** Form field name, unique inside its form. */
@@ -17,6 +17,8 @@ export type EntryField = {
   min: number
   max: number
   step: number
+  /** A count, so fractions are a typo too. */
+  whole?: boolean
 }
 
 export type EntryForm = {
@@ -30,7 +32,7 @@ export type EntryValue = { indicator: Indicator; value: number; unit: string }
 
 export type ValidationResult = { ok: true; values: EntryValue[] } | { ok: false; error: string; field: string }
 
-const field = (name: string, label: string, indicator: Indicator, min: number, max: number, step: number): EntryField => ({
+const field = (name: string, label: string, indicator: Indicator, min: number, max: number, step: number, whole = false): EntryField => ({
   name,
   label,
   indicator,
@@ -38,6 +40,7 @@ const field = (name: string, label: string, indicator: Indicator, min: number, m
   min,
   max,
   step,
+  ...(whole ? { whole } : {}),
 })
 
 export const ENTRY_FORMS: readonly EntryForm[] = [
@@ -74,6 +77,18 @@ export const ENTRY_FORMS: readonly EntryForm[] = [
     hint: 'Minutes of exercise today. Logging it earns points for the effort, never for the number.',
     fields: [field('exerciseMinutes', 'Minutes', 'exerciseMinutes', 0, 1440, 1)],
   },
+  {
+    kind: 'bodyMass',
+    title: 'Body mass',
+    hint: 'From the scale, in kilograms. NASA tracks body mass regularly as a nutrition signal.',
+    fields: [field('bodyMass', 'Body mass', 'bodyMass', 20, 300, 0.1)],
+  },
+  {
+    kind: 'bowelMovements',
+    title: 'Bowel movements',
+    hint: 'How many today, as a whole number (0 is a real answer). A gut and nutrition signal.',
+    fields: [field('bowelMovements', 'Movements today', 'bowelMovements', 0, 20, 1, true)],
+  },
 ]
 
 export function getForm(kind: EntryKind): EntryForm {
@@ -105,6 +120,7 @@ export function validateEntry(kind: EntryKind, raw: Readonly<Record<string, stri
 
     const value = Number(text)
     if (!Number.isFinite(value)) return fail(f.name, `${f.label} must be a number.`)
+    if (f.whole && !Number.isInteger(value)) return fail(f.name, `${f.label} must be a whole number.`)
     if (value < f.min || value > f.max) {
       return fail(f.name, `${f.label} must be between ${f.min} and ${f.max} ${f.unit}. Check for a typo — this is an input guard, not a health limit.`)
     }

@@ -1,20 +1,33 @@
-import { Suspense, lazy, useCallback, useEffect, useState } from 'react'
+import { Suspense, lazy, useCallback, useEffect, useState, type ComponentType } from 'react'
 import { DemoPanel } from './components/DemoPanel'
 import { Footer } from './components/Footer'
 import { TopBar } from './components/TopBar'
-import { Escalation } from './screens/Escalation'
 import { Landing } from './screens/Landing'
-import { Manual } from './screens/Manual'
-import { Medical } from './screens/Medical'
-import { Metrics } from './screens/Metrics'
-import { Progress } from './screens/Progress'
-import { Radiation } from './screens/Radiation'
-import { Sources } from './screens/Sources'
 import { AppProvider, useApp } from './state/AppContext'
 
-// The charts (body map) and the camera pipeline (mirror check) are the heavy parts: load them on demand.
-const BodyMap = lazy(() => import('./screens/BodyMap').then((m) => ({ default: m.BodyMap })))
-const MirrorCheck = lazy(() => import('./screens/mirror/MirrorCheck').then((m) => ({ default: m.MirrorCheck })))
+// Only the landing page is bundled with the app shell. Every other screen loads on demand, so the first
+// paint downloads the minimum. (The camera pipeline and the charts split off further inside their screens.)
+const lazyScreen = <K extends string>(load: () => Promise<Record<K, ComponentType>>, name: K) => lazy(() => load().then((m) => ({ default: m[name] })))
+
+const BodyMap = lazyScreen(() => import('./screens/BodyMap'), 'BodyMap')
+const MirrorCheck = lazyScreen(() => import('./screens/mirror/MirrorCheck'), 'MirrorCheck')
+const Progress = lazyScreen(() => import('./screens/Progress'), 'Progress')
+const Manual = lazyScreen(() => import('./screens/Manual'), 'Manual')
+const Escalation = lazyScreen(() => import('./screens/Escalation'), 'Escalation')
+const Radiation = lazyScreen(() => import('./screens/Radiation'), 'Radiation')
+const Medical = lazyScreen(() => import('./screens/Medical'), 'Medical')
+const Metrics = lazyScreen(() => import('./screens/Metrics'), 'Metrics')
+const Sources = lazyScreen(() => import('./screens/Sources'), 'Sources')
+
+/** The two screens a visitor almost always opens first, fetched in the background once the page is idle. */
+function prefetchLikelyScreens() {
+  const run = () => {
+    void import('./screens/BodyMap')
+    void import('./screens/mirror/MirrorCheck')
+  }
+  if ('requestIdleCallback' in window) window.requestIdleCallback(run, { timeout: 4000 })
+  else setTimeout(run, 2000)
+}
 
 function Screen() {
   const { screen, ready } = useApp()
@@ -37,9 +50,11 @@ function Screen() {
 const DEMO_EVENT = 'demo:toggle'
 
 function Shell() {
-  const { screen } = useApp()
+  const { screen, ready } = useApp()
   const [demoOpen, setDemoOpen] = useState(false)
   const toggleDemo = useCallback(() => setDemoOpen((o) => !o), [])
+
+  useEffect(() => prefetchLikelyScreens(), [])
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -64,7 +79,8 @@ function Shell() {
           <Screen />
         </Suspense>
       </div>
-      <Footer />
+      {/* Not shown until the data is ready: it names the crew's data label, and showing it early made it jump off-screen when the page filled in. */}
+      {ready && <Footer />}
       <DemoPanel open={demoOpen} onClose={() => setDemoOpen(false)} />
     </div>
   )
