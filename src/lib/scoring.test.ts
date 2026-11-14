@@ -1,6 +1,6 @@
 import { describe, expect, test } from 'vitest'
 import type { GameEvent, GameEventKind, Quality } from '../contract/types'
-import { SYSTEMS, WEEKLY_GOAL_PER_CREW, pointsFor, pointsInWindow, systemsStatus } from './scoring'
+import { EVENT_LABEL, POINTS, SYSTEMS, WEEKLY_GOAL_PER_CREW, crewProgress, pointsFor, pointsInWindow, systemsStatus } from './scoring'
 import { buildSessionRecords, type MirrorSession } from './session'
 import { mulberry32 } from './sim/rng'
 
@@ -88,6 +88,36 @@ describe('systemsStatus', () => {
       const now = systemsStatus(pts).filter((s) => s.online).length
       expect(now).toBeGreaterThanOrEqual(online)
       online = now
+    }
+  })
+})
+
+describe('crewProgress (shared weekly goal, never per person)', () => {
+  test('sums this week across the whole crew against a goal that scales with crew size', () => {
+    const events = [ev('checkInComplete', 0, 'crew-1'), ev('exerciseComplete', 2, 'crew-2'), ev('checkInComplete', 9, 'crew-3')]
+    const p = crewProgress(events, NOW, 4)
+    expect(p.weekPoints).toBe(POINTS.checkInComplete + POINTS.exerciseComplete)
+    expect(p.goal).toBe(WEEKLY_GOAL_PER_CREW * 4)
+    expect(p.fraction).toBeCloseTo(p.weekPoints / p.goal, 10)
+    expect(p.reached).toBe(false)
+    expect(p.totalPoints).toBe(pointsFor(events))
+  })
+
+  test('the bar caps at 100% but the goal can be exceeded', () => {
+    const many = Array.from({ length: 200 }, (_, i) => ({ ...ev('symptomReported', 0), id: `x${i}` }))
+    const p = crewProgress(many, NOW, 2)
+    expect(p.fraction).toBe(1)
+    expect(p.reached).toBe(true)
+  })
+
+  test('an empty crew has no goal and shows zero, never NaN', () => {
+    expect(crewProgress([], NOW, 0)).toMatchObject({ weekPoints: 0, goal: 0, fraction: 0, reached: false })
+  })
+
+  test('every event kind has a label and positive points, so the credit list can always be explained', () => {
+    for (const kind of Object.keys(POINTS) as (keyof typeof POINTS)[]) {
+      expect(POINTS[kind]).toBeGreaterThan(0)
+      expect(EVENT_LABEL[kind].length).toBeGreaterThan(3)
     }
   })
 })

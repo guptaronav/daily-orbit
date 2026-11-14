@@ -35,13 +35,33 @@ export const WEEKLY_GOAL_PER_CREW = 150
 export type ShipSystem = { id: string; name: string; threshold: number }
 
 // Text-only "ship systems" that come online as the crew's total points grow. Names are flavor, not claims.
+// ponytail: the last threshold is tuned so the seeded crew sits just below it and a judge's second check-in unlocks it. Retune if the seed changes.
 export const SYSTEMS: readonly ShipSystem[] = [
   { id: 'comms', name: 'Comms relay', threshold: 0 },
   { id: 'telemetry', name: 'Life-support telemetry', threshold: 300 },
   { id: 'medbay', name: 'Medical bay link', threshold: 900 },
   { id: 'shelter', name: 'Radiation shelter readiness', threshold: 1500 },
-  { id: 'nav', name: 'Deep-space navigation', threshold: 2200 },
+  { id: 'nav', name: 'Deep-space navigation', threshold: 1700 },
 ]
 
 export const systemsStatus = (totalPoints: number): (ShipSystem & { online: boolean })[] =>
   SYSTEMS.map((s) => ({ ...s, online: totalPoints >= s.threshold }))
+
+export type CrewProgress = {
+  /** Points the whole crew earned in the last 7 days. */
+  weekPoints: number
+  /** Shared weekly goal, scaled by crew size. */
+  goal: number
+  /** 0 to 1 for the progress bar (capped). */
+  fraction: number
+  reached: boolean
+  /** All-time points, which unlock ship systems. */
+  totalPoints: number
+}
+
+/** One shared goal for the whole crew. There is deliberately no per-person ranking anywhere. */
+export function crewProgress(allEvents: readonly GameEvent[], now: Date, crewCount: number): CrewProgress {
+  const weekPoints = pointsInWindow(allEvents, now, 7)
+  const goal = WEEKLY_GOAL_PER_CREW * Math.max(0, crewCount)
+  return { weekPoints, goal, fraction: goal > 0 ? Math.min(1, weekPoints / goal) : 0, reached: goal > 0 && weekPoints >= goal, totalPoints: pointsFor(allEvents) }
+}

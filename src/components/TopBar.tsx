@@ -8,6 +8,7 @@ import { Icon, type IconName } from './kit/Icon'
 const NAV: { screen: Screen; label: string; icon: IconName }[] = [
   { screen: 'bodymap', label: 'Body map', icon: 'body' },
   { screen: 'mirror', label: 'Mirror check', icon: 'eye' },
+  { screen: 'progress', label: 'Crew progress', icon: 'spark' },
   { screen: 'manual', label: 'Manual entry', icon: 'plus' },
   { screen: 'escalation', label: 'Escalation', icon: 'send' },
   { screen: 'radiation', label: 'Radiation', icon: 'shield' },

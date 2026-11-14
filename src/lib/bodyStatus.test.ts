@@ -61,6 +61,12 @@ describe('readIndicator', () => {
     expect(r.status).toBe('gray')
   })
 
+  test('reports how many earlier readings count toward the baseline', () => {
+    expect(readIndicator('heartRate', [m(0, 70), m(1, 71), m(2, 72)]).priorCount).toBe(2)
+    expect(readIndicator('heartRate', [m(0, 70), m(1, 99, BAD), m(2, 72)]).priorCount).toBe(1)
+    expect(readIndicator('heartRate', []).priorCount).toBe(0)
+  })
+
   test('categorical indicators use the categorical status', () => {
     const r = readIndicator('symptomReport', [m(0, { symptoms: ['headache'] }, OK, 'symptomReport')])
     expect(r.status).toBe('yellow')

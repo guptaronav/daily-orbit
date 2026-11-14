@@ -1,10 +1,12 @@
-import { FaceLandmarker, FilesetResolver } from '@mediapipe/tasks-vision'
+import type { FaceLandmarker } from '@mediapipe/tasks-vision'
 
 const BASE = import.meta.env.BASE_URL // model and wasm are bundled in /public, never fetched from a CDN
 
 let instance: Promise<FaceLandmarker> | null = null
 
 async function create(): Promise<FaceLandmarker> {
+  // Dynamic import: the large MediaPipe library is only downloaded when the mirror check starts the camera.
+  const { FaceLandmarker, FilesetResolver } = await import('@mediapipe/tasks-vision')
   const fileset = await FilesetResolver.forVisionTasks(`${BASE}wasm`)
   const options = { runningMode: 'VIDEO' as const, numFaces: 1, outputFaceBlendshapes: true }
   const modelAssetPath = `${BASE}models/face_landmarker.task`

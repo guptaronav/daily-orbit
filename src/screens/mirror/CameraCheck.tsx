@@ -4,6 +4,7 @@ import { runCapture } from '../../camera/capture'
 import { getFaceLandmarker } from '../../camera/faceLandmarker'
 import { createFrameAnalyzer, onEachFrame } from '../../camera/frames'
 import { useVideoSource, type VideoError, type VideoMode } from '../../camera/useVideoSource'
+import { OptionalSlider } from '../../components/OptionalSlider'
 import { btnPrimary, btnSecondary, linkBtn } from '../../components/ui'
 import { analyzeCapture, type CaptureAnalysis } from '../../lib/signal/analyze'
 import { positionChecks, type PositionChecks } from '../../lib/signal/position'
@@ -14,7 +15,8 @@ const CAPTURE_SECONDS = 40
 const CHECK_EVERY_MS = 120
 const NOSE_HISTORY = 15
 
-export type SelfReport = { sleepQuality: number; mood: number; stress: number }
+/** Only what the person actually answered. Untouched questions are absent, never defaulted. */
+export type SelfReport = Partial<Record<'sleepQuality' | 'mood' | 'stress' | 'sleepHours', number>>
 export type CameraResult = { analysis: CaptureAnalysis; selfReport: SelfReport; source: 'camera' | 'simulated' }
 
 const ERROR_COPY: Record<VideoError, string> = {
@@ -26,7 +28,7 @@ const ERROR_COPY: Record<VideoError, string> = {
 
 type Phase = 'intro' | 'position' | 'capturing'
 
-const SLIDERS: { key: keyof SelfReport; label: string }[] = [
+const SLIDERS: { key: 'sleepQuality' | 'mood' | 'stress'; label: string }[] = [
   { key: 'sleepQuality', label: 'How well did you sleep?' },
   { key: 'mood', label: 'How is your mood?' },
   { key: 'stress', label: 'How stressed do you feel?' },
@@ -51,8 +53,10 @@ export function CameraCheck({ onComplete }: { onComplete: (result: CameraResult)
   const [checks, setChecks] = useState<PositionChecks | null>(null)
   const [progress, setProgress] = useState(0)
   const [faceNow, setFaceNow] = useState(true)
-  const [report, setReport] = useState<SelfReport>({ sleepQuality: 5, mood: 5, stress: 5 })
+  const [report, setReport] = useState<SelfReport>({})
   const reportRef = useRef(report)
+  const setAnswer = (key: keyof SelfReport, value: number | undefined) =>
+    setReport(({ [key]: _dropped, ...rest }) => (value === undefined ? rest : { ...rest, [key]: value }))
   const abortRef = useRef<AbortController | null>(null)
 
   useEffect(() => {
@@ -171,7 +175,7 @@ export function CameraCheck({ onComplete }: { onComplete: (result: CameraResult)
       )}
 
       <div className="relative w-full max-w-xl overflow-hidden border border-ink bg-ink">
-        <video ref={videoRef} playsInline muted className="block w-full -scale-x-100" />
+        <video ref={videoRef} playsInline muted aria-label="Live camera preview" className="block w-full -scale-x-100" />
         <svg viewBox="0 0 100 75" className="pointer-events-none absolute inset-0 h-full w-full" aria-hidden>
           <ellipse cx="50" cy="38" rx="17" ry="24" fill="none" stroke={outline} strokeWidth="1.2" strokeDasharray={checks?.ready || phase === 'capturing' ? undefined : '3 2'} />
         </svg>
@@ -218,16 +222,26 @@ export function CameraCheck({ onComplete }: { onComplete: (result: CameraResult)
             <p className="mt-1 text-xs text-muted">{faceNow ? 'Reading…' : 'Face lost. Move back into the outline.'}</p>
           </div>
           <div className="max-w-xl space-y-3">
-            <p className="text-sm text-muted">While we read your pulse, answer these (0 is lowest, 10 is highest):</p>
+            <p className="text-sm text-muted">While we read your pulse, answer what you like (0 is lowest, 10 is highest). Skipped questions are not saved.</p>
             {SLIDERS.map(({ key, label }) => (
-              <label key={key} className="flex items-center justify-between gap-4 text-sm">
-                <span>{label}</span>
-                <span className="flex items-center gap-3">
-                  <input type="range" min={0} max={10} step={1} value={report[key]} onChange={(e) => setReport((r) => ({ ...r, [key]: Number(e.target.value) }))} />
-                  <span className="w-5 text-right font-medium">{report[key]}</span>
-                </span>
-              </label>
+              <OptionalSlider key={key} label={label} value={report[key]} onChange={(v) => setAnswer(key, v)} />
             ))}
+            <label className="flex items-center justify-between gap-4 text-sm">
+              <span>Hours you slept last night</span>
+              <input
+                type="number"
+                min={0}
+                max={14}
+                step={0.5}
+                inputMode="decimal"
+                value={report.sleepHours ?? ''}
+                onChange={(e) => {
+                  const raw = e.target.value
+                  setReport(({ sleepHours: _dropped, ...rest }) => (raw === '' ? rest : { ...rest, sleepHours: Math.min(14, Math.max(0, Number(raw))) }))
+                }}
+                className="w-20 border border-rule bg-panel px-2 py-1 text-right"
+              />
+            </label>
           </div>
         </div>
       )}

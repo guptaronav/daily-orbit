@@ -36,6 +36,19 @@ describe('buildSessionRecords', () => {
     expect(hr.value).toBe(0)
   })
 
+  test('a weak-but-plausible heart rate is kept as an estimate on a failed reading, never as a trusted one', () => {
+    const weak: Quality = { score: 0.5, passed: false, reason: 'lowSignal' }
+    const m = buildSessionRecords({ ...full, heartRate: { bpm: null, estimateBpm: 73, quality: weak, source: 'camera' } }, 'crew-1', NOW).measurements.find((x) => x.indicator === 'heartRate')!
+    expect(m.value).toBe(73)
+    expect(m.quality).toEqual(weak)
+  })
+
+  test('an estimate is ignored unless the only problem was a weak signal (motion, light, face stay at 0)', () => {
+    const bad: Quality = { score: 0, passed: false, reason: 'motion' }
+    const m = buildSessionRecords({ ...full, heartRate: { bpm: null, estimateBpm: 73, quality: bad, source: 'camera' } }, 'crew-1', NOW).measurements.find((x) => x.indicator === 'heartRate')!
+    expect(m.value).toBe(0)
+  })
+
   test('camera-derived readings use source camera, sample-video readings are labeled simulated', () => {
     const real = buildSessionRecords(full, 'crew-1', NOW).measurements
     expect(real.find((m) => m.indicator === 'heartRate')!.source).toBe('camera')
@@ -49,10 +62,36 @@ describe('buildSessionRecords', () => {
     expect(m.value).toBe(7)
   })
 
+  test('gut, nutrition and sleep-hours answers are saved with units and source selfReport', () => {
+    const s: MirrorSession = { sessionId: 's9', selfReport: { sleepHours: 6.5, appetite: 4, digestiveComfort: 7 } }
+    const ms = buildSessionRecords(s, 'crew-1', NOW).measurements
+    const by = (i: string) => ms.find((m) => m.indicator === i)!
+    expect(by('sleepHours')).toMatchObject({ value: 6.5, unit: 'h', source: 'selfReport' })
+    expect(by('appetite')).toMatchObject({ value: 4, unit: '0-10' })
+    expect(by('digestiveComfort')).toMatchObject({ value: 7, unit: '0-10' })
+  })
+
+  test('questions the person did not answer are not saved (no invented defaults)', () => {
+    const ms = buildSessionRecords({ sessionId: 's10', selfReport: { mood: 8 } }, 'crew-1', NOW).measurements
+    expect(ms.map((m) => m.indicator)).toEqual(['mood'])
+  })
+
   test('amsler combines both eyes: distortion if either eye reports it', () => {
     const left = { ...EYE, distortion: true, distortedCells: 4, fraction: 0.04 }
     const m = buildSessionRecords({ ...full, amsler: { left, right: EYE } }, 'crew-1', NOW).measurements.find((x) => x.indicator === 'amslerDistortion')!
     expect(m.value).toMatchObject({ distortion: true, distortedCells: 4 })
+  })
+
+  test('an unreadable acuity check is saved as a failed reading, not judged', () => {
+    const { measurements, events } = buildSessionRecords({ ...full, acuity: { logMar: 1.1, readable: false } }, 'crew-1', NOW)
+    const m = measurements.find((x) => x.indicator === 'nearAcuity')!
+    expect(m.quality).toMatchObject({ passed: false, reason: 'other' })
+    expect(events.some((e) => e.kind === 'checkInComplete')).toBe(true)
+  })
+
+  test('a readable acuity check passes quality', () => {
+    const m = buildSessionRecords({ ...full, acuity: { logMar: 0.3, readable: true } }, 'crew-1', NOW).measurements.find((x) => x.indicator === 'nearAcuity')!
+    expect(m.quality.passed).toBe(true)
   })
 
   test('only parts of the session that happened are saved', () => {

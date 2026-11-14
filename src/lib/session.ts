@@ -7,11 +7,13 @@ type CameraSource = Extract<Source, 'camera' | 'simulated'>
 /** Everything one mirror check collects. Each part is optional because a check can be partial. */
 export type MirrorSession = {
   sessionId: string
-  heartRate?: { bpm: number | null; quality: Quality; source: CameraSource }
+  heartRate?: { bpm: number | null; estimateBpm?: number | null; quality: Quality; source: CameraSource }
   blink?: { blinkRate: number; eyelidClosurePct: number; quality: Quality; source: CameraSource }
-  selfReport?: { sleepQuality: number; mood: number; stress: number }
+  /** Only questions the person actually answered; unanswered ones are absent, never defaulted. */
+  selfReport?: Partial<Record<'sleepQuality' | 'mood' | 'stress' | 'sleepHours' | 'appetite' | 'digestiveComfort', number>>
   amsler?: { left: AmslerSummary; right: AmslerSummary }
-  acuity?: { logMar: number }
+  /** `readable: false` means the largest letter was never answered correctly: refuse to judge it. */
+  acuity?: { logMar: number; readable?: boolean }
   symptoms?: { symptoms: string[]; note?: string }
   /** True when this session's reading was retaken after a quality failure. */
   retookAfterQualityFail?: boolean
@@ -52,15 +54,21 @@ export function buildSessionRecords(session: MirrorSession, crewId: string, now:
     })
 
   const { heartRate, blink, selfReport, amsler, acuity, symptoms } = session
-  if (heartRate) add('heartRate', heartRate.bpm ?? 0, heartRate.source, heartRate.quality)
+  if (heartRate) {
+    // A weak-signal estimate is kept as the value of a FAILED reading (never trusted, colored or baselined).
+    // Only when weak signal was the sole problem; for motion, light or a lost face the value stays 0.
+    const estimate = heartRate.quality.reason === 'lowSignal' ? (heartRate.estimateBpm ?? 0) : 0
+    add('heartRate', heartRate.bpm ?? estimate, heartRate.source, heartRate.quality)
+  }
   if (blink) {
     add('blinkRate', blink.blinkRate, blink.source, blink.quality)
     add('eyelidClosure', blink.eyelidClosurePct, blink.source, blink.quality)
   }
   if (selfReport) {
-    add('sleepQuality', selfReport.sleepQuality, 'selfReport')
-    add('mood', selfReport.mood, 'selfReport')
-    add('stress', selfReport.stress, 'selfReport')
+    for (const indicator of ['sleepQuality', 'mood', 'stress', 'sleepHours', 'appetite', 'digestiveComfort'] as const) {
+      const value = selfReport[indicator]
+      if (value !== undefined) add(indicator, value, 'selfReport')
+    }
   }
   if (amsler) {
     add(
@@ -75,7 +83,7 @@ export function buildSessionRecords(session: MirrorSession, crewId: string, now:
       'selfReport',
     )
   }
-  if (acuity) add('nearAcuity', acuity.logMar, 'selfReport')
+  if (acuity) add('nearAcuity', acuity.logMar, 'selfReport', acuity.readable === false ? { score: 0, passed: false, reason: 'other' } : PASSED)
   if (symptoms) add('symptomReport', { symptoms: symptoms.symptoms, ...(symptoms.note ? { note: symptoms.note } : {}) }, 'selfReport')
 
   const events = sessionEventKinds(session).map((kind): GameEvent => ({ id: crypto.randomUUID(), crewId, timestamp, kind }))

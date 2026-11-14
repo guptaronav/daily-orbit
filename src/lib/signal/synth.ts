@@ -10,6 +10,8 @@ export type SynthOptions = {
   drift?: number
   /** 0 removes the pulse entirely (noise/drift only). Default 1. */
   pulseScale?: number
+  /** Amplitude of the second harmonic relative to the fundamental. Real pulse waveforms are not pure sines. Default 0. */
+  harmonic?: number
   seed?: number
 }
 
@@ -18,7 +20,7 @@ const DC = { r: 180, g: 120, b: 100 }
 const PULSE = { r: 0.003, g: 0.01, b: 0.005 }
 
 /** Synthetic face-ROI mean RGB traces with a known heart rate. Test helper only. */
-export function synthRgb({ bpm, fps, seconds, noise = 0.0015, drift = 0.02, pulseScale = 1, seed = 1 }: SynthOptions) {
+export function synthRgb({ bpm, fps, seconds, noise = 0.0015, drift = 0.02, pulseScale = 1, harmonic = 0, seed = 1 }: SynthOptions) {
   const rand = mulberry32(seed)
   const n = Math.round(fps * seconds)
   const r: number[] = []
@@ -26,7 +28,8 @@ export function synthRgb({ bpm, fps, seconds, noise = 0.0015, drift = 0.02, puls
   const b: number[] = []
   for (let i = 0; i < n; i++) {
     const t = i / fps
-    const pulse = pulseScale * Math.sin(2 * Math.PI * (bpm / 60) * t)
+    const theta = 2 * Math.PI * (bpm / 60) * t
+    const pulse = pulseScale * (Math.sin(theta) + harmonic * Math.sin(2 * theta + 0.8))
     const light = 1 + drift * Math.sin(2 * Math.PI * 0.1 * t)
     r.push(DC.r * light * (1 + PULSE.r * pulse + noise * gaussian(rand)))
     g.push(DC.g * light * (1 + PULSE.g * pulse + noise * gaussian(rand)))

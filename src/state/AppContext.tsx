@@ -6,6 +6,7 @@ import { ENVIRONMENTS, type EnvId, type Environment } from '../lib/environments'
 export type Screen =
   | 'landing'
   | 'bodymap'
+  | 'progress'
   | 'mirror'
   | 'manual'
   | 'escalation'
@@ -35,13 +36,22 @@ type AppState = {
 
 const Ctx = createContext<AppState | null>(null)
 
+const SCREENS: readonly Screen[] = ['landing', 'bodymap', 'progress', 'mirror', 'manual', 'escalation', 'radiation', 'metrics', 'sources', 'medical', 'demo']
+
+/** Development only (stripped from production builds): open the app on a given screen with ?screen=progress. */
+const devScreen: Screen = (() => {
+  if (!import.meta.env.DEV) return 'landing'
+  const wanted = new URLSearchParams(location.search).get('screen')
+  return SCREENS.find((s) => s === wanted) ?? 'landing'
+})()
+
 export function AppProvider({ children }: { children: ReactNode }) {
   const [crew, setCrew] = useState<CrewMember[]>([])
   const [ready, setReady] = useState(false)
   const [crewId, setCrewId] = useState('crew-1')
   const [envId, setEnvId] = useState<EnvId>('mars')
   const [delayOverride, setDelayOverride] = useState<number | null>(null)
-  const [screen, go] = useState<Screen>('landing')
+  const [screen, go] = useState<Screen>(devScreen)
   const [dataVersion, setDataVersion] = useState(0)
 
   const refresh = useCallback(() => setDataVersion((v) => v + 1), [])

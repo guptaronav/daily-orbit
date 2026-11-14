@@ -149,9 +149,13 @@ export function Landing() {
                     ))}
                   </select>
                 </label>
-                <div className="mt-3">
+                <div className="mt-3 flex flex-wrap gap-x-6 gap-y-1">
                   <button onClick={() => void resetDemo()} className={linkBtn}>
                     Reset demo data
+                  </button>
+                  {/* Ronav's demo control panel, also on Shift+D. */}
+                  <button onClick={() => window.dispatchEvent(new Event('demo:toggle'))} className={linkBtn}>
+                    Demo controls (Shift+D)
                   </button>
                 </div>
               </div>

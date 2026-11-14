@@ -1,5 +1,6 @@
 import { describe, expect, test } from 'vitest'
-import { currentStreak } from './streak'
+import type { GameEvent } from '../contract/types'
+import { checkInDays, currentStreak } from './streak'
 
 const TODAY = '2026-11-14'
 // Days relative to TODAY as ISO date strings: d(0) = today, d(1) = yesterday, ...
@@ -42,5 +43,24 @@ describe('currentStreak (forgiving: one missed day per week is fine)', () => {
 
   test('duplicate days count once', () => {
     expect(currentStreak([d(0), d(0), d(1)], TODAY)).toBe(2)
+  })
+})
+
+describe('checkInDays', () => {
+  const ev = (kind: GameEvent['kind'], iso: string, crewId = 'crew-1'): GameEvent => ({ id: `${kind}${iso}${crewId}`, crewId, kind, timestamp: iso })
+
+  test('unique ISO dates of check-ins for that crew member only, oldest first', () => {
+    const events = [
+      ev('checkInComplete', '2026-11-13T09:00:00Z'),
+      ev('checkInComplete', '2026-11-12T20:00:00Z'),
+      ev('checkInComplete', '2026-11-13T21:00:00Z'), // same day twice counts once
+      ev('exerciseComplete', '2026-11-11T09:00:00Z'), // not a check-in
+      ev('checkInComplete', '2026-11-10T09:00:00Z', 'crew-2'), // someone else
+    ]
+    expect(checkInDays(events, 'crew-1')).toEqual(['2026-11-12', '2026-11-13'])
+  })
+
+  test('no check-ins is an empty list', () => {
+    expect(checkInDays([], 'crew-1')).toEqual([])
   })
 })

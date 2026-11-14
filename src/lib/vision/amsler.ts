@@ -23,3 +23,29 @@ export function summarizeAmsler(marked: ReadonlySet<string>, n: number): AmslerS
   }
   return { distortion: count > 0, distortedCells: count, fraction: count / (n * n), centralAffected: central }
 }
+
+export type Cell = { row: number; col: number }
+
+/**
+ * Where the keyboard focus goes next on the grid. Arrow keys move one square and stop at the edges,
+ * Home/End jump to the ends of the row. Any other key returns null so normal behavior (Tab, Space) is kept.
+ */
+export function nextCell(from: Cell, key: string, n: number): Cell | null {
+  const clamp = (v: number) => Math.min(n - 1, Math.max(0, v))
+  switch (key) {
+    case 'ArrowUp':
+      return { row: clamp(from.row - 1), col: from.col }
+    case 'ArrowDown':
+      return { row: clamp(from.row + 1), col: from.col }
+    case 'ArrowLeft':
+      return { row: from.row, col: clamp(from.col - 1) }
+    case 'ArrowRight':
+      return { row: from.row, col: clamp(from.col + 1) }
+    case 'Home':
+      return { row: from.row, col: 0 }
+    case 'End':
+      return { row: from.row, col: n - 1 }
+    default:
+      return null
+  }
+}
