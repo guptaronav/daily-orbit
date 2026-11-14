@@ -419,9 +419,15 @@ export const SHOP = [
   { id: 'banner-orbit', slot: 'banner', name: 'Orbits', price: 180, bg: 'repeating-radial-gradient(circle at 85% 120%, transparent 0 26px, rgba(243,241,234,.18) 26px 27px), #0b3d91', ink: '#fbfaf6' },
   { id: 'banner-stars', slot: 'banner', name: 'Deep field', price: 260, bg: 'radial-gradient(1px 1px at 12% 30%, #fff, transparent), radial-gradient(1px 1px at 38% 70%, #fff, transparent), radial-gradient(1.5px 1.5px at 66% 22%, #fff, transparent), radial-gradient(1px 1px at 82% 62%, #fff, transparent), radial-gradient(1px 1px at 92% 18%, #fff, transparent), radial-gradient(1px 1px at 24% 88%, #fff, transparent), #0a0e16', ink: '#fbfaf6' },
   { id: 'banner-mars', slot: 'banner', name: 'Red dunes', price: 340, bg: 'repeating-linear-gradient(170deg, rgba(0,0,0,.08) 0 2px, transparent 2px 14px), linear-gradient(180deg, #e9a17a, #b3412a)', ink: '#fffaf3' },
+  // Illustrated mission scenes (src/proto/MissionScene.tsx). `bg` is the backdrop the scene draws over.
+  { id: 'banner-mission', slot: 'banner', name: 'Current mission', price: 0, scene: 'mission', bg: 'linear-gradient(180deg, #050814, #0b1430)', ink: '#f3f1ea' },
+  { id: 'banner-lunar', slot: 'banner', name: 'Earthrise', price: 220, scene: 'lunar', bg: 'linear-gradient(180deg, #000, #0a0d14)', ink: '#f3f1ea' },
+  { id: 'banner-iss', slot: 'banner', name: 'Pale blue dot', price: 280, scene: 'iss', bg: 'linear-gradient(180deg, #050814, #0b1430)', ink: '#f3f1ea' },
+  { id: 'banner-jezero', slot: 'banner', name: 'Jezero dusk', price: 360, scene: 'mars', bg: 'linear-gradient(180deg, #1b0c17, #b8643a)', ink: '#f3f1ea' },
+  { id: 'banner-transit', slot: 'banner', name: 'Deep transit', price: 420, scene: 'transit', bg: 'linear-gradient(180deg, #070612, #1a1033)', ink: '#f3f1ea' },
 ]
 export const SLOTS = [['frame', 'Frames'], ['visor', 'Visors'], ['suit', 'Suits'], ['patch', 'Patches'], ['top', 'Toppers'], ['banner', 'Banners']]
-const DEFAULT_GEAR = { frame: 'frame-none', visor: 'visor-std', suit: 'suit-white', patch: 'patch-none', top: 'top-none', banner: 'banner-plain' }
+const DEFAULT_GEAR = { frame: 'frame-none', visor: 'visor-std', suit: 'suit-white', patch: 'patch-none', top: 'top-none', banner: 'banner-mission' }
 const STARTER = {
   'crew-1': { owned: ['frame-gold', 'visor-gold', 'patch-moon', 'banner-stars', 'top-antenna'], eq: { frame: 'frame-gold', visor: 'visor-gold', patch: 'patch-moon', banner: 'banner-stars', top: 'top-antenna' } },
   'crew-2': { owned: ['frame-brass', 'suit-orange', 'patch-iss', 'banner-grid'], eq: { frame: 'frame-brass', suit: 'suit-orange', patch: 'patch-iss', banner: 'banner-grid' } },
@@ -430,12 +436,14 @@ const STARTER = {
 const FREE = SHOP.filter((x) => x.price === 0).map((x) => x.id)
 
 /** Cosmetic locker state only: what you own, what you wear, what you have spent. */
-type Locker = { owned: string[]; equipped: Record<string, string>; spent: number; bonus: number; granted: string[]; pass: number[]; onboarded: boolean; goal: string; log: { n: number; why: string; at: number }[] }
+type Locker = { owned: string[]; equipped: Record<string, string>; spent: number; bonus: number; granted: string[]; pass: number[]; found: string[]; onboarded: boolean; goal: string; log: { n: number; why: string; at: number }[] }
 const lockerKey = (id) => 'chm-locker-' + id
 function locker(id): Locker {
   const st = STARTER[id] || { owned: [], eq: {} }
-  let l: Locker = { owned: [...FREE, ...st.owned], equipped: { ...DEFAULT_GEAR, ...st.eq }, spent: 0, bonus: 0, granted: [], pass: [], onboarded: id !== 'guest', goal: 'regular', log: [] }
+  let l: Locker = { owned: [...FREE, ...st.owned], equipped: { ...DEFAULT_GEAR, ...st.eq }, spent: 0, bonus: 0, granted: [], pass: [], found: [], onboarded: id !== 'guest', goal: 'regular', log: [] }
   try { const raw = localStorage.getItem(lockerKey(id)); if (raw) l = { ...l, ...JSON.parse(raw) } } catch {}
+  l.owned = Array.from(new Set([...FREE, ...l.owned]))
+  l.found = l.found || []
   return l
 }
 function saveLocker(id, l: Locker) {
@@ -585,6 +593,7 @@ export function achievements(id) {
     { id: 'full', name: 'Full picture', desc: 'Good data in all six regions', icon: 'body', got: Object.values(cd.statuses).every((s) => s !== 'gray') },
     { id: 'crew', name: 'Crew player', desc: 'Help the crew hit its weekly goal', icon: 'users', got: crewGoal().frac >= 1 },
     { id: 'collector', name: 'Collector', desc: 'Own five accessories', icon: 'award', got: paid >= 5 },
+    { id: 'explorer', name: 'Explorer', desc: `Find all ${DISCOVERY_COUNT} discoveries in the mission banners`, icon: 'spark', got: locker(id).found.length >= DISCOVERY_COUNT },
   ]
 }
 /** The daily crate always pays the supply-drop rate: one honest number, not a lottery. */
@@ -627,3 +636,59 @@ export function recommendedAction(ind) {
   const a = getContent(ind).recommendedAction
   return !a || a === '[CONTENT TODO]' ? 'Tell a crewmate or your crew medical officer, and pick one small change you can make today.' : a
 }
+
+/* ---- Mission scenes: what each banner draws, and the discoveries hidden in it ---------------- */
+
+/** Which scene a mission sends you to. Mars is "Mars transit": the crew is still on the way. */
+const MISSION_SCENE = { iss: 'iss', lunar: 'lunar', mars: 'transit' }
+/** The scene a banner draws (null for a plain one). The mission banner follows the chosen mission. */
+export function sceneFor(banner) {
+  if (!banner || !banner.scene) return null
+  return banner.scene === 'mission' ? MISSION_SCENE[getState().envId] || 'iss' : banner.scene
+}
+
+/** Every fact here is checked against NASA material; keep them short and true. */
+export const DISCOVERIES = {
+  mars: [
+    { id: 'rover', label: 'Rover', fact: 'Perseverance has been exploring Jezero Crater, an ancient lake bed, since February 2021.' },
+    { id: 'devil', label: 'Dust devil', fact: 'Whirlwinds on Mars can tower several kilometres high, and gusts have cleaned dust off rover solar panels.' },
+    { id: 'sunset', label: 'Blue sunset', fact: 'Martian sunsets glow blue: fine dust scatters blue light forward, toward whoever is watching.' },
+  ],
+  iss: [
+    { id: 'station', label: 'Space station', fact: 'The ISS circles Earth about every 90 minutes, so its crew sees around 16 sunrises a day.' },
+    { id: 'aurora', label: 'Aurora', fact: 'Auroras glow roughly 100 to 300 km up. The ISS flies at about 400 km, so crews look down on them.' },
+    { id: 'cargo', label: 'Cargo ship', fact: 'Uncrewed cargo ships bring food, water, spare parts and experiments several times a year.' },
+  ],
+  lunar: [
+    { id: 'earth', label: 'Earth', fact: "From the Moon's near side, Earth stays in almost the same spot in the sky, going through phases." },
+    { id: 'flag', label: 'Flag', fact: 'With no air there is nothing to make a flag wave, so Apollo flags hung from a horizontal rod.' },
+    { id: 'prints', label: 'Bootprints', fact: 'No wind and no rain: bootprints in lunar dust can last for millions of years.' },
+  ],
+  transit: [
+    { id: 'ship', label: 'Spacecraft', fact: 'A trip to Mars takes roughly six to nine months each way, depending on where the planets are.' },
+    { id: 'earth', label: 'Earth', fact: 'At Mars distances a message takes about 3 to 22 minutes each way, so the crew handles emergencies on their own.' },
+    { id: 'sun', label: 'Solar storm', fact: "Outside Earth's magnetic field, solar particle events are a major radiation risk. The Radiation page replays a real one." },
+  ],
+}
+export const DISCOVERY_COUNT = Object.values(DISCOVERIES).reduce((a, d) => a + d.length, 0)
+export const SCENE_BONUS = 20
+
+export function foundIn(id, scene) {
+  const f = locker(id).found
+  return (DISCOVERIES[scene] || []).filter((d) => f.includes(`${scene}:${d.id}`)).map((d) => d.id)
+}
+
+/**
+ * Record a discovery. Finding the last one in a scene pays a one-off bonus (cosmetic coins only,
+ * never XP), so tapping the same thing again can never farm anything.
+ */
+export function discover(id, scene, did) {
+  const key = `${scene}:${did}`
+  const l = locker(id)
+  if (l.found.includes(key)) return { fresh: false, bonus: 0 }
+  saveLocker(id, { ...l, found: [...l.found, key] })
+  const all = (DISCOVERIES[scene] || []).every((d) => locker(id).found.includes(`${scene}:${d.id}`))
+  const bonus = all ? grant(id, SCENE_BONUS, `scene-${scene}`, `Explored every corner of ${SCENE_NAMES[scene]}`) : 0
+  return { fresh: true, bonus }
+}
+export const SCENE_NAMES = { mars: 'Jezero dusk', iss: 'Pale blue dot', lunar: 'Earthrise', transit: 'Deep transit' }

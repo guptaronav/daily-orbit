@@ -4,6 +4,7 @@
 // Edit the view model that feeds this, not this markup, unless you are re-porting the prototype.
 import { Fragment } from 'react'
 import { FloatingCrew } from './FloatingCrew'
+import { BannerScene } from './MissionScene'
 import * as P from './parts'
 import { S } from './parts'
 
@@ -15,10 +16,11 @@ export function RewardsView({ v }: { v: any }) {
         <P.TopBar current="Rewards" />
         <main id="main" tabIndex={-1} style={S({ flex: '1', width: '100%', maxWidth: '1440px', margin: '0 auto', padding: '24px clamp(16px, 3vw, 32px) 72px', boxSizing: 'border-box', outline: 'none', display: 'flex', flexDirection: 'column', gap: '20px' })}>
           <section data-reveal="1" aria-label="Profile" style={S({ position: 'relative', borderRadius: '32px', overflow: 'hidden', background: 'var(--panel)', border: '1px solid var(--rule)', animation: 'rw-rise 520ms cubic-bezier(.22,1,.36,1) both' })}>
-            <div style={S({ position: 'relative', overflow: 'hidden', height: 'clamp(130px, 18vw, 200px)', background: v.bannerBg, transition: 'background 400ms ease' })}>
+            <div style={S({ position: 'relative', overflow: 'hidden', height: 'clamp(170px, 22vw, 260px)', background: v.bannerBg, transition: 'background 400ms ease' })}>
+              <BannerScene banner={v.gear?.banner} crewId={v.crew?.id} interactive={true} />
               <FloatingCrew crew={v.crew} gear={v.gear} size={72} duration={16} />
             </div>
-            <div style={S({ display: 'flex', flexWrap: 'wrap', alignItems: 'flex-end', justifyContent: 'space-between', gap: '20px 32px', padding: '0 clamp(20px, 3vw, 36px) 28px', marginTop: '-64px' })}>
+            <div style={S({ position: 'relative', pointerEvents: 'none', display: 'flex', flexWrap: 'wrap', alignItems: 'flex-end', justifyContent: 'space-between', gap: '20px 32px', padding: '0 clamp(20px, 3vw, 36px) 28px', marginTop: '-64px' })}>
               <div style={S({ display: 'flex', flexWrap: 'wrap', alignItems: 'flex-end', gap: '20px' })}>
                 <span key={v.gearKey} style={S({ animation: 'rw-pop 520ms cubic-bezier(.34,1.56,.64,1) both' })}>
                   <P.Avatar crew={v.crew} gear={v.gear} size={136} ring="var(--panel)" level={v.lvl} />
@@ -431,6 +433,7 @@ export function RewardsView({ v }: { v: any }) {
                     {(it.isBanner) ? (
                       <>
                       <span style={S({ position: 'absolute', inset: '0', background: it.bannerBg })}>
+                        <BannerScene banner={it.gear?.banner} />
                       </span>
                       </>
                     ) : null}
