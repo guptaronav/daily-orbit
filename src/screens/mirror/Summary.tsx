@@ -17,6 +17,8 @@ type Props = {
   sessionId: string
   /** Effort events this check-in earned. */
   earned: GameEventKind[]
+  /** Events that were logged but earn nothing new today (already counted once). */
+  alreadyCounted: GameEventKind[]
   diagnostics?: CaptureDiagnostics | null
   trace?: CaptureTrace | null
   onRetake: () => void
@@ -26,7 +28,7 @@ type Props = {
 // Shown in this order; only indicators that were actually measured this session appear.
 const ORDER: Indicator[] = ['heartRate', 'blinkRate', 'eyelidClosure', 'sleepHours', 'sleepQuality', 'mood', 'stress', 'appetite', 'digestiveComfort', 'amslerDistortion', 'nearAcuity', 'symptomReport']
 
-export function Summary({ crewId, sessionId, earned, diagnostics, trace, onRetake, onDone }: Props) {
+export function Summary({ crewId, sessionId, earned, alreadyCounted, diagnostics, trace, onRetake, onDone }: Props) {
   const [all, setAll] = useState<Measurement[] | null>(null)
   const [copied, setCopied] = useState<'idle' | 'ok' | 'failed'>('idle')
 
@@ -112,6 +114,11 @@ export function Summary({ crewId, sessionId, earned, diagnostics, trace, onRetak
             </li>
           ))}
         </ul>
+        {alreadyCounted.length > 0 && (
+          <p className="mt-2 text-sm text-muted">
+            Already counted today, so no new credit: {alreadyCounted.map((k) => EVENT_LABEL[k].toLowerCase()).join(', ')}. Each kind of credit counts once a day.
+          </p>
+        )}
         <p className="mt-2 text-xs text-muted">Points come from what you did, not from your readings. A hard day earns exactly what an easy one does.</p>
       </section>
       {diagnostics && (

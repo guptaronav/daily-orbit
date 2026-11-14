@@ -1,6 +1,6 @@
 import { describe, expect, test } from 'vitest'
 import type { GameEvent, GameEventKind, Quality } from '../contract/types'
-import { EVENT_LABEL, POINTS, SYSTEMS, WEEKLY_GOAL_PER_CREW, crewProgress, pointsFor, pointsInWindow, systemsStatus } from './scoring'
+import { EVENT_LABEL, POINTS, SYSTEMS, WEEKLY_GOAL_PER_CREW, creditableKinds, creditedEvents, crewProgress, pointsFor, pointsInWindow, systemsStatus } from './scoring'
 import { buildSessionRecords, type MirrorSession } from './session'
 import { mulberry32 } from './sim/rng'
 
@@ -103,11 +103,25 @@ describe('crewProgress (shared weekly goal, never per person)', () => {
     expect(p.totalPoints).toBe(pointsFor(events))
   })
 
-  test('the bar caps at 100% but the goal can be exceeded', () => {
-    const many = Array.from({ length: 200 }, (_, i) => ({ ...ev('symptomReported', 0), id: `x${i}` }))
-    const p = crewProgress(many, NOW, 2)
+  test('the bar caps at 100% but the goal can be exceeded, by genuine effort over several days and people', () => {
+    const steps = ['sleep', 'nutrition', 'escalate']
+    const real: GameEvent[] = []
+    for (const crewId of ['crew-1', 'crew-2']) {
+      for (let day = 0; day < 6; day++) {
+        for (const kind of Object.keys(POINTS) as GameEventKind[]) {
+          for (const detail of kind === 'countermeasureComplete' ? steps : [undefined]) real.push({ ...ev(kind, day, crewId), id: `${crewId}-${day}-${kind}-${detail}`, ...(detail ? { detail } : {}) })
+        }
+      }
+    }
+    const p = crewProgress(real, NOW, 2)
     expect(p.fraction).toBe(1)
     expect(p.reached).toBe(true)
+    expect(p.weekPoints).toBeGreaterThan(p.goal)
+  })
+
+  test('piling events into one day cannot reach the goal', () => {
+    const spam = Array.from({ length: 200 }, (_, i) => ({ ...ev('symptomReported', 0), id: `x${i}` }))
+    expect(crewProgress(spam, NOW, 2).reached).toBe(false)
   })
 
   test('an empty crew has no goal and shows zero, never NaN', () => {
@@ -119,5 +133,74 @@ describe('crewProgress (shared weekly goal, never per person)', () => {
       expect(POINTS[kind]).toBeGreaterThan(0)
       expect(EVENT_LABEL[kind].length).toBeGreaterThan(3)
     }
+  })
+})
+
+describe('anti-farming: each kind earns credit once per person per day', () => {
+  const at = (kind: GameEventKind, iso: string, crewId = 'crew-1', detail?: string): GameEvent => ({
+    id: `${kind}-${iso}-${crewId}-${detail ?? ''}-${Math.random()}`,
+    crewId,
+    kind,
+    timestamp: iso,
+    ...(detail ? { detail } : {}),
+  })
+
+  test('fifty check-ins in one day are worth the same as one', () => {
+    const spam = Array.from({ length: 50 }, (_, i) => at('checkInComplete', `2026-11-14T0${i % 9}:${String(i).padStart(2, '0')}:00Z`))
+    expect(pointsFor(creditedEvents(spam))).toBe(POINTS.checkInComplete)
+  })
+
+  test('check-ins on different days, and by different people, each count', () => {
+    const events = [at('checkInComplete', '2026-11-13T09:00:00Z'), at('checkInComplete', '2026-11-14T09:00:00Z'), at('checkInComplete', '2026-11-14T09:00:00Z', 'crew-2')]
+    expect(creditedEvents(events)).toHaveLength(3)
+  })
+
+  test('fake symptom reports cannot be farmed: one credited per day', () => {
+    const spam = Array.from({ length: 10 }, (_, i) => at('symptomReported', `2026-11-14T1${i % 9}:00:00Z`))
+    expect(pointsFor(creditedEvents(spam))).toBe(POINTS.symptomReported)
+  })
+
+  test('different care steps on the same day each count, the same step twice does not', () => {
+    const events = [at('countermeasureComplete', '2026-11-14T08:00:00Z', 'crew-1', 'sleep'), at('countermeasureComplete', '2026-11-14T09:00:00Z', 'crew-1', 'nutrition'), at('countermeasureComplete', '2026-11-14T10:00:00Z', 'crew-1', 'sleep')]
+    expect(creditedEvents(events)).toHaveLength(2)
+  })
+
+  test('the earliest event of the day is the one that is credited', () => {
+    const early = at('exerciseComplete', '2026-11-14T06:00:00Z')
+    const late = at('exerciseComplete', '2026-11-14T20:00:00Z')
+    expect(creditedEvents([late, early]).map((e) => e.id)).toEqual([early.id])
+  })
+
+  test('the weekly crew total and the all-time total use the capped credit', () => {
+    const spam = Array.from({ length: 30 }, (_, i) => ({ ...ev('checkInComplete', 0), id: `s${i}` }))
+    expect(pointsInWindow(spam, NOW, 7)).toBe(POINTS.checkInComplete)
+    expect(crewProgress(spam, NOW, 4).totalPoints).toBe(POINTS.checkInComplete)
+  })
+
+  test('the most anyone can earn in a day is bounded', () => {
+    const everything: GameEvent[] = (Object.keys(POINTS) as GameEventKind[]).flatMap((kind) =>
+      Array.from({ length: 20 }, (_, i) => at(kind, `2026-11-14T${String(i % 20).padStart(2, '0')}:00:00Z`, 'crew-1', kind === 'countermeasureComplete' ? ['sleep', 'nutrition', 'escalate'][i % 3] : undefined)),
+    )
+    // 4 plain kinds once each + countermeasure once per distinct step (3)
+    const max = POINTS.checkInComplete + POINTS.symptomReported + POINTS.exerciseComplete + POINTS.retakeAfterQualityFail + 3 * POINTS.countermeasureComplete
+    expect(pointsFor(creditedEvents(everything))).toBe(max)
+  })
+
+  test('creditableKinds says which of a new check-in\'s events still earn credit today', () => {
+    const existing = [at('checkInComplete', '2026-11-14T08:00:00Z')]
+    const out = creditableKinds(existing, [{ kind: 'checkInComplete' }, { kind: 'symptomReported' }], 'crew-1', new Date('2026-11-14T12:00:00Z'))
+    expect(out.credited.map((e) => e.kind)).toEqual(['symptomReported'])
+    expect(out.alreadyCounted.map((e) => e.kind)).toEqual(['checkInComplete'])
+  })
+
+  test('creditableKinds with no earlier events credits everything', () => {
+    const out = creditableKinds([], [{ kind: 'checkInComplete' }, { kind: 'retakeAfterQualityFail' }], 'crew-1', NOW)
+    expect(out.credited).toHaveLength(2)
+    expect(out.alreadyCounted).toHaveLength(0)
+  })
+
+  test('a new kind has a label and positive points', () => {
+    expect(POINTS.countermeasureComplete).toBeGreaterThan(0)
+    expect(EVENT_LABEL.countermeasureComplete.length).toBeGreaterThan(3)
   })
 })

@@ -7,6 +7,7 @@ export const POINTS: Record<GameEventKind, number> = {
   symptomReported: 15, // highest on purpose: early reporting is the behavior we most want to encourage
   exerciseComplete: 10,
   retakeAfterQualityFail: 5,
+  countermeasureComplete: 10, // doing a step the app proposed because of YOUR data (sleep, nutrition, telling someone)
 }
 
 export const EVENT_LABEL: Record<GameEventKind, string> = {
@@ -14,16 +15,46 @@ export const EVENT_LABEL: Record<GameEventKind, string> = {
   symptomReported: 'Symptom reported',
   exerciseComplete: 'Exercise complete',
   retakeAfterQualityFail: 'Retook a reading we could not trust',
+  countermeasureComplete: 'Followed a care step',
 }
 
 export const pointsFor = (events: readonly Pick<GameEvent, 'kind'>[]): number => events.reduce((sum, e) => sum + POINTS[e.kind], 0)
 
 const DAY_MS = 86_400_000
 
+/**
+ * Anti-farming: each person earns each kind of credit once per day, and each care step once per day.
+ * Extra events are still logged (nothing is thrown away), they just are not scored. This also means the
+ * most anyone can earn in a day is bounded. The earliest event of the day is the one that counts.
+ */
+export function creditedEvents(events: readonly GameEvent[]): GameEvent[] {
+  const seen = new Set<string>()
+  const credited: GameEvent[] = []
+  for (const e of [...events].sort((a, b) => a.timestamp.localeCompare(b.timestamp))) {
+    const key = `${e.crewId}|${e.timestamp.slice(0, 10)}|${e.kind}|${e.detail ?? ''}`
+    if (seen.has(key)) continue
+    seen.add(key)
+    credited.push(e)
+  }
+  return credited
+}
+
+/** Which of a new batch of events would still earn credit today, given what was already logged. */
+export function creditableKinds(
+  existing: readonly GameEvent[],
+  incoming: readonly { kind: GameEventKind; detail?: string }[],
+  crewId: string,
+  now: Date,
+): { credited: GameEvent[]; alreadyCounted: GameEvent[] } {
+  const fresh: GameEvent[] = incoming.map((e, i) => ({ id: `__new${i}`, crewId, timestamp: now.toISOString(), kind: e.kind, ...(e.detail ? { detail: e.detail } : {}) }))
+  const credited = new Set(creditedEvents([...existing, ...fresh]).map((e) => e.id))
+  return { credited: fresh.filter((e) => credited.has(e.id)), alreadyCounted: fresh.filter((e) => !credited.has(e.id)) }
+}
+
 /** Points from events in the last `days` days (newer than now minus days, up to and including now). */
 export function pointsInWindow(events: readonly GameEvent[], now: Date, days: number): number {
   const since = now.getTime() - days * DAY_MS
-  return pointsFor(events.filter((e) => {
+  return pointsFor(creditedEvents(events).filter((e) => {
     const t = Date.parse(e.timestamp)
     return t > since && t <= now.getTime()
   }))
@@ -63,5 +94,5 @@ export type CrewProgress = {
 export function crewProgress(allEvents: readonly GameEvent[], now: Date, crewCount: number): CrewProgress {
   const weekPoints = pointsInWindow(allEvents, now, 7)
   const goal = WEEKLY_GOAL_PER_CREW * Math.max(0, crewCount)
-  return { weekPoints, goal, fraction: goal > 0 ? Math.min(1, weekPoints / goal) : 0, reached: goal > 0 && weekPoints >= goal, totalPoints: pointsFor(allEvents) }
+  return { weekPoints, goal, fraction: goal > 0 ? Math.min(1, weekPoints / goal) : 0, reached: goal > 0 && weekPoints >= goal, totalPoints: pointsFor(creditedEvents(allEvents)) }
 }

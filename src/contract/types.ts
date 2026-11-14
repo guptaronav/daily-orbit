@@ -64,12 +64,15 @@ export type GameEventKind =
   | 'symptomReported'
   | 'exerciseComplete'
   | 'retakeAfterQualityFail'
+  | 'countermeasureComplete'
 
 export type GameEvent = {
   id: string
   crewId: string
   timestamp: string
   kind: GameEventKind
+  /** Which care step, for countermeasureComplete (for example 'sleep'). Credit is once per step per day. */
+  detail?: string
 }
 
 export type Threshold = {

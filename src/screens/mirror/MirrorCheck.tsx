@@ -1,6 +1,8 @@
 import { useState } from 'react'
-import { saveSession } from '../../db/repo'
+import { listEvents, saveSession } from '../../db/repo'
+import { creditableKinds } from '../../lib/scoring'
 import { sessionEventKinds, type MirrorSession } from '../../lib/session'
+import type { GameEventKind } from '../../contract/types'
 import { useApp } from '../../state/AppContext'
 import { CameraCheck, type CameraResult } from './CameraCheck'
 import type { CaptureDiagnostics, CaptureTrace } from '../../lib/signal/analyze'
@@ -28,6 +30,8 @@ export function MirrorCheck() {
   const [saving, setSaving] = useState(false)
   const [diagnostics, setDiagnostics] = useState<CaptureDiagnostics | null>(null)
   const [trace, setTrace] = useState<CaptureTrace | null>(null)
+  // Credit this check-in actually earns, after the once-per-day caps. Starts as the uncapped kinds (dev summary view).
+  const [credit, setCredit] = useState<{ earned: GameEventKind[]; alreadyCounted: GameEventKind[] }>(() => ({ earned: sessionEventKinds(newSession()), alreadyCounted: [] }))
 
   const onCamera = ({ analysis, selfReport, source }: CameraResult) => {
     const { heartRate, blink } = analysis
@@ -52,6 +56,8 @@ export function MirrorCheck() {
     const { gut, ...symptomAnswers } = symptoms
     const done: MirrorSession = { ...session, selfReport: { ...session.selfReport, ...gut }, symptoms: symptomAnswers }
     setSession(done)
+    const { credited, alreadyCounted } = creditableKinds(await listEvents(crewId), sessionEventKinds(done).map((kind) => ({ kind })), crewId, new Date())
+    setCredit({ earned: credited.map((e) => e.kind), alreadyCounted: alreadyCounted.map((e) => e.kind) })
     await saveSession(done, crewId)
     refresh()
     setSaving(false)
@@ -71,7 +77,7 @@ export function MirrorCheck() {
       {step === 'camera' && <CameraCheck onComplete={onCamera} />}
       {step === 'vision' && <Vision onComplete={onVision} />}
       {step === 'symptoms' && <Symptoms onComplete={onSymptoms} busy={saving} />}
-      {step === 'summary' && <Summary crewId={crewId} sessionId={session.sessionId} earned={sessionEventKinds(session)} diagnostics={diagnostics} trace={trace} onRetake={retake} onDone={() => go('bodymap')} />}
+      {step === 'summary' && <Summary crewId={crewId} sessionId={session.sessionId} earned={credit.earned} alreadyCounted={credit.alreadyCounted} diagnostics={diagnostics} trace={trace} onRetake={retake} onDone={() => go('bodymap')} />}
     </main>
   )
 }

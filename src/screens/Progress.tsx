@@ -1,37 +1,89 @@
 import { useEffect, useMemo, useState } from 'react'
 import { CrewGoal } from '../components/CrewGoal'
-import type { GameEvent } from '../contract/types'
-import { listEvents } from '../db/repo'
-import { EVENT_LABEL, POINTS, crewProgress, systemsStatus } from '../lib/scoring'
+import type { GameEvent, Measurement } from '../contract/types'
+import { addEvent, listEvents, listMeasurements } from '../db/repo'
+import { readAll } from '../lib/bodyStatus'
+import { dailyPlan, type PlanItem, type PlanScreen } from '../lib/plan'
+import { EVENT_LABEL, POINTS, creditedEvents, crewProgress, systemsStatus } from '../lib/scoring'
 import { checkInDays, currentStreak } from '../lib/streak'
 import { useApp } from '../state/AppContext'
 
 const RECENT = 8
 
+const buttonClass = 'border border-ink px-3 py-1.5 text-sm font-medium hover:bg-ink hover:text-paper'
+
+function PlanRow({ item, go, onConfirm }: { item: PlanItem; go: (screen: PlanScreen) => void; onConfirm: (item: PlanItem) => void }) {
+  const action = item.action
+  return (
+    <li className="flex flex-wrap items-start justify-between gap-x-6 gap-y-2 py-3">
+      <div className="min-w-0 max-w-xl">
+        <p className="font-medium">
+          {item.title} <span className="ml-1 text-xs font-normal text-muted">+{item.points}</span>
+        </p>
+        {item.why && <p className="mt-0.5 text-sm">{item.why}</p>}
+        <p className="mt-0.5 text-sm text-muted">{item.guidance}</p>
+      </div>
+      <div className="flex items-center gap-3 text-sm">
+        {item.done ? (
+          <span className="font-medium text-ok">Done today</span>
+        ) : action.type === 'go' ? (
+          <button onClick={() => go(action.screen)} className={buttonClass}>
+            Open
+          </button>
+        ) : (
+          <>
+            {action.link && (
+              <button onClick={() => go(action.link as PlanScreen)} className="text-accent underline underline-offset-4 hover:text-ink">
+                Escalation
+              </button>
+            )}
+            <button onClick={() => onConfirm(item)} className={buttonClass}>
+              I did this
+            </button>
+          </>
+        )}
+      </div>
+    </li>
+  )
+}
+
 export function Progress() {
-  const { crew, crewId, currentCrew, dataVersion } = useApp()
+  const { crew, crewId, currentCrew, dataVersion, go, refresh } = useApp()
   const [events, setEvents] = useState<GameEvent[] | null>(null)
-  const [now] = useState(() => new Date())
+  const [measurements, setMeasurements] = useState<Measurement[]>([])
+  // "Now" is refreshed with every data load. Frozen at mount, anything done afterwards fell outside the week window.
+  const [now, setNow] = useState(() => new Date())
 
   useEffect(() => {
     let cancelled = false
-    void Promise.all(crew.map((c) => listEvents(c.id))).then((rows) => !cancelled && setEvents(rows.flat()))
+    void Promise.all(crew.map((c) => listEvents(c.id))).then((rows) => {
+      if (cancelled) return
+      setNow(new Date())
+      setEvents(rows.flat())
+    })
+    void listMeasurements(crewId).then((rows) => !cancelled && setMeasurements(rows))
     return () => {
       cancelled = true
     }
-  }, [crew, dataVersion])
+  }, [crew, crewId, dataVersion])
 
   const view = useMemo(() => {
     if (!events) return null
-    const mine = events.filter((e) => e.crewId === crewId).sort((a, b) => b.timestamp.localeCompare(a.timestamp))
+    const mine = creditedEvents(events).filter((e) => e.crewId === crewId).sort((a, b) => b.timestamp.localeCompare(a.timestamp))
     const progress = crewProgress(events, now, crew.length)
     return {
       progress,
       recent: mine.slice(0, RECENT),
       streak: currentStreak(checkInDays(events, crewId), now.toISOString().slice(0, 10)),
       systems: systemsStatus(progress.totalPoints),
+      plan: dailyPlan({ crewId, readings: readAll(measurements), events, measurements, now }),
     }
-  }, [events, crewId, crew.length, now])
+  }, [events, measurements, crewId, crew.length, now])
+
+  async function confirm(item: PlanItem) {
+    await addEvent({ id: crypto.randomUUID(), crewId, timestamp: new Date().toISOString(), kind: item.kind, ...(item.detail ? { detail: item.detail } : {}) })
+    refresh()
+  }
 
   if (!view) return <main className="p-8 text-muted">Loading progress…</main>
 
@@ -44,6 +96,20 @@ export function Progress() {
           your health numbers, and nobody is ranked against anyone else.
         </p>
       </header>
+
+      <section aria-labelledby="plan-heading" className="space-y-3">
+        <h2 id="plan-heading" className="text-sm font-semibold uppercase tracking-[0.14em] text-muted">
+          Today's plan for {currentCrew?.name ?? 'you'}
+        </h2>
+        <p className="max-w-2xl text-sm text-muted">
+          Built from your own readings. Steps appear when something is off <em>your</em> usual, and you earn credit for doing them, never for any number. Each step counts once a day.
+        </p>
+        <ul className="divide-y divide-rule border-y border-rule">
+          {view.plan.map((p) => (
+            <PlanRow key={p.id} item={p} go={go} onConfirm={(i) => void confirm(i)} />
+          ))}
+        </ul>
+      </section>
 
       <CrewGoal progress={view.progress} />
 
