@@ -41,7 +41,7 @@ function Field({ label, children }: { label: string; children: React.ReactNode }
   )
 }
 
-export function IndicatorCard({ reading }: { reading: IndicatorReading }) {
+export function IndicatorCard({ reading, showBand = true }: { reading: IndicatorReading; showBand?: boolean }) {
   const content = getContent(reading.indicator)
   const threshold = getThreshold(reading.indicator)
   const { latest, baseline } = reading
@@ -104,7 +104,7 @@ export function IndicatorCard({ reading }: { reading: IndicatorReading }) {
       )}
 
       <div className="p-5">
-        <TrendChart history={reading.history} baseline={reading.baseline} unit={content.unit} status={reading.status} />
+        <TrendChart history={reading.history} baseline={showBand ? reading.baseline : null} unit={content.unit} status={reading.status} />
       </div>
 
       <dl className="grid gap-x-8 gap-y-4 border-t border-rule p-5 text-sm sm:grid-cols-2">

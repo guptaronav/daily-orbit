@@ -17,13 +17,15 @@ export type Rank = { level: number; title: string; at: number }
 
 /** Cumulative points needed to reach each level. */
 export const RANKS: readonly Rank[] = [
+  // Deliberately NOT the crew roles (Commander, Flight engineer, Mission specialist): a rank is
+  // earned by showing up, and reusing a real job title would read as a promotion.
   { level: 1, title: 'Cadet', at: 0 },
-  { level: 2, title: 'Crew', at: 60 },
-  { level: 3, title: 'Specialist', at: 150 },
+  { level: 2, title: 'Rookie', at: 60 },
+  { level: 3, title: 'Scout', at: 150 },
   { level: 4, title: 'Navigator', at: 300 },
-  { level: 5, title: 'Flight engineer', at: 550 },
-  { level: 6, title: 'Commander', at: 850 },
-  { level: 7, title: 'Mission lead', at: 1200 },
+  { level: 5, title: 'Pathfinder', at: 550 },
+  { level: 6, title: 'Voyager', at: 850 },
+  { level: 7, title: 'Pioneer', at: 1200 },
 ]
 
 export type LevelState = {
