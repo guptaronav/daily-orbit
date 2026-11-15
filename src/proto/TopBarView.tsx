@@ -7,7 +7,6 @@ import { FloatingCrew } from './FloatingCrew'
 import { BannerScene } from './MissionScene'
 import { AlertBanner } from './Alerts'
 import { AskOrbit } from './AskOrbit'
-import { ReportButton } from './ReportButton'
 import { ReminderBanner } from './Reminder'
 import * as P from './parts'
 import { S } from './parts'
@@ -44,12 +43,14 @@ export function TopBarView({ v }: { v: any }) {
                     </path>
                   </svg>
                   {l.label}
+                  {l.dot && <span aria-label="not done today" style={S({ width: '8px', height: '8px', borderRadius: '99px', background: '#f6c445', boxShadow: '0 0 0 2px var(--accent)', animation: 'ms-twinkle 1.8s ease-in-out infinite' })} />}
                 </a>
                   </Fragment>
                 ))}
               <div style={S({ position: 'relative' })}>
-                <button type="button" onClick={v.toggleMore} aria-expanded={v.moreOpen} aria-haspopup="true" style={S({ display: 'inline-flex', alignItems: 'center', gap: '6px', minHeight: '40px', padding: '0 12px', borderRadius: '999px', background: v.moreBg, border: '0', color: 'var(--muted)', fontSize: '14px', cursor: 'pointer', whiteSpace: 'nowrap' })} className="topbarview-hover-3">
+                <button type="button" onClick={v.toggleMore} aria-expanded={v.moreOpen} aria-haspopup="true" style={S({ display: 'inline-flex', alignItems: 'center', gap: '6px', minHeight: '40px', padding: '0 12px', borderRadius: '999px', background: v.moreBg, border: '0', color: v.moreColor, fontSize: '14px', cursor: 'pointer', whiteSpace: 'nowrap' })} className="topbarview-hover-3">
                   More
+                  {v.moreDot && <span aria-label="your weekly report is ready" style={S({ width: '8px', height: '8px', borderRadius: '99px', background: '#f6c445', animation: 'ms-twinkle 1.8s ease-in-out infinite' })} />}
                   <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={S({ transform: v.moreRot, transition: 'transform 200ms ease' })}>
                     <path d="M6 9l6 6 6-6">
                     </path>
@@ -59,7 +60,6 @@ export function TopBarView({ v }: { v: any }) {
             </div>
           </nav>
           <div style={S({ order: '2', marginLeft: 'auto', display: 'flex', alignItems: 'center', justifyContent: 'flex-end', gap: '6px', flexWrap: 'wrap', maxWidth: '100%' })}>
-            <ReportButton />
             <div style={S({ position: 'relative' })}>
               <button type="button" onClick={v.toggleEnv} aria-expanded={v.envOpen} aria-haspopup="true" aria-label="Mission environment and comm delay" style={S({ display: 'flex', alignItems: 'center', gap: '8px', minHeight: '44px', padding: '0 14px', borderRadius: '999px', background: 'transparent', border: '1px solid var(--rule)', color: 'var(--ink)', cursor: 'pointer', whiteSpace: 'nowrap' })} className="topbarview-hover-4">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round">
@@ -261,7 +261,7 @@ export function TopBarView({ v }: { v: any }) {
           ) : null}
         </div>
         <AlertBanner />
-        <ReminderBanner />
+        <ReminderBanner here={v.here} />
         <AskOrbit />
       </header>
     </>

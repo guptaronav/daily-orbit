@@ -310,3 +310,8 @@
     position: relative !important;
   }
 }
+
+/* ---- Daily mirror check call to action (TodayPage): a ring that expands behind the button ---- */
+.mc-ring { position: absolute; inset: 0; border-radius: 16px; background: #f6c445; opacity: 0; pointer-events: none; animation: mc-ring 2.2s ease-out infinite; }
+@keyframes mc-ring { 0% { transform: scale(1); opacity: .55 } 100% { transform: scale(1.22, 1.5); opacity: 0 } }
+@media (prefers-reduced-motion: reduce) { .mc-ring { animation: none; } }
