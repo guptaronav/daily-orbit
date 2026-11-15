@@ -342,3 +342,27 @@
 /* Pain map body: a soft wash on hover and focus for areas not yet marked */
 .bfm-zone[aria-pressed="false"]:hover, .bfm-zone[aria-pressed="false"]:focus-visible { fill: rgba(11, 61, 145, .14); }
 .bfm-zone:focus-visible { stroke: var(--ink); stroke-width: 2; }
+
+/* ---- Launch title card (BootScreen): "Our Apollo-gies presents Daily Orbit" ---- */
+.intro { position: fixed; inset: 0; z-index: 101; display: grid; place-items: center; overflow: hidden; color: #f3f1ea; background: radial-gradient(ellipse at 50% 40%, #1b2440, #07090f 72%); cursor: pointer; animation: intro-out 400ms ease 2.8s forwards; }
+.intro-stars { position: absolute; inset: -20%; background-image: radial-gradient(1.5px 1.5px at 12% 22%, #fff, transparent), radial-gradient(1px 1px at 34% 68%, #fff, transparent), radial-gradient(2px 2px at 62% 18%, #f6c445, transparent), radial-gradient(1px 1px at 78% 54%, #fff, transparent), radial-gradient(1.5px 1.5px at 88% 84%, #fff, transparent), radial-gradient(1px 1px at 22% 88%, #fff, transparent), radial-gradient(1px 1px at 50% 40%, #fff, transparent); background-size: 320px 320px; opacity: .55; animation: intro-drift 6s linear infinite; }
+.intro-team { margin: 0; font-size: clamp(22px, 4vw, 32px); font-weight: 700; letter-spacing: -0.02em; }
+.intro-team span span, .intro-team > span { display: inline-block; opacity: 0; transform: translateY(14px); animation: intro-letter 420ms cubic-bezier(.22,1,.36,1) forwards; }
+.intro-team .intro-gold { opacity: 1; transform: none; animation: none; color: #f6c445; }
+.intro-presents { margin: 0; font-size: 13px; font-weight: 700; letter-spacing: .32em; text-transform: uppercase; color: rgba(243,241,234,.65); opacity: 0; animation: intro-fade 500ms ease 900ms forwards; }
+.intro-mark { position: relative; display: grid; place-items: center; width: 132px; height: 132px; margin-top: 10px; opacity: 0; transform: scale(.6); animation: intro-pop 600ms cubic-bezier(.34,1.56,.64,1) 1300ms forwards; }
+.intro-ring { position: absolute; inset: 0; border-radius: 999px; border: 2px dashed rgba(246,196,69,.55); animation: intro-spin 6s linear infinite; }
+.intro-title { margin: 6px 0 0; font-size: clamp(40px, 8vw, 72px); font-weight: 800; letter-spacing: -0.05em; line-height: 1; opacity: 0; animation: intro-rise 600ms cubic-bezier(.22,1,.36,1) 1700ms forwards; }
+.intro-tag { margin: 0; font-size: 15px; color: rgba(243,241,234,.7); opacity: 0; animation: intro-fade 500ms ease 2100ms forwards; }
+.intro-skip { position: absolute; right: 18px; bottom: calc(env(safe-area-inset-bottom, 0px) + 18px); min-height: 36px; padding: 0 14px; border-radius: 10px; border: 1px solid rgba(243,241,234,.3); background: transparent; color: #f3f1ea; font-weight: 650; cursor: pointer; }
+@keyframes intro-letter { to { opacity: 1; transform: none } }
+@keyframes intro-fade { to { opacity: 1 } }
+@keyframes intro-rise { from { opacity: 0; transform: translateY(16px) } to { opacity: 1; transform: none } }
+@keyframes intro-pop { to { opacity: 1; transform: scale(1) } }
+@keyframes intro-spin { to { transform: rotate(360deg) } }
+@keyframes intro-drift { to { transform: translate(-40px, 30px) } }
+@keyframes intro-out { to { opacity: 0 } }
+@media (prefers-reduced-motion: reduce) {
+  .intro, .intro-stars, .intro-ring { animation: none !important; }
+  .intro-team span span, .intro-team > span, .intro-presents, .intro-mark, .intro-title, .intro-tag { animation: none !important; opacity: 1 !important; transform: none !important; }
+}

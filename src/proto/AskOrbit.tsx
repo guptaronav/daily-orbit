@@ -1,12 +1,15 @@
 import { useEffect, useRef, useState, type FormEvent } from 'react'
 import * as D from './data'
-import { bridge } from './store'
+import { EscalationAdvice, type EscalateContext } from './EscalationAdvice'
 
 /*
  * Ask Orbit: a chat window on every page for questions about symptoms, readings and spaceflight
  * health. Answers are passages from the app's NASA-sourced content with their sources, next to the
  * person's own readings; red-flag symptoms go straight to escalation. It never writes medical text
  * of its own and needs no network.
+ *
+ * Escalation lives here too: "What should I do?" (or any "who should I tell") answers with the
+ * ladder worked out from the person's own data, and can raise an alert or send to Earth on the spot.
  */
 
 type Hit = { title: string; text: string; url?: string }
@@ -14,9 +17,11 @@ type Mine = { id: string; label: string; status: 'gray' | 'green' | 'yellow' | '
 type Answer =
   | { kind: 'urgent'; flag: string; rung: string }
   | { kind: 'answer'; hits: Hit[]; mine: Mine[]; patterns: { title: string; status: string; rung: string }[]; next: string }
+  | { kind: 'advice'; ctx?: EscalateContext }
 type Msg = { from: 'me'; text: string } | { from: 'orbit'; a: Answer | null }
 
-const STARTERS = ['I have a headache', 'I feel really tired today', 'My eyes feel blurry', 'How much water should I drink?', 'What is SANS?', 'Why does radiation matter?']
+const ESCALATE_Q = /what should i do|who (do|should) i tell|tell someone|escalat|need help|get help/i
+const STARTERS = ['What should I do?', 'I have a headache', 'I feel really tired today', 'My eyes feel blurry', 'How much water should I drink?', 'What is SANS?', 'Why does radiation matter?']
 const WORD = { gray: 'No data', green: 'Within your usual', yellow: 'Watch', red: 'Act' }
 const INK = { gray: 'var(--nodata-ink)', green: 'var(--ok-ink)', yellow: 'var(--watch-ink)', red: 'var(--act-ink)' }
 
@@ -38,14 +43,15 @@ function Reply({ a, onAsk }: { a: Answer | null; onAsk: (q: string) => void }) {
       </div>
     )
   }
+  if (a.kind === 'advice') return <EscalationAdvice ctx={a.ctx} />
   if (a.kind === 'urgent') {
     return (
-      <div role="alert" style={{ display: 'grid', gap: 8, padding: 12, borderRadius: 14, background: 'var(--act)', color: 'var(--paper)' }}>
-        <strong style={{ fontSize: 15 }}>This could be serious: {a.flag}.</strong>
-        <p style={{ margin: 0, fontSize: 14, lineHeight: 1.5 }}>Don't wait for a search result. Tell your crew medical officer now. If you can't reach them, use Escalate to send the flight surgeon a summary.</p>
-        <button type="button" onClick={() => bridge.go?.('escalation' as never)} style={{ justifySelf: 'start', minHeight: 38, padding: '0 14px', borderRadius: 10, border: 0, background: '#fff', color: '#14181f', fontWeight: 750, cursor: 'pointer' }}>
-          Open Escalate
-        </button>
+      <div style={{ display: 'grid', gap: 8 }}>
+        <div role="alert" style={{ display: 'grid', gap: 6, padding: 12, borderRadius: 14, background: 'var(--act)', color: 'var(--paper)' }}>
+          <strong style={{ fontSize: 15 }}>This could be serious: {a.flag}.</strong>
+          <p style={{ margin: 0, fontSize: 14, lineHeight: 1.5 }}>Don't wait for a search result. Tell your crew medical officer now. If you can't reach them, send the flight surgeon a summary.</p>
+        </div>
+        <EscalationAdvice ctx={{ title: `Reported in Ask Orbit: ${a.flag}`, detail: `Asked Orbit about a warning sign (${a.flag}).`, status: 'red' }} />
       </div>
     )
   }
@@ -84,6 +90,9 @@ function Reply({ a, onAsk }: { a: Answer | null; onAsk: (q: string) => void }) {
         </span>
       ))}
       {a.next && <p style={{ margin: 0, fontSize: 14, fontWeight: 650 }}>{a.next}</p>}
+      <button type="button" onClick={() => onAsk('What should I do?')} style={{ justifySelf: 'start', minHeight: 32, padding: '0 12px', borderRadius: 99, border: '1.5px solid var(--ink)', background: 'var(--panel)', color: 'var(--ink)', fontSize: 13, fontWeight: 700, cursor: 'pointer' }}>
+        What should I do, or who should I tell?
+      </button>
     </div>
   )
 }
@@ -107,9 +116,15 @@ export function AskOrbit() {
       setOpen(true)
       askNow(String((e as CustomEvent).detail || ''))
     }
+    const onEscalate = (e: Event) => {
+      setOpen(true)
+      setMsgs((m) => [...m, { from: 'me', text: 'What should I do?' }, { from: 'orbit', a: { kind: 'advice', ctx: (e as CustomEvent).detail as EscalateContext } }])
+    }
     window.addEventListener('orbit:open', onOpen)
     window.addEventListener('orbit:ask', onAsk)
+    window.addEventListener('orbit:escalate', onEscalate)
     return () => {
+      window.removeEventListener('orbit:escalate', onEscalate)
       window.removeEventListener('orbit:open', onOpen)
       window.removeEventListener('orbit:toggle', onToggle)
       window.removeEventListener('orbit:ask', onAsk)
@@ -126,7 +141,7 @@ export function AskOrbit() {
   const askNow = (text: string) => {
     const t = text.trim()
     if (!t) return
-    const a = D.ask(D.getState().crew.id, t) as Answer
+    const a = ESCALATE_Q.test(t) ? ({ kind: 'advice' } as Answer) : (D.ask(D.getState().crew.id, t) as Answer)
     setMsgs((m) => [...m, { from: 'me', text: t }, { from: 'orbit', a }])
     setQ('')
   }

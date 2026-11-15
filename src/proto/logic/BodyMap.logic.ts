@@ -225,7 +225,7 @@ export class BodyMapLogic extends DCLogic {
           return { label: r.label, method: METHOD[r.id], value: r.latest ? D.fmt(r) : '—', unit: r.latest ? D.fmtUnit(r) : '', valColor: r.latest ? 'var(--ink)' : 'var(--nodata-ink)', note, ink: ST[r.status].ink, spark: sp.d, sparkColor: r.status === 'gray' ? 'var(--rule-strong)' : ST[r.status].swatch, border: big ? 'var(--ink)' : 'var(--rule)', tf: big ? 'translateX(4px)' : 'none', enter: () => { if (this.state.tour !== g.id) this.setState({ tour: g.id }); this.setState({ hoverInd: r.id }) } }
         }),
         open: () => { select(g.id); const h = document.getElementById('region-heading'); if (h) window.scrollTo({ top: h.getBoundingClientRect().top + scrollY - 100, behavior: 'smooth' }) },
-        href2: flaggedHere ? 'Escalation.dc.html' : 'Manual%20Entry.dc.html', cta2: flaggedHere ? 'Who to tell' : 'Log a reading',
+        href2: flaggedHere ? '#who' : 'Manual%20Entry.dc.html', cta2: flaggedHere ? 'Who to tell' : 'Log a reading',
       }
     })
     const narrow = this.state.narrow

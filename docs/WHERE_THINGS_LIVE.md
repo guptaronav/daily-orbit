@@ -17,6 +17,12 @@ next to its siblings below, and reuse the shared pieces instead of copying them.
 - **Medical text is never written in a component.** It comes from `src/content/indicators.json`,
   and every field is listed against a source in `src/content/sources.json`.
 - **Rules and maths are in `src/lib/`**, pure and tested. Screens only call them.
+- **Escalation is built in, not a destination.** "What should I do?" is `escalationAdvice()` in
+  `data.ts`, shown by `EscalationAdvice.tsx` inside Ask Orbit. Any "who to tell" button calls
+  `openEscalation({ title, detail, status })`; it can raise an alert (`raiseAlert()`) or send the
+  summary to Earth (`queuePacket()`) right there. The full ladder page is under More.
+- **The launch screen** (`BootScreen.tsx`) plays the "Our Apollo-gies presents Daily Orbit" title
+  card, then the systems check; its styles are the `.intro` rules in `proto.css`.
 
 ## Screens (the top bar)
 
@@ -26,11 +32,11 @@ next to its siblings below, and reuse the shared pieces instead of copying them.
 | Check in | `screens/mirror/` | The camera mirror check |
 | Log | `proto/ManualView.tsx` | Food and water (`FoodWater.tsx`), alertness test (`ReactionTest.tsx`), body checks (`BodyChecks.tsx`), manual forms |
 | Body | `proto/BodyMapView.tsx` | Body figure, patterns (`PatternsPanel.tsx`), five hazards (`HazardsPanel.tsx`), region details |
-| Escalate | `proto/EscalationView.tsx` | Ladder, ground packet, what Earth receives (`ShareChoices.tsx`), ground link (`GroundLink.tsx`) |
+| Crew | `proto/MedicalView.tsx` | Alerts (`Alerts.tsx`, `AlertCare.tsx`), the medical officer and backup, crew cards |
 | Rewards | `proto/RewardsView.tsx` | Mission pass, this week, sets and levels (`RewardsExtras.tsx`), locker, badges |
 | Report icon | `proto/ReportPage.tsx` | The weekly report, print and CSV (button: `ReportButton.tsx`) |
 | More: Schedule | `proto/SchedulePage.tsx` | Crew day and reminder setting |
-| More: Crew medical view | `proto/MedicalView.tsx` | Alerts (`Alerts.tsx`, `AlertCare.tsx`), crew cards |
+| More: Escalation ladder | `proto/EscalationView.tsx` | The full ladder, ground packet, what Earth receives (`ShareChoices.tsx`), ground link (`GroundLink.tsx`) |
 | More: Radiation | `screens/Radiation.tsx` | Solar event replay (Evode) |
 | More: Metrics | `proto/MetricsView.tsx` | Real-data validation (`ValidationCard.tsx`), model card (`ModelCard.tsx`), models |
 | More: Sources | `screens/Sources.tsx` | Every dataset and page used (Evode) |

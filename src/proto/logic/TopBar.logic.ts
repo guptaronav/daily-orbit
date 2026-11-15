@@ -36,13 +36,12 @@ export class TopBarLogic extends DCLogic {
     const base = { here: this.props.current || '', rootRef: this.rootRef, toggleMore: this.tog('more'), toggleEnv: this.tog('env'), toggleMe: this.tog('me'), moreOpen: open === 'more', envOpen: open === 'env', meOpen: open === 'me', navOrder: this.state.narrow ? 3 : 1, navFlex: this.state.narrow ? '1 1 100%' : '0 1 auto' }
     if (!D || !s || !w) return { ...base, links: [], more: [], envItems: [], crewItems: [], coins: '', streak: '', envShort: '', delayText: '' }
     const here = this.props.current || ''
-    // Six tabs for the daily loop, the check-in highlighted until it is done today, and Rewards.
-    // The weekly report is the page icon by the mission button; schedule, the medical officer's
-    // view and the data pages live under More.
+    // Six tabs: the daily loop, the crew, and rewards. The check-in is highlighted until it is done
+    // today. Escalation is built into Ask Orbit, alerts and body checks; its full page is under More.
     const checkInDone = !!(D.todayTasks(s.crew.id).find((t) => t.id === 'checkIn') || {}).done
     const L = [
       ['Today', 'Today', 'Today.dc.html', 'spark'], ['Check in', 'Mirror check', 'Mirror.dc.html', 'scan'], ['Log', 'Manual entry', 'Manual%20Entry.dc.html', 'pen'],
-      ['Body', 'Body map', 'Body%20Map.dc.html', 'body'], ['Escalate', 'Escalation', 'Escalation.dc.html', 'send'],
+      ['Body', 'Body map', 'Body%20Map.dc.html', 'body'], ['Crew', 'Medical view', 'Medical%20View.dc.html', 'users'],
       ['Rewards', 'Rewards', 'Rewards.dc.html', 'award'],
     ]
     const links = L.map(([label, match, href, icon]) => {
@@ -52,13 +51,13 @@ export class TopBarLogic extends DCLogic {
     })
     const M = [
       ['Mission schedule', 'Your day, block by block, and the reminder time', 'Schedule.dc.html', 'clock'],
-      ['Crew medical view', 'Everyone at once, for the crew medical officer', 'Medical%20View.dc.html', 'users'],
+      ['Escalation ladder', 'Who to tell, what Earth receives, and the link to Earth', 'Escalation.dc.html', 'send'],
       ['Radiation', 'Replay a historical solar particle event', 'Radiation.dc.html', 'shield'],
       ['Metrics', 'Modeled numbers and the real-data test', 'Metrics.dc.html', 'chart'],
       ['Sources', 'Every NASA dataset and page used', 'Sources.dc.html', 'book'],
       ['Set up again', 'Replay the one-minute setup', 'Onboarding.dc.html', 'spark'],
     ]
-    const MORE_MATCH = ['Mission schedule', 'Medical view', 'Radiation', 'Metrics', 'Sources']
+    const MORE_MATCH = ['Mission schedule', 'Escalation', 'Radiation', 'Metrics', 'Sources']
     const moreActive = MORE_MATCH.includes(here)
     const more = M.map(([label, desc, href, icon]) => ({ label, desc, href, disabled: undefined, op: 1, cursor: 'pointer', path: D.ICONS[icon], tileBg: 'var(--ink)', tileColor: 'var(--paper)' }))
     const g = D.game(s.crew.id), lv = D.level(w.xp), gr = D.gear(w)

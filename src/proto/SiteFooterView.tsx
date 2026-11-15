@@ -19,7 +19,7 @@ const GROUPS = [
   {
     title: 'Crew and mission',
     links: [
-      ['Escalation.dc.html', 'Escalate'],
+      ['Escalation.dc.html', 'Escalation ladder'],
       ['Medical%20View.dc.html', 'Crew'],
       ['Rewards.dc.html', 'Rewards'],
       ['Radiation.dc.html', 'Radiation'],

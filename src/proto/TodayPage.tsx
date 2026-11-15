@@ -8,6 +8,7 @@ import * as P from './parts'
 import { bridge, getSnapshot } from './store'
 import { AlertActionCard } from './AlertCare'
 import { useStoreTick } from './shared'
+import { openEscalation } from './EscalationAdvice'
 
 /*
  * Today: what to do today. Readiness and its reasons, the living body figure, the next block on
@@ -353,7 +354,7 @@ export function TodayPage() {
           <span style={{ fontSize: 13.5, color: 'rgba(232,238,252,.72)' }}>
             {D.formatDelay(link.delay)} each way, so a reply takes at least {D.formatDelay(link.delay * 2)}. Anything urgent goes to your crew medical officer first.
           </span>
-          <button type="button" onClick={() => go('escalation')} style={{ ...ghost, justifySelf: 'start', minHeight: 36, color: '#e8eefc', border: '1.5px solid rgba(232,238,252,.35)' }}>
+          <button type="button" onClick={() => openEscalation()} style={{ ...ghost, justifySelf: 'start', minHeight: 36, color: '#e8eefc', border: '1.5px solid rgba(232,238,252,.35)' }}>
             Who to tell, and when
           </button>
         </div>

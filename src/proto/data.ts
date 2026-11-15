@@ -1036,7 +1036,8 @@ export function alerts() {
   for (const c of CREW) {
     const readings = appReadAll(getSnapshot().measurements[c.id] ?? [])
     const live = new Set()
-    for (const a of alertCandidates(c.id, readings, patternFlags(readings), (i) => IND[i][0])) {
+    const raised = manualAlerts().filter((m) => m.crewId === c.id).map((m) => ({ id: `${c.id}:manual:${m.id}`, crewId: c.id, kind: 'manual', title: m.title, detail: m.detail, status: m.status, signature: String(m.at) }))
+    for (const a of [...alertCandidates(c.id, readings, patternFlags(readings), (i) => IND[i][0]), ...raised]) {
       live.add(a.id)
       const meta = { title: a.title, crewId: c.id, crewName: c.id === 'guest' ? 'Guest' : c.name, status: a.status }
       // New, or back after it had resolved on its own: a fresh episode with its own clock.
@@ -1429,7 +1430,10 @@ const okT = (t) => (t && t !== '[CONTENT TODO]' ? t : '')
 export function alertPlan(a) {
   const [crewId, kind, key] = a.id.split(':')
   let now = [], today = [], escalateIf = '', source = HRP_RISKS, recheck = 'mirror'
-  if (kind === 'reading') {
+  if (kind === 'manual') {
+    now = [{ id: 'talk', text: 'Talk it through with them, and look at their latest readings together.' }, { id: 'recheck', text: 'Repeat the check that worried you, so you have a fresh number.', go: 'mirror' }]
+    escalateIf = 'If it is getting worse, or the medical officer cannot settle it onboard, send the change summary to the flight surgeon.'
+  } else if (kind === 'reading') {
     const c = getContent(key)
     recheck = ['bloodPressureSys', 'bloodPressureDia', 'temperature', 'bloodSugar', 'bodyMass', 'sleepHours', 'exerciseMinutes', 'reactionTime', ...BODY_CHECKS].includes(key) ? 'manual' : 'mirror'
     now = [
@@ -1674,4 +1678,71 @@ export function painSummary(id, days = 14) {
 export function weeklyCheckAge(id) {
   const m = lastReading(id, 'workload')
   return m ? Math.floor((Date.now() - Date.parse(m.timestamp)) / DAY) : null
+}
+
+/* ==== Escalation, built into the app: what to do now, and who to tell ===================== */
+const MANUAL_KEY = 'chm-manual-alerts'
+function manualAlerts() {
+  try { return JSON.parse(localStorage.getItem(MANUAL_KEY) || '[]') } catch { return [] }
+}
+/** Raise an alert by hand (from Ask Orbit or a body check). It stays open until acknowledged and closed. */
+export function raiseAlert(crewId, title, detail, status = 'yellow') {
+  const st = alertStore()
+  // Keep the list short: drop raised alerts that were closed more than three days ago.
+  const keep = manualAlerts().filter((m) => { const r = st[`${m.crewId}:manual:${m.id}`]; return !(r && r.closedAt && Date.now() - r.closedAt > 3 * DAY) })
+  const m = { id: crypto.randomUUID().slice(0, 8), crewId, title: String(title).slice(0, 80), detail: String(detail).slice(0, 280), status, at: Date.now() }
+  try { localStorage.setItem(MANUAL_KEY, JSON.stringify([...keep, m])) } catch {}
+  notify()
+  return m
+}
+
+const RUNG_STEPS = {
+  1: ['Rest, drink some water, and keep to the schedule.', 'Retake any reading the app could not trust.', 'Check again tomorrow so a change can show.'],
+  2: ['Ask a crewmate to look at the reading with you, or run the mirror check side by side.', 'Note what you feel, not just the numbers.'],
+  3: ['Tell the crew medical officer what you are seeing, with the readings that worry you.', 'Keep doing the care steps on the alert while you wait.'],
+  4: ['Send the change summary to the flight surgeon on the ground.', 'Keep onboard care going: an answer cannot arrive sooner than the round-trip delay.'],
+}
+
+/**
+ * Where this person is on the escalation ladder right now, worked out from their own data: open
+ * alerts (and how long they have waited), patterns and their rung, regions at Act, self-report
+ * gaps, a positive mood screen, and a fall in blood pressure or faintness on the stand-up test.
+ * The ladder and its wording are the app's; the content behind each reason is sourced.
+ */
+export function escalationAdvice(crewId) {
+  const cd = crewData(crewId)
+  const reasons = []
+  let rung = 1
+  const up = (r, why) => { rung = Math.max(rung, r); reasons.push({ rung: r, why }) }
+  const open = alerts().filter((a) => a.crewId === crewId && a.state !== 'closed')
+  for (const a of open) {
+    const e = alertEscalation(a)
+    if (e.level === 2) up(4, `"${a.title}" has waited over an hour with no answer`)
+    else up(a.status === 'red' ? 3 : 2, `Open alert: ${a.title}`)
+  }
+  for (const p of patterns(crewId)) up(Math.min(4, Math.max(1, p.rung)), `${p.title} (${p.status === 'red' ? 'Act' : 'Watch'})`)
+  const red = REGIONS.filter((g) => cd.statuses[g.id] === 'red').map((g) => g.label)
+  if (red.length) up(3, `${red.join(', ')} at Act`)
+  const yellow = REGIONS.filter((g) => cd.statuses[g.id] === 'yellow').map((g) => g.label)
+  if (yellow.length >= 2) up(2, `${yellow.length} regions at Watch`)
+  else if (yellow.length) up(1, `${yellow[0]} at Watch`)
+  if (gaps(crewId).length) up(2, 'How you rate yourself and what was measured disagree')
+  const screen = lastReading(crewId, 'moodScreen')
+  if (screen && Date.now() - Date.parse(screen.timestamp) < 14 * DAY && (screen.value.phq2 >= 3 || screen.value.gad2 >= 3)) up(3, 'The weekly mood screen was at or above the cutoff')
+  const stand = lastReading(crewId, 'orthostaticRise')
+  if (stand && Date.now() - Date.parse(stand.timestamp) < 2 * DAY) {
+    const d = stand.detail || {}
+    const fall = (d.lyingSys != null && d.standingSys != null && d.lyingSys - d.standingSys >= 20) || (d.lyingDia != null && d.standingDia != null && d.lyingDia - d.standingDia >= 10)
+    if (fall || d.dizzy) up(3, fall ? 'Blood pressure fell on standing' : 'You felt faint on standing')
+  }
+  const cmo = medicalOfficer()
+  const who = { 1: 'Self-care', 2: 'A crewmate', 3: cmo.activeName ? `${cmo.unwell ? 'Backup medical officer' : 'Crew medical officer'}: ${cmo.activeName}` : 'Crew medical officer', 4: 'Flight surgeon on the ground' }[rung]
+  return {
+    rung, who, rungName: RUNG_NAME[rung] || who,
+    reasons: reasons.sort((a, b) => b.rung - a.rung).map((r) => r.why).slice(0, 4),
+    steps: RUNG_STEPS[rung],
+    canRaise: rung >= 2, canSend: rung >= 3,
+    delay: formatDelay(Math.round(getState().delay)),
+    openAlerts: open.length,
+  }
 }

@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import * as D from './data'
-import { bridge } from './store'
 import { useStoreTick } from './shared'
+import { openEscalation } from './EscalationAdvice'
 
 /*
  * Patterns across indicators on the body map: several related readings moving the wrong way
@@ -130,8 +130,8 @@ export function PatternsPanel() {
                   <span style={{ fontSize: 13.5 }}>
                     Next step: <strong>{h.rungName}</strong>
                   </span>
-                  <button type="button" className="fw-press" onClick={() => bridge.go?.('escalation' as never)} style={{ minHeight: 40, padding: '0 14px', borderRadius: 12, border: 0, background: '#14181f', color: '#f3f1ea', boxShadow: '0 4px 0 #000', fontWeight: 750, cursor: 'pointer' }}>
-                    Open Escalate
+                  <button type="button" className="fw-press" onClick={() => openEscalation({ title: `Pattern: ${h.title}`, detail: `${h.title}, next step ${h.rungName}.`, status: h.status === 'red' ? 'red' : 'yellow' })} style={{ minHeight: 40, padding: '0 14px', borderRadius: 12, border: 0, background: '#14181f', color: '#f3f1ea', boxShadow: '0 4px 0 #000', fontWeight: 750, cursor: 'pointer' }}>
+                    Who to tell
                   </button>
                 </div>
               </li>

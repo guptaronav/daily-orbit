@@ -4,6 +4,7 @@ import { getContent } from '../lib/content'
 import * as D from './data'
 import { bridge } from './store'
 import { painColor, useCrewId } from './shared'
+import { openEscalation } from './EscalationAdvice'
 
 /*
  * Body checks: four short checks that cover what the camera and the daily forms do not.
@@ -301,7 +302,7 @@ function StandTest() {
             {hypo || v.dizzy ? (
               <Note tone="act">
                 <strong>{hypo ? 'Your blood pressure fell enough to meet the medical definition of orthostatic hypotension.' : 'You felt faint on standing.'}</strong> {getContent('orthostaticRise').recommendedAction}{' '}
-                <button type="button" onClick={() => bridge.go?.('escalation' as never)} style={{ border: 0, background: 'transparent', padding: 0, color: 'var(--accent)', textDecoration: 'underline', cursor: 'pointer', font: 'inherit' }}>
+                <button type="button" onClick={() => openEscalation({ title: hypo ? 'Stand-up test: blood pressure fell on standing' : 'Stand-up test: felt faint on standing', detail: `Lying ${v.lyHr} bpm, standing ${v.stHr} bpm${res.sysDrop !== null ? `; blood pressure changed by ${res.sysDrop > 0 ? '-' : '+'}${Math.abs(res.sysDrop)} systolic` : ''}.`, status: 'red' })} style={{ border: 0, background: 'transparent', padding: 0, color: 'var(--accent)', textDecoration: 'underline', cursor: 'pointer', font: 'inherit' }}>
                   Who to tell
                 </button>
               </Note>
@@ -391,7 +392,7 @@ function WeeklyCheck() {
           {positive ? (
             <Note tone="watch">
               <strong>At or above the screening cutoff.</strong> {getContent('moodScreen').whenToEscalate}{' '}
-              <button type="button" onClick={() => bridge.go?.('escalation' as never)} style={{ border: 0, background: 'transparent', padding: 0, color: 'var(--accent)', textDecoration: 'underline', cursor: 'pointer', font: 'inherit' }}>
+              <button type="button" onClick={() => openEscalation({ title: 'Asked for a private talk', detail: 'The weekly check suggests a private conversation with the medical officer or flight surgeon.', status: 'yellow' })} style={{ border: 0, background: 'transparent', padding: 0, color: 'var(--accent)', textDecoration: 'underline', cursor: 'pointer', font: 'inherit' }}>
                 Who to tell
               </button>
             </Note>

@@ -84,6 +84,7 @@ export function AlertBanner() {
 /** One alert as a single compact row; open it for what to do, the escalation note and closing. */
 function AlertRow({ a, history = false }: { a: Alert; history?: boolean }) {
   const [open, setOpen] = useState(false)
+  const [sent, setSent] = useState(false)
   const [closing, setClosing] = useState(false)
   const [note, setNote] = useState('')
   const tone = a.status === 'red' ? 'var(--act)' : 'var(--watch)'
@@ -122,11 +123,12 @@ function AlertRow({ a, history = false }: { a: Alert; history?: boolean }) {
           {e.level > 0 && (
             <div role="status" style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: 8, padding: '7px 10px', borderRadius: 10, background: e.level === 2 ? 'rgba(179,38,30,.1)' : 'rgba(183,121,31,.12)', fontSize: 13, fontWeight: 600 }}>
               <span style={{ flex: '1 1 200px' }}>{e.text}</span>
-              {e.level === 2 && (
-                <button type="button" onClick={() => bridge.go?.('escalation' as never)} style={{ ...small, border: 0, background: 'var(--act)', color: 'var(--paper)' }}>
-                  Open Escalate
+              {e.level === 2 && !sent && (
+                <button type="button" onClick={() => { D.queuePacket(a.crewId); setSent(true) }} style={{ ...small, border: 0, background: 'var(--act)', color: 'var(--paper)' }}>
+                  Send {a.crewName}'s summary to Earth
                 </button>
               )}
+              {sent && <span style={{ fontWeight: 700, color: 'var(--ok-ink)' }}>Sent to Earth. Keep onboard care going while it travels.</span>}
             </div>
           )}
           {a.state !== 'closed' && <AlertActionCard a={a} />}

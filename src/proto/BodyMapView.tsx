@@ -8,6 +8,7 @@ import { PatternsPanel } from './PatternsPanel'
 import * as D from './data'
 import * as P from './parts'
 import { S } from './parts'
+import { openEscalation } from './EscalationAdvice'
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export function BodyMapView({ v }: { v: any }) {
@@ -62,8 +63,8 @@ export function BodyMapView({ v }: { v: any }) {
                 <button type="button" onClick={v.openFlag} style={S({ whiteSpace: 'nowrap', minHeight: '46px', padding: '0 18px', borderRadius: '999px', background: 'var(--ink)', color: 'var(--paper)', border: '0', fontSize: '14.5px', fontWeight: '600', cursor: 'pointer' })}>
                   {v.openFlagLabel}
                 </button>
-                <a href="Escalation.dc.html" style={S({ whiteSpace: 'nowrap', display: 'inline-flex', alignItems: 'center', minHeight: '46px', padding: '0 18px', borderRadius: '999px', border: '1px solid var(--watch-ink)', color: 'var(--watch-ink)', textDecoration: 'none', fontSize: '14.5px', fontWeight: '600' })}>
-                  Escalation ladder
+                <a href="#" onClick={(e) => { e.preventDefault(); openEscalation() }} style={S({ whiteSpace: 'nowrap', display: 'inline-flex', alignItems: 'center', minHeight: '46px', padding: '0 18px', borderRadius: '999px', border: '1px solid var(--watch-ink)', color: 'var(--watch-ink)', textDecoration: 'none', fontSize: '14.5px', fontWeight: '600' })}>
+                  Who to tell
                 </a>
               </div>
             </section>
@@ -412,7 +413,7 @@ export function BodyMapView({ v }: { v: any }) {
                       <button type="button" onClick={ch.open} style={S({ display: 'inline-flex', alignItems: 'center', gap: '8px', minHeight: '48px', padding: '0 20px', borderRadius: '14px', background: 'var(--ink)', color: 'var(--paper)', border: '0', boxShadow: '0 4px 0 #000', fontSize: '14.5px', fontWeight: '650', cursor: 'pointer', whiteSpace: 'nowrap' })} className="bodymapview-active-4">
                         See the charts
                       </button>
-                      <a href={ch.href2} style={S({ display: 'inline-flex', alignItems: 'center', minHeight: '48px', padding: '0 18px', borderRadius: '14px', border: '2px solid var(--rule-strong)', color: 'var(--ink)', textDecoration: 'none', fontSize: '14.5px', fontWeight: '650', whiteSpace: 'nowrap' })} className="bodymapview-hover-5">
+                      <a href={ch.href2} onClick={(e) => { if (ch.href2 === '#who') { e.preventDefault(); openEscalation() } }} style={S({ display: 'inline-flex', alignItems: 'center', minHeight: '48px', padding: '0 18px', borderRadius: '14px', border: '2px solid var(--rule-strong)', color: 'var(--ink)', textDecoration: 'none', fontSize: '14.5px', fontWeight: '650', whiteSpace: 'nowrap' })} className="bodymapview-hover-5">
                         {ch.cta2}
                       </a>
                     </div>
