@@ -61,6 +61,18 @@ export function PatternsPanel() {
         <span style={{ fontSize: 13, color: 'var(--muted)' }}>Related readings moving the wrong way together. A prompt to look closer, not a diagnosis.</span>
       </div>
 
+      {(D.gaps(crew.id) as { id: string; rated: { label: string; value: number }; measured: { label: string; text: string; status: string }[] }[]).map((g) => (
+        <div key={g.id} role="note" style={{ display: 'flex', gap: 12, alignItems: 'flex-start', padding: '14px 16px', borderRadius: 18, background: 'var(--accent-wash)', border: '1.5px solid var(--accent)' }}>
+          <span aria-hidden="true" style={{ flex: '0 0 auto', display: 'grid', placeItems: 'center', width: 32, height: 32, borderRadius: 99, background: 'var(--accent)', color: '#fff', fontWeight: 800 }}>≠</span>
+          <div style={{ display: 'grid', gap: 4 }}>
+            <strong style={{ fontSize: 15 }}>How you feel and what we measured disagree</strong>
+            <p style={{ margin: 0, fontSize: 14, lineHeight: 1.5 }}>
+              You rated your {g.rated.label} {g.rated.value}/10, your usual or better, but {g.measured.map((m) => m.text).join(', and ')}.
+            </p>
+            <p style={{ margin: 0, fontSize: 13, color: 'var(--muted)' }}>People often notice their own tiredness late. Worth a second look before demanding tasks.</p>
+          </div>
+        </div>
+      ))}
       {hits.length === 0 ? (
         <p style={{ margin: 0, display: 'flex', alignItems: 'center', gap: 10, fontSize: 15, color: 'var(--muted)' }}>
           <span aria-hidden="true" style={{ width: 10, height: 10, borderRadius: 99, background: 'var(--ok)' }} />

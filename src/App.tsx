@@ -15,6 +15,7 @@ import {
 import './proto/proto.css'
 import { bridge, useProtoStore } from './proto/store'
 import { SchedulePage } from './proto/SchedulePage'
+import { Tour } from './proto/Tour'
 import { Radiation } from './screens/Radiation'
 import { Sources } from './screens/Sources'
 import { AppProvider, useApp } from './state/AppContext'
@@ -25,6 +26,8 @@ const MirrorCheck = lazy(() => import('./screens/mirror/MirrorCheck').then((m) =
 const ONBOARDED_KEY = 'chm-onboarded'
 
 const hasOnboarded = (): boolean => {
+  // A judge opening the guided tour link goes straight to the tour, not to setup.
+  if (new URLSearchParams(location.search).get('tour') === '1') return true
   try {
     return localStorage.getItem(ONBOARDED_KEY) === '1'
   } catch {
@@ -135,6 +138,7 @@ function Shell() {
   return (
     <>
       <Screen />
+      <Tour />
       <DemoPanel open={demoOpen} onClose={() => setDemoOpen(false)} />
     </>
   )

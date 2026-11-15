@@ -86,3 +86,23 @@ describe('pattern flags', () => {
     expect(fatigue.rung).toBe(3)
   })
 })
+
+import { selfReportGaps } from './selfReportGap'
+
+describe('self-report gaps', () => {
+  const flat = (mean: number) => [...Array.from({ length: 14 }, (_, i) => mean + (i % 2 ? 0.2 : -0.2))]
+  it('flags rating sleep as usual while reaction time is much slower', () => {
+    const ms = [...series('sleepQuality', [...flat(7), 7.5]), ...series('reactionTime', [...wobble(280, 14, 5), 420])]
+    const gaps = selfReportGaps(readAll(ms))
+    expect(gaps[0]?.id).toBe('sleep')
+    expect(gaps[0].measured[0].text).toMatch(/slower/)
+  })
+  it('stays quiet when the person already says they slept badly', () => {
+    const ms = [...series('sleepQuality', [...flat(7), 3]), ...series('reactionTime', [...wobble(280, 14, 5), 420])]
+    expect(selfReportGaps(readAll(ms))).toEqual([])
+  })
+  it('stays quiet when the measurement is fine', () => {
+    const ms = [...series('sleepQuality', [...flat(7), 7.5]), ...series('reactionTime', [...wobble(280, 15, 5)])]
+    expect(selfReportGaps(readAll(ms))).toEqual([])
+  })
+})

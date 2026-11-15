@@ -3,6 +3,7 @@
 // GENERATED from the UI overhaul prototype by dc2jsx.py. Styles are the prototype's, verbatim.
 // Edit the view model that feeds this, not this markup, unless you are re-porting the prototype.
 import { Fragment } from 'react'
+import { AlertsPanel } from './Alerts'
 import { FloatingCrew } from './FloatingCrew'
 import { BannerScene } from './MissionScene'
 import * as P from './parts'
@@ -15,6 +16,7 @@ export function MedicalView({ v }: { v: any }) {
       <div data-chm-root="1" style={S({ '--ink': '#14181f', '--ink-soft': '#2b323d', '--paper': '#f3f1ea', '--paper-deep': '#e8e4d8', '--panel': '#fbfaf6', '--panel-2': '#f6f4ec', '--rule': '#d9d4c4', '--rule-strong': '#a49c88', '--muted': '#5b6270', '--accent': '#0b3d91', '--accent-wash': '#e4e9f3', '--ok': '#2f7d4f', '--ok-ink': '#1b5b33', '--watch': '#b7791f', '--watch-ink': '#7a4f00', '--act': '#b3261e', '--act-ink': '#8c1d18', '--nodata': '#8a8f98', '--nodata-ink': '#5b6270', '--on-accent': '#ffffff', '--star-o': '0', '--glow': 'none', minHeight: '100vh', display: 'flex', flexDirection: 'column', background: 'var(--paper)', color: 'var(--ink)', fontFamily: 'ui-sans-serif, system-ui, -apple-system, \'Segoe UI\', Roboto, sans-serif', fontVariantNumeric: 'tabular-nums' })}>
         <P.TopBar current="Medical view" />
         <main id="main" tabIndex={-1} style={S({ flex: '1', width: '100%', maxWidth: '1440px', margin: '0 auto', padding: '28px clamp(16px, 3vw, 32px) 72px', boxSizing: 'border-box', outline: 'none', display: 'flex', flexDirection: 'column', gap: '24px' })}>
+          <AlertsPanel />
           <div style={S({ display: 'flex', flexWrap: 'wrap', alignItems: 'stretch', gap: '20px' })}>
             <div style={S({ flex: '2 1 520px', display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', gap: '14px', padding: '8px 0', animation: 'cr-rise 520ms cubic-bezier(.22,1,.36,1) both' })}>
               <p style={S({ margin: '0', fontSize: '14px', color: 'var(--muted)' })}>

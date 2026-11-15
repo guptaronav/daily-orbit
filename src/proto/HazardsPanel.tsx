@@ -21,6 +21,7 @@ type Hazard = {
   flagged: string[]
   here: string
 }
+type Budget = { used: number; remaining: number; fraction: number; rate: number; daysLeft: number; status: 'green' | 'yellow' | 'red'; limit: number; limitUrl: string; missionDays: number; rateBasis: string; rateUrl: string; prior: number; priorSimulated: boolean; event: number }
 type Cabin = { series: { day: string; value: number }[]; limit: number | null; unit: string; facts: { text: string; url: string }[]; limitText: string; limitUrl: string; headache: boolean }
 
 const ICON: Record<string, string> = {
@@ -68,12 +69,40 @@ function CabinAir({ c }: { c: Cabin }) {
   )
 }
 
+function DoseBudget({ b }: { b: Budget }) {
+  const color = b.status === 'red' ? 'var(--act)' : b.status === 'yellow' ? 'var(--watch)' : 'var(--ok)'
+  return (
+    <div style={{ display: 'grid', gap: 6, padding: 12, borderRadius: 14, background: 'var(--panel)', border: '1px solid var(--rule)' }}>
+      <p style={{ margin: 0, display: 'flex', justifyContent: 'space-between', gap: 8, fontSize: 13 }}>
+        <strong>Career dose</strong>
+        <span style={{ color: 'var(--muted)' }}>
+          {Math.round(b.used)} of {b.limit} mSv
+        </span>
+      </p>
+      <div role="progressbar" aria-label="Career radiation dose used" aria-valuemin={0} aria-valuemax={b.limit} aria-valuenow={Math.round(b.used)} style={{ height: 10, borderRadius: 99, background: 'var(--paper-deep)', overflow: 'hidden' }}>
+        <div style={{ width: `${b.fraction * 100}%`, height: '100%', background: color, transition: 'width 600ms ease' }} />
+      </div>
+      <p style={{ margin: 0, fontSize: 12.5, color: 'var(--ink-soft)' }}>
+        {b.remaining > 0 ? `About ${b.daysLeft.toLocaleString()} days left at ${b.rate} mSv a day.` : 'Career limit reached.'}
+      </p>
+      <p style={{ margin: 0, fontSize: 11.5, color: 'var(--muted)', lineHeight: 1.45 }}>
+        Limit: NASA-STD-3001 [V1 4030], under 600 mSv per career.{' '}
+        <a href={b.limitUrl} target="_blank" rel="noreferrer" style={{ color: 'var(--accent)' }}>
+          Source
+        </a>
+        . Rate: {b.rateBasis}. {b.priorSimulated && b.prior ? `Earlier missions (${b.prior} mSv) are simulated. ` : ''}A planning estimate, not dosimetry.
+      </p>
+    </div>
+  )
+}
+
 export function HazardsPanel() {
   const [, bump] = useReducer((n: number) => n + 1, 0)
   useEffect(() => D.onState(bump), [])
   const s = D.getState()
   const list = D.hazards(s.crew.id) as Hazard[]
   const cabin = D.cabin(s.crew.id) as Cabin
+  const budget = D.radiationBudget(s.crew.id) as Budget
   const [open, setOpen] = useState<string | null>(null)
 
   return (
@@ -109,6 +138,7 @@ export function HazardsPanel() {
                 </p>
               )}
               {h.id === 'environment' && <CabinAir c={cabin} />}
+              {h.id === 'radiation' && <DoseBudget b={budget} />}
               <button type="button" aria-expanded={isOpen} onClick={() => setOpen(isOpen ? null : h.id)} style={{ alignSelf: 'flex-start', marginTop: 'auto', minHeight: 32, padding: '0 10px', borderRadius: 9, border: '1.5px solid var(--rule-strong)', background: 'transparent', color: 'var(--ink)', fontWeight: 650, cursor: 'pointer', fontSize: 13 }}>
                 {isOpen ? 'Less' : 'What it is'}
               </button>

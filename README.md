@@ -12,20 +12,33 @@ Built for the **2026 NASA Space Apps Challenge**, [*Create Health Monitoring Sof
 
 ---
 
-## How it answers the challenge
+## Challenge requirements, mapped to the app
 
-| The brief asks for | Daily Orbit |
-|---|---|
-| Gather health indicators by keyboard, mouse or camera | **23 indicators**: camera (heart rate, blink rate, eyelid closure), on-screen vision tests (Amsler grid, near acuity), sliders (sleep, mood, stress, gut), a one-minute reaction-time test, manual entry (blood pressure, temperature, blood sugar, body mass, exercise), food and water logging |
-| Help astronauts evaluate their own health | Every reading is compared with that person's own baseline: green, yellow, red, or gray when there is not enough good data |
-| Guidance on treatments and improvements | Each indicator answers the brief's five questions plus a recommended action, written from NASA sources (47 pages, listed in [`src/content/sources.json`](src/content/sources.json)) |
-| A clickable human figure | The **body map**: six regions (head, eyes, heart, skeleton, whole body, gut), each with what it does in the body and why spaceflight matters for it, plus status, trends and an FAQ per indicator |
-| Different environments (station, rover, planetary base) | ISS, lunar surface, Mars transit and a Mars surface base, each with its real communication delay and NASA-sourced notes on gravity, radiation, distance and day length. Mission banners show each environment |
-| Prompt measurements as part of the routine | **Mission schedule**: a NASA-shaped crew day, duties only your role sees, your own blocks, and "due now" prompts |
-| Gamification | Coins, streaks, levels, a mission pass, a cosmetic locker and hidden discoveries. Coins reward **what you did, never what your numbers were** |
-| Dynamic charts | Per-indicator trend charts that break at untrusted readings, plus a 7-day water chart |
-| Color coding | Semantic only, and never by color alone: every status also shows its word |
-| Don't assume astronauts know how to assess their health | Plain-language explanations on every indicator, step-by-step instructions in each check, and an escalation ladder |
+Every requirement and suggestion in the challenge brief, where Daily Orbit answers it, and how to see it. The fastest way through all of it is the **60-second guided tour**: the yellow button on the landing page, or open the app with `?tour=1`.
+
+| The brief asks for | Where in Daily Orbit | How to see it |
+|---|---|---|
+| Gather health indicators by keyboard, mouse or camera | **23 indicators**: camera (heart rate, blink rate, eyelid closure), on-screen vision tests (Amsler grid, near acuity), a one-minute reaction-time test, sliders (sleep, mood, stress, gut), manual entry (blood pressure, temperature, blood sugar, body mass, exercise), food and water | Mirror check; Log |
+| Indicators named in the brief: blood pressure, heart rate, blood sugar, body temperature, sleep hours, mood | All six, plus 17 more | Log; Mirror check |
+| Help astronauts evaluate their own health | Each reading is compared with that person's own baseline and a fixed reference from their first two weeks; steady slides are caught; related readings combine into patterns; ratings that disagree with measurements are pointed out | Console (body map) |
+| Guidance on treatments and health improvements | Every indicator answers the brief's five questions plus a recommended action, from NASA sources; each pattern has a care plan (do now, prevent, re-check, when to escalate) | Console: indicator FAQ, Patterns, Care plan |
+| Which measurements can be performed in space? Why is an exam needed? How do hazards affect them? When does a result need the crew or flight surgeons? What prevents a critical condition? | Answered for all 23 indicators, from the 71 NASA and NIH pages listed in [`src/content/sources.json`](src/content/sources.json) | Console: each indicator's FAQ; Ask Orbit |
+| NASA HRP resources and the five hazards | Each indicator names its HRP risk; a five-hazards panel colors each hazard by the readings it affects, with the career radiation budget and cabin air | Console: The five hazards |
+| A visual tool; a clickable human figure showing function and health status | Body map with an X-ray tour; each region says what it does in the body and why spaceflight matters for it | Console |
+| Animations and interactivity | Animated body tour, mission banners with discoveries, drifting crew, live schedule | Console; Rewards |
+| Different environments (spacecraft, station, rover, base on another planet or moon) | ISS, lunar surface, Mars transit and a Mars surface base, each with its comm delay and NASA notes on gravity, radiation, distance and day length | Top bar: mission menu |
+| Prompt measurements as part of the mission routine | Role-based mission schedule with self-ticking health blocks and "due now" prompts | Schedule |
+| Gamification | Coins for effort, never for values; streaks, levels, mission pass, locker, mission banners with NASA-fact discoveries | Rewards |
+| Dynamic charts over time | Trend charts per indicator, 7-day water chart, cabin CO2 chart | Console; Log |
+| Color coding at a glance | Green, yellow, red, gray, always with a status word | Everywhere |
+| Simple instructions and explanations | Step-by-step checks, plain-language FAQ, Ask Orbit for questions | Ask Orbit (button on every page) |
+| When a result warrants attention from the crew or flight surgeons | Escalation ladder (self-care, crewmate, crew medical officer, flight surgeon) with a ground packet; alerts stay open until the medical officer acknowledges them and only close with a note | Escalate; Crew |
+
+## Proof, not just claims
+
+- **Tested on real NASA data.** The flagging rules were replayed day by day on a real NASA head-down-tilt bed-rest participant (12 baseline days, then 18 days of tilt). Both the old and current rules first flag the participant's real weight loss on tilt day 3. The current rule keeps it at Act on **12 of 18** tilt days, against 3 for the old rule, with the same false-alarm count in the baseline (6 of 42 indicator-days, 2 at Act). One participant on a ground analog: a sanity check, not a clinical validation. The numbers are in [`src/content/validation.json`](src/content/validation.json), and a test fails if they drift from the code. See the Metrics page.
+- **Sourced, or labeled.** Every health statement cites a NASA (or NIH) page. Anything simulated (crews 1 and 2, cabin CO2, earlier-mission radiation dose) says so on screen, and every assumption is logged in [NOTES.md](NOTES.md).
+- **No language model writes medical text.** Ask Orbit retrieves sourced passages and shows their links; warning signs (chest pain, trouble breathing, fainting, sudden vision loss and others) go straight to escalation.
 
 ## What's in the app
 
@@ -38,14 +51,17 @@ Built for the **2026 NASA Space Apps Challenge**, [*Create Health Monitoring Sof
 | **Patterns and care plans** (on the body map) | Related readings moving the wrong way together (fatigue, infection, vision change and more), each with a care plan: do now, prevent, re-check tomorrow (one tap adds it to the schedule), and when to move up the escalation ladder |
 | **Log** | Manual entry for blood pressure, temperature, blood sugar, sleep, exercise and body mass, a one-minute **alertness (reaction-time) check**, plus **Food and water**: a drink pouch that fills toward a goal set from NASA's fluid requirement, meal tiles, a 7-day chart and NASA nutrition tips |
 | **Schedule** (in the header) | The shared crew day (morning and evening conferences with the ground, two hours of exercise, an 8.5-hour sleep period), duties only the crew member's role carries (commander, flight engineer, mission specialist), and blocks the astronaut adds. Health blocks tick themselves when the real thing is done |
+| **Ask Orbit** (button on every page) | A chat window for questions about symptoms and readings. It answers from the app's NASA-sourced content with links, shows the person's own related readings and patterns, and routes warning signs straight to escalation. Works offline; it does not diagnose |
 | **Escalate** | Four rungs: self-care, crewmate, crew medical officer, flight surgeon. It builds a compact change summary for the ground (downloadable JSON) and simulates the comm delay |
-| **Crew (Medical view)** | Everyone at once, people needing attention first. For the crew medical officer |
+| **Crew (Medical view)** | Everyone at once, people needing attention first, and the alert loop: a red reading or a pattern opens an alert that is announced on every page until the crew medical officer acknowledges it, and only clears with a note |
 | **Rewards** | Streaks, levels, a mission pass, a daily supply drop, badges, and a locker of cosmetic gear including illustrated mission banners (Earthrise, Pale blue dot, Jezero dusk, Deep transit) with hidden NASA-fact discoveries |
 | **Metrics** | Two numbers we cannot measure yet, modeled openly with editable inputs: crew time saved, and reporting completeness under effort-based scoring |
 | **Radiation** | Replays a real historical solar particle event from NASA DONKI with measured dose rates, on a simulated vehicle |
 | **Sources** | The NASA data and pages we use, and what we could not cover (in progress) |
 
-**Demo controls:** press **Shift+D** anywhere (or use the link on the landing page) to inject a scripted story into the selected crew member's data, such as a run of worse sleep, then reset.
+**Guided tour:** the yellow "Take the 60-second tour" button on the landing page (or `?tour=1`) walks through ten stops and fires live scenarios along the way.
+
+**Demo controls:** press **Shift+D** anywhere (or use the link on the landing page) to inject a scripted story into the selected crew member's data, then reset. Stories include a run of worse sleep, a fever with symptoms, a cabin CO2 build-up, and "says fine, measures tired" (a self-report gap).
 
 ## How a reading becomes a color
 

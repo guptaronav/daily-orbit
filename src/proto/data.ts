@@ -22,6 +22,11 @@ import { REGIONS as APP_REGIONS } from '../lib/regions'
 import { readAll as appReadAll, readIndicator } from '../lib/bodyStatus'
 import { patternFlags, RUNG_NAME } from '../lib/patterns'
 import { HAZARD_IDS, hazardIndicators, hazardStatus } from '../lib/hazards'
+import { CAREER_LIMIT_MSV, CAREER_LIMIT_SOURCE, DAILY_RATE, PRIOR_MISSIONS_MSV, careerBudget } from '../lib/radiationBudget'
+import { selfReportGaps } from '../lib/selfReportGap'
+import { alertCandidates, alertState } from '../lib/alerts'
+import { buildIndex, redFlag, search } from '../lib/assistant'
+import SOURCES_RAW from '../content/sources.json'
 import { cabinSeries, CABIN } from '../lib/sim/cabin'
 import HAZARDS_RAW from '../content/hazards.json'
 import ENV_RAW from '../content/environments.json'
@@ -889,7 +894,9 @@ export function hazards(crewId) {
 /** Simulated cabin air for the current mission (lib/sim/cabin.ts), with today's symptom context. */
 export function cabin(crewId) {
   const envId = getState().envId
-  const series = cabinSeries(envId, new Date())
+  let fault = null
+  try { fault = localStorage.getItem('chm-cabin-fault') } catch {}
+  const series = cabinSeries(envId, new Date(), fault)
   const ms = getSnapshot().measurements[crewId] ?? []
   const today = todayKey()
   const headache = ms.some((m) => m.indicator === 'symptomReport' && dayKey(Date.parse(m.timestamp)) === today && Array.isArray(m.value?.symptoms) && m.value.symptoms.some((x) => /headache/i.test(String(x))))
@@ -900,4 +907,138 @@ export function cabin(crewId) {
 export function regionInfo(id) {
   const r = REGION_RAW[id] || {}
   return { function: okText(r.function), spaceflight: okText(r.spaceflight) }
+}
+
+/** Career radiation budget against NASA's 600 mSv limit (lib/radiationBudget.ts). */
+export function radiationBudget(crewId) {
+  const ms = getSnapshot().measurements[crewId] ?? []
+  const first = ms.length ? Math.min(...ms.map((m) => Date.parse(m.timestamp))) : Date.now()
+  const missionDays = Math.max(0, Math.floor((Date.now() - first) / DAY))
+  const dose = ms.filter((m) => m.indicator === 'radiationDose' && typeof m.value === 'number').sort((a, b) => b.timestamp.localeCompare(a.timestamp))[0]
+  const env = getState().envId
+  const b = careerBudget({ prior: PRIOR_MISSIONS_MSV[crewId] ?? 0, missionDays, env, eventMSv: dose ? dose.value : 0 })
+  return { ...b, limit: CAREER_LIMIT_MSV, limitUrl: CAREER_LIMIT_SOURCE, missionDays, rateBasis: DAILY_RATE[env]?.basis, rateUrl: DAILY_RATE[env]?.url, priorSimulated: crewId !== 'guest' }
+}
+
+/** Where how someone rates themselves disagrees with what was measured (lib/selfReportGap.ts). */
+export function gaps(crewId) {
+  return selfReportGaps(appReadAll(getSnapshot().measurements[crewId] ?? []))
+}
+
+/* ---- The alert loop (lib/alerts.ts): open until acknowledged, cleared only with a note -------- */
+const ALERT_KEY = 'chm-alerts'
+function alertStore() {
+  try { return JSON.parse(localStorage.getItem(ALERT_KEY) || '{}') } catch { return {} }
+}
+function saveAlerts(st, quiet = false) {
+  try { localStorage.setItem(ALERT_KEY, JSON.stringify(st)) } catch {}
+  if (!quiet) notify()
+}
+export function alerts() {
+  const st = alertStore()
+  let changed = false
+  const out = []
+  for (const c of CREW) {
+    const readings = appReadAll(getSnapshot().measurements[c.id] ?? [])
+    for (const a of alertCandidates(c.id, readings, patternFlags(readings), (i) => IND[i][0])) {
+      if (!st[a.id]) { st[a.id] = { firstSeen: Date.now() }; changed = true }
+      const rec = st[a.id]
+      const state = alertState(a, rec)
+      // A reopened alert starts its clock again.
+      if (state === 'open' && rec.signature && rec.signature !== a.signature) { st[a.id] = { firstSeen: Date.now() }; changed = true }
+      out.push({ ...a, crewName: c.id === 'guest' ? 'Guest' : c.name, state, firstSeen: st[a.id].firstSeen, note: rec.note, ackAt: rec.ackAt, closedAt: rec.closedAt })
+    }
+  }
+  if (changed) saveAlerts(st, true)
+  const rank = { open: 0, acknowledged: 1, closed: 2 }
+  return out.sort((a, b) => rank[a.state] - rank[b.state] || (a.status === b.status ? a.firstSeen - b.firstSeen : a.status === 'red' ? -1 : 1))
+}
+export function ackAlert(id) {
+  const st = alertStore()
+  const a = alerts().find((x) => x.id === id)
+  st[id] = { ...(st[id] || {}), ackAt: Date.now(), signature: a?.signature }
+  saveAlerts(st)
+}
+export function closeAlert(id, note) {
+  const st = alertStore()
+  const a = alerts().find((x) => x.id === id)
+  st[id] = { ...(st[id] || {}), ackAt: st[id]?.ackAt || Date.now(), closedAt: Date.now(), note: String(note).slice(0, 280), signature: a?.signature }
+  saveAlerts(st)
+}
+
+/* ---- Ask Orbit (lib/assistant.ts): offline answers from the app's own sourced content ---------- */
+const HRP_RISKS = 'https://www.nasa.gov/hrp/risks'
+const FIELD_Q = {
+  canMeasureInSpace: (l) => `Can ${l.toLowerCase()} be measured in space?`,
+  whyCheck: (l) => `Why check ${l.toLowerCase()}?`,
+  hazardEffect: (l) => `How spaceflight affects ${l.toLowerCase()}`,
+  whenToEscalate: (l) => `When ${l.toLowerCase()} needs attention`,
+  prevention: (l) => `Preventing problems with ${l.toLowerCase()}`,
+  recommendedAction: (l) => `What to do about ${l.toLowerCase()}`,
+}
+function sourceFor(id, field) {
+  const hits = SOURCES_RAW.filter((x) => String(x.usedFor || '').includes(id))
+  return (hits.find((x) => x.usedFor.includes(field)) || hits[0] || {}).url || HRP_RISKS
+}
+let ASK_INDEX = null
+function askIndex() {
+  if (ASK_INDEX) return ASK_INDEX
+  const ps = []
+  for (const i of INDICATORS) {
+    const c = getContent(i)
+    for (const [f, q] of Object.entries(FIELD_Q)) {
+      const t = okText(c[f])
+      if (t) ps.push({ id: `${i}:${f}`, title: q(c.label), text: t, url: sourceFor(i, f), topic: i })
+    }
+  }
+  for (const h of HAZARDS_RAW) {
+    const t = [h.what, h.body, h.selfCare].map(okText).filter(Boolean).join(' ')
+    if (t) ps.push({ id: `hazard:${h.id}`, title: `${h.name} (one of NASA's five hazards)`, text: t, url: h.url })
+  }
+  for (const [rid, r] of Object.entries(REGION_RAW)) {
+    const t = [r.function, r.spaceflight].map(okText).filter(Boolean).join(' ')
+    if (t) ps.push({ id: `region:${rid}`, title: `What the ${rid === 'body' ? 'whole body' : rid} does`, text: t, url: (r.sources || [])[0] })
+  }
+  for (const e of ENV_RAW) {
+    for (const f of ['gravity', 'radiation', 'distance', 'isolation', 'dayLength']) {
+      const t = okText(e[f])
+      if (t) ps.push({ id: `env:${e.id}:${f}`, title: `${e.label}: ${f === 'dayLength' ? 'day length' : f}`, text: t, url: (e.sources || [])[0] })
+    }
+  }
+  CABIN.facts.forEach((f, k) => ps.push({ id: `cabin:${k}`, title: 'Cabin air and noise', text: f.text, url: f.url }))
+  ps.push({ id: 'cabin:limit', title: 'Cabin CO2 limit', text: `${CABIN.limitText} ${CABIN.weekLimitText}`, url: CABIN.limitUrl })
+  ps.push({ id: 'radiation:limit', title: 'Career radiation limit', text: `NASA-STD-3001: an individual crewmember's total career effective dose from spaceflight radiation shall be less than ${CAREER_LIMIT_MSV} mSv, for all ages and sexes.`, url: CAREER_LIMIT_SOURCE })
+  ASK_INDEX = buildIndex([...ps, ...ASK_EXTRA])
+  return ASK_INDEX
+}
+export function addPassages(extra) {
+  // Lets other modules (the nutrition tips) join the index without an import cycle.
+  ASK_EXTRA.push(...extra)
+  ASK_INDEX = null
+}
+const ASK_EXTRA = []
+
+/**
+ * Answer one question: a red-flag check first, then the best passages with their sources, then
+ * how this person's own related readings look and the escalation step that fits.
+ */
+export function ask(crewId, question) {
+  const flag = redFlag(question)
+  if (flag) {
+    return { kind: 'urgent', flag: flag.say, rung: 'Crew medical officer now, and the flight surgeon through Escalate' }
+  }
+  const hits = search(askIndex(), question, 3)
+  const readings = appReadAll(getSnapshot().measurements[crewId] ?? [])
+  const topics = new Set(hits.map((h) => h.p.topic).filter(Boolean))
+  for (const i of INDICATORS) if (question.toLowerCase().includes(IND[i][0].toLowerCase())) topics.add(i)
+  const mine = [...topics].map((i) => {
+    const r = readings[i]
+    const base = r?.reference ?? r?.baseline
+    const v = typeof r?.latest?.value === 'number' ? r.latest.value : null
+    return { id: i, label: IND[i][0], status: r?.status ?? 'gray', value: v, unit: IND[i][1], usual: base ? Math.round(base.mean * 10) / 10 : null }
+  })
+  const pats = patternFlags(readings).filter((p) => p.parts.some((x) => topics.has(x.indicator))).map((p) => ({ title: p.pattern.title, status: p.status, rung: RUNG_NAME[p.rung] }))
+  const worst = mine.some((m) => m.status === 'red') || pats.some((p) => p.status === 'red') ? 'red' : mine.some((m) => m.status === 'yellow') || pats.length ? 'yellow' : 'ok'
+  const next = worst === 'red' ? 'Tell your crew medical officer today, and use Escalate if it is not settling.' : worst === 'yellow' ? 'Keep an eye on it: try the self-care steps, re-check tomorrow, and ask a crewmate for a second look if it stays.' : ''
+  return { kind: 'answer', hits: hits.map((h) => ({ title: h.p.title, text: h.p.text, url: h.p.url })), mine: mine.filter((m) => m.status !== 'gray' || m.value !== null), patterns: pats, next }
 }

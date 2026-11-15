@@ -234,3 +234,13 @@ Mapping choices that are ours, not NASA's: blink rate and eyelid closure to the 
 - Ultrasound appears on the Astronaut Exercise page only as a research use (Sprint study muscle scans), not as routine equipment.
 - Distance hazard 'body' is left TODO: the NASA page names no specific health effects. Environment hazard 'selfCare' is left TODO: the page lists no crew actions.
 - Cabin temperature/humidity: no numeric limits were sourced, only the requirement to record, display and alert on them.
+
+
+## Alerts, Ask Orbit, validation, radiation budget, self-report gaps, tour (Arnav, 2026-11-14)
+
+- Career radiation budget (`src/lib/radiationBudget.ts`): limit from NASA-STD-3001 Vol 1 [V1 4030], under 600 mSv per career. Daily rates: ISS about 0.5 mSv/day and lunar surface about 0.5 (NASA LSAH newsletter), beyond low Earth orbit about 1 mSv/day or more (same), Mars surface up to 0.9 mSv/day, the [V1 4033] design ceiling for planetary-surface habitats (an upper bound, not a measurement). Earlier-mission doses for crews 1 and 2 (150 and 80 mSv) are simulated. The yellow/red bands at 50% and 85% of the budget are our planning choice.
+- Self-report gaps (`src/lib/selfReportGap.ts`): raised only when the self-rating is at or better than the person's usual AND a measured sign is yellow or red in the worrying direction.
+- Alert loop (`src/lib/alerts.ts`): red readings and any pattern open an alert; the header banner re-announces every 5 minutes until acknowledged; closing needs a note; a newer reading reopens it. Crew 3's real bed-rest flags (blood pressure, body mass) open alerts on first load, which is accurate.
+- Validation (`src/lib/validation.ts`): replays the real bed-rest participant day by day with only the readings available that day. Judged indicator-days need a baseline (5+ earlier readings). It measures false alarms in the 12 baseline days and catching the real body-mass loss during tilt. One participant, ground analog, six indicators; a sanity check, not clinical validation. Regenerate with `WRITE_VALIDATION=1 npx vitest run src/lib/validation.test.ts`.
+- Ask Orbit (`src/lib/assistant.ts`): BM25 retrieval over the app's sourced passages, a synonym list from plain words to content words (ours), and a red-flag list (ours) that routes to the crew medical officer and Escalate. It never generates medical text and needs no network. A language-model mode was deliberately not added: it would need a server and key, break the no-network design, and could invent medical claims.
+- Guided tour and scenarios (`src/proto/Tour.tsx`, `src/proto/scenarios.ts`): scenarios write ordinary records marked "simulated"; "Reset demo data" removes them.

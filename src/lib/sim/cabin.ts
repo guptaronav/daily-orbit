@@ -26,7 +26,7 @@ const hash = (s: string) => [...s].reduce((a, c) => (a * 31 + c.charCodeAt(0)) >
 const rand = (seed: number) => ((seed * 1103515245 + 12345) >>> 0) / 4294967296
 
 /** Seven simulated days of cabin CO2, oldest first, the same for everyone on the same mission. */
-export function cabinSeries(envId: string, now: Date): CabinPoint[] {
+export function cabinSeries(envId: string, now: Date, faultDay?: string | null): CabinPoint[] {
   const base = SIM_LEVEL[envId] ?? 2.5
   return Array.from({ length: 7 }, (_, i) => {
     const d = new Date(now.getTime() - (6 - i) * 86_400_000)
@@ -34,6 +34,8 @@ export function cabinSeries(envId: string, now: Date): CabinPoint[] {
     const r = rand(hash(envId + day))
     // Mostly a small wobble; about one day in seven a scrubber struggles and the level climbs.
     const value = base * (0.9 + r * 0.2) + (r > 0.86 ? base * 0.9 : 0)
+    // A demo scrubber fault: today's level climbs well past the limit.
+    if (faultDay && day === faultDay) return { day, value: Math.round(base * 2.4 * 10) / 10 }
     return { day, value: Math.round(value * 10) / 10 }
   })
 }

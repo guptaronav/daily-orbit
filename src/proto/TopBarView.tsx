@@ -5,6 +5,8 @@
 import { Fragment } from 'react'
 import { FloatingCrew } from './FloatingCrew'
 import { BannerScene } from './MissionScene'
+import { AlertBanner } from './Alerts'
+import { AskOrbit } from './AskOrbit'
 import * as P from './parts'
 import { S } from './parts'
 
@@ -255,6 +257,8 @@ export function TopBarView({ v }: { v: any }) {
             </>
           ) : null}
         </div>
+        <AlertBanner />
+        <AskOrbit />
       </header>
     </>
   )

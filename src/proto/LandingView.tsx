@@ -48,6 +48,10 @@ export function LandingView({ v }: { v: any }) {
                   </svg>
                   Explore the crew dashboard
                 </a>
+                <button type="button" className="fw-press" onClick={() => window.dispatchEvent(new Event('tour:start'))} style={S({ display: 'inline-flex', alignItems: 'center', gap: '10px', minHeight: '58px', padding: '0 24px', borderRadius: '18px', background: '#f6c445', color: '#14181f', border: '0', boxShadow: '0 6px 0 #a8740a', fontSize: '16px', fontWeight: '750', cursor: 'pointer' })}>
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M5 3l14 9-14 9V3z" /></svg>
+                  Take the 60-second tour
+                </button>
               </div>
               <dl style={S({ margin: '6px 0 0', display: 'flex', flexWrap: 'wrap', gap: '10px 28px', animation: 'ld-rise 700ms 320ms cubic-bezier(.22,1,.36,1) both' })}>
                 {(v.heroStats ?? []).map((h: any, h_i: number) => (
