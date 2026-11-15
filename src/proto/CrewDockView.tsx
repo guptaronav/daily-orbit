@@ -185,25 +185,16 @@ export function CrewDockView({ v }: { v: any }) {
                 </span>
               </span>
             </button>
-            <div style={S({ display: 'flex', alignItems: 'center', gap: '2px', padding: '0 2px' })}>
-              {(v.actions ?? []).map((a: any, a_i: number) => (
-                  <Fragment key={a_i}>
-                <a href={a.href} aria-label={a.label} aria-current={a.current} onMouseEnter={a.enter} onFocus={a.enter} style={S({ position: 'relative', display: 'grid', placeItems: 'center', width: '48px', height: '48px', borderRadius: '14px', background: a.bg, color: a.color, textDecoration: 'none', transition: 'background-color 140ms ease, transform 200ms cubic-bezier(.22,1,.36,1)' })} className="crewdockview-hover-4">
-                  {(a.hover) ? (
-                    <>
-                    <span style={S({ position: 'absolute', bottom: 'calc(100% + 10px)', left: '50%', transform: 'translateX(-50%)', whiteSpace: 'nowrap', padding: '6px 10px', borderRadius: '10px', background: 'var(--ink)', color: 'var(--paper)', fontSize: '12.5px', fontWeight: '500', pointerEvents: 'none' })}>
-                      {a.label}
-                    </span>
-                    </>
-                  ) : null}
-                  <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round">
-                    <path d={a.path}>
-                    </path>
-                  </svg>
-                </a>
-                  </Fragment>
-                ))}
-            </div>
+            {(v.nextShow) ? (
+              <button type="button" onClick={v.openSchedule} onMouseEnter={v.leave} aria-label={`Next on your schedule: ${v.nextTitle}, ${v.nextWhen}. Open the schedule.`} className="dock-next" style={S({ display: v.goalDisplay, flexDirection: 'column', justifyContent: 'center', gap: '2px', minHeight: '48px', maxWidth: '190px', padding: '0 12px', borderRadius: '14px', border: '0', background: 'transparent', color: 'var(--ink)', textAlign: 'left', cursor: 'pointer' })}>
+                <span style={S({ fontSize: '11.5px', fontWeight: '700', letterSpacing: '.04em', textTransform: 'uppercase', color: 'var(--muted)' })}>
+                  {v.nextWhen}
+                </span>
+                <span style={S({ fontSize: '13.5px', fontWeight: '650', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis', maxWidth: '166px' })}>
+                  {v.nextTitle}
+                </span>
+              </button>
+            ) : null}
             <span aria-hidden="true" style={S({ display: v.goalDisplay, alignSelf: 'stretch', width: '1px', margin: '6px 4px', background: 'var(--rule)' })}>
             </span>
             <button type="button" onClick={v.toggleGoal} aria-expanded={v.goalOpenStr} style={S({ display: v.goalDisplay, flexDirection: 'column', justifyContent: 'center', gap: '6px', minHeight: '52px', minWidth: '128px', padding: '0 12px', background: v.goalBg, border: '0', borderRadius: '16px', color: 'var(--ink)', textAlign: 'left', cursor: 'pointer' })} className="crewdockview-hover-5">

@@ -26,6 +26,7 @@ import { CAREER_LIMIT_MSV, CAREER_LIMIT_SOURCE, DAILY_RATE, PRIOR_MISSIONS_MSV, 
 import { selfReportGaps } from '../lib/selfReportGap'
 import { alertCandidates, alertState } from '../lib/alerts'
 import { buildIndex, redFlag, search } from '../lib/assistant'
+import { blockState, doneToday, isBlockDone, planFor, toMinutes } from '../lib/schedule'
 import SOURCES_RAW from '../content/sources.json'
 import { cabinSeries, CABIN } from '../lib/sim/cabin'
 import HAZARDS_RAW from '../content/hazards.json'
@@ -630,8 +631,22 @@ export const COIN_PATH = 'M12 2a10 10 0 1 1 0 20 10 10 0 0 1 0-20Z M12 6.5a5.5 5
  * it is done, and its credit arrives from that real flow.
  */
 export function completeTask(crewId, taskId) {
-  bridge.go(taskId === 'exercise' ? 'manual' : 'mirror')
+  bridge.go(taskId === 'checkIn' || taskId === 'symptom' ? 'mirror' : 'manual')
   return 0
+}
+
+/** The next block on this person's schedule (now or upcoming), with minutes until it starts. */
+export function nextBlock(crewId) {
+  const now = new Date()
+  const crew = getState().crew
+  const plan = planFor(crew.role || '', scheduleStore(crewId).custom, now)
+  const done = doneToday(getSnapshot().events[crewId] ?? [], now)
+  const meals = intake(crewId).meals
+  const ticks = ticksToday(crewId)
+  const rows = plan.map((b) => ({ b, st: blockState(b, now, isBlockDone(b, done, meals, ticks)) }))
+  const next = rows.find((r) => r.st === 'now') ?? rows.find((r) => r.st === 'upcoming')
+  if (!next) return null
+  return { title: next.b.title, start: next.b.start, now: next.st === 'now', minsTo: toMinutes(next.b.start) - (now.getHours() * 60 + now.getMinutes()) }
 }
 
 // Scroll reveal: elements with data-reveal fade and rise in as they enter the viewport.

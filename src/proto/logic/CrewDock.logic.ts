@@ -60,27 +60,22 @@ export class CrewDockLogic extends DCLogic {
     const tasks = D.todayTasks(s.crew.id).filter((t) => !t.optional)
     const done = tasks.filter((t) => t.done).length
     const C2 = 2 * Math.PI * 17
-    const here = this.props.current || ''
-    const acts = [
-      { label: 'Body map', href: 'Body%20Map.dc.html', icon: 'body' },
-      { label: 'Log a reading', match: 'Manual entry', href: 'Manual%20Entry.dc.html', icon: 'pen' },
-      { label: 'Escalate', match: 'Escalation', href: 'Escalation.dc.html', icon: 'send' },
-      { label: 'Medical view', href: 'Medical%20View.dc.html', icon: 'users' },
-    ]
-    const actions = acts.map((a, j) => {
-      const on = (a.match || a.label) === here
-      return { ...a, path: D.ICONS[a.icon], current: on ? 'page' : undefined, hover: this.state.hoverAct === j, enter: () => this.setState({ hoverAct: j, hover: null }), bg: on ? 'color-mix(in srgb, var(--accent) 12%, transparent)' : 'transparent', color: on ? 'var(--accent)' : 'var(--ink)' }
-    })
+    // Departure from the prototype: the page links are gone (the top bar has them); in their place,
+    // the next block on the schedule. The check-in pill follows the real next goal.
+    const nb = D.nextBlock(s.crew.id)
+    const nextGoal = tasks.find((t) => !t.done) || D.todayTasks(s.crew.id).find((t) => t.optional && !t.done)
     const goal = D.crewGoal()
     const pct = Math.round(goal.frac * 100)
     return {
       rootRef: this.rootRef, leave, toggleCollapse, collapsed: this.state.collapsed, expanded: !this.state.collapsed,
       crew, popCrew: hIdx >= 0 && !this.state.collapsed && !this.state.narrow, pop, activeCrew: s.crew, activeGear: D.gear(s.crew.id),
       crewDisplay: this.state.narrow ? 'none' : 'flex', goalDisplay: this.state.narrow ? 'none' : 'flex',
-      checkIn: () => { const next = tasks.find((t) => !t.done); if (next) D.completeTask(s.crew.id, next.id) },
-      checkAria: done === tasks.length ? 'All check-ins done today' : 'Complete the next check-in for today (demo)',
-      actions, flameIcon: D.ICONS.flame, scanIcon: D.ICONS.scan, minIcon: D.ICONS.minimize, maxIcon: D.ICONS.maximize,
-      checkLabel: done === tasks.length ? 'All done today' : 'Check in', todayText: done === tasks.length ? 'Come back tomorrow' : `${done} of ${tasks.length} today · +${D.POINTS.checkInComplete} coins`,
+      checkIn: () => (nextGoal ? D.completeTask(s.crew.id, nextGoal.id) : navigate('Today.dc.html')),
+      checkAria: nextGoal ? `Next goal: ${nextGoal.label}, ${nextGoal.points} coins. ${done} of ${tasks.length} daily goals done.` : 'All goals done today',
+      flameIcon: D.ICONS.flame, scanIcon: D.ICONS[nextGoal ? nextGoal.icon : 'award'] || D.ICONS.scan, minIcon: D.ICONS.minimize, maxIcon: D.ICONS.maximize,
+      checkLabel: nextGoal ? nextGoal.label : 'All done today', todayText: nextGoal ? `${done} of ${tasks.length} goals${nextGoal.optional ? ' · bonus' : ''} · +${nextGoal.points} coins` : 'Come back tomorrow',
+      nextShow: !!nb, nextWhen: nb ? (nb.now ? 'Now' : nb.minsTo < 60 ? `In ${nb.minsTo} min` : `At ${nb.start}`) : '', nextTitle: nb ? nb.title : '',
+      openSchedule: () => navigate('Schedule.dc.html'),
       todayDash: `${C2 * (done / tasks.length)} ${C2}`,
       popGoal: this.state.goal && !this.state.collapsed, goalOpenStr: String(this.state.goal), toggleGoal: () => this.setState((p) => ({ goal: !p.goal, hover: null })),
       goalBg: this.state.goal ? 'color-mix(in srgb, var(--ink) 6%, transparent)' : 'transparent',

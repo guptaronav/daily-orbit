@@ -264,3 +264,4 @@ Mapping choices that are ours, not NASA's: blink rate and eyelid closure to the 
 - One feedback: every earning action (readings, water, meals, alertness, mirror check, crate, milestones, pass tiers, discoveries) fires the same `chm:coins` event; the top-bar coin pop and the new goals toast respond. Rewards no longer shows its own coin toasts on top.
 - Wording: the mirror check is "about a minute" everywhere (it was "thirty seconds" in some places and "about a minute" in others).
 - The bottom dock is unchanged in layout (as asked earlier); its goal count now matches Today because both read the same list.
+- Dock (2026-11-15): kept as asked, with the crew switcher and check-in pill. The four page links are gone (the top bar has them); in their place, the next block on the schedule ("Now · Free time", opens Schedule). The pill now shows the real next goal with its own coins (it said "+10 coins" whatever the goal) and opens that goal's page.
