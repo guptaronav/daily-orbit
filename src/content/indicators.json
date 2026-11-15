@@ -6,12 +6,18 @@
     "region": "heart",
     "standardMeasure": "sensorimotor",
     "hrpRisk": "Risk of Cardiovascular Adaptations",
-    "canMeasureInSpace": "[CONTENT TODO]",
-    "whyCheck": "[CONTENT TODO]",
-    "hazardEffect": "[CONTENT TODO]",
-    "whenToEscalate": "[CONTENT TODO]",
-    "prevention": "[CONTENT TODO]",
-    "recommendedAction": "[CONTENT TODO]"
+    "canMeasureInSpace": "Yes. NASA's Standard Measures tests record heart rate, and station crews have worn sensor shirts and vests that track it. This app estimates it from the webcam, which is our own method, not a NASA instrument.",
+    "whyCheck": "The heart and blood vessels change in space. Watching your own heart rate over time can show a change early.",
+    "hazardEffect": "NASA says low gravity and other spaceflight stressors can alter the heart and blood vessels, potentially leading to blood clots, irregular heartbeat, cardiovascular disease, and low blood pressure with fainting at landing.",
+    "whenToEscalate": "We found no cut-off number on a NASA page that we can cite. The app marks Watch or Act when a reading moves away from your own usual range, which is statistics, not a clinical limit. NASA flight surgeons monitor each crew member's health during a mission, so raise a change that stays with your crew medical officer.",
+    "prevention": "NASA says regular exercise and a healthy diet help crews maintain cardiovascular fitness.",
+    "recommendedAction": "Keep to your scheduled exercise, and retake the reading at rest if it looks unusual.",
+    "sources": [
+      "std-measures-article",
+      "wearable-tech",
+      "risk-cardio",
+      "health-care-faq"
+    ]
   },
   {
     "id": "bloodPressureSys",
@@ -20,12 +26,19 @@
     "region": "heart",
     "standardMeasure": "sensorimotor",
     "hrpRisk": "Risk of Cardiovascular Adaptations",
-    "canMeasureInSpace": "[CONTENT TODO]",
-    "whyCheck": "[CONTENT TODO]",
-    "hazardEffect": "[CONTENT TODO]",
-    "whenToEscalate": "[CONTENT TODO]",
-    "prevention": "[CONTENT TODO]",
-    "recommendedAction": "[CONTENT TODO]"
+    "canMeasureInSpace": "Yes. NASA's Standard Measures tests record blood pressure before and after missions, and station crews have measured it with arm and leg cuffs in the Blood Pressure Regulation experiment. In this app you type in a cuff reading.",
+    "whyCheck": "Blood pressure shows how the heart and blood vessels are coping. NASA names low blood pressure, with a higher chance of fainting at landing, as a spaceflight risk.",
+    "hazardEffect": "In weightlessness, body fluids shift toward the head. Back in gravity, some astronauts cannot keep their blood pressure up when they stand, and feel lightheaded or faint.",
+    "whenToEscalate": "We found no cut-off number on a NASA page that we can cite. The app marks Watch or Act when a reading moves away from your own usual range, which is statistics, not a clinical limit. NASA flight surgeons monitor each crew member's health during a mission, so raise a change that stays with your crew medical officer.",
+    "prevention": "NASA says lower-body compression garments and drinking plenty of fluids before landing help prevent low blood pressure, and that regular exercise and a healthy diet keep the cardiovascular system fit.",
+    "recommendedAction": "Take the reading at rest and enter both numbers. Keep up your fluids and scheduled exercise.",
+    "sources": [
+      "std-measures-article",
+      "cardio-microgravity",
+      "risk-cardio",
+      "body-in-space",
+      "health-care-faq"
+    ]
   },
   {
     "id": "bloodPressureDia",
@@ -34,12 +47,19 @@
     "region": "heart",
     "standardMeasure": "sensorimotor",
     "hrpRisk": "Risk of Cardiovascular Adaptations",
-    "canMeasureInSpace": "[CONTENT TODO]",
-    "whyCheck": "[CONTENT TODO]",
-    "hazardEffect": "[CONTENT TODO]",
-    "whenToEscalate": "[CONTENT TODO]",
-    "prevention": "[CONTENT TODO]",
-    "recommendedAction": "[CONTENT TODO]"
+    "canMeasureInSpace": "Yes. NASA's Standard Measures tests record blood pressure before and after missions, and station crews have measured it with arm and leg cuffs in the Blood Pressure Regulation experiment. In this app you type in a cuff reading.",
+    "whyCheck": "Blood pressure shows how the heart and blood vessels are coping. NASA names low blood pressure, with a higher chance of fainting at landing, as a spaceflight risk.",
+    "hazardEffect": "In weightlessness, body fluids shift toward the head. Back in gravity, some astronauts cannot keep their blood pressure up when they stand, and feel lightheaded or faint.",
+    "whenToEscalate": "We found no cut-off number on a NASA page that we can cite. The app marks Watch or Act when a reading moves away from your own usual range, which is statistics, not a clinical limit. NASA flight surgeons monitor each crew member's health during a mission, so raise a change that stays with your crew medical officer.",
+    "prevention": "NASA says lower-body compression garments and drinking plenty of fluids before landing help prevent low blood pressure, and that regular exercise and a healthy diet keep the cardiovascular system fit.",
+    "recommendedAction": "Take the reading at rest and enter both numbers. Keep up your fluids and scheduled exercise.",
+    "sources": [
+      "std-measures-article",
+      "cardio-microgravity",
+      "risk-cardio",
+      "body-in-space",
+      "health-care-faq"
+    ]
   },
   {
     "id": "blinkRate",
@@ -48,12 +68,17 @@
     "region": "head",
     "standardMeasure": "none",
     "hrpRisk": "Risk of Inadequate Sleep and Irregular Schedules",
-    "canMeasureInSpace": "[CONTENT TODO]",
-    "whyCheck": "[CONTENT TODO]",
-    "hazardEffect": "[CONTENT TODO]",
-    "whenToEscalate": "[CONTENT TODO]",
-    "prevention": "[CONTENT TODO]",
-    "recommendedAction": "[CONTENT TODO]"
+    "canMeasureInSpace": "A camera can count blinks, but this is our own method. NASA measures tiredness differently: a wrist sensor for sleep and a 10-minute self-test of vigilance and attention.",
+    "whyCheck": "We use it as an early sign of tiredness. That link is our own assumption, not a NASA measure.",
+    "hazardEffect": "NASA says space crews face chronic sleep loss, constant work demands and a disturbed body clock. Station crews see 16 sunrises and sunsets a day, which can disrupt the sleep-wake cycle.",
+    "whenToEscalate": "We found no cut-off number on a NASA page that we can cite. The app marks Watch or Act when a reading moves away from your own usual range, which is statistics, not a clinical limit. A camera reading on its own is not a reason for concern. Look at it together with your sleep report.",
+    "prevention": "On the station, LED lighting simulates Earth's light-dark cycle to help crews sleep, and astronauts get set times for relaxation and self-care.",
+    "recommendedAction": "If this reading and your sleep report both look off, protect your next sleep period.",
+    "sources": [
+      "body-in-space",
+      "risk-sleep",
+      "std-measures-article"
+    ]
   },
   {
     "id": "eyelidClosure",
@@ -62,12 +87,17 @@
     "region": "head",
     "standardMeasure": "none",
     "hrpRisk": "Risk of Inadequate Sleep and Irregular Schedules",
-    "canMeasureInSpace": "[CONTENT TODO]",
-    "whyCheck": "[CONTENT TODO]",
-    "hazardEffect": "[CONTENT TODO]",
-    "whenToEscalate": "[CONTENT TODO]",
-    "prevention": "[CONTENT TODO]",
-    "recommendedAction": "[CONTENT TODO]"
+    "canMeasureInSpace": "A camera can estimate how long the eyes stay closed, but this is our own method. NASA measures tiredness differently: a wrist sensor for sleep and a 10-minute self-test of vigilance and attention.",
+    "whyCheck": "We use it as an early sign of tiredness. That link is our own assumption, not a NASA measure.",
+    "hazardEffect": "NASA says space crews face chronic sleep loss, constant work demands and a disturbed body clock. Station crews see 16 sunrises and sunsets a day, which can disrupt the sleep-wake cycle.",
+    "whenToEscalate": "We found no cut-off number on a NASA page that we can cite. The app marks Watch or Act when a reading moves away from your own usual range, which is statistics, not a clinical limit. A camera reading on its own is not a reason for concern. Look at it together with your sleep report.",
+    "prevention": "On the station, LED lighting simulates Earth's light-dark cycle to help crews sleep, and astronauts get set times for relaxation and self-care.",
+    "recommendedAction": "If this reading and your sleep report both look off, protect your next sleep period.",
+    "sources": [
+      "body-in-space",
+      "risk-sleep",
+      "std-measures-article"
+    ]
   },
   {
     "id": "sleepHours",
@@ -76,12 +106,19 @@
     "region": "head",
     "standardMeasure": "sleep",
     "hrpRisk": "Risk of Inadequate Sleep and Irregular Schedules",
-    "canMeasureInSpace": "[CONTENT TODO]",
-    "whyCheck": "[CONTENT TODO]",
-    "hazardEffect": "[CONTENT TODO]",
-    "whenToEscalate": "[CONTENT TODO]",
-    "prevention": "[CONTENT TODO]",
-    "recommendedAction": "[CONTENT TODO]"
+    "canMeasureInSpace": "Yes. Station crews wear a wrist sensor (an actigraph) that records movement and light, and fill in a sleep questionnaire after waking. Here you report your hours.",
+    "whyCheck": "NASA says top performance depends on enough daily sleep of good quality, and that astronauts commonly lose sleep in space.",
+    "hazardEffect": "Irregular light-dark cycles, workload and shifting schedules disturb sleep. NASA reports that crew members slept significantly less during spaceflight than before and after.",
+    "whenToEscalate": "We found no cut-off number on a NASA page that we can cite. The app marks Watch or Act when a reading moves away from your own usual range, which is statistics, not a clinical limit. NASA flight surgeons monitor each crew member's health during a mission, so raise a change that stays with your crew medical officer.",
+    "prevention": "NASA uses LED lighting that follows Earth's day-night cycle, a regular sleep and work schedule, and a sleep area free of outside disruptions such as noise and light.",
+    "recommendedAction": "Keep a regular sleep and work schedule, and log your hours each morning.",
+    "sources": [
+      "std-measures-article",
+      "sleep-hsrb",
+      "wearable-tech",
+      "risk-sleep",
+      "isolation-lessons"
+    ]
   },
   {
     "id": "sleepQuality",
@@ -90,12 +127,17 @@
     "region": "head",
     "standardMeasure": "sleep",
     "hrpRisk": "Risk of Inadequate Sleep and Irregular Schedules",
-    "canMeasureInSpace": "[CONTENT TODO]",
-    "whyCheck": "[CONTENT TODO]",
-    "hazardEffect": "[CONTENT TODO]",
-    "whenToEscalate": "[CONTENT TODO]",
-    "prevention": "[CONTENT TODO]",
-    "recommendedAction": "[CONTENT TODO]"
+    "canMeasureInSpace": "Yes, by self-report. NASA's Standard Measures include a questionnaire after waking on sleep quality and quantity, which is compared with the wrist sensor.",
+    "whyCheck": "How rested you feel can differ from the hours you slept. NASA compares sleep as the crew member perceives it with sleep as the sensor measures it.",
+    "hazardEffect": "NASA reports that noise, temperature, vibration and light in the vehicle inhibit sleep and affect well-being.",
+    "whenToEscalate": "We found no cut-off number on a NASA page that we can cite. The app marks Watch or Act when a reading moves away from your own usual range, which is statistics, not a clinical limit. NASA flight surgeons monitor each crew member's health during a mission, so raise a change that stays with your crew medical officer.",
+    "prevention": "NASA uses LED lighting that follows Earth's day-night cycle, a regular sleep and work schedule, and a sleep area free of outside disruptions such as noise and light.",
+    "recommendedAction": "Answer the sleep question soon after waking, while you remember the night.",
+    "sources": [
+      "std-measures-article",
+      "sleep-hsrb",
+      "risk-sleep"
+    ]
   },
   {
     "id": "mood",
@@ -104,12 +146,18 @@
     "region": "head",
     "standardMeasure": "sleep",
     "hrpRisk": "Risk of Behavioral Changes and Psychiatric Disorders",
-    "canMeasureInSpace": "[CONTENT TODO]",
-    "whyCheck": "[CONTENT TODO]",
-    "hazardEffect": "[CONTENT TODO]",
-    "whenToEscalate": "[CONTENT TODO]",
-    "prevention": "[CONTENT TODO]",
-    "recommendedAction": "[CONTENT TODO]"
+    "canMeasureInSpace": "Yes, by self-report. NASA's Standard Measures include a questionnaire before sleep that covers mood, and astronauts keep journals that researchers use.",
+    "whyCheck": "NASA says prolonged isolation and confinement can raise the risk of anxiety and depression, which may affect sleep, morale and decision making.",
+    "hazardEffect": "Isolation, confinement and distance from Earth all weigh on mood. On a Mars trip, long communication delays make support from home harder.",
+    "whenToEscalate": "We found no cut-off number on a NASA page that we can cite. The app marks Watch or Act when a reading moves away from your own usual range, which is statistics, not a clinical limit. Station crews can teleconference with a psychologist if needed, so raise a low mood that stays.",
+    "prevention": "NASA encourages self-care such as keeping a journal. Exercise, a routine, leisure time and contact with family and friends also help crews cope.",
+    "recommendedAction": "Write a few lines in a journal and keep up your contact with family and crewmates.",
+    "sources": [
+      "std-measures-article",
+      "risk-behavior",
+      "health-care-faq",
+      "isolation-lessons"
+    ]
   },
   {
     "id": "stress",
@@ -118,12 +166,19 @@
     "region": "head",
     "standardMeasure": "none",
     "hrpRisk": "Risk of Behavioral Changes and Psychiatric Disorders",
-    "canMeasureInSpace": "[CONTENT TODO]",
-    "whyCheck": "[CONTENT TODO]",
-    "hazardEffect": "[CONTENT TODO]",
-    "whenToEscalate": "[CONTENT TODO]",
-    "prevention": "[CONTENT TODO]",
-    "recommendedAction": "[CONTENT TODO]"
+    "canMeasureInSpace": "By self-report here. NASA also measures stress hormone levels from blood and saliva samples in its Standard Measures.",
+    "whyCheck": "NASA says stressors such as work overload and disrupted sleep take a toll on the body and can affect mission success.",
+    "hazardEffect": "Work overload, irregular schedules, isolation and confinement all add stress. NASA notes that stress hormone levels can rise in closed habitats.",
+    "whenToEscalate": "We found no cut-off number on a NASA page that we can cite. The app marks Watch or Act when a reading moves away from your own usual range, which is statistics, not a clinical limit. Station crews can teleconference with a psychologist if needed, so raise stress that stays high.",
+    "prevention": "Astronauts get set times for relaxation and self-care. NASA also points to journaling, mindfulness and physical activity.",
+    "recommendedAction": "Use your scheduled rest time, and note in your journal what is driving the stress.",
+    "sources": [
+      "std-measures-article",
+      "risk-sleep",
+      "hazard-hostile",
+      "isolation-lessons",
+      "health-care-faq"
+    ]
   },
   {
     "id": "amslerDistortion",
@@ -132,12 +187,18 @@
     "region": "eyes",
     "standardMeasure": "none",
     "hrpRisk": "Risk of Spaceflight Associated Neuro-ocular Syndrome (SANS)",
-    "canMeasureInSpace": "[CONTENT TODO]",
-    "whyCheck": "[CONTENT TODO]",
-    "hazardEffect": "[CONTENT TODO]",
-    "whenToEscalate": "[CONTENT TODO]",
-    "prevention": "[CONTENT TODO]",
-    "recommendedAction": "[CONTENT TODO]"
+    "canMeasureInSpace": "Yes. NASA's medical guidance lists the Amsler grid among the eye tests done before, during and after flight. Our grid is an uncalibrated self-test, not a clinical one.",
+    "whyCheck": "NASA reports that about 70 percent of station crew members show some swelling at the back of the eye, and that folds near the centre of the retina can distort or reduce vision.",
+    "hazardEffect": "In weightlessness, body fluids move toward the head. NASA says this can lead to optic nerve swelling, folds in the retina and flattening of the back of the eye. Together these are called SANS.",
+    "whenToEscalate": "On the station, NASA schedules eye checks about 1 month into a mission, at 3 months and 1 month before return, with extra testing whenever clinically indicated. Report any new change in your vision. The app has no clinical cut-off.",
+    "prevention": "There is no proven prevention yet. NASA is studying nutritional supplements such as B vitamins and ways to draw fluid back toward the legs, such as lower-body negative pressure and thigh cuffs.",
+    "recommendedAction": "Repeat the grid the same way each time and report any new wavy or missing area.",
+    "sources": [
+      "sans-brief",
+      "risk-sans",
+      "vision-changes",
+      "body-in-space"
+    ]
   },
   {
     "id": "nearAcuity",
@@ -146,12 +207,17 @@
     "region": "eyes",
     "standardMeasure": "none",
     "hrpRisk": "Risk of Spaceflight Associated Neuro-ocular Syndrome (SANS)",
-    "canMeasureInSpace": "[CONTENT TODO]",
-    "whyCheck": "[CONTENT TODO]",
-    "hazardEffect": "[CONTENT TODO]",
-    "whenToEscalate": "[CONTENT TODO]",
-    "prevention": "[CONTENT TODO]",
-    "recommendedAction": "[CONTENT TODO]"
+    "canMeasureInSpace": "Yes. NASA tests visual acuity before, during and after flight, and the station carries visual acuity testing software. Our letter test is uncalibrated, not a clinical one.",
+    "whyCheck": "NASA has recorded shifts in visual acuity in astronauts on long flights. Tracking your own result shows a change early.",
+    "hazardEffect": "In weightlessness, body fluids move toward the head. NASA says this can lead to optic nerve swelling, folds in the retina and flattening of the back of the eye. Together these are called SANS.",
+    "whenToEscalate": "On the station, NASA schedules eye checks about 1 month into a mission, at 3 months and 1 month before return, with extra testing whenever clinically indicated. Report any new change in your vision. The app has no clinical cut-off.",
+    "prevention": "There is no proven prevention yet. NASA is studying nutritional supplements such as B vitamins and ways to draw fluid back toward the legs, such as lower-body negative pressure and thigh cuffs.",
+    "recommendedAction": "Take the test in the same light and at the same distance each time.",
+    "sources": [
+      "sans-brief",
+      "hrr-sans",
+      "risk-sans"
+    ]
   },
   {
     "id": "exerciseMinutes",
@@ -160,12 +226,18 @@
     "region": "skeleton",
     "standardMeasure": "activityLight",
     "hrpRisk": "Risk of Spaceflight-Induced Bone Changes; Risk of Reduced Cardiorespiratory and Musculoskeletal Fitness",
-    "canMeasureInSpace": "[CONTENT TODO]",
-    "whyCheck": "[CONTENT TODO]",
-    "hazardEffect": "[CONTENT TODO]",
-    "whenToEscalate": "[CONTENT TODO]",
-    "prevention": "[CONTENT TODO]",
-    "recommendedAction": "[CONTENT TODO]"
+    "canMeasureInSpace": "Yes. Station crews are scheduled for two and a half hours of exercise a day, and a wrist sensor records activity. Here you log your minutes.",
+    "whyCheck": "Without exercise, bones, muscles and heart fitness decline in microgravity. NASA says weight-bearing bones lose on average 1% to 1.5% of density per month.",
+    "hazardEffect": "Without gravity's load, bones and muscles weaken. NASA reports average losses in strength and aerobic fitness of 10-12% of pre-mission levels on station missions.",
+    "whenToEscalate": "We found no cut-off number on a NASA page that we can cite. The app marks Watch or Act when a reading moves away from your own usual range, which is statistics, not a clinical limit. Flight surgeons individualize each crew member's fitness routine, so tell them if you cannot keep up your sessions.",
+    "prevention": "Resistance and aerobic exercise six to seven days a week. The station has a resistive device (ARED), a treadmill (T2) and a cycle (CEVIS).",
+    "recommendedAction": "Do today's scheduled session and log it, even if it was shorter than planned.",
+    "sources": [
+      "health-care-faq",
+      "risk-bone",
+      "risk-fitness",
+      "std-measures-article"
+    ]
   },
   {
     "id": "temperature",
@@ -173,13 +245,18 @@
     "unit": "°C",
     "region": "body",
     "standardMeasure": "none",
-    "hrpRisk": "[CONTENT TODO]",
-    "canMeasureInSpace": "[CONTENT TODO]",
-    "whyCheck": "[CONTENT TODO]",
-    "hazardEffect": "[CONTENT TODO]",
-    "whenToEscalate": "[CONTENT TODO]",
-    "prevention": "[CONTENT TODO]",
-    "recommendedAction": "[CONTENT TODO]"
+    "hrpRisk": "No NASA HRP risk names body temperature (nasa.gov/hrp/risks)",
+    "canMeasureInSpace": "Yes. Station crews have worn a headband sensor (ESA's Thermo-Mini) that tracks core body temperature for hours, and NASA has tested a device that collects temperature with other vital signs. Here you type in a thermometer reading.",
+    "whyCheck": "ESA's Thermolab study on the station found that core body temperature rises higher and faster during exercise in space than on Earth, and stays raised at rest.",
+    "hazardEffect": "NASA says spaceflight can affect body temperature regulation, because weightlessness removes the natural convection that carries heat away from the body and the cardiovascular and metabolic systems change.",
+    "whenToEscalate": "We found no cut-off number on a NASA page that we can cite. The app marks Watch or Act when a reading moves away from your own usual range, which is statistics, not a clinical limit. NASA flight surgeons monitor each crew member's health during a mission, so raise a change that stays with your crew medical officer.",
+    "prevention": "The vehicle's thermal control system keeps the cabin temperature comfortable. We found nothing more specific on a NASA page.",
+    "recommendedAction": "Measure at the same time of day, and not straight after exercise.",
+    "sources": [
+      "wearable-tech",
+      "telemedicine",
+      "body-in-space"
+    ]
   },
   {
     "id": "radiationDose",
@@ -188,12 +265,22 @@
     "region": "body",
     "standardMeasure": "none",
     "hrpRisk": "Risk of Radiation-Induced Cancers",
-    "canMeasureInSpace": "[CONTENT TODO]",
-    "whyCheck": "[CONTENT TODO]",
-    "hazardEffect": "[CONTENT TODO]",
-    "whenToEscalate": "[CONTENT TODO]",
-    "prevention": "[CONTENT TODO]",
-    "recommendedAction": "[CONTENT TODO]"
+    "canMeasureInSpace": "Yes. Station crews wear dosimeter badges and the station has area monitors. Orion carries six radiation sensors and its crew wear active dosimeters. In this app the dose is a simulation from a replayed storm.",
+    "whyCheck": "Radiation in space is higher than on Earth and cannot be seen or felt. NASA links it to a higher risk of cancer and to effects on the heart, blood vessels, eyes and central nervous system.",
+    "hazardEffect": "Outside Earth's magnetic field, galactic cosmic rays and solar particle events reach the crew. NASA says a solar particle event can cause acute effects such as nausea, vomiting and fatigue.",
+    "whenToEscalate": "On Orion, a first dose threshold signals a caution and closer monitoring, and a higher one triggers a recommendation to take shelter. NASA's standard limits short-term exposure from a solar particle event to an effective dose of 250 mSv.",
+    "prevention": "NASA's strategy is shielding, radiation monitoring and operational procedures: move to a better-shielded area, build a shelter from stowage bags, and delay or end a spacewalk.",
+    "recommendedAction": "When the shelter prompt appears, go to the shelter and stay until the event is declared over.",
+    "sources": [
+      "space-radiation",
+      "artemis2-sun",
+      "risk-radiation",
+      "hazard-radiation",
+      "rad-brief",
+      "orion-radiation",
+      "srag-how",
+      "body-in-space"
+    ]
   },
   {
     "id": "symptomReport",
@@ -201,13 +288,19 @@
     "unit": "symptoms",
     "region": "body",
     "standardMeasure": "none",
-    "hrpRisk": "[CONTENT TODO]",
-    "canMeasureInSpace": "[CONTENT TODO]",
-    "whyCheck": "[CONTENT TODO]",
-    "hazardEffect": "[CONTENT TODO]",
-    "whenToEscalate": "[CONTENT TODO]",
-    "prevention": "[CONTENT TODO]",
-    "recommendedAction": "[CONTENT TODO]"
+    "hrpRisk": "Not tied to one NASA risk. Early symptom reporting is our design choice",
+    "canMeasureInSpace": "Yes, by self-report. Station crews have regular contact with a team of doctors on the ground who monitor their health.",
+    "whyCheck": "NASA uses station experience to learn which medical events happen in space. Reporting a symptom early gives you and the doctors a comparison point for later.",
+    "hazardEffect": "NASA says spaceflight can alter the immune system. Some station astronauts have reported cold sores, rashes, atypical allergies and infections. Far from Earth, medical care is harder to receive.",
+    "whenToEscalate": "A station crew can return to Earth for urgent care. On a Mars trip, with a delay of up to 20 minutes each way, the crew must handle problems with minimal support. Report any symptom that is new or getting worse.",
+    "prevention": "NASA relies on medical training for every astronaut, medical equipment and a pharmacy on board, and regular contact with flight surgeons.",
+    "recommendedAction": "Report symptoms when they start, even mild ones.",
+    "sources": [
+      "health-care-faq",
+      "risk-immune",
+      "hazard-distance",
+      "body-in-space"
+    ]
   },
   {
     "id": "bloodSugar",
@@ -216,12 +309,17 @@
     "region": "gut",
     "standardMeasure": "biosample",
     "hrpRisk": "Risk of Inadequate Food and Nutrition",
-    "canMeasureInSpace": "[CONTENT TODO]",
-    "whyCheck": "[CONTENT TODO]",
-    "hazardEffect": "[CONTENT TODO]",
-    "whenToEscalate": "[CONTENT TODO]",
-    "prevention": "[CONTENT TODO]",
-    "recommendedAction": "[CONTENT TODO]"
+    "canMeasureInSpace": "Yes. Station crews have used a glucometer and blood samples in the Vascular Aging study (Canadian Space Agency), and NASA's Standard Measures collect blood for biochemical markers. Here you type in a reading.",
+    "whyCheck": "NASA reports that studies indicate many crew members show increased insulin resistance in space.",
+    "hazardEffect": "NASA describes accelerated aging-like changes in space, including stiffer carotid arteries and increased insulin resistance.",
+    "whenToEscalate": "We found no cut-off number on a NASA page that we can cite. The app marks Watch or Act when a reading moves away from your own usual range, which is statistics, not a clinical limit. NASA flight surgeons monitor each crew member's health during a mission, so raise a change that stays with your crew medical officer.",
+    "prevention": "NASA uses blood and urine markers to adjust each crew member's diet and workout routine. We found nothing more specific on a NASA page.",
+    "recommendedAction": "Enter readings regularly so a change from your own baseline can be seen.",
+    "sources": [
+      "glucose-blog",
+      "glucose-highlights",
+      "std-measures-article"
+    ]
   },
   {
     "id": "digestiveComfort",
@@ -230,12 +328,18 @@
     "region": "gut",
     "standardMeasure": "none",
     "hrpRisk": "Risk of Host-Microorganism Interactions",
-    "canMeasureInSpace": "[CONTENT TODO]",
-    "whyCheck": "[CONTENT TODO]",
-    "hazardEffect": "[CONTENT TODO]",
-    "whenToEscalate": "[CONTENT TODO]",
-    "prevention": "[CONTENT TODO]",
-    "recommendedAction": "[CONTENT TODO]"
+    "canMeasureInSpace": "Only as a self-report here. NASA studies the gut through fecal samples for the microbiome, which this app does not collect.",
+    "whyCheck": "NASA says the community of microbes in astronauts' guts changes in space, and how that affects their chance of getting sick is still unknown.",
+    "hazardEffect": "NASA says microbes can change characteristics in space and pass more easily between people in a closed habitat, while the immune system is also altered.",
+    "whenToEscalate": "We found no cut-off number on a NASA page that we can cite. The app marks Watch or Act when a reading moves away from your own usual range, which is statistics, not a clinical limit. NASA flight surgeons monitor each crew member's health during a mission, so raise a change that stays with your crew medical officer.",
+    "prevention": "NASA limits crew contact with large groups in the two weeks before launch. On board, crews clean surfaces, change air filters and treat the water. Researchers use microbiome results to adjust diet.",
+    "recommendedAction": "Rate it every day so a change from your usual is easy to see.",
+    "sources": [
+      "std-measures-article",
+      "risk-microbe",
+      "hazard-hostile",
+      "body-in-space"
+    ]
   },
   {
     "id": "appetite",
@@ -244,12 +348,17 @@
     "region": "gut",
     "standardMeasure": "none",
     "hrpRisk": "Risk of Inadequate Food and Nutrition",
-    "canMeasureInSpace": "[CONTENT TODO]",
-    "whyCheck": "[CONTENT TODO]",
-    "hazardEffect": "[CONTENT TODO]",
-    "whenToEscalate": "[CONTENT TODO]",
-    "prevention": "[CONTENT TODO]",
-    "recommendedAction": "[CONTENT TODO]"
+    "canMeasureInSpace": "By self-report here. On the station each astronaut logs what they eat every day in a tablet app, and dietitians review it weekly.",
+    "whyCheck": "NASA warns that lost appetite can mean not eating enough, which may lead to body mass loss and nutritional deficiencies.",
+    "hazardEffect": "Eating the same menu for months causes what NASA calls menu fatigue. On Moon and Mars missions there is no regular resupply, so variety is harder to provide.",
+    "whenToEscalate": "We found no cut-off number on a NASA page that we can cite. The app marks Watch or Act when a reading moves away from your own usual range, which is statistics, not a clinical limit. Dietitians and flight surgeons adjust each crew member's diet, so raise a poor appetite that stays.",
+    "prevention": "NASA designs menus to be varied and appetizing. Crews choose preferred foods before flight and can add personal favourites.",
+    "recommendedAction": "Log your meals, and vary what you choose from the menu.",
+    "sources": [
+      "health-care-faq",
+      "food-appeal",
+      "risk-food"
+    ]
   },
   {
     "id": "bodyMass",
@@ -258,12 +367,18 @@
     "region": "gut",
     "standardMeasure": "none",
     "hrpRisk": "Risk of Inadequate Food and Nutrition",
-    "canMeasureInSpace": "[CONTENT TODO]",
-    "whyCheck": "[CONTENT TODO]",
-    "hazardEffect": "[CONTENT TODO]",
-    "whenToEscalate": "[CONTENT TODO]",
-    "prevention": "[CONTENT TODO]",
-    "recommendedAction": "[CONTENT TODO]"
+    "canMeasureInSpace": "Yes. Station crews use SLAMMD, a device that applies a known force to the astronaut and uses the resulting acceleration to calculate body mass. Here you type in a reading.",
+    "whyCheck": "NASA says not eating enough in space may lead to body mass loss, and that without proper diet and exercise astronauts lose muscle mass faster than on Earth.",
+    "hazardEffect": "Menu fatigue reduces how much crews eat, and microgravity takes the load off muscles and bones.",
+    "whenToEscalate": "We found no cut-off number on a NASA page that we can cite. The app marks Watch or Act when a reading moves away from your own usual range, which is statistics, not a clinical limit. Flight surgeons individualize diet and fitness routines, so raise a steady change with them.",
+    "prevention": "Dietitians track each crew member's daily food intake, and flight surgeons individualize diet and fitness routines.",
+    "recommendedAction": "Measure on a regular schedule so a slow change shows up.",
+    "sources": [
+      "slammd-blog",
+      "food-appeal",
+      "body-in-space",
+      "health-care-faq"
+    ]
   },
   {
     "id": "bowelMovements",
@@ -272,11 +387,16 @@
     "region": "gut",
     "standardMeasure": "none",
     "hrpRisk": "Risk of Host-Microorganism Interactions",
-    "canMeasureInSpace": "[CONTENT TODO]",
-    "whyCheck": "[CONTENT TODO]",
-    "hazardEffect": "[CONTENT TODO]",
-    "whenToEscalate": "[CONTENT TODO]",
+    "canMeasureInSpace": "Yes, as a daily count. NASA's bed-rest studies log bowel movements every day on their case report forms, and this app does the same.",
+    "whyCheck": "It is a simple daily sign of how the gut is doing. NASA's own gut research uses fecal samples for the microbiome, which this app does not collect.",
+    "hazardEffect": "NASA says the community of microbes in astronauts' guts changes in space, and how that affects health is still unknown.",
+    "whenToEscalate": "We found no cut-off number on a NASA page that we can cite. The app marks Watch or Act when a reading moves away from your own usual range, which is statistics, not a clinical limit. NASA flight surgeons monitor each crew member's health during a mission, so raise a change that stays with your crew medical officer.",
     "prevention": "[CONTENT TODO]",
-    "recommendedAction": "[CONTENT TODO]"
+    "recommendedAction": "Log it every day so a change from your usual is easy to see.",
+    "sources": [
+      "nlsp-bedrest",
+      "std-measures-article",
+      "risk-microbe"
+    ]
   }
 ]

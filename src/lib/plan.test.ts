@@ -3,6 +3,7 @@ import type { GameEvent, GameEventKind, Indicator, Measurement } from '../contra
 import { readAll } from './bodyStatus'
 import { dailyPlan, type PlanItem } from './plan'
 import { POINTS } from './scoring'
+import { getContent, isTodo } from './content'
 
 const NOW = new Date('2026-11-14T12:00:00Z')
 const HOUR = 3_600_000
@@ -98,8 +99,10 @@ describe('dailyPlan: what to do today, driven by your own data', () => {
     for (const latest of [6.5, 5.5, 4.5, 3.5]) expect(plan(history('sleepHours', 7, latest)).length).toBeGreaterThanOrEqual(good)
   })
 
-  test('with no sourced guidance the step falls back to telling a crewmate, never to invented advice', () => {
+  test('guidance is the sourced recommended action when one exists, otherwise it points to people, never to invented advice', () => {
     const sleep = plan(history('sleepHours', 7, 5.5)).find((i) => i.id === 'sleep')!
-    expect(sleep.guidance).toMatch(/crewmate|crew medical officer/i)
+    const sourced = getContent('sleepHours').recommendedAction
+    if (isTodo(sourced)) expect(sleep.guidance).toMatch(/crewmate|crew medical officer/i)
+    else expect(sleep.guidance).toBe(sourced)
   })
 })

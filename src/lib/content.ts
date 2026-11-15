@@ -15,6 +15,8 @@ export type IndicatorContent = {
   whenToEscalate: string
   prevention: string
   recommendedAction: string
+  /** Ids in src/content/sources.json for the NASA pages this text was written from. */
+  sources?: string[]
 }
 
 const CONTENT = raw as IndicatorContent[]

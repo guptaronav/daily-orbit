@@ -38,7 +38,11 @@ describe('data coverage: we get and use every indicator we define', () => {
 
   test('indicators that no screen collects yet are reported so they cannot be forgotten', () => {
     const gaps = plannedOnly()
-    expect(gaps).toEqual(expect.arrayContaining(['radiationDose']))
     for (const i of gaps) expect(COVERAGE[i].live).toEqual([])
+  })
+
+  test('radiation dose is collected live now that the radiation replay is built', () => {
+    expect(COVERAGE.radiationDose.live).toContain('radiationReplay')
+    expect(plannedOnly()).not.toContain('radiationDose')
   })
 })

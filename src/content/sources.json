@@ -1,0 +1,448 @@
+[
+  {
+    "id": "hrp-risks",
+    "kind": "page",
+    "title": "Risks of Human Spaceflight",
+    "url": "https://www.nasa.gov/hrp/risks/",
+    "usedFor": [
+      "NASA risk named on every indicator card"
+    ]
+  },
+  {
+    "id": "hrp-hazards",
+    "kind": "page",
+    "title": "5 Hazards of Human Spaceflight",
+    "url": "https://www.nasa.gov/hrp/hazards/",
+    "usedFor": [
+      "The five hazards behind the 'How do spaceflight hazards affect it?' answers"
+    ]
+  },
+  {
+    "id": "standard-measures",
+    "kind": "page",
+    "title": "Standard Measures",
+    "url": "https://www.nasa.gov/reference/standard-measures/",
+    "usedFor": [
+      "Standard Measures tag on every indicator, and the list of categories we do not cover"
+    ]
+  },
+  {
+    "id": "std-measures-article",
+    "kind": "page",
+    "title": "Spaceflight Standard Measures: Characterizing How Humans Adapt in Space",
+    "url": "https://www.nasa.gov/humans-in-space/spaceflight-standard-measures-characterizing-how-humans-adapt-in-space/",
+    "usedFor": [
+      "Heart rate card",
+      "Blood pressure (systolic) card",
+      "Blood pressure (diastolic) card",
+      "Blink rate card",
+      "Eyelid closure card",
+      "Sleep duration card",
+      "Sleep quality card",
+      "Mood card",
+      "Stress card",
+      "Exercise card",
+      "Blood sugar card",
+      "Digestive comfort card",
+      "Bowel movements card",
+      "ISS (low Earth orbit) equipment list"
+    ]
+  },
+  {
+    "id": "body-in-space",
+    "kind": "page",
+    "title": "The Human Body in Space",
+    "url": "https://www.nasa.gov/humans-in-space/the-human-body-in-space/",
+    "usedFor": [
+      "Blood pressure (systolic) card",
+      "Blood pressure (diastolic) card",
+      "Blink rate card",
+      "Eyelid closure card",
+      "Amsler grid distortion card",
+      "Body temperature card",
+      "Radiation dose card",
+      "Symptom report card",
+      "Digestive comfort card",
+      "Body mass card",
+      "ISS (low Earth orbit) equipment list",
+      "Mars transit equipment list"
+    ]
+  },
+  {
+    "id": "risk-cardio",
+    "kind": "page",
+    "title": "Risk of Cardiovascular Adaptations",
+    "url": "https://www.nasa.gov/reference/risk-of-cardiovascular-adaptations/",
+    "usedFor": [
+      "Heart rate card",
+      "Blood pressure (systolic) card",
+      "Blood pressure (diastolic) card"
+    ]
+  },
+  {
+    "id": "risk-sleep",
+    "kind": "page",
+    "title": "Risk from Inadequate Sleep and Irregular Schedules",
+    "url": "https://www.nasa.gov/reference/risk-from-inadequate-sleep-and-irregular-schedules/",
+    "usedFor": [
+      "Blink rate card",
+      "Eyelid closure card",
+      "Sleep duration card",
+      "Sleep quality card",
+      "Stress card"
+    ]
+  },
+  {
+    "id": "risk-behavior",
+    "kind": "page",
+    "title": "Risk of behavioral changes and psychiatric disorders",
+    "url": "https://www.nasa.gov/reference/risk-of-behavioral-changes-and-psychiatric-disorders/",
+    "usedFor": [
+      "Mood card"
+    ]
+  },
+  {
+    "id": "risk-sans",
+    "kind": "page",
+    "title": "Risk of Spaceflight Associated Neuro-ocular Syndrome (SANS)",
+    "url": "https://www.nasa.gov/reference/risk-of-spaceflight-associated-neuro-ocular-syndrome-sans/",
+    "usedFor": [
+      "Amsler grid distortion card",
+      "Near visual acuity card"
+    ]
+  },
+  {
+    "id": "risk-bone",
+    "kind": "page",
+    "title": "Risk of Spaceflight-Induced Bone Changes",
+    "url": "https://www.nasa.gov/reference/risk-of-spaceflight-induced-bone-changes/",
+    "usedFor": [
+      "Exercise card"
+    ]
+  },
+  {
+    "id": "risk-fitness",
+    "kind": "page",
+    "title": "Risk of Reduced Cardiorespiratory and Musculoskeletal Fitness",
+    "url": "https://www.nasa.gov/reference/risk-of-reduced-cardiorespiratory-and-musculoskeletal-fitness/",
+    "usedFor": [
+      "Exercise card"
+    ]
+  },
+  {
+    "id": "risk-radiation",
+    "kind": "page",
+    "title": "Risk of radiation-induced cancers",
+    "url": "https://www.nasa.gov/reference/risk-of-radiation-induced-cancers/",
+    "usedFor": [
+      "Radiation dose card"
+    ]
+  },
+  {
+    "id": "risk-food",
+    "kind": "page",
+    "title": "Risk of Inadequate Food and Nutrition",
+    "url": "https://www.nasa.gov/reference/risk-of-inadequate-food-and-nutrition/",
+    "usedFor": [
+      "Appetite card"
+    ]
+  },
+  {
+    "id": "risk-microbe",
+    "kind": "page",
+    "title": "Risk of Host-Microorganism Interactions",
+    "url": "https://www.nasa.gov/reference/risk-of-host-microorganism-interactions/",
+    "usedFor": [
+      "Digestive comfort card",
+      "Bowel movements card"
+    ]
+  },
+  {
+    "id": "risk-immune",
+    "kind": "page",
+    "title": "Risk of Altered Immune System Responses",
+    "url": "https://www.nasa.gov/reference/risk-of-altered-immune-system-responses/",
+    "usedFor": [
+      "Symptom report card"
+    ]
+  },
+  {
+    "id": "hazard-radiation",
+    "kind": "page",
+    "title": "Hazard: Space Radiation",
+    "url": "https://www.nasa.gov/hrp/hazard-space-radiation/",
+    "usedFor": [
+      "Radiation dose card"
+    ]
+  },
+  {
+    "id": "hazard-isolation",
+    "kind": "page",
+    "title": "Hazard: Isolation and Confinement",
+    "url": "https://www.nasa.gov/hrp/hazard-isolation-and-confinement/",
+    "usedFor": [
+      "Mood and stress cards"
+    ]
+  },
+  {
+    "id": "hazard-distance",
+    "kind": "page",
+    "title": "Hazard: Distance From Earth",
+    "url": "https://www.nasa.gov/hrp/hazard-distance-from-earth/",
+    "usedFor": [
+      "Symptom report card",
+      "Mars transit equipment list"
+    ]
+  },
+  {
+    "id": "hazard-gravity",
+    "kind": "page",
+    "title": "Hazard: Gravity Fields",
+    "url": "https://www.nasa.gov/hrp/hazard-gravity-fields/",
+    "usedFor": [
+      "Bone loss and fluid shift facts on the Exercise and vision cards"
+    ]
+  },
+  {
+    "id": "hazard-hostile",
+    "kind": "page",
+    "title": "Hazard: Hostile/Closed Environments",
+    "url": "https://www.nasa.gov/hrp/hazard-hostile-closed-environments/",
+    "usedFor": [
+      "Stress card",
+      "Digestive comfort card"
+    ]
+  },
+  {
+    "id": "cardio-microgravity",
+    "kind": "page",
+    "title": "Cardiovascular Health in Microgravity",
+    "url": "https://www.nasa.gov/missions/station/cardiovascular-health-in-microgravity/",
+    "usedFor": [
+      "Blood pressure (systolic) card",
+      "Blood pressure (diastolic) card"
+    ]
+  },
+  {
+    "id": "wearable-tech",
+    "kind": "page",
+    "title": "Wearable Tech for Space Station Research",
+    "url": "https://www.nasa.gov/missions/station/iss-research/wearable-tech-for-space-station-research/",
+    "usedFor": [
+      "Heart rate card",
+      "Sleep duration card",
+      "Body temperature card"
+    ]
+  },
+  {
+    "id": "telemedicine",
+    "kind": "page",
+    "title": "NASA to Test Telemedicine, Gather Essential Health Data with Polaris Dawn Crew",
+    "url": "https://www.nasa.gov/humans-in-space/nasa-to-test-telemedicine-gather-essential-health-data-with-polaris-dawn-crew/",
+    "usedFor": [
+      "Body temperature card"
+    ]
+  },
+  {
+    "id": "vision-changes",
+    "kind": "page",
+    "title": "International Space Station Research Keeps an Eye on Vision Changes in Space",
+    "url": "https://www.nasa.gov/humans-in-space/international-space-station-research-keeps-an-eye-on-vision-changes-in-space/",
+    "usedFor": [
+      "Amsler grid distortion card"
+    ]
+  },
+  {
+    "id": "hrr-sans",
+    "kind": "page",
+    "title": "Human Research Roadmap: Risk of Spaceflight Associated Neuro-ocular Syndrome (SANS)",
+    "url": "https://humanresearchroadmap.nasa.gov/Risks/risk.aspx?i=105",
+    "usedFor": [
+      "Near visual acuity card",
+      "ISS (low Earth orbit) equipment list"
+    ]
+  },
+  {
+    "id": "sleep-hsrb",
+    "kind": "page",
+    "title": "Risk of Performance Decrements and Adverse Health Outcomes Resulting from Sleep Loss, Circadian Desynchronization, and Work Overload",
+    "url": "https://www.nasa.gov/directorates/esdmd/hhp/risk-of-performance-decrements-and-adverse-health-outcomes-resulting-from-sleep-loss-circadian-desynchronization-and-work-overload/",
+    "usedFor": [
+      "Sleep duration card",
+      "Sleep quality card"
+    ]
+  },
+  {
+    "id": "space-radiation",
+    "kind": "page",
+    "title": "Space Radiation",
+    "url": "https://www.nasa.gov/directorates/esdmd/hhp/space-radiation/",
+    "usedFor": [
+      "Radiation dose card",
+      "ISS (low Earth orbit) equipment list"
+    ]
+  },
+  {
+    "id": "artemis2-sun",
+    "kind": "page",
+    "title": "To Protect Artemis II Astronauts, NASA Experts Keep Eyes on Sun",
+    "url": "https://science.nasa.gov/missions/artemis/artemis-2/to-protect-artemis-ii-astronauts-nasa-experts-keep-eyes-on-sun/",
+    "usedFor": [
+      "Radiation dose card",
+      "Lunar surface equipment list"
+    ]
+  },
+  {
+    "id": "orion-radiation",
+    "kind": "page",
+    "title": "Scientists and Engineers Evaluate Orion Radiation Protection Plan",
+    "url": "https://www.nasa.gov/missions/artemis/orion/scientists-and-engineers-evaluate-orion-radiation-protection-plan/",
+    "usedFor": [
+      "Radiation dose card",
+      "Lunar surface equipment list"
+    ]
+  },
+  {
+    "id": "srag-how",
+    "kind": "page",
+    "title": "How do we protect the astronauts from space radiation? (NASA Space Radiation Analysis Group)",
+    "url": "https://srag.jsc.nasa.gov/spaceradiation/how/how.cfm",
+    "usedFor": [
+      "Radiation dose card"
+    ]
+  },
+  {
+    "id": "health-care-faq",
+    "kind": "page",
+    "title": "The Real Story About Astronaut Health Care in Space",
+    "url": "https://www.nasa.gov/missions/station/faq-the-real-story-about-astronaut-health-care-in-space/",
+    "usedFor": [
+      "Heart rate card",
+      "Blood pressure (systolic) card",
+      "Blood pressure (diastolic) card",
+      "Mood card",
+      "Stress card",
+      "Exercise card",
+      "Symptom report card",
+      "Appetite card",
+      "Body mass card",
+      "ISS (low Earth orbit) equipment list"
+    ]
+  },
+  {
+    "id": "isolation-lessons",
+    "kind": "page",
+    "title": "Isolation – What Can We Learn From the Experiences of NASA Astronauts?",
+    "url": "https://www.nasa.gov/humans-in-space/isolation-what-can-we-learn-from-the-experiences-of-nasa-astronauts/",
+    "usedFor": [
+      "Sleep duration card",
+      "Mood card",
+      "Stress card"
+    ]
+  },
+  {
+    "id": "food-appeal",
+    "kind": "page",
+    "title": "How Does Spaceflight Change Food Appeal?",
+    "url": "https://www.nasa.gov/humans-in-space/how-does-spaceflight-change-food-appeal/",
+    "usedFor": [
+      "Appetite card",
+      "Body mass card"
+    ]
+  },
+  {
+    "id": "slammd-blog",
+    "kind": "page",
+    "title": "Advanced Science in Full Gear Today as Cosmonauts Relax",
+    "url": "https://www.nasa.gov/blogs/spacestation/2020/11/23/advanced-science-in-full-gear-today-as-cosmonauts-relax/",
+    "usedFor": [
+      "Body mass card",
+      "ISS (low Earth orbit) equipment list"
+    ]
+  },
+  {
+    "id": "glucose-blog",
+    "kind": "page",
+    "title": "Busy Science Day Explores Human Research and Space Physics",
+    "url": "https://www.nasa.gov/blogs/spacestation/2022/04/12/busy-science-day-explores-human-research-and-space-physics/",
+    "usedFor": [
+      "Blood sugar card"
+    ]
+  },
+  {
+    "id": "glucose-highlights",
+    "kind": "page",
+    "title": "Space Station Science Highlights: Week of September 26, 2022",
+    "url": "https://www.nasa.gov/humans-in-space/space-station-science-highlights-week-of-september-26-2022/",
+    "usedFor": [
+      "Blood sugar card"
+    ]
+  },
+  {
+    "id": "orion-exercise",
+    "kind": "page",
+    "title": "Exercise Device for Orion to Pack Powerful Punch",
+    "url": "https://www.nasa.gov/missions/artemis/orion/exercise-device-for-orion-to-pack-powerful-punch/",
+    "usedFor": [
+      "Lunar surface equipment list"
+    ]
+  },
+  {
+    "id": "sans-brief",
+    "kind": "standard",
+    "title": "NASA-STD-3001 Medical Technical Brief: Spaceflight Associated Neuro-ocular Syndrome (SANS)",
+    "url": "https://www.nasa.gov/wp-content/uploads/2024/02/ochmo-mtb-001-sans.pdf",
+    "usedFor": [
+      "Amsler grid distortion card",
+      "Near visual acuity card"
+    ]
+  },
+  {
+    "id": "rad-brief",
+    "kind": "standard",
+    "title": "NASA-STD-3001 Technical Brief: Radiation Protection",
+    "url": "https://www.nasa.gov/wp-content/uploads/2023/12/ochmo-tb-020-radiation-protection.pdf",
+    "usedFor": [
+      "Radiation dose card"
+    ]
+  },
+  {
+    "id": "donki-sep",
+    "kind": "dataset",
+    "title": "NASA DONKI solar energetic particle (SEP) events",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI-API/get/SEP",
+    "usedFor": [
+      "Radiation replay: 494 events fetched at build time, 6 offered for replay",
+      "Onset time of each replayed event (shelter prompt)"
+    ]
+  },
+  {
+    "id": "iswa-crater",
+    "kind": "dataset",
+    "title": "LRO CRaTER dose rates, detector pair D3/D4, via NASA CCMC iSWA",
+    "url": "https://iswa.gsfc.nasa.gov/IswaSystemWebApp/hapi/info?id=CRaTER",
+    "usedFor": [
+      "Radiation replay: hourly measured dose rate behind the simulated dose ledger",
+      "Radiation dose readings written to the body map during a replay (simulated, labeled)"
+    ]
+  },
+  {
+    "id": "iswa-goes",
+    "kind": "dataset",
+    "title": "GOES primary >10 MeV proton flux, 5-minute, via NASA CCMC iSWA",
+    "url": "https://iswa.gsfc.nasa.gov/IswaSystemWebApp/hapi/info?id=goesp_part_flux_P5M",
+    "usedFor": [
+      "Radiation replay: proton flux shown for context (not used in the dose)"
+    ]
+  },
+  {
+    "id": "nlsp-bedrest",
+    "kind": "dataset",
+    "title": "NASA Life Sciences Data Archive: bed rest Case Report Forms, Campaign 3",
+    "url": "https://doi.org/10.83263/wjw1-ta27",
+    "usedFor": [
+      "Crew 3 history on the body map and trend charts: one de-identified bed-rest participant, 30 days",
+      "Bowel movements card (daily log follows the bed-rest case report forms)"
+    ]
+  }
+]

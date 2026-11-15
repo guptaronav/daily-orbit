@@ -3,13 +3,39 @@
     "id": "iss",
     "label": "ISS (low Earth orbit)",
     "oneWayDelaySec": 1,
-    "equipment": ["[CONTENT TODO]"]
+    "equipment": [
+      "Exercise: a resistive device (ARED), a treadmill (T2) and a cycle (CEVIS)",
+      "Eye checks: visual acuity testing software, ocular ultrasound, ophthalmic imaging and optical coherence tomography (OCT)",
+      "Body mass: SLAMMD (Space Linear Acceleration Mass Measurement Device)",
+      "Radiation: dosimeter badges worn by the crew and radiation area monitors",
+      "Sleep and activity: a wrist sensor (actigraph) that records movement and light",
+      "Medical: a pharmacy and a suite of medical equipment, with ultrasound scans done by the crew",
+      "Support: regular contact with flight surgeons, and return to Earth in the crew's own spacecraft in an emergency"
+    ],
+    "equipmentSources": [
+      "health-care-faq",
+      "hrr-sans",
+      "slammd-blog",
+      "space-radiation",
+      "std-measures-article",
+      "body-in-space"
+    ]
   },
   {
     "id": "lunar",
     "label": "Lunar surface",
     "oneWayDelaySec": 1.3,
-    "equipment": ["[CONTENT TODO]"]
+    "equipment": [
+      "We found no NASA page that lists medical equipment for the lunar surface. The items below are for Orion, the spacecraft that carries crews to the Moon.",
+      "Radiation: six radiation sensors in the cabin (HERA), with on-screen warnings and an audible alarm, and active dosimeters worn by the crew",
+      "Radiation shelter: built by the crew from stowage bags in the central part of the crew module",
+      "Exercise: a compact device NASA described for Orion (ROCKY), used like a rowing machine and for strength training"
+    ],
+    "equipmentSources": [
+      "artemis2-sun",
+      "orion-radiation",
+      "orion-exercise"
+    ]
   },
   {
     "id": "mars",
@@ -17,6 +43,14 @@
     "oneWayDelaySec": 1200,
     "minDelaySec": 180,
     "maxDelaySec": 1320,
-    "equipment": ["[CONTENT TODO]"]
+    "equipment": [
+      "No Mars transit vehicle exists yet, so there is no equipment list to cite.",
+      "NASA says a Mars crew must bring all the food, equipment and medical supplies it needs, with no resupply",
+      "NASA expects a communication delay of up to 20 minutes one way, so the crew must solve problems with minimal support from Earth"
+    ],
+    "equipmentSources": [
+      "body-in-space",
+      "hazard-distance"
+    ]
   }
 ]
