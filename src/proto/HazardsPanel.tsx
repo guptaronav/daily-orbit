@@ -74,7 +74,7 @@ export function DoseBudget({ b }: { b: Budget }) {
   return (
     <div style={{ display: 'grid', gap: 6, padding: 12, borderRadius: 14, background: 'var(--panel)', border: '1px solid var(--rule)' }}>
       <p style={{ margin: 0, display: 'flex', justifyContent: 'space-between', gap: 8, fontSize: 13 }}>
-        <strong>Career dose</strong>
+        <strong>Career dose{D.systemsOnline().shelter ? <span style={{ marginLeft: 6, padding: '1px 7px', borderRadius: 99, background: 'rgba(47,125,79,.14)', color: 'var(--ok-ink)', fontSize: 11, fontWeight: 750 }}>Shelter ready</span> : null}</strong>
         <span style={{ color: 'var(--muted)' }}>
           {Math.round(b.used)} of {b.limit} mSv
         </span>
@@ -137,7 +137,7 @@ export function HazardsPanel() {
                   {h.here}
                 </p>
               )}
-              {h.id === 'environment' && <CabinAir c={cabin} />}
+              {h.id === 'environment' && (D.systemsOnline().telemetry ? <CabinAir c={cabin} /> : <p style={{ margin: 0, fontSize: 12.5, color: 'var(--muted)' }}>Cabin air telemetry comes online when the crew reaches 300 points together.</p>)}
               {h.id === 'radiation' && <DoseBudget b={budget} />}
               <button type="button" aria-expanded={isOpen} onClick={() => setOpen(isOpen ? null : h.id)} style={{ alignSelf: 'flex-start', marginTop: 'auto', minHeight: 32, padding: '0 10px', borderRadius: 9, border: '1.5px solid var(--rule-strong)', background: 'transparent', color: 'var(--ink)', fontWeight: 650, cursor: 'pointer', fontSize: 13 }}>
                 {isOpen ? 'Less' : 'What it is'}

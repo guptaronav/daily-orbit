@@ -5,6 +5,8 @@
 import { Fragment } from 'react'
 import { FloatingCrew } from './FloatingCrew'
 import { BannerScene } from './MissionScene'
+import { FeaturedToday, SetsAndLevels, ThisWeek } from './RewardsExtras'
+import { ProofCardButton } from './ProofCard'
 import * as P from './parts'
 import { S } from './parts'
 
@@ -33,6 +35,11 @@ export function RewardsView({ v }: { v: any }) {
                     <span style={S({ fontSize: '14px', color: 'var(--muted)', whiteSpace: 'nowrap' })}>
                       {v.crewRole}
                     </span>
+                    {v.title ? (
+                      <span style={S({ whiteSpace: 'nowrap', padding: '4px 11px', borderRadius: '999px', background: 'rgba(246,196,69,.18)', color: '#7a5400', fontSize: '12.5px', fontWeight: '750' })}>
+                        {v.title}
+                      </span>
+                    ) : null}
                   </p>
                   <h1 style={S({ margin: '8px 0 0', fontSize: 'clamp(32px, 4.4vw, 54px)', lineHeight: '1', fontWeight: '700', letterSpacing: '-0.045em' })}>
                     {v.crewName}
@@ -102,8 +109,11 @@ export function RewardsView({ v }: { v: any }) {
                 <h2 id="proof-heading" style={S({ margin: '0', fontSize: '22px', fontWeight: '700', letterSpacing: '-0.02em', whiteSpace: 'nowrap' })}>
                   Proof of consistency
                 </h2>
-                <span style={S({ fontSize: '14px', color: 'var(--muted)' })}>
-                  Last 30 days · darker means more done
+                <span style={S({ display: 'flex', alignItems: 'center', gap: '10px', flexWrap: 'wrap' })}>
+                  <span style={S({ fontSize: '14px', color: 'var(--muted)' })}>
+                    Last 30 days · darker means more done
+                  </span>
+                  <ProofCardButton />
                 </span>
               </div>
               <div aria-label={v.proofAria} role="img" style={S({ marginTop: '18px', display: 'grid', gridTemplateColumns: 'repeat(15, minmax(0, 1fr))', gap: '6px', maxWidth: '640px' })}>
@@ -166,7 +176,7 @@ export function RewardsView({ v }: { v: any }) {
                     {v.shields} streak shield{v.shieldS}
                   </p>
                   <p style={S({ margin: '4px 0 0', fontSize: '13.5px', lineHeight: '1.45', color: 'var(--muted)' })}>
-                    A shield covers one missed day so the streak survives. Earn one every 7 days in a row.
+                    Earn one every 7 days in a row and hold up to two. A missed day uses one automatically, so the streak survives.
                   </p>
                 </div>
               </div>
@@ -235,6 +245,7 @@ export function RewardsView({ v }: { v: any }) {
                 ))}
             </ol>
           </section>
+          <ThisWeek />
           <div style={S({ display: 'flex', flexWrap: 'wrap', gap: '20px', alignItems: 'stretch' })}>
             <section data-reveal="1" aria-labelledby="drop-heading" style={S({ flex: '1 1 340px', position: 'relative', overflow: 'hidden', display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center', padding: '28px 24px', borderRadius: '28px', background: '#0f141c', color: '#f3f1ea', animation: 'rw-rise 520ms 80ms cubic-bezier(.22,1,.36,1) both' })}>
               <span aria-hidden="true" style={S({ position: 'absolute', inset: '0', background: 'radial-gradient(1px 1px at 14% 22%, #fff, transparent), radial-gradient(1px 1px at 72% 18%, #fff, transparent), radial-gradient(1.5px 1.5px at 86% 64%, #fff, transparent), radial-gradient(1px 1px at 28% 78%, #fff, transparent), radial-gradient(1px 1px at 52% 46%, rgba(255,255,255,.6), transparent)', opacity: '.7' })}>
@@ -405,6 +416,7 @@ export function RewardsView({ v }: { v: any }) {
                 ))}
             </ul>
           </section>
+          <SetsAndLevels />
           <section data-reveal="1" aria-labelledby="locker-heading" style={S({ padding: '26px 28px', borderRadius: '28px', background: 'var(--panel)', border: '1px solid var(--rule)', animation: 'rw-rise 520ms 260ms cubic-bezier(.22,1,.36,1) both' })}>
             <div style={S({ display: 'flex', flexWrap: 'wrap', alignItems: 'center', justifyContent: 'space-between', gap: '14px 20px' })}>
               <div>
@@ -415,6 +427,7 @@ export function RewardsView({ v }: { v: any }) {
                   Spend coins on gear. It changes how you look, nothing else.
                 </p>
               </div>
+              <FeaturedToday />
               <div role="tablist" aria-label="Gear type" style={S({ display: 'flex', flexWrap: 'wrap', gap: '4px', padding: '4px', borderRadius: '999px', background: 'var(--paper-deep)' })}>
                 {(v.slots ?? []).map((t: any, t_i: number) => (
                     <Fragment key={t_i}>
@@ -450,8 +463,13 @@ export function RewardsView({ v }: { v: any }) {
                   </div>
                   <div style={S({ flex: '1', display: 'flex', flexDirection: 'column', gap: '12px', padding: '14px 16px 16px' })}>
                     <div style={S({ display: 'flex', alignItems: 'baseline', justifyContent: 'space-between', gap: '8px' })}>
-                      <span style={S({ fontSize: '15.5px', fontWeight: '650' })}>
-                        {it.name}
+                      <span style={S({ display: 'grid', gap: '2px', minWidth: '0' })}>
+                        <span style={S({ fontSize: '15.5px', fontWeight: '650' })}>
+                          {it.name}
+                        </span>
+                        <span style={S({ fontSize: '11.5px', fontWeight: '750', letterSpacing: '.05em', textTransform: 'uppercase', color: it.rarityInk })}>
+                          {it.rarityLabel}{it.featured ? ' · Featured today' : ''}
+                        </span>
                       </span>
                       <span style={S({ display: 'inline-flex', alignItems: 'center', gap: '4px', fontSize: '14px', fontWeight: '700', color: it.priceColor, whiteSpace: 'nowrap' })}>
                         <svg width="15" height="15" viewBox="0 0 24 24" aria-hidden="true" style={S({ opacity: it.coinOp })}>

@@ -20,6 +20,7 @@ import { ReportPage } from './proto/ReportPage'
 import { Tour } from './proto/Tour'
 import { BootScreen } from './proto/BootScreen'
 import { GoalToast } from './proto/GoalToast'
+import { Moments } from './proto/Moments'
 import { Radiation } from './screens/Radiation'
 import { Sources } from './screens/Sources'
 import { AppProvider, useApp } from './state/AppContext'
@@ -165,6 +166,7 @@ function Shell() {
       <Tour />
       <BootScreen />
       <GoalToast />
+      <Moments />
       <DemoPanel open={demoOpen} onClose={() => setDemoOpen(false)} />
     </>
   )

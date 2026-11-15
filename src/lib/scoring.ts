@@ -57,10 +57,35 @@ export function creditableKinds(
   return { credited: fresh.filter((e) => credited.has(e.id)), alreadyCounted: fresh.filter((e) => !credited.has(e.id)) }
 }
 
+/**
+ * A ceiling on coins per day from everyday activity, so nobody can farm by logging the same kinds
+ * of thing over and over. Streak milestones are one-off rewards for the streak itself and sit
+ * outside it. ponytail: 60 is a pacing number, about a full day of goals plus a bonus or two.
+ */
+export const DAILY_COIN_CAP = 60
+const UNCAPPED: readonly GameEventKind[] = ['streakMilestone']
+
+/** Points from already-credited events with the daily cap applied, per person per day. */
+export function cappedPoints(credited: readonly GameEvent[]): number {
+  const perDay = new Map<string, number>()
+  let outside = 0
+  for (const e of credited) {
+    if (UNCAPPED.includes(e.kind)) {
+      outside += POINTS[e.kind]
+      continue
+    }
+    const key = `${e.crewId}|${e.timestamp.slice(0, 10)}`
+    perDay.set(key, (perDay.get(key) ?? 0) + POINTS[e.kind])
+  }
+  let total = outside
+  for (const v of perDay.values()) total += Math.min(DAILY_COIN_CAP, v)
+  return total
+}
+
 /** Points from events in the last `days` days (newer than now minus days, up to and including now). */
 export function pointsInWindow(events: readonly GameEvent[], now: Date, days: number): number {
   const since = now.getTime() - days * DAY_MS
-  return pointsFor(creditedEvents(events).filter((e) => {
+  return cappedPoints(creditedEvents(events).filter((e) => {
     const t = Date.parse(e.timestamp)
     return t > since && t <= now.getTime()
   }))
@@ -100,5 +125,5 @@ export type CrewProgress = {
 export function crewProgress(allEvents: readonly GameEvent[], now: Date, crewCount: number): CrewProgress {
   const weekPoints = pointsInWindow(allEvents, now, 7)
   const goal = WEEKLY_GOAL_PER_CREW * Math.max(0, crewCount)
-  return { weekPoints, goal, fraction: goal > 0 ? Math.min(1, weekPoints / goal) : 0, reached: goal > 0 && weekPoints >= goal, totalPoints: pointsFor(creditedEvents(allEvents)) }
+  return { weekPoints, goal, fraction: goal > 0 ? Math.min(1, weekPoints / goal) : 0, reached: goal > 0 && weekPoints >= goal, totalPoints: cappedPoints(creditedEvents(allEvents)) }
 }

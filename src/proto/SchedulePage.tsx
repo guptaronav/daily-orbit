@@ -1,6 +1,7 @@
 import { useEffect, useReducer, useState, type FormEvent } from 'react'
 import { blockState, doneToday, dueItems, isBlockDone, planFor, ROLE_DUTIES, toMinutes, type Block, type BlockState, type CustomBlock } from '../lib/schedule'
 import * as D from './data'
+import { ReminderSetting } from './Reminder'
 import { bridge } from './store'
 import { getSnapshot } from './store'
 
@@ -127,6 +128,7 @@ export function SchedulePage() {
         </section>
       </div>
 
+      <ReminderSetting />
       {(() => {
         const g = D.envGuide(s.envId) as { label: string; dayLength: string; equipment: string[] }
         if (!g.dayLength && !g.equipment.length) return null

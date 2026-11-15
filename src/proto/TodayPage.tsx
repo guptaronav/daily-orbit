@@ -75,7 +75,7 @@ export function TodayPage() {
     <main style={{ width: '100%', maxWidth: 1440, margin: '0 auto', padding: '24px clamp(16px, 3vw, 32px) 72px', boxSizing: 'border-box', display: 'grid', gap: 18 }}>
       {/* Hero: who, where, readiness, and the living body */}
       <section style={{ display: 'flex', flexWrap: 'wrap', gap: 18, alignItems: 'stretch', animation: 'lg-rise 520ms cubic-bezier(.22,1,.36,1) both' }}>
-        <div style={{ flex: '2 1 520px', display: 'grid', gap: 14, alignContent: 'end' }}>
+        <div className={D.systemsOnline().nav ? 'nav-stars' : undefined} style={{ flex: '2 1 520px', display: 'grid', gap: 14, alignContent: 'end', borderRadius: 24 }}>
           <p style={{ margin: 0, fontSize: 14, color: 'var(--muted)' }}>
             Mission day {budget.missionDays + 1} · {s.env.label} · {D.formatDelay(s.delay)} to Earth{crew.role ? ` · ${crew.role}` : ''}
           </p>

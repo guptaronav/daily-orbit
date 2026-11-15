@@ -37,7 +37,7 @@ export function GroundLinkPanel() {
           Ground link
         </h2>
         <span style={{ fontSize: 13, color: 'rgba(232,238,252,.7)' }}>
-          {g.env} · {D.formatDelay(g.delay)} each way · a reply takes at least {D.formatDelay(g.delay * 2)}
+          {g.env} · {D.formatDelay(g.delay)} each way · a reply takes at least {D.formatDelay(g.delay * 2)}{D.systemsOnline().comms ? ' · via the comms relay' : ''}
         </span>
       </div>
       <div style={{ display: 'flex', flexWrap: 'wrap', gap: 14 }}>

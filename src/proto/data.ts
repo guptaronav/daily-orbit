@@ -35,14 +35,15 @@ import REGION_RAW from '../content/regions.json'
 import { formatDelay as appFormatDelay } from '../lib/environments'
 import { ENTRY_FORMS as APP_FORMS, validateEntry as appValidate } from '../lib/manualEntry'
 import { buildPacket as appBuildPacket } from '../lib/packet'
-import { POINTS as APP_POINTS, SYSTEMS as APP_SYSTEMS, WEEKLY_GOAL_PER_CREW as APP_GOAL, creditableKinds, creditedEvents, pointsFor, pointsInWindow } from '../lib/scoring'
+import { POINTS as APP_POINTS, SYSTEMS as APP_SYSTEMS, WEEKLY_GOAL_PER_CREW as APP_GOAL, DAILY_COIN_CAP, cappedPoints, creditableKinds, creditedEvents, pointsFor, pointsInWindow } from '../lib/scoring'
 import {
   REPORTING_DEFAULTS as APP_REPORTING,
   TIME_DEFAULTS as APP_TIME,
   crewMinutesPerDay as appMinutes,
   reportingCompleteness as appReporting,
 } from '../lib/sim/metrics'
-import { checkInDays, currentStreak } from '../lib/streak'
+import { checkInDays } from '../lib/streak'
+import { streakWithShields } from '../lib/shields'
 import { bridge, getSnapshot, notify, onChange } from './store'
 
 export function mulberry32(seed) {
@@ -376,9 +377,9 @@ export function game(crewId) {
   let best = 0, run = 0
   for (const d of days) { run = d.checkIn ? run + 1 : 0; best = Math.max(best, run) }
   return {
-    streak: currentStreak(checkInDays(events, crewId), todayKey()),
+    ...(() => { const sh = streakWithShields(checkInDays(events, crewId), todayKey()); return { streak: sh.streak, shields: sh.shields, saves: sh.saves } })(),
     week: pointsInWindow(events, now, 7),
-    total: pointsFor(credited),
+    total: cappedPoints(credited),
     month: days.map((d) => (d.checkIn ? (d.exercise ? 2 : 1) : 0)),
     best,
     days: days.slice(-14).map((d) => d.checkIn),
@@ -470,6 +471,15 @@ export const SHOP = [
   { id: 'suit-pass', slot: 'suit', name: 'Season 1 flight suit', price: 0, pass: true, fill: '#1d2b53' },
   { id: 'patch-pass', slot: 'patch', name: 'Season 1 patch', price: 0, pass: true, bg: '#0b3d91', fg: '#f6c445', glyph: 'M12 3l2.6 5.3 5.8.8-4.2 4.1 1 5.8L12 16.3 6.8 19l1-5.8L3.6 9.1l5.8-.8Z' },
   { id: 'banner-pass', slot: 'banner', name: 'Season 1', price: 0, pass: true, bg: 'radial-gradient(circle at 80% 20%, rgba(246,196,69,.55), transparent 40%), linear-gradient(135deg, #0b1220, #1d2b53 55%, #0b3d91)', ink: '#f3f1ea' },
+  // Level rewards: earned by reaching the level, never sold.
+  { id: 'banner-starlight', slot: 'banner', name: 'Starlight', price: 0, level: 4, bg: 'radial-gradient(1.5px 1.5px at 20% 30%, #fff, transparent), radial-gradient(1px 1px at 60% 70%, #fff, transparent), radial-gradient(2px 2px at 80% 20%, #f6c445, transparent), linear-gradient(180deg, #0b1220, #24345e)', ink: '#f3f1ea' },
+  { id: 'frame-comet', slot: 'frame', name: 'Comet ring', price: 0, level: 7, bg: 'conic-gradient(from 200deg, #f6c445, #e8742c, #14181f 40%, #f6c445)' },
+  { id: 'visor-legend', slot: 'visor', name: 'Legend visor', price: 0, level: 10, c1: '#ffe08a', c2: '#5b3a8c' },
+  // Collection-set rewards: complete a set to unlock its matching ring.
+  { id: 'frame-set-mars', slot: 'frame', name: 'Mars kit ring', price: 0, set: 'mars', bg: 'repeating-conic-gradient(#c8673f 0 20deg, #6e2c1a 20deg 40deg)' },
+  { id: 'frame-set-moon', slot: 'frame', name: 'Moon kit ring', price: 0, set: 'moon', bg: 'repeating-conic-gradient(#d9dbe0 0 20deg, #6b6e75 20deg 40deg)' },
+  { id: 'frame-set-station', slot: 'frame', name: 'Station kit ring', price: 0, set: 'station', bg: 'repeating-conic-gradient(#4cc9f0 0 20deg, #0b3d91 20deg 40deg)' },
+  { id: 'frame-set-deep', slot: 'frame', name: 'Deep space kit ring', price: 0, set: 'deep', bg: 'repeating-conic-gradient(#b28dff 0 20deg, #1e1838 20deg 40deg)' },
   // Illustrated mission scenes (src/proto/MissionScene.tsx). `bg` is the backdrop the scene draws over.
   { id: 'banner-mission', slot: 'banner', name: 'Current mission', price: 0, scene: 'mission', bg: 'linear-gradient(180deg, #050814, #0b1430)', ink: '#f3f1ea' },
   { id: 'banner-lunar', slot: 'banner', name: 'Earthrise', price: 220, scene: 'lunar', bg: 'linear-gradient(180deg, #000, #0a0d14)', ink: '#f3f1ea' },
@@ -484,7 +494,7 @@ const STARTER = {
   'crew-2': { owned: ['frame-brass', 'suit-orange', 'patch-iss', 'banner-grid'], eq: { frame: 'frame-brass', suit: 'suit-orange', patch: 'patch-iss', banner: 'banner-grid' } },
   'crew-3': { owned: ['frame-silver', 'visor-silver', 'patch-mars', 'suit-blue', 'banner-mars', 'top-star'], eq: { frame: 'frame-silver', visor: 'visor-silver', patch: 'patch-mars', suit: 'suit-blue', banner: 'banner-mars', top: 'top-star' } },
 }
-const FREE = SHOP.filter((x) => x.price === 0 && !x.pass).map((x) => x.id)
+const FREE = SHOP.filter((x) => x.price === 0 && !x.pass && !x.level && !x.set).map((x) => x.id)
 
 /** Cosmetic locker state only: what you own, what you wear, what you have spent. */
 type Locker = { owned: string[]; equipped: Record<string, string>; spent: number; bonus: number; granted: string[]; pass: number[]; found: string[]; onboarded: boolean; goal: string; log: { n: number; why: string; at: number }[] }
@@ -511,14 +521,15 @@ function saveLocker(id, l: Locker) {
  */
 export function wallet(id) {
   const events = getSnapshot().events[id] ?? []
-  const earned = pointsFor(creditedEvents(events))
+  const earned = cappedPoints(creditedEvents(events))
   const l = locker(id)
+  const unlocked = computedUnlocks(id, earned, l.owned)
   const chest = events.some((e) => e.kind === 'supplyDrop' && dayKey(e.timestamp) === todayKey())
   const claimed = events.filter((e) => e.kind === 'streakMilestone' && e.detail).map((e) => Number(String(e.detail).replace('streak-', '')))
   return {
     coins: Math.max(0, earned + (l.bonus || 0) - l.spent),
     xp: earned,
-    owned: l.owned,
+    owned: Array.from(new Set([...l.owned, ...unlocked])),
     equipped: l.equipped,
     chestDay: chest ? todayKey() : null,
     claimed,
@@ -585,7 +596,8 @@ export function logReading(id, kind, values) {
   const timestamp = new Date().toISOString()
   const effort = kind === 'exerciseMinutes' ? { kind: 'exerciseComplete' } : { kind: 'readingLogged', detail: kind }
   const { credited } = creditableKinds(getSnapshot().events[id] ?? [], [effort], id, new Date(timestamp))
-  const points = credited.length ? POINTS[effort.kind] : 0
+  const points = credited.length ? Math.min(POINTS[effort.kind], capRoom(id)) : 0
+  if (credited.length && !points) announce(0, 'Daily coin limit reached', true)
   if (points) announce(points, kind === 'exerciseMinutes' ? 'Exercise logged' : kind === 'reactionTime' ? 'Alertness check done' : `${IND[values[0]?.indicator]?.[0] ?? 'Reading'} logged`)
   void (async () => {
     for (const v of values) {
@@ -615,6 +627,8 @@ export function buy(id, itemId) {
   return true
 }
 export function equip(id, itemId) {
+  // Level and set rewards are owned by being earned, not bought: make them equippable.
+  if (computedUnlocks(id, wallet(id).xp, locker(id).owned).includes(itemId)) { const l0 = locker(id); if (!l0.owned.includes(itemId)) saveLocker(id, { ...l0, owned: [...l0.owned, itemId] }) }
   const l = locker(id), it = SHOP.find((x) => x.id === itemId)
   if (!it || !l.owned.includes(itemId)) return
   saveLocker(id, { ...l, equipped: { ...l.equipped, [it.slot]: itemId } })
@@ -843,8 +857,10 @@ function intakeCredit(id, ind) {
   const { credited } = creditableKinds(getSnapshot().events[id] ?? [], [effort], id, new Date())
   if (!credited.length) return 0
   void addEvent({ id: crypto.randomUUID(), crewId: id, timestamp: new Date().toISOString(), ...effort }).then(() => bridge.refresh())
-  announce(POINTS.readingLogged, ind === 'waterIntake' ? 'Water logged' : 'Meal logged')
-  return POINTS.readingLogged
+  const pts = Math.min(POINTS.readingLogged, capRoom(id))
+  if (pts) announce(pts, ind === 'waterIntake' ? 'Water logged' : 'Meal logged')
+  else announce(0, 'Daily coin limit reached', true)
+  return pts
 }
 
 /** Add (or with a negative amount, take back) water in litres. Returns coins earned. */
@@ -1140,9 +1156,9 @@ export function alertRegions(crewId) {
 }
 
 /** Every earning action announces itself the same way: the header coin pop and the goals toast listen. */
-export function announce(n, why) {
+export function announce(n, why, capped = false) {
   try {
-    window.dispatchEvent(new CustomEvent('chm:coins', { detail: { n, why } }))
+    window.dispatchEvent(new CustomEvent('chm:coins', { detail: { n, why, capped } }))
   } catch {
     // No window (tests): nothing to announce.
   }
@@ -1161,4 +1177,160 @@ export function reportStatus(crewId) {
 }
 export function markReportSeen(crewId) {
   try { localStorage.setItem(reportKey(crewId), String(Date.now())) } catch {}
+}
+
+/* ---- Daily coin cap ------------------------------------------------------------------------ */
+/** Coins still allowed today under the daily cap (lib/scoring.ts DAILY_COIN_CAP). */
+export function capRoom(id) {
+  const today = todayKey()
+  const todays = creditedEvents(getSnapshot().events[id] ?? []).filter((e) => dayKey(e.timestamp) === today)
+  return Math.max(0, DAILY_COIN_CAP - cappedPoints(todays.filter((e) => e.kind !== 'streakMilestone')))
+}
+export const COIN_CAP = DAILY_COIN_CAP
+
+/* ---- Levels: every level unlocks something ------------------------------------------------- */
+export const LEVEL_UNLOCKS = [
+  { lv: 2, kind: 'title', id: 't-first', label: 'First steps', what: 'A title under your name' },
+  { lv: 3, kind: 'dock', id: 'dock-midnight', label: 'Midnight dock', what: 'A dark dock skin' },
+  { lv: 4, kind: 'item', id: 'banner-starlight', label: 'Starlight banner', what: 'A banner for your profile' },
+  { lv: 5, kind: 'title', id: 't-steady', label: 'Steady hand', what: 'A title under your name' },
+  { lv: 6, kind: 'dock', id: 'dock-gold', label: 'Gold trim dock', what: 'A gold-trimmed dock skin' },
+  { lv: 7, kind: 'item', id: 'frame-comet', label: 'Comet ring', what: 'A frame for your avatar' },
+  { lv: 8, kind: 'title', id: 't-veteran', label: 'Orbit veteran', what: 'A title under your name' },
+  { lv: 9, kind: 'dock', id: 'dock-aurora', label: 'Aurora dock', what: 'An aurora dock skin' },
+  { lv: 10, kind: 'item', id: 'visor-legend', label: 'Legend visor', what: 'A visor for your avatar' },
+  { lv: 11, kind: 'title', id: 't-legend', label: 'Legend of the deep', what: 'The top title' },
+]
+export function levelPerks(id) {
+  const lv = level(wallet(id).xp).n
+  const got = LEVEL_UNLOCKS.filter((u) => u.lv <= lv)
+  const title = [...got].reverse().find((u) => u.kind === 'title')
+  const dock = [...got].reverse().find((u) => u.kind === 'dock')
+  return { lv, unlocked: got, next: LEVEL_UNLOCKS.find((u) => u.lv > lv) || null, title: title ? title.label : '', dockSkin: dock ? dock.id : '' }
+}
+
+/* ---- Collection sets ------------------------------------------------------------------------ */
+export const SETS = [
+  { id: 'mars', name: 'Mars kit', items: ['patch-mars', 'banner-mars', 'suit-orange'], reward: 'frame-set-mars' },
+  { id: 'moon', name: 'Moon kit', items: ['patch-moon', 'banner-lunar', 'visor-silver'], reward: 'frame-set-moon' },
+  { id: 'station', name: 'Station kit', items: ['patch-iss', 'banner-iss', 'suit-blue'], reward: 'frame-set-station' },
+  { id: 'deep', name: 'Deep space kit', items: ['patch-comet', 'banner-transit', 'visor-deep'], reward: 'frame-set-deep' },
+]
+/** Items owned because they were earned (a level reached, a set completed), not bought. */
+function computedUnlocks(id, xp, owned) {
+  const lv = level(xp).n
+  const out = SHOP.filter((x) => x.level && x.level <= lv).map((x) => x.id)
+  for (const set of SETS) if (set.items.every((i) => owned.includes(i))) out.push(set.reward)
+  return out
+}
+export function sets(id) {
+  const owned = wallet(id).owned
+  return SETS.map((st) => ({ ...st, have: st.items.filter((i) => owned.includes(i)), done: st.items.every((i) => owned.includes(i)), rewardName: SHOP.find((x) => x.id === st.reward)?.name, itemNames: st.items.map((i) => SHOP.find((x) => x.id === i)?.name || i) }))
+}
+
+/* ---- Shop: rarity and two featured items a day ---------------------------------------------- */
+export function rarity(it) {
+  if (it.pass || it.level || it.set) return 'legendary'
+  if (it.price >= 300) return 'epic'
+  if (it.price >= 150) return 'rare'
+  return 'common'
+}
+const hashStr = (str) => [...str].reduce((a, c) => (a * 31 + c.charCodeAt(0)) >>> 0, 7)
+export function featuredToday() {
+  const pool = SHOP.filter((x) => x.price > 0 && !x.pass && !x.level && !x.set)
+  const h = hashStr(todayKey())
+  const a = pool[h % pool.length]
+  let b = pool[(h >>> 7) % pool.length]
+  if (b.id === a.id) b = pool[(pool.indexOf(a) + 5) % pool.length]
+  return [a.id, b.id]
+}
+
+/* ---- Weekly: crew quests (together) and mission-pass tasks (yours) -------------------------- */
+const weekStart = () => {
+  const d = new Date()
+  const day = (d.getUTCDay() + 6) % 7 // Monday-based
+  return Date.UTC(d.getUTCFullYear(), d.getUTCMonth(), d.getUTCDate() - day)
+}
+const weekNo = () => Math.floor(weekStart() / (7 * DAY))
+const sinceWeek = (list, t = (x) => x.timestamp) => list.filter((x) => Date.parse(t(x)) >= weekStart())
+const waterDaysThisWeek = (id) => Object.entries(intakeStore(id).days).filter(([d, v]) => Date.parse(d + 'T00:00:00Z') >= weekStart() && v.water >= (intakeStore(id).goal ?? 2.5)).length
+
+const CREW_QUESTS = [
+  { id: 'mass', label: 'Everyone logs body mass this week', per: (id) => sinceWeek(getSnapshot().measurements[id] ?? []).some((m) => m.indicator === 'bodyMass') },
+  { id: 'mirror3', label: 'Everyone does three mirror checks this week', per: (id) => new Set(sinceWeek(getSnapshot().events[id] ?? []).filter((e) => e.kind === 'checkInComplete').map((e) => dayKey(e.timestamp))).size >= 3 },
+  { id: 'feel', label: 'Everyone tells the crew how they feel at least once', per: (id) => sinceWeek(getSnapshot().measurements[id] ?? []).some((m) => m.indicator === 'mood' || m.indicator === 'symptomReport') },
+  { id: 'move', label: 'Everyone logs an exercise session', per: (id) => sinceWeek(getSnapshot().events[id] ?? []).some((e) => e.kind === 'exerciseComplete') },
+  { id: 'alert', label: 'Everyone does one alertness check', per: (id) => sinceWeek(getSnapshot().measurements[id] ?? []).some((m) => m.indicator === 'reactionTime') },
+]
+export const CREW_QUEST_XP = 40
+/** Two shared quests a week, rotating. Everyone who has done their part is shown; there is no ranking. */
+export function crewQuests() {
+  const n = weekNo()
+  const picked = [CREW_QUESTS[n % CREW_QUESTS.length], CREW_QUESTS[(n + 2) % CREW_QUESTS.length]]
+  const crew = crewList()
+  return picked.map((q) => {
+    const done = crew.filter((c) => q.per(c.id))
+    return { id: q.id, label: q.label, contributors: done.map((c) => ({ crew: c, gear: gear(c.id) })), total: crew.length, complete: crew.length > 0 && done.length === crew.length, xp: CREW_QUEST_XP }
+  })
+}
+
+const PASS_TASKS = [
+  { id: 'bp2', label: 'Log blood pressure twice', xp: 60, count: (id) => sinceWeek(getSnapshot().measurements[id] ?? []).filter((m) => m.indicator === 'bloodPressureSys' && m.source === 'manual').length, goal: 2 },
+  { id: 'alert3', label: 'Do three alertness checks', xp: 60, count: (id) => sinceWeek(getSnapshot().measurements[id] ?? []).filter((m) => m.indicator === 'reactionTime').length, goal: 3 },
+  { id: 'water3', label: 'Reach your water goal on three days', xp: 60, count: (id) => waterDaysThisWeek(id), goal: 3 },
+  { id: 'mirror5', label: 'Do five mirror checks', xp: 50, count: (id) => new Set(sinceWeek(getSnapshot().events[id] ?? []).filter((e) => e.kind === 'checkInComplete').map((e) => dayKey(e.timestamp))).size, goal: 5 },
+  { id: 'packet', label: 'Send one packet to Earth', xp: 40, count: (id) => sinceWeek(groundLink(id).list, (p) => new Date(p.sentAt).toISOString()).length, goal: 1 },
+  { id: 'mass1', label: 'Log body mass once', xp: 40, count: (id) => sinceWeek(getSnapshot().measurements[id] ?? []).filter((m) => m.indicator === 'bodyMass' && m.source === 'manual').length, goal: 1 },
+]
+/** Three rotating tasks a week that give mission-pass XP. Only effort, never values. */
+export function passTasks(id) {
+  const n = weekNo()
+  const picked = [0, 2, 4].map((k) => PASS_TASKS[(n + k) % PASS_TASKS.length])
+  return picked.map((t) => {
+    const c = Math.min(t.goal, t.count(id))
+    return { id: t.id, label: t.label, xp: t.xp, progress: c, goal: t.goal, done: c >= t.goal }
+  })
+}
+/** Season XP: 60% of earned XP, plus this week's finished pass tasks and completed crew quests. */
+export function seasonXp(id) {
+  const base = Math.round(wallet(id).xp * 0.6)
+  const tasks = passTasks(id).filter((t) => t.done).reduce((a, t) => a + t.xp, 0)
+  const quests = crewQuests().filter((q) => q.complete).length * CREW_QUEST_XP
+  return base + tasks + quests
+}
+
+/* ---- Moments: shield saves and level-ups, each shown once ----------------------------------- */
+const seenKey = (id) => 'chm-moments-' + id
+function seenMoments(id) {
+  try { return JSON.parse(localStorage.getItem(seenKey(id)) || '{}') } catch { return {} }
+}
+export function pendingMoments(id) {
+  const seen = seenMoments(id)
+  const out = []
+  const save = (game(id).saves || []).at(-1)
+  if (save && Date.now() - Date.parse(save.day) < 3 * DAY && seen.shield !== save.day) out.push({ kind: 'shield', key: save.day, text: `Your shield saved a ${save.streak}-day streak.` })
+  const lv = level(wallet(id).xp).n
+  if (seen.level === undefined) {
+    // First run: start counting from here, no surprise screen.
+    try { localStorage.setItem(seenKey(id), JSON.stringify({ ...seen, level: lv })) } catch {}
+  } else if (lv > seen.level) {
+    out.push({ kind: 'level', key: lv, lv, rank: level(wallet(id).xp).rank, unlocks: LEVEL_UNLOCKS.filter((u) => u.lv > seen.level && u.lv <= lv) })
+  }
+  return out
+}
+export function markMoment(id, kind, key) {
+  const seen = seenMoments(id)
+  try { localStorage.setItem(seenKey(id), JSON.stringify({ ...seen, [kind]: key })) } catch {}
+}
+
+/* ---- Ship systems: each one that comes online changes something you can see ----------------- */
+export const SYSTEM_EFFECT = {
+  comms: 'Ground link packets go out through the relay',
+  telemetry: 'Turns on the cabin air (CO2) chart on Body',
+  medbay: 'Adds a scanning sweep to the body viewer',
+  shelter: 'Marks the radiation budget as shelter-ready',
+  nav: 'Lights a starfield behind your Today greeting',
+}
+export function systemsOnline() {
+  return Object.fromEntries(crewGoal().systems.map((x) => [x.id, x.online]))
 }

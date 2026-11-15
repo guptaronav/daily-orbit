@@ -5,6 +5,7 @@
 import { Fragment } from 'react'
 import { HazardsPanel } from './HazardsPanel'
 import { PatternsPanel } from './PatternsPanel'
+import * as D from './data'
 import * as P from './parts'
 import { S } from './parts'
 
@@ -99,7 +100,7 @@ export function BodyMapView({ v }: { v: any }) {
                 </div>
                 <div style={S({ position: 'relative', flex: '1', minHeight: '0' })}>
                   <div ref={v.areaRef} style={S({ position: 'absolute', inset: '0', display: 'grid', placeItems: 'center' })}>
-                    <div style={S({ position: 'relative', width: v.boxWpx, height: v.boxHpx })}>
+                    <div className={D.systemsOnline().medbay ? 'medbay-scan' : undefined} style={S({ position: 'relative', width: v.boxWpx, height: v.boxHpx })}>
                       <svg viewBox="0 0 560 520" role="img" aria-label={v.viewerAria} style={S({ position: 'absolute', inset: '0', width: '100%', height: '100%' })}>
                         <defs>
                           <radialGradient id="bm-heat" cx="50%" cy="40%" r="60%">

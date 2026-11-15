@@ -8,7 +8,7 @@ import { bridge } from './store'
  * today's goals stand, so each action visibly feeds the same daily goals, streak and level.
  */
 
-type Toast = { n: number; why: string; k: number }
+type Toast = { n: number; why: string; k: number; capped?: boolean }
 
 export function GoalToast() {
   const [t, setT] = useState<Toast | null>(null)
@@ -18,8 +18,8 @@ export function GoalToast() {
   useEffect(() => {
     const on = (e: Event) => {
       const d = (e as CustomEvent).detail || {}
-      if (!d.n) return
-      setT((p) => ({ n: d.n, why: d.why || 'Coins earned', k: (p?.k ?? 0) + 1 }))
+      if (!d.n && !d.capped) return
+      setT((p) => ({ n: d.n || 0, why: d.why || 'Coins earned', capped: !!d.capped, k: (p?.k ?? 0) + 1 }))
     }
     window.addEventListener('chm:coins', on)
     return () => window.removeEventListener('chm:coins', on)
@@ -30,6 +30,13 @@ export function GoalToast() {
     return () => clearTimeout(x)
   }, [t])
   if (!t) return null
+  if (t.capped) {
+    return (
+      <div key={t.k} role="status" style={{ position: 'fixed', left: '50%', bottom: 'calc(env(safe-area-inset-bottom, 0px) + 108px)', zIndex: 55, transform: 'translateX(-50%)', padding: '10px 16px', borderRadius: 999, background: '#14181f', color: '#f3f1ea', boxShadow: '0 18px 36px -14px rgba(0,0,0,.6)', animation: 'gt-in 4.2s cubic-bezier(.22,1,.36,1) forwards', maxWidth: 'calc(100vw - 32px)', textAlign: 'center' }}>
+        <strong>Daily coin limit reached ({D.COIN_CAP}).</strong> <span style={{ color: 'rgba(243,241,234,.8)' }}>Logging still counts for your health; coins start again tomorrow.</span>
+      </div>
+    )
+  }
   const id = D.getState().crew.id
   const goals = D.todayTasks(id) as { done: boolean; optional?: boolean }[]
   const req = goals.filter((g) => !g.optional)

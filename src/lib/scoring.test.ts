@@ -1,6 +1,6 @@
 import { describe, expect, test } from 'vitest'
 import type { GameEvent, GameEventKind, Quality } from '../contract/types'
-import { EVENT_LABEL, POINTS, SYSTEMS, WEEKLY_GOAL_PER_CREW, creditableKinds, creditedEvents, crewProgress, pointsFor, pointsInWindow, systemsStatus } from './scoring'
+import { DAILY_COIN_CAP, EVENT_LABEL, POINTS, SYSTEMS, WEEKLY_GOAL_PER_CREW, cappedPoints, creditableKinds, creditedEvents, crewProgress, pointsFor, pointsInWindow, systemsStatus } from './scoring'
 import { buildSessionRecords, type MirrorSession } from './session'
 import { mulberry32 } from './sim/rng'
 
@@ -206,5 +206,22 @@ describe('anti-farming: each kind earns credit once per person per day', () => {
   test('a new kind has a label and positive points', () => {
     expect(POINTS.countermeasureComplete).toBeGreaterThan(0)
     expect(EVENT_LABEL.countermeasureComplete.length).toBeGreaterThan(3)
+  })
+})
+
+describe('daily coin cap', () => {
+  const at = (kind: Parameters<typeof pointsFor>[0][number]['kind'], detail: string, day = '2026-11-14') => ({ id: kind + detail + day, crewId: 'c', timestamp: `${day}T08:00:00Z`, kind, detail })
+  test('never pays more than the cap for one day, however many different things are logged', () => {
+    const many = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n'].map((d) => at('readingLogged', d))
+    expect(pointsFor(many)).toBeGreaterThan(DAILY_COIN_CAP)
+    expect(cappedPoints(many)).toBe(DAILY_COIN_CAP)
+  })
+  test('caps each day on its own', () => {
+    const two = [...['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm'].map((d) => at('readingLogged', d)), ...['a', 'b'].map((d) => at('readingLogged', d, '2026-11-15'))]
+    expect(cappedPoints(two)).toBe(DAILY_COIN_CAP + 2 * POINTS.readingLogged)
+  })
+  test('leaves streak milestones outside the cap', () => {
+    const day = [...['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm'].map((d) => at('readingLogged', d)), at('streakMilestone', 'streak-7')]
+    expect(cappedPoints(day)).toBe(DAILY_COIN_CAP + POINTS.streakMilestone)
   })
 })

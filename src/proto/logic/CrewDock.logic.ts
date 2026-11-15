@@ -80,7 +80,8 @@ export class CrewDockLogic extends DCLogic {
       popGoal: this.state.goal && !this.state.collapsed, goalOpenStr: String(this.state.goal), toggleGoal: () => this.setState((p) => ({ goal: !p.goal, hover: null })),
       goalBg: this.state.goal ? 'color-mix(in srgb, var(--ink) 6%, transparent)' : 'transparent',
       goalWeek: goal.week, goalTarget: goal.goal, goalPct: pct + '%', goalPctNum: pct,
-      systems: goal.systems.map((x) => ({ name: x.name, state: x.online ? 'Online' : `Unlocks at ${x.threshold} pts`, color: x.online ? 'var(--ink)' : 'var(--muted)' })),
+      systems: goal.systems.map((x) => ({ name: x.name, state: x.online ? `Online: ${D.SYSTEM_EFFECT[x.id] || ''}` : `At ${x.threshold} crew points: ${D.SYSTEM_EFFECT[x.id] || ''}`, color: x.online ? 'var(--ink)' : 'var(--muted)' })),
+      skin: 'dock-skin ' + (D.levelPerks(s.crew.id).dockSkin || ''),
     }
   }
 }

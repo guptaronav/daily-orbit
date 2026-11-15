@@ -10,7 +10,7 @@ import { S } from './parts'
 export function CrewDockView({ v }: { v: any }) {
   return (
     <>
-      <div ref={v.rootRef} role="toolbar" aria-label="Mission dock" style={S({ position: 'fixed', left: '50%', bottom: '18px', transform: 'translateX(-50%)', zIndex: '35', maxWidth: 'calc(100vw - 20px)', fontFamily: 'ui-sans-serif, system-ui, -apple-system, \'Segoe UI\', Roboto, sans-serif', color: 'var(--ink)', animation: 'chm-dock-in 420ms cubic-bezier(.22,1,.36,1) both' })}>
+      <div ref={v.rootRef} role="toolbar" aria-label="Mission dock" className={v.skin} style={S({ position: 'fixed', left: '50%', bottom: '18px', transform: 'translateX(-50%)', zIndex: '35', maxWidth: 'calc(100vw - 20px)', fontFamily: 'ui-sans-serif, system-ui, -apple-system, \'Segoe UI\', Roboto, sans-serif', color: 'var(--ink)', animation: 'chm-dock-in 420ms cubic-bezier(.22,1,.36,1) both' })}>
         {(v.popCrew) ? (
           <>
           <div role="dialog" aria-label={v.pop.aria} style={S({ position: 'absolute', bottom: 'calc(100% + 12px)', left: v.pop.left, transform: 'translateX(-50%)', width: '280px', background: 'var(--panel)', border: '1px solid var(--rule-strong)', borderRadius: '18px', boxShadow: '0 24px 50px -24px rgba(20,24,31,.45)', overflow: 'hidden', animation: 'chm-pop 200ms cubic-bezier(.22,1,.36,1) both' })}>

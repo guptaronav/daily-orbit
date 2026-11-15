@@ -150,13 +150,18 @@ export function Summary({ crewId, sessionId, earned, alreadyCounted, diagnostics
           )}
         </details>
       )}
+      {anyFailed && (
+        <p className="border-l-4 border-accent pl-3 text-sm">
+          <strong>Gray isn't a failure.</strong> It means the light, the angle or a movement got in the way, so we didn't guess. A retake earns +{POINTS.retakeAfterQualityFail} coins.
+        </p>
+      )}
       <div className="flex flex-wrap gap-3">
         <button onClick={onDone} className={btnPrimary}>
           See body map
         </button>
         {anyFailed && (
           <button onClick={onRetake} className={btnSecondary}>
-            Retake
+            Retake (+{POINTS.retakeAfterQualityFail} coins)
           </button>
         )}
       </div>

@@ -57,7 +57,7 @@ Every requirement and suggestion in the challenge brief, where Daily Orbit answe
 | **Escalate** | Four rungs: self-care, crewmate, crew medical officer, flight surgeon. It builds a compact change summary for the ground (downloadable JSON). The **ground link** shows each packet travelling for the real one-way delay, when the earliest reply could come back, and what Earth actually knows right now |
 | **Crew (Medical view)** | Everyone at once, people needing attention first, and the alert loop: a red reading or a pattern opens an alert that is announced on every page until the crew medical officer acknowledges it, and only clears with a note |
 | **Rewards** | Streaks, levels, a mission pass, a daily supply drop, badges, and a locker of cosmetic gear including illustrated mission banners (Earthrise, Pale blue dot, Jezero dusk, Deep transit) with hidden NASA-fact discoveries |
-| **Metrics** | Two numbers we cannot measure yet, modeled openly with editable inputs: crew time saved, and reporting completeness under effort-based scoring |
+| **Metrics** | Proof and models: the flagging rules tested on real NASA bed-rest data, then two numbers we cannot measure yet, modeled openly with editable inputs |
 | **Radiation** | Replays a real historical solar particle event from NASA DONKI with measured dose rates, on a simulated vehicle |
 | **Sources** | The NASA data and pages we use, and what we could not cover (in progress) |
 
@@ -100,6 +100,14 @@ The top bar always shows the weekly-report icon (a gold dot once a week is compl
 - **A bad day pays the same as a good one.** Coins never depend on health values, so there is no reason to hide a bad reading.
 - Each kind of credit counts **once per day**. Hand-ticking a schedule block pays nothing; only the linked action does.
 - **Bonus coins** (mission-pass tiers, the setup welcome, finishing a banner's discoveries) are one-off, can only buy cosmetic gear, and never add XP.
+- **A daily coin cap** of 60 from everyday activity, so nothing can be farmed; logging still counts for your health after the cap.
+- **Streak shields** are real: one for every 7 days in a row (hold up to two), spent automatically on a missed day ("Your shield saved a 12-day streak").
+- **Every level unlocks something:** a title under your name, a dock skin or a piece of gear, with a level-up screen when it happens.
+- **Ship systems do something:** each one the crew brings online changes the app (cabin air chart, a scanning sweep on the body viewer, a starfield on Today, and more).
+- **Weekly:** three rotating mission-pass tasks of your own, and two shared crew quests that show who has done their part, with no ranking.
+- **The locker:** rarity tiers (common, rare, epic, legendary), two featured items a day, and collection sets (like the Mars kit) that unlock a matching ring.
+- **Proof card:** download your 30-day grid and streak as an image. **Gentle reminder:** a quiet note at a time you choose if today's check isn't done. Never a guilt message.
+- **Retakes:** a reading that fails quality offers a retake for +5, because gray is not a failure.
 
 The reasoning, with its NASA basis, is in [docs/GAMIFICATION.md](docs/GAMIFICATION.md).
 

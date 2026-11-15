@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { Icon } from '../../components/kit/Icon'
 import { listEvents, saveSession } from '../../db/repo'
 import { POINTS, creditableKinds } from '../../lib/scoring'
+import { capRoom } from '../../proto/data'
 import { sessionEventKinds, type MirrorSession } from '../../lib/session'
 import type { GameEventKind } from '../../contract/types'
 import { useApp } from '../../state/AppContext'
@@ -60,7 +61,7 @@ export function MirrorCheck() {
     const { credited, alreadyCounted } = creditableKinds(await listEvents(crewId), sessionEventKinds(done).map((kind) => ({ kind })), crewId, new Date())
     setCredit({ earned: credited.map((e) => e.kind), alreadyCounted: alreadyCounted.map((e) => e.kind) })
     await saveSession(done, crewId)
-    const pts = credited.reduce((sum, e) => sum + POINTS[e.kind], 0)
+    const pts = Math.min(credited.reduce((sum, e) => sum + POINTS[e.kind], 0), capRoom(crewId))
     if (pts) window.dispatchEvent(new CustomEvent('chm:coins', { detail: { n: pts, why: 'Mirror check done' } }))
     refresh()
     setSaving(false)

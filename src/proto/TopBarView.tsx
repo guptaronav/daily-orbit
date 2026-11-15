@@ -8,6 +8,7 @@ import { BannerScene } from './MissionScene'
 import { AlertBanner } from './Alerts'
 import { AskOrbit } from './AskOrbit'
 import { ReportButton } from './ReportButton'
+import { ReminderBanner } from './Reminder'
 import * as P from './parts'
 import { S } from './parts'
 
@@ -260,6 +261,7 @@ export function TopBarView({ v }: { v: any }) {
           ) : null}
         </div>
         <AlertBanner />
+        <ReminderBanner />
         <AskOrbit />
       </header>
     </>

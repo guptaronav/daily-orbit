@@ -28,7 +28,7 @@ export function ValidationCard() {
   const o = v.old
   const c = v.current
   return (
-    <section aria-labelledby="validation-heading" style={{ marginTop: 32, borderRadius: 28, background: 'var(--panel)', border: '1px solid var(--rule)', padding: 'clamp(20px, 3vw, 32px)', display: 'grid', gap: 18 }}>
+    <section aria-labelledby="validation-heading" style={{ borderRadius: 28, background: 'var(--panel)', border: '1px solid var(--rule)', padding: 'clamp(20px, 3vw, 32px)', display: 'grid', gap: 18 }}>
       <div style={{ display: 'grid', gap: 6 }}>
         <p style={{ margin: 0, fontSize: 13, fontWeight: 750, letterSpacing: '.06em', textTransform: 'uppercase', color: 'var(--accent)' }}>Tested on real NASA data</p>
         <h2 id="validation-heading" style={{ margin: 0, fontSize: 'clamp(26px, 3vw, 36px)', fontWeight: 750, letterSpacing: '-0.035em' }}>
