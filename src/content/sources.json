@@ -280,5 +280,149 @@
     "title": "Expedition 74 (NASA)",
     "url": "https://www.nasa.gov/mission/expedition-74/",
     "usedFor": "Commander and flight engineer crew roles"
+  },
+  {
+    "id": "radiation-wont-stop",
+    "title": "Space Radiation Won't Stop NASA's Human Exploration",
+    "url": "https://www.nasa.gov/missions/station/space-radiation-wont-stop-nasas-human-exploration/",
+    "usedFor": "ISS >10x Earth radiation; dosimeters; SPE sheltering; GCRs outside magnetic field"
+  },
+  {
+    "id": "lsah-2023",
+    "title": "LSAH Newsletter 2023 Vol 28 Issue 2 (NASA Space Radiation Health Standard article)",
+    "url": "https://www.nasa.gov/wp-content/uploads/2023/10/lsah-newsletter-2023-vol28-issue2.pdf",
+    "usedFor": "Earth 2.4 mSv/yr, ISS ~0.5 mSv/day, BLEO ~1 mSv/day+, lunar surface ~0.5 mSv/day; active personal dosimeter"
+  },
+  {
+    "id": "moon-facts",
+    "title": "NASA Science: Moon Facts",
+    "url": "https://science.nasa.gov/moon/facts/",
+    "usedFor": "One-sixth gravity, distance, exosphere, weak magnetic field, 27-day rotation"
+  },
+  {
+    "id": "mars-facts",
+    "title": "NASA Science: Mars Facts",
+    "url": "https://science.nasa.gov/mars/facts/",
+    "usedFor": "Sol = 24.6 h, thin atmosphere, no global magnetic field"
+  },
+  {
+    "id": "msl-rad",
+    "title": "NASA Science: Radiation Measurements on Mars (Curiosity RAD)",
+    "url": "https://science.nasa.gov/resource/radiation-measurements-on-mars/",
+    "usedFor": "~210 micrograys/day surface dose; atmospheric shielding day-night variation"
+  },
+  {
+    "id": "jpl-mars-time",
+    "title": "JPL video: Living on Mars Time",
+    "url": "https://www.jpl.nasa.gov/videos/living-on-mars-time/",
+    "usedFor": "Mars day 39 min longer; team arrives 40 min later each day"
+  },
+  {
+    "id": "space-comms-7",
+    "title": "Space Communications: 7 Things You Need to Know",
+    "url": "https://www.nasa.gov/centers-and-facilities/goddard/space-communications-7-things-you-need-to-know/",
+    "usedFor": "Mars delay 4-24 min; near-Earth latency almost negligible"
+  },
+  {
+    "id": "commercial-crew-escape",
+    "title": "Commercial Crew Spacecraft Will Offer a Quick Escape from Station",
+    "url": "https://www.nasa.gov/humans-in-space/commercial-crew-spacecraft-will-offer-a-quick-escape-from-station/",
+    "usedFor": "ISS emergency return (medical emergency requiring surgery)"
+  },
+  {
+    "id": "ochmo-co2",
+    "title": "OCHMO-TB-004 Carbon Dioxide (CO2) Technical Brief, Rev D",
+    "url": "https://www.nasa.gov/wp-content/uploads/2023/12/ochmo-tb-004-carbon-dioxide.pdf",
+    "usedFor": "CO2 limits, ISS levels, headache data, atmospheric display/alert requirements"
+  },
+  {
+    "id": "ochmo-acoustics",
+    "title": "OCHMO-TB-035 Acoustics Technical Brief, Rev C",
+    "url": "https://www.nasa.gov/wp-content/uploads/2023/12/ochmo-tb-035-acoustics.pdf",
+    "usedFor": "Noise effects, 85 dBA hazardous limit, NC-40 sleep limit"
+  },
+  {
+    "id": "medline-brain",
+    "title": "MedlinePlus: Brain Diseases",
+    "url": "https://medlineplus.gov/braindiseases.html",
+    "usedFor": "head function"
+  },
+  {
+    "id": "medline-sleep",
+    "title": "MedlinePlus: Healthy Sleep",
+    "url": "https://medlineplus.gov/healthysleep.html",
+    "usedFor": "head function (sleep, thinking, reaction, mood)"
+  },
+  {
+    "id": "nei-eyes",
+    "title": "NEI (NIH): How the Eyes Work",
+    "url": "https://www.nei.nih.gov/learn-about-eye-health/healthy-vision/how-eyes-work",
+    "usedFor": "eyes function"
+  },
+  {
+    "id": "nhlbi-heart",
+    "title": "NHLBI (NIH): Heart",
+    "url": "https://www.nhlbi.nih.gov/health/heart",
+    "usedFor": "heart function"
+  },
+  {
+    "id": "medline-bone",
+    "title": "MedlinePlus: Bone Diseases",
+    "url": "https://medlineplus.gov/bonediseases.html",
+    "usedFor": "skeleton function"
+  },
+  {
+    "id": "medline-muscle",
+    "title": "MedlinePlus: Muscle Disorders",
+    "url": "https://medlineplus.gov/muscledisorders.html",
+    "usedFor": "skeleton function"
+  },
+  {
+    "id": "medline-immune",
+    "title": "MedlinePlus: Immune System and Disorders",
+    "url": "https://medlineplus.gov/immunesystemanddisorders.html",
+    "usedFor": "body function"
+  },
+  {
+    "id": "medline-temp",
+    "title": "MedlinePlus Encyclopedia: Body temperature norms",
+    "url": "https://medlineplus.gov/ency/article/001982.htm",
+    "usedFor": "body function (temperature)"
+  },
+  {
+    "id": "medline-digestive",
+    "title": "MedlinePlus: Digestive Diseases",
+    "url": "https://medlineplus.gov/digestivediseases.html",
+    "usedFor": "gut function"
+  },
+  {
+    "id": "niddk-digestive",
+    "title": "NIDDK (NIH): Your Digestive System & How It Works",
+    "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works",
+    "usedFor": "gut function (nutrients, water, microbiome)"
+  },
+  {
+    "id": "nasa-hrp-hazards",
+    "title": "NASA HRP: Five Hazards of Human Spaceflight",
+    "url": "https://www.nasa.gov/hrp/hazards",
+    "usedFor": "hazard framing (background)"
+  },
+  {
+    "id": "basner2011",
+    "title": "Basner, Mollicone & Dinges 2011, Validity and sensitivity of a brief psychomotor vigilance test (PVT-B) to total and partial sleep deprivation, Acta Astronautica (NIH PMC3197786)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3197786",
+    "usedFor": "PVT definition, protocol numbers, ISS Reaction Self Test"
+  },
+  {
+    "id": "jones2022",
+    "title": "Jones et al. 2022, Sleep deficiency in spaceflight... six-month missions aboard the ISS, Sleep (NIH PMC8919197)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8919197",
+    "usedFor": "Reaction Self Test on ISS, sleep <6 h and response speed"
+  },
+  {
+    "id": "nasrini2020",
+    "title": "Nasrini et al. 2020, Cognitive Performance During Confinement and Sleep Restriction in NASA's HERA, Front Physiol (NIH PMC7198903)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7198903",
+    "usedFor": "NASA Cognition battery PVT in analog"
   }
 ]

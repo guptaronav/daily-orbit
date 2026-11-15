@@ -3,13 +3,44 @@
     "id": "iss",
     "label": "ISS (low Earth orbit)",
     "oneWayDelaySec": 1,
-    "equipment": ["[CONTENT TODO]"]
+    "equipment": [
+      "ARED (Advanced Resistive Exercise Device) for weight lifting",
+      "T2 treadmill",
+      "CEVIS cycle ergometer (shows cycling speed and heart rate)",
+      "Ultrasound (used to scan astronauts' muscles in the Sprint study)"
+    ],
+    "gravity": "The ISS is weightless. Without Earth's gravity, bone and muscle shrink and weaken, so exercise is critical to keep them healthy.",
+    "radiation": "The ISS sits just inside Earth's protective magnetic field, but crews still get over ten times the radiation that occurs naturally on Earth.",
+    "distance": "Communication delay is almost negligible close to Earth. A docked crew vehicle can be a quick ride home, for example in a medical emergency needing surgery.",
+    "isolation": "[CONTENT TODO]",
+    "dayLength": "[CONTENT TODO]",
+    "sources": [
+      "https://www.nasa.gov/missions/station/iss-research/astronaut-exercise/",
+      "https://www.nasa.gov/missions/station/space-radiation-wont-stop-nasas-human-exploration/",
+      "https://www.nasa.gov/centers-and-facilities/goddard/space-communications-7-things-you-need-to-know/",
+      "https://www.nasa.gov/humans-in-space/commercial-crew-spacecraft-will-offer-a-quick-escape-from-station/",
+      "https://www.nasa.gov/wp-content/uploads/2023/10/lsah-newsletter-2023-vol28-issue2.pdf"
+    ]
   },
   {
     "id": "lunar",
     "label": "Lunar surface",
     "oneWayDelaySec": 1.3,
-    "equipment": ["[CONTENT TODO]"]
+    "equipment": [
+      "[CONTENT TODO]"
+    ],
+    "gravity": "Surface gravity on the Moon is one-sixth of Earth's. Crews must readjust their balance and coordination after moving between gravity levels.",
+    "radiation": "The Moon has no protective atmosphere and a weak magnetic field, but the Moon itself blocks some radiation: surface dose is projected near ISS levels, about 0.5 mSv/day.",
+    "distance": "The Moon is about 238,855 miles (384,400 km) away, roughly a three-day trip. Communication delay close to Earth is almost negligible.",
+    "isolation": "[CONTENT TODO]",
+    "dayLength": "The Moon rotates once every 27 Earth days, the same time it takes to orbit Earth.",
+    "sources": [
+      "https://science.nasa.gov/moon/facts/",
+      "https://www.nasa.gov/wp-content/uploads/2023/10/lsah-newsletter-2023-vol28-issue2.pdf",
+      "https://www.nasa.gov/hrp/hazard-distance-from-earth/",
+      "https://www.nasa.gov/hrp/hazard-gravity-fields/",
+      "https://www.nasa.gov/centers-and-facilities/goddard/space-communications-7-things-you-need-to-know/"
+    ]
   },
   {
     "id": "mars",
@@ -17,6 +48,43 @@
     "oneWayDelaySec": 1200,
     "minDelaySec": 180,
     "maxDelaySec": 1320,
-    "equipment": ["[CONTENT TODO]"]
+    "equipment": [
+      "[CONTENT TODO]"
+    ],
+    "gravity": "Weightless for the whole cruise. Floating can cause dizziness, bone and muscle loss, and vision problems from fluids shifting toward the head.",
+    "radiation": "Outside Earth's magnetic field, crews face galactic cosmic rays. NASA projects doses of about 1 mSv/day or more beyond low-Earth orbit.",
+    "distance": "Mars is on average 140 million miles away, and a Mars mission could take roughly three years. One-way messages take about 4 to 24 minutes.",
+    "isolation": "Crews must handle problems with minimal support from Earth. Sleep loss, body-clock disruption and overwork can add to the strain.",
+    "dayLength": "[CONTENT TODO]",
+    "sources": [
+      "https://www.nasa.gov/hrp/hazard-gravity-fields/",
+      "https://www.nasa.gov/missions/station/space-radiation-wont-stop-nasas-human-exploration/",
+      "https://www.nasa.gov/wp-content/uploads/2023/10/lsah-newsletter-2023-vol28-issue2.pdf",
+      "https://www.nasa.gov/hrp/hazard-distance-from-earth/",
+      "https://www.nasa.gov/centers-and-facilities/goddard/space-communications-7-things-you-need-to-know/",
+      "https://www.nasa.gov/hrp/hazard-isolation-and-confinement/"
+    ]
+  },
+  {
+    "id": "marsSurface",
+    "label": "Mars surface base",
+    "oneWayDelaySec": 1200,
+    "minDelaySec": 180,
+    "maxDelaySec": 1320,
+    "equipment": [
+      "[CONTENT TODO]"
+    ],
+    "gravity": "Crews on Mars will feel about one-third of Earth's gravity, and must readjust after months of weightlessness.",
+    "radiation": "Mars has a thin atmosphere and no global magnetic field. Curiosity measured about 210 micrograys per day at the surface, mostly from cosmic rays.",
+    "distance": "One-way messages take about 4 minutes at closest approach and about 24 minutes at greatest distance, so crews must be self-sufficient.",
+    "isolation": "[CONTENT TODO]",
+    "dayLength": "A Mars day (sol) lasts about 24.6 hours, 39 minutes longer than Earth's. Rover teams on Mars time start work 40 minutes later every day.",
+    "sources": [
+      "https://www.nasa.gov/hrp/hazard-gravity-fields/",
+      "https://science.nasa.gov/mars/facts/",
+      "https://science.nasa.gov/resource/radiation-measurements-on-mars/",
+      "https://www.nasa.gov/centers-and-facilities/goddard/space-communications-7-things-you-need-to-know/",
+      "https://www.jpl.nasa.gov/videos/living-on-mars-time/"
+    ]
   }
 ]

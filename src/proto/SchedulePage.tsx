@@ -143,6 +143,17 @@ export function SchedulePage() {
         </section>
       </div>
 
+      {(() => {
+        const g = D.envGuide(s.envId) as { label: string; dayLength: string; equipment: string[] }
+        if (!g.dayLength && !g.equipment.length) return null
+        return (
+          <div style={{ display: 'flex', flexWrap: 'wrap', gap: 10, padding: '12px 16px', borderRadius: 18, background: 'var(--panel-2)', border: '1px solid var(--rule)', fontSize: 14 }}>
+            <strong>{g.label}:</strong>
+            {g.dayLength && <span>{g.dayLength}</span>}
+            {g.equipment.length > 0 && <span style={{ color: 'var(--muted)' }}>Exercise and health kit here: {g.equipment.join('; ')}.</span>}
+          </div>
+        )
+      })()}
       {due.length > 0 && (
         <div role="status" style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: 10, padding: '12px 16px', borderRadius: 18, background: 'var(--accent-wash)', border: '1px solid var(--rule)' }}>
           <strong style={{ fontSize: 14 }}>Due now:</strong>

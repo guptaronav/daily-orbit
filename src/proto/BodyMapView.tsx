@@ -3,6 +3,7 @@
 // GENERATED from the UI overhaul prototype by dc2jsx.py. Styles are the prototype's, verbatim.
 // Edit the view model that feeds this, not this markup, unless you are re-porting the prototype.
 import { Fragment } from 'react'
+import { HazardsPanel } from './HazardsPanel'
 import { PatternsPanel } from './PatternsPanel'
 import * as P from './parts'
 import { S } from './parts'
@@ -197,6 +198,7 @@ export function BodyMapView({ v }: { v: any }) {
             </>
           ) : null}
           <PatternsPanel />
+          <HazardsPanel />
           <section data-reveal="1" aria-labelledby="tour-heading" style={S({ position: 'relative' })}>
             <div style={S({ display: 'flex', flexWrap: 'wrap', alignItems: 'flex-end', justifyContent: 'space-between', gap: '12px 24px', margin: '18px 0 20px' })}>
               <div>
@@ -484,6 +486,13 @@ export function BodyMapView({ v }: { v: any }) {
                     <p style={S({ margin: '0', maxWidth: '40ch', fontSize: 'clamp(18px, 1.7vw, 21px)', lineHeight: '1.45', fontWeight: '500', letterSpacing: '-0.01em', textWrap: 'pretty' })}>
                       {ch.story}
                     </p>
+                    {ch.fn ? (
+                      <div style={S({ maxWidth: '56ch', padding: '12px 14px', borderRadius: '16px', background: 'var(--panel-2)', border: '1px solid var(--rule)', display: 'grid', gap: '6px' })}>
+                        <p style={S({ margin: '0', fontSize: '12px', fontWeight: '750', letterSpacing: '.05em', textTransform: 'uppercase', color: 'var(--muted)' })}>What it does</p>
+                        <p style={S({ margin: '0', fontSize: '14.5px', lineHeight: '1.5' })}>{ch.fn}</p>
+                        {ch.fnSpace ? <p style={S({ margin: '0', fontSize: '14px', lineHeight: '1.5', color: 'var(--ink-soft)' })}><strong>In space: </strong>{ch.fnSpace}</p> : null}
+                      </div>
+                    ) : null}
                     <p style={S({ margin: '0', maxWidth: '56ch', fontSize: '14.5px', lineHeight: '1.55', color: 'var(--muted)' })}>
                       {ch.how}
                     </p>

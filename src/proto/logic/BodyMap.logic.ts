@@ -207,7 +207,7 @@ export class BodyMapLogic extends DCLogic {
       const flaggedHere = rg.status === 'yellow' || rg.status === 'red'
       return {
         ref: (el) => { this.chEls[g.id] = el }, hid: 'tour-' + g.id, n: String(i + 1).padStart(2, '0'), label: g.label, word: st.label, ink: st.ink, chipBg: chip(rg.status),
-        op: on ? 1 : 0.45, tf: on ? 'none' : 'translateY(8px)', story: story(rg), how: HOW[g.id], risks,
+        op: on ? 1 : 0.45, tf: on ? 'none' : 'translateY(8px)', story: story(rg), how: HOW[g.id], fn: D.regionInfo(g.id).function, fnSpace: D.regionInfo(g.id).spaceflight, risks,
         rows: rg.readings.map((r) => {
           const sp = D.sparkPath(D.spark(r), 110, 32)
           let note = 'No reading has passed quality yet'

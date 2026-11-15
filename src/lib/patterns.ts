@@ -35,7 +35,7 @@ export const PATTERNS: Pattern[] = [
     title: 'Signs of fatigue',
     risk: 'Risk of Inadequate Sleep and Irregular Schedules',
     riskUrl: 'https://www.nasa.gov/reference/risk-from-inadequate-sleep-and-irregular-schedules/',
-    groups: [one('sleepHours', 'down'), one('sleepQuality', 'down'), one('eyelidClosure', 'up'), one('blinkRate', 'any')],
+    groups: [one('sleepHours', 'down'), one('sleepQuality', 'down'), one('eyelidClosure', 'up'), one('blinkRate', 'any'), one('reactionTime', 'up')],
     minGroups: 2,
     rung: 2,
     summary: 'Sleep and tiredness readings moving the wrong way together.',

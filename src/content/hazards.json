@@ -1,0 +1,42 @@
+[
+  {
+    "id": "radiation",
+    "name": "Space Radiation",
+    "url": "https://www.nasa.gov/hrp/hazard-space-radiation/",
+    "what": "Outside Earth's protective magnetic field and atmosphere, high-energy cosmic rays and solar storms expose astronauts to ionizing radiation.",
+    "body": "NASA says radiation exposure increases cancer risk and damages the central nervous system, which can affect thinking, movement and behavior.",
+    "selfCare": "Wear your personal dosimeter. During a solar particle event, NASA advises crews to shelter in an area with extra shielding."
+  },
+  {
+    "id": "isolation",
+    "name": "Isolation and Confinement",
+    "url": "https://www.nasa.gov/hrp/hazard-isolation-and-confinement/",
+    "what": "Crews live in small spaces far from Earth for long periods, and behavioral responses build up in isolated, confined groups.",
+    "body": "Sleep loss, circadian desynchronization and work overload can add to this strain, lowering performance and harming health.",
+    "selfCare": "Watch for sleep loss and overwork. NASA is studying light therapy to help keep body clocks aligned."
+  },
+  {
+    "id": "distance",
+    "name": "Distance From Earth",
+    "url": "https://www.nasa.gov/hrp/hazard-distance-from-earth/",
+    "what": "The farther from Earth, the harder it is to get instructions, new supplies and medical care. Mars missions face up to 20-minute one-way communication delays.",
+    "body": "[CONTENT TODO]",
+    "selfCare": "Plan ahead and be self-sufficient: NASA says crews must handle situations with minimal support from teams on Earth."
+  },
+  {
+    "id": "gravity",
+    "name": "Gravity Fields",
+    "url": "https://www.nasa.gov/hrp/hazard-gravity-fields/",
+    "what": "Crews float in weightlessness and must readjust each time they move between gravity levels, such as landing on the Moon or Mars.",
+    "body": "Weightlessness can cause dizziness, bone and muscle loss, and vision problems from fluids shifting toward the head. Kidney stone risk can rise.",
+    "selfCare": "Track balance and vision changes. Weight-bearing bones lose 1% to 1.5% of mineral density per month in spaceflight, so bone health matters."
+  },
+  {
+    "id": "environment",
+    "name": "Hostile/Closed Environments",
+    "url": "https://www.nasa.gov/hrp/hazard-hostile-closed-environments/",
+    "what": "A spacecraft is a closed ecosystem. Temperature, pressure, lighting, noise and microbes all shape daily life on board.",
+    "body": "Microbes spread more easily between people in closed habitats. Stress hormones can rise and the immune system can change, possibly raising allergy or illness risk.",
+    "selfCare": "[CONTENT TODO]"
+  }
+]

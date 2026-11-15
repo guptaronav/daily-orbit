@@ -21,6 +21,11 @@ import { getContent } from '../lib/content'
 import { REGIONS as APP_REGIONS } from '../lib/regions'
 import { readAll as appReadAll, readIndicator } from '../lib/bodyStatus'
 import { patternFlags, RUNG_NAME } from '../lib/patterns'
+import { HAZARD_IDS, hazardIndicators, hazardStatus } from '../lib/hazards'
+import { cabinSeries, CABIN } from '../lib/sim/cabin'
+import HAZARDS_RAW from '../content/hazards.json'
+import ENV_RAW from '../content/environments.json'
+import REGION_RAW from '../content/regions.json'
 import { formatDelay as appFormatDelay } from '../lib/environments'
 import { ENTRY_FORMS as APP_FORMS, validateEntry as appValidate } from '../lib/manualEntry'
 import { buildPacket as appBuildPacket } from '../lib/packet'
@@ -80,6 +85,7 @@ export const ENVS = [
   { id: 'iss', label: 'ISS (low Earth orbit)', short: 'ISS', delay: 1 },
   { id: 'lunar', label: 'Lunar surface', short: 'Lunar', delay: 1.3 },
   { id: 'mars', label: 'Mars transit', short: 'Mars', delay: 1200, min: 180, max: 1320 },
+  { id: 'marsSurface', label: 'Mars surface base', short: 'Mars base', delay: 1200, min: 180, max: 1320 },
 ]
 export const formatDelay = (sec) => appFormatDelay(sec)
 
@@ -126,6 +132,7 @@ export const ICONS = {
 }
 
 const PROTO_IND = {
+  reactionTime: ['Reaction time', 'ms', 0],
   sleepHours: ['Sleep hours', 'h', 1], sleepQuality: ['Sleep quality', '0-10', 1], mood: ['Mood', '0-10', 1], stress: ['Stress', '0-10', 1],
   blinkRate: ['Blink rate', 'blinks/min', 2], eyelidClosure: ['Eyelid closure', '%', 2], amslerDistortion: ['Amsler grid distortion', '', 0],
   nearAcuity: ['Near acuity', 'logMAR', 2], heartRate: ['Heart rate', 'bpm', 0], bloodPressureSys: ['Blood pressure (systolic)', 'mmHg', 0],
@@ -642,7 +649,7 @@ export function recommendedAction(ind) {
 /* ---- Mission scenes: what each banner draws, and the discoveries hidden in it ---------------- */
 
 /** Which scene a mission sends you to. Mars is "Mars transit": the crew is still on the way. */
-const MISSION_SCENE = { iss: 'iss', lunar: 'lunar', mars: 'transit' }
+const MISSION_SCENE = { iss: 'iss', lunar: 'lunar', mars: 'transit', marsSurface: 'mars' }
 /** The scene a banner draws (null for a plain one). The mission banner follows the chosen mission. */
 export function sceneFor(banner) {
   if (!banner || !banner.scene) return null
@@ -807,7 +814,7 @@ function saveSchedule(id, s) {
 const localDayKey = (d = new Date()) => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`
 export function addBlock(id, b) {
   const s = scheduleStore(id)
-  saveSchedule(id, { ...s, custom: [...s.custom, { ...b, id: 'my-' + crypto.randomUUID().slice(0, 8), kind: 'custom', ...(b.repeat === 'once' ? { day: localDayKey() } : {}) }] })
+  saveSchedule(id, { ...s, custom: [...s.custom, { ...b, id: 'my-' + crypto.randomUUID().slice(0, 8), kind: 'custom', ...(b.repeat === 'once' ? { day: b.day || localDayKey() } : {}) }] })
 }
 export function removeBlock(id, blockId) {
   const s = scheduleStore(id)
@@ -828,6 +835,69 @@ export function patterns(crewId) {
   return hits.map((h) => ({
     id: h.pattern.id, title: h.pattern.title, summary: h.pattern.summary, risk: h.pattern.risk, riskUrl: h.pattern.riskUrl,
     status: h.status, rung: h.rung, rungName: RUNG_NAME[h.rung],
-    parts: h.parts.map((x) => ({ label: IND[x.indicator][0], status: x.status, direction: x.direction })),
+    parts: h.parts.map((x) => ({ id: x.indicator, label: IND[x.indicator][0], status: x.status, direction: x.direction })),
+    care: carePlan(h),
   }))
+}
+
+/**
+ * A care plan for one pattern, assembled only from text that is already sourced: the involved
+ * readings' recommended actions and prevention steps, what to re-check, and when to move up the
+ * escalation ladder (the rung rule is this app's, see lib/patterns.ts).
+ */
+function carePlan(h) {
+  const ids = Array.from(new Set(h.parts.map((x) => x.indicator)))
+  const sourced = (k) => Array.from(new Set(ids.map((i) => getContent(i)[k]).filter((t) => t && t !== '[CONTENT TODO]')))
+  const next = Math.min(4, h.rung + 1)
+  return {
+    now: sourced('recommendedAction'),
+    prevent: sourced('prevention'),
+    recheck: ids.map((i) => IND[i][0]),
+    moveUp: h.rung >= 4
+      ? 'You are already at the top rung: keep the flight surgeon updated with each new reading.'
+      : `If this is still here after another day, or any reading in it turns red, move up to ${RUNG_NAME[next]}.`,
+  }
+}
+
+/** Tomorrow's date key in local time, for a one-off block the next day. */
+export const tomorrowKey = () => localDayKey(new Date(Date.now() + 86400000))
+
+/* ---- The five hazards, and what they mean on this mission ------------------------------------ */
+const okText = (t) => (t && !String(t).includes('[CONTENT TODO]') ? t : '')
+/** Which environment field speaks to which hazard. The closed-environment hazard shows the cabin instead. */
+const HAZARD_ENV_FIELD = { radiation: 'radiation', isolation: 'isolation', distance: 'distance', gravity: 'gravity' }
+export function envGuide(envId) {
+  const e = ENV_RAW.find((x) => x.id === envId) || {}
+  return { label: e.label, gravity: okText(e.gravity), radiation: okText(e.radiation), distance: okText(e.distance), isolation: okText(e.isolation), dayLength: okText(e.dayLength), equipment: (e.equipment || []).filter(okText) }
+}
+export function hazards(crewId) {
+  const content = INDICATORS.map((i) => ({ id: i, hazardEffect: getContent(i).hazardEffect }))
+  const map = hazardIndicators(content)
+  const st = hazardStatus(map, appReadAll(getSnapshot().measurements[crewId] ?? []))
+  const envId = getState().envId
+  const guide = envGuide(envId)
+  return HAZARD_IDS.map((h) => {
+    const info = HAZARDS_RAW.find((x) => x.id === h) || {}
+    return {
+      id: h, name: info.name || h, url: info.url, what: okText(info.what), body: okText(info.body), selfCare: okText(info.selfCare),
+      status: st[h].status, measured: st[h].measured,
+      linked: map[h].map((i) => IND[i][0]), flagged: st[h].flagged.map((i) => IND[i][0]),
+      here: h === 'environment' ? '' : guide[HAZARD_ENV_FIELD[h]],
+    }
+  })
+}
+/** Simulated cabin air for the current mission (lib/sim/cabin.ts), with today's symptom context. */
+export function cabin(crewId) {
+  const envId = getState().envId
+  const series = cabinSeries(envId, new Date())
+  const ms = getSnapshot().measurements[crewId] ?? []
+  const today = todayKey()
+  const headache = ms.some((m) => m.indicator === 'symptomReport' && dayKey(Date.parse(m.timestamp)) === today && Array.isArray(m.value?.symptoms) && m.value.symptoms.some((x) => /headache/i.test(String(x))))
+  return { series, limit: CABIN.limit, unit: CABIN.unit, facts: CABIN.facts, limitText: CABIN.limitText, limitUrl: CABIN.limitUrl, headache }
+}
+
+/** What a body region does, and why spaceflight matters for it (src/content/regions.json, sourced). */
+export function regionInfo(id) {
+  const r = REGION_RAW[id] || {}
+  return { function: okText(r.function), spaceflight: okText(r.spaceflight) }
 }

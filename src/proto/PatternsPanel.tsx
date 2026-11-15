@@ -1,4 +1,4 @@
-import { useEffect, useReducer } from 'react'
+import { useEffect, useReducer, useState } from 'react'
 import * as D from './data'
 import { bridge } from './store'
 
@@ -17,7 +17,22 @@ type Hit = {
   status: 'yellow' | 'red'
   rung: number
   rungName: string
-  parts: { label: string; status: string; direction: 'up' | 'down' | null }[]
+  parts: { id: string; label: string; status: string; direction: 'up' | 'down' | null }[]
+  care: { now: string[]; prevent: string[]; recheck: string[]; moveUp: string }
+}
+
+function CareList({ title, items }: { title: string; items: string[] }) {
+  if (!items.length) return null
+  return (
+    <div>
+      <p style={{ margin: '0 0 4px', fontSize: 12, fontWeight: 750, letterSpacing: '.05em', textTransform: 'uppercase', color: 'var(--muted)' }}>{title}</p>
+      <ul style={{ margin: 0, paddingLeft: 18, display: 'grid', gap: 4, fontSize: 13.5, lineHeight: 1.45 }}>
+        {items.map((t) => (
+          <li key={t}>{t}</li>
+        ))}
+      </ul>
+    </div>
+  )
 }
 
 const TONE = {
@@ -30,6 +45,12 @@ export function PatternsPanel() {
   useEffect(() => D.onState(bump), [])
   const crew = D.getState().crew as { id: string; name: string }
   const hits = D.patterns(crew.id) as Hit[]
+  const [open, setOpen] = useState<string | null>(null)
+  const [scheduled, setScheduled] = useState<Record<string, boolean>>({})
+  const addRecheck = (h: Hit) => {
+    D.addBlock(crew.id, { title: `Re-check: ${h.care.recheck.join(', ')}`, start: '07:45', minutes: 15, repeat: 'once', day: D.tomorrowKey(), addKind: 'check', detail: 'Health' })
+    setScheduled((x) => ({ ...x, [h.id]: true }))
+  }
 
   return (
     <section data-reveal="1" aria-labelledby="patterns-heading" style={{ borderRadius: 28, background: 'var(--panel)', border: '1px solid var(--rule)', padding: 'clamp(18px, 2.4vw, 26px)', display: 'flex', flexDirection: 'column', gap: 14 }}>
@@ -73,6 +94,26 @@ export function PatternsPanel() {
                     {h.risk}
                   </a>
                 </p>
+                <button type="button" aria-expanded={open === h.id} onClick={() => setOpen(open === h.id ? null : h.id)} style={{ alignSelf: 'flex-start', minHeight: 36, padding: '0 12px', borderRadius: 10, border: '1.5px solid var(--ink)', background: 'var(--panel)', color: 'var(--ink)', fontWeight: 700, cursor: 'pointer' }}>
+                  {open === h.id ? 'Hide care plan' : 'Care plan'}
+                </button>
+                {open === h.id && (
+                  <div style={{ display: 'grid', gap: 12, padding: 14, borderRadius: 14, background: 'var(--panel)', border: '1px solid var(--rule)', animation: 'ms-pop 300ms ease both' }}>
+                    <CareList title="Do now" items={h.care.now} />
+                    <CareList title="Prevent" items={h.care.prevent} />
+                    <div>
+                      <p style={{ margin: '0 0 4px', fontSize: 12, fontWeight: 750, letterSpacing: '.05em', textTransform: 'uppercase', color: 'var(--muted)' }}>Watch</p>
+                      <p style={{ margin: 0, fontSize: 13.5 }}>Re-check tomorrow: {h.care.recheck.join(', ')}.</p>
+                      <button type="button" disabled={!!scheduled[h.id]} onClick={() => addRecheck(h)} style={{ marginTop: 8, minHeight: 34, padding: '0 12px', borderRadius: 10, border: 0, background: scheduled[h.id] ? 'var(--paper-deep)' : 'var(--accent)', color: scheduled[h.id] ? 'var(--muted)' : '#fff', fontWeight: 700, cursor: scheduled[h.id] ? 'default' : 'pointer' }}>
+                        {scheduled[h.id] ? 'Added to tomorrow’s schedule' : 'Add re-check to tomorrow’s schedule'}
+                      </button>
+                    </div>
+                    <div>
+                      <p style={{ margin: '0 0 4px', fontSize: 12, fontWeight: 750, letterSpacing: '.05em', textTransform: 'uppercase', color: 'var(--muted)' }}>Move up if</p>
+                      <p style={{ margin: 0, fontSize: 13.5 }}>{h.care.moveUp}</p>
+                    </div>
+                  </div>
+                )}
                 <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', justifyContent: 'space-between', gap: 8, marginTop: 'auto' }}>
                   <span style={{ fontSize: 13.5 }}>
                     Next step: <strong>{h.rungName}</strong>

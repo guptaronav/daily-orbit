@@ -1,0 +1,58 @@
+{
+  "head": {
+    "function": "Your brain is the control center of your body. It controls thoughts, memory, speech and movement. Good sleep helps you think clearly, react quickly and keep a steady mood.",
+    "spaceflight": "Astronauts see 16 sunrises and sunsets a day on the station, which can disrupt sleep. Isolation and confinement may affect sleep, morale and decision making.",
+    "sources": [
+      "https://medlineplus.gov/braindiseases.html",
+      "https://medlineplus.gov/healthysleep.html",
+      "https://www.nasa.gov/reference/risk-from-inadequate-sleep-and-irregular-schedules/",
+      "https://www.nasa.gov/reference/risk-of-behavioral-conditions-and-psychiatric-disorders/"
+    ]
+  },
+  "eyes": {
+    "function": "Cells in the retina turn light into electrical signals. These signals travel through the optic nerve to the brain.",
+    "spaceflight": "Weightlessness shifts body fluids toward the head. This can swell the optic nerve and fold the retina, a set of eye and brain changes called SANS.",
+    "sources": [
+      "https://www.nei.nih.gov/learn-about-eye-health/healthy-vision/how-eyes-work",
+      "https://www.nasa.gov/reference/risk-of-spaceflight-associated-neuro-ocular-syndrome-sans/"
+    ]
+  },
+  "heart": {
+    "function": "The heart pumps blood through your body. Arteries, veins and capillaries carry the oxygen and nutrients your organs need.",
+    "spaceflight": "Low gravity can change the heart and blood vessels, even making the heart more spherical. After landing, low blood pressure can make fainting more likely.",
+    "sources": [
+      "https://www.nhlbi.nih.gov/health/heart",
+      "https://www.nasa.gov/reference/risk-of-cardiovascular-adaptations/"
+    ]
+  },
+  "skeleton": {
+    "function": "Your bones help you move, give you shape and support your body. Your muscles help you move and help your body work.",
+    "spaceflight": "On 4-6 month missions, bones lose on average 1% to 1.5% of their density each month, so daily exercise protects bone and muscle.",
+    "sources": [
+      "https://medlineplus.gov/bonediseases.html",
+      "https://medlineplus.gov/muscledisorders.html",
+      "https://www.nasa.gov/reference/risk-of-spaceflight-induced-bone-changes/",
+      "https://www.nasa.gov/reference/risk-of-reduced-cardiorespiratory-and-musculoskeletal-fitness/"
+    ]
+  },
+  "body": {
+    "function": "Your immune system defends the body against infections and other diseases. Normal body temperature varies with age, activity and time of day; over 100.4°F (38°C) usually means a fever.",
+    "spaceflight": "Radiation, microgravity and poor sleep can change the immune system. Astronauts get more radiation in space than on Earth, which can raise cancer risk.",
+    "sources": [
+      "https://medlineplus.gov/immunesystemanddisorders.html",
+      "https://medlineplus.gov/ency/article/001982.htm",
+      "https://www.nasa.gov/reference/risk-of-altered-immune-system-responses/",
+      "https://www.nasa.gov/reference/risk-of-radiation-induced-cancers/"
+    ]
+  },
+  "gut": {
+    "function": "Your digestive system breaks food down so your body can use it for energy and to build cells. It absorbs nutrients and water, and gut bacteria help with digestion.",
+    "spaceflight": "Keeping astronauts healthy in space requires adequate nutrition. The microbes in astronauts' guts change during spaceflight.",
+    "sources": [
+      "https://medlineplus.gov/digestivediseases.html",
+      "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works",
+      "https://www.nasa.gov/reference/risk-of-inadequate-food-and-nutrition/",
+      "https://www.nasa.gov/reference/risk-of-host-microorganism-interactions/"
+    ]
+  }
+}

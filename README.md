@@ -16,11 +16,11 @@ Built for the **2026 NASA Space Apps Challenge**, [*Create Health Monitoring Sof
 
 | The brief asks for | Daily Orbit |
 |---|---|
-| Gather health indicators by keyboard, mouse or camera | **22 indicators**: camera (heart rate, blink rate, eyelid closure), on-screen vision tests (Amsler grid, near acuity), sliders (sleep, mood, stress, gut), manual entry (blood pressure, temperature, blood sugar, body mass, exercise), food and water logging |
+| Gather health indicators by keyboard, mouse or camera | **23 indicators**: camera (heart rate, blink rate, eyelid closure), on-screen vision tests (Amsler grid, near acuity), sliders (sleep, mood, stress, gut), a one-minute reaction-time test, manual entry (blood pressure, temperature, blood sugar, body mass, exercise), food and water logging |
 | Help astronauts evaluate their own health | Every reading is compared with that person's own baseline: green, yellow, red, or gray when there is not enough good data |
 | Guidance on treatments and improvements | Each indicator answers the brief's five questions plus a recommended action, written from NASA sources (47 pages, listed in [`src/content/sources.json`](src/content/sources.json)) |
-| A clickable human figure | The **body map**: six regions (head, eyes, heart, skeleton, whole body, gut) with status, trends and an FAQ per indicator |
-| Different environments (station, rover, planetary base) | ISS, lunar surface and Mars transit, each with its real communication delay (Mars: 3 to 22 minutes, adjustable). Mission banners show each environment |
+| A clickable human figure | The **body map**: six regions (head, eyes, heart, skeleton, whole body, gut), each with what it does in the body and why spaceflight matters for it, plus status, trends and an FAQ per indicator |
+| Different environments (station, rover, planetary base) | ISS, lunar surface, Mars transit and a Mars surface base, each with its real communication delay and NASA-sourced notes on gravity, radiation, distance and day length. Mission banners show each environment |
 | Prompt measurements as part of the routine | **Mission schedule**: a NASA-shaped crew day, duties only your role sees, your own blocks, and "due now" prompts |
 | Gamification | Coins, streaks, levels, a mission pass, a cosmetic locker and hidden discoveries. Coins reward **what you did, never what your numbers were** |
 | Dynamic charts | Per-indicator trend charts that break at untrusted readings, plus a 7-day water chart |
@@ -34,7 +34,9 @@ Built for the **2026 NASA Space Apps Challenge**, [*Create Health Monitoring Sof
 | **Landing** | What the app is, a tour of the main features, the FAQ, and setup |
 | **Mirror check** | About a minute of camera for pulse (remote photoplethysmography) and blinking, then an Amsler grid per eye, a near-vision test, and a symptom and gut check-in. It refuses a reading when light, framing or motion is bad and offers a retake |
 | **Body map (Console)** | Six body regions colored by their worst indicator. A zoomable X-ray tour, trend charts, and each indicator's five questions and recommended action |
-| **Log** | Manual entry for blood pressure, temperature, blood sugar, sleep, exercise and body mass, plus **Food and water**: a drink pouch that fills toward a goal set from NASA's fluid requirement, meal tiles, a 7-day chart and NASA nutrition tips |
+| **Five hazards** (on the body map) | NASA's five hazards of spaceflight, each colored by the readings its sourced text links to, with what it means on the current mission. The closed-environment tile shows simulated cabin CO₂ against NASA's limit |
+| **Patterns and care plans** (on the body map) | Related readings moving the wrong way together (fatigue, infection, vision change and more), each with a care plan: do now, prevent, re-check tomorrow (one tap adds it to the schedule), and when to move up the escalation ladder |
+| **Log** | Manual entry for blood pressure, temperature, blood sugar, sleep, exercise and body mass, a one-minute **alertness (reaction-time) check**, plus **Food and water**: a drink pouch that fills toward a goal set from NASA's fluid requirement, meal tiles, a 7-day chart and NASA nutrition tips |
 | **Schedule** (in the header) | The shared crew day (morning and evening conferences with the ground, two hours of exercise, an 8.5-hour sleep period), duties only the crew member's role carries (commander, flight engineer, mission specialist), and blocks the astronaut adds. Health blocks tick themselves when the real thing is done |
 | **Escalate** | Four rungs: self-care, crewmate, crew medical officer, flight surgeon. It builds a compact change summary for the ground (downloadable JSON) and simulates the comm delay |
 | **Crew (Medical view)** | Everyone at once, people needing attention first. For the crew medical officer |

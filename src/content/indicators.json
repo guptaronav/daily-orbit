@@ -306,5 +306,19 @@
     "whenToEscalate": "If meals eaten fall below your own usual (yellow or red), or your body mass keeps dropping, tell the crew medical officer.",
     "prevention": "Keep the meal times in the crew schedule. NASA plans crew days with time for meals, including eating together as a team.",
     "recommendedAction": "Don't skip your next meal: eat it at the scheduled time, with the crew if you can."
+  },
+  {
+    "id": "reactionTime",
+    "label": "Reaction time",
+    "unit": "ms",
+    "region": "head",
+    "standardMeasure": "cognition",
+    "hrpRisk": "Risk of Inadequate Sleep and Irregular Schedules",
+    "canMeasureInSpace": "Yes. Astronauts on the ISS have used the Reaction Self Test, a 3-minute reaction-time test on a computer.",
+    "whyCheck": "Reaction time tracks alertness. It slows with sleep loss, long time awake and body-clock disruption, and practice barely changes it.",
+    "hazardEffect": "Irregular light-dark cycles, heavy workload and isolation can disrupt sleep. In ISS astronauts, sleeping under 6 hours was linked to slower responses.",
+    "whenToEscalate": "If your median time is slower than your own baseline (yellow), or stays slow or you miss many taps (red), tell your crew surgeon, especially after short sleep.",
+    "prevention": "Protect your sleep. Station lights simulate Earth's day-night cycle, and crews get set time for rest and self-care. Longer sleep was linked to better performance.",
+    "recommendedAction": "Protect tonight's sleep, retest later, and report a slow trend to your crew surgeon."
   }
 ]
