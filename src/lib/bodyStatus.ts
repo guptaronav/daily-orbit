@@ -2,6 +2,7 @@ import { INDICATORS, type Indicator, type Measurement, type Status } from '../co
 import { computeBaseline, type Baseline } from './baseline'
 import type { Region } from './regions'
 import { getCategoricalStatus, getStatus } from './status'
+import { detectDrift, referenceBaseline, type Drift } from './trend'
 
 export type IndicatorReading = {
   indicator: Indicator
@@ -14,6 +15,12 @@ export type IndicatorReading = {
   failedCount: number
   /** Every reading for this indicator, oldest first, including failed ones. */
   history: Measurement[]
+  /** The frozen reference from the first two weeks, once there is one (lib/trend.ts). */
+  reference?: Baseline | null
+  /** A steady slide over the last few readings, if there is one. */
+  drift?: Drift | null
+  /** What set the status: the recent baseline, the fixed reference, or a steady slide. */
+  basis?: 'recent' | 'reference' | 'drift'
 }
 
 const SEVERITY: Record<Status, number> = { gray: 0, green: 1, yellow: 2, red: 3 }
@@ -35,7 +42,21 @@ export function readIndicator(indicator: Indicator, all: readonly Measurement[])
   // Baseline excludes the latest reading so a sudden change is not diluted by itself.
   const prior = passed.slice(0, -1).flatMap((m) => (typeof m.value === 'number' ? [m.value] : []))
   const baseline = computeBaseline(prior)
-  return { indicator, status: getStatus(latest, baseline), latest, baseline, priorCount: prior.length, failedCount, history }
+  const points = passed.flatMap((m) => (typeof m.value === 'number' ? [{ t: Date.parse(m.timestamp), v: m.value }] : []))
+  const latestT = Date.parse(latest.timestamp)
+  const reference = referenceBaseline(points, latestT)
+  const recent = getStatus(latest, baseline)
+  const vsReference = reference ? getStatus(latest, reference) : 'gray'
+  // A gradual change can hide from the rolling baseline but not from the frozen reference.
+  let status = worstStatus([recent, vsReference])
+  let basis: IndicatorReading['basis'] = SEVERITY[vsReference] > SEVERITY[recent] ? 'reference' : 'recent'
+  // A steady slide is worth watching even while each single reading still looks normal.
+  const drift = recent === 'gray' ? null : detectDrift(points, reference ?? baseline)
+  if (drift && status === 'green') {
+    status = 'yellow'
+    basis = 'drift'
+  }
+  return { indicator, status, latest, baseline, priorCount: prior.length, failedCount, history, reference, drift, basis }
 }
 
 export function readAll(measurements: readonly Measurement[]): Record<Indicator, IndicatorReading> {

@@ -3,6 +3,7 @@
 // GENERATED from the UI overhaul prototype by dc2jsx.py. Styles are the prototype's, verbatim.
 // Edit the view model that feeds this, not this markup, unless you are re-porting the prototype.
 import { Fragment } from 'react'
+import { PatternsPanel } from './PatternsPanel'
 import * as P from './parts'
 import { S } from './parts'
 
@@ -195,6 +196,7 @@ export function BodyMapView({ v }: { v: any }) {
             </section>
             </>
           ) : null}
+          <PatternsPanel />
           <section data-reveal="1" aria-labelledby="tour-heading" style={S({ position: 'relative' })}>
             <div style={S({ display: 'flex', flexWrap: 'wrap', alignItems: 'flex-end', justifyContent: 'space-between', gap: '12px 24px', margin: '18px 0 20px' })}>
               <div>

@@ -213,6 +213,9 @@ export class BodyMapLogic extends DCLogic {
           let note = 'No reading has passed quality yet'
           if (r.latest && !r.baseline) note = r.status === 'green' ? 'Building the baseline' : 'Outside the safe range'
           else if (r.latest) { const d = r.latest.v - r.baseline.mean; note = r.status === 'green' ? 'Inside normal' : `${Math.abs(d).toFixed(r.dp > 1 ? 2 : 1)} ${r.unit === '0-10' ? 'pts' : r.unit} ${d < 0 ? 'below' : 'above'} normal` }
+          // Why it is flagged when the reason is not the latest reading alone (lib/trend.ts).
+          if (r.latest && r.basis === 'drift' && r.drift) note = `Steady slide ${r.drift.direction} over ${r.drift.days} days`
+          else if (r.latest && r.basis === 'reference' && r.reference) { const d = r.latest.v - r.reference.mean; note = `${Math.abs(d).toFixed(r.dp > 1 ? 2 : 1)} ${r.unit === '0-10' ? 'pts' : r.unit} ${d < 0 ? 'below' : 'above'} your first two weeks` }
           const big = this.state.hoverInd === r.id
           return { label: r.label, method: METHOD[r.id], value: r.latest ? D.fmt(r) : '—', unit: r.latest ? D.fmtUnit(r) : '', valColor: r.latest ? 'var(--ink)' : 'var(--nodata-ink)', note, ink: ST[r.status].ink, spark: sp.d, sparkColor: r.status === 'gray' ? 'var(--rule-strong)' : ST[r.status].swatch, border: big ? 'var(--ink)' : 'var(--rule)', tf: big ? 'translateX(4px)' : 'none', enter: () => { if (this.state.tour !== g.id) this.setState({ tour: g.id }); this.setState({ hoverInd: r.id }) } }
         }),

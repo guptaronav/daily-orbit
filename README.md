@@ -50,6 +50,9 @@ Built for the **2026 NASA Space Apps Challenge**, [*Create Health Monitoring Sof
 - **Baseline:** the mean and spread of that person's earlier quality-passed readings, needing at least 5. The latest reading is left out of its own baseline.
 - **Green** within 1 SD, **yellow** 1 to 2 SD, **red** beyond 2 SD. This is a statistical flag, not a diagnosis.
 - **Gray** means not enough good data. A reading that failed its quality check is **never** colored.
+- **Fixed reference:** each indicator also keeps a frozen reference from its first two weeks, the way NASA compares in-flight results with a pre-flight reference, so a slow decline cannot drag its own baseline down. The worse of the two comparisons wins.
+- **Steady slides:** a consistent trend over the last week turns a still-normal reading into Watch.
+- **Patterns:** related readings moving the wrong way together (for example less sleep and worse sleep quality, or a raised temperature with symptoms) raise a pattern flag tied to its NASA risk and the escalation rung to go to.
 - A region takes the worst status among its indicators that have good data.
 - Food and water count only finished days, so a half-finished morning is never flagged as "low".
 

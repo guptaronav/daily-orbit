@@ -19,7 +19,8 @@ import { addEvent, addMeasurement } from '../db/repo'
 import { getThreshold } from '../config/thresholds'
 import { getContent } from '../lib/content'
 import { REGIONS as APP_REGIONS } from '../lib/regions'
-import { readIndicator } from '../lib/bodyStatus'
+import { readAll as appReadAll, readIndicator } from '../lib/bodyStatus'
+import { patternFlags, RUNG_NAME } from '../lib/patterns'
 import { formatDelay as appFormatDelay } from '../lib/environments'
 import { ENTRY_FORMS as APP_FORMS, validateEntry as appValidate } from '../lib/manualEntry'
 import { buildPacket as appBuildPacket } from '../lib/packet'
@@ -188,7 +189,8 @@ function read(crewId, ind) {
   const latest = passed[passed.length - 1]
   const baseline = app.baseline ? { mean: app.baseline.mean, sd: app.baseline.sd, n: app.baseline.n } : null
   const z = baseline && typeof app.latest.value === 'number' ? (app.latest.value - baseline.mean) / baseline.sd : null
-  return { id: ind, label, unit, dp, status: app.status, latest, baseline, history, failed, z, source: app.latest.source }
+  const reference = app.reference ? { mean: app.reference.mean, sd: app.reference.sd, n: app.reference.n } : null
+  return { id: ind, label, unit, dp, status: app.status, latest, baseline, history, failed, z, source: app.latest.source, reference, drift: app.drift ?? null, basis: app.basis ?? 'recent' }
 }
 
 // Trend chart geometry: baseline band (±1 SD), ±2 SD dotted, gaps where quality failed, straight segments only.
@@ -819,3 +821,13 @@ export function tickBlock(id, blockId) {
   saveSchedule(id, { ...s, ticks: { [day]: t.includes(blockId) ? t.filter((x) => x !== blockId) : [...t, blockId] } })
 }
 export const ticksToday = (id) => scheduleStore(id).ticks[localDayKey()] || []
+
+/** Patterns across this person's indicators (lib/patterns.ts), most serious first. */
+export function patterns(crewId) {
+  const hits = patternFlags(appReadAll(getSnapshot().measurements[crewId] ?? []))
+  return hits.map((h) => ({
+    id: h.pattern.id, title: h.pattern.title, summary: h.pattern.summary, risk: h.pattern.risk, riskUrl: h.pattern.riskUrl,
+    status: h.status, rung: h.rung, rungName: RUNG_NAME[h.rung],
+    parts: h.parts.map((x) => ({ label: IND[x.indicator][0], status: x.status, direction: x.direction })),
+  }))
+}
