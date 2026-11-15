@@ -62,6 +62,8 @@ export function TodayPage() {
   const hello = hour < 12 ? 'Good morning' : hour < 18 ? 'Good afternoon' : 'Good evening'
   const name = crew.id === 'guest' ? 'crew member' : crew.name
   const goals = D.todayTasks(crew.id) as { id: string; label: string; sub: string; points: number; done: boolean; href: string; optional?: boolean }[]
+  const checkIn = goals.find((q) => q.id === 'checkIn')
+  const streak = (D.game(crew.id) as { streak: number }).streak
   const req = goals.filter((q) => !q.optional)
   const reqDone = req.filter((q) => q.done).length
   const lvl = D.level((D.wallet(crew.id) as { xp: number }).xp) as { n: number; rank: string; into: number; need: number; frac: number }
@@ -112,6 +114,33 @@ export function TodayPage() {
             <br />
             {name}.
           </h1>
+          {/* The daily mirror check comes first: it is the one thing everything else is built on. */}
+          {checkIn && !checkIn.done ? (
+            <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: 16, padding: '18px 20px', borderRadius: 24, background: 'var(--accent)', color: 'var(--on-accent)', maxWidth: 720 }}>
+              <div style={{ flex: '1 1 260px', display: 'grid', gap: 4 }}>
+                <p style={{ ...kicker, color: '#f6c445' }}>Your daily mirror check</p>
+                <strong style={{ fontSize: 'clamp(20px, 2.4vw, 26px)', letterSpacing: '-0.02em', lineHeight: 1.15 }}>About a minute. Do it now, before the day starts.</strong>
+                <span style={{ fontSize: 14, opacity: 0.85 }}>
+                  Camera pulse, two vision checks, how you feel · +{checkIn.points} coins{streak > 0 ? ` · keeps your ${streak}-day streak` : ''}
+                </span>
+              </div>
+              <span style={{ position: 'relative', display: 'inline-grid' }}>
+                <span aria-hidden="true" className="mc-ring" />
+                <button type="button" className="fw-press" onClick={() => go('mirror')} style={{ position: 'relative', minHeight: 56, padding: '0 26px', borderRadius: 16, border: 0, background: '#f6c445', color: '#14181f', boxShadow: '0 5px 0 #a8740a', fontSize: 18, fontWeight: 800, cursor: 'pointer' }}>
+                  Start mirror check
+                </button>
+              </span>
+            </div>
+          ) : checkIn ? (
+            <div role="status" style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: 10, padding: '10px 16px', borderRadius: 16, background: 'rgba(47,125,79,.1)', border: '1px solid var(--ok)', maxWidth: 720 }}>
+              <span aria-hidden="true" style={{ display: 'grid', placeItems: 'center', width: 24, height: 24, borderRadius: 99, background: 'var(--ok)', color: 'var(--paper)', fontSize: 13, fontWeight: 800 }}>✓</span>
+              <strong style={{ fontSize: 15, color: 'var(--ok-ink)' }}>Mirror check done today</strong>
+              <span style={{ flex: 1, fontSize: 13.5, color: 'var(--ink-soft)' }}>{streak > 0 ? `${streak}-day streak. ` : ''}See you tomorrow.</span>
+              <button type="button" onClick={() => go('mirror')} style={{ minHeight: 34, padding: '0 12px', borderRadius: 10, border: '1.5px solid var(--rule-strong)', background: 'var(--panel)', color: 'var(--ink)', fontWeight: 650, cursor: 'pointer' }}>
+                Run it again
+              </button>
+            </div>
+          ) : null}
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: 10, maxWidth: 760 }}>
             {stat('Streak', `${g.streak} days`, g.shields ? `${g.shields} shield${g.shields === 1 ? '' : 's'}` : undefined)}
             {stat('Goals', `${reqDone} of ${req.length}`, reqDone === req.length ? 'all done' : 'today')}

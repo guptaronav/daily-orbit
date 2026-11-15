@@ -29,7 +29,8 @@ export function saveReminderSettings(s: Settings) {
 const snoozeKey = (id: string) => `chm-reminder-snooze-${id}`
 const localDay = () => new Date().toLocaleDateString('en-CA')
 
-export function ReminderBanner() {
+/** `here` is the current page: the Today page and the mirror check itself already carry the call to action. */
+export function ReminderBanner({ here = '' }: { here?: string }) {
   const [, bump] = useReducer((n: number) => n + 1, 0)
   useEffect(() => D.onState(bump), [])
   useEffect(() => {
@@ -38,7 +39,7 @@ export function ReminderBanner() {
   }, [])
   const [, force] = useState(0)
   const id = D.getState().crew.id as string
-  if (!id) return null
+  if (!id || here === 'Today' || here === 'Mirror check') return null
   const set = reminderSettings()
   if (!set.on) return null
   const now = new Date()

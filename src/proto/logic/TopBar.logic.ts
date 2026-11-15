@@ -33,35 +33,42 @@ export class TopBarLogic extends DCLogic {
   tog(k) { return () => this.setState((s) => ({ open: s.open === k ? null : k })) }
   renderVals() {
     const D = this.D, s = this.state.s, w = this.state.w, open = this.state.open
-    const base = { rootRef: this.rootRef, toggleMore: this.tog('more'), toggleEnv: this.tog('env'), toggleMe: this.tog('me'), moreOpen: open === 'more', envOpen: open === 'env', meOpen: open === 'me', navOrder: this.state.narrow ? 3 : 1, navFlex: this.state.narrow ? '1 1 100%' : '0 1 auto' }
+    const base = { here: this.props.current || '', rootRef: this.rootRef, toggleMore: this.tog('more'), toggleEnv: this.tog('env'), toggleMe: this.tog('me'), moreOpen: open === 'more', envOpen: open === 'env', meOpen: open === 'me', navOrder: this.state.narrow ? 3 : 1, navFlex: this.state.narrow ? '1 1 100%' : '0 1 auto' }
     if (!D || !s || !w) return { ...base, links: [], more: [], envItems: [], crewItems: [], coins: '', streak: '', envShort: '', delayText: '' }
     const here = this.props.current || ''
+    // Five tabs for the daily loop, the check-in first and highlighted until it is done today.
+    // Everything else (schedule, the medical officer's view, rewards, reports, data pages) lives under More.
+    const checkInDone = !!(D.todayTasks(s.crew.id).find((t) => t.id === 'checkIn') || {}).done
     const L = [
-      ['Today', 'Today', 'Today.dc.html', 'spark'], ['Body', 'Body map', 'Body%20Map.dc.html', 'body'], ['Schedule', 'Mission schedule', 'Schedule.dc.html', 'clock'],
-      ['Log', 'Manual entry', 'Manual%20Entry.dc.html', 'pen'],
-      ['Escalate', 'Escalation', 'Escalation.dc.html', 'send'], ['Crew', 'Medical view', 'Medical%20View.dc.html', 'users'],
-      ['Rewards', 'Rewards', 'Rewards.dc.html', 'award'],
+      ['Today', 'Today', 'Today.dc.html', 'spark'], ['Check in', 'Mirror check', 'Mirror.dc.html', 'scan'], ['Log', 'Manual entry', 'Manual%20Entry.dc.html', 'pen'],
+      ['Body', 'Body map', 'Body%20Map.dc.html', 'body'], ['Escalate', 'Escalation', 'Escalation.dc.html', 'send'],
     ]
     const links = L.map(([label, match, href, icon]) => {
       const on = here === match
-      return { label, href, icon: D.ICONS[icon], current: on ? 'page' : undefined, bg: on ? 'var(--panel)' : 'transparent', color: on ? 'var(--ink)' : 'var(--muted)', shadow: on ? '0 1px 2px rgba(20,24,31,.1), 0 4px 12px -6px rgba(20,24,31,.25)' : 'none', weight: on ? 600 : 500 }
+      const cta = label === 'Check in' && !checkInDone && !on
+      return { label, href, icon: D.ICONS[icon], current: on ? 'page' : undefined, dot: cta, bg: on ? 'var(--panel)' : cta ? 'var(--accent)' : 'transparent', color: on ? 'var(--ink)' : cta ? 'var(--on-accent)' : 'var(--muted)', shadow: on ? '0 1px 2px rgba(20,24,31,.1), 0 4px 12px -6px rgba(20,24,31,.25)' : 'none', weight: on || cta ? 600 : 500 }
     })
-    // Departure from the prototype: it disabled screens it had not drawn. They exist in the app, so they link.
+    const reportReady = !!D.reportStatus(s.crew.id).ready
     const M = [
-      ['Mirror check', 'About a minute of camera, two vision checks, how you feel', 'Mirror.dc.html', 'scan'],
+      ['Mission schedule', 'Your day, block by block, and the reminder time', 'Schedule.dc.html', 'clock'],
+      ['Crew medical view', 'Everyone at once, for the crew medical officer', 'Medical%20View.dc.html', 'users'],
+      ['Rewards', 'Coins, level, locker and crew goal', 'Rewards.dc.html', 'award'],
+      ['Weekly report', reportReady ? 'Your week is ready to read' : 'Your week on one page for the flight surgeon', 'Report.dc.html', 'chart'],
       ['Radiation', 'Replay a historical solar particle event', 'Radiation.dc.html', 'shield'],
       ['Metrics', 'Modeled numbers and the real-data test', 'Metrics.dc.html', 'chart'],
       ['Sources', 'Every NASA dataset and page used', 'Sources.dc.html', 'book'],
       ['Set up again', 'Replay the one-minute setup', 'Onboarding.dc.html', 'spark'],
     ]
-    const more = M.map(([label, desc, href, icon]) => ({ label, desc: href ? desc : `${desc} · not in this pass`, href: href || undefined, disabled: href ? undefined : 'true', op: href ? 1 : 0.5, cursor: href ? 'pointer' : 'not-allowed', path: D.ICONS[icon], tileBg: href ? 'var(--ink)' : 'var(--paper-deep)', tileColor: href ? 'var(--paper)' : 'var(--muted)' }))
+    const MORE_MATCH = ['Mission schedule', 'Medical view', 'Rewards', 'Weekly report', 'Radiation', 'Metrics', 'Sources']
+    const moreActive = MORE_MATCH.includes(here)
+    const more = M.map(([label, desc, href, icon]) => ({ label, desc, href, disabled: undefined, op: 1, cursor: 'pointer', path: D.ICONS[icon], tileBg: 'var(--ink)', tileColor: 'var(--paper)' }))
     const g = D.game(s.crew.id), lv = D.level(w.xp), gr = D.gear(w)
     const envItems = D.ENVS.map((e) => { const a = e.id === s.env.id; return { ...e, active: String(a), delayText: D.formatDelay(e.delay), checkOp: a ? 1 : 0, bg: a ? 'var(--panel-2)' : 'transparent', pick: () => D.setState({ envId: e.id }) } })
     const adjustable = s.env.min !== undefined
     const crewItems = D.CREW.map((c) => { const a = c.id === s.crew.id; return { crew: c, gear: D.gear(c.id), active: String(a), ring: D.STATUS[D.crewData(c.id).worst].swatch, bg: a ? 'var(--panel-2)' : 'transparent', border: a ? 'var(--ink)' : 'transparent', pick: () => D.setState({ crewId: c.id }) } })
     const deck = s.theme === 'deck'
     return {
-      ...base, links, more, moreBg: open === 'more' ? 'var(--panel)' : 'transparent', moreRot: open === 'more' ? 'rotate(180deg)' : 'none',
+      ...base, links, more, moreDot: reportReady, moreColor: moreActive ? 'var(--ink)' : 'var(--muted)', moreBg: open === 'more' || moreActive ? 'var(--panel)' : 'transparent', moreRot: open === 'more' ? 'rotate(180deg)' : 'none',
       envShort: s.env.id === 'iss' ? 'ISS' : s.env.id === 'lunar' ? 'Moon' : 'Mars', delayText: D.formatDelay(s.delay), envItems, adjustable,
       delay: s.delay, dMin: s.env.min, dMax: s.env.max, dPct: adjustable ? ((s.delay - s.env.min) / (s.env.max - s.env.min)) * 100 + '%' : '0%',
       dMinText: adjustable ? D.formatDelay(s.env.min) : '', dMaxText: adjustable ? D.formatDelay(s.env.max) : '', setDelay: (e) => D.setState({ delay: Number(e.target.value) }),

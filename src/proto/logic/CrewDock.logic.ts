@@ -6,10 +6,10 @@ import * as D from '../data'
 import { DCLogic, navigate } from '../dc'
 
 export class CrewDockLogic extends DCLogic {
-  state = { s: null, hover: null, hoverAct: -1, goal: false, collapsed: false, narrow: false }
+  state = { s: null, hover: null, hoverAct: -1, goal: false, collapsed: true, narrow: false }
   rootRef = React.createRef()
   componentDidMount() {
-    try { this.setState({ collapsed: localStorage.getItem('chm-dock-min') === '1' }) } catch {}
+    try { this.setState({ collapsed: localStorage.getItem('chm-dock-min') !== '0' }) } catch {}
     Promise.resolve(D).then((D) => { this.D = D; this.setState({ s: D.getState() }); this.off = D.onState(() => this.setState({ s: D.getState() })) })
     this.onKey = (e) => {
       const el = e.target
