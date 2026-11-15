@@ -63,7 +63,7 @@ export function SectionTabs<T extends string>({ page, tabs, label }: { page: Pag
 export function Section({ page, id, children }: { page: Page; id: string; children: ReactNode }) {
   const tab = useSection(page)
   return (
-    <div role="tabpanel" hidden={tab !== id} style={{ display: tab === id ? 'grid' : 'none', gap: 18 }}>
+    <div role="tabpanel" hidden={tab !== id} style={{ display: tab === id ? 'grid' : 'none', gridTemplateColumns: 'minmax(0, 1fr)', gap: 18 }}>
       {children}
     </div>
   )

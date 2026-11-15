@@ -203,12 +203,12 @@ export function AlertsPanel() {
         {nOpen > 0 && chip(nOpen, 'open', 'var(--act)', 'var(--paper)')}
         {nAck > 0 && chip(nAck, 'acknowledged', 'var(--paper-deep)', 'var(--ink)')}
         {active.length === 0 && chip(0, 'open', 'rgba(47,125,79,.14)', 'var(--ok-ink)')}
-        <details style={{ marginLeft: 'auto' }}>
+        <details style={{ marginLeft: 'auto', position: 'relative' }}>
           <summary style={{ cursor: 'pointer', fontSize: 13, fontWeight: 650, color: cmo.unwell ? 'var(--act-ink)' : 'var(--muted)', listStyle: 'none' }}>
             Answered by {cmo.activeName || 'the medical officer'}
             {cmo.unwell ? ' (backup)' : ''} · change
           </summary>
-          <div style={{ marginTop: 8, minWidth: 'min(520px, 80vw)' }}>
+          <div style={{ position: 'absolute', right: 0, top: '100%', zIndex: 20, marginTop: 8, width: 'min(520px, calc(100vw - 48px))', boxShadow: '0 18px 40px rgba(0,0,0,.18)', borderRadius: 18 }}>
             <MedicalOfficerSetting />
           </div>
         </details>

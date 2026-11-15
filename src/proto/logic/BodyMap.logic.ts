@@ -186,9 +186,9 @@ export class BodyMapLogic extends DCLogic {
             lead: `M${px} ${py} L${sd === 'l' ? ex + 14 : ex - 14} ${ly} L${ex} ${ly}`, c: p.c,
             maxW: (compact ? 108 : 150) + 'px', pad: compact ? '4px 8px' : '6px 10px', fs1: compact ? '11.5px' : '12.5px', fs2: compact ? '10.5px' : '11.5px',
             left: ((sd === 'l' ? 12 : 548) / 560) * 100 + '%', top: (ly / 520) * 100 + '%', tf: sd === 'l' ? 'translateY(-50%)' : 'translate(-100%, -50%)', bw: p.big ? '2px' : '1px',
-            tx: rx + 12, anchor: 'start', ty1: ly - 3, ty2: ly + 13, fs1: '13px', fs2: '12px',
+            tx: rx + 12, anchor: 'start', ty1: ly - 3, ty2: ly + 13,
             name: p.r.label.replace(' (systolic)', ', top').replace(' (diastolic)', ', bottom').replace('Amsler grid distortion', 'Amsler grid'),
-            val: shortVal(p.r) + (p.r.latest && p.r.status !== 'gray' ? ` · ${D.STATUS[p.r.status].short}` : ''),
+            val: shortVal(p.r) + (!compact && p.r.latest && p.r.status !== 'gray' ? ` · ${D.STATUS[p.r.status].short}` : ''),
           })
         })
       }
