@@ -17,7 +17,7 @@ export function TopBarView({ v }: { v: any }) {
           Skip to content
         </a>
         <div style={S({ pointerEvents: 'auto', maxWidth: '1440px', margin: '0 auto', display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: '8px', padding: '6px', paddingLeft: '8px', borderRadius: '28px', background: 'color-mix(in srgb, var(--panel) 84%, transparent)', backdropFilter: 'blur(18px) saturate(1.4)', WebkitBackdropFilter: 'blur(18px) saturate(1.4)', border: '1px solid var(--rule)', boxShadow: '0 12px 34px -22px rgba(20,24,31,.45)' })}>
-          <a href="Landing.dc.html" aria-label="Crew Health Monitor, home" style={S({ display: 'flex', alignItems: 'center', gap: '10px', minHeight: '44px', paddingRight: '8px', textDecoration: 'none', color: 'var(--ink)', whiteSpace: 'nowrap' })}>
+          <a href="Landing.dc.html" aria-label="Daily Orbit, home" style={S({ display: 'flex', alignItems: 'center', gap: '10px', minHeight: '44px', paddingRight: '8px', textDecoration: 'none', color: 'var(--ink)', whiteSpace: 'nowrap' })}>
             <span aria-hidden="true" style={S({ position: 'relative', display: 'grid', placeItems: 'center', width: '36px', height: '36px', borderRadius: '999px', background: 'var(--ink)', color: 'var(--paper)' })}>
               <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round">
                 <ellipse cx="12" cy="12" rx="10" ry="4.2" transform="rotate(-24 12 12)">
@@ -27,7 +27,7 @@ export function TopBarView({ v }: { v: any }) {
               </svg>
             </span>
             <span style={S({ fontSize: '16px', fontWeight: '650', letterSpacing: '-0.025em' })}>
-              Crew Health
+              Daily Orbit
             </span>
           </a>
           <nav aria-label="Main navigation" style={S({ order: v.navOrder, flex: v.navFlex, display: 'flex', justifyContent: 'flex-start', minWidth: '0', marginLeft: '4px' })}>

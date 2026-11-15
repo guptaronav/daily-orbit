@@ -15,7 +15,7 @@ export function SiteFooterView({ v }: { v: any }) {
           <div style={S({ display: 'flex', flexDirection: 'column', gap: '14px' })}>
             <span style={S({ display: 'flex', alignItems: 'center', gap: '10px' })}>
               <span style={S({ display: 'block', fontSize: '22px', lineHeight: '1.15', fontWeight: '600', letterSpacing: '-0.02em', whiteSpace: 'nowrap' })}>
-                Crew Health Monitor
+                Daily Orbit
               </span>
             </span>
             <p style={S({ margin: '0', fontSize: '14px', lineHeight: '1.6', color: 'var(--muted)', maxWidth: '30ch', textWrap: 'pretty' })}>

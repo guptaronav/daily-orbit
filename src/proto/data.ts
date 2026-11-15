@@ -52,7 +52,7 @@ const hash = (s) => {
   return h >>> 0
 }
 
-export const APP_NAME = 'Crew Health'
+export const APP_NAME = 'Daily Orbit'
 export const DISCLAIMER = 'Prototype. Not a medical device.'
 
 const traits = (id) => {
