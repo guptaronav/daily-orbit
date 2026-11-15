@@ -334,7 +334,7 @@ export function applyTheme(theme) {
 export const NAV = [
   { group: 'Crew', items: [
     { label: 'Body map', icon: 'body', href: 'Body%20Map.dc.html', desc: 'Every indicator against this person’s own baseline' },
-    { label: 'Mirror check', icon: 'scan', href: 'Mirror.dc.html', desc: 'Thirty seconds of camera, then four questions' },
+    { label: 'Mirror check', icon: 'scan', href: 'Mirror.dc.html', desc: 'About a minute of camera, two vision checks, how you feel' },
     { label: 'Crew progress', icon: 'award', href: 'Rewards.dc.html', desc: 'Points for effort, never for values' },
     { label: 'Manual entry', icon: 'pen', href: 'Manual%20Entry.dc.html', desc: 'Readings the camera cannot take' },
   ] },
@@ -393,11 +393,21 @@ export function crewGoal() {
   const goal = WEEKLY_GOAL_PER_CREW * Math.max(1, crew.length)
   return { week, goal, frac: Math.min(1, week / goal), total, systems: SYSTEMS.map((s) => ({ ...s, online: total >= s.threshold })) }
 }
+/**
+ * Today's goals: the one list every screen reads (Today, the dock, the Log page, Rewards). Each goal
+ * pays the app's own capped effort credit (lib/scoring.ts), once a day, and is done only when that
+ * credit was really recorded today. Required goals make "all done today"; optional ones are bonuses.
+ */
 export function todayTasks(crewId) {
   const t = game(crewId).today
+  const today = todayKey()
+  const logged = new Set((getSnapshot().events[crewId] ?? []).filter((e) => e.kind === 'readingLogged' && dayKey(e.timestamp) === today).map((e) => e.detail))
   return [
-    { id: 'checkIn', label: 'Mirror check', sub: 'Thirty seconds of camera, then four questions', points: POINTS.checkInComplete, done: t.checkIn, icon: 'scan', href: 'Mirror.dc.html' },
+    { id: 'checkIn', label: 'Mirror check', sub: 'About a minute of camera, two vision checks, how you feel', points: POINTS.checkInComplete, done: t.checkIn, icon: 'scan', href: 'Mirror.dc.html' },
     { id: 'exercise', label: 'Log exercise', sub: 'Any session counts, whatever the minutes', points: POINTS.exerciseComplete, done: t.exercise, icon: 'activity', href: 'Manual%20Entry.dc.html' },
+    { id: 'water', label: 'Log water', sub: 'Tap +250 or +500 mL on the Log page', points: POINTS.readingLogged, done: logged.has('waterIntake'), icon: 'gut', href: 'Manual%20Entry.dc.html' },
+    { id: 'meals', label: 'Log a meal', sub: 'Mark breakfast, lunch, dinner or a snack', points: POINTS.readingLogged, done: logged.has('mealsEaten'), icon: 'gut', href: 'Manual%20Entry.dc.html' },
+    { id: 'alertness', label: 'Alertness check', sub: 'One minute of reaction-time taps', points: POINTS.readingLogged, done: logged.has('reactionTime'), icon: 'clock', href: 'Manual%20Entry.dc.html', optional: true },
     { id: 'symptom', label: 'Report anything that feels off', sub: 'Reporting early earns the most', points: POINTS.symptomReported, done: t.symptom, icon: 'alert', href: 'Mirror.dc.html', optional: true },
   ]
 }
@@ -549,6 +559,7 @@ export function logReading(id, kind, values) {
   const effort = kind === 'exerciseMinutes' ? { kind: 'exerciseComplete' } : { kind: 'readingLogged', detail: kind }
   const { credited } = creditableKinds(getSnapshot().events[id] ?? [], [effort], id, new Date(timestamp))
   const points = credited.length ? POINTS[effort.kind] : 0
+  if (points) announce(points, kind === 'exerciseMinutes' ? 'Exercise logged' : kind === 'reactionTime' ? 'Alertness check done' : `${IND[values[0]?.indicator]?.[0] ?? 'Reading'} logged`)
   void (async () => {
     for (const v of values) {
       await addMeasurement({
@@ -783,6 +794,7 @@ function intakeCredit(id, ind) {
   const { credited } = creditableKinds(getSnapshot().events[id] ?? [], [effort], id, new Date())
   if (!credited.length) return 0
   void addEvent({ id: crypto.randomUUID(), crewId: id, timestamp: new Date().toISOString(), ...effort }).then(() => bridge.refresh())
+  announce(POINTS.readingLogged, ind === 'waterIntake' ? 'Water logged' : 'Meal logged')
   return POINTS.readingLogged
 }
 
@@ -1076,4 +1088,13 @@ export function alertRegions(crewId) {
     else for (const p of patterns(crewId).filter((x) => x.id === key)) for (const part of p.parts) out.add(regionOf(part.id))
   }
   return [...out].filter(Boolean)
+}
+
+/** Every earning action announces itself the same way: the header coin pop and the goals toast listen. */
+export function announce(n, why) {
+  try {
+    window.dispatchEvent(new CustomEvent('chm:coins', { detail: { n, why } }))
+  } catch {
+    // No window (tests): nothing to announce.
+  }
 }

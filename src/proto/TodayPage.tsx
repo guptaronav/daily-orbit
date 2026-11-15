@@ -2,16 +2,15 @@ import { useEffect, useReducer } from 'react'
 import { readiness, type ReadinessLevel } from '../lib/readiness'
 import { blockState, doneToday, isBlockDone, planFor, toMinutes, type CustomBlock } from '../lib/schedule'
 import { useGroundLink } from './GroundLink'
-import { DoseBudget } from './HazardsPanel'
 import * as D from './data'
 import * as P from './parts'
 import { bridge, getSnapshot } from './store'
 
 /*
- * Today: the mission console a crew member opens first. Everything on it already exists elsewhere
- * in the app; this page puts the day in one view: readiness and its reasons, the living body
- * figure, the next thing to do, open alerts, patterns, the five hazards, the radiation budget,
- * food and water, and the ground link.
+ * Today: what to do today. Readiness and its reasons, the living body figure, the next block on
+ * the schedule, today's goals (the one goal list every screen reads), level and crew progress, and
+ * a short "needs a look" list that links to where each thing is handled. Full detail lives on its
+ * own page (Body, Schedule, Rewards, Escalate), so nothing here repeats it.
  */
 
 const LEVEL: Record<ReadinessLevel, { bg: string; ink: string; ring: string; line: string }> = {
@@ -26,6 +25,7 @@ const WORD: Record<string, string> = { gray: 'No data', green: 'Within usual', y
 const card = { borderRadius: 26, background: 'var(--panel)', border: '1px solid var(--rule)', padding: 18, display: 'grid', gap: 10, alignContent: 'start' } as const
 const kicker = { margin: 0, fontSize: 12, fontWeight: 750, letterSpacing: '.06em', textTransform: 'uppercase', color: 'var(--muted)' } as const
 const go = (s: string) => bridge.go?.(s as never)
+const screenFor = (href: string) => (href.startsWith('Mirror') ? 'mirror' : href.startsWith('Manual') ? 'manual' : 'today')
 
 export function TodayPage() {
   const [, bump] = useReducer((n: number) => n + 1, 0)
@@ -46,8 +46,6 @@ export function TodayPage() {
   const rd = readiness({ regions: regions.map((r) => ({ label: r.label, status: r.status as never })), patterns: pats, openAlerts: open, gaps: gaps.length })
   const lv = LEVEL[rd.level]
   const hr = cd.readings.heartRate?.latest?.v ?? null
-  const g = D.game(crew.id) as { streak: number; today: { checkIn: boolean } }
-  const w = D.wallet(crew.id) as { coins: number }
   const water = D.intake(crew.id) as { water: number; goal: number; meals: string[] }
   const hz = D.hazards(crew.id) as { id: string; name: string; status: string }[]
   const budget = D.radiationBudget(crew.id)
@@ -61,7 +59,17 @@ export function TodayPage() {
   const hour = now.getHours()
   const hello = hour < 12 ? 'Good morning' : hour < 18 ? 'Good afternoon' : 'Good evening'
   const name = crew.id === 'guest' ? 'crew member' : crew.name
-  const latestPacket = link.list[0]
+  const goals = D.todayTasks(crew.id) as { id: string; label: string; sub: string; points: number; done: boolean; href: string; optional?: boolean }[]
+  const req = goals.filter((q) => !q.optional)
+  const reqDone = req.filter((q) => q.done).length
+  const lvl = D.level((D.wallet(crew.id) as { xp: number }).xp) as { n: number; rank: string; into: number; need: number; frac: number }
+  const cg = D.crewGoal() as { frac: number }
+  const look: { status: string; text: string; to: string; cta: string }[] = [
+    ...pats.map((p) => ({ status: p.status, text: `${p.title}: next step ${p.rungName}`, to: 'bodymap', cta: 'Care plan' })),
+    ...gaps.map((x) => ({ status: 'yellow', text: `You rated your ${x.rated.label} ${x.rated.value}/10, but ${x.measured[0].text}`, to: 'bodymap', cta: 'See why' })),
+    ...hz.filter((h) => h.status === 'yellow' || h.status === 'red').map((h) => ({ status: h.status, text: `${h.name} hazard`, to: 'bodymap', cta: 'Five hazards' })),
+    ...(budget.status !== 'green' ? [{ status: budget.status, text: `Career radiation dose ${Math.round(budget.used)} of ${budget.limit} mSv`, to: 'bodymap', cta: 'Radiation' }] : []),
+  ]
 
   return (
     <main style={{ width: '100%', maxWidth: 1440, margin: '0 auto', padding: '24px clamp(16px, 3vw, 32px) 72px', boxSizing: 'border-box', display: 'grid', gap: 18 }}>
@@ -106,8 +114,8 @@ export function TodayPage() {
         </div>
       </section>
 
-      {/* Row: do next, the check, alerts, ground link */}
-      <section style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 260px), 1fr))', gap: 14 }}>
+      {/* Row: what is next, today's goals, and progress (one list of goals, read by every screen) */}
+      <section style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 280px), 1fr))', gap: 14 }}>
         <div style={{ ...card, background: '#14181f', color: '#f3f1ea', border: 0 }}>
           <p style={{ ...kicker, color: '#f6c445' }}>{next ? (next.st === 'now' ? 'Now' : `Next, in ${minsTo < 60 ? `${minsTo} min` : `${Math.floor(minsTo / 60)} h ${minsTo % 60} min`}`) : 'Schedule'}</p>
           <strong style={{ fontSize: 19, letterSpacing: '-0.02em' }}>{next ? next.b.title : 'Nothing else today'}</strong>
@@ -124,95 +132,78 @@ export function TodayPage() {
           </div>
         </div>
 
-        <div style={card}>
-          <p style={kicker}>Mirror check</p>
-          <strong style={{ fontSize: 19 }}>{g.today.checkIn ? 'Done today' : 'Not done yet'}</strong>
-          <span style={{ fontSize: 13.5, color: 'var(--muted)' }}>
-            {g.streak}-day streak · {w.coins} coins
-          </span>
-          {!g.today.checkIn && (
-            <button type="button" className="fw-press" onClick={() => go('mirror')} style={{ justifySelf: 'start', minHeight: 42, padding: '0 16px', borderRadius: 12, border: 0, background: '#14181f', color: '#f3f1ea', boxShadow: '0 4px 0 #000', fontWeight: 750, cursor: 'pointer' }}>
-              Start today's check
-            </button>
-          )}
-        </div>
-
-        <div style={{ ...card, border: open.length ? '2px solid var(--act)' : card.border }}>
-          <p style={kicker}>Open alerts</p>
-          <strong style={{ fontSize: 19 }}>{open.length ? `${open.length} for the medical officer` : 'None'}</strong>
-          {open.slice(0, 3).map((a) => (
-            <span key={a.title} style={{ fontSize: 13.5 }}>
-              <span style={{ display: 'inline-block', width: 8, height: 8, borderRadius: 99, background: TONE[a.status], marginRight: 6 }} />
-              {a.title}
-              {a.state === 'acknowledged' ? ' (acknowledged)' : ''}
+        <div style={{ ...card, gridColumn: 'span 2' }} className="today-goals">
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', gap: 8, flexWrap: 'wrap' }}>
+            <p style={kicker}>Today's goals</p>
+            <span style={{ fontSize: 13, color: 'var(--muted)' }}>
+              {reqDone} of {req.length} done{reqDone === req.length ? ', all done' : ''} · coins for doing, never for the numbers
             </span>
-          ))}
-          {open.length > 0 && (
-            <button type="button" onClick={() => go('medical')} style={{ justifySelf: 'start', minHeight: 36, padding: '0 12px', borderRadius: 10, border: '1.5px solid var(--ink)', background: 'var(--panel)', color: 'var(--ink)', fontWeight: 700, cursor: 'pointer' }}>
-              Review
-            </button>
-          )}
+          </div>
+          <ul style={{ listStyle: 'none', margin: 0, padding: 0, display: 'grid', gap: 6 }}>
+            {goals.map((q) => (
+              <li key={q.id} style={{ display: 'flex', alignItems: 'center', gap: 10, padding: '8px 10px', borderRadius: 12, background: q.done ? 'rgba(47,125,79,.08)' : 'var(--panel-2)' }}>
+                <span aria-hidden="true" style={{ display: 'grid', placeItems: 'center', width: 22, height: 22, flex: '0 0 auto', borderRadius: 99, background: q.done ? 'var(--ok)' : 'transparent', border: q.done ? 0 : '2px solid var(--rule-strong)', color: 'var(--paper)', fontSize: 12, fontWeight: 800 }}>
+                  {q.done ? '✓' : ''}
+                </span>
+                <span style={{ flex: 1, minWidth: 0, display: 'grid' }}>
+                  <span style={{ fontWeight: 650, fontSize: 14.5, textDecoration: q.done ? 'line-through' : 'none', color: q.done ? 'var(--muted)' : 'var(--ink)' }}>
+                    {q.label}
+                    {q.optional ? <span style={{ fontWeight: 500, color: 'var(--muted)' }}> · bonus</span> : null}
+                  </span>
+                  {!q.done && <span style={{ fontSize: 12.5, color: 'var(--muted)' }}>{q.sub}</span>}
+                </span>
+                <span style={{ fontSize: 13, fontWeight: 750, color: q.done ? 'var(--muted)' : '#a8740a', whiteSpace: 'nowrap' }}>+{q.points}</span>
+                {!q.done && (
+                  <button type="button" onClick={() => go(screenFor(q.href))} style={{ minHeight: 34, padding: '0 12px', borderRadius: 10, border: '1.5px solid var(--ink)', background: 'var(--panel)', color: 'var(--ink)', fontWeight: 700, cursor: 'pointer' }}>
+                    Do it
+                  </button>
+                )}
+              </li>
+            ))}
+          </ul>
         </div>
 
         <div style={card}>
-          <p style={kicker}>Ground link</p>
-          <strong style={{ fontSize: 19 }}>{latestPacket ? (latestPacket.state === 'arrived' ? 'Earth has your latest' : 'Packet on its way') : 'Nothing sent today'}</strong>
-          <span style={{ fontSize: 13.5, color: 'var(--muted)' }}>
-            {link.known ? `Earth knows your status as of ${new Date(link.known.sentAt).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}.` : 'The ground knows nothing about today yet.'} {D.formatDelay(link.delay)} each way.
-          </span>
-          <button type="button" onClick={() => go('escalation')} style={{ justifySelf: 'start', minHeight: 36, padding: '0 12px', borderRadius: 10, border: '1.5px solid var(--ink)', background: 'var(--panel)', color: 'var(--ink)', fontWeight: 700, cursor: 'pointer' }}>
-            Open Escalate
+          <p style={kicker}>Your progress</p>
+          <div style={{ display: 'grid', gap: 4 }}>
+            <span style={{ fontSize: 13.5 }}>
+              Level {lvl.n} · {lvl.rank} · {lvl.need - lvl.into} XP to level {lvl.n + 1}
+            </span>
+            <div role="progressbar" aria-label="Level progress" aria-valuemin={0} aria-valuemax={100} aria-valuenow={Math.round(lvl.frac * 100)} style={{ height: 8, borderRadius: 99, background: 'var(--paper-deep)', overflow: 'hidden' }}>
+              <div style={{ width: `${lvl.frac * 100}%`, height: '100%', background: '#f6c445' }} />
+            </div>
+          </div>
+          <span style={{ fontSize: 13.5 }}>Crew weekly goal: {Math.round(cg.frac * 100)}%</span>
+          <button type="button" onClick={() => go('progress')} style={{ justifySelf: 'start', minHeight: 36, padding: '0 12px', borderRadius: 10, border: '1.5px solid var(--ink)', background: 'var(--panel)', color: 'var(--ink)', fontWeight: 700, cursor: 'pointer' }}>
+            Rewards and locker
           </button>
         </div>
       </section>
 
-      {/* Row: patterns and gaps, hazards, radiation, food and water */}
-      <section style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 300px), 1fr))', gap: 14 }}>
-        <div style={card}>
-          <p style={kicker}>Patterns and gaps</p>
-          {pats.length === 0 && gaps.length === 0 && <span style={{ fontSize: 14.5, color: 'var(--muted)' }}>Nothing moving the wrong way together.</span>}
-          {pats.map((p) => (
-            <span key={p.id} style={{ fontSize: 14.5 }}>
-              <strong style={{ color: TONE[p.status] }}>{WORD[p.status]}</strong> {p.title} · next step {p.rungName}
-            </span>
-          ))}
-          {gaps.map((x) => (
-            <span key={x.id} style={{ fontSize: 14 }}>
-              You rated your {x.rated.label} {x.rated.value}/10, but {x.measured[0].text}.
-            </span>
-          ))}
-          <button type="button" onClick={() => go('bodymap')} style={{ justifySelf: 'start', minHeight: 36, padding: '0 12px', borderRadius: 10, border: '1.5px solid var(--ink)', background: 'var(--panel)', color: 'var(--ink)', fontWeight: 700, cursor: 'pointer' }}>
-            Care plans on the body map
-          </button>
-        </div>
-
-        <div style={card}>
-          <p style={kicker}>The five hazards</p>
-          <div style={{ display: 'grid', gap: 6 }}>
-            {hz.map((h) => (
-              <span key={h.id} style={{ display: 'flex', justifyContent: 'space-between', gap: 8, fontSize: 14 }}>
-                <span>{h.name}</span>
-                <strong style={{ color: TONE[h.status] }}>{WORD[h.status]}</strong>
-              </span>
+      {/* Needs a look: only what is actually off, each linking to where it is handled */}
+      <section style={card}>
+        <p style={kicker}>Needs a look</p>
+        {look.length === 0 ? (
+          <span style={{ fontSize: 14.5, color: 'var(--muted)' }}>Nothing is off today. Patterns, the five hazards and your radiation budget are all within your usual.</span>
+        ) : (
+          <ul style={{ listStyle: 'none', margin: 0, padding: 0, display: 'grid', gap: 6 }}>
+            {look.map((x) => (
+              <li key={x.text} style={{ display: 'flex', alignItems: 'center', gap: 10, flexWrap: 'wrap' }}>
+                <strong style={{ color: TONE[x.status], minWidth: 54 }}>{WORD[x.status]}</strong>
+                <span style={{ flex: 1, minWidth: 200, fontSize: 14.5 }}>{x.text}</span>
+                <button type="button" onClick={() => go(x.to)} style={{ minHeight: 32, padding: '0 10px', borderRadius: 10, border: '1.5px solid var(--rule-strong)', background: 'var(--panel)', color: 'var(--ink)', fontWeight: 650, cursor: 'pointer', fontSize: 13 }}>
+                  {x.cta}
+                </button>
+              </li>
             ))}
-          </div>
-          <DoseBudget b={budget as never} />
-        </div>
-
-        <div style={card}>
-          <p style={kicker}>Food and water today</p>
-          <div style={{ display: 'flex', alignItems: 'baseline', gap: 6 }}>
-            <span style={{ fontSize: 34, fontWeight: 750, letterSpacing: '-0.04em' }}>{Number(water.water.toFixed(2))}</span>
-            <span style={{ color: 'var(--muted)' }}>of {water.goal} L</span>
-          </div>
-          <div role="progressbar" aria-label="Water today" aria-valuemin={0} aria-valuemax={100} aria-valuenow={Math.round(Math.min(1, water.water / water.goal) * 100)} style={{ height: 10, borderRadius: 99, background: 'var(--paper-deep)', overflow: 'hidden' }}>
-            <div style={{ width: `${Math.min(1, water.water / water.goal) * 100}%`, height: '100%', background: 'linear-gradient(90deg, #0b3d91, #4cc9f0)' }} />
-          </div>
-          <span style={{ fontSize: 14 }}>{water.meals.filter((m) => m !== 'snack').length} of 3 main meals logged</span>
-          <button type="button" onClick={() => go('manual')} style={{ justifySelf: 'start', minHeight: 36, padding: '0 12px', borderRadius: 10, border: '1.5px solid var(--ink)', background: 'var(--panel)', color: 'var(--ink)', fontWeight: 700, cursor: 'pointer' }}>
-            Log food and water
+          </ul>
+        )}
+        <span style={{ fontSize: 13, color: 'var(--muted)' }}>
+          Ground link: {link.known ? `Earth knows your status as of ${new Date(link.known.sentAt).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}` : 'nothing sent today'} · {D.formatDelay(link.delay)} each way ·{' '}
+          <button type="button" onClick={() => go('escalation')} style={{ border: 0, background: 'transparent', padding: 0, color: 'var(--accent)', textDecoration: 'underline', cursor: 'pointer', font: 'inherit' }}>
+            Escalate
           </button>
-        </div>
+        </span>
       </section>
     </main>
   )

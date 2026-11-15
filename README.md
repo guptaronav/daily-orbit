@@ -1,6 +1,6 @@
 # Daily Orbit
 
-**Thirty seconds a day keeps the crew flying.**
+**A minute a day keeps the crew flying.**
 
 Daily Orbit is a health monitoring app for astronauts on long missions. A one-minute "mirror check" uses the laptop camera to read pulse and blinking, then runs two quick vision tests and asks how you feel. Every reading is compared with **your own baseline**, never a population average. When it cannot get a clean reading, it says so instead of guessing. The body map shows what changed and what to do about it, and an escalation ladder tells you when to involve a crewmate, the crew medical officer or the flight surgeon.
 
@@ -45,7 +45,7 @@ Every requirement and suggestion in the challenge brief, where Daily Orbit answe
 | Screen | What it does |
 |---|---|
 | **Landing** | What the app is, a tour of the main features, the FAQ, setup, and the 60-second guided tour |
-| **Today** (home once set up) | The mission console: readiness (Ready / Check first / Not today) with its reasons, a living body figure whose heart beats at the measured heart rate and whose regions glow on open alerts, the next block on the schedule, today's mirror check, open alerts, patterns and self-report gaps, the five hazards, the career radiation budget, food and water, and the ground link |
+| **Today** (home once set up) | What to do today: readiness (Ready / Check first / Not today) with its reasons, a living body figure whose heart beats at the measured heart rate, the next block on the schedule, **today's goals** (the one list every coin, streak and level comes from), level and crew progress, and a short "needs a look" list that links to where each thing is handled |
 | **Mirror check** | About a minute of camera for pulse (remote photoplethysmography) and blinking, then an Amsler grid per eye, a near-vision test, and a symptom and gut check-in. It refuses a reading when light, framing or motion is bad and offers a retake |
 | **Body map** (header: Body) | Six body regions colored by their worst indicator. A zoomable X-ray tour, trend charts, and each indicator's five questions and recommended action |
 | **Five hazards** (on the body map) | NASA's five hazards of spaceflight, each colored by the readings its sourced text links to, with what it means on the current mission. The closed-environment tile shows simulated cabin CO₂ against NASA's limit |
@@ -64,6 +64,24 @@ Every requirement and suggestion in the challenge brief, where Daily Orbit answe
 **Guided tour:** the yellow "Take the 60-second tour" button on the landing page (or `?tour=1`) walks through eleven stops and fires live scenarios along the way.
 
 **Demo controls:** press **Shift+D** anywhere (or use the link on the landing page) to inject a scripted story into the selected crew member's data, then reset. Stories include a run of worse sleep, a fever with symptoms, a cabin CO2 build-up, and "says fine, measures tired" (a self-report gap).
+
+## Where everything lives
+
+Each thing has one home, so nothing is repeated across pages:
+
+| Page | What it is for |
+|---|---|
+| **Today** | What to do today: readiness, the next block, today's goals, progress, and what needs a look |
+| **Body** | How your body is: overall status, patterns with care plans, the five hazards (with radiation budget and cabin air), the X-ray tour and every reading |
+| **Schedule** | The whole day, role duties and your own blocks |
+| **Log** | Everything you type in: readings, food and water, the alertness check |
+| **Escalate** | Who to tell, the ground packet and the ground link |
+| **Crew** | Everyone at once and the alert loop, for the crew medical officer |
+| **Rewards** | Everything you have earned: streak, level, mission pass, badges, locker, and how coins are earned |
+
+The top bar always shows the mission, streak and coins; alerts appear under it on every page except Crew, where the full alert list is.
+
+**One goal list connects the game.** Today's goals (mirror check, exercise, water, a meal, plus bonus goals for the alertness check and reporting a symptom) are defined once. Today, the bottom dock and Rewards' "How coins are earned" all read that list, and every action that earns coins, anywhere, shows the same toast: what it was and how today's goals stand.
 
 ## How a reading becomes a color
 

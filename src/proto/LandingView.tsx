@@ -24,7 +24,7 @@ export function LandingView({ v }: { v: any }) {
                 </span>
               </p>
               <h1 id="hero-heading" style={S({ margin: '0', fontSize: 'clamp(48px, 7.4vw, 104px)', lineHeight: '.88', fontWeight: '800', letterSpacing: '-0.06em', animation: 'ld-rise 700ms 80ms cubic-bezier(.22,1,.36,1) both' })}>
-                Thirty seconds
+                A minute
                 <br />
                 a day keeps
                 <br />

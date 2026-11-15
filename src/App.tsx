@@ -19,6 +19,7 @@ import { TodayPage } from './proto/TodayPage'
 import { ReportPage } from './proto/ReportPage'
 import { Tour } from './proto/Tour'
 import { BootScreen } from './proto/BootScreen'
+import { GoalToast } from './proto/GoalToast'
 import { Radiation } from './screens/Radiation'
 import { Sources } from './screens/Sources'
 import { AppProvider, useApp } from './state/AppContext'
@@ -163,6 +164,7 @@ function Shell() {
       <Screen />
       <Tour />
       <BootScreen />
+      <GoalToast />
       <DemoPanel open={demoOpen} onClose={() => setDemoOpen(false)} />
     </>
   )

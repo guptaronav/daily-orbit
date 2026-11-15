@@ -256,3 +256,7 @@
   .report-page article { border: 0 !important; border-radius: 0 !important; padding: 0 !important; }
   @page { margin: 14mm; }
 }
+
+/* ---- Goals toast (GoalToast.tsx) ---- */
+@keyframes gt-in { 0% { opacity: 0; transform: translate(-50%, 14px) scale(.96) } 8%, 88% { opacity: 1; transform: translate(-50%, 0) } 100% { opacity: 0; transform: translate(-50%, -6px) } }
+@media (max-width: 900px) { .today-goals { grid-column: auto !important; } }

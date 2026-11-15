@@ -45,7 +45,6 @@ export class RewardsLogic extends DCLogic {
         const ww = D.wallet(id); ww.chestDay = today; D.saveWallet(id, ww)
         D.earn(id, reward, 'Daily supply drop')
         this.setState({ opening: false, burst: true })
-        this.say(`+${reward} coins from the supply drop`)
       }, 700)
     }
     const items = D.SHOP.filter((x) => x.slot === this.state.slot).map((it, i) => {
@@ -73,7 +72,7 @@ export class RewardsLogic extends DCLogic {
         anim: reached && !claimed ? 'rw-float 2s ease-in-out infinite' : 'none',
         claimable: reached && !claimed, static: !(reached && !claimed),
         rewardText: claimed ? 'Claimed' : `+${m.coins}`, rewardColor: claimed ? 'var(--muted)' : 'var(--ink)',
-        claim: () => { const ww = D.wallet(id); ww.claimed = [...(ww.claimed || []), m.days]; D.saveWallet(id, ww); D.earn(id, m.coins, `${m.days}-day streak`); this.say(`+${m.coins} coins for a ${m.days}-day streak`) },
+        claim: () => { const ww = D.wallet(id); ww.claimed = [...(ww.claimed || []), m.days]; D.saveWallet(id, ww); D.earn(id, m.coins, `${m.days}-day streak`) },
       }
     })
     const TIER = 120, sxp = Math.round(w.xp * 0.6), tierNow = Math.min(10, Math.floor(sxp / TIER))
@@ -90,7 +89,7 @@ export class RewardsLogic extends DCLogic {
         claim: () => {
           const ww = D.wallet(id); ww.pass = [...(ww.pass || []), n]
           if (item) { ww.owned = Array.from(new Set([...ww.owned, item.id])); D.saveWallet(id, ww); this.say(`Unlocked ${item.name}`) }
-          else { D.saveWallet(id, ww); D.earn(id, v, `Mission pass tier ${n}`); this.say(`+${v} coins from tier ${n}`) }
+          else { D.saveWallet(id, ww); D.earn(id, v, `Mission pass tier ${n}`) }
         },
       }
     })
@@ -118,13 +117,13 @@ export class RewardsLogic extends DCLogic {
       })),
       slots: D.SLOTS.map(([k, label]) => { const on = this.state.slot === k; return { label, on: String(on), pick: () => this.setState({ slot: k }), bg: on ? 'var(--panel)' : 'transparent', color: on ? 'var(--ink)' : 'var(--muted)', shadow: on ? '0 1px 2px rgba(20,24,31,.1), 0 4px 12px -6px rgba(20,24,31,.25)' : 'none' } }),
       slot: this.state.slot, items,
+      // One source: today's goals (D.todayTasks), then the earn-once extras. Never coins for a value.
       earnRows: [
-        { t: 'Mirror check', c: `+${D.POINTS.checkInComplete}`, icon: D.ICONS.scan },
-        { t: 'Log exercise, any amount', c: `+${D.POINTS.exerciseComplete}`, icon: D.ICONS.activity },
-        { t: 'Report something that feels off', c: `+${D.POINTS.symptomReported}`, icon: D.ICONS.alert },
+        ...D.todayTasks(id).map((g) => ({ t: g.optional ? `${g.label} (bonus goal)` : `${g.label} (daily goal)`, c: `+${g.points}`, icon: D.ICONS[g.icon] || D.ICONS.spark })),
         { t: 'Retake a reading the app could not trust', c: `+${D.POINTS.retakeAfterQualityFail}`, icon: D.ICONS.clock },
-        { t: 'Daily supply drop', c: '+10 to 30', icon: D.ICONS.award },
-        { t: 'Streak milestones at 3, 7, 14 and 30 days', c: '+25 to 400', icon: D.ICONS.flame },
+        { t: 'Daily supply drop', c: `+${D.chestReward()}`, icon: D.ICONS.award },
+        { t: 'Streak milestones at 3, 7, 14 and 30 days', c: `+${D.POINTS.streakMilestone} each`, icon: D.ICONS.flame },
+        { t: 'Find every discovery in a mission banner (gear coins only, once)', c: `+${D.SCENE_BONUS}`, icon: D.ICONS.spark },
       ],
       toast: this.state.toast, toastKey: this.state.toastKey,
     }

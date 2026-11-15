@@ -19,7 +19,7 @@ const crew = () => D.getState().crew.id as string
 
 const STOPS: Stop[] = [
   { screen: 'landing', anchor: 'h1', title: 'Daily Orbit in 60 seconds', body: 'A one-minute daily health check for astronauts. Every reading is compared with the person’s own usual, never a population average, and the app refuses to guess when a reading is unreliable.' },
-  { screen: 'today', anchor: '[role=status]', title: 'Today: the console you open first', body: 'Readiness with its reasons, the body figure beating at the measured heart rate, the next thing on the schedule, open alerts, the five hazards and the ground link, in one view.' },
+  { screen: 'today', anchor: '[role=status]', title: 'Today: the console you open first', body: 'Readiness with its reasons, the body figure beating at the measured heart rate, the next block on the schedule, and today’s goals: one list that every coin, streak and level in the app comes from.' },
   {
     screen: 'bodymap',
     anchor: '[aria-labelledby="patterns-heading"]',

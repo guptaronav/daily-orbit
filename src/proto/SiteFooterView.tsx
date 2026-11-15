@@ -26,26 +26,41 @@ export function SiteFooterView({ v }: { v: any }) {
             <span style={S({ fontSize: '13px', color: 'var(--muted)', marginBottom: '6px' })}>
               Screens
             </span>
+            <a href="Today.dc.html" style={S({ display: 'flex', alignItems: 'center', minHeight: '36px', fontSize: '14px', color: 'var(--ink)', textDecoration: 'none' })} className="sitefooterview-hover-1">
+              Today
+            </a>
             <a href="Body%20Map.dc.html" style={S({ display: 'flex', alignItems: 'center', minHeight: '36px', fontSize: '14px', color: 'var(--ink)', textDecoration: 'none' })} className="sitefooterview-hover-1">
-              Body map
+              Body
             </a>
-            <a href="Manual%20Entry.dc.html" style={S({ display: 'flex', alignItems: 'center', minHeight: '36px', fontSize: '14px', color: 'var(--ink)', textDecoration: 'none' })} className="sitefooterview-hover-2">
-              Manual entry
+            <a href="Schedule.dc.html" style={S({ display: 'flex', alignItems: 'center', minHeight: '36px', fontSize: '14px', color: 'var(--ink)', textDecoration: 'none' })} className="sitefooterview-hover-1">
+              Schedule
             </a>
-            <a href="Escalation.dc.html" style={S({ display: 'flex', alignItems: 'center', minHeight: '36px', fontSize: '14px', color: 'var(--ink)', textDecoration: 'none' })} className="sitefooterview-hover-3">
-              Escalation
+            <a href="Manual%20Entry.dc.html" style={S({ display: 'flex', alignItems: 'center', minHeight: '36px', fontSize: '14px', color: 'var(--ink)', textDecoration: 'none' })} className="sitefooterview-hover-1">
+              Log
             </a>
-            <a href="Medical%20View.dc.html" style={S({ display: 'flex', alignItems: 'center', minHeight: '36px', fontSize: '14px', color: 'var(--ink)', textDecoration: 'none' })} className="sitefooterview-hover-4">
-              Medical view
+            <a href="Escalation.dc.html" style={S({ display: 'flex', alignItems: 'center', minHeight: '36px', fontSize: '14px', color: 'var(--ink)', textDecoration: 'none' })} className="sitefooterview-hover-1">
+              Escalate
             </a>
-            <a href="Metrics.dc.html" style={S({ display: 'flex', alignItems: 'center', minHeight: '36px', fontSize: '14px', color: 'var(--ink)', textDecoration: 'none' })} className="sitefooterview-hover-5">
+            <a href="Medical%20View.dc.html" style={S({ display: 'flex', alignItems: 'center', minHeight: '36px', fontSize: '14px', color: 'var(--ink)', textDecoration: 'none' })} className="sitefooterview-hover-1">
+              Crew
+            </a>
+            <a href="Rewards.dc.html" style={S({ display: 'flex', alignItems: 'center', minHeight: '36px', fontSize: '14px', color: 'var(--ink)', textDecoration: 'none' })} className="sitefooterview-hover-1">
+              Rewards
+            </a>
+            <a href="Report.dc.html" style={S({ display: 'flex', alignItems: 'center', minHeight: '36px', fontSize: '14px', color: 'var(--ink)', textDecoration: 'none' })} className="sitefooterview-hover-1">
+              Weekly report
+            </a>
+            <a href="Mirror.dc.html" style={S({ display: 'flex', alignItems: 'center', minHeight: '36px', fontSize: '14px', color: 'var(--ink)', textDecoration: 'none' })} className="sitefooterview-hover-1">
+              Mirror check
+            </a>
+            <a href="Radiation.dc.html" style={S({ display: 'flex', alignItems: 'center', minHeight: '36px', fontSize: '14px', color: 'var(--ink)', textDecoration: 'none' })} className="sitefooterview-hover-1">
+              Radiation
+            </a>
+            <a href="Metrics.dc.html" style={S({ display: 'flex', alignItems: 'center', minHeight: '36px', fontSize: '14px', color: 'var(--ink)', textDecoration: 'none' })} className="sitefooterview-hover-1">
               Metrics
             </a>
-            <a href="Rewards.dc.html" style={S({ display: 'flex', alignItems: 'center', minHeight: '36px', fontSize: '14px', color: 'var(--ink)', textDecoration: 'none' })} className="sitefooterview-hover-6">
-              Rewards and locker
-            </a>
-            <a href="Onboarding.dc.html" style={S({ display: 'flex', alignItems: 'center', minHeight: '36px', fontSize: '14px', color: 'var(--ink)', textDecoration: 'none' })} className="sitefooterview-hover-7">
-              Set up
+            <a href="Sources.dc.html" style={S({ display: 'flex', alignItems: 'center', minHeight: '36px', fontSize: '14px', color: 'var(--ink)', textDecoration: 'none' })} className="sitefooterview-hover-1">
+              Sources
             </a>
           </nav>
           <div style={S({ display: 'flex', flexDirection: 'column', gap: '10px' })}>

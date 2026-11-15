@@ -1,6 +1,7 @@
 import { useEffect, useReducer, useState } from 'react'
 import { RENOTIFY_MS } from '../lib/alerts'
 import * as D from './data'
+import { useApp } from '../state/AppContext'
 import { bridge } from './store'
 
 /*
@@ -45,12 +46,14 @@ function useAlerts() {
 
 export function AlertBanner() {
   const list = useAlerts()
+  const { screen } = useApp()
   const open = list.filter((a) => a.state === 'open')
   useEffect(() => {
     const base = document.title.replace(/^\(\d+\) /, '')
     document.title = open.length ? `(${open.length}) ${base}` : base
   }, [open.length])
-  if (!open.length) return null
+  // On the Crew page the full alerts panel is right there, so the banner would only repeat it.
+  if (!open.length || screen === 'medical') return null
   const oldest = Math.min(...open.map((a) => a.firstSeen))
   // Each re-announce period gets a new key, which replays the attention animation.
   const pulse = Math.floor((Date.now() - oldest) / RENOTIFY_MS)

@@ -16,7 +16,6 @@ export function MedicalView({ v }: { v: any }) {
       <div data-chm-root="1" style={S({ '--ink': '#14181f', '--ink-soft': '#2b323d', '--paper': '#f3f1ea', '--paper-deep': '#e8e4d8', '--panel': '#fbfaf6', '--panel-2': '#f6f4ec', '--rule': '#d9d4c4', '--rule-strong': '#a49c88', '--muted': '#5b6270', '--accent': '#0b3d91', '--accent-wash': '#e4e9f3', '--ok': '#2f7d4f', '--ok-ink': '#1b5b33', '--watch': '#b7791f', '--watch-ink': '#7a4f00', '--act': '#b3261e', '--act-ink': '#8c1d18', '--nodata': '#8a8f98', '--nodata-ink': '#5b6270', '--on-accent': '#ffffff', '--star-o': '0', '--glow': 'none', minHeight: '100vh', display: 'flex', flexDirection: 'column', background: 'var(--paper)', color: 'var(--ink)', fontFamily: 'ui-sans-serif, system-ui, -apple-system, \'Segoe UI\', Roboto, sans-serif', fontVariantNumeric: 'tabular-nums' })}>
         <P.TopBar current="Medical view" />
         <main id="main" tabIndex={-1} style={S({ flex: '1', width: '100%', maxWidth: '1440px', margin: '0 auto', padding: '28px clamp(16px, 3vw, 32px) 72px', boxSizing: 'border-box', outline: 'none', display: 'flex', flexDirection: 'column', gap: '24px' })}>
-          <AlertsPanel />
           <div style={S({ display: 'flex', flexWrap: 'wrap', alignItems: 'stretch', gap: '20px' })}>
             <div style={S({ flex: '2 1 520px', display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', gap: '14px', padding: '8px 0', animation: 'cr-rise 520ms cubic-bezier(.22,1,.36,1) both' })}>
               <p style={S({ margin: '0', fontSize: '14px', color: 'var(--muted)' })}>
@@ -40,48 +39,8 @@ export function MedicalView({ v }: { v: any }) {
                   ))}
               </div>
             </div>
-            <section aria-label="Crew weekly goal" style={S({ flex: '1 1 320px', display: 'flex', alignItems: 'center', gap: '22px', padding: '24px', borderRadius: '28px', background: '#14181f', color: '#f3f1ea', animation: 'cr-rise 520ms 80ms cubic-bezier(.22,1,.36,1) both' })}>
-              <span style={S({ position: 'relative', display: 'grid', placeItems: 'center', flexShrink: '0', width: '120px', height: '120px' })}>
-                <svg width="120" height="120" viewBox="0 0 120 120" aria-hidden="true" style={S({ position: 'absolute', inset: '0', transform: 'rotate(-90deg)' })}>
-                  <circle cx="60" cy="60" r="50" fill="none" stroke="rgba(243,241,234,.15)" strokeWidth="12">
-                  </circle>
-                  <circle cx="60" cy="60" r="50" fill="none" stroke="#f6c445" strokeWidth="12" strokeLinecap="round" strokeDasharray={v.goalDash} style={S({ transition: 'stroke-dasharray 1s cubic-bezier(.22,1,.36,1)' })}>
-                  </circle>
-                </svg>
-                <span style={S({ fontSize: '28px', fontWeight: '800', letterSpacing: '-0.03em' })}>
-                  {v.goalPct}
-                </span>
-              </span>
-              <div style={S({ minWidth: '0' })}>
-                <p style={S({ margin: '0', fontSize: '13.5px', opacity: '.72' })}>
-                  Crew weekly goal
-                </p>
-                <p style={S({ margin: '4px 0 0', fontSize: '26px', fontWeight: '750', letterSpacing: '-0.03em', whiteSpace: 'nowrap' })}>
-                  {v.goalWeek}
-                  <span style={S({ fontSize: '15px', fontWeight: '500', opacity: '.7' })}>
-                    / {v.goalTarget}
-                  </span>
-                </p>
-                <p style={S({ margin: '8px 0 0', fontSize: '13.5px', lineHeight: '1.45', opacity: '.8' })}>
-                  {v.systemsText}
-                </p>
-                <p style={S({ margin: '10px 0 0', display: 'flex', flexWrap: 'wrap', gap: '4px 14px', fontSize: '13.5px', whiteSpace: 'nowrap' })}>
-                  <span>
-                    <span style={S({ fontWeight: '750' })}>
-                      {v.nCrew}
-                    </span>
-                    crew
-                  </span>
-                  <span>
-                    <span style={S({ fontWeight: '750', color: '#f6c445' })}>
-                      {v.nAttn}
-                    </span>
-                    outside baseline
-                  </span>
-                </p>
-              </div>
-            </section>
           </div>
+          <AlertsPanel />
           <ul style={S({ listStyle: 'none', margin: '0', padding: '0', display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(min(100%, 300px), 1fr))', gap: '20px' })}>
             {(v.views ?? []).map((v: any, v_i: number) => (
                 <Fragment key={v_i}>
