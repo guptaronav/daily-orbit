@@ -16,6 +16,8 @@ next to its siblings below, and reuse the shared pieces instead of copying them.
   changes), `useCrewId()`, `timeAgo()`, `painColor()`. Use them instead of copying the code.
 - **Medical text is never written in a component.** It comes from `src/content/indicators.json`,
   and every field is listed against a source in `src/content/sources.json`.
+- **Long pages use section tabs** (`Sections.tsx`): `openSection('body', 'hazards')` or
+  `openSection('log', 'food')` opens a page on the right tab, so buttons land exactly where things are done.
 - **Rules and maths are in `src/lib/`**, pure and tested. Screens only call them.
 - **Escalation is built in, not a destination.** "What should I do?" is `escalationAdvice()` in
   `data.ts`, shown by `EscalationAdvice.tsx` inside Ask Orbit. Any "who to tell" button calls
@@ -28,10 +30,10 @@ next to its siblings below, and reuse the shared pieces instead of copying them.
 
 | Tab or link | Screen file | What it holds |
 |---|---|---|
-| Today | `proto/TodayPage.tsx` | Mirror-check call to action, stats, readiness, live body, your day, goals, your week, needs a look, body-check shortcuts, ground link |
+| Today | `proto/TodayPage.tsx` | Three parts: hello with the one next thing to do and readiness (plus the live body); today's goals and your day; one "needs your attention" list |
 | Check in | `screens/mirror/` | The camera mirror check |
-| Log | `proto/ManualView.tsx` | Food and water (`FoodWater.tsx`), alertness test (`ReactionTest.tsx`), body checks (`BodyChecks.tsx`), manual forms |
-| Body | `proto/BodyMapView.tsx` | Body figure, patterns (`PatternsPanel.tsx`), five hazards (`HazardsPanel.tsx`), region details |
+| Log | `proto/ManualView.tsx` | Tabs: Readings (manual forms), Food and water (`FoodWater.tsx`), Alertness (`ReactionTest.tsx`), Body checks (`BodyChecks.tsx`) |
+| Body | `proto/BodyMapView.tsx` | Tabs: Body tour, Readings (region details), Patterns (`PatternsPanel.tsx`), Five hazards (`HazardsPanel.tsx`) |
 | Crew | `proto/MedicalView.tsx` | Alerts (`Alerts.tsx`, `AlertCare.tsx`), the medical officer and backup, crew cards |
 | Rewards | `proto/RewardsView.tsx` | Mission pass, this week, sets and levels (`RewardsExtras.tsx`), locker, badges |
 | Report icon | `proto/ReportPage.tsx` | The weekly report, print and CSV (button: `ReportButton.tsx`) |

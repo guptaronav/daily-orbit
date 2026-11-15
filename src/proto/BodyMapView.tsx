@@ -9,6 +9,7 @@ import * as D from './data'
 import * as P from './parts'
 import { S } from './parts'
 import { openEscalation } from './EscalationAdvice'
+import { BodyTabs, Section } from './Sections'
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export function BodyMapView({ v }: { v: any }) {
@@ -70,8 +71,14 @@ export function BodyMapView({ v }: { v: any }) {
             </section>
             </>
           ) : null}
-          <PatternsPanel />
-          <HazardsPanel />
+          <BodyTabs />
+          <Section page="body" id="patterns">
+            <PatternsPanel />
+          </Section>
+          <Section page="body" id="hazards">
+            <HazardsPanel />
+          </Section>
+          <Section page="body" id="tour">
           <section data-reveal="1" aria-labelledby="tour-heading" style={S({ position: 'relative' })}>
             <div style={S({ display: 'flex', flexWrap: 'wrap', alignItems: 'flex-end', justifyContent: 'space-between', gap: '12px 24px', margin: '18px 0 20px' })}>
               <div>
@@ -423,6 +430,8 @@ export function BodyMapView({ v }: { v: any }) {
               </div>
             </div>
           </section>
+          </Section>
+          <Section page="body" id="readings">
           <section data-reveal="1" aria-labelledby="region-heading" style={S({ marginTop: '12px', display: 'flex', flexDirection: 'column', gap: '18px' })}>
             <div style={S({ display: 'flex', flexWrap: 'wrap', alignItems: 'flex-end', justifyContent: 'space-between', gap: '16px' })}>
               <div>
@@ -684,6 +693,7 @@ export function BodyMapView({ v }: { v: any }) {
                 ))}
             </div>
           </section>
+          </Section>
         </main>
         <P.SiteFooter dock={true} />
         <P.CrewDock current="Body map" />

@@ -2,6 +2,7 @@ import { useCallback, useEffect, useState } from 'react'
 import { runScenario } from './scenarios'
 import * as D from './data'
 import { bridge } from './store'
+import { setSection } from './Sections'
 
 /*
  * The 60-second guided tour. Each stop opens a screen, scrolls to one feature, outlines it, and
@@ -89,6 +90,8 @@ export function Tour() {
     const stop = STOPS[i]
     let el: Element | null = null
     let cancelled = false
+    if (stop.screen === 'bodymap') setSection('body', stop.anchor.includes('patterns') ? 'patterns' : stop.anchor.includes('hazards') ? 'hazards' : 'tour')
+    if (stop.screen === 'manual') setSection('log', stop.anchor.includes('bodychecks') ? 'checks' : stop.anchor.includes('rt-') ? 'alertness' : 'readings')
     bridge.go?.(stop.screen as never)
     if (stop.anchor === '#ask-orbit') window.dispatchEvent(new Event('orbit:open'))
     // Give the new screen a moment to replace the old one, so we never outline a heading that is about to vanish.

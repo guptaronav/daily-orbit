@@ -4,6 +4,7 @@
 import React from 'react'
 import * as D from '../data'
 import { DCLogic, navigate } from '../dc'
+import { setSection } from '../Sections'
 
 export class BodyMapLogic extends DCLogic {
   state = { s: null, sel: null, band: true, markers: true, scan: false, hover: null, faq: {}, range: 14, tour: 'head', hoverInd: null, narrow: false }
@@ -224,7 +225,7 @@ export class BodyMapLogic extends DCLogic {
           const big = this.state.hoverInd === r.id
           return { label: r.label, method: METHOD[r.id], value: r.latest ? D.fmt(r) : '—', unit: r.latest ? D.fmtUnit(r) : '', valColor: r.latest ? 'var(--ink)' : 'var(--nodata-ink)', note, ink: ST[r.status].ink, spark: sp.d, sparkColor: r.status === 'gray' ? 'var(--rule-strong)' : ST[r.status].swatch, border: big ? 'var(--ink)' : 'var(--rule)', tf: big ? 'translateX(4px)' : 'none', enter: () => { if (this.state.tour !== g.id) this.setState({ tour: g.id }); this.setState({ hoverInd: r.id }) } }
         }),
-        open: () => { select(g.id); const h = document.getElementById('region-heading'); if (h) window.scrollTo({ top: h.getBoundingClientRect().top + scrollY - 100, behavior: 'smooth' }) },
+        open: () => { select(g.id); setSection('body', 'readings'); const h = document.getElementById('region-heading'); if (h) window.scrollTo({ top: h.getBoundingClientRect().top + scrollY - 100, behavior: 'smooth' }) },
         href2: flaggedHere ? '#who' : 'Manual%20Entry.dc.html', cta2: flaggedHere ? 'Who to tell' : 'Log a reading',
       }
     })
@@ -263,7 +264,7 @@ export class BodyMapLogic extends DCLogic {
       goalWeek: goal.week, goalTarget: goal.goal, goalPct: Math.round(goal.frac * 100) + '%', goalPctNum: Math.round(goal.frac * 100),
       nextSystem: next ? `${next.name} at ${next.threshold} pts` : 'All systems online',
       hasFlag: flagged.length > 0, flagTitle: flagged.length ? `${flagged.map((r) => r.label).join(' and ')} moved away from ${s.crew.name}’s normal` : '',
-      openFlagLabel: flagged.length ? `Open ${flagged[0].label.toLowerCase()}` : '', openFlag: () => flagged[0] && select(flagged[0].id),
+      openFlagLabel: flagged.length ? `Open ${flagged[0].label.toLowerCase()}` : '', openFlag: () => { if (!flagged[0]) return; select(flagged[0].id); setSection('body', 'readings'); setTimeout(() => window.scrollTo({ top: 0, behavior: 'smooth' }), 30) },
       toggles: [tog('band', 'Baseline band'), tog('markers', 'Pulse on alerts'), tog('scan', 'Scan line')],
       leftCallouts: ['head', 'heart', 'skeleton'].map(callout), rightCallouts: ['eyes', 'body', 'gut'].map(callout),
       legend: ['green', 'yellow', 'red', 'gray'].map((k) => ({ word: k === 'gray' ? 'No good data' : ST[k].label, bg: chip(k), ink: ST[k].ink })),

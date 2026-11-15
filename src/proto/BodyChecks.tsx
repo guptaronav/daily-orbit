@@ -2,9 +2,9 @@ import { useEffect, useRef, useState } from 'react'
 import { BodyFigureMap } from './BodyFigureMap'
 import { getContent } from '../lib/content'
 import * as D from './data'
-import { bridge } from './store'
 import { painColor, useCrewId } from './shared'
 import { openEscalation } from './EscalationAdvice'
+import { openSection } from './Sections'
 
 /*
  * Body checks: four short checks that cover what the camera and the daily forms do not.
@@ -28,7 +28,7 @@ export function openBodyCheck(tab: Tab) {
   } catch {
     // Opens on the first tab instead.
   }
-  bridge.go?.('manual' as never)
+  openSection('log', 'checks')
 }
 
 const card = { borderRadius: 18, background: 'var(--panel-2)', padding: 16, display: 'grid', gap: 12, alignContent: 'start' } as const
