@@ -330,3 +330,6 @@
 /* Locker: one sideways row of items, snapping card by card */
 .locker-strip > li { scroll-snap-align: start; }
 .locker-strip { scrollbar-width: thin; scrollbar-color: var(--rule-strong) transparent; }
+
+/* Tour: the auto-play hold bar */
+@keyframes tour-dwell { from { width: 0 } to { width: 100% } }

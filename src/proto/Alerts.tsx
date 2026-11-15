@@ -3,6 +3,7 @@ import { RENOTIFY_MS } from '../lib/alerts'
 import * as D from './data'
 import { useApp } from '../state/AppContext'
 import { bridge } from './store'
+import { AlertActionCard, MedicalOfficerSetting, ResolvedAlerts } from './AlertCare'
 
 /*
  * The alert loop on screen. AlertBanner sits under the top bar on every page while any alert is
@@ -58,6 +59,8 @@ export function AlertBanner() {
   // Each re-announce period gets a new key, which replays the attention animation.
   const pulse = Math.floor((Date.now() - oldest) / RENOTIFY_MS)
   const red = open.some((a) => a.status === 'red')
+  const cmo = D.medicalOfficer() as { activeName: string; unwell: boolean }
+  const worstEsc = Math.max(0, ...open.map((a) => (D.alertEscalation(a) as { level: number }).level))
   return (
     <div style={{ pointerEvents: 'auto', maxWidth: 1440, margin: '8px auto 0', padding: '0 4px' }}>
       <div
@@ -67,7 +70,8 @@ export function AlertBanner() {
       >
         <span aria-hidden="true" style={{ width: 10, height: 10, borderRadius: 99, background: 'var(--paper)', animation: 'ms-twinkle 1.2s ease-in-out infinite' }} />
         <strong style={{ fontSize: 14.5 }}>
-          {open.length} alert{open.length === 1 ? '' : 's'} waiting for the crew medical officer
+          {open.length} alert{open.length === 1 ? '' : 's'} waiting for {cmo.activeName || 'the crew medical officer'}
+          {cmo.unwell ? ' (backup medical officer)' : ''}
         </strong>
         <span style={{ fontSize: 13.5, opacity: 0.9 }}>
           {open
@@ -75,6 +79,7 @@ export function AlertBanner() {
             .map((a) => `${a.crewName}: ${a.title}`)
             .join(' · ')}
           {open.length > 2 ? ` · +${open.length - 2} more` : ''} · oldest {ago(oldest)}
+          {worstEsc === 2 ? ' · unanswered over an hour: time to tell Earth' : worstEsc === 1 ? ' · the backup has been asked too' : ''}
         </span>
         <button type="button" onClick={() => bridge.go?.('medical' as never)} style={{ marginLeft: 'auto', minHeight: 36, padding: '0 14px', borderRadius: 10, border: 0, background: '#fff', color: '#14181f', fontWeight: 750, cursor: 'pointer' }}>
           Review
@@ -100,6 +105,29 @@ function AlertRow({ a }: { a: Alert }) {
         </span>
       </div>
       <p style={{ margin: 0, fontSize: 13.5, color: 'var(--ink-soft)' }}>{a.detail}</p>
+      {(() => {
+        const e = D.alertEscalation(a) as { level: number; text: string }
+        if (!e.level) return null
+        return (
+          <div role="status" style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: 8, padding: '8px 12px', borderRadius: 12, background: e.level === 2 ? 'var(--act)' : 'rgba(183,121,31,.14)', color: e.level === 2 ? 'var(--paper)' : 'var(--ink)', fontSize: 13.5, fontWeight: 650 }}>
+            <span>{e.text}</span>
+            {e.level === 2 && (
+              <button type="button" onClick={() => bridge.go?.('escalation' as never)} style={{ marginLeft: 'auto', minHeight: 32, padding: '0 12px', borderRadius: 10, border: 0, background: '#fff', color: '#14181f', fontWeight: 750, cursor: 'pointer' }}>
+                Open Escalate
+              </button>
+            )}
+          </div>
+        )
+      })()}
+      {a.state === 'open' && <AlertActionCard a={a} />}
+      {a.state === 'acknowledged' && (
+        <details>
+          <summary style={{ cursor: 'pointer', fontSize: 13.5, fontWeight: 650 }}>What to do</summary>
+          <div style={{ marginTop: 8 }}>
+            <AlertActionCard a={a} />
+          </div>
+        </details>
+      )}
       {a.note && (
         <p style={{ margin: 0, fontSize: 13.5, padding: '8px 10px', borderRadius: 10, background: 'var(--panel-2)' }}>
           <strong>Note: </strong>
@@ -156,8 +184,9 @@ export function AlertsPanel() {
         <h2 id="alerts-heading" style={{ margin: 0, fontSize: 'clamp(20px, 2.2vw, 26px)', fontWeight: 750, letterSpacing: '-0.03em' }}>
           Alerts for the crew medical officer
         </h2>
-        <span style={{ fontSize: 13, color: 'var(--muted)' }}>Each stays open until acknowledged, and only clears with a note. A new reading reopens it.</span>
+        <span style={{ fontSize: 13, color: 'var(--muted)' }}>Each stays open until acknowledged and clears with a note, or by itself once readings are back within usual. Unanswered ones climb the ladder.</span>
       </div>
+      <MedicalOfficerSetting />
       {active.length === 0 ? (
         <p style={{ margin: 0, fontSize: 15, color: 'var(--muted)' }}>No open alerts.</p>
       ) : (
@@ -177,6 +206,7 @@ export function AlertsPanel() {
           </ul>
         </details>
       )}
+      <ResolvedAlerts />
     </section>
   )
 }

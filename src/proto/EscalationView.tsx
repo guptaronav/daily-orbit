@@ -4,6 +4,7 @@
 // Edit the view model that feeds this, not this markup, unless you are re-porting the prototype.
 import { Fragment } from 'react'
 import { GroundLinkPanel } from './GroundLink'
+import { ShareChoices } from './ShareChoices'
 import * as P from './parts'
 import { S } from './parts'
 
@@ -201,6 +202,7 @@ export function EscalationView({ v }: { v: any }) {
                 </div>
               </div>
               <div style={S({ padding: '22px 20px', borderTop: '1px solid var(--rule)', background: 'var(--paper-deep)' })}>
+                <ShareChoices withheld={v.withheld || 0} />
                 <div aria-hidden="true" style={S({ display: 'flex', alignItems: 'center', gap: '14px' })}>
                   <span style={S({ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '4px', fontSize: '11.5px', color: 'var(--muted)' })}>
                     <span style={S({ width: '12px', height: '12px', border: '1px solid var(--accent)', transform: 'rotate(45deg)' })}>

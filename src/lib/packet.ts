@@ -27,9 +27,12 @@ export type Packet = {
   /** Size of `json` on the wire, in bytes. */
   bytes: number
   json: string
+  /** Changes kept onboard because the crew member chose not to share that kind of reading. */
+  withheld: number
 }
 
-type Input = { crewId: string; measurements: readonly Measurement[]; now: Date }
+/** `include` lets the crew member keep some kinds of reading onboard; those are counted, never sent. */
+type Input = { crewId: string; measurements: readonly Measurement[]; now: Date; include?: (indicator: Indicator) => boolean }
 
 const round = (n: number, places = 1): number => {
   const f = 10 ** places
@@ -67,15 +70,20 @@ function deviationSinceDays(history: readonly Measurement[], now: Date): number 
  * is anything with no good data or no deviation — a packet with nothing in it is the normal case.
  * Nothing here is a clinical judgement; the JSON carries that disclaimer with it.
  */
-export function buildPacket({ crewId, measurements, now }: Input): Packet {
+export function buildPacket({ crewId, measurements, now, include }: Input): Packet {
   const readings = readAll(measurements)
   const changed: PacketChange[] = []
+  let withheld = 0
 
   for (const indicator of INDICATORS) {
     const r = readings[indicator]
     if (r.status !== 'yellow' && r.status !== 'red') continue
     const latest = r.latest
     if (!latest || typeof latest.value !== 'number' || !r.baseline) continue
+    if (include && !include(indicator)) {
+      withheld++
+      continue
+    }
 
     const from = r.baseline.mean
     const to = latest.value
@@ -101,12 +109,13 @@ export function buildPacket({ crewId, measurements, now }: Input): Packet {
       basis: "Deviation from this crew member's own 30-day baseline (mean ± SD), not a clinical threshold.",
       disclaimer: 'Prototype. Not a medical device.',
       changed,
+      ...(withheld ? { withheldByCrewChoice: withheld } : {}),
     },
     null,
     2,
   )
 
-  return { changed, bytes: new TextEncoder().encode(json).length, json }
+  return { changed, bytes: new TextEncoder().encode(json).length, json, withheld }
 }
 
 export const packetFilename = (crewId: string, now: Date): string => `health-packet-${crewId}-${now.toISOString().slice(0, 10)}.json`

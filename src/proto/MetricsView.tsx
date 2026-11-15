@@ -3,6 +3,7 @@
 // GENERATED from the UI overhaul prototype by dc2jsx.py. Styles are the prototype's, verbatim.
 // Edit the view model that feeds this, not this markup, unless you are re-porting the prototype.
 import { Fragment } from 'react'
+import { ModelCard } from './ModelCard'
 import { ValidationCard } from './ValidationCard'
 import * as P from './parts'
 import { S } from './parts'
@@ -38,6 +39,7 @@ export function MetricsView({ v }: { v: any }) {
             </section>
           </div>
           <ValidationCard />
+          <ModelCard />
           <div style={S({ marginTop: '32px', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 560px), 1fr))', gap: '24px', alignItems: 'start' })}>
             {(v.panels ?? []).map((p: any, p_i: number) => (
                 <Fragment key={p_i}>

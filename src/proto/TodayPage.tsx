@@ -5,6 +5,7 @@ import { useGroundLink } from './GroundLink'
 import * as D from './data'
 import * as P from './parts'
 import { bridge, getSnapshot } from './store'
+import { AlertActionCard } from './AlertCare'
 
 /*
  * Today: what to do today. Readiness and its reasons, the living body figure, the next block on
@@ -69,7 +70,10 @@ export function TodayPage() {
     ...gaps.map((x) => ({ status: 'yellow', text: `You rated your ${x.rated.label} ${x.rated.value}/10, but ${x.measured[0].text}`, to: 'bodymap', cta: 'See why' })),
     ...hz.filter((h) => h.status === 'yellow' || h.status === 'red').map((h) => ({ status: h.status, text: `${h.name} hazard`, to: 'bodymap', cta: 'Five hazards' })),
     ...(budget.status !== 'green' ? [{ status: budget.status, text: `Career radiation dose ${Math.round(budget.used)} of ${budget.limit} mSv`, to: 'bodymap', cta: 'Radiation' }] : []),
+    ...(D.slideForecasts(crew.id) as { label: string; status: string; text: string; outside: boolean }[]).filter((f) => f.status !== 'red').map((f) => ({ status: 'yellow', text: `${f.label}: ${f.text}`, to: 'bodymap', cta: 'See the trend' })),
   ]
+  const stale = D.staleReadings(crew.id) as { id: string; label: string; days: number; go: string }[]
+  const myAlert = (D.alerts() as { crewId: string; state: string; status: string; title: string }[]).find((a) => a.crewId === crew.id && a.state !== 'closed')
 
   const g = D.game(crew.id) as { streak: number; shields: number; best: number; month: number[] }
   const earned = D.COIN_CAP - D.capRoom(crew.id)
@@ -256,9 +260,15 @@ export function TodayPage() {
 
       {/* Row: needs a look, quick actions, and what Earth can see */}
       <section style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 300px), 1fr))', gap: 14 }}>
-        <div style={card}>
+        <div style={card} data-tour="needs-look">
           <p style={kicker}>Needs a look</p>
-          {look.length === 0 ? (
+          {myAlert && (
+            <div style={{ display: 'grid', gap: 6 }}>
+              <strong style={{ fontSize: 14.5, color: myAlert.status === 'red' ? 'var(--act-ink)' : 'var(--watch-ink)' }}>Your alert: {myAlert.title}</strong>
+              <AlertActionCard a={myAlert as never} compact />
+            </div>
+          )}
+          {look.length === 0 && !myAlert ? (
             <div style={{ display: 'flex', gap: 10, alignItems: 'center' }}>
               <span aria-hidden="true" style={{ display: 'grid', placeItems: 'center', width: 34, height: 34, flex: '0 0 auto', borderRadius: 99, background: 'rgba(47,125,79,.12)', color: 'var(--ok-ink)', fontWeight: 800 }}>
                 ✓
@@ -277,6 +287,17 @@ export function TodayPage() {
                 </li>
               ))}
             </ul>
+          )}
+          {stale.length > 0 && (
+            <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: 10, padding: '8px 10px', borderRadius: 12, border: '1px dashed var(--rule-strong)' }}>
+              <span style={{ flex: '1 1 200px', fontSize: 13.5 }}>
+                <strong>Getting old:</strong> {stale.slice(0, 3).map((x) => `${x.label} (${x.days} days)`).join(', ')}
+                {stale.length > 3 ? ` and ${stale.length - 3} more` : ''}. A fresh reading keeps your baseline honest, and logging it earns coins.
+              </span>
+              <button type="button" onClick={() => go(stale[0].go)} style={{ minHeight: 32, padding: '0 10px', borderRadius: 10, border: '1.5px solid var(--ink)', background: 'var(--panel)', color: 'var(--ink)', fontWeight: 700, cursor: 'pointer', fontSize: 13 }}>
+                Refresh
+              </button>
+            </div>
           )}
         </div>
 
