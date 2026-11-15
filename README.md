@@ -190,7 +190,7 @@ Built with React 19, TypeScript, Vite, Dexie (IndexedDB) and MediaPipe Face Land
 
 | Name | Role |
 |---|---|
-| **Ronav Gupta** | Team lead: webcam mirror check, heart-rate and blink signal code, scoring, data layer |
-| **Arnav Jain** | Design and front end: every screen, body checks, escalation, rewards and mission banners |
-| **Evode Manirahari** | NASA data and research: bed-rest import, radiation replay, Sources screen |
-| **Jingbo Xia** | Presentation and pitch |
+| **[Ronav Gupta](https://github.com/guptaronav)** | Team lead: webcam mirror check, heart-rate and blink signal code, scoring, data layer |
+| **[Arnav Jain](https://github.com/arnavjain415)** | Design and front end: every screen, body checks, escalation, rewards and mission banners |
+| **[Evode Manirahari](https://github.com/Evode-Manirahari)** | NASA data and research: bed-rest import, radiation replay, Sources screen |
+| **[Jingbo Xia](https://github.com/Lemonz-13223)** | Presentation and pitch, demo deck |

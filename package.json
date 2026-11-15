@@ -1,5 +1,23 @@
 {
   "name": "daily-orbit",
+  "contributors": [
+    {
+      "name": "Ronav Gupta",
+      "url": "https://github.com/guptaronav"
+    },
+    {
+      "name": "Arnav Jain",
+      "url": "https://github.com/arnavjain415"
+    },
+    {
+      "name": "Evode Manirahari",
+      "url": "https://github.com/Evode-Manirahari"
+    },
+    {
+      "name": "Jingbo Xia",
+      "url": "https://github.com/Lemonz-13223"
+    }
+  ],
   "private": true,
   "version": "0.0.0",
   "type": "module",
