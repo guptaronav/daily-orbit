@@ -5,7 +5,7 @@
 import { Fragment } from 'react'
 import { FloatingCrew } from './FloatingCrew'
 import { BannerScene } from './MissionScene'
-import { FeaturedToday, SetsAndLevels, ThisWeek } from './RewardsExtras'
+import { FeaturedToday, LockerArrows, SetsAndLevels, ThisWeek } from './RewardsExtras'
 import { ProofCardButton } from './ProofCard'
 import * as P from './parts'
 import { S } from './parts'
@@ -437,10 +437,13 @@ export function RewardsView({ v }: { v: any }) {
                   ))}
               </div>
             </div>
-            <div style={{ marginTop: 16 }}>
-              <FeaturedToday />
+            <div style={{ marginTop: 16, display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: 10 }}>
+              <div style={{ flex: '1 1 420px', minWidth: 0 }}>
+                <FeaturedToday />
+              </div>
+              <LockerArrows count={(v.items ?? []).length} />
             </div>
-            <ul key={v.slot} style={S({ listStyle: 'none', margin: '18px 0 0', padding: '0', display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(min(100%, 200px), 1fr))', gap: '14px' })}>
+            <ul key={v.slot} id="locker-strip" className="locker-strip" style={S({ listStyle: 'none', margin: '18px 0 0', padding: '4px 2px 14px', display: 'grid', gridAutoFlow: 'column', gridAutoColumns: 'minmax(200px, 220px)', gap: '14px', overflowX: 'auto', scrollSnapType: 'x mandatory', overscrollBehaviorX: 'contain' })}>
               {(v.items ?? []).map((it: any, it_i: number) => (
                   <Fragment key={it_i}>
                 <li style={S({ display: 'flex', flexDirection: 'column', borderRadius: '24px', background: 'var(--panel)', border: `2px solid ${it.border}`, overflow: 'hidden', animation: `rw-rise 420ms ${it.delay} cubic-bezier(.22,1,.36,1) both`, transition: 'transform 220ms cubic-bezier(.34,1.56,.64,1), border-color 160ms ease' })} className="rewardsview-hover-4">

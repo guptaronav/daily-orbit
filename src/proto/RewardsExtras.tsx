@@ -159,3 +159,25 @@ export function FeaturedToday() {
     </div>
   )
 }
+
+/** Left and right buttons for the locker's sideways row of items. */
+export function LockerArrows({ count }: { count: number }) {
+  const move = (dir: number) => {
+    const el = document.getElementById('locker-strip')
+    if (el) el.scrollBy({ left: dir * Math.max(240, el.clientWidth * 0.8), behavior: 'smooth' })
+  }
+  const btn = { display: 'grid', placeItems: 'center', width: 40, height: 40, borderRadius: 99, border: '1.5px solid var(--ink)', background: 'var(--panel)', color: 'var(--ink)', fontSize: 18, fontWeight: 800, cursor: 'pointer' } as const
+  return (
+    <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginLeft: 'auto' }}>
+      <span style={{ fontSize: 13, color: 'var(--muted)' }}>
+        {count} item{count === 1 ? '' : 's'} · scroll for more
+      </span>
+      <button type="button" aria-label="Scroll the locker left" onClick={() => move(-1)} style={btn}>
+        ‹
+      </button>
+      <button type="button" aria-label="Scroll the locker right" onClick={() => move(1)} style={btn}>
+        ›
+      </button>
+    </div>
+  )
+}

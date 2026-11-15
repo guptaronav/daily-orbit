@@ -1,4 +1,5 @@
 import { useEffect, useRef, type CSSProperties } from 'react'
+import { TopperArt } from './Toppers'
 
 /*
  * A tiny crew member drifting through a profile banner, tumbling slowly on a loose tether,
@@ -175,6 +176,9 @@ export function FloatingCrew({ crew, gear, size = 56, duration = 16 }: { crew?: 
             <path d="M20 -9 l2 4.2 4.6.6-3.4 3.2.9 4.6L20 1.4l-4.1 2.2.9-4.6-3.4-3.2 4.6-.6Z" fill="#f6c445" stroke={INK} strokeWidth="1" strokeLinejoin="round" />
           )}
           {top === 'top-halo' && <ellipse cx="20" cy="0" rx="12" ry="3" fill="none" stroke="#f6c445" strokeWidth="2" />}
+          <g transform="translate(20 12) scale(0.7586) translate(-24 -20)">
+            <TopperArt id={top} />
+          </g>
           {/* Backpack */}
           <rect x="5" y="17" width="30" height="19" rx="5" fill={suit} stroke={INK} strokeWidth="1.5" />
           <rect x="5" y="17" width="30" height="19" rx="5" fill="rgba(0,0,0,.18)" />

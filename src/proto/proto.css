@@ -310,3 +310,23 @@
     position: relative !important;
   }
 }
+
+/* Today: quick actions */
+.today-action { transition: transform 160ms ease, border-color 160ms ease; }
+.today-action:hover { transform: translateY(-2px); border-color: var(--ink) !important; }
+
+/* ---- Stars in every dark box (the near-black panels: #14181f and #0b1220). Only the pattern is
+   added: the box keeps its own color, and buttons and small chips are left plain. ---- */
+:where(div, section, aside, article, li, header)[style*="background: rgb(20, 24, 31)"],
+:where(div, section, aside, article, li, header)[style*="background: rgb(11, 18, 32)"],
+:where(div, section, aside, article, li, header)[style*="background-color: rgb(20, 24, 31)"],
+:where(div, section, aside, article, li, header)[style*="background-color: rgb(11, 18, 32)"] {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Ccircle cx='18' cy='22' r='1.44' fill='%23ffffff' fill-opacity='0.74'/%3E%3Ccircle cx='64' cy='8' r='0.96' fill='%23ffffff' fill-opacity='0.47'/%3E%3Ccircle cx='102' cy='46' r='1.92' fill='%23ffffff' fill-opacity='0.81'/%3E%3Ccircle cx='150' cy='18' r='1.12' fill='%23ffffff' fill-opacity='0.54'/%3E%3Ccircle cx='210' cy='34' r='1.44' fill='%23ffffff' fill-opacity='0.68'/%3E%3Ccircle cx='36' cy='84' r='0.96' fill='%23ffffff' fill-opacity='0.41'/%3E%3Ccircle cx='88' cy='112' r='1.28' fill='%23ffffff' fill-opacity='0.61'/%3E%3Ccircle cx='132' cy='92' r='2.24' fill='%23f6c445' fill-opacity='0.94'/%3E%3Ccircle cx='186' cy='120' r='0.96' fill='%23ffffff' fill-opacity='0.47'/%3E%3Ccircle cx='228' cy='96' r='1.28' fill='%23ffffff' fill-opacity='0.61'/%3E%3Ccircle cx='12' cy='150' r='1.76' fill='%23ffffff' fill-opacity='0.74'/%3E%3Ccircle cx='58' cy='178' r='0.96' fill='%23ffffff' fill-opacity='0.41'/%3E%3Ccircle cx='112' cy='160' r='1.12' fill='%23ffffff' fill-opacity='0.54'/%3E%3Ccircle cx='164' cy='196' r='1.6' fill='%23ffffff' fill-opacity='0.68'/%3E%3Ccircle cx='218' cy='168' r='0.96' fill='%23ffffff' fill-opacity='0.47'/%3E%3Ccircle cx='30' cy='222' r='1.28' fill='%23ffffff' fill-opacity='0.61'/%3E%3Ccircle cx='84' cy='232' r='0.96' fill='%23ffffff' fill-opacity='0.41'/%3E%3Ccircle cx='140' cy='226' r='1.92' fill='%23f6c445' fill-opacity='0.74'/%3E%3Ccircle cx='196' cy='228' r='1.12' fill='%23ffffff' fill-opacity='0.54'/%3E%3Ccircle cx='238' cy='210' r='0.8' fill='%23ffffff' fill-opacity='0.41'/%3E%3C/svg%3E") !important;
+  background-size: 240px 240px !important;
+  background-repeat: repeat !important;
+}
+@media print { [style*="background: rgb(20, 24, 31)"], [style*="background: rgb(11, 18, 32)"] { background-image: none !important; } }
+
+/* Locker: one sideways row of items, snapping card by card */
+.locker-strip > li { scroll-snap-align: start; }
+.locker-strip { scrollbar-width: thin; scrollbar-color: var(--rule-strong) transparent; }

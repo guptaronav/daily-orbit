@@ -71,9 +71,29 @@ export function TodayPage() {
     ...(budget.status !== 'green' ? [{ status: budget.status, text: `Career radiation dose ${Math.round(budget.used)} of ${budget.limit} mSv`, to: 'bodymap', cta: 'Radiation' }] : []),
   ]
 
+  const g = D.game(crew.id) as { streak: number; shields: number; best: number; month: number[] }
+  const earned = D.COIN_CAP - D.capRoom(crew.id)
+  const later = rows.filter((r) => r.st === 'upcoming' && r !== next).slice(0, 3)
+  const week = g.month.slice(-7).map((v, i) => ({ v, day: new Date(now.getTime() - (6 - i) * 86_400_000).toLocaleDateString([], { weekday: 'narrow' }), today: i === 6 }))
+  const inMins = (m: number) => (m < 60 ? `${m} min` : `${Math.floor(m / 60)} h ${m % 60} min`)
+  const ghost = { minHeight: 40, padding: '0 12px', borderRadius: 12, border: '1.5px solid rgba(243,241,234,.35)', background: 'transparent', color: '#f3f1ea', fontWeight: 650, cursor: 'pointer' } as const
+  const stat = (label: string, value: string, sub?: string) => (
+    <div key={label} style={{ flex: '1 1 120px', padding: '10px 14px', borderRadius: 18, background: 'var(--panel)', border: '1px solid var(--rule)' }}>
+      <span style={{ display: 'block', fontSize: 12, fontWeight: 700, letterSpacing: '.04em', textTransform: 'uppercase', color: 'var(--muted)' }}>{label}</span>
+      <strong style={{ fontSize: 22, letterSpacing: '-0.03em' }}>{value}</strong>
+      {sub && <span style={{ marginLeft: 6, fontSize: 12.5, color: 'var(--muted)' }}>{sub}</span>}
+    </div>
+  )
+  const actions: { label: string; sub: string; icon: string; run: () => void }[] = [
+    { label: 'Mirror check', sub: 'About a minute with the camera', icon: '◎', run: () => go('mirror') },
+    { label: 'Log a reading', sub: 'Cuff, thermometer, scale, food', icon: '✎', run: () => go('manual') },
+    { label: 'Ask Orbit', sub: 'Questions about a symptom', icon: '✦', run: () => window.dispatchEvent(new Event('orbit:toggle')) },
+    { label: 'Weekly report', sub: 'Your last seven days', icon: '▤', run: () => go('report') },
+  ]
+
   return (
     <main style={{ width: '100%', maxWidth: 1440, margin: '0 auto', padding: '24px clamp(16px, 3vw, 32px) 72px', boxSizing: 'border-box', display: 'grid', gap: 18 }}>
-      {/* Hero: who, where, readiness, and the living body */}
+      {/* Hero: who, where, today's numbers at a glance, readiness, and the living body */}
       <section style={{ display: 'flex', flexWrap: 'wrap', gap: 18, alignItems: 'stretch', animation: 'lg-rise 520ms cubic-bezier(.22,1,.36,1) both' }}>
         <div className={D.systemsOnline().nav ? 'nav-stars' : undefined} style={{ flex: '2 1 520px', display: 'grid', gap: 14, alignContent: 'end', borderRadius: 24 }}>
           <p style={{ margin: 0, fontSize: 14, color: 'var(--muted)' }}>
@@ -84,7 +104,13 @@ export function TodayPage() {
             <br />
             {name}.
           </h1>
-          <div role="status" style={{ display: 'flex', flexWrap: 'wrap', gap: 14, alignItems: 'center', padding: '14px 16px', borderRadius: 20, background: lv.bg, border: `2px solid ${lv.ring}`, maxWidth: 720 }}>
+          <div style={{ display: 'flex', flexWrap: 'wrap', gap: 10, maxWidth: 760 }}>
+            {stat('Streak', `${g.streak} days`, g.shields ? `${g.shields} shield${g.shields === 1 ? '' : 's'}` : undefined)}
+            {stat('Goals', `${reqDone} of ${req.length}`, reqDone === req.length ? 'all done' : 'today')}
+            {stat('Coins today', `${earned}`, `of ${D.COIN_CAP}`)}
+            {stat('Level', `${lvl.n}`, lvl.rank)}
+          </div>
+          <div role="status" style={{ display: 'flex', flexWrap: 'wrap', gap: 14, alignItems: 'center', padding: '14px 16px', borderRadius: 20, background: lv.bg, border: `2px solid ${lv.ring}`, maxWidth: 760 }}>
             <span style={{ display: 'grid', placeItems: 'center', minWidth: 132, padding: '10px 16px', borderRadius: 14, background: lv.ring, color: 'var(--paper)', fontSize: 20, fontWeight: 800, letterSpacing: '-0.02em' }}>{rd.label}</span>
             <div style={{ flex: '1 1 260px', display: 'grid', gap: 4 }}>
               <strong style={{ color: lv.ink, fontSize: 15.5 }}>{lv.line}</strong>
@@ -104,6 +130,14 @@ export function TodayPage() {
               <span style={{ color: 'rgba(243,241,234,.7)' }}>bpm, latest</span>
             </p>
             <span style={{ fontSize: 13, color: 'rgba(243,241,234,.75)' }}>The heart beats at your measured rate. Regions with an open alert glow.</span>
+            <ul style={{ listStyle: 'none', margin: 0, padding: 0, display: 'flex', flexWrap: 'wrap', gap: 6 }}>
+              {regions.map((r) => (
+                <li key={r.id} title={`${r.label}: ${WORD[r.status]}`} style={{ display: 'inline-flex', alignItems: 'center', gap: 5, padding: '3px 8px', borderRadius: 99, background: 'rgba(243,241,234,.08)', fontSize: 12 }}>
+                  <span aria-hidden="true" style={{ width: 7, height: 7, borderRadius: 99, background: TONE[r.status] }} />
+                  {r.label === 'Gut and nutrition' ? 'Gut' : r.label}
+                </li>
+              ))}
+            </ul>
             <button type="button" onClick={() => go('bodymap')} style={{ justifySelf: 'start', minHeight: 36, padding: '0 12px', borderRadius: 10, border: '1.5px solid rgba(243,241,234,.4)', background: 'transparent', color: '#f3f1ea', fontWeight: 700, cursor: 'pointer' }}>
               Open the body map
             </button>
@@ -120,22 +154,39 @@ export function TodayPage() {
           </button>
         </section>
       )}
-      {/* Row: what is next, today's goals, and progress (one list of goals, read by every screen) */}
+      {/* Row: your day, today's goals, and your week (one list of goals, read by every screen) */}
       <section style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 280px), 1fr))', gap: 14 }}>
-        <div style={{ ...card, background: '#14181f', color: '#f3f1ea', border: 0 }}>
-          <p style={{ ...kicker, color: '#f6c445' }}>{next ? (next.st === 'now' ? 'Now' : `Next, in ${minsTo < 60 ? `${minsTo} min` : `${Math.floor(minsTo / 60)} h ${minsTo % 60} min`}`) : 'Schedule'}</p>
-          <strong style={{ fontSize: 19, letterSpacing: '-0.02em' }}>{next ? next.b.title : 'Nothing else today'}</strong>
-          {next && <span style={{ fontSize: 13.5, color: 'rgba(243,241,234,.7)' }}>{next.b.start} · {next.b.minutes} min</span>}
+        <div style={{ ...card, background: '#14181f', color: '#f3f1ea', border: 0, gap: 12 }}>
+          <p style={{ ...kicker, color: '#f6c445' }}>{next ? (next.st === 'now' ? 'Now' : `Next, in ${inMins(minsTo)}`) : 'Schedule'}</p>
+          <strong style={{ fontSize: 21, lineHeight: 1.2, letterSpacing: '-0.02em' }}>{next ? next.b.title : 'Nothing else today'}</strong>
+          {next && (
+            <span style={{ fontSize: 13.5, color: 'rgba(243,241,234,.7)' }}>
+              {next.b.start} · {next.b.minutes} min
+            </span>
+          )}
           <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}>
             {next?.b.link && (
               <button type="button" className="fw-press" onClick={() => go(next.b.link!)} style={{ minHeight: 40, padding: '0 14px', borderRadius: 12, border: 0, background: '#f6c445', color: '#14181f', boxShadow: '0 4px 0 #a8740a', fontWeight: 750, cursor: 'pointer' }}>
                 Start it
               </button>
             )}
-            <button type="button" onClick={() => go('schedule')} style={{ minHeight: 40, padding: '0 12px', borderRadius: 12, border: '1.5px solid rgba(243,241,234,.35)', background: 'transparent', color: '#f3f1ea', fontWeight: 650, cursor: 'pointer' }}>
+            <button type="button" onClick={() => go('schedule')} style={ghost}>
               Full schedule
             </button>
           </div>
+          {later.length > 0 && (
+            <div style={{ display: 'grid', gap: 6, paddingTop: 12, borderTop: '1px solid rgba(243,241,234,.14)' }}>
+              <p style={{ ...kicker, color: 'rgba(243,241,234,.55)' }}>Later today</p>
+              <ol style={{ listStyle: 'none', margin: 0, padding: 0, display: 'grid', gap: 6 }}>
+                {later.map((r) => (
+                  <li key={`${r.b.start}-${r.b.title}`} style={{ display: 'flex', gap: 10, alignItems: 'baseline', fontSize: 13.5 }}>
+                    <span style={{ minWidth: 44, fontVariantNumeric: 'tabular-nums', color: '#f6c445', fontWeight: 700 }}>{r.b.start}</span>
+                    <span style={{ flex: 1, minWidth: 0, color: 'rgba(243,241,234,.88)' }}>{r.b.title}</span>
+                  </li>
+                ))}
+              </ol>
+            </div>
+          )}
         </div>
 
         <div style={{ ...card, gridColumn: 'span 2' }} className="today-goals">
@@ -144,6 +195,9 @@ export function TodayPage() {
             <span style={{ fontSize: 13, color: 'var(--muted)' }}>
               {reqDone} of {req.length} done{reqDone === req.length ? ', all done' : ''} · coins for doing, never for the numbers
             </span>
+          </div>
+          <div role="progressbar" aria-label="Today's goals" aria-valuemin={0} aria-valuemax={req.length} aria-valuenow={reqDone} style={{ height: 8, borderRadius: 99, background: 'var(--paper-deep)', overflow: 'hidden' }}>
+            <div style={{ width: `${req.length ? (reqDone / req.length) * 100 : 0}%`, height: '100%', background: 'var(--ok)', transition: 'width 500ms ease' }} />
           </div>
           <ul style={{ listStyle: 'none', margin: 0, padding: 0, display: 'grid', gap: 6 }}>
             {goals.map((q) => (
@@ -169,47 +223,88 @@ export function TodayPage() {
           </ul>
         </div>
 
-        <div style={card}>
-          <p style={kicker}>Your progress</p>
+        <div style={{ ...card, gap: 14 }}>
+          <p style={kicker}>Your week</p>
+          <ol aria-label="Check-ins over the last seven days" style={{ listStyle: 'none', margin: 0, padding: 0, display: 'grid', gridTemplateColumns: 'repeat(7, minmax(0, 1fr))', gap: 6 }}>
+            {week.map((d, i) => (
+              <li key={i} title={d.v === 2 ? 'Checked in and exercised' : d.v === 1 ? 'Checked in' : 'No check-in'} style={{ display: 'grid', justifyItems: 'center', gap: 4 }}>
+                <span style={{ width: '100%', aspectRatio: '1', maxWidth: 34, borderRadius: 10, background: d.v === 2 ? '#e8742c' : d.v === 1 ? '#f6c445' : 'var(--paper-deep)', outline: d.today ? '2px solid var(--ink)' : 'none', outlineOffset: 2 }} />
+                <span style={{ fontSize: 11.5, fontWeight: d.today ? 800 : 500, color: d.today ? 'var(--ink)' : 'var(--muted)' }}>{d.day}</span>
+              </li>
+            ))}
+          </ol>
+          <span style={{ fontSize: 12.5, color: 'var(--muted)' }}>Gold: checked in · orange: checked in and exercised · best streak {g.best || g.streak} days</span>
           <div style={{ display: 'grid', gap: 4 }}>
             <span style={{ fontSize: 13.5 }}>
-              Level {lvl.n} · {lvl.rank} · {lvl.need - lvl.into} XP to level {lvl.n + 1}
+              Level {lvl.n} · {lvl.need - lvl.into} XP to level {lvl.n + 1}
             </span>
             <div role="progressbar" aria-label="Level progress" aria-valuemin={0} aria-valuemax={100} aria-valuenow={Math.round(lvl.frac * 100)} style={{ height: 8, borderRadius: 99, background: 'var(--paper-deep)', overflow: 'hidden' }}>
               <div style={{ width: `${lvl.frac * 100}%`, height: '100%', background: '#f6c445' }} />
             </div>
           </div>
-          <span style={{ fontSize: 13.5 }}>Crew weekly goal: {Math.round(cg.frac * 100)}%</span>
+          <div style={{ display: 'grid', gap: 4 }}>
+            <span style={{ fontSize: 13.5 }}>Crew weekly goal: {Math.round(cg.frac * 100)}%</span>
+            <div role="progressbar" aria-label="Crew weekly goal" aria-valuemin={0} aria-valuemax={100} aria-valuenow={Math.round(cg.frac * 100)} style={{ height: 8, borderRadius: 99, background: 'var(--paper-deep)', overflow: 'hidden' }}>
+              <div style={{ width: `${cg.frac * 100}%`, height: '100%', background: 'var(--accent)' }} />
+            </div>
+          </div>
           <button type="button" onClick={() => go('progress')} style={{ justifySelf: 'start', minHeight: 36, padding: '0 12px', borderRadius: 10, border: '1.5px solid var(--ink)', background: 'var(--panel)', color: 'var(--ink)', fontWeight: 700, cursor: 'pointer' }}>
             Rewards and locker
           </button>
         </div>
       </section>
 
-      {/* Needs a look: only what is actually off, each linking to where it is handled */}
-      <section style={card}>
-        <p style={kicker}>Needs a look</p>
-        {look.length === 0 ? (
-          <span style={{ fontSize: 14.5, color: 'var(--muted)' }}>Nothing is off today. Patterns, the five hazards and your radiation budget are all within your usual.</span>
-        ) : (
-          <ul style={{ listStyle: 'none', margin: 0, padding: 0, display: 'grid', gap: 6 }}>
-            {look.map((x) => (
-              <li key={x.text} style={{ display: 'flex', alignItems: 'center', gap: 10, flexWrap: 'wrap' }}>
-                <strong style={{ color: TONE[x.status], minWidth: 54 }}>{WORD[x.status]}</strong>
-                <span style={{ flex: 1, minWidth: 200, fontSize: 14.5 }}>{x.text}</span>
-                <button type="button" onClick={() => go(x.to)} style={{ minHeight: 32, padding: '0 10px', borderRadius: 10, border: '1.5px solid var(--rule-strong)', background: 'var(--panel)', color: 'var(--ink)', fontWeight: 650, cursor: 'pointer', fontSize: 13 }}>
-                  {x.cta}
-                </button>
-              </li>
+      {/* Row: needs a look, quick actions, and what Earth can see */}
+      <section style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 300px), 1fr))', gap: 14 }}>
+        <div style={card}>
+          <p style={kicker}>Needs a look</p>
+          {look.length === 0 ? (
+            <div style={{ display: 'flex', gap: 10, alignItems: 'center' }}>
+              <span aria-hidden="true" style={{ display: 'grid', placeItems: 'center', width: 34, height: 34, flex: '0 0 auto', borderRadius: 99, background: 'rgba(47,125,79,.12)', color: 'var(--ok-ink)', fontWeight: 800 }}>
+                ✓
+              </span>
+              <span style={{ fontSize: 14.5, color: 'var(--ink-soft)' }}>Nothing is off today. Patterns, the five hazards and your radiation budget are all within your usual.</span>
+            </div>
+          ) : (
+            <ul style={{ listStyle: 'none', margin: 0, padding: 0, display: 'grid', gap: 8 }}>
+              {look.map((x) => (
+                <li key={x.text} style={{ display: 'flex', alignItems: 'center', gap: 10, flexWrap: 'wrap', padding: '8px 10px', borderRadius: 12, background: 'var(--panel-2)' }}>
+                  <strong style={{ color: TONE[x.status], minWidth: 54 }}>{WORD[x.status]}</strong>
+                  <span style={{ flex: 1, minWidth: 160, fontSize: 14 }}>{x.text}</span>
+                  <button type="button" onClick={() => go(x.to)} style={{ minHeight: 32, padding: '0 10px', borderRadius: 10, border: '1.5px solid var(--rule-strong)', background: 'var(--panel)', color: 'var(--ink)', fontWeight: 650, cursor: 'pointer', fontSize: 13 }}>
+                    {x.cta}
+                  </button>
+                </li>
+              ))}
+            </ul>
+          )}
+        </div>
+
+        <div style={card}>
+          <p style={kicker}>Quick actions</p>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, minmax(0, 1fr))', gap: 8 }}>
+            {actions.map((a) => (
+              <button key={a.label} type="button" className="today-action" onClick={a.run} style={{ display: 'grid', gap: 2, justifyItems: 'start', textAlign: 'left', padding: '10px 12px', borderRadius: 14, border: '1px solid var(--rule)', background: 'var(--panel-2)', color: 'var(--ink)', cursor: 'pointer', font: 'inherit' }}>
+                <span aria-hidden="true" style={{ fontSize: 18, lineHeight: 1, color: '#a8740a' }}>
+                  {a.icon}
+                </span>
+                <strong style={{ fontSize: 14 }}>{a.label}</strong>
+                <span style={{ fontSize: 12, color: 'var(--muted)' }}>{a.sub}</span>
+              </button>
             ))}
-          </ul>
-        )}
-        <span style={{ fontSize: 13, color: 'var(--muted)' }}>
-          Ground link: {link.known ? `Earth knows your status as of ${new Date(link.known.sentAt).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}` : 'nothing sent today'} · {D.formatDelay(link.delay)} each way ·{' '}
-          <button type="button" onClick={() => go('escalation')} style={{ border: 0, background: 'transparent', padding: 0, color: 'var(--accent)', textDecoration: 'underline', cursor: 'pointer', font: 'inherit' }}>
-            Escalate
+          </div>
+        </div>
+
+        <div style={{ ...card, background: '#0b1220', color: '#e8eefc', border: 0 }}>
+          <p style={{ ...kicker, color: '#4cc9f0' }}>Ground link</p>
+          <strong style={{ fontSize: 17, lineHeight: 1.3 }}>{link.known ? `Earth knows your status as of ${new Date(link.known.sentAt).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}` : 'Nothing sent to Earth today'}</strong>
+          <span style={{ fontSize: 13.5, color: 'rgba(232,238,252,.72)' }}>
+            {D.formatDelay(link.delay)} each way, so a reply takes at least {D.formatDelay(link.delay * 2)}. Anything urgent goes to your crew medical officer first.
+          </span>
+          <button type="button" onClick={() => go('escalation')} style={{ ...ghost, justifySelf: 'start', minHeight: 36, color: '#e8eefc', border: '1.5px solid rgba(232,238,252,.35)' }}>
+            Who to tell, and when
           </button>
-        </span>
+        </div>
       </section>
     </main>
   )
