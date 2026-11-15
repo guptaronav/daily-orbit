@@ -9,8 +9,8 @@ export type Environment = {
   minDelaySec?: number
   maxDelaySec?: number
   equipment: string[]
-  /** URLs of the pages the environment text was written from. */
-  sources: string[]
+  /** URLs of the pages the environment text and equipment list were written from. */
+  sources?: string[]
 }
 
 export const ENVIRONMENTS: readonly Environment[] = raw as Environment[]
