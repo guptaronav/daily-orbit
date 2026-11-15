@@ -1,8 +1,9 @@
 import { describe, expect, it } from 'vitest'
 import { getThreshold } from '../config/thresholds'
 import { ENTRY_FORMS, getForm, validateEntry, type EntryKind } from './manualEntry'
+import { REGIONS } from './regions'
 
-const KINDS: EntryKind[] = ['bloodPressure', 'temperature', 'bloodSugar', 'bodyMass', 'sleepHours', 'exerciseMinutes']
+const KINDS: EntryKind[] = ['bloodPressure', 'temperature', 'bloodSugar', 'bodyMass', 'sleepHours', 'exerciseMinutes', 'bowelMovements']
 
 const ok = (kind: EntryKind, raw: Record<string, string>) => {
   const result = validateEntry(kind, raw)
@@ -17,7 +18,7 @@ const err = (kind: EntryKind, raw: Record<string, string>) => {
 }
 
 describe('ENTRY_FORMS', () => {
-  it('has the five spec forms plus body mass from the overhaul', () => {
+  it('has the five spec forms plus body mass and bowel movements (the gut and nutrition region needs a way to log data)', () => {
     expect(ENTRY_FORMS.map((f) => f.kind)).toEqual(KINDS)
   })
 
@@ -119,5 +120,36 @@ describe('validateEntry: rejected input', () => {
 
   it('reports the first bad field when several are bad', () => {
     expect(err('bloodPressure', { systolic: 'x', diastolic: 'y' }).field).toBe('systolic')
+  })
+})
+
+describe('gut and nutrition forms', () => {
+  it('body mass parses to kilograms', () => {
+    expect(ok('bodyMass', { bodyMass: ' 72.4 ' })).toEqual([{ indicator: 'bodyMass', value: 72.4, unit: 'kg' }])
+  })
+
+  it('body mass rejects impossible typos, naming the guard and the field', () => {
+    for (const bad of ['5', '500']) {
+      const e = err('bodyMass', { bodyMass: bad })
+      expect(e.field).toBe('bodyMass')
+      expect(e.error).toMatch(/input guard/i)
+    }
+  })
+
+  it('bowel movements are a whole number per day, zero included', () => {
+    expect(ok('bowelMovements', { bowelMovements: '0' })[0].value).toBe(0)
+    expect(ok('bowelMovements', { bowelMovements: '3' })).toEqual([{ indicator: 'bowelMovements', value: 3, unit: 'per day' }])
+  })
+
+  it('bowel movements reject fractions and absurd counts', () => {
+    expect(err('bowelMovements', { bowelMovements: '2.5' }).error).toMatch(/whole number/i)
+    expect(err('bowelMovements', { bowelMovements: '25' }).error).toMatch(/between/i)
+  })
+
+  it('both forms log into the gut and nutrition region, so the body map reacts', () => {
+    const gut = REGIONS.find((r) => r.id === 'gut')!
+    for (const kind of ['bodyMass', 'bowelMovements'] as const) {
+      for (const f of getForm(kind).fields) expect(gut.indicators).toContain(f.indicator)
+    }
   })
 })

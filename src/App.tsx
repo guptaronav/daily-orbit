@@ -14,19 +14,31 @@ import {
 } from './proto/pages'
 import './proto/proto.css'
 import { bridge, useProtoStore } from './proto/store'
-import { SchedulePage } from './proto/SchedulePage'
 import { TodayPage } from './proto/TodayPage'
 import { ReportPage } from './proto/ReportPage'
 import { Tour } from './proto/Tour'
 import { BootScreen } from './proto/BootScreen'
 import { GoalToast } from './proto/GoalToast'
 import { Moments } from './proto/Moments'
-import { Radiation } from './screens/Radiation'
-import { Sources } from './screens/Sources'
 import { AppProvider, useApp } from './state/AppContext'
 
-// The camera pipeline is the heavy part: load it on demand.
+// Everything beyond the shell loads on demand. The camera pipeline is the heaviest part.
 const MirrorCheck = lazy(() => import('./screens/mirror/MirrorCheck').then((m) => ({ default: m.MirrorCheck })))
+const SchedulePage = lazy(() => import('./proto/SchedulePage').then((m) => ({ default: m.SchedulePage })))
+const Radiation = lazy(() => import('./screens/Radiation').then((m) => ({ default: m.Radiation })))
+const Sources = lazy(() => import('./screens/Sources').then((m) => ({ default: m.Sources })))
+
+/** The pages a visitor almost always opens next, fetched in the background once the browser is idle. */
+function prefetchLikelyScreens() {
+  const run = () => {
+    void import('./proto/BodyMapView')
+    void import('./screens/mirror/MirrorCheck')
+  }
+  if ('requestIdleCallback' in window) window.requestIdleCallback(run, { timeout: 4000 })
+  else setTimeout(run, 2000)
+}
+
+const PAGE_FALLBACK = <main style={{ padding: 32, color: 'var(--muted)' }}>Loading…</main>
 
 const ONBOARDED_KEY = 'chm-onboarded'
 
@@ -145,6 +157,7 @@ function Shell() {
   bridge.refresh = app.refresh
 
   usePrototypeLinks()
+  useEffect(() => prefetchLikelyScreens(), [])
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -162,7 +175,9 @@ function Shell() {
 
   return (
     <>
-      <Screen />
+      <Suspense fallback={PAGE_FALLBACK}>
+        <Screen />
+      </Suspense>
       <Tour />
       <BootScreen />
       <GoalToast />

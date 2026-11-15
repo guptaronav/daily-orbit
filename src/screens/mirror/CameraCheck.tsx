@@ -38,7 +38,7 @@ function CheckRow({ label, ok, text }: { label: string; ok: boolean; text: strin
   return (
     <li className="flex items-center justify-between gap-4 border-b border-rule py-2 text-sm">
       <span>{label}</span>
-      <span className={ok ? 'font-medium text-ok' : 'text-muted'}>{text}</span>
+      <span className={ok ? 'font-medium text-ok-ink' : 'text-muted'}>{text}</span>
     </li>
   )
 }

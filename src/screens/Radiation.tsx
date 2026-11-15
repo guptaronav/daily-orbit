@@ -281,7 +281,7 @@ export function Radiation() {
         </ul>
         <p className="mt-3 text-sm text-muted">
           Event record:{' '}
-          <a className={linkBtn} href={replay.link} target="_blank" rel="noreferrer">
+          <a className={`${linkBtn} max-w-full whitespace-normal break-all text-left`} href={replay.link} target="_blank" rel="noreferrer">
             {replay.link}
           </a>
         </p>

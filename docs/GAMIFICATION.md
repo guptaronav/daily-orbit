@@ -1,4 +1,4 @@
-# Gamification: questions and answers
+# Daily Orbit gamification: questions and answers
 
 The short version: **your own data decides what you are asked to do, and you earn credit for doing it. No number you measure ever earns or loses points.**
 

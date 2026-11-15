@@ -58,7 +58,7 @@ export function TopBarView({ v }: { v: any }) {
               </div>
             </div>
           </nav>
-          <div style={S({ order: '2', marginLeft: 'auto', display: 'flex', alignItems: 'center', gap: '6px', flexWrap: 'nowrap' })}>
+          <div style={S({ order: '2', marginLeft: 'auto', display: 'flex', alignItems: 'center', justifyContent: 'flex-end', gap: '6px', flexWrap: 'wrap', maxWidth: '100%' })}>
             <ReportButton />
             <div style={S({ position: 'relative' })}>
               <button type="button" onClick={v.toggleEnv} aria-expanded={v.envOpen} aria-haspopup="true" aria-label="Mission environment and comm delay" style={S({ display: 'flex', alignItems: 'center', gap: '8px', minHeight: '44px', padding: '0 14px', borderRadius: '999px', background: 'transparent', border: '1px solid var(--rule)', color: 'var(--ink)', cursor: 'pointer', whiteSpace: 'nowrap' })} className="topbarview-hover-4">

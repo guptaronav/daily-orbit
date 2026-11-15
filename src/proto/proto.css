@@ -292,3 +292,21 @@
 
 /* Hazards: five cards share the row evenly; a wrapped row stretches instead of leaving one card alone. */
 .hazard-grid > li { flex: 1 1 210px; min-width: 0; }
+
+/* Phones: panels that are given a wide flex-basis must be allowed to shrink to the screen,
+   otherwise their contents' minimum width pushes the whole page sideways. Lives here, not in the
+   generated views, so re-porting a prototype cannot undo it. */
+@media (max-width: 640px) {
+  [style*="flex: "] {
+    min-width: 0 !important;
+    max-width: 100% !important;
+  }
+  /* 1fr columns refuse to go below their widest label; minmax(0, 1fr) lets labels wrap instead. */
+  [style*="repeat(4, 1fr)"] {
+    grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+  }
+  /* The top bar stacks to ~4 rows on a phone: let it scroll away (the bottom dock keeps navigation in reach). */
+  header[style*="position: sticky"] {
+    position: relative !important;
+  }
+}

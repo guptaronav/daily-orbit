@@ -1,4 +1,4 @@
-# Team tasks: who builds what, in parallel
+# Daily Orbit team tasks: who builds what, in parallel
 
 Deadline: **Sunday Nov 15, midday**, deployed and demo-ready. Today is Saturday. Everything below can be worked on **at the same time** with no waiting on anyone else.
 
@@ -8,11 +8,11 @@ Deadline: **Sunday Nov 15, midday**, deployed and demo-ready. Today is Saturday.
 
 ## Get started (5 minutes)
 
-Accept your GitHub invitation first (check your email, or https://github.com/guptaronav/nasa-space-apps-health-monitor/invitations).
+Accept your GitHub invitation first (check your email, or https://github.com/guptaronav/daily-orbit/invitations).
 
 ```bash
-git clone git@github.com:guptaronav/nasa-space-apps-health-monitor.git
-cd nasa-space-apps-health-monitor
+git clone git@github.com:guptaronav/daily-orbit.git
+cd daily-orbit
 git checkout feat/scaffold-and-foundation
 git checkout -b <yourname>/<task>        # e.g. arnav/manual-entry, evode/bedrest-import
 npm install
