@@ -1,4 +1,5 @@
 import { useEffect, useReducer, useRef, useState } from 'react'
+import { BodyFigureMap } from './BodyFigureMap'
 import { getContent } from '../lib/content'
 import * as D from './data'
 import { bridge } from './store'
@@ -59,29 +60,6 @@ function Sourced({ ind }: { ind: string }) {
 /* ---------------------------------------------------------------- Pain map */
 
 type Area = { area: string; label: string; level: number; kind: string }
-type Zone = { id: string; label: string; shape: React.ReactElement }
-const R = { rx: 8 }
-// Front view: the person faces you, so their right side is on your left.
-const ZONES = (back: boolean): Zone[] => {
-  const side = (screenLeft: boolean) => (back ? (screenLeft ? 'left' : 'right') : screenLeft ? 'right' : 'left')
-  return [
-    { id: 'head', label: 'Head', shape: <ellipse cx="100" cy="34" rx="20" ry="24" /> },
-    { id: 'neck', label: 'Neck', shape: <rect x="89" y="58" width="22" height="14" {...R} /> },
-    { id: `shoulder-${side(true)}`, label: `${side(true) === 'right' ? 'Right' : 'Left'} shoulder`, shape: <circle cx="62" cy="84" r="13" /> },
-    { id: `shoulder-${side(false)}`, label: `${side(false) === 'right' ? 'Right' : 'Left'} shoulder`, shape: <circle cx="138" cy="84" r="13" /> },
-    back ? { id: 'upper-back', label: 'Upper back', shape: <rect x="72" y="72" width="56" height="50" {...R} /> } : { id: 'chest', label: 'Chest', shape: <rect x="72" y="72" width="56" height="50" {...R} /> },
-    back ? { id: 'lower-back', label: 'Lower back', shape: <rect x="74" y="124" width="52" height="42" {...R} /> } : { id: 'belly', label: 'Belly', shape: <rect x="74" y="124" width="52" height="42" {...R} /> },
-    { id: 'hips', label: back ? 'Hips and buttocks' : 'Hips', shape: <rect x="72" y="168" width="56" height="26" {...R} /> },
-    { id: `arm-${side(true)}`, label: `${side(true) === 'right' ? 'Right' : 'Left'} arm`, shape: <rect x="44" y="98" width="17" height="72" {...R} /> },
-    { id: `arm-${side(false)}`, label: `${side(false) === 'right' ? 'Right' : 'Left'} arm`, shape: <rect x="139" y="98" width="17" height="72" {...R} /> },
-    { id: `hand-${side(true)}`, label: `${side(true) === 'right' ? 'Right' : 'Left'} hand`, shape: <circle cx="52" cy="184" r="11" /> },
-    { id: `hand-${side(false)}`, label: `${side(false) === 'right' ? 'Right' : 'Left'} hand`, shape: <circle cx="148" cy="184" r="11" /> },
-    { id: `leg-${side(true)}`, label: `${side(true) === 'right' ? 'Right' : 'Left'} leg`, shape: <rect x="75" y="197" width="23" height="112" {...R} /> },
-    { id: `leg-${side(false)}`, label: `${side(false) === 'right' ? 'Right' : 'Left'} leg`, shape: <rect x="102" y="197" width="23" height="112" {...R} /> },
-    { id: `foot-${side(true)}`, label: `${side(true) === 'right' ? 'Right' : 'Left'} foot`, shape: <ellipse cx="85" cy="320" rx="14" ry="8" /> },
-    { id: `foot-${side(false)}`, label: `${side(false) === 'right' ? 'Right' : 'Left'} foot`, shape: <ellipse cx="115" cy="320" rx="14" ry="8" /> },
-  ]
-}
 const KINDS = ['Ache', 'Sharp', 'Stiff', 'Numb or tingling']
 const heat = (lv: number) => (lv >= 7 ? 'var(--act)' : lv >= 4 ? '#e8742c' : 'var(--watch)')
 
@@ -91,8 +69,7 @@ function PainMap() {
   const [areas, setAreas] = useState<Area[]>([])
   const [editing, setEditing] = useState<string | null>(null)
   const [saved, setSaved] = useState<{ points: number; level: number } | null>(null)
-  const zones = ZONES(back)
-  const pick = (z: Zone) => {
+  const pick = (z: { id: string; label: string }) => {
     setSaved(null)
     if (!areas.find((a) => a.area === z.id)) setAreas((l) => [...l, { area: z.id, label: z.label, level: 3, kind: 'Ache' }])
     setEditing(z.id)
@@ -110,7 +87,7 @@ function PainMap() {
   const cur = areas.find((a) => a.area === editing)
   return (
     <div style={{ display: 'flex', flexWrap: 'wrap', gap: 16 }}>
-      <div style={{ ...card, flex: '0 1 260px', justifyItems: 'center' }}>
+      <div style={{ ...card, flex: '0 1 280px', justifyItems: 'center' }}>
         <div role="group" aria-label="Body side" style={{ display: 'flex', gap: 4, padding: 4, borderRadius: 999, background: 'var(--paper-deep)' }}>
           {[false, true].map((b) => (
             <button key={String(b)} type="button" aria-pressed={back === b} onClick={() => setBack(b)} style={{ minHeight: 34, padding: '0 14px', borderRadius: 999, border: 0, background: back === b ? 'var(--panel)' : 'transparent', color: back === b ? 'var(--ink)' : 'var(--muted)', fontWeight: 650, fontSize: 13.5, cursor: 'pointer' }}>
@@ -118,33 +95,7 @@ function PainMap() {
             </button>
           ))}
         </div>
-        <svg viewBox="30 4 140 330" width="210" role="group" aria-label={`Body, ${back ? 'back' : 'front'} view. Tap where it hurts.`} style={{ display: 'block', maxWidth: '100%' }}>
-          {zones.map((z) => {
-            const a = areas.find((x) => x.area === z.id)
-            return (
-              <g
-                key={z.id}
-                role="button"
-                tabIndex={0}
-                aria-label={`${z.label}${a ? `, pain ${a.level} of 10` : ''}`}
-                aria-pressed={!!a}
-                onClick={() => pick(z)}
-                onKeyDown={(e) => {
-                  if (e.key === 'Enter' || e.key === ' ') {
-                    e.preventDefault()
-                    pick(z)
-                  }
-                }}
-                style={{ cursor: 'pointer', outline: 'none' }}
-                fill={a ? heat(a.level) : 'var(--panel)'}
-                stroke={editing === z.id ? 'var(--ink)' : 'var(--rule-strong)'}
-                strokeWidth={editing === z.id ? 2.5 : 1.5}
-              >
-                {z.shape}
-              </g>
-            )
-          })}
-        </svg>
+        <BodyFigureMap back={back} areas={areas} editing={editing} onPick={pick} />
         <span style={{ fontSize: 12.5, color: 'var(--muted)', textAlign: 'center' }}>{back ? 'Seen from behind: their left is your left.' : 'Facing you: their right is on your left.'}</span>
       </div>
 
