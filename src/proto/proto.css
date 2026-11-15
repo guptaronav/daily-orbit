@@ -229,3 +229,10 @@
 .mc-page [role=progressbar] { height: 12px; border-radius: 999px; overflow: hidden; background: var(--paper-deep); }
 .mc-page [role=progressbar] > div { border-radius: 999px; background: linear-gradient(90deg, #0b3d91, #4cc9f0); }
 .mc-page input[type=range] { accent-color: var(--ink); }
+
+/* ---- Food and water (FoodWater.tsx) ---- */
+@keyframes fw-wave { from { transform: translateX(0) } to { transform: translateX(40px) } }
+@keyframes fw-bubble { 0% { transform: translateY(40px); opacity: 0 } 30% { opacity: .8 } 100% { transform: translateY(-6px); opacity: 0 } }
+@keyframes fw-coin { 0% { transform: translateY(6px) scale(.7); opacity: 0 } 25% { transform: translateY(0) scale(1.15); opacity: 1 } 100% { transform: translateY(-26px) scale(1); opacity: 0 } }
+.fw-press:hover:not(:disabled) { transform: translateY(-2px); }
+.fw-press:active:not(:disabled) { transform: translateY(4px); box-shadow: 0 0 0 transparent !important; }

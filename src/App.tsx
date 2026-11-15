@@ -14,6 +14,7 @@ import {
 } from './proto/pages'
 import './proto/proto.css'
 import { bridge, useProtoStore } from './proto/store'
+import { SchedulePage } from './proto/SchedulePage'
 import { Radiation } from './screens/Radiation'
 import { Sources } from './screens/Sources'
 import { AppProvider, useApp } from './state/AppContext'
@@ -70,6 +71,13 @@ function Screen() {
         <Suspense fallback={<main style={{ padding: 32, color: 'var(--muted)' }}>Loading…</main>}>
           <MirrorCheck />
         </Suspense>
+      </ProtoFrame>
+    )
+  }
+  if (screen === 'schedule') {
+    return (
+      <ProtoFrame current="Mission schedule">
+        <SchedulePage />
       </ProtoFrame>
     )
   }

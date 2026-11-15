@@ -19,6 +19,8 @@ export const INDICATORS = [
   'digestiveComfort',
   'bodyMass',
   'bowelMovements',
+  'waterIntake',
+  'mealsEaten',
 ] as const
 
 export type Indicator = (typeof INDICATORS)[number]

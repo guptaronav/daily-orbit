@@ -27,6 +27,8 @@ export const COVERAGE: Record<Indicator, Coverage> = {
   appetite: { live: ['mirrorCheckIn'], planned: [], nasaBasis: `${HRP}: Inadequate Food and Nutrition` },
   bodyMass: { live: ['manualEntry', 'nasaBedrest'], planned: [], nasaBasis: `${HRP}: Inadequate Food and Nutrition; ISS crews measure body mass regularly (PubMed 25197887)` },
   bowelMovements: { live: ['nasaBedrest'], planned: ['manualEntry'], nasaBasis: `NASA bed-rest Case Report Forms (daily bowel movement log, doi:10.83263/wjw1-ta27); ${HRP}: Host-Microorganism Interactions (our mapping)` },
+  waterIntake: { live: ['manualEntry'], planned: [], nasaBasis: `${HRP}: Inadequate Food and Nutrition (daily fluid total, logged on the Log screen)` },
+  mealsEaten: { live: ['manualEntry'], planned: [], nasaBasis: `${HRP}: Inadequate Food and Nutrition (meals eaten per day, logged on the Log screen)` },
   bloodSugar: { live: ['manualEntry'], planned: [], nasaBasis: `${HRP}: Inadequate Food and Nutrition (our mapping); ${STD}: biochemical markers from blood` },
   bloodPressureSys: { live: ['manualEntry', 'nasaBedrest'], planned: [], nasaBasis: `${STD}: sensorimotor tests record blood pressure; ${HRP}: Cardiovascular Adaptations` },
   bloodPressureDia: { live: ['manualEntry', 'nasaBedrest'], planned: [], nasaBasis: `${STD}: sensorimotor tests record blood pressure; ${HRP}: Cardiovascular Adaptations` },

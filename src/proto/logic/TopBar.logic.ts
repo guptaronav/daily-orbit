@@ -50,6 +50,7 @@ export class TopBarLogic extends DCLogic {
       ['Metrics', 'Two simulated numbers, assumptions open', 'Metrics.dc.html', 'chart'],
       ['Set up again', 'Replay the one-minute onboarding', 'Onboarding.dc.html', 'spark'],
       ['Mirror check', 'Thirty seconds of camera, then four questions', 'Mirror.dc.html', 'scan'],
+      ['Mission schedule', 'Your day, your role duties, your own blocks', 'Schedule.dc.html', 'clock'],
       ['Crew progress', 'Points for effort, never for values', 'Rewards.dc.html', 'award'],
       ['Radiation', 'Replay a historical solar particle event', 'Radiation.dc.html', 'shield'],
       ['Sources', 'Every NASA dataset and page used', 'Sources.dc.html', 'book'],

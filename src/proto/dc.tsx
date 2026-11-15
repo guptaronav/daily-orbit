@@ -74,6 +74,7 @@ const PAGES: Record<string, Screen> = {
   'mirror.dc.html': 'mirror',
   'radiation.dc.html': 'radiation',
   'sources.dc.html': 'sources',
+  'schedule.dc.html': 'schedule',
 }
 
 export function screenForHref(href: string | null | undefined): Screen | null {

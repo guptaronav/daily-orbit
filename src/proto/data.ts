@@ -692,3 +692,130 @@ export function discover(id, scene, did) {
   return { fresh: true, bonus }
 }
 export const SCENE_NAMES = { mars: 'Jezero dusk', iss: 'Pale blue dot', lunar: 'Earthrise', transit: 'Deep transit' }
+
+/* ---- Food and water -------------------------------------------------------------------------
+ * Today's running totals live in the locker-style local store; a finished day is committed as one
+ * waterIntake and one mealsEaten measurement. That way the body map compares whole days with whole
+ * days, and a half-finished morning is never colored "low" against your own baseline.
+ */
+export const MEALS = [
+  ['breakfast', 'Breakfast'],
+  ['lunch', 'Lunch'],
+  ['dinner', 'Dinner'],
+  ['snack', 'Snack'],
+]
+/**
+ * Default daily fluid goal, editable per person. NASA's exploration requirement is 32 mL per kg of
+ * body mass a day (food and drinks together), at least 2,100 mL for women and 2,500 mL for men.
+ * With a body-mass reading we use 32 mL/kg (never below 2.1 L); without one, 2.5 L.
+ */
+export const WATER_GOAL_SOURCE = 'https://ntrs.nasa.gov/api/citations/20205008306/downloads/JSC67378%20Expl%20Nutr%20Reqs%20042020.pdf'
+function defaultWaterGoal(id) {
+  const mass = (getSnapshot().measurements[id] ?? []).filter((m) => m.indicator === 'bodyMass' && typeof m.value === 'number').sort((a, b) => b.timestamp.localeCompare(a.timestamp))[0]
+  if (!mass) return 2.5
+  return Math.max(2.1, Math.round(0.032 * mass.value * 4) / 4)
+}
+const intakeKey = (id) => 'chm-intake-' + id
+const intakeId = (id, ind, day) => `${id}-${ind}-${day}`
+type Day = { water: number; meals: string[]; committed?: boolean }
+function intakeStore(id): { goal?: number; days: Record<string, Day> } {
+  try { return JSON.parse(localStorage.getItem(intakeKey(id)) || '') || { days: {} } } catch { return { days: {} } }
+}
+function saveIntakeStore(id, s) {
+  try { localStorage.setItem(intakeKey(id), JSON.stringify(s)) } catch {}
+  notify()
+}
+
+/** Commit every finished day that has not been saved as measurements yet. Safe to call often. */
+export async function commitIntake(id) {
+  const s = intakeStore(id)
+  const today = todayKey()
+  const due = Object.entries(s.days).filter(([day, d]) => day < today && !d.committed && (d.water > 0 || d.meals.length > 0))
+  if (!due.length) return
+  for (const [day, d] of due) {
+    const timestamp = `${day}T23:59:00.000Z`
+    const base = { crewId: id, timestamp, quality: { score: 1, passed: true }, source: 'manual' }
+    await addMeasurement({ ...base, id: intakeId(id, 'waterIntake', day), indicator: 'waterIntake', value: Math.round(d.water * 100) / 100, unit: 'L' })
+    await addMeasurement({ ...base, id: intakeId(id, 'mealsEaten', day), indicator: 'mealsEaten', value: d.meals.length, unit: 'meals' })
+    s.days[day] = { ...d, committed: true }
+  }
+  saveIntakeStore(id, s)
+  bridge.refresh()
+}
+
+/** Today's totals, the goal, and the last seven days (finished days come from the database). */
+export function intake(id) {
+  const s = intakeStore(id)
+  const today = todayKey()
+  const d = s.days[today] || { water: 0, meals: [] }
+  const ms = getSnapshot().measurements[id] ?? []
+  const week = Array.from({ length: 7 }, (_, i) => {
+    const day = dayKey(Date.now() - (6 - i) * DAY)
+    if (day === today) return { day, water: d.water, today: true }
+    const m = ms.find((x) => x.id === intakeId(id, 'waterIntake', day))
+    return { day, water: m ? m.value : (s.days[day]?.water ?? 0), today: false }
+  })
+  return { water: d.water, meals: d.meals, goal: s.goal ?? defaultWaterGoal(id), custom: s.goal !== undefined, week }
+}
+
+export function setWaterGoal(id, goal) {
+  const s = intakeStore(id)
+  saveIntakeStore(id, { ...s, goal: Math.min(6, Math.max(0.5, Math.round(goal * 4) / 4)) })
+}
+
+/** The effort credit for logging food or water, once a day each, using the app's own cap. */
+function intakeCredit(id, ind) {
+  const effort = { kind: 'readingLogged', detail: ind }
+  const { credited } = creditableKinds(getSnapshot().events[id] ?? [], [effort], id, new Date())
+  if (!credited.length) return 0
+  void addEvent({ id: crypto.randomUUID(), crewId: id, timestamp: new Date().toISOString(), ...effort }).then(() => bridge.refresh())
+  return POINTS.readingLogged
+}
+
+/** Add (or with a negative amount, take back) water in litres. Returns coins earned. */
+export function addWater(id, litres) {
+  const s = intakeStore(id)
+  const today = todayKey()
+  const d = s.days[today] || { water: 0, meals: [] }
+  const water = Math.min(10, Math.max(0, Math.round((d.water + litres) * 100) / 100))
+  saveIntakeStore(id, { ...s, days: { ...s.days, [today]: { ...d, water } } })
+  return litres > 0 ? intakeCredit(id, 'waterIntake') : 0
+}
+
+/** Mark a meal eaten, or un-mark it. Returns coins earned. */
+export function toggleMeal(id, meal) {
+  const s = intakeStore(id)
+  const today = todayKey()
+  const d = s.days[today] || { water: 0, meals: [] }
+  const had = d.meals.includes(meal)
+  const meals = had ? d.meals.filter((m) => m !== meal) : [...d.meals, meal]
+  saveIntakeStore(id, { ...s, days: { ...s.days, [today]: { ...d, meals } } })
+  return had ? 0 : intakeCredit(id, 'mealsEaten')
+}
+
+/* ---- Mission schedule: this person's own blocks and hand ticks (see lib/schedule.ts) -------- */
+const scheduleKey = (id) => 'chm-schedule-' + id
+export function scheduleStore(id): { custom: any[]; ticks: Record<string, string[]> } {
+  try { return { custom: [], ticks: {}, ...JSON.parse(localStorage.getItem(scheduleKey(id)) || '{}') } } catch { return { custom: [], ticks: {} } }
+}
+function saveSchedule(id, s) {
+  try { localStorage.setItem(scheduleKey(id), JSON.stringify(s)) } catch {}
+  notify()
+}
+const localDayKey = (d = new Date()) => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`
+export function addBlock(id, b) {
+  const s = scheduleStore(id)
+  saveSchedule(id, { ...s, custom: [...s.custom, { ...b, id: 'my-' + crypto.randomUUID().slice(0, 8), kind: 'custom', ...(b.repeat === 'once' ? { day: localDayKey() } : {}) }] })
+}
+export function removeBlock(id, blockId) {
+  const s = scheduleStore(id)
+  saveSchedule(id, { ...s, custom: s.custom.filter((b) => b.id !== blockId) })
+}
+/** Hand ticks are for the person's own tracking only; they never pay coins. */
+export function tickBlock(id, blockId) {
+  const s = scheduleStore(id)
+  const day = localDayKey()
+  const t = s.ticks[day] || []
+  saveSchedule(id, { ...s, ticks: { [day]: t.includes(blockId) ? t.filter((x) => x !== blockId) : [...t, blockId] } })
+}
+export const ticksToday = (id) => scheduleStore(id).ticks[localDayKey()] || []
