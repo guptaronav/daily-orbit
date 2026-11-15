@@ -77,6 +77,7 @@ export function ReportPage() {
         </header>
 
         <h2 style={h2}>Readings against this person's own usual</h2>
+        <div style={{ overflowX: 'auto' }}>
         <table style={{ width: '100%', borderCollapse: 'collapse' }}>
           <thead>
             <tr>
@@ -105,6 +106,7 @@ export function ReportPage() {
             })}
           </tbody>
         </table>
+        </div>
 
         <h2 style={h2}>Patterns and self-report gaps</h2>
         {pats.length === 0 && gaps.length === 0 ? (
