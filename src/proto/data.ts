@@ -1009,9 +1009,14 @@ export function radiationBudget(crewId) {
   const ms = getSnapshot().measurements[crewId] ?? []
   const first = ms.length ? Math.min(...ms.map((m) => Date.parse(m.timestamp))) : Date.now()
   const missionDays = Math.max(0, Math.floor((Date.now() - first) / DAY))
-  const dose = ms.filter((m) => m.indicator === 'radiationDose' && typeof m.value === 'number').sort((a, b) => b.timestamp.localeCompare(a.timestamp))[0]
+  const doses = ms.filter((m) => m.indicator === 'radiationDose' && typeof m.value === 'number').sort((a, b) => b.timestamp.localeCompare(a.timestamp))
+  const dose = doses[0]
+  // A replay's readings are a running total that starts from the quiet days already on the ledger;
+  // the mission days are counted above, so only what the storm itself added goes on the budget.
+  const replay = doses.filter((m) => String(m.id).startsWith('radiation-replay-'))
+  const eventMSv = !dose ? 0 : String(dose.id).startsWith('radiation-replay-') ? Math.max(0, dose.value - Math.min(...replay.map((m) => m.value))) : dose.value
   const env = getState().envId
-  const b = careerBudget({ prior: PRIOR_MISSIONS_MSV[crewId] ?? 0, missionDays, env, eventMSv: dose ? dose.value : 0 })
+  const b = careerBudget({ prior: PRIOR_MISSIONS_MSV[crewId] ?? 0, missionDays, env, eventMSv })
   return { ...b, limit: CAREER_LIMIT_MSV, limitUrl: CAREER_LIMIT_SOURCE, missionDays, rateBasis: DAILY_RATE[env]?.basis, rateUrl: DAILY_RATE[env]?.url, priorSimulated: crewId !== 'guest' }
 }
 
@@ -1745,4 +1750,18 @@ export function escalationAdvice(crewId) {
     delay: formatDelay(Math.round(getState().delay)),
     openAlerts: open.length,
   }
+}
+
+/* ---- Radiation replay: sheltering is a care step --------------------------------------------- */
+/** Reaching the shelter in a replayed storm counts as following a care step (+10, once a day). */
+export function recordShelter(id) {
+  const effort = { kind: 'countermeasureComplete', detail: 'shelter' }
+  const { credited } = creditableKinds(getSnapshot().events[id] ?? [], [effort], id, new Date())
+  const points = credited.length ? Math.min(POINTS.countermeasureComplete, capRoom(id)) : 0
+  if (credited.length) {
+    void addEvent({ id: crypto.randomUUID(), crewId: id, timestamp: new Date().toISOString(), ...effort }).then(() => bridge.refresh())
+    if (points) announce(points, 'Sheltered from the solar storm')
+    else announce(0, 'Daily coin limit reached', true)
+  }
+  return points
 }

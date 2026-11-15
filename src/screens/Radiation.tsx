@@ -46,6 +46,7 @@ export function Radiation() {
   const [playing, setPlaying] = useState(false)
   const [started, setStarted] = useState(false)
   const [shelterStep, setShelterStep] = useState<number | null>(null)
+  const [shelterCoins, setShelterCoins] = useState(0)
   // The remapped time of the last replay step. Fixed when a replay starts so steps keep stable timestamps.
   const [endMs, setEndMs] = useState(() => Date.now())
 
@@ -109,6 +110,17 @@ export function Radiation() {
     )
   }
 
+  // End the replay and take its readings off Body, so a demo storm does not linger in the data.
+  const clearReplay = () => {
+    setPlaying(false)
+    setStarted(false)
+    queue.current = queue.current.then(async () => {
+      await removeMeasurements(Array.from({ length: total }, (_, i) => replayMeasurementId(crewId, i)))
+      written.current = { key: '', step: -1 }
+      refresh()
+    })
+    restart()
+  }
   const move = (next: number) => {
     setStarted(true)
     setStep(Math.max(0, Math.min(next, total - 1)))
@@ -123,6 +135,12 @@ export function Radiation() {
   const measured = replay.doseRateMGyPerH[step] !== null
   const budget = D.radiationBudget(crewId) as { used: number; limit: number; daysLeft: number; status: string; rate: number }
   const name = currentCrew?.name ?? 'this crew member'
+  // What the storm itself added, in terms people can weigh: days of the quiet background rate, and
+  // the share of NASA's 600 mSv career limit.
+  const added = Math.max(now - atOnset, 0)
+  const quietPerDay = Math.max(replay.quietRateMGyPerH, 0) * 24
+  const daysEquivalent = quietPerDay > 0 ? added / quietPerDay : 0
+  const shareOfLimit = (added / budget.limit) * 100
   const pct = Math.min(100, (budget.used / budget.limit) * 100)
 
   return (
@@ -221,6 +239,11 @@ export function Radiation() {
             <button type="button" disabled={step === 0 && !started} onClick={() => restart()} style={ghost(step === 0 && !started)}>
               Restart
             </button>
+            {started && (
+              <button type="button" onClick={clearReplay} style={{ ...ghost(false), border: 0, background: 'transparent', color: 'var(--accent)', textDecoration: 'underline' }}>
+                End and clear its readings from Body
+              </button>
+            )}
           </div>
         </div>
       </section>
@@ -233,12 +256,16 @@ export function Radiation() {
           <p style={{ margin: 0, fontSize: 14.5, lineHeight: 1.5 }}>Radiation levels outside the shelter are rising. Stop what you are doing, tell your crewmates, and stay in the shelter until the event is declared over.</p>
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8, alignItems: 'center' }}>
             {shelterStep === null || shelterStep > step ? (
-              <button type="button" className="fw-press" onClick={() => setShelterStep(step)} style={{ minHeight: 44, padding: '0 18px', borderRadius: 13, border: 0, background: 'var(--act)', color: 'var(--paper)', boxShadow: '0 4px 0 #6e1712', fontWeight: 800, cursor: 'pointer' }}>
+              <button type="button" className="fw-press" onClick={() => {
+                  setShelterStep(step)
+                  setShelterCoins(D.recordShelter(crewId) as number)
+                }} style={{ minHeight: 44, padding: '0 18px', borderRadius: 13, border: 0, background: 'var(--act)', color: 'var(--paper)', boxShadow: '0 4px 0 #6e1712', fontWeight: 800, cursor: 'pointer' }}>
                 We are in the shelter
               </button>
             ) : (
               <strong style={{ fontSize: 14.5 }}>
                 Shelter reached {shelterStep === onsetStep ? 'in the first hour of the event' : `${shelterStep - onsetStep} h after the prompt`}. The ledger does not model the shelter's shielding.
+                {shelterCoins > 0 && <span style={{ marginLeft: 8, color: '#a8740a' }}>+{shelterCoins} coins for a care step</span>}
               </strong>
             )}
             <button type="button" onClick={() => openEscalation({ title: 'Solar particle event: crew sheltering', detail: `Replay of DONKI ${replay.id}; simulated dose ${now.toFixed(2)} mSv so far.`, status: 'red' })} style={ghost(false)}>
@@ -265,7 +292,18 @@ export function Radiation() {
             <LedgerRow label={`Dose rate this hour${measured ? '' : ' (no measurement, last rate held)'}`} value={`${sig(rates[step])} mGy/h`} />
             <LedgerRow label="Proton flux near Earth this hour, above 10 MeV" value={typeof flux === 'number' ? `${sig(flux)} pfu` : 'No measurement'} />
           </dl>
-          <span style={{ fontSize: 13, color: 'var(--muted)' }}>Each replayed hour is saved as a radiation dose reading, so it shows on Body under Whole body.</span>
+          {added > 0 && (
+            <div style={{ padding: '10px 12px', borderRadius: 14, background: 'rgba(179,38,30,.07)', border: '1px solid rgba(179,38,30,.3)', fontSize: 14, lineHeight: 1.5 }}>
+              <strong>This storm has added {added.toFixed(2)} mSv</strong>: as much as about {daysEquivalent < 10 ? daysEquivalent.toFixed(1) : Math.round(daysEquivalent)} days of the quiet background before it, and {shareOfLimit < 1 ? shareOfLimit.toFixed(2) : shareOfLimit.toFixed(1)}% of NASA's 600 mSv career limit.
+            </div>
+          )}
+          <span style={{ fontSize: 13, color: 'var(--muted)' }}>
+            Each replayed hour is saved as a radiation dose reading, so it shows on{' '}
+            <button type="button" onClick={() => openSection('body', 'readings')} style={link}>
+              Body
+            </button>{' '}
+            and counts toward the career budget above.
+          </span>
         </div>
         <div style={{ ...card }}>
           <p style={kicker}>Cumulative dose over the event</p>
