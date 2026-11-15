@@ -27,9 +27,9 @@ Daily Orbit is a one-minute daily health check for astronauts on long missions. 
 | **Check in** | The one-minute mirror check |
 | **Log** | Readings (blood pressure, temperature, blood sugar, sleep, exercise, body mass), food and water, the alertness test, and body checks (pain map, stand-up test, weekly workload and mood, grip strength) |
 | **Body** | A clickable body map of six regions, patterns with care plans, and NASA's five hazards, including the radiation budget and a replay of a real solar storm |
-| **Crew** | Everyone at once and the alert loop for the crew medical officer |
+| **Crew** | Everyone at once, the alert loop for the crew medical officer, who to tell, and what is sent to Earth (with the real message delay) |
 | **Rewards** | Streaks, levels, mission pass and locker. Coins pay for showing up, never for a health value, so nobody has a reason to hide a bad day |
-| **More** | Mission schedule, escalation ladder and ground link, metrics, sources. The page icon in the header opens the weekly report for the flight surgeon |
+| **More** | Mission schedule, metrics, sources. The page icon in the header opens the weekly report for the flight surgeon |
 
 **28 indicators**, including all six the brief names (blood pressure, heart rate, blood sugar, body temperature, sleep hours, mood). Missions: ISS, the Moon, Mars transit and Mars surface, each with its real message delay.
 
@@ -184,6 +184,11 @@ npm run dev
 
 Built with React 19, TypeScript, Vite, Dexie (IndexedDB) and MediaPipe Face Landmarker. Much of the code was written with Claude Code, an AI coding assistant, from the team's direction. No NASA logos or branding are used.
 
-## Team
+## Team: Our Apollo-gies
 
-**Ronav Gupta** (lead), **Arnav Jain**, **Evode Manirahari** and **Jingbo Xia**.
+| Name | Role |
+|---|---|
+| **Ronav Gupta** | Team lead: webcam mirror check, heart-rate and blink signal code, scoring, data layer |
+| **Arnav Jain** | Design and front end: every screen, body checks, escalation, rewards and mission banners |
+| **Evode Manirahari** | NASA data and research: bed-rest import, radiation replay, Sources screen |
+| **Jingbo Xia** | Presentation and pitch |

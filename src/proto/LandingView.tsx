@@ -13,93 +13,94 @@ export function LandingView({ v }: { v: any }) {
       <div data-chm-root="1" style={S({ '--ink': '#14181f', '--ink-soft': '#2b323d', '--paper': '#f3f1ea', '--paper-deep': '#e8e4d8', '--panel': '#fbfaf6', '--panel-2': '#f6f4ec', '--rule': '#d9d4c4', '--rule-strong': '#a49c88', '--muted': '#5b6270', '--accent': '#0b3d91', '--accent-wash': '#e4e9f3', '--ok': '#2f7d4f', '--ok-ink': '#1b5b33', '--watch': '#b7791f', '--watch-ink': '#7a4f00', '--act': '#b3261e', '--act-ink': '#8c1d18', '--nodata': '#8a8f98', '--nodata-ink': '#5b6270', '--on-accent': '#ffffff', '--star-o': '0', '--glow': 'none', minHeight: '100vh', display: 'flex', flexDirection: 'column', background: 'var(--paper)', color: 'var(--ink)', fontFamily: 'ui-sans-serif, system-ui, -apple-system, \'Segoe UI\', Roboto, sans-serif', fontVariantNumeric: 'tabular-nums' })}>
         <P.TopBar current="Home" />
         <main id="main" style={S({ flex: '1', width: '100%', maxWidth: '1440px', margin: '0 auto', padding: '28px clamp(16px, 3vw, 32px) 80px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '28px' })}>
-          <section aria-labelledby="hero-heading" style={S({ display: 'flex', flexWrap: 'wrap', alignItems: 'stretch', gap: '24px' })}>
-            <div style={S({ flex: '1.35 1 520px', display: 'flex', flexDirection: 'column', justifyContent: 'center', gap: '22px', padding: 'clamp(8px, 3vw, 32px) 0' })}>
-              <p style={S({ margin: '0', display: 'flex', flexWrap: 'wrap', gap: '8px', animation: 'ld-rise 600ms cubic-bezier(.22,1,.36,1) both' })}>
-                <span style={S({ padding: '6px 12px', borderRadius: '999px', background: 'var(--panel)', border: '1px solid var(--rule)', fontSize: '13px', fontWeight: '600', whiteSpace: 'nowrap' })}>
+          <section aria-labelledby="hero-heading" className="hero" style={S({ display: 'flex', flexWrap: 'wrap', alignItems: 'stretch', gap: '24px' })}>
+            <div style={S({ flex: '1.25 1 520px', minWidth: '0', display: 'flex', flexDirection: 'column', justifyContent: 'center', gap: '24px', padding: 'clamp(8px, 3vw, 28px) 0' })}>
+              <p style={S({ margin: '0', display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: '8px', animation: 'ld-rise 600ms cubic-bezier(.22,1,.36,1) both' })}>
+                <span style={S({ display: 'inline-flex', alignItems: 'center', gap: '8px', padding: '6px 12px 6px 8px', borderRadius: '999px', background: '#14181f', color: '#f3f1ea', fontSize: '13px', fontWeight: '650', whiteSpace: 'nowrap' })}>
+                  <span aria-hidden="true" style={S({ width: '18px', height: '18px', borderRadius: '99px', background: 'radial-gradient(circle at 35% 35%, #ffe08a, #f6c445 55%, #a8740a)' })} />
                   NASA Space Apps Challenge 2026
                 </span>
-                <span style={S({ padding: '6px 12px', borderRadius: '999px', background: 'var(--panel)', border: '1px solid var(--rule)', fontSize: '13px', fontWeight: '600', whiteSpace: 'nowrap' })}>
-                  Runs offline · No upload
-                </span>
+                <span className="hero-chip">Works offline</span>
+                <span className="hero-chip">Nothing leaves this device</span>
               </p>
-              <h1 id="hero-heading" style={S({ margin: '0', fontSize: 'clamp(48px, 7.4vw, 104px)', lineHeight: '.88', fontWeight: '800', letterSpacing: '-0.06em', animation: 'ld-rise 700ms 80ms cubic-bezier(.22,1,.36,1) both' })}>
-                A minute
-                <br />
-                a day keeps
-                <br />
-                the crew flying.
+              <h1 id="hero-heading" style={S({ margin: '0', fontSize: 'clamp(44px, 6.6vw, 96px)', lineHeight: '.92', fontWeight: '780', letterSpacing: '-0.055em', textWrap: 'balance', animation: 'ld-rise 700ms 80ms cubic-bezier(.22,1,.36,1) both' })}>
+                A minute a day <br className="hero-br" />keeps <span className="hero-accent">the crew flying.</span>
               </h1>
-              <p style={S({ margin: '0', maxWidth: '54ch', fontSize: 'clamp(17px, 1.5vw, 20px)', lineHeight: '1.55', color: 'var(--ink-soft)', textWrap: 'pretty', animation: 'ld-rise 700ms 160ms cubic-bezier(.22,1,.36,1) both' })}>
-                On a long mission there is no clinic down the hall. This app reads what it can from your webcam, compares it with your own baseline, and tells you when to escalate — and when it cannot get a clean reading, it says so instead of guessing.
+              <p style={S({ margin: '0', maxWidth: '52ch', fontSize: 'clamp(17px, 1.45vw, 19.5px)', lineHeight: '1.6', color: 'var(--ink-soft)', textWrap: 'pretty', animation: 'ld-rise 700ms 160ms cubic-bezier(.22,1,.36,1) both' })}>
+                On the way to Mars there is no clinic down the hall. Daily Orbit reads your pulse and blinking from the webcam, compares every reading with <strong>your own normal</strong>, and tells you what to do and who to tell. If it can't get a clean reading, it says so instead of guessing.
               </p>
               <div style={S({ display: 'flex', flexWrap: 'wrap', gap: '12px', animation: 'ld-rise 700ms 240ms cubic-bezier(.22,1,.36,1) both' })}>
-                <a href="Mirror.dc.html" style={S({ display: 'inline-flex', alignItems: 'center', gap: '10px', minHeight: '58px', padding: '0 26px', borderRadius: '18px', background: '#14181f', color: '#f3f1ea', textDecoration: 'none', fontSize: '16px', fontWeight: '750', boxShadow: '0 6px 0 #000', transition: 'transform 90ms ease, box-shadow 90ms ease' })} className="landingview-hover-1 landingview-active-2">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.9" strokeLinecap="round" strokeLinejoin="round">
+                <a href="Mirror.dc.html" style={S({ display: 'inline-flex', alignItems: 'center', gap: '10px', minHeight: '56px', padding: '0 24px', borderRadius: '18px', background: '#14181f', color: '#f3f1ea', textDecoration: 'none', fontSize: '16px', fontWeight: '750', boxShadow: '0 6px 0 #000', transition: 'transform 90ms ease, box-shadow 90ms ease' })} className="landingview-hover-1 landingview-active-2">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.9" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                     <path d={v.scanIcon}>
                     </path>
                   </svg>
                   Take the mirror check
                 </a>
-                <a href="Body%20Map.dc.html" style={S({ display: 'inline-flex', alignItems: 'center', gap: '10px', minHeight: '58px', padding: '0 24px', borderRadius: '18px', background: 'var(--panel)', color: 'var(--ink)', textDecoration: 'none', fontSize: '16px', fontWeight: '700', border: '2px solid var(--rule-strong)', boxShadow: '0 6px 0 var(--rule-strong)', transition: 'transform 90ms ease, box-shadow 90ms ease' })} className="landingview-hover-3 landingview-active-4">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.9" strokeLinecap="round" strokeLinejoin="round">
+                <a href="Body%20Map.dc.html" style={S({ display: 'inline-flex', alignItems: 'center', gap: '10px', minHeight: '56px', padding: '0 22px', borderRadius: '18px', background: 'var(--panel)', color: 'var(--ink)', textDecoration: 'none', fontSize: '16px', fontWeight: '700', border: '2px solid var(--rule-strong)', boxShadow: '0 6px 0 var(--rule-strong)', transition: 'transform 90ms ease, box-shadow 90ms ease' })} className="landingview-hover-3 landingview-active-4">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.9" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                     <path d={v.bodyIcon}>
                     </path>
                   </svg>
-                  Explore the crew dashboard
+                  See your body
                 </a>
-                <button type="button" className="fw-press" onClick={() => window.dispatchEvent(new CustomEvent('tour:start', { detail: { auto: true } }))} style={S({ display: 'inline-flex', alignItems: 'center', gap: '10px', minHeight: '58px', padding: '0 24px', borderRadius: '18px', background: '#f6c445', color: '#14181f', border: '0', boxShadow: '0 6px 0 #a8740a', fontSize: '16px', fontWeight: '750', cursor: 'pointer' })}>
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M5 3l14 9-14 9V3z" /></svg>
-                  Play the 2-minute tour
+                <button type="button" className="fw-press" onClick={() => window.dispatchEvent(new CustomEvent('tour:start', { detail: { auto: true } }))} style={S({ display: 'inline-flex', alignItems: 'center', gap: '10px', minHeight: '56px', padding: '0 22px', borderRadius: '18px', background: '#f6c445', color: '#14181f', border: '0', boxShadow: '0 6px 0 #a8740a', fontSize: '16px', fontWeight: '750', cursor: 'pointer' })}>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6 4l14 8-14 8V4z" /></svg>
+                  2-minute tour
                 </button>
               </div>
-              <dl style={S({ margin: '6px 0 0', display: 'flex', flexWrap: 'wrap', gap: '10px 28px', animation: 'ld-rise 700ms 320ms cubic-bezier(.22,1,.36,1) both' })}>
+              <dl className="hero-stats" style={S({ margin: '4px 0 0', display: 'flex', flexWrap: 'wrap', gap: '0', animation: 'ld-rise 700ms 320ms cubic-bezier(.22,1,.36,1) both' })}>
                 {(v.heroStats ?? []).map((h: any, h_i: number) => (
-                    <Fragment key={h_i}>
-                  <div>
-                    <dt style={S({ fontSize: '13px', color: 'var(--muted)' })}>
-                      {h.k}
-                    </dt>
-                    <dd style={S({ margin: '2px 0 0', fontSize: '30px', fontWeight: '800', letterSpacing: '-0.04em' })}>
+                  <div key={h_i}>
+                    <dd style={S({ margin: '0', fontSize: 'clamp(26px, 2.6vw, 34px)', fontWeight: '780', letterSpacing: '-0.04em' })}>
                       {h.v}
                     </dd>
+                    <dt style={S({ marginTop: '2px', fontSize: '13px', color: 'var(--muted)' })}>
+                      {h.k}
+                    </dt>
                   </div>
-                    </Fragment>
-                  ))}
+                ))}
               </dl>
             </div>
-            <div style={S({ flex: '1 1 380px', position: 'relative', minHeight: '520px', borderRadius: '36px', overflow: 'hidden', background: 'radial-gradient(120% 90% at 50% 0%, #1f2530, #0b0d11 70%)', color: '#f3f1ea', animation: 'ld-rise 800ms 120ms cubic-bezier(.22,1,.36,1) both' })}>
-              <span aria-hidden="true" style={S({ position: 'absolute', inset: '0', background: 'radial-gradient(1px 1px at 12% 18%, #fff, transparent), radial-gradient(1px 1px at 72% 12%, #fff, transparent), radial-gradient(1.5px 1.5px at 86% 56%, #fff, transparent), radial-gradient(1px 1px at 24% 74%, #fff, transparent), radial-gradient(1px 1px at 48% 40%, rgba(255,255,255,.6), transparent), radial-gradient(1px 1px at 92% 86%, #fff, transparent)', opacity: '.8' })}>
-              </span>
-              <div aria-hidden="true" style={S({ position: 'absolute', left: '50%', top: '46%', width: '340px', height: '340px', margin: '-170px 0 0 -170px', borderRadius: '999px', border: '1px dashed rgba(243,241,234,.18)', animation: 'ld-orbit 40s linear infinite' })}>
+            <div className="hero-scene" style={S({ flex: '1 1 380px', minWidth: '0', position: 'relative', minHeight: '540px', borderRadius: '36px', overflow: 'hidden', background: 'radial-gradient(120% 90% at 50% 0%, #1f2a3d, #0b0d11 72%)', color: '#f3f1ea', animation: 'ld-rise 800ms 120ms cubic-bezier(.22,1,.36,1) both' })}>
+              <span aria-hidden="true" className="hero-stars" />
+              <span aria-hidden="true" className="hero-planet" style={S({ background: v.planet })} />
+              <div style={S({ position: 'absolute', left: '18px', right: '18px', top: '18px', display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', alignItems: 'center', gap: '8px', fontSize: '13px' })}>
+                <span style={S({ fontWeight: '650', color: 'rgba(243,241,234,.82)' })}>
+                  {v.missionLine}
+                </span>
+                <span style={S({ display: 'inline-flex', alignItems: 'center', gap: '7px', padding: '5px 11px', borderRadius: '99px', background: 'rgba(243,241,234,.1)', border: '1px solid rgba(243,241,234,.16)', fontWeight: '700' })}>
+                  <span aria-hidden="true" className="hero-live" />
+                  {v.delayLine}
+                </span>
+              </div>
+              <div aria-hidden="true" style={S({ position: 'absolute', left: '50%', top: '45%', width: '420px', height: '420px', margin: '-210px 0 0 -210px', borderRadius: '999px', border: '1px solid rgba(243,241,234,.07)' })} />
+              <div aria-hidden="true" style={S({ position: 'absolute', left: '50%', top: '45%', width: '300px', height: '300px', margin: '-150px 0 0 -150px', borderRadius: '999px', border: '1px dashed rgba(243,241,234,.2)', animation: 'ld-orbit 40s linear infinite' })}>
                 {(v.orbit ?? []).map((o: any, o_i: number) => (
-                    <Fragment key={o_i}>
-                  <span style={S({ position: 'absolute', left: o.x, top: o.y, transform: 'translate(-50%, -50%)' })}>
+                  <span key={o_i} style={S({ position: 'absolute', left: o.x, top: o.y, transform: 'translate(-50%, -50%)' })}>
                     <span style={S({ display: 'block', animation: 'ld-counter 40s linear infinite' })}>
-                      <P.Avatar crew={o.crew} gear={o.gear} size={52} ring="rgba(243,241,234,.3)" />
+                      <P.Avatar crew={o.crew} gear={o.gear} size={50} ring="rgba(243,241,234,.3)" />
                     </span>
                   </span>
-                    </Fragment>
-                  ))}
+                ))}
               </div>
-              <div style={S({ position: 'absolute', left: '50%', top: '46%', transform: 'translate(-50%, -50%)' })}>
-                <div style={S({ animation: 'ld-float 5s ease-in-out infinite' })}>
-                  <P.Avatar crew={v.me} gear={v.myGear} size={150} ring="#f3f1ea" level={v.myLvl} />
+              <div style={S({ position: 'absolute', left: '50%', top: '45%', transform: 'translate(-50%, -50%)' })}>
+                <div aria-hidden="true" className="hero-halo" />
+                <div style={S({ position: 'relative', animation: 'ld-float 5s ease-in-out infinite' })}>
+                  <P.Avatar crew={v.me} gear={v.myGear} size={140} ring="#f3f1ea" level={v.myLvl} />
                 </div>
               </div>
               <div style={S({ position: 'absolute', left: '16px', right: '16px', bottom: '16px', display: 'flex', gap: '8px', flexWrap: 'wrap' })}>
                 {(v.heroChips ?? []).map((c: any, c_i: number) => (
-                    <Fragment key={c_i}>
-                  <span style={S({ flex: '1 1 100px', display: 'flex', flexDirection: 'column', gap: '2px', padding: '12px 14px', borderRadius: '18px', background: 'rgba(243,241,234,.08)', backdropFilter: 'blur(8px)', WebkitBackdropFilter: 'blur(8px)', border: '1px solid rgba(243,241,234,.12)', animation: `ld-pop 500ms ${c.delay} cubic-bezier(.34,1.56,.64,1) both` })}>
+                  <span key={c_i} style={S({ flex: '1 1 100px', display: 'flex', flexDirection: 'column', gap: '2px', padding: '12px 14px', borderRadius: '18px', background: 'rgba(11,13,17,.55)', backdropFilter: 'blur(10px)', WebkitBackdropFilter: 'blur(10px)', border: '1px solid rgba(243,241,234,.14)', animation: `ld-pop 500ms ${c.delay} cubic-bezier(.34,1.56,.64,1) both` })}>
                     <span style={S({ fontSize: '12.5px', opacity: '.7', whiteSpace: 'nowrap' })}>
                       {c.k}
                     </span>
-                    <span style={S({ fontSize: '20px', fontWeight: '800', letterSpacing: '-0.02em', color: c.color, whiteSpace: 'nowrap' })}>
+                    <span style={S({ fontSize: '19px', fontWeight: '780', letterSpacing: '-0.02em', color: c.color, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' })}>
                       {c.v}
                     </span>
                   </span>
-                    </Fragment>
-                  ))}
+                ))}
               </div>
             </div>
           </section>

@@ -2,7 +2,8 @@
 /* eslint-disable */
 // GENERATED from the UI overhaul prototype by dc2jsx.py. Styles are the prototype's, verbatim.
 // Edit the view model that feeds this, not this markup, unless you are re-porting the prototype.
-import { Fragment } from 'react'
+import { Fragment, Suspense } from 'react'
+import { EscalationSection } from './pages'
 import { AlertsPanel } from './Alerts'
 import { FloatingCrew } from './FloatingCrew'
 import { BannerScene } from './MissionScene'
@@ -169,6 +170,9 @@ export function MedicalView({ v }: { v: any }) {
             </div>
             </>
           ) : null}
+          <Suspense fallback={null}>
+            <EscalationSection />
+          </Suspense>
         </main>
         <P.SiteFooter dock={true} />
         <P.CrewDock current="Medical view" />

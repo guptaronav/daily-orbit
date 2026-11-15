@@ -19,7 +19,7 @@ const GROUPS = [
   {
     title: 'Crew and mission',
     links: [
-      ['Escalation.dc.html', 'Escalation ladder'],
+      ['Escalation.dc.html', 'Who to tell (on Crew)'],
       ['Medical%20View.dc.html', 'Crew'],
       ['Rewards.dc.html', 'Rewards'],
       ['Radiation.dc.html', 'Solar storm replay'],
@@ -37,11 +37,14 @@ const GROUPS = [
   },
 ]
 
+// Team Our Apollo-gies.
 const TEAM = [
-  ['Ronav Gupta', 'Lead, camera and signal'],
-  ['Arnav Jain', 'Design, screens and game'],
-  ['Evode Manirahari', 'NASA data and research'],
+  ['Ronav Gupta', 'Team lead: camera check, signal processing, data layer'],
+  ['Arnav Jain', 'Design and front end: screens, body checks, rewards'],
+  ['Evode Manirahari', 'NASA data: radiation replay, sources, research'],
+  ['Jingbo Xia', 'Presentation and pitch'],
 ]
+const REPO = 'https://github.com/guptaronav/daily-orbit'
 
 const PROMISES = ['Works offline', 'Nothing leaves this device', 'Not a medical device']
 
@@ -84,7 +87,7 @@ export function SiteFooterView({ v }: { v: any }) {
           </nav>
         ))}
         <div>
-          <p style={head}>Team</p>
+          <p style={head}>Team · Our Apollo-gies</p>
           <ul style={{ listStyle: 'none', margin: 0, padding: 0, display: 'grid', gap: 8 }}>
             {TEAM.map(([name, role]) => (
               <li key={name} style={{ display: 'grid' }}>
@@ -93,6 +96,9 @@ export function SiteFooterView({ v }: { v: any }) {
               </li>
             ))}
           </ul>
+          <a href={REPO} target="_blank" rel="noreferrer" className="footer-link" style={{ ...link, marginTop: 10, fontWeight: 650 }}>
+            Code on GitHub ↗
+          </a>
         </div>
       </div>
       <div style={{ borderTop: '1px solid var(--rule)' }}>

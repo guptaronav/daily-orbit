@@ -3,7 +3,6 @@ import { DemoPanel } from './components/DemoPanel'
 import { usePrototypeLinks } from './proto/dc'
 import {
   BodyMapPage,
-  EscalationPage,
   LandingPage,
   ManualPage,
   MedicalPage,
@@ -17,7 +16,7 @@ import { bridge, useProtoStore } from './proto/store'
 import { TodayPage } from './proto/TodayPage'
 import { ReportPage } from './proto/ReportPage'
 import { Tour } from './proto/Tour'
-import { openRadiation } from './proto/Sections'
+import { openEarthLink, openRadiation } from './proto/Sections'
 import { BootScreen } from './proto/BootScreen'
 import { GoalToast } from './proto/GoalToast'
 import { Moments } from './proto/Moments'
@@ -87,7 +86,7 @@ function Screen() {
   if (screen === 'landing') return <LandingPage />
   if (screen === 'bodymap') return <BodyMapPage />
   if (screen === 'manual') return <ManualPage />
-  if (screen === 'escalation') return <EscalationPage />
+  if (screen === 'escalation') return <EarthLinkRedirect />
   if (screen === 'medical') return <MedicalPage />
   if (screen === 'metrics') return <MetricsPage />
   if (screen === 'progress') return <RewardsPage />
@@ -192,5 +191,10 @@ export default function App() {
 
 function RadiationRedirect() {
   useEffect(() => openRadiation(), [])
+  return null
+}
+
+function EarthLinkRedirect() {
+  useEffect(() => openEarthLink(), [])
   return null
 }

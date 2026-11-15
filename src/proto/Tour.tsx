@@ -37,7 +37,7 @@ const STOPS: Stop[] = [
   { screen: 'manual', anchor: '#bodychecks-heading', title: 'Body checks', body: 'A pain map you tap on, a stand-up test for gravity changes, a weekly NASA-TLX workload and PHQ-2/GAD-2 mood check, and grip strength with bone-loading sessions. Each pays for doing it, never for the result.' },
   { screen: 'schedule', anchor: 'h1', title: 'The mission day', body: 'A NASA-shaped crew day, duties only your role sees, and your own blocks. Health blocks tick themselves when you do them.' },
   { screen: 'medical', anchor: '#alerts-heading', title: 'Nothing gets lost', body: 'The fever opened an alert with its action card. Unanswered alerts climb: after 15 minutes the backup medical officer is asked, after an hour it is time to tell Earth. If the medical officer is the patient, the backup covers. Readings that recover close their alert visibly.' },
-  { screen: 'escalation', anchor: '[data-tour="share"]', title: 'You decide what crosses to Earth', body: 'Choose which kinds of change leave the ship. Anything switched off stays onboard and is counted, never sent, and the packet size updates as you choose.' },
+  { screen: 'medical', anchor: '[data-tour="share"]', title: 'You decide what crosses to Earth', body: 'Choose which kinds of change leave the ship. Anything switched off stays onboard and is counted, never sent, and the packet size updates as you choose.' },
   {
     screen: 'medical',
     anchor: '#ask-orbit',

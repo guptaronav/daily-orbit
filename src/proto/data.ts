@@ -345,8 +345,6 @@ export const NAV = [
     { label: 'Manual entry', icon: 'pen', href: 'Manual%20Entry.dc.html', desc: 'Readings the camera cannot take' },
   ] },
   { group: 'Mission', items: [
-    { label: 'Escalation', icon: 'send', href: 'Escalation.dc.html', desc: 'Who to tell, and when' },
-    { label: 'Radiation', icon: 'shield', href: 'Radiation.dc.html', desc: 'Replay a historical solar particle event' },
     { label: 'Medical view', icon: 'users', href: 'Medical%20View.dc.html', desc: 'Every crew member at once' },
   ] },
   { group: 'Evidence', items: [

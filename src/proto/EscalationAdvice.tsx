@@ -1,7 +1,7 @@
 import { useState } from 'react'
+import { openEarthLink } from './Sections'
 import * as D from './data'
 import { useStoreTick } from './shared'
-import { bridge } from './store'
 
 /*
  * "What should I do?": the escalation ladder worked out from this person's own data, inside Ask
@@ -80,7 +80,7 @@ export function EscalationAdvice({ ctx }: { ctx?: EscalateContext }) {
             Send the summary to Earth
           </button>
         )}
-        <button type="button" onClick={() => bridge.go?.('escalation' as never)} style={{ ...btn(false), border: 0, background: 'transparent', color: 'var(--accent)', textDecoration: 'underline', padding: '0 4px' }}>
+        <button type="button" onClick={openEarthLink} style={{ ...btn(false), border: 0, background: 'transparent', color: 'var(--accent)', textDecoration: 'underline', padding: '0 4px' }}>
           The full ladder
         </button>
       </div>

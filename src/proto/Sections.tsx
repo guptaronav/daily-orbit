@@ -35,10 +35,21 @@ export function openSection(page: Page, tab: string) {
 /** The radiation replay sits at the bottom of Body's Five hazards tab: open it and scroll to it. */
 export function openRadiation() {
   openSection('body', 'hazards')
+  scrollToWhenReady('radiation-replay')
+}
+
+/** Who to tell and the link to Earth sit at the bottom of the Crew page. */
+export function openEarthLink() {
+  bridge.go?.('medical' as never)
+  scrollToWhenReady('earth-link')
+}
+
+/** Scroll to an element once a page (and any lazy part of it) has drawn it. */
+function scrollToWhenReady(id: string) {
   let tries = 0
   const find = () => {
-    const el = document.getElementById('radiation-replay')
-    // Wait for the scroll to the top and the tab's layout to settle, then jump to the replay.
+    const el = document.getElementById(id)
+    // Wait for the scroll to the top and the layout to settle, then jump.
     if (el) setTimeout(() => el.scrollIntoView({ behavior: 'smooth', block: 'start' }), 450)
     else if (tries++ < 40) setTimeout(find, 100)
   }
