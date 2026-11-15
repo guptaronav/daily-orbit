@@ -41,7 +41,8 @@ export class BodyFigureLogic extends DCLogic {
     ].map(([id, name, d]) => {
       const a = act(id, name)
       const base = a.s === 'gray' ? 0.1 : 0.2
-      return { ...a, d, fill: S[a.s], op: a.on ? 0.46 : base, hoverOp: a.on ? 0.5 : base + 0.14 }
+      const alerted = (this.props.alertRegions || []).includes(id)
+      return { ...a, d, fill: S[a.s], op: a.on ? 0.46 : alerted ? 0.42 : base, hoverOp: a.on ? 0.5 : base + 0.14, zanim: alerted ? 'bf-alert 1.6s ease-in-out infinite' : 'none' }
     })
     const organs = [
       ['eyes', 'Eyes', 'M84 44 C86 40.5 94 40.5 96 44 C94 47.5 86 47.5 84 44 Z M104 44 C106 40.5 114 40.5 116 44 C114 47.5 106 47.5 104 44 Z', [76, 30, 48, 28]],
@@ -49,7 +50,12 @@ export class BodyFigureLogic extends DCLogic {
       ['gut', 'Gut and nutrition', 'M93 184 H107 A10 10 0 0 1 117 194 V208 A10 10 0 0 1 107 218 H93 A10 10 0 0 1 83 208 V194 A10 10 0 0 1 93 184 Z', [76, 176, 48, 50]],
     ].map(([id, name, d, h]) => {
       const a = act(id, name)
-      return { ...a, d, fill: S[a.s], stroke: a.on ? 'var(--accent)' : 'var(--ink)', sw: a.on ? 2.5 : 1.1, hx: h[0], hy: h[1], hw: h[2], hh: h[3] }
+      // Departure from the prototype: the heart beats at the person's measured rate, and a region
+      // with an open alert glows, so the figure shows live data rather than decoration.
+      const bpm = this.props.bpm
+      const beat = id === 'heart' && bpm ? `bf-beat ${(60 / Math.min(200, Math.max(30, bpm))).toFixed(3)}s ease-in-out infinite` : 'none'
+      const glow = (this.props.alertRegions || []).includes(id) ? 'drop-shadow(0 0 6px var(--act))' : 'none'
+      return { ...a, d, fill: S[a.s], stroke: a.on ? 'var(--accent)' : 'var(--ink)', sw: a.on ? 2.5 : 1.1, hx: h[0], hy: h[1], hw: h[2], hh: h[3], beat, glow }
     })
     const A = { head: [100, 28], eyes: [100, 44], heart: [114, 130], gut: [100, 201], body: [100, 160], skeleton: [150, 200] }
     const pings = this.props.markers ? Object.keys(A).filter((k) => st[k] === 'yellow' || st[k] === 'red').map((k) => ({ x: A[k][0], y: A[k][1], c: S[st[k]] })) : []

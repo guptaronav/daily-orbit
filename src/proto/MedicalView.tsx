@@ -91,7 +91,7 @@ export function MedicalView({ v }: { v: any }) {
                     <BannerScene banner={v.gear?.banner} />
                     <FloatingCrew crew={v.crew} gear={v.gear} size={46} duration={13} />
                     <div style={S({ position: 'absolute', top: '12px', left: '12px', right: '12px', display: 'flex', justifyContent: 'space-between', gap: '6px' })}>
-                      <span style={S({ padding: '4px 10px', borderRadius: '999px', background: v.chipBg, color: v.chipInk, fontSize: '12.5px', fontWeight: '700', whiteSpace: 'nowrap' })}>
+                      <span style={S({ padding: '4px 10px', borderRadius: '999px', background: 'var(--panel)', boxShadow: `inset 0 0 0 1.5px ${v.chipInk}`, color: v.chipInk, fontSize: '12.5px', fontWeight: '700', whiteSpace: 'nowrap' })}>
                         {v.word}
                       </span>
                       <span style={S({ display: 'flex', gap: '6px' })}>

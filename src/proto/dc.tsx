@@ -75,6 +75,8 @@ const PAGES: Record<string, Screen> = {
   'radiation.dc.html': 'radiation',
   'sources.dc.html': 'sources',
   'schedule.dc.html': 'schedule',
+  'today.dc.html': 'today',
+  'report.dc.html': 'report',
 }
 
 export function screenForHref(href: string | null | undefined): Screen | null {

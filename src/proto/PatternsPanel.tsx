@@ -63,7 +63,7 @@ export function PatternsPanel() {
 
       {(D.gaps(crew.id) as { id: string; rated: { label: string; value: number }; measured: { label: string; text: string; status: string }[] }[]).map((g) => (
         <div key={g.id} role="note" style={{ display: 'flex', gap: 12, alignItems: 'flex-start', padding: '14px 16px', borderRadius: 18, background: 'var(--accent-wash)', border: '1.5px solid var(--accent)' }}>
-          <span aria-hidden="true" style={{ flex: '0 0 auto', display: 'grid', placeItems: 'center', width: 32, height: 32, borderRadius: 99, background: 'var(--accent)', color: '#fff', fontWeight: 800 }}>≠</span>
+          <span aria-hidden="true" style={{ flex: '0 0 auto', display: 'grid', placeItems: 'center', width: 32, height: 32, borderRadius: 99, background: 'var(--accent)', color: 'var(--paper)', fontWeight: 800 }}>≠</span>
           <div style={{ display: 'grid', gap: 4 }}>
             <strong style={{ fontSize: 15 }}>How you feel and what we measured disagree</strong>
             <p style={{ margin: 0, fontSize: 14, lineHeight: 1.5 }}>
@@ -85,7 +85,7 @@ export function PatternsPanel() {
             return (
               <li key={h.id} style={{ display: 'flex', flexDirection: 'column', gap: 10, padding: 16, borderRadius: 20, background: tone.wash, border: `2px solid ${tone.swatch}`, animation: 'ms-pop 360ms ease both' }}>
                 <p style={{ margin: 0, display: 'flex', alignItems: 'center', gap: 8 }}>
-                  <span style={{ padding: '3px 10px', borderRadius: 99, background: tone.swatch, color: '#fff', fontSize: 12.5, fontWeight: 750 }}>{tone.word}</span>
+                  <span style={{ padding: '3px 10px', borderRadius: 99, background: tone.swatch, color: 'var(--paper)', fontSize: 12.5, fontWeight: 750 }}>{tone.word}</span>
                   <strong style={{ fontSize: 16.5 }}>{h.title}</strong>
                 </p>
                 <p style={{ margin: 0, fontSize: 14, color: 'var(--ink-soft)' }}>{h.summary}</p>

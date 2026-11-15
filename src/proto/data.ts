@@ -1042,3 +1042,38 @@ export function ask(crewId, question) {
   const next = worst === 'red' ? 'Tell your crew medical officer today, and use Escalate if it is not settling.' : worst === 'yellow' ? 'Keep an eye on it: try the self-care steps, re-check tomorrow, and ask a crewmate for a second look if it stays.' : ''
   return { kind: 'answer', hits: hits.map((h) => ({ title: h.p.title, text: h.p.text, url: h.p.url })), mine: mine.filter((m) => m.status !== 'gray' || m.value !== null), patterns: pats, next }
 }
+
+/* ---- Ground link: transmissions that take the real comm delay to reach Earth ---------------- */
+const linkKey = (id) => 'chm-groundlink-' + id
+function linkStore(id) {
+  try { return JSON.parse(localStorage.getItem(linkKey(id)) || '[]') } catch { return [] }
+}
+/** Record a transmitted ground packet. Earth only sees it once the one-way delay has passed. */
+export function queuePacket(id) {
+  const delay = Math.round(getState().delay)
+  const p = buildPacket(id)
+  const now = Date.now()
+  const list = [{ id: crypto.randomUUID(), sentAt: now, arriveAt: now + delay * 1000, replyAt: now + 2 * delay * 1000, delay, env: getState().env.label, bytes: p.bytes, changed: p.changed.map((c) => c.label || c.indicator), count: p.changed.length }, ...linkStore(id)].slice(0, 20)
+  try { localStorage.setItem(linkKey(id), JSON.stringify(list)) } catch {}
+  notify()
+}
+/** Every transmission with where it is now, and what Earth knows at this moment. */
+export function groundLink(id) {
+  const now = Date.now()
+  const list = linkStore(id).map((x) => ({ ...x, state: now >= x.arriveAt ? 'arrived' : 'inflight', progress: Math.min(1, (now - x.sentAt) / Math.max(1, x.arriveAt - x.sentAt)), replyPossible: now >= x.replyAt }))
+  const known = list.find((x) => x.state === 'arrived') || null
+  return { list, known, delay: Math.round(getState().delay), env: getState().env.label }
+}
+
+/** Body regions with an open alert (a red reading or a pattern), for the living body figure. */
+export function alertRegions(crewId) {
+  const open = alerts().filter((a) => a.crewId === crewId && a.state !== 'closed')
+  const out = new Set()
+  const regionOf = (ind) => REGIONS.find((r) => r.indicators.includes(ind))?.id
+  for (const a of open) {
+    const [, kind, key] = a.id.split(':')
+    if (kind === 'reading') out.add(regionOf(key))
+    else for (const p of patterns(crewId).filter((x) => x.id === key)) for (const part of p.parts) out.add(regionOf(part.id))
+  }
+  return [...out].filter(Boolean)
+}

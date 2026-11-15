@@ -17,6 +17,8 @@ export type Screen =
   | 'medical'
   | 'demo'
   | 'schedule'
+  | 'today'
+  | 'report'
 
 type AppState = {
   ready: boolean
@@ -38,7 +40,7 @@ type AppState = {
 
 const Ctx = createContext<AppState | null>(null)
 
-const SCREENS: readonly Screen[] = ['landing', 'bodymap', 'progress', 'mirror', 'manual', 'escalation', 'radiation', 'metrics', 'sources', 'medical', 'demo', 'schedule']
+const SCREENS: readonly Screen[] = ['landing', 'bodymap', 'progress', 'mirror', 'manual', 'escalation', 'radiation', 'metrics', 'sources', 'medical', 'demo', 'schedule', 'today', 'report']
 
 /** Development only (stripped from production builds): open the app on a given screen with ?screen=progress. */
 /** Development only: start as a given crew member with ?crew=guest. */

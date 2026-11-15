@@ -40,7 +40,7 @@ function Reply({ a, onAsk }: { a: Answer | null; onAsk: (q: string) => void }) {
   }
   if (a.kind === 'urgent') {
     return (
-      <div role="alert" style={{ display: 'grid', gap: 8, padding: 12, borderRadius: 14, background: 'var(--act)', color: '#fff' }}>
+      <div role="alert" style={{ display: 'grid', gap: 8, padding: 12, borderRadius: 14, background: 'var(--act)', color: 'var(--paper)' }}>
         <strong style={{ fontSize: 15 }}>This could be serious: {a.flag}.</strong>
         <p style={{ margin: 0, fontSize: 14, lineHeight: 1.5 }}>Don't wait for a search result. Tell your crew medical officer now. If you can't reach them, use Escalate to send the flight surgeon a summary.</p>
         <button type="button" onClick={() => bridge.go?.('escalation' as never)} style={{ justifySelf: 'start', minHeight: 38, padding: '0 14px', borderRadius: 10, border: 0, background: '#fff', color: '#14181f', fontWeight: 750, cursor: 'pointer' }}>

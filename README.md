@@ -4,7 +4,7 @@
 
 Daily Orbit is a health monitoring app for astronauts on long missions. A one-minute "mirror check" uses the laptop camera to read pulse and blinking, then runs two quick vision tests and asks how you feel. Every reading is compared with **your own baseline**, never a population average. When it cannot get a clean reading, it says so instead of guessing. The body map shows what changed and what to do about it, and an escalation ladder tells you when to involve a crewmate, the crew medical officer or the flight surgeon.
 
-It runs entirely in the browser, with no network calls at runtime, and camera frames never leave the device.
+It runs entirely in the browser with no network calls at runtime, installs as an app, and keeps working fully offline after the first visit, camera check included. Camera frames never leave the device.
 
 > **Prototype. Not a medical device.** Colors are statistical comparisons with a person's own history, not clinical thresholds.
 
@@ -20,16 +20,16 @@ Every requirement and suggestion in the challenge brief, where Daily Orbit answe
 |---|---|---|
 | Gather health indicators by keyboard, mouse or camera | **23 indicators**: camera (heart rate, blink rate, eyelid closure), on-screen vision tests (Amsler grid, near acuity), a one-minute reaction-time test, sliders (sleep, mood, stress, gut), manual entry (blood pressure, temperature, blood sugar, body mass, exercise), food and water | Mirror check; Log |
 | Indicators named in the brief: blood pressure, heart rate, blood sugar, body temperature, sleep hours, mood | All six, plus 17 more | Log; Mirror check |
-| Help astronauts evaluate their own health | Each reading is compared with that person's own baseline and a fixed reference from their first two weeks; steady slides are caught; related readings combine into patterns; ratings that disagree with measurements are pointed out | Console (body map) |
-| Guidance on treatments and health improvements | Every indicator answers the brief's five questions plus a recommended action, from NASA sources; each pattern has a care plan (do now, prevent, re-check, when to escalate) | Console: indicator FAQ, Patterns, Care plan |
-| Which measurements can be performed in space? Why is an exam needed? How do hazards affect them? When does a result need the crew or flight surgeons? What prevents a critical condition? | Answered for all 23 indicators, from the 71 NASA and NIH pages listed in [`src/content/sources.json`](src/content/sources.json) | Console: each indicator's FAQ; Ask Orbit |
-| NASA HRP resources and the five hazards | Each indicator names its HRP risk; a five-hazards panel colors each hazard by the readings it affects, with the career radiation budget and cabin air | Console: The five hazards |
-| A visual tool; a clickable human figure showing function and health status | Body map with an X-ray tour; each region says what it does in the body and why spaceflight matters for it | Console |
-| Animations and interactivity | Animated body tour, mission banners with discoveries, drifting crew, live schedule | Console; Rewards |
+| Help astronauts evaluate their own health | Each reading is compared with that person's own baseline and a fixed reference from their first two weeks; steady slides are caught; related readings combine into patterns; ratings that disagree with measurements are pointed out | Body (body map) |
+| Guidance on treatments and health improvements | Every indicator answers the brief's five questions plus a recommended action, from NASA sources; each pattern has a care plan (do now, prevent, re-check, when to escalate) | Body map: indicator FAQ, Patterns, Care plan |
+| Which measurements can be performed in space? Why is an exam needed? How do hazards affect them? When does a result need the crew or flight surgeons? What prevents a critical condition? | Answered for all 23 indicators, from the 71 NASA and NIH pages listed in [`src/content/sources.json`](src/content/sources.json) | Body map: each indicator's FAQ; Ask Orbit |
+| NASA HRP resources and the five hazards | Each indicator names its HRP risk; a five-hazards panel colors each hazard by the readings it affects, with the career radiation budget and cabin air | Body map: The five hazards |
+| A visual tool; a clickable human figure showing function and health status | Body map with an X-ray tour; each region says what it does in the body and why spaceflight matters for it | Body map |
+| Animations and interactivity | Animated body tour, mission banners with discoveries, drifting crew, live schedule | Body map; Rewards |
 | Different environments (spacecraft, station, rover, base on another planet or moon) | ISS, lunar surface, Mars transit and a Mars surface base, each with its comm delay and NASA notes on gravity, radiation, distance and day length | Top bar: mission menu |
 | Prompt measurements as part of the mission routine | Role-based mission schedule with self-ticking health blocks and "due now" prompts | Schedule |
 | Gamification | Coins for effort, never for values; streaks, levels, mission pass, locker, mission banners with NASA-fact discoveries | Rewards |
-| Dynamic charts over time | Trend charts per indicator, 7-day water chart, cabin CO2 chart | Console; Log |
+| Dynamic charts over time | Trend charts per indicator, 7-day water chart, cabin CO2 chart | Body map; Log |
 | Color coding at a glance | Green, yellow, red, gray, always with a status word | Everywhere |
 | Simple instructions and explanations | Step-by-step checks, plain-language FAQ, Ask Orbit for questions | Ask Orbit (button on every page) |
 | When a result warrants attention from the crew or flight surgeons | Escalation ladder (self-care, crewmate, crew medical officer, flight surgeon) with a ground packet; alerts stay open until the medical officer acknowledges them and only close with a note | Escalate; Crew |
@@ -44,22 +44,24 @@ Every requirement and suggestion in the challenge brief, where Daily Orbit answe
 
 | Screen | What it does |
 |---|---|
-| **Landing** | What the app is, a tour of the main features, the FAQ, and setup |
+| **Landing** | What the app is, a tour of the main features, the FAQ, setup, and the 60-second guided tour |
+| **Today** (home once set up) | The mission console: readiness (Ready / Check first / Not today) with its reasons, a living body figure whose heart beats at the measured heart rate and whose regions glow on open alerts, the next block on the schedule, today's mirror check, open alerts, patterns and self-report gaps, the five hazards, the career radiation budget, food and water, and the ground link |
 | **Mirror check** | About a minute of camera for pulse (remote photoplethysmography) and blinking, then an Amsler grid per eye, a near-vision test, and a symptom and gut check-in. It refuses a reading when light, framing or motion is bad and offers a retake |
-| **Body map (Console)** | Six body regions colored by their worst indicator. A zoomable X-ray tour, trend charts, and each indicator's five questions and recommended action |
+| **Body map** (header: Body) | Six body regions colored by their worst indicator. A zoomable X-ray tour, trend charts, and each indicator's five questions and recommended action |
 | **Five hazards** (on the body map) | NASA's five hazards of spaceflight, each colored by the readings its sourced text links to, with what it means on the current mission. The closed-environment tile shows simulated cabin CO₂ against NASA's limit |
 | **Patterns and care plans** (on the body map) | Related readings moving the wrong way together (fatigue, infection, vision change and more), each with a care plan: do now, prevent, re-check tomorrow (one tap adds it to the schedule), and when to move up the escalation ladder |
 | **Log** | Manual entry for blood pressure, temperature, blood sugar, sleep, exercise and body mass, a one-minute **alertness (reaction-time) check**, plus **Food and water**: a drink pouch that fills toward a goal set from NASA's fluid requirement, meal tiles, a 7-day chart and NASA nutrition tips |
 | **Schedule** (in the header) | The shared crew day (morning and evening conferences with the ground, two hours of exercise, an 8.5-hour sleep period), duties only the crew member's role carries (commander, flight engineer, mission specialist), and blocks the astronaut adds. Health blocks tick themselves when the real thing is done |
 | **Ask Orbit** (button on every page) | A chat window for questions about symptoms and readings. It answers from the app's NASA-sourced content with links, shows the person's own related readings and patterns, and routes warning signs straight to escalation. Works offline; it does not diagnose |
-| **Escalate** | Four rungs: self-care, crewmate, crew medical officer, flight surgeon. It builds a compact change summary for the ground (downloadable JSON) and simulates the comm delay |
+| **Weekly report** (More menu, or from Today) | One printable page for the flight surgeon: every reading against the person's usual with its 7-day range, patterns, alerts with the medical officer's notes, routine, radiation and water. Print or save as PDF |
+| **Escalate** | Four rungs: self-care, crewmate, crew medical officer, flight surgeon. It builds a compact change summary for the ground (downloadable JSON). The **ground link** shows each packet travelling for the real one-way delay, when the earliest reply could come back, and what Earth actually knows right now |
 | **Crew (Medical view)** | Everyone at once, people needing attention first, and the alert loop: a red reading or a pattern opens an alert that is announced on every page until the crew medical officer acknowledges it, and only clears with a note |
 | **Rewards** | Streaks, levels, a mission pass, a daily supply drop, badges, and a locker of cosmetic gear including illustrated mission banners (Earthrise, Pale blue dot, Jezero dusk, Deep transit) with hidden NASA-fact discoveries |
 | **Metrics** | Two numbers we cannot measure yet, modeled openly with editable inputs: crew time saved, and reporting completeness under effort-based scoring |
 | **Radiation** | Replays a real historical solar particle event from NASA DONKI with measured dose rates, on a simulated vehicle |
 | **Sources** | The NASA data and pages we use, and what we could not cover (in progress) |
 
-**Guided tour:** the yellow "Take the 60-second tour" button on the landing page (or `?tour=1`) walks through ten stops and fires live scenarios along the way.
+**Guided tour:** the yellow "Take the 60-second tour" button on the landing page (or `?tour=1`) walks through eleven stops and fires live scenarios along the way.
 
 **Demo controls:** press **Shift+D** anywhere (or use the link on the landing page) to inject a scripted story into the selected crew member's data, then reset. Stories include a run of worse sleep, a fever with symptoms, a cabin CO2 build-up, and "says fine, measures tired" (a self-report gap).
 
@@ -101,7 +103,7 @@ All NASA data is fetched at build time into `src/data/*.json`. The app makes **n
 - Camera frames are processed in the browser and discarded. Nothing is recorded or uploaded.
 - The face model and its WASM runtime are bundled (`public/models`, `public/wasm`), so the camera check works with no internet.
 - Data lives in the browser's IndexedDB, on the device.
-- Installable offline mode (a PWA) is planned as part of deployment (task E6); `vite-plugin-pwa` is installed but not configured yet.
+- **Installable and offline.** A service worker precaches the whole app, the bundled NASA data, the face model and its WASM runtime (about 19 MB), so the app, camera check included, works with no network after the first visit. Verified in Chrome by stopping the server and reloading. Each session opens with a short systems check that reports what is actually available (database, NASA content and data, face model, camera, offline mode).
 
 ## Getting started
 
@@ -126,11 +128,11 @@ Open the printed localhost URL. Other commands:
 | `node scripts/fetch-donki.ts` | Refreshes `src/data/donki-sep.json` from NASA DONKI and CCMC (optional `NASA_API_KEY`) |
 | `node scripts/import-bedrest.ts` | Rebuilds `src/data/bedrest.json` from the raw bed-rest files in `data-raw/` |
 
-Development-only URL shortcuts: `?screen=<name>` (for example `bodymap`, `manual`, `schedule`), `?crew=guest` or `crew-1` to `crew-3`, and `?screen=mirror&step=vision` to test the mirror check without a webcam.
+Development-only URL shortcuts: `?screen=<name>` (for example `today`, `bodymap`, `manual`, `schedule`, `report`), `?boot=0` to skip the systems check, `?crew=guest` or `crew-1` to `crew-3`, and `?screen=mirror&step=vision` to test the mirror check without a webcam.
 
 ## Tech stack
 
-React 19, TypeScript, Vite 8, Tailwind CSS 4, Dexie (IndexedDB), MediaPipe Face Landmarker, Recharts, Vitest.
+React 19, TypeScript, Vite 8, Tailwind CSS 4, Dexie (IndexedDB), MediaPipe Face Landmarker, Recharts, vite-plugin-pwa (Workbox), Vitest.
 
 ## Project structure
 

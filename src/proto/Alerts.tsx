@@ -60,9 +60,9 @@ export function AlertBanner() {
       <div
         key={pulse}
         role="alert"
-        style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: 10, padding: '10px 14px', borderRadius: 16, background: red ? 'var(--act)' : 'var(--watch)', color: '#fff', boxShadow: '0 10px 24px -14px rgba(20,24,31,.6)', animation: 'al-pulse 1.4s ease 2' }}
+        style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: 10, padding: '10px 14px', borderRadius: 16, background: red ? 'var(--act)' : 'var(--watch)', color: 'var(--paper)', boxShadow: '0 10px 24px -14px rgba(20,24,31,.6)', animation: 'al-pulse 1.4s ease 2' }}
       >
-        <span aria-hidden="true" style={{ width: 10, height: 10, borderRadius: 99, background: '#fff', animation: 'ms-twinkle 1.2s ease-in-out infinite' }} />
+        <span aria-hidden="true" style={{ width: 10, height: 10, borderRadius: 99, background: 'var(--paper)', animation: 'ms-twinkle 1.2s ease-in-out infinite' }} />
         <strong style={{ fontSize: 14.5 }}>
           {open.length} alert{open.length === 1 ? '' : 's'} waiting for the crew medical officer
         </strong>
@@ -88,7 +88,7 @@ function AlertRow({ a }: { a: Alert }) {
   return (
     <li style={{ display: 'grid', gap: 8, padding: 14, borderRadius: 18, background: 'var(--panel)', border: `2px solid ${a.state === 'open' ? tone : 'var(--rule)'}`, opacity: a.state === 'closed' ? 0.7 : 1 }}>
       <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: 8 }}>
-        <span style={{ padding: '2px 9px', borderRadius: 99, background: tone, color: '#fff', fontSize: 12, fontWeight: 750 }}>{a.status === 'red' ? 'Act' : 'Watch'}</span>
+        <span style={{ padding: '2px 9px', borderRadius: 99, background: tone, color: 'var(--paper)', fontSize: 12, fontWeight: 750 }}>{a.status === 'red' ? 'Act' : 'Watch'}</span>
         <strong style={{ fontSize: 15 }}>
           {a.crewName}: {a.title}
         </strong>

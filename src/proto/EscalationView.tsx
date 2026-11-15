@@ -3,6 +3,7 @@
 // GENERATED from the UI overhaul prototype by dc2jsx.py. Styles are the prototype's, verbatim.
 // Edit the view model that feeds this, not this markup, unless you are re-porting the prototype.
 import { Fragment } from 'react'
+import { GroundLinkPanel } from './GroundLink'
 import * as P from './parts'
 import { S } from './parts'
 
@@ -295,6 +296,7 @@ export function EscalationView({ v }: { v: any }) {
               </div>
             </section>
           </div>
+          <div style={{ marginTop: 28 }}><GroundLinkPanel /></div>
         </main>
         <P.SiteFooter dock={true} />
         <P.CrewDock current="Escalation" />

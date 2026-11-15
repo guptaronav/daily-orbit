@@ -243,3 +243,16 @@
 /* ---- Guided tour highlight (Tour.tsx) ---- */
 .tour-focus { outline: 3px solid #f6c445 !important; outline-offset: 6px; border-radius: 18px; animation: tour-glow 1.6s ease-in-out infinite; scroll-margin: 120px; }
 @keyframes tour-glow { 0%, 100% { box-shadow: 0 0 0 0 rgba(246,196,69,.0) } 50% { box-shadow: 0 0 0 10px rgba(246,196,69,.25) } }
+
+/* ---- Living body figure (BodyFigure: beat at measured heart rate, glow on open alerts) ---- */
+@keyframes bf-beat { 0%, 100% { transform: scale(1) } 14% { transform: scale(1.22) } 28% { transform: scale(1) } 42% { transform: scale(1.12) } 56% { transform: scale(1) } }
+@keyframes bf-alert { 0%, 100% { fill-opacity: .25 } 50% { fill-opacity: .5 } }
+
+/* ---- Printing the weekly report: only the report, on white ---- */
+@media print {
+  header, footer, nav, [role=dialog], [role=toolbar], #ask-orbit, .no-print, button { display: none !important; }
+  body, [data-chm-root] { background: #fff !important; }
+  .report-page { max-width: none !important; padding: 0 !important; }
+  .report-page article { border: 0 !important; border-radius: 0 !important; padding: 0 !important; }
+  @page { margin: 14mm; }
+}

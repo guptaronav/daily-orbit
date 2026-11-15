@@ -1,4 +1,4 @@
-import { Suspense, lazy, useCallback, useEffect, useState } from 'react'
+import { Suspense, lazy, useCallback, useEffect, useRef, useState } from 'react'
 import { DemoPanel } from './components/DemoPanel'
 import { usePrototypeLinks } from './proto/dc'
 import {
@@ -15,7 +15,10 @@ import {
 import './proto/proto.css'
 import { bridge, useProtoStore } from './proto/store'
 import { SchedulePage } from './proto/SchedulePage'
+import { TodayPage } from './proto/TodayPage'
+import { ReportPage } from './proto/ReportPage'
 import { Tour } from './proto/Tour'
+import { BootScreen } from './proto/BootScreen'
 import { Radiation } from './screens/Radiation'
 import { Sources } from './screens/Sources'
 import { AppProvider, useApp } from './state/AppContext'
@@ -53,7 +56,9 @@ function OnboardingGate({ onFinished }: { onFinished: () => void }) {
 }
 
 function Screen() {
-  const { screen, ready, crew, dataVersion } = useApp()
+  const { screen, ready, crew, dataVersion, go } = useApp()
+  // Once set up, the app opens on the Today console; the landing page stays one click away (the logo).
+  const openTodayFirst = useRef(hasOnboarded() && screen === 'landing' && !new URLSearchParams(location.search).get('tour'))
   const storeReady = useProtoStore(crew, dataVersion)
   // First visit lands in setup instead of the hero; afterwards the hero is the home screen.
   const [setupDone, setSetupDone] = useState(hasOnboarded)
@@ -61,6 +66,10 @@ function Screen() {
 
   if (!ready || !storeReady) return <main style={{ padding: 32, color: 'var(--muted)' }}>Loading crew data…</main>
   if (screen === 'onboarding' || (screen === 'landing' && !setupDone)) return <OnboardingGate onFinished={finish} />
+  if (screen === 'landing' && openTodayFirst.current) {
+    openTodayFirst.current = false
+    queueMicrotask(() => go('today'))
+  }
   if (screen === 'landing') return <LandingPage />
   if (screen === 'bodymap') return <BodyMapPage />
   if (screen === 'manual') return <ManualPage />
@@ -74,6 +83,20 @@ function Screen() {
         <Suspense fallback={<main style={{ padding: 32, color: 'var(--muted)' }}>Loading…</main>}>
           <MirrorCheck />
         </Suspense>
+      </ProtoFrame>
+    )
+  }
+  if (screen === 'today') {
+    return (
+      <ProtoFrame current="Today">
+        <TodayPage />
+      </ProtoFrame>
+    )
+  }
+  if (screen === 'report') {
+    return (
+      <ProtoFrame current="Weekly report">
+        <ReportPage />
       </ProtoFrame>
     )
   }
@@ -139,6 +162,7 @@ function Shell() {
     <>
       <Screen />
       <Tour />
+      <BootScreen />
       <DemoPanel open={demoOpen} onClose={() => setDemoOpen(false)} />
     </>
   )

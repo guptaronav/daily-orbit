@@ -69,7 +69,7 @@ function CabinAir({ c }: { c: Cabin }) {
   )
 }
 
-function DoseBudget({ b }: { b: Budget }) {
+export function DoseBudget({ b }: { b: Budget }) {
   const color = b.status === 'red' ? 'var(--act)' : b.status === 'yellow' ? 'var(--watch)' : 'var(--ok)'
   return (
     <div style={{ display: 'grid', gap: 6, padding: 12, borderRadius: 14, background: 'var(--panel)', border: '1px solid var(--rule)' }}>
