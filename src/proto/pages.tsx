@@ -1,22 +1,6 @@
-import type { ReactNode } from 'react'
-import { BodyMapView } from './BodyMapView'
+import { lazy, type ReactNode } from 'react'
 import { useDC } from './dc'
-import { EscalationView } from './EscalationView'
-import { LandingView } from './LandingView'
-import { BodyMapLogic } from './logic/BodyMap.logic'
-import { EscalationLogic } from './logic/Escalation.logic'
-import { LandingLogic } from './logic/Landing.logic'
-import { ManualEntryLogic } from './logic/ManualEntry.logic'
-import { MedicalViewLogic } from './logic/MedicalView.logic'
-import { MetricsLogic } from './logic/Metrics.logic'
-import { OnboardingLogic } from './logic/Onboarding.logic'
-import { RewardsLogic } from './logic/Rewards.logic'
-import { ManualView } from './ManualView'
-import { MedicalView } from './MedicalView'
-import { MetricsView } from './MetricsView'
-import { OnboardingView } from './OnboardingView'
 import * as P from './parts'
-import { RewardsView } from './RewardsView'
 
 /*
  * The overhaul pages. Each one is the prototype's own logic class feeding the prototype's own
@@ -25,14 +9,51 @@ import { RewardsView } from './RewardsView'
 
 const NO_PROPS = {}
 
-export const LandingPage = () => <LandingView v={useDC(LandingLogic, NO_PROPS)} />
-export const BodyMapPage = () => <BodyMapView v={useDC(BodyMapLogic, NO_PROPS)} />
-export const ManualPage = () => <ManualView v={useDC(ManualEntryLogic, NO_PROPS)} />
-export const EscalationPage = () => <EscalationView v={useDC(EscalationLogic, NO_PROPS)} />
-export const MedicalPage = () => <MedicalView v={useDC(MedicalViewLogic, NO_PROPS)} />
-export const MetricsPage = () => <MetricsView v={useDC(MetricsLogic, NO_PROPS)} />
-export const RewardsPage = () => <RewardsView v={useDC(RewardsLogic, NO_PROPS)} />
-export const OnboardingPage = () => <OnboardingView v={useDC(OnboardingLogic, NO_PROPS)} />
+/**
+ * Each page loads its own view and logic on demand, so the first paint only downloads the page the
+ * visitor is actually on (the views are 20 to 60 KB of markup each).
+ */
+const lazyPage = (load: () => Promise<{ View: (props: { v: never }) => ReactNode; Logic: never }>) =>
+  lazy(async () => {
+    const { View, Logic } = await load()
+    function Page() {
+      return <View v={useDC(Logic, NO_PROPS) as never} />
+    }
+    return { default: Page }
+  })
+
+export const LandingPage = lazyPage(async () => ({
+  View: (await import('./LandingView')).LandingView,
+  Logic: (await import('./logic/Landing.logic')).LandingLogic as never,
+}))
+export const BodyMapPage = lazyPage(async () => ({
+  View: (await import('./BodyMapView')).BodyMapView,
+  Logic: (await import('./logic/BodyMap.logic')).BodyMapLogic as never,
+}))
+export const ManualPage = lazyPage(async () => ({
+  View: (await import('./ManualView')).ManualView,
+  Logic: (await import('./logic/ManualEntry.logic')).ManualEntryLogic as never,
+}))
+export const EscalationPage = lazyPage(async () => ({
+  View: (await import('./EscalationView')).EscalationView,
+  Logic: (await import('./logic/Escalation.logic')).EscalationLogic as never,
+}))
+export const MedicalPage = lazyPage(async () => ({
+  View: (await import('./MedicalView')).MedicalView,
+  Logic: (await import('./logic/MedicalView.logic')).MedicalViewLogic as never,
+}))
+export const MetricsPage = lazyPage(async () => ({
+  View: (await import('./MetricsView')).MetricsView,
+  Logic: (await import('./logic/Metrics.logic')).MetricsLogic as never,
+}))
+export const RewardsPage = lazyPage(async () => ({
+  View: (await import('./RewardsView')).RewardsView,
+  Logic: (await import('./logic/Rewards.logic')).RewardsLogic as never,
+}))
+export const OnboardingPage = lazyPage(async () => ({
+  View: (await import('./OnboardingView')).OnboardingView,
+  Logic: (await import('./logic/Onboarding.logic')).OnboardingLogic as never,
+}))
 
 const ROOT_STYLE = P.S({
   minHeight: '100vh',

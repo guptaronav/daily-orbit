@@ -1,4 +1,4 @@
-# Data coverage: what we measure, where it comes from, what is still missing
+# Daily Orbit data coverage: what we measure, where it comes from, what is still missing
 
 The source of truth is `src/lib/dataCoverage.ts`, and a test (`dataCoverage.test.ts`) fails the build if any indicator has no collection channel or no body region. This page explains it in words.
 

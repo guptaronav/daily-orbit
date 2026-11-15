@@ -236,3 +236,21 @@
 @keyframes fw-coin { 0% { transform: translateY(6px) scale(.7); opacity: 0 } 25% { transform: translateY(0) scale(1.15); opacity: 1 } 100% { transform: translateY(-26px) scale(1); opacity: 0 } }
 .fw-press:hover:not(:disabled) { transform: translateY(-2px); }
 .fw-press:active:not(:disabled) { transform: translateY(4px); box-shadow: 0 0 0 transparent !important; }
+
+/* Phones: panels that are given a wide flex-basis must be allowed to shrink to the screen,
+   otherwise their contents' minimum width pushes the whole page sideways. Lives here, not in the
+   generated views, so re-porting a prototype cannot undo it. */
+@media (max-width: 640px) {
+  [style*="flex: "] {
+    min-width: 0 !important;
+    max-width: 100% !important;
+  }
+  /* 1fr columns refuse to go below their widest label; minmax(0, 1fr) lets labels wrap instead. */
+  [style*="repeat(4, 1fr)"] {
+    grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+  }
+  /* The top bar stacks to ~4 rows on a phone: let it scroll away (the bottom dock keeps navigation in reach). */
+  header[style*="position: sticky"] {
+    position: relative !important;
+  }
+}

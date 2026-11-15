@@ -94,7 +94,7 @@ export function buildPacket({ crewId, measurements, now }: Input): Packet {
 
   const json = JSON.stringify(
     {
-      packet: 'crew-health-change-summary',
+      packet: 'daily-orbit-change-summary',
       version: 1,
       crewId,
       generatedAt: now.toISOString(),

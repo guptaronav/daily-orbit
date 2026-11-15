@@ -7,7 +7,7 @@ class AppDb extends Dexie {
   crew!: Table<CrewMember, string>
 
   constructor() {
-    super('astronaut-health-monitor')
+    super('daily-orbit')
     this.version(1).stores({
       measurements: 'id, crewId, timestamp, [crewId+indicator]',
       events: 'id, crewId, timestamp',

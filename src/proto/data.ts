@@ -254,9 +254,9 @@ export function buildPacket(crewId) {
   return { changed: p.changed.map((c) => ({ ...c, quality: c.quality.score })), json: p.json, bytes: p.bytes }
 }
 
-const FORM_ICON = { bloodPressure: 'heart', temperature: 'body', bloodSugar: 'gut', bodyMass: 'gut', sleepHours: 'head', exerciseMinutes: 'bone' }
-const FORM_REGION = { bloodPressure: 'Heart', temperature: 'Whole body', bloodSugar: 'Gut and nutrition', bodyMass: 'Gut and nutrition', sleepHours: 'Head', exerciseMinutes: 'Skeleton' }
-const WITH_SLIDER = new Set(['temperature', 'sleepHours', 'exerciseMinutes'])
+const FORM_ICON = { bloodPressure: 'heart', temperature: 'body', bloodSugar: 'gut', bodyMass: 'gut', bowelMovements: 'gut', sleepHours: 'head', exerciseMinutes: 'bone' }
+const FORM_REGION = { bloodPressure: 'Heart', temperature: 'Whole body', bloodSugar: 'Gut and nutrition', bodyMass: 'Gut and nutrition', bowelMovements: 'Gut and nutrition', sleepHours: 'Head', exerciseMinutes: 'Skeleton' }
+const WITH_SLIDER = new Set(['temperature', 'sleepHours', 'exerciseMinutes', 'bowelMovements'])
 /** The real entry forms and their typo guards, in the prototype's shape. */
 export const ENTRY_FORMS = APP_FORMS.map((f) => ({
   kind: f.kind, title: f.title, icon: FORM_ICON[f.kind], region: FORM_REGION[f.kind], hint: f.hint,
