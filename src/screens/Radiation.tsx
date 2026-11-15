@@ -1,5 +1,4 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
-import { btnPrimary, btnSecondary, linkBtn } from '../components/ui'
 import { addMeasurements, removeMeasurements } from '../db/repo'
 import {
   MISSION_DAYS_BEFORE_REPLAY,
@@ -15,6 +14,9 @@ import {
   type Replay,
 } from '../lib/radiation'
 import { useApp } from '../state/AppContext'
+import * as D from '../proto/data'
+import { openEscalation } from '../proto/EscalationAdvice'
+import { openSection } from '../proto/Sections'
 
 const REPLAYS = loadReplays()
 const SOURCES = replaySources()
@@ -25,6 +27,17 @@ const utc = (ms: number) => new Date(ms).toISOString().slice(0, 16).replace('T',
 const relative = (hours: number) => (hours === 0 ? 'Event onset' : hours < 0 ? `${-hours} h before onset` : `${hours} h after onset`)
 const mSv = (v: number) => `${v.toFixed(2)} mSv`
 const sig = (v: number) => Number(v.toPrecision(3)).toString()
+
+/*
+ * Radiation replay (Evode): a real NASA solar particle event, hour by hour, on a simulated vehicle.
+ * The replay logic and the NASA data handling are unchanged; this file draws it in the site's style
+ * and ties it in: the career budget (as on Body's five hazards), a shelter alert that can tell the
+ * crew medical officer, Ask Orbit for questions, and the replayed doses saved as readings on Body.
+ */
+const card = { borderRadius: 26, background: 'var(--panel)', border: '1px solid var(--rule)', padding: 20, display: 'grid', alignContent: 'start' } as const
+const kicker = { margin: 0, fontSize: 12, fontWeight: 750, letterSpacing: '.06em', textTransform: 'uppercase', color: 'var(--muted)' } as const
+const ghost = (off: boolean) => ({ minHeight: 44, padding: '0 14px', borderRadius: 13, border: '1.5px solid var(--rule-strong)', background: 'var(--panel)', color: off ? 'var(--muted)' : 'var(--ink)', fontWeight: 700, cursor: off ? 'not-allowed' : 'pointer', opacity: off ? 0.55 : 1 }) as const
+const link = { border: 0, background: 'transparent', padding: 0, color: 'var(--accent)', textDecoration: 'underline', cursor: 'pointer', font: 'inherit', fontWeight: 650 } as const
 
 export function Radiation() {
   const { crewId, currentCrew, go, refresh } = useApp()
@@ -89,9 +102,9 @@ export function Radiation() {
 
   if (!replay) {
     return (
-      <main className="mx-auto w-full max-w-3xl px-4 py-10 sm:px-8">
-        <h1 className="text-2xl font-semibold tracking-tight">Radiation replay</h1>
-        <p className="mt-3 text-sm text-muted">No replay data is bundled. Run node scripts/fetch-donki.ts and rebuild.</p>
+      <main style={{ width: '100%', maxWidth: 1320, margin: '0 auto', padding: '28px clamp(16px, 3vw, 32px) 72px', boxSizing: 'border-box' }}>
+        <h1 style={{ margin: 0, fontSize: 'clamp(36px, 5vw, 60px)', fontWeight: 750, letterSpacing: '-0.05em' }}>Radiation replay</h1>
+        <p style={{ margin: '12px 0 0', color: 'var(--muted)' }}>No replay data is bundled. Run node scripts/fetch-donki.ts and rebuild.</p>
       </main>
     )
   }
@@ -108,31 +121,50 @@ export function Radiation() {
   const eventActive = step >= onsetStep
   const flux = replay.protonFluxPfu[step]
   const measured = replay.doseRateMGyPerH[step] !== null
+  const budget = D.radiationBudget(crewId) as { used: number; limit: number; daysLeft: number; status: string; rate: number }
+  const name = currentCrew?.name ?? 'this crew member'
+  const pct = Math.min(100, (budget.used / budget.limit) * 100)
 
   return (
-    <main className="mx-auto w-full max-w-5xl space-y-8 px-4 py-8 sm:px-8">
-      <header>
-        <h1 className="text-2xl font-semibold tracking-tight">Radiation replay</h1>
-        <p className="mt-2 max-w-3xl text-sm text-muted">
-          A replay of a real, historical solar particle event on a <strong className="text-ink">simulated vehicle</strong>. The event and the dose rates are NASA measurements. The
-          dose ledger is a <strong className="text-ink">simulation, not dosimetry</strong>: nobody on this crew received this dose.
-        </p>
-      </header>
+    <main style={{ width: '100%', maxWidth: 1320, margin: '0 auto', padding: '28px clamp(16px, 3vw, 32px) 72px', boxSizing: 'border-box', display: 'grid', gap: 20 }}>
+      {/* Hero: what this is, and where this crew member stands on the career limit */}
+      <section style={{ display: 'flex', flexWrap: 'wrap', gap: 20, alignItems: 'stretch', animation: 'lg-rise 520ms cubic-bezier(.22,1,.36,1) both' }}>
+        <div style={{ flex: '2 1 520px', display: 'grid', gap: 14, alignContent: 'end' }}>
+          <p style={{ margin: 0, fontSize: 14, color: 'var(--muted)' }}>Radiation · {name}</p>
+          <h1 style={{ margin: 0, fontSize: 'clamp(38px, 5.4vw, 68px)', lineHeight: 0.95, fontWeight: 750, letterSpacing: '-0.05em' }}>Ride out a real solar storm.</h1>
+          <p style={{ margin: 0, maxWidth: '62ch', fontSize: 16, lineHeight: 1.55, color: 'var(--ink-soft)' }}>
+            Replay a historical solar particle event on a <strong>simulated vehicle</strong>. The event and the dose rates are NASA measurements; the dose ledger is a{' '}
+            <strong>simulation, not dosimetry</strong>, so nobody on this crew received this dose.
+          </p>
+        </div>
+        <aside aria-label="Career radiation budget" style={{ flex: '1 1 300px', padding: 22, borderRadius: 28, background: '#14181f', color: '#f3f1ea', display: 'grid', gap: 12, alignContent: 'start' }}>
+          <p style={{ ...kicker, color: '#f6c445' }}>Career budget</p>
+          <p style={{ margin: 0, display: 'flex', alignItems: 'baseline', gap: 6 }}>
+            <span style={{ fontSize: 40, fontWeight: 750, letterSpacing: '-0.04em' }}>{Math.round(budget.used)}</span>
+            <span style={{ color: 'rgba(243,241,234,.7)' }}>of {budget.limit} mSv</span>
+          </p>
+          <div role="progressbar" aria-label="Career dose against NASA's limit" aria-valuemin={0} aria-valuemax={budget.limit} aria-valuenow={Math.round(budget.used)} style={{ height: 8, borderRadius: 99, background: 'rgba(243,241,234,.14)', overflow: 'hidden' }}>
+            <div style={{ width: `${pct}%`, height: '100%', background: budget.status === 'red' ? 'var(--act)' : budget.status === 'yellow' ? '#f6c445' : '#7ef0c5' }} />
+          </div>
+          <span style={{ fontSize: 13.5, color: 'rgba(243,241,234,.78)' }}>About {Math.round(budget.daysLeft)} days left at the current rate. NASA's career limit is 600 mSv.</span>
+          <button type="button" onClick={() => openSection('body', 'hazards')} style={{ justifySelf: 'start', minHeight: 36, padding: '0 12px', borderRadius: 10, border: '1.5px solid rgba(243,241,234,.4)', background: 'transparent', color: '#f3f1ea', fontWeight: 700, cursor: 'pointer' }}>
+            See the five hazards
+          </button>
+        </aside>
+      </section>
 
-      <section aria-labelledby="event-heading">
-        <h2 id="event-heading" className="text-sm font-semibold uppercase tracking-[0.14em] text-muted">
-          Historical event
-        </h2>
-        <div className="mt-3 flex flex-wrap items-end gap-4">
-          <label className="flex flex-col gap-1 text-sm text-muted">
-            Event to replay
+      {/* The event and the timeline */}
+      <section aria-labelledby="event-heading" style={{ ...card, gap: 14 }}>
+        <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'flex-end', gap: '10px 18px' }}>
+          <label style={{ display: 'grid', gap: 4, fontSize: 13, fontWeight: 650, color: 'var(--muted)' }}>
+            <span id="event-heading">Event to replay</span>
             <select
-              className="rounded-sm border border-rule bg-panel px-2 py-2 text-sm text-ink"
               value={replay.id}
               onChange={(e) => {
                 setStarted(false)
                 restart(e.target.value)
               }}
+              style={{ minHeight: 42, padding: '0 12px', borderRadius: 12, border: '1.5px solid var(--rule-strong)', background: 'var(--panel)', color: 'var(--ink)', font: 'inherit', fontSize: 15 }}
             >
               {REPLAYS.map((r) => (
                 <option key={r.id} value={r.id}>
@@ -141,160 +173,161 @@ export function Radiation() {
               ))}
             </select>
           </label>
-          <p className="text-sm text-muted">
-            DONKI record <span className="text-ink">{replay.id}</span>, first near-Earth report {utc(Date.parse(replay.onset))}.
+          <p style={{ margin: 0, flex: '1 1 320px', fontSize: 13.5, color: 'var(--muted)' }}>
+            NASA DONKI record <strong style={{ color: 'var(--ink)' }}>{replay.id}</strong>, first near-Earth report {utc(Date.parse(replay.onset))}. Reported by {replay.instruments.join('; ')}. One of {donkiEventCount()} solar particle events in DONKI ({SOURCES.events.range.join(' to ')}).
           </p>
         </div>
-        <p className="mt-2 text-sm text-muted">
-          Reported by: {replay.instruments.join('; ')}. One of {donkiEventCount()} solar particle events in NASA DONKI ({SOURCES.events.range.join(' to ')}).
-        </p>
-      </section>
 
-      <section aria-labelledby="timeline-heading" className="border-y border-rule py-5">
-        <h2 id="timeline-heading" className="text-sm font-semibold uppercase tracking-[0.14em] text-muted">
-          Timeline
-        </h2>
-        <p className="mt-3 text-lg font-medium" aria-live="polite">
-          {relative(step - onsetStep)} <span className="text-sm font-normal text-muted">({utc(startMs + step * stepMs)})</span>
-        </p>
-        <input
-          type="range"
-          min={0}
-          max={total - 1}
-          value={step}
-          onChange={(e) => {
-            setPlaying(false)
-            move(Number(e.target.value))
-          }}
-          aria-label="Replay position in hours"
-          aria-valuetext={`${relative(step - onsetStep)}, hour ${step + 1} of ${total}`}
-          className="mt-3 w-full accent-[var(--color-accent)]"
-        />
-        <div className="mt-3 flex flex-wrap gap-3">
-          <button
-            className={btnPrimary}
-            onClick={() => {
-              if (!playing && step >= total - 1) restart()
-              setStarted(true)
-              setPlaying((p) => !p)
+        <div style={{ display: 'grid', gap: 8, padding: 16, borderRadius: 18, background: 'var(--panel-2)' }}>
+          <p aria-live="polite" style={{ margin: 0, display: 'flex', flexWrap: 'wrap', alignItems: 'baseline', gap: 8 }}>
+            <strong style={{ fontSize: 22, letterSpacing: '-0.02em', color: eventActive ? 'var(--act-ink)' : 'var(--ink)' }}>{relative(step - onsetStep)}</strong>
+            <span style={{ fontSize: 13, color: 'var(--muted)' }}>{utc(startMs + step * stepMs)}</span>
+          </p>
+          <input
+            type="range"
+            min={0}
+            max={total - 1}
+            value={step}
+            onChange={(e) => {
+              setPlaying(false)
+              move(Number(e.target.value))
             }}
-          >
-            {playing ? 'Pause' : step >= total - 1 ? 'Replay again' : 'Play'}
-          </button>
-          <button className={btnSecondary} disabled={step === 0} onClick={() => (setPlaying(false), move(step - 1))}>
-            Back 1 h
-          </button>
-          <button className={btnSecondary} disabled={step >= total - 1} onClick={() => (setPlaying(false), move(step + 1))}>
-            Forward 1 h
-          </button>
-          <button className={btnSecondary} disabled={step === onsetStep} onClick={() => (setPlaying(false), move(onsetStep))}>
-            Jump to onset
-          </button>
-          <button className={btnSecondary} disabled={step === 0 && !started} onClick={() => restart()}>
-            Restart
-          </button>
+            aria-label="Replay position in hours"
+            aria-valuetext={`${relative(step - onsetStep)}, hour ${step + 1} of ${total}`}
+            style={{ width: '100%', accentColor: eventActive ? 'var(--act)' : 'var(--accent)' }}
+          />
+          <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8 }}>
+            <button
+              type="button"
+              className="fw-press"
+              onClick={() => {
+                if (!playing && step >= total - 1) restart()
+                setStarted(true)
+                setPlaying((p) => !p)
+              }}
+              style={{ minHeight: 44, padding: '0 20px', borderRadius: 13, border: 0, background: '#14181f', color: '#f3f1ea', boxShadow: '0 4px 0 #000', fontWeight: 800, cursor: 'pointer' }}
+            >
+              {playing ? 'Pause' : step >= total - 1 ? 'Replay again' : 'Play'}
+            </button>
+            <button type="button" disabled={step === 0} onClick={() => (setPlaying(false), move(step - 1))} style={ghost(step === 0)}>
+              Back 1 h
+            </button>
+            <button type="button" disabled={step >= total - 1} onClick={() => (setPlaying(false), move(step + 1))} style={ghost(step >= total - 1)}>
+              Forward 1 h
+            </button>
+            <button type="button" disabled={step === onsetStep} onClick={() => (setPlaying(false), move(onsetStep))} style={ghost(step === onsetStep)}>
+              Jump to onset
+            </button>
+            <button type="button" disabled={step === 0 && !started} onClick={() => restart()} style={ghost(step === 0 && !started)}>
+              Restart
+            </button>
+          </div>
         </div>
       </section>
 
       {eventActive && (
-        <section role="alert" aria-labelledby="shelter-heading" className="border-2 border-act bg-panel p-5">
-          <h2 id="shelter-heading" className="text-lg font-semibold tracking-tight">
+        <section role="alert" aria-labelledby="shelter-heading" style={{ display: 'grid', gap: 10, padding: '18px 20px', borderRadius: 24, background: 'rgba(179,38,30,.08)', border: '2px solid var(--act)' }}>
+          <h2 id="shelter-heading" style={{ margin: 0, fontSize: 20, fontWeight: 750, letterSpacing: '-0.02em', color: 'var(--act-ink)' }}>
             Act: solar particle event in progress. Move to the shelter area now.
           </h2>
-          <p className="mt-2 text-sm">
-            Radiation levels outside the shelter are rising. Stop what you are doing, tell your crewmates, and stay in the shelter until the event is declared over.
-          </p>
-          {shelterStep === null || shelterStep > step ? (
-            <button className={`${btnPrimary} mt-4`} onClick={() => setShelterStep(step)}>
-              We are in the shelter
+          <p style={{ margin: 0, fontSize: 14.5, lineHeight: 1.5 }}>Radiation levels outside the shelter are rising. Stop what you are doing, tell your crewmates, and stay in the shelter until the event is declared over.</p>
+          <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8, alignItems: 'center' }}>
+            {shelterStep === null || shelterStep > step ? (
+              <button type="button" className="fw-press" onClick={() => setShelterStep(step)} style={{ minHeight: 44, padding: '0 18px', borderRadius: 13, border: 0, background: 'var(--act)', color: 'var(--paper)', boxShadow: '0 4px 0 #6e1712', fontWeight: 800, cursor: 'pointer' }}>
+                We are in the shelter
+              </button>
+            ) : (
+              <strong style={{ fontSize: 14.5 }}>
+                Shelter reached {shelterStep === onsetStep ? 'in the first hour of the event' : `${shelterStep - onsetStep} h after the prompt`}. The ledger does not model the shelter's shielding.
+              </strong>
+            )}
+            <button type="button" onClick={() => openEscalation({ title: 'Solar particle event: crew sheltering', detail: `Replay of DONKI ${replay.id}; simulated dose ${now.toFixed(2)} mSv so far.`, status: 'red' })} style={ghost(false)}>
+              Tell the crew medical officer
             </button>
-          ) : (
-            <p className="mt-4 text-sm font-medium">
-              Shelter reached {shelterStep === onsetStep ? 'in the first hour of the event' : `${shelterStep - onsetStep} h after the prompt`}. This ledger does not model the
-              shelter's shielding.
-            </p>
-          )}
+          </div>
         </section>
       )}
 
-      <section aria-labelledby="ledger-heading">
-        <h2 id="ledger-heading" className="text-sm font-semibold uppercase tracking-[0.14em] text-muted">
-          Dose ledger for {currentCrew?.name ?? 'this crew member'} <span className="text-ink">(simulation)</span>
-        </h2>
-        <div className="mt-4 grid gap-8 md:grid-cols-[1fr_1.4fr]">
-          <div>
-            <p className="text-5xl font-semibold tracking-tight">{now.toFixed(2)}</p>
-            <p className="text-sm text-muted">mSv, simulated cumulative dose</p>
-            <dl className="mt-5 divide-y divide-rule border-y border-rule text-sm">
-              <LedgerRow label={`On the ledger before the replay (${MISSION_DAYS_BEFORE_REPLAY} mission days at the quiet rate)`} value={mSv(start)} />
-              <LedgerRow label="Added in the replay before the event" value={mSv(Math.min(now, atOnset) - start)} />
-              <LedgerRow label="Added since the event began" value={mSv(Math.max(now - atOnset, 0))} />
-              <LedgerRow label={`Dose rate this hour${measured ? '' : ' (no measurement, last rate held)'}`} value={`${sig(rates[step])} mGy/h`} />
-              <LedgerRow label="Proton flux near Earth this hour, above 10 MeV" value={typeof flux === 'number' ? `${sig(flux)} pfu` : 'No measurement'} />
-            </dl>
-            <button className={`${linkBtn} mt-4`} onClick={() => go('bodymap')}>
-              See Whole body on the body map
-            </button>
-          </div>
+      {/* The dose ledger */}
+      <section aria-labelledby="ledger-heading" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 340px), 1fr))', gap: 16, alignItems: 'start' }}>
+        <div style={{ ...card, gap: 10 }}>
+          <p id="ledger-heading" style={kicker}>
+            Dose ledger · {name} (simulation)
+          </p>
+          <p style={{ margin: 0, display: 'flex', alignItems: 'baseline', gap: 8 }}>
+            <span style={{ fontSize: 48, fontWeight: 750, letterSpacing: '-0.04em' }}>{now.toFixed(2)}</span>
+            <span style={{ color: 'var(--muted)' }}>mSv, simulated cumulative dose</span>
+          </p>
+          <dl style={{ margin: 0, display: 'grid' }}>
+            <LedgerRow label={`Before the replay (${MISSION_DAYS_BEFORE_REPLAY} mission days at the quiet rate)`} value={mSv(start)} />
+            <LedgerRow label="Added in the replay before the event" value={mSv(Math.min(now, atOnset) - start)} />
+            <LedgerRow label="Added since the event began" value={mSv(Math.max(now - atOnset, 0))} />
+            <LedgerRow label={`Dose rate this hour${measured ? '' : ' (no measurement, last rate held)'}`} value={`${sig(rates[step])} mGy/h`} />
+            <LedgerRow label="Proton flux near Earth this hour, above 10 MeV" value={typeof flux === 'number' ? `${sig(flux)} pfu` : 'No measurement'} />
+          </dl>
+          <span style={{ fontSize: 13, color: 'var(--muted)' }}>Each replayed hour is saved as a radiation dose reading, so it shows on Body under Whole body.</span>
+        </div>
+        <div style={{ ...card }}>
+          <p style={kicker}>Cumulative dose over the event</p>
           <LedgerChart ledger={ledger} start={start} step={step} onsetStep={onsetStep} />
         </div>
       </section>
 
       {eventActive && (
-        <section aria-labelledby="followup-heading">
-          <h2 id="followup-heading" className="text-sm font-semibold uppercase tracking-[0.14em] text-muted">
+        <section aria-labelledby="followup-heading" style={{ ...card, gap: 10 }}>
+          <p id="followup-heading" style={kicker}>
             Follow-up
-          </h2>
-          <ol className="mt-3 list-decimal space-y-2 pl-5 text-sm">
+          </p>
+          <ol style={{ margin: 0, paddingLeft: 20, display: 'grid', gap: 8, fontSize: 14.5, lineHeight: 1.5 }}>
             <li>
-              Report how you feel now, even if you feel fine. An early report is the comparison point for later ones.{' '}
-              <button className={linkBtn} onClick={() => go('mirror')}>
-                Start a check-in (includes the symptom report)
+              Report how you feel now, even if you feel fine: an early report is the comparison point for later ones.{' '}
+              <button type="button" onClick={() => go('mirror')} style={link}>
+                Start a check-in
               </button>
             </li>
             <li>Check in again later in the event and after it ends, so any change shows against your own earlier answers.</li>
-            <li>Symptoms to watch for after a radiation event: [CONTENT TODO] (needs a NASA source before we list any).</li>
+            <li>
+              Questions about radiation and your health:{' '}
+              <button type="button" onClick={() => window.dispatchEvent(new CustomEvent('orbit:ask', { detail: 'Why does radiation matter?' }))} style={link}>
+                ask Orbit
+              </button>
+              , which answers only from the app's NASA sources.
+            </li>
           </ol>
         </section>
       )}
 
-      <section aria-labelledby="assumptions-heading" className="border-t border-rule pt-5">
-        <h2 id="assumptions-heading" className="text-sm font-semibold uppercase tracking-[0.14em] text-muted">
-          How the simulated dose is calculated
-        </h2>
-        <p className="mt-3 text-sm">
-          Dose = starting dose + sum, for each replay hour, of (measured dose rate in mGy/h x 1 hour x 1 mSv per mGy).
-        </p>
-        <ul className="mt-3 list-disc space-y-1 pl-5 text-sm text-muted">
-          <li>
-            Dose rate: {SOURCES.doseRate.name}. It was measured in lunar orbit and is applied unchanged to the simulated vehicle, whatever environment is selected. A real vehicle's
-            shielding would change it.
-          </li>
-          <li>1 mGy is counted as 1 mSv. No radiation quality factor is applied, so this is not a dose equivalent.</li>
-          <li>
-            Starting dose: the quiet dose rate measured in the 24 hours before the event ({sig(replay.quietRateMGyPerH)} mGy/h) for {MISSION_DAYS_BEFORE_REPLAY} assumed mission
-            days.
-          </li>
-          <li>An hour with no measurement repeats the last measured rate. Taking shelter does not change the ledger.</li>
-          <li>Proton flux: {SOURCES.protonFlux.name}. Shown for context only; it is not used in the dose.</li>
-          <li>Replay hours are stored with times ending now, so the body map and trend chart treat the replay as the latest readings.</li>
-        </ul>
-        <p className="mt-3 text-sm text-muted">
-          Event record:{' '}
-          <a className={`${linkBtn} max-w-full whitespace-normal break-all text-left`} href={replay.link} target="_blank" rel="noreferrer">
-            {replay.link}
-          </a>
-        </p>
-      </section>
+      <details style={{ ...card, display: 'block' }}>
+        <summary style={{ cursor: 'pointer', fontWeight: 700, fontSize: 15 }}>How the simulated dose is calculated</summary>
+        <div style={{ display: 'grid', gap: 10, marginTop: 12, fontSize: 14, lineHeight: 1.55 }}>
+          <p style={{ margin: 0 }}>Dose = starting dose + sum, for each replay hour, of (measured dose rate in mGy/h × 1 hour × 1 mSv per mGy).</p>
+          <ul style={{ margin: 0, paddingLeft: 20, display: 'grid', gap: 4, color: 'var(--ink-soft)' }}>
+            <li>Dose rate: {SOURCES.doseRate.name}. Measured in lunar orbit and applied unchanged to the simulated vehicle, whatever environment is selected. A real vehicle's shielding would change it.</li>
+            <li>1 mGy is counted as 1 mSv. No radiation quality factor is applied, so this is not a dose equivalent.</li>
+            <li>
+              Starting dose: the quiet dose rate measured in the 24 hours before the event ({sig(replay.quietRateMGyPerH)} mGy/h) for {MISSION_DAYS_BEFORE_REPLAY} assumed mission days.
+            </li>
+            <li>An hour with no measurement repeats the last measured rate. Taking shelter does not change the ledger.</li>
+            <li>Proton flux: {SOURCES.protonFlux.name}. Shown for context only; it is not used in the dose.</li>
+            <li>Replay hours are stored with times ending now, so the body map and trend chart treat the replay as the latest readings.</li>
+          </ul>
+          <p style={{ margin: 0, color: 'var(--muted)' }}>
+            Event record:{' '}
+            <a href={replay.link} target="_blank" rel="noreferrer" style={{ color: 'var(--accent)', wordBreak: 'break-all' }}>
+              {replay.link}
+            </a>
+          </p>
+        </div>
+      </details>
     </main>
   )
 }
 
 function LedgerRow({ label, value }: { label: string; value: string }) {
   return (
-    <div className="flex items-baseline justify-between gap-4 py-2">
-      <dt className="text-muted">{label}</dt>
-      <dd className="whitespace-nowrap font-medium">{value}</dd>
+    <div style={{ display: 'flex', alignItems: 'baseline', justifyContent: 'space-between', gap: 16, padding: '8px 0', borderTop: '1px solid var(--rule)', fontSize: 14 }}>
+      <dt style={{ color: 'var(--muted)' }}>{label}</dt>
+      <dd style={{ margin: 0, whiteSpace: 'nowrap', fontWeight: 700 }}>{value}</dd>
     </div>
   )
 }
@@ -302,8 +335,8 @@ function LedgerRow({ label, value }: { label: string; value: string }) {
 /** Cumulative simulated dose over the whole replay window; the dark line is the part replayed so far. */
 function LedgerChart({ ledger, start, step, onsetStep }: { ledger: number[]; start: number; step: number; onsetStep: number }) {
   const W = 600
-  const H = 220
-  const PAD = { left: 48, right: 12, top: 12, bottom: 28 }
+  const H = 240
+  const PAD = { left: 48, right: 12, top: 16, bottom: 28 }
   const max = ledger.at(-1) ?? start
   const span = Math.max(max - start, 1e-9)
   const x = (i: number) => PAD.left + (i / Math.max(ledger.length - 1, 1)) * (W - PAD.left - PAD.right)
@@ -313,38 +346,41 @@ function LedgerChart({ ledger, start, step, onsetStep }: { ledger: number[]; sta
       .slice(0, upTo + 1)
       .map((v, i) => `${x(i).toFixed(1)},${y(v).toFixed(1)}`)
       .join(' ')
+  const area = `${x(0).toFixed(1)},${y(start).toFixed(1)} ${points(step)} ${x(step).toFixed(1)},${y(start).toFixed(1)}`
 
   return (
-    <figure>
+    <figure style={{ margin: 0 }}>
       <svg
         viewBox={`0 0 ${W} ${H}`}
         role="img"
         aria-label={`Simulated cumulative dose over the replay: ${start.toFixed(2)} mSv at the start, ${max.toFixed(2)} mSv at the end, ${(ledger[step] ?? start).toFixed(2)} mSv at the current hour.`}
-        className="h-auto w-full"
+        style={{ width: '100%', height: 'auto', display: 'block' }}
       >
-        <line x1={PAD.left} x2={W - PAD.right} y1={y(start)} y2={y(start)} stroke="var(--color-rule)" />
-        <line x1={PAD.left} x2={W - PAD.right} y1={y(max)} y2={y(max)} stroke="var(--color-rule)" strokeDasharray="2 4" />
-        <text x={PAD.left - 6} y={y(start) + 4} textAnchor="end" fontSize="11" fill="var(--color-muted)">
+        <line x1={PAD.left} x2={W - PAD.right} y1={y(start)} y2={y(start)} stroke="var(--rule)" />
+        <line x1={PAD.left} x2={W - PAD.right} y1={y(max)} y2={y(max)} stroke="var(--rule)" strokeDasharray="2 4" />
+        <text x={PAD.left - 6} y={y(start) + 4} textAnchor="end" fontSize="11" fill="var(--muted)">
           {start.toFixed(1)}
         </text>
-        <text x={PAD.left - 6} y={y(max) + 4} textAnchor="end" fontSize="11" fill="var(--color-muted)">
+        <text x={PAD.left - 6} y={y(max) + 4} textAnchor="end" fontSize="11" fill="var(--muted)">
           {max.toFixed(1)}
         </text>
-        <line x1={x(onsetStep)} x2={x(onsetStep)} y1={PAD.top} y2={H - PAD.bottom} stroke="var(--color-ink)" strokeDasharray="4 3" />
-        <text x={x(onsetStep) + 5} y={PAD.top + 10} fontSize="11" fill="var(--color-ink)">
+        <rect x={x(onsetStep)} y={PAD.top} width={W - PAD.right - x(onsetStep)} height={H - PAD.top - PAD.bottom} fill="var(--act)" opacity="0.06" />
+        <line x1={x(onsetStep)} x2={x(onsetStep)} y1={PAD.top} y2={H - PAD.bottom} stroke="var(--act)" strokeDasharray="4 3" />
+        <text x={x(onsetStep) + 6} y={PAD.top + 12} fontSize="11.5" fontWeight="700" fill="var(--act-ink)">
           Event onset
         </text>
-        <polyline points={points(ledger.length - 1)} fill="none" stroke="var(--color-rule)" strokeWidth="1.5" />
-        <polyline points={points(step)} fill="none" stroke="var(--color-ink)" strokeWidth="2.25" />
-        <circle cx={x(step)} cy={y(ledger[step] ?? start)} r="4.5" fill="var(--color-accent)" />
-        <text x={PAD.left} y={H - 8} fontSize="11" fill="var(--color-muted)">
+        <polygon points={area} fill="var(--accent)" opacity="0.1" />
+        <polyline points={points(ledger.length - 1)} fill="none" stroke="var(--rule-strong)" strokeWidth="1.5" strokeDasharray="3 3" />
+        <polyline points={points(step)} fill="none" stroke="var(--ink)" strokeWidth="2.5" strokeLinejoin="round" />
+        <circle cx={x(step)} cy={y(ledger[step] ?? start)} r="6" fill="#f6c445" stroke="var(--ink)" strokeWidth="1.5" />
+        <text x={PAD.left} y={H - 8} fontSize="11" fill="var(--muted)">
           24 h before
         </text>
-        <text x={W - PAD.right} y={H - 8} textAnchor="end" fontSize="11" fill="var(--color-muted)">
+        <text x={W - PAD.right} y={H - 8} textAnchor="end" fontSize="11" fill="var(--muted)">
           {ledger.length - onsetStep - 1} h after
         </text>
       </svg>
-      <figcaption className="mt-1 text-xs text-muted">Simulated cumulative dose in mSv. The gray line is the rest of the event, not yet replayed.</figcaption>
+      <figcaption style={{ marginTop: 4, fontSize: 12.5, color: 'var(--muted)' }}>Simulated cumulative dose in mSv. The dashed line is the rest of the event, not yet replayed.</figcaption>
     </figure>
   )
 }

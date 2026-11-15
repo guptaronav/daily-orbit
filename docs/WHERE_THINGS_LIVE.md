@@ -39,7 +39,7 @@ next to its siblings below, and reuse the shared pieces instead of copying them.
 | Report icon | `proto/ReportPage.tsx` | The weekly report, print and CSV (button: `ReportButton.tsx`) |
 | More: Schedule | `proto/SchedulePage.tsx` | Crew day and reminder setting |
 | More: Escalation ladder | `proto/EscalationView.tsx` | The full ladder, ground packet, what Earth receives (`ShareChoices.tsx`), ground link (`GroundLink.tsx`) |
-| More: Radiation | `screens/Radiation.tsx` | Solar event replay (Evode) |
+| More: Radiation | `screens/Radiation.tsx` | Solar event replay (Evode), in the site style: career budget, shelter alert, dose ledger and chart |
 | More: Metrics | `proto/MetricsView.tsx` | Real-data validation (`ValidationCard.tsx`), model card (`ModelCard.tsx`), models |
 | More: Sources | `screens/Sources.tsx` | Every dataset and page used (Evode) |
 
