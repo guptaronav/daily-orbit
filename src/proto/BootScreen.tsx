@@ -4,6 +4,7 @@ import donki from '../data/donki-sep.json'
 import sources from '../content/sources.json'
 import { INDICATORS } from '../contract/types'
 import { getSnapshot } from './store'
+import { LogoTile } from './Logo'
 
 /*
  * A short systems check on the first load of a session. Every line is a real check, run on the
@@ -96,7 +97,9 @@ export function BootScreen() {
     <div role="status" aria-label="Systems check" style={{ position: 'fixed', inset: 0, zIndex: 100, display: 'grid', placeItems: 'center', background: 'radial-gradient(ellipse at 50% 30%, #1b2440, #07090f 70%)', color: '#e8eefc', opacity: leaving ? 0 : 1, transition: 'opacity 400ms ease', padding: 16 }}>
       <div style={{ width: 'min(460px, 100%)', display: 'grid', gap: 18 }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: 14 }}>
-          <img src={`${import.meta.env.BASE_URL}icon-192.png`} alt="" width={56} height={56} style={{ borderRadius: 14, animation: 'ms-glow 2s ease-in-out infinite' }} />
+          <span style={{ borderRadius: 14, animation: 'ms-glow 2s ease-in-out infinite' }}>
+            <LogoTile size={56} />
+          </span>
           <div>
             <strong style={{ fontSize: 22, letterSpacing: '-0.02em' }}>Daily Orbit</strong>
             <p style={{ margin: 0, fontSize: 13.5, color: 'rgba(232,238,252,.7)' }}>Systems check</p>
