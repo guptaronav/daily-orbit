@@ -27,6 +27,11 @@ const UNITS: Record<Indicator, string> = {
   waterIntake: 'L',
   mealsEaten: 'meals',
   reactionTime: 'ms',
+  painReport: '0-10',
+  orthostaticRise: 'bpm',
+  workload: '0-100',
+  moodScreen: 'score',
+  gripStrength: 'kg',
 }
 
 export const THRESHOLDS: readonly Threshold[] = INDICATORS.map((indicator) => ({

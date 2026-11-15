@@ -3,6 +3,7 @@
 // GENERATED from the UI overhaul prototype by dc2jsx.py. Styles are the prototype's, verbatim.
 // Edit the view model that feeds this, not this markup, unless you are re-porting the prototype.
 import { Fragment } from 'react'
+import { BodyChecks } from './BodyChecks'
 import { FoodWater } from './FoodWater'
 import { ReactionTest } from './ReactionTest'
 import * as P from './parts'
@@ -44,6 +45,7 @@ export function ManualView({ v }: { v: any }) {
           </div>
           <FoodWater />
           <ReactionTest />
+          <BodyChecks />
           <div style={S({ display: 'flex', flexWrap: 'wrap', alignItems: 'flex-start', gap: '24px' })}>
             <div style={S({ flex: '999 1 640px', display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(min(100%, 320px), 1fr))', gap: '18px' })}>
               {(v.forms ?? []).map((f: any, f_i: number) => (

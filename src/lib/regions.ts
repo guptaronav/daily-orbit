@@ -5,11 +5,11 @@ export type RegionId = 'head' | 'eyes' | 'heart' | 'skeleton' | 'body' | 'gut'
 export type Region = { id: RegionId; label: string; indicators: readonly Indicator[] }
 
 export const REGIONS: readonly Region[] = [
-  { id: 'head', label: 'Head', indicators: ['sleepHours', 'sleepQuality', 'mood', 'stress', 'blinkRate', 'eyelidClosure', 'reactionTime'] },
+  { id: 'head', label: 'Head', indicators: ['sleepHours', 'sleepQuality', 'mood', 'stress', 'blinkRate', 'eyelidClosure', 'reactionTime', 'workload', 'moodScreen'] },
   { id: 'eyes', label: 'Eyes', indicators: ['amslerDistortion', 'nearAcuity'] },
-  { id: 'heart', label: 'Heart', indicators: ['heartRate', 'bloodPressureSys', 'bloodPressureDia'] },
-  { id: 'skeleton', label: 'Skeleton', indicators: ['exerciseMinutes'] },
-  { id: 'body', label: 'Whole body', indicators: ['radiationDose', 'temperature', 'symptomReport'] },
+  { id: 'heart', label: 'Heart', indicators: ['heartRate', 'bloodPressureSys', 'bloodPressureDia', 'orthostaticRise'] },
+  { id: 'skeleton', label: 'Skeleton', indicators: ['exerciseMinutes', 'gripStrength'] },
+  { id: 'body', label: 'Whole body', indicators: ['radiationDose', 'temperature', 'symptomReport', 'painReport'] },
   { id: 'gut', label: 'Gut and nutrition', indicators: ['digestiveComfort', 'bowelMovements', 'appetite', 'bodyMass', 'bloodSugar', 'waterIntake', 'mealsEaten'] },
 ]
 

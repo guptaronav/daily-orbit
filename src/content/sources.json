@@ -15,7 +15,7 @@
     "id": "risk-cardio",
     "title": "Risk of Cardiovascular Adaptations",
     "url": "https://www.nasa.gov/reference/risk-of-cardiovascular-adaptations/",
-    "usedFor": "heartRate, bloodPressureSys, bloodPressureDia (hazardEffect, prevention, whenToEscalate); symptomReport (fainting)"
+    "usedFor": "heartRate, bloodPressureSys, bloodPressureDia (hazardEffect, prevention, whenToEscalate); symptomReport (fainting); orthostaticRise (hazardEffect, prevention)"
   },
   {
     "id": "csa-cardiobreath",
@@ -117,7 +117,7 @@
     "id": "nasa-ochmo-bh-brief",
     "title": "NASA-STD-3001 Technical Brief: Behavioral Health and Performance (OCHMO-TB-016 Rev B)",
     "url": "https://www.nasa.gov/wp-content/uploads/2023/12/ochmo-tb-016-behavioral-health.pdf",
-    "usedFor": "mood and stress (all fields: WinSCAT, private psychological/family conferences, care packages, journaling/Earth photography, stressors, training, habitat controls), blinkRate/sleepQuality.prevention (ear plugs, light blockers, eye masks)"
+    "usedFor": "mood and stress (all fields: WinSCAT, private psychological/family conferences, care packages, journaling/Earth photography, stressors, training, habitat controls), blinkRate/sleepQuality.prevention (ear plugs, light blockers, eye masks); workload (whyCheck, hazardEffect, whenToEscalate, prevention), moodScreen (whyCheck, hazardEffect, whenToEscalate, prevention, recommendedAction)"
   },
   {
     "id": "nasa-ochmo-sans-brief",
@@ -189,7 +189,7 @@
     "id": "risk-fitness",
     "title": "Risk of Reduced Cardiorespiratory and Musculoskeletal Fitness (NASA)",
     "url": "https://www.nasa.gov/reference/risk-of-reduced-cardiorespiratory-and-musculoskeletal-fitness/",
-    "usedFor": "Fitness loss, fall risk, less exercise space on future craft"
+    "usedFor": "Fitness loss, fall risk, less exercise space on future craft; gripStrength (hazardEffect: less exercise space on future craft)"
   },
   {
     "id": "astronaut-exercise",
@@ -201,7 +201,7 @@
     "id": "iss-blog-exercise-2025",
     "title": "Muscle and Exercise Studies to Maintain Crew Health in Space (ISS blog, 2025)",
     "url": "https://www.nasa.gov/blogs/spacestation/2025/07/16/muscle-and-exercise-studies-to-maintain-crew-health-in-space/",
-    "usedFor": "Daily two-hour exercise; plans adjusted from health data"
+    "usedFor": "Daily two-hour exercise; plans adjusted from health data; gripStrength (prevention, whenToEscalate)"
   },
   {
     "id": "nutritional-biochemistry",
@@ -424,5 +424,65 @@
     "title": "Nasrini et al. 2020, Cognitive Performance During Confinement and Sleep Restriction in NASA's HERA, Front Physiol (NIH PMC7198903)",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7198903",
     "usedFor": "NASA Cognition battery PVT in analog"
+  },
+  {
+    "id": "pmc-spinal-health",
+    "title": "Spinal Health during Unloading and Reloading Associated with Spaceflight (PMC5778142)",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5778142/",
+    "usedFor": "painReport (whyCheck: back pain 52-68% of astronauts; hazardEffect: disc swelling)"
+  },
+  {
+    "id": "hrr-disc",
+    "title": "HRR: Concern of Intervertebral Disc Damage upon and immediately after re-exposure to Gravity",
+    "url": "https://humanresearchroadmap.nasa.gov/risks/?i=78",
+    "usedFor": "painReport (hazardEffect: cause of back pain not well defined)"
+  },
+  {
+    "id": "hrr-medical",
+    "title": "HRR: Risk of Adverse Health Outcomes Due to Medical Conditions that occur in Mission",
+    "url": "https://humanresearchroadmap.nasa.gov/risks/risk.aspx?i=95",
+    "usedFor": "painReport (hrpRisk)"
+  },
+  {
+    "id": "nasa-muscle-risk",
+    "title": "Risk of Reduced Physical Performance Capabilities Due to Reduced Muscle Size, Strength, and Endurance (NASA)",
+    "url": "https://www.nasa.gov/directorates/esdmd/hhp/muscle-risk/",
+    "usedFor": "gripStrength (hrpRisk, whyCheck, hazardEffect), painReport (prevention: crews who follow the exercise schedule)"
+  },
+  {
+    "id": "hrp-cardio-evidence-2022",
+    "title": "Evidence Report: Risk of Cardiovascular Adaptations (NASA HRP, 2022)",
+    "url": "https://humanresearchroadmap.nasa.gov/evidence/reports/Cardio%20Risk%20EB%202022%20FINAL_4-3-2023.pdf",
+    "usedFor": "orthostaticRise (whyCheck, canMeasureInSpace: orthostatic intolerance after landing and on Moon/Mars descent)"
+  },
+  {
+    "id": "medline-orthostatic",
+    "title": "MedlinePlus Genetics: Orthostatic hypotension",
+    "url": "https://medlineplus.gov/genetics/condition/orthostatic-hypotension/",
+    "usedFor": "orthostaticRise (whenToEscalate: drop of 20 mmHg systolic or 10 mmHg diastolic within 3 minutes of standing)"
+  },
+  {
+    "id": "nasa-tlx",
+    "title": "NASA Task Load Index (NASA-TLX), NASA Ames Human Systems Integration",
+    "url": "https://humansystems.arc.nasa.gov/groups/TLX/",
+    "usedFor": "workload (canMeasureInSpace: six subscales, raw TLX)"
+  },
+  {
+    "id": "phq2-kroenke-2003",
+    "title": "Kroenke, Spitzer, Williams. The Patient Health Questionnaire-2: validity of a two-item depression screener. Med Care 2003",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/14583691/",
+    "usedFor": "moodScreen (PHQ-2 items and the cutoff of 3)"
+  },
+  {
+    "id": "gad2-kroenke-2007",
+    "title": "Kroenke et al. Anxiety disorders in primary care: prevalence, impairment, comorbidity, and detection. Ann Intern Med 2007",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/17339617/",
+    "usedFor": "moodScreen (GAD-2 items and the cutoff of 3)"
+  },
+  {
+    "id": "uw-gad2",
+    "title": "Generalized Anxiety Disorder 2-item (GAD-2), University of Washington",
+    "url": "https://www.hiv.uw.edu/page/mental-health-screening/gad-2",
+    "usedFor": "moodScreen (GAD-2 scoring 0-3 per item, cutoff of 3)"
   }
 ]

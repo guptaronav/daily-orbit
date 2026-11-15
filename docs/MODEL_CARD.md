@@ -41,6 +41,16 @@ The rules were replayed on one real participant from NASA's head-down-tilt bed-r
 - **Quick test (1 minute):** shorter than any validated version, so it is only compared with the person's own past results.
 - **PVT-B (3 minutes):** follows Basner, Mollicone and Dinges (2011). Targets appear every 1 to 4 seconds, and a lapse is a response of 355 ms or more. A response under 100 ms counts as a false start. Results are kept as their own history and never mixed with the quick test. A test with 3 or more lapses above the person's usual, while they rate their sleep or mood as fine, shows up as a self-report gap.
 
+## Body checks
+
+| Check | How it is judged | Source |
+|---|---|---|
+| Pain map | Any pain is Watch, no pain is fine; the areas, ratings and kinds are kept for the trend | Back pain in 52–68% of astronauts (PMC5778142) |
+| Stand-up test | The heart-rate rise is compared with the person's own earlier tests; a blood-pressure drop of 20/10 mmHg or more within 3 minutes, or feeling faint, is flagged straight away | MedlinePlus definition of orthostatic hypotension; NASA HRP cardiovascular evidence report |
+| Weekly workload | Raw NASA-TLX (mean of six 0–10 ratings, times 10), compared with the person's own usual | NASA Ames, NASA-TLX |
+| Mood screen | PHQ-2 and GAD-2, word for word; a score of 3 or more on either is Watch and points to a private talk. A screen, not a diagnosis | Kroenke 2003 (PHQ-2), Kroenke 2007 (GAD-2) |
+| Grip strength | The average of both hands' best of three, compared with the person's own usual | NASA muscle risk |
+
 ## Known limits
 
 - The test covers one person, in a ground analog rather than flight, with six indicators. Everyone else in the demo is simulated.

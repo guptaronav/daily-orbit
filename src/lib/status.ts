@@ -18,6 +18,14 @@ export function getCategoricalStatus(m: Measurement): Status {
   if (m.indicator === 'symptomReport' && Array.isArray(m.value.symptoms)) {
     return m.value.symptoms.length > 0 ? 'yellow' : 'green'
   }
+  // Any pain is worth a look; reporting it is what the app rewards most.
+  if (m.indicator === 'painReport' && typeof m.value.level === 'number') {
+    return m.value.level > 0 ? 'yellow' : 'green'
+  }
+  // PHQ-2 / GAD-2: a score of 3 or more on either is the published screening cutoff (Kroenke 2003, 2007).
+  if (m.indicator === 'moodScreen' && typeof m.value.phq2 === 'number' && typeof m.value.gad2 === 'number') {
+    return m.value.phq2 >= 3 || m.value.gad2 >= 3 ? 'yellow' : 'green'
+  }
   if (m.indicator === 'amslerDistortion' && typeof m.value.distortion === 'boolean') {
     return m.value.distortion ? 'yellow' : 'green'
   }

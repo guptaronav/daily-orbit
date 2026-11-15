@@ -1,7 +1,7 @@
 import { INDICATORS, type Indicator } from '../contract/types'
 
 /** Where a measurement can come from. `live` channels exist in the app today; `planned` ones are assigned (docs/TEAM_TASKS.md). */
-export type Channel = 'mirrorCamera' | 'mirrorVision' | 'mirrorCheckIn' | 'manualEntry' | 'radiationReplay' | 'nasaBedrest' | 'reactionTest'
+export type Channel = 'mirrorCamera' | 'mirrorVision' | 'mirrorCheckIn' | 'manualEntry' | 'radiationReplay' | 'nasaBedrest' | 'reactionTest' | 'bodyChecks'
 
 export type Coverage = { live: Channel[]; planned: Channel[]; nasaBasis: string }
 
@@ -29,6 +29,11 @@ export const COVERAGE: Record<Indicator, Coverage> = {
   bowelMovements: { live: ['nasaBedrest', 'manualEntry'], planned: [], nasaBasis: `NASA bed-rest Case Report Forms (daily bowel movement log, doi:10.83263/wjw1-ta27); ${HRP}: Host-Microorganism Interactions (our mapping)` },
   waterIntake: { live: ['manualEntry'], planned: [], nasaBasis: `${HRP}: Inadequate Food and Nutrition (daily fluid total, logged on the Log screen)` },
   mealsEaten: { live: ['manualEntry'], planned: [], nasaBasis: `${HRP}: Inadequate Food and Nutrition (meals eaten per day, logged on the Log screen)` },
+  painReport: { live: ['bodyChecks'], planned: [], nasaBasis: `${HRP}: medical conditions in mission (our mapping); back pain in flight (PMC5778142)` },
+  orthostaticRise: { live: ['bodyChecks'], planned: [], nasaBasis: `${HRP}: Cardiovascular Adaptations (orthostatic intolerance on return to gravity)` },
+  workload: { live: ['bodyChecks'], planned: [], nasaBasis: `NASA-TLX (NASA Ames), raw version; ${HRP}: Behavioral Changes and Psychiatric Disorders` },
+  moodScreen: { live: ['bodyChecks'], planned: [], nasaBasis: `PHQ-2 and GAD-2 screens; ${HRP}: Behavioral Changes and Psychiatric Disorders` },
+  gripStrength: { live: ['bodyChecks'], planned: [], nasaBasis: `${HRP}: Reduced Muscle Size, Strength and Endurance (hand-grip dynamometer)` },
   reactionTime: { live: ['reactionTest'], planned: [], nasaBasis: `${STD}: cognition tests; a short psychomotor vigilance (reaction-time) test on the Log screen` },
   bloodSugar: { live: ['manualEntry'], planned: [], nasaBasis: `${HRP}: Inadequate Food and Nutrition (our mapping); ${STD}: biochemical markers from blood` },
   bloodPressureSys: { live: ['manualEntry', 'nasaBedrest'], planned: [], nasaBasis: `${STD}: sensorimotor tests record blood pressure; ${HRP}: Cardiovascular Adaptations` },

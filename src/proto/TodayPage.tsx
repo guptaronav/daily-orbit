@@ -1,4 +1,5 @@
 import { useEffect, useReducer } from 'react'
+import { openBodyCheck } from './BodyChecks'
 import { readiness, type ReadinessLevel } from '../lib/readiness'
 import { blockState, doneToday, isBlockDone, planFor, toMinutes, type CustomBlock } from '../lib/schedule'
 import { useGroundLink } from './GroundLink'
@@ -72,6 +73,7 @@ export function TodayPage() {
     ...(budget.status !== 'green' ? [{ status: budget.status, text: `Career radiation dose ${Math.round(budget.used)} of ${budget.limit} mSv`, to: 'bodymap', cta: 'Radiation' }] : []),
     ...(D.slideForecasts(crew.id) as { label: string; status: string; text: string; outside: boolean }[]).filter((f) => f.status !== 'red').map((f) => ({ status: 'yellow', text: `${f.label}: ${f.text}`, to: 'bodymap', cta: 'See the trend' })),
   ]
+  const weeklyAge = D.weeklyCheckAge(crew.id) as number | null
   const stale = D.staleReadings(crew.id) as { id: string; label: string; days: number; go: string }[]
   const myAlert = (D.alerts() as { crewId: string; state: string; status: string; title: string }[]).find((a) => a.crewId === crew.id && a.state !== 'closed')
 
@@ -92,6 +94,8 @@ export function TodayPage() {
     { label: 'Mirror check', sub: 'About a minute with the camera', icon: '◎', run: () => go('mirror') },
     { label: 'Log a reading', sub: 'Cuff, thermometer, scale, food', icon: '✎', run: () => go('manual') },
     { label: 'Ask Orbit', sub: 'Questions about a symptom', icon: '✦', run: () => window.dispatchEvent(new Event('orbit:toggle')) },
+    { label: 'Pain check', sub: 'Tap where it hurts, or say nothing does', icon: '✚', run: () => openBodyCheck('pain') },
+    { label: 'Weekly check', sub: weeklyAge === null || weeklyAge >= 7 ? 'Due now: workload and mood' : `Done ${weeklyAge === 0 ? 'today' : `${weeklyAge} d ago`}`, icon: '◐', run: () => openBodyCheck('weekly') },
     { label: 'Weekly report', sub: 'Your last seven days', icon: '▤', run: () => go('report') },
   ]
 

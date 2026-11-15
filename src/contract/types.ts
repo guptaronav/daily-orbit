@@ -22,6 +22,13 @@ export const INDICATORS = [
   'waterIntake',
   'mealsEaten',
   'reactionTime',
+  // Body checks: where it hurts, the stand-up test for gravity changes, the weekly workload and
+  // mood check, and grip strength.
+  'painReport',
+  'orthostaticRise',
+  'workload',
+  'moodScreen',
+  'gripStrength',
 ] as const
 
 export type Indicator = (typeof INDICATORS)[number]
@@ -61,6 +68,8 @@ export type Measurement = {
   source: Source
   sourceDatasetId?: string // required when source starts with 'nasa-'
   standardMeasure?: StandardMeasure
+  /** The parts behind a number (pain areas, the lying and standing pulses, the questionnaire items). Never judged on its own. */
+  detail?: Record<string, unknown>
 }
 
 export type GameEventKind =

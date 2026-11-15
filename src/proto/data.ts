@@ -140,6 +140,7 @@ export const ICONS = {
 
 const PROTO_IND = {
   reactionTime: ['Reaction time', 'ms', 0],
+  painReport: ['Pain', '0-10', 0], orthostaticRise: ['Stand-up heart rate rise', 'bpm', 0], workload: ['Workload', '0-100', 0], moodScreen: ['Mood screen', 'score', 0], gripStrength: ['Grip strength', 'kg', 1],
   sleepHours: ['Sleep hours', 'h', 1], sleepQuality: ['Sleep quality', '0-10', 1], mood: ['Mood', '0-10', 1], stress: ['Stress', '0-10', 1],
   blinkRate: ['Blink rate', 'blinks/min', 2], eyelidClosure: ['Eyelid closure', '%', 2], amslerDistortion: ['Amsler grid distortion', '', 0],
   nearAcuity: ['Near acuity', 'logMAR', 2], heartRate: ['Heart rate', 'bpm', 0], bloodPressureSys: ['Blood pressure (systolic)', 'mmHg', 0],
@@ -186,6 +187,8 @@ const numeric = (m) => {
   if (typeof m.value === 'number') return m.value
   const v = m.value || {}
   if (Array.isArray(v.symptoms)) return v.symptoms.length
+  if (typeof v.level === 'number') return v.level
+  if (typeof v.phq2 === 'number' && typeof v.gad2 === 'number') return v.phq2 + v.gad2
   if (typeof v.distortedCells === 'number') return v.distortedCells
   if (typeof v.distortion === 'boolean') return v.distortion ? 1 : 0
   return 0
@@ -675,6 +678,10 @@ export function achievements(id) {
     { id: 'sharp', name: 'Sharp', desc: 'Finish three alertness checks', icon: 'zap', got: (getSnapshot().measurements[id] ?? []).filter((m) => m.indicator === 'reactionTime').length >= 3 },
     { id: 'focus', name: 'Steady focus', desc: 'Finish a 3-minute alertness test', icon: 'zap', got: pvtbHistory(id).length > 0 },
     { id: 'responder', name: 'First responder', desc: `Acknowledge an alert within ${ESCALATE_BACKUP_MIN} minutes`, icon: 'alert', got: Object.values(alertStore()).some((r) => r.ackBy === id && r.ackAt && r.firstSeen && r.ackAt - r.firstSeen <= ESCALATE_BACKUP_MIN * 60000) },
+    { id: 'mapper', name: 'Body mapper', desc: 'Do a pain check, even when nothing hurts', icon: 'body', got: hasReading(id, 'painReport') },
+    { id: 'standup', name: 'Steady on your feet', desc: 'Do the stand-up test', icon: 'heart', got: hasReading(id, 'orthostaticRise') },
+    { id: 'selfcheck', name: 'Checking in on yourself', desc: 'Do the weekly workload and mood check', icon: 'users', got: hasReading(id, 'workload') },
+    { id: 'grip', name: 'Strong grip', desc: 'Log grip strength three times', icon: 'zap', got: (getSnapshot().measurements[id] ?? []).filter((m) => m.indicator === 'gripStrength').length >= 3 },
     { id: 'planner', name: 'Planner', desc: 'Add a block of your own to the schedule', icon: 'clock', got: scheduleStore(id).custom.length > 0 },
     { id: 'contact', name: 'Ground contact', desc: 'Send a packet to Earth from Escalate', icon: 'send', got: groundLink(id).list.length > 0 },
     { id: 'scout', name: 'Scout', desc: 'Find your first discovery in a mission banner', icon: 'target', got: locker(id).found.length > 0 },
@@ -1303,6 +1310,9 @@ const PASS_TASKS = [
   { id: 'mirror5', label: 'Do five mirror checks', xp: 50, count: (id) => new Set(sinceWeek(getSnapshot().events[id] ?? []).filter((e) => e.kind === 'checkInComplete').map((e) => dayKey(e.timestamp))).size, goal: 5 },
   { id: 'packet', label: 'Send one packet to Earth', xp: 40, count: (id) => sinceWeek(groundLink(id).list, (p) => new Date(p.sentAt).toISOString()).length, goal: 1 },
   { id: 'pvtb1', label: 'Take the 3-minute alertness test', xp: 50, count: (id) => sinceWeek(pvtbHistory(id), (x) => new Date(x.at).toISOString()).length, goal: 1 },
+  { id: 'weekly1', label: 'Do the weekly workload and mood check', xp: 50, count: (id) => sinceWeek(getSnapshot().measurements[id] ?? []).filter((m) => m.indicator === 'workload').length, goal: 1 },
+  { id: 'grip1', label: 'Log your grip strength', xp: 40, count: (id) => sinceWeek(getSnapshot().measurements[id] ?? []).filter((m) => m.indicator === 'gripStrength').length, goal: 1 },
+  { id: 'load2', label: 'Log two bone-loading sessions', xp: 50, count: (id) => boneLoading(id).week.length, goal: 2 },
   { id: 'mass1', label: 'Log body mass once', xp: 40, count: (id) => sinceWeek(getSnapshot().measurements[id] ?? []).filter((m) => m.indicator === 'bodyMass' && m.source === 'manual').length, goal: 1 },
 ]
 /** Three rotating tasks a week that give mission-pass XP. Only effort, never values. */
@@ -1421,7 +1431,7 @@ export function alertPlan(a) {
   let now = [], today = [], escalateIf = '', source = HRP_RISKS, recheck = 'mirror'
   if (kind === 'reading') {
     const c = getContent(key)
-    recheck = ['bloodPressureSys', 'bloodPressureDia', 'temperature', 'bloodSugar', 'bodyMass', 'sleepHours', 'exerciseMinutes', 'reactionTime'].includes(key) ? 'manual' : 'mirror'
+    recheck = ['bloodPressureSys', 'bloodPressureDia', 'temperature', 'bloodSugar', 'bodyMass', 'sleepHours', 'exerciseMinutes', 'reactionTime', ...BODY_CHECKS].includes(key) ? 'manual' : 'mirror'
     now = [
       { id: 'retake', text: `Retake the ${c.label.toLowerCase()} reading, to rule out a one-off.`, go: recheck },
       ...(okT(c.recommendedAction) ? [{ id: 'act', text: okT(c.recommendedAction) }] : [{ id: 'tell', text: 'Tell a crewmate or the crew medical officer what you are seeing.' }]),
@@ -1495,18 +1505,20 @@ export function slideForecasts(crewId) {
 /* ---- Freshness: how old the newest good reading is ------------------------------------------ */
 export const STALE_DAYS = 3
 /** Indicators people only measure now and then; they go stale more slowly. */
-const SLOW = new Set(['bodyMass', 'bloodSugar', 'radiationDose', 'symptomReport', 'amslerDistortion', 'nearAcuity'])
+const SLOW = new Set(['bodyMass', 'bloodSugar', 'radiationDose', 'symptomReport', 'amslerDistortion', 'nearAcuity', 'painReport'])
+/** Weekly checks go stale after a week and a day. */
+const WEEKLY = new Set(['workload', 'moodScreen', 'gripStrength', 'orthostaticRise'])
 export function freshness(r) {
   if (!r || !r.latest) return { state: 'none', days: null, text: 'Never measured' }
   const days = Math.floor((Date.now() - r.latest.t) / DAY)
-  const limit = SLOW.has(r.id) ? STALE_DAYS * 2 : STALE_DAYS
+  const limit = WEEKLY.has(r.id) ? 8 : SLOW.has(r.id) ? STALE_DAYS * 2 : STALE_DAYS
   const when = days === 0 ? 'today' : days === 1 ? 'yesterday' : `${days} days ago`
   return { state: days >= limit ? 'stale' : 'fresh', days, text: `Last measured ${when}` }
 }
 export function staleReadings(crewId) {
   const cd = crewData(crewId)
   return Object.values(cd.readings)
-    .map((r) => ({ id: r.id, label: r.label, ...freshness(r), go: ['bloodPressureSys', 'bloodPressureDia', 'temperature', 'bloodSugar', 'bodyMass', 'sleepHours', 'exerciseMinutes', 'reactionTime'].includes(r.id) ? 'manual' : 'mirror' }))
+    .map((r) => ({ id: r.id, label: r.label, ...freshness(r), go: ['bloodPressureSys', 'bloodPressureDia', 'temperature', 'bloodSugar', 'bodyMass', 'sleepHours', 'exerciseMinutes', 'reactionTime', ...BODY_CHECKS].includes(r.id) ? 'manual' : 'mirror' }))
     .filter((x) => x.state === 'stale')
     .sort((a, b) => b.days - a.days)
 }
@@ -1560,12 +1572,12 @@ function pvtbGap(crewId) {
 
 /* ---- What Earth receives: the crew member chooses which kinds of change leave the ship ------- */
 export const SHARE_GROUPS = [
-  { id: 'vitals', label: 'Vital signs', hint: 'Heart rate, blood pressure, temperature', indicators: ['heartRate', 'bloodPressureSys', 'bloodPressureDia', 'temperature'] },
+  { id: 'vitals', label: 'Vital signs', hint: 'Heart rate, blood pressure, temperature, stand-up test', indicators: ['heartRate', 'bloodPressureSys', 'bloodPressureDia', 'temperature', 'orthostaticRise'] },
   { id: 'body', label: 'Body and nutrition', hint: 'Body mass, blood sugar, appetite, digestion', indicators: ['bodyMass', 'bloodSugar', 'appetite', 'digestiveComfort'] },
-  { id: 'sleep', label: 'Sleep and mood', hint: 'Sleep, mood, stress', indicators: ['sleepHours', 'sleepQuality', 'mood', 'stress'] },
+  { id: 'sleep', label: 'Sleep, mood and workload', hint: 'Sleep, mood, stress, the weekly check', indicators: ['sleepHours', 'sleepQuality', 'mood', 'stress', 'workload', 'moodScreen'] },
   { id: 'eyes', label: 'Eyes and alertness', hint: 'Blinking, eyelids, vision checks, reaction time', indicators: ['blinkRate', 'eyelidClosure', 'amslerDistortion', 'nearAcuity', 'reactionTime'] },
-  { id: 'exposure', label: 'Exercise and radiation', hint: 'Exercise minutes, radiation dose', indicators: ['exerciseMinutes', 'radiationDose'] },
-  { id: 'symptoms', label: 'Symptoms', hint: 'What you reported feeling', indicators: ['symptomReport'] },
+  { id: 'exposure', label: 'Exercise, strength and radiation', hint: 'Exercise, grip strength, radiation dose', indicators: ['exerciseMinutes', 'gripStrength', 'radiationDose'] },
+  { id: 'symptoms', label: 'Symptoms and pain', hint: 'What you reported feeling, and where it hurts', indicators: ['symptomReport', 'painReport'] },
 ]
 const shareKey = (id) => 'chm-share-' + id
 export function shareSettings(id) {
@@ -1595,4 +1607,71 @@ export function readingsCsv(crewId, days = 30) {
   const rows = [['timestamp', 'indicator', 'label', 'value', 'unit', 'quality_passed', 'quality_score', 'source']]
   for (const m of ms) rows.push([m.timestamp, m.indicator, IND[m.indicator]?.[0] ?? m.indicator, val(m), m.unit ?? '', m.quality?.passed ? 'yes' : 'no', m.quality?.score ?? '', m.source ?? ''])
   return rows.map((r) => r.map(esc).join(',')).join('\n') + '\n'
+}
+
+/* ==== Body checks: pain map, stand-up test, weekly workload and mood, grip and bone loading ==== */
+export const BODY_CHECKS = ['painReport', 'orthostaticRise', 'workload', 'moodScreen', 'gripStrength']
+const hasReading = (id, ind) => (getSnapshot().measurements[id] ?? []).some((m) => m.indicator === ind)
+/** The newest reading of one indicator, with its detail. */
+export function lastReading(id, ind) {
+  return (getSnapshot().measurements[id] ?? []).filter((m) => m.indicator === ind).sort((a, b) => b.timestamp.localeCompare(a.timestamp))[0] || null
+}
+export function readingsOf(id, ind, days = 30) {
+  const since = Date.now() - days * DAY
+  return (getSnapshot().measurements[id] ?? []).filter((m) => m.indicator === ind && Date.parse(m.timestamp) >= since).sort((a, b) => a.timestamp.localeCompare(b.timestamp))
+}
+
+/**
+ * Save one body check: its measurements (each may carry a detail) and one effort credit. Reporting
+ * pain pays the symptom-report rate, because reporting early is what the app rewards most; a
+ * "nothing hurts" check, the stand-up test, the weekly check and grip pay the logging rate. Never a
+ * health value. Returns the coins this earns, worked out from the same daily cap the app applies.
+ */
+export function saveBodyCheck(id, kind, values, effort = undefined as undefined | { kind: string; detail?: string }) {
+  const timestamp = new Date().toISOString()
+  const e = effort || { kind: 'readingLogged', detail: kind }
+  const { credited } = creditableKinds(getSnapshot().events[id] ?? [], [e], id, new Date(timestamp))
+  const points = credited.length ? Math.min(POINTS[e.kind], capRoom(id)) : 0
+  const NAMES = { painReport: 'Pain check', orthostaticRise: 'Stand-up test', weeklyCheck: 'Weekly check', gripStrength: 'Grip strength', resistance: 'Bone-loading session' }
+  if (credited.length && !points) announce(0, 'Daily coin limit reached', true)
+  if (points) announce(points, `${NAMES[kind] || 'Check'} logged`)
+  void (async () => {
+    for (const v of values) {
+      await addMeasurement({ id: crypto.randomUUID(), crewId: id, timestamp, indicator: v.indicator, value: v.value, unit: v.unit, quality: { score: 1, passed: true }, source: 'manual', ...(v.detail ? { detail: v.detail } : {}) })
+    }
+    await addEvent({ id: crypto.randomUUID(), crewId: id, timestamp, kind: e.kind, ...(e.detail ? { detail: e.detail } : {}) })
+    bridge.refresh()
+  })()
+  return points
+}
+
+/** Resistance sessions this week and over 30 days, from exercise logged with a resistance detail. */
+export function boneLoading(id) {
+  const all = readingsOf(id, 'exerciseMinutes', 30).filter((m) => m.detail && m.detail.type === 'resistance')
+  const ws = weekStart()
+  return { all, week: all.filter((m) => Date.parse(m.timestamp) >= ws) }
+}
+
+/** Pain over the last 14 days, by body area: how many days it came up and the worst rating. */
+export function painSummary(id, days = 14) {
+  const list = readingsOf(id, 'painReport', days)
+  const byArea = {}
+  for (const m of list) for (const a of (m.detail?.areas || [])) {
+    const k = a.area
+    const day = m.timestamp.slice(0, 10)
+    byArea[k] = byArea[k] || { area: k, label: a.label, days: new Set(), worst: 0 }
+    byArea[k].days.add(day)
+    byArea[k].worst = Math.max(byArea[k].worst, a.level)
+  }
+  return {
+    checks: list.length,
+    painDays: new Set(list.filter((m) => (m.value?.level ?? 0) > 0).map((m) => m.timestamp.slice(0, 10))).size,
+    areas: Object.values(byArea).map((x) => ({ ...x, days: x.days.size })).sort((a, b) => b.days - a.days || b.worst - a.worst),
+  }
+}
+
+/** Days since the weekly check, or null if never done. */
+export function weeklyCheckAge(id) {
+  const m = lastReading(id, 'workload')
+  return m ? Math.floor((Date.now() - Date.parse(m.timestamp)) / DAY) : null
 }
