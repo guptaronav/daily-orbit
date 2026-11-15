@@ -427,7 +427,6 @@ export function RewardsView({ v }: { v: any }) {
                   Spend coins on gear. It changes how you look, nothing else.
                 </p>
               </div>
-              <FeaturedToday />
               <div role="tablist" aria-label="Gear type" style={S({ display: 'flex', flexWrap: 'wrap', gap: '4px', padding: '4px', borderRadius: '999px', background: 'var(--paper-deep)' })}>
                 {(v.slots ?? []).map((t: any, t_i: number) => (
                     <Fragment key={t_i}>
@@ -438,7 +437,10 @@ export function RewardsView({ v }: { v: any }) {
                   ))}
               </div>
             </div>
-            <ul key={v.slot} style={S({ listStyle: 'none', margin: '22px 0 0', padding: '0', display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(min(100%, 200px), 1fr))', gap: '14px' })}>
+            <div style={{ marginTop: 16 }}>
+              <FeaturedToday />
+            </div>
+            <ul key={v.slot} style={S({ listStyle: 'none', margin: '18px 0 0', padding: '0', display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(min(100%, 200px), 1fr))', gap: '14px' })}>
               {(v.items ?? []).map((it: any, it_i: number) => (
                   <Fragment key={it_i}>
                 <li style={S({ display: 'flex', flexDirection: 'column', borderRadius: '24px', background: 'var(--panel)', border: `2px solid ${it.border}`, overflow: 'hidden', animation: `rw-rise 420ms ${it.delay} cubic-bezier(.22,1,.36,1) both`, transition: 'transform 220ms cubic-bezier(.34,1.56,.64,1), border-color 160ms ease' })} className="rewardsview-hover-4">
@@ -481,7 +483,7 @@ export function RewardsView({ v }: { v: any }) {
                         {it.priceText}
                       </span>
                     </div>
-                    <button type="button" onClick={it.act} disabled={it.disabled} style={S({ marginTop: 'auto', minHeight: '46px', borderRadius: '14px', background: it.btnBg, color: it.btnColor, border: it.btnBorder, boxShadow: it.btnShadow, fontSize: '14.5px', fontWeight: '700', cursor: it.cursor, transition: 'transform 90ms ease, box-shadow 90ms ease' })} className="rewardsview-active-5">
+                    <button type="button" onClick={it.act} disabled={it.disabled} style={S({ marginTop: 'auto', minHeight: '46px', padding: '6px 12px', lineHeight: 1.25, borderRadius: '14px', background: it.btnBg, color: it.btnColor, border: it.btnBorder, boxShadow: it.btnShadow, fontSize: '14.5px', fontWeight: '700', cursor: it.cursor, transition: 'transform 90ms ease, box-shadow 90ms ease' })} className="rewardsview-active-5">
                       {it.btnText}
                     </button>
                   </div>

@@ -46,8 +46,12 @@ export function ReportPage() {
 
   return (
     <main className="report-page" style={{ width: '100%', maxWidth: 980, margin: '0 auto', padding: '28px clamp(16px, 3vw, 32px) 72px', boxSizing: 'border-box' }}>
-      <div className="no-print" style={{ display: 'flex', flexWrap: 'wrap', gap: 10, justifyContent: 'space-between', alignItems: 'center', marginBottom: 18 }}>
-        <span style={{ fontSize: 14, color: 'var(--muted)' }}>Your updates for the last seven days, on one page you can hand to the flight surgeon. Open it any day from the page icon in the top bar.</span>
+      <div className="no-print" style={{ display: 'flex', flexWrap: 'wrap', gap: '14px 20px', justifyContent: 'space-between', alignItems: 'flex-end', marginBottom: 24 }}>
+        <div style={{ display: 'grid', gap: 10, flex: '1 1 420px' }}>
+          <p style={{ margin: 0, fontSize: 14, color: 'var(--muted)' }}>Weekly report · {crew.name}</p>
+          <h1 style={{ margin: 0, fontSize: 'clamp(36px, 5vw, 60px)', lineHeight: 0.95, fontWeight: 750, letterSpacing: '-0.05em' }}>Your week, on one page.</h1>
+          <span style={{ maxWidth: '60ch', fontSize: 15.5, lineHeight: 1.5, color: 'var(--ink-soft)' }}>The last seven days, ready to hand to the flight surgeon. Open it any day from the page icon in the top bar.</span>
+        </div>
         <button type="button" className="fw-press" onClick={() => window.print()} style={{ minHeight: 46, padding: '0 18px', borderRadius: 14, border: 0, background: '#14181f', color: '#f3f1ea', boxShadow: '0 5px 0 #000', fontWeight: 750, cursor: 'pointer' }}>
           Print or save as PDF
         </button>

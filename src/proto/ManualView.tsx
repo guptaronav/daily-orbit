@@ -29,6 +29,18 @@ export function ManualView({ v }: { v: any }) {
                 Cuff, thermometer, glucose meter, mass device, or the clock. Each reading feeds the same baseline as the mirror check. Field limits only catch typos; they are not health limits, and a reading earns the same coins whatever it says.
               </p>
             </div>
+            <section aria-label="How logging works" style={{ flex: '1 1 320px', padding: 22, borderRadius: 28, background: '#14181f', color: '#f3f1ea', display: 'grid', gap: 12, alignContent: 'start', animation: 'lg-rise 520ms 80ms cubic-bezier(.22,1,.36,1) both' }}>
+              <p style={{ margin: 0, fontSize: 12, fontWeight: 750, letterSpacing: '.06em', textTransform: 'uppercase', color: '#f6c445' }}>How logging works</p>
+              <p style={{ margin: 0, fontSize: 15, lineHeight: 1.5 }}>
+                <strong>Same baseline:</strong> every reading joins the one the mirror check builds, so the body map compares you only with you.
+              </p>
+              <p style={{ margin: 0, fontSize: 15, lineHeight: 1.5 }}>
+                <strong>Coins for logging:</strong> a reading earns the same whatever the number says.
+              </p>
+              <p style={{ margin: 0, fontSize: 15, lineHeight: 1.5 }}>
+                <strong>On this device:</strong> readings are saved locally, nothing is uploaded.
+              </p>
+            </section>
           </div>
           <FoodWater />
           <ReactionTest />

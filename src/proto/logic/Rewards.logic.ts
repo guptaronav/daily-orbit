@@ -65,7 +65,7 @@ export class RewardsLogic extends DCLogic {
       return {
         name: it.name, gear: prevGear, isBanner: it.slot === 'banner', bannerBg: it.bg, stage: it.slot === 'banner' ? 'transparent' : 'var(--panel-2)',
         equipped: on, border: on ? 'var(--ink)' : RARITY_BORDER[D.rarity(it)], delay: i * 50 + 'ms', rarity: D.rarity(it), rarityLabel: RARITY_LABEL[D.rarity(it)], rarityInk: RARITY_INK[D.rarity(it)], featured: D.featuredToday().includes(it.id),
-        priceText: it.pass ? (own ? 'Owned' : 'Pass reward') : it.price === 0 ? 'Free' : own ? 'Owned' : coin(it.price), priceColor: own || it.price === 0 ? 'var(--muted)' : 'var(--ink)', coinOp: own || it.price === 0 || it.pass ? 0 : 1,
+        priceText: own ? 'Owned' : it.pass ? 'Pass reward' : it.level ? `Level ${it.level}` : it.set ? 'Set reward' : it.price === 0 ? 'Free' : own ? 'Owned' : coin(it.price), priceColor: own || it.price === 0 ? 'var(--muted)' : 'var(--ink)', coinOp: own || it.price === 0 || it.pass ? 0 : 1,
         btnText, act, disabled, btnBg, btnColor, btnBorder, btnShadow, cursor,
       }
     })

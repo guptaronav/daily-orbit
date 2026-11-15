@@ -115,7 +115,7 @@ export function HazardsPanel() {
           {s.env.label} · {D.formatDelay(s.delay)} one way · change it in the top bar
         </span>
       </div>
-      <ul style={{ listStyle: 'none', margin: 0, padding: 0, display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(min(100%, 230px), 1fr))', gap: 10 }}>
+      <ul className="hazard-grid" style={{ listStyle: 'none', margin: 0, padding: 0, display: 'flex', flexWrap: 'wrap', gap: 10 }}>
         {list.map((h) => {
           const t = TONE[h.status]
           const isOpen = open === h.id

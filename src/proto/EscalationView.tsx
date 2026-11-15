@@ -31,7 +31,7 @@ export function EscalationView({ v }: { v: any }) {
                 <p style={S({ margin: '0 0 6px 12px', fontSize: '14px', color: 'var(--muted)' })}>
                   The ladder · climb only when the step below has not settled it
                 </p>
-                <ol style={S({ position: 'relative', listStyle: 'none', margin: '0', padding: '0', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '8px' })}>
+                <ol style={S({ position: 'relative', listStyle: 'none', margin: '0', padding: '30px 0 0', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '8px' })}>
                   {(v.rungs ?? []).map((r: any, r_i: number) => (
                       <Fragment key={r_i}>
                     <li style={S({ position: 'relative', display: 'flex', flexDirection: 'column', alignItems: 'center', transform: `translateX(${r.shift})`, padding: '10px 0' })}>

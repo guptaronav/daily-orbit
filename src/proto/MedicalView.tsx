@@ -39,9 +39,25 @@ export function MedicalView({ v }: { v: any }) {
                   ))}
               </div>
             </div>
+            <section aria-label="Crew at a glance" style={{ flex: '1 1 320px', padding: 22, borderRadius: 28, background: '#14181f', color: '#f3f1ea', display: 'grid', gap: 14, alignContent: 'start', animation: 'cr-rise 520ms 80ms cubic-bezier(.22,1,.36,1) both' }}>
+              <p style={{ margin: 0, fontSize: 12, fontWeight: 750, letterSpacing: '.06em', textTransform: 'uppercase', color: '#f6c445' }}>Crew at a glance</p>
+              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 10 }}>
+                {[
+                  [String(v.nCrew ?? 0), 'on board'],
+                  [String(v.nAttn ?? 0), 'need a look'],
+                  [String(v.goalPct ?? '0%'), 'crew goal'],
+                ].map(([n, k]) => (
+                  <div key={k} style={{ padding: '10px 12px', borderRadius: 16, background: 'rgba(243,241,234,.07)' }}>
+                    <strong style={{ display: 'block', fontSize: 28, lineHeight: 1.1, letterSpacing: '-0.03em' }}>{n}</strong>
+                    <span style={{ fontSize: 12.5, color: 'rgba(243,241,234,.7)' }}>{k}</span>
+                  </div>
+                ))}
+              </div>
+              <p style={{ margin: 0, fontSize: 14, color: 'rgba(243,241,234,.8)' }}>{v.systemsText}</p>
+            </section>
           </div>
           <AlertsPanel />
-          <ul style={S({ listStyle: 'none', margin: '0', padding: '0', display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(min(100%, 300px), 1fr))', gap: '20px' })}>
+          <ul style={S({ listStyle: 'none', margin: '0', padding: '0', display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(min(100%, 270px), 1fr))', gap: '20px' })}>
             {(v.views ?? []).map((v: any, v_i: number) => (
                 <Fragment key={v_i}>
               <li style={S({ display: 'flex', animation: `cr-rise 560ms ${v.delay} cubic-bezier(.22,1,.36,1) both` })}>

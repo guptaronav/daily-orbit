@@ -272,10 +272,10 @@
 @media (max-width: 1050px) { .footer-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } .footer-brand { grid-column: 1 / -1; } }
 @media (max-width: 520px) { .footer-grid { grid-template-columns: 1fr; } }
 
-/* ---- Dock skins (level rewards) ---- */
-.dock-skin.dock-midnight { box-shadow: 0 0 0 2px #24345e, 0 18px 40px -16px rgba(11,18,32,.7) !important; }
-.dock-skin.dock-gold { box-shadow: 0 0 0 2px #f6c445, 0 0 22px -4px rgba(246,196,69,.55), 0 18px 40px -16px rgba(20,24,31,.5) !important; }
-.dock-skin.dock-aurora { box-shadow: 0 0 0 2px #7ef0c5, 0 0 26px -2px rgba(178,141,255,.55), 0 18px 40px -16px rgba(20,24,31,.5) !important; animation: dock-aurora 6s ease-in-out infinite; }
+/* ---- Dock skins (level rewards): a soft ring on the rounded dock itself, never the square wrapper ---- */
+.dock-skin.dock-midnight > div { box-shadow: 0 0 0 2px #24345e, 0 18px 40px -16px rgba(11,18,32,.55) !important; }
+.dock-skin.dock-gold > div { box-shadow: 0 0 0 2px #f6c445, 0 0 22px -6px rgba(246,196,69,.55), 0 18px 40px -16px rgba(20,24,31,.45) !important; }
+.dock-skin.dock-aurora > div { box-shadow: 0 0 0 2px #7ef0c5, 0 0 24px -6px rgba(178,141,255,.55), 0 18px 40px -16px rgba(20,24,31,.45) !important; animation: dock-aurora 6s ease-in-out infinite; }
 @keyframes dock-aurora { 0%, 100% { filter: hue-rotate(0deg) } 50% { filter: hue-rotate(40deg) } }
 
 /* ---- Ship systems ---- */
@@ -289,3 +289,6 @@
 .metrics-page > div > div[style*="border: 1px solid var(--rule)"], .metrics-page > div > section { border-radius: 28px !important; overflow: hidden; }
 .metrics-page span[style*="border: 1px solid var(--watch-ink)"] { border-radius: 999px !important; padding: 3px 10px !important; text-transform: none !important; font-weight: 700 !important; }
 .metrics-page > div[style*="margin-top: 32px"] { margin-top: 0 !important; }
+
+/* Hazards: five cards share the row evenly; a wrapped row stretches instead of leaving one card alone. */
+.hazard-grid > li { flex: 1 1 210px; min-width: 0; }

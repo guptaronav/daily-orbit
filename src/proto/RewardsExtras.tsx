@@ -8,7 +8,7 @@ import * as P from './parts'
  * two featured items a day.
  */
 
-const card = { borderRadius: 28, background: 'var(--panel)', border: '1px solid var(--rule)', padding: '24px 26px', display: 'grid', gap: 14 } as const
+const card = { borderRadius: 28, background: 'var(--panel)', border: '1px solid var(--rule)', padding: '24px 26px', display: 'grid', gap: 14, alignContent: 'start' } as const
 const h2 = { margin: 0, fontSize: 22, fontWeight: 650, letterSpacing: '-0.02em' } as const
 const sub = { margin: 0, fontSize: 13.5, color: 'var(--muted)' } as const
 
@@ -97,20 +97,23 @@ export function SetsAndLevels() {
         </div>
         <ul style={{ listStyle: 'none', margin: 0, padding: 0, display: 'grid', gap: 10 }}>
           {sets.map((st) => (
-            <li key={st.id} style={{ display: 'grid', gap: 6, padding: '10px 12px', borderRadius: 14, background: st.done ? 'rgba(246,196,69,.14)' : 'var(--panel-2)', border: st.done ? '1.5px solid #f6c445' : '1.5px solid transparent' }}>
+            <li key={st.id} style={{ display: 'grid', gap: 8, padding: '12px 14px', borderRadius: 16, background: st.done ? 'rgba(246,196,69,.14)' : 'var(--panel-2)', border: st.done ? '1.5px solid #f6c445' : '1.5px solid transparent' }}>
               <span style={{ display: 'flex', justifyContent: 'space-between', gap: 8 }}>
                 <strong style={{ fontSize: 14.5 }}>{st.name}</strong>
                 <span style={{ fontSize: 13, fontWeight: 750, color: st.done ? '#a8740a' : 'var(--muted)' }}>{st.done ? `Unlocked: ${st.rewardName}` : `${st.have.length} of ${st.items.length}`}</span>
               </span>
-              <span style={{ fontSize: 12.5, color: 'var(--muted)' }}>
-                {st.itemNames.map((n, i) => (
-                  <span key={n} style={{ color: st.have.includes(st.items[i]) ? 'var(--ink)' : 'var(--muted)', fontWeight: st.have.includes(st.items[i]) ? 650 : 400 }}>
-                    {i ? ' · ' : ''}
-                    {st.have.includes(st.items[i]) ? '✓ ' : ''}
-                    {n}
-                  </span>
-                ))}
+              <Bar frac={st.have.length / st.items.length} color={st.done ? '#f6c445' : '#e8742c'} />
+              <span style={{ display: 'flex', flexWrap: 'wrap', gap: 6 }}>
+                {st.itemNames.map((n, i) => {
+                  const own = st.have.includes(st.items[i])
+                  return (
+                    <span key={n} style={{ display: 'inline-flex', alignItems: 'center', gap: 4, padding: '3px 9px', borderRadius: 99, fontSize: 12.5, fontWeight: own ? 700 : 500, background: own ? '#14181f' : 'transparent', color: own ? '#f3f1ea' : 'var(--muted)', border: own ? '1px solid #14181f' : '1px dashed var(--rule-strong)' }}>
+                      {own ? '✓' : ''} {n}
+                    </span>
+                  )
+                })}
               </span>
+              {!st.done && <span style={{ fontSize: 12.5, color: 'var(--muted)' }}>Reward: {st.rewardName}</span>}
             </li>
           ))}
         </ul>
@@ -120,7 +123,7 @@ export function SetsAndLevels() {
           <h2 style={h2}>Level rewards</h2>
           <p style={sub}>Every level unlocks something: a title under your name, a dock skin or a piece of gear.</p>
         </div>
-        <ol style={{ listStyle: 'none', margin: 0, padding: 0, display: 'grid', gap: 6 }}>
+        <ol style={{ listStyle: 'none', margin: 0, padding: 0, display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(min(100%, 230px), 1fr))', gap: 6 }}>
           {(D.LEVEL_UNLOCKS as { lv: number; id: string; label: string; what: string; kind: string }[]).map((u) => {
             const got = u.lv <= perks.lv
             return (

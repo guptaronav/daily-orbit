@@ -21,7 +21,7 @@ export class SiteFooterLogic extends DCLogic {
         'Color is never the only signal: the status word is always shown.',
         'Runs offline after first load.',
       ],
-      bottomPad: this.props.dock ? '104px' : '18px',
+      bottomPad: this.props.dock ? '132px' : '18px',
     }
   }
 }
