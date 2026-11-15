@@ -52,12 +52,11 @@ export class TopBarLogic extends DCLogic {
     const M = [
       ['Mission schedule', 'Your day, block by block, and the reminder time', 'Schedule.dc.html', 'clock'],
       ['Escalation ladder', 'Who to tell, what Earth receives, and the link to Earth', 'Escalation.dc.html', 'send'],
-      ['Radiation', 'Replay a historical solar particle event', 'Radiation.dc.html', 'shield'],
       ['Metrics', 'Modeled numbers and the real-data test', 'Metrics.dc.html', 'chart'],
       ['Sources', 'Every NASA dataset and page used', 'Sources.dc.html', 'book'],
       ['Set up again', 'Replay the one-minute setup', 'Onboarding.dc.html', 'spark'],
     ]
-    const MORE_MATCH = ['Mission schedule', 'Escalation', 'Radiation', 'Metrics', 'Sources']
+    const MORE_MATCH = ['Mission schedule', 'Escalation', 'Metrics', 'Sources']
     const moreActive = MORE_MATCH.includes(here)
     const more = M.map(([label, desc, href, icon]) => ({ label, desc, href, disabled: undefined, op: 1, cursor: 'pointer', path: D.ICONS[icon], tileBg: 'var(--ink)', tileColor: 'var(--paper)' }))
     const g = D.game(s.crew.id), lv = D.level(w.xp), gr = D.gear(w)

@@ -1344,6 +1344,8 @@ function seenMoments(id) {
   try { return JSON.parse(localStorage.getItem(seenKey(id)) || '{}') } catch { return {} }
 }
 export function pendingMoments(id) {
+  // Wait for the stored data: counting from an empty wallet would greet a first visit with a level-up.
+  if (!getSnapshot().loadedAt) return []
   const seen = seenMoments(id)
   const out = []
   const save = (game(id).saves || []).at(-1)

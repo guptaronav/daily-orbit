@@ -6,7 +6,7 @@ import { openBodyCheck } from './BodyChecks'
 import * as D from './data'
 import { openEscalation } from './EscalationAdvice'
 import * as P from './parts'
-import { openSection } from './Sections'
+import { openRadiation, openSection } from './Sections'
 import { useStoreTick } from './shared'
 import { bridge, getSnapshot } from './store'
 
@@ -99,7 +99,7 @@ export function TodayPage() {
     ...gaps.map((x) => ({ key: 'g' + x.id, status: 'yellow', title: `You rated your ${x.rated.label} ${x.rated.value}/10`, sub: `but ${x.measured[0].text}`, label: 'See why', run: () => openSection('body', 'patterns') })),
     ...(D.slideForecasts(crew.id) as { id: string; label: string; status: string; text: string }[]).filter((f) => f.status !== 'red').map((f) => ({ key: 's' + f.id, status: 'yellow', title: f.label, sub: f.text, label: 'Trend', run: () => openSection('body', 'readings') })),
     ...(hz.length ? [{ key: 'hz', status: hz.some((h) => h.status === 'red') ? 'red' : 'yellow', title: `${hz.length} hazard${hz.length === 1 ? '' : 's'} to watch`, sub: hz.map((h) => h.name).join(', '), label: 'Five hazards', run: () => openSection('body', 'hazards') }] : []),
-    ...(budget.status !== 'green' ? [{ key: 'rad', status: budget.status, title: 'Career radiation dose', sub: `${Math.round(budget.used)} of ${budget.limit} mSv`, label: 'Radiation', run: () => go('radiation') }] : []),
+    ...(budget.status !== 'green' ? [{ key: 'rad', status: budget.status, title: 'Career radiation dose', sub: `${Math.round(budget.used)} of ${budget.limit} mSv`, label: 'Radiation', run: openRadiation }] : []),
   ]
   const weekly = D.weeklyCheckAge(crew.id) as number | null
   const stale = D.staleReadings(crew.id) as { label: string; days: number; go: string }[]

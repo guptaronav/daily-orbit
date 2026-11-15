@@ -22,7 +22,7 @@ const GROUPS = [
       ['Escalation.dc.html', 'Escalation ladder'],
       ['Medical%20View.dc.html', 'Crew'],
       ['Rewards.dc.html', 'Rewards'],
-      ['Radiation.dc.html', 'Radiation'],
+      ['Radiation.dc.html', 'Solar storm replay'],
       ['Onboarding.dc.html', 'Set up again'],
     ],
   },

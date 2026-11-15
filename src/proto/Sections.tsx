@@ -32,6 +32,19 @@ export function openSection(page: Page, tab: string) {
   setTimeout(() => window.scrollTo({ top: 0, behavior: 'smooth' }), 60)
 }
 
+/** The radiation replay sits at the bottom of Body's Five hazards tab: open it and scroll to it. */
+export function openRadiation() {
+  openSection('body', 'hazards')
+  let tries = 0
+  const find = () => {
+    const el = document.getElementById('radiation-replay')
+    // Wait for the scroll to the top and the tab's layout to settle, then jump to the replay.
+    if (el) setTimeout(() => el.scrollIntoView({ behavior: 'smooth', block: 'start' }), 450)
+    else if (tries++ < 40) setTimeout(find, 100)
+  }
+  setTimeout(find, 160)
+}
+
 export function useSection<T extends string>(page: Page): T {
   const [tab, setTab] = useState<string>(current[page])
   useEffect(() => {

@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState } from 'react'
+import { useEffect, useMemo, useRef, useState, type ReactNode } from 'react'
 import { addMeasurements, removeMeasurements } from '../db/repo'
 import {
   MISSION_DAYS_BEFORE_REPLAY,
@@ -39,7 +39,7 @@ const kicker = { margin: 0, fontSize: 12, fontWeight: 750, letterSpacing: '.06em
 const ghost = (off: boolean) => ({ minHeight: 44, padding: '0 14px', borderRadius: 13, border: '1.5px solid var(--rule-strong)', background: 'var(--panel)', color: off ? 'var(--muted)' : 'var(--ink)', fontWeight: 700, cursor: off ? 'not-allowed' : 'pointer', opacity: off ? 0.55 : 1 }) as const
 const link = { border: 0, background: 'transparent', padding: 0, color: 'var(--accent)', textDecoration: 'underline', cursor: 'pointer', font: 'inherit', fontWeight: 650 } as const
 
-export function Radiation() {
+export function Radiation({ embedded = false }: { embedded?: boolean } = {}) {
   const { crewId, currentCrew, go, refresh } = useApp()
   const [replayId, setReplayId] = useState(REPLAYS[0]?.id ?? '')
   const [step, setStep] = useState(0)
@@ -144,18 +144,22 @@ export function Radiation() {
   const pct = Math.min(100, (budget.used / budget.limit) * 100)
 
   return (
-    <main style={{ width: '100%', maxWidth: 1320, margin: '0 auto', padding: '28px clamp(16px, 3vw, 32px) 72px', boxSizing: 'border-box', display: 'grid', gap: 20 }}>
+    <Wrap embedded={embedded}>
       {/* Hero: what this is, and where this crew member stands on the career limit */}
       <section style={{ display: 'flex', flexWrap: 'wrap', gap: 20, alignItems: 'stretch', animation: 'lg-rise 520ms cubic-bezier(.22,1,.36,1) both' }}>
         <div style={{ flex: '2 1 520px', display: 'grid', gap: 14, alignContent: 'end' }}>
           <p style={{ margin: 0, fontSize: 14, color: 'var(--muted)' }}>Radiation · {name}</p>
-          <h1 style={{ margin: 0, fontSize: 'clamp(38px, 5.4vw, 68px)', lineHeight: 0.95, fontWeight: 750, letterSpacing: '-0.05em' }}>Ride out a real solar storm.</h1>
+          {embedded ? (
+            <h2 id="radiation-replay-heading" style={{ margin: 0, fontSize: 'clamp(28px, 3.6vw, 44px)', lineHeight: 1, fontWeight: 750, letterSpacing: '-0.04em' }}>Ride out a real solar storm.</h2>
+          ) : (
+            <h1 style={{ margin: 0, fontSize: 'clamp(38px, 5.4vw, 68px)', lineHeight: 0.95, fontWeight: 750, letterSpacing: '-0.05em' }}>Ride out a real solar storm.</h1>
+          )}
           <p style={{ margin: 0, maxWidth: '62ch', fontSize: 16, lineHeight: 1.55, color: 'var(--ink-soft)' }}>
             Replay a historical solar particle event on a <strong>simulated vehicle</strong>. The event and the dose rates are NASA measurements; the dose ledger is a{' '}
             <strong>simulation, not dosimetry</strong>, so nobody on this crew received this dose.
           </p>
         </div>
-        <aside aria-label="Career radiation budget" style={{ flex: '1 1 300px', padding: 22, borderRadius: 28, background: '#14181f', color: '#f3f1ea', display: 'grid', gap: 12, alignContent: 'start' }}>
+        {!embedded && <aside aria-label="Career radiation budget" style={{ flex: '1 1 300px', padding: 22, borderRadius: 28, background: '#14181f', color: '#f3f1ea', display: 'grid', gap: 12, alignContent: 'start' }}>
           <p style={{ ...kicker, color: '#f6c445' }}>Career budget</p>
           <p style={{ margin: 0, display: 'flex', alignItems: 'baseline', gap: 6 }}>
             <span style={{ fontSize: 40, fontWeight: 750, letterSpacing: '-0.04em' }}>{Math.round(budget.used)}</span>
@@ -168,7 +172,7 @@ export function Radiation() {
           <button type="button" onClick={() => openSection('body', 'hazards')} style={{ justifySelf: 'start', minHeight: 36, padding: '0 12px', borderRadius: 10, border: '1.5px solid rgba(243,241,234,.4)', background: 'transparent', color: '#f3f1ea', fontWeight: 700, cursor: 'pointer' }}>
             See the five hazards
           </button>
-        </aside>
+        </aside>}
       </section>
 
       {/* The event and the timeline */}
@@ -357,7 +361,7 @@ export function Radiation() {
           </p>
         </div>
       </details>
-    </main>
+    </Wrap>
   )
 }
 
@@ -421,4 +425,15 @@ function LedgerChart({ ledger, start, step, onsetStep }: { ledger: number[]; sta
       <figcaption style={{ marginTop: 4, fontSize: 12.5, color: 'var(--muted)' }}>Simulated cumulative dose in mSv. The dashed line is the rest of the event, not yet replayed.</figcaption>
     </figure>
   )
+}
+
+/** A page of its own, or (embedded) a section of Body's Five hazards tab. */
+function Wrap({ embedded, children }: { embedded: boolean; children: ReactNode }) {
+  if (embedded)
+    return (
+      <section id="radiation-replay" aria-labelledby="radiation-replay-heading" style={{ display: 'grid', gap: 20, scrollMarginTop: 170, paddingTop: 8 }}>
+        {children}
+      </section>
+    )
+  return <main style={{ width: '100%', maxWidth: 1320, margin: '0 auto', padding: '28px clamp(16px, 3vw, 32px) 72px', boxSizing: 'border-box', display: 'grid', gap: 20 }}>{children}</main>
 }

@@ -2,7 +2,7 @@
 /* eslint-disable */
 // GENERATED from the UI overhaul prototype by dc2jsx.py. Styles are the prototype's, verbatim.
 // Edit the view model that feeds this, not this markup, unless you are re-porting the prototype.
-import { Fragment } from 'react'
+import { Fragment, lazy, Suspense } from 'react'
 import { HazardsPanel } from './HazardsPanel'
 import { PatternsPanel } from './PatternsPanel'
 import * as D from './data'
@@ -10,6 +10,9 @@ import * as P from './parts'
 import { S } from './parts'
 import { openEscalation } from './EscalationAdvice'
 import { BodyTabs, Section } from './Sections'
+
+// The radiation replay lives in the Five hazards tab, loaded only when that tab is first drawn.
+const Radiation = lazy(() => import('../screens/Radiation').then((m) => ({ default: m.Radiation })))
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export function BodyMapView({ v }: { v: any }) {
@@ -77,6 +80,9 @@ export function BodyMapView({ v }: { v: any }) {
           </Section>
           <Section page="body" id="hazards">
             <HazardsPanel />
+            <Suspense fallback={null}>
+              <Radiation embedded />
+            </Suspense>
           </Section>
           <Section page="body" id="tour">
           <section data-reveal="1" aria-labelledby="tour-heading" style={S({ position: 'relative' })}>
