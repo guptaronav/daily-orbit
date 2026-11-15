@@ -57,9 +57,13 @@ export class LandingLogic extends DCLogic {
       heroChips: [
         { k: 'Streak', v: `${g.streak} days`, color: '#ffb066', delay: '500ms' },
         { k: 'Coins', v: w.coins.toLocaleString(), color: '#f6c445', delay: '600ms' },
-        { k: 'Rank', v: `${lv.rank} · Lv ${lv.n}`, color: '#f3f1ea', delay: '700ms' },
+        { k: 'Level', v: `${lv.n} · ${lv.rank}`, color: '#f3f1ea', delay: '700ms' },
       ],
-      heroStats: [{ k: 'Daily check', v: '30 s' }, { k: 'Crew goal this week', v: Math.round(goal.frac * 100) + '%' }, { k: 'Ship systems online', v: `${goal.systems.filter((x) => x.online).length} / ${goal.systems.length}` }],
+      heroStats: [{ k: 'check-in a day', v: '1 min' }, { k: 'health indicators', v: '28' }, { k: 'NASA sources cited', v: '57' }, { k: 'days flagged in a real NASA study', v: '12 / 18' }],
+      // The mission panel: where this crew is, and the planet behind them.
+      missionLine: `Mission day ${D.radiationBudget(s.crew.id).missionDays + 1} · ${s.env.label}`,
+      delayLine: `${D.formatDelay(s.delay)} to Earth`,
+      planet: s.env.id === 'iss' ? 'radial-gradient(circle at 35% 30%, #9cc8ff, #2f6fd6 45%, #0b2a5c 75%)' : s.env.id === 'lunar' ? 'radial-gradient(circle at 35% 30%, #e9e6dd, #a8a49a 50%, #4a4842 80%)' : 'radial-gradient(circle at 35% 30%, #ffb27a, #c1532a 48%, #4a1a0c 80%)',
       perks: [
         { t: 'Daily supply crate, 10 to 30 coins', icon: D.ICONS.award },
         { t: 'Streak rewards at 3, 7, 14 and 30 days', icon: D.ICONS.flame },

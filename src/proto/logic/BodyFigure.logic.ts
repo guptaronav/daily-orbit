@@ -4,19 +4,11 @@
 import React from 'react'
 import * as D from '../data'
 import { DCLogic, navigate } from '../dc'
+import { BODY_OUTLINE } from '../bodyOutline'
 
 export class BodyFigureLogic extends DCLogic {
-  outlinePath() {
-    if (this._o) return this._o
-    const R = [[116,16,126,29,126,46],[126,63,117,76,107,79],[107,84,108,88,109,91],[118,95,133,96,143,101],[152,105,156,114,157,126],[159,152,161,184,162,214],[163,232,162,248,161,262],[160,272,154,276,150,272],[147,268,148,256,148,246],[147,222,144,196,141,170],[140,158,138,148,136,141],[134,162,131,186,130,204],[129,218,134,230,135,244],[135,292,131,342,129,382],[128,402,127,414,129,424],[131,431,124,435,115,433],[110,431,108,425,108,414],[108,378,106,318,104,268],[103,262,101,259,100,259]]
-    let d = 'M100 16 ' + R.map((s) => `C${s.join(' ')}`).join(' ')
-    const pts = [[100, 16], ...R.map((s) => [s[4], s[5]])]
-    for (let i = R.length - 1; i >= 0; i--) {
-      const s = R[i], p0 = pts[i]
-      d += ` C${200 - s[2]} ${s[3]} ${200 - s[0]} ${s[1]} ${200 - p0[0]} ${p0[1]}`
-    }
-    return (this._o = d + ' Z')
-  }
+  // The one shared silhouette (src/proto/bodyOutline.ts); the pain map draws the same body.
+  outlinePath() { return BODY_OUTLINE }
   renderVals() {
     const S = { green: 'var(--ok)', yellow: 'var(--watch)', red: 'var(--act)', gray: 'var(--nodata)' }
     const L = { green: 'Within baseline', yellow: 'Watch', red: 'Act', gray: 'Not enough good data' }

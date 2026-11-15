@@ -3,7 +3,6 @@ import { DemoPanel } from './components/DemoPanel'
 import { usePrototypeLinks } from './proto/dc'
 import {
   BodyMapPage,
-  EscalationPage,
   LandingPage,
   ManualPage,
   MedicalPage,
@@ -17,6 +16,7 @@ import { bridge, useProtoStore } from './proto/store'
 import { TodayPage } from './proto/TodayPage'
 import { ReportPage } from './proto/ReportPage'
 import { Tour } from './proto/Tour'
+import { openEarthLink, openRadiation } from './proto/Sections'
 import { BootScreen } from './proto/BootScreen'
 import { GoalToast } from './proto/GoalToast'
 import { Moments } from './proto/Moments'
@@ -25,7 +25,6 @@ import { AppProvider, useApp } from './state/AppContext'
 // Everything beyond the shell loads on demand. The camera pipeline is the heaviest part.
 const MirrorCheck = lazy(() => import('./screens/mirror/MirrorCheck').then((m) => ({ default: m.MirrorCheck })))
 const SchedulePage = lazy(() => import('./proto/SchedulePage').then((m) => ({ default: m.SchedulePage })))
-const Radiation = lazy(() => import('./screens/Radiation').then((m) => ({ default: m.Radiation })))
 const Sources = lazy(() => import('./screens/Sources').then((m) => ({ default: m.Sources })))
 
 /** The pages a visitor almost always opens next, fetched in the background once the browser is idle. */
@@ -87,7 +86,7 @@ function Screen() {
   if (screen === 'landing') return <LandingPage />
   if (screen === 'bodymap') return <BodyMapPage />
   if (screen === 'manual') return <ManualPage />
-  if (screen === 'escalation') return <EscalationPage />
+  if (screen === 'escalation') return <EarthLinkRedirect />
   if (screen === 'medical') return <MedicalPage />
   if (screen === 'metrics') return <MetricsPage />
   if (screen === 'progress') return <RewardsPage />
@@ -121,13 +120,8 @@ function Screen() {
       </ProtoFrame>
     )
   }
-  if (screen === 'radiation') {
-    return (
-      <ProtoFrame current="Radiation">
-        <Radiation />
-      </ProtoFrame>
-    )
-  }
+  // Old links to the radiation page land on its new home: Body, Five hazards tab.
+  if (screen === 'radiation') return <RadiationRedirect />
   if (screen === 'sources') {
     return (
       <ProtoFrame current="Sources">
@@ -193,4 +187,14 @@ export default function App() {
       <Shell />
     </AppProvider>
   )
+}
+
+function RadiationRedirect() {
+  useEffect(() => openRadiation(), [])
+  return null
+}
+
+function EarthLinkRedirect() {
+  useEffect(() => openEarthLink(), [])
+  return null
 }

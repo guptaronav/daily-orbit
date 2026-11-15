@@ -1,6 +1,6 @@
-import { useEffect, useReducer } from 'react'
 import * as D from './data'
 import * as P from './parts'
+import { useStoreTick } from './shared'
 
 /*
  * Moments worth a pause, each shown once: a streak shield that saved a streak, and a level-up
@@ -11,8 +11,7 @@ type Unlock = { lv: number; kind: string; id: string; label: string; what: strin
 type Moment = { kind: 'shield'; key: string; text: string } | { kind: 'level'; key: number; lv: number; rank: string; unlocks: Unlock[] }
 
 export function Moments() {
-  const [, bump] = useReducer((n: number) => n + 1, 0)
-  useEffect(() => D.onState(bump), [])
+  const bump = useStoreTick()
   const s = D.getState()
   if (!s.crew?.id) return null
   const ms = D.pendingMoments(s.crew.id) as Moment[]

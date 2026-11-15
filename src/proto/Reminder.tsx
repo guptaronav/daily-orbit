@@ -1,6 +1,7 @@
-import { useEffect, useReducer, useState } from 'react'
+import { useEffect, useState } from 'react'
 import * as D from './data'
 import { bridge } from './store'
+import { useStoreTick } from './shared'
 
 /*
  * A gentle reminder: once the chosen time has passed and today's mirror check isn't done, a quiet
@@ -31,8 +32,7 @@ const localDay = () => new Date().toLocaleDateString('en-CA')
 
 /** `here` is the current page: the Today page and the mirror check itself already carry the call to action. */
 export function ReminderBanner({ here = '' }: { here?: string }) {
-  const [, bump] = useReducer((n: number) => n + 1, 0)
-  useEffect(() => D.onState(bump), [])
+  const bump = useStoreTick()
   useEffect(() => {
     const t = setInterval(bump, 60_000)
     return () => clearInterval(t)

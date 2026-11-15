@@ -140,6 +140,7 @@ export const ICONS = {
 
 const PROTO_IND = {
   reactionTime: ['Reaction time', 'ms', 0],
+  painReport: ['Pain', '0-10', 0], orthostaticRise: ['Stand-up heart rate rise', 'bpm', 0], workload: ['Workload', '0-100', 0], moodScreen: ['Mood screen', 'score', 0], gripStrength: ['Grip strength', 'kg', 1],
   sleepHours: ['Sleep hours', 'h', 1], sleepQuality: ['Sleep quality', '0-10', 1], mood: ['Mood', '0-10', 1], stress: ['Stress', '0-10', 1],
   blinkRate: ['Blink rate', 'blinks/min', 2], eyelidClosure: ['Eyelid closure', '%', 2], amslerDistortion: ['Amsler grid distortion', '', 0],
   nearAcuity: ['Near acuity', 'logMAR', 2], heartRate: ['Heart rate', 'bpm', 0], bloodPressureSys: ['Blood pressure (systolic)', 'mmHg', 0],
@@ -186,6 +187,8 @@ const numeric = (m) => {
   if (typeof m.value === 'number') return m.value
   const v = m.value || {}
   if (Array.isArray(v.symptoms)) return v.symptoms.length
+  if (typeof v.level === 'number') return v.level
+  if (typeof v.phq2 === 'number' && typeof v.gad2 === 'number') return v.phq2 + v.gad2
   if (typeof v.distortedCells === 'number') return v.distortedCells
   if (typeof v.distortion === 'boolean') return v.distortion ? 1 : 0
   return 0
@@ -266,8 +269,9 @@ export function sparkPath(vals, w, h, pad = 3) {
 
 /** The real ground packet from lib/packet, in the shape the prototype renders. */
 export function buildPacket(crewId) {
-  const p = appBuildPacket({ crewId, measurements: getSnapshot().measurements[crewId] ?? [], now: new Date() })
-  return { changed: p.changed.map((c) => ({ ...c, quality: c.quality.score })), json: p.json, bytes: p.bytes }
+  const shared = sharedIndicators(crewId)
+  const p = appBuildPacket({ crewId, measurements: getSnapshot().measurements[crewId] ?? [], now: new Date(), include: (i) => shared.has(i) })
+  return { changed: p.changed.map((c) => ({ ...c, quality: c.quality.score })), json: p.json, bytes: p.bytes, withheld: p.withheld }
 }
 
 const FORM_ICON = { bloodPressure: 'heart', temperature: 'body', bloodSugar: 'gut', bodyMass: 'gut', bowelMovements: 'gut', sleepHours: 'head', exerciseMinutes: 'bone' }
@@ -341,8 +345,6 @@ export const NAV = [
     { label: 'Manual entry', icon: 'pen', href: 'Manual%20Entry.dc.html', desc: 'Readings the camera cannot take' },
   ] },
   { group: 'Mission', items: [
-    { label: 'Escalation', icon: 'send', href: 'Escalation.dc.html', desc: 'Who to tell, and when' },
-    { label: 'Radiation', icon: 'shield', href: 'Radiation.dc.html', desc: 'Replay a historical solar particle event' },
     { label: 'Medical view', icon: 'users', href: 'Medical%20View.dc.html', desc: 'Every crew member at once' },
   ] },
   { group: 'Evidence', items: [
@@ -440,6 +442,14 @@ export const SHOP = [
   { id: 'top-antenna', slot: 'top', name: 'Antenna', price: 60 },
   { id: 'top-star', slot: 'top', name: 'Pole star', price: 160 },
   { id: 'top-halo', slot: 'top', name: 'Orbit halo', price: 320 },
+  { id: 'top-sprout', slot: 'top', name: 'Greenhouse sprout', price: 90 },
+  { id: 'top-flag', slot: 'top', name: 'Mission flag', price: 120 },
+  { id: 'top-headlamp', slot: 'top', name: 'EVA headlamp', price: 140 },
+  { id: 'top-moon', slot: 'top', name: 'Crescent moon', price: 200 },
+  { id: 'top-satellite', slot: 'top', name: 'Tiny satellite', price: 260 },
+  { id: 'top-rings', slot: 'top', name: 'Saturn rings', price: 380 },
+  { id: 'top-comet', slot: 'top', name: 'Comet', price: 440 },
+  { id: 'top-crown', slot: 'top', name: 'Commander crown', price: 560 },
   { id: 'banner-plain', slot: 'banner', name: 'Paper', price: 0, bg: 'var(--panel-2)', ink: 'var(--ink)' },
   { id: 'banner-grid', slot: 'banner', name: 'Flight manual', price: 90, bg: 'linear-gradient(to right, rgba(11,61,145,.12) 1px, transparent 1px) 0 0 / 22px 22px, linear-gradient(to bottom, rgba(11,61,145,.12) 1px, transparent 1px) 0 0 / 22px 22px, #f6f4ec', ink: 'var(--ink)' },
   { id: 'banner-orbit', slot: 'banner', name: 'Orbits', price: 180, bg: 'repeating-radial-gradient(circle at 85% 120%, transparent 0 26px, rgba(243,241,234,.18) 26px 27px), #0b3d91', ink: '#fbfaf6' },
@@ -664,6 +674,12 @@ export function achievements(id) {
     { id: 'hydrated', name: 'Hydrated', desc: 'Reach your water goal on three days', icon: 'gut', got: Object.values(intakeStore(id).days).filter((d) => d.water >= (intakeStore(id).goal ?? 2.5)).length >= 3 },
     { id: 'fed', name: 'Three square meals', desc: 'Log breakfast, lunch and dinner on one day', icon: 'sun', got: Object.values(intakeStore(id).days).some((d) => ['breakfast', 'lunch', 'dinner'].every((m) => d.meals.includes(m))) },
     { id: 'sharp', name: 'Sharp', desc: 'Finish three alertness checks', icon: 'zap', got: (getSnapshot().measurements[id] ?? []).filter((m) => m.indicator === 'reactionTime').length >= 3 },
+    { id: 'focus', name: 'Steady focus', desc: 'Finish a 3-minute alertness test', icon: 'zap', got: pvtbHistory(id).length > 0 },
+    { id: 'responder', name: 'First responder', desc: `Acknowledge an alert within ${ESCALATE_BACKUP_MIN} minutes`, icon: 'alert', got: Object.values(alertStore()).some((r) => r.ackBy === id && r.ackAt && r.firstSeen && r.ackAt - r.firstSeen <= ESCALATE_BACKUP_MIN * 60000) },
+    { id: 'mapper', name: 'Body mapper', desc: 'Do a pain check, even when nothing hurts', icon: 'body', got: hasReading(id, 'painReport') },
+    { id: 'standup', name: 'Steady on your feet', desc: 'Do the stand-up test', icon: 'heart', got: hasReading(id, 'orthostaticRise') },
+    { id: 'selfcheck', name: 'Checking in on yourself', desc: 'Do the weekly workload and mood check', icon: 'users', got: hasReading(id, 'workload') },
+    { id: 'grip', name: 'Strong grip', desc: 'Log grip strength three times', icon: 'zap', got: (getSnapshot().measurements[id] ?? []).filter((m) => m.indicator === 'gripStrength').length >= 3 },
     { id: 'planner', name: 'Planner', desc: 'Add a block of your own to the schedule', icon: 'clock', got: scheduleStore(id).custom.length > 0 },
     { id: 'contact', name: 'Ground contact', desc: 'Send a packet to Earth from Escalate', icon: 'send', got: groundLink(id).list.length > 0 },
     { id: 'scout', name: 'Scout', desc: 'Find your first discovery in a mission banner', icon: 'target', got: locker(id).found.length > 0 },
@@ -991,15 +1007,20 @@ export function radiationBudget(crewId) {
   const ms = getSnapshot().measurements[crewId] ?? []
   const first = ms.length ? Math.min(...ms.map((m) => Date.parse(m.timestamp))) : Date.now()
   const missionDays = Math.max(0, Math.floor((Date.now() - first) / DAY))
-  const dose = ms.filter((m) => m.indicator === 'radiationDose' && typeof m.value === 'number').sort((a, b) => b.timestamp.localeCompare(a.timestamp))[0]
+  const doses = ms.filter((m) => m.indicator === 'radiationDose' && typeof m.value === 'number').sort((a, b) => b.timestamp.localeCompare(a.timestamp))
+  const dose = doses[0]
+  // A replay's readings are a running total that starts from the quiet days already on the ledger;
+  // the mission days are counted above, so only what the storm itself added goes on the budget.
+  const replay = doses.filter((m) => String(m.id).startsWith('radiation-replay-'))
+  const eventMSv = !dose ? 0 : String(dose.id).startsWith('radiation-replay-') ? Math.max(0, dose.value - Math.min(...replay.map((m) => m.value))) : dose.value
   const env = getState().envId
-  const b = careerBudget({ prior: PRIOR_MISSIONS_MSV[crewId] ?? 0, missionDays, env, eventMSv: dose ? dose.value : 0 })
+  const b = careerBudget({ prior: PRIOR_MISSIONS_MSV[crewId] ?? 0, missionDays, env, eventMSv })
   return { ...b, limit: CAREER_LIMIT_MSV, limitUrl: CAREER_LIMIT_SOURCE, missionDays, rateBasis: DAILY_RATE[env]?.basis, rateUrl: DAILY_RATE[env]?.url, priorSimulated: crewId !== 'guest' }
 }
 
 /** Where how someone rates themselves disagrees with what was measured (lib/selfReportGap.ts). */
 export function gaps(crewId) {
-  return selfReportGaps(appReadAll(getSnapshot().measurements[crewId] ?? []))
+  return [...selfReportGaps(appReadAll(getSnapshot().measurements[crewId] ?? [])), ...pvtbGap(crewId)]
 }
 
 /* ---- The alert loop (lib/alerts.ts): open until acknowledged, cleared only with a note -------- */
@@ -1017,13 +1038,25 @@ export function alerts() {
   const out = []
   for (const c of CREW) {
     const readings = appReadAll(getSnapshot().measurements[c.id] ?? [])
-    for (const a of alertCandidates(c.id, readings, patternFlags(readings), (i) => IND[i][0])) {
-      if (!st[a.id]) { st[a.id] = { firstSeen: Date.now() }; changed = true }
+    const live = new Set()
+    const raised = manualAlerts().filter((m) => m.crewId === c.id).map((m) => ({ id: `${c.id}:manual:${m.id}`, crewId: c.id, kind: 'manual', title: m.title, detail: m.detail, status: m.status, signature: String(m.at) }))
+    for (const a of [...alertCandidates(c.id, readings, patternFlags(readings), (i) => IND[i][0]), ...raised]) {
+      live.add(a.id)
+      const meta = { title: a.title, crewId: c.id, crewName: c.id === 'guest' ? 'Guest' : c.name, status: a.status }
+      // New, or back after it had resolved on its own: a fresh episode with its own clock.
+      if (!st[a.id] || st[a.id].resolvedAt) { st[a.id] = { firstSeen: Date.now(), ...meta }; changed = true }
+      else if (!st[a.id].title) { st[a.id] = { ...st[a.id], ...meta }; changed = true }
       const rec = st[a.id]
       const state = alertState(a, rec)
       // A reopened alert starts its clock again.
       if (state === 'open' && rec.signature && rec.signature !== a.signature) { st[a.id] = { firstSeen: Date.now() }; changed = true }
-      out.push({ ...a, crewName: c.id === 'guest' ? 'Guest' : c.name, state, firstSeen: st[a.id].firstSeen, note: rec.note, ackAt: rec.ackAt, closedAt: rec.closedAt })
+      out.push({ ...a, crewName: c.id === 'guest' ? 'Guest' : c.name, state, firstSeen: st[a.id].firstSeen, note: rec.note, ackAt: rec.ackAt, closedAt: rec.closedAt, ackBy: rec.ackBy })
+    }
+    // An alert whose readings came back within usual closes itself, and says so.
+    for (const [id, rec] of Object.entries(st)) {
+      if (!id.startsWith(c.id + ':') || live.has(id) || rec.closedAt || rec.resolvedAt) continue
+      st[id] = { ...rec, resolvedAt: Date.now() }
+      changed = true
     }
   }
   if (changed) saveAlerts(st, true)
@@ -1033,7 +1066,7 @@ export function alerts() {
 export function ackAlert(id) {
   const st = alertStore()
   const a = alerts().find((x) => x.id === id)
-  st[id] = { ...(st[id] || {}), ackAt: Date.now(), signature: a?.signature }
+  st[id] = { ...(st[id] || {}), ackAt: Date.now(), signature: a?.signature, ackBy: getState().crew.id }
   saveAlerts(st)
 }
 export function closeAlert(id, note) {
@@ -1280,6 +1313,10 @@ const PASS_TASKS = [
   { id: 'water3', label: 'Reach your water goal on three days', xp: 60, count: (id) => waterDaysThisWeek(id), goal: 3 },
   { id: 'mirror5', label: 'Do five mirror checks', xp: 50, count: (id) => new Set(sinceWeek(getSnapshot().events[id] ?? []).filter((e) => e.kind === 'checkInComplete').map((e) => dayKey(e.timestamp))).size, goal: 5 },
   { id: 'packet', label: 'Send one packet to Earth', xp: 40, count: (id) => sinceWeek(groundLink(id).list, (p) => new Date(p.sentAt).toISOString()).length, goal: 1 },
+  { id: 'pvtb1', label: 'Take the 3-minute alertness test', xp: 50, count: (id) => sinceWeek(pvtbHistory(id), (x) => new Date(x.at).toISOString()).length, goal: 1 },
+  { id: 'weekly1', label: 'Do the weekly workload and mood check', xp: 50, count: (id) => sinceWeek(getSnapshot().measurements[id] ?? []).filter((m) => m.indicator === 'workload').length, goal: 1 },
+  { id: 'grip1', label: 'Log your grip strength', xp: 40, count: (id) => sinceWeek(getSnapshot().measurements[id] ?? []).filter((m) => m.indicator === 'gripStrength').length, goal: 1 },
+  { id: 'load2', label: 'Log two bone-loading sessions', xp: 50, count: (id) => boneLoading(id).week.length, goal: 2 },
   { id: 'mass1', label: 'Log body mass once', xp: 40, count: (id) => sinceWeek(getSnapshot().measurements[id] ?? []).filter((m) => m.indicator === 'bodyMass' && m.source === 'manual').length, goal: 1 },
 ]
 /** Three rotating tasks a week that give mission-pass XP. Only effort, never values. */
@@ -1305,6 +1342,8 @@ function seenMoments(id) {
   try { return JSON.parse(localStorage.getItem(seenKey(id)) || '{}') } catch { return {} }
 }
 export function pendingMoments(id) {
+  // Wait for the stored data: counting from an empty wallet would greet a first visit with a level-up.
+  if (!getSnapshot().loadedAt) return []
   const seen = seenMoments(id)
   const out = []
   const save = (game(id).saves || []).at(-1)
@@ -1333,4 +1372,396 @@ export const SYSTEM_EFFECT = {
 }
 export function systemsOnline() {
   return Object.fromEntries(crewGoal().systems.map((x) => [x.id, x.online]))
+}
+
+/* ==== Round 3: alert action cards, the backup medical officer, ignored-alert escalation, slide
+   forecasts, reading freshness, the 3-minute PVT-B, what Earth receives, and a CSV of readings ==== */
+
+/* ---- The crew medical officer, and who covers when they are the patient --------------------- */
+const CMO_KEY = 'chm-cmo'
+const defaultCmo = () => {
+  const ids = crewList().map((c) => c.id).filter((x) => x !== 'guest')
+  return { primary: ids[1] || ids[0] || '', backup: ids[0] || '' }
+}
+export function medicalOfficer() {
+  let set = defaultCmo()
+  try { set = { ...set, ...JSON.parse(localStorage.getItem(CMO_KEY) || '{}') } } catch {}
+  const name = (id) => { const c = crewList().find((x) => x.id === id); return c ? (c.id === 'guest' ? 'Guest' : c.name) : '' }
+  // The medical officer is "the patient" when their own body has anything at Act, or an open alert of their own.
+  const cd = set.primary ? crewData(set.primary) : null
+  const ownOpen = alertStoreOpenFor(set.primary)
+  const unwell = !!set.primary && (cd?.worst === 'red' || ownOpen)
+  const active = unwell && set.backup && set.backup !== set.primary ? set.backup : set.primary
+  return { primary: set.primary, backup: set.backup, primaryName: name(set.primary), backupName: name(set.backup), unwell, active, activeName: name(active) }
+}
+export function setMedicalOfficer(primary, backup) {
+  try { localStorage.setItem(CMO_KEY, JSON.stringify({ primary, backup })) } catch {}
+  notify()
+}
+function alertStoreOpenFor(crewId) {
+  if (!crewId) return false
+  const readings = appReadAll(getSnapshot().measurements[crewId] ?? [])
+  const st = alertStore()
+  return alertCandidates(crewId, readings, patternFlags(readings), (i) => IND[i][0]).some((a) => alertState(a, st[a.id]) !== 'closed')
+}
+
+/* ---- Ignored alerts climb: nothing waits quietly forever ------------------------------------ */
+/** Minutes an alert can wait unacknowledged before the backup medical officer is told too, and before Earth should hear. */
+export const ESCALATE_BACKUP_MIN = 15
+export const ESCALATE_GROUND_MIN = 60
+export function alertEscalation(a) {
+  if (a.state !== 'open') return { level: 0, text: '' }
+  const min = Math.floor((Date.now() - a.firstSeen) / 60000)
+  const waited = min < 60 ? `${min} min` : min < 2880 ? `${Math.floor(min / 60)} h` : `${Math.floor(min / 1440)} days`
+  const cmo = medicalOfficer()
+  if (min >= ESCALATE_GROUND_MIN && a.status === 'red') return { level: 2, min, text: `Unanswered for ${waited}: send the change summary to the flight surgeon from Escalate, and keep onboard care going.` }
+  if (min >= ESCALATE_BACKUP_MIN) return { level: 1, min, text: `Unanswered for ${waited}: ${cmo.backupName && cmo.backup !== cmo.active ? `${cmo.backupName}, the backup medical officer, is asked too.` : 'ask any crewmate to look at it with you now.'}` }
+  return { level: 0, min, text: '' }
+}
+
+/** Alerts that went away on their own because the readings came back within usual. Kept for 3 days. */
+export function resolvedAlerts() {
+  const st = alertStore()
+  return Object.entries(st)
+    .filter(([, r]) => r.resolvedAt && r.title && Date.now() - r.resolvedAt < 3 * DAY)
+    .map(([id, r]) => ({ id, crewId: r.crewId, crewName: r.crewName, title: r.title, status: r.status, firstSeen: r.firstSeen, resolvedAt: r.resolvedAt }))
+    .sort((a, b) => b.resolvedAt - a.resolvedAt)
+}
+
+/* ---- An action card for every alert: Now, Today, Escalate if ------------------------------- */
+const STEP_KEY = 'chm-alert-steps'
+function stepStore() { try { return JSON.parse(localStorage.getItem(STEP_KEY) || '{}') } catch { return {} } }
+const okT = (t) => (t && t !== '[CONTENT TODO]' ? t : '')
+export function alertPlan(a) {
+  const [crewId, kind, key] = a.id.split(':')
+  let now = [], today = [], escalateIf = '', source = HRP_RISKS, recheck = 'mirror'
+  if (kind === 'manual') {
+    now = [{ id: 'talk', text: 'Talk it through with them, and look at their latest readings together.' }, { id: 'recheck', text: 'Repeat the check that worried you, so you have a fresh number.', go: 'mirror' }]
+    escalateIf = 'If it is getting worse, or the medical officer cannot settle it onboard, send the change summary to the flight surgeon.'
+  } else if (kind === 'reading') {
+    const c = getContent(key)
+    recheck = ['bloodPressureSys', 'bloodPressureDia', 'temperature', 'bloodSugar', 'bodyMass', 'sleepHours', 'exerciseMinutes', 'reactionTime', ...BODY_CHECKS].includes(key) ? 'manual' : 'mirror'
+    now = [
+      { id: 'retake', text: `Retake the ${c.label.toLowerCase()} reading, to rule out a one-off.`, go: recheck },
+      ...(okT(c.recommendedAction) ? [{ id: 'act', text: okT(c.recommendedAction) }] : [{ id: 'tell', text: 'Tell a crewmate or the crew medical officer what you are seeing.' }]),
+    ]
+    today = okT(c.prevention) ? [{ id: 'prevent', text: okT(c.prevention) }] : []
+    escalateIf = okT(c.whenToEscalate) || 'If the retake is still at Act, or you feel worse than the number says, move up to the crew medical officer.'
+    source = sourceFor(key, 'recommendedAction')
+  } else {
+    const p = patterns(crewId).find((x) => x.id === key)
+    if (p) {
+      now = p.care.now.slice(0, 2).map((t, i) => ({ id: 'now' + i, text: t }))
+      if (!now.length) now = [{ id: 'tell', text: 'Tell a crewmate or the crew medical officer what you are seeing.' }]
+      now.push({ id: 'retake', text: `Re-check ${p.care.recheck.slice(0, 3).join(', ').toLowerCase()}.`, go: 'mirror' })
+      today = p.care.prevent.slice(0, 2).map((t, i) => ({ id: 'today' + i, text: t }))
+      escalateIf = p.care.moveUp
+      source = p.riskUrl || HRP_RISKS
+    }
+  }
+  const st = stepStore()[a.id]
+  const done = st && st.day === todayKey() ? st.done : []
+  const steps = [...now, ...today].map((s) => ({ ...s, done: done.includes(s.id) }))
+  const nowDone = now.every((s) => done.includes(s.id))
+  return { now: steps.slice(0, now.length), today: steps.slice(now.length), escalateIf, source, nowDone, points: POINTS.countermeasureComplete }
+}
+/** Tick a step. Finishing every "Now" step is one care step for the person the alert is about: +10, once a day. */
+export function tickAlertStep(a, stepId) {
+  const all = stepStore()
+  const cur = all[a.id] && all[a.id].day === todayKey() ? all[a.id] : { day: todayKey(), done: [] }
+  const done = cur.done.includes(stepId) ? cur.done.filter((x) => x !== stepId) : [...cur.done, stepId]
+  all[a.id] = { day: cur.day, done }
+  try { localStorage.setItem(STEP_KEY, JSON.stringify(all)) } catch {}
+  const plan = alertPlan(a)
+  let points = 0
+  if (plan.nowDone) {
+    const effort = { kind: 'countermeasureComplete', detail: `alert-${a.id.split(':').slice(1).join('-')}` }
+    const { credited } = creditableKinds(getSnapshot().events[a.crewId] ?? [], [effort], a.crewId, new Date())
+    if (credited.length) {
+      points = Math.min(POINTS.countermeasureComplete, capRoom(a.crewId))
+      void addEvent({ id: crypto.randomUUID(), crewId: a.crewId, timestamp: new Date().toISOString(), ...effort }).then(() => bridge.refresh())
+      if (points) announce(points, 'Alert care steps done')
+      else announce(0, 'Daily coin limit reached', true)
+    }
+  }
+  notify()
+  return points
+}
+
+/* ---- Slides: "at this rate, outside your usual in about N days" ----------------------------- */
+const UNIT_SHORT = (r) => (r.unit === '0-10' ? 'points' : r.unit || '')
+export function slideForecast(r) {
+  if (!r || !r.drift || !r.latest) return null
+  const ref = r.reference || r.baseline
+  if (!ref || !ref.sd) return null
+  const per = r.drift.perDay
+  const edge = per > 0 ? ref.mean + 2 * ref.sd : ref.mean - 2 * ref.sd
+  const gap = edge - r.latest.v
+  const outside = per > 0 ? gap <= 0 : gap >= 0
+  const days = outside ? 0 : Math.ceil(gap / per)
+  const rate = `${Math.abs(per) >= 1 ? Math.abs(per).toFixed(0) : Math.abs(per).toFixed(Math.max(1, r.dp))} ${UNIT_SHORT(r)} a day`.replace(/\s+a day/, ' a day')
+  const dir = per > 0 ? 'up' : 'down'
+  const text = outside
+    ? `Sliding ${dir} about ${rate} for ${r.drift.days} days, and already in the Act zone, far from your usual.`
+    : `Sliding ${dir} about ${rate} for ${r.drift.days} days. At this rate it reaches the Act zone, far from your usual, in about ${days} day${days === 1 ? '' : 's'}.`
+  return { dir, days, outside, perDay: per, text }
+}
+export function slideForecasts(crewId) {
+  const cd = crewData(crewId)
+  return Object.values(cd.readings).map((r) => ({ r, f: slideForecast(r) })).filter((x) => x.f).map(({ r, f }) => ({ id: r.id, label: r.label, status: r.status, ...f }))
+}
+
+/* ---- Freshness: how old the newest good reading is ------------------------------------------ */
+export const STALE_DAYS = 3
+/** Indicators people only measure now and then; they go stale more slowly. */
+const SLOW = new Set(['bodyMass', 'bloodSugar', 'radiationDose', 'symptomReport', 'amslerDistortion', 'nearAcuity', 'painReport'])
+/** Weekly checks go stale after a week and a day. */
+const WEEKLY = new Set(['workload', 'moodScreen', 'gripStrength', 'orthostaticRise'])
+export function freshness(r) {
+  if (!r || !r.latest) return { state: 'none', days: null, text: 'Never measured' }
+  const days = Math.floor((Date.now() - r.latest.t) / DAY)
+  const limit = WEEKLY.has(r.id) ? 8 : SLOW.has(r.id) ? STALE_DAYS * 2 : STALE_DAYS
+  const when = days === 0 ? 'today' : days === 1 ? 'yesterday' : `${days} days ago`
+  return { state: days >= limit ? 'stale' : 'fresh', days, text: `Last measured ${when}` }
+}
+export function staleReadings(crewId) {
+  const cd = crewData(crewId)
+  return Object.values(cd.readings)
+    .map((r) => ({ id: r.id, label: r.label, ...freshness(r), go: ['bloodPressureSys', 'bloodPressureDia', 'temperature', 'bloodSugar', 'bodyMass', 'sleepHours', 'exerciseMinutes', 'reactionTime', ...BODY_CHECKS].includes(r.id) ? 'manual' : 'mirror' }))
+    .filter((x) => x.state === 'stale')
+    .sort((a, b) => b.days - a.days)
+}
+
+/* ---- The 3-minute PVT-B (Basner et al. 2011): the validated short alertness test ------------- */
+export const PVTB_SOURCE = 'https://pmc.ncbi.nlm.nih.gov/articles/PMC3197786'
+export const PVTB_LAPSE_MS = 355
+const pvtKey = (id) => 'chm-pvtb-' + id
+export function pvtbHistory(id) {
+  try { return JSON.parse(localStorage.getItem(pvtKey(id)) || '[]') } catch { return [] }
+}
+/** Save a finished PVT-B and pay the effort credit (+5, once a day), whatever the score. */
+export function savePvtb(id, res) {
+  const list = [{ ...res, at: Date.now() }, ...pvtbHistory(id)].slice(0, 30)
+  try { localStorage.setItem(pvtKey(id), JSON.stringify(list)) } catch {}
+  const effort = { kind: 'readingLogged', detail: 'pvtb' }
+  const { credited } = creditableKinds(getSnapshot().events[id] ?? [], [effort], id, new Date())
+  const points = credited.length ? Math.min(POINTS.readingLogged, capRoom(id)) : 0
+  if (credited.length) {
+    void addEvent({ id: crypto.randomUUID(), crewId: id, timestamp: new Date().toISOString(), ...effort }).then(() => bridge.refresh())
+    if (points) announce(points, '3-minute alertness test done')
+    else announce(0, 'Daily coin limit reached', true)
+  }
+  notify()
+  return points
+}
+/** This test against the person's own earlier PVT-Bs (needs three before it says anything). */
+export function pvtbVerdict(id, res) {
+  const prev = pvtbHistory(id).filter((x) => x.at !== res.at).slice(0, 10)
+  if (prev.length < 3) return { known: false, usual: null, text: `Your first few tests set your usual. ${3 - prev.length} more to go.` }
+  const sorted = prev.map((x) => x.lapses).sort((a, b) => a - b)
+  const usual = sorted[Math.floor(sorted.length / 2)]
+  const more = res.lapses - usual
+  return {
+    known: true, usual, worse: more >= 3,
+    text: more >= 3 ? `${res.lapses} slow responses, ${more} more than your usual ${usual}. Slow responses rise with sleep loss: protect tonight's sleep and say so if you feel it too.` : `${res.lapses} slow response${res.lapses === 1 ? '' : 's'}, in line with your usual ${usual}.`,
+  }
+}
+
+/** The PVT-B joins the self-report gaps: rated well rested, but the test says otherwise. */
+function pvtbGap(crewId) {
+  const last = pvtbHistory(crewId)[0]
+  if (!last || Date.now() - last.at > DAY) return []
+  const v = pvtbVerdict(crewId, last)
+  if (!v.known || !v.worse) return []
+  const r = crewData(crewId).readings
+  const rated = [['sleepQuality', 'sleep quality'], ['mood', 'mood']].map(([k, label]) => ({ k, label, r: r[k] })).find((x) => x.r?.latest && x.r.baseline && x.r.latest.v >= x.r.baseline.mean)
+  if (!rated) return []
+  return [{ id: 'pvtb-gap', rated: { label: rated.label, value: rated.r.latest.v }, measured: [{ indicator: 'reactionTime', label: 'alertness', text: `your 3-minute alertness test had ${last.lapses} slow responses, more than your usual ${v.usual}`, status: 'yellow' }] }]
+}
+
+/* ---- What Earth receives: the crew member chooses which kinds of change leave the ship ------- */
+export const SHARE_GROUPS = [
+  { id: 'vitals', label: 'Vital signs', hint: 'Heart rate, blood pressure, temperature, stand-up test', indicators: ['heartRate', 'bloodPressureSys', 'bloodPressureDia', 'temperature', 'orthostaticRise'] },
+  { id: 'body', label: 'Body and nutrition', hint: 'Body mass, blood sugar, appetite, digestion', indicators: ['bodyMass', 'bloodSugar', 'appetite', 'digestiveComfort'] },
+  { id: 'sleep', label: 'Sleep, mood and workload', hint: 'Sleep, mood, stress, the weekly check', indicators: ['sleepHours', 'sleepQuality', 'mood', 'stress', 'workload', 'moodScreen'] },
+  { id: 'eyes', label: 'Eyes and alertness', hint: 'Blinking, eyelids, vision checks, reaction time', indicators: ['blinkRate', 'eyelidClosure', 'amslerDistortion', 'nearAcuity', 'reactionTime'] },
+  { id: 'exposure', label: 'Exercise, strength and radiation', hint: 'Exercise, grip strength, radiation dose', indicators: ['exerciseMinutes', 'gripStrength', 'radiationDose'] },
+  { id: 'symptoms', label: 'Symptoms and pain', hint: 'What you reported feeling, and where it hurts', indicators: ['symptomReport', 'painReport'] },
+]
+const shareKey = (id) => 'chm-share-' + id
+export function shareSettings(id) {
+  let s = {}
+  try { s = JSON.parse(localStorage.getItem(shareKey(id)) || '{}') } catch {}
+  return Object.fromEntries(SHARE_GROUPS.map((g) => [g.id, s[g.id] !== false]))
+}
+export function setShare(id, group, on) {
+  const s = shareSettings(id)
+  try { localStorage.setItem(shareKey(id), JSON.stringify({ ...s, [group]: on })) } catch {}
+  notify()
+}
+export function sharedIndicators(id) {
+  const s = shareSettings(id)
+  const set = new Set(SHARE_GROUPS.filter((g) => s[g.id]).flatMap((g) => g.indicators))
+  // Anything not in a group (a new indicator) follows the vital-signs choice.
+  for (const i of INDICATORS) if (!SHARE_GROUPS.some((g) => g.indicators.includes(i)) && s.vitals) set.add(i)
+  return set
+}
+
+/* ---- A CSV of every reading, for the flight surgeon's own tools ----------------------------- */
+export function readingsCsv(crewId, days = 30) {
+  const since = Date.now() - days * DAY
+  const ms = (getSnapshot().measurements[crewId] ?? []).filter((m) => Date.parse(m.timestamp) >= since).sort((a, b) => a.timestamp.localeCompare(b.timestamp))
+  const esc = (v) => { const s = String(v ?? ''); return /[",\n]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s }
+  const val = (m) => (typeof m.value === 'number' ? m.value : JSON.stringify(m.value))
+  const rows = [['timestamp', 'indicator', 'label', 'value', 'unit', 'quality_passed', 'quality_score', 'source']]
+  for (const m of ms) rows.push([m.timestamp, m.indicator, IND[m.indicator]?.[0] ?? m.indicator, val(m), m.unit ?? '', m.quality?.passed ? 'yes' : 'no', m.quality?.score ?? '', m.source ?? ''])
+  return rows.map((r) => r.map(esc).join(',')).join('\n') + '\n'
+}
+
+/* ==== Body checks: pain map, stand-up test, weekly workload and mood, grip and bone loading ==== */
+export const BODY_CHECKS = ['painReport', 'orthostaticRise', 'workload', 'moodScreen', 'gripStrength']
+const hasReading = (id, ind) => (getSnapshot().measurements[id] ?? []).some((m) => m.indicator === ind)
+/** The newest reading of one indicator, with its detail. */
+export function lastReading(id, ind) {
+  return (getSnapshot().measurements[id] ?? []).filter((m) => m.indicator === ind).sort((a, b) => b.timestamp.localeCompare(a.timestamp))[0] || null
+}
+export function readingsOf(id, ind, days = 30) {
+  const since = Date.now() - days * DAY
+  return (getSnapshot().measurements[id] ?? []).filter((m) => m.indicator === ind && Date.parse(m.timestamp) >= since).sort((a, b) => a.timestamp.localeCompare(b.timestamp))
+}
+
+/**
+ * Save one body check: its measurements (each may carry a detail) and one effort credit. Reporting
+ * pain pays the symptom-report rate, because reporting early is what the app rewards most; a
+ * "nothing hurts" check, the stand-up test, the weekly check and grip pay the logging rate. Never a
+ * health value. Returns the coins this earns, worked out from the same daily cap the app applies.
+ */
+export function saveBodyCheck(id, kind, values, effort = undefined as undefined | { kind: string; detail?: string }) {
+  const timestamp = new Date().toISOString()
+  const e = effort || { kind: 'readingLogged', detail: kind }
+  const { credited } = creditableKinds(getSnapshot().events[id] ?? [], [e], id, new Date(timestamp))
+  const points = credited.length ? Math.min(POINTS[e.kind], capRoom(id)) : 0
+  const NAMES = { painReport: 'Pain check', orthostaticRise: 'Stand-up test', weeklyCheck: 'Weekly check', gripStrength: 'Grip strength', resistance: 'Bone-loading session' }
+  if (credited.length && !points) announce(0, 'Daily coin limit reached', true)
+  if (points) announce(points, `${NAMES[kind] || 'Check'} logged`)
+  void (async () => {
+    for (const v of values) {
+      await addMeasurement({ id: crypto.randomUUID(), crewId: id, timestamp, indicator: v.indicator, value: v.value, unit: v.unit, quality: { score: 1, passed: true }, source: 'manual', ...(v.detail ? { detail: v.detail } : {}) })
+    }
+    await addEvent({ id: crypto.randomUUID(), crewId: id, timestamp, kind: e.kind, ...(e.detail ? { detail: e.detail } : {}) })
+    bridge.refresh()
+  })()
+  return points
+}
+
+/** Resistance sessions this week and over 30 days, from exercise logged with a resistance detail. */
+export function boneLoading(id) {
+  const all = readingsOf(id, 'exerciseMinutes', 30).filter((m) => m.detail && m.detail.type === 'resistance')
+  const ws = weekStart()
+  return { all, week: all.filter((m) => Date.parse(m.timestamp) >= ws) }
+}
+
+/** Pain over the last 14 days, by body area: how many days it came up and the worst rating. */
+export function painSummary(id, days = 14) {
+  const list = readingsOf(id, 'painReport', days)
+  const byArea = {}
+  for (const m of list) for (const a of (m.detail?.areas || [])) {
+    const k = a.area
+    const day = m.timestamp.slice(0, 10)
+    byArea[k] = byArea[k] || { area: k, label: a.label, days: new Set(), worst: 0 }
+    byArea[k].days.add(day)
+    byArea[k].worst = Math.max(byArea[k].worst, a.level)
+  }
+  return {
+    checks: list.length,
+    painDays: new Set(list.filter((m) => (m.value?.level ?? 0) > 0).map((m) => m.timestamp.slice(0, 10))).size,
+    areas: Object.values(byArea).map((x) => ({ ...x, days: x.days.size })).sort((a, b) => b.days - a.days || b.worst - a.worst),
+  }
+}
+
+/** Days since the weekly check, or null if never done. */
+export function weeklyCheckAge(id) {
+  const m = lastReading(id, 'workload')
+  return m ? Math.floor((Date.now() - Date.parse(m.timestamp)) / DAY) : null
+}
+
+/* ==== Escalation, built into the app: what to do now, and who to tell ===================== */
+const MANUAL_KEY = 'chm-manual-alerts'
+function manualAlerts() {
+  try { return JSON.parse(localStorage.getItem(MANUAL_KEY) || '[]') } catch { return [] }
+}
+/** Raise an alert by hand (from Ask Orbit or a body check). It stays open until acknowledged and closed. */
+export function raiseAlert(crewId, title, detail, status = 'yellow') {
+  const st = alertStore()
+  // Keep the list short: drop raised alerts that were closed more than three days ago.
+  const keep = manualAlerts().filter((m) => { const r = st[`${m.crewId}:manual:${m.id}`]; return !(r && r.closedAt && Date.now() - r.closedAt > 3 * DAY) })
+  const m = { id: crypto.randomUUID().slice(0, 8), crewId, title: String(title).slice(0, 80), detail: String(detail).slice(0, 280), status, at: Date.now() }
+  try { localStorage.setItem(MANUAL_KEY, JSON.stringify([...keep, m])) } catch {}
+  notify()
+  return m
+}
+
+const RUNG_STEPS = {
+  1: ['Rest, drink some water, and keep to the schedule.', 'Retake any reading the app could not trust.', 'Check again tomorrow so a change can show.'],
+  2: ['Ask a crewmate to look at the reading with you, or run the mirror check side by side.', 'Note what you feel, not just the numbers.'],
+  3: ['Tell the crew medical officer what you are seeing, with the readings that worry you.', 'Keep doing the care steps on the alert while you wait.'],
+  4: ['Send the change summary to the flight surgeon on the ground.', 'Keep onboard care going: an answer cannot arrive sooner than the round-trip delay.'],
+}
+
+/**
+ * Where this person is on the escalation ladder right now, worked out from their own data: open
+ * alerts (and how long they have waited), patterns and their rung, regions at Act, self-report
+ * gaps, a positive mood screen, and a fall in blood pressure or faintness on the stand-up test.
+ * The ladder and its wording are the app's; the content behind each reason is sourced.
+ */
+export function escalationAdvice(crewId) {
+  const cd = crewData(crewId)
+  const reasons = []
+  let rung = 1
+  const up = (r, why) => { rung = Math.max(rung, r); reasons.push({ rung: r, why }) }
+  const open = alerts().filter((a) => a.crewId === crewId && a.state !== 'closed')
+  for (const a of open) {
+    const e = alertEscalation(a)
+    if (e.level === 2) up(4, `"${a.title}" has waited over an hour with no answer`)
+    else up(a.status === 'red' ? 3 : 2, `Open alert: ${a.title}`)
+  }
+  for (const p of patterns(crewId)) up(Math.min(4, Math.max(1, p.rung)), `${p.title} (${p.status === 'red' ? 'Act' : 'Watch'})`)
+  const red = REGIONS.filter((g) => cd.statuses[g.id] === 'red').map((g) => g.label)
+  if (red.length) up(3, `${red.join(', ')} at Act`)
+  const yellow = REGIONS.filter((g) => cd.statuses[g.id] === 'yellow').map((g) => g.label)
+  if (yellow.length >= 2) up(2, `${yellow.length} regions at Watch`)
+  else if (yellow.length) up(1, `${yellow[0]} at Watch`)
+  if (gaps(crewId).length) up(2, 'How you rate yourself and what was measured disagree')
+  const screen = lastReading(crewId, 'moodScreen')
+  if (screen && Date.now() - Date.parse(screen.timestamp) < 14 * DAY && (screen.value.phq2 >= 3 || screen.value.gad2 >= 3)) up(3, 'The weekly mood screen was at or above the cutoff')
+  const stand = lastReading(crewId, 'orthostaticRise')
+  if (stand && Date.now() - Date.parse(stand.timestamp) < 2 * DAY) {
+    const d = stand.detail || {}
+    const fall = (d.lyingSys != null && d.standingSys != null && d.lyingSys - d.standingSys >= 20) || (d.lyingDia != null && d.standingDia != null && d.lyingDia - d.standingDia >= 10)
+    if (fall || d.dizzy) up(3, fall ? 'Blood pressure fell on standing' : 'You felt faint on standing')
+  }
+  const cmo = medicalOfficer()
+  const who = { 1: 'Self-care', 2: 'A crewmate', 3: cmo.activeName ? `${cmo.unwell ? 'Backup medical officer' : 'Crew medical officer'}: ${cmo.activeName}` : 'Crew medical officer', 4: 'Flight surgeon on the ground' }[rung]
+  return {
+    rung, who, rungName: RUNG_NAME[rung] || who,
+    reasons: reasons.sort((a, b) => b.rung - a.rung).map((r) => r.why).slice(0, 4),
+    steps: RUNG_STEPS[rung],
+    canRaise: rung >= 2, canSend: rung >= 3,
+    delay: formatDelay(Math.round(getState().delay)),
+    openAlerts: open.length,
+  }
+}
+
+/* ---- Radiation replay: sheltering is a care step --------------------------------------------- */
+/** Reaching the shelter in a replayed storm counts as following a care step (+10, once a day). */
+export function recordShelter(id) {
+  const effort = { kind: 'countermeasureComplete', detail: 'shelter' }
+  const { credited } = creditableKinds(getSnapshot().events[id] ?? [], [effort], id, new Date())
+  const points = credited.length ? Math.min(POINTS.countermeasureComplete, capRoom(id)) : 0
+  if (credited.length) {
+    void addEvent({ id: crypto.randomUUID(), crewId: id, timestamp: new Date().toISOString(), ...effort }).then(() => bridge.refresh())
+    if (points) announce(points, 'Sheltered from the solar storm')
+    else announce(0, 'Daily coin limit reached', true)
+  }
+  return points
 }

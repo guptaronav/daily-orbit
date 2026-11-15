@@ -115,3 +115,21 @@ describe('buildPacket: the wire format', () => {
     expect(packetFilename('crew-2', NOW)).toBe('health-packet-crew-2-2026-11-14.json')
   })
 })
+
+describe('buildPacket: the crew member chooses what leaves the ship', () => {
+  const changedSleep = series('sleepHours', [...STEADY, 2])
+
+  it('keeps a withheld kind of reading onboard and counts it', () => {
+    const p = buildPacket({ crewId: 'crew-1', measurements: changedSleep, now: NOW, include: (i) => i !== 'sleepHours' })
+    expect(p.changed).toEqual([])
+    expect(p.withheld).toBe(1)
+    expect(JSON.parse(p.json).withheldByCrewChoice).toBe(1)
+  })
+
+  it('sends everything and withholds nothing by default', () => {
+    const p = build(changedSleep)
+    expect(p.changed.map((c) => c.indicator)).toEqual(['sleepHours'])
+    expect(p.withheld).toBe(0)
+    expect(JSON.parse(p.json).withheldByCrewChoice).toBeUndefined()
+  })
+})

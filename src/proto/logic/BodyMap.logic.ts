@@ -4,6 +4,7 @@
 import React from 'react'
 import * as D from '../data'
 import { DCLogic, navigate } from '../dc'
+import { setSection } from '../Sections'
 
 export class BodyMapLogic extends DCLogic {
   state = { s: null, sel: null, band: true, markers: true, scan: false, hover: null, faq: {}, range: 14, tour: 'head', hoverInd: null, narrow: false }
@@ -91,6 +92,10 @@ export class BodyMapLogic extends DCLogic {
         const vals = r0.history.filter((h) => h.passed).map((h) => h.v)
         summary2 = r.latest.v <= Math.min(...vals) ? 'Lowest in 30 days' : r.latest.v >= Math.max(...vals) ? 'Highest in 30 days' : `Normal is ${(b.mean - b.sd).toFixed(1)} to ${(b.mean + b.sd).toFixed(1)} ${r.unit}`
       }
+      // A steady slide says where it is heading; an old reading says how old it is.
+      const fc = D.slideForecast(r), fr = D.freshness(r)
+      if (fc) { summary2 = fc.text; sumInk = sumInk || ST.yellow.ink }
+      else if (fr.state === 'stale') summary2 = `${fr.text}: a fresh reading keeps your baseline honest.`
       const hv = hover && hover.id === r.id && ch ? ch.points[hover.i] : null
       const fo = this.state.faq[r.id]
       const [measure, risk] = D.META[r.id]
@@ -101,7 +106,7 @@ export class BodyMapLogic extends DCLogic {
         empty: !r.latest, has: !!r.latest,
         baseline: r.baseline ? `Baseline ${r.baseline.mean.toFixed(1)} ± ${r.baseline.sd.toFixed(1)} ${r.unit}` : r.latest ? 'No baseline yet' : '',
         baselineN: r.baseline ? `from ${r.baseline.n} earlier readings` : r.latest ? 'needs 5 readings' : '',
-        meta: r.latest ? [{ k: 'Quality', v: '100%' }, { k: 'Source', v: 'Simulated' }, { k: 'Taken', v: new Date(r.latest.t).toLocaleDateString(undefined, { month: 'short', day: 'numeric' }) }, { k: 'Clinical threshold', v: 'Not set' }] : [],
+        meta: r.latest ? [{ k: 'Quality', v: '100%' }, { k: 'Source', v: 'Simulated' }, { k: 'Taken', v: `${new Date(r.latest.t).toLocaleDateString(undefined, { month: 'short', day: 'numeric' })}${D.freshness(r).state === 'stale' ? ' (old)' : ''}` }, { k: 'Clinical threshold', v: 'Not set' }] : [],
         failedNote: r.failed ? `${r.failed} reading(s) failed the quality check and are left out of the status and the baseline.` : '',
         chart: ch, noChart: !ch, showBand: !!(ch && ch.band && this.state.band), summary, summary2, sumInk,
         zTop: ch && ch.band ? { y: ch.band.up2, h: (ch.band.y - ch.band.up2).toFixed(1) } : { y: 0, h: 0 },
@@ -181,9 +186,9 @@ export class BodyMapLogic extends DCLogic {
             lead: `M${px} ${py} L${sd === 'l' ? ex + 14 : ex - 14} ${ly} L${ex} ${ly}`, c: p.c,
             maxW: (compact ? 108 : 150) + 'px', pad: compact ? '4px 8px' : '6px 10px', fs1: compact ? '11.5px' : '12.5px', fs2: compact ? '10.5px' : '11.5px',
             left: ((sd === 'l' ? 12 : 548) / 560) * 100 + '%', top: (ly / 520) * 100 + '%', tf: sd === 'l' ? 'translateY(-50%)' : 'translate(-100%, -50%)', bw: p.big ? '2px' : '1px',
-            tx: rx + 12, anchor: 'start', ty1: ly - 3, ty2: ly + 13, fs1: '13px', fs2: '12px',
+            tx: rx + 12, anchor: 'start', ty1: ly - 3, ty2: ly + 13,
             name: p.r.label.replace(' (systolic)', ', top').replace(' (diastolic)', ', bottom').replace('Amsler grid distortion', 'Amsler grid'),
-            val: shortVal(p.r) + (p.r.latest && p.r.status !== 'gray' ? ` · ${D.STATUS[p.r.status].short}` : ''),
+            val: shortVal(p.r) + (!compact && p.r.latest && p.r.status !== 'gray' ? ` · ${D.STATUS[p.r.status].short}` : ''),
           })
         })
       }
@@ -214,13 +219,14 @@ export class BodyMapLogic extends DCLogic {
           if (r.latest && !r.baseline) note = r.status === 'green' ? 'Building the baseline' : 'Outside the safe range'
           else if (r.latest) { const d = r.latest.v - r.baseline.mean; note = r.status === 'green' ? 'Inside normal' : `${Math.abs(d).toFixed(r.dp > 1 ? 2 : 1)} ${r.unit === '0-10' ? 'pts' : r.unit} ${d < 0 ? 'below' : 'above'} normal` }
           // Why it is flagged when the reason is not the latest reading alone (lib/trend.ts).
-          if (r.latest && r.basis === 'drift' && r.drift) note = `Steady slide ${r.drift.direction} over ${r.drift.days} days`
+          if (r.latest && r.basis === 'drift' && r.drift) { const f = D.slideForecast(r); note = f && !f.outside ? `Sliding ${f.dir}: Act zone in ~${f.days} day${f.days === 1 ? '' : 's'}` : `Steady slide ${r.drift.direction} over ${r.drift.days} days` }
           else if (r.latest && r.basis === 'reference' && r.reference) { const d = r.latest.v - r.reference.mean; note = `${Math.abs(d).toFixed(r.dp > 1 ? 2 : 1)} ${r.unit === '0-10' ? 'pts' : r.unit} ${d < 0 ? 'below' : 'above'} your first two weeks` }
+          if (r.latest && D.freshness(r).state === 'stale') note += ` · ${D.freshness(r).text.toLowerCase()}`
           const big = this.state.hoverInd === r.id
           return { label: r.label, method: METHOD[r.id], value: r.latest ? D.fmt(r) : '—', unit: r.latest ? D.fmtUnit(r) : '', valColor: r.latest ? 'var(--ink)' : 'var(--nodata-ink)', note, ink: ST[r.status].ink, spark: sp.d, sparkColor: r.status === 'gray' ? 'var(--rule-strong)' : ST[r.status].swatch, border: big ? 'var(--ink)' : 'var(--rule)', tf: big ? 'translateX(4px)' : 'none', enter: () => { if (this.state.tour !== g.id) this.setState({ tour: g.id }); this.setState({ hoverInd: r.id }) } }
         }),
-        open: () => { select(g.id); const h = document.getElementById('region-heading'); if (h) window.scrollTo({ top: h.getBoundingClientRect().top + scrollY - 100, behavior: 'smooth' }) },
-        href2: flaggedHere ? 'Escalation.dc.html' : 'Manual%20Entry.dc.html', cta2: flaggedHere ? 'Who to tell' : 'Log a reading',
+        open: () => { select(g.id); setSection('body', 'readings'); const h = document.getElementById('region-heading'); if (h) window.scrollTo({ top: h.getBoundingClientRect().top + scrollY - 100, behavior: 'smooth' }) },
+        href2: flaggedHere ? '#who' : 'Manual%20Entry.dc.html', cta2: flaggedHere ? 'Who to tell' : 'Log a reading',
       }
     })
     const narrow = this.state.narrow
@@ -258,7 +264,7 @@ export class BodyMapLogic extends DCLogic {
       goalWeek: goal.week, goalTarget: goal.goal, goalPct: Math.round(goal.frac * 100) + '%', goalPctNum: Math.round(goal.frac * 100),
       nextSystem: next ? `${next.name} at ${next.threshold} pts` : 'All systems online',
       hasFlag: flagged.length > 0, flagTitle: flagged.length ? `${flagged.map((r) => r.label).join(' and ')} moved away from ${s.crew.name}’s normal` : '',
-      openFlagLabel: flagged.length ? `Open ${flagged[0].label.toLowerCase()}` : '', openFlag: () => flagged[0] && select(flagged[0].id),
+      openFlagLabel: flagged.length ? `Open ${flagged[0].label.toLowerCase()}` : '', openFlag: () => { if (!flagged[0]) return; select(flagged[0].id); setSection('body', 'readings'); setTimeout(() => window.scrollTo({ top: 0, behavior: 'smooth' }), 30) },
       toggles: [tog('band', 'Baseline band'), tog('markers', 'Pulse on alerts'), tog('scan', 'Scan line')],
       leftCallouts: ['head', 'heart', 'skeleton'].map(callout), rightCallouts: ['eyes', 'body', 'gut'].map(callout),
       legend: ['green', 'yellow', 'red', 'gray'].map((k) => ({ word: k === 'gray' ? 'No good data' : ST[k].label, bg: chip(k), ink: ST[k].ink })),

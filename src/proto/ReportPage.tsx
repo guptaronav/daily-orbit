@@ -1,7 +1,8 @@
-import { useEffect, useReducer } from 'react'
+import { useEffect } from 'react'
 import { readiness } from '../lib/readiness'
 import * as D from './data'
 import { getSnapshot } from './store'
+import { useStoreTick } from './shared'
 
 /*
  * The weekly flight-surgeon report: one page per crew member covering the last seven days, laid
@@ -19,8 +20,7 @@ const h2 = { margin: '22px 0 8px', fontSize: 18, fontWeight: 750, letterSpacing:
 type Reading = { id: string; label: string; unit: string; dp: number; status: string; latest: { v: number } | null; baseline: { mean: number } | null; reference?: { mean: number } | null; history: { t: number; v: number; passed: boolean }[] }
 
 export function ReportPage() {
-  const [, bump] = useReducer((n: number) => n + 1, 0)
-  useEffect(() => D.onState(bump), [])
+  useStoreTick()
   const s = D.getState()
   const crew = s.crew as { id: string; name: string; role: string }
   useEffect(() => D.markReportSeen(crew.id), [crew.id])
@@ -42,6 +42,13 @@ export function ReportPage() {
   const packets = (D.groundLink(crew.id) as { list: { sentAt: number; count: number; state: string }[] }).list.filter((p) => p.sentAt >= since)
   const events = (getSnapshot().events[crew.id] ?? []).filter((e) => Date.parse(e.timestamp) >= since)
   const symptoms = events.filter((e) => e.kind === 'symptomReported').length
+  const pvtb = (D.pvtbHistory(crew.id) as { at: number; lapses: number }[]).filter((x) => x.at >= since)
+  const pain = D.painSummary(crew.id, 7) as { checks: number; painDays: number; areas: { label: string; days: number; worst: number }[] }
+  const recent = <T,>(m: T & { timestamp: string } | null) => (m && Date.parse(m.timestamp) >= since ? m : null)
+  const workload = recent(D.lastReading(crew.id, 'workload') as { value: number; timestamp: string } | null)
+  const screen = recent(D.lastReading(crew.id, 'moodScreen') as unknown as { value: { phq2: number; gad2: number }; timestamp: string } | null)
+  const grip = recent(D.lastReading(crew.id, 'gripStrength') as { value: number; timestamp: string } | null)
+  const bone = D.boneLoading(crew.id) as { week: unknown[] }
   const fmt = (r: Reading, v: number | undefined | null) => (v === null || v === undefined ? '—' : `${Number(v.toFixed(Math.min(2, r.dp)))}`)
 
   return (
@@ -52,9 +59,26 @@ export function ReportPage() {
           <h1 style={{ margin: 0, fontSize: 'clamp(36px, 5vw, 60px)', lineHeight: 0.95, fontWeight: 750, letterSpacing: '-0.05em' }}>Your week, on one page.</h1>
           <span style={{ maxWidth: '60ch', fontSize: 15.5, lineHeight: 1.5, color: 'var(--ink-soft)' }}>The last seven days, ready to hand to the flight surgeon. Open it any day from the page icon in the top bar.</span>
         </div>
-        <button type="button" className="fw-press" onClick={() => window.print()} style={{ minHeight: 46, padding: '0 18px', borderRadius: 14, border: 0, background: '#14181f', color: '#f3f1ea', boxShadow: '0 5px 0 #000', fontWeight: 750, cursor: 'pointer' }}>
-          Print or save as PDF
-        </button>
+        <span style={{ display: 'flex', flexWrap: 'wrap', gap: 10 }}>
+          <button
+            type="button"
+            onClick={() => {
+              const blob = new Blob([D.readingsCsv(crew.id, 30) as string], { type: 'text/csv' })
+              const url = URL.createObjectURL(blob)
+              const a = document.createElement('a')
+              a.href = url
+              a.download = `daily-orbit-readings-${String(crew.name).replace(/\W+/g, '-').toLowerCase()}-${new Date().toISOString().slice(0, 10)}.csv`
+              a.click()
+              setTimeout(() => URL.revokeObjectURL(url), 1000)
+            }}
+            style={{ minHeight: 46, padding: '0 16px', borderRadius: 14, border: '1.5px solid var(--ink)', background: 'var(--panel)', color: 'var(--ink)', fontWeight: 700, cursor: 'pointer' }}
+          >
+            Download readings (CSV, 30 days)
+          </button>
+          <button type="button" className="fw-press" onClick={() => window.print()} style={{ minHeight: 46, padding: '0 18px', borderRadius: 14, border: 0, background: '#14181f', color: '#f3f1ea', boxShadow: '0 5px 0 #000', fontWeight: 750, cursor: 'pointer' }}>
+            Print or save as PDF
+          </button>
+        </span>
       </div>
 
       <article style={{ background: 'var(--panel)', border: '1px solid var(--rule)', borderRadius: 24, padding: 'clamp(18px, 3vw, 34px)' }}>
@@ -151,6 +175,17 @@ export function ReportPage() {
               Symptoms reported: {symptoms}
               <br />
               Packets sent to Earth: {packets.length}
+              <br />
+              Pain checks: {pain.checks}
+              {pain.painDays ? ` (pain on ${pain.painDays} day${pain.painDays === 1 ? '' : 's'}: ${pain.areas.slice(0, 3).map((a) => `${a.label.toLowerCase()} ${a.days}d, worst ${a.worst}/10`).join('; ')})` : pain.checks ? ' (no pain reported)' : ''}
+              <br />
+              Weekly check: {workload ? `workload ${workload.value}/100` : 'not done this week'}
+              {screen ? `, mood screen ${screen.value.phq2 >= 3 || screen.value.gad2 >= 3 ? 'at or above the cutoff (talk to the crew medical officer)' : 'below the cutoff'}` : ''}
+              <br />
+              Grip strength: {grip ? `${grip.value} kg` : 'not logged'} · Bone-loading sessions: {bone.week.length}
+              <br />
+              3-minute alertness tests: {pvtb.length}
+              {pvtb.length ? ` (latest: ${pvtb[0].lapses} slow responses of ${D.PVTB_LAPSE_MS} ms or more)` : ''}
             </p>
           </div>
           <div>

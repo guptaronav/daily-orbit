@@ -3,10 +3,12 @@
 // GENERATED from the UI overhaul prototype by dc2jsx.py. Styles are the prototype's, verbatim.
 // Edit the view model that feeds this, not this markup, unless you are re-porting the prototype.
 import { Fragment } from 'react'
+import { BodyChecks } from './BodyChecks'
 import { FoodWater } from './FoodWater'
 import { ReactionTest } from './ReactionTest'
 import * as P from './parts'
 import { S } from './parts'
+import { LogTabs, Section } from './Sections'
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export function ManualView({ v }: { v: any }) {
@@ -42,8 +44,17 @@ export function ManualView({ v }: { v: any }) {
               </p>
             </section>
           </div>
-          <FoodWater />
-          <ReactionTest />
+          <LogTabs />
+          <Section page="log" id="food">
+            <FoodWater />
+          </Section>
+          <Section page="log" id="alertness">
+            <ReactionTest />
+          </Section>
+          <Section page="log" id="checks">
+            <BodyChecks />
+          </Section>
+          <Section page="log" id="readings">
           <div style={S({ display: 'flex', flexWrap: 'wrap', alignItems: 'flex-start', gap: '24px' })}>
             <div style={S({ flex: '999 1 640px', display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(min(100%, 320px), 1fr))', gap: '18px' })}>
               {(v.forms ?? []).map((f: any, f_i: number) => (
@@ -227,6 +238,7 @@ export function ManualView({ v }: { v: any }) {
               </div>
             </aside>
           </div>
+          </Section>
         </main>
         <P.SiteFooter dock={true} />
         <P.CrewDock current="Manual entry" />

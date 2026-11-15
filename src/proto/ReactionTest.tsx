@@ -22,8 +22,22 @@ export const LAPSE_MS = 500
 export const PVT_SOURCE = 'https://pmc.ncbi.nlm.nih.gov/articles/PMC3197786'
 const MIN_VALID = 5
 
+/*
+ * The full option: the 3-minute PVT-B (Basner, Mollicone & Dinges 2011), the validated short
+ * version. Targets every 1 to 4 s, a lapse is 355 ms or more, and a response under 100 ms is too
+ * fast to be a reaction, so it counts as a false start. Its results are kept apart from the quick
+ * minute (a different protocol must not share a baseline) and compared with the person's own
+ * earlier PVT-Bs.
+ */
+type Mode = 'quick' | 'pvtb'
+const MODES: Record<Mode, { sec: number; min: number; max: number; lapse: number; minValid: number }> = {
+  quick: { sec: TEST_SECONDS, min: WAIT_MIN_S, max: WAIT_MAX_S, lapse: LAPSE_MS, minValid: MIN_VALID },
+  pvtb: { sec: 180, min: 1, max: 4, lapse: D.PVTB_LAPSE_MS, minValid: 20 },
+}
+const TOO_FAST_MS = 100
+
 type Phase = 'idle' | 'waiting' | 'target' | 'done'
-type Result = { median: number; trials: number; lapses: number; falseStarts: number; saved: boolean; points: number }
+type Result = { median: number; trials: number; lapses: number; falseStarts: number; saved: boolean; points: number; mode: Mode; verdict?: string }
 
 const median = (xs: number[]) => {
   const s = [...xs].sort((a, b) => a - b)
@@ -32,6 +46,9 @@ const median = (xs: number[]) => {
 }
 
 export function ReactionTest() {
+  const [mode, setMode] = useState<Mode>('quick')
+  const modeRef = useRef<Mode>('quick')
+  const cfg = MODES[mode]
   const [phase, setPhase] = useState<Phase>('idle')
   const [left, setLeft] = useState(TEST_SECONDS)
   const [last, setLast] = useState<{ ms: number | null; early: boolean; k: number } | null>(null)
@@ -54,12 +71,20 @@ export function ReactionTest() {
     clear()
     const valid = rts.current
     const id: string = D.getState().crew.id
-    if (valid.length < MIN_VALID) {
-      setResult({ median: valid.length ? Math.round(median(valid)) : 0, trials: valid.length, lapses: valid.filter((x) => x >= LAPSE_MS).length, falseStarts: early.current, saved: false, points: 0 })
+    const m = modeRef.current
+    const c = MODES[m]
+    if (valid.length < c.minValid) {
+      setResult({ median: valid.length ? Math.round(median(valid)) : 0, trials: valid.length, lapses: valid.filter((x) => x >= c.lapse).length, falseStarts: early.current, saved: false, points: 0, mode: m })
+    } else if (m === 'pvtb') {
+      const res = { median: Math.round(median(valid)), trials: valid.length, lapses: valid.filter((x) => x >= c.lapse).length, falseStarts: early.current }
+      const points = D.savePvtb(id, res)
+      const last = (D.pvtbHistory(id) as { at: number }[])[0]
+      const verdict = (D.pvtbVerdict(id, { ...res, at: last?.at }) as { text: string }).text
+      setResult({ ...res, saved: true, points, mode: m, verdict })
     } else {
       const med = Math.round(median(valid))
       const points = D.logReading(id, 'reactionTime', [{ indicator: 'reactionTime', value: med, unit: 'ms', label: 'Reaction time' }])
-      setResult({ median: med, trials: valid.length, lapses: valid.filter((x) => x >= LAPSE_MS).length, falseStarts: early.current, saved: true, points })
+      setResult({ median: med, trials: valid.length, lapses: valid.filter((x) => x >= LAPSE_MS).length, falseStarts: early.current, saved: true, points, mode: m })
     }
     setPhase('done')
   }
@@ -67,7 +92,8 @@ export function ReactionTest() {
   const armNext = () => {
     if (performance.now() >= endAt.current) return finish()
     setPhase('waiting')
-    const wait = (WAIT_MIN_S + Math.random() * (WAIT_MAX_S - WAIT_MIN_S)) * 1000
+    const c = MODES[modeRef.current]
+    const wait = (c.min + Math.random() * (c.max - c.min)) * 1000
     timer.current = window.setTimeout(() => {
       if (performance.now() >= endAt.current) return finish()
       shownAt.current = performance.now()
@@ -80,8 +106,9 @@ export function ReactionTest() {
     early.current = 0
     setResult(null)
     setLast(null)
-    endAt.current = performance.now() + TEST_SECONDS * 1000
-    setLeft(TEST_SECONDS)
+    modeRef.current = mode
+    endAt.current = performance.now() + cfg.sec * 1000
+    setLeft(cfg.sec)
     tick.current = window.setInterval(() => {
       const remaining = endAt.current - performance.now()
       setLeft(Math.max(0, Math.ceil(remaining / 1000)))
@@ -95,6 +122,12 @@ export function ReactionTest() {
   const respond = () => {
     if (phase === 'target') {
       const ms = Math.round(performance.now() - shownAt.current)
+      if (modeRef.current === 'pvtb' && ms < TOO_FAST_MS) {
+        early.current += 1
+        setLast((l) => ({ ms: null, early: true, k: (l?.k ?? 0) + 1 }))
+        armNext()
+        return
+      }
       rts.current.push(ms)
       setLast((l) => ({ ms, early: false, k: (l?.k ?? 0) + 1 }))
       armNext()
@@ -114,7 +147,37 @@ export function ReactionTest() {
         <h2 id="rt-heading" style={{ margin: 0, fontSize: 'clamp(24px, 2.6vw, 32px)', fontWeight: 750, letterSpacing: '-0.035em' }}>
           Alertness check
         </h2>
-        <p style={{ margin: 0, fontSize: 15, color: 'var(--muted)', lineHeight: 1.5 }}>
+        <div role="group" aria-label="Test length" style={{ alignSelf: 'flex-start', display: 'flex', gap: 4, padding: 4, borderRadius: 999, background: 'var(--paper-deep)' }}>
+          {(
+            [
+              ['quick', 'Quick, 1 min'],
+              ['pvtb', 'Full PVT-B, 3 min'],
+            ] as [Mode, string][]
+          ).map(([k, label]) => (
+            <button
+              key={k}
+              type="button"
+              aria-pressed={mode === k}
+              disabled={running}
+              onClick={() => {
+                setMode(k)
+                setResult(null)
+              }}
+              style={{ minHeight: 36, padding: '0 14px', borderRadius: 999, border: 0, background: mode === k ? 'var(--panel)' : 'transparent', color: mode === k ? 'var(--ink)' : 'var(--muted)', fontWeight: 650, fontSize: 13.5, cursor: running ? 'default' : 'pointer', boxShadow: mode === k ? '0 1px 2px rgba(20,24,31,.1)' : 'none' }}
+            >
+              {label}
+            </button>
+          ))}
+        </div>
+        {mode === 'pvtb' && (
+          <p style={{ margin: 0, fontSize: 15, color: 'var(--muted)', lineHeight: 1.5 }}>
+            Three minutes: the validated short vigilance test (PVT-B). Slow responses of {D.PVTB_LAPSE_MS} ms or more are the measure that rises with sleep loss, often before you notice it. Take it once a week, or whenever you feel tired.{' '}
+            <a href={D.PVTB_SOURCE} target="_blank" rel="noreferrer" style={{ color: 'var(--accent)' }}>
+              Basner et al., 2011 ↗
+            </a>
+          </p>
+        )}
+        <p style={{ margin: 0, fontSize: 15, color: 'var(--muted)', lineHeight: 1.5, display: mode === 'quick' ? undefined : 'none' }}>
           One minute. When the circle turns gold, tap it or press Space as fast as you can. Pressing early counts as a false start. A one-minute take on the reaction-time test ISS astronauts have used for alertness. It is shorter than the validated versions, so it is only compared with your own past results.
         </p>
         {result && (
@@ -127,16 +190,19 @@ export function ReactionTest() {
                   {result.points > 0 && <span style={{ marginLeft: 'auto', fontWeight: 800, color: '#a8740a', animation: 'fw-coin 1100ms ease-out forwards' }}>+{result.points}</span>}
                 </p>
                 <p style={{ margin: 0, fontSize: 13.5, color: 'var(--muted)' }}>
-                  {result.trials} taps · {result.lapses} slow ({LAPSE_MS} ms or more, the standard test's lapse) · {result.falseStarts} false start{result.falseStarts === 1 ? '' : 's'}. Saved to your head region.
+                  {result.mode === 'pvtb'
+                    ? `${result.trials} taps · ${result.lapses} slow (${D.PVTB_LAPSE_MS} ms or more) · ${result.falseStarts} false start${result.falseStarts === 1 ? '' : 's'}. Saved to your PVT-B history.`
+                    : `${result.trials} taps · ${result.lapses} slow (${LAPSE_MS} ms or more, the standard test's lapse) · ${result.falseStarts} false start${result.falseStarts === 1 ? '' : 's'}. Saved to your head region.`}
                 </p>
+                {result.verdict && <p style={{ margin: 0, fontSize: 14, fontWeight: 650 }}>{result.verdict}</p>}
               </>
             ) : (
-              <p style={{ margin: 0, fontSize: 14 }}>Only {result.trials} valid taps, not enough to judge ({MIN_VALID} needed). Nothing was saved. Try again when you can give it the full minute.</p>
+              <p style={{ margin: 0, fontSize: 14 }}>Only {result.trials} valid taps, not enough to judge ({MODES[result.mode].minValid} needed). Nothing was saved. Try again when you can give it the full {result.mode === 'pvtb' ? 'three minutes' : 'minute'}.</p>
             )}
           </div>
         )}
         <button type="button" onClick={start} disabled={running} className="fw-press" style={{ marginTop: 'auto', alignSelf: 'flex-start', minHeight: 50, padding: '0 22px', borderRadius: 14, border: 0, background: running ? 'var(--paper-deep)' : '#14181f', color: running ? 'var(--muted)' : '#f3f1ea', boxShadow: running ? 'none' : '0 5px 0 #000', fontSize: 15.5, fontWeight: 750, cursor: running ? 'default' : 'pointer' }}>
-          {running ? `${left} s left` : result ? 'Run it again' : 'Start the minute'}
+          {running ? `${left} s left` : result ? 'Run it again' : mode === 'pvtb' ? 'Start the 3 minutes' : 'Start the minute'}
         </button>
       </div>
 

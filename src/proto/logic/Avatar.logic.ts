@@ -24,7 +24,7 @@ export class AvatarLogic extends DCLogic {
       v1: g.visor ? g.visor.c1 : '#4cc9f0', v2: g.visor ? g.visor.c2 : '#0b3d91', suit: g.suit ? g.suit.fill : '#e9e6dc',
       stripes: Array.from({ length: t.stripes }, (_, i) => `M${14 + i * 5} 52 L${14 + i * 5} ${41 - i * 1.5}`),
       tilt: `rotate(${t.tilt.toFixed(1)} 24 20)`,
-      antenna: top ? top === 'top-antenna' : t.antenna, halo: top === 'top-halo', star: top === 'top-star',
+      antenna: top ? top === 'top-antenna' : t.antenna, halo: top === 'top-halo', star: top === 'top-star', topId: top,
       vs0: t.visor === 0, vs1: t.visor === 1, vs2: t.visor === 2,
       hasPatch: !!(g.patch && g.patch.glyph) && size >= 36, ppx: Math.min(34, Math.max(16, size * 0.34)) + 'px', patchBg: g.patch && g.patch.bg, patchFg: g.patch && g.patch.fg, patchGlyph: g.patch && g.patch.glyph,
       level: this.props.level || '', badge: !!this.props.badge && !this.props.level,

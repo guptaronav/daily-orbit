@@ -4,23 +4,23 @@
 // Edit the view model that feeds this, not this markup, unless you are re-porting the prototype.
 import { Fragment } from 'react'
 import { GroundLinkPanel } from './GroundLink'
+import { ShareChoices } from './ShareChoices'
 import * as P from './parts'
 import { S } from './parts'
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-export function EscalationView({ v }: { v: any }) {
-  return (
+export function EscalationView({ v, embedded = false }: { v: any; embedded?: boolean }) {
+  // On the Crew page (embedded) this is a section with an h2; the old page is kept for its link.
+  const H = embedded ? 'h2' : 'h1'
+  const inner = (
     <>
-      <div data-chm-root="1" style={S({ '--ink': '#14181f', '--ink-soft': '#2b323d', '--paper': '#f3f1ea', '--paper-deep': '#e8e4d8', '--panel': '#fbfaf6', '--panel-2': '#f6f4ec', '--rule': '#d9d4c4', '--rule-strong': '#a49c88', '--muted': '#5b6270', '--accent': '#0b3d91', '--accent-wash': '#e4e9f3', '--ok': '#2f7d4f', '--ok-ink': '#1b5b33', '--watch': '#b7791f', '--watch-ink': '#7a4f00', '--act': '#b3261e', '--act-ink': '#8c1d18', '--nodata': '#8a8f98', '--nodata-ink': '#5b6270', '--on-accent': '#ffffff', '--star-o': '0', '--glow': 'none', minHeight: '100vh', display: 'flex', flexDirection: 'column', background: 'var(--paper)', color: 'var(--ink)', fontFamily: 'ui-sans-serif, system-ui, -apple-system, \'Segoe UI\', Roboto, sans-serif', fontVariantNumeric: 'tabular-nums' })}>
-        <P.TopBar current="Escalation" />
-        <main id="main" tabIndex={-1} style={S({ flex: '1', width: '100%', maxWidth: '1500px', margin: '0 auto', padding: '32px clamp(16px, 3vw, 24px) 56px', boxSizing: 'border-box', outline: 'none' })}>
           <div style={S({ paddingBottom: '28px', borderBottom: '1px solid var(--rule)' })}>
             <p style={S({ margin: '0', fontSize: '14px', color: 'var(--muted)' })}>
-              Escalation ladder · {v.crewName}
+              Who to tell · {v.crewName}
             </p>
-            <h1 style={S({ margin: '12px 0 0', fontSize: 'clamp(32px, 4.2vw, 52px)', lineHeight: '1', fontWeight: '700', letterSpacing: '-0.045em' })}>
+            <H style={S({ margin: '12px 0 0', fontSize: 'clamp(32px, 4.2vw, 52px)', lineHeight: '1', fontWeight: '700', letterSpacing: '-0.045em' })}>
               Who to tell, and when
-            </h1>
+            </H>
             <p style={S({ margin: '18px 0 0', maxWidth: '72ch', fontSize: '15px', lineHeight: '1.65', color: 'var(--muted)', textWrap: 'pretty' })}>
               Four rungs, lowest first. Climb one when the step below has not settled it. No rung is triggered by a number: this app compares you with your own baseline and tells you what moved, and the decision stays with the crew.
             </p>
@@ -201,6 +201,7 @@ export function EscalationView({ v }: { v: any }) {
                 </div>
               </div>
               <div style={S({ padding: '22px 20px', borderTop: '1px solid var(--rule)', background: 'var(--paper-deep)' })}>
+                <ShareChoices withheld={v.withheld || 0} />
                 <div aria-hidden="true" style={S({ display: 'flex', alignItems: 'center', gap: '14px' })}>
                   <span style={S({ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '4px', fontSize: '11.5px', color: 'var(--muted)' })}>
                     <span style={S({ width: '12px', height: '12px', border: '1px solid var(--accent)', transform: 'rotate(45deg)' })}>
@@ -297,6 +298,20 @@ export function EscalationView({ v }: { v: any }) {
             </section>
           </div>
           <div style={{ marginTop: 28 }}><GroundLinkPanel /></div>
+    </>
+  )
+  if (embedded)
+    return (
+      <section id="earth-link" aria-label="Who to tell and the link to Earth" style={{ scrollMarginTop: 170, paddingTop: 12, borderTop: '1px solid var(--rule)' }}>
+        {inner}
+      </section>
+    )
+  return (
+    <>
+      <div data-chm-root="1" style={S({ '--ink': '#14181f', '--ink-soft': '#2b323d', '--paper': '#f3f1ea', '--paper-deep': '#e8e4d8', '--panel': '#fbfaf6', '--panel-2': '#f6f4ec', '--rule': '#d9d4c4', '--rule-strong': '#a49c88', '--muted': '#5b6270', '--accent': '#0b3d91', '--accent-wash': '#e4e9f3', '--ok': '#2f7d4f', '--ok-ink': '#1b5b33', '--watch': '#b7791f', '--watch-ink': '#7a4f00', '--act': '#b3261e', '--act-ink': '#8c1d18', '--nodata': '#8a8f98', '--nodata-ink': '#5b6270', '--on-accent': '#ffffff', '--star-o': '0', '--glow': 'none', minHeight: '100vh', display: 'flex', flexDirection: 'column', background: 'var(--paper)', color: 'var(--ink)', fontFamily: 'ui-sans-serif, system-ui, -apple-system, \'Segoe UI\', Roboto, sans-serif', fontVariantNumeric: 'tabular-nums' })}>
+        <P.TopBar current="Escalation" />
+        <main id="main" tabIndex={-1} style={S({ flex: '1', width: '100%', maxWidth: '1500px', margin: '0 auto', padding: '32px clamp(16px, 3vw, 24px) 56px', boxSizing: 'border-box', outline: 'none' })}>
+          {inner}
         </main>
         <P.SiteFooter dock={true} />
         <P.CrewDock current="Escalation" />

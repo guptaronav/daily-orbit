@@ -1,5 +1,6 @@
-import { useEffect, useReducer, useState } from 'react'
+import { useState } from 'react'
 import * as D from './data'
+import { useStoreTick } from './shared'
 
 /*
  * NASA's five hazards of human spaceflight, as this crew member lives them on this mission. Each
@@ -97,8 +98,7 @@ export function DoseBudget({ b }: { b: Budget }) {
 }
 
 export function HazardsPanel() {
-  const [, bump] = useReducer((n: number) => n + 1, 0)
-  useEffect(() => D.onState(bump), [])
+  useStoreTick()
   const s = D.getState()
   const list = D.hazards(s.crew.id) as Hazard[]
   const cabin = D.cabin(s.crew.id) as Cabin
@@ -139,6 +139,11 @@ export function HazardsPanel() {
               )}
               {h.id === 'environment' && (D.systemsOnline().telemetry ? <CabinAir c={cabin} /> : <p style={{ margin: 0, fontSize: 12.5, color: 'var(--muted)' }}>Cabin air telemetry comes online when the crew reaches 300 points together.</p>)}
               {h.id === 'radiation' && <DoseBudget b={budget} />}
+              {h.id === 'radiation' && (
+                <button type="button" onClick={() => document.getElementById('radiation-replay')?.scrollIntoView({ behavior: 'smooth', block: 'start' })} style={{ justifySelf: 'start', minHeight: 32, padding: '0 10px', borderRadius: 10, border: '1.5px solid var(--ink)', background: 'var(--panel)', color: 'var(--ink)', fontWeight: 700, fontSize: 12.5, cursor: 'pointer' }}>
+                  Replay a real solar storm
+                </button>
+              )}
               <button type="button" aria-expanded={isOpen} onClick={() => setOpen(isOpen ? null : h.id)} style={{ alignSelf: 'flex-start', marginTop: 'auto', minHeight: 32, padding: '0 10px', borderRadius: 9, border: '1.5px solid var(--rule-strong)', background: 'transparent', color: 'var(--ink)', fontWeight: 650, cursor: 'pointer', fontSize: 13 }}>
                 {isOpen ? 'Less' : 'What it is'}
               </button>

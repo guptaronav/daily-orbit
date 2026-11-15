@@ -1,6 +1,7 @@
-import { useEffect, useReducer, useState } from 'react'
+import { useEffect, useState } from 'react'
 import * as D from './data'
 import { bridge } from './store'
+import { useStoreTick } from './shared'
 
 /*
  * The one piece of feedback every earning action shares. Whatever earned coins (a mirror check,
@@ -13,8 +14,7 @@ type Toast = { n: number; why: string; k: number; capped?: boolean }
 export function GoalToast() {
   const [t, setT] = useState<Toast | null>(null)
   // The event that earned the coins may land a moment after the announcement: recount when data changes.
-  const [, bump] = useReducer((n: number) => n + 1, 0)
-  useEffect(() => D.onState(bump), [])
+  useStoreTick()
   useEffect(() => {
     const on = (e: Event) => {
       const d = (e as CustomEvent).detail || {}

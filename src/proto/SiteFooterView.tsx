@@ -3,6 +3,7 @@
 // The site footer. Rebuilt from the prototype's (which was one long column of links): a brand
 // block, three short link groups named exactly as in the top bar, the team, and a status rail
 // that clears the mission dock.
+import { LogoMark } from './Logo'
 
 const GROUPS = [
   {
@@ -18,10 +19,10 @@ const GROUPS = [
   {
     title: 'Crew and mission',
     links: [
-      ['Escalation.dc.html', 'Escalate'],
+      ['Escalation.dc.html', 'Who to tell (on Crew)'],
       ['Medical%20View.dc.html', 'Crew'],
       ['Rewards.dc.html', 'Rewards'],
-      ['Radiation.dc.html', 'Radiation'],
+      ['Radiation.dc.html', 'Solar storm replay'],
       ['Onboarding.dc.html', 'Set up again'],
     ],
   },
@@ -36,11 +37,14 @@ const GROUPS = [
   },
 ]
 
+// Team Our Apollo-gies.
 const TEAM = [
-  ['Ronav Gupta', 'Lead, camera and signal'],
-  ['Arnav Jain', 'Design, screens and game'],
-  ['Evode Manirahari', 'NASA data and research'],
+  ['Ronav Gupta', 'Team lead: camera check, signal processing, data layer'],
+  ['Arnav Jain', 'Design and front end: screens, body checks, rewards'],
+  ['Evode Manirahari', 'NASA data: radiation replay, sources, research'],
+  ['Jingbo Xia', 'Presentation and pitch'],
 ]
+const REPO = 'https://github.com/guptaronav/daily-orbit'
 
 const PROMISES = ['Works offline', 'Nothing leaves this device', 'Not a medical device']
 
@@ -53,7 +57,7 @@ export function SiteFooterView({ v }: { v: any }) {
       <div className="footer-grid" style={{ maxWidth: 1440, margin: '0 auto', padding: '40px clamp(16px, 3vw, 32px) 28px', display: 'grid', gap: '28px 32px' }}>
         <div style={{ minWidth: 0, display: 'grid', gap: 12, alignContent: 'start' }} className="footer-brand">
           <a href="Landing.dc.html" style={{ display: 'flex', alignItems: 'center', gap: 10, textDecoration: 'none', color: 'var(--ink)' }}>
-            <img src="/icon-192.png" alt="" width={36} height={36} style={{ borderRadius: 10 }} />
+            <LogoMark height={30} />
             <strong style={{ fontSize: 20, letterSpacing: '-0.02em' }}>Daily Orbit</strong>
           </a>
           <p style={{ margin: 0, maxWidth: 380, fontSize: 14.5, lineHeight: 1.55, color: 'var(--ink-soft)' }}>
@@ -83,7 +87,7 @@ export function SiteFooterView({ v }: { v: any }) {
           </nav>
         ))}
         <div>
-          <p style={head}>Team</p>
+          <p style={head}>Team · Our Apollo-gies</p>
           <ul style={{ listStyle: 'none', margin: 0, padding: 0, display: 'grid', gap: 8 }}>
             {TEAM.map(([name, role]) => (
               <li key={name} style={{ display: 'grid' }}>
@@ -92,6 +96,9 @@ export function SiteFooterView({ v }: { v: any }) {
               </li>
             ))}
           </ul>
+          <a href={REPO} target="_blank" rel="noreferrer" className="footer-link" style={{ ...link, marginTop: 10, fontWeight: 650 }}>
+            Code on GitHub ↗
+          </a>
         </div>
       </div>
       <div style={{ borderTop: '1px solid var(--rule)' }}>

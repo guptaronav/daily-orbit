@@ -1,6 +1,6 @@
-import { useEffect, useReducer } from 'react'
 import * as D from './data'
 import * as P from './parts'
+import { useCrewId } from './shared'
 
 /*
  * The parts of Rewards that tie the game together week to week: this week's mission-pass tasks
@@ -12,12 +12,6 @@ const card = { borderRadius: 28, background: 'var(--panel)', border: '1px solid 
 const h2 = { margin: 0, fontSize: 22, fontWeight: 650, letterSpacing: '-0.02em' } as const
 const sub = { margin: 0, fontSize: 13.5, color: 'var(--muted)' } as const
 
-function useData() {
-  const [, bump] = useReducer((n: number) => n + 1, 0)
-  useEffect(() => D.onState(bump), [])
-  return D.getState().crew.id as string
-}
-
 function Bar({ frac, color = '#f6c445' }: { frac: number; color?: string }) {
   return (
     <span aria-hidden="true" style={{ display: 'block', height: 8, borderRadius: 99, background: 'var(--paper-deep)', overflow: 'hidden' }}>
@@ -27,7 +21,7 @@ function Bar({ frac, color = '#f6c445' }: { frac: number; color?: string }) {
 }
 
 export function ThisWeek() {
-  const id = useData()
+  const id = useCrewId()
   const tasks = D.passTasks(id) as { id: string; label: string; xp: number; progress: number; goal: number; done: boolean }[]
   const quests = D.crewQuests() as { id: string; label: string; contributors: { crew: { id: string; name: string }; gear: unknown }[]; total: number; complete: boolean; xp: number }[]
   return (
@@ -85,7 +79,7 @@ export function ThisWeek() {
 }
 
 export function SetsAndLevels() {
-  const id = useData()
+  const id = useCrewId()
   const sets = D.sets(id) as { id: string; name: string; have: string[]; items: string[]; done: boolean; rewardName: string; itemNames: string[] }[]
   const perks = D.levelPerks(id) as { lv: number; unlocked: { lv: number }[]; next: { lv: number; label: string } | null; title: string }
   return (
@@ -144,7 +138,7 @@ export function SetsAndLevels() {
 }
 
 export function FeaturedToday() {
-  useData()
+  useCrewId()
   const ids = D.featuredToday() as string[]
   const items = ids.map((x) => (D.SHOP as { id: string; name: string; price: number; slot: string }[]).find((i) => i.id === x)!).filter(Boolean)
   return (
@@ -156,6 +150,28 @@ export function FeaturedToday() {
         </span>
       ))}
       <span style={{ fontSize: 12.5, color: 'var(--muted)', marginLeft: 'auto' }}>Two new picks every day</span>
+    </div>
+  )
+}
+
+/** Left and right buttons for the locker's sideways row of items. */
+export function LockerArrows({ count }: { count: number }) {
+  const move = (dir: number) => {
+    const el = document.getElementById('locker-strip')
+    if (el) el.scrollBy({ left: dir * Math.max(240, el.clientWidth * 0.8), behavior: 'smooth' })
+  }
+  const btn = { display: 'grid', placeItems: 'center', width: 40, height: 40, borderRadius: 99, border: '1.5px solid var(--ink)', background: 'var(--panel)', color: 'var(--ink)', fontSize: 18, fontWeight: 800, cursor: 'pointer' } as const
+  return (
+    <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginLeft: 'auto' }}>
+      <span style={{ fontSize: 13, color: 'var(--muted)' }}>
+        {count} item{count === 1 ? '' : 's'} · scroll for more
+      </span>
+      <button type="button" aria-label="Scroll the locker left" onClick={() => move(-1)} style={btn}>
+        ‹
+      </button>
+      <button type="button" aria-label="Scroll the locker right" onClick={() => move(1)} style={btn}>
+        ›
+      </button>
     </div>
   )
 }

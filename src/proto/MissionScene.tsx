@@ -1,5 +1,6 @@
-import { useEffect, useId, useReducer, useRef, useState, type CSSProperties, type KeyboardEvent, type PointerEvent, type ReactNode } from 'react'
+import { useEffect, useId, useRef, useState, type CSSProperties, type KeyboardEvent, type PointerEvent, type ReactNode } from 'react'
 import * as D from './data'
+import { useStoreTick } from './shared'
 
 /*
  * Illustrated mission banners: the Moon with Earth rising, the ISS over Earth, dusk in Jezero
@@ -57,8 +58,7 @@ const anim = (a: string, extra: CSSProperties = {}): CSSProperties => ({ animati
 
 export function BannerScene({ banner, crewId, interactive = false }: { banner: Banner; crewId?: string; interactive?: boolean }) {
   // Re-draw when the mission changes (the "Current mission" banner follows it) or a discovery lands.
-  const [, bump] = useReducer((n: number) => n + 1, 0)
-  useEffect(() => D.onState(bump), [])
+  useStoreTick()
   const raw = useId()
   const uid = 'ms' + raw.replace(/[^a-zA-Z0-9]/g, '')
   const wrap = useRef<HTMLSpanElement>(null)

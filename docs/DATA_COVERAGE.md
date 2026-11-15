@@ -10,7 +10,8 @@ The source of truth is `src/lib/dataCoverage.ts`. A test (`dataCoverage.test.ts`
 | Mirror check, vision tests | Amsler distortion, near acuity |
 | Mirror check, questions | sleep quality, sleep hours, mood, stress, symptom report, digestive comfort, appetite |
 | Manual entry (Log screen) | sleep hours, blood pressure, temperature, body mass, blood sugar, exercise minutes, bowel movements, water intake, meals eaten |
-| Reaction test (Log screen) | reaction time |
+| Reaction test (Log screen) | reaction time (the 3-minute PVT-B is kept as its own history) |
+| Body checks (Log screen) | pain (pain map), heart-rate rise on standing (stand-up test), workload (NASA-TLX) and mood screen (PHQ-2, GAD-2) in the weekly check, grip strength |
 | Radiation replay | radiation dose (a labeled simulation) |
 | NASA bed-rest data (Crew 3 only) | heart rate, blood pressure, body mass, temperature, bowel movements, exercise (stretch) minutes, symptom reports |
 
@@ -24,7 +25,7 @@ The NASA basis for each indicator (Standard Measures category, HRP risk title) i
 | NASA DONKI solar energetic particle events | 494 events (2010 to 2026) fetched at build time; six are replayable. Built by `scripts/fetch-donki.ts` into `src/data/donki-sep.json` |
 | LRO CRaTER dose rates and GOES proton flux, via NASA CCMC iSWA | Measured dose rate (lunar orbit) behind the replay, and proton flux for context. The dose on the simulated vehicle is a labeled simulation: one rate for every environment, 1 mGy counted as 1 mSv, no shielding model |
 | NASA HRP risks and Spaceflight Standard Measures | Every indicator carries its HRP risk title and Standard Measures category |
-| 71 pages in `src/content/sources.json` (52 NASA, 19 NIH, MedlinePlus, PubMed and Canadian Space Agency) | Indicator explanations, equipment, fluid goal, crew-day schedule, nutrition tips |
+| 83 pages in `src/content/sources.json` (59 NASA, 23 NIH, MedlinePlus, PubMed and Canadian Space Agency, 1 University of Washington) | Indicator explanations, equipment, fluid goal, crew-day schedule, nutrition tips |
 
 All data is fetched at build time. The app makes no network calls at runtime.
 

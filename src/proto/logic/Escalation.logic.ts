@@ -29,10 +29,14 @@ export class EscalationLogic extends DCLogic {
     const D = this.D, s = this.state.s
     if (!D || !s) return { rungs: [], stats: [], changed: [], digits: [], crewName: '', envLabel: '', nChanged: '', txText: 'Hold to transmit (simulated)', idle: true }
     const pk = D.buildPacket(s.crew.id)
+    // Rung 3 names who actually answers: the medical officer, or the backup when the officer is the patient.
+    const cmo = D.medicalOfficer()
+    const cmoTitle = cmo.unwell ? `Backup medical officer: ${cmo.backupName}` : cmo.primaryName ? `Crew medical officer: ${cmo.primaryName}` : 'Crew medical officer'
+    const cmoWhen = cmo.unwell ? `${cmo.primaryName}, the medical officer, has a reading at Act or an open alert of their own, so ${cmo.backupName} covers. ` : ''
     const RUNGS = [
       ['01', 'Self-care', 'A reading moved a little and you already know what would help: rest, water, the scheduled exercise session, or simply retaking a reading the app could not trust.', 'check', 'This one moved a little. I’ll rest, drink some water and retake it later.'],
       ['02', 'Crewmate check', 'You want a second pair of eyes. Ask a crewmate to look at the same reading, or run the mirror check alongside you so you can compare.', 'eye', 'Can you look at this reading with me before I decide what to do?'],
-      ['03', 'Crew medical officer', 'The change has stayed for more than a day or two, more than one indicator moved together, or you feel worse than the numbers suggest. The medical officer has the training and the onboard kit.', 'heart', 'This has stayed off for a couple of days, and I feel worse than the numbers say.'],
+      ['03', cmoTitle, cmoWhen + 'The change has stayed for more than a day or two, more than one indicator moved together, or you feel worse than the numbers suggest. The medical officer has the training and the onboard kit.', 'heart', 'This has stayed off for a couple of days, and I feel worse than the numbers say.'],
       ['04', 'Flight surgeon', 'The crew wants ground input. Send the change summary below, then keep going with onboard care while it crosses the gap: the answer cannot arrive sooner than the comm delay allows.', 'send', 'We’re sending the change summary to the ground and carrying on with onboard care while it travels.'],
     ]
     const rungs = RUNGS.map(([n, title, when, icon, quote], i) => {
@@ -68,6 +72,7 @@ export class EscalationLogic extends DCLogic {
         { k: 'One-way delay', v: D.formatDelay(s.delay).split(' ')[0], u: D.formatDelay(s.delay).split(' ')[1], color: 'var(--accent)' },
         { k: 'Changes', v: pk.changed.length, u: 'indicators', color: pk.changed.length ? 'var(--watch-ink)' : 'var(--ink)' },
       ],
+      withheld: pk.withheld || 0,
       nChanged: pk.changed.length, hasChanges: pk.changed.length > 0, noChanges: pk.changed.length === 0,
       changed: pk.changed.map((c) => ({ ...c, ink: D.STATUS[c.status].ink, swatch: D.STATUS[c.status].swatch, short: D.STATUS[c.status].short, delta: `${c.deltaPct > 0 ? '+' : ''}${c.deltaPct}%`, since: c.sinceDays === 0 ? 'since today' : `over ${c.sinceDays}d` })),
       json: pk.json, jsonOpen: this.state.json, jsonOpenStr: String(this.state.json), jsonRot: this.state.json ? 'rotate(180deg)' : 'none', toggleJson: () => this.setState({ json: !this.state.json }),

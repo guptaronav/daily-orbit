@@ -87,3 +87,19 @@ describe('getCategoricalStatus', () => {
     expect(getCategoricalStatus(m({ indicator: 'mood', value: { foo: 1 } }))).toBe('gray')
   })
 })
+
+describe('body checks judged by rules, not a baseline', () => {
+  const mk = (indicator: 'painReport' | 'moodScreen', value: Record<string, unknown>) =>
+    ({ id: 'x', crewId: 'c', timestamp: '2026-11-15T00:00:00.000Z', indicator, value, quality: { score: 1, passed: true }, source: 'manual' }) as const
+
+  test('any pain is worth a look; no pain is fine', () => {
+    expect(getCategoricalStatus(mk('painReport', { level: 0, areas: [] }))).toBe('green')
+    expect(getCategoricalStatus(mk('painReport', { level: 2, areas: [] }))).toBe('yellow')
+  })
+
+  test('the mood screen uses the published cutoff of 3 on either the PHQ-2 or the GAD-2', () => {
+    expect(getCategoricalStatus(mk('moodScreen', { phq2: 2, gad2: 2 }))).toBe('green')
+    expect(getCategoricalStatus(mk('moodScreen', { phq2: 3, gad2: 0 }))).toBe('yellow')
+    expect(getCategoricalStatus(mk('moodScreen', { phq2: 0, gad2: 3 }))).toBe('yellow')
+  })
+})

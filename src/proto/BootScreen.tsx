@@ -4,13 +4,20 @@ import donki from '../data/donki-sep.json'
 import sources from '../content/sources.json'
 import { INDICATORS } from '../contract/types'
 import { getSnapshot } from './store'
+import { LogoTile } from './Logo'
 
 /*
  * A short systems check on the first load of a session. Every line is a real check, run on the
  * spot: the local database, the bundled NASA content and data, the face model, the camera, and
  * the offline cache. It never asks for camera permission, never touches the network beyond this
  * app's own files, and gets out of the way in about two seconds (or at once with Skip).
+ *
+ * Before the check, a short title card: "Our Apollo-gies presents Daily Orbit". About three
+ * seconds, a moment with reduced motion, and Skip ends both.
  */
+
+const INTRO_MS = 3200
+const INTRO_MS_REDUCED = 1400
 
 type Check = { label: string; result: string; ok: boolean | null }
 const KEY = 'chm-booted'
@@ -62,6 +69,14 @@ export function BootScreen() {
   const [checks, setChecks] = useState<Check[]>([])
   const [shown, setShown] = useState(0)
   const [leaving, setLeaving] = useState(false)
+  const [intro, setIntro] = useState(true)
+
+  useEffect(() => {
+    if (!show) return
+    const reduced = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches
+    const t = setTimeout(() => setIntro(false), reduced ? INTRO_MS_REDUCED : INTRO_MS)
+    return () => clearTimeout(t)
+  }, [show])
 
   useEffect(() => {
     if (!show) return
@@ -78,7 +93,7 @@ export function BootScreen() {
   }, [show])
 
   useEffect(() => {
-    if (!show || !checks.length) return
+    if (!show || intro || !checks.length) return
     if (shown < checks.length) {
       const t = setTimeout(() => setShown((n) => n + 1), 170)
       return () => clearTimeout(t)
@@ -89,14 +104,54 @@ export function BootScreen() {
       clearTimeout(t)
       clearTimeout(u)
     }
-  }, [show, checks, shown])
+  }, [show, intro, checks, shown])
 
   if (!show) return null
+  if (intro) {
+    return (
+      <div role="status" aria-label="Our Apollo-gies presents Daily Orbit" className="intro" onClick={() => setIntro(false)}>
+        <div className="intro-stars" aria-hidden="true" />
+        <div style={{ position: 'relative', display: 'grid', justifyItems: 'center', gap: 10, textAlign: 'center', padding: 16 }}>
+          <p className="intro-team" aria-hidden="true">
+            {'Our '.split('').map((ch, i) => (
+              <span key={i} style={{ animationDelay: `${i * 45}ms` }}>
+                {ch === ' ' ? ' ' : ch}
+              </span>
+            ))}
+            <span className="intro-gold">
+              {'Apollo'.split('').map((ch, i) => (
+                <span key={i} style={{ animationDelay: `${(i + 4) * 45}ms` }}>
+                  {ch}
+                </span>
+              ))}
+            </span>
+            {'-gies'.split('').map((ch, i) => (
+              <span key={i} style={{ animationDelay: `${(i + 10) * 45}ms` }}>
+                {ch}
+              </span>
+            ))}
+          </p>
+          <p className="intro-presents">presents</p>
+          <div className="intro-mark">
+            <span className="intro-ring" aria-hidden="true" />
+            <LogoTile size={92} />
+          </div>
+          <h1 className="intro-title">Daily Orbit</h1>
+          <p className="intro-tag">A minute a day keeps the crew flying.</p>
+        </div>
+        <button type="button" onClick={(e) => { e.stopPropagation(); setShow(false) }} className="intro-skip">
+          Skip
+        </button>
+      </div>
+    )
+  }
   return (
     <div role="status" aria-label="Systems check" style={{ position: 'fixed', inset: 0, zIndex: 100, display: 'grid', placeItems: 'center', background: 'radial-gradient(ellipse at 50% 30%, #1b2440, #07090f 70%)', color: '#e8eefc', opacity: leaving ? 0 : 1, transition: 'opacity 400ms ease', padding: 16 }}>
       <div style={{ width: 'min(460px, 100%)', display: 'grid', gap: 18 }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: 14 }}>
-          <img src={`${import.meta.env.BASE_URL}icon-192.png`} alt="" width={56} height={56} style={{ borderRadius: 14, animation: 'ms-glow 2s ease-in-out infinite' }} />
+          <span style={{ borderRadius: 14, animation: 'ms-glow 2s ease-in-out infinite' }}>
+            <LogoTile size={56} />
+          </span>
           <div>
             <strong style={{ fontSize: 22, letterSpacing: '-0.02em' }}>Daily Orbit</strong>
             <p style={{ margin: 0, fontSize: 13.5, color: 'rgba(232,238,252,.7)' }}>Systems check</p>

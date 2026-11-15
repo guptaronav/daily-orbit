@@ -34,10 +34,15 @@ export const ManualPage = lazyPage(async () => ({
   View: (await import('./ManualView')).ManualView,
   Logic: (await import('./logic/ManualEntry.logic')).ManualEntryLogic as never,
 }))
-export const EscalationPage = lazyPage(async () => ({
-  View: (await import('./EscalationView')).EscalationView,
-  Logic: (await import('./logic/Escalation.logic')).EscalationLogic as never,
-}))
+/** The ladder, the ground packet and the ground link, drawn as a section of the Crew page. */
+export const EscalationSection = lazy(async () => {
+  const View = (await import('./EscalationView')).EscalationView
+  const Logic = (await import('./logic/Escalation.logic')).EscalationLogic as never
+  function Section() {
+    return <View v={useDC(Logic, NO_PROPS) as never} embedded />
+  }
+  return { default: Section }
+})
 export const MedicalPage = lazyPage(async () => ({
   View: (await import('./MedicalView')).MedicalView,
   Logic: (await import('./logic/MedicalView.logic')).MedicalViewLogic as never,

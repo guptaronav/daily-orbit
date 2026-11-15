@@ -3,6 +3,7 @@
 // GENERATED from the UI overhaul prototype by dc2jsx.py. Styles are the prototype's, verbatim.
 // Edit the view model that feeds this, not this markup, unless you are re-porting the prototype.
 import { Fragment } from 'react'
+import { TopperArt } from './Toppers'
 import * as P from './parts'
 import { S } from './parts'
 
@@ -80,6 +81,7 @@ export function AvatarView({ v }: { v: any }) {
                 </path>
                 </>
               ) : null}
+              <TopperArt id={v.topId} />
             </g>
           </svg>
         </span>

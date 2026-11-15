@@ -2,12 +2,17 @@
 /* eslint-disable */
 // GENERATED from the UI overhaul prototype by dc2jsx.py. Styles are the prototype's, verbatim.
 // Edit the view model that feeds this, not this markup, unless you are re-porting the prototype.
-import { Fragment } from 'react'
+import { Fragment, lazy, Suspense } from 'react'
 import { HazardsPanel } from './HazardsPanel'
 import { PatternsPanel } from './PatternsPanel'
 import * as D from './data'
 import * as P from './parts'
 import { S } from './parts'
+import { openEscalation } from './EscalationAdvice'
+import { BodyTabs, Section } from './Sections'
+
+// The radiation replay lives in the Five hazards tab, loaded only when that tab is first drawn.
+const Radiation = lazy(() => import('../screens/Radiation').then((m) => ({ default: m.Radiation })))
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export function BodyMapView({ v }: { v: any }) {
@@ -62,15 +67,24 @@ export function BodyMapView({ v }: { v: any }) {
                 <button type="button" onClick={v.openFlag} style={S({ whiteSpace: 'nowrap', minHeight: '46px', padding: '0 18px', borderRadius: '999px', background: 'var(--ink)', color: 'var(--paper)', border: '0', fontSize: '14.5px', fontWeight: '600', cursor: 'pointer' })}>
                   {v.openFlagLabel}
                 </button>
-                <a href="Escalation.dc.html" style={S({ whiteSpace: 'nowrap', display: 'inline-flex', alignItems: 'center', minHeight: '46px', padding: '0 18px', borderRadius: '999px', border: '1px solid var(--watch-ink)', color: 'var(--watch-ink)', textDecoration: 'none', fontSize: '14.5px', fontWeight: '600' })}>
-                  Escalation ladder
+                <a href="#" onClick={(e) => { e.preventDefault(); openEscalation() }} style={S({ whiteSpace: 'nowrap', display: 'inline-flex', alignItems: 'center', minHeight: '46px', padding: '0 18px', borderRadius: '999px', border: '1px solid var(--watch-ink)', color: 'var(--watch-ink)', textDecoration: 'none', fontSize: '14.5px', fontWeight: '600' })}>
+                  Who to tell
                 </a>
               </div>
             </section>
             </>
           ) : null}
-          <PatternsPanel />
-          <HazardsPanel />
+          <BodyTabs />
+          <Section page="body" id="patterns">
+            <PatternsPanel />
+          </Section>
+          <Section page="body" id="hazards">
+            <HazardsPanel />
+            <Suspense fallback={null}>
+              <Radiation embedded />
+            </Suspense>
+          </Section>
+          <Section page="body" id="tour">
           <section data-reveal="1" aria-labelledby="tour-heading" style={S({ position: 'relative' })}>
             <div style={S({ display: 'flex', flexWrap: 'wrap', alignItems: 'flex-end', justifyContent: 'space-between', gap: '12px 24px', margin: '18px 0 20px' })}>
               <div>
@@ -412,7 +426,7 @@ export function BodyMapView({ v }: { v: any }) {
                       <button type="button" onClick={ch.open} style={S({ display: 'inline-flex', alignItems: 'center', gap: '8px', minHeight: '48px', padding: '0 20px', borderRadius: '14px', background: 'var(--ink)', color: 'var(--paper)', border: '0', boxShadow: '0 4px 0 #000', fontSize: '14.5px', fontWeight: '650', cursor: 'pointer', whiteSpace: 'nowrap' })} className="bodymapview-active-4">
                         See the charts
                       </button>
-                      <a href={ch.href2} style={S({ display: 'inline-flex', alignItems: 'center', minHeight: '48px', padding: '0 18px', borderRadius: '14px', border: '2px solid var(--rule-strong)', color: 'var(--ink)', textDecoration: 'none', fontSize: '14.5px', fontWeight: '650', whiteSpace: 'nowrap' })} className="bodymapview-hover-5">
+                      <a href={ch.href2} onClick={(e) => { if (ch.href2 === '#who') { e.preventDefault(); openEscalation() } }} style={S({ display: 'inline-flex', alignItems: 'center', minHeight: '48px', padding: '0 18px', borderRadius: '14px', border: '2px solid var(--rule-strong)', color: 'var(--ink)', textDecoration: 'none', fontSize: '14.5px', fontWeight: '650', whiteSpace: 'nowrap' })} className="bodymapview-hover-5">
                         {ch.cta2}
                       </a>
                     </div>
@@ -422,6 +436,8 @@ export function BodyMapView({ v }: { v: any }) {
               </div>
             </div>
           </section>
+          </Section>
+          <Section page="body" id="readings">
           <section data-reveal="1" aria-labelledby="region-heading" style={S({ marginTop: '12px', display: 'flex', flexDirection: 'column', gap: '18px' })}>
             <div style={S({ display: 'flex', flexWrap: 'wrap', alignItems: 'flex-end', justifyContent: 'space-between', gap: '16px' })}>
               <div>
@@ -683,6 +699,7 @@ export function BodyMapView({ v }: { v: any }) {
                 ))}
             </div>
           </section>
+          </Section>
         </main>
         <P.SiteFooter dock={true} />
         <P.CrewDock current="Body map" />

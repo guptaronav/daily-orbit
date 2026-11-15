@@ -1,9 +1,10 @@
-import { useEffect, useReducer, useState, type FormEvent } from 'react'
+import { useEffect, useState, type FormEvent } from 'react'
 import { blockState, doneToday, dueItems, isBlockDone, planFor, ROLE_DUTIES, toMinutes, type Block, type BlockState, type CustomBlock } from '../lib/schedule'
 import * as D from './data'
 import { ReminderSetting } from './Reminder'
 import { bridge } from './store'
 import { getSnapshot } from './store'
+import { useStoreTick } from './shared'
 
 /*
  * The mission schedule: the shared crew day, this person's role duties (nobody else sees them),
@@ -40,8 +41,7 @@ const go = (screen?: string) => screen && bridge.go?.(screen as never)
 const inMinutes = (m: number) => (m < 60 ? `${m} min` : `${Math.floor(m / 60)} h ${m % 60 ? `${m % 60} min` : ''}`.trim())
 
 export function SchedulePage() {
-  const [, bump] = useReducer((n: number) => n + 1, 0)
-  useEffect(() => D.onState(bump), [])
+  useStoreTick()
   // The clock: re-render every 30 s so "now" moves.
   const [now, setNow] = useState(() => new Date())
   useEffect(() => {

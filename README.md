@@ -2,201 +2,195 @@
 
 **A minute a day keeps the crew flying.**
 
-Daily Orbit is a health monitoring app for astronauts on long missions. A one-minute "mirror check" uses the laptop camera to read pulse and blinking, then runs two quick vision tests and asks how you feel. Every reading is compared with **your own baseline**, never a population average. When it cannot get a clean reading, it says so instead of guessing. The body map shows what changed and what to do about it, and an escalation ladder tells you when to involve a crewmate, the crew medical officer or the flight surgeon.
+### ▶ [Open the live app](https://guptaronav.github.io/daily-orbit/)
 
-It runs entirely in the browser with no network calls at runtime, installs as an app, and keeps working fully offline after the first visit, camera check included. Camera frames never leave the device.
+Nothing to install. It runs in the browser, works offline after the first visit, and keeps all data on your device.
 
-> **Prototype. Not a medical device.** Colors are statistical comparisons with a person's own history, not clinical thresholds.
+<!-- Screenshot goes here: ![Daily Orbit](docs/screenshot.png) -->
 
-Built for the **2026 NASA Space Apps Challenge**, [*Create Health Monitoring Software for Astronauts on Space Missions*](https://www.spaceappschallenge.org/2026/challenges/health-monitoring-software/).
+Daily Orbit is a one-minute daily health check for astronauts on long missions. Built for the **2026 NASA Space Apps Challenge**: [*Create Health Monitoring Software for Astronauts on Space Missions*](https://www.spaceappschallenge.org/2026/challenges/health-monitoring-software/).
 
----
+> **Prototype, not a medical device.** Colors compare a person with their own history, not with clinical thresholds.
 
-## Challenge requirements, mapped to the app
+## How it works
 
-Every requirement and suggestion in the challenge brief, where Daily Orbit answers it, and how to see it. The fastest way through all of it is the **60-second guided tour**: the yellow button on the landing page, or open the app with `?tour=1`.
+1. **Mirror check (about a minute).** The webcam reads pulse and blinking, two quick vision tests check each eye, and a few taps record sleep, mood and symptoms. If the light or framing is bad, it asks for a retake instead of guessing.
+2. **Compared with your own normal.** Every reading is checked against that person's own baseline, never a population average: green, yellow (Watch), red (Act), or gray (not enough good data).
+3. **What to do next.** Today shows one next step and anything that needs attention. Related readings that drift together raise a pattern with a care plan.
+4. **Who to tell.** Ask Orbit "What should I do?" and it walks a four-step ladder: self-care, crewmate, crew medical officer, flight surgeon. If the medical officer is the one who is sick, a backup takes over. You choose what gets sent to Earth.
 
-| The brief asks for | Where in Daily Orbit | How to see it |
-|---|---|---|
-| Gather health indicators by keyboard, mouse or camera | **23 indicators**: camera (heart rate, blink rate, eyelid closure), on-screen vision tests (Amsler grid, near acuity), a one-minute reaction-time test, sliders (sleep, mood, stress, gut), manual entry (blood pressure, temperature, blood sugar, body mass, exercise), food and water | Mirror check; Log |
-| Indicators named in the brief: blood pressure, heart rate, blood sugar, body temperature, sleep hours, mood | All six, plus 17 more | Log; Mirror check |
-| Help astronauts evaluate their own health | Each reading is compared with that person's own baseline and a fixed reference from their first two weeks; steady slides are caught; related readings combine into patterns; ratings that disagree with measurements are pointed out | Body (body map) |
-| Guidance on treatments and health improvements | Every indicator answers the brief's five questions plus a recommended action, from NASA sources; each pattern has a care plan (do now, prevent, re-check, when to escalate) | Body map: indicator FAQ, Patterns, Care plan |
-| Which measurements can be performed in space? Why is an exam needed? How do hazards affect them? When does a result need the crew or flight surgeons? What prevents a critical condition? | Answered for all 23 indicators, from the 73 pages (54 NASA, 19 NIH, MedlinePlus and Canadian Space Agency) listed in [`src/content/sources.json`](src/content/sources.json) | Body map: each indicator's FAQ; Ask Orbit |
-| NASA HRP resources and the five hazards | Each indicator names its HRP risk; a five-hazards panel colors each hazard by the readings it affects, with the career radiation budget and cabin air | Body map: The five hazards |
-| A visual tool; a clickable human figure showing function and health status | Body map with an X-ray tour; each region says what it does in the body and why spaceflight matters for it | Body map |
-| Animations and interactivity | Animated body tour, mission banners with discoveries, drifting crew, live schedule | Body map; Rewards |
-| Different environments (spacecraft, station, rover, base on another planet or moon) | ISS, lunar surface, Mars transit and a Mars surface base, each with its comm delay and NASA notes on gravity, radiation, distance and day length | Top bar: mission menu |
-| Prompt measurements as part of the mission routine | Role-based mission schedule with self-ticking health blocks and "due now" prompts | Schedule |
-| Gamification | Coins for effort, never for values; streaks, levels, mission pass, locker, mission banners with NASA-fact discoveries | Rewards |
-| Dynamic charts over time | Trend charts per indicator, 7-day water chart, cabin CO2 chart | Body map; Log |
-| Color coding at a glance | Green, yellow, red, gray, always with a status word | Everywhere |
-| Simple instructions and explanations | Step-by-step checks, plain-language FAQ, Ask Orbit for questions | Ask Orbit (button on every page) |
-| When a result warrants attention from the crew or flight surgeons | Escalation ladder (self-care, crewmate, crew medical officer, flight surgeon) with a ground packet; alerts stay open until the medical officer acknowledges them and only close with a note | Escalate; Crew |
+## What's in it
 
-## Proof, not just claims
-
-- **Tested on real NASA data.** The flagging rules were replayed day by day on a real NASA head-down-tilt bed-rest participant (12 baseline days, then 18 days of tilt). Both the old and current rules first flag the participant's real weight loss on tilt day 3. The current rule keeps it at Act on **12 of 18** tilt days, against 3 for the old rule, with the same false-alarm count in the baseline (6 of 42 indicator-days, 2 at Act). One participant on a ground analog: a sanity check, not a clinical validation. The numbers are in [`src/content/validation.json`](src/content/validation.json), and a test fails if they drift from the code. See the Metrics page.
-- **Sourced, or labeled.** Every health statement cites a NASA (or NIH) page. Anything simulated (crews 1 and 2, cabin CO2, earlier-mission radiation dose) says so on screen, and every assumption is logged in [NOTES.md](NOTES.md).
-- **No language model writes medical text.** Ask Orbit retrieves sourced passages and shows their links; warning signs (chest pain, trouble breathing, fainting, sudden vision loss and others) go straight to escalation.
-
-## What's in the app
-
-| Screen | What it does |
+| Page | What it does |
 |---|---|
-| **Landing** | What the app is, a tour of the main features, the FAQ, setup, and the 60-second guided tour |
-| **Today** (home once set up) | What to do today: readiness (Ready / Check first / Not today) with its reasons, a living body figure whose heart beats at the measured heart rate, the next block on the schedule, **today's goals** (the one list every coin, streak and level comes from), level and crew progress, and a short "needs a look" list that links to where each thing is handled |
-| **Mirror check** | About a minute of camera for pulse (remote photoplethysmography) and blinking, then an Amsler grid per eye, a near-vision test, and a symptom and gut check-in. It refuses a reading when light, framing or motion is bad and offers a retake |
-| **Body map** (header: Body) | Six body regions colored by their worst indicator. A zoomable X-ray tour, trend charts, and each indicator's five questions and recommended action |
-| **Five hazards** (on the body map) | NASA's five hazards of spaceflight, each colored by the readings its sourced text links to, with what it means on the current mission. The closed-environment tile shows simulated cabin CO₂ against NASA's limit |
-| **Patterns and care plans** (on the body map) | Related readings moving the wrong way together (fatigue, infection, vision change and more), each with a care plan: do now, prevent, re-check tomorrow (one tap adds it to the schedule), and when to move up the escalation ladder |
-| **Log** | Manual entry for blood pressure, temperature, blood sugar, sleep, exercise and body mass, a one-minute **alertness (reaction-time) check**, plus **Food and water**: a drink pouch that fills toward a goal set from NASA's fluid requirement, meal tiles, a 7-day chart and NASA nutrition tips |
-| **Schedule** (in the header) | The shared crew day (morning and evening conferences with the ground, two hours of exercise, an 8.5-hour sleep period), duties only the crew member's role carries (commander, flight engineer, mission specialist), and blocks the astronaut adds. Health blocks tick themselves when the real thing is done |
-| **Ask Orbit** (in the bottom dock) | A chat window for questions about symptoms and readings. It answers from the app's NASA-sourced content with links, shows the person's own related readings and patterns, and routes warning signs straight to escalation. Works offline; it does not diagnose |
-| **Weekly report** (page icon next to the mission button) | One printable page for the flight surgeon: every reading against the person's usual with its 7-day range, patterns, alerts with the medical officer's notes, routine, radiation and water. Print or save as PDF |
-| **Escalate** | Four rungs: self-care, crewmate, crew medical officer, flight surgeon. It builds a compact change summary for the ground (downloadable JSON). The **ground link** shows each packet travelling for the real one-way delay, when the earliest reply could come back, and what Earth actually knows right now |
-| **Crew (Medical view)** | Everyone at once, people needing attention first, and the alert loop: a red reading or a pattern opens an alert that is announced on every page until the crew medical officer acknowledges it, and only clears with a note |
-| **Rewards** | Streaks, levels, a mission pass, a daily supply drop, badges, and a locker of cosmetic gear including illustrated mission banners (Earthrise, Pale blue dot, Jezero dusk, Deep transit) with hidden NASA-fact discoveries |
-| **Metrics** | Proof and models: the flagging rules tested on real NASA bed-rest data, then two numbers we cannot measure yet, modeled openly with editable inputs |
-| **Radiation** | Replays a real historical solar particle event from NASA DONKI with measured dose rates, on a simulated vehicle |
-| **Sources** | The NASA datasets and pages we use, what each one drives, indicator coverage, equipment, and what we could not use |
+| **Today** | Your next step, readiness, today's goals and what needs attention |
+| **Check in** | The one-minute mirror check |
+| **Log** | Readings (blood pressure, temperature, blood sugar, sleep, exercise, body mass), food and water, the alertness test, and body checks (pain map, stand-up test, weekly workload and mood, grip strength) |
+| **Body** | A clickable body map of six regions, patterns with care plans, and NASA's five hazards, including the radiation budget and a replay of a real solar storm |
+| **Crew** | Everyone at once, the alert loop for the crew medical officer, who to tell, and what is sent to Earth (with the real message delay) |
+| **Rewards** | Streaks, levels, mission pass and locker. Coins pay for showing up, never for a health value, so nobody has a reason to hide a bad day |
+| **More** | Mission schedule, metrics, sources. The page icon in the header opens the weekly report for the flight surgeon |
 
-**Guided tour:** the yellow "Take the 60-second tour" button on the landing page (or `?tour=1`) walks through eleven stops and fires live scenarios along the way.
+**28 indicators**, including all six the brief names (blood pressure, heart rate, blood sugar, body temperature, sleep hours, mood). Missions: ISS, the Moon, Mars transit and Mars surface, each with its real message delay.
 
-**Demo controls:** press **Shift+D** anywhere (or use the link on the landing page) to inject a scripted story into the selected crew member's data, then reset. Stories include a run of worse sleep, a fever with symptoms, a cabin CO2 build-up, and "says fine, measures tired" (a self-report gap).
+**Tested on real NASA data.** We replayed one participant from a NASA bed-rest study day by day. The current rules hold their real weight loss at Act on **12 of 18** days (the old rules: 3), with no extra false alarms. One person on a ground analog: a sanity check, not clinical validation. See the Metrics page.
 
-## Where everything lives
+**Try it fast:** take the 60-second tour from the landing page, or press **Shift+D** for demo stories (a fever, poor sleep, a CO2 build-up).
 
-Each thing has one home, so nothing is repeated across pages:
+## NASA data in the app
 
-| Page | What it is for |
+| Dataset | Where and how it is used |
 |---|---|
-| **Today** | What to do today: readiness, the next block, today's goals, progress, and what needs a look |
-| **Body** | How your body is: overall status, patterns with care plans, the five hazards (with radiation budget and cabin air), the X-ray tour and every reading |
-| **Schedule** | The whole day, role duties and your own blocks |
-| **Log** | Everything you type in: readings, food and water, the alertness check |
-| **Escalate** | Who to tell, the ground packet and the ground link |
-| **Crew** | Everyone at once and the alert loop, for the crew medical officer |
-| **Rewards** | Everything you have earned: streak, level, mission pass, badges, locker, and how coins are earned |
+| [NASA bed-rest case report forms](https://doi.org/10.83263/wjw1-ta27) (Life Sciences Data Archive) | Crew 3's 30-day history on Body, and the real-data test on Metrics |
+| [NASA DONKI solar particle events](https://ccmc.gsfc.nasa.gov/DONKI-API/get/SEP) | Body, Five hazards: the storms you can replay and when the shelter alert fires |
+| [LRO CRaTER dose rates](https://iswa.gsfc.nasa.gov/IswaSystemWebApp/hapi/info?id=CRaTER) (NASA iSWA) | The hour-by-hour dose in the solar storm replay |
+| [GOES proton flux](https://iswa.gsfc.nasa.gov/IswaSystemWebApp/hapi/info?id=goesp_part_flux_P5M) (NASA iSWA) | Storm strength shown in the replay (context only, not used in the dose) |
 
-The top bar always shows the weekly-report icon (a gold dot once a week is complete), the mission, streak and coins; alerts appear under it on every page except Crew, where the full alert list is. The bottom dock switches crew members, shows your next goal and next schedule block, and opens Ask Orbit.
+All data is bundled when the app is built; the app makes no network calls while you use it. Crews 1 and 2 are simulated, and every screen says so.
 
-**One goal list connects the game.** Today's goals (mirror check, exercise, water, a meal, plus bonus goals for the alertness check and reporting a symptom) are defined once. Today, the bottom dock and Rewards' "How coins are earned" all read that list, and every action that earns coins, anywhere, shows the same toast: what it was and how today's goals stand.
+## Sources
 
-## How a reading becomes a color
+Every health explanation in the app cites one of these **83 sources: 59 NASA pages**, plus 24 from NIH, MedlinePlus, PubMed, the Canadian Space Agency and the University of Washington. Click a group to open it. The same list is in the app under More, Sources, and in [`src/content/sources.json`](src/content/sources.json).
 
-- **Baseline:** the mean and spread of that person's earlier quality-passed readings, needing at least 5. The latest reading is left out of its own baseline.
-- **Green** within 1 SD, **yellow** 1 to 2 SD, **red** beyond 2 SD. This is a statistical flag, not a diagnosis.
-- **Gray** means not enough good data. A reading that failed its quality check is **never** colored.
-- **Fixed reference:** each indicator also keeps a frozen reference from its first two weeks, the way NASA compares in-flight results with a pre-flight reference, so a slow decline cannot drag its own baseline down. The worse of the two comparisons wins.
-- **Steady slides:** a consistent trend over the last week turns a still-normal reading into Watch.
-- **Patterns:** related readings moving the wrong way together (for example less sleep and worse sleep quality, or a raised temperature with symptoms) raise a pattern flag tied to its NASA risk and the escalation rung to go to.
-- A region takes the worst status among its indicators that have good data.
-- Food and water count only finished days, so a half-finished morning is never flagged as "low".
+<details>
+<summary><b>NASA Human Research Program: risks and hazards</b> (25)</summary>
 
-## Gamification, and why it can't be gamed
-
-- **Earned coins** come only from doing healthy things: a check-in, logging exercise or a reading, reporting a symptom early, retaking a bad reading. They drive XP, levels and the crew goal.
-- **A bad day pays the same as a good one.** Coins never depend on health values, so there is no reason to hide a bad reading.
-- Each kind of credit counts **once per day**. Hand-ticking a schedule block pays nothing; only the linked action does.
-- **Bonus coins** (mission-pass tiers, the setup welcome, finishing a banner's discoveries) are one-off, can only buy cosmetic gear, and never add XP.
-- **A daily coin cap** of 60 from everyday activity, so nothing can be farmed; logging still counts for your health after the cap.
-- **Streak shields** are real: one for every 7 days in a row (hold up to two), spent automatically on a missed day ("Your shield saved a 12-day streak").
-- **Every level unlocks something:** a title under your name, a dock skin or a piece of gear, with a level-up screen when it happens.
-- **Ship systems do something:** each one the crew brings online changes the app (cabin air chart, a scanning sweep on the body viewer, a starfield on Today, and more).
-- **Weekly:** three rotating mission-pass tasks of your own, and two shared crew quests that show who has done their part, with no ranking.
-- **The locker:** rarity tiers (common, rare, epic, legendary), two featured items a day, and collection sets (like the Mars kit) that unlock a matching ring.
-- **Proof card:** download your 30-day grid and streak as an image. **Gentle reminder:** a quiet note at a time you choose if today's check isn't done. Never a guilt message.
-- **Retakes:** a reading that fails quality offers a retake for +5, because gray is not a failure.
-
-The reasoning, with its NASA basis, is in [docs/GAMIFICATION.md](docs/GAMIFICATION.md).
-
-## NASA data and sources
-
-| Source | Used for |
+| Source | Where and how it is used |
 |---|---|
-| [NASA Human Research Program risks](https://www.nasa.gov/hrp/risks) | The named HRP risk on every indicator |
-| [Spaceflight Standard Measures](https://www.nasa.gov/reference/standard-measures/) | Tagging each indicator with the NASA measurement category it relates to |
-| NASA Life Sciences Data Archive **bed-rest case report forms** (doi:10.83263/wjw1-ta27) | Crew 3's real, de-identified history: one participant, 30 days of pulse, blood pressure, weight, temperature, bowel movements, stretching and symptoms from a ground head-down-tilt bed-rest analog (not in-flight data) |
-| [NASA DONKI](https://ccmc.gsfc.nasa.gov/DONKI-API/) solar energetic particle events | The radiation replay (494 events, 2010 to 2026) |
-| LRO CRaTER dose rates and GOES proton flux via NASA CCMC iSWA | Measured lunar-orbit dose rates and proton flux for the replay. The dose on the simulated vehicle is a labeled simulation, not dosimetry |
-| NASA OCHMO technical briefs, NASA nutrition requirements (JSC-67378), ISS and HRP pages | The indicator explanations, fluid goal, crew-day schedule and nutrition tips (54 NASA pages, plus 19 from NIH, MedlinePlus and the Canadian Space Agency, in [`src/content/sources.json`](src/content/sources.json)) |
+| [NASA Human Research Program - Risks](https://www.nasa.gov/hrp/risks) | Every indicator: names its NASA risk |
+| [NASA Spaceflight Standard Measures](https://www.nasa.gov/reference/standard-measures/) | Every indicator: the measurement category it relates to, and the categories we do not cover |
+| [NASA-STD-3001 Technical Brief: Radiation Protection (OCHMO-TB-020)](https://www.nasa.gov/wp-content/uploads/2023/12/ochmo-tb-020-radiation-protection.pdf) | Radiation dose: the 600 mSv career limit and the surface-habitat design ceiling |
+| [NASA HRP - Five Hazards of Human Spaceflight](https://www.nasa.gov/hrp/hazards/) | Body, Five hazards: the hazard framing |
+| [NASA HRP: Five Hazards of Human Spaceflight](https://www.nasa.gov/hrp/hazards) | Body, Five hazards: background |
+| [Gravity Fields hazard (NASA HRP)](https://www.nasa.gov/hrp/hazard-gravity-fields/) | Five hazards: bone loss, fluid shift |
+| [Hostile/Closed Environments hazard (NASA HRP)](https://www.nasa.gov/hrp/hazard-hostile-closed-environments/) | Five hazards: microbes, immune changes |
+| [Distance from Earth hazard (NASA HRP)](https://www.nasa.gov/hrp/hazard-distance-from-earth/) | Five hazards: resupply, comm delay |
+| [Isolation and Confinement hazard (NASA HRP)](https://www.nasa.gov/hrp/hazard-isolation-and-confinement/) | Five hazards: sleep and workload context |
+| [Space Radiation hazard (NASA HRP)](https://www.nasa.gov/hrp/hazard-space-radiation/) | Five hazards: radiation tile |
+| [Risk of Cardiovascular Adaptations](https://www.nasa.gov/reference/risk-of-cardiovascular-adaptations/) | Heart rate, blood pressure: why check, when to escalate |
+| [Risk of Altered Immune System Responses](https://www.nasa.gov/reference/risk-of-altered-immune-system-responses/) | Temperature, symptoms: infection risk |
+| [Risk of Host-Microorganism Interactions](https://www.nasa.gov/reference/risk-of-host-microorganism-interactions/) | Temperature, gut: prevention |
+| [Risk of Adverse Health Outcomes and Decrements in Performance due to Inflight Medical Conditions](https://www.nasa.gov/directorates/esdmd/hhp/risk-of-adverse-health-outcomes-and-decrements-in-performance-due-to-inflight-medical-conditions) | Symptom report: why check, when to escalate |
+| [Risk of Altered Sensorimotor and Vestibular Function](https://www.nasa.gov/reference/risk-of-altered-sensorimotor-and-vestibular-function/) | Symptom report: motion sickness |
+| [Risk of Behavioral Changes and Psychiatric Disorders](https://www.nasa.gov/reference/risk-of-behavioral-conditions-and-psychiatric-disorders/) | Symptom report: low mood, isolation |
+| [Risk of Inadequate Sleep and Irregular Schedules](https://www.nasa.gov/reference/risk-from-inadequate-sleep-and-irregular-schedules/) | Sleep and symptoms: lighting, schedules |
+| [Risk of Hypoxia](https://www.nasa.gov/reference/risk-of-hypoxia/) | Symptom report: warning signs to escalate |
+| [Risk of Spaceflight Associated Neuro-ocular Syndrome (SANS)](https://www.nasa.gov/reference/risk-of-spaceflight-associated-neuro-ocular-syndrome-sans/) | Eyes: background on fluid shift and vision |
+| [Risk of Radiation-Induced Cancers](https://www.nasa.gov/reference/risk-of-radiation-induced-cancers/) | Radiation dose: every answer |
+| [Risk of Inadequate Food and Nutrition (NASA)](https://www.nasa.gov/reference/risk-of-inadequate-food-and-nutrition/) | Food and water, body mass, appetite |
+| [Risk of Spaceflight-Induced Bone Changes (NASA)](https://www.nasa.gov/reference/risk-of-spaceflight-induced-bone-changes/) | Exercise, skeleton: bone loss |
+| [Risk of Reduced Cardiorespiratory and Musculoskeletal Fitness (NASA)](https://www.nasa.gov/reference/risk-of-reduced-cardiorespiratory-and-musculoskeletal-fitness/) | Exercise, grip strength: fitness loss |
+| [Risk of Reduced Physical Performance Capabilities Due to Reduced Muscle Size, Strength, and Endurance (NASA)](https://www.nasa.gov/directorates/esdmd/hhp/muscle-risk/) | Grip strength, pain map: muscle loss |
+| [Evidence Report: Risk of Cardiovascular Adaptations (NASA HRP, 2022)](https://humanresearchroadmap.nasa.gov/evidence/reports/Cardio%20Risk%20EB%202022%20FINAL_4-3-2023.pdf) | Stand-up test: dizziness after landing |
+| [HRR: Concern of Intervertebral Disc Damage upon and immediately after re-exposure to Gravity](https://humanresearchroadmap.nasa.gov/risks/?i=78) | Pain map: back pain in space |
+| [HRR: Risk of Adverse Health Outcomes Due to Medical Conditions that occur in Mission](https://humanresearchroadmap.nasa.gov/risks/risk.aspx?i=95) | Pain map: its NASA risk |
 
-All NASA data is fetched at build time into `src/data/*.json`. The app makes **no network calls at runtime**. Crews 1 and 2 use simulated data, and every screen labels it that way. Coverage per indicator, and the Standard Measures categories we do not cover, are in [docs/DATA_COVERAGE.md](docs/DATA_COVERAGE.md).
+</details>
 
-## Privacy and offline
+<details>
+<summary><b>NASA standards and technical briefs</b> (12)</summary>
 
-- Camera frames are processed in the browser and discarded. Nothing is recorded or uploaded.
-- The face model and its WASM runtime are bundled (`public/models`, `public/wasm`), so the camera check works with no internet.
-- Data lives in the browser's IndexedDB, on the device.
-- **Installable and offline.** A service worker precaches the whole app, the bundled NASA data, the face model and its WASM runtime (about 19 MB), so the app, camera check included, works with no network after the first visit. Verified in Chrome by stopping the server and reloading. Each session opens with a short systems check that reports what is actually available (database, NASA content and data, face model, camera, offline mode).
+| Source | Where and how it is used |
+|---|---|
+| [NASA-STD-3001 Technical Brief: Sleep Accommodations (OCHMO)](https://www.nasa.gov/wp-content/uploads/2023/03/sleep-accomodations-technical-brief-ochmo.pdf) | Sleep hours and quality: every answer |
+| [NASA-STD-3001 Technical Brief: Behavioral Health and Performance (OCHMO-TB-016 Rev B)](https://www.nasa.gov/wp-content/uploads/2023/12/ochmo-tb-016-behavioral-health.pdf) | Mood and stress: every answer |
+| [NASA Medical Technical Brief: Spaceflight Associated Neuro-ocular Syndrome (SANS) (OCHMO-MTB-001, 02/21/2024)](https://www.nasa.gov/wp-content/uploads/2024/02/ochmo-mtb-001-sans.pdf) | Mirror check: Amsler grid and near-vision tests |
+| [NASA-STD-3001 Technical Brief: Food and Nutrition (OCHMO-TB-013)](https://www.nasa.gov/wp-content/uploads/2023/12/ochmo-tb-013-food-and-nutrition.pdf) | Food and water: meals, under-eating |
+| [NASA-STD-3001 Medical Technical Brief: Space Adaptation Sickness (OCHMO-MTB-004)](https://www.nasa.gov/wp-content/uploads/2025/09/ochmo-mtb-004-space-adaptation-sickness-sas.pdf) | Appetite, gut, blood sugar, water |
+| [OCHMO-TB-004 Carbon Dioxide (CO2) Technical Brief, Rev D](https://www.nasa.gov/wp-content/uploads/2023/12/ochmo-tb-004-carbon-dioxide.pdf) | Five hazards: cabin CO2 chart and limit |
+| [OCHMO-TB-035 Acoustics Technical Brief, Rev C](https://www.nasa.gov/wp-content/uploads/2023/12/ochmo-tb-035-acoustics.pdf) | Five hazards: cabin noise |
+| [Nutritional Requirements for Exploration Missions up to 365 days (JSC-67378 Rev 1)](https://ntrs.nasa.gov/api/citations/20205008306/downloads/JSC67378%20Expl%20Nutr%20Reqs%20042020.pdf) | Food and water: the daily fluid goal |
+| [6.0 Medical Operations (NASA-STD-3001 reference)](https://www.nasa.gov/reference/6-0-medical-operations/) | Schedule: 8.5 h sleep, private medical conferences |
+| [5.0 Training (NASA-STD-3001 reference)](https://www.nasa.gov/reference/5-0-training/) | Crew: the crew medical officer role |
+| [NASA Task Load Index (NASA-TLX), NASA Ames Human Systems Integration](https://humansystems.arc.nasa.gov/groups/TLX/) | Body checks: weekly workload (NASA-TLX) |
+| [Fatigue Countermeasures Laboratory (NASA Ames)](https://www.nasa.gov/human-systems-integration-division/human-performance/fatigue-countermeasures-laboratory/) | Blink rate: fatigue tracking in space |
 
-## Getting started
+</details>
 
-Requires **Node 24 or newer**.
+<details>
+<summary><b>NASA station, mission and science pages</b> (20)</summary>
+
+| Source | Where and how it is used |
+|---|---|
+| [Human Research on Station Helping Keep Long-Term Crews Healthy (NASA Space Station blog)](https://www.nasa.gov/blogs/spacestation/2025/07/17/human-research-on-station-helping-keep-long-term-crews-healthy/) | Blood pressure: crews measure their own |
+| [Astronaut Exercise (NASA, 2024)](https://www.nasa.gov/missions/station/iss-research/astronaut-exercise/) | Exercise: two hours a day on ARED, T2, CEVIS |
+| [Muscle and Exercise Studies to Maintain Crew Health in Space (ISS blog, 2025)](https://www.nasa.gov/blogs/spacestation/2025/07/16/muscle-and-exercise-studies-to-maintain-crew-health-in-space/) | Exercise, grip strength: plans adjusted from data |
+| [Nutritional Biochemistry (NASA JSC)](https://www.nasa.gov/directorates/esdmd/hhp/nutritional-biochemistry/) | Food and water: weekly review, vitamin D |
+| [Space Food Systems (NASA JSC)](https://www.nasa.gov/centers-and-facilities/johnson/space-food-systems/) | Food and water: personal food choices |
+| [NASA Achieves Water Recovery Milestone on International Space Station](https://www.nasa.gov/missions/station/iss-research/nasa-achieves-water-recovery-milestone-on-international-space-station/) | Food and water: water recycling on the ISS |
+| [NASA's Twins Study Results Published in Science Journal](https://www.nasa.gov/humans-in-space/nasas-twins-study-results-published-in-science-journal/) | Body mass, gut, meals: Twins Study findings |
+| [Advanced Science in Full Gear Today as Cosmonauts Relax (ISS blog, 2020)](https://www.nasa.gov/blogs/spacestation/2020/11/23/advanced-science-in-full-gear-today-as-cosmonauts-relax/) | Body mass: how it is weighed in orbit |
+| [NASA Facts: Living and Working in Space](https://www.nasa.gov/wp-content/uploads/2015/05/167746main_fs_livingandworkinginspace508c.pdf) | Schedule: the shape of a crew day |
+| [A Day in Space (NASA Curious Universe podcast)](https://www.nasa.gov/podcasts/curious-universe/a-day-in-space/) | Schedule: ground calls through the day |
+| [Expedition 74 (NASA)](https://www.nasa.gov/mission/expedition-74/) | Schedule: commander and flight engineer roles |
+| [Space Radiation Won't Stop NASA's Human Exploration](https://www.nasa.gov/missions/station/space-radiation-wont-stop-nasas-human-exploration/) | Radiation: dosimeters and sheltering |
+| [To Protect Artemis II Astronauts, NASA Experts Keep Eyes on Sun (NASA Science)](https://science.nasa.gov/missions/artemis/artemis-2/to-protect-artemis-ii-astronauts-nasa-experts-keep-eyes-on-sun/) | Radiation: storm warnings and shelter |
+| [LSAH Newsletter 2023 Vol 28 Issue 2 (NASA Space Radiation Health Standard article)](https://www.nasa.gov/wp-content/uploads/2023/10/lsah-newsletter-2023-vol28-issue2.pdf) | Radiation: daily dose rate for each mission |
+| [NASA Science: Moon Facts](https://science.nasa.gov/moon/facts/) | Mission menu: Moon gravity and distance |
+| [NASA Science: Mars Facts](https://science.nasa.gov/mars/facts/) | Mission menu: Mars day and atmosphere |
+| [NASA Science: Radiation Measurements on Mars (Curiosity RAD)](https://science.nasa.gov/resource/radiation-measurements-on-mars/) | Mission menu: Mars surface radiation |
+| [JPL video: Living on Mars Time](https://www.jpl.nasa.gov/videos/living-on-mars-time/) | Mission menu: living on Mars time |
+| [Space Communications: 7 Things You Need to Know](https://www.nasa.gov/centers-and-facilities/goddard/space-communications-7-things-you-need-to-know/) | Mission menu, ground link: message delay |
+| [Commercial Crew Spacecraft Will Offer a Quick Escape from Station](https://www.nasa.gov/humans-in-space/commercial-crew-spacecraft-will-offer-a-quick-escape-from-station/) | Escalation: emergency return from the ISS |
+
+</details>
+
+<details>
+<summary><b>NIH, MedlinePlus, PubMed, Canadian Space Agency and University of Washington</b> (24)</summary>
+
+| Source | Where and how it is used |
+|---|---|
+| [CARDIOBREATH: Taking a deep dive into astronaut health (Canadian Space Agency)](https://asc-csa.gc.ca/eng/sciences/cardiobreath.asp) | Heart rate, blood pressure: what changes in space |
+| [Bio-Monitor (Canadian Space Agency)](https://www.asc-csa.gc.ca/eng/sciences/bio-monitor.asp) | Heart rate, blood pressure: measuring in space |
+| [Increased core body temperature in astronauts during long-duration space missions (Stahn et al., Sci Rep 2017, NIH PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC5701078) | Temperature: core temperature rises in space |
+| [PERCLOS-based technologies for detecting drowsiness: current evidence and future directions (Sleep Advances 2023; NIH PMC10108649)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10108649/) | Eyelid closure: drowsiness from the camera |
+| [Experimental evaluation of eye-blink parameters as a drowsiness measure (Eur J Appl Physiol; PubMed 12736840)](https://pubmed.ncbi.nlm.nih.gov/12736840/) | Eyelid closure: supporting study |
+| [Spontaneous eye blink rate: An index of dopaminergic component of sustained attention and fatigue (Int J Psychophysiol; PubMed 29133149)](https://pubmed.ncbi.nlm.nih.gov/29133149/) | Blink rate: blinking and fatigue |
+| [MedlinePlus: Brain Diseases](https://medlineplus.gov/braindiseases.html) | Body tour: what the head does |
+| [MedlinePlus: Healthy Sleep](https://medlineplus.gov/healthysleep.html) | Body tour: sleep and thinking |
+| [NEI (NIH): How the Eyes Work](https://www.nei.nih.gov/learn-about-eye-health/healthy-vision/how-eyes-work) | Body tour: what the eyes do |
+| [NHLBI (NIH): Heart](https://www.nhlbi.nih.gov/health/heart) | Body tour: what the heart does |
+| [MedlinePlus: Bone Diseases](https://medlineplus.gov/bonediseases.html) | Body tour: what the skeleton does |
+| [MedlinePlus: Muscle Disorders](https://medlineplus.gov/muscledisorders.html) | Body tour: muscles |
+| [MedlinePlus: Immune System and Disorders](https://medlineplus.gov/immunesystemanddisorders.html) | Body tour: the immune system |
+| [MedlinePlus Encyclopedia: Body temperature norms](https://medlineplus.gov/ency/article/001982.htm) | Body tour: normal body temperature |
+| [MedlinePlus: Digestive Diseases](https://medlineplus.gov/digestivediseases.html) | Body tour: what the gut does |
+| [NIDDK (NIH): Your Digestive System & How It Works](https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works) | Body tour, gut: digestion and water |
+| [Basner, Mollicone & Dinges 2011, Validity and sensitivity of a brief psychomotor vigilance test (PVT-B) to total and partial sleep deprivation, Acta Astronautica (NIH PMC3197786)](https://pmc.ncbi.nlm.nih.gov/articles/PMC3197786) | Alertness: how the reaction-time test works |
+| [Jones et al. 2022, Sleep deficiency in spaceflight... six-month missions aboard the ISS, Sleep (NIH PMC8919197)](https://pmc.ncbi.nlm.nih.gov/articles/PMC8919197) | Alertness: sleep loss slows reactions on the ISS |
+| [Nasrini et al. 2020, Cognitive Performance During Confinement and Sleep Restriction in NASA's HERA, Front Physiol (NIH PMC7198903)](https://pmc.ncbi.nlm.nih.gov/articles/PMC7198903) | Alertness: NASA Cognition test in analogs |
+| [Spinal Health during Unloading and Reloading Associated with Spaceflight (PMC5778142)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5778142/) | Pain map: how common back pain is |
+| [MedlinePlus Genetics: Orthostatic hypotension](https://medlineplus.gov/genetics/condition/orthostatic-hypotension/) | Stand-up test: when a drop needs care |
+| [Kroenke, Spitzer, Williams. The Patient Health Questionnaire-2: validity of a two-item depression screener. Med Care 2003](https://pubmed.ncbi.nlm.nih.gov/14583691/) | Body checks: mood questions (PHQ-2) |
+| [Kroenke et al. Anxiety disorders in primary care: prevalence, impairment, comorbidity, and detection. Ann Intern Med 2007](https://pubmed.ncbi.nlm.nih.gov/17339617/) | Body checks: anxiety questions (GAD-2) |
+| [Generalized Anxiety Disorder 2-item (GAD-2), University of Washington](https://www.hiv.uw.edu/page/mental-health-screening/gad-2) | Body checks: GAD-2 scoring |
+
+</details>
+
+## Privacy and limits
+
+- Camera frames are processed in the browser and thrown away. Nothing is recorded or uploaded.
+- Webcam heart rate is a prototype and has not been clinically validated. The vision tests are self-checks, not eye exams.
+- Every assumption and limitation is in [NOTES.md](NOTES.md).
+
+## Run it yourself
+
+You only need this to change the code. Requires Node 24 or newer.
 
 ```bash
 npm install
-```
-
-```bash
 npm run dev
 ```
 
-Open the printed localhost URL. Other commands:
+`npm test` runs the tests. `npm run build:pages` builds the GitHub Pages version.
 
-| Command | What it does |
+Built with React 19, TypeScript, Vite, Dexie (IndexedDB) and MediaPipe Face Landmarker. Much of the code was written with Claude Code, an AI coding assistant, from the team's direction. No NASA logos or branding are used.
+
+## Team: Our Apollo-gies
+
+| Name | Role |
 |---|---|
-| `npm test` | Runs the unit tests (Vitest) |
-| `npm run build` | Typechecks (`tsc -b`) and builds to `dist/` |
-| `npm run preview` | Serves the production build |
-| `npm run lint` | Lints with oxlint |
-| `node scripts/fetch-donki.ts` | Refreshes `src/data/donki-sep.json` from NASA DONKI and CCMC (optional `NASA_API_KEY`) |
-| `node scripts/import-bedrest.ts` | Rebuilds `src/data/bedrest.json` from the raw bed-rest files in `data-raw/` |
-
-Development-only URL shortcuts: `?screen=<name>` (for example `today`, `bodymap`, `manual`, `schedule`, `report`), `?boot=0` to skip the systems check, `?crew=guest` or `crew-1` to `crew-3`, and `?screen=mirror&step=vision` to test the mirror check without a webcam.
-
-## Tech stack
-
-React 19, TypeScript, Vite 8, Tailwind CSS 4, Dexie (IndexedDB), MediaPipe Face Landmarker, Recharts, vite-plugin-pwa (Workbox), Vitest.
-
-## Project structure
-
-```
-src/
-  proto/        The UI: each page's markup and logic, plus the data layer that reads the real database
-  screens/      Mirror check, radiation replay, sources
-  lib/          Pure, tested logic: baselines, status, scoring, streaks, daily plan, schedule,
-                ground packet, radiation, rPPG signal processing (lib/signal), vision tests
-  camera/       Webcam capture and face regions
-  content/      Indicator text (indicators.json), environments, sources.json
-  contract/     Shared types (indicators, measurements, events)
-  data/         NASA data bundled at build time (bed rest, DONKI)
-  db/           IndexedDB schema and repository
-scripts/        Build-time NASA data fetch and import
-docs/           Team tasks, data coverage, gamification rationale
-NOTES.md        Every assumption and limitation, as we made it
-```
-
-## Honest limitations
-
-- **Webcam heart rate is a prototype.** The signal code is tested on synthetic data. On one person's laptop, its best guesses landed within 3 bpm of trusted apps. It has not been clinically validated.
-- **Near-vision and Amsler tests are uncalibrated self-tests**, not eye exams.
-- Crews 1 and 2 are **simulated**. Crew 3 mixes real bed-rest data (a ground analog, not flight data) with clearly labeled simulated indicators.
-- No clinical thresholds: colors compare a person with their own past only.
-- The schedule's clock times are an example layout; the order and durations follow NASA's description of an ISS day.
-- The sample recording for people without a webcam has not been recorded yet.
-
-The full list is in [NOTES.md](NOTES.md).
-
-## AI use
-
-Much of the code in this repository was written with Claude Code, an AI coding assistant, working from the team's direction. No NASA logos or branding are used.
-
-## Team
-
-- **Ronav Gupta** (lead): webcam mirror check, heart rate and blink signal code, gamification scoring, demo control panel, database layer
-- **Arnav Jain**: UI and visual design, manual entry, escalation, medical view, metrics, rewards and mission banners, food and water, mission schedule
-- **Evode Manirahari**: NASA data and research, the radiation replay, the Sources screen, deployment
-
-Who builds what: [docs/TEAM_TASKS.md](docs/TEAM_TASKS.md).
+| **Ronav Gupta** | Team lead: webcam mirror check, heart-rate and blink signal code, scoring, data layer |
+| **Arnav Jain** | Design and front end: every screen, body checks, escalation, rewards and mission banners |
+| **Evode Manirahari** | NASA data and research: bed-rest import, radiation replay, Sources screen |
+| **Jingbo Xia** | Presentation and pitch |

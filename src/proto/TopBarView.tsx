@@ -3,11 +3,13 @@
 // GENERATED from the UI overhaul prototype by dc2jsx.py. Styles are the prototype's, verbatim.
 // Edit the view model that feeds this, not this markup, unless you are re-porting the prototype.
 import { Fragment } from 'react'
+import { LogoMark } from './Logo'
 import { FloatingCrew } from './FloatingCrew'
 import { BannerScene } from './MissionScene'
 import { AlertBanner } from './Alerts'
 import { AskOrbit } from './AskOrbit'
 import { ReminderBanner } from './Reminder'
+import { ReportButton } from './ReportButton'
 import * as P from './parts'
 import { S } from './parts'
 
@@ -21,14 +23,7 @@ export function TopBarView({ v }: { v: any }) {
         </a>
         <div style={S({ pointerEvents: 'auto', maxWidth: '1440px', margin: '0 auto', display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: '8px', padding: '6px', paddingLeft: '8px', borderRadius: '28px', background: 'color-mix(in srgb, var(--panel) 84%, transparent)', backdropFilter: 'blur(18px) saturate(1.4)', WebkitBackdropFilter: 'blur(18px) saturate(1.4)', border: '1px solid var(--rule)', boxShadow: '0 12px 34px -22px rgba(20,24,31,.45)' })}>
           <a href="Landing.dc.html" aria-label="Daily Orbit, home" style={S({ display: 'flex', alignItems: 'center', gap: '10px', minHeight: '44px', paddingRight: '8px', textDecoration: 'none', color: 'var(--ink)', whiteSpace: 'nowrap' })}>
-            <span aria-hidden="true" style={S({ position: 'relative', display: 'grid', placeItems: 'center', width: '36px', height: '36px', borderRadius: '999px', background: 'var(--ink)', color: 'var(--paper)' })}>
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round">
-                <ellipse cx="12" cy="12" rx="10" ry="4.2" transform="rotate(-24 12 12)">
-                </ellipse>
-                <circle cx="12" cy="12" r="3.2" fill="currentColor" stroke="none">
-                </circle>
-              </svg>
-            </span>
+            <LogoMark height={28} />
             <span style={S({ fontSize: '16px', fontWeight: '650', letterSpacing: '-0.025em' })}>
               Daily Orbit
             </span>
@@ -50,7 +45,6 @@ export function TopBarView({ v }: { v: any }) {
               <div style={S({ position: 'relative' })}>
                 <button type="button" onClick={v.toggleMore} aria-expanded={v.moreOpen} aria-haspopup="true" style={S({ display: 'inline-flex', alignItems: 'center', gap: '6px', minHeight: '40px', padding: '0 12px', borderRadius: '999px', background: v.moreBg, border: '0', color: v.moreColor, fontSize: '14px', cursor: 'pointer', whiteSpace: 'nowrap' })} className="topbarview-hover-3">
                   More
-                  {v.moreDot && <span aria-label="your weekly report is ready" style={S({ width: '8px', height: '8px', borderRadius: '99px', background: '#f6c445', animation: 'ms-twinkle 1.8s ease-in-out infinite' })} />}
                   <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={S({ transform: v.moreRot, transition: 'transform 200ms ease' })}>
                     <path d="M6 9l6 6 6-6">
                     </path>
@@ -60,6 +54,7 @@ export function TopBarView({ v }: { v: any }) {
             </div>
           </nav>
           <div style={S({ order: '2', marginLeft: 'auto', display: 'flex', alignItems: 'center', justifyContent: 'flex-end', gap: '6px', flexWrap: 'wrap', maxWidth: '100%' })}>
+            <ReportButton />
             <div style={S({ position: 'relative' })}>
               <button type="button" onClick={v.toggleEnv} aria-expanded={v.envOpen} aria-haspopup="true" aria-label="Mission environment and comm delay" style={S({ display: 'flex', alignItems: 'center', gap: '8px', minHeight: '44px', padding: '0 14px', borderRadius: '999px', background: 'transparent', border: '1px solid var(--rule)', color: 'var(--ink)', cursor: 'pointer', whiteSpace: 'nowrap' })} className="topbarview-hover-4">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round">
