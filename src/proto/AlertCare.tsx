@@ -27,11 +27,11 @@ function StepList({ a, steps, label }: { a: Alert; steps: Step[]; label: string 
   return (
     <div style={{ display: 'grid', gap: 6 }}>
       <p style={{ margin: 0, fontSize: 12, fontWeight: 750, letterSpacing: '.06em', textTransform: 'uppercase', color: 'var(--muted)' }}>{label}</p>
-      <ul style={{ listStyle: 'none', margin: 0, padding: 0, display: 'grid', gap: 6 }}>
+      <ul style={{ listStyle: 'none', margin: 0, padding: 0, display: 'grid', gap: 4 }}>
         {steps.map((s) => (
-          <li key={s.id} style={{ display: 'flex', alignItems: 'flex-start', gap: 10, padding: '8px 10px', borderRadius: 12, background: s.done ? 'rgba(47,125,79,.08)' : 'var(--panel-2)' }}>
+          <li key={s.id} style={{ display: 'flex', alignItems: 'flex-start', gap: 8, padding: '6px 8px', borderRadius: 10, background: s.done ? 'rgba(47,125,79,.08)' : 'var(--panel-2)' }}>
             <input type="checkbox" checked={s.done} onChange={() => D.tickAlertStep(a, s.id)} aria-label={`Done: ${s.text}`} style={{ marginTop: 3, width: 18, height: 18, accentColor: 'var(--ok)', flex: '0 0 auto' }} />
-            <span style={{ flex: 1, minWidth: 0, fontSize: 13.5, lineHeight: 1.45, color: s.done ? 'var(--muted)' : 'var(--ink)', textDecoration: s.done ? 'line-through' : 'none' }}>{s.text}</span>
+            <span style={{ flex: 1, minWidth: 0, fontSize: 13, lineHeight: 1.4, color: s.done ? 'var(--muted)' : 'var(--ink)', textDecoration: s.done ? 'line-through' : 'none' }}>{s.text}</span>
             {s.go && !s.done && (
               <button type="button" onClick={() => bridge.go?.(s.go as never)} style={{ flex: '0 0 auto', minHeight: 30, padding: '0 10px', borderRadius: 9, border: '1.5px solid var(--ink)', background: 'var(--panel)', color: 'var(--ink)', fontWeight: 700, fontSize: 12.5, cursor: 'pointer' }}>
                 Do it
@@ -49,14 +49,14 @@ export function AlertActionCard({ a, compact = false }: { a: Alert; compact?: bo
   useTick()
   const p = D.alertPlan(a) as Plan
   return (
-    <div style={{ display: 'grid', gap: 10, padding: 12, borderRadius: 16, border: '1px dashed var(--rule-strong)', background: 'var(--panel)' }}>
+    <div style={{ display: 'grid', gap: 8, padding: 10, borderRadius: 14, border: '1px dashed var(--rule-strong)', background: 'var(--panel)' }}>
       <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'baseline', justifyContent: 'space-between', gap: 8 }}>
         <strong style={{ fontSize: 14 }}>What to do</strong>
         <span style={{ fontSize: 12.5, fontWeight: 700, color: p.nowDone ? 'var(--ok-ink)' : '#a8740a' }}>{p.nowDone ? 'Now steps done' : `Finish the Now steps: +${p.points} coins for ${a.crewName}`}</span>
       </div>
       <StepList a={a} steps={p.now} label="Now" />
       {!compact && <StepList a={a} steps={p.today} label="Today" />}
-      <p style={{ margin: 0, fontSize: 13, lineHeight: 1.45, padding: '8px 10px', borderRadius: 12, background: a.status === 'red' ? 'rgba(179,38,30,.08)' : 'rgba(183,121,31,.1)' }}>
+      <p style={{ margin: 0, fontSize: 12.5, lineHeight: 1.4, padding: '6px 8px', borderRadius: 10, background: a.status === 'red' ? 'rgba(179,38,30,.08)' : 'rgba(183,121,31,.1)' }}>
         <strong>Escalate if: </strong>
         {p.escalateIf}
       </p>
@@ -110,7 +110,7 @@ export function MedicalOfficerSetting() {
 }
 
 /** Alerts that closed themselves because the readings came back within usual. */
-export function ResolvedAlerts() {
+export function ResolvedAlerts({ bare = false }: { bare?: boolean }) {
   useTick()
   const list = D.resolvedAlerts() as { id: string; crewName: string; title: string; resolvedAt: number; firstSeen: number }[]
   if (!list.length) return null
@@ -118,22 +118,26 @@ export function ResolvedAlerts() {
     const m = Math.round((Date.now() - t) / 60000)
     return m < 60 ? `${Math.max(1, m)} min ago` : m < 2880 ? `${Math.round(m / 60)} h ago` : `${Math.round(m / 1440)} days ago`
   }
-  return (
-    <details>
-      <summary style={{ cursor: 'pointer', fontSize: 14, fontWeight: 650 }}>Back within usual on their own ({list.length})</summary>
-      <ul style={{ listStyle: 'none', margin: '10px 0 0', padding: 0, display: 'grid', gap: 6 }}>
+  const items = (
+      <ul style={{ listStyle: 'none', margin: bare ? 0 : '10px 0 0', padding: 0, display: 'grid', gap: 6 }}>
         {list.map((a) => (
-          <li key={a.id + a.resolvedAt} style={{ display: 'flex', flexWrap: 'wrap', gap: 8, alignItems: 'baseline', padding: '8px 12px', borderRadius: 12, background: 'rgba(47,125,79,.08)', fontSize: 13.5 }}>
+          <li key={a.id + a.resolvedAt} style={{ display: 'flex', flexWrap: 'wrap', gap: 8, alignItems: 'baseline', padding: '7px 12px', borderRadius: 12, background: 'rgba(47,125,79,.08)', fontSize: 13 }}>
             <span aria-hidden="true" style={{ color: 'var(--ok-ink)', fontWeight: 800 }}>
               ✓
             </span>
             <strong>
               {a.crewName}: {a.title}
             </strong>
-            <span style={{ color: 'var(--muted)' }}>closed itself {ago(a.resolvedAt)}: the next reading came back within usual. Kept here so nothing disappears silently.</span>
+            <span style={{ color: 'var(--muted)' }}>back within usual, closed itself {ago(a.resolvedAt)}</span>
           </li>
         ))}
       </ul>
+  )
+  if (bare) return items
+  return (
+    <details>
+      <summary style={{ cursor: 'pointer', fontSize: 14, fontWeight: 650 }}>Back within usual on their own ({list.length})</summary>
+      {items}
     </details>
   )
 }
