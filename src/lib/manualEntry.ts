@@ -1,7 +1,7 @@
 import { getThreshold } from '../config/thresholds'
 import type { Indicator } from '../contract/types'
 
-export type EntryKind = 'bloodPressure' | 'temperature' | 'bloodSugar' | 'sleepHours' | 'exerciseMinutes' | 'bodyMass' | 'bowelMovements'
+export type EntryKind = 'bloodPressure' | 'temperature' | 'bloodSugar' | 'bodyMass' | 'sleepHours' | 'exerciseMinutes' | 'bowelMovements'
 
 export type EntryField = {
   /** Form field name, unique inside its form. */
@@ -66,6 +66,12 @@ export const ENTRY_FORMS: readonly EntryForm[] = [
     fields: [field('bloodSugar', 'Blood sugar', 'bloodSugar', 10, 900, 1)],
   },
   {
+    kind: 'bodyMass',
+    title: 'Body mass',
+    hint: 'From the body mass measurement device, in kilograms.',
+    fields: [field('bodyMass', 'Body mass', 'bodyMass', 20, 300, 0.1)],
+  },
+  {
     kind: 'sleepHours',
     title: 'Sleep',
     hint: 'Hours actually asleep in the last sleep period.',
@@ -76,12 +82,6 @@ export const ENTRY_FORMS: readonly EntryForm[] = [
     title: 'Exercise',
     hint: 'Minutes of exercise today. Logging it earns points for the effort, never for the number.',
     fields: [field('exerciseMinutes', 'Minutes', 'exerciseMinutes', 0, 1440, 1)],
-  },
-  {
-    kind: 'bodyMass',
-    title: 'Body mass',
-    hint: 'From the scale, in kilograms. NASA tracks body mass regularly as a nutrition signal.',
-    fields: [field('bodyMass', 'Body mass', 'bodyMass', 20, 300, 0.1)],
   },
   {
     kind: 'bowelMovements',

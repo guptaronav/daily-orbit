@@ -95,6 +95,35 @@ Hand-rolled rather than pulled from a component library, because the rule is no 
 - Whole body status during a replay comes from the same personal-baseline rule as every other indicator, so it turns red when the dose jumps and can relax again once the cumulative dose levels off. That is the statistical rule, not a statement that the dose stopped mattering.
 - Shelter prompt wording and the follow-up steps are generic. The list of symptoms to watch for after a radiation event is `[CONTENT TODO]` until sourced from NASA.
 
+### The UI overhaul runs the prototype itself (src/proto/)
+
+The overhaul was designed as a set of `.dc.html` prototypes with their own logic and a shared
+`data.js`. Instead of re-drawing them by hand, they are ported mechanically so the app renders
+exactly what the prototypes render:
+
+- `src/proto/*View.tsx` are generated from each prototype's markup with its inline styles verbatim
+  (the converter lives outside the repo; regenerate rather than hand-edit). Prototype variable
+  names (`--ink`, `--panel`...) are aliased to the app's tokens in `index.css`.
+- `src/proto/logic/*.logic.ts` are each prototype's own logic class, run unchanged through a
+  small `DCLogic` shim (`src/proto/dc.tsx`).
+- `src/proto/data.ts` is `data.js` ported. Its presentation helpers are verbatim; its DATA is
+  rewired to the real database: readings and their status come from the app's own
+  `readIndicator`, coins are the real credited points from `scoring.ts`, and the ground packet,
+  entry validation and both simulations are the tested `lib/` functions.
+
+Deliberate departures from the prototype, all to keep it honest:
+
+- The prototype's `earn()` minted coins freely. Here every earn is a real event (supply drop or
+  streak milestone), so the once-per-day credit cap applies and nothing pays for a health value.
+- The prototype let you tap a daily task "done". Here a task opens the screen where it is done,
+  and its credit arrives from that real flow.
+- The daily crate pays a fixed amount (the supply-drop rate), not a random 10 to 30.
+- Spending coins on gear is cosmetic and local (localStorage); it never touches a reading.
+- Screens the prototype had not drawn (mirror check, radiation, sources, crew progress) were
+  disabled in its menu. They exist here, so they link, and they wear the same frame.
+- Tailwind arbitrary values containing commas (h-[clamp(a,b,c)]) do not generate in this setup;
+  the generated views use inline styles, which sidesteps it.
+
 ## Sources
 
 Verified by reading the primary pages on 2026-11-14:
@@ -141,3 +170,36 @@ Mapping choices that are ours, not NASA's: blink rate and eyelid closure to the 
 - The sample recording (`public/sample/mirror.webm`) has not been recorded yet; the app shows "not available yet" until it exists.
 
 ## Status
+
+
+## Indicator content, food and water, mission schedule (Arnav, 2026-11-14)
+
+- `src/content/indicators.json`: the five challenge questions plus a recommended action are now filled for every indicator, each sentence from a NASA (or NIH/CSA) page that was opened; the pages are listed in `src/content/sources.json`. This overlaps Evode's task E4: Evode, please review rather than redo. No clinical thresholds were added; escalation text points at the app's own-baseline colors plus sourced warning signs.
+- `temperature` hrpRisk is "Risk of Altered Immune System Responses" (a judgment call: that page covers infection but not fever). `symptomReport` hrpRisk is the in-flight medical conditions risk, from a separate nasa.gov page.
+- Blink rate and eyelid closure have no NASA page; their text relies on NIH-hosted ground drowsiness research (PERCLOS).
+- Water and meals: new indicators `waterIntake` (L/day) and `mealsEaten` (meals/day). Today's running total stays local and a finished day is committed as one reading, so a half-finished morning is never colored "low". The default fluid goal is 32 mL per kg of the latest body mass, at least 2.1 L, or 2.5 L with no body mass (NASA JSC-67378; that requirement counts food and drinks together, the log counts drinks).
+- Mission schedule: the order and durations of the crew day follow NASA descriptions of an ISS day (two hours of exercise, 8.5-hour sleep period, morning and evening conferences, one-hour break after lunch); the exact clock times are our example layout. Role duties point at this app's screens and are not a claim about how NASA assigns work. The microbiome reminder interval (30 days) is a placeholder.
+- Research caveats from the content pass:
+- (A) No [CONTENT TODO] fields: all 36 fields are filled from opened pages. Some checklist items have no direct source, though: back/joint pain, trouble breathing and blurred vision. The back-pain coverage I found was not on a NASA, space agency or NIH page I opened, and the SANS page does not name blurred vision or headache. symptomReport therefore refers to them only generally.
+- (A) No numeric clinical thresholds are included. The 'about 1 °C over 2.5 months' figure in temperature.hazardEffect is a research finding from Stahn et al. 2017, not an alarm threshold. The Artemis II page describes caution and shelter dose thresholds but gives no values.
+- (A) hrpRisk for temperature is a judgment call. I chose 'Risk of Altered Immune System Responses' because a rise in temperature can go with infection. That page lists infections, rashes and cold sores but does not mention fever. The alternative is the Inflight Medical Conditions risk.
+- (A) The Inflight Medical Conditions risk page is at nasa.gov/directorates/esdmd/hhp/ and is not in the main https://www.nasa.gov/hrp/risks list. Its exact title is used for symptomReport.
+- (A) No NASA source found that describes webcam rPPG. The webcam method is described only as the app's own approach, with no claim about its accuracy.
+- (A) The Artemis II shelter guidance (caution level and shelter recommendation) describes Orion operations. Applying it to other vehicles is a generalization.
+- (A) The Bio-Monitor and CARDIOBREATH pages are from the Canadian Space Agency, which counts as an allowed 'other space agency' source.
+- (B) No fields are [CONTENT TODO]. Every field is paraphrased from the pages listed in its sources.
+- (B) The NIH pages (PMC10108649 and PubMed 12736840/29133149) blocked direct fetching with reCAPTCHA or cookie walls. Their text was read through NCBI E-utilities (efetch) for the same record IDs. The citations use the canonical PMC/PubMed URLs.
+- (B) Blink rate and PERCLOS sources are ground-based drowsiness and fatigue research, not spaceflight studies. No NASA page opened in this task mentions blink rate or eyelid closure, so describe them as fatigue proxies only. The research evidence on blink rate is mixed: the PERCLOS review says blink-duration and PERCLOS comparisons are inconsistent across studies.
+- (B) No page opened in this task links space radiation directly to sleep or to SANS. Radiation is only mentioned for mood (NASA HRP risks page) and as polyethylene shielding in sleeping quarters (sleep brief, not used in a field).
+- (B) No NASA source was found that names a 0-10 mood, stress or sleep-quality slider as an operational in-flight tool. canMeasureInSpace describes the app's self-report method plus NASA's sourced monitoring (WinSCAT, private psychological conferences, actigraphy and questionnaires).
+- (B) The yellow/red escalation wording refers to the app's own deviation from personal baseline (1 or 2 SD), not to clinical thresholds. No numeric clinical thresholds are included. The only numbers used are ones stated in the sources: about six hours of average sleep, 16 sunrises a day, and at least three pairs of glasses.
+- (B) The humanresearchroadmap.nasa.gov behavioral risk page (risk.aspx?i=99) returned only navigation text, so it was not used as a source.
+- (C) PDF sources (OCHMO briefs, JSC-67378, Living and Working fact sheet) were fetched with WebFetch, which could not read them; text was extracted from the saved PDFs with pdftotext and checked.
+- (C) The 'Living and Working in Space' fact sheet is shuttle-era. Its timeline also says 'eight hours of sleep' and a 16-hour workday, which conflict with the newer 8.5-hour sleep standard (6.0 Medical Operations), so those figures were left out. Treat the day timeline as illustrative, not current.
+- (C) Exercise duration differs by source: the risk page says 1.5 hours a day, 6-7 days a week; the 2024 Astronaut Exercise page and 2025 ISS blog say about two hours a day. The app uses the newer 'about two hours'.
+- (C) No numeric clinical thresholds were found for blood sugar, appetite, bowel movements or body mass change. Escalation relies on the app's baseline colors plus sourced warning signs (dehydration from vomiting or diarrhea).
+- (C) bloodSugar: NASA in-flight glucose testing practice and hazard effects beyond altered gravity and nutrition are not sourced ([CONTENT TODO]). bowelMovements: how NASA tracks bowel habits is not sourced ([CONTENT TODO]).
+- (C) Radiation was not linked to any of these six indicators by the pages opened, so it is left out of hazardEffect. Isolation is only linked through menu fatigue (risk-nutrition page) and sleep/workload (isolation page).
+- (C) Mission specialist: no current NASA ISS page describing this role was opened (it is mainly a shuttle-era title), so no roleFacts entry. Commander and flight engineer duties are not described beyond the crew listing.
+- (C) JSC-67378 is written for Orion/Gateway exploration missions up to 365 days, not the ISS specifically. The OCHMO food brief URL fetched is the 2023 version (Rev D/E); a newer revision may exist.
+- (C) SLAMMD: a secondary (non-NASA) source said the Russian device may now be primary with SLAMMD in reserve; not confirmed on a NASA page, so text says only that SLAMMD measures mass.

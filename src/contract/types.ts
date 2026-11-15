@@ -19,6 +19,8 @@ export const INDICATORS = [
   'digestiveComfort',
   'bodyMass',
   'bowelMovements',
+  'waterIntake',
+  'mealsEaten',
 ] as const
 
 export type Indicator = (typeof INDICATORS)[number]
@@ -66,6 +68,11 @@ export type GameEventKind =
   | 'exerciseComplete'
   | 'retakeAfterQualityFail'
   | 'countermeasureComplete'
+  // Reward-surface events. They pay for showing up and for keeping a streak, never for a health
+  // value, so they cannot give anyone a reason to hide a symptom.
+  | 'supplyDrop'
+  | 'streakMilestone'
+  | 'readingLogged'
 
 export type GameEvent = {
   id: string

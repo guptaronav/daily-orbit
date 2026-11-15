@@ -1,3 +1,4 @@
+import { getContent, isTodo } from './content'
 import { describe, expect, test } from 'vitest'
 import type { GameEvent, GameEventKind, Indicator, Measurement } from '../contract/types'
 import { readAll } from './bodyStatus'
@@ -98,8 +99,10 @@ describe('dailyPlan: what to do today, driven by your own data', () => {
     for (const latest of [6.5, 5.5, 4.5, 3.5]) expect(plan(history('sleepHours', 7, latest)).length).toBeGreaterThanOrEqual(good)
   })
 
-  test('with no sourced guidance the step falls back to telling a crewmate, never to invented advice', () => {
+  test('guidance is the sourced recommended action, or the crewmate fallback when none is written, never invented advice', () => {
     const sleep = plan(history('sleepHours', 7, 5.5)).find((i) => i.id === 'sleep')!
-    expect(sleep.guidance).toMatch(/crewmate|crew medical officer/i)
+    const sourced = getContent('sleepHours').recommendedAction
+    if (isTodo(sourced)) expect(sleep.guidance).toMatch(/crewmate|crew medical officer/i)
+    else expect(sleep.guidance).toBe(sourced)
   })
 })

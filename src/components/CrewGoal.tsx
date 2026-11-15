@@ -1,27 +1,34 @@
 import type { CrewProgress } from '../lib/scoring'
+import { CoinIcon } from './kit/Wallet'
 
 /** The crew's shared weekly goal. A progress bar, not a leaderboard: nobody is ranked. */
 export function CrewGoal({ progress }: { progress: CrewProgress }) {
   const pct = Math.round(progress.fraction * 100)
   return (
-    <section aria-labelledby="goal-heading" className="border border-rule bg-panel p-5">
-      <h2 id="goal-heading" className="text-sm font-semibold uppercase tracking-[0.14em] text-muted">
+    <section aria-labelledby="goal-heading" className="card p-6">
+      <h2 id="goal-heading" className="text-xl font-bold tracking-tight">
         Crew weekly goal
       </h2>
-      <p className="mt-2 text-3xl font-semibold tracking-tight">
-        {progress.weekPoints} <span className="text-lg font-normal text-muted">of {progress.goal} points this week</span>
+      <p className="mt-2 flex items-center gap-2 text-lg font-bold">
+        <CoinIcon size={18} />
+        {progress.weekPoints} of {progress.goal} coins this week
       </p>
       <div
-        className="mt-3 h-3 w-full bg-rule"
+        className="meter mt-3"
+        style={{ height: 12 }}
         role="progressbar"
         aria-label="Crew weekly goal"
         aria-valuemin={0}
         aria-valuemax={100}
         aria-valuenow={pct}
       >
-        <div className={`h-full origin-left ${progress.reached ? 'bg-ok' : 'bg-accent'}`} style={{ transform: `scaleX(${progress.fraction})` }} />
+        <span style={{ width: `${pct}%`, background: progress.reached ? 'var(--color-ok)' : 'var(--color-ink)' }} />
       </div>
-      <p className="mt-2 text-sm text-muted">{progress.reached ? 'Goal reached. Everyone contributed by checking in.' : `${pct}% of the way there. Every check-in counts, including hard days.`}</p>
+      <p className="mt-3 leading-relaxed text-muted">
+        {progress.reached
+          ? 'Goal reached. Everyone contributed by checking in.'
+          : `${pct}% of the way there. One shared goal, so nobody is ranked. Every check-in counts, including hard days.`}
+      </p>
     </section>
   )
 }

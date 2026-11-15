@@ -1,60 +1,122 @@
-import { Suspense, lazy, useCallback, useEffect, useState, type ComponentType } from 'react'
+import { Suspense, lazy, useCallback, useEffect, useState } from 'react'
 import { DemoPanel } from './components/DemoPanel'
-import { Footer } from './components/Footer'
-import { TopBar } from './components/TopBar'
-import { Landing } from './screens/Landing'
+import { usePrototypeLinks } from './proto/dc'
+import {
+  BodyMapPage,
+  EscalationPage,
+  LandingPage,
+  ManualPage,
+  MedicalPage,
+  MetricsPage,
+  OnboardingPage,
+  ProtoFrame,
+  RewardsPage,
+} from './proto/pages'
+import './proto/proto.css'
+import { bridge, useProtoStore } from './proto/store'
+import { SchedulePage } from './proto/SchedulePage'
+import { Radiation } from './screens/Radiation'
+import { Sources } from './screens/Sources'
 import { AppProvider, useApp } from './state/AppContext'
 
-// Only the landing page is bundled with the app shell. Every other screen loads on demand, so the first
-// paint downloads the minimum. (The camera pipeline and the charts split off further inside their screens.)
-const lazyScreen = <K extends string>(load: () => Promise<Record<K, ComponentType>>, name: K) => lazy(() => load().then((m) => ({ default: m[name] })))
+// The camera pipeline is the heavy part: load it on demand.
+const MirrorCheck = lazy(() => import('./screens/mirror/MirrorCheck').then((m) => ({ default: m.MirrorCheck })))
 
-const BodyMap = lazyScreen(() => import('./screens/BodyMap'), 'BodyMap')
-const MirrorCheck = lazyScreen(() => import('./screens/mirror/MirrorCheck'), 'MirrorCheck')
-const Progress = lazyScreen(() => import('./screens/Progress'), 'Progress')
-const Manual = lazyScreen(() => import('./screens/Manual'), 'Manual')
-const Escalation = lazyScreen(() => import('./screens/Escalation'), 'Escalation')
-const Radiation = lazyScreen(() => import('./screens/Radiation'), 'Radiation')
-const Medical = lazyScreen(() => import('./screens/Medical'), 'Medical')
-const Metrics = lazyScreen(() => import('./screens/Metrics'), 'Metrics')
-const Sources = lazyScreen(() => import('./screens/Sources'), 'Sources')
+const ONBOARDED_KEY = 'chm-onboarded'
 
-/** The two screens a visitor almost always opens first, fetched in the background once the page is idle. */
-function prefetchLikelyScreens() {
-  const run = () => {
-    void import('./screens/BodyMap')
-    void import('./screens/mirror/MirrorCheck')
+const hasOnboarded = (): boolean => {
+  try {
+    return localStorage.getItem(ONBOARDED_KEY) === '1'
+  } catch {
+    // Blocked storage: treat the person as set up rather than trapping them in setup forever.
+    return true
   }
-  if ('requestIdleCallback' in window) window.requestIdleCallback(run, { timeout: 4000 })
-  else setTimeout(run, 2000)
+}
+
+/** First-run setup. Leaving it, by finishing or skipping, marks setup done. */
+function OnboardingGate({ onFinished }: { onFinished: () => void }) {
+  useEffect(
+    () => () => {
+      try {
+        localStorage.setItem(ONBOARDED_KEY, '1')
+      } catch {
+        // Not remembering is fine; the landing page always offers setup again.
+      }
+      onFinished()
+    },
+    [onFinished],
+  )
+  return <OnboardingPage />
 }
 
 function Screen() {
-  const { screen, ready } = useApp()
-  if (!ready) return <main className="p-8 text-muted">Loading crew data…</main>
-  if (screen === 'landing') return <Landing />
-  if (screen === 'bodymap') return <BodyMap />
-  if (screen === 'mirror') return <MirrorCheck />
-  if (screen === 'progress') return <Progress />
-  if (screen === 'manual') return <Manual />
-  if (screen === 'escalation') return <Escalation />
-  if (screen === 'radiation') return <Radiation />
-  if (screen === 'medical') return <Medical />
-  if (screen === 'metrics') return <Metrics />
-  if (screen === 'sources') return <Sources />
-  // Remaining screens land in later plan tasks.
-  return <main className="p-8 text-muted">Screen "{screen}" is not built yet.</main>
+  const { screen, ready, crew, dataVersion } = useApp()
+  const storeReady = useProtoStore(crew, dataVersion)
+  // First visit lands in setup instead of the hero; afterwards the hero is the home screen.
+  const [setupDone, setSetupDone] = useState(hasOnboarded)
+  const finish = useCallback(() => setSetupDone(true), [])
+
+  if (!ready || !storeReady) return <main style={{ padding: 32, color: 'var(--muted)' }}>Loading crew data…</main>
+  if (screen === 'onboarding' || (screen === 'landing' && !setupDone)) return <OnboardingGate onFinished={finish} />
+  if (screen === 'landing') return <LandingPage />
+  if (screen === 'bodymap') return <BodyMapPage />
+  if (screen === 'manual') return <ManualPage />
+  if (screen === 'escalation') return <EscalationPage />
+  if (screen === 'medical') return <MedicalPage />
+  if (screen === 'metrics') return <MetricsPage />
+  if (screen === 'progress') return <RewardsPage />
+  if (screen === 'mirror') {
+    return (
+      <ProtoFrame current="Mirror check">
+        <Suspense fallback={<main style={{ padding: 32, color: 'var(--muted)' }}>Loading…</main>}>
+          <MirrorCheck />
+        </Suspense>
+      </ProtoFrame>
+    )
+  }
+  if (screen === 'schedule') {
+    return (
+      <ProtoFrame current="Mission schedule">
+        <SchedulePage />
+      </ProtoFrame>
+    )
+  }
+  if (screen === 'radiation') {
+    return (
+      <ProtoFrame current="Radiation">
+        <Radiation />
+      </ProtoFrame>
+    )
+  }
+  if (screen === 'sources') {
+    return (
+      <ProtoFrame current="Sources">
+        <Sources />
+      </ProtoFrame>
+    )
+  }
+  return <main style={{ padding: 32, color: 'var(--muted)' }}>Screen "{screen}" is not built yet.</main>
 }
 
 // Shift+D (or the "Demo controls" link on the landing page) toggles the demo panel.
 const DEMO_EVENT = 'demo:toggle'
 
 function Shell() {
-  const { screen, ready } = useApp()
+  const app = useApp()
   const [demoOpen, setDemoOpen] = useState(false)
   const toggleDemo = useCallback(() => setDemoOpen((o) => !o), [])
 
-  useEffect(() => prefetchLikelyScreens(), [])
+  // The prototype pages read and change app state through the store's bridge.
+  bridge.crewId = app.crewId
+  bridge.envId = app.environment.id
+  bridge.delaySec = app.delaySec
+  bridge.setCrewId = app.setCrewId
+  bridge.setEnvironmentId = app.setEnvironmentId
+  bridge.setDelaySec = app.setDelaySec
+  bridge.go = app.go
+  bridge.refresh = app.refresh
+
+  usePrototypeLinks()
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -71,18 +133,10 @@ function Shell() {
   }, [toggleDemo])
 
   return (
-    <div className="flex min-h-screen flex-col">
-      {screen !== 'landing' && <TopBar />}
-      {/* Target for the TopBar's "Skip to content" link (A1 accessibility pass). */}
-      <div id="main" tabIndex={-1} className="flex flex-1 flex-col outline-none">
-        <Suspense fallback={<main className="p-8 text-muted">Loading…</main>}>
-          <Screen />
-        </Suspense>
-      </div>
-      {/* Not shown until the data is ready: it names the crew's data label, and showing it early made it jump off-screen when the page filled in. */}
-      {ready && <Footer />}
+    <>
+      <Screen />
       <DemoPanel open={demoOpen} onClose={() => setDemoOpen(false)} />
-    </div>
+    </>
   )
 }
 

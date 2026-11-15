@@ -45,7 +45,7 @@ export function Vision({ onComplete }: { onComplete: (result: VisionResult) => v
   if (phase === 'acuity') {
     return (
       <section aria-labelledby="acuity-heading" className="space-y-4">
-        <h2 id="acuity-heading" className="text-xl font-semibold tracking-tight">
+        <h2 id="acuity-heading" className="text-2xl font-bold tracking-tight">
           Near-vision check
         </h2>
         <Acuity
@@ -58,10 +58,10 @@ export function Vision({ onComplete }: { onComplete: (result: VisionResult) => v
   const eye = EYE_COPY[phase]
   return (
     <section aria-labelledby="amsler-heading" className="space-y-4">
-      <h2 id="amsler-heading" className="text-xl font-semibold tracking-tight">
+      <h2 id="amsler-heading" className="text-2xl font-bold tracking-tight">
         Amsler grid, {eye.test.toLowerCase()} eye
       </h2>
-      <p className="max-w-xl text-sm">
+      <p className="max-w-xl text-[0.9375rem] leading-relaxed">
         Hold the screen about an arm's length away (roughly 35 cm). Cover your <strong>{eye.cover}</strong> eye. Look at the dot with your{' '}
         <strong>{eye.test}</strong> eye and keep looking at it. Mark any squares where the lines look wavy, blurred or missing. With a keyboard: Tab into the grid, move with the arrow keys, press Space to mark a square.
       </p>

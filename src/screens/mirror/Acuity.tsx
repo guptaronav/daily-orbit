@@ -54,11 +54,11 @@ export function Acuity({ onComplete }: { onComplete: (outcome: AcuityOutcome) =>
             {d}
           </button>
         ))}
-        <button onClick={() => answer(null)} className="text-sm text-muted underline underline-offset-4">
+        <button onClick={() => answer(null)} className="btn-quiet">
           I can't tell
         </button>
       </div>
-      <p className="text-xs text-muted">Step {level + 1} of {LADDER.length}. Approximate: screen size and distance are not calibrated.</p>
+      <p className="text-sm text-muted">Step {level + 1} of {LADDER.length}. Approximate: screen size and distance are not calibrated.</p>
     </div>
   )
 }

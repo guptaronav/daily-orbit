@@ -1,0 +1,238 @@
+
+/* ---- LandingView (from the prototype) ---- */
+
+.landingview-hover-1:hover { color: #f3f1ea !important }
+.landingview-active-2:active { transform: translateY(6px) !important;box-shadow: 0 0 0 transparent !important }
+.landingview-hover-3:hover { color: var(--ink) !important }
+.landingview-active-4:active { transform: translateY(6px) !important;box-shadow: 0 0 0 transparent !important }
+.landingview-hover-5:hover { color: #3b2a00 !important }
+.landingview-active-6:active { transform: translateY(5px) !important;box-shadow: none !important }
+.landingview-hover-7:hover { transform: translateY(-6px) rotate(-1deg) !important }
+.landingview-hover-8:hover { color: var(--accent) !important }
+.landingview-hover-9:hover { color: #3b2a00 !important }
+.landingview-active-10:active { transform: translateY(6px) !important;box-shadow: none !important }
+
+/* ---- BodyMapView (from the prototype) ---- */
+
+.bodymapview-hover-1:hover { transform: translateY(-2px) !important;color: var(--paper) !important }
+.bodymapview-hover-2:hover { border-color: var(--ink) !important;background: var(--panel-2) !important;color: var(--ink) !important }
+.bodymapview-hover-3:hover { color: var(--accent) !important }
+.bodymapview-active-4:active { transform: translateY(4px) !important;box-shadow: none !important }
+.bodymapview-hover-5:hover { border-color: var(--ink) !important;color: var(--ink) !important }
+.bodymapview-hover-6:hover { color: var(--accent) !important }
+
+/* ---- ManualView (from the prototype) ---- */
+
+.manualview-hover-1:hover { background: var(--paper-deep) !important }
+.manualview-active-2:active { transform: scale(.9) !important }
+.manualview-hover-3:hover { background: var(--paper-deep) !important }
+.manualview-active-4:active { transform: scale(.9) !important }
+.manualview-active-5:active { transform: translateY(5px) !important;box-shadow: 0 0 0 transparent !important }
+.manualview-active-6:active { transform: translateY(4px) !important;box-shadow: none !important }
+.manualview-hover-7:hover { color: var(--paper) !important }
+
+/* ---- EscalationView (from the prototype) ---- */
+
+.escalationview-active-1:active { transform: translateY(8px) !important;box-shadow: 0 0 0 transparent !important }
+.escalationview-hover-2:hover { color: var(--ink) !important }
+.escalationview-hover-3:hover { border-color: var(--accent) !important;color: var(--accent) !important }
+.escalationview-hover-4:hover { color: var(--ink) !important;background: color-mix(in srgb, var(--ink) 7%, transparent) !important }
+
+/* ---- MedicalView (from the prototype) ---- */
+
+.medicalview-active-1:active { transform: translateY(4px) !important;box-shadow: none !important }
+
+/* ---- MetricsView (from the prototype) ---- */
+
+.metricsview-hover-1:hover { border-color: var(--rule-strong) !important }
+.metricsview-hover-2:hover { color: var(--accent) !important }
+.metricsview-hover-3:hover { color: var(--accent) !important }
+
+/* ---- RewardsView (from the prototype) ---- */
+
+.rewardsview-active-1:active { transform: translateY(3px) !important;box-shadow: none !important }
+.rewardsview-active-2:active { transform: translateY(5px) !important;box-shadow: 0 0 0 transparent !important }
+.rewardsview-active-3:active { transform: translateY(4px) !important;box-shadow: none !important }
+.rewardsview-hover-4:hover { transform: translateY(-4px) !important }
+.rewardsview-active-5:active { transform: translateY(4px) !important;box-shadow: none !important }
+
+/* ---- OnboardingView (from the prototype) ---- */
+
+.onboardingview-hover-1:hover { background: var(--paper-deep) !important;color: var(--ink) !important }
+.onboardingview-active-2:active { transform: translateY(3px) !important;border-bottom-width: 2px !important }
+.onboardingview-active-3:active { transform: scale(.96) !important }
+.onboardingview-active-4:active { transform: scale(.96) !important }
+.onboardingview-active-5:active { transform: translateY(5px) !important;box-shadow: 0 0 0 transparent !important }
+
+/* ---- TopBarView (from the prototype) ---- */
+@keyframes chm-drop { from { opacity: 0; transform: translateY(-8px) scale(.97) } to { opacity: 1; transform: none } }
+    @keyframes chm-bump { 0% { transform: scale(1) } 35% { transform: scale(1.18) } 100% { transform: scale(1) } }
+    @keyframes chm-float { 0% { opacity: 0; transform: translate(-50%, 6px) } 20% { opacity: 1 } 100% { opacity: 0; transform: translate(-50%, -26px) } }
+    @keyframes chm-spin { to { transform: rotate(360deg) } }
+    [data-noscroll]::-webkit-scrollbar { display: none; }
+    input[data-chm-range] { -webkit-appearance: none; appearance: none; width: 100%; height: 44px; background: transparent; cursor: pointer; margin: 0; }
+    input[data-chm-range]::-webkit-slider-runnable-track { height: 6px; border-radius: 999px; background: linear-gradient(to right, var(--ink) 0 var(--pct, 0%), var(--paper-deep) var(--pct, 0%) 100%); }
+    input[data-chm-range]::-moz-range-track { height: 6px; border-radius: 999px; background: linear-gradient(to right, var(--ink) 0 var(--pct, 0%), var(--paper-deep) var(--pct, 0%) 100%); }
+    input[data-chm-range]::-webkit-slider-thumb { -webkit-appearance: none; width: 22px; height: 22px; margin-top: -8px; border-radius: 999px; background: var(--panel); border: 2px solid var(--ink); box-shadow: 0 2px 6px rgba(20,24,31,.25); transition: transform 160ms cubic-bezier(.34,1.56,.64,1); }
+    input[data-chm-range]::-moz-range-thumb { width: 22px; height: 22px; border-radius: 999px; background: var(--panel); border: 2px solid var(--ink); }
+    input[data-chm-range]:hover::-webkit-slider-thumb, input[data-chm-range]:focus-visible::-webkit-slider-thumb { transform: scale(1.15); }
+    input[data-chm-range]:focus-visible { outline: none; }
+    @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important } }
+.topbarview-focus-1:focus-visible { left: 16px !important }
+.topbarview-hover-2:hover { color: var(--ink) !important }
+.topbarview-hover-3:hover { color: var(--ink) !important }
+.topbarview-hover-4:hover { border-color: var(--rule-strong) !important }
+.topbarview-hover-5:hover { color: #f3f1ea !important }
+.topbarview-hover-6:hover { background: var(--panel-2) !important }
+.topbarview-hover-7:hover { background: var(--panel-2) !important }
+.topbarview-hover-8:hover { background: var(--panel-2) !important }
+.topbarview-hover-9:hover { background: var(--panel-2) !important }
+.topbarview-hover-10:hover { background: var(--panel-2) !important }
+.topbarview-hover-11:hover { background: var(--panel-2) !important }
+
+/* ---- CrewDockView (from the prototype) ---- */
+@keyframes chm-pop { from { opacity: 0; transform: translate(-50%, 6px) scale(.97) } to { opacity: 1; transform: translate(-50%, 0) scale(1) } }
+    @keyframes chm-dock-in { from { opacity: 0; transform: translate(-50%, 24px) } to { opacity: 1; transform: translate(-50%, 0) } }
+.crewdockview-hover-1:hover { background: var(--paper-deep) !important;color: var(--ink) !important }
+.crewdockview-hover-2:hover { background: color-mix(in srgb, var(--ink) 5%, transparent) !important }
+.crewdockview-active-3:active { transform: translateY(4px) !important;box-shadow: none !important }
+.crewdockview-hover-4:hover { background: color-mix(in srgb, var(--ink) 7%, transparent) !important;transform: translateY(-3px) !important }
+.crewdockview-hover-5:hover { background: color-mix(in srgb, var(--ink) 5%, transparent) !important }
+.crewdockview-hover-6:hover { color: var(--ink) !important;background: color-mix(in srgb, var(--ink) 5%, transparent) !important }
+
+/* ---- SiteFooterView (from the prototype) ---- */
+
+.sitefooterview-hover-1:hover { color: var(--accent) !important }
+.sitefooterview-hover-2:hover { color: var(--accent) !important }
+.sitefooterview-hover-3:hover { color: var(--accent) !important }
+.sitefooterview-hover-4:hover { color: var(--accent) !important }
+.sitefooterview-hover-5:hover { color: var(--accent) !important }
+.sitefooterview-hover-6:hover { color: var(--accent) !important }
+.sitefooterview-hover-7:hover { color: var(--accent) !important }
+
+/* ---- AvatarView (from the prototype) ---- */
+@property --holo { syntax: "<angle>"; initial-value: 0deg; inherits: false; }
+    @keyframes chm-holo { to { --holo: 360deg; } }
+    @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important } }
+
+
+/* ---- BodyFigureView (from the prototype) ---- */
+@keyframes chm-sweep { 0% { transform: translateY(-6%); opacity: 0 } 12%, 88% { opacity: .7 } 100% { transform: translateY(106%); opacity: 0 } }
+    @keyframes chm-ping { 0% { transform: scale(.6); opacity: .9 } 100% { transform: scale(1.6); opacity: 0 } }
+    @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important } }
+.bodyfigureview-focus-1:focus-visible { fill-opacity: 0.5 !important }
+.bodyfigureview-hover-2:hover { opacity: .82 !important }
+
+/* ---- The prototype pages' own <style> blocks: their animations, and their page rules scoped
+        with :where() (zero specificity), so the mirror check and radiation screens' own classes still win. ---- */
+
+@keyframes ld-rise { from { opacity: 0; transform: translateY(22px) } to { opacity: 1; transform: none } }
+@keyframes ld-float { 0%, 100% { transform: translateY(0) rotate(-1.5deg) } 50% { transform: translateY(-10px) rotate(1.5deg) } }
+@keyframes ld-orbit { to { transform: rotate(360deg) } }
+@keyframes ld-counter { to { transform: rotate(-360deg) } }
+@keyframes ld-trace { to { stroke-dashoffset: 0 } }
+@keyframes ld-pop { 0% { transform: scale(.6); opacity: 0 } 70% { transform: scale(1.06); opacity: 1 } 100% { transform: scale(1) } }
+@keyframes bm-ping { 0% { transform: scale(.6); opacity: .9 } 100% { transform: scale(1.8); opacity: 0 } }
+@keyframes bm-fade { from { opacity: 0 } to { opacity: 1 } }
+@keyframes bm-beat { 0%, 100% { transform: scale(1) } 12% { transform: scale(1.06) } 24% { transform: scale(.99) } 36% { transform: scale(1.03) } }
+@keyframes chm-rise { from { opacity: 0; transform: translateY(10px) } to { opacity: 1; transform: none } }
+@keyframes lg-rise { from { opacity: 0; transform: translateY(18px) scale(.98) } to { opacity: 1; transform: none } }
+@keyframes lg-pop { 0% { transform: scale(.4); opacity: 0 } 60% { transform: scale(1.12); opacity: 1 } 100% { transform: scale(1) } }
+@keyframes lg-coin { 0% { opacity: 0; transform: translate(-50%, 10px) scale(.6) } 25% { opacity: 1; transform: translate(-50%, -6px) scale(1.1) } 100% { opacity: 0; transform: translate(-50%, -54px) scale(1) } }
+@keyframes lg-flash { 0% { box-shadow: 0 0 0 0 rgba(47,125,79,.45) } 100% { box-shadow: 0 0 0 18px rgba(47,125,79,0) } }
+@keyframes lg-shake { 0%, 100% { transform: translateX(0) } 25% { transform: translateX(-6px) } 50% { transform: translateX(5px) } 75% { transform: translateX(-3px) } }
+@keyframes lg-bob { 0%, 100% { transform: translateY(0) } 50% { transform: translateY(-6px) } }
+@keyframes esc-bob { 0%, 100% { transform: translateY(0) } 50% { transform: translateY(-5px) } }
+@keyframes esc-ring { 0% { transform: scale(.9); opacity: .9 } 100% { transform: scale(1.25); opacity: 0 } }
+@keyframes esc-in { from { opacity: 0; transform: translateY(10px) } to { opacity: 1; transform: none } }
+@keyframes cr-rise { from { opacity: 0; transform: translateY(18px) scale(.98) } to { opacity: 1; transform: none } }
+@keyframes cr-float { 0%, 100% { transform: translateY(0) } 50% { transform: translateY(-6px) } }
+@keyframes rw-rise { from { opacity: 0; transform: translateY(16px) } to { opacity: 1; transform: none } }
+@keyframes rw-pop { 0% { transform: scale(.5); opacity: 0 } 60% { transform: scale(1.1); opacity: 1 } 100% { transform: scale(1) } }
+@keyframes rw-shake { 0%, 100% { transform: rotate(0) } 15% { transform: rotate(-9deg) } 30% { transform: rotate(8deg) } 45% { transform: rotate(-6deg) } 60% { transform: rotate(5deg) } 75% { transform: rotate(-2deg) } }
+@keyframes rw-coin { 0% { transform: translate(0, 0) scale(.4); opacity: 0 } 15% { opacity: 1 } 100% { transform: translate(var(--dx), var(--dy)) scale(1) rotate(var(--rot)); opacity: 0 } }
+@keyframes rw-shine { from { transform: translateX(-120%) skewX(-18deg) } to { transform: translateX(220%) skewX(-18deg) } }
+@keyframes rw-toast { 0% { opacity: 0; transform: translate(-50%, 16px) scale(.96) } 12%, 82% { opacity: 1; transform: translate(-50%, 0) } 100% { opacity: 0; transform: translate(-50%, -8px) } }
+@keyframes rw-float { 0%, 100% { transform: translateY(0) } 50% { transform: translateY(-6px) } }
+@keyframes ob-in { from { opacity: 0; transform: translateX(28px) } to { opacity: 1; transform: none } }
+@keyframes ob-bob { 0%, 100% { transform: translateY(0) rotate(-2deg) } 50% { transform: translateY(-8px) rotate(2deg) } }
+@keyframes ob-pop { 0% { transform: scale(.6); opacity: 0 } 60% { transform: scale(1.08); opacity: 1 } 100% { transform: scale(1) } }
+@keyframes ob-bubble { from { opacity: 0; transform: translateY(8px) scale(.96) } to { opacity: 1; transform: none } }
+@keyframes ob-sheet { from { transform: translateY(100%) } to { transform: none } }
+@keyframes ob-coin { 0% { transform: translate(0, 0) scale(.4) rotate(0); opacity: 0 } 15% { opacity: 1 } 100% { transform: translate(var(--dx), var(--dy)) scale(1) rotate(var(--rot)); opacity: 0 } }
+@keyframes ob-glow { 0%, 100% { transform: scale(1); opacity: .5 } 50% { transform: scale(1.12); opacity: .85 } }
+@keyframes ob-shake { 0%, 100% { transform: translateX(0) } 20% { transform: translateX(-8px) } 40% { transform: translateX(7px) } 60% { transform: translateX(-5px) } 80% { transform: translateX(3px) } }
+
+:where([data-chm-root]) button, :where([data-chm-root]) input, :where([data-chm-root]) select, :where([data-chm-root]) textarea { font-family: inherit; }
+:where([data-chm-root]) a { color: var(--accent); }
+:where([data-chm-root]) a:hover { color: var(--ink); }
+:where([data-chm-root]) :focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+:where([data-chm-root]) * { scrollbar-width: thin; scrollbar-color: rgba(20,24,31,.25) transparent; }
+:where([data-chm-root]) *::-webkit-scrollbar { width: 10px; height: 8px; }
+:where([data-chm-root]) *::-webkit-scrollbar-thumb { background: rgba(20,24,31,.22); border-radius: 999px; border: 2px solid transparent; background-clip: padding-box; }
+@media (prefers-reduced-motion: reduce) { :where([data-chm-root]) *, :where([data-chm-root]) *::before, :where([data-chm-root]) *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important } }
+:where([data-chm-root]) *::-webkit-scrollbar-track { background: transparent; }
+:where([data-chm-root]) *::-webkit-scrollbar-thumb:hover { background-color: rgba(20,24,31,.4); }
+:where([data-chm-root]) [data-noscroll] { scrollbar-width: none; }
+:where([data-chm-root]) [data-noscroll]::-webkit-scrollbar { display: none; }
+:where([data-chm-root]) :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+:where([data-chm-root]) ::selection { background: rgba(11, 61, 145, .18); }
+:where([data-chm-root]) input[data-step]::-webkit-outer-spin-button, :where([data-chm-root]) input[data-step]::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
+:where([data-chm-root]) input[data-step] { -moz-appearance: textfield; appearance: textfield; }
+
+/* ---- Mission scene banners (MissionScene.tsx) ---- */
+@keyframes ms-twinkle { 0%, 100% { opacity: .25 } 50% { opacity: 1 } }
+@keyframes ms-cross { from { transform: translateX(0) } to { transform: translateX(var(--dist)) } }
+@keyframes ms-patrol { from { transform: translateX(0) } to { transform: translateX(var(--dist)) } }
+@keyframes ms-scroll { from { transform: translateX(0) } to { transform: translateX(var(--dist)) } }
+@keyframes ms-sway { 0%, 100% { transform: rotate(-4deg) } 50% { transform: rotate(4deg) } }
+@keyframes ms-spin { to { transform: rotate(360deg) } }
+@keyframes ms-bob { 0%, 100% { transform: translateY(0) } 50% { transform: translateY(-7px) } }
+@keyframes ms-glow { 0%, 100% { opacity: .8; transform: scale(1) } 50% { opacity: 1; transform: scale(1.06) } }
+@keyframes ms-ping { 0% { transform: scale(.7); opacity: .95 } 80%, 100% { transform: scale(1.5); opacity: 0 } }
+@keyframes ms-flash { from { opacity: .95 } to { opacity: 0 } }
+@keyframes ms-puff { 0% { transform: scale(.3); opacity: .9 } 100% { transform: scale(1.8) translateX(-14px); opacity: 0 } }
+@keyframes ms-puffs { 0%, 70% { opacity: 0; transform: scale(.4) } 80% { opacity: .9; transform: scale(1) } 100% { opacity: 0; transform: scale(2) } }
+@keyframes ms-aurora { from { transform: scaleY(.78); opacity: .65 } to { transform: scaleY(1.12); opacity: 1 } }
+@keyframes ms-dust { from { transform: translate(0, 0) } to { transform: translate(-120px, -40px) } }
+@keyframes ms-stream { from { transform: translateX(0); opacity: 0 } 15% { opacity: .9 } to { transform: translateX(420px); opacity: 0 } }
+@keyframes ms-dash { to { stroke-dashoffset: -26 } }
+@keyframes ms-flicker { 0% { opacity: .65 } 100% { opacity: 1 } }
+@keyframes ms-pop { from { opacity: 0; transform: translateY(-8px) scale(.96) } to { opacity: 1; transform: none } }
+@keyframes ms-burst { 0% { transform: translate(0, 0) scale(1); opacity: 1 } 100% { transform: translate(var(--bx), var(--by)) scale(.3); opacity: 0 } }
+.ms-spot { cursor: pointer; outline: none; }
+.ms-spot:hover > :not(.ms-focus) { filter: brightness(1.18); }
+.ms-spot .ms-focus { opacity: 0; transition: opacity 150ms ease; }
+.ms-spot:focus-visible .ms-focus { opacity: 1; }
+
+/* ---- Mirror check in the overhaul's style (scoped to .mc-page; unlayered, so it wins over Tailwind) ---- */
+.mc-page h2 { font-size: clamp(24px, 3vw, 34px); line-height: 1.05; font-weight: 750; letter-spacing: -0.035em; }
+.mc-page .btn { min-height: 54px; padding: 0 24px; border-radius: 16px; font-size: 15.5px; font-weight: 750; transition: transform 90ms ease, box-shadow 90ms ease, background-color 200ms ease; }
+.mc-page .btn-primary { background: #14181f; color: #f3f1ea; border: 0; box-shadow: 0 5px 0 #000; }
+.mc-page .btn-primary:hover:not(:disabled) { transform: translateY(-2px); box-shadow: 0 7px 0 #000; }
+.mc-page .btn-secondary { background: var(--panel); color: var(--ink); border: 2px solid var(--ink); box-shadow: 0 5px 0 var(--ink); }
+.mc-page .btn-secondary:hover:not(:disabled) { transform: translateY(-2px); box-shadow: 0 7px 0 var(--ink); }
+.mc-page .btn:active:not(:disabled) { transform: translateY(5px); box-shadow: 0 0 0 transparent; }
+.mc-page .btn:disabled { opacity: 1; background: var(--paper-deep); color: var(--muted); border-color: transparent; box-shadow: 0 5px 0 var(--rule); }
+.mc-page .btn-quiet { font-weight: 650; color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+.mc-page .card { border-radius: 22px; background: var(--panel-2); border: 1px solid var(--rule); }
+.mc-page .field { border-radius: 14px; border: 2px solid var(--rule); background: var(--panel); }
+.mc-page .field:focus { border-color: var(--ink); box-shadow: none; }
+.mc-page .pill { border-radius: 999px; }
+/* The old left-rule callouts become soft rounded notes. */
+.mc-page .border-l-4 { border-left-width: 0; padding: 12px 16px; border-radius: 16px; background: var(--accent-wash); }
+.mc-page .border-l-4.border-act { background: rgba(179, 38, 30, .09); }
+.mc-page .border-l-4.border-ok { background: rgba(47, 125, 79, .1); }
+/* Camera preview and capture bar. */
+.mc-page video { border-radius: 26px; }
+.mc-page .rounded-\[var\(--r-panel\)\] { border-radius: 28px; }
+.mc-page [role=progressbar] { height: 12px; border-radius: 999px; overflow: hidden; background: var(--paper-deep); }
+.mc-page [role=progressbar] > div { border-radius: 999px; background: linear-gradient(90deg, #0b3d91, #4cc9f0); }
+.mc-page input[type=range] { accent-color: var(--ink); }
+
+/* ---- Food and water (FoodWater.tsx) ---- */
+@keyframes fw-wave { from { transform: translateX(0) } to { transform: translateX(40px) } }
+@keyframes fw-bubble { 0% { transform: translateY(40px); opacity: 0 } 30% { opacity: .8 } 100% { transform: translateY(-6px); opacity: 0 } }
+@keyframes fw-coin { 0% { transform: translateY(6px) scale(.7); opacity: 0 } 25% { transform: translateY(0) scale(1.15); opacity: 1 } 100% { transform: translateY(-26px) scale(1); opacity: 0 } }
+.fw-press:hover:not(:disabled) { transform: translateY(-2px); }
+.fw-press:active:not(:disabled) { transform: translateY(4px); box-shadow: 0 0 0 transparent !important; }

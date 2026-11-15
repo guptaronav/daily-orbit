@@ -38,3 +38,10 @@ data-raw/
 
 # A single file over GitHub's 100 MB limit (kept excluded explicitly in case data-raw/ is ever un-ignored)
 data-raw/nasa-nlsp-extra/178303 1_2/AINV0000000164/E303.pdf
+
+# iCloud Drive conflict copies ("name 2"): never part of the project
+/* 2
+/* 2.*
+/src/**/* 2
+/src/**/* 2.*
+/public/* 2.*

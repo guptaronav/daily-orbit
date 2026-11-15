@@ -1,0 +1,284 @@
+[
+  {
+    "id": "hrp-risks",
+    "title": "NASA Human Research Program - Risks",
+    "url": "https://www.nasa.gov/hrp/risks",
+    "usedFor": "Exact HRP risk titles (all indicators)"
+  },
+  {
+    "id": "hrp-hazards",
+    "title": "NASA HRP - Five Hazards of Human Spaceflight",
+    "url": "https://www.nasa.gov/hrp/hazards/",
+    "usedFor": "Background on the five hazards (distance from Earth and medical care, closed environment and immune tracking); general framing"
+  },
+  {
+    "id": "risk-cardio",
+    "title": "Risk of Cardiovascular Adaptations",
+    "url": "https://www.nasa.gov/reference/risk-of-cardiovascular-adaptations/",
+    "usedFor": "heartRate, bloodPressureSys, bloodPressureDia (hazardEffect, prevention, whenToEscalate); symptomReport (fainting)"
+  },
+  {
+    "id": "csa-cardiobreath",
+    "title": "CARDIOBREATH: Taking a deep dive into astronaut health (Canadian Space Agency)",
+    "url": "https://asc-csa.gc.ca/eng/sciences/cardiobreath.asp",
+    "usedFor": "heartRate and blood pressure: whyCheck, hazardEffect (lower fluid volume and BP in weightlessness)"
+  },
+  {
+    "id": "csa-bio-monitor",
+    "title": "Bio-Monitor (Canadian Space Agency)",
+    "url": "https://www.asc-csa.gc.ca/eng/sciences/bio-monitor.asp",
+    "usedFor": "heartRate, bloodPressureSys canMeasureInSpace"
+  },
+  {
+    "id": "nasa-iss-blog-2025-07-17",
+    "title": "Human Research on Station Helping Keep Long-Term Crews Healthy (NASA Space Station blog)",
+    "url": "https://www.nasa.gov/blogs/spacestation/2025/07/17/human-research-on-station-helping-keep-long-term-crews-healthy/",
+    "usedFor": "bloodPressureSys/Dia canMeasureInSpace (crew measure own BP)"
+  },
+  {
+    "id": "stahn-2017-cbt",
+    "title": "Increased core body temperature in astronauts during long-duration space missions (Stahn et al., Sci Rep 2017, NIH PMC)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5701078",
+    "usedFor": "temperature canMeasureInSpace, whyCheck, hazardEffect"
+  },
+  {
+    "id": "risk-immune",
+    "title": "Risk of Altered Immune System Responses",
+    "url": "https://www.nasa.gov/reference/risk-of-altered-immune-system-responses/",
+    "usedFor": "temperature hrpRisk, whyCheck, hazardEffect, whenToEscalate; symptomReport (rashes, cold sores, allergies)"
+  },
+  {
+    "id": "risk-host-microbe",
+    "title": "Risk of Host-Microorganism Interactions",
+    "url": "https://www.nasa.gov/reference/risk-of-host-microorganism-interactions/",
+    "usedFor": "temperature prevention (pre-launch exposure limits)"
+  },
+  {
+    "id": "risk-inflight-medical",
+    "title": "Risk of Adverse Health Outcomes and Decrements in Performance due to Inflight Medical Conditions",
+    "url": "https://www.nasa.gov/directorates/esdmd/hhp/risk-of-adverse-health-outcomes-and-decrements-in-performance-due-to-inflight-medical-conditions",
+    "usedFor": "symptomReport hrpRisk, canMeasureInSpace, whyCheck (head congestion), hazardEffect"
+  },
+  {
+    "id": "risk-sensorimotor",
+    "title": "Risk of Altered Sensorimotor and Vestibular Function",
+    "url": "https://www.nasa.gov/reference/risk-of-altered-sensorimotor-and-vestibular-function/",
+    "usedFor": "symptomReport (motion sickness)"
+  },
+  {
+    "id": "risk-behavioral",
+    "title": "Risk of Behavioral Changes and Psychiatric Disorders",
+    "url": "https://www.nasa.gov/reference/risk-of-behavioral-conditions-and-psychiatric-disorders/",
+    "usedFor": "symptomReport (low mood, isolation, family/medical contact, journaling)"
+  },
+  {
+    "id": "risk-sleep",
+    "title": "Risk of Inadequate Sleep and Irregular Schedules",
+    "url": "https://www.nasa.gov/reference/risk-from-inadequate-sleep-and-irregular-schedules/",
+    "usedFor": "symptomReport (sleep, lighting, self-care time)"
+  },
+  {
+    "id": "risk-hypoxia",
+    "title": "Risk of Hypoxia",
+    "url": "https://www.nasa.gov/reference/risk-of-hypoxia/",
+    "usedFor": "symptomReport whenToEscalate (confusion, headaches, vision impairment, trouble sleeping)"
+  },
+  {
+    "id": "risk-sans",
+    "title": "Risk of Spaceflight Associated Neuro-ocular Syndrome (SANS)",
+    "url": "https://www.nasa.gov/reference/risk-of-spaceflight-associated-neuro-ocular-syndrome-sans/",
+    "usedFor": "Background only (headward fluid shift, eye changes); page does not mention blurred vision or headache, so not quoted"
+  },
+  {
+    "id": "risk-radiation-cancer",
+    "title": "Risk of Radiation-Induced Cancers",
+    "url": "https://www.nasa.gov/reference/risk-of-radiation-induced-cancers/",
+    "usedFor": "radiationDose (all fields); heartRate hazardEffect (radiation may affect heart and blood vessels)"
+  },
+  {
+    "id": "artemis2-space-weather",
+    "title": "To Protect Artemis II Astronauts, NASA Experts Keep Eyes on Sun (NASA Science)",
+    "url": "https://science.nasa.gov/missions/artemis/artemis-2/to-protect-artemis-ii-astronauts-nasa-experts-keep-eyes-on-sun/",
+    "usedFor": "radiationDose canMeasureInSpace (crew active dosimeters), hazardEffect (SPEs), whenToEscalate (caution/shelter thresholds), prevention (cabin reconfiguration, 24/7 monitoring)"
+  },
+  {
+    "id": "nasa-ochmo-sleep-brief",
+    "title": "NASA-STD-3001 Technical Brief: Sleep Accommodations (OCHMO)",
+    "url": "https://www.nasa.gov/wp-content/uploads/2023/03/sleep-accomodations-technical-brief-ochmo.pdf",
+    "usedFor": "sleepHours (all fields), sleepQuality (whyCheck, hazardEffect, whenToEscalate, prevention), eyelidClosure (whenToEscalate, prevention lighting settings), blinkRate (hazardEffect, whenToEscalate), stress.whenToEscalate (sleep loss and team interaction), mood.prevention"
+  },
+  {
+    "id": "nasa-fcl",
+    "title": "Fatigue Countermeasures Laboratory (NASA Ames)",
+    "url": "https://www.nasa.gov/human-systems-integration-division/human-performance/fatigue-countermeasures-laboratory/",
+    "usedFor": "blinkRate.canMeasureInSpace (oculomotor tracking, actigraphy), blinkRate.whenToEscalate (lapses of attention), eyelidClosure.hazardEffect (circadian misalignment reduces alertness), eyelidClosure.prevention (blue-enriched light), sleepHours/sleepQuality.canMeasureInSpace (actigraphy and questionnaires)"
+  },
+  {
+    "id": "nasa-ochmo-bh-brief",
+    "title": "NASA-STD-3001 Technical Brief: Behavioral Health and Performance (OCHMO-TB-016 Rev B)",
+    "url": "https://www.nasa.gov/wp-content/uploads/2023/12/ochmo-tb-016-behavioral-health.pdf",
+    "usedFor": "mood and stress (all fields: WinSCAT, private psychological/family conferences, care packages, journaling/Earth photography, stressors, training, habitat controls), blinkRate/sleepQuality.prevention (ear plugs, light blockers, eye masks)"
+  },
+  {
+    "id": "nasa-ochmo-sans-brief",
+    "title": "NASA Medical Technical Brief: Spaceflight Associated Neuro-ocular Syndrome (SANS) (OCHMO-MTB-001, 02/21/2024)",
+    "url": "https://www.nasa.gov/wp-content/uploads/2024/02/ochmo-mtb-001-sans.pdf",
+    "usedFor": "amslerDistortion and nearAcuity (all fields: in-flight Amsler grid/visual acuity/OCT/fundoscopy/ultrasound, chorioretinal folds causing distortion, hyperopic shift and blurred near vision, B vitamins, thigh cuffs/LBNP, Space Anticipation Glasses)"
+  },
+  {
+    "id": "nih-perclos-review",
+    "title": "PERCLOS-based technologies for detecting drowsiness: current evidence and future directions (Sleep Advances 2023; NIH PMC10108649)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10108649/",
+    "usedFor": "eyelidClosure (canMeasureInSpace, whyCheck, recommendedAction), blinkRate.recommendedAction (head movement and glasses limit camera detection)"
+  },
+  {
+    "id": "nih-blink-drowsiness",
+    "title": "Experimental evaluation of eye-blink parameters as a drowsiness measure (Eur J Appl Physiol; PubMed 12736840)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/12736840/",
+    "usedFor": "eyelidClosure supporting source (blink duration and reopening time change reliably with drowsiness)"
+  },
+  {
+    "id": "nih-blink-fatigue",
+    "title": "Spontaneous eye blink rate: An index of dopaminergic component of sustained attention and fatigue (Int J Psychophysiol; PubMed 29133149)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/29133149/",
+    "usedFor": "blinkRate.whyCheck (blink rate increase indexing fatigue during a task)"
+  },
+  {
+    "id": "hazard-gravity",
+    "title": "Gravity Fields hazard (NASA HRP)",
+    "url": "https://www.nasa.gov/hrp/hazard-gravity-fields/",
+    "usedFor": "Bone loss rate, fluid shifts"
+  },
+  {
+    "id": "hazard-closed-env",
+    "title": "Hostile/Closed Environments hazard (NASA HRP)",
+    "url": "https://www.nasa.gov/hrp/hazard-hostile-closed-environments/",
+    "usedFor": "Microbe transfer, immune changes"
+  },
+  {
+    "id": "hazard-distance",
+    "title": "Distance from Earth hazard (NASA HRP)",
+    "url": "https://www.nasa.gov/hrp/hazard-distance-from-earth/",
+    "usedFor": "Low resupply, comm delay"
+  },
+  {
+    "id": "hazard-isolation",
+    "title": "Isolation and Confinement hazard (NASA HRP)",
+    "url": "https://www.nasa.gov/hrp/hazard-isolation-and-confinement/",
+    "usedFor": "Sleep loss and workload context (not used in indicator text)"
+  },
+  {
+    "id": "hazard-radiation",
+    "title": "Space Radiation hazard (NASA HRP)",
+    "url": "https://www.nasa.gov/hrp/hazard-space-radiation/",
+    "usedFor": "Checked; no link to these indicators found"
+  },
+  {
+    "id": "risk-nutrition",
+    "title": "Risk of Inadequate Food and Nutrition (NASA)",
+    "url": "https://www.nasa.gov/reference/risk-of-inadequate-food-and-nutrition/",
+    "usedFor": "Menu fatigue, shelf life"
+  },
+  {
+    "id": "risk-bone",
+    "title": "Risk of Spaceflight-Induced Bone Changes (NASA)",
+    "url": "https://www.nasa.gov/reference/risk-of-spaceflight-induced-bone-changes/",
+    "usedFor": "Bone loss, bisphosphonates, bone scans"
+  },
+  {
+    "id": "risk-fitness",
+    "title": "Risk of Reduced Cardiorespiratory and Musculoskeletal Fitness (NASA)",
+    "url": "https://www.nasa.gov/reference/risk-of-reduced-cardiorespiratory-and-musculoskeletal-fitness/",
+    "usedFor": "Fitness loss, fall risk, less exercise space on future craft"
+  },
+  {
+    "id": "astronaut-exercise",
+    "title": "Astronaut Exercise (NASA, 2024)",
+    "url": "https://www.nasa.gov/missions/station/iss-research/astronaut-exercise/",
+    "usedFor": "ARED, T2, CEVIS; two hours a day"
+  },
+  {
+    "id": "iss-blog-exercise-2025",
+    "title": "Muscle and Exercise Studies to Maintain Crew Health in Space (ISS blog, 2025)",
+    "url": "https://www.nasa.gov/blogs/spacestation/2025/07/16/muscle-and-exercise-studies-to-maintain-crew-health-in-space/",
+    "usedFor": "Daily two-hour exercise; plans adjusted from health data"
+  },
+  {
+    "id": "nutritional-biochemistry",
+    "title": "Nutritional Biochemistry (NASA JSC)",
+    "url": "https://www.nasa.gov/directorates/esdmd/hhp/nutritional-biochemistry/",
+    "usedFor": "Under-eating, ISS FIT, weekly review to flight surgeon, vitamin D"
+  },
+  {
+    "id": "ochmo-food-nutrition",
+    "title": "NASA-STD-3001 Technical Brief: Food and Nutrition (OCHMO-TB-013)",
+    "url": "https://www.nasa.gov/wp-content/uploads/2023/12/ochmo-tb-013-food-and-nutrition.pdf",
+    "usedFor": "Effects of poor intake; why crews under-eat; meal scheduling"
+  },
+  {
+    "id": "ochmo-sas",
+    "title": "NASA-STD-3001 Medical Technical Brief: Space Adaptation Sickness (OCHMO-MTB-004)",
+    "url": "https://www.nasa.gov/wp-content/uploads/2025/09/ochmo-mtb-004-space-adaptation-sickness-sas.pdf",
+    "usedFor": "Appetite, GI symptoms, insulin sensitivity, constipation treatment, reduced fluid intake"
+  },
+  {
+    "id": "jsc-67378",
+    "title": "Nutritional Requirements for Exploration Missions up to 365 days (JSC-67378 Rev 1)",
+    "url": "https://ntrs.nasa.gov/api/citations/20205008306/downloads/JSC67378%20Expl%20Nutr%20Reqs%20042020.pdf",
+    "usedFor": "Fluid requirement, individual energy needs, fiber"
+  },
+  {
+    "id": "space-food-systems",
+    "title": "Space Food Systems (NASA JSC)",
+    "url": "https://www.nasa.gov/centers-and-facilities/johnson/space-food-systems/",
+    "usedFor": "Personal food choices, shelf life"
+  },
+  {
+    "id": "water-recovery",
+    "title": "NASA Achieves Water Recovery Milestone on International Space Station",
+    "url": "https://www.nasa.gov/missions/station/iss-research/nasa-achieves-water-recovery-milestone-on-international-space-station/",
+    "usedFor": "98% water recovery; about a gallon per person per day"
+  },
+  {
+    "id": "twins-study",
+    "title": "NASA's Twins Study Results Published in Science Journal",
+    "url": "https://www.nasa.gov/humans-in-space/nasas-twins-study-results-published-in-science-journal/",
+    "usedFor": "Gut flora changes, 7% body mass loss, 30% fewer calories"
+  },
+  {
+    "id": "iss-blog-slammd",
+    "title": "Advanced Science in Full Gear Today as Cosmonauts Relax (ISS blog, 2020)",
+    "url": "https://www.nasa.gov/blogs/spacestation/2020/11/23/advanced-science-in-full-gear-today-as-cosmonauts-relax/",
+    "usedFor": "SLAMMD body mass measurement"
+  },
+  {
+    "id": "std-3001-medops",
+    "title": "6.0 Medical Operations (NASA-STD-3001 reference)",
+    "url": "https://www.nasa.gov/reference/6-0-medical-operations/",
+    "usedFor": "8.5-hour sleep period; routine private medical conferences"
+  },
+  {
+    "id": "std-3001-training",
+    "title": "5.0 Training (NASA-STD-3001 reference)",
+    "url": "https://www.nasa.gov/reference/5-0-training/",
+    "usedFor": "Crew medical officer definition and training"
+  },
+  {
+    "id": "living-working-factsheet",
+    "title": "NASA Facts: Living and Working in Space",
+    "url": "https://www.nasa.gov/wp-content/uploads/2015/05/167746main_fs_livingandworkinginspace508c.pdf",
+    "usedFor": "Typical day timeline, planning conferences, weekends"
+  },
+  {
+    "id": "podcast-day-in-space",
+    "title": "A Day in Space (NASA Curious Universe podcast)",
+    "url": "https://www.nasa.gov/podcasts/curious-universe/a-day-in-space/",
+    "usedFor": "Communication with ground throughout the day"
+  },
+  {
+    "id": "expedition-74",
+    "title": "Expedition 74 (NASA)",
+    "url": "https://www.nasa.gov/mission/expedition-74/",
+    "usedFor": "Commander and flight engineer crew roles"
+  }
+]
