@@ -37,7 +37,8 @@ export class TopBarLogic extends DCLogic {
     if (!D || !s || !w) return { ...base, links: [], more: [], envItems: [], crewItems: [], coins: '', streak: '', envShort: '', delayText: '' }
     const here = this.props.current || ''
     const L = [
-      ['Console', 'Body map', 'Body%20Map.dc.html', 'body'], ['Log', 'Manual entry', 'Manual%20Entry.dc.html', 'pen'],
+      ['Console', 'Body map', 'Body%20Map.dc.html', 'body'], ['Schedule', 'Mission schedule', 'Schedule.dc.html', 'clock'],
+      ['Log', 'Manual entry', 'Manual%20Entry.dc.html', 'pen'],
       ['Escalate', 'Escalation', 'Escalation.dc.html', 'send'], ['Crew', 'Medical view', 'Medical%20View.dc.html', 'users'],
       ['Rewards', 'Rewards', 'Rewards.dc.html', 'award'],
     ]
@@ -50,7 +51,6 @@ export class TopBarLogic extends DCLogic {
       ['Metrics', 'Two simulated numbers, assumptions open', 'Metrics.dc.html', 'chart'],
       ['Set up again', 'Replay the one-minute onboarding', 'Onboarding.dc.html', 'spark'],
       ['Mirror check', 'Thirty seconds of camera, then four questions', 'Mirror.dc.html', 'scan'],
-      ['Mission schedule', 'Your day, your role duties, your own blocks', 'Schedule.dc.html', 'clock'],
       ['Crew progress', 'Points for effort, never for values', 'Rewards.dc.html', 'award'],
       ['Radiation', 'Replay a historical solar particle event', 'Radiation.dc.html', 'shield'],
       ['Sources', 'Every NASA dataset and page used', 'Sources.dc.html', 'book'],
