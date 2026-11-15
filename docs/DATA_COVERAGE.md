@@ -1,55 +1,44 @@
-# Daily Orbit data coverage: what we measure, where it comes from, what is still missing
+# Daily Orbit data coverage: what we measure, where it comes from, what is missing
 
-The source of truth is `src/lib/dataCoverage.ts`, and a test (`dataCoverage.test.ts`) fails the build if any indicator has no collection channel or no body region. This page explains it in words.
+The source of truth is `src/lib/dataCoverage.ts`. A test (`dataCoverage.test.ts`) fails the build if any indicator has no collection channel. The same table is shown in the app on the **Sources** screen, so this page does not repeat it row by row.
 
-**Live** = a screen collects it today. **Planned** = assigned in `docs/TEAM_TASKS.md`, not built yet.
+## Where each indicator comes from
 
-## Indicator by indicator
+| Channel | Indicators |
+|---|---|
+| Mirror check, camera | heart rate, blink rate, eyelid closure |
+| Mirror check, vision tests | Amsler distortion, near acuity |
+| Mirror check, questions | sleep quality, sleep hours, mood, stress, symptom report, digestive comfort, appetite |
+| Manual entry (Log screen) | sleep hours, blood pressure, temperature, body mass, blood sugar, exercise minutes, bowel movements, water intake, meals eaten |
+| Reaction test (Log screen) | reaction time |
+| Radiation replay | radiation dose (a labeled simulation) |
+| NASA bed-rest data (Crew 3 only) | heart rate, blood pressure, body mass, temperature, bowel movements, exercise (stretch) minutes, symptom reports |
 
-| Indicator | Live today | Planned | NASA basis (verified wording) |
-|---|---|---|---|
-| Heart rate | Mirror check, camera | | Standard Measures: sensorimotor tests record heart rate. HRP: Cardiovascular Adaptations |
-| Blink rate, eyelid closure | Mirror check, camera | | HRP: Inadequate Sleep and Irregular Schedules (fatigue proxy, our mapping) |
-| Amsler distortion, near acuity | Mirror check, vision | | HRP: Spaceflight Associated Neuro-ocular Syndrome (SANS). Acuity is an uncalibrated self-test |
-| Sleep quality | Mirror check, sliders | | Standard Measures: sleep quality questionnaire |
-| **Sleep hours** | Mirror check, number box | Manual entry | Standard Measures: actigraphy and sleep questionnaire. HRP: Inadequate Sleep |
-| Mood | Mirror check, sliders | | Standard Measures: pre-sleep questionnaire covers mood. HRP: Behavioral Changes and Psychiatric Disorders |
-| Stress | Mirror check, sliders | | HRP: Behavioral Changes and Psychiatric Disorders |
-| Symptom report | Mirror check | Radiation replay follow-ups | Early-reporting design goal |
-| **Digestive comfort** (gut) | Mirror check | | HRP: Host-Microorganism Interactions ("Skin and gut microbiomes can change in space"). Standard Measures: microbiome from fecal samples (we do not collect samples) |
-| **Appetite** (nutrition) | Mirror check | | HRP: Inadequate Food and Nutrition |
-| **Bowel movements** (gut) | NASA bed-rest data (Crew 3) | Manual entry | NASA bed-rest Case Report Forms, daily log (doi:10.83263/wjw1-ta27). HRP: Host-Microorganism Interactions (our mapping) |
-| **Body mass** | Manual entry, NASA bed-rest data (Crew 3) | | HRP: Inadequate Food and Nutrition. ISS crews measure body mass regularly (PubMed 25197887) |
-| Blood sugar | | Manual entry | HRP: Inadequate Food and Nutrition (our mapping). Standard Measures: biochemical markers from blood |
-| Blood pressure (sys, dia) | | Manual entry | Standard Measures: sensorimotor tests record blood pressure. HRP: Cardiovascular Adaptations (BP itself is not named on the risks page) |
-| Body temperature | | Manual entry | Named in the challenge. We found no NASA page that mentions it |
-| Exercise minutes | | Manual entry | Standard Measures: actigraphy (activity). HRP: Spaceflight-Induced Bone Changes; Reduced Cardiorespiratory and Musculoskeletal Fitness |
-| Radiation dose | | Radiation replay | HRP: Radiation-Induced Cancers. NASA DONKI solar particle events. The dose is a labeled simulation |
+The NASA basis for each indicator (Standard Measures category, HRP risk title) is in `dataCoverage.ts`. Where the mapping is ours rather than NASA's, the text says "our mapping". Temperature has no NASA page behind it; it is in the challenge brief.
 
-Gut health was a real gap: the "gut" region used to hold only blood sugar, which is a metabolic marker, not gut health. It now holds digestive comfort, appetite, body mass and blood sugar.
+## NASA data we use
 
-## NASA data and practice we use or can use
+| What | How we use it |
+|---|---|
+| NASA Life Sciences Data Archive, bed-rest Case Report Forms, Campaign 3 (doi:10.83263/wjw1-ta27) | Crew 3's history: one de-identified participant, 30 days (end of baseline, start of head-down tilt). Ground analog, not in-flight data. Built by `scripts/import-bedrest.ts` into `src/data/bedrest.json` |
+| NASA DONKI solar energetic particle events | 494 events (2010 to 2026) fetched at build time; six are replayable. Built by `scripts/fetch-donki.ts` into `src/data/donki-sep.json` |
+| LRO CRaTER dose rates and GOES proton flux, via NASA CCMC iSWA | Measured dose rate (lunar orbit) behind the replay, and proton flux for context. The dose on the simulated vehicle is a labeled simulation: one rate for every environment, 1 mGy counted as 1 mSv, no shielding model |
+| NASA HRP risks and Spaceflight Standard Measures | Every indicator carries its HRP risk title and Standard Measures category |
+| 71 pages in `src/content/sources.json` (52 NASA, 19 NIH, MedlinePlus, PubMed and Canadian Space Agency) | Indicator explanations, equipment, fluid goal, crew-day schedule, nutrition tips |
 
-| What | Where | How we use it | Status |
-|---|---|---|---|
-| Spaceflight Standard Measures (nine core measurements) | nasa.gov/reference/standard-measures and the article it links | Every indicator is tagged with its category; uncovered ones are listed on the Sources screen | Tags done (first pass), Sources screen: Evode |
-| HRP risk names (17 risks) | nasa.gov/hrp/risks | Exact titles are on every indicator card (`hrpRisk` in `src/content/indicators.json`) | Done. Remaining text fields still need writing (Evode, E4) |
-| NASA Life Sciences Portal bed-rest data | nlsp.nasa.gov | Real de-identified history for Crew 3 | E1 and E2 (Evode) |
-| NASA DONKI solar particle events | api.nasa.gov/DONKI or ccmc.gsfc.nasa.gov/DONKI-API | Radiation replay and dose ledger | E3 (Evode) |
-| NASA OSDR human gut datasets | osdr.nasa.gov | Gut microbiome reference panel: SpaceX Inspiration4 stool metagenome (OSD-630, pre- and post-flight) and the MARS500 520-day confinement analog (GLDS-191). Found through a catalog search, **not yet opened**: confirm access, files and terms first | Stretch (Evode, E7) |
+All data is fetched at build time. The app makes no network calls at runtime.
 
-## Standard Measures categories we do NOT cover (the Sources screen must say so)
+## Standard Measures categories we do not cover
 
-Cognition tests (10 computer tests), carotid intima-media thickness (ultrasound), cellular profile (blood and saliva), biochemical markers beyond the single glucose entry (blood and urine), microbiome samples (we only collect a self-reported digestive comfort score), personality questionnaire, and the strength test. We cover actigraphy only as exercise minutes, not as a wrist sensor.
+Cognition tests (we run one short reaction-time test only), carotid intima-media thickness (ultrasound), cellular profile (blood and saliva), biochemical markers beyond one blood sugar entry (blood and urine), microbiome samples (we collect only a self-reported digestive comfort score and a bowel movement count), personality questionnaire, strength test. We cover actigraphy only as exercise minutes, not as a wrist sensor. The Sources screen lists these too.
 
-## Open gaps worth doing if time allows
+## Data we opened but did not use
 
-1. **Scheduled sample and check-in prompts** (brief, P1): for example a reminder when a microbiome sample or a body-mass reading is due. NASA collects fecal samples for the microbiome and takes body mass regularly, so a prompt follows real practice.
-2. **A short cognition check** (for example a one-minute reaction-time test) to cover the Standard Measures cognition category. Optional, and it would need a new indicator.
-3. **Hydration and food intake**: the "Inadequate Food and Nutrition" risk is about diet, and we only have appetite and body mass.
+NASA OSDR gut microbiome datasets (OSD-630, OSD-191), Mars rover and space station dose data, DONKI event intensity, bed-rest sleep and mood data for other participants, and clinical thresholds. The reasons are on the Sources screen ("What we could not use").
 
 ## Honest limits
 
-- Digestive comfort and appetite are self-reports. They are early flags for a gut or nutrition problem, **not** a microbiome measurement, and the app says so.
-- Seeded crew values (including gut and body mass) are invented and labeled "Simulated data".
-- The guest profile starts with no history and builds its own baseline (5 earlier readings) instead of being compared to made-up numbers.
+- Digestive comfort and appetite are self-reports. They are early flags, not a microbiome measurement, and the app says so.
+- Crews 1 and 2 are simulated and labeled "Simulated data". Crew 3's other indicators are simulated too, hence the label "NASA bed-rest analog data, de-identified (partly simulated)".
+- The guest profile starts with no history and builds its own baseline instead of being compared to made-up numbers.
+- No indicator has a clinical threshold. Status comes from each person's own baseline.

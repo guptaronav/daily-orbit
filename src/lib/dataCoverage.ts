@@ -40,7 +40,7 @@ export const COVERAGE: Record<Indicator, Coverage> = {
   bloodPressureDia: { live: ['manualEntry', 'nasaBedrest'], planned: [], nasaBasis: `${STD}: sensorimotor tests record blood pressure; ${HRP}: Cardiovascular Adaptations` },
   temperature: { live: ['manualEntry', 'nasaBedrest'], planned: [], nasaBasis: 'Named in the challenge; no Standard Measures or HRP page found that mentions it' },
   exerciseMinutes: { live: ['manualEntry', 'nasaBedrest'], planned: [], nasaBasis: `${STD}: actigraphy (activity); ${HRP}: Bone Changes, Cardiorespiratory and Musculoskeletal Fitness` },
-  radiationDose: { live: [], planned: ['radiationReplay'], nasaBasis: `${HRP}: Radiation-Induced Cancers; NASA DONKI solar particle events (simulated dose)` },
+  radiationDose: { live: ['radiationReplay'], planned: [], nasaBasis: `${HRP}: Radiation-Induced Cancers; NASA DONKI solar particle events (simulated dose)` },
 }
 
 /** Indicators no screen collects yet: the live gap list. Shrinks as teammates' screens land. */
