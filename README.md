@@ -22,7 +22,7 @@ Every requirement and suggestion in the challenge brief, where Daily Orbit answe
 | Indicators named in the brief: blood pressure, heart rate, blood sugar, body temperature, sleep hours, mood | All six, plus 17 more | Log; Mirror check |
 | Help astronauts evaluate their own health | Each reading is compared with that person's own baseline and a fixed reference from their first two weeks; steady slides are caught; related readings combine into patterns; ratings that disagree with measurements are pointed out | Body (body map) |
 | Guidance on treatments and health improvements | Every indicator answers the brief's five questions plus a recommended action, from NASA sources; each pattern has a care plan (do now, prevent, re-check, when to escalate) | Body map: indicator FAQ, Patterns, Care plan |
-| Which measurements can be performed in space? Why is an exam needed? How do hazards affect them? When does a result need the crew or flight surgeons? What prevents a critical condition? | Answered for all 23 indicators, from the 71 NASA and NIH pages listed in [`src/content/sources.json`](src/content/sources.json) | Body map: each indicator's FAQ; Ask Orbit |
+| Which measurements can be performed in space? Why is an exam needed? How do hazards affect them? When does a result need the crew or flight surgeons? What prevents a critical condition? | Answered for all 23 indicators, from the 71 pages (52 NASA, 19 NIH, MedlinePlus and Canadian Space Agency) listed in [`src/content/sources.json`](src/content/sources.json) | Body map: each indicator's FAQ; Ask Orbit |
 | NASA HRP resources and the five hazards | Each indicator names its HRP risk; a five-hazards panel colors each hazard by the readings it affects, with the career radiation budget and cabin air | Body map: The five hazards |
 | A visual tool; a clickable human figure showing function and health status | Body map with an X-ray tour; each region says what it does in the body and why spaceflight matters for it | Body map |
 | Animations and interactivity | Animated body tour, mission banners with discoveries, drifting crew, live schedule | Body map; Rewards |
@@ -59,7 +59,7 @@ Every requirement and suggestion in the challenge brief, where Daily Orbit answe
 | **Rewards** | Streaks, levels, a mission pass, a daily supply drop, badges, and a locker of cosmetic gear including illustrated mission banners (Earthrise, Pale blue dot, Jezero dusk, Deep transit) with hidden NASA-fact discoveries |
 | **Metrics** | Proof and models: the flagging rules tested on real NASA bed-rest data, then two numbers we cannot measure yet, modeled openly with editable inputs |
 | **Radiation** | Replays a real historical solar particle event from NASA DONKI with measured dose rates, on a simulated vehicle |
-| **Sources** | The NASA data and pages we use, and what we could not cover (in progress) |
+| **Sources** | The NASA datasets and pages we use, what each one drives, indicator coverage, equipment, and what we could not use |
 
 **Guided tour:** the yellow "Take the 60-second tour" button on the landing page (or `?tour=1`) walks through eleven stops and fires live scenarios along the way.
 
@@ -117,10 +117,10 @@ The reasoning, with its NASA basis, is in [docs/GAMIFICATION.md](docs/GAMIFICATI
 |---|---|
 | [NASA Human Research Program risks](https://www.nasa.gov/hrp/risks) | The named HRP risk on every indicator |
 | [Spaceflight Standard Measures](https://www.nasa.gov/reference/standard-measures/) | Tagging each indicator with the NASA measurement category it relates to |
-| NASA Life Sciences Data Archive **bed-rest case report forms** (doi:10.83263/wjw1-ta27) | Crew 3's real, de-identified history: pulse, blood pressure, weight, temperature, bowel movements, stretching and symptoms from a head-down-tilt bed-rest analog |
+| NASA Life Sciences Data Archive **bed-rest case report forms** (doi:10.83263/wjw1-ta27) | Crew 3's real, de-identified history: one participant, 30 days of pulse, blood pressure, weight, temperature, bowel movements, stretching and symptoms from a ground head-down-tilt bed-rest analog (not in-flight data) |
 | [NASA DONKI](https://ccmc.gsfc.nasa.gov/DONKI-API/) solar energetic particle events | The radiation replay (494 events, 2010 to 2026) |
-| LRO CRaTER dose rates and GOES proton flux via NASA CCMC iSWA | Measured dose rates and context for the replay |
-| NASA OCHMO technical briefs, NASA nutrition requirements (JSC-67378), ISS and HRP pages | The indicator explanations, fluid goal, crew-day schedule and nutrition tips (47 pages in [`src/content/sources.json`](src/content/sources.json)) |
+| LRO CRaTER dose rates and GOES proton flux via NASA CCMC iSWA | Measured lunar-orbit dose rates and proton flux for the replay. The dose on the simulated vehicle is a labeled simulation, not dosimetry |
+| NASA OCHMO technical briefs, NASA nutrition requirements (JSC-67378), ISS and HRP pages | The indicator explanations, fluid goal, crew-day schedule and nutrition tips (52 NASA pages, plus 19 from NIH, MedlinePlus and the Canadian Space Agency, in [`src/content/sources.json`](src/content/sources.json)) |
 
 All NASA data is fetched at build time into `src/data/*.json`. The app makes **no network calls at runtime**. Crews 1 and 2 use simulated data, and every screen labels it that way. Coverage per indicator, and the Standard Measures categories we do not cover, are in [docs/DATA_COVERAGE.md](docs/DATA_COVERAGE.md).
 
@@ -188,6 +188,10 @@ NOTES.md        Every assumption and limitation, as we made it
 - The sample recording for people without a webcam has not been recorded yet.
 
 The full list is in [NOTES.md](NOTES.md).
+
+## AI use
+
+Much of the code in this repository was written with Claude Code, an AI coding assistant, working from the team's direction. No NASA logos or branding are used.
 
 ## Team
 
