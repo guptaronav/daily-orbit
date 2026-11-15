@@ -1,9 +1,10 @@
-import { useEffect, useReducer, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { RENOTIFY_MS } from '../lib/alerts'
 import * as D from './data'
 import { useApp } from '../state/AppContext'
 import { bridge } from './store'
 import { AlertActionCard, MedicalOfficerSetting, ResolvedAlerts } from './AlertCare'
+import { timeAgo, useStoreTick } from './shared'
 
 /*
  * The alert loop on screen. AlertBanner sits under the top bar on every page while any alert is
@@ -26,17 +27,8 @@ type Alert = {
   closedAt?: number
 }
 
-const ago = (t: number) => {
-  const m = Math.max(0, Math.round((Date.now() - t) / 60000))
-  if (m < 1) return 'just now'
-  if (m < 60) return `${m} min ago`
-  const h = Math.round(m / 60)
-  return h < 48 ? `${h} h ago` : `${Math.round(h / 24)} days ago`
-}
-
 function useAlerts() {
-  const [, bump] = useReducer((n: number) => n + 1, 0)
-  useEffect(() => D.onState(bump), [])
+  const bump = useStoreTick()
   // Re-render on a clock so ages and the re-announce pulse move on their own.
   useEffect(() => {
     const t = setInterval(bump, 30_000)
@@ -78,7 +70,7 @@ export function AlertBanner() {
             .slice(0, 2)
             .map((a) => `${a.crewName}: ${a.title}`)
             .join(' · ')}
-          {open.length > 2 ? ` · +${open.length - 2} more` : ''} · oldest {ago(oldest)}
+          {open.length > 2 ? ` · +${open.length - 2} more` : ''} · oldest {timeAgo(oldest)}
           {worstEsc === 2 ? ' · unanswered over an hour: time to tell Earth' : worstEsc === 1 ? ' · the backup has been asked too' : ''}
         </span>
         <button type="button" onClick={() => bridge.go?.('medical' as never)} style={{ marginLeft: 'auto', minHeight: 36, padding: '0 14px', borderRadius: 10, border: 0, background: '#fff', color: '#14181f', fontWeight: 750, cursor: 'pointer' }}>
@@ -96,7 +88,7 @@ function AlertRow({ a, history = false }: { a: Alert; history?: boolean }) {
   const [note, setNote] = useState('')
   const tone = a.status === 'red' ? 'var(--act)' : 'var(--watch)'
   const e = D.alertEscalation(a) as { level: number; text: string }
-  const when = a.state === 'open' ? ago(a.firstSeen) : a.state === 'acknowledged' ? `seen ${ago(a.ackAt!)}` : `closed ${ago(a.closedAt!)}`
+  const when = a.state === 'open' ? timeAgo(a.firstSeen) : a.state === 'acknowledged' ? `seen ${timeAgo(a.ackAt!)}` : `closed ${timeAgo(a.closedAt!)}`
   const small = { minHeight: 32, padding: '0 11px', borderRadius: 10, fontWeight: 700, fontSize: 13, cursor: 'pointer' } as const
   return (
     <li style={{ borderRadius: 14, background: 'var(--panel)', border: `1.5px solid ${a.state === 'open' ? tone : 'var(--rule)'}`, opacity: history ? 0.75 : 1 }}>

@@ -1,5 +1,5 @@
-import { useEffect, useReducer } from 'react'
 import * as D from './data'
+import { useStoreTick } from './shared'
 
 /*
  * What Earth receives. The crew member chooses which kinds of change may leave the ship; anything
@@ -7,8 +7,7 @@ import * as D from './data'
  * Not gamified on purpose: privacy is never something to earn coins for.
  */
 export function ShareChoices({ withheld }: { withheld: number }) {
-  const [, bump] = useReducer((n: number) => n + 1, 0)
-  useEffect(() => D.onState(bump), [])
+  useStoreTick()
   const id = D.getState().crew.id as string
   const set = D.shareSettings(id) as Record<string, boolean>
   const groups = D.SHARE_GROUPS as { id: string; label: string; hint: string }[]

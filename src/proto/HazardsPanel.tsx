@@ -1,5 +1,6 @@
-import { useEffect, useReducer, useState } from 'react'
+import { useState } from 'react'
 import * as D from './data'
+import { useStoreTick } from './shared'
 
 /*
  * NASA's five hazards of human spaceflight, as this crew member lives them on this mission. Each
@@ -97,8 +98,7 @@ export function DoseBudget({ b }: { b: Budget }) {
 }
 
 export function HazardsPanel() {
-  const [, bump] = useReducer((n: number) => n + 1, 0)
-  useEffect(() => D.onState(bump), [])
+  useStoreTick()
   const s = D.getState()
   const list = D.hazards(s.crew.id) as Hazard[]
   const cabin = D.cabin(s.crew.id) as Cabin

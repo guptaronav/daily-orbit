@@ -1,6 +1,6 @@
-import { useEffect, useReducer } from 'react'
 import * as D from './data'
 import { bridge } from './store'
+import { useStoreTick } from './shared'
 
 /*
  * What to do about an alert, on the alert itself: steps for Now and Today, when to move up the
@@ -15,12 +15,6 @@ import { bridge } from './store'
 type Alert = { id: string; crewId: string; crewName: string; title: string; status: 'yellow' | 'red'; state: string; firstSeen: number }
 type Step = { id: string; text: string; go?: string; done: boolean }
 type Plan = { now: Step[]; today: Step[]; escalateIf: string; source: string; nowDone: boolean; points: number }
-
-function useTick() {
-  const [, bump] = useReducer((n: number) => n + 1, 0)
-  useEffect(() => D.onState(bump), [])
-  return bump
-}
 
 function StepList({ a, steps, label }: { a: Alert; steps: Step[]; label: string }) {
   if (!steps.length) return null
@@ -46,7 +40,7 @@ function StepList({ a, steps, label }: { a: Alert; steps: Step[]; label: string 
 
 /** The action card for one alert. `compact` drops the "Today" list (for the Today page). */
 export function AlertActionCard({ a, compact = false }: { a: Alert; compact?: boolean }) {
-  useTick()
+  useStoreTick()
   const p = D.alertPlan(a) as Plan
   return (
     <div style={{ display: 'grid', gap: 8, padding: 10, borderRadius: 14, border: '1px dashed var(--rule-strong)', background: 'var(--panel)' }}>
@@ -69,7 +63,7 @@ export function AlertActionCard({ a, compact = false }: { a: Alert; compact?: bo
 
 /** Who answers alerts, and who covers when that person is the one who is unwell. */
 export function MedicalOfficerSetting() {
-  useTick()
+  useStoreTick()
   const m = D.medicalOfficer() as { primary: string; backup: string; primaryName: string; backupName: string; unwell: boolean; activeName: string }
   const crew = (D.CREW as { id: string; name: string }[]).filter((c) => c.id !== 'guest')
   const sel = { minHeight: 36, padding: '0 10px', borderRadius: 10, border: '1.5px solid var(--rule-strong)', background: 'var(--panel)', color: 'var(--ink)', font: 'inherit' } as const
@@ -111,7 +105,7 @@ export function MedicalOfficerSetting() {
 
 /** Alerts that closed themselves because the readings came back within usual. */
 export function ResolvedAlerts({ bare = false }: { bare?: boolean }) {
-  useTick()
+  useStoreTick()
   const list = D.resolvedAlerts() as { id: string; crewName: string; title: string; resolvedAt: number; firstSeen: number }[]
   if (!list.length) return null
   const ago = (t: number) => {

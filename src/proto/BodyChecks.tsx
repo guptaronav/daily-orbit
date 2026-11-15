@@ -1,8 +1,9 @@
-import { useEffect, useReducer, useRef, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { BodyFigureMap } from './BodyFigureMap'
 import { getContent } from '../lib/content'
 import * as D from './data'
 import { bridge } from './store'
+import { painColor, useCrewId } from './shared'
 
 /*
  * Body checks: four short checks that cover what the camera and the daily forms do not.
@@ -35,12 +36,6 @@ const input = { minHeight: 42, padding: '0 12px', borderRadius: 12, border: '1.5
 const primary = (on = true) => ({ minHeight: 46, padding: '0 18px', borderRadius: 14, border: 0, background: on ? '#14181f' : 'var(--paper-deep)', color: on ? '#f3f1ea' : 'var(--muted)', boxShadow: on ? '0 4px 0 #000' : 'none', fontWeight: 750, fontSize: 15, cursor: on ? 'pointer' : 'not-allowed' }) as const
 const ghost = { minHeight: 40, padding: '0 14px', borderRadius: 12, border: '1.5px solid var(--ink)', background: 'var(--panel)', color: 'var(--ink)', fontWeight: 700, cursor: 'pointer' } as const
 
-function useLive() {
-  const [, bump] = useReducer((n: number) => n + 1, 0)
-  useEffect(() => D.onState(bump), [])
-  return D.getState().crew.id as string
-}
-
 function Coins({ n }: { n: number }) {
   if (!n) return null
   return <span style={{ marginLeft: 'auto', fontWeight: 800, color: '#a8740a', animation: 'fw-coin 1100ms ease-out forwards' }}>+{n}</span>
@@ -61,10 +56,9 @@ function Sourced({ ind }: { ind: string }) {
 
 type Area = { area: string; label: string; level: number; kind: string }
 const KINDS = ['Ache', 'Sharp', 'Stiff', 'Numb or tingling']
-const heat = (lv: number) => (lv >= 7 ? 'var(--act)' : lv >= 4 ? '#e8742c' : 'var(--watch)')
 
 function PainMap() {
-  const id = useLive()
+  const id = useCrewId()
   const [back, setBack] = useState(false)
   const [areas, setAreas] = useState<Area[]>([])
   const [editing, setEditing] = useState<string | null>(null)
@@ -106,7 +100,7 @@ function PainMap() {
           <ul style={{ listStyle: 'none', margin: 0, padding: 0, display: 'grid', gap: 6 }}>
             {areas.map((a) => (
               <li key={a.area} style={{ display: 'flex', alignItems: 'center', gap: 8, padding: '8px 10px', borderRadius: 12, background: editing === a.area ? 'var(--panel)' : 'transparent', border: `1.5px solid ${editing === a.area ? 'var(--ink)' : 'var(--rule)'}` }}>
-                <span aria-hidden="true" style={{ width: 10, height: 10, borderRadius: 99, background: heat(a.level) }} />
+                <span aria-hidden="true" style={{ width: 10, height: 10, borderRadius: 99, background: painColor(a.level) }} />
                 <button type="button" onClick={() => setEditing(a.area)} style={{ flex: 1, textAlign: 'left', border: 0, background: 'transparent', color: 'var(--ink)', font: 'inherit', fontWeight: 650, cursor: 'pointer', padding: 0 }}>
                   {a.label} · {a.level}/10 · {a.kind.toLowerCase()}
                 </button>
@@ -120,7 +114,7 @@ function PainMap() {
         {cur && (
           <div style={{ display: 'grid', gap: 10, padding: 12, borderRadius: 14, background: 'var(--panel)', border: '1px solid var(--rule)' }}>
             <label style={{ display: 'grid', gap: 6, fontSize: 14, fontWeight: 650 }}>
-              {cur.label}: how bad, 1 to 10? <strong style={{ fontSize: 22, color: heat(cur.level) }}>{cur.level}</strong>
+              {cur.label}: how bad, 1 to 10? <strong style={{ fontSize: 22, color: painColor(cur.level) }}>{cur.level}</strong>
               <input type="range" min={1} max={10} value={cur.level} onChange={(e) => upd(cur.area, { level: Number(e.target.value) })} />
             </label>
             <div role="group" aria-label="What kind of pain" style={{ display: 'flex', flexWrap: 'wrap', gap: 6 }}>
@@ -155,7 +149,7 @@ function PainMap() {
             <ul style={{ listStyle: 'none', margin: 0, padding: 0, display: 'grid', gap: 4, fontSize: 13.5 }}>
               {sum.areas.slice(0, 4).map((a) => (
                 <li key={a.area} style={{ display: 'flex', gap: 8 }}>
-                  <span aria-hidden="true" style={{ width: 8, height: 8, marginTop: 6, borderRadius: 99, background: heat(a.worst) }} />
+                  <span aria-hidden="true" style={{ width: 8, height: 8, marginTop: 6, borderRadius: 99, background: painColor(a.worst) }} />
                   <span>
                     <strong>{a.label}</strong>: {a.days} day{a.days === 1 ? '' : 's'}, worst {a.worst}/10
                   </span>
@@ -200,7 +194,7 @@ function Countdown({ seconds, label: what, onDone }: { seconds: number; label: s
 
 type StandStep = 'intro' | 'lying' | 'lyingRead' | 'standing' | 'standingRead' | 'result'
 function StandTest() {
-  const id = useLive()
+  const id = useCrewId()
   const [step, setStep] = useState<StandStep>('intro')
   const [v, setV] = useState({ lyHr: '', lySys: '', lyDia: '', stHr: '', stSys: '', stDia: '', dizzy: false })
   const [res, setRes] = useState<{ rise: number; sysDrop: number | null; diaDrop: number | null; points: number } | null>(null)
@@ -354,7 +348,7 @@ const SCREEN = [
 const FREQ = ['Not at all', 'Several days', 'More than half the days', 'Nearly every day']
 
 function WeeklyCheck() {
-  const id = useLive()
+  const id = useCrewId()
   const [tlx, setTlx] = useState<Record<string, number>>(Object.fromEntries(TLX.map((t) => [t.k, 5])))
   const [scr, setScr] = useState<Record<string, number | null>>(Object.fromEntries(SCREEN.map((s) => [s.k, null])))
   const [res, setRes] = useState<{ workload: number; phq2: number; gad2: number; points: number; prev: number | null } | null>(null)
@@ -454,7 +448,7 @@ function WeeklyCheck() {
 
 const LIFTS = ['Squats', 'Deadlifts', 'Heel raises', 'Bench press', 'Rows', 'Other']
 function Strength() {
-  const id = useLive()
+  const id = useCrewId()
   const [g, setG] = useState({ right: '', left: '' })
   const [lift, setLift] = useState({ exercise: 'Squats', sets: '3', reps: '8', load: '', minutes: '30' })
   const [msg, setMsg] = useState<{ text: string; points: number } | null>(null)

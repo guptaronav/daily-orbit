@@ -36,30 +36,29 @@ export class TopBarLogic extends DCLogic {
     const base = { here: this.props.current || '', rootRef: this.rootRef, toggleMore: this.tog('more'), toggleEnv: this.tog('env'), toggleMe: this.tog('me'), moreOpen: open === 'more', envOpen: open === 'env', meOpen: open === 'me', navOrder: this.state.narrow ? 3 : 1, navFlex: this.state.narrow ? '1 1 100%' : '0 1 auto' }
     if (!D || !s || !w) return { ...base, links: [], more: [], envItems: [], crewItems: [], coins: '', streak: '', envShort: '', delayText: '' }
     const here = this.props.current || ''
-    // Five tabs for the daily loop, the check-in first and highlighted until it is done today.
-    // Everything else (schedule, the medical officer's view, rewards, reports, data pages) lives under More.
+    // Six tabs for the daily loop, the check-in highlighted until it is done today, and Rewards.
+    // The weekly report is the page icon by the mission button; schedule, the medical officer's
+    // view and the data pages live under More.
     const checkInDone = !!(D.todayTasks(s.crew.id).find((t) => t.id === 'checkIn') || {}).done
     const L = [
       ['Today', 'Today', 'Today.dc.html', 'spark'], ['Check in', 'Mirror check', 'Mirror.dc.html', 'scan'], ['Log', 'Manual entry', 'Manual%20Entry.dc.html', 'pen'],
       ['Body', 'Body map', 'Body%20Map.dc.html', 'body'], ['Escalate', 'Escalation', 'Escalation.dc.html', 'send'],
+      ['Rewards', 'Rewards', 'Rewards.dc.html', 'award'],
     ]
     const links = L.map(([label, match, href, icon]) => {
       const on = here === match
       const cta = label === 'Check in' && !checkInDone && !on
       return { label, href, icon: D.ICONS[icon], current: on ? 'page' : undefined, dot: cta, bg: on ? 'var(--panel)' : cta ? 'var(--accent)' : 'transparent', color: on ? 'var(--ink)' : cta ? 'var(--on-accent)' : 'var(--muted)', shadow: on ? '0 1px 2px rgba(20,24,31,.1), 0 4px 12px -6px rgba(20,24,31,.25)' : 'none', weight: on || cta ? 600 : 500 }
     })
-    const reportReady = !!D.reportStatus(s.crew.id).ready
     const M = [
       ['Mission schedule', 'Your day, block by block, and the reminder time', 'Schedule.dc.html', 'clock'],
       ['Crew medical view', 'Everyone at once, for the crew medical officer', 'Medical%20View.dc.html', 'users'],
-      ['Rewards', 'Coins, level, locker and crew goal', 'Rewards.dc.html', 'award'],
-      ['Weekly report', reportReady ? 'Your week is ready to read' : 'Your week on one page for the flight surgeon', 'Report.dc.html', 'chart'],
       ['Radiation', 'Replay a historical solar particle event', 'Radiation.dc.html', 'shield'],
       ['Metrics', 'Modeled numbers and the real-data test', 'Metrics.dc.html', 'chart'],
       ['Sources', 'Every NASA dataset and page used', 'Sources.dc.html', 'book'],
       ['Set up again', 'Replay the one-minute setup', 'Onboarding.dc.html', 'spark'],
     ]
-    const MORE_MATCH = ['Mission schedule', 'Medical view', 'Rewards', 'Weekly report', 'Radiation', 'Metrics', 'Sources']
+    const MORE_MATCH = ['Mission schedule', 'Medical view', 'Radiation', 'Metrics', 'Sources']
     const moreActive = MORE_MATCH.includes(here)
     const more = M.map(([label, desc, href, icon]) => ({ label, desc, href, disabled: undefined, op: 1, cursor: 'pointer', path: D.ICONS[icon], tileBg: 'var(--ink)', tileColor: 'var(--paper)' }))
     const g = D.game(s.crew.id), lv = D.level(w.xp), gr = D.gear(w)
@@ -68,7 +67,7 @@ export class TopBarLogic extends DCLogic {
     const crewItems = D.CREW.map((c) => { const a = c.id === s.crew.id; return { crew: c, gear: D.gear(c.id), active: String(a), ring: D.STATUS[D.crewData(c.id).worst].swatch, bg: a ? 'var(--panel-2)' : 'transparent', border: a ? 'var(--ink)' : 'transparent', pick: () => D.setState({ crewId: c.id }) } })
     const deck = s.theme === 'deck'
     return {
-      ...base, links, more, moreDot: reportReady, moreColor: moreActive ? 'var(--ink)' : 'var(--muted)', moreBg: open === 'more' || moreActive ? 'var(--panel)' : 'transparent', moreRot: open === 'more' ? 'rotate(180deg)' : 'none',
+      ...base, links, more,  moreColor: moreActive ? 'var(--ink)' : 'var(--muted)', moreBg: open === 'more' || moreActive ? 'var(--panel)' : 'transparent', moreRot: open === 'more' ? 'rotate(180deg)' : 'none',
       envShort: s.env.id === 'iss' ? 'ISS' : s.env.id === 'lunar' ? 'Moon' : 'Mars', delayText: D.formatDelay(s.delay), envItems, adjustable,
       delay: s.delay, dMin: s.env.min, dMax: s.env.max, dPct: adjustable ? ((s.delay - s.env.min) / (s.env.max - s.env.min)) * 100 + '%' : '0%',
       dMinText: adjustable ? D.formatDelay(s.env.min) : '', dMaxText: adjustable ? D.formatDelay(s.env.max) : '', setDelay: (e) => D.setState({ delay: Number(e.target.value) }),

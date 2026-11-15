@@ -1,5 +1,6 @@
-import { useEffect, useReducer } from 'react'
+import { useEffect } from 'react'
 import * as D from './data'
+import { useStoreTick } from './shared'
 
 /*
  * The ground link, delay and all. Each packet sent from Escalate travels for the real one-way
@@ -18,8 +19,7 @@ const span = (ms: number) => {
 }
 
 export function useGroundLink(): Link {
-  const [, bump] = useReducer((n: number) => n + 1, 0)
-  useEffect(() => D.onState(bump), [])
+  const bump = useStoreTick()
   useEffect(() => {
     const t = setInterval(bump, 1000)
     return () => clearInterval(t)

@@ -1,5 +1,6 @@
-import { useEffect, useId, useReducer, useState } from 'react'
+import { useEffect, useId, useState } from 'react'
 import * as D from './data'
+import { useStoreTick } from './shared'
 
 /*
  * Food and water on the Log screen. Water fills a drink pouch (crews drink from sealed pouches
@@ -49,8 +50,7 @@ const press = (bg: string, ink: string, shadow: string) => ({
 })
 
 export function FoodWater() {
-  const [, bump] = useReducer((n: number) => n + 1, 0)
-  useEffect(() => D.onState(bump), [])
+  useStoreTick()
   const id: string = D.getState().crew.id
   useEffect(() => {
     void D.commitIntake(id)

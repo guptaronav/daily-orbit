@@ -1,7 +1,8 @@
-import { useEffect, useReducer } from 'react'
+import { useEffect } from 'react'
 import { readiness } from '../lib/readiness'
 import * as D from './data'
 import { getSnapshot } from './store'
+import { useStoreTick } from './shared'
 
 /*
  * The weekly flight-surgeon report: one page per crew member covering the last seven days, laid
@@ -19,8 +20,7 @@ const h2 = { margin: '22px 0 8px', fontSize: 18, fontWeight: 750, letterSpacing:
 type Reading = { id: string; label: string; unit: string; dp: number; status: string; latest: { v: number } | null; baseline: { mean: number } | null; reference?: { mean: number } | null; history: { t: number; v: number; passed: boolean }[] }
 
 export function ReportPage() {
-  const [, bump] = useReducer((n: number) => n + 1, 0)
-  useEffect(() => D.onState(bump), [])
+  useStoreTick()
   const s = D.getState()
   const crew = s.crew as { id: string; name: string; role: string }
   useEffect(() => D.markReportSeen(crew.id), [crew.id])

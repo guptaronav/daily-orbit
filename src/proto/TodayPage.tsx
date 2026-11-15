@@ -1,4 +1,4 @@
-import { useEffect, useReducer } from 'react'
+import { useEffect } from 'react'
 import { openBodyCheck } from './BodyChecks'
 import { readiness, type ReadinessLevel } from '../lib/readiness'
 import { blockState, doneToday, isBlockDone, planFor, toMinutes, type CustomBlock } from '../lib/schedule'
@@ -7,6 +7,7 @@ import * as D from './data'
 import * as P from './parts'
 import { bridge, getSnapshot } from './store'
 import { AlertActionCard } from './AlertCare'
+import { useStoreTick } from './shared'
 
 /*
  * Today: what to do today. Readiness and its reasons, the living body figure, the next block on
@@ -30,8 +31,7 @@ const go = (s: string) => bridge.go?.(s as never)
 const screenFor = (href: string) => (href.startsWith('Mirror') ? 'mirror' : href.startsWith('Manual') ? 'manual' : 'today')
 
 export function TodayPage() {
-  const [, bump] = useReducer((n: number) => n + 1, 0)
-  useEffect(() => D.onState(bump), [])
+  const bump = useStoreTick()
   useEffect(() => {
     const t = setInterval(bump, 30_000)
     return () => clearInterval(t)
@@ -93,12 +93,10 @@ export function TodayPage() {
     </div>
   )
   const actions: { label: string; sub: string; icon: string; run: () => void }[] = [
-    { label: 'Mirror check', sub: 'About a minute with the camera', icon: '◎', run: () => go('mirror') },
-    { label: 'Log a reading', sub: 'Cuff, thermometer, scale, food', icon: '✎', run: () => go('manual') },
-    { label: 'Ask Orbit', sub: 'Questions about a symptom', icon: '✦', run: () => window.dispatchEvent(new Event('orbit:toggle')) },
     { label: 'Pain check', sub: 'Tap where it hurts, or say nothing does', icon: '✚', run: () => openBodyCheck('pain') },
     { label: 'Weekly check', sub: weeklyAge === null || weeklyAge >= 7 ? 'Due now: workload and mood' : `Done ${weeklyAge === 0 ? 'today' : `${weeklyAge} d ago`}`, icon: '◐', run: () => openBodyCheck('weekly') },
-    { label: 'Weekly report', sub: 'Your last seven days', icon: '▤', run: () => go('report') },
+    { label: 'Stand-up test', sub: 'For gravity changes and landing', icon: '↥', run: () => openBodyCheck('stand') },
+    { label: 'Strength', sub: 'Grip and bone-loading sessions', icon: '✊', run: () => openBodyCheck('strength') },
   ]
 
   return (
@@ -335,7 +333,7 @@ export function TodayPage() {
         </div>
 
         <div style={card}>
-          <p style={kicker}>Quick actions</p>
+          <p style={kicker}>Body checks</p>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, minmax(0, 1fr))', gap: 8 }}>
             {actions.map((a) => (
               <button key={a.label} type="button" className="today-action" onClick={a.run} style={{ display: 'grid', gap: 2, justifyItems: 'start', textAlign: 'left', padding: '10px 12px', borderRadius: 14, border: '1px solid var(--rule)', background: 'var(--panel-2)', color: 'var(--ink)', cursor: 'pointer', font: 'inherit' }}>

@@ -1,6 +1,7 @@
-import { useEffect, useReducer, useState } from 'react'
+import { useState } from 'react'
 import * as D from './data'
 import { bridge } from './store'
+import { useStoreTick } from './shared'
 
 /*
  * Patterns across indicators on the body map: several related readings moving the wrong way
@@ -41,8 +42,7 @@ const TONE = {
 }
 
 export function PatternsPanel() {
-  const [, bump] = useReducer((n: number) => n + 1, 0)
-  useEffect(() => D.onState(bump), [])
+  useStoreTick()
   const crew = D.getState().crew as { id: string; name: string }
   const hits = D.patterns(crew.id) as Hit[]
   const [open, setOpen] = useState<string | null>(null)
