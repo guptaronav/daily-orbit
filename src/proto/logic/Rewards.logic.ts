@@ -5,6 +5,10 @@ import React from 'react'
 import * as D from '../data'
 import { DCLogic, navigate } from '../dc'
 
+const RARITY_BORDER = { common: 'var(--rule)', rare: '#4c8bf5', epic: '#9b5de5', legendary: '#f6c445' }
+const RARITY_INK = { common: 'var(--muted)', rare: '#2d6ad6', epic: '#7b3fd1', legendary: '#a8740a' }
+const RARITY_LABEL = { common: 'Common', rare: 'Rare', epic: 'Epic', legendary: 'Legendary' }
+
 export class RewardsLogic extends DCLogic {
   state = { s: null, w: null, slot: 'frame', shown: 0, opening: false, toast: '', toastKey: 0, gearKey: 0, burst: false }
   componentDidMount() {
@@ -45,7 +49,6 @@ export class RewardsLogic extends DCLogic {
         const ww = D.wallet(id); ww.chestDay = today; D.saveWallet(id, ww)
         D.earn(id, reward, 'Daily supply drop')
         this.setState({ opening: false, burst: true })
-        this.say(`+${reward} coins from the supply drop`)
       }, 700)
     }
     const items = D.SHOP.filter((x) => x.slot === this.state.slot).map((it, i) => {
@@ -54,12 +57,15 @@ export class RewardsLogic extends DCLogic {
       let btnText, act, disabled = false, btnBg, btnColor, btnBorder = '0', btnShadow = 'none', cursor = 'pointer'
       if (on) { btnText = 'Wearing'; disabled = true; btnBg = 'var(--paper-deep)'; btnColor = 'var(--muted)'; cursor = 'default' }
       else if (own) { btnText = 'Wear'; act = () => { D.equip(id, it.id); this.setState((p) => ({ gearKey: p.gearKey + 1 })); this.say(`Now wearing ${it.name}`) }; btnBg = 'var(--panel)'; btnColor = 'var(--ink)'; btnBorder = '2px solid var(--ink)'; btnShadow = '0 4px 0 var(--ink)' }
+      else if (it.level) { btnText = `Unlocks at level ${it.level}`; disabled = true; btnBg = 'transparent'; btnColor = 'var(--muted)'; btnBorder = '2px dashed var(--rule-strong)'; cursor = 'default' }
+      else if (it.set) { btnText = `Complete the ${(D.SETS.find((x) => x.id === it.set) || {}).name}`; disabled = true; btnBg = 'transparent'; btnColor = 'var(--muted)'; btnBorder = '2px dashed var(--rule-strong)'; cursor = 'default' }
+      else if (it.pass) { btnText = 'Earn on the mission pass'; disabled = true; btnBg = 'transparent'; btnColor = 'var(--muted)'; btnBorder = '2px dashed var(--rule-strong)'; cursor = 'default' }
       else if (afford) { btnText = `Buy for ${it.price}`; act = () => { if (D.buy(id, it.id)) { this.setState((p) => ({ gearKey: p.gearKey + 1 })); this.say(`Unlocked ${it.name}`) } }; btnBg = 'var(--ink)'; btnColor = 'var(--paper)'; btnShadow = '0 4px 0 #000' }
       else { btnText = `Need ${it.price - w.coins} more`; disabled = true; btnBg = 'transparent'; btnColor = 'var(--muted)'; btnBorder = '2px dashed var(--rule-strong)'; cursor = 'not-allowed' }
       return {
         name: it.name, gear: prevGear, isBanner: it.slot === 'banner', bannerBg: it.bg, stage: it.slot === 'banner' ? 'transparent' : 'var(--panel-2)',
-        equipped: on, border: on ? 'var(--ink)' : 'var(--rule)', delay: i * 50 + 'ms',
-        priceText: it.price === 0 ? 'Free' : own ? 'Owned' : coin(it.price), priceColor: own || it.price === 0 ? 'var(--muted)' : 'var(--ink)', coinOp: own || it.price === 0 ? 0 : 1,
+        equipped: on, border: on ? 'var(--ink)' : RARITY_BORDER[D.rarity(it)], delay: i * 50 + 'ms', rarity: D.rarity(it), rarityLabel: RARITY_LABEL[D.rarity(it)], rarityInk: RARITY_INK[D.rarity(it)], featured: D.featuredToday().includes(it.id),
+        priceText: own ? 'Owned' : it.pass ? 'Pass reward' : it.level ? `Level ${it.level}` : it.set ? 'Set reward' : it.price === 0 ? 'Free' : own ? 'Owned' : coin(it.price), priceColor: own || it.price === 0 ? 'var(--muted)' : 'var(--ink)', coinOp: own || it.price === 0 || it.pass ? 0 : 1,
         btnText, act, disabled, btnBg, btnColor, btnBorder, btnShadow, cursor,
       }
     })
@@ -73,11 +79,13 @@ export class RewardsLogic extends DCLogic {
         anim: reached && !claimed ? 'rw-float 2s ease-in-out infinite' : 'none',
         claimable: reached && !claimed, static: !(reached && !claimed),
         rewardText: claimed ? 'Claimed' : `+${m.coins}`, rewardColor: claimed ? 'var(--muted)' : 'var(--ink)',
-        claim: () => { const ww = D.wallet(id); ww.claimed = [...(ww.claimed || []), m.days]; D.saveWallet(id, ww); D.earn(id, m.coins, `${m.days}-day streak`); this.say(`+${m.coins} coins for a ${m.days}-day streak`) },
+        claim: () => { const ww = D.wallet(id); ww.claimed = [...(ww.claimed || []), m.days]; D.saveWallet(id, ww); D.earn(id, m.coins, `${m.days}-day streak`) },
       }
     })
-    const TIER = 120, sxp = Math.round(w.xp * 0.6), tierNow = Math.min(10, Math.floor(sxp / TIER))
-    const PR = [['c', 25], ['i', 'visor-night'], ['c', 40], ['i', 'patch-comet'], ['c', 60], ['i', 'banner-orbit'], ['c', 80], ['i', 'top-halo'], ['c', 120], ['i', 'frame-holo']]
+    const TIER = 120, sxp = D.seasonXp(id), tierNow = Math.min(20, Math.floor(sxp / TIER))
+    // Season 1: 20 tiers. The second half adds gear only the pass gives out.
+    const PR = [['c', 25], ['i', 'visor-night'], ['c', 40], ['i', 'patch-comet'], ['c', 60], ['i', 'banner-orbit'], ['c', 80], ['i', 'top-halo'], ['c', 120], ['i', 'frame-holo'],
+      ['c', 60], ['i', 'patch-pass'], ['c', 80], ['i', 'visor-pass'], ['c', 100], ['i', 'suit-pass'], ['c', 120], ['i', 'banner-pass'], ['c', 150], ['i', 'frame-pass']]
     const tiers = PR.map(([k, v], i) => {
       const n = i + 1, reached = tierNow >= n, claimed = (w.pass || []).includes(n)
       const item = k === 'i' ? D.SHOP.find((x) => x.id === v) : null
@@ -90,7 +98,7 @@ export class RewardsLogic extends DCLogic {
         claim: () => {
           const ww = D.wallet(id); ww.pass = [...(ww.pass || []), n]
           if (item) { ww.owned = Array.from(new Set([...ww.owned, item.id])); D.saveWallet(id, ww); this.say(`Unlocked ${item.name}`) }
-          else { D.saveWallet(id, ww); D.earn(id, v, `Mission pass tier ${n}`); this.say(`+${v} coins from tier ${n}`) }
+          else { D.saveWallet(id, ww); D.earn(id, v, `Mission pass tier ${n}`) }
         },
       }
     })
@@ -101,8 +109,8 @@ export class RewardsLogic extends DCLogic {
       month, proofAria: `${mon.filter((v) => v > 0).length} of the last 30 days checked in`,
       proofStats: [{ k: 'Days checked in', v: `${mon.filter((v) => v > 0).length}/30` }, { k: 'Best streak', v: `${g.best || g.streak} d` }, { k: 'Exercise days', v: mon.filter((v) => v === 2).length }, { k: 'Symptoms reported', v: g.symptoms }],
       week: last7.map((v) => (v ? '#f6c445' : 'rgba(243,241,234,.16)')), weekText: wk >= 6 ? 'Challenge complete' : `${wk} of 6 so far`,
-      shields: Math.floor((g.best || g.streak) / 7), shieldS: Math.floor((g.best || g.streak) / 7) === 1 ? '' : 's', shieldIcon: D.ICONS.shield,
-      tiers, passTier: tierNow, passPct: ((sxp % TIER) / TIER) * 100 + '%', passToNext: tierNow >= 10 ? 'Pass complete' : `${TIER - (sxp % TIER)} XP to tier ${tierNow + 1}`,
+      shields: g.shields ?? 0, shieldS: (g.shields ?? 0) === 1 ? '' : 's', shieldIcon: D.ICONS.shield,
+      tiers, passTier: tierNow, passPct: ((sxp % TIER) / TIER) * 100 + '%', passToNext: tierNow >= 20 ? 'Pass complete' : `${TIER - (sxp % TIER)} XP to tier ${tierNow + 1}`,
       crew: s.crew, gear: gr, gearKey: this.state.gearKey, bannerBg: gr.banner.bg, lvl: lv.n, rank: lv.rank, crewRole: s.crew.role, crewName: s.crew.name,
       xpText: `${lv.into} / ${lv.need} XP`, xpToGo: `${lv.need - lv.into} to level ${lv.n + 1}`, xpPct: lv.frac * 100 + '%', xpPctNum: Math.round(lv.frac * 100),
       coinsShown: coin(this.state.shown), streak: g.streak, flameIcon: D.ICONS.flame, badgeCount: ach.filter((a) => a.got).length, badgeTotal: ach.length,
@@ -118,14 +126,15 @@ export class RewardsLogic extends DCLogic {
       })),
       slots: D.SLOTS.map(([k, label]) => { const on = this.state.slot === k; return { label, on: String(on), pick: () => this.setState({ slot: k }), bg: on ? 'var(--panel)' : 'transparent', color: on ? 'var(--ink)' : 'var(--muted)', shadow: on ? '0 1px 2px rgba(20,24,31,.1), 0 4px 12px -6px rgba(20,24,31,.25)' : 'none' } }),
       slot: this.state.slot, items,
+      // One source: today's goals (D.todayTasks), then the earn-once extras. Never coins for a value.
       earnRows: [
-        { t: 'Mirror check', c: `+${D.POINTS.checkInComplete}`, icon: D.ICONS.scan },
-        { t: 'Log exercise, any amount', c: `+${D.POINTS.exerciseComplete}`, icon: D.ICONS.activity },
-        { t: 'Report something that feels off', c: `+${D.POINTS.symptomReported}`, icon: D.ICONS.alert },
+        ...D.todayTasks(id).map((g) => ({ t: g.optional ? `${g.label} (bonus goal)` : `${g.label} (daily goal)`, c: `+${g.points}`, icon: D.ICONS[g.icon] || D.ICONS.spark })),
         { t: 'Retake a reading the app could not trust', c: `+${D.POINTS.retakeAfterQualityFail}`, icon: D.ICONS.clock },
-        { t: 'Daily supply drop', c: '+10 to 30', icon: D.ICONS.award },
-        { t: 'Streak milestones at 3, 7, 14 and 30 days', c: '+25 to 400', icon: D.ICONS.flame },
+        { t: 'Daily supply drop', c: `+${D.chestReward()}`, icon: D.ICONS.award },
+        { t: 'Streak milestones at 3, 7, 14 and 30 days', c: `+${D.POINTS.streakMilestone} each`, icon: D.ICONS.flame },
+        { t: 'Find every discovery in a mission banner (gear coins only, once)', c: `+${D.SCENE_BONUS}`, icon: D.ICONS.spark },
       ],
+      title: D.levelPerks(id).title,
       toast: this.state.toast, toastKey: this.state.toastKey,
     }
   }

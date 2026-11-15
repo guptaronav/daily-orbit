@@ -20,6 +20,9 @@ export const NUTRITION_TIPS: Tip[] = [
   { text: "Your body can't make vitamin D on a spacecraft, and fish, omega-3s and vegetables are good for bone health.", url: "https://www.nasa.gov/directorates/esdmd/hhp/nutritional-biochemistry/" },
 ]
 
+// The tips are searchable from Ask Orbit too.
+D.addPassages(NUTRITION_TIPS.map((t, k) => ({ id: `nutrition:${k}`, title: 'Food and water in space', text: t.text, url: t.url })))
+
 const MEAL_ICON: Record<string, string> = {
   breakfast: 'M12 3v3 M5.6 7.6l2.1 2.1 M3 15h18 M18.4 7.6l-2.1 2.1 M7 15a5 5 0 0 1 10 0 M5 19h14',
   lunch: 'M12 2v2 M12 20v2 M4.9 4.9l1.4 1.4 M17.7 17.7l1.4 1.4 M2 12h2 M20 12h2 M4.9 19.1l1.4-1.4 M17.7 6.3l1.4-1.4 M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z',

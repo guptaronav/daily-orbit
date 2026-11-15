@@ -14,14 +14,14 @@ export class SiteFooterLogic extends DCLogic {
   renderVals() {
     const s = this.state.s
     return {
-      rail: s ? [s.env.label, `${s.crew.name} · ${s.crew.dataLabel}`, 'No data leaves this browser'] : [],
+      rail: s ? [s.env.label, `${s.crew.name} · ${s.crew.dataLabel}`] : [],
       rules: [
         'Gray means not enough good data. A reading that failed quality is never colored.',
         'Camera frames never leave the browser.',
         'Color is never the only signal: the status word is always shown.',
         'Runs offline after first load.',
       ],
-      bottomPad: this.props.dock ? '104px' : '18px',
+      bottomPad: this.props.dock ? '132px' : '18px',
     }
   }
 }

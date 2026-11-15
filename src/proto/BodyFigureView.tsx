@@ -30,7 +30,7 @@ export function BodyFigureView({ v }: { v: any }) {
         <g clipPath={v.clipUrl}>
           {(v.zones ?? []).map((z: any, z_i: number) => (
               <Fragment key={z_i}>
-            <path d={z.d} role={z.role} tabIndex={z.tab} aria-pressed={z.pressed} aria-label={z.label} onClick={z.click} onKeyDown={z.key} fill={z.fill} fillOpacity={z.op} style={S({ cursor: z.cursor, outline: 'none', transition: 'fill-opacity 160ms ease' })} className="bodyfigureview-focus-1">
+            <path d={z.d} role={z.role} tabIndex={z.tab} aria-pressed={z.pressed} aria-label={z.label} onClick={z.click} onKeyDown={z.key} fill={z.fill} fillOpacity={z.op} style={S({ cursor: z.cursor, outline: 'none', animation: z.zanim, transition: 'fill-opacity 160ms ease' })} className="bodyfigureview-focus-1">
             </path>
               </Fragment>
             ))}
@@ -50,7 +50,7 @@ export function BodyFigureView({ v }: { v: any }) {
           <g role={o.role} tabIndex={o.tab} aria-pressed={o.pressed} aria-label={o.label} onClick={o.click} onKeyDown={o.key} style={S({ cursor: o.cursor, outline: 'none' })} className="bodyfigureview-hover-2">
             <rect x={o.hx} y={o.hy} width={o.hw} height={o.hh} fill="transparent">
             </rect>
-            <path d={o.d} fill={o.fill} stroke={o.stroke} strokeWidth={o.sw} strokeLinejoin="round">
+            <path d={o.d} fill={o.fill} stroke={o.stroke} strokeWidth={o.sw} strokeLinejoin="round" style={S({ transformBox: 'fill-box', transformOrigin: 'center', animation: o.beat, filter: o.glow })}>
             </path>
           </g>
             </Fragment>

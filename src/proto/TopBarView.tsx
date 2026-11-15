@@ -5,6 +5,10 @@
 import { Fragment } from 'react'
 import { FloatingCrew } from './FloatingCrew'
 import { BannerScene } from './MissionScene'
+import { AlertBanner } from './Alerts'
+import { AskOrbit } from './AskOrbit'
+import { ReportButton } from './ReportButton'
+import { ReminderBanner } from './Reminder'
 import * as P from './parts'
 import { S } from './parts'
 
@@ -34,7 +38,7 @@ export function TopBarView({ v }: { v: any }) {
             <div style={S({ display: 'flex', alignItems: 'center', gap: '2px', padding: '4px', borderRadius: '999px', background: 'var(--paper-deep)', overflowX: 'auto', maxWidth: '100%', scrollbarWidth: 'none' })} data-noscroll="1">
               {(v.links ?? []).map((l: any, l_i: number) => (
                   <Fragment key={l_i}>
-                <a href={l.href} aria-current={l.current} style={S({ display: 'inline-flex', alignItems: 'center', gap: '7px', minHeight: '40px', padding: '0 14px', borderRadius: '999px', background: l.bg, color: l.color, boxShadow: l.shadow, textDecoration: 'none', fontSize: '14px', fontWeight: l.weight, whiteSpace: 'nowrap', transition: 'background-color 200ms ease, color 200ms ease, box-shadow 200ms ease' })} className="topbarview-hover-2">
+                <a href={l.href} aria-current={l.current} style={S({ display: 'inline-flex', alignItems: 'center', gap: '7px', minHeight: '40px', padding: '0 10px', borderRadius: '999px', background: l.bg, color: l.color, boxShadow: l.shadow, textDecoration: 'none', fontSize: '14px', fontWeight: l.weight, whiteSpace: 'nowrap', transition: 'background-color 200ms ease, color 200ms ease, box-shadow 200ms ease' })} className="topbarview-hover-2">
                   <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
                     <path d={l.icon}>
                     </path>
@@ -55,6 +59,7 @@ export function TopBarView({ v }: { v: any }) {
             </div>
           </nav>
           <div style={S({ order: '2', marginLeft: 'auto', display: 'flex', alignItems: 'center', justifyContent: 'flex-end', gap: '6px', flexWrap: 'wrap', maxWidth: '100%' })}>
+            <ReportButton />
             <div style={S({ position: 'relative' })}>
               <button type="button" onClick={v.toggleEnv} aria-expanded={v.envOpen} aria-haspopup="true" aria-label="Mission environment and comm delay" style={S({ display: 'flex', alignItems: 'center', gap: '8px', minHeight: '44px', padding: '0 14px', borderRadius: '999px', background: 'transparent', border: '1px solid var(--rule)', color: 'var(--ink)', cursor: 'pointer', whiteSpace: 'nowrap' })} className="topbarview-hover-4">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round">
@@ -255,6 +260,9 @@ export function TopBarView({ v }: { v: any }) {
             </>
           ) : null}
         </div>
+        <AlertBanner />
+        <ReminderBanner />
+        <AskOrbit />
       </header>
     </>
   )

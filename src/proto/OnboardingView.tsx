@@ -52,7 +52,7 @@ export function OnboardingView({ v }: { v: any }) {
                   Your crew console, set up in a minute.
                 </h1>
                 <p style={S({ margin: '18px 0 0', maxWidth: '46ch', fontSize: '18px', lineHeight: '1.55', color: 'var(--ink-soft)', textWrap: 'pretty' })}>
-                  Thirty seconds a day keeps your own baseline honest. Finish setup and your first 50 coins are waiting.
+                  A minute a day keeps your own baseline honest. Finish setup and your first 50 coins are waiting.
                 </p>
                 <ul style={S({ listStyle: 'none', margin: '30px 0 0', padding: '0', display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '8px' })}>
                   {(v.perks ?? []).map((p: any, p_i: number) => (

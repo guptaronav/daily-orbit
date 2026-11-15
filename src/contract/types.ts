@@ -21,6 +21,7 @@ export const INDICATORS = [
   'bowelMovements',
   'waterIntake',
   'mealsEaten',
+  'reactionTime',
 ] as const
 
 export type Indicator = (typeof INDICATORS)[number]

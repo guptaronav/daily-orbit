@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { Icon } from '../../components/kit/Icon'
 import { listEvents, saveSession } from '../../db/repo'
 import { POINTS, creditableKinds } from '../../lib/scoring'
+import { capRoom } from '../../proto/data'
 import { sessionEventKinds, type MirrorSession } from '../../lib/session'
 import type { GameEventKind } from '../../contract/types'
 import { useApp } from '../../state/AppContext'
@@ -60,6 +61,8 @@ export function MirrorCheck() {
     const { credited, alreadyCounted } = creditableKinds(await listEvents(crewId), sessionEventKinds(done).map((kind) => ({ kind })), crewId, new Date())
     setCredit({ earned: credited.map((e) => e.kind), alreadyCounted: alreadyCounted.map((e) => e.kind) })
     await saveSession(done, crewId)
+    const pts = Math.min(credited.reduce((sum, e) => sum + POINTS[e.kind], 0), capRoom(crewId))
+    if (pts) window.dispatchEvent(new CustomEvent('chm:coins', { detail: { n: pts, why: 'Mirror check done' } }))
     refresh()
     setSaving(false)
     setStep('summary')
@@ -92,7 +95,7 @@ export function MirrorCheck() {
         <div style={{ flex: '2 1 520px', display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', gap: 14, padding: '8px 0', animation: 'lg-rise 520ms cubic-bezier(.22,1,.36,1) both' }}>
           <p style={{ margin: 0, fontSize: 14, color: 'var(--muted)' }}>Mirror check{name ? ` · ${name}` : ''}</p>
           <h1 style={{ margin: 0, fontSize: 'clamp(40px, 6vw, 76px)', lineHeight: 0.92, fontWeight: 750, letterSpacing: '-0.05em' }}>
-            Thirty seconds
+            One minute
             <br />
             in the mirror.
           </h1>

@@ -21,6 +21,8 @@ export class EscalationLogic extends DCLogic {
   componentWillUnmount() { this.off && this.off(); clearInterval(this.tick); clearInterval(this.holdT) }
   send() {
     const sec = Math.round(this.state.s.delay)
+    // Departure from the prototype: the transmission is kept, so the ground link can show when it lands.
+    this.D.queuePacket(this.state.s.crew.id)
     this.setState({ sent: { remaining: sec, total: sec, delay: this.state.s.delay, arrival: new Date(Date.now() + sec * 1000).toLocaleTimeString() }, hold: 0 })
   }
   renderVals() {

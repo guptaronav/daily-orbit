@@ -3,6 +3,7 @@
 // GENERATED from the UI overhaul prototype by dc2jsx.py. Styles are the prototype's, verbatim.
 // Edit the view model that feeds this, not this markup, unless you are re-porting the prototype.
 import { Fragment } from 'react'
+import { AlertsPanel } from './Alerts'
 import { FloatingCrew } from './FloatingCrew'
 import { BannerScene } from './MissionScene'
 import * as P from './parts'
@@ -38,49 +39,25 @@ export function MedicalView({ v }: { v: any }) {
                   ))}
               </div>
             </div>
-            <section aria-label="Crew weekly goal" style={S({ flex: '1 1 320px', display: 'flex', alignItems: 'center', gap: '22px', padding: '24px', borderRadius: '28px', background: '#14181f', color: '#f3f1ea', animation: 'cr-rise 520ms 80ms cubic-bezier(.22,1,.36,1) both' })}>
-              <span style={S({ position: 'relative', display: 'grid', placeItems: 'center', flexShrink: '0', width: '120px', height: '120px' })}>
-                <svg width="120" height="120" viewBox="0 0 120 120" aria-hidden="true" style={S({ position: 'absolute', inset: '0', transform: 'rotate(-90deg)' })}>
-                  <circle cx="60" cy="60" r="50" fill="none" stroke="rgba(243,241,234,.15)" strokeWidth="12">
-                  </circle>
-                  <circle cx="60" cy="60" r="50" fill="none" stroke="#f6c445" strokeWidth="12" strokeLinecap="round" strokeDasharray={v.goalDash} style={S({ transition: 'stroke-dasharray 1s cubic-bezier(.22,1,.36,1)' })}>
-                  </circle>
-                </svg>
-                <span style={S({ fontSize: '28px', fontWeight: '800', letterSpacing: '-0.03em' })}>
-                  {v.goalPct}
-                </span>
-              </span>
-              <div style={S({ minWidth: '0' })}>
-                <p style={S({ margin: '0', fontSize: '13.5px', opacity: '.72' })}>
-                  Crew weekly goal
-                </p>
-                <p style={S({ margin: '4px 0 0', fontSize: '26px', fontWeight: '750', letterSpacing: '-0.03em', whiteSpace: 'nowrap' })}>
-                  {v.goalWeek}
-                  <span style={S({ fontSize: '15px', fontWeight: '500', opacity: '.7' })}>
-                    / {v.goalTarget}
-                  </span>
-                </p>
-                <p style={S({ margin: '8px 0 0', fontSize: '13.5px', lineHeight: '1.45', opacity: '.8' })}>
-                  {v.systemsText}
-                </p>
-                <p style={S({ margin: '10px 0 0', display: 'flex', flexWrap: 'wrap', gap: '4px 14px', fontSize: '13.5px', whiteSpace: 'nowrap' })}>
-                  <span>
-                    <span style={S({ fontWeight: '750' })}>
-                      {v.nCrew}
-                    </span>
-                    crew
-                  </span>
-                  <span>
-                    <span style={S({ fontWeight: '750', color: '#f6c445' })}>
-                      {v.nAttn}
-                    </span>
-                    outside baseline
-                  </span>
-                </p>
+            <section aria-label="Crew at a glance" style={{ flex: '1 1 320px', padding: 22, borderRadius: 28, background: '#14181f', color: '#f3f1ea', display: 'grid', gap: 14, alignContent: 'start', animation: 'cr-rise 520ms 80ms cubic-bezier(.22,1,.36,1) both' }}>
+              <p style={{ margin: 0, fontSize: 12, fontWeight: 750, letterSpacing: '.06em', textTransform: 'uppercase', color: '#f6c445' }}>Crew at a glance</p>
+              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 10 }}>
+                {[
+                  [String(v.nCrew ?? 0), 'on board'],
+                  [String(v.nAttn ?? 0), 'need a look'],
+                  [String(v.goalPct ?? '0%'), 'crew goal'],
+                ].map(([n, k]) => (
+                  <div key={k} style={{ padding: '10px 12px', borderRadius: 16, background: 'rgba(243,241,234,.07)' }}>
+                    <strong style={{ display: 'block', fontSize: 28, lineHeight: 1.1, letterSpacing: '-0.03em' }}>{n}</strong>
+                    <span style={{ fontSize: 12.5, color: 'rgba(243,241,234,.7)' }}>{k}</span>
+                  </div>
+                ))}
               </div>
+              <p style={{ margin: 0, fontSize: 14, color: 'rgba(243,241,234,.8)' }}>{v.systemsText}</p>
             </section>
           </div>
-          <ul style={S({ listStyle: 'none', margin: '0', padding: '0', display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(min(100%, 300px), 1fr))', gap: '20px' })}>
+          <AlertsPanel />
+          <ul style={S({ listStyle: 'none', margin: '0', padding: '0', display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(min(100%, 270px), 1fr))', gap: '20px' })}>
             {(v.views ?? []).map((v: any, v_i: number) => (
                 <Fragment key={v_i}>
               <li style={S({ display: 'flex', animation: `cr-rise 560ms ${v.delay} cubic-bezier(.22,1,.36,1) both` })}>
@@ -89,7 +66,7 @@ export function MedicalView({ v }: { v: any }) {
                     <BannerScene banner={v.gear?.banner} />
                     <FloatingCrew crew={v.crew} gear={v.gear} size={46} duration={13} />
                     <div style={S({ position: 'absolute', top: '12px', left: '12px', right: '12px', display: 'flex', justifyContent: 'space-between', gap: '6px' })}>
-                      <span style={S({ padding: '4px 10px', borderRadius: '999px', background: v.chipBg, color: v.chipInk, fontSize: '12.5px', fontWeight: '700', whiteSpace: 'nowrap' })}>
+                      <span style={S({ padding: '4px 10px', borderRadius: '999px', background: 'var(--panel)', boxShadow: `inset 0 0 0 1.5px ${v.chipInk}`, color: v.chipInk, fontSize: '12.5px', fontWeight: '700', whiteSpace: 'nowrap' })}>
                         {v.word}
                       </span>
                       <span style={S({ display: 'flex', gap: '6px' })}>

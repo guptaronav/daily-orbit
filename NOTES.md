@@ -203,3 +203,75 @@ Mapping choices that are ours, not NASA's: blink rate and eyelid closure to the 
 - (C) Mission specialist: no current NASA ISS page describing this role was opened (it is mainly a shuttle-era title), so no roleFacts entry. Commander and flight engineer duties are not described beyond the crew listing.
 - (C) JSC-67378 is written for Orion/Gateway exploration missions up to 365 days, not the ISS specifically. The OCHMO food brief URL fetched is the 2023 version (Rev D/E); a newer revision may exist.
 - (C) SLAMMD: a secondary (non-NASA) source said the Russian device may now be primary with SLAMMD in reserve; not confirmed on a NASA page, so text says only that SLAMMD measures mass.
+
+
+## Fixed reference, steady slides and patterns (Arnav, 2026-11-14)
+
+- `src/lib/trend.ts`: each indicator gets a frozen reference from its first 14 days of readings (only once the history is longer than 14 days and the window holds at least 5 readings). Status is the worse of the reading against the recent rolling baseline and against that reference. This fixes the known limitation above: Crew 3's real bed-rest body-mass loss now reads Act ("2.4 kg below your first two weeks") instead of Watch. The 14-day window is our choice, modeled on NASA comparing in-flight results with a pre-flight reference.
+- A steady slide (straight-line fit over the last 7 readings spanning at least 4 days, R² at least 0.6, total change at least 2 SD of the reference) turns a green reading into Watch. Thresholds are ours and statistical. Checked against 30 random seeds of the simulated crews: the reference and slide rules together add a flag to about 2% of steady, noise-only readings; seed 42 (the demo) stays all green for Crews 1 and 2.
+- `src/lib/patterns.ts`: seven cross-indicator patterns (fatigue, mood and stress, possible infection, vision change, heart and blood pressure, under-fueling, gut upset). Each groups readings that already map to the same NASA HRP risk and fires when at least two groups are yellow or red in the worrying direction. A red pattern goes one escalation rung higher. The groupings and rungs are our mapping, not NASA rules, and the panel says "a prompt to look closer, not a diagnosis".
+
+
+## Five hazards, mission environments, body functions, cabin air, reaction time, care plans (Arnav, 2026-11-14)
+
+- Hazards panel (`src/lib/hazards.ts`, `src/content/hazards.json`): a reading is linked to one of NASA's five hazards only when its own NASA-sourced hazardEffect text names that hazard (keyword match). Hazard text is from the five NASA HRP hazard pages.
+- New environment **Mars surface base** (same 3-22 min delay range as Mars transit). NASA's Mars page gives one-way delay as about 4 to 24 minutes; the app's adjustable range (3 to 22 min, set earlier from the brief) was left as it was. Mars gravity is shown as "about one-third", the wording on the NASA page that was opened; a sol is 24.6 h.
+- Environment text (`src/content/environments.json`: gravity, radiation, distance, isolation, dayLength, equipment) is sourced; fields we could not source stay `[CONTENT TODO]` and are hidden in the UI. Radiation figures use different units (mSv/day vs micrograys/day) and are not compared with each other.
+- Cabin air (`src/lib/sim/cabin.ts`) is **simulated** and labeled so. The limit is NASA-STD-3001 Vol 2 [V2 6004]: 1-hour average ppCO2 no more than 3 mmHg; keeping the 7-day average below 2.5 mmHg keeps headache risk under 1% (OCHMO-TB-004). The simulated typical level (2.3 mmHg) is our assumption.
+- Body region "What it does" text (`src/content/regions.json`) is from NIH (MedlinePlus, NEI, NHLBI, NIDDK) and NASA HRP pages.
+- Reaction time (new indicator `reactionTime`, head region): a one-minute test with 2-6 s random waits. NASA-funded ISS research used the 3-minute PVT-B (Reaction Self Test); a one-minute version is shorter than any validated one, so it is judged only against the person's own baseline, and the 500 ms "slow" count (the standard 10-minute PVT's lapse) is shown for context only. Slower reaction time also counts toward the fatigue pattern.
+- Care plans on each pattern are assembled only from the involved readings' sourced recommendedAction and prevention text; the "move up" rule is this app's.
+- Research caveats:
+- All PDFs (CO2, acoustics, LSAH newsletter) were downloaded and read with pdftotext; HTML pages were read with WebFetch.
+- The CO2 brief PDF file (URL path 2023/12) is now Rev D with a footer dated 10-Mar-26. It cites the 3 mmHg limit as NASA-STD-3001 Vol 2 Rev D [V2 6004], while its header lists Vol 2 Rev E. The number is the same.
+- Mars gravity: the NASA HRP gravity page says 'approximately one-third of Earth's gravity'. The often-quoted 'three-eighths'/38% was NOT found on a page opened in this task, so it was not used.
+- Mars sol: Mars Facts gives 24.6 hours and JPL says 39 minutes longer than an Earth day. The exact '24 h 39 min 35 s' figure appeared only in search snippets from non-NASA sites, so it was not used.
+- No NASA page opened here described sleep or circadian mitigations specific to Mars time (e.g., blackout shades); those appeared only in non-NASA articles. The isolation hazard page's mention of light therapy research is generic, not Mars-specific.
+- Lunar radiation: NASA sources disagree. The LSAH newsletter projects about 0.5 mSv/day (about ISS level). A NASA presentation seen only in search snippets said about 1.5x ISS. Only the newsletter figure is used, labeled as a projection.
+- Radiation units differ: the Curiosity RAD figure (210 micrograys/day) is absorbed dose, while the mSv figures are effective dose. Don't compare them directly in the UI.
+- ISS 'return within hours' was not found stated as a number on a NASA page opened here; the commercial crew page only says systems engage in minutes and covers emergency evacuation.
+- The ISS exercise note (about 2 h/day) comes from NASA's Astronaut Exercise page. An older NTRS report mentions 2.5 h blocks but was not opened, so it was not used.
+- Ultrasound appears on the Astronaut Exercise page only as a research use (Sprint study muscle scans), not as routine equipment.
+- Distance hazard 'body' is left TODO: the NASA page names no specific health effects. Environment hazard 'selfCare' is left TODO: the page lists no crew actions.
+- Cabin temperature/humidity: no numeric limits were sourced, only the requirement to record, display and alert on them.
+
+
+## Alerts, Ask Orbit, validation, radiation budget, self-report gaps, tour (Arnav, 2026-11-14)
+
+- Career radiation budget (`src/lib/radiationBudget.ts`): limit from NASA-STD-3001 Vol 1 [V1 4030], under 600 mSv per career. Daily rates: ISS about 0.5 mSv/day and lunar surface about 0.5 (NASA LSAH newsletter), beyond low Earth orbit about 1 mSv/day or more (same), Mars surface up to 0.9 mSv/day, the [V1 4033] design ceiling for planetary-surface habitats (an upper bound, not a measurement). Earlier-mission doses for crews 1 and 2 (150 and 80 mSv) are simulated. The yellow/red bands at 50% and 85% of the budget are our planning choice.
+- Self-report gaps (`src/lib/selfReportGap.ts`): raised only when the self-rating is at or better than the person's usual AND a measured sign is yellow or red in the worrying direction.
+- Alert loop (`src/lib/alerts.ts`): red readings and any pattern open an alert; the header banner re-announces every 5 minutes until acknowledged; closing needs a note; a newer reading reopens it. Crew 3's real bed-rest flags (blood pressure, body mass) open alerts on first load, which is accurate.
+- Validation (`src/lib/validation.ts`): replays the real bed-rest participant day by day with only the readings available that day. Judged indicator-days need a baseline (5+ earlier readings). It measures false alarms in the 12 baseline days and catching the real body-mass loss during tilt. One participant, ground analog, six indicators; a sanity check, not clinical validation. Regenerate with `WRITE_VALIDATION=1 npx vitest run src/lib/validation.test.ts`.
+- Ask Orbit (`src/lib/assistant.ts`): BM25 retrieval over the app's sourced passages, a synonym list from plain words to content words (ours), and a red-flag list (ours) that routes to the crew medical officer and Escalate. It never generates medical text and needs no network. A language-model mode was deliberately not added: it would need a server and key, break the no-network design, and could invent medical claims.
+- Guided tour and scenarios (`src/proto/Tour.tsx`, `src/proto/scenarios.ts`): scenarios write ordinary records marked "simulated"; "Reset demo data" removes them.
+
+
+## Today console, readiness, living body, ground link, weekly report, boot check, offline, dark theme (Arnav, 2026-11-14)
+
+- Readiness (`src/lib/readiness.ts`) is a label with reasons, not a score: Not today on anything at Act (region, pattern or open red alert), Check first on any Watch, pattern or self-report gap, Ready otherwise, and Not enough data when every region is gray. The thresholds are ours; the screen says it is a prompt, not a medical clearance.
+- Once set up, the app opens on Today; the landing page stays one click away (the logo). The header link "Console" was renamed "Body" so eight links fit on one row; Today is the console now.
+- Living body figure: the heart beats at the latest measured heart rate (clamped 30 to 200 bpm for the animation only) and regions with an open alert glow. Respects reduced motion through the global rule.
+- Ground link: transmissions are stored per crew member with send, arrival (one-way delay) and earliest-reply (round trip) times; "What Earth knows" is the newest packet whose arrival time has passed.
+- Weekly report: every number comes from the same functions as the screens; print styles hide the app chrome.
+- Offline: vite-plugin-pwa (already a dependency) precaches 21 files, about 19.5 MB, including the 3.8 MB face model and 14.7 MB vision WASM. Proven by serving the production build, letting the service worker install, stopping the server, and reloading: the app loaded and the model and WASM were served from cache. The Claude desktop browser pane cannot register service workers, so that test used Chrome. App icons (`public/icon-*.png`, `favicon.svg`) are drawn by a small script, replacing Vite's default logo. This overlaps Evode's E6 (deploy and offline); the deploy itself is still open.
+- Dark theme pass: an automated contrast check over Today, Body, Schedule, Log, Crew, Escalate, Report, Rewards and Metrics found white text on bright status colors (readiness badge, pattern and alert chips, alert banner, Ask Orbit's urgent card) and the Crew cards' banner chips; all now use the theme's paper color or a solid backing.
+
+
+## Clean-up: one home per feature (Arnav, 2026-11-15)
+
+- Removed repeats: the Body page's streak/coins/level stats, "Today's check-ins", "Crew weekly goal" and duplicate action buttons; the Log page's "Today's quests"; the Crew page's "Crew weekly goal"; Today's separate mirror-check, alerts, hazards, radiation, food and ground-link cards (now one "needs a look" list that links to where each is handled) and its streak/coins (always in the top bar); the Schedule page's next-up card (Today has it); "Crew progress" in More (it was Rewards again); the alert banner on the Crew page (the full list is right there).
+- One goal list (`todayTasks` in `src/proto/data.ts`): required goals are the mirror check, exercise, water and a meal; the alertness check and reporting a symptom are bonuses. Points come from `lib/scoring.ts`; "done" means the capped credit was really recorded today. Today, the dock and Rewards' earn table read it.
+- One feedback: every earning action (readings, water, meals, alertness, mirror check, crate, milestones, pass tiers, discoveries) fires the same `chm:coins` event; the top-bar coin pop and the new goals toast respond. Rewards no longer shows its own coin toasts on top.
+- Wording: the mirror check is "about a minute" everywhere (it was "thirty seconds" in some places and "about a minute" in others).
+- The bottom dock is unchanged in layout (as asked earlier); its goal count now matches Today because both read the same list.
+- Dock (2026-11-15): kept as asked, with the crew switcher and check-in pill. The four page links are gone (the top bar has them); in their place, the next block on the schedule ("Now · Free time", opens Schedule). The pill now shows the real next goal with its own coins (it said "+10 coins" whatever the goal) and opens that goal's page.
+
+- Dock, report, footer, more gear (2026-11-15): Ask Orbit opens from the dock (no floating button). The weekly report has a page icon next to the mission button, with a gold dot once a week is complete (seven days since last read, or the first full week); Today shows a "your week is complete" prompt at the same time; it is no longer in More or the footer as a separate page link. The footer was rebuilt (brand, three link groups named as in the top bar, team, status rail). The locker has 21 new items, five of them Season 1 pass-only (never sold); the pass has 20 tiers (10 new, ending in the pass-only gear); eight new badges, each from data the app already keeps (14 and 30-day streaks, water goal on three days, three meals in a day, three alertness checks, a block added to the schedule, a ground packet sent, a first banner discovery).
+
+## Game systems round two (Arnav, 2026-11-15)
+
+- Daily coin cap (`DAILY_COIN_CAP = 60` in `lib/scoring.ts`, applied by `cappedPoints` per person per day): every coin, XP and crew-goal total now uses it. Streak milestones sit outside it. A pacing number, ours.
+- Streak shields (`lib/shields.ts`, tested) replace the silent one-miss-a-week forgiveness in the displayed streak: one shield per 7 days in a row, at most two, spent automatically on a missed day. `lib/streak.ts` is unchanged.
+- Level unlocks, titles, dock skins, collection sets, rarity (by price: under 150 common, under 300 rare, then epic; pass, level and set items legendary), two featured items a day, weekly pass tasks and crew quests are all computed from data the app already has (`src/proto/data.ts`), never stored as a separate truth. Season XP = 60% of earned XP plus this week's finished pass tasks and completed crew quests.
+- Ship systems only change cosmetic things (cabin air chart, a sweep on the body viewer, a shelter-ready mark, a starfield). Health information is never locked behind game progress.
+- Metrics page restyled to the site's look; the real-data test moved to the top. Pages were not merged: Metrics and Sources both cover "data and proof", but Sources is Evode's task (E5), so they stay separate for now.

@@ -1,0 +1,33 @@
+{
+  "participantDays": 30,
+  "baselineDays": 12,
+  "tiltDays": 18,
+  "indicators": [
+    "heartRate",
+    "bloodPressureSys",
+    "bloodPressureDia",
+    "bodyMass",
+    "temperature",
+    "bowelMovements"
+  ],
+  "old": {
+    "baselineFlags": 6,
+    "baselineJudged": 42,
+    "bodyMassFirstTiltDay": 3,
+    "bodyMassTiltFlags": 16,
+    "bodyMassTiltJudged": 18,
+    "baselineRed": 2,
+    "bodyMassFirstRedTiltDay": 4,
+    "bodyMassTiltRed": 3
+  },
+  "current": {
+    "baselineFlags": 6,
+    "baselineJudged": 42,
+    "bodyMassFirstTiltDay": 3,
+    "bodyMassTiltFlags": 16,
+    "bodyMassTiltJudged": 18,
+    "baselineRed": 2,
+    "bodyMassFirstRedTiltDay": 4,
+    "bodyMassTiltRed": 12
+  }
+}

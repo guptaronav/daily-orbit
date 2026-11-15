@@ -3,6 +3,7 @@
 // GENERATED from the UI overhaul prototype by dc2jsx.py. Styles are the prototype's, verbatim.
 // Edit the view model that feeds this, not this markup, unless you are re-porting the prototype.
 import { Fragment } from 'react'
+import { ValidationCard } from './ValidationCard'
 import * as P from './parts'
 import { S } from './parts'
 
@@ -12,22 +13,31 @@ export function MetricsView({ v }: { v: any }) {
     <>
       <div data-chm-root="1" style={S({ '--ink': '#14181f', '--ink-soft': '#2b323d', '--paper': '#f3f1ea', '--paper-deep': '#e8e4d8', '--panel': '#fbfaf6', '--panel-2': '#f6f4ec', '--rule': '#d9d4c4', '--rule-strong': '#a49c88', '--muted': '#5b6270', '--accent': '#0b3d91', '--accent-wash': '#e4e9f3', '--ok': '#2f7d4f', '--ok-ink': '#1b5b33', '--watch': '#b7791f', '--watch-ink': '#7a4f00', '--act': '#b3261e', '--act-ink': '#8c1d18', '--nodata': '#8a8f98', '--nodata-ink': '#5b6270', '--on-accent': '#ffffff', '--star-o': '0', '--glow': 'none', minHeight: '100vh', display: 'flex', flexDirection: 'column', background: 'var(--paper)', color: 'var(--ink)', fontFamily: 'ui-sans-serif, system-ui, -apple-system, \'Segoe UI\', Roboto, sans-serif', fontVariantNumeric: 'tabular-nums' })}>
         <P.TopBar current="Metrics" />
-        <main id="main" tabIndex={-1} style={S({ flex: '1', width: '100%', maxWidth: '1500px', margin: '0 auto', padding: '32px clamp(16px, 3vw, 24px) 56px', boxSizing: 'border-box', outline: 'none' })}>
-          <div style={S({ paddingBottom: '28px', borderBottom: '1px solid var(--rule)' })}>
-            <span style={S({ display: 'inline-flex', alignItems: 'center', gap: '8px', padding: '4px 10px', border: '1px solid var(--watch-ink)', color: 'var(--watch-ink)', fontFamily: 'ui-monospace, Menlo, monospace', fontSize: '12.5px', fontWeight: '600', letterSpacing: '.06em', textTransform: 'uppercase' })}>
-              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
-                <path d="M12 4.2 2.6 20.4h18.8L12 4.2Z M12 10v4.4 M12 17.2v.1">
-                </path>
-              </svg>
-              Simulation
-            </span>
-            <h1 style={S({ margin: '16px 0 0', fontSize: 'clamp(32px, 4.2vw, 52px)', lineHeight: '1', fontWeight: '700', letterSpacing: '-0.045em', maxWidth: '22ch', textWrap: 'balance' })}>
-              Two numbers we cannot measure yet, modelled openly
-            </h1>
-            <p style={S({ margin: '18px 0 0', maxWidth: '72ch', fontSize: '15px', lineHeight: '1.65', color: 'var(--muted)', textWrap: 'pretty' })}>
-              Neither figure below is an observation. Both come from simple models whose every input is on this page and editable, so you can see exactly which assumption is doing the work. Nothing here comes from NASA data, and nothing here is a claim about real crews.
-            </p>
+        <main id="main" tabIndex={-1} className="metrics-page" style={S({ flex: '1', width: '100%', maxWidth: '1440px', margin: '0 auto', padding: '28px clamp(16px, 3vw, 32px) 72px', boxSizing: 'border-box', outline: 'none', display: 'flex', flexDirection: 'column', gap: '24px' })}>
+          <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'stretch', gap: 20, animation: 'lg-rise 520ms cubic-bezier(.22,1,.36,1) both' }}>
+            <div style={{ flex: '2 1 520px', display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', gap: 14, padding: '8px 0' }}>
+              <p style={{ margin: 0, fontSize: 14, color: 'var(--muted)' }}>Metrics · proof and models</p>
+              <h1 style={{ margin: 0, fontSize: 'clamp(40px, 6vw, 76px)', lineHeight: 0.92, fontWeight: 750, letterSpacing: '-0.05em' }}>
+                What we tested,
+                <br />
+                and what we model.
+              </h1>
+              <p style={{ margin: 0, maxWidth: 620, fontSize: 17, lineHeight: 1.5, color: 'var(--muted)' }}>
+                First, the flagging rules replayed on real NASA bed-rest data. Then two numbers we cannot measure yet, modeled openly: every input is on this page and editable, so you can see which assumption does the work.
+              </p>
+            </div>
+            <section aria-label="In short" style={{ flex: '1 1 340px', padding: 22, borderRadius: 28, background: '#14181f', color: '#f3f1ea', display: 'grid', gap: 12, alignContent: 'start' }}>
+              <p style={{ margin: 0, fontSize: 12, fontWeight: 750, letterSpacing: '.06em', textTransform: 'uppercase', color: '#f6c445' }}>In short</p>
+              <p style={{ margin: 0, fontSize: 15, lineHeight: 1.5 }}>
+                <strong>Real data:</strong> the current rules hold a real weight loss at Act on 12 of 18 days instead of 3, with no extra false alarms.
+              </p>
+              <p style={{ margin: 0, fontSize: 15, lineHeight: 1.5 }}>
+                <strong>Modeled:</strong> one check a day saves crew time, and rewarding effort instead of values keeps people reporting bad days.
+              </p>
+              <span style={{ alignSelf: 'start', padding: '4px 10px', borderRadius: 99, background: 'rgba(246,196,69,.16)', color: '#f6c445', fontSize: 12.5, fontWeight: 700 }}>Models are labeled Simulation; nothing modeled is NASA data</span>
+            </section>
           </div>
+          <ValidationCard />
           <div style={S({ marginTop: '32px', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 560px), 1fr))', gap: '24px', alignItems: 'start' })}>
             {(v.panels ?? []).map((p: any, p_i: number) => (
                 <Fragment key={p_i}>

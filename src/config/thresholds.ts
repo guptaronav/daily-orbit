@@ -26,6 +26,7 @@ const UNITS: Record<Indicator, string> = {
   bowelMovements: 'per day',
   waterIntake: 'L',
   mealsEaten: 'meals',
+  reactionTime: 'ms',
 }
 
 export const THRESHOLDS: readonly Threshold[] = INDICATORS.map((indicator) => ({

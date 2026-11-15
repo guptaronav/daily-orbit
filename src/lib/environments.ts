@@ -1,6 +1,6 @@
 import raw from '../content/environments.json'
 
-export type EnvId = 'iss' | 'lunar' | 'mars'
+export type EnvId = 'iss' | 'lunar' | 'mars' | 'marsSurface'
 
 export type Environment = {
   id: EnvId

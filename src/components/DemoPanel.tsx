@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import { addMeasurements, listEvents, listMeasurements, removeEvents } from '../db/repo'
 import { amslerDistortionEvent, eventsToRemove, noisyReadingEvent, sleepDeclineStep } from '../lib/demoEvents'
+import { SCENARIOS, clearScenarios, runScenario } from '../proto/scenarios'
 import { useApp } from '../state/AppContext'
 import { linkBtn } from './ui'
 
@@ -71,6 +72,7 @@ export function DemoPanel({ open, onClose }: { open: boolean; onClose: () => voi
         return `Removed ${ids.length} check-in${ids.length === 1 ? '' : 's'}`
       },
     },
+    ...SCENARIOS.map((sc) => ({ id: sc.id, label: sc.label, detail: sc.detail, run: () => runScenario(sc.id, crewId) })),
     {
       id: 'sep',
       label: 'Solar particle event',
@@ -117,7 +119,10 @@ export function DemoPanel({ open, onClose }: { open: boolean; onClose: () => voi
       <p role="status" aria-live="polite" className="mt-4 min-h-10 text-sm">
         {message}
       </p>
-      <button onClick={() => void resetDemo().then(() => setMessage('Demo data reset.'))} className={`${linkBtn} mt-2`}>
+      <button onClick={() => { onClose(); window.dispatchEvent(new Event('tour:start')) }} className={`${linkBtn} mt-2 block`}>
+        Start the 60-second guided tour
+      </button>
+      <button onClick={() => void resetDemo().then(() => { clearScenarios(); setMessage('Demo data reset.') })} className={`${linkBtn} mt-2`}>
         Reset demo data
       </button>
     </aside>

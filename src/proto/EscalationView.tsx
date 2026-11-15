@@ -3,6 +3,7 @@
 // GENERATED from the UI overhaul prototype by dc2jsx.py. Styles are the prototype's, verbatim.
 // Edit the view model that feeds this, not this markup, unless you are re-porting the prototype.
 import { Fragment } from 'react'
+import { GroundLinkPanel } from './GroundLink'
 import * as P from './parts'
 import { S } from './parts'
 
@@ -30,7 +31,7 @@ export function EscalationView({ v }: { v: any }) {
                 <p style={S({ margin: '0 0 6px 12px', fontSize: '14px', color: 'var(--muted)' })}>
                   The ladder · climb only when the step below has not settled it
                 </p>
-                <ol style={S({ position: 'relative', listStyle: 'none', margin: '0', padding: '0', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '8px' })}>
+                <ol style={S({ position: 'relative', listStyle: 'none', margin: '0', padding: '30px 0 0', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '8px' })}>
                   {(v.rungs ?? []).map((r: any, r_i: number) => (
                       <Fragment key={r_i}>
                     <li style={S({ position: 'relative', display: 'flex', flexDirection: 'column', alignItems: 'center', transform: `translateX(${r.shift})`, padding: '10px 0' })}>
@@ -295,6 +296,7 @@ export function EscalationView({ v }: { v: any }) {
               </div>
             </section>
           </div>
+          <div style={{ marginTop: 28 }}><GroundLinkPanel /></div>
         </main>
         <P.SiteFooter dock={true} />
         <P.CrewDock current="Escalation" />

@@ -237,6 +237,62 @@
 .fw-press:hover:not(:disabled) { transform: translateY(-2px); }
 .fw-press:active:not(:disabled) { transform: translateY(4px); box-shadow: 0 0 0 transparent !important; }
 
+/* ---- Alert banner re-announce (Alerts.tsx) ---- */
+@keyframes al-pulse { 0%, 100% { transform: none } 30% { transform: scale(1.015) } 60% { transform: translateX(-3px) } 80% { transform: translateX(3px) } }
+
+/* ---- Guided tour highlight (Tour.tsx) ---- */
+.tour-focus { outline: 3px solid #f6c445 !important; outline-offset: 6px; border-radius: 18px; animation: tour-glow 1.6s ease-in-out infinite; scroll-margin: 120px; }
+@keyframes tour-glow { 0%, 100% { box-shadow: 0 0 0 0 rgba(246,196,69,.0) } 50% { box-shadow: 0 0 0 10px rgba(246,196,69,.25) } }
+
+/* ---- Living body figure (BodyFigure: beat at measured heart rate, glow on open alerts) ---- */
+@keyframes bf-beat { 0%, 100% { transform: scale(1) } 14% { transform: scale(1.22) } 28% { transform: scale(1) } 42% { transform: scale(1.12) } 56% { transform: scale(1) } }
+@keyframes bf-alert { 0%, 100% { fill-opacity: .25 } 50% { fill-opacity: .5 } }
+
+/* ---- Printing the weekly report: only the report, on white ---- */
+@media print {
+  header, footer, nav, [role=dialog], [role=toolbar], #ask-orbit, .no-print, button { display: none !important; }
+  body, [data-chm-root] { background: #fff !important; }
+  .report-page { max-width: none !important; padding: 0 !important; }
+  .report-page article { border: 0 !important; border-radius: 0 !important; padding: 0 !important; }
+  @page { margin: 14mm; }
+}
+
+/* ---- Goals toast (GoalToast.tsx) ---- */
+@keyframes gt-in { 0% { opacity: 0; transform: translate(-50%, 14px) scale(.96) } 8%, 88% { opacity: 1; transform: translate(-50%, 0) } 100% { opacity: 0; transform: translate(-50%, -6px) } }
+@media (max-width: 900px) { .today-goals { grid-column: auto !important; } }
+
+/* ---- Dock: next-on-schedule chip ---- */
+.dock-next:hover { background: color-mix(in srgb, var(--ink) 6%, transparent) !important; }
+.dock-ask:hover { background: #2b323d !important; }
+@media (max-width: 520px) { .dock-ask-label { display: none; } }
+
+/* ---- Footer ---- */
+.footer-link:hover { color: var(--accent) !important; text-decoration: underline !important; text-underline-offset: 3px; }
+.footer-grid { grid-template-columns: minmax(240px, 1.6fr) repeat(4, minmax(140px, 1fr)); }
+@media (max-width: 1050px) { .footer-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } .footer-brand { grid-column: 1 / -1; } }
+@media (max-width: 520px) { .footer-grid { grid-template-columns: 1fr; } }
+
+/* ---- Dock skins (level rewards): a soft ring on the rounded dock itself, never the square wrapper ---- */
+.dock-skin.dock-midnight > div { box-shadow: 0 0 0 2px #24345e, 0 18px 40px -16px rgba(11,18,32,.55) !important; }
+.dock-skin.dock-gold > div { box-shadow: 0 0 0 2px #f6c445, 0 0 22px -6px rgba(246,196,69,.55), 0 18px 40px -16px rgba(20,24,31,.45) !important; }
+.dock-skin.dock-aurora > div { box-shadow: 0 0 0 2px #7ef0c5, 0 0 24px -6px rgba(178,141,255,.55), 0 18px 40px -16px rgba(20,24,31,.45) !important; animation: dock-aurora 6s ease-in-out infinite; }
+@keyframes dock-aurora { 0%, 100% { filter: hue-rotate(0deg) } 50% { filter: hue-rotate(40deg) } }
+
+/* ---- Ship systems ---- */
+.medbay-scan::after { content: ''; position: absolute; left: 0; right: 0; height: 36%; top: -36%; background: linear-gradient(180deg, transparent, rgba(76,201,240,.18), rgba(76,201,240,.45) 50%, transparent); pointer-events: none; animation: medbay-sweep 3.8s linear infinite; mix-blend-mode: screen; }
+@keyframes medbay-sweep { to { top: 100% } }
+.medbay-scan { overflow: hidden; }
+.nav-stars { background: radial-gradient(1.5px 1.5px at 12% 22%, rgba(11,61,145,.35), transparent), radial-gradient(1px 1px at 38% 70%, rgba(11,61,145,.3), transparent), radial-gradient(2px 2px at 64% 18%, rgba(246,196,69,.55), transparent), radial-gradient(1px 1px at 84% 58%, rgba(11,61,145,.3), transparent), radial-gradient(1.5px 1.5px at 92% 12%, rgba(11,61,145,.3), transparent); }
+
+/* ---- Metrics page in the site's look (the prototype drew it in a different, technical style) ---- */
+.metrics-page [style*="monospace"] { font-family: inherit !important; letter-spacing: 0 !important; }
+.metrics-page > div > div[style*="border: 1px solid var(--rule)"], .metrics-page > div > section { border-radius: 28px !important; overflow: hidden; }
+.metrics-page span[style*="border: 1px solid var(--watch-ink)"] { border-radius: 999px !important; padding: 3px 10px !important; text-transform: none !important; font-weight: 700 !important; }
+.metrics-page > div[style*="margin-top: 32px"] { margin-top: 0 !important; }
+
+/* Hazards: five cards share the row evenly; a wrapped row stretches instead of leaving one card alone. */
+.hazard-grid > li { flex: 1 1 210px; min-width: 0; }
+
 /* Phones: panels that are given a wide flex-basis must be allowed to shrink to the screen,
    otherwise their contents' minimum width pushes the whole page sideways. Lives here, not in the
    generated views, so re-porting a prototype cannot undo it. */

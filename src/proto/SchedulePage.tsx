@@ -1,6 +1,7 @@
 import { useEffect, useReducer, useState, type FormEvent } from 'react'
 import { blockState, doneToday, dueItems, isBlockDone, planFor, ROLE_DUTIES, toMinutes, type Block, type BlockState, type CustomBlock } from '../lib/schedule'
 import * as D from './data'
+import { ReminderSetting } from './Reminder'
 import { bridge } from './store'
 import { getSnapshot } from './store'
 
@@ -64,7 +65,6 @@ export function SchedulePage() {
     return { b, isDone, state: blockState(b, now, isDone) as BlockState }
   })
   const doneN = rows.filter((r) => r.isDone).length
-  const next = rows.find((r) => r.state === 'now') ?? rows.find((r) => r.state === 'upcoming')
   const t = now.getHours() * 60 + now.getMinutes()
   const nowIndex = rows.findIndex((r) => toMinutes(r.b.start) > t)
   const due = dueItems(getSnapshot().measurements[crew.id] ?? [], getSnapshot().events[crew.id] ?? [], now)
@@ -124,25 +124,22 @@ export function SchedulePage() {
               <p style={{ margin: '2px 0 0', fontSize: 13.5, color: 'rgba(243,241,234,.7)' }}>Coins come from the health tasks themselves, not from ticks.</p>
             </div>
           </div>
-          {next ? (
-            <div style={{ padding: '12px 14px', borderRadius: 16, background: 'rgba(246,196,69,.14)' }}>
-              <p style={{ margin: 0, fontSize: 12, fontWeight: 700, letterSpacing: '.06em', textTransform: 'uppercase', color: '#f6c445' }}>{next.state === 'now' ? 'Now' : `Next, in ${inMinutes(toMinutes(next.b.start) - t)}`}</p>
-              <p style={{ margin: '4px 0 0', fontSize: 17, fontWeight: 700 }}>{next.b.title}</p>
-              <p style={{ margin: '2px 0 0', fontSize: 13.5, color: 'rgba(243,241,234,.7)' }}>
-                {next.b.start} to {endOf(next.b)}
-              </p>
-              {next.b.link && (
-                <button type="button" onClick={() => go(next.b.link)} className="fw-press" style={{ marginTop: 10, minHeight: 42, padding: '0 16px', borderRadius: 12, border: 0, background: '#f6c445', color: '#14181f', fontWeight: 750, cursor: 'pointer', boxShadow: '0 4px 0 #a8740a' }}>
-                  Start it
-                </button>
-              )}
-            </div>
-          ) : (
-            <p style={{ margin: 0, color: 'rgba(243,241,234,.75)' }}>Nothing else scheduled today.</p>
-          )}
+          <p style={{ margin: 0, fontSize: 13.5, color: 'rgba(243,241,234,.75)' }}>The red line on the timeline marks now. Health blocks tick themselves when you do them.</p>
         </section>
       </div>
 
+      <ReminderSetting />
+      {(() => {
+        const g = D.envGuide(s.envId) as { label: string; dayLength: string; equipment: string[] }
+        if (!g.dayLength && !g.equipment.length) return null
+        return (
+          <div style={{ display: 'flex', flexWrap: 'wrap', gap: 10, padding: '12px 16px', borderRadius: 18, background: 'var(--panel-2)', border: '1px solid var(--rule)', fontSize: 14 }}>
+            <strong>{g.label}:</strong>
+            {g.dayLength && <span>{g.dayLength}</span>}
+            {g.equipment.length > 0 && <span style={{ color: 'var(--muted)' }}>Exercise and health kit here: {g.equipment.join('; ')}.</span>}
+          </div>
+        )
+      })()}
       {due.length > 0 && (
         <div role="status" style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: 10, padding: '12px 16px', borderRadius: 18, background: 'var(--accent-wash)', border: '1px solid var(--rule)' }}>
           <strong style={{ fontSize: 14 }}>Due now:</strong>

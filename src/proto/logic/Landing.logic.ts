@@ -38,7 +38,7 @@ export class LandingLogic extends DCLogic {
     if (!D || !s) return { faq, leave, steps: [], orbit: [], heroChips: [], heroStats: [], perks: [], showcase: [], ecg: this.ecg() }
     const w = D.wallet(s.crew.id), g = D.game(s.crew.id), lv = D.level(w.xp), gr = D.gear(w)
     const S = [
-      ['01', 'Mirror check', 'Thirty seconds of camera for pulse and eyelids, then four short questions. Bad light? It refuses to guess.', 'Start the check', 'Mirror.dc.html', 'scan'],
+      ['01', 'Mirror check', 'About a minute of camera for pulse and blinking, two vision checks, then how you feel. Bad light? It refuses to guess.', 'Start the check', 'Mirror.dc.html', 'scan'],
       ['02', 'Body tour', 'Zoom through an X-ray view of every region against your own 30-day normal.', 'Open the console', 'Body%20Map.dc.html', 'body'],
       ['03', 'Who to tell', 'Four rungs from self-care to flight surgeon, with a ground packet and a comm-delay countdown.', 'See the ladder', 'Escalation.dc.html', 'send'],
       ['04', 'Earn the gear', 'Streaks, daily crates, a mission pass and a locker of frames, visors and patches.', 'Open rewards', 'Rewards.dc.html', 'award'],

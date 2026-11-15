@@ -4,6 +4,7 @@
 // Edit the view model that feeds this, not this markup, unless you are re-porting the prototype.
 import { Fragment } from 'react'
 import { FoodWater } from './FoodWater'
+import { ReactionTest } from './ReactionTest'
 import * as P from './parts'
 import { S } from './parts'
 
@@ -28,51 +29,21 @@ export function ManualView({ v }: { v: any }) {
                 Cuff, thermometer, glucose meter, mass device, or the clock. Each reading feeds the same baseline as the mirror check. Field limits only catch typos; they are not health limits, and a reading earns the same coins whatever it says.
               </p>
             </div>
-            <section aria-label="Today's quests" style={S({ flex: '1 1 340px', padding: '22px', borderRadius: '28px', background: '#14181f', color: '#f3f1ea', animation: 'lg-rise 520ms 80ms cubic-bezier(.22,1,.36,1) both' })}>
-              <div style={S({ display: 'flex', alignItems: 'center', gap: '14px' })}>
-                <span aria-hidden="true" style={S({ position: 'relative', display: 'grid', placeItems: 'center', width: '64px', height: '64px', flexShrink: '0' })}>
-                  <svg width="64" height="64" viewBox="0 0 64 64" style={S({ position: 'absolute', inset: '0', transform: 'rotate(-90deg)' })}>
-                    <circle cx="32" cy="32" r="27" fill="none" stroke="rgba(243,241,234,.16)" strokeWidth="6">
-                    </circle>
-                    <circle cx="32" cy="32" r="27" fill="none" stroke="#f6c445" strokeWidth="6" strokeLinecap="round" strokeDasharray={v.questDash} style={S({ transition: 'stroke-dasharray 800ms cubic-bezier(.22,1,.36,1)' })}>
-                    </circle>
-                  </svg>
-                  <span style={S({ fontSize: '16px', fontWeight: '800' })}>
-                    {v.questDone}/3
-                  </span>
-                </span>
-                <div>
-                  <p style={S({ margin: '0', fontSize: '19px', fontWeight: '750', letterSpacing: '-0.02em' })}>
-                    Today’s quests
-                  </p>
-                  <p style={S({ margin: '2px 0 0', fontSize: '13.5px', opacity: '.72' })}>
-                    {v.sessionCoins} coins earned on this visit
-                  </p>
-                </div>
-              </div>
-              <ul style={S({ listStyle: 'none', margin: '16px 0 0', padding: '0', display: 'flex', flexDirection: 'column', gap: '6px' })}>
-                {(v.quests ?? []).map((q: any, q_i: number) => (
-                    <Fragment key={q_i}>
-                  <li style={S({ display: 'flex', alignItems: 'center', gap: '10px', padding: '10px 12px', borderRadius: '14px', background: q.bg, transition: 'background-color 300ms ease' })}>
-                    <span aria-hidden="true" style={S({ display: 'grid', placeItems: 'center', width: '26px', height: '26px', borderRadius: '999px', background: q.tick, color: '#0b0f16', transition: 'background-color 300ms ease' })}>
-                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" style={S({ opacity: q.tickOp })}>
-                        <path d="M20 6 9 17l-5-5">
-                        </path>
-                      </svg>
-                    </span>
-                    <span style={S({ flex: '1', fontSize: '14px', fontWeight: '600', textDecoration: q.strike })}>
-                      {q.label}
-                    </span>
-                    <span style={S({ fontSize: '13.5px', fontWeight: '750', color: '#f6c445', whiteSpace: 'nowrap' })}>
-                      +{q.points}
-                    </span>
-                  </li>
-                    </Fragment>
-                  ))}
-              </ul>
+            <section aria-label="How logging works" style={{ flex: '1 1 320px', padding: 22, borderRadius: 28, background: '#14181f', color: '#f3f1ea', display: 'grid', gap: 12, alignContent: 'start', animation: 'lg-rise 520ms 80ms cubic-bezier(.22,1,.36,1) both' }}>
+              <p style={{ margin: 0, fontSize: 12, fontWeight: 750, letterSpacing: '.06em', textTransform: 'uppercase', color: '#f6c445' }}>How logging works</p>
+              <p style={{ margin: 0, fontSize: 15, lineHeight: 1.5 }}>
+                <strong>Same baseline:</strong> every reading joins the one the mirror check builds, so the body map compares you only with you.
+              </p>
+              <p style={{ margin: 0, fontSize: 15, lineHeight: 1.5 }}>
+                <strong>Coins for logging:</strong> a reading earns the same whatever the number says.
+              </p>
+              <p style={{ margin: 0, fontSize: 15, lineHeight: 1.5 }}>
+                <strong>On this device:</strong> readings are saved locally, nothing is uploaded.
+              </p>
             </section>
           </div>
           <FoodWater />
+          <ReactionTest />
           <div style={S({ display: 'flex', flexWrap: 'wrap', alignItems: 'flex-start', gap: '24px' })}>
             <div style={S({ flex: '999 1 640px', display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(min(100%, 320px), 1fr))', gap: '18px' })}>
               {(v.forms ?? []).map((f: any, f_i: number) => (

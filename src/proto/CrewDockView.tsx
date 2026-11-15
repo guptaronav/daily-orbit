@@ -10,7 +10,7 @@ import { S } from './parts'
 export function CrewDockView({ v }: { v: any }) {
   return (
     <>
-      <div ref={v.rootRef} role="toolbar" aria-label="Mission dock" style={S({ position: 'fixed', left: '50%', bottom: '18px', transform: 'translateX(-50%)', zIndex: '35', maxWidth: 'calc(100vw - 20px)', fontFamily: 'ui-sans-serif, system-ui, -apple-system, \'Segoe UI\', Roboto, sans-serif', color: 'var(--ink)', animation: 'chm-dock-in 420ms cubic-bezier(.22,1,.36,1) both' })}>
+      <div ref={v.rootRef} role="toolbar" aria-label="Mission dock" className={v.skin} style={S({ position: 'fixed', left: '50%', bottom: '18px', transform: 'translateX(-50%)', zIndex: '35', maxWidth: 'calc(100vw - 20px)', fontFamily: 'ui-sans-serif, system-ui, -apple-system, \'Segoe UI\', Roboto, sans-serif', color: 'var(--ink)', animation: 'chm-dock-in 420ms cubic-bezier(.22,1,.36,1) both' })}>
         {(v.popCrew) ? (
           <>
           <div role="dialog" aria-label={v.pop.aria} style={S({ position: 'absolute', bottom: 'calc(100% + 12px)', left: v.pop.left, transform: 'translateX(-50%)', width: '280px', background: 'var(--panel)', border: '1px solid var(--rule-strong)', borderRadius: '18px', boxShadow: '0 24px 50px -24px rgba(20,24,31,.45)', overflow: 'hidden', animation: 'chm-pop 200ms cubic-bezier(.22,1,.36,1) both' })}>
@@ -185,25 +185,16 @@ export function CrewDockView({ v }: { v: any }) {
                 </span>
               </span>
             </button>
-            <div style={S({ display: 'flex', alignItems: 'center', gap: '2px', padding: '0 2px' })}>
-              {(v.actions ?? []).map((a: any, a_i: number) => (
-                  <Fragment key={a_i}>
-                <a href={a.href} aria-label={a.label} aria-current={a.current} onMouseEnter={a.enter} onFocus={a.enter} style={S({ position: 'relative', display: 'grid', placeItems: 'center', width: '48px', height: '48px', borderRadius: '14px', background: a.bg, color: a.color, textDecoration: 'none', transition: 'background-color 140ms ease, transform 200ms cubic-bezier(.22,1,.36,1)' })} className="crewdockview-hover-4">
-                  {(a.hover) ? (
-                    <>
-                    <span style={S({ position: 'absolute', bottom: 'calc(100% + 10px)', left: '50%', transform: 'translateX(-50%)', whiteSpace: 'nowrap', padding: '6px 10px', borderRadius: '10px', background: 'var(--ink)', color: 'var(--paper)', fontSize: '12.5px', fontWeight: '500', pointerEvents: 'none' })}>
-                      {a.label}
-                    </span>
-                    </>
-                  ) : null}
-                  <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round">
-                    <path d={a.path}>
-                    </path>
-                  </svg>
-                </a>
-                  </Fragment>
-                ))}
-            </div>
+            {(v.nextShow) ? (
+              <button type="button" onClick={v.openSchedule} onMouseEnter={v.leave} aria-label={`Next on your schedule: ${v.nextTitle}, ${v.nextWhen}. Open the schedule.`} className="dock-next" style={S({ display: v.goalDisplay, flexDirection: 'column', justifyContent: 'center', gap: '2px', minHeight: '48px', maxWidth: '190px', padding: '0 12px', borderRadius: '14px', border: '0', background: 'transparent', color: 'var(--ink)', textAlign: 'left', cursor: 'pointer' })}>
+                <span style={S({ fontSize: '11.5px', fontWeight: '700', letterSpacing: '.04em', textTransform: 'uppercase', color: 'var(--muted)' })}>
+                  {v.nextWhen}
+                </span>
+                <span style={S({ fontSize: '13.5px', fontWeight: '650', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis', maxWidth: '166px' })}>
+                  {v.nextTitle}
+                </span>
+              </button>
+            ) : null}
             <span aria-hidden="true" style={S({ display: v.goalDisplay, alignSelf: 'stretch', width: '1px', margin: '6px 4px', background: 'var(--rule)' })}>
             </span>
             <button type="button" onClick={v.toggleGoal} aria-expanded={v.goalOpenStr} style={S({ display: v.goalDisplay, flexDirection: 'column', justifyContent: 'center', gap: '6px', minHeight: '52px', minWidth: '128px', padding: '0 12px', background: v.goalBg, border: '0', borderRadius: '16px', color: 'var(--ink)', textAlign: 'left', cursor: 'pointer' })} className="crewdockview-hover-5">
@@ -219,6 +210,12 @@ export function CrewDockView({ v }: { v: any }) {
                 <span style={S({ display: 'block', height: '100%', width: v.goalPct, borderRadius: '999px', background: 'var(--accent)' })}>
                 </span>
               </span>
+            </button>
+            <button type="button" className="dock-ask" onClick={() => window.dispatchEvent(new Event('orbit:toggle'))} aria-label="Ask Orbit: questions about symptoms and readings" style={S({ display: 'flex', alignItems: 'center', gap: '8px', minHeight: '44px', padding: '0 14px', margin: '0 4px', borderRadius: '999px', border: '0', background: '#14181f', color: '#f3f1ea', fontWeight: '700', fontSize: '14px', cursor: 'pointer', whiteSpace: 'nowrap' })}>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#f6c445" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2Z M8 9h8 M8 13h5" />
+              </svg>
+              <span className="dock-ask-label">Ask Orbit</span>
             </button>
             <button type="button" onClick={v.toggleCollapse} aria-label="Minimize mission dock" style={S({ display: 'grid', placeItems: 'center', width: '40px', height: '48px', borderRadius: '14px', background: 'transparent', border: '0', color: 'var(--muted)', cursor: 'pointer' })} className="crewdockview-hover-6">
               <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">

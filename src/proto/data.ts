@@ -19,18 +19,31 @@ import { addEvent, addMeasurement } from '../db/repo'
 import { getThreshold } from '../config/thresholds'
 import { getContent } from '../lib/content'
 import { REGIONS as APP_REGIONS } from '../lib/regions'
-import { readIndicator } from '../lib/bodyStatus'
+import { readAll as appReadAll, readIndicator } from '../lib/bodyStatus'
+import { patternFlags, RUNG_NAME } from '../lib/patterns'
+import { HAZARD_IDS, hazardIndicators, hazardStatus } from '../lib/hazards'
+import { CAREER_LIMIT_MSV, CAREER_LIMIT_SOURCE, DAILY_RATE, PRIOR_MISSIONS_MSV, careerBudget } from '../lib/radiationBudget'
+import { selfReportGaps } from '../lib/selfReportGap'
+import { alertCandidates, alertState } from '../lib/alerts'
+import { buildIndex, redFlag, search } from '../lib/assistant'
+import { blockState, doneToday, isBlockDone, planFor, toMinutes } from '../lib/schedule'
+import SOURCES_RAW from '../content/sources.json'
+import { cabinSeries, CABIN } from '../lib/sim/cabin'
+import HAZARDS_RAW from '../content/hazards.json'
+import ENV_RAW from '../content/environments.json'
+import REGION_RAW from '../content/regions.json'
 import { formatDelay as appFormatDelay } from '../lib/environments'
 import { ENTRY_FORMS as APP_FORMS, validateEntry as appValidate } from '../lib/manualEntry'
 import { buildPacket as appBuildPacket } from '../lib/packet'
-import { POINTS as APP_POINTS, SYSTEMS as APP_SYSTEMS, WEEKLY_GOAL_PER_CREW as APP_GOAL, creditableKinds, creditedEvents, pointsFor, pointsInWindow } from '../lib/scoring'
+import { POINTS as APP_POINTS, SYSTEMS as APP_SYSTEMS, WEEKLY_GOAL_PER_CREW as APP_GOAL, DAILY_COIN_CAP, cappedPoints, creditableKinds, creditedEvents, pointsFor, pointsInWindow } from '../lib/scoring'
 import {
   REPORTING_DEFAULTS as APP_REPORTING,
   TIME_DEFAULTS as APP_TIME,
   crewMinutesPerDay as appMinutes,
   reportingCompleteness as appReporting,
 } from '../lib/sim/metrics'
-import { checkInDays, currentStreak } from '../lib/streak'
+import { checkInDays } from '../lib/streak'
+import { streakWithShields } from '../lib/shields'
 import { bridge, getSnapshot, notify, onChange } from './store'
 
 export function mulberry32(seed) {
@@ -79,6 +92,7 @@ export const ENVS = [
   { id: 'iss', label: 'ISS (low Earth orbit)', short: 'ISS', delay: 1 },
   { id: 'lunar', label: 'Lunar surface', short: 'Lunar', delay: 1.3 },
   { id: 'mars', label: 'Mars transit', short: 'Mars', delay: 1200, min: 180, max: 1320 },
+  { id: 'marsSurface', label: 'Mars surface base', short: 'Mars base', delay: 1200, min: 180, max: 1320 },
 ]
 export const formatDelay = (sec) => appFormatDelay(sec)
 
@@ -125,6 +139,7 @@ export const ICONS = {
 }
 
 const PROTO_IND = {
+  reactionTime: ['Reaction time', 'ms', 0],
   sleepHours: ['Sleep hours', 'h', 1], sleepQuality: ['Sleep quality', '0-10', 1], mood: ['Mood', '0-10', 1], stress: ['Stress', '0-10', 1],
   blinkRate: ['Blink rate', 'blinks/min', 2], eyelidClosure: ['Eyelid closure', '%', 2], amslerDistortion: ['Amsler grid distortion', '', 0],
   nearAcuity: ['Near acuity', 'logMAR', 2], heartRate: ['Heart rate', 'bpm', 0], bloodPressureSys: ['Blood pressure (systolic)', 'mmHg', 0],
@@ -188,7 +203,8 @@ function read(crewId, ind) {
   const latest = passed[passed.length - 1]
   const baseline = app.baseline ? { mean: app.baseline.mean, sd: app.baseline.sd, n: app.baseline.n } : null
   const z = baseline && typeof app.latest.value === 'number' ? (app.latest.value - baseline.mean) / baseline.sd : null
-  return { id: ind, label, unit, dp, status: app.status, latest, baseline, history, failed, z, source: app.latest.source }
+  const reference = app.reference ? { mean: app.reference.mean, sd: app.reference.sd, n: app.reference.n } : null
+  return { id: ind, label, unit, dp, status: app.status, latest, baseline, history, failed, z, source: app.latest.source, reference, drift: app.drift ?? null, basis: app.basis ?? 'recent' }
 }
 
 // Trend chart geometry: baseline band (±1 SD), ±2 SD dotted, gaps where quality failed, straight segments only.
@@ -320,7 +336,7 @@ export function applyTheme(theme) {
 export const NAV = [
   { group: 'Crew', items: [
     { label: 'Body map', icon: 'body', href: 'Body%20Map.dc.html', desc: 'Every indicator against this person’s own baseline' },
-    { label: 'Mirror check', icon: 'scan', href: 'Mirror.dc.html', desc: 'Thirty seconds of camera, then four questions' },
+    { label: 'Mirror check', icon: 'scan', href: 'Mirror.dc.html', desc: 'About a minute of camera, two vision checks, how you feel' },
     { label: 'Crew progress', icon: 'award', href: 'Rewards.dc.html', desc: 'Points for effort, never for values' },
     { label: 'Manual entry', icon: 'pen', href: 'Manual%20Entry.dc.html', desc: 'Readings the camera cannot take' },
   ] },
@@ -361,9 +377,9 @@ export function game(crewId) {
   let best = 0, run = 0
   for (const d of days) { run = d.checkIn ? run + 1 : 0; best = Math.max(best, run) }
   return {
-    streak: currentStreak(checkInDays(events, crewId), todayKey()),
+    ...(() => { const sh = streakWithShields(checkInDays(events, crewId), todayKey()); return { streak: sh.streak, shields: sh.shields, saves: sh.saves } })(),
     week: pointsInWindow(events, now, 7),
-    total: pointsFor(credited),
+    total: cappedPoints(credited),
     month: days.map((d) => (d.checkIn ? (d.exercise ? 2 : 1) : 0)),
     best,
     days: days.slice(-14).map((d) => d.checkIn),
@@ -379,11 +395,21 @@ export function crewGoal() {
   const goal = WEEKLY_GOAL_PER_CREW * Math.max(1, crew.length)
   return { week, goal, frac: Math.min(1, week / goal), total, systems: SYSTEMS.map((s) => ({ ...s, online: total >= s.threshold })) }
 }
+/**
+ * Today's goals: the one list every screen reads (Today, the dock, the Log page, Rewards). Each goal
+ * pays the app's own capped effort credit (lib/scoring.ts), once a day, and is done only when that
+ * credit was really recorded today. Required goals make "all done today"; optional ones are bonuses.
+ */
 export function todayTasks(crewId) {
   const t = game(crewId).today
+  const today = todayKey()
+  const logged = new Set((getSnapshot().events[crewId] ?? []).filter((e) => e.kind === 'readingLogged' && dayKey(e.timestamp) === today).map((e) => e.detail))
   return [
-    { id: 'checkIn', label: 'Mirror check', sub: 'Thirty seconds of camera, then four questions', points: POINTS.checkInComplete, done: t.checkIn, icon: 'scan', href: 'Mirror.dc.html' },
+    { id: 'checkIn', label: 'Mirror check', sub: 'About a minute of camera, two vision checks, how you feel', points: POINTS.checkInComplete, done: t.checkIn, icon: 'scan', href: 'Mirror.dc.html' },
     { id: 'exercise', label: 'Log exercise', sub: 'Any session counts, whatever the minutes', points: POINTS.exerciseComplete, done: t.exercise, icon: 'activity', href: 'Manual%20Entry.dc.html' },
+    { id: 'water', label: 'Log water', sub: 'Tap +250 or +500 mL on the Log page', points: POINTS.readingLogged, done: logged.has('waterIntake'), icon: 'gut', href: 'Manual%20Entry.dc.html' },
+    { id: 'meals', label: 'Log a meal', sub: 'Mark breakfast, lunch, dinner or a snack', points: POINTS.readingLogged, done: logged.has('mealsEaten'), icon: 'gut', href: 'Manual%20Entry.dc.html' },
+    { id: 'alertness', label: 'Alertness check', sub: 'One minute of reaction-time taps', points: POINTS.readingLogged, done: logged.has('reactionTime'), icon: 'clock', href: 'Manual%20Entry.dc.html', optional: true },
     { id: 'symptom', label: 'Report anything that feels off', sub: 'Reporting early earns the most', points: POINTS.symptomReported, done: t.symptom, icon: 'alert', href: 'Mirror.dc.html', optional: true },
   ]
 }
@@ -419,6 +445,41 @@ export const SHOP = [
   { id: 'banner-orbit', slot: 'banner', name: 'Orbits', price: 180, bg: 'repeating-radial-gradient(circle at 85% 120%, transparent 0 26px, rgba(243,241,234,.18) 26px 27px), #0b3d91', ink: '#fbfaf6' },
   { id: 'banner-stars', slot: 'banner', name: 'Deep field', price: 260, bg: 'radial-gradient(1px 1px at 12% 30%, #fff, transparent), radial-gradient(1px 1px at 38% 70%, #fff, transparent), radial-gradient(1.5px 1.5px at 66% 22%, #fff, transparent), radial-gradient(1px 1px at 82% 62%, #fff, transparent), radial-gradient(1px 1px at 92% 18%, #fff, transparent), radial-gradient(1px 1px at 24% 88%, #fff, transparent), #0a0e16', ink: '#fbfaf6' },
   { id: 'banner-mars', slot: 'banner', name: 'Red dunes', price: 340, bg: 'repeating-linear-gradient(170deg, rgba(0,0,0,.08) 0 2px, transparent 2px 14px), linear-gradient(180deg, #e9a17a, #b3412a)', ink: '#fffaf3' },
+  // More gear (2026-11-15). Every slot here is one the avatar already draws.
+  { id: 'frame-copper', slot: 'frame', name: 'Copper ring', price: 160, bg: 'linear-gradient(135deg, #6e3b1f, #e0a070 42%, #b8682f 68%, #5a2e15)' },
+  { id: 'frame-mars', slot: 'frame', name: 'Red planet ring', price: 260, bg: 'radial-gradient(circle at 30% 30%, #f6b48a, #c8673f 45%, #6e2c1a)' },
+  { id: 'frame-aurora', slot: 'frame', name: 'Aurora ring', price: 380, bg: 'linear-gradient(135deg, #12708a, #7ef0c5 40%, #b28dff 70%, #3b1f5e)' },
+  { id: 'frame-nebula', slot: 'frame', name: 'Nebula ring', price: 560, bg: 'conic-gradient(from 40deg, #3b1f5e, #6b34a0, #12708a, #4cc9f0, #3b1f5e)' },
+  { id: 'visor-aurora', slot: 'visor', name: 'Aurora visor', price: 180, c1: '#7ef0c5', c2: '#12708a' },
+  { id: 'visor-sunset', slot: 'visor', name: 'Mars sunset visor', price: 200, c1: '#b9dcff', c2: '#b8643a' },
+  { id: 'visor-deep', slot: 'visor', name: 'Deep space visor', price: 230, c1: '#9cbcff', c2: '#1e1838' },
+  { id: 'suit-sand', slot: 'suit', name: 'Desert tan', price: 110, fill: '#c9a46a' },
+  { id: 'suit-green', slot: 'suit', name: 'Hab green', price: 130, fill: '#3f8a5c' },
+  { id: 'suit-red', slot: 'suit', name: 'Rescue red', price: 170, fill: '#c0392b' },
+  { id: 'suit-purple', slot: 'suit', name: 'Nebula violet', price: 190, fill: '#5b3a8c' },
+  { id: 'suit-gold', slot: 'suit', name: 'EVA gold', price: 320, fill: '#c9962b' },
+  { id: 'patch-sun', slot: 'patch', name: 'Sun patch', price: 120, bg: '#f6c445', fg: '#14181f', glyph: 'M12 8a4 4 0 1 1 0 8 4 4 0 0 1 0-8Z M12 2v2 M12 20v2 M4.9 4.9l1.4 1.4 M17.7 17.7l1.4 1.4 M2 12h2 M20 12h2 M4.9 19.1l1.4-1.4 M17.7 6.3l1.4-1.4' },
+  { id: 'patch-dna', slot: 'patch', name: 'Science patch', price: 150, bg: '#12708a', fg: '#e8eefc', glyph: 'M8 3c0 6 8 6 8 12s-8 6-8 6 M16 3c0 6-8 6-8 12 M9 7h6 M9 17h6' },
+  { id: 'patch-rocket', slot: 'patch', name: 'Launch patch', price: 170, bg: '#e8742c', fg: '#fff7ec', glyph: 'M12 2c3 2 5 6 5 10l-2 3H9l-2-3c0-4 2-8 5-10Z M12 8h.01 M9 15l-2 4 M15 15l2 4' },
+  { id: 'patch-saturn', slot: 'patch', name: 'Ringed planet patch', price: 230, bg: '#5b3a8c', fg: '#f6c445', glyph: 'M12 8a4 4 0 1 1 0 8 4 4 0 0 1 0-8Z M3 15c2 2 16-2 18-6' },
+  { id: 'banner-sunrise', slot: 'banner', name: 'Orbital sunrise', price: 150, bg: 'linear-gradient(180deg, #14181f, #3d1a22 45%, #e8742c 80%, #f6c445)', ink: '#f3f1ea' },
+  { id: 'banner-aurora', slot: 'banner', name: 'Aurora', price: 200, bg: 'linear-gradient(160deg, #05140f, #0e3b33 40%, #2fbf8f 72%, #b28dff)', ink: '#f3f1ea' },
+  { id: 'banner-blueprint', slot: 'banner', name: 'Blueprint', price: 120, bg: 'linear-gradient(to right, rgba(243,241,234,.12) 1px, transparent 1px) 0 0 / 26px 26px, linear-gradient(to bottom, rgba(243,241,234,.12) 1px, transparent 1px) 0 0 / 26px 26px, #0b3d91', ink: '#f3f1ea' },
+  // Season 1 mission pass only: earned on the pass, never sold.
+  { id: 'frame-pass', slot: 'frame', name: 'Season 1 ring', price: 0, pass: true, bg: 'conic-gradient(from 0deg, #f6c445, #0b3d91, #f6c445, #0b3d91, #f6c445)' },
+  { id: 'visor-pass', slot: 'visor', name: 'Season 1 visor', price: 0, pass: true, c1: '#f6c445', c2: '#0b3d91' },
+  { id: 'suit-pass', slot: 'suit', name: 'Season 1 flight suit', price: 0, pass: true, fill: '#1d2b53' },
+  { id: 'patch-pass', slot: 'patch', name: 'Season 1 patch', price: 0, pass: true, bg: '#0b3d91', fg: '#f6c445', glyph: 'M12 3l2.6 5.3 5.8.8-4.2 4.1 1 5.8L12 16.3 6.8 19l1-5.8L3.6 9.1l5.8-.8Z' },
+  { id: 'banner-pass', slot: 'banner', name: 'Season 1', price: 0, pass: true, bg: 'radial-gradient(circle at 80% 20%, rgba(246,196,69,.55), transparent 40%), linear-gradient(135deg, #0b1220, #1d2b53 55%, #0b3d91)', ink: '#f3f1ea' },
+  // Level rewards: earned by reaching the level, never sold.
+  { id: 'banner-starlight', slot: 'banner', name: 'Starlight', price: 0, level: 4, bg: 'radial-gradient(1.5px 1.5px at 20% 30%, #fff, transparent), radial-gradient(1px 1px at 60% 70%, #fff, transparent), radial-gradient(2px 2px at 80% 20%, #f6c445, transparent), linear-gradient(180deg, #0b1220, #24345e)', ink: '#f3f1ea' },
+  { id: 'frame-comet', slot: 'frame', name: 'Comet ring', price: 0, level: 7, bg: 'conic-gradient(from 200deg, #f6c445, #e8742c, #14181f 40%, #f6c445)' },
+  { id: 'visor-legend', slot: 'visor', name: 'Legend visor', price: 0, level: 10, c1: '#ffe08a', c2: '#5b3a8c' },
+  // Collection-set rewards: complete a set to unlock its matching ring.
+  { id: 'frame-set-mars', slot: 'frame', name: 'Mars kit ring', price: 0, set: 'mars', bg: 'repeating-conic-gradient(#c8673f 0 20deg, #6e2c1a 20deg 40deg)' },
+  { id: 'frame-set-moon', slot: 'frame', name: 'Moon kit ring', price: 0, set: 'moon', bg: 'repeating-conic-gradient(#d9dbe0 0 20deg, #6b6e75 20deg 40deg)' },
+  { id: 'frame-set-station', slot: 'frame', name: 'Station kit ring', price: 0, set: 'station', bg: 'repeating-conic-gradient(#4cc9f0 0 20deg, #0b3d91 20deg 40deg)' },
+  { id: 'frame-set-deep', slot: 'frame', name: 'Deep space kit ring', price: 0, set: 'deep', bg: 'repeating-conic-gradient(#b28dff 0 20deg, #1e1838 20deg 40deg)' },
   // Illustrated mission scenes (src/proto/MissionScene.tsx). `bg` is the backdrop the scene draws over.
   { id: 'banner-mission', slot: 'banner', name: 'Current mission', price: 0, scene: 'mission', bg: 'linear-gradient(180deg, #050814, #0b1430)', ink: '#f3f1ea' },
   { id: 'banner-lunar', slot: 'banner', name: 'Earthrise', price: 220, scene: 'lunar', bg: 'linear-gradient(180deg, #000, #0a0d14)', ink: '#f3f1ea' },
@@ -433,7 +494,7 @@ const STARTER = {
   'crew-2': { owned: ['frame-brass', 'suit-orange', 'patch-iss', 'banner-grid'], eq: { frame: 'frame-brass', suit: 'suit-orange', patch: 'patch-iss', banner: 'banner-grid' } },
   'crew-3': { owned: ['frame-silver', 'visor-silver', 'patch-mars', 'suit-blue', 'banner-mars', 'top-star'], eq: { frame: 'frame-silver', visor: 'visor-silver', patch: 'patch-mars', suit: 'suit-blue', banner: 'banner-mars', top: 'top-star' } },
 }
-const FREE = SHOP.filter((x) => x.price === 0).map((x) => x.id)
+const FREE = SHOP.filter((x) => x.price === 0 && !x.pass && !x.level && !x.set).map((x) => x.id)
 
 /** Cosmetic locker state only: what you own, what you wear, what you have spent. */
 type Locker = { owned: string[]; equipped: Record<string, string>; spent: number; bonus: number; granted: string[]; pass: number[]; found: string[]; onboarded: boolean; goal: string; log: { n: number; why: string; at: number }[] }
@@ -460,14 +521,15 @@ function saveLocker(id, l: Locker) {
  */
 export function wallet(id) {
   const events = getSnapshot().events[id] ?? []
-  const earned = pointsFor(creditedEvents(events))
+  const earned = cappedPoints(creditedEvents(events))
   const l = locker(id)
+  const unlocked = computedUnlocks(id, earned, l.owned)
   const chest = events.some((e) => e.kind === 'supplyDrop' && dayKey(e.timestamp) === todayKey())
   const claimed = events.filter((e) => e.kind === 'streakMilestone' && e.detail).map((e) => Number(String(e.detail).replace('streak-', '')))
   return {
     coins: Math.max(0, earned + (l.bonus || 0) - l.spent),
     xp: earned,
-    owned: l.owned,
+    owned: Array.from(new Set([...l.owned, ...unlocked])),
     equipped: l.equipped,
     chestDay: chest ? todayKey() : null,
     claimed,
@@ -534,7 +596,9 @@ export function logReading(id, kind, values) {
   const timestamp = new Date().toISOString()
   const effort = kind === 'exerciseMinutes' ? { kind: 'exerciseComplete' } : { kind: 'readingLogged', detail: kind }
   const { credited } = creditableKinds(getSnapshot().events[id] ?? [], [effort], id, new Date(timestamp))
-  const points = credited.length ? POINTS[effort.kind] : 0
+  const points = credited.length ? Math.min(POINTS[effort.kind], capRoom(id)) : 0
+  if (credited.length && !points) announce(0, 'Daily coin limit reached', true)
+  if (points) announce(points, kind === 'exerciseMinutes' ? 'Exercise logged' : kind === 'reactionTime' ? 'Alertness check done' : `${IND[values[0]?.indicator]?.[0] ?? 'Reading'} logged`)
   void (async () => {
     for (const v of values) {
       await addMeasurement({
@@ -563,6 +627,8 @@ export function buy(id, itemId) {
   return true
 }
 export function equip(id, itemId) {
+  // Level and set rewards are owned by being earned, not bought: make them equippable.
+  if (computedUnlocks(id, wallet(id).xp, locker(id).owned).includes(itemId)) { const l0 = locker(id); if (!l0.owned.includes(itemId)) saveLocker(id, { ...l0, owned: [...l0.owned, itemId] }) }
   const l = locker(id), it = SHOP.find((x) => x.id === itemId)
   if (!it || !l.owned.includes(itemId)) return
   saveLocker(id, { ...l, equipped: { ...l.equipped, [it.slot]: itemId } })
@@ -593,6 +659,14 @@ export function achievements(id) {
     { id: 'full', name: 'Full picture', desc: 'Good data in all six regions', icon: 'body', got: Object.values(cd.statuses).every((s) => s !== 'gray') },
     { id: 'crew', name: 'Crew player', desc: 'Help the crew hit its weekly goal', icon: 'users', got: crewGoal().frac >= 1 },
     { id: 'collector', name: 'Collector', desc: 'Own five accessories', icon: 'award', got: paid >= 5 },
+    { id: 'streak14', name: 'Two weeks strong', desc: 'Check in fourteen days running', icon: 'flame', got: g.streak >= 14 },
+    { id: 'streak30', name: 'Month in orbit', desc: 'Check in thirty days running', icon: 'moon', got: g.streak >= 30 },
+    { id: 'hydrated', name: 'Hydrated', desc: 'Reach your water goal on three days', icon: 'gut', got: Object.values(intakeStore(id).days).filter((d) => d.water >= (intakeStore(id).goal ?? 2.5)).length >= 3 },
+    { id: 'fed', name: 'Three square meals', desc: 'Log breakfast, lunch and dinner on one day', icon: 'sun', got: Object.values(intakeStore(id).days).some((d) => ['breakfast', 'lunch', 'dinner'].every((m) => d.meals.includes(m))) },
+    { id: 'sharp', name: 'Sharp', desc: 'Finish three alertness checks', icon: 'zap', got: (getSnapshot().measurements[id] ?? []).filter((m) => m.indicator === 'reactionTime').length >= 3 },
+    { id: 'planner', name: 'Planner', desc: 'Add a block of your own to the schedule', icon: 'clock', got: scheduleStore(id).custom.length > 0 },
+    { id: 'contact', name: 'Ground contact', desc: 'Send a packet to Earth from Escalate', icon: 'send', got: groundLink(id).list.length > 0 },
+    { id: 'scout', name: 'Scout', desc: 'Find your first discovery in a mission banner', icon: 'target', got: locker(id).found.length > 0 },
     { id: 'explorer', name: 'Explorer', desc: `Find all ${DISCOVERY_COUNT} discoveries in the mission banners`, icon: 'spark', got: locker(id).found.length >= DISCOVERY_COUNT },
   ]
 }
@@ -605,8 +679,22 @@ export const COIN_PATH = 'M12 2a10 10 0 1 1 0 20 10 10 0 0 1 0-20Z M12 6.5a5.5 5
  * it is done, and its credit arrives from that real flow.
  */
 export function completeTask(crewId, taskId) {
-  bridge.go(taskId === 'exercise' ? 'manual' : 'mirror')
+  bridge.go(taskId === 'checkIn' || taskId === 'symptom' ? 'mirror' : 'manual')
   return 0
+}
+
+/** The next block on this person's schedule (now or upcoming), with minutes until it starts. */
+export function nextBlock(crewId) {
+  const now = new Date()
+  const crew = getState().crew
+  const plan = planFor(crew.role || '', scheduleStore(crewId).custom, now)
+  const done = doneToday(getSnapshot().events[crewId] ?? [], now)
+  const meals = intake(crewId).meals
+  const ticks = ticksToday(crewId)
+  const rows = plan.map((b) => ({ b, st: blockState(b, now, isBlockDone(b, done, meals, ticks)) }))
+  const next = rows.find((r) => r.st === 'now') ?? rows.find((r) => r.st === 'upcoming')
+  if (!next) return null
+  return { title: next.b.title, start: next.b.start, now: next.st === 'now', minsTo: toMinutes(next.b.start) - (now.getHours() * 60 + now.getMinutes()) }
 }
 
 // Scroll reveal: elements with data-reveal fade and rise in as they enter the viewport.
@@ -640,7 +728,7 @@ export function recommendedAction(ind) {
 /* ---- Mission scenes: what each banner draws, and the discoveries hidden in it ---------------- */
 
 /** Which scene a mission sends you to. Mars is "Mars transit": the crew is still on the way. */
-const MISSION_SCENE = { iss: 'iss', lunar: 'lunar', mars: 'transit' }
+const MISSION_SCENE = { iss: 'iss', lunar: 'lunar', mars: 'transit', marsSurface: 'mars' }
 /** The scene a banner draws (null for a plain one). The mission banner follows the chosen mission. */
 export function sceneFor(banner) {
   if (!banner || !banner.scene) return null
@@ -769,7 +857,10 @@ function intakeCredit(id, ind) {
   const { credited } = creditableKinds(getSnapshot().events[id] ?? [], [effort], id, new Date())
   if (!credited.length) return 0
   void addEvent({ id: crypto.randomUUID(), crewId: id, timestamp: new Date().toISOString(), ...effort }).then(() => bridge.refresh())
-  return POINTS.readingLogged
+  const pts = Math.min(POINTS.readingLogged, capRoom(id))
+  if (pts) announce(pts, ind === 'waterIntake' ? 'Water logged' : 'Meal logged')
+  else announce(0, 'Daily coin limit reached', true)
+  return pts
 }
 
 /** Add (or with a negative amount, take back) water in litres. Returns coins earned. */
@@ -805,7 +896,7 @@ function saveSchedule(id, s) {
 const localDayKey = (d = new Date()) => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`
 export function addBlock(id, b) {
   const s = scheduleStore(id)
-  saveSchedule(id, { ...s, custom: [...s.custom, { ...b, id: 'my-' + crypto.randomUUID().slice(0, 8), kind: 'custom', ...(b.repeat === 'once' ? { day: localDayKey() } : {}) }] })
+  saveSchedule(id, { ...s, custom: [...s.custom, { ...b, id: 'my-' + crypto.randomUUID().slice(0, 8), kind: 'custom', ...(b.repeat === 'once' ? { day: b.day || localDayKey() } : {}) }] })
 }
 export function removeBlock(id, blockId) {
   const s = scheduleStore(id)
@@ -819,3 +910,427 @@ export function tickBlock(id, blockId) {
   saveSchedule(id, { ...s, ticks: { [day]: t.includes(blockId) ? t.filter((x) => x !== blockId) : [...t, blockId] } })
 }
 export const ticksToday = (id) => scheduleStore(id).ticks[localDayKey()] || []
+
+/** Patterns across this person's indicators (lib/patterns.ts), most serious first. */
+export function patterns(crewId) {
+  const hits = patternFlags(appReadAll(getSnapshot().measurements[crewId] ?? []))
+  return hits.map((h) => ({
+    id: h.pattern.id, title: h.pattern.title, summary: h.pattern.summary, risk: h.pattern.risk, riskUrl: h.pattern.riskUrl,
+    status: h.status, rung: h.rung, rungName: RUNG_NAME[h.rung],
+    parts: h.parts.map((x) => ({ id: x.indicator, label: IND[x.indicator][0], status: x.status, direction: x.direction })),
+    care: carePlan(h),
+  }))
+}
+
+/**
+ * A care plan for one pattern, assembled only from text that is already sourced: the involved
+ * readings' recommended actions and prevention steps, what to re-check, and when to move up the
+ * escalation ladder (the rung rule is this app's, see lib/patterns.ts).
+ */
+function carePlan(h) {
+  const ids = Array.from(new Set(h.parts.map((x) => x.indicator)))
+  const sourced = (k) => Array.from(new Set(ids.map((i) => getContent(i)[k]).filter((t) => t && t !== '[CONTENT TODO]')))
+  const next = Math.min(4, h.rung + 1)
+  return {
+    now: sourced('recommendedAction'),
+    prevent: sourced('prevention'),
+    recheck: ids.map((i) => IND[i][0]),
+    moveUp: h.rung >= 4
+      ? 'You are already at the top rung: keep the flight surgeon updated with each new reading.'
+      : `If this is still here after another day, or any reading in it turns red, move up to ${RUNG_NAME[next]}.`,
+  }
+}
+
+/** Tomorrow's date key in local time, for a one-off block the next day. */
+export const tomorrowKey = () => localDayKey(new Date(Date.now() + 86400000))
+
+/* ---- The five hazards, and what they mean on this mission ------------------------------------ */
+const okText = (t) => (t && !String(t).includes('[CONTENT TODO]') ? t : '')
+/** Which environment field speaks to which hazard. The closed-environment hazard shows the cabin instead. */
+const HAZARD_ENV_FIELD = { radiation: 'radiation', isolation: 'isolation', distance: 'distance', gravity: 'gravity' }
+export function envGuide(envId) {
+  const e = ENV_RAW.find((x) => x.id === envId) || {}
+  return { label: e.label, gravity: okText(e.gravity), radiation: okText(e.radiation), distance: okText(e.distance), isolation: okText(e.isolation), dayLength: okText(e.dayLength), equipment: (e.equipment || []).filter(okText) }
+}
+export function hazards(crewId) {
+  const content = INDICATORS.map((i) => ({ id: i, hazardEffect: getContent(i).hazardEffect }))
+  const map = hazardIndicators(content)
+  const st = hazardStatus(map, appReadAll(getSnapshot().measurements[crewId] ?? []))
+  const envId = getState().envId
+  const guide = envGuide(envId)
+  return HAZARD_IDS.map((h) => {
+    const info = HAZARDS_RAW.find((x) => x.id === h) || {}
+    return {
+      id: h, name: info.name || h, url: info.url, what: okText(info.what), body: okText(info.body), selfCare: okText(info.selfCare),
+      status: st[h].status, measured: st[h].measured,
+      linked: map[h].map((i) => IND[i][0]), flagged: st[h].flagged.map((i) => IND[i][0]),
+      here: h === 'environment' ? '' : guide[HAZARD_ENV_FIELD[h]],
+    }
+  })
+}
+/** Simulated cabin air for the current mission (lib/sim/cabin.ts), with today's symptom context. */
+export function cabin(crewId) {
+  const envId = getState().envId
+  let fault = null
+  try { fault = localStorage.getItem('chm-cabin-fault') } catch {}
+  const series = cabinSeries(envId, new Date(), fault)
+  const ms = getSnapshot().measurements[crewId] ?? []
+  const today = todayKey()
+  const headache = ms.some((m) => m.indicator === 'symptomReport' && dayKey(Date.parse(m.timestamp)) === today && Array.isArray(m.value?.symptoms) && m.value.symptoms.some((x) => /headache/i.test(String(x))))
+  return { series, limit: CABIN.limit, unit: CABIN.unit, facts: CABIN.facts, limitText: CABIN.limitText, limitUrl: CABIN.limitUrl, headache }
+}
+
+/** What a body region does, and why spaceflight matters for it (src/content/regions.json, sourced). */
+export function regionInfo(id) {
+  const r = REGION_RAW[id] || {}
+  return { function: okText(r.function), spaceflight: okText(r.spaceflight) }
+}
+
+/** Career radiation budget against NASA's 600 mSv limit (lib/radiationBudget.ts). */
+export function radiationBudget(crewId) {
+  const ms = getSnapshot().measurements[crewId] ?? []
+  const first = ms.length ? Math.min(...ms.map((m) => Date.parse(m.timestamp))) : Date.now()
+  const missionDays = Math.max(0, Math.floor((Date.now() - first) / DAY))
+  const dose = ms.filter((m) => m.indicator === 'radiationDose' && typeof m.value === 'number').sort((a, b) => b.timestamp.localeCompare(a.timestamp))[0]
+  const env = getState().envId
+  const b = careerBudget({ prior: PRIOR_MISSIONS_MSV[crewId] ?? 0, missionDays, env, eventMSv: dose ? dose.value : 0 })
+  return { ...b, limit: CAREER_LIMIT_MSV, limitUrl: CAREER_LIMIT_SOURCE, missionDays, rateBasis: DAILY_RATE[env]?.basis, rateUrl: DAILY_RATE[env]?.url, priorSimulated: crewId !== 'guest' }
+}
+
+/** Where how someone rates themselves disagrees with what was measured (lib/selfReportGap.ts). */
+export function gaps(crewId) {
+  return selfReportGaps(appReadAll(getSnapshot().measurements[crewId] ?? []))
+}
+
+/* ---- The alert loop (lib/alerts.ts): open until acknowledged, cleared only with a note -------- */
+const ALERT_KEY = 'chm-alerts'
+function alertStore() {
+  try { return JSON.parse(localStorage.getItem(ALERT_KEY) || '{}') } catch { return {} }
+}
+function saveAlerts(st, quiet = false) {
+  try { localStorage.setItem(ALERT_KEY, JSON.stringify(st)) } catch {}
+  if (!quiet) notify()
+}
+export function alerts() {
+  const st = alertStore()
+  let changed = false
+  const out = []
+  for (const c of CREW) {
+    const readings = appReadAll(getSnapshot().measurements[c.id] ?? [])
+    for (const a of alertCandidates(c.id, readings, patternFlags(readings), (i) => IND[i][0])) {
+      if (!st[a.id]) { st[a.id] = { firstSeen: Date.now() }; changed = true }
+      const rec = st[a.id]
+      const state = alertState(a, rec)
+      // A reopened alert starts its clock again.
+      if (state === 'open' && rec.signature && rec.signature !== a.signature) { st[a.id] = { firstSeen: Date.now() }; changed = true }
+      out.push({ ...a, crewName: c.id === 'guest' ? 'Guest' : c.name, state, firstSeen: st[a.id].firstSeen, note: rec.note, ackAt: rec.ackAt, closedAt: rec.closedAt })
+    }
+  }
+  if (changed) saveAlerts(st, true)
+  const rank = { open: 0, acknowledged: 1, closed: 2 }
+  return out.sort((a, b) => rank[a.state] - rank[b.state] || (a.status === b.status ? a.firstSeen - b.firstSeen : a.status === 'red' ? -1 : 1))
+}
+export function ackAlert(id) {
+  const st = alertStore()
+  const a = alerts().find((x) => x.id === id)
+  st[id] = { ...(st[id] || {}), ackAt: Date.now(), signature: a?.signature }
+  saveAlerts(st)
+}
+export function closeAlert(id, note) {
+  const st = alertStore()
+  const a = alerts().find((x) => x.id === id)
+  st[id] = { ...(st[id] || {}), ackAt: st[id]?.ackAt || Date.now(), closedAt: Date.now(), note: String(note).slice(0, 280), signature: a?.signature }
+  saveAlerts(st)
+}
+
+/* ---- Ask Orbit (lib/assistant.ts): offline answers from the app's own sourced content ---------- */
+const HRP_RISKS = 'https://www.nasa.gov/hrp/risks'
+const FIELD_Q = {
+  canMeasureInSpace: (l) => `Can ${l.toLowerCase()} be measured in space?`,
+  whyCheck: (l) => `Why check ${l.toLowerCase()}?`,
+  hazardEffect: (l) => `How spaceflight affects ${l.toLowerCase()}`,
+  whenToEscalate: (l) => `When ${l.toLowerCase()} needs attention`,
+  prevention: (l) => `Preventing problems with ${l.toLowerCase()}`,
+  recommendedAction: (l) => `What to do about ${l.toLowerCase()}`,
+}
+function sourceFor(id, field) {
+  const hits = SOURCES_RAW.filter((x) => String(x.usedFor || '').includes(id))
+  return (hits.find((x) => x.usedFor.includes(field)) || hits[0] || {}).url || HRP_RISKS
+}
+let ASK_INDEX = null
+function askIndex() {
+  if (ASK_INDEX) return ASK_INDEX
+  const ps = []
+  for (const i of INDICATORS) {
+    const c = getContent(i)
+    for (const [f, q] of Object.entries(FIELD_Q)) {
+      const t = okText(c[f])
+      if (t) ps.push({ id: `${i}:${f}`, title: q(c.label), text: t, url: sourceFor(i, f), topic: i })
+    }
+  }
+  for (const h of HAZARDS_RAW) {
+    const t = [h.what, h.body, h.selfCare].map(okText).filter(Boolean).join(' ')
+    if (t) ps.push({ id: `hazard:${h.id}`, title: `${h.name} (one of NASA's five hazards)`, text: t, url: h.url })
+  }
+  for (const [rid, r] of Object.entries(REGION_RAW)) {
+    const t = [r.function, r.spaceflight].map(okText).filter(Boolean).join(' ')
+    if (t) ps.push({ id: `region:${rid}`, title: `What the ${rid === 'body' ? 'whole body' : rid} does`, text: t, url: (r.sources || [])[0] })
+  }
+  for (const e of ENV_RAW) {
+    for (const f of ['gravity', 'radiation', 'distance', 'isolation', 'dayLength']) {
+      const t = okText(e[f])
+      if (t) ps.push({ id: `env:${e.id}:${f}`, title: `${e.label}: ${f === 'dayLength' ? 'day length' : f}`, text: t, url: (e.sources || [])[0] })
+    }
+  }
+  CABIN.facts.forEach((f, k) => ps.push({ id: `cabin:${k}`, title: 'Cabin air and noise', text: f.text, url: f.url }))
+  ps.push({ id: 'cabin:limit', title: 'Cabin CO2 limit', text: `${CABIN.limitText} ${CABIN.weekLimitText}`, url: CABIN.limitUrl })
+  ps.push({ id: 'radiation:limit', title: 'Career radiation limit', text: `NASA-STD-3001: an individual crewmember's total career effective dose from spaceflight radiation shall be less than ${CAREER_LIMIT_MSV} mSv, for all ages and sexes.`, url: CAREER_LIMIT_SOURCE })
+  ASK_INDEX = buildIndex([...ps, ...ASK_EXTRA])
+  return ASK_INDEX
+}
+export function addPassages(extra) {
+  // Lets other modules (the nutrition tips) join the index without an import cycle.
+  ASK_EXTRA.push(...extra)
+  ASK_INDEX = null
+}
+const ASK_EXTRA = []
+
+/**
+ * Answer one question: a red-flag check first, then the best passages with their sources, then
+ * how this person's own related readings look and the escalation step that fits.
+ */
+export function ask(crewId, question) {
+  const flag = redFlag(question)
+  if (flag) {
+    return { kind: 'urgent', flag: flag.say, rung: 'Crew medical officer now, and the flight surgeon through Escalate' }
+  }
+  const hits = search(askIndex(), question, 3)
+  const readings = appReadAll(getSnapshot().measurements[crewId] ?? [])
+  const topics = new Set(hits.map((h) => h.p.topic).filter(Boolean))
+  for (const i of INDICATORS) if (question.toLowerCase().includes(IND[i][0].toLowerCase())) topics.add(i)
+  const mine = [...topics].map((i) => {
+    const r = readings[i]
+    const base = r?.reference ?? r?.baseline
+    const v = typeof r?.latest?.value === 'number' ? r.latest.value : null
+    return { id: i, label: IND[i][0], status: r?.status ?? 'gray', value: v, unit: IND[i][1], usual: base ? Math.round(base.mean * 10) / 10 : null }
+  })
+  const pats = patternFlags(readings).filter((p) => p.parts.some((x) => topics.has(x.indicator))).map((p) => ({ title: p.pattern.title, status: p.status, rung: RUNG_NAME[p.rung] }))
+  const worst = mine.some((m) => m.status === 'red') || pats.some((p) => p.status === 'red') ? 'red' : mine.some((m) => m.status === 'yellow') || pats.length ? 'yellow' : 'ok'
+  const next = worst === 'red' ? 'Tell your crew medical officer today, and use Escalate if it is not settling.' : worst === 'yellow' ? 'Keep an eye on it: try the self-care steps, re-check tomorrow, and ask a crewmate for a second look if it stays.' : ''
+  return { kind: 'answer', hits: hits.map((h) => ({ title: h.p.title, text: h.p.text, url: h.p.url })), mine: mine.filter((m) => m.status !== 'gray' || m.value !== null), patterns: pats, next }
+}
+
+/* ---- Ground link: transmissions that take the real comm delay to reach Earth ---------------- */
+const linkKey = (id) => 'chm-groundlink-' + id
+function linkStore(id) {
+  try { return JSON.parse(localStorage.getItem(linkKey(id)) || '[]') } catch { return [] }
+}
+/** Record a transmitted ground packet. Earth only sees it once the one-way delay has passed. */
+export function queuePacket(id) {
+  const delay = Math.round(getState().delay)
+  const p = buildPacket(id)
+  const now = Date.now()
+  const list = [{ id: crypto.randomUUID(), sentAt: now, arriveAt: now + delay * 1000, replyAt: now + 2 * delay * 1000, delay, env: getState().env.label, bytes: p.bytes, changed: p.changed.map((c) => c.label || c.indicator), count: p.changed.length }, ...linkStore(id)].slice(0, 20)
+  try { localStorage.setItem(linkKey(id), JSON.stringify(list)) } catch {}
+  notify()
+}
+/** Every transmission with where it is now, and what Earth knows at this moment. */
+export function groundLink(id) {
+  const now = Date.now()
+  const list = linkStore(id).map((x) => ({ ...x, state: now >= x.arriveAt ? 'arrived' : 'inflight', progress: Math.min(1, (now - x.sentAt) / Math.max(1, x.arriveAt - x.sentAt)), replyPossible: now >= x.replyAt }))
+  const known = list.find((x) => x.state === 'arrived') || null
+  return { list, known, delay: Math.round(getState().delay), env: getState().env.label }
+}
+
+/** Body regions with an open alert (a red reading or a pattern), for the living body figure. */
+export function alertRegions(crewId) {
+  const open = alerts().filter((a) => a.crewId === crewId && a.state !== 'closed')
+  const out = new Set()
+  const regionOf = (ind) => REGIONS.find((r) => r.indicators.includes(ind))?.id
+  for (const a of open) {
+    const [, kind, key] = a.id.split(':')
+    if (kind === 'reading') out.add(regionOf(key))
+    else for (const p of patterns(crewId).filter((x) => x.id === key)) for (const part of p.parts) out.add(regionOf(part.id))
+  }
+  return [...out].filter(Boolean)
+}
+
+/** Every earning action announces itself the same way: the header coin pop and the goals toast listen. */
+export function announce(n, why, capped = false) {
+  try {
+    window.dispatchEvent(new CustomEvent('chm:coins', { detail: { n, why, capped } }))
+  } catch {
+    // No window (tests): nothing to announce.
+  }
+}
+
+/* ---- Weekly report: ready once a week is complete ------------------------------------------- */
+const reportKey = (id) => 'chm-report-seen-' + id
+export function reportStatus(crewId) {
+  let seen = 0
+  try { seen = Number(localStorage.getItem(reportKey(crewId)) || 0) } catch {}
+  const ms = getSnapshot().measurements[crewId] ?? []
+  const first = ms.length ? Math.min(...ms.map((m) => Date.parse(m.timestamp))) : Date.now()
+  const week = 7 * DAY
+  const ready = seen ? Date.now() - seen >= week : Date.now() - first >= week
+  return { ready, seen }
+}
+export function markReportSeen(crewId) {
+  try { localStorage.setItem(reportKey(crewId), String(Date.now())) } catch {}
+}
+
+/* ---- Daily coin cap ------------------------------------------------------------------------ */
+/** Coins still allowed today under the daily cap (lib/scoring.ts DAILY_COIN_CAP). */
+export function capRoom(id) {
+  const today = todayKey()
+  const todays = creditedEvents(getSnapshot().events[id] ?? []).filter((e) => dayKey(e.timestamp) === today)
+  return Math.max(0, DAILY_COIN_CAP - cappedPoints(todays.filter((e) => e.kind !== 'streakMilestone')))
+}
+export const COIN_CAP = DAILY_COIN_CAP
+
+/* ---- Levels: every level unlocks something ------------------------------------------------- */
+export const LEVEL_UNLOCKS = [
+  { lv: 2, kind: 'title', id: 't-first', label: 'First steps', what: 'A title under your name' },
+  { lv: 3, kind: 'dock', id: 'dock-midnight', label: 'Midnight dock', what: 'A dark dock skin' },
+  { lv: 4, kind: 'item', id: 'banner-starlight', label: 'Starlight banner', what: 'A banner for your profile' },
+  { lv: 5, kind: 'title', id: 't-steady', label: 'Steady hand', what: 'A title under your name' },
+  { lv: 6, kind: 'dock', id: 'dock-gold', label: 'Gold trim dock', what: 'A gold-trimmed dock skin' },
+  { lv: 7, kind: 'item', id: 'frame-comet', label: 'Comet ring', what: 'A frame for your avatar' },
+  { lv: 8, kind: 'title', id: 't-veteran', label: 'Orbit veteran', what: 'A title under your name' },
+  { lv: 9, kind: 'dock', id: 'dock-aurora', label: 'Aurora dock', what: 'An aurora dock skin' },
+  { lv: 10, kind: 'item', id: 'visor-legend', label: 'Legend visor', what: 'A visor for your avatar' },
+  { lv: 11, kind: 'title', id: 't-legend', label: 'Legend of the deep', what: 'The top title' },
+]
+export function levelPerks(id) {
+  const lv = level(wallet(id).xp).n
+  const got = LEVEL_UNLOCKS.filter((u) => u.lv <= lv)
+  const title = [...got].reverse().find((u) => u.kind === 'title')
+  const dock = [...got].reverse().find((u) => u.kind === 'dock')
+  return { lv, unlocked: got, next: LEVEL_UNLOCKS.find((u) => u.lv > lv) || null, title: title ? title.label : '', dockSkin: dock ? dock.id : '' }
+}
+
+/* ---- Collection sets ------------------------------------------------------------------------ */
+export const SETS = [
+  { id: 'mars', name: 'Mars kit', items: ['patch-mars', 'banner-mars', 'suit-orange'], reward: 'frame-set-mars' },
+  { id: 'moon', name: 'Moon kit', items: ['patch-moon', 'banner-lunar', 'visor-silver'], reward: 'frame-set-moon' },
+  { id: 'station', name: 'Station kit', items: ['patch-iss', 'banner-iss', 'suit-blue'], reward: 'frame-set-station' },
+  { id: 'deep', name: 'Deep space kit', items: ['patch-comet', 'banner-transit', 'visor-deep'], reward: 'frame-set-deep' },
+]
+/** Items owned because they were earned (a level reached, a set completed), not bought. */
+function computedUnlocks(id, xp, owned) {
+  const lv = level(xp).n
+  const out = SHOP.filter((x) => x.level && x.level <= lv).map((x) => x.id)
+  for (const set of SETS) if (set.items.every((i) => owned.includes(i))) out.push(set.reward)
+  return out
+}
+export function sets(id) {
+  const owned = wallet(id).owned
+  return SETS.map((st) => ({ ...st, have: st.items.filter((i) => owned.includes(i)), done: st.items.every((i) => owned.includes(i)), rewardName: SHOP.find((x) => x.id === st.reward)?.name, itemNames: st.items.map((i) => SHOP.find((x) => x.id === i)?.name || i) }))
+}
+
+/* ---- Shop: rarity and two featured items a day ---------------------------------------------- */
+export function rarity(it) {
+  if (it.pass || it.level || it.set) return 'legendary'
+  if (it.price >= 300) return 'epic'
+  if (it.price >= 150) return 'rare'
+  return 'common'
+}
+const hashStr = (str) => [...str].reduce((a, c) => (a * 31 + c.charCodeAt(0)) >>> 0, 7)
+export function featuredToday() {
+  const pool = SHOP.filter((x) => x.price > 0 && !x.pass && !x.level && !x.set)
+  const h = hashStr(todayKey())
+  const a = pool[h % pool.length]
+  let b = pool[(h >>> 7) % pool.length]
+  if (b.id === a.id) b = pool[(pool.indexOf(a) + 5) % pool.length]
+  return [a.id, b.id]
+}
+
+/* ---- Weekly: crew quests (together) and mission-pass tasks (yours) -------------------------- */
+const weekStart = () => {
+  const d = new Date()
+  const day = (d.getUTCDay() + 6) % 7 // Monday-based
+  return Date.UTC(d.getUTCFullYear(), d.getUTCMonth(), d.getUTCDate() - day)
+}
+const weekNo = () => Math.floor(weekStart() / (7 * DAY))
+const sinceWeek = (list, t = (x) => x.timestamp) => list.filter((x) => Date.parse(t(x)) >= weekStart())
+const waterDaysThisWeek = (id) => Object.entries(intakeStore(id).days).filter(([d, v]) => Date.parse(d + 'T00:00:00Z') >= weekStart() && v.water >= (intakeStore(id).goal ?? 2.5)).length
+
+const CREW_QUESTS = [
+  { id: 'mass', label: 'Everyone logs body mass this week', per: (id) => sinceWeek(getSnapshot().measurements[id] ?? []).some((m) => m.indicator === 'bodyMass') },
+  { id: 'mirror3', label: 'Everyone does three mirror checks this week', per: (id) => new Set(sinceWeek(getSnapshot().events[id] ?? []).filter((e) => e.kind === 'checkInComplete').map((e) => dayKey(e.timestamp))).size >= 3 },
+  { id: 'feel', label: 'Everyone tells the crew how they feel at least once', per: (id) => sinceWeek(getSnapshot().measurements[id] ?? []).some((m) => m.indicator === 'mood' || m.indicator === 'symptomReport') },
+  { id: 'move', label: 'Everyone logs an exercise session', per: (id) => sinceWeek(getSnapshot().events[id] ?? []).some((e) => e.kind === 'exerciseComplete') },
+  { id: 'alert', label: 'Everyone does one alertness check', per: (id) => sinceWeek(getSnapshot().measurements[id] ?? []).some((m) => m.indicator === 'reactionTime') },
+]
+export const CREW_QUEST_XP = 40
+/** Two shared quests a week, rotating. Everyone who has done their part is shown; there is no ranking. */
+export function crewQuests() {
+  const n = weekNo()
+  const picked = [CREW_QUESTS[n % CREW_QUESTS.length], CREW_QUESTS[(n + 2) % CREW_QUESTS.length]]
+  const crew = crewList()
+  return picked.map((q) => {
+    const done = crew.filter((c) => q.per(c.id))
+    return { id: q.id, label: q.label, contributors: done.map((c) => ({ crew: c, gear: gear(c.id) })), total: crew.length, complete: crew.length > 0 && done.length === crew.length, xp: CREW_QUEST_XP }
+  })
+}
+
+const PASS_TASKS = [
+  { id: 'bp2', label: 'Log blood pressure twice', xp: 60, count: (id) => sinceWeek(getSnapshot().measurements[id] ?? []).filter((m) => m.indicator === 'bloodPressureSys' && m.source === 'manual').length, goal: 2 },
+  { id: 'alert3', label: 'Do three alertness checks', xp: 60, count: (id) => sinceWeek(getSnapshot().measurements[id] ?? []).filter((m) => m.indicator === 'reactionTime').length, goal: 3 },
+  { id: 'water3', label: 'Reach your water goal on three days', xp: 60, count: (id) => waterDaysThisWeek(id), goal: 3 },
+  { id: 'mirror5', label: 'Do five mirror checks', xp: 50, count: (id) => new Set(sinceWeek(getSnapshot().events[id] ?? []).filter((e) => e.kind === 'checkInComplete').map((e) => dayKey(e.timestamp))).size, goal: 5 },
+  { id: 'packet', label: 'Send one packet to Earth', xp: 40, count: (id) => sinceWeek(groundLink(id).list, (p) => new Date(p.sentAt).toISOString()).length, goal: 1 },
+  { id: 'mass1', label: 'Log body mass once', xp: 40, count: (id) => sinceWeek(getSnapshot().measurements[id] ?? []).filter((m) => m.indicator === 'bodyMass' && m.source === 'manual').length, goal: 1 },
+]
+/** Three rotating tasks a week that give mission-pass XP. Only effort, never values. */
+export function passTasks(id) {
+  const n = weekNo()
+  const picked = [0, 2, 4].map((k) => PASS_TASKS[(n + k) % PASS_TASKS.length])
+  return picked.map((t) => {
+    const c = Math.min(t.goal, t.count(id))
+    return { id: t.id, label: t.label, xp: t.xp, progress: c, goal: t.goal, done: c >= t.goal }
+  })
+}
+/** Season XP: 60% of earned XP, plus this week's finished pass tasks and completed crew quests. */
+export function seasonXp(id) {
+  const base = Math.round(wallet(id).xp * 0.6)
+  const tasks = passTasks(id).filter((t) => t.done).reduce((a, t) => a + t.xp, 0)
+  const quests = crewQuests().filter((q) => q.complete).length * CREW_QUEST_XP
+  return base + tasks + quests
+}
+
+/* ---- Moments: shield saves and level-ups, each shown once ----------------------------------- */
+const seenKey = (id) => 'chm-moments-' + id
+function seenMoments(id) {
+  try { return JSON.parse(localStorage.getItem(seenKey(id)) || '{}') } catch { return {} }
+}
+export function pendingMoments(id) {
+  const seen = seenMoments(id)
+  const out = []
+  const save = (game(id).saves || []).at(-1)
+  if (save && Date.now() - Date.parse(save.day) < 3 * DAY && seen.shield !== save.day) out.push({ kind: 'shield', key: save.day, text: `Your shield saved a ${save.streak}-day streak.` })
+  const lv = level(wallet(id).xp).n
+  if (seen.level === undefined) {
+    // First run: start counting from here, no surprise screen.
+    try { localStorage.setItem(seenKey(id), JSON.stringify({ ...seen, level: lv })) } catch {}
+  } else if (lv > seen.level) {
+    out.push({ kind: 'level', key: lv, lv, rank: level(wallet(id).xp).rank, unlocks: LEVEL_UNLOCKS.filter((u) => u.lv > seen.level && u.lv <= lv) })
+  }
+  return out
+}
+export function markMoment(id, kind, key) {
+  const seen = seenMoments(id)
+  try { localStorage.setItem(seenKey(id), JSON.stringify({ ...seen, [kind]: key })) } catch {}
+}
+
+/* ---- Ship systems: each one that comes online changes something you can see ----------------- */
+export const SYSTEM_EFFECT = {
+  comms: 'Ground link packets go out through the relay',
+  telemetry: 'Turns on the cabin air (CO2) chart on Body',
+  medbay: 'Adds a scanning sweep to the body viewer',
+  shelter: 'Marks the radiation budget as shelter-ready',
+  nav: 'Lights a starfield behind your Today greeting',
+}
+export function systemsOnline() {
+  return Object.fromEntries(crewGoal().systems.map((x) => [x.id, x.online]))
+}

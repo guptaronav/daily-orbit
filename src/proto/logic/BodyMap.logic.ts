@@ -207,12 +207,15 @@ export class BodyMapLogic extends DCLogic {
       const flaggedHere = rg.status === 'yellow' || rg.status === 'red'
       return {
         ref: (el) => { this.chEls[g.id] = el }, hid: 'tour-' + g.id, n: String(i + 1).padStart(2, '0'), label: g.label, word: st.label, ink: st.ink, chipBg: chip(rg.status),
-        op: on ? 1 : 0.45, tf: on ? 'none' : 'translateY(8px)', story: story(rg), how: HOW[g.id], risks,
+        op: on ? 1 : 0.45, tf: on ? 'none' : 'translateY(8px)', story: story(rg), how: HOW[g.id], fn: D.regionInfo(g.id).function, fnSpace: D.regionInfo(g.id).spaceflight, risks,
         rows: rg.readings.map((r) => {
           const sp = D.sparkPath(D.spark(r), 110, 32)
           let note = 'No reading has passed quality yet'
           if (r.latest && !r.baseline) note = r.status === 'green' ? 'Building the baseline' : 'Outside the safe range'
           else if (r.latest) { const d = r.latest.v - r.baseline.mean; note = r.status === 'green' ? 'Inside normal' : `${Math.abs(d).toFixed(r.dp > 1 ? 2 : 1)} ${r.unit === '0-10' ? 'pts' : r.unit} ${d < 0 ? 'below' : 'above'} normal` }
+          // Why it is flagged when the reason is not the latest reading alone (lib/trend.ts).
+          if (r.latest && r.basis === 'drift' && r.drift) note = `Steady slide ${r.drift.direction} over ${r.drift.days} days`
+          else if (r.latest && r.basis === 'reference' && r.reference) { const d = r.latest.v - r.reference.mean; note = `${Math.abs(d).toFixed(r.dp > 1 ? 2 : 1)} ${r.unit === '0-10' ? 'pts' : r.unit} ${d < 0 ? 'below' : 'above'} your first two weeks` }
           const big = this.state.hoverInd === r.id
           return { label: r.label, method: METHOD[r.id], value: r.latest ? D.fmt(r) : '—', unit: r.latest ? D.fmtUnit(r) : '', valColor: r.latest ? 'var(--ink)' : 'var(--nodata-ink)', note, ink: ST[r.status].ink, spark: sp.d, sparkColor: r.status === 'gray' ? 'var(--rule-strong)' : ST[r.status].swatch, border: big ? 'var(--ink)' : 'var(--rule)', tf: big ? 'translateX(4px)' : 'none', enter: () => { if (this.state.tour !== g.id) this.setState({ tour: g.id }); this.setState({ hoverInd: r.id }) } }
         }),

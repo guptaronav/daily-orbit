@@ -3,6 +3,9 @@
 // GENERATED from the UI overhaul prototype by dc2jsx.py. Styles are the prototype's, verbatim.
 // Edit the view model that feeds this, not this markup, unless you are re-porting the prototype.
 import { Fragment } from 'react'
+import { HazardsPanel } from './HazardsPanel'
+import { PatternsPanel } from './PatternsPanel'
+import * as D from './data'
 import * as P from './parts'
 import { S } from './parts'
 
@@ -36,137 +39,8 @@ export function BodyMapView({ v }: { v: any }) {
                   </p>
                 </div>
               </div>
-              <div style={S({ display: 'flex', flexWrap: 'wrap', gap: '10px' })}>
-                {/* The prototype left this as '#'. It starts the real mirror check. */}
-                <a href="Mirror.dc.html" style={S({ whiteSpace: 'nowrap', display: 'inline-flex', alignItems: 'center', gap: '10px', minHeight: '52px', padding: '0 22px', borderRadius: '999px', background: 'var(--ink)', color: 'var(--paper)', textDecoration: 'none', fontSize: '15px', fontWeight: '600', transition: 'transform 160ms ease' })} className="bodymapview-hover-1">
-                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-                    <path d={v.scanIcon}>
-                    </path>
-                  </svg>
-                  Start today’s check
-                </a>
-                <a href="Manual%20Entry.dc.html" style={S({ whiteSpace: 'nowrap', display: 'inline-flex', alignItems: 'center', gap: '10px', minHeight: '52px', padding: '0 20px', borderRadius: '999px', border: '1px solid var(--rule-strong)', color: 'var(--ink)', textDecoration: 'none', fontSize: '15px', fontWeight: '500', transition: 'border-color 160ms ease, background-color 160ms ease' })} className="bodymapview-hover-2">
-                  <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round">
-                    <path d={v.penIcon}>
-                    </path>
-                  </svg>
-                  Log a reading
-                </a>
-              </div>
             </div>
-            <dl style={S({ margin: '0', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', borderTop: '1px solid var(--rule)' })}>
-              {(v.stats ?? []).map((st: any, st_i: number) => (
-                  <Fragment key={st_i}>
-                <div style={S({ padding: '20px clamp(22px, 3vw, 32px)', borderRight: '1px solid var(--rule)', display: 'flex', flexDirection: 'column', gap: '8px' })}>
-                  <dt style={S({ display: 'flex', alignItems: 'center', gap: '8px', fontSize: '13.5px', color: 'var(--muted)', whiteSpace: 'nowrap' })}>
-                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke={st.iconColor} strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-                      <path d={st.icon}>
-                      </path>
-                    </svg>
-                    {st.k}
-                  </dt>
-                  <dd style={S({ margin: '0', display: 'flex', alignItems: 'baseline', gap: '6px' })}>
-                    <span style={S({ fontSize: '40px', fontWeight: '650', lineHeight: '1', letterSpacing: '-0.04em' })}>
-                      {st.v}
-                    </span>
-                    <span style={S({ fontSize: '14px', color: 'var(--muted)', whiteSpace: 'nowrap' })}>
-                      {st.u}
-                    </span>
-                  </dd>
-                  <div aria-hidden="true" style={S({ display: 'grid', gridTemplateColumns: `repeat(${st.n}, 1fr)`, gap: '3px' })}>
-                    {(st.bar ?? []).map((b: any, b_i: number) => (
-                        <Fragment key={b_i}>
-                      <span style={S({ height: '6px', borderRadius: '999px', background: b })}>
-                      </span>
-                        </Fragment>
-                      ))}
-                  </div>
-                  <span style={S({ fontSize: '12.5px', lineHeight: '1.4', color: 'var(--muted)' })}>
-                    {st.note}
-                  </span>
-                </div>
-                  </Fragment>
-                ))}
-            </dl>
           </header>
-          <div style={S({ display: 'flex', flexWrap: 'wrap', gap: '20px', alignItems: 'stretch' })}>
-            <section data-reveal="1" aria-labelledby="today-heading" style={S({ flex: '2 1 520px', background: 'var(--panel)', border: '1px solid var(--rule)', borderRadius: '24px', padding: '22px 24px 10px', animation: 'chm-rise 420ms 60ms cubic-bezier(.22,1,.36,1) both' })}>
-              <div style={S({ display: 'flex', alignItems: 'baseline', justifyContent: 'space-between', gap: '12px' })}>
-                <h2 id="today-heading" style={S({ margin: '0', fontSize: '20px', fontWeight: '600', letterSpacing: '-0.02em' })}>
-                  Today’s check-ins
-                </h2>
-                <span style={S({ fontSize: '13.5px', color: 'var(--muted)' })}>
-                  Coins reward doing, never the numbers
-                </span>
-              </div>
-              <ul style={S({ listStyle: 'none', margin: '14px 0 0', padding: '0' })}>
-                {(v.tasks ?? []).map((t: any, t_i: number) => (
-                    <Fragment key={t_i}>
-                  <li style={S({ borderTop: '1px solid var(--rule)' })}>
-                    <button type="button" onClick={t.complete} disabled={t.done} style={S({ display: 'grid', width: '100%', gridTemplateColumns: '44px minmax(0, 1fr) auto', alignItems: 'center', gap: '14px', padding: '14px 0', background: 'transparent', border: '0', textAlign: 'left', fontFamily: 'inherit', color: 'var(--ink)', cursor: t.cursor })} className="bodymapview-hover-3">
-                      <span aria-hidden="true" style={S({ display: 'grid', placeItems: 'center', width: '44px', height: '44px', borderRadius: '14px', background: t.tileBg, color: t.tileColor, border: `1px solid ${t.tileBorder}` })}>
-                        <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-                          <path d={t.icon}>
-                          </path>
-                        </svg>
-                      </span>
-                      <span style={S({ minWidth: '0' })}>
-                        <span style={S({ display: 'block', fontSize: '16px', fontWeight: '600', textDecoration: t.strike, textDecorationColor: 'var(--rule-strong)' })}>
-                          {t.label}
-                        </span>
-                        <span style={S({ display: 'block', marginTop: '2px', fontSize: '13.5px', color: 'var(--muted)' })}>
-                          {t.sub}
-                        </span>
-                      </span>
-                      <span style={S({ display: 'flex', alignItems: 'center', gap: '10px' })}>
-                        <span style={S({ display: 'inline-flex', alignItems: 'center', gap: '4px', fontSize: '14px', fontWeight: '700', color: t.ptsColor, whiteSpace: 'nowrap' })}>
-                          <svg width="15" height="15" viewBox="0 0 24 24" aria-hidden="true">
-                            <circle cx="12" cy="12" r="10" fill="#f6c445">
-                            </circle>
-                            <circle cx="12" cy="12" r="6.6" fill="none" stroke="#b9831a" strokeWidth="1.6">
-                            </circle>
-                          </svg>
-                          +{t.points}
-                        </span>
-                        <span style={S({ padding: '4px 10px', borderRadius: '999px', background: t.stateBg, color: t.stateColor, fontSize: '12.5px', fontWeight: '600', whiteSpace: 'nowrap' })}>
-                          {t.state}
-                        </span>
-                      </span>
-                    </button>
-                  </li>
-                    </Fragment>
-                  ))}
-              </ul>
-            </section>
-            <section data-reveal="1" aria-labelledby="goal-heading" style={S({ flex: '1 1 300px', display: 'flex', flexDirection: 'column', background: '#14181f', color: '#f3f1ea', borderRadius: '24px', padding: '22px 24px', animation: 'chm-rise 420ms 120ms cubic-bezier(.22,1,.36,1) both' })}>
-              <h2 id="goal-heading" style={S({ margin: '0', fontSize: '14px', fontWeight: '500', opacity: '.75' })}>
-                Crew weekly goal
-              </h2>
-              <p style={S({ margin: '10px 0 0', display: 'flex', alignItems: 'baseline', gap: '8px' })}>
-                <span style={S({ fontSize: '48px', fontWeight: '650', lineHeight: '1', letterSpacing: '-0.045em' })}>
-                  {v.goalWeek}
-                </span>
-                <span style={S({ fontSize: '15px', opacity: '.7', whiteSpace: 'nowrap' })}>
-                  of {v.goalTarget} coins
-                </span>
-              </p>
-              <div role="progressbar" aria-label="Crew weekly goal" aria-valuemin="0" aria-valuemax="100" aria-valuenow={v.goalPctNum} style={S({ marginTop: '14px', height: '10px', borderRadius: '999px', background: 'color-mix(in srgb, var(--paper) 18%, transparent)', overflow: 'hidden' })}>
-                <span style={S({ display: 'block', height: '100%', width: v.goalPct, borderRadius: '999px', background: 'var(--paper)' })}>
-                </span>
-              </div>
-              <p style={S({ margin: '12px 0 0', fontSize: '13.5px', lineHeight: '1.5', opacity: '.75' })}>
-                One shared goal, so nobody is ranked. Every check-in counts, including hard days.
-              </p>
-              <p style={S({ margin: 'auto 0 0', paddingTop: '16px', fontSize: '13.5px' })}>
-                <span style={S({ opacity: '.7' })}>
-                  Next system:
-                </span>
-                <span style={S({ fontWeight: '600' })}>
-                  {v.nextSystem}
-                </span>
-              </p>
-            </section>
-          </div>
           {(v.hasFlag) ? (
             <>
             <section data-reveal="1" aria-label="Needs attention" style={S({ display: 'flex', flexWrap: 'wrap', alignItems: 'center', justifyContent: 'space-between', gap: '16px 24px', padding: '20px 24px', borderRadius: '24px', background: 'color-mix(in srgb, var(--watch) 14%, var(--panel))', border: '1px solid color-mix(in srgb, var(--watch) 45%, transparent)' })}>
@@ -195,6 +69,8 @@ export function BodyMapView({ v }: { v: any }) {
             </section>
             </>
           ) : null}
+          <PatternsPanel />
+          <HazardsPanel />
           <section data-reveal="1" aria-labelledby="tour-heading" style={S({ position: 'relative' })}>
             <div style={S({ display: 'flex', flexWrap: 'wrap', alignItems: 'flex-end', justifyContent: 'space-between', gap: '12px 24px', margin: '18px 0 20px' })}>
               <div>
@@ -224,7 +100,7 @@ export function BodyMapView({ v }: { v: any }) {
                 </div>
                 <div style={S({ position: 'relative', flex: '1', minHeight: '0' })}>
                   <div ref={v.areaRef} style={S({ position: 'absolute', inset: '0', display: 'grid', placeItems: 'center' })}>
-                    <div style={S({ position: 'relative', width: v.boxWpx, height: v.boxHpx })}>
+                    <div className={D.systemsOnline().medbay ? 'medbay-scan' : undefined} style={S({ position: 'relative', width: v.boxWpx, height: v.boxHpx })}>
                       <svg viewBox="0 0 560 520" role="img" aria-label={v.viewerAria} style={S({ position: 'absolute', inset: '0', width: '100%', height: '100%' })}>
                         <defs>
                           <radialGradient id="bm-heat" cx="50%" cy="40%" r="60%">
@@ -482,6 +358,13 @@ export function BodyMapView({ v }: { v: any }) {
                     <p style={S({ margin: '0', maxWidth: '40ch', fontSize: 'clamp(18px, 1.7vw, 21px)', lineHeight: '1.45', fontWeight: '500', letterSpacing: '-0.01em', textWrap: 'pretty' })}>
                       {ch.story}
                     </p>
+                    {ch.fn ? (
+                      <div style={S({ maxWidth: '56ch', padding: '12px 14px', borderRadius: '16px', background: 'var(--panel-2)', border: '1px solid var(--rule)', display: 'grid', gap: '6px' })}>
+                        <p style={S({ margin: '0', fontSize: '12px', fontWeight: '750', letterSpacing: '.05em', textTransform: 'uppercase', color: 'var(--muted)' })}>What it does</p>
+                        <p style={S({ margin: '0', fontSize: '14.5px', lineHeight: '1.5' })}>{ch.fn}</p>
+                        {ch.fnSpace ? <p style={S({ margin: '0', fontSize: '14px', lineHeight: '1.5', color: 'var(--ink-soft)' })}><strong>In space: </strong>{ch.fnSpace}</p> : null}
+                      </div>
+                    ) : null}
                     <p style={S({ margin: '0', maxWidth: '56ch', fontSize: '14.5px', lineHeight: '1.55', color: 'var(--muted)' })}>
                       {ch.how}
                     </p>
