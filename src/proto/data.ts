@@ -444,6 +444,32 @@ export const SHOP = [
   { id: 'banner-orbit', slot: 'banner', name: 'Orbits', price: 180, bg: 'repeating-radial-gradient(circle at 85% 120%, transparent 0 26px, rgba(243,241,234,.18) 26px 27px), #0b3d91', ink: '#fbfaf6' },
   { id: 'banner-stars', slot: 'banner', name: 'Deep field', price: 260, bg: 'radial-gradient(1px 1px at 12% 30%, #fff, transparent), radial-gradient(1px 1px at 38% 70%, #fff, transparent), radial-gradient(1.5px 1.5px at 66% 22%, #fff, transparent), radial-gradient(1px 1px at 82% 62%, #fff, transparent), radial-gradient(1px 1px at 92% 18%, #fff, transparent), radial-gradient(1px 1px at 24% 88%, #fff, transparent), #0a0e16', ink: '#fbfaf6' },
   { id: 'banner-mars', slot: 'banner', name: 'Red dunes', price: 340, bg: 'repeating-linear-gradient(170deg, rgba(0,0,0,.08) 0 2px, transparent 2px 14px), linear-gradient(180deg, #e9a17a, #b3412a)', ink: '#fffaf3' },
+  // More gear (2026-11-15). Every slot here is one the avatar already draws.
+  { id: 'frame-copper', slot: 'frame', name: 'Copper ring', price: 160, bg: 'linear-gradient(135deg, #6e3b1f, #e0a070 42%, #b8682f 68%, #5a2e15)' },
+  { id: 'frame-mars', slot: 'frame', name: 'Red planet ring', price: 260, bg: 'radial-gradient(circle at 30% 30%, #f6b48a, #c8673f 45%, #6e2c1a)' },
+  { id: 'frame-aurora', slot: 'frame', name: 'Aurora ring', price: 380, bg: 'linear-gradient(135deg, #12708a, #7ef0c5 40%, #b28dff 70%, #3b1f5e)' },
+  { id: 'frame-nebula', slot: 'frame', name: 'Nebula ring', price: 560, bg: 'conic-gradient(from 40deg, #3b1f5e, #6b34a0, #12708a, #4cc9f0, #3b1f5e)' },
+  { id: 'visor-aurora', slot: 'visor', name: 'Aurora visor', price: 180, c1: '#7ef0c5', c2: '#12708a' },
+  { id: 'visor-sunset', slot: 'visor', name: 'Mars sunset visor', price: 200, c1: '#b9dcff', c2: '#b8643a' },
+  { id: 'visor-deep', slot: 'visor', name: 'Deep space visor', price: 230, c1: '#9cbcff', c2: '#1e1838' },
+  { id: 'suit-sand', slot: 'suit', name: 'Desert tan', price: 110, fill: '#c9a46a' },
+  { id: 'suit-green', slot: 'suit', name: 'Hab green', price: 130, fill: '#3f8a5c' },
+  { id: 'suit-red', slot: 'suit', name: 'Rescue red', price: 170, fill: '#c0392b' },
+  { id: 'suit-purple', slot: 'suit', name: 'Nebula violet', price: 190, fill: '#5b3a8c' },
+  { id: 'suit-gold', slot: 'suit', name: 'EVA gold', price: 320, fill: '#c9962b' },
+  { id: 'patch-sun', slot: 'patch', name: 'Sun patch', price: 120, bg: '#f6c445', fg: '#14181f', glyph: 'M12 8a4 4 0 1 1 0 8 4 4 0 0 1 0-8Z M12 2v2 M12 20v2 M4.9 4.9l1.4 1.4 M17.7 17.7l1.4 1.4 M2 12h2 M20 12h2 M4.9 19.1l1.4-1.4 M17.7 6.3l1.4-1.4' },
+  { id: 'patch-dna', slot: 'patch', name: 'Science patch', price: 150, bg: '#12708a', fg: '#e8eefc', glyph: 'M8 3c0 6 8 6 8 12s-8 6-8 6 M16 3c0 6-8 6-8 12 M9 7h6 M9 17h6' },
+  { id: 'patch-rocket', slot: 'patch', name: 'Launch patch', price: 170, bg: '#e8742c', fg: '#fff7ec', glyph: 'M12 2c3 2 5 6 5 10l-2 3H9l-2-3c0-4 2-8 5-10Z M12 8h.01 M9 15l-2 4 M15 15l2 4' },
+  { id: 'patch-saturn', slot: 'patch', name: 'Ringed planet patch', price: 230, bg: '#5b3a8c', fg: '#f6c445', glyph: 'M12 8a4 4 0 1 1 0 8 4 4 0 0 1 0-8Z M3 15c2 2 16-2 18-6' },
+  { id: 'banner-sunrise', slot: 'banner', name: 'Orbital sunrise', price: 150, bg: 'linear-gradient(180deg, #14181f, #3d1a22 45%, #e8742c 80%, #f6c445)', ink: '#f3f1ea' },
+  { id: 'banner-aurora', slot: 'banner', name: 'Aurora', price: 200, bg: 'linear-gradient(160deg, #05140f, #0e3b33 40%, #2fbf8f 72%, #b28dff)', ink: '#f3f1ea' },
+  { id: 'banner-blueprint', slot: 'banner', name: 'Blueprint', price: 120, bg: 'linear-gradient(to right, rgba(243,241,234,.12) 1px, transparent 1px) 0 0 / 26px 26px, linear-gradient(to bottom, rgba(243,241,234,.12) 1px, transparent 1px) 0 0 / 26px 26px, #0b3d91', ink: '#f3f1ea' },
+  // Season 1 mission pass only: earned on the pass, never sold.
+  { id: 'frame-pass', slot: 'frame', name: 'Season 1 ring', price: 0, pass: true, bg: 'conic-gradient(from 0deg, #f6c445, #0b3d91, #f6c445, #0b3d91, #f6c445)' },
+  { id: 'visor-pass', slot: 'visor', name: 'Season 1 visor', price: 0, pass: true, c1: '#f6c445', c2: '#0b3d91' },
+  { id: 'suit-pass', slot: 'suit', name: 'Season 1 flight suit', price: 0, pass: true, fill: '#1d2b53' },
+  { id: 'patch-pass', slot: 'patch', name: 'Season 1 patch', price: 0, pass: true, bg: '#0b3d91', fg: '#f6c445', glyph: 'M12 3l2.6 5.3 5.8.8-4.2 4.1 1 5.8L12 16.3 6.8 19l1-5.8L3.6 9.1l5.8-.8Z' },
+  { id: 'banner-pass', slot: 'banner', name: 'Season 1', price: 0, pass: true, bg: 'radial-gradient(circle at 80% 20%, rgba(246,196,69,.55), transparent 40%), linear-gradient(135deg, #0b1220, #1d2b53 55%, #0b3d91)', ink: '#f3f1ea' },
   // Illustrated mission scenes (src/proto/MissionScene.tsx). `bg` is the backdrop the scene draws over.
   { id: 'banner-mission', slot: 'banner', name: 'Current mission', price: 0, scene: 'mission', bg: 'linear-gradient(180deg, #050814, #0b1430)', ink: '#f3f1ea' },
   { id: 'banner-lunar', slot: 'banner', name: 'Earthrise', price: 220, scene: 'lunar', bg: 'linear-gradient(180deg, #000, #0a0d14)', ink: '#f3f1ea' },
@@ -458,7 +484,7 @@ const STARTER = {
   'crew-2': { owned: ['frame-brass', 'suit-orange', 'patch-iss', 'banner-grid'], eq: { frame: 'frame-brass', suit: 'suit-orange', patch: 'patch-iss', banner: 'banner-grid' } },
   'crew-3': { owned: ['frame-silver', 'visor-silver', 'patch-mars', 'suit-blue', 'banner-mars', 'top-star'], eq: { frame: 'frame-silver', visor: 'visor-silver', patch: 'patch-mars', suit: 'suit-blue', banner: 'banner-mars', top: 'top-star' } },
 }
-const FREE = SHOP.filter((x) => x.price === 0).map((x) => x.id)
+const FREE = SHOP.filter((x) => x.price === 0 && !x.pass).map((x) => x.id)
 
 /** Cosmetic locker state only: what you own, what you wear, what you have spent. */
 type Locker = { owned: string[]; equipped: Record<string, string>; spent: number; bonus: number; granted: string[]; pass: number[]; found: string[]; onboarded: boolean; goal: string; log: { n: number; why: string; at: number }[] }
@@ -619,6 +645,14 @@ export function achievements(id) {
     { id: 'full', name: 'Full picture', desc: 'Good data in all six regions', icon: 'body', got: Object.values(cd.statuses).every((s) => s !== 'gray') },
     { id: 'crew', name: 'Crew player', desc: 'Help the crew hit its weekly goal', icon: 'users', got: crewGoal().frac >= 1 },
     { id: 'collector', name: 'Collector', desc: 'Own five accessories', icon: 'award', got: paid >= 5 },
+    { id: 'streak14', name: 'Two weeks strong', desc: 'Check in fourteen days running', icon: 'flame', got: g.streak >= 14 },
+    { id: 'streak30', name: 'Month in orbit', desc: 'Check in thirty days running', icon: 'moon', got: g.streak >= 30 },
+    { id: 'hydrated', name: 'Hydrated', desc: 'Reach your water goal on three days', icon: 'gut', got: Object.values(intakeStore(id).days).filter((d) => d.water >= (intakeStore(id).goal ?? 2.5)).length >= 3 },
+    { id: 'fed', name: 'Three square meals', desc: 'Log breakfast, lunch and dinner on one day', icon: 'sun', got: Object.values(intakeStore(id).days).some((d) => ['breakfast', 'lunch', 'dinner'].every((m) => d.meals.includes(m))) },
+    { id: 'sharp', name: 'Sharp', desc: 'Finish three alertness checks', icon: 'zap', got: (getSnapshot().measurements[id] ?? []).filter((m) => m.indicator === 'reactionTime').length >= 3 },
+    { id: 'planner', name: 'Planner', desc: 'Add a block of your own to the schedule', icon: 'clock', got: scheduleStore(id).custom.length > 0 },
+    { id: 'contact', name: 'Ground contact', desc: 'Send a packet to Earth from Escalate', icon: 'send', got: groundLink(id).list.length > 0 },
+    { id: 'scout', name: 'Scout', desc: 'Find your first discovery in a mission banner', icon: 'target', got: locker(id).found.length > 0 },
     { id: 'explorer', name: 'Explorer', desc: `Find all ${DISCOVERY_COUNT} discoveries in the mission banners`, icon: 'spark', got: locker(id).found.length >= DISCOVERY_COUNT },
   ]
 }
@@ -1112,4 +1146,19 @@ export function announce(n, why) {
   } catch {
     // No window (tests): nothing to announce.
   }
+}
+
+/* ---- Weekly report: ready once a week is complete ------------------------------------------- */
+const reportKey = (id) => 'chm-report-seen-' + id
+export function reportStatus(crewId) {
+  let seen = 0
+  try { seen = Number(localStorage.getItem(reportKey(crewId)) || 0) } catch {}
+  const ms = getSnapshot().measurements[crewId] ?? []
+  const first = ms.length ? Math.min(...ms.map((m) => Date.parse(m.timestamp))) : Date.now()
+  const week = 7 * DAY
+  const ready = seen ? Date.now() - seen >= week : Date.now() - first >= week
+  return { ready, seen }
+}
+export function markReportSeen(crewId) {
+  try { localStorage.setItem(reportKey(crewId), String(Date.now())) } catch {}
 }

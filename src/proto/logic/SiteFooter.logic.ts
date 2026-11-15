@@ -14,7 +14,7 @@ export class SiteFooterLogic extends DCLogic {
   renderVals() {
     const s = this.state.s
     return {
-      rail: s ? [s.env.label, `${s.crew.name} · ${s.crew.dataLabel}`, 'No data leaves this browser'] : [],
+      rail: s ? [s.env.label, `${s.crew.name} · ${s.crew.dataLabel}`] : [],
       rules: [
         'Gray means not enough good data. A reading that failed quality is never colored.',
         'Camera frames never leave the browser.',

@@ -185,7 +185,7 @@ export function RewardsView({ v }: { v: any }) {
               <div style={S({ minWidth: 'min(320px, 100%)' })}>
                 <div style={S({ display: 'flex', justifyContent: 'space-between', fontSize: '13px', opacity: '.8' })}>
                   <span>
-                    Tier {v.passTier} of 10
+                    Tier {v.passTier} of 20
                   </span>
                   <span>
                     {v.passToNext}

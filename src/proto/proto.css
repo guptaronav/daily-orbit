@@ -263,3 +263,11 @@
 
 /* ---- Dock: next-on-schedule chip ---- */
 .dock-next:hover { background: color-mix(in srgb, var(--ink) 6%, transparent) !important; }
+.dock-ask:hover { background: #2b323d !important; }
+@media (max-width: 520px) { .dock-ask-label { display: none; } }
+
+/* ---- Footer ---- */
+.footer-link:hover { color: var(--accent) !important; text-decoration: underline !important; text-underline-offset: 3px; }
+.footer-grid { grid-template-columns: minmax(240px, 1.6fr) repeat(4, minmax(140px, 1fr)); }
+@media (max-width: 1050px) { .footer-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } .footer-brand { grid-column: 1 / -1; } }
+@media (max-width: 520px) { .footer-grid { grid-template-columns: 1fr; } }

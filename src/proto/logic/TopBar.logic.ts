@@ -49,7 +49,6 @@ export class TopBarLogic extends DCLogic {
     // Departure from the prototype: it disabled screens it had not drawn. They exist in the app, so they link.
     const M = [
       ['Mirror check', 'About a minute of camera, two vision checks, how you feel', 'Mirror.dc.html', 'scan'],
-      ['Weekly report', 'One printable page for the flight surgeon', 'Report.dc.html', 'chart'],
       ['Radiation', 'Replay a historical solar particle event', 'Radiation.dc.html', 'shield'],
       ['Metrics', 'Modeled numbers and the real-data test', 'Metrics.dc.html', 'chart'],
       ['Sources', 'Every NASA dataset and page used', 'Sources.dc.html', 'book'],

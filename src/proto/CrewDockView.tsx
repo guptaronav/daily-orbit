@@ -211,6 +211,12 @@ export function CrewDockView({ v }: { v: any }) {
                 </span>
               </span>
             </button>
+            <button type="button" className="dock-ask" onClick={() => window.dispatchEvent(new Event('orbit:toggle'))} aria-label="Ask Orbit: questions about symptoms and readings" style={S({ display: 'flex', alignItems: 'center', gap: '8px', minHeight: '44px', padding: '0 14px', margin: '0 4px', borderRadius: '999px', border: '0', background: '#14181f', color: '#f3f1ea', fontWeight: '700', fontSize: '14px', cursor: 'pointer', whiteSpace: 'nowrap' })}>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#f6c445" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2Z M8 9h8 M8 13h5" />
+              </svg>
+              <span className="dock-ask-label">Ask Orbit</span>
+            </button>
             <button type="button" onClick={v.toggleCollapse} aria-label="Minimize mission dock" style={S({ display: 'grid', placeItems: 'center', width: '40px', height: '48px', borderRadius: '14px', background: 'transparent', border: '0', color: 'var(--muted)', cursor: 'pointer' })} className="crewdockview-hover-6">
               <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
                 <path d={v.minIcon}>

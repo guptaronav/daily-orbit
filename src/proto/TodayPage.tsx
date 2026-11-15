@@ -107,13 +107,19 @@ export function TodayPage() {
             <button type="button" onClick={() => go('bodymap')} style={{ justifySelf: 'start', minHeight: 36, padding: '0 12px', borderRadius: 10, border: '1.5px solid rgba(243,241,234,.4)', background: 'transparent', color: '#f3f1ea', fontWeight: 700, cursor: 'pointer' }}>
               Open the body map
             </button>
-            <button type="button" onClick={() => go('report')} style={{ justifySelf: 'start', minHeight: 36, padding: '0 12px', borderRadius: 10, border: 0, background: 'transparent', color: '#f6c445', fontWeight: 700, cursor: 'pointer', textDecoration: 'underline' }}>
-              Weekly report for the flight surgeon
-            </button>
           </div>
         </div>
       </section>
 
+      {D.reportStatus(crew.id).ready && (
+        <section role="status" style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: 12, padding: '14px 18px', borderRadius: 20, background: 'rgba(246,196,69,.16)', border: '2px solid #f6c445' }}>
+          <strong style={{ fontSize: 16 }}>Your week is complete.</strong>
+          <span style={{ flex: '1 1 260px', fontSize: 14.5, color: 'var(--ink-soft)' }}>Seven days of readings, patterns, alerts and routine, on one page for the flight surgeon.</span>
+          <button type="button" className="fw-press" onClick={() => go('report')} style={{ minHeight: 42, padding: '0 16px', borderRadius: 12, border: 0, background: '#14181f', color: '#f3f1ea', boxShadow: '0 4px 0 #000', fontWeight: 750, cursor: 'pointer' }}>
+            Read your weekly report
+          </button>
+        </section>
+      )}
       {/* Row: what is next, today's goals, and progress (one list of goals, read by every screen) */}
       <section style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 280px), 1fr))', gap: 14 }}>
         <div style={{ ...card, background: '#14181f', color: '#f3f1ea', border: 0 }}>

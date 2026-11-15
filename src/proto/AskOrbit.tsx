@@ -101,6 +101,8 @@ export function AskOrbit() {
   }, [msgs, open])
   useEffect(() => {
     const onOpen = () => setOpen(true)
+    const onToggle = () => setOpen((o) => !o)
+    window.addEventListener('orbit:toggle', onToggle)
     const onAsk = (e: Event) => {
       setOpen(true)
       askNow(String((e as CustomEvent).detail || ''))
@@ -109,6 +111,7 @@ export function AskOrbit() {
     window.addEventListener('orbit:ask', onAsk)
     return () => {
       window.removeEventListener('orbit:open', onOpen)
+      window.removeEventListener('orbit:toggle', onToggle)
       window.removeEventListener('orbit:ask', onAsk)
     }
   })
@@ -134,28 +137,20 @@ export function AskOrbit() {
 
   return (
     <>
-      <button
-        type="button"
-        aria-expanded={open}
-        aria-controls="ask-orbit"
-        onClick={() => setOpen((o) => !o)}
-        className="fw-press"
-        style={{ position: 'fixed', right: 18, bottom: 'calc(env(safe-area-inset-bottom, 0px) + 104px)', zIndex: 45, pointerEvents: 'auto', display: 'flex', alignItems: 'center', gap: 8, minHeight: 50, padding: '0 18px 0 14px', borderRadius: 99, border: 0, background: '#14181f', color: '#f3f1ea', boxShadow: '0 5px 0 #000, 0 18px 30px -14px rgba(20,24,31,.7)', fontWeight: 750, fontSize: 15, cursor: 'pointer' }}
-      >
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#f6c445" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-          <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2Z M8 9h8 M8 13h5" />
-        </svg>
-        {open ? 'Close' : 'Ask Orbit'}
-      </button>
       {open && (
         <section
           id="ask-orbit"
           role="dialog"
           aria-label="Ask Orbit"
-          style={{ position: 'fixed', right: 16, bottom: 'calc(env(safe-area-inset-bottom, 0px) + 166px)', zIndex: 46, pointerEvents: 'auto', width: 'min(430px, calc(100vw - 32px))', height: 'min(600px, calc(100vh - 240px))', display: 'flex', flexDirection: 'column', borderRadius: 24, background: 'var(--panel-2)', border: '1px solid var(--rule)', boxShadow: '0 30px 60px -24px rgba(20,24,31,.55)', overflow: 'hidden', animation: 'ms-pop 260ms cubic-bezier(.34,1.56,.64,1) both', color: 'var(--ink)', fontFamily: 'inherit' }}
+          style={{ position: 'fixed', right: 16, bottom: 'calc(env(safe-area-inset-bottom, 0px) + 104px)', zIndex: 46, pointerEvents: 'auto', width: 'min(430px, calc(100vw - 32px))', height: 'min(600px, calc(100vh - 240px))', display: 'flex', flexDirection: 'column', borderRadius: 24, background: 'var(--panel-2)', border: '1px solid var(--rule)', boxShadow: '0 30px 60px -24px rgba(20,24,31,.55)', overflow: 'hidden', animation: 'ms-pop 260ms cubic-bezier(.34,1.56,.64,1) both', color: 'var(--ink)', fontFamily: 'inherit' }}
         >
           <header style={{ padding: '14px 16px', background: '#14181f', color: '#f3f1ea', display: 'grid', gap: 2 }}>
-            <strong style={{ fontSize: 16 }}>Ask Orbit</strong>
+            <span style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 8 }}>
+              <strong style={{ fontSize: 16 }}>Ask Orbit</strong>
+              <button type="button" onClick={() => setOpen(false)} aria-label="Close Ask Orbit" style={{ width: 30, height: 30, borderRadius: 99, border: 0, background: 'rgba(243,241,234,.14)', color: '#f3f1ea', cursor: 'pointer', fontSize: 16 }}>
+                ×
+              </button>
+            </span>
             <span style={{ fontSize: 12.5, color: 'rgba(243,241,234,.7)' }}>Answers only from this app's NASA sources, offline. Not a doctor.</span>
           </header>
           <div ref={list} aria-live="polite" style={{ flex: 1, overflowY: 'auto', padding: 14, display: 'grid', gap: 12, alignContent: 'start' }}>

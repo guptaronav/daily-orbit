@@ -23,6 +23,7 @@ export function ReportPage() {
   useEffect(() => D.onState(bump), [])
   const s = D.getState()
   const crew = s.crew as { id: string; name: string; role: string }
+  useEffect(() => D.markReportSeen(crew.id), [crew.id])
   const now = Date.now()
   const since = now - 7 * DAY
   const cd = D.crewData(crew.id) as { readings: Record<string, Reading>; regions: Record<string, { label: string; status: string }> }
@@ -46,7 +47,7 @@ export function ReportPage() {
   return (
     <main className="report-page" style={{ width: '100%', maxWidth: 980, margin: '0 auto', padding: '28px clamp(16px, 3vw, 32px) 72px', boxSizing: 'border-box' }}>
       <div className="no-print" style={{ display: 'flex', flexWrap: 'wrap', gap: 10, justifyContent: 'space-between', alignItems: 'center', marginBottom: 18 }}>
-        <span style={{ fontSize: 14, color: 'var(--muted)' }}>A one-page summary for the flight surgeon. Pick a crew member in the top bar to switch.</span>
+        <span style={{ fontSize: 14, color: 'var(--muted)' }}>Your updates for the last seven days, on one page you can hand to the flight surgeon. Open it any day from the page icon in the top bar.</span>
         <button type="button" className="fw-press" onClick={() => window.print()} style={{ minHeight: 46, padding: '0 18px', borderRadius: 14, border: 0, background: '#14181f', color: '#f3f1ea', boxShadow: '0 5px 0 #000', fontWeight: 750, cursor: 'pointer' }}>
           Print or save as PDF
         </button>

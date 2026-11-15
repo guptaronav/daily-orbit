@@ -1,117 +1,113 @@
 // @ts-nocheck
 /* eslint-disable */
-// GENERATED from the UI overhaul prototype by dc2jsx.py. Styles are the prototype's, verbatim.
-// Edit the view model that feeds this, not this markup, unless you are re-porting the prototype.
-import { Fragment } from 'react'
-import * as P from './parts'
-import { S } from './parts'
+// The site footer. Rebuilt from the prototype's (which was one long column of links): a brand
+// block, three short link groups named exactly as in the top bar, the team, and a status rail
+// that clears the mission dock.
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
+const GROUPS = [
+  {
+    title: 'Daily',
+    links: [
+      ['Today.dc.html', 'Today'],
+      ['Body%20Map.dc.html', 'Body'],
+      ['Schedule.dc.html', 'Schedule'],
+      ['Manual%20Entry.dc.html', 'Log'],
+      ['Mirror.dc.html', 'Mirror check'],
+    ],
+  },
+  {
+    title: 'Crew and mission',
+    links: [
+      ['Escalation.dc.html', 'Escalate'],
+      ['Medical%20View.dc.html', 'Crew'],
+      ['Rewards.dc.html', 'Rewards'],
+      ['Radiation.dc.html', 'Radiation'],
+      ['Onboarding.dc.html', 'Set up again'],
+    ],
+  },
+  {
+    title: 'Data and proof',
+    links: [
+      ['Metrics.dc.html', 'Metrics and real-data test'],
+      ['Sources.dc.html', 'Sources'],
+      ['https://www.nasa.gov/hrp/risks', 'NASA Human Research Program risks', true],
+      ['https://www.spaceappschallenge.org/2026/challenges/health-monitoring-software/', 'The challenge', true],
+    ],
+  },
+]
+
+const TEAM = [
+  ['Ronav Gupta', 'Lead, camera and signal'],
+  ['Arnav Jain', 'Design, screens and game'],
+  ['Evode Manirahari', 'NASA data and research'],
+]
+
+const PROMISES = ['Works offline', 'Nothing leaves this device', 'Not a medical device']
+
+const head = { margin: '0 0 10px', fontSize: '12px', fontWeight: 750, letterSpacing: '.06em', textTransform: 'uppercase', color: 'var(--muted)' }
+const link = { display: 'inline-block', padding: '5px 0', fontSize: '14.5px', color: 'var(--ink)', textDecoration: 'none' }
+
 export function SiteFooterView({ v }: { v: any }) {
   return (
-    <>
-      <footer style={S({ marginTop: 'auto', borderTop: '1px solid var(--rule)', background: 'var(--panel)', color: 'var(--ink)', fontFamily: 'ui-sans-serif, system-ui, -apple-system, \'Segoe UI\', Roboto, sans-serif', position: 'relative', overflow: 'hidden' })}>
-        <div style={S({ maxWidth: '1500px', margin: '0 auto', padding: '64px clamp(16px, 3vw, 24px) 48px', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: '32px' })}>
-          <div style={S({ display: 'flex', flexDirection: 'column', gap: '14px' })}>
-            <span style={S({ display: 'flex', alignItems: 'center', gap: '10px' })}>
-              <span style={S({ display: 'block', fontSize: '22px', lineHeight: '1.15', fontWeight: '600', letterSpacing: '-0.02em', whiteSpace: 'nowrap' })}>
-                Daily Orbit
+    <footer style={{ marginTop: 'auto', borderTop: '1px solid var(--rule)', background: 'var(--panel)', color: 'var(--ink)' }}>
+      <div className="footer-grid" style={{ maxWidth: 1440, margin: '0 auto', padding: '40px clamp(16px, 3vw, 32px) 28px', display: 'grid', gap: '28px 32px' }}>
+        <div style={{ minWidth: 0, display: 'grid', gap: 12, alignContent: 'start' }} className="footer-brand">
+          <a href="Landing.dc.html" style={{ display: 'flex', alignItems: 'center', gap: 10, textDecoration: 'none', color: 'var(--ink)' }}>
+            <img src="/icon-192.png" alt="" width={36} height={36} style={{ borderRadius: 10 }} />
+            <strong style={{ fontSize: 20, letterSpacing: '-0.02em' }}>Daily Orbit</strong>
+          </a>
+          <p style={{ margin: 0, maxWidth: 380, fontSize: 14.5, lineHeight: 1.55, color: 'var(--ink-soft)' }}>
+            A minute a day keeps the crew flying. Built for the 2026 NASA Space Apps Challenge, health monitoring for astronauts on long missions.
+          </p>
+          <div style={{ display: 'flex', flexWrap: 'wrap', gap: 6 }}>
+            {PROMISES.map((p) => (
+              <span key={p} style={{ padding: '4px 10px', borderRadius: 99, background: 'var(--panel-2)', border: '1px solid var(--rule)', fontSize: 12.5, fontWeight: 600 }}>
+                {p}
               </span>
-            </span>
-            <p style={S({ margin: '0', fontSize: '14px', lineHeight: '1.6', color: 'var(--muted)', maxWidth: '30ch', textWrap: 'pretty' })}>
-              NASA Space Apps Challenge 2026 · health monitoring software.
-            </p>
-          </div>
-          <nav aria-label="Footer" style={S({ display: 'flex', flexDirection: 'column', gap: '4px' })}>
-            <span style={S({ fontSize: '13px', color: 'var(--muted)', marginBottom: '6px' })}>
-              Screens
-            </span>
-            <a href="Today.dc.html" style={S({ display: 'flex', alignItems: 'center', minHeight: '36px', fontSize: '14px', color: 'var(--ink)', textDecoration: 'none' })} className="sitefooterview-hover-1">
-              Today
-            </a>
-            <a href="Body%20Map.dc.html" style={S({ display: 'flex', alignItems: 'center', minHeight: '36px', fontSize: '14px', color: 'var(--ink)', textDecoration: 'none' })} className="sitefooterview-hover-1">
-              Body
-            </a>
-            <a href="Schedule.dc.html" style={S({ display: 'flex', alignItems: 'center', minHeight: '36px', fontSize: '14px', color: 'var(--ink)', textDecoration: 'none' })} className="sitefooterview-hover-1">
-              Schedule
-            </a>
-            <a href="Manual%20Entry.dc.html" style={S({ display: 'flex', alignItems: 'center', minHeight: '36px', fontSize: '14px', color: 'var(--ink)', textDecoration: 'none' })} className="sitefooterview-hover-1">
-              Log
-            </a>
-            <a href="Escalation.dc.html" style={S({ display: 'flex', alignItems: 'center', minHeight: '36px', fontSize: '14px', color: 'var(--ink)', textDecoration: 'none' })} className="sitefooterview-hover-1">
-              Escalate
-            </a>
-            <a href="Medical%20View.dc.html" style={S({ display: 'flex', alignItems: 'center', minHeight: '36px', fontSize: '14px', color: 'var(--ink)', textDecoration: 'none' })} className="sitefooterview-hover-1">
-              Crew
-            </a>
-            <a href="Rewards.dc.html" style={S({ display: 'flex', alignItems: 'center', minHeight: '36px', fontSize: '14px', color: 'var(--ink)', textDecoration: 'none' })} className="sitefooterview-hover-1">
-              Rewards
-            </a>
-            <a href="Report.dc.html" style={S({ display: 'flex', alignItems: 'center', minHeight: '36px', fontSize: '14px', color: 'var(--ink)', textDecoration: 'none' })} className="sitefooterview-hover-1">
-              Weekly report
-            </a>
-            <a href="Mirror.dc.html" style={S({ display: 'flex', alignItems: 'center', minHeight: '36px', fontSize: '14px', color: 'var(--ink)', textDecoration: 'none' })} className="sitefooterview-hover-1">
-              Mirror check
-            </a>
-            <a href="Radiation.dc.html" style={S({ display: 'flex', alignItems: 'center', minHeight: '36px', fontSize: '14px', color: 'var(--ink)', textDecoration: 'none' })} className="sitefooterview-hover-1">
-              Radiation
-            </a>
-            <a href="Metrics.dc.html" style={S({ display: 'flex', alignItems: 'center', minHeight: '36px', fontSize: '14px', color: 'var(--ink)', textDecoration: 'none' })} className="sitefooterview-hover-1">
-              Metrics
-            </a>
-            <a href="Sources.dc.html" style={S({ display: 'flex', alignItems: 'center', minHeight: '36px', fontSize: '14px', color: 'var(--ink)', textDecoration: 'none' })} className="sitefooterview-hover-1">
-              Sources
-            </a>
-          </nav>
-          <div style={S({ display: 'flex', flexDirection: 'column', gap: '10px' })}>
-            <span style={S({ fontSize: '13px', color: 'var(--muted)', marginBottom: '4px' })}>
-              What this console keeps to
-            </span>
-            {(v.rules ?? []).map((r: any, r_i: number) => (
-                <Fragment key={r_i}>
-              <p style={S({ margin: '0', fontSize: '14px', lineHeight: '1.5', color: 'var(--ink-soft)', textWrap: 'pretty' })}>
-                <span>
-                  {r}
-                </span>
-              </p>
-                </Fragment>
-              ))}
-          </div>
-          <div style={S({ display: 'flex', flexDirection: 'column', gap: '4px' })}>
-            <span style={S({ fontSize: '13px', color: 'var(--muted)', marginBottom: '6px' })}>
-              Team
-            </span>
-            <span style={S({ fontSize: '14px', minHeight: '30px', display: 'flex', alignItems: 'center' })}>
-              Ronav Gupta
-            </span>
-            <span style={S({ fontSize: '14px', minHeight: '30px', display: 'flex', alignItems: 'center' })}>
-              Arnav Jain
-            </span>
-            <span style={S({ fontSize: '14px', minHeight: '30px', display: 'flex', alignItems: 'center' })}>
-              Evode Manirahari
-            </span>
+            ))}
           </div>
         </div>
-        <div style={S({ borderTop: '1px solid var(--rule)' })}>
-          <div style={S({ maxWidth: '1500px', margin: '0 auto', padding: `18px clamp(16px, 3vw, 24px) ${v.bottomPad}`, display: 'flex', flexWrap: 'wrap', alignItems: 'center', justifyContent: 'space-between', gap: '8px 24px' })}>
-            <ul style={S({ listStyle: 'none', margin: '0', padding: '0', display: 'flex', flexWrap: 'wrap', gap: '4px 20px', alignItems: 'center' })}>
-              <li style={S({ display: 'flex', alignItems: 'center', gap: '8px', fontSize: '13px', color: 'var(--muted)', whiteSpace: 'nowrap' })}>
-                Console online
-              </li>
-              {(v.rail ?? []).map((r: any, r_i: number) => (
-                  <Fragment key={r_i}>
-                <li style={S({ fontSize: '13px', color: 'var(--muted)', whiteSpace: 'nowrap' })}>
-                  {r}
+        {GROUPS.map((g) => (
+          <nav key={g.title} aria-label={g.title}>
+            <p style={head}>{g.title}</p>
+            <ul style={{ listStyle: 'none', margin: 0, padding: 0 }}>
+              {g.links.map(([href, label, ext]) => (
+                <li key={label}>
+                  <a href={href} className="footer-link" style={link} {...(ext ? { target: '_blank', rel: 'noreferrer' } : {})}>
+                    {label}
+                    {ext ? ' ↗' : ''}
+                  </a>
                 </li>
-                  </Fragment>
-                ))}
+              ))}
             </ul>
-            <span style={S({ fontSize: '13px', fontWeight: '600', color: 'var(--watch-ink)', whiteSpace: 'nowrap' })}>
-              Prototype. Not a medical device.
-            </span>
-          </div>
+          </nav>
+        ))}
+        <div>
+          <p style={head}>Team</p>
+          <ul style={{ listStyle: 'none', margin: 0, padding: 0, display: 'grid', gap: 8 }}>
+            {TEAM.map(([name, role]) => (
+              <li key={name} style={{ display: 'grid' }}>
+                <span style={{ fontSize: 14.5, fontWeight: 650 }}>{name}</span>
+                <span style={{ fontSize: 13, color: 'var(--muted)' }}>{role}</span>
+              </li>
+            ))}
+          </ul>
         </div>
-      </footer>
-    </>
+      </div>
+      <div style={{ borderTop: '1px solid var(--rule)' }}>
+        <div style={{ maxWidth: 1440, margin: '0 auto', padding: `14px clamp(16px, 3vw, 32px) ${v.bottomPad}`, display: 'flex', flexWrap: 'wrap', alignItems: 'center', justifyContent: 'space-between', gap: '8px 20px', fontSize: 13, color: 'var(--muted)' }}>
+          <span style={{ display: 'flex', flexWrap: 'wrap', gap: '4px 14px', alignItems: 'center' }}>
+            <span style={{ display: 'inline-flex', alignItems: 'center', gap: 6 }}>
+              <span aria-hidden="true" style={{ width: 8, height: 8, borderRadius: 99, background: 'var(--ok)' }} />
+              Console online
+            </span>
+            {(v.rail ?? []).map((r) => (
+              <span key={r}>{r}</span>
+            ))}
+          </span>
+          <span style={{ fontWeight: 700, color: 'var(--act-ink)' }}>Prototype. Not a medical device.</span>
+        </div>
+      </div>
+    </footer>
   )
 }
