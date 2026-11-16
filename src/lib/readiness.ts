@@ -5,6 +5,9 @@ import type { Status } from '../contract/types'
  * things the app already judges: each body region's status, the cross-indicator patterns, open
  * alerts and self-report gaps. It answers "should I take on something demanding today without
  * checking first?". It is a prompt, not a medical clearance, and the screen says so.
+ *
+ * It is worded as a mission call, the way flight controllers poll a team: Go, Go with limits,
+ * No-go. The limits are about what kind of work to take on, never a treatment.
  */
 
 export type ReadinessLevel = 'ready' | 'check' | 'notToday' | 'unknown'
@@ -19,10 +22,10 @@ export type ReadinessInput = {
 export type Readiness = { level: ReadinessLevel; label: string; reasons: string[] }
 
 export const READINESS_LABEL: Record<ReadinessLevel, string> = {
-  ready: 'Ready',
-  check: 'Check first',
-  notToday: 'Not today',
-  unknown: 'Not enough data',
+  ready: 'Go',
+  check: 'Go with limits',
+  notToday: 'No-go',
+  unknown: 'No call yet',
 }
 
 export function readiness(input: ReadinessInput): Readiness {

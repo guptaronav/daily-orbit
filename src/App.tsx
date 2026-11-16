@@ -16,6 +16,7 @@ import { bridge, useProtoStore } from './proto/store'
 import { TodayPage } from './proto/TodayPage'
 import { ReportPage } from './proto/ReportPage'
 import { Tour } from './proto/Tour'
+import { JudgeMode } from './proto/JudgeMode'
 import { openEarthLink, openRadiation } from './proto/Sections'
 import { BootScreen } from './proto/BootScreen'
 import { GoalToast } from './proto/GoalToast'
@@ -173,6 +174,7 @@ function Shell() {
         <Screen />
       </Suspense>
       <Tour />
+      <JudgeMode />
       <BootScreen />
       <GoalToast />
       <Moments />

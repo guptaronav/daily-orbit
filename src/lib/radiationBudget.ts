@@ -19,6 +19,7 @@ const LSAH = 'https://www.nasa.gov/wp-content/uploads/2023/10/lsah-newsletter-20
 export const DAILY_RATE: Record<EnvId, { mSvPerDay: number; basis: string; url: string }> = {
   iss: { mSvPerDay: 0.5, basis: 'about 0.5 mSv a day on the ISS (NASA LSAH newsletter)', url: LSAH },
   lunar: { mSvPerDay: 0.5, basis: 'about 0.5 mSv a day projected on the lunar surface (NASA LSAH newsletter)', url: LSAH },
+  lunarRover: { mSvPerDay: 0.5, basis: 'about 0.5 mSv a day projected on the lunar surface (NASA LSAH newsletter)', url: LSAH },
   mars: { mSvPerDay: 1, basis: 'about 1 mSv a day or more beyond low Earth orbit (NASA LSAH newsletter)', url: LSAH },
   marsSurface: {
     mSvPerDay: 0.9,

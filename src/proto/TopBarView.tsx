@@ -165,7 +165,7 @@ export function TopBarView({ v }: { v: any }) {
                 <div style={S({ margin: '6px 4px 0', padding: '12px 10px 4px', borderTop: '1px solid var(--rule)' })}>
                   <div style={S({ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline' })}>
                     <label htmlFor="chm-delay" style={S({ fontSize: '13px', color: 'var(--muted)' })}>
-                      Mars distance today
+                      Message delay
                     </label>
                     <span style={S({ fontSize: '15px', fontWeight: '650' })}>
                       {v.delayText}
@@ -180,6 +180,14 @@ export function TopBarView({ v }: { v: any }) {
                       Farthest · {v.dMaxText}
                     </span>
                   </div>
+                  <p style={S({ margin: '8px 0 0', display: 'flex', flexWrap: 'wrap', alignItems: 'center', justifyContent: 'space-between', gap: '6px', fontSize: '12.5px', color: 'var(--muted)' })}>
+                    <span>Really today, from JPL planet positions: <strong style={S({ color: 'var(--ink)' })}>{v.realText}</strong></span>
+                    {v.offReal ? (
+                      <button type="button" onClick={v.useReal} style={S({ border: '0', background: 'transparent', padding: '0', color: 'var(--accent)', textDecoration: 'underline', fontWeight: '650', cursor: 'pointer', font: 'inherit' })}>
+                        Use today's
+                      </button>
+                    ) : null}
+                  </p>
                 </div>
                 </>
               ) : null}

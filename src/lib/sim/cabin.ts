@@ -20,7 +20,7 @@ export const CABIN = {
 }
 
 /** The simulated typical level per environment (an assumption, labeled as simulated on screen). */
-export const SIM_LEVEL: Record<string, number> = { iss: 2.3, lunar: 2.3, mars: 2.3, marsSurface: 2.3 }
+export const SIM_LEVEL: Record<string, number> = { iss: 2.3, lunar: 2.3, lunarRover: 2.3, mars: 2.3, marsSurface: 2.3 }
 
 const hash = (s: string) => [...s].reduce((a, c) => (a * 31 + c.charCodeAt(0)) >>> 0, 2166136261)
 const rand = (seed: number) => ((seed * 1103515245 + 12345) >>> 0) / 4294967296

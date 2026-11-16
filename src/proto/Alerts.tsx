@@ -89,6 +89,7 @@ function AlertRow({ a, history = false }: { a: Alert; history?: boolean }) {
   const [note, setNote] = useState('')
   const tone = a.status === 'red' ? 'var(--act)' : 'var(--watch)'
   const e = D.alertEscalation(a) as { level: number; text: string }
+  const who = D.whoseChange(a) as { who: string; text: string } | null
   const when = a.state === 'open' ? timeAgo(a.firstSeen) : a.state === 'acknowledged' ? `seen ${timeAgo(a.ackAt!)}` : `closed ${timeAgo(a.closedAt!)}`
   const small = { minHeight: 32, padding: '0 11px', borderRadius: 10, fontWeight: 700, fontSize: 13, cursor: 'pointer' } as const
   return (
@@ -102,6 +103,11 @@ function AlertRow({ a, history = false }: { a: Alert; history?: boolean }) {
             {e.level > 0 && (
               <span title={e.text} style={{ padding: '0 7px', borderRadius: 99, fontSize: 11, fontWeight: 750, lineHeight: '17px', background: e.level === 2 ? 'var(--act)' : 'rgba(183,121,31,.16)', color: e.level === 2 ? 'var(--paper)' : 'var(--watch-ink)', whiteSpace: 'nowrap' }}>
                 {e.level === 2 ? 'Tell Earth' : 'Backup asked'}
+              </span>
+            )}
+            {who && who.who !== 'you' && (
+              <span title={who.text} style={{ padding: '0 7px', borderRadius: 99, fontSize: 11, fontWeight: 750, lineHeight: '17px', background: '#14181f', color: '#f3f1ea', whiteSpace: 'nowrap' }}>
+                {who.who === 'sensor' ? 'Check the sensor' : 'Shared by the crew'}
               </span>
             )}
           </span>

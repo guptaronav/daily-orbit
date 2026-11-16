@@ -49,6 +49,13 @@ export function LandingView({ v }: { v: any }) {
                   2-minute tour
                 </button>
               </div>
+              <p style={S({ margin: '-6px 0 0', fontSize: '14px', color: 'var(--muted)', animation: 'ld-rise 700ms 280ms cubic-bezier(.22,1,.36,1) both' })}>
+                Judging?{' '}
+                <button type="button" onClick={() => window.dispatchEvent(new CustomEvent('judge:open'))} style={S({ border: '0', background: 'transparent', padding: '0', color: 'var(--accent)', textDecoration: 'underline', fontWeight: '700', cursor: 'pointer', font: 'inherit' })}>
+                  Open judge mode
+                </button>{' '}
+                to run a fever, a faulty sensor, a crew-wide problem or a solar storm in one click (or press J).
+              </p>
               <dl className="hero-stats" style={S({ margin: '4px 0 0', display: 'flex', flexWrap: 'wrap', gap: '0', animation: 'ld-rise 700ms 320ms cubic-bezier(.22,1,.36,1) both' })}>
                 {(v.heroStats ?? []).map((h: any, h_i: number) => (
                   <div key={h_i}>

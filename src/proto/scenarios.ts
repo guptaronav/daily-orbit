@@ -1,6 +1,6 @@
 import type { Indicator, Measurement } from '../contract/types'
 import { getThreshold } from '../config/thresholds'
-import { addMeasurements, listMeasurements } from '../db/repo'
+import { addMeasurements, listCrew, listMeasurements } from '../db/repo'
 import { bridge } from './store'
 
 /*
@@ -18,6 +18,14 @@ async function usual(crewId: string, indicator: Indicator, fallback: number): Pr
   const vals = (await listMeasurements(crewId, indicator)).filter((m) => m.quality.passed && typeof m.value === 'number').map((m) => m.value as number)
   if (!vals.length) return fallback
   return vals.reduce((a, b) => a + b, 0) / vals.length
+}
+
+async function spread(crewId: string, indicator: Indicator, fallback: { mean: number; sd: number }): Promise<{ mean: number; sd: number }> {
+  const vals = (await listMeasurements(crewId, indicator)).filter((m) => m.quality.passed && typeof m.value === 'number').map((m) => m.value as number)
+  if (vals.length < 3) return fallback
+  const mean = vals.reduce((a, b) => a + b, 0) / vals.length
+  const sd = Math.sqrt(vals.reduce((a, b) => a + (b - mean) ** 2, 0) / (vals.length - 1)) || fallback.sd
+  return { mean, sd }
 }
 
 function rec(crewId: string, indicator: Indicator, value: Measurement['value'], at: Date): Measurement {
@@ -63,6 +71,32 @@ export const SCENARIOS: Scenario[] = [
       const e = Math.round((await usual(crewId, 'eyelidClosure', 5)) * 2.4 * 10) / 10
       await addMeasurements([rec(crewId, 'sleepQuality', q, now), rec(crewId, 'sleepHours', h, now), rec(crewId, 'eyelidClosure', e, now)])
       return `Sleep quality rated ${q}/10, but ${h} h of sleep and eyelids closed ${e}% of the time`
+    },
+  },
+  {
+    id: 'bad-sensor',
+    label: 'Faulty blood-pressure cuff',
+    detail: 'Three normal readings, then one wildly high one: the alert says to check the sensor before anyone climbs the ladder.',
+    run: async (crewId) => {
+      const now = Date.now()
+      const { mean, sd } = await spread(crewId, 'bloodPressureSys', { mean: 118, sd: 5 })
+      const at = (h: number) => new Date(now - h * 3_600_000)
+      const normal = [-0.3, 0.2, 0.1].map((z, i) => rec(crewId, 'bloodPressureSys', Math.round(mean + z * sd), at(3 - i)))
+      const spike = Math.round(mean + Math.max(7 * sd, 45))
+      await addMeasurements([...normal, rec(crewId, 'bloodPressureSys', spike, at(0))])
+      return `Systolic ${spike} mmHg right after three normal readings`
+    },
+  },
+  {
+    id: 'crew-sleep',
+    label: 'The whole crew slept badly',
+    detail: 'Everyone logs far less sleep last night: the alert points to something shared (noise, light, the schedule) rather than one person.',
+    run: async () => {
+      const now = new Date()
+      const crew = (await listCrew()).filter((c) => c.id !== 'guest')
+      const recs = await Promise.all(crew.map(async (c) => rec(c.id, 'sleepHours', Math.max(2, Math.round(((await usual(c.id, 'sleepHours', 7)) - 3.6) * 10) / 10), now)))
+      await addMeasurements(recs)
+      return `${crew.length} crew members logged short sleep last night`
     },
   },
 ]

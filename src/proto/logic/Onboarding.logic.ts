@@ -57,8 +57,8 @@ export class OnboardingLogic extends DCLogic {
       q = { title: 'Who are you acting as today?', sub: 'Judges usually pick the guest. Crew 1 to 3 already have 30 days of simulated history.', min: '210px', options: D.CREW.map((c) => opt({ value: c.id, label: c.id === 'guest' ? 'Guest' : c.name, sub: c.role === 'Guest' ? 'Start fresh on this device' : c.role, crew: c, gear: D.gear(c.id), avSize: 56, ring: D.STATUS[D.crewData(c.id).worst].swatch }, st.crewId, () => this.setState({ crewId: c.id }))) }
     } else if (st.step === 2) {
       kind = 'ask'
-      const sub = { iss: 'Answers from the ground arrive almost straight away.', lunar: 'About a second each way. Ground help is close.', marsSurface: 'Up to 22 minutes each way, on a base under Mars gravity.', mars: 'Up to 22 minutes each way. The crew handles more on its own.' }
-      const ic = { iss: D.ICONS.send, lunar: D.ICONS.moon, mars: D.ICONS.target, marsSurface: D.ICONS.target }
+      const sub = { iss: 'Answers from the ground arrive almost straight away.', lunar: 'About a second each way. Ground help is close.', lunarRover: 'Two crew, up to 30 days in a small cabin, far from base.', marsSurface: 'Up to 22 minutes each way, on a base under Mars gravity.', mars: 'Up to 22 minutes each way. The crew handles more on its own.' }
+      const ic = { iss: D.ICONS.send, lunar: D.ICONS.moon, lunarRover: D.ICONS.moon, mars: D.ICONS.target, marsSurface: D.ICONS.target }
       q = { title: 'Where is the mission?', sub: 'This sets the comm delay for the escalation ladder.', min: '240px', options: D.ENVS.map((e) => opt({ value: e.id, label: e.label, sub: `${sub[e.id]} One-way delay ${D.formatDelay(e.delay)}.`, icon: ic[e.id], tileBg: 'var(--ink)', tileColor: 'var(--paper)' }, st.envId, () => this.setState({ envId: e.id }))) }
     } else if (st.step === 3) {
       kind = 'ask'

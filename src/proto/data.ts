@@ -24,6 +24,7 @@ import { patternFlags, RUNG_NAME } from '../lib/patterns'
 import { HAZARD_IDS, hazardIndicators, hazardStatus } from '../lib/hazards'
 import { CAREER_LIMIT_MSV, CAREER_LIMIT_SOURCE, DAILY_RATE, PRIOR_MISSIONS_MSV, careerBudget } from '../lib/radiationBudget'
 import { selfReportGaps } from '../lib/selfReportGap'
+import { marsLink } from '../lib/orbit'
 import { alertCandidates, alertState } from '../lib/alerts'
 import { buildIndex, redFlag, search } from '../lib/assistant'
 import { blockState, doneToday, isBlockDone, planFor, toMinutes } from '../lib/schedule'
@@ -88,11 +89,14 @@ export const CREW = new Proxy([], {
   },
 })
 
+/** Today's real one-way light time to Mars, from JPL planet positions (lib/orbit.ts). */
+export const MARS_TODAY = Math.round(marsLink(new Date()).delaySec)
 export const ENVS = [
   { id: 'iss', label: 'ISS (low Earth orbit)', short: 'ISS', delay: 1 },
   { id: 'lunar', label: 'Lunar surface', short: 'Lunar', delay: 1.3 },
-  { id: 'mars', label: 'Mars transit', short: 'Mars', delay: 1200, min: 180, max: 1320 },
-  { id: 'marsSurface', label: 'Mars surface base', short: 'Mars base', delay: 1200, min: 180, max: 1320 },
+  { id: 'lunarRover', label: 'Lunar pressurized rover', short: 'Rover', delay: 1.3 },
+  { id: 'mars', label: 'Mars transit', short: 'Mars', delay: MARS_TODAY, min: 180, max: 1320 },
+  { id: 'marsSurface', label: 'Mars surface base', short: 'Mars base', delay: MARS_TODAY, min: 180, max: 1320 },
 ]
 export const formatDelay = (sec) => appFormatDelay(sec)
 
@@ -744,7 +748,7 @@ export function recommendedAction(ind) {
 /* ---- Mission scenes: what each banner draws, and the discoveries hidden in it ---------------- */
 
 /** Which scene a mission sends you to. Mars is "Mars transit": the crew is still on the way. */
-const MISSION_SCENE = { iss: 'iss', lunar: 'lunar', mars: 'transit', marsSurface: 'mars' }
+const MISSION_SCENE = { iss: 'iss', lunar: 'lunar', lunarRover: 'lunar', mars: 'transit', marsSurface: 'mars' }
 /** The scene a banner draws (null for a plain one). The mission banner follows the chosen mission. */
 export function sceneFor(banner) {
   if (!banner || !banner.scene) return null
@@ -1764,4 +1768,43 @@ export function recordShelter(id) {
     else announce(0, 'Daily coin limit reached', true)
   }
   return points
+}
+
+/* ---- Whose change is it? You, the whole crew, or the sensor ---------------------------------- */
+/**
+ * Before anyone climbs the ladder, a reading alert asks where the change comes from. Our own rule
+ * of thumb, from readings the app already has (not a NASA rule, and the card says so):
+ *  - the sensor: the newest reading jumped 4 SD or more while the three before it sat within 1 SD,
+ *    or two of the last five readings failed their quality check;
+ *  - the crew: another crew member's same indicator moved the same way (shared air, food, schedule);
+ *  - you: nobody else moved, and the measurement looks sound.
+ */
+function sensorIssue(crewId, key) {
+  const me = read(crewId, key)
+  if (!me.latest || !me.baseline || me.z == null) return null
+  const passed = me.history.filter((h) => h.passed)
+  const before = passed.slice(-4, -1)
+  const zOf = (v) => (v - me.baseline.mean) / (me.baseline.sd || 1)
+  const spike = Math.abs(me.z) >= 4 && before.length === 3 && before.every((h) => Math.abs(zOf(h.v)) < 1)
+  const failed = me.history.slice(-5).filter((h) => !h.passed).length
+  if (spike) return 'The newest reading jumped far from your usual while the three before it were normal. Retake it before acting: a loose cuff, bad light or a misread scale can do this.'
+  if (failed >= 2) return `${failed} of your last five ${me.label.toLowerCase()} readings failed the quality check. Fix the measurement first, then judge the number.`
+  return null
+}
+
+export function whoseChange(a) {
+  const [crewId, kind, key] = String(a.id).split(':')
+  if (kind !== 'reading' || !IND[key]) return null
+  const me = read(crewId, key)
+  if (!me.latest || !me.baseline || me.z == null) return null
+  const sensor = sensorIssue(crewId, key)
+  if (sensor) return { who: 'sensor', text: sensor }
+  // Another person's change counts as shared only if it is not itself a sensor problem.
+  const crew = CREW.filter((c) => c.id !== crewId && c.id !== 'guest')
+  const same = crew.filter((c) => { const r = read(c.id, key); return (r.status === 'yellow' || r.status === 'red') && r.z != null && Math.sign(r.z) === Math.sign(me.z) && !sensorIssue(c.id, key) })
+  if (same.length) {
+    const names = same.map((c) => c.name).join(' and ')
+    return { who: 'crew', text: `${names} ${same.length > 1 ? 'have' : 'has'} the same change. Something shared, like cabin air, food, water or the schedule, may be behind it: check the five hazards on Body and tell the crew medical officer.` }
+  }
+  return { who: 'you', text: 'The rest of the crew are within their usual and the measurement looks sound, so treat this change as yours.' }
 }

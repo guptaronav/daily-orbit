@@ -294,6 +294,18 @@
     "usedFor": "Earth 2.4 mSv/yr, ISS ~0.5 mSv/day, BLEO ~1 mSv/day+, lunar surface ~0.5 mSv/day; active personal dosimeter"
   },
   {
+    "id": "nasa-jaxa-rover",
+    "title": "NASA, Japan Advance Space Cooperation, Sign Agreement for Lunar Rover (NASA, 2024)",
+    "url": "https://www.nasa.gov/news-release/nasa-japan-advance-space-cooperation-sign-agreement-for-lunar-rover/",
+    "usedFor": "Lunar pressurized rover mission: two astronauts for up to 30 days near the lunar South Pole"
+  },
+  {
+    "id": "ntrs-rover-habitability",
+    "title": "Habitability Considerations for a Notional Five-Day Small Pressurized Rover Excursion (NASA NTRS)",
+    "url": "https://ntrs.nasa.gov/citations/20210021307",
+    "usedFor": "Lunar pressurized rover mission: daily planning and private medical conferences, exercise, sleep and crew fatigue in the cabin"
+  },
+  {
     "id": "moon-facts",
     "title": "NASA Science: Moon Facts",
     "url": "https://science.nasa.gov/moon/facts/",
@@ -322,6 +334,18 @@
     "title": "Space Communications: 7 Things You Need to Know",
     "url": "https://www.nasa.gov/centers-and-facilities/goddard/space-communications-7-things-you-need-to-know/",
     "usedFor": "Mars delay 4-24 min; near-Earth latency almost negligible"
+  },
+  {
+    "id": "jpl-approx-pos",
+    "title": "Approximate Positions of the Planets (JPL Solar System Dynamics, E. M. Standish)",
+    "url": "https://ssd.jpl.nasa.gov/planets/approx_pos.html",
+    "usedFor": "Mars missions: today's real Earth-Mars distance and one-way message delay"
+  },
+  {
+    "id": "jpl-conjunction-2015",
+    "title": "Mars Missions to Pause Commanding in June, Due to Sun (NASA JPL, 2015)",
+    "url": "https://www.jpl.nasa.gov/news/mars-missions-to-pause-commanding-in-june-due-to-sun/",
+    "usedFor": "Mars missions: solar conjunction blackout when the Sun is within two degrees of Mars"
   },
   {
     "id": "commercial-crew-escape",

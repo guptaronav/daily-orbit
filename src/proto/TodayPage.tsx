@@ -24,10 +24,10 @@ import { bridge, getSnapshot } from './store'
  */
 
 const LEVEL: Record<ReadinessLevel, { bg: string; ink: string; ring: string; line: string }> = {
-  ready: { bg: 'rgba(47,125,79,.1)', ink: 'var(--ok-ink)', ring: 'var(--ok)', line: 'Fine for demanding work today.' },
-  check: { bg: 'rgba(183,121,31,.12)', ink: 'var(--watch-ink)', ring: 'var(--watch)', line: 'Take a closer look before demanding work.' },
-  notToday: { bg: 'rgba(179,38,30,.1)', ink: 'var(--act-ink)', ring: 'var(--act)', line: 'Talk to your crew medical officer before demanding work.' },
-  unknown: { bg: 'var(--paper-deep)', ink: 'var(--nodata-ink)', ring: 'var(--nodata)', line: 'Do a mirror check to build your baseline.' },
+  ready: { bg: 'rgba(47,125,79,.1)', ink: 'var(--ok-ink)', ring: 'var(--ok)', line: 'Go for demanding work today, EVA included.' },
+  check: { bg: 'rgba(183,121,31,.12)', ink: 'var(--watch-ink)', ring: 'var(--watch)', line: 'Routine work is fine. Look at the reasons before EVA or other demanding work.' },
+  notToday: { bg: 'rgba(179,38,30,.1)', ink: 'var(--act-ink)', ring: 'var(--act)', line: 'No EVA or demanding work until your crew medical officer has looked.' },
+  unknown: { bg: 'var(--paper-deep)', ink: 'var(--nodata-ink)', ring: 'var(--nodata)', line: 'Do a mirror check to build your baseline, then the app can make a call.' },
 }
 const TONE: Record<string, string> = { gray: 'var(--rule-strong)', green: 'var(--ok)', yellow: 'var(--watch)', red: 'var(--act)' }
 const WORD: Record<string, string> = { gray: 'No data', green: 'Within usual', yellow: 'Watch', red: 'Act' }
@@ -165,16 +165,29 @@ export function TodayPage() {
             </div>
           )}
 
-          <div role="status" style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: 10, padding: '10px 12px', borderRadius: 18, background: lv.bg, border: `1.5px solid ${lv.ring}` }}>
-            <span style={{ padding: '6px 14px', borderRadius: 12, background: lv.ring, color: 'var(--paper)', fontWeight: 800, fontSize: 15 }}>{rd.label}</span>
-            <strong style={{ flex: '1 1 220px', color: lv.ink, fontSize: 14.5 }}>{lv.line}</strong>
-            <button type="button" aria-expanded={why} onClick={() => setWhy((w) => !w)} style={{ border: 0, background: 'transparent', color: 'var(--accent)', fontWeight: 700, fontSize: 13.5, cursor: 'pointer', textDecoration: 'underline' }}>
-              {why ? 'Hide why' : 'Why?'}
-            </button>
+          <div role="status" aria-label={`Today's call: ${rd.label}`} style={{ display: 'grid', gap: 10, padding: '14px 16px', borderRadius: 22, background: lv.bg, border: `1.5px solid ${lv.ring}` }}>
+            <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: '8px 14px' }}>
+              <span style={{ fontSize: 12, fontWeight: 750, letterSpacing: '.08em', textTransform: 'uppercase', color: lv.ink }}>Today's call</span>
+              <span style={{ padding: '5px 16px', borderRadius: 999, background: lv.ring, color: 'var(--paper)', fontWeight: 850, fontSize: 'clamp(17px, 1.8vw, 21px)', letterSpacing: '.02em', textTransform: 'uppercase', boxShadow: `0 0 0 4px ${lv.bg}` }}>{rd.label}</span>
+              <strong style={{ flex: '1 1 240px', color: lv.ink, fontSize: 14.5, lineHeight: 1.4 }}>{lv.line}</strong>
+              <button type="button" aria-expanded={why} onClick={() => setWhy((w) => !w)} style={{ border: 0, background: 'transparent', color: 'var(--accent)', fontWeight: 700, fontSize: 13.5, cursor: 'pointer', textDecoration: 'underline' }}>
+                {why ? 'Hide checks' : 'See the checks'}
+              </button>
+            </div>
             {why && (
-              <span style={{ flex: '1 1 100%', fontSize: 13.5, color: 'var(--ink-soft)' }}>
-                {rd.reasons.slice(0, 3).join('; ')}. Readiness is a prompt from your own readings, not a medical clearance.
-              </span>
+              <div style={{ display: 'grid', gap: 8 }}>
+                <ul style={{ listStyle: 'none', margin: 0, padding: 0, display: 'flex', flexWrap: 'wrap', gap: 6 }}>
+                  {regions.map((r) => (
+                    <li key={r.id} style={{ display: 'inline-flex', alignItems: 'center', gap: 6, padding: '4px 10px', borderRadius: 999, background: 'var(--panel)', border: '1px solid var(--rule)', fontSize: 12.5, fontWeight: 650 }}>
+                      <span aria-hidden="true" style={{ width: 8, height: 8, borderRadius: 99, background: TONE[r.status] }} />
+                      {r.label} <span style={{ color: 'var(--muted)', fontWeight: 600 }}>{WORD[r.status]}</span>
+                    </li>
+                  ))}
+                </ul>
+                <span style={{ fontSize: 13.5, color: 'var(--ink-soft)' }}>
+                  {rd.reasons.slice(0, 3).join('; ')}. The call comes from your own readings, patterns and open alerts. It is a prompt, not a medical clearance.
+                </span>
+              </div>
             )}
           </div>
         </div>
