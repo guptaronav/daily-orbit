@@ -35,7 +35,9 @@ export function MirrorCheck() {
   // Credit this check-in actually earns, after the once-per-day caps. Starts as the uncapped kinds (dev summary view).
   const [credit, setCredit] = useState<{ earned: GameEventKind[]; alreadyCounted: GameEventKind[] }>(() => ({ earned: sessionEventKinds(newSession()), alreadyCounted: [] }))
 
+  const [demo, setDemo] = useState(false)
   const onCamera = ({ analysis, selfReport, source }: CameraResult) => {
+    setDemo(source === 'simulated')
     const { heartRate, blink } = analysis
     setDiagnostics(analysis.diagnostics)
     setTrace(analysis.trace)
@@ -76,7 +78,7 @@ export function MirrorCheck() {
   }
 
   const STEPS: { id: Step; label: string; hint: string }[] = [
-    { id: 'camera', label: 'Camera', hint: 'Pulse and blinking, about a minute' },
+    { id: 'camera', label: 'Camera', hint: 'Pulse and blinking, about 40 seconds (6 for the demo)' },
     { id: 'vision', label: 'Vision', hint: 'Amsler grid and a near-vision test' },
     { id: 'symptoms', label: 'How you feel', hint: 'Optional, and it earns credit' },
     { id: 'summary', label: 'Result', hint: 'Compared with your own baseline' },
@@ -150,9 +152,9 @@ export function MirrorCheck() {
 
       <section key={step} className="mc-panel" style={{ borderRadius: 32, background: 'var(--panel)', border: '1px solid var(--rule)', padding: 'clamp(20px, 3vw, 36px)', animation: 'lg-rise 520ms 120ms cubic-bezier(.22,1,.36,1) both' }}>
         {step === 'camera' && <CameraCheck onComplete={onCamera} />}
-        {step === 'vision' && <Vision onComplete={onVision} />}
+        {step === 'vision' && <Vision onComplete={onVision} demo={demo} crewId={crewId} />}
         {step === 'symptoms' && <Symptoms onComplete={onSymptoms} busy={saving} />}
-        {step === 'summary' && <Summary crewId={crewId} sessionId={session.sessionId} earned={credit.earned} alreadyCounted={credit.alreadyCounted} diagnostics={diagnostics} trace={trace} onRetake={retake} onDone={() => go('bodymap')} />}
+        {step === 'summary' && <Summary crewId={crewId} sessionId={session.sessionId} earned={credit.earned} alreadyCounted={credit.alreadyCounted} diagnostics={diagnostics} trace={trace} onRetake={retake} onDone={() => go('bodymap')} onToday={() => go('today')} />}
       </section>
     </main>
   )

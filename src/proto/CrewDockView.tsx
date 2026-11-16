@@ -4,6 +4,7 @@
 // Edit the view model that feeds this, not this markup, unless you are re-porting the prototype.
 import { Fragment } from 'react'
 import * as P from './parts'
+import { DockTodo } from './DockTodo'
 import { S } from './parts'
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -121,7 +122,13 @@ export function CrewDockView({ v }: { v: any }) {
         {(v.collapsed) ? (
           <>
           <div style={S({ display: 'flex', alignItems: 'center', gap: '8px', padding: '6px', background: 'color-mix(in srgb, var(--panel) 90%, transparent)', backdropFilter: 'blur(16px)', WebkitBackdropFilter: 'blur(16px)', border: '1px solid var(--rule-strong)', borderRadius: '999px', boxShadow: '0 16px 40px -20px rgba(20,24,31,.45)' })}>
-            <P.Avatar crew={v.activeCrew} gear={v.activeGear} size={36} ring="var(--accent)" />
+            <span role="group" aria-label="Act as a crew member" style={S({ display: 'flex', alignItems: 'center', gap: '2px' })}>
+              {(v.crew ?? []).map((c: any) => (
+                <button key={c.crew.id} type="button" onClick={c.pick} aria-pressed={c.active} aria-label={c.aria} title={c.crew.name} className="dock-mini-crew" style={S({ opacity: c.active === 'true' ? '1' : '.55' })}>
+                  <P.Avatar crew={c.crew} gear={c.gear} size={c.active === 'true' ? 36 : 28} ring={c.active === 'true' ? 'var(--accent)' : c.ring} />
+                </button>
+              ))}
+            </span>
             <button type="button" onClick={v.checkIn} style={S({ display: 'inline-flex', alignItems: 'center', gap: '8px', minHeight: '40px', padding: '0 16px', borderRadius: '999px', background: 'var(--ink)', color: 'var(--paper)', border: '0', fontSize: '14px', fontWeight: '600', cursor: 'pointer', whiteSpace: 'nowrap' })}>
               {v.checkLabel}
             </button>
@@ -163,28 +170,32 @@ export function CrewDockView({ v }: { v: any }) {
             </div>
             <span aria-hidden="true" style={S({ display: v.crewDisplay, alignSelf: 'stretch', width: '1px', margin: '6px 4px', background: 'var(--rule)' })}>
             </span>
-            <button type="button" onClick={v.checkIn} onMouseEnter={v.leave} aria-label={v.checkAria} style={S({ position: 'relative', display: 'flex', alignItems: 'center', gap: '10px', minHeight: '56px', padding: '0 8px 0 8px', borderRadius: '18px', background: 'var(--ink)', color: 'var(--paper)', border: '0', boxShadow: '0 4px 0 #000', cursor: 'pointer', fontFamily: 'inherit', textAlign: 'left', whiteSpace: 'nowrap', transition: 'transform 90ms ease, box-shadow 90ms ease' })} className="crewdockview-active-3">
-              <span style={S({ position: 'relative', display: 'grid', placeItems: 'center', width: '40px', height: '40px' })}>
-                <svg width="40" height="40" viewBox="0 0 40 40" aria-hidden="true" style={S({ position: 'absolute', inset: '0', transform: 'rotate(-90deg)' })}>
-                  <circle cx="20" cy="20" r="17" fill="none" stroke="color-mix(in srgb, var(--paper) 22%, transparent)" strokeWidth="3">
-                  </circle>
-                  <circle cx="20" cy="20" r="17" fill="none" stroke="var(--paper)" strokeWidth="3" strokeLinecap="round" strokeDasharray={v.todayDash}>
-                  </circle>
-                </svg>
-                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-                  <path d={v.scanIcon}>
-                  </path>
-                </svg>
-              </span>
-              <span style={S({ display: 'flex', flexDirection: 'column', lineHeight: '1.15', paddingRight: '6px' })}>
-                <span style={S({ fontSize: '15px', fontWeight: '650' })}>
-                  {v.checkLabel}
+            <DockTodo>
+              {(toggle, open) => (
+              <button type="button" onClick={toggle} onMouseEnter={v.leave} aria-label={`${v.checkAria} Show what is left today.`} aria-expanded={open} style={S({ position: 'relative', display: 'flex', alignItems: 'center', gap: '10px', minHeight: '56px', padding: '0 8px 0 8px', borderRadius: '18px', background: 'var(--ink)', color: 'var(--paper)', border: '0', boxShadow: '0 4px 0 #000', cursor: 'pointer', fontFamily: 'inherit', textAlign: 'left', whiteSpace: 'nowrap', transition: 'transform 90ms ease, box-shadow 90ms ease' })} className="crewdockview-active-3">
+                <span style={S({ position: 'relative', display: 'grid', placeItems: 'center', width: '40px', height: '40px' })}>
+                  <svg width="40" height="40" viewBox="0 0 40 40" aria-hidden="true" style={S({ position: 'absolute', inset: '0', transform: 'rotate(-90deg)' })}>
+                    <circle cx="20" cy="20" r="17" fill="none" stroke="color-mix(in srgb, var(--paper) 22%, transparent)" strokeWidth="3">
+                    </circle>
+                    <circle cx="20" cy="20" r="17" fill="none" stroke="var(--paper)" strokeWidth="3" strokeLinecap="round" strokeDasharray={v.todayDash}>
+                    </circle>
+                  </svg>
+                  <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+                    <path d={v.scanIcon}>
+                    </path>
+                  </svg>
                 </span>
-                <span style={S({ fontSize: '12px', opacity: '.72' })}>
-                  {v.todayText}
+                <span style={S({ display: 'flex', flexDirection: 'column', lineHeight: '1.15', paddingRight: '6px' })}>
+                  <span style={S({ fontSize: '15px', fontWeight: '650' })}>
+                    {v.checkLabel}
+                  </span>
+                  <span style={S({ fontSize: '12px', opacity: '.72' })}>
+                    {v.todayText}
+                  </span>
                 </span>
-              </span>
-            </button>
+              </button>
+              )}
+            </DockTodo>
             {(v.nextShow) ? (
               <button type="button" onClick={v.openSchedule} onMouseEnter={v.leave} aria-label={`Next on your schedule: ${v.nextTitle}, ${v.nextWhen}. Open the schedule.`} className="dock-next" style={S({ display: v.goalDisplay, flexDirection: 'column', justifyContent: 'center', gap: '2px', minHeight: '48px', maxWidth: '190px', padding: '0 12px', borderRadius: '14px', border: '0', background: 'transparent', color: 'var(--ink)', textAlign: 'left', cursor: 'pointer' })}>
                 <span style={S({ fontSize: '11.5px', fontWeight: '700', letterSpacing: '.04em', textTransform: 'uppercase', color: 'var(--muted)' })}>

@@ -48,6 +48,7 @@ export function AlertActionCard({ a, compact = false }: { a: Alert; compact?: bo
         <strong style={{ fontSize: 14 }}>What to do</strong>
         <span style={{ fontSize: 12.5, fontWeight: 700, color: p.nowDone ? 'var(--ok-ink)' : '#a8740a' }}>{p.nowDone ? 'Now steps done' : `Finish the Now steps: +${p.points} coins for ${a.crewName}`}</span>
       </div>
+      <WhoseChange a={a} />
       <StepList a={a} steps={p.now} label="Now" />
       {!compact && <StepList a={a} steps={p.today} label="Today" />}
       <p style={{ margin: 0, fontSize: 12.5, lineHeight: 1.4, padding: '6px 8px', borderRadius: 10, background: a.status === 'red' ? 'rgba(179,38,30,.08)' : 'rgba(183,121,31,.1)' }}>
@@ -133,5 +134,31 @@ export function ResolvedAlerts({ bare = false }: { bare?: boolean }) {
       <summary style={{ cursor: 'pointer', fontSize: 14, fontWeight: 650 }}>Back within usual on their own ({list.length})</summary>
       {items}
     </details>
+  )
+}
+
+const WHO = [
+  { id: 'you', label: 'You' },
+  { id: 'crew', label: 'The crew' },
+  { id: 'sensor', label: 'The sensor' },
+] as const
+
+/** "Is it me, the crew or the sensor?", so a broken reading or a cabin problem never climbs the ladder as one person's illness. */
+function WhoseChange({ a }: { a: Alert }) {
+  const w = D.whoseChange(a) as { who: 'you' | 'crew' | 'sensor'; text: string } | null
+  if (!w) return null
+  return (
+    <div style={{ display: 'grid', gap: 6, padding: '8px 10px', borderRadius: 12, background: 'var(--panel-2)', border: '1px solid var(--rule)' }}>
+      <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: 6 }}>
+        <span style={{ fontSize: 12, fontWeight: 750, letterSpacing: '.06em', textTransform: 'uppercase', color: 'var(--muted)', marginRight: 4 }}>Whose change?</span>
+        {WHO.map((o) => (
+          <span key={o.id} aria-current={w.who === o.id ? 'true' : undefined} style={{ padding: '3px 10px', borderRadius: 999, fontSize: 12.5, fontWeight: 700, background: w.who === o.id ? 'var(--ink)' : 'transparent', color: w.who === o.id ? 'var(--paper)' : 'var(--muted)', border: `1px solid ${w.who === o.id ? 'var(--ink)' : 'var(--rule)'}` }}>
+            {o.label}
+          </span>
+        ))}
+      </div>
+      <span style={{ fontSize: 13, lineHeight: 1.45 }}>{w.text}</span>
+      <span style={{ fontSize: 11.5, color: 'var(--muted)' }}>Our rule of thumb from the crew's readings, not a NASA rule.</span>
+    </div>
   )
 }

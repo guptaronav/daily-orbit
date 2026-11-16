@@ -9,7 +9,7 @@ import { useStoreTick } from './shared'
  * and state keep working. Any button can open a page on a given section with openSection().
  */
 
-export type BodyTab = 'tour' | 'readings' | 'patterns' | 'hazards'
+export type BodyTab = 'tour' | 'readings' | 'patterns' | 'hazards' | 'forecast'
 export type LogTab = 'readings' | 'food' | 'alertness' | 'checks'
 type Page = 'body' | 'log'
 
@@ -108,6 +108,7 @@ export function BodyTabs() {
         { id: 'readings', label: 'Readings' },
         { id: 'patterns', label: 'Patterns', badge: pats ? String(pats) : undefined },
         { id: 'hazards', label: 'Five hazards', badge: hz ? String(hz) : undefined },
+        { id: 'forecast', label: 'Forecast' },
       ]}
     />
   )

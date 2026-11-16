@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import { btnSecondary } from '../../components/ui'
 import { LADDER, acuityResult, nextStep, type Trial } from '../../lib/vision/acuity'
 
 type Direction = 'Right' | 'Down' | 'Left' | 'Up'
@@ -43,22 +42,24 @@ export function Acuity({ onComplete }: { onComplete: (outcome: AcuityOutcome) =>
   }
 
   return (
-    <div className="space-y-6">
-      <p className="text-sm text-muted">Hold the screen at arm's length with both eyes open. Which way do the three arms of the letter point?</p>
-      <div className="flex h-36 items-center justify-center border border-rule bg-panel">
+    <div className="mc-stack">
+      <p className="mc-lead">Hold the screen at arm's length with both eyes open. Which way do the three arms of the letter point?</p>
+      <div className="mc-letter">
         <OptotypeE sizePx={LADDER[level].sizePx} direction={direction} />
       </div>
-      <div className="flex flex-wrap gap-3">
+      <div className="mc-row">
+        <div className="mc-dirs">
         {(['Up', 'Right', 'Down', 'Left'] as const).map((d) => (
-          <button key={d} onClick={() => answer(d)} className={btnSecondary}>
+          <button key={d} onClick={() => answer(d)} className="mc-btn2">
             {d}
           </button>
         ))}
-        <button onClick={() => answer(null)} className="btn-quiet">
+        </div>
+        <button onClick={() => answer(null)} className="mc-link">
           I can't tell
         </button>
       </div>
-      <p className="text-sm text-muted">Step {level + 1} of {LADDER.length}. Approximate: screen size and distance are not calibrated.</p>
+      <p className="mc-kicker">Size {level + 1} of {LADDER.length} · Approximate: screen size and distance are not calibrated.</p>
     </div>
   )
 }

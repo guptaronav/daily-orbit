@@ -25,7 +25,7 @@ The NASA basis for each indicator (Standard Measures category, HRP risk title) i
 | NASA DONKI solar energetic particle events | 494 events (2010 to 2026) fetched at build time; six are replayable. Built by `scripts/fetch-donki.ts` into `src/data/donki-sep.json` |
 | LRO CRaTER dose rates and GOES proton flux, via NASA CCMC iSWA | Measured dose rate (lunar orbit) behind the replay, and proton flux for context. The dose on the simulated vehicle is a labeled simulation: one rate for every environment, 1 mGy counted as 1 mSv, no shielding model |
 | NASA HRP risks and Spaceflight Standard Measures | Every indicator carries its HRP risk title and Standard Measures category |
-| 83 pages in `src/content/sources.json` (59 NASA, 23 NIH, MedlinePlus, PubMed and Canadian Space Agency, 1 University of Washington) | Indicator explanations, equipment, fluid goal, crew-day schedule, nutrition tips |
+| 87 pages in `src/content/sources.json` (63 NASA, 23 NIH, MedlinePlus, PubMed and Canadian Space Agency, 1 University of Washington) | Indicator explanations, equipment, fluid goal, crew-day schedule, nutrition tips |
 
 All data is fetched at build time. The app makes no network calls at runtime.
 

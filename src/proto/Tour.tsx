@@ -32,6 +32,7 @@ const STOPS: Stop[] = [
   },
   { screen: 'bodymap', anchor: '[aria-labelledby="hazards-heading"]', title: 'NASA’s five hazards, on this mission', body: 'Each hazard is colored by the readings its NASA-sourced text links to, with what it means on the ISS, the Moon, the way to Mars or on Mars. Includes the career radiation budget and the cabin air.' },
   { screen: 'bodymap', anchor: '#radiation-replay', title: 'A real solar storm', body: 'Replay a historical solar particle event from NASA DONKI, hour by hour, with dose rates measured by NASA’s lunar orbiter. The shelter alert fires at onset, and each hour is saved as a reading on Body.' },
+  { screen: 'bodymap', anchor: '#forecast-heading', title: 'Where the mission is heading', body: 'Bone loss and radiation can’t be felt. The forecast projects both to the end of the mission from NASA’s own rates, and says plainly where NASA has no number.' },
   { screen: 'mirror', anchor: 'h1', title: 'The mirror check', body: 'About a minute of webcam for pulse and blinking, an Amsler grid and a near-vision test per eye, then how you feel. Video never leaves the device.' },
   { screen: 'manual', anchor: '[aria-labelledby="rt-heading"]', title: 'What the camera can’t see', body: 'Blood pressure, temperature, blood sugar, body mass, food and water, and alertness: a quick minute, or the validated 3-minute PVT-B that catches sleep loss before you feel it.' },
   { screen: 'manual', anchor: '#bodychecks-heading', title: 'Body checks', body: 'A pain map you tap on, a stand-up test for gravity changes, a weekly NASA-TLX workload and PHQ-2/GAD-2 mood check, and grip strength with bone-loading sessions. Each pays for doing it, never for the result.' },
@@ -91,7 +92,7 @@ export function Tour() {
     const stop = STOPS[i]
     let el: Element | null = null
     let cancelled = false
-    if (stop.screen === 'bodymap') setSection('body', stop.anchor.includes('patterns') ? 'patterns' : stop.anchor.includes('hazards') || stop.anchor.includes('radiation') ? 'hazards' : 'tour')
+    if (stop.screen === 'bodymap') setSection('body', stop.anchor.includes('patterns') ? 'patterns' : stop.anchor.includes('hazards') || stop.anchor.includes('radiation') ? 'hazards' : stop.anchor.includes('forecast') ? 'forecast' : 'tour')
     if (stop.screen === 'manual') setSection('log', stop.anchor.includes('bodychecks') ? 'checks' : stop.anchor.includes('rt-') ? 'alertness' : 'readings')
     bridge.go?.(stop.screen as never)
     if (stop.anchor === '#ask-orbit') window.dispatchEvent(new Event('orbit:open'))

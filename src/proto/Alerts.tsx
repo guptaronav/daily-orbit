@@ -58,14 +58,14 @@ export function AlertBanner() {
       <div
         key={pulse}
         role="alert"
-        style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: 10, padding: '10px 14px', borderRadius: 16, background: red ? 'var(--act)' : 'var(--watch)', color: 'var(--paper)', boxShadow: '0 10px 24px -14px rgba(20,24,31,.6)', animation: 'al-pulse 1.4s ease 2' }}
+        className="alert-banner" style={{ display: 'flex', alignItems: 'center', gap: 10, padding: '6px 8px 6px 14px', borderRadius: 14, background: red ? 'var(--act)' : 'var(--watch)', color: 'var(--paper)', boxShadow: '0 10px 24px -14px rgba(20,24,31,.6)', animation: 'al-pulse 1.4s ease 2' }}
       >
         <span aria-hidden="true" style={{ width: 10, height: 10, borderRadius: 99, background: 'var(--paper)', animation: 'ms-twinkle 1.2s ease-in-out infinite' }} />
-        <strong style={{ fontSize: 14.5 }}>
-          {open.length} alert{open.length === 1 ? '' : 's'} waiting for {cmo.activeName || 'the crew medical officer'}
-          {cmo.unwell ? ' (backup medical officer)' : ''}
+        <strong style={{ flex: '0 1 auto', minWidth: 0, fontSize: 14, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
+          {open.length} crew alert{open.length === 1 ? '' : 's'} for the medical officer ({cmo.activeName || 'not set'}
+          {cmo.unwell ? ', backup' : ''})
         </strong>
-        <span style={{ fontSize: 13.5, opacity: 0.9 }}>
+        <span className="alert-banner-detail" style={{ flex: '1 1 0', minWidth: 0, fontSize: 13, opacity: 0.9, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
           {open
             .slice(0, 2)
             .map((a) => `${a.crewName}: ${a.title}`)
@@ -73,7 +73,7 @@ export function AlertBanner() {
           {open.length > 2 ? ` · +${open.length - 2} more` : ''} · oldest {timeAgo(oldest)}
           {worstEsc === 2 ? ' · unanswered over an hour: time to tell Earth' : worstEsc === 1 ? ' · the backup has been asked too' : ''}
         </span>
-        <button type="button" onClick={() => bridge.go?.('medical' as never)} style={{ marginLeft: 'auto', minHeight: 36, padding: '0 14px', borderRadius: 10, border: 0, background: '#fff', color: '#14181f', fontWeight: 750, cursor: 'pointer' }}>
+        <button type="button" onClick={() => bridge.go?.('medical' as never)} style={{ marginLeft: 'auto', flex: '0 0 auto', minHeight: 32, padding: '0 14px', borderRadius: 10, border: 0, background: '#fff', color: '#14181f', fontWeight: 750, cursor: 'pointer' }}>
           Review
         </button>
       </div>
@@ -89,6 +89,7 @@ function AlertRow({ a, history = false }: { a: Alert; history?: boolean }) {
   const [note, setNote] = useState('')
   const tone = a.status === 'red' ? 'var(--act)' : 'var(--watch)'
   const e = D.alertEscalation(a) as { level: number; text: string }
+  const who = D.whoseChange(a) as { who: string; text: string } | null
   const when = a.state === 'open' ? timeAgo(a.firstSeen) : a.state === 'acknowledged' ? `seen ${timeAgo(a.ackAt!)}` : `closed ${timeAgo(a.closedAt!)}`
   const small = { minHeight: 32, padding: '0 11px', borderRadius: 10, fontWeight: 700, fontSize: 13, cursor: 'pointer' } as const
   return (
@@ -102,6 +103,11 @@ function AlertRow({ a, history = false }: { a: Alert; history?: boolean }) {
             {e.level > 0 && (
               <span title={e.text} style={{ padding: '0 7px', borderRadius: 99, fontSize: 11, fontWeight: 750, lineHeight: '17px', background: e.level === 2 ? 'var(--act)' : 'rgba(183,121,31,.16)', color: e.level === 2 ? 'var(--paper)' : 'var(--watch-ink)', whiteSpace: 'nowrap' }}>
                 {e.level === 2 ? 'Tell Earth' : 'Backup asked'}
+              </span>
+            )}
+            {who && who.who !== 'you' && (
+              <span title={who.text} style={{ padding: '0 7px', borderRadius: 99, fontSize: 11, fontWeight: 750, lineHeight: '17px', background: '#14181f', color: '#f3f1ea', whiteSpace: 'nowrap' }}>
+                {who.who === 'sensor' ? 'Check the sensor' : 'Shared by the crew'}
               </span>
             )}
           </span>

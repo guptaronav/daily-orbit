@@ -1,6 +1,7 @@
 import { useEffect } from 'react'
 import * as D from './data'
 import { useStoreTick } from './shared'
+import { MarsSky } from './MarsSky'
 
 /*
  * The ground link, delay and all. Each packet sent from Escalate travels for the real one-way
@@ -40,6 +41,7 @@ export function GroundLinkPanel() {
           {g.env} · {D.formatDelay(g.delay)} each way · a reply takes at least {D.formatDelay(g.delay * 2)}{D.systemsOnline().comms ? ' · via the comms relay' : ''}
         </span>
       </div>
+      <MarsSky />
       <div style={{ display: 'flex', flexWrap: 'wrap', gap: 14 }}>
         <div style={{ flex: '2 1 360px', display: 'grid', gap: 10 }}>
           {g.list.length === 0 && <p style={{ margin: 0, fontSize: 14.5, color: 'rgba(232,238,252,.75)' }}>Nothing sent yet. Hold the transmit button above to send the change summary.</p>}

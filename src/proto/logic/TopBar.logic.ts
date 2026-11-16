@@ -65,9 +65,10 @@ export class TopBarLogic extends DCLogic {
     const deck = s.theme === 'deck'
     return {
       ...base, links, more,  moreColor: moreActive ? 'var(--ink)' : 'var(--muted)', moreBg: open === 'more' || moreActive ? 'var(--panel)' : 'transparent', moreRot: open === 'more' ? 'rotate(180deg)' : 'none',
-      envShort: s.env.id === 'iss' ? 'ISS' : s.env.id === 'lunar' ? 'Moon' : 'Mars', delayText: D.formatDelay(s.delay), envItems, adjustable,
+      envShort: s.env.id === 'iss' ? 'ISS' : s.env.id === 'lunar' ? 'Moon' : s.env.id === 'lunarRover' ? 'Rover' : 'Mars', delayText: D.formatDelay(s.delay), envItems, adjustable,
       delay: s.delay, dMin: s.env.min, dMax: s.env.max, dPct: adjustable ? ((s.delay - s.env.min) / (s.env.max - s.env.min)) * 100 + '%' : '0%',
       dMinText: adjustable ? D.formatDelay(s.env.min) : '', dMaxText: adjustable ? D.formatDelay(s.env.max) : '', setDelay: (e) => D.setState({ delay: Number(e.target.value) }),
+      realText: D.formatDelay(D.MARS_TODAY), offReal: Math.abs(s.delay - D.MARS_TODAY) > 20, useReal: () => D.setState({ delay: D.MARS_TODAY }),
       coins: w.coins.toLocaleString(), streak: g.streak, flameIcon: D.ICONS.flame, walletAria: `${g.streak} day streak, ${w.coins} coins. Open rewards.`,
       bumpKey: this.state.bump, bumpAnim: this.state.bump ? 'chm-bump 520ms cubic-bezier(.34,1.56,.64,1)' : 'none', floatText: this.state.bump ? this.state.float : '',
       crew: s.crew, gear: gr, lvl: lv.n, ring: D.STATUS[D.crewData(s.crew.id).worst].swatch, meAria: `${s.crew.name}, level ${lv.n}. Open profile menu.`,

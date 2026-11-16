@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import { OptionalSlider } from '../../components/OptionalSlider'
-import { btnPrimary } from '../../components/ui'
 
 // Quick-pick list only, no scoring and no thresholds. Reporting any of these earns credit.
 const OPTIONS = [
@@ -41,13 +40,30 @@ export function Symptoms({ onComplete, busy }: { onComplete: (result: SymptomRes
   const submit = () => onComplete({ symptoms: [...picked], gut, ...(note.trim() ? { note: note.trim() } : {}) })
 
   return (
-    <section aria-labelledby="symptoms-heading" className="space-y-4">
-      <h2 id="symptoms-heading" className="text-2xl font-bold tracking-tight">
-        Anything feel off today?
-      </h2>
-      <p className="max-w-xl text-[0.9375rem] leading-relaxed text-muted">Optional. Reporting early is useful and earns credit. Leave it empty if you have nothing to report.</p>
-      <div className="card max-w-xl space-y-3 p-5">
-        <h3 className="font-bold">Gut and nutrition (optional)</h3>
+    <section aria-labelledby="symptoms-heading" className="mc-stack">
+      <div className="mc-stack-sm">
+        <p className="mc-kicker">Step 3 · How you feel · optional</p>
+        <h2 id="symptoms-heading" className="mc-h2">
+          Anything feel off today?
+        </h2>
+        <p className="mc-lead">Reporting early helps the most, and earns the biggest bonus. Nothing to report? Just save.</p>
+      </div>
+      <div className="mc-row" style={{ alignItems: 'stretch' }}>
+        <button onClick={submit} disabled={busy} className="mc-btn">
+          {picked.size || note.trim() ? 'Save and see results' : 'Nothing to report, see results'}
+        </button>
+      </div>
+      <fieldset className="mc-symptoms">
+        <legend className="mc-kicker">Tap any that apply</legend>
+        {OPTIONS.map((label) => (
+          <label key={label} className={picked.has(label) ? 'mc-sym mc-sym-on' : 'mc-sym'}>
+            <input type="checkbox" checked={picked.has(label)} onChange={() => toggle(label)} />
+            <span>{label}</span>
+          </label>
+        ))}
+      </fieldset>
+      <div className="mc-feel" style={{ maxWidth: 640 }}>
+        <p className="mc-kicker">Gut and nutrition · optional</p>
         {GUT.map(({ key, label, hint }) => (
           <OptionalSlider
             key={key}
@@ -58,20 +74,7 @@ export function Symptoms({ onComplete, busy }: { onComplete: (result: SymptomRes
           />
         ))}
       </div>
-      <fieldset className="grid gap-2 sm:grid-cols-2">
-        <legend className="sr-only">Symptoms</legend>
-        {OPTIONS.map((label) => (
-          <label
-            key={label}
-            className="card flex min-h-[52px] cursor-pointer items-center gap-3 px-4 py-2.5"
-            style={picked.has(label) ? { borderColor: 'var(--color-ink)', background: 'var(--color-accent-wash)' } : undefined}
-          >
-            <input type="checkbox" className="h-5 w-5 accent-ink" checked={picked.has(label)} onChange={() => toggle(label)} />
-            <span className="font-medium">{label}</span>
-          </label>
-        ))}
-      </fieldset>
-      <label className="block font-semibold">
+      <label className="block font-semibold" style={{ maxWidth: 640 }}>
         Anything else (optional)
         <textarea
           value={note}
@@ -81,9 +84,11 @@ export function Symptoms({ onComplete, busy }: { onComplete: (result: SymptomRes
           className="field mt-1.5 block"
         />
       </label>
-      <button onClick={submit} disabled={busy} className={btnPrimary}>
-        Save and see results
-      </button>
+      <div className="mc-row">
+        <button onClick={submit} disabled={busy} className="mc-btn">
+          Save and see results
+        </button>
+      </div>
     </section>
   )
 }

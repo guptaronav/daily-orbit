@@ -3,6 +3,7 @@
 // GENERATED from the UI overhaul prototype by dc2jsx.py. Styles are the prototype's, verbatim.
 // Edit the view model that feeds this, not this markup, unless you are re-porting the prototype.
 import { Fragment } from 'react'
+import { SourcesUsed } from './SourcesUsed'
 import { ModelCard } from './ModelCard'
 import { ValidationCard } from './ValidationCard'
 import * as P from './parts'
@@ -195,6 +196,7 @@ export function MetricsView({ v }: { v: any }) {
           <p style={S({ margin: '32px 0 0', maxWidth: '72ch', fontFamily: 'ui-monospace, Menlo, monospace', fontSize: '13px', lineHeight: '1.6', color: 'var(--muted)' })}>
             The same assumptions are written down in NOTES.md so they end up on the limitations slide rather than being quietly forgotten.
           </p>
+          <div style={{ marginTop: 20 }}><SourcesUsed id="metrics" /></div>
         </main>
         <P.SiteFooter dock={true} />
         <P.CrewDock current="Metrics" />

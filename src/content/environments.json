@@ -48,6 +48,27 @@
     ]
   },
   {
+    "id": "lunarRover",
+    "label": "Lunar pressurized rover",
+    "oneWayDelaySec": 1.3,
+    "equipment": [
+      "No NASA page we opened lists medical equipment for the pressurized rover.",
+      "NASA's habitability study of a five-day rover excursion plans a daily planning conference, a private medical conference, crew exercise and sleep inside the cabin"
+    ],
+    "gravity": "Surface gravity on the Moon is one-sixth of Earth's. Crews must readjust their balance and coordination after moving between gravity levels.",
+    "radiation": "On the lunar surface the Moon itself blocks some radiation: surface dose is projected near ISS levels, about 0.5 mSv/day. The rover cabin is the crew's nearest shelter.",
+    "distance": "The Moon is about 384,400 km away. Communication delay close to Earth is almost negligible, but the rover is far from any base while it drives.",
+    "isolation": "The rover carries two astronauts for up to 30 days near the lunar South Pole. NASA's habitability work looks at how the crew lives in the small cabin and at crew fatigue.",
+    "dayLength": "The Moon rotates once every 27 Earth days, the same time it takes to orbit Earth.",
+    "sources": [
+      "https://www.nasa.gov/news-release/nasa-japan-advance-space-cooperation-sign-agreement-for-lunar-rover/",
+      "https://ntrs.nasa.gov/citations/20210021307",
+      "https://www.nasa.gov/wp-content/uploads/2023/10/lsah-newsletter-2023-vol28-issue2.pdf",
+      "https://science.nasa.gov/moon/facts/",
+      "https://www.nasa.gov/hrp/hazard-gravity-fields/"
+    ]
+  },
+  {
     "id": "mars",
     "label": "Mars transit",
     "oneWayDelaySec": 1200,

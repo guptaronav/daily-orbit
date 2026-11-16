@@ -1,4 +1,7 @@
+import { useEffect } from 'react'
 import { INDICATORS } from '../contract/types'
+import { AREAS, areaDatasets, areaSources, usedIn } from '../lib/sourceMap'
+import { takeSourcesAnchor } from '../proto/SourcesUsed'
 import { getContent, isTodo } from '../lib/content'
 import { COVERAGE } from '../lib/dataCoverage'
 import { ENVIRONMENTS } from '../lib/environments'
@@ -16,8 +19,8 @@ const STANDARD_MEASURE_LABEL: Record<string, string> = {
 
 const TEXT_FIELDS = ['canMeasureInSpace', 'whyCheck', 'hazardEffect', 'whenToEscalate', 'prevention', 'recommendedAction'] as const
 
-const section = 'border border-rule bg-panel'
-const heading = 'border-b border-rule px-4 py-3 text-sm font-semibold uppercase tracking-[0.14em] text-muted'
+const section = 'overflow-hidden rounded-[26px] border border-rule bg-panel'
+const heading = 'border-b border-rule px-5 py-3 text-xs font-bold uppercase tracking-[0.08em] text-muted'
 const th = 'px-4 py-2 text-left align-bottom text-xs font-semibold uppercase tracking-[0.08em] text-muted'
 const td = 'px-4 py-3 align-top text-sm'
 const link = 'font-medium text-accent underline underline-offset-4 hover:text-ink'
@@ -48,7 +51,12 @@ function SourceTable({ sources, caption }: { sources: Source[]; caption: string 
                 </a>
                 <span className="mt-1 block text-xs text-muted">{host(s.url)}</span>
               </th>
-              <td className={td}>{s.usedFor}</td>
+              <td className={td}>
+                {s.usedFor}
+                <span className="mt-1 block text-xs text-muted">
+                  Used on: {usedIn(s.id).map((a) => `${a.page} › ${a.title}`).join(' · ')}
+                </span>
+              </td>
             </tr>
           ))}
         </tbody>
@@ -66,13 +74,23 @@ export function Sources() {
     return count > 0 ? [`${content.label} (${count})`] : []
   })
   const equipmentGaps = ENVIRONMENTS.filter((e) => e.equipment.some(isTodo)).map((e) => e.label)
+  // Arrived from a "Sources used here" strip: open at that page's group.
+  useEffect(() => {
+    const id = takeSourcesAnchor()
+    if (!id) return
+    // The tables below the groups grow as they lay out, so aim twice: once smoothly, once to correct.
+    const go = (behavior: ScrollBehavior) => document.getElementById(`src-${id}`)?.scrollIntoView({ behavior, block: 'start' })
+    setTimeout(() => go('smooth'), 400)
+    setTimeout(() => go('auto'), 1300)
+  }, [])
 
   return (
     <main className="mx-auto w-full max-w-6xl space-y-6 px-4 pb-32 pt-8 sm:px-8">
       <header>
-        <h1 className="text-2xl font-semibold tracking-tight">Sources</h1>
-        <p className="mt-2 max-w-3xl text-sm text-muted">
-          Every NASA dataset and page this app is built on, what each one drives, and what we could not use. Anything we could not source shows a placeholder instead of a guess.
+        <p className="m-0 text-sm text-muted">Sources · proof</p>
+        <h1 className="mt-2 text-[clamp(36px,5vw,60px)] font-bold leading-none tracking-[-0.05em]">Where every claim comes from.</h1>
+        <p className="mt-4 max-w-3xl text-[15px] leading-relaxed text-ink-soft">
+          Grouped the way the site is: each page and section, the sources behind it, and what each one backs there. Every section of the app that rests on a source says so above it, with a link back here. Anything we could not source shows a placeholder instead of a guess.
         </p>
         <dl className="mt-5 grid grid-cols-2 gap-4 border-y border-rule py-4 sm:grid-cols-4">
           <Count label="NASA datasets" value={DATASETS.length} />
@@ -81,6 +99,52 @@ export function Sources() {
           <Count label="Indicators" value={INDICATORS.length} />
         </dl>
       </header>
+
+      <nav aria-label="Jump to a page" className="flex flex-wrap gap-2">
+        {AREAS.map((a) => (
+          <a key={a.id} href={`#src-${a.id}`} onClick={(e) => { e.preventDefault(); document.getElementById(`src-${a.id}`)?.scrollIntoView({ behavior: 'smooth', block: 'start' }) }} className="rounded-full border border-rule bg-panel px-3 py-1 text-xs font-semibold text-ink no-underline hover:border-accent">
+            {a.page} › {a.title}
+          </a>
+        ))}
+      </nav>
+
+      <section aria-labelledby="bypage-heading" className="space-y-4">
+        <h2 id="bypage-heading" className="text-xs font-bold uppercase tracking-[0.08em] text-muted">Where each source is used on the site</h2>
+        {AREAS.map((a) => (
+          <article key={a.id} id={`src-${a.id}`} className={`${section} scroll-mt-40`}>
+            <header className="flex flex-wrap items-baseline justify-between gap-2 border-b border-rule px-5 py-3">
+              <h3 className="m-0 text-lg font-bold tracking-tight">
+                <span className="text-muted">{a.page} › </span>
+                {a.title}
+              </h3>
+              <span className="text-xs font-semibold text-muted">
+                {a.sources.length} source{a.sources.length === 1 ? '' : 's'}
+                {a.datasets?.length ? ` · ${a.datasets.length} NASA dataset${a.datasets.length === 1 ? '' : 's'}` : ''}
+              </span>
+            </header>
+            <p className="px-5 pt-3 text-sm text-ink-soft">{a.what}</p>
+            <ul className="divide-y divide-rule px-5 pb-2">
+              {areaDatasets(a).map((d) => (
+                <li key={d.id} className="py-3 text-sm">
+                  <span className="mr-2 rounded-full bg-ink px-2 py-0.5 text-[11px] font-bold uppercase tracking-wide text-paper">NASA data</span>
+                  <a href={d.url} target="_blank" rel="noreferrer" className={link}>{d.title}</a>
+                  <span className="mt-1 block text-muted">{d.usedFor.join(' ')}</span>
+                </li>
+              ))}
+              {areaSources(a).map((src) => (
+                <li key={src.id} className="py-3 text-sm">
+                  {/nasa\.gov\//.test(src.url) && <span className="mr-2 rounded-full border border-rule px-2 py-0.5 text-[11px] font-bold uppercase tracking-wide text-accent">NASA</span>}
+                  <a href={src.url} target="_blank" rel="noreferrer" className={link}>{src.title}</a>
+                  <span className="ml-2 text-xs text-muted">{host(src.url)}</span>
+                  <span className="mt-1 block text-muted">{src.usedFor}</span>
+                </li>
+              ))}
+            </ul>
+          </article>
+        ))}
+      </section>
+
+      <h2 className="pt-4 text-xs font-bold uppercase tracking-[0.08em] text-muted">The full lists</h2>
 
       <section aria-labelledby="datasets-heading" className={section}>
         <h2 id="datasets-heading" className={heading}>

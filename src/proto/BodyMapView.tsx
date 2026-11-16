@@ -3,7 +3,9 @@
 // GENERATED from the UI overhaul prototype by dc2jsx.py. Styles are the prototype's, verbatim.
 // Edit the view model that feeds this, not this markup, unless you are re-porting the prototype.
 import { Fragment, lazy, Suspense } from 'react'
+import { SourcesUsed } from './SourcesUsed'
 import { HazardsPanel } from './HazardsPanel'
+import { MissionForecast } from './MissionForecast'
 import { PatternsPanel } from './PatternsPanel'
 import * as D from './data'
 import * as P from './parts'
@@ -76,15 +78,22 @@ export function BodyMapView({ v }: { v: any }) {
           ) : null}
           <BodyTabs />
           <Section page="body" id="patterns">
+            <SourcesUsed id="body-patterns" />
             <PatternsPanel />
           </Section>
           <Section page="body" id="hazards">
+            <SourcesUsed id="body-hazards" />
             <HazardsPanel />
             <Suspense fallback={null}>
               <Radiation embedded />
             </Suspense>
           </Section>
+          <Section page="body" id="forecast">
+            <SourcesUsed id="body-forecast" />
+            <MissionForecast />
+          </Section>
           <Section page="body" id="tour">
+          <SourcesUsed id="body-tour" />
           <section data-reveal="1" aria-labelledby="tour-heading" style={S({ position: 'relative' })}>
             <div style={S({ display: 'flex', flexWrap: 'wrap', alignItems: 'flex-end', justifyContent: 'space-between', gap: '12px 24px', margin: '18px 0 20px' })}>
               <div>
@@ -438,6 +447,7 @@ export function BodyMapView({ v }: { v: any }) {
           </section>
           </Section>
           <Section page="body" id="readings">
+          <SourcesUsed id="body-tour" />
           <section data-reveal="1" aria-labelledby="region-heading" style={S({ marginTop: '12px', display: 'flex', flexDirection: 'column', gap: '18px' })}>
             <div style={S({ display: 'flex', flexWrap: 'wrap', alignItems: 'flex-end', justifyContent: 'space-between', gap: '16px' })}>
               <div>

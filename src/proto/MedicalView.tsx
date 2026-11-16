@@ -3,6 +3,7 @@
 // GENERATED from the UI overhaul prototype by dc2jsx.py. Styles are the prototype's, verbatim.
 // Edit the view model that feeds this, not this markup, unless you are re-porting the prototype.
 import { Fragment, Suspense } from 'react'
+import { SourcesUsed } from './SourcesUsed'
 import { EscalationSection } from './pages'
 import { AlertsPanel } from './Alerts'
 import { FloatingCrew } from './FloatingCrew'
@@ -57,6 +58,7 @@ export function MedicalView({ v }: { v: any }) {
               <p style={{ margin: 0, fontSize: 14, color: 'rgba(243,241,234,.8)' }}>{v.systemsText}</p>
             </section>
           </div>
+          <SourcesUsed id="crew" />
           <AlertsPanel />
           <ul style={S({ listStyle: 'none', margin: '0', padding: '0', display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(min(100%, 270px), 1fr))', gap: '20px' })}>
             {(v.views ?? []).map((v: any, v_i: number) => (

@@ -1,8 +1,11 @@
 import { useEffect, useState } from 'react'
 import { readiness, type ReadinessLevel } from '../lib/readiness'
+import { SourcesUsed } from './SourcesUsed'
 import { blockState, doneToday, isBlockDone, planFor, toMinutes, type CustomBlock } from '../lib/schedule'
 import { AlertActionCard } from './AlertCare'
 import { openBodyCheck } from './BodyChecks'
+import { isEvening, NightlyOverview } from './NightlyOverview'
+import { FocusPlan } from './FocusPlan'
 import * as D from './data'
 import { openEscalation } from './EscalationAdvice'
 import * as P from './parts'
@@ -24,10 +27,10 @@ import { bridge, getSnapshot } from './store'
  */
 
 const LEVEL: Record<ReadinessLevel, { bg: string; ink: string; ring: string; line: string }> = {
-  ready: { bg: 'rgba(47,125,79,.1)', ink: 'var(--ok-ink)', ring: 'var(--ok)', line: 'Fine for demanding work today.' },
-  check: { bg: 'rgba(183,121,31,.12)', ink: 'var(--watch-ink)', ring: 'var(--watch)', line: 'Take a closer look before demanding work.' },
-  notToday: { bg: 'rgba(179,38,30,.1)', ink: 'var(--act-ink)', ring: 'var(--act)', line: 'Talk to your crew medical officer before demanding work.' },
-  unknown: { bg: 'var(--paper-deep)', ink: 'var(--nodata-ink)', ring: 'var(--nodata)', line: 'Do a mirror check to build your baseline.' },
+  ready: { bg: 'rgba(47,125,79,.1)', ink: 'var(--ok-ink)', ring: 'var(--ok)', line: 'Go for demanding work today, EVA included.' },
+  check: { bg: 'rgba(183,121,31,.12)', ink: 'var(--watch-ink)', ring: 'var(--watch)', line: 'Routine work is fine. Look at the reasons before EVA or other demanding work.' },
+  notToday: { bg: 'rgba(179,38,30,.1)', ink: 'var(--act-ink)', ring: 'var(--act)', line: 'No EVA or demanding work until your crew medical officer has looked.' },
+  unknown: { bg: 'var(--paper-deep)', ink: 'var(--nodata-ink)', ring: 'var(--nodata)', line: 'Do a mirror check to build your baseline, then the app can make a call.' },
 }
 const TONE: Record<string, string> = { gray: 'var(--rule-strong)', green: 'var(--ok)', yellow: 'var(--watch)', red: 'var(--act)' }
 const WORD: Record<string, string> = { gray: 'No data', green: 'Within usual', yellow: 'Watch', red: 'Act' }
@@ -129,7 +132,7 @@ export function TodayPage() {
             <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: 16, padding: '18px 20px', borderRadius: 24, background: 'var(--accent)', color: 'var(--on-accent)' }}>
               <div style={{ flex: '1 1 260px', display: 'grid', gap: 4 }}>
                 <p style={{ ...kicker, color: '#f6c445' }}>Up next · your daily mirror check</p>
-                <strong style={{ fontSize: 'clamp(19px, 2.2vw, 24px)', letterSpacing: '-0.02em', lineHeight: 1.2 }}>About a minute. Do it now, before the day starts.</strong>
+                <strong style={{ fontSize: 'clamp(19px, 2.2vw, 24px)', letterSpacing: '-0.02em', lineHeight: 1.2 }}>{now.getHours() < 12 ? 'About a minute. Do it now, before the day starts.' : now.getHours() < 18 ? 'About a minute. Do it now, between tasks.' : 'About a minute. Do it before the day ends.'}</strong>
                 <span style={{ fontSize: 14, opacity: 0.85 }}>
                   Camera pulse, two vision checks, how you feel · +{checkIn.points} coins{streak > 0 ? ` · keeps your ${streak}-day streak` : ''}
                 </span>
@@ -165,16 +168,29 @@ export function TodayPage() {
             </div>
           )}
 
-          <div role="status" style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: 10, padding: '10px 12px', borderRadius: 18, background: lv.bg, border: `1.5px solid ${lv.ring}` }}>
-            <span style={{ padding: '6px 14px', borderRadius: 12, background: lv.ring, color: 'var(--paper)', fontWeight: 800, fontSize: 15 }}>{rd.label}</span>
-            <strong style={{ flex: '1 1 220px', color: lv.ink, fontSize: 14.5 }}>{lv.line}</strong>
-            <button type="button" aria-expanded={why} onClick={() => setWhy((w) => !w)} style={{ border: 0, background: 'transparent', color: 'var(--accent)', fontWeight: 700, fontSize: 13.5, cursor: 'pointer', textDecoration: 'underline' }}>
-              {why ? 'Hide why' : 'Why?'}
-            </button>
+          <div role="status" aria-label={`Today's call: ${rd.label}`} style={{ display: 'grid', gap: 10, padding: '14px 16px', borderRadius: 22, background: lv.bg, border: `1.5px solid ${lv.ring}` }}>
+            <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: '8px 14px' }}>
+              <span style={{ fontSize: 12, fontWeight: 750, letterSpacing: '.08em', textTransform: 'uppercase', color: lv.ink }}>Today's call</span>
+              <span style={{ padding: '5px 16px', borderRadius: 999, background: lv.ring, color: 'var(--paper)', fontWeight: 850, fontSize: 'clamp(17px, 1.8vw, 21px)', letterSpacing: '.02em', textTransform: 'uppercase', boxShadow: `0 0 0 4px ${lv.bg}` }}>{rd.label}</span>
+              <strong style={{ flex: '1 1 240px', color: lv.ink, fontSize: 14.5, lineHeight: 1.4 }}>{lv.line}</strong>
+              <button type="button" aria-expanded={why} onClick={() => setWhy((w) => !w)} style={{ border: 0, background: 'transparent', color: 'var(--accent)', fontWeight: 700, fontSize: 13.5, cursor: 'pointer', textDecoration: 'underline' }}>
+                {why ? 'Hide checks' : 'See the checks'}
+              </button>
+            </div>
             {why && (
-              <span style={{ flex: '1 1 100%', fontSize: 13.5, color: 'var(--ink-soft)' }}>
-                {rd.reasons.slice(0, 3).join('; ')}. Readiness is a prompt from your own readings, not a medical clearance.
-              </span>
+              <div style={{ display: 'grid', gap: 8 }}>
+                <ul style={{ listStyle: 'none', margin: 0, padding: 0, display: 'flex', flexWrap: 'wrap', gap: 6 }}>
+                  {regions.map((r) => (
+                    <li key={r.id} style={{ display: 'inline-flex', alignItems: 'center', gap: 6, padding: '4px 10px', borderRadius: 999, background: 'var(--panel)', border: '1px solid var(--rule)', fontSize: 12.5, fontWeight: 650 }}>
+                      <span aria-hidden="true" style={{ width: 8, height: 8, borderRadius: 99, background: TONE[r.status] }} />
+                      {r.label} <span style={{ color: 'var(--muted)', fontWeight: 600 }}>{WORD[r.status]}</span>
+                    </li>
+                  ))}
+                </ul>
+                <span style={{ fontSize: 13.5, color: 'var(--ink-soft)' }}>
+                  {rd.reasons.slice(0, 3).join('; ')}. The call comes from your own readings, patterns and open alerts. It is a prompt, not a medical clearance.
+                </span>
+              </div>
             )}
           </div>
         </div>
@@ -203,6 +219,12 @@ export function TodayPage() {
           </div>
         </div>
       </section>
+
+      {/* What to work on today, from this person's own readings, with follow-through */}
+      <FocusPlan />
+
+      {/* In the evening: the day in one card, and how tomorrow starts */}
+      {isEvening(now) && <NightlyOverview crewId={crew.id} role={crew.role || ''} call={{ label: rd.label, color: rd.level === 'ready' ? '#7ef0c5' : rd.level === 'check' ? '#f6c445' : rd.level === 'notToday' ? '#ff8a80' : '#c7ccd6' }} />}
 
       {/* 2. Today's goals, and the day */}
       <section style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 340px), 1fr))', gap: 16, alignItems: 'start' }}>
@@ -316,6 +338,12 @@ export function TodayPage() {
           </button>
         )}
       </section>
+      <button type="button" onClick={() => go('metrics')} className="proof-line">
+        <span className="proof-k">Tested on real NASA data</span>
+        <span>One NASA bed-rest participant, replayed day by day: the flags held their real weight loss at Act on <strong>12 of 18 days</strong>, with no extra false alarms.</span>
+        <span aria-hidden="true">→</span>
+      </button>
+      <SourcesUsed id="today" />
     </main>
   )
 }

@@ -1,4 +1,5 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useState, type ReactNode } from 'react'
+import { marsLink } from '../lib/orbit'
 import type { CrewMember } from '../contract/types'
 import { ensureSeeded, listCrew, resetAndReseed } from '../db/repo'
 import { ENVIRONMENTS, type EnvId, type Environment } from '../lib/environments'
@@ -96,7 +97,8 @@ export function AppProvider({ children }: { children: ReactNode }) {
         setEnvId(id)
         setDelayOverride(null)
       },
-      delaySec: delayOverride ?? environment.oneWayDelaySec,
+      // On a Mars mission the delay is today's real light time (JPL planet positions) unless moved.
+      delaySec: delayOverride ?? (environment.id === 'mars' || environment.id === 'marsSurface' ? Math.round(marsLink(new Date()).delaySec) : environment.oneWayDelaySec),
       setDelaySec: setDelayOverride,
       screen,
       go,
