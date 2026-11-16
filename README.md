@@ -38,7 +38,9 @@ Daily Orbit is a one-minute daily health check for astronauts on long missions. 
 
 **Proof on every page.** Every section that rests on a source has a *Sources used here* strip above it, with the links and a jump to the Sources page, which is grouped the same way as the site (a test checks that every one of the 87 sources is used somewhere).
 
-**Always know what's next.** Hover or tap the dock's goal button for today's list with a button for each, and from 6 pm Today opens with a wrap-up: what got done, what's still open, and how tomorrow starts. No webcam? *Use sample recording* runs the real analysis on a recorded check.
+**It tells you what to work on, and checks it worked.** Today and the end of every check show *Your focus today*: up to three things, each with why (your number against your usual), what to do (sourced), a button that takes you there, and *I did it*. The next time that reading is taken, the plan says whether it moved toward your usual.
+
+**Always know what's next.** Hover or tap the dock's goal button for today's list with a button for each, and from 6 pm Today opens with a wrap-up: what got done, what's still open, and how tomorrow starts. No webcam, or judging? *Run the demo recording* plays a team member's recorded check at 3x for about 6 seconds and fills in that crew member's usual values (saved as simulated), and the vision tests have a *Skip* that fills a normal result in the demo (on a real check, a skip records nothing).
 
 **Try it fast (judges):** press **J** or click *Open judge mode* on the landing page. One click runs a story and shows where it lands: a fever, a cabin CO2 build-up, "says fine, measures tired", a faulty blood-pressure cuff, a crew-wide bad night, a real solar storm, and the Mars link. Or take the guided tour from the landing page.
 

@@ -61,7 +61,7 @@ export function ManualView({ v }: { v: any }) {
           <Section page="log" id="readings">
           <SourcesUsed id="log-readings" />
           <div style={S({ display: 'flex', flexWrap: 'wrap', alignItems: 'flex-start', gap: '24px' })}>
-            <div style={S({ flex: '999 1 640px', display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(min(100%, 320px), 1fr))', gap: '18px' })}>
+            <div className="log-grid" style={S({ flex: '999 1 640px', display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(min(100%, 280px), 1fr))', gap: '14px', alignItems: 'start' })}>
               {(v.forms ?? []).map((f: any, f_i: number) => (
                   <Fragment key={f_i}>
                 <form onSubmit={f.submit} onFocus={f.focus} aria-label={f.title} style={S({ position: 'relative', display: 'flex', flexDirection: 'column', borderRadius: '26px', background: 'var(--panel)', border: `2px solid ${f.border}`, transform: f.lift, animation: `lg-rise 560ms ${f.delay} cubic-bezier(.22,1,.36,1) both${f.anim}`, transition: 'border-color 200ms ease, transform 300ms cubic-bezier(.34,1.56,.64,1)' })}>

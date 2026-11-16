@@ -5,6 +5,7 @@ import { blockState, doneToday, isBlockDone, planFor, toMinutes, type CustomBloc
 import { AlertActionCard } from './AlertCare'
 import { openBodyCheck } from './BodyChecks'
 import { isEvening, NightlyOverview } from './NightlyOverview'
+import { FocusPlan } from './FocusPlan'
 import * as D from './data'
 import { openEscalation } from './EscalationAdvice'
 import * as P from './parts'
@@ -218,6 +219,9 @@ export function TodayPage() {
           </div>
         </div>
       </section>
+
+      {/* What to work on today, from this person's own readings, with follow-through */}
+      <FocusPlan />
 
       {/* In the evening: the day in one card, and how tomorrow starts */}
       {isEvening(now) && <NightlyOverview crewId={crew.id} role={crew.role || ''} call={{ label: rd.label, color: rd.level === 'ready' ? '#7ef0c5' : rd.level === 'check' ? '#f6c445' : rd.level === 'notToday' ? '#ff8a80' : '#c7ccd6' }} />}

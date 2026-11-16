@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { StatusDot } from '../../components/StatusDot'
-import { btnPrimary, btnSecondary } from '../../components/ui'
+import { FocusPlan } from '../../proto/FocusPlan'
 import type { GameEventKind, Indicator, Measurement } from '../../contract/types'
 import { listMeasurements } from '../../db/repo'
 import { BASELINE_MIN_SAMPLES } from '../../lib/baseline'
@@ -23,12 +23,13 @@ type Props = {
   trace?: CaptureTrace | null
   onRetake: () => void
   onDone: () => void
+  onToday?: () => void
 }
 
 // Shown in this order; only indicators that were actually measured this session appear.
 const ORDER: Indicator[] = ['heartRate', 'blinkRate', 'eyelidClosure', 'sleepHours', 'sleepQuality', 'mood', 'stress', 'appetite', 'digestiveComfort', 'amslerDistortion', 'nearAcuity', 'symptomReport']
 
-export function Summary({ crewId, sessionId, earned, alreadyCounted, diagnostics, trace, onRetake, onDone }: Props) {
+export function Summary({ crewId, sessionId, earned, alreadyCounted, diagnostics, trace, onRetake, onDone, onToday }: Props) {
   const [all, setAll] = useState<Measurement[] | null>(null)
   const [copied, setCopied] = useState<'idle' | 'ok' | 'failed'>('idle')
 
@@ -49,7 +50,7 @@ export function Summary({ crewId, sessionId, earned, alreadyCounted, diagnostics
     }
   }, [crewId])
 
-  if (all === null) return <p className="text-muted">Loading results…</p>
+  if (all === null) return <p className="mc-status">Loading results…</p>
 
   const mine = ORDER.flatMap((indicator) => {
     const m = all.find((x) => x.sessionId === sessionId && x.indicator === indicator)
@@ -57,73 +58,86 @@ export function Summary({ crewId, sessionId, earned, alreadyCounted, diagnostics
   })
   const anyFailed = mine.some(({ m }) => !m.quality.passed)
 
+  const passed = mine.filter(({ m }) => m.quality.passed)
+  const statuses = passed.map(({ indicator }) => readIndicator(indicator, all).status)
+  const away = statuses.filter((x) => x === 'yellow' || x === 'red').length
+  const demo = mine.some(({ m }) => m.source === 'simulated')
+  const verdict = away > 0 ? `${away} reading${away === 1 ? '' : 's'} away from your usual` : passed.length ? 'Everything with enough history is within your usual' : 'Saved'
+
   return (
-    <section aria-labelledby="summary-heading" className="space-y-5">
-      <h2 id="summary-heading" className="text-2xl font-bold tracking-tight">
-        Check-in complete
-      </h2>
-      <ul className="divide-y divide-rule border-y border-rule">
+    <section aria-labelledby="summary-heading" className="mc-stack">
+      <div className="mc-stack-sm">
+        <p className="mc-kicker">Step 4 · Result</p>
+        <h2 id="summary-heading" className="mc-h2">
+          Check-in complete. {verdict}.
+        </h2>
+        {demo && <p className="mc-note">Demo run: the camera readings are this crew member's usual values, filled in so the whole check takes a minute. They are saved as simulated, never as a real measurement.</p>}
+      </div>
+
+      <ul className="mc-tiles">
         {mine.map(({ indicator, m }) => {
           const label = getContent(indicator).label
           if (!m.quality.passed) {
             // A weak-signal heart rate keeps its best guess, shown as an estimate: gray, never colored, never baselined.
             const estimate = indicator === 'heartRate' && m.quality.reason === 'lowSignal' && typeof m.value === 'number' && m.value > 0 ? m.value : null
             return (
-              <li key={indicator} className="py-3">
-                <div className="flex flex-wrap items-baseline justify-between gap-2">
-                  <span>
-                    <span className="font-semibold">{label}</span>
-                    {estimate !== null && <span className="ml-3">about <strong>{estimate} bpm</strong></span>}
-                  </span>
-                  <StatusDot status="gray" label={estimate !== null ? 'Estimate only, low confidence' : "Couldn't get a clean reading"} />
-                </div>
-                {estimate !== null && (
-                  <p className="mt-1 text-sm">
-                    This is our best guess, not a clean reading, so it is not colored and not used for your baseline. Estimates like this are usually close; check against another device if it matters.
-                  </p>
-                )}
-                <p className="mt-1 text-sm text-muted">{retakeAdvice(m.quality.reason, indicator)}</p>
+              <li key={indicator} className="mc-tile" style={{ borderLeftColor: 'var(--rule-strong)' }}>
+                <span className="mc-tile-k">{label}</span>
+                <strong className="mc-tile-v">{estimate !== null ? `about ${estimate} bpm` : 'No clean reading'}</strong>
+                <StatusDot status="gray" label={estimate !== null ? 'Estimate only' : "Couldn't get a clean reading"} />
+                <span className="mc-tile-note">{retakeAdvice(m.quality.reason, indicator)}</span>
               </li>
             )
           }
           const reading = readIndicator(indicator, all)
           // With too little history there is nothing honest to compare against yet.
           const building = reading.status === 'gray' && reading.baseline === null && typeof m.value === 'number'
-          const label2 = building ? `Building your baseline (${reading.priorCount} of ${BASELINE_MIN_SAMPLES} earlier readings)` : undefined
+          const label2 = building ? `Building your baseline (${reading.priorCount} of ${BASELINE_MIN_SAMPLES})` : undefined
+          const tone = reading.status === 'red' ? 'var(--act)' : reading.status === 'yellow' ? 'var(--watch)' : reading.status === 'green' ? 'var(--ok)' : 'var(--rule-strong)'
           return (
-            <li key={indicator} className="flex flex-wrap items-baseline justify-between gap-2 py-3">
-              <span>
-                <span className="font-semibold">{label}</span>
-                <span className="ml-3 text-muted">{formatValue(m)}</span>
-              </span>
+            <li key={indicator} className="mc-tile" style={{ borderLeftColor: tone }}>
+              <span className="mc-tile-k">{label}</span>
+              <strong className="mc-tile-v">{formatValue(m)}</strong>
               <StatusDot status={reading.status} label={label2} />
             </li>
           )
         })}
       </ul>
-      <p className="max-w-xl text-[0.9375rem] leading-relaxed text-muted">Colors compare each reading with your own baseline. A reading we could not trust is never colored.</p>
-      <section aria-labelledby="credit-heading" className="max-w-xl border-l-4 border-accent bg-panel p-4">
-        <h3 id="credit-heading" className="font-bold">
-          Credit earned: {pointsFor(earned.map((kind) => ({ kind })))} coins
-        </h3>
-        <ul className="mt-2 text-sm">
-          {earned.map((kind) => (
-            <li key={kind} className="flex justify-between gap-4">
-              <span>{EVENT_LABEL[kind]}</span>
-              <span className="font-semibold">+{POINTS[kind]}</span>
-            </li>
-          ))}
-        </ul>
-        {alreadyCounted.length > 0 && (
-          <p className="mt-2 text-sm text-muted">
-            Already counted today, so no new credit: {alreadyCounted.map((k) => EVENT_LABEL[k].toLowerCase()).join(', ')}. Each kind of credit counts once a day.
-          </p>
+      <p className="mc-kicker" style={{ textTransform: 'none', letterSpacing: 0, fontWeight: 600 }}>Colors compare each reading with your own baseline. A reading we could not trust is never colored.</p>
+
+      <FocusPlan compact />
+
+      <div className="mc-credit">
+        <strong>+{pointsFor(earned.map((kind) => ({ kind })))} coins</strong>
+        <span>
+          {earned.map((kind) => `${EVENT_LABEL[kind]} +${POINTS[kind]}`).join(' · ') || 'Nothing new today'}
+          {alreadyCounted.length > 0 ? ` · already counted today: ${alreadyCounted.map((k) => EVENT_LABEL[k].toLowerCase()).join(', ')}` : ''}
+        </span>
+        <span className="mc-wait">Coins pay for doing the check, never for the numbers.</span>
+      </div>
+
+      {anyFailed && (
+        <p className="mc-note">
+          <strong>Gray isn't a failure.</strong> The light, the angle or a movement got in the way, so we didn't guess. A retake earns +{POINTS.retakeAfterQualityFail} coins.
+        </p>
+      )}
+      <div className="mc-row">
+        <button onClick={onToday ?? onDone} className="mc-btn">
+          Back to Today
+        </button>
+        <button onClick={onDone} className="mc-btn2">
+          See body map
+        </button>
+        {anyFailed && (
+          <button onClick={onRetake} className="mc-gold">
+            Retake (+{POINTS.retakeAfterQualityFail} coins)
+          </button>
         )}
-        <p className="mt-2 text-sm text-muted">Coins come from what you did, not from your readings. A hard day earns exactly what an easy one does.</p>
-      </section>
-      {diagnostics && (
-        <details className="max-w-xl card p-4 text-sm">
-          <summary className="cursor-pointer font-medium">Measurement details</summary>
+      </div>
+
+      {diagnostics && !demo && (
+        <details className="mc-note">
+          <summary style={{ cursor: 'pointer', fontWeight: 650 }}>Measurement details</summary>
           <dl className="mt-3 grid grid-cols-[1fr_auto] gap-x-6 gap-y-1">
             <dt className="text-muted">Footage analyzed</dt>
             <dd>{diagnostics.seconds.toFixed(1)} s, {diagnostics.frames} frames at {diagnostics.fps.toFixed(1)} fps</dd>
@@ -140,7 +154,7 @@ export function Summary({ crewId, sessionId, earned, alreadyCounted, diagnostics
           </dl>
           {trace && (
             <div className="mt-3 border-t border-rule pt-3">
-              <button onClick={() => void copyCapture()} className="btn-quiet">
+              <button onClick={() => void copyCapture()} className="mc-link">
                 Copy capture data
               </button>
               <span role="status" className="ml-3 text-sm text-muted">
@@ -150,21 +164,6 @@ export function Summary({ crewId, sessionId, earned, alreadyCounted, diagnostics
           )}
         </details>
       )}
-      {anyFailed && (
-        <p className="border-l-4 border-accent pl-3 text-sm">
-          <strong>Gray isn't a failure.</strong> It means the light, the angle or a movement got in the way, so we didn't guess. A retake earns +{POINTS.retakeAfterQualityFail} coins.
-        </p>
-      )}
-      <div className="flex flex-wrap gap-3">
-        <button onClick={onDone} className={btnPrimary}>
-          See body map
-        </button>
-        {anyFailed && (
-          <button onClick={onRetake} className={btnSecondary}>
-            Retake (+{POINTS.retakeAfterQualityFail} coins)
-          </button>
-        )}
-      </div>
     </section>
   )
 }

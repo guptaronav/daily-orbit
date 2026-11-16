@@ -122,7 +122,13 @@ export function CrewDockView({ v }: { v: any }) {
         {(v.collapsed) ? (
           <>
           <div style={S({ display: 'flex', alignItems: 'center', gap: '8px', padding: '6px', background: 'color-mix(in srgb, var(--panel) 90%, transparent)', backdropFilter: 'blur(16px)', WebkitBackdropFilter: 'blur(16px)', border: '1px solid var(--rule-strong)', borderRadius: '999px', boxShadow: '0 16px 40px -20px rgba(20,24,31,.45)' })}>
-            <P.Avatar crew={v.activeCrew} gear={v.activeGear} size={36} ring="var(--accent)" />
+            <span role="group" aria-label="Act as a crew member" style={S({ display: 'flex', alignItems: 'center', gap: '2px' })}>
+              {(v.crew ?? []).map((c: any) => (
+                <button key={c.crew.id} type="button" onClick={c.pick} aria-pressed={c.active} aria-label={c.aria} title={c.crew.name} className="dock-mini-crew" style={S({ opacity: c.active === 'true' ? '1' : '.55' })}>
+                  <P.Avatar crew={c.crew} gear={c.gear} size={c.active === 'true' ? 36 : 28} ring={c.active === 'true' ? 'var(--accent)' : c.ring} />
+                </button>
+              ))}
+            </span>
             <button type="button" onClick={v.checkIn} style={S({ display: 'inline-flex', alignItems: 'center', gap: '8px', minHeight: '40px', padding: '0 16px', borderRadius: '999px', background: 'var(--ink)', color: 'var(--paper)', border: '0', fontSize: '14px', fontWeight: '600', cursor: 'pointer', whiteSpace: 'nowrap' })}>
               {v.checkLabel}
             </button>

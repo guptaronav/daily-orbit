@@ -1808,3 +1808,79 @@ export function whoseChange(a) {
   }
   return { who: 'you', text: 'The rest of the crew are within their usual and the measurement looks sound, so treat this change as yours.' }
 }
+
+/* ---- Focus plan: what to work on today, and whether it worked ------------------------------- */
+/**
+ * The app's answer to "so what should I do?": up to three things to work on today, most serious
+ * first. Each says why (your number against your usual), what to do (from the indicator's sourced
+ * recommended action, or a pattern's care plan), where to do it, and the source. "I did it" saves
+ * the reading's value at that moment; the next time the reading is taken, the plan says whether
+ * it moved toward your usual. Nothing here is invented: the actions are the sourced text.
+ */
+const FOCUS_KEY = 'chm-focus'
+const LOG_INDS = new Set(['bloodPressureSys', 'bloodPressureDia', 'temperature', 'bloodSugar', 'bodyMass', 'sleepHours', 'exerciseMinutes', 'reactionTime', ...BODY_CHECKS])
+function focusStore() {
+  try { return JSON.parse(localStorage.getItem(FOCUS_KEY) || '{}') } catch { return {} }
+}
+const fmtV = (r, v) => `${Math.round(v * 10 ** r.dp) / 10 ** r.dp}${r.unit ? ' ' + r.unit : ''}`
+export function focusPlan(crewId) {
+  const rd = crewData(crewId).readings
+  const done = (focusStore()[crewId] || {})[todayKey()] || {}
+  const items = []
+  // 1. Readings away from your usual, red first.
+  const away = Object.values(rd).filter((r) => (r.status === 'red' || r.status === 'yellow') && r.latest && r.baseline && typeof r.latest.v === 'number')
+    .sort((a, b) => STATUS[b.status].sev - STATUS[a.status].sev || Math.abs(b.z || 0) - Math.abs(a.z || 0))
+  for (const r of away) {
+    const c = getContent(r.id)
+    const action = okT(c.recommendedAction)
+    if (!action) continue
+    const up = r.latest.v > r.baseline.mean
+    items.push({
+      key: 'r:' + r.id, kind: 'reading', ind: r.id, status: r.status,
+      title: `${r.label} is ${up ? 'above' : 'below'} your usual`,
+      why: `Latest ${fmtV(r, r.latest.v)}, your usual is about ${fmtV(r, r.baseline.mean)}.`,
+      action, go: LOG_INDS.has(r.id) ? 'manual' : 'mirror', goLabel: 'Re-check it', source: sourceFor(r.id, 'recommendedAction'),
+    })
+  }
+  // 2. Patterns, with the first step of their care plan.
+  for (const p of patterns(crewId)) {
+    if (!p.care.now.length || items.some((x) => p.parts.some((q) => x.ind === q.id))) continue
+    items.push({ key: 'p:' + p.id, kind: 'pattern', status: p.status, title: p.title, why: `${p.parts.map((q) => q.label).join(' + ')} moved together.`, action: p.care.now[0], go: 'bodymap', goLabel: 'Care plan', source: p.riskUrl || HRP_RISKS })
+  }
+  // 3. The basics NASA builds a crew day around, when nothing above fills the list.
+  const ex = rd.exerciseMinutes
+  const week = (ex?.history || []).filter((h) => h.passed && Date.now() - h.t < 7 * DAY).reduce((a, h) => a + h.v, 0)
+  if (week / 7 < 60) items.push({ key: 'b:exercise', kind: 'basic', status: 'gray', title: 'Move more this week', why: `About ${Math.round(week / 7)} min a day over the last week; ISS crews exercise about two hours a day against bone and muscle loss.`, action: 'Fit in a resistance or cycling session today and log it.', go: 'manual', goLabel: 'Log exercise', source: 'https://www.nasa.gov/missions/station/iss-research/astronaut-exercise/' })
+  const w = intake(crewId)
+  if (w.water < w.goal && new Date().getHours() >= 12) items.push({ key: 'b:water', kind: 'basic', status: 'gray', title: 'Drink to your fluid goal', why: `${w.water.toFixed(1)} of ${w.goal.toFixed(1)} L so far today.`, action: 'Crews tend to drink too little in space. Take a pouch with each meal and log it.', go: 'manual', goLabel: 'Log water', source: 'https://ntrs.nasa.gov/api/citations/20205008306/downloads/JSC67378%20Expl%20Nutr%20Reqs%20042020.pdf' })
+  const sl = rd.sleepHours
+  if (sl?.latest && sl.latest.v < 7 && !items.some((x) => x.ind === 'sleepHours')) items.push({ key: 'b:sleep', kind: 'basic', status: 'gray', title: 'Protect tonight’s sleep', why: `${sl.latest.v} h last night; NASA plans an 8.5-hour sleep period.`, action: okT(getContent('sleepHours').recommendedAction) || 'Keep to the planned sleep period tonight.', go: 'schedule', goLabel: 'Schedule', source: 'https://www.nasa.gov/reference/6-0-medical-operations/' })
+  return items.slice(0, 3).map((x) => ({ ...x, done: !!done[x.key] }))
+}
+/** "I did it": remember the reading's value now, so tomorrow can say whether it moved. */
+export function markFocus(crewId, item) {
+  const s = focusStore()
+  const day = todayKey()
+  const r = item.ind ? crewData(crewId).readings[item.ind] : null
+  s[crewId] = s[crewId] || {}
+  s[crewId][day] = { ...(s[crewId][day] || {}), [item.key]: { at: Date.now(), v: r?.latest?.v ?? null, title: item.title, ind: item.ind || null } }
+  try { localStorage.setItem(FOCUS_KEY, JSON.stringify(s)) } catch {}
+  notify()
+}
+/** Follow-up on earlier days' "I did it" items whose reading has been taken again since. */
+export function focusFollowUps(crewId) {
+  const s = focusStore()[crewId] || {}
+  const out = []
+  for (const [day, items] of Object.entries(s)) {
+    if (day === todayKey()) continue
+    for (const [key, x] of Object.entries(items)) {
+      if (!x.ind || x.v == null) continue
+      const r = crewData(crewId).readings[x.ind]
+      if (!r?.latest || r.latest.t <= x.at || !r.baseline) continue
+      const before = Math.abs(x.v - r.baseline.mean), after = Math.abs(r.latest.v - r.baseline.mean)
+      const verdict = after < before * 0.85 ? 'better' : after > before * 1.15 ? 'worse' : 'same'
+      out.push({ key: day + key, label: r.label, day, before: fmtV(r, x.v), after: fmtV(r, r.latest.v), verdict })
+    }
+  }
+  return out.slice(-3)
+}

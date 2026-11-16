@@ -5,10 +5,11 @@ import { getFaceLandmarker } from '../../camera/faceLandmarker'
 import { createFrameAnalyzer, onEachFrame } from '../../camera/frames'
 import { useVideoSource, type VideoError, type VideoMode } from '../../camera/useVideoSource'
 import { OptionalSlider } from '../../components/OptionalSlider'
-import { btnPrimary, btnSecondary, linkBtn } from '../../components/ui'
 import { analyzeCapture, type CaptureAnalysis } from '../../lib/signal/analyze'
 import { positionChecks, type PositionChecks } from '../../lib/signal/position'
 import { motionScore, type Pt } from '../../lib/signal/quality'
+import * as D from '../../proto/data'
+import { DEMO_PLAYBACK_RATE, DEMO_SECONDS, demoValues } from './demo'
 
 /** Length of the pulse capture. Long enough for a stable spectrum, short enough to tolerate. */
 const CAPTURE_SECONDS = 40
@@ -36,9 +37,9 @@ const SLIDERS: { key: 'sleepQuality' | 'mood' | 'stress'; label: string }[] = [
 
 function CheckRow({ label, ok, text }: { label: string; ok: boolean; text: string }) {
   return (
-    <li className="flex items-center justify-between gap-4 border-b border-rule py-2 text-sm">
+    <li>
       <span>{label}</span>
-      <span className={ok ? 'font-medium text-ok-ink' : 'text-muted'}>{text}</span>
+      <span className={ok ? 'mc-ok' : 'mc-wait'}>{text}</span>
     </li>
   )
 }
@@ -67,6 +68,11 @@ export function CameraCheck({ onComplete }: { onComplete: (result: CameraResult)
 
   function choose(next: VideoMode) {
     setMode(next)
+    // The demo run fills the how-you-feel sliders with this person's usual answers (they can still move them).
+    if (next === 'sample') {
+      const d = demoValues(D.getState().crew.id as string)
+      setReport({ sleepQuality: d.sleepQuality, mood: d.mood, stress: d.stress, sleepHours: d.sleepHours })
+    }
     setPhase('position')
     setModelError(false)
     getFaceLandmarker().then(setLandmarker, () => setModelError(true))
@@ -105,11 +111,12 @@ export function CameraCheck({ onComplete }: { onComplete: (result: CameraResult)
   async function start() {
     const video = videoRef.current
     if (!video || !landmarker || !mode) return
-    // The sample recording is about 35 s; capture its length once, never past its end.
-    const seconds = mode === 'sample' ? (Number.isFinite(video.duration) && video.duration > 10 ? Math.min(CAPTURE_SECONDS, Math.floor(video.duration) - 1) : 34) : CAPTURE_SECONDS
+    // The demo run plays the sample at 3x for a few seconds, then fills in a normal reading.
+    const seconds = mode === 'sample' ? DEMO_SECONDS : CAPTURE_SECONDS
     if (mode === 'sample') {
-      video.loop = false
+      video.loop = true
       video.currentTime = 0
+      video.playbackRate = DEMO_PLAYBACK_RATE
       await video.play()
     }
     setProgress(0)
@@ -126,7 +133,15 @@ export function CameraCheck({ onComplete }: { onComplete: (result: CameraResult)
           setFaceNow(p.faceFound)
         },
       })
-      onComplete({ analysis: analyzeCapture(assembled), selfReport: reportRef.current, source: mode === 'camera' ? 'camera' : 'simulated' })
+      const analysis = analyzeCapture(assembled)
+      if (mode === 'sample') {
+        // A screen recording played fast is no pulse signal: use this person's usual values, stored as simulated.
+        const d = demoValues(D.getState().crew.id as string)
+        const ok = { score: 1, passed: true }
+        analysis.heartRate = { ...analysis.heartRate, bpm: d.heartRate, estimateBpm: d.heartRate, candidateBpm: d.heartRate, quality: ok }
+        analysis.blink = { blinkRate: d.blinkRate, eyelidClosurePct: d.eyelidClosure, quality: ok }
+      }
+      onComplete({ analysis, selfReport: reportRef.current, source: mode === 'camera' ? 'camera' : 'simulated' })
     } catch (e) {
       if (!(e instanceof DOMException && e.name === 'AbortError')) setPhase('position')
     }
@@ -138,115 +153,129 @@ export function CameraCheck({ onComplete }: { onComplete: (result: CameraResult)
 
   if (phase === 'intro') {
     return (
-      <section aria-labelledby="camera-intro" className="space-y-5">
-        <h2 id="camera-intro" className="text-2xl font-bold tracking-tight">
-          Look at the screen for about a minute
-        </h2>
-        <p className="max-w-xl text-[0.9375rem] leading-relaxed">
-          The camera measures your heart rate from tiny color changes in your face and tracks your blinking for signs of fatigue. While it records, you will answer three quick sliders.
-        </p>
-        <p className="max-w-xl border-l-4 border-accent pl-3 text-sm">
-          <strong>Your video never leaves this device.</strong> Frames are processed here in your browser and discarded. Nothing is recorded, saved or uploaded.
-        </p>
-        <div className="flex flex-wrap gap-3">
-          <button onClick={() => choose('camera')} className={btnPrimary}>
-            Use my camera
+      <section aria-labelledby="camera-intro" className="mc-stack">
+        <div className="mc-stack-sm">
+          <p className="mc-kicker">Step 1 · Camera</p>
+          <h2 id="camera-intro" className="mc-h2">
+            Look at the screen while the camera reads your pulse and blinking
+          </h2>
+          <p className="mc-lead">The camera measures your heart rate from tiny colour changes in your face and tracks blinking for signs of fatigue. While it reads, three quick sliders ask how you feel.</p>
+        </div>
+        <div className="mc-choices">
+          <button type="button" onClick={() => choose('camera')} className="mc-choice mc-choice-dark">
+            <span className="mc-choice-k">About 40 seconds</span>
+            <strong>Use my camera</strong>
+            <span>Your real reading, compared with your own usual.</span>
           </button>
-          <button onClick={() => choose('sample')} className={btnSecondary}>
-            Use sample recording
+          <button type="button" onClick={() => choose('sample')} className="mc-choice">
+            <span className="mc-choice-k">Demo · about 6 seconds</span>
+            <strong>Run the demo recording</strong>
+            <span>For judges or no webcam: a team member's recorded check plays at 3x, then fills in a normal reading, saved as simulated.</span>
           </button>
         </div>
-        <p className="text-sm text-muted">No webcam? The sample recording runs the same analysis on a bundled video so you can see it work.</p>
+        <p className="mc-note">
+          <strong>Your video never leaves this device.</strong> Frames are processed in your browser and thrown away. Nothing is recorded, saved or uploaded.
+        </p>
       </section>
     )
   }
 
   return (
-    <section aria-labelledby="camera-heading" className="space-y-4">
-      <h2 id="camera-heading" className="text-2xl font-bold tracking-tight">
-        {phase === 'capturing' ? 'Hold still and look at the screen' : 'Position your face'}
-      </h2>
+    <section aria-labelledby="camera-heading" className="mc-stack">
+      <div className="mc-stack-sm">
+        <p className="mc-kicker">Step 1 · Camera{sampleMode ? ' · demo run' : ''}</p>
+        <h2 id="camera-heading" className="mc-h2">
+          {phase === 'capturing' ? (sampleMode ? 'Reading the demo recording…' : 'Hold still and look at the screen') : sampleMode ? 'Demo recording ready' : 'Position your face'}
+        </h2>
+      </div>
 
       {(error || modelError) && (
-        <p role="alert" className="border-l-4 border-act pl-3 text-sm">
+        <p role="alert" className="mc-note mc-note-act">
           {error ? ERROR_COPY[error] : 'The face model could not be loaded. Reload the page and try again.'}{' '}
-          <button onClick={() => setPhase('intro')} className={linkBtn}>
+          <button onClick={() => setPhase('intro')} className="mc-link">
             Back
           </button>
         </p>
       )}
 
-      <div className="relative w-full max-w-2xl overflow-hidden rounded-[var(--r-panel)] border border-ink bg-ink">
-        <video ref={videoRef} playsInline muted aria-label="Live camera preview" className="block w-full -scale-x-100" />
-        <svg viewBox="0 0 100 75" className="pointer-events-none absolute inset-0 h-full w-full" aria-hidden>
-          <ellipse cx="50" cy="38" rx="17" ry="24" fill="none" stroke={outline} strokeWidth="1.2" strokeDasharray={checks?.ready || phase === 'capturing' ? undefined : '3 2'} />
-        </svg>
-        {!ready && !error && <p className="absolute inset-0 grid place-items-center text-sm text-paper">{sampleMode ? 'Loading sample…' : 'Starting camera…'}</p>}
-      </div>
-
-      {phase === 'position' && (
-        <>
-          <p role="status" aria-live="polite" className="font-semibold">
-            {error || modelError || !ready
-              ? ''
-              : !landmarker
-                ? 'Loading the face model…'
-                : sampleMode
-                  ? 'Sample recording ready.'
-                  : (checks?.hint ?? 'Looking for your face…')}
-          </p>
-          {!sampleMode && checks && (
-            <ul className="max-w-xl">
-              <CheckRow label="Face found" ok={checks.found} text={checks.found ? 'Yes' : 'No'} />
-              <CheckRow label="Centered" ok={checks.centered} text={checks.centered ? 'Yes' : 'Move into the outline'} />
-              <CheckRow label="Distance" ok={checks.size === 'ok'} text={checks.size === 'ok' ? 'Good' : checks.size === 'far' ? 'Too far' : 'Too close'} />
-              <CheckRow label="Light" ok={checks.light === 'ok'} text={checks.light === 'ok' ? 'Good' : checks.light === 'dark' ? 'Too dark' : 'Too bright'} />
-              <CheckRow label="Steady" ok={checks.still} text={checks.still ? 'Yes' : 'Hold still'} />
-            </ul>
-          )}
-          <div className="flex flex-wrap items-center gap-4">
-            <button onClick={() => void start()} disabled={!canStart} className={btnPrimary}>
-              Start
-            </button>
-            <button onClick={() => setPhase('intro')} className={linkBtn}>
-              Change camera source
-            </button>
-          </div>
-        </>
-      )}
-
-      {phase === 'capturing' && (
-        <div className="space-y-5">
-          <div>
-            <div className="h-2 w-full max-w-xl bg-rule" role="progressbar" aria-label="Capture progress" aria-valuemin={0} aria-valuemax={100} aria-valuenow={Math.round(progress * 100)}>
-              <div className="h-full origin-left bg-accent" style={{ transform: `scaleX(${progress})` }} />
-            </div>
-            <p className="mt-1 text-sm text-muted">{faceNow ? 'Reading…' : 'Face lost. Move back into the outline.'}</p>
-          </div>
-          <div className="max-w-xl space-y-3">
-            <p className="text-sm text-muted">While we read your pulse, answer what you like (0 is lowest, 10 is highest). Skipped questions are not saved.</p>
-            {SLIDERS.map(({ key, label }) => (
-              <OptionalSlider key={key} label={label} value={report[key]} onChange={(v) => setAnswer(key, v)} />
-            ))}
-            <label className="flex items-center justify-between gap-4 text-sm">
-              <span>Hours you slept last night</span>
-              <input
-                type="number"
-                min={0}
-                max={14}
-                step={0.5}
-                inputMode="decimal"
-                value={report.sleepHours ?? ''}
-                onChange={(e) => {
-                  const raw = e.target.value
-                  setReport(({ sleepHours: _dropped, ...rest }) => (raw === '' ? rest : { ...rest, sleepHours: Math.min(14, Math.max(0, Number(raw))) }))
-                }}
-                className="field h-11 w-24 py-0 text-right"
-              />
-            </label>
-          </div>
+      <div className="mc-capture">
+        <div className="mc-video">
+          <video ref={videoRef} playsInline muted aria-label={sampleMode ? 'Demo recording' : 'Live camera preview'} className="block w-full -scale-x-100" />
+          <svg viewBox="0 0 100 75" className="pointer-events-none absolute inset-0 h-full w-full" aria-hidden>
+            <ellipse cx="50" cy="38" rx="17" ry="24" fill="none" stroke={outline} strokeWidth="1.2" strokeDasharray={checks?.ready || phase === 'capturing' ? undefined : '3 2'} />
+          </svg>
+          {!ready && !error && <p className="absolute inset-0 grid place-items-center text-sm text-paper">{sampleMode ? 'Loading the demo recording…' : 'Starting camera…'}</p>}
+          {sampleMode && <span className="mc-badge">{phase === 'capturing' ? `Demo · ${DEMO_PLAYBACK_RATE}x speed` : 'Demo recording'}</span>}
         </div>
-      )}
+
+        <div className="mc-side">
+          {phase === 'position' && (
+            <>
+              <p role="status" aria-live="polite" className="mc-status">
+                {error || modelError || !ready
+                  ? ''
+                  : !landmarker
+                    ? 'Loading the face model…'
+                    : sampleMode
+                      ? 'Ready. The demo takes about 6 seconds.'
+                      : (checks?.hint ?? 'Looking for your face…')}
+              </p>
+              {!sampleMode && checks && (
+                <ul className="mc-checks">
+                  <CheckRow label="Face found" ok={checks.found} text={checks.found ? 'Yes' : 'No'} />
+                  <CheckRow label="Centered" ok={checks.centered} text={checks.centered ? 'Yes' : 'Move into the outline'} />
+                  <CheckRow label="Distance" ok={checks.size === 'ok'} text={checks.size === 'ok' ? 'Good' : checks.size === 'far' ? 'Too far' : 'Too close'} />
+                  <CheckRow label="Light" ok={checks.light === 'ok'} text={checks.light === 'ok' ? 'Good' : checks.light === 'dark' ? 'Too dark' : 'Too bright'} />
+                  <CheckRow label="Steady" ok={checks.still} text={checks.still ? 'Yes' : 'Hold still'} />
+                </ul>
+              )}
+              {sampleMode && <p className="mc-note">The how-you-feel answers below are filled with this crew member's usual answers. Change any you like.</p>}
+              <div className="mc-row">
+                <button onClick={() => void start()} disabled={!canStart} className="mc-btn">
+                  {sampleMode ? 'Start the demo' : 'Start'}
+                </button>
+                <button onClick={() => setPhase('intro')} className="mc-link">
+                  {sampleMode ? 'Use my camera instead' : 'Change camera source'}
+                </button>
+              </div>
+            </>
+          )}
+
+          {phase === 'capturing' && (
+            <div className="mc-stack-sm">
+              <div className="mc-progress" role="progressbar" aria-label="Capture progress" aria-valuemin={0} aria-valuemax={100} aria-valuenow={Math.round(progress * 100)}>
+                <div style={{ transform: `scaleX(${progress})` }} />
+              </div>
+              <p className="mc-status">{faceNow ? `Reading… ${Math.round(progress * 100)}%` : 'Face lost. Move back into the outline.'}</p>
+            </div>
+          )}
+
+          {(phase === 'capturing' || sampleMode) && (
+            <div className="mc-feel">
+              <p className="mc-kicker">How you feel · 0 is lowest, 10 is highest · skip any</p>
+              {SLIDERS.map(({ key, label }) => (
+                <OptionalSlider key={key} label={label} value={report[key]} onChange={(v) => setAnswer(key, v)} />
+              ))}
+              <label className="flex items-center justify-between gap-4 text-sm">
+                <span>Hours you slept last night</span>
+                <input
+                  type="number"
+                  min={0}
+                  max={14}
+                  step={0.5}
+                  inputMode="decimal"
+                  value={report.sleepHours ?? ''}
+                  onChange={(e) => {
+                    const raw = e.target.value
+                    setReport(({ sleepHours: _dropped, ...rest }) => (raw === '' ? rest : { ...rest, sleepHours: Math.min(14, Math.max(0, Number(raw))) }))
+                  }}
+                  className="field h-11 w-24 py-0 text-right"
+                />
+              </label>
+            </div>
+          )}
+        </div>
+      </div>
     </section>
   )
 }
