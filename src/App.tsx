@@ -1,5 +1,6 @@
 import { Suspense, lazy, useCallback, useEffect, useRef, useState } from 'react'
 import { DemoPanel } from './components/DemoPanel'
+import { SourcesUsed } from './proto/SourcesUsed'
 import { usePrototypeLinks } from './proto/dc'
 import {
   BodyMapPage,
@@ -74,12 +75,14 @@ function Screen() {
   // Once set up, the app opens on the Today console; the landing page stays one click away (the logo).
   const openTodayFirst = useRef(hasOnboarded() && screen === 'landing' && !new URLSearchParams(location.search).get('tour'))
   const storeReady = useProtoStore(crew, dataVersion)
-  // First visit lands in setup instead of the hero; afterwards the hero is the home screen.
+  // A first visit lands on the home page (the hero), which offers the one-minute setup; once set
+  // up, the app opens on Today.
   const [setupDone, setSetupDone] = useState(hasOnboarded)
   const finish = useCallback(() => setSetupDone(true), [])
 
   if (!ready || !storeReady) return <main style={{ padding: 32, color: 'var(--muted)' }}>Loading crew data…</main>
-  if (screen === 'onboarding' || (screen === 'landing' && !setupDone)) return <OnboardingGate onFinished={finish} />
+  if (screen === 'onboarding') return <OnboardingGate onFinished={finish} />
+  void setupDone
   if (screen === 'landing' && openTodayFirst.current) {
     openTodayFirst.current = false
     queueMicrotask(() => go('today'))
@@ -97,6 +100,9 @@ function Screen() {
         <Suspense fallback={<main style={{ padding: 32, color: 'var(--muted)' }}>Loading…</main>}>
           <MirrorCheck />
         </Suspense>
+        <div style={{ width: '100%', maxWidth: 1320, margin: '0 auto', padding: '0 clamp(16px, 3vw, 32px) 32px', boxSizing: 'border-box' }}>
+          <SourcesUsed id="checkin" />
+        </div>
       </ProtoFrame>
     )
   }

@@ -3,7 +3,13 @@
 // unchanged through the DCLogic shim. Data comes from ../data, which reads the real database.
 import React from 'react'
 import * as D from '../data'
-import { nasaSources } from '../../lib/sources'
+import { nasaSources, SOURCES } from '../../lib/sources'
+import bedrest from '../../data/bedrest.json'
+import donki from '../../data/donki-sep.json'
+
+/** Real NASA data points bundled in the app: bed-rest readings, measured dose and flux values, and solar events. */
+const NASA_VALUES = (bedrest.records as { value: unknown }[]).filter((r) => typeof r.value === 'number').length + (donki.replays as { doseRateMGyPerH: (number | null)[]; protonFluxPfu: (number | null)[] }[]).reduce((a, r) => a + r.doseRateMGyPerH.filter((x) => x !== null).length + r.protonFluxPfu.filter((x) => x !== null).length, 0) + donki.eventCount
+const isNew = () => { try { return localStorage.getItem('chm-onboarded') !== '1' } catch { return false } }
 import { DCLogic, navigate } from '../dc'
 
 export class LandingLogic extends DCLogic {
@@ -60,6 +66,8 @@ export class LandingLogic extends DCLogic {
         { k: 'Coins', v: w.coins.toLocaleString(), color: '#f6c445', delay: '600ms' },
         { k: 'Level', v: `${lv.n} · ${lv.rank}`, color: '#f3f1ea', delay: '700ms' },
       ],
+      trust: [`${NASA_VALUES.toLocaleString()} real NASA data points on board`, `${SOURCES.length} cited sources, ${nasaSources().length} from NASA`, 'Simulated crews are labeled · not a medical device'],
+      isNew: isNew(),
       heroStats: [{ k: 'check-in a day', v: '1 min' }, { k: 'health indicators', v: '28' }, { k: 'NASA sources cited', v: String(nasaSources().length) }, { k: 'days flagged in a real NASA study', v: '12 / 18' }],
       // The mission panel: where this crew is, and the planet behind them.
       missionLine: `Mission day ${D.radiationBudget(s.crew.id).missionDays + 1} · ${s.env.label}`,

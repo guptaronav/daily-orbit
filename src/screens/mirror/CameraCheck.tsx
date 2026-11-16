@@ -105,6 +105,8 @@ export function CameraCheck({ onComplete }: { onComplete: (result: CameraResult)
   async function start() {
     const video = videoRef.current
     if (!video || !landmarker || !mode) return
+    // The sample recording is about 35 s; capture its length once, never past its end.
+    const seconds = mode === 'sample' ? (Number.isFinite(video.duration) && video.duration > 10 ? Math.min(CAPTURE_SECONDS, Math.floor(video.duration) - 1) : 34) : CAPTURE_SECONDS
     if (mode === 'sample') {
       video.loop = false
       video.currentTime = 0
@@ -117,10 +119,10 @@ export function CameraCheck({ onComplete }: { onComplete: (result: CameraResult)
       const assembled = await runCapture({
         video,
         landmarker,
-        durationSec: CAPTURE_SECONDS,
+        durationSec: seconds,
         signal: abortRef.current.signal,
         onProgress: (p) => {
-          setProgress(Math.min(1, p.elapsedSec / CAPTURE_SECONDS))
+          setProgress(Math.min(1, p.elapsedSec / seconds))
           setFaceNow(p.faceFound)
         },
       })

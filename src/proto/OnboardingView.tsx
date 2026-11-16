@@ -316,7 +316,7 @@ export function OnboardingView({ v }: { v: any }) {
               ) : null}
               {(v.showSkip) ? (
                 <>
-                <a href="Body%20Map.dc.html" style={S({ whiteSpace: 'nowrap', flexShrink: '0', display: 'inline-flex', alignItems: 'center', minHeight: '52px', padding: '0 20px', borderRadius: '16px', border: '2px solid var(--rule)', borderBottomWidth: '4px', color: 'var(--muted)', textDecoration: 'none', fontSize: '15px', fontWeight: '700', letterSpacing: '.02em' })}>
+                <a href="Today.dc.html" style={S({ whiteSpace: 'nowrap', flexShrink: '0', display: 'inline-flex', alignItems: 'center', minHeight: '52px', padding: '0 20px', borderRadius: '16px', border: '2px solid var(--rule)', borderBottomWidth: '4px', color: 'var(--muted)', textDecoration: 'none', fontSize: '15px', fontWeight: '700', letterSpacing: '.02em' })}>
                   Skip for now
                 </a>
                 </>

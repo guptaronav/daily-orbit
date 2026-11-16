@@ -1,5 +1,6 @@
 import { useEffect, useState, type FormEvent } from 'react'
 import { blockState, doneToday, dueItems, isBlockDone, planFor, ROLE_DUTIES, toMinutes, type Block, type BlockState, type CustomBlock } from '../lib/schedule'
+import { SourcesUsed } from './SourcesUsed'
 import * as D from './data'
 import { ReminderSetting } from './Reminder'
 import { bridge } from './store'
@@ -282,6 +283,7 @@ export function SchedulePage() {
           </section>
         </div>
       </div>
+      <SourcesUsed id="schedule" />
     </main>
   )
 }

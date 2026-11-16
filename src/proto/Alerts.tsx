@@ -61,9 +61,9 @@ export function AlertBanner() {
         className="alert-banner" style={{ display: 'flex', alignItems: 'center', gap: 10, padding: '6px 8px 6px 14px', borderRadius: 14, background: red ? 'var(--act)' : 'var(--watch)', color: 'var(--paper)', boxShadow: '0 10px 24px -14px rgba(20,24,31,.6)', animation: 'al-pulse 1.4s ease 2' }}
       >
         <span aria-hidden="true" style={{ width: 10, height: 10, borderRadius: 99, background: 'var(--paper)', animation: 'ms-twinkle 1.2s ease-in-out infinite' }} />
-        <strong style={{ fontSize: 14, whiteSpace: 'nowrap' }}>
-          {open.length} alert{open.length === 1 ? '' : 's'} waiting for {cmo.activeName || 'the crew medical officer'}
-          {cmo.unwell ? ' (backup medical officer)' : ''}
+        <strong style={{ flex: '0 1 auto', minWidth: 0, fontSize: 14, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
+          {open.length} crew alert{open.length === 1 ? '' : 's'} for the medical officer ({cmo.activeName || 'not set'}
+          {cmo.unwell ? ', backup' : ''})
         </strong>
         <span className="alert-banner-detail" style={{ flex: '1 1 0', minWidth: 0, fontSize: 13, opacity: 0.9, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
           {open

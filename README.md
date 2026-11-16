@@ -36,6 +36,10 @@ Daily Orbit is a one-minute daily health check for astronauts on long missions. 
 
 **Tested on real NASA data.** We replayed one participant from a NASA bed-rest study day by day. The current rules hold their real weight loss at Act on **12 of 18** days (the old rules: 3), with no extra false alarms. One person on a ground analog: a sanity check, not clinical validation. See the Metrics page.
 
+**Proof on every page.** Every section that rests on a source has a *Sources used here* strip above it, with the links and a jump to the Sources page, which is grouped the same way as the site (a test checks that every one of the 87 sources is used somewhere).
+
+**Always know what's next.** Hover or tap the dock's goal button for today's list with a button for each, and from 6 pm Today opens with a wrap-up: what got done, what's still open, and how tomorrow starts. No webcam? *Use sample recording* runs the real analysis on a recorded check.
+
 **Try it fast (judges):** press **J** or click *Open judge mode* on the landing page. One click runs a story and shows where it lands: a fever, a cabin CO2 build-up, "says fine, measures tired", a faulty blood-pressure cuff, a crew-wide bad night, a real solar storm, and the Mars link. Or take the guided tour from the landing page.
 
 ## NASA data in the app

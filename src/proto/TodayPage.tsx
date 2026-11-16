@@ -1,8 +1,10 @@
 import { useEffect, useState } from 'react'
 import { readiness, type ReadinessLevel } from '../lib/readiness'
+import { SourcesUsed } from './SourcesUsed'
 import { blockState, doneToday, isBlockDone, planFor, toMinutes, type CustomBlock } from '../lib/schedule'
 import { AlertActionCard } from './AlertCare'
 import { openBodyCheck } from './BodyChecks'
+import { isEvening, NightlyOverview } from './NightlyOverview'
 import * as D from './data'
 import { openEscalation } from './EscalationAdvice'
 import * as P from './parts'
@@ -129,7 +131,7 @@ export function TodayPage() {
             <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: 16, padding: '18px 20px', borderRadius: 24, background: 'var(--accent)', color: 'var(--on-accent)' }}>
               <div style={{ flex: '1 1 260px', display: 'grid', gap: 4 }}>
                 <p style={{ ...kicker, color: '#f6c445' }}>Up next · your daily mirror check</p>
-                <strong style={{ fontSize: 'clamp(19px, 2.2vw, 24px)', letterSpacing: '-0.02em', lineHeight: 1.2 }}>About a minute. Do it now, before the day starts.</strong>
+                <strong style={{ fontSize: 'clamp(19px, 2.2vw, 24px)', letterSpacing: '-0.02em', lineHeight: 1.2 }}>{now.getHours() < 12 ? 'About a minute. Do it now, before the day starts.' : now.getHours() < 18 ? 'About a minute. Do it now, between tasks.' : 'About a minute. Do it before the day ends.'}</strong>
                 <span style={{ fontSize: 14, opacity: 0.85 }}>
                   Camera pulse, two vision checks, how you feel · +{checkIn.points} coins{streak > 0 ? ` · keeps your ${streak}-day streak` : ''}
                 </span>
@@ -216,6 +218,9 @@ export function TodayPage() {
           </div>
         </div>
       </section>
+
+      {/* In the evening: the day in one card, and how tomorrow starts */}
+      {isEvening(now) && <NightlyOverview crewId={crew.id} role={crew.role || ''} call={{ label: rd.label, color: rd.level === 'ready' ? '#7ef0c5' : rd.level === 'check' ? '#f6c445' : rd.level === 'notToday' ? '#ff8a80' : '#c7ccd6' }} />}
 
       {/* 2. Today's goals, and the day */}
       <section style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 340px), 1fr))', gap: 16, alignItems: 'start' }}>
@@ -329,6 +334,12 @@ export function TodayPage() {
           </button>
         )}
       </section>
+      <button type="button" onClick={() => go('metrics')} className="proof-line">
+        <span className="proof-k">Tested on real NASA data</span>
+        <span>One NASA bed-rest participant, replayed day by day: the flags held their real weight loss at Act on <strong>12 of 18 days</strong>, with no extra false alarms.</span>
+        <span aria-hidden="true">→</span>
+      </button>
+      <SourcesUsed id="today" />
     </main>
   )
 }

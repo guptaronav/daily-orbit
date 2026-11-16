@@ -167,7 +167,7 @@ Mapping choices that are ours, not NASA's: blink rate and eyelid closure to the 
 ## Limitations
 
 - **Webcam heart rate is not yet validated on a real face.** What is verified: the signal code on synthetic data (unit tests), and that the bundled model + WASM load locally in about 0.1 s with no CDN. What is NOT verified: ROI placement on a real face, real-world prominence/motion/light thresholds, GPU vs CPU delegate speed, and accuracy against a pulse oximeter. Calibrate using the mirror check on a laptop and a phone, then record results here.
-- The sample recording (`public/sample/mirror.webm`) has not been recorded yet; the app shows "not available yet" until it exists.
+- The sample recording (`public/sample/mirror.webm`, 2026-11-15): 24 s of a team member's real mirror check, cut from a screen recording of the app (seconds 36.1 to 60.0, where the page sits still). It was cropped to the camera box, the app's blue face oval was painted out by filling from the pixels on either side of it, and the frames were re-encoded to 640x474 VP9 at 30 fps. The capture on the sample runs for the clip's length (about 22 s; the minimum is 10 s). It is a screen capture of a webcam preview, so its pulse signal is weaker than a live camera's, and the app stores a sample run as simulated.
 
 ## Status
 

@@ -7,6 +7,7 @@ import { LogoMark } from './Logo'
 import { FloatingCrew } from './FloatingCrew'
 import { BannerScene } from './MissionScene'
 import { AlertBanner } from './Alerts'
+import { openSourcesAt } from './SourcesUsed'
 import { AskOrbit } from './AskOrbit'
 import { ReminderBanner } from './Reminder'
 import { ReportButton } from './ReportButton'
@@ -191,6 +192,9 @@ export function TopBarView({ v }: { v: any }) {
                 </div>
                 </>
               ) : null}
+              <button type="button" onClick={() => openSourcesAt('missions')} style={S({ margin: '8px 4px 2px', border: '0', background: 'transparent', padding: '4px 10px', color: 'var(--accent)', fontWeight: '700', fontSize: '12.5px', textDecoration: 'underline', cursor: 'pointer', textAlign: 'left' })}>
+                Where these mission facts come from →
+              </button>
             </div>
             </>
           ) : null}

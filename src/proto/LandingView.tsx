@@ -20,8 +20,11 @@ export function LandingView({ v }: { v: any }) {
                   <span aria-hidden="true" style={S({ width: '18px', height: '18px', borderRadius: '99px', background: 'radial-gradient(circle at 35% 35%, #ffe08a, #f6c445 55%, #a8740a)' })} />
                   NASA Space Apps Challenge 2026
                 </span>
-                <span className="hero-chip">Works offline</span>
-                <span className="hero-chip">Nothing leaves this device</span>
+                {(v.trust ?? []).map((t: string) => (
+                  <a key={t} href="Sources.dc.html" className="hero-chip" style={S({ color: 'var(--ink)', textDecoration: 'none' })}>
+                    {t}
+                  </a>
+                ))}
               </p>
               <h1 id="hero-heading" style={S({ margin: '0', fontSize: 'clamp(44px, 6.6vw, 96px)', lineHeight: '.92', fontWeight: '780', letterSpacing: '-0.055em', textWrap: 'balance', animation: 'ld-rise 700ms 80ms cubic-bezier(.22,1,.36,1) both' })}>
                 A minute a day <br className="hero-br" />keeps <span className="hero-accent">the crew flying.</span>
@@ -49,6 +52,13 @@ export function LandingView({ v }: { v: any }) {
                   2-minute tour
                 </button>
               </div>
+              {v.isNew ? (
+                <a href="Onboarding.dc.html" className="hero-new" style={S({ animation: 'ld-rise 700ms 260ms cubic-bezier(.22,1,.36,1) both' })}>
+                  <span aria-hidden="true">✦</span>
+                  <span><strong>New here?</strong> Set up in a minute: pick a crew member and a mission, then do your first check. Your first 50 coins are waiting.</span>
+                  <span aria-hidden="true">→</span>
+                </a>
+              ) : null}
               <p style={S({ margin: '-6px 0 0', fontSize: '14px', color: 'var(--muted)', animation: 'ld-rise 700ms 280ms cubic-bezier(.22,1,.36,1) both' })}>
                 Judging?{' '}
                 <button type="button" onClick={() => window.dispatchEvent(new CustomEvent('judge:open'))} style={S({ border: '0', background: 'transparent', padding: '0', color: 'var(--accent)', textDecoration: 'underline', fontWeight: '700', cursor: 'pointer', font: 'inherit' })}>
