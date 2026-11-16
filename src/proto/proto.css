@@ -394,3 +394,6 @@
 @media (prefers-reduced-motion: reduce) {
   .hero-stars, .hero-halo, .hero-live { animation: none !important; }
 }
+
+/* ---- Alert banner: one line; on a phone the detail drops so the count and Review stay ---- */
+@media (max-width: 640px) { .alert-banner-detail { display: none; } }

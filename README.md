@@ -16,26 +16,27 @@ Daily Orbit is a one-minute daily health check for astronauts on long missions. 
 
 1. **Mirror check (about a minute).** The webcam reads pulse and blinking, two quick vision tests check each eye, and a few taps record sleep, mood and symptoms. If the light or framing is bad, it asks for a retake instead of guessing.
 2. **Compared with your own normal.** Every reading is checked against that person's own baseline, never a population average: green, yellow (Watch), red (Act), or gray (not enough good data).
-3. **What to do next.** Today shows one next step and anything that needs attention. Related readings that drift together raise a pattern with a care plan.
-4. **Who to tell.** Ask Orbit "What should I do?" and it walks a four-step ladder: self-care, crewmate, crew medical officer, flight surgeon. If the medical officer is the one who is sick, a backup takes over. You choose what gets sent to Earth.
+3. **Go, Go with limits, or No-go.** Today makes one mission call from your own readings, patterns and alerts, shows the checks behind it, and gives one next step. Related readings that drift together raise a pattern with a care plan.
+4. **Whose change is it?** Before anyone escalates, each reading alert checks whether the change is yours, shared by the whole crew (air, food, schedule), or a faulty sensor, so a broken cuff never climbs the ladder.
+5. **Who to tell.** Ask Orbit "What should I do?" and it walks a four-step ladder: self-care, crewmate, crew medical officer, flight surgeon. If the medical officer is the one who is sick, a backup takes over. You choose what gets sent to Earth, and on Mars it takes today's real light time to arrive.
 
 ## What's in it
 
 | Page | What it does |
 |---|---|
-| **Today** | Your next step, readiness, today's goals and what needs attention |
+| **Today** | Today's Go / No-go call, your next step, today's goals and what needs attention |
 | **Check in** | The one-minute mirror check |
 | **Log** | Readings (blood pressure, temperature, blood sugar, sleep, exercise, body mass), food and water, the alertness test, and body checks (pain map, stand-up test, weekly workload and mood, grip strength) |
-| **Body** | A clickable body map of six regions, patterns with care plans, and NASA's five hazards, including the radiation budget and a replay of a real solar storm |
-| **Crew** | Everyone at once, the alert loop for the crew medical officer, who to tell, and what is sent to Earth (with the real message delay) |
+| **Body** | A clickable body map of six regions, patterns with care plans, NASA's five hazards (with a replay of a real solar storm), and a **mission forecast** of bone loss and career radiation to the end of the mission |
+| **Crew** | Everyone at once, the alert loop for the crew medical officer, who to tell, and the ground link: Earth and Mars where they really are today, and the next solar-conjunction blackout |
 | **Rewards** | Streaks, levels, mission pass and locker. Coins pay for showing up, never for a health value, so nobody has a reason to hide a bad day |
 | **More** | Mission schedule, metrics, sources. The page icon in the header opens the weekly report for the flight surgeon |
 
-**28 indicators**, including all six the brief names (blood pressure, heart rate, blood sugar, body temperature, sleep hours, mood). Missions: ISS, the Moon, Mars transit and Mars surface, each with its real message delay.
+**28 indicators**, including all six the brief names (blood pressure, heart rate, blood sugar, body temperature, sleep hours, mood). Missions: ISS, the lunar surface, a **lunar pressurized rover**, Mars transit and a Mars surface base. On Mars, the message delay is today's real light time, computed from JPL's planet positions (10.9 minutes on 16 Nov 2026), with the next blackout when the Sun sits between Earth and Mars.
 
 **Tested on real NASA data.** We replayed one participant from a NASA bed-rest study day by day. The current rules hold their real weight loss at Act on **12 of 18** days (the old rules: 3), with no extra false alarms. One person on a ground analog: a sanity check, not clinical validation. See the Metrics page.
 
-**Try it fast:** take the 60-second tour from the landing page, or press **Shift+D** for demo stories (a fever, poor sleep, a CO2 build-up).
+**Try it fast (judges):** press **J** or click *Open judge mode* on the landing page. One click runs a story and shows where it lands: a fever, a cabin CO2 build-up, "says fine, measures tired", a faulty blood-pressure cuff, a crew-wide bad night, a real solar storm, and the Mars link. Or take the guided tour from the landing page.
 
 ## NASA data in the app
 
@@ -45,12 +46,13 @@ Daily Orbit is a one-minute daily health check for astronauts on long missions. 
 | [NASA DONKI solar particle events](https://ccmc.gsfc.nasa.gov/DONKI-API/get/SEP) | Body, Five hazards: the storms you can replay and when the shelter alert fires |
 | [LRO CRaTER dose rates](https://iswa.gsfc.nasa.gov/IswaSystemWebApp/hapi/info?id=CRaTER) (NASA iSWA) | The hour-by-hour dose in the solar storm replay |
 | [GOES proton flux](https://iswa.gsfc.nasa.gov/IswaSystemWebApp/hapi/info?id=goesp_part_flux_P5M) (NASA iSWA) | Storm strength shown in the replay (context only, not used in the dose) |
+| [JPL planet positions](https://ssd.jpl.nasa.gov/planets/approx_pos.html) (Keplerian elements, 1800 to 2050) | Today's real Earth-Mars distance and light time, and the next solar-conjunction blackout (tested against the January 2025 closest approach and the November 2023 conjunction) |
 
 All data is bundled when the app is built; the app makes no network calls while you use it. Crews 1 and 2 are simulated, and every screen says so.
 
 ## Sources
 
-Every health explanation in the app cites one of these **83 sources: 59 NASA pages**, plus 24 from NIH, MedlinePlus, PubMed, the Canadian Space Agency and the University of Washington. Click a group to open it. The same list is in the app under More, Sources, and in [`src/content/sources.json`](src/content/sources.json).
+Every health explanation in the app cites one of these **87 sources: 63 NASA pages**, plus 24 from NIH, MedlinePlus, PubMed, the Canadian Space Agency and the University of Washington. Click a group to open it. The same list is in the app under More, Sources, and in [`src/content/sources.json`](src/content/sources.json).
 
 <details>
 <summary><b>NASA Human Research Program: risks and hazards</b> (25)</summary>
@@ -58,8 +60,6 @@ Every health explanation in the app cites one of these **83 sources: 59 NASA pag
 | Source | Where and how it is used |
 |---|---|
 | [NASA Human Research Program - Risks](https://www.nasa.gov/hrp/risks) | Every indicator: names its NASA risk |
-| [NASA Spaceflight Standard Measures](https://www.nasa.gov/reference/standard-measures/) | Every indicator: the measurement category it relates to, and the categories we do not cover |
-| [NASA-STD-3001 Technical Brief: Radiation Protection (OCHMO-TB-020)](https://www.nasa.gov/wp-content/uploads/2023/12/ochmo-tb-020-radiation-protection.pdf) | Radiation dose: the 600 mSv career limit and the surface-habitat design ceiling |
 | [NASA HRP - Five Hazards of Human Spaceflight](https://www.nasa.gov/hrp/hazards/) | Body, Five hazards: the hazard framing |
 | [NASA HRP: Five Hazards of Human Spaceflight](https://www.nasa.gov/hrp/hazards) | Body, Five hazards: background |
 | [Gravity Fields hazard (NASA HRP)](https://www.nasa.gov/hrp/hazard-gravity-fields/) | Five hazards: bone loss, fluid shift |
@@ -78,7 +78,7 @@ Every health explanation in the app cites one of these **83 sources: 59 NASA pag
 | [Risk of Spaceflight Associated Neuro-ocular Syndrome (SANS)](https://www.nasa.gov/reference/risk-of-spaceflight-associated-neuro-ocular-syndrome-sans/) | Eyes: background on fluid shift and vision |
 | [Risk of Radiation-Induced Cancers](https://www.nasa.gov/reference/risk-of-radiation-induced-cancers/) | Radiation dose: every answer |
 | [Risk of Inadequate Food and Nutrition (NASA)](https://www.nasa.gov/reference/risk-of-inadequate-food-and-nutrition/) | Food and water, body mass, appetite |
-| [Risk of Spaceflight-Induced Bone Changes (NASA)](https://www.nasa.gov/reference/risk-of-spaceflight-induced-bone-changes/) | Exercise, skeleton: bone loss |
+| [Risk of Spaceflight-Induced Bone Changes (NASA)](https://www.nasa.gov/reference/risk-of-spaceflight-induced-bone-changes/) | Forecast, exercise, skeleton: 1 to 1.5% bone loss a month |
 | [Risk of Reduced Cardiorespiratory and Musculoskeletal Fitness (NASA)](https://www.nasa.gov/reference/risk-of-reduced-cardiorespiratory-and-musculoskeletal-fitness/) | Exercise, grip strength: fitness loss |
 | [Risk of Reduced Physical Performance Capabilities Due to Reduced Muscle Size, Strength, and Endurance (NASA)](https://www.nasa.gov/directorates/esdmd/hhp/muscle-risk/) | Grip strength, pain map: muscle loss |
 | [Evidence Report: Risk of Cardiovascular Adaptations (NASA HRP, 2022)](https://humanresearchroadmap.nasa.gov/evidence/reports/Cardio%20Risk%20EB%202022%20FINAL_4-3-2023.pdf) | Stand-up test: dizziness after landing |
@@ -88,7 +88,7 @@ Every health explanation in the app cites one of these **83 sources: 59 NASA pag
 </details>
 
 <details>
-<summary><b>NASA standards and technical briefs</b> (12)</summary>
+<summary><b>NASA standards and technical briefs</b> (14)</summary>
 
 | Source | Where and how it is used |
 |---|---|
@@ -104,11 +104,13 @@ Every health explanation in the app cites one of these **83 sources: 59 NASA pag
 | [5.0 Training (NASA-STD-3001 reference)](https://www.nasa.gov/reference/5-0-training/) | Crew: the crew medical officer role |
 | [NASA Task Load Index (NASA-TLX), NASA Ames Human Systems Integration](https://humansystems.arc.nasa.gov/groups/TLX/) | Body checks: weekly workload (NASA-TLX) |
 | [Fatigue Countermeasures Laboratory (NASA Ames)](https://www.nasa.gov/human-systems-integration-division/human-performance/fatigue-countermeasures-laboratory/) | Blink rate: fatigue tracking in space |
+| [NASA Spaceflight Standard Measures](https://www.nasa.gov/reference/standard-measures/) | Every indicator: its NASA Standard Measures category |
+| [NASA-STD-3001 Technical Brief: Radiation Protection (OCHMO-TB-020)](https://www.nasa.gov/wp-content/uploads/2023/12/ochmo-tb-020-radiation-protection.pdf) | Radiation: the 600 mSv career limit and forecast |
 
 </details>
 
 <details>
-<summary><b>NASA station, mission and science pages</b> (20)</summary>
+<summary><b>NASA station, mission and science pages</b> (24)</summary>
 
 | Source | Where and how it is used |
 |---|---|
@@ -131,6 +133,10 @@ Every health explanation in the app cites one of these **83 sources: 59 NASA pag
 | [NASA Science: Radiation Measurements on Mars (Curiosity RAD)](https://science.nasa.gov/resource/radiation-measurements-on-mars/) | Mission menu: Mars surface radiation |
 | [JPL video: Living on Mars Time](https://www.jpl.nasa.gov/videos/living-on-mars-time/) | Mission menu: living on Mars time |
 | [Space Communications: 7 Things You Need to Know](https://www.nasa.gov/centers-and-facilities/goddard/space-communications-7-things-you-need-to-know/) | Mission menu, ground link: message delay |
+| [Approximate Positions of the Planets (JPL Solar System Dynamics, E. M. Standish)](https://ssd.jpl.nasa.gov/planets/approx_pos.html) | Mars missions: today's real distance and message delay |
+| [Mars Missions to Pause Commanding in June, Due to Sun (NASA JPL, 2015)](https://www.jpl.nasa.gov/news/mars-missions-to-pause-commanding-in-june-due-to-sun/) | Ground link: the solar conjunction blackout |
+| [NASA, Japan Advance Space Cooperation, Sign Agreement for Lunar Rover (NASA, 2024)](https://www.nasa.gov/news-release/nasa-japan-advance-space-cooperation-sign-agreement-for-lunar-rover/) | Rover mission: two crew, up to 30 days |
+| [Habitability Considerations for a Notional Five-Day Small Pressurized Rover Excursion (NASA NTRS)](https://ntrs.nasa.gov/citations/20210021307) | Rover mission: cabin life, medical conferences, fatigue |
 | [Commercial Crew Spacecraft Will Offer a Quick Escape from Station](https://www.nasa.gov/humans-in-space/commercial-crew-spacecraft-will-offer-a-quick-escape-from-station/) | Escalation: emergency return from the ISS |
 
 </details>

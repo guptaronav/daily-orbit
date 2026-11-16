@@ -58,14 +58,14 @@ export function AlertBanner() {
       <div
         key={pulse}
         role="alert"
-        style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: 10, padding: '10px 14px', borderRadius: 16, background: red ? 'var(--act)' : 'var(--watch)', color: 'var(--paper)', boxShadow: '0 10px 24px -14px rgba(20,24,31,.6)', animation: 'al-pulse 1.4s ease 2' }}
+        className="alert-banner" style={{ display: 'flex', alignItems: 'center', gap: 10, padding: '6px 8px 6px 14px', borderRadius: 14, background: red ? 'var(--act)' : 'var(--watch)', color: 'var(--paper)', boxShadow: '0 10px 24px -14px rgba(20,24,31,.6)', animation: 'al-pulse 1.4s ease 2' }}
       >
         <span aria-hidden="true" style={{ width: 10, height: 10, borderRadius: 99, background: 'var(--paper)', animation: 'ms-twinkle 1.2s ease-in-out infinite' }} />
-        <strong style={{ fontSize: 14.5 }}>
+        <strong style={{ fontSize: 14, whiteSpace: 'nowrap' }}>
           {open.length} alert{open.length === 1 ? '' : 's'} waiting for {cmo.activeName || 'the crew medical officer'}
           {cmo.unwell ? ' (backup medical officer)' : ''}
         </strong>
-        <span style={{ fontSize: 13.5, opacity: 0.9 }}>
+        <span className="alert-banner-detail" style={{ flex: '1 1 0', minWidth: 0, fontSize: 13, opacity: 0.9, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
           {open
             .slice(0, 2)
             .map((a) => `${a.crewName}: ${a.title}`)
@@ -73,7 +73,7 @@ export function AlertBanner() {
           {open.length > 2 ? ` · +${open.length - 2} more` : ''} · oldest {timeAgo(oldest)}
           {worstEsc === 2 ? ' · unanswered over an hour: time to tell Earth' : worstEsc === 1 ? ' · the backup has been asked too' : ''}
         </span>
-        <button type="button" onClick={() => bridge.go?.('medical' as never)} style={{ marginLeft: 'auto', minHeight: 36, padding: '0 14px', borderRadius: 10, border: 0, background: '#fff', color: '#14181f', fontWeight: 750, cursor: 'pointer' }}>
+        <button type="button" onClick={() => bridge.go?.('medical' as never)} style={{ marginLeft: 'auto', flex: '0 0 auto', minHeight: 32, padding: '0 14px', borderRadius: 10, border: 0, background: '#fff', color: '#14181f', fontWeight: 750, cursor: 'pointer' }}>
           Review
         </button>
       </div>

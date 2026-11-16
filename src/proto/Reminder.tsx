@@ -46,6 +46,8 @@ export function ReminderBanner({ here = '' }: { here?: string }) {
   const [h, m] = set.time.split(':').map(Number)
   if (now.getHours() * 60 + now.getMinutes() < h * 60 + m) return null
   if ((D.game(id) as { today: { checkIn: boolean } }).today.checkIn) return null
+  // One banner at a time: an open alert matters more, and Today still offers the check.
+  if (here !== 'Medical view' && (D.alerts() as { state: string }[]).some((a) => a.state === 'open')) return null
   let snooze: Snooze = {}
   try {
     snooze = JSON.parse(localStorage.getItem(snoozeKey(id)) || '{}')
